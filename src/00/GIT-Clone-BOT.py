@@ -14,7 +14,7 @@ for repository in repositories.list:
                 repo = git.Repo.clone_from(repository, local_repo_directory, branch='master')
                 print("- Master branch")
             except git.exc.GitCommandError:
-                print("- No Main/Master branch found")
+                print("- No Main/Master branches found")
 
     except git.exc.GitCommandError as e:
         print()
