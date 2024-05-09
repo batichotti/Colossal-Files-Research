@@ -1,5 +1,5 @@
 import git
-from input import Repos as repositories
+import input.Repos as repositories
 
 for repository in repositories.list:
     local_repo_directory = f"./src/00/output/{repository.split('/')[-2]}_{repository.split('/')[-1]}"
