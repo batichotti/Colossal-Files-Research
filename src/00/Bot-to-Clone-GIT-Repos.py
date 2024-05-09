@@ -17,7 +17,7 @@ for repository in repositories.list:
                 repo.git.checkout('master')
                 print(" Master branch")
             except git.exc.GitCommandError:
-                print("Nenhuma branch principal (main ou master) encontrada no repositório.")
+                print("No Main/Master branch found")
     except git.exc.GitCommandError as e:
         if 'already exists and is not an empty directory' in e.stderr:
             print("Destination path already exists and is not an empty directory.")
