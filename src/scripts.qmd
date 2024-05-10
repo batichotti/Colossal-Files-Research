@@ -6,14 +6,18 @@
 
 ## CLoC
 
-### Script 00 (Year Zero) - GIT Clone BOT
-
-This script is responsible for the local clone of the repositories that will be analyzed by CLoC, for this we use the previous list of projects
+### Setup
 
 ```{python}
 import git
 from _00.input import Repos as repositories
+```
 
+### Script 00 (**Year Zero**) - GIT Clone BOT
+
+This script is responsible for the local clone of the repositories that will be analyzed by CLoC, for this we use the previous list of projects
+
+```{python}
 for repository in repositories.list:
     local_repo_directory = f"./_00/output/{repository.split('/')[-2]}_{repository.split('/')[-1]}"
     print(f"{repository.split('/')[-2]}/{repository.split('/')[-1]}", end="")
@@ -39,3 +43,7 @@ for repository in repositories.list:
 print('DONE!')
 
 ```
+
+### Script 00.1 (**The Imitation Game**) - CLoC BOT
+
+This script is responsible for automating the CLoC analysis for all clones made before.
