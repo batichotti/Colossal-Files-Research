@@ -11,6 +11,8 @@
 ```{python}
 import git
 from _00.input import Repos as repositories
+
+from os import path, listdir, system
 ```
 
 ### Script 00 (**Year Zero**) - GIT Clone BOT
@@ -47,3 +49,19 @@ print('DONE!')
 ### Script 01 (**The Imitation Game**) - CLoC BOT
 
 This script is responsible for automating the CLoC analysis for all clones made before.
+
+```{python}
+
+clones_folder = './src/_00/output'
+output_folder = './src/_01/output'
+CLoC_path = path.dirname(path.abspath("cloc.exe"))  # CLoc.exe path
+system(f'cd {CLoc_path}')
+
+for file in listdir(clones_folder):
+    file_name = path.join(file)
+    if path.exists(f'output/{file_name}.csv'):
+        print(f"O arquivo {file_name}.csv já existe \n")
+    else:
+        system(f'cloc --by-file-by-lang --csv --out {output_folder}/{file_name}.csv {clones_folder}/{file_name}')
+        print(f'\n Arquivo {file_name}.csv criado \n')
+```
