@@ -15,7 +15,7 @@ from _00.input import Repos as repositories
 
 ### Script 00 (**Year Zero**) - GIT Clone BOT
 
-This script is responsible for the local clone of the repositories that will be analyzed by CLoC, for this we use the previous list of projects
+This script is responsible for the local clone of the repositories that will be analyzed by CLoC, for this we use the previous list of projects.
 
 ```{python}
 for repository in repositories.list:
