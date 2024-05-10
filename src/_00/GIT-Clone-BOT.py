@@ -2,7 +2,7 @@ import git
 import input.Repos as repositories
 
 for repository in repositories.list:
-    local_repo_directory = f"./src/00/output/{repository.split('/')[-2]}_{repository.split('/')[-1]}"
+    local_repo_directory = f"./src/_00/output/{repository.split('/')[-2]}_{repository.split('/')[-1]}"
     print(f"{repository.split('/')[-2]}/{repository.split('/')[-1]}", end="")
 
     try:
