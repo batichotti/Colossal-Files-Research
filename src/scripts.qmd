@@ -12,10 +12,10 @@ This script is responsible for the local clone of the repositories that will be 
 
 ```{python}
 import git
-from input import Repos as repositories
+from _00.input import Repos as repositories
 
 for repository in repositories.list:
-    local_repo_directory = f"./src/00/output/{repository.split('/')[-2]}_{repository.split('/')[-1]}"
+    local_repo_directory = f"./_00/output/{repository.split('/')[-2]}_{repository.split('/')[-1]}"
     print(f"{repository.split('/')[-2]}/{repository.split('/')[-1]}", end="")
 
     try:
