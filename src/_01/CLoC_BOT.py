@@ -5,19 +5,15 @@ import platform
 clones_folder = './src/_00/output'
 output_folder = './src/_01/output'
 
-if platform.system() == 'Windows':
-    CLoC_path = path.abspath("./src/_01/input/cloc.exe")  # CLoC.exe path
-    system(f'{CLoC_path}')
-else:
-    CLoC_path = 'cloc'
-    system(f'{CLoC_path}')
+#open CLoC
+cloc_path = path.abspath("./src/_01/input/cloc.exe")  # CLoC.exe path
+system(f'{cloc_path}')
 
-system(f'{CLoC_path} --help')
-
+#running CLoC for each cloned repositories
 for repo in listdir(clones_folder):
     repo_name = path.join(repo)
     if path.exists(f'{output_folder}/{repo_name}.csv'):
         print(f"\033[31mDestination path (\033[35m{repo_name}.csv\033[31m) already exists and is not an empty directoryn\033[m")
     else:
-        system(f'{CLoC_path} --by-file-by-lang --csv --out {output_folder}/{repo_name}.csv {clones_folder}/{repo_name}')
+        system(f'{cloc_path} --by-file-by-lang --csv --out {output_folder}/{repo_name}.csv {clones_folder}/{repo_name}')
         print(f'\n File \033[35m{repo_name}.csv\033[m was created successfully \n')

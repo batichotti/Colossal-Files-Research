@@ -8,9 +8,9 @@
 
 ### Setup
 
-### Script 00 (**The Imitation Game***) - GIT Clone BOT
+### Script 00 (**Replicante***) - GIT Clone BOT
 
-This script is responsible for the local clone of the repositories (main/marster brach) that will be analyzed by CLoC, for this we use the previous projects' list.
+This script is responsible for the local clone of the repositories (main/marster brach) that will be analyzed by CLoC, for this we use the previous projects list.
 
 *IMPORT*
 
@@ -49,7 +49,7 @@ print('DONE!')
 
 ```
 
-### Script 01 (**Sherlock Holmes**) - CLoC BOT
+### Script 01 (**The Imitation Game**) - CLoC BOT
 
 This script is responsible for automating the CLoC analysis for all clones made before.
 
@@ -66,14 +66,18 @@ from os import path, listdir, system
 
 clones_folder = './src/_00/output'
 output_folder = './src/_01/output'
-CLoC_path = path.dirname(path.abspath("cloc.exe"))  # CLoc.exe path
-system(f'cd {CLoc_path}')
 
-for file in listdir(clones_folder):
-    file_name = path.join(file)
-    if path.exists(f'output/{file_name}.csv'):
-        print(f"O arquivo {file_name}.csv já existe \n")
+#open CLoC
+cloc_path = path.abspath("./src/_01/input/cloc.exe")  # CLoC.exe path
+system(f'{cloc_path}')
+
+#running CLoC for each cloned repositories
+for repo in listdir(clones_folder):
+    repo_name = path.join(repo)
+    if path.exists(f'{output_folder}/{repo_name}.csv'):
+        print(f"\033[31mDestination path (\033[35m{repo_name}.csv\033[31m) already exists and is not an empty directoryn\033[m")
     else:
-        system(f'cloc --by-file-by-lang --csv --out {output_folder}/{file_name}.csv {clones_folder}/{file_name}')
-        print(f'\n Arquivo {file_name}.csv criado \n')
+        system(f'{cloc_path} --by-file-by-lang --csv --out {output_folder}/{repo_name}.csv {clones_folder}/{repo_name}')
+        print(f'\n File \033[35m{repo_name}.csv\033[m was created successfully \n')
+
 ```
