@@ -8,14 +8,13 @@
 
 ### Setup
 
+### Script 00 (**The Imitation Game***) - GIT Clone BOT
+
 ```{python}
 import git
 import _00.input.Repos as repositories
 
-from os import path, listdir, system
 ```
-
-### Script 00 (**The Imitation Game***) - GIT Clone BOT
 
 This script is responsible for the local clone of the repositories (main/marster brach) that will be analyzed by CLoC, for this we use the previous projects' list.
 
@@ -47,6 +46,11 @@ print('DONE!')
 ```
 
 ### Script 01 (**???**) - CLoC BOT
+
+```{python}
+from os import path, listdir, system
+
+```
 
 This script is responsible for automating the CLoC analysis for all clones made before.
 
