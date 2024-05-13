@@ -4,10 +4,7 @@ import platform
 
 clones_folder = './src/_00/output'
 output_folder = './src/_01/output'
-
-#open CLoC
 cloc_path = path.abspath("./src/_01/input/cloc.exe")  # CLoC.exe path
-system(f'{cloc_path}')
 
 #running CLoC for each cloned repositories
 for repo in listdir(clones_folder):
