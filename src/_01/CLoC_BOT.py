@@ -10,26 +10,25 @@ def formater(output_folder='./output'):
             arquivo_csv = reader(arquivo, delimiter=',')
             lista_csv = list(arquivo_csv)
             for i, linha in enumerate(lista_csv):
-                if len(linha) == 6 and linha[0] != "project" and linha[0] != file[:-4]:
+                project_name = file.split('_')[1][:-4]
+                author_name = file.split('_')[0]
+                if len(linha) == 6 and linha[0] != "project" and linha[0] != project_name:
                     linha.insert(0, "project")
                     linha.insert(1, "author")
-                    
+                    linha[3] = "path"
+                    linha.insert(4, "filename")
+                    del linha[-1]
                 elif len(linha) == 5 and linha[0] != file[:-4]:
-                    project_name = file.split('_')[1]
-                    author_name = file.split('_')[0]
-                    if project_name.endswith('.py'):
-                        project_name = project_name[:-4]
                     linha.insert(0, project_name)
                     linha.insert(1, author_name)
-                if len(linha) == 7:
-                    lista_csv[i].remove(linha[-1])
-                if linha[1] == 'SUM' and linha[2] == '':
+                    linha.insert(4, linha[3].split('\\')[-1])
+                if linha[2] == 'SUM' and linha[3] == '':
                     del lista_csv[i:]
         arquivo.close()
         with open(f'{output_folder}/{file}', 'w', newline='') as arquivo:
             writer_ = writer(arquivo)
             writer_.writerows(lista_csv)
-            print(f'\nO Arquivo {file} foi formatado com sucesso \n')
+            print(f'\nO Arquivo \033[35m{file}\033[m foi formatado com sucesso \n')
 
 
 clones_folder = './src/_00/output'
