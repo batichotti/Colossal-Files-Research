@@ -8,19 +8,19 @@ for repository in repositories.list:
     try:
         try:
             repo = git.Repo.clone_from(repository, local_repo_directory, branch='main')
-            print("- Main branch")
+            print(" -> Main branch")
         except git.exc.GitCommandError:
             try:
                 repo = git.Repo.clone_from(repository, local_repo_directory, branch='master')
-                print("- Master branch")
+                print(" -> Master branch")
             except git.exc.GitCommandError:
-                print("- No Main/Master branches found")
+                print(" -> \033[31mNo Main/Master branches found\033[m")
 
     except git.exc.GitCommandError as e:
         print()
         if "already exists and is not an empty directory" in e.stderr:
-            print("Destination path already exists and is not an empty directory.")
+            print("\033[31mDestination path already exists and is not an empty directory\033[m")
         else:
-            print("An error occurred:", e)
+            print(f"\033[31mAn error occurred: {e}\033[m")
 
 print('DONE!')
