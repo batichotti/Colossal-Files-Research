@@ -24,3 +24,4 @@ for repository in repositories.list:
             print(f"\033[31mAn error occurred: {e}\033[m")
 
 print('DONE!')
+

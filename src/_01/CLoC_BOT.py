@@ -3,8 +3,8 @@ from os import path, listdir, system
 
 clones_folder = './src/_00/output'
 output_folder = './src/_01/output'
-#CLoC_path = path.dirname(path.abspath("./src/_01/input/cloc.exe"))  # CLoC.exe path
-#system(f'cd {CLoC_path}')
+CLoC_path = path.abspath("./src/_01/input/cloc.exe")  # CLoC.exe path
+system(f'{CLoC_path}')
 
 for repo in listdir(clones_folder):
     repo_name = path.join(repo)
