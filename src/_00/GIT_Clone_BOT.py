@@ -1,7 +1,7 @@
 import git
 import pandas as pd
 
-input_path = './src/_00/input/600_Starred_Projects_N2.csv'
+input_path = './src/_00/input/600_Starred_Projects_N.csv'
 input_file = pd.read_csv(input_path)
 output_path = './src/_00/output'
 
