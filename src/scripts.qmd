@@ -8,7 +8,7 @@
 
 ### Setup
 
-### Script 00 (**Replicante***) - GIT Clone BOT
+### Script 00 (**Replicant***) - GIT Clone BOT
 
 This script is responsible for the local clone of the repositories (main/marster brach) that will be analyzed by CLoC, for this we use the previous projects list.
 
@@ -18,16 +18,20 @@ This script is responsible for the local clone of the repositories (main/marster
 #| echo: true
 
 import git
-import _00.input.Repos as repositories
+import pandas as pd
 
 ```
 
 *CODE*
 
 ```{python}
-for repository in repositories.list:
-    local_repo_directory = f"./_00/output/{repository.split('/')[-2]}_{repository.split('/')[-1]}"
-    print(f"{repository.split('/')[-2]}/{repository.split('/')[-1]}", end="")
+input_path = './src/_00/input/600_Starred_Projects_N2.csv'
+input_file = pd.read_csv(input_path)
+output_path = './src/_00/output'
+
+for repository, language in zip(input_file['url'], input_file['main language']):
+    local_repo_directory = f"{output_path}/{language}/{repository.split('/')[-2]}~{repository.split('/')[-1]}"
+    print(f"{repository.split('/')[-2]}~{repository.split('/')[-1]}", end="")
 
     try:
         try:
@@ -61,24 +65,54 @@ This script is responsible for automating the CLoC analysis for all clones made 
 #| echo: true
 
 from os import path, listdir, system
+from platform import system as op_sys
 
 ```
 
 *CODE*
 
 ```{python}
+def formater(file_path:str):
+    file = pd.read_csv(file_path)
 
-clones_folder = './src/_00/output'
-output_folder = './src/_01/output'
-cloc_path = path.abspath("./src/_01/input/cloc.exe")  # CLoC.exe path
+    columns_to_remove = [col for col in file.columns if col.startswith("github.com/AlDanial/cloc")]
+    file = file.drop(columns=columns_to_remove) # removing watermark
 
-#running CLoC for each cloned repositories
-for repo in listdir(clones_folder):
-    repo_name = path.join(repo)
-    if path.exists(f'{output_folder}/{repo_name}.csv'):
-        print(f"\033[31mDestination path (\033[35m{repo_name}.csv\033[31m) already exists and is not an empty directoryn\033[m")
-    else:
-        system(f'{cloc_path} --by-file-by-lang --csv --out {output_folder}/{repo_name}.csv {clones_folder}/{repo_name}')
-        print(f'\n File \033[35m{repo_name}.csv\033[m was created successfully \n')
+    sum_index = file.index[file.iloc[:, 0].str.startswith("SUM")]
+    file = file.loc[:sum_index[0] - 1] if sum_index.any() else file # removing lines that we are not interested in
+
+    file = file.rename(columns={'filename':'path'})
+
+    file['owner'] = file['path'].apply(lambda x: x.split('\\')[5].split('~')[0])
+    file['project'] = file['path'].apply(lambda x: x.split('\\')[5].split('~')[1])
+    file['file'] = file['path'].apply(lambda x: x.split('\\')[-1]) # adding columns to the owner, project, and file name
+
+    file = file[['path', 'owner', 'project', 'file', 'language', 'code', 'comment', 'blank']] # rearranging csv
+
+    file.to_csv(file_path)
+
+```
+
+```{python}
+input_path = './src/_00/output'
+output_path = './src/_01/output'
+
+if op_sys() == "Windows":
+    cloc = path.abspath("./src/_01/input/cloc.exe")  # CLoC.exe path
+else:
+    cloc = 'cloc' # REMEMBER TO INSTALL CLOC
+
+# running CLoC for each cloned repositorysitories
+for language in listdir(input_path):
+    language_path = path.join(input_path, language)
+    for repository in listdir(language_path):
+        if path.exists(f'{output_path}/{language}/{repository}.csv'):
+            print(f"\033[31mDestination path (\033[35m{repository}.csv\033[31m) already exists and is not an empty directoryn\033[m")
+        else:
+            system(f'{cloc} --by-file-by-lang --csv --out {output_path}/{language}/{repository}.csv {input_path}/{language}/{repository}')
+            
+            new_formater(f'{output_path}/{language}/{repository}.csv')
+
+            print(f'\n File \033[35m{repository}.csv\033[m was created successfully \n')
 
 ```

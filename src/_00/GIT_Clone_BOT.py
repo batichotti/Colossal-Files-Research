@@ -1,11 +1,12 @@
 import git
 import pandas as pd
 
-input_path = './src/_00/input/600_Starred_Projects_N.csv'
+input_path = './src/_00/input/600_Starred_Projects_N2.csv'
 input_file = pd.read_csv(input_path)
+output_path = './src/_00/output'
 
-for repository in input_file['url']:
-    local_repo_directory = f"./src/_00/output/{repository.split('/')[-2]}~{repository.split('/')[-1]}"
+for repository, language in zip(input_file['url'], input_file['main language']):
+    local_repo_directory = f"{output_path}/{language}/{repository.split('/')[-2]}~{repository.split('/')[-1]}"
     print(f"{repository.split('/')[-2]}~{repository.split('/')[-1]}", end="")
 
     try:
@@ -27,4 +28,3 @@ for repository in input_file['url']:
             print(f"\033[31mAn error occurred: {e}\033[m")
 
 print('DONE!')
-
