@@ -9,7 +9,6 @@ output_path = './src/_00/output'
 start = datetime.now()
 
 for repository, language in zip(input_file['url'], input_file['main language']):
-    start_i = datetime.now()
     local_repo_directory = f"{output_path}/{language}/{repository.split('/')[-2]}~{repository.split('/')[-1]}"
     print(f"{repository.split('/')[-2]}~{repository.split('/')[-1]}", end="")
 
@@ -31,12 +30,7 @@ for repository, language in zip(input_file['url'], input_file['main language']):
         else:
             print(f"\033[31mAn error occurred: {e}\033[m")
 
-    end_i = datetime.now()
-    time = pd.DataFrame({'start' : [start_i],'end':[end_i],'time_expended':[end_i-start_i]})
-    time.to_csv(f'{output_path}/{language}/{repository.split('/')[-2]}~{repository.split('/')[-1]}~time.csv')
-
 end = datetime.now()
-
 time = pd.DataFrame({'start' : start, 'end':end, 'time_expended':[end-start]})
 time.to_csv(f'{output_path}/time~total.csv')
 

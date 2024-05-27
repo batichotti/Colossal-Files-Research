@@ -1,6 +1,7 @@
 from os import path, listdir, system
 from platform import system as op_sys
 import pandas as pd
+from datetime import datetime
 
 def formater(file_path:str):
     file = pd.read_csv(file_path)
@@ -24,6 +25,8 @@ def formater(file_path:str):
 input_path = './src/_00/output'
 output_path = './src/_01/output'
 
+start = datetime.now()
+
 if op_sys() == "Windows":
     cloc = path.abspath("./src/_01/input/cloc.exe")  # CLoC.exe path
 else:
@@ -31,14 +34,18 @@ else:
 
 # running CLoC for each cloned repositorysitories
 for language in listdir(input_path):
-    language_path = path.join(input_path, language)
-    for repository in listdir(language_path):
-        if path.exists(f'{output_path}/{language}/{repository}.csv'):
-            print(f"\033[31mDestination path (\033[35m{repository}.csv\033[31m) already exists and is not an empty directoryn\033[m")
-        else:
-            system(f'{cloc} --by-file-by-lang --csv --out {output_path}/{language}/{repository}.csv {input_path}/{language}/{repository}') # runing CLoC
-            
-            formater(f'{output_path}/{language}/{repository}.csv')
+    if language != f'time~total.csv':
+        language_path = path.join(input_path, language)
+        for repository in listdir(language_path):
+            if path.exists(f'{output_path}/{language}/{repository}.csv'):
+                print(f"\033[31mDestination path (\033[35m{repository}.csv\033[31m) already exists and is not an empty directoryn\033[m")
+            else:
+                system(f'{cloc} --by-file-by-lang --csv --out {output_path}/{language}/{repository}.csv {input_path}/{language}/{repository}') # runing CLoC
+                
+                formater(f'{output_path}/{language}/{repository}.csv')
 
-            print(f'\n File \033[35m{repository}.csv\033[m was created successfully \n')
+                print(f'\n File \033[35m{repository}.csv\033[m was created successfully \n')
             
+end = datetime.now()
+time = pd.DataFrame({'start' : start, 'end':end, 'time_expended':[end-start]})
+time.to_csv(f'{output_path}/time~total.csv')
