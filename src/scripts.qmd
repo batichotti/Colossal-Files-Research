@@ -81,7 +81,7 @@ from platform import system as op_sys
 
 ```{python}
 def formater(file_path:str):
-    file = pd.read_csv(file_path)
+    file = pd.read_csv(file_path, low_memory='False', delimiter=DELIMITER)
 
     columns_to_remove = [col for col in file.columns if col.startswith("github.com/AlDanial/cloc")]
     file = file.drop(columns=columns_to_remove) # removing watermark
