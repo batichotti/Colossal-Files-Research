@@ -2,9 +2,11 @@ from os import path, listdir, system
 from platform import system as op_sys
 import pandas as pd
 from datetime import datetime
+delimitador = ';'
+
 
 def formater(file_path:str):
-    file = pd.read_csv(file_path)
+    file = pd.read_csv(file_path, low_memory='False', delimiter=delimitador)
 
     columns_to_remove = [col for col in file.columns if col.startswith("github.com/AlDanial/cloc")]
     file = file.drop(columns=columns_to_remove) # removing watermark
@@ -32,7 +34,7 @@ if op_sys() == "Windows":
 else:
     cloc = 'cloc' # REMEMBER TO INSTALL CLOC
 
-# running CLoC for each cloned repositorysitories
+# running CLoC for each cloned repositories
 for language in listdir(input_path):
     if language != f'time~total.csv':
         language_path = path.join(input_path, language)
@@ -40,7 +42,7 @@ for language in listdir(input_path):
             if path.exists(f'{output_path}/{language}/{repository}.csv'):
                 print(f"\033[31mDestination path (\033[35m{repository}.csv\033[31m) already exists and is not an empty directoryn\033[m")
             else:
-                system(f'{cloc} --by-file-by-lang --csv --out {output_path}/{language}/{repository}.csv {input_path}/{language}/{repository}') # runing CLoC
+                system(f'{cloc} --by-file-by-lang --csv --csv-delimiter=<{delimitador}> --out {output_path}/{language}/{repository}.csv {input_path}/{language}/{repository}') # runing CLoC
                 
                 formater(f'{output_path}/{language}/{repository}.csv')
 
