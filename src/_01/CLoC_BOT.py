@@ -2,6 +2,7 @@ from os import path, listdir, system, remove
 from platform import system as op_sys
 import pandas as pd
 
+
 def formater(file_path:str, separator:str=','):
     try:
         file = pd.read_csv(file_path, sep=separator, low_memory=False)
@@ -30,6 +31,7 @@ def formater(file_path:str, separator:str=','):
         remove(file_path)
         print(f'\033[31mSeparator fucked up, reestract with Windows(\033[35m{file_path}.csv\033[31m)\033[m')
 
+
 input_path = './src/_00/output'
 output_path = './src/_01/output'
 
@@ -50,7 +52,7 @@ for language in listdir(input_path):
             else:
                 if op_sys() == "Linux":
                     SEPARATOR = ','
-                    system(f'{cloc} --by-file-by-lang --out={output_path}/{language}/{repository}.csv {input_path}/{language}/{repository}') # warning with commas and pseudo 7 columns 
+                    system(f'{cloc} --by-file-by-lang --csv --out={output_path}/{language}/{repository}.csv {input_path}/{language}/{repository}') # warning with commas and pseudo 7 columns 
                 else:
                     system(f'{cloc} --by-file-by-lang --csv-delimiter="{SEPARATOR}" --out={output_path}/{language}/{repository}.csv {input_path}/{language}/{repository}') # runing CLoC
                 formater(f'{output_path}/{language}/{repository}.csv', SEPARATOR)
