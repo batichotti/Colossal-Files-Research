@@ -47,7 +47,7 @@ for language in listdir(input_path):
             if path.exists(f'{output_path}/{language}/{repository}.csv'):
                 print(f"\033[31mDestination path (\033[35m{repository}.csv\033[31m) already exists and is not an empty directoryn\033[m")
             else:
-                system(f'{cloc} --by-file-by-lang --csv-delimiter="{SEPARATOR}" --out {output_path}/{language}/{repository}.csv {input_path}/{language}/{repository}') # runing CLoC
+                system(f'{cloc} --by-file-by-lang --csv-delimiter="{SEPARATOR}" --out={output_path}/{language}/{repository}.csv {input_path}/{language}/{repository}') # runing CLoC
                 formater(f'{output_path}/{language}/{repository}.csv', SEPARATOR)
                 
                 # system(f'{cloc} --by-file-by-lang --csv --out {output_path}/{language}/{repository}.csv {input_path}/{language}/{repository}') # for Linux
