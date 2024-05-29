@@ -1,7 +1,6 @@
 from os import path, listdir, system, remove
 from platform import system as op_sys
 import pandas as pd
-SEPARATOR = '|'
 
 def formater(file_path:str, separator:str=','):
     try:
@@ -34,6 +33,8 @@ def formater(file_path:str, separator:str=','):
 input_path = './src/_00/output'
 output_path = './src/_01/output'
 
+SEPARATOR = '|'
+
 if op_sys() == "Windows":
     cloc = path.abspath("./src/_01/input/cloc.exe")  # CLoC.exe path
 else:
@@ -48,6 +49,7 @@ for language in listdir(input_path):
                 print(f"\033[31mDestination path (\033[35m{repository}.csv\033[31m) already exists and is not an empty directoryn\033[m")
             else:
                 if op_sys() == "Linux":
+                    SEPARATOR = ','
                     system(f'{cloc} --by-file-by-lang --out={output_path}/{language}/{repository}.csv {input_path}/{language}/{repository}') # warning with commas and pseudo 7 columns 
                 else:
                     system(f'{cloc} --by-file-by-lang --csv-delimiter="{SEPARATOR}" --out={output_path}/{language}/{repository}.csv {input_path}/{language}/{repository}') # runing CLoC
