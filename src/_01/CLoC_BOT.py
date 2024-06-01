@@ -51,7 +51,7 @@ for language in listdir(input_path):
                     system(f'{cloc} --by-file-by-lang --csv-delimiter="{SEPARATOR}" --out {output_path}/{language}/{repository}.csv {input_path}/{language}/{repository}') # runing CLoC
                     formater(f'{output_path}/{language}/{repository}.csv', SEPARATOR)
                 else:               
-                    system(f'{cloc} --by-file-by-lang --csv --out {output_path}/{language}/{repository}.csv {input_path}/{language}/{repository}') # for Linux
+                    system(f'{cloc} --by-file-by-lang --csv --out={output_path}/{language}/{repository}.csv {input_path}/{language}/{repository}') # for Linux
                     formater(f'{output_path}/{language}/{repository}.csv')
                 
                 if path.exists(f'{output_path}/{language}/{repository}.csv'):
