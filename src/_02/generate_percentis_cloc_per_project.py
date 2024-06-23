@@ -34,5 +34,5 @@ for language_dir in os.listdir(path_01_output):
             all_output_dataframes.append(output_dataframe)
 
 final_output_dataframe = pd.concat(all_output_dataframes, ignore_index=True)
-output_file_path = os.path.join('src/_02/output', 'out.csv')
+output_file_path = os.path.join('src/_02/output', 'percentis_by_project.csv')
 final_output_dataframe.to_csv(output_file_path, index=False)
