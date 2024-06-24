@@ -8,7 +8,7 @@
 
 ### Setup
 
-### Script 00 (**Replicant***) - GIT Clone BOT
+### Script 00 (**Blade Runner**) - GIT Clone BOT
 
 This script is responsible for the local clone of the repositories (main/marster brach) that will be analyzed by CLoC, for this we use the previous projects list.
 
@@ -131,3 +131,5 @@ time = pd.DataFrame({'start' : start, 'end':end, 'time_expended':[end-start]})
 time.to_csv(f'{output_path}/time~total.csv')
 
 ```
+
+### Script 02 (**The Wolf of Wall Street**) - CLoC Percentiles
