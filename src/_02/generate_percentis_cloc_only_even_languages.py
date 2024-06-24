@@ -5,7 +5,6 @@ import os
 path_01_output = 'src/_01/output'
 all_dataframes = []
 
-# Loop through each language directory and read the files
 for language_dir in os.listdir(path_01_output):
     language_dir_path = os.path.join(path_01_output, language_dir)
     for file in os.listdir(language_dir_path):
@@ -16,15 +15,12 @@ for language_dir in os.listdir(path_01_output):
         dataframe['owner'] = file.split('~')[0]
         all_dataframes.append(dataframe)
 
-# Combine all dataframes into one
 combined_dataframe = pd.concat(all_dataframes, ignore_index=True)
 
-# Filter the dataframe where language matches project language
 filtered_dataframe = combined_dataframe[combined_dataframe['language'] == combined_dataframe['project language']]
 grouped = filtered_dataframe.groupby('project language')
 output_dataframes = []
 
-# Calculate percentiles and round them up
 for lang, group in grouped:
     code_percentiles = group['code'].describe(percentiles=[0.25, 0.5, 0.75, 0.90, 0.95, 0.97, 0.98, 0.99]).transpose()
     
@@ -43,14 +39,11 @@ for lang, group in grouped:
     
     output_dataframes.append(output_dataframe)
 
-# Combine all output dataframes into one final dataframe
 final_output_dataframe = pd.concat(output_dataframes, ignore_index=True)
 
-# Save the final dataframe to a CSV file
 output_file_path = os.path.join('src/_02/output', 'percentis_even_languages.csv')
 final_output_dataframe.to_csv(output_file_path, index=False)
 
-# Filter the dataframe for specific languages and save to another CSV file
 filtered_languages = ["C", "C#", "C++", "Dart", "Elixir", "Go", "Haskell", "Java", "JavaScript", "Kotlin", "Lua", "Objective-C", "Perl", "PHP", "Python", "Ruby", "Rust", "Scala", "Swift", "TypeScript"]
 output_filtered = final_output_dataframe[final_output_dataframe['language'].isin(filtered_languages)]
 output_file_path_filtered = os.path.join('src/_02/output', 'percentis_even_languages_filtered.csv')
