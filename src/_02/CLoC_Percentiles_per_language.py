@@ -2,11 +2,13 @@ import pandas as pd
 import numpy as np
 import os
 
-path_01_output = 'src/_01/output'
+input_path = 'src/_01/output'
+output_path = 'src/_02/output'
+
 all_dataframes = []
 
-for language_dir in os.listdir(path_01_output):
-    language_dir_path = os.path.join(path_01_output, language_dir)
+for language_dir in os.listdir(input_path):
+    language_dir_path = os.path.join(input_path, language_dir)
     for file in os.listdir(language_dir_path):
         file_path = os.path.join(language_dir_path, file)
         dataframe = pd.read_csv(file_path, sep='|')
@@ -16,9 +18,7 @@ for language_dir in os.listdir(path_01_output):
         all_dataframes.append(dataframe)
 
 combined_dataframe = pd.concat(all_dataframes, ignore_index=True)
-
-filtered_dataframe = combined_dataframe[combined_dataframe['language'] == combined_dataframe['project language']]
-grouped = filtered_dataframe.groupby('project language')
+grouped = combined_dataframe.groupby('language')
 output_dataframes = []
 
 for lang, group in grouped:
@@ -26,7 +26,7 @@ for lang, group in grouped:
     
     output_dataframe = pd.DataFrame({
         'language': lang,
-        '#': [len(group)],
+        '#': len(group),
         'percentil 25': [np.ceil(code_percentiles['25%'])],
         'percentil 50': [np.ceil(code_percentiles['50%'])],
         'percentil 75': [np.ceil(code_percentiles['75%'])],
@@ -40,11 +40,8 @@ for lang, group in grouped:
     output_dataframes.append(output_dataframe)
 
 final_output_dataframe = pd.concat(output_dataframes, ignore_index=True)
-
-output_file_path = os.path.join('src/_02/output', 'percentis_even_languages.csv')
-final_output_dataframe.to_csv(output_file_path, index=False)
+final_output_dataframe.to_csv(f'{output_path}/percentis_by_language.csv', index=False)
 
 filtered_languages = ["C", "C#", "C++", "Dart", "Elixir", "Go", "Haskell", "Java", "JavaScript", "Kotlin", "Lua", "Objective-C", "Perl", "PHP", "Python", "Ruby", "Rust", "Scala", "Swift", "TypeScript"]
 output_filtered = final_output_dataframe[final_output_dataframe['language'].isin(filtered_languages)]
-output_file_path_filtered = os.path.join('src/_02/output', 'percentis_even_languages_filtered.csv')
-output_filtered.to_csv(output_file_path_filtered, index=False)
+output_filtered.to_csv(f'{output_path}/percentis_by_language_filtered.csv', index=False)

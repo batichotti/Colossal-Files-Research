@@ -2,12 +2,14 @@ import pandas as pd
 import numpy as np
 import os
 
-path_01_output = 'src/_01/output'
+input_path = 'src/_01/output'
+output_path = 'src/_02/output'
+
 all_output_dataframes = []
 
 # Loop through each language directory and read the files
-for language_dir in os.listdir(path_01_output):
-    language_dir_path = os.path.join(path_01_output, language_dir)
+for language_dir in os.listdir(input_path):
+    language_dir_path = os.path.join(input_path, language_dir)
     for file in os.listdir(language_dir_path):
         file_path = os.path.join(language_dir_path, file)
         dataframe = pd.read_csv(file_path, sep='|')
@@ -36,6 +38,4 @@ for language_dir in os.listdir(path_01_output):
             all_output_dataframes.append(output_dataframe)
 
 final_output_dataframe = pd.concat(all_output_dataframes, ignore_index=True)
-
-output_file_path = os.path.join('src/_02/output', 'percentis_by_project.csv')
-final_output_dataframe.to_csv(output_file_path, index=False)
+final_output_dataframe.to_csv(f'{output_path}/percentis_by_project.csv', index=False)
