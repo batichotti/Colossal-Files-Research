@@ -37,5 +37,9 @@ for language_dir in os.listdir(input_path):
             })
             all_output_dataframes.append(output_dataframe)
 
+filtered_languages = ["C", "C#", "C++", "Dart", "Elixir", "Go", "Haskell", "Java", "JavaScript", "Kotlin", "Lua", "Objective-C", "Perl", "PHP", "Python", "Ruby", "Rust", "Scala", "Swift", "TypeScript"]
 final_output_dataframe = pd.concat(all_output_dataframes, ignore_index=True)
 final_output_dataframe.to_csv(f'{output_path}/percentis_by_project.csv', index=False)
+
+output_filtered = final_output_dataframe[final_output_dataframe['code language'].isin(filtered_languages)]
+output_filtered.to_csv(f'{output_path}/percentis_by_project_filtered.csv', index=False)
