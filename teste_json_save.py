@@ -22,11 +22,11 @@ for commit in Repository('https://github.com/refinedmods/refinedstorage2').trave
                 'new_path': mod.new_path,
                 'filename': mod.filename,
                 'change_type': str(mod.change_type),
-                'added': mod.added,
-                'deleted': mod.deleted,
+                'added_lines': mod.added_lines,
+                'deleted_lines': mod.deleted_lines,
                 'nloc': mod.nloc,
                 'complexity': mod.complexity
-            } for mod in commit.modifications
+            } for mod in commit.modified_files
         ],
         'project_path': str(commit.project_path),
         'deletions': commit.deletions,
