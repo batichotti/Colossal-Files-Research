@@ -1,18 +1,30 @@
 from pydriller import Repository
 import pickle
 
-commits_data = []
-i = 1
-for commit in Repository('https://github.com/iptv-org/iptv').traverse_commits():
-    with open(f'commit_{i}', 'ab') as arquivo_binario:
-      pickle.dump(commit, arquivo_binario)
-    i += 1
+# commits_data = []
+# i = 1
+# for commit in Repository('https://github.com/iptv-org/iptv').traverse_commits():
+#     with open(f'commit_{i}', 'ab') as arquivo_binario:
+#       pickle.dump(commit, arquivo_binario)
+#     i += 1
 
 
-with open("commit_1", "rb") as arquivo_binario:
+# with open("commit_1", "rb") as arquivo_binario:
+#   while True:
+#     try:
+#         obj = pickle.load(arquivo_binario)
+#         print(obj.author.name)
+#     except EOFError:
+#         break
+
+with open('commits', 'ab') as arquivo_binario:
+       pickle.dump(Repository('https://github.com/AlDanial/cloc').traverse_commits(), arquivo_binario)
+
+with open('commits', 'rb') as arquivo_binario:
   while True:
     try:
-        obj = pickle.load(arquivo_binario)
-        print(obj.author.name)
+      obj = pickle.load(arquivo_binario)
+      print(type(arquivo_binario))
     except EOFError:
-        break
+      print('zikou foi tudo')
+      break
