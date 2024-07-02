@@ -1,9 +1,10 @@
 from pydriller import Repository
 import json
+import time
 
 commits_data = []
 i = 1
-
+start_time = time.time()
 for commit in Repository('https://github.com/refinedmods/refinedstorage2').traverse_commits():
     commit_dict = {
         'hash': commit.hash,
@@ -39,7 +40,8 @@ for commit in Repository('https://github.com/refinedmods/refinedstorage2').trave
     with open(f'commit_{i}.json', 'w', encoding='utf-8') as json_file:
         json.dump(commit_dict, json_file, ensure_ascii=False, indent=4)
     i += 1
-
+end_time = time.time()
+print(f'Execution time: \033[35m{(end_time-start_time)/60} minutes for {i} commits\033[m')
 with open("commit_1.json", "r", encoding='utf-8') as json_file:
     commit_data = json.load(json_file)
     print(commit_data['author_email'])
