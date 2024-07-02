@@ -1,0 +1,45 @@
+from pydriller import Repository
+import json
+
+commits_data = []
+i = 1
+
+for commit in Repository('https://github.com/refinedmods/refinedstorage2').traverse_commits():
+    commit_dict = {
+        'hash': commit.hash,
+        'author': commit.author.name,
+        'author_email': commit.author.email,
+        'author_date': str(commit.author_date),
+        'committer': commit.committer.name,
+        'committer_email': commit.committer.email,
+        'committer_date': str(commit.committer_date),
+        'msg': commit.msg,
+        'parents': commit.parents,
+        'merge': commit.merge,
+        'modifications': [
+            {
+                'old_path': mod.old_path,
+                'new_path': mod.new_path,
+                'filename': mod.filename,
+                'change_type': str(mod.change_type),
+                'added': mod.added,
+                'deleted': mod.deleted,
+                'nloc': mod.nloc,
+                'complexity': mod.complexity
+            } for mod in commit.modifications
+        ],
+        'project_path': str(commit.project_path),
+        'deletions': commit.deletions,
+        'insertions': commit.insertions,
+        'lines': commit.lines,
+        'dmm_unit_size': commit.dmm_unit_size,
+        'dmm_unit_complexity': commit.dmm_unit_complexity,
+        'dmm_unit_interfacing': commit.dmm_unit_interfacing,
+    }
+    with open(f'commit_{i}.json', 'w', encoding='utf-8') as json_file:
+        json.dump(commit_dict, json_file, ensure_ascii=False, indent=4)
+    i += 1
+
+with open("commit_1.json", "r", encoding='utf-8') as json_file:
+    commit_data = json.load(json_file)
+    print(commit_data['author_email'])
