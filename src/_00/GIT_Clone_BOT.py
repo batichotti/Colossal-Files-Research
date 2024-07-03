@@ -8,28 +8,16 @@ output_path = './src/_00/output'
 
 start = datetime.now()
 
-for repository, language in zip(input_file['url'], input_file['main language']):
+for repository, language, branch in zip(input_file['url'], input_file['main language'], input_file['branch']):
     local_repo_directory = f"{output_path}/{language}/{repository.split('/')[-2]}~{repository.split('/')[-1]}"
     print(f"{repository.split('/')[-2]}~{repository.split('/')[-1]}", end="")
-
+    
     try:
         try:
-            repo = git.Repo.clone_from(repository, local_repo_directory, branch='main')
+            repo = git.Repo.clone_from(repository, local_repo_directory, branch=branch)
             print(" -> Main branch")
         except git.exc.GitCommandError:
-            try:
-                repo = git.Repo.clone_from(repository, local_repo_directory, branch='master')
-                print(" -> Master branch")
-            except git.exc.GitCommandError:
-                try:
-                    repo = git.Repo.clone_from(repository, local_repo_directory, branch='2023.x')
-                    print(" -> 2023.x")
-                except git.exc.GitCommandError:
-                    try:
-                        repo = git.Repo.clone_from(repository, local_repo_directory, branch='3.2')
-                        print(" -> 3.2")
-                    except git.exc.GitCommandError:
-                        print(" -> \033[31mNo Main/Master branches found\033[m")
+            print(" -> \033[31mNo Main/Master branches found\033[m")
 
     except git.exc.GitCommandError as e:
         print()

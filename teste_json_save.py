@@ -36,6 +36,7 @@ for commit in Repository('https://github.com/refinedmods/refinedstorage2').trave
     i += 1
 end_time = time.time()
 print(f'Execution time: \033[35m{(end_time-start_time)/60} minutes for {i} commits\033[m')
+
 with open("commit_1.json", "r", encoding='utf-8') as json_file:
     commit_data = json.load(json_file)
     print(commit_data['author_email'])
