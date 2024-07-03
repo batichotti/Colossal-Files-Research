@@ -16,13 +16,11 @@ for commit in Repository('https://github.com/refinedmods/refinedstorage2').trave
         'committer_email': commit.committer.email,
         'committer_date': str(commit.committer_date),
         'msg': commit.msg,
-        'parents': commit.parents,
         'merge': commit.merge,
         'modifications': [
             {
                 'old_path': mod.old_path,
                 'new_path': mod.new_path,
-                'filename': mod.filename,
                 'change_type': str(mod.change_type),
                 'added_lines': mod.added_lines,
                 'deleted_lines': mod.deleted_lines,
@@ -32,11 +30,7 @@ for commit in Repository('https://github.com/refinedmods/refinedstorage2').trave
         ],
         'project_path': str(commit.project_path),
         'deletions': commit.deletions,
-        'insertions': commit.insertions,
-        'lines': commit.lines,
-        'dmm_unit_size': commit.dmm_unit_size,
-        'dmm_unit_complexity': commit.dmm_unit_complexity,
-        'dmm_unit_interfacing': commit.dmm_unit_interfacing,
+        'insertions': commit.insertions
     }
     with open(f'commit_{i}.json', 'w', encoding='utf-8') as json_file:
         json.dump(commit_dict, json_file, ensure_ascii=False, indent=4)
