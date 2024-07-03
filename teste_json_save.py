@@ -16,7 +16,6 @@ for commit in Repository('https://github.com/refinedmods/refinedstorage2').trave
         'committer_email': commit.committer.email,
         'committer_date': str(commit.committer_date),
         'msg': commit.msg,
-        'merge': commit.merge,
         'modifications': [
             {
                 'old_path': mod.old_path,
