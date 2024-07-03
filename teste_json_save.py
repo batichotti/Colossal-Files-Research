@@ -2,6 +2,7 @@ from pydriller import Repository
 import json
 import time
 
+
 commits_data = []
 i = 1
 start_time = time.time()
