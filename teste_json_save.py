@@ -6,7 +6,7 @@ import time
 commits_data = []
 i = 1
 start_time = time.time()
-for commit in Repository('https://github.com/refinedmods/refinedstorage2').traverse_commits():
+for commit in Repository('https://github.com/AlDanial/cloc').traverse_commits():
     commit_dict = {
         'hash': commit.hash,
         'author': commit.author.name,
@@ -27,16 +27,17 @@ for commit in Repository('https://github.com/refinedmods/refinedstorage2').trave
                 'complexity': mod.complexity
             } for mod in commit.modified_files
         ],
+        '# files': commit.files,
         'project_path': str(commit.project_path),
         'deletions': commit.deletions,
         'insertions': commit.insertions
     }
-    with open(f'commit_{i}.json', 'w', encoding='utf-8') as json_file:
+    with open(f'peak\\commit_{i}.json', 'w', encoding='utf-8') as json_file:
         json.dump(commit_dict, json_file, ensure_ascii=False, indent=4)
     i += 1
 end_time = time.time()
 print(f'Execution time: \033[35m{(end_time-start_time)/60} minutes for {i} commits\033[m')
 
-with open("commit_1.json", "r", encoding='utf-8') as json_file:
+with open("peak\\commit_1.json", "r", encoding='utf-8') as json_file:
     commit_data = json.load(json_file)
     print(commit_data['author_email'])
