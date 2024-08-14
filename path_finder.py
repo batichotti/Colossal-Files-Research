@@ -12,4 +12,9 @@ filtered_df = merged_df[merged_df['code'] >= merged_df['percentil 99']]
 
 final_df = filtered_df[['path', 'owner', 'project', 'language', 'code']]
 
+final_df.to_csv('lf_node.csv', index=False)
+
 print(final_df)
+
+#min_code_per_language = final_df.loc[final_df.groupby('language')['code'].idxmin()]
+#print(min_code_per_language)
