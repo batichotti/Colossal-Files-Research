@@ -1,7 +1,7 @@
 import pandas as pd
 
-csv_node = 'D:\\documentos\\GitHub\\Titan-Files-Research\\src\\_01\\output\\JavaScript\\nodejs~node.csv'
-csv_meta = 'src\\_02\\output\\percentis_by_language_filtered.csv'
+csv_node = './src/_01/output/JavaScript/nodejs~node.csv'
+csv_meta = './src/_02/output/percentis_by_language_filtered.csv'
 
 df_node = pd.read_csv(csv_node, delimiter='|')
 df_meta = pd.read_csv(csv_meta)
