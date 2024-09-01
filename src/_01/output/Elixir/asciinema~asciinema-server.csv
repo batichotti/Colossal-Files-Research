@@ -1,255 +1,317 @@
-Unnamed: 0|path|owner|project|file|language|code|comment|blank
-0|./src/_00/output/Elixir/asciinema~asciinema-server/assets/package-lock.json|asciinema|asciinema-server|package-lock.json|JSON|5633|0|0
-1|./src/_00/output/Elixir/asciinema~asciinema-server/test/fixtures/welcome.json|asciinema|asciinema-server|welcome.json|JSON|3154|0|0
-2|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/recordings.ex|asciinema|asciinema-server|recordings.ex|Elixir|458|1|96
-3|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/controllers/recording_svg.ex|asciinema|asciinema-server|recording_svg.ex|Elixir|324|36|64
-4|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/accounts.ex|asciinema|asciinema-server|accounts.ex|Elixir|285|0|70
-5|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/recordings/snapshot.ex|asciinema|asciinema-server|snapshot.ex|Elixir|267|0|63
-6|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/controllers/recording_controller.ex|asciinema|asciinema-server|recording_controller.ex|Elixir|265|2|54
-7|./src/_00/output/Elixir/asciinema~asciinema-server/test/controllers/recording_controller_test.exs|asciinema|asciinema-server|recording_controller_test.exs|Elixir|235|0|99
-8|./src/_00/output/Elixir/asciinema~asciinema-server/test/asciinema/recordings/snapshot_test.exs|asciinema|asciinema-server|snapshot_test.exs|Elixir|217|0|20
-9|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/streaming/live_stream_server.ex|asciinema|asciinema-server|live_stream_server.ex|Elixir|215|3|67
-10|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/live_stream_producer_socket.ex|asciinema|asciinema-server|live_stream_producer_socket.ex|Elixir|212|2|64
-11|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/themes.ex|asciinema|asciinema-server|themes.ex|Elixir|205|0|13
-12|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/controllers/recording_html.ex|asciinema|asciinema-server|recording_html.ex|Elixir|191|0|42
-13|./src/_00/output/Elixir/asciinema~asciinema-server/assets/css/_base.scss|asciinema|asciinema-server|_base.scss|Sass|177|0|39
-14|./src/_00/output/Elixir/asciinema~asciinema-server/config/runtime.exs|asciinema|asciinema-server|runtime.exs|Elixir|168|6|50
-15|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/live_stream_consumer_socket.ex|asciinema|asciinema-server|live_stream_consumer_socket.ex|Elixir|156|2|44
-16|./src/_00/output/Elixir/asciinema~asciinema-server/native/vt_nif/src/lib.rs|asciinema|asciinema-server|lib.rs|Rust|149|0|40
-17|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/router.ex|asciinema|asciinema-server|router.ex|Elixir|144|1|44
-18|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/controllers/user_controller.ex|asciinema|asciinema-server|user_controller.ex|Elixir|141|0|29
-19|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/streaming.ex|asciinema|asciinema-server|streaming.ex|Elixir|137|0|26
-20|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/recordings/output.ex|asciinema|asciinema-server|output.ex|Elixir|131|2|36
-21|./src/_00/output/Elixir/asciinema~asciinema-server/test/asciinema/recordings_test.exs|asciinema|asciinema-server|recordings_test.exs|Elixir|130|0|29
-22|./src/_00/output/Elixir/asciinema~asciinema-server/test/controllers/user_controller_test.exs|asciinema|asciinema-server|user_controller_test.exs|Elixir|128|0|42
-23|./src/_00/output/Elixir/asciinema~asciinema-server/test/asciinema_test.exs|asciinema|asciinema-server|asciinema_test.exs|Elixir|124|1|31
-24|./src/_00/output/Elixir/asciinema~asciinema-server/test/controllers/api/live_stream_controller_test.exs|asciinema|asciinema-server|live_stream_controller_test.exs|Elixir|122|0|30
-25|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web.ex|asciinema|asciinema-server|asciinema_web.ex|Elixir|119|29|41
-26|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/live/live_stream_status_live.ex|asciinema|asciinema-server|live_stream_status_live.ex|Elixir|116|0|22
-27|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/emails/email.ex|asciinema|asciinema-server|email.ex|Elixir|115|0|27
-28|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/auth.ex|asciinema|asciinema-server|auth.ex|Elixir|108|1|25
-29|./src/_00/output/Elixir/asciinema~asciinema-server/test/support/factory.ex|asciinema|asciinema-server|factory.ex|Elixir|106|0|18
-30|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/player_opts.ex|asciinema|asciinema-server|player_opts.ex|Elixir|101|0|24
-31|./src/_00/output/Elixir/asciinema~asciinema-server/assets/css/_recording_card.scss|asciinema|asciinema-server|_recording_card.scss|Sass|100|0|15
-32|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/file_store/s3.ex|asciinema|asciinema-server|s3.ex|Elixir|100|0|25
-33|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/components/core_components.ex|asciinema|asciinema-server|core_components.ex|Elixir|95|0|21
-34|./src/_00/output/Elixir/asciinema~asciinema-server/test/controllers/api/recording_controller_test.exs|asciinema|asciinema-server|recording_controller_test.exs|Elixir|92|1|17
-35|./src/_00/output/Elixir/asciinema~asciinema-server/.github/workflows/test.yml|asciinema|asciinema-server|test.yml|YAML|89|0|6
-36|./src/_00/output/Elixir/asciinema~asciinema-server/assets/css/_recording_show.scss|asciinema|asciinema-server|_recording_show.scss|Sass|87|0|15
-37|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/streaming/parser/alis.ex|asciinema|asciinema-server|alis.ex|Elixir|84|0|10
-38|./src/_00/output/Elixir/asciinema~asciinema-server/config/config.exs|asciinema|asciinema-server|config.exs|Elixir|82|12|21
-39|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/telemetry.ex|asciinema|asciinema-server|telemetry.ex|Elixir|82|4|16
-40|./src/_00/output/Elixir/asciinema~asciinema-server/mix.exs|asciinema|asciinema-server|mix.exs|Elixir|81|15|5
-41|./src/_00/output/Elixir/asciinema~asciinema-server/assets/static/js/embed.js|asciinema|asciinema-server|embed.js|JavaScript|80|1|20
-42|./src/_00/output/Elixir/asciinema~asciinema-server/test/controllers/live_stream_controller_test.exs|asciinema|asciinema-server|live_stream_controller_test.exs|Elixir|80|0|34
-43|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/png_generator/rsvg.ex|asciinema|asciinema-server|rsvg.ex|Elixir|76|1|18
-44|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/controllers/live_stream_html.ex|asciinema|asciinema-server|live_stream_html.ex|Elixir|72|0|14
-45|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema.ex|asciinema|asciinema-server|asciinema.ex|Elixir|66|0|21
-46|./src/_00/output/Elixir/asciinema~asciinema-server/priv/repo/migrations/20170920135754_initial.exs|asciinema|asciinema-server|20170920135754_initial.exs|Elixir|65|3|9
-47|./src/_00/output/Elixir/asciinema~asciinema-server/assets/webpack.config.js|asciinema|asciinema-server|webpack.config.js|JavaScript|64|0|2
-48|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/controllers/live_stream_controller.ex|asciinema|asciinema-server|live_stream_controller.ex|Elixir|64|0|11
-49|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/controllers/oembed_json.ex|asciinema|asciinema-server|oembed_json.ex|Elixir|64|1|12
-50|./src/_00/output/Elixir/asciinema~asciinema-server/test/asciinema/accounts_test.exs|asciinema|asciinema-server|accounts_test.exs|Elixir|63|0|18
-51|./src/_00/output/Elixir/asciinema~asciinema-server/CONTRIBUTING.md|asciinema|asciinema-server|CONTRIBUTING.md|Markdown|62|0|18
-52|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/file_store/local.ex|asciinema|asciinema-server|local.ex|Elixir|62|0|14
-53|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/file_store/cached.ex|asciinema|asciinema-server|cached.ex|Elixir|57|0|12
-54|./src/_00/output/Elixir/asciinema~asciinema-server/priv/gettext/en/LC_MESSAGES/errors.po|asciinema|asciinema-server|errors.po|PO File|57|19|21
-55|./src/_00/output/Elixir/asciinema~asciinema-server/test/controllers/api_token_controller_test.exs|asciinema|asciinema-server|api_token_controller_test.exs|Elixir|57|0|15
-56|./src/_00/output/Elixir/asciinema~asciinema-server/Dockerfile|asciinema|asciinema-server|Dockerfile|Dockerfile|56|7|23
-57|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/file_store.ex|asciinema|asciinema-server|file_store.ex|Elixir|56|1|17
-58|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/streaming/viewer_tracker.ex|asciinema|asciinema-server|viewer_tracker.ex|Elixir|55|3|18
-59|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/controllers/oembed_controller.ex|asciinema|asciinema-server|oembed_controller.ex|Elixir|54|0|9
-60|./src/_00/output/Elixir/asciinema~asciinema-server/config/dev.exs|asciinema|asciinema-server|dev.exs|Elixir|53|16|12
-61|./src/_00/output/Elixir/asciinema~asciinema-server/test/support/fixtures.ex|asciinema|asciinema-server|fixtures.ex|Elixir|52|0|11
-62|./src/_00/output/Elixir/asciinema~asciinema-server/README.md|asciinema|asciinema-server|README.md|Markdown|51|0|18
-63|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/controllers/login_controller.ex|asciinema|asciinema-server|login_controller.ex|Elixir|50|0|17
-64|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/controllers/session_controller.ex|asciinema|asciinema-server|session_controller.ex|Elixir|50|0|10
-65|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/controllers/api_token_controller.ex|asciinema|asciinema-server|api_token_controller.ex|Elixir|49|3|12
-66|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/recordings/asciicast.ex|asciinema|asciinema-server|asciicast.ex|Elixir|48|1|6
-67|./src/_00/output/Elixir/asciinema~asciinema-server/test/asciinema/recordings/output_test.exs|asciinema|asciinema-server|output_test.exs|Elixir|48|0|12
-68|./src/_00/output/Elixir/asciinema~asciinema-server/dev/docker-compose.yml|asciinema|asciinema-server|docker-compose.yml|YAML|47|0|4
-69|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/repo.ex|asciinema|asciinema-server|repo.ex|Elixir|47|0|9
-70|./src/_00/output/Elixir/asciinema~asciinema-server/.github/workflows/publish.yml|asciinema|asciinema-server|publish.yml|YAML|45|4|8
-71|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/controllers/api/recording_controller.ex|asciinema|asciinema-server|recording_controller.ex|Elixir|45|0|8
-72|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/release.ex|asciinema|asciinema-server|release.ex|Elixir|44|4|11
-73|./src/_00/output/Elixir/asciinema~asciinema-server/test/controllers/session_controller_test.exs|asciinema|asciinema-server|session_controller_test.exs|Elixir|44|0|14
-74|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/streaming/parser/json.ex|asciinema|asciinema-server|json.ex|Elixir|42|0|14
-75|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/views/media_view.ex|asciinema|asciinema-server|media_view.ex|Elixir|41|0|10
-76|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/emails.ex|asciinema|asciinema-server|emails.ex|Elixir|39|0|7
-77|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/views/application_view.ex|asciinema|asciinema-server|application_view.ex|Elixir|39|0|11
-78|./src/_00/output/Elixir/asciinema~asciinema-server/assets/js/app.js|asciinema|asciinema-server|app.js|JavaScript|38|1|11
-79|./src/_00/output/Elixir/asciinema~asciinema-server/test/controllers/webfinger_controller_test.exs|asciinema|asciinema-server|webfinger_controller_test.exs|Elixir|38|0|10
-80|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/controllers/user_html.ex|asciinema|asciinema-server|user_html.ex|Elixir|37|0|8
-81|./src/_00/output/Elixir/asciinema~asciinema-server/assets/css/app.scss|asciinema|asciinema-server|app.scss|Sass|36|0|4
-82|./src/_00/output/Elixir/asciinema~asciinema-server/assets/css/fonts/jetbrains-mono-nerd-font.css|asciinema|asciinema-server|jetbrains-mono-nerd-font.css|CSS|36|0|3
-83|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/application.ex|asciinema|asciinema-server|application.ex|Elixir|36|19|7
-84|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/controllers/api/live_stream_controller.ex|asciinema|asciinema-server|live_stream_controller.ex|Elixir|36|0|5
-85|./src/_00/output/Elixir/asciinema~asciinema-server/test/controllers/login_controller_test.exs|asciinema|asciinema-server|login_controller_test.exs|Elixir|36|0|11
-86|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/controllers/username_controller.ex|asciinema|asciinema-server|username_controller.ex|Elixir|35|0|7
-87|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/views/api/recording_json.ex|asciinema|asciinema-server|recording_json.ex|Elixir|35|4|11
-88|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/recordings/markers.ex|asciinema|asciinema-server|markers.ex|Elixir|34|0|4
-89|./src/_00/output/Elixir/asciinema~asciinema-server/assets/package.json|asciinema|asciinema-server|package.json|JSON|33|0|0
-90|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/endpoint.ex|asciinema|asciinema-server|endpoint.ex|Elixir|33|6|8
-91|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/plug_attack.ex|asciinema|asciinema-server|plug_attack.ex|Elixir|33|0|6
-92|./src/_00/output/Elixir/asciinema~asciinema-server/test/controllers/oembed_controller_test.exs|asciinema|asciinema-server|oembed_controller_test.exs|Elixir|33|0|12
-93|./src/_00/output/Elixir/asciinema~asciinema-server/.github/ISSUE_TEMPLATE/bug_report.md|asciinema|asciinema-server|bug_report.md|Markdown|32|0|12
-94|./src/_00/output/Elixir/asciinema~asciinema-server/assets/css/_user_profile.scss|asciinema|asciinema-server|_user_profile.scss|Sass|32|0|5
-95|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/streaming/live_stream.ex|asciinema|asciinema-server|live_stream.ex|Elixir|32|0|4
-96|./src/_00/output/Elixir/asciinema~asciinema-server/priv/repo/migrations/20230707114655_add_more_metadata_to_live_streams.exs|asciinema|asciinema-server|20230707114655_add_more_metadata_to_live_streams.exs|Elixir|32|0|6
-97|./src/_00/output/Elixir/asciinema~asciinema-server/priv/repo/migrations/20230618154430_create_live_streams.exs|asciinema|asciinema-server|20230618154430_create_live_streams.exs|Elixir|31|0|4
-98|./src/_00/output/Elixir/asciinema~asciinema-server/assets/css/_recording_list.scss|asciinema|asciinema-server|_recording_list.scss|Sass|30|0|6
-99|./src/_00/output/Elixir/asciinema~asciinema-server/assets/css/fonts/source_sans_pro.css|asciinema|asciinema-server|source_sans_pro.css|CSS|30|0|0
-100|./src/_00/output/Elixir/asciinema~asciinema-server/lib/media.ex|asciinema|asciinema-server|media.ex|Elixir|30|0|7
-101|./src/_00/output/Elixir/asciinema~asciinema-server/test/controllers/username_controller_test.exs|asciinema|asciinema-server|username_controller_test.exs|Elixir|30|0|8
-102|./src/_00/output/Elixir/asciinema~asciinema-server/assets/css/_flash.scss|asciinema|asciinema-server|_flash.scss|Sass|29|1|6
-103|./src/_00/output/Elixir/asciinema~asciinema-server/test/asciinema/vt_test.exs|asciinema|asciinema-server|vt_test.exs|Elixir|29|0|6
-104|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/colors.ex|asciinema|asciinema-server|colors.ex|Elixir|28|0|5
-105|./src/_00/output/Elixir/asciinema~asciinema-server/test/support/data_case.ex|asciinema|asciinema-server|data_case.ex|Elixir|28|19|12
-106|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/admin/endpoint.ex|asciinema|asciinema-server|endpoint.ex|Elixir|27|0|6
-107|./src/_00/output/Elixir/asciinema~asciinema-server/test/support/conn_case.ex|asciinema|asciinema-server|conn_case.ex|Elixir|26|13|11
-108|./src/_00/output/Elixir/asciinema~asciinema-server/config/test.exs|asciinema|asciinema-server|test.exs|Elixir|25|6|12
-109|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/accounts/api_token.ex|asciinema|asciinema-server|api_token.ex|Elixir|25|0|8
-110|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/streaming/live_stream_supervisor.ex|asciinema|asciinema-server|live_stream_supervisor.ex|Elixir|25|0|5
-111|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/streaming/parser/raw.ex|asciinema|asciinema-server|raw.ex|Elixir|25|0|9
-112|./src/_00/output/Elixir/asciinema~asciinema-server/assets/css/iframe.scss|asciinema|asciinema-server|iframe.scss|Sass|24|0|4
-113|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/gc.ex|asciinema|asciinema-server|gc.ex|Elixir|24|0|8
-114|./src/_00/output/Elixir/asciinema~asciinema-server/assets/js/player.js|asciinema|asciinema-server|player.js|JavaScript|23|0|4
-115|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/accounts/user.ex|asciinema|asciinema-server|user.ex|Elixir|23|0|6
-116|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/controllers/fallback_controller.ex|asciinema|asciinema-server|fallback_controller.ex|Elixir|23|0|2
-117|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/live/live_stream_card_live.ex|asciinema|asciinema-server|live_stream_card_live.ex|Elixir|23|0|5
-118|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/plug/return_to.ex|asciinema|asciinema-server|return_to.ex|Elixir|23|0|4
-119|./src/_00/output/Elixir/asciinema~asciinema-server/priv/repo/migrations/20240512060058_add_visibility_to_live_streams.exs|asciinema|asciinema-server|20240512060058_add_visibility_to_live_streams.exs|Elixir|23|0|8
-120|./src/_00/output/Elixir/asciinema~asciinema-server/priv/repo/migrations/20240516181634_add_visibility_to_asciicasts.exs|asciinema|asciinema-server|20240516181634_add_visibility_to_asciicasts.exs|Elixir|23|0|8
-121|./src/_00/output/Elixir/asciinema~asciinema-server/assets/css/_user_edit.scss|asciinema|asciinema-server|_user_edit.scss|Sass|22|0|4
-122|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/views/layout_view.ex|asciinema|asciinema-server|layout_view.ex|Elixir|21|0|5
-123|./src/_00/output/Elixir/asciinema~asciinema-server/priv/repo/migrations/20240516183427_add_default_asciicast_visibility_to_users.exs|asciinema|asciinema-server|20240516183427_add_default_asciicast_visibility_to_users.exs|Elixir|21|0|6
-124|./src/_00/output/Elixir/asciinema~asciinema-server/priv/svg2png.sh|asciinema|asciinema-server|svg2png.sh|Bourne Shell|21|1|7
-125|./src/_00/output/Elixir/asciinema~asciinema-server/test/asciinema/string_utils_test.exs|asciinema|asciinema-server|string_utils_test.exs|Elixir|21|0|6
-126|./src/_00/output/Elixir/asciinema~asciinema-server/assets/css/_user_login.scss|asciinema|asciinema-server|_user_login.scss|Sass|20|0|3
-127|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/authorization.ex|asciinema|asciinema-server|authorization.ex|Elixir|20|0|2
-128|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/oban_error_reporter.ex|asciinema|asciinema-server|oban_error_reporter.ex|Elixir|20|0|3
-129|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/recordings/snapshot_updater.ex|asciinema|asciinema-server|snapshot_updater.ex|Elixir|20|0|2
-130|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/string_utils.ex|asciinema|asciinema-server|string_utils.ex|Elixir|20|0|3
-131|./src/_00/output/Elixir/asciinema~asciinema-server/rel/env.sh.eex|asciinema|asciinema-server|env.sh.eex|EEx|20|0|3
-132|./src/_00/output/Elixir/asciinema~asciinema-server/assets/css/_header.scss|asciinema|asciinema-server|_header.scss|Sass|19|0|2
-133|./src/_00/output/Elixir/asciinema~asciinema-server/assets/css/_icons.css|asciinema|asciinema-server|_icons.css|CSS|19|0|2
-134|./src/_00/output/Elixir/asciinema~asciinema-server/assets/css/_simple_layout.scss|asciinema|asciinema-server|_simple_layout.scss|Sass|19|0|4
-135|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/file_cache.ex|asciinema|asciinema-server|file_cache.ex|Elixir|19|0|5
-136|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/vt.ex|asciinema|asciinema-server|vt.ex|Elixir|19|1|8
-137|./src/_00/output/Elixir/asciinema~asciinema-server/priv/repo/migrations/20210509143841_add_more_indexes.exs|asciinema|asciinema-server|20210509143841_add_more_indexes.exs|Elixir|19|0|4
-138|./src/_00/output/Elixir/asciinema~asciinema-server/priv/repo/migrations/20230211162915_swap_primary_oban_indexes.exs|asciinema|asciinema-server|20230211162915_swap_primary_oban_indexes.exs|Elixir|19|0|3
-139|./src/_00/output/Elixir/asciinema~asciinema-server/assets/css/fonts/fira-code-nerd-font.css|asciinema|asciinema-server|fira-code-nerd-font.css|CSS|18|0|1
-140|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/recordings/text.ex|asciinema|asciinema-server|text.ex|Elixir|18|0|4
-141|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/upgrades/upgrade_recordings.ex|asciinema|asciinema-server|upgrade_recordings.ex|Elixir|18|0|5
-142|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/controllers/webfinger_controller.ex|asciinema|asciinema-server|webfinger_controller.ex|Elixir|18|0|2
-143|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/controllers/webfinger_json.ex|asciinema|asciinema-server|webfinger_json.ex|Elixir|18|0|1
-144|./src/_00/output/Elixir/asciinema~asciinema-server/priv/repo/migrations/20240502083959_lowercase_emails.exs|asciinema|asciinema-server|20240502083959_lowercase_emails.exs|Elixir|18|0|3
-145|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/recordings/paths.ex|asciinema|asciinema-server|paths.ex|Elixir|17|0|2
-146|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/plug/authz.ex|asciinema|asciinema-server|authz.ex|Elixir|17|0|2
-147|./src/_00/output/Elixir/asciinema~asciinema-server/priv/repo/migrations/20211212114046_insert_upgrade_jobs.exs|asciinema|asciinema-server|20211212114046_insert_upgrade_jobs.exs|Elixir|17|0|3
-148|./src/_00/output/Elixir/asciinema~asciinema-server/test/fixtures/1/asciicast.json|asciinema|asciinema-server|asciicast.json|JSON|17|0|0
-149|./src/_00/output/Elixir/asciinema~asciinema-server/test/fixtures/1/screenshot.json|asciinema|asciinema-server|screenshot.json|JSON|17|0|0
-150|./src/_00/output/Elixir/asciinema~asciinema-server/test/fixtures/5/asciicast.json|asciinema|asciinema-server|asciicast.json|JSON|17|0|0
-151|./src/_00/output/Elixir/asciinema~asciinema-server/config/prod.exs|asciinema|asciinema-server|prod.exs|Elixir|16|13|6
-152|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/fonts.ex|asciinema|asciinema-server|fonts.ex|Elixir|16|0|3
-153|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/admin/router.ex|asciinema|asciinema-server|router.ex|Elixir|16|0|3
-154|./src/_00/output/Elixir/asciinema~asciinema-server/test/fixtures/1/invalid.json|asciinema|asciinema-server|invalid.json|JSON|16|0|0
-155|./src/_00/output/Elixir/asciinema~asciinema-server/test/support/channel_case.ex|asciinema|asciinema-server|channel_case.ex|Elixir|16|13|8
-156|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/caching.ex|asciinema|asciinema-server|caching.ex|Elixir|15|0|2
-157|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/trailing_format.ex|asciinema|asciinema-server|trailing_format.ex|Elixir|15|0|2
-158|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/views/error_helpers.ex|asciinema|asciinema-server|error_helpers.ex|Elixir|15|19|3
-159|./src/_00/output/Elixir/asciinema~asciinema-server/native/vt_nif/README.md|asciinema|asciinema-server|README.md|Markdown|15|0|7
-160|./src/_00/output/Elixir/asciinema~asciinema-server/test/fixtures/0.9.7/meta.json|asciinema|asciinema-server|meta.json|JSON|15|0|0
-161|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/controllers/page_html.ex|asciinema|asciinema-server|page_html.ex|Elixir|14|0|3
-162|./src/_00/output/Elixir/asciinema~asciinema-server/test/asciinema/colors_test.exs|asciinema|asciinema-server|colors_test.exs|Elixir|14|0|1
-163|./src/_00/output/Elixir/asciinema~asciinema-server/test/asciinema/recordings/markers_test.exs|asciinema|asciinema-server|markers_test.exs|Elixir|14|0|4
-164|./src/_00/output/Elixir/asciinema~asciinema-server/test/fixtures/0.9.8/meta.json|asciinema|asciinema-server|meta.json|JSON|14|0|0
-165|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/streaming/gc.ex|asciinema|asciinema-server|gc.ex|Elixir|13|0|3
-166|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/controllers/page_controller.ex|asciinema|asciinema-server|page_controller.ex|Elixir|13|0|3
-167|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/plug/parsers/multipart.ex|asciinema|asciinema-server|multipart.ex|Elixir|13|0|5
-168|./src/_00/output/Elixir/asciinema~asciinema-server/lib/ext/keyword.ex|asciinema|asciinema-server|keyword.ex|Elixir|13|0|1
-169|./src/_00/output/Elixir/asciinema~asciinema-server/lib/ext/map.ex|asciinema|asciinema-server|map.ex|Elixir|13|0|1
-170|./src/_00/output/Elixir/asciinema~asciinema-server/assets/css/_footer.scss|asciinema|asciinema-server|_footer.scss|Sass|12|0|1
-171|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/config.ex|asciinema|asciinema-server|config.ex|Elixir|12|0|1
-172|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/crypto.ex|asciinema|asciinema-server|crypto.ex|Elixir|12|0|1
-173|./src/_00/output/Elixir/asciinema~asciinema-server/native/vt_nif/Cargo.toml|asciinema|asciinema-server|Cargo.toml|TOML|12|0|2
-174|./src/_00/output/Elixir/asciinema~asciinema-server/test/asciinema/gravatar_test.exs|asciinema|asciinema-server|gravatar_test.exs|Elixir|12|0|2
-175|./src/_00/output/Elixir/asciinema~asciinema-server/test/controllers/page_controller_test.exs|asciinema|asciinema-server|page_controller_test.exs|Elixir|12|0|1
-176|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/gravatar.ex|asciinema|asciinema-server|gravatar.ex|Elixir|11|0|2
-177|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/upgrades/initial_seed.ex|asciinema|asciinema-server|initial_seed.ex|Elixir|11|0|3
-178|./src/_00/output/Elixir/asciinema~asciinema-server/priv/repo/migrations/20230708120726_add_viewer_count_to_live_streams.exs|asciinema|asciinema-server|20230708120726_add_viewer_count_to_live_streams.exs|Elixir|11|0|2
-179|./src/_00/output/Elixir/asciinema~asciinema-server/test/fixtures/0.9.9/meta.json|asciinema|asciinema-server|meta.json|JSON|11|0|0
-180|./src/_00/output/Elixir/asciinema~asciinema-server/assets/static/images/logo-red.svg|asciinema|asciinema-server|logo-red.svg|SVG|10|0|0
-181|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/controllers/oembed_xml.ex|asciinema|asciinema-server|oembed_xml.ex|Elixir|10|0|2
-182|./src/_00/output/Elixir/asciinema~asciinema-server/priv/repo/migrations/20170926074750_add_theme_fields_to_asciicast.exs|asciinema|asciinema-server|20170926074750_add_theme_fields_to_asciicast.exs|Elixir|10|0|1
-183|./src/_00/output/Elixir/asciinema~asciinema-server/priv/repo/migrations/20200901164454_convert_file_to_path.exs|asciinema|asciinema-server|20200901164454_convert_file_to_path.exs|Elixir|10|0|3
-184|./src/_00/output/Elixir/asciinema~asciinema-server/priv/repo/migrations/20240308110750_add_theme_fields_to_live_streams.exs|asciinema|asciinema-server|20240308110750_add_theme_fields_to_live_streams.exs|Elixir|10|0|1
-185|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/streaming/parser.ex|asciinema|asciinema-server|parser.ex|Elixir|9|0|2
-186|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/upgrades/worker.ex|asciinema|asciinema-server|worker.ex|Elixir|9|0|0
-187|./src/_00/output/Elixir/asciinema~asciinema-server/priv/repo/migrations/20170921075634_drop_stdin_from_asciicast.exs|asciinema|asciinema-server|20170921075634_drop_stdin_from_asciicast.exs|Elixir|9|0|1
-188|./src/_00/output/Elixir/asciinema~asciinema-server/priv/repo/migrations/20210417192109_add_oban_jobs_table.exs|asciinema|asciinema-server|20210417192109_add_oban_jobs_table.exs|Elixir|9|2|2
-189|./src/_00/output/Elixir/asciinema~asciinema-server/priv/repo/migrations/20211211210159_add_cols_rows_overrides.exs|asciinema|asciinema-server|20211211210159_add_cols_rows_overrides.exs|Elixir|9|0|1
-190|./src/_00/output/Elixir/asciinema~asciinema-server/priv/repo/migrations/20230701115122_add_online_to_live_streams.exs|asciinema|asciinema-server|20230701115122_add_online_to_live_streams.exs|Elixir|9|0|2
-191|./src/_00/output/Elixir/asciinema~asciinema-server/priv/repo/migrations/20230712082725_add_started_at_to_live_streams.exs|asciinema|asciinema-server|20230712082725_add_started_at_to_live_streams.exs|Elixir|9|0|2
-192|./src/_00/output/Elixir/asciinema~asciinema-server/priv/repo/migrations/20230817131250_add_parser_to_live_streams.exs|asciinema|asciinema-server|20230817131250_add_parser_to_live_streams.exs|Elixir|9|0|2
-193|./src/_00/output/Elixir/asciinema~asciinema-server/priv/repo/migrations/20240329201531_add_theme_prefer_original_to_users.exs|asciinema|asciinema-server|20240329201531_add_theme_prefer_original_to_users.exs|Elixir|9|0|2
-194|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/png_generator.ex|asciinema|asciinema-server|png_generator.ex|Elixir|8|0|2
-195|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/pub_sub.ex|asciinema|asciinema-server|pub_sub.ex|Elixir|8|0|1
-196|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/recordings/snapshot_updater/sync.ex|asciinema|asciinema-server|sync.ex|Elixir|8|0|1
-197|./src/_00/output/Elixir/asciinema~asciinema-server/priv/repo/migrations/20170926072604_add_recorded_at_to_asciicast.exs|asciinema|asciinema-server|20170926072604_add_recorded_at_to_asciicast.exs|Elixir|8|0|1
-198|./src/_00/output/Elixir/asciinema~asciinema-server/priv/repo/migrations/20171027085309_add_idle_time_limit_to_asciicast.exs|asciinema|asciinema-server|20171027085309_add_idle_time_limit_to_asciicast.exs|Elixir|8|0|1
-199|./src/_00/output/Elixir/asciinema~asciinema-server/priv/repo/migrations/20180624124338_add_is_admin_to_users.exs|asciinema|asciinema-server|20180624124338_add_is_admin_to_users.exs|Elixir|8|0|1
-200|./src/_00/output/Elixir/asciinema~asciinema-server/priv/repo/migrations/20181214193102_add_archived_at_to_asciicasts.exs|asciinema|asciinema-server|20181214193102_add_archived_at_to_asciicasts.exs|Elixir|8|0|1
-201|./src/_00/output/Elixir/asciinema~asciinema-server/priv/repo/migrations/20190112165543_add_archivable_to_asciicasts.exs|asciinema|asciinema-server|20190112165543_add_archivable_to_asciicasts.exs|Elixir|8|0|1
-202|./src/_00/output/Elixir/asciinema~asciinema-server/priv/repo/migrations/20200831195118_remove_stdout_frames.exs|asciinema|asciinema-server|20200831195118_remove_stdout_frames.exs|Elixir|8|0|1
-203|./src/_00/output/Elixir/asciinema~asciinema-server/priv/repo/migrations/20211211190233_rename_created_at_to_inserted_at.exs|asciinema|asciinema-server|20211211190233_rename_created_at_to_inserted_at.exs|Elixir|8|0|1
-204|./src/_00/output/Elixir/asciinema~asciinema-server/priv/repo/migrations/20230402201325_add_terminal_line_height_to_asciicasts.exs|asciinema|asciinema-server|20230402201325_add_terminal_line_height_to_asciicasts.exs|Elixir|8|0|1
-205|./src/_00/output/Elixir/asciinema~asciinema-server/priv/repo/migrations/20230403182405_add_terminal_font_family_to_asciicasts.exs|asciinema|asciinema-server|20230403182405_add_terminal_font_family_to_asciicasts.exs|Elixir|8|0|1
-206|./src/_00/output/Elixir/asciinema~asciinema-server/priv/repo/migrations/20230515080531_add_markers_to_asciicasts.exs|asciinema|asciinema-server|20230515080531_add_markers_to_asciicasts.exs|Elixir|8|0|1
-207|./src/_00/output/Elixir/asciinema~asciinema-server/priv/repo/migrations/20230716092144_add_buffer_time_to_live_streams.exs|asciinema|asciinema-server|20230716092144_add_buffer_time_to_live_streams.exs|Elixir|8|0|1
-208|./src/_00/output/Elixir/asciinema~asciinema-server/priv/repo/migrations/20231219195815_add_speed_to_asciicasts.exs|asciinema|asciinema-server|20231219195815_add_speed_to_asciicasts.exs|Elixir|8|0|1
-209|./src/_00/output/Elixir/asciinema~asciinema-server/priv/repo/migrations/20240217154250_add_terminal_font_family_to_users.exs|asciinema|asciinema-server|20240217154250_add_terminal_font_family_to_users.exs|Elixir|8|0|1
-210|./src/_00/output/Elixir/asciinema~asciinema-server/priv/repo/migrations/20240329195017_add_theme_prefer_original_to_live_streams.exs|asciinema|asciinema-server|20240329195017_add_theme_prefer_original_to_live_streams.exs|Elixir|8|0|1
-211|./src/_00/output/Elixir/asciinema~asciinema-server/priv/repo/migrations/20240421122804_add_snapshot_to_live_streams.exs|asciinema|asciinema-server|20240421122804_add_snapshot_to_live_streams.exs|Elixir|8|0|1
-212|./src/_00/output/Elixir/asciinema~asciinema-server/rel/overlays/bin/server|asciinema|asciinema-server|server|Bourne Shell|8|0|2
-213|./src/_00/output/Elixir/asciinema~asciinema-server/rel/vm.args.eex|asciinema|asciinema-server|vm.args.eex|EEx|8|0|3
-214|./src/_00/output/Elixir/asciinema~asciinema-server/.iex.exs|asciinema|asciinema-server|.iex.exs|Elixir|7|0|1
-215|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/ecto/type/json_array.ex|asciinema|asciinema-server|json_array.ex|Elixir|7|0|2
-216|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/emails/mailer.ex|asciinema|asciinema-server|mailer.ex|Elixir|7|0|1
-217|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/channels/user_socket.ex|asciinema|asciinema-server|user_socket.ex|Elixir|7|23|3
-218|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/controllers/error_html.ex|asciinema|asciinema-server|error_html.ex|Elixir|7|0|2
-219|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/views/api/recording_text.ex|asciinema|asciinema-server|recording_text.ex|Elixir|7|0|1
-220|./src/_00/output/Elixir/asciinema~asciinema-server/priv/repo/migrations/20180514074835_fix_uniq_index_on_username.exs|asciinema|asciinema-server|20180514074835_fix_uniq_index_on_username.exs|Elixir|7|0|1
-221|./src/_00/output/Elixir/asciinema~asciinema-server/priv/repo/migrations/20180514075806_fix_uniq_index_on_api_token.exs|asciinema|asciinema-server|20180514075806_fix_uniq_index_on_api_token.exs|Elixir|7|0|1
-222|./src/_00/output/Elixir/asciinema~asciinema-server/priv/repo/migrations/20211211202637_rename_terminal_columns_lines_to_cols_rows.exs|asciinema|asciinema-server|20211211202637_rename_terminal_columns_lines_to_cols_rows.exs|Elixir|7|0|1
-223|./src/_00/output/Elixir/asciinema~asciinema-server/priv/repo/migrations/20230707120207_add_missing_indices_to_live_streams.exs|asciinema|asciinema-server|20230707120207_add_missing_indices_to_live_streams.exs|Elixir|7|0|1
-224|./src/_00/output/Elixir/asciinema~asciinema-server/priv/repo/migrations/20240410075535_rename_and_shorten_stream_tokens.exs|asciinema|asciinema-server|20240410075535_rename_and_shorten_stream_tokens.exs|Elixir|7|0|2
-225|./src/_00/output/Elixir/asciinema~asciinema-server/priv/repo/migrations/20230713075841_add_more_indices_to_live_streams.exs|asciinema|asciinema-server|20230713075841_add_more_indices_to_live_streams.exs|Elixir|6|0|1
-226|./src/_00/output/Elixir/asciinema~asciinema-server/priv/repo/migrations/20240409082127_add_index_on_user_id_secret_token_to_live_streams.exs|asciinema|asciinema-server|20240409082127_add_index_on_user_id_secret_token_to_live_streams.exs|Elixir|6|0|1
-227|./src/_00/output/Elixir/asciinema~asciinema-server/priv/repo/migrations/20240519083033_add_index_on_asciicasts_visibility.exs|asciinema|asciinema-server|20240519083033_add_index_on_asciicasts_visibility.exs|Elixir|6|0|1
-228|./src/_00/output/Elixir/asciinema~asciinema-server/rel/env.bat.eex|asciinema|asciinema-server|env.bat.eex|EEx|6|0|0
-229|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema/recordings/snapshot_updater/noop.ex|asciinema|asciinema-server|noop.ex|Elixir|5|0|0
-230|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/controllers/error_json.ex|asciinema|asciinema-server|error_json.ex|Elixir|5|0|0
-231|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/controllers/error_text.ex|asciinema|asciinema-server|error_text.ex|Elixir|5|0|0
-232|./src/_00/output/Elixir/asciinema~asciinema-server/priv/repo/migrations/20230211162625_create_oban_peers.exs|asciinema|asciinema-server|20230211162625_create_oban_peers.exs|Elixir|5|0|2
-233|./src/_00/output/Elixir/asciinema~asciinema-server/priv/repo/migrations/20240114204549_upgrade_oban_jobs_to_v12.exs|asciinema|asciinema-server|20240114204549_upgrade_oban_jobs_to_v12.exs|Elixir|5|0|2
-234|./src/_00/output/Elixir/asciinema~asciinema-server/.formatter.exs|asciinema|asciinema-server|.formatter.exs|Elixir|4|2|0
-235|./src/_00/output/Elixir/asciinema~asciinema-server/assets/css/fonts/powerline-symbols.css|asciinema|asciinema-server|powerline-symbols.css|CSS|4|0|0
-236|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/components/icons.ex|asciinema|asciinema-server|icons.ex|Elixir|4|0|1
-237|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/controllers/login_html.ex|asciinema|asciinema-server|login_html.ex|Elixir|4|0|1
-238|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/controllers/session_html.ex|asciinema|asciinema-server|session_html.ex|Elixir|4|0|1
-239|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/controllers/username_html.ex|asciinema|asciinema-server|username_html.ex|Elixir|4|0|1
-240|./src/_00/output/Elixir/asciinema~asciinema-server/test/test_helper.exs|asciinema|asciinema-server|test_helper.exs|Elixir|4|0|2
-241|./src/_00/output/Elixir/asciinema~asciinema-server/assets/js/iframe.js|asciinema|asciinema-server|iframe.js|JavaScript|3|0|1
-242|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/gettext.ex|asciinema|asciinema-server|gettext.ex|Elixir|3|15|6
-243|./src/_00/output/Elixir/asciinema~asciinema-server/rel/overlays/bin/admin_add|asciinema|asciinema-server|admin_add|Bourne Again Shell|3|0|1
-244|./src/_00/output/Elixir/asciinema~asciinema-server/rel/overlays/bin/admin_rm|asciinema|asciinema-server|admin_rm|Bourne Shell|3|0|1
-245|./src/_00/output/Elixir/asciinema~asciinema-server/test/views/layout_view_test.exs|asciinema|asciinema-server|layout_view_test.exs|Elixir|3|4|1
-246|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/controllers/error_html/403.html.eex|asciinema|asciinema-server|403.html.eex|EEx|2|0|0
-247|./src/_00/output/Elixir/asciinema~asciinema-server/lib/asciinema_web/controllers/error_html/404.html.eex|asciinema|asciinema-server|404.html.eex|EEx|2|0|0
-248|./src/_00/output/Elixir/asciinema~asciinema-server/priv/repo/seeds.exs|asciinema|asciinema-server|seeds.exs|Elixir|2|11|1
-249|./src/_00/output/Elixir/asciinema~asciinema-server/rel/overlays/bin/gen_secret|asciinema|asciinema-server|gen_secret|Bourne Shell|2|0|1
-250|./src/_00/output/Elixir/asciinema~asciinema-server/rel/overlays/bin/migrate|asciinema|asciinema-server|migrate|Bourne Shell|2|0|1
-251|./src/_00/output/Elixir/asciinema~asciinema-server/rel/overlays/bin/send-test-email|asciinema|asciinema-server|send-test-email|Bourne Shell|2|0|1
-252|./src/_00/output/Elixir/asciinema~asciinema-server/rel/overlays/etc/custom.exs|asciinema|asciinema-server|custom.exs|Elixir|1|11|2
-253|./src/_00/output/Elixir/asciinema~asciinema-server/test/fixtures/stdout.json|asciinema|asciinema-server|stdout.json|JSON|1|0|0
+path|owner|project|file|language|code|comment|blank
+.\src\_00\output\Elixir\asciinema~asciinema-server\assets\package-lock.json|asciinema|asciinema-server|package-lock.json|JSON|5633|0|0
+.\src\_00\output\Elixir\asciinema~asciinema-server\test\fixtures\welcome.json|asciinema|asciinema-server|welcome.json|JSON|3154|0|0
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema\recordings.ex|asciinema|asciinema-server|recordings.ex|Elixir|458|1|96
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\recording_svg.ex|asciinema|asciinema-server|recording_svg.ex|Elixir|324|36|64
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema\accounts.ex|asciinema|asciinema-server|accounts.ex|Elixir|293|0|73
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\user_html\edit.html.heex|asciinema|asciinema-server|edit.html.heex|HTML EEx|275|0|24
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema\recordings\snapshot.ex|asciinema|asciinema-server|snapshot.ex|Elixir|267|0|63
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\recording_controller.ex|asciinema|asciinema-server|recording_controller.ex|Elixir|263|2|53
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\recording_html\edit.html.heex|asciinema|asciinema-server|edit.html.heex|HTML EEx|242|0|13
+.\src\_00\output\Elixir\asciinema~asciinema-server\test\controllers\recording_controller_test.exs|asciinema|asciinema-server|recording_controller_test.exs|Elixir|237|0|99
+.\src\_00\output\Elixir\asciinema~asciinema-server\test\asciinema\recordings\snapshot_test.exs|asciinema|asciinema-server|snapshot_test.exs|Elixir|217|0|20
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema\streaming\live_stream_server.ex|asciinema|asciinema-server|live_stream_server.ex|Elixir|215|3|67
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\live_stream_producer_socket.ex|asciinema|asciinema-server|live_stream_producer_socket.ex|Elixir|212|2|64
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema\themes.ex|asciinema|asciinema-server|themes.ex|Elixir|205|0|13
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\recording_html.ex|asciinema|asciinema-server|recording_html.ex|Elixir|191|0|42
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\recording_html\show.html.heex|asciinema|asciinema-server|show.html.heex|HTML EEx|181|0|21
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\live_stream_html\edit.html.heex|asciinema|asciinema-server|edit.html.heex|HTML EEx|179|0|9
+.\src\_00\output\Elixir\asciinema~asciinema-server\assets\css\_base.scss|asciinema|asciinema-server|_base.scss|SCSS|177|0|39
+.\src\_00\output\Elixir\asciinema~asciinema-server\config\runtime.exs|asciinema|asciinema-server|runtime.exs|Elixir|176|6|53
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\live_stream_html\show.html.heex|asciinema|asciinema-server|show.html.heex|HTML EEx|167|0|29
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\live_stream_consumer_socket.ex|asciinema|asciinema-server|live_stream_consumer_socket.ex|Elixir|156|2|44
+.\src\_00\output\Elixir\asciinema~asciinema-server\native\vt_nif\src\lib.rs|asciinema|asciinema-server|lib.rs|Rust|149|0|40
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\user_controller.ex|asciinema|asciinema-server|user_controller.ex|Elixir|138|0|29
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema\streaming.ex|asciinema|asciinema-server|streaming.ex|Elixir|137|0|26
+.\src\_00\output\Elixir\asciinema~asciinema-server\test\controllers\api\live_stream_controller_test.exs|asciinema|asciinema-server|live_stream_controller_test.exs|Elixir|136|0|60
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema\recordings\output.ex|asciinema|asciinema-server|output.ex|Elixir|131|2|36
+.\src\_00\output\Elixir\asciinema~asciinema-server\test\asciinema\recordings_test.exs|asciinema|asciinema-server|recordings_test.exs|Elixir|130|0|29
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\user_html\show.html.heex|asciinema|asciinema-server|show.html.heex|HTML EEx|129|0|26
+.\src\_00\output\Elixir\asciinema~asciinema-server\test\controllers\user_controller_test.exs|asciinema|asciinema-server|user_controller_test.exs|Elixir|128|0|42
+.\src\_00\output\Elixir\asciinema~asciinema-server\test\asciinema_test.exs|asciinema|asciinema-server|asciinema_test.exs|Elixir|126|1|32
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web.ex|asciinema|asciinema-server|asciinema_web.ex|Elixir|120|29|43
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\live\live_stream_status_live.ex|asciinema|asciinema-server|live_stream_status_live.ex|Elixir|116|0|22
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema\emails\email.ex|asciinema|asciinema-server|email.ex|Elixir|115|0|27
+.\src\_00\output\Elixir\asciinema~asciinema-server\test\support\factory.ex|asciinema|asciinema-server|factory.ex|Elixir|113|0|19
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\player_opts.ex|asciinema|asciinema-server|player_opts.ex|Elixir|101|0|24
+.\src\_00\output\Elixir\asciinema~asciinema-server\assets\css\_recording_card.scss|asciinema|asciinema-server|_recording_card.scss|SCSS|100|0|15
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema\file_store\s3.ex|asciinema|asciinema-server|s3.ex|Elixir|100|0|25
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\components\core_components.ex|asciinema|asciinema-server|core_components.ex|Elixir|95|0|21
+.\src\_00\output\Elixir\asciinema~asciinema-server\assets\static\js\embed.js|asciinema|asciinema-server|embed.js|JavaScript|94|1|23
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema.ex|asciinema|asciinema-server|asciinema.ex|Elixir|92|0|25
+.\src\_00\output\Elixir\asciinema~asciinema-server\test\controllers\api\recording_controller_test.exs|asciinema|asciinema-server|recording_controller_test.exs|Elixir|92|1|17
+.\src\_00\output\Elixir\asciinema~asciinema-server\.github\workflows\test.yml|asciinema|asciinema-server|test.yml|YAML|89|0|6
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\authentication.ex|asciinema|asciinema-server|authentication.ex|Elixir|89|1|19
+.\src\_00\output\Elixir\asciinema~asciinema-server\assets\css\_recording_show.scss|asciinema|asciinema-server|_recording_show.scss|SCSS|87|0|15
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\router.ex|asciinema|asciinema-server|router.ex|Elixir|86|1|27
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema\streaming\parser\alis.ex|asciinema|asciinema-server|alis.ex|Elixir|84|0|10
+.\src\_00\output\Elixir\asciinema~asciinema-server\config\config.exs|asciinema|asciinema-server|config.exs|Elixir|83|12|22
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema\telemetry.ex|asciinema|asciinema-server|telemetry.ex|Elixir|82|4|16
+.\src\_00\output\Elixir\asciinema~asciinema-server\mix.exs|asciinema|asciinema-server|mix.exs|Elixir|82|15|5
+.\src\_00\output\Elixir\asciinema~asciinema-server\test\controllers\api_token_controller_test.exs|asciinema|asciinema-server|api_token_controller_test.exs|Elixir|81|0|28
+.\src\_00\output\Elixir\asciinema~asciinema-server\test\controllers\live_stream_controller_test.exs|asciinema|asciinema-server|live_stream_controller_test.exs|Elixir|80|0|34
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema\png_generator\rsvg.ex|asciinema|asciinema-server|rsvg.ex|Elixir|76|1|18
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\recording_html\download_modal.html.heex|asciinema|asciinema-server|download_modal.html.heex|HTML EEx|75|0|10
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\live_stream_html.ex|asciinema|asciinema-server|live_stream_html.ex|Elixir|72|0|14
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\recording_html\share_modal.html.heex|asciinema|asciinema-server|share_modal.html.heex|HTML EEx|70|0|13
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\templates\layout\_header.html.heex|asciinema|asciinema-server|_header.html.heex|HTML EEx|68|0|9
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\recording_svg\preview.svg.heex|asciinema|asciinema-server|preview.svg.heex|HTML EEx|66|0|5
+.\src\_00\output\Elixir\asciinema~asciinema-server\priv\repo\migrations\20170920135754_initial.exs|asciinema|asciinema-server|20170920135754_initial.exs|Elixir|65|3|9
+.\src\_00\output\Elixir\asciinema~asciinema-server\assets\webpack.config.js|asciinema|asciinema-server|webpack.config.js|JavaScript|64|0|2
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\live_stream_controller.ex|asciinema|asciinema-server|live_stream_controller.ex|Elixir|64|0|11
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\oembed_json.ex|asciinema|asciinema-server|oembed_json.ex|Elixir|64|1|12
+.\src\_00\output\Elixir\asciinema~asciinema-server\test\asciinema\accounts_test.exs|asciinema|asciinema-server|accounts_test.exs|Elixir|64|0|18
+.\src\_00\output\Elixir\asciinema~asciinema-server\CONTRIBUTING.md|asciinema|asciinema-server|CONTRIBUTING.md|Markdown|62|0|18
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema\file_store\local.ex|asciinema|asciinema-server|local.ex|Elixir|62|0|14
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema\file_store.ex|asciinema|asciinema-server|file_store.ex|Elixir|59|1|18
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema\file_store\cached.ex|asciinema|asciinema-server|cached.ex|Elixir|57|0|12
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\recording_html\index.html.heex|asciinema|asciinema-server|index.html.heex|HTML EEx|57|0|4
+.\src\_00\output\Elixir\asciinema~asciinema-server\priv\gettext\en\LC_MESSAGES\errors.po|asciinema|asciinema-server|errors.po|PO File|57|19|21
+.\src\_00\output\Elixir\asciinema~asciinema-server\Dockerfile|asciinema|asciinema-server|Dockerfile|Dockerfile|56|7|23
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema\streaming\viewer_tracker.ex|asciinema|asciinema-server|viewer_tracker.ex|Elixir|55|3|18
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\oembed_controller.ex|asciinema|asciinema-server|oembed_controller.ex|Elixir|54|0|9
+.\src\_00\output\Elixir\asciinema~asciinema-server\config\dev.exs|asciinema|asciinema-server|dev.exs|Elixir|53|16|12
+.\src\_00\output\Elixir\asciinema~asciinema-server\README.md|asciinema|asciinema-server|README.md|Markdown|52|0|18
+.\src\_00\output\Elixir\asciinema~asciinema-server\test\support\fixtures.ex|asciinema|asciinema-server|fixtures.ex|Elixir|52|0|11
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema\recordings\asciicast.ex|asciinema|asciinema-server|asciicast.ex|Elixir|48|1|6
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\login_html\new.html.heex|asciinema|asciinema-server|new.html.heex|HTML EEx|48|0|11
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\session_controller.ex|asciinema|asciinema-server|session_controller.ex|Elixir|48|0|10
+.\src\_00\output\Elixir\asciinema~asciinema-server\test\asciinema\recordings\output_test.exs|asciinema|asciinema-server|output_test.exs|Elixir|48|0|12
+.\src\_00\output\Elixir\asciinema~asciinema-server\dev\docker-compose.yml|asciinema|asciinema-server|docker-compose.yml|YAML|47|0|4
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema\repo.ex|asciinema|asciinema-server|repo.ex|Elixir|47|0|9
+.\src\_00\output\Elixir\asciinema~asciinema-server\assets\css\_recording_list.scss|asciinema|asciinema-server|_recording_list.scss|SCSS|46|0|9
+.\src\_00\output\Elixir\asciinema~asciinema-server\.github\workflows\publish.yml|asciinema|asciinema-server|publish.yml|YAML|45|4|8
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\login_controller.ex|asciinema|asciinema-server|login_controller.ex|Elixir|45|0|16
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema\release.ex|asciinema|asciinema-server|release.ex|Elixir|44|4|11
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\api_token_controller.ex|asciinema|asciinema-server|api_token_controller.ex|Elixir|44|0|9
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\url_helpers.ex|asciinema|asciinema-server|url_helpers.ex|Elixir|44|0|13
+.\src\_00\output\Elixir\asciinema~asciinema-server\test\controllers\session_controller_test.exs|asciinema|asciinema-server|session_controller_test.exs|Elixir|44|0|14
+.\src\_00\output\Elixir\asciinema~asciinema-server\flake.nix|asciinema|asciinema-server|flake.nix|Nix|43|4|6
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\api\recording_controller.ex|asciinema|asciinema-server|recording_controller.ex|Elixir|43|0|8
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema\emails.ex|asciinema|asciinema-server|emails.ex|Elixir|42|0|10
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema\streaming\parser\json.ex|asciinema|asciinema-server|json.ex|Elixir|42|0|14
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\api\live_stream_controller.ex|asciinema|asciinema-server|live_stream_controller.ex|Elixir|40|1|6
+.\src\_00\output\Elixir\asciinema~asciinema-server\assets\js\app.js|asciinema|asciinema-server|app.js|JavaScript|38|1|11
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\views\application_view.ex|asciinema|asciinema-server|application_view.ex|Elixir|38|0|11
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\views\media_view.ex|asciinema|asciinema-server|media_view.ex|Elixir|38|0|9
+.\src\_00\output\Elixir\asciinema~asciinema-server\test\controllers\webfinger_controller_test.exs|asciinema|asciinema-server|webfinger_controller_test.exs|Elixir|38|0|10
+.\src\_00\output\Elixir\asciinema~asciinema-server\assets\css\app.scss|asciinema|asciinema-server|app.scss|SCSS|36|0|4
+.\src\_00\output\Elixir\asciinema~asciinema-server\assets\css\fonts\jetbrains-mono-nerd-font.css|asciinema|asciinema-server|jetbrains-mono-nerd-font.css|CSS|36|0|3
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema\application.ex|asciinema|asciinema-server|application.ex|Elixir|36|19|7
+.\src\_00\output\Elixir\asciinema~asciinema-server\test\controllers\login_controller_test.exs|asciinema|asciinema-server|login_controller_test.exs|Elixir|36|0|11
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\page_html\about.html.heex|asciinema|asciinema-server|about.html.heex|HTML EEx|35|0|9
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\user_html.ex|asciinema|asciinema-server|user_html.ex|Elixir|35|0|8
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\username_controller.ex|asciinema|asciinema-server|username_controller.ex|Elixir|35|0|7
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\username_html\new.html.heex|asciinema|asciinema-server|new.html.heex|HTML EEx|35|0|4
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\views\api\recording_json.ex|asciinema|asciinema-server|recording_json.ex|Elixir|35|3|11
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema\recordings\markers.ex|asciinema|asciinema-server|markers.ex|Elixir|34|0|4
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\recording_html\card.html.heex|asciinema|asciinema-server|card.html.heex|HTML EEx|34|0|4
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\recording_html\gif_modal.html.heex|asciinema|asciinema-server|gif_modal.html.heex|HTML EEx|34|0|8
+.\src\_00\output\Elixir\asciinema~asciinema-server\assets\package.json|asciinema|asciinema-server|package.json|JSON|33|0|0
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\recording_html\iframe.html.heex|asciinema|asciinema-server|iframe.html.heex|HTML EEx|33|0|6
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\endpoint.ex|asciinema|asciinema-server|endpoint.ex|Elixir|33|6|8
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\plug_attack.ex|asciinema|asciinema-server|plug_attack.ex|Elixir|33|0|6
+.\src\_00\output\Elixir\asciinema~asciinema-server\test\controllers\oembed_controller_test.exs|asciinema|asciinema-server|oembed_controller_test.exs|Elixir|33|0|12
+.\src\_00\output\Elixir\asciinema~asciinema-server\.github\ISSUE_TEMPLATE\bug_report.md|asciinema|asciinema-server|bug_report.md|Markdown|32|0|12
+.\src\_00\output\Elixir\asciinema~asciinema-server\assets\css\_user_profile.scss|asciinema|asciinema-server|_user_profile.scss|SCSS|32|0|5
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema\streaming\live_stream.ex|asciinema|asciinema-server|live_stream.ex|Elixir|32|0|4
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\recording_html\head_for_show.html.heex|asciinema|asciinema-server|head_for_show.html.heex|HTML EEx|32|0|2
+.\src\_00\output\Elixir\asciinema~asciinema-server\priv\repo\migrations\20230707114655_add_more_metadata_to_live_streams.exs|asciinema|asciinema-server|20230707114655_add_more_metadata_to_live_streams.exs|Elixir|32|0|6
+.\src\_00\output\Elixir\asciinema~asciinema-server\priv\repo\migrations\20230618154430_create_live_streams.exs|asciinema|asciinema-server|20230618154430_create_live_streams.exs|Elixir|31|0|4
+.\src\_00\output\Elixir\asciinema~asciinema-server\assets\css\fonts\source_sans_pro.css|asciinema|asciinema-server|source_sans_pro.css|CSS|30|0|0
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\media.ex|asciinema|asciinema-server|media.ex|Elixir|30|0|7
+.\src\_00\output\Elixir\asciinema~asciinema-server\test\controllers\username_controller_test.exs|asciinema|asciinema-server|username_controller_test.exs|Elixir|30|0|8
+.\src\_00\output\Elixir\asciinema~asciinema-server\assets\css\_flash.scss|asciinema|asciinema-server|_flash.scss|SCSS|29|1|6
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\recording_svg\logo.svg.heex|asciinema|asciinema-server|logo.svg.heex|HTML EEx|29|0|0
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\templates\layout\app.html.heex|asciinema|asciinema-server|app.html.heex|HTML EEx|29|0|5
+.\src\_00\output\Elixir\asciinema~asciinema-server\test\asciinema\vt_test.exs|asciinema|asciinema-server|vt_test.exs|Elixir|29|0|6
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema\colors.ex|asciinema|asciinema-server|colors.ex|Elixir|28|0|5
+.\src\_00\output\Elixir\asciinema~asciinema-server\test\support\data_case.ex|asciinema|asciinema-server|data_case.ex|Elixir|28|19|12
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\admin\endpoint.ex|asciinema|asciinema-server|endpoint.ex|Elixir|27|0|6
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\live_stream_html\card.html.heex|asciinema|asciinema-server|card.html.heex|HTML EEx|26|0|4
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema\accounts\api_token.ex|asciinema|asciinema-server|api_token.ex|Elixir|25|0|8
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema\streaming\live_stream_supervisor.ex|asciinema|asciinema-server|live_stream_supervisor.ex|Elixir|25|0|5
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema\streaming\parser\raw.ex|asciinema|asciinema-server|raw.ex|Elixir|25|0|9
+.\src\_00\output\Elixir\asciinema~asciinema-server\test\support\conn_case.ex|asciinema|asciinema-server|conn_case.ex|Elixir|25|13|11
+.\src\_00\output\Elixir\asciinema~asciinema-server\assets\css\iframe.scss|asciinema|asciinema-server|iframe.scss|SCSS|24|0|4
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema\gc.ex|asciinema|asciinema-server|gc.ex|Elixir|24|0|8
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\plug\authn.ex|asciinema|asciinema-server|authn.ex|Elixir|24|0|6
+.\src\_00\output\Elixir\asciinema~asciinema-server\assets\js\player.js|asciinema|asciinema-server|player.js|JavaScript|23|0|4
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema\accounts\user.ex|asciinema|asciinema-server|user.ex|Elixir|23|0|6
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\fallback_controller.ex|asciinema|asciinema-server|fallback_controller.ex|Elixir|23|0|2
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\live\live_stream_card_live.ex|asciinema|asciinema-server|live_stream_card_live.ex|Elixir|23|0|5
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\plug\return_to.ex|asciinema|asciinema-server|return_to.ex|Elixir|23|0|4
+.\src\_00\output\Elixir\asciinema~asciinema-server\priv\repo\migrations\20240512060058_add_visibility_to_live_streams.exs|asciinema|asciinema-server|20240512060058_add_visibility_to_live_streams.exs|Elixir|23|0|8
+.\src\_00\output\Elixir\asciinema~asciinema-server\priv\repo\migrations\20240516181634_add_visibility_to_asciicasts.exs|asciinema|asciinema-server|20240516181634_add_visibility_to_asciicasts.exs|Elixir|23|0|8
+.\src\_00\output\Elixir\asciinema~asciinema-server\assets\css\_user_edit.scss|asciinema|asciinema-server|_user_edit.scss|SCSS|22|0|4
+.\src\_00\output\Elixir\asciinema~asciinema-server\config\test.exs|asciinema|asciinema-server|test.exs|Elixir|21|6|10
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\views\layout_view.ex|asciinema|asciinema-server|layout_view.ex|Elixir|21|0|5
+.\src\_00\output\Elixir\asciinema~asciinema-server\priv\repo\migrations\20240516183427_add_default_asciicast_visibility_to_users.exs|asciinema|asciinema-server|20240516183427_add_default_asciicast_visibility_to_users.exs|Elixir|21|0|6
+.\src\_00\output\Elixir\asciinema~asciinema-server\priv\svg2png.sh|asciinema|asciinema-server|svg2png.sh|Bourne Shell|21|1|7
+.\src\_00\output\Elixir\asciinema~asciinema-server\test\asciinema\string_utils_test.exs|asciinema|asciinema-server|string_utils_test.exs|Elixir|21|0|6
+.\src\_00\output\Elixir\asciinema~asciinema-server\assets\css\_user_login.scss|asciinema|asciinema-server|_user_login.scss|SCSS|20|0|3
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema\authorization.ex|asciinema|asciinema-server|authorization.ex|Elixir|20|0|2
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema\oban_error_reporter.ex|asciinema|asciinema-server|oban_error_reporter.ex|Elixir|20|0|3
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema\recordings\snapshot_updater.ex|asciinema|asciinema-server|snapshot_updater.ex|Elixir|20|0|2
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema\string_utils.ex|asciinema|asciinema-server|string_utils.ex|Elixir|20|0|3
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\templates\layout\_flash.html.heex|asciinema|asciinema-server|_flash.html.heex|HTML EEx|20|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\templates\layout\simple.html.heex|asciinema|asciinema-server|simple.html.heex|HTML EEx|20|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\rel\env.sh.eex|asciinema|asciinema-server|env.sh.eex|EEx|20|0|3
+.\src\_00\output\Elixir\asciinema~asciinema-server\assets\css\_header.scss|asciinema|asciinema-server|_header.scss|SCSS|19|0|2
+.\src\_00\output\Elixir\asciinema~asciinema-server\assets\css\_icons.css|asciinema|asciinema-server|_icons.css|CSS|19|0|2
+.\src\_00\output\Elixir\asciinema~asciinema-server\assets\css\_simple_layout.scss|asciinema|asciinema-server|_simple_layout.scss|SCSS|19|0|4
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema\file_cache.ex|asciinema|asciinema-server|file_cache.ex|Elixir|19|0|5
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema\vt.ex|asciinema|asciinema-server|vt.ex|Elixir|19|1|8
+.\src\_00\output\Elixir\asciinema~asciinema-server\priv\repo\migrations\20210509143841_add_more_indexes.exs|asciinema|asciinema-server|20210509143841_add_more_indexes.exs|Elixir|19|0|4
+.\src\_00\output\Elixir\asciinema~asciinema-server\priv\repo\migrations\20230211162915_swap_primary_oban_indexes.exs|asciinema|asciinema-server|20230211162915_swap_primary_oban_indexes.exs|Elixir|19|0|3
+.\src\_00\output\Elixir\asciinema~asciinema-server\assets\css\fonts\fira-code-nerd-font.css|asciinema|asciinema-server|fira-code-nerd-font.css|CSS|18|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema\recordings\text.ex|asciinema|asciinema-server|text.ex|Elixir|18|0|4
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema\upgrades\upgrade_recordings.ex|asciinema|asciinema-server|upgrade_recordings.ex|Elixir|18|0|5
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\login_html\sent.html.heex|asciinema|asciinema-server|sent.html.heex|HTML EEx|18|0|3
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\webfinger_controller.ex|asciinema|asciinema-server|webfinger_controller.ex|Elixir|18|0|2
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\webfinger_json.ex|asciinema|asciinema-server|webfinger_json.ex|Elixir|18|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\url_provider.ex|asciinema|asciinema-server|url_provider.ex|Elixir|18|0|4
+.\src\_00\output\Elixir\asciinema~asciinema-server\priv\repo\migrations\20240502083959_lowercase_emails.exs|asciinema|asciinema-server|20240502083959_lowercase_emails.exs|Elixir|18|0|3
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema\recordings\paths.ex|asciinema|asciinema-server|paths.ex|Elixir|17|0|2
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\live_stream_html\visibility_badge.html.heex|asciinema|asciinema-server|visibility_badge.html.heex|HTML EEx|17|0|0
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\recording_html\visibility_badge.html.heex|asciinema|asciinema-server|visibility_badge.html.heex|HTML EEx|17|0|0
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\plug\authz.ex|asciinema|asciinema-server|authz.ex|Elixir|17|0|2
+.\src\_00\output\Elixir\asciinema~asciinema-server\priv\repo\migrations\20211212114046_insert_upgrade_jobs.exs|asciinema|asciinema-server|20211212114046_insert_upgrade_jobs.exs|Elixir|17|0|3
+.\src\_00\output\Elixir\asciinema~asciinema-server\test\fixtures\1\asciicast.json|asciinema|asciinema-server|asciicast.json|JSON|17|0|0
+.\src\_00\output\Elixir\asciinema~asciinema-server\test\fixtures\1\screenshot.json|asciinema|asciinema-server|screenshot.json|JSON|17|0|0
+.\src\_00\output\Elixir\asciinema~asciinema-server\test\fixtures\5\asciicast.json|asciinema|asciinema-server|asciicast.json|JSON|17|0|0
+.\src\_00\output\Elixir\asciinema~asciinema-server\config\prod.exs|asciinema|asciinema-server|prod.exs|Elixir|16|13|6
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema\fonts.ex|asciinema|asciinema-server|fonts.ex|Elixir|16|0|3
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\admin\router.ex|asciinema|asciinema-server|router.ex|Elixir|16|0|3
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\components\icons\envelope_outline_icon.html.heex|asciinema|asciinema-server|envelope_outline_icon.html.heex|HTML EEx|16|0|0
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\components\icons\info_outline_icon.html.heex|asciinema|asciinema-server|info_outline_icon.html.heex|HTML EEx|16|0|0
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\components\icons\user_circle_outline_icon.html.heex|asciinema|asciinema-server|user_circle_outline_icon.html.heex|HTML EEx|16|0|0
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\recording_html\deleted.html.heex|asciinema|asciinema-server|deleted.html.heex|HTML EEx|16|0|2
+.\src\_00\output\Elixir\asciinema~asciinema-server\test\fixtures\1\invalid.json|asciinema|asciinema-server|invalid.json|JSON|16|0|0
+.\src\_00\output\Elixir\asciinema~asciinema-server\test\support\channel_case.ex|asciinema|asciinema-server|channel_case.ex|Elixir|16|13|8
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\caching.ex|asciinema|asciinema-server|caching.ex|Elixir|15|0|2
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\oembed_xml\rich.xml.heex|asciinema|asciinema-server|rich.xml.heex|HTML EEx|15|0|0
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\user_html\delete.html.heex|asciinema|asciinema-server|delete.html.heex|HTML EEx|15|0|2
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\plug\trailing_format.ex|asciinema|asciinema-server|trailing_format.ex|Elixir|15|0|2
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\views\error_helpers.ex|asciinema|asciinema-server|error_helpers.ex|Elixir|15|19|3
+.\src\_00\output\Elixir\asciinema~asciinema-server\native\vt_nif\README.md|asciinema|asciinema-server|README.md|Markdown|15|0|7
+.\src\_00\output\Elixir\asciinema~asciinema-server\test\fixtures\0.9.7\meta.json|asciinema|asciinema-server|meta.json|JSON|15|0|0
+.\src\_00\output\Elixir\asciinema~asciinema-server\test\support\url_provider.ex|asciinema|asciinema-server|url_provider.ex|Elixir|15|0|3
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\page_html.ex|asciinema|asciinema-server|page_html.ex|Elixir|14|0|3
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\default_avatar\gravatar.ex|asciinema|asciinema-server|gravatar.ex|Elixir|14|0|4
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\templates\layout\iframe.html.heex|asciinema|asciinema-server|iframe.html.heex|HTML EEx|14|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\test\asciinema\colors_test.exs|asciinema|asciinema-server|colors_test.exs|Elixir|14|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\test\asciinema\recordings\markers_test.exs|asciinema|asciinema-server|markers_test.exs|Elixir|14|0|4
+.\src\_00\output\Elixir\asciinema~asciinema-server\test\fixtures\0.9.8\meta.json|asciinema|asciinema-server|meta.json|JSON|14|0|0
+.\src\_00\output\Elixir\asciinema~asciinema-server\assets\static\robots.txt|asciinema|asciinema-server|robots.txt|Text|13|0|2
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema\streaming\gc.ex|asciinema|asciinema-server|gc.ex|Elixir|13|0|3
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\page_controller.ex|asciinema|asciinema-server|page_controller.ex|Elixir|13|0|3
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\plug\parsers\multipart.ex|asciinema|asciinema-server|multipart.ex|Elixir|13|0|5
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\ext\keyword.ex|asciinema|asciinema-server|keyword.ex|Elixir|13|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\ext\map.ex|asciinema|asciinema-server|map.ex|Elixir|13|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\assets\css\_footer.scss|asciinema|asciinema-server|_footer.scss|SCSS|12|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema\config.ex|asciinema|asciinema-server|config.ex|Elixir|12|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema\crypto.ex|asciinema|asciinema-server|crypto.ex|Elixir|12|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\avatar_controller.ex|asciinema|asciinema-server|avatar_controller.ex|Elixir|12|0|2
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\templates\layout\_footer.html.heex|asciinema|asciinema-server|_footer.html.heex|HTML EEx|12|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\native\vt_nif\Cargo.toml|asciinema|asciinema-server|Cargo.toml|TOML|12|0|2
+.\src\_00\output\Elixir\asciinema~asciinema-server\test\controllers\page_controller_test.exs|asciinema|asciinema-server|page_controller_test.exs|Elixir|12|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema\upgrades\initial_seed.ex|asciinema|asciinema-server|initial_seed.ex|Elixir|11|0|3
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\session_html\new.html.heex|asciinema|asciinema-server|new.html.heex|HTML EEx|11|0|2
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\user_html\new.html.heex|asciinema|asciinema-server|new.html.heex|HTML EEx|11|0|2
+.\src\_00\output\Elixir\asciinema~asciinema-server\priv\repo\migrations\20230708120726_add_viewer_count_to_live_streams.exs|asciinema|asciinema-server|20230708120726_add_viewer_count_to_live_streams.exs|Elixir|11|0|2
+.\src\_00\output\Elixir\asciinema~asciinema-server\test\fixtures\0.9.9\meta.json|asciinema|asciinema-server|meta.json|JSON|11|0|0
+.\src\_00\output\Elixir\asciinema~asciinema-server\assets\static\images\logo-red.svg|asciinema|asciinema-server|logo-red.svg|SVG|10|0|0
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\components\icons\eye_solid_icon.html.heex|asciinema|asciinema-server|eye_solid_icon.html.heex|HTML EEx|10|0|0
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\oembed_xml.ex|asciinema|asciinema-server|oembed_xml.ex|Elixir|10|0|2
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\recording_html\original_theme_style.html.heex|asciinema|asciinema-server|original_theme_style.html.heex|HTML EEx|10|0|2
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\default_avatar\identicon.ex|asciinema|asciinema-server|identicon.ex|Elixir|10|0|2
+.\src\_00\output\Elixir\asciinema~asciinema-server\priv\repo\migrations\20170926074750_add_theme_fields_to_asciicast.exs|asciinema|asciinema-server|20170926074750_add_theme_fields_to_asciicast.exs|Elixir|10|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\priv\repo\migrations\20200901164454_convert_file_to_path.exs|asciinema|asciinema-server|20200901164454_convert_file_to_path.exs|Elixir|10|0|3
+.\src\_00\output\Elixir\asciinema~asciinema-server\priv\repo\migrations\20240308110750_add_theme_fields_to_live_streams.exs|asciinema|asciinema-server|20240308110750_add_theme_fields_to_live_streams.exs|Elixir|10|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\test\controllers\avatar_controller_test.exs|asciinema|asciinema-server|avatar_controller_test.exs|Elixir|10|0|3
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema\streaming\parser.ex|asciinema|asciinema-server|parser.ex|Elixir|9|0|2
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema\upgrades\worker.ex|asciinema|asciinema-server|worker.ex|Elixir|9|0|0
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\components\icons\cog_8_tooth_mini_icon.html.heex|asciinema|asciinema-server|cog_8_tooth_mini_icon.html.heex|HTML EEx|9|0|0
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\components\icons\info_solid_icon.html.heex|asciinema|asciinema-server|info_solid_icon.html.heex|HTML EEx|9|0|0
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\components\icons\terminal_solid_icon.html.heex|asciinema|asciinema-server|terminal_solid_icon.html.heex|HTML EEx|9|0|0
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\components\icons\user_solid_icon.html.heex|asciinema|asciinema-server|user_solid_icon.html.heex|HTML EEx|9|0|0
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\templates\layout\email.html.heex|asciinema|asciinema-server|email.html.heex|HTML EEx|9|0|0
+.\src\_00\output\Elixir\asciinema~asciinema-server\priv\repo\migrations\20170921075634_drop_stdin_from_asciicast.exs|asciinema|asciinema-server|20170921075634_drop_stdin_from_asciicast.exs|Elixir|9|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\priv\repo\migrations\20210417192109_add_oban_jobs_table.exs|asciinema|asciinema-server|20210417192109_add_oban_jobs_table.exs|Elixir|9|2|2
+.\src\_00\output\Elixir\asciinema~asciinema-server\priv\repo\migrations\20211211210159_add_cols_rows_overrides.exs|asciinema|asciinema-server|20211211210159_add_cols_rows_overrides.exs|Elixir|9|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\priv\repo\migrations\20230701115122_add_online_to_live_streams.exs|asciinema|asciinema-server|20230701115122_add_online_to_live_streams.exs|Elixir|9|0|2
+.\src\_00\output\Elixir\asciinema~asciinema-server\priv\repo\migrations\20230712082725_add_started_at_to_live_streams.exs|asciinema|asciinema-server|20230712082725_add_started_at_to_live_streams.exs|Elixir|9|0|2
+.\src\_00\output\Elixir\asciinema~asciinema-server\priv\repo\migrations\20230817131250_add_parser_to_live_streams.exs|asciinema|asciinema-server|20230817131250_add_parser_to_live_streams.exs|Elixir|9|0|2
+.\src\_00\output\Elixir\asciinema~asciinema-server\priv\repo\migrations\20240329201531_add_theme_prefer_original_to_users.exs|asciinema|asciinema-server|20240329201531_add_theme_prefer_original_to_users.exs|Elixir|9|0|2
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema\png_generator.ex|asciinema|asciinema-server|png_generator.ex|Elixir|8|0|2
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema\pub_sub.ex|asciinema|asciinema-server|pub_sub.ex|Elixir|8|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\default_avatar.ex|asciinema|asciinema-server|default_avatar.ex|Elixir|8|0|2
+.\src\_00\output\Elixir\asciinema~asciinema-server\priv\repo\migrations\20170926072604_add_recorded_at_to_asciicast.exs|asciinema|asciinema-server|20170926072604_add_recorded_at_to_asciicast.exs|Elixir|8|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\priv\repo\migrations\20171027085309_add_idle_time_limit_to_asciicast.exs|asciinema|asciinema-server|20171027085309_add_idle_time_limit_to_asciicast.exs|Elixir|8|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\priv\repo\migrations\20180624124338_add_is_admin_to_users.exs|asciinema|asciinema-server|20180624124338_add_is_admin_to_users.exs|Elixir|8|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\priv\repo\migrations\20181214193102_add_archived_at_to_asciicasts.exs|asciinema|asciinema-server|20181214193102_add_archived_at_to_asciicasts.exs|Elixir|8|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\priv\repo\migrations\20190112165543_add_archivable_to_asciicasts.exs|asciinema|asciinema-server|20190112165543_add_archivable_to_asciicasts.exs|Elixir|8|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\priv\repo\migrations\20200831195118_remove_stdout_frames.exs|asciinema|asciinema-server|20200831195118_remove_stdout_frames.exs|Elixir|8|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\priv\repo\migrations\20211211190233_rename_created_at_to_inserted_at.exs|asciinema|asciinema-server|20211211190233_rename_created_at_to_inserted_at.exs|Elixir|8|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\priv\repo\migrations\20230402201325_add_terminal_line_height_to_asciicasts.exs|asciinema|asciinema-server|20230402201325_add_terminal_line_height_to_asciicasts.exs|Elixir|8|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\priv\repo\migrations\20230403182405_add_terminal_font_family_to_asciicasts.exs|asciinema|asciinema-server|20230403182405_add_terminal_font_family_to_asciicasts.exs|Elixir|8|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\priv\repo\migrations\20230515080531_add_markers_to_asciicasts.exs|asciinema|asciinema-server|20230515080531_add_markers_to_asciicasts.exs|Elixir|8|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\priv\repo\migrations\20230716092144_add_buffer_time_to_live_streams.exs|asciinema|asciinema-server|20230716092144_add_buffer_time_to_live_streams.exs|Elixir|8|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\priv\repo\migrations\20231219195815_add_speed_to_asciicasts.exs|asciinema|asciinema-server|20231219195815_add_speed_to_asciicasts.exs|Elixir|8|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\priv\repo\migrations\20240217154250_add_terminal_font_family_to_users.exs|asciinema|asciinema-server|20240217154250_add_terminal_font_family_to_users.exs|Elixir|8|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\priv\repo\migrations\20240329195017_add_theme_prefer_original_to_live_streams.exs|asciinema|asciinema-server|20240329195017_add_theme_prefer_original_to_live_streams.exs|Elixir|8|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\priv\repo\migrations\20240421122804_add_snapshot_to_live_streams.exs|asciinema|asciinema-server|20240421122804_add_snapshot_to_live_streams.exs|Elixir|8|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\rel\overlays\bin\server|asciinema|asciinema-server|server|Bourne Shell|8|0|2
+.\src\_00\output\Elixir\asciinema~asciinema-server\rel\vm.args.eex|asciinema|asciinema-server|vm.args.eex|EEx|8|0|3
+.\src\_00\output\Elixir\asciinema~asciinema-server\.iex.exs|asciinema|asciinema-server|.iex.exs|Elixir|7|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema\ecto\type\json_array.ex|asciinema|asciinema-server|json_array.ex|Elixir|7|0|2
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema\emails\mailer.ex|asciinema|asciinema-server|mailer.ex|Elixir|7|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema\url_provider.ex|asciinema|asciinema-server|url_provider.ex|Elixir|7|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\channels\user_socket.ex|asciinema|asciinema-server|user_socket.ex|Elixir|7|23|3
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\error_html.ex|asciinema|asciinema-server|error_html.ex|Elixir|7|0|2
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\views\api\recording_text.ex|asciinema|asciinema-server|recording_text.ex|Elixir|7|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\priv\repo\migrations\20180514074835_fix_uniq_index_on_username.exs|asciinema|asciinema-server|20180514074835_fix_uniq_index_on_username.exs|Elixir|7|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\priv\repo\migrations\20180514075806_fix_uniq_index_on_api_token.exs|asciinema|asciinema-server|20180514075806_fix_uniq_index_on_api_token.exs|Elixir|7|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\priv\repo\migrations\20211211202637_rename_terminal_columns_lines_to_cols_rows.exs|asciinema|asciinema-server|20211211202637_rename_terminal_columns_lines_to_cols_rows.exs|Elixir|7|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\priv\repo\migrations\20230707120207_add_missing_indices_to_live_streams.exs|asciinema|asciinema-server|20230707120207_add_missing_indices_to_live_streams.exs|Elixir|7|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\priv\repo\migrations\20240410075535_rename_and_shorten_stream_tokens.exs|asciinema|asciinema-server|20240410075535_rename_and_shorten_stream_tokens.exs|Elixir|7|0|2
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\components\icons\download_mini_icon.html.heex|asciinema|asciinema-server|download_mini_icon.html.heex|HTML EEx|6|0|0
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\avatar_svg.ex|asciinema|asciinema-server|avatar_svg.ex|Elixir|6|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\live_stream_html\thumbnail.html.heex|asciinema|asciinema-server|thumbnail.html.heex|HTML EEx|6|0|0
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\recording_html\featured_badge.html.heex|asciinema|asciinema-server|featured_badge.html.heex|HTML EEx|6|0|0
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\recording_html\gif.html.heex|asciinema|asciinema-server|gif.html.heex|HTML EEx|6|0|2
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\recording_html\secret_badge.html.heex|asciinema|asciinema-server|secret_badge.html.heex|HTML EEx|6|0|0
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\recording_html\thumbnail.html.heex|asciinema|asciinema-server|thumbnail.html.heex|HTML EEx|6|0|0
+.\src\_00\output\Elixir\asciinema~asciinema-server\priv\repo\migrations\20230713075841_add_more_indices_to_live_streams.exs|asciinema|asciinema-server|20230713075841_add_more_indices_to_live_streams.exs|Elixir|6|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\priv\repo\migrations\20240409082127_add_index_on_user_id_secret_token_to_live_streams.exs|asciinema|asciinema-server|20240409082127_add_index_on_user_id_secret_token_to_live_streams.exs|Elixir|6|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\priv\repo\migrations\20240519083033_add_index_on_asciicasts_visibility.exs|asciinema|asciinema-server|20240519083033_add_index_on_asciicasts_visibility.exs|Elixir|6|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\rel\env.bat.eex|asciinema|asciinema-server|env.bat.eex|EEx|6|0|0
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\components\icons\adjustments_horizontal_mini_icon.html.heex|asciinema|asciinema-server|adjustments_horizontal_mini_icon.html.heex|HTML EEx|5|0|0
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\components\icons\share_mini_icon.html.heex|asciinema|asciinema-server|share_mini_icon.html.heex|HTML EEx|5|0|0
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\error_json.ex|asciinema|asciinema-server|error_json.ex|Elixir|5|0|0
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\error_text.ex|asciinema|asciinema-server|error_text.ex|Elixir|5|0|0
+.\src\_00\output\Elixir\asciinema~asciinema-server\priv\repo\migrations\20230211162625_create_oban_peers.exs|asciinema|asciinema-server|20230211162625_create_oban_peers.exs|Elixir|5|0|2
+.\src\_00\output\Elixir\asciinema~asciinema-server\priv\repo\migrations\20240114204549_upgrade_oban_jobs_to_v12.exs|asciinema|asciinema-server|20240114204549_upgrade_oban_jobs_to_v12.exs|Elixir|5|0|2
+.\src\_00\output\Elixir\asciinema~asciinema-server\.formatter.exs|asciinema|asciinema-server|.formatter.exs|Elixir|4|2|0
+.\src\_00\output\Elixir\asciinema~asciinema-server\assets\css\fonts\powerline-symbols.css|asciinema|asciinema-server|powerline-symbols.css|CSS|4|0|0
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\components\icons.ex|asciinema|asciinema-server|icons.ex|Elixir|4|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\login_html.ex|asciinema|asciinema-server|login_html.ex|Elixir|4|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\session_html.ex|asciinema|asciinema-server|session_html.ex|Elixir|4|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\username_html.ex|asciinema|asciinema-server|username_html.ex|Elixir|4|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\test\test_helper.exs|asciinema|asciinema-server|test_helper.exs|Elixir|4|0|2
+.\src\_00\output\Elixir\asciinema~asciinema-server\assets\js\iframe.js|asciinema|asciinema-server|iframe.js|JavaScript|3|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\gettext.ex|asciinema|asciinema-server|gettext.ex|Elixir|3|15|6
+.\src\_00\output\Elixir\asciinema~asciinema-server\rel\overlays\bin\admin_add|asciinema|asciinema-server|admin_add|Bourne Again Shell|3|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\rel\overlays\bin\admin_rm|asciinema|asciinema-server|admin_rm|Bourne Shell|3|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\test\views\layout_view_test.exs|asciinema|asciinema-server|layout_view_test.exs|Elixir|3|4|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\error_html\403.html.eex|asciinema|asciinema-server|403.html.eex|EEx|2|0|0
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\controllers\error_html\404.html.eex|asciinema|asciinema-server|404.html.eex|EEx|2|0|0
+.\src\_00\output\Elixir\asciinema~asciinema-server\priv\repo\seeds.exs|asciinema|asciinema-server|seeds.exs|Elixir|2|11|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\rel\overlays\bin\gen_secret|asciinema|asciinema-server|gen_secret|Bourne Shell|2|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\rel\overlays\bin\migrate|asciinema|asciinema-server|migrate|Bourne Shell|2|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\rel\overlays\bin\send-test-email|asciinema|asciinema-server|send-test-email|Bourne Shell|2|0|1
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\components\icons\live_icon.html.heex|asciinema|asciinema-server|live_icon.html.heex|HTML EEx|1|0|0
+.\src\_00\output\Elixir\asciinema~asciinema-server\lib\asciinema_web\components\icons\offline_icon.html.heex|asciinema|asciinema-server|offline_icon.html.heex|HTML EEx|1|0|0
+.\src\_00\output\Elixir\asciinema~asciinema-server\rel\overlays\etc\custom.exs|asciinema|asciinema-server|custom.exs|Elixir|1|11|2
+.\src\_00\output\Elixir\asciinema~asciinema-server\test\fixtures\stdout.json|asciinema|asciinema-server|stdout.json|JSON|1|0|0

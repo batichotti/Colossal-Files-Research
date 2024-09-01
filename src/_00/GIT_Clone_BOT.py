@@ -13,11 +13,14 @@ for repository, language, branch in zip(input_file['url'], input_file['main lang
     print(f"{repository.split('/')[-2]}~{repository.split('/')[-1]}", end="")
     
     try:
-        try:
-            repo = git.Repo.clone_from(repository, local_repo_directory, branch=branch)
-            print(" -> Main branch")
-        except git.exc.GitCommandError:
-            print(" -> \033[31mNo Main/Master branches found\033[m")
+        if branch != 'main' and branch != 'master':
+            try:
+                repo = git.Repo.clone_from(repository, local_repo_directory, branch=branch)
+                print(f" -> {branch} branch")
+            except git.exc.GitCommandError:
+                print(" -> \033[31mNo Default branches found\033[m")
+        else:
+            print(f" -> {branch} branch")
 
     except git.exc.GitCommandError as e:
         print()

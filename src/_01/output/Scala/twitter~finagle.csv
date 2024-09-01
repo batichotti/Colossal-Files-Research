@@ -1,5 +1,5 @@
 path|owner|project|file|language|code|comment|blank
-.\src\_00\output\Scala\twitter~finagle\CHANGELOG.rst|twitter|finagle|CHANGELOG.rst|reStructuredText|5339|25|1948
+.\src\_00\output\Scala\twitter~finagle\CHANGELOG.rst|twitter|finagle|CHANGELOG.rst|reStructuredText|5346|25|1953
 .\src\_00\output\Scala\twitter~finagle\finagle-thriftmux\src\test\scala\com\twitter\finagle\thriftmux\EndToEndTest.scala|twitter|finagle|EndToEndTest.scala|Scala|2034|83|321
 .\src\_00\output\Scala\twitter~finagle\finagle-http\src\test\scala\com\twitter\finagle\http\AbstractEndToEndTest.scala|twitter|finagle|AbstractEndToEndTest.scala|Scala|1939|64|375
 .\src\_00\output\Scala\twitter~finagle\doc\client-abstraction.graffle|twitter|finagle|client-abstraction.graffle|XML|1691|0|24
@@ -16,8 +16,8 @@ path|owner|project|file|language|code|comment|blank
 .\src\_00\output\Scala\twitter~finagle\finagle-core\src\test\scala\com\twitter\finagle\client\BackupRequestFilterTest.scala|twitter|finagle|BackupRequestFilterTest.scala|Scala|741|52|170
 .\src\_00\output\Scala\twitter~finagle\finagle-core\src\test\scala\com\twitter\finagle\liveness\FailureAccrualFactoryTest.scala|twitter|finagle|FailureAccrualFactoryTest.scala|Scala|699|64|156
 .\src\_00\output\Scala\twitter~finagle\finagle-core\src\test\scala\com\twitter\finagle\client\StackClientTest.scala|twitter|finagle|StackClientTest.scala|Scala|650|53|146
+.\src\_00\output\Scala\twitter~finagle\finagle-mysql\src\test\scala\com\twitter\finagle\mysql\integration\TypeTest.scala|twitter|finagle|TypeTest.scala|Scala|591|11|89
 .\src\_00\output\Scala\twitter~finagle\finagle-thrift\src\main\java\com\twitter\finagle\thrift\thrift\BinaryAnnotation.java|twitter|finagle|BinaryAnnotation.java|Java|586|92|91
-.\src\_00\output\Scala\twitter~finagle\finagle-mysql\src\test\scala\com\twitter\finagle\mysql\integration\TypeTest.scala|twitter|finagle|TypeTest.scala|Scala|574|8|87
 .\src\_00\output\Scala\twitter~finagle\finagle-core\src\test\scala\com\twitter\finagle\loadbalancer\aperture\ApertureTest.scala|twitter|finagle|ApertureTest.scala|Scala|537|65|118
 .\src\_00\output\Scala\twitter~finagle\finagle-serversets\src\test\scala\com\twitter\finagle\serverset2\client\apache\ApacheZooKeeperTest.scala|twitter|finagle|ApacheZooKeeperTest.scala|Scala|535|4|154
 .\src\_00\output\Scala\twitter~finagle\finagle-core\src\main\scala\com\twitter\finagle\Stack.scala|twitter|finagle|Stack.scala|Scala|502|393|105
@@ -696,7 +696,6 @@ path|owner|project|file|language|code|comment|blank
 .\src\_00\output\Scala\twitter~finagle\finagle-core\src\main\scala\com\twitter\finagle\filter\FiberForkFilter.scala|twitter|finagle|FiberForkFilter.scala|Scala|81|0|12
 .\src\_00\output\Scala\twitter~finagle\finagle-core\src\test\scala\com\twitter\finagle\naming\DynNameFactoryTest.scala|twitter|finagle|DynNameFactoryTest.scala|Scala|81|0|20
 .\src\_00\output\Scala\twitter~finagle\finagle-core\src\test\scala\com\twitter\finagle\util\DefaultMonitorTest.scala|twitter|finagle|DefaultMonitorTest.scala|Scala|81|7|20
-.\src\_00\output\Scala\twitter~finagle\finagle-mysql\src\main\scala\com\twitter\finagle\mysql\StringEncodedRow.scala|twitter|finagle|StringEncodedRow.scala|Scala|81|19|9
 .\src\_00\output\Scala\twitter~finagle\finagle-netty4\src\main\scala\com\twitter\finagle\netty4\Netty4Listener.scala|twitter|finagle|Netty4Listener.scala|Scala|81|32|14
 .\src\_00\output\Scala\twitter~finagle\finagle-core\src\main\scala\com\twitter\finagle\Name.scala|twitter|finagle|Name.scala|Scala|80|102|28
 .\src\_00\output\Scala\twitter~finagle\finagle-core\src\main\scala\com\twitter\finagle\client\ExceptionRemoteInfoFactory.scala|twitter|finagle|ExceptionRemoteInfoFactory.scala|Scala|80|17|17
@@ -710,6 +709,7 @@ path|owner|project|file|language|code|comment|blank
 .\src\_00\output\Scala\twitter~finagle\finagle-core\src\main\scala\com\twitter\finagle\decoder\LengthFieldFramer.scala|twitter|finagle|LengthFieldFramer.scala|Scala|79|60|20
 .\src\_00\output\Scala\twitter~finagle\finagle-core\src\test\scala\com\twitter\finagle\client\DefaultPoolTest.scala|twitter|finagle|DefaultPoolTest.scala|Scala|79|1|13
 .\src\_00\output\Scala\twitter~finagle\finagle-http\src\test\scala\com\twitter\finagle\http\TraceInitializationTest.scala|twitter|finagle|TraceInitializationTest.scala|Scala|79|4|11
+.\src\_00\output\Scala\twitter~finagle\finagle-mysql\src\main\scala\com\twitter\finagle\mysql\StringEncodedRow.scala|twitter|finagle|StringEncodedRow.scala|Scala|79|16|9
 .\src\_00\output\Scala\twitter~finagle\finagle-redis\src\main\scala\com\twitter\finagle\redis\KeyCommands.scala|twitter|finagle|KeyCommands.scala|Scala|79|93|16
 .\src\_00\output\Scala\twitter~finagle\finagle-zipkin-core\src\test\scala\com\twitter\finagle\zipkin\core\SamplerTest.scala|twitter|finagle|SamplerTest.scala|Scala|79|0|14
 .\src\_00\output\Scala\twitter~finagle\finagle-zipkin-core\src\test\scala\com\twitter\finagle\zipkin\core\SpanTest.scala|twitter|finagle|SpanTest.scala|Scala|79|5|12
@@ -877,13 +877,13 @@ path|owner|project|file|language|code|comment|blank
 .\src\_00\output\Scala\twitter~finagle\finagle-http\src\test\scala\com\twitter\finagle\http\ssl\HttpSslTest.scala|twitter|finagle|HttpSslTest.scala|Scala|63|0|11
 .\src\_00\output\Scala\twitter~finagle\finagle-memcached\src\test\scala\com\twitter\finagle\memcached\integration\MemcachedOldClientTest.scala|twitter|finagle|MemcachedOldClientTest.scala|Scala|63|2|12
 .\src\_00\output\Scala\twitter~finagle\finagle-memcached\src\test\scala\com\twitter\finagle\memcached\unit\GetResultTest.scala|twitter|finagle|GetResultTest.scala|Scala|63|0|15
-.\src\_00\output\Scala\twitter~finagle\finagle-mysql\src\main\scala\com\twitter\finagle\mysql\BinaryEncodedRow.scala|twitter|finagle|BinaryEncodedRow.scala|Scala|63|24|9
 .\src\_00\output\Scala\twitter~finagle\finagle-mysql\src\main\scala\com\twitter\finagle\mysql\RollbackFactory.scala|twitter|finagle|RollbackFactory.scala|Scala|63|18|14
 .\src\_00\output\Scala\twitter~finagle\finagle-mysql\src\test\scala\com\twitter\finagle\mysql\unit\TransactionTest.scala|twitter|finagle|TransactionTest.scala|Scala|63|3|12
 .\src\_00\output\Scala\twitter~finagle\finagle-postgresql\src\main\scala\com\twitter\finagle\postgresql\transport\ConnectionHandshaker.scala|twitter|finagle|ConnectionHandshaker.scala|Scala|63|2|9
 .\src\_00\output\Scala\twitter~finagle\finagle-core\src\main\scala\com\twitter\finagle\service\PendingRequestFilter.scala|twitter|finagle|PendingRequestFilter.scala|Scala|62|23|15
 .\src\_00\output\Scala\twitter~finagle\finagle-core\src\test\scala\com\twitter\finagle\loadbalancer\aperture\LoadBandTest.scala|twitter|finagle|LoadBandTest.scala|Scala|62|13|18
 .\src\_00\output\Scala\twitter~finagle\finagle-core\src\test\scala\com\twitter\finagle\loadbalancer\heap\HeapTest.scala|twitter|finagle|HeapTest.scala|Scala|62|0|10
+.\src\_00\output\Scala\twitter~finagle\finagle-mysql\src\main\scala\com\twitter\finagle\mysql\BinaryEncodedRow.scala|twitter|finagle|BinaryEncodedRow.scala|Scala|62|24|8
 .\src\_00\output\Scala\twitter~finagle\finagle-mysql\src\main\scala\com\twitter\finagle\mysql\param\params.scala|twitter|finagle|params.scala|Scala|62|56|15
 .\src\_00\output\Scala\twitter~finagle\finagle-mysql\src\main\scala\com\twitter\finagle\mysql\transport\MysqlBufReader.scala|twitter|finagle|MysqlBufReader.scala|Scala|62|42|12
 .\src\_00\output\Scala\twitter~finagle\finagle-netty4-http\src\main\scala\com\twitter\finagle\netty4\http\handler\BadRequestHandler.scala|twitter|finagle|BadRequestHandler.scala|Scala|62|20|13
@@ -1037,6 +1037,7 @@ path|owner|project|file|language|code|comment|blank
 .\src\_00\output\Scala\twitter~finagle\finagle-http\src\test\java\com\twitter\finagle\http\service\HttpResponseClassifierCompilationTest.java|twitter|finagle|HttpResponseClassifierCompilationTest.java|Java|50|3|15
 .\src\_00\output\Scala\twitter~finagle\finagle-http2\src\test\scala\com\twitter\finagle\http2\transport\common\StripHeadersHandlerTest.scala|twitter|finagle|StripHeadersHandlerTest.scala|Scala|50|0|6
 .\src\_00\output\Scala\twitter~finagle\finagle-http2\src\test\scala\com\twitter\finagle\http2\transport\server\Http2NackHandlerTest.scala|twitter|finagle|Http2NackHandlerTest.scala|Scala|50|0|12
+.\src\_00\output\Scala\twitter~finagle\finagle-mysql\src\test\scala\com\twitter\finagle\mysql\integration\package.scala|twitter|finagle|package.scala|Scala|50|7|5
 .\src\_00\output\Scala\twitter~finagle\finagle-mysql\src\test\scala\com\twitter\finagle\mysql\unit\CapabilityTest.scala|twitter|finagle|CapabilityTest.scala|Scala|50|0|10
 .\src\_00\output\Scala\twitter~finagle\finagle-mysql\src\test\scala\com\twitter\finagle\mysql\unit\SecureHandshakeTest.scala|twitter|finagle|SecureHandshakeTest.scala|Scala|50|0|9
 .\src\_00\output\Scala\twitter~finagle\finagle-opencensus-tracing\src\main\scala\com\twitter\finagle\tracing\opencensus\TracingOps.scala|twitter|finagle|TracingOps.scala|Scala|50|45|8
@@ -1080,7 +1081,6 @@ path|owner|project|file|language|code|comment|blank
 .\src\_00\output\Scala\twitter~finagle\finagle-mux\src\test\scala\com\twitter\finagle\mux\transport\MuxFailureTest.scala|twitter|finagle|MuxFailureTest.scala|Scala|48|2|11
 .\src\_00\output\Scala\twitter~finagle\finagle-mysql\src\test\scala\com\twitter\finagle\mysql\harness\EmbeddedSuite.scala|twitter|finagle|EmbeddedSuite.scala|Scala|48|30|12
 .\src\_00\output\Scala\twitter~finagle\finagle-mysql\src\test\scala\com\twitter\finagle\mysql\integration\MysqlBuilderTest.scala|twitter|finagle|MysqlBuilderTest.scala|Scala|48|0|6
-.\src\_00\output\Scala\twitter~finagle\finagle-mysql\src\test\scala\com\twitter\finagle\mysql\integration\package.scala|twitter|finagle|package.scala|Scala|48|4|5
 .\src\_00\output\Scala\twitter~finagle\finagle-netty4\src\main\java\com\twitter\finagle\netty4\codec\compression\zstd\ZstdStreamingEncoder.java|twitter|finagle|ZstdStreamingEncoder.java|Java|48|2|10
 .\src\_00\output\Scala\twitter~finagle\finagle-netty4\src\main\scala\com\twitter\finagle\netty4\channel\Netty4RawServerChannelInitializer.scala|twitter|finagle|Netty4RawServerChannelInitializer.scala|Scala|48|14|13
 .\src\_00\output\Scala\twitter~finagle\finagle-netty4\src\main\scala\com\twitter\finagle\netty4\ssl\Netty4SslHandler.scala|twitter|finagle|Netty4SslHandler.scala|Scala|48|9|8

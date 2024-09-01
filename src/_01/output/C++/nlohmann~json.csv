@@ -1,778 +1,788 @@
-Unnamed: 0|path|owner|project|file|language|code|comment|blank
-0|./src/_00/output/C++/nlohmann~json/single_include/nlohmann/json.hpp|nlohmann|json|json.hpp|C/C++ Header|17452|4143|3170
-1|./src/_00/output/C++/nlohmann~json/tests/abi/include/nlohmann/json_v3_10_5.hpp|nlohmann|json|json_v3_10_5.hpp|C/C++ Header|15650|3634|2807
-2|./src/_00/output/C++/nlohmann~json/tests/thirdparty/doctest/doctest.h|nlohmann|json|doctest.h|C/C++ Header|5473|537|1096
-3|./src/_00/output/C++/nlohmann~json/include/nlohmann/json.hpp|nlohmann|json|json.hpp|C/C++ Header|3490|1098|670
-4|./src/_00/output/C++/nlohmann~json/tests/src/unit-bjdata.cpp|nlohmann|json|unit-bjdata.cpp|C++|2822|270|489
-5|./src/_00/output/C++/nlohmann~json/ChangeLog.md|nlohmann|json|ChangeLog.md|Markdown|2748|0|195
-6|./src/_00/output/C++/nlohmann~json/include/nlohmann/detail/input/binary_reader.hpp|nlohmann|json|binary_reader.hpp|C/C++ Header|2360|327|322
-7|./src/_00/output/C++/nlohmann~json/tests/src/unit-cbor.cpp|nlohmann|json|unit-cbor.cpp|C++|1996|340|369
-8|./src/_00/output/C++/nlohmann~json/tests/src/unit-ubjson.cpp|nlohmann|json|unit-ubjson.cpp|C++|1990|215|342
-9|./src/_00/output/C++/nlohmann~json/include/nlohmann/thirdparty/hedley/hedley.hpp|nlohmann|json|hedley.hpp|C/C++ Header|1891|16|138
-10|./src/_00/output/C++/nlohmann~json/tests/src/unit-element_access2.cpp|nlohmann|json|unit-element_access2.cpp|C++|1510|19|264
-11|./src/_00/output/C++/nlohmann~json/README.md|nlohmann|json|README.md|Markdown|1493|0|398
-12|./src/_00/output/C++/nlohmann~json/include/nlohmann/detail/output/binary_writer.hpp|nlohmann|json|binary_writer.hpp|C/C++ Header|1449|218|171
-13|./src/_00/output/C++/nlohmann~json/tests/src/unit-msgpack.cpp|nlohmann|json|unit-msgpack.cpp|C++|1399|212|255
-14|./src/_00/output/C++/nlohmann~json/tests/src/unit-constructor1.cpp|nlohmann|json|unit-constructor1.cpp|C++|1371|24|186
-15|./src/_00/output/C++/nlohmann~json/tests/src/unit-class_parser.cpp|nlohmann|json|unit-class_parser.cpp|C++|1343|142|206
-16|./src/_00/output/C++/nlohmann~json/tests/src/unit-conversions.cpp|nlohmann|json|unit-conversions.cpp|C++|1335|29|208
-17|./src/_00/output/C++/nlohmann~json/tests/src/unit-iterators1.cpp|nlohmann|json|unit-iterators1.cpp|C++|1323|7|300
-18|./src/_00/output/C++/nlohmann~json/tests/src/unit-testsuites.cpp|nlohmann|json|unit-testsuites.cpp|C++|1235|93|63
-19|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/images/range-rbegin-rend.svg|nlohmann|json|range-rbegin-rend.svg|SVG|1230|1|1
-20|./src/_00/output/C++/nlohmann~json/include/nlohmann/detail/input/lexer.hpp|nlohmann|json|lexer.hpp|C/C++ Header|1199|241|193
-21|./src/_00/output/C++/nlohmann~json/tests/src/unit-items.cpp|nlohmann|json|unit-items.cpp|C++|1177|24|232
-22|./src/_00/output/C++/nlohmann~json/tests/src/unit-regression1.cpp|nlohmann|json|unit-regression1.cpp|C++|1144|123|246
-23|./src/_00/output/C++/nlohmann~json/tests/src/unit-bson.cpp|nlohmann|json|unit-bson.cpp|C++|1045|49|204
-24|./src/_00/output/C++/nlohmann~json/tests/src/unit-deserialization.cpp|nlohmann|json|unit-deserialization.cpp|C++|1004|17|168
-25|./src/_00/output/C++/nlohmann~json/tests/src/unit-json_patch.cpp|nlohmann|json|unit-json_patch.cpp|C++|982|152|187
-26|./src/_00/output/C++/nlohmann~json/tests/src/unit-iterators2.cpp|nlohmann|json|unit-iterators2.cpp|C++|876|41|54
-27|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/home/releases.md|nlohmann|json|releases.md|Markdown|845|0|380
-28|./src/_00/output/C++/nlohmann~json/tests/src/unit-element_access1.cpp|nlohmann|json|unit-element_access1.cpp|C++|796|8|77
-29|./src/_00/output/C++/nlohmann~json/tests/src/unit-modifiers.cpp|nlohmann|json|unit-modifiers.cpp|C++|782|23|148
-30|./src/_00/output/C++/nlohmann~json/cmake/ci.cmake|nlohmann|json|ci.cmake|CMake|755|120|108
-31|./src/_00/output/C++/nlohmann~json/tests/src/unit-regression2.cpp|nlohmann|json|unit-regression2.cpp|C++|723|69|149
-32|./src/_00/output/C++/nlohmann~json/tests/src/unit-udt.cpp|nlohmann|json|unit-udt.cpp|C++|697|41|126
-33|./src/_00/output/C++/nlohmann~json/include/nlohmann/detail/output/serializer.hpp|nlohmann|json|serializer.hpp|C/C++ Header|680|177|131
-34|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/FuzzerUnittest.cpp|nlohmann|json|FuzzerUnittest.cpp|C++|657|8|73
-35|./src/_00/output/C++/nlohmann~json/include/nlohmann/detail/json_pointer.hpp|nlohmann|json|json_pointer.hpp|C/C++ Header|653|212|123
-36|./src/_00/output/C++/nlohmann~json/tests/src/unit-json_pointer.cpp|nlohmann|json|unit-json_pointer.cpp|C++|596|70|121
-37|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/home/exceptions.md|nlohmann|json|exceptions.md|Markdown|569|0|327
-38|./src/_00/output/C++/nlohmann~json/include/nlohmann/detail/meta/type_traits.hpp|nlohmann|json|type_traits.hpp|C/C++ Header|549|96|150
-39|./src/_00/output/C++/nlohmann~json/tests/reports/2016-09-09-nativejson_benchmark/conformance_Nlohmann (C++11).md|nlohmann|json|conformance_Nlohmann (C++11).md|Markdown|511|0|159
-40|./src/_00/output/C++/nlohmann~json/tests/src/unit-comparison.cpp|nlohmann|json|unit-comparison.cpp|C++|497|60|39
-41|./src/_00/output/C++/nlohmann~json/include/nlohmann/detail/conversions/to_chars.hpp|nlohmann|json|to_chars.hpp|C/C++ Header|490|493|135
-42|./src/_00/output/C++/nlohmann~json/tests/src/unit-unicode2.cpp|nlohmann|json|unit-unicode2.cpp|C++|490|48|72
-43|./src/_00/output/C++/nlohmann~json/include/nlohmann/detail/iterators/iter_impl.hpp|nlohmann|json|iter_impl.hpp|C/C++ Header|489|172|90
-44|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/FuzzerLoop.cpp|nlohmann|json|FuzzerLoop.cpp|C++|487|221|84
-45|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/FuzzerDriver.cpp|nlohmann|json|FuzzerDriver.cpp|C++|474|18|53
-46|./src/_00/output/C++/nlohmann~json/include/nlohmann/detail/input/json_sax.hpp|nlohmann|json|json_sax.hpp|C/C++ Header|457|155|115
-47|./src/_00/output/C++/nlohmann~json/tests/src/unit-capacity.cpp|nlohmann|json|unit-capacity.cpp|C++|453|8|82
-48|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/FuzzerMutate.cpp|nlohmann|json|FuzzerMutate.cpp|C++|447|38|42
-49|./src/_00/output/C++/nlohmann~json/tests/src/unit-to_chars.cpp|nlohmann|json|unit-to_chars.cpp|C++|442|30|44
-50|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/images/range-begin-end.svg|nlohmann|json|range-begin-end.svg|SVG|433|1|1
-51|./src/_00/output/C++/nlohmann~json/include/nlohmann/detail/conversions/from_json.hpp|nlohmann|json|from_json.hpp|C/C++ Header|427|21|49
-52|./src/_00/output/C++/nlohmann~json/tests/src/unit-class_iterator.cpp|nlohmann|json|unit-class_iterator.cpp|C++|421|8|39
-53|./src/_00/output/C++/nlohmann~json/tests/src/unit-udt_macro.cpp|nlohmann|json|unit-udt_macro.cpp|C++|401|18|55
-54|./src/_00/output/C++/nlohmann~json/tests/src/unit-inspection.cpp|nlohmann|json|unit-inspection.cpp|C++|390|14|55
-55|./src/_00/output/C++/nlohmann~json/include/nlohmann/detail/macro_scope.hpp|nlohmann|json|macro_scope.hpp|C/C++ Header|389|49|44
-56|./src/_00/output/C++/nlohmann~json/include/nlohmann/detail/conversions/to_json.hpp|nlohmann|json|to_json.hpp|C/C++ Header|372|23|51
-57|./src/_00/output/C++/nlohmann~json/include/nlohmann/detail/input/parser.hpp|nlohmann|json|parser.hpp|C/C++ Header|372|79|68
-58|./src/_00/output/C++/nlohmann~json/include/nlohmann/detail/input/input_adapters.hpp|nlohmann|json|input_adapters.hpp|C/C++ Header|367|58|67
-59|./src/_00/output/C++/nlohmann~json/tests/src/unit-pointer_access.cpp|nlohmann|json|unit-pointer_access.cpp|C++|357|40|82
-60|./src/_00/output/C++/nlohmann~json/tests/src/unit-unicode1.cpp|nlohmann|json|unit-unicode1.cpp|C++|353|194|73
-61|./src/_00/output/C++/nlohmann~json/docs/mkdocs/mkdocs.yml|nlohmann|json|mkdocs.yml|YAML|349|7|10
-62|./src/_00/output/C++/nlohmann~json/tests/src/unit-class_const_iterator.cpp|nlohmann|json|unit-class_const_iterator.cpp|C++|348|7|38
-63|./src/_00/output/C++/nlohmann~json/tests/thirdparty/fifo_map/fifo_map.hpp|nlohmann|json|fifo_map.hpp|C/C++ Header|331|105|94
-64|./src/_00/output/C++/nlohmann~json/tools/serve_header/serve_header.py|nlohmann|json|serve_header.py|Python|315|37|58
-65|./src/_00/output/C++/nlohmann~json/tests/src/unit-algorithms.cpp|nlohmann|json|unit-algorithms.cpp|C++|308|8|49
-66|./src/_00/output/C++/nlohmann~json/tests/src/unit-custom-base-class.cpp|nlohmann|json|unit-custom-base-class.cpp|C++|293|12|31
-67|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/basic_json.md|nlohmann|json|basic_json.md|Markdown|290|0|112
-68|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/FuzzerTracePC.cpp|nlohmann|json|FuzzerTracePC.cpp|C++|277|36|26
-69|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/features/binary_values.md|nlohmann|json|binary_values.md|Markdown|276|0|96
-70|./src/_00/output/C++/nlohmann~json/include/nlohmann/ordered_map.hpp|nlohmann|json|ordered_map.hpp|C/C++ Header|275|39|45
-71|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/FuzzerTraceState.cpp|nlohmann|json|FuzzerTraceState.cpp|C++|270|19|36
-72|./src/_00/output/C++/nlohmann~json/tests/src/unit-ordered_map.cpp|nlohmann|json|unit-ordered_map.cpp|C++|253|13|44
-73|./src/_00/output/C++/nlohmann~json/tests/src/unit-serialization.cpp|nlohmann|json|unit-serialization.cpp|C++|253|10|34
-74|./src/_00/output/C++/nlohmann~json/tests/src/unit-alt-string.cpp|nlohmann|json|unit-alt-string.cpp|C++|246|21|55
-75|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/index.md|nlohmann|json|index.md|Markdown|244|0|79
-76|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/features/types/number_handling.md|nlohmann|json|number_handling.md|Markdown|243|0|85
-77|./src/_00/output/C++/nlohmann~json/tests/src/unit-unicode3.cpp|nlohmann|json|unit-unicode3.cpp|C++|242|38|44
-78|./src/_00/output/C++/nlohmann~json/tests/src/unit-unicode4.cpp|nlohmann|json|unit-unicode4.cpp|C++|242|38|44
-79|./src/_00/output/C++/nlohmann~json/tests/src/unit-unicode5.cpp|nlohmann|json|unit-unicode5.cpp|C++|242|38|44
-80|./src/_00/output/C++/nlohmann~json/.github/workflows/ubuntu.yml|nlohmann|json|ubuntu.yml|YAML|229|0|19
-81|./src/_00/output/C++/nlohmann~json/docs/docset/docSet.sql|nlohmann|json|docSet.sql|SQL|228|3|3
-82|./src/_00/output/C++/nlohmann~json/nlohmann_json.natvis|nlohmann|json|nlohmann_json.natvis|XML|228|30|20
-83|./src/_00/output/C++/nlohmann~json/tests/src/unit-allocator.cpp|nlohmann|json|unit-allocator.cpp|C++|220|13|30
-84|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/features/arbitrary_types.md|nlohmann|json|arbitrary_types.md|Markdown|212|0|62
-85|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/FuzzerIOWindows.cpp|nlohmann|json|FuzzerIOWindows.cpp|C++|210|26|46
-86|./src/_00/output/C++/nlohmann~json/tests/src/unit-merge_patch.cpp|nlohmann|json|unit-merge_patch.cpp|C++|197|7|40
-87|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/integration/migration_guide.md|nlohmann|json|migration_guide.md|Markdown|190|0|74
-88|./src/_00/output/C++/nlohmann~json/tests/src/unit-diagnostics.cpp|nlohmann|json|unit-diagnostics.cpp|C++|190|20|36
-89|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/FuzzerMerge.cpp|nlohmann|json|FuzzerMerge.cpp|C++|188|51|22
-90|./src/_00/output/C++/nlohmann~json/tests/src/unit-reference_access.cpp|nlohmann|json|unit-reference_access.cpp|C++|186|27|34
-91|./src/_00/output/C++/nlohmann~json/include/nlohmann/detail/exceptions.hpp|nlohmann|json|exceptions.hpp|C/C++ Header|184|41|32
-92|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/FuzzerUtil.cpp|nlohmann|json|FuzzerUtil.cpp|C++|184|16|18
-93|./src/_00/output/C++/nlohmann~json/tests/src/unit-binary_formats.cpp|nlohmann|json|unit-binary_formats.cpp|C++|180|8|23
-94|./src/_00/output/C++/nlohmann~json/tools/amalgamate/amalgamate.py|nlohmann|json|amalgamate.py|Python|180|66|53
-95|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/FuzzerCorpus.h|nlohmann|json|FuzzerCorpus.h|C/C++ Header|176|17|24
-96|./src/_00/output/C++/nlohmann~json/tests/src/unit-class_lexer.cpp|nlohmann|json|unit-class_lexer.cpp|C++|174|26|26
-97|./src/_00/output/C++/nlohmann~json/tests/src/unit-readme.cpp|nlohmann|json|unit-readme.cpp|C++|174|74|56
-98|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/features/types/index.md|nlohmann|json|index.md|Markdown|173|0|96
-99|./src/_00/output/C++/nlohmann~json/include/nlohmann/detail/iterators/iteration_proxy.hpp|nlohmann|json|iteration_proxy.hpp|C/C++ Header|170|39|33
-100|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/operator[].md|nlohmann|json|operator[].md|Markdown|168|0|73
-101|./src/_00/output/C++/nlohmann~json/cmake/test.cmake|nlohmann|json|test.cmake|CMake|167|67|39
-102|./src/_00/output/C++/nlohmann~json/tests/src/unit-convenience.cpp|nlohmann|json|unit-convenience.cpp|C++|165|8|32
-103|./src/_00/output/C++/nlohmann~json/Makefile|nlohmann|json|Makefile|make|163|66|56
-104|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/at.md|nlohmann|json|at.md|Markdown|162|0|64
-105|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/afl/afl_driver.cpp|nlohmann|json|afl_driver.cpp|C++|162|90|43
-106|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|156|34|27
-107|./src/_00/output/C++/nlohmann~json/tests/src/unit-constructor2.cpp|nlohmann|json|unit-constructor2.cpp|C++|155|7|24
-108|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/erase.md|nlohmann|json|erase.md|Markdown|153|0|58
-109|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/FuzzerSHA1.cpp|nlohmann|json|FuzzerSHA1.cpp|C++|151|39|32
-110|./src/_00/output/C++/nlohmann~json/CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|149|37|23
-111|./src/_00/output/C++/nlohmann~json/include/nlohmann/thirdparty/hedley/hedley_undef.hpp|nlohmann|json|hedley_undef.hpp|C/C++ Header|149|7|2
-112|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/features/binary_formats/cbor.md|nlohmann|json|cbor.md|Markdown|147|0|34
-113|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/features/binary_formats/bjdata.md|nlohmann|json|bjdata.md|Markdown|146|0|48
-114|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/FuzzerUtilWindows.cpp|nlohmann|json|FuzzerUtilWindows.cpp|C++|145|11|26
-115|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/parse.md|nlohmann|json|parse.md|Markdown|143|0|71
-116|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/insert.md|nlohmann|json|insert.md|Markdown|130|0|49
-117|./src/_00/output/C++/nlohmann~json/docs/mkdocs/scripts/check_structure.py|nlohmann|json|check_structure.py|Python|130|15|34
-118|./src/_00/output/C++/nlohmann~json/include/nlohmann/detail/meta/is_sax.hpp|nlohmann|json|is_sax.hpp|C/C++ Header|128|7|24
-119|./src/_00/output/C++/nlohmann~json/tests/benchmarks/src/benchmarks.cpp|nlohmann|json|benchmarks.cpp|C++|128|22|27
-120|./src/_00/output/C++/nlohmann~json/docs/examples/basic_json__CompatibleType.cpp|nlohmann|json|basic_json__CompatibleType.cpp|C++|127|48|39
-121|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/FuzzerInternal.h|nlohmann|json|FuzzerInternal.h|C/C++ Header|125|22|35
-122|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/integration/package_managers.md|nlohmann|json|package_managers.md|Markdown|122|0|76
-123|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/operator_eq.md|nlohmann|json|operator_eq.md|Markdown|120|0|48
-124|./src/_00/output/C++/nlohmann~json/.github/workflows/windows.yml|nlohmann|json|windows.yml|YAML|117|0|17
-125|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/value.md|nlohmann|json|value.md|Markdown|115|0|44
-126|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/features/binary_formats/messagepack.md|nlohmann|json|messagepack.md|Markdown|115|0|28
-127|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/FuzzerFlags.def|nlohmann|json|FuzzerFlags.def|Windows Module Definition|114|0|1
-128|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/FuzzerTracePC.h|nlohmann|json|FuzzerTracePC.h|C/C++ Header|114|17|27
-129|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/macros/json_disable_enum_serialization.md|nlohmann|json|json_disable_enum_serialization.md|Markdown|113|0|39
-130|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/swap.md|nlohmann|json|swap.md|Markdown|111|0|46
-131|./src/_00/output/C++/nlohmann~json/tests/CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|111|43|30
-132|./src/_00/output/C++/nlohmann~json/include/nlohmann/detail/string_concat.hpp|nlohmann|json|string_concat.hpp|C/C++ Header|110|8|28
-133|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/features/iterators.md|nlohmann|json|iterators.md|Markdown|109|0|46
-134|./src/_00/output/C++/nlohmann~json/include/nlohmann/detail/output/output_adapters.hpp|nlohmann|json|output_adapters.hpp|C/C++ Header|109|12|26
-135|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/macros/nlohmann_define_type_intrusive.md|nlohmann|json|nlohmann_define_type_intrusive.md|Markdown|108|0|48
-136|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/macros/nlohmann_define_type_non_intrusive.md|nlohmann|json|nlohmann_define_type_non_intrusive.md|Markdown|108|0|49
-137|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/integration/cmake.md|nlohmann|json|cmake.md|Markdown|108|0|64
-138|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/home/faq.md|nlohmann|json|faq.md|Markdown|106|0|74
-139|./src/_00/output/C++/nlohmann~json/tests/src/unit-32bit.cpp|nlohmann|json|unit-32bit.cpp|C++|104|7|23
-140|./src/_00/output/C++/nlohmann~json/docs/examples/sax_parse.cpp|nlohmann|json|sax_parse.cpp|C++|103|8|20
-141|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/update.md|nlohmann|json|update.md|Markdown|103|0|39
-142|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/FuzzerUtilDarwin.cpp|nlohmann|json|FuzzerUtilDarwin.cpp|C++|103|36|13
-143|./src/_00/output/C++/nlohmann~json/single_include/nlohmann/json_fwd.hpp|nlohmann|json|json_fwd.hpp|C/C++ Header|102|42|32
-144|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/features/json_pointer.md|nlohmann|json|json_pointer.md|Markdown|99|0|27
-145|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/features/macros.md|nlohmann|json|macros.md|Markdown|99|0|68
-146|./src/_00/output/C++/nlohmann~json/tests/src/unit-concepts.cpp|nlohmann|json|unit-concepts.cpp|C++|99|27|24
-147|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/get.md|nlohmann|json|get.md|Markdown|97|0|39
-148|./src/_00/output/C++/nlohmann~json/tests/src/unit-user_defined_input.cpp|nlohmann|json|unit-user_defined_input.cpp|C++|97|8|25
-149|./src/_00/output/C++/nlohmann~json/include/nlohmann/detail/hash.hpp|nlohmann|json|hash.hpp|C/C++ Header|93|17|19
-150|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/features/parsing/parse_exceptions.md|nlohmann|json|parse_exceptions.md|Markdown|92|0|29
-151|./src/_00/output/C++/nlohmann~json/.github/ISSUE_TEMPLATE/bug.yaml|nlohmann|json|bug.yaml|YAML|91|0|2
-152|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/features/binary_formats/ubjson.md|nlohmann|json|ubjson.md|Markdown|91|0|35
-153|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/FuzzerUtilPosix.cpp|nlohmann|json|FuzzerUtilPosix.cpp|C++|91|12|14
-154|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/FuzzerIO.cpp|nlohmann|json|FuzzerIO.cpp|C++|90|11|16
-155|./src/_00/output/C++/nlohmann~json/tests/thirdparty/imapdl/filterbr.py|nlohmann|json|filterbr.py|Python|90|8|11
-156|./src/_00/output/C++/nlohmann~json/include/nlohmann/detail/iterators/primitive_iterator.hpp|nlohmann|json|primitive_iterator.hpp|C/C++ Header|89|20|23
-157|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/FuzzerDictionary.h|nlohmann|json|FuzzerDictionary.h|C/C++ Header|89|16|19
-158|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/features/assertions.md|nlohmann|json|assertions.md|Markdown|87|0|44
-159|./src/_00/output/C++/nlohmann~json/docs/examples/sax_parse__binary.cpp|nlohmann|json|sax_parse__binary.cpp|C++|86|8|20
-160|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/from_cbor.md|nlohmann|json|from_cbor.md|Markdown|82|0|35
-161|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/object_t.md|nlohmann|json|object_t.md|Markdown|82|0|32
-162|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/features/element_access/unchecked_access.md|nlohmann|json|unchecked_access.md|Markdown|82|0|30
-163|./src/_00/output/C++/nlohmann~json/include/nlohmann/detail/meta/cpp_future.hpp|nlohmann|json|cpp_future.hpp|C/C++ Header|81|59|31
-164|./src/_00/output/C++/nlohmann~json/tests/src/unit-wstring.cpp|nlohmann|json|unit-wstring.cpp|C++|80|8|11
-165|./src/_00/output/C++/nlohmann~json/docs/examples/json_base_class_t.cpp|nlohmann|json|json_base_class_t.cpp|C++|79|2|7
-166|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/contains.md|nlohmann|json|contains.md|Markdown|79|0|39
-167|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/sax_parse.md|nlohmann|json|sax_parse.md|Markdown|79|0|36
-168|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/features/object_order.md|nlohmann|json|object_order.md|Markdown|79|0|30
-169|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/FuzzerMutate.h|nlohmann|json|FuzzerMutate.h|C/C++ Header|77|39|29
-170|./src/_00/output/C++/nlohmann~json/.clang-format|nlohmann|json|.clang-format|YAML|76|8|0
-171|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/from_msgpack.md|nlohmann|json|from_msgpack.md|Markdown|76|0|33
-172|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/json_pointer/operator_eq.md|nlohmann|json|operator_eq.md|Markdown|76|0|37
-173|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/from_bson.md|nlohmann|json|from_bson.md|Markdown|75|0|35
-174|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/accept.md|nlohmann|json|accept.md|Markdown|74|0|39
-175|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/from_ubjson.md|nlohmann|json|from_ubjson.md|Markdown|73|0|33
-176|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/operator+=.md|nlohmann|json|operator+=.md|Markdown|73|0|37
-177|./src/_00/output/C++/nlohmann~json/.github/workflows/comment_check_amalgamation.yml|nlohmann|json|comment_check_amalgamation.yml|YAML|72|0|3
-178|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/json_pointer/operator_ne.md|nlohmann|json|operator_ne.md|Markdown|72|0|37
-179|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/features/binary_formats/bson.md|nlohmann|json|bson.md|Markdown|72|0|24
-180|./src/_00/output/C++/nlohmann~json/include/nlohmann/detail/abi_macros.hpp|nlohmann|json|abi_macros.hpp|C/C++ Header|72|11|17
-181|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/push_back.md|nlohmann|json|push_back.md|Markdown|71|0|35
-182|./src/_00/output/C++/nlohmann~json/.github/external_ci/appveyor.yml|nlohmann|json|appveyor.yml|YAML|70|7|14
-183|./src/_00/output/C++/nlohmann~json/tools/serve_header/README.md|nlohmann|json|README.md|Markdown|70|0|21
-184|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/items.md|nlohmann|json|items.md|Markdown|69|0|31
-185|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/operator_spaceship.md|nlohmann|json|operator_spaceship.md|Markdown|68|0|32
-186|./src/_00/output/C++/nlohmann~json/docs/docset/Makefile|nlohmann|json|Makefile|make|67|11|9
-187|./src/_00/output/C++/nlohmann~json/docs/examples/at__json_pointer.cpp|nlohmann|json|at__json_pointer.cpp|C++|67|23|13
-188|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/features/namespace.md|nlohmann|json|namespace.md|Markdown|67|0|26
-189|./src/_00/output/C++/nlohmann~json/include/nlohmann/detail/iterators/json_reverse_iterator.hpp|nlohmann|json|json_reverse_iterator.hpp|C/C++ Header|67|40|23
-190|./src/_00/output/C++/nlohmann~json/tests/src/unit-no-mem-leak-on-adl-serialize.cpp|nlohmann|json|unit-no-mem-leak-on-adl-serialize.cpp|C++|67|10|9
-191|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/features/element_access/checked_access.md|nlohmann|json|checked_access.md|Markdown|66|0|25
-192|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/operator_lt.md|nlohmann|json|operator_lt.md|Markdown|65|0|31
-193|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/features/comments.md|nlohmann|json|comments.md|Markdown|65|0|18
-194|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/FuzzerIOPosix.cpp|nlohmann|json|FuzzerIOPosix.cpp|C++|65|10|13
-195|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/operator_ne.md|nlohmann|json|operator_ne.md|Markdown|64|0|34
-196|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/from_bjdata.md|nlohmann|json|from_bjdata.md|Markdown|63|0|30
-197|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/macros/json_use_global_udls.md|nlohmann|json|json_use_global_udls.md|Markdown|63|0|35
-198|./src/_00/output/C++/nlohmann~json/include/nlohmann/byte_container_with_subtype.hpp|nlohmann|json|byte_container_with_subtype.hpp|C/C++ Header|63|22|18
-199|./src/_00/output/C++/nlohmann~json/tools/gdb_pretty_printer/README.md|nlohmann|json|README.md|Markdown|63|0|15
-200|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/features/parsing/parser_callbacks.md|nlohmann|json|parser_callbacks.md|Markdown|62|0|21
-201|./src/_00/output/C++/nlohmann~json/.clang-tidy|nlohmann|json|.clang-tidy|YAML|61|1|3
-202|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/binary_t.md|nlohmann|json|binary_t.md|Markdown|60|0|29
-203|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/value_t.md|nlohmann|json|value_t.md|Markdown|60|0|21
-204|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/FuzzerDefs.h|nlohmann|json|FuzzerDefs.h|C/C++ Header|60|12|17
-205|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/operator_ltlt.md|nlohmann|json|operator_ltlt.md|Markdown|59|0|28
-206|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/FuzzerValueBitMap.h|nlohmann|json|FuzzerValueBitMap.h|C/C++ Header|59|16|12
-207|./src/_00/output/C++/nlohmann~json/.github/workflows/check_amalgamation.yml|nlohmann|json|check_amalgamation.yml|YAML|58|0|12
-208|./src/_00/output/C++/nlohmann~json/.github/workflows/macos.yml|nlohmann|json|macos.yml|YAML|58|0|9
-209|./src/_00/output/C++/nlohmann~json/tests/fuzzing.md|nlohmann|json|fuzzing.md|Markdown|58|0|23
-210|./src/_00/output/C++/nlohmann~json/include/nlohmann/detail/value_t.hpp|nlohmann|json|value_t.hpp|C/C++ Header|57|45|16
-211|./src/_00/output/C++/nlohmann~json/tests/src/unit-hash.cpp|nlohmann|json|unit-hash.cpp|C++|57|29|27
-212|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/find.md|nlohmann|json|find.md|Markdown|56|0|30
-213|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/operator_le.md|nlohmann|json|operator_le.md|Markdown|56|0|31
-214|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/macros/json_assert.md|nlohmann|json|json_assert.md|Markdown|56|0|28
-215|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/macros/nlohmann_json_serialize_enum.md|nlohmann|json|nlohmann_json_serialize_enum.md|Markdown|56|0|29
-216|./src/_00/output/C++/nlohmann~json/tests/src/unit-byte_container_with_subtype.cpp|nlohmann|json|unit-byte_container_with_subtype.cpp|C++|56|8|13
-217|./src/_00/output/C++/nlohmann~json/docs/examples/at__json_pointer_const.cpp|nlohmann|json|at__json_pointer_const.cpp|C++|55|16|9
-218|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/operator_ge.md|nlohmann|json|operator_ge.md|Markdown|55|0|31
-219|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/operator_gt.md|nlohmann|json|operator_gt.md|Markdown|55|0|31
-220|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/macros/json_throw_user.md|nlohmann|json|json_throw_user.md|Markdown|55|0|20
-221|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/ordered_map.md|nlohmann|json|ordered_map.md|Markdown|55|0|22
-222|./src/_00/output/C++/nlohmann~json/include/nlohmann/detail/json_ref.hpp|nlohmann|json|json_ref.hpp|C/C++ Header|55|8|15
-223|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/operator_ValueType.md|nlohmann|json|operator_ValueType.md|Markdown|54|0|28
-224|./src/_00/output/C++/nlohmann~json/BUILD.bazel|nlohmann|json|BUILD.bazel|Bazel|53|0|0
-225|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/dump.md|nlohmann|json|dump.md|Markdown|53|0|26
-226|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/parser_callback_t.md|nlohmann|json|parser_callback_t.md|Markdown|52|0|21
-227|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/features/parsing/sax_interface.md|nlohmann|json|sax_interface.md|Markdown|52|0|21
-228|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/FuzzerOptions.h|nlohmann|json|FuzzerOptions.h|C/C++ Header|52|10|6
-229|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/exception.md|nlohmann|json|exception.md|Markdown|51|0|24
-230|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/number_integer_t.md|nlohmann|json|number_integer_t.md|Markdown|51|0|25
-231|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/number_unsigned_t.md|nlohmann|json|number_unsigned_t.md|Markdown|51|0|25
-232|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/count.md|nlohmann|json|count.md|Markdown|50|0|28
-233|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/parse_error.md|nlohmann|json|parse_error.md|Markdown|50|0|24
-234|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/macros/json_use_legacy_discarded_value_comparison.md|nlohmann|json|json_use_legacy_discarded_value_comparison.md|Markdown|50|0|27
-235|./src/_00/output/C++/nlohmann~json/docs/examples/get_to.cpp|nlohmann|json|get_to.cpp|C++|49|3|7
-236|./src/_00/output/C++/nlohmann~json/docs/examples/operator__ValueType.cpp|nlohmann|json|operator__ValueType.cpp|C++|49|4|7
-237|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/adl_serializer/from_json.md|nlohmann|json|from_json.md|Markdown|49|0|24
-238|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/patch.md|nlohmann|json|patch.md|Markdown|49|0|24
-239|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/macros/json_diagnostics.md|nlohmann|json|json_diagnostics.md|Markdown|49|0|27
-240|./src/_00/output/C++/nlohmann~json/tests/src/unit-noexcept.cpp|nlohmann|json|unit-noexcept.cpp|C++|49|14|11
-241|./src/_00/output/C++/nlohmann~json/docs/examples/nlohmann_define_type_intrusive_explicit.cpp|nlohmann|json|nlohmann_define_type_intrusive_explicit.cpp|C++|48|3|9
-242|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/patch_inplace.md|nlohmann|json|patch_inplace.md|Markdown|48|0|22
-243|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/FuzzerExtFunctions.def|nlohmann|json|FuzzerExtFunctions.def|Windows Module Definition|48|0|2
-244|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/CallerCalleeTest.cpp|nlohmann|json|CallerCalleeTest.cpp|C++|48|5|6
-245|./src/_00/output/C++/nlohmann~json/cmake/download_test_data.cmake|nlohmann|json|download_test_data.cmake|CMake|47|5|4
-246|./src/_00/output/C++/nlohmann~json/docs/examples/nlohmann_json_serialize_enum.cpp|nlohmann|json|nlohmann_json_serialize_enum.cpp|C++|47|4|8
-247|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/number_float_t.md|nlohmann|json|number_float_t.md|Markdown|47|0|23
-248|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/features/enum_conversion.md|nlohmann|json|enum_conversion.md|Markdown|47|0|14
-249|./src/_00/output/C++/nlohmann~json/include/nlohmann/detail/meta/detected.hpp|nlohmann|json|detected.hpp|C/C++ Header|47|8|15
-250|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/SwitchTest.cpp|nlohmann|json|SwitchTest.cpp|C++|47|5|6
-251|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/out_of_range.md|nlohmann|json|out_of_range.md|Markdown|46|0|22
-252|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/to_bjdata.md|nlohmann|json|to_bjdata.md|Markdown|46|0|24
-253|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/to_ubjson.md|nlohmann|json|to_ubjson.md|Markdown|46|0|24
-254|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/type_error.md|nlohmann|json|type_error.md|Markdown|46|0|22
-255|./src/_00/output/C++/nlohmann~json/docs/examples/to_bjdata.cpp|nlohmann|json|to_bjdata.cpp|C++|45|9|10
-256|./src/_00/output/C++/nlohmann~json/docs/examples/to_ubjson.cpp|nlohmann|json|to_ubjson.cpp|C++|45|9|10
-257|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/empty.md|nlohmann|json|empty.md|Markdown|45|0|21
-258|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/invalid_iterator.md|nlohmann|json|invalid_iterator.md|Markdown|45|0|22
-259|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/is_discarded.md|nlohmann|json|is_discarded.md|Markdown|45|0|27
-260|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/is_primitive.md|nlohmann|json|is_primitive.md|Markdown|45|0|24
-261|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/other_error.md|nlohmann|json|other_error.md|Markdown|45|0|22
-262|./src/_00/output/C++/nlohmann~json/tests/src/unit-ordered_json.cpp|nlohmann|json|unit-ordered_json.cpp|C++|45|11|15
-263|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/CustomCrossOverTest.cpp|nlohmann|json|CustomCrossOverTest.cpp|C++|45|4|14
-264|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/array_t.md|nlohmann|json|array_t.md|Markdown|44|0|24
-265|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/merge_patch.md|nlohmann|json|merge_patch.md|Markdown|44|0|19
-266|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/macros/index.md|nlohmann|json|index.md|Markdown|44|0|18
-267|./src/_00/output/C++/nlohmann~json/.github/CONTRIBUTING.md|nlohmann|json|CONTRIBUTING.md|Markdown|43|0|28
-268|./src/_00/output/C++/nlohmann~json/docs/examples/nlohmann_define_type_intrusive_with_default_explicit.cpp|nlohmann|json|nlohmann_define_type_intrusive_with_default_explicit.cpp|C++|43|3|9
-269|./src/_00/output/C++/nlohmann~json/docs/examples/parse__istream__parser_callback_t.cpp|nlohmann|json|parse__istream__parser_callback_t.cpp|C++|43|7|7
-270|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/binary.md|nlohmann|json|binary.md|Markdown|43|0|23
-271|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/json_pointer/operator_slash.md|nlohmann|json|operator_slash.md|Markdown|43|0|21
-272|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|43|1|1
-273|./src/_00/output/C++/nlohmann~json/docs/examples/nlohmann_define_type_non_intrusive_explicit.cpp|nlohmann|json|nlohmann_define_type_non_intrusive_explicit.cpp|C++|42|3|8
-274|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/string_t.md|nlohmann|json|string_t.md|Markdown|42|0|24
-275|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/macros/nlohmann_json_namespace_begin.md|nlohmann|json|nlohmann_json_namespace_begin.md|Markdown|42|0|19
-276|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/operator_literal_json_pointer.md|nlohmann|json|operator_literal_json_pointer.md|Markdown|42|0|22
-277|./src/_00/output/C++/nlohmann~json/include/nlohmann/detail/iterators/iterator_traits.hpp|nlohmann|json|iterator_traits.hpp|C/C++ Header|42|9|10
-278|./src/_00/output/C++/nlohmann~json/docs/examples/from_json__non_default_constructible.cpp|nlohmann|json|from_json__non_default_constructible.cpp|C++|41|4|8
-279|./src/_00/output/C++/nlohmann~json/docs/examples/get__ValueType_const.cpp|nlohmann|json|get__ValueType_const.cpp|C++|41|3|6
-280|./src/_00/output/C++/nlohmann~json/docs/examples/nlohmann_define_type_non_intrusive_with_default_explicit.cpp|nlohmann|json|nlohmann_define_type_non_intrusive_with_default_explicit.cpp|C++|41|3|9
-281|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/to_string.md|nlohmann|json|to_string.md|Markdown|41|0|24
-282|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/json_pointer/operator_slasheq.md|nlohmann|json|operator_slasheq.md|Markdown|41|0|20
-283|./src/_00/output/C++/nlohmann~json/tools/amalgamate/README.md|nlohmann|json|README.md|Markdown|41|0|25
-284|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/back.md|nlohmann|json|back.md|Markdown|40|0|25
-285|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/get_ref.md|nlohmann|json|get_ref.md|Markdown|40|0|24
-286|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/max_size.md|nlohmann|json|max_size.md|Markdown|40|0|20
-287|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/operator_literal_json.md|nlohmann|json|operator_literal_json.md|Markdown|40|0|21
-288|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/features/binary_formats/index.md|nlohmann|json|index.md|Markdown|40|0|12
-289|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/clear.md|nlohmann|json|clear.md|Markdown|39|0|19
-290|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/get_to.md|nlohmann|json|get_to.md|Markdown|39|0|19
-291|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/is_structured.md|nlohmann|json|is_structured.md|Markdown|39|0|24
-292|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/object.md|nlohmann|json|object.md|Markdown|39|0|24
-293|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/to_cbor.md|nlohmann|json|to_cbor.md|Markdown|39|0|22
-294|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/operator_gtgt.md|nlohmann|json|operator_gtgt.md|Markdown|39|0|25
-295|./src/_00/output/C++/nlohmann~json/docs/examples/dump.cpp|nlohmann|json|dump.cpp|C++|38|3|7
-296|./src/_00/output/C++/nlohmann~json/docs/examples/json_pointer.cpp|nlohmann|json|json_pointer.cpp|C++|38|4|5
-297|./src/_00/output/C++/nlohmann~json/docs/examples/parse__string__parser_callback_t.cpp|nlohmann|json|parse__string__parser_callback_t.cpp|C++|38|5|5
-298|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/diff.md|nlohmann|json|diff.md|Markdown|38|0|24
-299|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/get_ptr.md|nlohmann|json|get_ptr.md|Markdown|38|0|22
-300|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/size.md|nlohmann|json|size.md|Markdown|38|0|19
-301|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/macros/json_use_implicit_conversions.md|nlohmann|json|json_use_implicit_conversions.md|Markdown|38|0|21
-302|./src/_00/output/C++/nlohmann~json/tests/src/fuzzer-parse_bjdata.cpp|nlohmann|json|fuzzer-parse_bjdata.cpp|C++|38|35|12
-303|./src/_00/output/C++/nlohmann~json/tests/src/fuzzer-parse_ubjson.cpp|nlohmann|json|fuzzer-parse_ubjson.cpp|C++|38|35|12
-304|./src/_00/output/C++/nlohmann~json/tests/src/unit-type_traits.cpp|nlohmann|json|unit-type_traits.cpp|C++|38|9|9
-305|./src/_00/output/C++/nlohmann~json/tests/src/unit-udl.cpp|nlohmann|json|unit-udl.cpp|C++|38|7|12
-306|./src/_00/output/C++/nlohmann~json/docs/examples/nlohmann_define_type_intrusive_macro.cpp|nlohmann|json|nlohmann_define_type_intrusive_macro.cpp|C++|37|3|8
-307|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/array.md|nlohmann|json|array.md|Markdown|37|0|23
-308|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/operator_value_t.md|nlohmann|json|operator_value_t.md|Markdown|37|0|17
-309|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/to_bson.md|nlohmann|json|to_bson.md|Markdown|37|0|22
-310|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/to_msgpack.md|nlohmann|json|to_msgpack.md|Markdown|37|0|22
-311|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/type.md|nlohmann|json|type.md|Markdown|37|0|17
-312|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/type_name.md|nlohmann|json|type_name.md|Markdown|37|0|17
-313|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/unflatten.md|nlohmann|json|unflatten.md|Markdown|37|0|24
-314|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/json_pointer/index.md|nlohmann|json|index.md|Markdown|37|0|15
-315|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/SimpleCmpTest.cpp|nlohmann|json|SimpleCmpTest.cpp|C++|37|3|6
-316|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/emplace.md|nlohmann|json|emplace.md|Markdown|36|0|20
-317|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/input_format_t.md|nlohmann|json|input_format_t.md|Markdown|36|0|16
-318|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/is_number.md|nlohmann|json|is_number.md|Markdown|36|0|20
-319|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/meta.md|nlohmann|json|meta.md|Markdown|36|0|20
-320|./src/_00/output/C++/nlohmann~json/tests/src/fuzzer-parse_bson.cpp|nlohmann|json|fuzzer-parse_bson.cpp|C++|36|27|11
-321|./src/_00/output/C++/nlohmann~json/docs/examples/contains__json_pointer.cpp|nlohmann|json|contains__json_pointer.cpp|C++|35|3|5
-322|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/front.md|nlohmann|json|front.md|Markdown|35|0|23
-323|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/features/parsing/json_lines.md|nlohmann|json|json_lines.md|Markdown|35|0|14
-324|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/FuzzerCrossOver.cpp|nlohmann|json|FuzzerCrossOver.cpp|C++|35|13|4
-325|./src/_00/output/C++/nlohmann~json/tools/macro_builder/main.cpp|nlohmann|json|main.cpp|C++|35|0|8
-326|./src/_00/output/C++/nlohmann~json/docs/examples/at__keytype.c++17.cpp|nlohmann|json|at__keytype.c++17.cpp|C++|34|8|7
-327|./src/_00/output/C++/nlohmann~json/docs/examples/operator_spaceship__const_reference.c++20.cpp|nlohmann|json|operator_spaceship__const_reference.c++20.cpp|C++|34|2|4
-328|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/emplace_back.md|nlohmann|json|emplace_back.md|Markdown|34|0|20
-329|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/std_swap.md|nlohmann|json|std_swap.md|Markdown|34|0|17
-330|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/json_sax/index.md|nlohmann|json|index.md|Markdown|34|0|10
-331|./src/_00/output/C++/nlohmann~json/docs/examples/operator_spaceship__scalartype.c++20.cpp|nlohmann|json|operator_spaceship__scalartype.c++20.cpp|C++|33|2|5
-332|./src/_00/output/C++/nlohmann~json/include/nlohmann/adl_serializer.hpp|nlohmann|json|adl_serializer.hpp|C/C++ Header|33|14|8
-333|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/FuzzerExtFunctionsWeakAlias.cpp|nlohmann|json|FuzzerExtFunctionsWeakAlias.cpp|C++|33|11|12
-334|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/FuzzerUtil.h|nlohmann|json|FuzzerUtil.h|C/C++ Header|33|13|26
-335|./src/_00/output/C++/nlohmann~json/.github/workflows/codeql-analysis.yml|nlohmann|json|codeql-analysis.yml|YAML|32|3|9
-336|./src/_00/output/C++/nlohmann~json/docs/examples/at__keytype_const.c++17.cpp|nlohmann|json|at__keytype_const.c++17.cpp|C++|32|6|5
-337|./src/_00/output/C++/nlohmann~json/docs/examples/at__object_t_key_type.cpp|nlohmann|json|at__object_t_key_type.cpp|C++|32|8|7
-338|./src/_00/output/C++/nlohmann~json/docs/examples/merge_patch.cpp|nlohmann|json|merge_patch.cpp|C++|32|4|5
-339|./src/_00/output/C++/nlohmann~json/include/nlohmann/json_fwd.hpp|nlohmann|json|json_fwd.hpp|C/C++ Header|32|30|13
-340|./src/_00/output/C++/nlohmann~json/tests/src/fuzzer-parse_cbor.cpp|nlohmann|json|fuzzer-parse_cbor.cpp|C++|32|27|10
-341|./src/_00/output/C++/nlohmann~json/tests/src/fuzzer-parse_msgpack.cpp|nlohmann|json|fuzzer-parse_msgpack.cpp|C++|32|27|10
-342|./src/_00/output/C++/nlohmann~json/tools/generate_natvis/generate_natvis.py|nlohmann|json|generate_natvis.py|Python|32|1|8
-343|./src/_00/output/C++/nlohmann~json/.github/workflows/publish_documentation.yml|nlohmann|json|publish_documentation.yml|YAML|31|2|8
-344|./src/_00/output/C++/nlohmann~json/docs/examples/nlohmann_define_type_intrusive_with_default_macro.cpp|nlohmann|json|nlohmann_define_type_intrusive_with_default_macro.cpp|C++|31|3|8
-345|./src/_00/output/C++/nlohmann~json/docs/examples/nlohmann_define_type_non_intrusive_macro.cpp|nlohmann|json|nlohmann_define_type_non_intrusive_macro.cpp|C++|31|3|7
-346|./src/_00/output/C++/nlohmann~json/docs/examples/operator__value_t.cpp|nlohmann|json|operator__value_t.cpp|C++|31|3|4
-347|./src/_00/output/C++/nlohmann~json/docs/examples/ordered_map.cpp|nlohmann|json|ordered_map.cpp|C++|31|5|7
-348|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/byte_container_with_subtype/byte_container_with_subtype.md|nlohmann|json|byte_container_with_subtype.md|Markdown|31|0|15
-349|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/json_pointer/operator_string_t.md|nlohmann|json|operator_string_t.md|Markdown|31|0|17
-350|./src/_00/output/C++/nlohmann~json/include/nlohmann/detail/macro_unscope.hpp|nlohmann|json|macro_unscope.hpp|C/C++ Header|31|9|5
-351|./src/_00/output/C++/nlohmann~json/include/nlohmann/detail/string_escape.hpp|nlohmann|json|string_escape.hpp|C/C++ Header|31|31|10
-352|./src/_00/output/C++/nlohmann~json/.github/labeler.yml|nlohmann|json|labeler.yml|YAML|30|0|8
-353|./src/_00/output/C++/nlohmann~json/docs/examples/README.cpp|nlohmann|json|README.cpp|C++|30|4|5
-354|./src/_00/output/C++/nlohmann~json/docs/examples/at__object_t_key_type_const.cpp|nlohmann|json|at__object_t_key_type_const.cpp|C++|30|6|5
-355|./src/_00/output/C++/nlohmann~json/docs/examples/from_json__default_constructible.cpp|nlohmann|json|from_json__default_constructible.cpp|C++|30|1|6
-356|./src/_00/output/C++/nlohmann~json/docs/examples/json_pointer__to_string.cpp|nlohmann|json|json_pointer__to_string.cpp|C++|30|1|3
-357|./src/_00/output/C++/nlohmann~json/docs/examples/nlohmann_define_type_intrusive_only_serialize_explicit.cpp|nlohmann|json|nlohmann_define_type_intrusive_only_serialize_explicit.cpp|C++|30|2|6
-358|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/flatten.md|nlohmann|json|flatten.md|Markdown|30|0|20
-359|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/macros/json_has_filesystem.md|nlohmann|json|json_has_filesystem.md|Markdown|30|0|13
-360|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/features/json_patch.md|nlohmann|json|json_patch.md|Markdown|30|0|17
-361|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/FuzzerExtFunctionsDlsym.cpp|nlohmann|json|FuzzerExtFunctionsDlsym.cpp|C++|30|13|9
-362|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/CustomMutatorTest.cpp|nlohmann|json|CustomMutatorTest.cpp|C++|30|3|5
-363|./src/_00/output/C++/nlohmann~json/tools/generate_natvis/nlohmann_json.natvis.j2|nlohmann|json|nlohmann_json.natvis.j2|XML|30|6|4
-364|./src/_00/output/C++/nlohmann~json/docs/examples/back.cpp|nlohmann|json|back.cpp|C++|29|5|4
-365|./src/_00/output/C++/nlohmann~json/docs/examples/nlohmann_define_type_non_intrusive_with_default_macro.cpp|nlohmann|json|nlohmann_define_type_non_intrusive_with_default_macro.cpp|C++|29|3|8
-366|./src/_00/output/C++/nlohmann~json/docs/examples/nlohmann_json_namespace_begin.c++17.cpp|nlohmann|json|nlohmann_json_namespace_begin.c++17.cpp|C++|29|1|3
-367|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/cbor_tag_handler_t.md|nlohmann|json|cbor_tag_handler_t.md|Markdown|29|0|13
-368|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/error_handler_t.md|nlohmann|json|error_handler_t.md|Markdown|29|0|13
-369|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/is_number_integer.md|nlohmann|json|is_number_integer.md|Markdown|29|0|18
-370|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/operator=.md|nlohmann|json|operator=.md|Markdown|29|0|14
-371|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/macros/nlohmann_json_namespace_no_version.md|nlohmann|json|nlohmann_json_namespace_no_version.md|Markdown|29|0|16
-372|./src/_00/output/C++/nlohmann~json/tests/src/fuzzer-parse_json.cpp|nlohmann|json|fuzzer-parse_json.cpp|C++|29|29|12
-373|./src/_00/output/C++/nlohmann~json/tests/src/unit-disabled_exceptions.cpp|nlohmann|json|unit-disabled_exceptions.cpp|C++|29|12|11
-374|./src/_00/output/C++/nlohmann~json/.github/workflows/cifuzz.yml|nlohmann|json|cifuzz.yml|YAML|28|0|2
-375|./src/_00/output/C++/nlohmann~json/docs/examples/parse__allow_exceptions.cpp|nlohmann|json|parse__allow_exceptions.cpp|C++|28|3|5
-376|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/adl_serializer/to_json.md|nlohmann|json|to_json.md|Markdown|28|0|15
-377|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/is_number_float.md|nlohmann|json|is_number_float.md|Markdown|28|0|18
-378|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/is_number_unsigned.md|nlohmann|json|is_number_unsigned.md|Markdown|28|0|18
-379|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/json_base_class_t.md|nlohmann|json|json_base_class_t.md|Markdown|28|0|17
-380|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/json_sax/parse_error.md|nlohmann|json|parse_error.md|Markdown|28|0|16
-381|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/macros/json_has_cpp_11.md|nlohmann|json|json_has_cpp_11.md|Markdown|28|0|13
-382|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/macros/json_noexception.md|nlohmann|json|json_noexception.md|Markdown|28|0|17
-383|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/home/code_of_conduct.md|nlohmann|json|code_of_conduct.md|Markdown|28|0|18
-384|./src/_00/output/C++/nlohmann~json/tests/reports/2016-09-09-nativejson_benchmark/README.md|nlohmann|json|README.md|Markdown|28|0|3
-385|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/FuzzerIO.h|nlohmann|json|FuzzerIO.h|C/C++ Header|28|13|23
-386|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/SimpleHashTest.cpp|nlohmann|json|SimpleHashTest.cpp|C++|28|8|4
-387|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/Switch2Test.cpp|nlohmann|json|Switch2Test.cpp|C++|28|3|4
-388|./src/_00/output/C++/nlohmann~json/docs/examples/at__size_type.cpp|nlohmann|json|at__size_type.cpp|C++|27|8|7
-389|./src/_00/output/C++/nlohmann~json/docs/examples/clear.cpp|nlohmann|json|clear.cpp|C++|27|3|4
-390|./src/_00/output/C++/nlohmann~json/docs/examples/flatten.cpp|nlohmann|json|flatten.cpp|C++|27|2|3
-391|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/json_pointer/json_pointer.md|nlohmann|json|json_pointer.md|Markdown|27|0|14
-392|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/SwapCmpTest.cpp|nlohmann|json|SwapCmpTest.cpp|C++|27|3|4
-393|./src/_00/output/C++/nlohmann~json/tools/gdb_pretty_printer/nlohmann-json.py|nlohmann|json|nlohmann-json.py|Python|27|0|5
-394|./src/_00/output/C++/nlohmann~json/docs/examples/diff.cpp|nlohmann|json|diff.cpp|C++|26|5|6
-395|./src/_00/output/C++/nlohmann~json/docs/examples/nlohmann_json_serialize_enum_2.cpp|nlohmann|json|nlohmann_json_serialize_enum_2.cpp|C++|26|2|5
-396|./src/_00/output/C++/nlohmann~json/docs/examples/other_error.cpp|nlohmann|json|other_error.cpp|C++|26|2|2
-397|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/adl_serializer/index.md|nlohmann|json|index.md|Markdown|26|0|9
-398|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/get_binary.md|nlohmann|json|get_binary.md|Markdown|26|0|19
-399|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/json_serializer.md|nlohmann|json|json_serializer.md|Markdown|26|0|15
-400|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/rend.md|nlohmann|json|rend.md|Markdown|26|0|17
-401|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/byte_container_with_subtype/subtype.md|nlohmann|json|subtype.md|Markdown|26|0|16
-402|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/macros/nlohmann_json_namespace.md|nlohmann|json|nlohmann_json_namespace.md|Markdown|26|0|15
-403|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/macros/nlohmann_json_version_major.md|nlohmann|json|nlohmann_json_version_major.md|Markdown|26|0|14
-404|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/FuzzerExtFunctionsWeak.cpp|nlohmann|json|FuzzerExtFunctionsWeak.cpp|C++|26|15|12
-405|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/StrcmpTest.cpp|nlohmann|json|StrcmpTest.cpp|C++|26|3|3
-406|./src/_00/output/C++/nlohmann~json/docs/Makefile|nlohmann|json|Makefile|make|25|10|10
-407|./src/_00/output/C++/nlohmann~json/docs/examples/at__size_type_const.cpp|nlohmann|json|at__size_type_const.cpp|C++|25|6|5
-408|./src/_00/output/C++/nlohmann~json/docs/examples/empty.cpp|nlohmann|json|empty.cpp|C++|25|2|3
-409|./src/_00/output/C++/nlohmann~json/docs/examples/is_array.cpp|nlohmann|json|is_array.cpp|C++|25|2|3
-410|./src/_00/output/C++/nlohmann~json/docs/examples/is_binary.cpp|nlohmann|json|is_binary.cpp|C++|25|2|3
-411|./src/_00/output/C++/nlohmann~json/docs/examples/is_boolean.cpp|nlohmann|json|is_boolean.cpp|C++|25|2|3
-412|./src/_00/output/C++/nlohmann~json/docs/examples/is_discarded.cpp|nlohmann|json|is_discarded.cpp|C++|25|2|3
-413|./src/_00/output/C++/nlohmann~json/docs/examples/is_null.cpp|nlohmann|json|is_null.cpp|C++|25|2|3
-414|./src/_00/output/C++/nlohmann~json/docs/examples/is_number.cpp|nlohmann|json|is_number.cpp|C++|25|2|3
-415|./src/_00/output/C++/nlohmann~json/docs/examples/is_number_float.cpp|nlohmann|json|is_number_float.cpp|C++|25|2|3
-416|./src/_00/output/C++/nlohmann~json/docs/examples/is_number_integer.cpp|nlohmann|json|is_number_integer.cpp|C++|25|2|3
-417|./src/_00/output/C++/nlohmann~json/docs/examples/is_number_unsigned.cpp|nlohmann|json|is_number_unsigned.cpp|C++|25|2|3
-418|./src/_00/output/C++/nlohmann~json/docs/examples/is_object.cpp|nlohmann|json|is_object.cpp|C++|25|2|3
-419|./src/_00/output/C++/nlohmann~json/docs/examples/is_primitive.cpp|nlohmann|json|is_primitive.cpp|C++|25|2|3
-420|./src/_00/output/C++/nlohmann~json/docs/examples/is_string.cpp|nlohmann|json|is_string.cpp|C++|25|2|3
-421|./src/_00/output/C++/nlohmann~json/docs/examples/is_structured.cpp|nlohmann|json|is_structured.cpp|C++|25|2|3
-422|./src/_00/output/C++/nlohmann~json/docs/examples/json_pointer__operator__equal_stringtype.cpp|nlohmann|json|json_pointer__operator__equal_stringtype.cpp|C++|25|3|5
-423|./src/_00/output/C++/nlohmann~json/docs/examples/nlohmann_define_type_intrusive_only_serialize_macro.cpp|nlohmann|json|nlohmann_define_type_intrusive_only_serialize_macro.cpp|C++|25|2|6
-424|./src/_00/output/C++/nlohmann~json/docs/examples/nlohmann_define_type_non_intrusive_only_serialize_explicit.cpp|nlohmann|json|nlohmann_define_type_non_intrusive_only_serialize_explicit.cpp|C++|25|1|5
-425|./src/_00/output/C++/nlohmann~json/docs/examples/parse__array__parser_callback_t.cpp|nlohmann|json|parse__array__parser_callback_t.cpp|C++|25|2|3
-426|./src/_00/output/C++/nlohmann~json/docs/examples/to_json.cpp|nlohmann|json|to_json.cpp|C++|25|1|6
-427|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/begin.md|nlohmann|json|begin.md|Markdown|25|0|17
-428|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/boolean_t.md|nlohmann|json|boolean_t.md|Markdown|25|0|17
-429|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/crend.md|nlohmann|json|crend.md|Markdown|25|0|17
-430|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/end.md|nlohmann|json|end.md|Markdown|25|0|17
-431|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/rbegin.md|nlohmann|json|rbegin.md|Markdown|25|0|17
-432|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/byte_container_with_subtype/index.md|nlohmann|json|index.md|Markdown|25|0|10
-433|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/byte_container_with_subtype/set_subtype.md|nlohmann|json|set_subtype.md|Markdown|25|0|16
-434|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/json_pointer/to_string.md|nlohmann|json|to_string.md|Markdown|25|0|15
-435|./src/_00/output/C++/nlohmann~json/tests/benchmarks/CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|25|4|5
-436|./src/_00/output/C++/nlohmann~json/tests/src/unit-assert_macro.cpp|nlohmann|json|unit-assert_macro.cpp|C++|25|13|10
-437|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/MemcmpTest.cpp|nlohmann|json|MemcmpTest.cpp|C++|25|4|2
-438|./src/_00/output/C++/nlohmann~json/docs/examples/erase__IteratorType.cpp|nlohmann|json|erase__IteratorType.cpp|C++|24|3|4
-439|./src/_00/output/C++/nlohmann~json/docs/examples/erase__IteratorType_IteratorType.cpp|nlohmann|json|erase__IteratorType_IteratorType.cpp|C++|24|3|4
-440|./src/_00/output/C++/nlohmann~json/docs/examples/json_pointer__operator__notequal_stringtype.cpp|nlohmann|json|json_pointer__operator__notequal_stringtype.cpp|C++|24|3|5
-441|./src/_00/output/C++/nlohmann~json/docs/examples/operator_array__json_pointer.cpp|nlohmann|json|operator_array__json_pointer.cpp|C++|24|16|9
-442|./src/_00/output/C++/nlohmann~json/docs/examples/patch.cpp|nlohmann|json|patch.cpp|C++|24|4|5
-443|./src/_00/output/C++/nlohmann~json/docs/examples/patch_inplace.cpp|nlohmann|json|patch_inplace.cpp|C++|24|5|6
-444|./src/_00/output/C++/nlohmann~json/docs/examples/size.cpp|nlohmann|json|size.cpp|C++|24|2|3
-445|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/cbegin.md|nlohmann|json|cbegin.md|Markdown|24|0|17
-446|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/cend.md|nlohmann|json|cend.md|Markdown|24|0|17
-447|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/crbegin.md|nlohmann|json|crbegin.md|Markdown|24|0|17
-448|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/json_pointer/back.md|nlohmann|json|back.md|Markdown|24|0|16
-449|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/json_pointer/push_back.md|nlohmann|json|push_back.md|Markdown|24|0|15
-450|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/json_sax/binary.md|nlohmann|json|binary.md|Markdown|24|0|16
-451|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/json_sax/key.md|nlohmann|json|key.md|Markdown|24|0|16
-452|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/json_sax/number_float.md|nlohmann|json|number_float.md|Markdown|24|0|15
-453|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/json_sax/start_array.md|nlohmann|json|start_array.md|Markdown|24|0|16
-454|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/json_sax/start_object.md|nlohmann|json|start_object.md|Markdown|24|0|16
-455|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/json_sax/string.md|nlohmann|json|string.md|Markdown|24|0|16
-456|./src/_00/output/C++/nlohmann~json/tests/src/unit-meta.cpp|nlohmann|json|unit-meta.cpp|C++|24|7|5
-457|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/standalone/StandaloneFuzzTargetMain.c|nlohmann|json|StandaloneFuzzTargetMain.c|C|24|16|1
-458|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/DSOTestMain.cpp|nlohmann|json|DSOTestMain.cpp|C++|24|3|4
-459|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/OutOfMemoryTest.cpp|nlohmann|json|OutOfMemoryTest.cpp|C++|24|3|4
-460|./src/_00/output/C++/nlohmann~json/docs/examples/basic_json__InputIt_InputIt.cpp|nlohmann|json|basic_json__InputIt_InputIt.cpp|C++|23|4|5
-461|./src/_00/output/C++/nlohmann~json/docs/examples/type.cpp|nlohmann|json|type.cpp|C++|23|2|3
-462|./src/_00/output/C++/nlohmann~json/docs/examples/value__keytype.c++17.cpp|nlohmann|json|value__keytype.c++17.cpp|C++|23|4|5
-463|./src/_00/output/C++/nlohmann~json/docs/mkdocs/Makefile|nlohmann|json|Makefile|make|23|6|8
-464|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/is_array.md|nlohmann|json|is_array.md|Markdown|23|0|16
-465|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/is_binary.md|nlohmann|json|is_binary.md|Markdown|23|0|16
-466|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/is_boolean.md|nlohmann|json|is_boolean.md|Markdown|23|0|16
-467|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/is_null.md|nlohmann|json|is_null.md|Markdown|23|0|16
-468|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/is_object.md|nlohmann|json|is_object.md|Markdown|23|0|16
-469|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/is_string.md|nlohmann|json|is_string.md|Markdown|23|0|16
-470|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/std_hash.md|nlohmann|json|std_hash.md|Markdown|23|0|11
-471|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/byte_container_with_subtype/has_subtype.md|nlohmann|json|has_subtype.md|Markdown|23|0|16
-472|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/json_pointer/empty.md|nlohmann|json|empty.md|Markdown|23|0|16
-473|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/macros/json_no_io.md|nlohmann|json|json_no_io.md|Markdown|23|0|12
-474|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/macros/json_skip_library_version_check.md|nlohmann|json|json_skip_library_version_check.md|Markdown|23|0|14
-475|./src/_00/output/C++/nlohmann~json/tests/abi/config/default.cpp|nlohmann|json|default.cpp|C++|23|9|9
-476|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/FuzzerMerge.h|nlohmann|json|FuzzerMerge.h|C/C++ Header|23|38|9
-477|./src/_00/output/C++/nlohmann~json/wsjcpp.yml|nlohmann|json|wsjcpp.yml|YAML|23|0|3
-478|./src/_00/output/C++/nlohmann~json/docs/examples/type_name.cpp|nlohmann|json|type_name.cpp|C++|22|2|3
-479|./src/_00/output/C++/nlohmann~json/docs/examples/value__json_ptr.cpp|nlohmann|json|value__json_ptr.cpp|C++|22|4|5
-480|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/default_object_comparator_t.md|nlohmann|json|default_object_comparator_t.md|Markdown|22|0|13
-481|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/object_comparator_t.md|nlohmann|json|object_comparator_t.md|Markdown|22|0|10
-482|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/parse_event_t.md|nlohmann|json|parse_event_t.md|Markdown|22|0|7
-483|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/byte_container_with_subtype/clear_subtype.md|nlohmann|json|clear_subtype.md|Markdown|22|0|14
-484|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/json_sax/boolean.md|nlohmann|json|boolean.md|Markdown|22|0|14
-485|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/json_sax/number_integer.md|nlohmann|json|number_integer.md|Markdown|22|0|14
-486|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/json_sax/number_unsigned.md|nlohmann|json|number_unsigned.md|Markdown|22|0|14
-487|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/features/element_access/default_value.md|nlohmann|json|default_value.md|Markdown|22|0|10
-488|./src/_00/output/C++/nlohmann~json/tests/abi/config/noversion.cpp|nlohmann|json|noversion.cpp|C++|22|9|9
-489|./src/_00/output/C++/nlohmann~json/docs/examples/front.cpp|nlohmann|json|front.cpp|C++|21|5|3
-490|./src/_00/output/C++/nlohmann~json/docs/examples/unflatten.cpp|nlohmann|json|unflatten.cpp|C++|21|2|3
-491|./src/_00/output/C++/nlohmann~json/docs/examples/value__object_t_key_type.cpp|nlohmann|json|value__object_t_key_type.cpp|C++|21|4|5
-492|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/json_pointer/parent_pointer.md|nlohmann|json|parent_pointer.md|Markdown|21|0|14
-493|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/json_pointer/pop_back.md|nlohmann|json|pop_back.md|Markdown|21|0|14
-494|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/macros/json_skip_unsupported_compiler_check.md|nlohmann|json|json_skip_unsupported_compiler_check.md|Markdown|21|0|12
-495|./src/_00/output/C++/nlohmann~json/tests/abi/CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|21|5|4
-496|./src/_00/output/C++/nlohmann~json/tests/abi/inline_ns/use_current.cpp|nlohmann|json|use_current.cpp|C++|21|9|6
-497|./src/_00/output/C++/nlohmann~json/tests/src/fuzzer-driver_afl.cpp|nlohmann|json|fuzzer-driver_afl.cpp|C++|21|13|5
-498|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/FuzzerRandom.h|nlohmann|json|FuzzerRandom.h|C/C++ Header|21|10|5
-499|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/InitializeTest.cpp|nlohmann|json|InitializeTest.cpp|C++|21|3|4
-500|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/OneHugeAllocTest.cpp|nlohmann|json|OneHugeAllocTest.cpp|C++|21|3|4
-501|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/SignedIntOverflowTest.cpp|nlohmann|json|SignedIntOverflowTest.cpp|C++|21|3|4
-502|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/StrncmpTest.cpp|nlohmann|json|StrncmpTest.cpp|C++|21|4|3
-503|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/StrstrTest.cpp|nlohmann|json|StrstrTest.cpp|C++|21|4|3
-504|./src/_00/output/C++/nlohmann~json/tests/thirdparty/doctest/doctest_compatibility.h|nlohmann|json|doctest_compatibility.h|C/C++ Header|21|8|8
-505|./src/_00/output/C++/nlohmann~json/docs/docset/Info.plist|nlohmann|json|Info.plist|XML|20|0|0
-506|./src/_00/output/C++/nlohmann~json/docs/examples/accept__string.cpp|nlohmann|json|accept__string.cpp|C++|20|2|4
-507|./src/_00/output/C++/nlohmann~json/docs/examples/basic_json__value_t.cpp|nlohmann|json|basic_json__value_t.cpp|C++|20|2|3
-508|./src/_00/output/C++/nlohmann~json/docs/examples/error_handler_t.cpp|nlohmann|json|error_handler_t.cpp|C++|20|1|3
-509|./src/_00/output/C++/nlohmann~json/docs/examples/max_size.cpp|nlohmann|json|max_size.cpp|C++|20|2|3
-510|./src/_00/output/C++/nlohmann~json/docs/examples/nlohmann_define_type_non_intrusive_only_serialize_macro.cpp|nlohmann|json|nlohmann_define_type_non_intrusive_only_serialize_macro.cpp|C++|20|1|5
-511|./src/_00/output/C++/nlohmann~json/docs/examples/object.cpp|nlohmann|json|object.cpp|C++|20|4|4
-512|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/macros/json_has_three_way_comparison.md|nlohmann|json|json_has_three_way_comparison.md|Markdown|20|0|12
-513|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/ordered_json.md|nlohmann|json|ordered_json.md|Markdown|20|0|12
-514|./src/_00/output/C++/nlohmann~json/meson.build|nlohmann|json|meson.build|Meson|20|0|4
-515|./src/_00/output/C++/nlohmann~json/tests/abi/config/config.hpp|nlohmann|json|config.hpp|C/C++ Header|20|8|7
-516|./src/_00/output/C++/nlohmann~json/tests/cmake_fetch_content/CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|20|0|0
-517|./src/_00/output/C++/nlohmann~json/tests/cmake_fetch_content2/CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|20|0|0
-518|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/FuzzerInterface.h|nlohmann|json|FuzzerInterface.h|C/C++ Header|20|35|12
-519|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/OutOfMemorySingleLargeMallocTest.cpp|nlohmann|json|OutOfMemorySingleLargeMallocTest.cpp|C++|20|3|4
-520|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/RepeatedBytesTest.cpp|nlohmann|json|RepeatedBytesTest.cpp|C++|20|6|3
-521|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/ShrinkControlFlowTest.cpp|nlohmann|json|ShrinkControlFlowTest.cpp|C++|20|4|4
-522|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/SimpleTest.cpp|nlohmann|json|SimpleTest.cpp|C++|20|3|4
-523|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/ThreadedTest.cpp|nlohmann|json|ThreadedTest.cpp|C++|20|3|3
-524|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/TraceMallocTest.cpp|nlohmann|json|TraceMallocTest.cpp|C++|20|3|4
-525|./src/_00/output/C++/nlohmann~json/docs/examples/cbor_tag_handler_t.cpp|nlohmann|json|cbor_tag_handler_t.cpp|C++|19|4|5
-526|./src/_00/output/C++/nlohmann~json/docs/examples/operator__equal.cpp|nlohmann|json|operator__equal.cpp|C++|19|2|3
-527|./src/_00/output/C++/nlohmann~json/docs/examples/operator__greater.cpp|nlohmann|json|operator__greater.cpp|C++|19|2|3
-528|./src/_00/output/C++/nlohmann~json/docs/examples/operator__greaterequal.cpp|nlohmann|json|operator__greaterequal.cpp|C++|19|2|3
-529|./src/_00/output/C++/nlohmann~json/docs/examples/operator__less.cpp|nlohmann|json|operator__less.cpp|C++|19|2|3
-530|./src/_00/output/C++/nlohmann~json/docs/examples/operator__lessequal.cpp|nlohmann|json|operator__lessequal.cpp|C++|19|2|3
-531|./src/_00/output/C++/nlohmann~json/docs/examples/operator__notequal.cpp|nlohmann|json|operator__notequal.cpp|C++|19|2|3
-532|./src/_00/output/C++/nlohmann~json/docs/examples/operator_array__keytype.c++17.cpp|nlohmann|json|operator_array__keytype.c++17.cpp|C++|19|7|8
-533|./src/_00/output/C++/nlohmann~json/docs/examples/operator_deserialize.cpp|nlohmann|json|operator_deserialize.cpp|C++|19|3|4
-534|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/get_allocator.md|nlohmann|json|get_allocator.md|Markdown|19|0|12
-535|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/json_sax/end_array.md|nlohmann|json|end_array.md|Markdown|19|0|12
-536|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/json_sax/end_object.md|nlohmann|json|end_object.md|Markdown|19|0|12
-537|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/json_sax/null.md|nlohmann|json|null.md|Markdown|19|0|12
-538|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/macros/json_has_ranges.md|nlohmann|json|json_has_ranges.md|Markdown|19|0|12
-539|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/macros/json_has_static_rtti.md|nlohmann|json|json_has_static_rtti.md|Markdown|19|0|12
-540|./src/_00/output/C++/nlohmann~json/include/nlohmann/detail/meta/std_fs.hpp|nlohmann|json|std_fs.hpp|C/C++ Header|19|7|3
-541|./src/_00/output/C++/nlohmann~json/tests/cmake_import/CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|19|0|0
-542|./src/_00/output/C++/nlohmann~json/tests/cmake_import_minver/CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|19|0|0
-543|./src/_00/output/C++/nlohmann~json/tests/src/test_utils.hpp|nlohmann|json|test_utils.hpp|C/C++ Header|19|7|7
-544|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/NullDerefTest.cpp|nlohmann|json|NullDerefTest.cpp|C++|19|3|4
-545|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/SimpleDictionaryTest.cpp|nlohmann|json|SimpleDictionaryTest.cpp|C++|19|6|4
-546|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/SimpleThreadedTest.cpp|nlohmann|json|SimpleThreadedTest.cpp|C++|19|3|3
-547|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/TimeoutTest.cpp|nlohmann|json|TimeoutTest.cpp|C++|19|3|4
-548|./src/_00/output/C++/nlohmann~json/Package.swift|nlohmann|json|Package.swift|Swift|18|2|2
-549|./src/_00/output/C++/nlohmann~json/cmake/scripts/gen_bazel_build_file.cmake|nlohmann|json|gen_bazel_build_file.cmake|CMake|18|1|5
-550|./src/_00/output/C++/nlohmann~json/docs/examples/diagnostics_extended.cpp|nlohmann|json|diagnostics_extended.cpp|C++|18|0|4
-551|./src/_00/output/C++/nlohmann~json/docs/examples/emplace.cpp|nlohmann|json|emplace.cpp|C++|18|6|7
-552|./src/_00/output/C++/nlohmann~json/docs/examples/get_ref.cpp|nlohmann|json|get_ref.cpp|C++|18|4|5
-553|./src/_00/output/C++/nlohmann~json/docs/examples/json_lines.cpp|nlohmann|json|json_lines.cpp|C++|18|1|3
-554|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/json.md|nlohmann|json|json.md|Markdown|18|0|10
-555|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/json_pointer/string_t.md|nlohmann|json|string_t.md|Markdown|18|0|10
-556|./src/_00/output/C++/nlohmann~json/include/nlohmann/detail/input/position_t.hpp|nlohmann|json|position_t.hpp|C/C++ Header|18|12|7
-557|./src/_00/output/C++/nlohmann~json/tests/abi/diag/diag_off.cpp|nlohmann|json|diag_off.cpp|C++|18|7|5
-558|./src/_00/output/C++/nlohmann~json/tests/abi/diag/diag_on.cpp|nlohmann|json|diag_on.cpp|C++|18|7|5
-559|./src/_00/output/C++/nlohmann~json/tests/cmake_add_subdirectory/CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|18|0|0
-560|./src/_00/output/C++/nlohmann~json/tests/cmake_target_include_directories/CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|18|0|0
-561|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/FullCoverageSetTest.cpp|nlohmann|json|FullCoverageSetTest.cpp|C++|18|3|3
-562|./src/_00/output/C++/nlohmann~json/docs/examples/diagnostics_standard.cpp|nlohmann|json|diagnostics_standard.cpp|C++|17|0|3
-563|./src/_00/output/C++/nlohmann~json/docs/examples/invalid_iterator.cpp|nlohmann|json|invalid_iterator.cpp|C++|17|2|2
-564|./src/_00/output/C++/nlohmann~json/docs/examples/operator__equal__nullptr_t.cpp|nlohmann|json|operator__equal__nullptr_t.cpp|C++|17|2|3
-565|./src/_00/output/C++/nlohmann~json/docs/examples/operator__notequal__nullptr_t.cpp|nlohmann|json|operator__notequal__nullptr_t.cpp|C++|17|2|3
-566|./src/_00/output/C++/nlohmann~json/docs/examples/operator_array__object_t_key_type.cpp|nlohmann|json|operator_array__object_t_key_type.cpp|C++|17|7|8
-567|./src/_00/output/C++/nlohmann~json/docs/examples/std_hash.cpp|nlohmann|json|std_hash.cpp|C++|17|0|2
-568|./src/_00/output/C++/nlohmann~json/tests/Makefile|nlohmann|json|Makefile|make|17|6|9
-569|./src/_00/output/C++/nlohmann~json/tests/abi/config/custom.cpp|nlohmann|json|custom.cpp|C++|17|10|6
-570|./src/_00/output/C++/nlohmann~json/tests/src/make_test_data_available.hpp|nlohmann|json|make_test_data_available.hpp|C/C++ Header|17|7|6
-571|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/AbsNegAndConstant64Test.cpp|nlohmann|json|AbsNegAndConstant64Test.cpp|C++|17|3|3
-572|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/AbsNegAndConstantTest.cpp|nlohmann|json|AbsNegAndConstantTest.cpp|C++|17|3|3
-573|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/RepeatedMemcmp.cpp|nlohmann|json|RepeatedMemcmp.cpp|C++|17|2|3
-574|./src/_00/output/C++/nlohmann~json/.cirrus.yml|nlohmann|json|.cirrus.yml|YAML|16|0|1
-575|./src/_00/output/C++/nlohmann~json/docs/examples/basic_json__list_init_t.cpp|nlohmann|json|basic_json__list_init_t.cpp|C++|16|2|3
-576|./src/_00/output/C++/nlohmann~json/docs/examples/exception.cpp|nlohmann|json|exception.cpp|C++|16|2|2
-577|./src/_00/output/C++/nlohmann~json/docs/examples/items.cpp|nlohmann|json|items.cpp|C++|16|3|4
-578|./src/_00/output/C++/nlohmann~json/docs/examples/out_of_range.cpp|nlohmann|json|out_of_range.cpp|C++|16|2|2
-579|./src/_00/output/C++/nlohmann~json/docs/examples/parse_error.cpp|nlohmann|json|parse_error.cpp|C++|16|2|2
-580|./src/_00/output/C++/nlohmann~json/docs/examples/push_back.cpp|nlohmann|json|push_back.cpp|C++|16|4|5
-581|./src/_00/output/C++/nlohmann~json/docs/examples/push_back__object_t__value.cpp|nlohmann|json|push_back__object_t__value.cpp|C++|16|4|5
-582|./src/_00/output/C++/nlohmann~json/docs/examples/type_error.cpp|nlohmann|json|type_error.cpp|C++|16|2|2
-583|./src/_00/output/C++/nlohmann~json/tests/abi/diag/diag.cpp|nlohmann|json|diag.cpp|C++|16|9|4
-584|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/BufferOverflowOnInput.cpp|nlohmann|json|BufferOverflowOnInput.cpp|C++|16|3|4
-585|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/FourIndependentBranchesTest.cpp|nlohmann|json|FourIndependentBranchesTest.cpp|C++|16|3|3
-586|./src/_00/output/C++/nlohmann~json/.github/workflows/labeler.yml|nlohmann|json|labeler.yml|YAML|15|0|5
-587|./src/_00/output/C++/nlohmann~json/docs/README.md|nlohmann|json|README.md|Markdown|15|0|5
-588|./src/_00/output/C++/nlohmann~json/docs/examples/contains__keytype.c++17.cpp|nlohmann|json|contains__keytype.c++17.cpp|C++|15|2|3
-589|./src/_00/output/C++/nlohmann~json/docs/examples/emplace_back.cpp|nlohmann|json|emplace_back.cpp|C++|15|4|5
-590|./src/_00/output/C++/nlohmann~json/docs/examples/find__keytype.c++17.cpp|nlohmann|json|find__keytype.c++17.cpp|C++|15|3|4
-591|./src/_00/output/C++/nlohmann~json/docs/examples/json_pointer__empty.cpp|nlohmann|json|json_pointer__empty.cpp|C++|15|2|3
-592|./src/_00/output/C++/nlohmann~json/docs/examples/operator_array__json_pointer_const.cpp|nlohmann|json|operator_array__json_pointer_const.cpp|C++|15|6|4
-593|./src/_00/output/C++/nlohmann~json/docs/examples/push_back__initializer_list.cpp|nlohmann|json|push_back__initializer_list.cpp|C++|15|6|6
-594|./src/_00/output/C++/nlohmann~json/docs/examples/to_bson.cpp|nlohmann|json|to_bson.cpp|C++|15|3|4
-595|./src/_00/output/C++/nlohmann~json/docs/examples/to_cbor.cpp|nlohmann|json|to_cbor.cpp|C++|15|3|4
-596|./src/_00/output/C++/nlohmann~json/docs/examples/to_msgpack.cpp|nlohmann|json|to_msgpack.cpp|C++|15|3|4
-597|./src/_00/output/C++/nlohmann~json/docs/examples/update.cpp|nlohmann|json|update.cpp|C++|15|4|5
-598|./src/_00/output/C++/nlohmann~json/docs/examples/update__range.cpp|nlohmann|json|update__range.cpp|C++|15|4|5
-599|./src/_00/output/C++/nlohmann~json/include/nlohmann/detail/json_custom_base_class.hpp|nlohmann|json|json_custom_base_class.hpp|C/C++ Header|15|16|8
-600|./src/_00/output/C++/nlohmann~json/tests/abi/config/CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|15|4|3
-601|./src/_00/output/C++/nlohmann~json/tests/cmake_add_subdirectory/project/CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|15|0|5
-602|./src/_00/output/C++/nlohmann~json/tests/cmake_target_include_directories/project/CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|15|1|5
-603|./src/_00/output/C++/nlohmann~json/tests/src/unit-large_json.cpp|nlohmann|json|unit-large_json.cpp|C++|15|7|7
-604|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/LoadTest.cpp|nlohmann|json|LoadTest.cpp|C++|15|3|4
-605|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/ShrinkValueProfileTest.cpp|nlohmann|json|ShrinkValueProfileTest.cpp|C++|15|3|4
-606|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/SpamyTest.cpp|nlohmann|json|SpamyTest.cpp|C++|15|3|3
-607|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/no-coverage/CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|15|6|8
-608|./src/_00/output/C++/nlohmann~json/cmake/config.cmake.in|nlohmann|json|config.cmake.in|CMake|14|0|1
-609|./src/_00/output/C++/nlohmann~json/docs/examples/array.cpp|nlohmann|json|array.cpp|C++|14|2|3
-610|./src/_00/output/C++/nlohmann~json/docs/examples/from_bson.cpp|nlohmann|json|from_bson.cpp|C++|14|3|4
-611|./src/_00/output/C++/nlohmann~json/docs/examples/get__PointerType.cpp|nlohmann|json|get__PointerType.cpp|C++|14|3|4
-612|./src/_00/output/C++/nlohmann~json/docs/examples/get_ptr.cpp|nlohmann|json|get_ptr.cpp|C++|14|3|4
-613|./src/_00/output/C++/nlohmann~json/docs/examples/json_pointer__operator__equal.cpp|nlohmann|json|json_pointer__operator__equal.cpp|C++|14|2|3
-614|./src/_00/output/C++/nlohmann~json/docs/examples/json_pointer__operator__notequal.cpp|nlohmann|json|json_pointer__operator__notequal.cpp|C++|14|2|3
-615|./src/_00/output/C++/nlohmann~json/docs/examples/json_pointer__operator_add.cpp|nlohmann|json|json_pointer__operator_add.cpp|C++|14|4|5
-616|./src/_00/output/C++/nlohmann~json/docs/examples/json_pointer__pop_back.cpp|nlohmann|json|json_pointer__pop_back.cpp|C++|14|2|5
-617|./src/_00/output/C++/nlohmann~json/docs/examples/json_pointer__push_back.cpp|nlohmann|json|json_pointer__push_back.cpp|C++|14|2|5
-618|./src/_00/output/C++/nlohmann~json/docs/examples/operator_ltlt__basic_json.cpp|nlohmann|json|operator_ltlt__basic_json.cpp|C++|14|3|4
-619|./src/_00/output/C++/nlohmann~json/include/nlohmann/detail/iterators/internal_iterator.hpp|nlohmann|json|internal_iterator.hpp|C/C++ Header|14|15|6
-620|./src/_00/output/C++/nlohmann~json/tests/cmake_fetch_content/project/CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|14|0|6
-621|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/FuzzerExtFunctions.h|nlohmann|json|FuzzerExtFunctions.h|C/C++ Header|14|13|8
-622|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/StrncmpOOBTest.cpp|nlohmann|json|StrncmpOOBTest.cpp|C++|14|3|4
-623|./src/_00/output/C++/nlohmann~json/.github/PULL_REQUEST_TEMPLATE.md|nlohmann|json|PULL_REQUEST_TEMPLATE.md|Markdown|13|0|6
-624|./src/_00/output/C++/nlohmann~json/cmake/nlohmann_jsonConfigVersion.cmake.in|nlohmann|json|nlohmann_jsonConfigVersion.cmake.in|CMake|13|4|3
-625|./src/_00/output/C++/nlohmann~json/docs/examples/basic_json__size_type_basic_json.cpp|nlohmann|json|basic_json__size_type_basic_json.cpp|C++|13|2|3
-626|./src/_00/output/C++/nlohmann~json/docs/examples/contains__object_t_key_type.cpp|nlohmann|json|contains__object_t_key_type.cpp|C++|13|2|3
-627|./src/_00/output/C++/nlohmann~json/docs/examples/count__keytype.c++17.cpp|nlohmann|json|count__keytype.c++17.cpp|C++|13|3|4
-628|./src/_00/output/C++/nlohmann~json/docs/examples/erase__keytype.c++17.cpp|nlohmann|json|erase__keytype.c++17.cpp|C++|13|3|4
-629|./src/_00/output/C++/nlohmann~json/docs/examples/find__object_t_key_type.cpp|nlohmann|json|find__object_t_key_type.cpp|C++|13|3|4
-630|./src/_00/output/C++/nlohmann~json/docs/examples/from_bjdata.cpp|nlohmann|json|from_bjdata.cpp|C++|13|3|4
-631|./src/_00/output/C++/nlohmann~json/docs/examples/from_cbor.cpp|nlohmann|json|from_cbor.cpp|C++|13|3|4
-632|./src/_00/output/C++/nlohmann~json/docs/examples/from_msgpack.cpp|nlohmann|json|from_msgpack.cpp|C++|13|3|4
-633|./src/_00/output/C++/nlohmann~json/docs/examples/from_ubjson.cpp|nlohmann|json|from_ubjson.cpp|C++|13|3|4
-634|./src/_00/output/C++/nlohmann~json/docs/examples/get_allocator.cpp|nlohmann|json|get_allocator.cpp|C++|13|0|5
-635|./src/_00/output/C++/nlohmann~json/docs/examples/json_pointer__operator_string_t.cpp|nlohmann|json|json_pointer__operator_string_t.cpp|C++|13|2|4
-636|./src/_00/output/C++/nlohmann~json/docs/examples/json_pointer__parent_pointer.cpp|nlohmann|json|json_pointer__parent_pointer.cpp|C++|13|2|3
-637|./src/_00/output/C++/nlohmann~json/docs/examples/operator_array__keytype_const.c++17.cpp|nlohmann|json|operator_array__keytype_const.c++17.cpp|C++|13|2|3
-638|./src/_00/output/C++/nlohmann~json/docs/examples/to_string.cpp|nlohmann|json|to_string.cpp|C++|13|3|4
-639|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/features/merge_patch.md|nlohmann|json|merge_patch.md|Markdown|13|0|7
-640|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/integration/index.md|nlohmann|json|index.md|Markdown|13|0|5
-641|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/DivTest.cpp|nlohmann|json|DivTest.cpp|C++|13|3|4
-642|./src/_00/output/C++/nlohmann~json/docs/docset/README.md|nlohmann|json|README.md|Markdown|12|0|7
-643|./src/_00/output/C++/nlohmann~json/docs/examples/byte_container_with_subtype__byte_container_with_subtype.cpp|nlohmann|json|byte_container_with_subtype__byte_container_with_subtype.cpp|C++|12|4|7
-644|./src/_00/output/C++/nlohmann~json/docs/examples/byte_container_with_subtype__clear_subtype.cpp|nlohmann|json|byte_container_with_subtype__clear_subtype.cpp|C++|12|2|7
-645|./src/_00/output/C++/nlohmann~json/docs/examples/byte_container_with_subtype__set_subtype.cpp|nlohmann|json|byte_container_with_subtype__set_subtype.cpp|C++|12|3|7
-646|./src/_00/output/C++/nlohmann~json/docs/examples/byte_container_with_subtype__subtype.cpp|nlohmann|json|byte_container_with_subtype__subtype.cpp|C++|12|4|6
-647|./src/_00/output/C++/nlohmann~json/docs/examples/insert__range_object.cpp|nlohmann|json|insert__range_object.cpp|C++|12|4|5
-648|./src/_00/output/C++/nlohmann~json/docs/examples/operator__equal__specializations.cpp|nlohmann|json|operator__equal__specializations.cpp|C++|12|0|4
-649|./src/_00/output/C++/nlohmann~json/docs/examples/operator_array__size_type.cpp|nlohmann|json|operator_array__size_type.cpp|C++|12|6|7
-650|./src/_00/output/C++/nlohmann~json/docs/examples/std_swap.cpp|nlohmann|json|std_swap.cpp|C++|12|2|5
-651|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/api/basic_json/~basic_json.md|nlohmann|json|~basic_json.md|Markdown|12|0|9
-652|./src/_00/output/C++/nlohmann~json/include/nlohmann/detail/meta/void_t.hpp|nlohmann|json|void_t.hpp|C/C++ Header|12|7|5
-653|./src/_00/output/C++/nlohmann~json/tests/src/unit-windows_h.cpp|nlohmann|json|unit-windows_h.cpp|C++|12|7|4
-654|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/FuzzerSHA1.h|nlohmann|json|FuzzerSHA1.h|C/C++ Header|12|12|9
-655|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/AFLDriverTest.cpp|nlohmann|json|AFLDriverTest.cpp|C++|12|5|5
-656|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/CounterTest.cpp|nlohmann|json|CounterTest.cpp|C++|12|4|2
-657|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/NullDerefOnEmptyTest.cpp|nlohmann|json|NullDerefOnEmptyTest.cpp|C++|12|3|4
-658|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/SingleMemcmpTest.cpp|nlohmann|json|SingleMemcmpTest.cpp|C++|12|3|2
-659|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/SingleStrcmpTest.cpp|nlohmann|json|SingleStrcmpTest.cpp|C++|12|3|2
-660|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/SingleStrncmpTest.cpp|nlohmann|json|SingleStrncmpTest.cpp|C++|12|3|2
-661|./src/_00/output/C++/nlohmann~json/.github/stale.yml|nlohmann|json|stale.yml|YAML|11|6|0
-662|./src/_00/output/C++/nlohmann~json/docs/examples/basic_json__copyassignment.cpp|nlohmann|json|basic_json__copyassignment.cpp|C++|11|3|4
-663|./src/_00/output/C++/nlohmann~json/docs/examples/byte_container_with_subtype__has_subtype.cpp|nlohmann|json|byte_container_with_subtype__has_subtype.cpp|C++|11|3|5
-664|./src/_00/output/C++/nlohmann~json/docs/examples/count__object_t_key_type.cpp|nlohmann|json|count__object_t_key_type.cpp|C++|11|3|4
-665|./src/_00/output/C++/nlohmann~json/docs/examples/erase__object_t_key_type.cpp|nlohmann|json|erase__object_t_key_type.cpp|C++|11|3|4
-666|./src/_00/output/C++/nlohmann~json/docs/examples/insert__range.cpp|nlohmann|json|insert__range.cpp|C++|11|4|5
-667|./src/_00/output/C++/nlohmann~json/docs/examples/operator_array__object_t_key_type_const.cpp|nlohmann|json|operator_array__object_t_key_type_const.cpp|C++|11|2|3
-668|./src/_00/output/C++/nlohmann~json/docs/examples/operator_literal_json_pointer.cpp|nlohmann|json|operator_literal_json_pointer.cpp|C++|11|0|3
-669|./src/_00/output/C++/nlohmann~json/docs/examples/ordered_json.cpp|nlohmann|json|ordered_json.cpp|C++|11|0|3
-670|./src/_00/output/C++/nlohmann~json/docs/examples/swap__array_t.cpp|nlohmann|json|swap__array_t.cpp|C++|11|4|5
-671|./src/_00/output/C++/nlohmann~json/docs/examples/swap__binary_t.cpp|nlohmann|json|swap__binary_t.cpp|C++|11|4|5
-672|./src/_00/output/C++/nlohmann~json/docs/examples/swap__object_t.cpp|nlohmann|json|swap__object_t.cpp|C++|11|4|5
-673|./src/_00/output/C++/nlohmann~json/docs/examples/swap__reference.cpp|nlohmann|json|swap__reference.cpp|C++|11|3|4
-674|./src/_00/output/C++/nlohmann~json/docs/examples/swap__string_t.cpp|nlohmann|json|swap__string_t.cpp|C++|11|4|5
-675|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/home/license.md|nlohmann|json|license.md|Markdown|11|0|10
-676|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/NthRunCrashTest.cpp|nlohmann|json|NthRunCrashTest.cpp|C++|11|3|4
-677|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/ThreadedLeakTest.cpp|nlohmann|json|ThreadedLeakTest.cpp|C++|11|3|4
-678|./src/_00/output/C++/nlohmann~json/.reuse/templates/json.jinja2|nlohmann|json|json.jinja2|Jinja Template|10|0|1
-679|./src/_00/output/C++/nlohmann~json/.reuse/templates/json_support.jinja2|nlohmann|json|json_support.jinja2|Jinja Template|10|0|1
-680|./src/_00/output/C++/nlohmann~json/docs/docset/docset.json|nlohmann|json|docset.json|JSON|10|0|0
-681|./src/_00/output/C++/nlohmann~json/docs/examples/basic_json__basic_json.cpp|nlohmann|json|basic_json__basic_json.cpp|C++|10|3|4
-682|./src/_00/output/C++/nlohmann~json/docs/examples/basic_json__moveconstructor.cpp|nlohmann|json|basic_json__moveconstructor.cpp|C++|10|3|4
-683|./src/_00/output/C++/nlohmann~json/docs/examples/cend.cpp|nlohmann|json|cend.cpp|C++|10|4|5
-684|./src/_00/output/C++/nlohmann~json/docs/examples/crend.cpp|nlohmann|json|crend.cpp|C++|10|4|5
-685|./src/_00/output/C++/nlohmann~json/docs/examples/end.cpp|nlohmann|json|end.cpp|C++|10|4|5
-686|./src/_00/output/C++/nlohmann~json/docs/examples/insert.cpp|nlohmann|json|insert.cpp|C++|10|3|4
-687|./src/_00/output/C++/nlohmann~json/docs/examples/insert__count.cpp|nlohmann|json|insert__count.cpp|C++|10|3|4
-688|./src/_00/output/C++/nlohmann~json/docs/examples/insert__ilist.cpp|nlohmann|json|insert__ilist.cpp|C++|10|3|4
-689|./src/_00/output/C++/nlohmann~json/docs/examples/json_pointer__back.cpp|nlohmann|json|json_pointer__back.cpp|C++|10|2|3
-690|./src/_00/output/C++/nlohmann~json/docs/examples/json_pointer__operator_add_binary.cpp|nlohmann|json|json_pointer__operator_add_binary.cpp|C++|10|4|5
-691|./src/_00/output/C++/nlohmann~json/docs/examples/nlohmann_json_version.cpp|nlohmann|json|nlohmann_json_version.cpp|C++|10|0|2
-692|./src/_00/output/C++/nlohmann~json/docs/examples/operator_literal_json.cpp|nlohmann|json|operator_literal_json.cpp|C++|10|0|3
-693|./src/_00/output/C++/nlohmann~json/docs/examples/parse__contiguouscontainer__parser_callback_t.cpp|nlohmann|json|parse__contiguouscontainer__parser_callback_t.cpp|C++|10|2|3
-694|./src/_00/output/C++/nlohmann~json/docs/examples/parse__iterator_pair.cpp|nlohmann|json|parse__iterator_pair.cpp|C++|10|2|3
-695|./src/_00/output/C++/nlohmann~json/docs/examples/parse__pointers.cpp|nlohmann|json|parse__pointers.cpp|C++|10|2|3
-696|./src/_00/output/C++/nlohmann~json/docs/examples/rend.cpp|nlohmann|json|rend.cpp|C++|10|4|5
-697|./src/_00/output/C++/nlohmann~json/tests/abi/diag/CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|10|5|4
-698|./src/_00/output/C++/nlohmann~json/tests/abi/inline_ns/use_v3_10_5.cpp|nlohmann|json|use_v3_10_5.cpp|C++|10|9|3
-699|./src/_00/output/C++/nlohmann~json/tests/cmake_fetch_content2/project/CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|10|0|5
-700|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/AccumulateAllocationsTest.cpp|nlohmann|json|AccumulateAllocationsTest.cpp|C++|10|3|4
-701|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/LeakTest.cpp|nlohmann|json|LeakTest.cpp|C++|10|3|4
-702|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/LeakTimeoutTest.cpp|nlohmann|json|LeakTimeoutTest.cpp|C++|10|3|4
-703|./src/_00/output/C++/nlohmann~json/docs/examples/basic_json__nullptr_t.cpp|nlohmann|json|basic_json__nullptr_t.cpp|C++|9|3|4
-704|./src/_00/output/C++/nlohmann~json/docs/examples/begin.cpp|nlohmann|json|begin.cpp|C++|9|3|4
-705|./src/_00/output/C++/nlohmann~json/docs/examples/cbegin.cpp|nlohmann|json|cbegin.cpp|C++|9|3|4
-706|./src/_00/output/C++/nlohmann~json/docs/examples/crbegin.cpp|nlohmann|json|crbegin.cpp|C++|9|3|4
-707|./src/_00/output/C++/nlohmann~json/docs/examples/default_object_comparator_t.cpp|nlohmann|json|default_object_comparator_t.cpp|C++|9|0|2
-708|./src/_00/output/C++/nlohmann~json/docs/examples/erase__size_type.cpp|nlohmann|json|erase__size_type.cpp|C++|9|3|4
-709|./src/_00/output/C++/nlohmann~json/docs/examples/get_binary.cpp|nlohmann|json|get_binary.cpp|C++|9|3|4
-710|./src/_00/output/C++/nlohmann~json/docs/examples/json_pointer__string_t.cpp|nlohmann|json|json_pointer__string_t.cpp|C++|9|0|4
-711|./src/_00/output/C++/nlohmann~json/docs/examples/nlohmann_json_namespace.cpp|nlohmann|json|nlohmann_json_namespace.cpp|C++|9|2|3
-712|./src/_00/output/C++/nlohmann~json/docs/examples/nlohmann_json_namespace_no_version.cpp|nlohmann|json|nlohmann_json_namespace_no_version.cpp|C++|9|1|3
-713|./src/_00/output/C++/nlohmann~json/docs/examples/object_comparator_t.cpp|nlohmann|json|object_comparator_t.cpp|C++|9|0|2
-714|./src/_00/output/C++/nlohmann~json/docs/examples/rbegin.cpp|nlohmann|json|rbegin.cpp|C++|9|3|4
-715|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/home/design_goals.md|nlohmann|json|design_goals.md|Markdown|9|0|8
-716|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/home/sponsors.md|nlohmann|json|sponsors.md|Markdown|9|0|4
-717|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/integration/pkg-config.md|nlohmann|json|pkg-config.md|Markdown|9|0|4
-718|./src/_00/output/C++/nlohmann~json/tests/cuda_example/CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|9|0|1
-719|./src/_00/output/C++/nlohmann~json/tests/reports/2016-08-29-fuzz/index.html|nlohmann|json|index.html|HTML|9|0|1
-720|./src/_00/output/C++/nlohmann~json/tests/reports/2016-10-02-fuzz/index.html|nlohmann|json|index.html|HTML|9|0|1
-721|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/FuzzerUtilLinux.cpp|nlohmann|json|FuzzerUtilLinux.cpp|C++|9|10|5
-722|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/build.sh|nlohmann|json|build.sh|Bourne Shell|9|0|1
-723|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/TimeoutEmptyTest.cpp|nlohmann|json|TimeoutEmptyTest.cpp|C++|9|3|2
-724|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/ubsan/CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|9|2|4
-725|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/uninstrumented/CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|9|3|4
-726|./src/_00/output/C++/nlohmann~json/tools/amalgamate/CHANGES.md|nlohmann|json|CHANGES.md|Markdown|9|0|1
-727|./src/_00/output/C++/nlohmann~json/docs/examples/array_t.cpp|nlohmann|json|array_t.cpp|C++|8|0|2
-728|./src/_00/output/C++/nlohmann~json/docs/examples/binary_t.cpp|nlohmann|json|binary_t.cpp|C++|8|0|2
-729|./src/_00/output/C++/nlohmann~json/docs/examples/boolean_t.cpp|nlohmann|json|boolean_t.cpp|C++|8|0|2
-730|./src/_00/output/C++/nlohmann~json/docs/examples/meta.cpp|nlohmann|json|meta.cpp|C++|8|1|2
-731|./src/_00/output/C++/nlohmann~json/docs/examples/number_float_t.cpp|nlohmann|json|number_float_t.cpp|C++|8|0|2
-732|./src/_00/output/C++/nlohmann~json/docs/examples/number_integer_t.cpp|nlohmann|json|number_integer_t.cpp|C++|8|0|2
-733|./src/_00/output/C++/nlohmann~json/docs/examples/number_unsigned_t.cpp|nlohmann|json|number_unsigned_t.cpp|C++|8|0|2
-734|./src/_00/output/C++/nlohmann~json/docs/examples/object_t.cpp|nlohmann|json|object_t.cpp|C++|8|0|2
-735|./src/_00/output/C++/nlohmann~json/docs/examples/operator_array__size_type_const.cpp|nlohmann|json|operator_array__size_type_const.cpp|C++|8|2|3
-736|./src/_00/output/C++/nlohmann~json/docs/examples/operator_ltlt__json_pointer.cpp|nlohmann|json|operator_ltlt__json_pointer.cpp|C++|8|2|3
-737|./src/_00/output/C++/nlohmann~json/docs/examples/string_t.cpp|nlohmann|json|string_t.cpp|C++|8|0|2
-738|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/integration/example.cpp|nlohmann|json|example.cpp|C++|8|0|2
-739|./src/_00/output/C++/nlohmann~json/include/nlohmann/detail/meta/identity_tag.hpp|nlohmann|json|identity_tag.hpp|C/C++ Header|8|8|5
-740|./src/_00/output/C++/nlohmann~json/tests/abi/diag/diag.hpp|nlohmann|json|diag.hpp|C/C++ Header|8|7|5
-741|./src/_00/output/C++/nlohmann~json/tests/cuda_example/json_cuda.cu|nlohmann|json|json_cuda.cu|CUDA|8|8|3
-742|./src/_00/output/C++/nlohmann~json/tools/amalgamate/config_json.json|nlohmann|json|config_json.json|JSON|8|0|0
-743|./src/_00/output/C++/nlohmann~json/tools/amalgamate/config_json_fwd.json|nlohmann|json|config_json_fwd.json|JSON|8|0|0
-744|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/features/element_access/index.md|nlohmann|json|index.md|Markdown|7|0|2
-745|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/features/parsing/index.md|nlohmann|json|index.md|Markdown|7|0|6
-746|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/integration/conan/CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|7|0|2
-747|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/integration/vcpkg/example.cpp|nlohmann|json|example.cpp|C++|7|0|2
-748|./src/_00/output/C++/nlohmann~json/tests/abi/inline_ns/CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|7|3|2
-749|./src/_00/output/C++/nlohmann~json/tests/cmake_import/project/CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|7|0|5
-750|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/FuzzerMain.cpp|nlohmann|json|FuzzerMain.cpp|C++|7|11|3
-751|./src/_00/output/C++/nlohmann~json/tools/generate_natvis/README.md|nlohmann|json|README.md|Markdown|7|0|3
-752|./src/_00/output/C++/nlohmann~json/.github/config.yml|nlohmann|json|config.yml|YAML|6|7|6
-753|./src/_00/output/C++/nlohmann~json/tests/cmake_target_include_directories/project/main.cpp|nlohmann|json|main.cpp|C++|6|7|3
-754|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/DSO1.cpp|nlohmann|json|DSO1.cpp|C++|6|3|3
-755|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/DSO2.cpp|nlohmann|json|DSO2.cpp|C++|6|3|3
-756|./src/_00/output/C++/nlohmann~json/.github/ISSUE_TEMPLATE/config.yml|nlohmann|json|config.yml|YAML|5|0|0
-757|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/integration/vcpkg/CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|5|0|2
-758|./src/_00/output/C++/nlohmann~json/include/nlohmann/detail/meta/call_std/begin.hpp|nlohmann|json|begin.hpp|C/C++ Header|5|7|5
-759|./src/_00/output/C++/nlohmann~json/include/nlohmann/detail/meta/call_std/end.hpp|nlohmann|json|end.hpp|C/C++ Header|5|7|5
-760|./src/_00/output/C++/nlohmann~json/tests/cmake_import_minver/project/CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|5|0|3
-761|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/DSOTestExtra.cpp|nlohmann|json|DSOTestExtra.cpp|C++|5|3|3
-762|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/EmptyTest.cpp|nlohmann|json|EmptyTest.cpp|C++|5|4|2
-763|./src/_00/output/C++/nlohmann~json/tests/thirdparty/Fuzzer/test/UninstrumentedTest.cpp|nlohmann|json|UninstrumentedTest.cpp|C++|5|3|3
-764|./src/_00/output/C++/nlohmann~json/.lgtm.yml|nlohmann|json|.lgtm.yml|YAML|4|0|0
-765|./src/_00/output/C++/nlohmann~json/.reuse/README.md|nlohmann|json|README.md|Markdown|4|0|3
-766|./src/_00/output/C++/nlohmann~json/.github/SECURITY.md|nlohmann|json|SECURITY.md|Markdown|3|0|2
-767|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/css/custom.css|nlohmann|json|custom.css|CSS|3|1|0
-768|./src/_00/output/C++/nlohmann~json/tests/cmake_target_include_directories/project/Bar.hpp|nlohmann|json|Bar.hpp|C/C++ Header|3|7|2
-769|./src/_00/output/C++/nlohmann~json/tests/cmake_target_include_directories/project/Foo.hpp|nlohmann|json|Foo.hpp|C/C++ Header|3|7|2
-770|./src/_00/output/C++/nlohmann~json/.github/FUNDING.yml|nlohmann|json|FUNDING.yml|YAML|2|0|0
-771|./src/_00/output/C++/nlohmann~json/docs/mkdocs/docs/index.md|nlohmann|json|index.md|Markdown|2|0|1
-772|./src/_00/output/C++/nlohmann~json/tests/abi/main.cpp|nlohmann|json|main.cpp|C++|2|8|1
-773|./src/_00/output/C++/nlohmann~json/tests/cmake_target_include_directories/project/Bar.cpp|nlohmann|json|Bar.cpp|C++|2|7|2
-774|./src/_00/output/C++/nlohmann~json/tests/cmake_target_include_directories/project/Foo.cpp|nlohmann|json|Foo.cpp|C++|2|7|2
-775|./src/_00/output/C++/nlohmann~json/tests/src/unit.cpp|nlohmann|json|unit.cpp|C++|2|7|1
-776|./src/_00/output/C++/nlohmann~json/WORKSPACE.bazel|nlohmann|json|WORKSPACE.bazel|Bazel|1|0|0
+path|owner|project|file|language|code|comment|blank
+.\src\_00\output\C++\nlohmann~json\single_include\nlohmann\json.hpp|nlohmann|json|json.hpp|C/C++ Header|17453|4143|3170
+.\src\_00\output\C++\nlohmann~json\tests\abi\include\nlohmann\json_v3_10_5.hpp|nlohmann|json|json_v3_10_5.hpp|C/C++ Header|15650|3634|2807
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\doctest\doctest.h|nlohmann|json|doctest.h|C/C++ Header|5473|537|1096
+.\src\_00\output\C++\nlohmann~json\include\nlohmann\json.hpp|nlohmann|json|json.hpp|C/C++ Header|3490|1098|670
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-bjdata.cpp|nlohmann|json|unit-bjdata.cpp|C++|2822|270|489
+.\src\_00\output\C++\nlohmann~json\ChangeLog.md|nlohmann|json|ChangeLog.md|Markdown|2748|0|195
+.\src\_00\output\C++\nlohmann~json\include\nlohmann\detail\input\binary_reader.hpp|nlohmann|json|binary_reader.hpp|C/C++ Header|2360|327|322
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-cbor.cpp|nlohmann|json|unit-cbor.cpp|C++|1996|340|369
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-ubjson.cpp|nlohmann|json|unit-ubjson.cpp|C++|1990|215|342
+.\src\_00\output\C++\nlohmann~json\include\nlohmann\thirdparty\hedley\hedley.hpp|nlohmann|json|hedley.hpp|C/C++ Header|1891|16|138
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-element_access2.cpp|nlohmann|json|unit-element_access2.cpp|C++|1510|19|264
+.\src\_00\output\C++\nlohmann~json\README.md|nlohmann|json|README.md|Markdown|1493|0|398
+.\src\_00\output\C++\nlohmann~json\include\nlohmann\detail\output\binary_writer.hpp|nlohmann|json|binary_writer.hpp|C/C++ Header|1449|218|171
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-msgpack.cpp|nlohmann|json|unit-msgpack.cpp|C++|1399|212|255
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-constructor1.cpp|nlohmann|json|unit-constructor1.cpp|C++|1371|24|186
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-class_parser.cpp|nlohmann|json|unit-class_parser.cpp|C++|1343|142|206
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-conversions.cpp|nlohmann|json|unit-conversions.cpp|C++|1335|29|208
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-iterators1.cpp|nlohmann|json|unit-iterators1.cpp|C++|1323|7|300
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-testsuites.cpp|nlohmann|json|unit-testsuites.cpp|C++|1235|93|63
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\images\range-rbegin-rend.svg|nlohmann|json|range-rbegin-rend.svg|SVG|1230|1|1
+.\src\_00\output\C++\nlohmann~json\include\nlohmann\detail\input\lexer.hpp|nlohmann|json|lexer.hpp|C/C++ Header|1199|241|193
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-items.cpp|nlohmann|json|unit-items.cpp|C++|1177|24|232
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-regression1.cpp|nlohmann|json|unit-regression1.cpp|C++|1144|123|246
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-bson.cpp|nlohmann|json|unit-bson.cpp|C++|1045|49|204
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-deserialization.cpp|nlohmann|json|unit-deserialization.cpp|C++|1004|17|168
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-json_patch.cpp|nlohmann|json|unit-json_patch.cpp|C++|982|152|187
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-iterators2.cpp|nlohmann|json|unit-iterators2.cpp|C++|876|41|54
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\home\releases.md|nlohmann|json|releases.md|Markdown|845|0|380
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-element_access1.cpp|nlohmann|json|unit-element_access1.cpp|C++|796|8|77
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-modifiers.cpp|nlohmann|json|unit-modifiers.cpp|C++|782|23|148
+.\src\_00\output\C++\nlohmann~json\cmake\ci.cmake|nlohmann|json|ci.cmake|CMake|755|120|108
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-regression2.cpp|nlohmann|json|unit-regression2.cpp|C++|723|69|149
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-udt.cpp|nlohmann|json|unit-udt.cpp|C++|709|41|127
+.\src\_00\output\C++\nlohmann~json\include\nlohmann\detail\output\serializer.hpp|nlohmann|json|serializer.hpp|C/C++ Header|680|177|131
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\FuzzerUnittest.cpp|nlohmann|json|FuzzerUnittest.cpp|C++|657|8|73
+.\src\_00\output\C++\nlohmann~json\include\nlohmann\detail\json_pointer.hpp|nlohmann|json|json_pointer.hpp|C/C++ Header|653|212|123
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-json_pointer.cpp|nlohmann|json|unit-json_pointer.cpp|C++|596|70|121
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\home\exceptions.md|nlohmann|json|exceptions.md|Markdown|569|0|327
+.\src\_00\output\C++\nlohmann~json\include\nlohmann\detail\meta\type_traits.hpp|nlohmann|json|type_traits.hpp|C/C++ Header|549|96|150
+.\src\_00\output\C++\nlohmann~json\tests\reports\2016-09-09-nativejson_benchmark\conformance_Nlohmann (C++11).md|nlohmann|json|conformance_Nlohmann (C++11).md|Markdown|510|1|159
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-comparison.cpp|nlohmann|json|unit-comparison.cpp|C++|497|60|39
+.\src\_00\output\C++\nlohmann~json\include\nlohmann\detail\conversions\to_chars.hpp|nlohmann|json|to_chars.hpp|C/C++ Header|490|493|135
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-unicode2.cpp|nlohmann|json|unit-unicode2.cpp|C++|490|48|72
+.\src\_00\output\C++\nlohmann~json\include\nlohmann\detail\iterators\iter_impl.hpp|nlohmann|json|iter_impl.hpp|C/C++ Header|489|172|90
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\FuzzerLoop.cpp|nlohmann|json|FuzzerLoop.cpp|C++|487|221|84
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\FuzzerDriver.cpp|nlohmann|json|FuzzerDriver.cpp|C++|474|18|53
+.\src\_00\output\C++\nlohmann~json\include\nlohmann\detail\input\json_sax.hpp|nlohmann|json|json_sax.hpp|C/C++ Header|457|155|115
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-capacity.cpp|nlohmann|json|unit-capacity.cpp|C++|453|8|82
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\FuzzerMutate.cpp|nlohmann|json|FuzzerMutate.cpp|C++|447|38|42
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-to_chars.cpp|nlohmann|json|unit-to_chars.cpp|C++|442|30|44
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\images\range-begin-end.svg|nlohmann|json|range-begin-end.svg|SVG|433|1|1
+.\src\_00\output\C++\nlohmann~json\include\nlohmann\detail\conversions\from_json.hpp|nlohmann|json|from_json.hpp|C/C++ Header|427|21|49
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-class_iterator.cpp|nlohmann|json|unit-class_iterator.cpp|C++|421|8|39
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-udt_macro.cpp|nlohmann|json|unit-udt_macro.cpp|C++|401|18|55
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-inspection.cpp|nlohmann|json|unit-inspection.cpp|C++|390|14|55
+.\src\_00\output\C++\nlohmann~json\include\nlohmann\detail\macro_scope.hpp|nlohmann|json|macro_scope.hpp|C/C++ Header|389|49|44
+.\src\_00\output\C++\nlohmann~json\include\nlohmann\detail\conversions\to_json.hpp|nlohmann|json|to_json.hpp|C/C++ Header|373|23|51
+.\src\_00\output\C++\nlohmann~json\include\nlohmann\detail\input\parser.hpp|nlohmann|json|parser.hpp|C/C++ Header|372|79|68
+.\src\_00\output\C++\nlohmann~json\include\nlohmann\detail\input\input_adapters.hpp|nlohmann|json|input_adapters.hpp|C/C++ Header|367|58|67
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-pointer_access.cpp|nlohmann|json|unit-pointer_access.cpp|C++|357|40|82
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-unicode1.cpp|nlohmann|json|unit-unicode1.cpp|C++|353|194|73
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\mkdocs.yml|nlohmann|json|mkdocs.yml|YAML|349|7|10
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-class_const_iterator.cpp|nlohmann|json|unit-class_const_iterator.cpp|C++|348|7|38
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\fifo_map\fifo_map.hpp|nlohmann|json|fifo_map.hpp|C/C++ Header|331|105|94
+.\src\_00\output\C++\nlohmann~json\tools\serve_header\serve_header.py|nlohmann|json|serve_header.py|Python|315|37|58
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-algorithms.cpp|nlohmann|json|unit-algorithms.cpp|C++|308|8|49
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-custom-base-class.cpp|nlohmann|json|unit-custom-base-class.cpp|C++|293|12|31
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\basic_json.md|nlohmann|json|basic_json.md|Markdown|290|0|112
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\FuzzerTracePC.cpp|nlohmann|json|FuzzerTracePC.cpp|C++|277|36|26
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\features\binary_values.md|nlohmann|json|binary_values.md|Markdown|276|0|96
+.\src\_00\output\C++\nlohmann~json\include\nlohmann\ordered_map.hpp|nlohmann|json|ordered_map.hpp|C/C++ Header|275|39|45
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\FuzzerTraceState.cpp|nlohmann|json|FuzzerTraceState.cpp|C++|270|19|36
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-ordered_map.cpp|nlohmann|json|unit-ordered_map.cpp|C++|253|13|44
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-serialization.cpp|nlohmann|json|unit-serialization.cpp|C++|253|10|34
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-alt-string.cpp|nlohmann|json|unit-alt-string.cpp|C++|246|21|55
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\index.md|nlohmann|json|index.md|Markdown|244|0|79
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\features\types\number_handling.md|nlohmann|json|number_handling.md|Markdown|243|0|85
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-unicode3.cpp|nlohmann|json|unit-unicode3.cpp|C++|242|38|44
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-unicode4.cpp|nlohmann|json|unit-unicode4.cpp|C++|242|38|44
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-unicode5.cpp|nlohmann|json|unit-unicode5.cpp|C++|242|38|44
+.\src\_00\output\C++\nlohmann~json\.github\workflows\ubuntu.yml|nlohmann|json|ubuntu.yml|YAML|229|0|19
+.\src\_00\output\C++\nlohmann~json\docs\docset\docSet.sql|nlohmann|json|docSet.sql|SQL|228|3|3
+.\src\_00\output\C++\nlohmann~json\nlohmann_json.natvis|nlohmann|json|nlohmann_json.natvis|XML|228|30|20
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-allocator.cpp|nlohmann|json|unit-allocator.cpp|C++|220|13|30
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\features\arbitrary_types.md|nlohmann|json|arbitrary_types.md|Markdown|212|0|62
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\FuzzerIOWindows.cpp|nlohmann|json|FuzzerIOWindows.cpp|C++|210|26|46
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-merge_patch.cpp|nlohmann|json|unit-merge_patch.cpp|C++|197|7|40
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\integration\migration_guide.md|nlohmann|json|migration_guide.md|Markdown|190|0|74
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-diagnostics.cpp|nlohmann|json|unit-diagnostics.cpp|C++|190|20|36
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\FuzzerMerge.cpp|nlohmann|json|FuzzerMerge.cpp|C++|188|51|22
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-reference_access.cpp|nlohmann|json|unit-reference_access.cpp|C++|186|27|34
+.\src\_00\output\C++\nlohmann~json\include\nlohmann\detail\exceptions.hpp|nlohmann|json|exceptions.hpp|C/C++ Header|184|41|32
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\FuzzerUtil.cpp|nlohmann|json|FuzzerUtil.cpp|C++|184|16|18
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-binary_formats.cpp|nlohmann|json|unit-binary_formats.cpp|C++|180|8|23
+.\src\_00\output\C++\nlohmann~json\tools\amalgamate\amalgamate.py|nlohmann|json|amalgamate.py|Python|180|66|53
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\FuzzerCorpus.h|nlohmann|json|FuzzerCorpus.h|C/C++ Header|176|17|24
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-class_lexer.cpp|nlohmann|json|unit-class_lexer.cpp|C++|174|26|26
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-readme.cpp|nlohmann|json|unit-readme.cpp|C++|174|74|56
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\features\types\index.md|nlohmann|json|index.md|Markdown|173|0|96
+.\src\_00\output\C++\nlohmann~json\include\nlohmann\detail\iterators\iteration_proxy.hpp|nlohmann|json|iteration_proxy.hpp|C/C++ Header|170|39|33
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\operator[].md|nlohmann|json|operator[].md|Markdown|168|0|73
+.\src\_00\output\C++\nlohmann~json\cmake\test.cmake|nlohmann|json|test.cmake|CMake|167|67|39
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-convenience.cpp|nlohmann|json|unit-convenience.cpp|C++|165|8|32
+.\src\_00\output\C++\nlohmann~json\Makefile|nlohmann|json|Makefile|make|162|66|56
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\at.md|nlohmann|json|at.md|Markdown|162|0|64
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\afl\afl_driver.cpp|nlohmann|json|afl_driver.cpp|C++|162|90|43
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|156|34|27
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-constructor2.cpp|nlohmann|json|unit-constructor2.cpp|C++|155|7|24
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\erase.md|nlohmann|json|erase.md|Markdown|153|0|58
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\FuzzerSHA1.cpp|nlohmann|json|FuzzerSHA1.cpp|C++|151|39|32
+.\src\_00\output\C++\nlohmann~json\CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|149|37|23
+.\src\_00\output\C++\nlohmann~json\include\nlohmann\thirdparty\hedley\hedley_undef.hpp|nlohmann|json|hedley_undef.hpp|C/C++ Header|149|7|2
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\features\binary_formats\cbor.md|nlohmann|json|cbor.md|Markdown|147|0|34
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\features\binary_formats\bjdata.md|nlohmann|json|bjdata.md|Markdown|146|0|48
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\FuzzerUtilWindows.cpp|nlohmann|json|FuzzerUtilWindows.cpp|C++|145|11|26
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\parse.md|nlohmann|json|parse.md|Markdown|143|0|71
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\insert.md|nlohmann|json|insert.md|Markdown|130|0|49
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\scripts\check_structure.py|nlohmann|json|check_structure.py|Python|130|15|34
+.\src\_00\output\C++\nlohmann~json\include\nlohmann\detail\meta\is_sax.hpp|nlohmann|json|is_sax.hpp|C/C++ Header|128|7|24
+.\src\_00\output\C++\nlohmann~json\tests\benchmarks\src\benchmarks.cpp|nlohmann|json|benchmarks.cpp|C++|128|22|27
+.\src\_00\output\C++\nlohmann~json\LICENSES\GPL-3.0-only.txt|nlohmann|json|GPL-3.0-only.txt|Text|127|0|105
+.\src\_00\output\C++\nlohmann~json\docs\examples\basic_json__CompatibleType.cpp|nlohmann|json|basic_json__CompatibleType.cpp|C++|127|48|39
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\FuzzerInternal.h|nlohmann|json|FuzzerInternal.h|C/C++ Header|125|22|35
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\integration\package_managers.md|nlohmann|json|package_managers.md|Markdown|122|0|76
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\operator_eq.md|nlohmann|json|operator_eq.md|Markdown|120|0|48
+.\src\_00\output\C++\nlohmann~json\.github\workflows\windows.yml|nlohmann|json|windows.yml|YAML|117|0|17
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\value.md|nlohmann|json|value.md|Markdown|115|0|44
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\features\binary_formats\messagepack.md|nlohmann|json|messagepack.md|Markdown|115|0|28
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\FuzzerFlags.def|nlohmann|json|FuzzerFlags.def|Windows Module Definition|114|0|1
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\FuzzerTracePC.h|nlohmann|json|FuzzerTracePC.h|C/C++ Header|114|17|27
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\macros\json_disable_enum_serialization.md|nlohmann|json|json_disable_enum_serialization.md|Markdown|113|0|39
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\swap.md|nlohmann|json|swap.md|Markdown|111|0|46
+.\src\_00\output\C++\nlohmann~json\tests\CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|111|43|30
+.\src\_00\output\C++\nlohmann~json\include\nlohmann\detail\string_concat.hpp|nlohmann|json|string_concat.hpp|C/C++ Header|110|8|28
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\features\iterators.md|nlohmann|json|iterators.md|Markdown|109|0|46
+.\src\_00\output\C++\nlohmann~json\include\nlohmann\detail\output\output_adapters.hpp|nlohmann|json|output_adapters.hpp|C/C++ Header|109|12|26
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\macros\nlohmann_define_type_intrusive.md|nlohmann|json|nlohmann_define_type_intrusive.md|Markdown|108|0|48
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\macros\nlohmann_define_type_non_intrusive.md|nlohmann|json|nlohmann_define_type_non_intrusive.md|Markdown|108|0|49
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\integration\cmake.md|nlohmann|json|cmake.md|Markdown|108|0|64
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\home\faq.md|nlohmann|json|faq.md|Markdown|106|0|74
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-32bit.cpp|nlohmann|json|unit-32bit.cpp|C++|104|7|23
+.\src\_00\output\C++\nlohmann~json\docs\examples\sax_parse.cpp|nlohmann|json|sax_parse.cpp|C++|103|8|20
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\update.md|nlohmann|json|update.md|Markdown|103|0|39
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\FuzzerUtilDarwin.cpp|nlohmann|json|FuzzerUtilDarwin.cpp|C++|103|36|13
+.\src\_00\output\C++\nlohmann~json\single_include\nlohmann\json_fwd.hpp|nlohmann|json|json_fwd.hpp|C/C++ Header|102|42|32
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\features\json_pointer.md|nlohmann|json|json_pointer.md|Markdown|99|0|27
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\features\macros.md|nlohmann|json|macros.md|Markdown|99|0|68
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-concepts.cpp|nlohmann|json|unit-concepts.cpp|C++|99|27|24
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\get.md|nlohmann|json|get.md|Markdown|97|0|39
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-user_defined_input.cpp|nlohmann|json|unit-user_defined_input.cpp|C++|97|8|25
+.\src\_00\output\C++\nlohmann~json\include\nlohmann\detail\hash.hpp|nlohmann|json|hash.hpp|C/C++ Header|93|17|19
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\features\parsing\parse_exceptions.md|nlohmann|json|parse_exceptions.md|Markdown|92|0|29
+.\src\_00\output\C++\nlohmann~json\.github\ISSUE_TEMPLATE\bug.yaml|nlohmann|json|bug.yaml|YAML|91|0|2
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\features\binary_formats\ubjson.md|nlohmann|json|ubjson.md|Markdown|91|0|35
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\FuzzerUtilPosix.cpp|nlohmann|json|FuzzerUtilPosix.cpp|C++|91|12|14
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\FuzzerIO.cpp|nlohmann|json|FuzzerIO.cpp|C++|90|11|16
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\imapdl\filterbr.py|nlohmann|json|filterbr.py|Python|90|8|11
+.\src\_00\output\C++\nlohmann~json\include\nlohmann\detail\iterators\primitive_iterator.hpp|nlohmann|json|primitive_iterator.hpp|C/C++ Header|89|20|23
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\FuzzerDictionary.h|nlohmann|json|FuzzerDictionary.h|C/C++ Header|89|16|19
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\features\assertions.md|nlohmann|json|assertions.md|Markdown|87|0|44
+.\src\_00\output\C++\nlohmann~json\docs\examples\sax_parse__binary.cpp|nlohmann|json|sax_parse__binary.cpp|C++|86|8|20
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\from_cbor.md|nlohmann|json|from_cbor.md|Markdown|82|0|35
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\object_t.md|nlohmann|json|object_t.md|Markdown|82|0|32
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\features\element_access\unchecked_access.md|nlohmann|json|unchecked_access.md|Markdown|82|0|30
+.\src\_00\output\C++\nlohmann~json\include\nlohmann\detail\meta\cpp_future.hpp|nlohmann|json|cpp_future.hpp|C/C++ Header|81|59|31
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-wstring.cpp|nlohmann|json|unit-wstring.cpp|C++|80|8|11
+.\src\_00\output\C++\nlohmann~json\docs\examples\json_base_class_t.cpp|nlohmann|json|json_base_class_t.cpp|C++|79|2|7
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\contains.md|nlohmann|json|contains.md|Markdown|79|0|39
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\sax_parse.md|nlohmann|json|sax_parse.md|Markdown|79|0|36
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\features\object_order.md|nlohmann|json|object_order.md|Markdown|79|0|30
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\FuzzerMutate.h|nlohmann|json|FuzzerMutate.h|C/C++ Header|77|39|29
+.\src\_00\output\C++\nlohmann~json\.clang-format|nlohmann|json|.clang-format|YAML|76|8|0
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\from_msgpack.md|nlohmann|json|from_msgpack.md|Markdown|76|0|33
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\json_pointer\operator_eq.md|nlohmann|json|operator_eq.md|Markdown|76|0|37
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\from_bson.md|nlohmann|json|from_bson.md|Markdown|75|0|35
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\accept.md|nlohmann|json|accept.md|Markdown|74|0|39
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\from_ubjson.md|nlohmann|json|from_ubjson.md|Markdown|73|0|33
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\operator+=.md|nlohmann|json|operator+=.md|Markdown|73|0|37
+.\src\_00\output\C++\nlohmann~json\.github\workflows\comment_check_amalgamation.yml|nlohmann|json|comment_check_amalgamation.yml|YAML|72|0|3
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\json_pointer\operator_ne.md|nlohmann|json|operator_ne.md|Markdown|72|0|37
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\features\binary_formats\bson.md|nlohmann|json|bson.md|Markdown|72|0|24
+.\src\_00\output\C++\nlohmann~json\include\nlohmann\detail\abi_macros.hpp|nlohmann|json|abi_macros.hpp|C/C++ Header|72|11|17
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\push_back.md|nlohmann|json|push_back.md|Markdown|71|0|35
+.\src\_00\output\C++\nlohmann~json\.github\external_ci\appveyor.yml|nlohmann|json|appveyor.yml|YAML|70|7|14
+.\src\_00\output\C++\nlohmann~json\tools\serve_header\README.md|nlohmann|json|README.md|Markdown|70|0|21
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\items.md|nlohmann|json|items.md|Markdown|69|0|31
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\operator_spaceship.md|nlohmann|json|operator_spaceship.md|Markdown|68|0|32
+.\src\_00\output\C++\nlohmann~json\docs\docset\Makefile|nlohmann|json|Makefile|make|67|11|9
+.\src\_00\output\C++\nlohmann~json\docs\examples\at__json_pointer.cpp|nlohmann|json|at__json_pointer.cpp|C++|67|23|13
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\features\namespace.md|nlohmann|json|namespace.md|Markdown|67|0|26
+.\src\_00\output\C++\nlohmann~json\include\nlohmann\detail\iterators\json_reverse_iterator.hpp|nlohmann|json|json_reverse_iterator.hpp|C/C++ Header|67|40|23
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-no-mem-leak-on-adl-serialize.cpp|nlohmann|json|unit-no-mem-leak-on-adl-serialize.cpp|C++|67|10|9
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\features\element_access\checked_access.md|nlohmann|json|checked_access.md|Markdown|66|0|25
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\operator_lt.md|nlohmann|json|operator_lt.md|Markdown|65|0|31
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\features\comments.md|nlohmann|json|comments.md|Markdown|65|0|18
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\FuzzerIOPosix.cpp|nlohmann|json|FuzzerIOPosix.cpp|C++|65|10|13
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\operator_ne.md|nlohmann|json|operator_ne.md|Markdown|64|0|34
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\from_bjdata.md|nlohmann|json|from_bjdata.md|Markdown|63|0|30
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\macros\json_use_global_udls.md|nlohmann|json|json_use_global_udls.md|Markdown|63|0|35
+.\src\_00\output\C++\nlohmann~json\include\nlohmann\byte_container_with_subtype.hpp|nlohmann|json|byte_container_with_subtype.hpp|C/C++ Header|63|22|18
+.\src\_00\output\C++\nlohmann~json\tools\gdb_pretty_printer\README.md|nlohmann|json|README.md|Markdown|63|0|15
+.\src\_00\output\C++\nlohmann~json\.clang-tidy|nlohmann|json|.clang-tidy|YAML|62|1|3
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\features\parsing\parser_callbacks.md|nlohmann|json|parser_callbacks.md|Markdown|62|0|21
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\binary_t.md|nlohmann|json|binary_t.md|Markdown|60|0|29
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\value_t.md|nlohmann|json|value_t.md|Markdown|60|0|21
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\FuzzerDefs.h|nlohmann|json|FuzzerDefs.h|C/C++ Header|60|12|17
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\operator_ltlt.md|nlohmann|json|operator_ltlt.md|Markdown|59|0|28
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\FuzzerValueBitMap.h|nlohmann|json|FuzzerValueBitMap.h|C/C++ Header|59|16|12
+.\src\_00\output\C++\nlohmann~json\.github\workflows\check_amalgamation.yml|nlohmann|json|check_amalgamation.yml|YAML|58|0|12
+.\src\_00\output\C++\nlohmann~json\.github\workflows\macos.yml|nlohmann|json|macos.yml|YAML|58|0|9
+.\src\_00\output\C++\nlohmann~json\tests\fuzzing.md|nlohmann|json|fuzzing.md|Markdown|58|0|23
+.\src\_00\output\C++\nlohmann~json\include\nlohmann\detail\value_t.hpp|nlohmann|json|value_t.hpp|C/C++ Header|57|45|16
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-hash.cpp|nlohmann|json|unit-hash.cpp|C++|57|29|27
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\find.md|nlohmann|json|find.md|Markdown|56|0|30
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\operator_le.md|nlohmann|json|operator_le.md|Markdown|56|0|31
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\macros\json_assert.md|nlohmann|json|json_assert.md|Markdown|56|0|28
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\macros\nlohmann_json_serialize_enum.md|nlohmann|json|nlohmann_json_serialize_enum.md|Markdown|56|0|29
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-byte_container_with_subtype.cpp|nlohmann|json|unit-byte_container_with_subtype.cpp|C++|56|8|13
+.\src\_00\output\C++\nlohmann~json\docs\examples\at__json_pointer_const.cpp|nlohmann|json|at__json_pointer_const.cpp|C++|55|16|9
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\operator_ge.md|nlohmann|json|operator_ge.md|Markdown|55|0|31
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\operator_gt.md|nlohmann|json|operator_gt.md|Markdown|55|0|31
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\macros\json_throw_user.md|nlohmann|json|json_throw_user.md|Markdown|55|0|20
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\ordered_map.md|nlohmann|json|ordered_map.md|Markdown|55|0|22
+.\src\_00\output\C++\nlohmann~json\include\nlohmann\detail\json_ref.hpp|nlohmann|json|json_ref.hpp|C/C++ Header|55|8|15
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\operator_ValueType.md|nlohmann|json|operator_ValueType.md|Markdown|54|0|28
+.\src\_00\output\C++\nlohmann~json\BUILD.bazel|nlohmann|json|BUILD.bazel|Starlark|53|0|0
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\dump.md|nlohmann|json|dump.md|Markdown|53|0|26
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\parser_callback_t.md|nlohmann|json|parser_callback_t.md|Markdown|52|0|21
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\features\parsing\sax_interface.md|nlohmann|json|sax_interface.md|Markdown|52|0|21
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\FuzzerOptions.h|nlohmann|json|FuzzerOptions.h|C/C++ Header|52|10|6
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\exception.md|nlohmann|json|exception.md|Markdown|51|0|24
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\number_integer_t.md|nlohmann|json|number_integer_t.md|Markdown|51|0|25
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\number_unsigned_t.md|nlohmann|json|number_unsigned_t.md|Markdown|51|0|25
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\count.md|nlohmann|json|count.md|Markdown|50|0|28
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\parse_error.md|nlohmann|json|parse_error.md|Markdown|50|0|24
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\macros\json_use_legacy_discarded_value_comparison.md|nlohmann|json|json_use_legacy_discarded_value_comparison.md|Markdown|50|0|27
+.\src\_00\output\C++\nlohmann~json\docs\examples\get_to.cpp|nlohmann|json|get_to.cpp|C++|49|3|7
+.\src\_00\output\C++\nlohmann~json\docs\examples\operator__ValueType.cpp|nlohmann|json|operator__ValueType.cpp|C++|49|4|7
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\adl_serializer\from_json.md|nlohmann|json|from_json.md|Markdown|49|0|24
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\patch.md|nlohmann|json|patch.md|Markdown|49|0|24
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\macros\json_diagnostics.md|nlohmann|json|json_diagnostics.md|Markdown|49|0|27
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\requirements.txt|nlohmann|json|requirements.txt|Text|49|0|0
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-noexcept.cpp|nlohmann|json|unit-noexcept.cpp|C++|49|14|11
+.\src\_00\output\C++\nlohmann~json\docs\examples\nlohmann_define_type_intrusive_explicit.cpp|nlohmann|json|nlohmann_define_type_intrusive_explicit.cpp|C++|48|3|9
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\patch_inplace.md|nlohmann|json|patch_inplace.md|Markdown|48|0|22
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\FuzzerExtFunctions.def|nlohmann|json|FuzzerExtFunctions.def|Windows Module Definition|48|0|2
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\CallerCalleeTest.cpp|nlohmann|json|CallerCalleeTest.cpp|C++|48|5|6
+.\src\_00\output\C++\nlohmann~json\cmake\download_test_data.cmake|nlohmann|json|download_test_data.cmake|CMake|47|5|4
+.\src\_00\output\C++\nlohmann~json\docs\examples\nlohmann_json_serialize_enum.cpp|nlohmann|json|nlohmann_json_serialize_enum.cpp|C++|47|4|8
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\number_float_t.md|nlohmann|json|number_float_t.md|Markdown|47|0|23
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\features\enum_conversion.md|nlohmann|json|enum_conversion.md|Markdown|47|0|14
+.\src\_00\output\C++\nlohmann~json\include\nlohmann\detail\meta\detected.hpp|nlohmann|json|detected.hpp|C/C++ Header|47|8|15
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\SwitchTest.cpp|nlohmann|json|SwitchTest.cpp|C++|47|5|6
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\out_of_range.md|nlohmann|json|out_of_range.md|Markdown|46|0|22
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\to_bjdata.md|nlohmann|json|to_bjdata.md|Markdown|46|0|24
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\to_ubjson.md|nlohmann|json|to_ubjson.md|Markdown|46|0|24
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\type_error.md|nlohmann|json|type_error.md|Markdown|46|0|22
+.\src\_00\output\C++\nlohmann~json\docs\examples\to_bjdata.cpp|nlohmann|json|to_bjdata.cpp|C++|45|9|10
+.\src\_00\output\C++\nlohmann~json\docs\examples\to_ubjson.cpp|nlohmann|json|to_ubjson.cpp|C++|45|9|10
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\empty.md|nlohmann|json|empty.md|Markdown|45|0|21
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\invalid_iterator.md|nlohmann|json|invalid_iterator.md|Markdown|45|0|22
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\is_discarded.md|nlohmann|json|is_discarded.md|Markdown|45|0|27
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\is_primitive.md|nlohmann|json|is_primitive.md|Markdown|45|0|24
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\other_error.md|nlohmann|json|other_error.md|Markdown|45|0|22
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-ordered_json.cpp|nlohmann|json|unit-ordered_json.cpp|C++|45|11|15
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\CustomCrossOverTest.cpp|nlohmann|json|CustomCrossOverTest.cpp|C++|45|4|14
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\array_t.md|nlohmann|json|array_t.md|Markdown|44|0|24
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\merge_patch.md|nlohmann|json|merge_patch.md|Markdown|44|0|19
+.\src\_00\output\C++\nlohmann~json\docs\examples\nlohmann_define_type_intrusive_with_default_explicit.cpp|nlohmann|json|nlohmann_define_type_intrusive_with_default_explicit.cpp|C++|43|3|9
+.\src\_00\output\C++\nlohmann~json\docs\examples\parse__istream__parser_callback_t.cpp|nlohmann|json|parse__istream__parser_callback_t.cpp|C++|43|7|7
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\binary.md|nlohmann|json|binary.md|Markdown|43|0|23
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\json_pointer\operator_slash.md|nlohmann|json|operator_slash.md|Markdown|43|0|21
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\macros\index.md|nlohmann|json|index.md|Markdown|43|1|18
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|43|1|1
+.\src\_00\output\C++\nlohmann~json\.github\CONTRIBUTING.md|nlohmann|json|CONTRIBUTING.md|Markdown|42|0|27
+.\src\_00\output\C++\nlohmann~json\docs\examples\nlohmann_define_type_non_intrusive_explicit.cpp|nlohmann|json|nlohmann_define_type_non_intrusive_explicit.cpp|C++|42|3|8
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\string_t.md|nlohmann|json|string_t.md|Markdown|42|0|24
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\macros\nlohmann_json_namespace_begin.md|nlohmann|json|nlohmann_json_namespace_begin.md|Markdown|42|0|19
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\operator_literal_json_pointer.md|nlohmann|json|operator_literal_json_pointer.md|Markdown|42|0|22
+.\src\_00\output\C++\nlohmann~json\include\nlohmann\detail\iterators\iterator_traits.hpp|nlohmann|json|iterator_traits.hpp|C/C++ Header|42|9|10
+.\src\_00\output\C++\nlohmann~json\LICENSES\Apache-2.0.txt|nlohmann|json|Apache-2.0.txt|Text|41|0|32
+.\src\_00\output\C++\nlohmann~json\docs\examples\from_json__non_default_constructible.cpp|nlohmann|json|from_json__non_default_constructible.cpp|C++|41|4|8
+.\src\_00\output\C++\nlohmann~json\docs\examples\get__ValueType_const.cpp|nlohmann|json|get__ValueType_const.cpp|C++|41|3|6
+.\src\_00\output\C++\nlohmann~json\docs\examples\nlohmann_define_type_non_intrusive_with_default_explicit.cpp|nlohmann|json|nlohmann_define_type_non_intrusive_with_default_explicit.cpp|C++|41|3|9
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\to_string.md|nlohmann|json|to_string.md|Markdown|41|0|24
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\json_pointer\operator_slasheq.md|nlohmann|json|operator_slasheq.md|Markdown|41|0|20
+.\src\_00\output\C++\nlohmann~json\tools\amalgamate\README.md|nlohmann|json|README.md|Markdown|41|0|25
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\back.md|nlohmann|json|back.md|Markdown|40|0|25
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\get_ref.md|nlohmann|json|get_ref.md|Markdown|40|0|24
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\max_size.md|nlohmann|json|max_size.md|Markdown|40|0|20
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\operator_literal_json.md|nlohmann|json|operator_literal_json.md|Markdown|40|0|21
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\features\binary_formats\index.md|nlohmann|json|index.md|Markdown|40|0|12
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\clear.md|nlohmann|json|clear.md|Markdown|39|0|19
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\get_to.md|nlohmann|json|get_to.md|Markdown|39|0|19
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\is_structured.md|nlohmann|json|is_structured.md|Markdown|39|0|24
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\object.md|nlohmann|json|object.md|Markdown|39|0|24
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\to_cbor.md|nlohmann|json|to_cbor.md|Markdown|39|0|22
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\operator_gtgt.md|nlohmann|json|operator_gtgt.md|Markdown|39|0|25
+.\src\_00\output\C++\nlohmann~json\docs\examples\dump.cpp|nlohmann|json|dump.cpp|C++|38|3|7
+.\src\_00\output\C++\nlohmann~json\docs\examples\json_pointer.cpp|nlohmann|json|json_pointer.cpp|C++|38|4|5
+.\src\_00\output\C++\nlohmann~json\docs\examples\parse__string__parser_callback_t.cpp|nlohmann|json|parse__string__parser_callback_t.cpp|C++|38|5|5
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\diff.md|nlohmann|json|diff.md|Markdown|38|0|24
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\get_ptr.md|nlohmann|json|get_ptr.md|Markdown|38|0|22
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\size.md|nlohmann|json|size.md|Markdown|38|0|19
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\macros\json_use_implicit_conversions.md|nlohmann|json|json_use_implicit_conversions.md|Markdown|38|0|21
+.\src\_00\output\C++\nlohmann~json\tests\src\fuzzer-parse_bjdata.cpp|nlohmann|json|fuzzer-parse_bjdata.cpp|C++|38|35|12
+.\src\_00\output\C++\nlohmann~json\tests\src\fuzzer-parse_ubjson.cpp|nlohmann|json|fuzzer-parse_ubjson.cpp|C++|38|35|12
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-type_traits.cpp|nlohmann|json|unit-type_traits.cpp|C++|38|9|9
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-udl.cpp|nlohmann|json|unit-udl.cpp|C++|38|7|12
+.\src\_00\output\C++\nlohmann~json\docs\examples\nlohmann_define_type_intrusive_macro.cpp|nlohmann|json|nlohmann_define_type_intrusive_macro.cpp|C++|37|3|8
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\array.md|nlohmann|json|array.md|Markdown|37|0|23
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\operator_value_t.md|nlohmann|json|operator_value_t.md|Markdown|37|0|17
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\to_bson.md|nlohmann|json|to_bson.md|Markdown|37|0|22
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\to_msgpack.md|nlohmann|json|to_msgpack.md|Markdown|37|0|22
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\type.md|nlohmann|json|type.md|Markdown|37|0|17
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\type_name.md|nlohmann|json|type_name.md|Markdown|37|0|17
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\unflatten.md|nlohmann|json|unflatten.md|Markdown|37|0|24
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\json_pointer\index.md|nlohmann|json|index.md|Markdown|37|0|15
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\SimpleCmpTest.cpp|nlohmann|json|SimpleCmpTest.cpp|C++|37|3|6
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\emplace.md|nlohmann|json|emplace.md|Markdown|36|0|20
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\input_format_t.md|nlohmann|json|input_format_t.md|Markdown|36|0|16
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\is_number.md|nlohmann|json|is_number.md|Markdown|36|0|20
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\meta.md|nlohmann|json|meta.md|Markdown|36|0|20
+.\src\_00\output\C++\nlohmann~json\tests\src\fuzzer-parse_bson.cpp|nlohmann|json|fuzzer-parse_bson.cpp|C++|36|27|11
+.\src\_00\output\C++\nlohmann~json\tools\generate_natvis\nlohmann_json.natvis.j2|nlohmann|json|nlohmann_json.natvis.j2|Jinja Template|36|0|4
+.\src\_00\output\C++\nlohmann~json\docs\examples\contains__json_pointer.cpp|nlohmann|json|contains__json_pointer.cpp|C++|35|3|5
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\front.md|nlohmann|json|front.md|Markdown|35|0|23
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\features\parsing\json_lines.md|nlohmann|json|json_lines.md|Markdown|35|0|14
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\FuzzerCrossOver.cpp|nlohmann|json|FuzzerCrossOver.cpp|C++|35|13|4
+.\src\_00\output\C++\nlohmann~json\tools\macro_builder\main.cpp|nlohmann|json|main.cpp|C++|35|0|8
+.\src\_00\output\C++\nlohmann~json\docs\examples\at__keytype.c++17.cpp|nlohmann|json|at__keytype.c++17.cpp|C++|34|8|7
+.\src\_00\output\C++\nlohmann~json\docs\examples\operator_spaceship__const_reference.c++20.cpp|nlohmann|json|operator_spaceship__const_reference.c++20.cpp|C++|34|2|4
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\emplace_back.md|nlohmann|json|emplace_back.md|Markdown|34|0|20
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\std_swap.md|nlohmann|json|std_swap.md|Markdown|34|0|17
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\json_sax\index.md|nlohmann|json|index.md|Markdown|34|0|10
+.\src\_00\output\C++\nlohmann~json\docs\examples\operator_spaceship__scalartype.c++20.cpp|nlohmann|json|operator_spaceship__scalartype.c++20.cpp|C++|33|2|5
+.\src\_00\output\C++\nlohmann~json\include\nlohmann\adl_serializer.hpp|nlohmann|json|adl_serializer.hpp|C/C++ Header|33|14|8
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\FuzzerExtFunctionsWeakAlias.cpp|nlohmann|json|FuzzerExtFunctionsWeakAlias.cpp|C++|33|11|12
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\FuzzerUtil.h|nlohmann|json|FuzzerUtil.h|C/C++ Header|33|13|26
+.\src\_00\output\C++\nlohmann~json\.github\workflows\codeql-analysis.yml|nlohmann|json|codeql-analysis.yml|YAML|32|3|9
+.\src\_00\output\C++\nlohmann~json\docs\examples\at__keytype_const.c++17.cpp|nlohmann|json|at__keytype_const.c++17.cpp|C++|32|6|5
+.\src\_00\output\C++\nlohmann~json\docs\examples\at__object_t_key_type.cpp|nlohmann|json|at__object_t_key_type.cpp|C++|32|8|7
+.\src\_00\output\C++\nlohmann~json\docs\examples\merge_patch.cpp|nlohmann|json|merge_patch.cpp|C++|32|4|5
+.\src\_00\output\C++\nlohmann~json\include\nlohmann\json_fwd.hpp|nlohmann|json|json_fwd.hpp|C/C++ Header|32|30|13
+.\src\_00\output\C++\nlohmann~json\tests\src\fuzzer-parse_cbor.cpp|nlohmann|json|fuzzer-parse_cbor.cpp|C++|32|27|10
+.\src\_00\output\C++\nlohmann~json\tests\src\fuzzer-parse_msgpack.cpp|nlohmann|json|fuzzer-parse_msgpack.cpp|C++|32|27|10
+.\src\_00\output\C++\nlohmann~json\tools\generate_natvis\generate_natvis.py|nlohmann|json|generate_natvis.py|Python|32|1|8
+.\src\_00\output\C++\nlohmann~json\.github\workflows\publish_documentation.yml|nlohmann|json|publish_documentation.yml|YAML|31|2|8
+.\src\_00\output\C++\nlohmann~json\docs\examples\nlohmann_define_type_intrusive_with_default_macro.cpp|nlohmann|json|nlohmann_define_type_intrusive_with_default_macro.cpp|C++|31|3|8
+.\src\_00\output\C++\nlohmann~json\docs\examples\nlohmann_define_type_non_intrusive_macro.cpp|nlohmann|json|nlohmann_define_type_non_intrusive_macro.cpp|C++|31|3|7
+.\src\_00\output\C++\nlohmann~json\docs\examples\operator__value_t.cpp|nlohmann|json|operator__value_t.cpp|C++|31|3|4
+.\src\_00\output\C++\nlohmann~json\docs\examples\ordered_map.cpp|nlohmann|json|ordered_map.cpp|C++|31|5|7
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\byte_container_with_subtype\byte_container_with_subtype.md|nlohmann|json|byte_container_with_subtype.md|Markdown|31|0|15
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\json_pointer\operator_string_t.md|nlohmann|json|operator_string_t.md|Markdown|31|0|17
+.\src\_00\output\C++\nlohmann~json\include\nlohmann\detail\macro_unscope.hpp|nlohmann|json|macro_unscope.hpp|C/C++ Header|31|9|5
+.\src\_00\output\C++\nlohmann~json\include\nlohmann\detail\string_escape.hpp|nlohmann|json|string_escape.hpp|C/C++ Header|31|31|10
+.\src\_00\output\C++\nlohmann~json\.github\labeler.yml|nlohmann|json|labeler.yml|YAML|30|0|8
+.\src\_00\output\C++\nlohmann~json\docs\examples\README.cpp|nlohmann|json|README.cpp|C++|30|4|5
+.\src\_00\output\C++\nlohmann~json\docs\examples\at__object_t_key_type_const.cpp|nlohmann|json|at__object_t_key_type_const.cpp|C++|30|6|5
+.\src\_00\output\C++\nlohmann~json\docs\examples\from_json__default_constructible.cpp|nlohmann|json|from_json__default_constructible.cpp|C++|30|1|6
+.\src\_00\output\C++\nlohmann~json\docs\examples\json_pointer__to_string.cpp|nlohmann|json|json_pointer__to_string.cpp|C++|30|1|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\nlohmann_define_type_intrusive_only_serialize_explicit.cpp|nlohmann|json|nlohmann_define_type_intrusive_only_serialize_explicit.cpp|C++|30|2|6
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\flatten.md|nlohmann|json|flatten.md|Markdown|30|0|20
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\macros\json_has_filesystem.md|nlohmann|json|json_has_filesystem.md|Markdown|30|0|13
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\features\json_patch.md|nlohmann|json|json_patch.md|Markdown|30|0|17
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\FuzzerExtFunctionsDlsym.cpp|nlohmann|json|FuzzerExtFunctionsDlsym.cpp|C++|30|13|9
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\CustomMutatorTest.cpp|nlohmann|json|CustomMutatorTest.cpp|C++|30|3|5
+.\src\_00\output\C++\nlohmann~json\docs\examples\back.cpp|nlohmann|json|back.cpp|C++|29|5|4
+.\src\_00\output\C++\nlohmann~json\docs\examples\nlohmann_define_type_non_intrusive_with_default_macro.cpp|nlohmann|json|nlohmann_define_type_non_intrusive_with_default_macro.cpp|C++|29|3|8
+.\src\_00\output\C++\nlohmann~json\docs\examples\nlohmann_json_namespace_begin.c++17.cpp|nlohmann|json|nlohmann_json_namespace_begin.c++17.cpp|C++|29|1|3
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\cbor_tag_handler_t.md|nlohmann|json|cbor_tag_handler_t.md|Markdown|29|0|13
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\error_handler_t.md|nlohmann|json|error_handler_t.md|Markdown|29|0|13
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\is_number_integer.md|nlohmann|json|is_number_integer.md|Markdown|29|0|18
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\operator=.md|nlohmann|json|operator=.md|Markdown|29|0|14
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\macros\nlohmann_json_namespace_no_version.md|nlohmann|json|nlohmann_json_namespace_no_version.md|Markdown|29|0|16
+.\src\_00\output\C++\nlohmann~json\tests\src\fuzzer-parse_json.cpp|nlohmann|json|fuzzer-parse_json.cpp|C++|29|29|12
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-disabled_exceptions.cpp|nlohmann|json|unit-disabled_exceptions.cpp|C++|29|12|11
+.\src\_00\output\C++\nlohmann~json\.github\workflows\cifuzz.yml|nlohmann|json|cifuzz.yml|YAML|28|0|2
+.\src\_00\output\C++\nlohmann~json\docs\examples\parse__allow_exceptions.cpp|nlohmann|json|parse__allow_exceptions.cpp|C++|28|3|5
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\adl_serializer\to_json.md|nlohmann|json|to_json.md|Markdown|28|0|15
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\is_number_float.md|nlohmann|json|is_number_float.md|Markdown|28|0|18
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\is_number_unsigned.md|nlohmann|json|is_number_unsigned.md|Markdown|28|0|18
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\json_base_class_t.md|nlohmann|json|json_base_class_t.md|Markdown|28|0|17
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\json_sax\parse_error.md|nlohmann|json|parse_error.md|Markdown|28|0|16
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\macros\json_has_cpp_11.md|nlohmann|json|json_has_cpp_11.md|Markdown|28|0|13
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\macros\json_noexception.md|nlohmann|json|json_noexception.md|Markdown|28|0|17
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\home\code_of_conduct.md|nlohmann|json|code_of_conduct.md|Markdown|28|0|18
+.\src\_00\output\C++\nlohmann~json\tests\reports\2016-09-09-nativejson_benchmark\README.md|nlohmann|json|README.md|Markdown|28|0|3
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\FuzzerIO.h|nlohmann|json|FuzzerIO.h|C/C++ Header|28|13|23
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\SimpleHashTest.cpp|nlohmann|json|SimpleHashTest.cpp|C++|28|8|4
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\Switch2Test.cpp|nlohmann|json|Switch2Test.cpp|C++|28|3|4
+.\src\_00\output\C++\nlohmann~json\docs\examples\at__size_type.cpp|nlohmann|json|at__size_type.cpp|C++|27|8|7
+.\src\_00\output\C++\nlohmann~json\docs\examples\clear.cpp|nlohmann|json|clear.cpp|C++|27|3|4
+.\src\_00\output\C++\nlohmann~json\docs\examples\flatten.cpp|nlohmann|json|flatten.cpp|C++|27|2|3
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\json_pointer\json_pointer.md|nlohmann|json|json_pointer.md|Markdown|27|0|14
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\SwapCmpTest.cpp|nlohmann|json|SwapCmpTest.cpp|C++|27|3|4
+.\src\_00\output\C++\nlohmann~json\tools\gdb_pretty_printer\nlohmann-json.py|nlohmann|json|nlohmann-json.py|Python|27|0|5
+.\src\_00\output\C++\nlohmann~json\docs\examples\diff.cpp|nlohmann|json|diff.cpp|C++|26|5|6
+.\src\_00\output\C++\nlohmann~json\docs\examples\nlohmann_json_serialize_enum_2.cpp|nlohmann|json|nlohmann_json_serialize_enum_2.cpp|C++|26|2|5
+.\src\_00\output\C++\nlohmann~json\docs\examples\other_error.cpp|nlohmann|json|other_error.cpp|C++|26|2|2
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\adl_serializer\index.md|nlohmann|json|index.md|Markdown|26|0|9
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\get_binary.md|nlohmann|json|get_binary.md|Markdown|26|0|19
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\json_serializer.md|nlohmann|json|json_serializer.md|Markdown|26|0|15
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\rend.md|nlohmann|json|rend.md|Markdown|26|0|17
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\byte_container_with_subtype\subtype.md|nlohmann|json|subtype.md|Markdown|26|0|16
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\macros\nlohmann_json_namespace.md|nlohmann|json|nlohmann_json_namespace.md|Markdown|26|0|15
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\macros\nlohmann_json_version_major.md|nlohmann|json|nlohmann_json_version_major.md|Markdown|26|0|14
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\FuzzerExtFunctionsWeak.cpp|nlohmann|json|FuzzerExtFunctionsWeak.cpp|C++|26|15|12
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\StrcmpTest.cpp|nlohmann|json|StrcmpTest.cpp|C++|26|3|3
+.\src\_00\output\C++\nlohmann~json\docs\Makefile|nlohmann|json|Makefile|make|25|10|10
+.\src\_00\output\C++\nlohmann~json\docs\examples\at__size_type_const.cpp|nlohmann|json|at__size_type_const.cpp|C++|25|6|5
+.\src\_00\output\C++\nlohmann~json\docs\examples\empty.cpp|nlohmann|json|empty.cpp|C++|25|2|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\is_array.cpp|nlohmann|json|is_array.cpp|C++|25|2|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\is_binary.cpp|nlohmann|json|is_binary.cpp|C++|25|2|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\is_boolean.cpp|nlohmann|json|is_boolean.cpp|C++|25|2|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\is_discarded.cpp|nlohmann|json|is_discarded.cpp|C++|25|2|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\is_null.cpp|nlohmann|json|is_null.cpp|C++|25|2|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\is_number.cpp|nlohmann|json|is_number.cpp|C++|25|2|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\is_number_float.cpp|nlohmann|json|is_number_float.cpp|C++|25|2|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\is_number_integer.cpp|nlohmann|json|is_number_integer.cpp|C++|25|2|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\is_number_unsigned.cpp|nlohmann|json|is_number_unsigned.cpp|C++|25|2|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\is_object.cpp|nlohmann|json|is_object.cpp|C++|25|2|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\is_primitive.cpp|nlohmann|json|is_primitive.cpp|C++|25|2|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\is_string.cpp|nlohmann|json|is_string.cpp|C++|25|2|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\is_structured.cpp|nlohmann|json|is_structured.cpp|C++|25|2|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\json_pointer__operator__equal_stringtype.cpp|nlohmann|json|json_pointer__operator__equal_stringtype.cpp|C++|25|3|5
+.\src\_00\output\C++\nlohmann~json\docs\examples\nlohmann_define_type_intrusive_only_serialize_macro.cpp|nlohmann|json|nlohmann_define_type_intrusive_only_serialize_macro.cpp|C++|25|2|6
+.\src\_00\output\C++\nlohmann~json\docs\examples\nlohmann_define_type_non_intrusive_only_serialize_explicit.cpp|nlohmann|json|nlohmann_define_type_non_intrusive_only_serialize_explicit.cpp|C++|25|1|5
+.\src\_00\output\C++\nlohmann~json\docs\examples\parse__array__parser_callback_t.cpp|nlohmann|json|parse__array__parser_callback_t.cpp|C++|25|2|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\to_json.cpp|nlohmann|json|to_json.cpp|C++|25|1|6
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\begin.md|nlohmann|json|begin.md|Markdown|25|0|17
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\boolean_t.md|nlohmann|json|boolean_t.md|Markdown|25|0|17
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\crend.md|nlohmann|json|crend.md|Markdown|25|0|17
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\end.md|nlohmann|json|end.md|Markdown|25|0|17
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\rbegin.md|nlohmann|json|rbegin.md|Markdown|25|0|17
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\byte_container_with_subtype\index.md|nlohmann|json|index.md|Markdown|25|0|10
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\byte_container_with_subtype\set_subtype.md|nlohmann|json|set_subtype.md|Markdown|25|0|16
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\json_pointer\to_string.md|nlohmann|json|to_string.md|Markdown|25|0|15
+.\src\_00\output\C++\nlohmann~json\tests\benchmarks\CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|25|4|5
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-assert_macro.cpp|nlohmann|json|unit-assert_macro.cpp|C++|25|13|10
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\MemcmpTest.cpp|nlohmann|json|MemcmpTest.cpp|C++|25|4|2
+.\src\_00\output\C++\nlohmann~json\docs\examples\erase__IteratorType.cpp|nlohmann|json|erase__IteratorType.cpp|C++|24|3|4
+.\src\_00\output\C++\nlohmann~json\docs\examples\erase__IteratorType_IteratorType.cpp|nlohmann|json|erase__IteratorType_IteratorType.cpp|C++|24|3|4
+.\src\_00\output\C++\nlohmann~json\docs\examples\json_pointer__operator__notequal_stringtype.cpp|nlohmann|json|json_pointer__operator__notequal_stringtype.cpp|C++|24|3|5
+.\src\_00\output\C++\nlohmann~json\docs\examples\operator_array__json_pointer.cpp|nlohmann|json|operator_array__json_pointer.cpp|C++|24|16|9
+.\src\_00\output\C++\nlohmann~json\docs\examples\patch.cpp|nlohmann|json|patch.cpp|C++|24|4|5
+.\src\_00\output\C++\nlohmann~json\docs\examples\patch_inplace.cpp|nlohmann|json|patch_inplace.cpp|C++|24|5|6
+.\src\_00\output\C++\nlohmann~json\docs\examples\size.cpp|nlohmann|json|size.cpp|C++|24|2|3
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\cbegin.md|nlohmann|json|cbegin.md|Markdown|24|0|17
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\cend.md|nlohmann|json|cend.md|Markdown|24|0|17
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\crbegin.md|nlohmann|json|crbegin.md|Markdown|24|0|17
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\json_pointer\back.md|nlohmann|json|back.md|Markdown|24|0|16
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\json_pointer\push_back.md|nlohmann|json|push_back.md|Markdown|24|0|15
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\json_sax\binary.md|nlohmann|json|binary.md|Markdown|24|0|16
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\json_sax\key.md|nlohmann|json|key.md|Markdown|24|0|16
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\json_sax\number_float.md|nlohmann|json|number_float.md|Markdown|24|0|15
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\json_sax\start_array.md|nlohmann|json|start_array.md|Markdown|24|0|16
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\json_sax\start_object.md|nlohmann|json|start_object.md|Markdown|24|0|16
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\json_sax\string.md|nlohmann|json|string.md|Markdown|24|0|16
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-meta.cpp|nlohmann|json|unit-meta.cpp|C++|24|7|5
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\standalone\StandaloneFuzzTargetMain.c|nlohmann|json|StandaloneFuzzTargetMain.c|C|24|16|1
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\DSOTestMain.cpp|nlohmann|json|DSOTestMain.cpp|C++|24|3|4
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\OutOfMemoryTest.cpp|nlohmann|json|OutOfMemoryTest.cpp|C++|24|3|4
+.\src\_00\output\C++\nlohmann~json\docs\examples\basic_json__InputIt_InputIt.cpp|nlohmann|json|basic_json__InputIt_InputIt.cpp|C++|23|4|5
+.\src\_00\output\C++\nlohmann~json\docs\examples\type.cpp|nlohmann|json|type.cpp|C++|23|2|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\value__keytype.c++17.cpp|nlohmann|json|value__keytype.c++17.cpp|C++|23|4|5
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\Makefile|nlohmann|json|Makefile|make|23|6|8
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\is_array.md|nlohmann|json|is_array.md|Markdown|23|0|16
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\is_binary.md|nlohmann|json|is_binary.md|Markdown|23|0|16
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\is_boolean.md|nlohmann|json|is_boolean.md|Markdown|23|0|16
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\is_null.md|nlohmann|json|is_null.md|Markdown|23|0|16
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\is_object.md|nlohmann|json|is_object.md|Markdown|23|0|16
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\is_string.md|nlohmann|json|is_string.md|Markdown|23|0|16
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\std_hash.md|nlohmann|json|std_hash.md|Markdown|23|0|11
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\byte_container_with_subtype\has_subtype.md|nlohmann|json|has_subtype.md|Markdown|23|0|16
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\json_pointer\empty.md|nlohmann|json|empty.md|Markdown|23|0|16
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\macros\json_no_io.md|nlohmann|json|json_no_io.md|Markdown|23|0|12
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\macros\json_skip_library_version_check.md|nlohmann|json|json_skip_library_version_check.md|Markdown|23|0|14
+.\src\_00\output\C++\nlohmann~json\tests\abi\config\default.cpp|nlohmann|json|default.cpp|C++|23|9|9
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\FuzzerMerge.h|nlohmann|json|FuzzerMerge.h|C/C++ Header|23|38|9
+.\src\_00\output\C++\nlohmann~json\wsjcpp.yml|nlohmann|json|wsjcpp.yml|YAML|23|0|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\type_name.cpp|nlohmann|json|type_name.cpp|C++|22|2|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\value__json_ptr.cpp|nlohmann|json|value__json_ptr.cpp|C++|22|4|5
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\default_object_comparator_t.md|nlohmann|json|default_object_comparator_t.md|Markdown|22|0|13
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\object_comparator_t.md|nlohmann|json|object_comparator_t.md|Markdown|22|0|10
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\parse_event_t.md|nlohmann|json|parse_event_t.md|Markdown|22|0|7
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\byte_container_with_subtype\clear_subtype.md|nlohmann|json|clear_subtype.md|Markdown|22|0|14
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\json_sax\boolean.md|nlohmann|json|boolean.md|Markdown|22|0|14
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\json_sax\number_integer.md|nlohmann|json|number_integer.md|Markdown|22|0|14
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\json_sax\number_unsigned.md|nlohmann|json|number_unsigned.md|Markdown|22|0|14
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\features\element_access\default_value.md|nlohmann|json|default_value.md|Markdown|22|0|10
+.\src\_00\output\C++\nlohmann~json\tests\abi\config\noversion.cpp|nlohmann|json|noversion.cpp|C++|22|9|9
+.\src\_00\output\C++\nlohmann~json\docs\examples\front.cpp|nlohmann|json|front.cpp|C++|21|5|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\unflatten.cpp|nlohmann|json|unflatten.cpp|C++|21|2|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\value__object_t_key_type.cpp|nlohmann|json|value__object_t_key_type.cpp|C++|21|4|5
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\json_pointer\parent_pointer.md|nlohmann|json|parent_pointer.md|Markdown|21|0|14
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\json_pointer\pop_back.md|nlohmann|json|pop_back.md|Markdown|21|0|14
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\macros\json_skip_unsupported_compiler_check.md|nlohmann|json|json_skip_unsupported_compiler_check.md|Markdown|21|0|12
+.\src\_00\output\C++\nlohmann~json\tests\abi\CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|21|5|4
+.\src\_00\output\C++\nlohmann~json\tests\abi\inline_ns\use_current.cpp|nlohmann|json|use_current.cpp|C++|21|9|6
+.\src\_00\output\C++\nlohmann~json\tests\src\fuzzer-driver_afl.cpp|nlohmann|json|fuzzer-driver_afl.cpp|C++|21|13|5
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\FuzzerRandom.h|nlohmann|json|FuzzerRandom.h|C/C++ Header|21|10|5
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\InitializeTest.cpp|nlohmann|json|InitializeTest.cpp|C++|21|3|4
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\OneHugeAllocTest.cpp|nlohmann|json|OneHugeAllocTest.cpp|C++|21|3|4
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\SignedIntOverflowTest.cpp|nlohmann|json|SignedIntOverflowTest.cpp|C++|21|3|4
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\StrncmpTest.cpp|nlohmann|json|StrncmpTest.cpp|C++|21|4|3
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\StrstrTest.cpp|nlohmann|json|StrstrTest.cpp|C++|21|4|3
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\doctest\doctest_compatibility.h|nlohmann|json|doctest_compatibility.h|C/C++ Header|21|8|8
+.\src\_00\output\C++\nlohmann~json\docs\docset\Info.plist|nlohmann|json|Info.plist|XML|20|0|0
+.\src\_00\output\C++\nlohmann~json\docs\examples\accept__string.cpp|nlohmann|json|accept__string.cpp|C++|20|2|4
+.\src\_00\output\C++\nlohmann~json\docs\examples\basic_json__value_t.cpp|nlohmann|json|basic_json__value_t.cpp|C++|20|2|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\error_handler_t.cpp|nlohmann|json|error_handler_t.cpp|C++|20|1|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\max_size.cpp|nlohmann|json|max_size.cpp|C++|20|2|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\nlohmann_define_type_non_intrusive_only_serialize_macro.cpp|nlohmann|json|nlohmann_define_type_non_intrusive_only_serialize_macro.cpp|C++|20|1|5
+.\src\_00\output\C++\nlohmann~json\docs\examples\object.cpp|nlohmann|json|object.cpp|C++|20|4|4
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\macros\json_has_three_way_comparison.md|nlohmann|json|json_has_three_way_comparison.md|Markdown|20|0|12
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\ordered_json.md|nlohmann|json|ordered_json.md|Markdown|20|0|12
+.\src\_00\output\C++\nlohmann~json\meson.build|nlohmann|json|meson.build|Meson|20|0|4
+.\src\_00\output\C++\nlohmann~json\tests\abi\config\config.hpp|nlohmann|json|config.hpp|C/C++ Header|20|8|7
+.\src\_00\output\C++\nlohmann~json\tests\cmake_fetch_content\CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|20|0|0
+.\src\_00\output\C++\nlohmann~json\tests\cmake_fetch_content2\CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|20|0|0
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\FuzzerInterface.h|nlohmann|json|FuzzerInterface.h|C/C++ Header|20|35|12
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\OutOfMemorySingleLargeMallocTest.cpp|nlohmann|json|OutOfMemorySingleLargeMallocTest.cpp|C++|20|3|4
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\RepeatedBytesTest.cpp|nlohmann|json|RepeatedBytesTest.cpp|C++|20|6|3
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\ShrinkControlFlowTest.cpp|nlohmann|json|ShrinkControlFlowTest.cpp|C++|20|4|4
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\SimpleTest.cpp|nlohmann|json|SimpleTest.cpp|C++|20|3|4
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\ThreadedTest.cpp|nlohmann|json|ThreadedTest.cpp|C++|20|3|3
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\TraceMallocTest.cpp|nlohmann|json|TraceMallocTest.cpp|C++|20|3|4
+.\src\_00\output\C++\nlohmann~json\docs\examples\cbor_tag_handler_t.cpp|nlohmann|json|cbor_tag_handler_t.cpp|C++|19|4|5
+.\src\_00\output\C++\nlohmann~json\docs\examples\operator__equal.cpp|nlohmann|json|operator__equal.cpp|C++|19|2|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\operator__greater.cpp|nlohmann|json|operator__greater.cpp|C++|19|2|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\operator__greaterequal.cpp|nlohmann|json|operator__greaterequal.cpp|C++|19|2|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\operator__less.cpp|nlohmann|json|operator__less.cpp|C++|19|2|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\operator__lessequal.cpp|nlohmann|json|operator__lessequal.cpp|C++|19|2|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\operator__notequal.cpp|nlohmann|json|operator__notequal.cpp|C++|19|2|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\operator_array__keytype.c++17.cpp|nlohmann|json|operator_array__keytype.c++17.cpp|C++|19|7|8
+.\src\_00\output\C++\nlohmann~json\docs\examples\operator_deserialize.cpp|nlohmann|json|operator_deserialize.cpp|C++|19|3|4
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\get_allocator.md|nlohmann|json|get_allocator.md|Markdown|19|0|12
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\json_sax\end_array.md|nlohmann|json|end_array.md|Markdown|19|0|12
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\json_sax\end_object.md|nlohmann|json|end_object.md|Markdown|19|0|12
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\json_sax\null.md|nlohmann|json|null.md|Markdown|19|0|12
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\macros\json_has_ranges.md|nlohmann|json|json_has_ranges.md|Markdown|19|0|12
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\macros\json_has_static_rtti.md|nlohmann|json|json_has_static_rtti.md|Markdown|19|0|12
+.\src\_00\output\C++\nlohmann~json\include\nlohmann\detail\meta\std_fs.hpp|nlohmann|json|std_fs.hpp|C/C++ Header|19|7|3
+.\src\_00\output\C++\nlohmann~json\tests\cmake_import\CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|19|0|0
+.\src\_00\output\C++\nlohmann~json\tests\cmake_import_minver\CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|19|0|0
+.\src\_00\output\C++\nlohmann~json\tests\src\test_utils.hpp|nlohmann|json|test_utils.hpp|C/C++ Header|19|7|7
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\NullDerefTest.cpp|nlohmann|json|NullDerefTest.cpp|C++|19|3|4
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\SimpleDictionaryTest.cpp|nlohmann|json|SimpleDictionaryTest.cpp|C++|19|6|4
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\SimpleThreadedTest.cpp|nlohmann|json|SimpleThreadedTest.cpp|C++|19|3|3
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\TimeoutTest.cpp|nlohmann|json|TimeoutTest.cpp|C++|19|3|4
+.\src\_00\output\C++\nlohmann~json\Package.swift|nlohmann|json|Package.swift|Swift|18|2|2
+.\src\_00\output\C++\nlohmann~json\cmake\scripts\gen_bazel_build_file.cmake|nlohmann|json|gen_bazel_build_file.cmake|CMake|18|1|5
+.\src\_00\output\C++\nlohmann~json\docs\examples\diagnostics_extended.cpp|nlohmann|json|diagnostics_extended.cpp|C++|18|0|4
+.\src\_00\output\C++\nlohmann~json\docs\examples\emplace.cpp|nlohmann|json|emplace.cpp|C++|18|6|7
+.\src\_00\output\C++\nlohmann~json\docs\examples\get_ref.cpp|nlohmann|json|get_ref.cpp|C++|18|4|5
+.\src\_00\output\C++\nlohmann~json\docs\examples\json_lines.cpp|nlohmann|json|json_lines.cpp|C++|18|1|3
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\json.md|nlohmann|json|json.md|Markdown|18|0|10
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\json_pointer\string_t.md|nlohmann|json|string_t.md|Markdown|18|0|10
+.\src\_00\output\C++\nlohmann~json\include\nlohmann\detail\input\position_t.hpp|nlohmann|json|position_t.hpp|C/C++ Header|18|12|7
+.\src\_00\output\C++\nlohmann~json\tests\abi\diag\diag_off.cpp|nlohmann|json|diag_off.cpp|C++|18|7|5
+.\src\_00\output\C++\nlohmann~json\tests\abi\diag\diag_on.cpp|nlohmann|json|diag_on.cpp|C++|18|7|5
+.\src\_00\output\C++\nlohmann~json\tests\cmake_add_subdirectory\CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|18|0|0
+.\src\_00\output\C++\nlohmann~json\tests\cmake_target_include_directories\CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|18|0|0
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\FullCoverageSetTest.cpp|nlohmann|json|FullCoverageSetTest.cpp|C++|18|3|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\diagnostics_standard.cpp|nlohmann|json|diagnostics_standard.cpp|C++|17|0|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\invalid_iterator.cpp|nlohmann|json|invalid_iterator.cpp|C++|17|2|2
+.\src\_00\output\C++\nlohmann~json\docs\examples\operator__equal__nullptr_t.cpp|nlohmann|json|operator__equal__nullptr_t.cpp|C++|17|2|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\operator__notequal__nullptr_t.cpp|nlohmann|json|operator__notequal__nullptr_t.cpp|C++|17|2|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\operator_array__object_t_key_type.cpp|nlohmann|json|operator_array__object_t_key_type.cpp|C++|17|7|8
+.\src\_00\output\C++\nlohmann~json\docs\examples\std_hash.cpp|nlohmann|json|std_hash.cpp|C++|17|0|2
+.\src\_00\output\C++\nlohmann~json\tests\Makefile|nlohmann|json|Makefile|make|17|6|9
+.\src\_00\output\C++\nlohmann~json\tests\abi\config\custom.cpp|nlohmann|json|custom.cpp|C++|17|10|6
+.\src\_00\output\C++\nlohmann~json\tests\src\make_test_data_available.hpp|nlohmann|json|make_test_data_available.hpp|C/C++ Header|17|7|6
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\AbsNegAndConstant64Test.cpp|nlohmann|json|AbsNegAndConstant64Test.cpp|C++|17|3|3
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\AbsNegAndConstantTest.cpp|nlohmann|json|AbsNegAndConstantTest.cpp|C++|17|3|3
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\RepeatedMemcmp.cpp|nlohmann|json|RepeatedMemcmp.cpp|C++|17|2|3
+.\src\_00\output\C++\nlohmann~json\.cirrus.yml|nlohmann|json|.cirrus.yml|YAML|16|0|1
+.\src\_00\output\C++\nlohmann~json\docs\examples\basic_json__list_init_t.cpp|nlohmann|json|basic_json__list_init_t.cpp|C++|16|2|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\exception.cpp|nlohmann|json|exception.cpp|C++|16|2|2
+.\src\_00\output\C++\nlohmann~json\docs\examples\items.cpp|nlohmann|json|items.cpp|C++|16|3|4
+.\src\_00\output\C++\nlohmann~json\docs\examples\out_of_range.cpp|nlohmann|json|out_of_range.cpp|C++|16|2|2
+.\src\_00\output\C++\nlohmann~json\docs\examples\parse_error.cpp|nlohmann|json|parse_error.cpp|C++|16|2|2
+.\src\_00\output\C++\nlohmann~json\docs\examples\push_back.cpp|nlohmann|json|push_back.cpp|C++|16|4|5
+.\src\_00\output\C++\nlohmann~json\docs\examples\push_back__object_t__value.cpp|nlohmann|json|push_back__object_t__value.cpp|C++|16|4|5
+.\src\_00\output\C++\nlohmann~json\docs\examples\type_error.cpp|nlohmann|json|type_error.cpp|C++|16|2|2
+.\src\_00\output\C++\nlohmann~json\tests\abi\diag\diag.cpp|nlohmann|json|diag.cpp|C++|16|9|4
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\BufferOverflowOnInput.cpp|nlohmann|json|BufferOverflowOnInput.cpp|C++|16|3|4
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\FourIndependentBranchesTest.cpp|nlohmann|json|FourIndependentBranchesTest.cpp|C++|16|3|3
+.\src\_00\output\C++\nlohmann~json\.github\workflows\labeler.yml|nlohmann|json|labeler.yml|YAML|15|0|5
+.\src\_00\output\C++\nlohmann~json\docs\README.md|nlohmann|json|README.md|Markdown|15|0|5
+.\src\_00\output\C++\nlohmann~json\docs\examples\contains__keytype.c++17.cpp|nlohmann|json|contains__keytype.c++17.cpp|C++|15|2|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\emplace_back.cpp|nlohmann|json|emplace_back.cpp|C++|15|4|5
+.\src\_00\output\C++\nlohmann~json\docs\examples\find__keytype.c++17.cpp|nlohmann|json|find__keytype.c++17.cpp|C++|15|3|4
+.\src\_00\output\C++\nlohmann~json\docs\examples\json_pointer__empty.cpp|nlohmann|json|json_pointer__empty.cpp|C++|15|2|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\operator_array__json_pointer_const.cpp|nlohmann|json|operator_array__json_pointer_const.cpp|C++|15|6|4
+.\src\_00\output\C++\nlohmann~json\docs\examples\push_back__initializer_list.cpp|nlohmann|json|push_back__initializer_list.cpp|C++|15|6|6
+.\src\_00\output\C++\nlohmann~json\docs\examples\to_bson.cpp|nlohmann|json|to_bson.cpp|C++|15|3|4
+.\src\_00\output\C++\nlohmann~json\docs\examples\to_cbor.cpp|nlohmann|json|to_cbor.cpp|C++|15|3|4
+.\src\_00\output\C++\nlohmann~json\docs\examples\to_msgpack.cpp|nlohmann|json|to_msgpack.cpp|C++|15|3|4
+.\src\_00\output\C++\nlohmann~json\docs\examples\update.cpp|nlohmann|json|update.cpp|C++|15|4|5
+.\src\_00\output\C++\nlohmann~json\docs\examples\update__range.cpp|nlohmann|json|update__range.cpp|C++|15|4|5
+.\src\_00\output\C++\nlohmann~json\include\nlohmann\detail\json_custom_base_class.hpp|nlohmann|json|json_custom_base_class.hpp|C/C++ Header|15|16|8
+.\src\_00\output\C++\nlohmann~json\tests\abi\config\CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|15|4|3
+.\src\_00\output\C++\nlohmann~json\tests\cmake_add_subdirectory\project\CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|15|0|5
+.\src\_00\output\C++\nlohmann~json\tests\cmake_target_include_directories\project\CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|15|1|5
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-large_json.cpp|nlohmann|json|unit-large_json.cpp|C++|15|7|7
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\LoadTest.cpp|nlohmann|json|LoadTest.cpp|C++|15|3|4
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\ShrinkValueProfileTest.cpp|nlohmann|json|ShrinkValueProfileTest.cpp|C++|15|3|4
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\SpamyTest.cpp|nlohmann|json|SpamyTest.cpp|C++|15|3|3
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\no-coverage\CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|15|6|8
+.\src\_00\output\C++\nlohmann~json\cmake\config.cmake.in|nlohmann|json|config.cmake.in|CMake|14|0|1
+.\src\_00\output\C++\nlohmann~json\docs\examples\array.cpp|nlohmann|json|array.cpp|C++|14|2|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\from_bson.cpp|nlohmann|json|from_bson.cpp|C++|14|3|4
+.\src\_00\output\C++\nlohmann~json\docs\examples\get__PointerType.cpp|nlohmann|json|get__PointerType.cpp|C++|14|3|4
+.\src\_00\output\C++\nlohmann~json\docs\examples\get_ptr.cpp|nlohmann|json|get_ptr.cpp|C++|14|3|4
+.\src\_00\output\C++\nlohmann~json\docs\examples\json_pointer__operator__equal.cpp|nlohmann|json|json_pointer__operator__equal.cpp|C++|14|2|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\json_pointer__operator__notequal.cpp|nlohmann|json|json_pointer__operator__notequal.cpp|C++|14|2|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\json_pointer__operator_add.cpp|nlohmann|json|json_pointer__operator_add.cpp|C++|14|4|5
+.\src\_00\output\C++\nlohmann~json\docs\examples\json_pointer__pop_back.cpp|nlohmann|json|json_pointer__pop_back.cpp|C++|14|2|5
+.\src\_00\output\C++\nlohmann~json\docs\examples\json_pointer__push_back.cpp|nlohmann|json|json_pointer__push_back.cpp|C++|14|2|5
+.\src\_00\output\C++\nlohmann~json\docs\examples\operator_ltlt__basic_json.cpp|nlohmann|json|operator_ltlt__basic_json.cpp|C++|14|3|4
+.\src\_00\output\C++\nlohmann~json\include\nlohmann\detail\iterators\internal_iterator.hpp|nlohmann|json|internal_iterator.hpp|C/C++ Header|14|15|6
+.\src\_00\output\C++\nlohmann~json\tests\cmake_fetch_content\project\CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|14|0|6
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\FuzzerExtFunctions.h|nlohmann|json|FuzzerExtFunctions.h|C/C++ Header|14|13|8
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\StrncmpOOBTest.cpp|nlohmann|json|StrncmpOOBTest.cpp|C++|14|3|4
+.\src\_00\output\C++\nlohmann~json\.github\PULL_REQUEST_TEMPLATE.md|nlohmann|json|PULL_REQUEST_TEMPLATE.md|Markdown|13|0|6
+.\src\_00\output\C++\nlohmann~json\cmake\nlohmann_jsonConfigVersion.cmake.in|nlohmann|json|nlohmann_jsonConfigVersion.cmake.in|CMake|13|4|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\basic_json__size_type_basic_json.cpp|nlohmann|json|basic_json__size_type_basic_json.cpp|C++|13|2|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\contains__object_t_key_type.cpp|nlohmann|json|contains__object_t_key_type.cpp|C++|13|2|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\count__keytype.c++17.cpp|nlohmann|json|count__keytype.c++17.cpp|C++|13|3|4
+.\src\_00\output\C++\nlohmann~json\docs\examples\erase__keytype.c++17.cpp|nlohmann|json|erase__keytype.c++17.cpp|C++|13|3|4
+.\src\_00\output\C++\nlohmann~json\docs\examples\find__object_t_key_type.cpp|nlohmann|json|find__object_t_key_type.cpp|C++|13|3|4
+.\src\_00\output\C++\nlohmann~json\docs\examples\from_bjdata.cpp|nlohmann|json|from_bjdata.cpp|C++|13|3|4
+.\src\_00\output\C++\nlohmann~json\docs\examples\from_cbor.cpp|nlohmann|json|from_cbor.cpp|C++|13|3|4
+.\src\_00\output\C++\nlohmann~json\docs\examples\from_msgpack.cpp|nlohmann|json|from_msgpack.cpp|C++|13|3|4
+.\src\_00\output\C++\nlohmann~json\docs\examples\from_ubjson.cpp|nlohmann|json|from_ubjson.cpp|C++|13|3|4
+.\src\_00\output\C++\nlohmann~json\docs\examples\get_allocator.cpp|nlohmann|json|get_allocator.cpp|C++|13|0|5
+.\src\_00\output\C++\nlohmann~json\docs\examples\json_pointer__operator_string_t.cpp|nlohmann|json|json_pointer__operator_string_t.cpp|C++|13|2|4
+.\src\_00\output\C++\nlohmann~json\docs\examples\json_pointer__parent_pointer.cpp|nlohmann|json|json_pointer__parent_pointer.cpp|C++|13|2|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\operator_array__keytype_const.c++17.cpp|nlohmann|json|operator_array__keytype_const.c++17.cpp|C++|13|2|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\to_string.cpp|nlohmann|json|to_string.cpp|C++|13|3|4
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\features\merge_patch.md|nlohmann|json|merge_patch.md|Markdown|13|0|7
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\integration\index.md|nlohmann|json|index.md|Markdown|13|0|5
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\DivTest.cpp|nlohmann|json|DivTest.cpp|C++|13|3|4
+.\src\_00\output\C++\nlohmann~json\docs\docset\README.md|nlohmann|json|README.md|Markdown|12|0|7
+.\src\_00\output\C++\nlohmann~json\docs\examples\byte_container_with_subtype__byte_container_with_subtype.cpp|nlohmann|json|byte_container_with_subtype__byte_container_with_subtype.cpp|C++|12|4|7
+.\src\_00\output\C++\nlohmann~json\docs\examples\byte_container_with_subtype__clear_subtype.cpp|nlohmann|json|byte_container_with_subtype__clear_subtype.cpp|C++|12|2|7
+.\src\_00\output\C++\nlohmann~json\docs\examples\byte_container_with_subtype__set_subtype.cpp|nlohmann|json|byte_container_with_subtype__set_subtype.cpp|C++|12|3|7
+.\src\_00\output\C++\nlohmann~json\docs\examples\byte_container_with_subtype__subtype.cpp|nlohmann|json|byte_container_with_subtype__subtype.cpp|C++|12|4|6
+.\src\_00\output\C++\nlohmann~json\docs\examples\insert__range_object.cpp|nlohmann|json|insert__range_object.cpp|C++|12|4|5
+.\src\_00\output\C++\nlohmann~json\docs\examples\operator__equal__specializations.cpp|nlohmann|json|operator__equal__specializations.cpp|C++|12|0|4
+.\src\_00\output\C++\nlohmann~json\docs\examples\operator_array__size_type.cpp|nlohmann|json|operator_array__size_type.cpp|C++|12|6|7
+.\src\_00\output\C++\nlohmann~json\docs\examples\std_swap.cpp|nlohmann|json|std_swap.cpp|C++|12|2|5
+.\src\_00\output\C++\nlohmann~json\include\nlohmann\detail\meta\void_t.hpp|nlohmann|json|void_t.hpp|C/C++ Header|12|7|5
+.\src\_00\output\C++\nlohmann~json\tests\src\unit-windows_h.cpp|nlohmann|json|unit-windows_h.cpp|C++|12|7|4
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\FuzzerSHA1.h|nlohmann|json|FuzzerSHA1.h|C/C++ Header|12|12|9
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\AFLDriverTest.cpp|nlohmann|json|AFLDriverTest.cpp|C++|12|5|5
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\CounterTest.cpp|nlohmann|json|CounterTest.cpp|C++|12|4|2
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\NullDerefOnEmptyTest.cpp|nlohmann|json|NullDerefOnEmptyTest.cpp|C++|12|3|4
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\SingleMemcmpTest.cpp|nlohmann|json|SingleMemcmpTest.cpp|C++|12|3|2
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\SingleStrcmpTest.cpp|nlohmann|json|SingleStrcmpTest.cpp|C++|12|3|2
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\SingleStrncmpTest.cpp|nlohmann|json|SingleStrncmpTest.cpp|C++|12|3|2
+.\src\_00\output\C++\nlohmann~json\.github\stale.yml|nlohmann|json|stale.yml|YAML|11|6|0
+.\src\_00\output\C++\nlohmann~json\docs\examples\basic_json__copyassignment.cpp|nlohmann|json|basic_json__copyassignment.cpp|C++|11|3|4
+.\src\_00\output\C++\nlohmann~json\docs\examples\byte_container_with_subtype__has_subtype.cpp|nlohmann|json|byte_container_with_subtype__has_subtype.cpp|C++|11|3|5
+.\src\_00\output\C++\nlohmann~json\docs\examples\count__object_t_key_type.cpp|nlohmann|json|count__object_t_key_type.cpp|C++|11|3|4
+.\src\_00\output\C++\nlohmann~json\docs\examples\erase__object_t_key_type.cpp|nlohmann|json|erase__object_t_key_type.cpp|C++|11|3|4
+.\src\_00\output\C++\nlohmann~json\docs\examples\insert__range.cpp|nlohmann|json|insert__range.cpp|C++|11|4|5
+.\src\_00\output\C++\nlohmann~json\docs\examples\operator_array__object_t_key_type_const.cpp|nlohmann|json|operator_array__object_t_key_type_const.cpp|C++|11|2|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\operator_literal_json_pointer.cpp|nlohmann|json|operator_literal_json_pointer.cpp|C++|11|0|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\ordered_json.cpp|nlohmann|json|ordered_json.cpp|C++|11|0|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\swap__array_t.cpp|nlohmann|json|swap__array_t.cpp|C++|11|4|5
+.\src\_00\output\C++\nlohmann~json\docs\examples\swap__binary_t.cpp|nlohmann|json|swap__binary_t.cpp|C++|11|4|5
+.\src\_00\output\C++\nlohmann~json\docs\examples\swap__object_t.cpp|nlohmann|json|swap__object_t.cpp|C++|11|4|5
+.\src\_00\output\C++\nlohmann~json\docs\examples\swap__reference.cpp|nlohmann|json|swap__reference.cpp|C++|11|3|4
+.\src\_00\output\C++\nlohmann~json\docs\examples\swap__string_t.cpp|nlohmann|json|swap__string_t.cpp|C++|11|4|5
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\api\basic_json\~basic_json.md|nlohmann|json|~basic_json.md|Markdown|11|1|9
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\home\license.md|nlohmann|json|license.md|Markdown|11|0|10
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\NthRunCrashTest.cpp|nlohmann|json|NthRunCrashTest.cpp|C++|11|3|4
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\ThreadedLeakTest.cpp|nlohmann|json|ThreadedLeakTest.cpp|C++|11|3|4
+.\src\_00\output\C++\nlohmann~json\.reuse\templates\json.jinja2|nlohmann|json|json.jinja2|Jinja Template|10|0|1
+.\src\_00\output\C++\nlohmann~json\.reuse\templates\json_support.jinja2|nlohmann|json|json_support.jinja2|Jinja Template|10|0|1
+.\src\_00\output\C++\nlohmann~json\docs\docset\docset.json|nlohmann|json|docset.json|JSON|10|0|0
+.\src\_00\output\C++\nlohmann~json\docs\examples\basic_json__basic_json.cpp|nlohmann|json|basic_json__basic_json.cpp|C++|10|3|4
+.\src\_00\output\C++\nlohmann~json\docs\examples\basic_json__moveconstructor.cpp|nlohmann|json|basic_json__moveconstructor.cpp|C++|10|3|4
+.\src\_00\output\C++\nlohmann~json\docs\examples\cend.cpp|nlohmann|json|cend.cpp|C++|10|4|5
+.\src\_00\output\C++\nlohmann~json\docs\examples\crend.cpp|nlohmann|json|crend.cpp|C++|10|4|5
+.\src\_00\output\C++\nlohmann~json\docs\examples\end.cpp|nlohmann|json|end.cpp|C++|10|4|5
+.\src\_00\output\C++\nlohmann~json\docs\examples\insert.cpp|nlohmann|json|insert.cpp|C++|10|3|4
+.\src\_00\output\C++\nlohmann~json\docs\examples\insert__count.cpp|nlohmann|json|insert__count.cpp|C++|10|3|4
+.\src\_00\output\C++\nlohmann~json\docs\examples\insert__ilist.cpp|nlohmann|json|insert__ilist.cpp|C++|10|3|4
+.\src\_00\output\C++\nlohmann~json\docs\examples\json_pointer__back.cpp|nlohmann|json|json_pointer__back.cpp|C++|10|2|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\json_pointer__operator_add_binary.cpp|nlohmann|json|json_pointer__operator_add_binary.cpp|C++|10|4|5
+.\src\_00\output\C++\nlohmann~json\docs\examples\nlohmann_json_version.cpp|nlohmann|json|nlohmann_json_version.cpp|C++|10|0|2
+.\src\_00\output\C++\nlohmann~json\docs\examples\operator_literal_json.cpp|nlohmann|json|operator_literal_json.cpp|C++|10|0|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\parse__contiguouscontainer__parser_callback_t.cpp|nlohmann|json|parse__contiguouscontainer__parser_callback_t.cpp|C++|10|2|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\parse__iterator_pair.cpp|nlohmann|json|parse__iterator_pair.cpp|C++|10|2|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\parse__pointers.cpp|nlohmann|json|parse__pointers.cpp|C++|10|2|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\rend.cpp|nlohmann|json|rend.cpp|C++|10|4|5
+.\src\_00\output\C++\nlohmann~json\tests\abi\diag\CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|10|5|4
+.\src\_00\output\C++\nlohmann~json\tests\abi\inline_ns\use_v3_10_5.cpp|nlohmann|json|use_v3_10_5.cpp|C++|10|9|3
+.\src\_00\output\C++\nlohmann~json\tests\cmake_fetch_content2\project\CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|10|0|5
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\AccumulateAllocationsTest.cpp|nlohmann|json|AccumulateAllocationsTest.cpp|C++|10|3|4
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\LeakTest.cpp|nlohmann|json|LeakTest.cpp|C++|10|3|4
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\LeakTimeoutTest.cpp|nlohmann|json|LeakTimeoutTest.cpp|C++|10|3|4
+.\src\_00\output\C++\nlohmann~json\docs\examples\basic_json__nullptr_t.cpp|nlohmann|json|basic_json__nullptr_t.cpp|C++|9|3|4
+.\src\_00\output\C++\nlohmann~json\docs\examples\begin.cpp|nlohmann|json|begin.cpp|C++|9|3|4
+.\src\_00\output\C++\nlohmann~json\docs\examples\cbegin.cpp|nlohmann|json|cbegin.cpp|C++|9|3|4
+.\src\_00\output\C++\nlohmann~json\docs\examples\crbegin.cpp|nlohmann|json|crbegin.cpp|C++|9|3|4
+.\src\_00\output\C++\nlohmann~json\docs\examples\default_object_comparator_t.cpp|nlohmann|json|default_object_comparator_t.cpp|C++|9|0|2
+.\src\_00\output\C++\nlohmann~json\docs\examples\erase__size_type.cpp|nlohmann|json|erase__size_type.cpp|C++|9|3|4
+.\src\_00\output\C++\nlohmann~json\docs\examples\get_binary.cpp|nlohmann|json|get_binary.cpp|C++|9|3|4
+.\src\_00\output\C++\nlohmann~json\docs\examples\json_pointer__string_t.cpp|nlohmann|json|json_pointer__string_t.cpp|C++|9|0|4
+.\src\_00\output\C++\nlohmann~json\docs\examples\nlohmann_json_namespace.cpp|nlohmann|json|nlohmann_json_namespace.cpp|C++|9|2|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\nlohmann_json_namespace_no_version.cpp|nlohmann|json|nlohmann_json_namespace_no_version.cpp|C++|9|1|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\object_comparator_t.cpp|nlohmann|json|object_comparator_t.cpp|C++|9|0|2
+.\src\_00\output\C++\nlohmann~json\docs\examples\rbegin.cpp|nlohmann|json|rbegin.cpp|C++|9|3|4
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\home\design_goals.md|nlohmann|json|design_goals.md|Markdown|9|0|8
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\home\sponsors.md|nlohmann|json|sponsors.md|Markdown|9|0|4
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\integration\pkg-config.md|nlohmann|json|pkg-config.md|Markdown|9|0|4
+.\src\_00\output\C++\nlohmann~json\tests\cuda_example\CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|9|0|1
+.\src\_00\output\C++\nlohmann~json\tests\reports\2016-08-29-fuzz\index.html|nlohmann|json|index.html|HTML|9|0|1
+.\src\_00\output\C++\nlohmann~json\tests\reports\2016-10-02-fuzz\index.html|nlohmann|json|index.html|HTML|9|0|1
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\FuzzerUtilLinux.cpp|nlohmann|json|FuzzerUtilLinux.cpp|C++|9|10|5
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\build.sh|nlohmann|json|build.sh|Bourne Shell|9|0|1
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\TimeoutEmptyTest.cpp|nlohmann|json|TimeoutEmptyTest.cpp|C++|9|3|2
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\ubsan\CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|9|2|4
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\uninstrumented\CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|9|3|4
+.\src\_00\output\C++\nlohmann~json\tools\amalgamate\CHANGES.md|nlohmann|json|CHANGES.md|Markdown|9|0|1
+.\src\_00\output\C++\nlohmann~json\docs\examples\array_t.cpp|nlohmann|json|array_t.cpp|C++|8|0|2
+.\src\_00\output\C++\nlohmann~json\docs\examples\binary_t.cpp|nlohmann|json|binary_t.cpp|C++|8|0|2
+.\src\_00\output\C++\nlohmann~json\docs\examples\boolean_t.cpp|nlohmann|json|boolean_t.cpp|C++|8|0|2
+.\src\_00\output\C++\nlohmann~json\docs\examples\meta.cpp|nlohmann|json|meta.cpp|C++|8|1|2
+.\src\_00\output\C++\nlohmann~json\docs\examples\number_float_t.cpp|nlohmann|json|number_float_t.cpp|C++|8|0|2
+.\src\_00\output\C++\nlohmann~json\docs\examples\number_integer_t.cpp|nlohmann|json|number_integer_t.cpp|C++|8|0|2
+.\src\_00\output\C++\nlohmann~json\docs\examples\number_unsigned_t.cpp|nlohmann|json|number_unsigned_t.cpp|C++|8|0|2
+.\src\_00\output\C++\nlohmann~json\docs\examples\object_t.cpp|nlohmann|json|object_t.cpp|C++|8|0|2
+.\src\_00\output\C++\nlohmann~json\docs\examples\operator_array__size_type_const.cpp|nlohmann|json|operator_array__size_type_const.cpp|C++|8|2|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\operator_ltlt__json_pointer.cpp|nlohmann|json|operator_ltlt__json_pointer.cpp|C++|8|2|3
+.\src\_00\output\C++\nlohmann~json\docs\examples\string_t.cpp|nlohmann|json|string_t.cpp|C++|8|0|2
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\integration\example.cpp|nlohmann|json|example.cpp|C++|8|0|2
+.\src\_00\output\C++\nlohmann~json\include\nlohmann\detail\meta\identity_tag.hpp|nlohmann|json|identity_tag.hpp|C/C++ Header|8|8|5
+.\src\_00\output\C++\nlohmann~json\tests\abi\diag\diag.hpp|nlohmann|json|diag.hpp|C/C++ Header|8|7|5
+.\src\_00\output\C++\nlohmann~json\tests\cuda_example\json_cuda.cu|nlohmann|json|json_cuda.cu|CUDA|8|8|3
+.\src\_00\output\C++\nlohmann~json\tools\amalgamate\config_json.json|nlohmann|json|config_json.json|JSON|8|0|0
+.\src\_00\output\C++\nlohmann~json\tools\amalgamate\config_json_fwd.json|nlohmann|json|config_json_fwd.json|JSON|8|0|0
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\features\element_access\index.md|nlohmann|json|index.md|Markdown|7|0|2
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\features\parsing\index.md|nlohmann|json|index.md|Markdown|7|0|6
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\integration\conan\CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|7|0|2
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\integration\vcpkg\example.cpp|nlohmann|json|example.cpp|C++|7|0|2
+.\src\_00\output\C++\nlohmann~json\tests\abi\inline_ns\CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|7|3|2
+.\src\_00\output\C++\nlohmann~json\tests\cmake_import\project\CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|7|0|5
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\FuzzerMain.cpp|nlohmann|json|FuzzerMain.cpp|C++|7|11|3
+.\src\_00\output\C++\nlohmann~json\tools\generate_natvis\README.md|nlohmann|json|README.md|Markdown|7|0|3
+.\src\_00\output\C++\nlohmann~json\.github\config.yml|nlohmann|json|config.yml|YAML|6|7|6
+.\src\_00\output\C++\nlohmann~json\LICENSES\BSD-3-Clause.txt|nlohmann|json|BSD-3-Clause.txt|Text|6|0|5
+.\src\_00\output\C++\nlohmann~json\tests\cmake_target_include_directories\project\main.cpp|nlohmann|json|main.cpp|C++|6|7|3
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\DSO1.cpp|nlohmann|json|DSO1.cpp|C++|6|3|3
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\DSO2.cpp|nlohmann|json|DSO2.cpp|C++|6|3|3
+.\src\_00\output\C++\nlohmann~json\.github\ISSUE_TEMPLATE\config.yml|nlohmann|json|config.yml|YAML|5|0|0
+.\src\_00\output\C++\nlohmann~json\LICENSES\MIT.txt|nlohmann|json|MIT.txt|Text|5|0|4
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\integration\vcpkg\CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|5|0|2
+.\src\_00\output\C++\nlohmann~json\include\nlohmann\detail\meta\call_std\begin.hpp|nlohmann|json|begin.hpp|C/C++ Header|5|7|5
+.\src\_00\output\C++\nlohmann~json\include\nlohmann\detail\meta\call_std\end.hpp|nlohmann|json|end.hpp|C/C++ Header|5|7|5
+.\src\_00\output\C++\nlohmann~json\tests\cmake_import_minver\project\CMakeLists.txt|nlohmann|json|CMakeLists.txt|CMake|5|0|3
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\DSOTestExtra.cpp|nlohmann|json|DSOTestExtra.cpp|C++|5|3|3
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\EmptyTest.cpp|nlohmann|json|EmptyTest.cpp|C++|5|4|2
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\UninstrumentedTest.cpp|nlohmann|json|UninstrumentedTest.cpp|C++|5|3|3
+.\src\_00\output\C++\nlohmann~json\.lgtm.yml|nlohmann|json|.lgtm.yml|YAML|4|0|0
+.\src\_00\output\C++\nlohmann~json\.reuse\README.md|nlohmann|json|README.md|Markdown|4|0|3
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\integration\conan\Conanfile.txt|nlohmann|json|Conanfile.txt|Text|4|0|1
+.\src\_00\output\C++\nlohmann~json\.github\SECURITY.md|nlohmann|json|SECURITY.md|Markdown|3|0|2
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\css\custom.css|nlohmann|json|custom.css|CSS|3|1|0
+.\src\_00\output\C++\nlohmann~json\tests\cmake_target_include_directories\project\Bar.hpp|nlohmann|json|Bar.hpp|C/C++ Header|3|7|2
+.\src\_00\output\C++\nlohmann~json\tests\cmake_target_include_directories\project\Foo.hpp|nlohmann|json|Foo.hpp|C/C++ Header|3|7|2
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\dict1.txt|nlohmann|json|dict1.txt|Text|3|0|1
+.\src\_00\output\C++\nlohmann~json\.github\FUNDING.yml|nlohmann|json|FUNDING.yml|YAML|2|0|0
+.\src\_00\output\C++\nlohmann~json\docs\mkdocs\docs\index.md|nlohmann|json|index.md|Markdown|2|0|1
+.\src\_00\output\C++\nlohmann~json\tests\abi\main.cpp|nlohmann|json|main.cpp|C++|2|8|1
+.\src\_00\output\C++\nlohmann~json\tests\cmake_target_include_directories\project\Bar.cpp|nlohmann|json|Bar.cpp|C++|2|7|2
+.\src\_00\output\C++\nlohmann~json\tests\cmake_target_include_directories\project\Foo.cpp|nlohmann|json|Foo.cpp|C++|2|7|2
+.\src\_00\output\C++\nlohmann~json\tests\src\unit.cpp|nlohmann|json|unit.cpp|C++|2|7|1
+.\src\_00\output\C++\nlohmann~json\tools\serve_header\requirements.txt|nlohmann|json|requirements.txt|Text|2|0|0
+.\src\_00\output\C++\nlohmann~json\WORKSPACE.bazel|nlohmann|json|WORKSPACE.bazel|Starlark|1|0|0
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\README.txt|nlohmann|json|README.txt|Text|1|0|1
+.\src\_00\output\C++\nlohmann~json\tests\thirdparty\Fuzzer\test\hi.txt|nlohmann|json|hi.txt|Text|1|0|0
