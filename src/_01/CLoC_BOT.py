@@ -32,7 +32,7 @@ def formater(file_path:str, separator:str=','):
         print(f'\033[31mSeparator fucked up, reestract with Windows(\033[35m{file_path}.csv\033[31m)\033[m')
 
 input_path = './src/_00/output'
-output_path = './src/_01/output_1'
+output_path = './src/_01/output'
 
 if op_sys() == "Windows":
     cloc = path.abspath("./src/_01/input/cloc.exe")  # CLoC.exe path

@@ -3,8 +3,9 @@ import pandas as pd
 from datetime import datetime
 
 input_path = './src/_00/input/600_Starred_Projects.csv'
-input_file = pd.read_csv(input_path)
 output_path = './src/_00/output'
+
+input_file = pd.read_csv(input_path)
 
 start = datetime.now()
 
@@ -13,14 +14,11 @@ for repository, language, branch in zip(input_file['url'], input_file['main lang
     print(f"{repository.split('/')[-2]}~{repository.split('/')[-1]}", end="")
     
     try:
-        if branch != 'main' and branch != 'master':
-            try:
-                repo = git.Repo.clone_from(repository, local_repo_directory, branch=branch)
-                print(f" -> {branch} branch")
-            except git.exc.GitCommandError:
-                print(" -> \033[31mNo Default branches found\033[m")
-        else:
+        try:
+            repo = git.Repo.clone_from(repository, local_repo_directory, branch=branch)
             print(f" -> {branch} branch")
+        except git.exc.GitCommandError:
+            print(" -> \033[31mNo Default branches found\033[m")
 
     except git.exc.GitCommandError as e:
         print()
