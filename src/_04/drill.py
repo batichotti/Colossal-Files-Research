@@ -47,7 +47,7 @@ input_path: str = './src/_04/input/'
 output_path: str = './src/_04/output/'
 
 # list with repositories that will analyzed
-repositories_list_path: str = './src/_00/input/reps.csv'
+repositories_list_path: str = './src/_00/input/600_Starred_Projects2.csv'
 
 # base dirs
 repositories_base_dir: str = './src/_00/output/'
@@ -82,7 +82,7 @@ for i in range(len(repositories)):
     print(f'    > {files_list_path}')
 
     # loading files list
-    files_list: pd.DataFrame = pd.read_csv(files_list_path)
+    files_list: pd.DataFrame = pd.read_csv(files_list_path, sep='|')
 
     for j in range(len(files_list)):
         # for each file generating a path
@@ -107,7 +107,7 @@ for i in range(len(repositories)):
 
                 # analyzing and saving commit information
                 df_commit = commit_anal(commit)
-                df_commit.to_csv(f'{commit_dir}/commit.csv')
+                df_commit.to_csv(f'{commit_dir}/commit.csv', sep='|')
 
                 # setting commit path
                 files_dir = f'{commit_dir}/files/'
@@ -116,7 +116,7 @@ for i in range(len(repositories)):
                 for file in commit.modified_files:
                     # analyzing and saving each commit's file information
                     df_file = file_anal(file)
-                    df_file.to_csv(f'{files_dir}{file.filename}.csv')
+                    df_file.to_csv(f'{files_dir}{file.filename}.csv', sep='|')
 
             except Exception as e:
                 print(f'Error: {e}')
@@ -126,7 +126,7 @@ for i in range(len(repositories)):
                 os.makedirs(error_dir, exist_ok=True)
 
                 # saving errors
-                df_commit.to_csv(f'{error_dir}errors_{commit.project_name}.csv', mode='a', header=False)
+                df_commit.to_csv(f'{error_dir}errors_{commit.project_name}.csv', mode='a', sep='|', header=False)
 
             counter += 1
 
@@ -140,5 +140,5 @@ for i in range(len(repositories)):
         'End' : [end],
         'TOTAL' : [end-start],
     })
-    total_time.to_csv(f'{output_path}{main_language}/{owner}~{project}/total_time.csv')
+    total_time.to_csv(f'{output_path}{main_language}/{owner}~{project}/total_time.csv', sep='|')
     print(end-start)
