@@ -2,8 +2,8 @@ import pydriller as dr
 import pandas as pd
 import os
 from datetime import datetime
-# import sys
-# sys.setrecursionlimit(10000)
+import sys
+sys.setrecursionlimit(1000000)
 
 
 # functions to analyze a commit ---------------------------------------------------------------------------------------
@@ -62,7 +62,7 @@ date = datetime(2024, 10, 8, 17, 0, 0)
 # preparing environment -----------------------------------------------------------------------------------------------
 
 # loading list of repositories
-repositories: pd.DataFrame = pd.read_csv(repositories_list_path, low_memory=False)
+repositories: pd.DataFrame = pd.read_csv(repositories_list_path, engine='python')
 
 for i in range(len(repositories)):
     # start timer
@@ -85,7 +85,7 @@ for i in range(len(repositories)):
     print(f'    > {files_list_path}')
 
     # loading files list
-    files_list: pd.DataFrame = pd.read_csv(files_list_path, sep='|', low_memory=False)
+    files_list: pd.DataFrame = pd.read_csv(files_list_path, sep='|', engine='python')
 
     for j in range(len(files_list)):
         # for each file generating a path
