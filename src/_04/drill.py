@@ -3,7 +3,6 @@ import pandas as pd
 import os
 from datetime import datetime
 import sys
-sys.setrecursionlimit(1000000)
 
 
 # functions to analyze a commit ---------------------------------------------------------------------------------------

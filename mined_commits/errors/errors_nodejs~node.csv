@@ -1,0 +1,132 @@
+0|1a25e901b7c380929f0d08599f49dd77897a627f|nodejs~node|D:\documentos\GitHub\Titan-Files-Research\src\_00\output\Javascript\nodejs~node|False|"tools: support full-icu by default
+
+Instead of an English-only icudt64l.dat in the repo,
+we now have icudt64l.dat.gz with all locales.
+
+- updated READMEs and docs
+- shrinker now copies source, and compresses (bzip2) the ICU data file
+- configure expects deps/icu-small to be full ICU with a full
+compressed data file
+
+Fixes: https://github.com/nodejs/node/issues/19214
+Co-Authored-By: Richard Lau <riclau@uk.ibm.com>
+Co-Authored-By: Jan Olaf Krems <jan.krems@gmail.com>
+Co-Authored-By: James M Snell <jasnell@gmail.com>
+PR-URL: https://github.com/nodejs/node/pull/29522
+
+Reviewed-By: Jan Krems <jan.krems@gmail.com>
+Reviewed-By: Jiawen Geng <technicalcute@gmail.com>
+Reviewed-By: James M Snell <jasnell@gmail.com>
+Reviewed-By: Michael Dawson <michael_dawson@ca.ibm.com>
+Reviewed-By: Michaël Zasso <targos@protonmail.com>"|11|Steven R. Loomis|srloomis@us.ibm.com|2019-09-30 11:17:49-07:00|25200|Rich Trott|rtrott@gmail.com|2019-10-03 15:21:26-07:00|25200
+0|31ea341ab0cf8edc25b544dc9b71f3f70cc4558c|nodejs~node|D:\documentos\GitHub\Titan-Files-Research\src\_00\output\Javascript\nodejs~node|False|"tools: update tzdata to 2019c
+
+Fixes: https://github.com/nodejs/node/issues/30211
+PR-URL: https://github.com/nodejs/node/pull/30356
+Reviewed-By: Steven R Loomis <srloomis@us.ibm.com>
+Reviewed-By: Michaël Zasso <targos@protonmail.com>"|1|Albert Wang|git@albertyw.com|2019-11-10 14:28:15-08:00|28800|Michaël Zasso|targos@protonmail.com|2019-11-13 09:22:23+01:00|-3600
+0|418dd68b611cce7e916dae82c75cb3d63b3c43a6|nodejs~node|D:\documentos\GitHub\Titan-Files-Research\src\_00\output\Javascript\nodejs~node|False|"tools: update icu to 65.1
+
+Update the version of the bundled ICU (deps/icu-small) to ICU version
+65.2.
+
+Fixes: https://github.com/nodejs/node/issues/30211
+Fixes: https://github.com/nodejs/node/issues/29540
+
+PR-URL: https://github.com/nodejs/node/pull/30232
+Reviewed-By: Steven R Loomis <srloomis@us.ibm.com>
+Reviewed-By: Michael Dawson <michael_dawson@ca.ibm.com>
+Reviewed-By: Ujjwal Sharma <usharma1998@gmail.com>"|453|Albert Wang|git@albertyw.com|2019-11-02 18:08:46-07:00|25200|Richard Lau|riclau@uk.ibm.com|2019-12-05 20:39:20-05:00|18000
+0|74e7e727684703c918026679f47732f8c69c0fa2|nodejs~node|D:\documentos\GitHub\Titan-Files-Research\src\_00\output\Javascript\nodejs~node|False|"deps: update to ICU 66.1
+
+- ICU 66.1 http://site.icu-project.org/download/66
+- Unicode 13
+- CLDR 36.1
+- Updated ./LICENSE
+
+PR-URL: https://github.com/nodejs/node/pull/32348
+Reviewed-By: Ujjwal Sharma <ryzokuken@disroot.org>
+Reviewed-By: Richard Lau <riclau@uk.ibm.com>
+Reviewed-By: James M Snell <jasnell@gmail.com>
+Reviewed-By: Michael Dawson <michael_dawson@ca.ibm.com>"|40|Steven R. Loomis|srloomis@us.ibm.com|2020-03-18 12:10:27-07:00|25200|Steven R. Loomis|srloomis@us.ibm.com|2020-03-20 17:27:04-07:00|25200
+0|cfec30fef3866bc7dfccc6488d8dbd3d9d87772f|nodejs~node|D:\documentos\GitHub\Titan-Files-Research\src\_00\output\Javascript\nodejs~node|False|"deps: update to ICU 67.1
+
+Refs: https://github.com/unicode-org/icu/releases/tag/release-67-1
+
+PR-URL: https://github.com/nodejs/node/pull/33324
+Reviewed-By: Ujjwal Sharma <ryzokuken@disroot.org>
+Reviewed-By: Steven R Loomis <srloomis@us.ibm.com>"|172|Michaël Zasso|targos@protonmail.com|2020-05-09 13:34:43+02:00|-7200|Michaël Zasso|targos@protonmail.com|2020-05-12 08:19:43+02:00|-7200
+0|ed9be3ab477e977f973504955897c23d578b276c|nodejs~node|D:\documentos\GitHub\Titan-Files-Research\src\_00\output\Javascript\nodejs~node|False|"deps: update icu to include tzdata2020a
+
+PR-URL: https://github.com/nodejs/node/pull/33362
+Reviewed-By: Steven R Loomis <srloomis@us.ibm.com>"|1|Shelley Vohr|shelley.vohr@gmail.com|2020-05-18 08:30:25-07:00|25200|Shelley Vohr|shelley.vohr@gmail.com|2020-05-19 08:38:06-07:00|25200
+0|f3821cd8d797bb9f3857f379968206226aa3ac46|nodejs~node|D:\documentos\GitHub\Titan-Files-Research\src\_00\output\Javascript\nodejs~node|False|"deps: update ICU to 68.1
+
+Refs: https://github.com/unicode-org/icu/releases/tag/release-68-1
+
+PR-URL: https://github.com/nodejs/node/pull/36187
+Reviewed-By: Richard Lau <rlau@redhat.com>
+Reviewed-By: Gireesh Punathil <gpunathi@in.ibm.com>
+Reviewed-By: Michael Dawson <midawson@redhat.com>
+Reviewed-By: Rich Trott <rtrott@gmail.com>
+Reviewed-By: Jiawen Geng <technicalcute@gmail.com>"|419|Michaël Zasso|targos@protonmail.com|2020-11-20 12:57:06+01:00|-3600|Node.js GitHub Bot|github-bot@iojs.org|2020-11-22 20:58:08+00:00|0
+0|5faffd8d3fe6ed3803d642e3da72df38c335c3ee|nodejs~node|D:\documentos\GitHub\Titan-Files-Research\src\_00\output\Javascript\nodejs~node|False|"deps: update ICU to 68.2
+
+Refs: https://github.com/unicode-org/icu/releases/tag/release-68-2
+
+PR-URL: https://github.com/nodejs/node/pull/36980
+Reviewed-By: Antoine du Hamel <duhamelantoine1995@gmail.com>
+Reviewed-By: Richard Lau <rlau@redhat.com>
+Reviewed-By: Benjamin Gruenbaum <benjamingr@gmail.com>
+Reviewed-By: Beth Griggs <bgriggs@redhat.com>
+Reviewed-By: Colin Ihrig <cjihrig@gmail.com>"|21|Michaël Zasso|targos@protonmail.com|2021-01-18 09:37:06+01:00|-3600|Michaël Zasso|targos@protonmail.com|2021-01-20 16:32:45+01:00|-3600
+0|ee669a0d29e567c58633300bcd71d06879f58e87|nodejs~node|D:\documentos\GitHub\Titan-Files-Research\src\_00\output\Javascript\nodejs~node|False|"deps: update ICU to 69.1
+
+Refs: https://github.com/unicode-org/icu/releases/tag/release-69-1
+
+PR-URL: https://github.com/nodejs/node/pull/38178
+Reviewed-By: Colin Ihrig <cjihrig@gmail.com>
+Reviewed-By: Richard Lau <rlau@redhat.com>
+Reviewed-By: Jiawen Geng <technicalcute@gmail.com>
+Reviewed-By: James M Snell <jasnell@gmail.com>"|215|Michaël Zasso|targos@protonmail.com|2021-04-09 23:57:16+02:00|-7200|gengjiawen|technicalcute@gmail.com|2021-04-14 09:07:29+00:00|0
+0|de6399c0c07bda22bc39a74e4fa8b7e391dfacea|nodejs~node|D:\documentos\GitHub\Titan-Files-Research\src\_00\output\Javascript\nodejs~node|False|"deps: update ICU to 70.1
+
+Refs: https://github.com/unicode-org/icu/releases/tag/release-70-1
+
+PR-URL: https://github.com/nodejs/node/pull/40658
+Reviewed-By: Richard Lau <rlau@redhat.com>
+Reviewed-By: Tobias Nießen <tniessen@tnie.de>"|715|Michaël Zasso|targos@protonmail.com|2021-10-29 17:25:13+02:00|-7200|Michaël Zasso|targos@protonmail.com|2021-11-09 17:26:53+01:00|-3600
+0|6d4b01774bfaa319e3c7a9f1a3165a4d3641ec84|nodejs~node|D:\documentos\GitHub\Titan-Files-Research\src\_00\output\Javascript\nodejs~node|False|"deps: update ICU to 71.1
+
+Refs: https://github.com/unicode-org/icu/releases/tag/release-71-1
+
+PR-URL: https://github.com/nodejs/node/pull/42655
+Reviewed-By: Richard Lau <rlau@redhat.com>
+Reviewed-By: Matteo Collina <matteo.collina@gmail.com>
+Reviewed-By: Darshan Sen <raisinten@gmail.com>
+Reviewed-By: Tobias Nießen <tniessen@tnie.de>"|107|Michaël Zasso|targos@protonmail.com|2022-04-10 11:13:52+02:00|-7200|GitHub|noreply@github.com|2022-04-10 10:13:52+01:00|-3600
+0|48229e5dbb3d4921b23d3a62009fc35d32cff4af|nodejs~node|D:\documentos\GitHub\Titan-Files-Research\src\_00\output\Javascript\nodejs~node|False|"test: test snapshotting TypeScript compiler
+
+PR-URL: https://github.com/nodejs/node/pull/38905
+Refs: https://github.com/nodejs/node/issues/35711
+Reviewed-By: Chengzhong Wu <legendecas@gmail.com>
+Reviewed-By: Matteo Collina <matteo.collina@gmail.com>"|5|Joyee Cheung|joyeec9h3@gmail.com|2021-09-27 15:24:40+08:00|-28800|Joyee Cheung|joyeec9h3@gmail.com|2022-08-03 00:41:45+08:00|-28800
+0|21a2e901e7c16be8e1f97c374a181a40bd6bef38|nodejs~node|D:\documentos\GitHub\Titan-Files-Research\src\_00\output\Javascript\nodejs~node|False|"doc: fix broken link to TC39 import attributes proposal
+
+The import assertion proposal has been renamed and
+the old URL does not redirect to the new one. So let's update our
+URL to point to the import attributes proposal, which is what
+import assertions have been renamed to.
+
+PR-URL: https://github.com/nodejs/node/pull/47954
+Reviewed-By: Geoffrey Booth <webadmin@geoffreybooth.com>
+Reviewed-By: Antoine du Hamel <duhamelantoine1995@gmail.com>
+Reviewed-By: Darshan Sen <raisinten@gmail.com>
+Reviewed-By: Trivikram Kamat <trivikr.dev@gmail.com>"|2|Rich Trott|rtrott@gmail.com|2023-05-13 04:36:31-07:00|25200|GitHub|noreply@github.com|2023-05-13 13:36:31+02:00|-7200
+0|cfec30fef3866bc7dfccc6488d8dbd3d9d87772f|nodejs~node|D:\documentos\GitHub\Titan-Files-Research\src\_00\output\Javascript\nodejs~node|False|"deps: update to ICU 67.1
+
+Refs: https://github.com/unicode-org/icu/releases/tag/release-67-1
+
+PR-URL: https://github.com/nodejs/node/pull/33324
+Reviewed-By: Ujjwal Sharma <ryzokuken@disroot.org>
+Reviewed-By: Steven R Loomis <srloomis@us.ibm.com>"|172|Michaël Zasso|targos@protonmail.com|2020-05-09 13:34:43+02:00|-7200|Michaël Zasso|targos@protonmail.com|2020-05-12 08:19:43+02:00|-7200

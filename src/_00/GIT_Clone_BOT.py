@@ -2,7 +2,7 @@ import git
 import pandas as pd
 from datetime import datetime
 
-input_path = './src/_00/input/600_Starred_Projects.csv'
+input_path = './src/_00/input/600_Starred_Projects2.csv'
 output_path = './src/_00/output'
 
 input_file = pd.read_csv(input_path)
