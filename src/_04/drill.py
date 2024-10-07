@@ -10,7 +10,7 @@ input_path: str = './src/_04/input/'
 output_path: str = './src/_04/output/'
 
 # list with repositories that will analyzed
-repositories_list_path: str = './src/_00/input/600_Starred_Projects3.csv'
+repositories_list_path: str = './src/_00/input/600_Starred_Projects.csv'
 
 # base dirs
 repositories_base_dir: str = './src/_00/output/'
@@ -56,7 +56,7 @@ for i in range(len(repositories)):
 
 # pydriller -----------------------------------------------------------------------------------------------------------
 
-        dir_path = f'{output_path}{main_language}/{owner}~{project}/{file_name}'
+        dir_path = f'{output_path}{main_language}/{owner}~{project}'
         os.makedirs(dir_path, exist_ok=True)
 
         repository = dr.Repository(repository_path, only_in_branch=branch, filepath=file_path)
@@ -64,7 +64,9 @@ for i in range(len(repositories)):
         for commit in repository.traverse_commits():
             try:
                 # setting commit path
-                commit_dir = f'{dir_path}/commit_{commit.hash}/'
+                commit_dir = f'{dir_path}/{commit.hash}'
+                if os.path.exists(commit_dir):
+                    continue
                 os.makedirs(commit_dir, exist_ok=True)
 
                 # analyzing and saving commit information
