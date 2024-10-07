@@ -4,52 +4,13 @@ import os
 from datetime import datetime
 import sys
 
-
-# functions to analyze a commit ---------------------------------------------------------------------------------------
-
-# function that analyze a commit information
-def commit_anal(commit) -> pd.DataFrame:
-    summary: pd.DataFrame = pd.DataFrame({
-        'Hash': [commit.hash],
-        'Project Name': [commit.project_name],
-        'Local Commit PATH': [commit.project_path],
-        'Merge Commit': [commit.merge],
-        'Message': [commit.msg],
-        'Number of Files': [len(commit.modified_files)],
-        'Author Name': [commit.author.name],
-        'Author Email': [commit.author.email],
-        'Author Commit Date': [commit.author_date],
-        'Author Commit Timezone': [commit.author_timezone],
-        'Committer Name': [commit.committer.name],
-        'Committer Email': [commit.committer.email],
-        'Committer Commit Date': [commit.committer_date],
-        'Committer Timezone': [commit.committer_timezone],
-    })
-    return summary
-
-# function that analyze a commit's file information
-def file_anal(file) -> pd.DataFrame:
-    summary: pd.DataFrame = pd.DataFrame({
-        'File Name': [file.filename],
-        'Change Type': [str(file.change_type).split('.')[-1]],
-        'Local File PATH Old': [file.old_path if file.old_path else 'new file'],
-        'Local File PATH New': [file.new_path],
-        'Complexity': [file.complexity if file.complexity else 'not calculated'],
-        'Methods': [len(file.methods)],
-        'Tokens': [file.token_count if file.token_count else 'not calculated'],
-        'Lines Of Code (nloc)': [file.nloc if file.nloc else 'not calculated'],
-        'Lines Added': [file.added_lines],
-        'Lines Deleted': [file.deleted_lines],
-    })
-    return summary
-
 # setting paths -------------------------------------------------------------------------------------------------------
 
 input_path: str = './src/_04/input/'
 output_path: str = './src/_04/output/'
 
 # list with repositories that will analyzed
-repositories_list_path: str = './src/_00/input/600_Starred_Projects2.csv'
+repositories_list_path: str = './src/_00/input/600_Starred_Projects3.csv'
 
 # base dirs
 repositories_base_dir: str = './src/_00/output/'
@@ -100,37 +61,60 @@ for i in range(len(repositories)):
 
         repository = dr.Repository(repository_path, only_in_branch=branch, filepath=file_path)
 
-        counter: int = 0
         for commit in repository.traverse_commits():
             try:
                 # setting commit path
-                commit_dir = f'{dir_path}/commit_{counter}/'
+                commit_dir = f'{dir_path}/commit_{commit.hash}/'
                 os.makedirs(commit_dir, exist_ok=True)
 
                 # analyzing and saving commit information
-                df_commit = commit_anal(commit)
+                df_commit: pd.DataFrame = pd.DataFrame({
+                    'Hash': [commit.hash],
+                    'Project Name': [commit.project_name],
+                    'Local Commit PATH': [commit.project_path],
+                    'Merge Commit': [commit.merge],
+                    'Message': [commit.msg],
+                    'Number of Files': [len(commit.modified_files)],
+                    'Author Name': [commit.author.name],
+                    'Author Email': [commit.author.email],
+                    'Author Commit Date': [commit.author_date],
+                    'Author Commit Timezone': [commit.author_timezone],
+                    'Committer Name': [commit.committer.name],
+                    'Committer Email': [commit.committer.email],
+                    'Committer Commit Date': [commit.committer_date],
+                    'Committer Timezone': [commit.committer_timezone],
+                })
                 df_commit.to_csv(f'{commit_dir}/commit.csv', sep='|')
 
-                # setting commit path
+                # setting file path
                 files_dir = f'{commit_dir}/files/'
                 os.makedirs(files_dir, exist_ok=True)
 
                 for file in commit.modified_files:
                     # analyzing and saving each commit's file information
-                    df_file = file_anal(file)
+                    df_file: pd.DataFrame = pd.DataFrame({
+                        'File Name': [file.filename],
+                        'Change Type': [str(file.change_type).split('.')[-1]],
+                        'Local File PATH Old': [file.old_path if file.old_path else 'new file'],
+                        'Local File PATH New': [file.new_path],
+                        'Complexity': [file.complexity if file.complexity else 'not calculated'],
+                        'Methods': [len(file.methods)],
+                        'Tokens': [file.token_count if file.token_count else 'not calculated'],
+                        'Lines Of Code (nloc)': [file.nloc if file.nloc else 'not calculated'],
+                        'Lines Added': [file.added_lines],
+                        'Lines Deleted': [file.deleted_lines],
+                    })
                     df_file.to_csv(f'{files_dir}{file.filename}.csv', sep='|')
 
             except Exception as e:
                 print(f'Error: {e}')
-                
+
                 # error dir
                 error_dir = './mined_commits/errors/'
                 os.makedirs(error_dir, exist_ok=True)
 
                 # saving errors
                 df_commit.to_csv(f'{error_dir}errors_{commit.project_name}.csv', mode='a', sep='|', header=False)
-
-            counter += 1
 
 # ---------------------------------------------------------------------------------------------------------------------
 
@@ -142,5 +126,5 @@ for i in range(len(repositories)):
         'End' : [end],
         'TOTAL' : [end-start],
     })
-    total_time.to_csv(f'{output_path}{main_language}/{owner}~{project}/total_time.csv', sep='|')
+    total_time.to_csv(f'{output_path}{main_language}/{owner}~{project}/total_time.csv', index=False)
     print(end-start)

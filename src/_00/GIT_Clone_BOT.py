@@ -2,7 +2,7 @@ import git
 import pandas as pd
 from datetime import datetime
 
-input_path = './src/_00/input/600_Starred_Projects2.csv'
+input_path = './src/_00/input/600_Starred_Projects.csv'
 output_path = './src/_00/output'
 
 input_file = pd.read_csv(input_path)
@@ -12,7 +12,7 @@ start = datetime.now()
 for repository, language, branch in zip(input_file['url'], input_file['main language'], input_file['branch']):
     local_repo_directory = f"{output_path}/{language}/{repository.split('/')[-2]}~{repository.split('/')[-1]}"
     print(f"{repository.split('/')[-2]}~{repository.split('/')[-1]}", end="")
-    
+
     try:
         try:
             repo = git.Repo.clone_from(repository, local_repo_directory, branch=branch)
@@ -29,6 +29,6 @@ for repository, language, branch in zip(input_file['url'], input_file['main lang
 
 end = datetime.now()
 time = pd.DataFrame({'start' : start, 'end':end, 'time_expended':[end-start]})
-time.to_csv(f'{output_path}/time~total.csv')
+time.to_csv(f'{output_path}/time~total.csv', index=False)
 
 print('DONE!')
