@@ -9,6 +9,9 @@ from concurrent.futures import ThreadPoolExecutor
 input_path: str = './src/_04/input/'
 output_path: str = './src/_04/output/'
 
+# Threads/CPU cores ---------------------------------------------------------------------------------------------------
+num_cores = os.cpu_count()
+
 # list with repositories that will analyzed
 repositories_list_path: str = './src/_00/input/600_Starred_Projects.csv'
 
@@ -128,5 +131,5 @@ def process_repository(i):
     print(end - start)
 
 if __name__ == '__main__':
-    with ThreadPoolExecutor(max_workers=4) as executor: #Adjust looking at the CPU
+    with ThreadPoolExecutor(max_workers=num_cores) as executor: #Auto-fit
         executor.map(process_repository, range(len(repositories)))
