@@ -13,7 +13,7 @@ output_path: str = './src/_04/output/'
 num_cores = os.cpu_count()
 
 # list with repositories that will analyzed
-repositories_list_path: str = './src/_00/input/600_Starred_Projects.csv'
+repositories_list_path: str = './src/_00/input/600_Starred_Projects_vLittle.csv'
 
 # base dirs
 repositories_base_dir: str = './src/_00/output/'
@@ -44,10 +44,11 @@ def process_repository(i):
 
     # Generating the path to the repository's files list
     files_list_path: str = f'{files_base_path}{main_language}/{owner}~{project}.csv'
-    print(f'    > {files_list_path}')
+    print(f'    > {files_list_path} - len: {len(files_list_path)}')
 
     # Loading files list
     files_list: pd.DataFrame = pd.read_csv(files_list_path, sep='|', engine='python')
+    print(f' --> {files_list}')
 
     for j in range(len(files_list)):
         # For each file, generate a path
@@ -62,6 +63,7 @@ def process_repository(i):
         os.makedirs(dir_path, exist_ok=True)
 
         repository = dr.Repository(repository_path, only_in_branch=branch, filepath=file_path)
+        print(f' >>>>> {file_path}')
 
         for commit in repository.traverse_commits():
             try:
