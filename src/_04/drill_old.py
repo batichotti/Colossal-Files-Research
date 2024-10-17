@@ -9,7 +9,7 @@ input_path: str = './src/_04/input/'
 output_path: str = './src/_04/output/'
 
 # list with repositories that will analyzed
-repositories_list_path: str = './src/_00/input/600_Starred_Projects_vLittle.csv'
+repositories_list_path: str = './src/_00/input/600_Starred_Projects_vLite.csv'
 
 # base dirs
 repositories_base_dir: str = './src/_00/output/'
@@ -111,7 +111,7 @@ for i in range(len(repositories)):
                 print(f'Error: {e}')
 
                 # error dir
-                error_dir = './mined_commits/errors/'
+                error_dir: str = f'{output_path}errors/'
                 os.makedirs(error_dir, exist_ok=True)
 
                 # saving errors

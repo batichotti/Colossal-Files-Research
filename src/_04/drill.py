@@ -13,7 +13,7 @@ output_path: str = './src/_04/output/'
 num_cores = os.cpu_count()
 
 # list with repositories that will analyzed
-repositories_list_path: str = './src/_00/input/600_Starred_Projects_vLittle.csv'
+repositories_list_path: str = './src/_00/input/600_Starred_Projects_vLite.csv'
 
 # base dirs
 repositories_base_dir: str = './src/_00/output/'
@@ -116,7 +116,7 @@ def process_repository(i):
                 print(f'Error: {e}')
 
                 # Error dir
-                error_dir = './mined_commits/errors/'
+                error_dir: str = f'{output_path}errors/'
                 os.makedirs(error_dir, exist_ok=True)
 
                 # Saving errors

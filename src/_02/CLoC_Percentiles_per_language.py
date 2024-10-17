@@ -2,8 +2,8 @@ import pandas as pd
 import numpy as np
 import os
 
-input_path = 'src/_01/output'
-output_path = 'src/_02/output'
+input_path: str = './src/_01/output'
+output_path: str = './src/_02/output'
 
 all_dataframes = []
 
@@ -44,4 +44,6 @@ final_output_dataframe.to_csv(f'{output_path}/percentis_by_language.csv', index=
 
 filtered_languages = ["C", "C#", "C++", "Dart", "Elixir", "Go", "Haskell", "Java", "JavaScript", "Kotlin", "Lua", "Objective-C", "Perl", "PHP", "Python", "Ruby", "Rust", "Scala", "Swift", "TypeScript"]
 output_filtered = final_output_dataframe[final_output_dataframe['language'].isin(filtered_languages)]
+
+os.makedirs({output_path}, exist_ok=True)
 output_filtered.to_csv(f'{output_path}/percentis_by_language_filtered.csv', index=False)
