@@ -28,7 +28,6 @@ def clone_repository(repository, language, branch):
         else:
             print(f"\033[31mAn error occurred: {e}\033[m")
 
-# Using ThreadPoolExecutor to parallelize the cloning process
 with ThreadPoolExecutor(max_workers=max_workers) as executor:
     for repository, language, branch in zip(input_file['url'], input_file['main language'], input_file['branch']):
         executor.submit(clone_repository, repository, language, branch)
