@@ -107,7 +107,6 @@ while index < len(input_file):
     index += 1
 
 #-------------------------------------------------------------------------------------------------
-
 end = datetime.now()
 time = pd.DataFrame({'start': start, 'end': end, 'time_expended': [end - start]})
 time.to_csv(f'{output0_path}/time~total.csv', index=False)
