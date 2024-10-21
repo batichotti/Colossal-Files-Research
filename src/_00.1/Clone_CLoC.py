@@ -1,12 +1,11 @@
 import git
 import pandas as pd
 from datetime import datetime
-from os import path, listdir, system, remove
+from os import path, system, remove
 from platform import system as op_sys
 SEPARATOR = '|'
 
 #-------------------------------------------------------------------------------------------------
-
 def formater(file_path:str, separator:str=','):
     try:
         file = pd.read_csv(file_path, sep=separator, low_memory=False)
@@ -37,7 +36,6 @@ def formater(file_path:str, separator:str=','):
 
 
 # SETUP ------------------------------------------------------------------------------------------
-
 input0_path = './src/_00/input/600_Starred_Projects_vLite.csv'
 output0_path = './src/_00.1/output-0-clone'
 
@@ -54,7 +52,6 @@ else:
 start = datetime.now()
 
 # Code -------------------------------------------------------------------------------------------
-
 index = 0
 while index < len(input_file):
 # Clone ------------------------------------------------------------------------------------------
@@ -96,7 +93,6 @@ while index < len(input_file):
         print(f"\033[31mAn error occurred in CLoC:\n{e}\033[m")
 
 # Verifying --------------------------------------------------------------------------------------
-
     try:
         cloc_df = pd.read_csv(f'{cloc_repo_path}.csv', sep=SEPARATOR, low_memory=False)
         for file in cloc_df['path']:
