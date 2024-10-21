@@ -106,9 +106,6 @@ while index < len(input_file):
                 if path.exists(cloc_repo_path):
                     remove(cloc_repo_path)
                 continue
-
-        remove(local_repo_directory)
-        remove(cloc_repo_path)
     except:
         print(f"\033[31mAn error occurred in Verifying:\n{e}\033[m")
     index += 1
