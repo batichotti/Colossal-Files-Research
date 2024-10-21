@@ -10,7 +10,6 @@ SEPARATOR = '|'
 def formater(file_path:str, separator:str=','):
     try:
         file = pd.read_csv(file_path, sep=separator, low_memory=False)
-
         try:
             columns_to_remove = [col for col in file.columns if col.startswith("github.com/AlDanial/cloc")]
             file = file.drop(columns=columns_to_remove) # removing watermark
@@ -27,21 +26,18 @@ def formater(file_path:str, separator:str=','):
             file = file[['path', 'owner', 'project', 'file', 'language', 'code', 'comment', 'blank']] # rearranging csv
 
             file.to_csv(file_path, sep=separator, index=False)
-
         except:
             print('ERROR#???')
             input('primeiro')
             remove(file_path)
-
     except:
         print(f'\033[31mSeparator error, reprocess with Windows(\033[35m{file_path}.csv\033[31m)\033[m')
         input('segundo')
         remove(file_path)
 
 
-#-------------------------------------------------------------------------------------------------
+# SETUP ------------------------------------------------------------------------------------------
 
-#SETUP
 input0_path = './src/_00/input/600_Starred_Projects_vLite.csv'
 output0_path = './src/_00.1/output-0-clone'
 
@@ -57,11 +53,13 @@ else:
 
 start = datetime.now()
 
-#-------------------------------------------------------------------------------------------------
+# Code -------------------------------------------------------------------------------------------
 
 index = 0
 while index < len(input_file):
+# Clone ------------------------------------------------------------------------------------------
     repository, language, branch = input_file.loc[index, ['url', 'main language', 'branch']]
+
     repo_path = f"{language}/{repository.split('/')[-2]}~{repository.split('/')[-1]}"
     local_repo_directory = f"{output0_path}/{repo_path}"
     print(f"{repository.split('/')[-2]}~{repository.split('/')[-1]}", end="")
@@ -72,16 +70,14 @@ while index < len(input_file):
             print(f" -> {branch} branch")
         except git.exc.GitCommandError:
             print(" -> \033[31mNo Default branches found\033[m")
-
     except git.exc.GitCommandError as e:
         print()
         if "already exists and is not an empty directory" in e.stderr:
             print("\033[31mDestination path already exists and is not an empty directory\033[m")
         else:
-            print(f"\033[31mAn error occurred: {e}\033[m")
+            print(f"\033[31mAn error occurred in Clone:\n{e}\033[m")
 
-#-------------------------------------------------------------------------------------------------
-
+# CLoC -------------------------------------------------------------------------------------------
     try:
         cloc_repo_path = f"{output1_path}/{repo_path}"
         if path.exists(f'{cloc_repo_path}.csv'):
@@ -96,27 +92,22 @@ while index < len(input_file):
 
             if path.exists(f'{cloc_repo_path}.csv'):
                 print(f'\n File \033[35m{repository}.csv\033[m was created successfully \n')
-    except:
-        print("Erro")
+    except Exception as e:
+        print(f"\033[31mAn error occurred in CLoC:\n{e}\033[m")
 
-#-------------------------------------------------------------------------------------------------
+# Verifying --------------------------------------------------------------------------------------
 
     try:
         cloc_df = pd.read_csv(f'{cloc_repo_path}.csv', sep=SEPARATOR, low_memory=False)
-
         for file in cloc_df['path']:
             if not path.exists(file):
                 if path.exists(local_repo_directory):
                     remove(local_repo_directory)
                 if path.exists(cloc_repo_path):
                     remove(cloc_repo_path)
-                print("Error1")
-                break
+                continue
     except:
-        print("Erro2")
-        continue  # Reinicia o laço sem avançar para o próximo repositório
-
-    # Avança para o próximo repositório se o código rodou sem erros
+        print(f"\033[31mAn error occurred in Verifying:\n{e}\033[m")
     index += 1
 
 #-------------------------------------------------------------------------------------------------
