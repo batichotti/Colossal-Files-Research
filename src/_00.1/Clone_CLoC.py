@@ -3,7 +3,13 @@ import pandas as pd
 from datetime import datetime
 from os import path, system, remove
 from platform import system as op_sys
+
 SEPARATOR = '|'
+
+if op_sys() == "Windows":
+    DIV = '\\'
+else:
+    DIV = '/'
 
 #-------------------------------------------------------------------------------------------------
 def formater(file_path:str, separator:str=','):
@@ -18,9 +24,9 @@ def formater(file_path:str, separator:str=','):
 
             file = file.rename(columns={'filename':'path'})
 
-            file['owner'] = file['path'].apply(lambda x: x.split('\\')[5].split('~')[0])
-            file['project'] = file['path'].apply(lambda x: x.split('\\')[5].split('~')[1])
-            file['file'] = file['path'].apply(lambda x: x.split('\\')[-1]) # adding columns to the owner, project, and file name
+            file['owner'] = file['path'].apply(lambda x: x.split(DIV)[5].split('~')[0])
+            file['project'] = file['path'].apply(lambda x: x.split(DIV)[5].split('~')[1])
+            file['file'] = file['path'].apply(lambda x: x.split(DIV)[-1]) # adding columns to the owner, project, and file name
 
             file = file[['path', 'owner', 'project', 'file', 'language', 'code', 'comment', 'blank']] # rearranging csv
 
