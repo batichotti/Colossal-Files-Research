@@ -90,6 +90,9 @@ while index < len(input_file):
                 system(f'{cloc} --by-file-by-lang --csv-delimiter="{SEPARATOR}" --out {cloc_repo_path}.csv {local_repo_directory}')  # running CLoC
                 formater(f'{cloc_repo_path}.csv', SEPARATOR)
             else:
+                # system(f'{cloc} --by-file-by-lang --csv-delimiter="{SEPARATOR}" --out {cloc_repo_path}.csv {local_repo_directory}')  # running CLoC
+                # formater(f'{cloc_repo_path}.csv', SEPARATOR)
+
                 system(f'{cloc} --by-file-by-lang --csv --out={cloc_repo_path}.csv {local_repo_directory}')  # for Linux
                 formater(f'{cloc_repo_path}.csv')
 
@@ -100,7 +103,11 @@ while index < len(input_file):
 
 # Verifying --------------------------------------------------------------------------------------
     try:
-        cloc_df = pd.read_csv(f'{cloc_repo_path}.csv', sep=SEPARATOR, low_memory=False)
+        if op_sys() == "Windows":
+            cloc_df = pd.read_csv(f'{cloc_repo_path}.csv', sep=SEPARATOR, low_memory=False)
+        else:
+            cloc_df = pd.read_csv(f'{cloc_repo_path}.csv', low_memory=False)
+
         for file in cloc_df['path']:
             if not path.exists(file):
                 if path.exists(local_repo_directory):
@@ -108,7 +115,7 @@ while index < len(input_file):
                 if path.exists(cloc_repo_path):
                     remove(cloc_repo_path)
                 continue
-    except:
+    except Exception as e:
         print(f"\033[31mAn error occurred in Verifying:\n{e}\033[m")
     index += 1
 
