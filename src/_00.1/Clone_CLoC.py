@@ -38,7 +38,7 @@ def formater(file_path:str, separator:str=','):
 
 
 # SETUP ------------------------------------------------------------------------------------------
-input0_path = './src/_00/input/600_Starred_Projects_vLite.csv'
+input0_path = './src/_00/input/600_bos.csv'
 output0_path = './src/_00.1/output-0-clone'
 
 input_file = pd.read_csv(input0_path)
@@ -61,12 +61,12 @@ while index < len(input_file):
 
     repo_path = f"{language}/{repository.split('/')[-2]}~{repository.split('/')[-1]}"
     local_repo_directory = f"{output0_path}/{repo_path}"
-    print(f"{repository.split('/')[-2]}~{repository.split('/')[-1]}", end="")
+    print(f"{repository.split('/')[-2]}~{repository.split('/')[-1]}", end='')
 
     if not path.exists(local_repo_directory):
         try:
             try:
-                print(f"Cloning...")
+                print(f" - Cloning...", end='')
                 repo = git.Repo.clone_from(repository, local_repo_directory, branch=branch)
                 print(f" -> {branch} branch")
             except git.exc.GitCommandError:
