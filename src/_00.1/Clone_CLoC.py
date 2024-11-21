@@ -5,11 +5,7 @@ from os import path, system, remove
 from platform import system as op_sys
 
 SEPARATOR = '|'
-
-if op_sys() == "Windows":
-    DIV = '\\'
-else:
-    DIV = '/'
+DIV = '/'
 
 #-------------------------------------------------------------------------------------------------
 def formater(file_path:str, separator:str=','):
@@ -67,18 +63,20 @@ while index < len(input_file):
     local_repo_directory = f"{output0_path}/{repo_path}"
     print(f"{repository.split('/')[-2]}~{repository.split('/')[-1]}", end="")
 
-    try:
+    if not path.exists(local_repo_directory):
         try:
-            repo = git.Repo.clone_from(repository, local_repo_directory, branch=branch)
-            print(f" -> {branch} branch")
-        except git.exc.GitCommandError:
-            print(" -> \033[31mNo Default branches found\033[m")
-    except git.exc.GitCommandError as e:
-        print()
-        if "already exists and is not an empty directory" in e.stderr:
-            print("\033[31mDestination path already exists and is not an empty directory\033[m")
-        else:
-            print(f"\033[31mAn error occurred in Clone:\n{e}\033[m")
+            try:
+                print(f"Cloning...")
+                repo = git.Repo.clone_from(repository, local_repo_directory, branch=branch)
+                print(f" -> {branch} branch")
+            except git.exc.GitCommandError:
+                print(" -> \033[31mNo Default branches found\033[m")
+        except git.exc.GitCommandError as e:
+            print()
+            if "already exists and is not an empty directory" in e.stderr:
+                print("\033[31mDestination path already exists and is not an empty directory\033[m")
+            else:
+                print(f"\033[31mAn error occurred in Clone:\n{e}\033[m")
 
 # CLoC -------------------------------------------------------------------------------------------
     try:
@@ -86,30 +84,22 @@ while index < len(input_file):
         if path.exists(f'{cloc_repo_path}.csv'):
             print(f"\033[31mDestination path (\033[35m{repository}.csv\033[31m) already exists and is not an empty directory\n\033[m")
         else:
-            if op_sys() == "Windows":
-                system(f'{cloc} --by-file-by-lang --csv-delimiter="{SEPARATOR}" --out {cloc_repo_path}.csv {local_repo_directory}')  # running CLoC
-                formater(f'{cloc_repo_path}.csv', SEPARATOR)
-            else:
-                # system(f'{cloc} --by-file-by-lang --csv-delimiter="{SEPARATOR}" --out {cloc_repo_path}.csv {local_repo_directory}')  # running CLoC
-                # formater(f'{cloc_repo_path}.csv', SEPARATOR)
-
-                system(f'{cloc} --by-file-by-lang --csv --out={cloc_repo_path}.csv {local_repo_directory}')  # for Linux
-                formater(f'{cloc_repo_path}.csv')
-
+            system(f'{cloc} --by-file-by-lang --csv-delimiter="{SEPARATOR}" --out {cloc_repo_path}.csv {local_repo_directory}')  # running CLoC
+            formater(f'{cloc_repo_path}.csv', SEPARATOR)
             if path.exists(f'{cloc_repo_path}.csv'):
                 print(f'\n File \033[35m{repository}.csv\033[m was created successfully \n')
     except Exception as e:
         print(f"\033[31mAn error occurred in CLoC:\n{e}\033[m")
 
 # Verifying --------------------------------------------------------------------------------------
+    cloc_flag = True
+
     try:
-        if op_sys() == "Windows":
-            cloc_df = pd.read_csv(f'{cloc_repo_path}.csv', sep=SEPARATOR, low_memory=False)
-        else:
-            cloc_df = pd.read_csv(f'{cloc_repo_path}.csv', low_memory=False)
+        cloc_df = pd.read_csv(f'{cloc_repo_path}.csv', sep=SEPARATOR, low_memory=False)
 
         for file in cloc_df['path']:
             if not path.exists(file):
+                cloc_flag = False
                 if path.exists(local_repo_directory):
                     remove(local_repo_directory)
                 if path.exists(cloc_repo_path):
@@ -117,7 +107,9 @@ while index < len(input_file):
                 continue
     except Exception as e:
         print(f"\033[31mAn error occurred in Verifying:\n{e}\033[m")
-    index += 1
+
+    if cloc_flag:
+        index += 1
 
 #-------------------------------------------------------------------------------------------------
 end = datetime.now()
