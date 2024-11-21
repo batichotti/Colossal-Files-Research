@@ -77,17 +77,18 @@ while index < len(input_file):
                 print("\033[31mDestination path already exists and is not an empty directory\033[m")
             else:
                 print(f"\033[31mAn error occurred in Clone:\n{e}\033[m")
+    print()
 
 # CLoC -------------------------------------------------------------------------------------------
     try:
         cloc_repo_path = f"{output1_path}/{repo_path}"
         if path.exists(f'{cloc_repo_path}.csv'):
-            print(f"\033[31mDestination path (\033[35m{repository}.csv\033[31m) already exists and is not an empty directory\n\033[m")
+            print(f"\033[31mDestination path (\033[35m{local_repo_directory}.csv\033[31m) already exists and is not an empty directory\n\033[m")
         else:
-            system(f'{cloc} --by-file-by-lang --csv-delimiter="{SEPARATOR}" --out {cloc_repo_path}.csv {local_repo_directory}')  # running CLoC
+            system(f'{cloc} --timeout=0 --by-file-by-lang --csv-delimiter="{SEPARATOR}" --out {cloc_repo_path}.csv {local_repo_directory}')  # running CLoC
             formater(f'{cloc_repo_path}.csv', SEPARATOR)
             if path.exists(f'{cloc_repo_path}.csv'):
-                print(f'\n File \033[35m{repository}.csv\033[m was created successfully \n')
+                print(f'\n File \033[35m{repository.split('/')[-2]}~{repository.split('/')[-1]}.csv\033[m was created successfully \n')
     except Exception as e:
         print(f"\033[31mAn error occurred in CLoC:\n{e}\033[m")
 

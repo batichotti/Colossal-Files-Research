@@ -49,6 +49,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00.1/output-0-clone/TypeScript/microsoft~playwright/docs/src/test-api/class-test.md|microsoft|playwright|class-test.md|Markdown|1278|0|543
 ./src/_00.1/output-0-clone/TypeScript/microsoft~playwright/packages/playwright-core/src/server/firefox/protocol.d.ts|microsoft|playwright|protocol.d.ts|TypeScript|1254|1|1
 ./src/_00.1/output-0-clone/TypeScript/microsoft~playwright/packages/playwright/bundles/babel/package-lock.json|microsoft|playwright|package-lock.json|JSON|1212|0|0
+./src/_00.1/output-0-clone/TypeScript/microsoft~playwright/tests/library/browsercontext-fetch.spec.ts|microsoft|playwright|browsercontext-fetch.spec.ts|TypeScript|1210|49|110
 ./src/_00.1/output-0-clone/TypeScript/microsoft~playwright/tests/expect/spyMatchers.test.ts|microsoft|playwright|spyMatchers.test.ts|TypeScript|1191|37|271
 ./src/_00.1/output-0-clone/TypeScript/microsoft~playwright/tests/playwright-test/playwright.trace.spec.ts|microsoft|playwright|playwright.trace.spec.ts|TypeScript|1140|24|109
 ./src/_00.1/output-0-clone/TypeScript/microsoft~playwright/packages/playwright-core/src/server/registry/index.ts|microsoft|playwright|index.ts|TypeScript|1136|51|82
@@ -74,6 +75,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00.1/output-0-clone/TypeScript/microsoft~playwright/packages/html-reporter/src/colors.css|microsoft|playwright|colors.css|CSS|866|17|6
 ./src/_00.1/output-0-clone/TypeScript/microsoft~playwright/docs/src/api/class-elementhandle.md|microsoft|playwright|class-elementhandle.md|Markdown|865|0|313
 ./src/_00.1/output-0-clone/TypeScript/microsoft~playwright/packages/playwright-core/src/server/page.ts|microsoft|playwright|page.ts|TypeScript|863|54|116
+./src/_00.1/output-0-clone/TypeScript/microsoft~playwright/tests/playwright-test/resolver.spec.ts|microsoft|playwright|resolver.spec.ts|TypeScript|861|225|72
 ./src/_00.1/output-0-clone/TypeScript/microsoft~playwright/packages/playwright-core/src/utils/isomorphic/cssTokenizer.ts|microsoft|playwright|cssTokenizer.ts|TypeScript|844|29|93
 ./src/_00.1/output-0-clone/TypeScript/microsoft~playwright/tests/library/browsertype-connect.spec.ts|microsoft|playwright|browsertype-connect.spec.ts|TypeScript|838|30|112
 ./src/_00.1/output-0-clone/TypeScript/microsoft~playwright/docs/src/browsers.md|microsoft|playwright|browsers.md|Markdown|834|0|267
@@ -87,6 +89,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00.1/output-0-clone/TypeScript/microsoft~playwright/browser_patches/webkit/embedder/Playwright/mac/BrowserWindowController.m|microsoft|playwright|BrowserWindowController.m|Objective-C|786|37|176
 ./src/_00.1/output-0-clone/TypeScript/microsoft~playwright/packages/playwright-core/bundles/utils/package-lock.json|microsoft|playwright|package-lock.json|JSON|777|0|0
 ./src/_00.1/output-0-clone/TypeScript/microsoft~playwright/browser_patches/firefox/juggler/NetworkObserver.js|microsoft|playwright|NetworkObserver.js|JavaScript|762|102|103
+./src/_00.1/output-0-clone/TypeScript/microsoft~playwright/tests/library/tracing.spec.ts|microsoft|playwright|tracing.spec.ts|TypeScript|762|30|103
 ./src/_00.1/output-0-clone/TypeScript/microsoft~playwright/packages/playwright-core/src/server/injected/roleUtils.ts|microsoft|playwright|roleUtils.ts|TypeScript|756|161|80
 ./src/_00.1/output-0-clone/TypeScript/microsoft~playwright/tests/playwright-test/runner.spec.ts|microsoft|playwright|runner.spec.ts|TypeScript|756|21|66
 ./src/_00.1/output-0-clone/TypeScript/microsoft~playwright/tests/playwright-test/fixtures.spec.ts|microsoft|playwright|fixtures.spec.ts|TypeScript|749|16|53
@@ -100,11 +103,13 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00.1/output-0-clone/TypeScript/microsoft~playwright/docs/src/other-locators.md|microsoft|playwright|other-locators.md|Markdown|696|0|224
 ./src/_00.1/output-0-clone/TypeScript/microsoft~playwright/tests/page/page-set-input-files.spec.ts|microsoft|playwright|page-set-input-files.spec.ts|TypeScript|694|22|64
 ./src/_00.1/output-0-clone/TypeScript/microsoft~playwright/tests/library/inspector/cli-codegen-1.spec.ts|microsoft|playwright|cli-codegen-1.spec.ts|TypeScript|693|23|213
+./src/_00.1/output-0-clone/TypeScript/microsoft~playwright/tests/playwright-test/esm.spec.ts|microsoft|playwright|esm.spec.ts|TypeScript|693|17|54
 ./src/_00.1/output-0-clone/TypeScript/microsoft~playwright/tests/playwright-test/ui-mode-test-run.spec.ts|microsoft|playwright|ui-mode-test-run.spec.ts|TypeScript|691|15|94
 ./src/_00.1/output-0-clone/TypeScript/microsoft~playwright/tests/playwright-test/test-modifiers.spec.ts|microsoft|playwright|test-modifiers.spec.ts|TypeScript|681|25|60
 ./src/_00.1/output-0-clone/TypeScript/microsoft~playwright/docs/src/test-components-js.md|microsoft|playwright|test-components-js.md|Markdown|679|0|224
 ./src/_00.1/output-0-clone/TypeScript/microsoft~playwright/tests/library/download.spec.ts|microsoft|playwright|download.spec.ts|TypeScript|676|22|57
 ./src/_00.1/output-0-clone/TypeScript/microsoft~playwright/docs/src/api/class-apirequestcontext.md|microsoft|playwright|class-apirequestcontext.md|Markdown|674|0|218
+./src/_00.1/output-0-clone/TypeScript/microsoft~playwright/packages/playwright-core/src/server/fetch.ts|microsoft|playwright|fetch.ts|TypeScript|673|40|93
 ./src/_00.1/output-0-clone/TypeScript/microsoft~playwright/packages/playwright-core/src/server/chromium/crNetworkManager.ts|microsoft|playwright|crNetworkManager.ts|TypeScript|657|96|76
 ./src/_00.1/output-0-clone/TypeScript/microsoft~playwright/tests/page/page-evaluate.spec.ts|microsoft|playwright|page-evaluate.spec.ts|TypeScript|656|45|94
 ./src/_00.1/output-0-clone/TypeScript/microsoft~playwright/tests/playwright-test/deps.spec.ts|microsoft|playwright|deps.spec.ts|TypeScript|649|15|28
@@ -2180,15 +2185,10 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00.1/output-0-clone/TypeScript/microsoft~playwright/tests/playwright-test/stable-test-runner/index.js|microsoft|playwright|index.js|JavaScript|1|15|1
 ./src/_00.1/output-0-clone/TypeScript/microsoft~playwright/utils/doclint/linting-code-snippets/python/requirements.txt|microsoft|playwright|requirements.txt|Text|1|0|0
 ./src/_00.1/output-0-clone/TypeScript/microsoft~playwright/packages/playwright-core/src/server/android/driver/app/proguard-rules.pro|microsoft|playwright|proguard-rules.pro|ProGuard|0|18|3
-./src/_00.1/output-0-clone/TypeScript/microsoft~playwright/packages/playwright-core/src/server/fetch.ts|microsoft|playwright|fetch.ts|TypeScript|0|713|93
 ./src/_00.1/output-0-clone/TypeScript/microsoft~playwright/packages/playwright-test/reporter.mjs|microsoft|playwright|reporter.mjs|JavaScript|0|16|1
 ./src/_00.1/output-0-clone/TypeScript/microsoft~playwright/packages/trace-viewer/src/ui/recorder/recorderView.css|microsoft|playwright|recorderView.css|CSS|0|12|3
 ./src/_00.1/output-0-clone/TypeScript/microsoft~playwright/tests/assets/prefetch.js|microsoft|playwright|prefetch.js|JavaScript|0|1|0
 ./src/_00.1/output-0-clone/TypeScript/microsoft~playwright/tests/components/ct-react17/src/react-app-env.d.ts|microsoft|playwright|react-app-env.d.ts|TypeScript|0|1|0
 ./src/_00.1/output-0-clone/TypeScript/microsoft~playwright/tests/components/ct-svelte-vite/src/vite-env.d.ts|microsoft|playwright|vite-env.d.ts|TypeScript|0|2|0
 ./src/_00.1/output-0-clone/TypeScript/microsoft~playwright/tests/components/ct-vue-vite/env.d.ts|microsoft|playwright|env.d.ts|TypeScript|0|1|0
-./src/_00.1/output-0-clone/TypeScript/microsoft~playwright/tests/library/browsercontext-fetch.spec.ts|microsoft|playwright|browsercontext-fetch.spec.ts|TypeScript|0|1259|110
-./src/_00.1/output-0-clone/TypeScript/microsoft~playwright/tests/library/tracing.spec.ts|microsoft|playwright|tracing.spec.ts|TypeScript|0|792|103
-./src/_00.1/output-0-clone/TypeScript/microsoft~playwright/tests/playwright-test/esm.spec.ts|microsoft|playwright|esm.spec.ts|TypeScript|0|710|54
-./src/_00.1/output-0-clone/TypeScript/microsoft~playwright/tests/playwright-test/resolver.spec.ts|microsoft|playwright|resolver.spec.ts|TypeScript|0|1086|72
 ./src/_00.1/output-0-clone/TypeScript/microsoft~playwright/utils/copyright.js|microsoft|playwright|copyright.js|JavaScript|0|15|0
