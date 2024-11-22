@@ -7,7 +7,7 @@ from platform import system as op_sys
 SEPARATOR = '|'
 DIV = '/'
 
-#-------------------------------------------------------------------------------------------------
+#=======================================================================================================================
 def formater(file_path:str, separator:str=','):
     try:
         file = pd.read_csv(file_path, sep=separator, low_memory=False)
@@ -27,17 +27,17 @@ def formater(file_path:str, separator:str=','):
             file = file[['path', 'owner', 'project', 'file', 'language', 'code', 'comment', 'blank']] # rearranging csv
 
             file.to_csv(file_path, sep=separator, index=False)
-        except Exception as e:
-            print('ERROR#???', e)
+        except:
+            print('ERROR#???')
             input('primeiro')
             remove(file_path)
     except:
-        print(f'\033[31mError(\033[35m{file_path}.csv\033[31m)\033[m\n', e)
+        print(f'\033[31mSeparator error, reprocess with Windows(\033[35m{file_path}.csv\033[31m)\033[m')
         input('segundo')
         remove(file_path)
 
 
-# SETUP ------------------------------------------------------------------------------------------
+# SETUP ================================================================================================================
 input0_path = './src/_00/input/600_Starred_Projects.csv'
 output0_path = './src/_00.1/output-0-clone'
 
@@ -53,10 +53,10 @@ else:
 
 start = datetime.now()
 
-# Code -------------------------------------------------------------------------------------------
+# Code =================================================================================================================
 index = 0
 while index < len(input_file):
-# Clone ------------------------------------------------------------------------------------------
+# Clone ================================================================================================================
     repository, language, branch = input_file.loc[index, ['url', 'main language', 'branch']]
 
     repo_path = f"{language}/{repository.split('/')[-2]}~{repository.split('/')[-1]}"
@@ -66,9 +66,9 @@ while index < len(input_file):
     if not path.exists(local_repo_directory):
         try:
             try:
-                print(f" - Cloning...", end='')
+                print(f" - Cloning...")
                 repo = git.Repo.clone_from(repository, local_repo_directory, branch=branch)
-                print(f" -> {branch} branch")
+                print(f"Cloned -> {branch} branch")
             except git.exc.GitCommandError:
                 print(" -> \033[31mNo Default branches found\033[m")
         except git.exc.GitCommandError as e:
@@ -79,7 +79,7 @@ while index < len(input_file):
                 print(f"\033[31mAn error occurred in Clone:\n{e}\033[m")
     print()
 
-# CLoC -------------------------------------------------------------------------------------------
+# CLoC =================================================================================================================
     try:
         cloc_repo_path = f"{output1_path}/{repo_path}"
         if path.exists(f'{cloc_repo_path}.csv'):
@@ -91,9 +91,8 @@ while index < len(input_file):
                 print(f'\n File \033[35m{repository.split('/')[-2]}~{repository.split('/')[-1]}.csv\033[m was created successfully \n')
     except Exception as e:
         print(f"\033[31mAn error occurred in CLoC:\n{e}\033[m")
-        input("hummm")
 
-# Verifying --------------------------------------------------------------------------------------
+# Verifying ============================================================================================================
     cloc_flag = True
 
     try:
@@ -113,7 +112,7 @@ while index < len(input_file):
     if cloc_flag:
         index += 1
 
-#-------------------------------------------------------------------------------------------------
+#=======================================================================================================================
 end = datetime.now()
 time = pd.DataFrame({'start': start, 'end': end, 'time_expended': [end - start]})
 time.to_csv(f'{output0_path}/time~total.csv', index=False)
