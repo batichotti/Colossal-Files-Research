@@ -27,18 +27,18 @@ def formater(file_path:str, separator:str=','):
             file = file[['path', 'owner', 'project', 'file', 'language', 'code', 'comment', 'blank']] # rearranging csv
 
             file.to_csv(file_path, sep=separator, index=False)
-        except:
-            print('ERROR#???')
+        except Exception as e:
+            print('ERROR#???', e)
             input('primeiro')
             remove(file_path)
     except:
-        print(f'\033[31mSeparator error, reprocess with Windows(\033[35m{file_path}.csv\033[31m)\033[m')
+        print(f'\033[31mError(\033[35m{file_path}.csv\033[31m)\033[m\n', e)
         input('segundo')
         remove(file_path)
 
 
 # SETUP ------------------------------------------------------------------------------------------
-input0_path = './src/_00/input/600_bos.csv'
+input0_path = './src/_00/input/600_Starred_Projects.csv'
 output0_path = './src/_00.1/output-0-clone'
 
 input_file = pd.read_csv(input0_path)
@@ -91,6 +91,7 @@ while index < len(input_file):
                 print(f'\n File \033[35m{repository.split('/')[-2]}~{repository.split('/')[-1]}.csv\033[m was created successfully \n')
     except Exception as e:
         print(f"\033[31mAn error occurred in CLoC:\n{e}\033[m")
+        input("hummm")
 
 # Verifying --------------------------------------------------------------------------------------
     cloc_flag = True
