@@ -39,11 +39,12 @@ for lang, group in grouped:
     
     output_dataframes.append(output_dataframe)
 
+os.makedirs(output_path, exist_ok=True)
+
 final_output_dataframe = pd.concat(output_dataframes, ignore_index=True)
 final_output_dataframe.to_csv(f'{output_path}/percentis_by_language.csv', index=False)
 
 filtered_languages = ["C", "C#", "C++", "Dart", "Elixir", "Go", "Haskell", "Java", "JavaScript", "Kotlin", "Lua", "Objective-C", "Perl", "PHP", "Python", "Ruby", "Rust", "Scala", "Swift", "TypeScript"]
 output_filtered = final_output_dataframe[final_output_dataframe['language'].isin(filtered_languages)]
 
-os.makedirs({output_path}, exist_ok=True)
 output_filtered.to_csv(f'{output_path}/percentis_by_language_filtered.csv', index=False)
