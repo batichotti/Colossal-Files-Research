@@ -38,13 +38,13 @@ def formater(file_path:str, separator:str=','):
 
 
 # SETUP ================================================================================================================
-input0_path = './src/_00/input/600_Starred_Projects.csv'
-output0_path = './src/_00.1/output-0-clone'
+input_clone_path = './src/_00/input/600_Starred_Projects.csv'
+output_clone_path = './src/_00/output'
 
-input_file = pd.read_csv(input0_path)
+input_file = pd.read_csv(input_clone_path)
 
-input1_path = './src/_00.1/output-0-clone'
-output1_path = './src/_00.1/output-1-cloc'
+input_cloc_path = output_clone_path
+output_cloc_path = './src/_01/output'
 
 if op_sys() == "Windows":
     cloc = path.abspath("./src/_01/input/cloc.exe")  # CLoC.exe path
@@ -60,7 +60,7 @@ while index < len(input_file):
     repository, language, branch = input_file.loc[index, ['url', 'main language', 'branch']]
 
     repo_path = f"{language}/{repository.split('/')[-2]}~{repository.split('/')[-1]}"
-    local_repo_directory = f"{output0_path}/{repo_path}"
+    local_repo_directory = f"{output_clone_path}/{repo_path}"
     print(f"{repository.split('/')[-2]}~{repository.split('/')[-1]}", end='')
 
     if not path.exists(local_repo_directory):
@@ -81,7 +81,7 @@ while index < len(input_file):
 
 # CLoC =================================================================================================================
     try:
-        cloc_repo_path = f"{output1_path}/{repo_path}"
+        cloc_repo_path = f"{output_cloc_path}/{repo_path}"
         if path.exists(f'{cloc_repo_path}.csv'):
             print(f"\033[31mDestination path (\033[35m{local_repo_directory}.csv\033[31m) already exists and is not an empty directory\n\033[m")
         else:
@@ -100,11 +100,12 @@ while index < len(input_file):
 
         for file in cloc_df['path']:
             if not path.exists(file):
+                # print(file)
                 cloc_flag = False
-                if path.exists(local_repo_directory):
-                    remove(local_repo_directory)
-                if path.exists(cloc_repo_path):
-                    remove(cloc_repo_path)
+                # if path.exists(local_repo_directory):
+                #     remove(local_repo_directory)
+                # if path.exists(cloc_repo_path):
+                #     remove(cloc_repo_path)
                 continue
     except Exception as e:
         print(f"\033[31mAn error occurred in Verifying:\n{e}\033[m")
@@ -115,6 +116,6 @@ while index < len(input_file):
 #=======================================================================================================================
 end = datetime.now()
 time = pd.DataFrame({'start': start, 'end': end, 'time_expended': [end - start]})
-time.to_csv(f'{output0_path}/time~total.csv', index=False)
+time.to_csv(f'{output_clone_path}/time~total.csv', index=False)
 
 print('DONE!')
