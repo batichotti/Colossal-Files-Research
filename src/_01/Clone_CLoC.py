@@ -1,7 +1,7 @@
 import git
 import pandas as pd
 from datetime import datetime
-from os import path, system, remove
+from os import path, system, remove, makedirs
 from platform import system as op_sys
 
 SEPARATOR = '|'
@@ -100,13 +100,12 @@ while index < len(input_file):
 
         for file in cloc_df['path']:
             if not path.exists(file):
-                # print(file)
                 cloc_flag = False
-                # if path.exists(local_repo_directory):
-                #     remove(local_repo_directory)
-                # if path.exists(cloc_repo_path):
-                #     remove(cloc_repo_path)
-                continue
+                if path.exists(local_repo_directory):
+                    remove(local_repo_directory)
+                if path.exists(cloc_repo_path):
+                    remove(cloc_repo_path)
+                break
     except Exception as e:
         print(f"\033[31mAn error occurred in Verifying:\n{e}\033[m")
 
