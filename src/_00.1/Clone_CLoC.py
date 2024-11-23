@@ -70,7 +70,7 @@ while index < len(input_file):
                 repo = git.Repo.clone_from(repository, local_repo_directory, branch=branch)
                 print(f"Cloned -> {branch} branch")
             except git.exc.GitCommandError:
-                print(" -> \033[31mNo Default branches found\033[m")
+                print(f" > \033[31mNo Default branches found\033[m - {branch}\n{repository}")
         except git.exc.GitCommandError as e:
             print()
             if "already exists and is not an empty directory" in e.stderr:
