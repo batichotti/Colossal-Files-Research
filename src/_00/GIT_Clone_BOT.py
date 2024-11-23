@@ -13,7 +13,7 @@ max_workers = cpu_count()
 
 def clone_repository(repository, language, branch):
     repo_path = f"{language}/{repository.split('/')[-2]}~{repository.split('/')[-1]}"
-    local_repo_directory = f"{output_clone_path}/{repo_path}"
+    local_repo_directory = f"{output_path}/{repo_path}"
     print(f"{repository.split('/')[-2]}~{repository.split('/')[-1]}", end='')
 
     if not path.exists(local_repo_directory):
