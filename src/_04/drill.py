@@ -11,16 +11,17 @@ output_path: str = './src/_04/output/'
 
 # Threads/CPU cores ---------------------------------------------------------------------------------------------------
 num_cores = os.cpu_count()
+input(os.cpu_count())
 
 # list with repositories that will analyzed
-repositories_list_path: str = './src/_00/input/600_Starred_Projects_vLite.csv'
+repositories_list_path: str = './src/_00/input/600_Starred_Projects-linux.csv'
 
 # base dirs
 repositories_base_dir: str = './src/_00/output/'
 files_base_path: str = './src/_03/output/'
 
 # Date
-date = datetime(2024, 10, 8, 17, 0, 0)
+date = datetime(2024, 11, 24, 17, 0, 0)
 
 # preparing environment -----------------------------------------------------------------------------------------------
 
@@ -55,7 +56,7 @@ def process_repository(i):
         file_path: str = files_list['path'].loc[j]
         file_name: str = file_path.split('/')[-1]
         file_path = '/'.join(file_path.split('/')[6:])
-        print(f'        > {file_name}:{file_path}')
+        print(f'        Minered -> {file_name}:{file_path}')
 
         # PyDriller  -----------------------------------------------------------------------------------------------
 
@@ -63,7 +64,7 @@ def process_repository(i):
         os.makedirs(dir_path, exist_ok=True)
 
         repository = dr.Repository(repository_path, only_in_branch=branch, filepath=file_path)
-        print(f' >>>>> {file_path}')
+        print(f'{file_path} - Mininig...')
 
         for commit in repository.traverse_commits():
             try:
