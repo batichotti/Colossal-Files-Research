@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0d37f36ff9bc41067c71635d14b6a5834853a779|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cnic: ensure ulp_type is not negative
-
-`ulp_type' is signed, make sure it is not negative
-when we read the array element.
-
-Signed-off-by: Roel Kluin <roel.kluin@gmail.com>
-Acked-by: Michael Chan <mchan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|roel kluin|roel.kluin@gmail.com|2009-11-02 06:53:44+00:00|0|David S. Miller|davem@davemloft.net|2009-11-04 05:06:23-08:00|28800

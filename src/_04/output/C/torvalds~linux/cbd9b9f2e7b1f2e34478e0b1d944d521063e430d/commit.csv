@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cbd9b9f2e7b1f2e34478e0b1d944d521063e430d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: remove extra new line on pipe_config mismatch
-
-The new line is already added by pipe_config_mismatch(), so the callers
-shouldn't add it.
-
-Signed-off-by: Lucas De Marchi <lucas.demarchi@intel.com>
-Reviewed-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Link: https://patchwork.freedesktop.org/patch/msgid/20191011010907.103309-5-lucas.demarchi@intel.com"|1|Lucas De Marchi|lucas.demarchi@intel.com|2019-10-10 18:09:04-07:00|25200|Lucas De Marchi|lucas.demarchi@intel.com|2019-10-18 17:28:16-07:00|25200

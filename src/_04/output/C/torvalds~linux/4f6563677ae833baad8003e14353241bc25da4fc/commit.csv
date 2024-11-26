@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4f6563677ae833baad8003e14353241bc25da4fc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Move locks API users to locks_lock_inode_wait()
-
-Instead of having users check for FL_POSIX or FL_FLOCK to call the correct
-locks API function, use the check within locks_lock_inode_wait().  This
-allows for some later cleanup.
-
-Signed-off-by: Benjamin Coddington <bcodding@redhat.com>
-Signed-off-by: Jeff Layton <jeff.layton@primarydata.com>"|12|Benjamin Coddington|bcodding@redhat.com|2015-10-22 13:38:14-04:00|14400|Jeff Layton|jeff.layton@primarydata.com|2015-10-22 14:57:36-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a2b7189be6b5dd697c333beb91f988dfc3ca87fb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net/mlx5: Use PTR_ERR_OR_ZERO rather than its implementation
-
-PTR_ERR_OR_ZERO contains if(IS_ERR(...)) + PTR_ERR. It is better
-to use it directly. hence just replace it.
-
-Signed-off-by: zhong jiang <zhongjiang@huawei.com>
-Acked-by: Saeed Mahameed <saeedm@mellanox.com>
-Signed-off-by: Saeed Mahameed <saeedm@mellanox.com>"|1|zhong jiang|zhongjiang@huawei.com|2019-09-03 14:56:10+08:00|-28800|Saeed Mahameed|saeedm@mellanox.com|2019-09-05 14:44:41-07:00|25200

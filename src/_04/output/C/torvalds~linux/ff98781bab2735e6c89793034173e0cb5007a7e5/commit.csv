@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ff98781bab2735e6c89793034173e0cb5007a7e5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tracing: Move pipe waiting code out of tracing_read_pipe().
-
-This moves the pipe waiting code from tracing_read_pipe() into
-tracing_wait_pipe(), which is useful to implement other fops, like
-splice_read.
-
-Signed-off-by: Eduard - Gabriel Munteanu <eduard.munteanu@linux360.ro>
-Signed-off-by: Steven Rostedt <srostedt@redhat.com>"|1|Eduard - Gabriel Munteanu|eduard.munteanu@linux360.ro|2009-02-09 08:15:55+02:00|-7200|Steven Rostedt|srostedt@redhat.com|2009-02-09 12:24:51-05:00|18000

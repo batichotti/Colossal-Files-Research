@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d347a951906b506c485ee9ffb76fe473b41f3e10|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: mpi3mr: Remove usage of dma_get_required_mask() API
-
-Remove the usage of dma_get_required_mask() API.  Directly set the DMA mask
-to 63/64 if the system is a 64bit machine.
-
-Signed-off-by: Sreekanth Reddy <sreekanth.reddy@broadcom.com>
-Link: https://lore.kernel.org/r/20221111102246.19995-2-sreekanth.reddy@broadcom.com
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|1|Sreekanth Reddy|sreekanth.reddy@broadcom.com|2022-11-11 15:52:46+05:30|-19800|Martin K. Petersen|martin.petersen@oracle.com|2022-11-17 18:02:39+00:00|0

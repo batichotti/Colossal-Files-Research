@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5062b5bed4323275f2f89bc185c6a28d62cfcfd5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: make BG GC more aggressive for zoned devices
-
-Since we don't have any GC on device side for zoned devices, need more
-aggressive BG GC. So, tune the parameters for that.
-
-Signed-off-by: Daeho Jeong <daehojeong@google.com>
-Reviewed-by: Chao Yu <chao@kernel.org>
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|4|Daeho Jeong|daehojeong@google.com|2024-09-09 15:19:40-07:00|25200|Jaegeuk Kim|jaegeuk@kernel.org|2024-09-11 03:32:44+00:00|0

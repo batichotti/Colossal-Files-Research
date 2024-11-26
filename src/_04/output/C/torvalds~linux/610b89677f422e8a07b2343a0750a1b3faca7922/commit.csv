@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|610b89677f422e8a07b2343a0750a1b3faca7922|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"RDMA/hns: Only assgin the fields of the av if IB_QP_AV bit is set
-
-Only when the IB_QP_AV flag of attr_mask is set is it valid to assign the
-related fields of the av into the qp context.
-
-Signed-off-by: Lijun Ou <oulijun@huawei.com>
-Signed-off-by: Jason Gunthorpe <jgg@mellanox.com>"|1|Lijun Ou|oulijun@huawei.com|2018-07-30 20:20:25+08:00|-28800|Jason Gunthorpe|jgg@mellanox.com|2018-07-30 20:42:44-06:00|21600

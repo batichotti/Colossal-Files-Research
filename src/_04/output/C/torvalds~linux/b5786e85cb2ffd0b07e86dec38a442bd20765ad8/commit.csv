@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b5786e85cb2ffd0b07e86dec38a442bd20765ad8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ALSA: hda - Keep char arrays in input_mux items
-
-Keep char array in the input_mux item itself instead of pointing to
-an external string.  This is a preliminary work for improving the
-input-mux name based on the pin role.
-
-Signed-off-by: Takashi Iwai <tiwai@suse.de>"|7|Takashi Iwai|tiwai@suse.de|2010-09-09 14:21:17+02:00|-7200|Takashi Iwai|tiwai@suse.de|2010-09-09 16:45:58+02:00|-7200

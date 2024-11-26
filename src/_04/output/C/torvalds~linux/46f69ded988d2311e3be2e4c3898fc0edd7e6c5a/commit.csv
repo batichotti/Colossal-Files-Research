@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|46f69ded988d2311e3be2e4c3898fc0edd7e6c5a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: stmmac: Use resolved link config in mac_link_up()
-
-Convert the stmmac ethernet driver to use the finalised link parameters
-in mac_link_up() rather than the parameters in mac_config().
-
-Suggested-by: Russell King <rmk+kernel@armlinux.org.uk>
-Signed-off-by: Jose Abreu <Jose.Abreu@synopsys.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Jose Abreu|Jose.Abreu@synopsys.com|2020-03-09 09:36:23+01:00|-3600|David S. Miller|davem@davemloft.net|2020-03-09 20:13:16-07:00|25200

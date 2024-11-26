@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6d9cc07215c7f09e215dd2a19233996845040ae7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: remove root argument from add_link()
-
-The root argument for tree-log.c:add_link() always matches the root of the
-given directory and the given inode, so it can eliminated.
-
-Signed-off-by: Filipe Manana <fdmanana@suse.com>
-Reviewed-by: David Sterba <dsterba@suse.com>
-Signed-off-by: David Sterba <dsterba@suse.com>"|1|Filipe Manana|fdmanana@suse.com|2021-10-25 17:31:51+01:00|-3600|David Sterba|dsterba@suse.com|2021-10-29 12:39:13+02:00|-7200

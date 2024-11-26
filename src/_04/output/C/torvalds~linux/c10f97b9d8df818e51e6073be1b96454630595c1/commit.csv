@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c10f97b9d8df818e51e6073be1b96454630595c1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libata: remove ATA_FLAG_{SRST|SATA_RESET}
-
-These flags are marked as obsolete and the checks for them have been removed
-by commit 294440887b32c58d220fb54b73b7a58079b78f20 (libata-sff: kill unused
-ata_bus_reset()), so I think it's time to finally get rid of them...
-
-Signed-off-by: Sergei Shtylyov <sshtylyov@ru.mvista.com>
-Signed-off-by: Jeff Garzik <jgarzik@redhat.com>"|6|Sergei Shtylyov|sshtylyov@ru.mvista.com|2011-02-04 22:03:34+03:00|-10800|Jeff Garzik|jgarzik@redhat.com|2011-03-02 02:36:46-05:00|18000

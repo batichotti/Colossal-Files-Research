@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|48fa9b61ae1692befb7e3661e8e708c2ba16f536|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wifi: rtw89: only reset BB/RF for existing WiFi 6 chips while starting up
-
-The new WiFi 7 chips change the design, so no need to disable/enable
-BB/RF when core_start(). Keep the same logic for existing chips.
-
-Signed-off-by: Ping-Ke Shih <pkshih@realtek.com>
-Signed-off-by: Kalle Valo <kvalo@kernel.org>
-Link: https://msgid.link/20231211083341.118047-7-pkshih@realtek.com"|2|Ping-Ke Shih|pkshih@realtek.com|2023-12-11 16:33:41+08:00|-28800|Kalle Valo|kvalo@kernel.org|2023-12-15 15:39:13+02:00|-7200

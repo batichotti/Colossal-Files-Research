@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c1c5f66ee0dea782de9c95e6d63f19c355389ee8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: hns3: remove unnecessary parameter 'is_alloc' in hclge_set_umv_space()
-
-Since hclge_set_umv_space() is only called by hclge_init_umv_space(),
-so parameter 'is_alloc' is redundant.
-
-Signed-off-by: Jian Shen <shenjian15@huawei.com>
-Signed-off-by: Huazhong Tan <tanhuazhong@huawei.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Jian Shen|shenjian15@huawei.com|2020-04-24 10:23:07+08:00|-28800|David S. Miller|davem@davemloft.net|2020-04-25 20:29:44-07:00|25200

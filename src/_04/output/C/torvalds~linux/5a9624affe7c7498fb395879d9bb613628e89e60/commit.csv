@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5a9624affe7c7498fb395879d9bb613628e89e60|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: mmu: extract spte.h and spte.c
-
-The SPTE format will be common to both the shadow and the TDP MMU.
-
-Extract code that implements the format to a separate module, as a
-first step towards adding the TDP MMU and putting mmu.c on a diet.
-
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|5|Paolo Bonzini|pbonzini@redhat.com|2020-10-16 10:29:37-04:00|14400|Paolo Bonzini|pbonzini@redhat.com|2020-10-21 18:16:59-04:00|14400

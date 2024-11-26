@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|48c072174dea73c4c36ba95df87c1b4d6083df11|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sctp: use SCTP_FUTURE_ASSOC for SCTP_LOCAL_AUTH_CHUNKS sockopt
-
-Check with SCTP_FUTURE_ASSOC instead in
-sctp_getsockopt_local_auth_chunks, it's compatible with 0.
-
-Signed-off-by: Xin Long <lucien.xin@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Xin Long|lucien.xin@gmail.com|2019-01-28 15:08:28+08:00|-28800|David S. Miller|davem@davemloft.net|2019-01-30 00:44:06-08:00|28800

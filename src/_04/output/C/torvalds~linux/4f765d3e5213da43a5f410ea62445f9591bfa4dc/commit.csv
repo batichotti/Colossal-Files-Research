@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4f765d3e5213da43a5f410ea62445f9591bfa4dc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: hns3: do not request reset when hardware resetting
-
-When hardware reset does not finish, the driver should not
-request a new reset, otherwise the ongoing hardware reset
-will get problem.
-
-Signed-off-by: Huazhong Tan <tanhuazhong@huawei.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Huazhong Tan|tanhuazhong@huawei.com|2019-04-06 15:43:31+08:00|-28800|David S. Miller|davem@davemloft.net|2019-04-08 15:30:49-07:00|25200

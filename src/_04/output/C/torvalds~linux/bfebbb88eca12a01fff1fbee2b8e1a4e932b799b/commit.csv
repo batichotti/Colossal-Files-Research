@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bfebbb88eca12a01fff1fbee2b8e1a4e932b799b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"forcedeth: Use round_jiffies for stats timer
-
-This timer doesn't need to run at precise times, so round it to a whole
-second to decrease wakeups.
-
-Signed-off-by: Daniel Drake <dsd@gentoo.org>
-Signed-off-by: Jeff Garzik <jeff@garzik.org>"|1|Daniel Drake|dsd@gentoo.org|2008-03-18 11:07:18+00:00|0|Jeff Garzik|jeff@garzik.org|2008-03-26 00:18:51-04:00|14400

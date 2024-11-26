@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|35c036ef4a722e953e17884f4f4325f78eeab475|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfs: RPC_MAX_AUTH_SIZE is in bytes
-
-The units of RPC_MAX_AUTH_SIZE is bytes, not 4-byte words.  This causes
-the client to request a larger-than-necessary session replay slot size.
-
-Signed-off-by: J. Bruce Fields <bfields@redhat.com>
-Signed-off-by: Trond Myklebust <trond.myklebust@primarydata.com>"|1|J. Bruce Fields|bfields@redhat.com|2017-09-20 12:42:13-04:00|14400|Trond Myklebust|trond.myklebust@primarydata.com|2017-10-01 18:51:30-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|53e9d836ea7fa0bfe9950ffb92d50811a5e69f01|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/amdgpu: drop pm_sysfs_en flag from amdgpu_device structure
-
-pm_sysfs_en is overlapped with pm.sysfs_initialized, so drop it
-for simplifying code(no functional change).
-
-Signed-off-by: Guchun Chen <guchun.chen@amd.com>
-Acked-by: Christian König <christian.koenig@amd.com>
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|2|Guchun Chen|guchun.chen@amd.com|2023-03-13 08:49:45+08:00|-28800|Alex Deucher|alexander.deucher@amd.com|2023-03-13 17:27:48-04:00|14400

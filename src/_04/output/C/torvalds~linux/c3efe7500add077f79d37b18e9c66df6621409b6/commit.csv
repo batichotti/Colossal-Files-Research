@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c3efe7500add077f79d37b18e9c66df6621409b6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"IB/core: Use hop-limit from IP stack for RoCE
-
-Previously, IPV6_DEFAULT_HOPLIMIT was used as the hop limit value for
-RoCE. Fixing that by taking ip4_dst_hoplimit and ip6_dst_hoplimit as
-hop limit values.
-
-Signed-off-by: Matan Barak <matanb@mellanox.com>
-Signed-off-by: Doug Ledford <dledford@redhat.com>"|6|Matan Barak|matanb@mellanox.com|2016-01-04 10:49:54+02:00|-7200|Doug Ledford|dledford@redhat.com|2016-01-19 15:26:56-05:00|18000

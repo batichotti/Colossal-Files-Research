@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ce0b9c805dd66d5e49fd53ec5415ae398f4c56e6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"locking/lockdep: Avoid RCU-induced noinstr fail
-
-vmlinux.o: warning: objtool: look_up_lock_class()+0xc7: call to rcu_read_lock_any_held() leaves .noinstr.text section
-
-Signed-off-by: Peter Zijlstra (Intel) <peterz@infradead.org>
-Link: https://lore.kernel.org/r/20210624095148.311980536@infradead.org"|1|Peter Zijlstra|peterz@infradead.org|2021-06-24 11:41:10+02:00|-7200|Peter Zijlstra|peterz@infradead.org|2021-09-15 15:51:47+02:00|-7200

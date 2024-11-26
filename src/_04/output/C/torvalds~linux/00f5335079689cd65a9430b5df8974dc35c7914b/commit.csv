@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|00f5335079689cd65a9430b5df8974dc35c7914b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nl80211: add wdev ID as u64 as it should
-
-In one of my previous patches I erroneously
-used nla_put_u32 for the wdev_id, fix that
-to use nla_put_u64.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2012-07-17 11:53:12+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2012-07-17 11:53:57+02:00|-7200

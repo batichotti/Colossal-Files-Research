@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5f73db112e597b30efb7f81ab5fee87a9febad3e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: Move guts of kvm_arch_vcpu_setup() into kvm_arch_vcpu_create()
-
-Fold setup() into create() now that the two are called back-to-back by
-common KVM code.  This paves the way for removing kvm_arch_vcpu_setup().
-
-Signed-off-by: Sean Christopherson <sean.j.christopherson@intel.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Sean Christopherson|sean.j.christopherson@intel.com|2019-12-18 13:55:18-08:00|28800|Paolo Bonzini|pbonzini@redhat.com|2020-01-27 19:59:25+01:00|-3600

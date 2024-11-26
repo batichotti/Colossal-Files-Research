@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|881a045fc5b454b57c69e010acecd5830d87e242|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"RDMA/iwcm: iWARP connection timeouts shouldn't be reported as rejects
-
-The iWARP CM should report timeouts as event RDMA_CM_EVENT_UNREACHABLE,
-not event RDMA_CM_EVENT_REJECTED.
-
-Signed-off-by: Steve Wise <swise@opengridcomputing.com>
-Signed-off-by: Sean Hefty <sean.hefty@intel.com>
-Signed-off-by: Roland Dreier <rolandd@cisco.com>"|1|Steve Wise|swise@opengridcomputing.com|2006-12-15 16:50:17-06:00|21600|Roland Dreier|rolandd@cisco.com|2007-01-07 20:15:58-08:00|28800

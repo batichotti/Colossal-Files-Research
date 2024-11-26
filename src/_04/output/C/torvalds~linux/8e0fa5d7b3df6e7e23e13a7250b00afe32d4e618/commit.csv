@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8e0fa5d7b3df6e7e23e13a7250b00afe32d4e618|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Revert ""btrfs: remove BTRFS_INODE_READDIO_NEED_LOCK""
-
-This reverts commit 5f008163a559d566a0ee1190a0a24f3eec6f1ea7.
-
-The patch is a simplification after direct IO port to iomap
-infrastructure, which gets reverted.
-
-Signed-off-by: David Sterba <dsterba@suse.com>"|2|David Sterba|dsterba@suse.com|2020-06-09 19:21:48+02:00|-7200|David Sterba|dsterba@suse.com|2020-06-09 19:21:48+02:00|-7200

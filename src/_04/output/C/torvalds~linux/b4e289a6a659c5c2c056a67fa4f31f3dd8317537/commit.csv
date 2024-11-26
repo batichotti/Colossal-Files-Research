@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b4e289a6a659c5c2c056a67fa4f31f3dd8317537|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mm/hugetlb: make node_hstates array static
-
-There are no users of the node_hstates array outside of the
-mm/hugetlb.c. So let's make it static.
-
-Signed-off-by: Alexander Kuleshov <kuleshovmail@gmail.com>
-Signed-off-by: Andrew Morton <akpm@linux-foundation.org>
-Signed-off-by: Linus Torvalds <torvalds@linux-foundation.org>"|1|Alexander Kuleshov|kuleshovmail@gmail.com|2015-11-05 18:50:14-08:00|28800|Linus Torvalds|torvalds@linux-foundation.org|2015-11-05 19:34:48-08:00|28800

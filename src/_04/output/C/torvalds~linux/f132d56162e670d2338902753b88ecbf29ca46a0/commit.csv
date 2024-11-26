@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f132d56162e670d2338902753b88ecbf29ca46a0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/amd/powerplay: correct the argument for PPSMC_MSG_SetUclkFastSwitch
-
-The argument was set wrongly. Fast/slow switch was asked when there is
-actually a slow/fast switch needed.
-
-Signed-off-by: Evan Quan <evan.quan@amd.com>
-Reviewed-by: Rex Zhu <rex.zhu@amd.com>
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|2|Evan Quan|evan.quan@amd.com|2018-07-16 17:23:19+08:00|-28800|Alex Deucher|alexander.deucher@amd.com|2018-07-24 15:14:25-05:00|18000

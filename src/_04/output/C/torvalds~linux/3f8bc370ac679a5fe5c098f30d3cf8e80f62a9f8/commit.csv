@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3f8bc370ac679a5fe5c098f30d3cf8e80f62a9f8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Pin cursor bo and unpin old bo when setting cursor.
-
-We also didn't track the cursor bo before and would leak a reference
-when the cursor image was change.
-
-Signed-off-by: Kristian Høgsberg <krh@redhat.com>
-Signed-off-by: Eric Anholt <eric@anholt.net>
-Signed-off-by: Dave Airlie <airlied@linux.ie>"|2|Kristian Høgsberg|krh@redhat.com|2008-12-17 22:14:59-05:00|18000|Dave Airlie|airlied@linux.ie|2009-01-07 11:49:43+10:00|-36000

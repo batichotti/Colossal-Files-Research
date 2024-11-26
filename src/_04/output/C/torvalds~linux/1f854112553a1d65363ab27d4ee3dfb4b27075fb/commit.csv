@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1f854112553a1d65363ab27d4ee3dfb4b27075fb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: vmx: DR7 masking on task switch emulation is wrong
-
-The DR7 masking which is done on task switch emulation should be in hex format
-(clearing the local breakpoints enable bits 0,2,4 and 6).
-
-Signed-off-by: Nadav Amit <namit@cs.technion.ac.il>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Nadav Amit|namit@cs.technion.ac.il|2014-05-19 09:50:50+03:00|-10800|Paolo Bonzini|pbonzini@redhat.com|2014-05-22 17:47:18+02:00|-7200

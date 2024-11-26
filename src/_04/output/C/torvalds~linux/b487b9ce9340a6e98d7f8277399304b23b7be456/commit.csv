@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b487b9ce9340a6e98d7f8277399304b23b7be456|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Add framework for device found filtering based on UUID
-
-Using Start Service Discovery provides the option to specifiy a list
-of UUID that are used to filter out device found events. This patch
-provides the framework for hooking up the UUID filter.
-
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>"|1|Marcel Holtmann|marcel@holtmann.org|2014-12-05 10:55:57+01:00|-3600|Johan Hedberg|johan.hedberg@intel.com|2014-12-05 12:37:35+02:00|-7200

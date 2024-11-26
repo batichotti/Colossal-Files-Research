@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|036876fa56204ae0fa59045bd6bbb2691a060633|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tracing: Have the historgram use the result of str_has_prefix() for len of prefix
-
-As str_has_prefix() returns the length on match, we can use that for the
-updating of the string pointer instead of recalculating the prefix size.
-
-Cc: Tom Zanussi  <zanussi@kernel.org>
-Acked-by: Namhyung Kim <namhyung@kernel.org>
-Signed-off-by: Steven Rostedt (VMware) <rostedt@goodmis.org>"|1|Steven Rostedt (VMware)|rostedt@goodmis.org|2018-12-21 18:40:46-05:00|18000|Steven Rostedt (VMware)|rostedt@goodmis.org|2018-12-22 22:52:09-05:00|18000

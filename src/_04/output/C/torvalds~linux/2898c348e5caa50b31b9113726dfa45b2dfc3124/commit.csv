@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2898c348e5caa50b31b9113726dfa45b2dfc3124|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/radeon: remove ip_pool start/suspend
-
-The IB pool is in gart memory, so it is completely
-superfluous to unpin / repin it on suspend / resume.
-
-Signed-off-by: Christian König <deathsimple@vodafone.de>
-Reviewed-by: Alex Deucher <alexander.deucher@amd.com>"|16|Christian König|deathsimple@vodafone.de|2012-07-05 11:55:34+02:00|-7200|Christian König|deathsimple@vodafone.de|2012-07-17 10:32:41+02:00|-7200

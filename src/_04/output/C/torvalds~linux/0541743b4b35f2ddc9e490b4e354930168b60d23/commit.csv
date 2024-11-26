@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0541743b4b35f2ddc9e490b4e354930168b60d23|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ethernet/broadcom: ip6_route_output() never returns NULL.
-
-ip6_route_output() never returns NULL, so it is wrong to
-check if the return value is NULL.
-
-Signed-off-by: RongQing.Li <roy.qing.li@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|RongQing.Li|roy.qing.li@gmail.com|2012-02-21 22:10:50+00:00|0|David S. Miller|davem@davemloft.net|2012-02-22 15:30:14-05:00|18000

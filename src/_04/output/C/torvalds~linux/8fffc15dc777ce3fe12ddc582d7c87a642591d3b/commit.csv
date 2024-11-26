@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8fffc15dc777ce3fe12ddc582d7c87a642591d3b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"eliminate byteswapping in struct ieee80211_qos_parameters
-
-Make it match the on-the-wire endianness, eliminate byteswapping.
-The only driver that used this sucker (ipw2200) updated.
-
-Signed-off-by: Al Viro <viro@zeniv.linux.org.uk>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|3|Al Viro|viro@zeniv.linux.org.uk|2007-12-27 01:25:40-05:00|18000|David S. Miller|davem@davemloft.net|2008-01-28 15:08:45-08:00|28800

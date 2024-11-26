@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9af86f9338949a9369bda5e6fed69347d1813054|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: core: fix use-after-free in __netif_receive_skb_list_core
-
-__netif_receive_skb_core can free the skb, so we have to use the dequeue-
- enqueue model when calling it from __netif_receive_skb_list_core.
-
-Fixes: 88eb1944e18c (""net: core: propagate SKB lists through packet_type lookup"")
-Signed-off-by: Edward Cree <ecree@solarflare.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Edward Cree|ecree@solarflare.com|2018-07-09 18:10:19+01:00|-3600|David S. Miller|davem@davemloft.net|2018-07-09 14:55:53-07:00|25200

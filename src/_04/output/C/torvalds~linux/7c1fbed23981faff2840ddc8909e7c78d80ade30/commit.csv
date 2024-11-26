@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7c1fbed23981faff2840ddc8909e7c78d80ade30|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Move LE scan disable/restart behind req_workqueue
-
-To avoid any risks of races, place also these LE scan modification
-work callbacks behind the same work queue as the other LE scan
-changes.
-
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|4|Johan Hedberg|johan.hedberg@intel.com|2015-11-11 08:11:23+02:00|-7200|Marcel Holtmann|marcel@holtmann.org|2015-11-19 17:50:30+01:00|-3600

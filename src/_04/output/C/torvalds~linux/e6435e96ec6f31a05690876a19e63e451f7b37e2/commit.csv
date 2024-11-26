@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e6435e96ec6f31a05690876a19e63e451f7b37e2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ftrace: Copy ops private to global_ops private
-
-If global_ops function is being called directly, instead of the global_ops
-list function, set the global_ops private to be the same as the ops private
-that's being called directly.
-
-Signed-off-by: Steven Rostedt <rostedt@goodmis.org>"|1|Steven Rostedt (Red Hat)|rostedt@goodmis.org|2014-01-10 14:31:31-05:00|18000|Steven Rostedt|rostedt@goodmis.org|2014-02-20 12:13:14-05:00|18000

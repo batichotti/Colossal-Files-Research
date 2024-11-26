@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e9ba7152c1f5babd6ad9ad45619e0a10b4c08554|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wl12xx: avoid bug_on_recovery during fw switch
-
-Add a flag to indicate we initiated a recovery work
-on purpose, in order to avoid triggering BUG() (when
-the bug_on_recovery module param was set).
-
-Signed-off-by: Eliad Peller <eliad@wizery.com>
-Signed-off-by: Luciano Coelho <coelho@ti.com>"|2|Eliad Peller|eliad@wizery.com|2012-03-04 10:55:54+02:00|-7200|Luciano Coelho|coelho@ti.com|2012-03-05 15:45:26+02:00|-7200

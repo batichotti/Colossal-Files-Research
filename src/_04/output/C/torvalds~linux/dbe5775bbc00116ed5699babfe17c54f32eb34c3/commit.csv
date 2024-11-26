@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|dbe5775bbc00116ed5699babfe17c54f32eb34c3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: rps: skip fragment when computing rxhash
-
-Fragmented IP packets may have no transfer header, so when computing
-rxhash, we should skip them.
-
-Signed-off-by: Changli Gao <xiaosuo@gmail.com>
-Acked-by: Eric Dumazet <eric.dumazet@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Changli Gao|xiaosuo@gmail.com|2010-08-17 19:01:38+00:00|0|David S. Miller|davem@davemloft.net|2010-08-19 17:10:38-07:00|25200

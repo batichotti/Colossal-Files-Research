@@ -1,6 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4bcec1847ac4f75c2ee6d091b495f34d8d822e6a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ocfs2: remove unused handle argument from ocfs2_meta_lock_full()
-
-Now that this is unused and all callers pass NULL, we can safely remove it.
-
-Signed-off-by: Mark Fasheh <mark.fasheh@oracle.com>"|14|Mark Fasheh|mark.fasheh@oracle.com|2006-10-09 16:02:40-07:00|25200|Mark Fasheh|mark.fasheh@oracle.com|2006-12-01 18:28:05-08:00|28800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b8a0b8e94648179b92191e5cf4fd3c4379b31cc4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"raid5: delete unnecessary warnning
-
-If device has R5_LOCKED set, it's legit device has R5_SkipCopy set and page !=
-orig_page. After R5_LOCKED is clear, handle_stripe_clean_event will clear the
-SkipCopy flag and set page to orig_page. So the warning is unnecessary.
-
-Reported-by: Joey Liao <joeyliao@qnap.com>
-Signed-off-by: Shaohua Li <shli@fb.com>"|1|Shaohua Li|shli@fb.com|2016-04-29 14:18:03-07:00|25200|Shaohua Li|shli@fb.com|2016-04-29 14:18:03-07:00|25200

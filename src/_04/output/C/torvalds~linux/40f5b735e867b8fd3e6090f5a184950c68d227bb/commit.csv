@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|40f5b735e867b8fd3e6090f5a184950c68d227bb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: s390: cleanup jump lables in kvm_arch_init_vm
-
-As all cleanup functions can handle their respective NULL case
-there is no need to have more than one error jump label.
-
-Signed-off-by: Dominik Dingel <dingel@linux.vnet.ibm.com>
-Acked-by: Cornelia Huck <cornelia.huck@de.ibm.com>
-Signed-off-by: Christian Borntraeger <borntraeger@de.ibm.com>"|1|Dominik Dingel|dingel@linux.vnet.ibm.com|2015-03-12 13:55:53+01:00|-3600|Christian Borntraeger|borntraeger@de.ibm.com|2015-03-17 16:24:11+01:00|-3600

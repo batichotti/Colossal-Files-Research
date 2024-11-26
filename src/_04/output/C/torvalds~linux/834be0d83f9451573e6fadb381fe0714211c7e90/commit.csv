@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|834be0d83f9451573e6fadb381fe0714211c7e90|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Revert ""KVM: MMU: split kvm_mmu_free_page""
-
-This reverts commit bd4c86eaa6ff10abc4e00d0f45d2a28b10b09df4.
-
-There is not user for kvm_mmu_isolate_page() any more.
-
-Signed-off-by: Gleb Natapov <gleb@redhat.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|1|Gleb Natapov|gleb@redhat.com|2013-01-30 16:45:05+02:00|-7200|Marcelo Tosatti|mtosatti@redhat.com|2013-02-05 22:47:39-02:00|7200

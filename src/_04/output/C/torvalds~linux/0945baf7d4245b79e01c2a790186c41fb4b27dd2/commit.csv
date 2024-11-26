@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0945baf7d4245b79e01c2a790186c41fb4b27dd2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ath10k: use num_pending_tx instead of msdu id bitmap
-
-It's more efficient to simply check num_pending_tx
-value instead of traversing whole bitmap of
-msdu ids.
-
-Signed-off-by: Michal Kazior <michal.kazior@tieto.com>
-Signed-off-by: Kalle Valo <kvalo@qca.qualcomm.com>"|2|Michal Kazior|michal.kazior@tieto.com|2013-09-18 14:43:18+02:00|-7200|Kalle Valo|kvalo@qca.qualcomm.com|2013-09-20 08:18:09+03:00|-10800

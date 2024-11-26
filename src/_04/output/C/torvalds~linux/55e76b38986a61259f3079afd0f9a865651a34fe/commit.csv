@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|55e76b38986a61259f3079afd0f9a865651a34fe|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Add 'Already Paired' error for Pair Device command
-
-To make the behavior predictable when attempting to pair with a device
-for which we already have a Link Key or Long Term Key, this patch adds a
-new 'Already Paired' error which gets sent in such a scenario.
-
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|4|Johan Hedberg|johan.hedberg@intel.com|2015-03-10 22:34:40+02:00|-7200|Marcel Holtmann|marcel@holtmann.org|2015-03-10 21:42:05+01:00|-3600

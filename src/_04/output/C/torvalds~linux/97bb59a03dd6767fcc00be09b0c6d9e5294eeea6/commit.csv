@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|97bb59a03dd6767fcc00be09b0c6d9e5294eeea6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rbd: fix a memory leak in rbd_get_client()
-
-If an existing rbd client is found to be suitable for use in
-rbd_get_client(), the rbd_options structure is not being
-freed as it should.  Fix that.
-
-Signed-off-by: Alex Elder <elder@dreamhost.com>
-Signed-off-by: Sage Weil <sage@newdream.net>"|1|Alex Elder|elder@dreamhost.com|2012-01-24 10:08:36-06:00|21600|Sage Weil|sage@newdream.net|2012-02-02 12:49:27-08:00|28800

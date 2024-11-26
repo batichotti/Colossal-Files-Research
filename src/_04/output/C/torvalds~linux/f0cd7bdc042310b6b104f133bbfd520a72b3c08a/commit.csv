@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f0cd7bdc042310b6b104f133bbfd520a72b3c08a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bnx2x: remove some dead code
-
-This code is after the break statement so it never gets used.  The
-""vlan_mac_obj"" variable does get initialized properly, so we can just
-delete this.
-
-Signed-off-by: Dan Carpenter <dan.carpenter@oracle.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Dan Carpenter|dan.carpenter@oracle.com|2011-10-05 17:52:28-04:00|14400|David S. Miller|davem@davemloft.net|2011-10-05 17:52:28-04:00|14400

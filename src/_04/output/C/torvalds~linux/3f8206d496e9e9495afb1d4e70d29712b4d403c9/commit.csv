@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3f8206d496e9e9495afb1d4e70d29712b4d403c9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[PATCH] get rid of indirect users of namei.h
-
-fs.h needs path.h, not namei.h; nfs_fs.h doesn't need it at all.
-Several places in the tree needed direct include.
-
-Signed-off-by: Al Viro <viro@zeniv.linux.org.uk>"|5|Al Viro|viro@zeniv.linux.org.uk|2008-07-26 03:46:43-04:00|14400|Al Viro|viro@zeniv.linux.org.uk|2008-07-26 20:53:42-04:00|14400

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6df50d274363aa189a31435024339b781a6e32a9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"habanalabs: return block size + block ID
-
-When user gives us a block address to get its ID to mmap it, he also
-needs to get from us the block size to pass to the driver in the mmap
-function.
-
-Signed-off-by: Oded Gabbay <ogabbay@kernel.org>"|5|Oded Gabbay|ogabbay@kernel.org|2021-02-05 16:04:34+02:00|-7200|Oded Gabbay|ogabbay@kernel.org|2021-02-08 18:20:08+02:00|-7200

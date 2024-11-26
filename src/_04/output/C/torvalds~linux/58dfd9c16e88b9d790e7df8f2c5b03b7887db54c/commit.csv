@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|58dfd9c16e88b9d790e7df8f2c5b03b7887db54c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[FORCEDETH] Fix xmit_lock/netif_tx_lock after merge
-
-There has been an update to the forcedeth driver that added a few new
-uses of xmit_lock which is no longer meant to be used directly.  This
-patch replaces them with netif_tx_lock_bh.
-
-Signed-off-by: Herbert Xu <herbert@gondor.apana.org.au>
-Signed-off-by: Linus Torvalds <torvalds@osdl.org>"|1|Herbert Xu|herbert@gondor.apana.org.au|2006-06-21 10:53:54+10:00|-36000|Linus Torvalds|torvalds@g5.osdl.org|2006-06-20 17:57:28-07:00|25200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e23d83b0c92bbe30d1fe9d5c0b972e50c6593946|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"OMAPDSS: DSI: use dsi_get_dsidev_id(dsidev) instead of dsidev->id
-
-The DSI driver uses dsi_get_dsidev_id() to get the ID number for the DSI
-instance. However, there were a few places where dsidev->id was used
-instead of the function. Fix those places to use the function.
-
-Signed-off-by: Tomi Valkeinen <tomi.valkeinen@ti.com>"|1|Tomi Valkeinen|tomi.valkeinen@ti.com|2012-01-10 11:26:52+02:00|-7200|Tomi Valkeinen|tomi.valkeinen@ti.com|2012-05-11 14:44:50+03:00|-10800

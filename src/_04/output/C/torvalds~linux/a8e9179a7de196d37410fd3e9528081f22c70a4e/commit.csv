@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a8e9179a7de196d37410fd3e9528081f22c70a4e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"be2net: Clear pending tx completions before destroying tx queue
-
-Clear pending tx completions in be_close() (ndo.stop method) so that after
-unregister_netdev() calls be_close(), all tx skbs are freed and there are
-no more tx completions when txq is destroyed.
-
-Signed-off-by: Sathya Perla <sathyap@serverengines.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Sathya Perla|sathyap@serverengines.com|2009-08-10 03:42:43+00:00|0|David S. Miller|davem@davemloft.net|2009-08-12 22:13:16-07:00|25200

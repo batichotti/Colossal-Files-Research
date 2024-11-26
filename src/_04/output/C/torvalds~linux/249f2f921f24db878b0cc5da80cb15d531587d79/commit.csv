@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|249f2f921f24db878b0cc5da80cb15d531587d79|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"RDMA/hns: Remove redundant print in hns_roce_v2_ceq_int()
-
-There is no need to tell users when eq->cons_index is overflow, we
-just set it back to zero.
-
-Signed-off-by: Weihang Li <liweihang@hisilicon.com>
-Link: https://lore.kernel.org/r/1565276034-97329-13-git-send-email-oulijun@huawei.com
-Signed-off-by: Doug Ledford <dledford@redhat.com>"|1|Weihang Li|liweihang@hisilicon.com|2019-08-08 22:53:52+08:00|-28800|Doug Ledford|dledford@redhat.com|2019-08-12 10:45:09-04:00|14400

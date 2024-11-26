@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8f36aaec9c929f2864196b0799203491f6a67dc6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cgroup: Use rcu_work instead of explicit rcu and work item
-
-Workqueue now has rcu_work.  Use it instead of open-coding rcu -> work
-item bouncing.
-
-Signed-off-by: Tejun Heo <tj@kernel.org>"|2|Tejun Heo|tj@kernel.org|2018-03-14 12:45:14-07:00|25200|Tejun Heo|tj@kernel.org|2018-03-19 10:12:03-07:00|25200

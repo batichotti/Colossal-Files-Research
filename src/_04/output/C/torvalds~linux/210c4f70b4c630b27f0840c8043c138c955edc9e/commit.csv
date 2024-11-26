@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|210c4f70b4c630b27f0840c8043c138c955edc9e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8152: set the RMS of RTL8153 according to the mtu
-
-Set the received maximum size (RMS) according to the mtu size. It is
-unnecessary to receive a packet which is more than the size we could
-transmit. Besides, this could let the rx buffer be used effectively.
-
-Signed-off-by: Hayes Wang <hayeswang@realtek.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|hayeswang|hayeswang@realtek.com|2017-03-20 16:13:44+08:00|-28800|David S. Miller|davem@davemloft.net|2017-03-22 10:50:36-07:00|25200

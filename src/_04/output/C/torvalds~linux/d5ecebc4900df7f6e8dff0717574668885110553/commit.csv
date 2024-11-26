@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d5ecebc4900df7f6e8dff0717574668885110553|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"smb3: Allow query of symlinks stored as reparse points
-
-The 'NFS' style symlinks (see MS-FSCC 2.1.2.4) were not
-being queried properly in query_symlink. Fix this.
-
-Signed-off-by: Steve French <stfrench@microsoft.com>
-Reviewed-by: Ronnie Sahlberg <lsahlber@redhat.com>"|1|Steve French|stfrench@microsoft.com|2019-06-28 02:04:18-05:00|18000|Steve French|stfrench@microsoft.com|2019-07-07 22:37:43-05:00|18000

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0c1daee085cff1395d1eba4ad6faff7810a594d8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: fix the race between remove dev and alloc chunk
-
-On remove device path, it updates device->dev_alloc_list but does not hold
-chunk lock
-
-Signed-off-by: Xiao Guangrong <xiaoguangrong@cn.fujitsu.com>
-Signed-off-by: Chris Mason <chris.mason@oracle.com>"|1|Xiao Guangrong|xiaoguangrong@cn.fujitsu.com|2011-04-20 10:08:16+00:00|0|Chris Mason|chris.mason@oracle.com|2011-05-23 13:24:43-04:00|14400

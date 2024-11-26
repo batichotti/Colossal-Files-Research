@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b53d3f5db2b79637acadc06a330db6c2c60863f5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: cleanup for btrfs_btree_balance_dirty
-
-- 'nr' is no more used.
-- btrfs_btree_balance_dirty() and __btrfs_btree_balance_dirty() can share
-  a bunch of code.
-
-Signed-off-by: Liu Bo <bo.li.liu@oracle.com>
-Signed-off-by: Chris Mason <chris.mason@fusionio.com>"|7|Liu Bo|bo.li.liu@oracle.com|2012-11-14 14:34:34+00:00|0|Josef Bacik|jbacik@fusionio.com|2012-12-12 17:15:28-05:00|18000

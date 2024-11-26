@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|870abdf67170daa9f1022e55a35c469239fcc74c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: add multi-rate retry support
-
-This patch adjusts the rate control API to allow multi-rate retry
-if supported by the driver. The ieee80211_hw struct specifies how
-many alternate rate selections the driver supports.
-
-Signed-off-by: Felix Fietkau <nbd@openwrt.org>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|7|Felix Fietkau|nbd@openwrt.org|2008-10-05 18:04:24+02:00|-7200|John W. Linville|linville@tuxdriver.com|2008-10-06 18:14:57-04:00|14400

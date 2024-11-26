@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|272289a3df7297fd798a8ddf652c6d29f675de28|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: nfs4_do_handle_exception() handle revoke/expiry of a single stateid
-
-If we're not yet sure that all state has expired or been revoked, we
-should try to do a minimal recovery on just the one stateid.
-
-Signed-off-by: Trond Myklebust <trond.myklebust@primarydata.com>
-Tested-by: Oleg Drokin <green@linuxhacker.ru>
-Signed-off-by: Anna Schumaker <Anna.Schumaker@Netapp.com>"|1|Trond Myklebust|trond.myklebust@primarydata.com|2016-09-22 13:39:15-04:00|14400|Anna Schumaker|Anna.Schumaker@Netapp.com|2016-09-27 14:35:07-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|27c97abc30e2b9ad2288977c0ecbef4d50553f57|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rbd: add add_disk() error handling
-
-We never checked for errors on add_disk() as this function
-returned void. Now that this is fixed, use the shiny new
-error handling.
-
-Signed-off-by: Luis Chamberlain <mcgrof@kernel.org>
-Signed-off-by: Jens Axboe <axboe@kernel.dk>"|1|Luis Chamberlain|mcgrof@kernel.org|2021-09-27 15:02:28-07:00|25200|Jens Axboe|axboe@kernel.dk|2021-10-18 14:41:37-06:00|21600

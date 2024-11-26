@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|af09e48aa52377eb807709e2a1cdc33e9fd1ac94|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/amd/display: Fix memoryleak during S3 resume.
-
-Do not create dc_state within display_resume, since it's being
-constructed within atomic check.
-
-Reviewed-by: Harry Wentland <harry.wentland@amd.com>
-Signed-off-by: Leo (Sunpeng) Li <sunpeng.li@amd.com>
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|1|Leo (Sunpeng) Li|sunpeng.li@amd.com|2017-10-20 13:59:53-04:00|14400|Alex Deucher|alexander.deucher@amd.com|2017-10-21 16:53:53-04:00|14400

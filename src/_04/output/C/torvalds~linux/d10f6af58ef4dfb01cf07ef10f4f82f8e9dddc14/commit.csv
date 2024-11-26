@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d10f6af58ef4dfb01cf07ef10f4f82f8e9dddc14|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rtw88: rtw8822c: eliminate code duplication, use native swap() function
-
-swap_u32() duplicate native swap(), so replace swap_u32() with swap().
-
-Signed-off-by: Ivan Safonov <insafonov@gmail.com>
-Signed-off-by: Kalle Valo <kvalo@codeaurora.org>
-Link: https://lore.kernel.org/r/20200913165958.419744-1-insafonov@gmail.com"|1|Ivan Safonov|insafonov@gmail.com|2020-09-13 19:59:59+03:00|-10800|Kalle Valo|kvalo@codeaurora.org|2020-09-16 09:08:36+03:00|-10800

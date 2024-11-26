@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6eccabb301d442e6106ecc84b07a976c2816d9fb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bnx2x: Carrier off first call
-
-Call carrier off should not be called after register_netdev since after
-register netdev open can be called at any time followed by an interrupt that
-will set it to carrier_on and the probe will resume control and set it to off
-
-Signed-off-by: Eilon Greenstein <eilong@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Eilon Greenstein|eilong@broadcom.com|2009-01-22 03:37:48+00:00|0|David S. Miller|davem@davemloft.net|2009-01-22 13:45:06-08:00|28800

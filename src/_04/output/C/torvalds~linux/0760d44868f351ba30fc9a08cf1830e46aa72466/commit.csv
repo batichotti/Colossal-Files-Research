@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0760d44868f351ba30fc9a08cf1830e46aa72466|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: Terminate early if task_switch_16/32 failed
-
-Stop the switch immediately if task_switch_16/32 returned an error. Only
-if that step succeeded, the switch should actually take place and update
-any register states.
-
-Signed-off-by: Jan Kiszka <jan.kiszka@siemens.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|1|Jan Kiszka|jan.kiszka@siemens.com|2010-04-14 15:50:57+02:00|-7200|Avi Kivity|avi@redhat.com|2010-05-17 12:17:44+03:00|-10800

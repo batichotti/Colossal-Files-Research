@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ed2e621a95d704e6a4e904cc00524e8cbddda0c2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: give a chance to mount again when encountering errors
-
-This patch gives another chance to try mount process when we encounter an error.
-This makes an effect on the roll-forward recovery failures as well.
-
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|1|Jaegeuk Kim|jaegeuk@kernel.org|2014-08-08 15:37:41-07:00|25200|Jaegeuk Kim|jaegeuk@kernel.org|2014-08-21 09:21:00-07:00|25200

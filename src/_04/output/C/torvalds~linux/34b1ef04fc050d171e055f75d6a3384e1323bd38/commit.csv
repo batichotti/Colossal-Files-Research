@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|34b1ef04fc050d171e055f75d6a3384e1323bd38|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"be2net: Fallback to the older opcode if MCC_CREATE_EXT opcode is not supported on the card
-
-Instead of failing the init/probe code in the driver fallback to the older opcode to ensure
-the driver is loaded thereby enabling users to upgrade the f/w to whatever version is required.
-
-Signed-off-by: Somnath Kotur <somnath.kotur@emulex.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|Somnath Kotur|somnath.kotur@emulex.com|2011-06-01 00:33:22+00:00|0|David S. Miller|davem@davemloft.net|2011-05-31 22:15:28-07:00|25200

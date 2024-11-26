@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|745fc05c9db1f17da076861c7f57507e13f28a3a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bnxt_en: Add bp->rx_dir field for rx buffer DMA direction.
-
-When driver is running in XDP mode, rx buffers are DMA mapped as
-DMA_BIDIRECTIONAL.  Add a field so the code will map/unmap rx buffers
-according to this field.
-
-Signed-off-by: Michael Chan <michael.chan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Michael Chan|michael.chan@broadcom.com|2017-02-06 16:55:34-05:00|18000|David S. Miller|davem@davemloft.net|2017-02-07 13:30:58-05:00|18000

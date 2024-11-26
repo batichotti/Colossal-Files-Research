@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|615774fe598f8ee971a8dfeb1f2ec4211241c433|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tg3: Use tg3_start_xmit_dma_bug for 5717 A0
-
-The A0 revision of the 5717 has problems with short packet fragments.
-It needs to use the tg3_start_xmit_dma_bug() routine.
-
-Signed-off-by: Matt Carlson <mcarlson@broadcom.com>
-Reviewed-by: Michael Chan <mchan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Matt Carlson|mcarlson@broadcom.com|2009-11-13 13:03:39+00:00|0|David S. Miller|davem@davemloft.net|2009-11-15 22:14:41-08:00|28800

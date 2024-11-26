@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f741917e24e9de4cf5abe041ff1b4f28f9522387|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drivers/net/usb/r8152: remove the unneeded variable ""ret"" in rtl8152_system_suspend
-
-rtl8152_system_suspend defines the variable ""ret"", but it is not modified
-after initialization. So just remove it.
-
-Signed-off-by: zhong jiang <zhongjiang@huawei.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|zhong jiang|zhongjiang@huawei.com|2018-08-09 09:39:13+08:00|-28800|David S. Miller|davem@davemloft.net|2018-08-11 11:23:25-07:00|25200

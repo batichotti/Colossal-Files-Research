@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6401c37dbd6264b045961868c1438bf03efdd104|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Simplify platform checks in intel_fb_pitch_limit()
-
-Replace the VLV/CHV check with a HAS_GMCH_DISPLAY check in
-intel_fb_pitch_limit(), because it's shorter.
-
-Signed-off-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Link: http://patchwork.freedesktop.org/patch/msgid/20170208175328.11064-1-ville.syrjala@linux.intel.com
-Reviewed-by: Ander Conselvan de Oliveira <conselvan2@gmail.com>"|1|Ville Syrjälä|ville.syrjala@linux.intel.com|2017-02-08 19:53:28+02:00|-7200|Ville Syrjälä|ville.syrjala@linux.intel.com|2017-02-10 18:44:53+02:00|-7200

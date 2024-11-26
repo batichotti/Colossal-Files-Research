@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|08853f18eafe65aa97deb464c28505a67c898b0e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Set addr_type only when it's needed
-
-In the hci_le_conn_complete_evt() function there's no need to set the
-addr_type value until it's actually needed, i.e. for the black list
-lookup. This patch moves the code a bit further down in the function.
-
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|1|Johan Hedberg|johan.hedberg@intel.com|2014-08-15 21:06:55+03:00|-10800|Marcel Holtmann|marcel@holtmann.org|2014-09-08 19:07:52+02:00|-7200

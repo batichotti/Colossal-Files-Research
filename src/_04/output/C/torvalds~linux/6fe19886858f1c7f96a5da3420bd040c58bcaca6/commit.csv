@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6fe19886858f1c7f96a5da3420bd040c58bcaca6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bnxt_en: Refactor bnxt_ring_struct.
-
-Move the DMA page table and vmem fields in bnxt_ring_struct to a new
-bnxt_ring_mem_info struct.  This will allow context memory management
-for a new device to re-use some of the existing infrastructure.
-
-Signed-off-by: Michael Chan <michael.chan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Michael Chan|michael.chan@broadcom.com|2018-10-14 07:02:41-04:00|14400|David S. Miller|davem@davemloft.net|2018-10-15 22:44:31-07:00|25200

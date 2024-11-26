@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2544a02090aa76ffb8069e6bf23d886e34d9c8da|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libceph: pass reply buffer length through ceph_osdc_call()
-
-To spare checking for ""this reply fits into a page, but does it fit
-into my buffer?"" in some callers, osd_req_op_cls_response_data_pages()
-needs to know how big it is.
-
-Signed-off-by: Ilya Dryomov <idryomov@gmail.com>
-Reviewed-by: Jason Dillaman <dillaman@redhat.com>"|2|Ilya Dryomov|idryomov@gmail.com|2017-01-25 18:16:21+01:00|-3600|Ilya Dryomov|idryomov@gmail.com|2017-02-20 12:16:13+01:00|-3600

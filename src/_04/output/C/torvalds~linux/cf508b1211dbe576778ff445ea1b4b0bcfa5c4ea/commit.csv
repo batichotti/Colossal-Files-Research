@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cf508b1211dbe576778ff445ea1b4b0bcfa5c4ea|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netdev: Handle ->addr_list_lock just like ->_xmit_lock for lockdep.
-
-The new address list lock needs to handle the same device layering
-issues that the _xmit_lock one does.
-
-This integrates work done by Patrick McHardy.
-
-Signed-off-by: David S. Miller <davem@davemloft.net>"|8|David S. Miller|davem@davemloft.net|2008-07-22 14:16:42-07:00|25200|David S. Miller|davem@davemloft.net|2008-07-22 14:16:42-07:00|25200

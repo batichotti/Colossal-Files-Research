@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|39c4cc0fcc38cff29d5b9884372b17c894c9c080|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSD: Only reinitilize the recall_lru list under the recall lock
-
-unhash_delegation() will grab the recall lock before calling
-list_del_init() in each of these places.  This patch removes the
-redundant calls.
-
-Signed-off-by: Bryan Schumaker <bjschuma@netapp.com>
-Signed-off-by: J. Bruce Fields <bfields@redhat.com>"|1|Bryan Schumaker|bjschuma@netapp.com|2011-12-13 16:35:58-05:00|18000|J. Bruce Fields|bfields@redhat.com|2011-12-13 17:11:45-05:00|18000

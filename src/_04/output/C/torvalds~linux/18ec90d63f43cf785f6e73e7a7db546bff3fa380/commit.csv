@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|18ec90d63f43cf785f6e73e7a7db546bff3fa380|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: be smarter about dropping things from the tree log
-
-When we truncate existing items in the tree log we've been searching for
-each individual item and removing them.  This is unnecessary churn and
-searching, just keep track of the slot we are on and how many items we need
-to delete and delete them all at once.  Thanks,
-
-Signed-off-by: Josef Bacik <jbacik@fusionio.com>"|1|Josef Bacik|jbacik@fusionio.com|2012-09-28 11:56:28-04:00|14400|Chris Mason|chris.mason@fusionio.com|2012-10-09 09:15:41-04:00|14400

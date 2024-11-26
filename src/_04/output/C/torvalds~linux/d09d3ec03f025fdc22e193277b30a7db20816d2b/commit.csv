@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d09d3ec03f025fdc22e193277b30a7db20816d2b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net/ipv6: Enforce limits for accept_unsolicited_na sysctl
-
-Fix mistake in the original patch where limits were specified but the
-handler didn't take care of the limits.
-
-Signed-off-by: Arun Ajith S <aajith@arista.com>
-Reviewed-by: David Ahern <dsahern@kernel.org>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Arun Ajith S|aajith@arista.com|2022-04-19 10:59:10+00:00|0|David S. Miller|davem@davemloft.net|2022-04-22 10:32:54+01:00|-3600

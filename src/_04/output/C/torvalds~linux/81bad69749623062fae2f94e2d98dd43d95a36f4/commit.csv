@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|81bad69749623062fae2f94e2d98dd43d95a36f4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ocfs2: Remove DISK_ALLOC from masklog.
-
-Since all 4 files, localalloc.c, suballoc.c, alloc.c and
-resize.c, which use DISK_ALLOC are changed to trace events,
-Remove masklog DISK_ALLOC totally.
-
-Signed-off-by: Tao Ma <boyu.mt@taobao.com>"|6|Tao Ma|boyu.mt@taobao.com|2011-02-22 08:01:27+08:00|-28800|Tao Ma|boyu.mt@taobao.com|2011-02-22 08:01:27+08:00|-28800

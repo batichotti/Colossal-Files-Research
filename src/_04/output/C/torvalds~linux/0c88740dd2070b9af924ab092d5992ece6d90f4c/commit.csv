@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0c88740dd2070b9af924ab092d5992ece6d90f4c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"be2iscsi: Fix memory leak in beiscsi_alloc_mem()
-
-In case of error, the memory allocated for phwi_ctrlr was not freed.
-
-Signed-off-by: Maurizio Lombardi <mlombard@redhat.com>
-Reviewed-by: Johannes Thumshirn <jthumshirn@suse.de>
-Reviewed-by: Jitendra Bhivare <jitendra.bhivare@broadcom.com>
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|1|Maurizio Lombardi|mlombard@redhat.com|2015-10-01 10:56:25+02:00|-7200|Martin K. Petersen|martin.petersen@oracle.com|2016-02-23 21:27:02-05:00|18000

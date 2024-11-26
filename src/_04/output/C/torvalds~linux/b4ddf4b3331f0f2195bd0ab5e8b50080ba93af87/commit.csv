@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b4ddf4b3331f0f2195bd0ab5e8b50080ba93af87|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"be2net: get rid of be_get_stats()
-
-drivers can avoid implementing ndo_get_stats method if using netdevice
-stats structure.
-
-Signed-off-by: Eric Dumazet <eric.dumazet@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Eric Dumazet|eric.dumazet@gmail.com|2010-08-24 12:22:13-07:00|25200|David S. Miller|davem@davemloft.net|2010-08-24 12:22:13-07:00|25200

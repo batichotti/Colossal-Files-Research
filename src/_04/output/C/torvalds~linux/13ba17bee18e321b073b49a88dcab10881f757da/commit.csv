@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|13ba17bee18e321b073b49a88dcab10881f757da|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"notifier: Remove notifier header file wherever not used
-
-The conversion of the hotplug notifiers to a state machine left the
-notifier.h includes around in some places. Remove them.
-
-Signed-off-by: Mukesh Ojha <mojha@codeaurora.org>
-Signed-off-by: Thomas Gleixner <tglx@linutronix.de>
-Link: https://lkml.kernel.org/r/1535114033-4605-1-git-send-email-mojha@codeaurora.org"|7|Mukesh Ojha|mojha@codeaurora.org|2018-08-24 18:03:53+05:30|-19800|Thomas Gleixner|tglx@linutronix.de|2018-08-30 12:56:40+02:00|-7200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3c86c0d3dbb98865a60a0c9d5c3a229af15a8a96|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: hyper-v: Move the remote TLB flush logic out of vmx
-
-Currently the remote TLB flush logic is specific to VMX.
-Move it to a common place so that SVM can use it as well.
-
-Signed-off-by: Vineeth Pillai <viremana@linux.microsoft.com>
-Message-Id: <4f4e4ca19778437dae502f44363a38e99e3ef5d1.1622730232.git.viremana@linux.microsoft.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|7|Vineeth Pillai|viremana@linux.microsoft.com|2021-06-03 15:14:36+00:00|0|Paolo Bonzini|pbonzini@redhat.com|2021-06-17 13:09:36-04:00|14400

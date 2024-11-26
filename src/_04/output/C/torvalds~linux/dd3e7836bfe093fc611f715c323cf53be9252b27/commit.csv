@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|dd3e7836bfe093fc611f715c323cf53be9252b27|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"selinux: always call sk_security_struct sksec
-
-trying to grep everything that messes with a sk_security_struct isn't easy
-since we don't always call it sksec.  Just rename everything sksec.
-
-Signed-off-by: Eric Paris <eparis@redhat.com>
-Signed-off-by: James Morris <jmorris@namei.org>"|3|Eric Paris|eparis@redhat.com|2010-04-07 15:08:46-04:00|14400|James Morris|jmorris@namei.org|2010-04-08 09:17:02+10:00|-36000

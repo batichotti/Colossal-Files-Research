@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ba83bfb1e86501d21077b570e10e443f1605be64|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nl80211: look for HT/VHT capabilities in beacon's tail
-
-There are no HT/VHT capabilities in cfg80211_ap_settings::beacon_ies,
-these should be looked for in beacon's tail instead.
-
-Fixes: 66cd794e3c30 (""nl80211: add HT/VHT capabilities to AP parameters"")
-Signed-off-by: Igor Mitsyanko <igor.mitsyanko.os@quantenna.com>
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Igor Mitsyanko|igor.mitsyanko.os@quantenna.com|2017-08-30 13:52:25-07:00|25200|Johannes Berg|johannes.berg@intel.com|2017-09-05 16:25:08+02:00|-7200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a9ea3fc6f2654a7407864fec983d1671d775b5ee|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"virtio net: Add ethtool ops for SG/GSO
-
-This patch adds some basic ethtool operations to virtio_net so
-I could test SG without GSO (which was really useful because TSO
-turned out to be buggy :)
-
-Signed-off-by: Rusty Russell <rusty@rustcorp.com.au> (remove MTU setting)"|1|Herbert Xu|herbert@gondor.apana.org.au|2008-04-18 11:21:42+08:00|-28800|Rusty Russell|rusty@rustcorp.com.au|2008-07-25 12:06:01+10:00|-36000

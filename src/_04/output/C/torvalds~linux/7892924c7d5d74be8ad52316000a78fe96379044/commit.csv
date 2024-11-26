@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7892924c7d5d74be8ad52316000a78fe96379044|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Make mgmt_disconnect_failed() return void
-
-The return value of mgmt_disconnect_failed() function is not used
-so change it to just return void.
-
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>"|2|Marcel Holtmann|marcel@holtmann.org|2013-10-06 23:55:47-07:00|25200|Johan Hedberg|johan.hedberg@intel.com|2013-10-07 09:19:16+02:00|-7200

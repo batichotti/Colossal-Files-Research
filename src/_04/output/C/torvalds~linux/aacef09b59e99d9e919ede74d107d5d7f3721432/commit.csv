@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|aacef09b59e99d9e919ede74d107d5d7f3721432|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: fix pipe source image setting in flip command
-
-The MI_DISPLAY_FLIP command needs to be set the same pipe
-source image like in pipe source register, e.g source image
-size minus one. This fixes screen corrupt issue on Ironlake.
-
-Signed-off-by: Zhenyu Wang <zhenyuw@linux.intel.com>
-Signed-off-by: Eric Anholt <eric@anholt.net>"|1|Zhenyu Wang|zhenyuw@linux.intel.com|2010-02-09 09:46:20+08:00|-28800|Eric Anholt|eric@anholt.net|2010-02-10 14:50:38-08:00|28800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b9ef2b8858a0cf07d5f1b201abaf2480f4aa8201|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rbd: don't establish watch for read-only mappings
-
-With exclusive lock out of the way, watch is the only thing left that
-prevents a read-only mapping from being used with read-only OSD caps.
-
-Signed-off-by: Ilya Dryomov <idryomov@gmail.com>
-Reviewed-by: Jason Dillaman <dillaman@redhat.com>
-Reviewed-by: Dongsheng Yang <dongsheng.yang@easystack.cn>"|1|Ilya Dryomov|idryomov@gmail.com|2019-11-12 20:20:04+01:00|-3600|Ilya Dryomov|idryomov@gmail.com|2019-11-25 11:44:03+01:00|-3600

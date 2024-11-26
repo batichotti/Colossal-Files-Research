@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9bbafc71919adfdf83fafd2ce909853b493e7d86|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"xfs: move xfs_perag_get/put to xfs_ag.[ch]
-
-They are AG functions, not superblock functions, so move them to the
-appropriate location.
-
-Signed-off-by: Dave Chinner <dchinner@redhat.com>
-Reviewed-by: Brian Foster <bfoster@redhat.com>
-Reviewed-by: Darrick J. Wong <djwong@kernel.org>"|31|Dave Chinner|dchinner@redhat.com|2021-06-02 10:48:24+10:00|-36000|Dave Chinner|david@fromorbit.com|2021-06-02 10:48:24+10:00|-36000

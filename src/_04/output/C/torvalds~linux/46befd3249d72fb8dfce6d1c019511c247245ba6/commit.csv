@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|46befd3249d72fb8dfce6d1c019511c247245ba6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: neterion: replace dev_kfree_skb_irq by dev_consume_skb_irq for drop profiles
-
-dev_consume_skb_irq() should be called when skb xmit done. It makes
-drop profiles(dropwatch, perf) more friendly.
-
-Signed-off-by: Yang Wei <yang.wei9@zte.com.cn>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Yang Wei|yang.wei9@zte.com.cn|2019-02-12 23:47:31+08:00|-28800|David S. Miller|davem@davemloft.net|2019-02-13 20:50:41-08:00|28800

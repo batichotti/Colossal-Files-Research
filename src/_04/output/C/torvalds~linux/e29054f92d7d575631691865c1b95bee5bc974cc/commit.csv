@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e29054f92d7d575631691865c1b95bee5bc974cc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[BNX2]: Fix VLAN on ASF
-
-Always set up the device to strip incoming VLAN tags when ASF is
-enabled. ASF firmware will not parse packets correctly if VLAN tags
-are not stripped.
-
-Signed-off-by: Michael Chan <mchan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Michael Chan|mchan@broadcom.com|2006-01-23 16:06:06-08:00|28800|David S. Miller|davem@davemloft.net|2006-01-23 16:06:06-08:00|28800

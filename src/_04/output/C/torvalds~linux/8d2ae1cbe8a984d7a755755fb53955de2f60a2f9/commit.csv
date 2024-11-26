@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8d2ae1cbe8a984d7a755755fb53955de2f60a2f9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: remove trailing \n from ext4_warning/ext4_error calls
-
-Messages passed to ext4_warning() or ext4_error() don't need trailing
-newlines, because these function add the newlines themselves.
-
-Signed-off-by: Jakub Wilk <jwilk@jwilk.net>"|8|Jakub Wilk|jwilk@jwilk.net|2016-04-27 01:11:21-04:00|14400|Theodore Ts'o|tytso@mit.edu|2016-04-27 01:11:21-04:00|14400

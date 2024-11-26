@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a25c75d5ad04df0a7abd09585231b4021a91a358|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: cleanup: use consistent lock naming
-
-It confuses Smatch that we use two names for the same lock.  Plus the
-shorter name is nicer.  This doesn't change how the code works, it's
-just a cleanup.
-
-Signed-off-by: Dan Carpenter <dan.carpenter@oracle.com>"|1|Dan Carpenter|dan.carpenter@oracle.com|2012-04-18 09:59:29+03:00|-10800|Josef Bacik|josef@redhat.com|2012-05-11 10:56:41-04:00|14400

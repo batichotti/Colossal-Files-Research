@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2dbd0dd711e6c0ca6a2be9e6d93bbeb339386638|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86 emulator: Decode memory operands directly into a 'struct operand'
-
-Since modrm operand can be either register or memory, decoding it into
-a 'struct operand', which can represent both, is simpler.
-
-Signed-off-by: Avi Kivity <avi@redhat.com>"|2|Avi Kivity|avi@redhat.com|2010-08-01 15:40:19+03:00|-10800|Avi Kivity|avi@redhat.com|2010-10-24 10:50:40+02:00|-7200

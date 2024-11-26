@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b59b153d1026b73deb032d01bb9319ebba896006|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: allow compiling out the Xen hypercall interface
-
-The Xen hypercall interface adds to the attack surface of the hypervisor
-and will be used quite rarely.  Allow compiling it out.
-
-Suggested-by: Christoph Hellwig <hch@lst.de>
-Reviewed-by: David Woodhouse <dwmw@amazon.co.uk>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|4|Paolo Bonzini|pbonzini@redhat.com|2021-02-26 04:54:45-05:00|18000|Paolo Bonzini|pbonzini@redhat.com|2021-03-02 14:30:45-05:00|18000

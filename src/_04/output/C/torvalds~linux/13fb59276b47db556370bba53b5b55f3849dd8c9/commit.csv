@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|13fb59276b47db556370bba53b5b55f3849dd8c9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"kvm: x86: disable shattered huge page recovery for PREEMPT_RT.
-
-If a huge page is recovered (and becomes no executable) while another
-thread is executing it, the resulting contention on mmu_lock can cause
-latency spikes.  Disabling recovery for PREEMPT_RT kernels fixes this
-issue.
-
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Paolo Bonzini|pbonzini@redhat.com|2019-11-13 15:47:06+01:00|-3600|Paolo Bonzini|pbonzini@redhat.com|2019-11-13 15:47:06+01:00|-3600

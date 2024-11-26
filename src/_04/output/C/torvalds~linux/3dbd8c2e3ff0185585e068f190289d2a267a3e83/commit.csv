@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3dbd8c2e3ff0185585e068f190289d2a267a3e83|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md: stop defining MAJOR_NR
-
-MAJOR_NR was only required for magic in linux/blk.h in 2.4 or earlier
-kernels, so no need to keep it around.
-
-Signed-off-by: Christoph Hellwig <hch@lst.de>
-Signed-off-by: NeilBrown <neilb@suse.de>"|1|Christoph Hellwig|hch@lst.de|2009-03-31 14:27:02+11:00|-39600|NeilBrown|neilb@suse.de|2009-03-31 14:27:02+11:00|-39600

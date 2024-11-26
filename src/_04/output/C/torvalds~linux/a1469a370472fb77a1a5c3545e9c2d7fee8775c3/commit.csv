@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a1469a370472fb77a1a5c3545e9c2d7fee8775c3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSD: Add nfsd4_encode_fattr4_fs_locations()
-
-Refactor the encoder for FATTR4_FS_LOCATIONS into a helper. In a
-subsequent patch, this helper will be called from a bitmask loop.
-
-Reviewed-by: Jeff Layton <jlayton@kernel.org>
-Signed-off-by: Chuck Lever <chuck.lever@oracle.com>"|1|Chuck Lever|chuck.lever@oracle.com|2023-09-18 09:59:14-04:00|14400|Chuck Lever|chuck.lever@oracle.com|2023-10-16 12:44:18-04:00|14400

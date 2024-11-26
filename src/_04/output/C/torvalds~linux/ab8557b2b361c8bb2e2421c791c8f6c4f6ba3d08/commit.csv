@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ab8557b2b361c8bb2e2421c791c8f6c4f6ba3d08|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86 emulator: 0f (20|21|22|23) ignore mod bits.
-
-Resent spec says that for 0f (20|21|22|23) the 2 bits in the mod field
-are ignored. Interestingly enough older spec says that 11 is only valid
-encoding.
-
-Signed-off-by: Gleb Natapov <gleb@redhat.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|1|Gleb Natapov|gleb@redhat.com|2010-03-18 15:20:09+02:00|-7200|Avi Kivity|avi@redhat.com|2010-05-17 12:16:03+03:00|-10800

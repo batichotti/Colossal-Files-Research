@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1ec14ad3132702694f2e1a90b30641cf111183b9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Implement GPU semaphores for inter-ring synchronisation on SNB
-
-The bulk of the change is to convert the growing list of rings into an
-array so that the relationship between the rings and the semaphore sync
-registers can be easily computed.
-
-Signed-off-by: Chris Wilson <chris@chris-wilson.co.uk>"|14|Chris Wilson|chris@chris-wilson.co.uk|2010-12-04 11:30:53+00:00|0|Chris Wilson|chris@chris-wilson.co.uk|2010-12-05 00:37:38+00:00|0

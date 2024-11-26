@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|070c633f60c23a89c226eb696f4a17b08a164b10|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rbd: drop ""object_name"" from rbd_req_sync_unwatch()
-
-rbd_req_sync_unwatch() only ever uses rbd_dev->header_name as the
-value of its ""object_name"" parameter, and that value is available
-within the function already.  So get rid of the parameter.
-
-Signed-off-by: Alex Elder <elder@inktank.com>
-Reviewed-by: Josh Durgin <josh.durgin@inktank.com>"|1|Alex Elder|elder@inktank.com|2012-07-25 09:32:41-05:00|18000|Sage Weil|sage@inktank.com|2012-07-30 18:15:54-07:00|25200

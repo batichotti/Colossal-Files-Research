@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|50c205f5e5c2e2af002fd4ef537ded79b90b1b56|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"LSM: do not initialize common_audit_data to 0
-
-It isn't needed.  If you don't set the type of the data associated with
-that type it is a pretty obvious programming bug.  So why waste the cycles?
-
-Signed-off-by: Eric Paris <eparis@redhat.com>"|12|Eric Paris|eparis@redhat.com|2012-04-04 15:01:43-04:00|14400|Eric Paris|eparis@redhat.com|2012-04-09 12:23:04-04:00|14400

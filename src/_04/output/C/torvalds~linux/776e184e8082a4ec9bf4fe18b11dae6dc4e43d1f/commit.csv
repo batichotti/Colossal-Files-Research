@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|776e184e8082a4ec9bf4fe18b11dae6dc4e43d1f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[ALSA] hda-codec - Add Mic Boost control with auto-configuration
-
-Some codecs need Mic Boost mixer controls for obtaining a proper recording
-level, but the auto-configuration doesn't create them.
-This patch adds the creation of mic-boost controls on corresponding codecs.
-
-Signed-off-by: Takashi Iwai <tiwai@suse.de>
-Signed-off-by: Jaroslav Kysela <perex@suse.cz>"|1|Takashi Iwai|tiwai@suse.de|2007-08-29 15:07:11+02:00|-7200|Jaroslav Kysela|perex@perex.cz|2007-10-16 15:59:33+02:00|-7200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e3dc0e316559de8c0139bc84d82244e0907c4f17|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tcm_qla2xxx: introduce a private sess_kref
-
-This stops abusing the common sess_kref to overload it for private
-usage, which allows removing the shutdown_session method as well.
-
-Signed-off-by: Christoph Hellwig <hch@lst.de>
-Signed-off-by: Nicholas Bellinger <nab@linux-iscsi.org>"|3|Christoph Hellwig|hch@lst.de|2016-05-02 15:45:23+02:00|-7200|Nicholas Bellinger|nab@linux-iscsi.org|2016-05-10 01:19:33-07:00|25200

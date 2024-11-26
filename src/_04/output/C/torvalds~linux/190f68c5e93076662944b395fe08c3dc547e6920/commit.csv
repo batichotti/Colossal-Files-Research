@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|190f68c5e93076662944b395fe08c3dc547e6920|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Pass new_config down do crtc_compute_clock
-
-This reduces the number of direct users of crtc->new_config, opening up
-the possibilty of removing it altogether.
-
-Signed-off-by: Ander Conselvan de Oliveira <ander.conselvan.de.oliveira@intel.com>
-Reviewed-by: Matt Roper <matthew.d.roper@intel.com>
-Signed-off-by: Daniel Vetter <daniel.vetter@ffwll.ch>"|4|Ander Conselvan de Oliveira|ander.conselvan.de.oliveira@intel.com|2015-01-15 14:55:23+02:00|-7200|Daniel Vetter|daniel.vetter@ffwll.ch|2015-01-27 09:50:49+01:00|-3600

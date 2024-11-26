@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f4f01b542c027b0df57109140c3ee48321705c88|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"infiniband: Remove duplicated KERN_<LEVEL> from pr_<level> uses
-
-These KERN_<LEVEL> uses are unnecessary with pr_<level> and cause
-bad logging output so remove them.
-
-Signed-off-by: Joe Perches <joe@perches.com>
-Acked-by: Steve Wise <swise@opengridcomputing.com>
-Signed-off-by: Doug Ledford <dledford@redhat.com>"|3|Joe Perches|joe@perches.com|2015-05-08 15:58:07-07:00|25200|Doug Ledford|dledford@redhat.com|2015-05-12 15:52:37-04:00|14400

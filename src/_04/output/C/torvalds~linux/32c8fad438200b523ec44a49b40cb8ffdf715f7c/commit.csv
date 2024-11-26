@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|32c8fad438200b523ec44a49b40cb8ffdf715f7c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"regulator: Appease smatch in regulator_register()
-
-We don't support missing configs at all so segfaulting isn't that bad
-but since we've got checks in the code move the dereference after them.
-
-Signed-off-by: Mark Brown <broonie@opensource.wolfsonmicro.com>"|1|Mark Brown|broonie@opensource.wolfsonmicro.com|2012-04-11 10:19:12+01:00|-3600|Mark Brown|broonie@opensource.wolfsonmicro.com|2012-04-11 10:19:12+01:00|-3600

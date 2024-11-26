@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bd12267dd896ff8e3dfd25ac31cbc255e9184715|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/amd/amdgpu: add pm lock to debugfs mmio entry
-
-Adds support for PM locks around access to registers that might
-have race conditions on PG transistions.
-
-Signed-off-by: Tom St Denis <tom.stdenis@amd.com>
-Reviewed-by: Rex Zhu <Rex.Zhu@amd.com>
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|1|Tom St Denis|tom.stdenis@amd.com|2016-07-28 09:39:22-04:00|14400|Alex Deucher|alexander.deucher@amd.com|2016-08-08 11:32:37-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a9870c0e031527fbfa382019f30d2e9b98124a0d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: don't call btrfs_qgroup_free if just btrfs_qgroup_reserve fails
-
-commit eb6b88d92c6df083dd09a8c471011e3788dfd7c6 leads into another bug.
-If it is just because qgroup_reserve fails, the function btrfs_qgroup_free
-should not be called, otherwise, it will cause the wrong quota accounting.
-
-Signed-off-by: Wang Shilong <wangsl-fnst@cn.fujitsu.com>
-Signed-off-by: Josef Bacik <jbacik@fusionio.com>"|1|Wang Shilong|wangsl-fnst@cn.fujitsu.com|2013-03-01 11:33:01+00:00|0|Josef Bacik|jbacik@fusionio.com|2013-03-01 10:13:04-05:00|18000

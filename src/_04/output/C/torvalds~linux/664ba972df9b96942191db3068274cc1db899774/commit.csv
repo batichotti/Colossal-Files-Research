@@ -1,6 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|664ba972df9b96942191db3068274cc1db899774|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: use BIO_MAX_PAGES for bio allocation
-
-We don't need to allocate bio partially in order to maximize sequential writes.
-
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|5|Jaegeuk Kim|jaegeuk@kernel.org|2016-10-18 11:07:45-07:00|25200|Jaegeuk Kim|jaegeuk@kernel.org|2016-11-23 12:11:07-08:00|28800

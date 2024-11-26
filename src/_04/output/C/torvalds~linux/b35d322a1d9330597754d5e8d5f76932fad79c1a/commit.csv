@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b35d322a1d9330597754d5e8d5f76932fad79c1a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: dsa: mv88e6xxx: Refactor pause configuration
-
-The mv88e6390 has a different mechanism for configuring pause.
-Refactor the code into an ops function, and for the moment, don't add
-any mv88e6390 code yet.
-
-Signed-off-by: Andrew Lunn <andrew@lunn.ch>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|4|Andrew Lunn|andrew@lunn.ch|2016-12-03 04:45:19+01:00|-3600|David S. Miller|davem@davemloft.net|2016-12-03 23:18:39-05:00|18000

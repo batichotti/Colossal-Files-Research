@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|056075c76417b112b4924e7b6386fdc6dfc9ac03|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md: Add module.h to all files using it implicitly
-
-A pending cleanup will mean that module.h won't be implicitly
-everywhere anymore.  Make sure the modular drivers in md dir
-are actually calling out for <module.h> explicitly in advance.
-
-Signed-off-by: Paul Gortmaker <paul.gortmaker@windriver.com>"|15|Paul Gortmaker|paul.gortmaker@windriver.com|2011-07-03 13:58:33-04:00|14400|Paul Gortmaker|paul.gortmaker@windriver.com|2011-10-31 19:31:18-04:00|14400

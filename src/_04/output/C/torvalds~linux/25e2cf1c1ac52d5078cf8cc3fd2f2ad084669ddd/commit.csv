@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|25e2cf1c1ac52d5078cf8cc3fd2f2ad084669ddd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[S390] dasd: prevent validate server for offline devices
-
-Calling validate server on devices in offline processing may cause
-an OOPS in the dasd_sleep_on function.
-
-Signed-off-by: Stefan Haberland <stefan.haberland@de.ibm.com>
-Reviewed-by: Stefan Weinhuber <wein@de.ibm.com>
-Signed-off-by: Martin Schwidefsky <schwidefsky@de.ibm.com>"|2|Stefan Haberland|stefan.haberland@de.ibm.com|2012-03-11 11:59:37-04:00|14400|Martin Schwidefsky|schwidefsky@de.ibm.com|2012-03-11 11:59:29-04:00|14400

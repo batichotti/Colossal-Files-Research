@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7a1d70ab05488146d20cfc8fb9e4acfd132c7bf5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ath10k: fill HT/VHT MCS rateset only for configured chainmask
-
-HT/VHT MCS rateset should be filled only for configured chainmask
-rather that max supported chainmask. Fix that by checking configured
-chainmask while filling HT/VHT MCS rate map.
-
-Signed-off-by: Rajkumar Manoharan <rmanohar@qti.qualcomm.com>
-Signed-off-by: Kalle Valo <kvalo@qca.qualcomm.com>"|1|Rajkumar Manoharan|rmanohar@qti.qualcomm.com|2015-10-27 17:51:12+05:30|-19800|Kalle Valo|kvalo@qca.qualcomm.com|2015-10-29 13:00:41+02:00|-7200

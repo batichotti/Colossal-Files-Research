@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|98277991a99734f3a31d638afb47d4484ac73e43|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ring-buffer: do not swap buffers during a commit
-
-If a commit is taking place on a CPU ring buffer, do not allow it to
-be swapped. Return -EBUSY when this is detected instead.
-
-Signed-off-by: Steven Rostedt <rostedt@goodmis.org>"|1|Steven Rostedt|srostedt@redhat.com|2009-09-02 10:56:15-04:00|14400|Steven Rostedt|rostedt@goodmis.org|2009-09-04 11:22:47-04:00|14400

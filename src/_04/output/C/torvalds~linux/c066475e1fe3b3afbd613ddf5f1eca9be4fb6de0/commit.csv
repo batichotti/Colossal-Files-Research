@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c066475e1fe3b3afbd613ddf5f1eca9be4fb6de0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"USB: create a new thread for every USB device found during the probe sequence
-
-Might speed up some systems.  If nothing else, a bad driver should not
-take the whole USB subsystem down with it.
-
-Signed-off-by: Greg Kroah-Hartman <gregkh@suse.de>"|2|Greg Kroah-Hartman|gregkh@suse.de|2006-08-11 01:55:12-07:00|25200|Greg Kroah-Hartman|gregkh@suse.de|2006-12-01 14:25:52-08:00|28800

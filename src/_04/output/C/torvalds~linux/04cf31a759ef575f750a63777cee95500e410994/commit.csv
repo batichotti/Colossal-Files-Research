@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|04cf31a759ef575f750a63777cee95500e410994|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ftrace: Make ftrace_location_range() global
-
-In order to support live patching on powerpc we would like to call
-ftrace_location_range(), so make it global.
-
-Signed-off-by: Torsten Duwe <duwe@suse.de>
-Signed-off-by: Balbir Singh <bsingharora@gmail.com>
-Signed-off-by: Michael Ellerman <mpe@ellerman.id.au>"|2|Michael Ellerman|mpe@ellerman.id.au|2016-03-24 22:04:01+11:00|-39600|Michael Ellerman|mpe@ellerman.id.au|2016-04-14 15:47:05+10:00|-36000

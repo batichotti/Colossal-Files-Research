@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d624613e422d9bda9e4f066281b1f178ed51f0b1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cxgb4: Check for kvzalloc allocation failure
-
-t4_prep_fw doesn't check for card_fw pointer before store the read data,
-which could lead to a NULL pointer dereference if kvzalloc failed.
-
-Signed-off-by: YueHaibing <yuehaibing@huawei.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|YueHaibing|yuehaibing@huawei.com|2018-05-22 15:07:18+08:00|-28800|David S. Miller|davem@davemloft.net|2018-05-24 21:52:44-04:00|14400

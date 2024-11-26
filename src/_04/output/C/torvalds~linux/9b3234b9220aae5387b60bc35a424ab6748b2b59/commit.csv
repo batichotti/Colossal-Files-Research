@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9b3234b9220aae5387b60bc35a424ab6748b2b59|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd4: disable zero-copy on non-final read ops
-
-To ensure ordering of read data with any following operations, turn off
-zero copy if the read is not the final operation in the compound.
-
-Signed-off-by: J. Bruce Fields <bfields@redhat.com>"|3|J. Bruce Fields|bfields@redhat.com|2012-12-04 18:03:46-05:00|18000|J. Bruce Fields|bfields@redhat.com|2012-12-17 16:02:41-05:00|18000

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|33966dd6b2d2c352fae55412db2ea8cfff5df13a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"x86/KVM/VMX: Split the VMX MSR LOAD structures to have an host/guest numbers
-
-There is no semantic change but this change allows an unbalanced amount of
-MSRs to be loaded on VMEXIT and VMENTER, i.e. the number of MSRs to save or
-restore on VMEXIT or VMENTER may be different.
-
-Signed-off-by: Konrad Rzeszutek Wilk <konrad.wilk@oracle.com>
-Signed-off-by: Thomas Gleixner <tglx@linutronix.de>"|1|Konrad Rzeszutek Wilk|konrad.wilk@oracle.com|2018-06-20 13:58:37-04:00|14400|Thomas Gleixner|tglx@linutronix.de|2018-07-04 20:49:40+02:00|-7200

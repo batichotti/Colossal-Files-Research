@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9247744e5eaa29aecee5342a0c8694187a6aadcd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"skb: expose and constify hash primitives
-
-Some minor changes to queue hashing:
- 1. Use const on accessor functions
- 2. Export skb_tx_hash for use in drivers (see ixgbe)
-
-Signed-off-by: Stephen Hemminger <shemminger@vyatta.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Stephen Hemminger|shemminger@vyatta.com|2009-03-21 13:39:26-07:00|25200|David S. Miller|davem@davemloft.net|2009-03-21 13:39:26-07:00|25200

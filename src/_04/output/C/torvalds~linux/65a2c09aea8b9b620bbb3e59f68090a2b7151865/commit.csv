@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|65a2c09aea8b9b620bbb3e59f68090a2b7151865|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: mvpp2: do not set GMAC autoneg when using XLG MAC
-
-When using the XLG MAC, it does not make sense to force the GMAC autoneg
-parameters. This patch adds checks to only set the GMAC autoneg
-parameters when needed (i.e. when not using the XLG MAC).
-
-Signed-off-by: Antoine Tenart <antoine.tenart@free-electrons.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Antoine Tenart|antoine.tenart@free-electrons.com|2017-08-30 10:29:18+02:00|-7200|David S. Miller|davem@davemloft.net|2017-08-30 15:17:46-07:00|25200

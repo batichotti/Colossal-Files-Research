@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|97d9a8a420444eb5b5c071d4b3b9c4100a7ae015|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: check return value of read_tree_block()
-
-This patch is checking return value of read_tree_block(),
-and if it is NULL, error processing.
-
-Signed-off-by: Tsutomu Itoh <t-itoh@jp.fujitsu.com>
-Signed-off-by: Chris Mason <chris.mason@oracle.com>"|3|Tsutomu Itoh|t-itoh@jp.fujitsu.com|2011-03-24 06:33:21+00:00|0|root|Chris Mason chris.mason@oracle.com|2011-03-28 05:37:37-04:00|14400

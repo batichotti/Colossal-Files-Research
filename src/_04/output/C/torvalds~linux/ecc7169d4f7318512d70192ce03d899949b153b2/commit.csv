@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ecc7169d4f7318512d70192ce03d899949b153b2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"crypto: hisilicon/qm - modify the value of qos initialization
-
-The value of qos should be reset after flr resetting or device
-resetting. So set the max of qos value for every function. Then
-update the value of qos when user writing the alg_qos.
-
-Signed-off-by: Kai Ye <yekai13@huawei.com>
-Signed-off-by: Herbert Xu <herbert@gondor.apana.org.au>"|1|Kai Ye|yekai13@huawei.com|2021-11-20 12:47:37+08:00|-28800|Herbert Xu|herbert@gondor.apana.org.au|2021-11-26 16:25:17+11:00|-39600

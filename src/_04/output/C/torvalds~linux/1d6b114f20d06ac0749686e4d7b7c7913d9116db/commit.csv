@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1d6b114f20d06ac0749686e4d7b7c7913d9116db|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86 emulator: do not munge rep prefix
-
-Currently we store a rep prefix as 1 or 2 depending on whether it is a REPE or
-REPNE.  Since sse instructions depend on the prefix value, store it as the
-original opcode to simplify things further on.
-
-Signed-off-by: Avi Kivity <avi@redhat.com>"|2|Avi Kivity|avi@redhat.com|2010-01-20 16:00:35+02:00|-7200|Avi Kivity|avi@redhat.com|2011-05-11 07:56:58-04:00|14400

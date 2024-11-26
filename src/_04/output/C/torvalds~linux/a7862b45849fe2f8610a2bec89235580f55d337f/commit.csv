@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a7862b45849fe2f8610a2bec89235580f55d337f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: add ndo to setup/query xdp prog in adapter rx
-
-Add one new netdev op for drivers implementing the BPF_PROG_TYPE_XDP
-filter. The single op is used for both setup/query of the xdp program,
-modelled after ndo_setup_tc.
-
-Signed-off-by: Brenden Blanco <bblanco@plumgrid.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Brenden Blanco|bblanco@plumgrid.com|2016-07-19 12:16:48-07:00|25200|David S. Miller|davem@davemloft.net|2016-07-19 21:46:31-07:00|25200

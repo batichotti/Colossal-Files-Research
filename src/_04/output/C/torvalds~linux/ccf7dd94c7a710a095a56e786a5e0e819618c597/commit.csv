@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ccf7dd94c7a710a095a56e786a5e0e819618c597|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wifi: nl80211: refactor nl80211_send_mlme_event() arguments
-
-This function has so many arguments already, before adding
-yet another one, refactor it to take a struct instead.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2023-11-30 22:39:41+01:00|-3600|Johannes Berg|johannes.berg@intel.com|2023-12-06 11:50:26+01:00|-3600

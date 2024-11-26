@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8b425e62d96a3b3a3cc68e6203267f92d1a01946|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wlcore: fix some failure cases in wlcore_probe()
-
-We need to release the IRQ if hw_info() or identify_chip() fails.  And
-we need unregister the HW with mac80211 if there are any failures
-after it's registered.
-
-Signed-off-by: Luciano Coelho <coelho@ti.com>"|1|Luciano Coelho|coelho@ti.com|2012-06-25 14:41:20+03:00|-10800|Luciano Coelho|coelho@ti.com|2012-06-26 20:20:19+03:00|-10800

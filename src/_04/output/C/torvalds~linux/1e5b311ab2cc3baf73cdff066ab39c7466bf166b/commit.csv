@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1e5b311ab2cc3baf73cdff066ab39c7466bf166b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"be2net: allow offloading with the same port for IPv4 and IPv6
-
-The callback for adding vxlan port can be called with the same port for both
-IPv4 and IPv6. Do not disable the offloading if this occurs.
-
-Signed-off-by: Jiri Benc <jbenc@redhat.com>
-Acked-by: Sathya Perla <sathya.perla@avagotech.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Jiri Benc|jbenc@redhat.com|2015-09-17 16:11:13+02:00|-7200|David S. Miller|davem@davemloft.net|2015-09-17 22:32:16-07:00|25200

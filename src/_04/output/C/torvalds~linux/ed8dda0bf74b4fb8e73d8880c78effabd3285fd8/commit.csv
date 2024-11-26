@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ed8dda0bf74b4fb8e73d8880c78effabd3285fd8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: s390: Enable all facility bits that are known good for passthrough
-
-Some facility bits are in a range that is defined to be ""ok for guests
-without any necessary hypervisor changes"". Enable those bits.
-
-Signed-off-by: Alexander Yarygin <yarygin@linux.vnet.ibm.com>
-Reviewed-by: David Hildenbrand <dahi@linux.vnet.ibm.com>
-Signed-off-by: Christian Borntraeger <borntraeger@de.ibm.com>"|1|Alexander Yarygin|yarygin@linux.vnet.ibm.com|2016-03-31 13:48:52+03:00|-10800|Christian Borntraeger|borntraeger@de.ibm.com|2016-05-09 13:33:58+02:00|-7200

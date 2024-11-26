@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0b60eba1b29740a606e6b7694d2dc98b6085a1bf|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Don't send unnecessary write_le_enable command
-
-If the local host features indicate that LE is already in the state that
-is desired there's no point in sending the HCI command to try to change
-the setting.
-
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>
-Acked-by: Marcel Holtmann <marcel@holtmann.org>"|1|Johan Hedberg|johan.hedberg@intel.com|2012-02-28 00:57:24+02:00|-7200|Johan Hedberg|johan.hedberg@intel.com|2012-02-28 01:52:34+02:00|-7200

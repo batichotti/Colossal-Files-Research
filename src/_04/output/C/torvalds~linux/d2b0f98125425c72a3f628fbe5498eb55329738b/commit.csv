@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d2b0f98125425c72a3f628fbe5498eb55329738b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: MMU: move FNAME(is_rsvd_bits_set) to mmu.c
-
-FNAME(is_rsvd_bits_set) does not depend on guest mmu mode, move it
-to mmu.c to stop being compiled multiple times
-
-Signed-off-by: Xiao Guangrong <guangrong.xiao@linux.intel.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|2|Xiao Guangrong|guangrong.xiao@linux.intel.com|2015-08-05 12:04:20+08:00|-28800|Paolo Bonzini|pbonzini@redhat.com|2015-08-05 12:47:22+02:00|-7200

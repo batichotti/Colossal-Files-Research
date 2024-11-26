@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c15d4167f0b0465b71c0619dc30b122f1b0e5b7a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"crypto: rmd256 - remove RIPE-MD 256 hash algorithm
-
-RIPE-MD 256 is never referenced anywhere in the kernel, and unlikely
-to be depended upon by userspace via AF_ALG. So let's remove it
-
-Signed-off-by: Ard Biesheuvel <ardb@kernel.org>
-Signed-off-by: Herbert Xu <herbert@gondor.apana.org.au>"|7|Ard Biesheuvel|ardb@kernel.org|2021-01-21 14:07:30+01:00|-3600|Herbert Xu|herbert@gondor.apana.org.au|2021-01-29 16:07:03+11:00|-39600

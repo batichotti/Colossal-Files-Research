@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5ae67c4fee869c9b3c87b727a9ea511b6326b834|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: It is not safe to dereference lsp->ls_state in release_lockowner
-
-It is quite possible for the release_lockowner RPC call to race with the
-close RPC call, in which case, we cannot dereference lsp->ls_state in
-order to find the nfs_server.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|3|Trond Myklebust|Trond.Myklebust@netapp.com|2012-03-19 16:17:18-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2012-03-20 13:08:25-04:00|14400

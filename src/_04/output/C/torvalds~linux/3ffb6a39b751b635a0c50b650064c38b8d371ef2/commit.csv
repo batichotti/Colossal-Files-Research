@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3ffb6a39b751b635a0c50b650064c38b8d371ef2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bnxt_en: Fix ring arithmetic in bnxt_setup_tc().
-
-The logic is missing the check on whether the tx and rx rings are sharing
-completion rings or not.
-
-Signed-off-by: Michael Chan <michael.chan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Michael Chan|michael.chan@broadcom.com|2016-11-11 00:11:42-05:00|18000|David S. Miller|davem@davemloft.net|2016-11-13 12:37:31-05:00|18000

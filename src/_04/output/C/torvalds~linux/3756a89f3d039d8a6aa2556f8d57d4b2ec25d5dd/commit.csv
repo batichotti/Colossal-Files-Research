@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3756a89f3d039d8a6aa2556f8d57d4b2ec25d5dd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bnx2x: Add new PHY BCM54616
-
-The BCM54616 PHY is very similar to the 54618SE, only without EEE support, which will not be activated due to querying the actual PHY type.
-This check is already done by reading a dedicated PHY register.
-
-Signed-off-by: Yaniv Rosner <yanivr@broadcom.com>
-Signed-off-by: Eilon Greenstein <eilong@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Yaniv Rosner|yanivr@broadcom.com|2011-08-23 06:33:24+00:00|0|David S. Miller|davem@davemloft.net|2011-08-26 12:55:18-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3279ba37db5d65c4ab0dcdee3b211ccb85bb563f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ftrace: check for failure for all conversions
-
-Due to legacy code from back when the dynamic tracer used a daemon,
-only core kernel code was checking for failures. This is no longer
-the case. We must check for failures any time we perform text modifications.
-
-Cc: stable@kernel.org
-Signed-off-by: Steven Rostedt <rostedt@goodmis.org>"|1|Steven Rostedt|srostedt@redhat.com|2009-10-07 16:57:56-04:00|14400|Steven Rostedt|rostedt@goodmis.org|2009-10-07 17:22:24-04:00|14400

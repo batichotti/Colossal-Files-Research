@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|44a0873d52282f24b1894c58c0f157e0f626ddc9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: Introduce unregister_netdevice_queue()
-
-This patchs adds an unreg_list anchor to struct net_device, and
-introduces an unregister_netdevice_queue() function, able to queue
-a net_device to a list instead of immediately unregister it.
-
-Signed-off-by: Eric Dumazet <eric.dumazet@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Eric Dumazet|eric.dumazet@gmail.com|2009-10-27 07:03:04+00:00|0|David S. Miller|davem@davemloft.net|2009-10-28 02:22:06-07:00|25200

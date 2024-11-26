@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c6b03cf986eab00e20d0dbc852b233bb83472138|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Allow setting of L2CAP ERTM via socket option
-
-To enable Enhanced Retransmission mode it needs to be set via a socket
-option. A different mode can be set on a socket, but on listen() and
-connect() the mode is checked and ERTM is only allowed if it is enabled
-via the module parameter.
-
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|2|Marcel Holtmann|marcel@holtmann.org|2009-05-02 22:31:10-07:00|25200|Marcel Holtmann|marcel@holtmann.org|2009-08-22 14:50:07-07:00|25200

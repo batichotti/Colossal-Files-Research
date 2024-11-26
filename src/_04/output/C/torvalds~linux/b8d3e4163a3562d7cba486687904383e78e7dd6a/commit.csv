@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b8d3e4163a3562d7cba486687904383e78e7dd6a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"fib, fib6: reject invalid feature bits
-
-Feature bits that are invalid should not be accepted by the kernel,
-only the lower 4 bits may be configured, but not the remaining ones.
-Even from these 4, 2 of them are unused.
-
-Signed-off-by: Daniel Borkmann <daniel@iogearbox.net>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|Daniel Borkmann|daniel@iogearbox.net|2015-08-31 15:58:46+02:00|-7200|David S. Miller|davem@davemloft.net|2015-08-31 12:34:00-07:00|25200

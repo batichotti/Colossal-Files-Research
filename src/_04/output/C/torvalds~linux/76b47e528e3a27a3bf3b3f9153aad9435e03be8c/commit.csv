@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|76b47e528e3a27a3bf3b3f9153aad9435e03be8c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"xfs: kill xfs_alloc_pagf_init()
-
-Trivial wrapper around xfs_alloc_read_agf(), can be easily replaced
-by passing a NULL agfbp to xfs_alloc_read_agf().
-
-Signed-off-by: Dave Chinner <dchinner@redhat.com>
-Reviewed-by: Christoph Hellwig <hch@lst.de>
-Reviewed-by: Darrick J. Wong <djwong@kernel.org>"|7|Dave Chinner|dchinner@redhat.com|2022-07-07 19:07:32+10:00|-36000|Dave Chinner|david@fromorbit.com|2022-07-07 19:07:32+10:00|-36000

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|703db0ceb8057e42d653f2dead55f31aff173c28|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mlxsw: Move fw_load_policy devlink param into core.c
-
-As the fw flashing code was moved to core.c, move the param which is
-related to it there as well. Remove unnecessary parentheses on the way.
-
-Signed-off-by: Jiri Pirko <jiri@nvidia.com>
-Signed-off-by: Ido Schimmel <idosch@nvidia.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Jiri Pirko|jiri@nvidia.com|2020-09-15 11:40:54+03:00|-10800|David S. Miller|davem@davemloft.net|2020-09-15 15:57:16-07:00|25200

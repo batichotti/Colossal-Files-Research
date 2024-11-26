@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|240ec1197786f5c81e957f256f9eebc46d5a07a4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: ips: Use scsi_cmd_to_rq() instead of scsi_cmnd.request
-
-Prepare for removal of the request pointer by using scsi_cmd_to_rq()
-instead. This patch does not change any functionality.
-
-Link: https://lore.kernel.org/r/20210809230355.8186-26-bvanassche@acm.org
-Signed-off-by: Bart Van Assche <bvanassche@acm.org>
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|1|Bart Van Assche|bvanassche@acm.org|2021-08-09 16:03:28-07:00|25200|Martin K. Petersen|martin.petersen@oracle.com|2021-08-11 22:25:39-04:00|14400

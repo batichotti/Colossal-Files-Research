@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e158624155f194da6fcaea67639f91c2a467bddf|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: hns3: converting spaces into tabs to avoid checkpatch.pl warning
-
-Spaces were mistakenly used instead of tabs in some of the code related
-to reset functionality, which caused checkpatch.pl errors. These were
-missed earlier so fixing them now.
-
-Signed-off-by: Salil Mehta <salil.mehta@huawei.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Salil Mehta|salil.mehta@huawei.com|2018-01-19 15:20:53+00:00|0|David S. Miller|davem@davemloft.net|2018-01-22 16:21:17-05:00|18000

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b607664ee74313c7f3f657a044eda572051e560e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd: Cleanup nfs4svc_encode_compoundres
-
-Move the slot return, put session etc into a helper in fs/nfsd/nfs4state.c
-instead of open coding in nfs4svc_encode_compoundres.
-
-Signed-off-by: Trond Myklebust <trond.myklebust@primarydata.com>
-Reviewed-by: Christoph Hellwig <hch@lst.de>
-Signed-off-by: J. Bruce Fields <bfields@redhat.com>"|4|Trond Myklebust|trond.myklebust@primarydata.com|2014-06-30 11:48:35-04:00|14400|J. Bruce Fields|bfields@redhat.com|2014-07-08 17:14:34-04:00|14400

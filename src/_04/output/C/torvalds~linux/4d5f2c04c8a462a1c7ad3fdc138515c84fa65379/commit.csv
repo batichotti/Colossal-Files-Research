@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4d5f2c04c8a462a1c7ad3fdc138515c84fa65379|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: s390: log runtime instrumentation enablement
-
-We handle runtime instrumentation enablement either lazy or via
-sync_regs on migration. Make sure to add a debug log entry for that
-per CPU on the first occurrence.
-
-Reviewed-by: Cornelia Huck <cornelia.huck@de.ibm.com>
-Signed-off-by: Christian Borntraeger <borntraeger@de.ibm.com>"|2|Christian Borntraeger|borntraeger@de.ibm.com|2017-02-09 17:15:41+01:00|-3600|Christian Borntraeger|borntraeger@de.ibm.com|2017-03-16 13:04:37+01:00|-3600

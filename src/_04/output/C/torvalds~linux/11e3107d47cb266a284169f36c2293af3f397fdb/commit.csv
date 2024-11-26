@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|11e3107d47cb266a284169f36c2293af3f397fdb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: drop transaction parameter from btrfs_add_inode_defrag()
-
-There's only one caller inode_should_defrag() that passes NULL to
-btrfs_add_inode_defrag() so we can drop it an simplify the code.
-
-Reviewed-by: Qu Wenruo <wqu@suse.com>
-Signed-off-by: David Sterba <dsterba@suse.com>"|3|David Sterba|dsterba@suse.com|2024-08-27 04:13:44+02:00|-7200|David Sterba|dsterba@suse.com|2024-09-10 16:51:19+02:00|-7200

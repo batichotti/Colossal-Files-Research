@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|41265714810e20d91ddd7aaca30043b0f12190ad|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nl80211: use generic check for netif_running
-
-Use a new flag that requires the netdev to be
-UP and use it to check instead of coding the
-check into all functions that require it.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|1|Johannes Berg|johannes.berg@intel.com|2010-10-04 21:14:05+02:00|-7200|John W. Linville|linville@tuxdriver.com|2010-10-05 13:37:51-04:00|14400

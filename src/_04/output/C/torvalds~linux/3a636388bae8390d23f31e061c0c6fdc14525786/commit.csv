@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3a636388bae8390d23f31e061c0c6fdc14525786|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tracing: Remove function_trace_stop and HAVE_FUNCTION_TRACE_MCOUNT_TEST
-
-All users of function_trace_stop and HAVE_FUNCTION_TRACE_MCOUNT_TEST have
-been removed. We can safely remove them from the kernel.
-
-Reviewed-by: Masami Hiramatsu <masami.hiramatsu.pt@hitachi.com>
-Signed-off-by: Steven Rostedt <rostedt@goodmis.org>"|3|Steven Rostedt (Red Hat)|rostedt@goodmis.org|2014-06-26 11:24:52-04:00|14400|Steven Rostedt|rostedt@goodmis.org|2014-07-18 13:58:12-04:00|14400

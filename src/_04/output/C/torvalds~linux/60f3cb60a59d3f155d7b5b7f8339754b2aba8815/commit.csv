@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|60f3cb60a59d3f155d7b5b7f8339754b2aba8815|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86/mmu: do not recompute root level from kvm_mmu_role_regs
-
-The root_level can be found in the cpu_role (in fact the field
-is superfluous and could be removed, but one thing at a time).
-Since there is only one usage left of role_regs_to_root_level,
-inline it into kvm_calc_cpu_role.
-
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Paolo Bonzini|pbonzini@redhat.com|2022-02-10 07:32:40-05:00|18000|Paolo Bonzini|pbonzini@redhat.com|2022-04-29 12:49:53-04:00|14400

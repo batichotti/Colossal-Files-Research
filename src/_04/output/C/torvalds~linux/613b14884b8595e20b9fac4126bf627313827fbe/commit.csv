@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|613b14884b8595e20b9fac4126bf627313827fbe|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"block: handle bio_split_to_limits() NULL return
-
-This can't happen right now, but in preparation for allowing
-bio_split_to_limits() returning NULL if it ended the bio, check for it
-in all the callers.
-
-Signed-off-by: Jens Axboe <axboe@kernel.dk>"|8|Jens Axboe|axboe@kernel.dk|2023-01-04 08:51:19-07:00|25200|Jens Axboe|axboe@kernel.dk|2023-01-04 09:05:23-07:00|25200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f1170fd462c67c4ae2f20734566d94e0f8f62f69|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: Remove all_adj_list and its references
-
-Only direct adjacencies are maintained. All upper or lower devices can
-be learned via the new walk API which recursively walks the adj_list for
-upper devices or lower devices.
-
-Signed-off-by: David Ahern <dsa@cumulusnetworks.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|David Ahern|dsa@cumulusnetworks.com|2016-10-17 19:15:51-07:00|25200|David S. Miller|davem@davemloft.net|2016-10-18 11:45:00-04:00|14400

@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6443170f6d862a1cc89e61e4bb2410b714b875f4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Remove dead KMS encoder save/restore code.
-
-This was brought over from UMS, and used for a while until we decided
-that drm_helper_resume_force_mode was easier and more reliable, since
-it didn't require duplicating all the code deleted here.  We just
-forgot to delete all that junk for a while."|12|Eric Anholt|eric@anholt.net|2010-04-02 15:24:27-07:00|25200|Eric Anholt|eric@anholt.net|2010-04-12 09:23:30-07:00|25200

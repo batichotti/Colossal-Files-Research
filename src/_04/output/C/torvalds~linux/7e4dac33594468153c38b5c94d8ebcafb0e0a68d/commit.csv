@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7e4dac33594468153c38b5c94d8ebcafb0e0a68d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[DLM] split create_message function
-
-This splits the current create_message() function into two parts so that
-later patches can call the new lower-level _create_message() function when
-they don't have an rsb struct.  No functional change in this patch.
-
-Signed-off-by: David Teigland <teigland@redhat.com>
-Signed-off-by: Steven Whitehouse <swhiteho@redhat.com>"|1|David Teigland|teigland@redhat.com|2007-04-02 09:06:41-05:00|18000|Steven Whitehouse|swhiteho@redhat.com|2007-05-01 09:11:07+01:00|-3600

@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7892f2f48d165a34b0b8130c8a195dfd807b8cb6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[PATCH] mutex subsystem, semaphore to mutex: VFS, sb->s_lock
-
-This patch converts the superblock-lock semaphore to a mutex, affecting
-lock_super()/unlock_super(). Tested on ext3 and XFS.
-
-Signed-off-by: Ingo Molnar <mingo@elte.hu>"|4|Ingo Molnar|mingo@elte.hu|2006-01-09 15:59:25-08:00|28800|Ingo Molnar|mingo@hera.kernel.org|2006-01-09 15:59:25-08:00|28800

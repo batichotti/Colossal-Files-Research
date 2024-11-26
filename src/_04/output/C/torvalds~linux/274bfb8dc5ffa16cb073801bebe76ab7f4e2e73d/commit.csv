@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|274bfb8dc5ffa16cb073801bebe76ab7f4e2e73d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"lib80211: absorb crypto bits from net/ieee80211
-
-These bits are shared already between ipw2x00 and hostap, and could
-probably be shared both more cleanly and with other drivers.  This
-commit simply relocates the code to lib80211 and adjusts the drivers
-appropriately.
-
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|30|John W. Linville|linville@tuxdriver.com|2008-10-29 11:35:05-04:00|14400|John W. Linville|linville@tuxdriver.com|2008-11-21 11:08:17-05:00|18000

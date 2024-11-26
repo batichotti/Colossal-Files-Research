@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5fb08372a689360b7db51b0cfb9a068fddf279a2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: set sb->s_fs_info before calling parse_options()
-
-In f2fs_fill_super(), set sb->s_fs_info before calling parse_options(), then we can get
-f2fs_sb_info via F2FS_SB(sb) in parse_options().
-So that the second argument ""sbi"" of func parse_options() is no longer needed.
-
-Signed-off-by: Gu Zheng <guz.fnst@cn.fujitsu.com>
-Signed-off-by: Jaegeuk Kim <jaegeuk.kim@samsung.com>"|1|Gu Zheng|guz.fnst@cn.fujitsu.com|2013-06-07 14:16:53+08:00|-28800|Jaegeuk Kim|jaegeuk.kim@samsung.com|2013-06-11 16:01:08+09:00|-32400

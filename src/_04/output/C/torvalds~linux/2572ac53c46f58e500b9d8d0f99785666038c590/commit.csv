@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2572ac53c46f58e500b9d8d0f99785666038c590|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: sched: make type an argument for ndo_setup_tc
-
-Since the type is always present, push it to be a separate argument to
-ndo_setup_tc. On the way, name the type enum and use it for arg type.
-
-Signed-off-by: Jiri Pirko <jiri@mellanox.com>
-Acked-by: Jamal Hadi Salim <jhs@mojatatu.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|32|Jiri Pirko|jiri@mellanox.com|2017-08-07 10:15:17+02:00|-7200|David S. Miller|davem@davemloft.net|2017-08-07 09:42:35-07:00|25200

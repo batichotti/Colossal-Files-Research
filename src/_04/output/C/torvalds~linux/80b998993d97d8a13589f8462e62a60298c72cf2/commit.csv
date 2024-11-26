@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|80b998993d97d8a13589f8462e62a60298c72cf2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nl80211: make get_vlan logic more common
-
-get_vlan() sets the output parameter even if it
-returns an error, which is a bit odd. Instead,
-convert it to use ERR_PTR.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|1|Johannes Berg|johannes.berg@intel.com|2011-11-18 16:23:01+01:00|-3600|John W. Linville|linville@tuxdriver.com|2011-11-21 16:20:49-05:00|18000

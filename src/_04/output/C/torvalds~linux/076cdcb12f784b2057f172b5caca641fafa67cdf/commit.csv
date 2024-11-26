@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|076cdcb12f784b2057f172b5caca641fafa67cdf|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: use bool argument to ieee80211_send_nullfunc
-
-Instead of int with 0/1, use bool with false/true for the
-powersave argument to ieee80211_send_nullfunc().
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|4|Johannes Berg|johannes.berg@intel.com|2015-09-24 16:14:55+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2015-09-29 15:56:52+02:00|-7200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7079ce62c0e9bfcca35214105c08a2d00fbea9ee|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"crypto: testmgr - Disable authenc test and convert test vectors
-
-This patch disables the authenc tests while the conversion to the
-new IV calling convention takes place.  It also replaces the authenc
-test vectors with ones that will work with the new IV convention.
-
-Signed-off-by: Herbert Xu <herbert@gondor.apana.org.au>"|2|Herbert Xu|herbert@gondor.apana.org.au|2015-07-30 17:53:14+08:00|-28800|Herbert Xu|herbert@gondor.apana.org.au|2015-08-04 20:45:30+08:00|-28800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c5a8c0f3aa726db65b27481d284ca6c427c7a78f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cxgb4: Force cxgb4 driver as MASTER in kdump kernel
-
-When is_kdump_kernel() is true, Forcing cxgb4 driver as Master so we can
-reinitialize the Firmware/Chip. Also reduce memory usage by disabling
-offload.
-
-Signed-off-by: Hariprasad Shenai <hariprasad@chelsio.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Hariprasad Shenai|hariprasad@chelsio.com|2016-06-14 14:39:30+05:30|-19800|David S. Miller|davem@davemloft.net|2016-06-15 14:46:04-07:00|25200

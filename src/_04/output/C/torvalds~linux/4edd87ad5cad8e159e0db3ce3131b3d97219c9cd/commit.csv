@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4edd87ad5cad8e159e0db3ce3131b3d97219c9cd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: BUG instead of corrupting memory in pskb_expand_head
-
-If the caller of pskb_expand_head specifies a negative nhead
-we'll silently overwrite other people's memory.  This patch
-makes it BUG instead.
-
-Signed-off-by: Herbert Xu <herbert@gondor.apana.org.au>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Herbert Xu|herbert@gondor.apana.org.au|2008-10-01 07:09:38-07:00|25200|David S. Miller|davem@davemloft.net|2008-10-01 07:09:38-07:00|25200

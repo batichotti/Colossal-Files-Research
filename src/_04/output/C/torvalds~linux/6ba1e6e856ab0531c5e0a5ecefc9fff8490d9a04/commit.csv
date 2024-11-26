@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6ba1e6e856ab0531c5e0a5ecefc9fff8490d9a04|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net/ipv6: Refactor address dump to push inet6_fill_args to in6_dump_addrs
-
-Pull the inet6_fill_args arg up to in6_dump_addrs and move netnsid
-into it.
-
-Signed-off-by: David Ahern <dsahern@gmail.com>
-Acked-by: Christian Brauner <christian@brauner.io>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|David Ahern|dsahern@gmail.com|2018-10-07 20:16:26-07:00|25200|David S. Miller|davem@davemloft.net|2018-10-08 10:39:04-07:00|25200

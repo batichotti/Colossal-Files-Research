@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|178bd789775ab29233e0553155253ec8d73af71f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: s390: Fix clock comparator field for STORE STATUS
-
-Only the most 7 significant bytes of the clock comparator must be
-saved to the status area, and the byte at offset 304 has to be zero.
-
-Signed-off-by: Thomas Huth <thuth@linux.vnet.ibm.com>
-Reviewed-by: Cornelia Huck <cornelia.huck@de.ibm.com>
-Signed-off-by: Cornelia Huck <cornelia.huck@de.ibm.com>"|1|Thomas Huth|thuth@linux.vnet.ibm.com|2013-11-13 20:28:18+01:00|-3600|Cornelia Huck|cornelia.huck@de.ibm.com|2013-11-28 11:08:14+01:00|-3600

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|94c30d9ca6fd00a69e367b91b6e13572c41938c5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: Drop unneeded CONFIG_HAS_IOMEM check
-
-This (broken) check dates back to the days when this code was shared
-across architectures. x86 has IOMEM, so drop it.
-
-Signed-off-by: Jan Kiszka <jan.kiszka@siemens.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|1|Jan Kiszka|jan.kiszka@web.de|2009-10-12 08:51:40+02:00|-7200|Avi Kivity|avi@redhat.com|2009-12-03 09:32:18+02:00|-7200

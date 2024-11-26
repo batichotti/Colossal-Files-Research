@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|230c5b44233ff0543c0b5ccf4ff9400057010fbe|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/panel: simple: Check against num_timings when setting preferred for timing
-
-In the loop on .timings, we should check .num_timings to see if it's the
-only mode specified, not .num_modes, which should be used with .modes.
-
-Fixes: cda553725c92 (""drm/panel: simple: Set appropriate mode type"")
-Signed-off-by: Chen-Yu Tsai <wens@csie.org>
-Signed-off-by: Thierry Reding <treding@nvidia.com>"|1|Chen-Yu Tsai|wens@csie.org|2016-10-24 21:21:15+08:00|-28800|Thierry Reding|treding@nvidia.com|2016-12-06 16:47:07+01:00|-3600

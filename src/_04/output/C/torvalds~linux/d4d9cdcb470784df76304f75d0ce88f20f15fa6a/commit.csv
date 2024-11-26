@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d4d9cdcb470784df76304f75d0ce88f20f15fa6a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS: Don't hash the negative dentry when optimising for an O_EXCL open
-
-We don't want to leave an unverified hashed negative dentry if the
-exclusive create fails to complete.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|2|Trond Myklebust|Trond.Myklebust@netapp.com|2007-10-02 18:38:53-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2007-10-09 17:19:27-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ee79d1bdb6a10499e53f80b1e8d14110215178ba|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sched: let arch_update_cpu_topology indicate if topology changed
-
-Change arch_update_cpu_topology so it returns 1 if the cpu topology changed
-and 0 if it didn't change. This will be useful for the next patch which adds
-a call to this function in partition_sched_domains.
-
-Signed-off-by: Heiko Carstens <heiko.carstens@de.ibm.com>
-Signed-off-by: Ingo Molnar <mingo@elte.hu>"|3|Heiko Carstens|heiko.carstens@de.ibm.com|2008-12-09 18:49:50+01:00|-3600|Ingo Molnar|mingo@elte.hu|2008-12-12 13:47:21+01:00|-3600

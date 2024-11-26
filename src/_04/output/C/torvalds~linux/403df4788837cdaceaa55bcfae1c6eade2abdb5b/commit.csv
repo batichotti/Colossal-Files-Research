@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|403df4788837cdaceaa55bcfae1c6eade2abdb5b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md: remove MD_BUG()
-
-Most of the places that call this are doing so pointlessly.
-A couple of the others a best replaced with WARN_ON().
-
-Signed-off-by: NeilBrown <neilb@suse.de>"|1|NeilBrown|neilb@suse.de|2014-09-30 15:52:29+10:00|-36000|NeilBrown|neilb@suse.de|2014-10-14 13:08:29+11:00|-39600

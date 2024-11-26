@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d4b4084ac3154c51ff5fa71f669264cc44429be2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mm: Turn can_split_huge_page() into can_split_folio()
-
-This function already required a head page to be passed, so this
-just adds type-safety and removes a few implicit calls to
-compound_head().
-
-Signed-off-by: Matthew Wilcox (Oracle) <willy@infradead.org>"|3|Matthew Wilcox (Oracle)|willy@infradead.org|2022-02-04 14:13:31-05:00|18000|Matthew Wilcox (Oracle)|willy@infradead.org|2022-03-21 13:01:35-04:00|14400

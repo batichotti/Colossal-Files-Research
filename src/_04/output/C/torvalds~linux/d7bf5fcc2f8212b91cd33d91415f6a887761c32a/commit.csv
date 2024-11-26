@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d7bf5fcc2f8212b91cd33d91415f6a887761c32a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/edid: make drm_edid_are_equal() static
-
-drm_edid_are_equal() is only used within drm_edid.c. Make it static. Do
-not encourage more uses of struct edid.
-
-Reviewed-by: Thomas Zimmermann <tzimmermann@suse.de>
-Link: https://patchwork.freedesktop.org/patch/msgid/aa79be9a5d0b08c71b82b86b5a8ff0f332e13c6a.1713259151.git.jani.nikula@intel.com
-Signed-off-by: Jani Nikula <jani.nikula@intel.com>"|2|Jani Nikula|jani.nikula@intel.com|2024-04-16 12:19:59+03:00|-10800|Jani Nikula|jani.nikula@intel.com|2024-04-17 16:11:36+03:00|-10800

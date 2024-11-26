@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3427318fd2244737a466a06a93c5fe579852f871|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Call x86_decode_insn() only when needed
-
-Move emulate_ctxt to kvm_vcpu to keep emulate context when we exit from kvm
-module. Call x86_decode_insn() only when needed. Modify x86_emulate_insn() to
-not modify the context if it must be re-entered.
-
-Signed-off-by: Laurent Vivier <Laurent.Vivier@bull.net>
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|5|Laurent Vivier|Laurent.Vivier@bull.net|2007-09-18 11:27:37+02:00|-7200|Avi Kivity|avi@qumranet.com|2008-01-30 17:52:47+02:00|-7200

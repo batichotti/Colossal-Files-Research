@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c567552612ece787b178e3b147b5854ad422a836|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS: Add READ_PLUS data segment support
-
-This patch adds client support for decoding a single NFS4_CONTENT_DATA
-segment returned by the server. This is the simplest implementation
-possible, since it does not account for any hole segments in the reply.
-
-Signed-off-by: Anna Schumaker <Anna.Schumaker@Netapp.com>"|7|Anna Schumaker|Anna.Schumaker@Netapp.com|2014-05-28 13:41:22-04:00|14400|Anna Schumaker|Anna.Schumaker@Netapp.com|2020-10-07 14:28:39-04:00|14400

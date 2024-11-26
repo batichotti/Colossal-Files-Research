@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|804cc4a0ad3a896ca295f771a28c6eb36ced7903|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/radeon: properly track the crtc not_enabled case evergreen_mc_stop()
-
-The save struct is not initialized previously so explicitly
-mark the crtcs as not used when they are not in use.
-
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>
-Cc: stable@vger.kernel.org"|1|Alex Deucher|alexander.deucher@amd.com|2012-11-19 09:11:27-05:00|18000|Alex Deucher|alexander.deucher@amd.com|2012-11-20 11:47:32-05:00|18000

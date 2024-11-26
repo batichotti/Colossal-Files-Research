@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|109f6ed05aadb7dd1cc9671a63603658d3ba518e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] lpfc 8.3.0 : Fix system crash due to uninitialized node access
-
-In the IOCB completion handler, always check if the node is valid
-before accessing the node object.  Added lpfc_initialize_node() to
-initialize nodes.
-
-Signed-off-by: James Smart <James.Smart@emulex.com>
-Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"|2|James Smart|James.Smart@Emulex.Com|2008-12-04 22:39:08-05:00|18000|James Bottomley|James.Bottomley@HansenPartnership.com|2008-12-29 11:24:25-06:00|21600

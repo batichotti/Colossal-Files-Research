@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|92845ffd2a221f9f90b064ac55bb010bf27a193f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netdev: change name dropping error codes
-
-If changename notifier returns an error code, it gets incorrectly
-cleared during rollback so the error is never returned to the user.
-Found while testing similar code for MTU changes.
-
-Signed-off-by: Stephen Hemminger <shemminger@vyatta.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Stephen Hemminger|shemminger@vyatta.com|2008-10-19 23:33:56-07:00|25200|David S. Miller|davem@davemloft.net|2008-10-19 23:33:56-07:00|25200

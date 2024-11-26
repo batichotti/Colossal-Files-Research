@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|dcfe3b103dd1348706bbdcfb9921c65452a6144e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"iwlwifi: mvm: update offloaded rate control on changes
-
-With offloaded rate control, if the station parameters (rates, NSS,
-bandwidth) change (sta_rc_update method), call iwl_mvm_rs_rate_init()
-to propagate those change to the firmware.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>
-Signed-off-by: Luca Coelho <luciano.coelho@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2019-03-12 13:22:43+01:00|-3600|Luca Coelho|luciano.coelho@intel.com|2019-04-03 11:13:06+03:00|-10800

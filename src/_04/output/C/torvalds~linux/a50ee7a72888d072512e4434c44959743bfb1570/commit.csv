@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a50ee7a72888d072512e4434c44959743bfb1570|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] ips: Close narrow race in release
-
-We were releasing the IRQ before removing the host, so commands could
-still be coming in which would never be seen by the interrupt handler.
-Just remove the host before releasing the IRQ to close this race.
-
-Signed-off-by: Matthew Wilcox <matthew@wil.cx>
-Signed-off-by: James Bottomley <James.Bottomley@SteelEye.com>"|1|Matthew Wilcox|matthew@wil.cx|2007-08-15 12:57:00-06:00|21600|James Bottomley|jejb@mulgrave.localdomain|2007-10-12 14:51:40-04:00|14400

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d42cb06e5b542cabea88c9074b2abf90d43757f7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sctp: factor out sctp_sendmsg_update_sinfo from sctp_sendmsg
-
-This patch is to move the codes for trying to get sinfo from
-asoc into sctp_sendmsg_update_sinfo.
-
-Signed-off-by: Xin Long <lucien.xin@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Xin Long|lucien.xin@gmail.com|2018-03-01 23:05:15+08:00|-28800|David S. Miller|davem@davemloft.net|2018-03-04 13:00:57-05:00|18000

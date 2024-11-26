@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b274cab779219325fd480cc696a456d1c3893bd8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] megaraid_sas: function pointer for disable interrupt
-
-This patch adds function pointer to invoke disable interrupt for
-xscale and ppc IOP based controllers. Removes old implementation that checks
-for controller type in megasas_disable_intr.
-
-Signed-off-by: Sumant Patro <Sumant.Patro@lsil.com>
-Signed-off-by: James Bottomley <James.Bottomley@SteelEye.com>"|2|Sumant Patro|sumantp@lsil.com|2006-10-03 12:52:12-07:00|25200|James Bottomley|jejb@mulgrave.il.steeleye.com|2006-10-04 12:49:27-05:00|18000

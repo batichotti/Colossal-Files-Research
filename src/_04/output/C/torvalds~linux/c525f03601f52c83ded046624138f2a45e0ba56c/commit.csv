@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c525f03601f52c83ded046624138f2a45e0ba56c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rbd: rbd_dev_header_unwatch_sync() variant
-
-Introduce __rbd_dev_header_unwatch_sync(), which doesn't flush notify
-callbacks.  This is for the new rados_watcherrcb_t, which would be
-called from a notify callback.
-
-Signed-off-by: Ilya Dryomov <idryomov@gmail.com>"|1|Ilya Dryomov|idryomov@gmail.com|2016-04-28 16:07:26+02:00|-7200|Ilya Dryomov|idryomov@gmail.com|2016-05-26 01:14:06+02:00|-7200

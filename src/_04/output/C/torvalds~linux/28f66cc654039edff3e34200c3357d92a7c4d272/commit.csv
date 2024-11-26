@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|28f66cc654039edff3e34200c3357d92a7c4d272|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: fix to check return value __allocate_new_segment
-
-__allocate_new_segment may return error when get_new_segment
-fails, so its caller should check its return value.
-
-Signed-off-by: Zhiguo Niu <zhiguo.niu@unisoc.com>
-Reviewed-by: Chao Yu <chao@kernel.org>
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|3|Zhiguo Niu|zhiguo.niu@unisoc.com|2024-03-01 16:25:54+08:00|-28800|Jaegeuk Kim|jaegeuk@kernel.org|2024-03-04 09:52:51-08:00|28800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9af28511be10e175eb0cabb2ba5cfafe77408d84|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"addrconf: refuse isatap eui64 for INADDR_ANY
-
-A tunnel with no local ipv4 endpoint would otherwise use the
-ISATAP linklocal address fe80::5efe:0:0, which is invalid. Rather not
-add a linklocal address at all.
-
-Signed-off-by: Sascha Hlusiak <contact@saschahlusiak.de>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Sascha Hlusiak|contact@saschahlusiak.de|2009-05-19 12:56:51+00:00|0|David S. Miller|davem@davemloft.net|2009-05-19 16:02:02-07:00|25200

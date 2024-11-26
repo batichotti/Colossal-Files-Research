@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|468521c1b1450d8e9bda22df9455deaa4feed00f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rbd: define rbd snap context routines
-
-Encapsulate the creation of a snapshot context for rbd in a new
-function rbd_snap_context_create().  Define rbd wrappers for getting
-and dropping references to them once they're created.
-
-Signed-off-by: Alex Elder <elder@inktank.com>
-Reviewed-by: Josh Durgin <josh.durgin@inktank.com>"|1|Alex Elder|elder@inktank.com|2013-04-26 09:43:47-05:00|18000|Sage Weil|sage@inktank.com|2013-05-01 21:19:41-07:00|25200

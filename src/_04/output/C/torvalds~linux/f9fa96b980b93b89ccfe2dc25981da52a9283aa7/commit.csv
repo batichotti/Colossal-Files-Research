@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f9fa96b980b93b89ccfe2dc25981da52a9283aa7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: mvpp2: Rename mvpp2_ethtool_counters to mvpp2_ethtool_mib_counters
-
-Since we'll be adding support for other kind of internal counters, make
-clear that the currently supported counters are the MIB counters.
-
-Signed-off-by: Maxime Chevallier <maxime.chevallier@bootlin.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Maxime Chevallier|maxime.chevallier@bootlin.com|2019-06-10 10:55:28+02:00|-7200|David S. Miller|davem@davemloft.net|2019-06-10 09:12:52-07:00|25200

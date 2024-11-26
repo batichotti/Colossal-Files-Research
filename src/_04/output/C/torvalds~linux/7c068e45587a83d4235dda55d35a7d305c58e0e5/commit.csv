@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7c068e45587a83d4235dda55d35a7d305c58e0e5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: Continue emulating after batch exhausted
-
-If we return early from an invalid guest state emulation loop, make
-sure we return to it later if the guest state is still invalid.
-
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Avi Kivity|avi@redhat.com|2012-06-10 18:09:27+03:00|-10800|Avi Kivity|avi@redhat.com|2012-07-09 14:19:03+03:00|-10800

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|eb8d8b4c9848b200586aa98e105b39f159656ba6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tracing: remove a pointless assignment
-
-The ""tr"" is a stack variable so setting it to NULL before a return is
-a no-op.  Delete the assignment.
-
-Signed-off-by: Dan Carpenter <dan.carpenter@oracle.com>
-Signed-off-by: Steven Rostedt (VMware) <rostedt@goodmis.org>"|1|Dan Carpenter|dan.carpenter@oracle.com|2020-09-05 15:50:20+03:00|-10800|Steven Rostedt (VMware)|rostedt@goodmis.org|2020-09-21 21:06:02-04:00|14400

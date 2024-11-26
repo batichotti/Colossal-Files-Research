@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|df630b8c1e851b5e265dc2ca9c87222e342c093b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: clear bus pointer when destroyed
-
-When releasing the bus, let's clear the bus pointers to mark it out. If
-any further device unregister happens on this bus, we know that we're
-done if we found the bus being released already.
-
-Signed-off-by: Peter Xu <peterx@redhat.com>
-Signed-off-by: Radim Krčmář <rkrcmar@redhat.com>"|1|Peter Xu|peterx@redhat.com|2017-03-15 16:01:17+08:00|-28800|Paolo Bonzini|pbonzini@redhat.com|2017-03-21 17:11:18+01:00|-3600

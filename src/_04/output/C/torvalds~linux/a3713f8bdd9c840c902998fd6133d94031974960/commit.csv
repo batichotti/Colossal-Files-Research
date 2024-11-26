@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a3713f8bdd9c840c902998fd6133d94031974960|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"iwlwifi: mvm: prepare the code towards TSO implementation
-
-Differentiate between the cases where the skb is a large
-send and the other cases.
-Advertise TSO even if, at this stage, skb_gso_segment will
-be called and it will do all the work.
-
-Signed-off-by: Emmanuel Grumbach <emmanuel.grumbach@intel.com>"|2|Emmanuel Grumbach|emmanuel.grumbach@intel.com|2015-10-14 14:16:35+03:00|-10800|Emmanuel Grumbach|emmanuel.grumbach@intel.com|2015-12-20 14:48:23+02:00|-7200

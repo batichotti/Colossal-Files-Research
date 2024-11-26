@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e48672fa25e879f7ae21785c7efd187738139593|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: Unify TSC logic
-
-Move the TSC control logic from the vendor backends into x86.c
-by adding adjust_tsc_offset to x86 ops.  Now all TSC decisions
-can be done in one place.
-
-Signed-off-by: Zachary Amsden <zamsden@redhat.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|4|Zachary Amsden|zamsden@redhat.com|2010-08-19 22:07:23-10:00|36000|Avi Kivity|avi@redhat.com|2010-10-24 10:51:23+02:00|-7200

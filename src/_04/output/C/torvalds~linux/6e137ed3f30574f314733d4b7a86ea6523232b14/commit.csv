@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6e137ed3f30574f314733d4b7a86ea6523232b14|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: fix space accounting for unlink and rename
-
-We are way over-reserving for unlink and rename.  Rename is just some random
-huge number and unlink accounts for tree log operations that don't actually
-happen during unlink, not to mention the tree log doesn't take from the trans
-block rsv anyway so it's completely useless.  Thanks,
-
-Signed-off-by: Josef Bacik <jbacik@fusionio.com>"|1|Josef Bacik|jbacik@fusionio.com|2013-03-26 15:26:55-04:00|14400|Josef Bacik|jbacik@fusionio.com|2013-03-28 09:51:27-04:00|14400

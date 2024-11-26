@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|efa593390e70b0e3c39f6b2dca8876b6b1461e41|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md: don't reset curr_resync_completed after an interrupted resync
-
-If a resync/recovery/check/repair is interrupted for some reason, it
-can be useful to know exactly where it got up to.
-So in that case, do not clear curr_resync_completed.
-Initialise it when starting a resync/recovery/... instead.
-
-Signed-off-by: NeilBrown <neilb@suse.de>"|1|NeilBrown|neilb@suse.de|2009-12-14 12:49:49+11:00|-39600|NeilBrown|neilb@suse.de|2009-12-14 12:49:49+11:00|-39600

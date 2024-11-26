@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c0d6a4d17b3848750b0285861b7a807811a0cfa6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] hpsa: set max sectors instead of taking the default
-
-Set the max hardware sectors in the SCSI host template to 8192
-to allow for larger i/o's (8192 is the same limit the cciss
-driver currently has.)
-
-Signed-off-by: Stephen M. Cameron <scameron@beardog.cce.hp.com>
-Signed-off-by: James Bottomley <JBottomley@Parallels.com>"|1|Stephen M. Cameron|scameron@beardog.cce.hp.com|2011-10-26 16:20:53-05:00|18000|James Bottomley|JBottomley@Parallels.com|2011-10-30 14:09:24+04:00|-14400

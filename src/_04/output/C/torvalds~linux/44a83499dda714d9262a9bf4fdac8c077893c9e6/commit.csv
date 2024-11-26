@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|44a83499dda714d9262a9bf4fdac8c077893c9e6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: add maximum prefree segments
-
-In 1TB storage, we need to admit 22841 prefree segments, which can consume
-too much segments.
-This patch sets 8GB in max. prefree segments in that case.
-
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|2|Jaegeuk Kim|jaegeuk@kernel.org|2016-07-13 18:23:35-07:00|25200|Jaegeuk Kim|jaegeuk@kernel.org|2016-07-15 15:21:21-07:00|25200

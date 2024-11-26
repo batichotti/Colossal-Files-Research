@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bba3aa550f614b8abf6614f6696a095030ce2ff6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Use helper functions for enabling/disabling advertising
-
-The tasks of enabling and disabling advertising are required in many
-cases. So refactor the actual HCI operations into two common helpers
-to make the code simpler.
-
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>"|1|Marcel Holtmann|marcel@holtmann.org|2013-10-06 02:55:21-07:00|25200|Johan Hedberg|johan.hedberg@intel.com|2013-10-06 14:53:25+02:00|-7200

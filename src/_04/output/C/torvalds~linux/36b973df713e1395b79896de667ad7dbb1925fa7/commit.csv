@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|36b973df713e1395b79896de667ad7dbb1925fa7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"e1000e: prevent null ptr dereference in e1000_tx_queue()
-
-tx_desc can be dereferenced as a null pointer when count is passed in
-as 0.
-
-Signed-off-by: Bruce Allan <bruce.w.allan@intel.com>
-Tested-by: Emil Tantilov <emil.s.tantilov@intel.com>
-Signed-off-by: Jeff Kirsher <jeffrey.t.kirsher@intel.com>"|1|Bruce Allan|bruce.w.allan@intel.com|2010-11-24 07:42:43+00:00|0|Jeff Kirsher|jeffrey.t.kirsher@intel.com|2010-12-10 22:13:41-08:00|28800

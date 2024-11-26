@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8c171d6ca56c6891372a97af26b58b2cfad7fd9a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net/ipv6: avoid possible dead locking on addr_gen_mode sysctl
-
-The addr_gen_mode variable can be accessed by both sysctl and netlink.
-Repleacd rtnl_lock() with rtnl_trylock() protect the sysctl operation to
-avoid the possbile dead lock.`
-
-Signed-off-by: Felix Jia <felix.jia@alliedtelesis.co.nz>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Felix Jia|felix.jia@alliedtelesis.co.nz|2017-02-27 12:41:23+13:00|-46800|David S. Miller|davem@davemloft.net|2017-03-01 10:22:48-08:00|28800

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8f4eb70059ee834522ce90a6fce0aa3078c18620|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cnic: Update the rcu_access_pointer() usages
-
-1. Remove the rcu_read_lock/unlock around rcu_access_pointer
-2. Replace the rcu_dereference with rcu_access_pointer
-
-Signed-off-by: Tej Parkash <tej.parkash@qlogic.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Tej Parkash|tej.parkash@qlogic.com|2014-10-28 01:18:15-04:00|14400|David S. Miller|davem@davemloft.net|2014-10-29 15:07:28-04:00|14400

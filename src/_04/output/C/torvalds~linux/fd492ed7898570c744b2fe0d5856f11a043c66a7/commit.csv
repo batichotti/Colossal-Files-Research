@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fd492ed7898570c744b2fe0d5856f11a043c66a7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wlcore: use GFP_KERNEL together with GFP_DMA
-
-GFP_DMA should not be used by itself, it still needs GFP_KERNEL or
-such.  Fix two occurrences of allocations with GFP_DMA only.
-
-Reported-by: Dan Carpenter <dan.carpenter@oracle.com>
-Signed-off-by: Luciano Coelho <coelho@ti.com>"|2|Luciano Coelho|coelho@ti.com|2012-05-03 10:31:02+03:00|-10800|John W. Linville|linville@tuxdriver.com|2012-05-15 17:53:22-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|79a4f4dfa69a8379ab34675be976c2f866c77403|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: stmmac: reduce dma ring display code duplication
-
-The code to show extended descriptor is identical to normal one.
-Consolidate the code to remove duplication.
-
-Signed-off-by: Baruch Siach <baruch@tkos.co.il>
-Link: https://lore.kernel.org/r/a2a5c5ce9338bdea60ec71d7eeb00fe757281557.1700372381.git.baruch@tkos.co.il
-Signed-off-by: Paolo Abeni <pabeni@redhat.com>"|1|Baruch Siach|baruch@tkos.co.il|2023-11-19 07:39:41+02:00|-7200|Paolo Abeni|pabeni@redhat.com|2023-11-21 12:45:11+01:00|-3600

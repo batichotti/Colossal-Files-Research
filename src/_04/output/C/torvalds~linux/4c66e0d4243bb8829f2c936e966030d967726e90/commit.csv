@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4c66e0d4243bb8829f2c936e966030d967726e90|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: drop unused parameter is_new from btrfs_iget
-
-The parameter is now always set to NULL and could be dropped. The last
-user was get_default_root but that got reworked in 05dbe6837b60 (""Btrfs:
-unify subvol= and subvolid= mounting"") and the parameter became unused.
-
-Reviewed-by: Anand Jain <anand.jain@oracle.com>
-Signed-off-by: David Sterba <dsterba@suse.com>"|11|David Sterba|dsterba@suse.com|2019-10-03 19:09:35+02:00|-7200|David Sterba|dsterba@suse.com|2019-11-18 12:46:52+01:00|-3600

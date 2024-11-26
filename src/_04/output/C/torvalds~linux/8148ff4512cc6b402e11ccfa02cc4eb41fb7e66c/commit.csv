@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8148ff4512cc6b402e11ccfa02cc4eb41fb7e66c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[netdrvr] forcedeth: remove in-driver copy of net_device_stats
-
-A copy of struct net_device_stats now lives in struct net_device,
-making in-driver copies a waste of memory.
-
-Signed-off-by: Jeff Garzik <jgarzik@redhat.com>"|1|Jeff Garzik|jeff@garzik.org|2007-10-16 20:56:09-04:00|14400|Jeff Garzik|jeff@garzik.org|2007-10-16 20:56:09-04:00|14400

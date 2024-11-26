@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d4ed95d796e5126bba51466dc07e287cebc8bd19|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8169: fix wake on lan setting for non-8111E.
-
-Only 8111E needs enable RxConfig bit 0 ~ 3 when suspending or
-shutdowning for wake on lan.
-
-Signed-off-by: Hayes Wang <hayeswang@realtek.com>
-Acked-by: Francois Romieu <romieu@fr.zoreil.com>"|1|Hayes Wang|hayeswang@realtek.com|2011-07-06 15:58:07+08:00|-28800|Francois Romieu|romieu@fr.zoreil.com|2011-07-14 23:22:50+02:00|-7200

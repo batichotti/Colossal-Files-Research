@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a0fa62d3b6afaa260cad8ccd6944e81ad01c7cf3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: fix the wrong latency value while computing wm0
-
-On Ironlake, the LP0 latency is hardcoded and in ns unit, while on
-Sandybridge, it comes from a register and with unit 0.1 us. So, fix
-the wrong latency value while computing wm0 on Ironlake and Sandybridge.
-
-Signed-off-by: Yuanhan Liu <yuanhan.liu@linux.intel.com>
-Signed-off-by: Chris Wilson <chris@chris-wilson.co.uk>"|1|Yuanhan Liu|yuanhan.liu@linux.intel.com|2010-12-23 16:35:40+08:00|-28800|Chris Wilson|chris@chris-wilson.co.uk|2011-01-11 20:36:15+00:00|0

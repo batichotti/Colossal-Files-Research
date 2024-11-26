@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0808ed6ebbc292222ca069d339744870f6d801da|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: megaraid_sas: Fix fw_crash_buffer_show()
-
-If crash_dump_buf is not allocated then crash dump can't be available.
-Replace logical 'and' with 'or'.
-
-Signed-off-by: Tomas Henzl <thenzl@redhat.com>
-Link: https://lore.kernel.org/r/20230324135249.9733-1-thenzl@redhat.com
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|1|Tomas Henzl|thenzl@redhat.com|2023-03-24 14:52:49+01:00|-3600|Martin K. Petersen|martin.petersen@oracle.com|2023-03-24 20:54:34-04:00|14400

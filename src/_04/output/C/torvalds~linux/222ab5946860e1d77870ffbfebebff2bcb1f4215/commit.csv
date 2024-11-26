@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|222ab5946860e1d77870ffbfebebff2bcb1f4215|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] ipr: Avoid target_destroy accessing memory after it was freed
-
-Defined target_ids,array_ids and vsets_ids as unsigned long to avoid
-target_destroy accessing memory after it was freed.
-
-Signed-off-by: Wen Xiong <wenxiong@linux.vnet.ibm.com>
-Signed-off-by: James Bottomley <JBottomley@Parallels.com>"|2|wenxiong@linux.vnet.ibm.com|wenxiong@linux.vnet.ibm.com|2013-03-14 13:52:25-05:00|18000|James Bottomley|JBottomley@Parallels.com|2013-05-12 15:07:42-07:00|25200

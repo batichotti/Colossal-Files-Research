@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e3c5530b96b9c5994cfb2544a037161790c4f7c3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tg3: remove redundant NULL test before release_firmware() call
-
-There is no need to test for a NULL pointer before calling
-release_firmware - the function does that on its own.
-
-Signed-off-by: Jesper Juhl <jj@chaosbits.net>
-Signed-off-by: Jiri Kosina <jkosina@suse.cz>"|1|Jesper Juhl|jj@chaosbits.net|2012-04-09 22:50:15+02:00|-7200|Jiri Kosina|jkosina@suse.cz|2012-04-30 13:17:53+02:00|-7200

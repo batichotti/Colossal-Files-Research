@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b9aac8e0d32499217417ff0b494731811f185b18|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"worker_thread: don't play with signals
-
-worker_thread() doesn't need to ""Block and flush all signals"", this was
-already done by its caller, kthread().
-
-Signed-off-by: Oleg Nesterov <oleg@tv-sign.ru>
-Signed-off-by: Andrew Morton <akpm@linux-foundation.org>
-Signed-off-by: Linus Torvalds <torvalds@linux-foundation.org>"|1|Oleg Nesterov|oleg@tv-sign.ru|2007-05-09 02:34:20-07:00|25200|Linus Torvalds|torvalds@woody.linux-foundation.org|2007-05-09 12:30:53-07:00|25200

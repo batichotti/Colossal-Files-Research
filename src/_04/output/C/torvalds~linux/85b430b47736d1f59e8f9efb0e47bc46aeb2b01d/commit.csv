@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|85b430b47736d1f59e8f9efb0e47bc46aeb2b01d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"igb: move the tx and rx ring specific config into seperate functions
-
-This change makes the tx and rx config a bit cleaner by breaking out the ring
-specific configuration from the generic rx and tx configuration.
-
-Signed-off-by: Alexander Duyck <alexander.h.duyck@intel.com>
-Signed-off-by: Jeff Kirsher <jeffrey.t.kirsher@intel.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Alexander Duyck|alexander.h.duyck@intel.com|2009-10-27 15:50:29+00:00|0|David S. Miller|davem@davemloft.net|2009-10-28 01:20:20-07:00|25200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ef46f18ea010359f7536afd3f56a92c9c83ac09a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86 emulator: fix jmp r/m64 instruction
-
-jmp r/m64 doesn't require the rex.w prefix to indicate the operand size
-is 64 bits.  Set the Stack attribute (even though it doesn't involve the
-stack, really) to indicate this.
-
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|1|Avi Kivity|avi@qumranet.com|2008-09-11 19:47:13+03:00|-10800|Avi Kivity|avi@qumranet.com|2008-10-15 10:15:27+02:00|-7200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fa7c7f6e11f70d62505074a8b30a776236850dec|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tracing/core: remove unused parameter in tracing_fill_pipe_page()
-
-Impact: cleanup
-
-The struct page *pages parameter is unused.
-
-Signed-off-by: Frederic Weisbecker <fweisbec@gmail.com>
-Signed-off-by: Ingo Molnar <mingo@elte.hu>"|1|Frederic Weisbecker|fweisbec@gmail.com|2009-02-11 02:51:30+01:00|-3600|Ingo Molnar|mingo@elte.hu|2009-02-18 01:40:20+01:00|-3600

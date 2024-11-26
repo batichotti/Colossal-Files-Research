@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d14939be8bfc4b7493007c365cce5d707d4fbfa1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: dsa: mv88e6xxx: silently skip PVT ops
-
-Since mv88e6xxx_pvt_map is a static helper, no need to return
--EOPNOTSUPP if the chip has no PVT, simply silently skip the operation.
-
-Signed-off-by: Vivien Didelot <vivien.didelot@gmail.com>
-Reviewed-by: Florian Fainelli <f.fainelli@gmail.com>
-Signed-off-by: Jakub Kicinski <jakub.kicinski@netronome.com>"|1|Vivien Didelot|vivien.didelot@gmail.com|2019-10-21 16:51:25-04:00|14400|Jakub Kicinski|jakub.kicinski@netronome.com|2019-10-22 12:37:07-07:00|25200

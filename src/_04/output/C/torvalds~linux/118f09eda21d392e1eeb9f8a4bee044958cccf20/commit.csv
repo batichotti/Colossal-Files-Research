@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|118f09eda21d392e1eeb9f8a4bee044958cccf20|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4.1 mark qualified async operations as MOVEABLE tasks
-
-Mark async operations such as RENAME, REMOVE, COMMIT MOVEABLE
-for the nfsv4.1+ sessions.
-
-Fixes: 85e39feead948 (""NFSv4.1 identify and mark RPC tasks that can move between transports"")
-Signed-off-by: Olga Kornievskaia <kolga@netapp.com>
-Signed-off-by: Anna Schumaker <Anna.Schumaker@Netapp.com>"|5|Olga Kornievskaia|kolga@netapp.com|2022-05-25 12:12:59-04:00|14400|Anna Schumaker|Anna.Schumaker@Netapp.com|2022-05-31 17:09:30-04:00|14400

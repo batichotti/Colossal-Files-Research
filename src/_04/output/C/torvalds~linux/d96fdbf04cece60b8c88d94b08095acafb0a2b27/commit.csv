@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d96fdbf04cece60b8c88d94b08095acafb0a2b27|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: pass dev_priv explicitly to BCLRPAT
-
-Avoid the implicit dev_priv local variable use, and pass dev_priv
-explicitly to the BCLRPAT register macro.
-
-Reviewed-by: Rodrigo Vivi <rodrigo.vivi@intel.com>
-Link: https://patchwork.freedesktop.org/patch/msgid/f04d0313032d5820a14cc504af390b4b1006fae6.1717514638.git.jani.nikula@intel.com
-Signed-off-by: Jani Nikula <jani.nikula@intel.com>"|4|Jani Nikula|jani.nikula@intel.com|2024-06-04 18:25:27+03:00|-10800|Jani Nikula|jani.nikula@intel.com|2024-06-07 11:13:17+03:00|-10800

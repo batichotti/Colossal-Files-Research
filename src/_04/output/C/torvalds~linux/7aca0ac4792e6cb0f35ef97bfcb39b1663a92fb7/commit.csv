@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7aca0ac4792e6cb0f35ef97bfcb39b1663a92fb7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Wait for HCI_OP_WRITE_AUTH_PAYLOAD_TO to complete
-
-This make sure HCI_OP_WRITE_AUTH_PAYLOAD_TO completes before notifying
-the encryption change just as is done with HCI_OP_READ_ENC_KEY_SIZE.
-
-Signed-off-by: Luiz Augusto von Dentz <luiz.von.dentz@intel.com>"|1|Luiz Augusto von Dentz|luiz.von.dentz@intel.com|2022-12-07 11:56:57-08:00|28800|Luiz Augusto von Dentz|luiz.von.dentz@intel.com|2022-12-12 14:19:26-08:00|28800

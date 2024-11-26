@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d31131bba5a1630304c55ea775c48cc84912ab59|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"RDMA: Remove unused parameter from ib_modify_qp_is_ok()
-
-The ll parameter is not used in ib_modify_qp_is_ok(), so remove it.
-
-Signed-off-by: Kamal Heib <kamalheib1@gmail.com>
-Reviewed-by: Dennis Dalessandro <dennis.dalessandro@intel.com>
-Signed-off-by: Jason Gunthorpe <jgg@mellanox.com>"|12|Kamal Heib|kamalheib1@gmail.com|2018-10-02 16:11:21+03:00|-10800|Jason Gunthorpe|jgg@mellanox.com|2018-10-03 16:05:46-06:00|21600

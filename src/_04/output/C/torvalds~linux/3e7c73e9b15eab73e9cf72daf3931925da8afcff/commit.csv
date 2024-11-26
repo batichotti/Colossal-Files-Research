@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3e7c73e9b15eab73e9cf72daf3931925da8afcff|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: Don't use highmem pages for the msr and pio bitmaps
-
-Highmem pages are a pain, and saving three lowmem pages on i386 isn't worth
-the extra code.
-
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Avi Kivity|avi@redhat.com|2009-02-24 21:46:19+02:00|-7200|Avi Kivity|avi@redhat.com|2009-06-10 11:48:21+03:00|-10800

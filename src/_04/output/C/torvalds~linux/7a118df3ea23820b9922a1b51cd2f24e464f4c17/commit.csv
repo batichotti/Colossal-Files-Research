@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7a118df3ea23820b9922a1b51cd2f24e464f4c17|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"RDMA/addr: Use client registration to fix module unload race
-
-Require registration with ib_addr module to prevent caller from
-unloading while a callback is in progress.
-
-Signed-off-by: Sean Hefty <sean.hefty@intel.com>
-Signed-off-by: Roland Dreier <rolandd@cisco.com>"|3|Sean Hefty|sean.hefty@intel.com|2006-10-31 11:12:59-08:00|28800|Roland Dreier|rolandd@cisco.com|2006-11-02 14:26:04-08:00|28800

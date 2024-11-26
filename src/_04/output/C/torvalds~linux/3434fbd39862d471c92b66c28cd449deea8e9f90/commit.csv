@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3434fbd39862d471c92b66c28cd449deea8e9f90|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: require four hardware queues for QoS/HT
-
-This patch makes mac80211 only announce QoS/HT support when
-the underlying hardware has four (or more) queues.
-
-Signed-off-by: Johannes Berg <johannes@sipsolutions.net>
-Cc: Ron Rindjunksi <ron.rindjunksi@intel.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|3|Johannes Berg|johannes@sipsolutions.net|2008-05-03 00:59:37+02:00|-7200|John W. Linville|linville@tuxdriver.com|2008-05-14 16:29:33-04:00|14400

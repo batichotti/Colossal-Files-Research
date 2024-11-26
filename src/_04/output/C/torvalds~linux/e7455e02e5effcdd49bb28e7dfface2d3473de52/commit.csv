@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e7455e02e5effcdd49bb28e7dfface2d3473de52|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"xfs: remove the first extent special case in xfs_bmap_add_extent
-
-Both xfs_bmap_add_extent_hole_delay and xfs_bmap_add_extent_hole_real
-already contain code to handle the case where there is no extent to
-merge with, which is effectively the same as the code duplicated here.
-
-Signed-off-by: Christoph Hellwig <hch@lst.de>
-Signed-off-by: Alex Elder <aelder@sgi.com>"|1|Christoph Hellwig|hch@infradead.org|2011-09-18 20:40:41+00:00|0|Alex Elder|aelder@sgi.com|2011-10-11 21:15:03-05:00|18000

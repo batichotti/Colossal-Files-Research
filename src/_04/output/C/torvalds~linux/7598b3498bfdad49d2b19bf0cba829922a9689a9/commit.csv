@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7598b3498bfdad49d2b19bf0cba829922a9689a9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"forcedeth: replace pci_map_single with dma_map_single functions
-
-pci_map_single functions are obsolete. So replace them with
-dma_map_single functions.
-
-Signed-off-by: Zhu Yanjun <yanjun.zhu@oracle.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Zhu Yanjun|yanjun.zhu@oracle.com|2017-09-14 23:01:51-04:00|14400|David S. Miller|davem@davemloft.net|2017-09-18 14:48:17-07:00|25200

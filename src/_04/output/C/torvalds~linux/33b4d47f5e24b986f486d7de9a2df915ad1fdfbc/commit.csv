@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|33b4d47f5e24b986f486d7de9a2df915ad1fdfbc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: deal with NULL space info
-
-After a balance it is briefly possible for the space info
-field in the inode to be NULL.  This adds some checks
-to make sure things properly deal with the NULL value.
-
-
-Signed-off-by: Chris Mason <chris.mason@oracle.com>"|1|Chris Mason|chris.mason@oracle.com|2009-09-22 14:45:50-04:00|14400|Chris Mason|chris.mason@oracle.com|2009-09-22 14:45:50-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0c4b2d370514cb4f3454dd3b18f031d2651fab73|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: remove VLAN_TAG_PRESENT
-
-Replace VLAN_TAG_PRESENT with single bit flag and free up
-VLAN.CFI overload. Now VLAN.CFI is visible in networking stack
-and can be passed around intact.
-
-Signed-off-by: Michał Mirosław <mirq-linux@rere.qmqm.pl>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|7|Michał Mirosław|mirq-linux@rere.qmqm.pl|2018-11-10 19:58:36+01:00|-3600|David S. Miller|davem@davemloft.net|2018-11-16 19:25:29-08:00|28800

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|466d7b9f6175e4ecd409f619ff9fbbd49467ad66|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"crypto: testmgr - test misuse of result in ahash
-
-Async hash operations can use result pointer in final/finup/digest,
-but not in init/update/export/import, so test it for misuse.
-
-Signed-off-by: Kamil Konieczny <k.konieczny@partner.samsung.com>
-Signed-off-by: Herbert Xu <herbert@gondor.apana.org.au>"|1|Kamil Konieczny|k.konieczny@partner.samsung.com|2018-01-16 15:26:13+01:00|-3600|Herbert Xu|herbert@gondor.apana.org.au|2018-01-26 01:10:29+11:00|-39600

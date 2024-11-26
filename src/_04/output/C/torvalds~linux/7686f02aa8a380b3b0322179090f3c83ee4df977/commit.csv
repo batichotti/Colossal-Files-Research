@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7686f02aa8a380b3b0322179090f3c83ee4df977|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] advansys: Remove a check for an impossible condition
-
-The midlayer guarantees it won't call ->queuecommand for a host which
-is handling a reset condition.
-
-Signed-off-by: Matthew Wilcox <matthew@wil.cx>
-Signed-off-by: James Bottomley <James.Bottomley@SteelEye.com>"|1|Matthew Wilcox|matthew@wil.cx|2007-09-09 08:56:32-06:00|21600|James Bottomley|jejb@mulgrave.localdomain|2007-10-12 14:47:48-04:00|14400

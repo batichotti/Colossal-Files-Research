@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|eece5de59c090cf6cc04622a0abedb1553383cdc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] mpt2sas: Fix for max_sectors warning message is stating the incorrect range
-
-When specifying the command line option ""max_sectors"" less than 64, then
-warning message should provide correct upper boundary value 32767 instead of
-8192.
-
-Signed-off-by: Sreekanth Reddy <sreekanth.reddy@lsi.com>
-Signed-off-by: James Bottomley <JBottomley@Parallels.com>"|1|sreekanth.reddy@lsi.com|sreekanth.reddy@lsi.com|2012-07-17 15:56:09+05:30|-19800|James Bottomley|JBottomley@Parallels.com|2012-08-24 13:10:26+04:00|-14400

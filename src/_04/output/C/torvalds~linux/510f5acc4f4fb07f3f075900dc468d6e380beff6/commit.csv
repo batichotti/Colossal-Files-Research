@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|510f5acc4f4fb07f3f075900dc468d6e380beff6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sched: Don't use tasklist_lock for debug prints
-
-Avoid taking locks from debug prints, this avoids latencies on -rt,
-and improves reliability of the debug code.
-
-Signed-off-by: Thomas Gleixner <tglx@linutronix.de>
-Signed-off-by: Peter Zijlstra <a.p.zijlstra@chello.nl>
-Signed-off-by: Ingo Molnar <mingo@elte.hu>"|1|Thomas Gleixner|tglx@linutronix.de|2011-07-17 20:47:54+02:00|-7200|Ingo Molnar|mingo@elte.hu|2011-10-06 12:47:08+02:00|-7200

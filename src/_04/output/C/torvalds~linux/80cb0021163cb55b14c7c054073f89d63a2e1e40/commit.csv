@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|80cb0021163cb55b14c7c054073f89d63a2e1e40|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net/mlx4_core: Fix wrong order of flow steering resources removal
-
-On the resource tracker cleanup flow, the DMFS rules must be deleted before we
-destroy the QPs, else the HW may attempt doing packet steering to non existent QPs.
-
-Signed-off-by: Hadar Hen Zion <hadarh@mellanox.com>
-Signed-off-by: Or Gerlitz <ogerlitz@mellanox.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Hadar Hen Zion|hadarh@mellanox.com|2013-03-21 05:55:52+00:00|0|David S. Miller|davem@davemloft.net|2013-03-21 12:05:07-04:00|14400

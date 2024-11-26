@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ce061867aa2877605cda96fa8ec7dff15f70a983|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: MMU: Move accessed/dirty bit checks from rmap_remove() to drop_spte()
-
-Since we need to make the check atomic, move it to the place that will
-set the new spte.
-
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Avi Kivity|avi@redhat.com|2010-06-06 14:38:12+03:00|-10800|Avi Kivity|avi@redhat.com|2010-08-02 06:40:18+03:00|-10800

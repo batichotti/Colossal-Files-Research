@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c20489dad156dd9919ebd854bbace46dbd2576a3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ftrace: Assign iter->hash to filter or notrace hashes on seq read
-
-Instead of testing if the hash to use is the filter_hash or the notrace_hash
-at each iteration, do the test at open, and set the iter->hash to point to
-the corresponding filter or notrace hash. Then use that directly instead of
-testing which hash needs to be used each iteration.
-
-Signed-off-by: Steven Rostedt (VMware) <rostedt@goodmis.org>"|1|Steven Rostedt (VMware)|rostedt@goodmis.org|2017-03-29 14:55:49-04:00|14400|Steven Rostedt (VMware)|rostedt@goodmis.org|2017-03-31 18:00:36-04:00|14400

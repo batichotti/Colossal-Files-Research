@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b6f5be287344433100201c4d6f3f8dcd1755a6b3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: tg3: use new api ethtool_{get|set}_link_ksettings
-
-The ethtool api {get|set}_settings is deprecated.
-We move this driver to new api {get|set}_link_ksettings.
-
-Signed-off-by: Philippe Reynes <tremyfr@gmail.com>
-Acked-by: Michael Chan <michael.chan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Philippe Reynes|tremyfr@gmail.com|2016-09-25 23:31:24+02:00|-7200|David S. Miller|davem@davemloft.net|2016-09-26 20:17:09-04:00|14400

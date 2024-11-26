@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d197b7d3480b5c9a3c33b224684fa942d76d1e59|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Move vlv cdclk code to .get_display_clock_speed()
-
-We have a standard hook for reading out the current cdclk. Move the VLV
-code from valleyview_cur_cdclk() to .get_display_clock_speed().
-
-Signed-off-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Reviewed-by: Jesse Barnes <jbarnes@virtuousgeek.org>
-Signed-off-by: Daniel Vetter <daniel.vetter@ffwll.ch>"|3|Ville Syrjälä|ville.syrjala@linux.intel.com|2014-06-13 13:37:49+03:00|-10800|Daniel Vetter|daniel.vetter@ffwll.ch|2014-07-07 11:23:21+02:00|-7200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6ef768fac9dfe3404d3fdc09909ea203a88f2f38|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"kvm: x86: move ioapic.c and irq_comm.c back to arch/x86/
-
-ia64 does not need them anymore.  Ack notifiers become x86-specific
-too.
-
-Suggested-by: Gleb Natapov <gleb@kernel.org>
-Reviewed-by: Radim Krcmar <rkrcmar@redhat.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|9|Paolo Bonzini|pbonzini@redhat.com|2014-11-20 13:45:31+01:00|-3600|Paolo Bonzini|pbonzini@redhat.com|2014-11-21 18:02:37+01:00|-3600

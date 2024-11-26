@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0e29d163f7ec8369b3f1fb70900d29b1c4a1dc8b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drbd: Reworked the unconfiguring and thread stopping code
-
-* Moved CONFIG_PENDING and DEVICE_DYING from mdev to tconn.
-* Renamed drbd_reconfig_start() and drbd_reconfig_done() to
-  conn_reconfig_start() and conn_reconfig_done().
-
-Signed-off-by: Philipp Reisner <philipp.reisner@linbit.com>
-Signed-off-by: Lars Ellenberg <lars.ellenberg@linbit.com>"|6|Philipp Reisner|philipp.reisner@linbit.com|2011-02-18 14:23:11+01:00|-3600|Philipp Reisner|philipp.reisner@linbit.com|2011-10-14 16:47:55+02:00|-7200

@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|33165d472310262d8c79c7e4d1a17dc60cea7e35|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libceph: introduce ceph_pagelist_alloc()
-
-struct ceph_pagelist cannot be embedded into anything else because it
-has its own refcount.  Merge allocation and initialization together.
-
-Signed-off-by: Ilya Dryomov <idryomov@gmail.com>"|6|Ilya Dryomov|idryomov@gmail.com|2018-09-28 15:38:34+02:00|-7200|Ilya Dryomov|idryomov@gmail.com|2018-10-22 10:28:21+02:00|-7200

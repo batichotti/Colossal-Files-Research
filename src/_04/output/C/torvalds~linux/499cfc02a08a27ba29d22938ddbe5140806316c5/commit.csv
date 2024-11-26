@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|499cfc02a08a27ba29d22938ddbe5140806316c5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rtl8xxxu: 8723bu: REG_BT_COEX_TABLE4 is only 8 bits
-
-The BT_COEX_TABLE register list contains 3 32 bit registers and one 8
-bit register. Hence, use rtl8xxxu_write8() when writing the 8 bit
-register.
-
-Signed-off-by: Jes Sorensen <Jes.Sorensen@redhat.com>
-Signed-off-by: Kalle Valo <kvalo@codeaurora.org>"|1|Jes Sorensen|Jes.Sorensen@redhat.com|2016-02-29 17:05:13-05:00|18000|Kalle Valo|kvalo@codeaurora.org|2016-03-10 15:29:11+02:00|-7200

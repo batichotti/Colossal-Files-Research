@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b037a4f34ec51b6c8ccb352a04056c04a4bfc269|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: s390: optimize float int lock: spin_lock_bh --> spin_lock
-
-The floating interrupt lock is only taken in process context. We can
-replace all spin_lock_bh with standard spin_lock calls.
-
-Signed-off-by: Christian Borntraeger <borntraeger@de.ibm.com>
-Signed-off-by: Christian Ehrhardt <ehrhardt@de.ibm.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|4|Christian Borntraeger|borntraeger@de.ibm.com|2009-05-12 17:21:50+02:00|-7200|Avi Kivity|avi@redhat.com|2009-06-10 11:48:56+03:00|-10800

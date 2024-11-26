@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2aaf69dcee864f4fb6402638dd2f263324ac839f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: MMU: Map device MMIO as UC in EPT
-
-Software are not allow to access device MMIO using cacheable memory type, the
-patch limit MMIO region with UC and WC(guest can select WC using PAT and
-PCD/PWT).
-
-Signed-off-by: Sheng Yang <sheng@linux.intel.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|2|Sheng Yang|sheng@linux.intel.com|2009-01-21 16:52:16+08:00|-28800|Avi Kivity|avi@redhat.com|2009-02-15 02:47:37+02:00|-7200

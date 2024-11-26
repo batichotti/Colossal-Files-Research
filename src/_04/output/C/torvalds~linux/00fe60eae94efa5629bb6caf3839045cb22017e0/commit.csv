@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|00fe60eae94efa5629bb6caf3839045cb22017e0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md: use part_[begin|end]_io_acct instead of disk_[begin|end]_io_acct
-
-This enables proper statistics in /proc/diskstats for md partitions.
-
-Signed-off-by: Song Liu <songliubraving@fb.com>
-Reviewed-by: Christoph Hellwig <hch@lst.de>
-Signed-off-by: Jens Axboe <axboe@kernel.dk>"|1|Song Liu|songliubraving@fb.com|2020-08-31 15:27:24-07:00|25200|Jens Axboe|axboe@kernel.dk|2020-09-11 16:41:30-06:00|21600

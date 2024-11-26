@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|95bca62fb723a121954fc7ae5473bb2c1f0d5986|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nl80211: check nla_parse_nested() return values
-
-At the very least we should check the return value if
-nla_parse_nested() is called with a non-NULL policy.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2018-06-29 09:33:39+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2018-06-29 09:44:51+02:00|-7200

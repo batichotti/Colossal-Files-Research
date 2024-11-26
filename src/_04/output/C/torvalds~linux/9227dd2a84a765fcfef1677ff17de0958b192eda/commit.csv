@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9227dd2a84a765fcfef1677ff17de0958b192eda|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"exec: Remove LSM_UNSAFE_PTRACE_CAP
-
-With previous changes every location that tests for
-LSM_UNSAFE_PTRACE_CAP also tests for LSM_UNSAFE_PTRACE making the
-LSM_UNSAFE_PTRACE_CAP redundant, so remove it.
-
-Signed-off-by: ""Eric W. Biederman"" <ebiederm@xmission.com>"|6|Eric W. Biederman|ebiederm@xmission.com|2017-01-23 17:26:31+13:00|-46800|Eric W. Biederman|ebiederm@xmission.com|2017-01-24 12:03:08+13:00|-46800

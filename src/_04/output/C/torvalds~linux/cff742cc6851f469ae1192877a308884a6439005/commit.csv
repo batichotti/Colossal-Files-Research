@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cff742cc6851f469ae1192877a308884a6439005|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Hoist the encoder->audio_{enable,disable}() calls higher up
-
-Push the encoder->audio_{enable,disable}() calls out from the
-encoder->{enable,disable}() hooks. Moving towards audio fastset.
-
-Reviewed-by: Jani Nikula <jani.nikula@intel.com>
-Signed-off-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Link: https://patchwork.freedesktop.org/patch/msgid/20231121054324.9988-10-ville.syrjala@linux.intel.com"|5|Ville Syrjälä|ville.syrjala@linux.intel.com|2023-11-21 07:43:22+02:00|-7200|Ville Syrjälä|ville.syrjala@linux.intel.com|2023-11-23 14:33:26+02:00|-7200

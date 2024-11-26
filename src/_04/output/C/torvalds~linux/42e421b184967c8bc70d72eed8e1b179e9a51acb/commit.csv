@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|42e421b184967c8bc70d72eed8e1b179e9a51acb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] qla2xxx: Verify the RISC is not in ROM code if firmware-load is disabled.
-
-Add an additional check to verify that the current executing
-firmware is in fact non-ROM code.  The non-ROM Get-ID mailbox
-command is used for verification.
-
-Signed-off-by: Andrew Vasquez <andrew.vasquez@qlogic.com>
-Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"|2|Andrew Vasquez|andrew.vasquez@qlogic.com|2008-07-10 16:56:01-07:00|25200|James Bottomley|James.Bottomley@HansenPartnership.com|2008-07-26 15:14:46-04:00|14400

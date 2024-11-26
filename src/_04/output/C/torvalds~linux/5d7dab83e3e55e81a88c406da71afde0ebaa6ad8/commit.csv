@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5d7dab83e3e55e81a88c406da71afde0ebaa6ad8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd: nfs4_open_delegation needs to remove_stid rather than unhash_stid
-
-In the out_free: path, the newly allocated stid must be removed rather
-than unhashed so it can never be found.
-
-Signed-off-by: Benny Halevy <bhalevy@primarydata.com>
-Signed-off-by: J. Bruce Fields <bfields@redhat.com>"|1|Benny Halevy|bhalevy@primarydata.com|2013-10-15 09:57:55+03:00|-10800|J. Bruce Fields|bfields@redhat.com|2013-10-28 15:58:20-04:00|14400

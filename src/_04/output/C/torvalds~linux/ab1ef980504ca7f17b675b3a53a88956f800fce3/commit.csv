@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ab1ef980504ca7f17b675b3a53a88956f800fce3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211_hwsim: Make sure beacon_timer gets deleted
-
-It was possible to trigger a kernel panic because beacon_timer may not
-have been deleted in all cases when the kernel module was removed while
-hostapd was still running.
-
-Signed-off-by: Jouni Malinen <jouni.malinen@atheros.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|1|Jouni Malinen|j@w1.fi|2008-10-30 16:59:25+02:00|-7200|John W. Linville|linville@tuxdriver.com|2008-11-10 15:17:40-05:00|18000

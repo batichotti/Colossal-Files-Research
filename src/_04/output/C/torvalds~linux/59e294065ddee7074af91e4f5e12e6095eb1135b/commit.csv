@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|59e294065ddee7074af91e4f5e12e6095eb1135b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Rename extfeatures
-
-This patch renames hdev->extfeatures to hdev->host_features since it
-holds the extended features Page 1 (aka host features).
-
-Signed-off-by: Andre Guedes <aguedespe@gmail.com>
-Acked-by: Marcel Holtmann <marcel@holtmann.org>
-Signed-off-by: Gustavo F. Padovan <padovan@profusion.mobi>"|3|Andre Guedes|aguedespe@gmail.com|2011-12-30 10:34:03-03:00|10800|Gustavo F. Padovan|padovan@profusion.mobi|2012-01-02 22:21:05-02:00|7200

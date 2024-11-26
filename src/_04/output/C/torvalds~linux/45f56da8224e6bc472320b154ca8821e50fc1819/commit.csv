@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|45f56da8224e6bc472320b154ca8821e50fc1819|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSD: Squash an annoying compiler warning
-
-Clean up: Fix gcc empty-body warning when -Wextra is used.
-
-../fs/nfsd/nfs4state.c:3898:3: warning: suggest braces around empty body in an ‘else’ statement [-Wempty-body]
-
-Signed-off-by: Chuck Lever <chuck.lever@oracle.com>"|1|Chuck Lever|chuck.lever@oracle.com|2020-04-05 14:40:25-04:00|14400|Chuck Lever|chuck.lever@oracle.com|2020-05-20 17:30:44-04:00|14400

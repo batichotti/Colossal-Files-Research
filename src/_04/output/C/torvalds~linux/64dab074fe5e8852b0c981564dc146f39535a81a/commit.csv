@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|64dab074fe5e8852b0c981564dc146f39535a81a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/amdgpu: don't check the default value for vm size
-
-Avoids printing spurious messages like this:
-[    3.102059] amdgpu 0000:01:00.0: VM size (-1) must be a power of 2
-
-Reviewed-by: Christian König <christian.koenig@amd.com>
-Reviewed-by: Michel Dänzer <michel.daenzer@amd.com>
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|1|Alex Deucher|alexander.deucher@amd.com|2017-06-15 18:20:09-04:00|14400|Alex Deucher|alexander.deucher@amd.com|2017-06-16 16:58:00-04:00|14400

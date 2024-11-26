@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d01f8d5e02cc79998e3160f7ad545f77891b00e5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: MMU: do not mark accessed bit on pte write path
-
-In current code, the accessed bit is always set when page fault occurred,
-do not need to set it on pte write path
-
-Signed-off-by: Xiao Guangrong <xiaoguangrong@cn.fujitsu.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|2|Xiao Guangrong|xiaoguangrong@cn.fujitsu.com|2011-09-22 16:55:36+08:00|-28800|Avi Kivity|avi@redhat.com|2011-12-27 11:16:53+02:00|-7200

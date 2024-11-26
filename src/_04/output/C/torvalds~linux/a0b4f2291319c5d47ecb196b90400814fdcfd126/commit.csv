@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a0b4f2291319c5d47ecb196b90400814fdcfd126|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wifi: mac80211: fix waiting for beacons logic
-
-This should be waiting if we don't have a beacon yet,
-but somehow I managed to invert the logic. Fix that.
-
-Fixes: 74e1309acedc (""wifi: mac80211: mlme: look up beacon elems only if needed"")
-Link: https://msgid.link/20240131164856.922701229546.I239b379e7cee04608e73c016b737a5245e5b23dd@changeid
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2024-01-31 16:48:56+01:00|-3600|Johannes Berg|johannes.berg@intel.com|2024-02-02 13:11:28+01:00|-3600

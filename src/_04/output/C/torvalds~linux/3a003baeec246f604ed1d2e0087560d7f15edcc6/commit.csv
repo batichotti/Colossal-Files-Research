@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3a003baeec246f604ed1d2e0087560d7f15edcc6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"regulator: Add over current protection (OCP) support
-
-Some regulators can automatically shut down when they detect an
-over current event. Add an op (set_over_current_protection) and a
-DT property + constraint to support this capability.
-
-Signed-off-by: Stephen Boyd <sboyd@codeaurora.org>
-Signed-off-by: Mark Brown <broonie@kernel.org>"|5|Stephen Boyd|sboyd@codeaurora.org|2015-07-17 14:41:54-07:00|25200|Mark Brown|broonie@kernel.org|2015-07-24 18:28:46+01:00|-3600

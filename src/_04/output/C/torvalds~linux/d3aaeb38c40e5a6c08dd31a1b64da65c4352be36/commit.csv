@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d3aaeb38c40e5a6c08dd31a1b64da65c4352be36|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: Add ->neigh_lookup() operation to dst_ops
-
-In the future dst entries will be neigh-less.  In that environment we
-need to have an easy transition point for current users of
-dst->neighbour outside of the packet output fast path.
-
-Signed-off-by: David S. Miller <davem@davemloft.net>"|8|David S. Miller|davem@davemloft.net|2011-07-18 00:40:17-07:00|25200|David S. Miller|davem@davemloft.net|2011-07-18 00:40:17-07:00|25200

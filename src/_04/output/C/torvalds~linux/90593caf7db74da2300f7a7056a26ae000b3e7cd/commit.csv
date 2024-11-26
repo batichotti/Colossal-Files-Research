@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|90593caf7db74da2300f7a7056a26ae000b3e7cd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"selinux: reduce the object class calculations at inode init time
-
-We only need to call inode_mode_to_security_class() once in
-selinux_inode_init_security().
-
-Reviewed-by: Stephen Smalley <stephen.smalley.work@gmail.com>
-Signed-off-by: Paul Moore <paul@paul-moore.com>"|1|Paul Moore|paul@paul-moore.com|2024-01-18 20:44:21-05:00|18000|Paul Moore|paul@paul-moore.com|2024-01-25 10:52:21-05:00|18000

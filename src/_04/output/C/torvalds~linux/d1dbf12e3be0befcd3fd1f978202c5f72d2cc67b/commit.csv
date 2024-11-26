@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d1dbf12e3be0befcd3fd1f978202c5f72d2cc67b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Use list_del when freeing the list entry
-
-It's wasteful to use list_del_init (which re-initializes the list_head)
-if we're just about to free the element and never use it again.
-
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|1|Johan Hedberg|johan.hedberg@intel.com|2014-07-04 16:17:23+03:00|-10800|Marcel Holtmann|marcel@holtmann.org|2014-07-04 15:54:29+02:00|-7200

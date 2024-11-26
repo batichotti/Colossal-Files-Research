@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d191854282fd831da785a5a34bc6fd16049b8578|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ipv6: Kill rt6i_dev and rt6i_expires defines.
-
-It just obscures that the netdevice pointer and the expires value are
-implemented in the dst_entry sub-object of the ipv6 route.
-
-And it makes grepping for dst_entry member uses much harder too.
-
-Signed-off-by: David S. Miller <davem@davemloft.net>"|10|David S. Miller|davem@davemloft.net|2011-12-28 20:19:20-05:00|18000|David S. Miller|davem@davemloft.net|2011-12-28 20:19:20-05:00|18000

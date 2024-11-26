@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6f0e013548fd15fddb952f657a3cc81282641191|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"niu: Use resource_size instead of private function
-
-The function res_size in drivers/net/niu.c is a copy of resource_size in
-linux/ioport.h. Remove the function and use resource_size instead.
-
-Signed-off-by: Tobias Klauser <tklauser@distanz.ch>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Tobias Klauser|tklauser@distanz.ch|2009-09-09 01:41:30-07:00|25200|David S. Miller|davem@davemloft.net|2009-09-09 01:41:30-07:00|25200

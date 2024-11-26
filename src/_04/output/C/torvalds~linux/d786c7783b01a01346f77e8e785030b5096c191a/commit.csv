@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d786c7783b01a01346f77e8e785030b5096c191a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: MMU: inline set_spte in mmu_set_spte
-
-Since the two callers of set_spte do different things with the results,
-inlining it actually makes the code simpler to reason about.  For example,
-mmu_set_spte looks quite like tdp_mmu_map_handle_target_level, but the
-similarity is hidden by set_spte.
-
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Paolo Bonzini|pbonzini@redhat.com|2021-08-17 07:22:32-04:00|14400|Paolo Bonzini|pbonzini@redhat.com|2021-10-01 03:44:54-04:00|14400

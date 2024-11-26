@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d922b51dabbe9b6aeee44e2e3a605323591e3707|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ALSA: hda - Consolidate default automute functions for Realtek
-
-There are two entry points for the headphone automute functions for
-Realtek, alc_automute_amp() and alc_automute_pin().  These call the
-same function in the end, so we can basically consolidate these
-with a flag in spec.
-
-Signed-off-by: Takashi Iwai <tiwai@suse.de>"|1|Takashi Iwai|tiwai@suse.de|2011-04-28 12:18:53+02:00|-7200|Takashi Iwai|tiwai@suse.de|2011-04-28 14:45:19+02:00|-7200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2304cb0c4438829c88bed69f57374b80ae31f0ba|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: export dirty_nats_ratio in sysfs
-
-This patch exports a new sysfs entry 'dirty_nat_ratio' to control threshold
-of dirty nat entries, if current ratio exceeds configured threshold,
-checkpoint will be triggered in f2fs_balance_fs_bg for flushing dirty nats.
-
-Signed-off-by: Chao Yu <chao2.yu@samsung.com>
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|5|Chao Yu|chao2.yu@samsung.com|2016-01-18 18:32:58+08:00|-28800|Jaegeuk Kim|jaegeuk@kernel.org|2016-02-22 16:07:23-08:00|28800

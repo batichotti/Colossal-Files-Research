@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|33afa7fde0defbb362328233e600e052d0a22cd5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: allocate new segment aligned with sections
-
-When allocating a new segment under the LFS mode, we should keep the section
-boundary.
-
-Reviewed-by: Namjae Jeon <namjae.jeon@samsung.com>
-Signed-off-by: Jaegeuk Kim <jaegeuk.kim@samsung.com>"|1|Jaegeuk Kim|jaegeuk.kim@samsung.com|2013-03-31 12:59:53+09:00|-32400|Jaegeuk Kim|jaegeuk.kim@samsung.com|2013-04-03 17:27:49+09:00|-32400

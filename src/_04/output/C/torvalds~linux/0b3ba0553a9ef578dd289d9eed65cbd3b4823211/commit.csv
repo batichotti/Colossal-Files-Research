@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0b3ba0553a9ef578dd289d9eed65cbd3b4823211|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tg3: Use tp->rxq_cnt when checking RSS tables.
-
-irq_cnt is no longer reliable since rxq_cnt can be independently configured.
-
-Update version to 3.127.
-
-Signed-off-by: Michael Chan <mchan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Michael Chan|mchan@broadcom.com|2012-11-14 14:44:29+00:00|0|David S. Miller|davem@davemloft.net|2012-11-14 22:04:29-05:00|18000

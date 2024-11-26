@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6a974b50a1b0909803faac3c3228f7c1339d9971|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Limit security mode 4 level 0 to connection oriented channels
-
-The exception for certain PSM channels when it comes to security
-mode 4 level 0 should only be checked when actually a connection
-oriented channel is established.
-
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>"|2|Marcel Holtmann|marcel@holtmann.org|2013-10-12 07:19:31-07:00|25200|Johan Hedberg|johan.hedberg@intel.com|2013-10-12 17:29:39+03:00|-10800

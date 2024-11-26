@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|42ce56e50d948fc7c1c8c3a749ee5a21a7e134f6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ceph: remove bad calls to ceph_con_shutdown
-
-We want to ceph_con_close when we're done with the connection, before
-the ref count reaches 0.  Once it does, do not call ceph_con_shutdown,
-as that takes the con mutex and may sleep, and besides that is
-unnecessary.
-
-Signed-off-by: Sage Weil <sage@newdream.net>"|3|Sage Weil|sage@newdream.net|2009-11-18 11:22:36-08:00|28800|Sage Weil|sage@newdream.net|2009-11-18 11:29:42-08:00|28800

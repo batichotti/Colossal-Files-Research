@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7017fc3d1a12e30ea7df4992152978a188433457|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Define and use cr8 access functions
-
-This patch is to wrap APIC base register and CR8 operation which can
-provide a unique API for user level irqchip and kernel irqchip.
-This is a preparation of merging lapic/ioapic patch.
-
-Signed-off-by: Yaozu (Eddie) Dong <eddie.dong@intel.com>
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|4|Eddie Dong|eddie.dong@intel.com|2007-07-18 11:34:57+03:00|-10800|Avi Kivity|avi@qumranet.com|2007-10-13 10:18:25+02:00|-7200

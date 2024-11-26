@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2c5e76158fcea6e3b9536a74efa7b5e2e846d374|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd: clean up grace period on early exit
-
-If nfsd was shut down before the grace period ended, we could end up
-with a freed object still on grace_list.  Thanks to Jeff Moyer for
-reporting the resulting list corruption warnings.
-
-Signed-off-by: J. Bruce Fields <bfields@citi.umich.edu>
-Tested-by: Jeff Moyer <jmoyer@redhat.com>"|2|J. Bruce Fields|bfields@citi.umich.edu|2008-11-20 14:36:17-06:00|21600|J. Bruce Fields|bfields@citi.umich.edu|2008-11-24 10:12:48-06:00|21600

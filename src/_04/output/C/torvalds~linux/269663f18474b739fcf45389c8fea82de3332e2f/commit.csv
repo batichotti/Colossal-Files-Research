@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|269663f18474b739fcf45389c8fea82de3332e2f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ath11k: remove an unneeded NULL check
-
-The list iterator is always non-NULL so it doesn't need to be checked.
-I also removed the unnecessary initializer because the list iterator is
-always initialized.
-
-Signed-off-by: Dan Carpenter <dan.carpenter@oracle.com>
-Signed-off-by: Kalle Valo <kvalo@codeaurora.org>"|1|Dan Carpenter|dan.carpenter@oracle.com|2019-12-13 13:52:19+03:00|-10800|Kalle Valo|kvalo@codeaurora.org|2019-12-18 19:56:26+02:00|-7200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bba907433b85ba2adae1bb3b6fd29b4e5f35c468|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4 extents: remove unneeded casts
-
-There are many casts in extents.c which are not needed,
-as the variables are already the type of the cast, or
-are being promoted for no particular reason in printk's.
-
-Signed-off-by: Eric Sandeen <sandeen@redhat.com>
-Signed-off-by: Mingming Cao <cmm@us.ibm.com>"|1|Eric Sandeen|sandeen@redhat.com|2008-01-28 23:58:27-05:00|18000|Theodore Ts'o|tytso@mit.edu|2008-01-28 23:58:27-05:00|18000

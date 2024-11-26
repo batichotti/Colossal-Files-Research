@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|43a26bd026dab09a8b28c40e94ba534a52375b20|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ASoC: rt5677: Mark expected switch fall-through
-
-In preparation to enabling -Wimplicit-fallthrough, mark switch cases
-where we are expecting to fall through.
-
-Addresses-Coverity-ID: 1271174 (""Missing break in switch"")
-Signed-off-by: Gustavo A. R. Silva <gustavo@embeddedor.com>
-Signed-off-by: Mark Brown <broonie@kernel.org>"|1|Gustavo A. R. Silva|gustavo@embeddedor.com|2018-08-01 14:50:20-05:00|18000|Mark Brown|broonie@kernel.org|2018-08-02 10:46:09+01:00|-3600

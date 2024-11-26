@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e519418f8992b0165728a3c2272000ff57c8c9c3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mlxsw: Move devlink_port_attrs_set() call before register
-
-Since attrs are static during the existence of devlink port, set the
-before registration of the port.
-
-Signed-off-by: Jiri Pirko <jiri@mellanox.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|6|Jiri Pirko|jiri@mellanox.com|2019-03-24 11:14:31+01:00|-3600|David S. Miller|davem@davemloft.net|2019-03-24 14:55:31-04:00|14400

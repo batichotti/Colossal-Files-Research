@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2930e04d00e113ae24bb2b7c2b58de7b648a62c7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tracing: Fix race with update_max_tr_single and changing tracers
-
-The commit 34600f0e9 ""tracing: Fix race with max_tr and changing tracers""
-fixed the updating of the main buffers with the race of changing
-tracers, but left out the fix to the updating of just a per cpu buffer.
-
-Signed-off-by: Steven Rostedt <rostedt@goodmis.org>"|1|Steven Rostedt (Red Hat)|rostedt@goodmis.org|2013-03-26 17:33:00-04:00|14400|Steven Rostedt|rostedt@rostedt.homelinux.com|2013-04-08 12:24:22-04:00|14400

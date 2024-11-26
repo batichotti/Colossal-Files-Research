@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a22adce5f97c172398082bf9a713ccfba6c2364f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: dsa: update DSA drivers to use ds_to_priv
-
-Use the helper function to retrieve the driver private context instead of
-using (void *)(ds + 1).
-
-Signed-off-by: Florian Fainelli <f.fainelli@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|Florian Fainelli|f.fainelli@gmail.com|2014-04-28 11:14:28-07:00|25200|David S. Miller|davem@davemloft.net|2014-04-30 13:31:25-04:00|14400

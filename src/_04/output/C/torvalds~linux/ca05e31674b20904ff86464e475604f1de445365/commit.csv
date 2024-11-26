@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ca05e31674b20904ff86464e475604f1de445365|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ibmvnic: Continue skb processing after skb completion error
-
-There is not a need to stop processing skbs if we encounter a
-skb that has a receive completion error.
-
-Signed-off-by: Nathan Fontenot <nfont@linux.vnet.ibm.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Nathan Fontenot|nfont@linux.vnet.ibm.com|2017-05-03 14:05:14-04:00|14400|David S. Miller|davem@davemloft.net|2017-05-03 11:33:05-04:00|14400

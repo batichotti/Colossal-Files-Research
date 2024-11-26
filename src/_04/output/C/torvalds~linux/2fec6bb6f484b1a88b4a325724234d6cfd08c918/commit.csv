@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2fec6bb6f484b1a88b4a325724234d6cfd08c918|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: fix wrong format in request_module()
-
-The intended format in request_module is %.*s instead of %*.s.
-
-Reported-by: Florian Westphal <fw@strlen.de>
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|1|Pablo Neira Ayuso|pablo@netfilter.org|2014-03-31 12:26:39+02:00|-7200|Pablo Neira Ayuso|pablo@netfilter.org|2014-04-03 23:52:50+02:00|-7200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f6528b03f167785301908bf124db7be591e983ca|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Remove set_cr0_no_modeswitch() arch op
-
-set_cr0_no_modeswitch() was a hack to avoid corrupting segment registers.
-As we now cache the protected mode values on entry to real mode, this
-isn't an issue anymore, and it interferes with reboot (which usually _is_
-a modeswitch).
-
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|4|Avi Kivity|avi@qumranet.com|2007-03-20 18:44:51+02:00|-7200|Avi Kivity|avi@qumranet.com|2007-05-03 10:52:25+03:00|-10800

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|59fcf844095a89fe5e42b4e9bfc4b49dd6909e6b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] advansys: delete AscGetChipBusType
-
-By moving a test from AscGetChipBusType into its only caller, we can delete
-the whole function
-
-Signed-off-by: Matthew Wilcox <matthew@wil.cx>
-Signed-off-by: James Bottomley <James.Bottomley@SteelEye.com>"|1|Matthew Wilcox|matthew@wil.cx|2007-07-26 11:54:15-04:00|14400|James Bottomley|jejb@mulgrave.localdomain|2007-10-12 14:39:30-04:00|14400

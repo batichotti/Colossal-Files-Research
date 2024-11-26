@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0a5b7b0bd97a212f5d8d28c5011b04a45dfb006e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/radeon: add spinlocks for indirect register accesss
-
-This adds spinlocks to protect access to other
-indirect register apertures.  These indirect spaces are
-used pretty infrequently and we haven't had an reported
-problems, but better safe than sorry.
-
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|11|Alex Deucher|alexander.deucher@amd.com|2013-09-03 19:00:09-04:00|14400|Alex Deucher|alexander.deucher@amd.com|2013-09-11 11:44:29-04:00|14400

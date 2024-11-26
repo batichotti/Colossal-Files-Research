@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|eee4adc709afe40d8c02fa154c63dbeb55d911e3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: move ext4_mb_{get,put}_buddy_cache_lock and make them static
-
-These functions are only used within fs/ext4/mballoc.c, so move them
-so they are used after they are defined, and then make them be static.
-
-Signed-off-by: Eric Sandeen <sandeen@redhat.com>
-Signed-off-by: ""Theodore Ts'o"" <tytso@mit.edu>"|2|Eric Sandeen|sandeen@redhat.com|2010-10-27 21:30:15-04:00|14400|Theodore Ts'o|tytso@mit.edu|2010-10-27 21:30:15-04:00|14400

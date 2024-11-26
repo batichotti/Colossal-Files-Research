@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e529614ad0c2bf1f3a6fcf1402aa77430ecfaa2c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cifs: increase maximum buffer size in CIFSSMBQAllEAs
-
-It's 4000 now, but there's no reason to limit it to that. We should be
-able to handle a response up to CIFSMaxBufSize.
-
-Signed-off-by: Jeff Layton <jlayton@redhat.com>
-Signed-off-by: Steve French <sfrench@us.ibm.com>"|1|Jeff Layton|jlayton@redhat.com|2010-02-10 16:18:26-05:00|18000|Steve French|sfrench@us.ibm.com|2010-02-23 20:46:49+00:00|0

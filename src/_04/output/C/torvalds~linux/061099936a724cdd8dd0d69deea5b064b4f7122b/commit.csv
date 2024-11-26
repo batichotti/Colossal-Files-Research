@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|061099936a724cdd8dd0d69deea5b064b4f7122b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"HID: wacom: Rename wacom ID report ID macros
-
-""INTUOSREAD"" and ""INTUOSWRITE"" are poorly named. These are report IDs
-for pen ID (proximity) packets. It should be noted that the latter is
-only used on Intuos/Intuos2 for a second stylus when DualTrack is in use.
-
-Signed-off-by: Jason Gerecke <jason.gerecke@wacom.com>
-Signed-off-by: Jiri Kosina <jkosina@suse.cz>"|2|Jason Gerecke|killertofu@gmail.com|2015-11-30 17:13:52-08:00|28800|Jiri Kosina|jkosina@suse.cz|2015-12-02 21:44:52+01:00|-3600

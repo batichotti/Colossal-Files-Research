@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7cb852dfc858e9ab092cbbfcb3e57bae4aa7f56a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4.1: fix SECINFO* use of put_rpccred
-
-Recent SP4_MACH_CRED changes allows rpc_message.rpc_cred to change,
-so keep a separate pointer to the machine cred for put_rpccred.
-
-Signed-off-by: Weston Andros Adamson <dros@netapp.com>
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|1|Weston Andros Adamson|dros@netapp.com|2013-09-10 18:44:31-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2013-09-11 09:07:27-04:00|14400

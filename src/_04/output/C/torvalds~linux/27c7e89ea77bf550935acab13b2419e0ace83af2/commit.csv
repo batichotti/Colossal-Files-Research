@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|27c7e89ea77bf550935acab13b2419e0ace83af2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rtl8xxxu: rtl8xxxu_prepare_calibrate() is never used on gen1
-
-Rename it to rtl8xxxu_gen2_prepare_calibrate() and remove the calls to
-it from rtl8xxxu_gen1_phy_iq_calibrate()
-
-Signed-off-by: Jes Sorensen <Jes.Sorensen@redhat.com>
-Signed-off-by: Kalle Valo <kvalo@codeaurora.org>"|3|Jes Sorensen|Jes.Sorensen@redhat.com|2016-04-28 15:19:14-04:00|14400|Kalle Valo|kvalo@codeaurora.org|2016-05-03 13:07:23+03:00|-10800

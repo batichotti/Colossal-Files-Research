@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|69a19ee60d5d5adc0addbdffd254f83b60660a07|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: RPS: Make hardware-accelerated RFS conditional on NETIF_F_NTUPLE
-
-For testing and debugging purposes it is useful to be able to disable
-hardware acceleration of RFS without disabling RFS altogether.  Since
-this is a similar feature to 'n-tuple' flow steering through the
-ethtool API, test the same feature flag that controls that.
-
-Signed-off-by: Ben Hutchings <bhutchings@solarflare.com>"|1|Ben Hutchings|bhutchings@solarflare.com|2011-02-15 20:32:04+00:00|0|Ben Hutchings|bhutchings@solarflare.com|2011-02-15 20:36:11+00:00|0

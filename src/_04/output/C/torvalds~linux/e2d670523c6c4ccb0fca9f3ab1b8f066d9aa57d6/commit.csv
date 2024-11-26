@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e2d670523c6c4ccb0fca9f3ab1b8f066d9aa57d6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: Simplify ext4_commit_super()'s function signature
-
-The ext4_commit_super() function took both a struct super_block * and
-a struct ext4_super_block *, but the struct ext4_super_block can be
-derived from the struct super_block.
-
-Signed-off-by: ""Theodore Ts'o"" <tytso@mit.edu>"|1|Theodore Ts'o|tytso@mit.edu|2009-05-01 00:33:44-04:00|14400|Theodore Ts'o|tytso@mit.edu|2009-05-01 00:33:44-04:00|14400

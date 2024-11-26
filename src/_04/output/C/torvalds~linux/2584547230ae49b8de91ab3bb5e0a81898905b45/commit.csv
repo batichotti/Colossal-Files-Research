@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2584547230ae49b8de91ab3bb5e0a81898905b45|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ceph: fix sync vs canceled write
-
-If we cancel a write, trigger the safe completions to prevent a sync from
-blocking indefinitely in ceph_osdc_sync().
-
-Signed-off-by: Sage Weil <sage@newdream.net>"|1|Sage Weil|sage@newdream.net|2011-06-03 09:37:09-07:00|25200|Sage Weil|sage@newdream.net|2011-06-07 21:34:13-07:00|25200

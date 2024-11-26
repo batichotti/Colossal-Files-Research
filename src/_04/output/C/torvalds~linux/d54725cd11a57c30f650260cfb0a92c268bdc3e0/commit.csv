@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d54725cd11a57c30f650260cfb0a92c268bdc3e0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: support for multiple devices per netdev hook
-
-This patch allows you to register one netdev basechain to multiple
-devices. This adds a new NFTA_HOOK_DEVS netlink attribute to specify
-the list of netdevices. Basechains store a list of hooks.
-
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|5|Pablo Neira Ayuso|pablo@netfilter.org|2019-10-16 14:30:05+02:00|-7200|Pablo Neira Ayuso|pablo@netfilter.org|2019-10-23 13:01:34+02:00|-7200

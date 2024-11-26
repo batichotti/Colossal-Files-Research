@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9f807822abf5e210d8656fb5304f662bee64ca80|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Skip dsc readout if the transcoder is disabled
-
-Trying to do readout when we don't even have a cpu transcoder
-is not a great idea. Don't do it.
-
-Signed-off-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Link: https://patchwork.freedesktop.org/patch/msgid/20220124192638.26262-1-ville.syrjala@linux.intel.com
-Reviewed-by: Jani Nikula <jani.nikula@intel.com>"|1|Ville Syrjälä|ville.syrjala@linux.intel.com|2022-01-24 21:26:34+02:00|-7200|Ville Syrjälä|ville.syrjala@linux.intel.com|2022-01-26 13:00:58+02:00|-7200

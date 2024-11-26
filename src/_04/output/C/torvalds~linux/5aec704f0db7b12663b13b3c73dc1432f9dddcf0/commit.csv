@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5aec704f0db7b12663b13b3c73dc1432f9dddcf0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: hisi_sas: remove phy_down_v3_hw() res variable
-
-Variable res only holds value 0, so remove it.
-
-This cleans up a coccicheck warning.
-
-Signed-off-by: John Garry <john.garry@huawei.com>
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|1|John Garry|john.garry@huawei.com|2017-08-11 00:09:42+08:00|-28800|Martin K. Petersen|martin.petersen@oracle.com|2017-08-24 22:28:49-04:00|14400

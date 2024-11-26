@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|81bd31793fd3be4fec2818e2267997f56ac18fb2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"slub: Put objects_show() into CONFIG_SLUB_DEBUG enabled block
-
-The SO_ALL|SO_OBJECTS pair is only used when enabling CONFIG_SLUB_DEBUG
-option, so the objects_show() definition should be surrounded by
-CONFIG_SLUB_DEBUG too.
-
-Signed-off-by: Xiongwei Song <xiongwei.song@windriver.com>
-Signed-off-by: Vlastimil Babka <vbabka@suse.cz>"|1|Xiongwei Song|xiongwei.song@windriver.com|2023-04-13 22:34:49+08:00|-28800|Vlastimil Babka|vbabka@suse.cz|2023-05-22 15:20:21+02:00|-7200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4ef22eb933c21f307413f9fc402f83e7384cf726|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rtl8xxxu: Handle XTAL_K value in efuse specific location
-
-Retrieve the XTAL_K value in the parse_efuse() functions as it's
-location various on a per device basis. For parts that do not provide
-an XTAL_K value, skip setting it.
-
-Signed-off-by: Jes Sorensen <Jes.Sorensen@redhat.com>
-Signed-off-by: Kalle Valo <kvalo@codeaurora.org>"|2|Jes Sorensen|Jes.Sorensen@redhat.com|2016-02-29 17:04:55-05:00|18000|Kalle Valo|kvalo@codeaurora.org|2016-03-10 15:29:06+02:00|-7200

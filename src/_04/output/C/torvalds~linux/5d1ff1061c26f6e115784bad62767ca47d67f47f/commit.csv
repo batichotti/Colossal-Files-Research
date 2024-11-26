@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5d1ff1061c26f6e115784bad62767ca47d67f47f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"i40e: trigger SW INT with no ITR wait
-
-Since we want the SW INT to go off as soon as possible, write the
-extra bits that will turn off the ITR wait for the interrupt.
-
-Change-ID: I6d5382ba60840fa32abb7dea17c839eb4b5f68f7
-Signed-off-by: Shannon Nelson <shannon.nelson@intel.com>
-Signed-off-by: Jeff Kirsher <jeffrey.t.kirsher@intel.com>"|2|Shannon Nelson|shannon.nelson@intel.com|2014-11-11 20:04:35+00:00|0|Jeff Kirsher|jeffrey.t.kirsher@intel.com|2014-11-20 14:56:44-08:00|28800

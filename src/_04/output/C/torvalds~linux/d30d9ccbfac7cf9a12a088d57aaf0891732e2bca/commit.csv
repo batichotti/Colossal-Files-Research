@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d30d9ccbfac7cf9a12a088d57aaf0891732e2bca|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net/mlx5e: remove napi_hash_del() calls
-
-Calling napi_hash_del() after netif_napi_del() is pointless.
-
-Signed-off-by: Eric Dumazet <edumazet@google.com>
-Cc: Saeed Mahameed <saeedm@mellanox.com>
-Acked-by: Saeed Mahameed <saeedm@mellanox.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Eric Dumazet|edumazet@google.com|2016-11-16 06:21:34-08:00|28800|David S. Miller|davem@davemloft.net|2016-11-17 12:06:20-05:00|18000

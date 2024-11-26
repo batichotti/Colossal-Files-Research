@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|03efbec03198a0f505c2a6c93268c3c5df321c90|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bnxt_en: Disallow forced speed for 10GBaseT devices.
-
-10GBaseT devices must autonegotiate to determine master/slave clocking.
-Disallow forced speed in ethtool .set_settings() for these devices.
-
-Signed-off-by: Michael Chan <michael.chan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|Michael Chan|michael.chan@broadcom.com|2016-04-11 04:11:11-04:00|14400|David S. Miller|davem@davemloft.net|2016-04-11 14:58:44-04:00|14400

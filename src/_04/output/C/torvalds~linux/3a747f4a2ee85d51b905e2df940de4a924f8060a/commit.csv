@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3a747f4a2ee85d51b905e2df940de4a924f8060a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"dlm: move rsb root_list to ls_recover() stack
-
-Move the rsb root_list from the lockspace to a stack variable since
-it is now only used by the ls_recover() function.
-
-Signed-off-by: Alexander Aring <aahringo@redhat.com>
-Signed-off-by: David Teigland <teigland@redhat.com>"|9|Alexander Aring|aahringo@redhat.com|2024-04-02 15:18:01-04:00|14400|David Teigland|teigland@redhat.com|2024-04-09 11:44:49-05:00|18000

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|14a742724fc0f089893c6f70a62d30ab418ed7ff|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"regulator: core: Export regulator_lock and regulator_unlock
-
-This fixes compiling regulator drivers that use these function when
-these drivers are built as kernel modules.
-
-Fixes: f8702f9e4aa7 (""regulator: core: Use ww_mutex for regulators locking"")
-Signed-off-by: Dmitry Osipenko <digetx@gmail.com>
-Signed-off-by: Mark Brown <broonie@kernel.org>"|1|Dmitry Osipenko|digetx@gmail.com|2018-11-20 04:20:19+03:00|-10800|Mark Brown|broonie@kernel.org|2018-11-20 15:03:22+00:00|0

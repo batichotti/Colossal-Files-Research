@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2dc1deb659d1fc29aaafc2c0b987547d6b383602|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"be2net: request native mode each time the card is reset
-
-Currently be3-native mode is requested only in probe(). It must be requested, each time the card is reset either after an EEH error or after
-sleep/hibernation.
-Also, the be_cmd_check_native_mode() is better named be_cmd_req_native_mode()
-
-Signed-off-by: Sathya Perla <sathya.perla@emulex.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|Sathya Perla|sathya.perla@emulex.com|2011-07-19 19:52:33+00:00|0|David S. Miller|davem@davemloft.net|2011-07-21 21:32:54-07:00|25200

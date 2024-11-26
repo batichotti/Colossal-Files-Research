@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1c41b88249f623a3c92e53aa7cc221b2245bd044|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"crypto: testmgr - Include linux/fips.h for fips_enabled
-
-All users of fips_enabled should include linux/fips.h directly
-instead of getting it through internal.h.
-
-Signed-off-by: Herbert Xu <herbert@gondor.apana.org.au>"|1|Herbert Xu|herbert@gondor.apana.org.au|2015-04-22 13:25:58+08:00|-28800|Herbert Xu|herbert@gondor.apana.org.au|2015-04-23 14:18:10+08:00|-28800

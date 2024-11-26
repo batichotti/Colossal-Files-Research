@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8ae0299a4b72f2f9ad2b755da91c6a2beabaee62|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rbd: don't mess with a page vector in rbd_notify_op_lock()
-
-rbd_notify_op_lock() isn't interested in a notify reply.  Instead of
-accepting that page vector just to free it, have watch-notify code take
-care of it.
-
-Signed-off-by: Ilya Dryomov <idryomov@gmail.com>
-Reviewed-by: Jason Dillaman <dillaman@redhat.com>"|1|Ilya Dryomov|idryomov@gmail.com|2020-03-17 15:18:48+01:00|-3600|Ilya Dryomov|idryomov@gmail.com|2020-04-13 08:55:49+02:00|-7200

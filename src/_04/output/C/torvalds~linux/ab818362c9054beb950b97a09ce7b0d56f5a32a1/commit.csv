@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ab818362c9054beb950b97a09ce7b0d56f5a32a1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: use rhashtable_lookup() instead of rhashtable_lookup_fast()
-
-rhashtable_lookup_fast() internally calls rcu_read_lock() then,
-calls rhashtable_lookup(). So if rcu_read_lock() is already held,
-rhashtable_lookup() is enough.
-
-Signed-off-by: Taehee Yoo <ap420073@gmail.com>
-Signed-off-by: Jakub Kicinski <jakub.kicinski@netronome.com>"|4|Taehee Yoo|ap420073@gmail.com|2019-11-22 08:15:19+00:00|0|Jakub Kicinski|jakub.kicinski@netronome.com|2019-11-23 12:15:01-08:00|28800

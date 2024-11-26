@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fcbb485d9f720b176d7bac0802181901eedddbed|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cgroup: use cached local variable parent in for loop
-
-Use local variable parent to initialize iter tcgrp in for loop so the size
-of cgroup.o can be reduced by 64 bytes. No functional change intended.
-
-Signed-off-by: Miaohe Lin <linmiaohe@huawei.com>
-Signed-off-by: Tejun Heo <tj@kernel.org>"|1|Miaohe Lin|linmiaohe@huawei.com|2023-07-15 11:08:29+08:00|-28800|Tejun Heo|tj@kernel.org|2023-07-17 08:34:41-10:00|36000

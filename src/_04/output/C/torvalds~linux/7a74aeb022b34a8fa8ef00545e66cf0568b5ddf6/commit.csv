@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7a74aeb022b34a8fa8ef00545e66cf0568b5ddf6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Fix refcount balance for hci connection
-
-hci_io_capa_reply_evt() holds reference for hciconnection. It's useless since
-hci_io_capa_request_evt()/hci_simple_pair_complete_evt() already protects the
-connection. In addition it leaves connection open after failed SSP pairing.
-
-Signed-off-by: Ville Tervo <ville.tervo@nokia.com>
-Signed-off-by: Gustavo F. Padovan <padovan@profusion.mobi>"|1|Ville Tervo|ville.tervo@nokia.com|2011-04-07 14:59:50+03:00|-10800|Gustavo F. Padovan|padovan@profusion.mobi|2011-04-18 20:11:45-03:00|10800

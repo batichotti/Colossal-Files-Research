@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d4e575ba9fcc04d10c0a2e555a5b32fa3a8a19d3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: sctp: drop unneeded likely() call around IS_ERR()
-
-IS_ERR() already calls unlikely(), so this extra unlikely() call
-around IS_ERR() is not needed.
-
-Signed-off-by: Enrico Weigelt <info@metux.net>
-Acked-by: Marcelo Ricardo Leitner <marcelo.leitner@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Enrico Weigelt|info@metux.net|2019-07-29 20:55:21+02:00|-7200|David S. Miller|davem@davemloft.net|2019-07-29 13:57:58-07:00|25200

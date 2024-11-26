@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fcbefc3b2bfb4dd1a230b3082b68bc7cf7c081e7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: ufs: remove unnecessary goto label
-
-When buff_ascii kmalloc failed, there is no need to call kfree, it
-should return -ENOMEM directly, this patch fixes it.
-
-Signed-off-by: Tiezhu Yang <kernelpatch@126.com>
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|1|Tiezhu Yang|kernelpatch@126.com|2016-06-25 12:35:22+08:00|-28800|Martin K. Petersen|martin.petersen@oracle.com|2016-07-15 15:44:45-04:00|14400

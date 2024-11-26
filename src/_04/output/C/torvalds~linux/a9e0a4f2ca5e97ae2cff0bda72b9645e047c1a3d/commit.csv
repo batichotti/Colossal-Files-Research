@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a9e0a4f2ca5e97ae2cff0bda72b9645e047c1a3d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cnic: Re-init dev->stats_addr after chip reset
-
-because bnx2x frees the old and allocates new memory during chip reset.
-
-Signed-off-by: Michael Chan <mchan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Michael Chan|mchan@broadcom.com|2012-01-04 12:12:27+00:00|0|David S. Miller|davem@davemloft.net|2012-01-05 14:01:21-05:00|18000

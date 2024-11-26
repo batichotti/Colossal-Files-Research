@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|23289a37e2b127dfc4de1313fba15bb4c9f0cd5b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: add a list_head parameter to dellink() method
-
-Adding a list_head parameter to rtnl_link_ops->dellink() methods
-allow us to queue devices on a list, in order to dismantle
-them all at once.
-
-Signed-off-by: Eric Dumazet <eric.dumazet@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|7|Eric Dumazet|eric.dumazet@gmail.com|2009-10-27 07:06:36+00:00|0|David S. Miller|davem@davemloft.net|2009-10-28 02:22:07-07:00|25200

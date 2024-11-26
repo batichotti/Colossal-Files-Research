@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|58d1362b50dc87ebf18cd137e7a879fd99b7e721|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rbd: avoid format-security warning inside alloc_workqueue()
-
-drivers/block/rbd.c: In function ‘rbd_dev_device_setup’:
-drivers/block/rbd.c:5090:19: warning: format not a string literal and no format arguments [-Wformat-security]
-
-Reported-by: kbuild test robot <fengguang.wu@intel.com>
-Signed-off-by: Ilya Dryomov <ilya.dryomov@inktank.com>"|1|Ilya Dryomov|ilya.dryomov@inktank.com|2014-08-12 11:22:07+04:00|-14400|Ilya Dryomov|ilya.dryomov@inktank.com|2014-09-10 11:59:06+04:00|-14400

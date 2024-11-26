@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2dfa1003ccd19b435de0be00f6afb7ccdffd7596|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: check for already existent channel before create new one
-
-Move this check to before the channel time creation simplifies the code
-and avoid memory allocation if the channel already exist.
-
-Signed-off-by: Gustavo Padovan <gustavo.padovan@collabora.co.uk>
-Acked-by: Andrei Emeltchenko <andrei.emeltchenko@intel.com>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|1|Gustavo Padovan|gustavo.padovan@collabora.co.uk|2012-05-27 22:27:58-03:00|10800|Johan Hedberg|johan.hedberg@intel.com|2012-06-05 06:34:11+03:00|-10800

@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|38d6453ca39ecce442628a93e1bb46d70d547512|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libceph: force resend of osd requests if we skip an osdmap
-
-If we skip over one or more map epochs, we need to resend all osd requests
-because it is possible they remapped to other servers and then back.
-
-Signed-off-by: Sage Weil <sage@newdream.net>"|1|Sage Weil|sage@newdream.net|2011-10-14 13:33:55-07:00|25200|Sage Weil|sage@newdream.net|2011-10-25 16:10:17-07:00|25200

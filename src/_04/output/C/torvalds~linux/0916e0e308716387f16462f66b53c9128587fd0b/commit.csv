@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0916e0e308716387f16462f66b53c9128587fd0b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drbd: Always use the same protocol version for the same peer
-
-There is no need to send protocol 80 headers to peers that understand
-protocol 95 headers.  Make sure that we don't send protocol 95 headers
-until we have agreed upon a protocol version with our peer, though.
-
-Signed-off-by: Philipp Reisner <philipp.reisner@linbit.com>
-Signed-off-by: Lars Ellenberg <lars.ellenberg@linbit.com>"|2|Andreas Gruenbacher|agruen@linbit.com|2011-03-21 14:10:15+01:00|-3600|Philipp Reisner|philipp.reisner@linbit.com|2012-11-08 16:44:51+01:00|-3600

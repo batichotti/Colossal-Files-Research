@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|50034ed49645463a16327cad05694e201e6b4126|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cgroup: use strlcpy() instead of strscpy() to avoid spurious warning
-
-As long as cft->name is guaranteed to be NUL-terminated, using strlcpy() would
-work just as well and avoid that warning, so the change below could be folded
-into that commit.
-
-Signed-off-by: Arnd Bergmann <arnd@arndb.de>
-Signed-off-by: Tejun Heo <tj@kernel.org>"|1|Arnd Bergmann|arnd@arndb.de|2017-12-15 05:09:47-08:00|28800|Tejun Heo|tj@kernel.org|2017-12-15 05:09:47-08:00|28800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|764f6729f24706dcdc415233043dc21464ec7a3d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Split intel_ddi_encoder_reset() from intel_dp_encoder_reset()
-
-Most of intel_dp_encoder_reset() is for pre-ddi platforms.
-Make a clean split.
-
-Reviewed-by: Daniel Vetter <daniel.vetter@ffwll.ch>
-Signed-off-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Link: https://patchwork.freedesktop.org/patch/msgid/20210318161015.22070-5-ville.syrjala@linux.intel.com"|3|Ville Syrjälä|ville.syrjala@linux.intel.com|2021-03-18 18:10:12+02:00|-7200|Ville Syrjälä|ville.syrjala@linux.intel.com|2021-03-19 18:31:07+02:00|-7200

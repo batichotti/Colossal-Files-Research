@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cc7936f9ad085351bc2ccb403c403392e1337050|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfs: fix open(O_RDONLY|O_TRUNC) in NFS4.0
-
-nfs4_proc_setattr removes ATTR_OPEN from sattr->ia_valid, but later
-nfs4_do_setattr checks for it
-
-Signed-off-by: Nadav Shemer <nadav@tonian.com>
-Reviewed-by: Jeff Layton <jlayton@redhat.com>
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|1|Nadav Shemer|nadav@tonian.com|2013-07-21 17:21:43+03:00|-10800|Trond Myklebust|Trond.Myklebust@netapp.com|2013-07-23 18:18:53-04:00|14400

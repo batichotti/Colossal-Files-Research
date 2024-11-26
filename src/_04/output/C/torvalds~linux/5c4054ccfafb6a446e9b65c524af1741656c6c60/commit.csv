@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5c4054ccfafb6a446e9b65c524af1741656c6c60|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"selinux: remove secondary ops call to unix_stream_connect
-
-Remove secondary ops call to unix_stream_connect, which is
-a noop in capabilities.
-
-Acked-by: Serge Hallyn <serue@us.ibm.com>
-Acked-by: Eric Paris <eparis@redhat.com>
-Signed-off-by: James Morris <jmorris@namei.org>"|1|James Morris|jmorris@namei.org|2009-01-29 12:34:53+11:00|-39600|James Morris|jmorris@namei.org|2009-01-30 08:55:15+11:00|-39600

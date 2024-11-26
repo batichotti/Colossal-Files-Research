@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|322b2b9032f4beba6f1c4158852a5a5b9ab841d7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Revert ""NFS: add nfs_sb_deactive_async to avoid deadlock""
-
-This reverts commit 324d003b0cd82151adbaecefef57b73f7959a469.
-
-The deadlock turned out to be caused by a workqueue limitation that has
-now been worked around in the RPC code (see comment in rpc_free_task).
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|5|Trond Myklebust|Trond.Myklebust@netapp.com|2013-01-11 16:39:51-05:00|18000|Trond Myklebust|Trond.Myklebust@netapp.com|2013-02-01 10:13:48-05:00|18000

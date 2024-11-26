@@ -1,6 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|502fd722fe1ed0133d1108bff1d5911f46de6641|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs_ioctl_send(): don't bother with access_ok()
-
-we do copy_from_user() on that range anyway
-
-Signed-off-by: Al Viro <viro@zeniv.linux.org.uk>"|1|Al Viro|viro@zeniv.linux.org.uk|2020-02-19 09:35:32-05:00|18000|Al Viro|viro@zeniv.linux.org.uk|2020-05-09 15:59:10-04:00|14400

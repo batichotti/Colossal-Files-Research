@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b5e87c0581319481399b6d8e8d6972b5523c18e6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tracing: Add build bug if we have more trace_flags than bits
-
-Add a enum that denotes the last bit of the trace_flags and have a
-BUILD_BUG_ON(last_bit > 32).
-
-If we add more bits than we have in trace_flags, the kernel wont build.
-
-Signed-off-by: Steven Rostedt <rostedt@goodmis.org>"|2|Steven Rostedt (Red Hat)|rostedt@goodmis.org|2015-09-29 18:13:33-04:00|14400|Steven Rostedt|rostedt@goodmis.org|2015-09-30 04:35:18-04:00|14400

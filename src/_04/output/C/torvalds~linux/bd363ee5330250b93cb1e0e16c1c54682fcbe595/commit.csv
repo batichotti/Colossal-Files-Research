@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bd363ee5330250b93cb1e0e16c1c54682fcbe595|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wifi: mac80211: mlme: set sta.mlo correctly
-
-Due to some changes and rebasing between different patches
-this fell through the cracks; we need to set sta.mlo if the
-connection is using MLO.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2022-07-15 15:11:50+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2022-07-15 15:12:45+02:00|-7200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|15916de835a683bd8133a0d1ac0c982b795ab4ff|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: Fixes for 2.6.28-rc API changes
-
-* open/close_bdev_excl -> open/close_bdev_exclusive
-* blkdev_issue_discard takes a GFP mask now
-* Fix blkdev_issue_discard usage now that it is enabled
-
-Signed-off-by: Chris Mason <chris.mason@oracle.com>"|7|Chris Mason|chris.mason@oracle.com|2008-11-19 21:17:22-05:00|18000|Chris Mason|chris.mason@oracle.com|2008-11-19 21:17:22-05:00|18000

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4d01416ab41540bb13ec4a39ac4e6c4aa5934bc9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd: only fill out return pointer on success in nfsd4_lookup_stateid
-
-In the case of a revoked delegation, we still fill out the pointer even
-when returning an error, which is bad form. Only overwrite the pointer
-on success.
-
-Signed-off-by: Jeff Layton <jlayton@kernel.org>
-Signed-off-by: Chuck Lever <chuck.lever@oracle.com>"|1|Jeff Layton|jlayton@kernel.org|2022-09-26 12:38:44-04:00|14400|Chuck Lever|chuck.lever@oracle.com|2022-09-26 14:23:44-04:00|14400

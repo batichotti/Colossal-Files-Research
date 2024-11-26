@@ -1,6 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a6cbcd4a4a85e2fdb0b3344b88df2e8b3d526b9e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"get rid of pointless iov_length() in ->direct_IO()
-
-all callers have iov_length(iter->iov, iter->nr_segs) == iov_iter_count(iter)
-
-Signed-off-by: Al Viro <viro@zeniv.linux.org.uk>"|18|Al Viro|viro@zeniv.linux.org.uk|2014-03-04 22:38:00-05:00|18000|Al Viro|viro@zeniv.linux.org.uk|2014-05-06 17:32:45-04:00|14400

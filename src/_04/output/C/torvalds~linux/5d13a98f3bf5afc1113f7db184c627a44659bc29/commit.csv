@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5d13a98f3bf5afc1113f7db184c627a44659bc29|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: readahead checksums during btrfs_finish_ordered_io
-
-This reads in blocks in the checksum btree before starting the
-transaction in btrfs_finish_ordered_io.  It makes it much more likely
-we'll be able to do operations inside the transaction without
-needing any btree reads, which limits transaction latencies overall.
-
-Signed-off-by: Chris Mason <chris.mason@oracle.com>"|1|Chris Mason|chris.mason@oracle.com|2009-03-13 11:41:46-04:00|14400|Chris Mason|chris.mason@oracle.com|2009-03-24 16:14:51-04:00|14400

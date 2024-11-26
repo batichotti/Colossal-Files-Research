@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fbd9b09a177a481eda256447c881f014f29034fe|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"blkdev: generalize flags for blkdev_issue_fn functions
-
-The patch just convert all blkdev_issue_xxx function to common
-set of flags. Wait/allocation semantics preserved.
-
-Signed-off-by: Dmitry Monakhov <dmonakhov@openvz.org>
-Signed-off-by: Jens Axboe <jens.axboe@oracle.com>"|15|Dmitry Monakhov|dmonakhov@openvz.org|2010-04-28 17:55:06+04:00|-14400|Jens Axboe|jens.axboe@oracle.com|2010-04-28 19:47:36+02:00|-7200

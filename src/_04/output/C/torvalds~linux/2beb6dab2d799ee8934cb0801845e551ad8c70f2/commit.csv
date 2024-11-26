@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2beb6dab2d799ee8934cb0801845e551ad8c70f2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cfg80211/mac80211: refactor cfg80211_chandef_dfs_required()
-
-Some interface types don't require DFS (such as STATION, P2P_CLIENT
-etc).  In order to centralize these decisions, make
-cfg80211_chandef_dfs_required() take the iftype into consideration.
-
-Signed-off-by: Luciano Coelho <luciano.coelho@intel.com>
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|6|Luciano Coelho|luciano.coelho@intel.com|2014-02-18 11:40:36+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2014-04-09 10:55:41+02:00|-7200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|188fd063208942a4681d8e8a4484ad0d4ae0fda1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"slub: new_slab_objects() can also get objects from partial list
-
-Moving the attempt to get a slab page from the partial lists simplifies
-__slab_alloc which is rather complicated.
-
-Signed-off-by: Christoph Lameter <cl@linux.com>
-Signed-off-by: Pekka Enberg <penberg@kernel.org>"|1|Christoph Lameter|cl@linux.com|2012-05-09 10:09:55-05:00|18000|Pekka Enberg|penberg@kernel.org|2012-06-01 09:25:40+03:00|-10800

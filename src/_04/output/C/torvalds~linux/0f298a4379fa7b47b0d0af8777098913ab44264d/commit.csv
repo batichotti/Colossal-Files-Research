@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0f298a4379fa7b47b0d0af8777098913ab44264d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"media: dvb-usb: dib0700_devices: Remove unused struct dibx090p_adc
-
-After commit 5e9c85d98337(""[media] dib8096: enhancement""), no one use struct
-dibx090p_adc, so remove it.
-
-Link: https://lore.kernel.org/linux-media/20220927133827.99097-1-yuancan@huawei.com
-Signed-off-by: Yuan Can <yuancan@huawei.com>
-Signed-off-by: Mauro Carvalho Chehab <mchehab@kernel.org>"|1|Yuan Can|yuancan@huawei.com|2022-09-27 14:38:27+01:00|-3600|Mauro Carvalho Chehab|mchehab@kernel.org|2022-11-25 10:15:59+00:00|0

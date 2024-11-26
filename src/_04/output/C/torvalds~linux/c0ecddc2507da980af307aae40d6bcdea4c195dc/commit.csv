@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c0ecddc2507da980af307aae40d6bcdea4c195dc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: mgmt: Make Set SSP command callable while powered off
-
-This patch makes it possible to enable SSP through mgmt even when
-powered off. The setting will then get automatically actiated when
-powering on.
-
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>
-Acked-by: Marcel Holtmann <marcel@holtmann.org>"|3|Johan Hedberg|johan.hedberg@intel.com|2012-02-22 12:38:31+02:00|-7200|Johan Hedberg|johan.hedberg@intel.com|2012-02-23 13:06:58+02:00|-7200

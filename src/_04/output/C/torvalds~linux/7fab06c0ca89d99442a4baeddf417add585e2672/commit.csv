@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7fab06c0ca89d99442a4baeddf417add585e2672|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8169: napi config
-
-Don't call napi_disable if not configured and make sure that any
-misuse of napi_xxx in future fails with a compile error.
-
-Signed-off-by: Stephen Hemminger <shemminger@linux-foundation.org>
-Signed-off-by: Francois Romieu <romieu@fr.zoreil.com>
-Cc: Edward Hsu <edward_hsu@realtek.com.tw>"|1|Stephen Hemminger|shemminger@linux-foundation.org|2007-10-28 17:10:08+01:00|-3600|Francois Romieu|romieu@fr.zoreil.com|2007-10-28 18:21:01+01:00|-3600

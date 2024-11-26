@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4363890079674db7b00cf1bb0e6fa430e846e86b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: Handle unregister properly when netdev namespace change fails.
-
-If rtnl_newlink() fails on it's call to dev_change_net_namespace(), we
-have to make use of the ->dellink() method, if present, just like we
-do when rtnl_configure_link() fails.
-
-Fixes: 317f4810e45e (""rtnl: allow to create device with IFLA_LINK_NETNSID set"")
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|David S. Miller|davem@davemloft.net|2015-03-10 21:58:32-04:00|14400|David S. Miller|davem@davemloft.net|2015-03-10 21:59:46-04:00|14400

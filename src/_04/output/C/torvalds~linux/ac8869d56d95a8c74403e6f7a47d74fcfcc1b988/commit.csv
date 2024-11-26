@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ac8869d56d95a8c74403e6f7a47d74fcfcc1b988|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[libata] Remove ->port_disable() hook
-
-It was always set to ata_port_disable().  Removed the hook, and replaced
-the very few ap->ops->port_disable() callsites with direct calls to
-ata_port_disable().
-
-Signed-off-by: Jeff Garzik <jeff@garzik.org>"|67|Jeff Garzik|jeff@garzik.org|2007-08-16 03:17:03-04:00|14400|Jeff Garzik|jeff@garzik.org|2007-10-12 14:55:35-04:00|14400

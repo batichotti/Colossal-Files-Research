@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|99a9c273b94a087f8feaec6c5ffbe3205a2dbe51|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ceph: handle race between cap reconnect and cap release
-
-When a cap get released while composing the cap reconnect message.
-We should skip queuing the release message if the cap hasn't been
-added to the cap reconnect message.
-
-Signed-off-by: Yan, Zheng <zheng.z.yan@intel.com>
-Reviewed-by: Sage Weil <sage@inktank.com>"|3|Yan, Zheng|zheng.z.yan@intel.com|2013-09-22 11:08:14+08:00|-28800|Sage Weil|sage@inktank.com|2013-11-23 11:01:02-08:00|28800

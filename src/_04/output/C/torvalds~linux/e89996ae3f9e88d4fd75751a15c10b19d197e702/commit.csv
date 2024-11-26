@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e89996ae3f9e88d4fd75751a15c10b19d197e702|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sched: fix update_load_add()/sub()
-
-Clear the cached inverse value when updating load. This is needed for
-calc_delta_mine() to work correctly when using the rq load.
-
-Signed-off-by: Ingo Molnar <mingo@elte.hu>
-Signed-off-by: Peter Zijlstra <a.p.zijlstra@chello.nl>"|1|Ingo Molnar|mingo@elte.hu|2008-03-14 23:48:28+01:00|-3600|Ingo Molnar|mingo@elte.hu|2008-03-15 03:02:49+01:00|-3600

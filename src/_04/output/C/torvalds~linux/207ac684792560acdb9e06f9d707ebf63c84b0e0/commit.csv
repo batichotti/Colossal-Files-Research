@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|207ac684792560acdb9e06f9d707ebf63c84b0e0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/amdgpu: correct the gpu reset handling for job != NULL case
-
-Current code wrongly treat all cases as job == NULL.
-
-Signed-off-by: Evan Quan <evan.quan@amd.com>
-Reviewed-and-tested-by: Jane Jian <Jane.Jian@amd.com>
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>
-Cc: stable@vger.kernel.org"|1|Evan Quan|evan.quan@amd.com|2020-10-15 14:57:46+08:00|-28800|Alex Deucher|alexander.deucher@amd.com|2020-10-21 17:33:43-04:00|14400

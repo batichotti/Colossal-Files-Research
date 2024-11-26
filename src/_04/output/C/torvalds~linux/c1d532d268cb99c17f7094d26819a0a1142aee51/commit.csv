@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c1d532d268cb99c17f7094d26819a0a1142aee51|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8169: change interrupt mask type to u32
-
-RTL8125 uses a 32 bit interrupt mask even though only bits in the
-lower 16 bits are used. Change interrupt mask size to u32 to be
-prepared and reintroduce helper rtl_get_events.
-
-Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Heiner Kallweit|hkallweit1@gmail.com|2019-08-28 22:24:13+02:00|-7200|David S. Miller|davem@davemloft.net|2019-08-29 17:47:26-07:00|25200

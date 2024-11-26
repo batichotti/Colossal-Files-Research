@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|82500aa01ad12eff41a9a68ad01f1d40db8921f9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: mediatek: watchdog_timeo was not set
-
-The original commit failed to set watchdog_timeo. This patch sets
-watchdog_timeo to HZ.
-
-Signed-off-by: John Crispin <blogic@openwrt.org>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|John Crispin|blogic@openwrt.org|2016-04-08 00:54:04+02:00|-7200|David S. Miller|davem@davemloft.net|2016-04-12 22:41:32-04:00|14400

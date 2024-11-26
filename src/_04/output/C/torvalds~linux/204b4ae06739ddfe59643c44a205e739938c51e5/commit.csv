@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|204b4ae06739ddfe59643c44a205e739938c51e5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs/crypto: drop crypto key at evict_inode only
-
-This patch avoids dropping crypto key in f2fs_drop_inode, so we can guarantee
-it happens only at evict_inode.
-
-Reviewed-by: Chao Yu <yuchao0@huawei.com>
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|1|Jaegeuk Kim|jaegeuk@kernel.org|2017-10-07 00:08:05-07:00|25200|Jaegeuk Kim|jaegeuk@kernel.org|2017-10-26 10:44:13+02:00|-7200

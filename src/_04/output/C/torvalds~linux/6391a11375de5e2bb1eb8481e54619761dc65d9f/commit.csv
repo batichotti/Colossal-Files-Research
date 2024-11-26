@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6391a11375de5e2bb1eb8481e54619761dc65d9f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] drivers/scsi: Use ARRAY_SIZE macro
-
-Use ARRAY_SIZE macro instead of sizeof(x)/sizeof(x[0]) and remove
-duplicates of the macro.
-
-Signed-off-by: Tobias Klauser <tklauser@nuerscht.ch>
-Signed-off-by: Andrew Morton <akpm@osdl.org>
-Signed-off-by: James Bottomley <James.Bottomley@SteelEye.com>"|47|Tobias Klauser|tklauser@nuerscht.ch|2006-06-08 22:23:48-07:00|25200|James Bottomley|jejb@mulgrave.il.steeleye.com|2006-06-10 10:45:30-05:00|18000

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9003b369499b3320d3f16145145b729fb6ff3bd4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8169: always autoneg on resume
-
-This affects at least versions 25 and 33, so assume all cards are broken
-and just renegotiate by default.
-
-Fixes: 10bc6a6042c9 (""r8169: fix autoneg issue on resume with RTL8168E"")
-Signed-off-by: Alex Xu (Hello71) <alex_y_xu@yahoo.ca>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Alex Xu (Hello71)|alex_y_xu@yahoo.ca|2018-09-30 11:06:39-04:00|14400|David S. Miller|davem@davemloft.net|2018-10-02 22:33:43-07:00|25200

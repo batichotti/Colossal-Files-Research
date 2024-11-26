@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d5f7ac203924a51d0e678338a11be42135fa7996|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[PATCH] ipw2200: mark ""iwconfig retry 255"" as invalid
-
-The ipw2200 firmware/ucode only support values from 0 to 254. So mark 255
-as invalid.
-
-Signed-off-by: Zhu Yi <yi.zhu@intel.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|1|Zhu Yi|yi.zhu@intel.com|2006-08-21 11:38:17+08:00|-28800|John W. Linville|linville@tuxdriver.com|2006-08-29 17:06:33-04:00|14400

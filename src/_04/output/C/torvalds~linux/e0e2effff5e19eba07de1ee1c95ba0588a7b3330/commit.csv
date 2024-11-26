@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e0e2effff5e19eba07de1ee1c95ba0588a7b3330|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: Move ieee802111_tx_dequeue() to later in tx.c
-
-The TXQ path restructure requires ieee80211_tx_dequeue() to call TX
-handlers and parts of the xmit_fast path. Move the function to later in
-tx.c in preparation for this.
-
-Signed-off-by: Toke Høiland-Jørgensen <toke@toke.dk>
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Toke Høiland-Jørgensen|toke@toke.dk|2016-09-22 19:04:19+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2016-09-30 13:12:48+02:00|-7200

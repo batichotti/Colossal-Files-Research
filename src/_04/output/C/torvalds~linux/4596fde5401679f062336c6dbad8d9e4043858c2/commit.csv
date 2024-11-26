@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4596fde5401679f062336c6dbad8d9e4043858c2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: mgmt: Fix address type while loading Long Term Key
-
-This patch fixes the address type while loading long term keys when BT is
-switched on. Without this fix pairing is reinitated even though LTK
-exists for remote device because of mismatch of address type.
-
-Signed-off-by: Hemant Gupta <hemant.gupta@stericsson.com>
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>"|1|Hemant Gupta|hemant.gupta@stericsson.com|2012-04-16 14:57:40+05:30|-19800|Gustavo Padovan|gustavo@padovan.org|2012-05-09 01:40:33-03:00|10800

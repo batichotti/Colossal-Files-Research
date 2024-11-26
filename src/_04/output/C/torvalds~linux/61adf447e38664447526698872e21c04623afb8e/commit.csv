@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|61adf447e38664447526698872e21c04623afb8e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: Fix data-races around netdev_tstamp_prequeue.
-
-While reading netdev_tstamp_prequeue, it can be changed concurrently.
-Thus, we need to add READ_ONCE() to its readers.
-
-Fixes: 3b098e2d7c69 (""net: Consistent skb timestamping"")
-Signed-off-by: Kuniyuki Iwashima <kuniyu@amazon.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Kuniyuki Iwashima|kuniyu@amazon.com|2022-08-23 10:46:47-07:00|25200|David S. Miller|davem@davemloft.net|2022-08-24 13:46:57+01:00|-3600

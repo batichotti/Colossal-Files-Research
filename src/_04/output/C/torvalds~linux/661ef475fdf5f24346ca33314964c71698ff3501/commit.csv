@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|661ef475fdf5f24346ca33314964c71698ff3501|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211_hwsim: delay hardware remain-on-channel start
-
-Typically drivers that implement hardware remain-on-channel will
-have to wait for scheduling constraints, so make hwsim also wait
-a little bit (only 20ms) before actually starting the operation.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2015-11-24 18:29:45+01:00|-3600|Johannes Berg|johannes.berg@intel.com|2015-12-04 14:43:32+01:00|-3600

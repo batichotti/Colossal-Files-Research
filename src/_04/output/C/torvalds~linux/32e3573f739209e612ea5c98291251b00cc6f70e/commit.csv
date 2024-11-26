@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|32e3573f739209e612ea5c98291251b00cc6f70e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"skbuff: inline page_frag_alloc_align()
-
-The __alloc_frag_align() is short, and only called by two functions,
-so inline page_frag_alloc_align() for reduce the overhead of calls.
-
-Reported-by: kernel test robot <oliver.sang@intel.com>
-Signed-off-by: Yajun Deng <yajun.deng@linux.dev>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Yajun Deng|yajun.deng@linux.dev|2021-09-14 11:49:35+08:00|-28800|David S. Miller|davem@davemloft.net|2021-09-14 14:28:58+01:00|-3600

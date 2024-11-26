@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|eb8950861c1bfd3eecc8f6faad213e3bca0dc395|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: fix a missing check of nla_put_failure
-
-If nla_nest_start() may fail. The fix checks its return value and goes
-to nla_put_failure if it fails.
-
-Signed-off-by: Kangjie Lu <kjlu@umn.edu>
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|1|Kangjie Lu|kjlu@umn.edu|2018-12-21 00:46:23-06:00|21600|Pablo Neira Ayuso|pablo@netfilter.org|2018-12-29 02:44:51+01:00|-3600

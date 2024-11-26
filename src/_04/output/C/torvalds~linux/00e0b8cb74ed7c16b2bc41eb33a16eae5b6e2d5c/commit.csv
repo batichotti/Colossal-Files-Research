@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|00e0b8cb74ed7c16b2bc41eb33a16eae5b6e2d5c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"b43: reinit on too many PHY TX errors
-
-Restart the hardware on too many PHY TX errors. A thousand PHY TX errors
-per 15 seconds means we won't be able to recover for sure.
-
-Signed-off-by: Stefano Brivio <stefano.brivio@polimi.it>
-Signed-off-by: Michael Buesch <mb@bu3sch.de>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|2|Stefano Brivio|stefano.brivio@polimi.it|2007-11-25 11:10:33+01:00|-3600|David S. Miller|davem@davemloft.net|2008-01-28 15:05:01-08:00|28800

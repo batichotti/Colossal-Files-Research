@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a786c06d9f2719203c00b3d97b21f9a96980d0b5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"missing bits of ""splice: fix racy pipe->buffers uses""
-
-that commit has fixed only the parts of that mess in fs/splice.c itself;
-there had been more in several other ->splice_read() instances...
-
-Signed-off-by: Al Viro <viro@zeniv.linux.org.uk>"|3|Al Viro|viro@zeniv.linux.org.uk|2014-04-11 12:01:03-04:00|14400|Al Viro|viro@zeniv.linux.org.uk|2014-04-12 07:04:19-04:00|14400

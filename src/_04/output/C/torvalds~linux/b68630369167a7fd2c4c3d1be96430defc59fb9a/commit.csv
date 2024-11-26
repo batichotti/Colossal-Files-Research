@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b68630369167a7fd2c4c3d1be96430defc59fb9a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cfg80211: reg: make CRDA support optional
-
-If there's a built-in regulatory database, there may be little point
-in also calling out to CRDA and failing if the system is configured
-that way. Allow removing CRDA support to save ~1K kernel size.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|3|Johannes Berg|johannes.berg@intel.com|2015-10-15 09:25:18+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2015-10-16 09:15:39+02:00|-7200

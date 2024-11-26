@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f894cbf847c9bea1955095bf37aca6c050553167|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: Add optional SKB arg to dst_ops->neigh_lookup().
-
-Causes the handler to use the daddr in the ipv4/ipv6 header when
-the route gateway is unspecified (local subnet).
-
-Signed-off-by: David S. Miller <davem@davemloft.net>"|7|David S. Miller|davem@davemloft.net|2012-07-02 21:52:24-07:00|25200|David S. Miller|davem@davemloft.net|2012-07-05 01:04:01-07:00|25200

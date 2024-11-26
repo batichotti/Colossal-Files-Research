@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cc15e24a3af249455158bdb2ad02b9685eb4d6e9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS: Have nfs41_proc_secinfo_no_name() call nfs4_call_sync_custom()
-
-We need to use the custom rpc_task_setup here to set the
-RPC_TASK_NO_ROUND_ROBIN flag on the RPC call.
-
-Signed-off-by: Anna Schumaker <Anna.Schumaker@Netapp.com>"|1|Anna Schumaker|Anna.Schumaker@Netapp.com|2019-08-14 16:22:31-04:00|14400|Anna Schumaker|Anna.Schumaker@Netapp.com|2019-08-22 10:05:30-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9b3628d79b46f06157affc56fdb218fdd4988321|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: hci_sync: Cleanup hci_conn if it cannot be aborted
-
-This attempts to cleanup the hci_conn if it cannot be aborted as
-otherwise it would likely result in having the controller and host
-stack out of sync with respect to connection handle.
-
-Signed-off-by: Luiz Augusto von Dentz <luiz.von.dentz@intel.com>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|4|Luiz Augusto von Dentz|luiz.von.dentz@intel.com|2022-04-22 12:58:18-07:00|25200|Marcel Holtmann|marcel@holtmann.org|2022-04-26 20:10:51+02:00|-7200

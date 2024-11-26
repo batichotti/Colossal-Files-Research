@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7270b9bde5f382e730e1ef69d6c1b34d388df2b0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] ibmvfc: Fixup GFP flags for target allocations
-
-Since target allocations can occur while resetting the virtual adapter,
-we shouldn't be using GFP_KERNEL for them as it could hang. Switch to
-use GFP_NOIO.
-
-Signed-off-by: Brian King <brking@linux.vnet.ibm.com>
-Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"|1|Brian King|brking@linux.vnet.ibm.com|2009-05-28 16:17:24-05:00|18000|James Bottomley|James.Bottomley@HansenPartnership.com|2009-06-08 13:07:31-05:00|18000

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|50c8ea8080700014872f2bbd7466d31ce0476290|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"virtio: Net header needs hdr_len
-
-It's far easier to deal with packets if we don't have to parse the
-packet to figure out the header length to know how much to pull into
-the skb data.  Add the field to the virtio_net_hdr struct (and fix the
-spaces that somehow crept in there).
-
-Signed-off-by: Rusty Russell <rusty@rustcorp.com.au>"|2|Rusty Russell|rusty@rustcorp.com.au|2008-02-04 23:50:01-05:00|18000|Rusty Russell|rusty@rustcorp.com.au|2008-02-04 23:50:02+11:00|-39600

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7ccc215187a78f2e5260b9ca82505219bcbec899|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"workqueue: Clean code in alloc_and_link_pwqs()
-
-wq->flags would not change, so it's not necessary to check if WQ_BH
-is set in loop for_each_possible_cpu(), move define and set of pools
-out of loop to simpliy the code.
-
-Signed-off-by: Wenchao Hao <haowenchao22@gmail.com>
-Signed-off-by: Tejun Heo <tj@kernel.org>"|1|Wenchao Hao|haowenchao22@gmail.com|2024-06-06 16:52:16+08:00|-28800|Tejun Heo|tj@kernel.org|2024-06-07 06:27:04-10:00|36000

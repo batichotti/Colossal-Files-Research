@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|00bd8edb861eb41d274938cfc0338999d9c593a3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ceph: fix null pointer dereference in discard_cap_releases()
-
-send_mds_reconnect() may call discard_cap_releases() after all
-release messages have been dropped by cleanup_cap_releases()
-
-Signed-off-by: Yan, Zheng <zheng.z.yan@intel.com>
-Reviewed-by: Sage Weil <sage@inktank.com>"|1|Yan, Zheng|zheng.z.yan@intel.com|2014-03-24 09:56:43+08:00|-28800|Sage Weil|sage@inktank.com|2014-04-04 21:07:17-07:00|25200

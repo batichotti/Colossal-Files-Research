@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|207efcd2b55e0460dfee35663fbb3d05efad990a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md: remove obsolete ret in md_start_sync
-
-The ret is not needed anymore since we have already
-move resync_start into md_do_sync in commit 41a9a0d.
-
-Reviewed-by: NeilBrown <neilb@suse.com>
-Signed-off-by: Guoqing Jiang <gqjiang@suse.com>
-Signed-off-by: Shaohua Li <shli@fb.com>"|1|Guoqing Jiang|gqjiang@suse.com|2016-08-12 13:42:40+08:00|-28800|Shaohua Li|shli@fb.com|2016-08-17 10:22:07-07:00|25200

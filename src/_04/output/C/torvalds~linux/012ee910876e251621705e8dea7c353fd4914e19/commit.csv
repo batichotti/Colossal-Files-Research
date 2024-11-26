@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|012ee910876e251621705e8dea7c353fd4914e19|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ocfs2: Move buckets up into ocfs2_add_new_xattr_cluster().
-
-Lift the buckets from ocfs2_adjust_xattr_cross_cluster() up into
-ocfs2_add_new_xattr_cluster().  Now ocfs2_adjust_xattr_cross_cluster()
-doesn't deal with buffer_heads.
-
-Signed-off-by: Joel Becker <joel.becker@oracle.com>
-Signed-off-by: Mark Fasheh <mfasheh@suse.com>"|1|Joel Becker|joel.becker@oracle.com|2008-11-26 14:43:31-08:00|28800|Mark Fasheh|mfasheh@suse.com|2009-01-05 08:40:30-08:00|28800

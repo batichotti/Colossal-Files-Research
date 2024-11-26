@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7bf9e18d9a5e99e3c83482973557e9f047b051e7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ip: Fix data-races around sysctl_ip_fwd_update_priority.
-
-While reading sysctl_ip_fwd_update_priority, it can be changed
-concurrently.  Thus, we need to add READ_ONCE() to its readers.
-
-Fixes: 432e05d32892 (""net: ipv4: Control SKB reprioritization after forwarding"")
-Signed-off-by: Kuniyuki Iwashima <kuniyu@amazon.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Kuniyuki Iwashima|kuniyu@amazon.com|2022-07-13 13:51:54-07:00|25200|David S. Miller|davem@davemloft.net|2022-07-15 11:49:55+01:00|-3600

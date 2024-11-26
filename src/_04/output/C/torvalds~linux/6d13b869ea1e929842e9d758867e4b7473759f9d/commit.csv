@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6d13b869ea1e929842e9d758867e4b7473759f9d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"RDMA/hns: Assign the correct value for tx_cqn
-
-When modifying qp from init to init, it need to assign the cqn of send cq
-for tx cqn field of qp context. Otherwise, it will cause a mistake when
-the send and recv cq sizes are different.
-
-Signed-off-by: Lijun Ou <oulijun@huawei.com>
-Signed-off-by: Jason Gunthorpe <jgg@mellanox.com>"|1|oulijun|oulijun@huawei.com|2018-01-10 14:39:47+08:00|-28800|Jason Gunthorpe|jgg@mellanox.com|2018-01-16 20:38:18-07:00|25200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1b19f3e61d7e1edb395dd64bf7d63621a37af8ca|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Add a special exit reason when exiting due to an interrupt
-
-This is redundant, as we also return -EINTR from the ioctl, but it
-allows us to examine the exit_reason field on resume without seeing
-old data.
-
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|3|Avi Kivity|avi@qumranet.com|2007-03-04 14:24:03+02:00|-7200|Avi Kivity|avi@qumranet.com|2007-05-03 10:52:24+03:00|-10800

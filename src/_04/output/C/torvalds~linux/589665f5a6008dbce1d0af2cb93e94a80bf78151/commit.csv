@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|589665f5a6008dbce1d0af2cb93e94a80bf78151|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bonding: comparing a u8 with -1 is always false
-
-slave->duplex is a u8 type so the in bond_info_show_slave() when we
-check ""if (slave->duplex == -1)"", it's always false.
-
-Signed-off-by: Dan Carpenter <dan.carpenter@oracle.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|Dan Carpenter|dan.carpenter@oracle.com|2011-11-04 08:21:38+00:00|0|David S. Miller|davem@davemloft.net|2011-11-04 18:37:23-04:00|14400

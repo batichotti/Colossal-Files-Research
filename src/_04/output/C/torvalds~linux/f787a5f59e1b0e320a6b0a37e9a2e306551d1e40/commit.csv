@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f787a5f59e1b0e320a6b0a37e9a2e306551d1e40|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Only hold a process-local lock whilst throttling.
-
-Avoid cause latencies in other clients by not taking the global struct
-mutex and moving the per-client request manipulation a local per-client
-mutex. For example, this allows a compositor to schedule a page-flip
-(through X) whilst an OpenGL application is monopolising the GPU.
-
-Signed-off-by: Chris Wilson <chris@chris-wilson.co.uk>"|8|Chris Wilson|chris@chris-wilson.co.uk|2010-09-24 16:02:42+01:00|-3600|Chris Wilson|chris@chris-wilson.co.uk|2010-09-24 21:03:00+01:00|-3600

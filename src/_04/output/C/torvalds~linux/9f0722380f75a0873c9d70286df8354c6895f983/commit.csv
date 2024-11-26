@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9f0722380f75a0873c9d70286df8354c6895f983|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: tg3: use skb_list_walk_safe helper for gso segments
-
-This is a straight-forward conversion case for the new function, and
-while we're at it, we can remove a null write to skb->next by replacing
-it with skb_mark_not_on_list.
-
-Signed-off-by: Jason A. Donenfeld <Jason@zx2c4.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Jason A. Donenfeld|Jason@zx2c4.com|2020-01-08 16:59:05-05:00|18000|David S. Miller|davem@davemloft.net|2020-01-08 15:19:55-08:00|28800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|27baebb849d46d901e756e6502b0a65a62e43771|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: tune mballoc's default group prealloc size for bigalloc file systems
-
-The default group preallocation size had been previously set to 512
-blocks/clusters, regardless of the block/cluster size.  This is
-probably too big for large cluster sizes.  So adjust the default so
-that it is 2 megabytes or 32 clusters, whichever is larger.
-
-Signed-off-by: ""Theodore Ts'o"" <tytso@mit.edu>"|1|Theodore Ts'o|tytso@mit.edu|2011-09-09 19:02:51-04:00|14400|Theodore Ts'o|tytso@mit.edu|2011-09-09 19:02:51-04:00|14400

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|78a99fe6254cad4be310cd84af39f6c46b668c72|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: truncate blocks in batch in __complete_revoke_list()
-
-Use f2fs_do_truncate_blocks() to truncate all blocks in-batch in
-__complete_revoke_list().
-
-Signed-off-by: Chao Yu <chao@kernel.org>
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|1|Chao Yu|chao@kernel.org|2022-11-23 06:42:52+08:00|-28800|Jaegeuk Kim|jaegeuk@kernel.org|2022-11-28 12:49:00-08:00|28800

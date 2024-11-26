@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|219d33b26ac498ca472a02b9217b4e450474fc90|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: remove batch plug in run_scheduled_IO
-
-Block layer has a limit on plug, ie. BLK_MAX_REQUEST_COUNT == 16, so
-we don't gain benefits by batching 64 bios here.
-
-Signed-off-by: Liu Bo <bo.li.liu@oracle.com>
-Reviewed-by: David Sterba <dsterba@suse.com>
-Signed-off-by: David Sterba <dsterba@suse.com>"|1|Liu Bo|bo.li.liu@oracle.com|2017-09-01 16:14:26-06:00|21600|David Sterba|dsterba@suse.com|2017-10-30 12:27:55+01:00|-3600

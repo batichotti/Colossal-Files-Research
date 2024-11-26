@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c713c8770fa5bfbeaac088cc7b959c7a6ba79f93|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cifs: push rfc1002 generation down the stack
-
-Move the generation of the 4 byte length field down the stack and
-generate it immediately before we start writing the data to the socket.
-
-Signed-off-by: Ronnie Sahlberg <lsahlber@redhat.com>
-Signed-off-by: Aurelien Aptel <aaptel@suse.com>
-Signed-off-by: Steve French <smfrench@gmail.com>"|6|Ronnie Sahlberg|lsahlber@redhat.com|2018-06-12 08:00:58+10:00|-36000|Steve French|stfrench@microsoft.com|2018-06-15 02:38:08-05:00|18000

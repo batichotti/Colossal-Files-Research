@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e9a5eb856411b371d6dde2f5aa3de7258be0f17e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"qed: remove unused qed_hw_info::port_mode and QED_PORT_MODE
-
-Struct field qed_hw_info::port_mode isn't used anywhere in the code, so
-can be safely removed to prevent possible dead code addition.
-Also remove the enumeration QED_PORT_MODE orphaned after this deletion.
-
-Signed-off-by: Alexander Lobakin <alobakin@marvell.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Alexander Lobakin|alobakin@marvell.com|2020-07-20 21:08:11+03:00|-10800|David S. Miller|davem@davemloft.net|2020-07-20 17:59:44-07:00|25200

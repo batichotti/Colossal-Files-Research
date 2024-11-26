@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|676259100cf3a81dd2d47918b36edb237986b9df|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wifi: mac80211: implement MLO multicast deduplication
-
-If the vif is an MLD then it may receive multicast from
-different links, and should drop those frames according
-to the SN. Implement that.
-
-Link: https://msgid.link/20240129200456.693b77d14b44.I491846f2bea0058c14eab6422962c10bfae9b675@changeid
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|4|Johannes Berg|johannes.berg@intel.com|2024-01-29 20:04:57+01:00|-3600|Johannes Berg|johannes.berg@intel.com|2024-02-08 15:00:42+01:00|-3600

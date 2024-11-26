@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a20e4cf9e6a37e40532593e00df153d01e317baf|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"e1000e: fix incorrect link status when switch module pulled
-
-On 82571 with SerDes, the true link state is not always correct when read
-from the STATUS register; use existing e1000_has_link() function instead.
-
-Signed-off-by: Bruce Allan <bruce.w.allan@intel.com>
-Signed-off-by: Jeff Kirsher <jeffrey.t.kirsher@intel.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|Bruce Allan|bruce.w.allan@intel.com|2008-11-21 17:01:35-08:00|28800|David S. Miller|davem@davemloft.net|2008-11-21 17:01:35-08:00|28800

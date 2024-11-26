@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|35124a0994fc02545b14b9fa3aad000b3331f1c0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Cleanup XDR parsing for LAYOUTGET, GETDEVICEINFO
-
-changes LAYOUTGET and GETDEVICEINFO XDR parsing to:
- - not use vmap, which doesn't work on incoherent archs
- - use xdr_stream parsing for all xdr
-
-Signed-off-by: Weston Andros Adamson <dros@netapp.com>
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|7|Weston Andros Adamson|dros@netapp.com|2011-03-24 16:48:21-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2011-03-24 17:01:41-04:00|14400

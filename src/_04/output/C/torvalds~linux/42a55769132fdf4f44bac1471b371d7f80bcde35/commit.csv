@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|42a55769132fdf4f44bac1471b371d7f80bcde35|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: get rid of possible_net_t from set and basechain
-
-We can pass the netns pointer as parameter to the functions that need to
-gain access to it. From basechains, I didn't find any client for this
-field anymore so let's remove this too.
-
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|5|Pablo Neira Ayuso|pablo@netfilter.org|2016-07-08 14:41:49+02:00|-7200|Pablo Neira Ayuso|pablo@netfilter.org|2016-07-11 12:16:04+02:00|-7200

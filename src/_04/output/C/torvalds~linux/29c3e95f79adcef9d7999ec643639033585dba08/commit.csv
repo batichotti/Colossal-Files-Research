@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|29c3e95f79adcef9d7999ec643639033585dba08|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: do not overwrite the sequence number if requested
-
-Check if the Tx control flag is set to prevent sequence number overwrites,
-and if so, do not assign a new sequence number to the transmitted frame.
-
-Signed-off-by: Mathy Vanhoef <Mathy.Vanhoef@kuleuven.be>
-Link: https://lore.kernel.org/r/20200723100153.31631-3-Mathy.Vanhoef@kuleuven.be
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Mathy Vanhoef|Mathy.Vanhoef@kuleuven.be|2020-07-23 14:01:50+04:00|-14400|Johannes Berg|johannes.berg@intel.com|2020-07-31 09:27:01+02:00|-7200

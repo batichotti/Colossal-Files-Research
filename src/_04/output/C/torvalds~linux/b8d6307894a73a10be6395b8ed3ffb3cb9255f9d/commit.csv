@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b8d6307894a73a10be6395b8ed3ffb3cb9255f9d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"staging: brcm80211: Convert ETHER_ADDR_LEN to ETH_ALEN
-
-Add an #include of <linux/if_ether.h> to include/proto/ethernet.h
-Convert ETHER_ADDR_LEN, remove the #define for ETHER_ADDR_LEN.
-
-Signed-off-by: Joe Perches <joe@perches.com>
-Acked-by: Arend van Spriel <arend@broadcom.com>
-Signed-off-by: Greg Kroah-Hartman <gregkh@suse.de>"|12|Joe Perches|joe@perches.com|2010-12-13 16:57:01-08:00|28800|Greg Kroah-Hartman|gregkh@suse.de|2010-12-16 12:21:28-08:00|28800

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6d74229f013ed8e4a00d74cfa7a3fa6a2315c467|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: MMU: remove rmap before clear spte
-
-Remove rmap before clear spte otherwise it will trigger BUG_ON() in
-some functions such as rmap_write_protect().
-
-Signed-off-by: Xiao Guangrong <xiaoguangrong@cn.fujitsu.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|1|Xiao Guangrong|xiaoguangrong@cn.fujitsu.com|2010-05-13 10:07:00+08:00|-28800|Avi Kivity|avi@redhat.com|2010-08-01 10:35:46+03:00|-10800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|38f5f65e9d25b0a7270c337a35c724ca3d56f4d8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rbd: drop needless test in rbd_rq_fn()
-
-There's a test for null rq pointer inside the while loop in
-rbd_rq_fn() that's not needed.  That same test already occurred
-in the immediatly preceding loop condition test.
-
-Signed-off-by: Alex Elder <elder@inktank.com>
-Reviewed-by: Yehuda Sadeh <yehuda@inktank.com>"|1|Alex Elder|elder@inktank.com|2012-08-09 10:33:25-07:00|25200|Alex Elder|elder@inktank.com|2012-10-01 14:30:50-05:00|18000

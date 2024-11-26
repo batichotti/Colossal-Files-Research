@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b9df92d2a94eef8811061aecb1396290df440e2e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ftrace: Consolidate the function match routines for normal and mods
-
-The code used for matching functions is almost identical between normal
-selecting of functions and using the :mod: feature of set_ftrace_notrace.
-
-Consolidate the two users into one function.
-
-Signed-off-by: Steven Rostedt <rostedt@goodmis.org>"|1|Steven Rostedt|srostedt@redhat.com|2011-04-28 20:32:08-04:00|14400|Steven Rostedt|rostedt@goodmis.org|2011-04-29 22:53:14-04:00|14400

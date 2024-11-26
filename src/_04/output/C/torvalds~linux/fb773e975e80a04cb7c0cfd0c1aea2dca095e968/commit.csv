@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fb773e975e80a04cb7c0cfd0c1aea2dca095e968|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: ethernet: mvpp2: use phy_ethtool_{get|set}_link_ksettings
-
-There are two generics functions phy_ethtool_{get|set}_link_ksettings,
-so we can use them instead of defining the same code in the driver.
-
-Signed-off-by: Philippe Reynes <tremyfr@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Philippe Reynes|tremyfr@gmail.com|2016-06-28 00:08:12+02:00|-7200|David S. Miller|davem@davemloft.net|2016-06-29 06:03:39-04:00|14400

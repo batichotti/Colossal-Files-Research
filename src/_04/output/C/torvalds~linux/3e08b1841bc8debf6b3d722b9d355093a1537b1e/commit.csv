@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3e08b1841bc8debf6b3d722b9d355093a1537b1e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bnxt_en: Allocate/Free CP rings for 57500 series chips.
-
-On the new 57500 chips, we allocate/free one CP ring for each RX ring or
-TX ring separately.  Using separate CP rings for RX/TX is an improvement
-as TX events will no longer be stuck behind RX events.
-
-Signed-off-by: Michael Chan <michael.chan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Michael Chan|michael.chan@broadcom.com|2018-10-14 07:02:52-04:00|14400|David S. Miller|davem@davemloft.net|2018-10-15 22:44:32-07:00|25200

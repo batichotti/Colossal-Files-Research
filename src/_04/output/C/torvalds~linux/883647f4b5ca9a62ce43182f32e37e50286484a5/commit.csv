@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|883647f4b5ca9a62ce43182f32e37e50286484a5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: make find_free_dev_extent() static
-
-The function find_free_dev_extent() is only used within volumes.c, so make
-it static and remove its prototype from volumes.h.
-
-Signed-off-by: Filipe Manana <fdmanana@suse.com>
-Signed-off-by: David Sterba <dsterba@suse.com>"|2|Filipe Manana|fdmanana@suse.com|2023-07-26 16:57:08+01:00|-3600|David Sterba|dsterba@suse.com|2023-08-21 14:52:18+02:00|-7200

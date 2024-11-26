@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|52da5c114a884f8245dca5d3a69e1f45c759ba31|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ibmvnic: Convert vnic server reported statistics to cpu endian
-
-The vnic server reports the statistics buffer in big endian format and must
-be converted to cpu endian in order to be displayed correctly on little
-endian lpars.
-
-Signed-off-by: John Allen <jallen@linux.vnet.ibm.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|John Allen|jallen@linux.vnet.ibm.com|2017-08-02 16:45:28-05:00|18000|David S. Miller|davem@davemloft.net|2017-08-03 09:33:06-07:00|25200

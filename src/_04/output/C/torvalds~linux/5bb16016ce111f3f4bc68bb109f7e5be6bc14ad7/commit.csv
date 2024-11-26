@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5bb16016ce111f3f4bc68bb109f7e5be6bc14ad7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: Factor out is_exception_n helper
-
-There is quite some common code in all these is_<exception>() helpers.
-Factor it out before adding even more of them.
-
-Signed-off-by: Jan Kiszka <jan.kiszka@siemens.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Jan Kiszka|jan.kiszka@siemens.com|2016-02-09 20:14:21+01:00|-3600|Paolo Bonzini|pbonzini@redhat.com|2016-02-16 18:48:30+01:00|-3600

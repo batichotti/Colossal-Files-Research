@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a832e7ae8b4f71fc522089d83fd445693aa7dbc5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd: fix laundromat next-run-time calculation
-
-The laundromat uses two variables to calculate when it should next run,
-but one is completely ignored at the end of the run. Merge the two and
-rename the variable to be more descriptive of what it does.
-
-Signed-off-by: Jeff Layton <jlayton@primarydata.com>
-Signed-off-by: J. Bruce Fields <bfields@redhat.com>"|1|Jeff Layton|jlayton@primarydata.com|2014-05-30 09:09:26-04:00|14400|J. Bruce Fields|bfields@redhat.com|2014-05-30 20:25:28-04:00|14400

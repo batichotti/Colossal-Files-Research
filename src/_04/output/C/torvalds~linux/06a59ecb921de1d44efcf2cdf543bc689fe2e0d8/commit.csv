@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|06a59ecb921de1d44efcf2cdf543bc689fe2e0d8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tcp: use TCP_INIT_CWND in tcp_fixup_sndbuf()
-
-Initial cwnd being 10 (TCP_INIT_CWND) instead of 3, change
-tcp_fixup_sndbuf() to get more than 16384 bytes (sysctl_tcp_wmem[1]) in
-initial sk_sndbuf
-
-Signed-off-by: Eric Dumazet <eric.dumazet@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Eric Dumazet|eric.dumazet@gmail.com|2011-10-13 18:24:42+00:00|0|David S. Miller|davem@davemloft.net|2011-10-19 16:53:30-04:00|14400

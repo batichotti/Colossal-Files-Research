@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2070f00c79f627eb0ca47a537e5635424b5550ca|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Move DP M/N setup from update_pll to mode_set for gmch platforms
-
-There's no point in hiding the DP M/N setup in the update_pll functions.
-Just move it to the mode_set function.
-
-Signed-off-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Reviewed-by: Jesse Barnes <jbarnes@virtuousgeek.org>
-Signed-off-by: Daniel Vetter <daniel.vetter@ffwll.ch>"|1|Ville Syrjälä|ville.syrjala@linux.intel.com|2014-03-31 18:21:25+03:00|-10800|Daniel Vetter|daniel.vetter@ffwll.ch|2014-04-03 11:26:56+02:00|-7200

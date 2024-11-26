@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|63a76944b674bb758232e4213da0da95ae055012|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"be2net: Call netif_carier_off() after register_netdev()
-
-Calling netif_carrier_off before register_netdev was causing the network interface
-to miss a linkwatch pending event leading to  an inconsistent state if the link
-is not up when interface is initialized.This is now invoked after register_netdev.
-
-Signed-off-by: Somnath Kotur <somnath.kotur@emulex.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Somnath Kotur|somnath.kotur@emulex.com|2010-10-25 01:11:10+00:00|0|David S. Miller|davem@davemloft.net|2010-10-25 12:14:10-07:00|25200

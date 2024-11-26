@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7781f0d81c7a7e6dc37aa2902a634b7dc08be54d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wifi: mac80211: mlme: refactor ieee80211_prep_channel() a bit
-
-Refactor ieee80211_prep_channel() to make the link argument
-optional and add a conn_flags pointer argument instead, so
-that we can later use this for links that don't exist yet
-to build the right information for MLO.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2022-07-12 14:48:55+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2022-07-15 11:43:22+02:00|-7200

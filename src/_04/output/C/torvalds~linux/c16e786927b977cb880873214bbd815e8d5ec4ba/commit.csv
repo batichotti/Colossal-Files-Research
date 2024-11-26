@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c16e786927b977cb880873214bbd815e8d5ec4ba|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ceph: use single osd op reply msg
-
-Use a single ceph_msg for the osd reply, even when we are getting multiple
-replies.
-
-Signed-off-by: Sage Weil <sage@newdream.net>"|2|Sage Weil|sage@newdream.net|2010-03-01 13:02:00-08:00|28800|Sage Weil|sage@newdream.net|2010-03-01 15:20:02-08:00|28800

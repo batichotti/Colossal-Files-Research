@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a3a20feb32a1c281ccac80dcf615480d3a79a6bf|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nl80211: accept only HE capability elements with valid size
-
-The kernel (driver code) should be able to assume that a station's
-HE capabilities are not badly sized, so reject them if they are.
-
-Link: https://lore.kernel.org/r/20220214172921.80b710d45cb7.Id57ce32f9538a40e36c620fabedbd2c73346ef56@changeid
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2022-02-14 17:29:23+01:00|-3600|Johannes Berg|johannes.berg@intel.com|2022-02-16 15:41:06+01:00|-3600

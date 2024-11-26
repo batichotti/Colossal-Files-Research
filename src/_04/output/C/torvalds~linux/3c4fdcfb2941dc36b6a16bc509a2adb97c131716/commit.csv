@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3c4fdcfb2941dc36b6a16bc509a2adb97c131716|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm: pin new and unpin old buffer when setting a mode.
-
-This removes the requirement for user space to pin a buffer before
-setting a mode that is backed by the pixels from that buffer.
-
-Signed-off-by: Kristian Høgsberg <krh@redhat.com>
-Signed-off-by: Eric Anholt <eric@anholt.net>
-Signed-off-by: Dave Airlie <airlied@linux.ie>"|3|Kristian Høgsberg|krh@redhat.com|2008-12-17 22:14:46-05:00|18000|Dave Airlie|airlied@linux.ie|2008-12-29 17:47:27+10:00|-36000

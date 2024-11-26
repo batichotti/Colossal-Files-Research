@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3ecb0087ecee6213544a1e0b838826a0f4831ce5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mm/memcg: Convert mem_cgroup_swapout() to take a folio
-
-This removes an assumption that THPs are the only kind of compound
-pages and removes a couple of hidden calls to compound_head.  It
-also documents that you can't pass a tail page to mem_cgroup_swapout().
-
-Signed-off-by: Matthew Wilcox (Oracle) <willy@infradead.org>
-Reviewed-by: Christoph Hellwig <hch@lst.de>"|3|Matthew Wilcox (Oracle)|willy@infradead.org|2021-12-27 21:11:34-05:00|18000|Matthew Wilcox (Oracle)|willy@infradead.org|2022-03-21 12:59:01-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a331400bf01231253a0d9ab211c83212d2ac4edb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: clear local->ps_data on disassoc
-
-local->ps_data wasn't cleared on disassociation, which
-(in some corner cases) caused reconnections to enter
-psm before association completed.
-
-Signed-off-by: Eliad Peller <eliad@wizery.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|1|Eliad Peller|eliad@wizery.com|2011-05-26 11:46:37+03:00|-10800|John W. Linville|linville@tuxdriver.com|2011-05-27 12:53:46-04:00|14400

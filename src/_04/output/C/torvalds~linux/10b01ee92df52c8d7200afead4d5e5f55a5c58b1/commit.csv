@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|10b01ee92df52c8d7200afead4d5e5f55a5c58b1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: fix overhead calculation to account for the reserved gdt blocks
-
-The kernel calculation was underestimating the overhead by not taking
-into account the reserved gdt blocks.  With this change, the overhead
-calculated by the kernel matches the overhead calculation in mke2fs.
-
-Signed-off-by: Theodore Ts'o <tytso@mit.edu>
-Cc: stable@kernel.org"|1|Theodore Ts'o|tytso@mit.edu|2022-04-14 21:31:27-04:00|14400|Theodore Ts'o|tytso@mit.edu|2022-04-14 21:31:27-04:00|14400

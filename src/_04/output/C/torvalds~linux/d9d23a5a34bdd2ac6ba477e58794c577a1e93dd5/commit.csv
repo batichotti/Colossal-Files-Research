@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d9d23a5a34bdd2ac6ba477e58794c577a1e93dd5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: scsi_debug: Strengthen defer_t accesses
-
-Use READ_ONCE() and WRITE_ONCE() macros when accessing the
-sdebug_defer::defer_t value.
-
-Link: https://lore.kernel.org/r/20220109012853.301953-3-dgilbert@interlog.com
-Signed-off-by: Douglas Gilbert <dgilbert@interlog.com>
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|1|Douglas Gilbert|dgilbert@interlog.com|2022-01-08 20:28:46-05:00|18000|Martin K. Petersen|martin.petersen@oracle.com|2022-01-25 00:25:05-05:00|18000

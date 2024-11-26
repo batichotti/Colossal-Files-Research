@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3d3a85337937bb5e3db676eeb4f3bf7f02533b44|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[NET]: Make illegal_highdma more anal
-
-Rather than having illegal_highdma as a macro when HIGHMEM is off, we
-can turn it into an inline function that returns zero.  This will catch
-callers that give it bad arguments.
-
-Signed-off-by: Herbert Xu <herbert@gondor.apana.org.au>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Herbert Xu|herbert@gondor.apana.org.au|2006-06-27 13:33:10-07:00|25200|David S. Miller|davem@sunset.davemloft.net|2006-06-29 16:57:59-07:00|25200

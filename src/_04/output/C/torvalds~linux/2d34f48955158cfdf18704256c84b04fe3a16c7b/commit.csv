@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2d34f48955158cfdf18704256c84b04fe3a16c7b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tracing: Make ftrace_trace_stack() depend on general trace_array flag
-
-In preparation for the multi buffer instances to have their own trace_flags,
-the check in ftrace_trace_stack() needs to test the trace_array descriptor
-flag that is for the current event, not the global_trace descriptor.
-
-Signed-off-by: Steven Rostedt <rostedt@goodmis.org>"|2|Steven Rostedt (Red Hat)|rostedt@goodmis.org|2015-09-30 11:45:22-04:00|14400|Steven Rostedt|rostedt@goodmis.org|2015-09-30 15:22:57-04:00|14400

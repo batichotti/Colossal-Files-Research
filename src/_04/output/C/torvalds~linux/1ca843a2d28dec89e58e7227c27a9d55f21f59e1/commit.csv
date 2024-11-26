@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1ca843a2d28dec89e58e7227c27a9d55f21f59e1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfs: Fix GETATTR bitmap verification
-
-When decoding GETATTR replies, the client checks the attribute bitmap
-for which attributes the server has sent.  It misses bits at the word
-boundaries, though; fix that.
-
-Signed-off-by: Andreas Gruenbacher <agruenba@redhat.com>
-Signed-off-by: Trond Myklebust <trond.myklebust@primarydata.com>"|1|Andreas Gruenbacher|agruenba@redhat.com|2015-11-03 18:25:33+01:00|-3600|Trond Myklebust|trond.myklebust@primarydata.com|2015-11-03 12:33:04-05:00|18000

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b9959295151625c17723103afd79077e80b24ddd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: return error of btrfs_update_inode() to caller
-
-We didn't check error of btrfs_update_inode(), but that error looks
-easy to bubble back up.
-
-Reviewed-by: David Sterba <dsterba@suse.cz>
-Signed-off-by: Tsutomu Itoh <t-itoh@jp.fujitsu.com>
-Signed-off-by: Josef Bacik <jbacik@fusionio.com>"|2|Tsutomu Itoh|t-itoh@jp.fujitsu.com|2012-06-25 21:25:22-06:00|21600|Chris Mason|chris.mason@fusionio.com|2012-07-23 16:27:54-04:00|14400

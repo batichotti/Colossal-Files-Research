@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8876c67e6296b44c283cd748d4888788af3f7942|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wifi: nl80211: require MLD address on link STA add/modify
-
-We always need the MLD address and link ID to add or
-modify the link STA, so require it in the API.
-
-Fixes: 577e5b8c3924 (""wifi: cfg80211: add API to add/modify/remove a link station"")
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2022-07-19 08:44:25+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2022-07-22 14:28:13+02:00|-7200

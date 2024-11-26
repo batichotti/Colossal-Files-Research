@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e37a75a13cdae5deaa2ea2cbf8d55b5dd08638b6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: Emulator ignores LDTR/TR extended base on LLDT/LTR
-
-The current implementation ignores the LDTR/TR base high 32-bits on long-mode.
-As a result the loaded segment descriptor may be incorrect.
-
-Signed-off-by: Nadav Amit <namit@cs.technion.ac.il>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Nadav Amit|namit@cs.technion.ac.il|2014-06-02 18:34:04+03:00|-10800|Paolo Bonzini|pbonzini@redhat.com|2014-06-18 17:46:16+02:00|-7200

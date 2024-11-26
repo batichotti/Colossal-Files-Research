@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e3c3374fbf7efe9487edc53cd10436ed641983aa|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Make vm_insert_page() available to NVidia module
-
-It used to use remap_pfn_range(), which wasn't GPL-only either, and the
-new interface is actually simpler and does more checking, so we
-shouldn't unnecessarily discourage people from switching over.
-
-Signed-off-by: Linus Torvalds <torvalds@osdl.org>"|1|Linus Torvalds|torvalds@g5.osdl.org|2005-12-03 20:48:11-08:00|28800|Linus Torvalds|torvalds@g5.osdl.org|2005-12-03 20:48:11-08:00|28800

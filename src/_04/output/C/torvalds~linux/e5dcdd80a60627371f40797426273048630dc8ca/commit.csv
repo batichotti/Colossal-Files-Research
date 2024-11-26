@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e5dcdd80a60627371f40797426273048630dc8ca|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[PATCH] md: fail IO request to md that require a barrier.
-
-md does not yet support BIO_RW_BARRIER, so be honest about it and fail
-(-EOPNOTSUPP) any such requests.
-
-Signed-off-by: Neil Brown <neilb@cse.unsw.edu.au>
-Signed-off-by: Andrew Morton <akpm@osdl.org>
-Signed-off-by: Linus Torvalds <torvalds@osdl.org>"|7|NeilBrown|neilb@cse.unsw.edu.au|2005-09-09 16:23:41-07:00|25200|Linus Torvalds|torvalds@g5.osdl.org|2005-09-09 16:39:09-07:00|25200

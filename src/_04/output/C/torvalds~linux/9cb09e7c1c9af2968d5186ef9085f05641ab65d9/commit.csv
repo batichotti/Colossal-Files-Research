@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9cb09e7c1c9af2968d5186ef9085f05641ab65d9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Add a comment describing the /dev/kvm no_compat handling
-
-Add a comment explaining the rational behind having both
-no_compat open and ioctl callbacks to fend off compat tasks.
-
-Signed-off-by: Marc Zyngier <maz@kernel.org>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Marc Zyngier|maz@kernel.org|2019-11-14 13:17:39+00:00|0|Paolo Bonzini|pbonzini@redhat.com|2019-11-15 10:14:04+01:00|-3600

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4b6ad6d4579908ff82a47ad9ba067a504b1e0882|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drbd: Remove obsolete drbd_crypto_is_hash()
-
-We allocate hash transformations with crypto_alloc_hash() which will
-only return hash algorithms.  It is not necessary to reconfirm that we
-actually got a hash algorithm.
-
-Signed-off-by: Philipp Reisner <philipp.reisner@linbit.com>
-Signed-off-by: Lars Ellenberg <lars.ellenberg@linbit.com>"|3|Andreas Gruenbacher|agruen@linbit.com|2011-04-29 10:20:08+02:00|-7200|Philipp Reisner|philipp.reisner@linbit.com|2012-11-08 16:52:58+01:00|-3600

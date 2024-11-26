@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9997d5dd177c52017fa0541bf236a4232c8148e6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"perf trace: Use zfree() to reduce chances of use after free
-
-Do defensive programming by using zfree() to initialize freed pointers
-to NULL, so that eventual use after free result in a NULL pointer deref
-instead of more subtle behaviour.
-
-Signed-off-by: Arnaldo Carvalho de Melo <acme@redhat.com>"|1|Arnaldo Carvalho de Melo|acme@redhat.com|2023-04-12 09:50:08-03:00|10800|Arnaldo Carvalho de Melo|acme@redhat.com|2023-04-12 09:54:32-03:00|10800

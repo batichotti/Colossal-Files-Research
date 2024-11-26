@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0362520bf9d35f09c2693e14352f4b0ad07397fa|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Simplify the ERTM ack timeout
-
-Since l2cap_send_ack can trigger extra actions like sending iframes,
-don't call it.  Just send an RR or RNR frame if an ack needs sending.
-
-Signed-off-by: Mat Martineau <mathewm@codeaurora.org>
-Signed-off-by: Gustavo Padovan <gustavo.padovan@collabora.co.uk>"|1|Mat Martineau|mathewm@codeaurora.org|2012-05-17 20:53:51-07:00|25200|Johan Hedberg|johan.hedberg@intel.com|2012-06-05 06:34:05+03:00|-10800

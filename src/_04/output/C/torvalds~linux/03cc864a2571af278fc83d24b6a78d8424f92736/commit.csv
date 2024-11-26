@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|03cc864a2571af278fc83d24b6a78d8424f92736|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"s2io: Update driver to use dma_wmb
-
-This change updates several spots where a wmb was being used to instead use
-a dma_wmb to flush out writes before updating the control portion of the
-descriptor.
-
-Signed-off-by: Alexander Duyck <alexander.h.duyck@redhat.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Alexander Duyck|alexander.h.duyck@redhat.com|2015-04-07 16:55:21-07:00|25200|David S. Miller|davem@davemloft.net|2015-04-08 12:15:14-04:00|14400

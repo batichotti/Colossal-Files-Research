@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ad4bbd7285ad0f04f2cfd8bada1755c3c5c75143|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"s390/qeth: enable napi_consume_skb() for pending TX buffers
-
-Pending TX buffers are completed from the same NAPI code as normal
-TX buffers. Pass the NAPI budget to qeth_tx_complete_buf() so that
-the freeing of the completed skbs can be deferred.
-
-Signed-off-by: Julian Wiedmann <jwi@linux.ibm.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Julian Wiedmann|jwi@linux.ibm.com|2021-03-18 19:54:55+01:00|-3600|David S. Miller|davem@davemloft.net|2021-03-18 16:18:37-07:00|25200

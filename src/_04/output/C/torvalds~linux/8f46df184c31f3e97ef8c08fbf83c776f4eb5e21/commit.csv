@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8f46df184c31f3e97ef8c08fbf83c776f4eb5e21|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: fix missing byteorder conversion in policy
-
-When fetching the policy attribute, the byteorder conversion was
-missing, breaking the chain policy setting.
-
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|1|Pablo Neira Ayuso|pablo@netfilter.org|2014-01-10 15:11:25+01:00|-3600|Pablo Neira Ayuso|pablo@netfilter.org|2014-01-10 18:26:13+01:00|-3600

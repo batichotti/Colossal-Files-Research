@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fe0edcb7311e80a349ad5f2b15f2d91a5606ed7f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: s390: Enable up to 248 VCPUs per VM
-
-This patch allows s390 to have more than 64 VCPUs for a guest (up to
-248 for memory usage considerations), if supported by the underlaying
-hardware (sclp.has_esca).
-
-Signed-off-by: Eugene (jno) Dvurechenski <jno@linux.vnet.ibm.com>
-Signed-off-by: Christian Borntraeger <borntraeger@de.ibm.com>"|2|Eugene (jno) Dvurechenski|jno@linux.vnet.ibm.com|2015-04-22 18:37:40+02:00|-7200|Christian Borntraeger|borntraeger@de.ibm.com|2015-11-30 12:47:08+01:00|-3600

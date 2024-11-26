@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fd33f1dfed6141280bc85817e6f79b87a5c7320b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mlxsw: spectrum: push cls_flower and cls_matchall setup_tc processing into separate functions
-
-Let mlxsw_sp_setup_tc be a splitter for specific setup_tc types and push
-out cls_flower and cls_matchall specific codes into separate functions.
-
-Signed-off-by: Jiri Pirko <jiri@mellanox.com>
-Acked-by: Jamal Hadi Salim <jhs@mojatatu.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Jiri Pirko|jiri@mellanox.com|2017-08-07 10:15:24+02:00|-7200|David S. Miller|davem@davemloft.net|2017-08-07 09:42:36-07:00|25200

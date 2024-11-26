@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d6b478666ffa6d2c25386d78bf1c4640d4da305e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: fix underflow in object reference counter
-
-Since (""netfilter: nf_tables: drop map element references from
-preparation phase""), integration with commit protocol is better,
-therefore drop the workaround that b91d90368837 (""netfilter: nf_tables:
-fix leaking object reference count"") provides.
-
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|1|Pablo Neira Ayuso|pablo@netfilter.org|2023-06-16 15:20:08+02:00|-7200|Pablo Neira Ayuso|pablo@netfilter.org|2023-06-20 22:43:40+02:00|-7200

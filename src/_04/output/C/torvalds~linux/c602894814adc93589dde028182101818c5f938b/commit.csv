@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c602894814adc93589dde028182101818c5f938b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tracing: Make tracing_init_dentry_tr() static
-
-tracing_init_dentry_tr() is not used outside of trace.c, it should
-be static.
-
-Signed-off-by: Steven Rostedt <rostedt@goodmis.org>"|2|Steven Rostedt (Red Hat)|rostedt@goodmis.org|2015-01-26 20:38:39-05:00|18000|Steven Rostedt|rostedt@goodmis.org|2015-02-02 10:22:23-05:00|18000

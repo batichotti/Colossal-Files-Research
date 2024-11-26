@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|afc32f7ee9febc020c73da61402351d4c90437f3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: Track lifetime disk writes
-
-Add a new superblock value which tracks the lifetime amount of writes
-to the filesystem.  This is useful in estimating the amount of wear on
-solid state drives (SSD's) caused by writes to the filesystem.
-
-Signed-off-by: ""Theodore Ts'o"" <tytso@mit.edu>"|3|Theodore Ts'o|tytso@mit.edu|2009-02-28 19:39:58-05:00|18000|Theodore Ts'o|tytso@mit.edu|2009-02-28 19:39:58-05:00|18000

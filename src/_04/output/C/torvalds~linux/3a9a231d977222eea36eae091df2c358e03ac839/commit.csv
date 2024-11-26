@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3a9a231d977222eea36eae091df2c358e03ac839|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: Fix files explicitly needing to include module.h
-
-With calls to modular infrastructure, these files really
-needs the full module.h header.  Call it out so some of the
-cleanups of implicit and unrequired includes elsewhere can be
-cleaned up.
-
-Signed-off-by: Paul Gortmaker <paul.gortmaker@windriver.com>"|29|Paul Gortmaker|paul.gortmaker@windriver.com|2011-05-27 09:12:25-04:00|14400|Paul Gortmaker|paul.gortmaker@windriver.com|2011-10-31 19:30:28-04:00|14400

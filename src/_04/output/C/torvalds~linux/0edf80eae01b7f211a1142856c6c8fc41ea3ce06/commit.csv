@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0edf80eae01b7f211a1142856c6c8fc41ea3ce06|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"staging/hfi1: Change default krcvqs
-
-Change the default number of krcvqs to number of numa nodes + 1
-based on the performance data collected.
-
-Reviewed-by: Mike Marciniszyn <mike.marciniszyn@intel.com>
-Signed-off-by: Jubin John <jubin.john@intel.com>
-Signed-off-by: Doug Ledford <dledford@redhat.com>"|1|jubin.john@intel.com|jubin.john@intel.com|2016-01-11 18:30:55-05:00|18000|Doug Ledford|dledford@redhat.com|2016-03-01 10:38:06-05:00|18000

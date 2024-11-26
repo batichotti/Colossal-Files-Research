@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f5f87dfbc777f89148c3c66438741139845d3ac6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: emulate: simplify writeback
-
-The ""if/return"" checks are useless, because we return X86EMUL_CONTINUE
-anyway if we do not return.
-
-Reviewed-by: Marcelo Tosatti <mtosatti@redhat.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Paolo Bonzini|pbonzini@redhat.com|2014-04-01 13:23:24+02:00|-7200|Paolo Bonzini|pbonzini@redhat.com|2014-07-11 09:13:59+02:00|-7200

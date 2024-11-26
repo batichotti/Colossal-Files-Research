@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|30679ec409189de89f55552a623c264091d72b66|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ath11k: avoid use_after_free in ath11k_dp_rx_msdu_coalesce API
-
-Accessing already stored first msdu data after the skb expand trigger
-use_after_free, since first msdu got deleted. so do the descriptor copy
-operation before the skb expand operation.
-
-Signed-off-by: Karthikeyan Periyasamy <periyasa@codeaurora.org>
-Signed-off-by: Kalle Valo <kvalo@codeaurora.org>"|1|Karthikeyan Periyasamy|periyasa@codeaurora.org|2019-11-27 14:08:53+00:00|0|Kalle Valo|kvalo@codeaurora.org|2019-11-29 09:47:37+02:00|-7200

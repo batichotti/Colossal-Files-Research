@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|525df86145bf731af522ba9b3982c5b48078b81a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: explain missing kvm_put_kvm in case of failure
-
-The call to kvm_put_kvm was removed from error handling in commit
-506cfba9e726 (""KVM: don't use anon_inode_getfd() before possible
-failures""), but it is _not_ a memory leak.  Reuse Al's explanation
-to avoid that someone else makes the same mistake.
-
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Paolo Bonzini|pbonzini@redhat.com|2017-06-27 15:45:09+02:00|-7200|Paolo Bonzini|pbonzini@redhat.com|2017-06-27 15:45:09+02:00|-7200

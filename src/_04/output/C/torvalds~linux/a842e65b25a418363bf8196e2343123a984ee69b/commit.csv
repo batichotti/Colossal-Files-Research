@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a842e65b25a418363bf8196e2343123a984ee69b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sctp: fix ignoring asoc_id for tcp-style sockets on SCTP_DEFAULT_SNDINFO sockopt
-
-A similar fix as Patch ""sctp: fix ignoring asoc_id for tcp-style sockets on
-SCTP_DEFAULT_SEND_PARAM sockopt"" on SCTP_DEFAULT_SNDINFO sockopt.
-
-Fixes: 92fc3bd928c9 (""sctp: use SCTP_FUTURE_ASSOC and add SCTP_CURRENT_ASSOC for SCTP_DEFAULT_SNDINFO sockopt"")
-Signed-off-by: Xin Long <lucien.xin@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Xin Long|lucien.xin@gmail.com|2019-03-18 20:06:01+08:00|-28800|David S. Miller|davem@davemloft.net|2019-03-18 18:31:08-07:00|25200

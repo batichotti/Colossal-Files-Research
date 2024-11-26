@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|74e77eb30d0ecbb12964d005b439c8b84a505b84|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ocfs2: Fix a bug found by sparse check.
-
-We need to use le32_to_cpu to test rec->e_cpos in
-ocfs2_dinode_insert_check.
-
-Signed-off-by: Tao Ma <tao.ma@oracle.com>
-Acked-by: Joel Becker <joel.becker@oracle.com>
-Signed-off-by: Mark Fasheh <mfasheh@suse.com>"|1|Tao Ma|tao.ma@oracle.com|2009-03-12 06:24:23+08:00|-28800|Mark Fasheh|mfasheh@suse.com|2009-03-12 16:46:01-07:00|25200

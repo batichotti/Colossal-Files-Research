@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fd97dc516c372982f9c3637e20b131e1f55ac2f6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: MMU: Simpify accessed/dirty/present/nx bit handling
-
-Always set the accessed and dirty bit (since having them cleared causes
-a read-modify-write cycle), always set the present bit, and copy the
-nx bit from the guest.
-
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|2|Avi Kivity|avi@qumranet.com|2007-05-31 18:20:14+03:00|-10800|Avi Kivity|avi@qumranet.com|2007-07-16 12:05:44+03:00|-10800

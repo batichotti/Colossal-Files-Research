@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e8243f32f2550de0eb97180f02a4e94c42d68b38|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"dlm: silence a harmless use after free warning
-
-We pass the freed ""r"" pointer back to the caller.  It's harmless but it
-upsets the static checkers.
-
-Signed-off-by: Dan Carpenter <dan.carpenter@oracle.com>
-Signed-off-by: David Teigland <teigland@redhat.com>"|1|Dan Carpenter|dan.carpenter@oracle.com|2014-02-05 16:21:53+03:00|-10800|David Teigland|teigland@redhat.com|2014-02-12 15:44:03-06:00|21600

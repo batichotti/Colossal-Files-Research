@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c28294b941232931fbd714099798eb7aa7e865d7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: don't call strlen on non-terminated string in dev_set_alias()
-
-KMSAN reported a use of uninitialized memory in dev_set_alias(),
-which was caused by calling strlcpy() (which in turn called strlen())
-on the user-supplied non-terminated string.
-
-Signed-off-by: Alexander Potapenko <glider@google.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Alexander Potapenko|glider@google.com|2017-06-06 15:56:54+02:00|-7200|David S. Miller|davem@davemloft.net|2017-06-07 12:58:45-04:00|14400

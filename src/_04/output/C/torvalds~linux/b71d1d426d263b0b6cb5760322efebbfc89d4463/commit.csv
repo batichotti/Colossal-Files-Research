@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b71d1d426d263b0b6cb5760322efebbfc89d4463|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"inet: constify ip headers and in6_addr
-
-Add const qualifiers to structs iphdr, ipv6hdr and in6_addr pointers
-where possible, to make code intention more obvious.
-
-Signed-off-by: Eric Dumazet <eric.dumazet@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|64|Eric Dumazet|eric.dumazet@gmail.com|2011-04-22 04:53:02+00:00|0|David S. Miller|davem@davemloft.net|2011-04-22 11:04:14-07:00|25200

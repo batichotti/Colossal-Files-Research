@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bd55597520a2eaa0d71dd7683513a14bfd1bdf5c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"convert btrfs to ->evict_inode()
-
-NB: do we want btrfs_wait_ordered_range() on eviction of
-inodes with positive i_nlink on subvolume with zero root_refs?
-If not, btrfs_evict_inode() can be simplified by unconditionally
-bailing out in case of i_nlink > 0 in the very beginning...
-
-Signed-off-by: Al Viro <viro@zeniv.linux.org.uk>"|3|Al Viro|viro@zeniv.linux.org.uk|2010-06-07 11:35:40-04:00|14400|Al Viro|viro@zeniv.linux.org.uk|2010-08-09 16:48:22-04:00|14400

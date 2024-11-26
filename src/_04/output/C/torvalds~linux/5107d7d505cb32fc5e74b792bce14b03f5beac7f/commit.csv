@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5107d7d505cb32fc5e74b792bce14b03f5beac7f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ceph: move ceph_osdc_{read,write}pages to ceph.ko
-
-Since these helpers are only used by ceph.ko, move them there and
-rename them with _sync_ qualifiers.
-
-Signed-off-by: Xiubo Li <xiubli@redhat.com>
-Reviewed-by: Jeff Layton <jlayton@kernel.org>
-Signed-off-by: Ilya Dryomov <idryomov@gmail.com>"|3|Xiubo Li|xiubli@redhat.com|2020-01-29 03:27:07-05:00|18000|Ilya Dryomov|idryomov@gmail.com|2020-03-30 12:42:40+02:00|-7200

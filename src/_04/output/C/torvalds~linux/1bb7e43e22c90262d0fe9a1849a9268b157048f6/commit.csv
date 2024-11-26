@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1bb7e43e22c90262d0fe9a1849a9268b157048f6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ALSA: hda/realtek - Cache COEF 0 value
-
-The COEF #0 value represents a sort of device id, so it's supposedly
-constant while operation.  Better to use the cached value instead of
-reading it at each time from the performance POV.
-
-Signed-off-by: Takashi Iwai <tiwai@suse.de>"|1|Takashi Iwai|tiwai@suse.de|2011-10-17 16:50:59+02:00|-7200|Takashi Iwai|tiwai@suse.de|2011-10-17 23:39:33+02:00|-7200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ff32b4506f3ef2228aab601f6d4b37840d05ffaf|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wifi: mac80211: add ___ieee80211_disconnect variant not locking sdata
-
-There are cases where keeping sdata locked for an operation. Add a
-variant that does not take sdata lock to permit these usecases.
-
-Signed-off-by: Benjamin Berg <benjamin.berg@intel.com>
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Benjamin Berg|benjamin.berg@intel.com|2023-06-06 17:43:26+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2023-06-19 13:11:25+02:00|-7200

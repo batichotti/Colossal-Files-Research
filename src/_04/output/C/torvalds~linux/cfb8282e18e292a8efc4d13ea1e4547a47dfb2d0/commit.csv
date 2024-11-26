@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cfb8282e18e292a8efc4d13ea1e4547a47dfb2d0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"clk: qcom: Enable clocks which needs to be always on for SDM845
-
-There are certain clocks which needs to be always enabled for system
-operation. Add support for the same by adding 'CLK_IS_CRITICAL' flag
-for such clocks.
-
-Signed-off-by: Amit Nischal <anischal@codeaurora.org>
-Signed-off-by: Stephen Boyd <sboyd@kernel.org>"|2|Amit Nischal|anischal@codeaurora.org|2018-06-11 12:08:15+05:30|-19800|Stephen Boyd|sboyd@kernel.org|2018-07-03 10:10:36-07:00|25200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4e379d36c050b0117b5d10048be63a44f5036115|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: Remove incorrect check in can_open_delegated()
-
-Remove an incorrect check for NFS_DELEGATION_NEED_RECLAIM in
-can_open_delegated(). We are allowed to cache opens even in
-a situation where we're doing reboot recovery.
-
-Signed-off-by: Trond Myklebust <trond.myklebust@primarydata.com>"|1|Trond Myklebust|trond.myklebust@primarydata.com|2014-12-19 12:47:50-05:00|18000|Trond Myklebust|trond.myklebust@primarydata.com|2015-01-05 19:40:54-08:00|28800

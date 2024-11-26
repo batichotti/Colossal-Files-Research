@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0a7e69c7d4a302a66d0210e1a8f6efbffbc887b5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: scsi_debug: do_device_access add sg offset argument
-
-WRITE SCATTERED needs to take several ""bites"" out of the data-out buffer.
-Expand the do_device_access() function to take a sg_skip argument.
-
-Signed-off-by: Douglas Gilbert <dgilbert@interlog.com>
-Reviewed-by: Bart Van Assche <bart.vanassche@wdc.com>
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|1|Douglas Gilbert|dgilbert@interlog.com|2017-12-23 12:48:12-05:00|18000|Martin K. Petersen|martin.petersen@oracle.com|2018-01-10 23:25:05-05:00|18000

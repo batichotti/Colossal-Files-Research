@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6515b7d71de72850143bdd996b032dbdffda0848|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSD: Add nfsd4_encode_fattr4_aclsupport()
-
-Refactor the encoder for FATTR4_ACLSUPPORT into a helper. In a
-subsequent patch, this helper will be called from a bitmask loop.
-
-Reviewed-by: Jeff Layton <jlayton@kernel.org>
-Signed-off-by: Chuck Lever <chuck.lever@oracle.com>"|1|Chuck Lever|chuck.lever@oracle.com|2023-09-18 09:58:23-04:00|14400|Chuck Lever|chuck.lever@oracle.com|2023-10-16 12:44:15-04:00|14400

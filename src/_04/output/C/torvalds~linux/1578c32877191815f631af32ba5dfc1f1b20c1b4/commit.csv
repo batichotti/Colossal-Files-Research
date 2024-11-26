@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1578c32877191815f631af32ba5dfc1f1b20c1b4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: Introduce nf_tables_getrule_single()
-
-Outsource the reply skb preparation for non-dump getrule requests into a
-distinct function. Prep work for rule reset locking.
-
-Signed-off-by: Phil Sutter <phil@nwl.cc>
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|1|Phil Sutter|phil@nwl.cc|2023-10-19 16:03:35+02:00|-7200|Pablo Neira Ayuso|pablo@netfilter.org|2023-10-24 13:16:29+02:00|-7200

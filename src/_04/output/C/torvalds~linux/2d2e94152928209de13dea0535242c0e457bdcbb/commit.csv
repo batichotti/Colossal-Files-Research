@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2d2e94152928209de13dea0535242c0e457bdcbb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"RDMA/cm: Define new RDMA port space specific to IB
-
-Add RDMA_PS_IB.  XRC QP types will use the IB port space when operating
-over the RDMA CM.  For the 'IP protocol' field value, we select 0x3F,
-which is listed as being for 'any local network'.
-
-Signed-off-by: Sean Hefty <sean.hefty@intel.com>
-Signed-off-by: Roland Dreier <roland@purestorage.com>"|2|Sean Hefty|sean.hefty@intel.com|2011-05-28 21:56:39-07:00|25200|Roland Dreier|roland@purestorage.com|2011-10-13 09:39:52-07:00|25200

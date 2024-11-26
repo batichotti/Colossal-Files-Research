@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|75e1658ea0ea78a534b973aefa6a175277fff664|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/amdgpu: call release_firmware() without a NULL check
-
-The release_firmware() function is NULL tolerant so we do not need
-to check for NULL param before calling it.
-
-Signed-off-by: Nirmoy Das <nirmoy.das@amd.com>
-Reviewed-by: Christian König <christian.koenig@amd.com>
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|6|Nirmoy Das|nirmoy.das@amd.com|2020-06-25 15:35:07+02:00|-7200|Alex Deucher|alexander.deucher@amd.com|2020-07-01 01:59:27-04:00|14400

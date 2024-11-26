@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fa417ab7506f9234100e249938d13e94a8c404e8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mm, slub: move disabling irqs closer to get_partial() in ___slab_alloc()
-
-Continue reducing the irq disabled scope. Check for per-cpu partial slabs with
-first with irqs enabled and then recheck with irqs disabled before grabbing
-the slab page. Mostly preparatory for the following patches.
-
-Signed-off-by: Vlastimil Babka <vbabka@suse.cz>"|1|Vlastimil Babka|vbabka@suse.cz|2021-05-10 13:56:17+02:00|-7200|Vlastimil Babka|vbabka@suse.cz|2021-09-04 01:12:21+02:00|-7200

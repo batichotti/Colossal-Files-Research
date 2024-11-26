@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ce7e010aef63dc6b37a2354f7c9f5f4aedb37978|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: initialize the percpu counters before replaying the journal
-
-We now initialize the percpu counters before replaying the journal,
-but after the journal, we recalculate the global counters, to deal
-with the possibility of the per-blockgroup counts getting updated by
-the journal replay.
-
-Signed-off-by: ""Theodore Ts'o"" <tytso@mit.edu>"|1|Theodore Ts'o|tytso@mit.edu|2010-11-03 12:03:21-04:00|14400|Theodore Ts'o|tytso@mit.edu|2010-11-03 12:03:21-04:00|14400

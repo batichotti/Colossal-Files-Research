@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a292f2534fb2caec7f3ad32045338f8feac28112|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"crypto: hisilicon/qm - remove some unused defines
-
-1. Remove some macros define since it is not used.
-2. Remove enum QM_HW_UNKNOWN since it is not used.
-3. Remove unused member 'is_frozen' in 'hisi_qm' structure.
-
-Signed-off-by: Weili Qian <qianweili@huawei.com>
-Signed-off-by: Herbert Xu <herbert@gondor.apana.org.au>"|2|Weili Qian|qianweili@huawei.com|2023-02-09 20:36:13+08:00|-28800|Herbert Xu|herbert@gondor.apana.org.au|2023-02-14 13:39:33+08:00|-28800

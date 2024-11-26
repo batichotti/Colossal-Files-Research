@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|31843edab7cb3924006544b901c9cab33941b684|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"dm integrity: improve discard in journal mode
-
-When we discard something that is present in the journal, we flush the
-journal first, so that discarded blocks are not overwritten by the journal
-content.
-
-Signed-off-by: Mikulas Patocka <mpatocka@redhat.com>
-Signed-off-by: Mike Snitzer <snitzer@redhat.com>"|1|Mikulas Patocka|mpatocka@redhat.com|2020-03-22 20:42:27+01:00|-3600|Mike Snitzer|snitzer@redhat.com|2020-03-24 13:09:49-04:00|14400

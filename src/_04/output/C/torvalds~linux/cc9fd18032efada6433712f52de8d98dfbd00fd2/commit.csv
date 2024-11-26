@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cc9fd18032efada6433712f52de8d98dfbd00fd2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bnxt_en: Fix fall-through warnings for Clang
-
-In preparation to enable -Wimplicit-fallthrough for Clang, fix a warning
-by explicitly adding a break statement instead of just letting the code
-fall through to the next case.
-
-Link: https://github.com/KSPP/linux/issues/115
-Signed-off-by: Gustavo A. R. Silva <gustavoars@kernel.org>"|1|Gustavo A. R. Silva|gustavoars@kernel.org|2020-11-20 12:27:50-06:00|21600|Gustavo A. R. Silva|gustavoars@kernel.org|2021-05-17 19:23:09-05:00|18000

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|652f89f64fabcdae9143ee2b4253cfa838fb0279|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: Do not accept delegated opens when a delegation recall is in effect
-
-...and report the servers that try to return a delegation when the client
-is using the CLAIM_DELEG_CUR open mode. That behaviour is explicitly
-forbidden in RFC3530.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|1|Trond Myklebust|Trond.Myklebust@netapp.com|2011-12-09 19:05:58-05:00|18000|Trond Myklebust|Trond.Myklebust@netapp.com|2011-12-09 19:05:58-05:00|18000

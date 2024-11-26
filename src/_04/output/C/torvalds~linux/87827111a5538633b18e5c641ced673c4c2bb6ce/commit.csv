@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|87827111a5538633b18e5c641ced673c4c2bb6ce|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"function-graph: Fix seqfile memory leak
-
-Every time we cat set_graph_function, we leak memory allocated
-by seq_open().
-
-Signed-off-by: Li Zefan <lizf@cn.fujitsu.com>
-LKML-Reference: <4A67D907.2010500@cn.fujitsu.com>
-Signed-off-by: Steven Rostedt <rostedt@goodmis.org>"|1|Li Zefan|lizf@cn.fujitsu.com|2009-07-23 11:29:11+08:00|-28800|Steven Rostedt|rostedt@goodmis.org|2009-07-23 09:53:23-04:00|14400

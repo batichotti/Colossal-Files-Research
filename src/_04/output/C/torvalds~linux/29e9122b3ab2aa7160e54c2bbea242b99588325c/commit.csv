@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|29e9122b3ab2aa7160e54c2bbea242b99588325c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"be2net: Export board temperature using hwmon-sysfs interface.
-
-Ethtool statistics is not the right place to display board temperature.
-This patch adds support to export die temperature of devices supported
-by be2net driver via the sysfs hwmon interface.
-
-Signed-off-by: Venkat Duvvuru <VenkatKumar.Duvvuru@Emulex.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|4|Venkata Duvvuru|VenkatKumar.Duvvuru@Emulex.Com|2015-05-13 13:00:12+05:30|-19800|David S. Miller|davem@davemloft.net|2015-05-14 12:21:41-04:00|14400

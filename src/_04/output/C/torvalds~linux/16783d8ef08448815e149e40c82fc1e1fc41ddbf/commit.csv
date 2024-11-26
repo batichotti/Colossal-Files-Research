@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|16783d8ef08448815e149e40c82fc1e1fc41ddbf|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/amdgpu: apply the RV2 system aperture fix to RN/CZN as well
-
-These chips needs the same fix.  This was previously not seen
-on then since the AGP aperture expanded the system aperture,
-but this showed up again when AGP was disabled.
-
-Reviewed-and-tested-by: Jiadong Zhu <Jiadong.Zhu@amd.com>
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|4|Alex Deucher|alexander.deucher@amd.com|2024-01-03 11:55:53-05:00|18000|Alex Deucher|alexander.deucher@amd.com|2024-01-05 16:10:44-05:00|18000

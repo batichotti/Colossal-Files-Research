@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0c6181cb301fd04a5800920ba423be753b0a4a01|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"selinux: consolidate the ptrace parent lookup code
-
-We lookup the tracing parent in two places, using effectively the
-same code, let's consolidate it.
-
-Signed-off-by: Paul Moore <paul@paul-moore.com>"|1|Paul Moore|paul@paul-moore.com|2016-03-30 21:41:21-04:00|14400|Paul Moore|paul@paul-moore.com|2016-04-05 16:11:02-04:00|14400

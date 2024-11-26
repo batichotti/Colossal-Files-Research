@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5045b468037dfe1c848827ce10e99d87f5669160|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: check CS.DPL against RPL during task switch
-
-Table 7-1 of the SDM mentions a check that the code segment's
-DPL must match the selector's RPL.  This was not done by KVM,
-fix it.
-
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Paolo Bonzini|pbonzini@redhat.com|2014-05-15 18:09:29+02:00|-7200|Paolo Bonzini|pbonzini@redhat.com|2014-05-22 17:47:17+02:00|-7200

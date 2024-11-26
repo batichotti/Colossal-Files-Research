@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2e588f84f254cca0fc3b9f01297d06799b8c85d3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"be2net: changes for BE3 native mode support
-
-So far be2net has been using BE3 in legacy mode. It now checks for native
- mode capability and if available it sets it. In native mode, the RX_COMPL
- structure is different from that in legacy mode.
-
-Signed-off-by: Sathya Perla <sathya.perla@emulex.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|5|Sathya Perla|sathya.perla@emulex.com|2011-03-11 02:49:26+00:00|0|David S. Miller|davem@davemloft.net|2011-03-14 15:17:09-07:00|25200

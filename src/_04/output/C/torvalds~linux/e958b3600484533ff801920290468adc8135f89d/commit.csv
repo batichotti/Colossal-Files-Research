@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e958b3600484533ff801920290468adc8135f89d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sched: move weighted_cpuload into #ifdef CONFIG_SMP section
-
-weighted_cpuload is only used on SMP. move it into the CONFIG_SMP
-section.
-
-Signed-off-by: Thomas Gleixner <tglx@linutronix.de>"|1|Thomas Gleixner|tglx@linutronix.de|2008-06-04 23:22:32+02:00|-7200|Ingo Molnar|mingo@elte.hu|2008-06-06 15:25:02+02:00|-7200

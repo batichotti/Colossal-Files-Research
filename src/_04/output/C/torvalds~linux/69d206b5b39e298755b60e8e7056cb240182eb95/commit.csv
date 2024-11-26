@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|69d206b5b39e298755b60e8e7056cb240182eb95|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4.1: If slot allocation fails due to OOM, retry more quickly
-
-If the NFSv4.1 session slot allocation fails due to an ENOMEM condition,
-then set the task->tk_timeout to 1/4 second to ensure that we do retry
-the slot allocation more quickly.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|1|Trond Myklebust|Trond.Myklebust@netapp.com|2012-11-22 13:21:02-05:00|18000|Trond Myklebust|Trond.Myklebust@netapp.com|2012-12-06 00:30:44+01:00|-3600

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cf30cf67d6c7592c670ec946d89fc15ee0deb0eb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tracing: Add disable_on_free option
-
-Add a trace option to disable tracing on free. When this option is
-set, a write into the free_buffer file will not only shrink the
-ring buffer down to zero, but it will also disable tracing.
-
-Cc: Vaibhav Nagarnaik <vnagarnaik@google.com>
-Signed-off-by: Steven Rostedt <rostedt@goodmis.org>"|2|Steven Rostedt|srostedt@redhat.com|2011-06-14 22:44:07-04:00|14400|Steven Rostedt|rostedt@goodmis.org|2011-06-14 22:48:45-04:00|14400

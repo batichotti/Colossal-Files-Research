@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d176b1f62f242ab259ff665a26fbac69db1aecba|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: handle error of ext4_setup_system_zone() on remount
-
-ext4_setup_system_zone() can fail. Handle the failure in ext4_remount().
-
-Reviewed-by: Lukas Czerner <lczerner@redhat.com>
-Signed-off-by: Jan Kara <jack@suse.cz>
-Link: https://lore.kernel.org/r/20200728130437.7804-2-jack@suse.cz
-Signed-off-by: Theodore Ts'o <tytso@mit.edu>"|1|Jan Kara|jack@suse.cz|2020-07-28 15:04:32+02:00|-7200|Theodore Ts'o|tytso@mit.edu|2020-08-07 14:12:36-04:00|14400

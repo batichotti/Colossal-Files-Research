@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c53aa5058ad5ca8876a47d6639ad4d4f2c5ed584|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: use right lock in __dev_remove_offload
-
-offload_base is protected by offload_lock, not ptype_lock
-
-Signed-off-by: Eric Dumazet <edumazet@google.com>
-Cc: Vlad Yasevich <vyasevic@redhat.com>
-Acked-by: Vlad Yasevich <vyasevic@redhat.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Eric Dumazet|edumazet@google.com|2012-11-16 08:08:23+00:00|0|David S. Miller|davem@davemloft.net|2012-11-16 13:41:08-05:00|18000

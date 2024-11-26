@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3f01424c8128af7a69c824176bff195be457d6ac|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] ibmvfc: Add support for fc_block_scsi_eh
-
-Adds support for fc_block_scsi_eh to block the EH handlers if
-the target device is in the blocked state to ensure we don't
-take devices offline.
-
-Signed-off-by: Brian King <brking@linux.vnet.ibm.com>
-Signed-off-by: James Bottomley <James.Bottomley@suse.de>"|1|Brian King|brking@linux.vnet.ibm.com|2010-06-17 13:55:15-05:00|18000|James Bottomley|James.Bottomley@suse.de|2010-07-27 12:02:41-05:00|18000

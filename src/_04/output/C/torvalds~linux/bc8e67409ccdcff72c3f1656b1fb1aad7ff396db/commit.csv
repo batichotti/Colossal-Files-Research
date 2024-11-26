@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bc8e67409ccdcff72c3f1656b1fb1aad7ff396db|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: Fix spinlock assertions on UP systems
-
-On UP systems without DEBUG_SPINLOCK, ext4_is_group_locked always fails
-which triggers a BUG_ON() call.
-This patch fixes it by using assert_spin_locked instead.
-
-Signed-off-by: Vincent Minet <vincent@vincent-minet.net>
-Signed-off-by: ""Theodore Ts'o"" <tytso@mit.edu>"|2|Vincent Minet|vincent@vincent-minet.net|2009-05-15 08:33:18-04:00|14400|Theodore Ts'o|tytso@mit.edu|2009-05-15 08:33:18-04:00|14400

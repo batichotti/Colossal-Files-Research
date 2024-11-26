@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ec44a6762fc57c82acdf2c12ec9b542d9f308300|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: qla4xxx: fully convert to the generic DMA API
-
-The driver is currently using an odd mix of legacy PCI DMA API and
-generic DMA API calls, switch it over to the generic API entirely.
-
-Signed-off-by: Christoph Hellwig <hch@lst.de>
-Reviewed-by: Johannes Thumshirn <jthumshirn@suse.de>
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|1|Christoph Hellwig|hch@lst.de|2018-10-11 09:56:58+02:00|-7200|Martin K. Petersen|martin.petersen@oracle.com|2018-10-17 21:58:53-04:00|14400

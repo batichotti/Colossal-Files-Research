@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|47a05811b656915789bdd4c7e8cc18007e09c56d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libceph: pass object number back to calc_layout() caller
-
-Have calc_layout() pass the computed object number back to its
-caller.  (This is a small step to simplify review.)
-
-Signed-off-by: Alex Elder <elder@inktank.com>
-Reviewed-by: Josh Durgin <josh.durgin@inktank.com>"|1|Alex Elder|elder@inktank.com|2013-02-15 22:10:17-06:00|21600|Sage Weil|sage@inktank.com|2013-05-01 21:14:25-07:00|25200

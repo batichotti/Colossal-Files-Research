@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7a4f5ad051e02139a9f1c0f7f4b1acb88915852b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: vmx_set_cr0 expects kvm->srcu locked
-
-vmx_set_cr0 is called from vcpu run context, therefore it expects
-kvm->srcu to be held (for setting up the real-mode TSS).
-
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Marcelo Tosatti|mtosatti@redhat.com|2012-03-27 19:47:26-03:00|10800|Avi Kivity|avi@redhat.com|2012-04-05 19:04:09+03:00|-10800

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ea1075edcbab7d92f4e4ccf5490043f796bf78be|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"RDMA: Add and use rdma_for_each_port
-
-We have many loops iterating over all of the end port numbers on a struct
-ib_device, simplify them with a for_each helper.
-
-Reviewed-by: Parav Pandit <parav@mellanox.com>
-Signed-off-by: Jason Gunthorpe <jgg@mellanox.com>"|12|Jason Gunthorpe|jgg@mellanox.com|2019-02-12 21:12:47-07:00|25200|Jason Gunthorpe|jgg@mellanox.com|2019-02-19 10:13:39-07:00|25200

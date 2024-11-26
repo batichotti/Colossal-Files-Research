@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5f706b4a3bd68e5982879bb60f7bb27698e759b3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/edid: Don't include ext block csum in DispID size
-
-The EDID extension block checksum byte is not part of the
-actual DispID data, so don't use it in validate_displayid().
-
-Signed-off-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Link: https://patchwork.freedesktop.org/patch/msgid/20200313162054.16009-8-ville.syrjala@linux.intel.com
-Reviewed-by: Alex Deucher <alexander.deucher@amd.com>"|1|Ville Syrjälä|ville.syrjala@linux.intel.com|2020-03-13 18:20:52+02:00|-7200|Ville Syrjälä|ville.syrjala@linux.intel.com|2020-03-18 17:52:36+02:00|-7200

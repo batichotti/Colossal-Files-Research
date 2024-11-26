@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e8a7b8b12b13831467c6158c1e82801e25b5dd98|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ceph: exclude setfilelock requests when calculating oldest tid
-
-setfilelock requests can block for a long time, which can prevent
-client from advancing its oldest tid.
-
-Signed-off-by: Yan, Zheng <zyan@redhat.com>"|2|Yan, Zheng|zyan@redhat.com|2015-05-19 18:54:40+08:00|-28800|Ilya Dryomov|idryomov@gmail.com|2015-06-25 11:49:29+03:00|-10800

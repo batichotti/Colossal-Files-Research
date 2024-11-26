@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8f190fb3f7a405682666d3723f6ec370b5afe4da|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sched: Assume *balance is valid
-
-Since all load_balance() callers will have !NULL balance parameters we
-can now assume so and remove a few checks.
-
-Signed-off-by: Peter Zijlstra <a.p.zijlstra@chello.nl>
-LKML-Reference: <new-submission>
-Signed-off-by: Ingo Molnar <mingo@elte.hu>"|1|Peter Zijlstra|a.p.zijlstra@chello.nl|2009-12-24 14:18:21+01:00|-3600|Ingo Molnar|mingo@elte.hu|2010-01-21 13:40:15+01:00|-3600

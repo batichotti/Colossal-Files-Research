@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|89b8c02a35f5c6199f76a839b7a7e450f8185f1b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: don't calculate duration for S1G
-
-For now just skip the duration calculation for frames
-transmitted on the S1G band and avoid a warning.
-
-Signed-off-by: Thomas Pedersen <thomas@adapt-ip.com>
-Link: https://lore.kernel.org/r/20200922022818.15855-11-thomas@adapt-ip.com
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Thomas Pedersen|thomas@adapt-ip.com|2020-09-21 19:28:11-07:00|25200|Johannes Berg|johannes.berg@intel.com|2020-09-28 13:56:28+02:00|-7200

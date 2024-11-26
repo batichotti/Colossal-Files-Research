@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b11ed354c9f725ece2b9440dd6343b42cd5d031c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"xfs: remove the unusued tmp_logflags variable in xfs_bmapi_allocate
-
-tmp_logflags is initialized to 0 and then ORed into bma->logflags, which
-isn't actually doing anything.
-
-Signed-off-by: Christoph Hellwig <hch@lst.de>
-Reviewed-by: ""Darrick J. Wong"" <djwong@kernel.org>
-Signed-off-by: Chandan Babu R <chandanbabu@kernel.org>"|1|Christoph Hellwig|hch@lst.de|2024-04-29 08:15:22+02:00|-7200|Chandan Babu R|chandanbabu@kernel.org|2024-04-30 09:45:19+05:30|-19800

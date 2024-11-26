@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4b7f353b8026b43e66af475ef2266958ddcfa6eb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ath10k: fix the wrong RX rate idx report at 11G mode
-
-The RX rate idx is not correct for 11G mode OFDM packet.
-Because the bitrate table start with CCK index instead of OFDM.
-
-Signed-off-by: Yanbo Li <yanbol@qca.qualcomm.com>
-Signed-off-by: Kalle Valo <kvalo@qca.qualcomm.com>"|3|Yanbo Li|yanbol@qca.qualcomm.com|2015-11-12 10:36:10-08:00|28800|Kalle Valo|kvalo@qca.qualcomm.com|2015-11-16 21:48:53+02:00|-7200

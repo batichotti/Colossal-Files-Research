@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|06ea01b1eeb10450ee8448f8895dd641c8d37047|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: merge btrfs_submit_bio_done to its caller
-
-There's one caller and its code is simple, we can open code it in
-run_one_async_done. The errors are passed through bio.
-
-Reviewed-by: Nikolay Borisov <nborisov@suse.com>
-Reviewed-by: Johannes Thumshirn <jthumshirn@suse.de>
-Signed-off-by: David Sterba <dsterba@suse.com>"|2|David Sterba|dsterba@suse.com|2018-07-17 22:08:41+02:00|-7200|David Sterba|dsterba@suse.com|2018-12-17 14:51:40+01:00|-3600

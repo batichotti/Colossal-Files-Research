@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|368ecade0532982c8916a49e66b8105413d8db59|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md: add __acquires/__releases annotations to (un)lock_two_stripes
-
-This tells sparse that we acquire/release the two stripe locks and
-avoids a warning.
-
-Signed-off-by: Christoph Hellwig <hch@lst.de>
-Signed-off-by: Song Liu <songliubraving@fb.com>"|1|Christoph Hellwig|hch@lst.de|2019-04-04 18:56:15+02:00|-7200|Song Liu|songliubraving@fb.com|2019-04-10 15:26:09-07:00|25200

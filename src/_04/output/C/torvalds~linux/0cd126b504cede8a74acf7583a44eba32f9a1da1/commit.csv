@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0cd126b504cede8a74acf7583a44eba32f9a1da1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cifs: verify lengths of QueryAllEAs reply
-
-Make sure the lengths in a QUERY_ALL_EAS reply don't make the parser walk
-off the end of the SMB.
-
-Signed-off-by: Jeff Layton <jlayton@redhat.com>
-Signed-off-by: Steve French <sfrench@us.ibm.com>"|1|Jeff Layton|jlayton@redhat.com|2010-02-10 16:18:26-05:00|18000|Steve French|sfrench@us.ibm.com|2010-02-23 20:47:11+00:00|0

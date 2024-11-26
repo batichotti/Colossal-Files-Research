@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|603a8bbe62e54108055fca46ecdd611c10c6cd0a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"skbuff: don't corrupt mac_header on skb expansion
-
-The skb mac_header field is sometimes NULL (or ~0u) as a sentinel
-value. The places where skb is expanded add an offset which would
-change this flag into an invalid pointer (or offset).
-
-Signed-off-by: Stephen Hemminger <shemminger@vyatta.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Stephen Hemminger|shemminger@vyatta.com|2009-06-17 12:17:34+00:00|0|David S. Miller|davem@davemloft.net|2009-06-17 18:46:41-07:00|25200

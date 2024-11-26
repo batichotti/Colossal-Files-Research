@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9f6200bbfc962d8f926278cf5d5ddb90a228c322|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: move /proc setup and teardown out of mballoc.c
-
-...and into the core setup/teardown code in fs/ext4/super.c so that
-other parts of ext4 can define tuning parameters.
-
-Signed-off-by: ""Theodore Ts'o"" <tytso@mit.edu>"|5|Theodore Ts'o|tytso@mit.edu|2008-09-23 09:18:24-04:00|14400|Theodore Ts'o|tytso@mit.edu|2008-09-23 09:18:24-04:00|14400

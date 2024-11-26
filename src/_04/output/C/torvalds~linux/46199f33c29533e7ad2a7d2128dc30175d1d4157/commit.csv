@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|46199f33c29533e7ad2a7d2128dc30175d1d4157|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: remove unneeded vmx_load_host_state() calls.
-
-vmx_load_host_state() does not handle msrs switching (except
-MSR_KERNEL_GS_BASE) since commit 26bb0981b3f. Remove call to it
-where it is no longer make sense.
-
-Signed-off-by: Gleb Natapov <gleb@redhat.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Gleb Natapov|gleb@redhat.com|2011-11-17 10:56:09+02:00|-7200|Avi Kivity|avi@redhat.com|2011-12-27 11:17:22+02:00|-7200

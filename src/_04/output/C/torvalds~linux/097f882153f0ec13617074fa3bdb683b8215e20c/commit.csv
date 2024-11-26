@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|097f882153f0ec13617074fa3bdb683b8215e20c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wl12xx: always initialize AP-mode max power level
-
-Sometimes we only get the Tx power level via op->config when the FW is
-off. Record the received power level when this happens and use it to
-initialize the firmware during boot.
-
-Signed-off-by: Arik Nemtsov <arik@wizery.com>
-Signed-off-by: Luciano Coelho <coelho@ti.com>"|3|Arik Nemtsov|arik@wizery.com|2011-06-27 22:06:34+03:00|-10800|Luciano Coelho|coelho@ti.com|2011-07-05 21:51:05+03:00|-10800

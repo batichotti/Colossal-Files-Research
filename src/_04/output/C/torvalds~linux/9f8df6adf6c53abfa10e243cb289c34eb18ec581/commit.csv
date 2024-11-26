@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9f8df6adf6c53abfa10e243cb289c34eb18ec581|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"regulator: core: fix possible NULL dereference
-
-We were checking rdev->supply for NULL after dereferencing it. Lets
-check for rdev->supply along with _regulator_is_enabled() and call
-regulator_enable() only if rdev->supply is not NULL.
-
-Signed-off-by: Sudip Mukherjee <sudip@vectorindia.org>
-Signed-off-by: Mark Brown <broonie@kernel.org>"|1|Sudip Mukherjee|sudipm.mukherjee@gmail.com|2015-09-02 16:14:06+05:30|-19800|Mark Brown|broonie@kernel.org|2015-09-02 13:19:04+01:00|-3600

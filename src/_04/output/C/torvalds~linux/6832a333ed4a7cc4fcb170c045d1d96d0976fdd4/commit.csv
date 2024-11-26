@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6832a333ed4a7cc4fcb170c045d1d96d0976fdd4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bpf: Handle multiple variable additions into packet pointers in verifier.
-
-We must accumulate into reg->aux_off rather than use a plain assignment.
-
-Add a test for this situation to test_align.
-
-Reported-by: Alexei Starovoitov <ast@fb.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|David S. Miller|davem@davemloft.net|2017-05-11 19:30:02-07:00|25200|David S. Miller|davem@davemloft.net|2017-05-11 19:48:58-07:00|25200

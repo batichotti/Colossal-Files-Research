@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|32d602771b624e3a2fc86d5e220e9fa7dced767a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"xdp: pass XDP flags into install handlers
-
-Pass XDP flags to the xdp ndo.  This will allow drivers to look
-at the mode flags and make decisions about offload.
-
-Signed-off-by: Jakub Kicinski <jakub.kicinski@netronome.com>
-Acked-by: Daniel Borkmann <daniel@iogearbox.net>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Jakub Kicinski|jakub.kicinski@netronome.com|2017-06-21 18:25:03-07:00|25200|David S. Miller|davem@davemloft.net|2017-06-23 13:42:18-04:00|14400

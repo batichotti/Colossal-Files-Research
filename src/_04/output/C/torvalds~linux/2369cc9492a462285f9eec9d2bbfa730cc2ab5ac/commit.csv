@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2369cc9492a462285f9eec9d2bbfa730cc2ab5ac|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ACPI: thinkpad-acpi: duplicate driver attributes to new hwmon pdrv
-
-Thinkpad-acpi has some driver attributes (debug level, sysfs interface
-version, etc) that also belong to the new hwmon driver.  Duplicate them
-there.
-
-Signed-off-by: Henrique de Moraes Holschuh <hmh@hmh.eng.br>
-Signed-off-by: Len Brown <len.brown@intel.com>"|2|Henrique de Moraes Holschuh|hmh@hmh.eng.br|2007-09-23 11:39:07-03:00|10800|Len Brown|len.brown@intel.com|2007-09-25 15:22:07-04:00|14400

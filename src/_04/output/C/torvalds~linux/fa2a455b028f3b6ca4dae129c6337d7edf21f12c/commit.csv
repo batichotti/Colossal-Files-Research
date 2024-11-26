@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fa2a455b028f3b6ca4dae129c6337d7edf21f12c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[PATCH] Fix vma argument in get_usr_pages() for gate areas
-
-The system call gate area handling called vm_normal_page() with the
-wrong vma (which was always NULL, and caused an oops).
-
-Signed-off-by: Nick Piggin <npiggin@suse.de>
-Signed-off-by: Linus Torvalds <torvalds@osdl.org>"|1|Nick Piggin|nickpiggin@yahoo.com.au|2005-11-29 18:43:17+11:00|-39600|Linus Torvalds|torvalds@g5.osdl.org|2005-11-29 07:53:32-08:00|28800

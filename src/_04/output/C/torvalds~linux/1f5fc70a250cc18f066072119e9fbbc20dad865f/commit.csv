@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1f5fc70a250cc18f066072119e9fbbc20dad865f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Wireless: nl80211, fix lock imbalance
-
-Don't forget to unlock cfg80211_mutex in one fail path of
-nl80211_set_wiphy.
-
-Signed-off-by: Jiri Slaby <jirislaby@gmail.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|1|Jiri Slaby|jirislaby@gmail.com|2009-06-20 12:31:11+02:00|-7200|John W. Linville|linville@tuxdriver.com|2009-07-07 12:55:25-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|de8d5ab2ff6edc8e26822965a30b6aa4e9332025|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: Make RX-FCS and HW GRO mutually exclusive
-
-Same as LRO, hardware GRO cannot be enabled with RX-FCS.
-When both are requested, hardware GRO will be dropped.
-
-Suggested-by: David Miller <davem@davemloft.net>
-Signed-off-by: Gal Pressman <galp@mellanox.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Gal Pressman|galp@mellanox.com|2018-03-12 11:48:49+02:00|-7200|David S. Miller|davem@davemloft.net|2018-03-12 11:15:16-04:00|14400

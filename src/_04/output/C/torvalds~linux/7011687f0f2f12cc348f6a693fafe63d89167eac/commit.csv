@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7011687f0f2f12cc348f6a693fafe63d89167eac|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ipv6: fix route error binding peer in func icmp6_dst_alloc
-
-in func icmp6_dst_alloc,dst_metric_set call ipv6_cow_metrics to set metric.
-ipv6_cow_metrics may will call rt6_bind_peer to set rt6_info->rt6i_peer.
-So,we should move ipv6_addr_copy before dst_metric_set to make sure rt6_bind_peer success.
-
-Signed-off-by: Gao feng <gaofeng@cn.fujitsu.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Gao feng|omarapazanadi@gmail.com|2011-10-28 02:46:57+00:00|0|David S. Miller|davem@davemloft.net|2011-10-28 16:36:07-04:00|14400

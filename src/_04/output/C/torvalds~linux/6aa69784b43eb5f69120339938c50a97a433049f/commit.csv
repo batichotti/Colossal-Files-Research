@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6aa69784b43eb5f69120339938c50a97a433049f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ftrace: Add freeing algorithm to free ftrace_mod_maps
-
-The ftrace_mod_map is a descriptor to save module init function names in
-case they were traced, and the trace output needs to reference the function
-name from the function address. But after the function is unloaded, it
-the maps should be freed, as the rest of the function names are as well.
-
-Signed-off-by: Steven Rostedt (VMware) <rostedt@goodmis.org>"|1|Steven Rostedt (VMware)|rostedt@goodmis.org|2017-09-05 19:20:16-04:00|14400|Steven Rostedt (VMware)|rostedt@goodmis.org|2017-10-05 17:57:34-04:00|14400

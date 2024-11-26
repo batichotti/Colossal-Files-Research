@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2a764b529ae57bed61da2c90ff132b9fec97f80b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"selinux: Assign proper class to PF_UNIX/SOCK_RAW sockets
-
-For PF_UNIX, SOCK_RAW is synonymous with SOCK_DGRAM (cf.
-net/unix/af_unix.c). This is a tad obscure, but libpcap uses it.
-
-Signed-off-by: Luis Ressel <aranea@aixah.de>
-Acked-by: Stephen Smalley <sds@tycho.nsa.gov>
-Signed-off-by: Paul Moore <paul@paul-moore.com>"|1|Luis Ressel|aranea@aixah.de|2017-07-25 15:13:41-04:00|14400|Paul Moore|paul@paul-moore.com|2017-07-25 15:13:41-04:00|14400

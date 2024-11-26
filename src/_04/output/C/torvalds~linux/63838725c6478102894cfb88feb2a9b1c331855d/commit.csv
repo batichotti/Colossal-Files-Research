@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|63838725c6478102894cfb88feb2a9b1c331855d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Reassemble all available data when retransmissions succeed.
-
-As retransmitted packets arrive, attempt to reassemble SDUs.  If all
-requested retransmissions have been received, acknowledge them and
-transition back to the RECV state.
-
-Signed-off-by: Mat Martineau <mathewm@codeaurora.org>
-Signed-off-by: Gustavo Padovan <gustavo.padovan@collabora.co.uk>"|1|Mat Martineau|mathewm@codeaurora.org|2012-05-17 20:53:45-07:00|25200|Johan Hedberg|johan.hedberg@intel.com|2012-06-05 06:34:04+03:00|-10800

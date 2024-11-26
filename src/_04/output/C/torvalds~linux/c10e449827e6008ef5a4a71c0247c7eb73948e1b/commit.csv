@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c10e449827e6008ef5a4a71c0247c7eb73948e1b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4.1: Ping server when our session table limits are too high
-
-If the server requests a lower target_highest_slotid, then ensure
-that we ping it with at least one RPC call containing an
-appropriate SEQUENCE op. This ensures that the server won't need to
-send a recall callback in order to shrink the slot table.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|3|Trond Myklebust|Trond.Myklebust@netapp.com|2012-11-26 16:16:54-05:00|18000|Trond Myklebust|Trond.Myklebust@netapp.com|2012-12-06 00:30:47+01:00|-3600

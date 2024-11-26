@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|37ffc8da803a1151e887f2a80f08f0c49d1dc1d5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: move IE parsing to util file
-
-Since IE parsing is required for the mlme and mesh code, it's
-not a static function anyway, and it's much better to have it
-in util rather than the overly large mlme.c
-
-Signed-off-by: Johannes Berg <johannes@sipsolutions.net>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|2|Johannes Berg|johannes@sipsolutions.net|2008-09-08 16:40:36+02:00|-7200|John W. Linville|linville@tuxdriver.com|2008-09-11 15:53:35-04:00|14400

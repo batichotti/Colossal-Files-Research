@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2c0a303a128cbef54a7b58dc2e413b874d760097|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"regulator: core: Fix locking of GPIO list on free
-
-When we acquire a shareable enable GPIO on probe we do so with the
-regulator_list_mutex held.  However when we release the GPIOs we do this
-immediately after dropping the mutex meaning that the list could become
-corrupted.  Move the release into the locked region to avoid this.
-
-Signed-off-by: Mark Brown <broonie@kernel.org>"|1|Mark Brown|broonie@kernel.org|2016-04-12 08:05:43+01:00|-3600|Mark Brown|broonie@kernel.org|2016-04-13 07:43:00+01:00|-3600

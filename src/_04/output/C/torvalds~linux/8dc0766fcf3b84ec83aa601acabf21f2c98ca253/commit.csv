@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8dc0766fcf3b84ec83aa601acabf21f2c98ca253|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"OMAPDSS: DSI: use lane config in dsi_cio_wait_tx_clk_esc_reset
-
-Use the new lane config in dsi_cio_wait_tx_clk_esc_reset(). This also
-extends the function to support 5 lanes on OMAP4, instead of 3 lanes.
-
-Signed-off-by: Tomi Valkeinen <tomi.valkeinen@ti.com>"|1|Tomi Valkeinen|tomi.valkeinen@ti.com|2011-10-13 15:26:50+03:00|-10800|Tomi Valkeinen|tomi.valkeinen@ti.com|2011-12-02 08:54:17+02:00|-7200

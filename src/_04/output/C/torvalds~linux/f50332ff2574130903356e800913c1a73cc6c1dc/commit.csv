@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f50332ff2574130903356e800913c1a73cc6c1dc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: print single-character strings with seq_putc
-
-Using seq_putc to print a single character saves at least a strlen()
-call and a memory access, and may also give a small .text reduction.
-
-Signed-off-by: Rasmus Villemoes <linux@rasmusvillemoes.dk>
-Reviewed-by: Finn Thain <fthain@telegraphics.com.au>
-Signed-off-by: Christoph Hellwig <hch@lst.de>"|15|Rasmus Villemoes|linux@rasmusvillemoes.dk|2014-12-03 00:10:54+01:00|-3600|James Bottomley|JBottomley@Parallels.com|2015-02-02 09:57:46-08:00|28800

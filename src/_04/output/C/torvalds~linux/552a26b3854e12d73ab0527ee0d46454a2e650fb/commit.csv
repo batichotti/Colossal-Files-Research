@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|552a26b3854e12d73ab0527ee0d46454a2e650fb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wifi: mac80211: rename ieee80211_ie_build_he_6ghz_cap()
-
-The term 'IE' isn't really in use in the spec, and I want
-to rework all of this to use SKBs as the primary method
-for building elements. Rename this one already.
-
-Link: https://msgid.link/20240129202041.b8064a4e73b5.I8d2f4526562029107c6414c6cda378b300b1b0b0@changeid
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|4|Johannes Berg|johannes.berg@intel.com|2024-01-29 20:19:30+01:00|-3600|Johannes Berg|johannes.berg@intel.com|2024-02-08 15:00:43+01:00|-3600

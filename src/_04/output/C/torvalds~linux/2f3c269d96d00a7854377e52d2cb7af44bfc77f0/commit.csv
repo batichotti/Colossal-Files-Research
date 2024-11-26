@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2f3c269d96d00a7854377e52d2cb7af44bfc77f0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"s390/qeth: return proper errno on IO error
-
-When propagating IO errors back to userspace, one error path in
-qeth_irq() currently returns '1' instead of a proper errno.
-
-Fixes: 54daaca7024d (""s390/qeth: cancel cmd on early error"")
-Signed-off-by: Julian Wiedmann <jwi@linux.ibm.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Julian Wiedmann|jwi@linux.ibm.com|2019-11-20 14:20:57+01:00|-3600|David S. Miller|davem@davemloft.net|2019-11-20 12:29:47-08:00|28800

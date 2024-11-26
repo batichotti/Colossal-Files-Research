@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3d1a90ab0ed93362ec8ac85cf291243c87260c21|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS4: Fix use-after-free in trace_event_raw_event_nfs4_set_lock
-
-It is only safe to call the tracepoint before rpc_put_task() because
-'data' is freed inside nfs4_lock_release (rpc_release).
-
-Fixes: 48c9579a1afe (""Adding stateid information to tracepoints"")
-Signed-off-by: Dave Wysochanski <dwysocha@redhat.com>
-Signed-off-by: Trond Myklebust <trond.myklebust@hammerspace.com>"|1|Dave Wysochanski|dwysocha@redhat.com|2020-12-11 05:12:51-05:00|18000|Trond Myklebust|trond.myklebust@hammerspace.com|2021-01-06 12:34:57-05:00|18000

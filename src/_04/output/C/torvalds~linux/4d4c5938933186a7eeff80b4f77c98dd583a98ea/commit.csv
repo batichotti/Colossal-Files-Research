@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4d4c5938933186a7eeff80b4f77c98dd583a98ea|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: fix write pointers all the time
-
-Even if the roll forward recovery stopped due to any error, we have to fix
-the write pointers in order to mount the disk from the previous checkpoint.
-
-Reviewed-by: Chao Yu <chao@kernel.org>
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|2|Jaegeuk Kim|jaegeuk@kernel.org|2024-02-16 13:23:30-08:00|28800|Jaegeuk Kim|jaegeuk@kernel.org|2024-02-29 08:34:35-08:00|28800

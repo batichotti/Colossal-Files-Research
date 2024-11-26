@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d39f3b4f33d245a08a7296a04bab80bd52466f58|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nl80211: reindent some sched scan code
-
-The sched scan code here is really deep - avoid one level
-of indentation by short-circuiting the loop instead of
-putting everything into the if block.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2019-04-08 13:40:47+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2019-04-08 13:40:47+02:00|-7200

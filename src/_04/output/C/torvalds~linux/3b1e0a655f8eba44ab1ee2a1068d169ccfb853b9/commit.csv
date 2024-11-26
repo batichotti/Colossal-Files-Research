@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3b1e0a655f8eba44ab1ee2a1068d169ccfb853b9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[NET] NETNS: Omit sock->sk_net without CONFIG_NET_NS.
-
-Introduce per-sock inlines: sock_net(), sock_net_set()
-and per-inet_timewait_sock inlines: twsk_net(), twsk_net_set().
-Without CONFIG_NET_NS, no namespace other than &init_net exists.
-Let's explicitly define them to help compiler optimizations.
-
-Signed-off-by: YOSHIFUJI Hideaki <yoshfuji@linux-ipv6.org>"|69|YOSHIFUJI Hideaki|yoshfuji@linux-ipv6.org|2008-03-26 02:26:21+09:00|-32400|YOSHIFUJI Hideaki|yoshfuji@linux-ipv6.org|2008-03-26 04:39:55+09:00|-32400

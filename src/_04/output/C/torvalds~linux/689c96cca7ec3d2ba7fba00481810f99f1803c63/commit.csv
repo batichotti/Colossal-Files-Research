@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|689c96cca7ec3d2ba7fba00481810f99f1803c63|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bonding: bond_slave_info_query() fix
-
-bond_slave_info_query() should keep a read lock while accessing slave info,
-or risk accessing stale data and corruption.
-
-Signed-off-by: Eric Dumazet <dada1@cosmosbay.com>
-Signed-off-by: Jay Vosburgh <fubar@us.ibm.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Eric Dumazet|dada1@cosmosbay.com|2009-04-23 03:39:04+00:00|0|David S. Miller|davem@davemloft.net|2009-05-01 15:18:19-07:00|25200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|01f6c61bae3d658058ee6322af77acea26a5ee3a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ksmbd: Fix resource leak in smb2_lock()
-
-""flock"" is leaked if an error happens before smb2_lock_init(), as the
-lock is not added to the lock_list to be cleaned up.
-
-Signed-off-by: Marios Makassikis <mmakassikis@freebox.fr>
-Acked-by: Namjae Jeon <linkinjeon@kernel.org>
-Signed-off-by: Steve French <stfrench@microsoft.com>"|1|Marios Makassikis|mmakassikis@freebox.fr|2022-11-29 12:19:33+01:00|-3600|Steve French|stfrench@microsoft.com|2022-12-11 08:33:31-06:00|21600

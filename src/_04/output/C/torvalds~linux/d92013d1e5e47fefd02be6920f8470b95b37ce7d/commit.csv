@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d92013d1e5e47fefd02be6920f8470b95b37ce7d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mm/vmscan: Turn page_check_references() into folio_check_references()
-
-This function only has one caller, and it already has a folio.  This
-removes a number of calls to compound_head().
-
-Signed-off-by: Matthew Wilcox (Oracle) <willy@infradead.org>"|1|Matthew Wilcox (Oracle)|willy@infradead.org|2022-02-15 13:44:40-05:00|18000|Matthew Wilcox (Oracle)|willy@infradead.org|2022-03-21 13:01:35-04:00|14400

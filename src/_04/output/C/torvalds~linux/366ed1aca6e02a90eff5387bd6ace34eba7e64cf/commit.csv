@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|366ed1aca6e02a90eff5387bd6ace34eba7e64cf|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: Remove unneeded export of a couple of xdp generic functions
-
-generic_xdp_tx and xdp_do_generic_redirect are only used by builtin
-code, so remove the EXPORT_SYMBOL_GPL for them.
-
-Signed-off-by: David Ahern <dsahern@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|David Ahern|dsahern@gmail.com|2020-02-20 22:03:13-07:00|25200|David S. Miller|davem@davemloft.net|2020-02-24 11:03:38-08:00|28800

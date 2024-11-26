@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|aebf02430d25b6bd2b8542126fdcdb90e75a24b8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: use unlikely to improve the efficiency of the kernel
-
-Because the function 'sb_getblk' seldomly fails to return NULL
-value,it will be better to use 'unlikely' to optimize it.
-
-Signed-off-by: Wang Shilong <wangsl-fnst@cn.fujitsu.com>
-Signed-off-by: ""Theodore Ts'o"" <tytso@mit.edu>"|5|Wang Shilong|wangsl-fnst@cn.fujitsu.com|2013-01-12 16:28:47-05:00|18000|Theodore Ts'o|tytso@mit.edu|2013-01-12 16:28:47-05:00|18000

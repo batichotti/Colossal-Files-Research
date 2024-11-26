@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|681260df4dad45337b14ba762f94b402204e9ac3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/amdgpu: Drop hive->in_reset
-
-Since we serialize all resets no need to protect from concurrent
-resets.
-
-Signed-off-by: Andrey Grodzovsky <andrey.grodzovsky@amd.com>
-Reviewed-by: Christian König <christian.koenig@amd.com>
-Link: https://www.spinics.net/lists/amd-gfx/msg74115.html"|3|Andrey Grodzovsky|andrey.grodzovsky@amd.com|2021-12-15 16:55:25-05:00|18000|Andrey Grodzovsky|andrey.grodzovsky@amd.com|2022-02-09 12:16:29-05:00|18000

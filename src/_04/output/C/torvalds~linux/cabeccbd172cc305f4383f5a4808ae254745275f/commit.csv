@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cabeccbd172cc305f4383f5a4808ae254745275f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tcp: kill eff_sacks ""cache"", the sole user can calculate itself
-
-Also fixes insignificant bug that would cause sending of stale
-SACK block (would occur in some corner cases).
-
-Signed-off-by: Ilpo Järvinen <ilpo.jarvinen@helsinki.fi>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|5|Ilpo Järvinen|ilpo.jarvinen@helsinki.fi|2009-02-28 04:44:38+00:00|0|David S. Miller|davem@davemloft.net|2009-03-02 03:00:16-08:00|28800

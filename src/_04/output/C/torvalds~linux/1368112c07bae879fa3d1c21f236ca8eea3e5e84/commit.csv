@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1368112c07bae879fa3d1c21f236ca8eea3e5e84|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mISDN: Cleanup channel also if it already was deactivated
-
-If a channel was closed after it was deactivated it could happen that
-something was not proper resetted. The test if a channel is still activ
-was wrong, so remove it and always do the cleanup.
-
-Signed-off-by: Karsten Keil <kkeil@linux-pingi.de>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|8|Karsten Keil|kkeil@linux-pingi.de|2012-05-15 23:51:01+00:00|0|David S. Miller|davem@davemloft.net|2012-05-16 15:22:06-04:00|14400

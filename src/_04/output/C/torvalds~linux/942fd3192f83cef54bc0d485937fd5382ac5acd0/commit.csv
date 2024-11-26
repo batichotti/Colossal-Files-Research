@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|942fd3192f83cef54bc0d485937fd5382ac5acd0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: check last page index in cached bio to decide submission
-
-If the cached bio has the last page's index, then we need to submit it.
-Otherwise, we don't need to submit it and can wait for further IO merges.
-
-Reviewed-by: Chao Yu <yuchao0@huawei.com>
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|5|Jaegeuk Kim|jaegeuk@kernel.org|2017-02-01 16:51:22-08:00|28800|Jaegeuk Kim|jaegeuk@kernel.org|2017-02-23 10:10:48-08:00|28800

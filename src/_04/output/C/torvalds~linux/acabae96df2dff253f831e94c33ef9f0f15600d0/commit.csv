@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|acabae96df2dff253f831e94c33ef9f0f15600d0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Use defines in in hci_get_auth_req()
-
-Make the code in hci_get_auth_req() more readable by using the
-defined macros instead of inlining magic numbers.
-
-Signed-off-by: Mikel Astiz <mikel.astiz@bmw-carit.de>
-Signed-off-by: Timo Mueller <timo.mueller@bmw-carit.de>
-Signed-off-by: Gustavo Padovan <gustavo.padovan@collabora.co.uk>"|1|Mikel Astiz|mikel.astiz@bmw-carit.de|2013-06-28 10:56:28+02:00|-7200|Gustavo Padovan|gustavo.padovan@collabora.co.uk|2013-07-25 14:15:22+01:00|-3600

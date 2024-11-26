@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f723a1a293deefa7f25b3833266fa7eb18d877f7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cnic: remove use of VLAN_TAG_PRESENT
-
-This just removes VLAN_TAG_PRESENT use.  VLAN TCI=0 special meaning is
-deeply embedded in the driver code and so is left as is.
-
-Signed-off-by: Michał Mirosław <mirq-linux@rere.qmqm.pl>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Michał Mirosław|mirq-linux@rere.qmqm.pl|2018-11-08 18:44:50+01:00|-3600|David S. Miller|davem@davemloft.net|2018-11-08 19:49:31-08:00|28800

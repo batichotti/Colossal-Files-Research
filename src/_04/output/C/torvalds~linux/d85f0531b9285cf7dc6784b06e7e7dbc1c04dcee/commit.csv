@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d85f0531b9285cf7dc6784b06e7e7dbc1c04dcee|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"accel/habanalabs: break is_idle function into per-engine sub-routines
-
-is_idle() was too long, so break it up for readability.
-In addition, we can now use the new sub-routines from other places.
-
-Signed-off-by: Koby Elbaz <kelbaz@habana.ai>
-Reviewed-by: Oded Gabbay <ogabbay@kernel.org>
-Signed-off-by: Oded Gabbay <ogabbay@kernel.org>"|1|Koby Elbaz|kelbaz@habana.ai|2023-02-19 13:30:49+02:00|-7200|Oded Gabbay|ogabbay@kernel.org|2023-03-15 13:29:14+02:00|-7200

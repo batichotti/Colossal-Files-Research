@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|de63ad4cf4973462953c29c363f3cfa7117c2b2d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: X86: implement the logic for spinlock optimization
-
-get_cpl requires vcpu_load, so we must cache the result (whether the
-vcpu was preempted when its cpl=0) in kvm_vcpu_arch.
-
-Signed-off-by: Longpeng(Mike) <longpeng2@huawei.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|5|Longpeng(Mike)|longpeng2@huawei.com|2017-08-08 12:05:33+08:00|-28800|Paolo Bonzini|pbonzini@redhat.com|2017-08-08 10:57:43+02:00|-7200

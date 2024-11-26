@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e44c84a14469d307b06af5bfc50f140040dc5765|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: s/intel_crtc/crtc/ in .crtc_enable() and .crtc_disable()
-
-Get rid of the horrible aliasing drm_crtc and intel_crtc variables
-in the crtc enable/disable hooks.
-
-Reviewed-by: Manasi Navare <manasi.d.navare@intel.com>
-Signed-off-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Link: https://patchwork.freedesktop.org/patch/msgid/20191118164430.27265-9-ville.syrjala@linux.intel.com"|1|Ville Syrjälä|ville.syrjala@linux.intel.com|2019-11-18 18:44:28+02:00|-7200|Ville Syrjälä|ville.syrjala@linux.intel.com|2019-11-20 17:43:47+02:00|-7200

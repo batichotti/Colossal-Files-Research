@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|051e1b9f748ae673b7325d3fc049bb838606cffa|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Drop locks in btrfs_search_slot when reading a tree block.
-
-One lock per btree block can make for significant congestion if everyone
-has to wait for IO at the high levels of the btree.  This drops
-locks held by a path when doing reads during a tree search.
-
-Signed-off-by: Chris Mason <chris.mason@oracle.com>"|4|Chris Mason|chris.mason@oracle.com|2008-06-25 16:01:30-04:00|14400|Chris Mason|chris.mason@oracle.com|2008-09-25 11:04:03-04:00|14400

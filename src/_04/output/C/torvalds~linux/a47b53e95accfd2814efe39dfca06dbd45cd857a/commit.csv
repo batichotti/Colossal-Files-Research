@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a47b53e95accfd2814efe39dfca06dbd45cd857a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tracing: Rename tracing_reset() to tracing_reset_cpu()
-
-The name tracing_reset() was a misnomer, as it really only reset a single
-CPU buffer. Rename it to tracing_reset_cpu() and also make it static and
-remove the prototype from trace.h, as it is only used in a single function.
-
-Signed-off-by: Steven Rostedt (VMware) <rostedt@goodmis.org>"|2|Steven Rostedt (VMware)|rostedt@goodmis.org|2019-08-13 12:14:35-04:00|14400|Steven Rostedt (VMware)|rostedt@goodmis.org|2019-08-31 12:19:40-04:00|14400

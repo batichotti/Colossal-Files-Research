@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|09146abebc788a2f133a6eae9cd6dc8c91c05047|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: stmmac: Do not set RX IC bit if RX Coalesce is zero
-
-We may only want to use the RX Watchdog so lets check if RX Coalesce
-settings are non-zero and only set the RX Interrupt on Completion bit if
-its not.
-
-Signed-off-by: Jose Abreu <Jose.Abreu@synopsys.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Jose Abreu|Jose.Abreu@synopsys.com|2019-11-14 12:42:45+01:00|-3600|David S. Miller|davem@davemloft.net|2019-11-15 12:25:41-08:00|28800

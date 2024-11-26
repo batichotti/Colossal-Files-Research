@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|14bd99c821f7ace0e8110a1bfdfaa27e1788e20f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"LSM: Separate idea of ""major"" LSM from ""exclusive"" LSM
-
-In order to both support old ""security="" Legacy Major LSM selection, and
-handling real exclusivity, this creates LSM_FLAG_EXCLUSIVE and updates
-the selection logic to handle them.
-
-Signed-off-by: Kees Cook <keescook@chromium.org>
-Reviewed-by: Casey Schaufler <casey@schaufler-ca.com>"|6|Kees Cook|keescook@chromium.org|2018-09-19 19:57:06-07:00|25200|Kees Cook|keescook@chromium.org|2019-01-08 13:18:43-08:00|28800

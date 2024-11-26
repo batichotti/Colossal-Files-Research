@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2b5a24a01df12fbfa3e702ad7efae27bcb852e33|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"regulator: core: Fast path non-deferred disables
-
-Users (especially framework code) may end up passing in a zero deferral
-time depending on runtime conditions or configuration. If they do then
-just call regulator_disable() directly to save scheduling.
-
-Signed-off-by: Mark Brown <broonie@opensource.wolfsonmicro.com>
-Acked-by: Liam Girdwood <lrg@ti.com>"|1|Mark Brown|broonie@opensource.wolfsonmicro.com|2012-09-07 11:00:53+08:00|-28800|Mark Brown|broonie@opensource.wolfsonmicro.com|2012-09-08 08:51:12+08:00|-28800

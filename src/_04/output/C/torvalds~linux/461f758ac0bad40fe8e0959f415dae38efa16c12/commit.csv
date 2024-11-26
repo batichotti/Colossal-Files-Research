@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|461f758ac0bad40fe8e0959f415dae38efa16c12|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rbd: replace IS_ERR and PTR_ERR with PTR_ERR_OR_ZERO
-
-This patch fixes coccinelle error regarding usage of IS_ERR and
-PTR_ERR instead of PTR_ERR_OR_ZERO.
-
-Signed-off-by: Duan Jiong <duanj.fnst@cn.fujitsu.com>
-Reviewed-by: Yan, Zheng <zheng.z.yan@intel.com>"|1|Duan Jiong|duanj.fnst@cn.fujitsu.com|2014-04-11 16:38:12+08:00|-28800|Yan, Zheng|zheng.z.yan@intel.com|2014-06-06 09:29:51+08:00|-28800

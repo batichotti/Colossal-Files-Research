@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5397df15fd993acd23d9590dbb29d39219d80e3d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"HID: wacom: wacom_setup_numbered_buttons is local to wacom_wac
-
-wacom_setup_numbered_buttons() is not used outside of wacom_wac.c,
-make it static.
-
-Signed-off-by: Jiri Kosina <jkosina@suse.cz>"|1|Jiri Kosina|jkosina@suse.cz|2015-08-28 20:46:42+02:00|-7200|Jiri Kosina|jkosina@suse.cz|2015-08-28 20:46:42+02:00|-7200

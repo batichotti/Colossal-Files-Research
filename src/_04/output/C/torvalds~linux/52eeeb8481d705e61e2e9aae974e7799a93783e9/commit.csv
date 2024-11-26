@@ -1,5 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|52eeeb8481d705e61e2e9aae974e7799a93783e9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[IPV6]: Unify ip6_onlink() and ipip6_onlink().
-
-Both are identical, let's create ipv6_chk_prefix() and use it
-in both places."|4|YOSHIFUJI Hideaki|yoshfuji@linux-ipv6.org|2008-03-15 22:54:23-04:00|14400|YOSHIFUJI Hideaki|yoshfuji@linux-ipv6.org|2008-04-03 10:06:00+09:00|-32400

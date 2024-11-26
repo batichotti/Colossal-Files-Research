@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|11f78ac32b06648c1dde9371b70323168b51a83e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cfg80211: allow survey data to return global data
-
-Not all devices are able to report survey data (particularly
-time spent for various operations) per channel. As all these
-statistics already exist in survey data, allow such devices
-to report them (if userspace requested it)
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|3|Johannes Berg|johannes.berg@intel.com|2014-11-14 16:43:50+01:00|-3600|Johannes Berg|johannes.berg@intel.com|2015-01-08 15:27:54+01:00|-3600

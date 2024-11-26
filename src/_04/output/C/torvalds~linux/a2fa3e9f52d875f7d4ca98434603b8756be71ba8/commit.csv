@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a2fa3e9f52d875f7d4ca98434603b8756be71ba8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Remove arch specific components from the general code
-
-struct kvm_vcpu has vmx-specific members; remove them to a private structure.
-
-Signed-off-by: Gregory Haskins <ghaskins@novell.com>
-Signed-off-by: Rusty Russell <rusty@rustcorp.com.au>
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|5|Gregory Haskins|ghaskins@novell.com|2007-07-27 08:13:10-04:00|14400|Avi Kivity|avi@qumranet.com|2007-10-13 10:18:20+02:00|-7200

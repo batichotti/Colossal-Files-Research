@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|560c26c8345509619c3575331b99b329b5de1054|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] ips: Mode Sense (Caching Page ) fix
-
-To avoid the ""sda: got wrong page"" message, the ServeRAID driver
-should be setting flags indicating that the Mode Sense commands are
-not supported.
-
-Signed-off-by: Jack Hammer <jack_hammer@adaptec.com>
-Signed-off-by: James Bottomley <James.Bottomley@SteelEye.com>"|1|Jack Hammer|jack_hammer@adaptec.com|2006-01-13 10:06:50-05:00|18000|James Bottomley|jejb@mulgrave.(none)|2006-01-14 10:54:53-06:00|21600

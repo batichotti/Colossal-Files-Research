@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d913ed17f0a7d74e2847695bc920d77a33f2490b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"CIFS: Optimize cifs_user_read() in a short read case on reconnects
-
-by filling the output buffer with a data got from a partially received
-response and requesting the remaining data from the server. This is
-suitable for non-signed connections.
-
-Signed-off-by: Pavel Shilovsky <pshilovsky@samba.org>
-Signed-off-by: Steve French <smfrench@gmail.com>"|3|Pavel Shilovsky|pshilovsky@samba.org|2014-07-10 11:31:48+04:00|-14400|Steve French|smfrench@gmail.com|2014-08-02 01:23:04-05:00|18000

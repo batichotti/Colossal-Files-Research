@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|836b5a6356ac49a4631c06bc87b0ea02f41623ca|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: issue discard with finally produced len and minlen
-
-This patch determines to issue discard commands by comparing given minlen and
-the length of produced final candidates.
-
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|3|Jaegeuk Kim|jaegeuk@kernel.org|2015-04-30 22:50:06-07:00|25200|Jaegeuk Kim|jaegeuk@kernel.org|2015-05-28 15:41:39-07:00|25200

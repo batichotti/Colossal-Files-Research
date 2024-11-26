@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|923c61bbc6413e87e5f6b0bae663d202a8de0537|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Remove irq_pending bitmap
-
-Only one interrupt vector can be injected from userspace irqchip at
-any given time so no need to store it in a bitmap. Put it into interrupt
-queue directly.
-
-Signed-off-by: Gleb Natapov <gleb@redhat.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|4|Gleb Natapov|gleb@redhat.com|2009-05-11 13:35:48+03:00|-10800|Avi Kivity|avi@redhat.com|2009-06-10 11:48:57+03:00|-10800

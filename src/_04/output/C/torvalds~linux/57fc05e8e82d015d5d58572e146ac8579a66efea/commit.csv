@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|57fc05e8e82d015d5d58572e146ac8579a66efea|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: mm_account_pinned_pages() optimization
-
-Adopt atomic_long_try_cmpxchg() in mm_account_pinned_pages()
-as it is slightly more efficient.
-
-Signed-off-by: Eric Dumazet <edumazet@google.com>
-Cc: Willem de Bruijn <willemb@google.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Eric Dumazet|edumazet@google.com|2022-11-15 09:10:56+00:00|0|David S. Miller|davem@davemloft.net|2022-11-16 12:42:00+00:00|0

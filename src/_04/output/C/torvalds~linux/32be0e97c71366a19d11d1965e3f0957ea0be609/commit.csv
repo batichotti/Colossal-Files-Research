@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|32be0e97c71366a19d11d1965e3f0957ea0be609|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: compress: deny setting unsupported compress algorithm
-
-If kernel doesn't support certain kinds of compress algorithm, deny to set
-them as compress algorithm of f2fs via 'compress_algorithm=%s' mount option.
-
-Signed-off-by: Chao Yu <yuchao0@huawei.com>
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|1|Chao Yu|yuchao0@huawei.com|2021-01-22 17:40:13+08:00|-28800|Jaegeuk Kim|jaegeuk@kernel.org|2021-01-27 15:20:02-08:00|28800

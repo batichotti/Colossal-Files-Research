@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c326c0a9c98c06346dd7e37815c651e9382bb7a7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Call drm_calc_timestamping_constants() earlier
-
-Update the pixel/line/frame duration information when we switch to the
-new pipe config. This will keep the timestamping constants in better
-sync with the real hardware state.
-
-Reviewed-by: mario.kleiner.de@gmail.com
-Signed-off-by: Ville Syrjälä <ville.syrjala@linux.intel.com>"|1|Ville Syrjälä|ville.syrjala@linux.intel.com|2013-10-28 12:53:41+02:00|-7200|Ville Syrjälä|ville.syrjala@linux.intel.com|2014-01-20 11:05:41+02:00|-7200

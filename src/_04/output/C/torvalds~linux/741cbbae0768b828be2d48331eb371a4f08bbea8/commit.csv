@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|741cbbae0768b828be2d48331eb371a4f08bbea8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: remove kvm_arch_has_vcpu_debugfs()
-
-There is no need for this function as all arches have to implement
-kvm_arch_create_vcpu_debugfs() no matter what.  A #define symbol
-let us actually simplify the code.
-
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|8|Paolo Bonzini|pbonzini@redhat.com|2019-08-03 08:14:25+02:00|-7200|Paolo Bonzini|pbonzini@redhat.com|2019-08-05 12:55:48+02:00|-7200

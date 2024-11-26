@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|691313ea621482aa3da9721770b2642f789f63e5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Move encoder variable to tighter scope
-
-Let's not pollute the function scope with variables when they're
-only needed inside some loops.
-
-Signed-off-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Link: https://patchwork.freedesktop.org/patch/msgid/20200115190813.17971-5-ville.syrjala@linux.intel.com
-Reviewed-by: José Roberto de Souza <jose.souza@intel.com>"|1|Ville Syrjälä|ville.syrjala@linux.intel.com|2020-01-15 21:08:13+02:00|-7200|Ville Syrjälä|ville.syrjala@linux.intel.com|2020-01-20 17:04:33+02:00|-7200

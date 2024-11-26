@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c46d7642e915106b0301bc4d53a79e8e806c2eb9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: core: eliminate dev_alloc_name{,_ns} code duplication
-
-dev_alloc_name contained a BUG_ON(), which I moved to dev_alloc_name_ns;
-the only other caller of that already has the same BUG_ON.
-
-Signed-off-by: Rasmus Villemoes <linux@rasmusvillemoes.dk>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Rasmus Villemoes|linux@rasmusvillemoes.dk|2017-11-13 00:15:06+01:00|-3600|David S. Miller|davem@davemloft.net|2017-11-14 16:38:46+09:00|-32400

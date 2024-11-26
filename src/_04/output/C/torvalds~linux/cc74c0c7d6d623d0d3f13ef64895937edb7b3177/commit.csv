@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cc74c0c7d6d623d0d3f13ef64895937edb7b3177|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: make ieee80211_beacon_connection_loss_work static
-
-There's no need to declare the function in the
-header file since it's only used in a single
-place, so make it static.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|2|Johannes Berg|johannes.berg@intel.com|2012-08-01 16:49:34+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2012-08-20 13:57:50+02:00|-7200

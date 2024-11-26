@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ad01b7d480a4a135f974afd5c617c417e0b0542f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"stmmac: make ioaddr 'void __iomem *' rather than unsigned long
-
-This avoids unnecessary casting and adds the ioaddr in the
-private structure.
-This patch also removes many warning when compile the driver.
-
-Signed-off-by: Giuseppe Cavallaro <peppe.cavallaro@st.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|14|Giuseppe CAVALLARO|peppe.cavallaro@st.com|2010-08-23 20:40:42+00:00|0|David S. Miller|davem@davemloft.net|2010-08-25 16:30:51-07:00|25200

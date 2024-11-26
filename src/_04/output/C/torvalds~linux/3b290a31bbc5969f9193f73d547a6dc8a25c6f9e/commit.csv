@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3b290a31bbc5969f9193f73d547a6dc8a25c6f9e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net/ipv6: Rename rt6_multipath_select
-
-Rename rt6_multipath_select to fib6_multipath_select and export it.
-A later patch wants access to it similar to IPv4's fib_select_path.
-
-Signed-off-by: David Ahern <dsahern@gmail.com>
-Acked-by: David S. Miller <davem@davemloft.net>
-Signed-off-by: Daniel Borkmann <daniel@iogearbox.net>"|2|David Ahern|dsahern@gmail.com|2018-05-09 20:34:20-07:00|25200|Daniel Borkmann|daniel@iogearbox.net|2018-05-11 00:10:56+02:00|-7200

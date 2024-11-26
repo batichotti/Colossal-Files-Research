@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|35314e39dabcfb256832654ad0e856a9fba744bd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ASoC: codecs: wcd934x: drop unneeded regulator include
-
-Driver does not use any regulator code, so drop redundant include of
-regulator/consumer.h header.
-
-Signed-off-by: Krzysztof Kozlowski <krzysztof.kozlowski@linaro.org>
-Link: https://msgid.link/r/20240117151208.1219755-3-krzysztof.kozlowski@linaro.org
-Signed-off-by: Mark Brown <broonie@kernel.org>"|1|Krzysztof Kozlowski|krzysztof.kozlowski@linaro.org|2024-01-17 16:12:08+01:00|-3600|Mark Brown|broonie@kernel.org|2024-01-22 15:31:15+00:00|0

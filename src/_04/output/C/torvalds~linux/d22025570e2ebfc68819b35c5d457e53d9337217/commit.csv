@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d22025570e2ebfc68819b35c5d457e53d9337217|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cgroup: fix alloc_cgroup_ns() error handling in copy_cgroup_ns()
-
-alloc_cgroup_ns() returns an ERR_PTR value on error but
-copy_cgroup_ns() was checking for NULL for error.  Fix it.
-
-Signed-off-by: Tejun Heo <tj@kernel.org>
-Reported-by: Dan Carpenter <dan.carpenter@oracle.com>"|1|Tejun Heo|tj@kernel.org|2016-02-18 11:44:24-05:00|18000|Tejun Heo|tj@kernel.org|2016-02-18 11:44:24-05:00|18000

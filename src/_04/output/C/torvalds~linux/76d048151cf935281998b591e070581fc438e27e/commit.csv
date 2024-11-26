@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|76d048151cf935281998b591e070581fc438e27e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"iwlwifi: introduce beacon context
-
-Only one context can be beaconing at a time,
-but we need to track which one. Introduce a
-new variable priv->beacon_ctx to do that.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>
-Signed-off-by: Wey-Yi Guy <wey-yi.w.guy@intel.com>"|5|Johannes Berg|johannes.berg@intel.com|2010-08-23 10:46:47+02:00|-7200|Wey-Yi Guy|wey-yi.w.guy@intel.com|2010-08-27 09:27:44-07:00|25200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7759db82774802885f96c250b36c3dfe317e62ff|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[AUDIT] Add uid, gid fields to ANOM_PROMISCUOUS message
-
-Changes the ANOM_PROMISCUOUS message to include uid and gid fields,
-making it consistent with other AUDIT_ANOM_ messages and in the
-format the userspace is expecting.
-
-Signed-off-by: Klaus Heinrich Kiwi <klausk@br.ibm.com>
-Acked-by: Eric Paris <eparis@redhat.com>"|1|Klaus Heinrich Kiwi|klausk@br.ibm.com|2008-01-23 22:57:45-05:00|18000|Al Viro|viro@zeniv.linux.org.uk|2008-02-01 14:25:10-05:00|18000

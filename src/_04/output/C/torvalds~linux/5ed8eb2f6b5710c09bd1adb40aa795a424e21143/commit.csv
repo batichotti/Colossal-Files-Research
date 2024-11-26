@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5ed8eb2f6b5710c09bd1adb40aa795a424e21143|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Fix setting host feature bits for SSP
-
-When we get a successful command complete for HCI_Write_SSP_Mode we need
-to update the host feature bits for the hdev struct accordingly.
-
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>
-Acked-by: Marcel Holtmann <marcel@holtmann.org>
-Signed-off-by: Gustavo Padovan <gustavo.padovan@collabora.co.uk>"|1|Johan Hedberg|johan.hedberg@intel.com|2012-10-25 00:09:51+03:00|-10800|Gustavo Padovan|gustavo.padovan@collabora.co.uk|2012-11-01 20:26:59-02:00|7200

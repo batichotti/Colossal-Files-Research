@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cd840f6a0d6522e37c49def0eabb1e2134b68f1d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wlcore: release lock on error in wl1271_op_suspend()
-
-We should release this lock before returning.
-
-Signed-off-by: Dan Carpenter <dan.carpenter@oracle.com>
-Signed-off-by: Luciano Coelho <coelho@ti.com>"|1|Dan Carpenter|dan.carpenter@oracle.com|2012-04-16 13:57:02+03:00|-10800|John W. Linville|linville@tuxdriver.com|2012-05-15 17:53:24-04:00|14400

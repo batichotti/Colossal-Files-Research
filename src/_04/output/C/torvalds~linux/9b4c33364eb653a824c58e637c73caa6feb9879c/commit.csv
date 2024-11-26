@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9b4c33364eb653a824c58e637c73caa6feb9879c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Make l2cap_recv_acldata() and sco_recv_scodata() return void
-
-The return value of l2cap_recv_acldata() and sco_recv_scodata()
-are not used, then change it to return void
-
-Signed-off-by: Arron Wang <arron.wang@intel.com>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|3|Arron Wang|arron.wang@intel.com|2015-06-09 17:47:22+08:00|-28800|Marcel Holtmann|marcel@holtmann.org|2015-06-09 13:41:36+02:00|-7200

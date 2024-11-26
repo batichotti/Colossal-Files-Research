@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|61513162aa2d6c17c37d25de2d0e5020cd9b37ec|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wifi: mac80211: mlme: shift some code around
-
-We'll need ieee80211_prep_channel() in other code for MLO
-later, so move the code up - unchanged for now - to avoid
-forward declarations in the future.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2022-07-12 11:13:56+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2022-07-15 11:43:22+02:00|-7200

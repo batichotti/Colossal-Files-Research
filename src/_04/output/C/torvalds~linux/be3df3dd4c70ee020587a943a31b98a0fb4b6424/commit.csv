@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|be3df3dd4c70ee020587a943a31b98a0fb4b6424|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: Don't allow a cached open with a revoked delegation
-
-If the delegation is marked as being revoked, we must not use it
-for cached opens.
-
-Fixes: 869f9dfa4d6d (""NFSv4: Fix races between nfs_remove_bad_delegation() and delegation return"")
-Signed-off-by: Trond Myklebust <trond.myklebust@hammerspace.com>
-Signed-off-by: Anna Schumaker <Anna.Schumaker@Netapp.com>"|3|Trond Myklebust|trondmy@gmail.com|2019-10-31 18:40:32-04:00|14400|Anna Schumaker|Anna.Schumaker@Netapp.com|2019-11-01 10:59:26-04:00|14400

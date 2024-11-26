@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1b3f78df6a80932d7deb0155d8b0871e8d3e4bca|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bonding: improve nl error msg when device can't be enslaved because of IFF_MASTER
-
-Use a more user friendly netlink error message when a device can't be
-enslaved because it has IFF_MASTER, by not referring directly to a
-kernel internal flag.
-
-Signed-off-by: Antoine Tenart <atenart@kernel.org>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Antoine Tenart|atenart@kernel.org|2021-08-16 12:08:28+02:00|-7200|David S. Miller|davem@davemloft.net|2021-08-16 14:03:30+01:00|-3600

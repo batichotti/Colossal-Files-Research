@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cc8e8342930129aa2c9b629e1653e4681f0896ea|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ceph: fix mds cluster availability check
-
-We should apply the check after getting the initial mdsmap.
-
-Fixes: e9e427f0a14f (""ceph: check availability of mds cluster on mount"")
-Link: http://tracker.ceph.com/issues/18161
-Signed-off-by: Yan, Zheng <zyan@redhat.com>"|1|Yan, Zheng|zyan@redhat.com|2017-01-04 16:21:58+08:00|-28800|Ilya Dryomov|idryomov@gmail.com|2017-01-12 19:31:01+01:00|-3600

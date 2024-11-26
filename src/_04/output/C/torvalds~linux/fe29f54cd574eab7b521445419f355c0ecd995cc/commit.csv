@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fe29f54cd574eab7b521445419f355c0ecd995cc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ipw2x00: move to kstrto* functions
-
-There is better to use kstrto* instead of simple_strtoul. In this case it
-applies a bit stricter rules for input as well.
-
-Signed-off-by: Andy Shevchenko <andriy.shevchenko@linux.intel.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|1|Andy Shevchenko|andriy.shevchenko@linux.intel.com|2013-04-10 14:01:18+03:00|-10800|John W. Linville|linville@tuxdriver.com|2013-04-10 14:10:34-04:00|14400

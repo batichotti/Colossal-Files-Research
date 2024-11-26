@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|005d6427ac4f276d937a36ca6a1d62b181ed70bf|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: move transaction aborts to the point of failure
-
-Call btrfs_abort_transaction as early as possible when an error
-condition is detected, that way the line number reported is useful
-and we're not clueless anymore which error path led to the abort.
-
-Signed-off-by: David Sterba <dsterba@suse.cz>"|4|David Sterba|dsterba@suse.cz|2012-09-18 07:52:32-06:00|21600|Chris Mason|chris.mason@fusionio.com|2012-10-08 20:09:02-04:00|14400

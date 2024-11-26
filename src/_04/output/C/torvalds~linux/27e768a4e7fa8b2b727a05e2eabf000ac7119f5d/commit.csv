@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|27e768a4e7fa8b2b727a05e2eabf000ac7119f5d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"pinctrl: renesas: Factor out common R-Car Gen3 bias handling
-
-All pin control drivers for R-Car Gen3 SoCs contain identical bias
-handling.  Reduce code duplication by moving it to the common pinctrl.c
-code.
-
-Signed-off-by: Geert Uytterhoeven <geert+renesas@glider.be>
-Link: https://lore.kernel.org/r/20201028151637.1734130-6-geert+renesas@glider.be"|7|Geert Uytterhoeven|geert+renesas@glider.be|2020-10-28 16:16:34+01:00|-3600|Geert Uytterhoeven|geert+renesas@glider.be|2020-11-13 15:37:41+01:00|-3600

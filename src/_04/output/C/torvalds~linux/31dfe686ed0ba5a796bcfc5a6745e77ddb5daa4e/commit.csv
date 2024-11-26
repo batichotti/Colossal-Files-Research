@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|31dfe686ed0ba5a796bcfc5a6745e77ddb5daa4e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"regulator: core: Simplify error flow in _regulator_do_set_voltage()
-
-If the voltage can not be set jump to the end of the function. This
-avoids having to check for an error multiple times and eliminates one
-level of nesting in a follow-up change.
-
-Signed-off-by: Matthias Kaehlcke <mka@chromium.org>
-Signed-off-by: Mark Brown <broonie@kernel.org>"|1|Matthias Kaehlcke|mka@chromium.org|2016-09-14 09:52:06-07:00|25200|Mark Brown|broonie@kernel.org|2016-09-16 17:33:40+01:00|-3600

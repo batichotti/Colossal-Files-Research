@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b478a9f9889c81e88077d1495daadee64c0af541|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"security: remove unused sb_get_mnt_opts hook
-
-The sb_get_mnt_opts() hook is unused, and is superseded by the
-sb_show_options() hook.
-
-Signed-off-by: Miklos Szeredi <mszeredi@suse.cz>
-Acked-by: James Morris <jmorris@namei.org>"|4|Miklos Szeredi|mszeredi@suse.cz|2008-07-03 20:56:04+02:00|-7200|James Morris|jmorris@namei.org|2008-07-14 15:02:05+10:00|-36000

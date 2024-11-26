@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|37b173a4d03d1681e6c9529bc43d7a3308132db6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[PATCH] remove completly bogus comment inside __alloc_pages() try_to_free_pages handling
-
-Remove completly bogus comment from did_some_progress != 0 handling (that
-same comment is a few lines below on did_some_progress = 0 case, where it
-belongs).
-
-Signed-off-by: Andrew Morton <akpm@osdl.org>
-Signed-off-by: Linus Torvalds <torvalds@osdl.org>"|1|Marcelo Tosatti|marcelo.tosatti@cyclades.com|2005-07-07 17:56:05-07:00|25200|Linus Torvalds|torvalds@g5.osdl.org|2005-07-07 18:23:35-07:00|25200

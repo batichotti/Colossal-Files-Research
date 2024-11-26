@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9e94af202afd961da39f82b55ba83edd4ad30e98|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libceph: move and add dout()s to ceph_osdc_request_{get,put}()
-
-Add dout()s to ceph_osdc_request_{get,put}().  Also move them to .c and
-turn kref release callback into a static function.
-
-Signed-off-by: Ilya Dryomov <ilya.dryomov@inktank.com>
-Reviewed-by: Alex Elder <elder@linaro.org>"|2|Ilya Dryomov|ilya.dryomov@inktank.com|2014-06-20 14:14:42+04:00|-14400|Ilya Dryomov|ilya.dryomov@inktank.com|2014-07-08 15:08:43+04:00|-14400

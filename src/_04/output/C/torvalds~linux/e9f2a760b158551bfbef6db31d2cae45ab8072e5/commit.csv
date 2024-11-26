@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e9f2a760b158551bfbef6db31d2cae45ab8072e5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: change kvm_mmu_page_get_gfn BUG_ON to WARN_ON
-
-Note that in such a case it is quite likely that KVM will BUG_ON
-in __pte_list_remove when the VM is closed.  However, there is no
-immediate risk of memory corruption in the host so a WARN_ON is
-enough and it lets you gather traces for debugging.
-
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Paolo Bonzini|pbonzini@redhat.com|2019-06-30 08:36:21-04:00|14400|Paolo Bonzini|pbonzini@redhat.com|2019-07-05 13:48:48+02:00|-7200

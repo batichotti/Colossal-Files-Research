@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a5f4cea74f1397bb29d0bbdabeb05bd05a23a741|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sctp: Use correct address family in sctp_getsockopt_peer_addrs()
-
-The function should use the address family of the address when
-trying to determine the length of the structure.
-
-Signed-off-by: Vlad Yasevich <vladislav.yasevich@hp.com>"|1|Vlad Yasevich|vladislav.yasevich@hp.com|2010-04-30 21:42:42-04:00|14400|Vlad Yasevich|vladislav.yasevich@hp.com|2010-04-30 21:42:42-04:00|14400

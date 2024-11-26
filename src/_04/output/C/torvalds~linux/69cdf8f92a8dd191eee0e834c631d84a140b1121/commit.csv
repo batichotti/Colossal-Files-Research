@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|69cdf8f92a8dd191eee0e834c631d84a140b1121|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ipv6 route: Fix lifetime in netlink.
-
-We could not see appropriate lifetime if the route had been scheduled
-to expired at 0 (in jiffies).  We should check rt6i_flags instead of
-rt6i_expires to determine whether lifetime is valid or not.
-
-Signed-off-by: YOSHIFUJI Hideaki <yoshfuji@linux-ipv6.org>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|YOSHIFUJI Hideaki|yoshfuji@linux-ipv6.org|2008-05-19 16:55:13-07:00|25200|David S. Miller|davem@davemloft.net|2008-05-19 16:55:13-07:00|25200

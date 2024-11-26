@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3abcdeda59c1d4cf2bf83311ed2d544355ec7c2d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"be2net: add multiple RX queue support
-
-This patch adds multiple RX queue support to be2net. There are
-upto 4 extra rx-queues per port into which TCP/UDP traffic can be hashed into.
-Some of the ethtool stats are now displayed on a per queue basis.
-
-Signed-off-by: Sathya Perla <sathya.perla@emulex.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|5|Sathya Perla|sathya.perla@emulex.com|2010-10-03 22:12:27-07:00|25200|David S. Miller|davem@davemloft.net|2010-10-03 22:12:27-07:00|25200

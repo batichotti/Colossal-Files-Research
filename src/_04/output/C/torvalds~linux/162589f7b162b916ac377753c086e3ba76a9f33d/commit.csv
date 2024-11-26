@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|162589f7b162b916ac377753c086e3ba76a9f33d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nl80211: remove TCP WoWLAN information
-
-Just like the radar information, the TCP WoWLAN capability
-data can increase the wiphy information and make it too
-big. Remove the TCP WoWLAN information; no driver supports
-it and new userspace tools will be required as well.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2013-02-20 00:56:27+01:00|-3600|Johannes Berg|johannes.berg@intel.com|2013-02-26 00:09:21+01:00|-3600

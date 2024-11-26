@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|57cf8043a64b56a10b9f194572548a3dfb62e596|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nl80211: Move peer link state definition to nl80211
-
-These definitions need to be exposed now that we can set the peer link
-states via NL80211_ATTR_STA_PLINK_STATE.  They were already being
-(opaquely) reported by NL80211_STA_INFO_PLINK_STATE.
-
-Signed-off-by: Javier Cardona <javier@cozybit.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|8|Javier Cardona|javier@cozybit.com|2011-05-13 10:45:43-07:00|25200|John W. Linville|linville@tuxdriver.com|2011-05-16 14:10:49-04:00|14400

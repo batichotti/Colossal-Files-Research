@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|aa5b03456500b57ab30313affa822d4cd90e2ab2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Check for P-256 OOB values in Secure Connections Only mode
-
-If Secure Connections Only mode has been enabled, the it is important
-to check that OOB data for P-256 values is provided. In case it is not,
-then tell the remote side that no OOB data is present.
-
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>"|1|Marcel Holtmann|marcel@holtmann.org|2015-01-27 16:04:33-08:00|28800|Marcel Holtmann|marcel@holtmann.org|2015-01-28 21:26:21+01:00|-3600

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a8305bff685252e80b7c60f4f5e7dd2e63e38218|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: Add and use skb_mark_not_on_list().
-
-An SKB is not on a list if skb->next is NULL.
-
-Codify this convention into a helper function and use it
-where we are dequeueing an SKB and need to mark it as such.
-
-Signed-off-by: David S. Miller <davem@davemloft.net>"|22|David S. Miller|davem@davemloft.net|2018-07-29 20:42:53-07:00|25200|David S. Miller|davem@davemloft.net|2018-09-10 10:06:54-07:00|25200

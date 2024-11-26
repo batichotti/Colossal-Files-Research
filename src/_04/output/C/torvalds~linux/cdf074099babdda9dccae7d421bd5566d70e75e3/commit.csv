@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cdf074099babdda9dccae7d421bd5566d70e75e3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ath10k: disable STA kickout in FW
-
-Currently ath10k is not using STA KICKOUT firmware functionality.
-In order to avoid unwanted WMI_PEER_STA_KICKOUT_EVENT event this functionality
-should be disabled when not used.
-
-Signed-off-by: Marek Puzyniak <marek.puzyniak@tieto.com>
-Signed-off-by: Kalle Valo <kvalo@qca.qualcomm.com>"|1|Marek Puzyniak|marek.puzyniak@tieto.com|2013-12-30 09:07:51+01:00|-3600|Kalle Valo|kvalo@qca.qualcomm.com|2014-01-10 11:43:47+02:00|-7200

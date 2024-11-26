@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|74dff282237ea8c0a5df1afd8526eac4b6cee063|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: framebuffer compression for GM45+
-
-Add support for framebuffer compression on GM45 and above.  Removes
-some unnecessary I915_HAS_FBC checks as well (this is now part of the
-FBC display function).
-
-Signed-off-by: Jesse Barnes <jbarnes@virtuousgeek.org>
-Signed-off-by: Eric Anholt <eric@anholt.net>"|4|Jesse Barnes|jbarnes@virtuousgeek.org|2009-09-14 15:39:40-07:00|25200|Eric Anholt|eric@anholt.net|2009-09-21 15:47:38-07:00|25200

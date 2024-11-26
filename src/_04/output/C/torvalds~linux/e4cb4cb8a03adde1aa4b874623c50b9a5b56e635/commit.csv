@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e4cb4cb8a03adde1aa4b874623c50b9a5b56e635|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ceph: prevent dup stale messages to console for restarting mds
-
-Prevent duplicate 'mds0 caps stale' message from spamming the console every
-few seconds while the MDS restarts.  Set s_renew_requested earlier, so that
-we only print the message once, even if we don't send an actual request.
-
-Signed-off-by: Sage Weil <sage@newdream.net>"|1|Sage Weil|sage@newdream.net|2010-03-18 13:43:09-07:00|25200|Sage Weil|sage@newdream.net|2010-03-23 07:46:58-07:00|25200

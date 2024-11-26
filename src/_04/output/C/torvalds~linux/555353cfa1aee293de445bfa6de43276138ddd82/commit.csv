@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|555353cfa1aee293de445bfa6de43276138ddd82|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netdev: The ingress_lock member is no longer needed.
-
-Every qdisc is assosciated with a queue, and in the case of ingress
-qdiscs that will now be netdev->rx_queue so using that queue's lock is
-the thing to do.
-
-Signed-off-by: David S. Miller <davem@davemloft.net>"|5|David S. Miller|davem@davemloft.net|2008-07-08 17:33:13-07:00|25200|David S. Miller|davem@davemloft.net|2008-07-08 17:33:13-07:00|25200

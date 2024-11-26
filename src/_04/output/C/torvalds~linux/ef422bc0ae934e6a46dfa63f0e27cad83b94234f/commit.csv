@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ef422bc0ae934e6a46dfa63f0e27cad83b94234f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: consolidate deauth/disassoc
-
-deauth and disassoc frames are completely identical so there's
-little point in having two functions to send them rather than
-one that gets a parameter. This same a bit of code size.
-
-Signed-off-by: Johannes Berg <johannes@sipsolutions.net>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|1|Johannes Berg|johannes@sipsolutions.net|2008-09-09 10:58:25+02:00|-7200|John W. Linville|linville@tuxdriver.com|2008-09-11 15:53:38-04:00|14400

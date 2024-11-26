@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b08484d715128abf28b8445e85c5adb14af0a62e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cifs: use mod_delayed_work() for &server->reconnect if already queued
-
-mod_delayed_work() is safer than queue_delayed_work() if there's a
-chance that the work is already in the queue.
-
-Signed-off-by: Stefan Metzmacher <metze@samba.org>
-Reviewed-by: Pavel Shilovsky <pshilov@microsoft.com>
-Signed-off-by: Steve French <stfrench@microsoft.com>"|1|Stefan Metzmacher|metze@samba.org|2020-02-24 14:14:59+01:00|-3600|Steve French|stfrench@microsoft.com|2020-03-22 22:49:09-05:00|18000

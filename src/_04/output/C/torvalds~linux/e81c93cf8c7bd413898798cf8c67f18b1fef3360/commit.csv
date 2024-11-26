@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e81c93cf8c7bd413898798cf8c67f18b1fef3360|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: improve searching speed of __next_free_blkoff
-
-To find a zero bit using the result of OR operation between ckpt_valid_map
-and cur_valid_map is more fast than find a zero bit in each bitmap.
-
-Signed-off-by: Changman Lee <cm224.lee@samsung.com>
-[Jaegeuk Kim: adjust changed function name]
-Signed-off-by: Jaegeuk Kim <jaegeuk.kim@samsung.com>"|1|Changman Lee|cm224.lee@samsung.com|2013-11-15 13:21:16+09:00|-32400|Jaegeuk Kim|jaegeuk.kim@samsung.com|2013-12-23 10:17:59+09:00|-32400

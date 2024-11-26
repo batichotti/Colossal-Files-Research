@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ef2c0a78aee10113d1299eb81e642470308e32ca|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8169: don't pass net_device to irq coalescing sub-functions
-
-The net_device argument is just used to get a struct rtl8169_private
-pointer via netdev_priv(). Therefore pass the struct rtl8169_private
-pointer directly.
-
-Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Heiner Kallweit|hkallweit1@gmail.com|2020-04-30 21:55:36+02:00|-7200|David S. Miller|davem@davemloft.net|2020-04-30 17:39:15-07:00|25200

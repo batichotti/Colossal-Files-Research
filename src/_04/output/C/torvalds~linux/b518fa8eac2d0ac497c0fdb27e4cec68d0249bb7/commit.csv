@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b518fa8eac2d0ac497c0fdb27e4cec68d0249bb7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8169: udelay() removal
-
-No need to chew CPU cycles as there is no heavy timing requirement
-and the delays are always requested from a sleepable context.
-
-Signed-off-by: Francois Romieu <romieu@fr.zoreil.com>"|1|Francois Romieu|romieu@fr.zoreil.com|2006-08-16 15:23:13+02:00|-7200|Francois Romieu|romieu@fr.zoreil.com|2006-08-31 21:59:24+02:00|-7200

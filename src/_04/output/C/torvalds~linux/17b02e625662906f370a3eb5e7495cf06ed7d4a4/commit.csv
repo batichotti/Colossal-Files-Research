@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|17b02e625662906f370a3eb5e7495cf06ed7d4a4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Update MGMT and SMP timeout constants to use msecs_to_jiffies
-
-The MGMT and SMP timeout constants are always used in form of jiffies. So
-just include the conversion from msecs in the define itself. This has the
-advantage of making the code where the timeout is used more readable.
-
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>"|2|Marcel Holtmann|marcel@holtmann.org|2012-03-01 14:32:37-08:00|28800|Johan Hedberg|johan.hedberg@intel.com|2012-03-02 00:35:57+02:00|-7200

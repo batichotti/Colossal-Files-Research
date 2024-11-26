@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7702fd1f6fea57921f2e643d27a23a2d0394499c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Prevent guest fpu state from leaking into the host
-
-The lazy fpu changes did not take into account that some vmexit handlers
-can sleep.  Move loading the guest state into the inner loop so that it
-can be reloaded if necessary, and move loading the host state into
-vmx_vcpu_put() so it can be performed whenever we relinquish the vcpu.
-
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|3|Avi Kivity|avi@qumranet.com|2007-06-14 16:27:40+03:00|-10800|Avi Kivity|avi@qumranet.com|2007-06-15 12:30:59+03:00|-10800

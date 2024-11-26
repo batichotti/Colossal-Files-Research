@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f695ca3886ce72b027af7aa6040cd420cae2088c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"block: remove the request_queue argument from blk_queue_split
-
-The queue can be trivially derived from the bio, so pass one less
-argument.
-
-Signed-off-by: Christoph Hellwig <hch@lst.de>
-Signed-off-by: Jens Axboe <axboe@kernel.dk>"|15|Christoph Hellwig|hch@lst.de|2020-07-01 10:59:39+02:00|-7200|Jens Axboe|axboe@kernel.dk|2020-07-01 07:27:23-06:00|21600

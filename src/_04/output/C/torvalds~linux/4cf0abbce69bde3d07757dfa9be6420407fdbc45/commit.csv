@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4cf0abbce69bde3d07757dfa9be6420407fdbc45|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"PCI/VPD: Remove pci_vpd_find_tag() 'offset' argument
-
-All callers pass 0 as offset. Therefore remove the parameter and use a
-fixed offset 0 in pci_vpd_find_tag().
-
-Link: https://lore.kernel.org/r/f62e6e19-5423-2ead-b2bd-62844b23ef8f@gmail.com
-Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
-Signed-off-by: Bjorn Helgaas <bhelgaas@google.com>"|10|Heiner Kallweit|hkallweit1@gmail.com|2021-04-01 18:43:15+02:00|-7200|Bjorn Helgaas|bhelgaas@google.com|2021-04-30 14:38:32-05:00|18000

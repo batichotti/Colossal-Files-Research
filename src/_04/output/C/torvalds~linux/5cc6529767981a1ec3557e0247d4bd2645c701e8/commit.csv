@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5cc6529767981a1ec3557e0247d4bd2645c701e8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915/display: include drm/drm_vblank.h where needed
-
-Stop including drm/drm_vblank.h in intel_display_types.h and only
-include it where needed.
-
-Reviewed-by: Luca Coelho <luciano.coelho@intel.com>
-Signed-off-by: Jani Nikula <jani.nikula@intel.com>
-Link: https://patchwork.freedesktop.org/patch/msgid/0cdb855398ff21e520ef8839b9d00ded40b85fd0.1724689818.git.jani.nikula@intel.com"|7|Jani Nikula|jani.nikula@intel.com|2024-08-26 19:31:17+03:00|-10800|Jani Nikula|jani.nikula@intel.com|2024-09-05 12:21:19+03:00|-10800

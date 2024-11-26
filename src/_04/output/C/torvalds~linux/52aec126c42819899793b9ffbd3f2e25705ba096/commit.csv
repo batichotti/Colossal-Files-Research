@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|52aec126c42819899793b9ffbd3f2e25705ba096|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8152: rename rx_buf_sz
-
-The variable ""rx_buf_sz"" is used by both tx and rx buffers. Replace
-it with ""agg_buf_sz"".
-
-Signed-off-by: Hayes Wang <hayeswang@realtek.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|hayeswang|hayeswang@realtek.com|2014-09-02 10:27:52+08:00|-28800|David S. Miller|davem@davemloft.net|2014-09-01 20:41:45-07:00|25200

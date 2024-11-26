@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d83009d462a68ad908a51e1690d46917cbad0440|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ipv6: Move fib6_multipath_select down in ip6_pol_route
-
-Move the siblings and fib6_multipath_select after the null entry check
-since a null entry can not have siblings.
-
-Signed-off-by: David Ahern <dsahern@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|David Ahern|dsahern@gmail.com|2019-04-09 14:41:17-07:00|25200|David S. Miller|davem@davemloft.net|2019-04-11 14:24:06-07:00|25200

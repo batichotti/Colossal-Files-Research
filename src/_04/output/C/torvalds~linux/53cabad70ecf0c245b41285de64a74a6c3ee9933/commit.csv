@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|53cabad70ecf0c245b41285de64a74a6c3ee9933|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nl80211: support P2P GO powersave configuration
-
-If a driver supports P2P GO powersave, allow it to
-set the new feature flags for it and allow userspace
-to configure the parameters for it. This can be done
-at GO startup and later changed with SET_BSS.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|3|Johannes Berg|johannes.berg@intel.com|2012-11-14 15:17:28+01:00|-3600|Johannes Berg|johannes.berg@intel.com|2012-11-27 11:56:18+01:00|-3600

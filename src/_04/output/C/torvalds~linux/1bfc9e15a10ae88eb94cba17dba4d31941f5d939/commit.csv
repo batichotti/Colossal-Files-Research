@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1bfc9e15a10ae88eb94cba17dba4d31941f5d939|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[media] drx-j: get rid of typedefs in drx_driver.h
-
-Most of the changes were done with scripts like:
-	for i in drivers/media/dvb-frontends/drx39xyj/*.[ch]; do perl -ne '$var = ""drx_sig_quality""; s,\b($var)_t\s+,struct \1 ,g; s,\bp_*($var)_t\s+,struct \1 *,g; s,\b($var)_t\b,struct \1,g; s,\bp_*($var)_t\b,struct \1 *,g; print $_' <$i >a && mv a $i; done
-
-Acked-by: Devin Heitmueller <dheitmueller@kernellabs.com>
-Signed-off-by: Mauro Carvalho Chehab <m.chehab@samsung.com>"|8|Mauro Carvalho Chehab|m.chehab@samsung.com|2014-01-16 12:51:36-03:00|10800|Mauro Carvalho Chehab|m.chehab@samsung.com|2014-03-04 14:25:46-03:00|10800

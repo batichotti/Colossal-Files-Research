@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|780002b6545d8990c2d089296f70bc64265ea915|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/amdgpu: validate wait_for_idle before function call
-
-Before making a function call to wait_for_idle,
-validate the function pointer like we do in sw_init.
-
-Signed-off-by: Sunil Khatri <sunil.khatri@amd.com>
-Reviewed-by: Christian König <christian.koenig@amd.com>
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|1|Sunil Khatri|sunil.khatri@amd.com|2024-10-09 18:44:52+05:30|-19800|Alex Deucher|alexander.deucher@amd.com|2024-10-22 17:50:39-04:00|14400

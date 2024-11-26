@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|08b3f08af583c01b3cfdc15bda68063c2a401512|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: PPC: Book3S HV P9: Move nested guest entry into its own function
-
-Move the part of the guest entry which is specific to nested HV into its
-own function. This is just refactoring.
-
-Signed-off-by: Nicholas Piggin <npiggin@gmail.com>
-Signed-off-by: Michael Ellerman <mpe@ellerman.id.au>
-Link: https://lore.kernel.org/r/20211123095231.1036501-31-npiggin@gmail.com"|1|Nicholas Piggin|npiggin@gmail.com|2021-11-23 19:52:08+10:00|-36000|Michael Ellerman|mpe@ellerman.id.au|2021-11-24 21:09:00+11:00|-39600

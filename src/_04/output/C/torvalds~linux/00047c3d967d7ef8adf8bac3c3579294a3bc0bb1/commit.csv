@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|00047c3d967d7ef8adf8bac3c3579294a3bc0bb1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/amdgpu: add sdma instance check for gfx11 CGCG
-
-For some ASICs, like GFX IP v11.0.1, only have one SDMA instance,
-so not need to configure SDMA1_RLC_CGCG_CTRL for this case.
-
-Signed-off-by: Tim Huang <tim.huang@amd.com>
-Reviewed-by: Yifan Zhang <yifan1.zhang@amd.com>
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|1|Tim Huang|tim.huang@amd.com|2022-08-22 13:30:44+08:00|-28800|Alex Deucher|alexander.deucher@amd.com|2022-08-25 13:53:19-04:00|14400

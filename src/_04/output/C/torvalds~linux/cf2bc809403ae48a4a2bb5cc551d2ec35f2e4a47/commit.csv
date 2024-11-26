@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cf2bc809403ae48a4a2bb5cc551d2ec35f2e4a47|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ocfs2: Teach ocfs2_xa_loc how to do its own journal work
-
-We're going to want to make sure our buffers get accessed and dirtied
-correctly.  So have the xa_loc do the work.  This includes storing the
-inode on ocfs2_xa_loc.
-
-Signed-off-by: Joel Becker <joel.becker@oracle.com>"|1|Joel Becker|joel.becker@oracle.com|2009-08-18 13:52:38-07:00|25200|Joel Becker|joel.becker@oracle.com|2010-02-26 15:41:11-08:00|28800

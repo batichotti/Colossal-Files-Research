@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e4dd23d753c3cb0d8533d353069e8b2e8a666360|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"infiniband: Fix up module files that need to include module.h
-
-They had been getting it implicitly via device.h but we can't
-rely on that for the future, due to a pending cleanup so fix
-it now.
-
-Signed-off-by: Paul Gortmaker <paul.gortmaker@windriver.com>"|19|Paul Gortmaker|paul.gortmaker@windriver.com|2011-05-27 15:35:46-04:00|14400|Paul Gortmaker|paul.gortmaker@windriver.com|2011-10-31 19:31:35-04:00|14400

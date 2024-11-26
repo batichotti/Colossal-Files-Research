@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|64e155adc250ab68255b761c1faa77799aa1e41a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] mptfusion: block device when target is being removed by FW
-
-Add support to set the sdev state to SDEV_BLOCK during device removal
-to stop IOs comming to the deleting driver immediately.
-
-Signed-off-by: Kashyap Desai <kashyap.desai@lsi.com>
-Signed-off-by: James Bottomley <James.Bottomley@suse.de>"|1|Kashyap, Desai|kashyap.desai@lsi.com|2009-12-16 19:02:29+05:30|-19800|James Bottomley|James.Bottomley@suse.de|2010-01-18 10:48:11-06:00|21600

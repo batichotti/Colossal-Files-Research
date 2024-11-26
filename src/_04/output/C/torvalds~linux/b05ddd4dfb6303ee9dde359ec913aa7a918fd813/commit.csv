@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b05ddd4dfb6303ee9dde359ec913aa7a918fd813|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"gpu: drm: i915: intel_display.c: Remove unused function
-
-Remove the function intel_output_name() that is not used anywhere.
-
-This was partially found by using a static code analysis program called cppcheck.
-
-Signed-off-by: Rickard Strandqvist <rickard_strandqvist@spectrumdigital.se>
-Signed-off-by: Daniel Vetter <daniel.vetter@ffwll.ch>"|2|Rickard Strandqvist|rickard_strandqvist@spectrumdigital.se|2014-12-07 19:29:17+01:00|-3600|Daniel Vetter|daniel.vetter@ffwll.ch|2014-12-08 09:41:40+01:00|-3600

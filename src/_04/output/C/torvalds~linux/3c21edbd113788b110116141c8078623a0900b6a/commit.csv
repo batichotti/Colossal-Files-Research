@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3c21edbd113788b110116141c8078623a0900b6a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[IPV6]: Defer IPv6 device initialization until the link becomes ready.
-
-NETDEV_UP might be sent even if the link attached to the interface was
-not ready.  DAD does not make sense in such case, so we won't do so.
-After interface
-
-Signed-off-by: YOSHIFUJI Hideaki <yoshfuji@linux-ipv6.org>"|2|YOSHIFUJI Hideaki|yoshfuji@linux-ipv6.org|2005-12-21 22:57:24+09:00|-32400|YOSHIFUJI Hideaki|yoshfuji@linux-ipv6.org|2005-12-21 22:57:24+09:00|-32400

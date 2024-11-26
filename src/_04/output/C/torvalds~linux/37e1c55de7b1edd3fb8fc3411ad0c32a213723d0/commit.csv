@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|37e1c55de7b1edd3fb8fc3411ad0c32a213723d0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Remove unnecessary use of hci_dev_list_lock
-
-The get_connections function has no need to use hci_dev_list_lock. The
-code was there probably because of a copy-paste mistake.
-
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>
-Signed-off-by: Gustavo F. Padovan <padovan@profusion.mobi>"|1|Johan Hedberg|johan.hedberg@intel.com|2011-05-20 11:50:41-07:00|25200|Gustavo F. Padovan|padovan@profusion.mobi|2011-06-08 16:58:16-03:00|10800

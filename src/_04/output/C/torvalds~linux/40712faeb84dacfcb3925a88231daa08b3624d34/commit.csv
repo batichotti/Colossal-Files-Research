@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|40712faeb84dacfcb3925a88231daa08b3624d34|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: Avoid atomic operation in vmx_vcpu_run
-
-Instead of exchanging the guest and host rcx, have separate storage
-for each.  This allows us to avoid using the xchg instruction, which
-is is a little slower than normal operations.
-
-Signed-off-by: Avi Kivity <avi@redhat.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|1|Avi Kivity|avi@redhat.com|2011-01-06 18:09:12+02:00|-7200|Marcelo Tosatti|mtosatti@redhat.com|2011-03-17 13:08:26-03:00|10800

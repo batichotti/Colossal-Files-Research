@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|db80927ea1977a845230a161df643b48fd1e1ea4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: nVMX: really fix the size checks on KVM_SET_NESTED_STATE
-
-The offset for reading the shadow VMCS is sizeof(*kvm_state)+VMCS12_SIZE,
-so the correct size must be that plus sizeof(*vmcs12).  This could lead
-to KVM reading garbage data from userspace and not reporting an error,
-but is otherwise not sensitive.
-
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Paolo Bonzini|pbonzini@redhat.com|2019-05-20 11:55:36+02:00|-7200|Paolo Bonzini|pbonzini@redhat.com|2019-05-24 21:27:02+02:00|-7200

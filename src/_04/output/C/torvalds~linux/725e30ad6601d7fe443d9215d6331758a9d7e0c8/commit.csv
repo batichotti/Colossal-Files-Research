@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|725e30ad6601d7fe443d9215d6331758a9d7e0c8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Skip SDVO/HDMI init when the chipset tells us it's not present.
-
-This saves startup time from probing SDVO, and saves setting up HDMI outputs
-on G4X devices that don't have them.
-
-Signed-off-by: Dave Airlie <airlied@linux.ie>"|1|Eric Anholt|eric@anholt.net|2009-01-22 13:01:02-08:00|28800|Dave Airlie|airlied@linux.ie|2009-02-08 21:37:45+10:00|-36000

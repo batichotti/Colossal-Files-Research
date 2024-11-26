@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f875c15a4fbf37534dda30771d8bde8604fbbf09|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Use the direct mapping of pipe->crtc
-
-Why iterate all the crtcs to find the pipe, when we already know which
-crtc is attached to which pipe?
-
-Signed-off-by: Chris Wilson <chris@chris-wilson.co.uk>
-Reviewed-by: Jesse Barnes <jbarnes@virtuousgeek.org>"|4|Chris Wilson|chris@chris-wilson.co.uk|2010-09-09 15:44:14+01:00|-3600|Chris Wilson|chris@chris-wilson.co.uk|2010-09-09 17:00:36+01:00|-3600

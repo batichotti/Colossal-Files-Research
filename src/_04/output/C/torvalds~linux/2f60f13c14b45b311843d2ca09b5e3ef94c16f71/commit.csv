@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2f60f13c14b45b311843d2ca09b5e3ef94c16f71|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[media] drxk: better handle errors
-
-As reported by smatch:
-	drivers/media/dvb-frontends/drxk_hard.c:3277 dvbt_sc_command() warn: missing break? reassigning 'status'
-
-This is basically because the error handling logic there was crappy.
-
-Signed-off-by: Mauro Carvalho Chehab <mchehab@osg.samsung.com>"|1|Mauro Carvalho Chehab|mchehab@osg.samsung.com|2015-06-05 07:58:52-03:00|10800|Mauro Carvalho Chehab|mchehab@osg.samsung.com|2015-06-05 07:58:52-03:00|10800

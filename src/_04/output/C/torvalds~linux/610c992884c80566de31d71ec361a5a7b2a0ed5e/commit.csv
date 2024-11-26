@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|610c992884c80566de31d71ec361a5a7b2a0ed5e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"e1000e: flow control thresholds not correct when changing mtu
-
-When changing MTU, save it off prior to resetting otherwise the flow control
-thresholds may be miscalculated.
-
-Signed-off-by: Bruce Allan <bruce.w.allan@intel.com>
-Signed-off-by: Jeff Kirsher <jeffrey.t.kirsher@intel.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Bruce Allan|bruce.w.allan@intel.com|2009-11-19 12:35:45+00:00|0|David S. Miller|davem@davemloft.net|2009-11-20 13:53:27-08:00|28800

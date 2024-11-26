@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|786c5be9ac29a39b6f37f1fdd2ea59d0fe35d525|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wifi: mac80211: free skb on error path in ieee80211_beacon_get_ap()
-
-In 'ieee80211_beacon_get_ap()', free allocated skb in case of error
-returned by 'ieee80211_beacon_protect()'. Compile tested only.
-
-Signed-off-by: Dmitry Antipov <dmantipov@yandex.ru>
-Link: https://patch.msgid.link/20240805142035.227847-1-dmantipov@yandex.ru
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Dmitry Antipov|dmantipov@yandex.ru|2024-08-05 17:20:35+03:00|-10800|Johannes Berg|johannes.berg@intel.com|2024-08-26 17:45:45+02:00|-7200

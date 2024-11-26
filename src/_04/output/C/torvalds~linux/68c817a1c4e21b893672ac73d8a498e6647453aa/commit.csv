@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|68c817a1c4e21b893672ac73d8a498e6647453aa|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[DLM] rename dlm_config_info fields
-
-Add a ""ci_"" prefix to the fields in the dlm_config_info struct so that we
-can use macros to add configfs functions to access them (in a later
-patch).  No functional changes in this patch, just naming changes.
-
-Signed-off-by: David Teigland <teigland@redhat.com>
-Signed-off-by: Steven Whitehouse <swhiteho@redhat.com>"|9|David Teigland|teigland@redhat.com|2007-01-09 09:41:48-06:00|21600|Steven Whitehouse|swhiteho@redhat.com|2007-02-05 13:36:37-05:00|18000

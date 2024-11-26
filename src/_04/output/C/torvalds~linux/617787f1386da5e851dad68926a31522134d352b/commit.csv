@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|617787f1386da5e851dad68926a31522134d352b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md: use READ_ONCE/WRITE_ONCE for 'suspend_lo' and 'suspend_hi'
-
-Protect 'suspend_lo' and 'suspend_hi' with READ_ONCE/WRITE_ONCE to prevent
-reading abnormal values.
-
-Signed-off-by: Yu Kuai <yukuai3@huawei.com>
-Signed-off-by: Song Liu <song@kernel.org>
-Link: https://lore.kernel.org/r/20231010151958.145896-2-yukuai1@huaweicloud.com"|1|Yu Kuai|yukuai3@huawei.com|2023-10-10 23:19:40+08:00|-28800|Song Liu|song@kernel.org|2023-10-10 18:49:49-07:00|25200

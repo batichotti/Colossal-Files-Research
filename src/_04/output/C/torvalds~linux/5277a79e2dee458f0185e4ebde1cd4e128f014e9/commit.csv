@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5277a79e2dee458f0185e4ebde1cd4e128f014e9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd: unlock on error in manage_cpntf_state()
-
-We are holding the ""nn->s2s_cp_lock"" so we can't return directly
-without unlocking first.
-
-Fixes: f3dee17721a0 (""NFSD check stateids against copy stateids"")
-Signed-off-by: Dan Carpenter <dan.carpenter@oracle.com>
-Signed-off-by: J. Bruce Fields <bfields@redhat.com>"|1|Dan Carpenter|dan.carpenter@oracle.com|2019-12-04 10:59:36+03:00|-10800|J. Bruce Fields|bfields@redhat.com|2019-12-09 11:44:07-05:00|18000

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|273df556b6ee2065bfe96edab5888d3dc9b108d8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: Convert BUG_ON checks to use ext4_error() instead
-
-Convert a bunch of BUG_ONs to emit a ext4_error() message and return
-EIO.  This is a first pass and most notably does _not_ cover
-mballoc.c, which is a morass of void functions.
-
-Signed-off-by: Frank Mayhar <fmayhar@google.com>
-Signed-off-by: ""Theodore Ts'o"" <tytso@mit.edu>"|4|Frank Mayhar|fmayhar@google.com|2010-03-02 11:46:09-05:00|18000|Theodore Ts'o|tytso@mit.edu|2010-03-02 11:46:09-05:00|18000

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4e8d7e62560bba9772556ec6e11afcd20868d6a2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"s390/qeth: remove unused parameter
-
-'elements_needed' is not used in qeth_do_send_packet_fast(),
-so consequently remove it.
-
-Signed-off-by: Julian Wiedmann <jwi@linux.vnet.ibm.com>
-Acked-by: Ursula Braun <ubraun@linux.vnet.ibm.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|4|Julian Wiedmann|jwi@linux.vnet.ibm.com|2017-04-11 16:11:13+02:00|-7200|David S. Miller|davem@davemloft.net|2017-04-11 14:51:34-04:00|14400

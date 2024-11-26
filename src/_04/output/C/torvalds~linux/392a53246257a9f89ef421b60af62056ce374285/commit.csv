@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|392a53246257a9f89ef421b60af62056ce374285|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"x86: kvm: x86: Remove unnecessary initial values of variables
-
-bitmap and khz is assigned first, so it does not need to initialize the
-assignment.
-
-Signed-off-by: Li zeming <zeming@nfschina.com>
-Link: https://lore.kernel.org/r/20230817002631.2885-1-zeming@nfschina.com
-Signed-off-by: Sean Christopherson <seanjc@google.com>"|1|Li zeming|zeming@nfschina.com|2023-08-17 08:26:31+08:00|-28800|Sean Christopherson|seanjc@google.com|2023-08-17 11:35:28-07:00|25200

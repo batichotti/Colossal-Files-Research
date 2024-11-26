@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e87288f089d3ba1c10d2323c286f8145450fd250|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wlcore/wl12xx: move runtime configuration struct to the lower driver
-
-The configuration parameters vary with different chip families.  Some
-of the parameters used only by some chip families, others should have
-different value depending on the family.  Thus move the configuration
-values from wlcore to wl12xx.
-
-Signed-off-by: Luciano Coelho <coelho@ti.com>"|4|Luciano Coelho|coelho@ti.com|2011-12-05 16:12:54+02:00|-7200|Luciano Coelho|coelho@ti.com|2012-04-12 08:44:01+03:00|-10800

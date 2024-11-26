@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3eb08658431abd65c0fe6855d1860859c2d416f7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: ignore a stripe width of 1
-
-If the stripe width was set to 1, then this patch will ignore
-that stripe width and ext4 will act as if the stripe width
-were 0 with respect to optimizing allocations.
-
-Signed-off-by: Dan Ehrenberg <dehrenberg@google.com>
-Signed-off-by: ""Theodore Ts'o"" <tytso@mit.edu>"|1|Dan Ehrenberg|dehrenberg@google.com|2011-07-17 21:18:51-04:00|14400|Theodore Ts'o|tytso@mit.edu|2011-07-17 21:18:51-04:00|14400

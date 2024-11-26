@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5ba92bcf0dd63b35a85e90c3016989733b239bb5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: reject journal options for ext2 mounts
-
-There is no reason to allow ext2 filesystems be mounted with journal
-mount options. So, this patch adds them to the MOPT_NO_EXT2 mount
-options list.
-
-Signed-off-by: Carlos Maiolino <cmaiolino@redhat.com>
-Signed-off-by: Theodore Ts'o <tytso@mit.edu>"|1|Carlos Maiolino|cmaiolino@redhat.com|2015-07-21 23:57:59-04:00|14400|Theodore Ts'o|tytso@mit.edu|2015-07-21 23:57:59-04:00|14400

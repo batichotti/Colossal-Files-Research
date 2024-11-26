@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ad652f3811d8644d547506154ec9a9c22c8771cd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: add NFT_CHAIN_POLICY_UNSET and use it
-
-Default policy is defined as a unsigned 8-bit field, do not use a
-negative value to leave it unset, use this new NFT_CHAIN_POLICY_UNSET
-instead.
-
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|2|Pablo Neira Ayuso|pablo@netfilter.org|2019-09-16 18:33:08+02:00|-7200|Pablo Neira Ayuso|pablo@netfilter.org|2019-09-20 10:20:02+02:00|-7200

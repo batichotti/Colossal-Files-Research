@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2dd99530a248bc70e712a5f98e0bc66139a582cb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8169: populate the hw_start handler for the 8168
-
-rtl_hw_start_8168 inherits the content of rtl_hw_start_8169 minus
-the code which depends on RTL_GIGA_MAC_VER_XY (XY != {11/12}).
-
-Signed-off-by: Francois Romieu <romieu@fr.zoreil.com>
-Cc: Edward Hsu <edward_hsu@realtek.com.tw>"|1|Francois Romieu|romieu@fr.zoreil.com|2007-06-11 23:22:52+02:00|-7200|Jeff Garzik|jeff@garzik.org|2007-07-08 22:16:43-04:00|14400

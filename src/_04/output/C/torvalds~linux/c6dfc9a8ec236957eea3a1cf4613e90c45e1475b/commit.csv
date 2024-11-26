@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c6dfc9a8ec236957eea3a1cf4613e90c45e1475b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"b43: Dereference of wl->current_dev must be protected by wl->mutex
-
-Put all access to wl->current_dev under protection of the mutex.
-
-Signed-off-by: Michael Buesch <mb@bu3sch.de>
-Cc: Larry Finger <larry.finger@lwfinger.net>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|1|Michael Buesch|mb@bu3sch.de|2007-10-28 15:59:58+01:00|-3600|David S. Miller|davem@davemloft.net|2008-01-28 15:03:30-08:00|28800

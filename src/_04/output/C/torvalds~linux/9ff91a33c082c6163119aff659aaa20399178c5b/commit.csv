@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9ff91a33c082c6163119aff659aaa20399178c5b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"s390/cio: use new address translation helpers
-
-Use virt_to_dma32() and friends to properly convert virtual to physical and
-physical to virtual addresses so that ""make C=1"" does not generate any
-warnings anymore.
-
-Signed-off-by: Heiko Carstens <hca@linux.ibm.com>"|13|Heiko Carstens|hca@linux.ibm.com|2024-03-07 13:28:15+01:00|-3600|Heiko Carstens|hca@linux.ibm.com|2024-03-13 09:23:47+01:00|-3600

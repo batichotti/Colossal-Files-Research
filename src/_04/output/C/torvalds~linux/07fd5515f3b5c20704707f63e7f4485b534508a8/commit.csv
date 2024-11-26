@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|07fd5515f3b5c20704707f63e7f4485b534508a8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ftrace: Free hash with call_rcu_sched()
-
-When a hash is modified and might be in use, we need to perform
-a schedule RCU operation on it, as the hashes will soon be used
-directly in the function tracer callback.
-
-Cc: Paul E. McKenney <paulmck@linux.vnet.ibm.com>
-Signed-off-by: Steven Rostedt <rostedt@goodmis.org>"|1|Steven Rostedt|srostedt@redhat.com|2011-05-05 18:03:47-04:00|14400|Steven Rostedt|rostedt@goodmis.org|2011-05-18 15:29:50-04:00|14400

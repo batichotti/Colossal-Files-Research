@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|042b10d83d05174e50ee861ee3aca55fd6204324|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tracing: Remove unused function ftrace_off_permanent()
-
-In the past, ftrace_off_permanent() was called if something
-strange was detected. But the ftrace_bug() now handles all the
-anomolies that can happen with ftrace (function tracing), and there
-are no uses of ftrace_off_permanent(). Get rid of it.
-
-Signed-off-by: Steven Rostedt <rostedt@goodmis.org>"|2|Steven Rostedt (Red Hat)|rostedt@goodmis.org|2013-11-06 12:19:37-05:00|18000|Steven Rostedt|rostedt@goodmis.org|2013-11-06 15:26:55-05:00|18000

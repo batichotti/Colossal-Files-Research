@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|dce6fa42199d493596315cddc0b4e7ac1d57475b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: ethernet: mediatek: avoid race condition during the reset process
-
-add the protection of the race condition between
-the reset process and hardware access happening
-on the related callbacks.
-
-Signed-off-by: Sean Wang <sean.wang@mediatek.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Sean Wang|sean.wang@mediatek.com|2016-09-14 23:13:21+08:00|-28800|David S. Miller|davem@davemloft.net|2016-09-16 02:22:58-04:00|14400

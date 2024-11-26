@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|aa2ac881ba1e4e9f878be2ece80001ae8563955c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Don't use spin_lock socket lock anymore
-
-We now run everything in process context, so the mutex lock is the best
-option. But in some places we still need the bh_lock_sock()
-
-Acked-by: Marcel Holtmann <marcel@holtmann.org>
-Signed-off-by: Gustavo F. Padovan <padovan@profusion.mobi>"|1|Gustavo F. Padovan|padovan@profusion.mobi|2011-06-24 01:53:01-03:00|10800|Gustavo F. Padovan|padovan@profusion.mobi|2011-12-18 17:07:55-02:00|7200

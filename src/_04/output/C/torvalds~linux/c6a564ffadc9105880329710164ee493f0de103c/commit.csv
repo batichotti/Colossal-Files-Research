@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c6a564ffadc9105880329710164ee493f0de103c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"block: move the part_stat* helpers from genhd.h to a new header
-
-These macros are just used by a few files.  Move them out of genhd.h,
-which is included everywhere into a new standalone header.
-
-Signed-off-by: Christoph Hellwig <hch@lst.de>
-Signed-off-by: Jens Axboe <axboe@kernel.dk>"|13|Christoph Hellwig|hch@lst.de|2020-03-25 16:48:42+01:00|-3600|Jens Axboe|axboe@kernel.dk|2020-03-25 09:50:09-06:00|21600

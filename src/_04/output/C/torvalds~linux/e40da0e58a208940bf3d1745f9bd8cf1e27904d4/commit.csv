@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e40da0e58a208940bf3d1745f9bd8cf1e27904d4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: remove unused inode argument from uncompress_inline()
-
-The inode argument is never used from the beginning, so remove it.
-
-Signed-off-by: Byongho Lee <bhlee.kernel@gmail.com>
-Reviewed-by: David Sterba <dsterba@suse.com>
-Signed-off-by: David Sterba <dsterba@suse.com>"|1|Byongho Lee|bhlee.kernel@gmail.com|2015-05-19 23:46:45+09:00|-32400|David Sterba|dsterba@suse.com|2016-01-07 14:29:02+01:00|-3600

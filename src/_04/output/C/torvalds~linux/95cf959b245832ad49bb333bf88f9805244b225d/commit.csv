@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|95cf959b245832ad49bb333bf88f9805244b225d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"VFS: Fix another open intent Oops
-
-If the call to nfs_intent_set_file() fails to open a file in
-nfs4_proc_create(), we should return an error.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|1|Trond Myklebust|Trond.Myklebust@netapp.com|2006-04-18 13:14:06-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2006-04-19 12:43:46-04:00|14400

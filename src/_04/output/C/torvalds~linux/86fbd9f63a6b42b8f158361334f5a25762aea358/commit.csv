@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|86fbd9f63a6b42b8f158361334f5a25762aea358|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: hci_sync: Fix not using correct handle
-
-When setting up an advertisement the code shall always attempt to use
-the handle set by the instance since it may not be equal to the instance
-ID.
-
-Fixes: e77f43d531af (""Bluetooth: hci_core: Fix not handling hdev->le_num_of_adv_sets=1"")
-Signed-off-by: Luiz Augusto von Dentz <luiz.von.dentz@intel.com>"|1|Luiz Augusto von Dentz|luiz.von.dentz@intel.com|2024-05-15 10:32:01-04:00|14400|Luiz Augusto von Dentz|luiz.von.dentz@intel.com|2024-06-10 09:48:25-04:00|14400

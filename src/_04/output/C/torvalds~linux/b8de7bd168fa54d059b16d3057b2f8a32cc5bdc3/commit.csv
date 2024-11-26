@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b8de7bd168fa54d059b16d3057b2f8a32cc5bdc3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tracing: disable update max tracer while reading trace
-
-When reading the tracer from the trace file, updating the max latency
-may corrupt the output. This patch disables the tracing of the max
-latency while reading the trace file.
-
-Signed-off-by: Steven Rostedt <rostedt@goodmis.org>"|1|Steven Rostedt|srostedt@redhat.com|2009-08-31 22:32:27-04:00|14400|Steven Rostedt|rostedt@goodmis.org|2009-09-04 11:52:24-04:00|14400

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0abb75b7a16d21e2fb0d98634df44c37c184f186|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: PPC: Book3S HV: Fix constant size warning
-
-The constants are 64bit but not explicitly declared UL resulting
-in sparse warnings. Fix this by declaring the constants UL.
-
-Signed-off-by: Nicholas Mc Guire <hofrat@osadl.org>
-Signed-off-by: Paul Mackerras <paulus@ozlabs.org>"|2|Nicholas Mc Guire|hofrat@osadl.org|2018-07-07 11:07:25+02:00|-7200|Paul Mackerras|paulus@ozlabs.org|2018-07-18 15:14:45+10:00|-36000

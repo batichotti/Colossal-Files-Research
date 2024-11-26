@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|61beef75cc5bae119e500c9f25daad8596c7cbe4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS: Clear up state owner lock usage
-
-can_open_cached() reads values out of the state structure, meaning that
-we need the so_lock to have a correct return value.  As a bonus, this
-helps clear up some potentially confusing code.
-
-Signed-off-by: Anna Schumaker <Anna.Schumaker@Netapp.com>
-Signed-off-by: Trond Myklebust <trond.myklebust@primarydata.com>"|1|Anna Schumaker|Anna.Schumaker@netapp.com|2014-09-03 14:15:40-04:00|14400|Trond Myklebust|trond.myklebust@primarydata.com|2014-09-10 12:47:00-07:00|25200

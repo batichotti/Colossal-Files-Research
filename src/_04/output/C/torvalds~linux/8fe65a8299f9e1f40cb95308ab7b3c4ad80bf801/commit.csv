@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8fe65a8299f9e1f40cb95308ab7b3c4ad80bf801|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"kvm: rename last argument to kvm_get_dirty_log_protect
-
-When manual dirty log reprotect will be enabled, kvm_get_dirty_log_protect's
-pointer argument will always be false on exit, because no TLB flush is needed
-until the manual re-protection operation.  Rename it from ""is_dirty"" to ""flush"",
-which more accurately tells the caller what they have to do with it.
-
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|5|Paolo Bonzini|pbonzini@redhat.com|2018-10-23 02:18:42+02:00|-7200|Paolo Bonzini|pbonzini@redhat.com|2018-12-14 12:34:18+01:00|-3600

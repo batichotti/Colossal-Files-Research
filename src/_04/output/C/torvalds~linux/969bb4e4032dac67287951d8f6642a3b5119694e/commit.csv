@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|969bb4e4032dac67287951d8f6642a3b5119694e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[PATCH] sched: fix the all pinned logic in load_balance_newidle()
-
-nr_moved is not the correct check for triggering all pinned logic. Fix
-the all pinned logic in the case of load_balance_newidle().
-
-Signed-off-by: Suresh Siddha <suresh.b.siddha@intel.com>
-Signed-off-by: Ingo Molnar <mingo@elte.hu>"|1|Suresh Siddha|suresh.b.siddha@intel.com|2007-07-19 21:28:35+02:00|-7200|Ingo Molnar|mingo@elte.hu|2007-07-19 21:28:35+02:00|-7200

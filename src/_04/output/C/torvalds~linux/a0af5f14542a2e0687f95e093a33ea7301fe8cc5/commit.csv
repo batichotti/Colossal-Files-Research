@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a0af5f14542a2e0687f95e093a33ea7301fe8cc5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: Fix queuing of scan containing a SSID
-
-This patch fixes scanning for specific ssid's which is broken due to the
-scan being queued up without respecting the ssid to scan for.
-
-Signed-off-by: Helmut Schaa <hschaa@suse.de>
-Signed-off-by: Jiri Benc <jbenc@suse.cz>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|2|Helmut Schaa|hschaa@suse.de|2007-11-09 16:25:08+01:00|-3600|John W. Linville|linville@tuxdriver.com|2007-11-14 21:16:46-05:00|18000

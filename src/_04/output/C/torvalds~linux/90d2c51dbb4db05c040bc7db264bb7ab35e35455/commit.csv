@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|90d2c51dbb4db05c040bc7db264bb7ab35e35455|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: add NULL check for do_walk_down()
-
-btrfs_find_create_tree_block() may return NULL, so we must check the returned
-value, or we will access a NULL pointer.
-
-Signed-off-by: Miao Xie <miaox@cn.fujitsu.com>
-Signed-off-by: Chris Mason <chris.mason@oracle.com>"|1|Miao Xie|miaox@cn.fujitsu.com|2010-03-25 12:37:12+00:00|0|Chris Mason|chris.mason@oracle.com|2010-03-30 21:19:08-04:00|14400

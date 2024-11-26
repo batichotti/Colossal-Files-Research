@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|be49b1f111c76ce20a60a90587e2b8e8ab809a06|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rtl8xxxu: Simplify calculating of hw value used for setting TX rate
-
-Calculating the value in one place rather than using one calculation
-in one place and a different one for management frames in another
-location makes little sense.
-
-Signed-off-by: Jes Sorensen <Jes.Sorensen@redhat.com>
-Signed-off-by: Kalle Valo <kvalo@codeaurora.org>"|1|Jes Sorensen|Jes.Sorensen@redhat.com|2016-08-19 17:46:37-04:00|14400|Kalle Valo|kvalo@codeaurora.org|2016-09-03 19:57:23+03:00|-10800

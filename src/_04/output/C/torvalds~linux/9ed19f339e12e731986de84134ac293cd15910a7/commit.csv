@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9ed19f339e12e731986de84134ac293cd15910a7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[NETLINK]: Set correct pid for ioctl originating netlink events
-
-This patch ensures that netlink events created as a result of programns
-using ioctls (such as ifconfig, route etc) contains the correct PID of
-those events.
- 
-Signed-off-by: Jamal Hadi Salim <hadi@cyberus.ca>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|4|Jamal Hadi Salim|hadi@cyberus.ca|2005-06-18 22:55:51-07:00|25200|David S. Miller|davem@davemloft.net|2005-06-18 22:55:51-07:00|25200

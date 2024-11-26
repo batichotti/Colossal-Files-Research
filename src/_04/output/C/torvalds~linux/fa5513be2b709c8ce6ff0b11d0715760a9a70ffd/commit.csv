@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fa5513be2b709c8ce6ff0b11d0715760a9a70ffd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Move and rename hci_conn_accept
-
-Since this function is only used by sco, move it from hci_event.c to
-sco.c and rename to sco_conn_defer_accept. Make it static.
-
-Signed-off-by: Frédéric Dalleau <frederic.dalleau@linux.intel.com>
-Acked-by: Marcel Holtmann <marcel@holtmann.org>
-Signed-off-by: Gustavo Padovan <gustavo.padovan@collabora.co.uk>"|3|Frédéric Dalleau|frederic.dalleau@linux.intel.com|2013-04-16 17:28:58+02:00|-7200|Gustavo Padovan|gustavo.padovan@collabora.co.uk|2013-04-18 00:17:54-03:00|10800

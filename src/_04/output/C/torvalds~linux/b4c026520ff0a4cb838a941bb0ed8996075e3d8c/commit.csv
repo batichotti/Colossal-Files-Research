@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b4c026520ff0a4cb838a941bb0ed8996075e3d8c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] lpfc 8.1.7: Add lpfc_sli_flush_mbox_queue() function
-
-Add lpfc_sli_flush_mbox_queue() function and use it in lpfc_offline() call
-to avoid deadlock on thread block.
-
-Signed-off-by: James Smart <James.Smart@emulex.com>
-Signed-off-by: James Bottomley <James.Bottomley@SteelEye.com>"|3|James Smart|James.Smart@Emulex.Com|2006-07-06 15:50:43-04:00|14400|James Bottomley|jejb@mulgrave.il.steeleye.com|2006-07-09 10:48:38-05:00|18000

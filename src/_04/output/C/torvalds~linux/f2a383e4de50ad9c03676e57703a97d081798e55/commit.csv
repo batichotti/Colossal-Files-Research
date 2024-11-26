@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f2a383e4de50ad9c03676e57703a97d081798e55|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"USB: always announce a device has been added to the system
-
-Distros (like SuSE) want to know this information, to make it easier
-to handle support issues.  Might as well let everyone benefit from this.
-This is also enabled whenever CONFIG_USB_DEBUG is enabled, to help with
-debugging.
-
-Signed-off-by: Greg Kroah-Hartman <gregkh@suse.de>"|2|Greg Kroah-Hartman|gregkh@suse.de|2007-11-26 22:11:55-08:00|28800|Greg Kroah-Hartman|gregkh@suse.de|2008-02-01 14:34:52-08:00|28800

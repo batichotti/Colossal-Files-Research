@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|89c38bd0ade3c567707ed8fce088b253b0369c50|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ocfs2: add ocfs2_init_acl in mknod
-
-We need to get the parent directories acls and let the new child inherit it.
-To this, we add additional calculations for data/metadata allocation.
-
-Signed-off-by: Tiger Yang <tiger.yang@oracle.com>
-Signed-off-by: Mark Fasheh <mfasheh@suse.com>"|5|Tiger Yang|tiger.yang@oracle.com|2008-11-14 11:17:41+08:00|-28800|Mark Fasheh|mfasheh@suse.com|2009-01-05 08:34:20-08:00|28800

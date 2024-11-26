@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|dd1f723bf56bd96efc9d90e9e60dc511c79de48f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: use prandom_u32() instead of get_random_bytes()
-
-Many of the uses of get_random_bytes() do not actually need
-cryptographically secure random numbers.  Replace those uses with a
-call to prandom_u32(), which is faster and which doesn't consume
-entropy from the /dev/random driver.
-
-Signed-off-by: ""Theodore Ts'o"" <tytso@mit.edu>"|3|Theodore Ts'o|tytso@mit.edu|2013-11-08 00:14:53-05:00|18000|Theodore Ts'o|tytso@mit.edu|2013-11-08 00:14:53-05:00|18000

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2695fb552cbef1029aa025a98acb80cc51d66de5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: filter: rename 'struct sock_filter_int' into 'struct bpf_insn'
-
-eBPF is used by socket filtering, seccomp and soon by tracing and
-exposed to userspace, therefore 'sock_filter_int' name is not accurate.
-Rename it to 'bpf_insn'
-
-Signed-off-by: Alexei Starovoitov <ast@plumgrid.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|6|Alexei Starovoitov|ast@plumgrid.com|2014-07-24 16:38:21-07:00|25200|David S. Miller|davem@davemloft.net|2014-07-24 23:27:17-07:00|25200

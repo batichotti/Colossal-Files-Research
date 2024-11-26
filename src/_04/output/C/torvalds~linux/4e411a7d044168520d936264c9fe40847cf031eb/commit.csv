@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4e411a7d044168520d936264c9fe40847cf031eb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: reset device stat using btrfs_dev_stat_set
-
-btrfs_dev_stat_reset() is an overdo in terms of wrapping. So this patch
-open codes btrfs_dev_stat_reset().
-
-Signed-off-by: Anand Jain <anand.jain@oracle.com>
-Reviewed-by: David Sterba <dsterba@suse.com>
-Signed-off-by: David Sterba <dsterba@suse.com>"|2|Anand Jain|anand.jain@oracle.com|2019-08-07 16:21:19+08:00|-28800|David Sterba|dsterba@suse.com|2019-09-09 14:59:06+02:00|-7200

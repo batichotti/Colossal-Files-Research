@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ff9099f26645818563c8d396a154c2ce6ee422eb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS: Create a try_mount rpc op
-
-I'm already looking up the nfs subversion in nfs_fs_mount(), so I have
-easy access to rpc_ops that used to be difficult to reach.  This allows
-me to set up a different mount path for NFS v2/3 and NFS v4.
-
-Signed-off-by: Bryan Schumaker <bjschuma@netapp.com>
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|8|Bryan Schumaker|bjschuma@netapp.com|2012-07-30 16:05:18-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2012-07-30 19:04:53-04:00|14400

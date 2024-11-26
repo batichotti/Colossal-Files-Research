@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c86d8db33a922da808a5560aa15ed663a9569b37|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: implement allocation of pre-zeroed blocks
-
-DAX page fault path needs to get blocks that are pre-zeroed to avoid
-races when two concurrent page faults happen in the same block of a
-file. Implement support for this in ext4_map_blocks().
-
-Signed-off-by: Jan Kara <jack@suse.com>
-Signed-off-by: Theodore Ts'o <tytso@mit.edu>"|4|Jan Kara|jack@suse.com|2015-12-07 15:10:26-05:00|18000|Theodore Ts'o|tytso@mit.edu|2015-12-07 15:10:26-05:00|18000

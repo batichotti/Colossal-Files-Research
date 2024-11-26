@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1c6e527d6947ea77bebabe15bbeaa765a87b70ca|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915/dp: Move intel_dp_set_signal_levels() to intel_dp_link_training.c
-
-intel_dp_set_signal_levels() is needed for link training, so move it to
-intel_dp_link_training.c.
-
-Signed-off-by: Imre Deak <imre.deak@intel.com>
-Reviewed-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Link: https://patchwork.freedesktop.org/patch/msgid/20201229172201.4155327-1-imre.deak@intel.com"|4|Imre Deak|imre.deak@intel.com|2020-12-29 19:22:00+02:00|-7200|Imre Deak|imre.deak@intel.com|2021-01-13 17:18:08+02:00|-7200

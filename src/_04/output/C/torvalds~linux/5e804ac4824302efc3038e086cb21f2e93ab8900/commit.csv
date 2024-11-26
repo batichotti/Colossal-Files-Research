@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5e804ac4824302efc3038e086cb21f2e93ab8900|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ceph: don't invalidate page cache when inode is no longer used
-
-ceph_check_caps() invalidate page cache when inode is not used
-by any open file. This behaviour is not friendly for workload
-that repeatly read files.
-
-Signed-off-by: Yan, Zheng <zyan@redhat.com>"|2|Yan, Zheng|zyan@redhat.com|2015-10-26 16:08:43+08:00|-28800|Ilya Dryomov|idryomov@gmail.com|2015-11-02 23:36:48+01:00|-3600

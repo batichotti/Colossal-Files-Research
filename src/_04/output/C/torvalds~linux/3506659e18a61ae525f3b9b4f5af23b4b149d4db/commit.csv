@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3506659e18a61ae525f3b9b4f5af23b4b149d4db|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mm: Add unmap_mapping_folio()
-
-Convert both callers of unmap_mapping_page() to call unmap_mapping_folio()
-instead.  Also move zap_details from linux/mm.h to mm/memory.c
-
-Signed-off-by: Matthew Wilcox (Oracle) <willy@infradead.org>
-Reviewed-by: William Kucharski <william.kucharski@oracle.com>"|4|Matthew Wilcox (Oracle)|willy@infradead.org|2021-11-28 14:53:35-05:00|18000|Matthew Wilcox (Oracle)|willy@infradead.org|2022-01-08 00:28:32-05:00|18000

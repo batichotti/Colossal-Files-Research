@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2889456498c635f4e8262a8401b2eddc263953c7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Revert ""net: mediatek: remove set but not used variable 'status'""
-
-This reverts commit ee641b0cdb9486f8212a3da153a46ab3551a97e5.
-
-Actually it is not clear whether this register read is not
-needed for it's HW side effects or not.
-
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|David S. Miller|davem@davemloft.net|2019-08-25 19:07:04-07:00|25200|David S. Miller|davem@davemloft.net|2019-08-25 19:07:04-07:00|25200

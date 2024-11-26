@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|13b95fb714d7b7996e8d423d907beea17ad5c380|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bonding: bond_update_speed_duplex() can return void since no callers check its return
-
-As none of the callers of bond_update_speed_duplex (need to) check its
-return value, there is little point in it returning anything.
-
-Signed-off-by: Rick Jones <rick.jones2@hp.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Rick Jones|rick.jones2@hp.com|2012-04-26 11:20:30+00:00|0|David S. Miller|davem@davemloft.net|2012-04-27 00:03:35-04:00|14400

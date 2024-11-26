@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|43f8c47ea7d59c7b2270835f1d7c4618a1ea27b6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: check discard command number before traversing discard pending list
-
-In trim thread, let's add a condition to check discard command number
-before traversing discard pending list, it can avoid unneeded traversing
-if there is no discard command.
-
-Signed-off-by: Chao Yu <yuchao0@huawei.com>
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|1|Chao Yu|yuchao0@huawei.com|2021-02-22 18:07:33+08:00|-28800|Jaegeuk Kim|jaegeuk@kernel.org|2021-03-12 13:16:42-08:00|28800

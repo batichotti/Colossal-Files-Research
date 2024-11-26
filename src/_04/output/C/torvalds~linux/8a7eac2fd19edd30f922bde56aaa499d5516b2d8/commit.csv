@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8a7eac2fd19edd30f922bde56aaa499d5516b2d8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: qla2xxx: Fix warning for code intentation in __qla24xx_handle_gpdb_event()
-
-This patch fixes following smatch warning:
-
-drivers/scsi/qla2xxx/qla_init.c:1054 __qla24xx_handle_gpdb_event() warn: inconsistent indenting
-
-Signed-off-by: Himanshu Madhani <himanshu.madhani@cavium.com>
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|1|himanshu.madhani@cavium.com|himanshu.madhani@cavium.com|2018-01-15 20:46:50-08:00|28800|Martin K. Petersen|martin.petersen@oracle.com|2018-01-17 01:34:24-05:00|18000

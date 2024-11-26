@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|dee02f0d62fcb5033fe26f86941b9e3bdc450b74|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: issue discard aggressively in the gc_urgent mode
-
-This patch avoids to skip discard commands when user sets gc_urgent mode.
-
-Reviewed-by: Chao Yu <yuchao0@huawei.com>
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|1|Jaegeuk Kim|jaegeuk@kernel.org|2018-02-22 23:30:55-08:00|28800|Jaegeuk Kim|jaegeuk@kernel.org|2018-03-13 08:05:53+09:00|-32400

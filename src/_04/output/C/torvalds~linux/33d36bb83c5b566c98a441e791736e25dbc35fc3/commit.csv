@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|33d36bb83c5b566c98a441e791736e25dbc35fc3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[NETNS]: init dev_base_lock only once
-
-* it already statically initialized
-* reinitializing live global spinlock every time netns is
-  setup is also wrong
-
-Signed-off-by: Alexey Dobriyan <adobriyan@sw.ru>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Alexey Dobriyan|adobriyan@sw.ru|2007-11-10 22:09:25-08:00|28800|David S. Miller|davem@davemloft.net|2007-11-10 22:09:25-08:00|28800

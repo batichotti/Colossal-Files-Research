@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|efe80cdfabe15b9d51d5eca8f88ab3a89b49a768|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"pinctrl: renesas: r8a7794: Add range checking to .pin_to_pocctrl()
-
-The .pin_to_pocctrl() implementation for R-Car E2 does not perform a
-full range check, unlike on all other SoCs.  Add the range check, so the
-checker can validate better the consistency of the pin control tables.
-
-Signed-off-by: Geert Uytterhoeven <geert+renesas@glider.be>
-Link: https://lore.kernel.org/r/d23767ad7152327654192d7191f4b8ae19493966.1640269510.git.geert+renesas@glider.be"|1|Geert Uytterhoeven|geert+renesas@glider.be|2021-12-23 15:28:20+01:00|-3600|Geert Uytterhoeven|geert+renesas@glider.be|2022-02-22 09:55:56+01:00|-3600

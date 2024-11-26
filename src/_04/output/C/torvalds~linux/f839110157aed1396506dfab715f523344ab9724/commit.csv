@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f839110157aed1396506dfab715f523344ab9724|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/amdgpu: fix S3 failed as RLC safe mode entry stucked in polloing gfx acq
-
-Fix gfx cgpg setting sequence for RLC deadlock at safe mode entry in polling gfx response.
-The patch can fix VCN IB test failed and DAL get dispaly count failed issue.
-
-Signed-off-by: Prike Liang <Prike.Liang@amd.com>
-Reviewed-by: Huang Rui <ray.huang@amd.com>
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|2|Prike Liang|Prike.Liang@amd.com|2019-10-15 17:11:49+08:00|-28800|Alex Deucher|alexander.deucher@amd.com|2019-10-17 16:24:09-04:00|14400

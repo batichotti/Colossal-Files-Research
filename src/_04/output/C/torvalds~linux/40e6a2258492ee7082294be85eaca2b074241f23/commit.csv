@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|40e6a2258492ee7082294be85eaca2b074241f23|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"s390/qeth: remove qeth_get_elements_no()
-
-Convert the last remaining user of qeth_get_elements_no() to
-qeth_count_elements(), so this helper can be removed.
-
-Signed-off-by: Julian Wiedmann <jwi@linux.ibm.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|4|Julian Wiedmann|jwi@linux.ibm.com|2018-09-17 17:35:58+02:00|-7200|David S. Miller|davem@davemloft.net|2018-09-17 09:10:25-07:00|25200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d57b0e8b8990419b7b7ae0dda5cc4452720b3c7c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: convert flushable variable to flag in l2cap chan
-
-flushable variable inside l2cap_chan is a logical one and can
-be easily converted to flag. Added flags in l2cap_chan structure.
-
-Signed-off-by: Andrei Emeltchenko <andrei.emeltchenko@intel.com>
-Signed-off-by: Gustavo F. Padovan <padovan@profusion.mobi>"|3|Andrei Emeltchenko|andrei.emeltchenko@intel.com|2011-10-11 14:04:31+03:00|-10800|Gustavo F. Padovan|padovan@profusion.mobi|2011-10-11 10:44:44-03:00|10800

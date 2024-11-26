@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|15c8b6c1aaaf1c4edd67e2f02e4d8e1bd1a51c0d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"on_each_cpu(): kill unused 'retry' parameter
-
-It's not even passed on to smp_call_function() anymore, since that
-was removed. So kill it.
-
-Acked-by: Jeremy Fitzhardinge <jeremy.fitzhardinge@citrix.com>
-Reviewed-by: Paul E. McKenney <paulmck@linux.vnet.ibm.com>
-Signed-off-by: Jens Axboe <jens.axboe@oracle.com>"|48|Jens Axboe|jens.axboe@oracle.com|2008-05-09 09:39:44+02:00|-7200|Jens Axboe|jens.axboe@oracle.com|2008-06-26 11:24:38+02:00|-7200

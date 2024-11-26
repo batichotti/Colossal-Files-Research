@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|53da4c45cadee45c1c902d58556cc0d488878e16|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: remove unused argument to ieee80211_sta_connection_lost()
-
-We never use the bssid argument to ieee80211_sta_connection_lost()
-so we might as well just remove it.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|3|Johannes Berg|johannes.berg@intel.com|2022-05-13 17:46:23+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2022-05-16 09:15:04+02:00|-7200

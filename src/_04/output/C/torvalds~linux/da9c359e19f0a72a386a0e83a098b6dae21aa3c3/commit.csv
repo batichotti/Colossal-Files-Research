@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|da9c359e19f0a72a386a0e83a098b6dae21aa3c3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: dsa: mv88e6xxx: check hardware VLAN in use
-
-The DSA drivers now have access to the VLAN prepare phase and the bridge
-net_device. It is easier to check for overlapping bridges from within
-the driver. Thus add such check in mv88e6xxx_port_vlan_prepare.
-
-Signed-off-by: Vivien Didelot <vivien.didelot@savoirfairelinux.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Vivien Didelot|vivien.didelot@savoirfairelinux.com|2016-02-12 12:09:40-05:00|18000|David S. Miller|davem@davemloft.net|2016-02-23 14:52:46-05:00|18000

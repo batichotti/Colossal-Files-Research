@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bec6b0c89b234090681a4516e20ac5debe3e7c59|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[PATCH] slab: remove nested #ifdef CONFIG_NUMA
-
-For some reason there is an #ifdef CONFIG_NUMA within another #ifdef
-CONFIG_NUMA in the page allocator.  Remove innermost #ifdef CONFIG_NUMA
-
-Signed-off-by: Christoph Lameter <clameter@sgi.com>
-Signed-off-by: Andrew Morton <akpm@osdl.org>
-Signed-off-by: Linus Torvalds <torvalds@osdl.org>"|1|Christoph Lameter|clameter@engr.sgi.com|2006-01-08 01:00:38-08:00|28800|Linus Torvalds|torvalds@g5.osdl.org|2006-01-08 20:12:40-08:00|28800

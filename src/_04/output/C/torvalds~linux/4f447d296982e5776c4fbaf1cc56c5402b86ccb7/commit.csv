@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4f447d296982e5776c4fbaf1cc56c5402b86ccb7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8169: drop member pll_power_ops from struct rtl8169_private
-
-After merging r810x_pll_power_down/up and r8168_pll_power_down/up we
-don't need member pll_power_ops any longer and can drop it, thus
-simplifying the code.
-
-Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Heiner Kallweit|hkallweit1@gmail.com|2018-05-02 21:39:47+02:00|-7200|David S. Miller|davem@davemloft.net|2018-05-02 16:23:49-04:00|14400

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|81d2dd09ca11a2b834c8a915c6aabf8325d57ecf|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: ethernet: mediatek: fix inconsistency between TXD and the used buffer
-
-Fix inconsistency between the TXD descriptor and the used buffer that
-would cause unexpected logic at mtk_tx_unmap() during skb housekeeping.
-
-Signed-off-by: Sean Wang <sean.wang@mediatek.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Sean Wang|sean.wang@mediatek.com|2017-04-14 11:19:11+08:00|-28800|David S. Miller|davem@davemloft.net|2017-04-17 13:33:58-04:00|14400

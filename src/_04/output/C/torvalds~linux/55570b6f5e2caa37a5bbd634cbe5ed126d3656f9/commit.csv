@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|55570b6f5e2caa37a5bbd634cbe5ed126d3656f9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ixgbe: set device if before calling get_invariants
-
-Fix an issue where set_phy_power was NULL for X550 copper devices
-because get_invariants was called before hw->device_id was set.
-
-Signed-off-by: Emil Tantilov <emil.s.tantilov@intel.com>
-Tested-by: Krishneil Singh <krishneil.k.singh@intel.com>
-Signed-off-by: Jeff Kirsher <jeffrey.t.kirsher@intel.com>"|1|Emil Tantilov|emil.s.tantilov@intel.com|2016-10-12 12:34:25-07:00|25200|Jeff Kirsher|jeffrey.t.kirsher@intel.com|2016-11-04 17:24:46-07:00|25200

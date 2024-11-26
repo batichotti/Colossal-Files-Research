@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2e5b0bd9cc6172edef502dfae28ae790f74a882e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"kvm: nVMX: Don't validate disabled secondary controls
-
-According to the SDM, if the ""activate secondary controls"" primary
-processor-based VM-execution control is 0, no checks are performed on
-the secondary processor-based VM-execution controls.
-
-Signed-off-by: Jim Mattson <jmattson@google.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Jim Mattson|jmattson@google.com|2017-05-04 11:51:58-07:00|25200|Paolo Bonzini|pbonzini@redhat.com|2017-05-05 10:08:31+02:00|-7200

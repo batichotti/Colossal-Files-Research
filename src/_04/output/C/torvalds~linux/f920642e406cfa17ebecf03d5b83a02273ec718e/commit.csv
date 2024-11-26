@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f920642e406cfa17ebecf03d5b83a02273ec718e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: mpt3sas: Revert ""scsi: mpt3sas: Fix writel() use""
-
-This reverts commit b4efbec4c2a75b619fae4e8768be379e88c78687 as it is
-breaking the mpt3sas driver on big-endian machines.
-
-Link: https://lore.kernel.org/r/20220916130111.168195-2-damien.lemoal@opensource.wdc.com
-Signed-off-by: Damien Le Moal <damien.lemoal@opensource.wdc.com>
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|1|Damien Le Moal|damien.lemoal@opensource.wdc.com|2022-09-16 22:01:10+09:00|-32400|Martin K. Petersen|martin.petersen@oracle.com|2022-09-25 13:34:54-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e09d082c03e137015bc0a17ca77e4b9dca08a5d7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86 emulator: add support for group decoding
-
-Certain x86 instructions use bits 3:5 of the byte following the opcode as an
-opcode extension, with the decode sometimes depending on bits 6:7 as well.
-Add support for this in the main decoding table rather than an ad-hock
-adaptation per opcode.
-
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|1|Avi Kivity|avi@qumranet.com|2008-01-18 12:38:59+02:00|-7200|Avi Kivity|avi@qumranet.com|2008-04-27 11:53:14+03:00|-10800

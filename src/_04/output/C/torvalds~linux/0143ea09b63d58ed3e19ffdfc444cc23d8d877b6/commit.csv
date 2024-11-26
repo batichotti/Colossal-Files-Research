@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0143ea09b63d58ed3e19ffdfc444cc23d8d877b6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wifi: mac80211: advertise TWT requester only with HW support
-
-Currently, we rely only on the AP capability. If the AP supports
-TWT responder we will advertise TWT requester even if the driver
-or HW doesn't support it. Fix this by checking the HW capability.
-
-Signed-off-by: Haim Dreyfuss <haim.dreyfuss@intel.com>
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Haim Dreyfuss|haim.dreyfuss@intel.com|2022-09-11 22:01:42+03:00|-10800|Johannes Berg|johannes.berg@intel.com|2022-10-07 15:24:08+02:00|-7200

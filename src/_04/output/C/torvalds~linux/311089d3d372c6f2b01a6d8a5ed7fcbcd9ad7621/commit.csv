@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|311089d3d372c6f2b01a6d8a5ed7fcbcd9ad7621|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: use msleep for intel_wait_for_vblank
-
-20ms delay is quite big and the routine isn't called in atomic context.
-better use msleep to let other tasks run. This can reduce cpu time used
-by Xorg, so potentially boost boot.
-
-Signed-off-by: Shaohua Li <shaohua.li@intel.com>
-Signed-off-by: Eric Anholt <eric@anholt.net>"|1|Shaohua Li|shaohua.li@intel.com|2009-11-26 14:22:41+08:00|-28800|Eric Anholt|eric@anholt.net|2009-11-30 09:39:57-08:00|28800

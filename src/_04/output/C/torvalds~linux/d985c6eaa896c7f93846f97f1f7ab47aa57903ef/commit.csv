@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d985c6eaa896c7f93846f97f1f7ab47aa57903ef|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: ufs: just use sizeof() for snprintf()
-
-Not much reason to use ARRAY_SIZE() when we know it's for a C string.
-
-Signed-off-by: Tomohiro Kusumi <tkusumi@tuxera.com>
-Reviewed-by: Subhash Jadavani <subhashj@codeaurora.org>
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|1|Tomohiro Kusumi|tkusumi@tuxera.com|2017-03-28 16:49:29+03:00|-10800|Martin K. Petersen|martin.petersen@oracle.com|2017-03-29 22:42:21-04:00|14400

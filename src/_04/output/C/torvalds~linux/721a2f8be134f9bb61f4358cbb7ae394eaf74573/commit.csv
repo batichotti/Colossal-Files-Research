@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|721a2f8be134f9bb61f4358cbb7ae394eaf74573|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mm/slub: add slub_get_cpu_partial() helper
-
-Add slub_get_cpu_partial() and dummy function to help improve
-get_partial_node(). It can help remove #ifdef of CONFIG_SLUB_CPU_PARTIAL
-and improve filling cpu partial logic.
-
-Signed-off-by: Xiongwei Song <xiongwei.song@windriver.com>
-Signed-off-by: Vlastimil Babka <vbabka@suse.cz>"|1|Xiongwei Song|xiongwei.song@windriver.com|2024-04-04 13:58:25+08:00|-28800|Vlastimil Babka|vbabka@suse.cz|2024-04-04 11:10:35+02:00|-7200

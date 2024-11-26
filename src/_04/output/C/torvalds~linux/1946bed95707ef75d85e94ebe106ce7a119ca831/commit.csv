@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1946bed95707ef75d85e94ebe106ce7a119ca831|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: check ERP info IE length in parser
-
-It's always just one byte, so check for that and
-remove the length field from the parser struct.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|4|Johannes Berg|johannes.berg@intel.com|2013-03-27 14:31:53+01:00|-3600|Johannes Berg|johannes.berg@intel.com|2013-04-08 09:16:57+02:00|-7200

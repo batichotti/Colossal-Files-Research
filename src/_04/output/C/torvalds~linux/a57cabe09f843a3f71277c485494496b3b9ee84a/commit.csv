@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a57cabe09f843a3f71277c485494496b3b9ee84a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cxgb4: set the number of queues before device registration
-
-The number of queues is known early, move the calls to
-netif_set_real_num_[rt]x_queues before register_netdev.
-
-Signed-off-by: Dimitris Michailidis <dm@chelsio.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Dimitris Michailidis|dm@chelsio.com|2010-12-14 21:36:46+00:00|0|David S. Miller|davem@davemloft.net|2010-12-16 13:16:00-08:00|28800

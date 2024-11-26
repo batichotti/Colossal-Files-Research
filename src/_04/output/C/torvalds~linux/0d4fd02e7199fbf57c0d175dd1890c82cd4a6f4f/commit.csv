@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0d4fd02e7199fbf57c0d175dd1890c82cd4a6f4f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: flow_offload: add flow_block_cb_is_busy() and use it
-
-This patch adds a function to check if flow block callback is already in
-use.  Call this new function from flow_block_cb_setup_simple() and from
-drivers.
-
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|7|Pablo Neira Ayuso|pablo@netfilter.org|2019-07-09 22:55:48+02:00|-7200|David S. Miller|davem@davemloft.net|2019-07-09 14:38:50-07:00|25200

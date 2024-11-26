@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|29215a7d43c77466f2d7e6c264942e6bc8e06cd8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: allow checkpoint=disable for zoned block device
-
-Let's allow checkpoint=disable back for zoned block device. It's very risky
-as the feature relies on fsck or runtime recovery which matches the write
-pointers again if the device rebooted while disabling the checkpoint.
-
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|1|Jaegeuk Kim|jaegeuk@kernel.org|2023-12-01 10:38:35-08:00|28800|Jaegeuk Kim|jaegeuk@kernel.org|2023-12-01 10:38:35-08:00|28800

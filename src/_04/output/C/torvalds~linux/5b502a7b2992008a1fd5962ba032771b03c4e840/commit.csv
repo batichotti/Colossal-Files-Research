@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5b502a7b2992008a1fd5962ba032771b03c4e840|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: dsa: propagate resolved link config via mac_link_up()
-
-Propagate the resolved link configuration down via DSA's
-phylink_mac_link_up() operation to allow split PCS/MAC to work.
-
-Tested-by: Vladimir Oltean <vladimir.oltean@nxp.com>
-Signed-off-by: Russell King <rmk+kernel@armlinux.org.uk>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|11|Russell King|rmk+kernel@armlinux.org.uk|2020-02-26 10:23:46+00:00|0|David S. Miller|davem@davemloft.net|2020-02-27 12:02:14-08:00|28800

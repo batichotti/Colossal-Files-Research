@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0c266898b42fe4e4e2f9edfc9d3474c10f93aa6a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tcp: Fix tcp_prequeue() to get correct rto_min value
-
-tcp_prequeue() refers to the constant value (TCP_RTO_MIN) regardless of
-the actual value might be tuned. The following patches fix this and make
-tcp_prequeue get the actual value returns from tcp_rto_min().
-
-Signed-off-by: Satoru SATOH <satoru.satoh@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Satoru SATOH|satoru.satoh@gmail.com|2009-05-04 11:11:01-07:00|25200|David S. Miller|davem@davemloft.net|2009-05-04 11:11:01-07:00|25200

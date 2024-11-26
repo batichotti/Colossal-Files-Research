@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|45b44d76d373e66d08e0c745dc82ff9123103588|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[S390] dasd: no High Performance FICON in 31-bit mode
-
-The High Performance FICON feature is not supported in 31-bit mode,
-no matter what the various flags say. So we need to check for the
-CONFIG_64BIT option as well.
-
-Signed-off-by: Stefan Weinhuber <wein@de.ibm.com>
-Signed-off-by: Martin Schwidefsky <schwidefsky@de.ibm.com>"|1|Stefan Weinhuber|wein@de.ibm.com|2009-06-12 10:26:36+02:00|-7200|Martin Schwidefsky|schwidefsky@de.ibm.com|2009-06-12 10:27:35+02:00|-7200

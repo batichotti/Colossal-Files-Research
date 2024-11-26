@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7c58e87ee55d9a190e0059bb9b833d1e50d0fea4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/edid: Restore kerneldoc consistency
-
-Commit 18df89fef2d5 (""drm: Decouple EDID parsing from I2C adapter"")
-renamed the adapter parameter of the drm_do_probe_ddc_edid function
-to data but didn't update the kerneldoc accordingly.
-
-Signed-off-by: Thierry Reding <treding@nvidia.com>
-Signed-off-by: Daniel Vetter <daniel.vetter@ffwll.ch>"|1|Thierry Reding|treding@nvidia.com|2014-12-03 16:52:18+01:00|-3600|Daniel Vetter|daniel.vetter@ffwll.ch|2014-12-03 17:13:03+01:00|-3600

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6d58f275e6dcded101bd7e6688bf308d3385e238|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86/mmu: clear MMIO cache when unloading the MMU
-
-For cleanliness, do not leave a stale GVA in the cache after all the roots are
-cleared.  In practice, kvm_mmu_load will go through kvm_mmu_sync_roots if
-paging is on, and will not use vcpu_match_mmio_gva at all if paging is off.
-However, leaving data in the cache might cause bugs in the future.
-
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Paolo Bonzini|pbonzini@redhat.com|2022-02-14 09:13:48-05:00|18000|Paolo Bonzini|pbonzini@redhat.com|2022-02-25 08:20:19-05:00|18000

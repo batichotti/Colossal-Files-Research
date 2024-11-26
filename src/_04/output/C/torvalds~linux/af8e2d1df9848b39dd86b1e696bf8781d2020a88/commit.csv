@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|af8e2d1df9848b39dd86b1e696bf8781d2020a88|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs, scrub: repair the common data on RAID5/6 if it is corrupted
-
-This patch implement the RAID5/6 common data repair function, the
-implementation is similar to the scrub on the other RAID such as
-RAID1, the differentia is that we don't read the data from the
-mirror, we use the data repair function of RAID5/6.
-
-Signed-off-by: Miao Xie <miaox@cn.fujitsu.com>"|5|Miao Xie|miaox@cn.fujitsu.com|2014-10-23 14:42:50+08:00|-28800|Miao Xie|miaox@cn.fujitsu.com|2014-12-03 10:18:45+08:00|-28800

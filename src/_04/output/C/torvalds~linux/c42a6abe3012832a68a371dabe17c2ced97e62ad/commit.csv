@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c42a6abe3012832a68a371dabe17c2ced97e62ad|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"CIFS: Add capability to decrypt big read responses
-
-Allow to decrypt transformed packets that are bigger than the big
-buffer size. In particular it is used for read responses that can
-only exceed the big buffer size.
-
-Signed-off-by: Pavel Shilovsky <pshilov@microsoft.com>"|3|Pavel Shilovsky|pshilov@microsoft.com|2016-11-17 16:20:23-08:00|28800|Steve French|smfrench@gmail.com|2017-02-01 16:46:37-06:00|21600

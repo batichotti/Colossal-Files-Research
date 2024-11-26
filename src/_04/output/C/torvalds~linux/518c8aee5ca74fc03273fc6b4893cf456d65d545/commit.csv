@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|518c8aee5ca74fc03273fc6b4893cf456d65d545|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: Make sure single type invvpid is supported before issuing invvpid instruction
-
-According to SDM, we need check whether single-context INVVPID type is supported
-before issuing invvpid instruction.
-
-Signed-off-by: Gui Jianfeng <guijianfeng@cn.fujitsu.com>
-Reviewed-by: Sheng Yang <sheng@linux.intel.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|2|Gui Jianfeng|guijianfeng@cn.fujitsu.com|2010-06-04 08:51:39+08:00|-28800|Avi Kivity|avi@redhat.com|2010-08-01 10:39:26+03:00|-10800

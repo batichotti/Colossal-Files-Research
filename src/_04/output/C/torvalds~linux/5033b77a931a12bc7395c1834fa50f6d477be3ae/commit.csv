@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5033b77a931a12bc7395c1834fa50f6d477be3ae|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd: fix nfsd4_encode_open buffer space reservation
-
-nfsd4_encode_open first reservation is currently for 36 + sizeof(stateid_t)
-while it writes after the stateid a cinfo (20 bytes) and 5 more 4-bytes
-words, for a total of 40 + sizeof(stateid_t).
-
-Signed-off-by: Benny Halevy <bhalevy@panasas.com>
-Signed-off-by: J. Bruce Fields <bfields@citi.umich.edu>"|1|Benny Halevy|bhalevy@panasas.com|2008-08-12 20:44:41+03:00|-10800|J. Bruce Fields|bfields@citi.umich.edu|2008-09-29 17:56:58-04:00|14400

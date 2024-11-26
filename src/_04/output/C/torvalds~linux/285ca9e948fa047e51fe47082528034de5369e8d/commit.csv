@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|285ca9e948fa047e51fe47082528034de5369e8d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: emulate: speed up do_insn_fetch
-
-Hoist the common case up from do_insn_fetch_byte to do_insn_fetch,
-and prime the fetch_cache in x86_decode_insn.  This helps a bit the
-compiler and the branch predictor, but above all it lays the
-ground for further changes in the next few patches.
-
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Paolo Bonzini|pbonzini@redhat.com|2014-05-06 12:24:32+02:00|-7200|Paolo Bonzini|pbonzini@redhat.com|2014-07-11 09:14:02+02:00|-7200

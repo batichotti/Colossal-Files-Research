@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|569ed348ecef309fae5a71b86015951680ea3415|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Revert ""ALSA: HDA: Create mixers on ALC887""
-
-This reverts commit 03b7a1ab557efe34e8f79b78660e514bd7374248.
-
-This commit was mistakenly re-introduced.  While the change is harmless
-(as ALC887 uses patch_alc888() now), we should get rid of any wrong code.
-
-Signed-off-by: Takashi Iwai <tiwai@suse.de>"|1|Takashi Iwai|tiwai@suse.de|2011-01-19 10:14:46+01:00|-3600|Takashi Iwai|tiwai@suse.de|2011-01-19 10:14:46+01:00|-3600

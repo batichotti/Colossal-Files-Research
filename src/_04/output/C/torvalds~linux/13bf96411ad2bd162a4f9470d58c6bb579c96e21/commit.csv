@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|13bf96411ad2bd162a4f9470d58c6bb579c96e21|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bpf: Adds support for setting sndcwnd clamp
-
-Adds a new bpf_setsockopt for TCP sockets, TCP_BPF_SNDCWND_CLAMP, which
-sets the initial congestion window. It is useful to limit the sndcwnd
-when the host are close to each other (small RTT).
-
-Signed-off-by: Lawrence Brakmo <brakmo@fb.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Lawrence Brakmo|brakmo@fb.com|2017-06-30 20:02:53-07:00|25200|David S. Miller|davem@davemloft.net|2017-07-01 16:15:14-07:00|25200

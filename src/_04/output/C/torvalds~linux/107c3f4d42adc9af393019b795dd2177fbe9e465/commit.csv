@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|107c3f4d42adc9af393019b795dd2177fbe9e465|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cnic: Prevent status block race conditions with hardware
-
-The status block index is used to acknowledge interrupt events and must
-be read before checking for the interrupt events, so we need to add rmb()
-to guarantee that.
-
-Signed-off-by: Michael Chan <mchan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Michael Chan|mchan@broadcom.com|2011-03-02 13:00:49+00:00|0|David S. Miller|davem@davemloft.net|2011-03-02 15:57:51-08:00|28800

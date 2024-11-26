@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|640d9b0dbe9f744ac8fd517a8f6afe238f8f525b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: MMU: optimize to handle dirty bit
-
-If dirty bit is not set, we can make the pte access read-only to avoid handing
-dirty bit everywhere
-
-Signed-off-by: Xiao Guangrong <xiaoguangrong@cn.fujitsu.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|2|Xiao Guangrong|xiaoguangrong@cn.fujitsu.com|2011-07-12 03:24:39+08:00|-28800|Avi Kivity|avi@redhat.com|2011-07-24 11:50:27+03:00|-10800

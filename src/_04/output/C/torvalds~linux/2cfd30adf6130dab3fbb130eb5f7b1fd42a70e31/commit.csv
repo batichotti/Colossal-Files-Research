@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2cfd30adf6130dab3fbb130eb5f7b1fd42a70e31|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ocfs: stop using do_sync_mapping_range
-
-do_sync_mapping_range(..., SYNC_FILE_RANGE_WRITE) is a very awkward way
-to perform a filemap_fdatawrite_range.
-
-Signed-off-by: Christoph Hellwig <hch@lst.de>
-Signed-off-by: Al Viro <viro@zeniv.linux.org.uk>"|1|Christoph Hellwig|hch@lst.de|2009-09-23 15:04:02+02:00|-7200|Al Viro|viro@zeniv.linux.org.uk|2009-12-16 12:16:49-05:00|18000

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e616fec63f517449e153051b785b1769775562ce|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: make array bt_uuid_any static const
-
-Don't populate the read-only array bt_uuid_any on the stack but
-instead make it static const. Also makes the object code a little
-smaller.
-
-Signed-off-by: Colin Ian King <colin.i.king@gmail.com>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|1|Colin Ian King|colin.i.king@gmail.com|2022-02-14 21:51:30+00:00|0|Marcel Holtmann|marcel@holtmann.org|2022-03-04 16:10:50+01:00|-3600

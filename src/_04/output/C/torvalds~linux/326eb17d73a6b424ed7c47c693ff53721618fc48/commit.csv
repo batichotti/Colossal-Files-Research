@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|326eb17d73a6b424ed7c47c693ff53721618fc48|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md: remove unnecessary test for MD_MAJOR in md_ioctl()
-
-unknown ioctls no longer get this deep into md_ioctl since
-md_ioctl_valid() was introduced in 3.14.
-So remove the test and the misleading comment.
-
-Signed-off-by: NeilBrown <neilb@suse.de>"|1|NeilBrown|neilb@suse.de|2014-09-30 15:36:28+10:00|-36000|NeilBrown|neilb@suse.de|2014-10-14 13:08:29+11:00|-39600

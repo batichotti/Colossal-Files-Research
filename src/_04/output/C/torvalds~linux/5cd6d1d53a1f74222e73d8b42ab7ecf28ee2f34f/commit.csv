@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5cd6d1d53a1f74222e73d8b42ab7ecf28ee2f34f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"dm integrity: Remove bi_sector that's only used by commented debug code
-
-drivers/md/dm-integrity.c:1738:13: warning: variable 'bi_sector' set but not used.
-
-Reported-by: Abaci Robot <abaci@linux.alibaba.com>
-Link: https://bugzilla.openanolis.cn/show_bug.cgi?id=3895
-Signed-off-by: Jiapeng Chong <jiapeng.chong@linux.alibaba.com>
-Signed-off-by: Mike Snitzer <snitzer@kernel.org>"|1|Jiapeng Chong|jiapeng.chong@linux.alibaba.com|2023-01-31 14:09:41+08:00|-28800|Mike Snitzer|snitzer@kernel.org|2023-02-02 14:26:09-05:00|18000

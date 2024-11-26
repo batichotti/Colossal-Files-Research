@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|361ff5017446605dca8b0a084c826e3d2a0d0a99|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"regulator: Use newly added devres_release() rather than open coding
-
-devres_release() will call the destructor for the resource as well as
-freeing the devres data.
-
-Signed-off-by: Mark Brown <broonie@opensource.wolfsonmicro.com>
-Acked-by: Liam Girdwood <lrg@ti.com>"|1|Mark Brown|broonie@opensource.wolfsonmicro.com|2012-05-07 14:14:30+01:00|-3600|Mark Brown|broonie@opensource.wolfsonmicro.com|2012-06-03 13:20:12+01:00|-3600

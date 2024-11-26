@@ -1,6 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7b8002a1511fcbcb0596cac90d67ad5c8182d0aa|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nfnetlink: pass down netns pointer to call() and call_rcu()
-
-Adapt callsites to avoid recurrent lookup of the netns pointer.
-
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|12|Pablo Neira Ayuso|pablo@netfilter.org|2015-12-15 18:41:56+01:00|-3600|Pablo Neira Ayuso|pablo@netfilter.org|2015-12-28 18:41:41+01:00|-3600

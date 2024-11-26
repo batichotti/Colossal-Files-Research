@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ad065ef0d2fcd787225bd8887b6b75c6eb4da9a1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"xfs: set btree block buffer ops in _init_buf
-
-Set the btree block buffer ops in xfs_btree_init_buf since we already
-have access to that information through the btree ops.
-
-Signed-off-by: Darrick J. Wong <djwong@kernel.org>
-Reviewed-by: Christoph Hellwig <hch@lst.de>"|2|Darrick J. Wong|djwong@kernel.org|2024-02-22 12:35:19-08:00|28800|Darrick J. Wong|djwong@kernel.org|2024-02-22 12:35:19-08:00|28800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|eada35efcb2773cf49aa26277e056122e1a3405c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"slub: kmalloc page allocator pass-through cleanup
-
-This adds a proper function for kmalloc page allocator pass-through. While it
-simplifies any code that does slab tracing code a lot, I think it's a
-worthwhile cleanup in itself.
-
-Signed-off-by: Pekka Enberg <penberg@cs.helsinki.fi>
-Signed-off-by: Christoph Lameter <clameter@sgi.com>"|2|Pekka Enberg|penberg@cs.helsinki.fi|2008-02-11 22:47:46+02:00|-7200|Christoph Lameter|christoph@stapp.engr.sgi.com|2008-02-14 15:30:01-08:00|28800

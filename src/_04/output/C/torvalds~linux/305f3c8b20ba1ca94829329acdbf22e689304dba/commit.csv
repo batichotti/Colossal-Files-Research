@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|305f3c8b20ba1ca94829329acdbf22e689304dba|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cgroup: move assignement out of condition in cgroup_attach_proc()
-
-Gcc complains about this: ""kernel/cgroup.c:2179:4: warning: suggest
-parentheses around assignment used as truth value [-Wparentheses]""
-
-Signed-off-by: Dan Carpenter <dan.carpenter@oracle.com>
-Signed-off-by: Tejun Heo <tj@kernel.org>"|1|Dan Carpenter|dan.carpenter@oracle.com|2012-01-04 10:24:29+03:00|-10800|Tejun Heo|tj@kernel.org|2012-01-04 07:37:48-08:00|28800

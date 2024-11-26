@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d4905f2453bd228d8ffc57f4e25bba0a8f52c805|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Connection parameters check helper
-
-This patch renames l2cap_check_conn_param() to hci_check_conn_params()
-and moves it to hci_core.h so it can reused in others files. This helper
-will be reused in the next patch.
-
-Signed-off-by: Andre Guedes <andre.guedes@openbossa.org>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|2|Andre Guedes|andre.guedes@openbossa.org|2014-06-25 21:52:52-03:00|10800|Marcel Holtmann|marcel@holtmann.org|2014-07-03 17:42:52+02:00|-7200

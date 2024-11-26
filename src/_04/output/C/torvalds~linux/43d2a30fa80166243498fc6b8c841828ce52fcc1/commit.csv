@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|43d2a30fa80166243498fc6b8c841828ce52fcc1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ath10k: add testmode
-
-Add testmode interface for starting and using UTF firmware which is used to run
-factory tests. This is implemented by adding new state ATH10K_STATE_UTF and user
-space can enable this state with ATH10K_TM_CMD_UTF_START command. To go back to
-normal mode user space can send ATH10K_TM_CMD_UTF_STOP.
-
-Signed-off-by: Kalle Valo <kvalo@qca.qualcomm.com>"|11|Kalle Valo|kvalo@qca.qualcomm.com|2014-09-10 18:23:30+03:00|-10800|Kalle Valo|kvalo@qca.qualcomm.com|2014-09-11 23:42:36+03:00|-10800

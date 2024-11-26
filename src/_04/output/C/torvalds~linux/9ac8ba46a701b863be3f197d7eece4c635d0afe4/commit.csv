@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9ac8ba46a701b863be3f197d7eece4c635d0afe4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"fs: dlm: handle -EINVAL as log_error()
-
-If the user generates -EINVAL it's probably because they are
-using DLM incorrectly.  Change the log level to make these
-errors more visible.
-
-Signed-off-by: Alexander Aring <aahringo@redhat.com>
-Signed-off-by: David Teigland <teigland@redhat.com>"|1|Alexander Aring|aahringo@redhat.com|2022-08-15 15:43:18-04:00|14400|David Teigland|teigland@redhat.com|2022-08-23 14:49:09-05:00|18000

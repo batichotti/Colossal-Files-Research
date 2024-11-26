@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e9886ca3a93d7d041d3de8e5acebe213da777d59|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sched: kill off dead cfs_rq_set_shares()
-
-Building with CONFIG_FAIR_GROUP_SCHED=y on UP results in an unused
-cfs_rq_set_shares() reference. As nothing is using this dummy function
-in the first place, just kill it off.
-
-Signed-off-by: Paul Mundt <lethal@linux-sh.org>
-Signed-off-by: Ingo Molnar <mingo@elte.hu>"|1|Paul Mundt|lethal@linux-sh.org|2008-06-09 17:12:24+09:00|-32400|Ingo Molnar|mingo@elte.hu|2008-06-10 14:51:04+02:00|-7200

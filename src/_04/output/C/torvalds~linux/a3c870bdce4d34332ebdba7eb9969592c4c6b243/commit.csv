@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a3c870bdce4d34332ebdba7eb9969592c4c6b243|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Avoid useless memory write when possible
-
-When writing to normal memory and the memory area is unchanged the write
-can be safely skipped, avoiding the costly kvm_mmu_pte_write.
-
-Signed-Off-By: Luca Tettamanti <kronos.it@gmail.com>
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|1|Luca Tettamanti|kronos.it@gmail.com|2007-06-19 22:41:38+02:00|-7200|Avi Kivity|avi@qumranet.com|2007-07-16 12:05:48+03:00|-10800

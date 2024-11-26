@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7c1d5fae4a87d3cf3e9ffd68bcdbaf6529013009|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: Convert nfs41_free_stateid to use an asynchronous RPC call
-
-The main reason for doing this is will be to allow for an asynchronous
-RPC mode that we can use for freeing lock stateids as per section
-8.2.4 of RFC5661.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|3|Trond Myklebust|Trond.Myklebust@netapp.com|2013-05-03 14:40:01-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2013-05-06 17:24:22-04:00|14400

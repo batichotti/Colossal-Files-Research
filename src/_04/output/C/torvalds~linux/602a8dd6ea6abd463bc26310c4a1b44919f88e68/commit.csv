@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|602a8dd6ea6abd463bc26310c4a1b44919f88e68|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"SELinux: remove inode_has_perm_noadp
-
-Both callers could better be using file_has_perm() to get better audit
-results.
-
-Signed-off-by: Eric Paris <eparis@redhat.com>"|1|Eric Paris|eparis@redhat.com|2012-04-04 15:01:42-04:00|14400|Eric Paris|eparis@redhat.com|2012-04-09 12:23:00-04:00|14400

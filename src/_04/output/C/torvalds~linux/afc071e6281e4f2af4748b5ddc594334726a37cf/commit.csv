@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|afc071e6281e4f2af4748b5ddc594334726a37cf|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] lpfc: fix printk format warning
-
-Fix printk format warning:
-drivers/scsi/lpfc/lpfc_attr.c:597: warning: long long unsigned int format, uint64_t arg (arg 4)
-
-Signed-off-by: Randy Dunlap <randy.dunlap@oracle.com>
-Acked-by: James Smart <James.Smart@Emulex.Com>
-Signed-off-by: James Bottomley <James.Bottomley@SteelEye.com>"|1|Randy Dunlap|randy.dunlap@oracle.com|2006-10-23 21:47:13-07:00|25200|James Bottomley|jejb@mulgrave.il.steeleye.com|2006-10-25 15:14:30-07:00|25200

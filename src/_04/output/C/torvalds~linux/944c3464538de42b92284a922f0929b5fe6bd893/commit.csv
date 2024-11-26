@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|944c3464538de42b92284a922f0929b5fe6bd893|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: Move nested hardware/vcpu {un}setup to helper functions
-
-Eventually this will allow us to move the nested VMX code out of vmx.c.
-Note that this also effectively wraps @enable_shadow_vmcs with @nested
-so that it too can be moved out of vmx.c.
-
-Signed-off-by: Sean Christopherson <sean.j.christopherson@intel.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Sean Christopherson|sean.j.christopherson@intel.com|2018-12-03 13:53:09-08:00|28800|Paolo Bonzini|pbonzini@redhat.com|2018-12-14 17:17:56+01:00|-3600

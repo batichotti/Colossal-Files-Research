@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|123f6d3ae773f769695830518690ac3e4a477e82|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: hci_sync: Fix suspend performance regression
-
-This attempts to fix suspend performance when there is no connections by
-not updating the event mask.
-
-Fixes: ef61b6ea1544 (""Bluetooth: Always set event mask on suspend"")
-Signed-off-by: Luiz Augusto von Dentz <luiz.von.dentz@intel.com>"|1|Luiz Augusto von Dentz|luiz.von.dentz@intel.com|2022-08-11 14:20:46-07:00|25200|Luiz Augusto von Dentz|luiz.von.dentz@intel.com|2022-08-25 16:21:02-07:00|25200

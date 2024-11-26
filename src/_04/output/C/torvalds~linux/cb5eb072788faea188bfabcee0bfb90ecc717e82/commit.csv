@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cb5eb072788faea188bfabcee0bfb90ecc717e82|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915/overlay: Drop struct_mutex guard
-
-The overlay uses the modeset mutex to control itself and only required
-the struct_mutex for requests, which is now obsolete.
-
-Signed-off-by: Chris Wilson <chris@chris-wilson.co.uk>
-Reviewed-by: Tvrtko Ursulin <tvrtko.ursulin@intel.com>
-Link: https://patchwork.freedesktop.org/patch/msgid/20191004134015.13204-16-chris@chris-wilson.co.uk"|3|Chris Wilson|chris@chris-wilson.co.uk|2019-10-04 14:40:10+01:00|-3600|Chris Wilson|chris@chris-wilson.co.uk|2019-10-04 15:39:39+01:00|-3600

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c622d226155b12276ae3d29d546f4b314d7cd68c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rbd: skip the copyup when an entire object writing
-
-It need to copyup the parent's content when layered writing,
-but an entire object write would overwrite it, so skip it.
-
-Signed-off-by: Guangliang Zhao <lucienchao@gmail.com>
-Reviewed-by: Josh Durgin <josh.durgin@inktank.com>
-Reviewed-by: Alex Elder <elder@linaro.org>"|1|Guangliang Zhao|lucienchao@gmail.com|2014-04-01 22:22:15+08:00|-28800|Ilya Dryomov|idryomov@redhat.com|2014-10-14 21:03:29+04:00|-14400

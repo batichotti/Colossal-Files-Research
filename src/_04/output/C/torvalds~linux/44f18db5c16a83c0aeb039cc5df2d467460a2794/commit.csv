@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|44f18db5c16a83c0aeb039cc5df2d467460a2794|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mlxfw: Propagate error messages through extack
-
-Currently the error messages are printed to dmesg. Propagate them also
-to directly to user doing the flashing through extack.
-
-Signed-off-by: Jiri Pirko <jiri@mellanox.com>
-Reviewed-by: Ido Schimmel <idosch@mellanox.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|6|Jiri Pirko|jiri@mellanox.com|2019-06-04 15:40:39+02:00|-7200|David S. Miller|davem@davemloft.net|2019-06-04 14:21:40-07:00|25200

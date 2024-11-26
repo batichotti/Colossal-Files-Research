@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ecd69be71aad3b9299b37b3d8cc3f0fb6016286f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: remove redundant parameter in is_next_segment_free()
-
-is_next_segment_free() takes a redundant `type` parameter. Remove it.
-
-Signed-off-by: Yifan Zhao <zhaoyifan@sjtu.edu.cn>
-Reviewed-by: Chao Yu <chao@kernel.org>
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|1|Yifan Zhao|zhaoyifan@sjtu.edu.cn|2024-04-25 22:55:28+08:00|-28800|Jaegeuk Kim|jaegeuk@kernel.org|2024-04-29 17:41:17+00:00|0

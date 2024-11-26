@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e29f5dbc9e9719af158a960e5c1d16f32740ebc3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cxgb4: notify upper drivers if the device is already up when they load
-
-Upper layer drivers aren't notified that a device is ready if their modules
-load after the device becomes ready.  Add the missing notification.
-
-Signed-off-by: Dimitris Michailidis <dm@chelsio.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Dimitris Michailidis|dm@chelsio.com|2010-05-18 10:07:13+00:00|0|David S. Miller|davem@davemloft.net|2010-05-18 15:16:46-07:00|25200

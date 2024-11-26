@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|16cde9931bcd8d8ca968ef1cded02684ea040374|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Fix missing break in hci_cmd_complete_evt
-
-Command complete event for HCI_OP_USER_PASSKEY_NEG_REPLY would result
-in calling handler function also for HCI_OP_LE_SET_SCAN_PARAM. This
-could result in undefined behaviour.
-
-Signed-off-by: Szymon Janc <szymon.janc@tieto.com>
-Signed-off-by: Gustavo Padovan <gustavo@padovan.org>"|1|Szymon Janc|szymon.janc@tieto.com|2012-04-13 12:32:42+02:00|-7200|Gustavo Padovan|gustavo@padovan.org|2012-04-24 11:38:41-03:00|10800

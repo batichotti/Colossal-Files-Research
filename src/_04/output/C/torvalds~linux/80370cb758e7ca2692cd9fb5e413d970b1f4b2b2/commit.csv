@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|80370cb758e7ca2692cd9fb5e413d970b1f4b2b2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tracing: use raw spinlocks for trace_vprintk
-
-Impact: prevent locking up by lockdep tracer
-
-The lockdep tracer uses trace_vprintk and thus trace_vprintk can not
-call back into lockdep without locking up.
-
-Signed-off-by: Steven Rostedt <srostedt@redhat.com>"|1|Steven Rostedt|srostedt@redhat.com|2009-03-10 17:16:35-04:00|14400|Steven Rostedt|srostedt@redhat.com|2009-03-10 17:16:35-04:00|14400

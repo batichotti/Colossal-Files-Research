@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|86bee4c9c126b4f73e3f152cd43c806cac9135ad|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"IB/core: Avoid calling ib_query_device
-
-Use the cached copy of the attributes present on the device, except for
-the case of a query originating from user-space, where we have to invoke
-the driver query_device entry, so they can fill in their udata.
-
-Signed-off-by: Or Gerlitz <ogerlitz@mellanox.com>
-Signed-off-by: Doug Ledford <dledford@redhat.com>"|6|Or Gerlitz|ogerlitz@mellanox.com|2015-12-18 10:59:45+02:00|-7200|Doug Ledford|dledford@redhat.com|2015-12-22 14:39:00-05:00|18000

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f2f781a759e0471e440668c7c90c03696b73b65e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"be2net: use EQ_CREATEv2 for SH-R
-
-EQ_CREATEv2 explicitly returns the msix-index associated with a EQ.
-For SH-R this is needed if EQs need to be deleted and re-created without
-resetting a function.
-
-Signed-off-by: Sathya Perla <sathya.perla@emulex.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|4|Sathya Perla|sathya.perla@emulex.com|2013-08-27 16:57:30+05:30|-19800|David S. Miller|davem@davemloft.net|2013-08-27 15:57:04-04:00|14400

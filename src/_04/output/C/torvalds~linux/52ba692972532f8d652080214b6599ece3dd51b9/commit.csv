@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|52ba692972532f8d652080214b6599ece3dd51b9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: introduce masks for chunk type and profile
-
-Chunk's type and profile are encoded in u64 flags field.  Introduce
-masks to easily access them.  Also fix the type of BTRFS_BLOCK_GROUP_*
-constants, it should be ULL.
-
-Signed-off-by: Ilya Dryomov <idryomov@gmail.com>"|3|Ilya Dryomov|idryomov@gmail.com|2012-01-16 22:04:47+02:00|-7200|Ilya Dryomov|idryomov@gmail.com|2012-01-16 22:04:47+02:00|-7200

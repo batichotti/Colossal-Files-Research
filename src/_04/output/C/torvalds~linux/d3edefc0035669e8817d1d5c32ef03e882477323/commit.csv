@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d3edefc0035669e8817d1d5c32ef03e882477323|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: Only reload guest cr2 if different from host cr2
-
-cr2 changes only rarely, and writing it is expensive.  Avoid the costly cr2
-writes by checking if it does not already hold the desired value.
-
-Shaves 70 cycles off the vmexit latency.
-
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Avi Kivity|avi@redhat.com|2009-06-16 12:33:56+03:00|-10800|Avi Kivity|avi@redhat.com|2009-09-10 08:32:57+03:00|-10800

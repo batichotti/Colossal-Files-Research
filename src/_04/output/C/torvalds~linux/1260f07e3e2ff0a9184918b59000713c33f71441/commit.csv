@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1260f07e3e2ff0a9184918b59000713c33f71441|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Dump ddi_pll_sel in hex instead of decimal on HSW/BDW
-
-On HSW/BDW ddi_pll_sel is the actual register value. Let's dump
-it in hex so that people migth actually understand what it says.
-
-Signed-off-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Link: http://patchwork.freedesktop.org/patch/msgid/1455738073-14502-2-git-send-email-ville.syrjala@linux.intel.com
-Reviewed-by: Imre Deak <imre.deak@intel.com>"|1|Ville Syrjälä|ville.syrjala@linux.intel.com|2016-02-17 21:41:08+02:00|-7200|Ville Syrjälä|ville.syrjala@linux.intel.com|2016-03-01 13:03:48+02:00|-7200

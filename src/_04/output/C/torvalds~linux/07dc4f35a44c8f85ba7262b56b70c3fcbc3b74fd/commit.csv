@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|07dc4f35a44c8f85ba7262b56b70c3fcbc3b74fd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86/mmu: comment on kvm_mmu_get_page's syncing of pages
-
-Explain the usage of sync_page() in kvm_mmu_get_page(), which is
-subtle in how and why it differs from mmu_sync_children().
-
-Signed-off-by: Sean Christopherson <seanjc@google.com>
-[Split out of a different patch by Sean. - Paolo]
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Sean Christopherson|seanjc@google.com|2021-06-23 12:49:19-04:00|14400|Paolo Bonzini|pbonzini@redhat.com|2021-06-24 18:00:37-04:00|14400

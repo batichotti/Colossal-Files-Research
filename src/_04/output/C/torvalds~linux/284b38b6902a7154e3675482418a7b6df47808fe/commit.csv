@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|284b38b6902a7154e3675482418a7b6df47808fe|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wifi: nl80211: acquire wdev mutex for dump_survey
-
-At least the quantenna driver calls wdev_chandef() here
-which now requires the lock, so acquire it.
-
-Fixes: 7b0a0e3c3a88 (""wifi: cfg80211: do some rework towards MLO link APIs"")
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2022-06-27 12:49:03+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2022-07-15 11:43:15+02:00|-7200

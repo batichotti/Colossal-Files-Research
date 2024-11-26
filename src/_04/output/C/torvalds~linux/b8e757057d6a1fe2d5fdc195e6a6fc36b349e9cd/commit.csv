@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b8e757057d6a1fe2d5fdc195e6a6fc36b349e9cd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Eliminate the CDCLK_CTL RMW on BXT
-
-All the fields in CDCLK_CTL we don't program should be left at zero, so
-let's just get rid of the RMW.
-
-Signed-off-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Link: http://patchwork.freedesktop.org/patch/msgid/1462995892-32416-14-git-send-email-ville.syrjala@linux.intel.com
-Reviewed-by: Imre Deak <imre.deak@intel.com>"|1|Ville Syrjälä|ville.syrjala@linux.intel.com|2016-05-11 22:44:52+03:00|-10800|Ville Syrjälä|ville.syrjala@linux.intel.com|2016-05-13 21:33:33+03:00|-10800

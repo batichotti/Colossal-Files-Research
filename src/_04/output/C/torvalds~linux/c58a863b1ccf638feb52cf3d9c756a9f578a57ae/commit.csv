@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c58a863b1ccf638feb52cf3d9c756a9f578a57ae|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/amdgpu: use adev_to_drm for consistency when accessing drm_device
-
-adev_to_drm is used everywhere, so improve recent changes
-when accessing drm_device pointer from amdgpu_device.
-
-Signed-off-by: Guchun Chen <guchun.chen@amd.com>
-Acked-by: Christian König <christian.koenig@amd.com>
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|15|Guchun Chen|guchun.chen@amd.com|2021-10-08 13:21:45-04:00|14400|Alex Deucher|alexander.deucher@amd.com|2021-10-08 13:22:13-04:00|14400

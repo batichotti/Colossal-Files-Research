@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e0bbe7cbb3c5ff72d680993edf89db2391e80d5d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8169: simplify setting PCI_EXP_DEVCTL_NOSNOOP_EN
-
-r8168b_0_hw_jumbo_enable() and r8168b_0_hw_jumbo_disable() both do the
-same and just set PCI_EXP_DEVCTL_NOSNOOP_EN. We can simplify the code
-by moving this setting for RTL8168B to rtl_hw_start_8168().
-
-Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
-Signed-off-by: Jakub Kicinski <jakub.kicinski@netronome.com>"|1|Heiner Kallweit|hkallweit1@gmail.com|2019-10-21 21:22:42+02:00|-7200|Jakub Kicinski|jakub.kicinski@netronome.com|2019-10-22 11:27:01-07:00|25200

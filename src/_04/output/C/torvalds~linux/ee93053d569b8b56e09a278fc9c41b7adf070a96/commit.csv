@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ee93053d569b8b56e09a278fc9c41b7adf070a96|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Fix missing channel unlock in l2cap_le_credits
-
-In the error case where credits is greater than max_credits there
-is a missing l2cap_chan_unlock before returning.
-
-Signed-off-by: Martin Townsend <mtownsend1973@gmail.com>
-Tested-by: Jukka Rissanen <jukka.rissanen@linux.intel.com>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|1|Martin Townsend|mtownsend1973@gmail.com|2014-10-13 19:24:45+01:00|-3600|Marcel Holtmann|marcel@holtmann.org|2014-10-25 07:56:25+02:00|-7200

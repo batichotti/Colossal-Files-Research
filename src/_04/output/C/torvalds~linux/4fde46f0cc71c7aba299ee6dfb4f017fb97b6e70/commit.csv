@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4fde46f0cc71c7aba299ee6dfb4f017fb97b6e70|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: free the stale device
-
-When btrfs on a device is overwritten with a new btrfs (mkfs),
-the old btrfs instance in the kernel becomes stale. So with this
-patch, if kernel finds device is overwritten then delete the stale
-fsid/uuid.
-
-Signed-off-by: Anand Jain <anand.jain@oracle.com>"|1|Anand Jain|Anand.Jain@oracle.com|2015-06-17 21:10:48+08:00|-28800|David Sterba|dsterba@suse.cz|2015-06-19 14:03:13+02:00|-7200

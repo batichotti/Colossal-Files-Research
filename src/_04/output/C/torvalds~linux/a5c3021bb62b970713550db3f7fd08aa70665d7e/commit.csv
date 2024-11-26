@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a5c3021bb62b970713550db3f7fd08aa70665d7e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: L2CAP: Detect if remote is not able to use the whole MPS
-
-If the remote is not able to fully utilize the MPS choosen recalculate
-the credits based on the actual amount it is sending that way it can
-still send packets of MTU size without credits dropping to 0.
-
-Signed-off-by: Luiz Augusto von Dentz <luiz.von.dentz@intel.com>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|1|Luiz Augusto von Dentz|luiz.von.dentz@intel.com|2018-09-04 13:39:22+03:00|-10800|Marcel Holtmann|marcel@holtmann.org|2018-09-27 12:52:08+02:00|-7200

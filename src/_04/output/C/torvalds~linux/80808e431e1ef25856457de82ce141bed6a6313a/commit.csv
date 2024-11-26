@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|80808e431e1ef25856457de82ce141bed6a6313a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Add l2cap_chan_ops abstraction
-
-Add an abstraction layer between L2CAP core and its users (only
-l2cap_sock.c now). The first function implemented is new_connection() that
-replaces calls to l2cap_sock_alloc() in l2cap_core.c
-
-Signed-off-by: Gustavo F. Padovan <padovan@profusion.mobi>"|3|Gustavo F. Padovan|padovan@profusion.mobi|2011-05-16 17:24:37-03:00|10800|Gustavo F. Padovan|padovan@profusion.mobi|2011-06-13 14:55:32-03:00|10800

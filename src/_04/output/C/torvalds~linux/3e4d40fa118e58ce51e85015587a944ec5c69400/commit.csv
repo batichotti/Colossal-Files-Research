@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3e4d40fa118e58ce51e85015587a944ec5c69400|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: remove unused code to mark AP station authenticated
-
-When we get to association, the AP station already exists and
-is marked authenticated, so moving it into IEEE80211_STA_AUTH
-again is a NOP, remove it.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2013-02-07 17:19:08+01:00|-3600|Johannes Berg|johannes.berg@intel.com|2013-02-11 18:45:02+01:00|-3600

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f920c186be09718542dfa77f6ebe1814be7d35cb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"e1000e: Remove legacy jumbo frame receive code
-
-The legacy jumbo frame receive code is no longer needed since all
-hardware can do packet split and we're no longer offering a bypass
-kernel config option to disable packet split. Remove the unused code.
-
-Signed-off-by: Auke Kok <auke-jan.h.kok@intel.com>
-Signed-off-by: Jeff Garzik <jeff@garzik.org>"|2|Auke Kok|auke-jan.h.kok@intel.com|2007-10-25 13:58:03-07:00|25200|Jeff Garzik|jeff@garzik.org|2007-10-29 05:47:08-04:00|14400

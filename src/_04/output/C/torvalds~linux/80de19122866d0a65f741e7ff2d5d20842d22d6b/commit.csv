@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|80de19122866d0a65f741e7ff2d5d20842d22d6b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rbd: lock_on_read map option
-
-Add a per-device option to acquire exclusive lock on reads (in addition
-to writes and discards).  The use case is iSCSI, where it will be used
-to prevent execution of stale writes after the implicit failover.
-
-Signed-off-by: Ilya Dryomov <idryomov@gmail.com>
-Tested-by: Mike Christie <mchristi@redhat.com>"|1|Ilya Dryomov|idryomov@gmail.com|2016-09-20 14:23:17+02:00|-7200|Ilya Dryomov|idryomov@gmail.com|2016-10-03 16:13:47+02:00|-7200

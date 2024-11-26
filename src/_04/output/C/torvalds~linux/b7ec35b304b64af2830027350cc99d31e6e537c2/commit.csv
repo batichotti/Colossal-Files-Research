@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b7ec35b304b64af2830027350cc99d31e6e537c2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libceph: change ceph_osdmap_flag() to take osdc
-
-For the benefit of every single caller, take osdc instead of map.
-Also, now that osdc->osdmap can't ever be NULL, drop the check.
-
-Signed-off-by: Ilya Dryomov <idryomov@gmail.com>"|4|Ilya Dryomov|idryomov@gmail.com|2016-04-28 16:07:25+02:00|-7200|Ilya Dryomov|idryomov@gmail.com|2016-05-30 23:00:22+02:00|-7200

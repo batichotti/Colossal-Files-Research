@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a688a04aab72a775e07fe460f563b46f7791cfc1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: remove unused chunk_tree argument in several functions
-
-There functions include unused chunk_tree argument from the begining,
-it is time to remove them and clean up relative code to prepare value
-of this argument in caller.
-
-Signed-off-by: Zhao Lei <zhaolei@cn.fujitsu.com>
-Signed-off-by: David Sterba <dsterba@suse.cz>"|1|Zhao Lei|zhaolei@cn.fujitsu.com|2015-02-09 20:31:44+08:00|-28800|David Sterba|dsterba@suse.cz|2015-02-16 18:48:44+01:00|-3600

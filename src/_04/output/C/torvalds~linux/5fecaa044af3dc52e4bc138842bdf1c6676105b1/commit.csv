@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5fecaa044af3dc52e4bc138842bdf1c6676105b1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ftrace: Grab any ops for a rec for enabled_functions output
-
-When dumping the enabled_functions, use the first op that is
-found with a trampoline to the record, as there should only be
-one, as only one ops can be registered to a function that has
-a trampoline.
-
-Signed-off-by: Steven Rostedt <rostedt@goodmis.org>"|1|Steven Rostedt (Red Hat)|rostedt@goodmis.org|2014-07-24 16:00:31-04:00|14400|Steven Rostedt|rostedt@goodmis.org|2014-09-10 10:48:43-04:00|14400

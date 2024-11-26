@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9cf98828d12285d1fb43e774c8c100a55f8f34e1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Protect in-kernel pio using kvm->lock
-
-pio operation and IRQ_LINE kvm_vm_ioctl is not kvm->lock
-protected.  Add lock to same with IOAPIC MMIO operations.
-
-Signed-off-by: Yaozu (Eddie) Dong <eddie.dong@intel.com>
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|1|Eddie Dong|eddie.dong@intel.com|2007-07-22 10:36:31+03:00|-10800|Avi Kivity|avi@qumranet.com|2007-10-13 10:18:25+02:00|-7200

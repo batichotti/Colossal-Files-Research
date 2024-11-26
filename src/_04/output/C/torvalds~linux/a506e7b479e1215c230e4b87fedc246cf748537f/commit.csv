@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a506e7b479e1215c230e4b87fedc246cf748537f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bonding: vlans don't get deleted on enslave failure
-
-The main problem is with vid refcount which only gets bumped up.
-Delete the vlans after err_detach as that's the first error path
-after the vlans are added.
-
-Signed-off-by: Nikolay Aleksandrov <nikolay@redhat.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|nikolay@redhat.com|nikolay@redhat.com|2013-04-18 07:33:35+00:00|0|David S. Miller|davem@davemloft.net|2013-04-19 17:48:18-04:00|14400

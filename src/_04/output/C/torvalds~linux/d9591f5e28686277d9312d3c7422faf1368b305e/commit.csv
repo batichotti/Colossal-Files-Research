@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d9591f5e28686277d9312d3c7422faf1368b305e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libceph: rename ceph_oloc_oid_to_pg()
-
-Rename ceph_oloc_oid_to_pg() to ceph_object_locator_to_pg().  Emphasise
-that returned is raw PG and return -ENOENT instead of -EIO if the pool
-doesn't exist.
-
-Signed-off-by: Ilya Dryomov <idryomov@gmail.com>"|4|Ilya Dryomov|idryomov@gmail.com|2016-04-28 16:07:22+02:00|-7200|Ilya Dryomov|idryomov@gmail.com|2016-05-26 00:36:24+02:00|-7200

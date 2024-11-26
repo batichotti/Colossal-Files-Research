@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|aadaca9e7c392dbf877af8cefb156199f1a67bbe|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net/sched: fix miss init the mru in qdisc_skb_cb
-
-The mru in the qdisc_skb_cb should be init as 0. Only defrag packets in the
-act_ct will set the value.
-
-Fixes: 038ebb1a713d (""net/sched: act_ct: fix miss set mru for ovs after defrag in act_ct"")
-Signed-off-by: wenxu <wenxu@ucloud.cn>
-Signed-off-by: Jakub Kicinski <kuba@kernel.org>"|1|wenxu|wenxu@ucloud.cn|2020-11-25 12:01:21+08:00|-28800|Jakub Kicinski|kuba@kernel.org|2020-11-27 14:36:02-08:00|28800

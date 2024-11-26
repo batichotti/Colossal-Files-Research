@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|14074eab8dcaa7f66d8f52612b2dcec51222bb5f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"be2net: Patch to perform function reset at initialization
-
-This patch is a bug fix to avoid system going into a bad state when
-driver is loaded in context of kdump kernel. The patch fixes the issue
-by performing a soft reset of pci function at probe time.
-
-Signed-off-by: sarveshwarb <sarveshwarb@serverengines.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|sarveshwarb|sarveshwarb@serverengines.com|2009-08-05 13:05:24-07:00|25200|David S. Miller|davem@davemloft.net|2009-08-05 13:05:24-07:00|25200

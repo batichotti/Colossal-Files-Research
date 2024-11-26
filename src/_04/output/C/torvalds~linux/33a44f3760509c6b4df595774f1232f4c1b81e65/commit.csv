@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|33a44f3760509c6b4df595774f1232f4c1b81e65|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: simplify return variables in btrfs_drop_subtree()
-
-There's another return variable wret that is only passed to ret on
-error, we can simply use ret.
-
-Signed-off-by: Anand Jain <anand.jain@oracle.com>
-Reviewed-by: David Sterba <dsterba@suse.com>
-Signed-off-by: David Sterba <dsterba@suse.com>"|1|Anand Jain|anand.jain@oracle.com|2024-03-19 20:25:33+05:30|-19800|David Sterba|dsterba@suse.com|2024-05-07 21:31:08+02:00|-7200

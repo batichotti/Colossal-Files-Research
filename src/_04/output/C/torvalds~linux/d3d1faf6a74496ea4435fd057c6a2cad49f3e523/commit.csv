@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d3d1faf6a74496ea4435fd057c6a2cad49f3e523|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: Handle nested ext4_journal_start/stop calls without a journal
-
-This patch fixes a problem with handling nested calls to
-ext4_journal_start/ext4_journal_stop, when there is no journal present.
-
-Signed-off-by: Curt Wohlgemuth <curtw@google.com>
-Signed-off-by: ""Theodore Ts'o"" <tytso@mit.edu>"|3|Curt Wohlgemuth|curtw@google.com|2009-09-29 11:01:03-04:00|14400|Theodore Ts'o|tytso@mit.edu|2009-09-29 11:01:03-04:00|14400

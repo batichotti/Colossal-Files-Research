@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|844d87c3329980e2b1849cf53205d7fa965d8995|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ceph: do not assume r_old_dentry[_dir] always set together
-
-Do not assume that r_old_dentry implies that r_old_dentry_dir is also
-true.  Separate out the ref cleanup and make the debugs dump behave when
-it is NULL.
-
-Signed-off-by: Sage Weil <sage@inktank.com>
-Reviewed-by: Yan, Zheng <zheng.z.yan@intel.com>"|2|Sage Weil|sage@inktank.com|2013-02-05 13:40:09-08:00|28800|Yan, Zheng|zheng.z.yan@intel.com|2014-04-03 10:33:53+08:00|-28800

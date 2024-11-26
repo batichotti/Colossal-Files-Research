@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0ce1010f1a4319e02574b856d50dfdc0ed855f40|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ocfs2: Provide the get_root_el() method to ocfs2_extent_tree_operations.
-
-The root_el of an ocfs2_extent_tree needs to be calculated from
-et->et_object.  Make it an operation on et->et_ops.
-
-Signed-off-by: Joel Becker <joel.becker@oracle.com>
-Signed-off-by: Mark Fasheh <mfasheh@suse.com>"|1|Joel Becker|joel.becker@oracle.com|2008-08-20 17:19:50-07:00|25200|Mark Fasheh|mfasheh@suse.com|2008-10-13 16:57:04-07:00|25200

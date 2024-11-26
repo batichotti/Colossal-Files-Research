@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ac0ef8139bc4f6493b6bb560bfeb31b883b7e8ae|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rt2x00: rt2800lib: no need to write RF register 3 twice for RT5592
-
-In rt2800_init_rfcsr_5592(), there's no need to write RF register 3 twice.
-
-Signed-off-by: Kevin Lo <kevlo@kevlo.org>
-Acked-by: Gertjan van Wingerde <gwingerde@gmail.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|1|Kevin Lo|kevlo@kevlo.org|2013-11-14 13:53:44+08:00|-28800|John W. Linville|linville@tuxdriver.com|2013-12-05 14:55:00-05:00|18000

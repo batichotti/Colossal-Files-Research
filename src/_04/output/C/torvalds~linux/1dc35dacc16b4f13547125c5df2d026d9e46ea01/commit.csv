@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1dc35dacc16b4f13547125c5df2d026d9e46ea01|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: nVMX: check host CR3 on vmentry and vmexit
-
-This commit adds missing host CR3 checks. Before entering guest mode, the value
-of CR3 is checked for reserved bits. After returning, nested_vmx_load_cr3 is
-called to set the new CR3 value and check and load PDPTRs.
-
-Signed-off-by: Ladi Prosek <lprosek@redhat.com>
-Signed-off-by: Radim Krčmář <rkrcmar@redhat.com>"|2|Ladi Prosek|lprosek@redhat.com|2016-11-30 16:03:11+01:00|-3600|Paolo Bonzini|pbonzini@redhat.com|2016-12-08 15:31:10+01:00|-3600

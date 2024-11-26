@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9b2db3bbc7b5d1033f5e4d108fa87814c1f633e0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: pass dev_priv explicitly to TRANS_HSYNC
-
-Avoid the implicit dev_priv local variable use, and pass dev_priv
-explicitly to the TRANS_HSYNC register macro.
-
-Reviewed-by: Rodrigo Vivi <rodrigo.vivi@intel.com>
-Link: https://patchwork.freedesktop.org/patch/msgid/d387281470c9b677adb659b80fa3385df2faca99.1717514638.git.jani.nikula@intel.com
-Signed-off-by: Jani Nikula <jani.nikula@intel.com>"|5|Jani Nikula|jani.nikula@intel.com|2024-06-04 18:25:23+03:00|-10800|Jani Nikula|jani.nikula@intel.com|2024-06-07 11:13:17+03:00|-10800

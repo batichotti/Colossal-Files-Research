@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|16bfdaafa2c66d8cc81422a97a105a849ca65b3e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd4: share open and lock owner hash tables
-
-Now that they're used in the same way, it's a little simpler to put open
-and lock owners in the same hash table, and I can't see a reason not to.
-
-Signed-off-by: J. Bruce Fields <bfields@redhat.com>"|1|J. Bruce Fields|bfields@redhat.com|2011-11-07 17:23:30-05:00|18000|J. Bruce Fields|bfields@redhat.com|2011-11-08 11:28:45-05:00|18000

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4ebbd5357531694b9243b176674ae27edf5bd8e1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Remove link type check in hci_disconn_complete_evt()
-
-We can safely remove the link type check from hci_disconn_complete_
-evt() since this check in not required for mgmt_disconnect_failed()
-and mgmt_device_disconnected() does it internally.
-
-Signed-off-by: Andre Guedes <andre.guedes@openbossa.org>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|1|Andre Guedes|andre.guedes@openbossa.org|2013-10-30 19:01:42-03:00|10800|Gustavo Padovan|gustavo.padovan@collabora.co.uk|2013-12-04 11:09:04-02:00|7200

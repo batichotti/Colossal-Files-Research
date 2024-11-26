@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ee1ceef72754427e5167743108c52f826fa4ca5b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"workqueue: Rename wq->cpu_pwqs to wq->cpu_pwq
-
-wq->cpu_pwqs is a percpu variable carraying one pointer to a pool_workqueue.
-The field name being plural is unusual and confusing. Rename it to singular.
-
-This patch doesn't cause any functional changes.
-
-Signed-off-by: Tejun Heo <tj@kernel.org>"|1|Tejun Heo|tj@kernel.org|2023-08-07 15:57:23-10:00|36000|Tejun Heo|tj@kernel.org|2023-08-07 15:57:23-10:00|36000

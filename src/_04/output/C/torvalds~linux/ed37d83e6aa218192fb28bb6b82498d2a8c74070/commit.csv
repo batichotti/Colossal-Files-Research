@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ed37d83e6aa218192fb28bb6b82498d2a8c74070|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md: raid5: change incorrect usage of 'min' macro to 'min_t'
-
-A recent patch to raid5.c use min on an int and a sector_t.
-This isn't allowed.
-So change it to min_t(sector_t,x,y).
-
-Signed-off-by: NeilBrown <neilb@suse.de>"|1|NeilBrown|neilb@suse.de|2009-05-27 21:39:05+10:00|-36000|NeilBrown|neilb@suse.de|2009-05-27 21:39:05+10:00|-36000

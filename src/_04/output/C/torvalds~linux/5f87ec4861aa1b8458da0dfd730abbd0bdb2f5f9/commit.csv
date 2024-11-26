@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5f87ec4861aa1b8458da0dfd730abbd0bdb2f5f9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ice: Remove string printing for ice_status
-
-Remove the ice_stat_str() function which prints the string
-representation of the ice_status error code. With upcoming changes
-moving away from ice_status, there will be no need for this function.
-
-Signed-off-by: Tony Nguyen <anthony.l.nguyen@intel.com>
-Tested-by: Gurucharan G <gurucharanx.g@intel.com>"|9|Tony Nguyen|anthony.l.nguyen@intel.com|2021-10-07 15:56:02-07:00|25200|Tony Nguyen|anthony.l.nguyen@intel.com|2021-12-14 10:19:13-08:00|28800

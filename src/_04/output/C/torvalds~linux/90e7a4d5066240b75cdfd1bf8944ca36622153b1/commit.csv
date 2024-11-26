@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|90e7a4d5066240b75cdfd1bf8944ca36622153b1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"RDMA/hns: Set desc_dma_addr for zero when free cmq desc
-
-In order to avoid illegal use for desc_dma_addr of ring,
-it needs to set it zero when free cmq desc.
-
-Signed-off-by: Lijun Ou <oulijun@huawei.com>
-Signed-off-by: Doug Ledford <dledford@redhat.com>"|1|oulijun|oulijun@huawei.com|2018-05-04 10:57:10+08:00|-28800|Doug Ledford|dledford@redhat.com|2018-05-09 10:45:18-04:00|14400

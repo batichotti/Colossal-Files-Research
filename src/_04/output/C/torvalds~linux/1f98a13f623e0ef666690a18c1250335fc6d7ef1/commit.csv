@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1f98a13f623e0ef666690a18c1250335fc6d7ef1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bio: first step in sanitizing the bio->bi_rw flag testing
-
-Get rid of any functions that test for these bits and make callers
-use bio_rw_flagged() directly. Then it is at least directly apparent
-what variable and flag they check.
-
-Signed-off-by: Jens Axboe <jens.axboe@oracle.com>"|17|Jens Axboe|jens.axboe@oracle.com|2009-09-11 14:32:04+02:00|-7200|Jens Axboe|jens.axboe@oracle.com|2009-09-11 14:33:31+02:00|-7200

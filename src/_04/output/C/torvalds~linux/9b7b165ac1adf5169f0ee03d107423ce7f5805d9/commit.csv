@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9b7b165ac1adf5169f0ee03d107423ce7f5805d9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bonding: drop read_lock in bond_fix_features
-
-We're protected by RTNL so nothing can happen and we can safely drop the
-read bond->lock.
-
-Signed-off-by: Nikolay Aleksandrov <nikolay@redhat.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|nikolay@redhat.com|nikolay@redhat.com|2013-09-02 13:51:41+02:00|-7200|David S. Miller|davem@davemloft.net|2013-09-04 00:27:25-04:00|14400

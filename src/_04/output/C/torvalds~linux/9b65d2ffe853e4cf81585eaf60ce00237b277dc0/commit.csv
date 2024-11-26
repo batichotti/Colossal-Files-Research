@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9b65d2ffe853e4cf81585eaf60ce00237b277dc0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8169: don't include linux/moduleparam.h
-
-93882c6f210a (""r8169: switch from netif_xxx message functions to
-netdev_xxx"") removed the last module parameter from the driver,
-therefore there's no need any longer to include linux/moduleparam.h.
-
-Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Heiner Kallweit|hkallweit1@gmail.com|2020-05-14 23:44:07+02:00|-7200|David S. Miller|davem@davemloft.net|2020-05-14 18:03:01-07:00|25200

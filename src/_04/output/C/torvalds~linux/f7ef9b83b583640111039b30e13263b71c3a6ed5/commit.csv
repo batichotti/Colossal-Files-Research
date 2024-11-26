@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f7ef9b83b583640111039b30e13263b71c3a6ed5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: introduce macros to convert bytes and blocks in f2fs
-
-This patch adds two macros for transition between byte and block offsets.
-Currently, f2fs only supports 4KB blocks, so use the default size for now.
-
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|4|Jaegeuk Kim|jaegeuk@kernel.org|2015-02-09 12:02:44-08:00|28800|Jaegeuk Kim|jaegeuk@kernel.org|2015-02-11 17:04:48-08:00|28800

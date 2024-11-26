@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3c38cbe2ade88240fabb585b408f779ad3b9a31b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: We must set NFS_OPEN_STATE flag in nfs_resync_open_stateid_locked
-
-Otherwise, nfs4_select_rw_stateid() will always return the zero stateid
-instead of the correct open stateid.
-
-Fixes: f95549cf24660 (""NFSv4: More CLOSE/OPEN races"")
-Cc: stable@vger.kernel.org # 4.0+
-Signed-off-by: Trond Myklebust <trond.myklebust@primarydata.com>"|1|Trond Myklebust|trond.myklebust@primarydata.com|2015-07-22 13:46:13-04:00|14400|Trond Myklebust|trond.myklebust@primarydata.com|2015-07-22 17:10:51-04:00|14400

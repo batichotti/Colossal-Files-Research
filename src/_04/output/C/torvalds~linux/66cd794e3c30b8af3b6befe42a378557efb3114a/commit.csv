@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|66cd794e3c30b8af3b6befe42a378557efb3114a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nl80211: add HT/VHT capabilities to AP parameters
-
-For the benefit of drivers that rebuild IEs in firmware, parse the
-IEs for HT/VHT capabilities and the respective membership selector
-in the (extended) supported rates. This avoids duplicating the same
-code into all drivers that need this information.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|3|Johannes Berg|johannes.berg@intel.com|2017-02-07 22:40:44+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2017-02-08 10:06:24+01:00|-3600

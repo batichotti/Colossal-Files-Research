@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|36e4f839de59b6216a16cdf5c1d3263f4dbd9421|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"regulator: Add input current limit support
-
-Some regulators can limit their input current (typically annotated
-as ilim). Add an op (set_input_current_limit) and a DT property +
-constraint to support this.
-
-Signed-off-by: Stephen Boyd <sboyd@codeaurora.org>
-Signed-off-by: Mark Brown <broonie@kernel.org>"|5|Stephen Boyd|sboyd@codeaurora.org|2015-06-11 17:37:06-07:00|25200|Mark Brown|broonie@kernel.org|2015-06-12 13:18:02+01:00|-3600

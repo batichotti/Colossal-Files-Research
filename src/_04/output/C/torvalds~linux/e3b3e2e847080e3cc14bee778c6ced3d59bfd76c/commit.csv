@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e3b3e2e847080e3cc14bee778c6ced3d59bfd76c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ftrace: Pass in global_ops for use with filtering files
-
-In preparation for having the function tracing instances be able to
-filter on functions, the generic filter functions must first be
-converted to take in the global_ops as a parameter.
-
-Signed-off-by: Steven Rostedt <rostedt@goodmis.org>"|1|Steven Rostedt (Red Hat)|rostedt@goodmis.org|2013-11-11 23:07:14-05:00|18000|Steven Rostedt|rostedt@goodmis.org|2014-02-20 12:13:19-05:00|18000

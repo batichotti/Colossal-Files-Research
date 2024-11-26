@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5c56e1cf7a758c4772e2470b4346a8219ec7f44e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86 emulator: fix INTn emulation not pushing EFLAGS and CS
-
-emulate_push() only schedules a push; it doesn't actually push anything.
-Call writeback() to flush out the write.
-
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Avi Kivity|avi@redhat.com|2010-08-17 11:17:51+03:00|-10800|Avi Kivity|avi@redhat.com|2010-10-24 10:51:09+02:00|-7200

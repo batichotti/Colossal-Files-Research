@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9271d7e509c1bfc0b9a418caec29ec8d1ac38270|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd: Ensure we check stateid validity in the seqid operation checks
-
-After taking the stateid st_mutex, we want to know that the stateid
-still represents valid state before performing any non-idempotent
-actions.
-
-Signed-off-by: Trond Myklebust <trond.myklebust@primarydata.com>
-Signed-off-by: J. Bruce Fields <bfields@redhat.com>"|1|Trond Myklebust|trond.myklebust@primarydata.com|2017-11-03 08:00:15-04:00|14400|J. Bruce Fields|bfields@redhat.com|2017-11-27 16:45:10-05:00|18000

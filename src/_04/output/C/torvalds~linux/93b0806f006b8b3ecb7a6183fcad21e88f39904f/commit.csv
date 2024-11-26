@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|93b0806f006b8b3ecb7a6183fcad21e88f39904f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: replay request after dropping locks to load chain type
-
-To avoid races, we need to replay to request after dropping the nfnl_mutex
-to auto-load the chain type module.
-
-Signed-off-by: Patrick McHardy <kaber@trash.net>
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|1|Patrick McHardy|kaber@trash.net|2014-01-09 18:42:36+00:00|0|Pablo Neira Ayuso|pablo@netfilter.org|2014-01-09 20:17:14+01:00|-3600

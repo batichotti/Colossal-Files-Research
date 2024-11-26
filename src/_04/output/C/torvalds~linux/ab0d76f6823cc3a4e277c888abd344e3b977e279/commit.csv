@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ab0d76f6823cc3a4e277c888abd344e3b977e279|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nl80211: use policy range validation where applicable
-
-Many range checks can be done in the policy, move them
-there. A few in mesh are added in the code (taken out of
-the macros) because they don't fit into the s16 range in
-the policy validation.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2018-10-02 10:00:07+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2018-10-11 16:00:58+02:00|-7200

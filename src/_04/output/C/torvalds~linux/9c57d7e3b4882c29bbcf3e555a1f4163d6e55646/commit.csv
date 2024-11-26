@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9c57d7e3b4882c29bbcf3e555a1f4163d6e55646|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ath11k: Setup REO destination ring before sending wmi_init command
-
-Firmware expects all the required REO destination rings setup
-while processing wmi_init command. Not doing this causes connected
-stations getting disconnected and not able to connect back.
-
-Signed-off-by: Vasanthakumar Thiagarajan <vthiagar@codeaurora.org>
-Signed-off-by: Kalle Valo <kvalo@codeaurora.org>"|5|Vasanthakumar Thiagarajan|vthiagar@codeaurora.org|2019-11-28 08:21:58+00:00|0|Kalle Valo|kvalo@codeaurora.org|2019-11-29 09:50:48+02:00|-7200

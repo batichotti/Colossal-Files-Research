@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|912678dbc592db7ad618f383866ad23e43cd51f3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS: Move the delegation return down into nfs4_proc_remove()
-
-Move the delegation return out of generic code and down into the
-NFSv4 specific unlink code.
-
-Signed-off-by: Trond Myklebust <trond.myklebust@primarydata.com>
-Signed-off-by: Anna Schumaker <Anna.Schumaker@Netapp.com>"|5|Trond Myklebust|trond.myklebust@primarydata.com|2018-03-20 16:43:15-04:00|14400|Anna Schumaker|Anna.Schumaker@Netapp.com|2018-04-10 16:06:22-04:00|14400

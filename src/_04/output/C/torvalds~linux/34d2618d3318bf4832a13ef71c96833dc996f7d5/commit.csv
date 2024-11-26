@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|34d2618d3318bf4832a13ef71c96833dc996f7d5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: emulate reserved nops from 0f/18 to 0f/1f
-
-Instructions starting with 0f18 up to 0f1f are reserved nops, except those
-that were assigned to MPX.  These include the endbr markers used by CET.
-List them correctly in the opcode table.
-
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Paolo Bonzini|pbonzini@redhat.com|2020-05-15 12:18:14-04:00|14400|Paolo Bonzini|pbonzini@redhat.com|2020-06-05 11:16:15-04:00|14400

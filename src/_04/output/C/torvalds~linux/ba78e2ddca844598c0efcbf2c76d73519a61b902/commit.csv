@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ba78e2ddca844598c0efcbf2c76d73519a61b902|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tcp: no md5sig option size check bug
-
-tcp_parse_md5sig_option doesn't check md5sig option (TCPOPT_MD5SIG)
-length, but tcp_v[46]_inbound_md5_hash assume that it's at least 16
-bytes long.
-
-Signed-off-by: Dmitry Popov <dp@highloadlab.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Dmitry Popov|dp@highloadlab.com|2010-08-07 20:24:28-07:00|25200|David S. Miller|davem@davemloft.net|2010-08-07 20:24:28-07:00|25200

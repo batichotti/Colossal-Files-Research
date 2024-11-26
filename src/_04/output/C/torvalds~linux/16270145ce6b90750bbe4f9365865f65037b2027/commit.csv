@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|16270145ce6b90750bbe4f9365865f65037b2027|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tracing: Add trace options for core options to instances
-
-Allow instances to have their own options, at least for the core options
-(non tracer specific ones). There are a few global options that should not
-be added to instances, like enabling of trace_printk, and the sched comm
-recording, which do not have a specific trace instance associated to them.
-
-Signed-off-by: Steven Rostedt <rostedt@goodmis.org>"|1|Steven Rostedt (Red Hat)|rostedt@goodmis.org|2015-09-30 12:30:06-04:00|14400|Steven Rostedt|rostedt@goodmis.org|2015-09-30 15:22:57-04:00|14400

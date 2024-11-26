@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|58b7075d059f7d37ca86c76fb1446fa3447b9f4f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: Distinguish between stack operation and near branches
-
-In 64-bit, stack operations default to 64-bits, but can be overriden (to
-16-bit) using opsize override prefix. In contrast, near-branches are always
-64-bit.  This patch distinguish between the different behaviors.
-
-Signed-off-by: Nadav Amit <namit@cs.technion.ac.il>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Nadav Amit|namit@cs.technion.ac.il|2014-10-24 11:35:09+03:00|-10800|Paolo Bonzini|pbonzini@redhat.com|2014-11-03 12:07:20+01:00|-3600

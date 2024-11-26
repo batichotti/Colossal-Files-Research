@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|939994da2f63cb130ddeb131736254ad203662cd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Pass crtc state to i9xx_enable_pll()
-
-Pass the crtc state to i9xx_enable_pll() and use it rather than
-crtc->config.
-
-Signed-off-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Link: https://patchwork.freedesktop.org/patch/msgid/20170913140900.6972-5-ville.syrjala@linux.intel.com
-Reviewed-by: Chris Wilson <chris@chris-wilson.co.uk>"|1|Ville Syrjälä|ville.syrjala@linux.intel.com|2017-09-13 17:08:56+03:00|-10800|Ville Syrjälä|ville.syrjala@linux.intel.com|2017-10-10 17:22:38+03:00|-10800

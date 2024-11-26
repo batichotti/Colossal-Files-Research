@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|36bbe34239f63377b5179ad32fd13cd71d6e1ba7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfs41: free the slot on unhandled read errors
-
-nfs4_read_done returns zero on unhandled errors. nfs_readpage_result will
-return on a negative tk_status without freeing the slot.
-Call nfs4_sequence_free_slot on unhandled errors in nfs4_read_done.
-
-Signed-off-by: Andy Adamson <andros@netapp.com>
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|1|Andy Adamson|andros@netapp.com|2009-12-04 15:55:30-05:00|18000|Trond Myklebust|Trond.Myklebust@netapp.com|2009-12-04 15:55:30-05:00|18000

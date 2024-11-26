@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|880981e49b90568ebb53428e231b43b8c1049ef9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/radeon/kms: disable bo moves using the blitter
-
-Blitting from vram to gart is problematic at the moment.
-Use the CPU for now to avoid buffer corruption.
-
-Signed-off-by: Alex Deucher <alexdeucher@gmail.com>
-Signed-off-by: Dave Airlie <airlied@redhat.com>"|1|Alex Deucher|alexdeucher@gmail.com|2010-12-21 16:16:13-05:00|18000|Dave Airlie|airlied@redhat.com|2010-12-22 09:46:52+10:00|-36000

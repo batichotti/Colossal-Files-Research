@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8854695add1eaaeafae728850c905c4727e56f35|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/amdgpu: Simplify amdgpu_lockup_timeout usage.
-
-With introduction of amdgpu_gpu_recovery we don't need any more
-to rely on amdgpu_lockup_timeout == 0 for disabling GPU reset.
-
-Signed-off-by: Andrey Grodzovsky <andrey.grodzovsky@amd.com>
-Reviewed-by: Christian König <christian.koenig@amd.com>
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|5|Andrey Grodzovsky|andrey.grodzovsky@amd.com|2017-12-13 14:36:53-05:00|18000|Alex Deucher|alexander.deucher@amd.com|2017-12-15 17:15:00-05:00|18000

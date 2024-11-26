@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7c6e72e46c9ea4a88f3f8ba96edce9db4bd48726|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"workqueue: remove spurious WARN_ON_ONCE(in_irq()) from try_to_grab_pending()
-
-e0aecdd874 (""workqueue: use irqsafe timer for delayed_work"") made
-try_to_grab_pending() safe to use from irq context but forgot to
-remove WARN_ON_ONCE(in_irq()).  Remove it.
-
-Signed-off-by: Tejun Heo <tj@kernel.org>
-Reported-by: Fengguang Wu <fengguang.wu@intel.com>"|1|Tejun Heo|tj@kernel.org|2012-09-20 10:03:19-07:00|25200|Tejun Heo|tj@kernel.org|2012-09-20 10:03:19-07:00|25200

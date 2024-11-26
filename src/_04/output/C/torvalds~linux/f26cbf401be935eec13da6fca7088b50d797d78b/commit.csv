@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f26cbf401be935eec13da6fca7088b50d797d78b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cfg80211: change wiphy_to_dev function name
-
-Name wiphy_to_rdev is more accurate to describe what the function
-does, i.e., return a pointer pointing to struct
-cfg80211_registered_device.
-
-Signed-off-by: Zhao, Gang <gamerh2o@gmail.com>
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|12|Zhao, Gang|gamerh2o@gmail.com|2014-04-21 12:53:03+08:00|-28800|Johannes Berg|johannes.berg@intel.com|2014-04-25 17:33:04+02:00|-7200

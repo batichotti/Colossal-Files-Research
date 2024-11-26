@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|adcfe1964e627b62fbc6e45609b1f0db2c64dd14|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: increase preallocated size of nlmsg to accomodate for IFLA_STATS64
-
-When more data is stuffed into an nlmsg than initially projected, an
-extra allocation needs to be done. Reserve enough for IFLA_STATS64 so
-that this does not to needlessy happen.
-
-Signed-off-by: Jan Engelhardt <jengelh@medozas.de>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Jan Engelhardt|jengelh@medozas.de|2010-03-27 17:15:29-07:00|25200|David S. Miller|davem@davemloft.net|2010-03-27 17:15:29-07:00|25200

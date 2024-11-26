@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bfb0ebed53857cfc57f11c63fa3689940d71c1c8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"i40e: don't allow changes to HW VLAN stripping on active port VLANs
-
-Modifying the VLAN stripping options when a port VLAN is configured
-will break traffic for the VSI, and conceptually doesn't make sense,
-so don't allow this.
-
-Signed-off-by: Nicholas Nunley <nicholas.d.nunley@intel.com>
-Signed-off-by: Jeff Kirsher <jeffrey.t.kirsher@intel.com>"|1|Nicholas Nunley|nicholas.d.nunley@intel.com|2019-02-06 15:08:17-08:00|28800|Jeff Kirsher|jeffrey.t.kirsher@intel.com|2019-04-16 15:10:33-07:00|25200

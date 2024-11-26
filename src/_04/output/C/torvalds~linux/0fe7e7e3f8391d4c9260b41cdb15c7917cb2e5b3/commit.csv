@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0fe7e7e3f8391d4c9260b41cdb15c7917cb2e5b3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ftrace: Remove unused unregister_ftrace_function_probe() function
-
-Nothing calls unregister_ftrace_function_probe(). Remove it as well as the
-flag PROBE_TEST_DATA, as this function was the only one to set it.
-
-Signed-off-by: Steven Rostedt (VMware) <rostedt@goodmis.org>"|2|Steven Rostedt (VMware)|rostedt@goodmis.org|2017-04-04 09:56:26-04:00|14400|Steven Rostedt (VMware)|rostedt@goodmis.org|2017-04-20 22:06:39-04:00|14400

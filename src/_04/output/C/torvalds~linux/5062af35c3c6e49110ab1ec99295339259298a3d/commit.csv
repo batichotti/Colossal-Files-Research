@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5062af35c3c6e49110ab1ec99295339259298a3d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: fix number of transaction units for renames with whiteout
-
-When we do a rename with the whiteout flag, we need to create the whiteout
-inode, which in the worst case requires 5 transaction units (1 inode item,
-1 inode ref, 2 dir items and 1 xattr if selinux is enabled). So bump the
-number of transaction units from 11 to 16 if the whiteout flag is set.
-
-Signed-off-by: Filipe Manana <fdmanana@suse.com>"|1|Filipe Manana|fdmanana@suse.com|2016-05-05 10:26:26+01:00|-3600|Filipe Manana|fdmanana@suse.com|2016-05-13 01:59:30+01:00|-3600

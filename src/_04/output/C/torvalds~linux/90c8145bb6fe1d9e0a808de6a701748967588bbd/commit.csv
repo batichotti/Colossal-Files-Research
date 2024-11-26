@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|90c8145bb6fe1d9e0a808de6a701748967588bbd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd4: use client pointer to backchannel session
-
-Instead of copying the sessionid, use the new cl_cb_session pointer,
-which indicates which session we're using for the backchannel.
-
-Signed-off-by: J. Bruce Fields <bfields@citi.umich.edu>"|3|J. Bruce Fields|bfields@citi.umich.edu|2010-06-14 17:49:37-04:00|14400|J. Bruce Fields|bfields@redhat.com|2010-10-21 10:11:50-04:00|14400

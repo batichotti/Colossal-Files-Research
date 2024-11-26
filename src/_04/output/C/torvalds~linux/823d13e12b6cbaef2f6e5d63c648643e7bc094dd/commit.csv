@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|823d13e12b6cbaef2f6e5d63c648643e7bc094dd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: fix to cover __allocate_new_section() with curseg_lock
-
-In order to avoid race with f2fs_do_replace_block().
-
-Fixes: f5a53edcf01e (""f2fs: support aligned pinned file"")
-Signed-off-by: Chao Yu <yuchao0@huawei.com>
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|1|Chao Yu|yuchao0@huawei.com|2021-03-26 09:46:22+08:00|-28800|Jaegeuk Kim|jaegeuk@kernel.org|2021-03-26 10:27:46-07:00|25200

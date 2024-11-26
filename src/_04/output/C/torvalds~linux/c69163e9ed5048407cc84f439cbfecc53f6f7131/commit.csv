@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c69163e9ed5048407cc84f439cbfecc53f6f7131|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Move specific Basic Mode code to the right place
-
-Inside ""case L2CAP_MODE_BASIC:"" we don't need to check for sk_type and
-L2CAP mode. So only the length check is fine.
-
-Signed-off-by: Gustavo F. Padovan <padovan@profusion.mobi>
-Reviewed-by: João Paulo Rechi Vita <jprvita@profusion.mobi>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|1|Gustavo F. Padovan|padovan@profusion.mobi|2010-05-01 16:15:35-03:00|10800|Marcel Holtmann|marcel@holtmann.org|2010-05-10 09:28:45+02:00|-7200

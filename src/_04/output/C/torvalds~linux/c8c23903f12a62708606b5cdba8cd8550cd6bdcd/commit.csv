@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c8c23903f12a62708606b5cdba8cd8550cd6bdcd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bonding: remove bond_prev_slave()
-
-We don't really need it, and it's really hard to RCUify the list->prev.
-
-CC: Jay Vosburgh <fubar@us.ibm.com>
-CC: Andy Gospodarek <andy@greyhouse.net>
-Signed-off-by: Veaceslav Falico <vfalico@redhat.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Veaceslav Falico|vfalico@redhat.com|2013-09-25 09:20:25+02:00|-7200|David S. Miller|davem@davemloft.net|2013-09-26 16:02:07-04:00|14400

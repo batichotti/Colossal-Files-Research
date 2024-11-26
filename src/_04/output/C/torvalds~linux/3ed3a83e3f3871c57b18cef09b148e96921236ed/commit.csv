@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3ed3a83e3f3871c57b18cef09b148e96921236ed|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bnxt_en: Fix DMA unmapping of the RX buffers in XDP mode during shutdown.
-
-In bnxt_free_rx_skbs(), which is called to free up all RX buffers during
-shutdown, we need to unmap the page if we are running in XDP mode.
-
-Fixes: c61fb99cae51 (""bnxt_en: Add RX page mode support."")
-Signed-off-by: Michael Chan <michael.chan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Michael Chan|michael.chan@broadcom.com|2017-03-28 19:47:31-04:00|14400|David S. Miller|davem@davemloft.net|2017-03-29 14:05:34-07:00|25200

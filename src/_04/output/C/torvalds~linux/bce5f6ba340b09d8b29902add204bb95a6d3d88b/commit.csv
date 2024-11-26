@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bce5f6ba340b09d8b29902add204bb95a6d3d88b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[PATCH] VM: add capabilites check to set_zone_reclaim
-
-Add a capability check to sys_set_zone_reclaim().  This syscall is not
-something that should be available to a user.
-
-Signed-off-by:  Martin Hicks <mort@sgi.com>
-Signed-off-by: Andrew Morton <akpm@osdl.org>
-Signed-off-by: Linus Torvalds <torvalds@osdl.org>"|2|Martin Hicks|mort@sgi.com|2005-09-03 15:54:50-07:00|25200|Linus Torvalds|torvalds@evo.osdl.org|2005-09-05 00:05:44-07:00|25200

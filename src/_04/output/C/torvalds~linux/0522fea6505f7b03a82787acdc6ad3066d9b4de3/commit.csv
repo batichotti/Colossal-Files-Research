@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0522fea6505f7b03a82787acdc6ad3066d9b4de3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ipv6: Log the affected address when DAD failure occurs
-
-If an interface has multiple addresses, the current message for DAD
-failure isn't really helpful, so this patch adds the address itself to
-the printk.
-
-Signed-off-by: Jens Rosenboom <me@jayr.de>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Jens Rosenboom|me@jayr.de|2009-09-17 10:24:24-07:00|25200|David S. Miller|davem@davemloft.net|2009-09-17 10:24:24-07:00|25200

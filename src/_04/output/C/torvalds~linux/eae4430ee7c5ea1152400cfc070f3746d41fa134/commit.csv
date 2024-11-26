@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|eae4430ee7c5ea1152400cfc070f3746d41fa134|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: remove skb header offset mangling in ieee80211_build_hdr
-
-Since the code only touches the MAC headers, the offsets to the
-network/transport headers remain the same throughout this function.
-Remove pointless pieces of code that try to 'preserve' them.
-
-Signed-off-by: Felix Fietkau <nbd@nbd.name>
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Felix Fietkau|nbd@nbd.name|2016-07-13 11:00:02+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2016-08-11 16:51:41+02:00|-7200

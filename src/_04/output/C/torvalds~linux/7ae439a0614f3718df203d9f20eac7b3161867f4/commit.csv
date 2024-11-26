@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7ae439a0614f3718df203d9f20eac7b3161867f4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"habanalabs: remove asic callback set_pll_profile()
-
-Setting PLL profile is the same for all ASICs, except for GOYA.
-However, because this function is never called from common code, there
-is no need to have an asic-specific callback function.
-
-Signed-off-by: Oded Gabbay <ogabbay@kernel.org>"|5|Oded Gabbay|ogabbay@kernel.org|2022-01-08 22:49:12+02:00|-7200|Oded Gabbay|ogabbay@kernel.org|2022-02-28 14:22:02+02:00|-7200

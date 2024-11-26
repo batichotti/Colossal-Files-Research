@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5ab46b345e418747b3a52f0892680c0745c4223c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rlimits: add task_struct to update_rlimit_cpu
-
-Add task_struct as a parameter to update_rlimit_cpu to be able to set
-rlimit_cpu of different task than current.
-
-Signed-off-by: Jiri Slaby <jirislaby@gmail.com>
-Acked-by: James Morris <jmorris@namei.org>"|4|Jiri Slaby|jirislaby@gmail.com|2009-08-28 14:05:12+02:00|-7200|Jiri Slaby|jirislaby@gmail.com|2010-07-16 09:48:45+02:00|-7200

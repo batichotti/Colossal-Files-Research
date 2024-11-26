@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|97e37d7b9e65a6ac939f796f91081135b7a08acc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"workqueue: merge feature parameters into flags
-
-Currently, __create_workqueue_key() takes @singlethread and
-@freezeable paramters and store them separately in workqueue_struct.
-Merge them into a single flags parameter and field and use
-WQ_FREEZEABLE and WQ_SINGLE_THREAD.
-
-Signed-off-by: Tejun Heo <tj@kernel.org>"|2|Tejun Heo|tj@kernel.org|2010-06-29 10:07:10+02:00|-7200|Tejun Heo|tj@kernel.org|2010-06-29 10:07:10+02:00|-7200

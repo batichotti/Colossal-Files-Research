@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|40daafc80b0f6a950c9252f9f1a242ab5cb6a648|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"unaligned access in sk_run_filter()
-
-This patch fixes unaligned access warnings noticed on IA64
-in sk_run_filter(). 'ptr' can be unaligned.
-
-Signed-off-By: Dmitry Mishin <dim@openvz.org>
-Signed-off-By: Kirill Korotaev <dev@openvz.org>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Dmitry Mishin|dim@openvz.org|2006-04-18 14:50:10-07:00|25200|David S. Miller|davem@sunset.davemloft.net|2006-04-18 15:57:54-07:00|25200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ab5e5c062f67c5ae8cd07f0632ffa62dc0e7d169|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: use kfree_rcu(ptr, rcu) to release hooks in clean_net path
-
-Use kfree_rcu(ptr, rcu) variant instead as described by ae089831ff28
-(""netfilter: nf_tables: prefer kfree_rcu(ptr, rcu) variant"").
-
-Fixes: f9a43007d3f7 (""netfilter: nf_tables: double hook unregistration in netns path"")
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|1|Pablo Neira Ayuso|pablo@netfilter.org|2022-06-01 16:00:00+02:00|-7200|Pablo Neira Ayuso|pablo@netfilter.org|2022-06-01 16:01:54+02:00|-7200

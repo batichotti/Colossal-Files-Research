@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9ae287274817c032a4428fde84d1ab26d6b96761|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: add extack arg to lwtunnel build state
-
-Pass extack arg down to lwtunnel_build_state and the build_state callbacks.
-Add messages for failures in lwtunnel_build_state, and add the extarg to
-nla_parse where possible in the build_state callbacks.
-
-Signed-off-by: David Ahern <dsahern@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|12|David Ahern|dsahern@gmail.com|2017-05-27 16:19:28-06:00|21600|David S. Miller|davem@davemloft.net|2017-05-30 11:55:32-04:00|14400

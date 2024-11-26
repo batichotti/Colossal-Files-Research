@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|aef2aa4fa98e18ea5d9345bf777ee698c8598728|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: hci_event: Fix creating hci_conn object on error status
-
-It is useless to create a hci_conn object if on error status as the
-result would be it being freed in the process and anyway it is likely
-the result of controller and host stack being out of sync.
-
-Signed-off-by: Luiz Augusto von Dentz <luiz.von.dentz@intel.com>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|1|Luiz Augusto von Dentz|luiz.von.dentz@intel.com|2022-04-22 12:58:17-07:00|25200|Marcel Holtmann|marcel@holtmann.org|2022-04-26 20:10:22+02:00|-7200

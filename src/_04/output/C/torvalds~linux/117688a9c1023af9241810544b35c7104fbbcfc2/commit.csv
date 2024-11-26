@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|117688a9c1023af9241810544b35c7104fbbcfc2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ALSA: hda - Correct aamix output paths
-
-The output paths including aamix should be parsed only for the first
-output.  The surround paths including aamix must be wrong, since it
-would mix all streams, i.e. all channels would be mixed into a single
-and multiplexed again.
-
-Signed-off-by: Takashi Iwai <tiwai@suse.de>"|1|Takashi Iwai|tiwai@suse.de|2013-01-04 15:41:41+01:00|-3600|Takashi Iwai|tiwai@suse.de|2013-01-12 08:43:40+01:00|-3600

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|96540c78583a417113df4d027e6b68a595ab9a09|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"xfs: do not use xfs_mod_incore_sb for per-cpu counters
-
-Export xfs_icsb_modify_counters and always use it for modifying
-the per-cpu counters.  Remove support for per-cpu counters from
-xfs_mod_incore_sb to simplify it.
-
-Signed-off-by: Christoph Hellwig <hch@lst.de>
-Signed-off-by: Alex Elder <aelder@sgi.com>"|5|Christoph Hellwig|hch@infradead.org|2010-09-30 02:25:55+00:00|0|Alex Elder|aelder@sgi.com|2010-10-18 15:07:59-05:00|18000

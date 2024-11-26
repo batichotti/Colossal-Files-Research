@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2af8cb6126f36ffad848d1b0af714c09eb801b9d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: hns3: add protection when get SFP speed as 0
-
-In some case, the MAC speed get from hardware maybe 0, it should
-not be set to mac->speed.
-
-Signed-off-by: Guojia Liao <liaoguojia@huawei.com>
-Signed-off-by: Huazhong Tan <tanhuazhong@huawei.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Guojia Liao|liaoguojia@huawei.com|2020-01-04 10:49:29+08:00|-28800|David S. Miller|davem@davemloft.net|2020-01-06 13:26:25-08:00|28800

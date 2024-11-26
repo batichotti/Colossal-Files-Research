@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8f78b0bb8791d8164aed86970905cdc12f3b8496|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rt2x00: rt2800lib: no need to toggle RF R30 bit 7 twice
-
-In rt2800_config_channel_rf3xxx(), there's no need to toggle
-RF R30 bit 7 twice.
-
-Signed-off-by: Kevin Lo <kevlo@kevlo.org>
-Acked-by: Stanislaw Gruszka <stf_xl@wp.pl>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|1|Kevin Lo|kevlo@kevlo.org|2013-10-07 16:02:01+08:00|-28800|John W. Linville|linville@tuxdriver.com|2013-10-10 13:49:28-04:00|14400

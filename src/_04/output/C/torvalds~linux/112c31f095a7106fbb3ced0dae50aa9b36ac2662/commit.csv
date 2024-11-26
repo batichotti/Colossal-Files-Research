@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|112c31f095a7106fbb3ced0dae50aa9b36ac2662|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: fix AP beacon loss messages
-
-The messages currently refer to probe request probes,
-but on some devices null data packets will be used
-instead. Make the messages more generic.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2013-02-08 22:59:00+01:00|-3600|Johannes Berg|johannes.berg@intel.com|2013-02-11 18:44:55+01:00|-3600

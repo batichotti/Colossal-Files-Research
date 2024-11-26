@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9b8ebbdb74b5ad76b9dfd8b101af17839174b126|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: extend usage of RET_MMIO_PF_* constants
-
-The x86 MMU if full of code that returns 0 and 1 for retry/emulate.  Use
-the existing RET_MMIO_PF_RETRY/RET_MMIO_PF_EMULATE enum, renaming it to
-drop the MMIO part.
-
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|2|Paolo Bonzini|pbonzini@redhat.com|2017-08-17 15:03:32+02:00|-7200|Paolo Bonzini|pbonzini@redhat.com|2017-10-12 14:01:56+02:00|-7200

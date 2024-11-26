@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|26d5bbe5ba2073fc7ef9e69a55543b2376f5bad0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Revert ""cgroup: remove bind() method from cgroup_subsys.""
-
-This reverts commit 84cfb6ab484b442d5115eb3baf9db7d74a3ea626.  There
-are scheduled changes which make use of the removed callback.
-
-Signed-off-by: Tejun Heo <tj@kernel.org>
-Cc: Rami Rosen <ramirose@gmail.com>
-Cc: Li Zefan <lizefan@huawei.com>"|3|Tejun Heo|tj@kernel.org|2013-04-12 10:29:04-07:00|25200|Tejun Heo|tj@kernel.org|2013-04-12 10:29:04-07:00|25200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f568291ef571522202e8b9f893ab33694bb2fc31|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ALSA: hda/realtek - Fix the wrong offset for two-speaker systems
-
-When the machine has two speakers but wants to put more multi-io
-jacks, the parser shouldn't consider about the shared DAC but try to
-assign the individual DACs.  Otherwise the channel mapping would be
-fairly confused and lead to the wrong DACs.
-
-Signed-off-by: Takashi Iwai <tiwai@suse.de>"|1|Takashi Iwai|tiwai@suse.de|2012-02-21 12:37:00+01:00|-3600|Takashi Iwai|tiwai@suse.de|2012-02-21 12:37:00+01:00|-3600

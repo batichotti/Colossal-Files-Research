@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e4db40e7a1a2cd6af3b6d5f8f3fba15533872398|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: hisi_sas: use dma_set_mask_and_coherent
-
-The driver currently uses pci_set_dma_mask despite otherwise using the
-generic DMA API.  Switch it over to the better generic DMA API.
-
-Signed-off-by: Christoph Hellwig <hch@lst.de>
-Acked-by: John Garry <john.garry@huawei.com>
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|1|Christoph Hellwig|hch@lst.de|2018-10-18 15:10:17+02:00|-7200|Martin K. Petersen|martin.petersen@oracle.com|2018-11-15 14:27:08-05:00|18000

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0358372bbe86705399490d82fb022aa34bdc2ee4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"habanalabs: remove redundant assignment to variable
-
-new_dma_pkt->ctl is assigned a value and then is reassigned a new value
-without the first value ever being used.
-
-Reported-by: kernel test robot <lkp@intel.com>
-Reviewed-by: Tomer Tayar <ttayar@habana.ai>
-Signed-off-by: Oded Gabbay <oded.gabbay@gmail.com>"|1|Oded Gabbay|oded.gabbay@gmail.com|2020-08-12 11:24:05+03:00|-10800|Oded Gabbay|oded.gabbay@gmail.com|2020-09-22 18:49:50+03:00|-10800

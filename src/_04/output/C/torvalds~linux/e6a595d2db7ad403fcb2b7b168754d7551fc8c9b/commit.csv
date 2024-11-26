@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e6a595d2db7ad403fcb2b7b168754d7551fc8c9b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Reject page flips with changed format/offset/pitch
-
-MI display flips can't handle some changes in the framebuffer
-format or layout. Return an error in such cases.
-
-Signed-off-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Signed-off-by: Daniel Vetter <daniel.vetter@ffwll.ch>"|1|Ville Syrjälä|ville.syrjala@linux.intel.com|2012-05-24 21:08:59+03:00|-10800|Daniel Vetter|daniel.vetter@ffwll.ch|2012-07-05 13:29:45+02:00|-7200

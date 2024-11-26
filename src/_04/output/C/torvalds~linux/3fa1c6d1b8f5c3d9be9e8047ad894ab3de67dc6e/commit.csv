@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3fa1c6d1b8f5c3d9be9e8047ad894ab3de67dc6e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cifs: rename smb_vol as smb3_fs_context and move it to fs_context.h
-
-Harmonize and change all such variables to 'ctx', where possible.
-No changes to actual logic.
-
-Signed-off-by: Ronnie Sahlberg <lsahlber@redhat.com>
-Signed-off-by: Steve French <stfrench@microsoft.com>"|12|Ronnie Sahlberg|lsahlber@redhat.com|2020-12-09 23:07:12-06:00|21600|Steve French|stfrench@microsoft.com|2020-12-13 19:12:07-06:00|21600

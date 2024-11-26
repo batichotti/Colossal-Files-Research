@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|132f743b01b85b8fae7e1f298bfd81a66b9389a8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: improve queue removal readability in __netif_set_xps_queue
-
-Improve the readability of the loop removing tx-queue from unused
-CPUs/rx-queues in __netif_set_xps_queue. The change should only be
-cosmetic.
-
-Signed-off-by: Antoine Tenart <atenart@kernel.org>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Antoine Tenart|atenart@kernel.org|2021-03-18 19:37:48+01:00|-3600|David S. Miller|davem@davemloft.net|2021-03-18 14:56:22-07:00|25200

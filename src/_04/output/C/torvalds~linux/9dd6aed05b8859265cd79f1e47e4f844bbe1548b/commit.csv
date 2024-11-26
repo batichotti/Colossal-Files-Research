@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9dd6aed05b8859265cd79f1e47e4f844bbe1548b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211 ibss: flush only stations belonging to current interface
-
-When joining a new IBSS, all old stations are flushed, but currently
-all stations belonging to all virtual interfaces are flushed, which
-is wrong. This patch fixes it.
-
-Signed-off-by: Johannes Berg <johannes@sipsolutions.net>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|1|Johannes Berg|johannes@sipsolutions.net|2008-03-31 19:22:59+02:00|-7200|John W. Linville|linville@tuxdriver.com|2008-04-01 17:14:09-04:00|14400

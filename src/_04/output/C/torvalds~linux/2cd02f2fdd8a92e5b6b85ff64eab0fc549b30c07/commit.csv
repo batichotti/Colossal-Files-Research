@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2cd02f2fdd8a92e5b6b85ff64eab0fc549b30c07|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8169: improve initialization of RSS registers on RTL8125/RTL8126
-
-Replace the register addresses with the names used in r8125/r8126
-vendor driver, and consider that RSS_CTRL_8125 is a 32 bit register.
-
-Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
-Link: https://patch.msgid.link/3bf2f340-b369-4174-97bf-fd38d4217492@gmail.com
-Signed-off-by: Jakub Kicinski <kuba@kernel.org>"|1|Heiner Kallweit|hkallweit1@gmail.com|2024-11-02 14:49:01+01:00|-3600|Jakub Kicinski|kuba@kernel.org|2024-11-05 17:36:16-08:00|28800

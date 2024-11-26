@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d4b515fa10dd52a2aef88df7299e9f3a8ab0957a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libceph: distinguish page array and pagelist count
-
-Use distinct fields for tracking the number of pages in a message's
-page array and in a message's page list.  Currently only one or the
-other is used at a time, but that will be changing soon.
-
-Signed-off-by: Alex Elder <elder@inktank.com>
-Reviewed-by: Josh Durgin <josh.durgin@inktank.com>"|4|Alex Elder|elder@inktank.com|2013-02-25 17:35:46-06:00|21600|Sage Weil|sage@inktank.com|2013-05-01 21:14:28-07:00|25200

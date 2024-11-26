@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|870a0bb5d636156502769233d02a0d5791d4366a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sched/numa: Don't scale the imbalance
-
-It's far too easy to get ridiculously large imbalance pct when you
-scale it like that. Use a fixed 125% for now.
-
-Signed-off-by: Peter Zijlstra <a.p.zijlstra@chello.nl>
-Link: http://lkml.kernel.org/n/tip-zsriaft1dv7hhboyrpvqjy6s@git.kernel.org
-Signed-off-by: Ingo Molnar <mingo@kernel.org>"|1|Peter Zijlstra|a.p.zijlstra@chello.nl|2012-05-11 00:26:27+02:00|-7200|Ingo Molnar|mingo@kernel.org|2012-05-14 15:05:26+02:00|-7200

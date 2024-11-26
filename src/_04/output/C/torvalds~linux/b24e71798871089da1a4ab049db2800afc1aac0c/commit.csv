@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b24e71798871089da1a4ab049db2800afc1aac0c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: add pipe/plane enable/disable functions
-
-Add plane enable/disable functions to prevent duplicated code and allow
-us to easily check for plane enable/disable requirements (such as pipe
-enable, plane status, pll status etc).
-
-Signed-off-by: Jesse Barnes <jbarnes@virtuousgeek.org>
-Signed-off-by: Chris Wilson <chris@chris-wilson.co.uk>"|2|Jesse Barnes|jbarnes@virtuousgeek.org|2011-01-04 15:09:30-08:00|28800|Chris Wilson|chris@chris-wilson.co.uk|2011-01-19 12:35:49+00:00|0

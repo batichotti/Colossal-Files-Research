@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|be36e185bd26388355d3ea1847278b96ab350792|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: nfs4_open_recover_helper() must set share access
-
-The share access mode is now specified as an argument in the nfs4_opendata,
-and so nfs4_open_recover_helper() needs to call nfs4_map_atomic_open_share()
-in order to set it.
-
-Fixes: 6ae373394c42 (""NFSv4.1: Ask for no delegation on OPEN if using O_DIRECT"")
-Signed-off-by: Trond Myklebust <trond.myklebust@primarydata.com>"|1|Trond Myklebust|trond.myklebust@primarydata.com|2015-02-27 17:04:17-05:00|18000|Trond Myklebust|trond.myklebust@primarydata.com|2015-02-27 17:10:40-05:00|18000

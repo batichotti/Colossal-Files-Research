@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a9bdd8365684810e3de804f8c51e52c26a5eccbb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: set names cannot be larger than 15 bytes
-
-Currently, nf_tables trims off the set name if it exceeeds 15
-bytes, so explicitly reject set names that are too large.
-
-Reported-by: Giuseppe Longo <giuseppelng@gmail.com>
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|1|Pablo Neira Ayuso|pablo@netfilter.org|2014-03-24 15:10:37+01:00|-3600|Pablo Neira Ayuso|pablo@netfilter.org|2014-04-03 23:52:44+02:00|-7200

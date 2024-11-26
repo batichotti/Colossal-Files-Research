@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f35d9d8aae08940b7fdd1bb8110619da2ece6b28|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"virtio: Implement skb_partial_csum_set, for setting partial csums on untrusted packets.
-
-Use it in virtio_net (replacing buggy version there), it's also going
-to be used by TAP for partial csum support.
-
-Signed-off-by: Rusty Russell <rusty@rustcorp.com.au>
-Acked-by: David S. Miller <davem@davemloft.net>"|3|Rusty Russell|rusty@rustcorp.com.au|2008-02-04 23:49:54-05:00|18000|Rusty Russell|rusty@rustcorp.com.au|2008-02-04 23:49:56+11:00|-39600

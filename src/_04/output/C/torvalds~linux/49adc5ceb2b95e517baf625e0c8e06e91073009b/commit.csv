@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|49adc5ceb2b95e517baf625e0c8e06e91073009b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mwl8k: replace rateinfo bitfields with mask and shift macros
-
-AFAICT, this driver is claiming that 24 bits of rate info fit into a
-16-bit field in the Tx descriptor.  Anyway, the use of bitfields is
-frowned-upon for a variety of well-documented reasons...
-
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|1|John W. Linville|linville@tuxdriver.com|2011-04-27 15:04:28-04:00|14400|John W. Linville|linville@tuxdriver.com|2011-04-28 14:53:23-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|95f0b6d536374ea1796bd0d9024faaca9c4f3380|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"crypto: hisilicon/qm - reset function if event queue overflows
-
-If the hardware reports the event queue overflow by the abnormal interrupt,
-the driver needs to reset the function and re-enable the event queue
-interrupt and abnormal interrupt.
-
-Signed-off-by: Weili Qian <qianweili@huawei.com>
-Signed-off-by: Herbert Xu <herbert@gondor.apana.org.au>"|1|Weili Qian|qianweili@huawei.com|2021-12-11 19:25:18+08:00|-28800|Herbert Xu|herbert@gondor.apana.org.au|2021-12-17 16:59:49+11:00|-39600

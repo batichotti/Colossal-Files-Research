@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5daab287c67d8008a01e4a0db8bcb92b386b8adc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"igb: Use dev_get_drvdata where possible
-
-Instead of using to_pci_dev + pci_get_drvdata,
-use dev_get_drvdata to make code simpler.
-
-Signed-off-by: Chuhong Yuan <hslester96@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Chuhong Yuan|hslester96@gmail.com|2019-07-23 22:16:24+08:00|-28800|David S. Miller|davem@davemloft.net|2019-07-23 13:02:42-07:00|25200

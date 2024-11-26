@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|26a9ebca982d52b96c921f7344b7c01b1e2d9672|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Revert ""net: stmmac: add platform init/exit for Altera's ARM socfpga""
-
-This reverts commit 0acf16768740776feffac506ce93b1c06c059ac6.
-
-Breaks the build due to missing reference to phy_resume in
-the resulting dwmac-socfpga.o object.
-
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|David S. Miller|davem@davemloft.net|2014-07-07 19:53:45-07:00|25200|David S. Miller|davem@davemloft.net|2014-07-07 19:53:45-07:00|25200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0a4b1fc0b24fc7adbaf8413f2992ce1395991a78|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] bfa: Replace bfa_get_attr() with specific APIs
-
-bfa_ioc_attr_s is a big structure and some times could cause
-stack overflow if defined locally, so add specific APIs that
-are needed to replace the use of ioc_attr local var.
-
-Signed-off-by: Krishna Gudipati <kgudipat@brocade.com>
-Signed-off-by: James Bottomley <James.Bottomley@suse.de>"|15|Krishna Gudipati|kgudipat@brocade.com|2010-03-05 19:37:57-08:00|28800|James Bottomley|James.Bottomley@suse.de|2010-03-07 13:07:00+05:30|-19800

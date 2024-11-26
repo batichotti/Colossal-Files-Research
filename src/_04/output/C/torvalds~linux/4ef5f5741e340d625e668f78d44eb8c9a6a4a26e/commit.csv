@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4ef5f5741e340d625e668f78d44eb8c9a6a4a26e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bpf: btf: Check array->index_type
-
-Instead of ingoring the array->index_type field.  Enforce that
-it must be a BTF_KIND_INT in size 1/2/4/8 bytes.
-
-Signed-off-by: Martin KaFai Lau <kafai@fb.com>
-Signed-off-by: Daniel Borkmann <daniel@iogearbox.net>"|1|Martin KaFai Lau|kafai@fb.com|2018-05-22 14:57:19-07:00|25200|Daniel Borkmann|daniel@iogearbox.net|2018-05-23 12:03:32+02:00|-7200

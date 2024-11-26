@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|de68f5de56512a2ff5d5810ef4d54c53470c3c45|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bnxt_en: Fix bitmap declaration to work on 32-bit arches.
-
-The declaration of the bitmap vf_req_snif_bmap using fixed array of
-unsigned long will only work on 64-bit archs.  Use DECLARE_BITMAP instead
-which will work on all archs.
-
-Signed-off-by: Michael Chan <mchan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Michael Chan|mchan@broadcom.com|2015-12-09 19:35:41-05:00|18000|David S. Miller|davem@davemloft.net|2015-12-11 23:34:05-05:00|18000

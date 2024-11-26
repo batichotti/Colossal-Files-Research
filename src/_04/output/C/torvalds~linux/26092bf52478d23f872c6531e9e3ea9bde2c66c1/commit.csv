@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|26092bf52478d23f872c6531e9e3ea9bde2c66c1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: use a table-driven handler for mount options
-
-By using a table-drive approach, we shave about 100 lines of code from
-ext4, and make the code a bit more regular and factored out.  This
-will also make it possible in a future patch to use this table for
-displaying the mount options that were specified in /proc/mounts.
-
-Signed-off-by: ""Theodore Ts'o"" <tytso@mit.edu>"|1|Theodore Ts'o|tytso@mit.edu|2012-03-03 23:20:47-05:00|18000|Theodore Ts'o|tytso@mit.edu|2012-03-03 23:20:47-05:00|18000

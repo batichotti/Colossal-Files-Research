@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f8163c8673efaabb361281a2759b3167d181ecf6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ASoC: rt5677: Return error if devm_gpiod_get_optional return ERR_PTR
-
-If devm_gpiod_get_optional() return ERR_PTR, it means something wrong
-so request gpio fails. We had better return error in such case.
-
-Signed-off-by: Axel Lin <axel.lin@ingics.com>
-Signed-off-by: Mark Brown <broonie@kernel.org>"|1|Axel Lin|axel.lin@ingics.com|2015-07-25 10:23:40+08:00|-28800|Mark Brown|broonie@kernel.org|2015-07-29 13:56:50+01:00|-3600

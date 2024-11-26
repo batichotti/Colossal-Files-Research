@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|708cdc5706a4701be9e5f81cb2e2b60b57f34c42|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libbpf: Support kfunc detection in light skeleton.
-
-Teach gen_loader to find {btf_id, btf_obj_fd} of kernel variables and kfuncs
-and populate corresponding ld_imm64 and bpf_call insns.
-
-Signed-off-by: Alexei Starovoitov <ast@kernel.org>
-Signed-off-by: Andrii Nakryiko <andrii@kernel.org>
-Link: https://lore.kernel.org/bpf/20230321203854.3035-4-alexei.starovoitov@gmail.com"|3|Alexei Starovoitov|ast@kernel.org|2023-03-21 13:38:53-07:00|25200|Andrii Nakryiko|andrii@kernel.org|2023-03-22 09:31:05-07:00|25200

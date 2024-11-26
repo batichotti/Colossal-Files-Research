@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a5e0acea9ed644d622281a4a8fde94a2e24ec7e8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: s390: add exit io request stats and simplify code
-
-We want to count IO exit requests in kvm_stat. At the same time
-we can get rid of the handle_noop function.
-
-Reviewed-by: David Hildenbrand <david@redhat.com>
-Reviewed-by: Cornelia Huck <cohuck@redhat.com>
-Signed-off-by: Christian Borntraeger <borntraeger@de.ibm.com>"|3|Christian Borntraeger|borntraeger@de.ibm.com|2018-02-23 07:57:33+00:00|0|Christian Borntraeger|borntraeger@de.ibm.com|2018-03-14 19:21:11+00:00|0

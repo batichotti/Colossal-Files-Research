@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ad65ecf30b037549a17d2e402fac8d39242073d1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: simplify btree_submit_bio_start and btrfs_submit_bio_start parameters
-
-After previous patches the unused parameters can be removed from
-btree_submit_bio_start and btrfs_submit_bio_start as they don't need to
-conform to the extent_submit_bio_start_t typedef.
-
-Reviewed-by: Anand Jain <anand.jain@oracle.com>
-Signed-off-by: David Sterba <dsterba@suse.com>"|4|David Sterba|dsterba@suse.com|2022-10-27 02:30:45+02:00|-7200|David Sterba|dsterba@suse.com|2022-12-05 18:00:51+01:00|-3600

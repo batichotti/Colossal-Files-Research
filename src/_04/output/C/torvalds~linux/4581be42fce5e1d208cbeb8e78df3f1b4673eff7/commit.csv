@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4581be42fce5e1d208cbeb8e78df3f1b4673eff7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: mvneta: make mvneta_eth_tool_ops static
-
-The mvneta_eth_tool_ops is only used internally in mvneta driver, so
-make it static.
-
-Signed-off-by: Jisheng Zhang <jszhang@marvell.com>
-Acked-by: Thomas Petazzoni <thomas.petazzoni@free-electrons.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Jisheng Zhang|jszhang@marvell.com|2017-02-16 17:07:39+08:00|-28800|David S. Miller|davem@davemloft.net|2017-02-17 12:16:29-05:00|18000

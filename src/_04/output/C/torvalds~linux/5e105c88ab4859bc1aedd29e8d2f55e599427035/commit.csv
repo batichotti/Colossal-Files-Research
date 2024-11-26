@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5e105c88ab4859bc1aedd29e8d2f55e599427035|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: nVMX: check for invalid hdr.vmx.flags
-
-hdr.vmx.flags is meant for future extensions to the ABI, rejecting
-invalid flags is necessary to avoid broken half-loads of the
-nVMX state.
-
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|2|Paolo Bonzini|pbonzini@redhat.com|2020-07-27 08:55:09-04:00|14400|Paolo Bonzini|pbonzini@redhat.com|2020-07-27 09:04:50-04:00|14400

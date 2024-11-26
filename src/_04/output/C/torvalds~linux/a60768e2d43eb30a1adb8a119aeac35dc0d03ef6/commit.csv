@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a60768e2d43eb30a1adb8a119aeac35dc0d03ef6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] ips: remove ""Version Matching""
-
-IBM has finally agreed that the ""Version Matching"" between firmware and
-drivers ( and the resulting warning messages ) is no longer necessary.
-This patch will remove those functions from the ServeRAID driver.
-
-Signed-off-by: Jack Hammer <jack_hammer@adaptec.com>
-Signed-off-by: James Bottomley <James.Bottomley@SteelEye.com>"|1|Jack Hammer|jack_hammer@adaptec.com|2005-11-03 09:46:00-05:00|18000|James Bottomley|jejb@mulgrave.(none)|2005-11-06 12:33:12-06:00|21600

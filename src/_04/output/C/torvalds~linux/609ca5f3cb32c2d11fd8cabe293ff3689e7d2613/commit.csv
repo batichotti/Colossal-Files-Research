@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|609ca5f3cb32c2d11fd8cabe293ff3689e7d2613|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"regulator: core: Use class device list for regulator_list in late init
-
-The regulator_list has exactly the same contents as the list that the
-driver core maintains of regulator_class members so is redundant. As a
-first step in converting over to use the class device list convert our
-iteration in late_initcall() to use the class device iterator.
-
-Signed-off-by: Mark Brown <broonie@kernel.org>"|1|Mark Brown|broonie@kernel.org|2015-08-10 19:43:47+01:00|-3600|Mark Brown|broonie@kernel.org|2015-08-12 13:21:14+01:00|-3600

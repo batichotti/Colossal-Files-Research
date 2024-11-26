@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bd695a5f0ccf7b38982c426d86055ff3591c9b5b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: mvpp2: implement ioctl() operation for PHY ioctls
-
-This commit implements the ->ndo_do_ioctl() operation so that the
-PHY-related ioctl() calls can work from userspace, which allows
-applications like mii-tool or mii-diag to do their job.
-
-Signed-off-by: Thomas Petazzoni <thomas.petazzoni@free-electrons.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Thomas Petazzoni|thomas.petazzoni@free-electrons.com|2014-07-27 23:21:36+02:00|-7200|David S. Miller|davem@davemloft.net|2014-07-29 16:47:43-07:00|25200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7e726ed81e1ddd5fdc431e02b94fcfe2a9876d42|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: dev: use kfree_skb_reason() for do_xdp_generic()
-
-Replace kfree_skb() used in do_xdp_generic() with kfree_skb_reason().
-The drop reason SKB_DROP_REASON_XDP is introduced for this case.
-
-Signed-off-by: Menglong Dong <imagedong@tencent.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|Menglong Dong|imagedong@tencent.com|2022-03-04 14:00:44+08:00|-28800|David S. Miller|davem@davemloft.net|2022-03-04 12:17:11+00:00|0

@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1cb767cd4a79703105f4f3774c76896d621fdc54|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4 crypto: fail the mount if blocksize != pagesize
-
-We currently don't correctly handle the case where blocksize !=
-pagesize, so disallow the mount in those cases.
-
-Signed-off-by: Theodore Ts'o <tytso@mit.edu>"|1|Theodore Ts'o|tytso@mit.edu|2015-06-12 23:44:33-04:00|14400|Theodore Ts'o|tytso@mit.edu|2015-06-12 23:44:33-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0bbfdfe8d25fcc1d5c2edb6b060fb0c5cf66aff9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libceph: factor out logic from ceph_osdc_start_request()
-
-Factor out logic from ceph_osdc_start_request() into a new helper,
-__ceph_osdc_start_request().  ceph_osdc_start_request() now amounts to
-taking locks and calling __ceph_osdc_start_request().
-
-Signed-off-by: Ilya Dryomov <ilya.dryomov@inktank.com>
-Reviewed-by: Sage Weil <sage@inktank.com>"|1|Ilya Dryomov|ilya.dryomov@inktank.com|2014-01-31 19:33:39+02:00|-7200|Sage Weil|sage@inktank.com|2014-02-07 10:45:42-08:00|28800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5d1a2388edee77930c8b542cf8be0c92342dbeb4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"serial: 8250_pci: remove exar code
-
-Remove the Exar specific codes from 8250_pci and blacklist those chips
-so that the new Exar serial driver binds to the devices.
-
-Reviewed-by: Andy Shevchenko <andy.shevchenko@gmail.com>
-Signed-off-by: Sudip Mukherjee <sudip.mukherjee@codethink.co.uk>
-Signed-off-by: Greg Kroah-Hartman <gregkh@linuxfoundation.org>"|2|Sudip Mukherjee|sudip.mukherjee@codethink.co.uk|2017-01-30 22:28:22+00:00|0|Greg Kroah-Hartman|gregkh@linuxfoundation.org|2017-02-03 10:12:16+01:00|-3600

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3e339f964b74b7223ab128f36f4b2aaf9dc12eb9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd: Ensure lookup_clientid() takes client_lock
-
-Ensure that the client lookup is done safely under the client_lock, so
-we're not relying on the client_mutex.
-
-Signed-off-by: Trond Myklebust <trond.myklebust@primarydata.com>
-Signed-off-by: J. Bruce Fields <bfields@redhat.com>"|1|Trond Myklebust|trond.myklebust@primarydata.com|2014-07-30 08:27:09-04:00|14400|J. Bruce Fields|bfields@redhat.com|2014-08-01 16:28:23-04:00|14400

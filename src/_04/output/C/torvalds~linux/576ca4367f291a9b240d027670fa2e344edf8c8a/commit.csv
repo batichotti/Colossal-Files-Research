@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|576ca4367f291a9b240d027670fa2e344edf8c8a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"regulator: core: Pull non-DT supply mapping into regulator_dev_lookup()
-
-Ensure we always apply the supply mapping when doing a lookup rather than
-only doing it in non-DT cases, ensuring that regulators with supplies
-specified in the regulator_desc can find their supplies on non-DT systems
-and generally making the code more obvious.
-
-Signed-off-by: Mark Brown <broonie@opensource.wolfsonmicro.com>"|1|Mark Brown|broonie@opensource.wolfsonmicro.com|2012-03-30 12:24:37+01:00|-3600|Mark Brown|broonie@opensource.wolfsonmicro.com|2012-04-03 14:00:49+01:00|-3600

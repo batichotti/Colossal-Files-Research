@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|022ddbca86ce692518bc1809e2dfe27add669608|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8169: remove some WOL-related dead code
-
-Commit bde135a672bf ""r8169: only enable PCI wakeups when WOL is active""
-removed the only user of flag RTL_FEATURE_WOL. So let's remove some
-now dead code.
-
-Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Heiner Kallweit|hkallweit1@gmail.com|2018-02-20 07:23:03+01:00|-3600|David S. Miller|davem@davemloft.net|2018-02-20 22:00:40-05:00|18000

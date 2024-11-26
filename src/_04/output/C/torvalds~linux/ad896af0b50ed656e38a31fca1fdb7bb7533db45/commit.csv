@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ad896af0b50ed656e38a31fca1fdb7bb7533db45|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: mmu: remove argument to kvm_init_shadow_mmu and kvm_init_shadow_ept_mmu
-
-The initialization function in mmu.c can always use walk_mmu, which
-is known to be vcpu->arch.mmu.  Only init_kvm_nested_mmu is used to
-initialize vcpu->arch.nested_mmu.
-
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|4|Paolo Bonzini|pbonzini@redhat.com|2013-10-02 16:56:14+02:00|-7200|Paolo Bonzini|pbonzini@redhat.com|2015-01-08 22:48:02+01:00|-3600

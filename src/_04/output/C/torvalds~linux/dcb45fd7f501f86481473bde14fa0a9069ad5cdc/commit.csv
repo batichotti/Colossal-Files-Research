@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|dcb45fd7f501f86481473bde14fa0a9069ad5cdc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cifs: Do not use tcon->cfid directly, use the cfid we get from open_cached_dir
-
-They are the same right now but tcon-> will later point to a different
-type of struct containing a list of cfids.
-
-Signed-off-by: Ronnie Sahlberg <lsahlber@redhat.com>
-Reviewed-by: Paulo Alcantara (SUSE) <pc@cjr.nz>
-Signed-off-by: Steve French <stfrench@microsoft.com>"|2|Ronnie Sahlberg|lsahlber@redhat.com|2022-08-09 12:11:49+10:00|-36000|Steve French|stfrench@microsoft.com|2022-08-11 20:03:04-05:00|18000

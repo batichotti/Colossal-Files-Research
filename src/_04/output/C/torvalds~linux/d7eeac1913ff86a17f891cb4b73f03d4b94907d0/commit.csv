@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d7eeac1913ff86a17f891cb4b73f03d4b94907d0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cgroup: hold cgroup_mutex before calling css_offline()
-
-cpuset no longer nests cgroup_mutex inside cpu_hotplug lock, so
-we don't have to release cgroup_mutex before calling css_offline().
-
-Signed-off-by: Li Zefan <lizefan@huawei.com>
-Signed-off-by: Tejun Heo <tj@kernel.org>"|2|Li Zefan|lizefan@huawei.com|2013-03-12 15:35:59-07:00|25200|Tejun Heo|tj@kernel.org|2013-03-12 15:35:59-07:00|25200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7ea3e110f2f8ba23f330c2f702f556acd539bcb8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cfg80211: release station info tidstats where needed
-
-This fixes memory leaks in cases where we got the station
-info but failed sending it out properly.
-
-Fixes: 8689c051a201 (""cfg80211: dynamically allocate per-tid stats for station info"")
-Reviewed-by: Arend van Spriel <arend.vanspriel@broadcom.com>
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|2|Johannes Berg|johannes.berg@intel.com|2018-05-18 11:40:44+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2018-05-18 12:37:55+02:00|-7200

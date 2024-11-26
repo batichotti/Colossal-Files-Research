@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7a0566b38c518e98df2359c8c15c2b3f91a4d67e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: Add missing nfs_put_lock_context()
-
-Otherwise the lock context won't be freed when we're done with it.
-
-From: NeilBrown <neilb@suse.com>
-Fixes: 5bd3f817 (""NFSv4: change nfs4_select_rw_stateid to take a lock_context inplace of lock_owner"")
-Signed-off-by: Anna Schumaker <Anna.Schumaker@netapp.com>
-Signed-off-by: Trond Myklebust <trond.myklebust@primarydata.com>"|1|NeilBrown|neilb@suse.com|2016-12-06 15:50:06-05:00|18000|Trond Myklebust|trond.myklebust@primarydata.com|2016-12-07 13:41:58-05:00|18000

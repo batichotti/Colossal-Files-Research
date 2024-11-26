@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c4babc5e38e94e70058218ebfbf7846fd2f8a24d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: rename struct btrfs_fs_devices::list
-
-btrfs_fs_devices::list is the list of BTRFS fsid in the kernel, a generic
-name 'list' makes it's search very difficult, rename it to fs_list.
-
-Signed-off-by: Anand Jain <anand.jain@oracle.com>
-Signed-off-by: David Sterba <dsterba@suse.com>"|3|Anand Jain|anand.jain@oracle.com|2018-04-12 10:29:25+08:00|-28800|David Sterba|dsterba@suse.com|2018-05-28 18:07:21+02:00|-7200

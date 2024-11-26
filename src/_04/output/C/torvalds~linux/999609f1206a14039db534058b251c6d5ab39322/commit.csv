@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|999609f1206a14039db534058b251c6d5ab39322|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"iwlwifi: mvm: remove vif argument from power_update_mac
-
-The power update function looks at all current vifs to determine the power
-policy. It doesn't use the current vif. Instead the value was overwritten
-and used internally.
-
-Signed-off-by: Arik Nemtsov <arikx.nemtsov@intel.com>
-Signed-off-by: Emmanuel Grumbach <emmanuel.grumbach@intel.com>"|6|Arik Nemtsov|arik@wizery.com|2014-05-15 17:31:51+03:00|-10800|Emmanuel Grumbach|emmanuel.grumbach@intel.com|2014-05-22 10:11:17+03:00|-10800

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ded4698b58cb23c22b0dcbd829ced19ce4e6ce02|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: run late dequeue late tx handlers without holding fq->lock
-
-Reduces lock contention on enqueue/dequeue of iTXQ packets
-
-Signed-off-by: Felix Fietkau <nbd@nbd.name>
-Acked-by: Toke Høiland-Jørgensen <toke@redhat.com>
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Felix Fietkau|nbd@nbd.name|2019-03-16 18:06:33+01:00|-3600|Johannes Berg|johannes.berg@intel.com|2019-04-26 13:02:11+02:00|-7200

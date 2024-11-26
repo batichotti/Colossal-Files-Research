@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d0265de7c358d71a494dcd1ee28206b32754bb0f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rbd: tolerate -ENOENT for discard operations
-
-Discard may try to delete an object from a non-layered image that does not exist.
-If this occurs, the image already has no data in that range, so change the
-result to success.
-
-Signed-off-by: Josh Durgin <josh.durgin@inktank.com>"|1|Josh Durgin|josh.durgin@inktank.com|2014-04-07 16:54:10-07:00|25200|Ilya Dryomov|idryomov@redhat.com|2014-10-14 21:03:33+04:00|-14400

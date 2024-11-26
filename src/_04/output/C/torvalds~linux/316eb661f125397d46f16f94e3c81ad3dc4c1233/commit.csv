@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|316eb661f125397d46f16f94e3c81ad3dc4c1233|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cgroup: set 'start' with the right value in cgroup_path.
-
-'start' is set to buf + buflen and do the '--' immediately.
-Just set it to 'buf + buflen - 1' directly.
-
-Signed-off-by: Tao Ma <boyu.mt@taobao.com>
-Signed-off-by: Tejun Heo <tj@kernel.org>
-Cc: Li Zefan <lizefan@huawei.com>"|1|Tao Ma|boyu.mt@taobao.com|2012-11-08 21:36:38+08:00|-28800|Tejun Heo|tj@kernel.org|2012-11-08 06:23:02-08:00|28800

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8b0cedff040b652f3d36b1368778667581b0c140|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: use __copy_to_user/__clear_user to write guest page
-
-Simply use __copy_to_user/__clear_user to write guest page since we have
-already verified the user address when the memslot is set
-
-Signed-off-by: Xiao Guangrong <xiaoguangrong@cn.fujitsu.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|2|Xiao Guangrong|xiaoguangrong@cn.fujitsu.com|2011-05-15 23:22:04+08:00|-28800|Avi Kivity|avi@redhat.com|2011-07-12 11:45:03+03:00|-10800

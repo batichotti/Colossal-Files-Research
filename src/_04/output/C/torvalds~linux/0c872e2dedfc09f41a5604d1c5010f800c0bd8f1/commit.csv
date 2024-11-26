@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0c872e2dedfc09f41a5604d1c5010f800c0bd8f1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: move ext_lock out of struct extent_info
-
-Move ext_lock out of struct extent_info, then in the following patches we can
-use variables with struct extent_info type as a parameter to pass pure data.
-
-Signed-off-by: Chao Yu <chao2.yu@samsung.com>
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|4|Chao Yu|chao2.yu@samsung.com|2015-02-05 17:46:29+08:00|-28800|Jaegeuk Kim|jaegeuk@kernel.org|2015-03-03 09:58:45-08:00|28800

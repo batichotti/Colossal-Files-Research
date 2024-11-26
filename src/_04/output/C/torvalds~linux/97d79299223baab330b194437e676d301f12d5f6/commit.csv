@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|97d79299223baab330b194437e676d301f12d5f6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"posix acls: Remove duplicate xattr name definitions
-
-Remove POSIX_ACL_XATTR_{ACCESS,DEFAULT} and GFS2_POSIX_ACL_{ACCESS,DEFAULT}
-and replace them with the definitions in <include/uapi/linux/xattr.h>.
-
-Signed-off-by: Andreas Gruenbacher <agruenba@redhat.com>
-Reviewed-by: James Morris <james.l.morris@oracle.com>
-Signed-off-by: Al Viro <viro@zeniv.linux.org.uk>"|15|Andreas Gruenbacher|agruenba@redhat.com|2015-12-02 14:44:35+01:00|-3600|Al Viro|viro@zeniv.linux.org.uk|2015-12-06 21:25:17-05:00|18000

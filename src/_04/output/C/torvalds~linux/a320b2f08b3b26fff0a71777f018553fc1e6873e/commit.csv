@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a320b2f08b3b26fff0a71777f018553fc1e6873e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: fix to avoid allocating WARM_DATA segment for direct IO
-
-If active_log is not 6, we never use WARM_DATA segment, let's
-avoid allocating WARM_DATA segment for direct IO.
-
-Signed-off-by: Yunlei He <heyunlei@oppo.com>
-Signed-off-by: Chao Yu <chao@kernel.org>
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|4|Chao Yu|chao@kernel.org|2024-04-26 17:33:48+08:00|-28800|Jaegeuk Kim|jaegeuk@kernel.org|2024-04-29 17:41:17+00:00|0

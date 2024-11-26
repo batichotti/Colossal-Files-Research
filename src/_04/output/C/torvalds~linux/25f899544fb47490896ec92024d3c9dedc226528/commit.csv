@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|25f899544fb47490896ec92024d3c9dedc226528|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Nuke 'mode' argument to intel_get_load_detect_pipe()
-
-We always pass mode==NULL to intel_get_load_detect_pipe(). Remove
-the pointless function argument.
-
-Signed-off-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Link: https://patchwork.freedesktop.org/patch/msgid/20191029132323.18113-1-ville.syrjala@linux.intel.com
-Reviewed-by: Jani Nikula <jani.nikula@intel.com>"|4|Ville Syrjälä|ville.syrjala@linux.intel.com|2019-10-29 15:23:23+02:00|-7200|Ville Syrjälä|ville.syrjala@linux.intel.com|2019-10-30 18:04:27+02:00|-7200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|02b7831019ea4e7994968c84b5826fa8b248ffc8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: add ext4_mb_unload_buddy in the error path
-
-ext4_free_blocks fails to pair an ext4_mb_load_buddy with a matching
-ext4_mb_unload_buddy when it fails a memory allocation.
-
-Signed-off-by: Salman Qazi <sqazi@google.com>
-Signed-off-by: ""Theodore Ts'o"" <tytso@mit.edu>
-Cc: stable@kernel.org"|1|Salman Qazi|sqazi@google.com|2012-05-31 23:51:27-04:00|14400|Theodore Ts'o|tytso@mit.edu|2012-05-31 23:51:27-04:00|14400

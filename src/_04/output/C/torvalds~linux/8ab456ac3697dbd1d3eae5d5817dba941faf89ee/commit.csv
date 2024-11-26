@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8ab456ac3697dbd1d3eae5d5817dba941faf89ee|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cgroup: switch to unsigned long for bitmasks
-
-Switch the type of all internal cgroup masks to (unsigned long), which
-is the correct type for bitmasks. This is in preparation for the
-for_each_subsys_which patch.
-
-Signed-off-by: Aleksa Sarai <cyphar@cyphar.com>
-Signed-off-by: Tejun Heo <tj@kernel.org>"|1|Aleksa Sarai|cyphar@cyphar.com|2015-05-19 00:51:00+10:00|-36000|Tejun Heo|tj@kernel.org|2015-05-18 17:57:52-04:00|14400

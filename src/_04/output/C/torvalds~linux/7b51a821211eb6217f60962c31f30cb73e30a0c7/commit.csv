@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7b51a821211eb6217f60962c31f30cb73e30a0c7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"regulator: core: Properly expose requested_microamps in sysfs
-
-The ""requested_microamps"" sysfs attribute was only being exposed for
-""current"" regulators.  This didn't make sense.  Allow it to be exposed
-always.
-
-Signed-off-by: Douglas Anderson <dianders@chromium.org>
-Signed-off-by: Mark Brown <broonie@kernel.org>"|1|Douglas Anderson|dianders@chromium.org|2018-11-19 16:26:48-08:00|28800|Mark Brown|broonie@kernel.org|2018-11-20 16:00:43+00:00|0

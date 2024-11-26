@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6f6313d4870f9642cb3ea8ec892cf6da81331b9c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mm/vmscan.c: try_to_freeze() returns boolean
-
-kswapd()->try_to_freeze() is defined to return a boolean, so it's better
-to use a bool to hold its return value.
-
-Signed-off-by: Jie Liu <jeff.liu@oracle.com>
-Signed-off-by: Andrew Morton <akpm@linux-foundation.org>
-Signed-off-by: Linus Torvalds <torvalds@linux-foundation.org>"|1|Jeff Liu|jeff.liu@oracle.com|2012-12-11 16:02:48-08:00|28800|Linus Torvalds|torvalds@linux-foundation.org|2012-12-11 17:22:27-08:00|28800

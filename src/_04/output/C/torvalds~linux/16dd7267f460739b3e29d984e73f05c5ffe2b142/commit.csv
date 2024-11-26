@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|16dd7267f460739b3e29d984e73f05c5ffe2b142|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"{nl,cfg,mac}80211: let userspace make meshif mesh gate
-
-Allow userspace to set NL80211_MESHCONF_GATE_ANNOUNCEMENTS attribute,
-which will advertise this mesh node as being a mesh gate.
-NL80211_HWMP_ROOTMODE must be set or this will do nothing.
-
-Signed-off-by: Javier Cardona <javier@cozybit.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|7|Javier Cardona|javier@cozybit.com|2011-08-09 16:45:11-07:00|25200|John W. Linville|linville@tuxdriver.com|2011-08-24 13:59:43-04:00|14400

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4d88954d6246d7d43bb8903981731002179f1a1c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: MMU: make for_each_shadow_entry aware of largepages
-
-This way there is no need to add explicit checks in every
-for_each_shadow_entry user.
-
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Marcelo Tosatti|mtosatti@redhat.com|2009-06-11 12:07:41-03:00|10800|Avi Kivity|avi@redhat.com|2009-09-10 08:32:55+03:00|-10800

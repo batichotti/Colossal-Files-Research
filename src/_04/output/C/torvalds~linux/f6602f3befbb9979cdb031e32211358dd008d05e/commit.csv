@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f6602f3befbb9979cdb031e32211358dd008d05e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: qla2xxx: Fix Management Server NPort handle reservation logic
-
-After selecting the NPort handle/loop_id, set a bit in the loop_id_map to
-prevent others from selecting the same NPort handle.
-
-Signed-off-by: Quinn Tran <quinn.tran@cavium.com>
-Signed-off-by: Himanshu Madhani <himanshu.madhani@cavium.com>
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|4|Quinn Tran|quinn.tran@cavium.com|2018-08-02 13:16:53-07:00|25200|Martin K. Petersen|martin.petersen@oracle.com|2018-08-02 16:56:18-04:00|14400

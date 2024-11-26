@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1039221cc2787dee51a7ffbf9b0e79d192dadf76|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ring-buffer: Do not disable recording when there is an iterator
-
-Now that the iterator can handle a concurrent writer, do not disable writing
-to the ring buffer when there is an iterator present.
-
-Link: http://lkml.kernel.org/r/20200317213416.759770696@goodmis.org
-
-Signed-off-by: Steven Rostedt (VMware) <rostedt@goodmis.org>"|1|Steven Rostedt (VMware)|rostedt@goodmis.org|2020-03-17 17:32:30-04:00|14400|Steven Rostedt (VMware)|rostedt@goodmis.org|2020-03-27 16:38:58-04:00|14400

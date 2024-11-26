@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|852f083843af618eaa8997f7803c9aed8293fdf9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"OMAPDSS: remove uses of dss_runtime_get/put
-
-Now that the omapdss_core device is the parent for all other dss
-devices, we don't need to use the dss_runtime_get/put anymore. Instead,
-enabling omapdss_core will happen automatically when a child device is
-enabled.
-
-Signed-off-by: Tomi Valkeinen <tomi.valkeinen@ti.com>"|9|Tomi Valkeinen|tomi.valkeinen@ti.com|2012-02-17 17:58:04+02:00|-7200|Tomi Valkeinen|tomi.valkeinen@ti.com|2012-05-11 14:44:51+03:00|-10800

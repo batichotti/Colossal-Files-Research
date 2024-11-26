@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|33e94e960b57497fe7fd9493080210b6d87e88e6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[PATCH] lockdep: clean up VERY_VERBOSE define
-
-Cleanup: the VERY_VERBOSE define was unnecessarily dependent on #ifdef VERBOSE
-- while the VERBOSE switch is 0 or 1 (always defined).
-
-Signed-off-by: Ingo Molnar <mingo@elte.hu>
-Signed-off-by: Andrew Morton <akpm@osdl.org>
-Signed-off-by: Linus Torvalds <torvalds@osdl.org>"|1|Ingo Molnar|mingo@elte.hu|2006-12-13 00:34:41-08:00|28800|Linus Torvalds|torvalds@woody.osdl.org|2006-12-13 09:05:50-08:00|28800

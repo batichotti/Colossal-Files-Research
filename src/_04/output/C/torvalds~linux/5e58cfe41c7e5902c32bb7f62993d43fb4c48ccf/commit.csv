@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5e58cfe41c7e5902c32bb7f62993d43fb4c48ccf|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Fix unlikely kvm_create vs decache_vcpus_on_cpu race
-
-We add the kvm to the vm_list before initializing the vcpu mutexes,
-which can be mutex_trylock()'ed by decache_vcpus_on_cpu().
-
-Signed-off-by: Rusty Russell <rusty@rustcorp.com.au>
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|1|Rusty Russell|rusty@rustcorp.com.au|2007-07-23 17:08:21+10:00|-36000|Avi Kivity|avi@qumranet.com|2007-07-25 14:29:34+03:00|-10800

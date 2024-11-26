@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b73c1c122a097500e1c3dd495045432a1c818b92|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[ALSA] hdsp: always initialize card name
-
-RME HDSP driver
-When using the kernel firmware loader, initialize the card shortname
-before registering the card with ALSA to prevent it from using a
-default card ID.
-
-Signed-off-by: Clemens Ladisch <clemens@ladisch.de>"|1|Clemens Ladisch|clemens@ladisch.de|2005-09-02 08:49:21+02:00|-7200|Jaroslav Kysela|perex@suse.cz|2005-09-12 10:40:55+02:00|-7200

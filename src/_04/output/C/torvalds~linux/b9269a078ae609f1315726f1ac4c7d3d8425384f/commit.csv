@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b9269a078ae609f1315726f1ac4c7d3d8425384f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ath11k: Skip update peer stats for management packets
-
-Currently HTT_PPDU_STATS_TAG_USR_COMPLTN_ACK_BA_STATUS tag of PPDU stats
-doesn't have valid success bytes info of management frames.
-So skip update peer stats for management packets.
-
-Signed-off-by: Venkateswara Naralasetty <vnaralas@codeaurora.org>
-Signed-off-by: Kalle Valo <kvalo@codeaurora.org>"|2|Venkateswara Naralasetty|vnaralas@codeaurora.org|2019-11-28 08:21:54+00:00|0|Kalle Valo|kvalo@codeaurora.org|2019-11-29 09:50:27+02:00|-7200

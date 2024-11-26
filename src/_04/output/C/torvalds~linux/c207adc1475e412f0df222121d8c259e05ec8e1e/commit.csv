@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c207adc1475e412f0df222121d8c259e05ec8e1e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: uninline some static inline helpers from tree-log.h
-
-The helpers are doing an initialization or release work, none of which
-is performance critical that it would require a static inline, so move
-them to the .c file.
-
-Signed-off-by: David Sterba <dsterba@suse.com>"|2|David Sterba|dsterba@suse.com|2024-02-16 14:03:08+01:00|-3600|David Sterba|dsterba@suse.com|2024-03-04 16:24:53+01:00|-3600

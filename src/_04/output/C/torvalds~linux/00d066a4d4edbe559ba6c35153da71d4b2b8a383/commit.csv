@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|00d066a4d4edbe559ba6c35153da71d4b2b8a383|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netdev_features: convert NETIF_F_LLTX to dev->lltx
-
-NETIF_F_LLTX can't be changed via Ethtool and is not a feature,
-rather an attribute, very similar to IFF_NO_QUEUE (and hot).
-Free one netdev_features_t bit and make it a ""hot"" private flag.
-
-Signed-off-by: Alexander Lobakin <aleksander.lobakin@intel.com>
-Signed-off-by: Paolo Abeni <pabeni@redhat.com>"|57|Alexander Lobakin|aleksander.lobakin@intel.com|2024-08-29 14:33:37+02:00|-7200|Paolo Abeni|pabeni@redhat.com|2024-09-03 11:36:43+02:00|-7200

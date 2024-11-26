@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|778b28b4348af9c72bb5ac0dc129363a706325ef|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"regulator: core: convert to use gpio_desc internally
-
-Convert the regulator GPIO handling to use a gpio descriptor rather than
-numbers.  This allows us to revise the interfaces to permit all GPIOs
-to be used with the regulator core.
-
-Signed-off-by: Russell King <rmk+kernel@arm.linux.org.uk>
-Signed-off-by: Mark Brown <broonie@linaro.org>"|1|Russell King|rmk+kernel@arm.linux.org.uk|2014-06-29 17:55:54+01:00|-3600|Mark Brown|broonie@linaro.org|2014-06-30 11:00:07+01:00|-3600

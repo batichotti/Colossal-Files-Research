@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a9c0fda4c08292399e08db0a4b70bc161cd247b9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"dm integrity: don't re-write metadata if discarding same blocks
-
-If we discard already discarded blocks we do not need to write discard
-pattern to the metadata, because it is already there.
-
-Signed-off-by: Mikulas Patocka <mpatocka@redhat.com>
-Signed-off-by: Mike Snitzer <snitzer@redhat.com>"|1|Mikulas Patocka|mpatocka@redhat.com|2021-04-27 11:57:06-04:00|14400|Mike Snitzer|snitzer@redhat.com|2021-04-30 14:01:39-04:00|14400

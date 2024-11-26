@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e62676169118bc2d42e5008b3f8872646313f077|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"workqueue: implement current_is_workqueue_rescuer()
-
-Implement a function which queries whether it currently is running off
-a workqueue rescuer.  This will be used to convert writeback to
-workqueue.
-
-Signed-off-by: Tejun Heo <tj@kernel.org>"|2|Tejun Heo|tj@kernel.org|2013-03-12 17:41:37-07:00|25200|Tejun Heo|tj@kernel.org|2013-03-12 17:42:01-07:00|25200

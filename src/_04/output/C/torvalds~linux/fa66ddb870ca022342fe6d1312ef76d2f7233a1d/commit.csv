@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fa66ddb870ca022342fe6d1312ef76d2f7233a1d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tracing: Move trace_buffer_unlock_commit{_regs}() to local header
-
-The functions trace_buffer_unlock_commit() and the _regs() version are only
-used within the kernel/trace directory. Move them to the local header and
-remove the export as well.
-
-Signed-off-by: Steven Rostedt <rostedt@goodmis.org>"|3|Steven Rostedt (Red Hat)|rostedt@goodmis.org|2016-04-28 12:04:13-04:00|14400|Steven Rostedt|rostedt@goodmis.org|2016-04-29 16:14:12-04:00|14400

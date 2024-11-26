@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|db687a56e4f2796bae77ac3b21b930fabe5159cc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"dsa: mv88x6xxx: Zero statistics counters
-
-Zero the statistics counters when setting up the global
-registers. Otherwise the counters will remain from the last boot if
-the power has not been removed.
-
-Signed-off-by: Andrew Lunn <andrew@lunn.ch>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Andrew Lunn|andrew@lunn.ch|2015-06-20 21:31:29+02:00|-7200|David S. Miller|davem@davemloft.net|2015-06-23 06:37:17-07:00|25200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3c6a4a02c92af14a0325ede88bdbccc0ccd19241|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915/panel: move intel_panel_use_ssc() out of headers
-
-There's no performance reason to have it as static inline; move it out
-of intel_display_types.h to reduce clutter and dependency on i915_drv.h.
-
-Reviewed-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Signed-off-by: Jani Nikula <jani.nikula@intel.com>
-Link: https://patchwork.freedesktop.org/patch/msgid/6f2c05005e4fa43a5572b02b3f41363725ffdb4f.1629281426.git.jani.nikula@intel.com"|4|Jani Nikula|jani.nikula@intel.com|2021-08-18 13:11:08+03:00|-10800|Jani Nikula|jani.nikula@intel.com|2021-08-20 10:28:56+03:00|-10800

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6fa242af73244b6a23dc0aa58c5c410693e407e5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net/mlx5: Cleanup unused field in Work Queue parameters
-
-Remove the 'linear' field from struct mlx5_wq_param.
-It is redundant, set but never read.
-
-Signed-off-by: Tariq Toukan <tariqt@mellanox.com>
-Signed-off-by: Saeed Mahameed <saeedm@mellanox.com>"|2|Tariq Toukan|tariqt@mellanox.com|2018-02-18 10:35:25+02:00|-7200|Saeed Mahameed|saeedm@mellanox.com|2018-05-04 12:11:51-07:00|25200

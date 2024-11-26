@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b3783873cc2214542d3da9a1aa800b20919d5889|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: avoid freqeunt write_inode calls
-
-If update_inode is called, we don't need to do write_inode.
-So, let's use a *dirty* flag for each inode.
-
-Signed-off-by: Jaegeuk Kim <jaegeuk.kim@samsung.com>"|4|Jaegeuk Kim|jaegeuk.kim@samsung.com|2013-06-10 09:17:01+09:00|-32400|Jaegeuk Kim|jaegeuk.kim@samsung.com|2013-06-14 09:04:43+09:00|-32400

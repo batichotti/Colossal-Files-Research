@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2b6e845986347ef86729e8651908af3e8a8441f5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[PATCH] md: fix bug where spares don't always get rebuilt properly when they become live
-
-If save_raid_disk is >= 0, then the device could be a device that is already
-in sync that is being re-added.  So we need to default this value to -1.
-
-Signed-off-by: Neil Brown <neilb@suse.de>
-Signed-off-by: Andrew Morton <akpm@osdl.org>
-Signed-off-by: Linus Torvalds <torvalds@osdl.org>"|1|NeilBrown|neilb@suse.de|2006-10-28 10:38:30-07:00|25200|Linus Torvalds|torvalds@g5.osdl.org|2006-10-28 11:30:51-07:00|25200

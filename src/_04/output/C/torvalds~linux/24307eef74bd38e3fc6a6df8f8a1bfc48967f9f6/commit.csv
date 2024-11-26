@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|24307eef74bd38e3fc6a6df8f8a1bfc48967f9f6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"be2net: cleanup multicast_set cmd to avoid mc_list copy
-
-Cleanup multicast_set method to avoid an extra copy of mc_list
- and unwanted promiscuos sets to BE.
-
-Signed-off-by: Sathya Perla <sathyap@serverengines.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|4|Sathya Perla|sathyap@serverengines.com|2009-06-18 00:09:25+00:00|0|David S. Miller|davem@davemloft.net|2009-06-19 00:18:41-07:00|25200

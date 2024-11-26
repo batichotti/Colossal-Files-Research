@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5dc283fe9ab360433aa05fcbe0f43cad40f68774|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wlcore: don't hide real error code when booting fails
-
-There's no need to hide the actual error that was reported when
-booting fails.  For instance, on I/O error, we were returing
--EINVALID, which doesn't make sense at all.
-
-Signed-off-by: Luciano Coelho <coelho@ti.com>"|1|Luciano Coelho|coelho@ti.com|2013-01-30 10:53:14+02:00|-7200|Luciano Coelho|coelho@ti.com|2013-02-08 10:05:02+02:00|-7200

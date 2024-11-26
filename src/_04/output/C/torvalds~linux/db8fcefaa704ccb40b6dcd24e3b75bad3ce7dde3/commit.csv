@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|db8fcefaa704ccb40b6dcd24e3b75bad3ce7dde3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: move complete_insn_gp() into x86.c
-
-move the complete_insn_gp() helper function out of the VMX part
-into the generic x86 part to make it usable by SVM.
-
-Signed-off-by: Andre Przywara <andre.przywara@amd.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|3|Andre Przywara|andre.przywara@amd.com|2010-12-21 11:12:01+01:00|-3600|Avi Kivity|avi@redhat.com|2011-01-12 11:30:59+02:00|-7200

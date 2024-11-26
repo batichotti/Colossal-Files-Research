@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|97db56ce6cc2a0766b536cc227a1da20acc5d82f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Initialize the mmu caches only after verifying cpu support
-
-Otherwise we re-initialize the mmu caches, which will fail since the
-caches are already registered, which will cause us to deinitialize said caches.
-
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|1|Avi Kivity|avi@qumranet.com|2008-01-13 13:23:56+02:00|-7200|Avi Kivity|avi@qumranet.com|2008-01-30 18:01:22+02:00|-7200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c1fa347f20f17f14a4a1575727fa24340e8a9117|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"e1000/e1000e/igb/igbvf/ixgb/ixgbe: Fix tests of unsigned in *_tx_map()
-
-The variable count and i are unsigned so the (<|>=)0 tests do not work.
-
-Signed-off-by: Roel Kluin <roel.kluin@gmail.com>
-Signed-off-by: Jeff Kirsher <jeffrey.t.kirsher@intel.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|5|Roel Kluin|roel.kluin@gmail.com|2010-01-19 14:21:45+00:00|0|David S. Miller|davem@davemloft.net|2010-01-20 16:21:22-08:00|28800

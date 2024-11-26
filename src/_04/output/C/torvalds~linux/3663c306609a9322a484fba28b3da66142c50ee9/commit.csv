@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3663c306609a9322a484fba28b3da66142c50ee9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"SCTP: Fix thinko in sctp_copy_laddrs()
-
-Correctly dereference bytes_copied in sctp_copy_laddrs().
-I totally must have spaced when doing this.
-
-Signed-off-by: Vlad Yasevich <vladislav.yasevich@hp.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Vlad Yasevich|vladislav.yasevich@hp.com|2007-07-03 12:43:12-04:00|14400|David S. Miller|davem@sunset.davemloft.net|2007-07-05 17:40:08-07:00|25200

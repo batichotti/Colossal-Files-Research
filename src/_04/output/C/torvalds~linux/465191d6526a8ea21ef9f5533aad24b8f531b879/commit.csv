@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|465191d6526a8ea21ef9f5533aad24b8f531b879|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: mpi3mr: Enable shared host tagset
-
-Enable shared host tagset to make sure that total outstanding I/O count can
-not exceed controller's can_queue setting.
-
-Link: https://lore.kernel.org/r/20220628074848.5036-2-sreekanth.reddy@broadcom.com
-Signed-off-by: Sreekanth Reddy <sreekanth.reddy@broadcom.com>
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|1|Sreekanth Reddy|sreekanth.reddy@broadcom.com|2022-06-28 13:18:47+05:30|-19800|Martin K. Petersen|martin.petersen@oracle.com|2022-07-07 16:46:11-04:00|14400

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3bce876fd58a745b8a1bc0bd8325c3e5b4cebeb0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: don't steal from the global reserve if we don't have the space
-
-btrfs_evict_inode() needs to be more careful about stealing from the
-global_rsv.  We dont' want to end up aborting commit with ENOSPC just
-because the evict_inode code was too greedy.
-
-Signed-off-by: Chris Mason <clm@fb.com>"|1|Josef Bacik|jbacik@fb.com|2015-02-24 12:35:51-08:00|28800|Chris Mason|clm@fb.com|2015-04-10 14:06:59-07:00|25200

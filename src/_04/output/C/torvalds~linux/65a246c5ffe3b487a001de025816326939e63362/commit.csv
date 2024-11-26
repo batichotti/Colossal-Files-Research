@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|65a246c5ffe3b487a001de025816326939e63362|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: return error code to caller when btrfs_del_item fails
-
-The error code is returned instead of calling BUG_ON when
-btrfs_del_item returns the error.
-
-Signed-off-by: Tsutomu Itoh <t-itoh@jp.fujitsu.com>
-Signed-off-by: Chris Mason <chris.mason@oracle.com>"|4|Tsutomu Itoh|t-itoh@jp.fujitsu.com|2011-05-19 04:37:44+00:00|0|Chris Mason|chris.mason@oracle.com|2011-05-23 13:24:39-04:00|14400

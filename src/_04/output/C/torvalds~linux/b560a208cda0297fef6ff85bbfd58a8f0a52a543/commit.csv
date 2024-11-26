@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b560a208cda0297fef6ff85bbfd58a8f0a52a543|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: MGMT: Fix not checking if BT_HS is enabled
-
-This checks if BT_HS is enabled relecting it on MGMT_SETTING_HS instead
-of always reporting it as supported.
-
-Signed-off-by: Luiz Augusto von Dentz <luiz.von.dentz@intel.com>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|1|Luiz Augusto von Dentz|luiz.von.dentz@intel.com|2020-08-06 11:17:14-07:00|25200|Marcel Holtmann|marcel@holtmann.org|2020-09-25 20:21:55+02:00|-7200

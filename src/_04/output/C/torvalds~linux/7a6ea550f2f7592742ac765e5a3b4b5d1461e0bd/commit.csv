@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7a6ea550f2f7592742ac765e5a3b4b5d1461e0bd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"igb: force all queues to interrupt once every 2 seconds
-
-Set the EICS bit for each of the RX queues at least once every 2 seconds to
-prevent the rx queues from stalling.
-
-Signed-off-by: Jeff Kirsher <jeffrey.t.kirsher@intel.com>
-Signed-off-by: Alexander Duyck <alexander.h.duyck@intel.com>
-Signed-off-by: Jeff Garzik <jgarzik@redhat.com>"|1|Alexander Duyck|alexander.h.duyck@intel.com|2008-08-26 04:25:03-07:00|25200|Jeff Garzik|jgarzik@redhat.com|2008-08-27 05:16:27-04:00|14400

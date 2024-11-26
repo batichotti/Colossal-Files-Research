@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|443f24fee731703345e2e6eec8177bb7b7d094c6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: cleanup unused latest_devid and latest_trans in fs_devices
-
-The member variants - latest_devid and latest_trans - of fs_devices structure
-are set, but no one use them to do anything. so remove them.
-
-Signed-off-by: Miao Xie <miaox@cn.fujitsu.com>
-Signed-off-by: Chris Mason <clm@fb.com>"|2|Miao Xie|miaox@cn.fujitsu.com|2014-07-24 11:37:15+08:00|-28800|Chris Mason|clm@fb.com|2014-09-17 13:37:49-07:00|25200

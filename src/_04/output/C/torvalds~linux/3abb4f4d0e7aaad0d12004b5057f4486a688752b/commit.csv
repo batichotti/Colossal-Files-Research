@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3abb4f4d0e7aaad0d12004b5057f4486a688752b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ALSA: hda - Use ""Line Out"" name instead of ""PCM"" when there are other outputs
-
-In case there are speakers or headphones as well, anything that only
-covers the line out should not be labelled ""PCM"". Let's name it
-""Line Out"" instead for clarity.
-
-Signed-off-by: David Henningsson <david.henningsson@canonical.com>
-Signed-off-by: Takashi Iwai <tiwai@suse.de>"|1|David Henningsson|david.henningsson@canonical.com|2014-10-16 15:33:46+02:00|-7200|Takashi Iwai|tiwai@suse.de|2014-10-20 13:38:10+02:00|-7200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|93c1defedcae701512957c279b850659d1dae78f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rbd: remove the discard_zeroes_data flag
-
-rbd only supports discarding on large alignments, so the zeroing code
-would always fall back to explicit writings of zeroes.
-
-Signed-off-by: Christoph Hellwig <hch@lst.de>
-Reviewed-by: Hannes Reinecke <hare@suse.com>
-Signed-off-by: Jens Axboe <axboe@fb.com>"|1|Christoph Hellwig|hch@lst.de|2017-04-05 19:21:17+02:00|-7200|Jens Axboe|axboe@fb.com|2017-04-08 11:25:38-06:00|21600

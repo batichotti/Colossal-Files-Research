@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0110ee152b69f8cbde19d8bc1dd59e197e419d76|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS: Fix up the declaration of nfs4_restart_rpc when NFSv4 not configured
-
-Also rename it: it is used in generic code, and so should not have a 'nfs4'
-prefix.
-
-Reported-by: Stephen Rothwell <sfr@canb.auug.org.au>
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|5|Trond Myklebust|Trond.Myklebust@netapp.com|2009-12-07 09:00:24-05:00|18000|Trond Myklebust|Trond.Myklebust@netapp.com|2009-12-07 09:00:24-05:00|18000

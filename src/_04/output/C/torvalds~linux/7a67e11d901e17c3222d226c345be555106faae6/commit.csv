@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7a67e11d901e17c3222d226c345be555106faae6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8169: simplify RTL8169 PHY initialization
-
-PCI_LATENCY_TIMER is ignored on PCIe, therefore we have to do this
-for the PCI chips (version <= 06) only. Also we can move setting
-PCI_CACHE_LINE_SIZE.
-
-Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Heiner Kallweit|hkallweit1@gmail.com|2018-09-19 22:00:24+02:00|-7200|David S. Miller|davem@davemloft.net|2018-09-19 23:06:30-07:00|25200

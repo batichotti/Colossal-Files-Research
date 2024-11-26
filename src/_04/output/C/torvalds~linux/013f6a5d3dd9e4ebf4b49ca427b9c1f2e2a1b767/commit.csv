@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|013f6a5d3dd9e4ebf4b49ca427b9c1f2e2a1b767|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: use dynamic percpu allocations for shared msrs area
-
-Use dynamic percpu allocations for the shared msrs structure,
-to avoid using the limited reserved percpu space.
-
-Reviewed-by: Gleb Natapov <gleb@redhat.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|1|Marcelo Tosatti|mtosatti@redhat.com|2013-01-03 11:41:39-02:00|7200|Marcelo Tosatti|mtosatti@redhat.com|2013-01-08 12:51:56-02:00|7200

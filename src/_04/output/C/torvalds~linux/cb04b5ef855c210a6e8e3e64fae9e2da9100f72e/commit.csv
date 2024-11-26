@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cb04b5ef855c210a6e8e3e64fae9e2da9100f72e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wifi: mac80211: don't clear DTIM period after setting it
-
-Fix the code that sets the DTIM period to always propagate it
-into link->conf->dtim_period and not overwrite it, while still
-preferring to set it from the beacon data if available.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2022-09-15 14:57:47+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2022-10-07 15:24:24+02:00|-7200

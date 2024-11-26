@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6fea7ad1d338dba592d65423427a997f1b7ff485|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Don't send ERTM configuration option when disabled
-
-When ERTM support is disabled, then do not even send ERTM configuration
-option even if the remote side supports it.
-
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>"|1|Marcel Holtmann|marcel@holtmann.org|2014-07-09 11:53:35+02:00|-7200|Johan Hedberg|johan.hedberg@intel.com|2014-07-09 13:53:36+03:00|-10800

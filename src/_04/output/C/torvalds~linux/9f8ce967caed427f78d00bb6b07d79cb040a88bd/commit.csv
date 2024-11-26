@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9f8ce967caed427f78d00bb6b07d79cb040a88bd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Fix clearing of HCI_PENDING_CLASS flag
-
-When doing reset HCI_PENDING_CLASS is one of the flags that should be
-cleared (since it's used for a pending HCI command and a reset clear all
-pending commands).
-
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>
-Acked-by: Marcel Holtmann <marcel@holtmann.org>"|1|Johan Hedberg|johan.hedberg@intel.com|2012-03-02 03:06:04+02:00|-7200|Johan Hedberg|johan.hedberg@intel.com|2012-03-02 03:19:24+02:00|-7200

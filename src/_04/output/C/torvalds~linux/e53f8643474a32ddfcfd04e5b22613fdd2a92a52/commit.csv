@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e53f8643474a32ddfcfd04e5b22613fdd2a92a52|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: clean up f2fs_abort_atomic_write()
-
-f2fs_abort_atomic_write() has checked whether current inode is
-atomic_write one or not, it's redundant to check in its caller,
-remove it for cleanup.
-
-Signed-off-by: Chao Yu <chao.yu@oppo.com>
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|4|Chao Yu|chao.yu@oppo.com|2022-08-04 21:38:21+08:00|-28800|Jaegeuk Kim|jaegeuk@kernel.org|2022-08-05 04:20:02-07:00|25200

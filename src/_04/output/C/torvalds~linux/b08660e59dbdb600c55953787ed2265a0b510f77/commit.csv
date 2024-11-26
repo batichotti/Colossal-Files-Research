@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b08660e59dbdb600c55953787ed2265a0b510f77|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: Add tlb remote flush callback in kvm_x86_ops.
-
-This patch is to provide a way for platforms to register hv tlb remote
-flush callback and this helps to optimize operation of tlb flush
-among vcpus for nested virtualization case.
-
-Signed-off-by: Lan Tianyu <Tianyu.Lan@microsoft.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|3|Tianyu Lan|Tianyu.Lan@microsoft.com|2018-07-19 08:40:17+00:00|0|Paolo Bonzini|pbonzini@redhat.com|2018-08-06 17:59:06+02:00|-7200

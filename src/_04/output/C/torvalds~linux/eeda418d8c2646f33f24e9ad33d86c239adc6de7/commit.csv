@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|eeda418d8c2646f33f24e9ad33d86c239adc6de7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"dlm: change lock time stamping
-
-Use ktime instead of jiffies for timestamping lkb's.  Also stamp the
-time on every lkb whenever it's added to a resource queue, instead of
-just stamping locks subject to timeouts.  This will allow us to use
-timestamps more widely for debugging all locks.
-
-Signed-off-by: David Teigland <teigland@redhat.com>"|4|David Teigland|teigland@redhat.com|2008-12-09 14:12:21-06:00|21600|David Teigland|teigland@redhat.com|2008-12-23 10:18:17-06:00|21600

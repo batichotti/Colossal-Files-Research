@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2b3c5cbc0d814437fe4d70cc11ed60550b95b29f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"kvm: don't use bit24 for detecting address-specific invalidation capability
-
-Bit24 in VMX_EPT_VPID_CAP_MASI is  not used for address-specific invalidation capability
-reporting, so remove it from KVM to avoid conflicts in future.
-
-Signed-off-by: Zhang Xiantao <xiantao.zhang@intel.com>
-Signed-off-by: Gleb Natapov <gleb@redhat.com>"|2|Zhang Xiantao|xiantao.zhang@intel.com|2012-12-05 01:55:15+08:00|-28800|Gleb Natapov|gleb@redhat.com|2012-12-05 16:35:48+02:00|-7200

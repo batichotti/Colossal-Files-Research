@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|284a0f6e87b0721e1be8bca419893902d9cf577a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"crypto: testmgr - Disable fips-allowed for authenc() and des() ciphers
-
-No authenc() ciphers are FIPS approved, nor is ecb(des).
-After the end of 2015, ansi_cprng will also be non-approved.
-
-Signed-off-by: John Haxby <john.haxby@oracle.com>
-Acked-by: Stephan Mueller <smueller@chronox.de>
-Signed-off-by: Herbert Xu <herbert@gondor.apana.org.au>"|1|John Haxby|john.haxby@oracle.com|2015-09-24 18:24:35+01:00|-3600|Herbert Xu|herbert@gondor.apana.org.au|2015-10-01 21:56:57+08:00|-28800

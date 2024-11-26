@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d6e8c8545651b05a86c5b9d29d2fe11ad4cbb9aa|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: set rflags.rf during fault injection
-
-x86 does not automatically set rflags.rf during event injection. This patch
-does partial job, setting rflags.rf upon fault injection.  It does not handle
-the setting of RF upon interrupt injection on rep-string instruction.
-
-Signed-off-by: Nadav Amit <namit@cs.technion.ac.il>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Nadav Amit|namit@cs.technion.ac.il|2014-07-24 14:51:24+03:00|-10800|Paolo Bonzini|pbonzini@redhat.com|2014-07-24 14:04:01+02:00|-7200

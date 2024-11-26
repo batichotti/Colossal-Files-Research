@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0bdc81e4e944781a2bcc971f9e3cf24ac7030939|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"regulator: core: Properly handle the case min_uV < rdev->desc->min_uV in map_voltage_linear
-
-Properly handle the case if the specified min_uV is less than the voltage given
-by the lowest selector.
-
-Signed-off-by: Axel Lin <axel.lin@gmail.com>
-Signed-off-by: Mark Brown <broonie@opensource.wolfsonmicro.com>"|1|Axel Lin|axel.lin@gmail.com|2012-06-07 09:52:12+08:00|-28800|Mark Brown|broonie@opensource.wolfsonmicro.com|2012-06-08 07:15:55+08:00|-28800

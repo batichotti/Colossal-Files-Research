@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2ecb79239bcd04c9d410f4cdce16adb6840b19da|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: fix unprotected ->log_batch
-
-We forget to protect ->log_batch when syncing a file, this patch fix
-this problem by atomic operation. And ->log_batch is used to check
-if there are parallel sync operations or not, so it is unnecessary to
-reset it to 0 after the sync operation of the current log tree complete.
-
-Signed-off-by: Miao Xie <miaox@cn.fujitsu.com>"|4|Miao Xie|miaox@cn.fujitsu.com|2012-09-06 04:04:27-06:00|21600|Chris Mason|chris.mason@fusionio.com|2012-10-01 15:19:12-04:00|14400

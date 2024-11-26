@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b873b798af6386f3c7ca1636d4989e9b8f9d1794|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Revert ""f2fs: use percpu_rw_semaphore""
-
-LKP reported -36.3% regression of fsmark.files_per_sec due to this patch.
-I've confirmed that fxmark [1] has also slight regression for DWAL.
-
-[1] https://github.com/sslab-gatech/fxmark
-
-This reverts commit ec795418c41850056feb956534edf059dc1155d4."|3|Jaegeuk Kim|jaegeuk@kernel.org|2016-08-04 11:38:25-07:00|25200|Jaegeuk Kim|jaegeuk@kernel.org|2016-08-19 11:15:08+09:00|-32400

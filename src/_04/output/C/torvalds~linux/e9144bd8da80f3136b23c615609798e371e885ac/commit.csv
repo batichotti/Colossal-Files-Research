@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e9144bd8da80f3136b23c615609798e371e885ac|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[TCP]: Remove unnecessary wrapper tcp_packets_out_dec
-
-Makes caller side more obvious, there's no need to have
-a wrapper for this oneliner!
-
-Signed-off-by: Ilpo Järvinen <ilpo.jarvinen@helsinki.fi>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|Ilpo Järvinen|ilpo.jarvinen@helsinki.fi|2007-08-24 22:43:14-07:00|25200|David S. Miller|davem@sunset.davemloft.net|2007-10-10 16:48:27-07:00|25200

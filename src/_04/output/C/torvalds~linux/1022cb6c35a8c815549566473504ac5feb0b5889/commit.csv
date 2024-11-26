@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1022cb6c35a8c815549566473504ac5feb0b5889|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"i40e: do not flush after re-enabling interrupts
-
-Hot path doesn't need read-flush after interrupt enable, and this
-flush really causes a lot of extra cpu utilization.
-
-Signed-off-by: Jesse Brandeburg <jesse.brandeburg@intel.com>
-Tested-by: Kavindya Deegala <kavindya.s.deegala@intel.com>
-Signed-off-by: Jeff Kirsher <jeffrey.t.kirsher@intel.com>"|2|Jesse Brandeburg|jesse.brandeburg@intel.com|2013-09-28 07:13:08+00:00|0|Jeff Kirsher|jeffrey.t.kirsher@intel.com|2013-10-22 05:33:43-07:00|25200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1064e944d03eb7a72c0fa11236d5e69cfd877a71|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[BNX2]: simplify parameter checks in bnx2_{get,set}_eeprom
-
-Remove the superfluous parameter checking in bnx2_{get,set}_eeprom.
-The parameters are already validated in ethtool_{get,set}_eeprom.
-
-Signed-off-by: John W. Linville <linville@tuxdriver.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|John W. Linville|linville@tuxdriver.com|2005-11-10 12:58:24-08:00|28800|David S. Miller|davem@davemloft.net|2005-11-10 12:58:24-08:00|28800

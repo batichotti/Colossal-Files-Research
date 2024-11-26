@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|264b88c9e5c86c92ca1d67689779362760baf651|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"regulator: core: Add new notification for enabling of regulator
-
-This is useful for devices, which need some time to start up, to help
-the drivers track how long the supply has been up already. Ie whether
-it can safely talk to the HW or needs to wait.
-
-Signed-off-by: Harald Geyer <harald@ccbib.org>
-Signed-off-by: Mark Brown <broonie@kernel.org>"|2|Harald Geyer|harald@ccbib.org|2017-02-23 17:06:52+00:00|0|Mark Brown|broonie@kernel.org|2017-03-24 19:13:42+00:00|0

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e87ac1368700af66c295afa47e5c7df0d9d8b919|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: don't start the log transaction if the log tree init fails
-
-The old code would start the log transaction even the log tree init
-failed, it was unnecessary. Fix it.
-
-Signed-off-by: Miao Xie <miaox@cn.fujitsu.com>
-Signed-off-by: Josef Bacik <jbacik@fb.com>"|1|Miao Xie|miaox@cn.fujitsu.com|2014-02-20 18:08:53+08:00|-28800|Josef Bacik|jbacik@fb.com|2014-03-10 15:16:40-04:00|14400

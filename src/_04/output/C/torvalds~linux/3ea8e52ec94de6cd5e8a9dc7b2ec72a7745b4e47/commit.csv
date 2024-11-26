@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3ea8e52ec94de6cd5e8a9dc7b2ec72a7745b4e47|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tools/power turbostat: Do not dump TRL if turbo is not supported
-
-Do not dump turbo ratio limits if platform does not support turbo, because it
-is confusing and the TRL MSRs may even include misleading information. And they
-are not supposed to be relied on if turbo is not supported.
-
-Signed-off-by: Artem Bityutskiy <artem.bityutskiy@linux.intel.com>
-Signed-off-by: Len Brown <len.brown@intel.com>"|1|Artem Bityutskiy|artem.bityutskiy@linux.intel.com|2022-09-16 14:59:50+03:00|-10800|Len Brown|len.brown@intel.com|2022-10-04 22:59:55+02:00|-7200

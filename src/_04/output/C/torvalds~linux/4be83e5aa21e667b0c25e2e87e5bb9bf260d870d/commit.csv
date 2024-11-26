@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4be83e5aa21e667b0c25e2e87e5bb9bf260d870d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8169: remove not needed PHY soft reset in rtl8168e_2_hw_phy_config
-
-rtl8169_init_phy() resets the PHY anyway after applying the chip-specific
-PHY configuration. So we don't need to soft-reset the PHY as part of the
-chip-specific configuration.
-
-Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Heiner Kallweit|hkallweit1@gmail.com|2018-02-20 07:30:16+01:00|-3600|David S. Miller|davem@davemloft.net|2018-02-21 13:16:14-05:00|18000

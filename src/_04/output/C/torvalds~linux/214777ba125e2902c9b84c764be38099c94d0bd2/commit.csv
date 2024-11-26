@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|214777ba125e2902c9b84c764be38099c94d0bd2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] ipr: add support for multiple stages of initialization
-
-This patch adds support for using the new IOA initialization feedback register.
-It also enables 64 bit support in the ipr_ioafp_identify_hrrq and
-ipr_mask_and_clear_interrupts routines.
-
-Signed-off-by: Wayne Boyer <wayneb@linux.vnet.ibm.com>
-Signed-off-by: James Bottomley <James.Bottomley@suse.de>"|2|Wayne Boyer|wayneb@linux.vnet.ibm.com|2010-02-19 13:24:26-08:00|28800|James Bottomley|James.Bottomley@suse.de|2010-03-03 16:05:03+05:30|-19800

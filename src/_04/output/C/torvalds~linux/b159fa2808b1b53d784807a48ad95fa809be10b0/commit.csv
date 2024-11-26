@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b159fa2808b1b53d784807a48ad95fa809be10b0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: remove constant parameter to memset_extent_buffer and rename it
-
-The only memset we do is to 0, so sink the parameter to the function and
-simplify all calls. Rename the function to reflect the behaviour.
-
-Signed-off-by: David Sterba <dsterba@suse.com>"|12|David Sterba|dsterba@suse.com|2016-11-08 18:09:03+01:00|-3600|David Sterba|dsterba@suse.com|2016-11-30 13:45:17+01:00|-3600

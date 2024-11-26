@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|447b1bb84bb51603f57ae426973a620a7a66a0db|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: dsa: mv88e6xxx: add a stats setup function
-
-Now that the Global 1 specific setup function only setup the statistics
-unit, kill it in favor of a mv88e6xxx_stats_setup function.
-
-Signed-off-by: Vivien Didelot <vivien.didelot@savoirfairelinux.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Vivien Didelot|vivien.didelot@savoirfairelinux.com|2018-05-11 17:16:36-04:00|14400|David S. Miller|davem@davemloft.net|2018-05-14 14:49:40-04:00|14400

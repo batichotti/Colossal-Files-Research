@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f9b9120119ca70ccdb1c900ac061425e4784c4de|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mlxsw: Constify devlink_resource_ops
-
-devlink_resource_ops should be const as the arg of register function is
-also const.
-
-Signed-off-by: Jiri Pirko <jiri@mellanox.com>
-Signed-off-by: Ido Schimmel <idosch@mellanox.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Jiri Pirko|jiri@mellanox.com|2018-04-01 17:34:52+03:00|-10800|David S. Miller|davem@davemloft.net|2018-04-01 10:56:42-04:00|14400

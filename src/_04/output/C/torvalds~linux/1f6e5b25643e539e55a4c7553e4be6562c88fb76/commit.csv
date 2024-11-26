@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1f6e5b25643e539e55a4c7553e4be6562c88fb76|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: vmx: simplify MSR bitmap setup
-
-The APICv-enabled MSR bitmap is a superset of the APICv-disabled bitmap.
-Make that obvious in vmx_disable_intercept_msr_x2apic.
-
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>
-[Resolved rebase conflict after removing Intel PT. - Radim]
-Signed-off-by: Radim Krčmář <rkrcmar@redhat.com>"|1|Paolo Bonzini|pbonzini@redhat.com|2017-12-20 11:32:16+01:00|-3600|Radim Krčmář|rkrcmar@redhat.com|2018-01-16 16:52:48+01:00|-3600

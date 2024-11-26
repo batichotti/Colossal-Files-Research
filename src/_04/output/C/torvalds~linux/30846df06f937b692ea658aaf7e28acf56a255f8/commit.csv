@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|30846df06f937b692ea658aaf7e28acf56a255f8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: Don't request size+change attribute if they are delegated to us
-
-When we hold a delegation, we should not need to request attributes such
-as the file size or the change attribute. For some servers, avoiding
-asking for these unneeded attributes can improve the overall system
-performance.
-
-Signed-off-by: Trond Myklebust <trond.myklebust@hammerspace.com>"|1|Trond Myklebust|trond.myklebust@primarydata.com|2018-04-07 13:44:28-04:00|14400|Trond Myklebust|trond.myklebust@hammerspace.com|2018-06-04 12:07:07-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f971e1887fdb3ab500c9bebf4b98f62d49a20655|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nl80211: fix locking in nl80211_set_tx_bitrate_mask()
-
-This accesses the wdev's chandef etc., so cannot safely
-be used without holding the lock.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>
-Link: https://lore.kernel.org/r/20220506102136.06b7205419e6.I2a87c05fbd8bc5e565e84d190d4cfd2e92695a90@changeid
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2022-05-06 10:21:38+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2022-05-09 14:00:07+02:00|-7200

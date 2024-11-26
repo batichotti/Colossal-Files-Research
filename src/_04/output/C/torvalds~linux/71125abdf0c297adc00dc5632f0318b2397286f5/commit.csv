@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|71125abdf0c297adc00dc5632f0318b2397286f5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wl1271: set wl->vif only if add_interface succeeded.
-
-set wl->vif to the newly created interface only after the firmware booted
-successfully. on the way - make the function flow more clear.
-
-Signed-off-by: Eliad Peller <eliad@wizery.com>
-Reviewed-by: Luciano Coelho <luciano.coelho@nokia.com>
-Signed-off-by: Luciano Coelho <luciano.coelho@nokia.com>"|1|Eliad Peller|eliad@wizery.com|2010-10-28 21:46:43+02:00|-7200|John W. Linville|linville@tuxdriver.com|2010-11-15 13:25:21-05:00|18000

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6ef4e07ecd2db21025c446327ecf34414366498b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: reset MMU on KVM_SET_VCPU_EVENTS
-
-Otherwise, mismatch between the smm bit in hflags and the MMU role
-can cause a NULL pointer dereference.
-
-Cc: stable@vger.kernel.org
-Signed-off-by: Xiao Guangrong <guangrong.xiao@linux.intel.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Xiao Guangrong|guangrong.xiao@linux.intel.com|2016-12-24 10:00:42+01:00|-3600|Paolo Bonzini|pbonzini@redhat.com|2016-12-24 10:16:04+01:00|-3600

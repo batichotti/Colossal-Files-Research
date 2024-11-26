@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c61fb99cae51958a9096d8540c8c05e74cfa7e59|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bnxt_en: Add RX page mode support.
-
-This mode is to support XDP.  In this mode, each rx ring is configured
-with page sized buffers for linear placement of each packet.  MTU will be
-restricted to what the page sized buffers can support.
-
-Signed-off-by: Michael Chan <michael.chan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Michael Chan|michael.chan@broadcom.com|2017-02-06 16:55:36-05:00|18000|David S. Miller|davem@davemloft.net|2017-02-07 13:30:58-05:00|18000

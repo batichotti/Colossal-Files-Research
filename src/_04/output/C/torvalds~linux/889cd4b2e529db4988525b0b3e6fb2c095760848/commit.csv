@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|889cd4b2e529db4988525b0b3e6fb2c095760848|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"be2net: cleanup in case of error in be_open()
-
-This patch adds cleanup code (things like unregistering irq,
-disabling napi etc) to be_open() when an error occurs inside the
-routine.
-
-Signed-off-by: Sathya Perla <sathyap@serverengines.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Sathya Perla|sathyap@serverengines.com|2010-05-30 23:33:45+00:00|0|David S. Miller|davem@davemloft.net|2010-06-01 00:15:51-07:00|25200

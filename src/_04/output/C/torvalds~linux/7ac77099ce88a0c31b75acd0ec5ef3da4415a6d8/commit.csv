@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7ac77099ce88a0c31b75acd0ec5ef3da4415a6d8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Prevent internal slots from being COWed
-
-If a process with a memory slot is COWed, the page will change its address
-(despite having an elevated reference count).  This breaks internal memory
-slots which have their physical addresses loaded into vmcs registers (see
-the APIC access memory slot).
-
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Avi Kivity|avi@redhat.com|2010-06-21 10:57:45+03:00|-10800|Avi Kivity|avi@redhat.com|2010-08-01 10:47:08+03:00|-10800

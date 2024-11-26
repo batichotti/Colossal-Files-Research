@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d673bfcbfffdeb56064a6b1ee047b85590bed76c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"usb: Change usb_hcd->bandwidth_mutex to a pointer.
-
-Change the bandwith_mutex in struct usb_hcd to a pointer.  This will allow
-the pointer to be shared across usb_hcds for the upcoming work to split
-the xHCI driver roothub into a USB 2.0/1.1 and a USB 3.0 bus.
-
-Signed-off-by: Sarah Sharp <sarah.a.sharp@linux.intel.com>"|4|Sarah Sharp|sarah.a.sharp@linux.intel.com|2010-10-15 08:55:24-07:00|25200|Sarah Sharp|sarah.a.sharp@linux.intel.com|2011-03-13 18:07:14-07:00|25200

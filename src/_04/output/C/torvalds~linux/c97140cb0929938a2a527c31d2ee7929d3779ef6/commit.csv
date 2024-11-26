@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c97140cb0929938a2a527c31d2ee7929d3779ef6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"staging: comedi: ni_mio_common: use CMDF_WAKE_EOS
-
-Replace use of `TRIG_WAKE_EOS` command flag with the new name
-`CMDF_WAKE_EOS`.  The numeric value is the same.
-
-Signed-off-by: Ian Abbott <abbotti@mev.co.uk>
-Reviewed-by: H Hartley Sweeten <hsweeten@visionengravers.com>
-Signed-off-by: Greg Kroah-Hartman <gregkh@linuxfoundation.org>"|1|Ian Abbott|abbotti@mev.co.uk|2014-09-03 13:45:39+01:00|-3600|Greg Kroah-Hartman|gregkh@linuxfoundation.org|2014-09-08 13:50:14-07:00|25200

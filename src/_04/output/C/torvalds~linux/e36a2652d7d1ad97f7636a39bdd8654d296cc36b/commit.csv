@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e36a2652d7d1ad97f7636a39bdd8654d296cc36b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"slub: Add statistics for the case that the current slab does not match the node
-
-Slub reloads the per cpu slab if the page does not satisfy the NUMA condition. Track
-those reloads since doing so has a performance impact.
-
-Signed-off-by: Christoph Lameter <cl@linux.com>
-Signed-off-by: Pekka Enberg <penberg@kernel.org>"|2|Christoph Lameter|cl@linux.com|2011-06-01 12:25:57-05:00|18000|Pekka Enberg|penberg@kernel.org|2011-07-02 13:26:56+03:00|-10800

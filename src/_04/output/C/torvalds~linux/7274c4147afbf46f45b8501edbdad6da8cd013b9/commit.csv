@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7274c4147afbf46f45b8501edbdad6da8cd013b9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8169: don't try to disable interrupts if NAPI is scheduled already
-
-There's no benefit in trying to disable interrupts if NAPI is
-scheduled already. This allows us to save a PCI write in this case.
-
-Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
-Link: https://lore.kernel.org/r/78c7f2fb-9772-1015-8c1d-632cbdff253f@gmail.com
-Signed-off-by: Jakub Kicinski <kuba@kernel.org>"|1|Heiner Kallweit|hkallweit1@gmail.com|2021-02-05 22:48:53+01:00|-3600|Jakub Kicinski|kuba@kernel.org|2021-02-06 15:12:39-08:00|28800

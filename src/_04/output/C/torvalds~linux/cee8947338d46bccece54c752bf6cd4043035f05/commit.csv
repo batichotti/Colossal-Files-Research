@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cee8947338d46bccece54c752bf6cd4043035f05|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[IPV6] MROUTE: Do not call ipv6_find_idev() directly.
-
-Since NETDEV_REGISTER notifier chain is responsible for creating
-inet6_dev{}, we do not need to call ipv6_find_idev() directly here.
-
-Signed-off-by: YOSHIFUJI Hideaki <yoshfuji@linux-ipv6.org>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|YOSHIFUJI Hideaki|yoshfuji@linux-ipv6.org|2008-04-13 23:21:16-07:00|25200|David S. Miller|davem@davemloft.net|2008-04-13 23:21:16-07:00|25200

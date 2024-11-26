@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b51c83c241910f66b0c9a2ab17cd57db8109a98f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rbd: return -ENOMEM instead of pool id if rbd_dev_create() fails
-
-Returning pool id (i.e. >= 0) from a sysfs ->store() callback makes
-userspace think it needs to retry the write.  Fix it - it's a leftover
-from the times when the equivalent of rbd_dev_create() was the first
-action in rbd_add().
-
-Signed-off-by: Ilya Dryomov <idryomov@gmail.com>"|1|Ilya Dryomov|idryomov@gmail.com|2015-10-15 15:38:57+02:00|-7200|Ilya Dryomov|idryomov@gmail.com|2015-11-02 23:36:48+01:00|-3600

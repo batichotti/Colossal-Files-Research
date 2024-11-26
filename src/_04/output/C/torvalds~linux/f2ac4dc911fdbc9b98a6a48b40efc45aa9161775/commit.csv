@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f2ac4dc911fdbc9b98a6a48b40efc45aa9161775|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"SUNRPC: parametrize rpc_uaddr2sockaddr() by network context
-
-Parametrize rpc_uaddr2sockaddr() by network context and thus force it's callers to pass
-in network context instead of using hard-coded ""init_net"".
-
-Signed-off-by: Stanislav Kinsbursky <skinsbursky@parallels.com>
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|4|Stanislav Kinsbursky|skinsbursky@parallels.com|2012-01-13 13:09:27+04:00|-14400|Trond Myklebust|Trond.Myklebust@netapp.com|2012-01-31 19:28:12-05:00|18000

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0226e0eb6586c7979f9f2007093f2cabba1d79b9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: rename __btrfs_close_devices to close_fs_devices
-
-__btrfs_close_devices() is un-exported, drop the __ prefix and rename it
-to close_fs_devices().
-
-Signed-off-by: Anand Jain <anand.jain@oracle.com>
-Signed-off-by: David Sterba <dsterba@suse.com>"|1|Anand Jain|anand.jain@oracle.com|2018-04-12 10:29:27+08:00|-28800|David Sterba|dsterba@suse.com|2018-05-28 18:07:21+02:00|-7200

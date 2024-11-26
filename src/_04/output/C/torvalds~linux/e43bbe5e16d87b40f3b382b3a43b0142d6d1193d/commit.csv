@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e43bbe5e16d87b40f3b382b3a43b0142d6d1193d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: sink unlock_extent parameter gfp_flags
-
-All callers pass either GFP_NOFS or GFP_KERNEL now, so we can sink the
-parameter to the function, though we lose some of the slightly better
-semantics of GFP_KERNEL in some places, it's worth cleaning up the
-callchains.
-
-Signed-off-by: David Sterba <dsterba@suse.com>"|8|David Sterba|dsterba@suse.com|2017-12-12 21:43:52+01:00|-3600|David Sterba|dsterba@suse.com|2018-01-22 16:08:19+01:00|-3600

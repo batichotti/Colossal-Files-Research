@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|42e52bf9e3ae80fd44b21ddfcd64c54e6db2ff76|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: add netnotifier event for upper device change
-
-Now when upper device is changed, event is not propagated via RT Netlink
-to userspace. Userspace might never now about the change. Fix this by
-adding upper-device-change notifier event.
-
-Signed-off-by: Jiri Pirko <jiri@resnulli.us>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Jiri Pirko|jiri@resnulli.us|2013-05-25 04:12:10+00:00|0|David S. Miller|davem@davemloft.net|2013-05-25 23:12:19-07:00|25200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|55e26eb95a5345a5796babac98de6d6c42771df1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sctp: Push struct net down to sctp_chunk_event_lookup
-
-This trickles up through sctp_sm_lookup_event up to sctp_do_sm
-and up further into sctp_primitiv_NAME before the code reaches
-places where struct net can be reliably found.
-
-Signed-off-by: ""Eric W. Biederman"" <ebiederm@xmission.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|9|Eric W. Biederman|ebiederm@xmission.com|2012-08-07 07:25:24+00:00|0|David S. Miller|davem@davemloft.net|2012-08-14 23:30:37-07:00|25200

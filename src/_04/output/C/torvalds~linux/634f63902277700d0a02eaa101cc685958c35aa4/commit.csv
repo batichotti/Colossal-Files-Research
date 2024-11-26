@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|634f63902277700d0a02eaa101cc685958c35aa4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"RDMA/hns: Update assignment method for owner field of send wqe
-
-When posting a work reqeust, it need to update the owner bit of send
-wqe. This patch mainly fix the bug when posting multiply work
-request.
-
-Signed-off-by: Lijun Ou <oulijun@huawei.com>
-Signed-off-by: Doug Ledford <dledford@redhat.com>"|1|oulijun|oulijun@huawei.com|2018-04-26 14:46:22+08:00|-28800|Doug Ledford|dledford@redhat.com|2018-04-27 14:20:47-04:00|14400

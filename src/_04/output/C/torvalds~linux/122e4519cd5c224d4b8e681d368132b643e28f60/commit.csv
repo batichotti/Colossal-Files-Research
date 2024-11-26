@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|122e4519cd5c224d4b8e681d368132b643e28f60|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"IPv6: addrconf dad timer unnecessary bh_disable
-
-Timer code runs in bottom half, so there is no need for
-using _bh form of locking.  Also check if device is not ready
-to avoid race with address that is no longer active.
-
-Signed-off-by: Stephen Hemminger <shemminger@vyatta.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|stephen hemminger|shemminger@vyatta.com|2010-03-02 13:32:44+00:00|0|David S. Miller|davem@davemloft.net|2010-03-04 00:39:32-08:00|28800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e4a4142bf31673faf153f39c666a01da6f0c42df|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: pass dev_priv explicitly to TRANS_SET_CONTEXT_LATENCY
-
-Avoid the implicit dev_priv local variable use, and pass dev_priv
-explicitly to the TRANS_SET_CONTEXT_LATENCY register macro.
-
-Reviewed-by: Rodrigo Vivi <rodrigo.vivi@intel.com>
-Link: https://patchwork.freedesktop.org/patch/msgid/989f89994edae0829e3b6d5d6e3d8a521f0eda00.1717514638.git.jani.nikula@intel.com
-Signed-off-by: Jani Nikula <jani.nikula@intel.com>"|2|Jani Nikula|jani.nikula@intel.com|2024-06-04 18:26:22+03:00|-10800|Jani Nikula|jani.nikula@intel.com|2024-06-07 11:31:20+03:00|-10800

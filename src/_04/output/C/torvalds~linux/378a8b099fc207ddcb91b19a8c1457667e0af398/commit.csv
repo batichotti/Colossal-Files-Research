@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|378a8b099fc207ddcb91b19a8c1457667e0af398|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: fix use of uninitialized memory as segment descriptor in emulator.
-
-If VMX reports segment as unusable, zero descriptor passed by the emulator
-before returning. Such descriptor will be considered not present by the
-emulator.
-
-Signed-off-by: Gleb Natapov <gleb@redhat.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|1|Gleb Natapov|gleb@redhat.com|2013-01-21 15:36:48+02:00|-7200|Marcelo Tosatti|mtosatti@redhat.com|2013-01-24 00:40:31-02:00|7200

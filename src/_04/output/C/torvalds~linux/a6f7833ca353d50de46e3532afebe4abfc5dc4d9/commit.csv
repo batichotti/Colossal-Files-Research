@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a6f7833ca353d50de46e3532afebe4abfc5dc4d9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Add smp_ltk_sec_level() helper function
-
-There are several places that need to determine the security level that
-an LTK can provide. This patch adds a convenience function for this to
-help make the code more readable.
-
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|3|Johan Hedberg|johan.hedberg@intel.com|2014-09-10 17:37:45-07:00|25200|Marcel Holtmann|marcel@holtmann.org|2014-09-11 02:45:24+02:00|-7200

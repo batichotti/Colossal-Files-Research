@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|29d6ca41992a771e2441424099695c329d735c28|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: reading DR cannot fail
-
-kvm_get_dr and emulator_get_dr except an in-range value for the register
-number so they cannot fail.  Change the return type to void.
-
-Suggested-by: Sean Christopherson <seanjc@google.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|4|Paolo Bonzini|pbonzini@redhat.com|2021-02-03 03:42:41-05:00|18000|Paolo Bonzini|pbonzini@redhat.com|2021-02-09 08:17:07-05:00|18000

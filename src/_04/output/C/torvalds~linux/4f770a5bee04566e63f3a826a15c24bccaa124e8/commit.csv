@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4f770a5bee04566e63f3a826a15c24bccaa124e8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"DRM/i915: Get rid if the 'hotplug_supported_mask' in struct drm_i915_private.
-
-Now since we have replaced the bits to show interest in hotplug IRQs
-we can go and nuke the 'hotplug_supported_mask'.
-
-Signed-off-by: Egbert Eich <eich@suse.de>
-Acked-by: Chris Wilson <chris@chris-wilson.co.uk>
-Signed-off-by: Daniel Vetter <daniel.vetter@ffwll.ch>"|5|Egbert Eich|eich@suse.de|2013-02-25 12:06:52-05:00|18000|Daniel Vetter|daniel.vetter@ffwll.ch|2013-03-27 17:13:43+01:00|-3600

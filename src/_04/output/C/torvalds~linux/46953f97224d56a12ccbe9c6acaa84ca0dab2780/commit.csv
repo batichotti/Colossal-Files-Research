@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|46953f97224d56a12ccbe9c6acaa84ca0dab2780|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"brcmfmac: fix missing checks for kmemdup
-
-In case kmemdup fails, the fix sets conn_info->req_ie_len and
-conn_info->resp_ie_len to zero to avoid buffer overflows.
-
-Signed-off-by: Kangjie Lu <kjlu@umn.edu>
-Acked-by: Arend van Spriel <arend.vanspriel@broadcom.com>
-Signed-off-by: Kalle Valo <kvalo@codeaurora.org>"|1|Kangjie Lu|kjlu@umn.edu|2019-03-15 12:04:32-05:00|18000|Kalle Valo|kvalo@codeaurora.org|2019-04-04 13:13:16+03:00|-10800

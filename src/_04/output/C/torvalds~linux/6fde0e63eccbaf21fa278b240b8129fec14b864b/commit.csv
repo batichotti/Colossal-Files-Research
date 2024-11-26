@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6fde0e63eccbaf21fa278b240b8129fec14b864b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"be2net: signedness bug in be_msix_enable()
-
-""num_vec"" needs to be signed for the error handling to work.
-
-Fixes: e261768e9e39 ('be2net: support asymmetric rx/tx queue counts')
-Signed-off-by: Dan Carpenter <dan.carpenter@oracle.com>
-Acked-by: Sathya Perla <sathya.perla@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Dan Carpenter|dan.carpenter@oracle.com|2016-06-29 17:39:43+03:00|-10800|David S. Miller|davem@davemloft.net|2016-06-30 08:54:18-04:00|14400

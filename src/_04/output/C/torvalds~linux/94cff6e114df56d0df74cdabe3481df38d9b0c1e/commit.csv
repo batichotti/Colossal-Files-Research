@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|94cff6e114df56d0df74cdabe3481df38d9b0c1e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: qla2xxx: Remove unused argument from qlt_schedule_sess_for_deletion()
-
-Immeadiate flag is not used for scheduling session deletion.
-Remove it to simplfy session deletion code path.
-
-Signed-off-by: Quinn Tran <quinn.tran@cavium.com>
-Signed-off-by: Himanshu Madhani <himanshu.madhani@cavium.com>
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|3|Quinn Tran|quinn.tran@cavium.com|2017-12-28 12:33:42-08:00|28800|Martin K. Petersen|martin.petersen@oracle.com|2018-01-03 23:41:08-05:00|18000

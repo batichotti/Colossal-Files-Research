@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c3b1e6c67dd2d03ba326c7b47e72869a0624d1eb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Use intel_ types in intel_modeset_clear_plls()
-
-Pass around intel_atomic_state rather than drm_atomic_state.
-This avoids some extra casts and annoing aliasing variables.
-
-Signed-off-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Link: https://patchwork.freedesktop.org/patch/msgid/20190517193132.8140-4-ville.syrjala@linux.intel.com
-Reviewed-by: Maarten Lankhorst <maarten.lankhorst@linux.intel.com>"|1|Ville Syrjälä|ville.syrjala@linux.intel.com|2019-05-17 22:31:22+03:00|-10800|Ville Syrjälä|ville.syrjala@linux.intel.com|2019-06-04 16:42:53+03:00|-10800

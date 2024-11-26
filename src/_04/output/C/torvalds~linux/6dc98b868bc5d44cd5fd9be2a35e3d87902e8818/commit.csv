@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6dc98b868bc5d44cd5fd9be2a35e3d87902e8818|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: MMU: split reset_rsvds_bits_mask
-
-Since softmmu & AMD nested shadow page tables and guest page tables have
-the same format, split reset_rsvds_bits_mask so that the logic can be
-reused by later patches which check zero bits on sptes
-
-Signed-off-by: Xiao Guangrong <guangrong.xiao@linux.intel.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Xiao Guangrong|guangrong.xiao@linux.intel.com|2015-08-05 12:04:22+08:00|-28800|Paolo Bonzini|pbonzini@redhat.com|2015-08-05 12:47:23+02:00|-7200

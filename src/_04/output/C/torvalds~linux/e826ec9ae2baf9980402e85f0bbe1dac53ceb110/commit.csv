@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e826ec9ae2baf9980402e85f0bbe1dac53ceb110|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86 emulator: fix JMP_REL
-
-Change JMP_REL to call to register_address_increment(): the operands size
-should not effect the calculation of the eip, instead the ad_bytes should
-affect it.
-
-Signed-off-by: Izik Eidus <izike@qumranet.com>
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|1|Izik Eidus|izike@qumranet.com|2007-11-11 14:40:48+02:00|-7200|Avi Kivity|avi@qumranet.com|2007-11-27 15:08:22+02:00|-7200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7c5365bca33194092e0a094b34b268283022a1a1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"stmmac: use resource_size()
-
-The size calculation is not correct.  It should be end - start + 1.
-Use resource_size() to calculate it instead.
-
-Signed-off-by: Dan Carpenter <error27@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Dan Carpenter|error27@gmail.com|2010-03-22 02:11:11+00:00|0|David S. Miller|davem@davemloft.net|2010-03-22 18:33:10-07:00|25200

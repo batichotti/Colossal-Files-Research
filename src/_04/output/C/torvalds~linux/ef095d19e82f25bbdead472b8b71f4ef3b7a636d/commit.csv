@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ef095d19e82f25bbdead472b8b71f4ef3b7a636d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: write small sized IO to hot log
-
-It would better split small and large IOs separately in order to get more
-consecutive big writes.
-
-The default threshold is set to 64KB, but configurable by sysfs/min_hot_blocks.
-
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|6|Jaegeuk Kim|jaegeuk@kernel.org|2017-03-24 20:05:13-04:00|14400|Jaegeuk Kim|jaegeuk@kernel.org|2017-04-05 11:05:05-07:00|25200

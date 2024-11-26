@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6f6d8b2d49299492e704030632ab79257685e5d3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ASoC: codecs: wcd934x: make read-only array minCode_param static const
-
-Don't populate the read-only array minCode_param on the stack at
-run time, instead make it static const.
-
-Signed-off-by: Colin Ian King <colin.i.king@gmail.com>
-Link: https://patch.msgid.link/20240821114927.520193-1-colin.i.king@gmail.com
-Signed-off-by: Mark Brown <broonie@kernel.org>"|1|Colin Ian King|colin.i.king@gmail.com|2024-08-21 12:49:27+01:00|-3600|Mark Brown|broonie@kernel.org|2024-08-21 14:38:01+01:00|-3600

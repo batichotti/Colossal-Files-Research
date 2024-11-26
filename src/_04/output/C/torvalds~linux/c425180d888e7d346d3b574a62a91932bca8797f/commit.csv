@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c425180d888e7d346d3b574a62a91932bca8797f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sched_ext: use correct function name in pick_task_scx() warning message
-
-pick_next_task_scx() was turned into pick_task_scx() since
-commit 753e2836d139 (""sched_ext: Unify regular and core-sched pick
-task paths""). Update the outdated message.
-
-Signed-off-by: Honglei Wang <jameshongleiwang@126.com>
-Signed-off-by: Tejun Heo <tj@kernel.org>"|1|Honglei Wang|jameshongleiwang@126.com|2024-10-10 11:34:05+08:00|-28800|Tejun Heo|tj@kernel.org|2024-10-10 06:35:28-10:00|36000

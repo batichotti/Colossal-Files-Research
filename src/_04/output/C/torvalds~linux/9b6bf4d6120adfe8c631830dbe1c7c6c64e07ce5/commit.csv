@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9b6bf4d6120adfe8c631830dbe1c7c6c64e07ce5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wifi: nl80211: set BSS to NULL if IS_ERR()
-
-If the BSS lookup returned an error, set it to NULL so we
-don't try to free it.
-
-Fixes: d648c23024bd (""wifi: nl80211: support MLO in auth/assoc"")
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2022-07-07 15:03:51+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2022-07-15 11:43:19+02:00|-7200

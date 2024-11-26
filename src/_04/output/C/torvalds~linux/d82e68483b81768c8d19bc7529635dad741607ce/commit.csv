@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d82e68483b81768c8d19bc7529635dad741607ce|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: mpt3sas: Revert ""scsi: mpt3sas: Fix ioc->base_readl() use""
-
-This reverts commit 7ab4d2441b952977556672c2fe3f4c2a698cbb37 as it is
-breaking the mpt3sas driver on big-endian machines.
-
-Link: https://lore.kernel.org/r/20220916130111.168195-3-damien.lemoal@opensource.wdc.com
-Signed-off-by: Damien Le Moal <damien.lemoal@opensource.wdc.com>
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|1|Damien Le Moal|damien.lemoal@opensource.wdc.com|2022-09-16 22:01:11+09:00|-32400|Martin K. Petersen|martin.petersen@oracle.com|2022-09-25 13:34:54-04:00|14400

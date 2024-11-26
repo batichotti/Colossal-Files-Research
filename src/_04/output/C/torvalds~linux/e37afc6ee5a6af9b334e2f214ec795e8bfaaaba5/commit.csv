@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e37afc6ee5a6af9b334e2f214ec795e8bfaaaba5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: remove __gfn_to_pfn
-
-Most of the function that wrap it can be rewritten without it, except
-for gfn_to_pfn_prot.  Just inline it into gfn_to_pfn_prot, and rewrite
-the other function on top of gfn_to_pfn_memslot*.
-
-Reviewed-by: Radim Krcmar <rkrcmar@redhat.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Paolo Bonzini|pbonzini@redhat.com|2015-05-19 16:09:04+02:00|-7200|Paolo Bonzini|pbonzini@redhat.com|2015-05-28 10:43:34+02:00|-7200

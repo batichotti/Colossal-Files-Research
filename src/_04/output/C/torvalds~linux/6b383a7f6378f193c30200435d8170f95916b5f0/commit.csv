@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6b383a7f6378f193c30200435d8170f95916b5f0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Share crtc setup and teardown between dpms and disable/enable
-
-This closes a couple of corner cases where we introduced and forgot
-about a couple of routines that need to be called when disabling the
-crtc and then re-enabling it. The code needs to be moved again so that
-the common bits are shared across generations.
-
-Signed-off-by: Chris Wilson <chris@chris-wilson.co.uk>"|2|Chris Wilson|chris@chris-wilson.co.uk|2010-09-13 13:54:26+01:00|-3600|Chris Wilson|chris@chris-wilson.co.uk|2010-09-13 14:26:55+01:00|-3600

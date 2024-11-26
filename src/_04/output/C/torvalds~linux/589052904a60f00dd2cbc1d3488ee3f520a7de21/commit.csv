@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|589052904a60f00dd2cbc1d3488ee3f520a7de21|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: remove ""dynamic"" RX/TX handlers
-
-It doesn't really make sense to have extra pointers to the RX/TX
-handler arrays instead of just using the arrays directly, that
-also allows us to make them static.
-
-Signed-off-by: Johannes Berg <johannes@sipsolutions.net>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|4|Johannes Berg|johannes@sipsolutions.net|2008-01-31 19:48:25+01:00|-3600|John W. Linville|linville@tuxdriver.com|2008-02-29 15:37:03-05:00|18000

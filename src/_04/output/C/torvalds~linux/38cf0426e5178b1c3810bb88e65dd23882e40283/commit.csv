@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|38cf0426e5178b1c3810bb88e65dd23882e40283|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: sched: change return value of ndo_setup_tc for driver supporting mqprio only
-
-Change the return value from -EINVAL to -EOPNOTSUPP. The rest of the
-drivers have it like that, so be aligned.
-
-Signed-off-by: Jiri Pirko <jiri@mellanox.com>
-Acked-by: Jamal Hadi Salim <jhs@mojatatu.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|11|Jiri Pirko|jiri@mellanox.com|2017-08-07 10:15:31+02:00|-7200|David S. Miller|davem@davemloft.net|2017-08-07 09:42:37-07:00|25200

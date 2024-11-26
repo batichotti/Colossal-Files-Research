@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6417250d3f894e66a68ba1cd93676143f2376a6f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"workqueue: remove unused cancel_work()
-
-Found this by accident.
-There are no usages of bare cancel_work() in current kernel source.
-
-Signed-off-by: Stephen Hemminger <stephen@networkplumber.org>
-Signed-off-by: Tejun Heo <tj@kernel.org>"|2|Stephen Hemminger|stephen@networkplumber.org|2018-03-06 19:34:42-08:00|28800|Tejun Heo|tj@kernel.org|2018-03-13 13:37:42-07:00|25200

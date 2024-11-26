@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f74587fb9308dd6d4346180672d79b8a861f02dd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"thinkpad_acpi: Factor out get/set adaptive kbd mode
-
-Move the getting/setting of the adaptive keyboard mode to separate
-functions, so that we can reuse them later through sysfs attributes.
-
-Signed-off-by: Bastien Nocera <hadess@hadess.net>
-Acked-by: Henrique de Moraes Holschuh <hmh@hmh.eng.br>
-Signed-off-by: Darren Hart <dvhart@linux.intel.com>"|1|Bastien Nocera|hadess@hadess.net|2015-03-02 14:45:22+01:00|-3600|Darren Hart|dvhart@linux.intel.com|2015-03-03 08:59:35-08:00|28800

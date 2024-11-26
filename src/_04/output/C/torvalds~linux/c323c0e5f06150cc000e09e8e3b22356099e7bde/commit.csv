@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c323c0e5f06150cc000e09e8e3b22356099e7bde|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Ignore PCI ECS I/O enablement
-
-Linux guests will try to enable access to the extended PCI config space
-via the I/O ports 0xCF8/0xCFC on AMD Fam10h CPU. Since we (currently?)
-don't use ECS, simply ignore write and read attempts.
-
-Signed-off-by: Andre Przywara <andre.przywara@amd.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Andre Przywara|andre.przywara@amd.com|2009-06-24 15:37:05+02:00|-7200|Avi Kivity|avi@redhat.com|2009-09-10 08:33:06+03:00|-10800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9537e7cbf20787416b25833f2f9886166d8148f2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"hns3pf: fix hns3_del_tunnel_port()
-
-This function has a copy and paste bug so it accidentally calls the add
-function instead of the delete function.
-
-Fixes: 76ad4f0ee747 (""net: hns3: Add support of HNS3 Ethernet Driver for hip08 SoC"")
-Signed-off-by: Dan Carpenter <dan.carpenter@oracle.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Dan Carpenter|dan.carpenter@oracle.com|2017-08-10 12:54:59+03:00|-10800|David S. Miller|davem@davemloft.net|2017-08-11 14:31:59-07:00|25200

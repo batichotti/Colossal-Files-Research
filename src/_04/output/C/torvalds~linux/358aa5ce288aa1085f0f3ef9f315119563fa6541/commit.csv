@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|358aa5ce288aa1085f0f3ef9f315119563fa6541|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net/mlx5e: Vxlan, move vxlan logic to core driver
-
-Move vxlan logic and objects to mlx5 core dirver.
-Since it going to be used from different mlx5 interfaces.
-e.g. mlx5e PF NIC netdev and mlx5e E-Switch representors.
-
-Signed-off-by: Saeed Mahameed <saeedm@mellanox.com>
-Reviewed-by: Or Gerlitz <ogerlitz@mellanox.com>"|8|Saeed Mahameed|saeedm@mellanox.com|2018-05-09 13:28:00-07:00|25200|Saeed Mahameed|saeedm@mellanox.com|2018-07-27 15:46:13-07:00|25200

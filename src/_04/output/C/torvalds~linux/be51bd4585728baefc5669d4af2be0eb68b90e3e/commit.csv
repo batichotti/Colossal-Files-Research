@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|be51bd4585728baefc5669d4af2be0eb68b90e3e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"platform/x86: thinkpad_acpi: Replace next_cmd(&buf) with strsep(&buf, "","")
-
-It seems next_cmd() predates the strsep() implementation in the kernel.
-For a long time we have the latter one, thus, replace next_cmd(&buf) with
-strsep(&buf, "","").
-
-Signed-off-by: Andy Shevchenko <andriy.shevchenko@linux.intel.com>"|1|Andy Shevchenko|andriy.shevchenko@linux.intel.com|2020-05-11 15:56:24+03:00|-10800|Andy Shevchenko|andriy.shevchenko@linux.intel.com|2020-05-15 15:45:14+03:00|-10800

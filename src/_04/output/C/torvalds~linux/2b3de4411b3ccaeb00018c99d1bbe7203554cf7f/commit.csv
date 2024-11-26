@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2b3de4411b3ccaeb00018c99d1bbe7203554cf7f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS: Add a lookupfh NFS RPC op
-
-Add a lookup filehandle NFS RPC op so that a file handle can be looked up
-without requiring dentries and inodes and other VFS stuff when doing an NFS4
-pathwalk during mounting.
-
-Signed-Off-By: David Howells <dhowells@redhat.com>
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|2|David Howells|dhowells@redhat.com|2006-08-22 20:06:09-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2006-09-22 23:24:32-04:00|14400

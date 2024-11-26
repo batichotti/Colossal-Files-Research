@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|69c730289011df706a1c9890d6e6c5ee822623c7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: Cache cpl
-
-We may read the cpl quite often in the same vmexit (instruction privilege
-check, memory access checks for instruction and operands), so we gain
-a bit if we cache the value.
-
-Signed-off-by: Avi Kivity <avi@redhat.com>"|2|Avi Kivity|avi@redhat.com|2011-03-07 15:26:44+02:00|-7200|Avi Kivity|avi@redhat.com|2011-05-11 07:56:54-04:00|14400

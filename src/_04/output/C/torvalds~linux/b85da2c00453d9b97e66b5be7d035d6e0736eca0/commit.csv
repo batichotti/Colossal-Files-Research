@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b85da2c00453d9b97e66b5be7d035d6e0736eca0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"s2io: do vlan cleanup
-
-- unify vlan and nonvlan rx path
-- kill sp->vlgrp and s2io_vlan_rx_register and s2io_vlan_rx_kill_vid
-(which does nothing and is never called :))
-
-Signed-off-by: Jiri Pirko <jpirko@redhat.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Jiri Pirko|jpirko@redhat.com|2011-07-20 04:54:24+00:00|0|David S. Miller|davem@davemloft.net|2011-07-21 13:47:55-07:00|25200

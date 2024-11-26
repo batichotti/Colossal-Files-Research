@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ce8fe7b77bd8ee405295e349c82d0ef8c9788200|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: nVMX: Free only the affected contexts when emulating INVEPT
-
-Add logic to handle_invept() to free only those roots that match the
-target EPT context when emulating a single-context INVEPT.
-
-Signed-off-by: Sean Christopherson <sean.j.christopherson@intel.com>
-Message-Id: <20200320212833.3507-36-sean.j.christopherson@intel.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Sean Christopherson|sean.j.christopherson@intel.com|2020-03-20 14:28:31-07:00|25200|Paolo Bonzini|pbonzini@redhat.com|2020-04-21 09:12:58-04:00|14400

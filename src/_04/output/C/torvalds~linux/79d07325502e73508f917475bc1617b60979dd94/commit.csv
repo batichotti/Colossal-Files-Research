@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|79d07325502e73508f917475bc1617b60979dd94|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"iwlwifi: support channel switch offload in driver
-
-Support channel switch in driver as a separated mac80211 callback
-function instead of part of mac_config callback; by moving to this
-approach, uCode can have more control of channel switch timing.
-
-Signed-off-by: Wey-Yi Guy <wey-yi.w.guy@intel.com>
-Signed-off-by: Reinette Chatre <reinette.chatre@intel.com>"|6|Wey-Yi Guy|wey-yi.w.guy@intel.com|2010-05-06 08:54:11-07:00|25200|Reinette Chatre|reinette.chatre@intel.com|2010-06-05 23:16:09-07:00|25200

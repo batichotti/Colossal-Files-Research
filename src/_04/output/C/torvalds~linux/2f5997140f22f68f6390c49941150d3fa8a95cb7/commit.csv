@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2f5997140f22f68f6390c49941150d3fa8a95cb7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: migrate PIT timer
-
-Migrate the PIT timer to the physical CPU which vcpu0 is scheduled on,
-similarly to what is done for the LAPIC timers, otherwise PIT interrupts
-will be delayed until an unrelated event causes an exit.
-
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|7|Marcelo Tosatti|mtosatti@redhat.com|2008-05-27 12:10:20-03:00|10800|Avi Kivity|avi@qumranet.com|2008-06-06 21:25:51+03:00|-10800

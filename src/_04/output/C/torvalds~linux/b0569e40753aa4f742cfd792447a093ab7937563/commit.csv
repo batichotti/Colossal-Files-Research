@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b0569e40753aa4f742cfd792447a093ab7937563|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"RDMA/cma: Restrict AF_IB loopback to binding to IB devices only
-
-If a user specifies AF_IB as the source address for a loopback
-connection, limit the resolution to IB devices only.
-
-Signed-off-by: Sean Hefty <sean.hefty@intel.com>
-Signed-off-by: Roland Dreier <roland@purestorage.com>"|1|Sean Hefty|sean.hefty@intel.com|2013-05-29 10:09:15-07:00|25200|Roland Dreier|roland@purestorage.com|2013-06-20 13:08:04-07:00|25200

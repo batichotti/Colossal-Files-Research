@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d46b63494544356ed07ed4f7ec6f8d6edb6ddcf5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: bonding: use new api ethtool_{get|set}_link_ksettings
-
-The ethtool api {get|set}_settings is deprecated.
-We move this driver to new api {get|set}_link_ksettings.
-
-Signed-off-by: Philippe Reynes <tremyfr@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Philippe Reynes|tremyfr@gmail.com|2016-10-25 18:41:31+02:00|-7200|David S. Miller|davem@davemloft.net|2016-10-30 17:23:39-04:00|14400

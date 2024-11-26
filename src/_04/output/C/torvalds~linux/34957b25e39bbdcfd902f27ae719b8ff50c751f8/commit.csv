@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|34957b25e39bbdcfd902f27ae719b8ff50c751f8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ath10k: rename WMI_CMD_UNDEFINED
-
-Rename WMI_CMD_UNDEFINED to WMI_CMD_UNSUPPORTED. This is more
-accurate here. Also return -EOPNOTSUPP instead of -EINVAL in
-wmi_cmd_send().
-
-Signed-off-by: Bartosz Markowski <bartosz.markowski@tieto.com>
-Signed-off-by: Kalle Valo <kvalo@qca.qualcomm.com>"|2|Bartosz Markowski|bartosz.markowski@tieto.com|2013-10-15 09:55:31+02:00|-7200|Kalle Valo|kvalo@qca.qualcomm.com|2013-10-16 11:52:06+03:00|-10800

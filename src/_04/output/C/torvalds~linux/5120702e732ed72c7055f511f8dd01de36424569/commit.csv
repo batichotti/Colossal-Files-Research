@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5120702e732ed72c7055f511f8dd01de36424569|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: Properly return error to userspace on vmentry failure
-
-The vmexit handler returns KVM_EXIT_UNKNOWN since there is no handler
-for vmentry failures. This intercepts vmentry failures and returns
-KVM_FAIL_ENTRY to userspace instead.
-
-Signed-off-by: Mohammed Gamal <m.gamal005@gmail.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|1|Mohammed Gamal|m.gamal005@gmail.com|2010-05-31 22:40:54+03:00|-10800|Avi Kivity|avi@redhat.com|2010-08-01 10:39:24+03:00|-10800

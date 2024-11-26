@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|41ede23eded40832c955d98d4b71bc244809abb3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ring-buffer: disable writers when resetting buffers
-
-As a precaution, it is best to disable writing to the ring buffers
-when reseting them.
-
-[ Impact: prevent weird things if write happens during reset ]
-
-Signed-off-by: Steven Rostedt <rostedt@goodmis.org>"|1|Steven Rostedt|srostedt@redhat.com|2009-05-01 20:26:54-04:00|14400|Steven Rostedt|rostedt@goodmis.org|2009-05-05 17:22:02-04:00|14400

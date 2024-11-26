@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7a5158ef8da70fdedeb0530faaa8128aa645be3c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: fix short slot handling
-
-This patch makes mac80211 handle short slot requests from the AP
-properly. Also warn about uses of IEEE80211_CONF_SHORT_SLOT_TIME
-and optimise out the code since it cannot ever be hit anyway.
-
-Signed-off-by: Johannes Berg <johannes@sipsolutions.net>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|3|Johannes Berg|johannes@sipsolutions.net|2008-10-08 10:59:33+02:00|-7200|John W. Linville|linville@tuxdriver.com|2008-10-31 18:58:53-04:00|14400

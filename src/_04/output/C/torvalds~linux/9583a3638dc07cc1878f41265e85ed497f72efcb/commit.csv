@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9583a3638dc07cc1878f41265e85ed497f72efcb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8152: get default setting of WOL before initializing
-
-Initailization would reset runtime suspend by tp->saved_wolopts, so
-the tp->saved_wolopts should be set before initializing.
-
-Signed-off-by: Hayes Wang <hayeswang@realtek.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Hayes Wang|hayeswang@realtek.com|2020-01-22 16:02:07+08:00|-28800|David S. Miller|davem@davemloft.net|2020-01-23 11:20:57+01:00|-3600

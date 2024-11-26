@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|36abef4e796d382e81a0c2d21ea5327481dd7154|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: introduce mode=lfs mount option
-
-This mount option is to enable original log-structured filesystem forcefully.
-So, there should be no random writes for main area.
-
-Especially, this supports host-managed SMR device.
-
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|9|Jaegeuk Kim|jaegeuk@kernel.org|2016-06-03 19:29:38-07:00|25200|Jaegeuk Kim|jaegeuk@kernel.org|2016-06-13 11:55:21-07:00|25200

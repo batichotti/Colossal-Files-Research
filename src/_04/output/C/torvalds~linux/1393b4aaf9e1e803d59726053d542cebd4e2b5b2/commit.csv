@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1393b4aaf9e1e803d59726053d542cebd4e2b5b2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"kvm: use more precise cast and do not drop __user
-
-Sparse complains on a call to get_compat_sigset, fix it.  The ""if""
-right above explains that sigmask_arg->sigset is basically a
-compat_sigset_t.
-
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Paolo Bonzini|pbonzini@redhat.com|2020-07-02 05:39:31-04:00|14400|Paolo Bonzini|pbonzini@redhat.com|2020-07-02 05:39:31-04:00|14400

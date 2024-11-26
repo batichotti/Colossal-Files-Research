@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|964dc9e2c3aaccacacd40640964a58544fb5769a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cfg80211: take WoWLAN support information out of wiphy struct
-
-There's no need to take up the space for devices that don't
-support WoWLAN, and most drivers can even make the support
-data static const (except where it's modified at runtime.)
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|12|Johannes Berg|johannes.berg@intel.com|2013-06-03 17:25:34+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2013-06-03 18:43:34+02:00|-7200

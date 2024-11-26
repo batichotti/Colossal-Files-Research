@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2d186fcd6d8d3a493894de48611e4925ddf7b951|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Fix incorrect branch in connection complete
-
-When handling auto-connected devices, we should execute the rest of the
-connection complete when it was previously discovered and it is an ACL
-connection.
-
-Signed-off-by: Abhishek Pandit-Subedi <abhishekpandit@chromium.org>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|1|Abhishek Pandit-Subedi|abhishekpandit@chromium.org|2020-03-19 17:07:13-07:00|25200|Marcel Holtmann|marcel@holtmann.org|2020-03-23 18:48:50+01:00|-3600

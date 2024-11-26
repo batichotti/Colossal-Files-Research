@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|584933334b7a81f09637f28cbee759a1e24428db|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8169:Update the way of reading RTL8168H PHY register ""rg_saw_cnt""
-
-The vlaue of RTL8168H PHY register ""rg_saw_cnt"" only valid from bit0 to bit13.
-When read this register, add bitwise-anding its value with 0x3fff.
-
-Signed-off-by: Chunhao Lin <hau@realtek.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Chun-Hao Lin|hau@realtek.com|2015-12-24 21:15:27+08:00|-28800|David S. Miller|davem@davemloft.net|2015-12-28 00:19:38-05:00|18000

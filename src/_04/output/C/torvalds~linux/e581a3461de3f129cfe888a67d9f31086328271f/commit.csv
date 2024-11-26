@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e581a3461de3f129cfe888a67d9f31086328271f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bpf: Move the declaration of __bpf_obj_drop_impl() to bpf.h
-
-both syscall.c and helpers.c have the declaration of
-__bpf_obj_drop_impl(), so just move it to a common header file.
-
-Signed-off-by: Hou Tao <houtao1@huawei.com>
-Link: https://lore.kernel.org/r/20231020133202.4043247-6-houtao@huaweicloud.com
-Signed-off-by: Alexei Starovoitov <ast@kernel.org>"|3|Hou Tao|houtao1@huawei.com|2023-10-20 21:32:00+08:00|-28800|Alexei Starovoitov|ast@kernel.org|2023-10-20 14:15:13-07:00|25200

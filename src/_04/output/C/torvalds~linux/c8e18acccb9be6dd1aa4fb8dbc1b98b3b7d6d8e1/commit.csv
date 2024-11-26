@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c8e18acccb9be6dd1aa4fb8dbc1b98b3b7d6d8e1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ipr: Fix error return code in ipr_probe_ioa()
-
-Fix to return error code -ENOMEM from the workqueue alloc error handling
-case instead of 0, as done elsewhere in this function.
-
-Signed-off-by: Wei Yongjun <weiyj.lk@gmail.com>
-Acked-by: Brian King <brking@linux.vnet.ibm.com>
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|1|Wei Yongjun|weiyj.lk@gmail.com|2016-07-29 16:00:45+00:00|0|Martin K. Petersen|martin.petersen@oracle.com|2016-08-02 01:19:18-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d95e0a0c6c9602ff6bb90c1c20987b204493d8e1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"RDMA/hns: Fix the wrong type of return value of the interrupt handler
-
-The type of return value of the interrupt handler should be irqreturn_t.
-
-Link: https://lore.kernel.org/r/20220714134353.16700-3-liangwenpeng@huawei.com
-Signed-off-by: Haoyue Xu <xuhaoyue1@hisilicon.com>
-Signed-off-by: Wenpeng Liang <liangwenpeng@huawei.com>
-Signed-off-by: Leon Romanovsky <leon@kernel.org>"|1|Haoyue Xu|xuhaoyue1@hisilicon.com|2022-07-14 21:43:50+08:00|-28800|Leon Romanovsky|leonro@nvidia.com|2022-07-18 14:16:21+03:00|-10800

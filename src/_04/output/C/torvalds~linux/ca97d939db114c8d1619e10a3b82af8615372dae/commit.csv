@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ca97d939db114c8d1619e10a3b82af8615372dae|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"security: mark LSM hooks as __ro_after_init
-
-Mark all of the registration hooks as __ro_after_init (via the
-__lsm_ro_after_init macro).
-
-Signed-off-by: James Morris <james.l.morris@oracle.com>
-Acked-by:  Stephen Smalley <sds@tycho.nsa.gov>
-Acked-by: Kees Cook <keescook@chromium.org>"|8|James Morris|jmorris@namei.org|2017-02-15 00:18:51+11:00|-39600|James Morris|james.l.morris@oracle.com|2017-03-06 11:00:15+11:00|-39600

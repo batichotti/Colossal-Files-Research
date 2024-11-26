@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|596397b77c895d0fa3674f579c94ad5ea88ef01d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: Move fs/ext4/namei.h into ext4.h
-
-The fs/ext4/namei.h header file had only a single function
-declaration, and should have never been a standalone file.  Move it
-into ext4.h, where should have been from the beginning.
-
-Signed-off-by: ""Theodore Ts'o"" <tytso@mit.edu>"|4|Theodore Ts'o|tytso@mit.edu|2009-05-01 13:49:15-04:00|14400|Theodore Ts'o|tytso@mit.edu|2009-05-01 13:49:15-04:00|14400

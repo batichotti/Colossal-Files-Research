@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c1dffe0bf7f9c3d57d9f237a7cb2a81e62babd2b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4.1: Reinitialise sequence results before retransmitting a request
-
-If we have to retransmit a request, we should ensure that we reinitialise
-the sequence results structure, since in the event of a signal
-we need to treat the request as if it had not been sent.
-
-Signed-off-by: Trond Myklebust <trond.myklebust@hammerspace.com>
-Cc: stable@vger.kernel.org"|1|Trond Myklebust|trond.myklebust@hammerspace.com|2019-03-01 12:13:34-05:00|18000|Trond Myklebust|trond.myklebust@hammerspace.com|2019-03-01 12:13:34-05:00|18000

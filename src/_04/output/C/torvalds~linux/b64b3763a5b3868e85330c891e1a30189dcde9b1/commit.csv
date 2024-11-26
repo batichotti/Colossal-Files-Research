@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b64b3763a5b3868e85330c891e1a30189dcde9b1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: MMU: Don't cache guest access bits in the shadow page table
-
-This was once used to avoid accessing the guest pte when upgrading
-the shadow pte from read-only to read-write.  But usually we need
-to set the guest pte dirty or accessed bits anyway, so this wasn't
-really exploited.
-
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|2|Avi Kivity|avi@qumranet.com|2007-05-31 18:24:09+03:00|-10800|Avi Kivity|avi@qumranet.com|2007-07-16 12:05:44+03:00|-10800

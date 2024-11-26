@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b2c4aa35ebcc5c7e941a46e7b5c07587bd01b4e2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wifi: mac80211_hwsim: check STA magic in change_sta_links
-
-Just as an additional check that mac80211 isn't doing
-anything strange, add a check of the STA magic (which
-gets assigned when the station is added, and cleared
-when the station is removed).
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2022-09-02 16:12:35+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2022-09-03 17:02:05+02:00|-7200

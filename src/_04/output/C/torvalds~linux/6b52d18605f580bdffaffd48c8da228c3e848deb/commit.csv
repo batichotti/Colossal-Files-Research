@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6b52d18605f580bdffaffd48c8da228c3e848deb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Activate fpu on clts
-
-Assume that if the guest executes clts, it knows what it's doing, and load the
-guest fpu to prevent an #NM exception.
-
-Signed-off-by: Avi Kivity <avi@redhat.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|4|Avi Kivity|avi@redhat.com|2010-01-21 15:31:47+02:00|-7200|Marcelo Tosatti|mtosatti@redhat.com|2010-03-01 12:36:04-03:00|10800

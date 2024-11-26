@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a1cccdcf330e2a59b72b1588a7ef87cbaaa8a4e9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Clean up casts to crtc_state in intel_atomic_commit_tail()
-
-Use old/new_intel_crtc_state, and get rid of all the conversion casts
-where they don't add anything.
-
-Signed-off-by: Maarten Lankhorst <maarten.lankhorst@linux.intel.com>
-Reviewed-by: Matt Roper <matthew.d.roper@intel.com>
-Link: https://patchwork.freedesktop.org/patch/msgid/20180920102711.4184-2-maarten.lankhorst@linux.intel.com"|1|Maarten Lankhorst|maarten.lankhorst@linux.intel.com|2018-09-20 12:27:04+02:00|-7200|Maarten Lankhorst|maarten.lankhorst@linux.intel.com|2018-09-21 19:11:49+02:00|-7200

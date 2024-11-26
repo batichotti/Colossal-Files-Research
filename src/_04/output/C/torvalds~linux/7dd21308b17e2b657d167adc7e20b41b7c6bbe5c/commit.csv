@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7dd21308b17e2b657d167adc7e20b41b7c6bbe5c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] ipr: Remove unnecessary interrupt clearing on new adapters
-
-The latest ipr hardware no longer requires the driver to issue any MMIOs
-to clear the interrupt so remove this to optimize performance.
-
-Signed-off-by: Brian King <brking@linux.vnet.ibm.com>
-Signed-off-by: James Bottomley <JBottomley@Parallels.com>"|2|Brian King|brking@linux.vnet.ibm.com|2012-03-14 21:20:08-05:00|18000|James Bottomley|JBottomley@Parallels.com|2012-03-28 15:01:06+01:00|-3600

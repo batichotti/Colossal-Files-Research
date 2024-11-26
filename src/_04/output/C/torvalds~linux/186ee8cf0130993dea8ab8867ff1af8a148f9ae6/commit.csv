@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|186ee8cf0130993dea8ab8867ff1af8a148f9ae6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Ack L2CAP I-frames before retransmit missing packet
-
-Moving the Ack to before l2cap_retransmit_frame() we can avoid the
-case where txWindow is full and the packet can't be retransmited.
-
-Signed-off-by: Gustavo F. Padovan <gustavo@las.ic.unicamp.br>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|1|Gustavo F. Padovan|gustavo@las.ic.unicamp.br|2009-12-15 20:13:27-02:00|7200|Marcel Holtmann|marcel@holtmann.org|2009-12-17 12:06:23-08:00|28800

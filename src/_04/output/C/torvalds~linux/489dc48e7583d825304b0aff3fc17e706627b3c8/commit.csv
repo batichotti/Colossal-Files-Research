@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|489dc48e7583d825304b0aff3fc17e706627b3c8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Return proper mgmt state when LE pairing connection failed
-
-MGMT_STATUS_BUSY should be returned when LE pairing cannot be started due
-to another outgoing connection attempt is ongoing.
-
-Signed-off-by: Andrzej Kaczmarek <andrzej.kaczmarek@tieto.com>
-Signed-off-by: Gustavo Padovan <gustavo.padovan@collabora.co.uk>"|1|Andrzej Kaczmarek|andrzej.kaczmarek@tieto.com|2012-05-30 15:39:22+02:00|-7200|Johan Hedberg|johan.hedberg@intel.com|2012-06-05 06:34:15+03:00|-10800

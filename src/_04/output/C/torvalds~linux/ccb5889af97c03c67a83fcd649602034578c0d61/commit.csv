@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ccb5889af97c03c67a83fcd649602034578c0d61|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ksmbd: Change the return value of ksmbd_vfs_query_maximal_access to void
-
-The return value of ksmbd_vfs_query_maximal_access is meaningless,
-it is better to modify it to void.
-
-Signed-off-by: Lu Hongfei <luhongfei@vivo.com>
-Acked-by: Namjae Jeon <linkinjeon@kernel.org>
-Signed-off-by: Steve French <stfrench@microsoft.com>"|3|Lu Hongfei|luhongfei@vivo.com|2023-05-31 10:10:43+08:00|-28800|Steve French|stfrench@microsoft.com|2023-06-26 00:07:04-05:00|18000

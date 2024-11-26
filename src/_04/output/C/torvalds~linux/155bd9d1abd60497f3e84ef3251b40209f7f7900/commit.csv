@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|155bd9d1abd60497f3e84ef3251b40209f7f7900|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drbd: remove ->this_bdev
-
-DRBD keeps a block device open just to get and set the capacity from
-it.  Switch to primarily using the disk capacity as intended by the
-block layer, and sync it to the bdev using revalidate_disk_size.
-
-Signed-off-by: Christoph Hellwig <hch@lst.de>
-Signed-off-by: Jens Axboe <axboe@kernel.dk>"|7|Christoph Hellwig|hch@lst.de|2020-09-25 18:06:17+02:00|-7200|Jens Axboe|axboe@kernel.dk|2020-10-05 10:38:33-06:00|21600

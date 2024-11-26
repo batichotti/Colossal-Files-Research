@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|78f686cae0c67a2edd167cbbe2f36017f0fa4b30|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cfg80211: don't put kek/kck/replay counter on the stack
-
-There's no need to put the values on the stack, just pass a
-pointer to the data in the nl80211 message. This reduces stack
-usage and avoids potential issues with putting sensitive data
-on the stack.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|2|Johannes Berg|johannes.berg@intel.com|2014-09-10 22:28:06+03:00|-10800|Johannes Berg|johannes.berg@intel.com|2014-09-11 12:07:34+02:00|-7200

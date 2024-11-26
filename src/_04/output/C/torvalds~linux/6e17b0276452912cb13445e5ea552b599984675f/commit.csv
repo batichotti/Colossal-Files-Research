@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6e17b0276452912cb13445e5ea552b599984675f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md: clean up do_md_stop
-
-There is only one error exit from do_md_stop, so make that more
-explicit and discard the 'err' variable.
-Also drop the 'revalidate' variable by moving the unlock calls around.
-
-Signed-off-by: NeilBrown <neilb@suse.de>"|1|NeilBrown|neilb@suse.de|2010-08-07 21:41:19+10:00|-36000|NeilBrown|neilb@suse.de|2010-08-08 21:22:45+10:00|-36000

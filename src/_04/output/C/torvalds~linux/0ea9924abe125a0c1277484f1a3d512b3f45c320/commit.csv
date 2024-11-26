@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0ea9924abe125a0c1277484f1a3d512b3f45c320|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md-cluster: don't update recovery_offset for faulty device
-
-Device could become faulty when clustered array handling
-METADATA_UPDATED msg, so we don't need to call read_rdev
-for this device.
-
-Signed-off-by: Guoqing Jiang <gqjiang@suse.com>
-Signed-off-by: Shaohua Li <shli@fb.com>"|1|Guoqing Jiang|gqjiang@suse.com|2018-04-09 17:01:21+08:00|-28800|Shaohua Li|shli@fb.com|2018-04-09 08:39:36-07:00|25200

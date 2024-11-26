@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8691f3a72f32f8b3ed535faa27140b3ae293c90b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mm: no need to cast vmalloc() return value in zone_wait_table_init()
-
-vmalloc() returns a void pointer, so there's no need to cast its
-return value in mm/page_alloc.c::zone_wait_table_init().
-
-Signed-off-by: Jesper Juhl <jesper.juhl@gmail.com>
-Signed-off-by: Andrew Morton <akpm@linux-foundation.org>
-Signed-off-by: Linus Torvalds <torvalds@linux-foundation.org>"|1|Jesper Juhl|jesper.juhl@gmail.com|2007-10-16 01:24:49-07:00|25200|Linus Torvalds|torvalds@woody.linux-foundation.org|2007-10-16 09:42:54-07:00|25200

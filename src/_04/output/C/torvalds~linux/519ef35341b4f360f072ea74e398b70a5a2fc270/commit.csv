@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|519ef35341b4f360f072ea74e398b70a5a2fc270|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: add hypercall nr to kvm_run
-
-Add the hypercall number to kvm_run and initialize it.  This changes the ABI,
-but as this particular ABI was unusable before this no users are affected.
-
-Signed-off-by: Jeff Dike <jdike@linux.intel.com>
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|2|Jeff Dike|jdike@addtoit.com|2007-07-16 15:24:47-04:00|14400|Avi Kivity|avi@qumranet.com|2007-10-13 10:18:20+02:00|-7200

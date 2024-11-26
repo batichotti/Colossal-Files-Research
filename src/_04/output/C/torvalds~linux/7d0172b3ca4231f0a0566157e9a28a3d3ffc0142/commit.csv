@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7d0172b3ca4231f0a0566157e9a28a3d3ffc0142|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: nVMX: Use kvm_read_guest_offset_cached() for nested VMCS check
-
-Kill another mostly gratuitous kvm_vcpu_map() which could just use the
-userspace HVA for it.
-
-Signed-off-by: David Woodhouse <dwmw@amazon.co.uk>
-Message-Id: <20211115165030.7422-6-dwmw2@infradead.org>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|David Woodhouse|dwmw@amazon.co.uk|2021-11-15 16:50:25+00:00|0|Paolo Bonzini|pbonzini@redhat.com|2021-11-18 02:03:43-05:00|18000

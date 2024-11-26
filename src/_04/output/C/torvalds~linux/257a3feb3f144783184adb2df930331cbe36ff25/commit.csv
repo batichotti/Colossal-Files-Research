@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|257a3feb3f144783184adb2df930331cbe36ff25|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"be2net: use pci_vfs_assigned()/pci_num_vf() instead of be_find_vfs()
-
-be_find_vfs() is no longer needed as the common PCI calls provide the same
-functionality.
-
-Signed-off-by: Sathya Perla <sathya.perla@emulex.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Sathya Perla|sathya.perla@emulex.com|2013-06-14 15:54:51+05:30|-19800|David S. Miller|davem@davemloft.net|2013-06-19 21:23:19-07:00|25200

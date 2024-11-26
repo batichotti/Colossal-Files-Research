@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|abfedab1163a6b01ab400a67f4eed0fea3ccbdd1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ASoC: rt5665: constify acpi_device_id.
-
-acpi_device_id are not supposed to change at runtime. All functions
-working with acpi_device_id provided by <acpi/acpi_bus.h> work with
-const acpi_device_id. So mark the non-const structs as const.
-
-Signed-off-by: Arvind Yadav <arvind.yadav.cs@gmail.com>
-Signed-off-by: Mark Brown <broonie@kernel.org>"|1|Arvind Yadav|arvind.yadav.cs@gmail.com|2017-07-23 22:53:27+05:30|-19800|Mark Brown|broonie@kernel.org|2017-07-24 16:34:53+01:00|-3600

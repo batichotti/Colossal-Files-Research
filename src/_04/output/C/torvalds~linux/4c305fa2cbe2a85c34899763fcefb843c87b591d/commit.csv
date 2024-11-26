@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4c305fa2cbe2a85c34899763fcefb843c87b591d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tg3: Implement the shutdown handler
-
-Also remove the call to tg3_power_down_prepare() in tg3_power_down()
-since tg3_close() calls it.
-
-Signed-off-by: Nithin Nayak Sujir <nsujir@broadcom.com>
-Signed-off-by: Michael Chan <mchan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Nithin Sujir|nsujir@broadcom.com|2013-07-29 13:58:37-07:00|25200|David S. Miller|davem@davemloft.net|2013-07-29 23:38:52-07:00|25200

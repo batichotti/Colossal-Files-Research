@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0c169b8afd1def63d95702cad45a0908c643a8c8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"habanalabs: check to load F/W before boot status
-
-This patch changes the order of checks when initializing the device CPU.
-We want first to check if we need to load the F/W, and only if we need to,
-then we want to check the status of the CPU boot program.
-
-Signed-off-by: Oded Gabbay <oded.gabbay@gmail.com>"|1|Oded Gabbay|oded.gabbay@gmail.com|2019-05-08 12:22:41+03:00|-10800|Oded Gabbay|oded.gabbay@gmail.com|2019-05-08 12:22:41+03:00|-10800

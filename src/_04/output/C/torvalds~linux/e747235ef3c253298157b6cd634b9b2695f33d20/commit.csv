@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e747235ef3c253298157b6cd634b9b2695f33d20|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/radeon: include drm/drm_edid.h only where needed
-
-Including drm_edid.h from radeon_mode.h causes the rebuild of more than
-a hundred files when drm_edid.h is modified, while there are only a
-handful of files that actually need to include drm_edid.h.
-
-Signed-off-by: Jani Nikula <jani.nikula@intel.com>
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|11|Jani Nikula|jani.nikula@intel.com|2023-12-12 15:53:38+02:00|-7200|Alex Deucher|alexander.deucher@amd.com|2023-12-13 15:28:31-05:00|18000

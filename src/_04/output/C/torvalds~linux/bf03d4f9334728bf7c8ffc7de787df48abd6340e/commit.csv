@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bf03d4f9334728bf7c8ffc7de787df48abd6340e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: introduce is_pae_paging
-
-Checking for 32-bit PAE is quite common around code that fiddles with
-the PDPTRs.  Add a function to compress all checks into a single
-invocation.
-
-Reviewed-by: Sean Christopherson <sean.j.christopherson@intel.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|4|Paolo Bonzini|pbonzini@redhat.com|2019-06-06 18:52:44+02:00|-7200|Paolo Bonzini|pbonzini@redhat.com|2019-06-18 11:47:38+02:00|-7200

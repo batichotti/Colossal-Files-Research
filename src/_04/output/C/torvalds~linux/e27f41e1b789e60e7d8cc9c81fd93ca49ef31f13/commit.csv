@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e27f41e1b789e60e7d8cc9c81fd93ca49ef31f13|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: give i_aiodio_unwritten a more appropriate name
-
-AIO/DIO prefix is wrong because it account unwritten extents which
-also may be scheduled from buffered write endio
-
-Reviewed-by: Jan Kara <jack@suse.cz>
-Signed-off-by: Dmitry Monakhov <dmonakhov@openvz.org>
-Signed-off-by: ""Theodore Ts'o"" <tytso@mit.edu>"|4|Dmitry Monakhov|dmonakhov@openvz.org|2012-09-28 23:24:52-04:00|14400|Theodore Ts'o|tytso@mit.edu|2012-09-28 23:24:52-04:00|14400

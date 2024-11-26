@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|12306276fabcb746a14979e96f43a13c724dec49|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tracing: Move the trace_seq_* functions into its own trace_seq.c file
-
-The trace_seq_*() functions are a nice utility that allows users to manipulate
-buffers with printf() like formats. It has its own trace_seq.h header in
-include/linux and should be in its own file. Being tied with trace_output.c
-is rather awkward.
-
-Signed-off-by: Steven Rostedt <rostedt@goodmis.org>"|6|Steven Rostedt (Red Hat)|rostedt@goodmis.org|2014-06-20 13:38:54-04:00|14400|Steven Rostedt|rostedt@goodmis.org|2014-07-01 07:13:35-04:00|14400

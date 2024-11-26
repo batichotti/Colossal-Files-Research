@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3ae1dc756f48ba33428c7f958e9f19fa8244672c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: consolidate error paths in hci_phy_link_complete_evt()
-
-hci_phy_link_complete_evt() has several duplicate error paths -- consolidate
-them, using the *goto* statements.
-
-Signed-off-by: Sergey Shtylyov <s.shtylyov@omprussia.ru>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|1|Sergey Shtylyov|s.shtylyov@omprussia.ru|2020-10-07 18:54:15+03:00|-10800|Marcel Holtmann|marcel@holtmann.org|2020-11-11 12:11:03+01:00|-3600

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3b644cf6cef0324c595b86181220901b5bed0b99|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"igb: Remove adapter struct from these function call parameters
-
-Simplify a bunch of calls to these functions by moving the adapter
-struct out of the function arguments since that is not needed.
-
-Signed-off-by: Mitch Williams <mitch.a.williams@intel.com>
-Signed-off-by: Auke Kok <auke-jan.h.kok@intel.com>
-Signed-off-by: Jeff Garzik <jgarzik@redhat.com>"|1|Mitch Williams|mitch.a.williams@intel.com|2008-06-27 10:59:48-07:00|25200|Jeff Garzik|jgarzik@redhat.com|2008-07-04 08:46:57-04:00|14400

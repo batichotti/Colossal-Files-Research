@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|307b00c5e695857ca92fc6a4b8ab6c48f988a1b1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rtl8xxxu: Fix missing break in switch
-
-Add missing break statement in order to prevent the code from falling
-through to the default case.
-
-Fixes: 26f1fad29ad9 (""New driver: rtl8xxxu (mac80211)"")
-Signed-off-by: Gustavo A. R. Silva <gustavo@embeddedor.com>
-Signed-off-by: Kalle Valo <kvalo@codeaurora.org>"|1|Gustavo A. R. Silva|gustavo@embeddedor.com|2018-10-22 13:51:03+02:00|-7200|Kalle Valo|kvalo@codeaurora.org|2018-11-06 18:58:41+02:00|-7200

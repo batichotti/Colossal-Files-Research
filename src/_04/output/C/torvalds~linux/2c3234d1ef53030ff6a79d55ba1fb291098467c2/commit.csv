@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2c3234d1ef53030ff6a79d55ba1fb291098467c2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"xfs: rename flist/free_list to dfops
-
-Mechanical change of flist/free_list to dfops, since they're now
-deferred ops, not just a freeing list.
-
-Signed-off-by: Darrick J. Wong <darrick.wong@oracle.com>
-Reviewed-by: Brian Foster <bfoster@redhat.com>
-Signed-off-by: Dave Chinner <david@fromorbit.com>"|20|Darrick J. Wong|darrick.wong@oracle.com|2016-08-03 11:19:29+10:00|-36000|Dave Chinner|david@fromorbit.com|2016-08-03 11:19:29+10:00|-36000

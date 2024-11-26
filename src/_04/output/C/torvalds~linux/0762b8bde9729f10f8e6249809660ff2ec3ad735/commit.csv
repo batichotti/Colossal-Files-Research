@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0762b8bde9729f10f8e6249809660ff2ec3ad735|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"block: always set bdev->bd_part
-
-Till now, bdev->bd_part is set only if the bdev was for parts other
-than part0.  This patch makes bdev->bd_part always set so that code
-paths don't have to differenciate common handling.
-
-Signed-off-by: Tejun Heo <tj@kernel.org>
-Signed-off-by: Jens Axboe <jens.axboe@oracle.com>"|5|Tejun Heo|tj@kernel.org|2008-08-25 19:56:12+09:00|-32400|Jens Axboe|jens.axboe@oracle.com|2008-10-09 08:56:08+02:00|-7200

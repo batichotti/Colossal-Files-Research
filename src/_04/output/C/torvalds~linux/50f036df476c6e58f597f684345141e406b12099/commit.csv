@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|50f036df476c6e58f597f684345141e406b12099|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"habanalabs: use common fw_version read
-
-Instead of using multiple ASIC specific copies of functions to read the
-FW version use single common one that gets ASIC specific arguments.
-
-Signed-off-by: Ohad Sharabi <osharabi@habana.ai>
-Reviewed-by: Oded Gabbay <ogabbay@kernel.org>
-Signed-off-by: Oded Gabbay <ogabbay@kernel.org>"|4|Ohad Sharabi|osharabi@habana.ai|2021-04-11 15:26:28+03:00|-10800|Oded Gabbay|ogabbay@kernel.org|2021-06-18 15:23:38+03:00|-10800

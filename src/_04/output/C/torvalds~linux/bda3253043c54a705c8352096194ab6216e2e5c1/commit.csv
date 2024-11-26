@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bda3253043c54a705c8352096194ab6216e2e5c1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: fold ext4_sync_fs_nojournal() into ext4_sync_fs()
-
-This allows us to eliminate duplicate code, and eventually allow us to
-also fold ext4_sops and ext4_nojournal_sops together.
-
-Signed-off-by: Theodore Ts'o <tytso@mit.edu>"|1|Theodore Ts'o|tytso@mit.edu|2014-09-18 16:12:37-04:00|14400|Theodore Ts'o|tytso@mit.edu|2014-09-18 16:12:37-04:00|14400

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|74b4c5d4a9c073162a37d1c20c95cb33152ca474|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"xfs: remove unnecessary int returns from deferred refcount functions
-
-Remove the return value from the functions that schedule deferred
-refcount operations since they never fail and do not return status.
-
-Signed-off-by: Darrick J. Wong <darrick.wong@oracle.com>
-Reviewed-by: Dave Chinner <dchinner@redhat.com>"|5|Darrick J. Wong|darrick.wong@oracle.com|2019-08-26 17:06:04-07:00|25200|Darrick J. Wong|darrick.wong@oracle.com|2019-08-28 08:31:02-07:00|25200

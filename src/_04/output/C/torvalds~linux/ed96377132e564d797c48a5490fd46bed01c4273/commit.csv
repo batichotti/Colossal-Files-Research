@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ed96377132e564d797c48a5490fd46bed01c4273|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/radeon: fix typo in ci_stop_dpm()
-
-Need to use the RREG32_SMC() accessor since the register
-is an smc indirect index.
-
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>
-Cc: stable@vger.kernel.org"|1|Alex Deucher|alexander.deucher@amd.com|2014-07-08 18:25:25-04:00|14400|Alex Deucher|alexander.deucher@amd.com|2014-07-10 17:01:30-04:00|14400

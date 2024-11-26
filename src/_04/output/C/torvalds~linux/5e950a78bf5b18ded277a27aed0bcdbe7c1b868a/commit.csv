@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5e950a78bf5b18ded277a27aed0bcdbe7c1b868a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nl80211: Zero out the connection keys memory when freeing them.
-
-The connection keys are zeroed out in all other cases except this
-one. Let's fix the last one as well.
-
-Signed-off-by: Ola Olsson <ola.olsson@sonymobile.com>
-Reviewed-by: Julian Calaby <julian.calaby@gmail.com>
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Ola Olsson|ola1olsson@gmail.com|2016-02-11 01:00:22+01:00|-3600|Johannes Berg|johannes.berg@intel.com|2016-02-23 10:40:36+01:00|-3600

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|71a851b4d2a815adcfac09c1adda7ef6811fde66|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"perf_counter: Stop open coding unclone_ctx
-
-Instead of open coding the unclone context thingy, put it in
-a common function.
-
-Signed-off-by: Peter Zijlstra <a.p.zijlstra@chello.nl>
-LKML-Reference: <new-submission>
-Signed-off-by: Ingo Molnar <mingo@elte.hu>"|1|Peter Zijlstra|a.p.zijlstra@chello.nl|2009-07-10 09:06:56+02:00|-7200|Ingo Molnar|mingo@elte.hu|2009-07-10 10:28:40+02:00|-7200

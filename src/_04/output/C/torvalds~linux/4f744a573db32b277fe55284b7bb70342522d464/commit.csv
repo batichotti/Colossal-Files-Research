@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4f744a573db32b277fe55284b7bb70342522d464|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"media: atomisp: make sh_css_sp_init_pipeline() ISP version independent
-
-This function call has two parameters that are used only with
-ISP2401, enclosed on some ugly ifdefs. Make the function independent,
-passing NULL values for ISP2400.
-
-Signed-off-by: Mauro Carvalho Chehab <mchehab+huawei@kernel.org>"|6|Mauro Carvalho Chehab|mchehab+huawei@kernel.org|2020-04-23 09:11:01+02:00|-7200|Mauro Carvalho Chehab|mchehab+huawei@kernel.org|2020-05-20 12:32:16+02:00|-7200

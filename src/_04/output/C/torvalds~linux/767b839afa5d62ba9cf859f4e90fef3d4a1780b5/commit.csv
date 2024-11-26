@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|767b839afa5d62ba9cf859f4e90fef3d4a1780b5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: avoid clearing pending exception event twice
-
-The exception pending event is cleared by kvm_clear_exception_queue(). We
-shouldn't clear it again.
-
-Signed-off-by: Miaohe Lin <linmiaohe@huawei.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Miaohe Lin|linmiaohe@huawei.com|2020-01-18 10:41:55+08:00|-28800|Paolo Bonzini|pbonzini@redhat.com|2020-01-27 19:59:44+01:00|-3600

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8aab47574a7f5b46a4cdbc6fd820ab34e6c5dbf9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Move SMP crypto functions to a workqueue
-
-The function crypto_blkcipher_setkey() called by smp_e()
-can sleep, so all the crypto work has to be moved to
-hci_dev workqueue.
-
-Signed-off-by: Vinicius Costa Gomes <vinicius.gomes@openbossa.org>
-Signed-off-by: Gustavo F. Padovan <padovan@profusion.mobi>"|3|Vinicius Costa Gomes|vinicius.gomes@openbossa.org|2011-09-05 14:31:31-03:00|10800|Gustavo F. Padovan|padovan@profusion.mobi|2011-09-21 12:58:12-03:00|10800

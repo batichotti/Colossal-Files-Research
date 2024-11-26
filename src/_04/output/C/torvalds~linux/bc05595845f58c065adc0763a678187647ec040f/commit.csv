@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bc05595845f58c065adc0763a678187647ec040f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"selinux: remove unused bprm_check_security hook
-
-Remove unused bprm_check_security hook from SELinux.   This
-currently calls into the capabilities hook, which is a noop.
-
-Acked-by: Eric Paris <eparis@redhat.com>
-Acked-by: Serge Hallyn <serue@us.ibm.com>
-Signed-off-by: James Morris <jmorris@namei.org>"|1|James Morris|jmorris@namei.org|2009-01-29 11:28:33+11:00|-39600|James Morris|jmorris@namei.org|2009-01-30 08:55:01+11:00|-39600

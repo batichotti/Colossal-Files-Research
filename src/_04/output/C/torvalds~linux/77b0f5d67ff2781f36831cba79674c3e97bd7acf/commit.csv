@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|77b0f5d67ff2781f36831cba79674c3e97bd7acf|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: nVMX: Ack and write vector info to intr_info if L1 asks us to
-
-This feature emulates the ""Acknowledge interrupt on exit"" behavior.
-We can safely emulate it for L1 to run L2 even if L0 itself has it
-disabled (to run L1).
-
-Signed-off-by: Bandan Das <bsd@redhat.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|2|Bandan Das|bsd@redhat.com|2014-04-19 18:17:45-04:00|14400|Marcelo Tosatti|mtosatti@redhat.com|2014-04-22 18:41:33-03:00|10800

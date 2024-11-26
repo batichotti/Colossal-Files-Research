@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a20d636bee41ea67b382207bee216e70f7206752|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"raid5: fix duplicate checks for rdev->saved_raid_disk
-
-'first' will always be greater than or equal to 0, it is unnecessary to
-repeat the 0 check, clean it up.
-
-Signed-off-by: Jackie Liu <liuyun01@kylinos.cn>
-Signed-off-by: Song Liu <song@kernel.org>
-Signed-off-by: Jens Axboe <axboe@kernel.dk>"|1|Jackie Liu|liuyun01@kylinos.cn|2022-07-07 17:08:34+08:00|-28800|Jens Axboe|axboe@kernel.dk|2022-08-02 17:22:46-06:00|21600

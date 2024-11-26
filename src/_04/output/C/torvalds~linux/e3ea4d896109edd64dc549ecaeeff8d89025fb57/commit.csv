@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e3ea4d896109edd64dc549ecaeeff8d89025fb57|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[ALSA] hdsp - Add 'Sample Clock Source Locking' control
-
-RME HDSP driver
-Added 'Sample Clock Source Locking' control.  If this switch is on,
-the clock source can't be changed via PCM hw_params API (as sample rate).
-This will fix the problem of OSS-emulation, for example.
-
-Signed-off-by: Takashi Iwai <tiwai@suse.de>"|1|Takashi Iwai|tiwai@suse.de|2005-07-04 18:12:39+02:00|-7200|Jaroslav Kysela|perex@suse.cz|2005-07-28 12:21:53+02:00|-7200

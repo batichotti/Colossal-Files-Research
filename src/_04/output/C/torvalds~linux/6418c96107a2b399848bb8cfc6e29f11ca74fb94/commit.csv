@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6418c96107a2b399848bb8cfc6e29f11ca74fb94|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: deal with errors from updating the tree log
-
-During unlink we remove any references to the inode from
-the tree log.  It can return -ENOENT and other errors,
-and this changes the unlink code to deal with it.
-
-Signed-off-by: Chris Mason <chris.mason@oracle.com>"|1|Chris Mason|chris.mason@oracle.com|2010-10-30 07:34:24-04:00|14400|Chris Mason|chris.mason@oracle.com|2010-10-30 07:34:24-04:00|14400

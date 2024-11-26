@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ab0625f021f83ecb19c969188ba2af3d154c054e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"media: stv090x: Only print tuner lock if get_status is available
-
-The current code doesn't report tuner lock properly if the
-tuner get_status callback is not available, as reported by
-smatch:
-	drivers/media/dvb-frontends/stv090x.c:2220 stv090x_get_coldlock() error: uninitialized symbol 'reg'.
-
-Signed-off-by: Mauro Carvalho Chehab <mchehab@s-opensource.com>"|1|Mauro Carvalho Chehab|mchehab@s-opensource.com|2017-11-01 17:06:01-04:00|14400|Mauro Carvalho Chehab|mchehab@s-opensource.com|2017-12-11 13:04:52-05:00|18000

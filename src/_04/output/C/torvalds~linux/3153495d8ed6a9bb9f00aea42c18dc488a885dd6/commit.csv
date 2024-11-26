@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3153495d8ed6a9bb9f00aea42c18dc488a885dd6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: Fix incorrect inode nlink in btrfs_link()
-
-Link count of the inode is not decreased if btrfs_set_inode_index()
-fails.
-
-Signed-off-by: Miao Xie <miaox@cn.fujitsu.com>
-Singed-off-by: Li Zefan <lizf@cn.fujitsu.com>"|1|Miao Xie|miaox@cn.fujitsu.com|2011-04-13 13:19:21+08:00|-28800|Li Zefan|lizf@cn.fujitsu.com|2011-04-13 14:25:32+08:00|-28800

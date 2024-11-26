@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7a20b8a61eff81bdb7097a578752a74860e9d142|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: allocate node and hot data in the beginning of partition
-
-In order to give more spatial locality, this patch changes the block allocation
-policy which assigns beginning of partition for small and hot data/node blocks.
-In order to do this, we set noheap allocation by default and introduce another
-mount option, heap, to reset it back.
-
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|3|Jaegeuk Kim|jaegeuk@kernel.org|2017-03-24 20:41:45-04:00|14400|Jaegeuk Kim|jaegeuk@kernel.org|2017-03-29 17:34:37-07:00|25200

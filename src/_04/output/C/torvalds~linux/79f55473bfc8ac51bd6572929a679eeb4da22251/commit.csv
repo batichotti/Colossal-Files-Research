@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|79f55473bfc8ac51bd6572929a679eeb4da22251|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tcp: Fix a data-race around sysctl_tcp_comp_sack_nr.
-
-While reading sysctl_tcp_comp_sack_nr, it can be changed concurrently.
-Thus, we need to add READ_ONCE() to its reader.
-
-Fixes: 9c21d2fc41c0 (""tcp: add tcp_comp_sack_nr sysctl"")
-Signed-off-by: Kuniyuki Iwashima <kuniyu@amazon.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Kuniyuki Iwashima|kuniyu@amazon.com|2022-07-22 11:22:03-07:00|25200|David S. Miller|davem@davemloft.net|2022-07-25 12:42:10+01:00|-3600

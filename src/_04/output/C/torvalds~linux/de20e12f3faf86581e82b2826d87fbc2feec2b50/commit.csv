@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|de20e12f3faf86581e82b2826d87fbc2feec2b50|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8169: improve rtl8169_irq_mask_and_ack
-
-Code can be slightly simplified by acking even events we're not
-interested in. In addition add a comment making clear that the
-read has no functional purpose and is just a PCI commit.
-
-Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Heiner Kallweit|hkallweit1@gmail.com|2018-09-25 07:58:00+02:00|-7200|David S. Miller|davem@davemloft.net|2018-09-25 10:28:03-07:00|25200

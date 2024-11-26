@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b7f1de289c50beb4998611ba5373e539efd0f79f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Wait for vblank before unpinning old fb
-
-Be paranoid and ensure that the vblank has passed and the scanout has
-switched to the new fb, before unpinning the old one and possibly
-tearing down its PTEs.
-
-Signed-off-by: Chris Wilson <chris@chris-wilson.co.uk>"|1|Chris Wilson|chris@chris-wilson.co.uk|2010-12-14 16:09:31+00:00|0|Chris Wilson|chris@chris-wilson.co.uk|2010-12-15 10:33:23+00:00|0

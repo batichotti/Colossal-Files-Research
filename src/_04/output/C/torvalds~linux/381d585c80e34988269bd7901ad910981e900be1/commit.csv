@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|381d585c80e34988269bd7901ad910981e900be1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: Replace call-back set_tsc_khz() with a common function
-
-Both VMX and SVM propagate virtual_tsc_khz in the same way, so this
-patch removes the call-back set_tsc_khz() and replaces it with a common
-function.
-
-Signed-off-by: Haozhong Zhang <haozhong.zhang@intel.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|5|Haozhong Zhang|haozhong.zhang@intel.com|2015-10-20 15:39:04+08:00|-28800|Paolo Bonzini|pbonzini@redhat.com|2015-11-10 12:06:16+01:00|-3600

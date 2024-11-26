@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|819c4b949d3af009f0111e4a9ddfe3de5f2c2fe1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"amdgpu/pp: move amdgpu_fuses_default into static const.
-
-There is no reason that this gets passed back into the function
-from outside the file, just reference the table directly.
-
-Reviewed-by: Alex Deucher <alexander.deucher@amd.com>
-Signed-off-by: Dave Airlie <airlied@redhat.com>
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|3|Dave Airlie|airlied@redhat.com|2017-09-28 09:36:55+10:00|-36000|Alex Deucher|alexander.deucher@amd.com|2017-09-28 16:03:26-04:00|14400

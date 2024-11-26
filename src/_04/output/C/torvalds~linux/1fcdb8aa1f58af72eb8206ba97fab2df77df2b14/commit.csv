@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1fcdb8aa1f58af72eb8206ba97fab2df77df2b14|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rbd: simplify rbd_init_disk() a bit
-
-This just simplifies a few things in rbd_init_disk(), now that the
-previous patch has moved a bunch of initialization code out if it.
-Done separately to facilitate review.
-
-Signed-off-by: Alex Elder <elder@inktank.com>
-Reviewed-by: Josh Durgin <josh.durgin@inktank.com>"|1|Alex Elder|elder@inktank.com|2012-08-29 17:11:06-05:00|18000|Alex Elder|elder@inktank.com|2012-10-01 14:30:51-05:00|18000

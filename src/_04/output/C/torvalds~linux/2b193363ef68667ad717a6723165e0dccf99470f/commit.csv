@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2b193363ef68667ad717a6723165e0dccf99470f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md: change type of first arg to sync_page_io.
-
-Currently sync_page_io takes a 'bdev'.
-Every caller passes 'rdev->bdev'.
-We will soon want another field out of the rdev in sync_page_io,
-So just pass the rdev instead of the bdev out of it.
-
-Signed-off-by: NeilBrown <neilb@suse.de>"|5|NeilBrown|neilb@suse.de|2010-10-27 15:16:40+11:00|-39600|NeilBrown|neilb@suse.de|2010-10-28 17:36:11+11:00|-39600

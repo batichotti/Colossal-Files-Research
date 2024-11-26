@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5c521830cf3dfcf7638d409d8e02ed21020c064f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: Support discard requests when running in no-journal mode
-
-Issue discard request in ext4_free_blocks() when ext4 has no journal and
-is mounted with discard option.
-    
-Signed-off-by: Jiaying Zhang <jiayingz@google.com>
-Signed-off-by: ""Theodore Ts'o"" <tytso@mit.edu>"|1|Jiaying Zhang|jiayingz@google.com|2010-07-27 11:56:05-04:00|14400|Theodore Ts'o|tytso@mit.edu|2010-07-27 11:56:05-04:00|14400

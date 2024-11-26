@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4b57d6bcd94034e2eb168bdec2474e3b2b848e44|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"selinux: simply inode label states to INVALID and INITIALIZED
-
-There really is no need for LABEL_MISSING as we really only care if
-the inode's label is INVALID or INITIALIZED.  Also adjust the
-revalidate code to reload the label whenever the label is not
-INITIALIZED so we are less sensitive to label state in the future.
-
-Signed-off-by: Paul Moore <paul@paul-moore.com>"|2|Paul Moore|paul@paul-moore.com|2016-03-28 15:16:53-04:00|14400|Paul Moore|paul@paul-moore.com|2016-04-05 16:10:55-04:00|14400

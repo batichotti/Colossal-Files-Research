@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c227f912732f204c0ec4a577ba812401ac4672af|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: record dirty status of regular/symlink inode
-
-Maintain regular/symlink inode which has dirty pages in global dirty list
-and record their total dirty pages count like the way of handling directory
-inode.
-
-Signed-off-by: Chao Yu <chao2.yu@samsung.com>
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|6|Chao Yu|chao2.yu@samsung.com|2015-12-16 13:09:20+08:00|-28800|Jaegeuk Kim|jaegeuk@kernel.org|2015-12-16 08:58:12-08:00|28800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1b22bad779be7fe07242be04749ec969164528b8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: start search for new cluster at the beginning
-
-Instead of starting at zero (offset is always zero), request a cluster
-starting at search_start, that denotes the beginning of the current
-block group.
-
-Signed-off-by: Alexandre Oliva <oliva@lsd.ic.unicamp.br>
-Signed-off-by: Chris Mason <chris.mason@oracle.com>"|1|Alexandre Oliva|oliva@lsd.ic.unicamp.br|2011-11-30 13:43:00-05:00|18000|Chris Mason|chris.mason@oracle.com|2011-11-30 13:43:00-05:00|18000

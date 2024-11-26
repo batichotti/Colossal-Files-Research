@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3f3942aca6da351a12543aa776467791b63b3a78|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"proc: introduce proc_create_single{,_data}
-
-Variants of proc_create{,_data} that directly take a seq_file show
-callback and drastically reduces the boilerplate code in the callers.
-
-All trivial callers converted over.
-
-Signed-off-by: Christoph Hellwig <hch@lst.de>"|85|Christoph Hellwig|hch@lst.de|2018-05-15 15:57:23+02:00|-7200|Christoph Hellwig|hch@lst.de|2018-05-16 07:23:35+02:00|-7200

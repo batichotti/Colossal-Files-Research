@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cd0d7228b4f0279f219bc555fa0192dc072d79cd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tg3: Match power source to driver state
-
-Now that the driver state (and power source) is being more intensely
-scrutinized, we need to make sure it is correct 100% of the time.  This
-patch finds and fixes all dangling power state transitions.
-
-Signed-off-by: Matt Carlson <mcarlson@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Matt Carlson|mcarlson@broadcom.com|2011-07-13 09:27:33+00:00|0|David S. Miller|davem@davemloft.net|2011-07-14 08:41:59-07:00|25200

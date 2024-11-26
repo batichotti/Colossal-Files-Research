@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|58c383c62e1a4379cee531b56e4293211f2d5ded|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: s390: drop useless newline in debugging data
-
-the s390 debug feature does not need newlines. In fact it will
-result in empty lines. Get rid of 4 leftovers.
-
-Signed-off-by: Christian Borntraeger <borntraeger@de.ibm.com>
-Acked-by: Cornelia Huck <cornelia.huck@de.ibm.com>"|1|Christian Borntraeger|borntraeger@de.ibm.com|2015-10-12 13:27:29+02:00|-7200|Christian Borntraeger|borntraeger@de.ibm.com|2015-10-29 15:58:54+01:00|-3600

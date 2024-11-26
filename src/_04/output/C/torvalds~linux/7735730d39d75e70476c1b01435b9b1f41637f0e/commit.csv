@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7735730d39d75e70476c1b01435b9b1f41637f0e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: fix to propagate error from __get_meta_page()
-
-If caller of __get_meta_page() can handle error, let's propagate error
-from __get_meta_page().
-
-Signed-off-by: Chao Yu <yuchao0@huawei.com>
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|10|Chao Yu|yuchao0@huawei.com|2018-07-17 00:02:17+08:00|-28800|Jaegeuk Kim|jaegeuk@kernel.org|2018-08-01 11:52:36-07:00|25200

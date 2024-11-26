@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a8cb05b238e0edfd7c63f496d9ce3e238ea68a16|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tcp: Remove redundant code entering quickack mode
-
-tcp_enter_quickack_mode() already calls tcp_incr_quickack() and sets
-icsk->icsk_ack.ato  to TCP_ATO_MIN. This patch removes the duplication.
-
-Signed-off-by: Vijay Subramanian <subramanian.vijay@gmail.com>
-Reviewed-by: Flavio Leitner <fbl@redhat.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Vijay Subramanian|subramanian.vijay@gmail.com|2012-04-13 13:23:59+00:00|0|David S. Miller|davem@davemloft.net|2012-04-14 15:29:02-04:00|14400

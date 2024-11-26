@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9c90a9f64c21b0a3983655c9c08cf98489057a43|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nl80211: remove bogus genlmsg_end() error checking
-
-genlmsg_end() can't return an error since it returns the
-skb length so remove checks treating the return value as
-an error code.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2013-06-04 12:46:03+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2013-06-04 12:47:08+02:00|-7200

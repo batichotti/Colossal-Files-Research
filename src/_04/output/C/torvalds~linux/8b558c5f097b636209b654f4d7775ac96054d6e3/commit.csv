@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8b558c5f097b636209b654f4d7775ac96054d6e3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: remove fs/btrfs/compat.h
-
-fs/btrfs/compat.h only contained trivial macro wrappers of drop_nlink()
-and inc_nlink().  This doesn't belong in mainline.
-
-Signed-off-by: Zach Brown <zab@redhat.com>
-Signed-off-by: Josef Bacik <jbacik@fusionio.com>
-Signed-off-by: Chris Mason <chris.mason@fusionio.com>"|14|Zach Brown|zab@redhat.com|2013-10-16 12:10:34-07:00|25200|Chris Mason|chris.mason@fusionio.com|2013-11-11 22:03:19-05:00|18000

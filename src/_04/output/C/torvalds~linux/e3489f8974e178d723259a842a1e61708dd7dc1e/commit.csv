@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e3489f8974e178d723259a842a1e61708dd7dc1e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"selinux: kill selinux_sb_get_mnt_opts()
-
-it's much easier to just do the right thing in ->sb_show_options(),
-without bothering with allocating and populating arrays, etc.
-
-Reviewed-by: David Howells <dhowells@redhat.com>
-Signed-off-by: Al Viro <viro@zeniv.linux.org.uk>"|1|Al Viro|viro@zeniv.linux.org.uk|2018-12-13 00:24:36-05:00|18000|Al Viro|viro@zeniv.linux.org.uk|2018-12-21 11:48:15-05:00|18000

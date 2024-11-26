@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6cbf1c126cf6a727287d61b122fde00a8b827bfe|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sched: do not hurt SCHED_BATCH on wakeup
-
-measurements by Yanmin Zhang have shown that SCHED_BATCH tasks benefit
-if they run the same place_entity() logic as SCHED_OTHER tasks - so
-uniformize behavior in this area.
-
-Signed-off-by: Ingo Molnar <mingo@elte.hu>"|1|Ingo Molnar|mingo@elte.hu|2007-12-18 15:21:13+01:00|-3600|Ingo Molnar|mingo@elte.hu|2007-12-18 15:21:13+01:00|-3600

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6afae6336ac9c19b5956c003e882b1ee4bca2a9d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: wait discard IO completion without cmd_lock held
-
-Wait discard IO completion outside cmd_lock to avoid long latency
-of holding cmd_lock in IO busy scenario.
-
-Signed-off-by: Chao Yu <yuchao0@huawei.com>
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|1|Chao Yu|yuchao0@huawei.com|2017-05-19 23:46:45+08:00|-28800|Jaegeuk Kim|jaegeuk@kernel.org|2017-05-23 21:10:03-07:00|25200

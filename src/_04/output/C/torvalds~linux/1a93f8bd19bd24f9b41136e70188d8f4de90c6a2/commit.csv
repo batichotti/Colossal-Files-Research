@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1a93f8bd19bd24f9b41136e70188d8f4de90c6a2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tracing: Have the snapshot trigger use the mapping helper functions
-
-As the data pointer for individual ips will soon be removed and no longer
-passed to the callback function probe handlers, convert the snapshot
-trigger counter over to the new ftrace_func_mapper helper functions.
-
-Signed-off-by: Steven Rostedt (VMware) <rostedt@goodmis.org>"|1|Steven Rostedt (VMware)|rostedt@goodmis.org|2017-04-03 22:09:43-04:00|14400|Steven Rostedt (VMware)|rostedt@goodmis.org|2017-04-20 22:06:38-04:00|14400

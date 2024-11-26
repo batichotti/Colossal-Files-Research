@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5138826b52f8bc441770069b1b305e1d1426ae9e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cnic: Fix big endian bug
-
-The chip's page tables did not set up properly on big endian machines,
-causing EEH errors on PPC machines.
-
-Reported-by: Breno Leitao <leitao@linux.vnet.ibm.com>
-Signed-off-by: Michael Chan <mchan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Michael Chan|mchan@broadcom.com|2011-01-25 22:14:50+00:00|0|David S. Miller|davem@davemloft.net|2011-01-26 14:26:00-08:00|28800

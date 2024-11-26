@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c79b7b96db8b1240887686720cd149f2c5d979d6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mm/vmscan: Account large folios correctly
-
-The statistics we gather should count the number of pages, not the
-number of folios.  The logic in this function is somewhat convoluted,
-but even if we split the folio, I think the accounting is now correct.
-
-Signed-off-by: Matthew Wilcox (Oracle) <willy@infradead.org>"|1|Matthew Wilcox (Oracle)|willy@infradead.org|2022-01-17 14:46:55-05:00|18000|Matthew Wilcox (Oracle)|willy@infradead.org|2022-03-21 13:01:35-04:00|14400

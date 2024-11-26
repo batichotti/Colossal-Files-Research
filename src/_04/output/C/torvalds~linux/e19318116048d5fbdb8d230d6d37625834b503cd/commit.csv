@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e19318116048d5fbdb8d230d6d37625834b503cd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mm/page_alloc.c: add __meminit to alloc_pages_exact_nid()
-
-alloc_pages_exact_nid() is only called by __meminit alloc_page_cgroup()
-
-Signed-off-by: Fabian Frederick <fabf@skynet.be>
-Cc: Mel Gorman <mgorman@suse.de>
-Signed-off-by: Andrew Morton <akpm@linux-foundation.org>
-Signed-off-by: Linus Torvalds <torvalds@linux-foundation.org>"|2|Fabian Frederick|fabf@skynet.be|2014-08-06 16:04:59-07:00|25200|Linus Torvalds|torvalds@linux-foundation.org|2014-08-06 18:01:15-07:00|25200

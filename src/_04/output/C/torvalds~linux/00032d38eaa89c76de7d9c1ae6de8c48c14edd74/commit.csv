@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|00032d38eaa89c76de7d9c1ae6de8c48c14edd74|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: drop extent_io_ops::merge_bio_hook callback
-
-The data and metadata callback implementation both use the same
-function. We can remove the call indirection completely.
-
-Reviewed-by: Nikolay Borisov <nborisov@suse.com>
-Signed-off-by: David Sterba <dsterba@suse.com>"|5|David Sterba|dsterba@suse.com|2018-07-18 19:28:09+02:00|-7200|David Sterba|dsterba@suse.com|2018-08-06 13:12:56+02:00|-7200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bb29ab26863c022743143f27956cc0ca362f258c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sched: x86, track TSC-unstable events
-
-track TSC-unstable events and propagate it to the scheduler code.
-Also allow sched_clock() to be used when the TSC is unstable,
-the rq_clock() wrapper creates a reliable clock out of it.
-
-Signed-off-by: Ingo Molnar <mingo@elte.hu>"|3|Ingo Molnar|mingo@elte.hu|2007-07-09 18:51:59+02:00|-7200|Ingo Molnar|mingo@elte.hu|2007-07-09 18:51:59+02:00|-7200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f397d7c4c5e8a1eb93f2ed15808a509318ccf1dd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"usb: add struct usb_hub_port to store port related members.
-
-Add struct usb_hub_port pointer port_data in the struct usb_hub and allocate
-struct usb_hub_port perspectively for each ports to store private data.
-
-Signed-off-by: Lan Tianyu <tianyu.lan@intel.com>
-Signed-off-by: Greg Kroah-Hartman <gregkh@linuxfoundation.org>"|1|Lan Tianyu|tianyu.lan@intel.com|2012-05-11 16:08:29+08:00|-28800|Greg Kroah-Hartman|gregkh@linuxfoundation.org|2012-05-11 17:08:41-07:00|25200

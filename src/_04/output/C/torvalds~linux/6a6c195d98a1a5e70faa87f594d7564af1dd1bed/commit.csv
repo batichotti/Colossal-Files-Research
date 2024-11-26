@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6a6c195d98a1a5e70faa87f594d7564af1dd1bed|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"pinctrl: sh-pfc: r8a7794: Remove bogus IPSR9 field
-
-The Peripheral Function Select Register 9 contains 12 fields, but the
-variable field descriptor contains a 13th bogus field of 3 bits.
-
-Fixes: 43c4436e2f1890a7 (""pinctrl: sh-pfc: add R8A7794 PFC support"")
-Signed-off-by: Geert Uytterhoeven <geert+renesas@glider.be>
-Reviewed-by: Simon Horman <horms+renesas@verge.net.au>"|1|Geert Uytterhoeven|geert+renesas@glider.be|2018-12-12 14:21:16+01:00|-3600|Geert Uytterhoeven|geert+renesas@glider.be|2018-12-18 11:25:56+01:00|-3600

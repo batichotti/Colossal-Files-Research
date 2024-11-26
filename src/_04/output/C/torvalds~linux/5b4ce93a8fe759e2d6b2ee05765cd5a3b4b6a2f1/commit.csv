@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5b4ce93a8fe759e2d6b2ee05765cd5a3b4b6a2f1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: X86: avoid unused setup_syscalls_segments call when SYSCALL check failed
-
-When SYSCALL/SYSENTER ability check failed, cs and ss is inited but
-remain not used. Delay initializing cs and ss until SYSCALL/SYSENTER
-ability check passed.
-
-Signed-off-by: Miaohe Lin <linmiaohe@huawei.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Miaohe Lin|linmiaohe@huawei.com|2019-11-09 16:58:54+08:00|-28800|Paolo Bonzini|pbonzini@redhat.com|2019-11-15 11:44:02+01:00|-3600

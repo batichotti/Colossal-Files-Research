@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1425acb74b6d58690d78027021ce1d8f3068c66f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Fix mgmt_pair_device imediate error responses
-
-When possible cmd_complete should be returned instead of cmd_status
-since it contains the remote address (this helps user-space track what
-exactly failed).
-
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>
-Signed-off-by: Gustavo F. Padovan <padovan@profusion.mobi>"|1|Johan Hedberg|johan.hedberg@intel.com|2011-11-11 00:07:35+02:00|-7200|Gustavo F. Padovan|padovan@profusion.mobi|2011-11-16 15:59:49-02:00|7200

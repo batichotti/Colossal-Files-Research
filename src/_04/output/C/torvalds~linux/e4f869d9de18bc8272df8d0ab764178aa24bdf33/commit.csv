@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e4f869d9de18bc8272df8d0ab764178aa24bdf33|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md/raid5: remove pointless NULL test.
-
-In the 'abort' branch of run(), 'conf' cannot possibly be NULL,
-so remove the test.
-
-Reported-by: Zdenek Kabelac <zdenek.kabelac@gmail.com>
-Signed-off-by: NeilBrown <neilb@suse.de>"|1|NeilBrown|neilb@suse.de|2011-10-07 14:22:49+11:00|-39600|NeilBrown|neilb@suse.de|2011-10-07 14:22:49+11:00|-39600

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7959eb19e4a369639ff9e55eb1147360d5ac8ddb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: stop calling fscrypt_add_test_dummy_key()
-
-Now that fs/crypto/ adds the test dummy encryption key on-demand when
-it's needed, there's no need for individual filesystems to call
-fscrypt_add_test_dummy_key().  Remove the call to it from ext4.
-
-Signed-off-by: Eric Biggers <ebiggers@google.com>
-Link: https://lore.kernel.org/r/20230208062107.199831-3-ebiggers@kernel.org"|1|Eric Biggers|ebiggers@google.com|2023-02-07 22:21:04-08:00|28800|Eric Biggers|ebiggers@google.com|2023-02-07 22:30:30-08:00|28800

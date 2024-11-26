@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6d19c42b7cf81c39632b6d4dbc514e8449bcd346|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: Prevent creation of files larger than RLIMIT_FSIZE using fallocate
-
-Currently using posix_fallocate one can bypass an RLIMIT_FSIZE limit
-and create a file larger than the limit. Add a check for that.
-
-Signed-off-by: Nikanth Karthikesan <knikanth@suse.de>
-Signed-off-by: Amit Arora <aarora@in.ibm.com>
-Signed-off-by: ""Theodore Ts'o"" <tytso@mit.edu>"|1|Nikanth Karthikesan|knikanth@suse.de|2010-05-16 14:00:00-04:00|14400|Theodore Ts'o|tytso@mit.edu|2010-05-16 14:00:00-04:00|14400

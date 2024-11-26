@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8564e38206de2ff005a27c8d7c2ce3869a44f0dd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cfg80211: add checks for beacon rate, extend to mesh
-
-The previous commit added support for specifying the beacon rate
-for AP mode. Add features checks to this, and extend it to also
-support the rate configuration for mesh networks. For IBSS it's
-not as simple due to joining etc., so that's not yet supported.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|3|Johannes Berg|johannes.berg@intel.com|2016-09-19 09:44:44+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2016-09-26 10:23:48+02:00|-7200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|095e56c7036fe97bc3ebcd80ed6e121be0847656|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sched: fix startup penalty calculation
-
-fix task startup penalty miscalculation: sysctl_sched_granularity is
-unsigned int and wait_runtime is long so we first have to convert it
-to long before turning it negative ...
-
-Signed-off-by: Ingo Molnar <mingo@elte.hu>"|1|Ingo Molnar|mingo@elte.hu|2007-08-24 20:39:10+02:00|-7200|Ingo Molnar|mingo@elte.hu|2007-08-24 20:39:10+02:00|-7200

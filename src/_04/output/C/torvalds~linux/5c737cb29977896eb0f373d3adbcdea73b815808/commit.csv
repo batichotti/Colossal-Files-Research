@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5c737cb29977896eb0f373d3adbcdea73b815808|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Fix nfs_client refcounting if kmalloc fails in nfs4_proc_exchange_id and nfs4_proc_async_renew
-
-If memory allocation fails for the callback data, we need to put the nfs_client
-or we end up with an elevated refcount.
-
-Signed-off-by: Dave Wysochanski <dwysocha@redhat.com>
-Signed-off-by: Trond Myklebust <trond.myklebust@primarydata.com>"|1|Dave Wysochanski|dwysocha@redhat.com|2017-04-27 10:45:15-04:00|14400|Trond Myklebust|trond.myklebust@primarydata.com|2017-05-05 13:01:32-04:00|14400

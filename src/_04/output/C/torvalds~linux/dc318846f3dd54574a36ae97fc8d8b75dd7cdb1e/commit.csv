@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|dc318846f3dd54574a36ae97fc8d8b75dd7cdb1e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ksmbd: fix out of bounds in smb3_decrypt_req()
-
-smb3_decrypt_req() validate if pdu_length is smaller than
-smb2_transform_hdr size.
-
-Reported-by: zdi-disclosures@trendmicro.com # ZDI-CAN-21589
-Signed-off-by: Namjae Jeon <linkinjeon@kernel.org>
-Signed-off-by: Steve French <stfrench@microsoft.com>"|1|Namjae Jeon|linkinjeon@kernel.org|2023-07-22 00:09:28+09:00|-32400|Steve French|stfrench@microsoft.com|2023-07-23 10:25:11-05:00|18000

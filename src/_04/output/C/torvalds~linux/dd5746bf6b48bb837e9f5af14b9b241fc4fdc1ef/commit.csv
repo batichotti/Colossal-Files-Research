@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|dd5746bf6b48bb837e9f5af14b9b241fc4fdc1ef|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"be2net: Check for POST state in suspend-resume sequence
-
-In suspend-resume sequence, the OS could attempt to initialize the controller
-before it is ready, check for POST state before going ahead.
-
-Signed-off-by: Sarveshwar Bandi <sarveshwar.bandi@emulex.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Sarveshwar Bandi|sarveshwar.bandi@emulex.com|2013-08-23 14:59:33+05:30|-19800|David S. Miller|davem@davemloft.net|2013-08-26 16:55:26-04:00|14400

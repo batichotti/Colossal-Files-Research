@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5f152a572c10cae4b08c2c5f2932a51684f454ba|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/radeon: use pcie functions for link width
-
-This is the last user of drm_pcie_get_speed_cap_mask.  Use the pci
-version so we can drop drm_pcie_get_speed_cap_mask.
-
-Acked-by: Christian König <christian.koenig@amd.com>
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|6|Alex Deucher|alexander.deucher@amd.com|2018-06-25 14:37:45-05:00|18000|Alex Deucher|alexander.deucher@amd.com|2018-07-05 16:40:00-05:00|18000

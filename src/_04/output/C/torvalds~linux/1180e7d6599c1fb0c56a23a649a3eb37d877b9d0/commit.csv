@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1180e7d6599c1fb0c56a23a649a3eb37d877b9d0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: cleanup vlan_features setting in register_netdev
-
-vlan_features contains features inherited from underlying device.
-NETIF_SOFT_FEATURES are not inherited but belong to the vlan device
-itself (ensured in vlan_dev_fix_features()).
-
-Signed-off-by: Michał Mirosław <mirq-linux@rere.qmqm.pl>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Michał Mirosław|mirq-linux@rere.qmqm.pl|2011-07-14 14:41:11-07:00|25200|David S. Miller|davem@davemloft.net|2011-07-14 14:41:11-07:00|25200

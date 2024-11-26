@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|462658b8b3bce3bf8cb158ef59ea88af54ac9277|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/panel: simple: Allow DSI panels to provide mode flags
-
-In order to differentiate between the different video modes (burst vs.
-non-burst, sync pulses vs. sync events) supported by peripherals, pass
-the flags that specify this mode in the panel description to the DSI
-peripheral device when probed.
-
-Signed-off-by: Thierry Reding <treding@nvidia.com>"|1|Thierry Reding|treding@nvidia.com|2014-03-14 11:24:57+01:00|-3600|Thierry Reding|treding@nvidia.com|2014-04-04 09:06:39+02:00|-7200

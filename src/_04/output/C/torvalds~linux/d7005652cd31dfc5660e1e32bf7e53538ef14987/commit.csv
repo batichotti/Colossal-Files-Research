@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d7005652cd31dfc5660e1e32bf7e53538ef14987|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: ethernet: mediatek: fixed that initializing u64_stats_sync is missing
-
-To fix runtime warning with lockdep is enabled due that u64_stats_sync
-is not initialized well, so add it.
-
-Signed-off-by: Sean Wang <sean.wang@mediatek.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|sean.wang@mediatek.com|sean.wang@mediatek.com|2016-08-13 19:16:18+08:00|-28800|David S. Miller|davem@davemloft.net|2016-08-13 14:58:38-07:00|25200

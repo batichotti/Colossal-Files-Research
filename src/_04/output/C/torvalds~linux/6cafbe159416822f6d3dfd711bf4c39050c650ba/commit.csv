@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6cafbe159416822f6d3dfd711bf4c39050c650ba|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ftrace: Add a ftrace_free_mem() function for modules to use
-
-In order to be able to trace module init functions, the module code needs to
-tell ftrace what is being freed when the init sections are freed. Use the
-code that the main init calls to tell ftrace to free the main init sections.
-This requires passing in a start and end address to free.
-
-Signed-off-by: Steven Rostedt (VMware) <rostedt@goodmis.org>"|2|Steven Rostedt (VMware)|rostedt@goodmis.org|2017-06-20 10:44:58-04:00|14400|Steven Rostedt (VMware)|rostedt@goodmis.org|2017-10-04 14:20:52-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|983c751532738b83c4c5b51192ebc6fbfe9330f7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"workqueue: separate out init_rescuer()
-
-Separate out init_rescuer() from __alloc_workqueue_key() to prepare
-for early init support for WQ_MEM_RECLAIM.  This patch doesn't
-introduce any functional changes.
-
-Signed-off-by: Tejun Heo <tj@kernel.org>
-Cc: Paul McKenney <paulmck@linux.vnet.ibm.com>"|1|Tejun Heo|tj@kernel.org|2018-01-08 05:38:32-08:00|28800|Tejun Heo|tj@kernel.org|2018-01-08 05:38:32-08:00|28800

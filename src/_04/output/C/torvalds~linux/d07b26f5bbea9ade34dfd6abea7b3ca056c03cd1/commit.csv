@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d07b26f5bbea9ade34dfd6abea7b3ca056c03cd1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"dev_addr: add a modification check
-
-netdev->dev_addr should only be modified via helpers,
-but someone may be casting off the const. Add a runtime
-check to catch abuses.
-
-Signed-off-by: Jakub Kicinski <kuba@kernel.org>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|Jakub Kicinski|kuba@kernel.org|2021-11-19 06:21:53-08:00|28800|David S. Miller|davem@davemloft.net|2021-11-20 12:25:57+00:00|0

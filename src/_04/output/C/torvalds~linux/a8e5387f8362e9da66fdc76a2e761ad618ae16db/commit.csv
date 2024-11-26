@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a8e5387f8362e9da66fdc76a2e761ad618ae16db|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ipw2200: Fix a function name in print messages
-
-Use dma_alloc_coherent() instead of pci_alloc_consistent(),
-because only dma_alloc_coherent() is called here.
-
-Signed-off-by: Cai Huoqing <caihuoqing@baidu.com>
-Signed-off-by: Kalle Valo <kvalo@codeaurora.org>
-Link: https://lore.kernel.org/r/20210925124621.197-1-caihuoqing@baidu.com"|1|Cai Huoqing|caihuoqing@baidu.com|2021-09-25 20:46:20+08:00|-28800|Kalle Valo|kvalo@codeaurora.org|2021-09-28 11:24:18+03:00|-10800

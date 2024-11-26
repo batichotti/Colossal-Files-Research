@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|77041ed9b49a9e10f374bfa6e482d30ee7a3d46e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: Ensure the lockowners are labelled using the fl_owner and/or fl_pid
-
-flock locks want to be labelled using the process pid, while posix locks
-want to be labelled using the fl_owner.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|4|Trond Myklebust|Trond.Myklebust@netapp.com|2010-07-01 12:49:11-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2010-07-30 14:46:10-04:00|14400

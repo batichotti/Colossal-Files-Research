@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2feb27dbe00cbb4f7d31f90acf6bd0d751dd0a50|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[NETNS]: Minor information leak via /proc/net/ptype file.
-
-This file displays the registered packet types, but some of them
-(packet sockets creates such) can be bound to a net device and showing
-them in a wrong namespace is not correct.
-
-Signed-off-by: Pavel Emelyanov <xemul@openvz.org>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Pavel Emelyanov|xemul@openvz.org|2008-03-24 14:57:45-07:00|25200|David S. Miller|davem@davemloft.net|2008-03-24 14:57:45-07:00|25200

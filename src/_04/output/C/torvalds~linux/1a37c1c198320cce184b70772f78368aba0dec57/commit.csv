@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1a37c1c198320cce184b70772f78368aba0dec57|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: stmmac: clean up passing fwnode to phylink
-
-Move the initialisation of the fwnode variable closer to its use
-site, rather than scattered throughout stmmac_phy_setup().
-
-Signed-off-by: Russell King (Oracle) <rmk+kernel@armlinux.org.uk>
-Link: https://lore.kernel.org/r/E1qZAXD-005pTv-TN@rmk-PC.armlinux.org.uk
-Signed-off-by: Jakub Kicinski <kuba@kernel.org>"|1|Russell King (Oracle)|rmk+kernel@armlinux.org.uk|2023-08-24 14:38:03+01:00|-3600|Jakub Kicinski|kuba@kernel.org|2023-08-25 18:55:18-07:00|25200

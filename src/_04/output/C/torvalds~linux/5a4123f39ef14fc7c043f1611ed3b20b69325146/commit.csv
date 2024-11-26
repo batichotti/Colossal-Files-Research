@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5a4123f39ef14fc7c043f1611ed3b20b69325146|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net/ethernet/broadcom/bnx2: Use module_pci_driver to register driver
-
-Removing some boilerplate by using module_pci_driver instead of calling
-register and unregister in the otherwise empty init/exit functions.
-
-Signed-off-by: Peter Huewe <peterhuewe@gmx.de>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Peter Hüwe|PeterHuewe@gmx.de|2013-05-21 12:58:05+00:00|0|David S. Miller|davem@davemloft.net|2013-05-22 14:35:04-07:00|25200

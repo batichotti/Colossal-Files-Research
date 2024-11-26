@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|db18644f90e664bf30f58cf9b8bc879598bff62f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"OMAPDSS: DSI: remove dsi_get_num_lanes_used
-
-There's no longer need for the dsi_get_num_lanes_used function, so it
-can be removed. The lane check in dsi_init_display() can be removed as
-the validity of the config will be verified when parsing it.
-
-Signed-off-by: Tomi Valkeinen <tomi.valkeinen@ti.com>"|1|Tomi Valkeinen|tomi.valkeinen@ti.com|2011-10-13 16:12:29+03:00|-10800|Tomi Valkeinen|tomi.valkeinen@ti.com|2011-12-02 08:54:18+02:00|-7200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|343104308a33c4f1e23c8e841ede95e97b870842|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: Fix up another delegation related race
-
-When we can update_open_stateid(), we need to be certain that we don't
-race with a delegation return. While we could do this by grabbing the
-nfs_client->cl_lock, a dedicated spin lock in the delegation structure
-will scale better.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|3|Trond Myklebust|Trond.Myklebust@netapp.com|2008-12-23 15:21:38-05:00|18000|Trond Myklebust|Trond.Myklebust@netapp.com|2008-12-23 15:21:38-05:00|18000

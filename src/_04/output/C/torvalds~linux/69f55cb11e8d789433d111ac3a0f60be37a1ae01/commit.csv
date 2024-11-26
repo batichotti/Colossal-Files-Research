@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|69f55cb11e8d789433d111ac3a0f60be37a1ae01|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86 emulator: populate OP_MEM operand during decoding.
-
-All struct operand fields are initialized during decoding for all
-operand types except OP_MEM, but there is no reason for that. Move
-OP_MEM operand initialization into decoding stage for consistency.
-
-Signed-off-by: Gleb Natapov <gleb@redhat.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|1|Gleb Natapov|gleb@redhat.com|2010-03-18 15:20:20+02:00|-7200|Avi Kivity|avi@redhat.com|2010-05-17 12:16:20+03:00|-10800

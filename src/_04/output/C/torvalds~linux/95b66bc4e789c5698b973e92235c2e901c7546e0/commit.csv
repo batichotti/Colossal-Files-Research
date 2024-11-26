@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|95b66bc4e789c5698b973e92235c2e901c7546e0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"crypto: hisilicon/qm - check mailbox operation result
-
-After the mailbox operation is complete, the result may be unsuccessful.
-It needs to check the status bits of the mailbox register,
-if it fails, -EIO is returned.
-
-Signed-off-by: Weili Qian <qianweili@huawei.com>
-Signed-off-by: Herbert Xu <herbert@gondor.apana.org.au>"|1|Weili Qian|qianweili@huawei.com|2022-08-27 18:26:57+08:00|-28800|Herbert Xu|herbert@gondor.apana.org.au|2022-09-02 18:38:06+08:00|-28800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7733b8dd189a9e525c2d53bdd4efb26e04a8d737|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: abort transaction on errors in btrfs_free_chunk()
-
-The errors during removing a chunk item are fatal, we expect to have a
-matching item in the chunk map from which the chunk_offset is taken.
-Handle that by transaction abort.
-
-Reviewed-by: Qu Wenruo <wqu@suse.com>
-Signed-off-by: David Sterba <dsterba@suse.com>"|1|David Sterba|dsterba@suse.com|2024-05-22 17:52:38+02:00|-7200|David Sterba|dsterba@suse.com|2024-07-11 15:33:27+02:00|-7200

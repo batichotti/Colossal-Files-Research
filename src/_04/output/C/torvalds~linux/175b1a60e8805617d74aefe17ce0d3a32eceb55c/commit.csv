@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|175b1a60e8805617d74aefe17ce0d3a32eceb55c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"locking/lockdep: Clean up check_redundant() a bit
-
-In preparation for adding an TRACE_IRQFLAGS dependent skip function to
-check_redundant(), move it below the TRACE_IRQFLAGS #ifdef.
-
-While there, provide a stub function to reduce #ifdef usage.
-
-Signed-off-by: Peter Zijlstra (Intel) <peterz@infradead.org>"|1|Peter Zijlstra|peterz@infradead.org|2020-12-10 11:16:34+01:00|-3600|Peter Zijlstra|peterz@infradead.org|2021-01-14 11:20:17+01:00|-3600

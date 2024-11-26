@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bd3351ba3e5e3e5b635532fab63da502129141f9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"iwlwifi: mvm: add some missing cleanups in iwl_mvm_mac_add_interface
-
-iwl_mvm_mac_add_interface() didn't clean up beacon filtering
-configuration and ctxt allocation in some error cases.
-
-Signed-off-by: Eliad Peller <eliad@wizery.com>
-Reviewed-by: Alexander Bondar <alexander.bondar@intel.com>
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Eliad Peller|eliad@wizery.com|2013-07-16 17:50:17+03:00|-10800|Johannes Berg|johannes.berg@intel.com|2013-08-06 10:34:52+02:00|-7200

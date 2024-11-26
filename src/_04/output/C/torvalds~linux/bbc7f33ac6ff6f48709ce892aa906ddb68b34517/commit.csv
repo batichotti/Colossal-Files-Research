@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bbc7f33ac6ff6f48709ce892aa906ddb68b34517|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd: fix year-2038 nfs4 state problem
-
-Someone with a weird time_t happened to notice this, it shouldn't really
-manifest till 2038.  It may not be our ownly year-2038 problem.
-
-Reported-by: Aaron Pace <Aaron.Pace@alcatel-lucent.com>
-Signed-off-by: J. Bruce Fields <bfields@redhat.com>"|1|J. Bruce Fields|bfields@redhat.com|2015-01-20 11:51:26-05:00|18000|J. Bruce Fields|bfields@redhat.com|2015-01-23 10:29:11-05:00|18000

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3704eb6f6fd09023e2c94e8ead687b908ab02135|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net/mlx4: use rb_entry()
-
-To make the code clearer, use rb_entry() instead of container_of() to
-deal with rbtree.
-
-Signed-off-by: Geliang Tang <geliangtang@gmail.com>
-Reviewed-by: Leon Romanovsky <leonro@mellanox.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Geliang Tang|geliangtang@gmail.com|2017-01-20 22:36:57+08:00|-28800|David S. Miller|davem@davemloft.net|2017-01-22 16:46:13-05:00|18000

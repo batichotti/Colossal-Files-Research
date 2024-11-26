@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|73a79706d7f197a428a43fbf335bbe75cdbc221f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS: Split out NFS v4 inode operations
-
-The NFS v4 file inode operations are already already in nfs4proc.c, so
-this patch just needs to move the directory operations to the same file.
-
-Signed-off-by: Bryan Schumaker <bjschuma@netapp.com>
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|3|Bryan Schumaker|bjschuma@netapp.com|2012-07-16 16:39:12-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2012-07-17 13:33:05-04:00|14400

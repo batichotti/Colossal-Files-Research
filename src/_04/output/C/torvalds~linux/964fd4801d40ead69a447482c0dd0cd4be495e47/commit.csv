@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|964fd4801d40ead69a447482c0dd0cd4be495e47|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bnxt_en: Allow NETIF_F_NTUPLE to be enabled on VFs.
-
-Commit ae10ae740ad2 (""bnxt_en: Add new hardware RFS mode."") has added
-code to allow NTUPLE to be enabled on VFs.  So we now remove the
-BNXT_VF() check in rfs_capable() to allow NTUPLE on VFs.
-
-Signed-off-by: Michael Chan <michael.chan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Michael Chan|michael.chan@broadcom.com|2017-02-12 19:18:13-05:00|18000|David S. Miller|davem@davemloft.net|2017-02-12 22:18:49-05:00|18000

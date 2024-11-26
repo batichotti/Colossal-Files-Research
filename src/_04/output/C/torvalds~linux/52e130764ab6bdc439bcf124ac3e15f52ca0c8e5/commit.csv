@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|52e130764ab6bdc439bcf124ac3e15f52ca0c8e5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tools/power turbostat: Move debug prints from stdout to stderr
-
-This leaves the stdout cleaner, having only counter data. It makes it
-easier for programs to parse the output of turbostat, for example
-selftests.
-
-Signed-off-by: Patryk Wlazlyn <patryk.wlazlyn@linux.intel.com>
-Signed-off-by: Len Brown <len.brown@intel.com>"|1|Patryk Wlazlyn|patryk.wlazlyn@linux.intel.com|2024-07-10 11:34:38+02:00|-7200|Len Brown|len.brown@intel.com|2024-07-26 13:40:20-04:00|14400

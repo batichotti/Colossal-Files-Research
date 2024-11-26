@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|048442807aba49898a502fa7a87f4b48776359ff|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: dsa: mv88e6xxx: vlan_tci is __be16
-
-The flow spec member vlan_tci is in network order. Hence comparisons
-should be made again network order values.
-
-Signed-off-by: Andrew Lunn <andrew@lunn.ch>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Andrew Lunn|andrew@lunn.ch|2020-07-05 21:38:08+02:00|-7200|David S. Miller|davem@davemloft.net|2020-07-05 15:43:01-07:00|25200

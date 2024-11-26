@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|785dbef407d8b3c82348aba2689e493c752c62ec|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: s390: optimize round trip time in request handling
-
-The fast path for a sie exit is that no kvm reqest is pending.
-Make an early check to skip all single bit checks.
-
-Reviewed-by: David Hildenbrand <dahi@linux.vnet.ibm.com>
-Signed-off-by: Christian Borntraeger <borntraeger@de.ibm.com>"|1|Christian Borntraeger|borntraeger@de.ibm.com|2015-04-16 16:58:22+02:00|-7200|Christian Borntraeger|borntraeger@de.ibm.com|2015-05-08 15:51:12+02:00|-7200

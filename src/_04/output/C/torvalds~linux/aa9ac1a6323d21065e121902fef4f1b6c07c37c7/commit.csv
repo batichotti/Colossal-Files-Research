@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|aa9ac1a6323d21065e121902fef4f1b6c07c37c7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: emulator: check rex prefix inside decode_register()
-
-All decode_register() callers check if instruction has rex prefix
-to properly decode one byte operand. It make sense to move the check
-inside.
-
-Reviewed-by: Paolo Bonzini <pbonzini@redhat.com>
-Signed-off-by: Gleb Natapov <gleb@redhat.com>"|1|Gleb Natapov|gleb@redhat.com|2013-11-04 15:52:41+02:00|-7200|Gleb Natapov|gleb@redhat.com|2013-11-05 09:11:18+02:00|-7200

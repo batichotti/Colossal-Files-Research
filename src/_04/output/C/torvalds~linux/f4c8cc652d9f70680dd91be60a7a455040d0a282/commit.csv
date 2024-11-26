@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f4c8cc652d9f70680dd91be60a7a455040d0a282|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: missing unlock in ext4_clear_request_list()
-
-If the the li_request_list was empty then it returned with the lock
-held.  Instead of adding a ""goto unlock"" I just removed that special
-case and let it go past the empty list_for_each_safe().
-
-Signed-off-by: Dan Carpenter <error27@gmail.com>
-Signed-off-by: ""Theodore Ts'o"" <tytso@mit.edu>"|1|Dan Carpenter|error27@gmail.com|2010-11-17 21:46:25-05:00|18000|Theodore Ts'o|tytso@mit.edu|2010-11-17 21:46:25-05:00|18000

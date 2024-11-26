@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8f71c6c3157d12c90d3cf920dd5e94045679fdce|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Don't write static address during power on
-
-Since we always update the random address before enabling advertising,
-scanning and initiating LE connections there is no need to write the
-random address add power on.
-
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|1|Johan Hedberg|johan.hedberg@intel.com|2014-02-23 19:42:25+02:00|-7200|Marcel Holtmann|marcel@holtmann.org|2014-02-23 12:24:26-08:00|28800

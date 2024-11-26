@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a48bd8f67003c342e147309a331f656a5e75a5e4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"virtio: flush buffers on open
-
-Fix bug found by Christian Borntraeger: if the other side fills all
-the registered network buffers before we enable NAPI, we will never
-get an interrupt.  The simplest fix is to process the input queue once
-on open.
-
-Signed-off-by: Rusty Russell <rusty@rustcorp.com.au>"|1|Rusty Russell|rusty@rustcorp.com.au|2008-02-04 23:50:07-05:00|18000|Rusty Russell|rusty@rustcorp.com.au|2008-02-04 23:50:07+11:00|-39600

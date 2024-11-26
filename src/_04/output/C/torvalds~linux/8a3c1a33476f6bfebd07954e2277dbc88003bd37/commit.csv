@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8a3c1a33476f6bfebd07954e2277dbc88003bd37|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: mmu: change useless int return types to void
-
-kvm_mmu initialization is mostly filling in function pointers, there is
-no way for it to fail.  Clean up unused return values.
-
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>
-Signed-off-by: Gleb Natapov <gleb@redhat.com>"|6|Paolo Bonzini|pbonzini@redhat.com|2013-10-02 16:56:13+02:00|-7200|Gleb Natapov|gleb@redhat.com|2013-10-03 15:44:02+03:00|-10800

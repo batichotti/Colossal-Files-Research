@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|17f8c842d24ac054e4212c82b5bd6ae455a334f3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Remove rw from {,__,do_}blockdev_direct_IO()
-
-Most filesystems call through to these at some point, so we'll start
-here.
-
-Signed-off-by: Omar Sandoval <osandov@osandov.com>
-Signed-off-by: Al Viro <viro@zeniv.linux.org.uk>"|20|Omar Sandoval|osandov@osandov.com|2015-03-16 04:33:50-07:00|25200|Al Viro|viro@zeniv.linux.org.uk|2015-04-11 22:29:44-04:00|14400

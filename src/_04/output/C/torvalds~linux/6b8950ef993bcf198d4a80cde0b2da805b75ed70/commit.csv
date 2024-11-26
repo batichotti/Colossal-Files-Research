@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6b8950ef993bcf198d4a80cde0b2da805b75ed70|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sched_ext: Replace scx_next_task_picked() with switch_class() in comment
-
-scx_next_task_picked() has been replaced with siwtch_class(), but comment
-is still referencing old one, so replace it.
-
-Signed-off-by: Zhao Mengmeng <zhaomengmeng@kylinos.cn>
-Signed-off-by: Tejun Heo <tj@kernel.org>"|1|Zhao Mengmeng|zhaomengmeng@kylinos.cn|2024-11-15 09:17:09+08:00|-28800|Tejun Heo|tj@kernel.org|2024-11-14 15:30:24-10:00|36000

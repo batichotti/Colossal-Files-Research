@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0f67f04ffcb592d065a20862a82d4539e0f8e909|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tracing: Only create tracer options files if directory exists
-
-Do not bother creating tracer options if no tracing directory
-exists. If a tracer is enabled via the command line, and is
-started before the tracing directory is created, then it wont have
-its tracer specific options created.
-
-Signed-off-by: Steven Rostedt <rostedt@goodmis.org>"|1|Steven Rostedt (Red Hat)|rostedt@goodmis.org|2015-02-03 11:56:20-05:00|18000|Steven Rostedt|rostedt@goodmis.org|2015-02-03 12:48:38-05:00|18000

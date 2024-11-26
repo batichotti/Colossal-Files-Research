@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|da5ef6be3467eb2d293790dea69b5b562490715a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rbd: call rbd_dev_mapping_set() from rbd_dev_image_probe()
-
-Snapshot object map will be loaded in rbd_dev_image_probe(), so we need
-to know snapshot's size (as opposed to HEAD's size) sooner.
-
-Signed-off-by: Ilya Dryomov <idryomov@gmail.com>
-Reviewed-by: Dongsheng Yang <dongsheng.yang@easystack.cn>"|1|Ilya Dryomov|idryomov@gmail.com|2019-06-17 15:29:49+02:00|-7200|Ilya Dryomov|idryomov@gmail.com|2019-07-08 14:01:45+02:00|-7200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ee8b7a1156f357613646d6c69d07ac5a087a1071|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: make drivers set the TSO limit not the GSO limit
-
-Drivers should call the TSO setting helper, GSO is controllable
-by user space.
-
-Signed-off-by: Jakub Kicinski <kuba@kernel.org>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|28|Jakub Kicinski|kuba@kernel.org|2022-05-05 19:51:33-07:00|25200|David S. Miller|davem@davemloft.net|2022-05-06 12:07:56+01:00|-3600

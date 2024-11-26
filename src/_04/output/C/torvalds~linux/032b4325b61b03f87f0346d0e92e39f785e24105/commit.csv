@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|032b4325b61b03f87f0346d0e92e39f785e24105|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ixgbe: cleanup short msleep's (<20ms) to use usleep_range
-
-Since msleep might not sleep for the desired amount when less
-than 20ms use usleep_range.
-
-Signed-off-by: Don Skidmore <donald.c.skidmore@intel.com>
-Tested-by: Stephen Ko <stephen.s.ko@intel.com>
-Signed-off-by: Jeff Kirsher <jeffrey.t.kirsher@intel.com>"|8|Don Skidmore|donald.c.skidmore@intel.com|2011-03-18 09:32:53+00:00|0|Jeff Kirsher|jeffrey.t.kirsher@intel.com|2011-04-13 19:23:11-07:00|25200

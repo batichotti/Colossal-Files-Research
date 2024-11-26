@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5469d7c3087ecaf760f54b447f11af6061b7c897|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: do not use stripe_width if it is not set
-
-Avoid using stripe_width for sbi->s_stripe value if it is not actually
-set. It prevents using the stride for sbi->s_stripe.
-
-Signed-off-by: Jan Kara <jack@suse.cz>
-Signed-off-by: Theodore Ts'o <tytso@mit.edu>"|1|Jan Kara|jack@suse.cz|2017-02-10 00:56:09-05:00|18000|Theodore Ts'o|tytso@mit.edu|2017-02-10 00:56:09-05:00|18000

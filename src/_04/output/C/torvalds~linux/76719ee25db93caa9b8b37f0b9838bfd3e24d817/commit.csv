@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|76719ee25db93caa9b8b37f0b9838bfd3e24d817|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8169: change type of member mac_version in rtl8169_private
-
-Use the appropriate enum type for member mac_version. And don't assign
-a fixed value to RTL_GIGA_MAC_NONE, there's no benefit in it.
-
-Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Heiner Kallweit|hkallweit1@gmail.com|2019-05-25 20:45:04+02:00|-7200|David S. Miller|davem@davemloft.net|2019-05-26 22:19:39-07:00|25200

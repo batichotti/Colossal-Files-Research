@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6ea754eb761d9e7a8ac6fa462b05f9e4cf04fb6c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: Change netdev_<level> logging functions to return void
-
-No caller or macro uses the return value so make all
-the functions return void.
-
-Signed-off-by: Joe Perches <joe@perches.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Joe Perches|joe@perches.com|2014-09-22 11:10:50-07:00|25200|David S. Miller|davem@davemloft.net|2014-09-26 15:17:17-04:00|14400

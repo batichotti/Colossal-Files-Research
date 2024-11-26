@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f475dadf833691e6173dee9ad05953265f6ffe21|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: fix hsw_write_dcomp() error message
-
-That function can be used to write anything on D_COMP, not just
-disable it, so print a more appropriate message.
-
-Signed-off-by: Paulo Zanoni <paulo.r.zanoni@intel.com>
-Reviewed-by: Damien Lespiau <damien.lespiau@intel.com>
-Signed-off-by: Daniel Vetter <daniel.vetter@ffwll.ch>"|1|Paulo Zanoni|paulo.r.zanoni@intel.com|2014-07-04 11:59:57-03:00|10800|Daniel Vetter|daniel.vetter@ffwll.ch|2014-07-10 08:25:55+02:00|-7200

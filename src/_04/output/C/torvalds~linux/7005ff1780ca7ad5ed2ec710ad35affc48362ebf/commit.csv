@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7005ff1780ca7ad5ed2ec710ad35affc48362ebf|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Fix clearing persistent flags
-
-There are several other dev_flags besided HCI_MGMT that should not be
-cleared upon reset.
-
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>
-Acked-by: Marcel Holtmann <marcel@holtmann.org>"|1|Johan Hedberg|johan.hedberg@intel.com|2012-01-18 16:14:43+02:00|-7200|Johan Hedberg|johan.hedberg@intel.com|2012-02-13 17:01:27+02:00|-7200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c0af96a6e63ef93c605ce495fff79c692d4b8c4d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"iwl3945: Use iwl-rfkill
-
-Here again, the rfkill routines are duplicated between agn and 3945. Let's
-move the agn one to iwlcore, and so we can get rid of the 3945 ones.
-
-Signed-off-by: Samuel Ortiz <samuel.ortiz@intel.com>
-Signed-off-by: Reinette Chatre <reinette.chatre@intel.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|6|Samuel Ortiz|samuel.ortiz@intel.com|2009-01-21 18:27:54+01:00|-3600|John W. Linville|linville@tuxdriver.com|2009-01-29 16:01:05-05:00|18000

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|966ee4d6b887c14159043ac80b8c3661d2bbe5e2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"perf_counter: Fix throttle/unthrottle event logging
-
-Right now we only print PERF_EVENT_THROTTLE + 1 (ie PERF_EVENT_UNTHROTTLE).
-Fix this to print both a throttle and unthrottle event.
-
-Signed-off-by: Anton Blanchard <anton@samba.org>
-Signed-off-by: Peter Zijlstra <a.p.zijlstra@chello.nl>
-LKML-Reference: <20090722130546.GE9029@kryten>"|1|Anton Blanchard|anton@samba.org|2009-07-22 23:05:46+10:00|-36000|Peter Zijlstra|a.p.zijlstra@chello.nl|2009-07-22 18:05:56+02:00|-7200

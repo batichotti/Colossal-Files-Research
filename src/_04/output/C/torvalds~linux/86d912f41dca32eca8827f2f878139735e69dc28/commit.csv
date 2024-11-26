@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|86d912f41dca32eca8827f2f878139735e69dc28|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[PATCH] mm: zap_pte_range dec rss
-
-Small adjustment: zap_pte_range decrement its rss counts from 0 then finally
-add, avoiding negations - we don't have or need a sub_mm_rss.
-
-Signed-off-by: Hugh Dickins <hugh@veritas.com>
-Signed-off-by: Andrew Morton <akpm@osdl.org>
-Signed-off-by: Linus Torvalds <torvalds@osdl.org>"|1|Hugh Dickins|hugh@veritas.com|2005-10-29 18:16:14-07:00|25200|Linus Torvalds|torvalds@g5.osdl.org|2005-10-29 21:40:39-07:00|25200

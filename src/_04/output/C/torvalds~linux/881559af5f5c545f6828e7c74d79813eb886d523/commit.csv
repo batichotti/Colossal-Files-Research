@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|881559af5f5c545f6828e7c74d79813eb886d523|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: hci_sync: Attempt to dequeue connection attempt
-
-If connection is still queued/pending in the cmd_sync queue it means no
-command has been generated and it should be safe to just dequeue the
-callback when it is being aborted.
-
-Signed-off-by: Luiz Augusto von Dentz <luiz.von.dentz@intel.com>"|4|Luiz Augusto von Dentz|luiz.von.dentz@intel.com|2024-02-13 09:59:32-05:00|18000|Luiz Augusto von Dentz|luiz.von.dentz@intel.com|2024-03-06 17:24:06-05:00|18000

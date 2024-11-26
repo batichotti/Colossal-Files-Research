@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|707e0ddaf67e8942448ebdd16b523e409ebe40ce|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"fs: xfs: Remove KM_NOSLEEP and KM_SLEEP.
-
-Since no caller is using KM_NOSLEEP and no callee branches on KM_SLEEP,
-we can remove KM_NOSLEEP and replace KM_SLEEP with 0.
-
-Signed-off-by: Tetsuo Handa <penguin-kernel@I-love.SAKURA.ne.jp>
-Reviewed-by: Darrick J. Wong <darrick.wong@oracle.com>
-Signed-off-by: Darrick J. Wong <darrick.wong@oracle.com>"|46|Tetsuo Handa|penguin-kernel@I-love.SAKURA.ne.jp|2019-08-26 12:06:22-07:00|25200|Darrick J. Wong|darrick.wong@oracle.com|2019-08-26 12:06:22-07:00|25200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|90e704543d6702971ecfe3fe2325829d89b76f6b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: mgmt: Fix dev_class related command response timing
-
-All mgmt commands that may fire off a hci_write_class_of_device command
-should wait for the completion of the HCI command before sending a
-response to user space.
-
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>
-Acked-by: Marcel Holtmann <marcel@holtmann.org>"|1|Johan Hedberg|johan.hedberg@intel.com|2012-02-23 23:09:40+02:00|-7200|Johan Hedberg|johan.hedberg@intel.com|2012-02-24 00:15:26+02:00|-7200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c67a04cb9aee0d6c0b27ab8f3f68668ed6b72897|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: fix KVM_SET_XCRS loop
-
-The loop was always using 0 as the index.  This means that
-any rubbish after the first element of the array went undetected.
-It seems reasonable to assume that no KVM userspace did that.
-
-Reviewed-by: Gleb Natapov <gleb@redhat.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Paolo Bonzini|pbonzini@redhat.com|2013-10-17 16:50:47+02:00|-7200|Paolo Bonzini|pbonzini@redhat.com|2013-10-31 11:31:19+01:00|-3600

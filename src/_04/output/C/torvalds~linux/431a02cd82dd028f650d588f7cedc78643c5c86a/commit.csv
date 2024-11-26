@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|431a02cd82dd028f650d588f7cedc78643c5c86a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rbd: initialize rbd_dev->header_oloc early
-
-No reason to delay it until image_id is known.  This will be required
-by some rbd_obj_method_sync() callers, after rbd_obj_method_sync() is
-changed to take oloc.
-
-Signed-off-by: Ilya Dryomov <idryomov@gmail.com>
-Reviewed-by: Jason Dillaman <dillaman@redhat.com>"|1|Ilya Dryomov|idryomov@gmail.com|2017-01-25 18:16:21+01:00|-3600|Ilya Dryomov|idryomov@gmail.com|2017-02-20 12:16:12+01:00|-3600

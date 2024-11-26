@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9206eb0bc5679d06d2f54b9db86fe2b9a55e07e4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"PCI: add USR vendor id and use it in r8169 and w6692 driver
-
-The PCI vendor id of U.S. Robotics isn't defined in pci_ids.h so far,
-only ISDN driver w6692 has a private definition. Move the definition
-to pci_ids.h and use it in the r8169 driver too.
-
-Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|Heiner Kallweit|hkallweit1@gmail.com|2018-11-11 20:31:21+01:00|-3600|David S. Miller|davem@davemloft.net|2018-11-11 14:00:05-08:00|28800

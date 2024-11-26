@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|09525a09ad3099efd9ba49b0b90bddc350d6b53a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: underflow in nft_parse_u32_check()
-
-We don't want to allow negatives here.
-
-Fixes: 36b701fae12a ('netfilter: nf_tables: validate maximum value of u32 netlink attributes')
-Signed-off-by: Dan Carpenter <dan.carpenter@oracle.com>
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|1|Dan Carpenter|dan.carpenter@oracle.com|2016-10-12 12:14:29+03:00|-10800|Pablo Neira Ayuso|pablo@netfilter.org|2016-10-17 17:43:53+02:00|-7200

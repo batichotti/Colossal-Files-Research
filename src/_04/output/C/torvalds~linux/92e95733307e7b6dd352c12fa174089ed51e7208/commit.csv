@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|92e95733307e7b6dd352c12fa174089ed51e7208|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"fs: dlm: use spin lock instead of mutex
-
-There is no need to use a mutex in those hot path sections. We change it
-to spin lock to serve callbacks more faster by not allowing schedule.
-The locked sections will not be locked for a long time.
-
-Signed-off-by: Alexander Aring <aahringo@redhat.com>
-Signed-off-by: David Teigland <teigland@redhat.com>"|3|Alexander Aring|aahringo@redhat.com|2022-10-27 16:45:19-04:00|14400|David Teigland|teigland@redhat.com|2022-11-08 12:59:41-06:00|21600

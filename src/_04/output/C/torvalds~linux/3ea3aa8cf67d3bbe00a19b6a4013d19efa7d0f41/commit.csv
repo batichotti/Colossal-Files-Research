@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3ea3aa8cf67d3bbe00a19b6a4013d19efa7d0f41|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Fix OSXSAVE after migration
-
-CPUID's OSXSAVE is a mirror of CR4.OSXSAVE bit. We need to update the CPUID
-after migration.
-
-KVM-Stable-Tag.
-Signed-off-by: Sheng Yang <sheng@linux.intel.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Sheng Yang|sheng@linux.intel.com|2010-12-08 10:49:43+08:00|-28800|Avi Kivity|avi@redhat.com|2010-12-08 17:28:31+02:00|-7200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|be695fc4f0a7ff9c9f91d59536b029b781cfea62|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mwl8k: do rx/tx ring initialisation after loading firmware
-
-Whether the firmware we have loaded is AP or STA firmware decides
-which receive descriptor format we have to use.  Therefore, move
-rx/tx ring initialisation to be after firmware loading.
-
-Signed-off-by: Lennert Buytenhek <buytenh@marvell.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|1|Lennert Buytenhek|buytenh@wantstofly.org|2009-11-30 18:32:46+01:00|-3600|John W. Linville|linville@tuxdriver.com|2009-12-28 16:31:27-05:00|18000

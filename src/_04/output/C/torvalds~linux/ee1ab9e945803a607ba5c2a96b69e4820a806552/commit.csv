@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ee1ab9e945803a607ba5c2a96b69e4820a806552|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] megaraid_sas: switch to block timeout
-
-megaraid_sas sets the timeout in its slave configure routine for devices
-on special channels.  This now needs to update the request queue timeout
-in block.
-
-Cc: ""Yang, Bo"" <Bo.Yang@lsi.com>
-Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"|1|James Bottomley|James.Bottomley@HansenPartnership.com|2008-11-30 10:27:51-06:00|21600|James Bottomley|James.Bottomley@HansenPartnership.com|2008-12-01 11:15:55-06:00|21600

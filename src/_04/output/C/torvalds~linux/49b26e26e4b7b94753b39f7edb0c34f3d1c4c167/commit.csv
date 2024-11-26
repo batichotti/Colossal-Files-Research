@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|49b26e26e4b7b94753b39f7edb0c34f3d1c4c167|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: MMU: do not record gfn in kvm_mmu_pte_write
-
-No need to record the gfn to verifier the pte has the same mode as
-current vcpu, it's because we only speculatively update the pte only
-if the pte and vcpu have the same mode
-
-Signed-off-by: Xiao Guangrong <xiaoguangrong@cn.fujitsu.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|3|Xiao Guangrong|xiaoguangrong@cn.fujitsu.com|2011-03-04 19:00:00+08:00|-28800|Marcelo Tosatti|mtosatti@redhat.com|2011-03-17 13:08:32-03:00|10800

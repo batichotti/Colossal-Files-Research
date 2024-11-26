@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|06c03c02ea528af0cbce50ce45ddd6a361864550|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tg3: Allow ethtool to enable/disable loopback.
-
-This patch adds tg3_set_features() to handle loopback mode. Currently the
-capability is added for the devices which support internal MAC loopback mode.
-So when enabled, it enables internal-MAC loopback.
-
-Signed-off-by: Mahesh Bandewar <maheshb@google.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Mahesh Bandewar|maheshb@google.com|2011-05-08 06:51:48+00:00|0|David S. Miller|davem@davemloft.net|2011-05-12 18:04:58-04:00|14400

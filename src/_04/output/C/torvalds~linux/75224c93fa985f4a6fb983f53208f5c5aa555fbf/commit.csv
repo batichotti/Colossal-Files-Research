@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|75224c93fa985f4a6fb983f53208f5c5aa555fbf|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ibmvnic: Fix endian errors in error reporting output
-
-Error reports received from firmware were not being converted from
-big endian values, leading to bogus error codes reported on little
-endian systems.
-
-Signed-off-by: Thomas Falcon <tlfalcon@linux.vnet.ibm.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Thomas Falcon|tlfalcon@linux.vnet.ibm.com|2017-02-15 10:33:33-06:00|21600|David S. Miller|davem@davemloft.net|2017-02-15 14:48:31-05:00|18000

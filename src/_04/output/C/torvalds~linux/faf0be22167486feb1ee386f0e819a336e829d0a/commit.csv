@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|faf0be22167486feb1ee386f0e819a336e829d0a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Fix jump label out_free_* in kvm_init()
-
-The jump label out_free_1 and out_free_2 deal with
-the same stuff, so git rid of one and rename the
-label out_free_0a to retain the label name order.
-
-Signed-off-by: Miaohe Lin <linmiaohe@huawei.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Miaohe Lin|linmiaohe@huawei.com|2019-11-23 10:45:50+08:00|-28800|Paolo Bonzini|pbonzini@redhat.com|2019-11-23 11:29:17+01:00|-3600

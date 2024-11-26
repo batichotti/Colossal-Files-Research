@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3241f22da85d26505b39f525a88f52ebd1235975|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: MMU: Let is_rsvd_bits_set take mmu context instead of vcpu
-
-This patch changes is_rsvd_bits_set() function prototype to
-take only a kvm_mmu context instead of a full vcpu.
-
-Signed-off-by: Joerg Roedel <joerg.roedel@amd.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|2|Joerg Roedel|joerg.roedel@amd.com|2010-09-10 17:30:45+02:00|-7200|Avi Kivity|avi@redhat.com|2010-10-24 10:52:32+02:00|-7200

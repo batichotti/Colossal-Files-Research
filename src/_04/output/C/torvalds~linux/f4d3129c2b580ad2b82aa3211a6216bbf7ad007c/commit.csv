@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f4d3129c2b580ad2b82aa3211a6216bbf7ad007c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ALSA: hda/realtek - Fix a typo
-
-A comma was used instead of a semicolon, which may lead to a build
-error.
-
-Fixes: cffd39668177 ('ALSA: hda/realtek - Fix the regression by widget power-saving')
-Reported-by: kbuild test robot <fengguang.wu@intel.com>
-Signed-off-by: Takashi Iwai <tiwai@suse.de>"|1|Takashi Iwai|tiwai@suse.de|2015-04-10 09:53:04+02:00|-7200|Takashi Iwai|tiwai@suse.de|2015-04-10 09:53:04+02:00|-7200

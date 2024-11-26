@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cc3a86c802f0ba9a2627aef256d95ae3b3fa6e91|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ipv6: Change rt6_probe to take a fib6_nh
-
-rt6_probe sends probes for gateways in a nexthop. As such it really
-depends on a fib6_nh, not a fib entry. Move last_probe to fib6_nh and
-update rt6_probe to a fib6_nh struct.
-
-Signed-off-by: David Ahern <dsahern@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|David Ahern|dsahern@gmail.com|2019-04-09 14:41:12-07:00|25200|David S. Miller|davem@davemloft.net|2019-04-11 14:24:06-07:00|25200

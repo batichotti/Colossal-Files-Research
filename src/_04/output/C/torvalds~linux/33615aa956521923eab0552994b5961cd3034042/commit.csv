@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|33615aa956521923eab0552994b5961cd3034042|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86 emulator: centralize decoding of one-byte register access insns
-
-Instructions like 'inc reg' that have the register operand encoded
-in the opcode are currently specially decoded.  Extend
-decode_register_operand() to handle that case, indicated by having
-DstReg or SrcReg without ModRM.
-
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|2|Avi Kivity|avi@qumranet.com|2007-10-31 11:15:56+02:00|-7200|Avi Kivity|avi@qumranet.com|2008-01-30 17:52:59+02:00|-7200

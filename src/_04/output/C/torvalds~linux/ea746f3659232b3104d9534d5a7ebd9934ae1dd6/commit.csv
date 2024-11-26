@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ea746f3659232b3104d9534d5a7ebd9934ae1dd6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Expand bool interruptible to pass flags to i915_wait_request()
-
-We need finer control over wakeup behaviour during i915_wait_request(),
-so expand the current bool interruptible to a bitmask.
-
-Signed-off-by: Chris Wilson <chris@chris-wilson.co.uk>
-Reviewed-by: Joonas Lahtinen <joonas.lahtinen@linux.intel.com>
-Link: http://patchwork.freedesktop.org/patch/msgid/20160909131201.16673-9-chris@chris-wilson.co.uk"|12|Chris Wilson|chris@chris-wilson.co.uk|2016-09-09 14:11:49+01:00|-3600|Chris Wilson|chris@chris-wilson.co.uk|2016-09-09 14:23:03+01:00|-3600

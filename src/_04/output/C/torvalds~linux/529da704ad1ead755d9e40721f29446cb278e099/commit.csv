@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|529da704ad1ead755d9e40721f29446cb278e099|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: remove unnecessary ext4_get_group_info in ext4_mb_load_buddy
-
-ext4_mb_load_buddy() calls ext4_get_group_info() for setting both
-""grp"" and ""e4b->bd_info"", but it could do ""e4b->bd_info = grp"".
-
-Reported-by:  Andreas Dilger <adilger@whamcloud.com>
-Signed-off-by: Tao Ma <boyu.mt@taobao.com>
-Signed-off-by: ""Theodore Ts'o"" <tytso@mit.edu>"|1|Tao Ma|boyu.mt@taobao.com|2011-07-23 16:07:26-04:00|14400|Theodore Ts'o|tytso@mit.edu|2011-07-23 16:07:26-04:00|14400

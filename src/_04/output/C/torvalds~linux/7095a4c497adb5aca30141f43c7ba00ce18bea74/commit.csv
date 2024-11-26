@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7095a4c497adb5aca30141f43c7ba00ce18bea74|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: dsa: mv88e6xxx: lock mutex in vlan_prepare
-
-Lock the mutex in the mv88e6xxx_port_vlan_prepare function
-called by the DSA stack, instead of doing it in the internal
-mv88e6xxx_port_check_hw_vlan helper.
-
-Signed-off-by: Vivien Didelot <vivien.didelot@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Vivien Didelot|vivien.didelot@gmail.com|2019-08-01 14:36:33-04:00|14400|David S. Miller|davem@davemloft.net|2019-08-01 16:43:08-04:00|14400

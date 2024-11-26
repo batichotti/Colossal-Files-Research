@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|74a3a0ed9096ba9feffc7e44f2a2c37d968bc6d1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[IPV6]: TUNNEL6: Don't try to add multicast route twice.
-
-Since addrconf_add_dev() has already called addrconf_add_mroute()
-to added route for multicast prefix, there's no point to call it
-again in addrconf_ip6_tnl_config().
-
-Signed-off-by: YOSHIFUJI Hideaki <yoshfuji@linux-ipv6.org>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|YOSHIFUJI Hideaki|yoshfuji@linux-ipv6.org|2006-03-20 16:51:48-08:00|28800|David S. Miller|davem@davemloft.net|2006-03-20 16:51:48-08:00|28800

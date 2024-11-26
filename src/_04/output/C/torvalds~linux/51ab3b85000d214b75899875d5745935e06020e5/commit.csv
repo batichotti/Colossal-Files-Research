@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|51ab3b85000d214b75899875d5745935e06020e5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Pass intel_connector to intel_vrr_is_capable()
-
-Pass intel_connector instead of drm_connector to
-intel_vrr_is_capable(). Will result in less ugly casts.
-
-Signed-off-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Link: https://patchwork.freedesktop.org/patch/msgid/20220510104242.6099-2-ville.syrjala@linux.intel.com
-Reviewed-by: Jani Nikula <jani.nikula@intel.com>"|3|Ville Syrjälä|ville.syrjala@linux.intel.com|2022-05-10 13:42:28+03:00|-10800|Ville Syrjälä|ville.syrjala@linux.intel.com|2022-05-27 20:20:40+03:00|-10800

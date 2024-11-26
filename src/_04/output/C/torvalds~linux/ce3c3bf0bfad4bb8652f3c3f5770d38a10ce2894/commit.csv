@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ce3c3bf0bfad4bb8652f3c3f5770d38a10ce2894|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mlxsw: spectrum: Use dedicated trap group for sampled packets
-
-The rate with which packets are sampled is determined by user space, so
-there is no need to associate such packets with a policer.
-
-Signed-off-by: Ido Schimmel <idosch@mellanox.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Ido Schimmel|idosch@mellanox.com|2020-05-25 00:51:06+03:00|-10800|David S. Miller|davem@davemloft.net|2020-05-24 19:32:23-07:00|25200

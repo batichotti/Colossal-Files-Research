@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2608d7a12fd4badfe2eac534150f0715a7fd3ff3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Allow kvm_load_guest_fpu() even when !vcpu->fpu_active
-
-This allows accessing the guest fpu from the instruction emulator, as well as
-being symmetric with kvm_put_guest_fpu().
-
-Signed-off-by: Avi Kivity <avi@redhat.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|1|Avi Kivity|avi@redhat.com|2010-01-21 15:31:45+02:00|-7200|Marcelo Tosatti|mtosatti@redhat.com|2010-03-01 12:36:03-03:00|10800

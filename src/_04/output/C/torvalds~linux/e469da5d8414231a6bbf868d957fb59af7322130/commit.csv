@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e469da5d8414231a6bbf868d957fb59af7322130|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: drop unused parameter offset from __cow_file_range_inline()
-
-We don't need offset for inline extents, they always start from 0.
-
-Reviewed-by: Anand Jain <anand.jain@oracle.com>
-Signed-off-by: David Sterba <dsterba@suse.com>"|1|David Sterba|dsterba@suse.com|2024-10-09 16:31:36+02:00|-7200|David Sterba|dsterba@suse.com|2024-11-11 14:34:16+01:00|-3600

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d83345adf96bc13a5e360f4649a2e68ef968dec0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: add dev_txq_stats_fold() helper
-
-Some drivers ndo_get_stats() method need to perform txqueue stats folding.
-
-Move folding from dev_get_stats() to a new dev_txq_stats_fold() function
-
-Signed-off-by: Eric Dumazet <eric.dumazet@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Eric Dumazet|eric.dumazet@gmail.com|2009-11-16 03:36:51+00:00|0|David S. Miller|davem@davemloft.net|2009-11-17 23:51:52-08:00|28800

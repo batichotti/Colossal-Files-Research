@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|20f5895d55d9281830bfb7819c5c5b70b05297a6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] mpt2sas: Expander fix oops saying ""Already part of another port""
-
-Kernel panic is seen because driver did not tear down the port which should
-be dnoe using mpt2sas_transport_port_remove(). without this fix When expander
-is added back we would oops inside sas_port_add_phy.
-
-Signed-off-by: Kashyap Desai <kashyap.desai@lsi.com>
-Signed-off-by: James Bottomley <James.Bottomley@suse.de>"|1|Kashyap, Desai|kashyap.desai@lsi.com|2009-08-07 19:34:26+05:30|-19800|James Bottomley|James.Bottomley@suse.de|2009-08-13 16:26:00-05:00|18000

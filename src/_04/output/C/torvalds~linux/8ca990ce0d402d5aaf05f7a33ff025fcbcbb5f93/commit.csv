@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8ca990ce0d402d5aaf05f7a33ff025fcbcbb5f93|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libbpf: fix detection of corrupted BPF instructions section
-
-Ensure that size of a section w/ BPF instruction is exactly a multiple
-of BPF instruction size.
-
-Signed-off-by: Andrii Nakryiko <andriin@fb.com>
-Acked-by: Song Liu <songliubraving@fb.com>
-Signed-off-by: Daniel Borkmann <daniel@iogearbox.net>"|1|Andrii Nakryiko|andriin@fb.com|2019-05-29 10:36:03-07:00|25200|Daniel Borkmann|daniel@iogearbox.net|2019-05-30 01:23:34+02:00|-7200

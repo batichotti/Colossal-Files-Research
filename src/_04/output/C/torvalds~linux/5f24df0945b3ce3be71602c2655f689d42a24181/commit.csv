@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5f24df0945b3ce3be71602c2655f689d42a24181|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"virtio_net: don't reset twice on XDP on/off
-
-We already do a reset once in remove_vq_common -
-there appears to be no point in doing another one
-when we add/remove XDP.
-
-Signed-off-by: Michael S. Tsirkin <mst@redhat.com>"|1|Michael S. Tsirkin|mst@redhat.com|2017-03-29 23:12:23+03:00|-10800|Michael S. Tsirkin|mst@redhat.com|2017-05-09 16:43:22+03:00|-10800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|30f6cf96912b638d0ddfc325204b598f94efddc2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: fix throughput LED trigger
-
-The codepaths for rx with decap offload and tx with itxq were not updating
-the counters for the throughput led trigger.
-
-Signed-off-by: Felix Fietkau <nbd@nbd.name>
-Link: https://lore.kernel.org/r/20211113063415.55147-1-nbd@nbd.name
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|3|Felix Fietkau|nbd@nbd.name|2021-11-13 07:34:15+01:00|-3600|Johannes Berg|johannes.berg@intel.com|2021-11-15 10:56:57+01:00|-3600

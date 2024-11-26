@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|36cbd3dcc10384f813ec0814255f576c84f2bcd4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: mark read-only arrays as const
-
-String literals are constant, and usually, we can also tag the array
-of pointers const too, moving it to the .rodata section.
-
-Signed-off-by: Jan Engelhardt <jengelh@medozas.de>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|36|Jan Engelhardt|jengelh@medozas.de|2009-08-05 10:42:58-07:00|25200|David S. Miller|davem@davemloft.net|2009-08-05 10:42:58-07:00|25200

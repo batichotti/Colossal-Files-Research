@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c35abde30ac69383328c21d368dbff8811ff8d89|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"media: atomisp: Avoid some {} just to define new vars
-
-There are a couple of places where {} are used just to
-define a new var. Just move the var to the top of the function
-and get rid of that ugly blocks.
-
-Signed-off-by: Mauro Carvalho Chehab <mchehab+huawei@kernel.org>"|1|Mauro Carvalho Chehab|mchehab+huawei@kernel.org|2021-11-15 12:18:52+00:00|0|Mauro Carvalho Chehab|mchehab+huawei@kernel.org|2021-11-16 14:37:09+00:00|0

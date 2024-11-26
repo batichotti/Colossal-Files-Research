@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7a7ae8292391c4d53c4340e606bf48776c3449e7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86/mmu: rename kvm_mmu_role union
-
-It is quite confusing that the ""full"" union is called kvm_mmu_role
-but is used for the ""cpu_role"" field of struct kvm_mmu.  Rename it
-to kvm_cpu_role.
-
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|2|Paolo Bonzini|pbonzini@redhat.com|2022-02-10 07:38:32-05:00|18000|Paolo Bonzini|pbonzini@redhat.com|2022-04-29 12:49:56-04:00|14400

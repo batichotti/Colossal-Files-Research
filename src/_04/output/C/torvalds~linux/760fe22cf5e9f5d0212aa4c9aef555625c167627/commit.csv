@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|760fe22cf5e9f5d0212aa4c9aef555625c167627|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"crypto: hisilicon/qm - update reset flow
-
-This patch updates the reset flow based on PF/VF communications. VFs
-will be stopped after receiving reset message from PF, and wait for
-reset finish to restart VFs.
-
-Signed-off-by: Weili Qian <qianweili@huawei.com>
-Signed-off-by: Herbert Xu <herbert@gondor.apana.org.au>"|1|Weili Qian|qianweili@huawei.com|2021-05-29 22:15:37+08:00|-28800|Herbert Xu|herbert@gondor.apana.org.au|2021-06-03 20:24:07+08:00|-28800

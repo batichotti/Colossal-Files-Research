@@ -1,6 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|627961b77e68b725851cb227db10084bf15f6920|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ocfs2: ocfs2_figure_insert_type() no longer needs struct inode.
-
-It's not using it, so remove it from the parameter list.
-
-Signed-off-by: Joel Becker <joel.becker@oracle.com>"|1|Joel Becker|joel.becker@oracle.com|2009-02-13 03:14:38-08:00|28800|Joel Becker|joel.becker@oracle.com|2009-09-04 16:08:08-07:00|25200

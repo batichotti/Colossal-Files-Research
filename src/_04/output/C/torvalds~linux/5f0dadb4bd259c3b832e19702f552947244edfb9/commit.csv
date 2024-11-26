@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5f0dadb4bd259c3b832e19702f552947244edfb9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"thinkpad_acpi: fix rfkill memory leak on unload
-
-rfkill_unregister() should always be followed by rfkill_destroy()
-
-Signed-off-by: Corentin Chary <corentincj@iksaif.net>
-Acked-by: Henrique de Moraes Holschuh <hmh@hmh.eng.br>
-Signed-off-by: Len Brown <len.brown@intel.com>"|1|Corentin Chary|corentincj@iksaif.net|2009-09-14 12:43:52+02:00|-7200|Len Brown|len.brown@intel.com|2009-09-19 01:10:34-04:00|14400

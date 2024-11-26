@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1bfc4438a7ef99e8a6cba0bd3a86249430256621|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tcp: move tcp_openreq_init() to tcp_input.c
-
-This big helper is called once from tcp_conn_request(), there is no
-point having it in an include. Compiler will inline it anyway.
-
-Signed-off-by: Eric Dumazet <edumazet@google.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Eric Dumazet|edumazet@google.com|2015-03-16 21:06:19-07:00|25200|David S. Miller|davem@davemloft.net|2015-03-17 15:18:00-04:00|14400

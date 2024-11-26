@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f64f61145a38f7039e4f1c0b50dcc3fbe70ec28e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sched: remove sched_exit()
-
-remove sched_exit(): the elaborate dance of us trying to recover
-timeslices given to child tasks never really worked.
-
-CFS does not need it either.
-
-Signed-off-by: Ingo Molnar <mingo@elte.hu>"|2|Ingo Molnar|mingo@elte.hu|2007-07-09 18:51:58+02:00|-7200|Ingo Molnar|mingo@elte.hu|2007-07-09 18:51:58+02:00|-7200

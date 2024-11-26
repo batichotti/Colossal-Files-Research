@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a004cd42181409eda70804ded240a791f4564d61|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sched: Fix return value of migration_init()
-
-migration_init() returns the return value of the hotplug notifier. In
-the success case this is NOTIFY_OK which is 1. initcall_debug
-evaluates that as an error code because init calls are expected to
-return 0 on success.
-
-Signed-off-by: Thomas Gleixner <tglx@linutronix.de>"|1|Thomas Gleixner|tglx@linutronix.de|2009-07-21 09:54:05+02:00|-7200|Thomas Gleixner|tglx@linutronix.de|2009-07-24 09:41:35+02:00|-7200

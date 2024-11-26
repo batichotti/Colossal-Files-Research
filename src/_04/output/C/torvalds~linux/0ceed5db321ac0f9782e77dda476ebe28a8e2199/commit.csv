@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0ceed5db321ac0f9782e77dda476ebe28a8e2199|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ceph: unregister osd request on failure
-
-The osd request wasn't being unregistered when the osd returned a failure
-code, even though the result was returned to the caller.  This would cause
-it to eventually time out, and then crash the kernel when it tried to
-resend the request using a stale page vector.
-
-Signed-off-by: Sage Weil <sage@newdream.net>"|1|Sage Weil|sage@newdream.net|2010-05-11 09:53:18-07:00|25200|Sage Weil|sage@newdream.net|2010-05-11 09:53:18-07:00|25200

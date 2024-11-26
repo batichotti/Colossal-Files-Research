@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5159fdc1e6cb4000f482faebeeba0be91611276d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cnic: Use proper client and connection IDs on iSCSI ring
-
-Use the IDs specified by the bnx2x driver when initializing the ring.
-We don't have to make code changes when these IDs change in the future.
-
-Signed-off-by: Michael Chan <mchan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Michael Chan|mchan@broadcom.com|2010-12-23 07:42:59+00:00|0|David S. Miller|davem@davemloft.net|2010-12-23 11:44:30-08:00|28800

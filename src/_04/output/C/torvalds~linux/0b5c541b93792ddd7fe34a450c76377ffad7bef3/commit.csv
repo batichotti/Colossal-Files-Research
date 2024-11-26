@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0b5c541b93792ddd7fe34a450c76377ffad7bef3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Enable eDP panel power during I2C initialization sequence
-
-The DP i2c initialization code does a couple of i2c transactions,
-which means that an eDP panel must be powered up.
-
-Signed-off-by: Keith Packard <keithp@keithp.com>
-Reviewed-by: Daniel Vetter <daniel.vetter@ffwll.ch>"|1|Keith Packard|keithp@keithp.com|2011-09-28 16:41:05-07:00|25200|Keith Packard|keithp@keithp.com|2011-10-05 19:56:51-07:00|25200

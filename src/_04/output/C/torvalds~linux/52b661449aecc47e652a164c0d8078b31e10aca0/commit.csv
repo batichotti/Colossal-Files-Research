@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|52b661449aecc47e652a164c0d8078b31e10aca0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[media] rc: Rename remote controller type to rc_type instead of ir_type
-
-for i in `find drivers/staging -type f -name *.[ch]` `find include/media -type f -name *.[ch]` `find drivers/media -type f -name *.[ch]`; do sed s,IR_TYPE,RC_TYPE,g <$i >a && mv a $i; done
-for i in `find drivers/staging -type f -name *.[ch]` `find include/media -type f -name *.[ch]` `find drivers/media -type f -name *.[ch]`; do sed s,ir_type,rc_type,g <$i >a && mv a $i; done
-
-Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"|119|Mauro Carvalho Chehab|mchehab@redhat.com|2010-11-17 14:20:52-03:00|10800|Mauro Carvalho Chehab|mchehab@redhat.com|2010-12-29 08:16:50-02:00|7200

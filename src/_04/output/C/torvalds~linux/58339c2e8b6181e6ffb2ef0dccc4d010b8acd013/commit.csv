@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|58339c2e8b6181e6ffb2ef0dccc4d010b8acd013|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"usb: Set unused ports to ""fixed"" rather than ""unknown""
-
-The Microsoft document ""Using ACPI to Configure USB Ports on a Computer""
-makes it clear that the removable flag will be cleared on ports that are
-marked as unused by the firmware. Handle this case to match.
-
-Signed-off-by: Matthew Garrett <mjg59@coreos.com>
-Signed-off-by: Greg Kroah-Hartman <gregkh@linuxfoundation.org>"|1|Matthew Garrett|mjg59@coreos.com|2015-04-08 16:36:01-07:00|25200|Greg Kroah-Hartman|gregkh@linuxfoundation.org|2015-05-08 01:43:43+02:00|-7200

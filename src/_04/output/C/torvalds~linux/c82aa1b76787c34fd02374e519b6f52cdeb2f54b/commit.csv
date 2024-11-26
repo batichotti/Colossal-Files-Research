@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c82aa1b76787c34fd02374e519b6f52cdeb2f54b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md/raid5: move checking badblock before clone bio in raid5_read_one_chunk
-
-We don't need to clone bio if the relevant region has badblock.
-
-Signed-off-by: Guoqing Jiang <jiangguoqing@kylinos.cn>
-Signed-off-by: Song Liu <song@kernel.org>"|1|Guoqing Jiang|jgq516@gmail.com|2021-05-25 17:46:18+08:00|-28800|Song Liu|song@kernel.org|2021-06-14 22:32:06-07:00|25200

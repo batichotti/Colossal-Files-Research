@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a21ee724034b21d51d74eec8e426702a627eb465|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rt2x00: Fix HT40+/HT40- setting in rt2800.
-
-Inspection of the Ralink vendor driver shows that the TX_BAND_CFG register
-and BBP register 3 are about HT40- indication, not about HT40+ indication.
-Inverse the meaning of these fields in the code.
-
-Signed-off-by: Gertjan van Wingerde <gwingerde@gmail.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|2|Gertjan van Wingerde|gwingerde@gmail.com|2010-05-03 22:43:04+02:00|-7200|John W. Linville|linville@tuxdriver.com|2010-05-04 13:24:23-04:00|14400

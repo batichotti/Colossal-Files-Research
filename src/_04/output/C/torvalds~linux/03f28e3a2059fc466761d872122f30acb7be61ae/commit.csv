@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|03f28e3a2059fc466761d872122f30acb7be61ae|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS: Make nfs_fhget() return appropriate error values
-
-Currently it returns NULL, which usually gets interpreted as ENOMEM. In
-fact it can mean a host of issues.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|3|Trond Myklebust|Trond.Myklebust@netapp.com|2006-03-20 13:44:48-05:00|18000|Trond Myklebust|Trond.Myklebust@netapp.com|2006-03-20 13:44:48-05:00|18000

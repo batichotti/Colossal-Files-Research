@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|87a45e07a5abfec4d6b0e8356718f8919d0a3c20|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: PPC: Book3S: Replace reset_msr mmu op with inject_interrupt arch op
-
-reset_msr sets the MSR for interrupt injection, but it's cleaner and
-more flexible to provide a single op to set both MSR and PC for the
-interrupt.
-
-Signed-off-by: Nicholas Piggin <npiggin@gmail.com>
-Signed-off-by: Paul Mackerras <paulus@ozlabs.org>"|8|Nicholas Piggin|npiggin@gmail.com|2019-10-02 16:00:22+10:00|-36000|Paul Mackerras|paulus@ozlabs.org|2019-10-22 16:29:02+11:00|-39600

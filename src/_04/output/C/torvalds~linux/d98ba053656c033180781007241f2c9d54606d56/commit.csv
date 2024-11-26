@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d98ba053656c033180781007241f2c9d54606d56|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: MMU: gather remote tlb flush which occurs during page zapped
-
-Using kvm_mmu_prepare_zap_page() and kvm_mmu_zap_page() instead of
-kvm_mmu_zap_page() that can reduce remote tlb flush IPI
-
-Signed-off-by: Xiao Guangrong <xiaoguangrong@cn.fujitsu.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Xiao Guangrong|xiaoguangrong@cn.fujitsu.com|2010-06-04 21:55:29+08:00|-28800|Avi Kivity|avi@redhat.com|2010-08-01 10:39:27+03:00|-10800

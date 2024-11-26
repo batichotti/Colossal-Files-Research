@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|af8d9bb2f2f405ad541794b46f9d7bc70f13e5cb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: ethernet: Add helper for MACs which support asym pause
-
-Rather than have the MAC drivers manipulate phydev members to indicate
-they support Asym Pause, add a helper function.
-
-Signed-off-by: Andrew Lunn <andrew@lunn.ch>
-Reviewed-by: Florian Fainelli <f.fainelli@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|17|Andrew Lunn|andrew@lunn.ch|2018-09-12 01:53:15+02:00|-7200|David S. Miller|davem@davemloft.net|2018-09-12 20:24:21-07:00|25200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|803143fbda719106017309d551d082e4b4e7c8c3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mlx4_core: map async events to arbitrary slave eqs
-
-Slave async events were mapped to single eq. This patch fixes this issue, so
-the slaves can map the async events to any eq.
-
-Signed-off-by: Marcel Apfelbaum <marcela@dev.mellanox.co.il>
-Reviewed-by: Jack Morgenstein <jackm@dev.mellanox.co.il>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|4|Marcel Apfelbaum|marcela@dev.mellanox.co.il|2012-01-19 09:45:46+00:00|0|David S. Miller|davem@davemloft.net|2012-01-22 15:08:44-05:00|18000

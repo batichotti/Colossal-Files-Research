@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7fdab069b7172f2348cf3d87e19c6c24340292bf|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4.1: Fix a race in the pNFS return-on-close code
-
-If we sleep after dropping the inode->i_lock, then we are no longer
-atomic with respect to the rpc_wake_up() call in pnfs_layout_remove_lseg().
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|3|Trond Myklebust|Trond.Myklebust@netapp.com|2012-09-20 20:15:57-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2012-09-28 16:03:11-04:00|14400

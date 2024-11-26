@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1546996348b33dc44dff829bc86fea8a8536164d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: add a kernel thread to issue discard commands asynchronously
-
-This patch adds a kernel thread to issue discard commands.
-It proposes three states, D_PREP, D_SUBMIT, and D_DONE to identify current
-bio status.
-
-Reviewed-by: Chao Yu <yuchao0@huawei.com>
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|2|Jaegeuk Kim|jaegeuk@kernel.org|2017-01-09 20:32:07-08:00|28800|Jaegeuk Kim|jaegeuk@kernel.org|2017-02-22 20:24:45-08:00|28800

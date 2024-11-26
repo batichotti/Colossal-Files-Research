@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2c0133a437905591cdaa39cf65a3f7188d20a094|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wlcore/wl12xx/wl18xx: introduce quirk to remove TKIP header space
-
-18xx chips do not require extra space in the TKIP header. Introduce a
-new HW quirk to allow us to make this feature arch-specific. 12xx chip
-will now have this quirk.
-
-Signed-off-by: Arik Nemtsov <arik@wizery.com>
-Signed-off-by: Luciano Coelho <coelho@ti.com>"|6|Arik Nemtsov|arik@wizery.com|2012-05-18 07:46:36+03:00|-10800|Luciano Coelho|coelho@ti.com|2012-06-06 19:28:04+03:00|-10800

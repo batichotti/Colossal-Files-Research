@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9fdd50c579802adad09028eba86e5a7ef7c9b738|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8169: don't reset tx ring indexes in rtl8169_tx_clear
-
-In places where the indexes have to be reset, we call
-rtl8169_init_ring_indexes() anyway after rtl8169_tx_clear().
-
-Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Heiner Kallweit|hkallweit1@gmail.com|2020-05-30 23:56:14+02:00|-7200|David S. Miller|davem@davemloft.net|2020-05-30 21:36:55-07:00|25200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7d34a7d7da97bc8e0039b07d56390ea555c4858c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"iwlwifi: always access the trans configuration via trans
-
-Stop accessing the trans configuration via the iwl_cfg structure and
-always access it via the iwl_trans structure.  This completes the
-requirements to disassociate the trans-specific configuration from the
-rest of the configuration.
-
-Signed-off-by: Luca Coelho <luciano.coelho@intel.com>"|21|Luca Coelho|luciano.coelho@intel.com|2019-07-12 15:52:39+03:00|-10800|Luca Coelho|luciano.coelho@intel.com|2019-09-06 15:52:04+03:00|-10800

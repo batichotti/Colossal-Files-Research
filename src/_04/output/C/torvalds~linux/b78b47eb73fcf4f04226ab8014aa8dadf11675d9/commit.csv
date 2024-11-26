@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b78b47eb73fcf4f04226ab8014aa8dadf11675d9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wl12xx: enable/disable role on interface add/remove
-
-According to the new multi-role flow, we have to enable the
-role before using (starting) it, and disable it on cleanup
-(after it's no longer needed).
-
-Signed-off-by: Eliad Peller <eliad@wizery.com>
-Signed-off-by: Luciano Coelho <coelho@ti.com>"|1|Eliad Peller|eliad@wizery.com|2011-08-14 13:17:08+03:00|-10800|Luciano Coelho|coelho@ti.com|2011-08-22 12:35:24+03:00|-10800

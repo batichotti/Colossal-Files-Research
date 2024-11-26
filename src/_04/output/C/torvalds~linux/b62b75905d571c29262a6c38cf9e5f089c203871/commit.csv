@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b62b75905d571c29262a6c38cf9e5f089c203871|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md: use sysfs_notify_dirent to notify changes to md/array_state
-
-Now that we have sysfs_notify_dirent, use it to notify changes
-to md/array_state.
-As sysfs_notify_dirent can be called in atomic context, we can
-remove the delayed notify and the MD_NOTIFY_ARRAY_STATE flag.
-
-Signed-off-by: NeilBrown <neilb@suse.de>"|2|NeilBrown|neilb@suse.de|2008-10-21 13:25:21+11:00|-39600|NeilBrown|neilb@suse.de|2008-10-21 13:25:21+11:00|-39600

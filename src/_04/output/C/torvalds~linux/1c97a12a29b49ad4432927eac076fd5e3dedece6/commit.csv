@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1c97a12a29b49ad4432927eac076fd5e3dedece6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] qla2xxx: remove a transport #include
-
-Make transport-functions structure non-static.  Replace #include of
-scsi_transport.h with a forward declaration.
-
-Signed-off-by: Andrew Vasquez <andrew.vasquez@qlogic.com>
-Signed-off-by: James Bottomley <James.Bottomley@SteelEye.com>"|3|Andrew Vasquez|andrew.vasquez@qlogic.com|2005-04-21 16:13:36-04:00|14400|James Bottomley|jejb@mulgrave.(none)|2005-04-21 16:13:36-04:00|14400

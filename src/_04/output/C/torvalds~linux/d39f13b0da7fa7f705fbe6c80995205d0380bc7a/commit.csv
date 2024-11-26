@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d39f13b0da7fa7f705fbe6c80995205d0380bc7a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: add vm refcounting
-
-the main purpose of adding this functions is the abilaty to release the
-spinlock that protect the kvm list while still be able to do operations
-on a specific kvm in a safe way.
-
-Signed-off-by: Izik Eidus <izike@qumranet.com>
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|2|Izik Eidus|izike@qumranet.com|2008-03-30 16:01:25+03:00|-10800|Avi Kivity|avi@qumranet.com|2008-04-27 12:00:56+03:00|-10800

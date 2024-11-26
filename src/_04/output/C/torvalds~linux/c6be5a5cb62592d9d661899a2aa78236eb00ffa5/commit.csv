@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c6be5a5cb62592d9d661899a2aa78236eb00ffa5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"perf: Find task before event alloc
-
-So that we can pass the task pointer to the event allocation, so that
-we can use task associated data during event initialization.
-
-Signed-off-by: Peter Zijlstra <a.p.zijlstra@chello.nl>
-LKML-Reference: <20101014203625.340789919@chello.nl>
-Signed-off-by: Ingo Molnar <mingo@elte.hu>"|1|Peter Zijlstra|a.p.zijlstra@chello.nl|2010-10-14 16:59:46+02:00|-7200|Ingo Molnar|mingo@elte.hu|2010-10-18 19:58:54+02:00|-7200

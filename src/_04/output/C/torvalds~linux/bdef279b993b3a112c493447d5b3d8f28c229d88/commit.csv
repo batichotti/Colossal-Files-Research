@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bdef279b993b3a112c493447d5b3d8f28c229d88|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rtnl: fix error path when adding an iface with a link net
-
-If an error occurs when the netdevice is moved to the link netns, a full cleanup
-must be done.
-
-Fixes: 317f4810e45e (""rtnl: allow to create device with IFLA_LINK_NETNSID set"")
-Signed-off-by: Nicolas Dichtel <nicolas.dichtel@6wind.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Nicolas Dichtel|nicolas.dichtel@6wind.com|2015-01-20 15:15:42+01:00|-3600|David S. Miller|davem@davemloft.net|2015-01-23 17:51:14-08:00|28800

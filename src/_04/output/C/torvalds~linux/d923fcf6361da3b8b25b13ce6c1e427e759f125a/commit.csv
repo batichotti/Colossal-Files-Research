@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d923fcf6361da3b8b25b13ce6c1e427e759f125a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: nVMX: Don't update vmcs12->xss_exit_bitmap on nested VM-exit
-
-The XSS-exiting bitmap is a VMCS control field that does not change
-while the CPU is in non-root mode. Transferring the unchanged value
-from vmcs02 to vmcs12 is unnecessary.
-
-Signed-off-by: Jim Mattson <jmattson@google.com>
-Signed-off-by: Radim Krčmář <rkrcmar@redhat.com>"|1|Jim Mattson|jmattson@google.com|2017-06-01 12:43:37-07:00|25200|Radim Krčmář|rkrcmar@redhat.com|2017-06-07 16:34:08+02:00|-7200

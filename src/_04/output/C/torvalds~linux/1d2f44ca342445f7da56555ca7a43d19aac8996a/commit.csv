@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1d2f44ca342445f7da56555ca7a43d19aac8996a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libbpf: Name changing for btf_get_from_id
-
-s/btf_get_from_id/btf__get_from_id/ to restore the API naming convention.
-
-Signed-off-by: Martin KaFai Lau <kafai@fb.com>
-Signed-off-by: Andrey Ignatov <rdna@fb.com>
-Signed-off-by: Alexei Starovoitov <ast@kernel.org>"|5|Martin KaFai Lau|kafai@fb.com|2018-11-23 16:44:32-08:00|28800|Alexei Starovoitov|ast@kernel.org|2018-11-26 18:57:14-08:00|28800

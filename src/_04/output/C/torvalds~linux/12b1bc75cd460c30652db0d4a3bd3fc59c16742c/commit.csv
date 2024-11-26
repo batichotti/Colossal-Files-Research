@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|12b1bc75cd460c30652db0d4a3bd3fc59c16742c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8169: improve rtl_remove_one
-
-Don't call netif_napi_del() manually, free_netdev() does this for us.
-In addition reorder calls to match reverse order of calls in probe().
-
-Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Heiner Kallweit|hkallweit1@gmail.com|2020-05-25 21:54:00+02:00|-7200|David S. Miller|davem@davemloft.net|2020-05-26 20:27:18-07:00|25200

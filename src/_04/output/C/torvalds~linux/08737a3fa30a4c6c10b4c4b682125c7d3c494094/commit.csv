@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|08737a3fa30a4c6c10b4c4b682125c7d3c494094|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"qed: Inform qedi the number of possible CQs
-
-Now that management firmware is capable of telling us the number of CQs
-available for a given PF, qed needs to communicate the number to qedi
-so it would know have many to use.
-
-Signed-off-by: Yuval Mintz <Yuval.Mintz@cavium.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|4|Mintz, Yuval|Yuval.Mintz@cavium.com|2017-04-06 15:58:33+03:00|-10800|David S. Miller|davem@davemloft.net|2017-04-06 14:26:31-07:00|25200

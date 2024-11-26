@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|059b47e8aaf997245bc531e980581de492315fe6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bonding: convert primary_slave to use RCU
-
-This is necessary mainly for two bonding call sites: procfs and
-sysfs as it was dereferenced without any real protection.
-
-Signed-off-by: Nikolay Aleksandrov <nikolay@redhat.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|6|Nikolay Aleksandrov|nikolay@redhat.com|2014-09-09 23:17:00+02:00|-7200|David S. Miller|davem@davemloft.net|2014-09-09 17:31:35-07:00|25200

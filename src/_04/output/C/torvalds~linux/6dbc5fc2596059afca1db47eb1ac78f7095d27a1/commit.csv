@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6dbc5fc2596059afca1db47eb1ac78f7095d27a1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wlcore: cancel recovery_work on stop() instead of remove_interface()
-
-recovery_work should be cancelled when stopping the device,
-not when removing an interface (this is probably a leftover
-from the single-role days)
-
-Signed-off-by: Eliad Peller <eliad@wizery.com>
-Signed-off-by: Luciano Coelho <luca@coelho.fi>"|1|Eliad Peller|eliad@wizery.com|2012-07-29 14:37:29+03:00|-10800|Luciano Coelho|luca@coelho.fi|2012-09-27 12:13:50+03:00|-10800

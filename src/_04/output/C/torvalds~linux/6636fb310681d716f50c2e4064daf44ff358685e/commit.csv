@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6636fb310681d716f50c2e4064daf44ff358685e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8152: fix accessing skb after napi_gro_receive
-
-Fix accessing skb after napi_gro_receive which is caused by
-commit 47922fcde536 (""r8152: support skb_add_rx_frag"").
-
-Fixes: 47922fcde536 (""r8152: support skb_add_rx_frag"")
-Signed-off-by: Hayes Wang <hayeswang@realtek.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Hayes Wang|hayeswang@realtek.com|2019-08-19 11:15:19+08:00|-28800|David S. Miller|davem@davemloft.net|2019-08-19 18:13:24-07:00|25200

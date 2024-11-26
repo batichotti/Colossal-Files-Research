@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8ddf9efe6708f3674f0ddfeb6425fd27bea109a2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[PATCH] md: support write-mostly device in raid1
-
-This allows a device in a raid1 to be marked as ""write mostly"".  Read requests
-will only be sent if there is no other option.
-
-Signed-off-by: Neil Brown <neilb@cse.unsw.edu.au>
-Signed-off-by: Andrew Morton <akpm@osdl.org>
-Signed-off-by: Linus Torvalds <torvalds@osdl.org>"|4|NeilBrown|neilb@cse.unsw.edu.au|2005-09-09 16:23:45-07:00|25200|Linus Torvalds|torvalds@g5.osdl.org|2005-09-09 16:39:10-07:00|25200

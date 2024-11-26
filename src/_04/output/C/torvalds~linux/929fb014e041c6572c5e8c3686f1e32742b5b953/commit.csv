@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|929fb014e041c6572c5e8c3686f1e32742b5b953|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ocfs2: add POSIX ACL API
-
-This patch adds POSIX ACL(access control lists) APIs in ocfs2. We convert
-struct posix_acl to many ocfs2_acl_entry and regard them as an extended
-attribute entry.
-
-Signed-off-by: Tiger Yang <tiger.yang@oracle.com>
-Signed-off-by: Mark Fasheh <mfasheh@suse.com>"|6|Tiger Yang|tiger.yang@oracle.com|2008-11-14 11:17:04+08:00|-28800|Mark Fasheh|mfasheh@suse.com|2009-01-05 08:34:20-08:00|28800

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6c555490e0ce885a9caf0a045db69382a3ccbc9c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ipv6: drop useless rcu_read_lock() in anycast
-
-These code is now protected by rtnl lock, rcu read lock
-is useless now.
-
-Signed-off-by: Cong Wang <xiyou.wangcong@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|WANG Cong|xiyou.wangcong@gmail.com|2014-09-11 15:35:09-07:00|25200|David S. Miller|davem@davemloft.net|2014-09-13 16:38:42-04:00|14400

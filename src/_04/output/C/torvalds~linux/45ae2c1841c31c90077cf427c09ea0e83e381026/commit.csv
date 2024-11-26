@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|45ae2c1841c31c90077cf427c09ea0e83e381026|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: Document consistency of transaction->io_bgs list
-
-The reason why io_bgs can be modified without holding any lock is
-non-obvious. Document it and reference that documentation from the
-respective call sites.
-
-Signed-off-by: Nikolay Borisov <nborisov@suse.com>
-Signed-off-by: David Sterba <dsterba@suse.com>"|3|Nikolay Borisov|nborisov@suse.com|2018-02-08 18:25:18+02:00|-7200|David Sterba|dsterba@suse.com|2018-03-26 15:09:34+02:00|-7200

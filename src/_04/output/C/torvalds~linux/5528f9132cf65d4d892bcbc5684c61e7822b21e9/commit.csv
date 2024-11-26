@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5528f9132cf65d4d892bcbc5684c61e7822b21e9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mm: fix missing page table unmap for stack guard page failure case
-
-.. which didn't show up in my tests because it's a no-op on x86-64 and
-most other architectures.  But we enter the function with the last-level
-page table mapped, and should unmap it at exit.
-
-Signed-off-by: Linus Torvalds <torvalds@linux-foundation.org>"|1|Linus Torvalds|torvalds@linux-foundation.org|2010-08-13 09:24:04-07:00|25200|Linus Torvalds|torvalds@linux-foundation.org|2010-08-13 09:24:04-07:00|25200

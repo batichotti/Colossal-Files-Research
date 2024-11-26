@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b27dcfb0670ea7352a67137f4ff7947c2a9f6892|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[libata] avoid needlessly passing around ptr to SCSI completion func
-
-It's stored in struct scsi_cmnd->scsi_done, making several 'done'
-parameters to functions redundant.
-
-Signed-off-by: Jeff Garzik <jgarzik@redhat.com>"|4|Jeff Garzik|jeff@garzik.org|2010-11-17 22:56:48-05:00|18000|Jeff Garzik|jgarzik@redhat.com|2011-01-05 19:43:22-05:00|18000

@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d267be307a3345ef06889511cad2aa1fecc83db7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ipw2100: mark ipw2100_pm_qos_req static
-
-  CHECK   drivers/net/wireless/ipw2x00/ipw2100.c
-drivers/net/wireless/ipw2x00/ipw2100.c:177:28: warning: symbol 'ipw2100_pm_qos_req' was not declared. Should it be static?
-
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|1|John W. Linville|linville@tuxdriver.com|2010-07-20 14:11:51-04:00|14400|John W. Linville|linville@tuxdriver.com|2010-07-20 16:49:39-04:00|14400

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|177c8d1c96eb9851210313922a12ae8b0b63d8c0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: mvpp2: Fix a memory leak in error handling path
-
-if 'devm_kzalloc()' fails, we should release resources allocated so far,
-just as done a few lines below.
-
-Signed-off-by: Christophe JAILLET <christophe.jaillet@wanadoo.fr>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Christophe Jaillet|christophe.jaillet@wanadoo.fr|2017-02-19 10:19:57+01:00|-3600|David S. Miller|davem@davemloft.net|2017-02-20 10:33:19-05:00|18000

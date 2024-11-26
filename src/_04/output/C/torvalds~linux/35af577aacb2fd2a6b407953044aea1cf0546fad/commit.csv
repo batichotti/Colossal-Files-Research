@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|35af577aacb2fd2a6b407953044aea1cf0546fad|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: MMU: clenaup locking in mmu_free_roots()
-
-Do locking around each case separately instead of having one lock and two
-unlocks. Move root_hpa assignment out of the lock.
-
-Signed-off-by: Gleb Natapov <gleb@redhat.com>"|1|Gleb Natapov|gleb@redhat.com|2013-05-16 11:55:51+03:00|-10800|Gleb Natapov|gleb@redhat.com|2013-05-16 11:55:51+03:00|-10800

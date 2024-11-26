@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|be0230069fcbf7d332d010b57c1d0cfd623a84d6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSD: Separate tracepoints for acquire and create
-
-These tracepoints collect different information: the create case does
-not open a file, so there's no nf_file available.
-
-Reviewed-by: Jeff Layton <jlayton@kernel.org>
-Signed-off-by: Chuck Lever <chuck.lever@oracle.com>"|3|Chuck Lever|chuck.lever@oracle.com|2022-07-08 14:26:43-04:00|14400|Chuck Lever|chuck.lever@oracle.com|2022-07-29 20:15:54-04:00|14400

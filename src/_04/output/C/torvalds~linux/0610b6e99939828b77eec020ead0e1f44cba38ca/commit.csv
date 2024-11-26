@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0610b6e99939828b77eec020ead0e1f44cba38ca|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: Fix 64-bit block type problem on 32-bit platforms
-
-The function ext4_mb_free_blocks() was using an ""unsigned long"" to
-pass a block number; this will cause 64-bit block numbers to get
-truncated on x86 and other 32-bit platforms.
-
-Signed-off-by: ""Theodore Ts'o"" <tytso@mit.edu>
-Reviewed-by: Eric Sandeen <sandeen@redhat.com>"|2|Theodore Ts'o|tytso@mit.edu|2009-06-15 03:45:05-04:00|14400|Theodore Ts'o|tytso@mit.edu|2009-06-15 03:45:05-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d3b404c29c97ecf56001dc94f94a5b8e5efcd2e3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8169: simplify rtl8169_alloc_rx_data
-
-dev->dev.parent has the same value as tp_to_dev(tp)
-(set by SET_NETDEV_DEV() in rtl_init_one()) and we know it can't be NULL.
-This allows us to simplify the code.
-
-Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Heiner Kallweit|hkallweit1@gmail.com|2018-04-17 23:22:14+02:00|-7200|David S. Miller|davem@davemloft.net|2018-04-18 21:11:58-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c016b0bdeee74a7fbe5179937c0d667eabcf379e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"slub: Extract hooks for memory checkers from hotpaths
-
-Extract the code that memory checkers and other verification tools use from
-the hotpaths. Makes it easier to add new ones and reduces the disturbances
-of the hotpaths.
-
-Signed-off-by: Christoph Lameter <cl@linux-foundation.org>
-Signed-off-by: Pekka Enberg <penberg@kernel.org>"|1|Christoph Lameter|cl@linux.com|2010-08-20 12:37:16-05:00|18000|Pekka Enberg|penberg@kernel.org|2010-10-02 10:24:27+03:00|-10800

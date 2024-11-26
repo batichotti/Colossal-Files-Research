@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2830ba7f34ebb27c4e5b8b6ef408cd6d74860890|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"->permission() sanitizing: don't pass flags to generic_permission()
-
-redundant; all callers get it duplicated in mask & MAY_NOT_BLOCK and none of
-them removes that bit.
-
-Signed-off-by: Al Viro <viro@zeniv.linux.org.uk>"|16|Al Viro|viro@zeniv.linux.org.uk|2011-06-20 19:16:29-04:00|14400|Al Viro|viro@zeniv.linux.org.uk|2011-07-20 01:43:22-04:00|14400

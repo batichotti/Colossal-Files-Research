@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|23c779b9f9161d6568d3b2fca06e70ad182c480c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"regulator: Add pull down support
-
-Some regulators need to be configured to pull down a resistor
-when the regulator is disabled. Add an op (set_pull_down) and a
-DT property + constraint to support this.
-
-Signed-off-by: Stephen Boyd <sboyd@codeaurora.org>
-Signed-off-by: Mark Brown <broonie@kernel.org>"|5|Stephen Boyd|sboyd@codeaurora.org|2015-06-11 17:37:04-07:00|25200|Mark Brown|broonie@kernel.org|2015-06-12 13:09:43+01:00|-3600

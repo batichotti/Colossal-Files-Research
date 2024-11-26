@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c6c956b80bdf151cf41d3e7e5c54755d930a212c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: s390/mm: support gmap page tables with less than 5 levels
-
-Add an addressing limit to the gmap address spaces and only allocate
-the page table levels that are needed for the given limit. The limit
-is fixed and can not be changed after a gmap has been created.
-
-Signed-off-by: Martin Schwidefsky <schwidefsky@de.ibm.com>
-Signed-off-by: Christian Borntraeger <borntraeger@de.ibm.com>"|3|Martin Schwidefsky|schwidefsky@de.ibm.com|2014-07-01 14:36:04+02:00|-7200|Christian Borntraeger|borntraeger@de.ibm.com|2014-08-26 10:09:03+02:00|-7200

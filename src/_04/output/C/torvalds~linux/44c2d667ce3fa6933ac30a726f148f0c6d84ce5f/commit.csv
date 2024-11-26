@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|44c2d667ce3fa6933ac30a726f148f0c6d84ce5f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM/x86: Use 32bit xor to clear register
-
-x86_64 zero-extends 32bit xor to a full 64bit register. Use %k asm
-operand modifier to force 32bit register and save 268 bytes in kvm.o
-
-Signed-off-by: Uros Bizjak <ubizjak@gmail.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Uros Bizjak|ubizjak@gmail.com|2018-10-11 19:40:45+02:00|-7200|Paolo Bonzini|pbonzini@redhat.com|2018-10-17 00:30:09+02:00|-7200

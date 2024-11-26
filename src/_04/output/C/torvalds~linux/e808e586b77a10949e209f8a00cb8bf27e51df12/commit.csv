@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e808e586b77a10949e209f8a00cb8bf27e51df12|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"b43: Fixup set_key handling
-
-This fixes the key handling for mac80211's new key->flags.
-It also adds TX locking to the set_key handler and adds a comment why this is required.
-This doesn't fix any known bugs.
-
-Signed-off-by: Michael Buesch <mb@bu3sch.de>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|1|Michael Buesch|mb@bu3sch.de|2008-12-19 21:30:52+01:00|-3600|John W. Linville|linville@tuxdriver.com|2009-01-29 15:58:33-05:00|18000

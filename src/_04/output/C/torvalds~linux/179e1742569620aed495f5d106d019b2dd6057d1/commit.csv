@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|179e1742569620aed495f5d106d019b2dd6057d1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rtl8xxxu: Handle 40 byte TX descriptors for rtl8723bu
-
-Note the descriptor checksum is still only calculated over the initial
-32 bytes of the descriptor, ignoring the last 8 bytes of the
-descriptor.
-
-Signed-off-by: Jes Sorensen <Jes.Sorensen@redhat.com>
-Signed-off-by: Kalle Valo <kvalo@codeaurora.org>"|2|Jes Sorensen|Jes.Sorensen@redhat.com|2016-02-29 17:05:27-05:00|18000|Kalle Valo|kvalo@codeaurora.org|2016-03-10 15:29:15+02:00|-7200

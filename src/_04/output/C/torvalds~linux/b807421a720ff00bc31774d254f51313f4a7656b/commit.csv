@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b807421a720ff00bc31774d254f51313f4a7656b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cgroup: misc cleanups
-
-* cgrp_dfl_implicit_ss_mask is ulong instead of u16 unlike other
-  ss_masks.  Make it a u16.
-
-* Move have_canfork_callback together with other callback ss_masks.
-
-Signed-off-by: Tejun Heo <tj@kernel.org>"|1|Tejun Heo|tj@kernel.org|2017-01-20 12:06:08-05:00|18000|Tejun Heo|tj@kernel.org|2017-01-30 17:09:07-05:00|18000

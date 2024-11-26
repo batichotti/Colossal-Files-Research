@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|09703660edf83b8b6d175440bf745f30580d85ab|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: Add export.h for EXPORT_SYMBOL/THIS_MODULE as required
-
-For the basic SCSI infrastructure files that are exporting symbols
-but not modules themselves, add in the basic export.h header file
-to allow the exports.
-
-Signed-off-by: Paul Gortmaker <paul.gortmaker@windriver.com>"|16|Paul Gortmaker|paul.gortmaker@windriver.com|2011-05-27 09:37:25-04:00|14400|Paul Gortmaker|paul.gortmaker@windriver.com|2011-10-31 19:31:23-04:00|14400

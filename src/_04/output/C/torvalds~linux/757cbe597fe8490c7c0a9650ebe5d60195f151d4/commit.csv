@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|757cbe597fe8490c7c0a9650ebe5d60195f151d4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"LSM: new method: ->sb_add_mnt_opt()
-
-Adding options to growing mnt_opts.  NFS kludge with passing
-context= down into non-text-options mount switched to it, and
-with that the last use of ->sb_parse_opts_str() is gone.
-
-Reviewed-by: David Howells <dhowells@redhat.com>
-Signed-off-by: Al Viro <viro@zeniv.linux.org.uk>"|6|Al Viro|viro@zeniv.linux.org.uk|2018-12-14 23:42:21-05:00|18000|Al Viro|viro@zeniv.linux.org.uk|2018-12-21 11:50:02-05:00|18000

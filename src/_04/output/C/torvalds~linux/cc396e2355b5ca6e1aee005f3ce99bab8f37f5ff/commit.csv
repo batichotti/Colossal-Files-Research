@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cc396e2355b5ca6e1aee005f3ce99bab8f37f5ff|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"dlm: convert res_lock to spinlock
-
-Convert the rsb struct res_lock from a mutex to a spinlock
-in preparation for processing messages in softirq context.
-
-Signed-off-by: Alexander Aring <aahringo@redhat.com>
-Signed-off-by: David Teigland <teigland@redhat.com>"|3|Alexander Aring|aahringo@redhat.com|2024-04-02 15:18:05-04:00|14400|David Teigland|teigland@redhat.com|2024-04-09 11:44:49-05:00|18000

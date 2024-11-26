@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|eb438b5f3065dc270484919e8b88486d0cff59d3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Fix updating the right variable in update_scan_rsp_data()
-
-This function should be operating on scan_rsp_data_len and scan_rsp_data
-and not the advertising data variables.
-
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|1|Johan Hedberg|johan.hedberg@intel.com|2013-10-16 15:31:07+03:00|-10800|Marcel Holtmann|marcel@holtmann.org|2013-10-16 07:02:14-07:00|25200

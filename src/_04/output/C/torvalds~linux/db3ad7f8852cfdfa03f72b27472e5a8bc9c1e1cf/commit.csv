@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|db3ad7f8852cfdfa03f72b27472e5a8bc9c1e1cf|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] qla2xxx: Proper clean-up of BSG requests when request times out.
-
-Fix for BSG request cleanup when the request timesout.
-Proper release of driver resources used for BSG request during timeout cleanup.
-
-Cc: stable@kernel.org
-Signed-off-by: Giridhar Malavali <giridhar.malavali@qlogic.com>
-Signed-off-by: James Bottomley <James.Bottomley@suse.de>"|2|Giridhar Malavali|giridhar.malavali@qlogic.com|2010-02-18 10:07:24-08:00|28800|James Bottomley|James.Bottomley@suse.de|2010-02-19 10:44:52-06:00|21600

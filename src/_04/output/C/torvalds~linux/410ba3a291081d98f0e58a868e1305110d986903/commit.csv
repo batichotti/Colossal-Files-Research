@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|410ba3a291081d98f0e58a868e1305110d986903|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: Make btrfs_device_uuid() return unsigned long
-
-All callers of btrfs_device_uuid() cast its return type to unsigned long.
-
-Signed-off-by: Geert Uytterhoeven <geert@linux-m68k.org>
-Signed-off-by: Josef Bacik <jbacik@fusionio.com>
-Signed-off-by: Chris Mason <chris.mason@fusionio.com>"|2|Geert Uytterhoeven|geert@linux-m68k.org|2013-08-20 13:20:11+02:00|-7200|Chris Mason|chris.mason@fusionio.com|2013-09-01 08:16:12-04:00|14400

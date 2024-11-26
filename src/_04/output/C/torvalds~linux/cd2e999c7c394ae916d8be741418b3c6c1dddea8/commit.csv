@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cd2e999c7c394ae916d8be741418b3c6c1dddea8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSD: De-duplicate nfsd4_decode_bitmap4()
-
-Clean up. Trond points out that xdr_stream_decode_uint32_array()
-does the same thing as nfsd4_decode_bitmap4().
-
-Suggested-by: Trond Myklebust <trondmy@hammerspace.com>
-Signed-off-by: Chuck Lever <chuck.lever@oracle.com>"|1|Chuck Lever|chuck.lever@oracle.com|2021-12-13 10:20:45-05:00|18000|Chuck Lever|chuck.lever@oracle.com|2022-01-08 14:42:01-05:00|18000

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|176cbeceb5c5a740216a6be3e751e76aaddf94b9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: hci_core: Don't use hci_prepare_cmd
-
-This replaces the instance of hci_prepare_cmd with hci_cmd_sync_alloc
-since the former is part of hci_request.c which is considered
-deprecated.
-
-Signed-off-by: Luiz Augusto von Dentz <luiz.von.dentz@intel.com>"|3|Luiz Augusto von Dentz|luiz.von.dentz@intel.com|2024-07-01 16:13:56-04:00|14400|Luiz Augusto von Dentz|luiz.von.dentz@intel.com|2024-07-15 10:11:29-04:00|14400

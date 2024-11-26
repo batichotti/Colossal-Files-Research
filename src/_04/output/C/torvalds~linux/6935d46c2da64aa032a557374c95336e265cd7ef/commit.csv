@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6935d46c2da64aa032a557374c95336e265cd7ef|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[NET]: Remove redundant code in net/core/filter.c
-
-skb_header_pointer handles linear and non-linear data, no need to handle
-linear data again.
-
-Signed-off-by: Patrick McHardy <kaber@trash.net>
-Acked-by: Herbert Xu <herbert@gondor.apana.org.au>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Patrick McHardy|kaber@trash.net|2005-07-05 14:08:57-07:00|25200|David S. Miller|davem@davemloft.net|2005-07-05 14:08:57-07:00|25200

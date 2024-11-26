@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7c8104774e59549c37dd1cb0a8ec4f131094664c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bnx2: Always set ETH_FLAG_TXVLAN
-
-TSO does not work if the VLAN tag is in the packet (non-accelerated).
-We may be able to remove this restriction in future firmware.
-
-Reported-by: Eric Dumazet <eric.dumazet@gmail.com>
-Signed-off-by: Michael Chan <mchan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Michael Chan|mchan@broadcom.com|2011-01-24 12:59:02+00:00|0|David S. Miller|davem@davemloft.net|2011-01-24 23:16:07-08:00|28800

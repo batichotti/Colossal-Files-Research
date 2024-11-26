@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ad020dc2fe9039628cf6cef42cd1b76531ee8411|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[media] tuner-core: remove usage of DIGITAL_TV
-
-tuner-core has no business to do with digital TV. So, don't use
-T_DIGITAL_TV on it, as it has no code to distinguish between
-them, and nobody fills T_DIGITAL_TV right.
-
-Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"|5|Mauro Carvalho Chehab|mchehab@redhat.com|2011-02-15 09:30:50-02:00|7200|Mauro Carvalho Chehab|mchehab@redhat.com|2011-03-21 20:32:03-03:00|10800

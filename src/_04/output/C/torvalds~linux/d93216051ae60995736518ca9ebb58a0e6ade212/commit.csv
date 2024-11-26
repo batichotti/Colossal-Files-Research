@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d93216051ae60995736518ca9ebb58a0e6ade212|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bonding: initialize before registration
-
-Avoid a unnecessary carrier state transistion that happens when device
-is registered.
-Lockdep works better if initialization is done before registration as well.
-
-Signed-off-by: Stephen Hemminger <shemminger@vyatta.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Stephen Hemminger|shemminger@vyatta.com|2009-06-12 19:02:45+00:00|0|David S. Miller|davem@davemloft.net|2009-06-13 23:28:52-07:00|25200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0d5ce778c43bf888328231bcdce05d5c860655aa|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"usb: hub: fix a typo in hub_port_init() leading to wrong logic
-
-A typo of j for i led to a logic bug. To rule out future
-confusion, the variable names are made meaningful.
-
-Signed-off-by: Oliver Neukum <ONeukum@suse.com>
-CC: stable@vger.kernel.org
-Signed-off-by: Greg Kroah-Hartman <gregkh@linuxfoundation.org>"|1|Oliver Neukum|oneukum@suse.com|2016-02-17 11:52:43+01:00|-3600|Greg Kroah-Hartman|gregkh@linuxfoundation.org|2016-03-03 19:44:06-08:00|28800

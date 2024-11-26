@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|82284c09c5dc5c5a5046f3c852f2683dab60109c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] be2iscsi: fix null dereference on error path
-
-""phba"" is always null here so we can't dereference it.
-
-Signed-off-by: Dan Carpenter <error27@gmail.com>
-Reviewed-by: Mike Christie <michaelc@cs.wisc.edu>
-Signed-off-by: James Bottomley <James.Bottomley@suse.de>"|1|Dan Carpenter|error27@gmail.com|2010-06-10 09:53:05+02:00|-7200|James Bottomley|James.Bottomley@suse.de|2010-07-27 12:01:41-05:00|18000

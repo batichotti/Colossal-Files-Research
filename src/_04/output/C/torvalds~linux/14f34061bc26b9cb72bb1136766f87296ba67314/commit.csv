@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|14f34061bc26b9cb72bb1136766f87296ba67314|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"crypto: testmgr - Disable rfc4543 test
-
-Because the old rfc4543 implementation always injected an IV into
-the AD, while the new one does not, we have to disable the test
-while it is converted over to the new AEAD interface.
-
-Signed-off-by: Herbert Xu <herbert@gondor.apana.org.au>"|1|Herbert Xu|herbert@gondor.apana.org.au|2015-06-16 13:54:16+08:00|-28800|Herbert Xu|herbert@gondor.apana.org.au|2015-06-17 15:35:04+08:00|-28800

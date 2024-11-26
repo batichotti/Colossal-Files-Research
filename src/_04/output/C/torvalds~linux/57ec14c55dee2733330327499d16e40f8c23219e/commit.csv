@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|57ec14c55dee2733330327499d16e40f8c23219e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS: Create a return_delegation rpc op
-
-Delegations are a v4 feature, so push return_delegation out of the
-generic client by creating a new rpc_op and renaming the old function to
-be in the nfs v4 ""namespace""
-
-Signed-off-by: Bryan Schumaker <bjschuma@netapp.com>
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|9|Bryan Schumaker|bjschuma@netapp.com|2012-06-20 15:53:44-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2012-06-29 11:46:45-04:00|14400

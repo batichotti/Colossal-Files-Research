@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2248b29349fa8c59e8bf7e13197f7d5303c0a86a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cxgb4: Differentiate between stids between server and filter region
-
-For T4 adapter, offloaded servers tid for IPv4 connections are
-allocated from filter region. So add a new field for server filter tid if
-server tid is allocated from filter region.
-
-Signed-off-by: Hariprasad Shenai <hariprasad@chelsio.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Hariprasad Shenai|hariprasad@chelsio.com|2015-08-12 16:55:06+05:30|-19800|David S. Miller|davem@davemloft.net|2015-08-12 16:42:12-07:00|25200

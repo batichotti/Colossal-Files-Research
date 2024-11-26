@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e015640f9c4fa2417dcc3bbbb3b2b61ad4059ab0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: Write bio checksumming outside the FS mutex
-
-This significantly improves streaming write performance by allowing
-concurrency in the data checksumming.
-
-Signed-off-by: Chris Mason <chris.mason@oracle.com>"|3|Chris Mason|chris.mason@oracle.com|2008-04-16 11:15:20-04:00|14400|Chris Mason|chris.mason@oracle.com|2008-09-25 11:04:01-04:00|14400

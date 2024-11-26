@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|552fb0b7a6e8079339913512b75d8c203f54bfdf|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Delay DP i2c initialization until panel power timings are computed
-
-On eDP, DDC requires panel power, but turning that on uses the panel
-power sequencing timing values fetch from the DPCD data.
-
-Signed-off-by: Keith Packard <keithp@keithp.com>
-Reviewed-by: Daniel Vetter <daniel.vetter@ffwll.ch>"|1|Keith Packard|keithp@keithp.com|2011-09-28 16:31:53-07:00|25200|Keith Packard|keithp@keithp.com|2011-10-05 19:56:50-07:00|25200

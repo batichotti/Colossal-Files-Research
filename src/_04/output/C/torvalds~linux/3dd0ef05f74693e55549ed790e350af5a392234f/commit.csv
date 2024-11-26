@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3dd0ef05f74693e55549ed790e350af5a392234f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: dsa: mv88e6xxx: Fix cleanup on error for g1 interrupt setup
-
-On error, remask the interrupts, release all maps, and remove the
-domain. This cannot be done using the mv88e6xxx_g1_irq_free() because
-some of these actions are not idempotent.
-
-Signed-off-by: Andrew Lunn <andrew@lunn.ch>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Andrew Lunn|andrew@lunn.ch|2016-11-20 20:14:17+01:00|-3600|David S. Miller|davem@davemloft.net|2016-11-20 21:16:13-05:00|18000

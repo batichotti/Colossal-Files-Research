@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|af7797785d61e1053d23764b5d3fbdf2ab926f31|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8169: move enabling EEE to rtl8169_init_phy
-
-Simplify the code by moving the call to rtl_enable_eee() from the
-individual PHY configs to rtl8169_init_phy().
-
-Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Heiner Kallweit|hkallweit1@gmail.com|2019-12-21 14:15:21+01:00|-3600|David S. Miller|davem@davemloft.net|2019-12-24 22:26:46-08:00|28800

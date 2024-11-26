@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ab953f099fd7d0c28d3e35dcd008651aad57db6f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Move WaPruneModeWithIncorrectHsyncOffset into intel_mode_valid()
-
-Check for the zero length front porch already in intel_mode_valid()
-so that we get the same validation for both get_modes() and setcrtc()/etc.
-
-Signed-off-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Link: https://patchwork.freedesktop.org/patch/msgid/20210930104133.30854-3-ville.syrjala@linux.intel.com
-Reviewed-by: Jani Nikula <jani.nikula@intel.com>"|1|Ville Syrjälä|ville.syrjala@linux.intel.com|2021-09-30 13:41:33+03:00|-10800|Ville Syrjälä|ville.syrjala@linux.intel.com|2021-10-01 16:09:45+03:00|-10800

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cd634fb6eec72ef8e6dd677546b8d0ffdd2501eb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libceph: subscribe to osdmap when cluster is full
-
-When the cluster is marked full, subscribe to subsequent map updates to
-ensure we find out promptly when it is no longer full.  This will prevent
-us from spewing ENOSPC for (much) longer than necessary.
-
-Signed-off-by: Sage Weil <sage@newdream.net>"|1|Sage Weil|sage@newdream.net|2011-05-12 09:29:18-07:00|25200|Sage Weil|sage@newdream.net|2011-05-24 11:52:11-07:00|25200

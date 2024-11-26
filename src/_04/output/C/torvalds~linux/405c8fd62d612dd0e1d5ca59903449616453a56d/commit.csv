@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|405c8fd62d612dd0e1d5ca59903449616453a56d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: Carry reset flag in nft_rule_dump_ctx
-
-This relieves the dump callback from having to check nlmsg_type upon
-each call and instead performs the check once in .start callback.
-
-Signed-off-by: Phil Sutter <phil@nwl.cc>
-Signed-off-by: Florian Westphal <fw@strlen.de>"|1|Phil Sutter|phil@nwl.cc|2023-09-29 21:19:20+02:00|-7200|Florian Westphal|fw@strlen.de|2023-10-10 16:34:27+02:00|-7200

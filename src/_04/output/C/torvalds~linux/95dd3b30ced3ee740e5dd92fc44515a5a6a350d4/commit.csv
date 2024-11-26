@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|95dd3b30ced3ee740e5dd92fc44515a5a6a350d4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Input: wacom - get rid of wacom_combo structure
-
-Now that we moved input device from struct wacom to struct wacom_wac,
-presence of wacom_combo just complicats things for no good reason.
-Let's get rid of it and simply pass URB length to wacom_wac_irq().
-
-Signed-off-by: Dmitry Torokhov <dtor@mail.ru>"|3|Dmitry Torokhov|dmitry.torokhov@gmail.com|2010-03-19 22:18:15-07:00|25200|Dmitry Torokhov|dmitry.torokhov@gmail.com|2010-04-13 23:24:35-07:00|25200

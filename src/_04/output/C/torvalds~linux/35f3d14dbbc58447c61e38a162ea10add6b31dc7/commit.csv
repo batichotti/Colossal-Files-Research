@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|35f3d14dbbc58447c61e38a162ea10add6b31dc7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"pipe: add support for shrinking and growing pipes
-
-This patch adds F_GETPIPE_SZ and F_SETPIPE_SZ fcntl() actions for
-growing and shrinking the size of a pipe and adjusts pipe.c and splice.c
-(and relay and network splice) usage to work with these larger (or smaller)
-pipes.
-
-Signed-off-by: Jens Axboe <jens.axboe@oracle.com>"|9|Jens Axboe|jens.axboe@oracle.com|2010-05-20 10:43:18+02:00|-7200|Jens Axboe|jens.axboe@oracle.com|2010-05-21 21:12:40+02:00|-7200

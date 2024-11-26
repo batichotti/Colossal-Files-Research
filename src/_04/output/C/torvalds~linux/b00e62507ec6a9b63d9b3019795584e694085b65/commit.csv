@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b00e62507ec6a9b63d9b3019795584e694085b65|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: move extent_op cleanup to a helper
-
-Move the extent_op cleanup for an empty head ref to a helper function to
-help simplify __btrfs_run_delayed_refs.
-
-Signed-off-by: Josef Bacik <jbacik@fb.com>
-Reviewed-by: David Sterba <dsterba@suse.com>
-Signed-off-by: David Sterba <dsterba@suse.com>"|1|Josef Bacik|josef@toxicpanda.com|2017-09-29 15:43:53-04:00|14400|David Sterba|dsterba@suse.com|2017-10-30 12:28:00+01:00|-3600

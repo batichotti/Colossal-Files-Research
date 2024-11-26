@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|070bb43ab01e891db1b742d4ddd7291c7f8d7022|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"dm integrity: use crypto_shash_digest() in sb_mac()
-
-Simplify sb_mac() by using crypto_shash_digest() instead of an
-init+update+final sequence.  This should also improve performance.
-
-Signed-off-by: Eric Biggers <ebiggers@google.com>
-Signed-off-by: Mike Snitzer <snitzer@kernel.org>"|1|Eric Biggers|ebiggers@google.com|2023-10-28 21:59:44-07:00|25200|Mike Snitzer|snitzer@kernel.org|2023-10-31 11:06:21-04:00|14400

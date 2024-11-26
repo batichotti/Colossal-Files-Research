@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|39e58c3425b1816c84724e8a77f9f9daa0143263|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libceph: introduce alloc_watch_request()
-
-ceph_osdc_alloc_messages() call will be moved out of
-alloc_linger_request() in the next commit, which means that
-ceph_osdc_watch() will need to call ceph_osdc_alloc_messages()
-twice.  Add a helper for that.
-
-Signed-off-by: Ilya Dryomov <idryomov@gmail.com>"|1|Ilya Dryomov|idryomov@gmail.com|2018-10-15 15:26:27+02:00|-7200|Ilya Dryomov|idryomov@gmail.com|2018-10-22 10:28:22+02:00|-7200

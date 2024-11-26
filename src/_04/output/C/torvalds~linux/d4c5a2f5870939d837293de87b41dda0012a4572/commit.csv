@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d4c5a2f5870939d837293de87b41dda0012a4572|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ftrace: fix locking
-
-we can hold all cpu trace buffer locks at once - put each into a
-separate lock class.
-
-Signed-off-by: Ingo Molnar <mingo@elte.hu>
-Signed-off-by: Thomas Gleixner <tglx@linutronix.de>"|2|Ingo Molnar|mingo@elte.hu|2008-05-12 21:20:46+02:00|-7200|Thomas Gleixner|tglx@linutronix.de|2008-05-23 20:42:12+02:00|-7200

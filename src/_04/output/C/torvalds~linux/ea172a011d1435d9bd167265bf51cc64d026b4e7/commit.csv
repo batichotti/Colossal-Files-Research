@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ea172a011d1435d9bd167265bf51cc64d026b4e7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"be2net: no need to query link status
-
-Change in the link status generates an MCC event. This is processed and
-netif_carrier_on/off is called accordingly. Don't need to query/store the
-link_status state.
-
-Signed-off-by: Sathya Perla <sathya.perla@emulex.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|5|Sathya Perla|sathya.perla@emulex.com|2011-08-02 19:57:42+00:00|0|David S. Miller|davem@davemloft.net|2011-08-03 03:23:29-07:00|25200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|751d460ccff3137212f47d876221534bf0490996|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: skip bound chain in netns release path
-
-Skip bound chain from netns release path, the rule that owns this chain
-releases these objects.
-
-Fixes: d0e2c7de92c7 (""netfilter: nf_tables: add NFT_CHAIN_BINDING"")
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>
-Signed-off-by: Florian Westphal <fw@strlen.de>"|1|Pablo Neira Ayuso|pablo@netfilter.org|2023-07-19 20:19:43+02:00|-7200|Florian Westphal|fw@strlen.de|2023-07-20 17:02:45+02:00|-7200

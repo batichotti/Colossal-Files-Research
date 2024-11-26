@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6047a007d0f6b7395cd158f3bdda34ab39a48821|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"SLUB: Use ->objsize from struct kmem_cache_cpu in slab_free()
-
-There's no reason to use ->objsize from struct kmem_cache in slab_free() for
-the SLAB_DEBUG_OBJECTS case. All it does is generate extra cache pressure as we
-try very hard not to touch struct kmem_cache in the fast-path.
-
-Signed-off-by: Pekka Enberg <penberg@cs.helsinki.fi>"|1|Pekka Enberg|penberg@cs.helsinki.fi|2009-01-14 12:22:25+02:00|-7200|Pekka Enberg|penberg@cs.helsinki.fi|2009-01-14 17:04:59+02:00|-7200

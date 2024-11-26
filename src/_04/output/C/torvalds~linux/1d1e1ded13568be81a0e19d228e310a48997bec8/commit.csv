@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1d1e1ded13568be81a0e19d228e310a48997bec8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"selinux: make better use of the nf_hook_state passed to the NF hooks
-
-This patch builds on a previous SELinux/netfilter patch by Florian
-Westphal and makes better use of the nf_hook_state variable passed
-into the SELinux/netfilter hooks as well as a number of other small
-cleanups in the related code.
-
-Signed-off-by: Paul Moore <paul@paul-moore.com>"|1|Paul Moore|paul@paul-moore.com|2021-10-11 17:50:48-04:00|14400|Paul Moore|paul@paul-moore.com|2021-10-13 16:31:18-04:00|14400

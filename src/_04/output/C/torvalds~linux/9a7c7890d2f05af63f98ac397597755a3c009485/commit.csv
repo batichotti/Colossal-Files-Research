@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9a7c7890d2f05af63f98ac397597755a3c009485|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: set CB tuning also for the reduce clock
-
-Since the ratio is different, we also need to pass in the parameters
-for the reduced clock. Might or might not reduce flicker for the
-auto-downclocking on lvds/eDP.
-
-Reviewed-by: Paulo Zanoni <paulo.r.zanoni@intel.com>
-Signed-off-by: Daniel Vetter <daniel.vetter@ffwll.ch>"|1|Daniel Vetter|daniel.vetter@ffwll.ch|2013-04-04 22:20:34+02:00|-7200|Daniel Vetter|daniel.vetter@ffwll.ch|2013-04-18 09:43:09+02:00|-7200

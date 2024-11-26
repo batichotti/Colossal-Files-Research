@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|84bde9d6c0e6830f4a8685a5d237965053118bf9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Convert hdev->ssp_mode to a flag
-
-The ssp_mode is essentially just a boolean so it's more appropriate to
-have it simply as a flag in hdev->dev_flags.
-
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>
-Acked-by: Marcel Holtmann <marcel@holtmann.org>"|5|Johan Hedberg|johan.hedberg@intel.com|2012-01-25 14:21:06+02:00|-7200|Johan Hedberg|johan.hedberg@intel.com|2012-02-13 17:01:29+02:00|-7200

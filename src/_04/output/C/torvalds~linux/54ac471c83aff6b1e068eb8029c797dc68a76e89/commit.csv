@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|54ac471c83aff6b1e068eb8029c797dc68a76e89|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS: Add memory barriers to the nfs_client->cl_cons_state initialisation
-
-Ensure that a process that uses the nfs_client->cl_cons_state test
-for whether the initialisation process is finished does not read
-stale data.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|3|Trond Myklebust|Trond.Myklebust@netapp.com|2012-05-23 13:26:10-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2012-05-23 15:24:59-04:00|14400

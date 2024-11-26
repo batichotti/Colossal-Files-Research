@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e916b0815a11c6cbc82f2d8510982ea022628880|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bnxt_en: Add bnxt_get_avail_cp_rings_for_en() helper function.
-
-The available CP rings are calculated differently on the new 57500
-chips, so add this helper to do this calculation correctly.  The
-VFs will be assigned these available CP rings.
-
-Signed-off-by: Michael Chan <michael.chan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|Michael Chan|michael.chan@broadcom.com|2018-12-16 18:46:20-05:00|18000|David S. Miller|davem@davemloft.net|2018-12-17 23:08:53-08:00|28800

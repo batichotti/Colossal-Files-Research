@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bb87672562f871edd7a220222dd2480a87294580|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Remove update_scan hci_request dependancy
-
-This removes the remaining calls to HCI_OP_WRITE_SCAN_ENABLE from
-hci_request call chains, and converts them to hci_sync calls.
-
-Signed-off-by: Brian Gix <brian.gix@intel.com>
-Signed-off-by: Luiz Augusto von Dentz <luiz.von.dentz@intel.com>"|7|Brian Gix|brian.gix@intel.com|2022-07-21 16:22:24-07:00|25200|Luiz Augusto von Dentz|luiz.von.dentz@intel.com|2022-07-22 12:55:40-07:00|25200

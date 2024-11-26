@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9d6a8c5c213e34c475e72b245a8eb709258e968c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"locks: give posix_test_lock same interface as ->lock
-
-posix_test_lock() and ->lock() do the same job but have gratuitously
-different interfaces.  Modify posix_test_lock() so the two agree,
-simplifying some code in the process.
-
-Signed-off-by: Marc Eshel <eshel@almaden.ibm.com>
-Signed-off-by: ""J. Bruce Fields"" <bfields@citi.umich.edu>"|8|Marc Eshel|eshel@almaden.ibm.com|2007-02-21 00:55:18-05:00|18000|J. Bruce Fields|bfields@citi.umich.edu|2007-05-06 17:39:00-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ac146235d47c20dbb1da7f0f8ef35c73e24590e3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: fix warning on 32-bit compilation
-
-PCIDs are only supported in 64-bit mode.  No need to clear bit 63
-of CR3 unless the host is 64-bit.
-
-Reported by Fengguang Wu's autobuilder.
-
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Paolo Bonzini|pbonzini@redhat.com|2014-11-10 13:53:25+01:00|-3600|Paolo Bonzini|pbonzini@redhat.com|2014-11-10 13:53:25+01:00|-3600

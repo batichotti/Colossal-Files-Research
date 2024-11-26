@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9f0c5124f4a82503ee5d55c60b0b9c6afc3af68b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS: Don't open code clearing of delegation state
-
-Add a helper for the case when the nfs4 open state has been set to use
-a delegation stateid, and we want to revert to using the open stateid.
-
-Signed-off-by: Trond Myklebust <trond.myklebust@hammerspace.com>
-Signed-off-by: Anna Schumaker <Anna.Schumaker@Netapp.com>"|1|Trond Myklebust|trondmy@gmail.com|2018-09-05 14:07:15-04:00|14400|Anna Schumaker|Anna.Schumaker@Netapp.com|2018-09-14 16:24:27-04:00|14400

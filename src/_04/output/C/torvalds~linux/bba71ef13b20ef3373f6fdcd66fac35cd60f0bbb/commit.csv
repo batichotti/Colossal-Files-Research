@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bba71ef13b20ef3373f6fdcd66fac35cd60f0bbb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: hci_sync: Use address filtering when HCI_PA_SYNC is set
-
-If HCI_PA_SYNC flag is set it means there is a Periodic Advertising
-Synchronization pending, so this attempts to locate the address passed
-to HCI_OP_LE_PA_CREATE_SYNC and program it in the accept list so only
-reports with that address are processed.
-
-Signed-off-by: Luiz Augusto von Dentz <luiz.von.dentz@intel.com>"|1|Luiz Augusto von Dentz|luiz.von.dentz@intel.com|2024-02-21 09:38:09-05:00|18000|Luiz Augusto von Dentz|luiz.von.dentz@intel.com|2024-03-06 17:26:19-05:00|18000

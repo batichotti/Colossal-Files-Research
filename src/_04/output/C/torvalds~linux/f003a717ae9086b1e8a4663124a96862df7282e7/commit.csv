@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f003a717ae9086b1e8a4663124a96862df7282e7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfs: Convert nfs_symlink() to use a folio
-
-Use the folio APIs, saving about four calls to compound_head().
-Convert back to a page in each of the individual protocol implementations.
-
-Signed-off-by: Matthew Wilcox (Oracle) <willy@infradead.org>
-Signed-off-by: Trond Myklebust <trond.myklebust@hammerspace.com>"|5|Matthew Wilcox (Oracle)|willy@infradead.org|2023-09-15 18:33:33+01:00|-3600|Trond Myklebust|trond.myklebust@hammerspace.com|2023-11-01 15:40:44-04:00|14400

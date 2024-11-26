@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|84b89e5d943d8d6b997fcebb4609373e1b3e4b03|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: add auto tuning for small devices
-
-If f2fs is running on top of very small devices, it's worth to avoid abusing
-free LBAs. In order to achieve that, this patch introduces some parameter
-tuning.
-
-Reviewed-by: Chao Yu <yuchao0@huawei.com>
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|2|Jaegeuk Kim|jaegeuk@kernel.org|2018-02-22 14:09:30-08:00|28800|Jaegeuk Kim|jaegeuk@kernel.org|2018-03-13 08:05:51+09:00|-32400

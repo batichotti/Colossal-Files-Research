@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f7d2323c181ed5a2596494b860a99d567fd3e6cd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: correct BLC vs PWM enable/disable ordering
-
-With the new checks in place, we can see we're doing things backwards,
-so fix them up per the spec.
-
-Signed-off-by: Jesse Barnes <jbarnes@virtuousgeek.org>
-Signed-off-by: Daniel Vetter <daniel.vetter@ffwll.ch>"|1|Jesse Barnes|jbarnes@virtuousgeek.org|2014-03-31 11:13:56-07:00|25200|Daniel Vetter|daniel.vetter@ffwll.ch|2014-07-07 23:44:43+02:00|-7200

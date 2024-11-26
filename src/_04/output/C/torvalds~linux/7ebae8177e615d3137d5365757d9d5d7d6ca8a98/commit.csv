@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7ebae8177e615d3137d5365757d9d5d7d6ca8a98|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"igb: offer a PTP Hardware Clock instead of the timecompare method
-
-This commit removes the legacy timecompare code from the igb driver and
-offers a tunable PHC instead.
-
-Signed-off-by: Richard Cochran <richardcochran@gmail.com>
-Tested-by: Aaron Brown <aaron.f.brown@intel.com>
-Signed-off-by: Jeff Kirsher <jeffrey.t.kirsher@intel.com>"|5|Richard Cochran|richardcochran@gmail.com|2012-03-16 10:55:37+00:00|0|Jeff Kirsher|jeffrey.t.kirsher@intel.com|2012-04-04 00:48:13-07:00|25200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e9257f5fa48cc296d7eed35acf9f2ad195184122|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tools/power turbostat: correct dumped pkg-cstate-limit value
-
-HSW expanded MSR_PKG_CST_CONFIG_CONTROL.Package-C-State-Limit,
-from bits[2:0] used by previous implementations, to [3:0].
-The value 1000b is unlimited, and is used by BDW and SKL too.
-
-Signed-off-by: Len Brown <len.brown@intel.com>"|1|Len Brown|len.brown@intel.com|2015-04-01 21:02:57-04:00|14400|Len Brown|len.brown@intel.com|2015-04-18 14:20:52-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|37817f2982d0f559f90cecc66e150dd9d2c2df05|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: hardware task switching support
-
-This emulates the x86 hardware task switch mechanism in software, as it is
-unsupported by either vmx or svm.  It allows operating systems which use it,
-like freedos, to run as kvm guests.
-
-Signed-off-by: Izik Eidus <izike@qumranet.com>
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|6|Izik Eidus|izike@qumranet.com|2008-03-24 23:14:53+02:00|-7200|Avi Kivity|avi@qumranet.com|2008-04-27 12:00:39+03:00|-10800

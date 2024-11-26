@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a1b7a1f06c78390e912692c0da40f4234ee83a4f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ipv6: Handle all fib6_nh in a nexthop in rt6_nlmsg_size
-
-Add a hook in rt6_nlmsg_size to handle nexthop struct in a fib6_info.
-rt6_nh_nlmsg_size is used to sum the space needed for all nexthops in
-the fib entry.
-
-Signed-off-by: David Ahern <dsahern@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|David Ahern|dsahern@gmail.com|2019-06-08 14:53:26-07:00|25200|David S. Miller|davem@davemloft.net|2019-06-10 10:44:56-07:00|25200

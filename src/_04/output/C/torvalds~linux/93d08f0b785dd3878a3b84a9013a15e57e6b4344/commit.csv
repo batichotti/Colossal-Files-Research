@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|93d08f0b785dd3878a3b84a9013a15e57e6b4344|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cfg80211: enable TDLS on P2P client interfaces
-
-There's no reason TDLS should be prevented on P2P client
-interfaces, and most of the code already handles it, so
-allow adding stations for it.
-
-Reported-by: Jouni Malinen <j@w1.fi>
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2013-03-04 09:29:46+01:00|-3600|Johannes Berg|johannes.berg@intel.com|2013-03-06 16:36:04+01:00|-3600

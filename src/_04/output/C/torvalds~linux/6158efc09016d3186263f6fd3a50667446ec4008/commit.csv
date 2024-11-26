@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6158efc09016d3186263f6fd3a50667446ec4008|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[CRYPTO] tcrypt: Use async blkcipher interface
-
-This patch converts the tcrypt module to use the asynchronous block cipher
-interface.  As all synchronous block ciphers can be used through the async
-interface, tcrypt is still able to test them.
-
-Signed-off-by: Herbert Xu <herbert@gondor.apana.org.au>"|1|Herbert Xu|herbert@gondor.apana.org.au|2007-04-04 17:41:07+10:00|-36000|Herbert Xu|herbert@gondor.apana.org.au|2007-05-02 14:38:30+10:00|-36000

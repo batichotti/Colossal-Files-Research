@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|071ae99feadfc55979f89287d6ad2c6a315cb46d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSD: Simplify starting_len
-
-Clean-up: Now that nfsd4_encode_readv() does not have to encode the
-EOF or rd_length values, it no longer needs to subtract 8 from
-@starting_len.
-
-Reviewed-by: Jeff Layton <jlayton@kernel.org>
-Signed-off-by: Chuck Lever <chuck.lever@oracle.com>"|1|Chuck Lever|chuck.lever@oracle.com|2022-07-22 16:09:10-04:00|14400|Chuck Lever|chuck.lever@oracle.com|2022-07-29 20:16:57-04:00|14400

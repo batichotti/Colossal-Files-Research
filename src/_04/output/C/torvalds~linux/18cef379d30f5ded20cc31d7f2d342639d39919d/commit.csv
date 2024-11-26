@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|18cef379d30f5ded20cc31d7f2d342639d39919d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ftrace: don't use raw_local_irq_save/restore
-
-Using raw_local_irq_save/restore confuses lockdep.
-It's fine to use the normal ones.
-
-Signed-off-by: Steven Rostedt <srostedt@redhat.com>
-Signed-off-by: Ingo Molnar <mingo@elte.hu>
-Signed-off-by: Thomas Gleixner <tglx@linutronix.de>"|2|Steven Rostedt|rostedt@goodmis.org|2008-05-12 21:20:44+02:00|-7200|Thomas Gleixner|tglx@linutronix.de|2008-05-23 20:40:05+02:00|-7200

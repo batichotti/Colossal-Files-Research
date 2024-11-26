@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a79b8165beed02a96dc54737feb20700ddf71127|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Don't use link_bw to select between TP1 and TP3
-
-intel_dp->link_bw is going away, so consul the port_clock instead when
-choosing between TP1 and TP3.
-
-Signed-off-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Reviewed-by: Sivakumar Thulasimani <sivakumar.thulasimani@intel.com>
-Signed-off-by: Daniel Vetter <daniel.vetter@ffwll.ch>"|1|Ville Syrjälä|ville.syrjala@linux.intel.com|2015-07-06 15:10:05+03:00|-10800|Daniel Vetter|daniel.vetter@ffwll.ch|2015-08-14 18:16:38+02:00|-7200

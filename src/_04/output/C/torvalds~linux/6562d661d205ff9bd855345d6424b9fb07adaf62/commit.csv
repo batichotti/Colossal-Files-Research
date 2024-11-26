@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6562d661d205ff9bd855345d6424b9fb07adaf62|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libceph: harden ceph_osdc_request_release() a bit
-
-Add some WARN_ONs to alert us when we try to destroy requests that are
-still registered.
-
-Signed-off-by: Ilya Dryomov <ilya.dryomov@inktank.com>
-Reviewed-by: Alex Elder <elder@linaro.org>"|1|Ilya Dryomov|ilya.dryomov@inktank.com|2014-06-20 14:14:42+04:00|-14400|Ilya Dryomov|ilya.dryomov@inktank.com|2014-07-08 15:08:43+04:00|-14400

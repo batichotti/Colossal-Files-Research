@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f287a1a56130be5fdb96a4a62d1290bd064f308e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: Remove automatic enabling of the HUGE_FILE feature flag
-
-If the HUGE_FILE feature flag is not set, don't allow the creation of
-large files, instead of automatically enabling the feature flag.
-Recent versions of mke2fs will set the HUGE_FILE flag automatically
-anyway for ext4 filesystems.
-
-Signed-off-by: ""Theodore Ts'o"" <tytso@mit.edu>"|2|Theodore Ts'o|tytso@mit.edu|2008-10-16 22:50:48-04:00|14400|Theodore Ts'o|tytso@mit.edu|2008-10-16 22:50:48-04:00|14400

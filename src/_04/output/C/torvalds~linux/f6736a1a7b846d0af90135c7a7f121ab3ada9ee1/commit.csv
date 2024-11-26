@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f6736a1a7b846d0af90135c7a7f121ab3ada9ee1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: s/pre_pll/pre/ on the lvds port enable function
-
-i9xx doesn't use pre_enable at all, so we can fold this in now.
-
-Reviewed-by: Imre Deak <imre.deak@intel.com>
-Signed-off-by: Daniel Vetter <daniel.vetter@ffwll.ch>"|2|Daniel Vetter|daniel.vetter@ffwll.ch|2013-06-05 13:34:30+02:00|-7200|Daniel Vetter|daniel.vetter@ffwll.ch|2013-07-01 11:27:54+02:00|-7200

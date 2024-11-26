@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6597ca09e6c0e5aec7ffd2b8ab48c671d3c28414|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: MMU: Fix rmap_write_protect() hugepage iteration bug
-
-rmap_next() does not work correctly after rmap_remove(), as it expects
-the rmap chains not to change during iteration.  Fix (for now) by restarting
-iteration from the beginning.
-
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|1|Marcelo Tosatti|mtosatti@redhat.com|2008-06-08 01:48:53-03:00|10800|Avi Kivity|avi@qumranet.com|2008-06-24 12:17:10+03:00|-10800

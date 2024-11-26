@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f67a559daaa0e2ba616bfe9438f202bc57bc8c72|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: skip FDI & PCH enabling for DP_A
-
-eDP on the CPU doesn't need the PCH set up at all, it can in fact cause
-problems.  So avoid FDI training and PCH PLL enabling in that case.
-
-Signed-off-by: Jesse Barnes <jbarnes@virtuousgeek.org>
-Tested-by: Yuanhan Liu <yuanhan.liu@linux.intel.com>
-Signed-off-by: Chris Wilson <chris@chris-wilson.co.uk>"|1|Jesse Barnes|jbarnes@virtuousgeek.org|2011-01-05 10:31:48-08:00|28800|Chris Wilson|chris@chris-wilson.co.uk|2011-01-19 12:38:11+00:00|0

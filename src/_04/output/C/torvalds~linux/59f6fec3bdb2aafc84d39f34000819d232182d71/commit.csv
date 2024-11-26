@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|59f6fec3bdb2aafc84d39f34000819d232182d71|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"xfs: remove XFS_FSB_SANITY_CHECK
-
-We already have a function to verify fsb pointers, so get rid of the
-last users of the (less robust) macro.
-
-Signed-off-by: Darrick J. Wong <darrick.wong@oracle.com>
-Reviewed-by: Dave Chinner <dchinner@redhat.com>"|4|Darrick J. Wong|darrick.wong@oracle.com|2018-01-08 10:51:00-08:00|28800|Darrick J. Wong|darrick.wong@oracle.com|2018-01-08 10:54:45-08:00|28800

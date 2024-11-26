@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|35d05778e25ee16dbddb60331be0bc1309efba19|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: Remove bogus call to nfs4_drop_state_owner() in _nfs4_open_expired()
-
-There should be no need to invalidate a perfectly good state owner just
-because of a stale filehandle. Doing so can cause the state recovery code
-to break, since nfs4_get_renew_cred() and nfs4_get_setclientid_cred() rely
-on finding active state owners.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|1|Trond Myklebust|Trond.Myklebust@netapp.com|2008-04-05 15:54:17-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2008-04-19 16:53:12-04:00|14400

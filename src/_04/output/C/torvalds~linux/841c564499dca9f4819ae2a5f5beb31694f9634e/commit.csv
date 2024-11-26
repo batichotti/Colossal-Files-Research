@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|841c564499dca9f4819ae2a5f5beb31694f9634e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Remove redundant IRK lookup in mgmt_device_found()
-
-Now that we have the process_adv_report() function doing the IRK lookup
-and updating the bdaddr we don't need to do this anymore in mgmt.c in
-the mgmt_device_found() function.
-
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|1|Johan Hedberg|johan.hedberg@intel.com|2014-07-07 12:45:54+03:00|-10800|Marcel Holtmann|marcel@holtmann.org|2014-07-07 11:58:38+02:00|-7200

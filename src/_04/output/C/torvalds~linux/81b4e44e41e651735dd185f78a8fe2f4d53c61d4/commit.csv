@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|81b4e44e41e651735dd185f78a8fe2f4d53c61d4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"iwlwifi: mvm: track changes in beacon count during channel switch
-
-There are some buggy APs that keeps changing the count while forcing
-us to block TX. This eventually results in queue hang, assert, and
-disconnection. Detect such APs and disconnect gracefully in advance.
-
-Signed-off-by: Sara Sharon <sara.sharon@intel.com>
-Signed-off-by: Luca Coelho <luciano.coelho@intel.com>"|2|Sara Sharon|sara.sharon@intel.com|2018-12-17 14:27:51+02:00|-7200|Luca Coelho|luciano.coelho@intel.com|2019-03-22 12:59:40+02:00|-7200

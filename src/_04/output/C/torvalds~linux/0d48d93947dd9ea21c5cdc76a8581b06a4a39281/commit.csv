@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0d48d93947dd9ea21c5cdc76a8581b06a4a39281|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[Bluetooth]: Move packet type into the SKB control buffer
-
-This patch moves the usage of packet type into the SKB control
-buffer. After this patch it is now possible to shrink the sk_buff
-structure and redefine its pkt_type.
-
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|15|Marcel Holtmann|marcel@holtmann.org|2005-08-09 20:30:28-07:00|25200|David S. Miller|davem@sunset.davemloft.net|2005-08-29 15:55:13-07:00|25200

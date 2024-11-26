@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e4ea3cc68472b1cc0b68a1adf145ee39fb90a506|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tools: ynl-gen: get attr type outside of if()
-
-Reading attr type with mnl_attr_get_type() for each condition
-leads to most conditions being longer than 80 chars.
-Avoid this by reading the type to a variable on the stack.
-
-Signed-off-by: Jakub Kicinski <kuba@kernel.org>"|1|Jakub Kicinski|kuba@kernel.org|2023-06-08 14:11:53-07:00|25200|Jakub Kicinski|kuba@kernel.org|2023-06-09 14:40:31-07:00|25200

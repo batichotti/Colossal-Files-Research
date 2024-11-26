@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|89c771e5a62b856f4705f189892c489190edaec1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cfg80211: Convert del_station() callback to use a param struct
-
-This makes it easier to add new parameters for the del_station calls
-without having to modify all drivers that use this.
-
-Signed-off-by: Jouni Malinen <jouni@qca.qualcomm.com>
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|10|Jouni Malinen|jouni@qca.qualcomm.com|2014-10-10 20:52:40+03:00|-10800|Johannes Berg|johannes.berg@intel.com|2014-10-20 16:24:21+02:00|-7200

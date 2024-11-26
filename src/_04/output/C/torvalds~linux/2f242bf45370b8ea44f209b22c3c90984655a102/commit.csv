@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2f242bf45370b8ea44f209b22c3c90984655a102|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: properly remove RX_ENC_FLAG_40MHZ
-
-Somehow I missed this in my RX rate cleanup series, causing some
-drivers to not report correct bandwidth since this flag isn't
-used by mac80211 anymore. Fix this, and make hwsim also report
-higher bandwidths appropriately.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|6|Johannes Berg|johannes.berg@intel.com|2017-05-05 11:53:19+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2017-05-08 11:11:56+02:00|-7200

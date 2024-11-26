@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|804b3c28a4e4fa1c224571bf76edb534b9c4b1ed|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cgroups: add cpu_relax() calls in css_tryget() and cgroup_clear_css_refs()
-
-css_tryget() and cgroup_clear_css_refs() contain polling loops; these
-loops should have cpu_relax calls in them to reduce cross-cache traffic.
-
-Signed-off-by: Paul Menage <menage@google.com>
-Signed-off-by: Andrew Morton <akpm@linux-foundation.org>
-Signed-off-by: Linus Torvalds <torvalds@linux-foundation.org>"|2|Paul Menage|menage@google.com|2009-01-29 14:25:21-08:00|28800|Linus Torvalds|torvalds@linux-foundation.org|2009-01-29 18:04:45-08:00|28800

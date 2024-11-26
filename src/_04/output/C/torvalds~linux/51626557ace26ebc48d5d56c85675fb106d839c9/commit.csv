@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|51626557ace26ebc48d5d56c85675fb106d839c9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[media] saa7134: use pr_warn() on some places where no KERN_foo were used
-
-On a few places, mostly during board detection, some printk()
-macros were called without especifying any message level.
-
-Those are actually warnings. So, use pr_warn() for them.
-
-Signed-off-by: Mauro Carvalho Chehab <mchehab@osg.samsung.com>"|2|Mauro Carvalho Chehab|mchehab@osg.samsung.com|2015-04-30 07:15:20-03:00|10800|Mauro Carvalho Chehab|mchehab@osg.samsung.com|2015-05-13 10:08:33-03:00|10800

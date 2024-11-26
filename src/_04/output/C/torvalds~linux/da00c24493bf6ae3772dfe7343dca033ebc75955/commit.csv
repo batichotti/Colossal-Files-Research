@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|da00c24493bf6ae3772dfe7343dca033ebc75955|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ALSA: hda - Add parse customize define function for Realtek codecs
-
-Added alc_auto_parse_customize_define() to parse the Realtek-specific
-attributes from SKU.  Also enable beep controls only when the proper
-attribute bit is set.
-
-Signed-off-by: Takashi Iwai <tiwai@suse.de>"|1|Kailang Yang|kailang@realtek.com|2010-03-19 11:23:45+01:00|-3600|Takashi Iwai|tiwai@suse.de|2010-03-19 11:38:53+01:00|-3600

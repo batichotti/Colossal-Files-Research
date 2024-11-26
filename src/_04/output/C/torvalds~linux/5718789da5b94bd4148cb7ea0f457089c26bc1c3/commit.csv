@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5718789da5b94bd4148cb7ea0f457089c26bc1c3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: remove unused argument in ext4_ext_next_leaf_block
-
-The argument ""inode"" in function ext4_ext_next_allocated_block looks useless,
-so clean it.
-
-Signed-off-by: Robin Dong <sanbai@taobao.com>
-Signed-off-by: ""Theodore Ts'o"" <tytso@mit.edu>"|1|Robin Dong|sanbai@taobao.com|2011-07-23 21:49:07-04:00|14400|Theodore Ts'o|tytso@mit.edu|2011-07-23 21:49:07-04:00|14400

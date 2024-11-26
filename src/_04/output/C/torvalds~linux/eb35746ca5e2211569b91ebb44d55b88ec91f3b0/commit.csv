@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|eb35746ca5e2211569b91ebb44d55b88ec91f3b0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ocfs2: Remove overzealous BUG_ON()
-
-The truncate code was never supposed to BUG() on an allocator it doesn't
-know about, but rather to ignore it. Right now, this does nothing, but when
-we change our allocation paths to use all suballocator files, this will
-allow current versions of the fs module to work fine.
-
-Signed-off-by: Mark Fasheh <mark.fasheh@oracle.com>"|1|Mark Fasheh|mark.fasheh@oracle.com|2006-08-09 13:23:08-07:00|25200|Mark Fasheh|mark.fasheh@oracle.com|2006-09-20 16:00:54-07:00|25200

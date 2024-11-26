@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c08b1a1dba524c1cdef331c1f169db3a1b37bb4c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Consolidate socket channel sending function back into one
-
-With the introduction of trusted socket flag for control and monitor
-channels, it is now possible to use a single function for sending
-packets to these sockets. And with that consolidate the handling.
-
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>"|3|Marcel Holtmann|marcel@holtmann.org|2015-03-14 19:27:59-07:00|25200|Johan Hedberg|johan.hedberg@intel.com|2015-03-15 09:56:41+02:00|-7200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|774ee7525ff94e597844c9f7f6a48938906df698|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tg3: Disable TSS also during tg3_close()
-
-The TSS flag needs to be turned off during tg3_close().  If the device
-fails to allocate more than one MSI-X vector the next time the device is
-brought up, transmits will fail.
-
-Signed-off-by: Matt Carlson <mcarlson@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Matt Carlson|mcarlson@broadcom.com|2010-08-02 11:25:56+00:00|0|David S. Miller|davem@davemloft.net|2010-08-02 15:46:27-07:00|25200

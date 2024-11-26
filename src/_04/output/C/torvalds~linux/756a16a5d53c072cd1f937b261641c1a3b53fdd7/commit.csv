@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|756a16a5d53c072cd1f937b261641c1a3b53fdd7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libceph: be less chatty about stray replies
-
-There are many (normal) conditions that can lead to us getting
-unexpected replies, include cluster topology changes, osd failures,
-and timeouts.  There's no need to spam the console about it.
-
-Signed-off-by: Sage Weil <sage@inktank.com>
-Reviewed-by: Alex Elder <elder@inktank.com>"|1|Sage Weil|sage@inktank.com|2012-07-30 16:26:13-07:00|25200|Sage Weil|sage@inktank.com|2012-07-30 18:16:03-07:00|25200

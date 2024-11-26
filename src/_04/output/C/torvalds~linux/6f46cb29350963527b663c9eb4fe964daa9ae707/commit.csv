@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6f46cb29350963527b663c9eb4fe964daa9ae707|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ceph: fix theoretically possible double-put on connection
-
-This would only trigger if we bailed out before resetting r_con_filling_msg
-because the server reply was corrupt (oversized).
-
-Signed-off-by: Sage Weil <sage@newdream.net>"|1|Sage Weil|sage@newdream.net|2010-03-24 21:30:19-07:00|25200|Sage Weil|sage@newdream.net|2010-05-17 15:25:14-07:00|25200

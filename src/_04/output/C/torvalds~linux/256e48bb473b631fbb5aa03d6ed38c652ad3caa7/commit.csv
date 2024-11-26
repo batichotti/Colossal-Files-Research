@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|256e48bb473b631fbb5aa03d6ed38c652ad3caa7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: Simplify the GETATTR attribute length calculation
-
-Use the xdr_stream position counter as the basis for the calculation
-instead of assuming that we can calculate an offset to the start
-of the iovec.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|1|Trond Myklebust|Trond.Myklebust@netapp.com|2012-06-21 11:18:13-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2012-06-28 17:20:44-04:00|14400

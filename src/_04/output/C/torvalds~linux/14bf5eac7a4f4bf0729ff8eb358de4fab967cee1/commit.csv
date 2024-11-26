@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|14bf5eac7a4f4bf0729ff8eb358de4fab967cee1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Perform Class of Device changes through hdev->req_workqueue
-
-The Class of Device needs to be changed e.g. for limited discoverable
-mode. In preparation of moving the discoverable mode to hci_request.c
-and hdev->req_workqueue, move the Class of Device helpers there first.
-
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|3|Johan Hedberg|johan.hedberg@intel.com|2015-11-22 19:00:22+02:00|-7200|Marcel Holtmann|marcel@holtmann.org|2015-12-10 00:51:48+01:00|-3600

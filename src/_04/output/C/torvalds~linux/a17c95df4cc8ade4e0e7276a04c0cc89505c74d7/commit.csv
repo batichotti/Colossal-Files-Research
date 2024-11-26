@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a17c95df4cc8ade4e0e7276a04c0cc89505c74d7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: move clearing of EXCL_OP out of __cancel_balance
-
-Make the clearning visible in the callers so we can pair it with the
-test_and_set part.
-
-Signed-off-by: David Sterba <dsterba@suse.com>"|2|David Sterba|dsterba@suse.com|2018-03-20 17:28:05+01:00|-3600|David Sterba|dsterba@suse.com|2018-05-28 18:07:24+02:00|-7200

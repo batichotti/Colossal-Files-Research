@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e420aba331f44de0eed6871441293a6124d566d1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Fix memory leak in L2CAP
-
-Move skb_clone after error confition check so it is not going
-potentially out of the scope.
-
-Signed-off-by: Andrei Emeltchenko <andrei.emeltchenko@nokia.com>
-Acked-by: Gustavo F. Padovan <padovan@profusion.mobi>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|1|Andrei Emeltchenko|andrei.emeltchenko@nokia.com|2009-12-23 13:07:14+02:00|-7200|Marcel Holtmann|marcel@holtmann.org|2010-01-30 05:57:20-08:00|28800

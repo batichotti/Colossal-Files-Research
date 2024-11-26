@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cc9f1f518cec079289d11d732efa490306b1ddad|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libceph: change from BUG to WARN for __remove_osd() asserts
-
-No reason to use BUG_ON for osd request list assertions.
-
-Signed-off-by: Ilya Dryomov <idryomov@redhat.com>
-Reviewed-by: Alex Elder <elder@linaro.org>"|1|Ilya Dryomov|idryomov@redhat.com|2014-11-05 19:33:44+03:00|-10800|Ilya Dryomov|idryomov@redhat.com|2014-11-13 22:26:34+03:00|-10800

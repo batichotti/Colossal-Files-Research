@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|99f5944b8477914406173b47b4f261356286730b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: do not strdup non existent strings
-
-When we close devices we add back empty devices for some reason that escapes
-me.  In the case of a missing dev we don't allocate an rcu_string for it's
-name, so check to see if the device has a name and if it doesn't don't
-bother strdup()'ing it.  Thanks,
-
-Signed-off-by: Josef Bacik <jbacik@fusionio.com>"|1|Josef Bacik|jbacik@fusionio.com|2012-08-02 10:23:59-04:00|14400|Chris Mason|chris.mason@oracle.com|2012-08-28 16:53:29-04:00|14400

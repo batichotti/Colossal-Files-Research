@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|878d9ec7367816dc336b0c24e6256596559692b7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nl80211: change __cfg80211_rdev_from_info
-
-Change the function to __cfg80211_rdev_from_attrs
-to take attributes instead of the info struct to
-make it usable from dump callbacks for testmode.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2012-06-15 14:18:32+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2012-06-20 10:57:02+02:00|-7200

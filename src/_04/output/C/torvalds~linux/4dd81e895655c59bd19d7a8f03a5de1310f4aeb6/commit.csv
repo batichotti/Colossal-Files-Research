@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4dd81e895655c59bd19d7a8f03a5de1310f4aeb6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"RDMA/cma: QP type check on received REQs should be AND not OR
-
-Change || check to the intended && when checking the QP type in a
-received connection request against the listening endpoint.
-
-Signed-off-by: Sean Hefty <sean.hefty@intel.com>
-Signed-off-by: Roland Dreier <roland@purestorage.com>"|1|Sean Hefty|sean.hefty@intel.com|2012-06-14 20:49:09+00:00|0|Roland Dreier|roland@purestorage.com|2012-06-19 20:04:04-07:00|25200

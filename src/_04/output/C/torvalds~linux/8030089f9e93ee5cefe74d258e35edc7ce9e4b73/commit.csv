@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8030089f9e93ee5cefe74d258e35edc7ce9e4b73|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: improve hva_to_pfn() readability
-
-Improve vma handling code readability in hva_to_pfn() and fix
-async pf handling code to properly check vma returned by find_vma().
-
-Signed-off-by: Gleb Natapov <gleb@redhat.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|1|Gleb Natapov|gleb@redhat.com|2010-10-19 18:13:41+02:00|-7200|Avi Kivity|avi@redhat.com|2011-01-12 11:23:23+02:00|-7200

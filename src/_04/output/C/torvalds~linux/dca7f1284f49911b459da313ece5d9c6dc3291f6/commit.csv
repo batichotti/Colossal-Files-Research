@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|dca7f1284f49911b459da313ece5d9c6dc3291f6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: add kvm_fast_pio() to consolidate fast PIO code
-
-Add kvm_fast_pio() to consolidate duplicate code in VMX and SVM.
-Unexport kvm_fast_pio_in() and kvm_fast_pio_out().
-
-Suggested-by: Paolo Bonzini <pbonzini@redhat.com>
-Signed-off-by: Sean Christopherson <sean.j.christopherson@intel.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|4|Sean Christopherson|sean.j.christopherson@intel.com|2018-03-08 08:57:27-08:00|28800|Paolo Bonzini|pbonzini@redhat.com|2018-03-16 22:01:39+01:00|-3600

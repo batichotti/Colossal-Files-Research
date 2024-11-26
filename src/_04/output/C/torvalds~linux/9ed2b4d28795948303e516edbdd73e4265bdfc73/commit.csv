@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9ed2b4d28795948303e516edbdd73e4265bdfc73|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mlxsw: spectrum_router: Consolidate mlxsw_sp_nexthop{4, 6}_type_fini()
-
-The two functions are identical, so consolidate them to
-mlxsw_sp_nexthop_type_fini().
-
-Signed-off-by: Ido Schimmel <idosch@nvidia.com>
-Reviewed-by: Jiri Pirko <jiri@nvidia.com>
-Signed-off-by: Jakub Kicinski <kuba@kernel.org>"|1|Ido Schimmel|idosch@nvidia.com|2020-11-13 18:05:58+02:00|-7200|Jakub Kicinski|kuba@kernel.org|2020-11-14 16:55:04-08:00|28800

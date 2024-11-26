@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e8aed3450c0afd6fdb79ec233f806e3e69454dfe|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ocfs2: Re-journal buffers after transaction extend
-
-ocfs2_extend_trans() might call journal_restart() which will commit dirty
-buffers and then restart the transaction. This means that any buffers which
-still need changes should be passed to journal_access() again. Some paths
-during extend weren't doing this right.
-
-Signed-off-by: Mark Fasheh <mark.fasheh@oracle.com>"|2|Mark Fasheh|mark.fasheh@oracle.com|2007-12-03 16:43:01-08:00|28800|Mark Fasheh|mark.fasheh@oracle.com|2007-12-17 10:51:23-08:00|28800

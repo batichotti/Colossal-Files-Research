@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|583419fdf22bd2fc39e49520b29960f206b7ab44|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mlxsw: spectrum_router: Sanitize IPv6 FIB rules
-
-We only allow FIB offload in the presence of default rules or an l3mdev
-rule. In a similar fashion to IPv4 FIB rules, sanitize IPv6 rules.
-
-Signed-off-by: Ido Schimmel <idosch@mellanox.com>
-Signed-off-by: Jiri Pirko <jiri@mellanox.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Ido Schimmel|idosch@mellanox.com|2017-08-03 13:28:27+02:00|-7200|David S. Miller|davem@davemloft.net|2017-08-03 15:36:00-07:00|25200

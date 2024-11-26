@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7af0abbc2ffcae601ea14e39048901833528f104|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] hpsa: add the Smart Array 5i to the kdump blacklist
-
-The '5i' controller freezes when a kdump is attemted.
-This patch admits it and adds the controller
-to the unresetable list.
-
-Signed-off-by: Tomas Henzl <thenzl@redhat.com>
-Signed-off-by: James Bottomley <JBottomley@Parallels.com>"|1|Tomas Henzl|thenzl@redhat.com|2011-11-28 15:39:55+01:00|-3600|James Bottomley|JBottomley@Parallels.com|2011-12-15 10:57:30+04:00|-14400

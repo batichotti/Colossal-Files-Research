@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9a63b999ae5435d82a5c353c6b1467100f857742|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ksmbd: fix potencial 32bit overflow from data area check in smb2_write
-
-DataOffset and Length validation can be potencial 32bit overflow.
-This patch fix it.
-
-Signed-off-by: Namjae Jeon <linkinjeon@kernel.org>
-Signed-off-by: Steve French <stfrench@microsoft.com>"|1|Namjae Jeon|linkinjeon@kernel.org|2021-10-11 12:48:31+09:00|-32400|Steve French|stfrench@microsoft.com|2021-10-13 23:37:19-05:00|18000

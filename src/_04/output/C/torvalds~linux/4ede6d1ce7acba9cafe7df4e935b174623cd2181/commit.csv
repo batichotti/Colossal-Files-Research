@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4ede6d1ce7acba9cafe7df4e935b174623cd2181|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tools/power/turbostat: Obey allowed CPUs when accessing CPU counters
-
-for_all_cpus/for_all_cpus_2 are used for accessing the per CPU counters,
-and they should follow the cpu_allowed_set instead of cpu_present_set.
-
-Signed-off-by: Zhang Rui <rui.zhang@intel.com>"|1|Zhang Rui|rui.zhang@intel.com|2023-10-04 13:52:02+08:00|-28800|Zhang Rui|rui.zhang@intel.com|2023-10-20 10:27:09+08:00|-28800

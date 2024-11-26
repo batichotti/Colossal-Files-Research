@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|94f9065648a2645b28187b44ec7778c30cf58758|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"{nl,cfg,mac}80211: Add support of setting non-forwarding entity in Mesh
-
-A mesh node that joins the mesh network is by default a forwarding entity. This patch allows
-the mesh node to set as non-forwarding entity. Whenever dot11MeshForwarding is set to 0, the
-mesh node can prevent itself from forwarding the traffic which is not destined to him.
-
-Signed-off-by: Chun-Yeow Yeoh <yeohchunyeow@gmail.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|7|Chun-Yeow Yeoh|yeohchunyeow@gmail.com|2012-01-21 01:02:16+08:00|-28800|John W. Linville|linville@tuxdriver.com|2012-01-27 14:56:56-05:00|18000

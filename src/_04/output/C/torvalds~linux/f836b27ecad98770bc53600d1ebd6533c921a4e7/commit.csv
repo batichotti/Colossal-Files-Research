@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f836b27ecad98770bc53600d1ebd6533c921a4e7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS: Have nfs4_proc_get_lease_time() call nfs4_call_sync_custom()
-
-This removes some code duplication, since both functions were doing the
-same thing.
-
-Signed-off-by: Anna Schumaker <Anna.Schumaker@Netapp.com>"|1|Anna Schumaker|Anna.Schumaker@Netapp.com|2019-08-19 10:18:28-04:00|14400|Anna Schumaker|Anna.Schumaker@Netapp.com|2019-08-22 10:05:35-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b5e50c3f56ee4aa0d0168eab5ece413ac5df76aa|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: provide FBC status in debugfs
-
-Tools like powertop want to check the current FBC status and report it
-to the user.  So add a debugfs file indicating whether FBC is enabled,
-and if not, why.
-
-Signed-off-by: Jesse Barnes <jbarnes@virtuousgeek.org>
-Signed-off-by: Eric Anholt <eric@anholt.net>"|4|Jesse Barnes|jbarnes@virtuousgeek.org|2010-02-05 12:42:41-08:00|28800|Eric Anholt|eric@anholt.net|2010-02-22 11:46:57-05:00|18000

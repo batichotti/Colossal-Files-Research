@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|37e3308cb2b6933019d9d9c2045877d6d68d9c5a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: allow driver to return error from sched_scan_stop
-
-In order to solve races with sched_scan_stop, it is necessary
-for the driver to be able to return an error to propagate that
-to cfg80211 so it doesn't send an event.
-
-Reviewed-by: Alexander Bondar <alexander.bondar@intel.com>
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|5|Johannes Berg|johannes.berg@intel.com|2014-02-17 10:48:17+01:00|-3600|Johannes Berg|johannes.berg@intel.com|2014-02-20 16:09:54+01:00|-3600

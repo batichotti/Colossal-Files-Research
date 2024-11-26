@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1ccde7004ff66cdcbe4c8005f3bb44dda6ab0b99|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: hpsa: use correct DID_NO_CONNECT hostbyte
-
-NOT_READY is a sense key, not a legit scsi hostbyte value. Use
-DID_NO_CONNECT instead.
-
-Signed-off-by: Hannes Reinecke <hare@suse.com>
-Acked-by: Don Brace <don.brace@microsemi.com>
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|1|Hannes Reinecke|hare@suse.de|2016-11-18 08:32:47+01:00|-3600|Martin K. Petersen|martin.petersen@oracle.com|2016-11-29 11:21:48-05:00|18000

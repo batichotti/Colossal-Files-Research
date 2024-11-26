@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|647bcd03d5b2fb44fd9c9ef1a4f50c2eee8f779a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ftrace: Add enabled_functions file
-
-Add the enabled_functions file that is used to show all the
-functions that have been enabled for tracing as well as their
-ref counts. This helps seeing if any function has been registered
-and what functions are being traced.
-
-Signed-off-by: Steven Rostedt <rostedt@goodmis.org>"|1|Steven Rostedt|srostedt@redhat.com|2011-05-03 14:39:21-04:00|14400|Steven Rostedt|rostedt@goodmis.org|2011-05-18 15:29:47-04:00|14400

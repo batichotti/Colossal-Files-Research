@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|65f26846b90611742f3b407cc538a1cad33abde8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"regulator: core: Constify the regulator_desc passed in when registering
-
-Drivers should be able to declare their descriptors const and the framework
-shouldn't ever be modifying the desciptor. Make the parameter and the
-pointer in regulator_dev const to enforce this.
-
-Signed-off-by: Mark Brown <broonie@opensource.wolfsonmicro.com>"|2|Mark Brown|broonie@opensource.wolfsonmicro.com|2012-04-03 20:46:53+01:00|-3600|Mark Brown|broonie@opensource.wolfsonmicro.com|2012-04-04 11:43:26+01:00|-3600

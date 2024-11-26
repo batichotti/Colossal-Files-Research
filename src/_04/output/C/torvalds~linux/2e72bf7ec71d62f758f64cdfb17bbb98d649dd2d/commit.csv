@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2e72bf7ec71d62f758f64cdfb17bbb98d649dd2d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: qla4xxx: Remove redundant continue statement
-
-The continue statement at the end of a for-loop has no effect, remove it.
-
-Link: https://lore.kernel.org/r/20210617073743.151008-1-colin.king@canonical.com
-Signed-off-by: Colin Ian King <colin.king@canonical.com>
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>
-Addresses-Coverity: (""Continue has no effect"")"|1|Colin Ian King|colin.king@canonical.com|2021-06-17 08:37:43+01:00|-3600|Martin K. Petersen|martin.petersen@oracle.com|2021-06-18 23:01:03-04:00|14400

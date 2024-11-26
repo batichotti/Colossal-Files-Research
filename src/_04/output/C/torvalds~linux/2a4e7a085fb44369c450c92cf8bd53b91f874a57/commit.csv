@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2a4e7a085fb44369c450c92cf8bd53b91f874a57|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"forcedeth: Acknowledge only interrupts that are being processed
-
-This is to avoid a race, accidentally acknowledging an interrupt that
-we didn't notice and won't immediately process.  This is based solely
-on code inspection; it is not known if there was an actual bug here.
-
-Signed-off-by: David Decotigny <david.decotigny@google.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Mike Ditto|mditto@google.com|2011-11-05 14:38:21+00:00|0|David S. Miller|davem@davemloft.net|2011-11-07 13:31:24-05:00|18000

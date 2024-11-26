@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6852af86627c7bd8de11c9ad3eb5cca7d99e5884|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"RDMA/hns: Only assign mtu if IB_QP_PATH_MTU bit is set
-
-Only when the IB_QP_PATH_MTU flag of attr_mask is set
-it is valid to assign the mtu field of qp context when
-qp type is not GSI and UD.
-
-Signed-off-by: Lijun Ou <oulijun@huawei.com>
-Signed-off-by: Doug Ledford <dledford@redhat.com>"|1|oulijun|oulijun@huawei.com|2018-04-26 14:46:18+08:00|-28800|Doug Ledford|dledford@redhat.com|2018-04-27 14:20:47-04:00|14400

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6d92b304ec6b929f9aa87ae96488daf180d07585|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: pass bits by value not by pointer for extent_state helpers
-
-The bits are passed to all extent state helpers for no apparent reason,
-the value only read and never updated so remove the indirection and pass
-it directly. Also unify the type to u32 where needed.
-
-Signed-off-by: David Sterba <dsterba@suse.com>"|3|David Sterba|dsterba@suse.com|2020-06-25 17:54:54+02:00|-7200|David Sterba|dsterba@suse.com|2022-07-25 17:45:35+02:00|-7200

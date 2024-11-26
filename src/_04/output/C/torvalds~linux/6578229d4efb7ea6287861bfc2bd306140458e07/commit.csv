@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6578229d4efb7ea6287861bfc2bd306140458e07|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8169: use netif_receive_skb_list batching
-
-Use netif_receive_skb_list() instead of napi_gro_receive() to benefit
-from batched skb processing.
-
-Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Heiner Kallweit|hkallweit1@gmail.com|2019-03-31 15:18:48+02:00|-7200|David S. Miller|davem@davemloft.net|2019-03-31 11:10:56-07:00|25200

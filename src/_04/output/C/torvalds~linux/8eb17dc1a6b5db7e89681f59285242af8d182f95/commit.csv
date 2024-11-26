@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8eb17dc1a6b5db7e89681f59285242af8d182f95|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"workqueue: Skip __WQ_DESTROYING workqueues when updating global unbound cpumask
-
-Skip updating workqueues with __WQ_DESTROYING bit set when updating
-global unbound cpumask to avoid unnecessary work and other complications.
-
-Signed-off-by: Waiman Long <longman@redhat.com>
-Signed-off-by: Tejun Heo <tj@kernel.org>"|1|Waiman Long|longman@redhat.com|2024-02-03 10:43:30-05:00|18000|Tejun Heo|tj@kernel.org|2024-02-05 07:52:22-10:00|36000

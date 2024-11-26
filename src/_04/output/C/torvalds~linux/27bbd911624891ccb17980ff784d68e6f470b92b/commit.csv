@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|27bbd911624891ccb17980ff784d68e6f470b92b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rbd: factor out __rbd_osd_setup_discard_ops()
-
-With obj_req->xferred removed, obj_req->ex.oe_off and obj_req->ex.oe_len
-can be updated if required for alignment.  Previously the new offset and
-length weren't stored anywhere beyond rbd_obj_setup_discard().
-
-Signed-off-by: Ilya Dryomov <idryomov@gmail.com>
-Reviewed-by: Dongsheng Yang <dongsheng.yang@easystack.cn>"|1|Ilya Dryomov|idryomov@gmail.com|2019-05-29 17:31:37+02:00|-7200|Ilya Dryomov|idryomov@gmail.com|2019-07-08 14:01:44+02:00|-7200

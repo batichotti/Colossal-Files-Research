@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|997b04128d4e07fd59d00fc18e21fd591138627f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: emulator: remove duplicated limit check
-
-The check on the higher limit of the segment, and the check on the
-maximum accessible size, is the same for both expand-up and
-expand-down segments.  Only the computation of ""lim"" varies.
-
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Paolo Bonzini|pbonzini@redhat.com|2014-11-19 18:33:38+01:00|-3600|Paolo Bonzini|pbonzini@redhat.com|2014-11-19 18:40:24+01:00|-3600

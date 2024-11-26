@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2208e9a7e94e3d7da8f1b5d8d57c1d0b154afd03|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: neterion: s2io: Use linux/io-64-nonatomic-lo-hi.h
-
-This patch replace the custom definition of writeq/read and use ones
-defined in linux/io-64-nonatomic-lo-hi.h.
-
-Signed-off-by: Corentin Labbe <clabbe@baylibre.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Corentin Labbe|clabbe@baylibre.com|2018-09-18 07:33:13+00:00|0|David S. Miller|davem@davemloft.net|2018-09-18 20:06:23-07:00|25200

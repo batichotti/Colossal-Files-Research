@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f4bbd9aaaae23007e4d79536d35a30cbbb11d407|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Load real mode segments correctly
-
-Real mode segments to not reference the GDT or LDT; they simply compute
-base = selector * 16.
-
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|1|Avi Kivity|avi@qumranet.com|2008-08-20 15:51:42+03:00|-10800|Avi Kivity|avi@qumranet.com|2008-10-15 10:15:21+02:00|-7200

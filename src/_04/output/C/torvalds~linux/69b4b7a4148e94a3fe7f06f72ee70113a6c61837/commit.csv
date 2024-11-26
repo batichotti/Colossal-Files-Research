@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|69b4b7a4148e94a3fe7f06f72ee70113a6c61837|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8152: support jumbo frame for RTL8153
-
-The maximum jumbo frame size for RTL8153 is 9K bytes.
-Change the max rx packet size to 9K.
-Change the use of the shared fifo from 6K (default) to 12K for tx.
-
-Signed-off-by: Hayes Wang <hayeswang@realtek.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|hayeswang|hayeswang@realtek.com|2014-07-10 10:58:54+08:00|-28800|David S. Miller|davem@davemloft.net|2014-07-10 00:42:23-07:00|25200

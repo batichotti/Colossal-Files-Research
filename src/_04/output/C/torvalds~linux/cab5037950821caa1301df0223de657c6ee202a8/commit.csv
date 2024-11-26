@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cab5037950821caa1301df0223de657c6ee202a8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tracing/ftrace: Enable snapshot function trigger to work with instances
-
-Modify the snapshot probe trigger to work with instances. This way the
-snapshot function trigger will only affect the instance that it is added to
-in the set_ftrace_filter file.
-
-Signed-off-by: Steven Rostedt (VMware) <rostedt@goodmis.org>"|1|Steven Rostedt (VMware)|rostedt@goodmis.org|2017-04-20 11:34:06-04:00|14400|Steven Rostedt (VMware)|rostedt@goodmis.org|2017-04-20 22:06:48-04:00|14400

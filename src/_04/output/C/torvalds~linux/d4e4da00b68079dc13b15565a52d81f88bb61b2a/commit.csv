@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d4e4da00b68079dc13b15565a52d81f88bb61b2a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ethernet: marvell: mvneta: add missing of_node_put after calling of_parse_phandle
-
-of_node_put needs to be called when the device node which is got
-from of_parse_phandle has finished using.
-
-Signed-off-by: Peter Chen <peter.chen@nxp.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Peter Chen|peter.chen@nxp.com|2016-08-01 15:02:36+08:00|-28800|David S. Miller|davem@davemloft.net|2016-08-01 21:43:48-07:00|25200

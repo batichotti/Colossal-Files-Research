@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e8c2993a4c9fdb0c9e6fc983edd5b52716ce7442|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: ethernet: mediatek: add the missing of_node_put() after node is used done
-
-This patch adds the missing of_node_put() after finishing the usage
-of of_parse_phandle() or of_node_get() used by fixed_phy.
-
-Signed-off-by: Sean Wang <sean.wang@mediatek.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|sean.wang@mediatek.com|sean.wang@mediatek.com|2016-08-13 19:16:19+08:00|-28800|David S. Miller|davem@davemloft.net|2016-08-13 14:58:38-07:00|25200

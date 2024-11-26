@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|77414d195f905dd43f58bce82118775ffa59575c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"vmscan: Add check_move_unevictable_folios()
-
-Change the guts of check_move_unevictable_pages() over to use folios
-and add check_move_unevictable_pages() as a wrapper.
-
-Signed-off-by: Matthew Wilcox (Oracle) <willy@infradead.org>
-Acked-by: Christian Brauner (Microsoft) <brauner@kernel.org>"|2|Matthew Wilcox (Oracle)|willy@infradead.org|2022-06-04 17:39:09-04:00|14400|Matthew Wilcox (Oracle)|willy@infradead.org|2022-06-29 08:51:06-04:00|14400

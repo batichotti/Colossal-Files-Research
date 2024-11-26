@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|67becc0041615651b75e4496204a0835a8c345a8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] qla2xxx: Properly delete rports attached to a vport.
-
-Original code would inadvertently skip the deferred
-fc_remote_port_delete() call for rports hanging off any vport.
-
-Signed-off-by: Andrew Vasquez <andrew.vasquez@qlogic.com>
-Signed-off-by: Giridhar Malavali <giridhar.malavali@qlogic.com>
-Signed-off-by: James Bottomley <James.Bottomley@suse.de>"|2|Andrew Vasquez|andrew.vasquez@qlogic.com|2009-08-25 11:36:20-07:00|25200|James Bottomley|James.Bottomley@suse.de|2009-09-12 09:35:23-05:00|18000

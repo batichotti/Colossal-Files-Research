@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6b3ae80a63e47f6e97d68a1ddd520e3509e62821|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[IPV6]: Don't select a tentative address as a source address.
-
-A tentative address is not considered ""assigned to an interface""
-in the traditional sense (RFC2462 Section 4).
-Don't try to select such an address for the source address.
-
-Signed-off-by: YOSHIFUJI Hideaki <yoshfuji@linux-ipv6.org>"|1|YOSHIFUJI Hideaki|yoshfuji@linux-ipv6.org|2005-12-21 22:58:01+09:00|-32400|YOSHIFUJI Hideaki|yoshfuji@linux-ipv6.org|2005-12-21 22:58:01+09:00|-32400

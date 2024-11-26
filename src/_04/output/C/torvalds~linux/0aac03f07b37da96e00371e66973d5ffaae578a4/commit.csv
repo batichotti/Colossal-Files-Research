@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0aac03f07b37da96e00371e66973d5ffaae578a4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Disable pagefaults during copy_from_user_inatomic()
-
-With CONFIG_PREEMPT=n, this is needed in order to disable the fault-in
-code from sleeping.
-
-Signed-off-by: Andrea Arcangeli <andrea@qumranet.com>
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|1|Andrea Arcangeli|andrea@qumranet.com|2008-01-30 19:57:35+01:00|-3600|Avi Kivity|avi@qumranet.com|2008-04-27 11:53:18+03:00|-10800

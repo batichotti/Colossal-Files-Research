@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|87433bfc75f34599c38137e172b6bf8fd41971ba|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8169: use dev_kfree_skb() instead of dev_kfree_skb_irq()
-
-rtl8169_tx_interrupt() is used from NAPI context, it can
-directly free skbs. dev_kfree_skb_irq() is a leftover from
-pre-NAPI times of this driver.
-
-Signed-off-by: Eric Dumazet <eric.dumazet@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Eric Dumazet|eric.dumazet@gmail.com|2009-06-09 22:55:53+00:00|0|David S. Miller|davem@davemloft.net|2009-06-11 02:47:12-07:00|25200

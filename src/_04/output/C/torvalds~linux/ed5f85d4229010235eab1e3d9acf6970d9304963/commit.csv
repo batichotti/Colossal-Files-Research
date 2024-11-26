@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ed5f85d4229010235eab1e3d9acf6970d9304963|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: disable register tracking
-
-The register tracking infrastructure is incomplete, it might lead to
-generating incorrect ruleset bytecode, disable it by now given we are
-late in the release process.
-
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|1|Pablo Neira Ayuso|pablo@netfilter.org|2022-03-12 11:05:46+01:00|-3600|Pablo Neira Ayuso|pablo@netfilter.org|2022-03-12 16:07:38+01:00|-3600

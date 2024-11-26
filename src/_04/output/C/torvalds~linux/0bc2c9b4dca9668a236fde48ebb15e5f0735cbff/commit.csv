@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0bc2c9b4dca9668a236fde48ebb15e5f0735cbff|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: Don't discard the attributes returned by asynchronous DELEGRETURN
-
-DELEGRETURN will always carry a reference to the inode except when
-the latter is being freed, so let's ensure that we always use that
-inode information to ensure close-to-open cache consistency, even
-when the DELEGRETURN call is asynchronous.
-
-Signed-off-by: Trond Myklebust <trond.myklebust@primarydata.com>"|1|Trond Myklebust|trond.myklebust@primarydata.com|2016-12-16 19:48:09-05:00|18000|Trond Myklebust|trond.myklebust@primarydata.com|2016-12-19 17:29:29-05:00|18000

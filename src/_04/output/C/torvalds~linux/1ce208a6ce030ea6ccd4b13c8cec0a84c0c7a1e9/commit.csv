@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1ce208a6ce030ea6ccd4b13c8cec0a84c0c7a1e9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ceph: don't reset s_cap_ttl to zero
-
-Avoid the need to check for a special zero s_cap_ttl value by just
-using (jiffies - 1) as the value assigned to indicate ""sometime in
-the past.""
-
-Signed-off-by: Alex Elder <elder@dreamhost.com>
-Reviewed-by: Sage Weil <sage@newdream.net>"|1|Alex Elder|elder@dreamhost.com|2012-01-12 17:48:11-08:00|28800|Alex Elder|elder@dreamhost.com|2012-03-22 10:47:45-05:00|18000

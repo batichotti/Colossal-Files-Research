@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|775f4f05501b3e36550ab63a592de3abd02e7591|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: rtnl: info leak in rtnl_fill_vfinfo()
-
-The ""vf_vlan_info"" struct ends with a 2 byte struct hole so we have to
-memset it to ensure that no stack information is revealed to user space.
-
-Fixes: 79aab093a0b5 ('net: Update API for VF vlan protocol 802.1ad support')
-Signed-off-by: Dan Carpenter <dan.carpenter@oracle.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Dan Carpenter|dan.carpenter@oracle.com|2016-10-13 11:45:28+03:00|-10800|David S. Miller|davem@davemloft.net|2016-10-13 12:12:04-04:00|14400

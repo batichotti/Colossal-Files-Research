@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|597a5f551ec4cd0aa0966e4fff4684ecc8c31c0d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Adjust smp_call_function_mask() callers to new requirements
-
-smp_call_function_mask() now complains when called in a preemptible context;
-adjust its callers accordingly.
-
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|1|Avi Kivity|avi@qumranet.com|2008-07-20 14:24:22+03:00|-10800|Avi Kivity|avi@qumranet.com|2008-07-20 14:29:54+03:00|-10800

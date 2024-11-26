@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|07d698324110339b420deebab7a7805815340b4f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wifi: brcm80211: handle params_v1 allocation failure
-
-Return -ENOMEM from brcmf_run_escan() if kzalloc() fails for v1 params.
-
-Fixes: 398ce273d6b1 (""wifi: brcmfmac: cfg80211: Add support for scan params v2"")
-Signed-off-by: Petr Tesarik <petr.tesarik.ext@huawei.com>
-Link: https://lore.kernel.org/r/20230802163430.1656-1-petrtesarik@huaweicloud.com
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Petr Tesarik|petr.tesarik.ext@huawei.com|2023-08-02 18:34:30+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2023-08-08 12:47:37+02:00|-7200

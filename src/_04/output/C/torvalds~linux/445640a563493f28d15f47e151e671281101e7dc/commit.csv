@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|445640a563493f28d15f47e151e671281101e7dc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tools/power turbostat: fix goldmont C-state limit decoding
-
-When the C-state limit is 8 on Goldmont, PC10 is enabled.
-Previously turbostat saw this as ""undefined"", and thus assumed
-it should not show some counters, such as pc3, pc6, pc7.
-
-Signed-off-by: Len Brown <len.brown@intel.com>"|1|Len Brown|len.brown@intel.com|2018-12-14 20:02:27-05:00|18000|Len Brown|len.brown@intel.com|2018-12-14 20:08:55-05:00|18000

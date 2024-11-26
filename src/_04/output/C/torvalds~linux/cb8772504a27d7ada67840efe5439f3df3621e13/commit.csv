@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cb8772504a27d7ada67840efe5439f3df3621e13|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rtl8xxxu: Split rtl8xxxu_init_phy_bb() into device specific functions
-
-This reduces the if () clutter. Longer term it probably makes sense to
-split this between gen1 (8723au/8188cu/8192cu) and gen2
-(8192eu/8723bu) devices.
-
-Signed-off-by: Jes Sorensen <Jes.Sorensen@redhat.com>
-Signed-off-by: Kalle Valo <kvalo@codeaurora.org>"|2|Jes Sorensen|Jes.Sorensen@redhat.com|2016-04-14 14:58:57-04:00|14400|Kalle Valo|kvalo@codeaurora.org|2016-04-15 21:36:38+03:00|-10800

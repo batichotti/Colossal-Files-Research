@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7ced6890bf81d311ab2ea846f92d5f3d0951c08c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tipc: remove dump() and tipc_dump_dbg()
-
-Eliminates calls to two debugging macros that are being completely obsoleted,
-as well as any associated debugging routines that are no longer required.
-
-Signed-off-by: Allan Stephens <Allan.Stephens@windriver.com>
-Signed-off-by: Paul Gortmaker <paul.gortmaker@windriver.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Allan Stephens|Allan.Stephens@windriver.com|2010-12-31 18:59:26+00:00|0|David S. Miller|davem@davemloft.net|2011-01-01 13:57:53-08:00|28800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|23d88e1d3e4a5b807ce6725f9294b7b9dfcd89a1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cxgb4: extend VPD parsing
-
-Current code parses the VPD RO section for keywords but makes static
-assumptions about the location of the section.  Remove them and parse
-the VPD to find it.
-
-Signed-off-by: Dimitris Michailidis <dm@chelsio.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Dimitris Michailidis|dm@chelsio.com|2010-12-14 21:36:54+00:00|0|David S. Miller|davem@davemloft.net|2010-12-16 13:16:04-08:00|28800

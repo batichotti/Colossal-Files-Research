@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4db9c47c052b89d89f43d12879690c1b3283b887|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[PATCH] KVM: Don't set guest cr3 from vmx_vcpu_setup()
-
-It overwrites the right cr3 set from mmu setup.  Happens only with the test
-harness.
-
-Signed-off-by: Avi Kivity <avi@qumranet.com>
-Signed-off-by: Andrew Morton <akpm@osdl.org>
-Signed-off-by: Linus Torvalds <torvalds@osdl.org>"|1|Avi Kivity|avi@qumranet.com|2007-01-05 16:36:58-08:00|28800|Linus Torvalds|torvalds@woody.osdl.org|2007-01-05 23:55:28-08:00|28800

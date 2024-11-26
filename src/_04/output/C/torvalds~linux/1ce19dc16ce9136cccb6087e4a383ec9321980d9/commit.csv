@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1ce19dc16ce9136cccb6087e4a383ec9321980d9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"kvm, emulator: Use opcode length
-
-Add a field to the current emulation context which contains the
-instruction opcode length. This will streamline handling of opcodes of
-different length.
-
-Signed-off-by: Borislav Petkov <bp@suse.de>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|3|Borislav Petkov|bp@suse.de|2013-09-22 16:44:51+02:00|-7200|Paolo Bonzini|pbonzini@redhat.com|2013-10-30 18:54:39+01:00|-3600

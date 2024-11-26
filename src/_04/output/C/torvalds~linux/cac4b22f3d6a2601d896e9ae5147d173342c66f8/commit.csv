@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cac4b22f3d6a2601d896e9ae5147d173342c66f8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8169: do not account fragments as packets
-
-Only increase tx_{packets,dropped} statistics when transmit or drop
-full skb, not just fragment.
-
-Signed-off-by: Stanislaw Gruszka <sgruszka@redhat.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Stanislaw Gruszka|sgruszka@redhat.com|2010-10-20 22:25:40+00:00|0|David S. Miller|davem@davemloft.net|2010-10-21 01:32:46-07:00|25200

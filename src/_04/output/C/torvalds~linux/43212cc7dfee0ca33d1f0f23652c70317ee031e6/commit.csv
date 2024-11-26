@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|43212cc7dfee0ca33d1f0f23652c70317ee031e6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd: using nfsd4_encode_noop for encoding destroy_session/free_stateid
-
-Get rid of the extra code, using nfsd4_encode_noop for encoding destroy_session and free_stateid.
-And, delete unused argument (fr_status) int nfsd4_free_stateid.
-
-Signed-off-by: Kinglong Mee <kinglongmee@gmail.com>
-Signed-off-by: J. Bruce Fields <bfields@redhat.com>"|2|Kinglong Mee|kinglongmee@gmail.com|2013-12-09 19:04:23+08:00|-28800|J. Bruce Fields|bfields@redhat.com|2014-01-03 13:44:22-05:00|18000

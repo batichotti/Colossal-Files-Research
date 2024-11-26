@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2c1e2703ff812ccaa42a4bc8a25803955e342b85|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: call nf_hook_ingress with rcu_read_lock
-
-This commit ensures that the rcu read-side lock is held while the
-ingress hook is called.  This ensures that a call to nf_hook_slow (and
-ultimately nf_ingress) will be read protected.
-
-Signed-off-by: Aaron Conole <aconole@bytheb.org>
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|1|Aaron Conole|aconole@bytheb.org|2016-09-21 11:35:03-04:00|14400|Pablo Neira Ayuso|pablo@netfilter.org|2016-09-24 21:25:49+02:00|-7200

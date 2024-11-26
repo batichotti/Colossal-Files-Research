@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7eaceaccab5f40bbfda044629a6298616aeaed50|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"block: remove per-queue plugging
-
-Code has been converted over to the new explicit on-stack plugging,
-and delay users have been converted to use the new API for that.
-So lets kill off the old plugging along with aops->sync_page().
-
-Signed-off-by: Jens Axboe <jaxboe@fusionio.com>"|119|Jens Axboe|jaxboe@fusionio.com|2011-03-10 08:52:07+01:00|-3600|Jens Axboe|jaxboe@fusionio.com|2011-03-10 08:52:07+01:00|-3600

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|278b8fbf06c8572c6d82f9b60f6c43debb0e0dc8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/amdgpu: validate sw_fini before function call
-
-Before making a function call to sw_fini, validate
-the function pointer like we do in sw_init.
-
-Signed-off-by: Sunil Khatri <sunil.khatri@amd.com>
-Reviewed-by: Christian König <christian.koenig@amd.com>
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|1|Sunil Khatri|sunil.khatri@amd.com|2024-10-09 17:44:57+05:30|-19800|Alex Deucher|alexander.deucher@amd.com|2024-10-22 17:50:37-04:00|14400

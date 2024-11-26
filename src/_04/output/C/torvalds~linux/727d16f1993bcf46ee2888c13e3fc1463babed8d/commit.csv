@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|727d16f1993bcf46ee2888c13e3fc1463babed8d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mm/memory.c:zap_pte_range() print bad swap entry
-
-We have a report of this WARN() triggering.  Let's print the offending
-swp_entry_t to help diagnosis.
-
-Link: https://lkml.kernel.org/r/000000000000b0e576060a30ee3b@google.com
-Cc: Muhammad Usama Anjum <usama.anjum@collabora.com>
-Signed-off-by: Andrew Morton <akpm@linux-foundation.org>"|1|Andrew Morton|akpm@linux-foundation.org|2023-11-15 13:54:18-08:00|28800|Andrew Morton|akpm@linux-foundation.org|2023-12-06 16:12:43-08:00|28800

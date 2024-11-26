@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|34071da71a665d8c81e3b3467c9a2e7c56386fec|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: don't assume extents can't cross block groups when truncating
-
-With the FLEX_BG layout, there is no reason why extents can't cross
-block groups, so make the truncate code reserve enough credits so we
-don't BUG if we come across such an extent.
-
-Signed-off-by: ""Theodore Ts'o"" <tytso@mit.edu>"|1|Theodore Ts'o|tytso@mit.edu|2008-08-01 21:59:19-04:00|14400|Theodore Ts'o|tytso@mit.edu|2008-08-01 21:59:19-04:00|14400

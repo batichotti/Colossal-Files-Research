@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|eebc1525bacbd4faa46a99c37329414fb17cfa51|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915/display: Clean up zero initializers
-
-Just use a simple {} to zero initialize arrays/structs instead
-of the hodgepodge of stuff we are using currently.
-
-Signed-off-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Link: https://patchwork.freedesktop.org/patch/msgid/20231012122442.15718-2-ville.syrjala@linux.intel.com
-Reviewed-by: Jani Nikula <jani.nikula@intel.com>"|10|Ville Syrjälä|ville.syrjala@linux.intel.com|2023-10-12 15:24:37+03:00|-10800|Ville Syrjälä|ville.syrjala@linux.intel.com|2023-10-16 19:09:22+03:00|-10800

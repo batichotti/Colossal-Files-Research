@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f5ba60fefa00ca789c4eb35df38b171d532b3155|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"amdgpu/dc: Avoid dereferencing NULL pointer
-
-crtc is dereferenced from within drm_atomic_get_new_crtc_state, so
-check for NULL before initializing new_crtc_state.
-
-Signed-off-by: Drew Davenport <ddavenport@chromium.org>
-Reviewed-by: Harry Wentland <harry.wentland@amd.com>
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|1|Drew Davenport|ddavenport@chromium.org|2017-10-27 12:34:46-06:00|21600|Alex Deucher|alexander.deucher@amd.com|2017-11-02 12:58:41-04:00|14400

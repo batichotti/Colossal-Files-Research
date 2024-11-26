@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1f9d56574334590b836695cfec78dad029f36dba|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Attempt to clear HCI_LE_ADV on adv set terminated error event
-
-We should clear the flag if the adv instance removed due to receiving
-this error status is the last one we have.
-
-Signed-off-by: Archie Pusaka <apusaka@chromium.org>
-Reviewed-by: Miao-chen Chou <mcchou@chromium.org>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|1|Archie Pusaka|apusaka@chromium.org|2021-11-11 13:20:54+08:00|-28800|Marcel Holtmann|marcel@holtmann.org|2021-11-16 15:17:51+01:00|-3600

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6599591816f522c1cc8ec4eb5cea75738963756a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"memcg: convert mem_cgroup_swapin_charge_page() to mem_cgroup_swapin_charge_folio()
-
-All callers now have a folio, so pass it in here and remove an unnecessary
-call to page_folio().
-
-Link: https://lkml.kernel.org/r/20220902194653.1739778-17-willy@infradead.org
-Signed-off-by: Matthew Wilcox (Oracle) <willy@infradead.org>
-Signed-off-by: Andrew Morton <akpm@linux-foundation.org>"|4|Matthew Wilcox (Oracle)|willy@infradead.org|2022-09-02 20:46:12+01:00|-3600|Andrew Morton|akpm@linux-foundation.org|2022-10-03 14:02:47-07:00|25200

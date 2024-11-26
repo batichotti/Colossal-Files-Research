@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b3b2a9f60fd9e38c45d4728cac78ddf5596f3bb0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: message: fusion: Use kmemdup instead of memcpy and kmalloc
-
-Replace kmalloc + memcpy with kmemdup.
-
-This was reported by coccinelle.
-
-Signed-off-by: Bharath Vedartham <linux.bhar@gmail.com>
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|1|Bharath Vedartham|linux.bhar@gmail.com|2019-05-22 21:31:49+05:30|-19800|Martin K. Petersen|martin.petersen@oracle.com|2019-06-18 19:46:24-04:00|14400

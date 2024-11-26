@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a26bf12afb608eb5a96192eaee35fc08ffbf85aa|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: include all IRQ window exits in statistics
-
-irq_window_exits only tracks IRQ window exits due to user space
-requests, nmi_window_exits include all exits. The latter makes more
-sense, so let's adjust irq_window_exits accounting.
-
-Signed-off-by: Jan Kiszka <jan.kiszka@siemens.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Jan Kiszka|jan.kiszka@siemens.com|2008-09-26 09:30:45+02:00|-7200|Avi Kivity|avi@redhat.com|2008-12-31 16:51:39+02:00|-7200

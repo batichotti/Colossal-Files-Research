@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|727f514bd677420d4253ad84509710040e808899|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: hns3: remove a duplicated printing in hclge_configure()
-
-Since hclge_get_cfg() already has error print, so hclge_configure()
-should not print error when calling hclge_get_cfg() fail.
-
-Reported-by: Guangbin Huang <huangguangbin2@huawei.com>
-Signed-off-by: Huazhong Tan <tanhuazhong@huawei.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Huazhong Tan|tanhuazhong@huawei.com|2020-05-14 20:41:23+08:00|-28800|David S. Miller|davem@davemloft.net|2020-05-14 13:18:09-07:00|25200

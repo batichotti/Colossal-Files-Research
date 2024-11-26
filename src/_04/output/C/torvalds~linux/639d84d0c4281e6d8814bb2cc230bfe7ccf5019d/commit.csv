@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|639d84d0c4281e6d8814bb2cc230bfe7ccf5019d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: hns3: modify an incorrect type in struct hclge_cfg_gro_status_cmd
-
-Modify field .gro_en in struct hclge_cfg_gro_status_cmd to u8
-according to the UM, otherwise, it will overwrite the reserved
-byte which may be used for other purpose.
-
-Signed-off-by: Huazhong Tan <tanhuazhong@huawei.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Huazhong Tan|tanhuazhong@huawei.com|2020-05-28 21:48:12+08:00|-28800|David S. Miller|davem@davemloft.net|2020-05-28 16:39:03-07:00|25200

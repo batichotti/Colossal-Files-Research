@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|35f7498a87794ca531335f7c782e5b9495fec6d6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Remove return values from functions that don't need them
-
-There are many functions that never fail but still declare an integer
-return value for no reason. This patch converts these functions to use a
-void return value to avoid any confusion of whether they can fail or not.
-
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|3|Johan Hedberg|johan.hedberg@intel.com|2014-02-18 17:14:32+02:00|-7200|Marcel Holtmann|marcel@holtmann.org|2014-02-18 08:58:20-08:00|28800

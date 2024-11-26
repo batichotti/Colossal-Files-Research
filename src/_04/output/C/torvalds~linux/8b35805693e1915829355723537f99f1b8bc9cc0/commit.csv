@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8b35805693e1915829355723537f99f1b8bc9cc0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCTP]: Allow unspecified port in sctp_bindx()
-
-Allow sctp_bindx() to accept multiple address with
-unspecified port.  In this case, all addresses inherit
-the first bound port.  We still catch full mis-matches.
-
-Signed-off-by: Vlad Yasevich <vladislav.yasevich@hp.com>
-Acked-by: Sridhar Samudrala <sri@us.ibm.com>"|1|Vlad Yasevich|vladislav.yasevich@hp.com|2007-05-15 17:14:58-04:00|14400|Vladislav Yasevich|vxy@hera.kernel.org|2007-06-13 20:44:41+00:00|0

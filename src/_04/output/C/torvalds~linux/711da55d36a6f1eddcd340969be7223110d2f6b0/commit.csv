@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|711da55d36a6f1eddcd340969be7223110d2f6b0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libceph: change how osd_op_reply message size is calculated
-
-For a message pool message, preallocate a page, just like we do for
-osd_op.  For a normal message, take ceph_object_id into account and
-don't bother subtracting CEPH_OSD_SLAB_OPS ceph_osd_ops.
-
-Signed-off-by: Ilya Dryomov <idryomov@gmail.com>"|1|Ilya Dryomov|idryomov@gmail.com|2016-04-27 18:32:56+02:00|-7200|Ilya Dryomov|idryomov@gmail.com|2016-05-26 00:36:21+02:00|-7200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5e295768a0c6086901250b6be22f14eb01232ba1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: remove mirror argument from btrfs_csum_verify_data()
-
-The parameter mirror is not used and does not make sense for checksum
-verification of the given bio.
-
-Signed-off-by: Goldwyn Rodrigues <rgoldwyn@suse.com>
-Reviewed-by: David Sterba <dsterba@suse.com>
-Signed-off-by: David Sterba <dsterba@suse.com>"|3|Goldwyn Rodrigues|rgoldwyn@suse.de|2021-03-03 06:55:37-06:00|21600|David Sterba|dsterba@suse.com|2021-04-19 17:25:15+02:00|-7200

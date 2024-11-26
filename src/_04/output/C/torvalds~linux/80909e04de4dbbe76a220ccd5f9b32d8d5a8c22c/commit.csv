@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|80909e04de4dbbe76a220ccd5f9b32d8d5a8c22c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Use the ERTM transmit state machine from timeout handlers
-
-Different states have different actions for retransmit and monitor
-timeouts, so remove the logic for those actions from the timer handlers.
-
-Signed-off-by: Mat Martineau <mathewm@codeaurora.org>
-Signed-off-by: Gustavo Padovan <gustavo.padovan@collabora.co.uk>"|1|Mat Martineau|mathewm@codeaurora.org|2012-05-17 20:53:50-07:00|25200|Johan Hedberg|johan.hedberg@intel.com|2012-06-05 06:34:04+03:00|-10800

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5c937dd3f9eb999e6f4802987a674eae5718be54|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cxgb4: Issue mbox commands on correct mbox
-
-A couple of RDMA-related called to t4_query_params() were issuing mbox commands
-on mbox0 instead of mbox4.
-
-Signed-off-by: Hariprasad Shenai <hariprasad@chelsio.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Hariprasad Shenai|hariprasad@chelsio.com|2014-09-01 19:55:00+05:30|-19800|David S. Miller|davem@davemloft.net|2014-09-01 23:00:42-07:00|25200

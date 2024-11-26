@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|20a7db8ab3f2057a518448b1728d504ffadef65e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: add dummy callback for readpage_io_failed and drop checks
-
-Make extent_io_ops::readpage_io_failed_hook callback mandatory and
-define a dummy function for btrfs_extent_io_ops. As the failed IO
-callback is not performance critical, the branch vs extra trade off does
-not hurt.
-
-Signed-off-by: David Sterba <dsterba@suse.com>"|4|David Sterba|dsterba@suse.com|2017-02-17 16:24:29+01:00|-3600|David Sterba|dsterba@suse.com|2017-02-28 14:29:24+01:00|-3600

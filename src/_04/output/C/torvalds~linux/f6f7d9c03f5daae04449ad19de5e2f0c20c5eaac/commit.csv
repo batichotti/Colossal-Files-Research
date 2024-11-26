@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f6f7d9c03f5daae04449ad19de5e2f0c20c5eaac|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: ethernet: mediatek: get out of potential invalid pointer access
-
-Potential dangerous invalid pointer might be accessed if
-the error happens when couple phy_device to net_device so
-cleanup the error path.
-
-Signed-off-by: Sean Wang <sean.wang@mediatek.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Sean Wang|sean.wang@mediatek.com|2016-09-22 16:44:16+08:00|-28800|David S. Miller|davem@davemloft.net|2016-09-22 08:22:28-04:00|14400

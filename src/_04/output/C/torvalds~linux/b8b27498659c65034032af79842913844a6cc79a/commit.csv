@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b8b27498659c65034032af79842913844a6cc79a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: return immediately on empty commit
-
-When running 'nft flush ruleset' while no rules exist, we will increment
-the generation counter and announce a new genid to userspace, yet
-nothing had changed in the first place.
-
-Signed-off-by: Florian Westphal <fw@strlen.de>
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|1|Florian Westphal|fw@strlen.de|2019-03-07 23:20:11+01:00|-3600|Pablo Neira Ayuso|pablo@netfilter.org|2019-03-11 20:01:20+01:00|-3600

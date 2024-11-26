@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8593176c677226ead5b4effbd667dd19d5cba5ea|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"kvm: memslots: track id_to_index changes during the insertion sort
-
-This completes the optimization from the previous patch, by
-removing the KVM_MEM_SLOTS_NUM-iteration loop from insert_memslot.
-
-Reviewed-by: Igor Mammedov <imammedo@redhat.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Paolo Bonzini|pbonzini@redhat.com|2014-11-14 10:22:07+01:00|-3600|Paolo Bonzini|pbonzini@redhat.com|2014-11-14 15:40:17+01:00|-3600

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0dcc685e7dd7190dcaa5435e9c14150f1d405b7b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rbd: add rbd_obj_request_error() helper
-
-Pull setting an error and marking a request done code into a new
-helper.  obj_request_img_data_test() check isn't strictly needed right
-now, but makes it applicable to !img_data requests and a bit safer.
-
-Signed-off-by: Ilya Dryomov <idryomov@gmail.com>"|1|Ilya Dryomov|idryomov@gmail.com|2016-09-26 15:43:52+02:00|-7200|Ilya Dryomov|idryomov@gmail.com|2016-10-03 16:13:49+02:00|-7200

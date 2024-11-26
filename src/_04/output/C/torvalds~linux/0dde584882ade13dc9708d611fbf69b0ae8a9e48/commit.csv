@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0dde584882ade13dc9708d611fbf69b0ae8a9e48|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libceph: drop len argument of *verify_authorizer_reply()
-
-The length of the reply is protocol-dependent - for cephx it's
-ceph_x_authorize_reply.  Nothing sensible can be passed from the
-messenger layer anyway.
-
-Signed-off-by: Ilya Dryomov <idryomov@gmail.com>
-Reviewed-by: Sage Weil <sage@redhat.com>"|7|Ilya Dryomov|idryomov@gmail.com|2016-12-02 16:35:09+01:00|-3600|Ilya Dryomov|idryomov@gmail.com|2016-12-12 23:09:21+01:00|-3600

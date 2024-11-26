@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|733e27c1cc86afae2d9481838693661b3d839950|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ACPI: thinkpad-acpi: consolidate wlsw notification function
-
-Rename tpacpi_input_send_radiosw() to tpacpi_send_radiosw_update(), and
-make it a central point to issue ""radio switch changed state"" notifications
-by consolidating also the poll() notification in the same function.
-
-Signed-off-by: Henrique de Moraes Holschuh <hmh@hmh.eng.br>"|1|Henrique de Moraes Holschuh|hmh@hmh.eng.br|2008-07-21 09:15:49-03:00|10800|Henrique de Moraes Holschuh|hmh@hmh.eng.br|2008-07-21 09:15:49-03:00|10800

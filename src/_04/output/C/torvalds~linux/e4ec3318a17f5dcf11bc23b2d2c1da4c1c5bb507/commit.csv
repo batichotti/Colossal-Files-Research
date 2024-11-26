@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e4ec3318a17f5dcf11bc23b2d2c1da4c1c5bb507|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sched/debug: Rename sysctl_sched_min_granularity to sysctl_sched_base_slice
-
-EEVDF uses this tunable as the base request/slice -- make sure the
-name reflects this.
-
-Signed-off-by: Peter Zijlstra (Intel) <peterz@infradead.org>
-Signed-off-by: Ingo Molnar <mingo@kernel.org>
-Link: https://lore.kernel.org/r/20230531124604.205287511@infradead.org"|4|Peter Zijlstra|peterz@infradead.org|2023-05-31 13:58:48+02:00|-7200|Ingo Molnar|mingo@kernel.org|2023-07-19 09:43:59+02:00|-7200

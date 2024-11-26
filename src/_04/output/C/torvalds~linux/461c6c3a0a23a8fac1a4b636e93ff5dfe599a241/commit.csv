@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|461c6c3a0a23a8fac1a4b636e93ff5dfe599a241|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ALSA: hda - Add missing check of pin vref 50 and others in Realtek codecs
-
-Some Realtek codecs like ALC861 seem to support only VREF50 while the
-current driver assumes it's only VREF80.  Check other VREF bits to set
-the correct value.
-
-Signed-off-by: Takashi Iwai <tiwai@suse.de>"|1|Takashi Iwai|tiwai@suse.de|2009-05-25 08:06:02+02:00|-7200|Takashi Iwai|tiwai@suse.de|2009-05-25 08:06:02+02:00|-7200

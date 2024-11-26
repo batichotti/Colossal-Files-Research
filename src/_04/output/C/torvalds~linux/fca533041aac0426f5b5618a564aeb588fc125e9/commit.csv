@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fca533041aac0426f5b5618a564aeb588fc125e9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net/mlx5e: Optimize performance for IPv4/IPv6 ethertype
-
-The HW is optimized for IPv4/IPv6. For such cases, pending capability,
-avoid matching on ethertype, and use ip_version field instead.
-
-Signed-off-by: Eli Britstein <elibr@mellanox.com>
-Reviewed-by: Roi Dayan <roid@mellanox.com>
-Signed-off-by: Saeed Mahameed <saeedm@mellanox.com>"|5|Eli Britstein|elibr@mellanox.com|2020-05-19 05:55:59+00:00|0|Saeed Mahameed|saeedm@mellanox.com|2020-05-27 18:13:51-07:00|25200

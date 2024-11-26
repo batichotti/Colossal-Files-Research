@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4d2b496f19f3c2cfaca1e8fa0710688b5ff3811d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: scsi_debug: Fix memory leak if LBP enabled and module is unloaded
-
-map_storep was not being vfree()'d in the module_exit call.
-
-Cc: <stable@vger.kernel.org>
-Signed-off-by: Ewan D. Milne <emilne@redhat.com>
-Reviewed-by: Laurence Oberman <loberman@redhat.com>
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|1|Ewan D. Milne|emilne@redhat.com|2016-10-26 11:22:53-04:00|14400|Martin K. Petersen|martin.petersen@oracle.com|2016-10-26 22:14:50-04:00|14400

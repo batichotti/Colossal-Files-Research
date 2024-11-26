@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|50ca903afc2a4ccf7efd25744577fecb0ce6fb49|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: stmmac: simplify the common DMA init API
-
-Use struct stmmac_dma_cfg *dma_cfg as an argument rather
-than using all the struct members as individual arguments.
-
-Signed-off-by: Niklas Cassel <niklas.cassel@axis.com>
-Acked-by: Alexandre Torgue <alexandre.torgue@st.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|5|Niklas Cassel|niklas.cassel@axis.com|2016-12-07 15:20:04+01:00|-3600|David S. Miller|davem@davemloft.net|2016-12-08 13:07:10-05:00|18000

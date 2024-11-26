@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cfdcad4da1903720b9b8c1f176e46a0ebf546be3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"knfsd: nfsv4 delegation recall should take reference on client
-
-It's not enough to take a reference on the delegation object itself; we
-need to ensure that the rpc_client won't go away just as we're about to
-make an rpc call.
-
-Signed-off-by: J. Bruce Fields <bfields@citi.umich.edu>"|2|J. Bruce Fields|bfields@citi.umich.edu|2007-09-12 20:35:15-04:00|14400|J. Bruce Fields|bfields@citi.umich.edu|2007-10-09 18:31:57-04:00|14400

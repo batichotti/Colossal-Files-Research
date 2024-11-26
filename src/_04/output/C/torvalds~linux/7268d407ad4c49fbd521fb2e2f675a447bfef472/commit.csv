@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7268d407ad4c49fbd521fb2e2f675a447bfef472|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tools/power turbostat: Denverton uses a 25 MHz crystal, not 19.2 MHz
-
-This changes only the TSC frequency decoding line seen with --debug
-
-old: TSC: 1382 MHz (19200000 Hz * 216 / 3 / 1000000)
-new: TSC: 1800 MHz (25000000 Hz * 216 / 3 / 1000000)
-
-Signed-off-by: Len Brown <len.brown@intel.com>"|1|Len Brown|len.brown@intel.com|2016-12-01 23:10:39-05:00|18000|Len Brown|len.brown@intel.com|2016-12-01 23:18:26-05:00|18000

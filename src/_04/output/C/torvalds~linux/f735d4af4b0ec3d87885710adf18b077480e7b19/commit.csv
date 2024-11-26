@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f735d4af4b0ec3d87885710adf18b077480e7b19|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: drop ept misconfig check
-
-The logic used to check ept misconfig is completely contained in common
-reserved bits check for sptes, so it can be removed
-
-Signed-off-by: Xiao Guangrong <guangrong.xiao@linux.intel.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|3|Xiao Guangrong|guangrong.xiao@linux.intel.com|2015-08-05 12:04:27+08:00|-28800|Paolo Bonzini|pbonzini@redhat.com|2015-08-05 12:47:26+02:00|-7200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1fa9ad52b07811ebf258f3f6907de8dbf020ec2d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"regulator: Hoist struct regulator_dev out of core to fix notifiers
-
-Commit 872ed3fe176833f7d43748eb88010da4bbd2f983 caused regulator drivers
-to take the struct regulator_dev lock themselves which requires that the
-struct be visible to them. Band aid this by making the struct visible.
-
-Signed-off-by: Mark Brown <broonie@opensource.wolfsonmicro.com>
-Signed-off-by: Liam Girdwood <lrg@slimlogic.co.uk>"|2|Mark Brown|broonie@opensource.wolfsonmicro.com|2009-01-21 14:08:40+00:00|0|Liam Girdwood|lrg@slimlogic.co.uk|2009-03-31 09:56:22+01:00|-3600

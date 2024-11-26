@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e726b1bd64b0b8945c171d2d4bf749fba9fc0800|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: s390: implement KVM_CAP_NR/MAX_VCPUS
-
-Let userspace know the number of max and supported cpus for kvm on s390.
-Return KVM_MAX_VCPUS (currently 64) for both values.
-
-Signed-off-by: Christian Borntraeger <borntraeger@de.ibm.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|1|Christian Borntraeger|borntraeger@de.ibm.com|2012-05-02 10:50:38+02:00|-7200|Marcelo Tosatti|mtosatti@redhat.com|2012-05-02 18:36:21-03:00|10800

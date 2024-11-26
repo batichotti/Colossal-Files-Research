@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f0495f9b9992f80f82b14306946444b287193390|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: Relax check on unusable segment
-
-Some userspace (e.g. QEMU 1.1) munge the d and g bits of segment
-descriptors, causing us not to recognize them as unusable segments
-with emulate_invalid_guest_state=1.  Relax the check by testing for
-segment not present (a non-present segment cannot be usable).
-
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Avi Kivity|avi@redhat.com|2012-06-07 17:06:10+03:00|-10800|Avi Kivity|avi@redhat.com|2012-07-09 14:19:01+03:00|-10800

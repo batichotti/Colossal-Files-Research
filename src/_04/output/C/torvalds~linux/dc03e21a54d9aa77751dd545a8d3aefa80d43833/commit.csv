@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|dc03e21a54d9aa77751dd545a8d3aefa80d43833|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: mvneta: Remove unneeded 'weigth' field
-
-The 'weight' field is only used to pass the weigth to napi initialization
-function. This commit removes the field, and instead uses a fixed value to
-initialize the napi context.
-
-Signed-off-by: Ezequiel Garcia <ezequiel.garcia@free-electrons.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Ezequiel Garcia|ezequiel.garcia@free-electrons.com|2014-05-22 20:07:03-03:00|10800|David S. Miller|davem@davemloft.net|2014-05-23 15:31:49-04:00|14400

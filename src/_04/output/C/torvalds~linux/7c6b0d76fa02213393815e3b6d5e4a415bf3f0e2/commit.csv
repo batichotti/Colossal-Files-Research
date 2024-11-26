@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7c6b0d76fa02213393815e3b6d5e4a415bf3f0e2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: ethernet: mediatek: fix logic unbalance between probe and remove
-
-original mdio_cleanup is not in the symmetric place against where
-mdio_init is, so relocate mdio_cleanup to the right one.
-
-Signed-off-by: Sean Wang <sean.wang@mediatek.com>
-Acked-by: John Crispin <john@phrozen.org>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Sean Wang|sean.wang@mediatek.com|2016-09-01 10:47:31+08:00|-28800|David S. Miller|davem@davemloft.net|2016-08-31 20:53:47-07:00|25200

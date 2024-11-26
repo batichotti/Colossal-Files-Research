@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e65c22633c14eabe9593a71a727f81544378b892|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: Fix TKIP/WEP HT capability handling
-
-There is no need to parse the AP's HT capabilities if
-the STA uses TKIP/WEP cipher. This allows the rate control
-module to choose the correct(legacy) rate table.
-
-Signed-off-by: Sujith <Sujith.Manoharan@atheros.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|1|Sujith|Sujith.Manoharan@atheros.com|2009-03-02 13:28:31+05:30|-19800|John W. Linville|linville@tuxdriver.com|2009-03-05 14:39:37-05:00|18000

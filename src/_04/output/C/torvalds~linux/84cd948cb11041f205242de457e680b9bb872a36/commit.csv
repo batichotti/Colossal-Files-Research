@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|84cd948cb11041f205242de457e680b9bb872a36|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: do not BUG if we fail to remove the orphan item for dead snapshots
-
-Not being able to delete an orphan item isn't a horrible thing.  The worst that
-happens is the next time around we try and do the orphan cleanup and we can't
-find the referenced object and just delete the item and move on.
-
-Signed-off-by: Josef Bacik <josef@redhat.com>"|1|Josef Bacik|josef@redhat.com|2010-12-08 12:24:01-05:00|18000|Chris Mason|chris.mason@oracle.com|2010-12-10 16:29:04-05:00|18000

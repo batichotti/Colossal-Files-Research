@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7643f3fe27729b20e6fcf6b314b00b8b93504356|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: assign the write hint per stream by default
-
-This reverts commit 930e2607638d (""f2fs: remove obsolete whint_mode""), as we
-decide to pass write hints to the disk.
-
-Cc: Hyunchul Lee <cheol.lee@lge.com>
-Signed-off-by: Chao Yu <chao@kernel.org>
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|5|Jaegeuk Kim|jaegeuk@kernel.org|2024-04-17 20:01:55+00:00|0|Jaegeuk Kim|jaegeuk@kernel.org|2024-04-19 17:56:13+00:00|0

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|dbdc647927a0f4b34e7cf486889d8f671f73d2e5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: avoid reading non-existent PLL reg on Ironlake+
-
-These functions need to be reworked for Ironlake and above, but until
-then at least avoid reading non-existent registers.
-
-Signed-off-by: Jesse Barnes <jbarnes@virtuousgeek.org>
-[ickle: combine with a gratuitous tidy]
-Signed-off-by: Chris Wilson <chris@chris-wilson.co.uk>"|1|Jesse Barnes|jbarnes@virtuousgeek.org|2010-12-30 09:36:39-08:00|28800|Chris Wilson|chris@chris-wilson.co.uk|2011-01-11 20:37:05+00:00|0

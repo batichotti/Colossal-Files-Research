@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|68a6afa7fad2644e6b575aba2f2fbda81e730e5b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cifs: Clean up unused variables in smb2pdu.c
-
-There are multiple unused variables struct TCP_Server_Info *server
-defined in many methods in smb2pdu.c. They should be removed and related
-logic simplified.
-
-Signed-off-by: Christos Gkekas <chris.gekas@gmail.com>
-Signed-off-by: Steve French <smfrench@gmail.com>"|1|Christos Gkekas|chris.gekas@gmail.com|2017-07-09 11:45:04+01:00|-3600|Steve French|smfrench@gmail.com|2017-07-09 23:38:00-05:00|18000

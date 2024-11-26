@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f779b2d60ab95c17f1e025778ed0df3ec2f05d75|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tcp: fix validation of D-SACK
-
-D-SACK is allowed to reside below snd_una. But the corresponding check
-in tcp_is_sackblock_valid() is the exact opposite. It looks like a typo.
-
-Signed-off-by: Zheng Yan <zheng.z.yan@intel.com>
-Acked-by: Eric Dumazet <eric.dumazet@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Zheng Yan|zheng.z.yan@intel.com|2011-09-18 22:37:34-04:00|14400|David S. Miller|davem@davemloft.net|2011-09-18 22:37:34-04:00|14400

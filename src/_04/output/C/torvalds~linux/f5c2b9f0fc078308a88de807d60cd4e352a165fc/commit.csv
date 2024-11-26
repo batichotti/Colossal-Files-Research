@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f5c2b9f0fc078308a88de807d60cd4e352a165fc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: hns3: add support ethtool extended link state
-
-In order to know the reason of link up failure, add supporting ethtool
-extended link state. Driver reads the link status code from firmware if
-in link down state and converts it to ethtool extended link state.
-
-Signed-off-by: Guangbin Huang <huangguangbin2@huawei.com>
-Signed-off-by: Jakub Kicinski <kuba@kernel.org>"|5|Guangbin Huang|huangguangbin2@huawei.com|2021-08-16 10:15:29+08:00|-28800|Jakub Kicinski|kuba@kernel.org|2021-08-16 15:12:14-07:00|25200

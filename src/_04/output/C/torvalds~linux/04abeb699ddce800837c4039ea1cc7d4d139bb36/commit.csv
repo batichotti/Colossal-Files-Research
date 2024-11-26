@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|04abeb699ddce800837c4039ea1cc7d4d139bb36|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: close unused open zones while mounting
-
-Zoned UFS allows only 6 open zones at the same time, so we need to take
-care of the count of open zones while mounting.
-
-Signed-off-by: Daeho Jeong <daehojeong@google.com>
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|1|Daeho Jeong|daehojeong@google.com|2023-05-05 13:40:00-07:00|25200|Jaegeuk Kim|jaegeuk@kernel.org|2023-06-12 13:04:07-07:00|25200

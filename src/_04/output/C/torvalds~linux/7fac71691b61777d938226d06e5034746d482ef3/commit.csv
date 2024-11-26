@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7fac71691b61777d938226d06e5034746d482ef3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"RDMA/hns: Adjust the order in which irq are requested and enabled
-
-It should first alloc workqueue and request irq, and finally enable irq.
-
-Link: https://lore.kernel.org/r/1629985056-57004-6-git-send-email-liangwenpeng@huawei.com
-Signed-off-by: Wenpeng Liang <liangwenpeng@huawei.com>
-Signed-off-by: Jason Gunthorpe <jgg@nvidia.com>"|1|Wenpeng Liang|liangwenpeng@huawei.com|2021-08-26 21:37:34+08:00|-28800|Jason Gunthorpe|jgg@nvidia.com|2021-08-26 12:12:20-03:00|10800

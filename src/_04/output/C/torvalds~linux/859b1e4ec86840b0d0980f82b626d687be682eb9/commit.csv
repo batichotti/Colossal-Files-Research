@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|859b1e4ec86840b0d0980f82b626d687be682eb9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"be2net: clear & notify residual events before destroying event queues
-
-Any events rcvd after interrupts are disabled (in the driver unload path),
-must be cleared and notified before the event queues are destroyed
-
-Signed-off-by: Sathya Perla <sathyap@serverengines.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Sathya Perla|sathyap@serverengines.com|2009-08-10 03:43:51+00:00|0|David S. Miller|davem@davemloft.net|2009-08-12 22:13:17-07:00|25200

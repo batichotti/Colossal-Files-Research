@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|549d6ed5e85003370fe858e70864a71882491d28|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: set the delegation in nfs4_opendata_to_nfs4_state
-
-This ensures that nfs4_open_release() and nfs4_open_confirm_release()
-can now handle an eventual delegation that was returned with out open.
-As such, it fixes a delegation ""leak"" when the user breaks out of an open
-call.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|1|Trond Myklebust|Trond.Myklebust@netapp.com|2007-07-03 16:42:45-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2007-07-10 23:40:40-04:00|14400

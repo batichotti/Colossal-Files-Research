@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|304603f47a7487309d5c450f438c59e92af2d93a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Don't use staged config for VLV cdclk calculations
-
-Now that we use a drm atomic state for the legacy modeset, it is
-possible to get rid of the usage of intel_crtc->new_config in the
-function intel_mode_max_pixclk().
-
-Signed-off-by: Ander Conselvan de Oliveira <ander.conselvan.de.oliveira@intel.com>
-Signed-off-by: Daniel Vetter <daniel.vetter@ffwll.ch>"|1|Ander Conselvan de Oliveira|ander.conselvan.de.oliveira@intel.com|2015-04-02 14:47:56+03:00|-10800|Daniel Vetter|daniel.vetter@ffwll.ch|2015-04-10 08:55:55+02:00|-7200

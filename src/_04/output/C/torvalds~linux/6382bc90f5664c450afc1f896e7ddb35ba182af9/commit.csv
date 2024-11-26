@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6382bc90f5664c450afc1f896e7ddb35ba182af9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sched: domain sysctl fixes: unregister the sysctl table before domains
-
-Unregister and free the sysctl table before destroying domains, then
-rebuild and register after creating the new domains.  This prevents the
-sysctl table from pointing to freed memory for root to write.
-
-Signed-off-by: Milton Miller <miltonm@bga.com>
-Signed-off-by: Ingo Molnar <mingo@elte.hu>"|1|Milton Miller|miltonm@bga.com|2007-10-15 17:00:19+02:00|-7200|Ingo Molnar|mingo@elte.hu|2007-10-15 17:00:19+02:00|-7200

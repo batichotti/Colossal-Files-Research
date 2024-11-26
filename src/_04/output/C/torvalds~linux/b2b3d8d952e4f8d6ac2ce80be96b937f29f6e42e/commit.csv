@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b2b3d8d952e4f8d6ac2ce80be96b937f29f6e42e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/radeon/cik: properly set compute ring status on disable
-
-When we disable the rings, set the status properly.  If
-not other code pathes may try and use the rings which are
-not functional at this point.
-
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>
-Cc: stable@vger.kernel.org"|1|Alex Deucher|alexander.deucher@amd.com|2014-03-12 16:20:44-04:00|14400|Alex Deucher|alexander.deucher@amd.com|2014-03-12 16:20:44-04:00|14400

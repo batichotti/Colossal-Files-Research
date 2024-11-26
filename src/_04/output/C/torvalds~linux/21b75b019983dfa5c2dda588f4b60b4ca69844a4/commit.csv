@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|21b75b019983dfa5c2dda588f4b60b4ca69844a4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd4: fix 4.1 connection registration race
-
-If a connection is closed just after a sequence or create_session
-is sent over it, we could end up trying to register a callback that will
-never get called since the xprt is already marked dead.
-
-Signed-off-by: J. Bruce Fields <bfields@redhat.com>"|2|J. Bruce Fields|bfields@redhat.com|2010-10-26 10:07:17-04:00|14400|J. Bruce Fields|bfields@redhat.com|2010-11-02 17:13:52-04:00|14400

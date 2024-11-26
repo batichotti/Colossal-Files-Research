@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|029727a39a4316c081347749d5c25f76d5eb891c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Fix suspending the L2CAP socket if we start with 0 credits
-
-If the peer gives us zero credits in its connection request or response
-we must call the suspend channel callback so the BT_SK_SUSPEND flag gets
-set and user space is blocked from sending data to the socket.
-
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|1|Johan Hedberg|johan.hedberg@intel.com|2013-10-07 14:44:48+02:00|-7200|Marcel Holtmann|marcel@holtmann.org|2013-12-05 07:05:35-08:00|28800

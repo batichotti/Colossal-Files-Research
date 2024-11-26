@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|88aa3cff4e9a38b953de9fbc54c96e619a2bb9f9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: Use ext4_discard_reservations instead of mballoc-specific call
-
-In ext4_ext_truncate(), we should use the more generic
-ext4_discard_reservations() call so we do the right thing when the
-filesystem is mounted with the nomballoc option.
-
-Signed-off-by: ""Theodore Ts'o"" <tytso@mit.edu>
-Reviewed-by: Mingming Cao <cmm@us.ibm.com>"|1|Theodore Ts'o|tytso@mit.edu|2008-08-16 07:57:35-04:00|14400|Theodore Ts'o|tytso@mit.edu|2008-08-16 07:57:35-04:00|14400

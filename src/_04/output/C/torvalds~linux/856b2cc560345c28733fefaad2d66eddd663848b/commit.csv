@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|856b2cc560345c28733fefaad2d66eddd663848b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: mvneta: disable MVNETA_CAUSE_PSC_SYNC_CHANGE interrupt
-
-The PSC sync change interrupt can fire multiple times while the link is
-down, which is caused by noise on the serdes lines. As this isn't
-information we make use of, it's pointless having the interrupt enabled.
-
-Signed-off-by: Russell King <rmk+kernel@armlinux.org.uk>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Russell King|rmk+kernel@armlinux.org.uk|2018-01-02 17:25:09+00:00|0|David S. Miller|davem@davemloft.net|2018-01-03 10:38:54-05:00|18000

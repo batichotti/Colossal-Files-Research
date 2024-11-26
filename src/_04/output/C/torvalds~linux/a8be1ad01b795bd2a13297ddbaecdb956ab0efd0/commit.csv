@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a8be1ad01b795bd2a13297ddbaecdb956ab0efd0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: vmx: delete meaningless vmx_decache_cr0_guest_bits() declaration
-
-The function vmx_decache_cr0_guest_bits() is only called below its
-implementation. So this is meaningless and should be removed.
-
-Signed-off-by: Miaohe Lin <linmiaohe@huawei.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Miaohe Lin|linmiaohe@huawei.com|2020-02-05 23:33:53+08:00|-28800|Paolo Bonzini|pbonzini@redhat.com|2020-02-05 16:44:06+01:00|-3600

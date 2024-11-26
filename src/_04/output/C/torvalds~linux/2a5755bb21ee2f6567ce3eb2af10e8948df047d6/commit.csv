@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2a5755bb21ee2f6567ce3eb2af10e8948df047d6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: X86: Don't take srcu lock in init_rmode_identity_map()
-
-We've already got the slots_lock, so we should be safe.
-
-Signed-off-by: Peter Xu <peterx@redhat.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Peter Xu|peterx@redhat.com|2020-01-09 09:57:14-05:00|18000|Paolo Bonzini|pbonzini@redhat.com|2020-01-27 19:59:53+01:00|-3600

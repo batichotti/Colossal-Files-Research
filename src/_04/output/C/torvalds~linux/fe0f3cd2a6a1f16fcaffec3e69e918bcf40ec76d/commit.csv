@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fe0f3cd2a6a1f16fcaffec3e69e918bcf40ec76d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211_hwsim: use ieee80211_free_txskb
-
-These are only strange error cases, so it's not really
-all that important, but the driver really should use
-ieee80211_free_txskb() instead of just dev_kfree_skb().
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2013-07-14 23:37:14+03:00|-10800|Johannes Berg|johannes.berg@intel.com|2013-07-16 09:58:15+03:00|-10800

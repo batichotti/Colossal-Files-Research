@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|79c892b85027d5074dfa670dd451c14ee649fb88|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: provide per-TID RX/TX MSDU counters
-
-Implement the new counters cfg80211 can now advertise to userspace.
-The TX code is in the sequence number handler, which is a bit odd,
-but that place already knows the TID and frame type, so it was
-easiest and least impact there.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|5|Johannes Berg|johannes.berg@intel.com|2014-11-21 14:26:31+01:00|-3600|Johannes Berg|johannes.berg@intel.com|2015-01-08 15:28:20+01:00|-3600

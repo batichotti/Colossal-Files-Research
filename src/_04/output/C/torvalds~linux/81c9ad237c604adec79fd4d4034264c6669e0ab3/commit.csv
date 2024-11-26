@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|81c9ad237c604adec79fd4d4034264c6669e0ab3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: remove search_start and search_end from find_free_extent and callers
-
-We have been passing nothing but (u64)-1 to find_free_extent for search_end in
-all of the callers, so it's completely useless, and we've always been passing 0
-in as search_start, so just remove them as function arguments and move
-search_start into find_free_extent.  Thanks,
-
-Signed-off-by: Josef Bacik <josef@redhat.com>"|3|Josef Bacik|josef@redhat.com|2012-01-18 10:56:06-05:00|18000|Chris Mason|chris.mason@oracle.com|2012-03-26 14:42:51-04:00|14400

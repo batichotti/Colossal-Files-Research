@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5947e900d08443506fdceaf4b80f9d160b47665f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"staging: rtl8723bs: core: Change NULL comparisons to Boolean negation
-
-Change NULL comparisons to Boolean negations. Issue found with
-Coccinelle using matchnull.cocci.
-
-Signed-off-by: Nishka Dasgupta <nishka.dasgupta@yahoo.com>
-Signed-off-by: Greg Kroah-Hartman <gregkh@linuxfoundation.org>"|1|Nishka Dasgupta|nishka.dasgupta@yahoo.com|2019-03-22 01:43:54+05:30|-19800|Greg Kroah-Hartman|gregkh@linuxfoundation.org|2019-03-22 15:16:29+01:00|-3600

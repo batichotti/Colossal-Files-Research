@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fb10fb67ad2ce43d5e5b8ad22d2ba826844acc56|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: Cleanup the setting of the nfs4 lease period
-
-Make a helper function nfs4_set_lease_period() and have
-nfs41_setup_state_renewal() and nfs4_do_fsinfo() use it.
-
-Signed-off-by: Trond Myklebust <trond.myklebust@primarydata.com>"|4|Trond Myklebust|trond.myklebust@primarydata.com|2016-08-05 19:13:08-04:00|14400|Trond Myklebust|trond.myklebust@primarydata.com|2016-08-05 19:13:08-04:00|14400

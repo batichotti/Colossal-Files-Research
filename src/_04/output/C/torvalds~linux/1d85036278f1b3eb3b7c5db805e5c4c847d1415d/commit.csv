@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1d85036278f1b3eb3b7c5db805e5c4c847d1415d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: remove broken intel_pch_has_edp function
-
-Since we set the output type of PCH attached eDP panels to
-INTEL_OUTPUT_eDP this function would never return true when it should.
-It's been replaced by working functions.
-
-Signed-off-by: Jesse Barnes <jbarnes@virtuousgeek.org>
-Signed-off-by: Chris Wilson <chris@chris-wilson.co.uk>"|3|Jesse Barnes|jbarnes@virtuousgeek.org|2010-10-07 16:01:10-07:00|25200|Chris Wilson|chris@chris-wilson.co.uk|2010-10-08 09:23:18+01:00|-3600

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3ec762ad8be364c2fadfe0d6b2cc6d4d3b5e1b54|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cgroups: Fix a lockdep warning at cgroup removal
-
-Commit 2fd6b7f5 (""fs: dcache scale subdirs"") forgot to annotate a dentry
-lock, which caused a lockdep warning.
-
-Reported-by: Valdis Kletnieks <Valdis.Kletnieks@vt.edu>
-Signed-off-by: Li Zefan <lizf@cn.fujitsu.com>"|1|Li Zefan|lizf@cn.fujitsu.com|2011-01-14 11:34:34+08:00|-28800|Nick Piggin|npiggin@kernel.dk|2011-01-14 08:46:29+00:00|0

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0873045f63c474db5c9f816a01fb1a7f64ea21b2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: ufs: Remove unnecessary NULL checks in ufshcd_find_max_sup_active_icc_level()
-
-vcc/vccq/vccq2 have already been NULL checked at this point in
-ufshcd_find_max_sup_active_icc_level().
-
-Link: https://lore.kernel.org/r/20210319070916.2254-1-zbestahu@gmail.com
-Signed-off-by: Yue Hu <huyue2@yulong.com>
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|1|Yue Hu|huyue2@yulong.com|2021-03-19 15:09:16+08:00|-28800|Martin K. Petersen|martin.petersen@oracle.com|2021-03-24 22:53:20-04:00|14400

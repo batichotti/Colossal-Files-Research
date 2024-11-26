@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1a18a69b762374c423305772500f36eb8984ca52|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86 emulator: reject SYSENTER in compatibility mode on AMD guests
-
-If the guest thinks it's an AMD, it will not have prepared the SYSENTER MSRs,
-and if the guest executes SYSENTER in compatibility mode, it will fails.
-
-Detect this condition and #UD instead, like the spec says.
-
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Avi Kivity|avi@redhat.com|2012-02-01 12:23:21+02:00|-7200|Avi Kivity|avi@redhat.com|2012-03-05 14:57:20+02:00|-7200

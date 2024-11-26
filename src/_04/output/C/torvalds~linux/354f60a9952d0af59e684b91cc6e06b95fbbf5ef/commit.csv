@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|354f60a9952d0af59e684b91cc6e06b95fbbf5ef|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[Bluetooth] Ignore L2CAP config requests on disconnect
-
-Any L2CAP connection in disconnecting state shall not response
-to any further config requests from the remote side. So in case
-such a request is received, ignore it.
-
-Signed-off-by: Ville Tervo <ville.tervo@nokia.com>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|1|Marcel Holtmann|marcel@holtmann.org|2006-11-18 22:15:20+01:00|-3600|David S. Miller|davem@sunset.davemloft.net|2006-11-21 16:16:32-08:00|28800

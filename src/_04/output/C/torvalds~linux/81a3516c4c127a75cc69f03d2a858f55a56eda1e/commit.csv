@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|81a3516c4c127a75cc69f03d2a858f55a56eda1e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bnx2x: Remove setting XAUI low-power for BCM8073
-
-A rare link issue with the BCM8073 PHY may occur due to setting XAUI low power mode, while the PHY microcode already does that.
-The fix is not to set set XAUI low power mode for this PHY.
-
-Signed-off-by: Yaniv Rosner <yanivr@broadcom.com>
-Signed-off-by: Eilon Greenstein <eilong@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Yaniv Rosner|yanivr@broadcom.com|2011-01-30 04:14:48+00:00|0|David S. Miller|davem@davemloft.net|2011-01-30 22:26:15-08:00|28800

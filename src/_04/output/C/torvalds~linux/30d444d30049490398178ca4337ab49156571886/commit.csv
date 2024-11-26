@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|30d444d30049490398178ca4337ab49156571886|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net/ipv6: Udate fib6_table_lookup tracepoint
-
-Commit bb0ad1987e96 (""ipv6: fib6_rules: support for match on sport, dport
-and ip proto"") added support for protocol and ports to FIB rules.
-Update the FIB lookup tracepoint to dump the parameters.
-
-Signed-off-by: David Ahern <dsahern@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|David Ahern|dsahern@gmail.com|2018-05-23 17:08:48-07:00|25200|David S. Miller|davem@davemloft.net|2018-05-24 23:01:15-04:00|14400

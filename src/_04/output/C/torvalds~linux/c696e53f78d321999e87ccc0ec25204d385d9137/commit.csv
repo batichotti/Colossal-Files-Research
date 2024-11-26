@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c696e53f78d321999e87ccc0ec25204d385d9137|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/radeon/kms: fix up dce6 display watermark calc for dpm
-
-Calculate the low and high watermarks based on the low and high
-clocks for the current power state.  The dynamic pm hw will select
-the appropriate watermark based on the internal dpm state.
-
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|1|Alex Deucher|alexander.deucher@amd.com|2012-05-03 10:43:25-04:00|14400|Alex Deucher|alexander.deucher@amd.com|2013-06-27 10:49:23-04:00|14400

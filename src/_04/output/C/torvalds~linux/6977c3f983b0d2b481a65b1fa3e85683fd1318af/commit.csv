@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6977c3f983b0d2b481a65b1fa3e85683fd1318af|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rbd: unregister linger in watch sync routine
-
-Move the code that unregisters an rbd device's lingering header
-object watch request into rbd_dev_header_watch_sync(), so it
-occurs in the same function that originally sets up that request.
-
-Signed-off-by: Alex Elder <elder@inktank.com>
-Reviewed-by: Josh Durgin <josh.durgin@inktank.com>"|1|Alex Elder|elder@inktank.com|2013-01-25 17:08:55-06:00|21600|Sage Weil|sage@inktank.com|2013-02-13 18:29:09-08:00|28800

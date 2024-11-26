@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|568db4f2536fe5a1a9ce491b17c3d0011d5506d2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Don't use the intel_ prefix for gen-specific data
-
-We now prefix our functions/enums/data with the first platform it has
-been introduced. Do that for the primary plane formats.
-
-Signed-off-by: Damien Lespiau <damien.lespiau@intel.com>
-[danvet: s/gen2/i8xx/ and s/gen4/i965/ ...]
-Signed-off-by: Daniel Vetter <daniel.vetter@ffwll.ch>"|1|Damien Lespiau|damien.lespiau@intel.com|2015-05-12 16:13:18+01:00|-3600|Daniel Vetter|daniel.vetter@ffwll.ch|2015-05-20 11:25:55+02:00|-7200

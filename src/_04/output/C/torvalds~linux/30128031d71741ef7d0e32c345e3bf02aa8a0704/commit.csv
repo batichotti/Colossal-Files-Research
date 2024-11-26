@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|30128031d71741ef7d0e32c345e3bf02aa8a0704|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"be2net: init (vf)_if_handle/vf_pmac_id to handle failure scenarios
-
-Initialize if_handle, vf_if_handle and vf_pmac_id with ""-1"" so that in
-failure cases when be_clear() is called, we can skip over
-if_destroy/pmac_del cmds if they have not been created.
-
-Signed-off-by: Sathya Perla <sathya.perla@emulex.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|4|Sathya Perla|sathya.perla@emulex.com|2011-11-10 19:17:57+00:00|0|David S. Miller|davem@davemloft.net|2011-11-12 17:59:35-05:00|18000

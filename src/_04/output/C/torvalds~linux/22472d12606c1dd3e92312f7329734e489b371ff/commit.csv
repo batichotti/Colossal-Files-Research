@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|22472d12606c1dd3e92312f7329734e489b371ff|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"x86/kvm: Simplify FOP_SETCC()
-
-SETCC_ALIGN and FOP_ALIGN are both 16.  Remove the special casing for
-FOP_SETCC() and just make it a normal fastop.
-
-Signed-off-by: Josh Poimboeuf <jpoimboe@kernel.org>
-Message-Id: <7c13d94d1a775156f7e36eed30509b274a229140.1660837839.git.jpoimboe@kernel.org>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Josh Poimboeuf|jpoimboe@kernel.org|2022-08-18 08:53:42-07:00|25200|Paolo Bonzini|pbonzini@redhat.com|2022-08-19 04:05:42-04:00|14400

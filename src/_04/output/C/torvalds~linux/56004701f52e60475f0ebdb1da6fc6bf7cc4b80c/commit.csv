@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|56004701f52e60475f0ebdb1da6fc6bf7cc4b80c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"habanalabs: Include linux/bitfield.h only in habanalabs.h
-
-Include linux/bitfield.h only in habanalabs.h, instead of in each and
-every file that needs it, as habanalabs.h is already included by all.
-
-Signed-off-by: Tomer Tayar <ttayar@habana.ai>
-Reviewed-by: Oded Gabbay <oded.gabbay@gmail.com>
-Signed-off-by: Oded Gabbay <oded.gabbay@gmail.com>"|5|Tomer Tayar|ttayar@habana.ai|2020-08-18 15:06:56+03:00|-10800|Oded Gabbay|oded.gabbay@gmail.com|2020-09-22 18:49:51+03:00|-10800

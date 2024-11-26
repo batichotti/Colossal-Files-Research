@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|24723d1bc9da79a53d0495b9cf9ee18747121b03|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: move ieee80211_sta_expire
-
-ieee80211_sta_expire uses the internal __sta_info_unlink
-function which can become static if this function is moved
-to sta_info.c.
-
-Signed-off-by: Johannes Berg <johannes@sipsolutions.net>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|3|Johannes Berg|johannes@sipsolutions.net|2008-09-11 00:01:46+02:00|-7200|John W. Linville|linville@tuxdriver.com|2008-09-15 16:48:20-04:00|14400

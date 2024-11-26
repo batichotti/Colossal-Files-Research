@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b2d444d7ad975d555bb919601bcdc0e58975a40e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[PATCH] md: convert 'faulty' and 'in_sync' fields to bits in 'flags' field
-
-This has the advantage of removing the confusion caused by 'rdev_t' and
-'mddev_t' both having 'in_sync' fields.
-
-Signed-off-by: Neil Brown <neilb@suse.de>
-Signed-off-by: Andrew Morton <akpm@osdl.org>
-Signed-off-by: Linus Torvalds <torvalds@osdl.org>"|8|NeilBrown|neilb@suse.de|2005-11-08 21:39:31-08:00|28800|Linus Torvalds|torvalds@g5.osdl.org|2005-11-09 07:56:38-08:00|28800

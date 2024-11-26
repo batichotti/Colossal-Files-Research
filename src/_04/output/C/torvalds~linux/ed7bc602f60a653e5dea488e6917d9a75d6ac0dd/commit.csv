@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ed7bc602f60a653e5dea488e6917d9a75d6ac0dd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bnxt_en: Pass complete VLAN TCI to the stack.
-
-When receiving a packet with VLAN tag, pass the entire 16-bit TCI to the
-stack when calling __vlan_hwaccel_put_tag().  The current code is only
-passing the 12-bit tag and it is missing the priority bits.
-
-Signed-off-by: Michael Chan <michael.chan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Michael Chan|michael.chan@broadcom.com|2018-03-09 23:46:06-05:00|18000|David S. Miller|davem@davemloft.net|2018-03-12 10:57:45-04:00|14400

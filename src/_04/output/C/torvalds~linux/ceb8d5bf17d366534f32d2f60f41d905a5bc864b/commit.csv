@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ceb8d5bf17d366534f32d2f60f41d905a5bc864b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: Rearrange loop in net_rx_action
-
-This patch rearranges the loop in net_rx_action to reduce the
-amount of jumping back and forth when reading the code.
-
-Signed-off-by: Herbert Xu <herbert@gondor.apana.org.au>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Herbert Xu|herbert@gondor.apana.org.au|2014-12-21 07:16:25+11:00|-39600|David S. Miller|davem@davemloft.net|2014-12-23 23:20:21-05:00|18000

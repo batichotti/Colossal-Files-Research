@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a91f387b4bfedab595a987ad41e75d8839a958bf|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86/mmu: Sync roots after MMU load iff load as successful
-
-For clarity, explicitly skip syncing roots if the MMU load failed
-instead of relying on the !VALID_PAGE check in kvm_mmu_sync_roots().
-
-Signed-off-by: Sean Christopherson <seanjc@google.com>
-Message-Id: <20210305011101.3597423-17-seanjc@google.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Sean Christopherson|seanjc@google.com|2021-03-04 17:11:00-08:00|28800|Paolo Bonzini|pbonzini@redhat.com|2021-03-15 04:42:24-04:00|14400

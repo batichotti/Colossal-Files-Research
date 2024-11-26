@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9225b9734670090d02690d768a15c3d376bdc5e7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wifi: rtw89: phy: move bb_gain_info used by WiFi 6 chips to union
-
-WiFi 7 chips use different bb_gain_info struct, so move existing struct to
-a union in advance. This doesn't change logic at all.
-
-Signed-off-by: Ping-Ke Shih <pkshih@realtek.com>
-Signed-off-by: Kalle Valo <kvalo@kernel.org>
-Link: https://msgid.link/20240105064228.36580-2-pkshih@realtek.com"|5|Ping-Ke Shih|pkshih@realtek.com|2024-01-05 14:42:21+08:00|-28800|Kalle Valo|kvalo@kernel.org|2024-01-10 16:50:56+02:00|-7200

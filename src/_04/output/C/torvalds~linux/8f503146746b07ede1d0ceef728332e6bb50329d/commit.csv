@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8f503146746b07ede1d0ceef728332e6bb50329d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"habanalabs: minimize prints when everything is fine
-
-No need to print when the driver starts to initialize the H/W. Drivers
-should be silent when everything is OK.
-
-Signed-off-by: Oded Gabbay <ogabbay@kernel.org>"|2|Oded Gabbay|ogabbay@kernel.org|2020-10-03 00:14:27+03:00|-10800|Oded Gabbay|ogabbay@kernel.org|2020-11-30 10:47:28+02:00|-7200

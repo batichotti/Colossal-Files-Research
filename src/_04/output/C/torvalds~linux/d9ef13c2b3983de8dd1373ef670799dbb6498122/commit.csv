@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d9ef13c2b3983de8dd1373ef670799dbb6498122|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: pass kvm_memory_slot to gfn_to_page_many_atomic
-
-The memory slot is already available from gfn_to_memslot_dirty_bitmap.
-Isn't it a shame to look it up again?  Plus, it makes gfn_to_page_many_atomic
-agnostic of multiple VCPU address spaces.
-
-Reviewed-by: Radim Krcmar <rkrcmar@redhat.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|3|Paolo Bonzini|pbonzini@redhat.com|2015-05-19 16:01:50+02:00|-7200|Paolo Bonzini|pbonzini@redhat.com|2015-05-28 10:43:33+02:00|-7200

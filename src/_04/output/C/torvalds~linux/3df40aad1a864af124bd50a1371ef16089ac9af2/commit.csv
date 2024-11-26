@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3df40aad1a864af124bd50a1371ef16089ac9af2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"be2net: Fix HW stall issue in Lancer
-
-Lancer HW cannot handle a TSO packet with a single segment.
-Disable TSO/GSO for such packets.
-
-Signed-off-by: Suresh Reddy <suresh.reddy@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Suresh Reddy|suresh.reddy@broadcom.com|2018-02-06 08:52:41-05:00|18000|David S. Miller|davem@davemloft.net|2018-02-06 11:48:17-05:00|18000

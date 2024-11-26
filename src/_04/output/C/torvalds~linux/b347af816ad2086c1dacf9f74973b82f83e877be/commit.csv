@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b347af816ad2086c1dacf9f74973b82f83e877be|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md: do not count journal as spare in GET_ARRAY_INFO
-
-GET_ARRAY_INFO counts journal as spare (spare_disks), which is not
-accurate. This patch fixes this.
-
-Reported-by: Yi Zhang <yizhan@redhat.com>
-Signed-off-by: Song Liu <songliubraving@fb.com>
-Signed-off-by: Shaohua Li <shli@fb.com>"|1|Song Liu|songliubraving@fb.com|2016-08-11 17:14:45-07:00|25200|Shaohua Li|shli@fb.com|2016-08-16 18:34:15-07:00|25200

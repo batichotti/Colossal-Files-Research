@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|babddc72a9468884ce1a23db3c3d54b0afa299f0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS: decode_dirent should use an xdr_stream
-
-Convert nfs*xdr.c to use an xdr stream in decode_dirent.  This will prevent a
-kernel oops that has been occuring when reading a vmapped page.
-
-Signed-off-by: Bryan Schumaker <bjschuma@netapp.com>
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|7|Bryan Schumaker|bjschuma@netapp.com|2010-10-20 15:44:29-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2010-10-23 15:27:33-04:00|14400

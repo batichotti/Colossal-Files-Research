@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|73cf8085dc09442f17f32972d3cdec7232f1be55|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cifs: simplify code by removing CONFIG_CIFS_ACL ifdef
-
-SMB3 ACL support is needed for many use cases now and should not be
-ifdeffed out, even for SMB1 (CIFS).  Remove the CONFIG_CIFS_ACL
-ifdef so ACL support is always built into cifs.ko
-
-Signed-off-by: Steve French <stfrench@microsoft.com>"|10|Steve French|stfrench@microsoft.com|2019-06-24 01:44:11-05:00|18000|Steve French|stfrench@microsoft.com|2019-07-07 22:37:43-05:00|18000

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d2f3a7f9187b0c6a64276d598cd6157437c5a336|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfs: move nfs4 lock retry attempt loop to a separate function
-
-This also consolidates the waiting logic into a single function,
-instead of having it spread across two like it is now.
-
-Signed-off-by: Jeff Layton <jlayton@redhat.com>
-Signed-off-by: Anna Schumaker <Anna.Schumaker@Netapp.com>"|1|Jeff Layton|jlayton@redhat.com|2016-09-17 18:17:38-04:00|14400|Anna Schumaker|Anna.Schumaker@Netapp.com|2016-09-22 13:56:04-04:00|14400

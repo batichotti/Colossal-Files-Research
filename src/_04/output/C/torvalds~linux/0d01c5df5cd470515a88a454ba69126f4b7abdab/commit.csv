@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0d01c5df5cd470515a88a454ba69126f4b7abdab|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi_debug: add Capacity Changed Unit Attention
-
-Via sysfs the virtual_gb scsi_debug parameter can be changed while
-LUs are in use. If that changes, the 'Capacity data has changed'
-Unit Attention is queued on all LUs.
-
-Signed-off-by: Douglas Gilbert <dgilbert@interlog.com>
-Signed-off-by: Christoph Hellwig <hch@lst.de>"|1|Douglas Gilbert|dgilbert@interlog.com|2014-11-24 20:27:51-05:00|18000|Christoph Hellwig|hch@lst.de|2014-11-25 15:42:56+01:00|-3600

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c366f555b8df67633b849a5088bb897d6c63aaa5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Move discoverable timeout behind hdev->req_workqueue
-
-Since the other discoverable changes are behind req_workqueue now it
-only makes sense to move the discoverable timeout there as well.
-
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|4|Johan Hedberg|johan.hedberg@intel.com|2015-11-23 15:43:06+02:00|-7200|Marcel Holtmann|marcel@holtmann.org|2015-12-10 00:51:48+01:00|-3600

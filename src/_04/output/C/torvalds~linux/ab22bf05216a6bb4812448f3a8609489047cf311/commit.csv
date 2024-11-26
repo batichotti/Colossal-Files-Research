@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ab22bf05216a6bb4812448f3a8609489047cf311|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"RDMA/hns: Fix the state of rereg mr
-
-The state of mr after reregister operation should be set to valid
-state. Otherwise, it will keep the same as the state before reregistered.
-
-Signed-off-by: Yixian Liu <liuyixian@huawei.com>
-Signed-off-by: Jason Gunthorpe <jgg@mellanox.com>"|1|Yixian Liu|liuyixian@huawei.com|2019-02-03 16:13:04+08:00|-28800|Jason Gunthorpe|jgg@mellanox.com|2019-02-14 13:20:18-07:00|25200

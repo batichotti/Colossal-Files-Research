@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b08b12d2ddc85b977a0531470cf6a7158289aaaf|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: fix incorrect free inode count in ->statfs
-
-While calculating inode count that we can create at most in the left space,
-we should consider space which data/node blocks occupied, since we create
-data/node mixly in main area. So fix the wrong calculation in ->statfs.
-
-Signed-off-by: Chao Yu <yuchao0@huawei.com>
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|1|Chao Yu|yuchao0@huawei.com|2016-11-18 22:27:41+08:00|-28800|Jaegeuk Kim|jaegeuk@kernel.org|2016-11-25 10:16:07-08:00|28800

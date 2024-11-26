@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b21a3424877a4d5ca91a6d446ed581a2bd03160c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bnx2x: Common init will be executed only once after POR
-
-Common init used to be called by the driver when the first port comes up, mainly to reset and reload external PHY microcode.
-However, in case management driver is active on the other port, traffic would halted. So limit the common init to be done only once after POR.
-
-Signed-off-by: Yaniv Rosner <yanivr@broadcom.com>
-Signed-off-by: Eilon Greenstein <eilong@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Yaniv Rosner|yanivr@broadcom.com|2011-01-18 04:33:24+00:00|0|David S. Miller|davem@davemloft.net|2011-01-18 16:10:36-08:00|28800

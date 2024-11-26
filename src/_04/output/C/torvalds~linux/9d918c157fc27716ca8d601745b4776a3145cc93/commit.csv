@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9d918c157fc27716ca8d601745b4776a3145cc93|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Handle error to get connector state when staging config
-
-The return value of one of the calls to drm_atomic_get_connector_state()
-in intel_modeset_stage_output_state() wasn't checked for errors.
-
-Reported-by: Dan Carpenter <dan.carpenter@oracle.com>
-Signed-off-by: Ander Conselvan de Oliveira <ander.conselvan.de.oliveira@intel.com>
-Signed-off-by: Daniel Vetter <daniel.vetter@ffwll.ch>"|1|Ander Conselvan de Oliveira|ander.conselvan.de.oliveira@intel.com|2015-03-27 15:33:51+02:00|-7200|Daniel Vetter|daniel.vetter@ffwll.ch|2015-03-27 15:06:52+01:00|-3600

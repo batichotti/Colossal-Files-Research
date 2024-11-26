@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|51b1c7e19e18e84a44277951dd5c4c4617330baa|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] ipr: Faster sg list fetch
-
-Improve overall command performance by embedding the scatterlist
-in the command block used by the adapter. This decreases
-the overall number of DMAs required for a single command.
-
-Signed-off-by: Brian King <brking@linux.vnet.ibm.com>
-Signed-off-by: James Bottomley <James.Bottomley@SteelEye.com>"|2|Brian King|brking@linux.vnet.ibm.com|2007-03-29 12:43:50-05:00|18000|James Bottomley|jejb@mulgrave.il.steeleye.com|2007-04-01 11:19:12-05:00|18000

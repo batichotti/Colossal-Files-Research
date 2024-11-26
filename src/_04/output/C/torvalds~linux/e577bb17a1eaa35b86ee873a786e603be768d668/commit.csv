@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e577bb17a1eaa35b86ee873a786e603be768d668|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"perf/x86/intel: Move the topdown stuff into the intel driver
-
-Use the new x86_pmu::{set_period,update}() methods to push the topdown
-stuff into the Intel driver, where it belongs.
-
-Signed-off-by: Peter Zijlstra (Intel) <peterz@infradead.org>
-Link: https://lkml.kernel.org/r/20220829101321.505933457@infradead.org"|2|Peter Zijlstra|peterz@infradead.org|2022-05-10 21:28:06+02:00|-7200|Peter Zijlstra|peterz@infradead.org|2022-09-07 21:54:02+02:00|-7200

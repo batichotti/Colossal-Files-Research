@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|812e737e29a1d559e7bfbea675fdcfcbad9f5e1f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Fix drop of acked packets on ERTM
-
-l2cap_drop_acked_frames() was droping not sent packets, causing them to
-be not transmitted.
-
-Signed-off-by: Gustavo F. Padovan <padovan@profusion.mobi>
-Reviewed-by: João Paulo Rechi Vita <jprvita@profusion.mobi>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|1|Gustavo F. Padovan|padovan@profusion.mobi|2010-05-01 16:15:42-03:00|10800|Marcel Holtmann|marcel@holtmann.org|2010-05-10 09:28:50+02:00|-7200

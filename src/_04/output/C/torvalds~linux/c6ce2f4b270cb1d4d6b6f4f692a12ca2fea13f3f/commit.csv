@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c6ce2f4b270cb1d4d6b6f4f692a12ca2fea13f3f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"be2net: Fix CSO for UDP packets
-
-We're setting skb->ip_summed to CHECKSUM_NONE for all non-TCP pkts, making the stack
-recompute checksum.This is a bug for UDP pkts for which cso must be used.
-
-Signed-off-by: Somnath Kotur <somnath.kotur@emulex.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Somnath Kotur|somnath.kotur@emulex.com|2010-10-25 01:11:58+00:00|0|David S. Miller|davem@davemloft.net|2010-10-25 12:14:10-07:00|25200

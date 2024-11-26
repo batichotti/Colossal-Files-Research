@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b1ea50b2b63a95aa5a7944b48ba4d0e9b32211d3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86 emulator: expand decode flags to 64 bits
-
-Unifiying the operands means not taking advantage of the fact that some
-operand types can only go into certain operands (for example, DI can only
-be used by the destination), so we need more bits to hold the operand type.
-
-Signed-off-by: Avi Kivity <avi@redhat.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|2|Avi Kivity|avi@redhat.com|2011-09-13 10:45:42+03:00|-10800|Avi Kivity|avi@redhat.com|2011-09-25 19:52:49+03:00|-10800

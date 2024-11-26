@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c845f9c646e646e6a5fe416c2e835342984249f7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: vmx: we do rely on loading DR7 on entry
-
-Currently, this works even if the bit is not in ""min"", because the bit is always
-set in MSR_IA32_VMX_ENTRY_CTLS.  Mention it for the sake of documentation, and
-to avoid surprises if we later switch to MSR_IA32_VMX_TRUE_ENTRY_CTLS.
-
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Paolo Bonzini|pbonzini@redhat.com|2014-02-21 10:55:44+01:00|-3600|Paolo Bonzini|pbonzini@redhat.com|2014-03-11 10:46:01+01:00|-3600

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|533558bcb69ef28aff81b6ae9acda8943575319f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: nVMX: Pass vmexit parameters to nested_vmx_vmexit
-
-Instead of fixing up the vmcs12 after the nested vmexit, pass key
-parameters already when calling nested_vmx_vmexit. This will help
-tracing those vmexits.
-
-Signed-off-by: Jan Kiszka <jan.kiszka@siemens.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Jan Kiszka|jan.kiszka@siemens.com|2014-01-04 18:47:20+01:00|-3600|Paolo Bonzini|pbonzini@redhat.com|2014-01-17 10:22:14+01:00|-3600

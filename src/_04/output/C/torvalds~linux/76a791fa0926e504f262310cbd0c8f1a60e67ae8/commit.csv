@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|76a791fa0926e504f262310cbd0c8f1a60e67ae8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915/dp: Make read-only array bw_gbps static const
-
-Don't populate the read-only array bw_gbps on the stack at run time,
-instead make it static const.
-
-Signed-off-by: Colin Ian King <colin.i.king@gmail.com>
-Signed-off-by: Jani Nikula <jani.nikula@intel.com>
-Link: https://patchwork.freedesktop.org/patch/msgid/20240722153937.574819-1-colin.i.king@gmail.com"|1|Colin Ian King|colin.i.king@gmail.com|2024-07-22 16:39:37+01:00|-3600|Jani Nikula|jani.nikula@intel.com|2024-07-24 12:41:47+03:00|-10800

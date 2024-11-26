@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b97109790c1fcbe6b5da21c441ba336cf1ab9a3c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Add support for mode 0x02 for mgmt_set_debug_keys
-
-This patch adds a new valid mode 0x02 for the mgmt_set_debug_keys
-command. The 0x02 mode sets the HCI_USE_DEBUG_KEYS flag which makes us
-always use debug keys for pairing.
-
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|1|Johan Hedberg|johan.hedberg@intel.com|2014-06-24 14:00:28+03:00|-10800|Marcel Holtmann|marcel@holtmann.org|2014-07-03 17:42:46+02:00|-7200

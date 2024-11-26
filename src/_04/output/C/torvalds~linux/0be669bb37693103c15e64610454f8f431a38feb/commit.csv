@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0be669bb37693103c15e64610454f8f431a38feb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[IPV6]: Seperate sit driver to extra module (addrconf.c changes)
-
-This patch contains the changes to net/ipv6/addrconf.c to remove sit
-specific code if the sit driver is not selected.
-
-Signed-off-by: Joerg Roedel <joro-lkml@zlug.org>
-Signed-off-by: YOSHIFUJI Hideaki <yoshfuji@linux-ipv6.org>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Joerg Roedel|joro-lkml@zlug.org|2006-10-10 14:49:53-07:00|25200|David S. Miller|davem@sunset.davemloft.net|2006-10-11 23:59:52-07:00|25200

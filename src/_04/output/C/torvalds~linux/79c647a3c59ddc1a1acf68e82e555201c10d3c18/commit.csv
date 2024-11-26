@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|79c647a3c59ddc1a1acf68e82e555201c10d3c18|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ath11k: Fixing TLV length issue in peer pktlog WMI command
-
-TLV length was 0 for TLV tag 'WMI_TAG_ARRAY_STRUCT' causing
-Q6 to crash when trying to configure pktlog filter via debugfs.
-
-Signed-off-by: Vikas Patel <vikpatel@codeaurora.org>
-Signed-off-by: Kalle Valo <kvalo@codeaurora.org>"|1|Vikas Patel|vikpatel@codeaurora.org|2019-11-27 18:30:07+02:00|-7200|Kalle Valo|kvalo@codeaurora.org|2019-11-29 09:36:09+02:00|-7200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|541ac7c9b30ee2ff84ad87f27e0bc069e143afb5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bonding: COW before overwriting the destination MAC address
-
-When there is a ptype handler holding a clone of this skb, whose
-destination MAC addresse is overwritten, the owner of this handler may
-get a corrupted packet.
-
-Signed-off-by: Changli Gao <xiaosuo@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Changli Gao|xiaosuo@gmail.com|2011-03-02 21:07:14+00:00|0|David S. Miller|davem@davemloft.net|2011-03-07 15:45:08-08:00|28800

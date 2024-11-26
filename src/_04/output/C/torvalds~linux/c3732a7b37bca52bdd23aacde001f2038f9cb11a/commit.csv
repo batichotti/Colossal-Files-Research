@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c3732a7b37bca52bdd23aacde001f2038f9cb11a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: fix AP buffered multicast frames with queue control and txq
-
-Buffered multicast frames must be passed to the driver directly via
-drv_tx instead of going through the txq, otherwise they cannot easily be
-scheduled to be sent after DTIM.
-
-Signed-off-by: Felix Fietkau <nbd@openwrt.org>
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Felix Fietkau|nbd@openwrt.org|2016-02-28 15:19:53+01:00|-3600|Johannes Berg|johannes.berg@intel.com|2016-04-05 10:50:17+02:00|-7200

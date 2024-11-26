@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e032b376551a61662b20a2c8544fbbc568ab2e7f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"regulator: Fix deadlock on removal of regulators with supplies
-
-If a regulator with a supply is being unregistered we will call
-regulator_put() to release the supply with the regulator_list_mutex held
-but this deadlocks as regulator_put() takes the same lock. Fix this by
-releasing the supply before we take the mutex in regulator_unregister().
-
-Signed-off-by: Mark Brown <broonie@opensource.wolfsonmicro.com>"|1|Mark Brown|broonie@opensource.wolfsonmicro.com|2012-03-28 21:17:55+01:00|-3600|Mark Brown|broonie@opensource.wolfsonmicro.com|2012-03-29 22:50:14+01:00|-3600

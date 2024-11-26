@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2e72448b07dc3ff1b7593e9bfff91db182262857|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS: Add COPY nfs operation
-
-This adds the copy_range file_ops function pointer used by the
-sys_copy_range() function call.  This patch only implements sync copies,
-so if an async copy happens we decode the stateid and ignore it.
-
-Signed-off-by: Anna Schumaker <bjschuma@netapp.com>"|9|Anna Schumaker|Anna.Schumaker@netapp.com|2013-05-21 16:53:03-04:00|14400|Anna Schumaker|Anna.Schumaker@Netapp.com|2016-05-17 15:47:55-04:00|14400

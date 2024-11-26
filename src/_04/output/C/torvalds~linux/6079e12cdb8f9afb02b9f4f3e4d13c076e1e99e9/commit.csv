@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6079e12cdb8f9afb02b9f4f3e4d13c076e1e99e9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: use raid_attr table to find profiles for integrity lowering
-
-Replace open coded list of the profiles by selecting them from the
-raid_attr table. The criteria are now more explicit, we need profiles
-that have more than 1 copy of the data or can reconstruct the data with
-a missing device.
-
-Signed-off-by: David Sterba <dsterba@suse.com>"|1|David Sterba|dsterba@suse.com|2019-05-17 11:43:29+02:00|-7200|David Sterba|dsterba@suse.com|2019-07-01 13:34:57+02:00|-7200

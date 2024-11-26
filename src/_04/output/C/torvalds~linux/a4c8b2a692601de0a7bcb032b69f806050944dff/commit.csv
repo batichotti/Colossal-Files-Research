@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a4c8b2a692601de0a7bcb032b69f806050944dff|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"iwlwifi: move ICT data to agn part of union
-
-Since the ICT data is all AGN specific, it can
-be the first data to create the _agn part of the
-device-specific union in the priv struct.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>
-Signed-off-by: Reinette Chatre <reinette.chatre@intel.com>"|3|Johannes Berg|johannes.berg@intel.com|2010-01-21 06:25:54-08:00|28800|Reinette Chatre|reinette.chatre@intel.com|2010-03-09 16:03:37-08:00|28800

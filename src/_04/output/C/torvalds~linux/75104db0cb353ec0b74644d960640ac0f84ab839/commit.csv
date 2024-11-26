@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|75104db0cb353ec0b74644d960640ac0f84ab839|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"dsa: Remove phydev parameter from disable_port call
-
-No current DSA driver makes use of the phydev parameter passed to the
-disable_port call. Remove it.
-
-Signed-off-by: Andrew Lunn <andrew@lunn.ch>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|16|Andrew Lunn|andrew@lunn.ch|2019-02-24 20:44:43+01:00|-3600|David S. Miller|davem@davemloft.net|2019-02-24 22:30:34-08:00|28800

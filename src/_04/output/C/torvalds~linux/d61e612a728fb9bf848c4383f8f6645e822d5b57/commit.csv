@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d61e612a728fb9bf848c4383f8f6645e822d5b57|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv41: Clean up slot table management
-
-We no longer need to maintain a distinction between nfs41_sequence_done and
-nfs41_sequence_free_slot.
-
-This fixes a number of slot table leakages in the NFSv4.1 code.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|5|Trond Myklebust|Trond.Myklebust@netapp.com|2009-12-05 19:32:19-05:00|18000|Trond Myklebust|Trond.Myklebust@netapp.com|2009-12-05 19:32:19-05:00|18000

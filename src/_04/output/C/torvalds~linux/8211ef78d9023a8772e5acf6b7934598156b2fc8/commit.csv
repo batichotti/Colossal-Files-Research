@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8211ef78d9023a8772e5acf6b7934598156b2fc8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"iwlwifi: refactor init geos function
-
-This patch refactors init geos function. It also fixes few minor bugs.
-IWL_MAX_RATE -> IWL_RATE_COUNT (IWL_MAX_RATE included also MCS setting)
-There are 9 and 13 rates for 4965 in 2.4 and 5.2 respectively  (rate 60)
-
-Signed-off-by: Tomas Winkler <tomas.winkler@intel.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|5|Tomas Winkler|tomas.winkler@intel.com|2008-03-02 01:36:04+02:00|-7200|John W. Linville|linville@tuxdriver.com|2008-03-06 17:09:45-05:00|18000

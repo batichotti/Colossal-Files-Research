@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|51a8efd7d02c13cb1c6fdd1cd66788792a3fcc7c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Rename conn->pend to conn->flags
-
-These flags can and will be used for more general purpose values than
-just pending state transitions so the more common name ""flags"" makes
-more sense than ""pend"".
-
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>
-Acked-by: Marcel Holtmann <marcel@holtmann.org>"|5|Johan Hedberg|johan.hedberg@intel.com|2012-01-16 06:10:31+02:00|-7200|Johan Hedberg|johan.hedberg@intel.com|2012-02-13 17:01:28+02:00|-7200

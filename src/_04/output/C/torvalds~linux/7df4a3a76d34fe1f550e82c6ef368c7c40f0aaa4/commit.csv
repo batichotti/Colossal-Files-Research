@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7df4a3a76d34fe1f550e82c6ef368c7c40f0aaa4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: stmmac: Fix the TX IOC in xmit path
-
-IOC bit must be only set in the last descriptor. Move the logic up a
-little bit to make sure it's set in the correct descriptor.
-
-Signed-off-by: Jose Abreu <Jose.Abreu@synopsys.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Jose Abreu|Jose.Abreu@synopsys.com|2019-11-06 16:03:05+01:00|-3600|David S. Miller|davem@davemloft.net|2019-11-06 21:22:55-08:00|28800

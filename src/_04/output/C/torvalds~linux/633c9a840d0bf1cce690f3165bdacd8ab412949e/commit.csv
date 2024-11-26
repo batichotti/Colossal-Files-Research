@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|633c9a840d0bf1cce690f3165bdacd8ab412949e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nfnetlink: avoid recurrent netns lookups in call_batch
-
-Pass the net pointer to the call_batch callback functions so we can skip
-recurrent lookups.
-
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>
-Tested-by: Arturo Borrero Gonzalez <arturo.borrero.glez@gmail.com>"|3|Pablo Neira Ayuso|pablo@netfilter.org|2015-12-09 12:08:26+01:00|-3600|Pablo Neira Ayuso|pablo@netfilter.org|2015-12-10 13:49:24+01:00|-3600

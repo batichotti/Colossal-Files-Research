@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|25c307acc8203fc8b20bcb3f5029b149ce754bbf|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSD: Clean up nfsd4_encode_readdir()
-
-Untangle nfsd4_encode_readdir() so it is more clear what XDR data
-item is being encoded by which piece of code.
-
-Reviewed-by: Jeff Layton <jlayton@kernel.org>
-Signed-off-by: Chuck Lever <chuck.lever@oracle.com>"|1|Chuck Lever|chuck.lever@oracle.com|2023-10-04 09:42:10-04:00|14400|Chuck Lever|chuck.lever@oracle.com|2023-10-16 12:44:35-04:00|14400

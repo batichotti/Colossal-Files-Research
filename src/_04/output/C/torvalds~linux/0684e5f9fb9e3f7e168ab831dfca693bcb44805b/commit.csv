@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0684e5f9fb9e3f7e168ab831dfca693bcb44805b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Use general bonding whenever possible
-
-When receiving incoming connection to specific services, always use
-general bonding. This ensures that the link key gets stored and can be
-used for further authentications.
-
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|4|Marcel Holtmann|marcel@holtmann.org|2009-02-09 02:48:38+01:00|-3600|Marcel Holtmann|marcel@holtmann.org|2009-02-27 06:14:40+01:00|-3600

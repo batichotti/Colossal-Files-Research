@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|02b71b70129aaaa38f280af2aa5a767a4dec9107|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"slub: fixed uninitialized counter in struct kmem_cache_node
-
-Initialized total objects atomic for the node in init_kmem_cache_node.  The
-uninitialized value was ruining the stats in /proc/slabinfo.
-
-Acked-by: Christoph Lameter <cl@linux-foundation.org>
-Signed-off-by: Salman Qazi <sqazi@google.com>
-Signed-off-by: Pekka Enberg <penberg@cs.helsinki.fi>"|1|Salman Qazi|sqazi@google.com|2008-09-11 12:25:41-07:00|25200|Pekka Enberg|penberg@cs.helsinki.fi|2008-09-15 09:49:05+03:00|-10800

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ae79dbf60905a09a5cca63c02300b2a0f1befbad|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ipv6/addrconf: use a boolean to choose between UNREGISTER/DOWN
-
-""how"" was used as a boolean. Change the type to bool, and improve
-variable name
-
-Signed-off-by: Florent Fourcot <florent.fourcot@wifirst.fr>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Florent Fourcot|florent.fourcot@wifirst.fr|2020-07-31 15:32:07+02:00|-7200|David S. Miller|davem@davemloft.net|2020-08-03 15:24:14-07:00|25200

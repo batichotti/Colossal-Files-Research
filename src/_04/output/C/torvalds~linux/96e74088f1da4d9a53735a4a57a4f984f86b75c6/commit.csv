@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|96e74088f1da4d9a53735a4a57a4f984f86b75c6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: The dev->get_stats pointer is not NULL nowadays.
-
-And so does the pointer is returns, but sysfs and netlinks still 
-check for both cases.
-
-Signed-off-by: Pavel Emelyanov <xemul@openvz.org>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Pavel Emelyanov|xemul@openvz.org|2008-05-21 14:12:46-07:00|25200|David S. Miller|davem@davemloft.net|2008-05-21 14:12:46-07:00|25200

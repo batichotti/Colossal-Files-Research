@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|48dae9cf3f95acc4bd51b2324e10f8fd5c302be8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: introduce free_device helper
-
-A helper to free a device and all it's dynamically allocated members,
-like the rcu_string name or flush_bio. This is going to replace all
-open coded places.
-
-Signed-off-by: David Sterba <dsterba@suse.com>"|1|David Sterba|dsterba@suse.com|2017-10-30 18:10:25+01:00|-3600|David Sterba|dsterba@suse.com|2018-01-22 16:08:11+01:00|-3600

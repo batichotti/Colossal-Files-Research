@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d81a6d71760c4d8323f1f9a506c64084caa09063|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sound: Add export.h for THIS_MODULE/EXPORT_SYMBOL where needed
-
-These aren't modules, but they do make use of these macros, so
-they will need export.h to get that definition.  Previously,
-they got it via the implicit module.h inclusion.
-
-Signed-off-by: Paul Gortmaker <paul.gortmaker@windriver.com>"|45|Paul Gortmaker|paul.gortmaker@windriver.com|2011-09-22 09:34:58-04:00|14400|Paul Gortmaker|paul.gortmaker@windriver.com|2011-10-31 19:31:22-04:00|14400

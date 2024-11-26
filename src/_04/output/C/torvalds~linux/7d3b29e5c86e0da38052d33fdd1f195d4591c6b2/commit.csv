@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7d3b29e5c86e0da38052d33fdd1f195d4591c6b2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wlcore/wl18xx: handle rc updates in a separate work
-
-sta_rc_update runs in atomic context. thus, a new work
-should be scheduled in order to configure the fw
-with the required configuration.
-
-Signed-off-by: Eliad Peller <eliad@wizery.com>
-Signed-off-by: Kalle Valo <kvalo@codeaurora.org>"|5|Eliad Peller|eliad@wizery.com|2014-12-29 08:24:03+02:00|-7200|Kalle Valo|kvalo@codeaurora.org|2015-01-09 15:47:52+02:00|-7200

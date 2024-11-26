@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6b79a428c02769f2a11f8ae76bf866226d134887|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"dm integrity: call kmem_cache_destroy() in dm_integrity_init() error path
-
-Otherwise the journal_io_cache will leak if dm_register_target() fails.
-
-Cc: stable@vger.kernel.org
-Signed-off-by: Mike Snitzer <snitzer@kernel.org>"|1|Mike Snitzer|snitzer@kernel.org|2023-04-04 13:34:28-04:00|14400|Mike Snitzer|snitzer@kernel.org|2023-04-04 13:39:25-04:00|14400

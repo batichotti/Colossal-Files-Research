@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8a78362c4eefc1deddbefe2c7f38aabbc2429d6b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"block: Consolidate phys_segment and hw_segment limits
-
-Except for SCSI no device drivers distinguish between physical and
-hardware segment limits.  Consolidate the two into a single segment
-limit.
-
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>
-Signed-off-by: Jens Axboe <jens.axboe@oracle.com>"|35|Martin K. Petersen|martin.petersen@oracle.com|2010-02-26 00:20:39-05:00|18000|Jens Axboe|jens.axboe@oracle.com|2010-02-26 13:58:08+01:00|-3600

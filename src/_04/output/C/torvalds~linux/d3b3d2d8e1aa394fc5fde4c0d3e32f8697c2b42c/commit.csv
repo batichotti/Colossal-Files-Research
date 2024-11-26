@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d3b3d2d8e1aa394fc5fde4c0d3e32f8697c2b42c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"dlm: remove unnecessary refcounts
-
-This patch removes unnecessary refcounts that are obviously not
-necessary because either when the pointer is passed as parameter or it
-is part of a list we should already hold a reference to it.
-
-Signed-off-by: Alexander Aring <aahringo@redhat.com>
-Signed-off-by: David Teigland <teigland@redhat.com>"|1|Alexander Aring|aahringo@redhat.com|2024-08-02 13:26:39-04:00|14400|David Teigland|teigland@redhat.com|2024-08-08 15:14:42-05:00|18000

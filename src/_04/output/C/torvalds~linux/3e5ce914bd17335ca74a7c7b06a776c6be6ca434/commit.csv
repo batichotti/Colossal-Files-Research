@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3e5ce914bd17335ca74a7c7b06a776c6be6ca434|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ACPI: thinkpad-acpi: fix regression on HKEY LID event handling
-
-We were letting ThinkPad-specific LID events through to userspace again,
-instead of dropping them.  Fix it.  We don't want to give userspace the
-option of not using generic LID handling.
-
-Signed-off-by: Henrique de Moraes Holschuh <hmh@hmh.eng.br>
-Signed-off-by: Len Brown <len.brown@intel.com>"|1|Henrique de Moraes Holschuh|hmh@hmh.eng.br|2007-09-23 11:39:05-03:00|10800|Len Brown|len.brown@intel.com|2007-09-23 22:38:15-04:00|14400

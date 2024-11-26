@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5f3f302a6f4cb74906c05fad1d03fc5e95c7e5af|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: false BUG_ON when degraded
-
-In degraded mode the struct btrfs_device of missing devs don't have
-device->name set. A kstrdup of NULL correctly returns NULL. Don't
-BUG in this case.
-
-Signed-off-by: Arne Jansen <sensille@gmx.net>
-Signed-off-by: Chris Mason <chris.mason@oracle.com>"|1|Arne Jansen|sensille@gmx.net|2011-05-30 08:36:16+00:00|0|Chris Mason|chris.mason@oracle.com|2011-06-04 08:03:44-04:00|14400

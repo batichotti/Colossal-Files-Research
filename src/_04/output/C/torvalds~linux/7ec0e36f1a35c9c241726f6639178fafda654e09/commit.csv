@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7ec0e36f1a35c9c241726f6639178fafda654e09|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd: add a forget_clients ""get"" routine with proper locking
-
-Add a new ""get"" routine for forget_clients that relies on the
-client_lock instead of the client_mutex.
-
-Signed-off-by: Jeff Layton <jlayton@primarydata.com>
-Signed-off-by: J. Bruce Fields <bfields@redhat.com>"|3|Jeff Layton|jlayton@primarydata.com|2014-07-30 08:27:17-04:00|14400|J. Bruce Fields|bfields@redhat.com|2014-08-05 10:55:04-04:00|14400

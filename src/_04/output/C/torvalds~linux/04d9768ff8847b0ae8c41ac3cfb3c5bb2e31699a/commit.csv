@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|04d9768ff8847b0ae8c41ac3cfb3c5bb2e31699a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] ipr: Stop issuing cancel all to disk arrays
-
-The ipr disk array devices do not support a cancel all
-requests primitive, so change the ipr driver to never
-send it.
-
-Signed-off-by: James Bottomley <James.Bottomley@SteelEye.com>"|1|Brian King|brking@us.ibm.com|2006-11-21 10:28:04-06:00|21600|James Bottomley|jejb@mulgrave.il.steeleye.com|2006-11-22 12:20:08-06:00|21600

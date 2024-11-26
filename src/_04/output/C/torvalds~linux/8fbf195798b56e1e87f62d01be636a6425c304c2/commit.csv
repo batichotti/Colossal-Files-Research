@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8fbf195798b56e1e87f62d01be636a6425c304c2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tcp: add drop reason support to tcp_ofo_queue()
-
-packets in OFO queue might be redundant, and dropped.
-
-tcp_drop() is no longer needed.
-
-Signed-off-by: Eric Dumazet <edumazet@google.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|Eric Dumazet|edumazet@google.com|2022-04-15 17:10:48-07:00|25200|David S. Miller|davem@davemloft.net|2022-04-17 13:31:32+01:00|-3600

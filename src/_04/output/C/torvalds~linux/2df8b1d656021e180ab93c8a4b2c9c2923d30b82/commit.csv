@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2df8b1d656021e180ab93c8a4b2c9c2923d30b82|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"lockdep: use WARN() in kernel/lockdep.c
-
-Use WARN() instead of a printk+WARN_ON() pair; this way the message
-becomes part of the warning section for better reporting/collection.
-
-Signed-off-by: Arjan van de Ven <arjan@linux.intel.com>
-Signed-off-by: Ingo Molnar <mingo@elte.hu>
-Signed-off-by: Andrew Morton <akpm@linux-foundation.org>"|1|Arjan van de Ven|arjan@linux.intel.com|2008-07-30 12:43:11-07:00|25200|Ingo Molnar|mingo@elte.hu|2008-08-13 19:06:46+02:00|-7200

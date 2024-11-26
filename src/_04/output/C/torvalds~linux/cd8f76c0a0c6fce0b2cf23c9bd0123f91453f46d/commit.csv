@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cd8f76c0a0c6fce0b2cf23c9bd0123f91453f46d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"be2net: fix a race in be_xmit()
-
-As soon as hardware is notified of a transmit, we no longer can assume
-skb can be dereferenced, as TX completion might have freed the packet.
-
-Signed-off-by: Eric Dumazet <edumazet@google.com>
-Cc: Sathya Perla <sathya.perla@emulex.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Eric Dumazet|edumazet@google.com|2012-06-07 22:59:59+00:00|0|David S. Miller|davem@davemloft.net|2012-06-08 14:44:19-07:00|25200

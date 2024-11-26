@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0094de92a4f1da3a845ccc4ecb12ec0db8e48997|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"slub: make early_kmem_cache_node_alloc void
-
-The return value for early_kmem_cache_node_alloc() is unused, so it is
-better defined as void.
-
-Acked-by: Christoph Lameter <cl@linux-foundation.org>
-Signed-off-by: David Rientjes <rientjes@google.com>
-Signed-off-by: Pekka Enberg <penberg@cs.helsinki.fi>"|1|David Rientjes|rientjes@google.com|2008-11-25 19:14:19-08:00|28800|Pekka Enberg|penberg@cs.helsinki.fi|2008-11-26 16:47:26+02:00|-7200

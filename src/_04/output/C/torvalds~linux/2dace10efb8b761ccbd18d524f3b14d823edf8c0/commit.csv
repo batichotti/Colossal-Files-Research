@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2dace10efb8b761ccbd18d524f3b14d823edf8c0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: clean up BA session teardown
-
-The sta_info pointer can very well be passed to
-ieee80211_sta_tear_down_BA_sessions, this will
-later allow us to pass it through even further.
-
-Signed-off-by: Johannes Berg <johannes@sipsolutions.net>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|4|Johannes Berg|johannes@sipsolutions.net|2009-02-10 21:25:52+01:00|-3600|John W. Linville|linville@tuxdriver.com|2009-02-13 13:45:44-05:00|18000

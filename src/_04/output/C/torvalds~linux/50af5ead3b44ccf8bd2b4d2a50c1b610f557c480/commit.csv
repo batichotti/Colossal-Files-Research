@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|50af5ead3b44ccf8bd2b4d2a50c1b610f557c480|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bug.h: add include of it to various implicit C users
-
-With bug.h currently living right in linux/kernel.h there
-are files that use BUG_ON and friends but are not including
-the header explicitly.  Fix them up so we can remove the
-presence in kernel.h file.
-
-Signed-off-by: Paul Gortmaker <paul.gortmaker@windriver.com>"|21|Paul Gortmaker|paul.gortmaker@windriver.com|2012-01-20 18:35:53-05:00|18000|Paul Gortmaker|paul.gortmaker@windriver.com|2012-02-29 17:15:08-05:00|18000

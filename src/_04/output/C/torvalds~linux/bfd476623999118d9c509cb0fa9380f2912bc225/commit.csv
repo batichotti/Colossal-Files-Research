@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bfd476623999118d9c509cb0fa9380f2912bc225|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: clean up w/ sbi->log_sectors_per_block
-
-Use sbi->log_sectors_per_block to clean up below calculated one:
-
-unsigned int log_sectors_per_block = sbi->log_blocksize - SECTOR_SHIFT;
-
-Signed-off-by: Chao Yu <chao@kernel.org>
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|1|Chao Yu|chao@kernel.org|2023-05-23 20:35:21+08:00|-28800|Jaegeuk Kim|jaegeuk@kernel.org|2023-06-12 13:04:08-07:00|25200

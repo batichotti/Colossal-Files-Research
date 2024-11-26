@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|614e389f36a9d709469a74508d76c5df5141149a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rtl8xxxu: gen1: Set aggregation timeout (REG_RXDMA_AGG_PG_TH + 1) as well
-
-gen2 chips as well as 8188eu seems to use this register for setting
-DMA timeout threshold values, however the 8192cu is using
-REG_USB_DMA_AGG_TO. Set both to be on the safe side.
-
-Signed-off-by: Jes Sorensen <Jes.Sorensen@redhat.com>
-Signed-off-by: Kalle Valo <kvalo@codeaurora.org>"|1|Jes Sorensen|Jes.Sorensen@redhat.com|2016-06-27 12:32:09-04:00|14400|Kalle Valo|kvalo@codeaurora.org|2016-07-08 16:41:58+03:00|-10800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3855ad9f398de88a3290f7dd799633c4b73903ea|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[PATCH] md: make sure a user-request sync of raid5 ignores intent bitmap
-
-A sync of raid5 usually ignore blocks which the bitmap says are in-sync.  But
-a user-request check or repair should not ignore these.
-
-Signed-off-by: Neil Brown <neilb@suse.de>
-Signed-off-by: Andrew Morton <akpm@osdl.org>
-Signed-off-by: Linus Torvalds <torvalds@osdl.org>"|1|NeilBrown|neilb@suse.de|2005-11-08 21:39:38-08:00|28800|Linus Torvalds|torvalds@g5.osdl.org|2005-11-09 07:56:39-08:00|28800

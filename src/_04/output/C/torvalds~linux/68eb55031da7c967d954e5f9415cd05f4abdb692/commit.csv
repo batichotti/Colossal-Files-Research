@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|68eb55031da7c967d954e5f9415cd05f4abdb692|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"genetlink: pass family to functions using groups
-
-This doesn't really change anything, but prepares for the
-next patch that will change the APIs to pass the group ID
-within the family, rather than the global group ID.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|18|Johannes Berg|johannes.berg@intel.com|2013-11-19 15:19:38+01:00|-3600|David S. Miller|davem@davemloft.net|2013-11-19 16:39:06-05:00|18000

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6f2f84532c153d32a5e53b6083b06a3e24368d30|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: do not spam dmesg with VMCS/VMCB dumps
-
-Userspace can easily set up invalid processor state in such a way that
-dmesg will be filled with VMCS or VMCB dumps.  Disable this by default
-using a module parameter.
-
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|2|Paolo Bonzini|pbonzini@redhat.com|2019-05-20 15:34:35+02:00|-7200|Paolo Bonzini|pbonzini@redhat.com|2019-05-24 21:27:12+02:00|-7200

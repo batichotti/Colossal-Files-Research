@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9f69bda6aa8b365169b4a6fd35432ee40574d661|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Add proper handling of received LE data
-
-Despite it works, handling through l2cap_data_channel() is wrongs.
-That function should handle only connection oriented data.
-
-Signed-off-by: Gustavo F. Padovan <padovan@profusion.mobi>"|1|Gustavo F. Padovan|padovan@profusion.mobi|2011-04-07 16:40:25-03:00|10800|Gustavo F. Padovan|padovan@profusion.mobi|2011-04-13 12:20:02-03:00|10800

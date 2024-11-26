@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0d6355844ba18cb3b75054ab1390d8e6f1ab2ffa|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/amdgpu/gfx11: unlock on error in gfx_v11_0_kiq_resume()
-
-Add a missing amdgpu_bo_unreserve(ring->mqd_obj) to an error path in
-gfx_v11_0_kiq_resume().
-
-Fixes: 3d879e81f0f9 (""drm/amdgpu: add init support for GFX11 (v2)"")
-Signed-off-by: Dan Carpenter <dan.carpenter@oracle.com>
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|1|Dan Carpenter|dan.carpenter@oracle.com|2022-05-09 12:08:49+03:00|-10800|Alex Deucher|alexander.deucher@amd.com|2022-05-10 17:53:11-04:00|14400

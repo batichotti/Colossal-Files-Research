@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d1c88a4020567ba4da52f778bcd9619d87e4ea75|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: always allow host-initiated writes to PMU MSRs
-
-Whenever an MSR is part of KVM_GET_MSR_INDEX_LIST, it has to be always
-retrievable and settable with KVM_GET_MSR and KVM_SET_MSR.  Accept
-the PMU MSRs unconditionally in intel_is_valid_msr, if the access was
-host-initiated.
-
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|5|Paolo Bonzini|pbonzini@redhat.com|2022-05-25 04:39:22-04:00|14400|Paolo Bonzini|pbonzini@redhat.com|2022-06-08 04:48:40-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|16e3b6429159795a87add7584eb100b19aa1d70b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: hci_conn: Fix modifying handle while aborting
-
-This introduces hci_conn_set_handle which takes care of verifying the
-conditions where the hci_conn handle can be modified, including when
-hci_conn_abort has been called and also checks that the handles is
-valid as well.
-
-Signed-off-by: Luiz Augusto von Dentz <luiz.von.dentz@intel.com>"|3|Luiz Augusto von Dentz|luiz.von.dentz@intel.com|2023-08-03 14:49:14-07:00|25200|Luiz Augusto von Dentz|luiz.von.dentz@intel.com|2023-08-11 11:54:10-07:00|25200

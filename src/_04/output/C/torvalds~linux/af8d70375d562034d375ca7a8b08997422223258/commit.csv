@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|af8d70375d562034d375ca7a8b08997422223258|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"RDMA/restrack: Resource-tracker should not use uobject pointers
-
-Having uobject pointer embedded in ib core objects is not aligned with a
-future shared ib_x model. The resource tracker only does this to keep
-track of user/kernel objects - track this directly instead.
-
-Signed-off-by: Shamir Rabinovitch <shamir.rabinovitch@oracle.com>
-Signed-off-by: Jason Gunthorpe <jgg@mellanox.com>"|8|Shamir Rabinovitch|shamir.rabinovitch@oracle.com|2018-12-17 17:15:16+02:00|-7200|Jason Gunthorpe|jgg@mellanox.com|2018-12-18 15:38:26-07:00|25200

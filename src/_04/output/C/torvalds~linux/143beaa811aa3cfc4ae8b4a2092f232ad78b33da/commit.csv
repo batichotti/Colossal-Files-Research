@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|143beaa811aa3cfc4ae8b4a2092f232ad78b33da|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] lpfc: do not reset dev_loss_tmo in slave callout
-
-This fixes a bug where the driver was resetting the
-rport dev_loss_tmo when devices were added by adding
-support for the get_host_def_dev_loss_tmo callout.
-
-Signed-off-by: Mike Christie <michaelc@cs.wisc.edu>
-Signed-off-by: James Bottomley <James.Bottomley@suse.de>"|2|Mike Christie|michaelc@cs.wisc.edu|2010-08-06 03:02:39-05:00|18000|James Bottomley|James.Bottomley@suse.de|2010-09-05 13:45:26-03:00|10800

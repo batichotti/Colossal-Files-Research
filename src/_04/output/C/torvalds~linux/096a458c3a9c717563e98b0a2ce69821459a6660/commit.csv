@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|096a458c3a9c717563e98b0a2ce69821459a6660|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"forcedeth: fix cpu irq mask
-
-This patch fixes the cpu irq mask define to include the timer irq.
-Another flag check was setting up the timer bit in all cases so we
-didn't notice the issue.
-
-Signed-off-by: Ayaz Abdulla <aabdulla@nvidia.com>
-Signed-off-by: Jeff Garzik <jeff@garzik.org>"|1|Ayaz Abdulla|aabdulla@nvidia.com|2007-05-21 20:23:11-04:00|14400|Jeff Garzik|jeff@garzik.org|2007-05-24 18:03:23-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8ca7f4fe0733342c862b8585dd6eb6521b9bf533|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: ethernet: mediatek: fix RMII mode and add REVMII supported by GMAC
-
-The patch fixes up the incorrect setup of reduced MII (RMII) on GMAC
-and adds the supplement for the setup of reverse MII (REVMII) on GMAC
-, and rearranges the error handling for invalid PHY argument.
-
-Signed-off-by: Sean Wang <sean.wang@mediatek.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|sean.wang@mediatek.com|sean.wang@mediatek.com|2016-08-16 13:55:13+08:00|-28800|David S. Miller|davem@davemloft.net|2016-08-15 23:02:44-07:00|25200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4fc193814b3a269c1ea89aefdb56d4f957680d44|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Input: wacom - do not send 2FGT Tablet PC events in TAP format
-
-2FGT Tablet PC touch events were processed in _TAP_ format. Remove
-them so we can change to _MT_ format.
-
-Signed-off-by: Ping Cheng <pingc@wacom.com>
-Signed-off-by: Dmitry Torokhov <dtor@mail.ru>"|2|Ping Cheng|pinglinux@gmail.com|2011-03-12 20:33:33-08:00|28800|Dmitry Torokhov|dmitry.torokhov@gmail.com|2011-03-12 20:37:12-08:00|28800

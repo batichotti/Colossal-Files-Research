@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|79c6c70cbe35c270e7b59207ab76b44183a1030a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Fix HCI_CONN_AUTH_PEND flag for all authentication requests
-
-The HCI_CONN_AUTH_PEND flag should be set whenever requesting
-authentication so that multiple pending requests can't occur.
-
-Signed-off-by: Johan Hedberg <johan.hedberg@nokia.com>
-Signed-off-by: Gustavo F. Padovan <padovan@profusion.mobi>"|1|Johan Hedberg|johan.hedberg@nokia.com|2011-04-28 11:28:55-07:00|25200|Gustavo F. Padovan|padovan@profusion.mobi|2011-04-28 16:03:20-03:00|10800

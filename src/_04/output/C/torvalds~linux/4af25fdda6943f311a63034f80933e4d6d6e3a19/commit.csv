@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4af25fdda6943f311a63034f80933e4d6d6e3a19|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ceph: drop redundant r_mds field
-
-The r_mds field is redundant, since we can find the same information at
-r_session->s_mds, and when r_session is NULL then r_mds is meaningless.
-
-Signed-off-by: Sage Weil <sage@newdream.net>"|3|Sage Weil|sage@newdream.net|2010-11-02 13:41:47-07:00|25200|Sage Weil|sage@newdream.net|2011-01-12 15:15:13-08:00|28800

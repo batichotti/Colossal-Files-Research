@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7e9f07388779ccc5067f206357d9791aeef38864|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4.1: Always set up a forward channel when binding the session
-
-Currently, the client requests a back channel or a bidirectional
-connection when binding a new TCP channel to an existing session.
-Fix that to ask for a forward channel or bidirectional.
-
-Signed-off-by: Trond Myklebust <trond.myklebust@primarydata.com>"|1|Trond Myklebust|trond.myklebust@primarydata.com|2015-02-18 12:07:19-08:00|28800|Trond Myklebust|trond.myklebust@primarydata.com|2015-02-18 12:30:52-08:00|28800

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7f582ab6d8116ce8db5792c219a278519deae6ad|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: Avoid to return ENOTSUPP to userland
-
-Choose some allowed error values for the cases VMX returned ENOTSUPP so
-far as these values could be returned by the KVM_RUN IOCTL.
-
-Signed-off-by: Jan Kiszka <jan.kiszka@siemens.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|1|Jan Kiszka|jan.kiszka@web.de|2009-07-22 23:53:01+02:00|-7200|Avi Kivity|avi@redhat.com|2009-09-10 08:33:17+03:00|-10800

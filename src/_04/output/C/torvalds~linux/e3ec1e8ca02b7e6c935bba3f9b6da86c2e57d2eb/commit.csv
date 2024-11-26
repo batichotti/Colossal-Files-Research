@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e3ec1e8ca02b7e6c935bba3f9b6da86c2e57d2eb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: eliminate meaningless memcpy to data in pskb_carve_inside_nonlinear()
-
-The frags of skb_shared_info of the data is assigned in following loop. It
-is meaningless to do a memcpy of frags here.
-
-Signed-off-by: Miaohe Lin <linmiaohe@huawei.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Miaohe Lin|linmiaohe@huawei.com|2020-08-15 04:48:53-04:00|14400|David S. Miller|davem@davemloft.net|2020-08-18 15:55:24-07:00|25200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f95549cf24660255c880b3ea7ee2d7d08de1f5c5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: More CLOSE/OPEN races
-
-If an OPEN RPC call races with a CLOSE or OPEN_DOWNGRADE so that it
-updates the nfs_state structure before the CLOSE/OPEN_DOWNGRADE has
-a chance to do so, then we know that the state->flags need to be
-recalculated from scratch.
-
-Signed-off-by: Trond Myklebust <trond.myklebust@primarydata.com>"|1|Trond Myklebust|trond.myklebust@primarydata.com|2015-01-23 18:06:09-05:00|18000|Trond Myklebust|trond.myklebust@primarydata.com|2015-01-23 23:06:44-05:00|18000

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ac9517fcf310327fa3e3b0d8366e4b11236b1b4b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tcp: replace misc tcp_time_stamp to tcp_jiffies32
-
-After this patch, all uses of tcp_time_stamp will require
-a change when we introduce 1 ms and/or 1 us TCP TS option.
-
-Signed-off-by: Eric Dumazet <edumazet@google.com>
-Acked-by: Soheil Hassas Yeganeh <soheil@google.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|5|Eric Dumazet|edumazet@google.com|2017-05-16 14:00:13-07:00|25200|David S. Miller|davem@davemloft.net|2017-05-17 16:06:01-04:00|14400

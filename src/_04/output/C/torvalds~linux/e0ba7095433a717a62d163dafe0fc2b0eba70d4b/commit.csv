@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e0ba7095433a717a62d163dafe0fc2b0eba70d4b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: tx: avoid variable shadowing
-
-We have a bool and an __le16 called qos, rename the inner __le16
-to 'qoshdr' to make it more obvious and to avoid sparse warnings.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2018-11-09 11:16:46+01:00|-3600|Johannes Berg|johannes.berg@intel.com|2018-11-09 11:17:25+01:00|-3600

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9501df3cd9204f5859f649182431616a31ee88a1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ibmvnic: Free tx/rx scrq pointer array when releasing sub-crqs
-
-The pointer array for the tx/rx sub crqs should be free'ed when
-releasing the tx/rx sub crqs.
-
-Signed-off-by: Nathan Fontenot <nfont@linux.vnet.ibm.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Nathan Fontenot|nfont@linux.vnet.ibm.com|2017-03-15 23:38:07-04:00|14400|David S. Miller|davem@davemloft.net|2017-03-16 21:25:43-07:00|25200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5bb784e973cf35f9883b10bb7b1588616c7ed6b1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: hns3: enlarge HCLGE_RESET_WAIT_CNT
-
-When the load of firmware is high, its reset task may takes
-more time(which will be as long as 35 seconds). So this
-patch modifies HCLGE_RESET_WAIT_CNT to match the firmware's.
-
-Signed-off-by: Huazhong Tan <tanhuazhong@huawei.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Huazhong Tan|tanhuazhong@huawei.com|2020-01-11 16:33:51+08:00|-28800|David S. Miller|davem@davemloft.net|2020-01-11 14:52:23-08:00|28800

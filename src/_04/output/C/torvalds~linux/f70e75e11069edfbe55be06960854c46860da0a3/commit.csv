@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f70e75e11069edfbe55be06960854c46860da0a3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mISDN: hfcmulti display real PCI ids for not supported cards
-
-In the PCI probe function struct pci_device_id points to the matched
-entry of the ID table, but for devices which are matched with
-PCI_ANY_ID sub IDs we want display the IDs of the device itself.
-
-Signed-off-by: Karsten Keil <keil@b1-systems.de>"|1|Karsten Keil|keil@b1-systems.de|2009-07-24 18:41:23+02:00|-7200|Karsten Keil|keil@b1-systems.de|2009-07-25 20:23:22+02:00|-7200

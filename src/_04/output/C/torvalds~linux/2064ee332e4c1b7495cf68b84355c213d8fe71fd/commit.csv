@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2064ee332e4c1b7495cf68b84355c213d8fe71fd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Use bt_dev_err and bt_dev_info when possible
-
-In case of using BT_ERR and BT_INFO, convert to bt_dev_err and
-bt_dev_info when possible. This allows for controller specific
-reporting.
-
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>"|21|Marcel Holtmann|marcel@holtmann.org|2017-10-30 10:42:59+01:00|-3600|Johan Hedberg|johan.hedberg@intel.com|2017-10-30 12:25:45+02:00|-7200

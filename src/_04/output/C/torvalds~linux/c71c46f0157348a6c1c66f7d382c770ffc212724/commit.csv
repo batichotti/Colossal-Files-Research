@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c71c46f0157348a6c1c66f7d382c770ffc212724|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4.1: Don't process the sequence op more than once.
-
-Ensure that if we call nfs41_sequence_process() a second time for the
-same rpc_task, then we only process the results once.
-
-Signed-off-by: Trond Myklebust <trond.myklebust@hammerspace.com>"|1|Trond Myklebust|trond.myklebust@hammerspace.com|2019-03-01 11:40:05-05:00|18000|Trond Myklebust|trond.myklebust@hammerspace.com|2019-03-01 12:16:28-05:00|18000

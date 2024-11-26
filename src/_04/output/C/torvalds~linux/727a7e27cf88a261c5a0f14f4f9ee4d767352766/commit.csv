@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|727a7e27cf88a261c5a0f14f4f9ee4d767352766|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: rename set_cr3 callback and related flags to load_mmu_pgd
-
-The set_cr3 callback is not setting the guest CR3, it is setting the
-root of the guest page tables, either shadow or two-dimensional.
-To make this clearer as well as to indicate that the MMU calls it
-via kvm_mmu_load_cr3, rename it to load_mmu_pgd.
-
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|8|Paolo Bonzini|pbonzini@redhat.com|2020-03-05 03:52:50-05:00|18000|Paolo Bonzini|pbonzini@redhat.com|2020-03-16 17:58:52+01:00|-3600

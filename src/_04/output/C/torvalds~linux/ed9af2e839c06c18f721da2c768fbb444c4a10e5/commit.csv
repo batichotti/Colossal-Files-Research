@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ed9af2e839c06c18f721da2c768fbb444c4a10e5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: Move TX queue allocation to alloc_netdev_mq
-
-TX queues are now allocated in alloc_netdev_mq and freed in
-free_netdev.
-
-Signed-off-by: Tom Herbert <therbert@google.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Tom Herbert|therbert@google.com|2010-11-09 10:47:30+00:00|0|David S. Miller|davem@davemloft.net|2010-11-15 10:56:54-08:00|28800

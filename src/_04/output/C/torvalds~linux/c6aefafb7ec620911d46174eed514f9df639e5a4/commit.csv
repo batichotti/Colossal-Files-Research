@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c6aefafb7ec620911d46174eed514f9df639e5a4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[TCP]: Add IPv6 support to TCP SYN cookies
-
-Updated to incorporate Eric's suggestion of using a per cpu buffer
-rather than allocating on the stack.  Just a two line change, but will
-resend in it's entirety.
-
-Signed-off-by: Glenn Griffin <ggriffin.kernel@gmail.com>
-Signed-off-by: YOSHIFUJI Hideaki <yoshfuji@linux-ipv6.org>"|8|Glenn Griffin|ggriffin.kernel@gmail.com|2008-02-07 21:49:26-08:00|28800|YOSHIFUJI Hideaki|yoshfuji@linux-ipv6.org|2008-03-04 15:18:21+09:00|-32400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6cb6a27c45cec9184302c2e350b3593c64bc7f6c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: Call netdev_features_change() from netdev_update_features()
-
-Issue FEAT_CHANGE notification when features are changed by
-netdev_update_features().  This will allow changes made by extra constraints
-on e.g. MTU change to be properly propagated like changes via ethtool.
-
-Signed-off-by: Michał Mirosław <mirq-linux@rere.qmqm.pl>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|Michał Mirosław|mirq-linux@rere.qmqm.pl|2011-04-02 22:48:47-07:00|25200|David S. Miller|davem@davemloft.net|2011-04-02 22:48:47-07:00|25200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ab3e571564a5d8fa4923e2e858e574c931a014c7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Update conf_state before send config_req out
-
-Update conf_state with L2CAP_CONF_REQ_SENT before send config_req out in
-l2cap_config_req().
-
-Signed-off-by: Haijun Liu <haijun.liu@atheros.com>
-Acked-by: Marcel Holtmann <marcel@holtmann.org>
-Signed-off-by: Gustavo F. Padovan <padovan@profusion.mobi>"|1|Haijun Liu|haijun.liu@atheros.com|2010-09-30 16:52:40+08:00|-28800|Gustavo F. Padovan|padovan@profusion.mobi|2010-10-12 12:44:53-03:00|10800

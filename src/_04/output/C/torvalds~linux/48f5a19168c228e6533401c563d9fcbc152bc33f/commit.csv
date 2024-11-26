@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|48f5a19168c228e6533401c563d9fcbc152bc33f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"be2net: dynamically allocate adapter->vf_cfg
-
-Instead of a fixed sized array for vf_cfg, allocate the size dynamically
-depending on number of VFs the device supports.
-
-Signed-off-by: Ajit Khaparde <ajit.khaparde@emulex.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Ajit Khaparde|ajit.khaparde@emulex.com|2011-04-06 18:08:30+00:00|0|David S. Miller|davem@davemloft.net|2011-04-07 15:04:45-07:00|25200

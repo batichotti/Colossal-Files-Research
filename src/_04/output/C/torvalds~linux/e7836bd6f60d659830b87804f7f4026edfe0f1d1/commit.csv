@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e7836bd6f60d659830b87804f7f4026edfe0f1d1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"raid5: lockless access raid5 overrided bi_phys_segments
-
-Raid5 overrides bio->bi_phys_segments, accessing it is with device_lock hold,
-which is unnecessary, We can make it lockless actually.
-
-Signed-off-by: Shaohua Li <shli@fusionio.com>
-Signed-off-by: NeilBrown <neilb@suse.de>"|1|Shaohua Li|shli@kernel.org|2012-07-19 16:01:31+10:00|-36000|NeilBrown|neilb@suse.de|2012-07-19 16:01:31+10:00|-36000

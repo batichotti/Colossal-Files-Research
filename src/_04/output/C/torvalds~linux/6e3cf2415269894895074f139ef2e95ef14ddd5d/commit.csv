@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6e3cf2415269894895074f139ef2e95ef14ddd5d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: Add a mapping for NFS4ERR_FILE_OPEN in nfs4_map_errors
-
-With unlink is an asynchronous operation in the sillyrename case, it
-expects nfs4_async_handle_error() to map the error correctly.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|1|Trond Myklebust|Trond.Myklebust@netapp.com|2013-03-23 15:22:45-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2013-03-27 12:44:40-04:00|14400

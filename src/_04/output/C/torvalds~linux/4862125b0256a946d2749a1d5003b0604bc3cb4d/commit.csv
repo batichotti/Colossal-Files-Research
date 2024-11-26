@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4862125b0256a946d2749a1d5003b0604bc3cb4d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"workqueue: fix memory leak in apply_workqueue_attrs()
-
-apply_workqueue_attrs() wasn't freeing temp attrs variable @new_attrs
-in its success path.  Fix it.
-
-Signed-off-by: Tejun Heo <tj@kernel.org>
-Reported-by: Lai Jiangshan <laijs@cn.fujitsu.com>"|1|Tejun Heo|tj@kernel.org|2013-04-01 11:23:31-07:00|25200|Tejun Heo|tj@kernel.org|2013-04-01 11:23:31-07:00|25200

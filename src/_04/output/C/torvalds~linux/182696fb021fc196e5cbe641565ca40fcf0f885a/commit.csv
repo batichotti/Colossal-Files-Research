@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|182696fb021fc196e5cbe641565ca40fcf0f885a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"xfs: rename _zone variables to _cache
-
-Now that we've gotten rid of the kmem_zone_t typedef, rename the
-variables to _cache since that's what they are.
-
-Signed-off-by: Darrick J. Wong <djwong@kernel.org>
-Reviewed-by: Chandan Babu R <chandan.babu@oracle.com>"|36|Darrick J. Wong|djwong@kernel.org|2021-10-12 11:09:23-07:00|25200|Darrick J. Wong|djwong@kernel.org|2021-10-22 16:04:20-07:00|25200

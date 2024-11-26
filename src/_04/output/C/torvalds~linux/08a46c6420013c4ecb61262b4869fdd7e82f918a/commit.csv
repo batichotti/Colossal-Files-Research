@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|08a46c6420013c4ecb61262b4869fdd7e82f918a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: move A-MPDU session check from minstrel_ht to mac80211
-
-This avoids calling back into tx handlers from within the rate control module.
-Preparation for deferring rate control until tx dequeue
-
-Signed-off-by: Felix Fietkau <nbd@nbd.name>
-Link: https://lore.kernel.org/r/20210617163113.75815-1-nbd@nbd.name
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|3|Felix Fietkau|nbd@nbd.name|2021-06-17 18:31:11+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2021-06-23 11:29:13+02:00|-7200

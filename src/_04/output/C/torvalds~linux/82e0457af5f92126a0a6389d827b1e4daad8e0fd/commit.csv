@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|82e0457af5f92126a0a6389d827b1e4daad8e0fd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"CIFS: Do not log credits when unmounting a share
-
-Currently we only skip credits logging on reconnects. When
-unmounting a share the number of credits on the client doesn't
-matter, so skip logging in such cases too.
-
-Signed-off-by: Pavel Shilovsky <pshilov@microsoft.com>
-Signed-off-by: Steve French <stfrench@microsoft.com>"|1|Pavel Shilovsky|pshilov@microsoft.com|2019-01-25 10:56:41-08:00|28800|Steve French|stfrench@microsoft.com|2019-03-04 20:06:39-06:00|21600

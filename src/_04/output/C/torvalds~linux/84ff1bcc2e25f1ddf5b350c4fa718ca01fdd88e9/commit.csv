@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|84ff1bcc2e25f1ddf5b350c4fa718ca01fdd88e9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"dm integrity: use previously calculated log2 of sectors_per_block
-
-The log2 of sectors_per_block was already calculated, so we don't have
-to use the ilog2 function.
-
-Signed-off-by: Mikulas Patocka <mpatocka@redhat.com>
-Signed-off-by: Mike Snitzer <snitzer@redhat.com>"|1|Mikulas Patocka|mpatocka@redhat.com|2017-04-26 18:39:47-04:00|14400|Mike Snitzer|snitzer@redhat.com|2017-04-27 12:16:32-04:00|14400

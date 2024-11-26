@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c6c17c4dc36684fe119a1d40eb41ea65677bdfae|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"slub: Remove CONFIG_SMP defined check
-
-As CONFIG_SMP is one of dependencies of CONFIG_SLUB_CPU_PARTIAL, so if
-CONFIG_SLUB_CPU_PARTIAL is defined then CONFIG_SMP must be defined,
-no need to check CONFIG_SMP definition here.
-
-Signed-off-by: Xiongwei Song <xiongwei.song@windriver.com>
-Signed-off-by: Vlastimil Babka <vbabka@suse.cz>"|1|Xiongwei Song|xiongwei.song@windriver.com|2023-04-13 22:34:50+08:00|-28800|Vlastimil Babka|vbabka@suse.cz|2023-05-22 15:20:21+02:00|-7200

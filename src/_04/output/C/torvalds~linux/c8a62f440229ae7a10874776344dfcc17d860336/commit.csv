@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c8a62f440229ae7a10874776344dfcc17d860336|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4.2: Always decode the security label
-
-If the server returns a reply that includes a security label, then we
-must decode it whether or not we can store the results.
-
-Fixes: 1e2f67da8931 (""NFS: Remove the nfs4_label argument from decode_getattr_*() functions"")
-Signed-off-by: Trond Myklebust <trond.myklebust@hammerspace.com>"|1|Trond Myklebust|trond.myklebust@hammerspace.com|2022-10-18 17:41:30-04:00|14400|Trond Myklebust|trond.myklebust@hammerspace.com|2022-11-27 22:09:59-05:00|18000

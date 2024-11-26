@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1e22391e8fbec9c3709bad82b997b108d1c6228b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: missing call of trace_napi_poll in busy_poll_stop
-
-Noticed that busy_poll_stop() also invoke the drivers napi->poll()
-function pointer, but didn't have an associated call to trace_napi_poll()
-like all other call sites.
-
-Signed-off-by: Jesper Dangaard Brouer <brouer@redhat.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Jesper Dangaard Brouer|brouer@redhat.com|2017-08-25 15:04:32+02:00|-7200|David S. Miller|davem@davemloft.net|2017-08-28 11:22:21-07:00|25200

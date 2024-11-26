@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|23a8519b55235660f6fb7d6f394a912de9d23208|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: fail if we try to use hole punch
-
-Btrfs doesn't have the ability to punch holes yet, so make sure we return
-EOPNOTSUPP if we try to use hole punching through fallocate.  This support can
-be added later.  Thanks,
-
-Signed-off-by: Josef Bacik <josef@redhat.com>
-Signed-off-by: Al Viro <viro@zeniv.linux.org.uk>"|1|Josef Bacik|josef@redhat.com|2010-11-17 20:46:19-05:00|18000|Al Viro|viro@zeniv.linux.org.uk|2011-01-12 20:16:44-05:00|18000

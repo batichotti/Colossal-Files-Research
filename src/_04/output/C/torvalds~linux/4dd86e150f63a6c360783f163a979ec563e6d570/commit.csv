@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4dd86e150f63a6c360783f163a979ec563e6d570|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSd: Remove 'inline' designation for free_client()
-
-It is large, it is used in more than one place, and it is not performance
-critical. Let gcc figure out whether it should be inlined...
-
-Signed-off-by: Trond Myklebust <trond.myklebust@primarydata.com>
-Signed-off-by: J. Bruce Fields <bfields@redhat.com>"|1|Trond Myklebust|trond.myklebust@primarydata.com|2014-04-18 14:43:58-04:00|14400|J. Bruce Fields|bfields@redhat.com|2014-05-06 17:54:53-04:00|14400

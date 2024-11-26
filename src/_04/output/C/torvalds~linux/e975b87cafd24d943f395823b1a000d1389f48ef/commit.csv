@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e975b87cafd24d943f395823b1a000d1389f48ef|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rtl8xxxu: Do not parse RX descriptor info for C2H packets
-
-C2H events are delivered as RX packets on 8723bu/8192eu. When
-receiving a C2H event, do not parse the rest of the RX descriptor as
-the info isn't valid.
-
-Signed-off-by: Jes Sorensen <Jes.Sorensen@redhat.com>
-Signed-off-by: Kalle Valo <kvalo@codeaurora.org>"|1|Jes Sorensen|Jes.Sorensen@redhat.com|2016-02-29 17:05:36-05:00|18000|Kalle Valo|kvalo@codeaurora.org|2016-03-10 15:29:17+02:00|-7200

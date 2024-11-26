@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3b2ee94300277220452332d2ebadf5b5699947b5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ixgbe: fix namespace issue with ixgbe_dcb_txq_to_tc
-
-We didn't need the prototype and it was causing namespace complaints so
-I made it static.
-
-Signed-off-by: Don Skidmore <donald.c.skidmore@intel.com>
-Tested-by: Stephen Ko <stephen.s.ko@intel.com>
-Signed-off-by: Jeff Kirsher <jeffrey.t.kirsher@intel.com>"|2|Don Skidmore|donald.c.skidmore@intel.com|2011-01-28 02:28:26+00:00|0|Jeff Kirsher|jeffrey.t.kirsher@intel.com|2011-02-11 08:56:03-08:00|28800

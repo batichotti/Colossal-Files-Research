@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4c9cfa780643dc3f609366b85fec2444a67cad64|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wl12xx: add hw configuration for max supported AMDPU size
-
-The wl12xx chips do the AMDPU aggregation work in the firmware, but it
-supports a maximum of 8 frames per block.  Configure the mac80211 hw
-structure accordingly.
-
-Signed-off-by: Luciano Coelho <coelho@ti.com>
-Tested-by: Juuso Oikarinen <juuso.oikarinen@nokia.com>"|1|Luciano Coelho|coelho@ti.com|2011-01-12 14:27:03+01:00|-3600|Luciano Coelho|coelho@ti.com|2011-01-24 22:13:49+02:00|-7200

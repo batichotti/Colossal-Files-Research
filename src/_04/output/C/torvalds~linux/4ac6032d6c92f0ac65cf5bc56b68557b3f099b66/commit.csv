@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4ac6032d6c92f0ac65cf5bc56b68557b3f099b66|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ocfs2: Field prefixes for the xattr_bucket structure
-
-The ocfs2_xattr_bucket structure keeps track of the buffers for one
-xattr bucket.  Let's prefix the fields for easier code navigation.
-
-Signed-off-by: Joel Becker <joel.becker@oracle.com>
-Signed-off-by: Mark Fasheh <mfasheh@suse.com>"|1|Joel Becker|joel.becker@oracle.com|2008-10-18 19:11:42-07:00|25200|Mark Fasheh|mfasheh@suse.com|2009-01-05 08:34:16-08:00|28800

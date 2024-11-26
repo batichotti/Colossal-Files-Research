@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|83636580ad99cffd85b07e75da7ad45ada0fd530|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ksz884x: fix mtu for VLAN
-
-The Ethernet header does not account for the addition of a VLAN header.
-Full size Ethernet frames containing VLAN header are not processed
-because the frame is larger than the resulting hw mtu.
-
-Signed-off-by: Doug Kehn <rdkehn@yahoo.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Doug Kehn|rdkehn@yahoo.com|2012-01-11 13:12:43+00:00|0|David S. Miller|davem@davemloft.net|2012-01-12 20:05:28-08:00|28800

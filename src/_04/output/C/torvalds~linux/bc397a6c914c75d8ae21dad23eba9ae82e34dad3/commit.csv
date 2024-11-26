@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bc397a6c914c75d8ae21dad23eba9ae82e34dad3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: Do not push eflags.vm on pushf
-
-The pushf instruction does not push eflags.VM, so emulation should not do so as
-well.  Although eflags.RF should not be pushed as well, it is already cleared
-by the time pushf is executed.
-
-Signed-off-by: Nadav Amit <namit@cs.technion.ac.il>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Nadav Amit|namit@cs.technion.ac.il|2014-12-10 11:19:03+02:00|-7200|Paolo Bonzini|pbonzini@redhat.com|2014-12-10 12:51:28+01:00|-3600

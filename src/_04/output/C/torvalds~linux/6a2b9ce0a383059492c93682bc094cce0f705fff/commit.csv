@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6a2b9ce0a383059492c93682bc094cce0f705fff|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[IPV6]: Fixed the size of the netlink message notified by inet6_rt_notify().
-
-I think the return value of rt6_nlmsg_size() should includes the
-amount of RTA_METRICS.
-
-Signed-off-by: Noriaki TAKAMIYA <takamiya@po.ntts.co.jp>
-Acked-by: Thomas Graf <tgraf@suug.ch>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Noriaki TAKAMIYA|takamiya@po.ntts.co.jp|2007-01-23 22:09:41-08:00|28800|David S. Miller|davem@davemloft.net|2007-01-23 22:09:41-08:00|28800

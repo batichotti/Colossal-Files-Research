@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5bb680d6cbe36de9d7ba12b05f845c91a8692318|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bnx2x: fix dump flag handling
-
-bnx2x interprets the dump flag as an index of a register preset.
-It is important to validate the index to avoid out of bounds
-memory accesses.
-
-Signed-off-by: Michal Schmidt <mschmidt@redhat.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Michal Schmidt|mschmidt@redhat.com|2013-07-01 17:23:06+02:00|-7200|David S. Miller|davem@davemloft.net|2013-07-02 00:15:56-07:00|25200

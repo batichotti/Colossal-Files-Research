@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7f531e03abf0162df3966c4fa5fa6fdd9302cb6b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cfg80211: Separate available antennas for RX and TX
-
-As has been pointed out by Daniel Halperin some devices (e.g. Intel IWL5100)
-can only TX from a subset of RX antennas, so use separate availability masks
-for RX and TX.
-
-Signed-off-by: Bruno Randolf <br1@einfach.org>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|2|Bruno Randolf|br1@einfach.org|2010-12-16 11:30:22+09:00|-32400|John W. Linville|linville@tuxdriver.com|2010-12-20 14:46:58-05:00|18000

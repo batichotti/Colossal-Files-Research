@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|110312c84b5fbd4daf5de2417fa8ab5ec883858d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: Optimize atomic EFER load
-
-When NX is enabled on the host but not on the guest, we use the entry/exit
-msr load facility, which is slow.  Optimize it to use entry/exit efer load,
-which is ~1200 cycles faster.
-
-Signed-off-by: Avi Kivity <avi@redhat.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|1|Avi Kivity|avi@redhat.com|2010-12-21 12:54:20+02:00|-7200|Avi Kivity|avi@redhat.com|2011-01-12 11:31:09+02:00|-7200

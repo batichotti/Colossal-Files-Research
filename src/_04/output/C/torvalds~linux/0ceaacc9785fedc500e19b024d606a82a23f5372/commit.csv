@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0ceaacc9785fedc500e19b024d606a82a23f5372|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[PATCH] Fix up per-cpu page batch sizes
-
-The code to clamp batch sizes to 2^n - 1 went missing and an extra
-check got added, which must have been a hunk of the ""higer order pcp
-batch refills"" work sneaking in.
-
-Signed-off-by: Nick Piggin <npiggin@suse.de>
-Signed-off-by: Linus Torvalds <torvalds@osdl.org>"|1|Nick Piggin|nickpiggin@yahoo.com.au|2005-12-04 13:55:25+11:00|-39600|Linus Torvalds|torvalds@g5.osdl.org|2005-12-03 20:46:40-08:00|28800

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|86bcebafc5e7f5163ccf828792fe694b112ed6fa|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tcp: fix >2 iw selection
-
-A long-standing feature in tcp_init_metrics() is such that
-any of its goto reset prevents call to tcp_init_cwnd().
-
-Signed-off-by: Ilpo Järvinen <ilpo.jarvinen@helsinki.fi>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Ilpo Järvinen|ilpo.jarvinen@helsinki.fi|2009-04-14 02:08:53-07:00|25200|David S. Miller|davem@davemloft.net|2009-04-14 02:08:53-07:00|25200

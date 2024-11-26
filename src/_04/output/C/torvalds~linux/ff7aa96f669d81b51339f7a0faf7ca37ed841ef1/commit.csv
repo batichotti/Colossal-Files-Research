@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ff7aa96f669d81b51339f7a0faf7ca37ed841ef1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mwl8k: Unmap the pci DMA address in xmit error path
-
-We should unmap the DMA address in the error path, else it
-causes resource leaks. Fix this.
-
-Signed-off-by: Nishant Sarmukadam <nishants@marvell.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|1|Nishant Sarmukadam|nishants@marvell.com|2012-11-06 19:22:48+05:30|-19800|John W. Linville|linville@tuxdriver.com|2012-11-14 14:56:09-05:00|18000

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|afdcba371f9748ac91608bb6c57f170aab7085b4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: copy_rtnl_link_stats64() simplification
-
-No need to use a temporary struct rtnl_link_stats64 variable,
-just copy the source to skb buffer.
-
-Signed-off-by: Eric Dumazet <eric.dumazet@gmail.com>
-Reviewed-by: Ben Hutchings <bhutchings@solarflare.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Eric Dumazet|eric.dumazet@gmail.com|2010-08-23 07:14:36+00:00|0|David S. Miller|davem@davemloft.net|2010-08-23 20:43:16-07:00|25200

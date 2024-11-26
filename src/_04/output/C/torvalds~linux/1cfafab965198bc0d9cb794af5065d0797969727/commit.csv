@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1cfafab965198bc0d9cb794af5065d0797969727|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"be2net: reset queue address after freeing
-
-This will prevent double free in some cases where be_clear() is called
-for cleanup when be_setup() fails half-way.
-
-Signed-off-by: Sathya Perla <sathya.perla@emulex.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Sathya Perla|sathya.perla@emulex.com|2012-02-23 18:50:15+00:00|0|David S. Miller|davem@davemloft.net|2012-02-24 01:50:16-05:00|18000

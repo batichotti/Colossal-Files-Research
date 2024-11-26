@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6427dc1da51dfc47d65caf86e45e8338d1a3905c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net-next: mediatek: bring up QDMA RX ring 0
-
-This patch is in preparation for adding HW flow and QoS offloading. For
-those features to work, the driver needs to bring up the first QDMA RX
-ring. This ring is used by the PPE offloading HW.
-
-Signed-off-by: John Crisp in <john@phrozen.org>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|John Crispin|john@phrozen.org|2017-08-09 12:09:32+02:00|-7200|David S. Miller|davem@davemloft.net|2017-08-09 22:45:36-07:00|25200

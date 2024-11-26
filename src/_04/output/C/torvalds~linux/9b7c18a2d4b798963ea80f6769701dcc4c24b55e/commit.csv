@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9b7c18a2d4b798963ea80f6769701dcc4c24b55e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"CIFS: Add mid handle callback
-
-We need to process read responses differently because the data
-should go directly into preallocated pages. This can be done
-by specifying a mid handle callback.
-
-Signed-off-by: Pavel Shilovsky <pshilov@microsoft.com>"|5|Pavel Shilovsky|pshilov@microsoft.com|2016-11-16 14:06:17-08:00|28800|Steve French|smfrench@gmail.com|2017-02-01 16:46:36-06:00|21600

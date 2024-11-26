@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f317154929f87d2fe799179761d1b639af33de74|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"staging: brcm80211: remove the rest of broadcom specific byte swapping routines
-
-- move ltoh16_buf/htol16_buf util/bcmsrom.c
-- replace ltoh16_buf in brcmsmac/wlc_mac80211.c with several
-  le16_to_cpu's
-
-Signed-off-by: Stanislav Fomichev <kernel@fomichev.me>
-Signed-off-by: Greg Kroah-Hartman <gregkh@suse.de>"|23|Stanislav Fomichev|kernel@fomichev.me|2011-02-21 10:35:26+03:00|-10800|Greg Kroah-Hartman|gregkh@suse.de|2011-02-23 14:07:00-08:00|28800

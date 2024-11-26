@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bd2d0210cf22f2bd0cef72eb97cf94fc7d31d8cc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: use bio layer instead of buffer layer in mpage_da_submit_io
-
-Call the block I/O layer directly instad of going through the buffer
-layer.  This should give us much better performance and scalability,
-as well as lowering our CPU utilization when doing buffered writeback.
-
-Signed-off-by: ""Theodore Ts'o"" <tytso@mit.edu>"|6|Theodore Ts'o|tytso@mit.edu|2010-10-27 21:30:10-04:00|14400|Theodore Ts'o|tytso@mit.edu|2010-10-27 21:30:10-04:00|14400

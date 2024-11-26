@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2216b48376c40cf6984398d478a01b55e76c5434|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[NETNS]: Add missing initialization of nl_info.nl_net in rtm_to_fib6_config()
-
-Add missing initialization of the new nl_info.nl_net field in
-rtm_to_fib6_config(). This will be needed the store network namespace
-associated to the fib6_config struct.
-
-Signed-off-by: Benjamin Thery <benjamin.thery@bull.net>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Benjamin Thery|benjamin.thery@bull.net|2008-01-30 19:09:35-08:00|28800|David S. Miller|davem@davemloft.net|2008-01-31 19:27:20-08:00|28800

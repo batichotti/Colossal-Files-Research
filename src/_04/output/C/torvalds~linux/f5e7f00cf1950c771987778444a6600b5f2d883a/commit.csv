@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f5e7f00cf1950c771987778444a6600b5f2d883a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86/mmu: Account pf_{fixed,emulate,spurious} in callers of ""do page fault""
-
-Move the accounting of the result of kvm_mmu_do_page_fault() to its
-callers, as only pf_fixed is common to guest page faults and async #PFs,
-and upcoming support KVM_PRE_FAULT_MEMORY won't bump _any_ stats.
-
-Signed-off-by: Sean Christopherson <seanjc@google.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|2|Sean Christopherson|seanjc@google.com|2024-06-12 12:59:06-07:00|25200|Paolo Bonzini|pbonzini@redhat.com|2024-07-12 11:17:35-04:00|14400

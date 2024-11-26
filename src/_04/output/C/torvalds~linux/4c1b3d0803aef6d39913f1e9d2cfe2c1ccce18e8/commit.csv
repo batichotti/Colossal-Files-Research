@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4c1b3d0803aef6d39913f1e9d2cfe2c1ccce18e8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/amdgpu: delete duplicate condition in gfx_v11_0_soft_reset()
-
-We know that ""grbm_soft_reset"" is true because we're already inside an
-if (grbm_soft_reset) condition.  No need to test again.
-
-Signed-off-by: Dan Carpenter <dan.carpenter@oracle.com>
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|1|Dan Carpenter|dan.carpenter@oracle.com|2022-05-30 14:42:25+03:00|-10800|Alex Deucher|alexander.deucher@amd.com|2022-06-03 16:45:00-04:00|14400

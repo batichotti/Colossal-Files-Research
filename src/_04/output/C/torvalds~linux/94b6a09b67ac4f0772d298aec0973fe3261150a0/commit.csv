@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|94b6a09b67ac4f0772d298aec0973fe3261150a0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Don't copy L2CAP LE signalling to raw sockets
-
-The L2CAP raw sockets are only used for BR/EDR signalling. Packets
-on LE links should not be forwarded there.
-
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>"|1|Marcel Holtmann|marcel@holtmann.org|2013-10-02 23:51:49-07:00|25200|Johan Hedberg|johan.hedberg@intel.com|2013-10-03 10:07:58+03:00|-10800

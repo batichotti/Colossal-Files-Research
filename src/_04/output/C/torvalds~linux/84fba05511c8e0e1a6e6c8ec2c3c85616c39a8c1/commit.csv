@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|84fba05511c8e0e1a6e6c8ec2c3c85616c39a8c1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: provide nft_ctx in object init function
-
-this is needed by the upcoming ct helper object type --
-we'd like to be able use the table family (ip, ip6, inet) to figure
-out which helper has to be requested.
-
-Signed-off-by: Florian Westphal <fw@strlen.de>
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|4|Florian Westphal|fw@strlen.de|2017-03-08 16:48:43+01:00|-3600|Pablo Neira Ayuso|pablo@netfilter.org|2017-03-13 13:42:00+01:00|-3600

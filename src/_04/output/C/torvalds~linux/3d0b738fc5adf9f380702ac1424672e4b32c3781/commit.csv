@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3d0b738fc5adf9f380702ac1424672e4b32c3781|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bonding: add missed __rcu annotation for curr_active_slave
-
-There is one direct accesses to bond->curr_active_slave in
-bond_miimon_commit(). Protected it by rcu_access_pointer()
-since the later of this function also use this one.
-
-Signed-off-by: Hangbin Liu <liuhangbin@gmail.com>
-Signed-off-by: Jakub Kicinski <kuba@kernel.org>"|1|Hangbin Liu|liuhangbin@gmail.com|2022-12-12 11:56:45+08:00|-28800|Jakub Kicinski|kuba@kernel.org|2022-12-13 19:19:32-08:00|28800

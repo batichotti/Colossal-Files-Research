@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c4392b46ee95be9815e682a1c8cb0aa2f92f07e2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"crypto: hisilicon/qm - move 'CURRENT_QM' code to qm.c
-
-Since the code related to 'CURRENT_QM' debugfs is exactly same in
-sec/hpre/zip driver, move 'CURRENT_QM' to qm.c to reduce duplicate code.
-
-Signed-off-by: Weili Qian <qianweili@huawei.com>
-Signed-off-by: Herbert Xu <herbert@gondor.apana.org.au>"|7|Weili Qian|qianweili@huawei.com|2021-03-20 19:27:44+08:00|-28800|Herbert Xu|herbert@gondor.apana.org.au|2021-03-26 20:15:57+11:00|-39600

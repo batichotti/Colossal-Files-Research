@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1b8da9d81ee294acf24b3760314559f7a320c84f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"HID: wacom: Clean up use of struct->wacom_wac
-
-Replace the indirect accesses to struct->wacom_wac from struct->wacom
-to the direct access in order for better code reading.
-
-Signed-off-by: Tatsunosuke Tobita <tatsunosuke.tobita@wacom.com>
-Signed-off-by: Jiri Kosina <jkosina@suse.com>"|1|Tatsunosuke Tobita|tatsunosuke.tobita@wacom.com|2024-02-01 13:43:46+09:00|-32400|Jiri Kosina|jkosina@suse.com|2024-02-13 11:41:35+01:00|-3600

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a2c0b9e291208f65221a0ad8a0c80a377707d480|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS: Ensure that we handle NFS4ERR_STALE_STATEID correctly
-
-Even if the server is crazy, we should be able to mark the stateid as being
-bad, to ensure it gets recovered.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>
-Reviewed-by: Chuck Lever <chuck.lever@oracle.com>"|3|Trond Myklebust|Trond.Myklebust@netapp.com|2010-01-26 15:42:47-05:00|18000|Trond Myklebust|Trond.Myklebust@netapp.com|2010-01-26 15:42:47-05:00|18000

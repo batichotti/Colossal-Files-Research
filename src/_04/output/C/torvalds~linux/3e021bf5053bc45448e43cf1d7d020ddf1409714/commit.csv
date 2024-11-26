@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3e021bf5053bc45448e43cf1d7d020ddf1409714|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Simplify kvm_clear_guest_page()
-
-Use kvm_write_guest_page() with empty_zero_page, instead of doing
-kmap and memset.
-
-Signed-off-by: Izik Eidus <izike@qumranet.com>
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|1|Izik Eidus|izike@qumranet.com|2007-11-19 11:16:57+02:00|-7200|Avi Kivity|avi@qumranet.com|2008-01-30 17:53:06+02:00|-7200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d9f89b88f5102ce235b75a5907838e3c7ed84b97|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: Fix CR3 reserved bits check in long mode
-
-Regression of 346874c9: PAE is set in long mode, but that does not mean
-we have valid PDPTRs.
-
-Signed-off-by: Jan Kiszka <jan.kiszka@siemens.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Jan Kiszka|jan.kiszka@siemens.com|2014-05-10 09:24:34+02:00|-7200|Paolo Bonzini|pbonzini@redhat.com|2014-05-12 20:04:01+02:00|-7200

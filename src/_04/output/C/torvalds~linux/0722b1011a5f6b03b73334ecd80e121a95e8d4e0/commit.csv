@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0722b1011a5f6b03b73334ecd80e121a95e8d4e0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: set page private for inmemory pages for truncation
-
-The inmemory pages should be handled by invalidate_page since it needs to be
-released int the truncation path.
-
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|1|Jaegeuk Kim|jaegeuk@kernel.org|2014-12-05 11:58:02-08:00|28800|Jaegeuk Kim|jaegeuk@kernel.org|2014-12-08 10:35:14-08:00|28800

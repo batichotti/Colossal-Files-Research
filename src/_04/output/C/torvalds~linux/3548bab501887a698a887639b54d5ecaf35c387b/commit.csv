@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3548bab501887a698a887639b54d5ecaf35c387b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Drop user return notifier when disabling virtualization on a cpu
-
-This way, we don't leave a dangling notifier on cpu hotunplug or module
-unload.  In particular, module unload leaves the notifier pointing into
-freed memory.
-
-Signed-off-by: Avi Kivity <avi@redhat.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|1|Avi Kivity|avi@redhat.com|2009-11-28 14:18:47+02:00|-7200|Avi Kivity|avi@redhat.com|2009-12-03 09:32:26+02:00|-7200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|950fe885a89770619e315f9b46301eebf0aab7b3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mm: remove __HAVE_ARCH_PTE_SWP_EXCLUSIVE
-
-__HAVE_ARCH_PTE_SWP_EXCLUSIVE is now supported by all architectures that
-support swp PTEs, so let's drop it.
-
-Link: https://lkml.kernel.org/r/20230113171026.582290-27-david@redhat.com
-Signed-off-by: David Hildenbrand <david@redhat.com>
-Signed-off-by: Andrew Morton <akpm@linux-foundation.org>"|31|David Hildenbrand|david@redhat.com|2023-01-13 18:10:26+01:00|-3600|Andrew Morton|akpm@linux-foundation.org|2023-02-02 22:33:11-08:00|28800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7a5febe9ffeecd1e78c5b505260ccc1ef18021b4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[PATCH] md: set the unplug_fn and issue_flush_fn for md devices *after* committed to creation
-
-We we set the too early, they may still be in place and possibly get called
-even though the array didn't get set up properly.
-
-Signed-off-by: Neil Brown <neilb@cse.unsw.edu.au>
-Signed-off-by: Andrew Morton <akpm@osdl.org>
-Signed-off-by: Linus Torvalds <torvalds@osdl.org>"|5|NeilBrown|neilb@cse.unsw.edu.au|2005-05-16 21:53:16-07:00|25200|Linus Torvalds|torvalds@ppc970.osdl.org|2005-05-17 07:59:12-07:00|25200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c45dd30551c371cb1e7a742136b8b36f6aba63f8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] qla2xxx: Queue depth ramp up/down modification changes.
-
-Removed the module parameters ql2xqfulltracking and ql2xqfullrampup
-since the queue depth ramp up/down functionality is moved to scsi-ml.
-
-Signed-off-by: Giridhar Malavali <giridhar.malavali@qlogic.com>
-Signed-off-by: James Bottomley <James.Bottomley@suse.de>"|4|Giridhar Malavali|giridhar.malavali@qlogic.com|2009-12-02 10:36:54-08:00|28800|James Bottomley|James.Bottomley@suse.de|2009-12-10 08:54:18-06:00|21600

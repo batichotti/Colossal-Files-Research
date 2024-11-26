@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e38da59269be8c0196d16dff1be5bb26076afc6a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tracing/stack-tracer: avoid races accessing file
-
-Impact: fix race
-
-vma->vm_file reference is only stable while holding the mmap_sem,
-so move usage of it to within the critical section.
-
-Signed-off-by: Ingo Molnar <mingo@elte.hu>"|1|Török Edwin|edwintorok@gmail.com|2008-11-23 13:08:10+02:00|-7200|Ingo Molnar|mingo@elte.hu|2008-11-23 12:20:26+01:00|-3600

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0546c63d988d347fc734fc8c624692b30f95f633|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: s390: implements the kvm_arch_vcpu_in_kernel()
-
-This implements kvm_arch_vcpu_in_kernel() for s390.  DIAG is a privileged
-operation, so it cannot be called from problem state (user mode).
-
-Signed-off-by: Longpeng(Mike) <longpeng2@huawei.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|2|Longpeng(Mike)|longpeng2@huawei.com|2017-08-08 12:05:34+08:00|-28800|Paolo Bonzini|pbonzini@redhat.com|2017-08-08 10:57:43+02:00|-7200

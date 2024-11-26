@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f61408b81cd040a594dc0b65171230c4d5cc917d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: remove dead code
-
-This patch removes a bunch of dead code from the snapshot removal stuff.  It
-was confusing me when doing the metadata ENOSPC stuff so I killed it.
-
-Signed-off-by: Josef Bacik <jbacik@redhat.com>
-Signed-off-by: Chris Mason <chris.mason@oracle.com>"|1|Josef Bacik|josef@redhat.com|2009-09-11 16:11:20-04:00|14400|Chris Mason|chris.mason@oracle.com|2009-09-21 19:23:49-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|36cfd3a6e52bd65d42b1d04fbff30ac427f80cbd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: mvpp2: restructure ""link status"" interrupt handling
-
-The ""link status"" interrupt is used for more than just link status.
-Restructure mvpp2_link_status_isr() so we can add additional handling.
-
-Reviewed-by: Andrew Lunn <andrew@lunn.ch>
-Signed-off-by: Russell King <rmk+kernel@armlinux.org.uk>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Russell King|rmk+kernel@armlinux.org.uk|2020-09-09 17:25:35+01:00|-3600|David S. Miller|davem@davemloft.net|2020-09-09 14:22:41-07:00|25200

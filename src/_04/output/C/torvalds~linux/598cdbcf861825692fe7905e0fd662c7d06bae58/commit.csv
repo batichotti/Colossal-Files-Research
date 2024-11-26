@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|598cdbcf861825692fe7905e0fd662c7d06bae58|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"selinux: fix broken peer recv check
-
-Fix a broken networking check. Return an error if peer recv fails.  If
-secmark is active and the packet recv succeeds the peer recv error is
-ignored.
-
-Signed-off-by: Chad Hanson <chanson@trustedcs.com>
-Signed-off-by: Paul Moore <pmoore@redhat.com>"|1|Chad Hanson|chanson@trustedcs.com|2013-12-11 17:07:56-05:00|18000|Paul Moore|pmoore@redhat.com|2013-12-11 17:07:56-05:00|18000

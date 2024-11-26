@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6c2f527cb84cbd7d2d8a668c979e70bf78980ccc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] qla2xxx: Convert vport_sem to a mutex
-
-The semaphore vport_sem is used as a mutex.  Convert it to the
-mutex API.
-
-Signed-off-by: Matthias Kaehlcke <matthias@kaehlcke.net>
-Signed-off-by: Andrew Vasquez <andrew.vasquez@qlogic.com>
-Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"|5|matthias@kaehlcke.net|matthias@kaehlcke.net|2008-05-12 22:21:11-07:00|25200|James Bottomley|James.Bottomley@HansenPartnership.com|2008-05-15 16:39:29+01:00|-3600

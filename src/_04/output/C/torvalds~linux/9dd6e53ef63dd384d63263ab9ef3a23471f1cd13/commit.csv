@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9dd6e53ef63dd384d63263ab9ef3a23471f1cd13|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"i40e: check vsi type before setting xdp_features flag
-
-Set xdp_features flag just for I40E_VSI_MAIN vsi type since XDP is
-supported just in this configuration.
-
-Signed-off-by: Lorenzo Bianconi <lorenzo@kernel.org>
-Link: https://lore.kernel.org/r/f2b537f86b34fc176fbc6b3d249b46a20a87a2f3.1676405131.git.lorenzo@kernel.org
-Signed-off-by: Jakub Kicinski <kuba@kernel.org>"|1|Lorenzo Bianconi|lorenzo@kernel.org|2023-02-14 21:07:33+01:00|-3600|Jakub Kicinski|kuba@kernel.org|2023-02-15 19:07:54-08:00|28800

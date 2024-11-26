@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5cc8976bd52153678ca37cc1e3000833b20276f3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tracing: Move the pid_list seq_file functions to be global
-
-To allow other aspects of ftrace to use the pid_list logic, we need to reuse
-the seq_file functions. Making the generic part into functions that can be
-called by other files will help in this regard.
-
-Signed-off-by: Steven Rostedt <rostedt@goodmis.org>"|3|Steven Rostedt (Red Hat)|rostedt@goodmis.org|2016-04-20 15:19:54-04:00|14400|Steven Rostedt|rostedt@goodmis.org|2016-06-20 09:54:17-04:00|14400

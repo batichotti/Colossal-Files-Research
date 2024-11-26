@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fe87bef01f9be5d968badb35648a527fa37888c1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8169: don't check WoL when powering down PHY and interface is down
-
-We can power down the PHY irregardless of WOL settings if interface
-is down. So far we would have left the PHY enabled if WOL options
-are set and the interface is brought down.
-
-Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Heiner Kallweit|hkallweit1@gmail.com|2018-06-24 18:40:23+02:00|-7200|David S. Miller|davem@davemloft.net|2018-06-25 16:21:51+09:00|-32400

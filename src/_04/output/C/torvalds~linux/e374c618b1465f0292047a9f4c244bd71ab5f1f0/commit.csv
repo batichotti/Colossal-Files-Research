@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e374c618b1465f0292047a9f4c244bd71ab5f1f0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: ipv6: more places need LOOPBACK_IFINDEX for flowi6_iif
-
-To properly match iif in ip rules we have to provide
-LOOPBACK_IFINDEX in flowi6_iif, not 0. Some ip6mr_fib_lookup
-and fib6_rule_lookup callers need such fix.
-
-Signed-off-by: Julian Anastasov <ja@ssi.bg>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|Julian Anastasov|ja@ssi.bg|2014-04-28 10:51:56+03:00|-10800|David S. Miller|davem@davemloft.net|2014-04-28 14:47:03-04:00|14400

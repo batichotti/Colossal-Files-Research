@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3cc5ea94de5f71dff0d3353f610e729308583e6b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM/MMU: Flush tlb directly in kvm_set_pte_rmapp()
-
-This patch is to flush tlb directly in kvm_set_pte_rmapp()
-function when Hyper-V remote TLB flush is available, returning 0
-so that kvm_mmu_notifier_change_pte() does not flush again.
-
-Signed-off-by: Lan Tianyu <Tianyu.Lan@microsoft.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Lan Tianyu|Tianyu.Lan@microsoft.com|2018-12-06 21:21:12+08:00|-28800|Paolo Bonzini|pbonzini@redhat.com|2018-12-21 11:28:42+01:00|-3600

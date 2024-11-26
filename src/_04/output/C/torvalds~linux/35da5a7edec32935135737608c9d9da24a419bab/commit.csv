@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|35da5a7edec32935135737608c9d9da24a419bab|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: drop private_data parameter from extent_io_tree_init
-
-All callers except one pass NULL, so the parameter can be dropped and
-the inode::io_tree initialization can be open coded.
-
-Reviewed-by: Anand Jain <anand.jain@oracle.com>
-Signed-off-by: David Sterba <dsterba@suse.com>"|9|David Sterba|dsterba@suse.com|2022-10-28 02:47:06+02:00|-7200|David Sterba|dsterba@suse.com|2022-12-05 18:00:54+01:00|-3600

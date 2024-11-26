@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|27859f9773e4a0b2042435b13400ee2c891a61f4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libceph: wrap auth ops in wrapper functions
-
-Use wrapper functions that check whether the auth op exists so that callers
-do not need a bunch of conditional checks.  Simplifies the external
-interface.
-
-Signed-off-by: Sage Weil <sage@inktank.com>
-Reviewed-by: Alex Elder <elder@inktank.com>"|6|Sage Weil|sage@inktank.com|2013-03-25 10:26:14-07:00|25200|Sage Weil|sage@inktank.com|2013-05-01 21:17:14-07:00|25200

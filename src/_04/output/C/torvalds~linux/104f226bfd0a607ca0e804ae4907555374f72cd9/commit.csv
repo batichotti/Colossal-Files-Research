@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|104f226bfd0a607ca0e804ae4907555374f72cd9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: Fold __vmx_vcpu_run() into vmx_vcpu_run()
-
-cea15c2 (""KVM: Move KVM context switch into own function"") split vmx_vcpu_run()
-to prevent multiple copies of the context switch from being generated (causing
-problems due to a label).  This patch folds them back together again and adds
-the __noclone attribute to prevent the label from being duplicated.
-
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Avi Kivity|avi@redhat.com|2010-11-18 13:12:52+02:00|-7200|Avi Kivity|avi@redhat.com|2011-01-12 11:29:37+02:00|-7200

@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5138fde01161cd7976fdc51f6a17da73adaa6baf|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS/SUNRPC: Convert all users of rpc_call_setup()
-
-Replace use of rpc_call_setup() with rpc_init_task(), and in cases where we
-need to initialise task->tk_action, with rpc_call_start().
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|3|Trond Myklebust|Trond.Myklebust@netapp.com|2007-07-14 15:40:01-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2008-01-30 02:05:32-05:00|18000

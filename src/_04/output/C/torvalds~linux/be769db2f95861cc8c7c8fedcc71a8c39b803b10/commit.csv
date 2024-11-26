@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|be769db2f95861cc8c7c8fedcc71a8c39b803b10|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: Get rid of consume_skb when tracing is off
-
-The function consume_skb is only meaningful when tracing is enabled.
-This patch makes it conditional on CONFIG_TRACEPOINTS.
-
-Signed-off-by: Herbert Xu <herbert@gondor.apana.org.au>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Herbert Xu|herbert@gondor.apana.org.au|2020-08-22 08:23:29+10:00|-36000|David S. Miller|davem@davemloft.net|2020-08-24 16:12:26-07:00|25200

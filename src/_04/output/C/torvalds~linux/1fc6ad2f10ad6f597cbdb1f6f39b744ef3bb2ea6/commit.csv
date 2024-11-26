@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1fc6ad2f10ad6f597cbdb1f6f39b744ef3bb2ea6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cifs: remove header_preamble_size where it is always 0
-
-Since header_preamble_size is 0 for SMB2+ we can remove it in those
-code paths that are only invoked from SMB2.
-
-Signed-off-by: Ronnie Sahlberg <lsahlber@redhat.com>
-Signed-off-by: Steve French <stfrench@microsoft.com>"|3|Ronnie Sahlberg|lsahlber@redhat.com|2018-06-01 10:53:07+10:00|-36000|Steve French|stfrench@microsoft.com|2018-06-01 09:14:30-05:00|18000

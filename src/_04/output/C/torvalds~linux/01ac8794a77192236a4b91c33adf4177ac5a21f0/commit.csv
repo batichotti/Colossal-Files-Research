@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|01ac8794a77192236a4b91c33adf4177ac5a21f0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/radeon: re-order firmware loading in preparation for dpm rework
-
-We need to reorder the driver init sequence to better accomodate
-dpm which needs to be loaded earlier in the init sequence.  Move
-fw init up so that it's available for dpm init.
-
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|6|Alex Deucher|alexander.deucher@amd.com|2013-12-18 19:11:27-05:00|18000|Alex Deucher|alexander.deucher@amd.com|2013-12-24 17:54:40-05:00|18000

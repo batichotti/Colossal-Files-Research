@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|726fdbe9fa7ebccda1579716f68f8bae6fa9c87a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"qed: Encapsulate interrupt counters in struct
-
-We already have an API struct that contains interrupt-related
-numbers. Use it to encapsulate all information relating to the
-status of SBs as (used|free).
-
-Signed-off-by: Yuval Mintz <Yuval.Mintz@cavium.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|6|Mintz, Yuval|Yuval.Mintz@cavium.com|2017-06-01 15:29:06+03:00|-10800|David S. Miller|davem@davemloft.net|2017-06-01 12:17:18-04:00|14400

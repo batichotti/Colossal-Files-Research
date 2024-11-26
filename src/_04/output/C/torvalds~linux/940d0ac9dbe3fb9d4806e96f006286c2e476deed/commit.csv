@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|940d0ac9dbe3fb9d4806e96f006286c2e476deed|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cfg80211: fix rtnl leak in wiphy dump error cases
-
-In two wiphy dump error cases, most often when the dump allocation
-must be increased, the RTNL is leaked. This quickly results in a
-complete system lockup. Release the RTNL correctly.
-
-Reported-by: Emmanuel Grumbach <emmanuel.grumbach@intel.com>
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2013-06-11 16:51:03+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2013-06-11 16:52:39+02:00|-7200

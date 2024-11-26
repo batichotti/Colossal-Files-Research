@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e669cf803cb14d63d0b7c612286e5cfdec6e34f7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Make mgmt_pin_code_reply_complete() return void
-
-The return value of mgmt_pin_code_reply_complete() function is not
-used and so just change it to return void.
-
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>
-Signed-off-by: Gustavo Padovan <gustavo.padovan@collabora.co.uk>"|2|Marcel Holtmann|marcel@holtmann.org|2013-10-15 14:26:21-07:00|25200|Gustavo Padovan|gustavo.padovan@collabora.co.uk|2013-10-15 20:53:01-03:00|10800

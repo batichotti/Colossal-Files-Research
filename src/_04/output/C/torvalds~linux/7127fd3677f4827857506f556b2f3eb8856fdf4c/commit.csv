@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7127fd3677f4827857506f556b2f3eb8856fdf4c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86/emulate: Remove unused ""tss_selector"" of task_switch_{16, 32}()
-
-The ""u16 tss_selector"" parameter of task_switch_{16, 32}()
-is not used, so remove it. No functional change intended.
-
-Signed-off-by: Jinrong Liang <cloudliang@tencent.com>
-Message-Id: <20220125095909.38122-16-cloudliang@tencent.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Jinrong Liang|cloudliang@tencent.com|2022-01-25 17:59:05+08:00|-28800|Paolo Bonzini|pbonzini@redhat.com|2022-02-10 13:47:14-05:00|18000

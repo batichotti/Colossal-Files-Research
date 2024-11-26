@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7f053a6a745557b3f3ad63e9d28ba85c3c0b1563|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"MD: fix a null dereference
-
-rdev->mddev could be null in start time.
-
-Reported-by: Ming Lei <ming.lei@redhat.com>
-Fix: 5a85071c2cbc(md: use a separate bio_set for synchronous IO.)
-Cc: NeilBrown <neilb@suse.com>
-Signed-off-by: Shaohua Li <shli@fb.com>"|1|Shaohua Li|shli@fb.com|2017-06-23 09:19:49-07:00|25200|Shaohua Li|shli@fb.com|2017-06-23 09:19:49-07:00|25200

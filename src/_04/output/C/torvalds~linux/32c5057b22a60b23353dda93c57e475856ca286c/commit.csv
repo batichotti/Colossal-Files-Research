@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|32c5057b22a60b23353dda93c57e475856ca286c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: use IEEE80211_NUM_ACS
-
-When comparing hw->queues to determine if the
-device is QoS capable, use IEEE80211_NUM_ACS
-instead of just 4.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|5|Johannes Berg|johannes.berg@intel.com|2012-03-28 11:04:29+02:00|-7200|John W. Linville|linville@tuxdriver.com|2012-04-10 14:56:10-04:00|14400

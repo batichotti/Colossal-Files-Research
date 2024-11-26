@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e06324303662fc23bb91e4e9d86650fb8c6d8398|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wifi: rt2x00: silence sparse warnings
-
-Clearly writing __le32 was intended here, so just put the
-right casts into the code to silence sparse about it.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>
-Signed-off-by: Kalle Valo <kvalo@kernel.org>
-Link: https://msgid.link/20240223114023.ce0c714124e9.I2b5710b761f63522574fbe7654d37151c31e0b77@changeid"|1|Johannes Berg|johannes.berg@intel.com|2024-02-23 11:40:25+01:00|-3600|Kalle Valo|kvalo@kernel.org|2024-02-28 13:37:22+02:00|-7200

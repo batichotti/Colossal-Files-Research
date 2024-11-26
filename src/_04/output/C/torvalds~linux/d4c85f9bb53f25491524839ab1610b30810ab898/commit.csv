@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d4c85f9bb53f25491524839ab1610b30810ab898|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"crypto: testmgr - remove unused function argument
-
-The argument ""req"" of do_one_async_hash_op is not used by the
-function. This patch removes this argument and renames the
-function to match more closely its purpose.
-
-Signed-off-by: Cristian Stoica <cristian.stoica@freescale.com>
-Signed-off-by: Herbert Xu <herbert@gondor.apana.org.au>"|1|Cristian Stoica|cristian.stoica@freescale.com|2014-08-08 12:30:04+03:00|-10800|Herbert Xu|herbert@gondor.apana.org.au|2014-08-25 20:32:32+08:00|-28800

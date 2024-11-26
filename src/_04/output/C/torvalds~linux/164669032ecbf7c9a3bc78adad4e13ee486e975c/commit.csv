@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|164669032ecbf7c9a3bc78adad4e13ee486e975c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"iwlwifi: remove 4965 prefix from iwl4965_kw and iwl4965_tx_queue
-
-This patch removes the 4965 prefix to form iwl_kw and iwl_tx_queue structs,
-as they are used mostly in iwlcore now.
-
-Signed-off-by: Ron Rindjunsky <ron.rindjunsky@intel.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|7|Ron Rindjunsky|ron.rindjunsky@intel.com|2008-05-05 10:22:50+08:00|-28800|John W. Linville|linville@tuxdriver.com|2008-05-14 16:29:47-04:00|14400

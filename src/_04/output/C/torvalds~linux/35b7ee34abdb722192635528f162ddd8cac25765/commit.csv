@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|35b7ee34abdb722192635528f162ddd8cac25765|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nftables: Add __printf() attribute
-
-nft_request_module calls vsnprintf() using parameters passed to it.
-Make the function with __printf() attribute so the compiler can check
-the format and arguments.
-
-Signed-off-by: Andrew Lunn <andrew@lunn.ch>
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|1|Andrew Lunn|andrew@lunn.ch|2020-10-31 19:21:44+01:00|-3600|Pablo Neira Ayuso|pablo@netfilter.org|2020-11-01 11:50:32+01:00|-3600

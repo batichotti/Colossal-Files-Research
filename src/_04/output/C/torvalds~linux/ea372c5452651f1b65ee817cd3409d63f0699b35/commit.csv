@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ea372c5452651f1b65ee817cd3409d63f0699b35|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cfg80211: remove unneeded initialisations in nl80211_set_reg
-
-Some variables are assigned unconditionally, remove their
-initialisations to help avoid introducing errors later.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2014-11-28 14:54:31+01:00|-3600|Johannes Berg|johannes.berg@intel.com|2014-11-28 14:54:31+01:00|-3600

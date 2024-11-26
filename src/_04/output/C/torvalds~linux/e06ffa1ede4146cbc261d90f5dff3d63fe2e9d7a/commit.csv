@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e06ffa1ede4146cbc261d90f5dff3d63fe2e9d7a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"workqueue: use percpu allocator for cwq on UP
-
-I notice that the commit bbddff makes percpu allocator can work on UP,
-So we don't need the magic way for UP.
-
-Signed-off-by: Lai Jiangshan <laijs@cn.fujitsu.com>
-Signed-off-by: Tejun Heo <tj@kernel.org>"|1|Lai Jiangshan|laijs@cn.fujitsu.com|2012-03-09 18:03:20+08:00|-28800|Tejun Heo|tj@kernel.org|2012-03-12 09:21:17-07:00|25200

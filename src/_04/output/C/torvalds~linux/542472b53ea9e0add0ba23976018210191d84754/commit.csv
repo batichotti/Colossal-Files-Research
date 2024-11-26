@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|542472b53ea9e0add0ba23976018210191d84754|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Add coalesced MMIO support (x86 part)
-
-This patch enables coalesced MMIO for x86 architecture.
-It defines KVM_MMIO_PAGE_OFFSET and KVM_CAP_COALESCED_MMIO.
-It enables the compilation of coalesced_mmio.c.
-
-Signed-off-by: Laurent Vivier <Laurent.Vivier@bull.net>
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|3|Laurent Vivier|Laurent.Vivier@bull.net|2008-05-30 16:05:55+02:00|-7200|Avi Kivity|avi@qumranet.com|2008-07-20 12:42:31+03:00|-10800

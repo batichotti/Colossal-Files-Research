@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f98ce92fea8a865b044d3bc4097e88a81efb74b5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Disable crtcs gracefully before GPU reset on gen3/4
-
-The GPU reset also resets the display on gen3/4. The g33 docs say we
-should disable all planes before flipping the reset switch. Just
-disable all the crtcs instead. That seems a nicer thing to do anyway.
-
-Signed-off-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Signed-off-by: Daniel Vetter <daniel.vetter@ffwll.ch>"|2|Ville Syrjälä|ville.syrjala@linux.intel.com|2014-11-21 21:54:30+02:00|-7200|Daniel Vetter|daniel.vetter@ffwll.ch|2014-12-03 09:29:39+01:00|-3600

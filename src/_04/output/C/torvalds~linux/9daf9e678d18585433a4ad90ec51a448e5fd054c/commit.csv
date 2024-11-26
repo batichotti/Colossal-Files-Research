@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9daf9e678d18585433a4ad90ec51a448e5fd054c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"workqueue: add worker_pool->id
-
-Add worker_pool->id which is allocated from worker_pool_idr.  This
-will be used to record the last associated worker_pool in work->data.
-
-Signed-off-by: Tejun Heo <tj@kernel.org>
-Reviewed-by: Lai Jiangshan <laijs@cn.fujitsu.com>"|1|Tejun Heo|tj@kernel.org|2013-01-24 11:01:33-08:00|28800|Tejun Heo|tj@kernel.org|2013-01-24 11:01:33-08:00|28800

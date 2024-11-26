@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3f4d4c74101d60b88d23289bd4f5f6126c7235fc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bpf: Refactor BTF encoding macro to test_btf.h
-
-Refactor common BTF encoding macros for other tests to use.
-The libbpf may reuse some of them in the future  which requires
-some more thoughts before publishing as a libbpf API.
-
-Signed-off-by: Martin KaFai Lau <kafai@fb.com>
-Signed-off-by: Alexei Starovoitov <ast@kernel.org>"|2|Martin KaFai Lau|kafai@fb.com|2019-04-26 16:39:46-07:00|25200|Alexei Starovoitov|ast@kernel.org|2019-04-27 09:07:05-07:00|25200

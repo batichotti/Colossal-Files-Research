@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d8ebb442264de62d5d0157adb8f0df96e831b3d3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tools/power turbostat: fix SKX PKG_CSTATE_LIMIT decoding
-
-SKX has fewer package C-states than previous generations,
-and so the decoding of PKG_CSTATE_LIMIT has changed.
-
-This changes the line ending with pkg-cstate-limit=XXX: pcYYY
-
-Signed-off-by: Len Brown <len.brown@intel.com>"|1|Len Brown|len.brown@intel.com|2016-12-01 20:27:46-05:00|18000|Len Brown|len.brown@intel.com|2016-12-01 20:27:46-05:00|18000

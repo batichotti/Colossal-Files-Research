@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1188739757d0e78810de5fe83dbe0128f624b9e8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: refactor PCH_DPLL_SEL #defines
-
-The bits are evenly space, so we can cut down on two big switch
-blocks. This also greatly simplifies the hw state readout which
-follows in the next patch.
-
-Reviewed-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Signed-off-by: Daniel Vetter <daniel.vetter@ffwll.ch>"|2|Daniel Vetter|daniel.vetter@ffwll.ch|2013-06-05 13:34:09+02:00|-7200|Daniel Vetter|daniel.vetter@ffwll.ch|2013-06-10 19:48:56+02:00|-7200

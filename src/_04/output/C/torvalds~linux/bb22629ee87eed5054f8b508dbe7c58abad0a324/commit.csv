@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bb22629ee87eed5054f8b508dbe7c58abad0a324|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: nfs4_open_confirm must not set the open_owner as confirmed on error
-
-RFC3530 states that the open_owner is confirmed if and only if the client
-sends an OPEN_CONFIRM request with the appropriate sequence id and stateid
-within the lease period.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|1|Trond Myklebust|Trond.Myklebust@netapp.com|2008-01-02 15:19:18-05:00|18000|Trond Myklebust|Trond.Myklebust@netapp.com|2008-01-03 09:37:17-05:00|18000

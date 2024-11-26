@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|55725513b5ef9d462aa3e18527658a0362aaae83|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: Ensure that we check lock exclusive/shared type against open modes
-
-Since we may be simulating flock() locks using NFS byte range locks,
-we can't rely on the VFS having checked the file open mode for us.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>
-Cc: stable@vger.kernel.org"|1|Trond Myklebust|Trond.Myklebust@netapp.com|2012-04-18 12:48:35-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2012-04-19 13:23:08-04:00|14400

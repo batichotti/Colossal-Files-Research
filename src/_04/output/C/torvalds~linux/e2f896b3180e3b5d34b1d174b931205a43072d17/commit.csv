@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e2f896b3180e3b5d34b1d174b931205a43072d17|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: send: use helpers for unaligned access to header members
-
-The header is mapped onto the send buffer and thus its members may be
-potentially unaligned so use the helpers instead of directly assigning
-the pointers. This has worked so far but let's use the helpers to make
-that clear.
-
-Signed-off-by: David Sterba <dsterba@suse.com>"|1|David Sterba|dsterba@suse.com|2020-09-15 10:54:23+02:00|-7200|David Sterba|dsterba@suse.com|2020-10-07 12:13:23+02:00|-7200

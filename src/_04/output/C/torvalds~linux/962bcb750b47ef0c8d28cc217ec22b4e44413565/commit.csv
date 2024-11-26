@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|962bcb750b47ef0c8d28cc217ec22b4e44413565|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"be2net: avoid SRIOV config for BE2 chip
-
-As SRIOV is not supported on BE2 chip, avoid calling be_get/set_sriov_config()
-for BE2 chip.
-
-Signed-off-by: Sathya Perla <sathya.perla@emulex.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Vasundhara Volam|vasundhara.volam@emulex.com|2014-07-17 16:20:30+05:30|-19800|David S. Miller|davem@davemloft.net|2014-07-17 16:38:15-07:00|25200

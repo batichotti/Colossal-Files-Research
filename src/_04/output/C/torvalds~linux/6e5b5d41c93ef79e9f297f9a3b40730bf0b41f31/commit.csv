@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6e5b5d41c93ef79e9f297f9a3b40730bf0b41f31|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Revert ""f2fs: return wrong error number on f2fs_quota_write""
-
-This reverts commit 4f31d26b0c17f2aae6a6afeb823a87e20671ab4b.
-
-It turns out that we need to report error number if nothing was written.
-
-Reviewed-by: Chao Yu <yuchao0@huawei.com>
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|1|Jaegeuk Kim|jaegeuk@kernel.org|2017-10-19 12:07:11-07:00|25200|Jaegeuk Kim|jaegeuk@kernel.org|2017-10-26 10:44:23+02:00|-7200

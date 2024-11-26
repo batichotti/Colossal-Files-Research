@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|51af6d7c1f31e0f3d42c87d53657ec7acb6e3462|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"be2net: fix vfs enumeration
-
-Current VFs enumeration algorithm used in be_find_vfs does not take domain
-number into the match. The match found in igb/ixgbe is more elegant and
-safe.
-
-Signed-off-by: Ivan Vecera <ivecera@redhat.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Ivan Vecera|ivecera@redhat.com|2012-09-25 02:50:42+00:00|0|David S. Miller|davem@davemloft.net|2012-09-27 18:14:15-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7d5c11da1ff6389511c42448f59456373edfc103|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Refactor read_ext_controller_info handler
-
-There is no need to allocate heap for reply only to copy stack data to
-it. This also fix rp memory leak and missing hdev unlock if kmalloc
-failed.
-
-Signed-off-by: Szymon Janc <szymon.janc@codecoup.pl>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|1|Szymon Janc|szymon.janc@codecoup.pl|2016-09-19 20:25:52+02:00|-7200|Marcel Holtmann|marcel@holtmann.org|2016-09-19 20:33:27+02:00|-7200

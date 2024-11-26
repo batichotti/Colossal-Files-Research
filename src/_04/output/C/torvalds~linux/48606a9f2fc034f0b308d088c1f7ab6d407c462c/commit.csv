@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|48606a9f2fc034f0b308d088c1f7ab6d407c462c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md/raid5: correctly update sync_completed when we reach max_resync
-
-At the end of reshape_request we update cyrr_resync_completed
-if we are about to pause due to reaching resync_max.
-However we update it to the wrong value.  We need to add the
-""reshape_sectors"" that have just been reshaped.
-
-Signed-off-by: NeilBrown <neilb@suse.de>"|1|NeilBrown|neilb@suse.de|2009-06-18 09:14:12+10:00|-36000|NeilBrown|neilb@suse.de|2009-06-18 09:14:12+10:00|-36000

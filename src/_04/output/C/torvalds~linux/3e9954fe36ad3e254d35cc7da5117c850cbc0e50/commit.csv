@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3e9954fe36ad3e254d35cc7da5117c850cbc0e50|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"crypto: hisilicon/qm - removing driver after reset
-
-Add waiting logic for resetting as removing driver,
-otherwise call trace will occur due to releasing resource.
-
-Signed-off-by: Weili Qian <qianweili@huawei.com>
-Reviewed-by: Zaibo Xu <xuzaibo@huawei.com>
-Signed-off-by: Herbert Xu <herbert@gondor.apana.org.au>"|5|Weili Qian|qianweili@huawei.com|2021-02-05 18:12:53+08:00|-28800|Herbert Xu|herbert@gondor.apana.org.au|2021-02-10 17:56:00+11:00|-39600

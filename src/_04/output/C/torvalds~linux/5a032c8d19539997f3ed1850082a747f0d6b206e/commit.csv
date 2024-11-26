@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5a032c8d19539997f3ed1850082a747f0d6b206e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ath11k: add WMI calls required for handling BSS color
-
-If the he_operation field of the beacon sets a BSS color, we need to inform
-the FW of the settings. This patch adds the WMI command handlers required
-to do so.
-
-Signed-off-by: John Crispin <john@phrozen.org>
-Signed-off-by: Kalle Valo <kvalo@codeaurora.org>"|2|John Crispin|john@phrozen.org|2019-12-17 15:19:20+01:00|-3600|Kalle Valo|kvalo@codeaurora.org|2020-03-17 08:41:00+02:00|-7200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|93ad12cf1a8c3be46d66581a7acaa1c7fce590e2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"staging: brcm80211: bug fix for n_ssids usage and update drv_info
-
--update drv_info so it's visible in ""ethtool -i"" output
--remove n_ssids usage. Fixes nullptr deref bug seen before.
-
-Signed-off-by: Grant Grundler <grundler@chromium.org>
-Acked-by: Nohee Ko <noheek@broadcom.com>
-Signed-off-by: Greg Kroah-Hartman <gregkh@suse.de>"|3|nohee ko|noheek@broadcom.com|2010-10-05 18:05:04-07:00|25200|Greg Kroah-Hartman|gregkh@suse.de|2010-10-05 18:36:39-07:00|25200

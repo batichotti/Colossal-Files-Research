@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7b20ea2579238f5e0da4bc93276c1b63c960c9ef|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"security/selinux: pass 'flags' arg to avc_audit() and avc_has_perm_flags()
-
-This allows MAY_NOT_BLOCK to be passed, in RCU-walk mode, through
-the new avc_has_perm_flags() to avc_audit() and thence the slow_avc_audit.
-
-Signed-off-by: NeilBrown <neilb@suse.de>
-Signed-off-by: Al Viro <viro@zeniv.linux.org.uk>"|3|NeilBrown|neilb@suse.de|2015-03-23 13:37:39+11:00|-39600|Al Viro|viro@zeniv.linux.org.uk|2015-05-11 08:13:11-04:00|14400

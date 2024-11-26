@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c9f21aaff1d1fb5629325130af469532d19beb93|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md: move async_tx_issue_pending_all outside spin_lock_irq
-
-Some dma drivers need to call spin_lock_bh in their device_issue_pending
-routines.  This change avoids:
-
-WARNING: at kernel/softirq.c:136 local_bh_enable_ip+0x3a/0x85()
-
-Signed-off-by: Dan Williams <dan.j.williams@intel.com>"|1|Dan Williams|dan.j.williams@intel.com|2008-07-23 12:05:51-07:00|25200|Dan Williams|dan.j.williams@intel.com|2008-07-23 12:05:51-07:00|25200

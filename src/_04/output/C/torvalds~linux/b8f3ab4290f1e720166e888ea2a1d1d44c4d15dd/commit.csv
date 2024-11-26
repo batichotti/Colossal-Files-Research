@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b8f3ab4290f1e720166e888ea2a1d1d44c4d15dd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Revert ""netlink: test for all flags of the NLM_F_DUMP composite""
-
-This reverts commit 0ab03c2b1478f2438d2c80204f7fef65b1bca9cf.
-
-It breaks several things including the avahi daemon.
-
-Signed-off-by: David S. Miller <davem@davemloft.net>"|5|David S. Miller|davem@davemloft.net|2011-01-18 12:40:38-08:00|28800|David S. Miller|davem@davemloft.net|2011-01-19 13:34:20-08:00|28800

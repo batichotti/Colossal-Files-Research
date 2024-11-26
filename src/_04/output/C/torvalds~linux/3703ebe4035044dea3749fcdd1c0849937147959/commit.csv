@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3703ebe4035044dea3749fcdd1c0849937147959|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"BNX2: free temp_stats_blk on error path
-
-In bnx2_init_board, missing free temp_stats_blk on error path when
-some operations do failed. Just add the 'kfree' operation.
-
-Signed-off-by: Wang Weidong <wangweidong1@huawei.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|wangweidong|wangweidong1@huawei.com|2015-10-13 10:05:19+08:00|-28800|David S. Miller|davem@davemloft.net|2015-10-12 19:33:46-07:00|25200

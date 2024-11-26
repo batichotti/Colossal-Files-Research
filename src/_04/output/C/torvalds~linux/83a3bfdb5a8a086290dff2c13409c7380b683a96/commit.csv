@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|83a3bfdb5a8a086290dff2c13409c7380b683a96|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: indicate shutdown f2fs to allow unmount successfully
-
-Once we shutdown f2fs, we have to flush stale pages in order to unmount
-the system. In order to make stable, we need to stop fault injection as well.
-
-Reviewed-by: Chao Yu <yuchao0@huawei.com>
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|6|Jaegeuk Kim|jaegeuk@kernel.org|2018-06-21 13:46:23-07:00|25200|Jaegeuk Kim|jaegeuk@kernel.org|2018-07-27 18:03:56+09:00|-32400

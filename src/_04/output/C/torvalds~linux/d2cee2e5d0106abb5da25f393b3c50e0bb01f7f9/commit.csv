@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d2cee2e5d0106abb5da25f393b3c50e0bb01f7f9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ixgbe: change ndo_xdp_xmit return code on xmit errors
-
-Use errno -ENOSPC (""No space left on device"") when the XDP xmit
-have no space left on the TX ring buffer, instead of -ENOMEM.
-
-Signed-off-by: Jesper Dangaard Brouer <brouer@redhat.com>
-Acked-by: John Fastabend <john.fastabend@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Jesper Dangaard Brouer|brouer@redhat.com|2017-08-17 18:22:32+02:00|-7200|David S. Miller|davem@davemloft.net|2017-08-18 16:18:31-07:00|25200

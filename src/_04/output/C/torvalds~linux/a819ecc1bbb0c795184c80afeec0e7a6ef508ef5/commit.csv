@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a819ecc1bbb0c795184c80afeec0e7a6ef508ef5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd: add locking to stateowner release
-
-Once we remove the client_mutex, we'll need to properly protect
-the stateowner reference counts using the cl_lock.
-
-Signed-off-by: Jeff Layton <jlayton@primarydata.com>
-Signed-off-by: J. Bruce Fields <bfields@redhat.com>"|1|Jeff Layton|jlayton@primarydata.com|2014-07-29 21:34:38-04:00|14400|J. Bruce Fields|bfields@redhat.com|2014-07-31 14:20:27-04:00|14400

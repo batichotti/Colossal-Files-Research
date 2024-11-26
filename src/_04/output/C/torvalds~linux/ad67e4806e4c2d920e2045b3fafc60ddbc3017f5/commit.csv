@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ad67e4806e4c2d920e2045b3fafc60ddbc3017f5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: MMU: clean up make_spte return value
-
-Now that make_spte is called directly by the shadow MMU (rather than
-wrapped by set_spte), it only has to return one boolean value.
-
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|5|Paolo Bonzini|pbonzini@redhat.com|2021-08-17 07:32:09-04:00|14400|Paolo Bonzini|pbonzini@redhat.com|2021-10-01 03:44:54-04:00|14400

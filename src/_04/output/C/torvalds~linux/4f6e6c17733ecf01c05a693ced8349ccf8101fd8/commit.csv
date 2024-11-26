@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4f6e6c17733ecf01c05a693ced8349ccf8101fd8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd4: simplify bind_conn_to_session locking
-
-The locking here is very fiddly, and there's no reason for us to be
-setting cstate->session, since this is the only op in the compound.
-Let's just take the state lock and drop the reference counting.
-
-Signed-off-by: J. Bruce Fields <bfields@redhat.com>"|1|J. Bruce Fields|bfields@redhat.com|2013-03-18 17:31:30-04:00|14400|J. Bruce Fields|bfields@redhat.com|2013-04-03 11:48:39-04:00|14400

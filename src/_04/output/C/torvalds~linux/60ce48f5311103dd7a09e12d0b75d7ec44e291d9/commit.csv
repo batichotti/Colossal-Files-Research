@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|60ce48f5311103dd7a09e12d0b75d7ec44e291d9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ASoC: codecs: wcd9335: Drop unused state container fields
-
-The driver does not use few 'struct wcd9335_codec' members, so just drop
-them for smaller code.
-
-Signed-off-by: Krzysztof Kozlowski <krzysztof.kozlowski@linaro.org>
-Link: https://msgid.link/r/20240612-asoc-wcd9xxx-wide-cleanups-v1-2-0d15885b2a06@linaro.org
-Signed-off-by: Mark Brown <broonie@kernel.org>"|1|Krzysztof Kozlowski|krzysztof.kozlowski@linaro.org|2024-06-12 18:15:15+02:00|-7200|Mark Brown|broonie@kernel.org|2024-06-18 16:47:15+01:00|-3600

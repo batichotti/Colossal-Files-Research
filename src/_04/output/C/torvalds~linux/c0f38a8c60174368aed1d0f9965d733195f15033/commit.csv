@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c0f38a8c60174368aed1d0f9965d733195f15033|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: reject expiration higher than timeout
-
-Report ERANGE to userspace if user specifies an expiration larger than
-the timeout.
-
-Fixes: 8e1102d5a159 (""netfilter: nf_tables: support timeouts larger than 23 days"")
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|1|Pablo Neira Ayuso|pablo@netfilter.org|2024-09-03 01:06:58+02:00|-7200|Pablo Neira Ayuso|pablo@netfilter.org|2024-09-03 18:18:26+02:00|-7200

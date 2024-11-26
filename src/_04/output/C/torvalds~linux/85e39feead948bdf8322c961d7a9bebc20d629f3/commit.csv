@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|85e39feead948bdf8322c961d7a9bebc20d629f3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4.1 identify and mark RPC tasks that can move between transports
-
-In preparation for when we can re-try a task on a different transport,
-identify and mark such RPC tasks as moveable. Only 4.1+ operarations can
-be re-tried on a different transport.
-
-Signed-off-by: Olga Kornievskaia <kolga@netapp.com>
-Signed-off-by: Trond Myklebust <trond.myklebust@hammerspace.com>"|4|Olga Kornievskaia|kolga@netapp.com|2021-06-23 23:28:51-04:00|14400|Trond Myklebust|trond.myklebust@hammerspace.com|2021-07-08 14:03:24-04:00|14400

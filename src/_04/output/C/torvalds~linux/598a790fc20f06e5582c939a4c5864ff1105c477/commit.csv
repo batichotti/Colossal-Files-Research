@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|598a790fc20f06e5582c939a4c5864ff1105c477|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: Allow HWCR.McStatusWrEn to be cleared once set
-
-When HWCR is set to 0, store 0 in vcpu->arch.msr_hwcr.
-
-Fixes: 191c8137a939 (""x86/kvm: Implement HWCR support"")
-Signed-off-by: Jim Mattson <jmattson@google.com>
-Link: https://lore.kernel.org/r/20230929230246.1954854-2-jmattson@google.com
-Signed-off-by: Sean Christopherson <seanjc@google.com>"|1|Jim Mattson|jmattson@google.com|2023-09-29 16:02:44-07:00|25200|Sean Christopherson|seanjc@google.com|2023-10-09 12:36:15-07:00|25200

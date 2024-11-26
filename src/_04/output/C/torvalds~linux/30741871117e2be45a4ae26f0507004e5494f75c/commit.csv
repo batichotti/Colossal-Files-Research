@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|30741871117e2be45a4ae26f0507004e5494f75c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[media] media: drx39xyj - fix to return actual error codes instead of -EIO
-
-Several functions ignore the return values in error legs and always
-return -EIO. This makes it hard to debug and take proper action in
-calling routines.
-
-Signed-off-by: Shuah Khan <shuah.kh@samsung.com>
-Signed-off-by: Mauro Carvalho Chehab <m.chehab@samsung.com>"|1|Shuah Khan|shuah.kh@samsung.com|2014-07-23 12:11:03-03:00|10800|Mauro Carvalho Chehab|m.chehab@samsung.com|2014-07-26 11:22:30-03:00|10800

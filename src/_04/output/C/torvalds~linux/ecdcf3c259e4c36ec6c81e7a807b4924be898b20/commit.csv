@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ecdcf3c259e4c36ec6c81e7a807b4924be898b20|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: open code insert_orphan_item
-
-Just open code it in its sole caller and remove a level of indirection.
-
-Reviewed-by: Anand Jain <anand.jain@oracle.com>
-Signed-off-by: Nikolay Borisov <nborisov@suse.com>
-Reviewed-by: David Sterba <dsterba@suse.com>
-Signed-off-by: David Sterba <dsterba@suse.com>"|1|Nikolay Borisov|nborisov@suse.com|2020-10-22 18:40:46+03:00|-10800|David Sterba|dsterba@suse.com|2020-12-08 15:53:42+01:00|-3600

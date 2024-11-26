@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2ff04286a9569675948f39cec2c6ad47c3584633|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ice: Delete always true check of PF pointer
-
-PF pointer is always valid when PCI core calls its .shutdown() and
-.remove() callbacks. There is no need to check it again.
-
-Fixes: 837f08fdecbe (""ice: Add basic driver framework for Intel(R) E800 Series"")
-Signed-off-by: Leon Romanovsky <leonro@nvidia.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Leon Romanovsky|leonro@nvidia.com|2021-09-23 21:12:52+03:00|-10800|David S. Miller|davem@davemloft.net|2021-09-24 14:12:57+01:00|-3600

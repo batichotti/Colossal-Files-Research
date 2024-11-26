@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|36261547c9699c6bc746b1db9508aaeb68faa7c9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Simplify the code for re-arming discoverable timeout
-
-When only the discoverable timeout gets updated, just cancel the current
-timeout, store the new timeout value. If the new timeout is valid, then
-arm the discoverable timeout again.
-
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>"|1|Marcel Holtmann|marcel@holtmann.org|2013-10-15 08:28:51-07:00|25200|Johan Hedberg|johan.hedberg@intel.com|2013-10-15 18:42:12+03:00|-10800

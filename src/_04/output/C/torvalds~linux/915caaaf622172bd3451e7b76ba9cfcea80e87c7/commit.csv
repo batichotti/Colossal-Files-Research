@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|915caaaf622172bd3451e7b76ba9cfcea80e87c7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] lpfc 8.2.7 : Change device reset behavior
-
-Prior handler was only waiting for I/O on one lun to finish before
-returning completion. Now, wait for all LUNs on the target.
-Also performed some rudimentary cleanup while in this code.
-
-Signed-off-by: James Smart <james.smart@emulex.com>
-Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"|1|James Smart|James.Smart@Emulex.Com|2008-06-14 22:52:38-04:00|14400|James Bottomley|James.Bottomley@HansenPartnership.com|2008-07-12 08:22:27-05:00|18000

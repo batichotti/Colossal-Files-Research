@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cc7f2dae63bca9579d65a46f3bf2c48a15961e19|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS: Don't store NFS_INO_REVAL_FORCED
-
-NFS_INO_REVAL_FORCED is intended to tell us that the cache needs
-revalidation despite the fact that we hold a delegation. We shouldn't
-need to store it anymore, though.
-
-Signed-off-by: Trond Myklebust <trond.myklebust@hammerspace.com>"|4|Trond Myklebust|trond.myklebust@hammerspace.com|2021-04-11 14:31:24-04:00|14400|Trond Myklebust|trond.myklebust@hammerspace.com|2021-04-14 09:36:29-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fcafde2e6d81aa7901f9b10e6a097592f0637b79|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Remove double free of SKB pointer in L2CAP
-
-Trivial fix for double free of SKB pointer with kfree_skb to
-make code simplier and cleaner. Remove unused variable err.
-
-Signed-off-by: Andrei Emeltchenko <andrei.emeltchenko@nokia.com>
-Acked-by: Gustavo F. Padovan <padovan@profusion.mobi>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|1|Andrei Emeltchenko|andrei.emeltchenko@nokia.com|2009-12-22 15:58:08+02:00|-7200|Marcel Holtmann|marcel@holtmann.org|2010-01-30 05:57:11-08:00|28800

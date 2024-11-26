@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1627442721f1b05b16fa33adeda214dc8659675c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: mvpp2: make mvpp2_read_relaxed static
-
-In the Marvell PPv2 driver the mvpp2_read_relaxed function is only used
-in a single file. Make it static and remove its prototype from the
-header.
-
-Signed-off-by: Antoine Tenart <antoine.tenart@bootlin.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Antoine Tenart|antoine.tenart@bootlin.com|2018-09-19 11:27:07+02:00|-7200|David S. Miller|davem@davemloft.net|2018-09-19 21:09:54-07:00|25200

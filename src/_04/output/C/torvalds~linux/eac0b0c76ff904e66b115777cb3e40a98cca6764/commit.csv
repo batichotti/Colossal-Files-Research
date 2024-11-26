@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|eac0b0c76ff904e66b115777cb3e40a98cca6764|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"advansys: use host_reset
-
-The advansys_reset() function is actually a host reset, not a
-bus reset. And there is no need to have a 'last_reset'
-value; the same value exists in struct Scsi_Host.
-
-Signed-off-by: Hannes Reinecke <hare@suse.de>
-Signed-off-by: James Bottomley <JBottomley@Odin.com>"|1|Hannes Reinecke|hare@suse.de|2015-04-24 13:18:20+02:00|-7200|James Bottomley|JBottomley@Odin.com|2015-05-25 09:18:23-07:00|25200

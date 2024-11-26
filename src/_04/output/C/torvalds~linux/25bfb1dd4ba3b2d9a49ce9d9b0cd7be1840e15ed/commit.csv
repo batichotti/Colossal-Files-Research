@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|25bfb1dd4ba3b2d9a49ce9d9b0cd7be1840e15ed|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bnx2: Add pci shutdown handler.
-
-WoL and power state changes will now be done in the shutdown handler.
-open/close/ethtool will no longer change the power state.  NVRAM
-operations can now be permitted whether the device is up or down.
-
-Signed-off-by: Michael Chan <mchan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Michael Chan|mchan@broadcom.com|2013-08-06 15:50:11-07:00|25200|David S. Miller|davem@davemloft.net|2013-08-07 10:44:07-07:00|25200

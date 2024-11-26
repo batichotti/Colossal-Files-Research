@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|13d82fb77abb9625f3ca74f5c4cbedde0f412f01|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cgroup: short-circuit cset_cgroup_from_root() on the default hierarchy
-
-Each css_set directly points to the default cgroup it belongs to, so
-there's no reason to walk the cgrp_links list on the default
-hierarchy.
-
-Signed-off-by: Tejun Heo <tj@kernel.org>"|1|Tejun Heo|tj@kernel.org|2017-08-02 15:39:38-07:00|25200|Tejun Heo|tj@kernel.org|2017-08-02 15:39:38-07:00|25200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|93df766322ba1db2801e4b826985a4932dd75866|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: MMU: Allow more than PAGES_PER_HPAGE write protections per large page
-
-nonpae guests can call rmap_write_protect twice per page (for page tables)
-or four times per page (for page directories), triggering a bogus warning.
-
-Remove the warning.
-
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|1|Avi Kivity|avi@qumranet.com|2008-05-02 13:23:10+03:00|-10800|Avi Kivity|avi@qumranet.com|2008-05-04 14:44:49+03:00|-10800

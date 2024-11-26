@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|49dc0558f764e02ba8c13ee56c1012a6883a981b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/edid: have edid_block_check() detect blocks that are all zero
-
-We have the check function, have it also detect blocks that are all zero
-instead of leaving that to callers.
-
-Signed-off-by: Jani Nikula <jani.nikula@intel.com>
-Reviewed-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Link: https://patchwork.freedesktop.org/patch/msgid/f9ad302e6b7dbcd1dff98d94ec5500ce27bebe10.1649685475.git.jani.nikula@intel.com"|1|Jani Nikula|jani.nikula@intel.com|2022-04-11 17:00:25+03:00|-10800|Jani Nikula|jani.nikula@intel.com|2022-04-14 16:51:13+03:00|-10800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a9d48205d0aedda021fc3728972a9e9934c2b9de|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: fool proof dev_valid_name()
-
-We want to use dev_valid_name() to validate tunnel names,
-so better use strnlen(name, IFNAMSIZ) than strlen(name) to make
-sure to not upset KASAN.
-
-Signed-off-by: Eric Dumazet <edumazet@google.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Eric Dumazet|edumazet@google.com|2018-04-05 06:39:26-07:00|25200|David S. Miller|davem@davemloft.net|2018-04-05 15:16:15-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|669f3765b755fd8739ab46ce3a9c6292ce8b3d2a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"s390/dasd: fix hanging offline processing due to canceled worker
-
-During offline processing two worker threads are canceled without
-freeing the device reference which leads to a hanging offline process.
-
-Reviewed-by: Jan Hoeppner <hoeppner@linux.ibm.com>
-Signed-off-by: Stefan Haberland <sth@linux.ibm.com>
-Signed-off-by: Martin Schwidefsky <schwidefsky@de.ibm.com>"|1|Stefan Haberland|sth@linux.ibm.com|2018-07-25 14:00:47+02:00|-7200|Martin Schwidefsky|schwidefsky@de.ibm.com|2018-08-09 12:49:32+02:00|-7200

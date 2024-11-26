@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a9ed2e2583747fb3139a764c317fac58893b968f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: Handle NFS4ERR_GRACE when recovering an expired lease.
-
-If our lease expires, and the server reboots while we're recovering, we
-need to be able to wait until the grace period is over.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|1|Trond Myklebust|Trond.Myklebust@netapp.com|2009-12-03 15:53:21-05:00|18000|Trond Myklebust|Trond.Myklebust@netapp.com|2009-12-03 15:53:21-05:00|18000

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7135840fc74699513d50e0c9c64922f2d38aa5e3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfs41: renewd sequence operations should take/put client reference
-
-renewd sends SEQUENCE requests to the NFS server in order to renew state.
-As the request is asynchronous, renewd should take a reference to the
-nfs_client to prevent concurrent umounts from freeing the session/client
-
-Signed-off-by: Alexandros Batsakis <batsakis@netapp.com>
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|1|Alexandros Batsakis|batsakis@netapp.com|2010-02-05 03:45:05-08:00|28800|Trond Myklebust|Trond.Myklebust@netapp.com|2010-03-02 12:54:30-05:00|18000

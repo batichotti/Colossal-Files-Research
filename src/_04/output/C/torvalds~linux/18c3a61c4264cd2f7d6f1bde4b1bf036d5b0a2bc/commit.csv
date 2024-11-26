@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|18c3a61c4264cd2f7d6f1bde4b1bf036d5b0a2bc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: ipv6: RTM_GETROUTE: return matched fib result when requested
-
-This patch adds support to return matched fib result when RTM_F_FIB_MATCH
-flag is specified in RTM_GETROUTE request. This is useful for user-space
-applications/controllers wanting to query a matching route.
-
-Signed-off-by: Roopa Prabhu <roopa@cumulusnetworks.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Roopa Prabhu|roopa@cumulusnetworks.com|2017-05-25 10:42:40-07:00|25200|David S. Miller|davem@davemloft.net|2017-05-26 14:12:51-04:00|14400

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|66bfcccdb893f2dfefe3fb19795034ac213667ad|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"habanalabs: remove duplicate print
-
-We print twice the firmware status regarding security, once in
-common code and once in asic code. Remove the print in asic code
-and leave the common code print.
-
-Signed-off-by: Oded Gabbay <ogabbay@kernel.org>"|2|Oded Gabbay|ogabbay@kernel.org|2020-10-28 21:05:20+02:00|-7200|Oded Gabbay|ogabbay@kernel.org|2020-11-30 10:47:33+02:00|-7200

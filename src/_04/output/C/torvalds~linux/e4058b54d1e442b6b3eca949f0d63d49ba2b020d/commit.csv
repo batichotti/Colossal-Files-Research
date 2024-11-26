@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e4058b54d1e442b6b3eca949f0d63d49ba2b020d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: cleanup, use enum values for btrfs_path reada
-
-Replace the integers by enums for better readability. The value 2 does
-not have any meaning since a717531942f488209dded30f6bc648167bcefa72
-""Btrfs: do less aggressive btree readahead"" (2009-01-22).
-
-Signed-off-by: David Sterba <dsterba@suse.com>"|11|David Sterba|dsterba@suse.com|2015-11-27 16:31:35+01:00|-3600|David Sterba|dsterba@suse.com|2016-01-07 15:01:15+01:00|-3600

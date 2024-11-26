@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7125ecb8297a122d60b2b4be9490f49bfadff8e0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: WARN if !HAS_PC8 when enabling/disabling PC8
-
-We already have some checks and shouldn't be reaching these places on
-!HAS_PC8 platforms, but add a WARN,  just in case.
-
-Signed-off-by: Paulo Zanoni <paulo.r.zanoni@intel.com>
-Reviewed-by: Rodrigo Vivi <rodrigo.vivi@gmail.com>
-Signed-off-by: Daniel Vetter <daniel.vetter@ffwll.ch>"|1|Paulo Zanoni|paulo.r.zanoni@intel.com|2013-11-21 13:47:15-02:00|7200|Daniel Vetter|daniel.vetter@ffwll.ch|2013-12-10 22:26:33+01:00|-3600

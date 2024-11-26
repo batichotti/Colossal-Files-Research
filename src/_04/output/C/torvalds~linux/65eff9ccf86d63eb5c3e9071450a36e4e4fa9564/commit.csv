@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|65eff9ccf86d63eb5c3e9071450a36e4e4fa9564|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ocfs2: remove handle argument to ocfs2_start_trans()
-
-All callers either pass in NULL directly, or a local variable that is
-already set to NULL.
-
-The internals of ocfs2_start_trans() get a nice cleanup as a result.
-
-Signed-off-by: Mark Fasheh <mark.fasheh@oracle.com>"|11|Mark Fasheh|mark.fasheh@oracle.com|2006-10-09 17:26:22-07:00|25200|Mark Fasheh|mark.fasheh@oracle.com|2006-12-01 18:28:23-08:00|28800

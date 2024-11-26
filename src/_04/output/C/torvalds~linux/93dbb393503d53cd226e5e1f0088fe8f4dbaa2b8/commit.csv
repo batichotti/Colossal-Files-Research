@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|93dbb393503d53cd226e5e1f0088fe8f4dbaa2b8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"block: fix bad definition of BIO_RW_SYNC
-
-We can't OR shift values, so get rid of BIO_RW_SYNC and use BIO_RW_SYNCIO
-and BIO_RW_UNPLUG explicitly. This brings back the behaviour from before
-213d9417fec62ef4c3675621b9364a667954d4dd.
-
-Signed-off-by: Jens Axboe <jens.axboe@oracle.com>"|9|Jens Axboe|jens.axboe@oracle.com|2009-02-16 10:25:40+01:00|-3600|Jens Axboe|jens.axboe@oracle.com|2009-02-18 10:32:00+01:00|-3600

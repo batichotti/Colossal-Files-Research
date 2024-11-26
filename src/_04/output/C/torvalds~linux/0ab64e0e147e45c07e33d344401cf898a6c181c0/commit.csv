@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0ab64e0e147e45c07e33d344401cf898a6c181c0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS: Reduce stack footprint of nfs4_proc_create()
-
-Move the O_EXCL open handling into _nfs4_do_open() where it belongs. Doing
-so also allows us to reuse the struct fattr from the opendata.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|1|Trond Myklebust|Trond.Myklebust@netapp.com|2010-04-16 16:22:51-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2010-05-14 15:09:27-04:00|14400

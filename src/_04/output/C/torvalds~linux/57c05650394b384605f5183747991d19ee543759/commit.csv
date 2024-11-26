@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|57c05650394b384605f5183747991d19ee543759|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"skbuff: export skb_gro_receive
-
-sctp GSO requires it and sctp can be compiled as a module, so we need to
-export this function.
-
-Signed-off-by: Marcelo Ricardo Leitner <marcelo.leitner@gmail.com>
-Tested-by: Xin Long <lucien.xin@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Marcelo Ricardo Leitner|marcelo.leitner@gmail.com|2016-06-02 15:05:39-03:00|10800|David S. Miller|davem@davemloft.net|2016-06-03 19:37:21-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d641df819db8b80198fd85d9de91137e8a823b07|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ceph: update readpages osd request according to size of pages
-
-add_to_page_cache_lru() can fails, so the actual pages to read
-can be smaller than the initial size of osd request. We need to
-update osd request size in that case.
-
-Signed-off-by: Yan, Zheng <zyan@redhat.com>
-Reviewed-by: Jeff Layton <jlayton@redhat.com>"|2|Yan, Zheng|zyan@redhat.com|2017-01-19 11:21:29+08:00|-28800|Ilya Dryomov|idryomov@gmail.com|2017-02-20 12:16:07+01:00|-3600

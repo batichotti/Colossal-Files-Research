@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5a99610c99625ae86d76014da25659dff72e8792|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wlcore: free AP global links properly on recovery
-
-Dont use free_sta() on AP global links. It would fail an internal check
-within the function and various structures within the link struct would
-not be reset.
-
-Signed-off-by: Arik Nemtsov <arik@wizery.com>
-Signed-off-by: Luciano Coelho <coelho@ti.com>"|2|Arik Nemtsov|arik@wizery.com|2013-03-12 17:19:43+02:00|-7200|Luciano Coelho|coelho@ti.com|2013-03-25 12:33:12+02:00|-7200

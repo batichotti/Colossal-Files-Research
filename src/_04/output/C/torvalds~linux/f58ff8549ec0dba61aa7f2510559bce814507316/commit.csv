@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f58ff8549ec0dba61aa7f2510559bce814507316|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Ensure eDP powered up during DP_SET_POWER operation in dp_prepare
-
-Any call to intel_dp_sink_dpms must ensure that the panel has power so
-that the DP_SET_POWER operation will be correctly received. The only
-one missing this was in intel_dp_prepare.
-
-Signed-off-by: Keith Packard <keithp@keithp.com>
-Reviewed-by: Daniel Vetter <daniel.vetter@ffwll.ch>"|1|Keith Packard|keithp@keithp.com|2011-09-28 16:44:14-07:00|25200|Keith Packard|keithp@keithp.com|2011-10-05 19:56:52-07:00|25200

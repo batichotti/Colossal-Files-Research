@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|43095d397219aa1898db23937b03c1215ef16a37|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4.1: We must bump the clientid sequence number after CREATE_SESSION
-
-We must always bump the clientid sequence number after a successful
-call to CREATE_SESSION on the server. The result of
-nfs4_verify_channel_attrs() is irrelevant to that requirement.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|1|Trond Myklebust|Trond.Myklebust@netapp.com|2012-11-20 11:13:12-05:00|18000|Trond Myklebust|Trond.Myklebust@netapp.com|2012-11-21 09:29:52-05:00|18000

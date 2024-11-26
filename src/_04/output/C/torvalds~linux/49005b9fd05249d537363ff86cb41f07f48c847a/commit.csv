@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|49005b9fd05249d537363ff86cb41f07f48c847a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"HID: wacom: Refactor button-to-key translation into function
-
-This just centralizes the logic used in both wacom_setup_numbered_buttons
-and wacom_report_numbered_buttons so that they don't drift out of sync.
-
-Signed-off-by: Jason Gerecke <jason.gerecke@wacom.com>
-Reviewed-by: Benjamin Tissoires <benjamin.tissoires@redhat.com>
-Signed-off-by: Jiri Kosina <jkosina@suse.cz>"|1|Jason Gerecke|killertofu@gmail.com|2016-10-19 18:03:39-07:00|25200|Jiri Kosina|jkosina@suse.cz|2016-10-20 09:53:55+02:00|-7200

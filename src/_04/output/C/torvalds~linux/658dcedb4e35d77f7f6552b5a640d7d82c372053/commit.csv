@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|658dcedb4e35d77f7f6552b5a640d7d82c372053|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] megaraid_sas: prints pending cmds before setting hw_crit_error
-
-This patch adds function to print the pending frame details before returning
-failure from the reset routine. It also exposes a new variable megasas_dbg_lvl
-that allows the user to set the debug level for logging.
-
-Signed-off-by: Sumant Patro <Sumant.Patro@lsil.com>
-Signed-off-by: James Bottomley <James.Bottomley@SteelEye.com>"|2|Sumant Patro|sumantp@lsil.com|2006-10-03 13:09:14-07:00|25200|James Bottomley|jejb@mulgrave.il.steeleye.com|2006-10-04 12:52:15-05:00|18000

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3788d2997bc0150ea911a964d5b5a2e11808a936|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"RDMA/cma: Consolidate the destruction of a cma_multicast in one place
-
-Two places were open coding this sequence, and also pull in
-cma_leave_roce_mc_group() which was called only once.
-
-Link: https://lore.kernel.org/r/20200902081122.745412-8-leon@kernel.org
-Signed-off-by: Leon Romanovsky <leonro@nvidia.com>
-Signed-off-by: Jason Gunthorpe <jgg@nvidia.com>"|1|Jason Gunthorpe|jgg@nvidia.com|2020-09-02 11:11:21+03:00|-10800|Jason Gunthorpe|jgg@nvidia.com|2020-09-17 09:09:24-03:00|10800

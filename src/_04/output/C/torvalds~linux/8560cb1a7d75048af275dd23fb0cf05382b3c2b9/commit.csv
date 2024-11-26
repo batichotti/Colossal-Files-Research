@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8560cb1a7d75048af275dd23fb0cf05382b3c2b9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"fs: Remove aops->freepage
-
-All implementations now use free_folio so we can delete the callers
-and the method.
-
-Signed-off-by: Matthew Wilcox (Oracle) <willy@infradead.org>"|3|Matthew Wilcox (Oracle)|willy@infradead.org|2022-05-05 00:43:09-04:00|14400|Matthew Wilcox (Oracle)|willy@infradead.org|2022-05-09 23:12:54-04:00|14400

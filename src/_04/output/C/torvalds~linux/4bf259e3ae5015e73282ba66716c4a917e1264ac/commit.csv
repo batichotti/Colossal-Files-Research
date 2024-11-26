@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4bf259e3ae5015e73282ba66716c4a917e1264ac|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfs: remove unnecessary NFS_INO_INVALID_ACL checks
-
-Unless I'm mistaken, NFS_INO_INVALID_ACL is being checked twice during
-getacl calls (i.e. first via nfs_revalidate_inode() and then by each all
-site).
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|2|James Morris|jmorris@namei.org|2009-06-17 18:02:14-07:00|25200|Trond Myklebust|Trond.Myklebust@netapp.com|2009-06-17 18:02:14-07:00|25200

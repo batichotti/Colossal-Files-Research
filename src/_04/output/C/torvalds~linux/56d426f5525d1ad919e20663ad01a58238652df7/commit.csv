@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|56d426f5525d1ad919e20663ad01a58238652df7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ASoC: codecs: wcd934x: Simplify with cleanup.h
-
-Allocate the memory with scoped/cleanup.h to reduce error handling (less
-error paths) and make the code a bit simpler.
-
-Signed-off-by: Krzysztof Kozlowski <krzysztof.kozlowski@linaro.org>
-Link: https://patch.msgid.link/20240703-asoc-cleanup-h-v1-4-71219dfd0aef@linaro.org
-Signed-off-by: Mark Brown <broonie@kernel.org>"|1|Krzysztof Kozlowski|krzysztof.kozlowski@linaro.org|2024-07-03 14:10:58+02:00|-7200|Mark Brown|broonie@kernel.org|2024-07-08 12:49:57+01:00|-3600

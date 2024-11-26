@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|eaa71b318c5ed0cd1ac3182a533471dc5edf372d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Disallow to change L2CAP_OPTIONS values when connected
-
-L2CAP doesn't permit change like MTU, FCS, TxWindow values while the
-connection is alive, we can only set that before the
-connection/configuration process. That can lead to bugs in the L2CAP
-operation.
-
-Signed-off-by: Gustavo F. Padovan <padovan@profusion.mobi>"|1|Gustavo F. Padovan|padovan@profusion.mobi|2010-10-04 19:28:52-03:00|10800|Gustavo F. Padovan|padovan@profusion.mobi|2010-10-04 19:28:52-03:00|10800

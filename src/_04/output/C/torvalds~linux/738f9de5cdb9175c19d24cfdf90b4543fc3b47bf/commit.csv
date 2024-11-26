@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|738f9de5cdb9175c19d24cfdf90b4543fc3b47bf|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"CIFS: Send RFC1001 length in a separate iov
-
-In order to simplify further encryption support we need to separate
-RFC1001 length and SMB2 header when sending a request. Put the length
-field in iov[0] and the rest of the packet into following iovs.
-
-Signed-off-by: Pavel Shilovsky <pshilov@microsoft.com>"|6|Pavel Shilovsky|pshilov@microsoft.com|2016-11-23 15:14:57-08:00|28800|Steve French|smfrench@gmail.com|2017-02-01 16:46:35-06:00|21600

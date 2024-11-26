@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0738541396be165995c7f2387746eb0b47024fec|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: MMU: awareness of new kvm_mmu_zap_page behaviour
-
-kvm_mmu_zap_page will soon zap the unsynced children of a page. Restart
-list walk in such case.
-
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Marcelo Tosatti|mtosatti@redhat.com|2008-09-23 13:18:37-03:00|10800|Avi Kivity|avi@redhat.com|2008-10-15 14:25:23+02:00|-7200

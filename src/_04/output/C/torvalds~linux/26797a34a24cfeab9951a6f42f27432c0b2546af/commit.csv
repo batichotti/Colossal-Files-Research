@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|26797a34a24cfeab9951a6f42f27432c0b2546af|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sched: break out if printing a warning in sched_domain_debug()
-
-checkpatch.pl and Andy Whitcroft noticed the following bug: we did
-not break out after printing an error.
-
-Signed-off-by: Ingo Molnar <mingo@elte.hu>"|1|Ingo Molnar|mingo@elte.hu|2007-10-15 17:00:13+02:00|-7200|Ingo Molnar|mingo@elte.hu|2007-10-15 17:00:13+02:00|-7200

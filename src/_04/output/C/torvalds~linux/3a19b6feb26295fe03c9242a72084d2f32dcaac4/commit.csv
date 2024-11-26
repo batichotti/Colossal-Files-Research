@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3a19b6feb26295fe03c9242a72084d2f32dcaac4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Remove unnecessary params variable from process_adv_report()
-
-The params variable was just used for storing the return value from the
-hci_pend_le_action_lookup() function and then checking whether it's NULL
-or not. We can simplify the code by checking the return value directly.
-
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|1|Johan Hedberg|johan.hedberg@intel.com|2014-07-15 08:07:59+03:00|-10800|Marcel Holtmann|marcel@holtmann.org|2014-07-15 08:01:19+02:00|-7200

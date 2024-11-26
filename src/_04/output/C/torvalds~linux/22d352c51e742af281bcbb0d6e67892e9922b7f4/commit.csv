@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|22d352c51e742af281bcbb0d6e67892e9922b7f4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8169: simplify usage of rtl8169_unmap_tx_skb
-
-Simplify the parameters taken by rtl8169_unmap_tx_skb, this makes
-usage of this function easier to read and understand.
-
-Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Heiner Kallweit|hkallweit1@gmail.com|2020-03-06 23:56:38+01:00|-3600|David S. Miller|davem@davemloft.net|2020-03-09 19:07:42-07:00|25200

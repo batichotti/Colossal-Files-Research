@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|40b4b79c866ffc1414a3989cc480263e76f28589|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"RDMA/hns: Remove redundant DFX file and DFX ops structure
-
-There is no need to use a dedicated DXF file and DFX structure to manage
-the interface of the query queue context.
-
-Link: https://lore.kernel.org/r/20220822104455.2311053-2-liangwenpeng@huawei.com
-Signed-off-by: Wenpeng Liang <liangwenpeng@huawei.com>
-Signed-off-by: Leon Romanovsky <leon@kernel.org>"|7|Wenpeng Liang|liangwenpeng@huawei.com|2022-08-22 18:44:49+08:00|-28800|Leon Romanovsky|leonro@nvidia.com|2022-08-23 11:34:42+03:00|-10800

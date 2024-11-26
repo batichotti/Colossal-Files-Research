@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5d41ce1dd91bce01d50aff79786dc5d5eedcfab7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Refactor L2CAP channel allocation
-
-If the allocation happens at l2cap_sock_create() will be able to use the
-struct l2cap_chan to store channel info that comes from the user via
-setsockopt.
-
-Signed-off-by: Gustavo F. Padovan <padovan@profusion.mobi>"|3|Gustavo F. Padovan|padovan@profusion.mobi|2011-04-08 15:40:02-03:00|10800|Gustavo F. Padovan|padovan@profusion.mobi|2011-04-27 18:51:34-03:00|10800

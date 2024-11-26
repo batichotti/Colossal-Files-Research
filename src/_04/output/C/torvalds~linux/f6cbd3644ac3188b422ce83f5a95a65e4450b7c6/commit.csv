@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f6cbd3644ac3188b422ce83f5a95a65e4450b7c6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"be2net: covert vlan array to bit-map
-
-This patch converts the vlan u8[] used to track vlan-id
-membership to a bit-map as it reduces memory usage.
-
-Signed-off-by: Ravikumar Nelavelli <ravikumar.nelavelli@emulex.com>
-Signed-off-by: Sathya Perla <sathya.perla@emulex.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Ravikumar Nelavelli|ravikumar.nelavelli@emulex.com|2014-05-09 13:29:16+05:30|-19800|David S. Miller|davem@davemloft.net|2014-05-09 13:13:39-04:00|14400

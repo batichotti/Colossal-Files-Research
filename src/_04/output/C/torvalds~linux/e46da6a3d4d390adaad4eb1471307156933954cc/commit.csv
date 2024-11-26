@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e46da6a3d4d390adaad4eb1471307156933954cc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: hns3: refine function hclge_cfg_mac_speed_dup_hw()
-
-To reuse the code of converting speed of driver to speed of firmware in
-function hclge_cfg_mac_speed_dup_hw(), encapsulate them into a new
-function hclge_convert_to_fw_speed().
-
-Signed-off-by: Guangbin Huang <huangguangbin2@huawei.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Guangbin Huang|huangguangbin2@huawei.com|2021-11-29 22:00:22+08:00|-28800|David S. Miller|davem@davemloft.net|2021-11-29 14:26:17+00:00|0

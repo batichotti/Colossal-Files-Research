@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fcca143d696092110ae1e361866576804fe887f3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rtnetlink: fix error return code in rtnl_link_fill()
-
-Fix to return a negative error code from the error handling case
-instead of 0(possible overwrite to 0 by ops->fill_xstats call),
-as returned elsewhere in this function.
-
-Signed-off-by: Wei Yongjun <yongjun_wei@trendmicro.com.cn>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Wei Yongjun|yongjun_wei@trendmicro.com.cn|2013-03-27 03:22:45+00:00|0|David S. Miller|davem@davemloft.net|2013-03-27 14:06:40-04:00|14400

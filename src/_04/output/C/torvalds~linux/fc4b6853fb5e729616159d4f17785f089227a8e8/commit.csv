@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fc4b6853fb5e729616159d4f17785f089227a8e8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"iwlwifi: renaming last_used and first_empty
-
-This patch renames queue pointers to write_ptr and read_ptr
-instead of  first_empty and last_used. This is closer to technical
-terminology we everyday use
-
-Signed-off-by: Tomas Winkler <tomas.winkler@intel.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|5|Tomas Winkler|tomas.winkler@intel.com|2007-10-25 17:15:24+08:00|-28800|David S. Miller|davem@davemloft.net|2008-01-28 15:03:08-08:00|28800

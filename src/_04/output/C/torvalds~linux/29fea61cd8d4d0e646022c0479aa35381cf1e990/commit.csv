@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|29fea61cd8d4d0e646022c0479aa35381cf1e990|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tools/power turbostat: Ignore pkg_cstate_limit when it is not available
-
-When running in no-msr mode, the pkg_cstate_limit is not populated, thus
-we use perf to determine if given pcstate counter is present on the
-platform.
-
-Signed-off-by: Patryk Wlazlyn <patryk.wlazlyn@linux.intel.com>
-Signed-off-by: Len Brown <len.brown@intel.com>"|1|Patryk Wlazlyn|patryk.wlazlyn@linux.intel.com|2024-05-09 12:39:47+02:00|-7200|Len Brown|len.brown@intel.com|2024-05-15 21:50:16-04:00|14400

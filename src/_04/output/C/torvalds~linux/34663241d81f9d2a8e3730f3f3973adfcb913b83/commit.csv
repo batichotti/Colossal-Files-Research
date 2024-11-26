@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|34663241d81f9d2a8e3730f3f3973adfcb913b83|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ath10k: disable TX_STBC for tx chainmask of 1
-
-Disable TX_STBC for both HT and VHT if the devices tx chainmask is '1'
-TX_STBC is required only for devices with tx_chainmask > 1. This fixes
-a ping failure for QCA9887 (1x1) in HT/VHT mode
-
-Signed-off-by: Mohammed Shafi Shajakhan <mohammed@qti.qualcomm.com>
-Signed-off-by: Kalle Valo <kvalo@qca.qualcomm.com>"|1|Mohammed Shafi Shajakhan|mohammed@qti.qualcomm.com|2016-06-29 19:29:27+03:00|-10800|Kalle Valo|kvalo@qca.qualcomm.com|2016-06-30 14:00:39+03:00|-10800

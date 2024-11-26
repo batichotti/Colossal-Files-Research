@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7c13cb64352230deac24d3cb058387a6c0676f83|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libceph: replace ceph_calc_ceph_pg() with ceph_oloc_oid_to_pg()
-
-Switch ceph_calc_ceph_pg() to new oloc and oid abstractions and rename
-it to ceph_oloc_oid_to_pg() to make its purpose more clear.
-
-Signed-off-by: Ilya Dryomov <ilya.dryomov@inktank.com>
-Reviewed-by: Sage Weil <sage@inktank.com>"|4|Ilya Dryomov|ilya.dryomov@inktank.com|2014-01-27 17:40:19+02:00|-7200|Ilya Dryomov|ilya.dryomov@inktank.com|2014-01-27 23:57:32+02:00|-7200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|29e6573c61aaa71010e711e6c3249c56a2e61b46|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: stmmac: make stmmac_interrupt() function more friendly to MSI
-
-Refactor stmmac_interrupt() by introducing stmmac_common_interrupt()
-so that we prepare the ISR operation to be friendly to MSI later.
-
-Signed-off-by: Ong Boon Leong <boon.leong.ong@intel.com>
-Signed-off-by: Voon Weifeng <weifeng.voon@intel.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Ong Boon Leong|boon.leong.ong@intel.com|2021-03-26 01:39:13+08:00|-28800|David S. Miller|davem@davemloft.net|2021-03-25 17:37:30-07:00|25200

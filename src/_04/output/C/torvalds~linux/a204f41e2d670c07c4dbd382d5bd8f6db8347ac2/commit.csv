@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a204f41e2d670c07c4dbd382d5bd8f6db8347ac2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"regulator: core: Factor out regulator_map_voltage
-
-_regulator_call_set_voltage has code to translate a minimum/maximum
-voltage pair into a selector. This code is useful for others aswell,
-so create a regulator_map_voltage function.
-
-Signed-off-by: Sascha Hauer <s.hauer@pengutronix.de>
-Signed-off-by: Mark Brown <broonie@kernel.org>"|1|Sascha Hauer|s.hauer@pengutronix.de|2015-10-20 14:37:27+02:00|-7200|Mark Brown|broonie@kernel.org|2015-10-20 15:43:53+01:00|-3600

@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|41b6a95d693319f804607b559893fbbd27498548|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ring-buffer: do not reset while in a commit
-
-The callers of reset must ensure that no commit can be taking place
-at the time of the reset. If it does then we may corrupt the ring buffer.
-
-Signed-off-by: Steven Rostedt <rostedt@goodmis.org>"|1|Steven Rostedt|srostedt@redhat.com|2009-09-02 09:59:48-04:00|14400|Steven Rostedt|rostedt@goodmis.org|2009-09-04 11:15:08-04:00|14400

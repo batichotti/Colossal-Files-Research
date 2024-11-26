@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ab05613a0646dcc11049692d54bae76ca9ffa910|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md: Reassigned the parameters if read_seqretry returned true in func md_is_badblock.
-
-This bug was introduced by commit(v3.0-rc7-126-g2230dfe).
-So fix is suitable for 3.0.y thru 3.6.y.
-
-Cc: stable@vger.kernel.org
-Signed-off-by: Jianpeng Ma <majianpeng@gmail.com>
-Signed-off-by: NeilBrown <neilb@suse.de>"|1|majianpeng|majianpeng@gmail.com|2012-11-06 17:13:44+08:00|-28800|NeilBrown|neilb@suse.de|2012-11-20 10:27:05+11:00|-39600

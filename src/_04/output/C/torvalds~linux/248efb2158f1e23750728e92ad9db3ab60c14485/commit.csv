@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|248efb2158f1e23750728e92ad9db3ab60c14485|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"locking/lockdep: Rework lockdep_lock
-
-A few sites want to assert we own the graph_lock/lockdep_lock, provide
-a more conventional lock interface for it with a number of trivial
-debug checks.
-
-Signed-off-by: Peter Zijlstra (Intel) <peterz@infradead.org>
-Link: https://lkml.kernel.org/r/20200313102107.GX12561@hirez.programming.kicks-ass.net"|1|Peter Zijlstra|peterz@infradead.org|2020-03-13 11:09:49+01:00|-3600|Peter Zijlstra|peterz@infradead.org|2020-03-20 13:06:25+01:00|-3600

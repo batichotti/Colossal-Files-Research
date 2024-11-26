@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e4120df982c2051f3cfc02f6278798c5166a72f8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wl12xx: use round-robin policy for tx
-
-Currently, a single vif might starve all the other vifs.
-Save the last vif we dequeued a packet from, and continue
-with the following one using a round-robin policy.
-
-Signed-off-by: Eliad Peller <eliad@wizery.com>
-Signed-off-by: Luciano Coelho <coelho@ti.com>"|3|Eliad Peller|eliad@wizery.com|2011-10-10 10:13:17+02:00|-7200|Luciano Coelho|coelho@ti.com|2011-10-11 15:29:57+03:00|-10800

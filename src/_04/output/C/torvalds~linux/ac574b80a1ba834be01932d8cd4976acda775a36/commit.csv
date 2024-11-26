@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ac574b80a1ba834be01932d8cd4976acda775a36|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: hns3: clear param in ring when free ring
-
-Param pending_buf and skb may be not NULL when free ring.
-This patch clears them when free ring.
-
-Signed-off-by: Peng Li <lipeng321@huawei.com>
-Signed-off-by: Huazhong Tan <tanhuazhong@huawei.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Peng Li|lipeng321@huawei.com|2019-01-23 07:39:33+08:00|-28800|David S. Miller|davem@davemloft.net|2019-01-23 11:13:01-08:00|28800

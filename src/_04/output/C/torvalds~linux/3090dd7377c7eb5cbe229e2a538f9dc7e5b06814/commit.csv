@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3090dd7377c7eb5cbe229e2a538f9dc7e5b06814|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Clean up kvm_setup_pio()
-
-Split kvm_setup_pio() into two functions, one to setup in/out pio
-(kvm_emulate_pio()) and one to setup ins/outs pio (kvm_emulate_pio_string()).
-
-Signed-off-by: Laurent Vivier <Laurent.Vivier@bull.net>
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|5|Laurent Vivier|Laurent.Vivier@bull.net|2007-08-05 10:43:32+03:00|-10800|Avi Kivity|avi@qumranet.com|2007-10-13 10:18:23+02:00|-7200

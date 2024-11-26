@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5f3edc1b1ead6d9bd45a85c551f44eff8fe76b9f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sched: Hook sched_balance_self() into sched_class::select_task_rq()
-
-Rather ugly patch to fully place the sched_balance_self() code
-inside the fair class.
-
-Signed-off-by: Peter Zijlstra <a.p.zijlstra@chello.nl>
-LKML-Reference: <new-submission>
-Signed-off-by: Ingo Molnar <mingo@elte.hu>"|5|Peter Zijlstra|a.p.zijlstra@chello.nl|2009-09-10 13:42:00+02:00|-7200|Ingo Molnar|mingo@elte.hu|2009-09-15 16:01:04+02:00|-7200

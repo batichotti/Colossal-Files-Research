@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0af2593b2ad125880a78d1bba966e450cc2330df|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"kvm: x86: fix comment about {mmu,nested_mmu}.gva_to_gpa
-
-The comment had the meaning of mmu.gva_to_gpa and nested_mmu.gva_to_gpa
-swapped. Fix that, and also add some details describing how each translation
-works.
-
-Signed-off-by: David Matlack <dmatlack@google.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|David Matlack|dmatlack@google.com|2015-12-30 08:26:17-08:00|28800|Paolo Bonzini|pbonzini@redhat.com|2016-01-07 11:03:47+01:00|-3600

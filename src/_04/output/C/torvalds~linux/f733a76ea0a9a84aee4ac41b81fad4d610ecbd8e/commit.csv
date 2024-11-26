@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f733a76ea0a9a84aee4ac41b81fad4d610ecbd8e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: lpfc: Use a dedicated lock for ras_fwlog state
-
-To reduce usage of and contention for hbalock, a separate dedicated lock is
-used to protect ras_fwlog state.
-
-Signed-off-by: Justin Tee <justin.tee@broadcom.com>
-Link: https://lore.kernel.org/r/20240305200503.57317-8-justintee8345@gmail.com
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|6|Justin Tee|justin.tee@broadcom.com|2024-03-05 12:04:58-08:00|28800|Martin K. Petersen|martin.petersen@oracle.com|2024-03-10 18:56:43-04:00|14400

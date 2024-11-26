@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9cbb1506ab2db987c160e7fc50665bf47b5b6fa1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tracing: Fold filter_check_discard() into its only user
-
-The function filter_check_discard() is small and only called by one user,
-its code can be folded into that one caller and make the code a bit less
-comlplex.
-
-Signed-off-by: Steven Rostedt <rostedt@goodmis.org>"|2|Steven Rostedt (Red Hat)|rostedt@goodmis.org|2016-04-27 11:09:42-04:00|14400|Steven Rostedt|rostedt@goodmis.org|2016-04-29 16:14:08-04:00|14400

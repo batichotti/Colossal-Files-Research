@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0a8ea4372b2868842986118ca90912f3382e6c5a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS: Disambiguate nfs_stat_to_errno()
-
-Rename the NFS4 version of nfs_stat_to_errno() so that it doesn't conflict with
-the common one used by NFS2 and NFS3.
-
-Signed-Off-By: David Howells <dhowells@redhat.com>
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|1|David Howells|dhowells@redhat.com|2006-08-22 20:06:08-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2006-09-22 23:24:30-04:00|14400

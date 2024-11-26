@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1868f958eb56fc41c5985c8732e564a400c5fdf5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sched: fix the wrong time slice value for SCHED_FIFO tasks
-
-Function sys_sched_rr_get_interval returns wrong time slice value for
-SCHED_FIFO tasks. The time slice for SCHED_FIFO tasks should be 0.
-
-Signed-off-by: Miao Xie <miaox@cn.fujitsu.com>
-Signed-off-by: Ingo Molnar <mingo@elte.hu>"|1|Miao Xie|miaox@cn.fujitsu.com|2008-03-07 09:35:06+08:00|-28800|Ingo Molnar|mingo@elte.hu|2008-03-07 16:43:00+01:00|-3600

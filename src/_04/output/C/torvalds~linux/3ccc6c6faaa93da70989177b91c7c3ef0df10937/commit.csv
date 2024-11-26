@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3ccc6c6faaa93da70989177b91c7c3ef0df10937|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"skbuff: optimize the pull_pages code in __pskb_pull_tail()
-
-In the pull_pages code block, if the first frag size > eat,
-we can end the loop in advance to avoid extra copy.
-
-Signed-off-by: Lin Zhang <xiaolou4617@gmail.com>
-Acked-by: Eric Dumazet <edumazet@google.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|linzhang|xiaolou4617@gmail.com|2017-07-17 17:25:02+08:00|-28800|David S. Miller|davem@davemloft.net|2017-07-17 08:56:50-07:00|25200

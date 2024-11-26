@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|eb7dd46c634fa5b2f2039791bd2e79343318d6e5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"be2net: use a wrapper to schedule and cancel error detection task
-
-Also rename func_recovery_work/task to err_detection_work/task as error
-detection is the primary goal of this task while recovery is not guaranteed.
-
-Signed-off-by: Sathya Perla <sathya.perla@emulex.com>
-Signed-off-by: Kalesh AP <kalesh.purayil@emulex.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Sathya Perla|sathya.perla@emulex.com|2015-02-23 04:20:11-05:00|18000|David S. Miller|davem@davemloft.net|2015-02-23 15:08:31-05:00|18000

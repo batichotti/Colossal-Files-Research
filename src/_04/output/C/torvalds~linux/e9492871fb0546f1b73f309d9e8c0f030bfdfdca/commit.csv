@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e9492871fb0546f1b73f309d9e8c0f030bfdfdca|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cifs: abstract out function to marshal up the iovec array for async writes
-
-We'll need to do something a bit different depending on the caller.
-Abstract the code that marshals the page array into an iovec.
-
-Signed-off-by: Jeff Layton <jlayton@redhat.com>
-Reviewed-by: Pavel Shilovsky <piastry@etersoft.ru>"|3|Jeff Layton|jlayton@redhat.com|2012-03-23 14:40:56-04:00|14400|Jeff Layton|jlayton@redhat.com|2012-03-23 14:40:56-04:00|14400

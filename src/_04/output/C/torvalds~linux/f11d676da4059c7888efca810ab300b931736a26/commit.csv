@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f11d676da4059c7888efca810ab300b931736a26|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Refactor l2cap_retransmit_frame()
-
-Make the code flow cleaner and changes the function to void.
-It also fixes a potential NULL dereference with skb.
-
-Signed-off-by: Gustavo F. Padovan <padovan@profusion.mobi>
-Reviewed-by: João Paulo Rechi Vita <jprvita@profusion.mobi>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|1|Gustavo F. Padovan|padovan@profusion.mobi|2010-05-01 16:15:44-03:00|10800|Marcel Holtmann|marcel@holtmann.org|2010-05-10 09:28:52+02:00|-7200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fcb6d9c6b719b633e9b98d26d8a7937209e8bf21|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS: Always use the open stateid when checking for expired opens
-
-If we are reading through a delegation, and the delegation is OK then
-state->stateid will still point to a delegation stateid and not an open
-stateid.
-
-Signed-off-by: Bryan Schumaker <bjschuma@netapp.com>
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|1|Bryan Schumaker|bjschuma@netapp.com|2012-09-26 15:25:53-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2012-10-01 15:17:17-07:00|25200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6e34c033210bb86b3f5f45fd6497f74150bdf620|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ALSA: hda - Add support for HP dv6
-
-Add the quirk entry for HP dv6.  Also add a workaround for the headphone
-detection by setting hp_detect=1 beforehand.  Without this, the driver
-won't do auto-muting because BIOS doesn't give any HP pin but only a
-line-out pin.
-
-Signed-off-by: Takashi Iwai <tiwai@suse.de>"|1|Takashi Iwai|tiwai@suse.de|2009-09-14 15:42:18+02:00|-7200|Takashi Iwai|tiwai@suse.de|2009-09-14 15:42:18+02:00|-7200

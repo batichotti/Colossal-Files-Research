@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e96741437ef0a5d18144e790ac894397efda0924|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: mgmt: Make use of mgmt_send_event_skb in MGMT_EV_DEVICE_CONNECTED
-
-This makes use of mgmt_alloc_skb to build MGMT_EV_DEVICE_CONNECTED so
-the data is copied directly to skb that is then sent using
-mgmt_send_event_skb eliminating the necessity of intermediary buffers.
-
-Signed-off-by: Luiz Augusto von Dentz <luiz.von.dentz@intel.com>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|1|Luiz Augusto von Dentz|luiz.von.dentz@intel.com|2021-12-03 16:15:42-08:00|28800|Luiz Augusto von Dentz|luiz.von.dentz@intel.com|2021-12-21 13:45:50-08:00|28800

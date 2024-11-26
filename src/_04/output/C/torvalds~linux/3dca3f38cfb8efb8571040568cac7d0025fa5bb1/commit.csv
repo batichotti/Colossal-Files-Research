@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3dca3f38cfb8efb8571040568cac7d0025fa5bb1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"xfrm: Separate ESP handling from segmentation for GRO packets.
-
-We change the ESP GSO handlers to only segment the packets.
-The ESP handling and encryption is defered to validate_xmit_xfrm()
-where this is done for non GRO packets too. This makes the code
-more robust and prepares for asynchronous crypto handling.
-
-Signed-off-by: Steffen Klassert <steffen.klassert@secunet.com>"|7|Steffen Klassert|steffen.klassert@secunet.com|2017-12-20 10:41:31+01:00|-3600|Steffen Klassert|steffen.klassert@secunet.com|2017-12-20 10:41:31+01:00|-3600

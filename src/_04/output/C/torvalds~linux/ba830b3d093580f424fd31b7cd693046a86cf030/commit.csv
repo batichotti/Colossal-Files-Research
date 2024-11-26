@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ba830b3d093580f424fd31b7cd693046a86cf030|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"iwlwifi: mvm: fix MLME trigger
-
-A few triggers have status = MLME_SUCCESS and they are still
-interesting. E.g. if we want to collect data upon deauth,
-the status will be MLME_SUCCESS. Fix that.
-
-Fixes: d42f53503406 (""iwlwifi: mvm: add trigger for firmware dump upon MLME failures"")
-Signed-off-by: Emmanuel Grumbach <emmanuel.grumbach@intel.com>"|1|Emmanuel Grumbach|emmanuel.grumbach@intel.com|2015-05-14 12:11:38+03:00|-10800|Emmanuel Grumbach|emmanuel.grumbach@intel.com|2015-05-15 10:34:25+03:00|-10800

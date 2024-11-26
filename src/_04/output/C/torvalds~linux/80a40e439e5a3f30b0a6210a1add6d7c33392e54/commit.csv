@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|80a40e439e5a3f30b0a6210a1add6d7c33392e54|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drbd: reduce code duplication when receiving data requests
-
-also canonicalize the return values of read_for_csum
-and drbd_rs_begin_io to return -ESOMETHING, or 0 for success.
-
-Signed-off-by: Philipp Reisner <philipp.reisner@linbit.com>
-Signed-off-by: Lars Ellenberg <lars.ellenberg@linbit.com>"|3|Lars Ellenberg|lars.ellenberg@linbit.com|2010-08-11 23:28:00+02:00|-7200|Philipp Reisner|philipp.reisner@linbit.com|2010-10-14 18:38:19+02:00|-7200

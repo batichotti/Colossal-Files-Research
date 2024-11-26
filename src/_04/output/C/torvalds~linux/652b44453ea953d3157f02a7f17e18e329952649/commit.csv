@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|652b44453ea953d3157f02a7f17e18e329952649|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"habanalabs/gaudi: fix missing code in ECC handling
-
-There is missing statement and missing ""break;"" in the ECC handling
-code in gaudi.c
-This will cause a wrong behavior upon certain ECC interrupts.
-
-Signed-off-by: Oded Gabbay <ogabbay@kernel.org>"|1|Oded Gabbay|ogabbay@kernel.org|2020-11-21 14:35:35+02:00|-7200|Oded Gabbay|ogabbay@kernel.org|2020-11-23 20:08:43+02:00|-7200

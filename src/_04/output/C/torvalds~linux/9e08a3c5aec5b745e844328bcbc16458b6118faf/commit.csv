@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9e08a3c5aec5b745e844328bcbc16458b6118faf|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS: Use nfs_refresh_inode() in ops that aren't expected to change the inode
-
-nfs_post_op_update_inode() is really only meant to be used if we expect the
-inode and its attributes to have changed in some way.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|2|Trond Myklebust|Trond.Myklebust@netapp.com|2007-10-08 14:10:31-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2007-10-09 17:20:45-04:00|14400

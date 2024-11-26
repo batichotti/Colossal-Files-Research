@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|171d595d3b3254b9a952af8d1f6965d2e85dcbaa|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: MMU: Flush tlbs after clearing write permission when accessing dirty log
-
-Otherwise, the cpu may allow writes to the tracked pages, and we lose
-some display bits or fail to migrate correctly.
-
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|1|Avi Kivity|avi@qumranet.com|2008-08-27 16:40:51+03:00|-10800|Avi Kivity|avi@qumranet.com|2008-10-15 10:15:24+02:00|-7200

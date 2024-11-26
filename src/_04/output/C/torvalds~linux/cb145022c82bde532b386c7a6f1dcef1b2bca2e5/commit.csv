@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cb145022c82bde532b386c7a6f1dcef1b2bca2e5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: fix HT/VHT disable flags
-
-The code to disable HT and VHT if VHT was advertised
-without VHT is wrong -- it accidentally uses the wrong
-flags. Fix that.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2013-02-07 20:41:50+01:00|-3600|Johannes Berg|johannes.berg@intel.com|2013-02-15 09:41:33+01:00|-3600

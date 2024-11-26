@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d0710c7c9eea2145a0614f39dbe9dc8cb4ae14da|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[S390] dasd calls kzalloc while holding a spinlock.
-
-The dasd function dasd_set_uid calls kzalloc while holding the
-dasd_devmap_lock. Rearrange the code to do the memory allocation
-outside the lock.
-
-Signed-off-by: Horst Hummel <horst.hummel@de.ibm.com>
-Signed-off-by: Martin Schwidefsky <schwidefsky@de.ibm.com>"|2|Horst Hummel|horst.hummel@de.ibm.com|2006-08-10 15:45:16+02:00|-7200|Martin Schwidefsky|schwidefsky@de.ibm.com|2006-08-10 15:45:16+02:00|-7200

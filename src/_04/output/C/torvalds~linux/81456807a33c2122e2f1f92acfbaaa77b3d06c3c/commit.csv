@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|81456807a33c2122e2f1f92acfbaaa77b3d06c3c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[DLM] schedule during long loop through locks
-
-The loop through all waiting locks in recover_waiters can potentially be
-long, so we should schedule explicitly.
-
-Signed-off-by: David Teigland <teigland@redhat.com>
-Signed-off-by: Steven Whitehouse <swhiteho@redhat.com>"|1|David Teigland|teigland@redhat.com|2006-07-25 14:05:09-05:00|18000|Steven Whitehouse|swhiteho@redhat.com|2006-07-26 08:42:57-04:00|14400

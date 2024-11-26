@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bdaffe1d93e7eddbcc71d074a5d49eba7fe1c765|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: set TMR when the interrupt is accepted
-
-Do not compute TMR in advance.  Instead, set the TMR just before the interrupt
-is accepted into the IRR.  This limits the coupling between IOAPIC and LAPIC.
-
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|5|Paolo Bonzini|pbonzini@redhat.com|2015-07-29 15:03:06+02:00|-7200|Paolo Bonzini|pbonzini@redhat.com|2015-10-01 15:06:22+02:00|-7200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f62fab735e99af2190eba03f565adaca5c002882|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cfg80211: refactor association parameters
-
-cfg80211_mlme_assoc() has grown far too many arguments,
-make the caller build almost all of the driver struct
-and pass that to the function instead.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|4|Johannes Berg|johannes.berg@intel.com|2013-02-21 20:09:09+01:00|-3600|Johannes Berg|johannes.berg@intel.com|2013-03-06 16:35:49+01:00|-3600

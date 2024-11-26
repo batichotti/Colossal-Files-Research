@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|04216da393e1f6653cc99a58f2fa48d0dde417c0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wl12xx: AP-mode - prevent Tx to stale/invalid stations
-
-Don't pollute the queues with Tx directed to invalid stations. This
-can happen during recovery.
-
-Signed-off-by: Arik Nemtsov <arik@wizery.com>
-Signed-off-by: Eliad Peller <eliad@wizery.com>
-Signed-off-by: Luciano Coelho <coelho@ti.com>"|1|Arik Nemtsov|arik@wizery.com|2011-08-14 13:17:38+03:00|-10800|Luciano Coelho|coelho@ti.com|2011-08-22 12:35:31+03:00|-10800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|272b2265c87c0934ae2eb309a1be35c2ea92311f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8169: use helper rtl_is_8168evl_up for setting register MaxTxPacketSize
-
->From RTL8168e-vl the value in register MaxTxPacketSize is interpreted
-differently, therefore use new helper rtl_is_8168evl_up to set this
-register.
-
-Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Heiner Kallweit|hkallweit1@gmail.com|2019-06-14 07:55:21+02:00|-7200|David S. Miller|davem@davemloft.net|2019-06-14 08:38:27-07:00|25200

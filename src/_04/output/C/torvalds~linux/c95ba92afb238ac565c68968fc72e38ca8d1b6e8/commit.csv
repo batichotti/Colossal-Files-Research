@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c95ba92afb238ac565c68968fc72e38ca8d1b6e8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"kvm: nVMX: fix nested tsc scaling
-
-When the host supported TSC scaling, L2 would use a TSC multiplier of
-0, which causes a VM entry failure. Now L2's TSC uses the same
-multiplier as L1.
-
-Signed-off-by: Peter Feiner <pfeiner@google.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Peter Feiner|pfeiner@google.com|2016-08-17 09:36:47-07:00|25200|Paolo Bonzini|pbonzini@redhat.com|2016-08-18 12:19:09+02:00|-7200

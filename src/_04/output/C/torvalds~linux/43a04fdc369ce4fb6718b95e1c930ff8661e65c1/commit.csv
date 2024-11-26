@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|43a04fdc369ce4fb6718b95e1c930ff8661e65c1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"be2net: fix support for PCI hot plug
-
-Before issuing any cmds to the FW, the driver must first wait
-till the fW becomes ready. This is needed for PCI hot plug when
-the driver can be probed while the card fw is being initialized.
-
-Signed-off-by: Sathya Perla <sathyap@serverengines.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Sathya Perla|sathyap@serverengines.com|2009-10-14 20:21:17+00:00|0|David S. Miller|davem@davemloft.net|2009-10-14 23:29:56-07:00|25200

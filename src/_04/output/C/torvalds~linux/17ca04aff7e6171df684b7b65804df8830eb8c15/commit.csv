@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|17ca04aff7e6171df684b7b65804df8830eb8c15|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: unlock everything properly in the error case for nocow
-
-I was getting hung on umount when a transaction was aborted because a range
-of one of the free space inodes was still locked.  This is because the nocow
-stuff doesn't unlock anything on error.  This fixed the problem and I
-verified that is what was happening.  Thanks,
-
-Signed-off-by: Josef Bacik <josef@redhat.com>"|1|Josef Bacik|josef@redhat.com|2012-05-31 15:58:55-04:00|14400|Chris Mason|chris.mason@oracle.com|2012-06-14 21:29:15-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7413f9a6af00bb4dc0ef01944aceb8e2ee17a8d5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: stmmac: reduce indentation when calling stmmac_xpcs_setup
-
-There is no reason to embed an if within an if, we can just logically
-AND the two conditions.
-
-Signed-off-by: Vladimir Oltean <vladimir.oltean@nxp.com>
-Reviewed-by: Wong Vee Khee <vee.khee.wong@linux.intel.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Vladimir Oltean|vladimir.oltean@nxp.com|2021-06-11 23:05:21+03:00|-10800|David S. Miller|davem@davemloft.net|2021-06-11 13:43:55-07:00|25200

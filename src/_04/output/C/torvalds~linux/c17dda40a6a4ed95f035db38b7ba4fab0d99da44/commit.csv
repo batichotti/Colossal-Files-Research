@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c17dda40a6a4ed95f035db38b7ba4fab0d99da44|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"slub: Separate out kmem_cache_cpu processing from deactivate_slab
-
-Processing on fields of kmem_cache_cpu is cleaner if code working on fields
-of this struct is taken out of deactivate_slab().
-
-Acked-by: David Rientjes <rientjes@google.com>
-Signed-off-by: Christoph Lameter <cl@linux.com>
-Signed-off-by: Pekka Enberg <penberg@kernel.org>"|1|Christoph Lameter|cl@linux.com|2012-05-09 10:09:57-05:00|18000|Pekka Enberg|penberg@kernel.org|2012-06-01 09:25:41+03:00|-10800

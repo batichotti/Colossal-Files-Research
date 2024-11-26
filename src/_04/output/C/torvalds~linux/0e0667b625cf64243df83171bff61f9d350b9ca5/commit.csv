@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0e0667b625cf64243df83171bff61f9d350b9ca5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: flush quota blocks after turnning it off
-
-After quota_off, we'll get some dirty blocks. If put_super don't have a chance
-to flush them by checkpoint, it causes NULL pointer exception in end_io after
-iput(node_inode). (e.g., by checkpoint=disable)
-
-Reviewed-by: Chao Yu <yuchao0@huawei.com>
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|1|Jaegeuk Kim|jaegeuk@kernel.org|2019-01-27 17:59:53-08:00|28800|Jaegeuk Kim|jaegeuk@kernel.org|2019-02-15 20:59:45-08:00|28800

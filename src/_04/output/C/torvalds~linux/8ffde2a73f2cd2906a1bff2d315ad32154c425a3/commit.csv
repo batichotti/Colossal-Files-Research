@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8ffde2a73f2cd2906a1bff2d315ad32154c425a3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Convert le_scan_disable timeout to hci_sync
-
-The le_scan_disable timeout was being performed on the deprecated
-hci_request.c mechanism.  This timeout is performed in hci_sync.c
-
-Signed-off-by: Brian Gix <brian.gix@intel.com>
-Signed-off-by: Luiz Augusto von Dentz <luiz.von.dentz@intel.com>"|2|Brian Gix|brian.gix@intel.com|2022-08-05 16:42:28-07:00|25200|Luiz Augusto von Dentz|luiz.von.dentz@intel.com|2022-08-25 16:18:41-07:00|25200

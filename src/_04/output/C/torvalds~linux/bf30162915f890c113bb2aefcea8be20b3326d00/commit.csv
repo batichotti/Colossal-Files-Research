@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bf30162915f890c113bb2aefcea8be20b3326d00|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"eth: bnxt: depend on core cleaning up RSS contexts
-
-New RSS context API removes old contexts on netdev unregister.
-No need to wipe them manually.
-
-Reviewed-by: Pavan Chebbi <pavan.chebbi@broadcom.com>
-Link: https://patch.msgid.link/20240711220713.283778-7-kuba@kernel.org
-Signed-off-by: Jakub Kicinski <kuba@kernel.org>"|3|Jakub Kicinski|kuba@kernel.org|2024-07-11 15:07:08-07:00|25200|Jakub Kicinski|kuba@kernel.org|2024-07-12 22:16:22-07:00|25200

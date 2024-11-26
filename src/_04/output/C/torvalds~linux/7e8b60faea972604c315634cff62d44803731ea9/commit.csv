@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7e8b60faea972604c315634cff62d44803731ea9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: restore render clock gating on resume
-
-Rather than restoring just a few clock gating registers on resume,
-just reinitialize the whole thing.
-
-Signed-off-by: Andy Lutomirski <luto@mit.edu>
-[anholt: Fixed up for RC6 support landed since the patch was written]
-Signed-off-by: Eric Anholt <eric@anholt.net>"|4|Andrew Lutomirski|luto@mit.edu|2009-11-08 13:49:51-05:00|18000|Eric Anholt|eric@anholt.net|2009-12-08 06:32:51-08:00|28800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1ef78abec6b5e9e3062e3ae6660eabaf055a718d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"be2net: fix net-snmp error because of wrong packet stats
-
-Wrong packet statistics for multicast Rx was causing net-snmp error messages
-every 15 seconds. Instead of picking the multicast stats from hardware,
-now maintain it in the driver itself.
-
-Signed-off-by: Ajit Khaparde <ajitk@serverengines.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|4|Ajit Khaparde|ajitk@serverengines.com|2010-09-03 06:17:10+00:00|0|David S. Miller|davem@davemloft.net|2010-09-03 09:52:45-07:00|25200

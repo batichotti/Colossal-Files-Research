@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|eceb6e1d530046f964b0e371d4fad02a5b6b42d1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Drop unnecessary initialization of ""ops"" in kvm_ioctl_create_device()
-
-The variable is initialized but it is only used after its assignment.
-
-Reviewed-by: Sean Christopherson <seanjc@google.com>
-Signed-off-by: Li kunyu <kunyu@nfschina.com>
-Message-Id: <20220819021535.483702-1-kunyu@nfschina.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Li kunyu|kunyu@nfschina.com|2022-08-19 10:15:35+08:00|-28800|Paolo Bonzini|pbonzini@redhat.com|2022-08-19 04:05:43-04:00|14400

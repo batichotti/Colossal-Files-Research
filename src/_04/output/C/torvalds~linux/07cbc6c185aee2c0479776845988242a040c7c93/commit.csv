@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|07cbc6c185aee2c0479776845988242a040c7c93|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86 emulator: fix cli/sti instruction emulation
-
-If IOPL check fail, the cli/sti emulate GP and then we should
-skip writeback since the default write OP is OP_REG.
-
-Signed-off-by: Wei Yongjun <yjwei@cn.fujitsu.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Wei Yongjun|yjwei@cn.fujitsu.com|2010-07-06 16:54:19+08:00|-28800|Avi Kivity|avi@redhat.com|2010-08-02 06:40:26+03:00|-10800

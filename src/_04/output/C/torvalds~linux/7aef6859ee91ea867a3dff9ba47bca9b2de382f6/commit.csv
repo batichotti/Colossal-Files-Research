@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7aef6859ee91ea867a3dff9ba47bca9b2de382f6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net/ipv6: Pass net to fib6_update_sernum
-
-Pass net namespace to fib6_update_sernum. It can not be marked const
-as fib6_new_sernum will change ipv6.fib6_sernum.
-
-Signed-off-by: David Ahern <dsahern@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|David Ahern|dsahern@gmail.com|2018-04-17 17:33:10-07:00|25200|David S. Miller|davem@davemloft.net|2018-04-17 23:41:16-04:00|14400

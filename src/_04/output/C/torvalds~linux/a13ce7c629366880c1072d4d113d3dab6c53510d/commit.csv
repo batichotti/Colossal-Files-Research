@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a13ce7c629366880c1072d4d113d3dab6c53510d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4.1: Clean up nfs41_sequence_done
-
-Move the test for res->sr_slot == NULL out of the nfs41_sequence_free_slot
-helper and into the main function for efficiency.
-
-Signed-off-by: Trond Myklebust <trond.myklebust@primarydata.com>"|1|Trond Myklebust|trond.myklebust@primarydata.com|2014-01-29 12:24:03-05:00|18000|Trond Myklebust|trond.myklebust@primarydata.com|2014-01-29 12:24:03-05:00|18000

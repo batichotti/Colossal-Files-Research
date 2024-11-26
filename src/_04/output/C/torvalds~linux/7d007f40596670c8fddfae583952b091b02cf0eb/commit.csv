@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7d007f40596670c8fddfae583952b091b02cf0eb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Warn if there's a cdclk change in progess
-
-If someone is interested in the current cdclk frquency it should
-be stable and not in process of changing frquency. Warn if the current
-and requested cdclk don't match in .get_display_clock_spee() on vlv.
-
-Signed-off-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Signed-off-by: Daniel Vetter <daniel.vetter@ffwll.ch>"|1|Ville Syrjälä|ville.syrjala@linux.intel.com|2014-06-13 13:37:53+03:00|-10800|Daniel Vetter|daniel.vetter@ffwll.ch|2014-07-07 11:25:47+02:00|-7200

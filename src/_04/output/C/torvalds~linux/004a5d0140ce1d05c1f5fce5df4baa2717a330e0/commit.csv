@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|004a5d0140ce1d05c1f5fce5df4baa2717a330e0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: use sk_fullsock() in __netdev_pick_tx()
-
-SYN_RECV & TIMEWAIT sockets are not full blown, they do not have a
-sk_dst_cache pointer.
-
-Fixes: ca6fb0651883 (""tcp: attach SYNACK messages to request sockets instead of listener"")
-Signed-off-by: Eric Dumazet <edumazet@google.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Eric Dumazet|edumazet@google.com|2015-10-04 21:08:10-07:00|25200|David S. Miller|davem@davemloft.net|2015-10-05 02:45:25-07:00|25200

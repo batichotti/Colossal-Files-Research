@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|217aaff53c25f03b1d2fc23eff9dc2bae34f690e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: Invert the ordering of saving guest/host scratch reg at VM-Enter
-
-Switching the ordering allows for an out-of-line path for VM-Fail
-that elides saving guest state but still shares the register clearing
-with the VM-Exit path.
-
-Signed-off-by: Sean Christopherson <sean.j.christopherson@intel.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Sean Christopherson|sean.j.christopherson@intel.com|2019-01-25 07:41:06-08:00|28800|Paolo Bonzini|pbonzini@redhat.com|2019-02-12 13:12:25+01:00|-3600

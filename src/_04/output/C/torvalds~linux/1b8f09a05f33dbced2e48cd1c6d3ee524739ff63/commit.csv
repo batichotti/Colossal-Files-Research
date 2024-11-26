@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1b8f09a05f33dbced2e48cd1c6d3ee524739ff63|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mlxsw: spectrum_router: Destroy RIF only based on its struct
-
-Now that all the information to create a RIF is contained within the RIF
-struct itself, we can also simplify the destruction logic.
-
-Signed-off-by: Ido Schimmel <idosch@mellanox.com>
-Signed-off-by: Jiri Pirko <jiri@mellanox.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Ido Schimmel|idosch@mellanox.com|2017-05-26 08:37:36+02:00|-7200|David S. Miller|davem@davemloft.net|2017-05-26 15:18:48-04:00|14400

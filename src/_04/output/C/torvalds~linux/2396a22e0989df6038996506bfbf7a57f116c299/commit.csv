@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2396a22e0989df6038996506bfbf7a57f116c299|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[NET] net/core: Fix error handling
-
-Upon failure to register ""ptype"" procfs entry, ""softnet_stat"" was not
-removed, and an incorrect attempt was made to remove the ""ptype"" entry.
-
-Signed-off-by: Josef 'Jeff' Sipek <jsipek@cs.sunysb.edu>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Josef 'Jeff' Sipek|jsipek@cs.sunysb.edu|2007-05-07 00:33:18-07:00|25200|David S. Miller|davem@davemloft.net|2007-05-07 00:33:18-07:00|25200

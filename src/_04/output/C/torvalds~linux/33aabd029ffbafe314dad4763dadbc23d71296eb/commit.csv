@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|33aabd029ffbafe314dad4763dadbc23d71296eb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: nVMX: delete meaningless nested_vmx_run() declaration
-
-The function nested_vmx_run() declaration is below its implementation. So
-this is meaningless and should be removed.
-
-Signed-off-by: Miaohe Lin <linmiaohe@huawei.com>
-Reviewed-by: Vitaly Kuznetsov <vkuznets@redhat.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Miaohe Lin|linmiaohe@huawei.com|2020-01-23 10:08:20+08:00|-28800|Paolo Bonzini|pbonzini@redhat.com|2020-02-05 15:17:45+01:00|-3600

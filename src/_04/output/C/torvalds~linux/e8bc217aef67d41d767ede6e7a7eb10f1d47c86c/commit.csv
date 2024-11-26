@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e8bc217aef67d41d767ede6e7a7eb10f1d47c86c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: MMU: mode specific sync_page
-
-Examine guest pagetable and bring the shadow back in sync. Caller is responsible
-for local TLB flush before re-entering guest mode.
-
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|3|Marcelo Tosatti|mtosatti@redhat.com|2008-09-23 13:18:33-03:00|10800|Avi Kivity|avi@redhat.com|2008-10-15 14:25:19+02:00|-7200

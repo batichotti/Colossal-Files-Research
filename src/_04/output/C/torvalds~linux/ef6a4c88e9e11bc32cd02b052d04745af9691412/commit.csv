@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ef6a4c88e9e11bc32cd02b052d04745af9691412|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: fix sysfs permssions when device changes network namespace
-
-Now that we moved all the helpers in place and make use netdev_change_owner()
-to fixup the permissions when moving network devices between network
-namespaces.
-
-Signed-off-by: Christian Brauner <christian.brauner@ubuntu.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Christian Brauner|christian.brauner@ubuntu.com|2020-02-27 04:37:19+01:00|-3600|David S. Miller|davem@davemloft.net|2020-02-26 20:07:26-08:00|28800

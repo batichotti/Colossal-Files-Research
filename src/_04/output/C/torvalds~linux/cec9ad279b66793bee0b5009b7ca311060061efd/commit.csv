@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cec9ad279b66793bee0b5009b7ca311060061efd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Use CPU_DYING for disabling virtualization
-
-Only at the CPU_DYING stage can we be sure that no user process will
-be scheduled onto the cpu and oops when trying to use virtualization
-extensions.
-
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|1|Avi Kivity|avi@qumranet.com|2007-05-24 13:11:41+03:00|-10800|Avi Kivity|avi@qumranet.com|2007-07-16 12:05:51+03:00|-10800

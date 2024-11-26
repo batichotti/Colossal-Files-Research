@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7f5b030830fecc4a2a235804a15b395720b48a24|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ibmvnic: Free skb's in cases of failure in transmit
-
-When an error is encountered during transmit we need to free the
-skb instead of returning TX_BUSY.
-
-Signed-off-by: Thomas Falcon <tlfalcon@linux.vnet.ibm.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Thomas Falcon|tlfalcon@linux.vnet.ibm.com|2017-04-21 15:39:16-04:00|14400|David S. Miller|davem@davemloft.net|2017-04-24 12:52:14-04:00|14400

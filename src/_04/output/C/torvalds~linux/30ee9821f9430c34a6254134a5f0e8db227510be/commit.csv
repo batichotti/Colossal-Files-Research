@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|30ee9821f9430c34a6254134a5f0e8db227510be|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bpf: Allowlist few fields similar to __rcu tag.
-
-Allow bpf program access cgrp->kn, mm->exe_file, skb->sk, req->sk.
-
-Signed-off-by: Alexei Starovoitov <ast@kernel.org>
-Signed-off-by: Andrii Nakryiko <andrii@kernel.org>
-Acked-by: David Vernet <void@manifault.com>
-Link: https://lore.kernel.org/bpf/20230404045029.82870-7-alexei.starovoitov@gmail.com"|1|Alexei Starovoitov|ast@kernel.org|2023-04-03 21:50:27-07:00|25200|Andrii Nakryiko|andrii@kernel.org|2023-04-04 16:57:21-07:00|25200

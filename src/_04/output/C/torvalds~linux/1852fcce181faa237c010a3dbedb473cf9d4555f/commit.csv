@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1852fcce181faa237c010a3dbedb473cf9d4555f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tracing: expand the ring buffers when an event is activated
-
-To save memory, the tracer ring buffers are set to a minimum.
-The activating of a trace expands the ring buffer size. This patch
-adds this expanding, when an event is activated.
-
-Signed-off-by: Steven Rostedt <srostedt@redhat.com>"|3|Steven Rostedt|srostedt@redhat.com|2009-03-11 14:33:00-04:00|14400|Steven Rostedt|srostedt@redhat.com|2009-03-11 22:15:24-04:00|14400

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|516a6af641bb50c608329a5bd751acd0d65cc4ab|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS: Add optional post-op getattr instruction to the NFSv4 file close.
-
- ""Optional"" means that the close call will not fail if the getattr
- at the end of the compound fails.
- If it does succeed, try to refresh inode attributes.
-
- Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|3|Trond Myklebust|Trond.Myklebust@netapp.com|2005-10-27 22:12:41-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2005-10-27 22:12:41-04:00|14400

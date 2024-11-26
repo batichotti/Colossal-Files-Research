@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|955638ecec9431788e291fc99f34c42124071abe|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Fix handling of discoverable setting with timeout
-
-The current handling of the discoverable timeout was missing the proper
-handling of the timeout when the mode was already set. Now the command
-can be used to expire or retrigger the timeout.
-
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>"|1|Marcel Holtmann|marcel@holtmann.org|2012-02-22 18:21:00+01:00|-3600|Johan Hedberg|johan.hedberg@intel.com|2012-02-23 13:07:00+02:00|-7200

@@ -1,6 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2e67624c22321fa40ad3aa89c307c84bd679d9b2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"kmemtrace: remove unnecessary casts
-
-Now that we use _RET_IP_ there's no need to cast 'caller' to unsigned long.
-
-Signed-off-by: Pekka Enberg <penberg@cs.helsinki.fi>"|1|Pekka Enberg|penberg@cs.helsinki.fi|2008-09-01 10:11:54+03:00|-10800|Pekka Enberg|penberg@cs.helsinki.fi|2008-12-29 15:34:14+02:00|-7200

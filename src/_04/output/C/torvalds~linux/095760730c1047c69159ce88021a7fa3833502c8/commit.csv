@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|095760730c1047c69159ce88021a7fa3833502c8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"vmscan: add shrink_slab tracepoints
-
-It is impossible to understand what the shrinkers are actually doing
-without instrumenting the code, so add a some tracepoints to allow
-insight to be gained.
-
-Signed-off-by: Dave Chinner <dchinner@redhat.com>
-Signed-off-by: Al Viro <viro@zeniv.linux.org.uk>"|2|Dave Chinner|dchinner@redhat.com|2011-07-08 14:14:34+10:00|-36000|Al Viro|viro@zeniv.linux.org.uk|2011-07-20 01:44:27-04:00|14400

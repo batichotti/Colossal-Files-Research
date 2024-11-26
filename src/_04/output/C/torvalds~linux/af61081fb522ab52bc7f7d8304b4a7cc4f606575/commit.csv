@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|af61081fb522ab52bc7f7d8304b4a7cc4f606575|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: move extent_range_clear_dirty_for_io() into inode.c
-
-The function is only used inside inode.c by compress_file_range(),
-so move it to inode.c and unexport it.
-
-Signed-off-by: Qu Wenruo <wqu@suse.com>
-Reviewed-by: David Sterba <dsterba@suse.com>
-Signed-off-by: David Sterba <dsterba@suse.com>"|3|Qu Wenruo|wqu@suse.com|2024-05-23 10:49:37+09:30|-34200|David Sterba|dsterba@suse.com|2024-07-11 15:52:25+02:00|-7200

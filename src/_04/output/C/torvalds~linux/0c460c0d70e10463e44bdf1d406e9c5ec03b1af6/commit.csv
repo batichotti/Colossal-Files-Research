@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0c460c0d70e10463e44bdf1d406e9c5ec03b1af6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: move alloc_profile_is_valid() to volumes.c
-
-Header file is not a good place to define functions.  This also moves a
-call to alloc_profile_is_valid() down the stack and removes a redundant
-check from __btrfs_alloc_chunk() - alloc_profile_is_valid() takes it
-into account.
-
-Signed-off-by: Ilya Dryomov <idryomov@gmail.com>"|3|Ilya Dryomov|idryomov@gmail.com|2012-03-27 17:09:17+03:00|-10800|Ilya Dryomov|idryomov@gmail.com|2012-03-27 17:09:17+03:00|-10800

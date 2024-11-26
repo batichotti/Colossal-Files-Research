@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0e909e4fa8895bcef1b1ef2e39b9f1a158933ffe|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/amd/display: Slightly optimize dm_dmub_outbox1_low_irq()
-
-A kzalloc()+memcpy() can be optimized in a single kmemdup().
-This saves a few cycles because some memory doesn't need to be zeroed.
-
-Signed-off-by: Christophe JAILLET <christophe.jaillet@wanadoo.fr>
-Signed-off-by: Hamza Mahfooz <hamza.mahfooz@amd.com>
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|1|Christophe JAILLET|christophe.jaillet@wanadoo.fr|2023-03-21 18:58:50+01:00|-3600|Alex Deucher|alexander.deucher@amd.com|2023-03-27 18:20:53-04:00|14400

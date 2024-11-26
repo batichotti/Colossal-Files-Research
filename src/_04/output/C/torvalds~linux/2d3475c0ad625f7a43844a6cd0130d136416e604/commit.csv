@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2d3475c0ad625f7a43844a6cd0130d136416e604|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSD: forget_delegations should use list_for_each_entry_safe
-
-Otherwise the for loop could try to use a file recently removed from the
-file_hashtbl list and oops.
-
-Signed-off-by: Bryan Schumaker <bjschuma@netapp.com>
-Tested-by: Casey Bodley <cbodley@citi.umich.edu>
-Signed-off-by: J. Bruce Fields <bfields@redhat.com>"|1|Bryan Schumaker|bjschuma@netapp.com|2011-12-14 14:39:56-05:00|18000|J. Bruce Fields|bfields@redhat.com|2011-12-14 17:38:00-05:00|18000

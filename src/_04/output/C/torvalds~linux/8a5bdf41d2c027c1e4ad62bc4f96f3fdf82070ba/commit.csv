@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8a5bdf41d2c027c1e4ad62bc4f96f3fdf82070ba|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tools/power turbostat: calculate TSC frequency from CPUID(0x15) on SKL
-
-turbostat --debug
-...
-CPUID(0x15): eax_crystal: 2 ebx_tsc: 100 ecx_crystal_hz: 0
-TSC: 1200 MHz (24000000 Hz * 100 / 2 / 1000000)
-
-Signed-off-by: Len Brown <len.brown@intel.com>"|1|Len Brown|len.brown@intel.com|2015-04-01 21:02:57-04:00|14400|Len Brown|len.brown@intel.com|2015-04-18 14:20:52-04:00|14400

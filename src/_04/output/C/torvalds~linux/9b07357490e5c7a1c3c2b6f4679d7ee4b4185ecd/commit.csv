@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9b07357490e5c7a1c3c2b6f4679d7ee4b4185ecd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NLM,NFSv4: Don't put UNLOCK requests on the wire unless we hold a lock
-
-Use the new behaviour of {flock,posix}_file_lock(F_UNLCK) to determine if
-we held a lock, and only send the RPC request to the server if this was the
-case.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|2|Trond Myklebust|Trond.Myklebust@netapp.com|2006-06-29 16:38:34-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2006-07-05 13:13:17-04:00|14400

@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|79d3fa9ea722850363da662ca70684dc5c0e1299|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: smartpqi: Use HCTX_TYPE_DEFAULT for blk_mq_tag_set->map
-
-Use HCTX_TYPE_DEFAULT instead of 0 to avoid hardcoding.
-
-Signed-off-by: Dongli Zhang <dongli.zhang@oracle.com>
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|1|Dongli Zhang|dongli.zhang@oracle.com|2019-03-12 09:00:31+08:00|-28800|Martin K. Petersen|martin.petersen@oracle.com|2019-03-19 15:29:10-04:00|14400

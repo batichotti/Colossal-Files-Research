@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b06ef18a4c255609388ed6e068a1c69c797545e0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cxgb4: do not set needs_free_netdev for mgmt dev's
-
-Do not set 'needs_free_netdev' as we do call free_netdev
-for mgmt net devices, doing both hits BUG_ON.
-
-Signed-off-by: Ganesh Goudar <ganeshgr@chelsio.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Ganesh Goudar|ganeshgr@chelsio.com|2018-03-07 13:10:24+05:30|-19800|David S. Miller|davem@davemloft.net|2018-03-07 15:33:13-05:00|18000

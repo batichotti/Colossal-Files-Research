@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f4245bd4ebf903541ba758ad06c118626d8c6f18|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: fix lazyinit hang after removing request
-
-When the request has been removed from the list and no other request
-has been issued, we will end up with next wakeup scheduled to
-MAX_JIFFY_OFFSET which is bad. So check for that.
-
-Signed-off-by: Lukas Czerner <lczerner@redhat.com>
-Signed-off-by: ""Theodore Ts'o"" <tytso@mit.edu>"|1|Lukas Czerner|lczerner@redhat.com|2010-11-02 14:07:17-04:00|14400|Theodore Ts'o|tytso@mit.edu|2010-11-02 14:07:17-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|69611ac810af8e88eeb5ebd851589a0e8cc90860|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: fix unzeroed members in fs_devices when creating a fs from seed fs
-
-We forgot to zero some members in fs_devices when we create new fs_devices
-from the one of the seed fs. It would cause the problem that we got wrong
-chunk profile when allocating chunks. Fix it.
-
-Signed-off-by: Miao Xie <miaox@cn.fujitsu.com>
-Signed-off-by: Chris Mason <clm@fb.com>"|1|Miao Xie|miaox@cn.fujitsu.com|2014-07-03 18:22:12+08:00|-28800|Chris Mason|clm@fb.com|2014-08-19 08:36:32-07:00|25200

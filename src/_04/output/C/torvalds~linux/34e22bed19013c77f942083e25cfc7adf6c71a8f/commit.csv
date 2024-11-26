@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|34e22bed19013c77f942083e25cfc7adf6c71a8f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[DLM] fix leaking user locks
-
-User NOQUEUE lock requests to a remote node that failed with -EAGAIN were
-never being removed from a process's list of locks.
-
-Signed-off-by: David Teigland <teigland@redhat.com>
-Signed-off-by: Steven Whitehouse <swhiteho@redhat.com>"|2|David Teigland|teigland@redhat.com|2006-07-18 11:24:04-05:00|18000|Steven Whitehouse|swhiteho@redhat.com|2006-07-20 00:11:15-04:00|14400

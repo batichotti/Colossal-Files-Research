@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|76a74c8a65c6d2587e48355d3a122b4274f5abbf|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wl12xx: configure arp filtering only after association
-
-We have to configure arp filtering only after the role was
-started, so move the BSS_CHANGED_ARP_FILTER handling after
-the join.
-
-Signed-off-by: Eliad Peller <eliad@wizery.com>
-Signed-off-by: Luciano Coelho <coelho@ti.com>"|1|Eliad Peller|eliad@wizery.com|2012-02-02 12:22:11+02:00|-7200|Luciano Coelho|coelho@ti.com|2012-02-15 08:38:34+02:00|-7200

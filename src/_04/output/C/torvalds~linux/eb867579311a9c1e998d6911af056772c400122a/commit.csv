@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|eb867579311a9c1e998d6911af056772c400122a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[IPV6]: inet6_dev on loopback should be kept until namespace stop.
-
-In the other case it will be destroyed when last address will be removed
-from lo inside a namespace. This will break IPv6 in several places. The
-most obvious one is ip6_dst_ifdown.
-
-Signed-off-by: Denis V. Lunev <den@openvz.org>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Denis V. Lunev|den@openvz.org|2008-04-03 13:31:53-07:00|25200|David S. Miller|davem@davemloft.net|2008-04-03 13:31:53-07:00|25200

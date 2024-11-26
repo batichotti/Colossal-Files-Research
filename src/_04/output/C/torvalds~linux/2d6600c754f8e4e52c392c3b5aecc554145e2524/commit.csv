@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2d6600c754f8e4e52c392c3b5aecc554145e2524|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8169: disable detection of chip versions 49 and 50
-
-It seems these chip versions never made it to the wild. Therefore
-disable detection and if nobody complains remove support completely
-later.
-
-Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
-Signed-off-by: Jakub Kicinski <kuba@kernel.org>"|1|Heiner Kallweit|hkallweit1@gmail.com|2021-11-15 21:51:14+01:00|-3600|Jakub Kicinski|kuba@kernel.org|2021-11-16 19:10:31-08:00|28800

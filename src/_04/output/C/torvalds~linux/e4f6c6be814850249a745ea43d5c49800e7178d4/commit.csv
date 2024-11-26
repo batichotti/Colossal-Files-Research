@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e4f6c6be814850249a745ea43d5c49800e7178d4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: use raid_attr table in calc_stripe_length for nparity
-
-The table is already used for ncopies, replace open coding of stripes
-with the raid_attr value.
-
-Signed-off-by: David Sterba <dsterba@suse.com>"|1|David Sterba|dsterba@suse.com|2019-05-14 01:59:54+02:00|-7200|David Sterba|dsterba@suse.com|2020-01-20 16:40:49+01:00|-3600

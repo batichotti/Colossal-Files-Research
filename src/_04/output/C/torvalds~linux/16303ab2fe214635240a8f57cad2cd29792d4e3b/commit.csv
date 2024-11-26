@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|16303ab2fe214635240a8f57cad2cd29792d4e3b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sched: cleanup: Rename 'out_unlock' to 'out_free_new_mask'
-
-Nothing is locked there, so label's name only confuses a reader.
-
-Signed-off-by: Kirill Tkhai <ktkhai@parallels.com>
-Signed-off-by: Peter Zijlstra (Intel) <peterz@infradead.org>
-Link: http://lkml.kernel.org/r/20140922183630.11015.59500.stgit@localhost
-Signed-off-by: Ingo Molnar <mingo@kernel.org>"|1|Kirill Tkhai|ktkhai@parallels.com|2014-09-22 22:36:30+04:00|-14400|Ingo Molnar|mingo@kernel.org|2014-09-24 14:47:10+02:00|-7200

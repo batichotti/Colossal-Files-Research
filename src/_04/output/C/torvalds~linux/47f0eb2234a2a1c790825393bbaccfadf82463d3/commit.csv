@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|47f0eb2234a2a1c790825393bbaccfadf82463d3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Only use VBT panel mode on eDP if no EDID is found
-
-We're going to assume that EDID is more reliable than the VBT tables
-for eDP panels, which is notably true on MacBook machines where the
-VBT contains completely bogus data.
-
-Signed-off-by: Keith Packard <keithp@keithp.com>
-Reviewed-by: Daniel Vetter <daniel.vetter@ffwll.ch>"|1|Keith Packard|keithp@keithp.com|2011-09-19 14:33:26-07:00|25200|Keith Packard|keithp@keithp.com|2011-09-30 16:23:44-07:00|25200

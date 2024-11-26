@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d1892e4ec96aad4b733dfab3ed989718f04f03e9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rtnl: simplify error return path in rtnl_create_link()
-
-There is only one possible error path which reaches the err label, so
-return ERR_PTR(-ENOMEM) directly if alloc_netdev_mqs() fails. This also
-allows to omit the err variable.
-
-Signed-off-by: Tobias Klauser <tklauser@distanz.ch>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Tobias Klauser|tklauser@distanz.ch|2017-02-20 16:32:06+01:00|-3600|David S. Miller|davem@davemloft.net|2017-02-21 12:17:43-05:00|18000

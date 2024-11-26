@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2b6b24574256c05be145936f1493aec74c6904e5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md/raid5: ensure whole batch is delayed for all required bitmap updates.
-
-When we add a stripe to a batch, we need to be sure that
-head stripe will wait for the bitmap update required for the new
-stripe.
-
-Signed-off-by: NeilBrown <neilb@suse.de>"|1|NeilBrown|neilb@suse.de|2015-05-21 15:10:01+10:00|-36000|NeilBrown|neilb@suse.de|2015-05-28 11:29:14+10:00|-36000

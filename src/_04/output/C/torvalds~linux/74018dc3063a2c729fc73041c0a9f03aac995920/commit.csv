@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|74018dc3063a2c729fc73041c0a9f03aac995920|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"blk: pass from_schedule to non-request unplug functions.
-
-This will allow md/raid to know why the unplug was called,
-and will be able to act according - if !from_schedule it
-is safe to perform tasks which could themselves schedule.
-
-Signed-off-by: NeilBrown <neilb@suse.de>
-Signed-off-by: Jens Axboe <axboe@kernel.dk>"|5|NeilBrown|neilb@suse.de|2012-07-31 09:08:15+02:00|-7200|Jens Axboe|axboe@kernel.dk|2012-07-31 09:08:15+02:00|-7200

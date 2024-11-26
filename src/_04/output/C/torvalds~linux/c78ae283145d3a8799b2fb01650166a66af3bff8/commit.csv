@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c78ae283145d3a8799b2fb01650166a66af3bff8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Unobfuscate tasklet_schedule usage
-
-The tasklet schedule function helpers are just an obfuscation. So remove
-them and call the schedule functions directly.
-
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|4|Marcel Holtmann|marcel@holtmann.org|2009-11-18 01:02:54+01:00|-3600|Marcel Holtmann|marcel@holtmann.org|2009-12-03 19:34:21+01:00|-3600

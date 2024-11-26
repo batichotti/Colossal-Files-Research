@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|38f340ccdf9ed5f1350505b46c5689d015967057|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ceph: fix __choose_mds() for LSSNAP request
-
-previous commit 5d37ca14 ""ceph: send LSSNAP request to auth mds
-of directory inode"" is buggy. It makes __choose_mds() choose mds
-base on hash of '.snap' dentry.
-
-Signed-off-by: ""Yan, Zheng"" <zyan@redhat.com>
-Signed-off-by: Ilya Dryomov <idryomov@gmail.com>"|1|Yan, Zheng|zyan@redhat.com|2017-09-22 11:41:06+08:00|-28800|Ilya Dryomov|idryomov@gmail.com|2017-10-02 16:18:16+02:00|-7200

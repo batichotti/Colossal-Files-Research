@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b6808145ad2aa625b962fc55f30484091d5e8fe7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: Add encode/decode of the layoutreturn op in OPEN_DOWNGRADE
-
-While we do not need to return the RW layout when downgrading from a
-read/write open state to read-only, we might want to do so in order
-to reduce the burden on the metadataserver so that it does not need
-to check for changed data when responding to GETATTR requests.
-
-Signed-off-by: Trond Myklebust <trond.myklebust@primarydata.com>"|1|Trond Myklebust|trond.myklebust@primarydata.com|2016-11-20 13:34:16-05:00|18000|Trond Myklebust|trond.myklebust@primarydata.com|2016-12-19 17:29:52-05:00|18000

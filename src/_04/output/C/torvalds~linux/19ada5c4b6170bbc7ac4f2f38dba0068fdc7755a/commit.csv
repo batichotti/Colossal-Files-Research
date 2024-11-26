@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|19ada5c4b6170bbc7ac4f2f38dba0068fdc7755a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: MMU: remove valueless output message
-
-After commit 53383eaad08d, the '*spte' has updated before call
-rmap_remove()(in most case it's 'shadow_trap_nonpresent_pte'), so
-remove this information from error message
-
-Signed-off-by: Xiao Guangrong <xiaoguangrong@cn.fujitsu.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|1|Xiao Guangrong|xiaoguangrong@cn.fujitsu.com|2010-07-27 11:21:18+08:00|-28800|Avi Kivity|avi@redhat.com|2010-10-24 10:50:02+02:00|-7200

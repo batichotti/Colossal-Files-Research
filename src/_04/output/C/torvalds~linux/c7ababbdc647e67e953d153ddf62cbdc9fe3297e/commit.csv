@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c7ababbdc647e67e953d153ddf62cbdc9fe3297e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[IPV6]: Do not set IF_READY if device is down
-
-Now that we add the IPv6 device at registration time we don't need
-to set IF_READY in ipv6_add_dev anymore because we will always get
-a NETDEV_UP event later on should the device ever become ready.
-
-Signed-off-by: Herbert Xu <herbert@gondor.apana.org.au>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Herbert Xu|herbert@gondor.apana.org.au|2007-03-07 16:02:40-08:00|28800|David S. Miller|davem@sunset.davemloft.net|2007-03-07 16:08:12-08:00|28800

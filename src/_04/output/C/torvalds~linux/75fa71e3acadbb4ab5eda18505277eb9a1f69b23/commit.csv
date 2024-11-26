@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|75fa71e3acadbb4ab5eda18505277eb9a1f69b23|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: mvneta: Use struct tc_mqprio_qopt_offload for MQPrio configuration
-
-The struct tc_mqprio_qopt_offload is a container for struct tc_mqprio_qopt,
-that allows passing extra parameters, such as traffic shaping. This commit
-converts the current mqprio code to that new struct.
-
-Signed-off-by: Maxime Chevallier <maxime.chevallier@bootlin.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Maxime Chevallier|maxime.chevallier@bootlin.com|2021-11-26 12:20:53+01:00|-3600|David S. Miller|davem@davemloft.net|2021-11-29 12:05:52+00:00|0

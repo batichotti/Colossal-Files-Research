@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f9399814927ad9bb995a6e109c2a5f9d8a848209|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bonding: Don't allow bond devices to change network namespaces.
-
-Like bridge, bonding as netdevice doesn't cross netns boundaries.
-
-Bonding ports and bonding itself live in same netns.
-
-Signed-off-by: Weilong Chen <chenweilong@huawei.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Weilong Chen|chenweilong@huawei.com|2014-01-22 17:16:30+08:00|-28800|David S. Miller|davem@davemloft.net|2014-01-22 21:57:17-08:00|28800

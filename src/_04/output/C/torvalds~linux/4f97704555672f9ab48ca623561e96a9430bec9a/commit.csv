@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4f97704555672f9ab48ca623561e96a9430bec9a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: Check INVPCID feature bit in EBX of leaf 7
-
-Checks and operations on the INVPCID feature bit should use EBX
-of CPUID leaf 7 instead of ECX.
-
-Signed-off-by: Junjie Mao <junjie.mao@intel.com>
-Signed-off-by: Yongjie Ren <yongjien.ren@intel.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Ren, Yongjie|yongjie.ren@intel.com|2012-09-07 07:36:59+00:00|0|Avi Kivity|avi@redhat.com|2012-09-09 17:34:01+03:00|-10800

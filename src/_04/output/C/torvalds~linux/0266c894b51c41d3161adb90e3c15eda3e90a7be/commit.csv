@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0266c894b51c41d3161adb90e3c15eda3e90a7be|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: put back #ifndef CONFIG_S390 around kvm_vcpu_kick
-
-The #ifndef was removed in 75aaafb79f73516b69d5639ad30a72d72e75c8b4,
-but it was also protecting smp_send_reschedule() in kvm_vcpu_kick().
-
-Acked-by: Cornelia Huck <cornelia.huck@de.ibm.com>
-Signed-off-by: Radim Krčmář <rkrcmar@redhat.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Paolo Bonzini|pbonzini@redhat.com|2017-05-04 15:14:13+02:00|-7200|Paolo Bonzini|pbonzini@redhat.com|2017-05-04 15:14:13+02:00|-7200

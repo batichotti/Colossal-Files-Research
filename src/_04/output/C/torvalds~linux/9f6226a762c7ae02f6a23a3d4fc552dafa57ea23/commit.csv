@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9f6226a762c7ae02f6a23a3d4fc552dafa57ea23|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"arch: x86: kvm: x86.c: Cleaning up variable is set more than once
-
-A struct member variable is set to the same value more than once
-
-This was found using a static code analysis program called cppcheck.
-
-Signed-off-by: Rickard Strandqvist <rickard_strandqvist@spectrumdigital.se>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Rickard Strandqvist|rickard_strandqvist@spectrumdigital.se|2014-06-25 14:25:58+02:00|-7200|Paolo Bonzini|pbonzini@redhat.com|2014-06-30 16:52:04+02:00|-7200

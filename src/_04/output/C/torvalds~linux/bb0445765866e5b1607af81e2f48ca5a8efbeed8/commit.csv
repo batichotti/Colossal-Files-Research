@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bb0445765866e5b1607af81e2f48ca5a8efbeed8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: support freezing ext2 (nojournal) file systems
-
-Through an oversight, when we added nojournal support to ext4, we
-didn't add support to allow file system freezing.  This is relatively
-easy to add, so let's do it.
-
-Signed-off-by: Theodore Ts'o <tytso@mit.edu>
-Reported-by: Dexuan Cui <decui@microsoft.com>"|1|Theodore Ts'o|tytso@mit.edu|2014-09-18 17:12:02-04:00|14400|Theodore Ts'o|tytso@mit.edu|2014-09-18 17:12:02-04:00|14400

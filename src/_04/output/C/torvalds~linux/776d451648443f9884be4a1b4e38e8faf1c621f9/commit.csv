@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|776d451648443f9884be4a1b4e38e8faf1c621f9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: restrict tunnel object to NFPROTO_NETDEV
-
-Bail out on using the tunnel dst template from other than netdev family.
-Add the infrastructure to check for the family in objects.
-
-Fixes: af308b94a2a4 (""netfilter: nf_tables: add tunnel support"")
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|3|Pablo Neira Ayuso|pablo@netfilter.org|2024-01-23 23:45:32+01:00|-3600|Pablo Neira Ayuso|pablo@netfilter.org|2024-01-31 23:07:04+01:00|-3600

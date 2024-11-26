@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|41c90c186a3b51207cb1f2583fbadec3c76e4730|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Use privacy mode for non-connectable advertising
-
-When enabling non-connectable advertising, there is no need to advertise
-with a public address or static address. In case LE privacy has not been
-enabled a unresolvable private address will be used.
-
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>"|1|Marcel Holtmann|marcel@holtmann.org|2014-02-23 20:25:55-08:00|28800|Johan Hedberg|johan.hedberg@intel.com|2014-02-24 08:48:02+02:00|-7200

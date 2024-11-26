@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ccf0dec6fcadb4e1c877b9bafb031a6bdb7112b9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SPARC/64] constify of_get_property return: drivers
-
-The only unfortunate bit here is that the name field of struct map_info
-is not const, so for now we put a cast on the assignment of it.
-
-Signed-off-by: Stephen Rothwell <sfr@canb.auug.org.au>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|12|Stephen Rothwell|sfr@canb.auug.org.au|2007-03-29 00:49:54-07:00|25200|David S. Miller|davem@sunset.davemloft.net|2007-04-26 01:54:27-07:00|25200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c5eec74f252dfba25269cd68f9a3407aedefd330|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md/raid5: cast chunk_sectors to sector_t value
-
-Currently, raid5 calculates dev_sectors from chunk_sectors without
-proper cast, which is problematic.
-
-Signed-off-by: Guoqing Jiang <guoqing.jiang@cloud.ionos.com>
-Signed-off-by: Song Liu <songliubraving@fb.com>"|1|Guoqing Jiang|guoqing.jiang@cloud.ionos.com|2020-12-16 02:26:22+01:00|-3600|Song Liu|songliubraving@fb.com|2021-02-03 22:48:16-08:00|28800

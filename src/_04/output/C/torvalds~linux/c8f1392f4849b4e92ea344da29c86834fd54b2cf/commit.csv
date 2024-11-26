@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c8f1392f4849b4e92ea344da29c86834fd54b2cf|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: pass dev_priv explicitly to CHV_CANVAS
-
-Avoid the implicit dev_priv local variable use, and pass dev_priv
-explicitly to the CHV_CANVAS register macro.
-
-Reviewed-by: Rodrigo Vivi <rodrigo.vivi@intel.com>
-Link: https://patchwork.freedesktop.org/patch/msgid/a48c7984a14412ef74af250d5bc2ea9097aa2222.1717514638.git.jani.nikula@intel.com
-Signed-off-by: Jani Nikula <jani.nikula@intel.com>"|2|Jani Nikula|jani.nikula@intel.com|2024-06-04 18:25:50+03:00|-10800|Jani Nikula|jani.nikula@intel.com|2024-06-07 11:28:49+03:00|-10800

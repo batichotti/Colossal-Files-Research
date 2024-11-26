@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a17c2153d2e271b0cbacae9bed83b0eaa41db7e1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"SUNRPC: Move the bound cred to struct rpc_rqst
-
-This will allow us to save the original generic cred in rpc_message, so
-that if we migrate from one server to another, we can generate a new bound
-cred without having to punt back to the NFS layer.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|12|Trond Myklebust|Trond.Myklebust@netapp.com|2010-07-31 14:29:08-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2010-08-04 08:54:09-04:00|14400

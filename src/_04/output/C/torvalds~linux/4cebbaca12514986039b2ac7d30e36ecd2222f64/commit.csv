@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4cebbaca12514986039b2ac7d30e36ecd2222f64|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bnxt_en: Do not allow VF to read EEPROM.
-
-Firmware does not allow the operation and would return failure, causing
-a warning in dmesg.  So check for VF and disallow it in the driver.
-
-Signed-off-by: Michael Chan <michael.chan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Michael Chan|michael.chan@broadcom.com|2018-04-26 17:44:37-04:00|14400|David S. Miller|davem@davemloft.net|2018-04-27 14:47:30-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4f71d0cb76339a10fd445b0b281acc45c71b6271|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/dp: add a hw mutex around the transfer functions. (v2)
-
-This should avoid races between connector probing and HPD
-irqs in the future, currently mode_config.mutex blocks this
-possibility.
-
-Reviewed-by: Daniel Vetter <daniel.vetter@ffwll.ch>
-Signed-off-by: Dave Airlie <airlied@redhat.com>"|6|Dave Airlie|airlied@redhat.com|2014-06-04 16:02:28+10:00|-36000|Dave Airlie|airlied@redhat.com|2014-06-05 09:54:29+10:00|-36000

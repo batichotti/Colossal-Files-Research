@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a97eb33ff225f34a8124774b3373fd244f0e83ce|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rtnl: RTM_GETNETCONF: fix wrong return value
-
-An error response from a RTM_GETNETCONF request can return the positive
-error value EINVAL in the struct nlmsgerr that can mislead userspace.
-
-Signed-off-by: Anton Protopopov <a.s.protopopov@gmail.com>
-Acked-by: Cong Wang <xiyou.wangcong@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Anton Protopopov|a.s.protopopov@gmail.com|2016-02-16 21:43:16-05:00|18000|David S. Miller|davem@davemloft.net|2016-02-19 15:33:46-05:00|18000

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0d7982ce6e3a683f55def32262c9fee2b87ec8e6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ipv6: minor code reorg in inet6_fill_ifla6_attrs()
-
-Just put related code together to ease code reading: the memcpy() is
-related to the nla_reserve().
-
-Signed-off-by: Nicolas Dichtel <nicolas.dichtel@6wind.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Nicolas Dichtel|nicolas.dichtel@6wind.com|2019-09-30 14:02:16+02:00|-7200|David S. Miller|davem@davemloft.net|2019-10-01 14:59:03-07:00|25200

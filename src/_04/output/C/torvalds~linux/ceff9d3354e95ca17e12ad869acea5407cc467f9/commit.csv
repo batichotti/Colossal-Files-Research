@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ceff9d3354e95ca17e12ad869acea5407cc467f9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mm/swap: convert __delete_from_swap_cache() to a folio
-
-All callers now have a folio, so convert the entire function to operate
-on folios.
-
-Link: https://lkml.kernel.org/r/20220617175020.717127-23-willy@infradead.org
-Signed-off-by: Matthew Wilcox (Oracle) <willy@infradead.org>
-Signed-off-by: Andrew Morton <akpm@linux-foundation.org>"|3|Matthew Wilcox (Oracle)|willy@infradead.org|2022-06-17 18:50:20+01:00|-3600|akpm|akpm@linux-foundation.org|2022-07-03 18:08:48-07:00|25200

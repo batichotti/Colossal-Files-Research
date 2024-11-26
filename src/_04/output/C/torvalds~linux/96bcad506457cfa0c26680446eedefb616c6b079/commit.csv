@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|96bcad506457cfa0c26680446eedefb616c6b079|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd: fput rd_file from XDR encode context
-
-Remove the hack where we fput the read-specific file in generic code.
-Instead we can do it in nfsd4_encode_read as that gets called for all
-error cases as well.
-
-Signed-off-by: Christoph Hellwig <hch@lst.de>
-Signed-off-by: J. Bruce Fields <bfields@redhat.com>"|2|Christoph Hellwig|hch@lst.de|2015-06-18 16:45:01+02:00|-7200|J. Bruce Fields|bfields@redhat.com|2015-06-22 14:15:04-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f9335afea5d649693aee1ec8af2cc8ccf376f5a9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: Inform user about INTEL_TXT dependency
-
-Inform user to either disable TXT in the BIOS or do TXT launch
-with tboot before enabling KVM since some BIOSes do not set
-FEATURE_CONTROL_VMXON_ENABLED_OUTSIDE_SMX bit when TXT is enabled.
-
-Signed-off-by: Shane Wang <shane.wang@intel.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|1|Shane Wang|shane.wang@intel.com|2010-11-17 11:40:17+08:00|-28800|Avi Kivity|avi@redhat.com|2011-01-12 11:29:31+02:00|-7200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4ed50ef4da4d113fe65d9f9d049c1ce7468e3ac1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bnxt_en: Refactor the functions to reserve hardware rings.
-
-The bnxt_hwrm_reserve_{pf|vf}_rings() functions are very similar to
-the bnxt_hwrm_check_{pf|vf}_rings() functions.  Refactor the former
-so that the latter can make use of common code in the next patch.
-
-Signed-off-by: Michael Chan <michael.chan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Michael Chan|michael.chan@broadcom.com|2018-03-09 23:46:03-05:00|18000|David S. Miller|davem@davemloft.net|2018-03-12 10:57:23-04:00|14400

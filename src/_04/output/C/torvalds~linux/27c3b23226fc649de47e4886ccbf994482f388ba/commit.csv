@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|27c3b23226fc649de47e4886ccbf994482f388ba|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[PATCH] lockdep: use chain hash on CONFIG_DEBUG_LOCKDEP too
-
-CONFIG_DEBUG_LOCKDEP is unacceptably slow because it does not utilize
-the chain-hash. Turn the chain-hash back on in this case too.
-
-Signed-off-by: Ingo Molnar <mingo@elte.hu>
-Signed-off-by: Andrew Morton <akpm@osdl.org>
-Signed-off-by: Linus Torvalds <torvalds@osdl.org>"|1|Ingo Molnar|mingo@elte.hu|2006-12-13 00:34:42-08:00|28800|Linus Torvalds|torvalds@woody.osdl.org|2006-12-13 09:05:50-08:00|28800

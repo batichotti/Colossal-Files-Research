@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1ce4292073695fd0fec74d1169bc94dadc339731|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: pipe and planes should be disabled on haswell_crtc_mode_set
-
-So WARN in case they're not. It also does not make any sense to
-wait_for_vblank at this point.
-
-Signed-off-by: Paulo Zanoni <paulo.r.zanoni@intel.com>
-Reviewed-by: Damien Lespiau <damien.lespiau@intel.com>
-Signed-off-by: Daniel Vetter <daniel.vetter@ffwll.ch>"|1|Paulo Zanoni|paulo.r.zanoni@intel.com|2012-10-05 12:06:01-03:00|10800|Daniel Vetter|daniel.vetter@ffwll.ch|2012-10-11 00:43:20+02:00|-7200

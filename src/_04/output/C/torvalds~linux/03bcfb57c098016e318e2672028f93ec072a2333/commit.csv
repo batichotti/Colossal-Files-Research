@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|03bcfb57c098016e318e2672028f93ec072a2333|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] qla2xxx: Add test for valid loop id to qla2x00_relogin().
-
-If fabric device has invalid loop id (FC_NO_LOOP_ID) then call
-qla2x00_find_new_loop_id() to attempt to obtain valid loop id.
-
-Signed-off-by: Joe Carnuccio <joe.carnuccio@qlogic.com>
-Signed-off-by: Madhuranath Iyengar <Madhu.Iyengar@qlogic.com>
-Signed-off-by: James Bottomley <James.Bottomley@suse.de>"|3|Joe Carnuccio|joe.carnuccio@qlogic.com|2011-03-30 11:46:27-07:00|25200|James Bottomley|James.Bottomley@suse.de|2011-05-01 10:10:47-05:00|18000

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bdb475a323858101f4a5ad6a1a04b1dd8885325a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86 emulator: use shadowed register in emulate_sysexit()
-
-emulate_sysexit() should use shadowed registers copy instead of
-looking into vcpu state directly.
-
-Signed-off-by: Gleb Natapov <gleb@redhat.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Gleb Natapov|gleb@redhat.com|2010-04-28 19:15:41+03:00|-10800|Avi Kivity|avi@redhat.com|2010-08-01 10:35:36+03:00|-10800

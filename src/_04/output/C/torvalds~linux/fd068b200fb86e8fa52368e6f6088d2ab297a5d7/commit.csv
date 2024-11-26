@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fd068b200fb86e8fa52368e6f6088d2ab297a5d7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: Ensure that we clear the NFS_OPEN_STATE flag when appropriate
-
-We should always clear it before initiating file recovery.
-Also ensure that we clear it after a CLOSE and/or after TEST_STATEID fails.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|1|Trond Myklebust|Trond.Myklebust@netapp.com|2013-04-22 11:29:51-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2013-04-22 11:29:51-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|944e64093a63bfab0a4f7ecebcd434630dff9107|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"RDMA/hns: Add CM of vlan device support
-
-This patch mainly sets the vlan_id field in the WC for rdma_listen() to
-work over vlan. This is required by ib_init_ah_attr_from_wc() which is
-called by the CM REQ handler.
-
-Signed-off-by: Lijun Ou <oulijun@huawei.com>
-Signed-off-by: Jason Gunthorpe <jgg@mellanox.com>"|2|Lijun Ou|oulijun@huawei.com|2018-09-22 16:21:07+08:00|-28800|Jason Gunthorpe|jgg@mellanox.com|2018-09-26 14:59:13-06:00|21600

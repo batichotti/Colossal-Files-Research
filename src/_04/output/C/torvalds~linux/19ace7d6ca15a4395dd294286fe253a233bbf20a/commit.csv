@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|19ace7d6ca15a4395dd294286fe253a233bbf20a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86/mmu: Skip calling mmu->sync_spte() when the spte is 0
-
-Sync the spte only when the spte is set and avoid the indirect branch.
-
-Signed-off-by: Lai Jiangshan <jiangshan.ljs@antgroup.com>
-Link: https://lore.kernel.org/r/20230216235321.735214-5-jiangshanlai@gmail.com
-[sean: add wrapper instead of open coding each check]
-Signed-off-by: Sean Christopherson <seanjc@google.com>"|2|Lai Jiangshan|jiangshan.ljs@antgroup.com|2023-02-17 07:53:21+08:00|-28800|Sean Christopherson|seanjc@google.com|2023-03-16 17:19:55-07:00|25200

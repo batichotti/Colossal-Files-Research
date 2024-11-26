@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8b0f4b5d8bb0dcba9bb01947baed5f0700ff6584|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wifi: rtw89: unify use of rtw89_h2c_tx()
-
-Seaprate calling of rtw89_h2c_tx() out of if-expression, and bypass the
-return value to upper caller.
-
-Signed-off-by: Ping-Ke Shih <pkshih@realtek.com>
-Signed-off-by: Kalle Valo <kvalo@kernel.org>
-Link: https://lore.kernel.org/r/20220914035034.14521-2-pkshih@realtek.com"|1|Ping-Ke Shih|pkshih@realtek.com|2022-09-14 11:50:31+08:00|-28800|Kalle Valo|kvalo@kernel.org|2022-09-19 13:03:38+03:00|-10800

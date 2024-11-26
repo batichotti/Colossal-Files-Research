@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|26e990badde40b2fb824bfa3cb9d4288a79584bc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"RDMA: Check attr_mask during modify_qp
-
-Each driver should check that it can support the provided attr_mask during
-modify_qp. IB_USER_VERBS_EX_CMD_MODIFY_QP was being used to block
-modify_qp_ex because the driver didn't check RATE_LIMIT.
-
-Link: https://lore.kernel.org/r/6-v1-caa70ba3d1ab+1436e-ucmd_mask_jgg@nvidia.com
-Signed-off-by: Jason Gunthorpe <jgg@nvidia.com>"|21|Jason Gunthorpe|jgg@nvidia.com|2020-10-03 20:20:06-03:00|10800|Jason Gunthorpe|jgg@nvidia.com|2020-10-26 19:27:58-03:00|10800

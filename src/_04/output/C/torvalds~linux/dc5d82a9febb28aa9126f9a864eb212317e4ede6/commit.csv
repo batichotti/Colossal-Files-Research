@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|dc5d82a9febb28aa9126f9a864eb212317e4ede6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Use HCI_MAX_AD_LENGTH constant instead hardcoded value
-
-Using the HCI_MAX_AD_LENGTH for the max advertising data and max scan
-response data length makes more sense than hardcoding the value.
-
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>"|1|Marcel Holtmann|marcel@holtmann.org|2015-03-19 17:22:25-07:00|25200|Johan Hedberg|johan.hedberg@intel.com|2015-03-20 14:08:32+02:00|-7200

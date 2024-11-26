@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4cd582ffa5a9a5d58e5bac9c5e55ca8eeabffddc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: use synchronize_net() in dev_change_name()
-
-dev_change_name() holds RTNL, we better use synchronize_net()
-instead of plain synchronize_rcu().
-
-Signed-off-by: Eric Dumazet <edumazet@google.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Eric Dumazet|edumazet@google.com|2024-02-09 15:30:57+00:00|0|David S. Miller|davem@davemloft.net|2024-02-12 12:17:02+00:00|0

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f2483415293b180945da707e7dbe74e5daa72651|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: Fix exceptions of mov to dr
-
-Injecting GP without an error code is a bad idea (causes unhandled guest
-exits). Moreover, we must not skip the instruction if we injected an
-exception.
-
-Signed-off-by: Jan Kiszka <jan.kiszka@siemens.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|1|Jan Kiszka|jan.kiszka@siemens.com|2010-01-20 18:20:20+01:00|-3600|Marcelo Tosatti|mtosatti@redhat.com|2010-03-01 12:36:01-03:00|10800

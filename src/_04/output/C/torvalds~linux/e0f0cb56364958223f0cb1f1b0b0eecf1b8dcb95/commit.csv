@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e0f0cb56364958223f0cb1f1b0b0eecf1b8dcb95|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Get rid of __l2cap_get_sock_by_psm()
-
-l2cap_get_sock_by_psm() was the only user of this function, so I merged
-both into l2cap_get_sock_by_psm(). The socket lock now should be hold
-outside of l2cap_get_sock_by_psm() once we hold and release it inside the
-same function now.
-
-Signed-off-by: Gustavo F. Padovan <padovan@profusion.mobi>"|1|Gustavo F. Padovan|padovan@profusion.mobi|2010-11-01 18:43:53+00:00|0|Gustavo F. Padovan|padovan@profusion.mobi|2010-12-01 21:04:42-02:00|7200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|047521d7b12d7a6b7165de2c67c71275f223c0a6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8169: let rtl8169_mark_to_asic clear rx descriptor field opts2
-
-Clearing opts2 belongs to preparing the descriptor for DMA engine use.
-Therefore move it into rtl8169_mark_to_asic().
-
-Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Heiner Kallweit|hkallweit1@gmail.com|2020-03-10 23:14:41+01:00|-3600|David S. Miller|davem@davemloft.net|2020-03-10 16:23:23-07:00|25200

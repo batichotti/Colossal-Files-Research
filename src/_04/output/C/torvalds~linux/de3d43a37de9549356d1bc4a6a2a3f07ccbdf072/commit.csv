@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|de3d43a37de9549356d1bc4a6a2a3f07ccbdf072|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: report deauth to cfg80211 for local state change
-
-Even if the frame isn't transmitted to the AP, we need to
-report it to cfg80211 so the state there can be updated
-correctly.
-
-Reported-by: Jouni Malinen <j@w1.fi>
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2013-05-14 09:39:02+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2013-05-16 22:38:08+02:00|-7200

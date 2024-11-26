@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a5c214dad1985092bd21c38c2a78befed9b02294|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM/VMX: Change hv flush logic when ept tables are mismatched.
-
-If ept table pointers are mismatched, flushing tlb for each vcpus via
-hv flush interface still helps to reduce vmexits which are triggered
-by IPI and INEPT emulation.
-
-Signed-off-by: Lan Tianyu <Tianyu.Lan@microsoft.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Lan Tianyu|Tianyu.Lan@microsoft.com|2018-10-13 22:54:05+08:00|-28800|Paolo Bonzini|pbonzini@redhat.com|2018-10-17 00:30:09+02:00|-7200

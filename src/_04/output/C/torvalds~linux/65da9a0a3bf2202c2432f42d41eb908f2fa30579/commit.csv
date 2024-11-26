@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|65da9a0a3bf2202c2432f42d41eb908f2fa30579|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tracing: Make filter_check_discard() local
-
-Nothing outside of the tracing directory calls filter_check_discard() or
-check_filter_check_discard(). They should not be called by modules. Move
-their prototypes into the local tracing header and remove their
-EXPORT_SYMBOL() macros.
-
-Signed-off-by: Steven Rostedt <rostedt@goodmis.org>"|3|Steven Rostedt (Red Hat)|rostedt@goodmis.org|2016-04-27 10:13:46-04:00|14400|Steven Rostedt|rostedt@goodmis.org|2016-04-27 10:13:46-04:00|14400

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1c53da3fa3a333eb15ee5a154700e75d135c21c8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"kvm: x86: Support resetting the MMU context without resetting roots
-
-This adds support for re-initializing the MMU context in a different
-mode while preserving the active root_hpa and the prev_root.
-
-Signed-off-by: Junaid Shahid <junaids@google.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|2|Junaid Shahid|junaids@google.com|2018-06-27 14:59:10-07:00|25200|Paolo Bonzini|pbonzini@redhat.com|2018-08-06 17:58:54+02:00|-7200

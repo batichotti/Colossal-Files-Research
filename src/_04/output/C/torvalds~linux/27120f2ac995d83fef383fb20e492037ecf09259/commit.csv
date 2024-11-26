@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|27120f2ac995d83fef383fb20e492037ecf09259|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ath10k: remove an unnecessary NULL check
-
-The ""survey"" pointer is the address of an array element.  We know that
-it can't be NULL so this check can be removed.
-
-Signed-off-by: Dan Carpenter <dan.carpenter@oracle.com>
-Signed-off-by: Kalle Valo <kvalo@codeaurora.org>"|1|Dan Carpenter|dan.carpenter@oracle.com|2018-12-20 09:53:45+02:00|-7200|Kalle Valo|kvalo@codeaurora.org|2018-12-20 19:06:40+02:00|-7200

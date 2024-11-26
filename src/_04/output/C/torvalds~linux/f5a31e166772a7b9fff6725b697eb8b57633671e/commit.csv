@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f5a31e166772a7b9fff6725b697eb8b57633671e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: Try harder while searching for free space
-
-The loop searching for free space would exit out too soon when
-metadata clustering was trying to allocate a large extent.  This makes
-sure a full scan of the free space is done searching for only the
-minimum extent size requested by the higher layers.
-
-Signed-off-by: Chris Mason <chris.mason@oracle.com>"|1|Chris Mason|chris.mason@oracle.com|2008-11-10 11:47:09-05:00|18000|Chris Mason|chris.mason@oracle.com|2008-11-10 11:47:09-05:00|18000

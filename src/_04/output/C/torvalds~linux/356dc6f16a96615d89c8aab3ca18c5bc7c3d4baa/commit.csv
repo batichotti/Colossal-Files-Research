@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|356dc6f16a96615d89c8aab3ca18c5bc7c3d4baa|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sctp: pass a kernel pointer to sctp_setsockopt_enable_strreset
-
-Use the kernel pointer that sctp_setsockopt has available instead of
-directly handling the user pointer.
-
-Signed-off-by: Christoph Hellwig <hch@lst.de>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Christoph Hellwig|hch@lst.de|2020-07-19 09:22:15+02:00|-7200|David S. Miller|davem@davemloft.net|2020-07-19 18:26:43-07:00|25200

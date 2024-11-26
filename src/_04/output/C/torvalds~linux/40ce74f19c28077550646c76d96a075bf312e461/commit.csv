@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|40ce74f19c28077550646c76d96a075bf312e461|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tracing: remove recording function depth from trace_printk
-
-The function depth in trace_printk was to facilitate the function
-graph output. Now that the function graph calculates the depth within
-the trace output, we no longer need to record the depth when the
-trace_printk is called.
-
-Signed-off-by: Steven Rostedt <srostedt@redhat.com>"|5|Steven Rostedt|srostedt@redhat.com|2009-03-19 14:03:53-04:00|14400|Steven Rostedt|srostedt@redhat.com|2009-03-19 15:58:47-04:00|14400

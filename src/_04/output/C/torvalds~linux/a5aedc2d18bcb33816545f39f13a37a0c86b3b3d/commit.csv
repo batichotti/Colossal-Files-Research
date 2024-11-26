@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a5aedc2d18bcb33816545f39f13a37a0c86b3b3d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/amdgpu: reduce the idle period that RLC has to wait before request CGCG
-
-Gfxoff feature may depends on the CGCG(on vega12, that's the case). This
-change will help to enable gfxoff feature more frequently.
-
-Signed-off-by: Evan Quan <evan.quan@amd.com>
-Acked-by: Alex Deucher <alexander.deucher@amd.com>
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|1|Evan Quan|evan.quan@amd.com|2018-07-05 10:30:36+08:00|-28800|Alex Deucher|alexander.deucher@amd.com|2018-07-13 14:44:52-05:00|18000

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ca1d6c7d9d461effa2c4e8b9b227a14e9fdcf1cc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mm/memory.c: make tlb_next_batch() return bool
-
-This makes the tlb_next_batch() bool due to this particular function only
-ever returning either one or zero as its return value.
-
-Signed-off-by: Nicholas Krause <xerofoify@gmail.com>
-Signed-off-by: Andrew Morton <akpm@linux-foundation.org>
-Signed-off-by: Linus Torvalds <torvalds@linux-foundation.org>"|1|Nicholas Krause|xerofoify@gmail.com|2015-09-04 15:48:22-07:00|25200|Linus Torvalds|torvalds@linux-foundation.org|2015-09-04 16:54:41-07:00|25200

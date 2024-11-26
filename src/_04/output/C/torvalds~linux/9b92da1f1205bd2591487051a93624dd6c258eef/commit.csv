@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9b92da1f1205bd2591487051a93624dd6c258eef|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"regulator: core: Fix default return value for _get()
-
-Now that we are defaulting to providing dummy regulators fix the logic
-for substituting a dummy by making the default return code -EPROBE_DEFER.
-
-Reported-by: Thierry Reding <treding@nvidia.com>
-Tested-by: Thierry Reding <treding@nvidia.com>
-Signed-off-by: Mark Brown <broonie@linaro.org>"|1|Mark Brown|broonie@linaro.org|2013-09-20 12:23:30+01:00|-3600|Mark Brown|broonie@linaro.org|2013-09-20 17:38:44+01:00|-3600

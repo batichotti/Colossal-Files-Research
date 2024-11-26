@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|98c1a7593fa355fda7f5a5940c8bf5326ca964ba|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: enable journal checksum when metadata checksum feature enabled
-
-If metadata checksumming is turned on for the FS, we need to tell the
-journal to use checksumming too.
-
-Signed-off-by: Darrick J. Wong <darrick.wong@oracle.com>
-Signed-off-by: Theodore Ts'o <tytso@mit.edu>
-Cc: stable@vger.kernel.org"|1|Darrick J. Wong|darrick.wong@oracle.com|2014-10-30 10:53:16-04:00|14400|Theodore Ts'o|tytso@mit.edu|2014-10-30 10:53:16-04:00|14400

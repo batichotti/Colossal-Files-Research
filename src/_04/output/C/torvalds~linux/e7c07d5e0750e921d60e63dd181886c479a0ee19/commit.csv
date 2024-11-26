@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e7c07d5e0750e921d60e63dd181886c479a0ee19|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"RDMA/hns: Fix incorrect vlan enable bit in QPC
-
-The QPC_RQ/SQ_VLAN_EN bit in QPC should be enabled, not the QPC mask.
-
-Fixes: f0cb411aad23 (""RDMA/hns: Use new interface to modify QP context"")
-Link: https://lore.kernel.org/r/1624438201-11915-1-git-send-email-liweihang@huawei.com
-Signed-off-by: Weihang Li <liweihang@huawei.com>
-Signed-off-by: Jason Gunthorpe <jgg@nvidia.com>"|1|Weihang Li|liweihang@huawei.com|2021-06-23 16:50:01+08:00|-28800|Jason Gunthorpe|jgg@nvidia.com|2021-06-23 14:37:53-03:00|10800

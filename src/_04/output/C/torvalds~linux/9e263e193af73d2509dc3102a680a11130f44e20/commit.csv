@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9e263e193af73d2509dc3102a680a11130f44e20|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nl80211: don't put struct cfg80211_ap_settings on stack
-
-This struct has grown quite a bit, so dynamically allocate
-it instead of putting it on the stack.
-
-Link: https://lore.kernel.org/r/20210923161836.5813d881eae3.I0fc0f83905b0bfa332c4f1505e00c13abfca3545@changeid
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2021-09-23 16:18:37+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2021-09-23 16:37:47+02:00|-7200

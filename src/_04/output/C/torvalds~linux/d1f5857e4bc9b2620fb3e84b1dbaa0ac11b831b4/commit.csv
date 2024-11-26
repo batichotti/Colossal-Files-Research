@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d1f5857e4bc9b2620fb3e84b1dbaa0ac11b831b4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"OMAP: DSS2: DSI: Add DSI pad muxing support
-
-Add dsi_mux_pads function pointer to omap_dss_board_info, and use the
-function pointer in DSI code to configure the DSI pads either to normal
-DSI operation, or to pull down when in ULPS.
-
-Signed-off-by: Tomi Valkeinen <tomi.valkeinen@ti.com>"|2|Tomi Valkeinen|tomi.valkeinen@ti.com|2010-07-30 11:57:57+03:00|-10800|Tomi Valkeinen|tomi.valkeinen@ti.com|2011-05-11 14:20:17+03:00|-10800

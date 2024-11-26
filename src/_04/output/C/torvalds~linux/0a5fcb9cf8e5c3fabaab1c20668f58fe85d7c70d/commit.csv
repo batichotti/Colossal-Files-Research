@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0a5fcb9cf8e5c3fabaab1c20668f58fe85d7c70d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sctp: move global declaration to header file.
-
-sctp_chunk_cachep & sctp_bucket_cachep is used module global, so move it
-to a header file.
-
-Signed-off-by: Sebastian Siewior <sebastian@breakpoint.cc>
-Signed-off-by: Vlad Yasevich <vladislav.yasevich@hp.com>"|3|sebastian@breakpoint.cc|sebastian@breakpoint.cc|2007-07-26 23:21:32+02:00|-7200|Vlad Yasevich|vladislav.yasevich@hp.com|2007-08-01 11:19:06-04:00|14400

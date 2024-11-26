@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0583d52114b19ea06d03dd2cf762a7737c265400|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tg3: Disable multivec mode for 1 MSIX vector
-
-For single vector MSI-X allocations, we do not want to enable
-multivector modes.  This patch makes the necessary corrections.
-
-Signed-off-by: Matt Carlson <mcarlson@broadcom.com>
-Reviewed-by: Michael Chan <mchan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Matt Carlson|mcarlson@broadcom.com|2011-01-25 15:58:50+00:00|0|David S. Miller|davem@davemloft.net|2011-01-25 19:38:17-08:00|28800

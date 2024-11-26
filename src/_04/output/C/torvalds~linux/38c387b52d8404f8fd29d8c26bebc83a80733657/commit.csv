@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|38c387b52d8404f8fd29d8c26bebc83a80733657|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd4: match close replays on stateid, not open owner id
-
-Keep around an unhashed copy of the final stateid after the last close
-using an openowner, and when identifying a replay, match against that
-stateid instead of just against the open owner id.  Free it the next
-time the seqid is bumped or the stateowner is destroyed.
-
-Signed-off-by: J. Bruce Fields <bfields@redhat.com>"|3|J. Bruce Fields|bfields@redhat.com|2011-09-16 17:42:48-04:00|14400|J. Bruce Fields|bfields@redhat.com|2011-09-17 10:01:54-04:00|14400

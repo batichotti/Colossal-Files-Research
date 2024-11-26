@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d96eb2c6f480769bff32054e78b964860dae4d56|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"kvm/x86: Convert iommu_flags to iommu_noncoherent
-
-Default to operating in coherent mode.  This simplifies the logic when
-we switch to a model of registering and unregistering noncoherent I/O
-with KVM.
-
-Signed-off-by: Alex Williamson <alex.williamson@redhat.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|6|Alex Williamson|alex.williamson@redhat.com|2013-10-30 11:02:23-06:00|21600|Paolo Bonzini|pbonzini@redhat.com|2013-10-30 19:02:13+01:00|-3600

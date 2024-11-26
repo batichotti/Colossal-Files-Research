@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1793c798c34b03ba033d3905fe0f87b88c48b504|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cxgb4: Fixes cxgb4_inet6addr_notifier unregister call
-
-commit b5a02f503caa0837 (""cxgb4 : Update ipv6 address handling api"") introduced
-a regression where unregister cxgb4_inet6addr_notifier wasn't getting called
-during module_exit.
-
-Signed-off-by: Hariprasad Shenai <hariprasad@chelsio.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Hariprasad Shenai|hariprasad@chelsio.com|2015-01-21 20:57:52+05:30|-19800|David S. Miller|davem@davemloft.net|2015-01-26 14:45:46-08:00|28800

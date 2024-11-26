@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|453e2ff8e4ff2747acee1799e7ef959970c5cc78|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: avoid duplicated codes for cleanup
-
-f2fs_segment_has_free_slot() was copied and modified from
-__next_free_blkoff(), they are almost the same, clean up to
-reuse common code as much as possible.
-
-Signed-off-by: Chao Yu <yuchao0@huawei.com>
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|1|Chao Yu|yuchao0@huawei.com|2021-04-13 17:56:18+08:00|-28800|Jaegeuk Kim|jaegeuk@kernel.org|2021-04-13 10:43:15-07:00|25200

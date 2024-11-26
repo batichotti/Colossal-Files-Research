@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|51e13685bd93654e0e9b2559c8e103d6545ddf95|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rtnetlink: RCU-annotate both dimensions of rtnl_msg_handlers
-
-We use rcu_assign_pointer to assign both the table and the entries,
-but the entries are not marked as __rcu. This generates sparse
-warnings.
-
-Signed-off-by: Jakub Kicinski <kuba@kernel.org>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Jakub Kicinski|kuba@kernel.org|2020-12-09 18:16:08-08:00|28800|David S. Miller|davem@davemloft.net|2020-12-10 13:35:59-08:00|28800

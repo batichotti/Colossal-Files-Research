@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5ab8c689f7c0c97e98b8014b7f0ede386bef5aaf|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"perf tools: Move event prototypes from util.h to event.h
-
-More needs to be done to have the actual functions and variables in a
-smaller .c file that can then be included in the python binding,
-avoiding dragging more stuff into it.
-
-Link: http://lkml.kernel.org/n/tip-uecxz7cqkssouj7tlxrkqpl4@git.kernel.org
-Signed-off-by: Arnaldo Carvalho de Melo <acme@redhat.com>"|11|Arnaldo Carvalho de Melo|acme@redhat.com|2017-04-25 15:30:47-03:00|10800|Arnaldo Carvalho de Melo|acme@redhat.com|2017-04-25 15:30:47-03:00|10800

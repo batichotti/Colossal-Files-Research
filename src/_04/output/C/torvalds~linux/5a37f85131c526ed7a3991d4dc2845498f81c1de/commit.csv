@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5a37f85131c526ed7a3991d4dc2845498f81c1de|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: Don't request cache consistency attributes on some writes
-
-We don't need cache consistency information when we're doing O_DIRECT
-writes. Ditto for the case of delegated writes.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|1|Trond Myklebust|Trond.Myklebust@netapp.com|2012-04-28 14:55:16-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2012-05-01 15:42:45-04:00|14400

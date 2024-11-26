@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8d6112f0a0c4ef9187959955eb67b6400577b1f2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8169: factor out handling rtl8169_stats
-
-Factor out handling the private packet/byte counters to new
-functions rtl_get_priv_stats() and rtl_inc_priv_stats().
-
-Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
-Signed-off-by: Jakub Kicinski <kuba@kernel.org>"|1|Heiner Kallweit|hkallweit1@gmail.com|2020-10-09 16:20:34+02:00|-7200|Jakub Kicinski|kuba@kernel.org|2020-10-10 10:46:07-07:00|25200

@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5887d291d792773368f6eaf1759aad109bcd78eb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: avoid unnecessary checkpoints
-
-During the f2fs_put_super procedure, we don't need to conduct checkpoint all
-the time, since we don't need to do that if superblock is clean.
-
-Signed-off-by: Jaegeuk Kim <jaegeuk.kim@samsung.com>"|1|Jaegeuk Kim|jaegeuk.kim@samsung.com|2013-10-08 09:30:33+09:00|-32400|Jaegeuk Kim|jaegeuk.kim@samsung.com|2013-10-08 09:32:43+09:00|-32400

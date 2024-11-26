@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|621358455ae043ab39bc3481f13b101bd6016c8d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Be more careful restoring fs on lightweight vmexit
-
-i386 wants fs for accessing the pda even on a lightweight exit, so ensure
-we can always restore it.  This fixes a regression on i386 introduced by
-the lightweight vmexit patch.
-
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|1|Avi Kivity|avi@qumranet.com|2007-05-01 11:32:28+03:00|-10800|Avi Kivity|avi@qumranet.com|2007-07-16 12:05:38+03:00|-10800

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3fe318ee72c54506534f51b4b4dfb19e0e0df2db|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: move hci_get_random_address() to hci_sync
-
-This function has no dependencies on the deprecated hci_request
-mechanism, so has been moved unchanged to hci_sync.c
-
-Signed-off-by: Brian Gix <brian.gix@intel.com>
-Signed-off-by: Luiz Augusto von Dentz <luiz.von.dentz@intel.com>"|4|Brian Gix|brian.gix@intel.com|2022-08-05 16:42:34-07:00|25200|Luiz Augusto von Dentz|luiz.von.dentz@intel.com|2022-08-25 16:20:11-07:00|25200

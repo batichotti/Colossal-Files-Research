@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5214ecc45cf9b9f1365b189bcb63e441e3865334|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rbd: have rbd_parse_args() report found mon_addrs size
-
-The argument parsing routine already computes the size of the
-mon_addrs buffer it extracts from the ""command.""  Pass it to the
-caller so it can use it to provide the length to rbd_get_client().
-
-Signed-off-by: Alex Elder <elder@dreamhost.com>"|1|Alex Elder|elder@dreamhost.com|2012-02-02 08:13:30-06:00|21600|Alex Elder|elder@dreamhost.com|2012-03-22 10:47:49-05:00|18000

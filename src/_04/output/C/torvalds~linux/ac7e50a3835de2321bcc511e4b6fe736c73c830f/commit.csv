@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ac7e50a3835de2321bcc511e4b6fe736c73c830f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md: Recovery speed is wrong
-
-When we calculate the speed of recovery, the numerator that contains
-the recovery done sectors.  It's need to subtract the sectors which
-don't finish recovery.
-
-Signed-off-by: Xiao Ni <xni@redhat.com>
-Signed-off-by: NeilBrown <neilb@suse.de>"|1|Xiao Ni|xni@redhat.com|2014-08-07 09:37:41-04:00|14400|NeilBrown|neilb@suse.de|2014-08-08 12:11:25+10:00|-36000

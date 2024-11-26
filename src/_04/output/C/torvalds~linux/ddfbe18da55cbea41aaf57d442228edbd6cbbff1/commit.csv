@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ddfbe18da55cbea41aaf57d442228edbd6cbbff1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: mtk_eth_soc: delete an unneeded variable
-
-There is already an ""int err"" declared at the start of the function so
-re-use that instead of declaring a shadow err variable.
-
-Signed-off-by: Dan Carpenter <dan.carpenter@oracle.com>
-Link: https://lore.kernel.org/r/20211217070735.GC26548@kili
-Signed-off-by: Jakub Kicinski <kuba@kernel.org>"|1|Dan Carpenter|dan.carpenter@oracle.com|2021-12-17 10:07:35+03:00|-10800|Jakub Kicinski|kuba@kernel.org|2021-12-17 19:24:26-08:00|28800

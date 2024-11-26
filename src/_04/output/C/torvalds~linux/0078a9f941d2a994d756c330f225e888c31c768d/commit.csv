@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0078a9f941d2a994d756c330f225e888c31c768d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: Remove block_rsv parameter from btrfs_drop_snapshot
-
-It's no longer used following 30d40577e322 (""btrfs: reloc: Also queue
-orphan reloc tree for cleanup to avoid BUG_ON()""), so just remove it.
-
-Signed-off-by: Nikolay Borisov <nborisov@suse.com>
-Reviewed-by: David Sterba <dsterba@suse.com>
-Signed-off-by: David Sterba <dsterba@suse.com>"|4|Nikolay Borisov|nborisov@suse.com|2020-03-10 11:43:51+02:00|-7200|David Sterba|dsterba@suse.com|2020-03-23 17:01:55+01:00|-3600

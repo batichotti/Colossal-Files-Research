@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6c05d25267ebb371c4311de6904f740342e82f7c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8169: spinlock redux.
-
-rtl8169_get_regs operates under RTNL and rtl task mutex whereas
-rtl_set_rx_mode is either called under RTNL or rtl task mutex protection.
-
-Signed-off-by: Francois Romieu <romieu@fr.zoreil.com>
-Cc: Hayes Wang <hayeswang@realtek.com>"|1|Francois Romieu|romieu@fr.zoreil.com|2012-01-31 11:20:34+01:00|-3600|Francois Romieu|romieu@fr.zoreil.com|2012-01-31 14:32:45+01:00|-3600

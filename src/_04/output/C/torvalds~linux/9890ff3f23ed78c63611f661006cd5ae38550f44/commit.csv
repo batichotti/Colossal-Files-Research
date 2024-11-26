@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9890ff3f23ed78c63611f661006cd5ae38550f44|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: fix memory leak when init f2fs filesystem fail
-
-When any of the caches create fails in init_f2fs_fs(), the other caches which are
-create successful should be free.
-
-Signed-off-by: Zhao Hongjiang <zhaohongjiang@huawei.com>
-Signed-off-by: Jaegeuk Kim <jaegeuk.kim@samsung.com>"|1|Zhao Hongjiang|zhaohongjiang@huawei.com|2013-08-20 16:49:51+08:00|-28800|Jaegeuk Kim|jaegeuk.kim@samsung.com|2013-08-20 18:58:44+09:00|-32400

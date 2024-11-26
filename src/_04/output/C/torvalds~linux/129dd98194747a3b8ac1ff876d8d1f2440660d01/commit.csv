@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|129dd98194747a3b8ac1ff876d8d1f2440660d01|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"fusion: mptsas, fix lock imbalance
-
-Fix two typos in mptsas_not_responding_devices. It was mutex_lock instead
-of unlock.
-
-Signed-off-by: Jiri Slaby <jirislaby@gmail.com>
-Acked-by: ""Desai, Kashyap"" <Kashyap.Desai@lsi.com>
-Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"|1|Jiri Slaby|jirislaby@gmail.com|2009-06-21 23:59:01+02:00|-7200|James Bottomley|James.Bottomley@HansenPartnership.com|2009-06-22 08:54:14-05:00|18000

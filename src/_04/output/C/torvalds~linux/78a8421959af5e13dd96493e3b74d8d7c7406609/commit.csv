@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|78a8421959af5e13dd96493e3b74d8d7c7406609|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rtl8xxxu: Apply 8188RU workaround for UMC B cut parts correctly
-
-This patch was being missed since rtl_chip will never match RTL8188C
-if hi_pa is true.
-
-Signed-off-by: Jes Sorensen <Jes.Sorensen@redhat.com>
-Signed-off-by: Kalle Valo <kvalo@codeaurora.org>"|1|Jes Sorensen|Jes.Sorensen@redhat.com|2016-04-14 16:37:10-04:00|14400|Kalle Valo|kvalo@codeaurora.org|2016-04-15 21:38:06+03:00|-10800

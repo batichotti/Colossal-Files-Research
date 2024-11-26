@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|285ff5af6ce358e73f53b55c9efadd4335f4c2ff|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: remove the ideal caching code
-
-This is a relic from before we had the disk space cache and it was to make
-bootup times when you had btrfs as root not be so damned slow.  Now that we have
-the disk space cache this isn't a problem anymore and really having this code
-casues uneeded fragmentation and complexity, so just remove it.  Thanks,
-
-Signed-off-by: Josef Bacik <josef@redhat.com>"|1|Josef Bacik|josef@redhat.com|2012-01-13 15:27:45-05:00|18000|Chris Mason|chris.mason@oracle.com|2012-03-26 14:42:51-04:00|14400

@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7a8a396be406aa51124e8baae827406ae3bc59ed|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ath10k: cleanup debug messages in ath10k_wmi_event_host_swba()
-
-They were just too superfluous and made it harder to read logs. Change them to
-follow the normal style used in ath10k.
-
-Signed-off-by: Kalle Valo <kvalo@qca.qualcomm.com>"|1|Kalle Valo|kvalo@qca.qualcomm.com|2014-03-28 14:35:16+02:00|-7200|Kalle Valo|kvalo@qca.qualcomm.com|2014-04-08 09:39:19+03:00|-10800

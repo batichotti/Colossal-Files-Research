@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|67c65ce762adaf3515fe058538c0a7065dc9f2b4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tools: ynl-gen: don't override pure nested struct
-
-For pure structs (parsed nested attributes) we track what
-forms of the struct exist in request and reply directions.
-Make sure we don't overwrite the recorded struct each time,
-otherwise the information is lost.
-
-Signed-off-by: Jakub Kicinski <kuba@kernel.org>"|1|Jakub Kicinski|kuba@kernel.org|2023-06-01 19:35:41-07:00|25200|Jakub Kicinski|kuba@kernel.org|2023-06-02 22:10:46-07:00|25200

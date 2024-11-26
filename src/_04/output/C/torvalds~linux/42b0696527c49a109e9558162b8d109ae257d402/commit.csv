@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|42b0696527c49a109e9558162b8d109ae257d402|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libceph: wait_request_timeout()
-
-The unwatch timeout is currently implemented in rbd.  With
-watch/unwatch code moving into libceph, we are going to need
-a ceph_osdc_wait_request() variant with a timeout.
-
-Signed-off-by: Ilya Dryomov <idryomov@gmail.com>"|1|Ilya Dryomov|idryomov@gmail.com|2016-04-28 16:07:26+02:00|-7200|Ilya Dryomov|idryomov@gmail.com|2016-05-26 01:14:06+02:00|-7200

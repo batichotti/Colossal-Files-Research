@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f1a438d813d416fa9f4be4e6dbd10b54c5938d89|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sched: reorder update_cpu_load(rq) with the ->task_tick() call
-
-Peter Williams suggested to flip the order of update_cpu_load(rq) with
-the ->task_tick() call. This is a NOP for the current scheduler (the
-two functions are independent of each other), ->task_tick() might
-create some state for update_cpu_load() in the future (or in PlugSched).
-
-Signed-off-by: Ingo Molnar <mingo@elte.hu>"|1|Ingo Molnar|mingo@elte.hu|2007-08-09 11:16:45+02:00|-7200|Ingo Molnar|mingo@elte.hu|2007-08-09 11:16:45+02:00|-7200

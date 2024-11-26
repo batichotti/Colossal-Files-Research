@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4546d178745d5d5f78352a275cf50caa47528436|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: Document logic regarding inode in async_cow_submit
-
-Add a comment explaining when ->inode could be NULL and why we always
-perform the ->async_delalloc_pages modification.
-
-Signed-off-by: Nikolay Borisov <nborisov@suse.com>
-Signed-off-by: David Sterba <dsterba@suse.com>"|1|Nikolay Borisov|nborisov@suse.com|2019-01-03 10:50:03+02:00|-7200|David Sterba|dsterba@suse.com|2019-02-25 14:13:20+01:00|-3600

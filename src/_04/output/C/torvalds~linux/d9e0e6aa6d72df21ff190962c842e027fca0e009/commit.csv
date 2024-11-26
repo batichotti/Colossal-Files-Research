@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d9e0e6aa6d72df21ff190962c842e027fca0e009|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sched: remove __update_rq_clock() call from entity_tick()
-
-remove __update_rq_clock() call from entity_tick().
-
-no change in functionality because scheduler_tick() already calls
-__update_rq_clock().
-
-Signed-off-by: Ingo Molnar <mingo@elte.hu>"|1|Ingo Molnar|mingo@elte.hu|2007-08-09 11:16:51+02:00|-7200|Ingo Molnar|mingo@elte.hu|2007-08-09 11:16:51+02:00|-7200

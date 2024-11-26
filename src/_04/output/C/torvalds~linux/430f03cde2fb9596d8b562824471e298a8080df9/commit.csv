@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|430f03cde2fb9596d8b562824471e298a8080df9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: mark netdev_create_hash __net_init
-
-netdev_create_hash() is only called from netdev_init() which is marked
-__net_init.
-
-Signed-off-by: Baruch Siach <baruch@tkos.co.il>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Baruch Siach|baruch@tkos.co.il|2013-06-02 20:43:55+00:00|0|David S. Miller|davem@davemloft.net|2013-06-04 16:47:27-07:00|25200

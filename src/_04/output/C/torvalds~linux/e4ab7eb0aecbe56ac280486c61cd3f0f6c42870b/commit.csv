@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e4ab7eb0aecbe56ac280486c61cd3f0f6c42870b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: Put some code under MESH macro
-
-In the function ieee80211_subif_start_xmit the logic related with
-meshdrlen is under CONFIG_MAC80211_MESH macro, but in one place it isn't.
-This is some update for this
-
-Signed-off-by: Yuri Ershov <ext-yuri.ershov@nokia.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|1|Yuri Ershov|ext-yuri.ershov@nokia.com|2010-06-29 15:08:06+04:00|-14400|John W. Linville|linville@tuxdriver.com|2010-07-28 16:24:01-04:00|14400

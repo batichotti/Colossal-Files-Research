@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|72ef0c1a9e62c3dd3b4841c8c8a1f259bf7b5d94|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Remove unneeded val variable when setting SSP
-
-The variable val in the set_ssp() function of the management interface
-is not needed. Just use cp->val directly since its input values have
-already been validated.
-
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>"|1|Marcel Holtmann|marcel@holtmann.org|2013-10-10 03:08:10-07:00|25200|Johan Hedberg|johan.hedberg@intel.com|2013-10-10 12:54:51+02:00|-7200

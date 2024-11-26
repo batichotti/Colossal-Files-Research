@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0e2378eaa2b3a663726cf740d4aaa8a801e2cb31|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ksmbd: add missing calling smb2_set_err_rsp() on error
-
-If some error happen on smb2_sess_setup(), Need to call
-smb2_set_err_rsp() to set error response.
-This patch add missing calling smb2_set_err_rsp() on error.
-
-Signed-off-by: Namjae Jeon <linkinjeon@kernel.org>
-Signed-off-by: Steve French <stfrench@microsoft.com>"|1|Namjae Jeon|linkinjeon@kernel.org|2023-08-29 19:37:40+09:00|-32400|Steve French|stfrench@microsoft.com|2023-08-29 12:30:20-05:00|18000

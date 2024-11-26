@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8179e8a15b76eaec1e757da7a0f96de9f0c466c6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tracing: Do not create function tracer options when not compiled in
-
-When the function tracer is not compiled in, do not create the option files
-for it.
-
-Fix up both the sched_wakeup and irqsoff tracers to handle the change.
-
-Signed-off-by: Steven Rostedt <rostedt@goodmis.org>"|4|Steven Rostedt (Red Hat)|rostedt@goodmis.org|2015-09-29 10:24:56-04:00|14400|Steven Rostedt|rostedt@goodmis.org|2015-09-29 15:01:34-04:00|14400

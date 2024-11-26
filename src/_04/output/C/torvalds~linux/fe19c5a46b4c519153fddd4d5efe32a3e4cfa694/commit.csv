@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fe19c5a46b4c519153fddd4d5efe32a3e4cfa694|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: Call vcpu_load and vcpu_put in cpuid_update
-
-cpuid_update may operate VMCS, so vcpu_load() and vcpu_put()
-should be called to ensure correctness.
-
-Signed-off-by: Dongxiao Xu <dongxiao.xu@intel.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|1|Dongxiao Xu|dongxiao.xu@intel.com|2010-05-11 18:21:33+08:00|-28800|Marcelo Tosatti|mtosatti@redhat.com|2010-05-13 01:31:02-03:00|10800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a7068e3932eee8268c4ce4e080a338ee7b8a27bf|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"regulator: core: fix constraints output buffer
-
-The buffer for condtraints debug isn't big enough to hold the output
-in all cases. So fix this issue by increasing the buffer.
-
-Signed-off-by: Stefan Wahren <stefan.wahren@i2se.com>
-Signed-off-by: Mark Brown <broonie@kernel.org>
-Cc: <stable@vger.kernel.org>"|1|Stefan Wahren|stefan.wahren@i2se.com|2015-06-09 20:09:42+00:00|0|Mark Brown|broonie@kernel.org|2015-06-10 00:22:07+01:00|-3600

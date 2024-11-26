@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|232530680290ba94ca37852ab10d9556ea28badf|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: improve smp scalability for inode generation
-
-->s_next_generation is protected by s_next_gen_lock but its usage
-pattern is very primitive.  We don't actually need sequentially
-increasing new generation numbers, so let's use prandom_u32() instead.
-
-Reported-by: Dmitry Monakhov <dmonakhov@openvz.org>
-Signed-off-by: Theodore Ts'o <tytso@mit.edu>"|4|Theodore Ts'o|tytso@mit.edu|2017-11-08 22:23:20-05:00|18000|Theodore Ts'o|tytso@mit.edu|2017-11-08 22:23:20-05:00|18000

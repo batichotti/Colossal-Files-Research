@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4a6c4a9567aed23cf7e8134c63f3176a57e5572b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[media] stv090x: set status bits when there is no lock
-
-Currently, the stv090x driver only set the status bits to SCVYL when
-there is a lock. This patch set the right bits even if there is no lock.
-
-Signed-off-by: Guy Martin <gmsoft@tuxicoman.be>
-Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"|1|Guy Martin|gmsoft@tuxicoman.be|2011-06-01 11:25:16-03:00|10800|Mauro Carvalho Chehab|mchehab@redhat.com|2011-09-25 08:45:18-03:00|10800

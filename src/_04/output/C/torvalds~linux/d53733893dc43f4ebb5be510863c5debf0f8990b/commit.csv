@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d53733893dc43f4ebb5be510863c5debf0f8990b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drbd: Actually allow BIOs up to 128k (was 32k).
-
-Now we have multiple BIOs per ee, packets with a 32 bit length field,
-it gets time to use these goodies.
-
-Signed-off-by: Philipp Reisner <philipp.reisner@linbit.com>
-Signed-off-by: Lars Ellenberg <lars.ellenberg@linbit.com>"|4|Philipp Reisner|philipp.reisner@linbit.com|2010-08-23 15:18:33+02:00|-7200|Philipp Reisner|philipp.reisner@linbit.com|2010-10-14 18:38:25+02:00|-7200

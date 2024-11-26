@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|be265e9bae343d803145bbe910a8b00bc4bea3cc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"s2io: remove unused code
-
-usr_addrs is never referenced outside the initial struct population
-during open, thus making it unnecessary.  Remove it, the code that
-references it, and the struct that it is the only user of.
-
-Signed-off-by: Jon Mason <jon.mason@exar.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Jon Mason|jon.mason@exar.com|2010-08-12 05:03:03+00:00|0|David S. Miller|davem@davemloft.net|2010-08-18 14:24:50-07:00|25200

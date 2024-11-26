@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|74fec5b9dbaa5e6fe776f6c73e6c00fb23dca844|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM/x86: Move X86_CR4_OSXSAVE check into kvm_valid_sregs()
-
-X86_CR4_OSXSAVE check belongs to sregs check and so move into
-kvm_valid_sregs().
-
-Signed-off-by: Lan Tianyu <Tianyu.Lan@microsoft.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Tianyu Lan|Tianyu.Lan@microsoft.com|2018-07-23 12:31:21+00:00|0|Paolo Bonzini|pbonzini@redhat.com|2018-08-06 17:59:19+02:00|-7200

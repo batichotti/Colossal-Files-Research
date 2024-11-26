@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d75a6a0e3933acbba44e4ad8d8f3c4d4f76b6e03|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4.1: Keep a reference on lock states while checking
-
-While walking the list of lock_states, keep a reference on each
-nfs4_lock_state to be checked, otherwise the lock state could be removed
-while the check performs TEST_STATEID and possible FREE_STATEID.
-
-Signed-off-by: Benjamin Coddington <bcodding@redhat.com>
-Signed-off-by: Anna Schumaker <Anna.Schumaker@Netapp.com>"|1|Benjamin Coddington|bcodding@redhat.com|2016-11-18 21:11:39-05:00|18000|Anna Schumaker|Anna.Schumaker@Netapp.com|2016-11-21 11:58:39-05:00|18000

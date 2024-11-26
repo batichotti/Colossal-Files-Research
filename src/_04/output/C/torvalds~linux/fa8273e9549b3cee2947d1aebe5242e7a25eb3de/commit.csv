@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fa8273e9549b3cee2947d1aebe5242e7a25eb3de|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Convert i8254/i8259 locks to raw_spinlocks
-
-The i8254/i8259 locks need to be real spinlocks on preempt-rt. Convert
-them to raw_spinlock. No change for !RT kernels.
-
-Signed-off-by: Thomas Gleixner <tglx@linutronix.de>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|5|Thomas Gleixner|tglx@linutronix.de|2010-02-17 14:00:41+00:00|0|Marcelo Tosatti|mtosatti@redhat.com|2010-03-01 12:36:12-03:00|10800

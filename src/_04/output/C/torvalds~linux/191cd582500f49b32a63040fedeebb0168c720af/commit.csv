@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|191cd582500f49b32a63040fedeebb0168c720af|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netns: Add network namespace argument to rt6_fill_node() and ipv6_dev_get_saddr()
-
-ipv6_dev_get_saddr() blindly de-references dst_dev to get the network
-namespace, but some callers might pass NULL.  Change callers to pass a
-namespace pointer instead.
-
-Signed-off-by: Brian Haley <brian.haley@hp.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|10|Brian Haley|brian.haley@hp.com|2008-08-14 15:33:21-07:00|25200|David S. Miller|davem@davemloft.net|2008-08-14 15:33:21-07:00|25200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|154a086529b50236782a2d4365a1d1c359adc7af|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: remove unneeded memset from init_once
-
-Since, __GFP_ZERO is used while f2fs inode allocation, so we do not
-need memset for f2fs_inode_info, as this is already zeroed out.
-
-Signed-off-by: Namjae Jeon <namjae.jeon@samsung.com>
-Signed-off-by: Amit Sahrawat <a.sahrawat@samsung.com>"|1|Namjae Jeon|namjae.jeon@samsung.com|2012-12-01 10:55:45+09:00|-32400|Jaegeuk Kim|jaegeuk.kim@samsung.com|2012-12-11 13:43:43+09:00|-32400

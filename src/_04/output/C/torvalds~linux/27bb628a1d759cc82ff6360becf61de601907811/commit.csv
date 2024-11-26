@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|27bb628a1d759cc82ff6360becf61de601907811|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"missing atomic_read_long() in slub.c
-
-nr_slabs is atomic_long_t, not atomic_t
-
-Signed-off-by: Al Viro <viro@zeniv.linux.org.uk>
-Signed-off-by: Linus Torvalds <torvalds@linux-foundation.org>"|1|Al Viro|viro@ftp.linux.org.uk|2007-10-29 04:42:55+00:00|0|Linus Torvalds|torvalds@woody.linux-foundation.org|2007-10-29 07:41:32-07:00|25200

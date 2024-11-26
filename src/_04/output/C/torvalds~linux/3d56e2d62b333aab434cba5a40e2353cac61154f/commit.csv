@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3d56e2d62b333aab434cba5a40e2353cac61154f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Kill obj->pending_flip
-
-The pending flip mask no longer set anywhere, so trying to wait for
-while it's non-zero is a no-op. Remove it completely.
-
-Signed-off-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Reviewed-by: Damien Lespiau <damien.lespiau@intel.com>
-Signed-off-by: Daniel Vetter <daniel.vetter@ffwll.ch>"|2|Ville Syrjälä|ville.syrjala@linux.intel.com|2013-01-29 18:13:33+02:00|-7200|Daniel Vetter|daniel.vetter@ffwll.ch|2013-02-20 00:21:42+01:00|-3600

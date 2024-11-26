@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|efa27145df34eacf2569bd45f68dbe00003d3616|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ACPI: thinkpad-acpi: rename thinkpad constants
-
-Rename all IBMACPI_ constants, now that we are not called ibm-acpi anymore.
-Driver-specific constants are now prefixed TPACPI_, ThinkPad firmware
-specific ones are now prefixed TP_CMOS_, TP_ACPI_, or TP_EC_.
-
-Signed-off-by: Henrique de Moraes Holschuh <hmh@hmh.eng.br>
-Signed-off-by: Len Brown <len.brown@intel.com>"|2|Henrique de Moraes Holschuh|hmh@hmh.eng.br|2007-04-21 11:08:28-03:00|10800|Len Brown|len.brown@intel.com|2007-04-21 23:30:33-04:00|14400

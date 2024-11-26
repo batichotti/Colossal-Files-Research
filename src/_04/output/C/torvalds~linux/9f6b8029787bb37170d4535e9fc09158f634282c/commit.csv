@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9f6b8029787bb37170d4535e9fc09158f634282c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: use kvm_memslots whenever possible
-
-kvm_memslots provides lockdep checking.  Use it consistently instead of
-explicit dereferencing of kvm->memslots.
-
-Reviewed-by: Radim Krcmar <rkrcmar@redhat.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|8|Paolo Bonzini|pbonzini@redhat.com|2015-05-17 16:20:07+02:00|-7200|Paolo Bonzini|pbonzini@redhat.com|2015-05-26 12:40:08+02:00|-7200

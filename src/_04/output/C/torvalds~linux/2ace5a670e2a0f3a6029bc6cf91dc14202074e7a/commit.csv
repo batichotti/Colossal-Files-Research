@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2ace5a670e2a0f3a6029bc6cf91dc14202074e7a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mm: make is_free_buddy_page() take a const argument
-
-This function does not modify its argument; let the callers know that so
-they can make better optimisation decisions.
-
-Link: https://lkml.kernel.org/r/20240326171045.410737-6-willy@infradead.org
-Signed-off-by: Matthew Wilcox (Oracle) <willy@infradead.org>
-Signed-off-by: Andrew Morton <akpm@linux-foundation.org>"|2|Matthew Wilcox (Oracle)|willy@infradead.org|2024-03-26 17:10:27+00:00|0|Andrew Morton|akpm@linux-foundation.org|2024-04-25 20:56:14-07:00|25200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1ce8e7b57b3a4527ef83da1c5c7bd8a6b9d87b56|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: ALIGN/PTR_ALIGN cleanup in alloc_netdev_mq()/netdev_priv()
-
-Use ALIGN() and PTR_ALIGN() macros instead of handcoding them.
-
-Get rid of NETDEV_ALIGN_CONST ugly define
-
-Signed-off-by: Eric Dumazet <eric.dumazet@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|Eric Dumazet|eric.dumazet@gmail.com|2009-05-27 04:42:37+00:00|0|David S. Miller|davem@davemloft.net|2009-05-27 15:47:06-07:00|25200

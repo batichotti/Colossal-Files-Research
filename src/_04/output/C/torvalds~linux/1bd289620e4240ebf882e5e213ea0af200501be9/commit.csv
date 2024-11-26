@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1bd289620e4240ebf882e5e213ea0af200501be9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: mpi3mr: Simplify an alloc_ordered_workqueue() invocation
-
-Let alloc_ordered_workqueue() format the workqueue name instead of calling
-snprintf() explicitly.
-
-Signed-off-by: Bart Van Assche <bvanassche@acm.org>
-Link: https://lore.kernel.org/r/20240822195944.654691-9-bvanassche@acm.org
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|2|Bart Van Assche|bvanassche@acm.org|2024-08-22 12:59:12-07:00|25200|Martin K. Petersen|martin.petersen@oracle.com|2024-08-22 21:28:56-04:00|14400

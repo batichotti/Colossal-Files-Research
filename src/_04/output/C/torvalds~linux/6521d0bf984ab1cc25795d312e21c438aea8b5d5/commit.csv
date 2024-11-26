@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6521d0bf984ab1cc25795d312e21c438aea8b5d5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Input: wacom - specify Cinitq supported tools
-
-Cintiq, being a display tablet, doesn't have mouse and associated BTN_s.
-Make sure we do not specify them when registering Cintiq's input device
-so that userland can retrieve the exact tool set the device supports.
-
-Signed-off-by: Ping Cheng <pingc@wacom.com>
-Signed-off-by: Dmitry Torokhov <dtor@mail.ru>"|1|Ping Cheng|pingc@wacom.com|2010-10-24 21:53:40-07:00|25200|Dmitry Torokhov|dmitry.torokhov@gmail.com|2010-10-24 21:56:32-07:00|25200

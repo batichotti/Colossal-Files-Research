@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c348915585af12a7fc6453524d9835830dba574b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: s390: only reset CMMA state if it was enabled before
-
-There is no point in resetting the CMMA state if it was never enabled.
-
-Signed-off-by: Dominik Dingel <dingel@linux.vnet.ibm.com>
-Reviewed-by: David Hildenbrand <dahi@linux.vnet.ibm.com>
-Signed-off-by: Christian Borntraeger <borntraeger@de.ibm.com>"|1|Dominik Dingel|dingel@linux.vnet.ibm.com|2015-06-18 13:17:11+02:00|-7200|Christian Borntraeger|borntraeger@de.ibm.com|2015-07-29 11:02:32+02:00|-7200

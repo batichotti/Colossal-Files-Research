@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|578e1c4db22135d91bad6c79585c4d19252b8d81|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"kvm: x86: Avoid taking MMU lock in kvm_mmu_sync_roots if no sync is needed
-
-kvm_mmu_sync_roots() can locklessly check whether a sync is needed and just
-bail out if it isn't.
-
-Signed-off-by: Junaid Shahid <junaids@google.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Junaid Shahid|junaids@google.com|2018-06-27 14:59:05-07:00|25200|Paolo Bonzini|pbonzini@redhat.com|2018-08-06 17:58:50+02:00|-7200

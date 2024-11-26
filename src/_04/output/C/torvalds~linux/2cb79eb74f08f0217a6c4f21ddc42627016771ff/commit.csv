@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2cb79eb74f08f0217a6c4f21ddc42627016771ff|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rtl8xxxu: byteswap the entire RX descriptor for 24 byte RX descriptors
-
-This shouldn't affect little endian system, but may have prevented the
-driver working on big endian systems for devices with the larger 24
-byte RX descriptors.
-
-Signed-off-by: Jes Sorensen <Jes.Sorensen@redhat.com>
-Signed-off-by: Kalle Valo <kvalo@codeaurora.org>"|1|Jes Sorensen|Jes.Sorensen@redhat.com|2016-04-14 14:58:51-04:00|14400|Kalle Valo|kvalo@codeaurora.org|2016-04-15 21:36:32+03:00|-10800

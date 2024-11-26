@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|95ae6b228f814fc0528d0506ee9f18ac333d6851|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ipv4: ip_ptr cleanups
-
-dev->ip_ptr is protected by rtnl and rcu.
-
-Yet some places dont use appropriate primitives and/or locking rules.
-
-Signed-off-by: Eric Dumazet <eric.dumazet@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|9|Eric Dumazet|eric.dumazet@gmail.com|2010-09-15 04:04:31+00:00|0|David S. Miller|davem@davemloft.net|2010-09-15 22:06:05-07:00|25200

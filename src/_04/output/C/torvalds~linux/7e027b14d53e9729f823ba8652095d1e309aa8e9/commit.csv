@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7e027b14d53e9729f823ba8652095d1e309aa8e9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"vm: simplify unmap_vmas() calling convention
-
-None of the callers want to pass in 'zap_details', and it doesn't even
-make sense for the case of actually unmapping vma's.  So remove the
-argument, and clean up the interface.
-
-Signed-off-by: Linus Torvalds <torvalds@linux-foundation.org>"|3|Linus Torvalds|torvalds@linux-foundation.org|2012-05-06 13:43:15-07:00|25200|Linus Torvalds|torvalds@linux-foundation.org|2012-05-06 13:52:07-07:00|25200

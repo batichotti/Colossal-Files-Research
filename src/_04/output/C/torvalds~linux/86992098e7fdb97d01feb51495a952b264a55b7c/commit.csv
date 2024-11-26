@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|86992098e7fdb97d01feb51495a952b264a55b7c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rbd: make pool_id a 64 bit value
-
-If a format 2 image has a parent, its pool id will be specified
-using a 64-bit value.  Change the pool id we save for an image to
-match that.
-
-Signed-off-by: Alex Elder <elder@inktank.com>
-Reviewed-by: Josh Durgin <josh.durgin@inktank.com>"|1|Alex Elder|elder@inktank.com|2012-10-25 23:34:41-05:00|18000|Alex Elder|elder@inktank.com|2012-10-30 08:34:29-05:00|18000

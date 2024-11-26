@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9cae9e4f8b5887d8ef46fc56c7ca97814ae741ce|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"be2net: fix bug in vlan rx path for big endian architecture
-
-vlan traffic on big endian architecture is broken.
-Need to swap the vid before giving packet to stack.
-This patch fixes it.
-
-Signed-off-by: Ajit Khaparde <ajitk@serverengines.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Ajit Khaparde|ajitk@serverengines.com|2010-03-31 02:00:32+00:00|0|David S. Miller|davem@davemloft.net|2010-04-01 17:25:59-07:00|25200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e934c9c1c8742872a53efb84966d9c1d7b8c8e24|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86 emulator: fix eflags preparation for emulation
-
-We prepare eflags for the emulated instruction, then clobber it with an 'andl'.
-Fix by popping eflags as the last thing in the sequence.
-
-Patch taken from Xen (16143:959b4b92b6bf)
-
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|1|Avi Kivity|avi@qumranet.com|2007-12-06 16:15:02+02:00|-7200|Avi Kivity|avi@qumranet.com|2008-01-30 17:53:19+02:00|-7200

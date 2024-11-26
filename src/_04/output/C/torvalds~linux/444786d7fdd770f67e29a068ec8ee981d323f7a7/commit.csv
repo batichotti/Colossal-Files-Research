@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|444786d7fdd770f67e29a068ec8ee981d323f7a7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] qla2xxx: Use proper request/response queues with MQ instantiations.
-
-Original code would inadvertanly place I/Os on the default
-request-queue.  Also, correctly pass in the proper MSI-X vector
-during response-queue initialization.
-
-Signed-off-by: Andrew Vasquez <andrew.vasquez@qlogic.com>
-Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"|6|Andrew Vasquez|andrew.vasquez@qlogic.com|2009-01-05 11:18:10-08:00|28800|James Bottomley|James.Bottomley@HansenPartnership.com|2009-01-07 15:51:20-06:00|21600

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b3fd82207e2723247aac478e8756451fe85b1ac2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cxgb4: fix to bring link down after adapter crash
-
-Use PORT_REG for T4 and T5_PORT_REG for > T4 to write to correct
-register to bring down link during shutdown after adapter crash.
-
-Signed-off-by: Rahul Lakkireddy <rahul.lakkireddy@chelsio.com>
-Signed-off-by: Ganesh Goudar <ganeshgr@chelsio.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Rahul Lakkireddy|rahul.lakkireddy@chelsio.com|2017-06-08 10:52:11+05:30|-19800|David S. Miller|davem@davemloft.net|2017-06-08 14:40:15-04:00|14400

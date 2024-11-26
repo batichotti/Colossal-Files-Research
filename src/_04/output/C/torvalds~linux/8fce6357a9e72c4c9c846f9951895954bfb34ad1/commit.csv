@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8fce6357a9e72c4c9c846f9951895954bfb34ad1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Allow for NULL data in mgmt_pending_add
-
-Since index is in mgmt_hdr it is possible to have mgmt command with
-no parameters that still needs to add itself to pending list.
-
-Signed-off-by: Szymon Janc <szymon.janc@tieto.com>
-Signed-off-by: Gustavo F. Padovan <padovan@profusion.mobi>"|1|Szymon Janc|szymon.janc@tieto.com|2011-03-22 13:12:20+01:00|-3600|Gustavo F. Padovan|padovan@profusion.mobi|2011-03-31 14:22:57-03:00|10800

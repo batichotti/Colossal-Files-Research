@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d170c4190630bcbeb5db266e79ad7a174902e5de|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Clear async page fault hash after switching to real mode
-
-The hash array of async gfns may still contain some left gfns after
-kvm_clear_async_pf_completion_queue() called, need to clear them.
-
-Signed-off-by: Lai Jiangshan <laijs@cn.fujitsu.com>
-Acked-by: Gleb Natapov <gleb@redhat.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Lai Jiangshan|laijs@cn.fujitsu.com|2011-02-21 11:21:30+08:00|-28800|Marcelo Tosatti|mtosatti@redhat.com|2011-03-17 13:08:31-03:00|10800

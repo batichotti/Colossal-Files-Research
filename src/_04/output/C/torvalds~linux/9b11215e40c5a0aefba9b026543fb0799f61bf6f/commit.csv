@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9b11215e40c5a0aefba9b026543fb0799f61bf6f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Flatten and rename haswell_set_pipemisc()
-
-Move the platform checks out from haswell_set_pipemisc() and
-rename it to bdw_set_pipemisc() to make it clear when to call it.
-
-Signed-off-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Link: https://patchwork.freedesktop.org/patch/msgid/20190412183009.8237-1-ville.syrjala@linux.intel.com
-Reviewed-by: Chris Wilson <chris@chris-wilson.co.uk>"|1|Ville Syrjälä|ville.syrjala@linux.intel.com|2019-04-12 21:30:08+03:00|-10800|Ville Syrjälä|ville.syrjala@linux.intel.com|2019-04-30 22:14:43+03:00|-10800

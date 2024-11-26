@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e2c70425f05219b142b3a8a9489a622c736db39d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] arcmsr: upper 32 of dma address lost
-
-The original code always set the upper 32 bits to zero because it was
-doing a shift of the wrong variable.
-
-Fixes: 1a4f550a09f8 ('[SCSI] arcmsr: 1.20.00.15: add SATA RAID plus other fixes')
-Signed-off-by: Dan Carpenter <dan.carpenter@oracle.com>
-Signed-off-by: James Bottomley <JBottomley@Parallels.com>"|1|Dan Carpenter|dan.carpenter@oracle.com|2014-02-11 19:06:33+03:00|-10800|James Bottomley|JBottomley@Parallels.com|2014-03-15 10:19:19-07:00|25200

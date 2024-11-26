@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c9c17211ec2f36467369a9abf48e8322ad22e856|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: no need for struct nft_af_info to enable/disable table
-
-nf_tables_table_enable() and nf_tables_table_disable() take a pointer to
-struct nft_af_info that is never used, remove it.
-
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|1|Pablo Neira Ayuso|pablo@netfilter.org|2017-12-19 12:17:52+01:00|-3600|Pablo Neira Ayuso|pablo@netfilter.org|2018-01-10 15:32:06+01:00|-3600

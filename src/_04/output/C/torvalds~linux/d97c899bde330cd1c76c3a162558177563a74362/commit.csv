@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d97c899bde330cd1c76c3a162558177563a74362|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Introduce L2CAP channel callback for resuming
-
-Clearing the BT_SK_SUSPEND socket flag from the L2CAP core is causing
-a dependency on the socket. So intead of doing that, use a channel
-callback into the socket handling to resume.
-
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>"|3|Marcel Holtmann|marcel@holtmann.org|2013-10-14 02:53:54-07:00|25200|Johan Hedberg|johan.hedberg@intel.com|2013-10-14 14:23:24+03:00|-10800

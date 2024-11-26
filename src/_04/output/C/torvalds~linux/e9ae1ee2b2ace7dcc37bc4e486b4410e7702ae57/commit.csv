@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e9ae1ee2b2ace7dcc37bc4e486b4410e7702ae57|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS: Move call to nfs4_state_protect() to nfs4_commit_setup()
-
-Rather than doing this in the generic NFS client code.  Let's put this
-with the other v4 stuff so it's all in one place.
-
-Signed-off-by: Anna Schumaker <Anna.Schumaker@Netapp.com>
-Signed-off-by: Trond Myklebust <trond.myklebust@hammerspace.com>"|5|Anna Schumaker|Anna.Schumaker@Netapp.com|2018-05-04 16:22:49-04:00|14400|Trond Myklebust|trond.myklebust@hammerspace.com|2018-05-31 15:02:16-04:00|14400

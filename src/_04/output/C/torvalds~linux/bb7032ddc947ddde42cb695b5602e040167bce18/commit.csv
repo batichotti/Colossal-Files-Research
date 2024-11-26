@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bb7032ddc947ddde42cb695b5602e040167bce18|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"s390/qeth: shrink TX buffer struct
-
-Convert the large boolean array into a bitmap, this substantially
-reduces the struct's size. While at it also clarify the naming.
-
-Signed-off-by: Julian Wiedmann <jwi@linux.ibm.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Julian Wiedmann|jwi@linux.ibm.com|2021-06-11 09:33:40+02:00|-7200|David S. Miller|davem@davemloft.net|2021-06-11 12:49:15-07:00|25200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a7773b5db155fb5ccdbd381d778c08bea35dab31|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ath10k: Remove passing unused argument for ath10k_mac_tx
-
-'ath10k_mac_tx' does not seems to use the per station table
-entry pointer 'sta' (struct ieee80211_sta), hence remove passing
-this unused argument
-
-Signed-off-by: Mohammed Shafi Shajakhan <mohammed@qti.qualcomm.com>
-Signed-off-by: Kalle Valo <kvalo@qca.qualcomm.com>"|1|Mohammed Shafi Shajakhan|mohammed@qti.qualcomm.com|2016-12-27 19:02:35+05:30|-19800|Kalle Valo|kvalo@qca.qualcomm.com|2016-12-30 11:16:27+02:00|-7200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|52f807067ba4a122e75bf1e0e0595c78e6a3d8b6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"xfs: support deferred bmap updates on the attr fork
-
-The deferred bmap update log item has always supported the attr fork, so
-plumb this in so that higher layers can access this.
-
-Signed-off-by: Darrick J. Wong <djwong@kernel.org>
-Reviewed-by: Christoph Hellwig <hch@lst.de>"|4|Darrick J. Wong|djwong@kernel.org|2024-02-22 12:44:32-08:00|28800|Darrick J. Wong|djwong@kernel.org|2024-02-22 12:44:32-08:00|28800

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7bcd64eb8cb56dc2a3b56c0b8f55c8cd908c1c14|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"s390/qeth: skip QDIO queue handler indirection
-
-Both qeth sub drivers use the same QDIO queue handlers, there's no need
-to expose them via the driver's discipline. No functional change.
-
-Signed-off-by: Julian Wiedmann <jwi@linux.vnet.ibm.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|4|Julian Wiedmann|jwi@linux.vnet.ibm.com|2018-04-26 09:42:12+02:00|-7200|David S. Miller|davem@davemloft.net|2018-04-27 13:38:47-04:00|14400

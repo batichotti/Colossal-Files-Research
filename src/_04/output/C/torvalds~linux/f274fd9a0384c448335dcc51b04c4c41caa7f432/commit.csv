@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f274fd9a0384c448335dcc51b04c4c41caa7f432|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tg3: remove IRQF_SAMPLE_RANDOM flag
-
-This driver is the last user of the IRQF_SAMPLE_RANDOM flag for net drivers, and since add_*_randomness
-interfaces have now deprecated the flag as a source of external noise, we can remove it.
-
-Signed-off-by: Davidlohr Bueso <dave@gnu.org>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Davidlohr Bueso|dave@gnu.org|2012-02-22 03:06:54+00:00|0|David S. Miller|davem@davemloft.net|2012-02-22 14:43:48-05:00|18000

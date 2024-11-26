@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7ebe40f20372688a627ad6c754bc0d1c05df58a9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd: remove_stid can be incorporated into nfs4_put_delegation
-
-All calls to nfs4_put_delegation are preceded with remove_stid.
-
-Signed-off-by: Benny Halevy <bhalevy@primarydata.com>
-Signed-off-by: J. Bruce Fields <bfields@redhat.com>"|1|Benny Halevy|bhalevy@primarydata.com|2013-10-15 09:58:00+03:00|-10800|J. Bruce Fields|bfields@redhat.com|2013-10-28 15:58:32-04:00|14400

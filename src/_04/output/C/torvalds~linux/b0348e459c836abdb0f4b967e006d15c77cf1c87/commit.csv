@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b0348e459c836abdb0f4b967e006d15c77cf1c87|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"smb: client: introduce cifs_sfu_make_node()
-
-Remove duplicate code and add new helper for creating special files in
-SFU (Services for UNIX) format that can be shared by SMB1+ code.
-
-Signed-off-by: Paulo Alcantara (SUSE) <pc@manguebit.com>
-Signed-off-by: Steve French <stfrench@microsoft.com>"|3|Paulo Alcantara|pc@manguebit.com|2023-11-21 20:12:55-03:00|10800|Steve French|stfrench@microsoft.com|2023-11-23 11:46:05-06:00|21600

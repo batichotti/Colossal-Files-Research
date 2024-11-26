@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|543eabd5e1929bc73e22b279aa911eb01447535f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: don't auto defrag a file when doing directIO
-
-If we runt the direct IO, we should not run auto defrag, because it may
-introduce buffered IO vs direcIO problem, and make direct IO slow down.
-
-Signed-off-by: Miao Xie <miaox@cn.fujitsu.com>
-Signed-off-by: Chris Mason <chris.mason@fusionio.com>"|1|Miao Xie|miaox@cn.fujitsu.com|2012-12-05 10:52:48+00:00|0|Chris Mason|chris.mason@fusionio.com|2012-12-16 20:46:18-05:00|18000

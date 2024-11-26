@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a7662aa5e56ffa9adf65699eda541f94e157cc83|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: do not define SMM-related constants if SMM disabled
-
-The hidden processor flags HF_SMM_MASK and HF_SMM_INSIDE_NMI_MASK
-are not needed if CONFIG_KVM_SMM is turned off.  Remove the
-definitions altogether and the code that uses them.
-
-Suggested-by: Sean Christopherson <seanjc@google.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|4|Paolo Bonzini|pbonzini@redhat.com|2022-11-07 10:11:42-05:00|18000|Paolo Bonzini|pbonzini@redhat.com|2022-11-09 12:31:21-05:00|18000

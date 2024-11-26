@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6460d948f3ebf7d5040328a60a0ab7221f69945b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[NET]: Add ethtool support for NETIF_F_IPV6_CSUM devices.
-
-Add ethtool utility function to set or clear IPV6_CSUM feature flag.
-Modify tg3.c and bnx2.c to use this function when doing ethtool -K
-to change tx checksum.
-
-Signed-off-by: Michael Chan <mchan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|4|Michael Chan|mchan@broadcom.com|2007-07-14 19:07:52-07:00|25200|David S. Miller|davem@davemloft.net|2007-07-14 19:07:52-07:00|25200

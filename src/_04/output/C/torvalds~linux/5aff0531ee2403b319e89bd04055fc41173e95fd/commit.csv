@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5aff0531ee2403b319e89bd04055fc41173e95fd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sched: remove unused params
-
-This removes the extra struct task_struct *p parameter in inc_nr_running
-and dec_nr_running functions.
-
-Signed-off by: Jerry Stralko <gerb.stralko@gmail.com>
-Signed-off-by: Ingo Molnar <mingo@elte.hu>"|1|Gerald Stralko|gerb.stralko@gmail.com|2008-01-31 22:45:23+01:00|-3600|Ingo Molnar|mingo@elte.hu|2008-01-31 22:45:23+01:00|-3600

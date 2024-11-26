@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e4973e1e5a42072ce88736ba0e39e4b8fc6c3c44|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ALSA: hda - Create jack detection elements in build_controls
-
-The jack detection input elements should be created in build_controls
-callback instead of init callback because init can be called multiple
-times by suspend/resume and power-saving.
-
-Signed-off-by: Takashi Iwai <tiwai@suse.de>"|1|Takashi Iwai|tiwai@suse.de|2008-11-18 09:32:42+01:00|-3600|Takashi Iwai|tiwai@suse.de|2008-11-18 09:43:05+01:00|-3600

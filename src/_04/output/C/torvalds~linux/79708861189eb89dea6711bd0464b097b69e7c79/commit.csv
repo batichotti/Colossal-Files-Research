@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|79708861189eb89dea6711bd0464b097b69e7c79|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfs41: Retry delegation return if it failed with session error
-
-Update nfs4_delegreturn_done() to retry the operation after setting the
-NFS4CLNT_SESSION_SETUP bit to indicate the need to reset the session.
-
-Signed-off-by: Ricardo Labiaga <Ricardo.Labiaga@netapp.com>
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|1|Ricardo Labiaga|Ricardo.Labiaga@netapp.com|2009-12-07 09:23:21-05:00|18000|Trond Myklebust|Trond.Myklebust@netapp.com|2009-12-07 09:23:21-05:00|18000

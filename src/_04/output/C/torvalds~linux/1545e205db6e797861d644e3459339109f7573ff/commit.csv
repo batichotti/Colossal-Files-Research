@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1545e205db6e797861d644e3459339109f7573ff|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"forcedeth fix: take phy out of reset during power up
-
-This patch will add the phy reset bit into the power up mask which is
-used during power up. Certain BIOSes will place the phy in reset and
-therefore the driver must take the phy out of reset when it loads.
-
-Signed-off-by: Ayaz Abdulla <aabdulla@nvidia.com>
-Signed-off-by: Jeff Garzik <jgarzik@redhat.com>"|1|Ayaz Abdulla|aabdulla@nvidia.com|2008-09-22 09:55:35-04:00|14400|Jeff Garzik|jgarzik@redhat.com|2008-09-24 22:11:42-04:00|14400

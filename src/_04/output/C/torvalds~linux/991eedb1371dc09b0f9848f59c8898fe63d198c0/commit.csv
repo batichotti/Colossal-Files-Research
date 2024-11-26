@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|991eedb1371dc09b0f9848f59c8898fe63d198c0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: Only pass the delegation to setattr if we're sending a truncate
-
-Even then it isn't really necessary. The reason why we may not want to
-pass in a stateid in other cases is that we cannot use the delegation
-credential.
-
-Signed-off-by: Trond Myklebust <trond.myklebust@hammerspace.com>"|1|Trond Myklebust|trond.myklebust@primarydata.com|2018-04-09 11:15:30-04:00|14400|Trond Myklebust|trond.myklebust@hammerspace.com|2018-05-31 15:02:16-04:00|14400

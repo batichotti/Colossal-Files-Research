@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6756ae4b4e97aba48c042b4aa6b77a18f507d2cb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[NET]: Convert RTNL to mutex.
-
-This patch turns the RTNL from a semaphore to a new 2.6.16 mutex and
-gets rid of some of the leftover legacy.
-
-Signed-off-by: Stephen Hemminger <shemminger@osdl.org>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|8|Stephen Hemminger|shemminger@osdl.org|2006-03-20 22:23:58-08:00|28800|David S. Miller|davem@davemloft.net|2006-03-20 22:23:58-08:00|28800

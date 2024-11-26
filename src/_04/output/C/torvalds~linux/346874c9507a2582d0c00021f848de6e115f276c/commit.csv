@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|346874c9507a2582d0c00021f848de6e115f276c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: Fix CR3 reserved bits
-
-According to Intel specifications, PAE and non-PAE does not have any reserved
-bits.  In long-mode, regardless to PCIDE, only the high bits (above the
-physical address) are reserved.
-
-Signed-off-by: Nadav Amit <namit@cs.technion.ac.il>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|3|Nadav Amit|namit@cs.technion.ac.il|2014-04-18 03:35:09+03:00|-10800|Marcelo Tosatti|mtosatti@redhat.com|2014-04-23 17:46:57-03:00|10800

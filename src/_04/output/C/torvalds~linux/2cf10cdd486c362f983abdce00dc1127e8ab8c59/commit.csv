@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2cf10cdd486c362f983abdce00dc1127e8ab8c59|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4.1: Handle NFS4ERR_BADSESSION/NFS4ERR_DEADSESSION replies to OP_SEQUENCE
-
-In the case where SEQUENCE receives a NFS4ERR_BADSESSION or
-NFS4ERR_DEADSESSION error, we just want to report the session as needing
-recovery, and then we want to retry the operation.
-
-Signed-off-by: Trond Myklebust <trond.myklebust@primarydata.com>"|1|Trond Myklebust|trond.myklebust@primarydata.com|2016-12-04 19:26:40-05:00|18000|Trond Myklebust|trond.myklebust@primarydata.com|2016-12-04 19:26:40-05:00|18000

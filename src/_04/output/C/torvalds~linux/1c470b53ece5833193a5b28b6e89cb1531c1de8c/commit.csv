@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1c470b53ece5833193a5b28b6e89cb1531c1de8c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8169: use pm_runtime_put_sync in rtl_open error path
-
-We can safely runtime-suspend the chip if rtl_open() fails. Therefore
-switch the error path to use pm_runtime_put_sync() as well.
-
-Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
-Link: https://lore.kernel.org/r/aa093b1e-f295-5700-1cb7-954b54dd8f17@gmail.com
-Signed-off-by: Jakub Kicinski <kuba@kernel.org>"|1|Heiner Kallweit|hkallweit1@gmail.com|2020-10-29 19:02:53+01:00|-3600|Jakub Kicinski|kuba@kernel.org|2020-10-31 16:35:59-07:00|25200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3d56cbdf359c953f8bfcab68aa5cf766e4480799|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: MMU: Drop unused return value of kvm_mmu_remove_some_alloc_mmu_pages
-
-freed_pages is never evaluated, so remove it as well as the return code
-kvm_mmu_remove_some_alloc_mmu_pages so far delivered to its only user.
-
-Signed-off-by: Jan Kiszka <jan.kiszka@siemens.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Jan Kiszka|jan.kiszka@siemens.com|2011-12-02 18:35:24+01:00|-3600|Avi Kivity|avi@redhat.com|2011-12-27 11:22:15+02:00|-7200

@@ -1,6 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3e025740b976c409820a789f8dabc4ec2c50a950|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: do not use discard_map for hard disks
-
-We don't need to keep discard_map, if disk does not support discard command.
-
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|3|Jaegeuk Kim|jaegeuk@kernel.org|2016-08-02 10:56:40-07:00|25200|Jaegeuk Kim|jaegeuk@kernel.org|2016-08-24 10:16:14-07:00|25200

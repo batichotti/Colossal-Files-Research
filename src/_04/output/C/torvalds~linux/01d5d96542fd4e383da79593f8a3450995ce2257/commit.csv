@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|01d5d96542fd4e383da79593f8a3450995ce2257|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: add discard/zeroout flags to journal flush
-
-Add a flags argument to jbd2_journal_flush to enable discarding or
-zero-filling the journal blocks while flushing the journal.
-
-Signed-off-by: Leah Rumancik <leah.rumancik@gmail.com>
-Link: https://lore.kernel.org/r/20210518151327.130198-1-leah.rumancik@gmail.com
-Signed-off-by: Theodore Ts'o <tytso@mit.edu>"|7|Leah Rumancik|leah.rumancik@gmail.com|2021-05-18 15:13:25+00:00|0|Theodore Ts'o|tytso@mit.edu|2021-06-22 19:27:10-04:00|14400

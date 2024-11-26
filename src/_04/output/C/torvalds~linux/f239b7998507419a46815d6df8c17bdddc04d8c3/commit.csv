@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f239b7998507419a46815d6df8c17bdddc04d8c3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Don't pass the crtc to intel_modeset_pipe_config()
-
-We already pass the crtc's state to intel_modeset_pipe_config()
-so passing the crtc as well is redundant.
-
-Signed-off-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Link: https://patchwork.freedesktop.org/patch/msgid/20190517193132.8140-7-ville.syrjala@linux.intel.com
-Reviewed-by: Maarten Lankhorst <maarten.lankhorst@linux.intel.com>"|1|Ville Syrjälä|ville.syrjala@linux.intel.com|2019-05-17 22:31:25+03:00|-10800|Ville Syrjälä|ville.syrjala@linux.intel.com|2019-06-04 16:42:53+03:00|-10800

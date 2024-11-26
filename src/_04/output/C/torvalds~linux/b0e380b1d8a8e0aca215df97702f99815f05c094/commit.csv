@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b0e380b1d8a8e0aca215df97702f99815f05c094|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SK_BUFF]: unions of just one member don't get anything done, kill them
-
-Renaming skb->h to skb->transport_header, skb->nh to skb->network_header and
-skb->mac to skb->mac_header, to match the names of the associated helpers
-(skb[_[re]set]_{transport,network,mac}_header).
-
-Signed-off-by: Arnaldo Carvalho de Melo <acme@redhat.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|46|Arnaldo Carvalho de Melo|acme@redhat.com|2007-04-10 21:21:55-07:00|25200|David S. Miller|davem@sunset.davemloft.net|2007-04-25 22:26:20-07:00|25200

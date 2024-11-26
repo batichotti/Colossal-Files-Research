@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7940876e1330671708186ac3386aa521ffb5c182|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"kvm: make local functions static
-
-Running 'make namespacecheck' found lots of functions that
-should be declared static, since only used in one file.
-
-Signed-off-by: Stephen Hemminger <stephen@networkplumber.org>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|4|Stephen Hemminger|stephen@networkplumber.org|2013-12-29 12:12:29-08:00|28800|Marcelo Tosatti|mtosatti@redhat.com|2014-01-08 19:02:58-02:00|7200

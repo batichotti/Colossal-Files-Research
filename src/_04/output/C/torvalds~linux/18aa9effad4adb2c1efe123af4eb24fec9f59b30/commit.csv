@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|18aa9effad4adb2c1efe123af4eb24fec9f59b30|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"workqueue: implement WQ_NON_REENTRANT
-
-With gcwq managing all the workers and work->data pointing to the last
-gcwq it was on, non-reentrance can be easily implemented by checking
-whether the work is still running on the previous gcwq on queueing.
-Implement it.
-
-Signed-off-by: Tejun Heo <tj@kernel.org>"|2|Tejun Heo|tj@kernel.org|2010-06-29 10:07:13+02:00|-7200|Tejun Heo|tj@kernel.org|2010-06-29 10:07:13+02:00|-7200

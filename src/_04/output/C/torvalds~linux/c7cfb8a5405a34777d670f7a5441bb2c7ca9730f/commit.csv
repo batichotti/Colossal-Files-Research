@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c7cfb8a5405a34777d670f7a5441bb2c7ca9730f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: call inode_dec_link_count() on mkdir error path
-
-In btrfs_mkdir(), if it fails to create dir, we should
-clean up existed items, setting inode's link properly
-to make sure it could be cleaned up properly.
-
-Signed-off-by: Wang Shilong <wangshilong1991@gmail.com>
-Signed-off-by: Chris Mason <clm@fb.com>"|1|Wang Shilong|wangshilong1991@gmail.com|2014-12-24 14:45:30+08:00|-28800|Chris Mason|clm@fb.com|2015-01-02 14:47:55-05:00|18000

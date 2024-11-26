@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e2896e791001b778e3bf8466dd8c6104245c08a2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: sink gfp_t parameter to btrfs_qgroup_trace_extent
-
-All callers pass GFP_NOFS, we can drop the parameter and use it
-directly.
-
-Reviewed-by: Anand Jain <anand.jain@oracle.com>
-Reviewed-by: Johannes Thumshirn <johannes.thumshirn@wdc.com>
-Signed-off-by: David Sterba <dsterba@suse.com>"|3|David Sterba|dsterba@suse.com|2022-10-14 15:55:09+02:00|-7200|David Sterba|dsterba@suse.com|2022-12-05 18:00:43+01:00|-3600

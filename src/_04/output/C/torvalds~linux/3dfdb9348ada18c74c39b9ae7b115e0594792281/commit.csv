@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3dfdb9348ada18c74c39b9ae7b115e0594792281|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: fix locking issue in btrfs_remove_block_group
-
-We should hold the block_group_cache_lock while modifying the
-block groups red-black tree. Thank you,
-
-Signed-off-by: Yan Zheng <zheng.yan@oracle.com>"|1|Yan Zheng|zheng.yan@oracle.com|2009-01-21 10:49:16-05:00|18000|Chris Mason|chris.mason@oracle.com|2009-01-21 10:49:16-05:00|18000

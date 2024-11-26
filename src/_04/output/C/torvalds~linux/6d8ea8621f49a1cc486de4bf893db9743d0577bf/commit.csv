@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6d8ea8621f49a1cc486de4bf893db9743d0577bf|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"V4L/DVB (6992): saa7134: remove Beholder devices without eeprom from auto detection
-
-As in the past, we should not allow to auto detect like this,
-since all saa7130 and saa7134 cards without eeprom will be detected
-as such Beholder cards then.
-
-Signed-off-by: Hermann Pitton <hermann-pitton@arcor.de>
-Signed-off-by: Mauro Carvalho Chehab <mchehab@infradead.org>"|1|hermann pitton|hermann-pitton@arcor.de|2008-01-07 22:36:09-03:00|10800|Mauro Carvalho Chehab|mchehab@infradead.org|2008-01-25 19:04:45-02:00|7200

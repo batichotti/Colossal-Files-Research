@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f17fc25f2b4f4bd8edafe36af6d7379eb9db27a0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cgroup: make css_tryget_online_from_dir() also recognize cgroup2 fs
-
-The function currently returns -EBADF for a directory on the default
-hierarchy.  Make it also recognize cgroup2_fs_type.  This will be used
-for perf_event cgroup2 support.
-
-Signed-off-by: Tejun Heo <tj@kernel.org>"|1|Tejun Heo|tj@kernel.org|2016-02-23 10:00:51-05:00|18000|Tejun Heo|tj@kernel.org|2016-02-23 10:00:51-05:00|18000

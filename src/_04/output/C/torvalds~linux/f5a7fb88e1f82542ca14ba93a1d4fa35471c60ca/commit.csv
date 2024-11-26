@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f5a7fb88e1f82542ca14ba93a1d4fa35471c60ca|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"vlan: Introduce helper functions to check if skb is tagged
-
-Separate the two checks for single vlan and multiple vlans in
-netif_skb_features().  This allows us to move the check for multiple
-vlans to another function later.
-
-Signed-off-by: Toshiaki Makita <makita.toshiaki@lab.ntt.co.jp>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Toshiaki Makita|makita.toshiaki@lab.ntt.co.jp|2015-03-27 14:31:11+09:00|-32400|David S. Miller|davem@davemloft.net|2015-03-29 13:33:22-07:00|25200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|dedb67c4b4e5fa2e6e149a2ce93e7848aaa9d762|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: Add nfnl_msg_type() helper function
-
-Add and use nfnl_msg_type() function to replace opencoded nfnetlink
-message type. I suggested this change, Arushi Singhal made an initial
-patch to address this but was missing several spots.
-
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|11|Pablo Neira Ayuso|pablo@netfilter.org|2017-03-28 22:27:32+05:30|-19800|Pablo Neira Ayuso|pablo@netfilter.org|2017-04-07 16:31:36+02:00|-7200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a4b1c9b9b38c92da099aba234c96e818f8d2e4dd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: ufs: core: Pass EHS length into ufshcd_prepare_req_desc_hdr()
-
-We need to fill in the total EHS length in UTP Transfer Request Descriptor.
-Add this functionality to ufshcd_prepare_req_desc_hdr().
-
-Signed-off-by: Bean Huo <beanhuo@micron.com>
-Reviewed-by: Avri Altman <avri.altman@wdc.com>
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|1|Bean Huo|beanhuo@micron.com|2022-12-01 15:04:36+01:00|-3600|Martin K. Petersen|martin.petersen@oracle.com|2022-12-30 21:01:04+00:00|0

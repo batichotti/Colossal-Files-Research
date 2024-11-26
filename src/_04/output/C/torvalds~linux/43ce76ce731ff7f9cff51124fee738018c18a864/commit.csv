@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|43ce76ce731ff7f9cff51124fee738018c18a864|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM/x86: Use 32bit xor to clear registers in svm.c
-
-x86_64 zero-extends 32bit xor operation to a full 64bit register.
-
-Also add a comment and remove unnecessary instruction suffix in vmx.c
-
-Signed-off-by: Uros Bizjak <ubizjak@gmail.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|2|Uros Bizjak|ubizjak@gmail.com|2018-10-17 16:46:57+02:00|-7200|Paolo Bonzini|pbonzini@redhat.com|2018-10-17 19:08:21+02:00|-7200

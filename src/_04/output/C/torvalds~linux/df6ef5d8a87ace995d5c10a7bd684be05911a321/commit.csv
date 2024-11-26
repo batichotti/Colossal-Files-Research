@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|df6ef5d8a87ace995d5c10a7bd684be05911a321|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: fix sequence number assignment for PS response frames
-
-When using intermediate queues, sequence number allocation is deferred
-until dequeue. This doesn't work for PS response frames, which bypass
-those queues.
-
-Signed-off-by: Felix Fietkau <nbd@nbd.name>
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Felix Fietkau|nbd@nbd.name|2016-09-04 18:00:59+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2016-09-12 11:56:49+02:00|-7200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8318d6a6362f5903edb4c904a8dd447e59be4ad1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"workqueue: Shorten events_freezable_power_efficient name
-
-Since we have set the WQ_NAME_LEN to 32, decrease the name of
-events_freezable_power_efficient so that it does not trip the name length
-warning when the workqueue is created.
-
-Signed-off-by: Audra Mitchell <audra@redhat.com>
-Signed-off-by: Tejun Heo <tj@kernel.org>"|1|Audra Mitchell|audra@redhat.com|2024-01-25 14:05:32-05:00|18000|Tejun Heo|tj@kernel.org|2024-01-25 09:11:40-10:00|36000

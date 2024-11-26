@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3ceb4dbb993fdab6a6fafc69db36686278871134|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfs: nfs4xdr: get rid of READ64
-
-s/READ64\(\*(.*)\)/p = xdr_decode_hyper(p, \1)/
-s/READ64\((.*)\)/p = xdr_decode_hyper(p, &\1)/
-
-Signed-off-by: Benny Halevy <bhalevy@panasas.com>
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|1|Benny Halevy|bhalevy@panasas.com|2009-08-14 17:19:41+03:00|-10800|Trond Myklebust|Trond.Myklebust@netapp.com|2009-08-14 13:24:13-04:00|14400

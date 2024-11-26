@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a545ab6a0085e6df9c7b6e9734b40ba4d2aca8c9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"kvm: x86: add tsc_offset field to struct kvm_vcpu_arch
-
-A future commit will want to easily read a vCPU's TSC offset,
-so we store it in struct kvm_arch_vcpu_arch for easy access.
-
-Signed-off-by: Luiz Capitulino <lcapitulino@redhat.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|2|Luiz Capitulino|lcapitulino@redhat.com|2016-09-07 14:47:19-04:00|14400|Paolo Bonzini|pbonzini@redhat.com|2016-09-16 16:57:45+02:00|-7200

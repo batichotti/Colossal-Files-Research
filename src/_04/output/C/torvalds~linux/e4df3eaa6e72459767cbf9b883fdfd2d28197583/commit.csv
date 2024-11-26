@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e4df3eaa6e72459767cbf9b883fdfd2d28197583|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: ibmvfc: ibmvscsi: ibmvscsi_tgt: constify vio_device_id
-
-vio_device_id are not supposed to change at runtime. All functions
-working with vio_device_id provided by <asm/vio.h> work with const
-vio_device_id. So mark the non-const structs as const.
-
-Signed-off-by: Arvind Yadav <arvind.yadav.cs@gmail.com>
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|3|Arvind Yadav|arvind.yadav.cs@gmail.com|2017-08-17 19:15:05+05:30|-19800|Martin K. Petersen|martin.petersen@oracle.com|2017-08-25 17:42:42-04:00|14400

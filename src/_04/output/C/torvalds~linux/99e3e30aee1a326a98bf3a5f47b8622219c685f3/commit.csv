@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|99e3e30aee1a326a98bf3a5f47b8622219c685f3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: Move TSC offset writes to common code
-
-Also, ensure that the storing of the offset and the reading of the TSC
-are never preempted by taking a spinlock.  While the lock is overkill
-now, it is useful later in this patch series.
-
-Signed-off-by: Zachary Amsden <zamsden@redhat.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|5|Zachary Amsden|zamsden@redhat.com|2010-08-19 22:07:17-10:00|36000|Avi Kivity|avi@redhat.com|2010-10-24 10:51:22+02:00|-7200

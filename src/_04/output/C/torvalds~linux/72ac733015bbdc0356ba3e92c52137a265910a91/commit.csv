@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|72ac733015bbdc0356ba3e92c52137a265910a91|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"raid5: handle io error of batch list
-
-If io error happens in any stripe of a batch list, the batch list will be
-split, then normal process will run for the stripes in the list.
-
-Signed-off-by: Shaohua Li <shli@fusionio.com>
-Signed-off-by: NeilBrown <neilb@suse.de>"|2|shli@kernel.org|shli@kernel.org|2014-12-15 12:57:03+11:00|-39600|NeilBrown|neilb@suse.de|2015-04-22 08:00:41+10:00|-36000

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ae20bfda6813387af18c7fdbc0f8b1fa7be2d05b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"slub: Remove BUG_ON() from ksize and omit checks for !SLUB_DEBUG
-
-The BUG_ONs are useless since the pointer derefs will lead to
-NULL deref errors anyways. Some of the checks are not necessary
-if no debugging is possible.
-
-Signed-off-by: Christoph Lameter <clameter@sgi.com>"|1|Christoph Lameter|clameter@sgi.com|2008-02-15 23:45:25-08:00|28800|Christoph Lameter|clameter@sgi.com|2008-03-03 12:22:31-08:00|28800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|40bef302f6323d1ee6fb3dc0e62edb0f446d0339|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Convert HCI_CONN_MASTER flag to a conn->role variable
-
-Having a dedicated u8 role variable in the hci_conn struct greatly
-simplifies tracking of the role, since this is the native way that it's
-represented on the HCI level.
-
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|5|Johan Hedberg|johan.hedberg@intel.com|2014-07-16 11:42:27+03:00|-10800|Marcel Holtmann|marcel@holtmann.org|2014-07-16 11:04:23+02:00|-7200

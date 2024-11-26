@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1c9d5e41e32a3bfe60f44e3272c05d14ea595a71|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[PATCH] ipw2200: rf kill switch polling power saving
-
-Make the ipw2200 driver polling of rf kill switch occur on second boundaries to reduce
-power. Making all the wakeup's in the system occur together reduces power, and keeps
-CPU in idle longer.
-
-Signed-off-by: Stephen Hemminger <shemminger@linux-foundation.org>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|1|Stephen Hemminger|shemminger@linux-foundation.org|2007-06-22 21:34:06-07:00|25200|John W. Linville|linville@tuxdriver.com|2007-07-10 13:59:48-04:00|14400

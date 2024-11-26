@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a76f73dcd036d53616058aaeaf6986f57061dfa0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915/dp: Silence compiler for missing prototype
-
-drivers/gpu/drm/i915/intel_dp.c:3063:6: warning: no previous prototype for ‘intel_dp_get_alpm_status’ [-Wmissing-prototypes]
- bool intel_dp_get_alpm_status(struct intel_dp *intel_dp)
-
-Signed-off-by: Chris Wilson <chris@chris-wilson.co.uk>
-Link: http://patchwork.freedesktop.org/patch/msgid/20170114105113.1231-2-chris@chris-wilson.co.uk
-Reviewed-by: Joonas Lahtinen <joonas.lahtinen@linux.intel.com>"|1|Chris Wilson|chris@chris-wilson.co.uk|2017-01-14 10:51:13+00:00|0|Chris Wilson|chris@chris-wilson.co.uk|2017-01-16 12:20:17+00:00|0

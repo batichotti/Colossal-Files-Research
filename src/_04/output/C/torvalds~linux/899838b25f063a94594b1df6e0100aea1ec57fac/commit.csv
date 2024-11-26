@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|899838b25f063a94594b1df6e0100aea1ec57fac|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"SELinux: unify the selinux_audit_data and selinux_late_audit_data
-
-We no longer need the distinction.  We only need data after we decide to do an
-audit.  So turn the ""late"" audit data into just ""data"" and remove what we
-currently have as ""data"".
-
-Signed-off-by: Eric Paris <eparis@redhat.com>"|3|Eric Paris|eparis@redhat.com|2012-04-04 15:01:43-04:00|14400|Eric Paris|eparis@redhat.com|2012-04-09 12:23:06-04:00|14400

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|34423f250a372d71346922edf2b84a19d811a311|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tracing: Fix uninitialized buffer var on early exit to trace_vbprintk()
-
-If we exit due to a bad input to trace_printk() (highly unlikely), then the
-buffer variable will not be initialized when we unnest the ring buffer.
-
-Reported-by: kbuild test robot <lkp@intel.com>
-Signed-off-by: Steven Rostedt (VMware) <rostedt@goodmis.org>"|1|Steven Rostedt (VMware)|rostedt@goodmis.org|2020-01-22 06:44:50-05:00|18000|Steven Rostedt (VMware)|rostedt@goodmis.org|2020-01-22 06:44:50-05:00|18000

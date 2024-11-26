@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8dff66cc4195bfaeb8764e7e1b62f2d13f311773|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ibmvnic: Account for VLAN header length in TX buffers
-
-The extra four bytes of a VLAN packet was throwing off
-TX buffer entry values used by the driver. Account for those
-bytes when in buffer size and buffer entry calculations
-
-Signed-off-by: Thomas Falcon <tlfalcon@linux.vnet.ibm.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Thomas Falcon|tlfalcon@linux.vnet.ibm.com|2018-03-12 11:51:03-05:00|18000|David S. Miller|davem@davemloft.net|2018-03-13 10:09:27-04:00|14400

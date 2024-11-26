@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|130e3695a3edf6bf21464f2826720a79a6afdee0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cgroup: remove synchronize_rcu() from rebind_subsystems()
-
-Nothing's protected by RCU in rebind_subsystems(), and I can't think
-of a reason why it is needed.
-
-Signed-off-by: Li Zefan <lizefan@huawei.com>
-Signed-off-by: Tejun Heo <tj@kernel.org>"|1|Li Zefan|lizefan@huawei.com|2013-01-14 17:24:18+08:00|-28800|Tejun Heo|tj@kernel.org|2013-01-14 10:49:39-08:00|28800

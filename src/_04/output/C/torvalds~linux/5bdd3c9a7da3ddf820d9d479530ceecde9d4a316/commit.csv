@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5bdd3c9a7da3ddf820d9d479530ceecde9d4a316|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"OMAP: DSS2: DSI: enable scp clock in dsi_dump_regs()
-
-OMAP4 requires SCP clocks enabled to access DSI PLL registers and DSI COMPLEXIO
-registers. Enable scp clock before accessing the registers and disable it before
-exiting dsi_dump_regs().
-
-Signed-off-by: Archit Taneja <archit@ti.com>
-Signed-off-by: Tomi Valkeinen <tomi.valkeinen@ti.com>"|1|Archit Taneja|archit@ti.com|2011-04-19 19:00:15+05:30|-19800|Tomi Valkeinen|tomi.valkeinen@ti.com|2011-05-11 14:20:51+03:00|-10800

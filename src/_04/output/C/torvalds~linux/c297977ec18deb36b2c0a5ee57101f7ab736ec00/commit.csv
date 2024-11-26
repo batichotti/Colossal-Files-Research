@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c297977ec18deb36b2c0a5ee57101f7ab736ec00|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"be2net: Fix to parse RSS hash from Receive completions correctly.
-
-Wrong pointer variable is being used to parse the rss hash from
-receive completions leading to corrupted rss_hash values filled into skb.
-
-Signed-off-by: Sarveshwar Bandi <sarveshwar.bandi@emulex.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Sarveshwar Bandi|sarveshwar.bandi@emulex.com|2012-07-25 21:29:50+00:00|0|David S. Miller|davem@davemloft.net|2012-07-26 01:13:20-07:00|25200

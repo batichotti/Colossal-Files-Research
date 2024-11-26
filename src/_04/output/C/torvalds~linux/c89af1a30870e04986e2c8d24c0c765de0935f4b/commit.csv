@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c89af1a30870e04986e2c8d24c0c765de0935f4b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bnx2x: avoid TX timeout when stopping device
-
-When stop device call netif_carrier_off() just after disabling TX queue to
-avoid possibility of netdev watchdog warning and ->ndo_tx_timeout() invocation.
-
-Signed-off-by: Stanislaw Gruszka <sgruszka@redhat.com>
-Acked-by: Eilon Greenstein <eilong@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Stanislaw Gruszka|sgruszka@redhat.com|2010-05-17 17:35:38-07:00|25200|David S. Miller|davem@davemloft.net|2010-05-17 17:35:38-07:00|25200

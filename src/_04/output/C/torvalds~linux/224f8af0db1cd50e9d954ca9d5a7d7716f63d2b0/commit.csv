@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|224f8af0db1cd50e9d954ca9d5a7d7716f63d2b0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Allow unsegmented SDU retries on sock_queue_rcv_skb failure
-
-In L2CAP_SDU_UNSEGMENTED case, if sock_queue_rcv_skb returns error,
-l2cap_ertm_reassembly_sdu should not return 0 so as to insert the
-skb into BUSY_QUEUE for later retries.
-
-Signed-off-by: Ruiyi Zhang <Ruiyi.Zhang@Atheros.com>
-Signed-off-by: Gustavo F. Padovan <padovan@profusion.mobi>"|1|Ruiyi Zhang|Ruiyi.Zhang@Atheros.com|2011-05-13 13:07:52+08:00|-28800|Gustavo F. Padovan|padovan@profusion.mobi|2011-06-08 16:58:15-03:00|10800

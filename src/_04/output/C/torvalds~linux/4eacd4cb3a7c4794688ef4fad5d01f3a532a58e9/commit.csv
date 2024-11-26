@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4eacd4cb3a7c4794688ef4fad5d01f3a532a58e9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ceph: initialize pathbase in the !dentry case in encode_caps_cb()
-
-pathbase is the base inode; set it to 0 if we've got no path.
-
-Coverity-id: 146348
-Signed-off-by: Ilya Dryomov <idryomov@gmail.com>
-Reviewed-by: Alex Elder <elder@linaro.org>"|1|Ilya Dryomov|idryomov@gmail.com|2016-08-09 16:12:09+02:00|-7200|Ilya Dryomov|idryomov@gmail.com|2016-08-09 17:26:56+02:00|-7200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1d39ed565cfcc7c4fe586de621aef495c4f94ffb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"remove NETIF_F_TSO ifdefery
-
-Remove the NETIF_F_TSO #ifdef-ery in drivers/net; this was
-for old-old-2.4 compat (even current 2.4 has NETIF_F_TSO)
-but it's time to get rid of it by now.
-
-Signed-off-by: Arjan van de Ven <arjan@linux.intel.com>
-Signed-off-by: Jeff Garzik <jeff@garzik.org>"|11|Arjan van de Ven|arjan@linux.intel.com|2006-12-12 14:06:23+01:00|-3600|Jeff Garzik|jeff@garzik.org|2007-02-05 16:58:45-05:00|18000

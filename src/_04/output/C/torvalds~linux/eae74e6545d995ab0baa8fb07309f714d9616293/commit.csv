@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|eae74e6545d995ab0baa8fb07309f714d9616293|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mwl8k: handle loading AP firmware images
-
-AP and STA firmware images provide a different signature in the
-HIU_INT_CODE register after loading.  Record which of the signatures
-we saw, as it determines which command sequences to use later on.
-
-Signed-off-by: Lennert Buytenhek <buytenh@marvell.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|1|Lennert Buytenhek|buytenh@wantstofly.org|2009-10-22 20:20:53+02:00|-7200|John W. Linville|linville@tuxdriver.com|2009-11-06 16:54:36-05:00|18000

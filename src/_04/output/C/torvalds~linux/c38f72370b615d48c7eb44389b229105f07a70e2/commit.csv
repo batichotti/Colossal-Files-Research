@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c38f72370b615d48c7eb44389b229105f07a70e2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"habanalabs: perform context switch flow only if needed
-
-Except Goya, none of our ASICs require context switch flow, hence we
-enable this flow only where it is needed.
-
-Signed-off-by: Ofir Bitton <obitton@habana.ai>
-Reviewed-by: Oded Gabbay <ogabbay@kernel.org>
-Signed-off-by: Oded Gabbay <ogabbay@kernel.org>"|3|Ofir Bitton|obitton@habana.ai|2022-08-22 10:59:34+03:00|-10800|Oded Gabbay|ogabbay@kernel.org|2022-09-18 13:29:53+03:00|-10800

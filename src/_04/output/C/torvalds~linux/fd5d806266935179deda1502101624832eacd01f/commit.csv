@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fd5d806266935179deda1502101624832eacd01f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"block: convert blkdev_issue_flush() to use empty barriers
-
-Then we can get rid of ->issue_flush_fn() and all the driver private
-implementations of that.
-
-Signed-off-by: Jens Axboe <jens.axboe@oracle.com>"|16|Jens Axboe|jens.axboe@oracle.com|2007-10-16 11:05:02+02:00|-7200|Jens Axboe|jens.axboe@oracle.com|2007-10-16 11:05:02+02:00|-7200

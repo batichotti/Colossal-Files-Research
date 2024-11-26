@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2917f74102cf23afe770c1293aabce005f956b4f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: constify pointer parameters where applicable
-
-We can add const to many parameters, this is for clarity and minor
-addition to safety. There are some minor effects, in the assembly
-code and .ko measured on release config. This patch does not cover all
-possible conversions.
-
-Signed-off-by: David Sterba <dsterba@suse.com>"|31|David Sterba|dsterba@suse.com|2024-05-30 19:14:12+02:00|-7200|David Sterba|dsterba@suse.com|2024-07-11 15:33:22+02:00|-7200

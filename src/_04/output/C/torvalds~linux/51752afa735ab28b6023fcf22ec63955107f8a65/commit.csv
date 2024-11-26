@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|51752afa735ab28b6023fcf22ec63955107f8a65|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cxgb4: remove bond->lock
-
-RTNL should be already held in the notifier call so the slave list can
-be traversed without a problem, remove the unnecessary bond->lock.
-
-CC: Hariprasad S <hariprasad@chelsio.com>
-Signed-off-by: Nikolay Aleksandrov <nikolay@redhat.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Nikolay Aleksandrov|nikolay@redhat.com|2014-09-09 23:16:57+02:00|-7200|David S. Miller|davem@davemloft.net|2014-09-09 17:31:35-07:00|25200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3b5d13218667b3ca52efa52cec1d322163bf5465|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: MMU: delay local tlb flush
-
-delay local tlb flush until enter guest moden, it can reduce vpid flush
-frequency and reduce remote tlb flush IPI(if KVM_REQ_TLB_FLUSH bit is
-already set, IPI is not sent)
-
-Signed-off-by: Xiao Guangrong <xiaoguangrong@cn.fujitsu.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Xiao Guangrong|xiaoguangrong@cn.fujitsu.com|2010-06-08 20:07:01+08:00|-28800|Avi Kivity|avi@redhat.com|2010-08-01 10:46:26+03:00|-10800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|05cf492a8d01f48d4b8d8f0b93f2d75de7349f12|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"xfs: use xfs_bmap_longest_free_extent() in filestreams
-
-The code in xfs_bmap_longest_free_extent() is open coded in
-xfs_filestream_pick_ag(). Export xfs_bmap_longest_free_extent and
-call it from the filestreams code instead.
-
-Signed-off-by: Dave Chinner <dchinner@redhat.com>
-Reviewed-by: Darrick J. Wong <djwong@kernel.org>"|3|Dave Chinner|dchinner@redhat.com|2023-02-13 09:14:55+11:00|-39600|Dave Chinner|dchinner@redhat.com|2023-02-13 09:14:55+11:00|-39600

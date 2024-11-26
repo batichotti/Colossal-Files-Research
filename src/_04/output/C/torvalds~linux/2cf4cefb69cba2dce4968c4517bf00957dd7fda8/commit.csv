@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2cf4cefb69cba2dce4968c4517bf00957dd7fda8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: dsa: mv88e6xxx: fix 88E6191 ops
-
-The mv88e6xxx_info structure for the 88E6191 chip was pointing the
-mv88e6391_ops definition instead of mv88e6191_ops. Fix this.
-
-Signed-off-by: Vivien Didelot <vivien.didelot@savoirfairelinux.com>
-Reviewed-by: Andrew Lunn <andrew@lunn.ch>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Vivien Didelot|vivien.didelot@savoirfairelinux.com|2017-03-28 13:50:34-04:00|14400|David S. Miller|davem@davemloft.net|2017-03-28 21:52:52-07:00|25200

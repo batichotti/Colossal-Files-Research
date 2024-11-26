@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|024aa1c02f0a9f938af83f55c727bcb18187eba4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Modify guest segments after potentially switching modes
-
-The SET_SREGS ioctl modifies both cr0.pe (real mode/protected mode) and
-guest segment registers.  Since segment handling is modified by the mode on
-Intel procesors, update the segment registers after the mode switch has taken
-place.
-
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|1|Avi Kivity|avi@qumranet.com|2007-03-21 13:44:58+02:00|-7200|Avi Kivity|avi@qumranet.com|2007-05-03 10:52:26+03:00|-10800

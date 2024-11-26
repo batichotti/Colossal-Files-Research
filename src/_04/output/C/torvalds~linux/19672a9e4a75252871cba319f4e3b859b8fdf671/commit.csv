@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|19672a9e4a75252871cba319f4e3b859b8fdf671|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mm: convert lock_page_or_retry() to folio_lock_or_retry()
-
-Remove a call to compound_head() in each of the two callers.
-
-Link: https://lkml.kernel.org/r/20220902194653.1739778-58-willy@infradead.org
-Signed-off-by: Matthew Wilcox (Oracle) <willy@infradead.org>
-Signed-off-by: Andrew Morton <akpm@linux-foundation.org>"|2|Matthew Wilcox (Oracle)|willy@infradead.org|2022-09-02 20:46:53+01:00|-3600|Andrew Morton|akpm@linux-foundation.org|2022-10-03 14:02:55-07:00|25200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fc17b6534eb8395f0b3133eb31d87deec32c642b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"blk-mq: switch ->queue_rq return value to blk_status_t
-
-Use the same values for use for request completion errors as the return
-value from ->queue_rq.  BLK_STS_RESOURCE is special cased to cause
-a requeue, and all the others are completed as-is.
-
-Signed-off-by: Christoph Hellwig <hch@lst.de>
-Signed-off-by: Jens Axboe <axboe@fb.com>"|18|Christoph Hellwig|hch@lst.de|2017-06-03 09:38:05+02:00|-7200|Jens Axboe|axboe@fb.com|2017-06-09 09:27:32-06:00|21600

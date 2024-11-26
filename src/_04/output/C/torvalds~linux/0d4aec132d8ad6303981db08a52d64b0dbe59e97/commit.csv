@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0d4aec132d8ad6303981db08a52d64b0dbe59e97|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"lpfc: use time_after()
-
-To be future-proof and for better readability the time comparisons
-are modified to use time_after() instead of plain, error-prone math.
-
-Signed-off-by: Manuel Schölling <manuel.schoelling@gmx.de>
-Reviewed-by: James Smart <james.smart@emulex.com>
-Signed-off-by: Christoph Hellwig <hch@lst.de>"|1|Manuel Schölling|manuel.schoelling@gmx.de|2014-09-03 12:55:58-04:00|14400|Christoph Hellwig|hch@lst.de|2014-09-16 09:10:06-07:00|25200

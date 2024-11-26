@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6bb78cfb50bfbaf90646a80448ee8de2372e292a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ixgbe: cleanup logic for the service timer and VF hang detection
-
-This change just cleans up some of the logic in the service_timer function
-so that we can avoid unnecessary swapping of the ready value between true to
-false and back to true.
-
-Signed-off-by: Alexander Duyck <alexander.h.duyck@intel.com>
-Signed-off-by: Jeff Kirsher <jeffrey.t.kirsher@intel.com>"|1|Alexander Duyck|alexander.h.duyck@intel.com|2012-02-08 07:51:22+00:00|0|Jeff Kirsher|jeffrey.t.kirsher@intel.com|2012-03-19 01:57:23-07:00|25200

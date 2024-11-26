@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4beb345b37fc099e98f40d20c94da6c07654005c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd: Ensure struct nfs4_client is unhashed before we try to destroy it
-
-When we remove the client_mutex protection, we will need to ensure
-that it can't be found by other threads while we're destroying it.
-
-Signed-off-by: Trond Myklebust <trond.myklebust@primarydata.com>
-Signed-off-by: J. Bruce Fields <bfields@redhat.com>"|1|Trond Myklebust|trond.myklebust@primarydata.com|2014-07-30 08:27:02-04:00|14400|J. Bruce Fields|bfields@redhat.com|2014-08-01 16:28:17-04:00|14400

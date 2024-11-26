@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|702131e2a393b45174be326f1dbe20b658b4f157|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bcma: move PCI IRQ control function to host specific code
-
-This function isn't really related to any bus core. It touches PCI
-device config registers only, so move it to the (PCI) host file.
-
-Signed-off-by: Rafał Miłecki <zajec5@gmail.com>
-Signed-off-by: Kalle Valo <kvalo@codeaurora.org>"|6|Rafał Miłecki|zajec5@gmail.com|2015-03-05 18:25:10+01:00|-3600|Kalle Valo|kvalo@codeaurora.org|2015-03-13 16:25:50+02:00|-7200

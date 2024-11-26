@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|30c2235cbc477d4629983d440cdc4f496fec9246|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sctp: add verification checks to SCTP_AUTH_KEY option
-
-The structure used for SCTP_AUTH_KEY option contains a
-length that needs to be verfied to prevent buffer overflow
-conditions.  Spoted by Eugene Teo <eteo@redhat.com>.
-
-Signed-off-by: Vlad Yasevich <vladislav.yasevich@hp.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Vlad Yasevich|vladislav.yasevich@hp.com|2008-08-25 15:16:19-07:00|25200|David S. Miller|davem@davemloft.net|2008-08-25 15:16:19-07:00|25200

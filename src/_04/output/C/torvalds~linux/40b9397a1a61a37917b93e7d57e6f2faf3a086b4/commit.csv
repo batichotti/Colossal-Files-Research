@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|40b9397a1a61a37917b93e7d57e6f2faf3a086b4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Fix L2CAP LE debugfs entries permissions
-
-0466 was probably meant to be 0644, there's no reason why everyone
-except root could write there.
-
-Signed-off-by: Samuel Ortiz <sameo@linux.intel.com>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>
-Cc: stable@vger.kernel.org"|1|Samuel Ortiz|sameo@linux.intel.com|2014-05-14 17:53:35+02:00|-7200|Marcel Holtmann|marcel@holtmann.org|2014-05-14 09:07:07-07:00|25200

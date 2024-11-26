@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|07dce03cd5aa47259f7f835247f4781d7fe82017|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: hns3: refactor PF rss init APIs with new common rss init APIs
-
-This patch uses common rss init APIs to replace the old APIs in PF rss
-module and deletes the old PF rss init APIs. Some related subfunctions and
-macros are also modified in this patch.
-
-Signed-off-by: Jie Wang <wangjie125@huawei.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Jie Wang|wangjie125@huawei.com|2022-01-05 22:20:10+08:00|-28800|David S. Miller|davem@davemloft.net|2022-01-05 14:36:36+00:00|0

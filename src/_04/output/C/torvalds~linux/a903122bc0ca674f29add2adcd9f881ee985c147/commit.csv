@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a903122bc0ca674f29add2adcd9f881ee985c147|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Drop pointless 'crtc' argument from *_crtc_clock_get()
-
-We are alreayd passing the crtc_state to *_crtc_clock_get().
-Passing the crtc as well is 100% redundant, so don't do it.
-
-Signed-off-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Link: https://patchwork.freedesktop.org/patch/msgid/20240412182703.19916-14-ville.syrjala@linux.intel.com
-Reviewed-by: Jani Nikula <jani.nikula@intel.com>"|4|Ville Syrjälä|ville.syrjala@linux.intel.com|2024-04-12 21:26:58+03:00|-10800|Ville Syrjälä|ville.syrjala@linux.intel.com|2024-04-17 16:58:06+03:00|-10800

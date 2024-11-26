@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|51684082b11c304829ea22193d4d96a5b1663b97|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: run the backing dev more often in the submit_bio helper
-
-The submit_bio helper thread can decide to loop back around to
-service more bios.  This commit forces it to unplug first, which helps
-reduce the latency seen by submitters.
-
-Signed-off-by: Chris Mason <chris.mason@oracle.com>"|1|Chris Mason|chris.mason@oracle.com|2010-03-10 15:33:32-05:00|18000|Chris Mason|chris.mason@oracle.com|2010-03-15 11:00:09-04:00|14400

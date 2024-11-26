@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6ee412689027dc7954453aed392ab5c7599c0f73|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: Don't call OPEN if we already have an open stateid for a file
-
-If we already have a stateid with the correct open mode for a given file,
-then we can reuse that stateid instead of re-issuing an OPEN call without
-violating the close-to-open caching semantics.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|1|Trond Myklebust|Trond.Myklebust@netapp.com|2007-07-08 14:11:36-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2007-07-10 23:40:43-04:00|14400

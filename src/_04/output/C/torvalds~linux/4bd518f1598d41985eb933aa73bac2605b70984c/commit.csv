@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4bd518f1598d41985eb933aa73bac2605b70984c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: use separate generations for each address space
-
-This will make it easier to support multiple address spaces in
-kvm_gfn_to_hva_cache_init.  Instead of having to check the address
-space id, we can keep on checking just the generation number.
-
-Reviewed-by: Radim Krčmář <rkrcmar@redhat.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Paolo Bonzini|pbonzini@redhat.com|2017-02-03 20:44:51-08:00|28800|Paolo Bonzini|pbonzini@redhat.com|2017-02-16 18:42:41+01:00|-3600

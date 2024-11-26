@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|244adf6426ee31a83f397b700d964cff12a247d3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: make dioread_nolock the default
-
-This fixes the direct I/O versus writeback race which can reveal stale
-data, and it improves the tail latency of commits on slow devices.
-
-Link: https://lore.kernel.org/r/20200125022254.1101588-1-tytso@mit.edu
-Signed-off-by: Theodore Ts'o <tytso@mit.edu>"|1|Theodore Ts'o|tytso@mit.edu|2020-01-23 12:23:17-05:00|18000|Theodore Ts'o|tytso@mit.edu|2020-01-24 21:23:12-05:00|18000

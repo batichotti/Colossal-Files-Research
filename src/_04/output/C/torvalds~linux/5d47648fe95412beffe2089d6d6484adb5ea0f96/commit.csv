@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5d47648fe95412beffe2089d6d6484adb5ea0f96|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ceph: only choose one MDS who is in up:active state without laggy
-
-Even the MDS is in up:active state, but it also maybe laggy. Here
-will skip the laggy MDSs.
-
-Signed-off-by: Xiubo Li <xiubli@redhat.com>
-Reviewed-by: Jeff Layton <jlayton@kernel.org>
-Signed-off-by: Ilya Dryomov <idryomov@gmail.com>"|2|Xiubo Li|xiubli@redhat.com|2019-11-26 07:24:22-05:00|18000|Ilya Dryomov|idryomov@gmail.com|2020-01-27 16:53:39+01:00|-3600

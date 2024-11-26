@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ce505f9d1d9701f02b124ba1ee6caec21c2100e2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] qla4xxx: Wait for disable_acb before doing set_acb
-
-In function qla4xxx_iface_set_param wait for disable_acb to
-complete so that set_acb will not fail.
-
-Signed-off-by: Vikas Chaudhary <vikas.chaudhary@qlogic.com>
-Reviewed-by: Mike Christie <michaelc@cs.wisc.edu>
-Signed-off-by: James Bottomley <JBottomley@Parallels.com>"|1|Vikas Chaudhary|vikas.chaudhary@qlogic.com|2011-12-01 22:42:10-08:00|28800|James Bottomley|JBottomley@Parallels.com|2011-12-15 10:57:42+04:00|-14400

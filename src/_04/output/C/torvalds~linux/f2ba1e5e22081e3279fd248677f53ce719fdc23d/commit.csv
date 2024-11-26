@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f2ba1e5e22081e3279fd248677f53ce719fdc23d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tools: ynl-gen: stop generating common notification handlers
-
-Common notification handler was supposed to be a way for the user
-to parse the notifications from a socket synchronously.
-I don't think we'll end up using it, ynl_ntf_check() works for
-all known use cases.
-
-Signed-off-by: Jakub Kicinski <kuba@kernel.org>"|1|Jakub Kicinski|kuba@kernel.org|2023-06-08 14:11:55-07:00|25200|Jakub Kicinski|kuba@kernel.org|2023-06-09 14:40:31-07:00|25200

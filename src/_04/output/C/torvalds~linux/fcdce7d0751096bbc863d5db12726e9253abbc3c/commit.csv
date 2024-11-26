@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fcdce7d0751096bbc863d5db12726e9253abbc3c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"dsa: mv88e6xxx: Rename probe function to fit the normal pattern
-
-All other DSA drivers use _drv_ in there DSA probe function name, thus
-allowing for a true linux driver probe function to use the
-conventional name. Make mv88e6xxx fit this pattern.
-
-Signed-off-by: Andrew Lunn <andrew@lunn.ch>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Andrew Lunn|andrew@lunn.ch|2016-05-10 23:27:20+02:00|-7200|David S. Miller|davem@davemloft.net|2016-05-11 19:36:28-04:00|14400

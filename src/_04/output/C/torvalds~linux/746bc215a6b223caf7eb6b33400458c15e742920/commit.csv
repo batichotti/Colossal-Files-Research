@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|746bc215a6b223caf7eb6b33400458c15e742920|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sctp: fix ignoring asoc_id for tcp-style sockets on SCTP_MAX_BURST sockopt
-
-A similar fix as Patch ""sctp: fix ignoring asoc_id for tcp-style sockets on
-SCTP_DEFAULT_SEND_PARAM sockopt"" on SCTP_MAX_BURST sockopt.
-
-Fixes: e0651a0dc877 (""sctp: use SCTP_FUTURE_ASSOC and add SCTP_CURRENT_ASSOC for SCTP_MAX_BURST sockopt"")
-Signed-off-by: Xin Long <lucien.xin@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Xin Long|lucien.xin@gmail.com|2019-03-18 20:06:03+08:00|-28800|David S. Miller|davem@davemloft.net|2019-03-18 18:31:09-07:00|25200

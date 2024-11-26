@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e027446667b5e848c5dc8f34b102173bd06e5739|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rtw88: 8822c: disable rx clock gating before counter reset
-
-Driver Could fail to reset counter if rx clock gating is not disabled.
-So we need to disable rx clock gating before resetting counters.
-Otherwise counters may increase unexpected.
-
-Signed-off-by: Yan-Hsuan Chuang <yhchuang@realtek.com>
-Signed-off-by: Kalle Valo <kvalo@codeaurora.org>"|2|Yan-Hsuan Chuang|yhchuang@realtek.com|2019-06-14 15:24:10+08:00|-28800|Kalle Valo|kvalo@codeaurora.org|2019-06-25 08:08:57+03:00|-10800

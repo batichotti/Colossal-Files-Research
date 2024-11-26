@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6a54435560efdab1a08f429a954df4d6c740bddf|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Prevent overflow in KVM_GET_SUPPORTED_CPUID
-
-The number of entries is multiplied by the entry size, which can
-overflow on 32-bit hosts.  Bound the entry count instead.
-
-Reported-by: David Wagner <daw@cs.berkeley.edu>
-Cc: stable@kernel.org
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Avi Kivity|avi@redhat.com|2009-10-04 16:45:13+02:00|-7200|Avi Kivity|avi@redhat.com|2009-10-04 17:04:16+02:00|-7200

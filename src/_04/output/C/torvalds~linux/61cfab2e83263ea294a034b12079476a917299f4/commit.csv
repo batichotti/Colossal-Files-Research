@@ -1,6 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|61cfab2e83263ea294a034b12079476a917299f4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Correct kvm_pio tracepoint count field
-
-Currently, we record '1' for count regardless of the real count.  Fix.
-
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Avi Kivity|avi@redhat.com|2010-12-13 17:24:53+02:00|-7200|Avi Kivity|avi@redhat.com|2011-01-12 11:30:52+02:00|-7200

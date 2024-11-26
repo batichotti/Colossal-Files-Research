@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b4556396fac5b3f063d5b8ac54dc02f7612a75e1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ceph: fix race between aborted requests and fill_trace
-
-When we abort requests we need to prevent fill_trace et al from doing
-anything that relies on locks held by the VFS caller.  This fixes a race
-between the reply handler and the abort code, ensuring that continue
-holding the dir mutex until the reply handler completes.
-
-Signed-off-by: Sage Weil <sage@newdream.net>"|2|Sage Weil|sage@newdream.net|2010-05-13 12:01:13-07:00|25200|Sage Weil|sage@newdream.net|2010-05-17 10:25:45-07:00|25200

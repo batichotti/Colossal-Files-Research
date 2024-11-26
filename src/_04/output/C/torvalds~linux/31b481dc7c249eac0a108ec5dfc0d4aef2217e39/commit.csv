@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|31b481dc7c249eac0a108ec5dfc0d4aef2217e39|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: Fix ext4_mb_init_cache return error
-
-ext4_mb_init_cache() incorrectly always return EIO on success. This
-causes the caller of ext4_mb_init_cache() fail when it checks the return
-value.
-
-Signed-off-by: Mingming Cao <cmm@us.ibm.com>
-Signed-off-by: ""Theodore Ts'o"" <tytso@mit.edu>"|1|Mingming Cao|cmm@us.ibm.com|2008-07-11 19:27:31-04:00|14400|Theodore Ts'o|tytso@mit.edu|2008-07-11 19:27:31-04:00|14400

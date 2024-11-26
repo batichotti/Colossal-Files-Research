@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|778b235a3be0588da1909f7ef75b4bc3dbc09dfc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Move HCI_ADVERTISING handling into mgmt.c
-
-We'll soon need to make decisions on toggling the HCI_ADVERTISING flag
-based on pending mgmt_set_powered commands. Therefore, move the handling
-from hci_event.c into mgmt.c.
-
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|3|Johan Hedberg|johan.hedberg@intel.com|2014-02-24 14:52:17+02:00|-7200|Marcel Holtmann|marcel@holtmann.org|2014-02-24 11:10:36-08:00|28800

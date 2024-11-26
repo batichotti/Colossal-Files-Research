@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f9ad4a5f3f20bee022b1bdde94e5ece6dc0b0edc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"lockdep: Remove lockdep_hardirq{s_enabled,_context}() argument
-
-Now that the macros use per-cpu data, we no longer need the argument.
-
-Signed-off-by: Peter Zijlstra (Intel) <peterz@infradead.org>
-Reviewed-by: Ingo Molnar <mingo@kernel.org>
-Link: https://lkml.kernel.org/r/20200623083721.571835311@infradead.org"|6|Peter Zijlstra|peterz@infradead.org|2020-05-27 13:03:26+02:00|-7200|Peter Zijlstra|peterz@infradead.org|2020-07-10 12:00:02+02:00|-7200

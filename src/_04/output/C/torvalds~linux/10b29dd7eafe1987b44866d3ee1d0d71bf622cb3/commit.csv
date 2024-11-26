@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|10b29dd7eafe1987b44866d3ee1d0d71bf622cb3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"platform/x86: thinkpad_acpi: Don't use test_bit on an integer
-
-test_bit can only be used on longs not on ints, fix this.
-
-Reported-by: Stephen Rothwell <sfr@canb.auug.org.au>
-Signed-off-by: Hans de Goede <hdegoede@redhat.com>
-Link: https://lore.kernel.org/r/20220309170532.343384-2-hdegoede@redhat.com"|1|Hans de Goede|hdegoede@redhat.com|2022-03-09 18:05:32+01:00|-3600|Hans de Goede|hdegoede@redhat.com|2022-03-09 18:17:57+01:00|-3600

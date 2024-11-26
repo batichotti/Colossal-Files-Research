@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|775bf2773858c50d2acfcdf71889984be94e7037|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] hpsa: do not sleep in atomic context in rmmod path.
-
-Don't call kthread_stop with a spin lock held and interrupts
-disabled because kthread_stop will sleep waiting for the thread
-to stop.
-
-Signed-off-by: Stephen M. Cameron <scameron@beardog.cce.hp.com>
-Signed-off-by: James Bottomley <JBottomley@Parallels.com>"|1|Stephen M. Cameron|scameron@beardog.cce.hp.com|2012-01-05 10:15:31-06:00|21600|James Bottomley|JBottomley@Parallels.com|2012-01-16 09:47:24+04:00|-14400

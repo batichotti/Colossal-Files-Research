@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2dc03b7f00d7fcd7dbb9302c5ebbd0c2b7fa3557|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4.1: Simplify slot allocation
-
-Clean up the NFSv4.1 slot allocation by replacing nfs_find_slot() with
-a function nfs_alloc_slot() that returns a pointer to the nfs4_slot
-instead of an offset into the slot table.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|1|Trond Myklebust|Trond.Myklebust@netapp.com|2012-11-16 16:10:11-05:00|18000|Trond Myklebust|Trond.Myklebust@netapp.com|2012-11-26 17:49:52-05:00|18000

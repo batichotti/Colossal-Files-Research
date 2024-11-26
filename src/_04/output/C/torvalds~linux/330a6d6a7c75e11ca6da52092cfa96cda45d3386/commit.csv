@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|330a6d6a7c75e11ca6da52092cfa96cda45d3386|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"igb: replace unecessary &adapter->hw with just hw where applicable
-
-This patch just cleans up some unecessary references to the adapter->hw
-member when it has already been placed in a local variable named hw.
-
-Signed-off-by: Alexander Duyck <alexander.h.duyck@intel.com>
-Signed-off-by: Jeff Kirsher <jeffrey.t.kirsher@intel.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Alexander Duyck|alexander.h.duyck@intel.com|2009-10-27 23:51:35+00:00|0|David S. Miller|davem@davemloft.net|2009-10-28 03:26:02-07:00|25200

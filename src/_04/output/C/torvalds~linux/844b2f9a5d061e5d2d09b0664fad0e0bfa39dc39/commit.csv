@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|844b2f9a5d061e5d2d09b0664fad0e0bfa39dc39|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Unduplicate chv_data_lane_soft_reset()
-
-The function chv_data_lane_soft_reset() was duplicated in DP and HDMI
-code. Move it to intel_dpio_phy.c.
-
-Signed-off-by: Ander Conselvan de Oliveira <ander.conselvan.de.oliveira@intel.com>
-Reviewed-by: Jim Bride <jim.bride@linux.intel.com>
-Link: http://patchwork.freedesktop.org/patch/msgid/1461761065-21195-4-git-send-email-ander.conselvan.de.oliveira@intel.com"|4|Ander Conselvan de Oliveira|ander.conselvan.de.oliveira@intel.com|2016-04-27 15:44:18+03:00|-10800|Ander Conselvan de Oliveira|ander.conselvan.de.oliveira@intel.com|2016-04-29 09:56:10+03:00|-10800

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|709eb41ad8cd56ee68f9ca5140cfd46839d35837|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: hns3: get vf count by pci_sriov_get_totalvfs
-
-This patch gets vf count by standard function pci_sriov_get_totalvfs,
-instead of info from NIC HW.
-
-Signed-off-by: Lipeng <lipeng321@huawei.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Lipeng|lipeng321@huawei.com|2017-10-23 19:51:04+08:00|-28800|David S. Miller|davem@davemloft.net|2017-10-24 01:16:41+01:00|-3600

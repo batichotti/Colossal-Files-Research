@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|96f90c5421aaaba35ffd931728fabeb8f6cd8471|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Move ILK/SNB/IVB over to the HSW WM code
-
-The new HSW watermark code can now handle ILK/SNB/IVB as well, so
-switch them over. Kill the old code.
-
-Signed-off-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Reviewed-by: Imre Deak <imre.deak@intel.com>
-Signed-off-by: Daniel Vetter <daniel.vetter@ffwll.ch>"|2|Ville Syrjälä|ville.syrjala@linux.intel.com|2013-12-05 15:51:38+02:00|-7200|Daniel Vetter|daniel.vetter@ffwll.ch|2013-12-17 13:17:56+01:00|-3600

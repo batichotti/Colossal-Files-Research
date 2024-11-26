@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|057f184b1245150b88e59997fc6f1af0e138d42e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfs: fix timstamp debug prints
-
-Starting in v5.5, the timestamps are correctly passed down as
-64-bit seconds with NFSv4 on 32-bit machines, but some debug
-statements still truncate them to 'long'.
-
-Fixes: e86d5a02874c (""NFS: Convert struct nfs_fattr to use struct timespec64"")
-Signed-off-by: Arnd Bergmann <arnd@arndb.de>"|1|Arnd Bergmann|arnd@arndb.de|2019-10-28 10:13:16+01:00|-3600|Arnd Bergmann|arnd@arndb.de|2019-12-18 18:07:32+01:00|-3600

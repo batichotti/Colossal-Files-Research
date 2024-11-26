@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e4750c989f732555fca86dd73d488c79972362db|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] mpt2sas: fix crash due to Watchdog is active while OS in standby mode
-
-Fix oops ocurring at hibernation time.  This oops was due to the firmware fault
-watchdog timer still running after we freed resources. To fix the issue we need
-to terminate the watchdog timer at hibernation time.
-
-Signed-off-by: Kashyap Desai <kashyap.desai@lsi.com>
-Signed-off-by: James Bottomley <James.Bottomley@suse.de>"|3|Kashyap, Desai|kashyap.desai@lsi.com|2009-08-07 19:37:59+05:30|-19800|James Bottomley|James.Bottomley@suse.de|2009-08-13 16:30:23-05:00|18000

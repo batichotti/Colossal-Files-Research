@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fb669cc01ed778c4926f395e44a9b61644597d38|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[PATCH] USB: remove usbcore-specific wakeup flags
-
-This makes usbcore use the driver model wakeup flags for host controllers
-and for their root hubs.  Since previous patches have removed all users of
-the HCD flags they replace, this converts the last users of those flags.
-
-Signed-off-by: David Brownell <dbrownell@users.sourceforge.net>
-Signed-off-by: Greg Kroah-Hartman <gregkh@suse.de>"|4|David Brownell|david-b@pacbell.net|2006-01-24 08:40:27-08:00|28800|Greg Kroah-Hartman|gregkh@suse.de|2006-03-20 14:49:56-08:00|28800

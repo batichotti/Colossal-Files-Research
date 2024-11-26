@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|263423f8adf4acbdc4fd26ed5b35f4a6408bc0ab|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rbd: introduce rbd_init_layout()
-
-Rather than initializing layout fields with some made up values in
-__rbd_dev_create(), move the initialization into rbd_init_layout() and
-call it after the header is actually populated.
-
-Signed-off-by: Ilya Dryomov <idryomov@gmail.com>
-Reviewed-by: Jason Dillaman <dillaman@redhat.com>"|1|Ilya Dryomov|idryomov@gmail.com|2017-01-25 18:16:22+01:00|-3600|Ilya Dryomov|idryomov@gmail.com|2017-02-20 12:16:14+01:00|-3600

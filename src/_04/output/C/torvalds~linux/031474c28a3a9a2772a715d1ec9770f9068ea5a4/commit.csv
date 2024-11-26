@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|031474c28a3a9a2772a715d1ec9770f9068ea5a4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"xfs: move the di_extsize field to struct xfs_inode
-
-In preparation of removing the historic icinode struct, move the extsize
-field into the containing xfs_inode structure.
-
-Signed-off-by: Christoph Hellwig <hch@lst.de>
-Reviewed-by: Darrick J. Wong <djwong@kernel.org>
-Signed-off-by: Darrick J. Wong <djwong@kernel.org>"|8|Christoph Hellwig|hch@lst.de|2021-03-29 11:11:41-07:00|25200|Darrick J. Wong|djwong@kernel.org|2021-04-07 14:37:04-07:00|25200

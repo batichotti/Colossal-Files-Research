@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1446413f216fc603f45d0587ac8019f052659658|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/amd/powerplay: drop unneeded newline
-
-PP_ASSERT_WITH_CODE prints a newline at the end of the message string,
-so the message string does not need to include a newline explicitly.
-Done using Coccinelle.
-
-Signed-off-by: Julia Lawall <Julia.Lawall@lip6.fr>
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|5|Julia Lawall|Julia.Lawall@lip6.fr|2017-12-27 15:51:44+01:00|-3600|Alex Deucher|alexander.deucher@amd.com|2018-02-19 14:17:03-05:00|18000

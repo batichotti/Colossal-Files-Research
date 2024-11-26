@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b98c359f1d921deae04bb5dbbbbbb9d8705b7c4c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mm: convert page_swap_flags to folio_swap_flags
-
-The only caller already has a folio, so push the folio->page conversion
-down a level.
-
-Link: https://lkml.kernel.org/r/20220617175020.717127-21-willy@infradead.org
-Signed-off-by: Matthew Wilcox (Oracle) <willy@infradead.org>
-Signed-off-by: Andrew Morton <akpm@linux-foundation.org>"|2|Matthew Wilcox (Oracle)|willy@infradead.org|2022-06-17 18:50:18+01:00|-3600|akpm|akpm@linux-foundation.org|2022-07-03 18:08:48-07:00|25200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3650860b90cc2a06cb9d7e37df005736c46ce87e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: remove almost all of the BUG()'s from tree-log.c
-
-There were a whole bunch and I was doing it for other things.  I haven't tested
-these error paths but at the very least this is better than panicing.  I've only
-left 2 BUG_ON()'s since they are logic errors and I want to replace them with a
-ASSERT framework that we can compile out for production users.  Thanks,
-
-Signed-off-by: Josef Bacik <jbacik@fusionio.com>"|1|Josef Bacik|jbacik@fusionio.com|2013-04-25 16:23:32-04:00|14400|Josef Bacik|jbacik@fusionio.com|2013-05-06 15:55:21-04:00|14400

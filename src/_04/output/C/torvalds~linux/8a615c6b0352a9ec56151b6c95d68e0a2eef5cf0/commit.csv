@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8a615c6b0352a9ec56151b6c95d68e0a2eef5cf0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bpf: Allow sk_lookup with IPv6 module
-
-This is a more complete fix than d71019b54bff (""net: core: Fix build
-with CONFIG_IPV6=m""), so that IPv6 sockets may be looked up if the IPv6
-module is loaded (not just if it's compiled in).
-
-Signed-off-by: Joe Stringer <joe@wand.net.nz>
-Signed-off-by: Alexei Starovoitov <ast@kernel.org>"|3|Joe Stringer|joe@wand.net.nz|2018-10-15 10:27:45-07:00|25200|Alexei Starovoitov|ast@kernel.org|2018-10-15 16:08:39-07:00|25200

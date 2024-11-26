@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|af7cc7d1ee422a612f6785e347a893d44cc892ea|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: introduce vcpu_mmio_gva_to_gpa to cleanup the code
-
-Introduce vcpu_mmio_gva_to_gpa to translate the gva to gpa, we can use it
-to cleanup the code between read emulation and write emulation
-
-Signed-off-by: Xiao Guangrong <xiaoguangrong@cn.fujitsu.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Xiao Guangrong|xiaoguangrong@cn.fujitsu.com|2011-07-12 03:22:46+08:00|-28800|Avi Kivity|avi@redhat.com|2011-07-24 11:50:25+03:00|-10800

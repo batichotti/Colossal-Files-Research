@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9357d93952143b178fa9d1f5095b8f273b01a1f1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: Add comment on vcpu_enter_guest()'s return value
-
-Giving proper names to the 0 and 1 was once suggested.  But since 0 is
-returned to the userspace, giving it another name can introduce extra
-confusion.  This patch just explains the meanings instead.
-
-Signed-off-by: Takuya Yoshikawa <yoshikawa_takuya_b1@lab.ntt.co.jp>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Takuya Yoshikawa|yoshikawa_takuya_b1@lab.ntt.co.jp|2013-12-13 15:08:38+09:00|-32400|Paolo Bonzini|pbonzini@redhat.com|2013-12-13 14:23:54+01:00|-3600

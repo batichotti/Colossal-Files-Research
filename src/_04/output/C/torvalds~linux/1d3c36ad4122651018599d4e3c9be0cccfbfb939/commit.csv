@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1d3c36ad4122651018599d4e3c9be0cccfbfb939|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Fix RC6 suspend/resume
-
-We restored RC6 twice on resume, even with modesetting off.  Instead,
-only restore it once and skip RC6 initialization entirely in non-KMS mode.
-
-Signed-off-by: Andy Lutomirski <luto@mit.edu>
-Tested-by: Jeff Chua <jeff.chua.linux@gmail.com>
-Signed-off-by: Eric Anholt <eric@anholt.net>"|3|Andrew Lutomirski|luto@mit.edu|2009-12-21 10:10:22-05:00|18000|Eric Anholt|eric@anholt.net|2010-01-06 09:39:53-08:00|28800

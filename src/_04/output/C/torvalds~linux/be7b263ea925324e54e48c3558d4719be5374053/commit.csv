@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|be7b263ea925324e54e48c3558d4719be5374053|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: Use a scaled host TSC for guest readings of MSR_IA32_TSC
-
-This patch makes kvm-intel to return a scaled host TSC plus the TSC
-offset when handling guest readings to MSR_IA32_TSC.
-
-Signed-off-by: Haozhong Zhang <haozhong.zhang@intel.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Haozhong Zhang|haozhong.zhang@intel.com|2015-10-20 15:39:11+08:00|-28800|Paolo Bonzini|pbonzini@redhat.com|2015-11-10 12:06:21+01:00|-3600

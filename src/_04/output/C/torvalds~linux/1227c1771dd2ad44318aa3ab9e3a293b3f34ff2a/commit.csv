@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1227c1771dd2ad44318aa3ab9e3a293b3f34ff2a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: Fix data-races around sysctl_[rw]mem_(max|default).
-
-While reading sysctl_[rw]mem_(max|default), they can be changed
-concurrently.  Thus, we need to add READ_ONCE() to its readers.
-
-Fixes: 1da177e4c3f4 (""Linux-2.6.12-rc2"")
-Signed-off-by: Kuniyuki Iwashima <kuniyu@amazon.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|5|Kuniyuki Iwashima|kuniyu@amazon.com|2022-08-23 10:46:44-07:00|25200|David S. Miller|davem@davemloft.net|2022-08-24 13:46:57+01:00|-3600

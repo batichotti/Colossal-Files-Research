@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9401bb5c339d2f9529b2f859638440ce92227c83|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"stmmac: prefetch all dma_erx when use extend_desc
-
-This patch is to prefetch, in the stmmac_rx, the whole
-dma_erx descriptor in case of using the extended descriptors.
-
-Signed-off-by: Giuseppe Cavallaro <peppe.cavallaro@st.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Giuseppe CAVALLARO|peppe.cavallaro@st.com|2013-04-08 02:10:03+00:00|0|David S. Miller|davem@davemloft.net|2013-04-08 16:55:27-04:00|14400

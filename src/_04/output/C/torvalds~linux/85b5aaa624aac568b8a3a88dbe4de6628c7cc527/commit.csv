@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|85b5aaa624aac568b8a3a88dbe4de6628c7cc527|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rbd: passing wrong variable to bvec_kunmap_irq()
-
-We should be passing ""buf"" here insead of ""bv"".  This is tricky because
-it's not the same as kmap() and kunmap().  GCC does warn about it if you
-compile on i386 with CONFIG_HIGHMEM.
-
-Signed-off-by: Dan Carpenter <error27@gmail.com>
-Signed-off-by: Sage Weil <sage@newdream.net>"|1|Dan Carpenter|error27@gmail.com|2010-10-11 21:15:11+02:00|-7200|Sage Weil|sage@newdream.net|2010-10-20 15:38:25-07:00|25200

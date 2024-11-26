@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b773ad73690b5f34eee0c76f4273ac6fcbd88f82|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"slub statistics: Fix check for DEACTIVATE_REMOTE_FREES
-
-The remote frees are in the freelist of the page and not in the
-percpu freelist.
-
-Reviewed-by: Pekka Enberg <penberg@cs.helsinki.fi>
-Signed-off-by: Christoph Lameter <clameter@sgi.com>"|1|Christoph Lameter|clameter@sgi.com|2008-03-04 11:10:17-08:00|28800|Christoph Lameter|clameter@sgi.com|2008-03-06 16:21:49-08:00|28800

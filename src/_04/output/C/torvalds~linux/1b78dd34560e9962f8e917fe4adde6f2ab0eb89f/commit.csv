@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1b78dd34560e9962f8e917fe4adde6f2ab0eb89f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Revert ""wifi: mac80211_hwsim: check the return value of nla_put_u32""
-
-This reverts commit b970ac68e0c4 (""wifi: mac80211_hwsim: check the
-return value of nla_put_u32"") since it introduced a memory leak in
-the error path, which seems worse than sending an incomplete skb,
-and the put can't fail anyway since the SKB was just allocated.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2023-08-22 14:17:21+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2023-08-22 21:40:41+02:00|-7200

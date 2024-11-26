@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|736355f9270940e592699cf07a509b2e4be12abc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Indicate which pipe failed the fastset check overall
-
-intel_crtc_check_fastset() is done per-pipe, so it would be nice
-to know which pipe it was that failed its checkup.
-
-Signed-off-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Link: https://patchwork.freedesktop.org/patch/msgid/20240215164055.30585-2-ville.syrjala@linux.intel.com
-Reviewed-by: Rodrigo Vivi <rodrigo.vivi@intel.com>"|1|Ville Syrjälä|ville.syrjala@linux.intel.com|2024-02-15 18:40:44+02:00|-7200|Ville Syrjälä|ville.syrjala@linux.intel.com|2024-03-15 14:19:21+02:00|-7200

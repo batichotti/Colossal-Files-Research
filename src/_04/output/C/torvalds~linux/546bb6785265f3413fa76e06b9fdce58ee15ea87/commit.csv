@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|546bb6785265f3413fa76e06b9fdce58ee15ea87|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ALSA: hda/realtek - Reuse init_hook for ALC269VB coef setup
-
-Move the currently unused spec->init_hook at the beginning of the init
-sequence so that the recently added ALC269VB coef setup can be put
-there.  The alc_init() is again clean without an ugly check.
-
-Signed-off-by: Takashi Iwai <tiwai@suse.de>"|1|Takashi Iwai|tiwai@suse.de|2012-03-07 08:37:19+01:00|-3600|Takashi Iwai|tiwai@suse.de|2012-03-07 09:07:04+01:00|-3600

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c27ba48e629d2a845f26489fcddc9912673711e7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: FBC is updated within set_base() so remove second call in mode_set()
-
-The FBC is dependent upon a few details of the framebuffer so it is
-required to be updated within set_base(), so remove the redundant call
-from mode_set().
-
-Signed-off-by: Chris Wilson <chris@chris-wilson.co.uk>
-Signed-off-by: Eric Anholt <eric@anholt.net>"|1|Chris Wilson|chris@chris-wilson.co.uk|2010-08-07 11:01:37+01:00|-3600|Eric Anholt|eric@anholt.net|2010-08-09 11:24:35-07:00|25200

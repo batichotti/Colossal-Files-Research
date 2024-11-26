@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|83287ea420ced7242a704488aab0fcdcf2ced9ab|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: Make lto-friendly
-
-LTO (link-time optimization) doesn't like local labels to be referred to
-from a different function, since the two functions may be built in separate
-compilation units.  Use an external variable instead.
-
-Signed-off-by: Avi Kivity <avi@redhat.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|1|Avi Kivity|avi@redhat.com|2012-09-16 15:10:57+03:00|-10800|Marcelo Tosatti|mtosatti@redhat.com|2012-09-17 10:38:03-03:00|10800

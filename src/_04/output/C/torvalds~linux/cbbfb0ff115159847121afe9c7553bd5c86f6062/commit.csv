@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cbbfb0ff115159847121afe9c7553bd5c86f6062|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rbd: store lock cookie
-
-In preparation for supporting set_cookie method (or rather set_cookie
-fallback for older OSDs), store the lock cookie on lock and use it on
-unlock instead of recalculating from rbd_dev->watch_cookie.
-
-Signed-off-by: Ilya Dryomov <idryomov@gmail.com>
-Reviewed-by: Jason Dillaman <dillaman@redhat.com>"|1|Ilya Dryomov|idryomov@gmail.com|2017-04-13 12:17:38+02:00|-7200|Ilya Dryomov|idryomov@gmail.com|2017-05-04 09:19:23+02:00|-7200

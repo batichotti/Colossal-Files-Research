@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|85b56857e194635b772be8af1c7650535d5d112a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: hci_sync: Add support for waiting specific LE subevents
-
-This adds support for waiting for specific LE subevents instead of
-command status which may only indicate that the commands is in progress
-and a different event is used to complete the operation.
-
-Signed-off-by: Luiz Augusto von Dentz <luiz.von.dentz@intel.com>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|3|Luiz Augusto von Dentz|luiz.von.dentz@intel.com|2021-12-22 12:21:57-08:00|28800|Marcel Holtmann|marcel@holtmann.org|2021-12-22 23:01:35+01:00|-3600

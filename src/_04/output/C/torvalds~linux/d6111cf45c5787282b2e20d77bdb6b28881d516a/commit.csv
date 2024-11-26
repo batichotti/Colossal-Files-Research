@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d6111cf45c5787282b2e20d77bdb6b28881d516a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sched: Use WRITE_ONCE() for p->on_rq
-
-Since RCU-tasks uses READ_ONCE(p->on_rq), ensure the write-side
-matches with WRITE_ONCE().
-
-Signed-off-by: ""Paul E. McKenney"" <paulmck@kernel.org>
-Signed-off-by: Peter Zijlstra (Intel) <peterz@infradead.org>
-Link: https://lkml.kernel.org/r/e4896e0b-eacc-45a2-a7a8-de2280a51ecc@paulmck-laptop"|1|Paul E. McKenney|paulmck@kernel.org|2023-10-31 11:12:01-07:00|25200|Peter Zijlstra|peterz@infradead.org|2023-11-15 09:57:45+01:00|-3600

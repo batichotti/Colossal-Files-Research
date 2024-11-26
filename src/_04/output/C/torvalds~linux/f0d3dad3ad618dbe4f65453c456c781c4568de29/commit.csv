@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f0d3dad3ad618dbe4f65453c456c781c4568de29|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Wrap -EIO send-vblank event for failed pageflip in spinlock
-
-drm_send_vblank_event() demands that we hold the event spinlock whilst
-calling it, so do so.
-
-Signed-off-by: Chris Wilson <chris@chris-wilson.co.uk>
-[danvet: Fix the double lock as requested by Chris.]
-Signed-off-by: Daniel Vetter <daniel.vetter@ffwll.ch>"|1|Chris Wilson|chris@chris-wilson.co.uk|2014-09-07 16:51:12+01:00|-3600|Daniel Vetter|daniel.vetter@ffwll.ch|2014-09-19 14:41:15+02:00|-7200

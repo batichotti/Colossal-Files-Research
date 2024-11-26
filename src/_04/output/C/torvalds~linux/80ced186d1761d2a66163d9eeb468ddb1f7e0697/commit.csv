@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|80ced186d1761d2a66163d9eeb468ddb1f7e0697|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: Enhance invalid guest state emulation
-
-- Change returned handle_invalid_guest_state() to return relevant exit codes
-- Move triggering the emulation from vmx_vcpu_run() to vmx_handle_exit()
-- Return to userspace instead of repeatedly trying to emulate instructions that have already failed
-
-Signed-off-by: Mohammed Gamal <m.gamal005@gmail.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|1|Mohammed Gamal|m.gamal005@gmail.com|2009-09-01 12:48:18+02:00|-7200|Avi Kivity|avi@redhat.com|2009-12-03 09:32:09+02:00|-7200

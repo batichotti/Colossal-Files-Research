@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bf6583b5831d3195c45f98ec3016499389cbe18f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] qla2xxx: suppress uninitialized-var warning
-
-drivers/scsi/qla2xxx/qla_os.c: In function 'qla2x00_post_work':
-drivers/scsi/qla2xxx/qla_os.c:2158: warning: 'flags' may be used uninitialized in this function
-
-Signed-off-by: Andrew Morton <akpm@linux-foundation.org>
-Signed-off-by: Andrew Vasquez <andrew.vasquez@qlogic.com>
-Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"|1|Andrew Morton|akpm@linux-foundation.org|2008-07-24 08:31:48-07:00|25200|James Bottomley|James.Bottomley@HansenPartnership.com|2008-07-26 15:31:09-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|72d78717c6d06adf65d2e3dccc96d9e9dc978593|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd: Fixes for nfsd4_encode_read_plus_data()
-
-Ensure that we encode the data payload + padding, and that we truncate
-the preallocated buffer to the actual read size.
-
-Fixes: 528b84934eb9 (""NFSD: Add READ_PLUS data support"")
-Signed-off-by: Trond Myklebust <trond.myklebust@hammerspace.com>
-Signed-off-by: Chuck Lever <chuck.lever@oracle.com>"|1|Trond Myklebust|trond.myklebust@hammerspace.com|2020-12-11 12:26:14-05:00|18000|Chuck Lever|chuck.lever@oracle.com|2020-12-18 12:27:55-05:00|18000

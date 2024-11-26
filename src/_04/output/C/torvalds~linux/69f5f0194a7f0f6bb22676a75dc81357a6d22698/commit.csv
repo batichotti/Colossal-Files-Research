@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|69f5f0194a7f0f6bb22676a75dc81357a6d22698|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSD: Clean up nfsd4_encode_layoutget()
-
-De-duplicate the open-coded stateid4 encoder. Adopt the use of the
-conventional current XDR encoding helpers. Refactor the encoder to
-align with the XDR specification.
-
-Reviewed-by: Jeff Layton <jlayton@kernel.org>
-Signed-off-by: Chuck Lever <chuck.lever@oracle.com>"|2|Chuck Lever|chuck.lever@oracle.com|2023-09-25 09:27:58-04:00|14400|Chuck Lever|chuck.lever@oracle.com|2023-10-16 12:44:28-04:00|14400

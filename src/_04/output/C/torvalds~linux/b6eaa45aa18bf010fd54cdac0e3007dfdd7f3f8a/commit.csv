@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b6eaa45aa18bf010fd54cdac0e3007dfdd7f3f8a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"iwlwifi: mvm: add the cause of the firmware dump in the dump
-
-Now that the firmware dump can be triggered by events in
-the code and not only the user or an firmware ASSERT, we
-need a way to know why the firmware dump was triggered.
-Add a section in the dump file for that.
-
-Signed-off-by: Emmanuel Grumbach <emmanuel.grumbach@intel.com>"|6|Emmanuel Grumbach|emmanuel.grumbach@intel.com|2015-01-29 14:58:20+02:00|-7200|Emmanuel Grumbach|emmanuel.grumbach@intel.com|2015-03-02 08:20:28+02:00|-7200

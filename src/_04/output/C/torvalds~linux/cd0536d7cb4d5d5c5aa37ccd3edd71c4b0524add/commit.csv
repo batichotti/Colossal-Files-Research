@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cd0536d7cb4d5d5c5aa37ccd3edd71c4b0524add|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Fix vmx I/O bitmap initialization on highmem systems
-
-kunmap() expects a struct page, not a virtual address.  Fixes an oops loading
-kvm-intel.ko on i386 with CONFIG_HIGHMEM.
-
-Thanks to Michael Ivanov <deruhu@peterstar.ru> for reporting.
-
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|1|Avi Kivity|avi@qumranet.com|2007-05-08 11:34:07+03:00|-10800|Avi Kivity|avi@qumranet.com|2007-07-16 12:05:41+03:00|-10800

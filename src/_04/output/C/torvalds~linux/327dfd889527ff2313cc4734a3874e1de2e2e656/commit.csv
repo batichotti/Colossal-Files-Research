@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|327dfd889527ff2313cc4734a3874e1de2e2e656|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"stmmac: remove useless csum flag
-
-This patch removes the no_csum_insertion private parameter that is not used anymore
-and, also,  the ""likely"" annotation from the condition that is not in a critical path.
-
-Signed-off-by: Giuseppe Cavallaro <peppe.cavallaro@st.com>
-Cc: Sonic Zhang <sonic.zhang@analog.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Giuseppe CAVALLARO|peppe.cavallaro@st.com|2013-08-21 09:11:14+02:00|-7200|David S. Miller|davem@davemloft.net|2013-08-21 20:38:16-07:00|25200

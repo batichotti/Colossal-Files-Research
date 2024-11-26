@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fca839c00a12d682cb59b3b620d109a1d850b262|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"workqueue: warn if memory reclaim tries to flush !WQ_MEM_RECLAIM workqueue
-
-Task or work item involved in memory reclaim trying to flush a
-non-WQ_MEM_RECLAIM workqueue or one of its work items can lead to
-deadlock.  Trigger WARN_ONCE() if such conditions are detected.
-
-Signed-off-by: Tejun Heo <tj@kernel.org>
-Cc: Peter Zijlstra <peterz@infradead.org>"|1|Tejun Heo|tj@kernel.org|2015-12-07 10:58:57-05:00|18000|Tejun Heo|tj@kernel.org|2015-12-08 11:29:36-05:00|18000

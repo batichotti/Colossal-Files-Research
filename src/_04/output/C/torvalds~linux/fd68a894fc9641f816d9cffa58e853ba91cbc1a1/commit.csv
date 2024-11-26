@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fd68a894fc9641f816d9cffa58e853ba91cbc1a1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ocfs2: Remove inode from ocfs2_xattr_bucket_get_name_value.
-
-In ocfs2_xattr_bucket_get_name_value, actually we only use
-super_block. So use it.
-
-Signed-off-by: Tao Ma <tao.ma@oracle.com>"|1|Tao Ma|tao.ma@oracle.com|2009-08-18 11:43:21+08:00|-28800|Joel Becker|joel.becker@oracle.com|2009-09-22 20:09:41-07:00|25200

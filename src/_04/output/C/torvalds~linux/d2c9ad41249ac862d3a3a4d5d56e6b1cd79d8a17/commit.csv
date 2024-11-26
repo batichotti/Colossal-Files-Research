@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d2c9ad41249ac862d3a3a4d5d56e6b1cd79d8a17|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"raid5: remove worker_cnt_per_group argument from alloc_thread_groups
-
-We can use ""cnt"" directly to update conf->worker_cnt_per_group
-if alloc_thread_groups returns 0.
-
-Signed-off-by: Guoqing Jiang <guoqing.jiang@cloud.ionos.com>
-Signed-off-by: Song Liu <songliubraving@fb.com>"|1|Guoqing Jiang|guoqing.jiang@cloud.ionos.com|2019-12-20 15:46:29+01:00|-3600|Song Liu|songliubraving@fb.com|2020-01-13 11:44:09-08:00|28800

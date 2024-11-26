@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|db72e47f79c5dbd95611edd453328d46c1eae93a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: get rid of at_offset parameter to btrfs_lookup_bio_sums()
-
-We can encode this in the offset parameter: -1 means use the page
-offsets, anything else is a valid offset.
-
-Signed-off-by: Omar Sandoval <osandov@fb.com>
-Signed-off-by: David Sterba <dsterba@suse.com>"|4|Omar Sandoval|osandov@fb.com|2019-12-10 10:37:35-08:00|28800|David Sterba|dsterba@suse.com|2020-01-20 16:40:54+01:00|-3600

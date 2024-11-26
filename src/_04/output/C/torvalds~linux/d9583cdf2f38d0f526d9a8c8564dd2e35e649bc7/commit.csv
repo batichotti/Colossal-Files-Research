@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d9583cdf2f38d0f526d9a8c8564dd2e35e649bc7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: report EOPNOTSUPP on unsupported flags/object type
-
-EINVAL should be used for malformed netlink messages. New userspace
-utility and old kernels might easily result in EINVAL when exercising
-new set features, which is misleading.
-
-Fixes: 8aeff920dcc9 (""netfilter: nf_tables: add stateful object reference to set elements"")
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|1|Pablo Neira Ayuso|pablo@netfilter.org|2020-04-07 14:10:11+02:00|-7200|Pablo Neira Ayuso|pablo@netfilter.org|2020-04-07 18:22:46+02:00|-7200

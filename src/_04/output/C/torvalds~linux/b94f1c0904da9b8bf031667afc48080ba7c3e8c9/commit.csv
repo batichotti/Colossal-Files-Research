@@ -1,6 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b94f1c0904da9b8bf031667afc48080ba7c3e8c9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ipv6: Use icmpv6_notify() to propagate redirect, instead of rt6_redirect().
-
-And delete rt6_redirect(), since it is no longer used.
-
-Signed-off-by: David S. Miller <davem@davemloft.net>"|5|David S. Miller|davem@davemloft.net|2012-07-12 00:33:37-07:00|25200|David S. Miller|davem@davemloft.net|2012-07-12 00:33:37-07:00|25200

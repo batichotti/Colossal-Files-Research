@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4b2f4e072fb2599b6a2e5e277f0d2b5705eaa630|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: mgmt: Fix double free on error path
-
-Don't call mgmt_pending_remove() twice (double free).
-
-Fixes: 6b88eff43704 (""Bluetooth: hci_sync: Refactor remove Adv Monitor"")
-Signed-off-by: Dan Carpenter <dan.carpenter@oracle.com>
-Signed-off-by: Luiz Augusto von Dentz <luiz.von.dentz@intel.com>"|1|Dan Carpenter|dan.carpenter@oracle.com|2022-07-26 18:13:44+03:00|-10800|Luiz Augusto von Dentz|luiz.von.dentz@intel.com|2022-07-26 13:32:40-07:00|25200

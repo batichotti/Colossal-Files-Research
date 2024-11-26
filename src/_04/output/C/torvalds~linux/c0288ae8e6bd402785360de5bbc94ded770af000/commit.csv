@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c0288ae8e6bd402785360de5bbc94ded770af000|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: make dev_get_port_parent_id slightly more readable
-
-Cosmetic commit making dev_get_port_parent_id slightly more readable.
-There is no need to split the condition to return after calling
-devlink_compat_switch_id_get and after that 'recurse' is always true.
-
-Signed-off-by: Antoine Tenart <atenart@kernel.org>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Antoine Tenart|atenart@kernel.org|2021-10-08 16:21:03+02:00|-7200|David S. Miller|davem@davemloft.net|2021-10-10 11:29:14+01:00|-3600

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c177db2d0d5e751d52d3827b8cfdb6ef92a95a2d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cfg80211/mac80211: fix FTM settings across CSA
-
-When FTM is enabled, doing a CSA will unexpectedly lose it since
-the value of ftm_responder may be initialized to 0 instead of -1,
-so fix that.
-
-Fixes: 81e54d08d9d8 (""cfg80211: support FTM responder configuration/statistics"")
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2018-10-30 09:17:44+01:00|-3600|Johannes Berg|johannes.berg@intel.com|2018-11-09 08:56:58+01:00|-3600

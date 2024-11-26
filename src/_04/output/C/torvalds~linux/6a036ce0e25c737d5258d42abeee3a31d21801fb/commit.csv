@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6a036ce0e25c737d5258d42abeee3a31d21801fb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: ibmvfc: Stop using scsi_cmnd.tag
-
-Use scsi_cmd_to_rq(scsi_cmnd)->tag in preference to scsi_cmnd.tag.
-
-Link: https://lore.kernel.org/r/1629207817-211936-1-git-send-email-john.garry@huawei.com
-Signed-off-by: John Garry <john.garry@huawei.com>
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|1|John Garry|john.garry@huawei.com|2021-08-17 21:43:37+08:00|-28800|Martin K. Petersen|martin.petersen@oracle.com|2021-08-17 22:28:39-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1a6661dafd2528d03d0eaed898ad596816dfe738|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"workqueue: convert bus code to use dev_groups
-
-The dev_attrs field of struct bus_type is going away soon, dev_groups
-should be used instead.  This converts the workqueue bus code to use
-the correct field.
-
-Acked-by: Tejun Heo <tj@kernel.org>
-Signed-off-by: Greg Kroah-Hartman <gregkh@linuxfoundation.org>"|1|Greg Kroah-Hartman|gregkh@linuxfoundation.org|2013-08-23 14:24:41-07:00|25200|Greg Kroah-Hartman|gregkh@linuxfoundation.org|2013-08-23 14:38:12-07:00|25200

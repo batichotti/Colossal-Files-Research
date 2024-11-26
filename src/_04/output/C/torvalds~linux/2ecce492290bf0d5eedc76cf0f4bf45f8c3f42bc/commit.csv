@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2ecce492290bf0d5eedc76cf0f4bf45f8c3f42bc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] fusion - report wide port sas address's for hba phys
-
-Return proper sas address to sas transport layer for parent phys that
-form a wide port. Current implementation returns a different address
-for each phy, incremented by one from the base address.
-
-Signed-off-by: Eric Moore <Eric.Moore@lsi.com>
-Signed-off-by: James Bottomley <James.Bottomley@SteelEye.com>"|1|Eric Moore|eric.moore@lsi.com|2007-01-29 09:47:08-07:00|25200|James Bottomley|jejb@mulgrave.il.steeleye.com|2007-02-02 21:05:46-06:00|21600

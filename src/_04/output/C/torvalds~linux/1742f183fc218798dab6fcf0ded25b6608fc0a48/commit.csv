@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1742f183fc218798dab6fcf0ded25b6608fc0a48|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: fix netdev_increment_features()
-
-Simplify and fix netdev_increment_features() to conform to what is
-stated in netdevice.h comments about NETIF_F_ONE_FOR_ALL.
-Include FCoE segmentation and VLAN-challedged flags in computation.
-
-Signed-off-by: Michał Mirosław <mirq-linux@rere.qmqm.pl>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Michał Mirosław|mirq-linux@rere.qmqm.pl|2011-04-22 06:31:16+00:00|0|David S. Miller|davem@davemloft.net|2011-04-28 13:33:07-07:00|25200

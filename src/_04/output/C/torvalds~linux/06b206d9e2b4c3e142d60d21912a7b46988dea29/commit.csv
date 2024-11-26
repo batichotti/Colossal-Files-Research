@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|06b206d9e2b4c3e142d60d21912a7b46988dea29|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: remove unnecessary block size check in init_f2fs_fs()
-
-After commit d7e9a9037de2 (""f2fs: Support Block Size == Page Size""),
-F2FS_BLKSIZE equals to PAGE_SIZE, remove unnecessary check condition.
-
-Signed-off-by: Chao Yu <chao@kernel.org>
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|1|Chao Yu|chao@kernel.org|2024-04-16 15:21:08+08:00|-28800|Jaegeuk Kim|jaegeuk@kernel.org|2024-04-19 17:57:35+00:00|0

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|99129069b7123c22ca14529972946216757077ee|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mlxsw: spectrum: Use same trap group for MLD and IGMP packets
-
-Both packet types are needed for the same reason (multicast snooping),
-so associate them with the same trap group.
-
-Signed-off-by: Ido Schimmel <idosch@mellanox.com>
-Reviewed-by: Jiri Pirko <jiri@mellanox.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Ido Schimmel|idosch@mellanox.com|2020-05-25 00:50:58+03:00|-10800|David S. Miller|davem@davemloft.net|2020-05-24 19:32:23-07:00|25200

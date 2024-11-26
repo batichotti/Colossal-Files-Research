@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5df554ad5b7522ea62b0ff9d5be35183494efc21|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"kvm/ppc/mpic: in-kernel MPIC emulation
-
-Hook the MPIC code up to the KVM interfaces, add locking, etc.
-
-Signed-off-by: Scott Wood <scottwood@freescale.com>
-[agraf: add stub function for kvmppc_mpic_set_epr, non-booke, 64bit]
-Signed-off-by: Alexander Graf <agraf@suse.de>"|12|Scott Wood|scottwood@freescale.com|2013-04-12 14:08:46+00:00|0|Alexander Graf|agraf@suse.de|2013-04-26 20:27:23+02:00|-7200

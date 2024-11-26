@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5b397377e97d436fc2ed872fc53f85395bb984e0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: fix unclosed transaction handle in btrfs_cont_expand
-
-The function - btrfs_cont_expand() forgot to close the transaction handle before
-it jump out the while loop. Fix it.
-
-Signed-off-by: Miao Xie <miaox@cn.fujitsu.com>
-Signed-off-by: Chris Mason <chris.mason@oracle.com>"|1|Miao Xie|miaox@cn.fujitsu.com|2011-09-11 10:52:24-04:00|14400|Chris Mason|chris.mason@oracle.com|2011-09-11 10:52:24-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9314a5813f62e85c8173adf7fd7e088af3b58942|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ALSA: hda - Set the pin targets after deciding output config
-
-Since fill_and_eval_dacs() may be called repeatedly with different
-configurations, setting pinctls at each time there isn't optimal.
-We can set it better only once after deciding the output configuration
-in parse_output_paths().
-
-Signed-off-by: Takashi Iwai <tiwai@suse.de>"|1|Takashi Iwai|tiwai@suse.de|2013-01-21 10:49:05+01:00|-3600|Takashi Iwai|tiwai@suse.de|2013-01-21 11:09:03+01:00|-3600

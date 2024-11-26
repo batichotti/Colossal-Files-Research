@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ebc701b796a67a5785399dcbc83d90e3b5f1e02f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ibmvnic: Do not notify peers on parameter change resets
-
-When attempting to change the driver parameters, such as the MTU
-value or number of queues, do not call netdev_notify_peers().
-Doing so will deadlock on the rtnl_lock.
-
-Signed-off-by: Nathan Fontenot <nfont@linux.vnet.ibm.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Nathan Fontenot|nfont@linux.vnet.ibm.com|2018-04-11 10:09:38-05:00|18000|David S. Miller|davem@davemloft.net|2018-04-12 21:51:53-04:00|14400

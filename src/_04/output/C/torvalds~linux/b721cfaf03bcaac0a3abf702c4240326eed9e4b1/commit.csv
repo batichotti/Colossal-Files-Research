@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b721cfaf03bcaac0a3abf702c4240326eed9e4b1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bnxt: fix unsigned comparsion with 0
-
-Fixes warning because location is u32 and can never be netative
-warning: comparison of unsigned expression < 0 is always false [-Wtype-limits]
-
-Signed-off-by: Stephen Hemminger <sthemmin@microsoft.com>
-Acked-by: Michael Chan <michael.chan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|stephen hemminger|stephen@networkplumber.org|2017-07-24 10:25:18-07:00|25200|David S. Miller|davem@davemloft.net|2017-07-25 12:31:37-07:00|25200

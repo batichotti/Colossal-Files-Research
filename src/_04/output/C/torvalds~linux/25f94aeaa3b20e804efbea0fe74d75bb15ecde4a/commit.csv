@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|25f94aeaa3b20e804efbea0fe74d75bb15ecde4a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ipw2200: Set core hw rfkill status when hardware changes state
-
-ipw2200 is able to detect when it's been hard-killed, but doesn't update
-the core rfkill state or update userspace. Ensure that the state is updated,
-allowing the rfkill core to notify userspace.
-
-Signed-off-by: Matthew Garrett <mjg@redhat.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|1|Matthew Garrett|mjg@redhat.com|2009-11-11 14:36:31-05:00|18000|John W. Linville|linville@tuxdriver.com|2009-11-23 17:05:27-05:00|18000

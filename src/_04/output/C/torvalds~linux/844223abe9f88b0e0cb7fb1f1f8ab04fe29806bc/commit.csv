@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|844223abe9f88b0e0cb7fb1f1f8ab04fe29806bc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bonding: use ether_addr_equal_64bits to instead of ether_addr_equal
-
-The net_device.dev_addr have more than 2 bytes of additional data after
-the mac addr, so it is safe to use the ether_addr_equal_64bits().
-
-Signed-off-by: Ding Tianhong <dingtianhong@huawei.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|dingtianhong|dingtianhong@huawei.com|2014-01-02 09:13:16+08:00|-28800|David S. Miller|davem@davemloft.net|2014-01-01 22:58:55-05:00|18000

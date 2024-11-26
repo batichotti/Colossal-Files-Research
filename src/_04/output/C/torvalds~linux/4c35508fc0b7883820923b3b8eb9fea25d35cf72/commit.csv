@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4c35508fc0b7883820923b3b8eb9fea25d35cf72|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"regulator: Fix obfuscated log messages
-
-Don't use %s to format fixed static strings into log messages, it just
-makes searching for and reading the message in the kernel source
-needlessly hard.
-
-Signed-off-by: Mark Brown <broonie@opensource.wolfsonmicro.com>
-Signed-off-by: Liam Girdwood <lrg@slimlogic.co.uk>"|1|Mark Brown|broonie@opensource.wolfsonmicro.com|2010-11-22 13:51:18+00:00|0|Liam Girdwood|lrg@slimlogic.co.uk|2011-01-12 14:33:00+00:00|0

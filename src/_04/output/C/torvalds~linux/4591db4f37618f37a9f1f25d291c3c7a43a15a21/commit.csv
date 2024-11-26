@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4591db4f37618f37a9f1f25d291c3c7a43a15a21|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[NETNS][IPV6] route6 - add netns parameter to ip6_route_output
-
-Add an netns parameter to ip6_route_output. That will allow to access
-to the right routing table for outgoing traffic.
-
-Signed-off-by: Daniel Lezcano <dlezcano@fr.ibm.com>
-Signed-off-by: Benjamin Thery <benjamin.thery@bull.net>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|11|Daniel Lezcano|dlezcano@fr.ibm.com|2008-03-05 10:48:10-08:00|28800|David S. Miller|davem@davemloft.net|2008-03-05 10:48:10-08:00|28800

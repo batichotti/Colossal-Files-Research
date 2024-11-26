@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f47dc2d3013c65631bf8903becc7d88dc9d9966e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd: fix kernel test robot warning in SSC code
-
-Fix by initializing pointer nfsd4_ssc_umount_item with NULL instead of 0.
-Replace return value of nfsd4_ssc_setup_dul with __be32 instead of int.
-
-Reported-by: kernel test robot <lkp@intel.com>
-Signed-off-by: Dai Ngo <dai.ngo@oracle.com>
-Signed-off-by: J. Bruce Fields <bfields@redhat.com>"|2|Dai Ngo|dai.ngo@oracle.com|2021-06-03 20:02:26-04:00|14400|J. Bruce Fields|bfields@redhat.com|2021-07-06 20:14:41-04:00|14400

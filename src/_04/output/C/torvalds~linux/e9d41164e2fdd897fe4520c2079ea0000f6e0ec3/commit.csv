@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e9d41164e2fdd897fe4520c2079ea0000f6e0ec3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[CRYPTO] tcrypt: Use HMAC template and hash interface
-
-This patch converts tcrypt to use the new HMAC template rather than the
-hard-coded version of HMAC.  It also converts all digest users to use
-the new cipher interface.
-
-Signed-off-by: Herbert Xu <herbert@gondor.apana.org.au>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Herbert Xu|herbert@gondor.apana.org.au|2006-08-19 21:38:49+10:00|-36000|Herbert Xu|herbert@gondor.apana.org.au|2006-09-21 11:46:18+10:00|-36000

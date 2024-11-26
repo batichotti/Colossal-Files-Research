@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|86df7eb921a009515285e7171363fa57dd2d7d31|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: properly wait log writers during log sync
-
-A recently fsync optimization make btrfs_sync_log skip calling
-wait_for_writer in the single log writer case. This is incorrect
-since the writer count can also be increased by btrfs_pin_log.
-
-Signed-off-by: Yan Zheng <zheng.yan@oracle.com>
-Signed-off-by: Chris Mason <chris.mason@oracle.com>"|1|Yan, Zheng|zheng.yan@oracle.com|2009-10-14 09:24:59-04:00|14400|Chris Mason|chris.mason@oracle.com|2009-10-14 10:32:48-04:00|14400

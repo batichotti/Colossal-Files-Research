@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|be688195bd08b1c045f89d72c07c7e3ef6516f38|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"IB/cma: Fix net_dev reference leak with failed requests
-
-When no matching listening ID is found for a given request, the net_dev
-that was used to find the request isn't released.
-
-Fixes: 0b3ca768fcb0 (""IB/cma: Use found net_dev for passive connections"")
-Signed-off-by: Haggai Eran <haggaie@mellanox.com>
-Signed-off-by: Doug Ledford <dledford@redhat.com>"|1|Haggai Eran|haggaie@mellanox.com|2015-08-27 15:55:15+03:00|-10800|Doug Ledford|dledford@redhat.com|2015-08-30 18:08:28-04:00|14400

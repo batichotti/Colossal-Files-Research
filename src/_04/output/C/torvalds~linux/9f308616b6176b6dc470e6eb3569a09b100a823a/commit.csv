@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9f308616b6176b6dc470e6eb3569a09b100a823a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nl80211: use for_each_element() in validate_ie_attr()
-
-This makes for much simpler code, simply walk through all
-the elements and check that the last one found ends with
-the end of the data. This works because if any element is
-malformed the walk is aborted, we end up with a mismatch.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2019-02-07 23:39:19+01:00|-3600|Johannes Berg|johannes.berg@intel.com|2019-02-08 13:51:50+01:00|-3600

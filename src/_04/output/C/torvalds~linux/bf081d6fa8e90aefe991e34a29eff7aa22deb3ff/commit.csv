@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bf081d6fa8e90aefe991e34a29eff7aa22deb3ff|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"crypto: hisilicon/qm - add functions for releasing resources
-
-The resources allocated by hisi_qm_memory_init() are released by
-hisi_qm_uninit(). Add hisi_qm_memory_uninit() to release resources,
-no functional change.
-
-Signed-off-by: Weili Qian <qianweili@huawei.com>
-Signed-off-by: Herbert Xu <herbert@gondor.apana.org.au>"|1|Weili Qian|qianweili@huawei.com|2022-06-09 20:31:17+08:00|-28800|Herbert Xu|herbert@gondor.apana.org.au|2022-06-17 17:19:20+08:00|-28800

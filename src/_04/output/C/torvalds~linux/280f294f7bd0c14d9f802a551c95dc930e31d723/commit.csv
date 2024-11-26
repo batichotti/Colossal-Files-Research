@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|280f294f7bd0c14d9f802a551c95dc930e31d723|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Don't lock sock inside l2cap_get_sock_by_scid()
-
-Fix an locking issue with the new l2cap_att_channel(). l2cap_att_channel()
-was trying to lock a locked socket.
-
-Reported-by: Anderson Lizardo <anderson.lizardo@openbossa.org>
-Signed-off-by: Gustavo F. Padovan <padovan@profusion.mobi>"|1|Gustavo F. Padovan|padovan@profusion.mobi|2011-04-13 19:01:22-03:00|10800|Gustavo F. Padovan|padovan@profusion.mobi|2011-04-13 19:01:22-03:00|10800

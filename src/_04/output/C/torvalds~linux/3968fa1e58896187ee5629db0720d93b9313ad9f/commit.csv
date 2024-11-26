@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3968fa1e58896187ee5629db0720d93b9313ad9f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"be2net: fix to ignore transparent vlan ids wrongly indicated by NIC
-
-With transparent VLAN tagging, the ASIC wrongly indicates packets with VLAN ID.
-Strip them off in the driver. The VLAN Tag to be stripped will be given to the host
-as an async message.
-
-Signed-off-by: Ajit Khaparde <ajit.khaparde@emulex.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|4|Ajit Khaparde|ajit.khaparde@emulex.com|2011-02-20 11:41:53+00:00|0|David S. Miller|davem@davemloft.net|2011-02-22 10:26:46-08:00|28800

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e709715915d69b6a929d77e7652c9c3fea61c317|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sched: Optimize unused cgroup configuration
-
-When cgroup group scheduling is built in, skip some code paths
-if we don't have any (but the root) cgroups configured.
-
-Signed-off-by: Peter Zijlstra <a.p.zijlstra@chello.nl>
-Signed-off-by: Ingo Molnar <mingo@elte.hu>"|1|Peter Zijlstra|a.p.zijlstra@chello.nl|2009-06-03 15:41:20+02:00|-7200|Ingo Molnar|mingo@elte.hu|2009-08-02 14:26:07+02:00|-7200

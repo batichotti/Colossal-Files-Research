@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1b45c46cf75d9c48eb611d5cc41607ac1f046606|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: Fix atomic open for execute...
-
-Currently we do not check for the FMODE_EXEC flag as we should. For that
-particular case, we need to perform an ACCESS call to the server in order
-to check that the file is executable.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|1|Trond Myklebust|Trond.Myklebust@netapp.com|2007-07-03 13:04:56-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2007-07-10 23:40:40-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2e26efb384d8a38ac62dc7022cff448cf54b80ee|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"crypto: caam/qi2 - switch to netif_napi_add_tx_weight()
-
-caam has its own special NAPI weights. It's also a crypto device
-so presumably it can't be used for packet Rx. Switch to the (new)
-correct API.
-
-Signed-off-by: Jakub Kicinski <kuba@kernel.org>
-Signed-off-by: Herbert Xu <herbert@gondor.apana.org.au>"|2|Jakub Kicinski|kuba@kernel.org|2022-07-05 15:58:57-07:00|25200|Herbert Xu|herbert@gondor.apana.org.au|2022-07-15 16:43:21+08:00|-28800

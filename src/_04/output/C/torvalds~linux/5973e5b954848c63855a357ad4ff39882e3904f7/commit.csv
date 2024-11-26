@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5973e5b954848c63855a357ad4ff39882e3904f7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sched: fix: don't take a mutex from interrupt context
-
-print_cfs_stats is callable from interrupt context (sysrq), hence it should
-not take mutexes. Change it to use RCU since the task group data is RCU
-freed anyway.
-
-Signed-off-by: Peter Zijlstra <a.p.zijlstra@chello.nl>
-Signed-off-by: Ingo Molnar <mingo@elte.hu>"|1|Peter Zijlstra|a.p.zijlstra@chello.nl|2008-01-25 21:08:34+01:00|-3600|Ingo Molnar|mingo@elte.hu|2008-01-25 21:08:34+01:00|-3600

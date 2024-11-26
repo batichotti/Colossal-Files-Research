@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c110ae578ca0a10064dfbda3d786d6a733b9fe69|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"kvm: move KVM_CAP_NR_MEMSLOTS to common code
-
-All architectures except MIPS were defining it in the same way,
-and memory slots are handled entirely by common code so there
-is no point in keeping the definition per-architecture.
-
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|6|Paolo Bonzini|pbonzini@redhat.com|2019-03-28 17:24:03+01:00|-3600|Paolo Bonzini|pbonzini@redhat.com|2019-04-16 15:39:08+02:00|-7200

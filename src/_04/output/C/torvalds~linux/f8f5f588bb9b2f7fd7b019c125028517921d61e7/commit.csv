@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f8f5f588bb9b2f7fd7b019c125028517921d61e7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: mvpp2: do not explicitly set the carrier state in open
-
-This patch removes the explicit call to netif_carrier_off() in PPv2's
-open() path, as this is now handled in phylink_start().
-
-Signed-off-by: Antoine Tenart <antoine.tenart@bootlin.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Antoine Tenart|antoine.tenart@bootlin.com|2018-09-19 11:39:32+02:00|-7200|David S. Miller|davem@davemloft.net|2018-09-19 21:15:02-07:00|25200

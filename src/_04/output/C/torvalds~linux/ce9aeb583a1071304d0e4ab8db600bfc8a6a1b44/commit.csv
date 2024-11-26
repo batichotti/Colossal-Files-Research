@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ce9aeb583a1071304d0e4ab8db600bfc8a6a1b44|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cxgb4: fix MAC address hash filter
-
-Fix the calculation of the inexact hash-based MAC address filter.
-It's 64 bits but current code is missing a ULL.  Results in filtering out
-some legitimate packets.
-
-Signed-off-by: Dimitris Michailidis <dm@chelsio.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Dimitris Michailidis|dm@chelsio.com|2010-12-03 10:39:04+00:00|0|David S. Miller|davem@davemloft.net|2010-12-08 09:36:22-08:00|28800

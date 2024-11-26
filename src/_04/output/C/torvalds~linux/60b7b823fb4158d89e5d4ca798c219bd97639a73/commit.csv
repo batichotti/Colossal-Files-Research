@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|60b7b823fb4158d89e5d4ca798c219bd97639a73|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: ufs: remove unnecessary pointer evaluation
-
-The pointer value is initialized as &hba->vreg_info, and it's never
-changed. It's not necessary to check the pointer is null or not.
-
-Signed-off-by: Zeng Guangyue <zengguangyue@hisilicon.com>
-Acked-by: Tomas Winkler <tomas.winkler@intel.com>
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|1|Zeng Guangyue|zengguangyue@hisilicon.com|2019-03-30 17:03:13+08:00|-28800|Martin K. Petersen|martin.petersen@oracle.com|2019-04-03 23:45:59-04:00|14400

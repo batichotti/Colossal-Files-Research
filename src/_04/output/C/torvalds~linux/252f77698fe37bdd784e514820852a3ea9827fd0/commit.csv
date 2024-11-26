@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|252f77698fe37bdd784e514820852a3ea9827fd0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Input: wacom - use get_unaligned to access unaligned data
-
-Also get rid of wacom_le16_to_cpu() and wacom_be16_to_cpu() helpers and
-ise le16_to_cpup() and be16_to_cpup() directly.
-
-Signed-off-by: Dmitry Torokhov <dtor@mail.ru>"|3|Dmitry Torokhov|dmitry.torokhov@gmail.com|2010-03-19 22:33:38-07:00|25200|Dmitry Torokhov|dmitry.torokhov@gmail.com|2010-04-13 23:24:42-07:00|25200

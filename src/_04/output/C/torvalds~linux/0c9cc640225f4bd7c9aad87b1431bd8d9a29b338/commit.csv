@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0c9cc640225f4bd7c9aad87b1431bd8d9a29b338|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mwl8k: allow more time for firmware commands to complete
-
-Some firmware commands can under some circumstances take more than 2
-seconds to complete.  This patch bumps the timeout up to 10 seconds,
-and prints a message whenever a command takes more than 2 seconds.
-
-Signed-off-by: Lennert Buytenhek <buytenh@marvell.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|1|Lennert Buytenhek|buytenh@wantstofly.org|2009-11-30 18:12:49+01:00|-3600|John W. Linville|linville@tuxdriver.com|2009-12-07 16:51:20-05:00|18000

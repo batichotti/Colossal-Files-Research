@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5d667ef6e01be22343b07a1f5d5a976962e3103e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Remove redundant check for ACL_LINK
-
-The encryption key size is read only for BR/EDR (ACL_LINK) connections
-so there's no need to check for it in the read_enc_key_size_complete()
-callback.
-
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|1|Johan Hedberg|johan.hedberg@intel.com|2015-06-12 13:04:47+03:00|-10800|Marcel Holtmann|marcel@holtmann.org|2015-06-12 12:07:20+02:00|-7200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3903f315165dff72796e46d177aaf1cbd67aa07d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: dsa: mv88e6xxx: do not change STP state on port disabling
-
-When disabling a port, that is not for the driver to decide what to
-do with the STP state. This is already handled by the DSA layer.
-
-Signed-off-by: Vivien Didelot <vivien.didelot@gmail.com>
-Reviewed-by: Andrew Lunn <andrew@lunn.ch>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Vivien Didelot|vivien.didelot@gmail.com|2019-08-19 16:00:51-04:00|14400|David S. Miller|davem@davemloft.net|2019-08-20 12:33:49-07:00|25200

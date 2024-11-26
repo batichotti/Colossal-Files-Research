@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|eaf9b2c875ece22768b78aa38da8b232e5de021b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: drop unused 3rd argument from validate callback ops
-
-Since commit a654de8fdc18 (""netfilter: nf_tables: fix chain dependency validation"")
-the validate() callback no longer needs the return pointer argument.
-
-Signed-off-by: Florian Westphal <fw@strlen.de>
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|27|Florian Westphal|fw@strlen.de|2024-08-28 11:34:02+02:00|-7200|Pablo Neira Ayuso|pablo@netfilter.org|2024-09-03 10:47:17+02:00|-7200

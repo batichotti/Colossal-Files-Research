@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f0194b2d5d01b99555fd8a6e42281809086f1ab1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rt2x00: Centralize rt2800 beacon writing.
-
-The beacon writing functions of rt2800pci and rt2800usb are now identical.
-Move them to rt2800lib to only have one central function.
-
-Signed-off-by: Gertjan van Wingerde <gwingerde@gmail.com>
-Signed-off-by: Ivo van Doorn <IvDoorn@gmail.com>"|4|Gertjan van Wingerde|gwingerde@gmail.com|2010-06-03 10:51:53+02:00|-7200|Ivo van Doorn|IvDoorn@gmail.com|2010-06-03 10:51:53+02:00|-7200

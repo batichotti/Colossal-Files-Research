@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7d9747947ae66d8f6a9a9a023a3a5e28df6a536e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS: Added TEST_STATEID call
-
-This patch adds in the xdr for doing a TEST_STATEID call with a single
-stateid. RFC 5661 allows multiple stateids to be tested in a single
-call, but only testing one keeps things simpler for now.
-
-Signed-off-by: Bryan Schumaker <bjschuma@netapp.com>
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|4|Bryan Schumaker|bjschuma@netapp.com|2011-06-02 14:59:08-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2011-07-12 13:40:27-04:00|14400

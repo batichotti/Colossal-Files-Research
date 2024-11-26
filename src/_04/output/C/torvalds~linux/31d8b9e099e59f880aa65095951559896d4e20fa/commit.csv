@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|31d8b9e099e59f880aa65095951559896d4e20fa|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: Disable NETIF_F_TSO_ECN when TSO is disabled
-
-NETIF_F_TSO_ECN has no effect when TSO is disabled; this just means
-that feature state will be accurately reported to user-space.
-
-Signed-off-by: Ben Hutchings <bhutchings@solarflare.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Ben Hutchings|bhutchings@solarflare.com|2011-04-12 14:47:15+00:00|0|David S. Miller|davem@davemloft.net|2011-04-12 19:29:45-07:00|25200

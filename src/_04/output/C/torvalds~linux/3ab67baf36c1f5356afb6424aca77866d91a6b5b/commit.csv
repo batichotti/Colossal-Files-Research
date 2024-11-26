@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3ab67baf36c1f5356afb6424aca77866d91a6b5b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"V4L/DVB (10346): gspca - zc3xx: Fix bad variable type with i2c read.
-
-The returned value of i2c read is a 16 bits word. It was stored in
-a 8 bits variable, preventing a sensor to be detected.
-
-Signed-off-by: Jean-Francois Moine <moinejf@free.fr>
-Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"|1|Jean-Francois Moine|moinejf@free.fr|2009-01-08 09:38:45-03:00|10800|Mauro Carvalho Chehab|mchehab@redhat.com|2009-03-30 12:42:30-03:00|10800

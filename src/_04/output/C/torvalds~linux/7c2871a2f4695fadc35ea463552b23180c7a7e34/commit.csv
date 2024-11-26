@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7c2871a2f4695fadc35ea463552b23180c7a7e34|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: switch btrfs_trans_handle::adding_csums to bool
-
-The semantics of adding_csums matches bool, 'short' was most likely used
-to save space in a698d0755adb6f2 (""Btrfs: add a type field for the
-transaction handle"").
-
-Signed-off-by: David Sterba <dsterba@suse.com>"|2|David Sterba|dsterba@suse.com|2017-11-08 01:07:43+01:00|-3600|David Sterba|dsterba@suse.com|2018-01-22 16:08:14+01:00|-3600

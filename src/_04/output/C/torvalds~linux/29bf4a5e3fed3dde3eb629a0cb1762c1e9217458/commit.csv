@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|29bf4a5e3fed3dde3eb629a0cb1762c1e9217458|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tracing: Only call pipe_close if pipe_close is defined
-
-This fixes a cut and paste error that had pipe_close get called
-if pipe_open was defined (not pipe_close).
-
-Reported-by: Kosaki Motohiro <kosaki.motohiro@jp.fujitsu.com>
-LKML-Reference: <20091209153204.F4CD.A69D9226@jp.fujitsu.com>
-Signed-off-by: Steven Rostedt <rostedt@goodmis.org>"|1|Steven Rostedt|srostedt@redhat.com|2009-12-09 12:37:43-05:00|18000|Steven Rostedt|rostedt@goodmis.org|2009-12-09 12:47:35-05:00|18000

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|420579dba126c6111b5a3dea062f21a7e4e647c6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"s390/qeth: don't warn for napi with 0 budget
-
-Calling napi->poll() with 0 budget is a legitimate use by netpoll.
-
-Fixes: a1c3ed4c9ca0 (""qeth: NAPI support for l2 and l3 discipline"")
-Signed-off-by: Julian Wiedmann <jwi@linux.ibm.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Julian Wiedmann|jwi@linux.ibm.com|2020-02-20 15:54:55+01:00|-3600|David S. Miller|davem@davemloft.net|2020-02-20 10:30:47-08:00|28800

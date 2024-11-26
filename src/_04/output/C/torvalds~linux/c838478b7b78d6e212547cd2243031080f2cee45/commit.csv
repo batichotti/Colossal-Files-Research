@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c838478b7b78d6e212547cd2243031080f2cee45|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wlcore: cancel channel switch work on interface removal
-
-Otherwise, if the work is pending, we might get
-a bad dereference after the interface is removed.
-
-Signed-off-by: Arik Nemtsov <arik@wizery.com>
-Signed-off-by: Eliad Peller <eliad@wizery.com>
-Signed-off-by: Luciano Coelho <coelho@ti.com>"|1|Arik Nemtsov|arik@wizery.com|2013-05-12 12:35:29+03:00|-10800|Luciano Coelho|coelho@ti.com|2013-06-17 12:14:29+03:00|-10800

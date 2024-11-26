@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|365cf663b64791e341f425385c7ae152327c7009|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drbd: switch from kmalloc() to kmalloc_array()
-
-We had one call to kmalloc that actually allocates an array. Switch that
-one to the kmalloc_array() function.
-
-Signed-off-by: Philipp Reisner <philipp.reisner@linbit.com>
-Signed-off-by: Lars Ellenberg <lars.ellenberg@linbit.com>
-Signed-off-by: Jens Axboe <axboe@kernel.dk>"|2|Roland Kammerer|roland.kammerer@linbit.com|2017-08-29 10:20:48+02:00|-7200|Jens Axboe|axboe@kernel.dk|2017-08-29 15:34:46-06:00|21600

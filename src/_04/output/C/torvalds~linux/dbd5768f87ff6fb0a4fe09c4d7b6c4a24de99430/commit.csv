@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|dbd5768f87ff6fb0a4fe09c4d7b6c4a24de99430|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"vfs: Rename end_writeback() to clear_inode()
-
-After we moved inode_sync_wait() from end_writeback() it doesn't make sense
-to call the function end_writeback() anymore. Rename it to clear_inode()
-which well says what the function really does - set I_CLEAR flag.
-
-Signed-off-by: Jan Kara <jack@suse.cz>
-Signed-off-by: Fengguang Wu <fengguang.wu@intel.com>"|52|Jan Kara|jack@suse.cz|2012-05-03 14:48:02+02:00|-7200|Fengguang Wu|fengguang.wu@intel.com|2012-05-06 13:43:41+08:00|-28800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|055641248f649b52620a5fe8774bea253690e057|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"xfs: convert do_div calls to xfs_rtb_to_rtx helper calls
-
-Convert these calls to use the helpers, and clean up all these places
-where the same variable can have different units depending on where it
-is in the function.
-
-Signed-off-by: Darrick J. Wong <djwong@kernel.org>
-Reviewed-by: Christoph Hellwig <hch@lst.de>"|6|Darrick J. Wong|djwong@kernel.org|2023-10-16 09:37:47-07:00|25200|Darrick J. Wong|djwong@kernel.org|2023-10-17 16:25:55-07:00|25200

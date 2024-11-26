@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|50afd20f8c3ce23994a21c389e7250e54a93bf55|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[S390] dasd: correct sense byte condition for SIM
-
-SIM sense data are always 32 bit sense data so sense byte 27 bit 0
-has not to be set.
-
-Signed-off-by: Stefan Haberland <stefan.haberland@de.ibm.com>
-Signed-off-by: Martin Schwidefsky <schwidefsky@de.ibm.com>"|1|Stefan Haberland|stefan.haberland@de.ibm.com|2008-12-25 13:38:53+01:00|-3600|Martin Schwidefsky|schwidefsky@de.ibm.com|2008-12-25 13:39:02+01:00|-3600

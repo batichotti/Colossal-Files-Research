@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3369afba1e46b0f7f33b4853a9d06616be6e22d5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: Call into DSA netdevice_ops wrappers
-
-Make the core net_device code call into our ndo_do_ioctl() and
-ndo_get_phys_port_name() functions via the wrappers defined previously
-
-Signed-off-by: Florian Fainelli <f.fainelli@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Florian Fainelli|f.fainelli@gmail.com|2020-07-19 20:49:53-07:00|25200|David S. Miller|davem@davemloft.net|2020-07-20 16:48:22-07:00|25200

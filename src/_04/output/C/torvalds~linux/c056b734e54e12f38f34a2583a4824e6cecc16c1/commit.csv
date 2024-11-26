@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c056b734e54e12f38f34a2583a4824e6cecc16c1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netdev: ethernet dev_alloc_skb to netdev_alloc_skb
-
-Replaced deprecating dev_alloc_skb with netdev_alloc_skb in drivers/net/ethernet
-  - Removed extra skb->dev = dev after netdev_alloc_skb
-
-Signed-off-by: Pradeep A Dalvi <netdev@pradeepdalvi.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|29|Pradeep A Dalvi|netdev@pradeepdalvi.com|2012-02-05 02:50:38+00:00|0|David S. Miller|davem@davemloft.net|2012-02-06 11:52:27-05:00|18000

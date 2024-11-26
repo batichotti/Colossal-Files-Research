@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|be4891af77226d5909be11ab4297434cfd8c391d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net/mlx5e: Set netdev->rx_cpu_rmap on netdev creation
-
-To simplify mlx5e_open_locked flow we set netdev->rx_cpu_rmap on netdev
-creation rather on netdev open, it is redundant to set it every time on
-mlx5e_open_locked.
-
-Signed-off-by: Saeed Mahameed <saeedm@mellanox.com>
-Reviewed-by: Tariq Toukan <tariqt@mellanox.com>"|1|Saeed Mahameed|saeedm@mellanox.com|2017-02-07 16:30:52+02:00|-7200|Saeed Mahameed|saeedm@mellanox.com|2017-03-27 15:08:13+03:00|-10800

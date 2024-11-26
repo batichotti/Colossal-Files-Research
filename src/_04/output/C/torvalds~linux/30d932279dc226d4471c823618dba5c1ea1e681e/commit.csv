@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|30d932279dc226d4471c823618dba5c1ea1e681e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: stmmac: Add support for VLAN Insertion Offload
-
-Adds the logic to insert a given VLAN ID in a packet. This is offloaded
-to HW and its descriptor based. For now, only XGMAC implements the
-necessary callbacks.
-
-Signed-off-by: Jose Abreu <joabreu@synopsys.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|7|Jose Abreu|Jose.Abreu@synopsys.com|2019-08-17 20:54:50+02:00|-7200|David S. Miller|davem@davemloft.net|2019-08-17 12:43:59-07:00|25200

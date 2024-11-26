@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0dc36888d4422140f9eaf50f24953ec109f750a3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libata: rename ATA_PROT_ATAPI_* to ATAPI_PROT_*
-
-ATA_PROT_ATAPI_* are ugly and naming schemes between ATA_PROT_* and
-ATA_PROT_ATAPI_* are inconsistent causing confusion.  Rename them to
-ATAPI_PROT_* and make them consistent with ATA counterpart.
-
-Signed-off-by: Tejun Heo <htejun@gmail.com>
-Signed-off-by: Jeff Garzik <jgarzik@redhat.com>"|13|Tejun Heo|htejun@gmail.com|2007-12-18 16:34:43-05:00|18000|Jeff Garzik|jeff@garzik.org|2008-01-23 05:24:14-05:00|18000

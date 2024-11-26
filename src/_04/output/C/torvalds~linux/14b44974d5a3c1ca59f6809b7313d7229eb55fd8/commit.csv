@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|14b44974d5a3c1ca59f6809b7313d7229eb55fd8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: remove unneed variable from ieee80211_tx_pending()
-
-We don't need ""sdata"" any more after:
-	d84f323477260e773d5317ad7cbe50f76115cb47
-	mac80211: remove dev_hold/put calls
-
-Signed-off-by: Dan Carpenter <error27@gmail.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|1|Dan Carpenter|error27@gmail.com|2010-03-24 14:56:41+03:00|-10800|John W. Linville|linville@tuxdriver.com|2010-03-24 16:04:33-04:00|14400

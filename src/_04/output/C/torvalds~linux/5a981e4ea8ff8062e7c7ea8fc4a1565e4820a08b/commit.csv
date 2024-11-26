@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5a981e4ea8ff8062e7c7ea8fc4a1565e4820a08b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"xfs: mark xfs_bmap_set_attrforkoff static
-
-xfs_bmap_set_attrforkoff is only used inside of xfs_bmap.c, so mark it
-static.
-
-Signed-off-by: Christoph Hellwig <hch@lst.de>
-Reviewed-by: Darrick J. Wong <djwong@kernel.org>
-Signed-off-by: Darrick J. Wong <djwong@kernel.org>"|2|Christoph Hellwig|hch@lst.de|2021-06-02 14:58:59-07:00|25200|Darrick J. Wong|djwong@kernel.org|2021-06-02 14:58:59-07:00|25200

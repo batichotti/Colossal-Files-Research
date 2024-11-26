@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1744a21d57d9c60136461adb6afa85e51b3e94d9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"trace: annotate bitfields in struct ring_buffer_event
-
-This gets rid of a heap of false-positive warnings from the tracer
-code due to the use of bitfields.
-
-[rebased for mainline inclusion]
-Signed-off-by: Vegard Nossum <vegard.nossum@gmail.com>"|2|Vegard Nossum|vegard.nossum@gmail.com|2009-02-28 08:29:44+01:00|-3600|Vegard Nossum|vegard.nossum@gmail.com|2009-06-15 15:49:37+02:00|-7200

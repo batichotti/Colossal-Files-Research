@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f14fe8a848cd67dfdb9a959ff3e1fa259878bec3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: remove unnecessary initializations in net_dev_init
-
-softnet_data is already set to 0, no need to use memset or initialize
-specific fields to 0 or NULL afterwards.
-
-Signed-off-by: Sabrina Dubroca <sd@queasysnail.net>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Sabrina Dubroca|sd@queasysnail.net|2014-01-18 19:19:27+01:00|-3600|David S. Miller|davem@davemloft.net|2014-01-21 16:44:45-08:00|28800

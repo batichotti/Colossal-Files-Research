@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|832cbd9aa1293cba57d06571f5fc8f0917c672af|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"SELinux: turn mount options strings into defines
-
-Convert the strings used for mount options into #defines rather than
-retyping the string throughout the SELinux code.
-
-Signed-off-by: Eric Paris <eparis@redhat.com>
-Acked-by: Stephen Smalley <sds@tycho.nsa.gov>
-Signed-off-by: James Morris <jmorris@namei.org>"|2|Eric Paris|eparis@redhat.com|2008-04-01 13:24:09-04:00|14400|James Morris|jmorris@namei.org|2008-04-18 20:26:13+10:00|-36000

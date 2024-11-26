@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0343c5543b1d3ffa08e6716d82afb62648b80eba|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sctp: Export sctp_do_peeloff
-
-lookup sctp_association within sctp_do_peeloff() to enable its use outside of
-the sctp code with minimal knowledge of the former.
-
-Signed-off-by: Benjamin Poirier <bpoirier@suse.de>
-Acked-by: Vlad Yasevich <vladislav.yasevich@hp.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Benjamin Poirier|bpoirier@suse.de|2012-03-08 05:55:58+00:00|0|David S. Miller|davem@davemloft.net|2012-03-08 13:52:08-08:00|28800

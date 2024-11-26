@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bbafffd293e47f4cd5f0ae8b91d7d5767b242a5e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4.1: Exchange ID must use GFP_NOFS allocation mode
-
-Exchange ID can be called in a lease reclaim situation, so it
-will deadlock if it then tries to write out dirty NFS pages.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|1|Trond Myklebust|Trond.Myklebust@netapp.com|2012-05-24 16:31:39-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2012-05-24 16:31:39-04:00|14400

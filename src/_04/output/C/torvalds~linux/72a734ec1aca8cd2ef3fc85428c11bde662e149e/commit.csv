@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|72a734ec1aca8cd2ef3fc85428c11bde662e149e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Unify mode related management messages to a single struct
-
-The powered, connectable and discoverable messages all have the same
-format. By using a single struct for all of them a lot of code can be
-simplified and reused.
-
-Signed-off-by: Johan Hedberg <johan.hedberg@nokia.com>
-Signed-off-by: Gustavo F. Padovan <padovan@profusion.mobi>"|2|Johan Hedberg|johan.hedberg@nokia.com|2010-12-30 00:38:22+02:00|-7200|Gustavo F. Padovan|padovan@profusion.mobi|2011-02-08 01:40:05-02:00|7200

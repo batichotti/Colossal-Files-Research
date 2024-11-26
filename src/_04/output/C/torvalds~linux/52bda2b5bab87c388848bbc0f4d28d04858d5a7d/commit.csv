@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|52bda2b5bab87c388848bbc0f4d28d04858d5a7d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"dlm: use dlm prefix on alloc and free functions
-
-The dlm functions in memory.c should use the dlm_ prefix.  Also, use
-kzalloc/kfree directly for dlm_direntry's, removing the wrapper functions.
-
-Signed-off-by: David Teigland <teigland@redhat.com>"|6|David Teigland|teigland@redhat.com|2007-11-07 09:06:49-06:00|21600|David Teigland|teigland@redhat.com|2008-01-29 17:17:19-06:00|21600

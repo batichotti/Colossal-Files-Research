@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|153591f7036be19ddcdb102c34b9f3e876a236c7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sched_ext: Clarify sched_ext_ops table for userland scheduler
-
-Update the comments in sched_ext_ops to clarify this table is for
-a BPF scheduler and a userland scheduler should also rely on the
-sched_ext_ops table through the BPF scheduler.
-
-Signed-off-by: Changwoo Min <changwoo@igalia.com>
-Signed-off-by: Tejun Heo <tj@kernel.org>"|1|Changwoo Min|multics69@gmail.com|2024-11-09 11:25:14+09:00|-32400|Tejun Heo|tj@kernel.org|2024-11-08 16:40:27-10:00|36000

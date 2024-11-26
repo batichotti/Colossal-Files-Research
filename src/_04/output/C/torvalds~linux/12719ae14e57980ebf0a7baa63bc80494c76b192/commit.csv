@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|12719ae14e57980ebf0a7baa63bc80494c76b192|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: avoid unnecessary f2fs_balance_fs calls
-
-Only when node page is newly dirtied, it needs to check whether we need to do
-f2fs_gc.
-
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|6|Jaegeuk Kim|jaegeuk@kernel.org|2016-01-07 13:23:12-08:00|28800|Jaegeuk Kim|jaegeuk@kernel.org|2016-01-08 11:45:22-08:00|28800

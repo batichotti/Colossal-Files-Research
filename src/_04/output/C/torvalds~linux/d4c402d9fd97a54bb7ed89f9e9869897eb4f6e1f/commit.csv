@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d4c402d9fd97a54bb7ed89f9e9869897eb4f6e1f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: Print mount options in when mounting and add a remount message
-
-This adds a ""re-mounted"" message to ext4_remount(), and both it and
-the mount message in ext4_fill_super() now have the original mount
-options data string.
-
-Signed-off-by: Curt Wohlgemuth <curtw@google.com>
-Signed-off-by: ""Theodore Ts'o"" <tytso@mit.edu>"|1|Curt Wohlgemuth|curtw@google.com|2010-05-16 12:00:00-04:00|14400|Theodore Ts'o|tytso@mit.edu|2010-05-16 12:00:00-04:00|14400

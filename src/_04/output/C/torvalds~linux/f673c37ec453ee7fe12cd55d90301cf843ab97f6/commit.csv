@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f673c37ec453ee7fe12cd55d90301cf843ab97f6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/panel: simple: Support delays in panel functions
-
-For most of the panels, we need to provide delays during various stages
-of panel power up and power down. Add a structure to hold those delay
-values and use them in corresponding functions.
-
-Signed-off-by: Ajay Kumar <ajaykumar.rs@samsung.com>
-Signed-off-by: Thierry Reding <treding@nvidia.com>"|1|Ajay Kumar|ajaykumar.rs@samsung.com|2014-07-31 23:12:11+05:30|-19800|Thierry Reding|treding@nvidia.com|2014-08-06 16:44:14+02:00|-7200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|acdddbe168040372a8b6b9b5876b92b715322910|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"xfs: hoist extent size helpers to libxfs
-
-Move the extent size helpers to xfs_bmap.c in libxfs since they're used
-there already.
-
-Signed-off-by: Darrick J. Wong <djwong@kernel.org>
-Reviewed-by: Christoph Hellwig <hch@lst.de>"|5|Darrick J. Wong|djwong@kernel.org|2024-07-02 11:22:31-07:00|25200|Darrick J. Wong|djwong@kernel.org|2024-07-02 11:36:55-07:00|25200

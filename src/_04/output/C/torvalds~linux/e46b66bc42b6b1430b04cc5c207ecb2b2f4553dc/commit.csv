@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e46b66bc42b6b1430b04cc5c207ecb2b2f4553dc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: Added ASSERT_RTNL() to dev_open() and dev_close().
-
-dev_open() and dev_close() must be called holding the RTNL, since they
-call device functions and netdevice notifiers that are promised the RTNL.
-
-Signed-off-by: Ben Hutchings <bhutchings@solarflare.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Ben Hutchings|bhutchings@solarflare.com|2008-05-08 02:53:17-07:00|25200|David S. Miller|davem@davemloft.net|2008-05-08 02:53:17-07:00|25200

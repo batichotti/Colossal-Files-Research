@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f40b68903ccd511ea9d658b4bce319dd032a265a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[ALSA] Fix section mismatch errors in ALSA PCI drivers
-
-Fixed 'section mismatch' errors in ALSA PCI drivers:
-- removed invalid __devinitdata from pci id tables
-- fix/remove __devinit of functions called in suspend/resume
-
-Signed-off-by: Takashi Iwai <tiwai@suse.de>
-Signed-off-by: Jaroslav Kysela <perex@suse.cz>"|50|Takashi Iwai|tiwai@suse.de|2006-07-05 16:51:05+02:00|-7200|Jaroslav Kysela|perex@suse.cz|2006-07-12 20:08:01+02:00|-7200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|13673a90f1cf88296f726265cc7cf3ec76ecba30|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: move vmx.h to include/asm
-
-vmx.h will be used by core code that is independent of KVM, so I am
-moving it outside the arch/x86/kvm directory.
-
-Signed-off-by: Eduardo Habkost <ehabkost@redhat.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|3|Eduardo Habkost|ehabkost@redhat.com|2008-11-17 19:03:13-02:00|7200|Avi Kivity|avi@redhat.com|2008-12-31 16:52:27+02:00|-7200

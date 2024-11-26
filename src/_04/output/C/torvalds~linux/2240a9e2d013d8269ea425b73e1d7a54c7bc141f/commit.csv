@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2240a9e2d013d8269ea425b73e1d7a54c7bc141f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4.1: We must release the sequence id when we fail to get a session slot
-
-If we do not release the sequence id in cases where we fail to get a
-session slot, then we can deadlock if we hit a recovery scenario.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>
-Cc: stable@vger.kernel.org"|1|Trond Myklebust|Trond.Myklebust@netapp.com|2012-10-29 18:37:40-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2012-10-31 15:08:18-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0aa38df7cd5b6c5b89f5146f4a2286434bc4a8f3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[BNX2]: Enable DMA on 5709.
-
-Add missing code to enable DMA on 5709 A1.  The bit is a no-op on A0
-and therefore can be set on all 5709 chips.
-
-Signed-off-by: Michael Chan <mchan@broadcom.com>
-Acked-by: Jeff Garzik <jeff@garzik.org>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Michael Chan|mchan@broadcom.com|2007-06-04 21:23:06-07:00|25200|David S. Miller|davem@sunset.davemloft.net|2007-06-07 13:38:38-07:00|25200

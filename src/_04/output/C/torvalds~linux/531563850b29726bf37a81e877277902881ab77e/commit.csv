@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|531563850b29726bf37a81e877277902881ab77e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: mgmt: Fix corruption of device_connected pkt
-
-Incorrect pointer passed to eir_append_data made mgmt_device_connected
-event unparsable by mgmt user space entity.
-
-Signed-off-by: Brian Gix <bgix@codeaurora.org>
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>"|1|Brian Gix|bgix@codeaurora.org|2012-03-09 14:07:03-08:00|28800|Gustavo Padovan|gustavo@padovan.org|2012-03-28 15:06:09-03:00|10800

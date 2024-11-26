@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d77c555d325d6ece7d352995c97460988c152f58|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: fix CONFIG_NET_NS=n compilation
-
-I forgot to use write_pnet() in three locations.
-
-Signed-off-by: Eric Dumazet <edumazet@google.com>
-Fixes: 33cf7c90fe2f9 (""net: add real socket cookies"")
-Reported-by: kbuild test robot <fengguang.wu@intel.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|Eric Dumazet|edumazet@google.com|2015-03-11 20:27:52-07:00|25200|David S. Miller|davem@davemloft.net|2015-03-11 23:28:49-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d2a274b25be7218f8400037868a756640e8a4b0d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"s390/qeth: add statistics for consumed buffer elements
-
-Nowadays an skb fragment typically spans over multiple pages. So replace
-the obsolete, SG-only 'fragments' counter with one that tracks the
-consumed buffer elements. This is what actually matters for performance.
-
-Signed-off-by: Julian Wiedmann <jwi@linux.ibm.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|4|Julian Wiedmann|jwi@linux.ibm.com|2018-07-19 12:43:55+02:00|-7200|David S. Miller|davem@davemloft.net|2018-07-21 10:12:30-07:00|25200

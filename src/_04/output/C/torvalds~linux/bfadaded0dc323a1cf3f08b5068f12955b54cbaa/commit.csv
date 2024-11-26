@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bfadaded0dc323a1cf3f08b5068f12955b54cbaa|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Device Assignment: Free device structures if IRQ allocation fails
-
-When an IRQ allocation fails, we free up the device structures and
-disable the device so that we can unregister the device in the
-userspace and not expose it to the guest at all.
-
-Signed-off-by: Amit Shah <amit.shah@redhat.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Amit Shah|amit.shah@redhat.com|2008-09-16 18:04:28+03:00|-10800|Avi Kivity|avi@redhat.com|2008-10-15 14:25:04+02:00|-7200

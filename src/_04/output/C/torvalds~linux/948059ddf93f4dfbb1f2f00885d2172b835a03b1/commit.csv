@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|948059ddf93f4dfbb1f2f00885d2172b835a03b1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ASoC: rt5665: enable TDM if more than 2 channels
-
-TDM is necessary for more than 2 channels. And there is no control bit
-to specify which slots are using. Machine driver will not need to call
-snd_soc_dai_set_tdm_slot if we do it in rt5665_hw_params.
-
-Signed-off-by: Bard Liao <bardliao@realtek.com>
-Signed-off-by: Mark Brown <broonie@kernel.org>"|1|Bard Liao|bardliao@realtek.com|2017-03-08 19:05:36+08:00|-28800|Mark Brown|broonie@kernel.org|2017-03-08 13:47:53+01:00|-3600

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|344dbf1073d1cea179ed0831547cab2b7ea4ea27|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"be2net: Patch to determine if function is VF while running in guest OS.
-
-When driver is loaded in guest OS, the pci variables is_virtfn and is_physfn are
-both set to 0. This change uses registers in controller to determine the same.
-
-Signed-off-by: Sarveshwar Bandi <sarveshwarb@serverengines.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Sarveshwar Bandi|sarveshwarb@serverengines.com|2010-07-09 01:43:55+00:00|0|David S. Miller|davem@davemloft.net|2010-07-10 19:42:05-07:00|25200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8175383f2320dbc1b4e803d857ed499ed3e76199|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bpf: btf: Ensure t->type == 0 for BTF_KIND_FWD
-
-The t->type in BTF_KIND_FWD is not used.  It must be 0.
-This patch ensures that and also adds a test case in test_btf.c
-
-Signed-off-by: Martin KaFai Lau <kafai@fb.com>
-Signed-off-by: Alexei Starovoitov <ast@kernel.org>"|2|Martin KaFai Lau|kafai@fb.com|2018-06-02 09:06:51-07:00|25200|Alexei Starovoitov|ast@kernel.org|2018-06-02 11:22:36-07:00|25200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3eb92f6a3948c4358eb8ad1c0905490ddd2fc0ab|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211_hwsim: assign CAB queue properly on interface type change
-
-When an interface change type, the CAB queue must be reassigned,
-do this in hwsim to avoid warnings/crashes.
-
-Reported-by: Jouni Malinen <j@w1.fi>
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2013-03-18 22:13:18+01:00|-3600|Johannes Berg|johannes.berg@intel.com|2013-03-18 22:14:26+01:00|-3600

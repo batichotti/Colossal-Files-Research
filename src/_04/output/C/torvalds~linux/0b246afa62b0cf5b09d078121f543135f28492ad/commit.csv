@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0b246afa62b0cf5b09d078121f543135f28492ad|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: root->fs_info cleanup, add fs_info convenience variables
-
-In routines where someptr->fs_info is referenced multiple times, we
-introduce a convenience variable.  This makes the code considerably
-more readable.
-
-Signed-off-by: Jeff Mahoney <jeffm@suse.com>
-Signed-off-by: David Sterba <dsterba@suse.com>"|33|Jeff Mahoney|jeffm@suse.com|2016-06-22 18:54:23-04:00|14400|David Sterba|dsterba@suse.com|2016-12-06 16:06:59+01:00|-3600

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c1f8d3fa4627ec7ec31cc538b471488980738631|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/amd/display: Don't call amdgpu_dm_display_resume as it doesn't exist
-
-amdgpu_dm_display_resume was merged into dm_resume.
-No need to call these functions separately.
-
-Signed-off-by: Mikita Lipski <mikita.lipski@amd.com>
-Reviewed-by: Harry Wentland <Harry.Wentland@amd.com>
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|1|Mikita Lipski|mikita.lipski@amd.com|2018-03-07 16:59:43-05:00|18000|Alex Deucher|alexander.deucher@amd.com|2018-04-11 13:07:39-05:00|18000

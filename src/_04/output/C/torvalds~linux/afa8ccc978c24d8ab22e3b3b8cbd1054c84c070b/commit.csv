@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|afa8ccc978c24d8ab22e3b3b8cbd1054c84c070b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS: remove page size checking code
-
-Remove the page size checking code for a readdir decode.  This is now done
-by decode_dirent with xdr_streams.
-
-Signed-off-by: Bryan Schumaker <bjschuma@netapp.com>
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|3|Bryan Schumaker|bjschuma@netapp.com|2010-10-20 15:44:31-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2010-10-23 15:27:34-04:00|14400

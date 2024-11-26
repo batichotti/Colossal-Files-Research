@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9f58892ea9962002399132fd3f40c6a273f8d9e1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Pull all the reset functionality together into i915_reset.c
-
-Currently the code to reset the GPU and our state is spread widely
-across a few files. Pull the logic together into a common file.
-
-Signed-off-by: Chris Wilson <chris@chris-wilson.co.uk>
-Acked-by: Mika Kuoppala <mika.kuoppala@linux.intel.com>
-Link: https://patchwork.freedesktop.org/patch/msgid/20190116153304.787-1-chris@chris-wilson.co.uk"|18|Chris Wilson|chris@chris-wilson.co.uk|2019-01-16 15:33:04+00:00|0|Chris Wilson|chris@chris-wilson.co.uk|2019-01-16 22:45:31+00:00|0

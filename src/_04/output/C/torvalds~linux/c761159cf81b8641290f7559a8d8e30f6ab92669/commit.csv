@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c761159cf81b8641290f7559a8d8e30f6ab92669|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: use pic/ioapic destructor when destroy vm
-
-We have specific destructors for pic/ioapic, we'd better use them when
-destroying the VM as well.
-
-Signed-off-by: Peter Xu <peterx@redhat.com>
-Signed-off-by: Radim Krčmář <rkrcmar@redhat.com>"|1|Peter Xu|peterx@redhat.com|2017-03-15 16:01:19+08:00|-28800|Paolo Bonzini|pbonzini@redhat.com|2017-03-23 19:02:06+01:00|-3600

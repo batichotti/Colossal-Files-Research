@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c9c28ed0ab611b6ee3bfab88eba334e272642433|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"crypto: hmac - add fips_skip support
-
-By adding the support for the flag fips_skip, hash / HMAC test vectors
-may be marked to be not applicable in FIPS mode. Such vectors are
-silently skipped in FIPS mode.
-
-Signed-off-by: Stephan Mueller <smueller@chronox.de>
-Signed-off-by: Herbert Xu <herbert@gondor.apana.org.au>"|2|Stephan Müller|smueller@chronox.de|2022-02-01 09:40:58+01:00|-3600|Herbert Xu|herbert@gondor.apana.org.au|2022-02-11 20:22:01+11:00|-39600

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a56aaa02b1f723e28b41d339ddff02e958d32d43|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4.1: Clean up layoutreturn
-
-Since we take a reference to it, we really ought to pass the a pointer to
-the layout header in the arguments instead of assuming that
-NFS_I(inode)->layout will forever point to the correct object.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|3|Trond Myklebust|Trond.Myklebust@netapp.com|2011-06-15 11:59:10-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2011-07-12 13:40:29-04:00|14400

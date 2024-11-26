@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1faaa78f36cb2915ae89138ba5846f87ade85dcb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bnxt_en: use eth_hw_addr_random()
-
-Use eth_hw_addr_random() to set a random MAC address in order to make
-sure bp->dev->addr_assign_type will be properly set to NET_ADDR_RANDOM.
-
-Signed-off-by: Tobias Klauser <tklauser@distanz.ch>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Tobias Klauser|tklauser@distanz.ch|2017-02-21 15:27:28+01:00|-3600|David S. Miller|davem@davemloft.net|2017-02-21 13:33:43-05:00|18000

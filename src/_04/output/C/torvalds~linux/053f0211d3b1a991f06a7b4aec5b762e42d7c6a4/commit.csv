@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|053f0211d3b1a991f06a7b4aec5b762e42d7c6a4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Add send_mode_rsp convenience function for mgmt.c
-
-Several management commands have similar responses but they are not
-always sent asynchronously. To enable synchronous sending (from the
-managment command handler function) a send_mode_rsp function is added.
-
-Signed-off-by: Johan Hedberg <johan.hedberg@nokia.com>
-Signed-off-by: Gustavo F. Padovan <padovan@profusion.mobi>"|1|Johan Hedberg|johan.hedberg@nokia.com|2011-01-26 13:07:10+02:00|-7200|Gustavo F. Padovan|padovan@profusion.mobi|2011-02-08 01:40:05-02:00|7200

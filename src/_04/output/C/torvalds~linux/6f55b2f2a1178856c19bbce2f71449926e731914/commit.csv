@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6f55b2f2a1178856c19bbce2f71449926e731914|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bpf: Move off_reg into sanitize_ptr_alu
-
-Small refactor to drag off_reg into sanitize_ptr_alu(), so we later on can
-use off_reg for generalizing some of the checks for all pointer types.
-
-Signed-off-by: Daniel Borkmann <daniel@iogearbox.net>
-Reviewed-by: John Fastabend <john.fastabend@gmail.com>
-Acked-by: Alexei Starovoitov <ast@kernel.org>"|1|Daniel Borkmann|daniel@iogearbox.net|2021-03-22 15:45:52+01:00|-3600|Daniel Borkmann|daniel@iogearbox.net|2021-04-16 23:51:36+02:00|-7200

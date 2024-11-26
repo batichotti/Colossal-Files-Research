@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7d39db14a42cbd719c7515b9da8f85a2eb6a0633|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: Use struct flex_groups to calculate get_orlov_stats()
-
-Instead of looping over all of the block groups in a flex group
-summing their summary statistics, start tracking used_dirs in struct
-flex_groups, and use struct flex_groups instead.  This should save a
-bit of CPU for mkdir-heavy workloads.
-
-Signed-off-by: ""Theodore Ts'o"" <tytso@mit.edu>"|3|Theodore Ts'o|tytso@mit.edu|2009-03-04 19:31:53-05:00|18000|Theodore Ts'o|tytso@mit.edu|2009-03-04 19:31:53-05:00|18000

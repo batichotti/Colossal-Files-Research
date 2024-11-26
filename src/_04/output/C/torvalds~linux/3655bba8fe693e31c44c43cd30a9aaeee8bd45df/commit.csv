@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3655bba8fe693e31c44c43cd30a9aaeee8bd45df|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Check address in mgmt_disconnect_failed()
-
-Check the address and address type in mgmt_disconnect_failed() otherwise
-we may wrongly fail the MGMT_OP_DISCONNECT command.
-
-Signed-off-by: Andre Guedes <andre.guedes@openbossa.org>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|1|Andre Guedes|andre.guedes@openbossa.org|2013-10-30 19:01:40-03:00|10800|Gustavo Padovan|gustavo.padovan@collabora.co.uk|2013-12-04 11:09:03-02:00|7200

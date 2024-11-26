@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|332d079735f5add26f4443cec2991ee03ed2ae19|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: nVMX: KVM_SET_NESTED_STATE - Tear down old EVMCS state before setting new state
-
-Move call to nested_enable_evmcs until after free_nested() is complete.
-
-Signed-off-by: Aaron Lewis <aaronlewis@google.com>
-Reviewed-by: Marc Orr <marcorr@google.com>
-Reviewed-by: Peter Shier <pshier@google.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Aaron Lewis|aaronlewis@google.com|2019-05-02 11:31:33-07:00|25200|Paolo Bonzini|pbonzini@redhat.com|2019-05-08 14:12:08+02:00|-7200

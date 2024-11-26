@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b492b852cd8c99505708152c29a5e09a787af9de|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md: don't use locked_ioctl.
-
-md has no need for the BKL - it does its own locking.
-So md_ioctl doesn't need to be a locked_ioctl.
-
-Signed-off-by: NeilBrown <neilb@suse.de>"|1|NeilBrown|neilb@suse.de|2009-05-26 12:57:36+10:00|-36000|NeilBrown|neilb@suse.de|2009-05-26 12:57:36+10:00|-36000

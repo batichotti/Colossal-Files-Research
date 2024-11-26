@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5b54b56be5b540a9cb12682c4d0df5454c098a38|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sched: Replace all_pinned with a generic flags field
-
-Replace the all_pinned argument with a flags field so that we can add
-some extra controls throughout that entire call chain.
-
-Signed-off-by: Peter Zijlstra <a.p.zijlstra@chello.nl>
-Link: http://lkml.kernel.org/n/tip-33kevm71m924ok1gpxd720v3@git.kernel.org
-Signed-off-by: Ingo Molnar <mingo@elte.hu>"|1|Peter Zijlstra|a.p.zijlstra@chello.nl|2011-09-22 15:23:13+02:00|-7200|Ingo Molnar|mingo@elte.hu|2011-12-21 10:34:45+01:00|-3600

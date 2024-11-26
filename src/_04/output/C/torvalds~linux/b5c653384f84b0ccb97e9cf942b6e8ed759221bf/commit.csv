@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b5c653384f84b0ccb97e9cf942b6e8ed759221bf|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Pass modifier instead of tiling_mode to gen4_compute_page_offset()
-
-In preparation for handling more than X tiling, pass the fb modifier to
-gen4_compute_page_offset() instead of the obj->tiling_mode.
-
-Signed-off-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Reviewed-by: Daniel Vetter <daniel.vetter@ffwll.ch>
-Link: http://patchwork.freedesktop.org/patch/msgid/1452625717-9713-2-git-send-email-ville.syrjala@linux.intel.com"|3|Ville Syrjälä|ville.syrjala@linux.intel.com|2016-01-12 21:08:31+02:00|-7200|Ville Syrjälä|ville.syrjala@linux.intel.com|2016-01-13 18:46:17+02:00|-7200

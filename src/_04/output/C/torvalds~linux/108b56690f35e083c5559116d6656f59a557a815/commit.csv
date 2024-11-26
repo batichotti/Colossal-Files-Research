@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|108b56690f35e083c5559116d6656f59a557a815|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: switch pit creation to slots_lock
-
-switch pit creation to slots_lock. slots_lock is already taken for read
-everywhere, so we only need to take it for write when creating pit.
-This is in preparation to removing in_range and kvm->lock around it.
-
-Signed-off-by: Michael S. Tsirkin <mst@redhat.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Michael S. Tsirkin|mst@redhat.com|2009-06-29 22:24:21+03:00|-10800|Avi Kivity|avi@redhat.com|2009-09-10 08:33:05+03:00|-10800

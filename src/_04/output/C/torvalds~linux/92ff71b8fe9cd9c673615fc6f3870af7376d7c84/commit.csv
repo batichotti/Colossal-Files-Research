@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|92ff71b8fe9cd9c673615fc6f3870af7376d7c84|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: remove some unless free on failure in alloc_netdev_mqs()
-
-When we jump to free_pcpu on failure in alloc_netdev_mqs()
-rx and tx queues are not yet allocated, so no need to free them.
-
-Cc: David S. Miller <davem@davemloft.net>
-Signed-off-by: Cong Wang <xiyou.wangcong@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|WANG Cong|xiyou.wangcong@gmail.com|2014-06-03 17:11:54-07:00|25200|David S. Miller|davem@davemloft.net|2014-06-03 19:18:58-07:00|25200

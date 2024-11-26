@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|74514323947ef27347564bfd7a663fdb3429cb20|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: remove path arg from btrfs_truncate_free_space_cache
-
-Not used for anything, and removing it avoids caller's need to
-allocate a path structure.
-
-Signed-off-by: Filipe David Borba Manana <fdmanana@gmail.com>
-Signed-off-by: Josef Bacik <jbacik@fusionio.com>
-Signed-off-by: Chris Mason <chris.mason@fusionio.com>"|5|Filipe David Borba Manana|fdmanana@gmail.com|2013-09-20 14:46:51+01:00|-3600|Chris Mason|chris.mason@fusionio.com|2013-11-11 21:51:33-05:00|18000

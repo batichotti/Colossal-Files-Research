@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|06ea66b6bb445043dc25a9626254d5c130093199|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Enable 5.4Ghz (HBR2) link rate for Displayport 1.2-capable devices
-
-For HSW+ platforms, enable the 5.4Ghz (HBR2) link rate for devices that support it. The
-sink device must report that is supports Displayport 1.2 and the HBR2 bit rate in the
-DPCD in order to use HBR2.
-
-Signed-off-by: Todd Previte <tprevite@gmail.com>
-Signed-off-by: Daniel Vetter <daniel.vetter@ffwll.ch>"|2|Todd Previte|tprevite@gmail.com|2014-01-20 10:19:39-07:00|25200|Daniel Vetter|daniel.vetter@ffwll.ch|2014-01-24 17:22:54+01:00|-3600

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|eb9180f792afe6e1f5a723381632791ad134ec39|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net/mlx5e: Set hairpin queue size
-
-For a given hairpin packet buffer size, different queue sizes
-(values of log_hairpin_num_packets) determine how the data is broken
-to strides on the RQ. Currently the chosen value is set to 64B strides.
-
-Signed-off-by: Or Gerlitz <ogerlitz@mellanox.com>
-Signed-off-by: Saeed Mahameed <saeedm@mellanox.com>"|1|Or Gerlitz|ogerlitz@mellanox.com|2018-01-04 12:47:19+02:00|-7200|Saeed Mahameed|saeedm@mellanox.com|2018-01-19 22:41:32+02:00|-7200

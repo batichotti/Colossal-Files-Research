@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4e17ec250fce0eba9b70a91c9622da2748a3ec50|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mm: Convert delete_from_swap_cache to XArray
-
-Both callers of __delete_from_swap_cache have the swp_entry_t already,
-so pass that in to make constructing the XA_STATE easier.
-
-Signed-off-by: Matthew Wilcox <willy@infradead.org>"|3|Matthew Wilcox|willy@infradead.org|2017-11-29 08:32:39-05:00|18000|Matthew Wilcox|willy@infradead.org|2018-10-21 10:46:37-04:00|14400

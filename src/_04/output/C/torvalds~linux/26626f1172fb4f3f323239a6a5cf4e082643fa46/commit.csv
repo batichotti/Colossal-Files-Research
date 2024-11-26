@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|26626f1172fb4f3f323239a6a5cf4e082643fa46|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: release page cache in ext4_mb_load_buddy error path
-
-Add missing page_cache_release in the error path of ext4_mb_load_buddy
-
-Signed-off-by: Yang Ruirui <ruirui.r.yang@tieto.com>
-Signed-off-by: ""Theodore Ts'o"" <tytso@mit.edu>
-Cc: stable@kernel.org"|1|Yang Ruirui|ruirui.r.yang@tieto.com|2011-04-16 19:17:48-04:00|14400|Theodore Ts'o|tytso@mit.edu|2011-04-16 19:17:48-04:00|14400

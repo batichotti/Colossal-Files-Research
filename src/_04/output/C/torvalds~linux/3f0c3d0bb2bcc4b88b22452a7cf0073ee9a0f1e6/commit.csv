@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3f0c3d0bb2bcc4b88b22452a7cf0073ee9a0f1e6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86 emulator: fix test_cc() build failure on i386
-
-'pushq' doesn't exist on i386.  Replace with 'push', which should work
-since the operand is a register.
-
-Signed-off-by: Avi Kivity <avi.kivity@gmail.com>
-Signed-off-by: Gleb Natapov <gleb@redhat.com>"|1|Avi Kivity|avi.kivity@gmail.com|2013-01-26 23:56:04+02:00|-7200|Gleb Natapov|gleb@redhat.com|2013-01-27 11:09:38+02:00|-7200

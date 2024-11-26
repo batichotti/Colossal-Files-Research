@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ebfc3b49a7ac25920cb5be5445f602e51d2ea559|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"don't pass nameidata to ->create()
-
-boolean ""does it have to be exclusive?"" flag is passed instead;
-Local filesystem should just ignore it - the object is guaranteed
-not to be there yet.
-
-Signed-off-by: Al Viro <viro@zeniv.linux.org.uk>"|51|Al Viro|viro@zeniv.linux.org.uk|2012-06-10 18:05:36-04:00|14400|Al Viro|viro@zeniv.linux.org.uk|2012-07-14 16:34:47+04:00|-14400

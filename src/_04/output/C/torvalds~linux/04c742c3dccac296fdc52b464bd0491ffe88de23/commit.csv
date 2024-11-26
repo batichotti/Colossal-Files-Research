@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|04c742c3dccac296fdc52b464bd0491ffe88de23|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"OMAPDSS: remove return from platform_driver_unreg
-
-For unknown reasons we seem to have a return in each of the omapdss's
-uninit functions, which is a void function.
-
-Remove the returns.
-
-Signed-off-by: Tomi Valkeinen <tomi.valkeinen@ti.com>"|6|Tomi Valkeinen|tomi.valkeinen@ti.com|2012-02-23 15:32:37+02:00|-7200|Tomi Valkeinen|tomi.valkeinen@ti.com|2012-05-11 14:44:51+03:00|-10800

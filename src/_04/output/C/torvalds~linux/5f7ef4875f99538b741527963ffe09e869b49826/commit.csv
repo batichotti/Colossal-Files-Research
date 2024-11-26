@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5f7ef4875f99538b741527963ffe09e869b49826|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md/raid5: missing error code in setup_conf()
-
-Return -ENOMEM if the allocation fails.  Don't return success.
-
-Fixes: 8fbcba6b999b (""md/raid5: Cleanup setup_conf() error returns"")
-Signed-off-by: Dan Carpenter <dan.carpenter@oracle.com>
-Reviewed-by: Logan Gunthorpe <logang@deltatee.com>
-Signed-off-by: Song Liu <song@kernel.org>"|1|Dan Carpenter|dan.carpenter@oracle.com|2022-07-19 12:48:01+03:00|-10800|Song Liu|song@kernel.org|2022-07-19 10:58:33-07:00|25200

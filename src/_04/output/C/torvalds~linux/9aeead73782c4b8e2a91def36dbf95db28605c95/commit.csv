@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9aeead73782c4b8e2a91def36dbf95db28605c95|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: add more error checking to btrfs_dirty_inode
-
-The ENOSPC code will now return ENOSPC to btrfs_start_transaction.
-btrfs_dirty_inode needs to check for this and error out appropriately.
-
-Signed-off-by: Chris Mason <chris.mason@oracle.com>"|1|Chris Mason|chris.mason@oracle.com|2010-05-27 10:23:00-04:00|14400|Chris Mason|chris.mason@oracle.com|2010-05-27 10:23:00-04:00|14400

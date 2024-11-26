@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a6473fe9b623f6667af72d972b87cd9a5ff87e21|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"dev: annotate accesses to dev->link
-
-Following patch will read dev->link locklessly,
-annotate the write from do_setlink().
-
-Signed-off-by: Eric Dumazet <edumazet@google.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Eric Dumazet|edumazet@google.com|2024-02-13 06:32:35+00:00|0|David S. Miller|davem@davemloft.net|2024-02-14 11:20:13+00:00|0

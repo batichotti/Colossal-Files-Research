@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c21443c2c792cd9b463646d982b0fe48aa6feb0f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: Fix a reboot recovery race when opening a file
-
-If the server reboots after it has replied to our OPEN, but before we
-call nfs4_opendata_to_nfs4_state(), then the reboot recovery thread
-will not see a stateid for this open, and so will fail to recover it.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|1|Trond Myklebust|Trond.Myklebust@netapp.com|2013-02-07 14:26:21-05:00|18000|Trond Myklebust|Trond.Myklebust@netapp.com|2013-02-11 15:33:14-05:00|18000

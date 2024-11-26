@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|72e02075a33f739e21430262f71da8e82db9dbb3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md: factor out parsing of fixed-point numbers
-
-safe_delay_store can parse fixed point numbers (for fractions
-of a second).  We will want to do that for another sysfs
-file soon, so factor out the code.
-
-Signed-off-by: NeilBrown <neilb@suse.de>"|2|NeilBrown|neilb@suse.de|2009-12-14 12:49:55+11:00|-39600|NeilBrown|neilb@suse.de|2009-12-14 12:51:41+11:00|-39600

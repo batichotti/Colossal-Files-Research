@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|167c9e352deb7e25568c926c49c3eafad69cbe76|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ceph: use common helper for aborted dir request invalidation
-
-We invalidate I_COMPLETE and dentry leases in two places: on aborted mds
-request and on request replay.  Use common helper to avoid duplicate code.
-
-Signed-off-by: Sage Weil <sage@newdream.net>"|3|Sage Weil|sage@newdream.net|2010-05-14 10:02:57-07:00|25200|Sage Weil|sage@newdream.net|2010-05-17 15:25:40-07:00|25200

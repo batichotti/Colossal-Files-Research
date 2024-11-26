@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2db01da8d25f0420c411e788a9e1ba39269ae37b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"s390/qdio: fill SBALEs with absolute addresses
-
-sbale->addr holds an absolute address (or for some FCP usage, an opaque
-request ID), and should only be used with proper virt/phys translation.
-
-Signed-off-by: Julian Wiedmann <jwi@linux.ibm.com>
-Reviewed-by: Benjamin Block <bblock@linux.ibm.com>
-Signed-off-by: Vasily Gorbik <gor@linux.ibm.com>"|5|Julian Wiedmann|jwi@linux.ibm.com|2020-02-11 09:27:38+01:00|-3600|Vasily Gorbik|gor@linux.ibm.com|2020-02-19 17:26:32+01:00|-3600

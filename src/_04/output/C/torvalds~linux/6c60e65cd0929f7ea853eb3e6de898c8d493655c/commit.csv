@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6c60e65cd0929f7ea853eb3e6de898c8d493655c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rtl8xxxu: Rename rtl8xxxu.c to rtl8xxxu_core.c
-
-This renames the core file to rtl8xxxu_core.c in order to allow us to
-keep the module nake rtl8xxxu.ko when refactoring the code into
-multiple files.
-
-Signed-off-by: Jes Sorensen <Jes.Sorensen@redhat.com>
-Signed-off-by: Kalle Valo <kvalo@codeaurora.org>"|2|Jes Sorensen|Jes.Sorensen@redhat.com|2016-04-28 15:19:05-04:00|14400|Kalle Valo|kvalo@codeaurora.org|2016-05-03 13:07:10+03:00|-10800

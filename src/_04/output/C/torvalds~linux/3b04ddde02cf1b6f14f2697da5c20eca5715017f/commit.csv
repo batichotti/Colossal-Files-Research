@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3b04ddde02cf1b6f14f2697da5c20eca5715017f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[NET]: Move hardware header operations out of netdevice.
-
-Since hardware header operations are part of the protocol class
-not the device instance, make them into a separate object and
-save memory.
-
-Signed-off-by: Stephen Hemminger <shemminger@linux-foundation.org>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|65|Stephen Hemminger|shemminger@linux-foundation.org|2007-10-09 01:40:57-07:00|25200|David S. Miller|davem@sunset.davemloft.net|2007-10-10 16:52:52-07:00|25200

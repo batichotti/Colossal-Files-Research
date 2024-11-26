@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ef4b65e53cc77e2b3ca4667b461047ad04fb45fa|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nfnetlink: add struct nfgenmsg to struct nfnl_info and use it
-
-Update the nfnl_info structure to add a pointer to the nfnetlink header.
-This simplifies the existing codebase since this header is usually
-accessed. Update existing clients to use this new field.
-
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|7|Pablo Neira Ayuso|pablo@netfilter.org|2021-05-31 00:08:09+02:00|-7200|Pablo Neira Ayuso|pablo@netfilter.org|2021-06-07 12:23:36+02:00|-7200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3d49ed071582c612815a20463e727a4b8b2875fd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wifi: rtw89: fw: add H2C command to reset CMAC table for WiFi 7
-
-Do reset on CMAC tables by mac_id, so we don't get random values when
-powering on. Therefore, add the same function for WiFi 7 chips.
-
-Signed-off-by: Ping-Ke Shih <pkshih@realtek.com>
-Signed-off-by: Kalle Valo <kvalo@kernel.org>
-Link: https://msgid.link/20240115033742.16372-6-pkshih@realtek.com"|10|Ping-Ke Shih|pkshih@realtek.com|2024-01-15 11:37:39+08:00|-28800|Kalle Valo|kvalo@kernel.org|2024-01-18 11:33:56+02:00|-7200

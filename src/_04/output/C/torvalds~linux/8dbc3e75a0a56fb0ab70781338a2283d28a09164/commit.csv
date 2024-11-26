@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8dbc3e75a0a56fb0ab70781338a2283d28a09164|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Call shutdown for HCI_USER_CHANNEL
-
-Some drivers depend on shutdown being called for proper operation.
-Unset HCI_USER_CHANNEL and call the full close routine since shutdown is
-complementary to setup.
-
-Signed-off-by: Abhishek Pandit-Subedi <abhishekpandit@chromium.org>
-Signed-off-by: Luiz Augusto von Dentz <luiz.von.dentz@intel.com>"|1|Abhishek Pandit-Subedi|abhishekpandit@chromium.org|2022-09-27 13:17:20-07:00|25200|Luiz Augusto von Dentz|luiz.von.dentz@intel.com|2022-09-28 12:16:12-07:00|25200

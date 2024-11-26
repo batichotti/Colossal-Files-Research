@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|36c3cc422b7c5d3cd84cbac769758b197e08f221|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: nVMX: Clear segment cache after switching between L1 and L2
-
-Switching the VMCS obviously invalidates what may have been cached about
-the guest segments.
-
-Signed-off-by: Jan Kiszka <jan.kiszka@siemens.com>
-Signed-off-by: Gleb Natapov <gleb@redhat.com>"|1|Jan Kiszka|jan.kiszka@siemens.com|2013-02-23 22:35:37+01:00|-3600|Gleb Natapov|gleb@redhat.com|2013-02-27 15:41:09+02:00|-7200

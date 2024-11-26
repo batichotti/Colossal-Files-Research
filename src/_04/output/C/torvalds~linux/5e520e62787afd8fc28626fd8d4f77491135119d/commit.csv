@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5e520e62787afd8fc28626fd8d4f77491135119d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: Move VMREAD cleanup to exception handler
-
-We clean up a failed VMREAD by clearing the output register.  Do
-it in the exception handler instead of unconditionally.  This is
-worthwhile since there are more than a hundred call sites.
-
-Signed-off-by: Avi Kivity <avi@redhat.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|2|Avi Kivity|avi@redhat.com|2011-05-15 10:13:12-04:00|14400|Avi Kivity|avi@redhat.com|2011-07-12 11:45:00+03:00|-10800

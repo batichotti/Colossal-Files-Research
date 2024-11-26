@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2d27deb40db74c751c991e96ca91d675f966a0c5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ASoC: rt5677: rt5677_irq_init() can be static
-
-sound/soc/codecs/rt5677.c:4017:5: sparse: symbol 'rt5677_irq_init' was not declared. Should it be static?
-sound/soc/codecs/rt5677.c:4044:6: sparse: symbol 'rt5677_irq_exit' was not declared. Should it be static?
-
-Signed-off-by: Fengguang Wu <fengguang.wu@intel.com>
-Signed-off-by: Mark Brown <broonie@kernel.org>"|1|kbuild test robot|fengguang.wu@intel.com|2014-10-22 20:04:08+08:00|-28800|Mark Brown|broonie@kernel.org|2014-10-22 16:34:50+01:00|-3600

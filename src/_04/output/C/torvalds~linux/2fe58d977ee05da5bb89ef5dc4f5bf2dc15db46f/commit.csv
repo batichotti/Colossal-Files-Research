@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2fe58d977ee05da5bb89ef5dc4f5bf2dc15db46f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cifs: fix potential memory leaks in session setup
-
-Make sure to free cifs_ses::auth_key.response before allocating it as
-we might end up leaking memory in reconnect or mounting.
-
-Signed-off-by: Paulo Alcantara (SUSE) <pc@cjr.nz>
-Signed-off-by: Steve French <stfrench@microsoft.com>"|3|Paulo Alcantara|pc@cjr.nz|2023-01-10 20:35:46-03:00|10800|Steve French|stfrench@microsoft.com|2023-01-10 23:24:37-06:00|21600

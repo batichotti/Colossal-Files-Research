@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f4896f1529c43fb0688164ed33aebdf525a34fb7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Make the DP rates int instead of uint32_t
-
-No point in using uint32_t here, just plain old int will do.
-
-Signed-off-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Reviewed-by: Sonika Jindal <sonika.jindal@intel.com>
-Reviewed-by: Todd Previte <tprevite@gmail.com>
-Signed-off-by: Daniel Vetter <daniel.vetter@ffwll.ch>"|1|Ville Syrjälä|ville.syrjala@linux.intel.com|2015-03-12 17:10:27+02:00|-7200|Daniel Vetter|daniel.vetter@ffwll.ch|2015-03-20 11:48:03+01:00|-3600

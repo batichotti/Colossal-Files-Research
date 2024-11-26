@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|42317ab440c110618b511290284c6d6c10bcffc7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: simplify range parameters of btrfs_wait_ordered_roots()
-
-The range is specified only in two ways, we can simplify the case for
-the whole filesystem range as a NULL block group parameter.
-
-Signed-off-by: David Sterba <dsterba@suse.com>"|13|David Sterba|dsterba@suse.com|2024-05-14 16:48:12+02:00|-7200|David Sterba|dsterba@suse.com|2024-07-11 15:33:19+02:00|-7200

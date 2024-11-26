@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|04ea30c857217eb69451f8ced5a857693666ae16|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"s390/qeth: don't call INIT_LIST_HEAD() on iob's list entry
-
-INIT_LIST_HEAD() only needs to be called on actual list heads.
-While at it clarify the naming of the field.
-
-Suggested-by: Vasily Gorbik <gor@linux.ibm.com>
-Signed-off-by: Julian Wiedmann <jwi@linux.ibm.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Julian Wiedmann|jwi@linux.ibm.com|2020-12-07 14:12:28+01:00|-3600|David S. Miller|davem@davemloft.net|2020-12-07 06:55:21-08:00|28800

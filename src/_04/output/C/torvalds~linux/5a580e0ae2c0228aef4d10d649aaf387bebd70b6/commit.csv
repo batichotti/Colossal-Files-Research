@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5a580e0ae2c0228aef4d10d649aaf387bebd70b6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS: Clean up nfs4_setup_sequence()
-
-Clean up: Both the NFSv4.0 and NFSv4.1 version of
-nfs4_setup_sequence() are used only in fs/nfs/nfs4proc.c.  No need
-to keep global header declarations for either version.
-
-Signed-off-by: Chuck Lever <chuck.lever@oracle.com>
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|2|Chuck Lever|chuck.lever@oracle.com|2013-08-09 12:48:09-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2013-09-03 15:26:31-04:00|14400

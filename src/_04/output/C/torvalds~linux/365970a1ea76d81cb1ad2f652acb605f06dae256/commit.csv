@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|365970a1ea76d81cb1ad2f652acb605f06dae256|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"WorkStruct: Merge the pending bit into the wq_data pointer
-
-Reclaim a word from the size of the work_struct by folding the pending bit and
-the wq_data pointer together.  This shouldn't cause misalignment problems as
-all pointers should be at least 4-byte aligned.
-
-Signed-Off-By: David Howells <dhowells@redhat.com>"|3|David Howells|dhowells@redhat.com|2006-11-22 14:54:49+00:00|0|David Howells|dhowells@redhat.com|2006-11-22 14:54:49+00:00|0

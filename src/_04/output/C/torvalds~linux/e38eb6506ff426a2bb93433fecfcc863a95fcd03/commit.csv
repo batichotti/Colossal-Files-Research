@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e38eb6506ff426a2bb93433fecfcc863a95fcd03|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS: set_pnfs_layoutdriver() from nfs4_proc_fsinfo()
-
-The generic client doesn't need to know about pnfs layout drivers, so
-this should be done in the v4 code.
-
-Signed-off-by: Bryan Schumaker <bjschuma@netapp.com>
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|2|Bryan Schumaker|bjschuma@netapp.com|2012-06-20 15:53:40-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2012-06-29 11:46:43-04:00|14400

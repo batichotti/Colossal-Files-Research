@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fbfbc4851dd709cf1327afc283f9cca00235dcb3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bnxt_en: Refactor _hwrm_send_message().
-
-Add a new function bnxt_do_send_msg() to do essentially the same thing
-with an additional paramter to silence error response messages.  All
-current callers will set silent to false.
-
-Signed-off-by: Michael Chan <mchan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Michael Chan|michael.chan@broadcom.com|2016-02-26 04:00:07-05:00|18000|David S. Miller|davem@davemloft.net|2016-03-01 15:37:02-05:00|18000

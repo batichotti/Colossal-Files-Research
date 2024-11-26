@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0c65622b1f92eb437d00ede920fc43b2ff2d44b7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"OMAP: DSS2: DSI: Get line buffer size from DSI_GNQ register
-
-The line buffer sizes vary across DSI modules, create a function
-dsi_get_line_buf_size() using DSI_GNQ register to get the size of
-line buffer used for the DISPC video port data.
-
-Signed-off-by: Archit Taneja <archit@ti.com>
-Signed-off-by: Tomi Valkeinen <tomi.valkeinen@ti.com>"|1|Archit Taneja|archit@ti.com|2011-05-16 15:17:09+05:30|-19800|Tomi Valkeinen|tomi.valkeinen@ti.com|2011-05-16 13:31:10+03:00|-10800

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|42e1cca7e91e1a7502694cfd18857ed243f54174|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS: Change nfs4_setup_sequence() to take an nfs_client structure
-
-I want to have all callers use this function, rather than calling the
-NFS v4.0 and v4.1 versions directly.  This includes pNFS, which only has
-access to the nfs_client structure in some places.
-
-Signed-off-by: Anna Schumaker <Anna.Schumaker@Netapp.com>"|1|Anna Schumaker|Anna.Schumaker@Netapp.com|2017-01-09 15:48:22-05:00|18000|Anna Schumaker|Anna.Schumaker@Netapp.com|2017-01-30 13:14:50-05:00|18000

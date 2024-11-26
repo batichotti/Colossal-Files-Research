@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8c087b5183adab186a298f2d6ed39aefdcae413c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: Handle SGID bit when creating inodes
-Before this patch, new files/dirs would ignore the SGID bit on their
-parent directory and always be owned by the creating user's uid/gid.
-
-Signed-off-by: Chris Ball <cjb@laptop.org>
-Signed-off-by: Chris Mason <chris.mason@oracle.com>"|1|Chris Ball|cjb@laptop.org|2009-02-04 09:29:54-05:00|18000|Chris Mason|chris.mason@oracle.com|2009-02-04 09:29:54-05:00|18000

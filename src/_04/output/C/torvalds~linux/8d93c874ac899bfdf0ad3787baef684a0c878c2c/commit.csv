@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8d93c874ac899bfdf0ad3787baef684a0c878c2c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: move nsec_to_cycles from x86.c to x86.h
-
-Move the inline function nsec_to_cycles from x86.c to x86.h, as
-the next patch uses it from lapic.c.
-
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|2|Marcelo Tosatti|mtosatti@redhat.com|2016-06-20 22:28:02-03:00|10800|Paolo Bonzini|pbonzini@redhat.com|2016-06-27 15:30:38+02:00|-7200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b63def9112cd8b91477a06ba5318c8a01ac474f1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: Fix a return value in case of error in 'f2fs_fill_super'
-
-err must be set to -ENOMEM, otherwise we return 0.
-
-Fixes: a912b54d3aaa0 (""f2fs: split bio cache"")
-Signed-off-by: Christophe JAILLET <christophe.jaillet@wanadoo.fr>
-Reviewed-by: Chao Yu <yuchao0@huawei.com>
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|1|Christophe JAILLET|christophe.jaillet@wanadoo.fr|2017-06-11 09:21:11+02:00|-7200|Jaegeuk Kim|jaegeuk@kernel.org|2017-07-04 02:11:40-07:00|25200

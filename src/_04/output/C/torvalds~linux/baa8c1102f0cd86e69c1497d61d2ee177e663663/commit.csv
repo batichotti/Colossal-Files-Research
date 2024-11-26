@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|baa8c1102f0cd86e69c1497d61d2ee177e663663|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sched: Add a lock break for PREEMPT=y
-
-Since load-balancing can hold rq->locks for quite a long while, allow
-breaking out early when there is lock contention.
-
-Signed-off-by: Peter Zijlstra <a.p.zijlstra@chello.nl>
-LKML-Reference: <new-submission>
-Signed-off-by: Ingo Molnar <mingo@elte.hu>"|1|Peter Zijlstra|a.p.zijlstra@chello.nl|2009-12-17 18:10:09+01:00|-3600|Ingo Molnar|mingo@elte.hu|2010-01-21 13:40:13+01:00|-3600

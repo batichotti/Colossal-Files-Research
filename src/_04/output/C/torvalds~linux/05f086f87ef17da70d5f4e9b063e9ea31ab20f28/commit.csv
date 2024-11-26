@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|05f086f87ef17da70d5f4e9b063e9ea31ab20f28|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86 emulator: remove _eflags and use directly ctxt->eflags.
-
-Remove _eflags and use directly ctxt->eflags. Caching eflags is not needed as
-it is restored to vcpu by kvm_main.c:emulate_instruction() from ctxt->eflags
-only if emulation doesn't fail.
-
-Signed-off-by: Laurent Vivier <Laurent.Vivier@bull.net>
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|1|Laurent Vivier|Laurent.Vivier@bull.net|2007-09-24 11:10:55+02:00|-7200|Avi Kivity|avi@qumranet.com|2008-01-30 17:52:48+02:00|-7200

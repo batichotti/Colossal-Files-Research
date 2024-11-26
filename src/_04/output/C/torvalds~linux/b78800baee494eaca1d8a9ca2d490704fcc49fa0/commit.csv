@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b78800baee494eaca1d8a9ca2d490704fcc49fa0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Revert ""nfsd: remove_stid can be incorporated into nfs4_put_delegation""
-
-This reverts commit 7ebe40f20372688a627ad6c754bc0d1c05df58a9.  We forgot
-the nfs4_put_delegation call in fs/nfsd/nfs4callback.c which should not
-be unhashing the stateid.  This lead to warnings from the idr code when
-we tried to removed id's twice.
-
-Signed-off-by: J. Bruce Fields <bfields@redhat.com>"|1|J. Bruce Fields|bfields@redhat.com|2013-11-04 17:46:04-05:00|18000|J. Bruce Fields|bfields@redhat.com|2013-11-04 17:46:50-05:00|18000

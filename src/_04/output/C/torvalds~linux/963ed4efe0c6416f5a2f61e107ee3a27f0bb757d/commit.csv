@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|963ed4efe0c6416f5a2f61e107ee3a27f0bb757d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915/dp: hide dp_to_i915() inside intel_dp.c
-
-Now that only intel_dp.c uses dp_to_i915(), hide it there. This removes
-a header dependency on to_i915().
-
-Reviewed-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Signed-off-by: Jani Nikula <jani.nikula@intel.com>
-Link: https://patchwork.freedesktop.org/patch/msgid/e214aa6991aea4fc878b36dcd3eaece9f1fba592.1725012870.git.jani.nikula@intel.com"|2|Jani Nikula|jani.nikula@intel.com|2024-08-30 13:15:48+03:00|-10800|Jani Nikula|jani.nikula@intel.com|2024-09-03 17:11:25+03:00|-10800

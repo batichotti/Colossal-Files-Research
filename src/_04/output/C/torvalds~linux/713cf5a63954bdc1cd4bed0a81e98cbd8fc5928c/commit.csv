@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|713cf5a63954bdc1cd4bed0a81e98cbd8fc5928c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"raid5: don't allow resize/reshape with cache(log) support
-
-If cache(log) support is enabled, don't allow resize/reshape in current
-stage. In the future, we can flush all data from cache(log) to raid
-before resize/reshape and then allow resize/reshape.
-
-Signed-off-by: Shaohua Li <shli@fb.com>
-Signed-off-by: NeilBrown <neilb@suse.com>"|1|Shaohua Li|shli@fb.com|2015-08-13 14:32:03-07:00|25200|NeilBrown|neilb@suse.com|2015-11-01 13:48:26+11:00|-39600

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c58b6032f93358871361a92d7743dbc85d27084e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ocfs2: Use ocfs2_mv_xattr_buckets() in ocfs2_mv_xattr_bucket_cross_cluster().
-
-Now that ocfs2_mv_xattr_buckets() can move a partial cluster's worth of
-buckets, ocfs2_mv_xattr_bucket_cross_cluster() can use it.
-
-Signed-off-by: Joel Becker <joel.becker@oracle.com>
-Signed-off-by: Mark Fasheh <mfasheh@suse.com>"|1|Joel Becker|joel.becker@oracle.com|2008-11-26 13:36:24-08:00|28800|Mark Fasheh|mfasheh@suse.com|2009-01-05 08:40:29-08:00|28800

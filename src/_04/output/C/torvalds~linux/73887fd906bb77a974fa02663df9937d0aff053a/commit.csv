@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|73887fd906bb77a974fa02663df9937d0aff053a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cfg80211/mac80211: revert to stack allocation for sinfo
-
-Arend's previous patch made the sinfo structure smaller
-again by to dynamically allocating the per-tid stats
-only when needed. Thus, revert to stack allocation for
-the struct to simplify the code.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|3|Johannes Berg|johannes.berg@intel.com|2018-05-18 09:57:55+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2018-05-18 11:14:35+02:00|-7200

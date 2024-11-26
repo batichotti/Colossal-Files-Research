@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2716b80284c5ca415b8ce93ca178b0ca28482568|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: remove redundundant ""(char *) bh->b_data"" casts
-
-The b_data field of the buffer_head is already a char *, so there's no
-point casting it to a char *.
-
-Signed-off-by: ""Theodore Ts'o"" <tytso@mit.edu>"|2|Theodore Ts'o|tytso@mit.edu|2012-05-28 17:47:52-04:00|14400|Theodore Ts'o|tytso@mit.edu|2012-05-28 17:47:52-04:00|14400

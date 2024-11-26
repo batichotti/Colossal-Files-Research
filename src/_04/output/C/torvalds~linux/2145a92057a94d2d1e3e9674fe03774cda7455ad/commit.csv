@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2145a92057a94d2d1e3e9674fe03774cda7455ad|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bnx2x: Protect code with NOMCP
-
-Don't run code that can't be run if MCP is not present.
-This will prevent NULL pointer dereferencing.
-
-Signed-off-by: Vladislav Zolotarov <vladz@broadcom.com>
-Signed-off-by: Eilon Greenstein <eilong@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Vladislav Zolotarov|vladz@broadcom.com|2010-04-19 01:13:49+00:00|0|David S. Miller|davem@davemloft.net|2010-04-19 13:17:07-07:00|25200

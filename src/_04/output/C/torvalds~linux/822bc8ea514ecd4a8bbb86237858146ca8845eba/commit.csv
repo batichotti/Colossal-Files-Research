@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|822bc8ea514ecd4a8bbb86237858146ca8845eba|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cifsd: use kfree to free memory allocated by kmalloc or kzalloc
-
-kfree should be used to free memory allocated by kmalloc or kzalloc to
-avoid any overhead and for maintaining consistency.
-
-Signed-off-by: Muhammad Usama Anjum <musamaanjum@gmail.com>
-Signed-off-by: Namjae Jeon <namjae.jeon@samsung.com>
-Signed-off-by: Steve French <stfrench@microsoft.com>"|7|Muhammad Usama Anjum|musamaanjum@gmail.com|2021-04-02 09:25:35+09:00|-32400|Steve French|stfrench@microsoft.com|2021-05-10 19:15:36-05:00|18000

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9269d12b2d57d9e3d13036bb750762d1110d425c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: fix number of transaction units required to create symlink
-
-We weren't accounting for the insertion of an inline extent item for the
-symlink inode nor that we need to update the parent inode item (through
-the call to btrfs_add_nondir()). So fix this by including two more
-transaction units.
-
-Signed-off-by: Filipe Manana <fdmanana@suse.com>"|1|Filipe Manana|fdmanana@suse.com|2015-12-31 18:16:29+00:00|0|Filipe Manana|fdmanana@suse.com|2015-12-31 18:18:40+00:00|0

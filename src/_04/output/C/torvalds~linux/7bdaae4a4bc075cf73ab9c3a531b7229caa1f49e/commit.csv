@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7bdaae4a4bc075cf73ab9c3a531b7229caa1f49e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: mgmt: Fix name_changed event for short name changes
-
-Since we can't reliably track the short name changes just assume that we
-had a change whenever there's a pending mgmt command. In the worst case
-we just get one unnecessary name_changed signal.
-
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>
-Acked-by: Marcel Holtmann <marcel@holtmann.org>"|1|Johan Hedberg|johan.hedberg@intel.com|2012-02-22 21:39:58+02:00|-7200|Johan Hedberg|johan.hedberg@intel.com|2012-02-23 13:07:00+02:00|-7200

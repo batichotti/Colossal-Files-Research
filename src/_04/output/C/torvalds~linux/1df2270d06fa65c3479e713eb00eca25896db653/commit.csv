@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1df2270d06fa65c3479e713eb00eca25896db653|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: mvpp2: take advantage of the is_rgmii helper
-
-Convert all RGMII checks to use the phy_interface_mode_is_rgmii()
-helper. This is a cosmetic patch.
-
-Signed-off-by: Antoine Tenart <antoine.tenart@free-electrons.com>
-Reviewed-by: Andrew Lunn <andrew@lunn.ch>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Antoine Tenart|antoine.tenart@free-electrons.com|2017-09-01 11:04:52+02:00|-7200|David S. Miller|davem@davemloft.net|2017-09-01 10:08:25-07:00|25200

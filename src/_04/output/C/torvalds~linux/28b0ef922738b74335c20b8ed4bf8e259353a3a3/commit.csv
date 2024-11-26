@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|28b0ef922738b74335c20b8ed4bf8e259353a3a3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/amdgpu: Fix missing check pcie_p2p module param
-
-The module param pcie_p2p should be checked for kfd p2p feature, so add it.
-
-Fixes: 75f0efbc4b3b (""drm/amdgpu: Take IOMMU remapping into account for p2p checks"")
-Signed-off-by: Bob Zhou <bob.zhou@amd.com>
-Reviewed-by: Alex Deucher <alexander.deucher@amd.com>
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|1|Bob Zhou|bob.zhou@amd.com|2024-09-06 17:48:20+08:00|-28800|Alex Deucher|alexander.deucher@amd.com|2024-09-17 10:04:57-04:00|14400

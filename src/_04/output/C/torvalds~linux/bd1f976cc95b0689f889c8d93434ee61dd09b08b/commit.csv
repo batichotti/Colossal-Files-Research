@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bd1f976cc95b0689f889c8d93434ee61dd09b08b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[media] dib0700: be sure that dib0700_ctrl_rd() users can do DMA
-
-dib0700_ctrl_rd() takes a RX and a TX pointer. Be sure that
-both will point to a memory allocated via kmalloc().
-
-Reviewed-by: Patrick Boettcher <patrick.boettcher@posteo.de>
-Signed-off-by: Mauro Carvalho Chehab <mchehab@s-opensource.com>"|2|Mauro Carvalho Chehab|mchehab@s-opensource.com|2016-10-07 06:40:24-03:00|10800|Mauro Carvalho Chehab|mchehab@s-opensource.com|2016-10-14 12:37:47-03:00|10800

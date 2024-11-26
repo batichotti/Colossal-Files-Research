@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|26f887e0a3c43f67b550e2e5d8a76e86ca11d188|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libceph, rbd, ceph: move ceph_osdc_alloc_messages() calls
-
-The current requirement is that ceph_osdc_alloc_messages() should be
-called after oid and oloc are known.  In preparation for preallocating
-message data items, move ceph_osdc_alloc_messages() further down, so
-that it is called when OSD op codes are known.
-
-Signed-off-by: Ilya Dryomov <idryomov@gmail.com>"|3|Ilya Dryomov|idryomov@gmail.com|2018-10-15 16:11:37+02:00|-7200|Ilya Dryomov|idryomov@gmail.com|2018-10-22 10:28:22+02:00|-7200

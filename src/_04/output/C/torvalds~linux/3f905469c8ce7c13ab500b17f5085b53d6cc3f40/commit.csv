@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3f905469c8ce7c13ab500b17f5085b53d6cc3f40|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"clk: qcom: gcc: Use floor ops for SDCC clocks
-
-Update global clock controller SDCC2/4 clocks to use the floor rcg ops,
-so as to use the rounded down clock rates for these clocks.
-
-Signed-off-by: Taniya Das <tdas@codeaurora.org>
-Link: https://lkml.kernel.org/r/20190909074410.18977-1-tdas@codeaurora.org
-Signed-off-by: Stephen Boyd <sboyd@kernel.org>"|4|Taniya Das|tdas@codeaurora.org|2019-09-09 13:14:10+05:30|-19800|Stephen Boyd|sboyd@kernel.org|2019-09-09 04:39:12-07:00|25200

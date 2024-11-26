@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1fe5e9932156f6122c3b1ff6ba7541c27c86718c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rbd: create rbd_refresh_helper()
-
-Create a simple helper that handles the common case of calling
-__rbd_refresh_header() while holding the ctl_mutex.
-
-Signed-off-by: Alex Elder <elder@inktank.com>
-Reviewed-by: Josh Durgin <josh.durgin@inktank.com>"|1|Alex Elder|elder@inktank.com|2012-07-25 09:32:41-05:00|18000|Sage Weil|sage@inktank.com|2012-07-30 18:21:46-07:00|25200

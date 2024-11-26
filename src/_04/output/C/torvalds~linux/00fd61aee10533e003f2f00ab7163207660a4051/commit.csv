@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|00fd61aee10533e003f2f00ab7163207660a4051|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ftrace: do not init module on ftrace disabled
-
-If one of the self tests of ftrace has disabled the function tracer,
-do not run the code to convert the mcount calls in modules.
-
-Signed-off-by: Steven Rostedt <srostedt@redhat.com>
-Signed-off-by: Ingo Molnar <mingo@elte.hu>"|1|Steven Rostedt|rostedt@goodmis.org|2008-08-15 21:40:04-04:00|14400|Ingo Molnar|mingo@elte.hu|2008-10-14 10:35:43+02:00|-7200

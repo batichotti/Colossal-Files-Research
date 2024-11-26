@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4ed886b187f47447ad559619c48c086f432d2b77|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: check validation of fault attrs in f2fs_build_fault_attr()
-
-- It missed to check validation of fault attrs in parse_options(),
-let's fix to add check condition in f2fs_build_fault_attr().
-- Use f2fs_build_fault_attr() in __sbi_store() to clean up code.
-
-Signed-off-by: Chao Yu <chao@kernel.org>
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|3|Chao Yu|chao@kernel.org|2024-05-07 11:38:47+08:00|-28800|Jaegeuk Kim|jaegeuk@kernel.org|2024-05-09 01:04:46+00:00|0

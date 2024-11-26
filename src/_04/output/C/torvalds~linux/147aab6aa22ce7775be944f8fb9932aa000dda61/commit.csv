@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|147aab6aa22ce7775be944f8fb9932aa000dda61|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] megaraid_sas: fix physical disk handling
-
-This patch hides the devices completely from the midlayer instead.
-It requires the patch to handle the slave_configure failure I posted
-earlier.
-
-Signed-off-by: Christoph Hellwig <hch@lst.de>
-Signed-off-by: James Bottomley <James.Bottomley@SteelEye.com>"|1|Christoph Hellwig|hch@lst.de|2006-02-17 12:13:48+01:00|-3600|James Bottomley|jejb@mulgrave.il.steeleye.com|2006-02-27 21:36:46-06:00|21600

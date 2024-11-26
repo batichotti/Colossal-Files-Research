@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|49b31e576a0a264872aa06dbc1ce6cd0cb9db278|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"filter: refactor common filter attach code into __sk_attach_prog
-
-Both sk_attach_filter() and sk_attach_bpf() are setting up sk_filter,
-charging skmem and attaching it to the socket after we got the eBPF
-prog up and ready. Lets refactor that into a common helper.
-
-Signed-off-by: Daniel Borkmann <daniel@iogearbox.net>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Daniel Borkmann|daniel@iogearbox.net|2015-03-02 12:25:51+01:00|-3600|David S. Miller|davem@davemloft.net|2015-03-02 14:51:38-05:00|18000

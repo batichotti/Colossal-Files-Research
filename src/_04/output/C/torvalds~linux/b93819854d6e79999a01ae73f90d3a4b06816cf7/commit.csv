@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b93819854d6e79999a01ae73f90d3a4b06816cf7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"stmmac: Add vlan rx for better GRO performance.
-
-GRO requires VLANs to be removed before aggregation can occur.
-The Synopsys EMAC does not strip VLAN tags so this must be
-done by the driver.
-
-Signed-off-by: Vince Bridgers <vbridgers2013@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Vince Bridgers|vbridgers2013@gmail.com|2014-01-14 13:42:05-06:00|21600|David S. Miller|davem@davemloft.net|2014-01-15 15:13:08-08:00|28800

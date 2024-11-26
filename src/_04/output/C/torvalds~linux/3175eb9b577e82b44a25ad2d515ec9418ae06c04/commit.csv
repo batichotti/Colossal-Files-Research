@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3175eb9b577e82b44a25ad2d515ec9418ae06c04|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cifs: add a debug macro that prints \\server\share for errors
-
-Where we have a tcon available we can log \\server\share as part
-of the message. Only do this for the VFS log level.
-
-Signed-off-by: Ronnie Sahlberg <lsahlber@redhat.com>
-Signed-off-by: Steve French <stfrench@microsoft.com>"|4|Ronnie Sahlberg|lsahlber@redhat.com|2019-09-04 12:32:41+10:00|-36000|Steve French|stfrench@microsoft.com|2019-09-16 11:43:38-05:00|18000

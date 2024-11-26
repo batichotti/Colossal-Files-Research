@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0e7ac738f785e695acfa1203a87f6a505305542a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mm, slub: don't disable irqs in slub_cpu_dead()
-
-slub_cpu_dead() cleans up for an offlined cpu from another cpu and calls only
-functions that are now irq safe, so we don't need to disable irqs anymore.
-
-Signed-off-by: Vlastimil Babka <vbabka@suse.cz>"|1|Vlastimil Babka|vbabka@suse.cz|2021-05-21 01:48:56+02:00|-7200|Vlastimil Babka|vbabka@suse.cz|2021-09-04 01:12:22+02:00|-7200

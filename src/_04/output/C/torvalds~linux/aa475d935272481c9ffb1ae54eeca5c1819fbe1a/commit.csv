@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|aa475d935272481c9ffb1ae54eeca5c1819fbe1a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8152: disable DelayPhyPwrChg
-
-When enabling this, the device would wait an internal signal which
-wouldn't be triggered. Then, the device couldn't enter P3 mode, so
-the power consumption is increased.
-
-Signed-off-by: Hayes Wang <hayeswang@realtek.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Hayes Wang|hayeswang@realtek.com|2020-01-22 16:02:13+08:00|-28800|David S. Miller|davem@davemloft.net|2020-01-23 11:20:57+01:00|-3600

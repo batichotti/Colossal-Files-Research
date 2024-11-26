@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b704495c6707013806d1b66507a967896e2b4a7c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] bfa: direct attach mode fix.
-
-- Direct attach is not working due to the check of PID in fcxp_send request.
-- Added logic to set the lps->lp_pid with the PID assigned for n2n mode.
-
-Signed-off-by: Krishna Gudipati <kgudipat@brocade.com>
-Signed-off-by: James Bottomley <James.Bottomley@suse.de>"|5|Krishna Gudipati|kgudipat@brocade.com|2010-12-13 16:17:42-08:00|28800|James Bottomley|James.Bottomley@suse.de|2010-12-21 12:37:16-06:00|21600

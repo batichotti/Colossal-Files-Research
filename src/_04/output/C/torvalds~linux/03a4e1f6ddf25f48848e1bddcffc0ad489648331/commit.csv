@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|03a4e1f6ddf25f48848e1bddcffc0ad489648331|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd4: move principal name into svc_cred
-
-Instead of keeping the principal name associated with a request in a
-structure that's private to auth_gss and using an accessor function,
-move it to svc_cred.
-
-Signed-off-by: J. Bruce Fields <bfields@redhat.com>"|8|J. Bruce Fields|bfields@redhat.com|2012-05-14 19:55:22-04:00|14400|J. Bruce Fields|bfields@redhat.com|2012-05-31 20:29:55-04:00|14400

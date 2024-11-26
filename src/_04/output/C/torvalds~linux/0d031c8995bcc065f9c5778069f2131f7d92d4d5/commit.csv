@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0d031c8995bcc065f9c5778069f2131f7d92d4d5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ath10k: enable monitor when OTHER_BSS requested
-
-By default, ath10k restricts received frames to those matching BSSID.
-When other BSS frames are requested (e.g. in mesh mode), add an internal
-monitor device so those frames are not filtered.
-
-Signed-off-by: Bob Copeland <me@bobcopeland.com>
-Signed-off-by: Kalle Valo <kvalo@qca.qualcomm.com>"|1|Bob Copeland|me@bobcopeland.com|2015-09-09 12:47:34-04:00|14400|Kalle Valo|kvalo@qca.qualcomm.com|2015-09-17 13:48:30+03:00|-10800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|116978854427fd7abbeb328768e75b49a7298520|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"dlm: cleanup memory allocation helpers
-
-This patch removes a unnecessary parameter from DLM memory allocation
-helpers and reduce some functions by just directly reply the pointer
-address of the allocated memory.
-
-Signed-off-by: Alexander Aring <aahringo@redhat.com>
-Signed-off-by: David Teigland <teigland@redhat.com>"|3|Alexander Aring|aahringo@redhat.com|2024-08-02 13:26:38-04:00|14400|David Teigland|teigland@redhat.com|2024-08-08 15:14:41-05:00|18000

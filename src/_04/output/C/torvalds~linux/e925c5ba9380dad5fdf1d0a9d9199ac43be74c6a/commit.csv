@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e925c5ba9380dad5fdf1d0a9d9199ac43be74c6a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Assume that writes smaller than 4 bytes are to non-pagetable pages
-
-This allows us to remove write protection earlier than otherwise.  Should
-some mad OS choose to use byte writes to update pagetables, it will suffer
-a performance hit, but still work correctly.
-
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|1|Avi Kivity|avi@qumranet.com|2007-04-30 14:47:02+03:00|-10800|Avi Kivity|avi@qumranet.com|2007-07-16 12:05:38+03:00|-10800

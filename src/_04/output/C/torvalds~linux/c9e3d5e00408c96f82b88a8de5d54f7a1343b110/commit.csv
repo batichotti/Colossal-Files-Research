@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c9e3d5e00408c96f82b88a8de5d54f7a1343b110|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Use new header structures in l2cap_send_rr_or_rnr
-
-struct l2cap_ctrl is now used, and the sframe is now sent directly
-rather than depending on a separate call.
-
-Signed-off-by: Mat Martineau <mathewm@codeaurora.org>
-Signed-off-by: Gustavo Padovan <gustavo.padovan@collabora.co.uk>"|1|Mat Martineau|mathewm@codeaurora.org|2012-05-17 20:53:48-07:00|25200|Johan Hedberg|johan.hedberg@intel.com|2012-06-05 06:34:04+03:00|-10800

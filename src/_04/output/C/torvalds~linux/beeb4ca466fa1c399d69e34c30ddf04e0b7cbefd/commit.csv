@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|beeb4ca466fa1c399d69e34c30ddf04e0b7cbefd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: mediatek: mtk_cal_txd_req() returns bad value
-
-The code used to also support the PDMA engine, which had 2 packet pointers
-per descriptor. Because of this we had to divide the result by 2 and round
-it up. This is no longer needed as the code only supports QDMA.
-
-Signed-off-by: John Crispin <blogic@openwrt.org>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|John Crispin|blogic@openwrt.org|2016-04-08 00:54:05+02:00|-7200|David S. Miller|davem@davemloft.net|2016-04-12 22:41:32-04:00|14400

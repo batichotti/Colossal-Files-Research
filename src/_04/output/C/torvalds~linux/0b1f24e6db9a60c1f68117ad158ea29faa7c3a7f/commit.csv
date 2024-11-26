@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0b1f24e6db9a60c1f68117ad158ea29faa7c3a7f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"selinux: pull address family directly from the request_sock struct
-
-We don't need to inspect the packet to determine if the packet is an
-IPv4 packet arriving on an IPv6 socket when we can query the
-request_sock directly.
-
-Signed-off-by: Paul Moore <pmoore@redhat.com>"|1|Paul Moore|pmoore@redhat.com|2013-12-03 11:39:13-05:00|18000|Paul Moore|pmoore@redhat.com|2013-12-04 16:08:27-05:00|18000

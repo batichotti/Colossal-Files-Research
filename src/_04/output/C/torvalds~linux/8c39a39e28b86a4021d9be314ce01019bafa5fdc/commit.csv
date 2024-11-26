@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8c39a39e28b86a4021d9be314ce01019bafa5fdc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: Fix a credential refcount leak in nfs41_check_delegation_stateid
-
-It is unsafe to dereference delegation outside the rcu lock, and in
-any case, the refcount is guaranteed held if cred is non-zero.
-
-Signed-off-by: Trond Myklebust <trond.myklebust@hammerspace.com>"|1|Trond Myklebust|trond.myklebust@hammerspace.com|2019-07-19 13:48:44-04:00|14400|Trond Myklebust|trond.myklebust@hammerspace.com|2019-08-04 22:35:40-04:00|14400

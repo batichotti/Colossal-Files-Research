@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0b789eee2c0204da83278f181428560faf6efefb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: emulator: fix unimplemented instruction detection
-
-Unimplemented instruction detection is broken for group instructions
-since it relies on ""flags"" field of opcode to be zero, but all
-instructions in a group inherit flags from a group encoding. Fix that by
-having a separate flag for unimplemented instructions.
-
-Signed-off-by: Gleb Natapov <gleb@redhat.com>"|1|Gleb Natapov|gleb@redhat.com|2013-04-11 11:59:55+03:00|-10800|Gleb Natapov|gleb@redhat.com|2013-04-14 09:44:16+03:00|-10800

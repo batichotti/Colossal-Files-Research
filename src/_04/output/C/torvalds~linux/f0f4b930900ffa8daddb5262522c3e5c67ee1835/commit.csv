@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f0f4b930900ffa8daddb5262522c3e5c67ee1835|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Fix kvm_coalesced_mmio_ring duplicate allocation
-
-The commit 0953ca73 ""KVM: Simplify coalesced mmio initialization""
-allocate kvm_coalesced_mmio_ring in the kvm_coalesced_mmio_init(), but
-didn't discard the original allocation...
-
-Signed-off-by: Sheng Yang <sheng@linux.intel.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|1|Sheng Yang|sheng@linux.intel.com|2010-01-21 16:20:04+08:00|-28800|Marcelo Tosatti|mtosatti@redhat.com|2010-03-01 12:36:03-03:00|10800

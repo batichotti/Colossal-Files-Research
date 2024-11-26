@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|26ef379f53993b1da3c19b63257cd47e1d9cd672|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md: get_disk_info(): Don't convert between signed and unsigned and back.
-
-The current code copies a signed int from user space, converts it to
-unsigned and passes the unsigned value to find_rdev_nr() which expects
-a signed value. Simply pass the signed value from user space directly.
-
-Signed-off-by: Andre Noll <maan@systemlinux.org>
-Signed-off-by: Neil Brown <neilb@suse.de>"|1|Andre Noll|maan@systemlinux.org|2008-07-11 22:02:21+10:00|-36000|Neil Brown|neilb@suse.de|2008-07-11 22:02:21+10:00|-36000

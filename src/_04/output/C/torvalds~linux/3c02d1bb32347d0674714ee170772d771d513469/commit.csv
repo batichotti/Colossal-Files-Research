@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3c02d1bb32347d0674714ee170772d771d513469|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bnxt_en: Fix ethtool -a reporting.
-
-To report flow control tx/rx settings accurately regardless of autoneg
-setting, we should use link_info->req_flow_ctrl.  Before this patch,
-the reported settings were only correct when autoneg was on.
-
-Signed-off-by: Michael Chan <michael.chan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Michael Chan|michael.chan@broadcom.com|2016-03-28 19:46:07-04:00|14400|David S. Miller|davem@davemloft.net|2016-03-30 19:01:33-04:00|14400

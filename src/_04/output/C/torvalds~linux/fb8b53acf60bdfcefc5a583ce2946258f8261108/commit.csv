@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fb8b53acf60bdfcefc5a583ce2946258f8261108|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cfg80211: use ieee80211_bss_get_elem() instead of _get_ie()
-
-Use the structured helper for finding an element instead of
-the unstructured ieee80211_bss_get_ie().
-
-Link: https://lore.kernel.org/r/20210930131130.e94709f341c3.I4ddb7fcb40efca27987deda7f9a144a5702ebfae@changeid
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|4|Johannes Berg|johannes.berg@intel.com|2021-09-30 13:11:32+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2021-11-28 21:53:04+01:00|-3600

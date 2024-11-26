@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|56b84287d14aa74823a9c290d0c5839d38365110|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ath10k: add might_sleep() to ath10k_wmi_cmd_send()
-
-ath10k_wmi_cmd_send() will now sleep if there are no credits available.
-To make it easier to catch callers in atomic context add might_sleep()
-to the function.
-
-Signed-off-by: Kalle Valo <kvalo@qca.qualcomm.com>"|1|Kalle Valo|kvalo@qca.qualcomm.com|2013-10-16 15:44:47+03:00|-10800|Kalle Valo|kvalo@qca.qualcomm.com|2013-10-16 15:44:47+03:00|-10800

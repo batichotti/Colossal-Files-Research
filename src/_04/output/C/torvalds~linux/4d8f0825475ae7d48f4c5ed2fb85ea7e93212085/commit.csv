@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4d8f0825475ae7d48f4c5ed2fb85ea7e93212085|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"stmmac: modified pcs mode support for SGMII
-
-This patch modifies the pcs mode support for SGMII. Even though
-SGMII does auto-negotiation with phy, it needs stmmac_init_phy and
-stmmac_mdio_register function for initializing phy.
-
-Signed-off-by: Byungho An <bh74.an@samsung.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Byungho An|bh74.an@samsung.com|2013-04-07 17:56:16+00:00|0|David S. Miller|davem@davemloft.net|2013-04-08 16:55:27-04:00|14400

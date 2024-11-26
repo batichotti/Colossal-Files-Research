@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|137f9f46a4edf8a937ffe9e3dba498b5cfaa1e5b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: Don't scan if BSSID and channel are set manually
-
-If you set a fixed BSSID and channel it's not necessary to scan for
-neighbors to merge, because you really don't want to merge with it. So
-don't do it.
-
-Signed-off-by: Alina Friedrichsen <x-alina@gmx.net>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|1|Alina Friedrichsen|x-alina@gmx.net|2009-01-06 02:49:07+01:00|-3600|John W. Linville|linville@tuxdriver.com|2009-01-29 15:59:48-05:00|18000

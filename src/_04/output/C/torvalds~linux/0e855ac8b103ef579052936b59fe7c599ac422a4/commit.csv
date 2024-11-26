@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0e855ac8b103ef579052936b59fe7c599ac422a4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: Convert truncate_mutex to read write semaphore.
-
-We are currently taking the truncate_mutex for every read. This would have
-performance impact on large CPU configuration. Convert the lock to read write
-semaphore and take read lock when we are trying to read the file.
-
-Signed-off-by: Aneesh Kumar K.V <aneesh.kumar@linux.vnet.ibm.com>"|8|Aneesh Kumar K.V|aneesh.kumar@linux.vnet.ibm.com|2008-01-28 23:58:26-05:00|18000|Theodore Ts'o|tytso@mit.edu|2008-01-28 23:58:26-05:00|18000

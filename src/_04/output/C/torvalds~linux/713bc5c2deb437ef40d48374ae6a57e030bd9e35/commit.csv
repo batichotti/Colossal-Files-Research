@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|713bc5c2deb437ef40d48374ae6a57e030bd9e35|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md/raid5: ignore released_stripes check
-
-conf->released_stripes list isn't always related to where there are
-free stripes pending. Active stripes can be in the list too.
-And even free stripes were active very recently.
-
-Signed-off-by: Shaohua Li <shli@fb.com>
-Signed-off-by: NeilBrown <neilb@suse.de>"|1|Shaohua Li|shli@fb.com|2015-05-28 17:33:47-07:00|25200|NeilBrown|neilb@suse.de|2015-06-17 10:00:33+10:00|-36000

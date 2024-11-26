@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7d6727cfe5815816466b94db5180b8d3ef08fbb0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cxgb4: Disable SR-IOV support for PF4-7 for T5
-
-All T5 adapters will only support VFs on PF0-3 despite the ability of the
-hardware to support them on PF4-7.  This keeps our T4 and T5 adapters more
-similar which simplifies host driver software.
-
-Signed-off-by: Vipul Pandya <vipul@chelsio.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Santosh Rastapur|santosh@chelsio.com|2013-03-14 05:08:56+00:00|0|David S. Miller|davem@davemloft.net|2013-03-14 11:35:56-04:00|14400

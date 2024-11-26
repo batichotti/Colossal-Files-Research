@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|919e57c3147ce66ed0887168e622c5e7a8f04440|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cifs: Avoid a cast in add_lease_context()
-
-We have the correctly-typed struct smb2_create_req * available in the
-caller.
-
-Signed-off-by: Volker Lendecke <vl@samba.org>
-Reviewed-by Ralph Boehme <slow@samba.org>
-Signed-off-by: Steve French <stfrench@microsoft.com>"|1|Volker Lendecke|vl@samba.org|2023-03-17 11:15:22+00:00|0|Steve French|stfrench@microsoft.com|2023-04-23 21:16:57-05:00|18000

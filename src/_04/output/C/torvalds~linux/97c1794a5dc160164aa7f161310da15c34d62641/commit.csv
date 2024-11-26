@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|97c1794a5dc160164aa7f161310da15c34d62641|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: enable inline_dentry by default and add noinline_dentry option
-
-Make inline_dentry as default mount option to improve space usage and
-IO performance in scenario of numerous small directory.
-It adds noinline_dentry mount option, instead.
-
-Signed-off-by: Chao Yu <yuchao0@huawei.com>
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|2|Chao Yu|yuchao0@huawei.com|2016-05-09 19:56:34+08:00|-28800|Jaegeuk Kim|jaegeuk@kernel.org|2016-08-29 18:31:17-07:00|25200

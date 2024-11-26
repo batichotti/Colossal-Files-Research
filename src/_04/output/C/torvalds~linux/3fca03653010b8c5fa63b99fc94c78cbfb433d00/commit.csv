@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3fca03653010b8c5fa63b99fc94c78cbfb433d00|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: Avoid unnecessary vcpu_load()/vcpu_put() cycles
-
-By checking if a reschedule is needed, we avoid dropping the vcpu.
-
-[With changes by me, based on Anthony Liguori's observations]
-
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|1|Yaozu Dong|eddie.dong@intel.com|2007-04-25 16:49:19+03:00|-10800|Avi Kivity|avi@qumranet.com|2007-05-03 10:52:30+03:00|-10800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|dbe0fc4188ee568d6e26fe938a653f01e18d6f4e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libceph: format target object name in caller
-
-Move the formatting of the object name (oid) to use for an object
-request into the caller of calc_layout().  This makes the ""vino""
-parameter no longer necessary, so get rid of it.
-
-Signed-off-by: Alex Elder <elder@inktank.com>
-Reviewed-by: Josh Durgin <josh.durgin@inktank.com>"|1|Alex Elder|elder@inktank.com|2013-02-15 22:10:17-06:00|21600|Sage Weil|sage@inktank.com|2013-05-01 21:14:26-07:00|25200

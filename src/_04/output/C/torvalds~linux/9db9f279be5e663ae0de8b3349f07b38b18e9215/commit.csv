@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9db9f279be5e663ae0de8b3349f07b38b18e9215|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mISDN: Convert pci_table entries to PCI_VDEVICE (if PCI_ANY_ID is used)
-
-This patch converts pci_table entries, where .subvendor=PCI_ANY_ID and
-.subdevice=PCI_ANY_ID, .class=0 and .class_mask=0, to use the
-PCI_VDEVICE macro, and thus improves readability.
-
-Signed-off-by: Peter Huewe <peterhuewe@gmx.de>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Peter Huewe|peterhuewe@gmx.de|2010-07-15 09:05:38+00:00|0|David S. Miller|davem@davemloft.net|2010-07-15 19:05:23-07:00|25200

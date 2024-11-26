@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d197358b755b56bd12c01044b6373986590878f6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"iwlwifi: mvm: rename p2p-specific sta functions to include p2p in the names
-
-The iwl_mvm_add_bcast_sta() and the iwl_mvm_rm_bcast_sta() functions
-are only called in P2P flows.  Add _p2p_ to the function names to make
-this explicit.
-
-Signed-off-by: Luca Coelho <luciano.coelho@intel.com>"|3|Luca Coelho|luciano.coelho@intel.com|2017-06-22 16:00:25+03:00|-10800|Luca Coelho|luciano.coelho@intel.com|2017-08-01 12:41:45+03:00|-10800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1ca69c4bc4b1ef889861db39f325901eadbf9497|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md: avoid taking the mutex on some ioctls.
-
-Some ioctls don't need to take the mutex and doing so can cause
-a delay as it is held during super-block update.
-So move those ioctls out of the mutex and rely on rcu locking
-to ensure we don't access stale data.
-
-Signed-off-by: NeilBrown <neilb@suse.de>"|1|NeilBrown|neilb@suse.de|2012-10-11 13:37:33+11:00|-39600|NeilBrown|neilb@suse.de|2012-10-11 13:37:33+11:00|-39600

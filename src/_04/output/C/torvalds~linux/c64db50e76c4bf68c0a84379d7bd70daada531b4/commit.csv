@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c64db50e76c4bf68c0a84379d7bd70daada531b4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: remove the I_VERSION mount flag and use the super_block flag instead
-
-There's no point to have two bits that are set in parallel; so use the
-MS_I_VERSION flag that is needed by the VFS anyway, and that way we
-free up a bit in sbi->s_mount_opts.
-
-Signed-off-by: ""Theodore Ts'o"" <tytso@mit.edu>"|3|Theodore Ts'o|tytso@mit.edu|2012-03-02 12:23:11-05:00|18000|Theodore Ts'o|tytso@mit.edu|2012-03-02 12:23:11-05:00|18000

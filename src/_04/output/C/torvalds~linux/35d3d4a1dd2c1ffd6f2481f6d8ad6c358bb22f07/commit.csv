@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|35d3d4a1dd2c1ffd6f2481f6d8ad6c358bb22f07|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86 emulator: simplify exception generation
-
-Immediately after we generate an exception, we want a X86EMUL_PROPAGATE_FAULT
-constant, so return it from the generation functions.
-
-Signed-off-by: Avi Kivity <avi@redhat.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|1|Avi Kivity|avi@redhat.com|2010-11-22 17:53:25+02:00|-7200|Avi Kivity|avi@redhat.com|2011-01-12 11:29:58+02:00|-7200

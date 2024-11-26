@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|eb53a3ea3e009578a388f106620b22b1707cf2f6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: hpsa: limit transfer length to 1MB, not 512kB
-
-e2c7b43 was supposed to limit transfer length to 1MB, but got the unit of
-max_sectors wrong.
-
-Fixes: e2c7b433f729 (""scsi: hpsa: limit transfer length to 1MB"")
-Signed-off-by: Martin Wilck <mwilck@suse.com>
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|1|Martin Wilck|mwilck@suse.com|2018-08-22 13:25:44+02:00|-7200|Martin K. Petersen|martin.petersen@oracle.com|2018-08-27 12:26:10-04:00|14400

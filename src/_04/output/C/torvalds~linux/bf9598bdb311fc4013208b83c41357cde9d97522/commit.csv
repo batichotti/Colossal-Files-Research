@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bf9598bdb311fc4013208b83c41357cde9d97522|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: lpfc: lpfc_els: Mark expected switch fall-throughs
-
-In preparation to enabling -Wimplicit-fallthrough, mark switch cases
-where we are expecting to fall through.
-
-Addresses-Coverity-ID: 114978 (""Missing break in switch"")
-Reviewed-by: Kees Cook <keescook@chromium.org>
-Signed-off-by: Gustavo A. R. Silva <gustavo@embeddedor.com>"|1|Gustavo A. R. Silva|gustavo@embeddedor.com|2018-11-26 13:23:34-06:00|21600|Gustavo A. R. Silva|gustavo@embeddedor.com|2019-04-08 18:37:47-05:00|18000

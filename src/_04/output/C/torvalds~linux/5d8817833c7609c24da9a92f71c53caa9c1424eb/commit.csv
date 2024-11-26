@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5d8817833c7609c24da9a92f71c53caa9c1424eb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"MD: fix null pointer deference
-
-The md device might not have personality (for example, ddf raid array). The
-issue is introduced by 8430e7e0af9a15(md: disconnect device from personality
-before trying to remove it)
-
-Reported-by: kernel test robot <xiaolong.ye@intel.com>
-Signed-off-by: Shaohua Li <shli@fb.com>"|1|Shaohua Li|shli@fb.com|2016-07-28 09:06:34-07:00|25200|Shaohua Li|shli@fb.com|2016-07-28 09:06:34-07:00|25200

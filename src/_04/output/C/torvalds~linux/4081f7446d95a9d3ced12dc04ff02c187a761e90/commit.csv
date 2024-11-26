@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4081f7446d95a9d3ced12dc04ff02c187a761e90|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mm/swap: convert put_swap_page() to put_swap_folio()
-
-With all callers now using a folio, we can convert this function.
-
-Link: https://lkml.kernel.org/r/20220902194653.1739778-14-willy@infradead.org
-Signed-off-by: Matthew Wilcox (Oracle) <willy@infradead.org>
-Signed-off-by: Andrew Morton <akpm@linux-foundation.org>"|6|Matthew Wilcox (Oracle)|willy@infradead.org|2022-09-02 20:46:09+01:00|-3600|Andrew Morton|akpm@linux-foundation.org|2022-10-03 14:02:46-07:00|25200

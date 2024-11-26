@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d1a7c50369835f9ecbd7752016cd9302ecfae678|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md: don't display meaningless values in sysfs files resync_start and sync_speed
-
-When no resync if happening, both of these files currently have
-meaningless values (is slightly different ways).
-Change them to ""none"" in that case.
-
-Signed-off-by: NeilBrown <neilb@suse.de>"|1|NeilBrown|neilb@suse.de|2009-03-31 15:24:32+11:00|-39600|NeilBrown|neilb@suse.de|2009-03-31 15:24:32+11:00|-39600

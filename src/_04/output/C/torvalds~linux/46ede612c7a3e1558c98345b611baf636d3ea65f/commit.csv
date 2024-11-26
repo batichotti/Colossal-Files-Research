@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|46ede612c7a3e1558c98345b611baf636d3ea65f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rtnetlink: Do not generate notification for UDP_TUNNEL_PUSH_INFO
-
-NETDEV_UDP_TUNNEL_PUSH_INFO is an internal notifier; nothing userspace
-can do so don't generate a netlink notification.
-
-Signed-off-by: David Ahern <dsa@cumulusnetworks.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|David Ahern|dsa@cumulusnetworks.com|2017-04-11 17:02:41-07:00|25200|David S. Miller|davem@davemloft.net|2017-04-13 13:16:33-04:00|14400

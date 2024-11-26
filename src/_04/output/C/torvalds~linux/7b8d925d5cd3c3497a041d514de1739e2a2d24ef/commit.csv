@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7b8d925d5cd3c3497a041d514de1739e2a2d24ef|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/amdgpu/gfx9: fix driver reload with KIQ
-
-Drop the KCQ disabling via KIQ.  We disable the MEC shortly
-after anyway, so there is no need to wait for all of this.
-Doing so seems to leave the MEC in a bad way.
-
-Acked-by: Christian König <christian.koenig@amd.com>
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|1|Alex Deucher|alexander.deucher@amd.com|2017-07-04 01:57:33-04:00|14400|Alex Deucher|alexander.deucher@amd.com|2017-07-04 10:22:26-04:00|14400

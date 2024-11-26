@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|de70d279709efb7d0b0c0dce2eb398fc43c4b7f6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: nVMX: Update vmcs12 for SYSENTER MSRs when they're written
-
-For L2, KVM always intercepts WRMSR to SYSENTER MSRs.  Update vmcs12 in
-the WRMSR handler so that they don't need to be (re)read from vmcs02 on
-every nested VM-Exit.
-
-Signed-off-by: Sean Christopherson <sean.j.christopherson@intel.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|2|Sean Christopherson|sean.j.christopherson@intel.com|2019-05-07 09:06:36-07:00|25200|Paolo Bonzini|pbonzini@redhat.com|2019-06-18 11:47:37+02:00|-7200

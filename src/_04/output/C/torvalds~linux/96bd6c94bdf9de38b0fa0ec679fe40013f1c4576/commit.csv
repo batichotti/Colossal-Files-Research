@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|96bd6c94bdf9de38b0fa0ec679fe40013f1c4576|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"s390/qeth: add BQL support for IQD devices
-
-Each TX buffer may contain multiple skbs. So just accumulate the sent
-byte count in the buffer struct, and later use the same count when
-completing the buffer.
-
-Signed-off-by: Julian Wiedmann <jwi@linux.ibm.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Julian Wiedmann|jwi@linux.ibm.com|2019-08-23 11:48:52+02:00|-7200|David S. Miller|davem@davemloft.net|2019-08-24 16:39:19-07:00|25200

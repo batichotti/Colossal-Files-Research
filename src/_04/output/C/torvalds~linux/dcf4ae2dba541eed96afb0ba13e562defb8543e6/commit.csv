@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|dcf4ae2dba541eed96afb0ba13e562defb8543e6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"qeth: change some configurations defaults
-
-This patch turns on RX checksum and GRO by default. To improve
-receiving performance and reduce congestion in case of network
-bursts we also increase the default number of inbound buffers.
-
-Signed-off-by: Frank Blaschka <frank.blaschka@de.ibm.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|Frank Blaschka|frank.blaschka@de.ibm.com|2011-03-14 15:39:47-07:00|25200|David S. Miller|davem@davemloft.net|2011-03-14 15:39:47-07:00|25200

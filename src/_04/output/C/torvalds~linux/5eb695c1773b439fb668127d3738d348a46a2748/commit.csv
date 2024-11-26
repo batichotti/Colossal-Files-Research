@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5eb695c1773b439fb668127d3738d348a46a2748|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"RDMA/cma: Only call cma_save_ib_info() for CM REQs
-
-Calling cma_save_ib_info() for CM SIDR REQs results in a crash
-accessing an invalid path record pointer.
-
-Signed-off-by: Sean Hefty <sean.hefty@intel.com>
-Signed-off-by: Roland Dreier <roland@purestorage.com>"|1|Sean Hefty|sean.hefty@intel.com|2013-07-24 15:06:09-07:00|25200|Roland Dreier|roland@purestorage.com|2013-07-31 00:50:44-07:00|25200

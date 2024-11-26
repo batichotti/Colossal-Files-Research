@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e73e679f656e678b0e7f8961094201f3544f4541|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"fgraph: Move function graph specific code into fgraph.c
-
-To make the function graph infrastructure more managable, the code needs to
-be in its own file (fgraph.c). Move the code that is specific for managing
-the function graph infrastructure out of ftrace.c and into fgraph.c
-
-Reviewed-by: Joel Fernandes (Google) <joel@joelfernandes.org>
-Signed-off-by: Steven Rostedt (VMware) <rostedt@goodmis.org>"|2|Steven Rostedt (VMware)|rostedt@goodmis.org|2018-11-15 12:35:13-05:00|18000|Steven Rostedt (VMware)|rostedt@goodmis.org|2018-12-08 20:54:06-05:00|18000

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1cefa326ff26dddb2c4a7f43802ce0ba5c35a2ba|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net/mlx5e: Disable async events before unregister_netdev()
-
-It does not make sense to allow events while the netdev is
-unregistered.
-
-Signed-off-by: Achiad Shochat <achiad@mellanox.com>
-Signed-off-by: Amir Vadai <amirv@mellanox.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Achiad Shochat|achiad@mellanox.com|2015-08-04 14:05:45+03:00|-10800|David S. Miller|davem@davemloft.net|2015-08-06 22:00:58-07:00|25200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3c95e5013b7f204a03757691367857b7b668163a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8169: improve DMA handling in rtl_rx
-
-Move the call to dma_sync_single_for_cpu after calling napi_alloc_skb.
-This avoids calling dma_sync_single_for_cpu w/o handing control back
-to device if the memory allocation should fail.
-
-Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Heiner Kallweit|hkallweit1@gmail.com|2019-08-26 22:52:36+02:00|-7200|David S. Miller|davem@davemloft.net|2019-08-26 14:33:28-07:00|25200

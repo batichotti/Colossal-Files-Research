@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c81c8ee445e84703cd90171365ed596ef94399cc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tools/power turbostat: Remove anonymous union from rapl_counter_info_t
-
-fd_perf field used to be part of the union, but later moved out of it,
-because we test it with fd_perf != -1 to determine if any perf counter
-is opened, making the union unused.
-
-Signed-off-by: Patryk Wlazlyn <patryk.wlazlyn@linux.intel.com>
-Signed-off-by: Len Brown <len.brown@intel.com>"|1|Patryk Wlazlyn|patryk.wlazlyn@linux.intel.com|2024-05-24 12:06:39+02:00|-7200|Len Brown|len.brown@intel.com|2024-06-28 00:04:33-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|484004339d4514fde425f6e8a9f6a6cc979bb0c3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211_hwsim: require at least one channel
-
-Syzbot continues to try to create mac80211_hwsim radios, and
-manages to pass parameters that are later checked with WARN_ON
-in cfg80211 - catch another one in hwsim directly.
-
-Reported-by: syzbot+2a12f11c306afe871c1f@syzkaller.appspotmail.com
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2018-08-15 18:17:03+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2018-08-15 18:17:03+02:00|-7200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7223a93a5321f84337647aef62ef947afd8df41a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[IA64] Export node_online_map and node_possible_map
-
-Export node_online_map and node_possible_map so that kernel modules can use
-the nodemask macros, like, for_each_node() and for_each_online_node().
-
-Signed-off-by: Dean Nelson <dcn@sgi.com>
-Signed-off-by: Tony Luck <tony.luck@intel.com>"|1|Dean Nelson|dcn@sgi.com|2005-03-23 19:00:00-07:00|25200|Tony Luck|tony.luck@intel.com|2005-05-03 12:09:32-07:00|25200

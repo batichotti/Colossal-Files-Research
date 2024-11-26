@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4ac6875eeb97a49bad7bc8d56b5ec935904fc6e7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md/raid5: round discard alignment up to power of 2.
-
-blkdev_issue_discard currently assumes that the granularity
-is a power of 2.  So in raid5, round the chosen number up to
-avoid embarrassment.
-
-Cc: Shaohua Li <shli@kernel.org>
-Signed-off-by: NeilBrown <neilb@suse.de>"|1|NeilBrown|neilb@suse.de|2012-11-19 13:11:26+11:00|-39600|NeilBrown|neilb@suse.de|2012-11-20 19:42:56+11:00|-39600

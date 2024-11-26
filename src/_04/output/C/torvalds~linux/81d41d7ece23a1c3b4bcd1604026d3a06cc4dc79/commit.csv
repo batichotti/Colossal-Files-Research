@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|81d41d7ece23a1c3b4bcd1604026d3a06cc4dc79|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sched: fix defined-but-unused warning
-
-Fix this warning, which appears with !CONFIG_SMP:
-kernel/sched.c:1216: warning: `init_hrtick' defined but not used
-
-Signed-off-by: Rabin Vincent <rabin@rab.in>
-Signed-off-by: Ingo Molnar <mingo@elte.hu>
-Signed-off-by: Thomas Gleixner <tglx@linutronix.de>"|1|Rabin Vincent|rabin@rab.in|2008-05-11 05:55:33+05:30|-19800|Ingo Molnar|mingo@elte.hu|2008-06-06 15:19:34+02:00|-7200

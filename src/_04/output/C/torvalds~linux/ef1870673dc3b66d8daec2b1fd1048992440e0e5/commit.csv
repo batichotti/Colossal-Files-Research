@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ef1870673dc3b66d8daec2b1fd1048992440e0e5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Set wlvif->ps_compl to NULL in before return
-
-wl1271_configure_suspend_sta leaves a stale stack declared
-completion in wlvif->ps_compl. Set it to NULL before returning.
-
-Signed-off-by: Pontus Fuchs <pontus.fuchs@gmail.com>
-[small fix to use wlvif->ps_compl instead of wl->ps_compl]
-Signed-off-by: Luciano Coelho <coelho@ti.com>"|1|Pontus Fuchs|pontus.fuchs@gmail.com|2011-12-14 14:32:23+01:00|-3600|Luciano Coelho|coelho@ti.com|2011-12-15 10:19:46+02:00|-7200

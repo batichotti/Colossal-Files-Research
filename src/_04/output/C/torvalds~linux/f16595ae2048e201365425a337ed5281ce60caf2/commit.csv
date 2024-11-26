@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f16595ae2048e201365425a337ed5281ce60caf2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[media] atomisp2: remove HRT_UNSCHED
-
-HRT_UNSCHED is never defined or set in the driver, so this is dead code that
-can be retired, simplifying the code a bit further.
-
-Signed-off-by: Alan Cox <alan@linux.intel.com>
-Signed-off-by: Hans Verkuil <hans.verkuil@cisco.com>
-Signed-off-by: Mauro Carvalho Chehab <mchehab@s-opensource.com>"|4|Alan Cox|alan@llwyncelyn.cymru|2017-05-26 12:27:40-03:00|10800|Mauro Carvalho Chehab|mchehab@s-opensource.com|2017-06-07 12:40:58-03:00|10800

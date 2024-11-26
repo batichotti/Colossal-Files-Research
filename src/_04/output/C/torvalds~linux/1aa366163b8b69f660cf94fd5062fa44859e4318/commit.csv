@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1aa366163b8b69f660cf94fd5062fa44859e4318|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86 emulator: consolidate segment accessors
-
-Instead of separate accessors for the segment selector and cached descriptor,
-use one accessor for both.  This simplifies the code somewhat.
-
-Signed-off-by: Avi Kivity <avi@redhat.com>"|3|Avi Kivity|avi@redhat.com|2011-04-27 13:20:30+03:00|-10800|Avi Kivity|avi@redhat.com|2011-05-22 08:47:39-04:00|14400

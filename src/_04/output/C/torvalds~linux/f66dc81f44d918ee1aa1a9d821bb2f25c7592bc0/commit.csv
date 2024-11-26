@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f66dc81f44d918ee1aa1a9d821bb2f25c7592bc0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Add support for deferring L2CAP connection setup
-
-In order to decide if listening L2CAP sockets should be accept()ed
-the BD_ADDR of the remote device needs to be known. This patch adds
-a socket option which defines a timeout for deferring the actual
-connection setup.
-
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|1|Marcel Holtmann|marcel@holtmann.org|2009-01-15 21:57:00+01:00|-3600|Marcel Holtmann|marcel@holtmann.org|2009-02-27 06:14:24+01:00|-3600

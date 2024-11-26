@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|45bb4bf08b9c16122af84d3f26a018c8022b24e5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[Bluetooth]: Workaround for inquiry results with RSSI and page scan mode
-
-This patch implements a workaround for buggy Bluetooth 1.2 devices from
-Silicon Wave. Their inquiry results with RSSI contain the page scan mode
-field. This field was removed in the final Bluetooth 1.2 specification.
-
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Marcel Holtmann|marcel@holtmann.org|2005-08-09 20:27:49-07:00|25200|David S. Miller|davem@sunset.davemloft.net|2005-08-29 15:54:47-07:00|25200

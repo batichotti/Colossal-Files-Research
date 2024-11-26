@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|abb9efc70988087a7ea04c90112657e68e8894a8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"igb: fix TDBAL register show incorrect value
-
-Fixed a typo which caused the registers dump function to read the
-RDBAL register when printing TDBAL register values.
-
-Signed-off-by: Gal Hammer <ghammer@redhat.com>
-Tested-by: David Switzer <david.switzer@intel.com>
-Signed-off-by: Tony Nguyen <anthony.l.nguyen@intel.com>"|1|Gal Hammer|ghammer@redhat.com|2021-01-06 11:28:26+02:00|-7200|Tony Nguyen|anthony.l.nguyen@intel.com|2021-02-03 16:32:17-08:00|28800

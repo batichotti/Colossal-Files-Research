@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4ed20bebf51578229a1986efcf46344075ec8447|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cfg80211: remove ""channel"" from survey names
-
-All of the survey data is (currently) per channel anyway,
-so having the word ""channel"" in the name does nothing. In
-the next patch I'll introduce global data to the survey,
-where the word ""channel"" is actually confusing.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|16|Johannes Berg|johannes.berg@intel.com|2014-11-14 16:35:34+01:00|-3600|Johannes Berg|johannes.berg@intel.com|2015-01-08 15:27:52+01:00|-3600

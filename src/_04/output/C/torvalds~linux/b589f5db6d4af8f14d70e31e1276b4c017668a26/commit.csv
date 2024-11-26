@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b589f5db6d4af8f14d70e31e1276b4c017668a26|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ksmbd: limits exceeding the maximum allowable outstanding requests
-
-If the client ignores the CreditResponse received from the server and
-continues to send the request, ksmbd limits the requests if it exceeds
-smb2 max credits.
-
-Signed-off-by: Namjae Jeon <linkinjeon@kernel.org>
-Signed-off-by: Steve French <stfrench@microsoft.com>"|4|Namjae Jeon|linkinjeon@kernel.org|2021-12-31 09:26:25+09:00|-32400|Steve French|stfrench@microsoft.com|2022-01-10 12:44:19-06:00|21600

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|854ccbaee7e48734936690a3fd4817c57e98aaad|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"regulator: core: Add checking set_mode callback in regulator_set_optimum_mode
-
-regulator_set_optimum_mode needs set_mode to properly work.
-Add checking for set_mode callback in case it may be not implemented.
-
-Signed-off-by: Axel Lin <axel.lin@gmail.com>
-Signed-off-by: Mark Brown <broonie@opensource.wolfsonmicro.com>"|1|Axel Lin|axel.lin@gmail.com|2012-04-16 18:44:23+08:00|-28800|Mark Brown|broonie@opensource.wolfsonmicro.com|2012-04-16 19:55:08+01:00|-3600

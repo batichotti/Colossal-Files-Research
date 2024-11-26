@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d10d0e5707fb7b8afa7e68a14d69e752604ee294|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"b43: Fix some MAC locking
-
-This fixes some locking w.r.t. the lower MAC (firmware).
-It also removes a lot of ancient IRQ-locking that's not needed anymore.
-We simply suspend the MAC. That's easier and causes less trouble.
-
-Signed-off-by: Michael Buesch <mb@bu3sch.de>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|3|Michael Buesch|mb@bu3sch.de|2008-12-18 22:13:39+01:00|-3600|John W. Linville|linville@tuxdriver.com|2008-12-19 15:23:56-05:00|18000

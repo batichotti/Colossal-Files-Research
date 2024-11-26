@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|da3cec2515f0094796679876ba17ba359331dbf6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mpt3sas: Remove cpumask_clear for zalloc_cpumask_var and don't free free_cpu_mask_var before reply_q
-
-Removed cpumask_clear as it is not required for zalloc_cpumask_var and
-free free_cpumask_var before freeing reply_q.
-
-Signed-off-by: Suganath prabu Subramani <suganath-prabu.subramani@broadcom.com>
-Signed-off-by: Chaitra P B <chaitra.basappa@broadcom.com>
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|1|Suganath prabu Subramani|suganath-prabu.subramani@broadcom.com|2016-02-11 15:02:55+05:30|-19800|Martin K. Petersen|martin.petersen@oracle.com|2016-02-23 21:27:02-05:00|18000

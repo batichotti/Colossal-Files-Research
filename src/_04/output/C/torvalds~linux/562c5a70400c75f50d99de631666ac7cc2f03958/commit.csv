@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|562c5a70400c75f50d99de631666ac7cc2f03958|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: mediatek: add missing return code check
-
-The code fails to check if the scratch memory was properly allocated. Add
-this check and return with an error if the allocation failed.
-
-Signed-off-by: John Crispin <john@phrozen.org>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|John Crispin|john@phrozen.org|2016-06-10 13:27:58+02:00|-7200|David S. Miller|davem@davemloft.net|2016-06-10 23:29:28-07:00|25200

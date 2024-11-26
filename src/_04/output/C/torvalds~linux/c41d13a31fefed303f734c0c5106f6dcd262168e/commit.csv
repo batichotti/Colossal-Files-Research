@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c41d13a31fefed303f734c0c5106f6dcd262168e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rbd: use header_oid instead of header_name
-
-Switch to ceph_object_id and use ceph_oid_aprintf() instead of a bare
-const char *.  This reduces noise in rbd_dev_header_name().
-
-Signed-off-by: Ilya Dryomov <idryomov@gmail.com>"|1|Ilya Dryomov|idryomov@gmail.com|2016-04-29 20:01:25+02:00|-7200|Ilya Dryomov|idryomov@gmail.com|2016-05-26 00:36:22+02:00|-7200

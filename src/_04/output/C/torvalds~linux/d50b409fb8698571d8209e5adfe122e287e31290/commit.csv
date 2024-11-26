@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d50b409fb8698571d8209e5adfe122e287e31290|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libceph: initialize msgpool message types
-
-Initialize the type field for messages in a msgpool.  The caller was doing
-this for osd ops, but not for the reply messages.
-
-Reported-by: Alex Elder <elder@inktank.com>
-Signed-off-by: Sage Weil <sage@inktank.com>"|3|Sage Weil|sage@inktank.com|2012-07-09 14:22:34-07:00|25200|Sage Weil|sage@inktank.com|2012-07-30 09:29:50-07:00|25200

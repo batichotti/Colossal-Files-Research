@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e85d28f8e8cef09b8e424448ccedb7244cfbf147|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86 emulator: don't update vcpu state if instruction is restarted
-
-No need to update vcpu state since instruction is in the middle of the
-emulation.
-
-Signed-off-by: Gleb Natapov <gleb@redhat.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|1|Gleb Natapov|gleb@redhat.com|2010-07-29 15:11:52+03:00|-10800|Avi Kivity|avi@redhat.com|2010-10-24 10:50:27+02:00|-7200

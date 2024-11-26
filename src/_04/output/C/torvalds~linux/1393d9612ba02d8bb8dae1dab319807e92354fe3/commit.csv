@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1393d9612ba02d8bb8dae1dab319807e92354fe3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: Fix a race when updating an open_stateid
-
-If we're replacing an old stateid which has a different 'other' field,
-then we probably need to free the old stateid.
-
-Signed-off-by: Trond Myklebust <trond.myklebust@primarydata.com>
-Tested-by: Oleg Drokin <green@linuxhacker.ru>
-Signed-off-by: Anna Schumaker <Anna.Schumaker@Netapp.com>"|1|Trond Myklebust|trond.myklebust@primarydata.com|2016-09-22 13:39:13-04:00|14400|Anna Schumaker|Anna.Schumaker@Netapp.com|2016-09-27 14:35:00-04:00|14400

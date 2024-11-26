@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|38e2a644174e74f948ec4415ae5b5c76f1412b0e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ath10k: fixup wait_for_completion_timeout return handling
-
-wait_for_completion_timeout does not return negative values so the tests
-for <= 0 are not needed and the case differentiation in the error handling
-path unnecessary.
-
-Signed-off-by: Nicholas Mc Guire <der.herr@hofr.at>
-Signed-off-by: Kalle Valo <kvalo@qca.qualcomm.com>"|4|Nicholas Mc Guire|der.herr@hofr.at|2015-01-08 13:27:34+01:00|-3600|Kalle Valo|kvalo@qca.qualcomm.com|2015-01-13 16:19:59+02:00|-7200

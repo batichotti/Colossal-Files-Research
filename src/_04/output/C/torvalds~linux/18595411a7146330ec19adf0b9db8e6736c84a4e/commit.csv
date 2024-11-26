@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|18595411a7146330ec19adf0b9db8e6736c84a4e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: do not kfree error pointer
-
-We should avoid kfree()ing error pointer in kvm_vcpu_ioctl() and
-kvm_arch_vcpu_ioctl().
-
-Signed-off-by: Guo Chao <yan@linux.vnet.ibm.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|2|Guo Chao|yan@linux.vnet.ibm.com|2012-11-02 18:33:21+08:00|-28800|Marcelo Tosatti|mtosatti@redhat.com|2012-11-13 22:14:28-02:00|7200

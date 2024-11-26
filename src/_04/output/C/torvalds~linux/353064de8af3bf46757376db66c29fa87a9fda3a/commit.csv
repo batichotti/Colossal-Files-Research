@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|353064de8af3bf46757376db66c29fa87a9fda3a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"e1000e: remove unnecessary reads of PCI_CAP_ID_EXP
-
-The PCIE capability offset is saved during PCI bus walking.  It will
-remove an unnecessary search in the PCI configuration space if this
-value is referenced instead of reacquiring it.
-
-Signed-off-by: Jon Mason <jdmason@kudzu.us>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Jon Mason|jdmason@kudzu.us|2011-06-27 07:43:47+00:00|0|David S. Miller|davem@davemloft.net|2011-06-27 21:40:44-07:00|25200

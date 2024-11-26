@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7dec5603b6b8dc4c3e1c65d318bd2a5a8c62a424|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: bit-ops emulation ignores offset on 64-bit
-
-The current emulation of bit operations ignores the offset from the destination
-on 64-bit target memory operands. This patch fixes this behavior.
-
-Signed-off-by: Nadav Amit <namit@cs.technion.ac.il>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Nadav Amit|namit@cs.technion.ac.il|2014-06-15 16:12:57+03:00|-10800|Paolo Bonzini|pbonzini@redhat.com|2014-06-19 12:52:08+02:00|-7200

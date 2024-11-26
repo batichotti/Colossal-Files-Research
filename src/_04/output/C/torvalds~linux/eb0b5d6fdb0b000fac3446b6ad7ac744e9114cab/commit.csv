@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|eb0b5d6fdb0b000fac3446b6ad7ac744e9114cab|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Revert ""drm/[radeon|amdgpu]: Replace one-element array and use struct_size() helper""
-
-This reverts commit 4541ea81edde6ce9a1d9be082489aca7e8e7e1dc.
-
-This changes structs used by the hardware and breaks dpm on some cards.
-
-Acked-by: Christian König <christian.koenig@amd.com>
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|3|Alex Deucher|alexander.deucher@amd.com|2020-06-02 15:08:39-04:00|14400|Alex Deucher|alexander.deucher@amd.com|2020-07-01 01:59:16-04:00|14400

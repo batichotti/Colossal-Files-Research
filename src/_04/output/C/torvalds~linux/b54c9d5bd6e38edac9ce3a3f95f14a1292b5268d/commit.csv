@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b54c9d5bd6e38edac9ce3a3f95f14a1292b5268d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: Use skb_frag_off accessors
-
-Use accessor functions for skb fragment's page_offset instead
-of direct references, in preparation for bvec conversion.
-
-Signed-off-by: Jonathan Lemon <jonathan.lemon@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|44|Jonathan Lemon|jonathan.lemon@gmail.com|2019-07-30 07:40:33-07:00|25200|David S. Miller|davem@davemloft.net|2019-07-30 14:21:32-07:00|25200

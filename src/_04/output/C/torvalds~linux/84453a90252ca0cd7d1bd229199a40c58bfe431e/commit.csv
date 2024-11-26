@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|84453a90252ca0cd7d1bd229199a40c58bfe431e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_flow_table: track flow tables in nf_flow_table directly
-
-Avoids having nf_flow_table depend on nftables (useful for future
-iptables backport work)
-
-Signed-off-by: Felix Fietkau <nbd@nbd.name>
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|4|Felix Fietkau|nbd@nbd.name|2018-02-26 10:15:19+01:00|-3600|Pablo Neira Ayuso|pablo@netfilter.org|2018-04-24 10:28:50+02:00|-7200

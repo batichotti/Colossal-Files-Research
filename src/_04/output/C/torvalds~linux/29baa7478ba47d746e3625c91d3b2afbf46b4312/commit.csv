@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|29baa7478ba47d746e3625c91d3b2afbf46b4312|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sched: Move nr_cpus_allowed out of 'struct sched_rt_entity'
-
-Since nr_cpus_allowed is used outside of sched/rt.c and wants to be
-used outside of there more, move it to a more natural site.
-
-Signed-off-by: Peter Zijlstra <a.p.zijlstra@chello.nl>
-Link: http://lkml.kernel.org/n/tip-kr61f02y9brwzkh6x53pdptm@git.kernel.org
-Signed-off-by: Ingo Molnar <mingo@kernel.org>"|6|Peter Zijlstra|a.p.zijlstra@chello.nl|2012-04-23 12:11:21+02:00|-7200|Ingo Molnar|mingo@kernel.org|2012-05-30 14:02:25+02:00|-7200

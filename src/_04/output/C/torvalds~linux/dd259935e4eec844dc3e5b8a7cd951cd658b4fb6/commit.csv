@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|dd259935e4eec844dc3e5b8a7cd951cd658b4fb6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"kvm: x86: move MSR_IA32_TSC handling to x86.c
-
-This is not specific to Intel/AMD anymore.  The TSC offset is available
-in vcpu->arch.tsc_offset.
-
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|3|Paolo Bonzini|pbonzini@redhat.com|2018-04-13 11:38:35+02:00|-7200|Paolo Bonzini|pbonzini@redhat.com|2018-04-16 17:50:22+02:00|-7200

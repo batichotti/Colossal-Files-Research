@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7973bfd8758d05c85ee32052a3d7d5d0549e91b4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rtnetlink: remove check for IFLA_IF_NETNSID
-
-RTM_NEWLINK supports the IFLA_IF_NETNSID property since
-5bb8ed075428b71492734af66230aa0c07fcc515 so we should not error out
-when it is passed.
-
-Signed-off-by: Christian Brauner <christian.brauner@ubuntu.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Christian Brauner|christian.brauner@ubuntu.com|2018-02-01 12:56:00+01:00|-3600|David S. Miller|davem@davemloft.net|2018-02-01 10:09:50-05:00|18000

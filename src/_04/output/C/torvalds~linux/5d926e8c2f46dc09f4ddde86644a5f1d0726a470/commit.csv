@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5d926e8c2f46dc09f4ddde86644a5f1d0726a470|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd4: modify fi_delegations under recall_lock
-
-Modify fi_delegations only under the recall_lock, allowing us to use
-that list on lease breaks.
-
-Also some trivial cleanup to simplify later changes.
-
-Signed-off-by: J. Bruce Fields <bfields@redhat.com>"|1|J. Bruce Fields|bfields@redhat.com|2011-02-07 16:53:46-05:00|18000|J. Bruce Fields|bfields@redhat.com|2011-02-14 10:35:19-05:00|18000

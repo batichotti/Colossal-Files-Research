@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d72cf62438d67b911212f8d4cf65d6167c1541ba|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sched/balancing: Fix a couple of outdated function names in comments
-
-The 'idle_balance()' function hasn't existed for years, and there's no
-load_balance_newidle() either - both are sched_balance_newidle() today.
-
-Reported-by: Honglei Wang <jameshongleiwang@126.com>
-Signed-off-by: Ingo Molnar <mingo@kernel.org>
-Link: https://lore.kernel.org/r/ZfAwNufbiyt/5biu@gmail.com"|2|Ingo Molnar|mingo@kernel.org|2024-03-12 11:33:50+01:00|-3600|Ingo Molnar|mingo@kernel.org|2024-03-12 12:00:01+01:00|-3600

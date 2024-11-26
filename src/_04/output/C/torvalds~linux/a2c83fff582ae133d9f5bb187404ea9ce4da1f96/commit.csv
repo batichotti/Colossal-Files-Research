@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a2c83fff582ae133d9f5bb187404ea9ce4da1f96|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ebpf: constify various function pointer structs
-
-We can move bpf_map_ops and bpf_verifier_ops and other structs into ro
-section, bpf_map_type_list and bpf_prog_type_list into read mostly.
-
-Signed-off-by: Daniel Borkmann <daniel@iogearbox.net>
-Acked-by: Alexei Starovoitov <ast@plumgrid.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|5|Daniel Borkmann|daniel@iogearbox.net|2015-03-01 12:31:42+01:00|-3600|David S. Miller|davem@davemloft.net|2015-03-01 14:05:18-05:00|18000

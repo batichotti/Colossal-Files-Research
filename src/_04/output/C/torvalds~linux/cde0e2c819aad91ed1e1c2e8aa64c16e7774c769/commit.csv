@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cde0e2c819aad91ed1e1c2e8aa64c16e7774c769|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[CRYPTO] tcrypt: Use asynchronous hash interface
-
-This patch changes tcrypt to use the new asynchronous hash interface
-for testing hash algorithm correctness.  The speed tests will continue
-to use the existing interface for now.
-
-Signed-off-by: Loc Ho <lho@amcc.com>
-Signed-off-by: Herbert Xu <herbert@gondor.apana.org.au>"|1|Loc Ho|lho@amcc.com|2008-05-14 21:24:51+08:00|-28800|Herbert Xu|herbert@gondor.apana.org.au|2008-07-10 20:35:14+08:00|-28800

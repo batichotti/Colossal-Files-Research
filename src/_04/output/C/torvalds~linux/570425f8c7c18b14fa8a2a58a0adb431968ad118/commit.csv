@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|570425f8c7c18b14fa8a2a58a0adb431968ad118|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ibmvnic: register netdev after init of adapter
-
-Finish initializing the adapter before registering netdev so state
-is consistent.
-
-Fixes: c26eba03e407 (""ibmvnic: Update reset infrastructure to support tunable parameters"")
-Signed-off-by: Sukadev Bhattiprolu <sukadev@linux.ibm.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Sukadev Bhattiprolu|sukadev@linux.ibm.com|2022-02-24 22:23:55-08:00|28800|David S. Miller|davem@davemloft.net|2022-02-25 10:57:47+00:00|0

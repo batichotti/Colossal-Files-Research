@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|db9481c0476c6475d058ac7ecebb5a822b43cc99|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: use kzalloc in ext4_kzalloc()
-
-Commit 9933fc0i (ext4: introduce ext4_kvmalloc(), ext4_kzalloc(), and
-ext4_kvfree()) intruduced wrappers around k*alloc/vmalloc but introduced
-a typo for ext4_kzalloc() by not using kzalloc() but kmalloc().
-
-Signed-off-by: Mathias Krause <minipli@googlemail.com>
-Signed-off-by: ""Theodore Ts'o"" <tytso@mit.edu>"|1|Mathias Krause|minipli@googlemail.com|2011-08-03 14:57:11-04:00|14400|Theodore Ts'o|tytso@mit.edu|2011-08-03 14:57:11-04:00|14400

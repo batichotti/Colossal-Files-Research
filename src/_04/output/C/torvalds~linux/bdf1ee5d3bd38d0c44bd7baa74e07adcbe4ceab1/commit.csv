@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bdf1ee5d3bd38d0c44bd7baa74e07adcbe4ceab1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[TCP]: Move code from tcp_ecn.h to tcp*.c and tcp.h & remove it
-
-No other users exist for tcp_ecn.h. Very few things remain in
-tcp.h, for most TCP ECN functions callers reside within a
-single .c file and can be placed there.
-
-Signed-off-by: Ilpo Järvinen <ilpo.jarvinen@helsinki.fi>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|5|Ilpo Järvinen|ilpo.jarvinen@helsinki.fi|2007-05-27 02:04:16-07:00|25200|David S. Miller|davem@sunset.davemloft.net|2007-10-10 16:47:54-07:00|25200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6665d057fba3376351346abe7bd1ebcaafc48a34|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Clear P-192 values for OOB when in Secure Connections Only mode
-
-When Secure Connections Only mode has been enabled and remote OOB data
-is requested, then only provide P-256 hash and randomizer vaulues. The
-fields for P-192 hash and randomizer should be set to zero.
-
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>"|1|Marcel Holtmann|marcel@holtmann.org|2015-01-27 16:04:31-08:00|28800|Marcel Holtmann|marcel@holtmann.org|2015-01-28 21:26:20+01:00|-3600

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|abbf9a0ef8848dca58c5b97750c1c59bbee45637|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8169: fix r8168fp_adjust_ocp_cmd function
-
-The (0xBAF70000 & 0x00FFF000) << 6 should be (0xf70 << 18).
-
-Fixes: 561535b0f239 (""r8169: fix OCP access on RTL8117"")
-Signed-off-by: Hayes Wang <hayeswang@realtek.com>
-Acked-by: Heiner Kallweit <hkallweit1@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Hayes Wang|hayeswang@realtek.com|2021-03-05 17:34:41+08:00|-28800|David S. Miller|davem@davemloft.net|2021-03-05 13:00:38-08:00|28800

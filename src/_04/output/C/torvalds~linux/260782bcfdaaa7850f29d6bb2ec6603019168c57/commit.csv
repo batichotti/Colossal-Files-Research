@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|260782bcfdaaa7850f29d6bb2ec6603019168c57|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: use the new intel iommu APIs
-
-intel iommu APIs are updated, use the new APIs.
-
-In addition, change kvm_iommu_map_guest() to just create the domain, let kvm_iommu_assign_device() assign device.
-
-Signed-off-by: Weidong Han <weidong.han@intel.com>
-Signed-off-by: Joerg Roedel <joerg.roedel@amd.com>"|3|Weidong Han|weidong.han@intel.com|2008-12-02 21:03:39+08:00|-28800|Joerg Roedel|joerg.roedel@amd.com|2009-01-03 14:02:19+01:00|-3600

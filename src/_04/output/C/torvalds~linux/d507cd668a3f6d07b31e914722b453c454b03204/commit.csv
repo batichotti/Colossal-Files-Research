@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d507cd668a3f6d07b31e914722b453c454b03204|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ALSA: hda - Enable sync_write workaround for AMD generically
-
-The workaround for AMD chipset via sync_write flag seems needed for
-machines with Realtek codecs.  So, it's better to activate it
-generically in hda_intel.c from the beginning.
-
-Signed-off-by: Takashi Iwai <tiwai@suse.de>"|2|Takashi Iwai|tiwai@suse.de|2011-04-26 15:25:02+02:00|-7200|Takashi Iwai|tiwai@suse.de|2011-04-26 15:33:43+02:00|-7200

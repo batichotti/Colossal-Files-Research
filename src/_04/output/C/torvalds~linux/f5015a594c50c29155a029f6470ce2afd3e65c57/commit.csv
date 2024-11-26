@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f5015a594c50c29155a029f6470ce2afd3e65c57|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: mvpp2: ptp: add support for transmit timestamping
-
-Add support for timestamping transmit packets.  We allocate SYNC
-messages to queue 1, every other message to queue 0.
-
-Signed-off-by: Russell King <rmk+kernel@armlinux.org.uk>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Russell King|rmk+kernel@armlinux.org.uk|2020-09-09 17:26:00+01:00|-3600|David S. Miller|davem@davemloft.net|2020-09-09 14:22:42-07:00|25200

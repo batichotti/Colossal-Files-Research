@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|24a24bb6ff3dc3a09bb131241be920ecc3f0e519|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"perf: Move perf_event_init() into main.c
-
-Currently we call perf_event_init() from sched_init(). In order to
-make it more obvious move it to the cannnonical location.
-
-Signed-off-by: Peter Zijlstra <a.p.zijlstra@chello.nl>
-LKML-Reference: <20101117222056.093629821@chello.nl>
-Signed-off-by: Ingo Molnar <mingo@elte.hu>"|2|Peter Zijlstra|a.p.zijlstra@chello.nl|2010-11-17 23:17:33+01:00|-3600|Ingo Molnar|mingo@elte.hu|2010-12-16 11:36:42+01:00|-3600

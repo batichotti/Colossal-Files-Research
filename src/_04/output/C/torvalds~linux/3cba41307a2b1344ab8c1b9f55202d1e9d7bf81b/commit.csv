@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3cba41307a2b1344ab8c1b9f55202d1e9d7bf81b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: make make_all_cpus_request() lockless
-
-Now, we have 'vcpu->mode' to judge whether need to send ipi to other
-cpus, this way is very exact, so checking request bit is needless,
-then we can drop the spinlock let it's collateral
-
-Signed-off-by: Xiao Guangrong <xiaoguangrong@cn.fujitsu.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|2|Xiao Guangrong|xiaoguangrong@cn.fujitsu.com|2011-01-12 15:41:22+08:00|-28800|Marcelo Tosatti|mtosatti@redhat.com|2011-03-17 13:08:26-03:00|10800

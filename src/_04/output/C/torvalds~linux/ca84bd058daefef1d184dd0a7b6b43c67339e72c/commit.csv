@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ca84bd058daefef1d184dd0a7b6b43c67339e72c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sctp: copy the optval from user space in sctp_setsockopt
-
-Prepare for for moving the copy_from_user from the individual sockopts
-to the main setsockopt helper.  As of this commit the kopt variable
-is not used yet, but the following commits will start using it.
-
-Signed-off-by: Christoph Hellwig <hch@lst.de>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Christoph Hellwig|hch@lst.de|2020-07-19 09:21:38+02:00|-7200|David S. Miller|davem@davemloft.net|2020-07-19 18:26:41-07:00|25200

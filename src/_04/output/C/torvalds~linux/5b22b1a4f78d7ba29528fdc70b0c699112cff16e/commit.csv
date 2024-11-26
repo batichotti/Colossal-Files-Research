@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5b22b1a4f78d7ba29528fdc70b0c699112cff16e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[media] media: drx39xyj driver change to check fe exit flag from release
-
-Change drx39xyj_release() to check fe exit flag to detect the
-device disconnect state and avoid accessing the device after
-it has been removed.
-
-Signed-off-by: Shuah Khan <shuah.kh@samsung.com>
-Signed-off-by: Mauro Carvalho Chehab <m.chehab@samsung.com>"|1|Shuah Khan|shuah.kh@samsung.com|2014-07-12 13:44:14-03:00|10800|Mauro Carvalho Chehab|m.chehab@samsung.com|2014-07-26 11:19:21-03:00|10800

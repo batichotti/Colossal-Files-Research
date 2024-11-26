@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4178ba462a3e8ab5094e69606f01d9e95f2d5ea6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Prevents buffer overflow on l2cap_ertm_reassembly_sdu()
-
-The checks should be done before the the memcpy to avoid buffer
-overflow.
-
-Reported-by: João Paulo Rechi Vita <jprvita@profusion.mobi>
-Signed-off-by: Gustavo F. Padovan <padovan@profusion.mobi>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|1|Gustavo F. Padovan|padovan@profusion.mobi|2010-05-01 16:15:45-03:00|10800|Marcel Holtmann|marcel@holtmann.org|2010-05-10 09:28:53+02:00|-7200

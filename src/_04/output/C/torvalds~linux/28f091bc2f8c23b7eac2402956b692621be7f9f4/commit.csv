@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|28f091bc2f8c23b7eac2402956b692621be7f9f4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: MMU: shadow nested paging does not have PKU
-
-Initialize the mask for PKU permissions as if CR4.PKE=0, avoiding
-incorrect interpretations of the nested hypervisor's page tables.
-
-Cc: stable@vger.kernel.org
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Paolo Bonzini|pbonzini@redhat.com|2021-11-22 13:01:37-05:00|18000|Paolo Bonzini|pbonzini@redhat.com|2021-11-30 03:09:26-05:00|18000

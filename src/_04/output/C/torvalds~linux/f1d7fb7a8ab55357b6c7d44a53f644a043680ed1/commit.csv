@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f1d7fb7a8ab55357b6c7d44a53f644a043680ed1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ibmvfc: Process async events before command responses
-
-Since async events could indicate changes to link status, or
-events which could affect decisions made during discovery, we should
-process async events prior to command completion responses.
-
-Signed-off-by: Brian King <brking@linux.vnet.ibm.com>
-Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"|1|Brian King|brking@linux.vnet.ibm.com|2009-06-18 09:06:52-05:00|18000|James Bottomley|James.Bottomley@HansenPartnership.com|2009-06-21 11:09:56-05:00|18000

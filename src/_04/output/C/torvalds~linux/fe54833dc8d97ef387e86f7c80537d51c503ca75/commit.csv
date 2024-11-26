@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fe54833dc8d97ef387e86f7c80537d51c503ca75|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ksmbd: return STATUS_BAD_NETWORK_NAME error status if share is not configured
-
-If share is not configured in smb.conf, smb2 tree connect should return
-STATUS_BAD_NETWORK_NAME instead of STATUS_BAD_NETWORK_PATH.
-
-Signed-off-by: Namjae Jeon <linkinjeon@kernel.org>
-Reviewed-by: Hyunchul Lee <hyc.lee@gmail.com>
-Signed-off-by: Steve French <stfrench@microsoft.com>"|2|Namjae Jeon|linkinjeon@kernel.org|2022-08-08 21:56:48+09:00|-32400|Steve French|stfrench@microsoft.com|2022-08-11 01:05:18-05:00|18000

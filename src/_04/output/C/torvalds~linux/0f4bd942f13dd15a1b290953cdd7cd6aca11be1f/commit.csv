@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0f4bd942f13dd15a1b290953cdd7cd6aca11be1f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Add Privacy flag to mgmt supported/current settings
-
-This patch makes sure that the Privacy flag is available in the mgmt
-supported settings for all LE capable controllers and in the current
-settings whenever the HCI_PRIVACY flag is set.
-
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|1|Johan Hedberg|johan.hedberg@intel.com|2014-02-22 19:06:35+02:00|-7200|Marcel Holtmann|marcel@holtmann.org|2014-02-22 09:59:24-08:00|28800

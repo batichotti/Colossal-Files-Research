@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2c44a23471d048118e49b616d08df0729cdbd9f1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd: use kmem_cache_free() instead of kfree()
-
-memory allocated by kmem_cache_alloc() should be freed using
-kmem_cache_free(), not kfree().
-
-Signed-off-by: Wei Yongjun <yongjun_wei@trendmicro.com.cn>
-Cc: stable@kernel.org
-Signed-off-by: J. Bruce Fields <bfields@redhat.com>"|1|Wei Yongjun|yongjun_wei@trendmicro.com.cn|2013-04-09 14:15:31+08:00|-28800|J. Bruce Fields|bfields@redhat.com|2013-04-09 09:08:47-04:00|14400

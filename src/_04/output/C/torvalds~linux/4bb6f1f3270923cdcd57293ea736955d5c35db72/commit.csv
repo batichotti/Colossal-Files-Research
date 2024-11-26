@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4bb6f1f3270923cdcd57293ea736955d5c35db72|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Use alphabetical names for transcoders too
-
-Print the alphabetical name for transcoders. The code already used the
-pipe_name() macro for transcoders, so I did the same. But we do have the
-(unused) transcoder_name() macro which could be used instead.
-
-Signed-off-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Signed-off-by: Daniel Vetter <daniel.vetter@ffwll.ch>"|1|Ville Syrjälä|ville.syrjala@linux.intel.com|2013-04-17 17:48:50+03:00|-10800|Daniel Vetter|daniel.vetter@ffwll.ch|2013-04-18 09:55:50+02:00|-7200

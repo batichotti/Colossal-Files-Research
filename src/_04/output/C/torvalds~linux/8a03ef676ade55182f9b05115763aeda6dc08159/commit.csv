@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8a03ef676ade55182f9b05115763aeda6dc08159|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: Fix double 0x prefix print in SKB dump
-
-When printing netdev features %pNF already takes care of the 0x prefix,
-remove the explicit one.
-
-Fixes: 6413139dfc64 (""skbuff: increase verbosity when dumping skb data"")
-Signed-off-by: Gal Pressman <gal@nvidia.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Gal Pressman|gal@nvidia.com|2021-12-16 11:28:25+02:00|-7200|David S. Miller|davem@davemloft.net|2021-12-16 11:08:15+00:00|0

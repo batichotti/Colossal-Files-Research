@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|43a3795a3a12425de31e25ce0ebc3bb41501cef7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: MMU: Adjust pte accessors to explicitly indicate guest or shadow pte
-
-Since the guest and host ptes can have wildly different format, adjust
-the pte accessor names to indicate on which type of pte they operate on.
-
-No functional changes.
-
-Signed-off-by: Avi Kivity <avi@redhat.com>"|4|Avi Kivity|avi@redhat.com|2009-06-10 14:12:05+03:00|-10800|Avi Kivity|avi@redhat.com|2009-09-10 08:32:51+03:00|-10800

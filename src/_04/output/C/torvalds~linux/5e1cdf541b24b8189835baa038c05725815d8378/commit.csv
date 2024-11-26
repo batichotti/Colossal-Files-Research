@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5e1cdf541b24b8189835baa038c05725815d8378|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Make ironlake_pch_transcoder_set_timings take crtc_state
-
-Instead of passing crtc and dereferencing crtc->config,
-pass the correct crtc_state and obtain the crtc pointer from there.
-
-Signed-off-by: Maarten Lankhorst <maarten.lankhorst@linux.intel.com>
-Reviewed-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Link: https://patchwork.freedesktop.org/patch/msgid/20181004094604.2646-8-maarten.lankhorst@linux.intel.com"|1|Maarten Lankhorst|maarten.lankhorst@linux.intel.com|2018-10-04 11:45:58+02:00|-7200|Maarten Lankhorst|maarten.lankhorst@linux.intel.com|2018-10-05 15:18:09+02:00|-7200

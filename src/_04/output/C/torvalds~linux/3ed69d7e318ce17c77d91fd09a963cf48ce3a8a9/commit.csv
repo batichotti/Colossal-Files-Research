@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3ed69d7e318ce17c77d91fd09a963cf48ce3a8a9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ixgbe: use typed min/max functions where possible
-
-using the form min((int)var, ver)) is replaced by min_t(int, ...)
-
-Signed-off-by: Jesse Brandeburg <jesse.brandeburg@intel.com>
-Tested-by: Stephen Ko <stephen.s.ko@intel.com>
-Signed-off-by: Jeff Kirsher <jeffrey.t.kirsher@intel.com>"|2|Jesse Brandeburg|jesse.brandeburg@intel.com|2012-02-10 10:20:02+00:00|0|Jeff Kirsher|jeffrey.t.kirsher@intel.com|2012-03-14 00:45:05-07:00|25200

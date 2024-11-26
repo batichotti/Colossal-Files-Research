@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|522d1711d62c4fb87d7468ea1ef76ef5c510fd6e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: stop issuing discard immediately if there is queued IO
-
-For background discard policy, even if there is queued user IO, still
-we will check max_requests times for next discard entry, it is unneeded,
-let's just stop this round submission immediately.
-
-Signed-off-by: Chao Yu <yuchao0@huawei.com>
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|1|Chao Yu|yuchao0@huawei.com|2018-07-08 22:08:09+08:00|-28800|Jaegeuk Kim|jaegeuk@kernel.org|2018-08-01 11:52:36-07:00|25200

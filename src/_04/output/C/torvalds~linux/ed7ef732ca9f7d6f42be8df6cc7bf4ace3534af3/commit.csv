@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ed7ef732ca9f7d6f42be8df6cc7bf4ace3534af3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md: remove unnecessary check on mddev
-
-mddev is never NULL and neither is ->bio_set, so
-remove the check.
-
-Reviewed-by: Christoph Hellwig <hch@lst.de>
-Signed-off-by: Ming Lei <tom.leiming@gmail.com>
-Signed-off-by: Shaohua Li <shli@fb.com>"|1|Ming Lei|tom.leiming@gmail.com|2017-02-14 23:29:02+08:00|-28800|Shaohua Li|shli@fb.com|2017-02-15 11:24:13-08:00|28800

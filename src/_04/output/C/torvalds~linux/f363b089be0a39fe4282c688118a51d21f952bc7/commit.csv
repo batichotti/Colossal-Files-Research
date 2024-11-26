@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f363b089be0a39fe4282c688118a51d21f952bc7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"blk-mq: constify struct blk_mq_ops
-
-Constify all instances of blk_mq_ops, as they are never modified.
-
-Signed-off-by: Eric Biggers <ebiggers@google.com>
-Signed-off-by: Jens Axboe <axboe@fb.com>"|14|Eric Biggers|ebiggers@google.com|2017-03-30 13:39:16-07:00|25200|Jens Axboe|axboe@fb.com|2017-03-31 08:28:58-06:00|21600

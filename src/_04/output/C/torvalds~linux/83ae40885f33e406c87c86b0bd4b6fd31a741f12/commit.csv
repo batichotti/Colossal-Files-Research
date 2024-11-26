@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|83ae40885f33e406c87c86b0bd4b6fd31a741f12|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[TCP]: Add tcp_left_out(tp) ""back"" to get cleaner looking lines
-
-tp->left_out got removed but nothing came to replace it back
-then (users just did addition by themselves), so add function
-for users now.
-
-Signed-off-by: Ilpo Järvinen <ilpo.jarvinen@helsinki.fi>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Ilpo Järvinen|ilpo.jarvinen@helsinki.fi|2007-08-09 14:37:30+03:00|-10800|David S. Miller|davem@sunset.davemloft.net|2007-10-10 16:47:56-07:00|25200

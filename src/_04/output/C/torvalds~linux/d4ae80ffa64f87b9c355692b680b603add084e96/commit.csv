@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d4ae80ffa64f87b9c355692b680b603add084e96|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sched: Move cfs_bandwidth_slice sysctls to fair.c
-
-move cfs_bandwidth_slice sysctls to fair.c and use the
-new register_sysctl_init() to register the sysctl interface.
-
-Signed-off-by: Zhen Ni <nizhen@uniontech.com>
-Signed-off-by: Luis Chamberlain <mcgrof@kernel.org>"|3|Zhen Ni|nizhen@uniontech.com|2022-02-15 19:46:03+08:00|-28800|Luis Chamberlain|mcgrof@kernel.org|2022-04-06 13:43:43-07:00|25200

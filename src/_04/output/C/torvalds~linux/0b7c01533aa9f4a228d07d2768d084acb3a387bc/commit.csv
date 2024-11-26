@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0b7c01533aa9f4a228d07d2768d084acb3a387bc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS: add a struct nfs_commit_data to replace nfs_write_data in commits
-
-Commits don't need the vectors of pages, etc. that writes do. Split out
-a separate structure for the commit operation.
-
-Signed-off-by: Fred Isaman <iisaman@netapp.com>
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|11|Fred Isaman|iisaman@netapp.com|2012-04-20 14:47:39-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2012-04-27 14:10:37-04:00|14400

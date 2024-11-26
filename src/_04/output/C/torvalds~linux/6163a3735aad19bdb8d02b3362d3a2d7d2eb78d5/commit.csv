@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6163a3735aad19bdb8d02b3362d3a2d7d2eb78d5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"iwlagn: check change before commit RXON cmd
-
-When setting rxon chain and filter, no need to commit RXON when the
-chain flag is not changed. This reduces the number of RXON commands
-we send down to uCode.
-
-Signed-off-by: Shanyu Zhao <shanyu.zhao@intel.com>
-Signed-off-by: Wey-Yi Guy <wey-yi.w.guy@intel.com>"|1|Shanyu Zhao|shanyu.zhao@intel.com|2010-11-12 13:48:13-08:00|28800|Wey-Yi Guy|wey-yi.w.guy@intel.com|2010-11-16 07:47:22-08:00|28800

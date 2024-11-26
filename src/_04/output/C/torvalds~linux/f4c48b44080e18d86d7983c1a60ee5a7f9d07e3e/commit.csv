@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f4c48b44080e18d86d7983c1a60ee5a7f9d07e3e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Revert ""btrfs: split btrfs_direct_IO to read and write part""
-
-This reverts commit d8f3e73587ce574f7a9bc165e0db69b0b148f6f8.
-
-The patch is a cleanup of direct IO port to iomap infrastructure,
-which gets reverted.
-
-Signed-off-by: David Sterba <dsterba@suse.com>"|3|David Sterba|dsterba@suse.com|2020-06-09 19:19:27+02:00|-7200|David Sterba|dsterba@suse.com|2020-06-09 19:19:27+02:00|-7200

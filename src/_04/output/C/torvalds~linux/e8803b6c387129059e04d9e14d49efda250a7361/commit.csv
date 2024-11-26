@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e8803b6c387129059e04d9e14d49efda250a7361|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Revert ""ipv6: Prevent access to uninitialized fib_table_hash via /proc/net/ipv6_route""
-
-This reverts commit 2a0c451ade8e1783c5d453948289e4a978d417c9.
-
-It causes crashes, because now ip6_null_entry is used before
-it is initialized.
-
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|David S. Miller|davem@davemloft.net|2012-06-16 01:12:19-07:00|25200|David S. Miller|davem@davemloft.net|2012-06-16 01:12:19-07:00|25200

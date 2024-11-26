@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|da155d5b40587815a4397e1a69382fe2366d940b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sound: Add module.h to the previously silent sound users
-
-Lots of sound drivers were getting module.h via the implicit presence
-of it in <linux/device.h> but we are going to clean that up.  So
-fix up those users now.
-
-Signed-off-by: Paul Gortmaker <paul.gortmaker@windriver.com>"|150|Paul Gortmaker|paul.gortmaker@windriver.com|2011-07-15 12:38:28-04:00|14400|Paul Gortmaker|paul.gortmaker@windriver.com|2011-10-31 19:31:21-04:00|14400

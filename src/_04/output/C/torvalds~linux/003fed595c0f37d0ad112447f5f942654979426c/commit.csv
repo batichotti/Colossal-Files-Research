@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|003fed595c0f37d0ad112447f5f942654979426c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libbpf: Remove unnecessary type cast
-
-The link variable is already of type 'struct bpf_link *', casting it to
-'struct bpf_link *' is redundant, drop it.
-
-Signed-off-by: Yuntao Wang <ytcoode@gmail.com>
-Signed-off-by: Daniel Borkmann <daniel@iogearbox.net>
-Link: https://lore.kernel.org/bpf/20220424143420.457082-1-ytcoode@gmail.com"|1|Yuntao Wang|ytcoode@gmail.com|2022-04-24 22:34:20+08:00|-28800|Daniel Borkmann|daniel@iogearbox.net|2022-04-25 17:39:16+02:00|-7200

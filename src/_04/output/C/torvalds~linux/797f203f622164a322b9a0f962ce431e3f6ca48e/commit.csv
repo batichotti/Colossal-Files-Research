@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|797f203f622164a322b9a0f962ce431e3f6ca48e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/radeon/dpm: adjust power state properly for UVD on SI
-
-There are some hardware issue with reclocking on SI when
-UVD is active, so use a stable power state when UVD is
-active.  Fixes possible hangs and performance issues when
-using UVD on SI.
-
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|1|Alex Deucher|alexander.deucher@amd.com|2013-08-01 11:54:07-04:00|14400|Alex Deucher|alexander.deucher@amd.com|2013-08-07 17:37:11-04:00|14400

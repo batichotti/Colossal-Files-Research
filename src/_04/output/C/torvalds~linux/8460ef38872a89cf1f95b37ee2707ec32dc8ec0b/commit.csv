@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8460ef38872a89cf1f95b37ee2707ec32dc8ec0b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"regulator: core: Consolidate drms update handling
-
-Refactor drms_uA_update() slightly to allow regulator_set_optimum_mode()
-to utilize the same logic instead of duplicating it.
-
-Signed-off-by: Bjorn Andersson <bjorn.andersson@sonymobile.com>
-Signed-off-by: Mark Brown <broonie@kernel.org>"|1|Bjorn Andersson|bjorn.andersson@sonymobile.com|2015-01-27 18:46:31-08:00|28800|Mark Brown|broonie@kernel.org|2015-01-28 19:52:15+00:00|0

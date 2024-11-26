@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e6e82ea1127d899af7eee876f1c1103716d13772|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"slub: Prepare inuse field in new_slab()
-
-inuse will always be set to page->objects. There is no point in
-initializing the field to zero in new_slab() and then overwriting
-the value in __slab_alloc().
-
-Signed-off-by: Christoph Lameter <cl@linux.com>
-Signed-off-by: Pekka Enberg <penberg@kernel.org>"|1|Christoph Lameter|cl@linux.com|2011-08-09 16:12:24-05:00|18000|Pekka Enberg|penberg@kernel.org|2011-08-19 19:34:26+03:00|-10800

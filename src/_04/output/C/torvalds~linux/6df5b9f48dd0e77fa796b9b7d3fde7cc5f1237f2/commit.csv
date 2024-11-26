@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6df5b9f48dd0e77fa796b9b7d3fde7cc5f1237f2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[CRYPTO] Simplify one-member scatterlist expressions
-
-This patch rewrites various occurences of &sg[0] where sg is an array
-of length one to simply sg.
-
-Signed-off-by: Herbert Xu <herbert@gondor.apana.org.au>"|3|Herbert Xu|herbert@gondor.apana.org.au|2005-09-19 22:30:11+10:00|-36000|Herbert Xu|herbert@gondor.apana.org.au|2005-10-30 11:19:43+11:00|-39600

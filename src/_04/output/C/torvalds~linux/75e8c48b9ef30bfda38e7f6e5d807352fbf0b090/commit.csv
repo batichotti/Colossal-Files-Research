@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|75e8c48b9ef30bfda38e7f6e5d807352fbf0b090|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: Use the nfs4_state being recovered in _nfs4_opendata_to_nfs4_state()
-
-If we're recovering a nfs4_state, then we should try to use that instead
-of looking up a new stateid. Only do that if the inodes match, though.
-
-Signed-off-by: Trond Myklebust <trond.myklebust@primarydata.com>"|1|Trond Myklebust|trond.myklebust@primarydata.com|2017-08-08 10:38:07-04:00|14400|Trond Myklebust|trond.myklebust@primarydata.com|2017-08-13 20:36:15-04:00|14400

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|57a9f236ebe76be6fe1c85b5f7b3cea842e44177|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8169: perform RX config change after mac filtering
-
-It does not really make sense to update the RX config register
-before the mac filtering registers.
-
-Signed-off-by: Francois Romieu <romieu@fr.zoreil.com>
-Cc: Edward Hsu <edward_hsu@realtek.com.tw>"|1|Francois Romieu|romieu@fr.zoreil.com|2007-06-04 22:10:15+02:00|-7200|Jeff Garzik|jeff@garzik.org|2007-07-08 22:16:45-04:00|14400

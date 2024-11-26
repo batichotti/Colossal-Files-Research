@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f7c6d140032ae7e80df36d350c6edc41f92b2f94|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: fix MMIO_CONF_BASE MSR access
-
-Some Windows versions check whether the BIOS has setup MMI/O for
-config space accesses on AMD Fam10h CPUs, we say ""no"" by returning 0 on
-reads and only allow disabling of MMI/O CfgSpace setup by igoring ""0"" writes.
-
-Signed-off-by: Andre Przywara <andre.przywara@amd.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Andre Przywara|andre.przywara@amd.com|2009-07-02 15:04:14+02:00|-7200|Avi Kivity|avi@redhat.com|2009-09-10 08:33:10+03:00|-10800

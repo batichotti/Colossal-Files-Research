@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e8f90c74e6ab64824f3a21521640de7b21050b9d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211_hwsim: fix a possible memory leak in hwsim_new_radio_nl()
-
-'hwname' should be freed before leaving from the error handling cases,
-otherwise it will cause mem leak
-
-Fixes: cb1a5bae5684 (""mac80211_hwsim: add permanent mac address option for new radios"")
-Signed-off-by: YueHaibing <yuehaibing@huawei.com>
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|YueHaibing|yuehaibing@huawei.com|2018-04-24 11:08:35+08:00|-28800|Johannes Berg|johannes.berg@intel.com|2018-05-07 15:01:29+02:00|-7200

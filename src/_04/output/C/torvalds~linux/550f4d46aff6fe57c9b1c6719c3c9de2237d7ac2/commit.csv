@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|550f4d46aff6fe57c9b1c6719c3c9de2237d7ac2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ibmvnic: remove never executed if statement
-
-At the beginning of the function, from_passive_init is set false by
-""adapter->from_passive_init = false;"",
-hence the if statement will never run.
-
-Signed-off-by: Lijun Pan <ljp@linux.ibm.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Lijun Pan|ljp@linux.ibm.com|2020-08-19 17:52:25-05:00|18000|David S. Miller|davem@davemloft.net|2020-08-26 16:11:33-07:00|25200

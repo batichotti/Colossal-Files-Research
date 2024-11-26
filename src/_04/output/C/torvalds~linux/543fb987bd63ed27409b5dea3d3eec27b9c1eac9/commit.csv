@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|543fb987bd63ed27409b5dea3d3eec27b9c1eac9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"RDMA/hns: Fix unmatch exception handling when init eq table fails
-
-The hw ctx should be destroyed when init eq table fails.
-
-Fixes: a5073d6054f7 (""RDMA/hns: Add eq support of hip08"")
-Signed-off-by: Junxian Huang <huangjunxian6@hisilicon.com>
-Link: https://lore.kernel.org/r/20240710133705.896445-4-huangjunxian6@hisilicon.com
-Signed-off-by: Leon Romanovsky <leon@kernel.org>"|1|Junxian Huang|huangjunxian6@hisilicon.com|2024-07-10 21:37:00+08:00|-28800|Leon Romanovsky|leon@kernel.org|2024-07-11 13:25:11+03:00|-10800

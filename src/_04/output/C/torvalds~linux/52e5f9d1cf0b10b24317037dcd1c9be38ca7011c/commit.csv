@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|52e5f9d1cf0b10b24317037dcd1c9be38ca7011c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"BUG_ON cleanup for drivers/md/
-
-This changes two if() BUG(); usages to BUG_ON(); so people
-can disable it safely.
-
-Signed-off-by: Eric Sesterhenn <snakebyte@gmx.de>
-Signed-off-by: Adrian Bunk <bunk@stusta.de>"|2|Eric Sesterhenn|snakebyte@gmx.de|2006-10-03 23:33:23+02:00|-7200|Adrian Bunk|bunk@stusta.de|2006-10-03 23:33:23+02:00|-7200

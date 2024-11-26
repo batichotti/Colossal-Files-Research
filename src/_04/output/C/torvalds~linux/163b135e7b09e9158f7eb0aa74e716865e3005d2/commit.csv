@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|163b135e7b09e9158f7eb0aa74e716865e3005d2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: popf emulation should not change RF
-
-RFLAGS.RF is always zero after popf. Therefore, popf should not updated RF, as
-anyhow emulating popf, just as any other instruction should clear RFLAGS.RF.
-
-Signed-off-by: Nadav Amit <namit@cs.technion.ac.il>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Nadav Amit|namit@cs.technion.ac.il|2014-07-21 14:37:28+03:00|-10800|Paolo Bonzini|pbonzini@redhat.com|2014-07-21 13:41:58+02:00|-7200

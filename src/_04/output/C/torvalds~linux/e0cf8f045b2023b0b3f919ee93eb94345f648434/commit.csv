@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e0cf8f045b2023b0b3f919ee93eb94345f648434|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md: md_unregister_thread should cope with being passed NULL
-
-Mostly md_unregister_thread is only called when we know that the
-thread is NULL, but sometimes we need to check first.  It is safer
-to put the check inside md_unregister_thread itself.
-
-Signed-off-by: NeilBrown <neilb@suse.de>"|2|NeilBrown|neilb@suse.de|2009-03-31 14:39:39+11:00|-39600|NeilBrown|neilb@suse.de|2009-03-31 14:39:39+11:00|-39600

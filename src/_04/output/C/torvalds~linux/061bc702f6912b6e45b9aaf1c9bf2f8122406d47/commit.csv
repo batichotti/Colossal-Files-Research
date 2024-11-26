@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|061bc702f6912b6e45b9aaf1c9bf2f8122406d47|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bnx2x: Do not call load/unload functionality from DCC
-
-There is really no need to clear the MAC or the FW filtering rules - it was
-added for completion, but caused race conditions with load/unload. Removing this
-redundant code
-
-Signed-off-by: Eilon Greenstein <eilong@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Eilon Greenstein|eilong@broadcom.com|2009-10-15 00:18:47-07:00|25200|David S. Miller|davem@davemloft.net|2009-10-15 00:18:47-07:00|25200

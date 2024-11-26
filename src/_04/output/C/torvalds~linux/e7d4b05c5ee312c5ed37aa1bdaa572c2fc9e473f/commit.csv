@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e7d4b05c5ee312c5ed37aa1bdaa572c2fc9e473f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: Encode 64-bit timestamps
-
-NFSv4 supports 64-bit timestamps, so there is no point in converting
-the struct iattr timestamps to 32-bits before encoding.
-
-Signed-off-by: Trond Myklebust <trond.myklebust@hammerspace.com>"|1|Trond Myklebust|trond.myklebust@hammerspace.com|2019-10-04 16:43:09-04:00|14400|Trond Myklebust|trond.myklebust@hammerspace.com|2019-11-03 21:28:44-05:00|18000

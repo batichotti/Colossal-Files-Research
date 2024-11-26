@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3d30079c3a9000504cf71e4e8dd94619070dc4f3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: merge consecutive seq_puts calls
-
-Consecutive seq_puts calls with literal strings may be replaced by a
-single call, saving a little .text.
-
-Signed-off-by: Rasmus Villemoes <linux@rasmusvillemoes.dk>
-Reviewed-by: Finn Thain <fthain@telegraphics.com.au>
-Signed-off-by: Christoph Hellwig <hch@lst.de>"|4|Rasmus Villemoes|linux@rasmusvillemoes.dk|2014-12-03 00:10:53+01:00|-3600|James Bottomley|JBottomley@Parallels.com|2015-02-02 09:57:45-08:00|28800

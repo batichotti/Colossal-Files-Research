@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|10480b056662dc9595850598f0bbc5a16a4884f4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"iwlwifi: check ucode loading error and restart
-
-Driver check alive message from ucode, if it is not ok, then need
-to restart the loading process. instead of checking multiple places
-for failure, only need to check in once place when receive alive
-message from uCode.
-
-Signed-off-by: Wey-Yi Guy <wey-yi.w.guy@intel.com>"|3|Wey-Yi Guy|wey-yi.w.guy@intel.com|2011-01-14 17:48:06-08:00|28800|Wey-Yi Guy|wey-yi.w.guy@intel.com|2011-01-31 13:17:28-08:00|28800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3453c92731884bad7c4c3a0667228b964747f3d5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: pass ctx to nf_tables_expr_destroy()
-
-nft_set_elem_destroy() can be called from call_rcu context. Annotate
-netns and table in set object so we can populate the context object.
-Moreover, pass context object to nf_tables_set_elem_destroy() from the
-commit phase, since it is already available from there.
-
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|2|Pablo Neira Ayuso|pablo@netfilter.org|2018-06-02 23:38:48+02:00|-7200|Pablo Neira Ayuso|pablo@netfilter.org|2018-06-03 00:02:09+02:00|-7200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4f906c19ae29397409bedabf7bbe5cb42ad90332|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Replace irq_requested with more generic irq_requested_type
-
-Separate guest irq type and host irq type, for we can support guest using INTx
-with host using MSI (but not opposite combination).
-
-Signed-off-by: Sheng Yang <sheng@linux.intel.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|2|Sheng Yang|sheng@linux.intel.com|2008-11-24 14:32:51+08:00|-28800|Avi Kivity|avi@redhat.com|2008-12-31 16:55:01+02:00|-7200

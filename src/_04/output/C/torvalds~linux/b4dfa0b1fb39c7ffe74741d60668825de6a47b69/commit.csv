@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b4dfa0b1fb39c7ffe74741d60668825de6a47b69|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[NET]: Get rid of alloc_skb_from_cache
-
-Since this was added originally for Xen, and Xen has recently (~2.6.18)
-stopped using this function, we can safely get rid of it.  Good timing
-too since this function has started to bit rot.
-
-Signed-off-by: Herbert Xu <herbert@gondor.apana.org.au>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|Herbert Xu|herbert@gondor.apana.org.au|2007-04-17 12:28:27-07:00|25200|David S. Miller|davem@sunset.davemloft.net|2007-04-17 13:13:16-07:00|25200

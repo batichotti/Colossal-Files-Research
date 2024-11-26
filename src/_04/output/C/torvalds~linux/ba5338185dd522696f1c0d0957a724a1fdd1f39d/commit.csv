@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ba5338185dd522696f1c0d0957a724a1fdd1f39d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ALSA: hda/realtek - Rewrite ALC880 model=F1734 with auto-parser
-
-Similar as the previous patch for model=fujitsu, we can now move the
-static quirk for F1734 to the auto-parser.  The only difference is the
-default pin configurations: F1734 has less pins than Amilo's.
-
-Signed-off-by: Takashi Iwai <tiwai@suse.de>"|3|Takashi Iwai|tiwai@suse.de|2012-02-20 16:36:52+01:00|-3600|Takashi Iwai|tiwai@suse.de|2012-02-20 17:06:04+01:00|-3600

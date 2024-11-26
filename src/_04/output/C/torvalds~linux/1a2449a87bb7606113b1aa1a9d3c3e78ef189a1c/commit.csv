@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1a2449a87bb7606113b1aa1a9d3c3e78ef189a1c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[I/OAT]: TCP recv offload to I/OAT
-
-Locks down user pages and sets up for DMA in tcp_recvmsg, then calls
-dma_async_try_early_copy in tcp_v4_do_rcv
-
-Signed-off-by: Chris Leech <christopher.leech@intel.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|4|Chris Leech|christopher.leech@intel.com|2006-05-23 18:05:53-07:00|25200|David S. Miller|davem@sunset.davemloft.net|2006-06-17 21:25:56-07:00|25200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cc94abfcbc9fed0048365ce1fb8dc81353408bf8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[PATCH] unnecessary long index i in sched
-
-Unless we expect to have more than 2G CPUs, there's no reason to have 'i'
-as a long long here.
-
-Signed-off-by: Steven Rostedt <rostedt@goodmis.org>
-Signed-off-by: Andrew Morton <akpm@osdl.org>
-Signed-off-by: Linus Torvalds <torvalds@osdl.org>"|1|Steven Rostedt|rostedt@goodmis.org|2006-06-27 02:54:31-07:00|25200|Linus Torvalds|torvalds@g5.osdl.org|2006-06-27 17:32:44-07:00|25200

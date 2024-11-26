@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|dab6e717429e5ec795d558a0e9a5337a1ed33a3d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mm: Rename pmd_read_atomic()
-
-There's no point in having the identical routines for PTE/PMD have
-different names.
-
-Signed-off-by: Peter Zijlstra (Intel) <peterz@infradead.org>
-Link: https://lkml.kernel.org/r/20221022114424.841277397%40infradead.org"|7|Peter Zijlstra|peterz@infradead.org|2020-11-26 17:20:28+01:00|-3600|Dave Hansen|dave.hansen@linux.intel.com|2022-12-15 10:37:27-08:00|28800

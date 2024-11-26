@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a68d2ebc1581a3aec57bd032651e013fa609f530|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Fix up recent get_user_pages() handling
-
-The VM_FAULT_WRITE thing is an extra bit, not a valid return value, and
-has to be treated as such by get_user_pages().
-
-Signed-off-by: Linus Torvalds <torvalds@osdl.org>"|1|Linus Torvalds|torvalds@g5.osdl.org|2005-08-03 10:07:09-07:00|25200|Linus Torvalds|torvalds@g5.osdl.org|2005-08-03 10:07:09-07:00|25200

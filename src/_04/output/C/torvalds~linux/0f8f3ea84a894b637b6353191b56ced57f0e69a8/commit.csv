@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0f8f3ea84a894b637b6353191b56ced57f0e69a8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: ncr53c8xx: Use scsi_cmd_to_rq() instead of scsi_cmnd.request
-
-Prepare for removal of the request pointer by using scsi_cmd_to_rq()
-instead. This patch does not change any functionality.
-
-Link: https://lore.kernel.org/r/20210809230355.8186-35-bvanassche@acm.org
-Signed-off-by: Bart Van Assche <bvanassche@acm.org>
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|1|Bart Van Assche|bvanassche@acm.org|2021-08-09 16:03:37-07:00|25200|Martin K. Petersen|martin.petersen@oracle.com|2021-08-11 22:25:40-04:00|14400

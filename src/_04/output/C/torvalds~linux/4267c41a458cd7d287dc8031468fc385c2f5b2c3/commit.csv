@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4267c41a458cd7d287dc8031468fc385c2f5b2c3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Tune hotplug/suspend IPIs
-
-The hotplug IPIs can be called from the cpu on which we are currently
-running on, so use on_cpu().  Similarly, drop on_each_cpu() for the
-suspend/resume callbacks, as we're in atomic context here and only one
-cpu is up anyway.
-
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|1|Avi Kivity|avi@qumranet.com|2007-05-24 13:09:41+03:00|-10800|Avi Kivity|avi@qumranet.com|2007-07-16 12:05:51+03:00|-10800

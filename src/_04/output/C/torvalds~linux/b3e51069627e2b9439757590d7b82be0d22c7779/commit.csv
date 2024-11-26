@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b3e51069627e2b9439757590d7b82be0d22c7779|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: stmmac: replace if (netif_msg_type) by their netif_xxx counterpart
-
-As sugested by Joe Perches, we could replace all
-if (netif_msg_type(priv)) dev_xxx(priv->devices, ...)
-by the simpler macro netif_xxx(priv, hw, priv->dev, ...)
-
-Signed-off-by: Corentin Labbe <clabbe.montjoie@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|LABBE Corentin|clabbe.montjoie@gmail.com|2016-11-16 20:09:41+01:00|-3600|David S. Miller|davem@davemloft.net|2016-11-17 13:30:30-05:00|18000

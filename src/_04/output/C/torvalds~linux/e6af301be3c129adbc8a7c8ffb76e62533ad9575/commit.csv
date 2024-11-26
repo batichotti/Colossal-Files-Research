@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e6af301be3c129adbc8a7c8ffb76e62533ad9575|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[TG3]: Add nvram lock-out support for 5752 TPM
-
-Add support for the NVRAM lock-out feature for TPM in 5752. If lock-out
-is enabled, certain NVRAM registers cannot be written to.
-
-Signed-off-by: Michael Chan <mchan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Michael Chan|mchan@broadcom.com|2005-04-21 17:12:05-07:00|25200|David S. Miller|davem@sunset.davemloft.net|2005-04-21 17:12:05-07:00|25200

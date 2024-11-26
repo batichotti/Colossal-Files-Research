@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a14cc4d24a645dd13abe66f50e1439136337fa1a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8169: remove access to legacy register MultiIntr
-
-This code piece was inherited from RTL8139 code, the register at
-address 0x5c however has a different meaning on RTL8169 and is unused.
-So we can remove this.
-
-Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Heiner Kallweit|hkallweit1@gmail.com|2019-08-04 09:42:57+02:00|-7200|David S. Miller|davem@davemloft.net|2019-08-06 14:19:33-07:00|25200

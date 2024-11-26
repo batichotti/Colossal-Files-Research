@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3738d50e7f6d04dd58d219cf9111bf927c17c6f2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd: add a list_head arg to nfsd_foreach_client_lock
-
-In a later patch, we'll want to collect the locks onto a list for later
-destruction. If ""func"" is defined and ""collect"" is defined, then we'll
-add the lock stateid to the list.
-
-Signed-off-by: Jeff Layton <jlayton@primarydata.com>
-Signed-off-by: J. Bruce Fields <bfields@redhat.com>"|1|Jeff Layton|jlayton@primarydata.com|2014-07-30 08:27:20-04:00|14400|J. Bruce Fields|bfields@redhat.com|2014-08-05 10:55:06-04:00|14400

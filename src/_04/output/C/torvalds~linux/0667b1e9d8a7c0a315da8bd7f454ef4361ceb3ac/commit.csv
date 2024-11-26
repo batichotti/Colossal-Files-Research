@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0667b1e9d8a7c0a315da8bd7f454ef4361ceb3ac|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd: Add reference counting to nfs4_preprocess_confirmed_seqid_op
-
-Ensure that all the callers put the open stateid after use.
-Necessary step toward client_mutex removal.
-
-Signed-off-by: Trond Myklebust <trond.myklebust@primarydata.com>
-Signed-off-by: J. Bruce Fields <bfields@redhat.com>"|1|Trond Myklebust|trond.myklebust@primarydata.com|2014-07-29 21:34:22-04:00|14400|J. Bruce Fields|bfields@redhat.com|2014-07-31 14:20:15-04:00|14400

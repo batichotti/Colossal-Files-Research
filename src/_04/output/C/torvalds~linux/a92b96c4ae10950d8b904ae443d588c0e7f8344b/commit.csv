@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a92b96c4ae10950d8b904ae443d588c0e7f8344b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"i40e: xsk: add TX multi-buffer support
-
-Set eop bit in TX desc command only for the last descriptor of the
-packet and do not set for all preceding descriptors.
-
-Signed-off-by: Tirthendu Sarkar <tirthendu.sarkar@intel.com>
-Link: https://lore.kernel.org/r/20230719132421.584801-17-maciej.fijalkowski@intel.com
-Signed-off-by: Alexei Starovoitov <ast@kernel.org>"|2|Tirthendu Sarkar|tirthendu.sarkar@intel.com|2023-07-19 15:24:13+02:00|-7200|Alexei Starovoitov|ast@kernel.org|2023-07-19 09:56:50-07:00|25200

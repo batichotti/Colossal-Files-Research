@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ff538818f4a82c4cf02d2d6bd6ac5c7360b9d41d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sysctl: net: call unregister_net_sysctl_table where needed
-
-ctl_table_headers registered with register_net_sysctl_table should
-have been unregistered with the equivalent unregister_net_sysctl_table
-
-Signed-off-by: Lucian Adrian Grijincu <lucian.grijincu@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Lucian Adrian Grijincu|lucian.grijincu@gmail.com|2011-05-01 01:44:01+00:00|0|David S. Miller|davem@davemloft.net|2011-05-02 16:12:14-07:00|25200

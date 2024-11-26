@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c18a17329b3389315e8a138d998b217077509c13|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sched: remove expired_starving()
-
-remove the expired_starving() heuristics from the core scheduler.
-
-CFS does not need it, and this did not really work well in practice
-anyway, due to the rq->nr_running multiplier to STARVATION_LIMIT.
-
-Signed-off-by: Ingo Molnar <mingo@elte.hu>"|1|Ingo Molnar|mingo@elte.hu|2007-07-09 18:51:59+02:00|-7200|Ingo Molnar|mingo@elte.hu|2007-07-09 18:51:59+02:00|-7200

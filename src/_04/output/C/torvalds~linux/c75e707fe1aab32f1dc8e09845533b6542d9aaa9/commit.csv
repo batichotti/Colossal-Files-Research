@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c75e707fe1aab32f1dc8e09845533b6542d9aaa9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"block: remove the per-bio/request write hint
-
-With the NVMe support for this gone, there are no consumers of these hints
-left, so remove them.
-
-Signed-off-by: Christoph Hellwig <hch@lst.de>
-Link: https://lore.kernel.org/r/20220304175556.407719-2-hch@lst.de
-Signed-off-by: Jens Axboe <axboe@kernel.dk>"|22|Christoph Hellwig|hch@lst.de|2022-03-04 18:55:56+01:00|-3600|Jens Axboe|axboe@kernel.dk|2022-03-07 12:45:57-07:00|25200

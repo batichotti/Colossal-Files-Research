@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|54504e977ceee0bea6fbe8b632eceea771b18c6c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cgroup: cgroup_idr_lock should be bh
-
-cgroup_idr_remove() can be invoked from bh leading to lockdep
-detecting possible AA deadlock (IN_BH/ON_BH).  Make the lock bh-safe.
-
-Signed-off-by: Tejun Heo <tj@kernel.org>
-Acked-by: Li Zefan <lizefan@huawei.com>"|1|Tejun Heo|tj@kernel.org|2014-05-13 12:10:59-04:00|14400|Tejun Heo|tj@kernel.org|2014-05-13 12:10:59-04:00|14400

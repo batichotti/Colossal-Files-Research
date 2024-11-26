@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|52dcaf577f3b6d878a337a44a99a122017c85ff6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wl12xx: print firmware program counter during recovery
-
-When performing recovery, print the firmware version and program
-counter (by reading the SCR_PAD4 register). The value of the firmware
-program counter during assert can be useful for debugging.
-
-Signed-off-by: Arik Nemtsov <arik@wizery.com>
-Signed-off-by: Luciano Coelho <coelho@ti.com>"|1|Arik Nemtsov|arik@wizery.com|2011-04-18 14:15:24+03:00|-10800|Luciano Coelho|coelho@ti.com|2011-05-02 10:31:09+03:00|-10800

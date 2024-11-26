@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6919756caaeaa76dc56287252fb656e3c2d9b4e1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net/rtnetlink: fix attribute name in nlmsg_size() comments
-
-Use the correct attribute constant names IFLA_GSO_MAX_{SEGS,SIZE}
-instead of IFLA_MAX_GSO_{SEGS,SIZE} for the comments int nlmsg_size().
-
-Cc: Eric Dumazet <edumazet@google.com>
-Signed-off-by: Tobias Klauser <tklauser@distanz.ch>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Tobias Klauser|tklauser@distanz.ch|2016-11-30 14:30:37+01:00|-3600|David S. Miller|davem@davemloft.net|2016-12-02 10:34:59-05:00|18000

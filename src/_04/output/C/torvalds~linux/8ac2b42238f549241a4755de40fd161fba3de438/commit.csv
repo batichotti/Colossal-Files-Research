@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8ac2b42238f549241a4755de40fd161fba3de438|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: Retry the DELEGRETURN if the embedded GETATTR is rejected with EACCES
-
-If our DELEGRETURN RPC call is rejected with an EACCES call, then we should
-remove the GETATTR call from the compound RPC and retry.
-This could potentially happen when there is a conflict between an
-ACL denying attribute reads and our use of SP4_MACH_CRED.
-
-Signed-off-by: Trond Myklebust <trond.myklebust@primarydata.com>"|2|Trond Myklebust|trond.myklebust@primarydata.com|2016-12-19 10:23:10-05:00|18000|Trond Myklebust|trond.myklebust@primarydata.com|2016-12-19 17:30:03-05:00|18000

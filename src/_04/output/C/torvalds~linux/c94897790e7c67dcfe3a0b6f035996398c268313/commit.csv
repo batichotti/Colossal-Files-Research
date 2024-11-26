@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c94897790e7c67dcfe3a0b6f035996398c268313|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[CIFS] remove unused funtion compile warning when experimental off
-
-get rid of couple of unused function warnings which
-show up when CONFIG_CIFS_EXPERIMENTAL is not defined - wrap them in
-#ifdef CONFIG_CIFS_EXPERIMENTAL. Patch against current git.
-
-Signed-off-by: Parag Warudkar <kernel-stuff@comcast.net>
-Signed-off-by: Steve French <sfrench@us.ibm.com>"|1|Parag Warudkar|kernel-stuff@comcast.net|2007-10-23 18:09:48+00:00|0|Steve French|sfrench@us.ibm.com|2007-10-23 18:09:48+00:00|0

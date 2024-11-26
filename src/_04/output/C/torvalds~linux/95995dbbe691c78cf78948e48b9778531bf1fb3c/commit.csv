@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|95995dbbe691c78cf78948e48b9778531bf1fb3c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: remove unused logic of limiting async delalloc pages
-
-A proposed patch in https://marc.info/?l=linux-btrfs&m=147859791003837
-pointed out bad limit threshold in cow_file_range_async, but it turned
-out that the whole logic is not necessary and is done by writeback. We
-agreed to remove it.
-
-Signed-off-by: David Sterba <dsterba@suse.com>"|1|David Sterba|dsterba@suse.com|2017-01-06 13:27:00+01:00|-3600|David Sterba|dsterba@suse.com|2017-02-14 15:50:51+01:00|-3600

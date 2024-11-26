@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9249e17fe094d853d1ef7475dd559a2cc7e23d42|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"VFS: Pass mount flags to sget()
-
-Pass mount flags to sget() so that it can use them in initialising a new
-superblock before the set function is called.  They could also be passed to the
-compare function.
-
-Signed-off-by: David Howells <dhowells@redhat.com>
-Signed-off-by: Al Viro <viro@zeniv.linux.org.uk>"|20|David Howells|dhowells@redhat.com|2012-06-25 12:55:37+01:00|-3600|Al Viro|viro@zeniv.linux.org.uk|2012-07-14 16:38:34+04:00|-14400

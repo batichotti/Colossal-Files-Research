@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9cc0001a18b4e5f46ec481201c88ae16f0a69bb0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nftables: disallow updates on table ownership
-
-Disallow updating the ownership bit on an existing table: Do not allow
-to grab ownership on an existing table. Do not allow to drop ownership
-on an existing table.
-
-Fixes: 6001a930ce03 (""netfilter: nftables: introduce table ownership"")
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|1|Pablo Neira Ayuso|pablo@netfilter.org|2021-02-27 22:31:27+01:00|-3600|Pablo Neira Ayuso|pablo@netfilter.org|2021-03-02 16:37:22+01:00|-3600

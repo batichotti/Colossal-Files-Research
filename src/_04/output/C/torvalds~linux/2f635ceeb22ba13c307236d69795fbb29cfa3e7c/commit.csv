@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2f635ceeb22ba13c307236d69795fbb29cfa3e7c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: Drop pernet_operations::async
-
-Synchronous pernet_operations are not allowed anymore.
-All are asynchronous. So, drop the structure member.
-
-Signed-off-by: Kirill Tkhai <ktkhai@virtuozzo.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|182|Kirill Tkhai|ktkhai@virtuozzo.com|2018-03-27 18:02:13+03:00|-10800|David S. Miller|davem@davemloft.net|2018-03-27 13:18:09-04:00|14400

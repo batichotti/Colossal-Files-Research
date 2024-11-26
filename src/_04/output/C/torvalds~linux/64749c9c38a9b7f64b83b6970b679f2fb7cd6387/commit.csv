@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|64749c9c38a9b7f64b83b6970b679f2fb7cd6387|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: hns3: remove redundant return value of hns3_uninit_all_ring()
-
-Since hns3_uninit_all_ring() only returns 0, so remove this
-redundant return value and function declaration in hns3_enet.h.
-
-Signed-off-by: Huazhong Tan <tanhuazhong@huawei.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Huazhong Tan|tanhuazhong@huawei.com|2021-02-09 10:41:58+08:00|-28800|David S. Miller|davem@davemloft.net|2021-02-09 15:34:07-08:00|28800

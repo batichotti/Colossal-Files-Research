@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|720869eb19f3161980d6d4631d3df7e8c5355993|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS: Separate tracking of file mode cache validity from the uid/gid
-
-chown()/chgrp() and chmod() are separate operations, and in addition,
-there are mode operations that are performed automatically by the
-server. So let's track mode validity separately from the file ownership
-validity.
-
-Signed-off-by: Trond Myklebust <trond.myklebust@hammerspace.com>"|6|Trond Myklebust|trond.myklebust@hammerspace.com|2021-04-13 09:41:16-04:00|14400|Trond Myklebust|trond.myklebust@hammerspace.com|2021-04-13 09:41:16-04:00|14400

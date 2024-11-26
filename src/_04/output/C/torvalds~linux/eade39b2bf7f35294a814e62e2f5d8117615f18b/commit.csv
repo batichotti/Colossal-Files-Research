@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|eade39b2bf7f35294a814e62e2f5d8117615f18b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tools/power turbostat: cleanup 'automatic_cstate_conversion_probe()'
-
-The 'automatic_cstate_conversion_probe()' function has a too long 'if'
-statement, convert it to a 'switch' statement in order to improve code
-readability a bit.
-
-Signed-off-by: Artem Bityutskiy <artem.bityutskiy@linux.intel.com>
-Signed-off-by: Len Brown <len.brown@intel.com>"|1|Artem Bityutskiy|artem.bityutskiy@linux.intel.com|2022-07-26 18:29:33+03:00|-10800|Len Brown|len.brown@intel.com|2022-07-28 14:37:19-04:00|14400

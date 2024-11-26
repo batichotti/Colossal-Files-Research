@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4b258461c0b31ded170a1a56b944b0fded1c887b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: Optimize non-gso test checks
-
-Avoid checking twice whether skb needs to be linearized, if one
-skb_linearize was already done.
-
-Signed-off-by: Krishna Kumar <krkumar2@in.ibm.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Krishna Kumar|krkumar2@in.ibm.com|2010-01-21 01:26:29-08:00|28800|David S. Miller|davem@davemloft.net|2010-01-21 01:26:29-08:00|28800

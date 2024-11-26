@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|516a1a7e9dc80358030fe01aabb3bedf882db9e2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: Flush volatile msrs before emulating rdmsr
-
-Some msrs (notable MSR_KERNEL_GS_BASE) are held in the processor registers
-and need to be flushed to the vcpu struture before they can be read.
-
-This fixes cygwin longjmp() failure on Windows x64.
-
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Avi Kivity|avi@redhat.com|2009-02-15 02:32:07+02:00|-7200|Avi Kivity|avi@redhat.com|2009-02-15 02:47:39+02:00|-7200

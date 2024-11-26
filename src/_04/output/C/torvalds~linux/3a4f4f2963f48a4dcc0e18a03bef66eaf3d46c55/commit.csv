@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3a4f4f2963f48a4dcc0e18a03bef66eaf3d46c55|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ASoC: rt5677: Convert I2C driver to ->probe_new()
-
-There is no platform code that uses i2c module table.
-Remove it altogether and adjust ->probe() to be ->probe_new().
-
-Signed-off-by: Andy Shevchenko <andriy.shevchenko@linux.intel.com>
-Signed-off-by: Mark Brown <broonie@kernel.org>"|1|Andy Shevchenko|andriy.shevchenko@linux.intel.com|2018-05-18 18:41:51+03:00|-10800|Mark Brown|broonie@kernel.org|2018-05-18 16:50:49+01:00|-3600

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|41033b65b98388cb255c0307ea869856f71ca80d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bnx2: Enable auto-mdix when autoneg is disabled.
-
-Auto-mdix currently only works if autoneg is enabled.  This patch enables
-auto-mdix all the time by setting a bit in a PHY register.  Define
-meaningful constants for this PHY registers.
-
-Signed-off-by: Michael Chan <mchan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Michael Chan|mchan@broadcom.com|2013-12-31 23:22:33-08:00|28800|David S. Miller|davem@davemloft.net|2014-01-01 22:03:38-05:00|18000

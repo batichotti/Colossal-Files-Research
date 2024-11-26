@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b362c733ed7bf312ed729847bc26ba89febc556e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"dm: push error reporting down to dm_register_target()
-
-Simplifies each DM target's init method by making dm_register_target()
-responsible for its error reporting (on behalf of targets).
-
-Signed-off-by: Yangtao Li <frank.li@vivo.com>
-Signed-off-by: Mike Snitzer <snitzer@kernel.org>"|18|Yangtao Li|frank.li@vivo.com|2023-03-18 21:16:33+08:00|-28800|Mike Snitzer|snitzer@kernel.org|2023-04-11 12:01:01-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|88ff2f45f23eb0f0e262251b34edb4582ce8e188|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rt2x00: change default MAC_BSSID_DW1_BSS_BCN_NUM
-
-We setup MAC_BSSID_DW1_BSS_BCN_NUM dynamically when numbers of active
-beacons increase. Change default to 0 to tell hardware that we want to
-send only one beacon as default.
-
-Signed-off-by: Stanislaw Gruszka <sgruszka@redhat.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|1|Stanislaw Gruszka|sgruszka@redhat.com|2014-06-05 13:52:25+02:00|-7200|John W. Linville|linville@tuxdriver.com|2014-06-19 15:49:15-04:00|14400

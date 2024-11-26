@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|aacc20e35edfb86cf66c5ee8d9f3d06a98362fd1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] lpfc 8.3.7: Fix SCSI protocol related errors.
-
-Fix SCSI protocol related errors:
-- Avoid I/O failures during EEH and HBA/CNA reset by correcting when
-  we block the targets on the adapter.
-
-Signed-off-by: James Smart <james.smart@emulex.com>
-Signed-off-by: James Bottomley <James.Bottomley@suse.de>"|2|James Smart|james.smart@emulex.com|2009-12-21 17:02:51-05:00|18000|James Bottomley|James.Bottomley@suse.de|2010-01-04 11:39:45-06:00|21600

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4d6931c380a976753f7566a96b58690010ef1413|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: MMU: make use of ->root_level in reset_rsvds_bits_mask
-
-The reset_rsvds_bits_mask() function can use the guest walker's root level
-number instead of using a separate 'level' variable.
-
-Signed-off-by: Davidlohr Bueso <dave@gnu.org>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Davidlohr Bueso|dave@gnu.org|2012-03-05 16:53:06+01:00|-3600|Avi Kivity|avi@redhat.com|2012-03-08 14:13:54+02:00|-7200

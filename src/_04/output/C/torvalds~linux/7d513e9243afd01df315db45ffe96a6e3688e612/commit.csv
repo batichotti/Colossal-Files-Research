@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7d513e9243afd01df315db45ffe96a6e3688e612|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Handle security level 4 for L2CAP connections
-
-With the introduction of security level 4, the L2CAP sockets need to
-be made aware of this new level. This change ensures that the pairing
-requirements are set correctly for these connections.
-
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>"|3|Marcel Holtmann|marcel@holtmann.org|2014-01-15 22:37:40-08:00|28800|Johan Hedberg|johan.hedberg@intel.com|2014-02-13 09:51:35+02:00|-7200

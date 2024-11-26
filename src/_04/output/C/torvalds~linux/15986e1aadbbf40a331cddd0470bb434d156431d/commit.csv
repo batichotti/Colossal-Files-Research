@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|15986e1aadbbf40a331cddd0470bb434d156431d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[TCP]: tcp_rcv_rtt_measure_ts() call in pure-ACK path is superfluous
-
-We only want to take receive RTT mesaurements for data
-bearing frames, here in the header prediction fast path
-for a pure-sender, we know that we have a pure-ACK and
-thus the checks in tcp_rcv_rtt_mesaure_ts() will not pass.
-
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|David S. Miller|davem@sunset.sfo1.dsl.speakeasy.net|2006-05-25 16:11:14-07:00|25200|David S. Miller|davem@sunset.davemloft.net|2006-06-17 21:26:16-07:00|25200

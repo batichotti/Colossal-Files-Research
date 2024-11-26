@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ff38c21663c5f9b8d33cf2979e07e811f2560161|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[media] drxk_hard: fix a few warnings
-
-drivers/media/dvb-frontends/drxk_hard.c:68:6: warning: no previous prototype for 'IsA1WithPatchCode' [-Wmissing-prototypes]
-drivers/media/dvb-frontends/drxk_hard.c:73:6: warning: no previous prototype for 'IsA1WithRomCode' [-Wmissing-prototypes]
-drivers/media/dvb-frontends/drxk_hard.c:192:12: warning: no previous prototype for 'Frac28a' [-Wmissing-prototypes]
-drivers/media/dvb-frontends/drxk_hard.c:590:5: warning: no previous prototype for 'PowerUpDevice' [-Wmissing-prototypes]
-
-Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"|1|Mauro Carvalho Chehab|mchehab@redhat.com|2012-10-25 13:40:04-02:00|7200|Mauro Carvalho Chehab|mchehab@redhat.com|2012-10-25 13:40:04-02:00|7200

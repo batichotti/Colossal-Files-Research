@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|42a2c09f2b0b95fa147bcdb56cdc02b980b9ac5e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libceph: open-code remove_{all,old}_osds()
-
-They are called only once, from ceph_osdc_stop() and
-handle_osds_timeout() respectively.
-
-Signed-off-by: Ilya Dryomov <idryomov@gmail.com>"|1|Ilya Dryomov|idryomov@gmail.com|2016-04-28 16:07:22+02:00|-7200|Ilya Dryomov|idryomov@gmail.com|2016-05-26 00:36:23+02:00|-7200

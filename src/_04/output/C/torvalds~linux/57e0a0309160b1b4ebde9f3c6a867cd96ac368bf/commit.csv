@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|57e0a0309160b1b4ebde9f3c6a867cd96ac368bf|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mm: numa: Introduce last_nid to the page frame
-
-This patch introduces a last_nid field to the page struct. This is used
-to build a two-stage filter in the next patch that is aimed at
-mitigating a problem whereby pages migrate to the wrong node when
-referenced by a process that was running off its home node.
-
-Signed-off-by: Mel Gorman <mgorman@suse.de>"|3|Mel Gorman|mgorman@suse.de|2012-11-12 09:06:20+00:00|0|Mel Gorman|mgorman@suse.de|2012-12-11 14:42:52+00:00|0

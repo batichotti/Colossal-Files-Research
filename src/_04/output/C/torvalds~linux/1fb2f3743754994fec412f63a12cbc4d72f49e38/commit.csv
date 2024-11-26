@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1fb2f3743754994fec412f63a12cbc4d72f49e38|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"habanalabs: check flag before reset because of f/w event
-
-For consistency with GAUDI code, add check of the relevant flag in the
-device structure before resetting the GOYA device in case of firmware
-event.
-
-Reviewed-by: Tomer Tayar <ttayar@habana.ai>
-Signed-off-by: Oded Gabbay <oded.gabbay@gmail.com>"|1|Oded Gabbay|oded.gabbay@gmail.com|2020-09-04 21:39:14+03:00|-10800|Oded Gabbay|oded.gabbay@gmail.com|2020-09-22 18:49:52+03:00|-10800

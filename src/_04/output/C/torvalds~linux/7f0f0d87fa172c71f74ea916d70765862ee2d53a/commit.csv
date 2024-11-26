@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7f0f0d87fa172c71f74ea916d70765862ee2d53a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md: fix some issues with alloc_disk_sb()
-
-1/ don't print a warning if allocation fails.
- page_alloc() does that already.
-2/ always check return status for error.
-
-Signed-off-by: NeilBrown <neilb@suse.com>
-Signed-off-by: Shaohua Li <shli@fb.com>"|1|NeilBrown|neilb@suse.com|2016-11-02 14:16:49+11:00|-39600|Shaohua Li|shli@fb.com|2016-11-07 15:08:21-08:00|28800

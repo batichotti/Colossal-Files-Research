@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2c832293e09be2f998ea916650927c8ccd5b4b3b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: mvneta: fix trivial cut-off issue in mvneta_ethtool_update_stats
-
-When s->type is T_REG_64, the high 32bits are lost in val. This patch
-fixes this trivial issue.
-
-Signed-off-by: Jisheng Zhang <jszhang@marvell.com>
-Fixes: 9b0cdefa4cd5 (""net: mvneta: add ethtool statistics"")
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Jisheng Zhang|jszhang@marvell.com|2016-01-20 16:36:25+08:00|-28800|David S. Miller|davem@davemloft.net|2016-01-21 12:03:30-08:00|28800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e5a95eb778690bc864eb330202d2c1b974caaeb4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Select the correct BPC for LVDS on Ironlake
-
-Select the correct BPC for LVDS on Ironlake. If it is 18-bit LVDS panel,
-the BPC will be 6. When it is 24-bit LVDS panel, the BPC will 8.
-At the same time the BPC will be 8 when the output device is CRT/HDMI/DP.
-
-Signed-off-by: Zhao Yakui <yakui.zhao@intel.com>
-Signed-off-by: Eric Anholt <eric@anholt.net>"|1|Zhao Yakui|yakui.zhao@intel.com|2010-01-04 16:29:32+08:00|-28800|Eric Anholt|eric@anholt.net|2010-01-06 09:40:13-08:00|28800

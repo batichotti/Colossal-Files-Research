@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|888afa15418f001896bc11f498f9348e029611bd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[ALSA] hda-codec - keep the format verb at closing PCM streams
-
-Keep the format verb at closing PCM streams.
-Introduced snd_hda_codec_cleanup_stream() for the parcicular purpose.
-
-Signed-off-by: Takashi Iwai <tiwai@suse.de>"|9|Takashi Iwai|tiwai@suse.de|2008-03-18 09:57:50+01:00|-3600|Takashi Iwai|tiwai@suse.de|2008-04-24 12:00:26+02:00|-7200

@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|643168c2dc0d04cb884ae7bcd1ee19d9ecdff6a8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfs4_closedata doesn't need to mess with struct path
-
-instead of path_get()/path_put(), we can just use nfs_sb_{,de}active()
-to pin the superblock down.
-
-Signed-off-by: Al Viro <viro@zeniv.linux.org.uk>"|3|Al Viro|viro@zeniv.linux.org.uk|2011-06-22 18:20:23-04:00|14400|Al Viro|viro@zeniv.linux.org.uk|2011-07-20 01:43:41-04:00|14400

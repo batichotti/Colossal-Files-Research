@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|12d6cc60f2d02d5754ca662b414f8f96200b14a6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Disable FCS only for new HS channels
-
-Set chan->fcs to L2CAP_FCS_NONE only for new L2CAP channels
-(not moved). Other side can still request to use FCS.
-
-Signed-off-by: Andrei Emeltchenko <andrei.emeltchenko@intel.com>
-Acked-by: Marcel Holtmann <marcel@holtmann.org>
-Signed-off-by: Gustavo Padovan <gustavo.padovan@collabora.co.uk>"|2|Andrei Emeltchenko|andrei.emeltchenko@intel.com|2012-11-14 17:39:31+02:00|-7200|Gustavo Padovan|gustavo.padovan@collabora.co.uk|2012-11-19 19:30:35-02:00|7200

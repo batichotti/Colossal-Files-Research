@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6044735d8ddd96bf23cf975bae8729c65479aa14|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bnx2x: Reduce the likelihood of smb_mb
-
-As the comment explains, this smb_mb is needed only if the queue is stopped
-(which is unlikely) so the barrier can be moved to that location
-
-Signed-off-by: Eilon Greenstein <eilong@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Eilon Greenstein|eilong@broadcom.com|2009-03-02 07:59:24+00:00|0|David S. Miller|davem@davemloft.net|2009-03-02 22:32:38-08:00|28800

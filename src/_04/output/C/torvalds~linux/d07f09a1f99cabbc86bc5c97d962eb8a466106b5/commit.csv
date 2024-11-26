@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d07f09a1f99cabbc86bc5c97d962eb8a466106b5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sched/fair: Propagate enqueue flags into place_entity()
-
-This allows place_entity() to consider ENQUEUE_WAKEUP and
-ENQUEUE_MIGRATED.
-
-Signed-off-by: Peter Zijlstra (Intel) <peterz@infradead.org>
-Signed-off-by: Ingo Molnar <mingo@kernel.org>
-Link: https://lore.kernel.org/r/20230531124604.274010996@infradead.org"|2|Peter Zijlstra|peterz@infradead.org|2023-05-31 13:58:49+02:00|-7200|Ingo Molnar|mingo@kernel.org|2023-07-19 09:43:59+02:00|-7200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4eb788df670ef30a19b7ea15b107ea440544bc80|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"raid5: reduce chance release_stripe() taking device_lock
-
-release_stripe() is a place conf->device_lock is heavily contended. We take the
-lock even stripe count isn't 1, which isn't required.
-
-Signed-off-by: Shaohua Li <shli@fusionio.com>
-Signed-off-by: NeilBrown <neilb@suse.de>"|1|Shaohua Li|shli@kernel.org|2012-07-19 16:01:31+10:00|-36000|NeilBrown|neilb@suse.de|2012-07-19 16:01:31+10:00|-36000

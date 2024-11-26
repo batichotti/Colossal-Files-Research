@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cd812599796f500b042f5464b6665755eca21137|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS: Remove the ""NFS_CAP_CHANGE_ATTR"" capability
-
-Setting the change attribute has been mandatory for all NFS versions, since
-commit 3a1556e8662c (""NFSv2/v3: Simulate the change attribute""). We should
-therefore not have anything be conditional on it being set/unset.
-
-Signed-off-by: Trond Myklebust <trond.myklebust@primarydata.com>"|4|Trond Myklebust|trond.myklebust@primarydata.com|2015-07-05 11:12:07-04:00|14400|Trond Myklebust|trond.myklebust@primarydata.com|2015-07-22 17:15:54-04:00|14400

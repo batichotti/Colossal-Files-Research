@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|26de9b11713057a16a9220423a2f137774763b0e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: avoid unnecessary updating inode during fsync
-
-If roll-forward recovery can recover i_size, we don't need to update inode's
-metadata during fsync.
-
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|7|Jaegeuk Kim|jaegeuk@kernel.org|2016-05-20 20:42:37-07:00|25200|Jaegeuk Kim|jaegeuk@kernel.org|2016-06-02 18:05:13-07:00|25200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b93463aa59d67b21b4921e30bd5c5dcc7c35ffbd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Accelerated apic support
-
-This adds a mechanism for exposing the virtual apic tpr to the guest, and a
-protocol for letting the guest update the tpr without causing a vmexit if
-conditions allow (e.g. there is no interrupt pending with a higher priority
-than the new tpr).
-
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|5|Avi Kivity|avi@qumranet.com|2007-10-25 16:52:32+02:00|-7200|Avi Kivity|avi@qumranet.com|2008-01-30 18:01:20+02:00|-7200

@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d7224c0e128c7337c0b0f66ac20921fbbf4efc14|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ring-buffer: Make ring_buffer_record_is_set_on() return bool
-
-The value of ring_buffer_record_is_set_on() is either true or false, so have
-its return value be bool.
-
-Signed-off-by: Steven Rostedt (VMware) <rostedt@goodmis.org>"|2|Steven Rostedt (VMware)|rostedt@goodmis.org|2018-08-01 21:09:50-04:00|14400|Steven Rostedt (VMware)|rostedt@goodmis.org|2018-08-01 21:09:50-04:00|14400

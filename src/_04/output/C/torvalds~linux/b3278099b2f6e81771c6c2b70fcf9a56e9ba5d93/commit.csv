@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b3278099b2f6e81771c6c2b70fcf9a56e9ba5d93|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libbpf: Add bpf_map__inner_map API
-
-The API gives access to inner map for map in map types (array or
-hash of map). It will be used to dynamically set max_entries in it.
-
-Signed-off-by: Yauheni Kaliuta <yauheni.kaliuta@redhat.com>
-Signed-off-by: Andrii Nakryiko <andrii@kernel.org>
-Link: https://lore.kernel.org/bpf/20210408061310.95877-7-yauheni.kaliuta@redhat.com"|3|Andrii Nakryiko|andrii.nakryiko@gmail.com|2021-04-08 09:13:08+03:00|-10800|Andrii Nakryiko|andrii@kernel.org|2021-04-08 23:54:48-07:00|25200

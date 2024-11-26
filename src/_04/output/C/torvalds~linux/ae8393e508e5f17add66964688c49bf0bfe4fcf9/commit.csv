@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ae8393e508e5f17add66964688c49bf0bfe4fcf9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sched: move rcu_head to task_group struct
-
-Peter Zijlstra noticed that the rcu_head object need not be present
-in every cfs_rq of a group. Move it to the task_group structure
-instead.
-
-Signed-off-by: Srivatsa Vaddagiri <vatsa@linux.vnet.ibm.com>
-Signed-off-by: Ingo Molnar <mingo@elte.hu>"|1|Srivatsa Vaddagiri|vatsa@linux.vnet.ibm.com|2007-10-29 21:18:11+01:00|-3600|Ingo Molnar|mingo@elte.hu|2007-10-29 21:18:11+01:00|-3600

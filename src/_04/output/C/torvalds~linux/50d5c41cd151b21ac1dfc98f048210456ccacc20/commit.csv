@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|50d5c41cd151b21ac1dfc98f048210456ccacc20|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"slub: Do not use frozen page flag but a bit in the page counters
-
-Do not use a page flag for the frozen bit. It needs to be part
-of the state that is handled with cmpxchg_double(). So use a bit
-in the counter struct in the page struct for that purpose.
-
-Signed-off-by: Christoph Lameter <cl@linux.com>
-Signed-off-by: Pekka Enberg <penberg@kernel.org>"|3|Christoph Lameter|cl@linux.com|2011-06-01 12:25:45-05:00|18000|Pekka Enberg|penberg@kernel.org|2011-07-02 13:26:52+03:00|-10800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5865fc1b6a99bc7dcf245770c2735577b8596b6e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tg3: remove redundant pm init code
-
-Pci_enable_device() will set device pm state to D0, so
-it's no need to do it again in tg3_init_one().
-
-Acked-by: Michael Chan <mchan@broadcom.com>
-Signed-off-by: Yijing Wang <wangyijing@huawei.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Yijing Wang|wangyijing@huawei.com|2013-06-02 21:36:21+00:00|0|David S. Miller|davem@davemloft.net|2013-06-03 00:48:11-07:00|25200

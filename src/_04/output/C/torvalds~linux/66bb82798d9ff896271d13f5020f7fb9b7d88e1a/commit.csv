@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|66bb82798d9ff896271d13f5020f7fb9b7d88e1a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: remove redundant #ifdef in super.c
-
-There is already an #ifdef CONFIG_QUOTA some lines above,
-so this one is totally useless.
-
-Signed-off-by: WANG Cong <amwang@redhat.com>
-Signed-off-by: ""Theodore Ts'o"" <tytso@mit.edu>"|1|Amerigo Wang|amwang@redhat.com|2011-05-09 10:30:41-04:00|14400|Theodore Ts'o|tytso@mit.edu|2011-05-09 10:30:41-04:00|14400

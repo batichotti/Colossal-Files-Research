@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ce93718fb7cdbc064c3000ff59e4d3200bdfa744|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: Don't keep around original SKB when we software segment GSO frames.
-
-Just maintain the list properly by returning the head of the remaining
-SKB list from dev_hard_start_xmit().
-
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|David S. Miller|davem@davemloft.net|2014-08-30 19:22:20-07:00|25200|David S. Miller|davem@davemloft.net|2014-09-01 17:39:56-07:00|25200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|56f6098441adb9487f6e0439429fc536afcf9e71|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Zero bredr pointer when chan is deleted
-
-If BREDR L2CAP chan is deleted and this chan is the channel through
-which High Speed traffic is routed to AMP then zero pointer to
-the chan in amp_mgr to prevent accessing it.
-
-Signed-off-by: Andrei Emeltchenko <andrei.emeltchenko@intel.com>
-Signed-off-by: Gustavo Padovan <gustavo.padovan@collabora.co.uk>"|1|Andrei Emeltchenko|andrei.emeltchenko@intel.com|2012-10-15 11:58:44+03:00|-10800|Gustavo Padovan|gustavo.padovan@collabora.co.uk|2012-10-15 09:49:58-03:00|10800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|56ff5efad96182f4d3cb3dc6b07396762c658f16|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"zero i_uid/i_gid on inode allocation
-
-... and don't bother in callers.  Don't bother with zeroing i_blocks,
-while we are at it - it's already been zeroed.
-
-i_mode is not worth the effort; it has no common default value.
-
-Signed-off-by: Al Viro <viro@zeniv.linux.org.uk>"|31|Al Viro|viro@zeniv.linux.org.uk|2008-12-09 09:34:39-05:00|18000|Al Viro|viro@zeniv.linux.org.uk|2009-01-05 11:54:28-05:00|18000

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|72f78356a4a688d7286ac18c1b57d5507f68eefe|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Remove unneeded parameter from L2CAP ATT channel handling
-
-The CID is fixed to L2CAP ATT channel and so there is no need to hand it
-down to the handling function. Just use a constant instead.
-
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>
-Acked-by: Johan Hedberg <johan.hedberg@intel.com>
-Signed-off-by: Gustavo Padovan <gustavo.padovan@collabora.co.uk>"|1|Marcel Holtmann|marcel@holtmann.org|2013-04-23 00:59:00-07:00|25200|Gustavo Padovan|gustavo.padovan@collabora.co.uk|2013-04-23 20:32:23-03:00|10800

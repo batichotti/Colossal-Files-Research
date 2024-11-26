@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|41e03d15977978cdf8a5936f30ceb6088dda157a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"OMAP: DSS2: Remove omap_dss_device argument from dsi_pll_init()
-
-The function dsi_pll_init() has omap_dss_device argument which is
-not used. Remove this argument.
-
-Signed-off-by: Archit Taneja <archit@ti.com>
-Signed-off-by: Tomi Valkeinen <tomi.valkeinen@ti.com>"|3|Archit Taneja|archit@ti.com|2011-05-12 17:26:25+05:30|-19800|Tomi Valkeinen|tomi.valkeinen@ti.com|2011-05-12 19:30:26+03:00|-10800

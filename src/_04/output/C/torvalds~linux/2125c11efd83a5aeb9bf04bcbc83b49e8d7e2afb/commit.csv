@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2125c11efd83a5aeb9bf04bcbc83b49e8d7e2afb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"crypto: testmgr - stop checking crypto_shash_alignmask
-
-Now that the shash algorithm type does not support nonzero alignmasks,
-crypto_shash_alignmask() always returns 0 and will be removed.  In
-preparation for this, stop checking crypto_shash_alignmask() in testmgr.
-
-Signed-off-by: Eric Biggers <ebiggers@google.com>
-Signed-off-by: Herbert Xu <herbert@gondor.apana.org.au>"|1|Eric Biggers|ebiggers@google.com|2023-10-18 22:53:40-07:00|25200|Herbert Xu|herbert@gondor.apana.org.au|2023-10-27 18:04:25+08:00|-28800

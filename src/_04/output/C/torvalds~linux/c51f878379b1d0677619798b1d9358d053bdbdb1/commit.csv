@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c51f878379b1d0677619798b1d9358d053bdbdb1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211_hwsim: fix beacon timing
-
-A beacon period starts at TSF time 0. Spoof this by
-rounding the starting beacon time to a multiple of the
-beacon interval, and keep TBTT aligned on TSF adjustment.
-
-Signed-off-by: Thomas Pedersen <thomas@cozybit.com>
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Thomas Pedersen|thomas@cozybit.com|2013-01-02 14:55:18-08:00|28800|Johannes Berg|johannes.berg@intel.com|2013-01-04 14:01:55+01:00|-3600

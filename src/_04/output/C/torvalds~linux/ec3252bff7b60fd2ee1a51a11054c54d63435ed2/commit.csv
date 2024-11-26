@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ec3252bff7b60fd2ee1a51a11054c54d63435ed2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wifi: mac80211: use wiphy work for channel switch
-
-Channel switch obviously must be handled per link, and we
-have a (potential) deadlock when canceling that work. Use
-the new delayed wiphy work to handle this instead and get
-rid of the explicit timer that way too.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|3|Johannes Berg|johannes.berg@intel.com|2023-06-06 14:49:29+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2023-06-07 19:53:24+02:00|-7200

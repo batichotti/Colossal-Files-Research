@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2f0605a697f4b9f5b1c1571c7ec6a16df4dc2616|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nl80211: Free connkeys on external authentication failure
-
-The failure scenario while processing
-NL80211_ATTR_EXTERNAL_AUTH_SUPPORT does not free
-the connkeys. This commit addresses the same.
-
-Signed-off-by: Srinivas Dasari <dasaris@codeaurora.org>
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Srinivas Dasari|dasaris@codeaurora.org|2018-04-20 11:41:14+05:30|-19800|Johannes Berg|johannes.berg@intel.com|2018-04-20 09:58:03+02:00|-7200

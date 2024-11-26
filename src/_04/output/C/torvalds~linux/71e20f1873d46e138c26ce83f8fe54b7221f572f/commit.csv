@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|71e20f1873d46e138c26ce83f8fe54b7221f572f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sched: affine sync wakeups
-
-make sync wakeups affine for cache-cold tasks: if a cache-cold task
-is woken up by a sync wakeup then use the opportunity to migrate it
-straight away. (the two tasks are 'related' because they communicate)
-
-Signed-off-by: Ingo Molnar <mingo@elte.hu>"|3|Ingo Molnar|mingo@elte.hu|2007-10-15 17:00:19+02:00|-7200|Ingo Molnar|mingo@elte.hu|2007-10-15 17:00:19+02:00|-7200

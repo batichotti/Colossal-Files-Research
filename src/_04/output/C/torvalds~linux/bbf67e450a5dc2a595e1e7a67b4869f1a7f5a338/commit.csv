@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bbf67e450a5dc2a595e1e7a67b4869f1a7f5a338|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nl80211: Fix enum type of variable in nl80211_put_sta_rate()
-
-rate_flg is of type 'enum nl80211_attrs', however it is assigned with
-'enum nl80211_rate_info' values. Change the type of rate_flg accordingly.
-
-Signed-off-by: Matthias Kaehlcke <mka@chromium.org>
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Matthias Kaehlcke|mka@chromium.org|2017-04-17 15:59:52-07:00|25200|Johannes Berg|johannes.berg@intel.com|2017-04-18 11:03:03+02:00|-7200

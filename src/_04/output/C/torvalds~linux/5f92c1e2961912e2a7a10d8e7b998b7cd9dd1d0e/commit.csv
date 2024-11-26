@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5f92c1e2961912e2a7a10d8e7b998b7cd9dd1d0e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"habanalabs: remove all kdma locks
-
-We don't use KDMA concurrently in the driver. The only use is through
-debugfs and we don't protect concurrent access through it.
-
-Reported-by: Dan Carpenter <dan.carpenter@oracle.com>
-Signed-off-by: Oded Gabbay <ogabbay@kernel.org>"|5|Oded Gabbay|ogabbay@kernel.org|2022-07-19 12:16:01+03:00|-10800|Oded Gabbay|ogabbay@kernel.org|2022-09-18 13:29:50+03:00|-10800

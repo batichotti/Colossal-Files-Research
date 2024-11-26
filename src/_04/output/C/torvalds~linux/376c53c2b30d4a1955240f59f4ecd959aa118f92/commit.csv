@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|376c53c2b30d4a1955240f59f4ecd959aa118f92|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: MMU: improve invalid shadow root page handling
-
-Harden kvm_mmu_zap_page() against invalid root pages that
-had been shadowed from memslots that are gone.
-
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|1|Marcelo Tosatti|mtosatti@redhat.com|2008-07-10 20:54:29-03:00|10800|Avi Kivity|avi@qumranet.com|2008-07-20 12:42:40+03:00|-10800

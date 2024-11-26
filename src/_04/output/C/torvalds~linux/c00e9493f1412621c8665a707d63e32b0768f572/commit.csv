@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c00e9493f1412621c8665a707d63e32b0768f572|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: return error to caller if read_one_inode() fails
-
-When read_one_inode() fails, error code is returned to caller instead
-of BUG_ON().
-
-Signed-off-by: Tsutomu Itoh <t-itoh@jp.fujitsu.com>
-Signed-off-by: Chris Mason <chris.mason@oracle.com>"|1|Tsutomu Itoh|t-itoh@jp.fujitsu.com|2011-04-28 09:10:23+00:00|0|Chris Mason|chris.mason@oracle.com|2011-05-23 13:24:40-04:00|14400

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|264ff01d55b456932cef03082448b41d2edeb6a1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: Fix pending NMI-vs.-IRQ race for user space irqchip
-
-As with the kernel irqchip, don't allow an NMI to stomp over an already
-injected IRQ; instead wait for the IRQ injection to be completed.
-
-Signed-off-by: Jan Kiszka <jan.kiszka@siemens.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Jan Kiszka|jan.kiszka@siemens.com|2008-11-24 12:26:19+01:00|-3600|Avi Kivity|avi@redhat.com|2008-12-31 16:55:47+02:00|-7200

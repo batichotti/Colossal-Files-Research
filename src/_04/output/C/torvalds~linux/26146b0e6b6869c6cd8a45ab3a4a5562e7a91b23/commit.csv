@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|26146b0e6b6869c6cd8a45ab3a4a5562e7a91b23|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: mvpp2: cleanup probed ports in the probe error path
-
-This patches fixes the probe error path by cleaning up probed ports, to
-avoid leaving registered net devices when the driver failed to probe.
-
-Fixes: 3f518509dedc (""ethernet: Add new driver for Marvell Armada 375 network unit"")
-Signed-off-by: Antoine Tenart <antoine.tenart@free-electrons.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Antoine Tenart|antoine.tenart@free-electrons.com|2017-11-28 14:19:49+01:00|-3600|David S. Miller|davem@davemloft.net|2017-11-28 10:09:50-05:00|18000

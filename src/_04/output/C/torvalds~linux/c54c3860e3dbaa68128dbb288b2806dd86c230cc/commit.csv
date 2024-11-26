@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c54c3860e3dbaa68128dbb288b2806dd86c230cc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Temporarily stop background scanning on discovery
-
-If the user sends a mgmt start discovery command while the background
-scanning is running, we should temporarily stop it. Once the discovery
-finishes, we start the background scanning again.
-
-Signed-off-by: Andre Guedes <andre.guedes@openbossa.org>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|2|Andre Guedes|andre.guedes@openbossa.org|2014-02-26 20:21:50-03:00|10800|Marcel Holtmann|marcel@holtmann.org|2014-02-26 19:41:35-08:00|28800

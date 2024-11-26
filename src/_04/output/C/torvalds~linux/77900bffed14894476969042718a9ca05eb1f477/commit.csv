@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|77900bffed14894476969042718a9ca05eb1f477|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: nVMX: remove unnecessary #ifdef
-
-nested_vmx_check_controls() has already run by the time KVM checks host state,
-so the ""host address space size"" exit control can only be set on x86-64 hosts.
-Simplify the condition at the cost of adding some dead code to 32-bit kernels.
-
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Paolo Bonzini|pbonzini@redhat.com|2023-03-14 07:40:56-04:00|14400|Paolo Bonzini|pbonzini@redhat.com|2023-03-14 09:40:54-04:00|14400

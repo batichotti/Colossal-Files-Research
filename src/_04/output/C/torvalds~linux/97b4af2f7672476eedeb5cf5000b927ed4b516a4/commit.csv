@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|97b4af2f7672476eedeb5cf5000b927ed4b516a4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: mballoc: avoid 20-argument function call
-
-Making a function call with 20 arguments is rather expensive in both
-stack and .text. In this case, doing the formatting manually doesn't
-make it any less readable, so we might as well save 155 bytes of .text
-and 112 bytes of stack.
-
-Signed-off-by: Rasmus Villemoes <linux@rasmusvillemoes.dk>"|1|Rasmus Villemoes|linux@rasmusvillemoes.dk|2015-06-15 00:32:58-04:00|14400|Theodore Ts'o|tytso@mit.edu|2015-06-15 00:32:58-04:00|14400

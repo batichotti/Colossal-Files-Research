@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|477a30ba5f8dfb3fe951ed0352277bb26a616cb8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: Sink extent_tree arguments in try_release_extent_mapping
-
-This function already gets the page from which the two extent trees
-are referenced. Simplify its signature by moving the code getting the
-trees inside the function. No functional changes.
-
-Signed-off-by: Nikolay Borisov <nborisov@suse.com>
-Signed-off-by: David Sterba <dsterba@suse.com>"|3|Nikolay Borisov|nborisov@suse.com|2018-04-19 10:46:34+03:00|-10800|David Sterba|dsterba@suse.com|2018-05-28 18:07:19+02:00|-7200

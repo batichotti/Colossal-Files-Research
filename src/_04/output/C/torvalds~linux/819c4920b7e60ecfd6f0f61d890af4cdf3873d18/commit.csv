@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|819c4920b7e60ecfd6f0f61d890af4cdf3873d18|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: refactor truncate code
-
-Move common code in ext4_ind_truncate() and ext4_ext_truncate() into
-ext4_truncate().  This saves over 60 lines of code.
-
-Signed-off-by: ""Theodore Ts'o"" <tytso@mit.edu>"|4|Theodore Ts'o|tytso@mit.edu|2013-04-03 12:47:17-04:00|14400|Theodore Ts'o|tytso@mit.edu|2013-04-03 12:47:17-04:00|14400

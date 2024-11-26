@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8d8f371c83838d74bc3d0708afba631488a12201|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ceph: cleanup traceless reply handling for rename
-
-ceph_fill_trace() already calls ceph_invalidate_dir_request() for
-traceless reply. No need to duplicate the code in ceph_rename().
-
-Signed-off-by: ""Yan, Zheng"" <zyan@redhat.com>
-Signed-off-by: Ilya Dryomov <idryomov@gmail.com>"|2|Yan, Zheng|zyan@redhat.com|2017-11-24 11:51:32+08:00|-28800|Ilya Dryomov|idryomov@gmail.com|2018-01-29 18:36:06+01:00|-3600

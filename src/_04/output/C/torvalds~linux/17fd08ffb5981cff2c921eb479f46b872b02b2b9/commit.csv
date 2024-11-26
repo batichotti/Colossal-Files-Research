@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|17fd08ffb5981cff2c921eb479f46b872b02b2b9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Remove unnecessary HCI_ADVERTISING_INSTANCE flag
-
-This flag just tells us whether hdev->adv_instances is empty or not.
-We can equally well use the list_empty() function to get this
-information.
-
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|3|Johan Hedberg|johan.hedberg@intel.com|2015-11-26 12:15:59+02:00|-7200|Marcel Holtmann|marcel@holtmann.org|2015-12-10 00:51:49+01:00|-3600

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0600771fa6b231e801ba1ff5d7adfcf7659dbbf3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: hns3: Remove un-necessary 'else-if' in the hclge_reset_event()
-
-Code to defer the reset(which caps the frequency of the reset) schedules the
-timer and returns. Hence, following 'else-if' looks un-necessary.
-
-Fixes: 9de0b86f6444 (""net: hns3: Prevent to request reset frequently"")
-Signed-off-by: Salil Mehta <salil.mehta@huawei.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Salil Mehta|salil.mehta@huawei.com|2021-04-05 18:06:45+01:00|-3600|David S. Miller|davem@davemloft.net|2021-04-05 15:02:41-07:00|25200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b36461da2a0389149d7f88f3cbc05a30d1db9faa|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tracing: Fix minor bugs for __unregister_ftrace_function_probe
-
-Fix the condition of strcmp for ""*"".
-Also fix NULL pointer dereference when glob is NULL.
-
-Signed-off-by: Atsushi Tsuji <a-tsuji@bk.jp.nec.com>
-LKML-Reference: <4AAF6726.5090905@bk.jp.nec.com>
-Signed-off-by: Steven Rostedt <rostedt@goodmis.org>"|1|Atsushi Tsuji|a-tsuji@bk.jp.nec.com|2009-09-15 19:06:30+09:00|-32400|Steven Rostedt|rostedt@goodmis.org|2009-09-16 09:08:54-04:00|14400

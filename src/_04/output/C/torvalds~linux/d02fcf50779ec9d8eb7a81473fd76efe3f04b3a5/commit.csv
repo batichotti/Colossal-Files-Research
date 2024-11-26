@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d02fcf50779ec9d8eb7a81473fd76efe3f04b3a5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"kvm: vmx: Allow disabling virtual NMI support
-
-To simplify testing of these rarely used code paths, add a module parameter
-that turns it on.  One eventinj.flat test (NMI after iret) fails when
-loading kvm_intel with vnmi=0.
-
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>
-Signed-off-by: Radim Krčmář <rkrcmar@redhat.com>"|1|Paolo Bonzini|pbonzini@redhat.com|2017-11-06 13:31:13+01:00|-3600|Paolo Bonzini|pbonzini@redhat.com|2017-11-17 13:20:07+01:00|-3600

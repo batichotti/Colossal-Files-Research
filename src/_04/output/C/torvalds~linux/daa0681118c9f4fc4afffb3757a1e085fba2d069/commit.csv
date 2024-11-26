@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|daa0681118c9f4fc4afffb3757a1e085fba2d069|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: megaraid_sas: Rework code to get PD and LD list
-
-During FW init, combine the code to get the PD and LD list from FW into a
-single function.  This patch is in preparation for adding support for
-HOST_DEVICE_LIST DCMD.
-
-Signed-off-by: Shivasharan S <shivasharan.srikanteshwara@broadcom.com>
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|1|Shivasharan S|shivasharan.srikanteshwara@broadcom.com|2019-01-29 01:38:12-08:00|28800|Martin K. Petersen|martin.petersen@oracle.com|2019-02-04 22:52:20-05:00|18000

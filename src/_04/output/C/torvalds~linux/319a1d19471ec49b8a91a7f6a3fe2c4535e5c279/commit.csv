@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|319a1d19471ec49b8a91a7f6a3fe2c4535e5c279|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"flow_offload: check for basic action hw stats type
-
-Introduce flow_action_basic_hw_stats_types_check() helper and use it
-in drivers. That sanitizes the drivers which do not have support
-for action HW stats types.
-
-Signed-off-by: Jiri Pirko <jiri@mellanox.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|12|Jiri Pirko|jiri@mellanox.com|2020-03-07 12:40:13+01:00|-3600|David S. Miller|davem@davemloft.net|2020-03-08 21:07:48-07:00|25200

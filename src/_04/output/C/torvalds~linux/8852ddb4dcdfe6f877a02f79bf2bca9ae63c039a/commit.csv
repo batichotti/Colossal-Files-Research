@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8852ddb4dcdfe6f877a02f79bf2bca9ae63c039a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bnxt_en: Simplify VLAN receive logic.
-
-Since both CTAG and STAG rx acceleration must be enabled together, we
-only need to check one feature flag (NETIF_F_HW_VLAN_CTAG_RX) before
-calling __vlan_hwaccel_put_tag().
-
-Signed-off-by: Michael Chan <mchan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Michael Chan|michael.chan@broadcom.com|2016-06-06 02:37:16-04:00|14400|David S. Miller|davem@davemloft.net|2016-06-07 16:02:03-07:00|25200

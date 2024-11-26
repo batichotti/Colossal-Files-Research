@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|dd453dfd70538cadc02cb47ff8d8cfd0cb8cf435|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd: pass nfsd4_compound_state* to nfs4_preprocess_{state,seq}id_op
-
-Currently we only use cstate->current_fh,
-will also be used by nfsd41 code.
-
-Signed-off-by: Benny Halevy <bhalevy@panasas.com>
-Signed-off-by: J. Bruce Fields <bfields@citi.umich.edu>"|3|Benny Halevy|bhalevy@panasas.com|2009-04-03 08:28:41+03:00|-10800|J. Bruce Fields|bfields@citi.umich.edu|2009-04-03 17:41:19-07:00|25200

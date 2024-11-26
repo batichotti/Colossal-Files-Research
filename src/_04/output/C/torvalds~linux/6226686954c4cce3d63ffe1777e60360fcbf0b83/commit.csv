@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6226686954c4cce3d63ffe1777e60360fcbf0b83|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86 emulator: prefetch up to 15 bytes of the instruction executed
-
-Instead of fetching one byte at a time, prefetch 15 bytes (or until the next
-page boundary) to avoid guest page table walks.
-
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|2|Avi Kivity|avi@qumranet.com|2007-11-20 13:15:52+02:00|-7200|Avi Kivity|avi@qumranet.com|2008-01-30 17:53:09+02:00|-7200

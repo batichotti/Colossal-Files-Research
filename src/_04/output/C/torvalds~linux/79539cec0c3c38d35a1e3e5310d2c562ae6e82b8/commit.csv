@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|79539cec0c3c38d35a1e3e5310d2c562ae6e82b8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: MMU: Avoid unnecessary remote tlb flushes when guest updates a pte
-
-If all we're doing is increasing permissions on a pte (typical for demand
-paging), then there's not need to flush remote tlbs.  Worst case they'll
-get a spurious page fault.
-
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|1|Avi Kivity|avi@qumranet.com|2007-11-21 02:06:21+02:00|-7200|Avi Kivity|avi@qumranet.com|2008-01-30 17:53:10+02:00|-7200

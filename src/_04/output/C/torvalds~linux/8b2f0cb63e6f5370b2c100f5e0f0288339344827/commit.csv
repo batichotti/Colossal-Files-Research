@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8b2f0cb63e6f5370b2c100f5e0f0288339344827|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"pm-graph: v5.12, code revamp for python3.12
-
-sleepgraph/bootgraph function correctly in python3.12 but include a slew
-of deprecation warnings for unsupported regexes. This patch fixes up all
-the strings in the code so that it comforms with python3.12 standards.
-
-Signed-off-by: Todd Brandt <todd.e.brandt@intel.com>
-Signed-off-by: Rafael J. Wysocki <rafael.j.wysocki@intel.com>"|2|Todd Brandt|todd.e.brandt@intel.com|2024-05-31 02:13:10-07:00|25200|Rafael J. Wysocki|rafael.j.wysocki@intel.com|2024-06-07 21:28:35+02:00|-7200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ac3aa2f8ae29c186c4742d15e39712af417c6d68|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cifs: remove extraneous newlines from cERROR and cFYI calls
-
-Those macros add a newline on their own, so there's not any need to
-embed one in the message itself.
-
-Signed-off-by: Jeff Layton <jlayton@redhat.com>
-Signed-off-by: Steve French <smfrench@gmail.com>"|8|Jeff Layton|jlayton@redhat.com|2012-07-23 13:14:28-04:00|14400|Steve French|smfrench@gmail.com|2012-07-23 16:36:26-05:00|18000

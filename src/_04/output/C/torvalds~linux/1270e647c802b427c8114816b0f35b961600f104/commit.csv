@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1270e647c802b427c8114816b0f35b961600f104|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: Rename SMM tracepoint to make it reflect reality
-
-Rename the SMM tracepoint, which handles both entering and exiting SMM,
-from kvm_enter_smm to kvm_smm_transition.
-
-Signed-off-by: Sean Christopherson <seanjc@google.com>
-Message-Id: <20210609185619.992058-8-seanjc@google.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|2|Sean Christopherson|seanjc@google.com|2021-06-09 11:56:17-07:00|25200|Paolo Bonzini|pbonzini@redhat.com|2021-06-17 13:09:35-04:00|14400

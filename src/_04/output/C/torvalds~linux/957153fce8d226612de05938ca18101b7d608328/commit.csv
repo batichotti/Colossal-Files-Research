@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|957153fce8d226612de05938ca18101b7d608328|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: Set flags on quota files directly
-
-Currently immutable and noatime flags on quota files are set by quota
-code which requires us to copy inode->i_flags to our on disk version of
-quota flags in GETFLAGS ioctl and ext4_do_update_inode(). Move to
-setting / clearing these on-disk flags directly to save that copying.
-
-Signed-off-by: Jan Kara <jack@suse.cz>"|1|Jan Kara|jack@suse.cz|2017-04-06 15:40:06+02:00|-7200|Jan Kara|jack@suse.cz|2017-04-19 14:21:23+02:00|-7200

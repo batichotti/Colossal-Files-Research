@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c86f86e9e75e77e4d51ded9edbad30834ff606f7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rbd: make snap_size order parameter optional
-
-Only one of the two callers of _rbd_dev_v2_snap_size() needs the
-order value returned.  So make that an optional argument--a null
-pointer if the caller doesn't need it.
-
-Signed-off-by: Alex Elder <elder@inktank.com>
-Reviewed-by: Josh Durgin <josh.durgin@inktank.com>"|1|Alex Elder|elder@inktank.com|2013-04-25 15:09:41-05:00|18000|Sage Weil|sage@inktank.com|2013-05-01 21:19:27-07:00|25200

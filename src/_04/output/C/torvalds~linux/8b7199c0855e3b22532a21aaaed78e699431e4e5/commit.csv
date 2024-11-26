@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8b7199c0855e3b22532a21aaaed78e699431e4e5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tools/power/turbostat: Rename some functions
-
-Rename dump_nhm_platform_info() and dump_nhm_cst_cfg() to
-dump_platform_info() and dump_cst_cfg() because these MSRs' behavior is
-consistent when they're available.
-
-Signed-off-by: Zhang Rui <rui.zhang@intel.com>
-Reviewed-by: Len Brown <len.brown@intel.com>"|1|Zhang Rui|rui.zhang@intel.com|2023-03-27 14:58:35+08:00|-28800|Zhang Rui|rui.zhang@intel.com|2023-09-27 22:14:18+08:00|-28800

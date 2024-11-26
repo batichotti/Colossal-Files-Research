@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a749e247f745f609fd1106f1400ea063fe9b18ba|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: lapic: reorganize restart_apic_timer
-
-Move the code to cancel the hv timer into the caller, just before
-it starts the hrtimer.  Check availability of the hv timer in
-start_hv_timer.
-
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|3|Paolo Bonzini|pbonzini@redhat.com|2017-06-29 17:14:50+02:00|-7200|Paolo Bonzini|pbonzini@redhat.com|2017-06-29 18:18:52+02:00|-7200

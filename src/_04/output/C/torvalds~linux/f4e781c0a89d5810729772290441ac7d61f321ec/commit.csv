@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f4e781c0a89d5810729772290441ac7d61f321ec|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tracing: Move the tracing selftest code into its own function
-
-Move the tracing startup selftest code into its own function and
-when not enabled, always have that function succeed.
-
-This makes the register_tracer() function much more readable.
-
-Signed-off-by: Steven Rostedt <rostedt@goodmis.org>"|1|Steven Rostedt (Red Hat)|srostedt@redhat.com|2013-03-07 11:10:56-05:00|18000|Steven Rostedt|rostedt@goodmis.org|2013-03-15 00:35:53-04:00|14400

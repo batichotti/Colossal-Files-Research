@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cd80ce7e68f1624ac29cd0a6b057789d1236641e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ksmbd: don't update ->op_state as OPLOCK_STATE_NONE on error
-
-ksmbd set ->op_state as OPLOCK_STATE_NONE on lease break ack error.
-op_state of lease should not be updated because client can send lease
-break ack again. This patch fix smb2.lease.breaking2 test failure.
-
-Signed-off-by: Namjae Jeon <linkinjeon@kernel.org>
-Signed-off-by: Steve French <stfrench@microsoft.com>"|1|Namjae Jeon|linkinjeon@kernel.org|2023-11-22 23:01:43+09:00|-32400|Steve French|stfrench@microsoft.com|2023-11-23 20:50:45-06:00|21600

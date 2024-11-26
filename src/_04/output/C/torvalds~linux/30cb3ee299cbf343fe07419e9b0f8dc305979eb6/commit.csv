@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|30cb3ee299cbf343fe07419e9b0f8dc305979eb6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"pNFS: Handle NFS4ERR_OLD_STATEID on layoutreturn by bumping the state seqid
-
-If a LAYOUTRETURN receives a reply of NFS4ERR_OLD_STATEID then assume we've
-missed an update, and just bump the stateid.
-
-Signed-off-by: Trond Myklebust <trond.myklebust@hammerspace.com>
-Signed-off-by: Anna Schumaker <Anna.Schumaker@Netapp.com>"|3|Trond Myklebust|trondmy@gmail.com|2019-09-20 07:23:45-04:00|14400|Anna Schumaker|Anna.Schumaker@Netapp.com|2019-09-20 15:48:35-04:00|14400

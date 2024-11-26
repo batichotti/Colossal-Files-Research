@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bb2c1e9e75be4a059fa795aac58b805091c9dae7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"virtio_net: separate the logic of freeing xdp shinfo
-
-This patch introduce a new function that releases the
-xdp shinfo. The subsequent patch will reuse this function.
-
-Signed-off-by: Xuan Zhuo <xuanzhuo@linux.alibaba.com>
-Acked-by: Jason Wang <jasowang@redhat.com>
-Signed-off-by: Jakub Kicinski <kuba@kernel.org>"|1|Xuan Zhuo|xuanzhuo@linux.alibaba.com|2023-05-08 14:14:07+08:00|-28800|Jakub Kicinski|kuba@kernel.org|2023-05-09 19:44:27-07:00|25200

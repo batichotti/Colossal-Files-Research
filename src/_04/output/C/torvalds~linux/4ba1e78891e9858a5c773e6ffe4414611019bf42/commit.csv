@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4ba1e78891e9858a5c773e6ffe4414611019bf42|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"MD:Update superblock when err == 0 in size_store
-
-This is a simple check before updating the superblock. It should update
-the superblock when update_size return 0.
-
-Signed-off-by: Xiao Ni <xni@redhat.com>
-Signed-off-by: Shaohua Li <shli@fb.com>"|1|Xiao Ni|xni@redhat.com|2016-06-12 17:18:00+08:00|-28800|Shaohua Li|shli@fb.com|2016-06-13 11:54:11-07:00|25200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c255bd681d1a93fff2a2c249d91449cce830ac64|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: lwtunnel: Add extack to encap attr validation
-
-Pass extack down to lwtunnel_valid_encap_type and
-lwtunnel_valid_encap_type_attr. Add messages for unknown
-or unsupported encap types.
-
-Signed-off-by: David Ahern <dsahern@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|4|David Ahern|dsahern@gmail.com|2017-05-27 16:19:27-06:00|21600|David S. Miller|davem@davemloft.net|2017-05-30 11:55:31-04:00|14400

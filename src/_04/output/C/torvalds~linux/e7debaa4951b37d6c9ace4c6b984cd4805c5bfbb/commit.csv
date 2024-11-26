@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e7debaa4951b37d6c9ace4c6b984cd4805c5bfbb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md: Replace calc_dev_size() by calc_num_sectors().
-
-Number of sectors is the preferred unit for sizes of raid devices,
-so change calc_dev_size() so that it returns this unit instead of
-the number of 1K blocks.
-
-Signed-off-by: Andre Noll <maan@systemlinux.org>
-Signed-off-by: Neil Brown <neilb@suse.de>"|1|Andre Noll|maan@systemlinux.org|2008-07-11 22:02:23+10:00|-36000|Neil Brown|neilb@suse.de|2008-07-11 22:02:23+10:00|-36000

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d00aff00139b40f2e9c60299d76aac29d72e48ba|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: Optimize tree log block allocations
-
-Since tree log blocks get freed every transaction, they never really
-need to be written to disk.  This skips the step where we update
-metadata to record they were allocated.
-
-Signed-off-by: Chris Mason <chris.mason@oracle.com>"|3|Chris Mason|chris.mason@oracle.com|2008-09-11 15:54:42-04:00|14400|Chris Mason|chris.mason@oracle.com|2008-09-25 11:04:07-04:00|14400

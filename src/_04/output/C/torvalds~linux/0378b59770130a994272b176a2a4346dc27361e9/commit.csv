@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0378b59770130a994272b176a2a4346dc27361e9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Convert link keys list to use RCU
-
-This patch converts the hdev->link_keys list to be protected through
-RCU, thereby eliminating the need to hold the hdev lock while accessing
-the list.
-
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|3|Johan Hedberg|johan.hedberg@intel.com|2014-11-19 15:22:22+02:00|-7200|Marcel Holtmann|marcel@holtmann.org|2014-11-19 16:19:47+01:00|-3600

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e3ebcd7428c142fb7b74ded9a624cddfb403d2c5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rtl8xxxu: Use flag to indicate whether device has TX report timer support
-
-Use a fileops flag to indicate whether the device has TX report timer
-support. This will make it easier to include future devices such as
-8188eu to use the TX report timer.
-
-Signed-off-by: Jes Sorensen <Jes.Sorensen@redhat.com>
-Signed-off-by: Kalle Valo <kvalo@codeaurora.org>"|3|Jes Sorensen|Jes.Sorensen@redhat.com|2016-08-19 17:46:34-04:00|14400|Kalle Valo|kvalo@codeaurora.org|2016-09-03 19:57:20+03:00|-10800

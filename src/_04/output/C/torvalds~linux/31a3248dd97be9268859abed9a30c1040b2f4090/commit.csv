@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|31a3248dd97be9268859abed9a30c1040b2f4090|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Simplify if statements in tlv_data_is_valid function
-
-The if statements for checking the flags parameter could be written a
-bit easier to read. This changes this. No functional behavior has been
-changed.
-
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>"|1|Marcel Holtmann|marcel@holtmann.org|2015-11-19 16:16:42+01:00|-3600|Johan Hedberg|johan.hedberg@intel.com|2015-11-22 16:00:17+03:00|-10800

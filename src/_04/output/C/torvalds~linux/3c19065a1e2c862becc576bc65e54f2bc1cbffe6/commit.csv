@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3c19065a1e2c862becc576bc65e54f2bc1cbffe6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[IEEE80211] ipw2200: Simplify multicast checks.
-
-From: Stephen Hemminger <shemminger@osdl.org>
-
-is_multicast_ether_addr() accepts broadcast too, so the
-is_broadcast_ether_addr() calls are redundant.
-
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Stephen Hemminger|shemminger@osdl.org|2006-01-03 15:27:38-08:00|28800|David S. Miller|davem@davemloft.net|2006-01-03 15:27:38-08:00|28800

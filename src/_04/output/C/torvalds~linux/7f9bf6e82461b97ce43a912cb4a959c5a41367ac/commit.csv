@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7f9bf6e82461b97ce43a912cb4a959c5a41367ac|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Revert ""net: xdp: pull ethernet header off packet after computing skb->protocol""
-
-This reverts commit f8414a8d886b613b90d9fdf7cda6feea313b1069.
-
-eth_type_trans() does the necessary pull on the skb.
-
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|David S. Miller|davem@davemloft.net|2020-08-17 11:48:05-07:00|25200|David S. Miller|davem@davemloft.net|2020-08-17 11:48:05-07:00|25200

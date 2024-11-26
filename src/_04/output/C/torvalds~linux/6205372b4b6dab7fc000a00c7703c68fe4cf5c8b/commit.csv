@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6205372b4b6dab7fc000a00c7703c68fe4cf5c8b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Clean dpll calling convention
-
-Stop passing both the crtc and its state to the DPLL functions.
-The state alone is enough.
-
-Signed-off-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Link: https://patchwork.freedesktop.org/patch/msgid/20210715093530.31711-6-ville.syrjala@linux.intel.com
-Reviewed-by: Jani Nikula <jani.nikula@intel.com>"|4|Ville Syrjälä|ville.syrjala@linux.intel.com|2021-07-15 12:35:22+03:00|-10800|Ville Syrjälä|ville.syrjala@linux.intel.com|2021-08-25 17:08:40+03:00|-10800

@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|61a929870d1ce9c7ac34644bfd5aa9a8bf67818c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: Improve comments in ext4_quota_{on|off}()
-
-Improve comments in ext4_quota_{on|off}() to explain that returning
-success despite ext4_journal_start() failing is deliberate.
-
-Signed-off-by: Jan Kara <jack@suse.cz>"|1|Jan Kara|jack@suse.cz|2017-04-24 16:49:16+02:00|-7200|Jan Kara|jack@suse.cz|2017-04-24 16:49:16+02:00|-7200

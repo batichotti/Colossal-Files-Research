@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|08106ac7c892cad769c5026cb9dd877a39aed603|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4.1: Convert a trivial printk into a dprintk
-
-There is no need to bug the user about the server returning an error
-on destroy_session. The error will be handled by the state manager,
-without any need for further input from anyone else.
-So convert that printk into a debugging dprintk.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|1|Trond Myklebust|Trond.Myklebust@netapp.com|2012-06-05 10:08:24-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2012-06-05 10:08:24-04:00|14400

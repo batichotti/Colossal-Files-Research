@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|54ea9da88fc89bbba0c2f888bdb265d9fd6a3945|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Make display gtt offsets u32
-
-Using 'unsigned long' for ggtt offsets doesn't make much sense. Use
-'u32' instead since we've not yet seen a >4GiB ggtt.
-
-Signed-off-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Link: http://patchwork.freedesktop.org/patch/msgid/1453316739-13296-5-git-send-email-ville.syrjala@linux.intel.com
-Reviewed-by: Daniel Vetter <daniel.vetter@ffwll.ch>"|3|Ville Syrjälä|ville.syrjala@linux.intel.com|2016-01-20 21:05:25+02:00|-7200|Ville Syrjälä|ville.syrjala@linux.intel.com|2016-01-28 20:56:38+02:00|-7200

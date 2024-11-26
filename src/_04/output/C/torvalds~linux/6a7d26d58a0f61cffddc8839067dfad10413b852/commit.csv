@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6a7d26d58a0f61cffddc8839067dfad10413b852|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"arcmsr: endianness bug
-
-initializing a field in data shared with the card with
-cpu_to_le32(something) | 0x100000 is broken - the field is, indeed,
-little-endian and we need cpu_to_le32() on both parts.
-
-Signed-off-by: Al Viro <viro@zeniv.linux.org.uk>
-Signed-off-by: Linus Torvalds <torvalds@linux-foundation.org>"|1|Al Viro|viro@ftp.linux.org.uk|2007-10-29 05:08:48+00:00|0|Linus Torvalds|torvalds@woody.linux-foundation.org|2007-10-29 07:41:33-07:00|25200

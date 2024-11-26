@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8eb7d334bd8e693340ee198280f7d45035cdab8c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Fold kvm_run::exit_type into kvm_run::exit_reason
-
-Currently, userspace is told about the nature of the last exit from the
-guest using two fields, exit_type and exit_reason, where exit_type has
-just two enumerations (and no need for more).  So fold exit_type into
-exit_reason, reducing the complexity of determining what really happened.
-
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|4|Avi Kivity|avi@qumranet.com|2007-03-04 14:17:08+02:00|-7200|Avi Kivity|avi@qumranet.com|2007-05-03 10:52:24+03:00|-10800

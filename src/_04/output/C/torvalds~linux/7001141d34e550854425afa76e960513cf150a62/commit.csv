@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7001141d34e550854425afa76e960513cf150a62|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"crypto: hisilicon/qm - drop unnecessary IS_ENABLE(CONFIG_NUMA) check
-
-dev_to_node() can handle the case when CONFIG_NUMA is not set, so the
-check of CONFIG_NUMA is redundant and can be removed.
-
-Signed-off-by: Yicong Yang <yangyicong@hisilicon.com>
-Signed-off-by: Weili Qian <qianweili@huawei.com>
-Signed-off-by: Herbert Xu <herbert@gondor.apana.org.au>"|1|Yicong Yang|yangyicong@hisilicon.com|2022-09-24 17:34:24+08:00|-28800|Herbert Xu|herbert@gondor.apana.org.au|2022-10-21 19:05:23+08:00|-28800

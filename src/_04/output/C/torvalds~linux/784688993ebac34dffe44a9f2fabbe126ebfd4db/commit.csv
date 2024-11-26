@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|784688993ebac34dffe44a9f2fabbe126ebfd4db|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drivers/net/ibmvnic: Update VNIC protocol version reporting
-
-VNIC protocol version is reported in big-endian format, but it
-is not byteswapped before logging. Fix that, and remove version
-comparison as only one protocol version exists at this time.
-
-Signed-off-by: Thomas Falcon <tlfalcon@linux.ibm.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Thomas Falcon|tlfalcon@linux.ibm.com|2020-05-28 11:19:17-05:00|18000|David S. Miller|davem@davemloft.net|2020-05-29 17:20:59-07:00|25200

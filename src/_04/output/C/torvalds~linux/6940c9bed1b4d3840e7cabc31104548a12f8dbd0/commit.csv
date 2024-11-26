@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6940c9bed1b4d3840e7cabc31104548a12f8dbd0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"brcmsmac: Remove unused wlc_prio2prec_map and _BRCMS_PREC_* constants
-
-Fixes sparse warning:
-drivers/net/wireless/brcm80211/brcmsmac/main.c:308:10: sparse: symbol 'wlc_prio2prec_map' was not declared. Should it be static?
-
-Signed-off-by: Seth Forshee <seth.forshee@canonical.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|1|Seth Forshee|seth.forshee@canonical.com|2012-11-21 09:24:30-06:00|21600|John W. Linville|linville@tuxdriver.com|2012-11-21 14:16:04-05:00|18000

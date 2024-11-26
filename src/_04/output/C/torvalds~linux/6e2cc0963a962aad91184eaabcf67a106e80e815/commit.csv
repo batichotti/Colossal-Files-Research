@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6e2cc0963a962aad91184eaabcf67a106e80e815|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Replace some loop through encoders with intel_pipe_has_type()
-
-In the ironlake mode set code, there was two instances of a loop through
-encoders to find out if one of them has INTEL_OUTPUT_LVDS type. Simplify
-the code by deleting some lines and use intel_pipe_has_type() instead.
-
-Signed-off-by: Ander Conselvan de Oliveira <ander.conselvan.de.oliveira@intel.com>
-Signed-off-by: Daniel Vetter <daniel.vetter@ffwll.ch>"|1|Ander Conselvan de Oliveira|ander.conselvan.de.oliveira@intel.com|2014-10-20 13:46:42+03:00|-10800|Daniel Vetter|daniel.vetter@ffwll.ch|2014-10-24 16:34:04+02:00|-7200

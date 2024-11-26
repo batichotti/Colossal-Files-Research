@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4ded91ced98c3d35c0d36e9ac5e69589f7aad04a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wlcore/wl12xx: move get_pg_ver to the lower driver
-
-The PG version depends on the actual hardware.  This commit moves the
-code used to read the PG version to the lower driver, by adding the
-get_pg_ver hardware operation.
-
-Signed-off-by: Luciano Coelho <coelho@ti.com>"|4|Luciano Coelho|coelho@ti.com|2012-04-11 10:54:52+03:00|-10800|Luciano Coelho|coelho@ti.com|2012-04-12 08:43:57+03:00|-10800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0969b96352d69c25855d90fd6d74bd619f1f1f0c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: tx: delete a redundant if statement in ieee80211_check_fast_xmit()
-
-If statement is meaningless because the code will goto out regardless of
-whether fast_tx is NULL or not.
-
-Signed-off-by: Hangyu Hua <hbh25y@gmail.com>
-Link: https://lore.kernel.org/r/20220413091902.27438-1-hbh25y@gmail.com
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Hangyu Hua|hbh25y@gmail.com|2022-04-13 17:19:02+08:00|-28800|Johannes Berg|johannes.berg@intel.com|2022-05-04 22:49:38+02:00|-7200

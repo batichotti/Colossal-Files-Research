@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|273ba85b5e8b971ed28eb5c17e1638543be9237d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Revert ""mm/page_alloc: mark pagesets as __maybe_unused""
-
-The local_lock() is now using a proper static inline function which is
-enough for llvm to accept that the variable is used.
-
-Signed-off-by: Sebastian Andrzej Siewior <bigeasy@linutronix.de>
-Signed-off-by: Peter Zijlstra (Intel) <peterz@infradead.org>
-Link: https://lore.kernel.org/r/20220328145810.86783-4-bigeasy@linutronix.de"|1|Sebastian Andrzej Siewior|bigeasy@linutronix.de|2022-03-28 16:58:10+02:00|-7200|Peter Zijlstra|peterz@infradead.org|2022-04-05 09:59:39+02:00|-7200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|85e86edf951a8a39954c0ba1edbe4a58827dcd5c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[DLM] block scand during recovery [1/6]
-
-Don't let dlm_scand run during recovery since it may try to do a resource
-directory removal while the directory nodes are changing.
-
-Signed-off-by: David Teigland <teigland@redhat.com>
-Signed-off-by: Steven Whitehouse <swhiteho@redhat.com>"|3|David Teigland|teigland@redhat.com|2007-05-18 08:58:15-05:00|18000|Steven Whitehouse|swhiteho@redhat.com|2007-07-09 08:22:31+01:00|-3600

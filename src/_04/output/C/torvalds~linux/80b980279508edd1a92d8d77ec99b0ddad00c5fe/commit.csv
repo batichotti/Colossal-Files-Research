@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|80b980279508edd1a92d8d77ec99b0ddad00c5fe|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Use chan as parameters for l2cap chan ops
-
-Use chan instead of void * makes more sense here.
-
-Signed-off-by: Gustavo Padovan <gustavo.padovan@collabora.co.uk>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|3|Gustavo Padovan|gustavo.padovan@collabora.co.uk|2012-05-27 22:27:51-03:00|10800|Johan Hedberg|johan.hedberg@intel.com|2012-06-05 06:34:10+03:00|-10800

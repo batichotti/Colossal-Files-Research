@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2fb5ef09de7c8ab30f7aa315e700a46f51ac4b98|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: dsa: mv88e6xxx: extract single VLAN retrieval
-
-Rename _mv88e6xxx_vlan_init in _mv88e6xxx_vtu_new, eventually called
-from a new _mv88e6xxx_vtu_get function, which abstracts the VTU GetNext
-VID-1 trick to retrieve a single entry.
-
-Signed-off-by: Vivien Didelot <vivien.didelot@savoirfairelinux.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Vivien Didelot|vivien.didelot@savoirfairelinux.com|2016-02-26 13:16:01-05:00|18000|David S. Miller|davem@davemloft.net|2016-03-01 16:24:51-05:00|18000

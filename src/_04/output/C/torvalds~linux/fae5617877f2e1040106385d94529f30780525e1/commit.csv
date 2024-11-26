@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fae5617877f2e1040106385d94529f30780525e1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8152: modify the check of the flag of PHY_RESET in set_speed function
-
-In set_speed(), BMCR_RESET would be set when the flag of PHY_RESET
-is set. Use BMCR_RESET to replace testing the flag of PHY_RESET.
-
-Signed-off-by: Hayes Wang <hayeswang@realtek.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|hayeswang|hayeswang@realtek.com|2016-06-16 14:08:29+08:00|-28800|David S. Miller|davem@davemloft.net|2016-06-16 17:08:33-07:00|25200

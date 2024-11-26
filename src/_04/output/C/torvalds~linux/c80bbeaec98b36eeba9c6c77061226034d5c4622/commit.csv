@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c80bbeaec98b36eeba9c6c77061226034d5c4622|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netlink: cleanup the unnecessary return value check
-
-It's no needed to check the return value of tab since the NULL situation
-has been handled already, and the rtnl_msg_handlers[PF_UNSPEC] has been
-initialized as non-NULL during the rtnetlink_init().
-
-Signed-off-by: Hans Zhang <zhanghonghui@huawei.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Hans Zhang|zhanghonghui@huawei.com|2012-10-22 22:21:23+00:00|0|David S. Miller|davem@davemloft.net|2012-10-23 13:03:44-04:00|14400

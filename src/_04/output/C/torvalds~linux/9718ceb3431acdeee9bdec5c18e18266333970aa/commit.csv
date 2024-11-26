@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9718ceb3431acdeee9bdec5c18e18266333970aa|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cgroup: list_del_init() on removed events
-
-Use list_del_init() rather than list_del() to remove events from
-cgrp->event_list.  No functional change.  This is just defensive
-coding.
-
-Signed-off-by: Greg Thelen <gthelen@google.com>
-Signed-off-by: Tejun Heo <tj@kernel.org>"|1|Greg Thelen|gthelen@google.com|2012-11-28 13:50:45-08:00|28800|Tejun Heo|tj@kernel.org|2012-11-28 13:52:14-08:00|28800

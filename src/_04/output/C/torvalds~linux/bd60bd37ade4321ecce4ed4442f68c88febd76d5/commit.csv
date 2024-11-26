@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bd60bd37ade4321ecce4ed4442f68c88febd76d5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ocfs2: Check errors from ocfs2_xattr_update_xattr_search()
-
-The ocfs2_xattr_update_xattr_search() function can return an error when
-trying to read blocks off of disk.  The caller needs to check this error
-before using those (possibly invalid) blocks.
-
-Signed-off-by: Joel Becker <joel.becker@oracle.com>
-Signed-off-by: Mark Fasheh <mfasheh@suse.com>"|1|Joel Becker|joel.becker@oracle.com|2008-10-20 18:25:56-07:00|25200|Mark Fasheh|mfasheh@suse.com|2008-11-10 09:51:45-08:00|28800

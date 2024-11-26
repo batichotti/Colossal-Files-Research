@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|38cf3a687f5827fcfc81cbc433ef5822693a49c1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cgroup: Move cgroup_parse_float() implementation out of CONFIG_SYSFS
-
-a5e112e6424a (""cgroup: add cgroup_parse_float()"") accidentally added
-cgroup_parse_float() inside CONFIG_SYSFS block.  Move it outside so
-that it doesn't cause failures on !CONFIG_SYSFS builds.
-
-Signed-off-by: Tejun Heo <tj@kernel.org>
-Fixes: a5e112e6424a (""cgroup: add cgroup_parse_float()"")"|1|Tejun Heo|tj@kernel.org|2019-06-14 10:12:45-07:00|25200|Tejun Heo|tj@kernel.org|2019-06-14 10:14:44-07:00|25200

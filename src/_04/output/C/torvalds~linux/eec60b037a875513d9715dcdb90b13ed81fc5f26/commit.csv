@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|eec60b037a875513d9715dcdb90b13ed81fc5f26|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nl80211: Check iftype in cfg80211 code
-
-We do not want to require all the drivers using cfg80211 to need to do
-this. In addition, make the error values consistent by using
-EOPNOTSUPP instead of semi-random assortment of errno values.
-
-Signed-off-by: Jouni Malinen <jouni.malinen@atheros.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|2|Jouni Malinen|jouni.malinen@atheros.com|2009-03-20 21:21:19+02:00|-7200|John W. Linville|linville@tuxdriver.com|2009-03-27 20:13:05-04:00|14400

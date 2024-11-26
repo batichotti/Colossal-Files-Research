@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9352c19f639354f093cb5457315c01bcb94aa82a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: extend get_tkip_seq to all keys
-
-Extend the function to read the TKIP IV32/IV16 to read the IV/PN for
-all ciphers in order to allow drivers with full hardware crypto to
-properly support this.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|10|Johannes Berg|johannes.berg@intel.com|2015-04-20 18:12:41+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2015-05-06 13:29:59+02:00|-7200

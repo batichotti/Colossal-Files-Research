@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e0d8496a66de9eca13a88d93a5642db47e5a2b60|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"niu: fix PHY template choice for 10G copper
-
-Fixed a typo in niu_determine_phy_disposition() which resulted in
-phy_template_1g_copper being selected for 10G/copper configuration.
-
-Signed-off-by: Constantin Baranov <baranov@mercdev.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Constantin Baranov|baranov@mercdev.com|2009-02-18 17:52:41-08:00|28800|David S. Miller|davem@davemloft.net|2009-02-18 17:52:41-08:00|28800

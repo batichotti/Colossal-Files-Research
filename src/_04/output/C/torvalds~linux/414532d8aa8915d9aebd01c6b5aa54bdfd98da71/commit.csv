@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|414532d8aa8915d9aebd01c6b5aa54bdfd98da71|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wifi: cfg80211: use IEEE80211_MAX_MESH_ID_LEN appropriately
-
-Even if that's the same as IEEE80211_MAX_SSID_LEN, we really
-should just use IEEE80211_MAX_MESH_ID_LEN for mesh, rather
-than having the BUILD_BUG_ON()s.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|2|Johannes Berg|johannes.berg@intel.com|2024-02-14 20:08:43+01:00|-3600|Johannes Berg|johannes.berg@intel.com|2024-02-15 10:59:08+01:00|-3600

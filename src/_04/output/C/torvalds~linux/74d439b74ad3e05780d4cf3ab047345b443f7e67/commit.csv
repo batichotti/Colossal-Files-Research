@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|74d439b74ad3e05780d4cf3ab047345b443f7e67|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: hns3: split function hclge_reset_rebuild()
-
-hclge_reset_rebuild() is a bit too long. So add a new function
-hclge_update_reset_level() to improve readability.
-
-Signed-off-by: Yufeng Mo <moyufeng@huawei.com>
-Signed-off-by: Huazhong Tan <tanhuazhong@huawei.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Yufeng Mo|moyufeng@huawei.com|2021-03-26 09:36:27+08:00|-28800|David S. Miller|davem@davemloft.net|2021-03-26 14:58:44-07:00|25200

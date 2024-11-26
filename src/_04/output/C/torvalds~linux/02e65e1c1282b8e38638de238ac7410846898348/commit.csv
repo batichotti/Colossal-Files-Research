@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|02e65e1c1282b8e38638de238ac7410846898348|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sched_ext: Add missing static to scx_has_op[]
-
-scx_has_op[] is only used inside ext.c but doesn't have static. Add it.
-
-Signed-off-by: Tejun Heo <tj@kernel.org>
-Reported-by: kernel test robot <lkp@intel.com>
-Closes: https://lore.kernel.org/oe-kbuild-all/202409062337.m7qqI88I-lkp@intel.com/"|1|Tejun Heo|tj@kernel.org|2024-09-06 08:18:55-10:00|36000|Tejun Heo|tj@kernel.org|2024-09-06 08:18:55-10:00|36000

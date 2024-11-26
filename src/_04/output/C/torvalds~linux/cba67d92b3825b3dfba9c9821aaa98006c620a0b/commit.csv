@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cba67d92b3825b3dfba9c9821aaa98006c620a0b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: megaraid_sas: modify max supported lds related print
-
-The print related to number of VDs that a particular firmware supports is
-misleading in some cases.  Even though supportMaxExtLDs is set, certain
-firmware profiles only supports upto 64VDs.
-
-Signed-off-by: Shivasharan S <shivasharan.srikanteshwara@broadcom.com>
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|1|Shivasharan S|shivasharan.srikanteshwara@broadcom.com|2018-10-16 23:37:56-07:00|25200|Martin K. Petersen|martin.petersen@oracle.com|2018-11-06 20:33:57-05:00|18000

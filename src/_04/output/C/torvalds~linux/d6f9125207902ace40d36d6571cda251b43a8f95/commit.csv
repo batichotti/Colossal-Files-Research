@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d6f9125207902ace40d36d6571cda251b43a8f95|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"RDMA/cma: Remove unused timeout_ms parameter from cma_resolve_iw_route()
-
-cma_resolve_iw_route() doesn't use timeout_ms parameter, so let's remove it.
-
-Signed-off-by: Leon Romanovsky <leonro@mellanox.com>
-Signed-off-by: Doug Ledford <dledford@redhat.com>"|1|Leon Romanovsky|leonro@mellanox.com|2018-10-11 17:30:03+03:00|-10800|Doug Ledford|dledford@redhat.com|2018-10-16 13:34:01-04:00|14400

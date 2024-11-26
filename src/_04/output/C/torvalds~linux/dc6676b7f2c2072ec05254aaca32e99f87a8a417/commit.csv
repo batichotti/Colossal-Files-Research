@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|dc6676b7f2c2072ec05254aaca32e99f87a8a417|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: sta_info_flush() fixes
-
-When the IBSS code tries to flush the STA list, it does so in
-an atomic context. Flushing isn't safe there, however, and
-requires the RTNL, so we need to defer it to a workqueue.
-
-Signed-off-by: Johannes Berg <johannes@sipsolutions.net>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|5|Johannes Berg|johannes@sipsolutions.net|2008-03-31 19:23:03+02:00|-7200|John W. Linville|linville@tuxdriver.com|2008-04-01 17:14:10-04:00|14400

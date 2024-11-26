@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2220f13a8b90d2259f3094cb54cf4de67d8eee2d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfs: nfs4xdr: encode_compound_hdr does not have to round up reserved bytes
-
-This is already done by xdr_reserve_space and since encode_compound_hdr
-is adding a byte count to ""12"" which is already word aligned, the xdr
-level rounding will work just as well.
-
-Signed-off-by: Benny Halevy <bhalevy@panasas.com>
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|1|Benny Halevy|bhalevy@panasas.com|2009-08-14 17:19:18+03:00|-10800|Trond Myklebust|Trond.Myklebust@netapp.com|2009-08-14 13:16:00-04:00|14400

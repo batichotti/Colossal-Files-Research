@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5a7388c2d2faa2cc70c2d4717c8d7836d55459e0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: MMU: fix hashing for TDP and non-paging modes
-
-For TDP mode, avoid creating multiple page table roots for the single
-guest-to-host physical address map by fixing the inputs used for the
-shadow page table hash in mmu_alloc_roots().
-
-Signed-off-by: Eric Northup <digitaleric@google.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|1|Eric Northup|digitaleric@google.com|2010-04-26 17:00:05-07:00|25200|Avi Kivity|avi@redhat.com|2010-05-19 11:36:22+03:00|-10800

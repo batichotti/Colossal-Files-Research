@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|99ade3c71b1e40e7174d6527709399a87f3d05e0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfs: machine credential support for additional operations
-
-Allow LAYOUTRETURN and DELEGRETURN to use machine credentials if the
-server supports it. Add request for OPEN_DOWNGRADE as the close path
-also uses that.
-
-Signed-off-by: Andrew Elble <aweits@rit.edu>
-Signed-off-by: Trond Myklebust <trond.myklebust@primarydata.com>"|2|Andrew Elble|aweits@rit.edu|2015-12-02 09:39:51-05:00|18000|Trond Myklebust|trond.myklebust@primarydata.com|2015-12-28 09:57:15-05:00|18000

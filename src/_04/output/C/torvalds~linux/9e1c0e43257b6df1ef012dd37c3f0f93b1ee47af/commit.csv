@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9e1c0e43257b6df1ef012dd37c3f0f93b1ee47af|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"IB/qib: Eliminate divide/mod in converting idx to egr buf pointer
-
-The context init now saves a shift from rcvegrbufs_perchunk
-rcvegrbufs_perchunk_shift using ilog2.   A BUG_ON() protects the
-power of 2 assumption.
-
-Signed-off-by: Mike Marciniszyn <mike.marciniszyn@qlogic.com>
-Signed-off-by: Roland Dreier <roland@purestorage.com>"|6|Mike Marciniszyn|mike.marciniszyn@qlogic.com|2011-09-23 13:16:39-04:00|14400|Roland Dreier|roland@purestorage.com|2011-10-21 09:38:52-07:00|25200

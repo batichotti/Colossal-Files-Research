@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|36c3ce6c0d03a6c9992c3359f879cdc70fde836a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Get rid of kvm_get_pfn()
-
-Nobody is using kvm_get_pfn() anymore. Get rid of it.
-
-Acked-by: Paolo Bonzini <pbonzini@redhat.com>
-Signed-off-by: Marc Zyngier <maz@kernel.org>
-Link: https://lore.kernel.org/r/20210726153552.1535838-7-maz@kernel.org"|2|Marc Zyngier|maz@kernel.org|2021-07-26 16:35:52+01:00|-3600|Marc Zyngier|maz@kernel.org|2021-08-02 14:05:58+01:00|-3600

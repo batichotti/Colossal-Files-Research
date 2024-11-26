@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1dffddddd8315863f1a6d79c512b737864ef6a1a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"raid5: allow arbitrary max_hw_sectors
-
-raid5 will split bio to proper size internally, there is no point to use
-underlayer disk's max_hw_sectors. In my qemu system, without the change,
-the raid5 only receives 128k size bio, which reduces the chance of bio
-merge sending to underlayer disks.
-
-Signed-off-by: Shaohua Li <shli@fb.com>"|1|Shaohua Li|shli@fb.com|2016-09-08 10:49:06-07:00|25200|Shaohua Li|shli@fb.com|2016-09-21 09:09:44-07:00|25200

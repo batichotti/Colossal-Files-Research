@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|897483d8a0e0896b214bda374e67373ee01166a6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/amdgpu: move gpu reset out of amdgpu_device_suspend
-
-Move it into the caller.  There are cases were we don't
-want it.  We need it for hibernation, but we don't need
-it for runtime pm, so drop it for runtime pm.
-
-Reviewed-by: Evan Quan <evan.quan@amd.com>
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|2|Alex Deucher|alexander.deucher@amd.com|2019-10-04 14:57:21-05:00|18000|Alex Deucher|alexander.deucher@amd.com|2019-10-15 15:51:39-04:00|14400

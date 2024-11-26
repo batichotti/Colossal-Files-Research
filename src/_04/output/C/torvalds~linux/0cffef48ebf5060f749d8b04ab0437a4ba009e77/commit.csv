@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0cffef48ebf5060f749d8b04ab0437a4ba009e77|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"qeth: fix race condition during device startup
-
-QDIO is running independent from netdevice state. We are not
-allowed to schedule NAPI in case the netdevice is not open.
-
-Signed-off-by: Frank Blaschka <frank.blaschka@de.ibm.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Frank Blaschka|frank.blaschka@de.ibm.com|2010-11-08 03:03:49+00:00|0|David S. Miller|davem@davemloft.net|2010-11-08 12:17:08-08:00|28800

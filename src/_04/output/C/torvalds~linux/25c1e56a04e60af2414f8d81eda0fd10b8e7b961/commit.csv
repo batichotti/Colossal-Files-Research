@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|25c1e56a04e60af2414f8d81eda0fd10b8e7b961|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] hpsa: do not reset unknown boards on reset_devices
-
-This is to prevent hpsa from resetting older boards
-which the cciss driver may be controlling.
-
-Signed-off-by: Stephen M. Cameron <scameron@beardog.cce.hp.com>
-Signed-off-by: James Bottomley <James.Bottomley@suse.de>"|1|Stephen M. Cameron|scameron@beardog.cce.hp.com|2011-01-06 14:48:18-06:00|21600|James Bottomley|James.Bottomley@suse.de|2011-01-24 11:30:11-06:00|21600

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|589876e243bb14343d09d9fd7f9ddf79f1d80158|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ALSA: hda/realtek - Apply probe-fixup really after probing
-
-Move the call of alc_apply_fixup() with ALC_FIXUP_ACT_PROBE after the
-whole setups of patch_ops & co, so that the fix-up function may override
-the default setup.  This will be needed for installing the own unsol
-event handler (e.g. for volume-knob controls).
-
-Signed-off-by: Takashi Iwai <tiwai@suse.de>"|1|Takashi Iwai|tiwai@suse.de|2012-02-20 15:47:55+01:00|-3600|Takashi Iwai|tiwai@suse.de|2012-02-20 15:50:20+01:00|-3600

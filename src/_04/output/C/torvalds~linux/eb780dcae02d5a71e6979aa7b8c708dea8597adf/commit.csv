@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|eb780dcae02d5a71e6979aa7b8c708dea8597adf|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mm: Remove pointless barrier() after pmdp_get_lockless()
-
-pmdp_get_lockless() should itself imply any ordering required.
-
-Signed-off-by: Peter Zijlstra (Intel) <peterz@infradead.org>
-Link: https://lkml.kernel.org/r/20221022114425.298833095%40infradead.org"|2|Peter Zijlstra|peterz@infradead.org|2022-10-21 13:47:29+02:00|-7200|Dave Hansen|dave.hansen@linux.intel.com|2022-12-15 10:37:27-08:00|28800

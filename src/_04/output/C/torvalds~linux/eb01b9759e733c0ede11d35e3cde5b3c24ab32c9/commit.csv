@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|eb01b9759e733c0ede11d35e3cde5b3c24ab32c9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ixgbe: Move poll routine in order to improve readability
-
-This change relocates the ixgbe_poll routine so it is right next to the
-interrupt routine that schedules and calls it.
-
-Signed-off-by: Alexander Duyck <alexander.h.duyck@intel.com>
-Tested-by: Stephen Ko <stephen.s.ko@intel.com>
-Signed-off-by: Jeff Kirsher <jeffrey.t.kirsher@intel.com>"|1|Alexander Duyck|alexander.h.duyck@intel.com|2012-02-08 07:51:27+00:00|0|Jeff Kirsher|jeffrey.t.kirsher@intel.com|2012-03-19 01:58:58-07:00|25200

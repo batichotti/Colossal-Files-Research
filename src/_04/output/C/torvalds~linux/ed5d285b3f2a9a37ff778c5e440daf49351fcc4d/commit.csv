@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ed5d285b3f2a9a37ff778c5e440daf49351fcc4d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: make ext4_es_remove_extent() return void
-
-Now ext4_es_remove_extent() never fails, so make it return void.
-
-Signed-off-by: Baokun Li <libaokun1@huawei.com>
-Reviewed-by: Jan Kara <jack@suse.cz>
-Link: https://lore.kernel.org/r/20230424033846.4732-10-libaokun1@huawei.com
-Signed-off-by: Theodore Ts'o <tytso@mit.edu>"|5|Baokun Li|libaokun1@huawei.com|2023-04-24 11:38:43+08:00|-28800|Theodore Ts'o|tytso@mit.edu|2023-06-26 19:35:12-04:00|14400

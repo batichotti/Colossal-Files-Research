@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f233ea5c9e0d8b95e4283bf6a3436b88f6fd3586|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md: Make mddev->array_size sector-based.
-
-This patch renames the array_size field of struct mddev_s to array_sectors
-and converts all instances to use units of 512 byte sectors instead of 1k
-blocks.
-
-Signed-off-by: Andre Noll <maan@systemlinux.org>
-Signed-off-by: NeilBrown <neilb@suse.de>"|9|Andre Noll|maan@systemlinux.org|2008-07-21 17:05:22+10:00|-36000|NeilBrown|neilb@suse.de|2008-07-21 17:05:22+10:00|-36000

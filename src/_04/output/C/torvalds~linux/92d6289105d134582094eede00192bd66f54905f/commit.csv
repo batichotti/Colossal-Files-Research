@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|92d6289105d134582094eede00192bd66f54905f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"s390: remove unneeded sizeof(void *) comparisons
-
-Remove two more statements which always evaluate to 'false'.
-These are more leftovers from the 31 bit era.
-
-Signed-off-by: Heiko Carstens <heiko.carstens@de.ibm.com>
-Reviewed-by: David Hildenbrand <dahi@linux.vnet.ibm.com>
-Signed-off-by: Martin Schwidefsky <schwidefsky@de.ibm.com>"|2|Heiko Carstens|heiko.carstens@de.ibm.com|2015-08-13 13:26:49+02:00|-7200|Martin Schwidefsky|schwidefsky@de.ibm.com|2015-08-19 10:03:44+02:00|-7200

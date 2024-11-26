@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9d74191ab1ea857d1cc27e439316eebf8ae46d19|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86 emulator: Use the pointers ctxt and c consistently
-
-We should use the local variables ctxt and c when the emulate_ctxt and
-decode appears many times.  At least, we need to be consistent about
-how we use these in a function.
-
-Signed-off-by: Takuya Yoshikawa <yoshikawa.takuya@oss.ntt.co.jp>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|2|Takuya Yoshikawa|yoshikawa.takuya@oss.ntt.co.jp|2011-05-29 21:53:48+09:00|-32400|Avi Kivity|avi@redhat.com|2011-07-12 13:15:57+03:00|-10800

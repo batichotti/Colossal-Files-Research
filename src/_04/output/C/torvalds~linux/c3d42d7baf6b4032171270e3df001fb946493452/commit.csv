@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c3d42d7baf6b4032171270e3df001fb946493452|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ASoC: rt5677: Use agnostic irq_domain_create_linear()
-
-Instead of irq_domain_add_linear() that requires of_node,
-use irq_domain_create_linear() that works outside of OF world.
-
-Signed-off-by: Andy Shevchenko <andriy.shevchenko@linux.intel.com>
-Link: https://lore.kernel.org/r/20230630172155.83754-3-andriy.shevchenko@linux.intel.com
-Signed-off-by: Mark Brown <broonie@kernel.org>"|1|Andy Shevchenko|andriy.shevchenko@linux.intel.com|2023-06-30 20:21:53+03:00|-10800|Mark Brown|broonie@kernel.org|2023-07-09 22:47:07+01:00|-3600

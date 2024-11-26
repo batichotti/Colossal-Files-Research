@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|93160b2d1747500b5610569b549c8d7b7e9d0f21|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: pass dev_priv explicitly to CURCNTR
-
-Avoid the implicit dev_priv local variable use, and pass dev_priv
-explicitly to the CURCNTR register macro.
-
-Reviewed-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Link: https://patchwork.freedesktop.org/patch/msgid/06bc681558c86f351ae596e9600133bb10ae4bdd.1715774156.git.jani.nikula@intel.com
-Signed-off-by: Jani Nikula <jani.nikula@intel.com>"|6|Jani Nikula|jani.nikula@intel.com|2024-05-15 14:56:41+03:00|-10800|Jani Nikula|jani.nikula@intel.com|2024-05-16 11:23:00+03:00|-10800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3b4dc3a031110753b9ba36432dbd21f989fcee56|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: move postcommit flush to x86, as mmio sptes are x86 specific
-
-Other arches do not need this.
-
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>
-
-v2: fix incorrect deletion of mmio sptes on gpa move (noticed by Takuya)
-Signed-off-by: Avi Kivity <avi@redhat.com>"|2|Marcelo Tosatti|mtosatti@redhat.com|2012-08-28 17:43:26-03:00|10800|Avi Kivity|avi@redhat.com|2012-09-06 16:37:30+03:00|-10800

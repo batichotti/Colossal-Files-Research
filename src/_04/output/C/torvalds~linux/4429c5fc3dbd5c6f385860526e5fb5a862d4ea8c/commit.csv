@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4429c5fc3dbd5c6f385860526e5fb5a862d4ea8c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cxgb4: remove unused vpd_cap_addr
-
-It is likely that this is a leftover from T3 driver heritage. cxgb4 uses
-the PCI core VPD access code that handles detection of VPD capabilities.
-
-Reviewed-by: Alexander Duyck <alexanderduyck@fb.com>
-Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Heiner Kallweit|hkallweit1@gmail.com|2021-02-08 21:26:07+01:00|-3600|David S. Miller|davem@davemloft.net|2021-02-08 15:58:03-08:00|28800

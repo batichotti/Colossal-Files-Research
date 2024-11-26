@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4afc37a0c1c58415ac3ad1c07afd8ebf81cb90c5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wlcore: reorder identify_chip and get_hw_info
-
-We can do get the HW information and identify the chip already at
-probe time.  This makes it easier to mangle with the parameters during
-identify chip before registering the hardware with mac80211.
-
-Signed-off-by: Luciano Coelho <coelho@ti.com>
-Signed-off-by: Arik Nemtsov <arik@wizery.com>"|1|Luciano Coelho|coelho@ti.com|2012-05-10 12:14:02+03:00|-10800|Luciano Coelho|coelho@ti.com|2012-06-05 15:57:41+03:00|-10800

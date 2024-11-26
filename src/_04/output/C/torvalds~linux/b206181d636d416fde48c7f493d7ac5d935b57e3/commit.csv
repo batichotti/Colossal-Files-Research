@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b206181d636d416fde48c7f493d7ac5d935b57e3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[S390] dasd: add sanity check to detect path connection error
-
-Prevents possible data corruption by detecting cabling error.
-Therefor read and compare the UID for all available channel paths.
-
-Signed-off-by: Stefan Haberland <stefan.haberland@de.ibm.com>
-Signed-off-by: Martin Schwidefsky <schwidefsky@de.ibm.com>"|1|Stefan Haberland|stefan.haberland@de.ibm.com|2011-12-27 11:27:27+01:00|-3600|Martin Schwidefsky|schwidefsky@de.ibm.com|2011-12-27 11:27:14+01:00|-3600

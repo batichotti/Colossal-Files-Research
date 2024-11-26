@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d1726b6dc95b5ed0914e969f6765a9e2cf7baf04|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Refactor loop in l2cap_retransmit_one_frame
-
-This make it easier to see what is the real reason for loop to exit.
-skb_queue_next return valid skb or garbage, not NULL.
-
-Signed-off-by: Szymon Janc <szymon.janc@tieto.com>
-Signed-off-by: Gustavo F. Padovan <padovan@profusion.mobi>"|1|Szymon Janc|szymon.janc@tieto.com|2011-11-16 09:32:20+01:00|-3600|Gustavo F. Padovan|padovan@profusion.mobi|2011-11-16 18:29:28-02:00|7200

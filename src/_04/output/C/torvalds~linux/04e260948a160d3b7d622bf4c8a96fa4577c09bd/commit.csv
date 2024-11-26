@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|04e260948a160d3b7d622bf4c8a96fa4577c09bd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ksmbd: don't align last entry offset in smb2 query directory
-
-When checking smb2 query directory packets from other servers,
-OutputBufferLength is different with ksmbd. Other servers add an unaligned
-next offset to OutputBufferLength for the last entry.
-
-Signed-off-by: Namjae Jeon <linkinjeon@kernel.org>
-Signed-off-by: Steve French <stfrench@microsoft.com>"|2|Namjae Jeon|linkinjeon@kernel.org|2022-01-30 18:31:01+09:00|-32400|Steve French|stfrench@microsoft.com|2022-02-04 00:12:22-06:00|21600

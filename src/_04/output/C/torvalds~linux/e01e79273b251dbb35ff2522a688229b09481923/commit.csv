@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e01e79273b251dbb35ff2522a688229b09481923|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rbd: open code rbd_calc_raw_layout()
-
-This patch gets rid of rbd_calc_raw_layout() by simply open coding
-it in its one caller.
-
-Signed-off-by: Alex Elder <elder@inktank.com>
-Reviewed-by: Josh Durgin <josh.durgin@inktank.com>"|1|Alex Elder|elder@inktank.com|2012-11-14 12:25:18-06:00|21600|Alex Elder|elder@inktank.com|2013-01-17 16:34:58-06:00|21600

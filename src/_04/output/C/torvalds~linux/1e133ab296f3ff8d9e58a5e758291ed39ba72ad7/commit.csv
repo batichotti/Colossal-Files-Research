@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1e133ab296f3ff8d9e58a5e758291ed39ba72ad7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"s390/mm: split arch/s390/mm/pgtable.c
-
-The pgtable.c file is quite big, before it grows any larger split it
-into pgtable.c, pgalloc.c and gmap.c. In addition move the gmap related
-header definitions into the new gmap.h header and all of the pgste
-helpers from pgtable.h to pgtable.c.
-
-Signed-off-by: Martin Schwidefsky <schwidefsky@de.ibm.com>"|13|Martin Schwidefsky|schwidefsky@de.ibm.com|2016-03-08 11:49:57+01:00|-3600|Martin Schwidefsky|schwidefsky@de.ibm.com|2016-03-08 15:00:15+01:00|-3600

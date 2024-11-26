@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9b3757b0325ac52d700ab007ab372b920f7c004a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rtnetlink: ifinfo: perform strict checks also for doit handler
-
-Make RTM_GETLINK's doit handler use strict checks when
-NETLINK_F_STRICT_CHK is set.
-
-Signed-off-by: Jakub Kicinski <jakub.kicinski@netronome.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Jakub Kicinski|jakub.kicinski@netronome.com|2019-01-18 10:46:16-08:00|28800|David S. Miller|davem@davemloft.net|2019-01-19 10:09:58-08:00|28800

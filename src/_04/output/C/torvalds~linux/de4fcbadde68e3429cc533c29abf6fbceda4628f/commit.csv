@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|de4fcbadde68e3429cc533c29abf6fbceda4628f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cfg80211: avoid using default in interface type switch
-
-Most code avoids having a default case in interface type switch
-statements already, to make it easier to find places that need
-to be extended. Change the code in the __cfg80211_leave() and
-nl80211_key_allowed() functions to not have a default case.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|2|Johannes Berg|johannes.berg@intel.com|2014-10-31 14:16:12+01:00|-3600|Johannes Berg|johannes.berg@intel.com|2014-10-31 14:19:19+01:00|-3600

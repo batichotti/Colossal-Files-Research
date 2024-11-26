@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|be69d00d9769575e35d83367f465a58dbf82748c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"workqueue: Remove GPF argument from alloc_workqueue_attrs()
-
-All callers use GFP_KERNEL. No point in having that argument.
-
-Signed-off-by: Thomas Gleixner <tglx@linutronix.de>
-Signed-off-by: Sebastian Andrzej Siewior <bigeasy@linutronix.de>
-Signed-off-by: Tejun Heo <tj@kernel.org>"|1|Thomas Gleixner|tglx@linutronix.de|2019-06-26 16:52:38+02:00|-7200|Tejun Heo|tj@kernel.org|2019-06-27 14:12:19-07:00|25200

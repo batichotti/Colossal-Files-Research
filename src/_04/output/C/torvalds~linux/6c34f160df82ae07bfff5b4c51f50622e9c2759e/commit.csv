@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6c34f160df82ae07bfff5b4c51f50622e9c2759e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tools/power turbostat: correct output for MSR_NHM_SNB_PKG_CST_CFG_CTL dump
-
-MSR_NHM_SNB_PKG_CST_CFG_CTL: 0x1e008008 (...pkg-cstate-limit=0: unlimited)
-should print as
-MSR_NHM_SNB_PKG_CST_CFG_CTL: 0x1e008008 (...pkg-cstate-limit=8: unlimited)
-
-Signed-off-by: Len Brown <len.brown@intel.com>"|1|Len Brown|len.brown@intel.com|2016-03-13 03:21:22-04:00|14400|Len Brown|len.brown@intel.com|2016-03-13 04:22:47-04:00|14400

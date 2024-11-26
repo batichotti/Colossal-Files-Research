@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b24d22b1d12c436a86282347868785207cff8a88|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"iwlwifi: fix possible priv->mutex deadlock during suspend
-
-This patch moves _cancel_deferred_work out of mutex protection and removes
-unnecessary mutex in pci_suspend and pci_resume.
-
-Cc: Johannes Berg <johannes@sipsolutions.net>
-Signed-off-by: Zhu Yi <yi.zhu@intel.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|2|Zhu Yi|yi.zhu@intel.com|2007-12-19 13:59:52+08:00|-28800|John W. Linville|linville@tuxdriver.com|2007-12-19 21:31:01-05:00|18000

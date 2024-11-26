@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fcfd3c09f40786f8a296bfc93909612cc571c087|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"serial: 8250_pci: Split out Pericom driver
-
-Pericom along with Acces I/O support consumes a lot of LOCs in 8250_pci.c.
-For the sake of easier maintenance, split it to a separate driver.
-
-Signed-off-by: Andy Shevchenko <andriy.shevchenko@linux.intel.com>
-Link: https://lore.kernel.org/r/20211122133512.8947-2-andriy.shevchenko@linux.intel.com
-Signed-off-by: Greg Kroah-Hartman <gregkh@linuxfoundation.org>"|4|Andy Shevchenko|andriy.shevchenko@linux.intel.com|2021-11-22 15:35:10+02:00|-7200|Greg Kroah-Hartman|gregkh@linuxfoundation.org|2021-12-20 16:55:22+01:00|-3600

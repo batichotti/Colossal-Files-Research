@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|da0a12caffad2eeadea429f83818408e7b77379a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cgroup: fix a leak when percpu_ref_init() fails
-
-ss->css_free() is not called when perfcpu_ref_init() fails.
-
-Signed-off-by: Li Zefan <lizefan@huawei.com>
-Signed-off-by: Tejun Heo <tj@kernel.org>"|1|Li Zefan|lizefan@huawei.com|2013-07-31 16:16:28+08:00|-28800|Tejun Heo|tj@kernel.org|2013-07-31 06:13:25-04:00|14400

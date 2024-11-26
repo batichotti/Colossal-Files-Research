@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|313771e80fd253d4b5472e61a2d12b03c5293aa9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libceph, rbd: ignore addr->type while comparing in some cases
-
-For libceph, this ensures that libceph instance sharing (share option)
-continues to work.  For rbd, this avoids blocklisting alive lock owners
-(locker addr is always LEGACY, while watcher addr is ANY in nautilus).
-
-Signed-off-by: Ilya Dryomov <idryomov@gmail.com>"|3|Ilya Dryomov|idryomov@gmail.com|2020-11-25 14:41:59+01:00|-3600|Ilya Dryomov|idryomov@gmail.com|2020-12-14 23:21:50+01:00|-3600

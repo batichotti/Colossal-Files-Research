@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1c6dcbe5ceff81c2cf8d929646af675cd59fe7c0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS: Implement SEEK
-
-The SEEK operation is used when an application makes an lseek call with
-either the SEEK_HOLE or SEEK_DATA flags set.  I fall back on
-nfs_file_llseek() if the server does not have SEEK support.
-
-Signed-off-by: Anna Schumaker <Anna.Schumaker@Netapp.com>
-Signed-off-by: Trond Myklebust <trond.myklebust@primarydata.com>"|12|Anna Schumaker|Anna.Schumaker@netapp.com|2014-09-26 13:58:48-04:00|14400|Trond Myklebust|trond.myklebust@primarydata.com|2014-09-30 16:24:56-04:00|14400

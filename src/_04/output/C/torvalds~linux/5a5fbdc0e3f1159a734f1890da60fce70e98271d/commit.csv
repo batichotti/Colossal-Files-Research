@@ -1,6 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5a5fbdc0e3f1159a734f1890da60fce70e98271d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: remove eager_fpu field of struct kvm_vcpu_arch
-
-It is now equal to use_eager_fpu(), which simply tests a cpufeature bit.
-
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|3|Paolo Bonzini|pbonzini@redhat.com|2016-03-08 10:00:11+01:00|-3600|Paolo Bonzini|pbonzini@redhat.com|2016-03-09 14:04:36+01:00|-3600

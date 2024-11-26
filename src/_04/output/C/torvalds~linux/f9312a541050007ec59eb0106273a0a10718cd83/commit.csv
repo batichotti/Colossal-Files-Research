@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f9312a541050007ec59eb0106273a0a10718cd83|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4.1: Fix the client behaviour on NFS4ERR_SEQ_FALSE_RETRY
-
-If the server returns NFS4ERR_SEQ_FALSE_RETRY or NFS4ERR_RETRY_UNCACHED_REP,
-then it thinks we're trying to replay an existing request. If so, then
-let's just bump the sequence ID and retry the operation.
-
-Signed-off-by: Trond Myklebust <trond.myklebust@hammerspace.com>"|1|Trond Myklebust|trond.myklebust@hammerspace.com|2018-06-09 19:10:31-04:00|14400|Trond Myklebust|trond.myklebust@hammerspace.com|2018-06-09 19:10:31-04:00|14400

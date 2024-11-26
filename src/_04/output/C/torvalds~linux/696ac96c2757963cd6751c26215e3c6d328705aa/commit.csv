@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|696ac96c2757963cd6751c26215e3c6d328705aa|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: remove junk sb_dirt change
-
-BTRFS does not define a '->write_super()' method, so it should
-not mark its superblock as dirty. This looks like some left-over.
-
-Signed-off-by: Artem Bityutskiy <Artem.Bityutskiy@nokia.com>
-Acked-by: Chris Mason <chris.mason@oracle.com>
-Signed-off-by: Al Viro <viro@zeniv.linux.org.uk>"|1|Artem Bityutskiy|Artem.Bityutskiy@nokia.com|2010-07-05 15:15:02+03:00|-10800|Al Viro|viro@zeniv.linux.org.uk|2010-08-09 16:48:55-04:00|14400

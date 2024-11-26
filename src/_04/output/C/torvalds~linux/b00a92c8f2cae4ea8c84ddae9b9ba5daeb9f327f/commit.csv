@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b00a92c8f2cae4ea8c84ddae9b9ba5daeb9f327f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"RDMA/hns: Move all prints out of irq handle
-
-It will trigger unnecessary interrupts caused by time out if prints inside
-aeq handle under some configurations.  Thus, move all prints out of aeq
-handle to work queue.
-
-Signed-off-by: liuyixian <liuyixian@huawei.com>
-Signed-off-by: Jason Gunthorpe <jgg@mellanox.com>"|2|liuyixian|liuyixian@huawei.com|2018-09-03 17:18:14+08:00|-28800|Jason Gunthorpe|jgg@mellanox.com|2018-09-19 15:33:57-06:00|21600

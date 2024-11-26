@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8391ce447f18476273331399a7f5930e5494bf46|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: introduce vm_{entry,exit}_control_reset_shadow
-
-There is no reason to read the entry/exit control fields of the
-VMCS and immediately write back the same value.
-
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Paolo Bonzini|pbonzini@redhat.com|2016-07-07 14:58:33+02:00|-7200|Paolo Bonzini|pbonzini@redhat.com|2016-07-11 10:07:49+02:00|-7200

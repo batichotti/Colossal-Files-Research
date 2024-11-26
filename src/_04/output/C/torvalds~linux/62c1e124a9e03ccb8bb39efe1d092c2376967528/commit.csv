@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|62c1e124a9e03ccb8bb39efe1d092c2376967528|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"habanalabs: add opcode to INFO IOCTL to return clock rate
-
-Add a new opcode to the INFO IOCTL to allow the user application to
-retrieve the ASIC's current and maximum clock rate. The rate is
-returned in MHz.
-
-Signed-off-by: Oded Gabbay <oded.gabbay@gmail.com>
-Reviewed-by: Tomer Tayar <ttayar@habana.ai>"|6|Oded Gabbay|oded.gabbay@gmail.com|2019-10-10 15:48:59+03:00|-10800|Oded Gabbay|oded.gabbay@gmail.com|2019-11-21 11:35:45+02:00|-7200

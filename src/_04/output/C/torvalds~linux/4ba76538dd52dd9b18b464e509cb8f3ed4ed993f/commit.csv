@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4ba76538dd52dd9b18b464e509cb8f3ed4ed993f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: Move TSC scaling logic out of call-back read_l1_tsc()
-
-Both VMX and SVM scales the host TSC in the same way in call-back
-read_l1_tsc(), so this patch moves the scaling logic from call-back
-read_l1_tsc() to a common function kvm_read_l1_tsc().
-
-Signed-off-by: Haozhong Zhang <haozhong.zhang@intel.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|4|Haozhong Zhang|haozhong.zhang@intel.com|2015-10-20 15:39:07+08:00|-28800|Paolo Bonzini|pbonzini@redhat.com|2015-11-10 12:06:18+01:00|-3600

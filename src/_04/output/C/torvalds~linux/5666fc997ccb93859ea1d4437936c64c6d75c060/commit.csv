@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5666fc997ccb93859ea1d4437936c64c6d75c060|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libbpf: Fix wrong variable used in perf_event_uprobe_open_legacy()
-
-Use ""type"" as opposed to ""err"" in pr_warn() after
-determine_uprobe_perf_type_legacy() returns an error.
-
-Signed-off-by: Chuang Wang <nashuiliang@gmail.com>
-Signed-off-by: Andrii Nakryiko <andrii@kernel.org>
-Link: https://lore.kernel.org/bpf/20220629151848.65587-3-nashuiliang@gmail.com"|1|Chuang Wang|nashuiliang@gmail.com|2022-06-29 23:18:46+08:00|-28800|Andrii Nakryiko|andrii@kernel.org|2022-07-05 21:21:44-07:00|25200

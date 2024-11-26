@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|84459a1162801fb84734e5f9e6dc5194f791d69b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd41: add OPEN4_SHARE_ACCESS_WANT nfs4_stateid bmap
-
-Separate the access bits from the want bits and enable __set_bit to
-work correctly with st_access_bmap.
-
-Signed-off-by: Andy Adamson<andros@netapp.com>
-Signed-off-by: Benny Halevy <bhalevy@panasas.com>
-Signed-off-by: J. Bruce Fields <bfields@citi.umich.edu>"|1|Andy Adamson|andros@netapp.com|2009-04-03 08:28:56+03:00|-10800|J. Bruce Fields|bfields@citi.umich.edu|2009-04-03 17:41:21-07:00|25200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4d04e4fbf8fc9f5136a64d45e2c20de095c08efb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: add missing unlock to an error path in ext4_quota_write()
-
-When write in ext4_quota_write() fails, we have to properly release
-i_mutex.  One error path has been missing the unlock...
-
-Signed-off-by: Jan Kara <jack@suse.cz>
-Signed-off-by: Andrew Morton <akpm@linux-foundation.org>
-Signed-off-by: Linus Torvalds <torvalds@linux-foundation.org>"|1|Jan Kara|jack@suse.cz|2008-07-04 09:59:34-07:00|25200|Linus Torvalds|torvalds@linux-foundation.org|2008-07-04 10:40:05-07:00|25200

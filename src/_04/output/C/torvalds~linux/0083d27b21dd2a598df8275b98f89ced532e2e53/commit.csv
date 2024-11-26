@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0083d27b21dd2a598df8275b98f89ced532e2e53|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cgroup: Improve cftype add/rm error handling
-
-Let's track whether a cftype is currently added or not using a new flag
-__CFTYPE_ADDED so that duplicate operations can be failed safely and
-consistently allow using empty cftypes.
-
-Signed-off-by: Tejun Heo <tj@kernel.org>"|2|Tejun Heo|tj@kernel.org|2022-09-06 09:38:42-10:00|36000|Tejun Heo|tj@kernel.org|2022-09-06 09:38:42-10:00|36000

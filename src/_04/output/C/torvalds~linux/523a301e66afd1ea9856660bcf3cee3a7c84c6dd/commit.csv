@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|523a301e66afd1ea9856660bcf3cee3a7c84c6dd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"workqueue: Make default affinity_scope dynamically updatable
-
-While workqueue.default_affinity_scope is writable, it only affects
-workqueues which are created afterwards and isn't very useful. Instead,
-let's introduce explicit ""default"" scope and update the effective scope
-dynamically when workqueue.default_affinity_scope is changed.
-
-Signed-off-by: Tejun Heo <tj@kernel.org>"|4|Tejun Heo|tj@kernel.org|2023-08-07 15:57:25-10:00|36000|Tejun Heo|tj@kernel.org|2023-08-07 15:57:25-10:00|36000

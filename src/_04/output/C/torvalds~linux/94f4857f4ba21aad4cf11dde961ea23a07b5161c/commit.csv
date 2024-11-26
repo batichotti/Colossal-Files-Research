@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|94f4857f4ba21aad4cf11dde961ea23a07b5161c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rbd: remove barriers from img_request_layered_{set,clear,test}()
-
-IMG_REQ_LAYERED is set in rbd_img_request_create(), and tested and
-cleared in rbd_img_request_destroy() when the image request is about to
-be destroyed.  The barriers are unnecessary.
-
-Signed-off-by: Ilya Dryomov <idryomov@gmail.com>"|1|Ilya Dryomov|idryomov@gmail.com|2020-01-30 13:54:59+01:00|-3600|Ilya Dryomov|idryomov@gmail.com|2020-03-30 12:42:40+02:00|-7200

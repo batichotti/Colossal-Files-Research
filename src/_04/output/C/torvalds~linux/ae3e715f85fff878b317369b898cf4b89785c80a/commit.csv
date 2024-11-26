@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ae3e715f85fff878b317369b898cf4b89785c80a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: drop stale reference to volume_mutex
-
-Commit dccdb07bc996 (""btrfs: kill btrfs_fs_info::volume_mutex"") removed
-the last use of the volume_mutex, forgetting to update the comment.
-
-Signed-off-by: Anand Jain <anand.jain@oracle.com>
-Reviewed-by: David Sterba <dsterba@suse.com>
-Signed-off-by: David Sterba <dsterba@suse.com>"|1|Anand Jain|anand.jain@oracle.com|2020-05-14 01:42:45+08:00|-28800|David Sterba|dsterba@suse.com|2020-05-25 11:25:35+02:00|-7200

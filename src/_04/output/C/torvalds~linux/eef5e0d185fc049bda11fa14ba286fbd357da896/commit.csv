@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|eef5e0d185fc049bda11fa14ba286fbd357da896|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[PATCH] unwinder: Remove lockdep disabling of nested locks for unwinder
-
-Shouldn't be needed anymore since __kernel_text_address
-is used unconditionally on x86-64
-
-Signed-off-by: Andi Kleen <ak@suse.de>"|1|Andi Kleen|ak@suse.de|2006-12-07 02:14:12+01:00|-3600|Andi Kleen|andi@basil.nowhere.org|2006-12-07 02:14:12+01:00|-3600

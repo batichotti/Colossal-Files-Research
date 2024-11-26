@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|abd3f2d622a810b7f6687f7ddb405e90e4cfb7ab|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Rationalize exception bitmap usage
-
-Everyone owns a piece of the exception bitmap, but they happily write to
-the entire thing like there's no tomorrow.  Centralize handling in
-update_exception_bitmap() and have everyone call that.
-
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|1|Avi Kivity|avi@qumranet.com|2007-05-02 17:57:40+03:00|-10800|Avi Kivity|avi@qumranet.com|2007-07-16 12:05:39+03:00|-10800

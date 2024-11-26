@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0c4a0e2987a51415de73180ce9f389a99b3dddd1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"RDMA/hns: Update the data type of immediate data
-
-Because the data structure of hip08 is little endian, it needs to fix the
-immediate field of wqe and cqe into __le32.
-
-Signed-off-by: Lijun Ou <oulijun@huawei.com>
-Signed-off-by: Jason Gunthorpe <jgg@mellanox.com>"|2|Lijun Ou|oulijun@huawei.com|2018-07-25 15:29:40+08:00|-28800|Jason Gunthorpe|jgg@mellanox.com|2018-07-26 20:10:37-06:00|21600

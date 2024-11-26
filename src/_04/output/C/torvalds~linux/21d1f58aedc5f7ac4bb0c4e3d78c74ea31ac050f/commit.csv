@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|21d1f58aedc5f7ac4bb0c4e3d78c74ea31ac050f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"pnfs: nfs4_proc_layoutget returns void
-
-since the only user of nfs4_proc_layoutget is send_layoutget, which
-ignores its return value, there is no reason to return any value.
-
-Signed-off-by: Idan Kedar <idank@tonian.com>
-Signed-off-by: Benny Halevy <bhalevy@tonian.com>
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|2|Idan Kedar|idank@tonian.com|2012-08-02 11:47:11+03:00|-10800|Trond Myklebust|Trond.Myklebust@netapp.com|2012-08-02 17:39:06-04:00|14400

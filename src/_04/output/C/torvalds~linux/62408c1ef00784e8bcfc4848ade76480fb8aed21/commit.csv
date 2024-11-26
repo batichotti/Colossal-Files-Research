@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|62408c1ef00784e8bcfc4848ade76480fb8aed21|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"workqueue/hotplug: remove the workaround in rebind_workers()
-
-Since the cpu/hotplug refactoring, DOWN_FAILED is never called without
-preceding DOWN_PREPARE making the workaround unnecessary.  Remove it.
-
-Signed-off-by: Lai Jiangshan <jiangshanlai@gmail.com>
-Signed-off-by: Tejun Heo <tj@kernel.org>"|1|Lai Jiangshan|jiangshanlai@gmail.com|2017-12-01 22:23:07+08:00|-28800|Tejun Heo|tj@kernel.org|2017-12-04 14:46:09-08:00|28800

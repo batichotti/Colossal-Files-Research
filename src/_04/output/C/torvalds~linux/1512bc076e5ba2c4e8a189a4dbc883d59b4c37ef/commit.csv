@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1512bc076e5ba2c4e8a189a4dbc883d59b4c37ef|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211_hwsim: Claim support for setting Beacon frame TX legacy rate
-
-mac80211 takes care of rate control for the Beacon frames, so all
-mac80211_hwsim needs to do here is advertise support for this.
-
-Signed-off-by: Jouni Malinen <jouni@codeaurora.org>
-Link: https://lore.kernel.org/r/20200425155713.25687-5-jouni@codeaurora.org
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Jouni Malinen|jouni@codeaurora.org|2020-04-25 18:57:13+03:00|-10800|Johannes Berg|johannes.berg@intel.com|2020-04-29 16:18:04+02:00|-7200

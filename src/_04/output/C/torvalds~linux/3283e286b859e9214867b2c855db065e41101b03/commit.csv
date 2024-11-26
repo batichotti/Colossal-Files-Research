@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3283e286b859e9214867b2c855db065e41101b03|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211_hwsim: clean up own address matching
-
-Using perm_addr is always wrong, it may be reassigned by
-anyone using standard netdev APIs. Remove that from the
-match function and also use the match function where only
-the perm_addr was used now.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2014-06-12 22:34:49+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2014-06-23 14:22:20+02:00|-7200

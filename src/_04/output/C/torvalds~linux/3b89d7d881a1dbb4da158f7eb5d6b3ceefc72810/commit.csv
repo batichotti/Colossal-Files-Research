@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3b89d7d881a1dbb4da158f7eb5d6b3ceefc72810|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"slub: move min_partial to struct kmem_cache
-
-Although it allows for better cacheline use, it is unnecessary to save a
-copy of the cache's min_partial value in each kmem_cache_node.
-
-Cc: Christoph Lameter <cl@linux-foundation.org>
-Signed-off-by: David Rientjes <rientjes@google.com>
-Signed-off-by: Pekka Enberg <penberg@cs.helsinki.fi>"|2|David Rientjes|rientjes@google.com|2009-02-22 17:40:07-08:00|28800|Pekka Enberg|penberg@cs.helsinki.fi|2009-02-23 12:05:41+02:00|-7200

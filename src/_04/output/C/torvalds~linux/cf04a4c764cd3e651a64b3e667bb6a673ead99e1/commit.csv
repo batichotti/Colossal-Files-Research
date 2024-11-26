@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cf04a4c764cd3e651a64b3e667bb6a673ead99e1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netdev: use const for some name functions
-
-dev_change_name and netdev_drivername should use const char on
-parameters that are read-only input values. The strcpy to newname is
-not needed since newname is not used later in function.
-
-Signed-off-by: Stephen Hemminger <shemminger@vyatta.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Stephen Hemminger|shemminger@vyatta.com|2008-09-30 02:22:14-07:00|25200|David S. Miller|davem@davemloft.net|2008-09-30 02:22:14-07:00|25200

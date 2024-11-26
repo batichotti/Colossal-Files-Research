@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3fa9e3d230911272eaf1c3856f5483b0af3903f3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ALSA: hdspm - Add missing KNOT flag for AES32 rate restriction
-
-AES32 supports the non-standard 128kHZ, and this is enabled only when
-SNDRV_PCM_RATE_KNOT is set in hw.rates field.
-
-Tested-by: Adrian Knoth <adi@drcomp.erfurt.thur.de>
-Signed-off-by: Takashi Iwai <tiwai@suse.de>"|1|Takashi Iwai|tiwai@suse.de|2011-08-15 10:42:23+02:00|-7200|Takashi Iwai|tiwai@suse.de|2011-08-15 13:36:49+02:00|-7200

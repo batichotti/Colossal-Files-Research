@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a2c91753a4f3771a9b46eb42e0c46654819149a4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSD: Modify NFSv4 to use nfsd_read_splice_ok()
-
-Avoid the use of an atomic bitop, and prepare for adding a run-time
-switch for using splice reads.
-
-Reviewed-by: Jeff Layton <jlayton@kernel.org>
-Signed-off-by: Chuck Lever <chuck.lever@oracle.com>"|3|Chuck Lever|chuck.lever@oracle.com|2023-11-17 17:14:40-05:00|18000|Chuck Lever|chuck.lever@oracle.com|2024-01-07 17:54:25-05:00|18000

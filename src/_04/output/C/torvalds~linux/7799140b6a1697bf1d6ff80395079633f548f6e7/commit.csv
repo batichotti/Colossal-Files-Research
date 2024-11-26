@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7799140b6a1697bf1d6ff80395079633f548f6e7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sched_ext: Use update_curr_common() in update_curr_scx()
-
-update_curr_scx() is open coding runtime updates. Use update_curr_common()
-instead and avoid unnecessary deviations.
-
-Signed-off-by: Tejun Heo <tj@kernel.org>
-Suggested-by: Peter Zijlstra <peterz@infradead.org>
-Acked-by: David Vernet <void@manifault.com>"|1|Tejun Heo|tj@kernel.org|2024-08-06 09:40:11-10:00|36000|Tejun Heo|tj@kernel.org|2024-08-06 09:40:11-10:00|36000

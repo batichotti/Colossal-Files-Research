@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fcda7f73b618d93e16c9f82fbc366ed4ea327e0e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"s390/qeth: remove 'channel' parameter from callbacks
-
-Each cmd buffer maintains a pointer to the IO channel that it was/will
-be issued on. So when dealing with cmd buffers, we don't need to pass
-around a separate channel pointer.
-
-Signed-off-by: Julian Wiedmann <jwi@linux.ibm.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|Julian Wiedmann|jwi@linux.ibm.com|2019-06-11 18:37:56+02:00|-7200|David S. Miller|davem@davemloft.net|2019-06-13 22:39:31-07:00|25200

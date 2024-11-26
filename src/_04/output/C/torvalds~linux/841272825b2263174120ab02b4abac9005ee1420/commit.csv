@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|841272825b2263174120ab02b4abac9005ee1420|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libceph: grab snapc in ceph_osdc_alloc_request()
-
-ceph_osdc_build_request() is going away.  Grab snapc and initialize
-->r_snapid in ceph_osdc_alloc_request().
-
-Signed-off-by: Ilya Dryomov <idryomov@gmail.com>"|1|Ilya Dryomov|idryomov@gmail.com|2016-04-26 15:39:47+02:00|-7200|Ilya Dryomov|idryomov@gmail.com|2016-05-26 00:36:21+02:00|-7200

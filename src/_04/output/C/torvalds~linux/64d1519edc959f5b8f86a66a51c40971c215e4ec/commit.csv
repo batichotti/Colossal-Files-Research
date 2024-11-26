@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|64d1519edc959f5b8f86a66a51c40971c215e4ec|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"brcmfmac: reject too long PSK
-
-nl80211 already allows specifying 48 bytes, but brcmfmac
-only supports 32. Reject keys that are too long.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>
-Acked-by: Arend van Spriel <arend.vanspriel@broadcom.com>
-Signed-off-by: Kalle Valo <kvalo@codeaurora.org>"|1|Johannes Berg|johannes.berg@intel.com|2018-02-19 13:30:45+01:00|-3600|Kalle Valo|kvalo@codeaurora.org|2018-02-27 18:23:54+02:00|-7200

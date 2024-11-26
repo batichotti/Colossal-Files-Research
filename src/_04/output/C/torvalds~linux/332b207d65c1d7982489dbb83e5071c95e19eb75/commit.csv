@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|332b207d65c1d7982489dbb83e5071c95e19eb75|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: MMU: optimize pte write path if don't have protected sp
-
-Simply return from kvm_mmu_pte_write path if no shadow page is
-write-protected, then we can avoid to walk all shadow pages and hold
-mmu-lock
-
-Signed-off-by: Xiao Guangrong <xiaoguangrong@cn.fujitsu.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|2|Xiao Guangrong|xiaoguangrong@cn.fujitsu.com|2011-05-15 23:20:27+08:00|-28800|Avi Kivity|avi@redhat.com|2011-07-12 11:45:02+03:00|-10800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|60b07cf5d3462ec0183d463b43619e98bc63c951|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/amd/display: Make variables declaration inside ifdef guard
-
-Make variables declaration inside ifdef guard, as they are only used
-inside the same ifdef guard. This remove some of the
--Wunused-but-set-variable warning.
-
-Signed-off-by: Arthur Grillo <arthurgrillo@riseup.net>
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|2|Arthur Grillo|arthurgrillo@riseup.net|2023-02-13 17:49:22-03:00|10800|Alex Deucher|alexander.deucher@amd.com|2023-02-15 22:24:45-05:00|18000

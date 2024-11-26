@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|73a6d9416279f138833574f11dc82134fb56908d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"kvm: Use APIC_DEFAULT_PHYS_BASE macro as the apic access page address.
-
-We have APIC_DEFAULT_PHYS_BASE defined as 0xfee00000, which is also the address of
-apic access page. So use this macro.
-
-Signed-off-by: Tang Chen <tangchen@cn.fujitsu.com>
-Reviewed-by: Gleb Natapov <gleb@kernel.org>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|2|Tang Chen|tangchen@cn.fujitsu.com|2014-09-11 13:38:00+08:00|-28800|Paolo Bonzini|pbonzini@redhat.com|2014-09-11 11:10:22+02:00|-7200

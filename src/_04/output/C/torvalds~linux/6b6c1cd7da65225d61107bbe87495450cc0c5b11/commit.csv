@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6b6c1cd7da65225d61107bbe87495450cc0c5b11|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"hpsa: dont meddle with hw which isn't ours (cciss)
-
-The hpsa driver touches the hardware before checking the pci-id table.
-This way, especially in kdump, it may confuse the proper driver (cciss).
-
-Signed-off-by: Tomas Henzl <thenzl@redhat.com>
-Acked-by: Don Brace <Don.Brace@pmcs.com>
-Signed-off-by: James Bottomley <JBottomley@Odin.com>"|1|Tomas Henzl|thenzl@redhat.com|2015-04-02 15:25:54+02:00|-7200|James Bottomley|JBottomley@Odin.com|2015-05-31 11:17:02-07:00|25200

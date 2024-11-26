@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|94d308d060cd3ee65152b8ebd7a1c24fa86eee82|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: ethernet: mediatek: enhance with avoiding superfluous assignment inside mtk_get_ethtool_stats
-
-data_src is unchanged inside the loop, so this patch moves
-the assignment to outside the loop to avoid unnecessarily
-assignment
-
-Signed-off-by: Sean Wang <sean.wang@mediatek.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Sean Wang|sean.wang@mediatek.com|2016-09-20 11:26:48+08:00|-28800|David S. Miller|davem@davemloft.net|2016-09-21 00:06:32-04:00|14400

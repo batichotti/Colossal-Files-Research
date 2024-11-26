@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c708a4dc5ab547edc3d6537233ca9e79ea30ce47|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sched: Unify more update_curr*()
-
-Now that trace_sched_stat_runtime() no longer takes a vruntime
-argument, the task specific bits are identical between
-update_curr_common() and update_curr().
-
-Signed-off-by: Peter Zijlstra (Intel) <peterz@infradead.org>"|1|Peter Zijlstra|peterz@infradead.org|2023-11-06 14:04:01+01:00|-3600|Peter Zijlstra|peterz@infradead.org|2023-11-15 09:57:49+01:00|-3600

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c9f75b04ed5ed65a058d18a8a8dda50632a96de8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libata: kill ata_noop_dev_select()
-
-Now that SFF assumptions are separated out from non-SFF reset
-sequence, port_ops->sff_dev_select() is no longer necessary for
-non-SFF controllers.  Kill ata_noop_dev_select() and ->sff_dev_select
-initialization from base and other non-SFF port_ops.
-
-Signed-off-by: Tejun Heo <htejun@gmail.com>"|4|Tejun Heo|htejun@gmail.com|2008-04-07 22:47:21+09:00|-32400|Jeff Garzik|jgarzik@redhat.com|2008-04-17 15:44:24-04:00|14400

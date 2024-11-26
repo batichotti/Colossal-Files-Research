@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cc8f52609bb4177febade24d11713e20c0893b0a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: smartpqi: unlock on error in pqi_submit_raid_request_synchronous()
-
-We need to drop the ""ctrl_info->sync_request_sem"" lock before returning.
-
-Fixes: 6c223761eb54 (""smartpqi: initial commit of Microsemi smartpqi driver"")
-Signed-off-by: Dan Carpenter <dan.carpenter@oracle.com>
-Acked-by: Don Brace <don.brace@microsemi.com>
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|1|Dan Carpenter|dan.carpenter@oracle.com|2019-05-29 14:07:39+03:00|-10800|Martin K. Petersen|martin.petersen@oracle.com|2019-06-04 22:22:29-04:00|14400

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|245e2708773796aaa13e97523e035676b008b337|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Ensure panel is on during DPMS off
-
-If the panel is already off, we'll need to turn VDD on to execute the
-(useless) DPMS off code. Yes, it would be better to just not do any of
-this, but correctness, and *then* performance.
-
-Signed-off-by: Keith Packard <keithp@keithp.com>"|1|Keith Packard|keithp@keithp.com|2011-10-05 19:53:09-07:00|25200|Keith Packard|keithp@keithp.com|2011-10-05 19:54:29-07:00|25200

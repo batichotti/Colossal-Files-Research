@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|57afead5445de85658e3fa3811ef0cdbf5ed73bf|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net/mlx5e: Have a single RSS Toeplitz hash key
-
-No need to generate a unique key per TIR.
-Generating a single key per netdev and copying it to all
-its TIRs.
-
-Signed-off-by: Achiad Shochat <achiad@mellanox.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Achiad Shochat|achiad@mellanox.com|2015-08-16 16:04:45+03:00|-10800|David S. Miller|davem@davemloft.net|2015-08-17 15:51:35-07:00|25200

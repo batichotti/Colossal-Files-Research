@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|af1147b236da553544bed1ed8b683510e1278308|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: ksz884x: optimize netdev_open flow and remove static variable
-
-remove the static next_jiffies variable, and reinitialize next_jiffies
-to simplify netdev_open
-
-Signed-off-by: wujunwen <wudaemon@163.com>
-Link: https://lore.kernel.org/r/20220315122857.78601-1-wudaemon@163.com
-Signed-off-by: Jakub Kicinski <kuba@kernel.org>"|1|wujunwen|wudaemon@163.com|2022-03-15 12:28:57+00:00|0|Jakub Kicinski|kuba@kernel.org|2022-03-16 19:18:41-07:00|25200

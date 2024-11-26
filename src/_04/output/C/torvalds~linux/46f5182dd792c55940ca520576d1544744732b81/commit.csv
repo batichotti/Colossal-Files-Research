@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|46f5182dd792c55940ca520576d1544744732b81|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ipv6: make in6_dump_addrs() lockless
-
-in6_dump_addrs() is called with RCU protection.
-
-There is no need holding idev->lock to iterate through unicast addresses.
-
-Signed-off-by: Eric Dumazet <edumazet@google.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Eric Dumazet|edumazet@google.com|2024-03-06 15:51:42+00:00|0|David S. Miller|davem@davemloft.net|2024-03-08 11:15:35+00:00|0

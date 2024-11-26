@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0ef1efd1354d732d040f29b2005420f83fcdd8f4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: force module load in case select_ops() returns -EAGAIN
-
-nft_meta needs to pull in the nft_meta_bridge module in case that this
-is a bridge family rule from the select_ops() path.
-
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|2|Pablo Neira Ayuso|pablo@netfilter.org|2019-07-05 23:38:54+02:00|-7200|Pablo Neira Ayuso|pablo@netfilter.org|2019-07-06 08:37:36+02:00|-7200

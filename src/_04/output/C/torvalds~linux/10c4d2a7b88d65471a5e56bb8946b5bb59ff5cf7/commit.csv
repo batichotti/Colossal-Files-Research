@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|10c4d2a7b88d65471a5e56bb8946b5bb59ff5cf7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tools: ynl-gen: correct enum policies
-
-Scalar range validation assumes enums start at 0.
-Teach it to properly calculate the value range.
-
-Reviewed-by: Jacob Keller <jacob.e.keller@intel.com>
-Signed-off-by: Jakub Kicinski <kuba@kernel.org>"|1|Jakub Kicinski|kuba@kernel.org|2023-06-12 08:59:19-07:00|25200|Jakub Kicinski|kuba@kernel.org|2023-06-13 11:46:46-07:00|25200

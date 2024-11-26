@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|62498733d4c4fde8bc15215c5502923ff8224f86|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/amdgpu: rework S3/S4/S0ix state handling
-
-Set flags at the top level pmops callbacks to track
-state.  This cleans up the current set of flags and
-properly handles S4 on S0ix capable systems.
-
-Reviewed-by: Evan Quan <evan.quan@amd.com>
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|4|Alex Deucher|alexander.deucher@amd.com|2021-03-12 15:22:36-05:00|18000|Alex Deucher|alexander.deucher@amd.com|2021-04-09 16:36:29-04:00|14400

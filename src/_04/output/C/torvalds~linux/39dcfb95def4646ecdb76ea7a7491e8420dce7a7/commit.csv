@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|39dcfb95def4646ecdb76ea7a7491e8420dce7a7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: remove redundant code from vmx_set_segment()
-
-Segment descriptor's base is fixed by call to fix_rmode_seg(). Not need
-to do it twice.
-
-Reviewed-by: Marcelo Tosatti <mtosatti@redhat.com>
-Signed-off-by: Gleb Natapov <gleb@redhat.com>"|1|Gleb Natapov|gleb@redhat.com|2012-12-12 19:10:53+02:00|-7200|Gleb Natapov|gleb@redhat.com|2012-12-23 14:01:37+02:00|-7200

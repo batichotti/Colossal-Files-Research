@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a16e92edcd0a2846455a30823e1bac964e743baa|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"knfsd: query filesystem for NFSv4 getattr of FATTR4_MAXNAME
-
-Without this we always return 2^32-1 as the the maximum namelength.
-
-Thanks to Andreas Gruenbacher for bug report and testing.
-
-Signed-off-by: J. Bruce Fields <bfields@citi.umich.edu>
-Cc: Andreas Gruenbacher <agruen@suse.de>"|1|J. Bruce Fields|bfields@citi.umich.edu|2007-09-28 16:45:51-04:00|14400|J. Bruce Fields|bfields@citi.umich.edu|2007-10-09 18:31:57-04:00|14400

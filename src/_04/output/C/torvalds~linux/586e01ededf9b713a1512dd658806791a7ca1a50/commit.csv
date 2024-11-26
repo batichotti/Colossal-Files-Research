@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|586e01ededf9b713a1512dd658806791a7ca1a50|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: prevent spurious HT/VHT downgrade message
-
-Even when connecting to an AP that doesn't support VHT,
-and even when the local device doesn't support it either,
-the downgrade message gets printed. Suppress the message
-if HT and/or VHT is disabled.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2013-02-14 12:13:53+01:00|-3600|Johannes Berg|johannes.berg@intel.com|2013-02-15 09:41:45+01:00|-3600

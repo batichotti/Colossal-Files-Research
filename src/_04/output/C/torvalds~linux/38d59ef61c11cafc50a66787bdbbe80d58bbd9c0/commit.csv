@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|38d59ef61c11cafc50a66787bdbbe80d58bbd9c0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ocfs2: Add xattr support checking in init_security
-
-We must check whether ocfs2 volume support xattr in init_security,
-if not support xattr and security is enable, would cause failure of mknod.
-
-Signed-off-by: Tiger Yang <tiger.yang@oracle.com>
-Signed-off-by: Mark Fasheh <mfasheh@suse.com>"|1|Tiger Yang|tiger.yang@oracle.com|2008-12-17 10:22:56+08:00|-28800|Mark Fasheh|mfasheh@suse.com|2009-01-05 08:40:36-08:00|28800

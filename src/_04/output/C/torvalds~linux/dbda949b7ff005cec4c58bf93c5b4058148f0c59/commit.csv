@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|dbda949b7ff005cec4c58bf93c5b4058148f0c59|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wifi: cfg80211: make some regulatory functions void
-
-The return value of regulatory_hint_indoor() is always 0 for
-success, and the return value of regulatory_hint_found_beacon()
-is always ignored. Make them both have void return.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|3|Johannes Berg|johannes.berg@intel.com|2024-04-19 10:25:48+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2024-04-19 10:28:25+02:00|-7200

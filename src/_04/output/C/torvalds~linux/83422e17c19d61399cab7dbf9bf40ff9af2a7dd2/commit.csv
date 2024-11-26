@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|83422e17c19d61399cab7dbf9bf40ff9af2a7dd2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: Parameterize vmx_complete_interrupts() for both exit and entry
-
-Currently vmx_complete_interrupts() can decode event information from vmx
-exit fields into the generic kvm event queues.  Make it able to decode
-the information from the entry fields as well by parametrizing it.
-
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Avi Kivity|avi@redhat.com|2010-07-20 14:43:23+03:00|-10800|Avi Kivity|avi@redhat.com|2010-10-24 10:52:52+02:00|-7200

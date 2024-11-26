@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2e91e731f24817bc55f9c9acc95a8939c4077b05|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/amdgpu/gfx11: only enable CP GFX shadowing on SR-IOV
-
-This is only required for SR-IOV world switches, but it
-adds additional latency leading to reduced performance in
-some benchmarks.  Disable for now on bare metal.
-
-Reviewed-by: Christian König <christian.koenig@amd.com>
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|1|Alex Deucher|alexander.deucher@amd.com|2023-07-28 16:53:49-04:00|14400|Alex Deucher|alexander.deucher@amd.com|2023-08-09 10:56:14-04:00|14400

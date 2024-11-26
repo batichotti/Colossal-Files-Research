@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5e404e9ed1b05cafb044bd46792e50197df805ed|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ocfs2: Pass ocfs2_caching_info into ocfs_init_*_extent_tree().
-
-With this commit, extent tree operations are divorced from inodes and
-rely on ocfs2_caching_info.  Phew!
-
-Signed-off-by: Joel Becker <joel.becker@oracle.com>"|6|Joel Becker|joel.becker@oracle.com|2009-02-13 03:54:22-08:00|28800|Joel Becker|joel.becker@oracle.com|2009-09-04 16:08:13-07:00|25200

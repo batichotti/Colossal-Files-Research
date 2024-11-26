@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fc1b20659597015a30e8ea032f168e97848c1d39|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd: remove unnecessary assertion in nfsd4_encode_replay
-
-The replay variable is set in the only caller of nfsd4_encode_replay.
-The assertion is unnecessary and the patch removes this check.
-
-Signed-off-by: Aditya Pakki <pakki001@umn.edu>
-Signed-off-by: J. Bruce Fields <bfields@redhat.com>"|1|Aditya Pakki|pakki001@umn.edu|2019-12-17 16:50:47-06:00|21600|J. Bruce Fields|bfields@redhat.com|2019-12-19 17:46:08-05:00|18000

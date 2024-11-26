@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ace3c5499e61ef7c0433a7a297227a9bdde54a55|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"workqueue: add cmdline parameter `workqueue.unbound_cpus` to further constrain wq_unbound_cpumask at boot time
-
-Motivation of doing this is to better improve boot times for devices when
-we want to prevent our workqueue works from running on some specific CPUs,
-e,g, some CPUs are busy with interrupts.
-
-Signed-off-by: tiozhang <tiozhang@didiglobal.com>
-Signed-off-by: Tejun Heo <tj@kernel.org>"|2|tiozhang|tiozhang@didiglobal.com|2023-06-29 11:50:50+08:00|-28800|Tejun Heo|tj@kernel.org|2023-07-10 10:42:51-10:00|36000

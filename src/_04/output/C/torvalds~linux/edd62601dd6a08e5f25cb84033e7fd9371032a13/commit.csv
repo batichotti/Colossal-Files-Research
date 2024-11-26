@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|edd62601dd6a08e5f25cb84033e7fd9371032a13|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Remove some visibility checks from intel_crtc_update_cursor.
-
-This is duplicated with intel_check_cursor_plane, and with all
-non-atomic paths removed this should be dead code.
-
-Signed-off-by: Maarten Lankhorst <maarten.lankhorst@linux.intel.com>
-Link: http://patchwork.freedesktop.org/patch/msgid/1452164052-21752-4-git-send-email-maarten.lankhorst@linux.intel.com
-Reviewed-by: Ville Syrjälä <ville.syrjala@linux.intel.com>"|1|Maarten Lankhorst|maarten.lankhorst@linux.intel.com|2016-01-07 11:54:08+01:00|-3600|Maarten Lankhorst|maarten.lankhorst@linux.intel.com|2016-01-07 13:50:35+01:00|-3600

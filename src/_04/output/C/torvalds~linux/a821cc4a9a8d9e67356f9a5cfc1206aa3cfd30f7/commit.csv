@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a821cc4a9a8d9e67356f9a5cfc1206aa3cfd30f7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drbd: fix spurious protocol error
-
-If we cannot satisfy a request (because our disk just broke),
-we still need to drain the payload.  Or we'll get a protocol error
-when interpreting the payload as DRBD packet header.
-
-Signed-off-by: Philipp Reisner <philipp.reisner@linbit.com>
-Signed-off-by: Lars Ellenberg <lars.ellenberg@linbit.com>"|1|Lars Ellenberg|lars.ellenberg@linbit.com|2010-09-06 12:31:37+02:00|-7200|Philipp Reisner|philipp.reisner@linbit.com|2010-10-14 18:38:35+02:00|-7200

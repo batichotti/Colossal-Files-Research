@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|255939e783d8f45f8c58487dfc18957c44ea9871|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rbd: fix error return code in rbd_dev_device_setup()
-
-Fix to return -ENOMEM from the workqueue alloc error handling
-case instead of 0, as done elsewhere in this function.
-
-Reviewed-by: Alex Elder <elder@linaro.org>
-Signed-off-by: Wei Yongjun <yongjun_wei@trendmicro.com.cn>"|1|Wei Yongjun|yongjun_wei@trendmicro.com.cn|2014-08-13 20:49:52-07:00|25200|Ilya Dryomov|ilya.dryomov@inktank.com|2014-09-10 11:59:06+04:00|-14400

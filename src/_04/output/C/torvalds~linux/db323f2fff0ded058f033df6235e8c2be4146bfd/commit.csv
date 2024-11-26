@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|db323f2fff0ded058f033df6235e8c2be4146bfd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Use delayed work for advertisiment cache timeout
-
-As HCI rx path is now done in process context it makes sense to do all the
-timer in process context as well.
-
-Acked-by: Marcel Holtmann <marcel@holtmann.org>
-Signed-off-by: Gustavo F. Padovan <padovan@profusion.mobi>"|3|Gustavo F. Padovan|padovan@profusion.mobi|2011-06-20 16:39:29-03:00|10800|Gustavo F. Padovan|padovan@profusion.mobi|2011-12-18 17:07:55-02:00|7200

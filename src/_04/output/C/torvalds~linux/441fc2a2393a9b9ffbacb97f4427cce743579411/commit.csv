@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|441fc2a2393a9b9ffbacb97f4427cce743579411|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[NETNS]: Use the per-net ipv6_devconf_dflt
-
-All its users are in net/ipv6/addrconf.c's sysctl handlers.
-Since they already have the struct net to get from, the
-per-net ipv6_devconf_dflt can already be used.
-
-Signed-off-by: Pavel Emelyanov <xemul@openvz.org>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Pavel Emelyanov|xemul@openvz.org|2008-01-10 17:43:22-08:00|28800|David S. Miller|davem@davemloft.net|2008-01-28 15:01:40-08:00|28800

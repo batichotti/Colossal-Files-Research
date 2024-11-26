@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|97e04764f50db2aa7acfee85c0c721f8d735a71c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915/dp: Extract intel_dp_has_audio()
-
-Declutter intel_dp_compute_config() a bit by moving the
-has_audio computation into a helper. HDMI already does the same thing.
-
-Signed-off-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Link: https://patchwork.freedesktop.org/patch/msgid/20220322120015.28074-4-ville.syrjala@linux.intel.com
-Reviewed-by: Uma Shankar <uma.shankar@intel.com>"|1|Ville Syrjälä|ville.syrjala@linux.intel.com|2022-03-22 14:00:06+02:00|-7200|Ville Syrjälä|ville.syrjala@linux.intel.com|2022-04-05 11:13:40+03:00|-10800

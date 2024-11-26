@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cdfca7b346e6dbab1ba33260c28ccb8333485a5b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Use kmemdup() instead of kmalloc/memcpy
-
-Switch to kmemdup() in two places to shorten the code and avoid possible bugs.
-
-Signed-off-by: Sasha Levin <levinsasha928@gmail.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|2|Sasha Levin|levinsasha928@gmail.com|2011-12-04 19:36:28+02:00|-7200|Avi Kivity|avi@redhat.com|2011-12-27 11:22:20+02:00|-7200

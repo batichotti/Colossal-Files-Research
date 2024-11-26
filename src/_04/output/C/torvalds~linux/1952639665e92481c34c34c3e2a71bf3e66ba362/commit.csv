@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1952639665e92481c34c34c3e2a71bf3e66ba362|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: MMU: do not iterate over all VMs in mmu_shrink()
-
-mmu_shrink() needlessly iterates over all VMs even though it will not
-attempt to free mmu pages from more than one on them. Fix that and also
-check used mmu pages count outside of VM lock to skip inactive VMs faster.
-
-Signed-off-by: Gleb Natapov <gleb@redhat.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Gleb Natapov|gleb@redhat.com|2012-06-04 14:53:23+03:00|-10800|Avi Kivity|avi@redhat.com|2012-06-05 17:46:43+03:00|-10800

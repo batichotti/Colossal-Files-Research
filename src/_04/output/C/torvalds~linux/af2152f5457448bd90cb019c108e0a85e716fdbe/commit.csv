@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|af2152f5457448bd90cb019c108e0a85e716fdbe|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: don't enter guest after SIPI was received by a CPU
-
-The vcpu should process pending SIPI message before entering guest mode again.
-kvm_arch_vcpu_runnable() returns true if the vcpu is in SIPI state, so
-we can't call it here.
-
-Signed-off-by: Gleb Natapov <gleb@qumranet.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Gleb Natapov|gleb@qumranet.com|2008-09-22 14:28:53+03:00|-10800|Avi Kivity|avi@redhat.com|2008-10-15 14:25:09+02:00|-7200

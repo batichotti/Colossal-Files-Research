@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|10dbdf98acd620f376313b85b587c9b9563fc170|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: Take advantage of kvm_arch_dy_has_pending_interrupt()
-
-`kvm_arch_dy_runnable` checks the pending_interrupt as the code in
-`kvm_arch_dy_has_pending_interrupt`. So take advantage of it.
-
-Signed-off-by: Haiwei Li <lihaiwei@tencent.com>
-Message-Id: <20210421032513.1921-1-lihaiwei.kernel@gmail.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Haiwei Li|lihaiwei@tencent.com|2021-04-21 11:25:13+08:00|-28800|Paolo Bonzini|pbonzini@redhat.com|2021-04-26 05:27:18-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|26ebe0a28986f4845b2c5bea43ac5cc0b9f27f0a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ALSA: hda - Fix mute-LED GPIO pin for HP dv series
-
-Old HP dv series seem to use the GPIO pin 0 for controlling the mute LED
-although the pin is a large package, where the newer models use GPIO 3
-in such a case.  For fixing the regression from the previous kernels,
-set spec->gpio_led statically for these model quirks.
-
-Signed-off-by: Takashi Iwai <tiwai@suse.de>"|1|Takashi Iwai|tiwai@suse.de|2010-05-11 08:36:29+02:00|-7200|Takashi Iwai|tiwai@suse.de|2010-05-11 08:36:29+02:00|-7200

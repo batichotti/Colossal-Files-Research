@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cbbb40e2ec264bd63c410ff41cc8240c25419c49|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: netfilter: Use list_{next/prev}_entry instead of list_entry
-
-This patch replace list_entry with list_prev_entry as it makes the
-code more clear to read.
-
-Signed-off-by: simran singhal <singhalsimran0@gmail.com>
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|1|simran singhal|singhalsimran0@gmail.com|2017-03-29 11:15:40+05:30|-19800|Pablo Neira Ayuso|pablo@netfilter.org|2017-04-07 17:33:02+02:00|-7200

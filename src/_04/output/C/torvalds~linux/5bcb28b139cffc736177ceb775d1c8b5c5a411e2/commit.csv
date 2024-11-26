@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5bcb28b139cffc736177ceb775d1c8b5c5a411e2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"BUG_ON() Conversion in mm/memory.c
-
-this changes if() BUG(); constructs to BUG_ON() which is
-cleaner, contains unlikely() and can better optimized away.
-
-Signed-off-by: Eric Sesterhenn <snakebyte@gmx.de>
-Signed-off-by: Adrian Bunk <bunk@stusta.de>"|1|Eric Sesterhenn|snakebyte@gmx.de|2006-03-26 18:30:52+02:00|-7200|Adrian Bunk|bunk@stusta.de|2006-03-26 18:30:52+02:00|-7200

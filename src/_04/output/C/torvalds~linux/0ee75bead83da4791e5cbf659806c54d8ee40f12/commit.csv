@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0ee75bead83da4791e5cbf659806c54d8ee40f12|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Let vcpu structure alignment be determined at runtime
-
-vmx and svm vcpus have different contents and therefore may have different
-alignmment requirements.  Let each specify its required alignment.
-
-Signed-off-by: Avi Kivity <avi@redhat.com>"|9|Avi Kivity|avi@redhat.com|2010-04-28 15:39:01+03:00|-10800|Avi Kivity|avi@redhat.com|2010-05-19 11:36:29+03:00|-10800

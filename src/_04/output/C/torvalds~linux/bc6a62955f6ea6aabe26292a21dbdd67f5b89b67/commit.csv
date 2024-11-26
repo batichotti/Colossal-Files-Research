@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bc6a62955f6ea6aabe26292a21dbdd67f5b89b67|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/radeon: resume old pm late
-
-Moving the pm resume up in the init order to fix
-dpm seems to have regressed somes cases with the old
-pm code.  Move it back to late resume.
-
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|15|Alex Deucher|alexander.deucher@amd.com|2014-02-25 12:01:28-05:00|18000|Alex Deucher|alexander.deucher@amd.com|2014-03-06 16:46:56-05:00|18000

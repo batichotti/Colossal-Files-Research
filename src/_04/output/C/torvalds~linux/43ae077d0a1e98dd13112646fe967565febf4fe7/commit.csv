@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|43ae077d0a1e98dd13112646fe967565febf4fe7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drbd: Make the peer_seq updating code more obvious
-
-Make it more clear that update_peer_seq() is supposed to wake up the
-seq_wait queue whenever the sequence number changes.
-
-Signed-off-by: Philipp Reisner <philipp.reisner@linbit.com>
-Signed-off-by: Lars Ellenberg <lars.ellenberg@linbit.com>"|1|Andreas Gruenbacher|agruen@linbit.com|2011-02-03 18:42:08+01:00|-3600|Philipp Reisner|philipp.reisner@linbit.com|2011-09-28 10:26:35+02:00|-7200

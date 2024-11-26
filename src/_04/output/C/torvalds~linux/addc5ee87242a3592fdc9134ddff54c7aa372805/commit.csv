@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|addc5ee87242a3592fdc9134ddff54c7aa372805|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"s390/qeth: remove redundant netif_carrier_ok() checks
-
-netif_carrier_off() does its own checking.
-
-Signed-off-by: Julian Wiedmann <jwi@linux.ibm.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|Julian Wiedmann|jwi@linux.ibm.com|2018-07-19 12:43:50+02:00|-7200|David S. Miller|davem@davemloft.net|2018-07-21 10:12:29-07:00|25200

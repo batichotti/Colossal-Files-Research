@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|160d2f6c0c90713aa3bb93dd344fe0d527342e26|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: fix the error of ioctl KVM_IRQ_LINE if no irq chip
-
-If no irq chip in kernel, ioctl KVM_IRQ_LINE will return -EFAULT.
-But I see in other place such as KVM_[GET|SET]IRQCHIP, -ENXIO is
-return. So this patch used -ENXIO instead of -EFAULT.
-
-Signed-off-by: Wei Yongjun <yjwei@cn.fujitsu.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|1|Wei Yongjun|yjwei@cn.fujitsu.com|2010-03-12 10:09:45+08:00|-28800|Avi Kivity|avi@redhat.com|2010-05-17 12:15:31+03:00|-10800

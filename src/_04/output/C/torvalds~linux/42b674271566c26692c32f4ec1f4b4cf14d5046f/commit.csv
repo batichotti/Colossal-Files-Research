@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|42b674271566c26692c32f4ec1f4b4cf14d5046f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: make use of btrfs_scratch_superblocks() in btrfs_rm_device()
-
-With the previous patches now the btrfs_scratch_superblocks() is ready to
-be used in btrfs_rm_device() so use it.
-
-Signed-off-by: Anand Jain <anand.jain@oracle.com>
-[ use GFP_KERNEL ]
-Signed-off-by: David Sterba <dsterba@suse.com>"|1|Anand Jain|anand.jain@oracle.com|2016-02-13 10:01:38+08:00|-28800|David Sterba|dsterba@suse.com|2016-04-28 10:59:13+02:00|-7200

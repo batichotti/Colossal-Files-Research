@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|72ab4a86f7a260d4c2a320b49662da107ce77a81|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tcp: remove tcp_rcv_state_process() tcp_hdr argument
-
-Factorize code to get tcp header from skb. It makes no sense
-to duplicate code in callers.
-
-Signed-off-by: Eric Dumazet <edumazet@google.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|5|Eric Dumazet|edumazet@google.com|2015-09-29 07:42:41-07:00|25200|David S. Miller|davem@davemloft.net|2015-09-29 16:53:07-07:00|25200

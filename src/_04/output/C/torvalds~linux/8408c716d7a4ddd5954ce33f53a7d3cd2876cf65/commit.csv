@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8408c716d7a4ddd5954ce33f53a7d3cd2876cf65|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: fix wrong error handle when the device is missing or is not writeable
-
-The original bio might be submitted, so we shoud increase bi_remaining to
-account for it when we deal with the error that the device is missing or
-is not writeable, or we would skip the endio handle.
-
-Signed-off-by: Miao Xie <miaox@cn.fujitsu.com>
-Signed-off-by: Chris Mason <clm@fb.com>"|1|Miao Xie|miaox@cn.fujitsu.com|2014-06-19 10:42:55+08:00|-28800|Chris Mason|clm@fb.com|2014-06-19 14:20:56-07:00|25200

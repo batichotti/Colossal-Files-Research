@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3e6afcf1d8ce6bca6bfa62a49c1d70d2f16162eb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: s390: Fix return code for unknown ioctl numbers
-
-This patch fixes the return code of kvm_arch_vcpu_ioctl in case
-of an unkown ioctl number.
-
-Signed-off-by: Carsten Otte <cotte@de.ibm.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Carsten Otte|cotte@de.ibm.com|2012-01-04 10:25:30+01:00|-3600|Avi Kivity|avi@redhat.com|2012-03-05 14:52:21+02:00|-7200

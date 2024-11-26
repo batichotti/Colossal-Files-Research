@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|29ae7f9dc21a7dda41d78b27bbda7d427ece8ad4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSD: Implement the COPY call
-
-I only implemented the sync version of this call, since it's the
-easiest.  I can simply call vfs_copy_range() and have the vfs do the
-right thing for the filesystem being exported.
-
-Signed-off-by: Anna Schumaker <bjschuma@netapp.com>
-Signed-off-by: J. Bruce Fields <bfields@redhat.com>"|5|Anna Schumaker|Anna.Schumaker@netapp.com|2016-09-07 15:57:30-04:00|14400|J. Bruce Fields|bfields@redhat.com|2016-10-07 14:54:25-04:00|14400

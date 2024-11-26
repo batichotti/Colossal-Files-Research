@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b3ac04132c4b9bc5c9c14608424d410e7ca3b400|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mm/rmap: Turn page_referenced() into folio_referenced()
-
-Both its callers pass a page which was previously on an LRU list,
-so were passing a folio by definition.  Use the type system to enforce
-that and remove a few calls to compound_head().
-
-Signed-off-by: Matthew Wilcox (Oracle) <willy@infradead.org>
-Reviewed-by: Christoph Hellwig <hch@lst.de>"|4|Matthew Wilcox (Oracle)|willy@infradead.org|2022-01-21 11:27:31-05:00|18000|Matthew Wilcox (Oracle)|willy@infradead.org|2022-03-21 12:59:03-04:00|14400

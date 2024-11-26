@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3d9017d9449bf8756f881970c970999c9148d306|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: mvpp2: adapt mvpp2_defaults_set() to PPv2.2
-
-This commit modifies the mvpp2_defaults_set() function to not do the
-loopback and FIFO threshold initialization, which are not needed for
-PPv2.2.
-
-Signed-off-by: Thomas Petazzoni <thomas.petazzoni@free-electrons.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Thomas Petazzoni|thomas.petazzoni@free-electrons.com|2017-03-07 16:53:11+01:00|-3600|David S. Miller|davem@davemloft.net|2017-03-09 10:12:11-08:00|28800

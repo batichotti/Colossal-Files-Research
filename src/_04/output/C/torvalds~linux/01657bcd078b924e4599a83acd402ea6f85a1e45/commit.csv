@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|01657bcd078b924e4599a83acd402ea6f85a1e45|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bnxt_en: Modify init sequence to support shared or non shared rings.
-
-Modify ring memory allocation and MSIX setup to support shared or
-non shared rings and do the proper mapping.  Default is still to
-use shared rings.
-
-Signed-off-by: Michael Chan <mchan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Michael Chan|mchan@broadcom.com|2016-01-02 23:45:03-05:00|18000|David S. Miller|davem@davemloft.net|2016-01-04 15:54:40-05:00|18000

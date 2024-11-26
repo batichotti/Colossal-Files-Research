@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|12967c4f21707269de2bd9cd525acf32d3e0a8ee|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: pass dev_priv explicitly to PIPE_DATA_N1
-
-Avoid the implicit dev_priv local variable use, and pass dev_priv
-explicitly to the PIPE_DATA_N1 register macro.
-
-Reviewed-by: Rodrigo Vivi <rodrigo.vivi@intel.com>
-Link: https://patchwork.freedesktop.org/patch/msgid/80759c6efdfdb59c4bd624af85b9db38ebe06f65.1717514638.git.jani.nikula@intel.com
-Signed-off-by: Jani Nikula <jani.nikula@intel.com>"|4|Jani Nikula|jani.nikula@intel.com|2024-06-04 18:26:09+03:00|-10800|Jani Nikula|jani.nikula@intel.com|2024-06-07 11:28:57+03:00|-10800

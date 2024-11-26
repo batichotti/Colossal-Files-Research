@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ba7e389c30c6bfb78857ba7a6f8d2cd4bbf5bde7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"habanalabs: Move repeatedly included headers to habanalabs.h
-
-Several header files are repeatedly included in many files.
-Move these files to habanalabs.h which is included by all.
-
-Signed-off-by: Tomer Tayar <ttayar@habana.ai>
-Reviewed-by: Oded Gabbay <ogabbay@kernel.org>
-Signed-off-by: Oded Gabbay <ogabbay@kernel.org>"|10|Tomer Tayar|ttayar@habana.ai|2020-10-25 17:47:22+02:00|-7200|Oded Gabbay|ogabbay@kernel.org|2020-11-30 10:47:32+02:00|-7200

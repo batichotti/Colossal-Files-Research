@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|47ea20762bb7875a62e10433a3cd5d34e9133f47|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/amdgpu: Add an extra evict_resource call during device_suspend.
-
-- evict_resource is taking too long causing sriov full access mode timeout.
-  So, add an extra evict_resource in the beginning as an early evict.
-
-Signed-off-by: Shikang Fan <shikang.fan@amd.com>
-Reviewed-by: Christian König <christian.koenig@amd.com>
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|1|Shikang Fan|shikang.fan@amd.com|2022-12-08 19:53:14+08:00|-28800|Alex Deucher|alexander.deucher@amd.com|2022-12-13 17:10:32-05:00|18000

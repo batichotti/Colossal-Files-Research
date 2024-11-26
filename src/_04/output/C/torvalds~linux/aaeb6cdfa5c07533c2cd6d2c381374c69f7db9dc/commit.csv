@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|aaeb6cdfa5c07533c2cd6d2c381374c69f7db9dc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"remove init of dev->perm_addr in drivers
-
-perm_addr is initialized correctly in register_netdevice() so to init it in
-drivers is no longer needed.
-
-Signed-off-by: Jiri Pirko <jiri@resnulli.us>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|51|Jiri Pirko|jiri@resnulli.us|2013-01-08 01:38:26+00:00|0|David S. Miller|davem@davemloft.net|2013-01-08 18:00:48-08:00|28800

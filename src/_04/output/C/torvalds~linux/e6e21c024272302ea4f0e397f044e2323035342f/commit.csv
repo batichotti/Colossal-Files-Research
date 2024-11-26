@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e6e21c024272302ea4f0e397f044e2323035342f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: mvpp2: rename per-port RSS init function
-
-mvpp22_init_rss function configures the RSS parameters for each port, so
-rename it accordingly. Since this function relies on classifier
-configuration, move its call right after the classifier config.
-
-Signed-off-by: Maxime Chevallier <maxime.chevallier@bootlin.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|Maxime Chevallier|maxime.chevallier@bootlin.com|2018-07-12 13:54:23+02:00|-7200|David S. Miller|davem@davemloft.net|2018-07-12 17:30:48-07:00|25200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|61827671ca629dca4f5fac1ebce7b0c8c9d65a86|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86/mmu: Remove unused ""kvm"" of kvm_mmu_unlink_parents()
-
-The ""struct kvm *kvm"" parameter of kvm_mmu_unlink_parents()
-is not used, so remove it. No functional change intended.
-
-Signed-off-by: Jinrong Liang <cloudliang@tencent.com>
-Message-Id: <20220125095909.38122-2-cloudliang@tencent.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Jinrong Liang|cloudliang@tencent.com|2022-01-25 17:58:51+08:00|-28800|Paolo Bonzini|pbonzini@redhat.com|2022-02-10 13:47:09-05:00|18000

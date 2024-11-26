@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|88c808fd42b53a7e01a2ac3253ef31fef74cb5af|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Protect update_cr8_intercept() when running without an apic
-
-update_cr8_intercept() can be triggered from userspace while there
-is no apic present.
-
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Avi Kivity|avi@redhat.com|2009-08-17 22:49:40+03:00|-10800|Avi Kivity|avi@redhat.com|2009-09-10 10:46:54+03:00|-10800

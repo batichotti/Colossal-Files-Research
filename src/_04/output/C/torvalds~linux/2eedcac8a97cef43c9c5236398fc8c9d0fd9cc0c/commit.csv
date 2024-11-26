@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2eedcac8a97cef43c9c5236398fc8c9d0fd9cc0c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: Loading segments on 64-bit mode may be wrong
-
-The current emulator implementation ignores the high 32 bits of the base in
-long-mode.  During segment load from the LDT, the base of the LDT is calculated
-incorrectly and may cause the wrong segment to be loaded.
-
-Signed-off-by: Nadav Amit <namit@cs.technion.ac.il>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Nadav Amit|namit@cs.technion.ac.il|2014-06-02 18:34:05+03:00|-10800|Paolo Bonzini|pbonzini@redhat.com|2014-06-18 17:46:16+02:00|-7200

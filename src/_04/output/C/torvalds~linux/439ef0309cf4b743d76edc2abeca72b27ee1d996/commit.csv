@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|439ef0309cf4b743d76edc2abeca72b27ee1d996|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sctp: consider idata chunks when setting SCTP_MAXSEG
-
-When setting SCTP_MAXSEG sock option, it should consider which kind of
-data chunk is being used if the asoc is already available, so that the
-limit better reflect reality.
-
-Signed-off-by: Marcelo Ricardo Leitner <marcelo.leitner@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Marcelo Ricardo Leitner|marcelo.leitner@gmail.com|2018-04-26 16:59:01-03:00|10800|David S. Miller|davem@davemloft.net|2018-04-27 14:35:23-04:00|14400

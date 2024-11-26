@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6928a9245f2998478047dcc3efad30734766a226|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Store address type with OOB data
-
-To be able to support OOB data for LE pairing we need to store the
-address type of the remote device. This patch extends the relevant
-functions and data types with a bdaddr_type variable.
-
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|4|Johan Hedberg|johan.hedberg@intel.com|2014-10-26 20:46:09+01:00|-3600|Marcel Holtmann|marcel@holtmann.org|2014-12-03 16:51:21+01:00|-3600

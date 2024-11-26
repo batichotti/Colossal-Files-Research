@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|795858dbd253462a67e14272edeaae73c6074b17|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ceph: fix encoding of ino only (not relative) paths
-
-A 'path' consists of a starting ino and relative component.  Encode even
-when there is no relative component.  This is primarily needed by the
-NFS reexport code.
-
-Signed-off-by: Sage Weil <sage@newdream.net>"|1|Sage Weil|sage@newdream.net|2011-08-15 13:02:37-07:00|25200|Sage Weil|sage@newdream.net|2011-08-15 13:03:56-07:00|25200

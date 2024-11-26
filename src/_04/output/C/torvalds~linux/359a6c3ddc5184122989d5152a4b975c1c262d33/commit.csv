@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|359a6c3ddc5184122989d5152a4b975c1c262d33|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: nVMX: do not start the preemption timer hrtimer unnecessarily
-
-The preemption timer can be started even if there is a vmentry
-failure during or after loading guest state.  That is pointless,
-move the call after all conditions have been checked.
-
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Paolo Bonzini|pbonzini@redhat.com|2019-01-29 19:14:46+01:00|-3600|Paolo Bonzini|pbonzini@redhat.com|2019-02-20 22:48:29+01:00|-3600

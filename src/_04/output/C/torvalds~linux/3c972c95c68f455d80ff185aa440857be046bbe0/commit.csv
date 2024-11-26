@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3c972c95c68f455d80ff185aa440857be046bbe0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libceph: rename ceph_osd_request::r_{oloc,oid} to r_base_{oloc,oid}
-
-Rename ceph_osd_request::r_{oloc,oid} to r_base_{oloc,oid} before
-introducing r_target_{oloc,oid} needed for redirects.
-
-Signed-off-by: Ilya Dryomov <ilya.dryomov@inktank.com>
-Reviewed-by: Sage Weil <sage@inktank.com>"|4|Ilya Dryomov|ilya.dryomov@inktank.com|2014-01-27 17:40:20+02:00|-7200|Ilya Dryomov|ilya.dryomov@inktank.com|2014-01-27 23:57:49+02:00|-7200

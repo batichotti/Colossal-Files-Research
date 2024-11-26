@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bda07a64c09c44ced789dbb815c71854f0c59839|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tcp: remove unused len argument from tcp_rcv_state_process()
-
-Once we realize tcp_rcv_synsent_state_process() does not use
-its 'len' argument and we get rid of it, then it becomes clear
-this argument is no longer used in tcp_rcv_state_process()
-
-Signed-off-by: Eric Dumazet <edumazet@google.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|5|Eric Dumazet|edumazet@google.com|2015-09-29 07:42:40-07:00|25200|David S. Miller|davem@davemloft.net|2015-09-29 16:53:07-07:00|25200

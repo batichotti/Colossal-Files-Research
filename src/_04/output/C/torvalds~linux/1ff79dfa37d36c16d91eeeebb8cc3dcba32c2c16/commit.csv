@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1ff79dfa37d36c16d91eeeebb8cc3dcba32c2c16|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nl80211: check channel switch validity better
-
-Before allowing userspace to initiate a channel switch, check
-that it's actually connected in some sense. Also use a more
-appropriate error code for the not connected case.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2014-01-22 10:05:27+01:00|-3600|Johannes Berg|johannes.berg@intel.com|2014-02-04 21:48:16+01:00|-3600

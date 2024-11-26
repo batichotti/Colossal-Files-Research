@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c0371da6047abd261bc483c744dbc7d81a116172|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"put iov_iter into msghdr
-
-Note that the code _using_ ->msg_iter at that point will be very
-unhappy with anything other than unshifted iovec-backed iov_iter.
-We still need to convert users to proper primitives.
-
-Signed-off-by: Al Viro <viro@zeniv.linux.org.uk>"|33|Al Viro|viro@zeniv.linux.org.uk|2014-11-24 10:42:55-05:00|18000|Al Viro|viro@zeniv.linux.org.uk|2014-12-09 16:29:03-05:00|18000

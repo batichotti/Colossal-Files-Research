@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e3cb6fa0e2bf4ffc6225a55851f0cf2b93b50f91|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: switch per-VM stats to u64
-
-Make them the same type as vCPU stats.  There is no reason
-to limit the counters to unsigned long.
-
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|5|Paolo Bonzini|pbonzini@redhat.com|2021-06-10 12:30:32-04:00|14400|Paolo Bonzini|pbonzini@redhat.com|2021-06-17 14:25:27-04:00|14400

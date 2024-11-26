@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b000056a5a8d3f5a4a9fb80184a7ec14f86a43d4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ceph: Fix NULL ptr crash in strlen()
-
-set_request_path_attr() checks for NULL ptr before calling strlen()
-
-This fixes http://tracker.newdream.net/issues/3404
-
-Signed-off-by: David Zafman <david.zafman@inktank.com>
-Reviewed-by: Sage Weil <sage@inktank.com>"|1|David Zafman|david.zafman@inktank.com|2012-10-25 10:23:46-07:00|25200|Alex Elder|elder@inktank.com|2012-10-26 16:35:07-05:00|18000

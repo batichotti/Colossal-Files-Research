@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|47a05eca72991039e788b25232061f9c9df9ec23|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: disable PCH ports if needed when disabling a CRTC
-
-Disable any PCH ports associated with a pipe when disabling it.  This
-should prevent transcoder disable failures due to ports still being on.
-
-Signed-off-by: Jesse Barnes <jbarnes@virtuousgeek.org>
-[ickle: introduce *_PIPE_ENABLED() macro]
-Signed-off-by: Chris Wilson <chris@chris-wilson.co.uk>"|2|Jesse Barnes|jbarnes@virtuousgeek.org|2011-02-07 13:46:40-08:00|28800|Chris Wilson|chris@chris-wilson.co.uk|2011-02-11 20:32:44+00:00|0

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f0bd95ea72644cbf9210606f6f8edfce13d65d47|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: confirmation of value is added before trace_btrfs_get_extent() is called
-
-We should confirm the value of extent_map before calling
-trace_btrfs_get_extent() because the value of extent_map has the
-possibility of NULL.
-
-Signed-off-by: Tsutomu Itoh <t-itoh@jp.fujitsu.com>"|1|Tsutomu Itoh|t-itoh@jp.fujitsu.com|2012-10-01 03:08:37-06:00|21600|Chris Mason|chris.mason@fusionio.com|2012-10-09 09:15:42-04:00|14400

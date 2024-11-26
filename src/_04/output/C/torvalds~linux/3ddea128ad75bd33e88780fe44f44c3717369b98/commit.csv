@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3ddea128ad75bd33e88780fe44f44c3717369b98|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: disallow multiple KVM_CREATE_IRQCHIP
-
-Otherwise kvm will leak memory on multiple KVM_CREATE_IRQCHIP.
-Also serialize multiple accesses with kvm->lock.
-
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|2|Marcelo Tosatti|mtosatti@redhat.com|2009-10-29 13:44:15-02:00|7200|Avi Kivity|avi@redhat.com|2009-12-03 09:32:23+02:00|-7200

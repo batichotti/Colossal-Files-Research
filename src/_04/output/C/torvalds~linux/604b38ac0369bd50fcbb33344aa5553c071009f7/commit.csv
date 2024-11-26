@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|604b38ac0369bd50fcbb33344aa5553c071009f7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Allow browsing memslots with mmu_lock
-
-This allows reading memslots with only the mmu_lock hold for mmu
-notifiers that runs in atomic context and with mmu_lock held.
-
-Signed-off-by: Andrea Arcangeli <andrea@qumranet.com>
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|2|Andrea Arcangeli|andrea@qumranet.com|2008-07-25 16:32:03+02:00|-7200|Avi Kivity|avi@qumranet.com|2008-07-29 12:33:50+03:00|-10800

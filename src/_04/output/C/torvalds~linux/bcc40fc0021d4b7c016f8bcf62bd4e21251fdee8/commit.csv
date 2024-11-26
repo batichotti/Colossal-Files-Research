@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bcc40fc0021d4b7c016f8bcf62bd4e21251fdee8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libbpf: Stop using to-be-deprecated APIs
-
-Remove all the internal uses of libbpf APIs that are slated to be
-deprecated in v0.7.
-
-Signed-off-by: Andrii Nakryiko <andrii@kernel.org>
-Signed-off-by: Alexei Starovoitov <ast@kernel.org>
-Link: https://lore.kernel.org/bpf/20211103220845.2676888-6-andrii@kernel.org"|1|Andrii Nakryiko|andrii@kernel.org|2021-11-03 15:08:38-07:00|25200|Alexei Starovoitov|ast@kernel.org|2021-11-07 08:34:23-08:00|28800

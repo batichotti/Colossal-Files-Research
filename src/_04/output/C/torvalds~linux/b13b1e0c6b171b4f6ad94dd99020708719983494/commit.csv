@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b13b1e0c6b171b4f6ad94dd99020708719983494|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"crypto: testmgr - constify all test vectors
-
-Cryptographic test vectors should never be modified, so constify them to
-enforce this at both compile-time and run-time.  This moves a significant
-amount of data from .data to .rodata when the crypto tests are enabled.
-
-Signed-off-by: Eric Biggers <ebiggers@google.com>
-Signed-off-by: Herbert Xu <herbert@gondor.apana.org.au>"|2|Eric Biggers|ebiggers@google.com|2017-02-24 15:46:59-08:00|28800|Herbert Xu|herbert@gondor.apana.org.au|2017-03-09 18:34:39+08:00|-28800

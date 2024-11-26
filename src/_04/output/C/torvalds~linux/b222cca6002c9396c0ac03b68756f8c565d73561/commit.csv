@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b222cca6002c9396c0ac03b68756f8c565d73561|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"platform:x86: Remove OOM message after input_allocate_device
-
-Emitting an OOM message isn't necessary after input_allocate_device
-as there's a generic OOM and a dump_stack already done.
-
-Signed-off-by: Joe Perches <joe@perches.com>
-Signed-off-by: Matthew Garrett <matthew.garrett@nebula.com>"|8|Joe Perches|joe@perches.com|2013-10-23 12:14:52-07:00|25200|Matthew Garrett|matthew.garrett@nebula.com|2013-11-20 18:51:03-05:00|18000

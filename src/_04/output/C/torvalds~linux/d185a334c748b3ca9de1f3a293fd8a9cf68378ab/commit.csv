@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d185a334c748b3ca9de1f3a293fd8a9cf68378ab|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4.1: Simplify nfs41_sequence_done()
-
-Nobody uses the rpc_status parameter.
-
-It is not obvious why we need the struct nfs_client argument either, when
-we already have that information in the session.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|1|Trond Myklebust|Trond.Myklebust@netapp.com|2010-06-16 09:52:25-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2010-06-22 13:24:01-04:00|14400

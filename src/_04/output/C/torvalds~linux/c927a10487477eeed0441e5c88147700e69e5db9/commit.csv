@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c927a10487477eeed0441e5c88147700e69e5db9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Add support for trust verification of management commands
-
-Check the required trust level of each management command with the trust
-level of the management socket. If it does not match up, then return the
-newly introduced permission denied error.
-
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>"|2|Marcel Holtmann|marcel@holtmann.org|2015-03-14 19:28:03-07:00|25200|Johan Hedberg|johan.hedberg@intel.com|2015-03-15 09:58:56+02:00|-7200

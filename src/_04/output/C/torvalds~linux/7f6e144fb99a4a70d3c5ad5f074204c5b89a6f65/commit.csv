@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7f6e144fb99a4a70d3c5ad5f074204c5b89a6f65|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rt2x00: Fix radio off hang issue for PCIE interface
-
-PCI/PCIE radio off behavior is different from SOC/USB.
-They mainly use MCU command to disable DMA, TX/RX and enter power saving mode.
-
-Signed-off-by: RA-Jay Hung <jay_hung@ralinktech.com>
-Signed-off-by: Ivo van Doorn <IvDoorn@gmail.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|2|RA-Jay Hung|jay_hung@ralinktech.com|2011-01-10 11:27:43+01:00|-3600|John W. Linville|linville@tuxdriver.com|2011-01-19 11:36:07-05:00|18000

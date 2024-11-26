@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f2743ae3ff84579981ac513f512b9df945d109c0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"clk: qcom: gcc-ipq6018: update sdcc max clock frequency
-
-The mmc controller of the IPQ6018 does not support HS400 mode.
-So adjust the maximum clock frequency of sdcc to 200 MHz (HS200).
-
-Signed-off-by: Chukun Pan <amadeus@jmu.edu.cn>
-Link: https://lore.kernel.org/r/20240620150122.1406631-2-amadeus@jmu.edu.cn
-Signed-off-by: Bjorn Andersson <andersson@kernel.org>"|1|Chukun Pan|amadeus@jmu.edu.cn|2024-06-20 23:01:21+08:00|-28800|Bjorn Andersson|andersson@kernel.org|2024-06-25 23:03:47-05:00|18000

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9ccacb86b5c613b25f41ca4227c3fb17bcd77de0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"iwlwifi: don't delay scan in IBSS mode
-
-Scan need to be delayed only after association to allow EAPOL
-exchange. We don't need the delay for IBSS mode.
-
-Signed-off-by: Tomas Winkler <tomas.winkler@intel.com>
-Signed-off-by: Zhu Yi <yi.zhu@intel.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|1|Tomas Winkler|tomas.winkler@intel.com|2008-09-16 14:01:03+08:00|-28800|John W. Linville|linville@tuxdriver.com|2008-09-24 16:17:59-04:00|14400

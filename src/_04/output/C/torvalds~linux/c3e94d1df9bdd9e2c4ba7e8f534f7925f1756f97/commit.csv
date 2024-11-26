@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c3e94d1df9bdd9e2c4ba7e8f534f7925f1756f97|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: let setup_new_group_blocks() set multiple bits at a time
-
-Rename mb_set_bits() to ext4_set_bits() and make it a global function
-so that setup_new_group_blocks() can use it.
-
-Signed-off-by: Yongqiang Yang <xiaoqiangnk@gmail.com>
-Signed-off-by: ""Theodore Ts'o"" <tytso@mit.edu>"|3|Yongqiang Yang|xiaoqiangnk@gmail.com|2011-07-26 22:05:53-04:00|14400|Theodore Ts'o|tytso@mit.edu|2011-07-26 22:05:53-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|49bd5221ce8fb55d12c04a3ffd375201c5bbfb7a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"slub: Move map/flag clearing to __free_slab
-
-__free_slab does some diagnostics. The resetting of mapcount etc
-in discard_slab() can interfere with debug processing. So move
-the reset immediately before the page is freed.
-
-Signed-off-by: Christoph Lameter <clameter@sgi.com>
-Signed-off-by: Pekka Enberg <penberg@cs.helsinki.fi>"|1|Christoph Lameter|clameter@sgi.com|2008-04-14 18:52:18+03:00|-10800|Pekka Enberg|penberg@cs.helsinki.fi|2008-04-14 18:52:18+03:00|-10800

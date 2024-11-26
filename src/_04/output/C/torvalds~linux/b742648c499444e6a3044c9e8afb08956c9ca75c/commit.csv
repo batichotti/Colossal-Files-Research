@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b742648c499444e6a3044c9e8afb08956c9ca75c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"OMAPDSS: remove extra out == NULL checks
-
-All the output drivers check for 'out' being NULL, but it can never be
-NULL. Remove the check.
-
-Signed-off-by: Tomi Valkeinen <tomi.valkeinen@ti.com>
-Acked-by: Laurent Pinchart <laurent.pinchart@ideasonboard.com>"|7|Tomi Valkeinen|tomi.valkeinen@ti.com|2015-11-04 17:10:58+02:00|-7200|Tomi Valkeinen|tomi.valkeinen@ti.com|2015-12-29 11:06:29+02:00|-7200

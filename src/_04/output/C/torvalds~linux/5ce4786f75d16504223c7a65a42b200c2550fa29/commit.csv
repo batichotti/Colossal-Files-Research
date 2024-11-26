@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5ce4786f75d16504223c7a65a42b200c2550fa29|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"kvm: x86: Make sync_page() flush remote TLBs once only
-
-sync_page() calls set_spte() from a loop across a page table. It would
-work better if set_spte() left the TLB flushing to its callers, so that
-sync_page() can aggregate into a single call.
-
-Signed-off-by: Junaid Shahid <junaids@google.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|2|Junaid Shahid|junaids@google.com|2018-06-27 14:59:04-07:00|25200|Paolo Bonzini|pbonzini@redhat.com|2018-08-06 17:58:49+02:00|-7200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5cc7861eb5b425c7a30ff7676a4b9d0ca62d5c76|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: Don't call close if the open stateid has already been cleared
-
-Ensure we test to see if the open stateid is actually set, before we
-send a CLOSE.
-
-Signed-off-by: Trond Myklebust <trond.myklebust@primarydata.com>
-Signed-off-by: Anna Schumaker <Anna.Schumaker@Netapp.com>"|1|Trond Myklebust|trond.myklebust@primarydata.com|2016-11-14 11:19:56-05:00|18000|Anna Schumaker|Anna.Schumaker@Netapp.com|2016-11-18 14:18:02-05:00|18000

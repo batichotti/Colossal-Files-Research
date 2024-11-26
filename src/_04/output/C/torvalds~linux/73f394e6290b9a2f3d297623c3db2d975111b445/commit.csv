@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|73f394e6290b9a2f3d297623c3db2d975111b445|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"be2net: setup xps queue mapping
-
-This patch sets up xps queue mapping on load, so that TX traffic is
-steered to the queue whose irqs are being processed by the current cpu.
-This helps in avoiding TX lock contention.
-
-Signed-off-by: Sathya Perla <sathya.perla@emulex.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Sathya Perla|sathya.perla@emulex.com|2015-03-26 03:05:09-04:00|14400|David S. Miller|davem@davemloft.net|2015-03-29 12:34:01-07:00|25200

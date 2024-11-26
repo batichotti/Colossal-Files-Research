@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|350f69dcd169d536307aa4a8c38c480e3a51c0db|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86 emulator: Make emulate_pop() a little more generic
-
-Allow emulate_pop() to read into arbitrary memory rather than just the
-source operand.  Needed for complicated instructions like far returns.
-
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Avi Kivity|avi@redhat.com|2009-01-05 11:12:40+02:00|-7200|Avi Kivity|avi@redhat.com|2009-03-24 11:03:00+02:00|-7200

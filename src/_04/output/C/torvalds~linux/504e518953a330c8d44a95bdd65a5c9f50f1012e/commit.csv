@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|504e518953a330c8d44a95bdd65a5c9f50f1012e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Make nfs_file_cred more robust.
-
-As not all files have an associated open_context (e.g. device special
-files), it is safest to test for the existence of the open context
-before de-referencing it.
-
-Signed-off-by: NeilBrown <neilb@suse.de>
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|2|Neil Brown|neilb@suse.de|2008-10-16 14:15:16+11:00|-39600|Trond Myklebust|Trond.Myklebust@netapp.com|2008-10-17 13:06:45-04:00|14400

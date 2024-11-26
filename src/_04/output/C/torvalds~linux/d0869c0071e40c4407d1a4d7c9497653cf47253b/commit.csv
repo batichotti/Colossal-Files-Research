@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d0869c0071e40c4407d1a4d7c9497653cf47253b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ibmvnic: Clean RX pool buffers during device close
-
-During device close or reset, there were some cases of outstanding
-RX socket buffers not being freed. Include a function similar to the
-one that already exists to clean TX socket buffers in this case.
-
-Signed-off-by: Thomas Falcon <tlfalcon@linux.vnet.ibm.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Thomas Falcon|tlfalcon@linux.vnet.ibm.com|2018-02-13 18:23:43-06:00|21600|David S. Miller|davem@davemloft.net|2018-02-14 14:39:10-05:00|18000

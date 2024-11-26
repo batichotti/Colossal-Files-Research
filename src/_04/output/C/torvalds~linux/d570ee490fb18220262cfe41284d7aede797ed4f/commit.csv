@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d570ee490fb18220262cfe41284d7aede797ed4f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCTP]: Correctly set daddr for IPv6 sockets during peeloff
-
-During peeloff of AF_INET6 socket, the inet6_sk(sk)->daddr
-wasn't set correctly since the code was assuming IPv4 only.
-Now we use a correct call to set the destination address.
-
-Signed-off-by: Vlad Yasevich <vladislav.yasevich@hp.com>
-Acked-by: Sridhar Samudrala <sri@us.ibm.com>"|1|Vlad Yasevich|vladislav.yasevich@hp.com|2007-05-15 16:32:39-04:00|14400|Vladislav Yasevich|vxy@hera.kernel.org|2007-06-13 20:44:41+00:00|0

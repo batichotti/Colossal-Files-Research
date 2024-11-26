@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|eef519d746bbfb90cbad4077c2d39d7a359c3282|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"xfs: remove the xfs_alloc_arg argument to xfs_bmap_btalloc_accounting
-
-xfs_bmap_btalloc_accounting only uses the len field from args, but that
-has just been propagated to ap->length field by the caller.
-
-Signed-off-by: Christoph Hellwig <hch@lst.de>
-Reviewed-by: ""Darrick J. Wong"" <djwong@kernel.org>
-Signed-off-by: Chandan Babu R <chandanbabu@kernel.org>"|1|Christoph Hellwig|hch@lst.de|2023-12-18 05:57:19+01:00|-3600|Chandan Babu R|chandanbabu@kernel.org|2023-12-22 11:18:11+05:30|-19800

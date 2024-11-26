@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4197a055eb06f5fa7e73290b8b710cd32176cd41|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: Cleanup: pass the nfs_open_context to nfs4_do_open
-
-All the callers have an open_context at this point, and since we always
-need one in order to do state recovery, it makes sense to use it as the
-basis for the nfs4_do_open() call.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|1|Trond Myklebust|Trond.Myklebust@netapp.com|2013-05-29 12:37:49-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2013-06-06 16:24:42-04:00|14400

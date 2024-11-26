@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|847641d7db15ac3f18b3d4aa05479812abdf397a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[Bluetooth] Restrict well known PSM to privileged users
-
-The PSM values below 0x1001 of L2CAP are reserved for well known
-services. Restrict the possibility to bind them to privileged
-users.
-
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|1|Marcel Holtmann|marcel@holtmann.org|2007-01-22 22:00:45+01:00|-3600|Marcel Holtmann|marcel@holtmann.org|2007-01-22 22:00:45+01:00|-3600

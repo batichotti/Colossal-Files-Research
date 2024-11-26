@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b7cdec3d699db2e5985ad39de0f25d3b6111928e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ibmvnic: Fix RX queue buffer cleanup
-
-The wrong index is used when cleaning up RX buffer objects during release
-of RX queues. Update to use the correct index counter.
-
-Signed-off-by: Thomas Falcon <tlfalcon@linux.ibm.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Thomas Falcon|tlfalcon@linux.ibm.com|2018-11-21 11:17:58-06:00|21600|David S. Miller|davem@davemloft.net|2018-11-22 11:53:25-08:00|28800

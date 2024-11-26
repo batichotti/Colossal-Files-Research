@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d9c409d67131e62f357b43cf03af4c0caab45721|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: keep CONFIG_DRM_FBDEV_EMULATION=n function stubs together
-
-Move the outcast intel_fbdev_output_poll_changed() stub for
-CONFIG_DRM_FBDEV_EMULATION=n next to its friends.
-
-Reviewed-by: Chris Wilson <chris@chris-wilson.co.uk>
-Signed-off-by: Jani Nikula <jani.nikula@intel.com>
-Link: http://patchwork.freedesktop.org/patch/msgid/1475567628-5529-1-git-send-email-jani.nikula@intel.com"|2|Jani Nikula|jani.nikula@intel.com|2016-10-04 10:53:48+03:00|-10800|Jani Nikula|jani.nikula@intel.com|2016-10-04 12:03:17+03:00|-10800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a2cdd07488e666aa93a49a3fc9c9b1299e27ef3c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rtl8xxxu: prevent leaking urb
-
-In rtl8xxxu_submit_int_urb if usb_submit_urb fails the allocated urb
-should be released.
-
-Signed-off-by: Navid Emamdoost <navid.emamdoost@gmail.com>
-Reviewed-by: Chris Chiu <chiu@endlessm.com>
-Signed-off-by: Kalle Valo <kvalo@codeaurora.org>"|1|Navid Emamdoost|navid.emamdoost@gmail.com|2019-09-19 22:00:41-05:00|18000|Kalle Valo|kvalo@codeaurora.org|2019-10-02 07:31:26+03:00|-10800

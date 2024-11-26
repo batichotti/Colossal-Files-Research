@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ae1f57670703656cc9f293722c3b8b6782f8ab3f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: nVMX: Do not emulate #UD while in guest mode
-
-While in L2, leave all #UD to L2 and do not try to emulate it. If L1 is
-interested in doing this, it reports its interest via the exception
-bitmap, and we never get into handle_exception of L0 anyway.
-
-Signed-off-by: Jan Kiszka <jan.kiszka@siemens.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|1|Jan Kiszka|jan.kiszka@siemens.com|2015-03-09 20:56:43+01:00|-3600|Marcelo Tosatti|mtosatti@redhat.com|2015-03-13 13:44:43-03:00|10800

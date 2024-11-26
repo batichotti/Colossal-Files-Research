@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|56d82e000cdfb51aa92241d4682302f78c35cd92|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"kernel: Add <linux/module.h> to files using it implicitly
-
-These files are doing things like module_put and try_module_get
-so they need to call out the module.h for explicit inclusion,
-rather than getting it via <linux/device.h> which we ideally want
-to remove the module.h inclusion from.
-
-Signed-off-by: Paul Gortmaker <paul.gortmaker@windriver.com>"|2|Paul Gortmaker|paul.gortmaker@windriver.com|2011-05-26 17:53:52-04:00|14400|Paul Gortmaker|paul.gortmaker@windriver.com|2011-10-31 09:20:12-04:00|14400

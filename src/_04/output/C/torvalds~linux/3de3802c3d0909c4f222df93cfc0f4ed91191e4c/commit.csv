@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3de3802c3d0909c4f222df93cfc0f4ed91191e4c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: order IEs in association request correctly
-
-In association request frames, there may be IEs passed from
-userspace (such as interworking IEs) between HT and VHT, so
-add code to insert those inbetween them.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2014-02-04 09:54:07+01:00|-3600|Johannes Berg|johannes.berg@intel.com|2014-02-05 14:03:24+01:00|-3600

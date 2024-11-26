@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a3e2f4b6ed9de85086850fe49801f9b00adb6ae1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: fix A-MSDU outer SA/DA
-
-According to IEEE 802.11-2012 section 8.3.2 table 8-19, the outer SA/DA
-of A-MSDU frames need to be changed depending on FromDS/ToDS values.
-
-Signed-off-by: Michael Braun <michael-dev@fami-braun.de>
-[use ether_addr_copy and add alignment annotations]
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|3|Michael Braun|michael-dev@fami-braun.de|2016-10-15 13:28:19+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2016-10-17 11:43:33+02:00|-7200

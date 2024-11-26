@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f608c38c59c6020bfde14af88630b8d7817003f9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: clean up parameter of f2fs_allocate_data_block()
-
-Use validation of @fio to inidcate whether caller want to serialize IOs
-in io.io_list or not, then @add_list will be redundant, remove it.
-
-Signed-off-by: Chao Yu <yuchao0@huawei.com>
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|4|Chao Yu|yuchao0@huawei.com|2020-06-18 14:36:24+08:00|-28800|Jaegeuk Kim|jaegeuk@kernel.org|2020-07-07 21:51:44-07:00|25200

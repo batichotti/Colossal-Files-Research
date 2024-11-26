@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6df3cecbb95345981718b38d357c50bc3425420a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[PATCH] cond_resched_lock() fix
-
-On one path, cond_resched_lock() fails to return true if it dropped the lock.
-We think this might be causing the crashes in JBD's log_do_checkpoint().
-
-Cc: Ingo Molnar <mingo@elte.hu>
-Signed-off-by: Andrew Morton <akpm@osdl.org>
-Signed-off-by: Linus Torvalds <torvalds@osdl.org>"|1|Jan Kara|jack@suse.cz|2005-06-13 15:52:32-07:00|25200|Linus Torvalds|torvalds@ppc970.osdl.org|2005-06-13 20:58:58-07:00|25200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|37508515621551538addaf826ab4b8a9aaf0a382|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: simplify some assignments of inode numbers
-
-There are several places when the btrfs inode is converted to the
-generic inode, back to btrfs and then passed to btrfs_ino. We can remove
-the extra back and forth conversions.
-
-Signed-off-by: David Sterba <dsterba@suse.com>"|1|David Sterba|dsterba@suse.com|2018-06-29 10:56:40+02:00|-7200|David Sterba|dsterba@suse.com|2018-08-06 13:12:43+02:00|-7200

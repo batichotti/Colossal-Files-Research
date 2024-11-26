@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6762696429bbc4b2e1b6e5996c3d99da8bbc627d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cfg80211: remove redundant check of !scan_plan
-
-The check for !scan_plan is redunant as this has been checked
-in the proceeding statement and the code returns -ENOBUFS if
-it is true. Remove the redundant check.
-
-Signed-off-by: Colin Ian King <colin.king@canonical.com>
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Colin Ian King|colin.king@canonical.com|2018-09-06 10:58:44+01:00|-3600|Johannes Berg|johannes.berg@intel.com|2018-10-02 09:56:29+02:00|-7200

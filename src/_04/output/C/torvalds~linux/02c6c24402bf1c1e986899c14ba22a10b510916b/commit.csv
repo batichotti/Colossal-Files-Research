@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|02c6c24402bf1c1e986899c14ba22a10b510916b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: GC transaction race with netns dismantle
-
-Use maybe_get_net() since GC workqueue might race with netns exit path.
-
-Fixes: 5f68718b34a5 (""netfilter: nf_tables: GC transaction API to avoid race with control plane"")
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>
-Signed-off-by: Florian Westphal <fw@strlen.de>"|1|Pablo Neira Ayuso|pablo@netfilter.org|2023-08-15 15:39:01+02:00|-7200|Florian Westphal|fw@strlen.de|2023-08-16 00:05:15+02:00|-7200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|56e4ebf877b6043c289bda32a5a7385b80c17dee|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS: readdir with vmapped pages
-
-We can use vmapped pages to read more information from the network at once.
-This will reduce the number of calls needed to complete a readdir.
-
-Signed-off-by: Bryan Schumaker <bjschuma@netapp.com>
-[trondmy: Added #include for linux/vmalloc.h> in fs/nfs/dir.c]
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|7|Bryan Schumaker|bjschuma@netapp.com|2010-10-20 15:44:37-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2010-10-23 15:27:35-04:00|14400

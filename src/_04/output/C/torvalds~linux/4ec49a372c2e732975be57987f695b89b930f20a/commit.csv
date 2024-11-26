@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4ec49a372c2e732975be57987f695b89b930f20a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"stmmac: replace open coded __netdev_alloc_skb_ip_align() with actual call
-
-This also matches with the sibling call netdev_alloc_skb_ip_align() made in
-rx fast path.
-
-Signed-off-by: Vineet Gupta <vgupta@synopsys.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Vineet Gupta|Vineet.Gupta1@synopsys.com|2015-05-20 12:04:40+05:30|-19800|David S. Miller|davem@davemloft.net|2015-05-21 18:40:55-04:00|14400

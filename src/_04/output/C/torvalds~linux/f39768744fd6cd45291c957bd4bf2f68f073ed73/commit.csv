@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f39768744fd6cd45291c957bd4bf2f68f073ed73|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: stmmac: Always enable MAC RX queues
-
-The MAC RX queues always need to be enabled in order to receive network
-packets. Remove the condition that this only needs to be done for multi-
-queue configurations.
-
-Signed-off-by: Thierry Reding <treding@nvidia.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Thierry Reding|treding@nvidia.com|2017-03-21 16:12:09+01:00|-3600|David S. Miller|davem@davemloft.net|2017-03-22 12:15:14-07:00|25200

@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5e26dfd0615868872cb44842f1e1428c7b414ab0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ALSA: hda - simplify usage of HDA_SUBDEV_AMP_FLAG
-
-The HDA_SUBDEV_NID_FLAG is duplicate for amplifier control elements. Move
-get_amp_nid_() call to the snd_hda_ctl_add() function.
-
-Signed-off-by: Jaroslav Kysela <perex@perex.cz>"|8|Jaroslav Kysela|perex@perex.cz|2009-12-10 13:57:01+01:00|-3600|Jaroslav Kysela|perex@perex.cz|2009-12-15 09:33:32+01:00|-3600

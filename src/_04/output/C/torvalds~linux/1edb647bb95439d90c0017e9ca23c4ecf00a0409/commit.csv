@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1edb647bb95439d90c0017e9ca23c4ecf00a0409|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: remove non-sense btrfs_error_discard_extent() function
-
-It doesn't do anything special, it just calls btrfs_discard_extent(),
-so just remove it.
-
-Signed-off-by: Filipe Manana <fdmanana@suse.com>
-Signed-off-by: Chris Mason <clm@fb.com>"|3|Filipe Manana|fdmanana@suse.com|2014-12-08 14:01:12+00:00|0|Chris Mason|clm@fb.com|2014-12-10 12:22:32-08:00|28800

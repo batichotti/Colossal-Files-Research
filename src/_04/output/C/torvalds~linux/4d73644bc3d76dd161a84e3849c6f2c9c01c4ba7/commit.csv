@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4d73644bc3d76dd161a84e3849c6f2c9c01c4ba7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rbd: don't retry watch reregistration if header object is gone
-
-If the header object gets deleted (perhaps along with the entire pool),
-there is no point in attempting to reregister the watch.  Treat this
-the same as blacklisting: fail all pending and new I/Os requiring the
-lock.
-
-Signed-off-by: Ilya Dryomov <idryomov@gmail.com>"|1|Ilya Dryomov|idryomov@gmail.com|2016-09-29 14:23:12+02:00|-7200|Ilya Dryomov|idryomov@gmail.com|2016-10-15 23:22:09+02:00|-7200

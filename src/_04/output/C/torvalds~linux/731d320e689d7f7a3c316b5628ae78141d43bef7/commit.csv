@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|731d320e689d7f7a3c316b5628ae78141d43bef7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"accel/habanalabs: remove call to deprecated function
-
-In newer kernel versions, irq_set_affinity_hint() is deprecated.
-Instead, use the newer version which is irq_set_affinity_and_hint().
-
-Signed-off-by: Dani Liberman <dliberman@habana.ai>
-Reviewed-by: Oded Gabbay <ogabbay@kernel.org>
-Signed-off-by: Oded Gabbay <ogabbay@kernel.org>"|2|Dani Liberman|dliberman@habana.ai|2024-01-01 22:37:43+02:00|-7200|Oded Gabbay|ogabbay@kernel.org|2024-02-26 09:30:40+02:00|-7200

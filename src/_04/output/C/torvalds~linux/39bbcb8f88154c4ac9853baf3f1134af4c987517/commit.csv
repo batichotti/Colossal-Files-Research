@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|39bbcb8f88154c4ac9853baf3f1134af4c987517|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[PATCH] mm: do not check unpopulated zones for draining and counter updates
-
-If a zone is unpopulated then we do not need to check for pages that are to
-be drained and also not for vm counters that may need to be updated.
-
-Signed-off-by: Christoph Lameter <clameter@sgi.com>
-Signed-off-by: Andrew Morton <akpm@osdl.org>
-Signed-off-by: Linus Torvalds <torvalds@osdl.org>"|2|Christoph Lameter|clameter@sgi.com|2006-09-25 23:31:49-07:00|25200|Linus Torvalds|torvalds@g5.osdl.org|2006-09-26 08:48:51-07:00|25200

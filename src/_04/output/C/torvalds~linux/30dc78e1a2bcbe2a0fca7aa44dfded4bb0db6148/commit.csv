@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|30dc78e1a2bcbe2a0fca7aa44dfded4bb0db6148|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Add name resolving support for mgmt based discovery
-
-This patch adds the necessary logic to perform name lookups after
-inquiry completes. This is done by checking for entries in the resolve
-list after each inquiry complete and remote name complete HCI event.
-
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>
-Acked-by: Marcel Holtmann <marcel@holtmann.org>"|4|Johan Hedberg|johan.hedberg@intel.com|2012-01-04 15:44:20+02:00|-7200|Johan Hedberg|johan.hedberg@intel.com|2012-02-13 17:01:20+02:00|-7200

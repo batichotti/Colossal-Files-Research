@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b3e45b18e5c40f1f7e5f6383953343f96f963b13|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/amdgpu: Correct the position in patch_cond_exec
-
-The current position calulated in gfx_v9_0_ring_emit_patch_cond_exec
-underflows when the wptr is divisible by ring->buf_mask + 1.
-
-Reviewed-by: Christian König <christian.koenig@amd.com>
-Signed-off-by: Jiadong.Zhu <Jiadong.Zhu@amd.com>
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|1|Jiadong.Zhu|Jiadong.Zhu@amd.com|2022-09-15 15:19:20+08:00|-28800|Alex Deucher|alexander.deucher@amd.com|2022-09-27 18:02:58-04:00|14400

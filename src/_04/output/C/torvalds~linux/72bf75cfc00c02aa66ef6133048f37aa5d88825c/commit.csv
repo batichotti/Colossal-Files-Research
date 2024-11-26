@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|72bf75cfc00c02aa66ef6133048f37aa5d88825c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: Fix error handling in nfs4_sp4_select_mode()
-
-Error code is set in the error handling cases but never used. Fix it.
-
-Fixes: 937e3133cd0b (""NFSv4.1: Ensure we clear the SP4_MACH_CRED flags in nfs4_sp4_select_mode()"")
-Signed-off-by: Wei Yongjun <weiyongjun1@huawei.com>
-Signed-off-by: Anna Schumaker <Anna.Schumaker@Netapp.com>"|1|Wei Yongjun|weiyongjun1@huawei.com|2018-08-02 05:42:04+00:00|0|Anna Schumaker|Anna.Schumaker@Netapp.com|2018-08-08 16:50:31-04:00|14400

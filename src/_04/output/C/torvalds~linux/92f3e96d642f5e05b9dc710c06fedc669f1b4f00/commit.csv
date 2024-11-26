@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|92f3e96d642f5e05b9dc710c06fedc669f1b4f00|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: allow to fetch set elements when table has an owner
-
-NFT_MSG_GETSETELEM returns -EPERM when fetching set elements that belong
-to table that has an owner. This results in empty set/map listing from
-userspace.
-
-Fixes: 6001a930ce03 (""netfilter: nftables: introduce table ownership"")
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|1|Pablo Neira Ayuso|pablo@netfilter.org|2023-02-08 11:34:27+01:00|-3600|Pablo Neira Ayuso|pablo@netfilter.org|2023-02-09 17:34:11+01:00|-3600

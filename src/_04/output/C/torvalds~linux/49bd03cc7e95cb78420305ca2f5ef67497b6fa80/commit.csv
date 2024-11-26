@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|49bd03cc7e95cb78420305ca2f5ef67497b6fa80|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"unicode: pass a UNICODE_AGE() tripple to utf8_load
-
-Don't bother with pointless string parsing when the caller can just pass
-the version in the format that the core expects.  Also remove the
-fallback to the latest version that none of the callers actually uses.
-
-Signed-off-by: Christoph Hellwig <hch@lst.de>
-Signed-off-by: Gabriel Krisman Bertazi <krisman@collabora.com>"|7|Christoph Hellwig|hch@lst.de|2021-09-15 09:00:00+02:00|-7200|Gabriel Krisman Bertazi|krisman@collabora.com|2021-10-11 17:01:46-03:00|10800

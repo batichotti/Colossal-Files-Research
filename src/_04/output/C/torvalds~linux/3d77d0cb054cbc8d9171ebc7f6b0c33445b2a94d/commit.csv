@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3d77d0cb054cbc8d9171ebc7f6b0c33445b2a94d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: hns3: dump some debug information when reset fail
-
-When reset fails, there is some information that will help for
-finding out why does reset fail. and removes an unused
-core_rst_cnt field in struct hclge_rst_stats.
-
-Signed-off-by: Huazhong Tan <tanhuazhong@huawei.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|4|Huazhong Tan|tanhuazhong@huawei.com|2019-10-31 19:23:16+08:00|-28800|David S. Miller|davem@davemloft.net|2019-10-31 12:03:22-07:00|25200

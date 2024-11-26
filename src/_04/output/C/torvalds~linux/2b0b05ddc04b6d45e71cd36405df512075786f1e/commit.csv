@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2b0b05ddc04b6d45e71cd36405df512075786f1e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Fix issues where sk_sleep() helper is needed now
-
-There were some left-overs that used sk->sk_sleep instead of the new
-sk_sleep() helper.
-
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|1|Marcel Holtmann|marcel@holtmann.org|2010-05-10 11:33:10+02:00|-7200|Marcel Holtmann|marcel@holtmann.org|2010-05-10 11:33:10+02:00|-7200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|73758fed711b847d833b9b0db59137eaeed06485|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd: make close_lru list per net
-
-This list holds nfs4 clients (open) stateowner queue for last close replay,
-which are network namespace aware. So let's make this list per network
-namespace too.
-
-Signed-off-by: Stanislav Kinsbursky <skinsbursky@parallels.com>
-Signed-off-by: J. Bruce Fields <bfields@redhat.com>"|2|Stanislav Kinsbursky|skinsbursky@parallels.com|2012-11-14 18:22:01+03:00|-10800|J. Bruce Fields|bfields@redhat.com|2012-11-15 07:40:49-05:00|18000

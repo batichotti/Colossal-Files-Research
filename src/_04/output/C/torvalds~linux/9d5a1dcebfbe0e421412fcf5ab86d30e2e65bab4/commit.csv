@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9d5a1dcebfbe0e421412fcf5ab86d30e2e65bab4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"kvm: kvm_destroy_vm_debugfs(): check debugfs_stat_data pointer
-
-This make it possible to call kvm_destroy_vm_debugfs() from
-kvm_create_vm_debugfs() in error conditions.
-
-Reviewed-by: Paolo Bonzini <pbonzini@redhat.com>
-Signed-off-by: Luiz Capitulino <lcapitulino@redhat.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Luiz Capitulino|lcapitulino@redhat.com|2016-09-07 14:47:21-04:00|14400|Paolo Bonzini|pbonzini@redhat.com|2016-09-16 16:57:46+02:00|-7200

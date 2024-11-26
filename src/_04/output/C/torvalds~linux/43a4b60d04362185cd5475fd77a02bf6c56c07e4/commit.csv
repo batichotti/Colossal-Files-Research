@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|43a4b60d04362185cd5475fd77a02bf6c56c07e4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ipv6: have a single rcu unlock point in __ip6_rt_update_pmtu
-
-Simplify the unlock path in __ip6_rt_update_pmtu by using a
-single point where rcu_read_unlock is called.
-
-Signed-off-by: David Ahern <dsahern@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|David Ahern|dsahern@gmail.com|2019-08-01 15:18:08-07:00|25200|David S. Miller|davem@davemloft.net|2019-08-05 13:17:54-07:00|25200

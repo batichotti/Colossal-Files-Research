@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e5539bcbf64fdb16af73b5c8caff9255307490b5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wl1271: remove print_mac usage
-
-CC [M]  drivers/net/wireless/wl12xx/wl1271_main.o
-drivers/net/wireless/wl12xx/wl1271_main.c: In function ‘wl1271_op_add_interface’:
-drivers/net/wireless/wl12xx/wl1271_main.c:611: warning: ‘print_mac’ is deprecated (declared at include/linux/if_ether.h:142)
-
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|1|John W. Linville|linville@tuxdriver.com|2009-08-18 10:50:34-04:00|14400|John W. Linville|linville@tuxdriver.com|2009-08-20 11:36:03-04:00|14400

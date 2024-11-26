@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a016471a16b5c4d4ec8f5221575e603a3d11e5e9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"slub: fix SLUB_RESILIENCY_TEST for dynamic kmalloc caches
-
-Now that the kmalloc_caches array is dynamically allocated at boot,
-SLUB_RESILIENCY_TEST needs to be fixed to pass the correct type.
-
-Acked-by: Christoph Lameter <cl@linux.com>
-Signed-off-by: David Rientjes <rientjes@google.com>
-Signed-off-by: Pekka Enberg <penberg@kernel.org>"|1|David Rientjes|rientjes@google.com|2010-08-25 16:32:27-07:00|25200|Pekka Enberg|penberg@kernel.org|2010-10-02 10:24:29+03:00|-10800

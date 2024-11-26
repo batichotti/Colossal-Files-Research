@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|051d3cbd96909b2fe6b5038e7bbe77f41356db05|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[TG3]: Fix Sun tg3 variant detection.
-
-Some Sun parts don't have PCI_VENDOR_ID_SUN in the subsystem
-vendor ID.  So add another fallback test, which is the name
-of the OBP firmware device tree node.  If it's a Sun part we'll
-get ""network"", else it will be named ""ethernet"".
-
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|David S. Miller|davem@davemloft.net|2006-02-27 12:51:27-08:00|28800|David S. Miller|davem@davemloft.net|2006-02-27 12:51:27-08:00|28800

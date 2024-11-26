@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fc7d345d11e815705fd0c9badc2ee82cb7ca5a84|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"igb: remove unneeded cleaned variable in clean_tx_irq path
-
-The cleaned variable can be replaced by the count of packets cleaned during
-the tx interrupt routine so it can be removed.
-
-Signed-off-by: Alexander Duyck <alexander.h.duyck@intel.com>
-Signed-off-by: Jeff Kirsher <jeffrey.t.kirsher@intel.com>
-Signed-off-by: Jeff Garzik <jgarzik@redhat.com>"|1|Alexander Duyck|alexander.h.duyck@intel.com|2008-08-26 04:25:08-07:00|25200|Jeff Garzik|jgarzik@redhat.com|2008-09-03 10:08:16-04:00|14400

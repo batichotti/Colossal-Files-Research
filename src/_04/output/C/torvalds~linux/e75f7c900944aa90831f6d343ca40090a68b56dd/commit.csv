@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e75f7c900944aa90831f6d343ca40090a68b56dd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[TG3]: Add some missing netif_running() checks
-
-Add missing netif_running() checks in tg3's dev->set_multicast_list()
-and dev->set_mac_address(). If not netif_running(), these 2 calls can
-simply return 0 after storing the new settings if required.
-
-Signed-off-by: Michael Chan <mchan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Michael Chan|mchan@broadcom.com|2006-03-20 21:33:26-08:00|28800|David S. Miller|davem@davemloft.net|2006-03-20 21:33:26-08:00|28800

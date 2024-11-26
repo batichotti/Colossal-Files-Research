@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|624d84cfe63b5afdd087bf5b2075a8a8cac5c83f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: cpu_relax() during spin waiting for reboot
-
-It doesn't really matter, but if we spin, we should spin in a more relaxed
-manner.  This way, if something goes wrong at least it won't contribute to
-global warming.
-
-Signed-off-by: Avi Kivity <avi@redhat.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|1|Avi Kivity|avi@redhat.com|2010-09-21 19:59:44+02:00|-7200|Avi Kivity|avi@redhat.com|2010-10-24 10:53:03+02:00|-7200

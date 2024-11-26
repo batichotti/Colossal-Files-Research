@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cb83199a29dc0408423d6df432f28cc67fcadaf4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[TCP]: Do not call tcp_tso_acked() if no work to do.
-
-In tcp_clean_rtx_queue(), if the TSO packet is not even partially
-acked, do not waste time calling tcp_tso_acked().
-
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|David S. Miller|davem@davemloft.net|2005-07-05 15:20:55-07:00|25200|David S. Miller|davem@davemloft.net|2005-07-05 15:20:55-07:00|25200

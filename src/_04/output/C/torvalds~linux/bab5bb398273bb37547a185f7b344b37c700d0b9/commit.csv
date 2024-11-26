@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bab5bb398273bb37547a185f7b344b37c700d0b9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"kvm: x86: Remove kvm_make_request from lapic.c
-
-Adds a function kvm_vcpu_set_pending_timer instead of calling
-kvm_make_request in lapic.c.
-
-Signed-off-by: Nicholas Krause <xerofoify@gmail.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|3|Nicholas Krause|xerofoify@gmail.com|2015-01-01 22:05:18-05:00|18000|Paolo Bonzini|pbonzini@redhat.com|2015-01-08 22:48:08+01:00|-3600

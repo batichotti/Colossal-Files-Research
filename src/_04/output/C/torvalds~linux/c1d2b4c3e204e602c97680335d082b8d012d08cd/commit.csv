@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c1d2b4c3e204e602c97680335d082b8d012d08cd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tcp: Revert ""tcp: remove CA_ACK_SLOWPATH""
-
-This change was a followup to the header prediction removal,
-so first revert this as a prerequisite to back out hp removal.
-
-Signed-off-by: Florian Westphal <fw@strlen.de>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|Florian Westphal|fw@strlen.de|2017-08-30 19:24:57+02:00|-7200|David S. Miller|davem@davemloft.net|2017-08-30 11:20:08-07:00|25200

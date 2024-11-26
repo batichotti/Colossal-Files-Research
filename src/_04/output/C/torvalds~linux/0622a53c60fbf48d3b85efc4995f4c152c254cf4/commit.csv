@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0622a53c60fbf48d3b85efc4995f4c152c254cf4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Remove dead code from intel_release_load_detect_pipe()
-
-As we now never attempt to steal a crtc for load detection, we either
-set a mode on a new pipe, or change the dpms mode on an existing pipe.
-Never both, so we can simplify the code slightly.
-
-Signed-off-by: Chris Wilson <chris@chris-wilson.co.uk>
-Signed-off-by: Keith Packard <keithp@keithp.com>"|1|Chris Wilson|chris@chris-wilson.co.uk|2011-04-21 09:32:11+01:00|-3600|Keith Packard|keithp@keithp.com|2011-05-10 13:19:17-07:00|25200

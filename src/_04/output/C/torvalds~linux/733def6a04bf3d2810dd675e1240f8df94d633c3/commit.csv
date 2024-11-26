@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|733def6a04bf3d2810dd675e1240f8df94d633c3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"qed*: IOV link control
-
-This adds support in 2 ndo that allow PF to tweak the VF's view of the
-link - `ndo_set_vf_link_state' to allow it a view independent of the PF's,
-and `ndo_set_vf_rate' which would allow the PF to limit the VF speed.
-
-Signed-off-by: Yuval Mintz <Yuval.Mintz@qlogic.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|6|Yuval Mintz|Yuval.Mintz@qlogic.com|2016-05-11 16:36:22+03:00|-10800|David S. Miller|davem@davemloft.net|2016-05-12 00:04:08-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4dd4130a722fb046e941010cf5576aed252bb58a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: make sure all drivers set the use_clustering flag
-
-A few drivers were not setting the use_clustering flag at all and thus
-default to disable.  Fix them up to explicitly set this field in
-preparation for additional cleanups.
-
-Signed-off-by: Christoph Hellwig <hch@lst.de>
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|6|Christoph Hellwig|hch@lst.de|2018-12-13 16:17:01+01:00|-3600|Martin K. Petersen|martin.petersen@oracle.com|2018-12-18 23:08:07-05:00|18000

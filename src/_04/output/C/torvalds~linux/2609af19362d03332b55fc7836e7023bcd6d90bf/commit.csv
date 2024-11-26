@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2609af19362d03332b55fc7836e7023bcd6d90bf|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8152: fix runtime function for RTL8152
-
-The RTL8152 doesn't have U1U2 and U2P3 features, so use different
-runtime functions for RTL812 and RTL8153 by adding autosuspend_en()
-to rtl_ops.
-
-Signed-off-by: Hayes Wang <hayeswang@realtek.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|hayeswang|hayeswang@realtek.com|2016-07-05 16:11:46+08:00|-28800|David S. Miller|davem@davemloft.net|2016-07-05 10:22:29-07:00|25200

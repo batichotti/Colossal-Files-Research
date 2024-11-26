@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2c65477f14a359db9f1edee5dd8e683d3dae69e2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"perf/x86/uncore: Remove unnecessary ?: operator around pcibios_err_to_errno() call
-
-If err == 0, pcibios_err_to_errno(err) returns 0 so the ?: construct
-can be removed.
-
-Signed-off-by: Ilpo Järvinen <ilpo.jarvinen@linux.intel.com>
-Signed-off-by: Ingo Molnar <mingo@kernel.org>
-Link: https://lore.kernel.org/r/20230824132832.78705-15-ilpo.jarvinen@linux.intel.com"|1|Ilpo Järvinen|ilpo.jarvinen@linux.intel.com|2023-08-24 16:28:32+03:00|-10800|Ingo Molnar|mingo@kernel.org|2023-08-24 21:25:24+02:00|-7200

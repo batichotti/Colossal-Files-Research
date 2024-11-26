@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1c0a46255f8d7daf5b601668836e185fd1294e94|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/radeon: adding synchronization for GRBM GFX
-
-Implementing a lock for selecting and accessing shader engines and arrays.
-This lock will make sure that radeon and amdkfd are not colliding when
-accessing shader engines and arrays with GRBM_GFX_INDEX register.
-
-Reviewed-by: Alex Deucher <alexander.deucher@amd.com>
-Signed-off-by: Oded Gabbay <oded.gabbay@amd.com>"|3|Oded Gabbay|oded.gabbay@amd.com|2014-07-14 15:36:08+03:00|-10800|Oded Gabbay|oded.gabbay@amd.com|2014-07-14 15:36:08+03:00|-10800

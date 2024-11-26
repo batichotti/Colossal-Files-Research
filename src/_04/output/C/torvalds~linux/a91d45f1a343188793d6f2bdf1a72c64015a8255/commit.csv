@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a91d45f1a343188793d6f2bdf1a72c64015a8255|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8152: fix r8152_csum_workaround function
-
-The transport offset of the IPv4 packet should be fixed and wouldn't
-be out of the hw limitation, so the r8152_csum_workaround() should
-be used for IPv6 packets.
-
-Signed-off-by: Hayes Wang <hayeswang@realtek.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|hayeswang|hayeswang@realtek.com|2014-07-11 16:48:27+08:00|-28800|David S. Miller|davem@davemloft.net|2014-07-11 14:51:21-07:00|25200

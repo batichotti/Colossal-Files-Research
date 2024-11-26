@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|dbb1f81ca67a56c6cfce4c94d07c76378fd4af9e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"kmemleak: Add kmemleak_alloc callback from alloc_large_system_hash
-
-The alloc_large_system_hash function is called from various places in
-the kernel and it contains pointers to other allocated structures. It
-therefore needs to be traced by kmemleak.
-
-Signed-off-by: Catalin Marinas <catalin.marinas@arm.com>"|1|Catalin Marinas|catalin.marinas@arm.com|2009-06-11 13:23:19+01:00|-3600|Catalin Marinas|catalin.marinas@arm.com|2009-06-11 17:03:30+01:00|-3600

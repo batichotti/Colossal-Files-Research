@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cca1c81f43e26ab60c0d1090fb90992358d69bdf|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: don't try to allocate from a block group that doesn't have enough space
-
-If we have a very large filesystem, we can spend a lot of time in
-find_free_extent just trying to allocate from empty block groups.  So instead
-check to see if the block group even has enough space for the allocation, and if
-not go on to the next block group.
-
-Signed-off-by: Josef Bacik <josef@redhat.com>"|1|Josef Bacik|josef@redhat.com|2011-05-13 11:07:12-04:00|14400|Josef Bacik|josef@redhat.com|2011-05-23 13:03:15-04:00|14400

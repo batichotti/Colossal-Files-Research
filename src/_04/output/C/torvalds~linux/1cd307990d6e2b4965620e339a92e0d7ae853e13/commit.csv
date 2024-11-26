@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1cd307990d6e2b4965620e339a92e0d7ae853e13|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: BUG_ON is deleted from the caller of btrfs_truncate_item & btrfs_extend_item
-
-Currently, btrfs_truncate_item and btrfs_extend_item returns only 0.
-So, the check by BUG_ON in the caller is unnecessary.
-
-Signed-off-by: Tsutomu Itoh <t-itoh@jp.fujitsu.com>
-Signed-off-by: Chris Mason <chris.mason@oracle.com>"|7|Tsutomu Itoh|t-itoh@jp.fujitsu.com|2011-05-19 05:19:08+00:00|0|Chris Mason|chris.mason@oracle.com|2011-05-23 13:24:39-04:00|14400

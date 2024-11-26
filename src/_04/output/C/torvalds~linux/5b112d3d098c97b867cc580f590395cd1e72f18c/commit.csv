@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5b112d3d098c97b867cc580f590395cd1e72f18c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cfg80211: pass wiphy to cfg80211_ref_bss/put_bss
-
-This prepares for using the spinlock instead of krefs
-which is needed in the next patch to track the refs
-of combined BSSes correctly.
-
-Acked-by: Bing Zhao <bzhao@marvell.com> [mwifiex]
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|21|Johannes Berg|johannes.berg@intel.com|2013-02-01 01:49:58+01:00|-3600|Johannes Berg|johannes.berg@intel.com|2013-02-11 18:44:52+01:00|-3600

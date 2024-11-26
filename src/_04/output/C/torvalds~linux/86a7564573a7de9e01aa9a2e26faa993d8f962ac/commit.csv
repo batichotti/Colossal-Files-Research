@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|86a7564573a7de9e01aa9a2e26faa993d8f962ac|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Make mgmt_discoverable() return void
-
-The return value of mgmt_discoverable() function is not used
-and so just change it to return void.
-
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>"|2|Marcel Holtmann|marcel@holtmann.org|2013-10-15 06:33:54-07:00|25200|Johan Hedberg|johan.hedberg@intel.com|2013-10-15 17:20:33+03:00|-10800

@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ecf7b361a6bc1fd5441e4d6a3d7433abbe577064|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mvneta: dont call mvneta_adjust_link() manually
-
-mvneta_adjust_link() is a callback for of_phy_connect() and should
-not be called directly. The result of calling it directly is as below:
-
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Stas Sergeev|stsp@list.ru|2015-04-01 19:23:29+03:00|-10800|David S. Miller|davem@davemloft.net|2015-04-06 16:35:40-04:00|14400

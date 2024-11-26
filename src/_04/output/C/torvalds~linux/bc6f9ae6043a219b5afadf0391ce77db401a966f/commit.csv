@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bc6f9ae6043a219b5afadf0391ce77db401a966f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ath10k: make fw stats prints specific to firmware version
-
-The patch makes debug stats prints fw specific by adding a new member
-in wmi_ops. That way it's easier to add fw_stats support to 10.4 firmware.
-
-Signed-off-by: Manikanta Pubbisetty <c_mpubbi@qti.qualcomm.com>
-Signed-off-by: Tamizh Chelvam <c_traja@qti.qualcomm.com>
-Signed-off-by: Kalle Valo <kvalo@qca.qualcomm.com>"|6|Manikanta Pubbisetty|c_mpubbi@qti.qualcomm.com|2015-10-16 15:54:52+03:00|-10800|Kalle Valo|kvalo@qca.qualcomm.com|2015-10-19 17:42:03+03:00|-10800

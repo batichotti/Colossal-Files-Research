@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|801806d956c2c198b9fdd3afd156a536f9a3a139|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: IRET emulation does not clear NMI masking
-
-The IRET instruction should clear NMI masking, but the current implementation
-does not do so.
-
-Signed-off-by: Nadav Amit <namit@cs.technion.ac.il>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|3|Nadav Amit|namit@cs.technion.ac.il|2015-01-26 09:32:23+02:00|-7200|Paolo Bonzini|pbonzini@redhat.com|2015-01-26 12:14:42+01:00|-3600

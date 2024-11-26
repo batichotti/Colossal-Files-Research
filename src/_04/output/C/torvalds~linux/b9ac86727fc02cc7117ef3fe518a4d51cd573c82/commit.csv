@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b9ac86727fc02cc7117ef3fe518a4d51cd573c82|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCTP]: Fix sctp_primitive_ABORT() call in sctp_close().
-
-With the recent fix, the callers of sctp_primitive_ABORT()
-need to create an ABORT chunk and pass it as an argument rather
-than msghdr that was passed earlier.
-
-Signed-off-by: Sridhar Samudrala <sri@us.ibm.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Sridhar Samudrala|sri@us.ibm.com|2006-08-28 13:53:01-07:00|25200|David S. Miller|davem@sunset.davemloft.net|2006-08-29 21:22:13-07:00|25200

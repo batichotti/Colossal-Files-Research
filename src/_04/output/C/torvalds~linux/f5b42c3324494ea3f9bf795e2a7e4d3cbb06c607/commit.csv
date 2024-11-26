@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f5b42c3324494ea3f9bf795e2a7e4d3cbb06c607|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Fix guest sysenter on vmx
-
-The vmx code currently treats the guest's sysenter support msrs as 32-bit
-values, which breaks 32-bit compat mode userspace on 64-bit guests.  Fix by
-using the native word width of the machine.
-
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|1|Avi Kivity|avi@qumranet.com|2007-03-06 12:05:53+02:00|-7200|Avi Kivity|avi@qumranet.com|2007-03-18 10:49:06+02:00|-7200

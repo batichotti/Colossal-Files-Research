@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e818bd085baf18cc3271c0f5549d9f5a7069efba|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4.1 remove xprt from xprt_switch if session trunking test fails
-
-If we are doing a session trunking test and it fails for the transport,
-then remove this transport from the xprt_switch group.
-
-Signed-off-by: Olga Kornievskaia <kolga@netapp.com>
-Signed-off-by: Trond Myklebust <trond.myklebust@hammerspace.com>"|1|Olga Kornievskaia|olga.kornievskaia@gmail.com|2022-07-25 09:32:27-04:00|14400|Trond Myklebust|trond.myklebust@hammerspace.com|2022-07-25 10:06:04-04:00|14400

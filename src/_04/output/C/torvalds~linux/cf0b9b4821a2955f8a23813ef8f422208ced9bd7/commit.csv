@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cf0b9b4821a2955f8a23813ef8f422208ced9bd7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md: fix the checking of wrong work queue
-
-It should check md_rdev_misc_wq instead of md_misc_wq.
-
-Fixes: cc1ffe61c026 (""md: add new workqueue for delete rdev"")
-Cc: <stable@vger.kernel.org> # v5.8+
-Signed-off-by: Guoqing Jiang <guoqing.jiang@cloud.ionos.com>
-Signed-off-by: Song Liu <songliubraving@fb.com>"|1|Guoqing Jiang|guoqing.jiang@cloud.ionos.com|2020-10-08 05:19:09+02:00|-7200|Song Liu|songliubraving@fb.com|2020-10-08 22:36:30-07:00|25200

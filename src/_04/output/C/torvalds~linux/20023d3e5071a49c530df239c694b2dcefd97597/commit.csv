@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|20023d3e5071a49c530df239c694b2dcefd97597|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8169: improve rtl_coalesce_info
-
-tp->coalesce_info is used in rtl_coalesce_info() only, so we can
-remove this member. In addition replace phy_ethtool_get_link_ksettings
-with a direct access to tp->phydev->speed.
-
-Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Heiner Kallweit|hkallweit1@gmail.com|2019-06-11 21:09:19+02:00|-7200|David S. Miller|davem@davemloft.net|2019-06-13 22:43:53-07:00|25200

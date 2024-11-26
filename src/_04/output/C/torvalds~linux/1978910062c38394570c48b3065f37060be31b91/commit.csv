@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1978910062c38394570c48b3065f37060be31b91|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] scsi_debug: remove the duplicated code in resp_read and resp_write
-
-resp_read and resp_write performs READ_* and WRITE_* commands
-respectively. This sweeps up the similar code in them.
-
-Signed-off-by: FUJITA Tomonori <fujita.tomonori@lab.ntt.co.jp>
-Acked-by: Douglas Gilbert <dougg@torque.net>
-Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"|1|FUJITA Tomonori|fujita.tomonori@lab.ntt.co.jp|2008-03-30 00:59:56+09:00|-32400|James Bottomley|James.Bottomley@HansenPartnership.com|2008-04-07 12:19:06-05:00|18000

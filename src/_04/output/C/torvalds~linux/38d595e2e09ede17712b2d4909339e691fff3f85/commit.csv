@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|38d595e2e09ede17712b2d4909339e691fff3f85|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ASoC: rt5677: Adjust the routing of ""PLL1""
-
-Remove the duplicated PLL1 connections of the adc stereo filters,
-and remove the PLL1 connections of the DACs because the PLL1 should be
-connected to dac filters.
-
-Signed-off-by: Oder Chiou <oder_chiou@realtek.com>
-Signed-off-by: Mark Brown <broonie@kernel.org>"|1|Oder Chiou|oder_chiou@realtek.com|2014-12-23 10:27:56+08:00|-28800|Mark Brown|broonie@kernel.org|2014-12-24 12:16:19+00:00|0

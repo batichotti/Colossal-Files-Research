@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3e8f43a089f06279c5f76a9ccd42578eebf7bfa5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ceph: Fix oops when handling mdsmap that decreases max_mds
-
-When i >= newmap->m_max_mds, ceph_mdsmap_get_addr(newmap, i) return
-NULL. Passing NULL to memcmp() triggers oops.
-
-Signed-off-by: Yan, Zheng <zheng.z.yan@intel.com>
-Signed-off-by: Sage Weil <sage@inktank.com>"|1|Yan, Zheng|zheng.z.yan@intel.com|2012-09-20 17:42:25+08:00|-28800|Alex Elder|elder@inktank.com|2012-10-01 14:30:54-05:00|18000

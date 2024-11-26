@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|17e9f796bd92cddec17d781c459376f82340fa44|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: Don't BUG_ON alloc_path errors in btrfs_balance()
-
-Dealing with this seems trivial - the only caller of btrfs_balance() is
-btrfs_ioctl() which passes the error code directly back to userspace. There
-also isn't much state to unwind (if I'm wrong about this point, we can
-always safely move the allocation to the top of btrfs_balance() anyway).
-
-Signed-off-by: Mark Fasheh <mfasheh@suse.com>"|1|Mark Fasheh|mfasheh@suse.com|2011-07-12 11:10:23-07:00|25200|Mark Fasheh|mfasheh@suse.com|2011-07-14 14:14:45-07:00|25200

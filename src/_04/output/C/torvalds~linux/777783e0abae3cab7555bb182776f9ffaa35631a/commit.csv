@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|777783e0abae3cab7555bb182776f9ffaa35631a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"staging: android: binder: move to the ""real"" part of the kernel
-
-The Android binder code has been ""stable"" for many years now.  No matter
-what comes in the future, we are going to have to support this API, so
-might as well move it to the ""real"" part of the kernel as there's no
-real work that needs to be done to the existing code.
-
-Signed-off-by: Greg Kroah-Hartman <gregkh@linuxfoundation.org>"|12|Greg Kroah-Hartman|gregkh@linuxfoundation.org|2014-10-16 14:40:38+02:00|-7200|Greg Kroah-Hartman|gregkh@linuxfoundation.org|2014-10-20 10:30:15+08:00|-28800

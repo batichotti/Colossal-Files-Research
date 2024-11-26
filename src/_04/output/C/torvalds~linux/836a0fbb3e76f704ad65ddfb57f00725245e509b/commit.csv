@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|836a0fbb3e76f704ad65ddfb57f00725245e509b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"RDMA: Check umem pointer validity prior to release
-
-Update ib_umem_release() to behave similarly to kfree() and allow
-submitting NULL pointer as safe input to this function.
-
-Fixes: a52c8e2469c3 (""RDMA: Clean destroy CQ in drivers do not return errors"")
-Signed-off-by: Leon Romanovsky <leonro@mellanox.com>
-Signed-off-by: Doug Ledford <dledford@redhat.com>"|26|Leon Romanovsky|leonro@mellanox.com|2019-06-16 15:05:20+03:00|-10800|Doug Ledford|dledford@redhat.com|2019-06-20 15:17:59-04:00|14400

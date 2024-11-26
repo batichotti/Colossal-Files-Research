@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cd21c827a1555276325880ea431a6a27a9186e30|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ath11k: delete a stray unlock in ath11k_dbg_htt_stats_req()
-
-The callers unlock this lock so this error path has a double unlock.
-
-Fixes: d5c65159f289 (""ath11k: driver for Qualcomm IEEE 802.11ax devices"")
-Signed-off-by: Dan Carpenter <dan.carpenter@oracle.com>
-Signed-off-by: Kalle Valo <kvalo@codeaurora.org>"|1|Dan Carpenter|dan.carpenter@oracle.com|2019-12-13 13:47:54+03:00|-10800|Kalle Valo|kvalo@codeaurora.org|2019-12-18 19:54:28+02:00|-7200

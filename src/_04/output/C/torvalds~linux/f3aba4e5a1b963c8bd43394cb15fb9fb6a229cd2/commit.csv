@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f3aba4e5a1b963c8bd43394cb15fb9fb6a229cd2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd4: remove unnecessary cl_verifier check from setclientid_confirm
-
-Again, the only way conf and unconf can have the same clientid is if
-they were created in the ""probable callback update"" case of setclientid,
-in which case we already know that the cl_verifier fields must agree.
-
-Signed-off-by: J. Bruce Fields <bfields@citi.umich.edu>"|1|J. Bruce Fields|bfields@citi.umich.edu|2007-11-20 16:52:07-05:00|18000|J. Bruce Fields|bfields@citi.umich.edu|2008-02-01 16:42:05-05:00|18000

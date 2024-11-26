@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8c462b6047da80491b8cb6be878e8bf9313ac3e1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Only enable L2CAP FCS for ERTM or streaming
-
-This fixes a bug which caused the FCS setting to show L2CAP_FCS_CRC16
-with L2CAP modes other than ERTM or streaming.  At present, this only
-affects the FCS value shown with getsockopt() for basic mode.
-
-Signed-off-by: Mat Martineau <mathewm@codeaurora.org>
-Signed-off-by: Gustavo F. Padovan <padovan@profusion.mobi>"|1|Mat Martineau|mathewm@codeaurora.org|2010-08-24 15:35:42-07:00|25200|Gustavo F. Padovan|padovan@profusion.mobi|2010-09-30 12:19:35-03:00|10800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ec8f170bc33ec5933e139a78ead286ecec1ea56b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cfg80211: unify sending NL80211_CMD_NEW_INTERFACE
-
-There isn't really any need for us to be sending this from
-two different places - move cfg80211_init_wdev() later and
-send the notification from there, removing it from the non-
-netdev case.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|2|Johannes Berg|johannes.berg@intel.com|2018-10-01 14:18:31+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2018-10-02 09:58:57+02:00|-7200

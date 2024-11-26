@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1ec885cdd01a9ad867dbb9fd32a1bfcc0875c486|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md/bitmap: move some fields of 'struct bitmap' into a 'storage' substruct.
-
-This new 'struct bitmap_storage' reflects the external storage of the
-bitmap.
-Having this clearly defined will make it easier to change the storage
-used while the array is active.
-
-Signed-off-by: NeilBrown <neilb@suse.de>"|3|NeilBrown|neilb@suse.de|2012-05-22 13:55:10+10:00|-36000|NeilBrown|neilb@suse.de|2012-05-22 13:55:10+10:00|-36000

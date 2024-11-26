@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5ab9549a64c77b6975b079b27e95fc2c115f613b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"b43: Force-wake queues on init
-
-Force wake the mac80211 queues on init.
-Under rare circumstances they may be stopped, if a DMA error or
-something else causes a device reset while a queue was stopped.
-
-Signed-off-by: Michael Buesch <mb@bu3sch.de>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|1|Michael Buesch|mb@bu3sch.de|2009-09-10 20:31:46+02:00|-7200|John W. Linville|linville@tuxdriver.com|2009-09-23 11:35:39-04:00|14400

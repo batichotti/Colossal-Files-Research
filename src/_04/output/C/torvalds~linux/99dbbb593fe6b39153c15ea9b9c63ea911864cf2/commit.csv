@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|99dbbb593fe6b39153c15ea9b9c63ea911864cf2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"selinux: rewrite selinux_sb_eat_lsm_opts()
-
-make it use selinux_add_opt() and avoid separate copies - gather
-non-LSM options by memmove() in place
-
-Reviewed-by: David Howells <dhowells@redhat.com>
-Signed-off-by: Al Viro <viro@zeniv.linux.org.uk>"|1|Al Viro|viro@zeniv.linux.org.uk|2018-12-14 21:56:23-05:00|18000|Al Viro|viro@zeniv.linux.org.uk|2018-12-21 11:49:54-05:00|18000

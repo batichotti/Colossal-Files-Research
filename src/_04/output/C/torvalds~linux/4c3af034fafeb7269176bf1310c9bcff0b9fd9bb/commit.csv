@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4c3af034fafeb7269176bf1310c9bcff0b9fd9bb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netlink: Get rid of obsolete rtnetlink macros
-
-Removes all RTA_GET*() and RTA_PUT*() variations, as well as the
-the unused rtattr_strcmp(). Get rid of rtm_get_table() by moving
-it to its only user decnet.
-
-Signed-off-by: Thomas Graf <tgraf@suug.ch>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|Thomas Graf|tgraf@suug.ch|2012-06-26 23:36:16+00:00|0|David S. Miller|davem@davemloft.net|2012-06-27 15:36:44-07:00|25200

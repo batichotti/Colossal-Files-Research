@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4c5f6af051ccf1d9b8bccb0f887170594f6cb0cb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ibmvnic: compare adapter->init_done_rc with more readable ibmvnic_rc_codes
-
-Instead of comparing (adapter->init_done_rc == 1), let it
-be (adapter->init_done_rc == PARTIALSUCCESS).
-
-Signed-off-by: Lijun Pan <ljp@linux.ibm.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Lijun Pan|ljp@linux.ibm.com|2020-08-19 17:52:23-05:00|18000|David S. Miller|davem@davemloft.net|2020-08-26 16:11:33-07:00|25200

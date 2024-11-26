@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8223d2f540c96f46f762fbd93f59a08bb80601c1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211_hwsim: fix fake_hw_scan
-
-Since mac80211 will not set the max_scan parameters
-if hw scan is enabled, hwsim needs to do it so that
-cfg80211 won't reject the scan.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|1|Johannes Berg|johannes.berg@intel.com|2010-06-18 12:31:56+02:00|-7200|John W. Linville|linville@tuxdriver.com|2010-06-18 15:11:14-04:00|14400

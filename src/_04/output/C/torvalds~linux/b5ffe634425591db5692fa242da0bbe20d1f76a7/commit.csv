@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b5ffe634425591db5692fa242da0bbe20d1f76a7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: Drop unlikely before IS_ERR(_OR_NULL)
-
-IS_ERR(_OR_NULL) already contain an 'unlikely' compiler flag and there
-is no need to do that again from its callers. Drop it.
-
-Acked-by: Neil Horman <nhorman@tuxdriver.com>
-Signed-off-by: Viresh Kumar <viresh.kumar@linaro.org>
-Signed-off-by: Jiri Kosina <jkosina@suse.cz>"|3|Viresh Kumar|viresh.kumar@linaro.org|2015-08-12 15:59:47+05:30|-19800|Jiri Kosina|jkosina@suse.cz|2015-09-29 15:15:40+02:00|-7200

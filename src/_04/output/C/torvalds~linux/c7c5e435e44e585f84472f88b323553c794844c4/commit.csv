@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c7c5e435e44e585f84472f88b323553c794844c4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: Convert nf_tables_net_ops
-
-These pernet_operations looks nicely separated per-net.
-Exit method unregisters net's nf tables objects.
-We allow them be executed in parallel.
-
-Signed-off-by: Kirill Tkhai <ktkhai@virtuozzo.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Kirill Tkhai|ktkhai@virtuozzo.com|2018-03-07 12:39:23+03:00|-10800|David S. Miller|davem@davemloft.net|2018-03-08 12:36:43-05:00|18000

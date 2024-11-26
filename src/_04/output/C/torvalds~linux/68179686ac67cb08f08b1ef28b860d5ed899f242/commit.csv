@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|68179686ac67cb08f08b1ef28b860d5ed899f242|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tracing: Remove ftrace_disable/enable_cpu()
-
-The ftrace_disable_cpu() and ftrace_enable_cpu() functions were
-needed back before the ring buffer was lockless. Now that the
-ring buffer is lockless (and has been for some time), these functions
-serve no purpose, and unnecessarily slow down operations of the tracer.
-
-Signed-off-by: Steven Rostedt <rostedt@goodmis.org>"|1|Steven Rostedt|srostedt@redhat.com|2012-05-08 20:57:53-04:00|14400|Steven Rostedt|rostedt@goodmis.org|2012-05-08 21:06:26-04:00|14400

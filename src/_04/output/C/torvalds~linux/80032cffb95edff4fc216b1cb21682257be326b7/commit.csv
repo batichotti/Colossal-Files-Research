@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|80032cffb95edff4fc216b1cb21682257be326b7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rtnetlink: potential ERR_PTR dereference
-
-In the original code, if rtnl_create_link() returned an ERR_PTR then that
-would get passed to rtnl_configure_link() which dereferences it.
-
-Signed-off-by: Dan Carpenter <error27@gmail.com>
-Acked-by: Patrick McHardy <kaber@trash.net>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Dan Carpenter|error27@gmail.com|2010-04-21 23:53:27+00:00|0|David S. Miller|davem@davemloft.net|2010-04-22 15:57:26-07:00|25200

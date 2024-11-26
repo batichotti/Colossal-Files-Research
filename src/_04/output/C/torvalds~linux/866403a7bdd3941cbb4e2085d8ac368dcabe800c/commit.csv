@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|866403a7bdd3941cbb4e2085d8ac368dcabe800c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: don't check local mesh TTL on TX
-
-nl80211 has already verified the mesh TTL on setting the
-mesh config, so no need to check it again in mac80211.
-
-Signed-off-by: Thomas Pedersen <thomas@cozybit.com>
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Thomas Pedersen|thomas@cozybit.com|2013-05-31 17:41:47-07:00|25200|Johannes Berg|johannes.berg@intel.com|2013-06-03 16:53:51+02:00|-7200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|34195c3dce84fd0ee47f4131584ff1f6f283b93c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tg3: Fix IPv6 TSO code in tg3_start_xmit_dma_bug()
-
-The tg3_start_xmit_dma_bug() function was missing code to process IPv6
-TSO packets.  This patch adds the missing support.
-
-Signed-off-by: Matt Carlson <mcarlson@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Matt Carlson|mcarlson@broadcom.com|2010-07-11 09:31:42+00:00|0|David S. Miller|davem@davemloft.net|2010-07-11 17:07:41-07:00|25200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4940b0ab458adc9446291a50b61f5e7607f0082b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"RDMA/hns: Refactor hns_roce_v2_poll_one()
-
-Encapsulate the process of obtaining the current QP and filling WC as
-functions, also merge some duplicate code.
-
-Link: https://lore.kernel.org/r/1616815294-13434-2-git-send-email-liweihang@huawei.com
-Signed-off-by: Weihang Li <liweihang@huawei.com>
-Signed-off-by: Jason Gunthorpe <jgg@nvidia.com>"|1|Weihang Li|liweihang@huawei.com|2021-03-27 11:21:30+08:00|-28800|Jason Gunthorpe|jgg@nvidia.com|2021-04-01 16:12:44-03:00|10800

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d6a8c875f35a6e1b3fb3f21e93eabb183b1f39ee|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Drop request_nmi from stats
-
-The stats entry request_nmi is no longer used as the related user space
-interface was dropped. So clean it up.
-
-Signed-off-by: Jan Kiszka <jan.kiszka@siemens.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|2|Jan Kiszka|jan.kiszka@siemens.com|2009-04-20 18:10:07+02:00|-7200|Avi Kivity|avi@redhat.com|2009-06-10 11:48:51+03:00|-10800

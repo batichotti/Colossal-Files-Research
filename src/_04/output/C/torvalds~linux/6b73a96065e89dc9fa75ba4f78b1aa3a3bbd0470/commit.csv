@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6b73a96065e89dc9fa75ba4f78b1aa3a3bbd0470|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Revert ""KVM: MMU: lazily drop large spte""
-
-This reverts commit caf6900f2d8aaebe404c976753f6813ccd31d95e.
-
-It is causing migration failures, reference
-https://bugzilla.kernel.org/show_bug.cgi?id=54061.
-
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|1|Marcelo Tosatti|mtosatti@redhat.com|2013-02-20 18:52:02-03:00|10800|Marcelo Tosatti|mtosatti@redhat.com|2013-02-20 18:52:02-03:00|10800

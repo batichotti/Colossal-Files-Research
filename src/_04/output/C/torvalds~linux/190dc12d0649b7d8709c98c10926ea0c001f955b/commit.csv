@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|190dc12d0649b7d8709c98c10926ea0c001f955b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wifi: rtw89: 885xbx: apply common settings to 8851B, 8852B and 8852BT
-
-Many common settings can share to 8851B, 8852B and 8852BT, so add an inline
-function rtw89_is_rtl885xb() to be concise. Meanwhile review and align
-settings for existing chips.
-
-Signed-off-by: Ping-Ke Shih <pkshih@realtek.com>
-Link: https://msgid.link/20240607070659.80263-4-pkshih@realtek.com"|9|Ping-Ke Shih|pkshih@realtek.com|2024-06-07 15:06:59+08:00|-28800|Ping-Ke Shih|pkshih@realtek.com|2024-06-17 10:19:18+08:00|-28800

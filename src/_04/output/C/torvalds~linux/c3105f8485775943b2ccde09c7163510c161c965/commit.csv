@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c3105f8485775943b2ccde09c7163510c161c965|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ibmvnic: Use 'skb_frag_address()' instead of hand coding it
-
-'page_address(skb_frag_page()) + skb_frag_off()' can be replaced by an
-equivalent 'skb_frag_address()' which is less verbose.
-
-Signed-off-by: Christophe JAILLET <christophe.jaillet@wanadoo.fr>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Christophe JAILLET|christophe.jaillet@wanadoo.fr|2021-04-04 10:54:37+02:00|-7200|David S. Miller|davem@davemloft.net|2021-04-05 11:55:44-07:00|25200

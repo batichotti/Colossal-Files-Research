@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|617cfc753049a4e1e161ae5e5e00e92d56be2b90|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net/rtnetlink: remove unused sz_idx variable
-
-The sz_idx variable is defined in the rtnetlink_rcv_msg(), but
-not used anywhere. Let's remove it.
-
-Signed-off-by: Alexander Kuleshov <kuleshovmail@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Alexander Kuleshov|kuleshovmail@gmail.com|2016-01-10 21:26:57+06:00|-21600|David S. Miller|davem@davemloft.net|2016-01-11 00:22:20-05:00|18000

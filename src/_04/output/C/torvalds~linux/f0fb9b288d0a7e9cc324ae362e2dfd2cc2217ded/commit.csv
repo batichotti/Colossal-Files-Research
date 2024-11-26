@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f0fb9b288d0a7e9cc324ae362e2dfd2cc2217ded|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ipv6/route: Add a missing check on proc_dointvec
-
-While flushing the cache via  ipv6_sysctl_rtcache_flush(), the call
-to proc_dointvec() may fail. The fix adds a check that returns the
-error, on failure.
-
-Signed-off-by: Aditya Pakki <pakki001@umn.edu>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Aditya Pakki|pakki001@umn.edu|2018-12-24 10:30:17-06:00|21600|David S. Miller|davem@davemloft.net|2018-12-27 16:18:03-08:00|28800

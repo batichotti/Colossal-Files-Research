@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ba6418623385abf19a6c15cf0b1cfaacfdf9afc8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"selinux: new helper - selinux_add_opt()
-
-the guts of the loop in selinux_parse_opts_str() - takes one
-(already recognized) option and adds it to growing selinux_mnt_opts.
-
-Reviewed-by: David Howells <dhowells@redhat.com>
-Signed-off-by: Al Viro <viro@zeniv.linux.org.uk>"|1|Al Viro|viro@zeniv.linux.org.uk|2018-12-14 20:28:15-05:00|18000|Al Viro|viro@zeniv.linux.org.uk|2018-12-21 11:49:18-05:00|18000

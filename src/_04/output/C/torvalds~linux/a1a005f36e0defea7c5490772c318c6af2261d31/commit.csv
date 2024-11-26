@@ -1,6 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a1a005f36e0defea7c5490772c318c6af2261d31|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Fix xsave and xcr save/restore memory leak
-
-We allocate temporary kernel buffers for these structures, but never free them.
-
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Avi Kivity|avi@redhat.com|2010-06-20 15:47:34+03:00|-10800|Avi Kivity|avi@redhat.com|2010-08-01 10:46:56+03:00|-10800

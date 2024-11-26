@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7389ad4b6515c2de6402bfafdfebf0b319790d16|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/dp-mst-helper: Avoid reading uninitialized value
-
-A static analysis tool tells me that we could try to read an
-uninitialized 'ret' value. Plug that.
-
-Signed-off-by: Damien Lespiau <damien.lespiau@intel.com>
-Signed-off-by: Daniel Vetter <daniel.vetter@ffwll.ch>"|1|Damien Lespiau|damien.lespiau@intel.com|2014-07-14 11:53:44+01:00|-3600|Daniel Vetter|daniel.vetter@ffwll.ch|2014-07-18 15:39:29+02:00|-7200

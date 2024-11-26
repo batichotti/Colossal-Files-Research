@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ed7e3d1ca7005fe4bbb260da3caea3ef2af5c7c5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"arch/powerpc/kvm/book3s_hv.c: included linux/sched.h twice
-
-arch/powerpc/kvm/book3s_hv.c: included 'linux/sched.h' twice,
-remove the duplicate.
-
-Signed-off-by: Danny Kukawka <danny.kukawka@bisect.de>
-Signed-off-by: Benjamin Herrenschmidt <benh@kernel.crashing.org>"|1|Danny Kukawka|danny.kukawka@bisect.de|2012-02-16 03:55:54+00:00|0|Benjamin Herrenschmidt|benh@kernel.crashing.org|2012-02-27 11:33:58+11:00|-39600

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|154c8c19c35b6da94a623cb793458e203572083d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"s390/mm: return key via pointer in get_guest_storage_key
-
-Let's just split returning the key and reporting errors. This makes calling
-code easier and avoids bugs as happened already.
-
-Reviewed-by: Christian Borntraeger <borntraeger@de.ibm.com>
-Signed-off-by: David Hildenbrand <dahi@linux.vnet.ibm.com>
-Signed-off-by: Christian Borntraeger <borntraeger@de.ibm.com>"|3|David Hildenbrand|dahi@linux.vnet.ibm.com|2016-05-09 11:22:34+02:00|-7200|Christian Borntraeger|borntraeger@de.ibm.com|2016-06-10 12:07:28+02:00|-7200

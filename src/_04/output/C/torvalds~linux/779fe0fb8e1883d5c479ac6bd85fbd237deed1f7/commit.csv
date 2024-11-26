@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|779fe0fb8e1883d5c479ac6bd85fbd237deed1f7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ceph: rados pool namespace support
-
-This patch adds codes that decode pool namespace information in
-cap message and request reply. Pool namespace is saved in i_layout,
-it will be passed to libceph when doing read/write.
-
-Signed-off-by: Yan, Zheng <zyan@redhat.com>"|8|Yan, Zheng|zyan@redhat.com|2016-03-07 09:35:06+08:00|-28800|Ilya Dryomov|idryomov@gmail.com|2016-07-28 02:55:38+02:00|-7200

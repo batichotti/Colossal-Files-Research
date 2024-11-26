@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3499e461147636bf55c41128d83b679ac6ab2d86|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ftrace: Remove failures file
-
-The failures file in the debugfs tracing directory would list the
-functions that failed to convert when the old dead ftrace daemon
-tried to update code but failed. Since this code is now dead along
-with the daemon the failures file is useless. Remove it.
-
-Signed-off-by: Steven Rostedt <rostedt@goodmis.org>"|1|Steven Rostedt|srostedt@redhat.com|2011-04-21 22:59:12-04:00|14400|Steven Rostedt|rostedt@goodmis.org|2011-04-29 22:52:58-04:00|14400

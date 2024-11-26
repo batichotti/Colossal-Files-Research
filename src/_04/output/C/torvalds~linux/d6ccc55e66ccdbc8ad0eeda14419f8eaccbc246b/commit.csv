@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d6ccc55e66ccdbc8ad0eeda14419f8eaccbc246b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cgroup: remove unnecessary 0 check from css_from_id()
-
-css_idr allocation starts at 1, so index 0 will never point to an
-item. css_from_id() currently filters that before asking idr_find(),
-but idr_find() would also just return NULL, so this is not needed.
-
-Signed-off-by: Johannes Weiner <hannes@cmpxchg.org>
-Signed-off-by: Tejun Heo <tj@kernel.org>"|1|Johannes Weiner|hannes@cmpxchg.org|2016-06-17 12:24:27-04:00|14400|Tejun Heo|tj@kernel.org|2016-06-17 14:16:32-04:00|14400

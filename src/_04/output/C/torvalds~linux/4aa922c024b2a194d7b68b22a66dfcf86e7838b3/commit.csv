@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4aa922c024b2a194d7b68b22a66dfcf86e7838b3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"regulator: Only apply voltage constraints from consumers that set them
-
-When applying the set_voltage() requests from consumers skip over those
-consumers that haven't set anything, otherwise we'll come out with a
-maximum voltage of zero.
-
-Signed-off-by: Mark Brown <broonie@opensource.wolfsonmicro.com>
-Signed-off-by: Liam Girdwood <lrg@slimlogic.co.uk>"|1|Mark Brown|broonie@opensource.wolfsonmicro.com|2011-05-14 13:42:34-07:00|25200|Liam Girdwood|lrg@slimlogic.co.uk|2011-05-27 10:49:09+01:00|-3600

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|72100cc43262fa39821b3debc04be1a7a17b3428|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] lpfc 8.3.9: Fix locking and memory issues
-
-- Use the hbalock when changing the fc_flag.
-- Use the host_lock when changeing the sli_flag.
-- Prevent NULL pointer dereference after dma_alloc_coherent failure.
-
-Signed-off-by: James Smart <james.smart@emulex.com>
-Signed-off-by: James Bottomley <James.Bottomley@suse.de>"|4|James Smart|james.smart@emulex.com|2010-02-12 14:43:01-05:00|18000|James Bottomley|James.Bottomley@suse.de|2010-02-17 17:41:19-06:00|21600

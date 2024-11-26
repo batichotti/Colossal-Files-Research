@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|580982d399071474c349538b7f5780bc79b54e7f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: clean up udelay usage
-
-udelay() of 20 milliseconds really ought to just use mdelay(), that avoids
-the various wrap scenarios and also is more readable
-
-Signed-off-by: Arjan van de Ven <arjan@linux.intel.com>
-Signed-off-by: Eric Anholt <eric@anholt.net>"|1|Arjan van de Ven|arjan@linux.intel.com|2009-03-23 13:36:25-07:00|25200|Eric Anholt|eric@anholt.net|2009-04-01 15:21:58-07:00|25200

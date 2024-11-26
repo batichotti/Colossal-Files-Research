@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9e86943b6c74f214ce0516d56e55636d52252e19|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"SLUB: use atomic_long_read for atomic_long variables
-
-SLUB is using atomic_read() for variables declared atomic_long_t.
-Switch to atomic_long_read().
-
-Signed-off-by: Christoph Lameter <clameter@sgi.com>
-Signed-off-by: Andrew Morton <akpm@linux-foundation.org>
-Signed-off-by: Linus Torvalds <torvalds@linux-foundation.org>"|1|Christoph Lameter|clameter@sgi.com|2007-08-22 14:01:56-07:00|25200|Linus Torvalds|torvalds@woody.linux-foundation.org|2007-08-22 19:52:47-07:00|25200

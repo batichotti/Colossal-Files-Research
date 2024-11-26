@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9ffc93f203c18a70623f21950f1dd473c9ec48cd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Remove all #inclusions of asm/system.h
-
-Remove all #inclusions of asm/system.h preparatory to splitting and killing
-it.  Performed with the following command:
-
-perl -p -i -e 's!^#\s*include\s*<asm/system[.]h>.*\n!!' `grep -Irl '^#\s*include\s*<asm/system[.]h>' *`
-
-Signed-off-by: David Howells <dhowells@redhat.com>"|510|David Howells|dhowells@redhat.com|2012-03-28 18:30:03+01:00|-3600|David Howells|dhowells@redhat.com|2012-03-28 18:30:03+01:00|-3600

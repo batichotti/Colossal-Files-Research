@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|acd89fca672dd2a7c3a83038cce7601498f21105|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/amdgpu: Block all job scheduling activity during DPC recovery
-
-DPC recovery involves ASIC reset just as normal GPU recovery so block
-SW GPU schedulers and wait on all concurrent GPU resets.
-
-Signed-off-by: Andrey Grodzovsky <andrey.grodzovsky@amd.com>
-Acked-by: Alex Deucher <alexander.deucher@amd.com>
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|1|Andrey Grodzovsky|andrey.grodzovsky@amd.com|2020-07-29 14:14:36-04:00|14400|Alex Deucher|alexander.deucher@amd.com|2020-09-15 17:24:48-04:00|14400

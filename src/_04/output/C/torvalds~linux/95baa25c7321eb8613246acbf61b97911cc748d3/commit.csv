@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|95baa25c7321eb8613246acbf61b97911cc748d3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: Fix the case where NFSv4 renewal fails
-
-If the asynchronous lease renewal fails (usually due to a soft timeout),
-then we _must_ schedule state recovery in order to ensure that we don't
-lose the lease unnecessarily or, if the lease is already lost, that we
-recover the locking state promptly...
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|1|Trond Myklebust|Trond.Myklebust@netapp.com|2009-05-26 14:51:00-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2009-05-26 14:51:00-04:00|14400

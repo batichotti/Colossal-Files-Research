@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|52898025cf7d458d029c18773d0ef49b4789d829|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[S390] dasd: security and PSF update patch for EMC CKD ioctl
-
-Remove the PSF order/suborder check from the Symmetrix CKD dasd ioctl.
-In exchange restrict the ioctl to CAP_SYS_ADMIN and CAP_SYS_RAWIO.
-
-Signed-off-by: Nigel Hislop <hislop_nigel@emc.com>
-Signed-off-by: Martin Schwidefsky <schwidefsky@de.ibm.com>"|1|Nigel Hislop|hislop_nigel@emc.com|2010-03-08 12:25:16+01:00|-3600|Martin Schwidefsky|sky@mschwide.boeblingen.de.ibm.com|2010-03-08 12:25:30+01:00|-3600

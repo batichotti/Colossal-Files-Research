@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|50c8000744463aa8534de0d739b50ed4f06f8275|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: Validate the stateid before applying it to state recovery
-
-If the stateid is the zero or invalid stateid, then it is pointless
-to attempt to use it for recovery. In that case, try to fall back
-to using the open state stateid, or just doing a general recovery
-of all state on a given inode.
-
-Signed-off-by: Trond Myklebust <trond.myklebust@hammerspace.com>"|1|Trond Myklebust|trond.myklebust@hammerspace.com|2019-07-11 19:02:18-04:00|14400|Trond Myklebust|trond.myklebust@hammerspace.com|2019-07-15 10:11:20-04:00|14400

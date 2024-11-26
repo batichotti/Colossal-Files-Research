@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f6e7def7f7d749759e4bf36dcc25ae289a20d868|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"slub: Use page variable instead of c->page.
-
-Store the value of c->page to avoid additional fetches
-from per cpu data.
-
-Acked-by: David Rientjes <rientjes@google.com>
-Signed-off-by: Christoph Lameter <cl@linux.com>
-Signed-off-by: Pekka Enberg <penberg@kernel.org>"|1|Christoph Lameter|cl@linux.com|2012-05-09 10:09:58-05:00|18000|Pekka Enberg|penberg@kernel.org|2012-06-01 09:25:41+03:00|-10800

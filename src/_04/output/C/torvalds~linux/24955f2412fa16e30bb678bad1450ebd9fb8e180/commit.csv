@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|24955f2412fa16e30bb678bad1450ebd9fb8e180|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Clarify mmio_flip_lock locking
-
-The ->queue_flip callback is always called from process context, so
-plain _irq spinlock variants are enough.
-
-Reviewed-by: Jesse Barnes <jbarnes@virtuousgeek.org>
-Signed-off-by: Daniel Vetter <daniel.vetter@ffwll.ch>"|1|Daniel Vetter|daniel.vetter@ffwll.ch|2014-09-15 14:55:32+02:00|-7200|Daniel Vetter|daniel.vetter@ffwll.ch|2014-09-19 14:43:23+02:00|-7200

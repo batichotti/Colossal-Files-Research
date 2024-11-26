@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|501f882741b139da22bb3ba4bc615a6eadce5038|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Make hci_pend_le_conn_lookup more general purposed
-
-In some circumstances we need to look up entries in pend_le_conns and in
-other in pend_le_reports. This patch converts the existing lookup
-function for pend_le_conns to something that can be used for both lists.
-
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|3|Johan Hedberg|johan.hedberg@intel.com|2014-07-04 12:37:26+03:00|-10800|Marcel Holtmann|marcel@holtmann.org|2014-07-04 11:58:10+02:00|-7200

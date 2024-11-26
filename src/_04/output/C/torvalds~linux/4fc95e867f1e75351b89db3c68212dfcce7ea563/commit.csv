@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4fc95e867f1e75351b89db3c68212dfcce7ea563|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"lockdep: sanitize bit names
-
-s/\(LOCKF\?_ENABLED_[^ ]*\)S\(_READ\)\?\>/\1\2/g
-
-So that the USED_IN and ENABLED have the same names.
-
-Signed-off-by: Peter Zijlstra <a.p.zijlstra@chello.nl>
-Signed-off-by: Ingo Molnar <mingo@elte.hu>"|3|Peter Zijlstra|a.p.zijlstra@chello.nl|2009-01-22 13:10:52+01:00|-3600|Ingo Molnar|mingo@elte.hu|2009-02-14 23:27:51+01:00|-3600

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9f35fa8a14e6216a859e2dfbe50ade497f9603ef|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] megaraid_sas: replace pci_alloc_consitent with dma_alloc_coherent in ioctl path
-
-Replaced pci_alloc_consistent with dma_alloc_coherent from the ioctl path.
-This is to avoid situations where ioctl fails for lack of memory
-(when system under heavy stress).
-
-Signed-off-by: Sumant Patro <sumant.patro@lsi.com>
-Signed-off-by: James Bottomley <James.Bottomley@SteelEye.com>"|1|Sumant Patro|sumantp@lsil.com|2007-02-14 12:55:45-08:00|28800|James Bottomley|jejb@mulgrave.il.steeleye.com|2007-02-16 10:20:33-06:00|21600

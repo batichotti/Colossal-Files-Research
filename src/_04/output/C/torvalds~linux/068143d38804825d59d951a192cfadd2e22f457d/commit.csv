@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|068143d38804825d59d951a192cfadd2e22f457d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/fb: add setcmap and fix 8-bit support.
-
-This adds support for the setcmap api and fixes the 8bpp
-support at least on radeon hardware. It adds a new load_lut
-hook which can be called once the color map is setup.
-
-Signed-off-by: Dave Airlie <airlied@redhat.com>"|8|Dave Airlie|airlied@redhat.com|2009-10-05 09:58:02+10:00|-36000|Dave Airlie|airlied@redhat.com|2009-10-05 10:00:59+10:00|-36000

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8919358e3d3e78b97490d9d6b0179685962df58f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] hpsa: increase the probability of a reported success after a device reset
-
-rc is set in the loop, and it isn't set back to zero anywhere
-this patch fixes it
-
-Signed-off-by: Tomas Henzl <thenzl@redhat.com>
-Signed-off-by: James Bottomley <JBottomley@Parallels.com>"|1|Tomas Henzl|thenzl@redhat.com|2014-02-21 16:25:05-06:00|21600|James Bottomley|JBottomley@Parallels.com|2014-03-15 10:19:23-07:00|25200

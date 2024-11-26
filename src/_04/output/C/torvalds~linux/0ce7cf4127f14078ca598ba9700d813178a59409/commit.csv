@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0ce7cf4127f14078ca598ba9700d813178a59409|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nftables: update table flags from the commit phase
-
-Do not update table flags from the preparation phase. Store the flags
-update into the transaction, then update the flags from the commit
-phase.
-
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|2|Pablo Neira Ayuso|pablo@netfilter.org|2021-03-18 01:25:05+01:00|-3600|Pablo Neira Ayuso|pablo@netfilter.org|2021-03-18 01:35:39+01:00|-3600

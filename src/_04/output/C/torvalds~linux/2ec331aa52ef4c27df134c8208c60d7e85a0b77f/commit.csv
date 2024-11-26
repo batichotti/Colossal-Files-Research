@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2ec331aa52ef4c27df134c8208c60d7e85a0b77f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] bfa: Observed auto D-port mode instead of manual
-
-Observed Auto mode in the HBA side while doing manual D-Port test on the
-switch side. Mode is not passed to BFA from firmware when the test is
-triggered by switch side. BFA just blindly using Auto mode.
-
-Signed-off-by: Vijaya Mohan Guvva <vmohan@brocade.com>
-Signed-off-by: James Bottomley <JBottomley@Parallels.com>"|2|Vijaya Mohan Guvva|vmohan@brocade.com|2013-11-21 01:37:47-08:00|28800|James Bottomley|JBottomley@Parallels.com|2013-12-19 07:39:05-08:00|28800

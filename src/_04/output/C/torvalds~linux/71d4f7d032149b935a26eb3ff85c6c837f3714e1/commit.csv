@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|71d4f7d032149b935a26eb3ff85c6c837f3714e1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: remove metadata reservation checks
-
-Commit 27dd43854227b (""ext4: introduce reserved space"") reserves 2% of
-the file system space to make sure metadata allocations will always
-succeed.  Given that, tracking the reservation of metadata blocks is
-no longer necessary.
-
-Signed-off-by: Theodore Ts'o <tytso@mit.edu>"|5|Theodore Ts'o|tytso@mit.edu|2014-07-15 06:02:38-04:00|14400|Theodore Ts'o|tytso@mit.edu|2014-07-15 06:02:38-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c39c07fce78439dfb0665b294753716297389179|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cifs: use stub posix acl handlers
-
-Now that cifs supports the get and set acl inode operations and the vfs
-has been switched to the new posi api, cifs can simply rely on the stub
-posix acl handlers. The custom xattr handlers and associated unused
-helpers can be removed.
-
-Signed-off-by: Christian Brauner (Microsoft) <brauner@kernel.org>"|3|Christian Brauner|brauner@kernel.org|2022-09-22 17:17:25+02:00|-7200|Christian Brauner (Microsoft)|brauner@kernel.org|2022-10-20 10:13:32+02:00|-7200

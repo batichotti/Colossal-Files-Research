@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|13439eec7af24b0800e654ee03c57ab985083ae4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: mediatek: remove superfluous reset call
-
-HW reset is triggered in the mtk_hw_init() function. There is no need to
-also reset the core during probe.
-
-Signed-off-by: John Crispin <blogic@openwrt.org>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|John Crispin|blogic@openwrt.org|2016-04-08 00:54:06+02:00|-7200|David S. Miller|davem@davemloft.net|2016-04-12 22:41:32-04:00|14400

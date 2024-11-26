@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2459cd876e2828dc63c19ea5dadf8a94a8f11244|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211_hwsim: unregister genetlink family properly
-
-During hwsim_init_netlink(), we should call genl_unregister_family()
-if failed on netlink_register_notifier() since the genetlink is
-already registered.
-
-Signed-off-by: Su Kang Yin <cantona@cantona.net>
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Su Kang Yin|cantona@cantona.net|2015-08-07 16:54:10+08:00|-28800|Johannes Berg|johannes.berg@intel.com|2015-08-14 17:49:52+02:00|-7200

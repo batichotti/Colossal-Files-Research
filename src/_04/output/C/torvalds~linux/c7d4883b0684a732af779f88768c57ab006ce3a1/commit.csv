@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c7d4883b0684a732af779f88768c57ab006ce3a1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Use ADV_SCAN_IND for adv. instances
-
-With this patch, ADV_SCAN_IND will be used for advertising instances
-that have non-zero scan response data while the global ""connectable""
-setting is ""off"".
-
-Signed-off-by: Arman Uguray <armansito@chromium.org>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|1|Arman Uguray|armansito@chromium.org|2015-03-28 12:38:59-07:00|25200|Marcel Holtmann|marcel@holtmann.org|2015-03-28 21:31:57+01:00|-3600

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|226ec5fd6746c0ef2e9efb583b44d01264ea0bb5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cxgb4: parse the VPD instead of relying on a static VPD layout
-
-Some boards' VPDs contain additional keywords or have longer serial numbers,
-meaning the keyword locations are variable.  Ditch the static layout and
-use the pci_vpd_* family of functions to parse the VPD instead.
-
-Signed-off-by: Dimitris Michailidis <dm@chelsio.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Dimitris Michailidis|dm@chelsio.com|2010-04-27 12:24:15+00:00|0|David S. Miller|davem@davemloft.net|2010-04-27 15:46:42-07:00|25200

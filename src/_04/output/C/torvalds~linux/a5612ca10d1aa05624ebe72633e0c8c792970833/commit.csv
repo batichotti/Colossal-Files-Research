@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a5612ca10d1aa05624ebe72633e0c8c792970833|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: Fix data-races around sysctl_devconf_inherit_init_net.
-
-While reading sysctl_devconf_inherit_init_net, it can be changed
-concurrently.  Thus, we need to add READ_ONCE() to its readers.
-
-Fixes: 856c395cfa63 (""net: introduce a knob to control whether to inherit devconf config"")
-Signed-off-by: Kuniyuki Iwashima <kuniyu@amazon.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|Kuniyuki Iwashima|kuniyu@amazon.com|2022-08-23 10:46:57-07:00|25200|David S. Miller|davem@davemloft.net|2022-08-24 13:46:58+01:00|-3600

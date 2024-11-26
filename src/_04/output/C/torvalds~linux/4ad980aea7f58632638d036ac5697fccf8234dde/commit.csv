@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4ad980aea7f58632638d036ac5697fccf8234dde|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86/mmu: Cleanup range-based flushing for given page
-
-Use the new kvm_flush_remote_tlbs_gfn() helper to cleanup the call sites
-of range-based flushing for given page, which makes the code clear.
-
-Signed-off-by: Hou Wenlong <houwenlong.hwl@antgroup.com>
-Link: https://lore.kernel.org/r/593ee1a876ece0e819191c0b23f56b940d6686db.1665214747.git.houwenlong.hwl@antgroup.com
-Signed-off-by: Sean Christopherson <seanjc@google.com>"|2|Hou Wenlong|houwenlong.hwl@antgroup.com|2022-10-10 20:19:17+08:00|-28800|Sean Christopherson|seanjc@google.com|2023-01-24 10:05:48-08:00|28800

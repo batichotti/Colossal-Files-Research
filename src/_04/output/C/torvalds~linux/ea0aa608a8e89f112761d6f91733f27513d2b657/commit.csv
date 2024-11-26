@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ea0aa608a8e89f112761d6f91733f27513d2b657|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/edid: Move validate_displayid() drm_find_displayid_extension()
-
-Instead of everyone having to call validate_displayid() let's just
-have drm_find_displayid_extension() do it for them.
-
-Signed-off-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Link: https://patchwork.freedesktop.org/patch/msgid/20200313162054.16009-6-ville.syrjala@linux.intel.com
-Reviewed-by: Alex Deucher <alexander.deucher@amd.com>"|1|Ville Syrjälä|ville.syrjala@linux.intel.com|2020-03-13 18:20:50+02:00|-7200|Ville Syrjälä|ville.syrjala@linux.intel.com|2020-03-18 17:52:36+02:00|-7200

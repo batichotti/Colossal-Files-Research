@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4e2056e05e6eb646d37e310c11f6ac97a266b355|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Set DP min_bpp to 8*3 for non-RGB output formats
-
-6bpc is only legal for RGB and RAW pixel encodings. For the rest
-the minimum is 8bpc. Set our lower limit accordingly.
-
-Signed-off-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Link: https://patchwork.freedesktop.org/patch/msgid/20190326142556.21176-6-ville.syrjala@linux.intel.com
-Reviewed-by: Dhinakaran Pandiyan <dhinakaran.pandiyan@intel.com>"|3|Ville Syrjälä|ville.syrjala@linux.intel.com|2019-03-26 16:25:56+02:00|-7200|Ville Syrjälä|ville.syrjala@linux.intel.com|2019-04-11 21:22:40+03:00|-10800

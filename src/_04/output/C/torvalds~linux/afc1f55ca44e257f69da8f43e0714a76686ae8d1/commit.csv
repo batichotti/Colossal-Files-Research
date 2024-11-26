@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|afc1f55ca44e257f69da8f43e0714a76686ae8d1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"MD: not clear ->safemode for external metadata array
-
-->safemode should be triggered by mdadm for external metadaa array, otherwise
-array's state confuses mdadm.
-
-Fixes: 33182d15c6bf(md: always clear ->safemode when md_check_recovery gets the mddev lock.)
-Cc: NeilBrown <neilb@suse.com>
-Signed-off-by: Shaohua Li <shli@fb.com>"|1|Shaohua Li|shli@fb.com|2017-08-11 20:34:45-07:00|25200|Shaohua Li|shli@fb.com|2017-08-11 20:42:06-07:00|25200

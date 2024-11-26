@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7305eb5d8cf147ce4178e723c95de15e2f001429|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: Clear DR6[0:3] on #DB during handle_dr
-
-DR6[0:3] (previous breakpoint indications) are cleared when #DB is injected
-during handle_exception, just as real hardware does.  Similarily, handle_dr
-should clear DR6[0:3].
-
-Signed-off-by: Nadav Amit <namit@cs.technion.ac.il>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Nadav Amit|namit@cs.technion.ac.il|2014-11-02 11:54:44+02:00|-7200|Paolo Bonzini|pbonzini@redhat.com|2014-11-07 15:44:03+01:00|-3600

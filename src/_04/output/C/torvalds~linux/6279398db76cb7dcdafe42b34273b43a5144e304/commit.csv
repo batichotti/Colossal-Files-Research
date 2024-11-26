@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6279398db76cb7dcdafe42b34273b43a5144e304|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: enable quota at remount from r to w
-
-We have to enable quota only when remounting from read to write. Otherwise,
-we'll get remount failure. (e.g., write to write case)
-
-Reviewed-by: Chao Yu <yuchao0@huawei.com>
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|1|Jaegeuk Kim|jaegeuk@kernel.org|2018-01-02 11:03:19-08:00|28800|Jaegeuk Kim|jaegeuk@kernel.org|2018-01-03 22:48:25-08:00|28800

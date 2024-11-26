@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|de8e5d744051568c8aad35c1c2dcf8fd137d10c9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Disable compat ioctl for s390
-
-We never had a 31bit QEMU/kuli running. We would need to review several
-ioctls to check if this creates holes, bugs or whatever to make it work.
-Lets just disable compat support for KVM on s390.
-
-Signed-off-by: Christian Borntraeger <borntraeger@de.ibm.com>
-Acked-by: Paolo Bonzini <pbonzini@redhat.com>"|2|Christian Borntraeger|borntraeger@de.ibm.com|2015-02-03 09:35:15+01:00|-3600|Christian Borntraeger|borntraeger@de.ibm.com|2015-02-09 12:44:14+01:00|-3600

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|39f19ebbf57b403695f7b5f9cf322fe1ddb5d7fb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bpf: rename ARG_PTR_TO_STACK
-
-since ARG_PTR_TO_STACK is no longer just pointer to stack
-rename it to ARG_PTR_TO_MEM and adjust comment.
-
-Signed-off-by: Alexei Starovoitov <ast@kernel.org>
-Acked-by: Daniel Borkmann <daniel@iogearbox.net>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|5|Alexei Starovoitov|ast@fb.com|2017-01-09 10:19:50-08:00|28800|David S. Miller|davem@davemloft.net|2017-01-09 16:56:27-05:00|18000

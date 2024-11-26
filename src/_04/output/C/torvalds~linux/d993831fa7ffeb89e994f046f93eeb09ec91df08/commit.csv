@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d993831fa7ffeb89e994f046f93eeb09ec91df08|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"writeback: add name to backing_dev_info
-
-This enables us to track who does what and print info. Its main use
-is catching dirty inodes on the default_backing_dev_info, so we can
-fix that up.
-
-Signed-off-by: Jens Axboe <jens.axboe@oracle.com>"|17|Jens Axboe|jens.axboe@oracle.com|2009-06-12 14:45:52+02:00|-7200|Jens Axboe|jens.axboe@oracle.com|2009-09-11 09:20:26+02:00|-7200

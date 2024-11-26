@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|dcd94cc2e75cb1457d4d2dcfa0b360baee4b8764|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd: nfsd4_process_open2() must reference the delegation stateid
-
-Ensure that nfsd4_process_open2() keeps a reference to the delegation
-stateid until it is done working with it. Necessary step toward
-client_mutex removal.
-
-Signed-off-by: Trond Myklebust <trond.myklebust@primarydata.com>
-Signed-off-by: J. Bruce Fields <bfields@redhat.com>"|1|Trond Myklebust|trond.myklebust@primarydata.com|2014-07-29 21:34:18-04:00|14400|J. Bruce Fields|bfields@redhat.com|2014-07-31 14:20:11-04:00|14400

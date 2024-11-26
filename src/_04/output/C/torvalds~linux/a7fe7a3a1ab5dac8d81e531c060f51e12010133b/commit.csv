@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a7fe7a3a1ab5dac8d81e531c060f51e12010133b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ocfs2: Create an xattr indexed block if needed.
-
-With reflink, there is a need that we create a new xattr indexed
-block from the very beginning. So add a new parameter for
-ocfs2_create_xattr_block.
-
-Signed-off-by: Tao Ma <tao.ma@oracle.com>"|1|Tao Ma|tao.ma@oracle.com|2009-08-18 11:43:52+08:00|-28800|Joel Becker|joel.becker@oracle.com|2009-09-22 20:09:44-07:00|25200

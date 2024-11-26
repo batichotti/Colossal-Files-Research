@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|86db06180a48999b9f1883dd8bf871c882dbf075|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drbd: Wrong use of RCU in receive_protocol()
-
-It is not enough to grab net_conf->integrity_alg under rcu_read_lock()
-and access it outside of it; the entire net_conf object may be gone by
-then.
-
-Signed-off-by: Philipp Reisner <philipp.reisner@linbit.com>
-Signed-off-by: Lars Ellenberg <lars.ellenberg@linbit.com>"|1|Andreas Gruenbacher|agruen@linbit.com|2011-04-28 15:24:18+02:00|-7200|Philipp Reisner|philipp.reisner@linbit.com|2012-11-08 16:52:57+01:00|-3600

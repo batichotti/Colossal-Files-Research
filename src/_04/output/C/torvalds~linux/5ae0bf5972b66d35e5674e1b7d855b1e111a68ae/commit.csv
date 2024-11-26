@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5ae0bf5972b66d35e5674e1b7d855b1e111a68ae|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ftrace: Fix locking in register_ftrace_function_probe()
-
-The iteration of the ftrace function list and the call to
-ftrace_match_record() need to be protected by the ftrace_lock.
-
-Signed-off-by: Steven Rostedt <rostedt@goodmis.org>"|1|Steven Rostedt (Red Hat)|rostedt@goodmis.org|2013-05-09 18:20:37-04:00|14400|Steven Rostedt|rostedt@goodmis.org|2013-05-09 20:15:30-04:00|14400

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|019960ae9933161c2809fa4ee608ba30d9639fd2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: Don't adjust tsc offset forward
-
-Most Intel hosts have a stable tsc, and playing with the offset only
-reduces accuracy.  By limiting tsc offset adjustment only to forward updates,
-we effectively disable tsc offset adjustment on these hosts.
-
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|1|Avi Kivity|avi@qumranet.com|2008-03-04 10:44:51+02:00|-7200|Avi Kivity|avi@qumranet.com|2008-04-27 11:53:27+03:00|-10800

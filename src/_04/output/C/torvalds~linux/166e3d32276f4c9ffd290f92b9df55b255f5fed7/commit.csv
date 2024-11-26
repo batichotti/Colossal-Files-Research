@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|166e3d32276f4c9ffd290f92b9df55b255f5fed7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mm/vmscan: convert isolate_lru_pages() to use a folio
-
-Remove a few hidden calls to compound_head, saving 279 bytes of text.
-
-Link: https://lkml.kernel.org/r/20220617154248.700416-3-willy@infradead.org
-Signed-off-by: Matthew Wilcox (Oracle) <willy@infradead.org>
-Reviewed-by: Christoph Hellwig <hch@lst.de>
-Signed-off-by: Andrew Morton <akpm@linux-foundation.org>"|1|Matthew Wilcox (Oracle)|willy@infradead.org|2022-06-17 16:42:45+01:00|-3600|akpm|akpm@linux-foundation.org|2022-07-03 18:08:44-07:00|25200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fe9b5f774b28143dcc2957eadffefdca6171a26a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libbpf: use map_flags when creating maps
-
-This is required to use BPF_MAP_TYPE_LPM_TRIE or any other map type
-which requires flags.
-
-Signed-off-by: Craig Gallek <kraig@google.com>
-Acked-by: Daniel Borkmann <daniel@iogearbox.net>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Craig Gallek|kraig@google.com|2017-10-05 10:41:58-04:00|14400|David S. Miller|davem@davemloft.net|2017-10-05 21:42:28-07:00|25200

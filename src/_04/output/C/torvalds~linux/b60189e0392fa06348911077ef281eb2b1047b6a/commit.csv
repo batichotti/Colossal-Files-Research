@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b60189e0392fa06348911077ef281eb2b1047b6a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: stmmac: Integrate EST with TAPRIO scheduler API
-
-Now that we have the EST code for XGMAC and QoS we can use it with the
-TAPRIO scheduler. Integrate it into the main driver and use the API to
-configure the EST feature.
-
-Signed-off-by: Jose Abreu <Jose.Abreu@synopsys.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|Jose Abreu|Jose.Abreu@synopsys.com|2019-12-18 11:33:07+01:00|-3600|David S. Miller|davem@davemloft.net|2019-12-18 12:17:11-08:00|28800

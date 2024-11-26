@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d2722f8b87fb172ff2f31d3a2816b31d58678d40|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: fix potential use-after-free
-
-The bss struct might be freed in ieee80211_rx_bss_put(),
-so we shouldn't use it afterwards.
-
-Cc: stable@vger.kernel.org (3.10+)
-Fixes: 817cee7675237 (""mac80211: track AP's beacon rate and give it to the driver"")
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2014-03-04 11:43:28+01:00|-3600|Johannes Berg|johannes.berg@intel.com|2014-03-19 21:29:52+01:00|-3600

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|47bd53f0e8008294ff58c5b37d713f25a8dc56aa|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"regulator: fix unset_regulator_supplies() to remove all matches
-
-Remove all matching consumer supplies, not just the first, to not leave
-dangling pointers.
-
-Signed-off-by: Jani Nikula <ext-jani.1.nikula@nokia.com>
-Acked-by: Mark Brown <broonie@opensource.wolfsonmicro.com>
-Signed-off-by: Liam Girdwood <lrg@slimlogic.co.uk>"|1|Jani Nikula|ext-jani.1.nikula@nokia.com|2010-04-29 10:55:10+03:00|-10800|Liam Girdwood|lrg@slimlogic.co.uk|2010-05-25 10:16:01+01:00|-3600

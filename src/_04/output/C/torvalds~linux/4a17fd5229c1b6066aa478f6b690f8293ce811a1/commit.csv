@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4a17fd5229c1b6066aa478f6b690f8293ce811a1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sock: Introduce named constants for sk_reuse
-
-Name them in a ""backward compatible"" manner, i.e. reuse or not
-are still 1 and 0 respectively. The reuse value of 2 means that
-the socket with it will forcibly reuse everyone else's port.
-
-Signed-off-by: Pavel Emelyanov <xemul@openvz.org>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|13|Pavel Emelyanov|xemul@parallels.com|2012-04-19 03:39:36+00:00|0|David S. Miller|davem@davemloft.net|2012-04-21 15:52:25-04:00|14400

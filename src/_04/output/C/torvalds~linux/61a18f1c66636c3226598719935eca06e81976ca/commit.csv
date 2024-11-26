@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|61a18f1c66636c3226598719935eca06e81976ca|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: Remove fs_info argument from update_inline_extent_backref
-
-This function always uses the leaf's extent_buffer which already
-contains a reference to the fs_info. No functional changes.
-
-Signed-off-by: Nikolay Borisov <nborisov@suse.com>
-Reviewed-by: Qu Wenruo <wqu@suse.com>
-Signed-off-by: David Sterba <dsterba@suse.com>"|1|Nikolay Borisov|nborisov@suse.com|2018-06-20 15:48:49+03:00|-10800|David Sterba|dsterba@suse.com|2018-08-06 13:12:33+02:00|-7200

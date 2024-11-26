@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8cb471e8f82506937fe5e2e9fb0bf90f6b1f1170|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ocfs2: Take the inode out of the metadata read/write paths.
-
-We are really passing the inode into the ocfs2_read/write_blocks()
-functions to get at the metadata cache.  This commit passes the cache
-directly into the metadata block functions, divorcing them from the
-inode.
-
-Signed-off-by: Joel Becker <joel.becker@oracle.com>"|20|Joel Becker|joel.becker@oracle.com|2009-02-10 20:00:41-08:00|28800|Joel Becker|joel.becker@oracle.com|2009-09-04 16:07:48-07:00|25200

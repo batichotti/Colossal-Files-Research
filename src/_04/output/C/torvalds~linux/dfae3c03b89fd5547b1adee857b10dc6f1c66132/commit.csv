@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|dfae3c03b89fd5547b1adee857b10dc6f1c66132|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: nVMX: Allocate and configure VM{READ,WRITE} bitmaps iff enable_shadow_vmcs
-
-...and make enable_shadow_vmcs depend on nested.  Aside from the obvious
-memory savings, this will allow moving the relevant code out of vmx.c in
-the future, e.g. to a nested specific file.
-
-Signed-off-by: Sean Christopherson <sean.j.christopherson@intel.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Sean Christopherson|sean.j.christopherson@intel.com|2018-12-03 13:52:52-08:00|28800|Paolo Bonzini|pbonzini@redhat.com|2018-12-14 12:34:21+01:00|-3600

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c6cb9b4fd984334b420115e6a504a2ef92cf7f3f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"lpfc: Remove unnessary cast
-
-kzalloc() returns a void pointer - no need to cast it in
-drivers/scsi/lpfc/lpfc_init.c::lpfc_sli_driver_resource_setup()
-
-Signed-off-by: Firo Yang <firogm@gmail.com>
-Signed-off-by: James Smart <james.smart@avagotech.com>
-Signed-off-by: James Bottomley <JBottomley@Odin.com>"|1|Firo Yang|firogm@gmail.com|2015-08-31 16:48:09-04:00|14400|James Bottomley|JBottomley@Odin.com|2015-10-27 09:56:24+09:00|-32400

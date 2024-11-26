@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9f347b2face51d782d1e03f2f05b7c3f93a6dc9a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: hisi_sas: change ncq process for v3 hw
-
-For v3 hw, each NCQ will return a CQ, so it is no need to acquire IPTT from
-ITCT, just acquire it from IPTT field of CQ.
-
-Signed-off-by: Xiang Chen <chenxiang66@hisilicon.com>
-Signed-off-by: John Garry <john.garry@huawei.com>
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|1|Xiang Chen|chenxiang66@hisilicon.com|2017-12-09 01:16:39+08:00|-28800|Martin K. Petersen|martin.petersen@oracle.com|2017-12-14 21:25:02-05:00|18000

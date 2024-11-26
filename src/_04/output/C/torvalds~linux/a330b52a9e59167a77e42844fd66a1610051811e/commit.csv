@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a330b52a9e59167a77e42844fd66a1610051811e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/amdgpu: Init the cp MQD if it's not be initialized before
-
-The MQD might not be initialized duirng first init period if the device need to be reset
-druing probe. Driver need to proper init them in gpu recovery period
-
-Signed-off-by: shaoyunl <shaoyun.liu@amd.com>
-Acked-by: Alex Deucher <alexander.deucher@amd.com>
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|1|shaoyunl|shaoyun.liu@amd.com|2021-02-16 11:27:04-05:00|18000|Alex Deucher|alexander.deucher@amd.com|2021-03-23 23:10:33-04:00|14400

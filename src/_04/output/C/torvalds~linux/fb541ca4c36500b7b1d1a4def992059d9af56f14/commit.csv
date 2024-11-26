@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fb541ca4c36500b7b1d1a4def992059d9af56f14|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md: remove lock_bdev / unlock_bdev
-
-These wrappers for blkdev_get / blkdev_put just horribly confuse the
-code with their odd naming.  Remove them and improve the error unwinding
-in md_import_device with the now folded code.
-
-Signed-off-by: Christoph Hellwig <hch@lst.de>
-Signed-off-by: Song Liu <song@kernel.org>"|1|Christoph Hellwig|hch@lst.de|2022-11-29 14:32:53+01:00|-3600|Song Liu|song@kernel.org|2022-12-02 11:21:01-08:00|28800

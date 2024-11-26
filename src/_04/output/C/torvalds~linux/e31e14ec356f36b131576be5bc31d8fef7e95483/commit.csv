@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e31e14ec356f36b131576be5bc31d8fef7e95483|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[PATCH] remove the inode_post_link and inode_post_rename LSM hooks
-
-This patch removes the inode_post_link and inode_post_rename LSM hooks as
-they are unused (and likely useless).
-
-Signed-off-by: Stephen Smalley <sds@tycho.nsa.gov>
-Signed-off-by: Andrew Morton <akpm@osdl.org>
-Signed-off-by: Linus Torvalds <torvalds@osdl.org>"|4|Stephen Smalley|sds@tycho.nsa.gov|2005-09-09 13:01:45-07:00|25200|Linus Torvalds|torvalds@g5.osdl.org|2005-09-09 13:57:28-07:00|25200

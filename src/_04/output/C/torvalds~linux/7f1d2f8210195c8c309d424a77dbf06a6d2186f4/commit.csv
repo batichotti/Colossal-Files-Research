@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7f1d2f8210195c8c309d424a77dbf06a6d2186f4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tracing: Rename ftrace_event_file to trace_event_file
-
-The name ""ftrace"" really refers to the function hook infrastructure. It
-is not about the trace_events. The structure ftrace_event_file is really
-about trace events and not ""ftrace"". Rename it to trace_event_file.
-
-Signed-off-by: Steven Rostedt <rostedt@goodmis.org>"|11|Steven Rostedt (Red Hat)|rostedt@goodmis.org|2015-05-05 10:09:53-04:00|14400|Steven Rostedt|rostedt@goodmis.org|2015-05-13 14:05:16-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a528c219df2e865e178c538c7178961dfed5a13c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"dev: update __dev_notify_flags() to send rtnl msg
-
-This patch only prepares the next one, there is no functional change.
-Now, __dev_notify_flags() can also be used to notify flags changes via
-rtnetlink.
-
-Signed-off-by: Nicolas Dichtel <nicolas.dichtel@6wind.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|Nicolas Dichtel|nicolas.dichtel@6wind.com|2013-09-25 12:02:44+02:00|-7200|David S. Miller|davem@davemloft.net|2013-09-30 15:08:12-04:00|14400

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d679b32611c0102ce33b9e1a4e4b94854ed1812a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: remove now unneeded hugepage gfn adjustment
-
-After the previous patch, the low bits of the gfn are masked in
-both FNAME(fetch) and __direct_map, so we do not need to clear them
-in transparent_hugepage_adjust.
-
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|2|Paolo Bonzini|pbonzini@redhat.com|2019-06-23 19:15:49+02:00|-7200|Paolo Bonzini|pbonzini@redhat.com|2019-07-05 13:48:47+02:00|-7200

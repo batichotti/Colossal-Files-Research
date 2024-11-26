@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4b9b0f01350500173f17e2b2e65beb4df4ef99c7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ibmvnic: Free RX socket buffer in case of adapter error
-
-If a RX buffer is returned to the client driver with an error, free the
-corresponding socket buffer before continuing.
-
-Signed-off-by: Thomas Falcon <tlfalcon@linux.vnet.ibm.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Thomas Falcon|tlfalcon@linux.vnet.ibm.com|2018-02-13 18:23:42-06:00|21600|David S. Miller|davem@davemloft.net|2018-02-14 14:39:10-05:00|18000

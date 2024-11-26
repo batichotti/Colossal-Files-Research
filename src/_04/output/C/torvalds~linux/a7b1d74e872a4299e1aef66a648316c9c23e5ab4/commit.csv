@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a7b1d74e872a4299e1aef66a648316c9c23e5ab4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tracing: Change default buffer_percent to 50
-
-After running several tests, it appears that having the reader wait till
-half the buffer is full before starting to read (and causing its own events
-to fill up the ring buffer constantly), works well. It keeps trace-cmd (the
-main user of this interface) from dominating the traces it records.
-
-Signed-off-by: Steven Rostedt (VMware) <rostedt@goodmis.org>"|1|Steven Rostedt (VMware)|rostedt@goodmis.org|2018-11-29 22:36:47-05:00|18000|Steven Rostedt (VMware)|rostedt@goodmis.org|2018-12-08 20:54:08-05:00|18000

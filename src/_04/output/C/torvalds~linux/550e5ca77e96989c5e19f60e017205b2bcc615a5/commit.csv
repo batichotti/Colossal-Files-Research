@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|550e5ca77e96989c5e19f60e017205b2bcc615a5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"RDMA/cma: Export enum cma_state in <rdma/rdma_cm.h>
-
-Move cma.c's internal definition of enum cma_state to enum rdma_cm_state
-in an exported header so that it can be exported via RDMA netlink.
-
-Signed-off-by: Nir Muchtar <nirm@voltaire.com>
-Signed-off-by: Roland Dreier <roland@purestorage.com>"|2|Nir Muchtar|nirm@voltaire.com|2011-05-20 11:46:11-07:00|25200|Roland Dreier|roland@purestorage.com|2011-05-25 13:46:22-07:00|25200

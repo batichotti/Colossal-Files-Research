@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b75ca6f62e57923e9c2870bf8d795c410ebb9534|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Move fp divisor calculation into ironlake_compute_dpll()
-
-Follow what is done in i8xx_compute_dpll() and i9xx_compute_dpll() and
-move the lower level details of setting crtc_state->dpll_hw_state into
-the _compute_dpll() function.
-Reviewed-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Signed-off-by: Ander Conselvan de Oliveira <ander.conselvan.de.oliveira@intel.com>
-Link: http://patchwork.freedesktop.org/patch/msgid/1458576016-30348-11-git-send-email-ander.conselvan.de.oliveira@intel.com"|1|Ander Conselvan de Oliveira|ander.conselvan.de.oliveira@intel.com|2016-03-21 18:00:11+02:00|-7200|Ander Conselvan de Oliveira|ander.conselvan.de.oliveira@intel.com|2016-03-23 14:23:17+02:00|-7200

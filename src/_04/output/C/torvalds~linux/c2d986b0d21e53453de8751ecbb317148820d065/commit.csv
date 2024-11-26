@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c2d986b0d21e53453de8751ecbb317148820d065|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ALSA: hda - Clean-up PCM assignments in patch_realtek.c
-
-Instead of assigning each default hda_pcm_stream pointers, do NULL-checks
-and assign default values in alc_build_pcms().
-
-Signed-off-by: Takashi Iwai <tiwai@suse.de>"|1|Takashi Iwai|tiwai@suse.de|2011-07-06 18:30:08+02:00|-7200|Takashi Iwai|tiwai@suse.de|2011-07-07 09:35:17+02:00|-7200

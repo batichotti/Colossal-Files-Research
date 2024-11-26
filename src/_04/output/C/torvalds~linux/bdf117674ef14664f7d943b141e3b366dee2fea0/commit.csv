@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bdf117674ef14664f7d943b141e3b366dee2fea0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"s390/qdio: make SBAL address array type-safe
-
-There is no need to use void pointers, all drivers are in agreement
-about the underlying data structure of the SBAL arrays.
-
-Signed-off-by: Julian Wiedmann <jwi@linux.ibm.com>
-Reviewed-by: Benjamin Block <bblock@linux.ibm.com>
-Signed-off-by: Martin Schwidefsky <schwidefsky@de.ibm.com>"|4|Julian Wiedmann|jwi@linux.ibm.com|2019-01-28 16:11:13+01:00|-3600|Martin Schwidefsky|schwidefsky@de.ibm.com|2019-02-07 11:57:07+01:00|-3600

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ac4b7236610cef99821f40f44a74030b85d85270|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Move smp.h header file into net/bluetooth/
-
-The smp.h header file is only used internally by the bluetooth.ko
-module and is not a public API. So make it local to the core
-Bluetooth module.
-
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>"|6|Marcel Holtmann|marcel@holtmann.org|2013-10-10 14:54:16-07:00|25200|Johan Hedberg|johan.hedberg@intel.com|2013-10-11 00:10:07+02:00|-7200

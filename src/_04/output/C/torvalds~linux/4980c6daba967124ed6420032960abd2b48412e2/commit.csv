@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4980c6daba967124ed6420032960abd2b48412e2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ocfs2: Copy xattr buckets with a dedicated function.
-
-Now that the places that copy whole buckets are using struct
-ocfs2_xattr_bucket, we can do the copy in a dedicated function.
-
-Signed-off-by: Joel Becker <joel.becker@oracle.com>
-Signed-off-by: Mark Fasheh <mfasheh@suse.com>"|1|Joel Becker|joel.becker@oracle.com|2008-10-24 18:54:43-07:00|25200|Mark Fasheh|mfasheh@suse.com|2009-01-05 08:34:17-08:00|28800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c8bf1b67039556884d0532f7b06acd524c90ed87|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: remove mapping tree structures indirection
-
-fs_info::mapping_tree is the physical<->logical mapping tree and uses
-the same underlying structure as extents, but is embedded to another
-structure. There are no other members and this indirection is useless.
-No functional change.
-
-Signed-off-by: David Sterba <dsterba@suse.com>"|8|David Sterba|dsterba@suse.com|2019-05-17 11:43:17+02:00|-7200|David Sterba|dsterba@suse.com|2019-07-01 13:34:56+02:00|-7200

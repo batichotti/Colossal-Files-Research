@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5565b0b865f672e3d7e31936ad1d40710ab7bfc4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"selinux: remove secondary ops call to bprm_committed_creds
-
-Remove secondary ops call to bprm_committed_creds, which is
-a noop in capabilities.
-
-Acked-by: Serge Hallyn <serue@us.ibm.com>
-Acked-by: Eric Paris <eparis@redhat.com>
-Signed-off-by: James Morris <jmorris@namei.org>"|1|James Morris|jmorris@namei.org|2009-01-29 11:47:49+11:00|-39600|James Morris|jmorris@namei.org|2009-01-30 08:55:03+11:00|-39600

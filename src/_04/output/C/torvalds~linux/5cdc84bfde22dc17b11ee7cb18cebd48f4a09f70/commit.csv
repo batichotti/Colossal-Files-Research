@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5cdc84bfde22dc17b11ee7cb18cebd48f4a09f70|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: drop extent_io_ops::set_range_writeback callback
-
-The data and metadata callback implementation both use the same
-function. We can remove the call indirection and intermediate helper
-completely.
-
-Reviewed-by: Nikolay Borisov <nborisov@suse.com>
-Signed-off-by: David Sterba <dsterba@suse.com>"|5|David Sterba|dsterba@suse.com|2018-07-18 20:32:52+02:00|-7200|David Sterba|dsterba@suse.com|2018-08-06 13:12:56+02:00|-7200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|53b70287ddf487a38b7cbf0a10db28f40714b799|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: fix overrun in nf_tables_set_alloc_name()
-
-The map that is used to allocate anonymous sets is indeed
-BITS_PER_BYTE * PAGE_SIZE long.
-
-Signed-off-by: Patrick McHardy <kaber@trash.net>
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|1|Patrick McHardy|kaber@trash.net|2014-02-05 12:26:22+01:00|-3600|Pablo Neira Ayuso|pablo@netfilter.org|2014-02-05 17:46:07+01:00|-3600

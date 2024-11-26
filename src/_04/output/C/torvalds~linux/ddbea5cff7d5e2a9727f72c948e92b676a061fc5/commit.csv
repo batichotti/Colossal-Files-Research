@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ddbea5cff7d5e2a9727f72c948e92b676a061fc5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Remove redundant check on hci_conn's device class
-
-NULL-checking conn->dev_class is pointless since the variable is
-defined as an array, i.e. it will always be non-NULL.
-
-Signed-off-by: Alfonso Acosta <fons@spotify.com>
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>"|1|Alfonso Acosta|fons@spotify.com|2014-10-07 08:44:12+00:00|0|Marcel Holtmann|marcel@holtmann.org|2014-10-25 07:56:24+02:00|-7200

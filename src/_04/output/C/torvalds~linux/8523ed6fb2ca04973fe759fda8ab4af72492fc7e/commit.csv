@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8523ed6fb2ca04973fe759fda8ab4af72492fc7e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ACPI: thinkpad-acpi: add mutex-based locking to input device event send path
-
-Protect the input device event sending path with a mutex, since hot key
-input events are not atomic and require an cohesive event block to be sent
-together.
-
-Signed-off-by: Henrique de Moraes Holschuh <hmh@hmh.eng.br>
-Signed-off-by: Len Brown <len.brown@intel.com>"|1|Henrique de Moraes Holschuh|hmh@hmh.eng.br|2007-09-23 11:39:01-03:00|10800|Len Brown|len.brown@intel.com|2007-09-23 22:38:14-04:00|14400

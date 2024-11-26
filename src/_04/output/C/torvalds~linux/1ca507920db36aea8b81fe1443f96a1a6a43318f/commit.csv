@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1ca507920db36aea8b81fe1443f96a1a6a43318f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd4: remove some dprintk's
-
-E.g. printk's that just report the return value from an op are
-uninteresting as we already do that in the main proc_compound loop.
-
-Signed-off-by: J. Bruce Fields <bfields@redhat.com>"|1|J. Bruce Fields|bfields@redhat.com|2013-03-14 18:12:03-04:00|14400|J. Bruce Fields|bfields@redhat.com|2013-04-03 11:48:36-04:00|14400

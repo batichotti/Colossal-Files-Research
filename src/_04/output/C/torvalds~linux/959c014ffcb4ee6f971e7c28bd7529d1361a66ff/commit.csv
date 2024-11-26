@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|959c014ffcb4ee6f971e7c28bd7529d1361a66ff|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: arcmsr: Deprecate using arcmsr_pci_unmap_dma()
-
-Stop using arcmsr_pci_unmap_dma() and call scsi_dma_unmap() directly.
-
-Signed-off-by: ching Huang <ching2048@areca.com.tw>
-Link: https://lore.kernel.org/r/17c235f2fff960aefea33b50039e214f42164130.camel@areca.com.tw
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|1|ching Huang|ching2048@areca.com.tw|2023-03-23 01:07:47+08:00|-28800|Martin K. Petersen|martin.petersen@oracle.com|2023-03-24 17:51:55-04:00|14400

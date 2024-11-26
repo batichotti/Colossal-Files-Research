@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0dc8d10f7d848b63c8d32cf6fd31ba7def792ac9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86 emulator: add Src2 decode set
-
-Instruction like shld has three operands, so we need to add a Src2
-decode set. We start with Src2None, Src2CL, and Src2ImmByte, Src2One to
-support shld/shrd and we will expand it later.
-
-Signed-off-by: Guillaume Thouvenin <guillaume.thouvenin@ext.bull.net>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|2|Guillaume Thouvenin|guillaume.thouvenin@ext.bull.net|2008-12-04 14:26:42+01:00|-3600|Avi Kivity|avi@redhat.com|2008-12-31 16:55:42+02:00|-7200

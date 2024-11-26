@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4cf59221c7cb46ce40e17bcfeddb64d759071440|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd: clean up arguments to nfs4_open_delegation
-
-No need to pass in a net pointer since we can derive that.
-
-Signed-off-by: Jeff Layton <jlayton@primarydata.com>
-Reviewed-by: Christoph Hellwig <hch@lst.de>
-Signed-off-by: J. Bruce Fields <bfields@redhat.com>"|1|Jeff Layton|jlayton@primarydata.com|2014-07-25 07:34:24-04:00|14400|J. Bruce Fields|bfields@redhat.com|2014-07-29 14:49:55-04:00|14400

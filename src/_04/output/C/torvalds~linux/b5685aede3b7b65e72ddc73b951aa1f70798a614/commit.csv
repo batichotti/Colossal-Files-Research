@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b5685aede3b7b65e72ddc73b951aa1f70798a614|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ftrace: restore iterator trace in pipe read
-
-The trace iterator is reset in the read. We still need to restore the tracer
-that the trace_pipe was opened with.
-
-Signed-off-by: Steven Rostedt <srostedt@redhat.com>
-Signed-off-by: Ingo Molnar <mingo@elte.hu>
-Signed-off-by: Thomas Gleixner <tglx@linutronix.de>"|1|Steven Rostedt|rostedt@goodmis.org|2008-05-12 21:20:58+02:00|-7200|Thomas Gleixner|tglx@linutronix.de|2008-05-23 21:46:53+02:00|-7200

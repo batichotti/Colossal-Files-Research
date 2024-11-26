@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e6fbb97da5212ceab7149896832d35fa1ab02f34|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"platform/x86: mlx-platform: Fix error handling in mlxplat_init()
-
-Add the missing platform_device_unregister() before return
-from mlxplat_init() in the error handling case.
-
-Fixes: 6b266e91a071 (""platform/x86: mlx-platform: Move regmap initialization before all drivers activation"")
-Signed-off-by: Wei Yongjun <weiyongjun1@huawei.com>
-Signed-off-by: Andy Shevchenko <andriy.shevchenko@linux.intel.com>"|1|Wei Yongjun|weiyongjun1@huawei.com|2019-07-09 01:38:42+00:00|0|Andy Shevchenko|andriy.shevchenko@linux.intel.com|2019-07-12 16:00:38+03:00|-10800

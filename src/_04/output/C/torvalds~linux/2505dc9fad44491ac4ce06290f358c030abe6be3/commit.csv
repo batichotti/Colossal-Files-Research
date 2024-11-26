@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2505dc9fad44491ac4ce06290f358c030abe6be3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: Move vmx_nmi_allowed after vmx_set_nmi_mask
-
-vmx_set_nmi_mask will soon be used by vmx_nmi_allowed. No functional
-changes.
-
-Signed-off-by: Jan Kiszka <jan.kiszka@siemens.com>
-Signed-off-by: Gleb Natapov <gleb@redhat.com>"|1|Jan Kiszka|jan.kiszka@siemens.com|2013-04-14 12:12:47+02:00|-7200|Gleb Natapov|gleb@redhat.com|2013-04-22 11:10:49+03:00|-10800

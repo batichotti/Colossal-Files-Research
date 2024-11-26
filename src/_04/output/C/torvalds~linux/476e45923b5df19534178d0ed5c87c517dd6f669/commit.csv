@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|476e45923b5df19534178d0ed5c87c517dd6f669|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: ufs: ufshcd: Delete unnecessary NULL check
-
-The 'info' pointer points to somewhere in the middle of the 'hba' struct.
-It can't possibly be NULL.  Delete the NULL check.
-
-Link: https://lore.kernel.org/r/YotFotj43TkB8Rid@kili
-Signed-off-by: Dan Carpenter <dan.carpenter@oracle.com>
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|1|Dan Carpenter|dan.carpenter@oracle.com|2022-05-23 11:28:18+03:00|-10800|Martin K. Petersen|martin.petersen@oracle.com|2022-05-23 23:24:10-04:00|14400

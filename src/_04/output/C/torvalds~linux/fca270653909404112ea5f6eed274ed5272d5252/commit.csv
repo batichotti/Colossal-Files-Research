@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fca270653909404112ea5f6eed274ed5272d5252|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rbd: introduce rbd_dev_header_unwatch_sync() and switch to it
-
-Rename rbd_dev_header_watch_sync() to __rbd_dev_header_watch_sync() and
-introduce two helpers: rbd_dev_header_{,un}watch_sync() to make it more
-clear what is going on.
-
-Signed-off-by: Ilya Dryomov <ilya.dryomov@inktank.com>
-Reviewed-by: Josh Durgin <josh.durgin@inktank.com>"|1|Ilya Dryomov|ilya.dryomov@inktank.com|2013-12-16 18:02:40+02:00|-7200|Ilya Dryomov|ilya.dryomov@inktank.com|2013-12-31 20:32:06+02:00|-7200

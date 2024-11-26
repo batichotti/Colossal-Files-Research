@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4a906e49f103c2e544148a209ba1db316510799f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: fix kvm_vm_ioctl_deassign_device
-
-only need to set assigned_dev_id for deassignment, use
-match->flags to judge and deassign it.
-
-Acked-by: Mark McLoughlin <markmc@redhat.com>
-Signed-off-by: Weidong Han <weidong.han@intel.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Weidong Han|weidong.han@intel.com|2009-02-13 17:27:51+08:00|-28800|Avi Kivity|avi@redhat.com|2009-03-24 11:03:12+02:00|-7200

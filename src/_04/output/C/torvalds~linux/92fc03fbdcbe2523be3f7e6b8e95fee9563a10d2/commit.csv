@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|92fc03fbdcbe2523be3f7e6b8e95fee9563a10d2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: SB read failure should return EIO for __bread failure
-
-This will return EIO when __bread() fails to read SB,
-instead of EINVAL.
-
-Signed-off-by: Anand Jain <anand.jain@oracle.com>
-Signed-off-by: David Sterba <dsterba@suse.com>"|2|Anand Jain|anand.jain@oracle.com|2015-08-14 18:32:51+08:00|-28800|David Sterba|dsterba@suse.com|2015-09-29 16:29:59+02:00|-7200

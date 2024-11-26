@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6d81ed1ec22dbe96b85a5eb6422b2ab0556f7cbc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cifs: replace code with free_rsp_buf()
-
-The functionality provided by free_rsp_buf() is duplicated in a number
-of places. Replace these instances with a call to free_rsp_buf().
-
-Signed-off-by: Sachin Prabhu <sprabhu@redhat.com>
-Reviewed-by: Shirish Pargaonkar <spargaonkar@suse.com>
-Signed-off-by: Steve French <smfrench@gmail.com>"|4|Sachin Prabhu|sprabhu@redhat.com|2014-06-16 15:35:24+01:00|-3600|Steve French|smfrench@gmail.com|2014-07-31 23:11:15-05:00|18000

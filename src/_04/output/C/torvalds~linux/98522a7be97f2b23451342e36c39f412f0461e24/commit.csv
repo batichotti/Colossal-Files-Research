@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|98522a7be97f2b23451342e36c39f412f0461e24|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"V4L/DVB (9689): gspca: Memory leak when disconnect while streaming.
-
-As a side effect, the sd routine stop0 is called on disconnect.
-This permits the subdriver to free its resources.
-
-Signed-off-by: Jean-Francois Moine <moinejf@free.fr>
-Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"|10|Jean-Francois Moine|moinejf@free.fr|2008-11-18 06:33:08-03:00|10800|Mauro Carvalho Chehab|mchehab@redhat.com|2008-11-24 12:01:07-02:00|7200

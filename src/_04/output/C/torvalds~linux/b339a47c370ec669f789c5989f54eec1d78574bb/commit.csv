@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b339a47c370ec669f789c5989f54eec1d78574bb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ipv6: initialize ip6_route sysctl vars in ip6_route_net_init()
-
-This makes that ip6_route_net_init() does all of the route init code.
-There used to be a race between ip6_route_net_init() and ip6_net_init()
-and someone relying on the combined result was left out cold.
-
-Signed-off-by: Peter Zijlstra <a.p.zijlstra@chello.nl>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Peter Zijlstra|a.p.zijlstra@chello.nl|2008-10-07 14:15:00-07:00|25200|David S. Miller|davem@davemloft.net|2008-10-07 14:15:00-07:00|25200

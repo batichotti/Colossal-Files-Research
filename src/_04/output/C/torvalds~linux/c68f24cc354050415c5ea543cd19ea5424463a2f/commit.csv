@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c68f24cc354050415c5ea543cd19ea5424463a2f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ipv6: RCU changes in ipv6_get_mtu() and ip6_dst_hoplimit()
-
-Use RCU to avoid atomic ops on idev refcnt in ipv6_get_mtu()
-and ip6_dst_hoplimit()
-
-Signed-off-by: Eric Dumazet <eric.dumazet@gmail.com>
-Acked-by: YOSHIFUJI Hideaki <yoshfuji@linux-ipv6.org>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Eric Dumazet|eric.dumazet@gmail.com|2010-06-14 04:46:20+00:00|0|David S. Miller|davem@davemloft.net|2010-06-14 23:13:07-07:00|25200

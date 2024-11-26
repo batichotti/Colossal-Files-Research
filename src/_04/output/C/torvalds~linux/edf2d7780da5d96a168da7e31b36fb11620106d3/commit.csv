@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|edf2d7780da5d96a168da7e31b36fb11620106d3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"thinkpad_acpi: return -NODEV while operating uninitialized LEDs
-
-Not all 0-15 LEDs are available for all models, sometimes it's even not
-safe. This patch return -NODEV while operating uninitialized LEDs.
-
-Signed-off-by: Adam Lee <adam.lee@canonical.com>
-Acked-by: Henrique de Moraes Holschuh <hmh@hmh.eng.br>
-Signed-off-by: Matthew Garrett <matthew.garrett@nebula.com>"|1|Adam Lee|adam.lee@canonical.com|2013-06-08 16:51:15+08:00|-28800|Matthew Garrett|matthew.garrett@nebula.com|2013-09-05 08:51:13-04:00|14400

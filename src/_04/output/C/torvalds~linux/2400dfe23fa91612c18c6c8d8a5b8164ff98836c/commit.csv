@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2400dfe23fa91612c18c6c8d8a5b8164ff98836c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wifi: mac80211: remove shifted rate support
-
-We really cannot even get into this as we can't have
-a BSS with a 5/10 MHz (scan) width, and therefore all
-the code handling shifted rates cannot happen. Remove
-it all, since it's broken anyway, at least with MLO.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|9|Johannes Berg|johannes.berg@intel.com|2023-08-29 12:17:44+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2023-09-13 11:22:16+02:00|-7200

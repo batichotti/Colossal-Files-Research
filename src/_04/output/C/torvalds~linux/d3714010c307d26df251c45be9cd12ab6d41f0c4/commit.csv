@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d3714010c307d26df251c45be9cd12ab6d41f0c4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: emulator_cmpxchg_emulated should mark_page_dirty
-
-emulator_cmpxchg_emulated writes to guest memory, therefore it should
-update the dirty bitmap accordingly.
-
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>
-Reviewed-by: Xiao Guangrong <xiaoguangrong@linux.vnet.ibm.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Marcelo Tosatti|mtosatti@redhat.com|2014-02-25 22:44:54-03:00|10800|Paolo Bonzini|pbonzini@redhat.com|2014-02-26 10:11:08+01:00|-3600

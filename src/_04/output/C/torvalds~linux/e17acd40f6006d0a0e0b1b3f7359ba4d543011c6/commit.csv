@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e17acd40f6006d0a0e0b1b3f7359ba4d543011c6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Add mgmt_device_found event
-
-This patch adds a device_found event to the Management interface. For
-now the event only maps to BR/EDR inquiry result HCI events, but in the
-future the plan is to also use it for the LE device discovery process.
-
-Signed-off-by: Johan Hedberg <johan.hedberg@nokia.com>
-Signed-off-by: Gustavo F. Padovan <padovan@profusion.mobi>"|4|Johan Hedberg|johan.hedberg@nokia.com|2011-03-30 23:57:16+03:00|-10800|Gustavo F. Padovan|padovan@profusion.mobi|2011-04-04 18:47:06-03:00|10800

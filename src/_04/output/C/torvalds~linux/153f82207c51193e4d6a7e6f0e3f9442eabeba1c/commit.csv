@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|153f82207c51193e4d6a7e6f0e3f9442eabeba1c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ACPI: thinkpad-acpi: resume with radios disabled
-
-Instruct the firmware to not enable the radios when resuming.  This
-is safer, and the rfkill core will take care to manually enable any
-radios that need to be enabled.
-
-Signed-off-by: Henrique de Moraes Holschuh <hmh@hmh.eng.br>
-Signed-off-by: Len Brown <len.brown@intel.com>"|1|Henrique de Moraes Holschuh|hmh@hmh.eng.br|2009-01-11 03:01:01-02:00|7200|Len Brown|len.brown@intel.com|2009-01-15 13:30:29-05:00|18000

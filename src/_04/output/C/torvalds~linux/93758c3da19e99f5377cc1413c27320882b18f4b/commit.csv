@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|93758c3da19e99f5377cc1413c27320882b18f4b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tipc: Fix recursive spinlock invocation in print buffer code
-
-This patch fixes two routines that allow the global print buffer
-spinlock to be taken recursively.
-
-Signed-off-by: Allan Stephens <allan.stephens@windriver.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Allan Stephens|allan.stephens@windriver.com|2008-05-05 01:21:12-07:00|25200|David S. Miller|davem@davemloft.net|2008-05-05 01:21:12-07:00|25200

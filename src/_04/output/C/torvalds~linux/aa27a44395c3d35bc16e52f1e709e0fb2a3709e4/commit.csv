@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|aa27a44395c3d35bc16e52f1e709e0fb2a3709e4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[ALSA] hda-codec - remove duplicate controls in alc268 test mixer
-
-I've just noticed that there are a handful of duplicate controls in the
-ALC268 test model mixer.  This patch (against alsa-driver 1.0.16) removes
-them.
-
-Signed-off-by: Jonathan Woithe <jwoithe@physics.adelaide.edu.au>
-Signed-off-by: Takashi Iwai <tiwai@suse.de>"|1|Jonathan Woithe|jwoithe@physics.adelaide.edu.au|2008-02-08 12:44:17+01:00|-3600|Takashi Iwai|tiwai@suse.de|2008-04-24 12:00:09+02:00|-7200

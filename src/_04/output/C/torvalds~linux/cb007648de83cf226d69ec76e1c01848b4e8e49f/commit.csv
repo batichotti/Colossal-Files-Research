@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cb007648de83cf226d69ec76e1c01848b4e8e49f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: fix cpuid E2BIG handling for extended request types
-
-If we run out of cpuid entries for extended request types
-we should return -E2BIG, just like we do for the standard
-request types.
-
-Signed-off-by: Mark McLoughlin <markmc@redhat.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Mark McLoughlin|markmc@redhat.com|2009-05-12 12:36:44+01:00|-3600|Avi Kivity|avi@redhat.com|2009-09-10 08:32:39+03:00|-10800

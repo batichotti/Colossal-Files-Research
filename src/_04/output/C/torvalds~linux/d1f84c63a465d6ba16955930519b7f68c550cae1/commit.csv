@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d1f84c63a465d6ba16955930519b7f68c550cae1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ipv6: additional ref count for hash list unnecessary
-
-Since an address in hash list has to already have a ref count,
-no additional ref count is needed.
-
-Signed-off-by: Stephen Hemminger <shemminger@vyatta.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|stephen hemminger|shemminger@vyatta.com|2010-04-12 05:41:33+00:00|0|David S. Miller|davem@davemloft.net|2010-04-13 02:29:28-07:00|25200

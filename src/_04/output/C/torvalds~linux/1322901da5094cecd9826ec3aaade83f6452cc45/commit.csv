@@ -1,6 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1322901da5094cecd9826ec3aaade83f6452cc45|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Don't use spin_lock_bh in user context
-
-spin_lock() and spin_unlock() are more apropiated for user context.
-
-Signed-off-by: Gustavo F. Padovan <padovan@profusion.mobi>"|1|Gustavo F. Padovan|padovan@profusion.mobi|2011-04-04 19:06:05-03:00|10800|Gustavo F. Padovan|padovan@profusion.mobi|2011-04-05 12:58:40-03:00|10800

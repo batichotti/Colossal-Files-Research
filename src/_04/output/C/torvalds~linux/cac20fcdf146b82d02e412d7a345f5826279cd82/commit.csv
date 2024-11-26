@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cac20fcdf146b82d02e412d7a345f5826279cd82|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: simplify lookup functions
-
-Replace the nf_tables_ prefix by nft_ and merge code into single lookup
-function whenever possible. In many cases we go over the 80-chars
-boundary function names, this save us ~50 LoC.
-
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|4|Pablo Neira Ayuso|pablo@netfilter.org|2018-03-28 12:06:51+02:00|-7200|Pablo Neira Ayuso|pablo@netfilter.org|2018-04-24 10:29:09+02:00|-7200

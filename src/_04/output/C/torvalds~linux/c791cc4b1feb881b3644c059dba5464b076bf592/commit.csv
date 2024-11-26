@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c791cc4b1feb881b3644c059dba5464b076bf592|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tracing: Only allow trace_array_printk() to be used by instances
-
-To prevent default ""trace_printks()"" from spamming the top level tracing
-ring buffer, only allow trace instances to use trace_array_printk() (which
-can be used without the trace_printk() start up warning).
-
-Signed-off-by: Steven Rostedt (VMware) <rostedt@goodmis.org>"|1|Steven Rostedt (VMware)|rostedt@goodmis.org|2020-06-16 14:53:55-04:00|14400|Steven Rostedt (VMware)|rostedt@goodmis.org|2020-06-29 09:01:02-04:00|14400

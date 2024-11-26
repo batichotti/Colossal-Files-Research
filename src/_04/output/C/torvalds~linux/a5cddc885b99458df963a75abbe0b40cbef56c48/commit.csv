@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a5cddc885b99458df963a75abbe0b40cbef56c48|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd4: better reservation of head space for krb5
-
-RPC_MAX_AUTH_SIZE is scattered around several places.  Better to set it
-once in the auth code, where this kind of estimate should be made.  And
-while we're at it we can leave it zero when we're not using krb5i or
-krb5p.
-
-Signed-off-by: J. Bruce Fields <bfields@redhat.com>"|6|J. Bruce Fields|bfields@redhat.com|2014-05-12 18:10:58-04:00|14400|J. Bruce Fields|bfields@redhat.com|2014-05-30 17:32:17-04:00|14400

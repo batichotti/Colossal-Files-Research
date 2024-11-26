@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bbaf61e2e9e8bf32fcc77497e4eb26122fdac553|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: mpt3sas: fix pr_info message continuation
-
-An optional discovery status should be printed with a pr_cont and needs
-a leading space to make it more readable. The final new line should also
-be a pr_cont and the indentation is out by one, so fix that too.
-
-Signed-off-by: Colin Ian King <colin.king@canonical.com>
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|1|Colin Ian King|colin.king@canonical.com|2017-08-15 14:51:45+01:00|-3600|Martin K. Petersen|martin.petersen@oracle.com|2017-08-24 22:28:59-04:00|14400

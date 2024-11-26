@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|13d83a672e9bbd52ae82c2f611dfd845a957e8b4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: split out PCH refclk update code
-
-We ought to be calling this from our DPMS routines as well as global
-state may change and we need to enable/disable clocks.  So split out the
-code in preparation for further changes.
-
-Signed-off-by: Jesse Barnes <jbarnes@virtuousgeek.org>
-Signed-off-by: Keith Packard <keithp@keithp.com>"|1|Jesse Barnes|jbarnes@virtuousgeek.org|2011-08-03 12:59:20-07:00|25200|Keith Packard|keithp@keithp.com|2011-08-09 10:26:24-07:00|25200

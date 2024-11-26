@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|44183d4231a52a797beb477f962e1d361e31299d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: remove alloc_semp
-
-After taking care of all group init races, all that remains is to
-remove alloc_semp from ext4_allocation_context and ext4_buddy structs.
-
-Signed-off-by: Amir Goldstein <amir73il@users.sf.net>
-Signed-off-by: ""Theodore Ts'o"" <tytso@mit.edu>"|2|Amir Goldstein|amir73il@users.sf.net|2011-05-09 21:52:36-04:00|14400|Theodore Ts'o|tytso@mit.edu|2011-05-09 21:52:36-04:00|14400

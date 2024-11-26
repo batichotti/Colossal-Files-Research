@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d7c03a9f5c2577b29a7699bbaa1c1cbcfb56afd3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: check if bind callback fails and unbind if hook registration fails
-
-Undo the callback binding before unregistering the existing hooks. This
-should also check for error of the bind setup call.
-
-Fixes: c29f74e0df7a (""netfilter: nf_flow_table: hardware offload support"")
-Signed-off-by: wenxu <wenxu@ucloud.cn>
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|1|wenxu|wenxu@ucloud.cn|2019-11-15 19:21:26+08:00|-28800|Pablo Neira Ayuso|pablo@netfilter.org|2019-11-15 23:44:53+01:00|-3600

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a830405ee452ddc4101c3c9334e6fedd42c6b357|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"stmmac: copy unicast mac address to MAC registers
-
-Currently stmmac driver not copying the valid ethernet
-MAC address to MAC registers. This patch takes care
-of updating the MAC register with MAC address.
-
-Signed-off-by: Bhadram Varka <vbhadram@nvidia.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Bhadram Varka|vbhadram@nvidia.com|2017-10-27 08:22:02+05:30|-19800|David S. Miller|davem@davemloft.net|2017-10-28 19:04:29+09:00|-32400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4b5c7ae83704320e2afb0912f4c42eadabc7535b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[PATCH] md: when resizing an array, we need to update resync_max_sectors as well as size
-
-Without this, and attempt to 'grow' an array will claim to have synced the
-extra part without actually having done anything.
-
-Signed-off-by: Neil Brown <neilb@cse.unsw.edu.au>
-Signed-off-by: Andrew Morton <akpm@osdl.org>
-Signed-off-by: Linus Torvalds <torvalds@osdl.org>"|3|NeilBrown|neilb@cse.unsw.edu.au|2005-07-27 11:43:28-07:00|25200|Linus Torvalds|torvalds@g5.osdl.org|2005-07-27 16:25:48-07:00|25200

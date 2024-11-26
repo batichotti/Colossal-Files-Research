@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c99dfd20f295b2b8c46da5185c0889493ba1f291|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: hpsa: Fix configured_logical_drive_count·check
-
-Check whether configured_logical_drive_count is less than 255. Previous
-check was always evaluating to true as this variable is defined as u8.
-
-Signed-off-by: Christos Gkekas <chris.gekas@gmail.com>
-Acked-by: Don Brace <don.brace@microsemi.com
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|1|Christos Gkekas|chris.gekas@gmail.com|2017-10-16 20:28:02+01:00|-3600|Martin K. Petersen|martin.petersen@oracle.com|2017-10-16 23:14:31-04:00|14400

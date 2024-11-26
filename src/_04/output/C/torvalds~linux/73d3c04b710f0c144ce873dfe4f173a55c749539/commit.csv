@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|73d3c04b710f0c144ce873dfe4f173a55c749539|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: annotate data-races around element expiration
-
-element expiration can be read-write locklessly, it can be written by
-dynset and read from netlink dump, add annotation.
-
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|3|Pablo Neira Ayuso|pablo@netfilter.org|2024-09-03 01:08:58+02:00|-7200|Pablo Neira Ayuso|pablo@netfilter.org|2024-09-03 18:18:41+02:00|-7200

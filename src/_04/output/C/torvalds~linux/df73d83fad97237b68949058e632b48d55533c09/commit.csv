@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|df73d83fad97237b68949058e632b48d55533c09|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ALSA: hda/realtek - Use common GPIO mask for ALC660VD ASUS fixup
-
-The ALC660VD_FIX_ASUS_GPIO1 quirk requires to set up GPIO bit0 ON
-while bit 1 OFF.  Implement the fixup function and convert from the
-static init verbs.
-
-Signed-off-by: Takashi Iwai <tiwai@suse.de>"|1|Takashi Iwai|tiwai@suse.de|2018-06-19 23:05:47+02:00|-7200|Takashi Iwai|tiwai@suse.de|2018-06-25 10:04:24+02:00|-7200

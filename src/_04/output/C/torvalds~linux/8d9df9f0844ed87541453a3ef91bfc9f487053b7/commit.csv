@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8d9df9f0844ed87541453a3ef91bfc9f487053b7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"workqueue: free rescuer on destroy_workqueue
-
-wq->rescuer is not freed when wq is destroyed, leads a memory leak
-then. This patch also remove a redundant line.
-
-Signed-off-by: Xiaotian Feng <dfeng@redhat.com>
-Signed-off-by: Tejun Heo <tj@kernel.org>
-Cc: Oleg Nesterov <oleg@redhat.com>"|1|Xiaotian Feng|dfeng@redhat.com|2010-08-16 09:54:28+02:00|-7200|Tejun Heo|tj@kernel.org|2010-08-16 09:55:01+02:00|-7200

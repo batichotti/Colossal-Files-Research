@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4097d6017576a5e138f442f5e3c393ad00d10f58|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"slub: Reduce #ifdef ZONE_DMA by moving kmalloc_caches_dma near dma logic
-
-Move the definition of kmalloc_caches_dma() into a later #ifdef CONFIG_ZONE_DMA.
-This saves one #ifdef and leaves us with a total of two #ifdefs for dma slab support.
-
-Signed-off-by: Christoph Lameter <clameter@sgi.com>
-Signed-off-by: Pekka Enberg <penberg@cs.helsinki.fi>"|1|Christoph Lameter|clameter@sgi.com|2008-04-14 18:51:18+03:00|-10800|Pekka Enberg|penberg@cs.helsinki.fi|2008-04-14 18:51:18+03:00|-10800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|43b6573bac95d7cc8a7fb51efe8468c994f5cf56|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: use cryptoapi crc32 functions
-
-The crc function is done bit by bit.
-Optimize this by use cryptoapi
-crc32 function which is backed by h/w acceleration.
-
-Signed-off-by: Keith Mok <ek9852@gmail.com>
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|4|Keith Mok|ek9852@gmail.com|2016-03-02 12:04:24-08:00|28800|Jaegeuk Kim|jaegeuk@kernel.org|2016-03-17 21:19:43-07:00|25200

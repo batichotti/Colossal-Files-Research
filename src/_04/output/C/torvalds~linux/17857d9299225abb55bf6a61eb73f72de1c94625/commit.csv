@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|17857d9299225abb55bf6a61eb73f72de1c94625|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_flow_table: fix priv pointer for netdev hook
-
-The offload ip hook expects a pointer to the flowtable, not to the
-rhashtable. Since the rhashtable is the first member, this is safe for
-the moment, but breaks as soon as the structure layout changes
-
-Signed-off-by: Felix Fietkau <nbd@nbd.name>
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|1|Felix Fietkau|nbd@nbd.name|2018-02-26 10:15:18+01:00|-3600|Pablo Neira Ayuso|pablo@netfilter.org|2018-04-24 10:28:47+02:00|-7200

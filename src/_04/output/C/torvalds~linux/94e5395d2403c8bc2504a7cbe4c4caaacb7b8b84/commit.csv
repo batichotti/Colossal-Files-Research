@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|94e5395d2403c8bc2504a7cbe4c4caaacb7b8b84|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: mptsas: Disable WRITE SAME
-
-First generation MPT Fusion controllers can not translate WRITE SAME
-when the attached device is a SATA drive. Disable WRITE SAME support.
-
-Reported-by: Nikola Ciprich <nikola.ciprich@linuxbox.cz>
-Cc: <stable@vger.kernel.org>
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|1|Martin K. Petersen|martin.petersen@oracle.com|2018-04-18 22:54:59-04:00|14400|Martin K. Petersen|martin.petersen@oracle.com|2018-04-18 23:37:25-04:00|14400

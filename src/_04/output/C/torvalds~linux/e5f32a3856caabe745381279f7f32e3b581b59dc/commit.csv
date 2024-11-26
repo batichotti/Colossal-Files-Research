@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e5f32a3856caabe745381279f7f32e3b581b59dc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sched: speed up context-switches a bit
-
-speed up context-switches a bit by not clearing p->exec_start.
-
-(as a side-effect, this also makes p->exec_start a universal timestamp
-available to cache-hot estimations.)
-
-Signed-off-by: Ingo Molnar <mingo@elte.hu>"|1|Ingo Molnar|mingo@elte.hu|2007-10-15 17:00:18+02:00|-7200|Ingo Molnar|mingo@elte.hu|2007-10-15 17:00:18+02:00|-7200

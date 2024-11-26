@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8321cf2596d283821acc466377c2b85bcd3422b7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"fs: btrfs: volumes.c: Fix for possible null pointer dereference
-
-There is otherwise a risk of a possible null pointer dereference.
-
-Was largely found by using a static code analysis program called cppcheck.
-
-Signed-off-by: Rickard Strandqvist <rickard_strandqvist@spectrumdigital.se>
-Signed-off-by: Chris Mason <clm@fb.com>"|1|Rickard Strandqvist|rickard_strandqvist@spectrumdigital.se|2014-05-22 22:43:43+02:00|-7200|Chris Mason|clm@fb.com|2014-06-09 17:21:01-07:00|25200

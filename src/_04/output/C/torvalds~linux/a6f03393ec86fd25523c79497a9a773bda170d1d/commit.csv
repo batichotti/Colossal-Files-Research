@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a6f03393ec86fd25523c79497a9a773bda170d1d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: Get rid of the bogus RPC_ASSASSINATED(task) checks
-
-There is no real reason to have RPC_ASSASSINATED() checks in the NFS code.
-As far as it is concerned, this is just an RPC error...
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|1|Trond Myklebust|Trond.Myklebust@netapp.com|2010-07-31 14:29:07-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2010-08-03 22:06:43-04:00|14400

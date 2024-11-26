@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d0942473e3ca4629a40bbf0c9fd74fc0c7ff2a79|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8152: split DRIVER_VERSION
-
-Split DRIVER_VERSION into NETNEXT_VERSION and NET_VERSION. Then,
-according to the value of DRIVER_VERSION, we could know which
-patches are used generally without comparing the source code.
-
-Signed-off-by: Hayes Wang <hayeswang@realtek.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|hayeswang|hayeswang@realtek.com|2015-09-07 11:57:43+08:00|-28800|David S. Miller|davem@davemloft.net|2015-09-09 20:27:54-07:00|25200

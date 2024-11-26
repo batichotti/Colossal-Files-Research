@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|000d5335c6e7f5dbcd849b62b4be7ae005aa6974|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sisfb: fix pseudo_palette array size and overrun
-
-- the pseudo_palette is only 16 elements long.
-- do not write to the pseudo_palette if regno (array index) is more than 15.
-
-Signed-off-by: Antonino Daplas <adaplas@gmail.com>
-Signed-off-by: Andrew Morton <akpm@linux-foundation.org>
-Signed-off-by: Linus Torvalds <torvalds@linux-foundation.org>"|2|Antonino A. Daplas|adaplas@gmail.com|2007-07-17 04:05:44-07:00|25200|Linus Torvalds|torvalds@woody.linux-foundation.org|2007-07-17 10:23:13-07:00|25200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f0f98b19e23d4426ca185e3d4ca80e6aff5ef51b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"regulator: fix voltage check in regulator_is_supported_voltage()
-
-regulator_is_supported_voltage() should return true only if the voltage
-of fixed/constant regulator is between min_uV and max_uV.
-
-Signed-off-by: Marek Szyprowski <m.szyprowski@samsung.com>
-Signed-off-by: Mark Brown <broonie@opensource.wolfsonmicro.com>
-Cc: stable@vger.kernel.org"|1|Marek Szyprowski|m.szyprowski@samsung.com|2012-11-13 09:48:51+01:00|-3600|Mark Brown|broonie@opensource.wolfsonmicro.com|2012-11-15 11:14:18+09:00|-32400

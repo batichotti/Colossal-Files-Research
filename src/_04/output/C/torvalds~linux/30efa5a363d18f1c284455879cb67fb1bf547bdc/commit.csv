@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|30efa5a363d18f1c284455879cb67fb1bf547bdc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ixgbe: fix initial interrupt throttle settings
-
-ixgbe was incorrectly setting the throttle rate setting for all tx
-queues and the driver has been refreshed to better handle a dynamic
-interrupt mode as well as multiple queues.
-
-Signed-off-by: Jesse Brandeburg <jesse.brandeburg@intel.com>
-Signed-off-by: Jeff Garzik <jgarzik@redhat.com>"|3|Jesse Brandeburg|jesse.brandeburg@intel.com|2008-09-11 19:58:14-07:00|25200|Jeff Garzik|jgarzik@redhat.com|2008-09-24 18:54:54-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f8702f9e4aa7b45131af3df5531d6e3835269141|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"regulator: core: Use ww_mutex for regulators locking
-
-Wait/wound mutex shall be used in order to avoid lockups on locking of
-coupled regulators.
-
-Signed-off-by: Dmitry Osipenko <digetx@gmail.com>
-Suggested-by: Lucas Stach <l.stach@pengutronix.de>
-Signed-off-by: Mark Brown <broonie@kernel.org>"|5|Dmitry Osipenko|digetx@gmail.com|2018-11-19 00:56:17+03:00|-10800|Mark Brown|broonie@kernel.org|2018-11-19 12:33:17+00:00|0

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|962b582785b60a2b420b0636ad762959c72406f6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cxgb4: Simplify PCIe Completion Timeout setting
-
-Simplify PCIe Completion Timeout setting by using the
-pcie_capability_clear_and_set_word() interface.  No functional change
-intended.
-
-Signed-off-by: Bjorn Helgaas <bhelgaas@google.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Bjorn Helgaas|bhelgaas@google.com|2017-12-15 17:01:50-06:00|21600|David S. Miller|davem@davemloft.net|2017-12-18 15:12:57-05:00|18000

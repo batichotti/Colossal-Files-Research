@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c898f6d7b093bd71e66569cd6797c87d4056f44b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: hci_sync: Introduce hci_cmd_sync_run/hci_cmd_sync_run_once
-
-This introduces hci_cmd_sync_run/hci_cmd_sync_run_once which acts like
-hci_cmd_sync_queue/hci_cmd_sync_queue_once but runs immediately when
-already on hdev->cmd_sync_work context.
-
-Signed-off-by: Luiz Augusto von Dentz <luiz.von.dentz@intel.com>"|2|Luiz Augusto von Dentz|luiz.von.dentz@intel.com|2024-08-26 15:47:30-04:00|14400|Luiz Augusto von Dentz|luiz.von.dentz@intel.com|2024-08-30 17:56:34-04:00|14400

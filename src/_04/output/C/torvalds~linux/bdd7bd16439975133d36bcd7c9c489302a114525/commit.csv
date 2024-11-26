@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bdd7bd16439975133d36bcd7c9c489302a114525|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211_hwsim: Incorporate txpower into rssi
-
-Up to now mac80211_hwsim has been reporting an rssi of -50. This patch
-improves the model slightly by returning txpower-50. This makes it
-easy to stimulate tests that need to see a varying rssi.
-
-Signed-off-by: Blaise Gassend <blaise@willowgarage.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|1|Blaise Gassend|blaise@willowgarage.com|2010-10-28 02:01:24-07:00|25200|John W. Linville|linville@tuxdriver.com|2010-11-15 13:25:28-05:00|18000

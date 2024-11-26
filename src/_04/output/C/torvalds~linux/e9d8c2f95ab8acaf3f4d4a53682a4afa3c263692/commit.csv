@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e9d8c2f95ab8acaf3f4d4a53682a4afa3c263692|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ksmbd: add continuous availability share parameter
-
-If capabilities of the share is not SMB2_SHARE_CAP_CONTINUOUS_AVAILABILITY,
-ksmbd should not grant a persistent handle to the client.
-This patch add continuous availability share parameter to control it.
-
-Signed-off-by: Namjae Jeon <linkinjeon@kernel.org>
-Signed-off-by: Steve French <stfrench@microsoft.com>"|2|Namjae Jeon|linkinjeon@kernel.org|2024-04-20 09:17:58+09:00|-32400|Steve French|stfrench@microsoft.com|2024-04-19 20:48:47-05:00|18000

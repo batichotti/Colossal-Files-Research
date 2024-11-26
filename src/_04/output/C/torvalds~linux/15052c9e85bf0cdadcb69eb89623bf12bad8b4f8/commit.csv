@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|15052c9e85bf0cdadcb69eb89623bf12bad8b4f8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] mpt2sas: Introduced check for enclosure_handle to avoid crash
-
-Kernel panic is seen because of enclosure_handle received from FW is zero.
-Check is introduced before calling mpt2sas_config_get_enclosure_pg0.
-
-Signed-off-by: Kashyap Desai <kashyap.desai@lsi.com>
-Signed-off-by: James Bottomley <James.Bottomley@suse.de>"|1|Kashyap, Desai|kashyap.desai@lsi.com|2009-08-07 19:33:17+05:30|-19800|James Bottomley|James.Bottomley@suse.de|2009-08-13 16:25:31-05:00|18000

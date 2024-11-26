@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|13e0c8e355983cdd4ea7accc3b3208e80944716d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: rename sta to new_sta
-
-In ieee80211_prep_connection(), the station (if not NULL)
-is the new station (representing the AP) that needs to be
-added. Rename the variable to ""new_sta"" to clarify this.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2012-07-27 10:43:16+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2012-07-31 16:18:48+02:00|-7200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|40ed29b373381532ef222e509c5aa69a1d8561ea|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ring-buffer: Fix ring buffer size in rb_write_something()
-
-'cnt' should be used to calculate ring buffer size rather than data->cnt
-
-Link: http://lkml.kernel.org/r/1537704693-184237-1-git-send-email-yuehaibing@huawei.com
-
-Signed-off-by: YueHaibing <yuehaibing@huawei.com>
-Signed-off-by: Steven Rostedt (VMware) <rostedt@goodmis.org>"|1|YueHaibing|yuehaibing@huawei.com|2018-09-23 12:11:33+00:00|0|Steven Rostedt (VMware)|rostedt@goodmis.org|2019-04-02 18:24:06-04:00|14400

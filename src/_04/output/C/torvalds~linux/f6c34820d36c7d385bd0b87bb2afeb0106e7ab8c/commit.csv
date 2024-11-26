@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f6c34820d36c7d385bd0b87bb2afeb0106e7ab8c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"iwlwifi: mvm: disable PS during channel switch
-
-Disable PS when pre_channel_switch is called and add the
-post_channel_switch operation to re-enable PS when the channel switch
-is completed.
-
-Signed-off-by: Luciano Coelho <luciano.coelho@intel.com>"|1|Luciano Coelho|luciano.coelho@intel.com|2014-11-10 11:10:12+02:00|-7200|Emmanuel Grumbach|emmanuel.grumbach@intel.com|2014-11-24 08:30:29+02:00|-7200

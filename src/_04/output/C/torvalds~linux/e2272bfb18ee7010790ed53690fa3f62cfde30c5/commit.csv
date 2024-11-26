@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e2272bfb18ee7010790ed53690fa3f62cfde30c5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/dp: switch drm_dp_downstream_*() helpers to struct drm_edid
-
-Prefer struct drm_edid where possible. With limited users for the
-drm_dp_downstream_*() helpers, this is fairly straightforward.
-
-Signed-off-by: Jani Nikula <jani.nikula@intel.com>
-Reviewed-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Link: https://patchwork.freedesktop.org/patch/msgid/20231004162149.2802113-1-jani.nikula@intel.com"|4|Jani Nikula|jani.nikula@intel.com|2023-10-04 19:21:49+03:00|-10800|Jani Nikula|jani.nikula@intel.com|2023-10-05 16:19:09+03:00|-10800

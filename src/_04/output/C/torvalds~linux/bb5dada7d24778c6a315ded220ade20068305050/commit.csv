@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bb5dada7d24778c6a315ded220ade20068305050|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: remove dirty inode pages in error path
-
-When getting EIO while handling orphan inodes, we can get some dirty node
-pages. Then, f2fs_write_node_pages() called by iput(node_inode) will try
-to flush node pages. But in this case, we should prevent to do that, since
-we will try again from the start.
-
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|1|Jaegeuk Kim|jaegeuk@kernel.org|2016-09-23 11:29:00-07:00|25200|Jaegeuk Kim|jaegeuk@kernel.org|2016-09-30 17:34:29-07:00|25200

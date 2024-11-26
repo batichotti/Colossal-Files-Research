@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d81c2d9c909e95ee8a5745da95bbb35f8ded3d17|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cfg80211: do not pass -EALREADY to userspace on regdomain change request
-
-If the regulatory domain is already set it is technically not an error
-so do not pass an errno to userspace.
-
-Signed-off-by: Luis R. Rodriguez <lrodriguez@atheros.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|1|Luis R. Rodriguez|lrodriguez@atheros.com|2009-01-26 09:00:51-08:00|28800|John W. Linville|linville@tuxdriver.com|2009-01-29 16:01:50-05:00|18000

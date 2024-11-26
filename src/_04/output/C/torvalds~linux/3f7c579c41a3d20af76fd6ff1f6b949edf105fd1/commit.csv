@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3f7c579c41a3d20af76fd6ff1f6b949edf105fd1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: move O_DIRECT space reservation to btrfs_direct_IO
-
-This moves the delalloc space reservation done for O_DIRECT
-into btrfs_direct_IO.  This way we don't leak reserved space
-if the generic O_DIRECT write code errors out before it
-calls into btrfs_direct_IO.
-
-Signed-off-by: Chris Mason <chris.mason@oracle.com>"|2|Chris Mason|chris.mason@oracle.com|2010-05-26 10:59:53-04:00|14400|Chris Mason|chris.mason@oracle.com|2010-05-26 10:59:53-04:00|14400

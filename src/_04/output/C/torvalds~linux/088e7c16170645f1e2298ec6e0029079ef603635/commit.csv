@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|088e7c16170645f1e2298ec6e0029079ef603635|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/amdgpu: Disable irq on device before destroying it
-
-Disable irq on devices before destroying them. That prevents
-use-after-free memory access when unloading the driver.
-
-Signed-off-by: Mikita Lipski <mikita.lipski@amd.com>
-Reviewed-by: Alex Deucher <alexander.deucher@amd.com>
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|1|Mikita Lipski|mikita.lipski@amd.com|2018-03-15 09:37:08-04:00|14400|Alex Deucher|alexander.deucher@amd.com|2018-03-20 23:44:03-05:00|18000

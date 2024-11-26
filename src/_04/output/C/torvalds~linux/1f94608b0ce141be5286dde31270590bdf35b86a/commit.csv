@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1f94608b0ce141be5286dde31270590bdf35b86a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ibmvnic: Do not close unopened driver during reset
-
-Check driver state before halting it during a reset. If the driver is
-not running, do nothing. Otherwise, a request to deactivate a down link
-can cause an error and the reset will fail.
-
-Signed-off-by: Thomas Falcon <tlfalcon@linux.ibm.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Thomas Falcon|tlfalcon@linux.ibm.com|2019-06-07 16:03:53-05:00|18000|David S. Miller|davem@davemloft.net|2019-06-09 19:51:28-07:00|25200

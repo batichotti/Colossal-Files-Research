@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d80d499ed926e70b429d309360f5910d5ad54788|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"OMAP: DSS2: DSI: fix IRQ debug prints
-
-print_irq_status functions can be called with empty irq status when full
-irq debugging is enabled. This patch makes print_irq_status functions
-return immediately when given an empty irq status to lessen the debug
-spam slightly.
-
-Signed-off-by: Tomi Valkeinen <tomi.valkeinen@ti.com>"|1|Tomi Valkeinen|tomi.valkeinen@ti.com|2011-03-02 15:53:07+02:00|-7200|Tomi Valkeinen|tomi.valkeinen@ti.com|2011-03-15 14:24:19+05:30|-19800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|55cee73e2af555fa3dcff467683c7488af47449e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Make use of skb_pull to parse L2CAP signaling PDUs
-
-This uses skb_pull when parsing signalling PDUs so skb->data for
-pointing to the current PDU and skb->len as the remaining bytes to be
-processed.
-
-Signed-off-by: Luiz Augusto von Dentz <luiz.von.dentz@intel.com>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|1|Luiz Augusto von Dentz|luiz.von.dentz@intel.com|2020-03-06 14:51:27-08:00|28800|Marcel Holtmann|marcel@holtmann.org|2020-03-08 08:44:22+01:00|-3600

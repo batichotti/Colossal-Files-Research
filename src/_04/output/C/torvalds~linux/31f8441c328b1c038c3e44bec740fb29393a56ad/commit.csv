@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|31f8441c328b1c038c3e44bec740fb29393a56ad|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: atomic allocation in set notifications from rcu callback
-
-Use GFP_ATOMIC allocations when sending removal notifications of
-anonymous sets from rcu callback context. Sleeping in that context
-is illegal.
-
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|1|Pablo Neira Ayuso|pablo@netfilter.org|2014-05-29 10:29:58+02:00|-7200|Pablo Neira Ayuso|pablo@netfilter.org|2014-06-02 10:54:38+02:00|-7200

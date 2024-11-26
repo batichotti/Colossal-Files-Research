@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5b777ad517ee75d3bb8d67c142d808822e46601b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"xfs: remove xfs_bmapi_single()
-
-Now we have xfs_bmapi_read, there is no need for xfs_bmapi_single().
-Change the remaining caller over and kill the function.
-
-Signed-off-by: Dave Chinner <dchinner@redhat.com>
-Signed-off-by: Christoph Hellwig <hch@lst.de>
-Signed-off-by: Alex Elder <aelder@sgi.com>"|4|Dave Chinner|dchinner@redhat.com|2011-09-18 20:40:46+00:00|0|Alex Elder|aelder@sgi.com|2011-10-11 21:15:03-05:00|18000

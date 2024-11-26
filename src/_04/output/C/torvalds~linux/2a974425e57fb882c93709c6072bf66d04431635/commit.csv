@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2a974425e57fb882c93709c6072bf66d04431635|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: Ignore LAYOUTRETURN result if the layout doesn't match or is invalid
-
-Fix a potential race with CB_LAYOUTRECALL in which the server recalls the
-remaining layout segments while our LAYOUTRETURN is still in transit.
-
-Signed-off-by: Trond Myklebust <trond.myklebust@primarydata.com>"|3|Trond Myklebust|trond.myklebust@primarydata.com|2016-11-20 13:13:54-05:00|18000|Trond Myklebust|trond.myklebust@primarydata.com|2016-12-01 17:21:43-05:00|18000

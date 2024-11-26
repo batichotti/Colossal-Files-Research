@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d2bb24e506596ad0c10e4a7f4b2fca88cc75c0bc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rbd: use sizeof (object) instead of sizeof (type)
-
-Fix a few spots in rbd_header_from_disk() to use sizeof (object)
-rather than sizeof (type).  Use a local variable to record sizes
-to shorten some lines and improve readability.
-
-Signed-off-by: Alex Elder <elder@inktank.com>
-Reviewed-by: Josh Durgin <josh.durgin@inktank.com>"|1|Alex Elder|elder@inktank.com|2012-07-26 23:37:14-05:00|18000|Alex Elder|elder@inktank.com|2012-10-01 14:30:48-05:00|18000

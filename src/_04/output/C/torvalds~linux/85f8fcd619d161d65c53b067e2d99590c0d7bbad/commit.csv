@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|85f8fcd619d161d65c53b067e2d99590c0d7bbad|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm: Make some modes const when iterating through them
-
-valid_inferred_mode() don't change the modes over which it iterates,
-so make the iterator const.
-
-Signed-off-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Reviewed-by: Alex Deucher <alexander.deucher@amd.com>
-Signed-off-by: Daniel Vetter <daniel.vetter@ffwll.ch>"|1|Ville Syrjälä|ville.syrjala@linux.intel.com|2015-09-07 18:22:56+03:00|-10800|Daniel Vetter|daniel.vetter@ffwll.ch|2015-09-09 14:53:39+02:00|-7200

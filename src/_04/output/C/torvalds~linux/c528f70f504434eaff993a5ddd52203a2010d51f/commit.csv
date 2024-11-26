@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c528f70f504434eaff993a5ddd52203a2010d51f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4.2: Fix initialisation of struct nfs4_label
-
-The call to nfs4_label_init_security() should return a fully initialised
-label.
-
-Fixes: aa9c2669626c (""NFS: Client implementation of Labeled-NFS"")
-Signed-off-by: Trond Myklebust <trond.myklebust@hammerspace.com>"|1|Trond Myklebust|trond.myklebust@hammerspace.com|2022-10-19 13:12:11-04:00|14400|Trond Myklebust|trond.myklebust@hammerspace.com|2022-11-27 22:09:59-05:00|18000

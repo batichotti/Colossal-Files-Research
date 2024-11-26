@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|57d39c7697ed52e51805dc97135c9b49469ce2ff|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"phy: cadence: torrent: Constify regmap_config structs
-
-The regmap_config structs are never modified and can be made const to
-allow the compiler to put them in read-only memory.
-
-Signed-off-by: Rikard Falkeborn <rikard.falkeborn@gmail.com>
-Link: https://lore.kernel.org/r/20200912204639.501669-4-rikard.falkeborn@gmail.com
-Signed-off-by: Vinod Koul <vkoul@kernel.org>"|1|Rikard Falkeborn|rikard.falkeborn@gmail.com|2020-09-12 22:46:39+02:00|-7200|Vinod Koul|vkoul@kernel.org|2020-09-16 17:43:31+05:30|-19800

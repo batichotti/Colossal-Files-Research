@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ca780da5fdd389d391eff5ac954ee8b91953125d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"smb3: add additional null check in SMB311_posix_mkdir
-
-Although unlikely for it to be possible for rsp to be null here,
-the check is safer to add, and quiets a Coverity warning.
-
-Addresses-Coverity: 1437501 (""Explicit Null dereference"")
-Reviewed-by: Paulo Alcantara (SUSE) <pc@cjr.nz>
-Signed-off-by: Steve French <stfrench@microsoft.com>"|1|Steve French|stfrench@microsoft.com|2021-11-11 15:35:34-06:00|21600|Steve French|stfrench@microsoft.com|2021-11-12 12:59:54-06:00|21600

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|468808bd35c4aa3cf7d9fde0ebb010270038734b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: PPC: Book3S HV: Set process table for HPT guests on POWER9
-
-This adds the implementation of the KVM_PPC_CONFIGURE_V3_MMU ioctl
-for HPT guests on POWER9.  With this, we can return 1 for the
-KVM_CAP_PPC_MMU_HASH_V3 capability.
-
-Signed-off-by: Paul Mackerras <paulus@ozlabs.org>
-Signed-off-by: Michael Ellerman <mpe@ellerman.id.au>"|3|Paul Mackerras|paulus@ozlabs.org|2017-01-30 21:21:42+11:00|-39600|Michael Ellerman|mpe@ellerman.id.au|2017-01-31 19:11:47+11:00|-39600

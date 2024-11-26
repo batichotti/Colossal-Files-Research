@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|601555cd75ddfc2b95ebbb5eb1224c6a995e8203|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nl80211: don't crash sending invalid chandef
-
-One of the cases for an invalid channel definition is that
-the channel pointer is NULL, in which case the warning is
-a bit late since we'll dereference the pointer. Bail out
-of the function upon warning about this.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2014-11-27 17:26:56+01:00|-3600|Johannes Berg|johannes.berg@intel.com|2014-11-27 17:27:52+01:00|-3600

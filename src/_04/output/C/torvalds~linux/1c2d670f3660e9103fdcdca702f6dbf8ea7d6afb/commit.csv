@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1c2d670f3660e9103fdcdca702f6dbf8ea7d6afb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[RTNETLINK]: Hold rtnl_mutex during netlink dump callbacks
-
-Hold rtnl_mutex during the entire netlink dump operation. This allows
-to simplify locking in the dump callbacks, since they can now rely on
-that no concurrent changes happen.
-
-Signed-off-by: Patrick McHardy <kaber@trash.net>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Patrick McHardy|kaber@trash.net|2007-04-16 16:59:10-07:00|25200|David S. Miller|davem@sunset.davemloft.net|2007-04-25 22:29:04-07:00|25200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a461f5adf17756e99ee0903d1a40961b0342ebb3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bpf: generalize dynptr_get_spi to be usable for iters
-
-Generalize the logic of fetching special stack slot object state using
-spi (stack slot index). This will be used by STACK_ITER logic next.
-
-Signed-off-by: Andrii Nakryiko <andrii@kernel.org>
-Link: https://lore.kernel.org/r/20230302235015.2044271-12-andrii@kernel.org
-Signed-off-by: Alexei Starovoitov <ast@kernel.org>"|1|Andrii Nakryiko|andrii@kernel.org|2023-03-02 15:50:09-08:00|28800|Alexei Starovoitov|ast@kernel.org|2023-03-04 11:14:32-08:00|28800

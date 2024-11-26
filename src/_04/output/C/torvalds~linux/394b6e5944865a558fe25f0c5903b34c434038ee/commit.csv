@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|394b6e5944865a558fe25f0c5903b34c434038ee|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86 emulator: fix faulty check for two-byte opcode
-
-Right now, the bug is harmless as we never emulate one-byte 0xb6 or 0xb7.
-But things may change.
-
-Noted by the mysterious Gabriel C.
-
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|1|Avi Kivity|avi@qumranet.com|2007-07-22 15:51:58+03:00|-10800|Avi Kivity|avi@qumranet.com|2007-10-13 10:18:19+02:00|-7200

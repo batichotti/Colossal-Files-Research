@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2cdcecbc153c222fae1be6f8ddb320b29e3a5200|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: Don't BUG_ON insert errors in btrfs_alloc_dev_extent()
-
-The only caller of btrfs_alloc_dev_extent() is __btrfs_alloc_chunk() which
-already bugs on any error returned. We can remove the BUG_ON's in
-btrfs_alloc_dev_extent() then since __btrfs_alloc_chunk() will ""catch"" them
-anyway.
-
-Signed-off-by: Mark Fasheh <mfasheh@suse.de>"|1|Mark Fasheh|mfasheh@suse.de|2011-09-08 17:14:32-07:00|25200|David Sterba|dsterba@suse.cz|2012-03-22 01:45:38+01:00|-3600

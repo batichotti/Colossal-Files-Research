@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|da22013f7df4e1f49b03d763aae7b12b1cd805d7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"atomisp: remove indirection from sh_css_malloc
-
-We have one hard coded set of behaviour so unpick the indirection and function
-pointers. This isn't the whole story. A lot of the callers are known sizes and
-use cases so we can switch them directly to kmalloc later on.
-
-Signed-off-by: Alan Cox <alan@linux.intel.com>
-Signed-off-by: Greg Kroah-Hartman <gregkh@linuxfoundation.org>"|3|Alan Cox|alan@linux.intel.com|2017-04-12 19:21:33+01:00|-3600|Greg Kroah-Hartman|gregkh@linuxfoundation.org|2017-04-14 10:07:27+02:00|-7200

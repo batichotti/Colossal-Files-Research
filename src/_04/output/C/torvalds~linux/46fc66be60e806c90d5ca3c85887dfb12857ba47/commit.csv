@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|46fc66be60e806c90d5ca3c85887dfb12857ba47|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Make ilk+ pfit regiser unlocked
-
-The ilk+ panel fitter register are sitting nicely on their own
-cacheline, so no need for global serialization via uncore.lock.
-
-Signed-off-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Link: https://patchwork.freedesktop.org/patch/msgid/20220224165103.15682-3-ville.syrjala@linux.intel.com
-Reviewed-by: Stanislav Lisovskiy <stanislav.lisovskiy@intel.com>"|1|Ville Syrjälä|ville.syrjala@linux.intel.com|2022-02-24 18:51:01+02:00|-7200|Ville Syrjälä|ville.syrjala@linux.intel.com|2022-03-29 16:35:33+03:00|-10800

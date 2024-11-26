@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9eda7d8bcbdb6909f202edeedff51948f1cad1e5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: hns3: set port base vlan tbl_sta to false before removing old vlan
-
-When modify port base vlan, the port base vlan tbl_sta needs to set to
-false before removing old vlan, to indicate this operation is not finish.
-
-Fixes: c0f46de30c96 (""net: hns3: fix port base vlan add fail when concurrent with reset"")
-Signed-off-by: Guangbin Huang <huangguangbin2@huawei.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Guangbin Huang|huangguangbin2@huawei.com|2022-06-11 20:25:24+08:00|-28800|David S. Miller|davem@davemloft.net|2022-06-13 11:56:01+01:00|-3600

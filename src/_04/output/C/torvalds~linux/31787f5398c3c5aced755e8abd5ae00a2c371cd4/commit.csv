@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|31787f5398c3c5aced755e8abd5ae00a2c371cd4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net/usb/r8152: make sure the USB buffer is DMA-able
-
-Allocate the required memory before calling usb_control_msg. And
-the additional memory copy is necessary.
-
-Signed-off-by: Hayes Wang <hayeswang@realtek.com>
-Acked-by: Greg Kroah-Hartman <gregkh@linuxfoundation.org>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|hayeswang|hayeswang@realtek.com|2013-07-31 17:21:25+08:00|-28800|David S. Miller|davem@davemloft.net|2013-07-31 14:49:13-07:00|25200

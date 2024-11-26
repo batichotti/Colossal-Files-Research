@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|74863948f925d9f3bb4e3d3a783e49e9c662d839|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drivers/net/stmmac: seq_file fix memory leak
-
-Use single_release() instead of seq_release() to free memory allocated
-by single_open().
-
-Signed-off-by: Djalal Harouni <tixxdz@opendz.org>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Djalal Harouni|tixxdz@opendz.org|2012-05-20 13:55:30+00:00|0|David S. Miller|davem@davemloft.net|2012-05-21 03:37:56-04:00|14400

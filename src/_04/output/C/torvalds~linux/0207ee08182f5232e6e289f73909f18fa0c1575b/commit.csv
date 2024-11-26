@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0207ee08182f5232e6e289f73909f18fa0c1575b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSD: Add nfsd4_encode_nfsace4()
-
-Refactor the ACE encoding helper so that it can eventually be reused
-for encoding OPEN results that contain delegation ACEs.
-
-Reviewed-by: Jeff Layton <jlayton@kernel.org>
-Signed-off-by: Chuck Lever <chuck.lever@oracle.com>"|2|Chuck Lever|chuck.lever@oracle.com|2023-09-18 09:58:30-04:00|14400|Chuck Lever|chuck.lever@oracle.com|2023-10-16 12:44:16-04:00|14400

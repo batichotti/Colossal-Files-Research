@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b99e5e028bf42a65a67614bcc38547e3ece15d56|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sctp: use SCTP_FUTURE_ASSOC for SCTP_PEER_ADDR_PARAMS sockopt
-
-Check with SCTP_FUTURE_ASSOC instead in
-sctp_/setgetsockopt_peer_addr_params, it's compatible with 0.
-
-Signed-off-by: Xin Long <lucien.xin@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Xin Long|lucien.xin@gmail.com|2019-01-28 15:08:24+08:00|-28800|David S. Miller|davem@davemloft.net|2019-01-30 00:44:06-08:00|28800

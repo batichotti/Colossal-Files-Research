@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9ffe79a9c2eec0f30687c2fd8b452bda5c8287b0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: hns3: Support for dynamically assigning tx buffer to TC
-
-This patch add support of dynamically assigning tx buffer to
-TC when the TC is enabled.
-It will save buffer for rx direction to avoid packet loss.
-
-Signed-off-by: Yunsheng Lin <linyunsheng@huawei.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Yunsheng Lin|linyunsheng@huawei.com|2017-09-27 09:45:23+08:00|-28800|David S. Miller|davem@davemloft.net|2017-09-28 10:35:11-07:00|25200

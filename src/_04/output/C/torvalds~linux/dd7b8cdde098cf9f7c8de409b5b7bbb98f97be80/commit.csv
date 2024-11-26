@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|dd7b8cdde098cf9f7c8de409b5b7bbb98f97be80|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: eir: Fix using strlen with hdev->{dev_name,short_name}
-
-Both dev_name and short_name are not guaranteed to be NULL terminated so
-this instead use strnlen and then attempt to determine if the resulting
-string needs to be truncated or not.
-
-Link: https://bugzilla.kernel.org/show_bug.cgi?id=216018
-Signed-off-by: Luiz Augusto von Dentz <luiz.von.dentz@intel.com>"|2|Luiz Augusto von Dentz|luiz.von.dentz@intel.com|2022-05-24 13:02:45-07:00|25200|Luiz Augusto von Dentz|luiz.von.dentz@intel.com|2022-07-21 17:07:16-07:00|25200

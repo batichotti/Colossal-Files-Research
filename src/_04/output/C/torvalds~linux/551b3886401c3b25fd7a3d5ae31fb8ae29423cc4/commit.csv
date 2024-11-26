@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|551b3886401c3b25fd7a3d5ae31fb8ae29423cc4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: reduce trans->ctx.chain references
-
-These objects are the trans_chain subtype, so use the helper instead
-of referencing trans->ctx, which will be removed soon.
-
-Signed-off-by: Florian Westphal <fw@strlen.de>
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|1|Florian Westphal|fw@strlen.de|2024-05-13 15:00:49+02:00|-7200|Pablo Neira Ayuso|pablo@netfilter.org|2024-06-25 20:40:47+02:00|-7200

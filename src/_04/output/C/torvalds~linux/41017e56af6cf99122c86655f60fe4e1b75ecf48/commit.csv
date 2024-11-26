@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|41017e56af6cf99122c86655f60fe4e1b75ecf48|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libbpf: Refactor BTF-defined map definition parsing logic
-
-Factor out BTF map definition logic into stand-alone routine for easier reuse
-for map-in-map case.
-
-Signed-off-by: Andrii Nakryiko <andriin@fb.com>
-Signed-off-by: Alexei Starovoitov <ast@kernel.org>
-Link: https://lore.kernel.org/bpf/20200429002739.48006-2-andriin@fb.com"|1|Andrii Nakryiko|andriin@fb.com|2020-04-28 17:27:37-07:00|25200|Alexei Starovoitov|ast@kernel.org|2020-04-28 17:35:03-07:00|25200

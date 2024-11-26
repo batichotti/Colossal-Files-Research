@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|efbfe5165e5dd353343af47199e0ee0dba139aed|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wifi: nl80211: better validate link ID for stations
-
-If we add a station on an MLD, we need a link ID to see
-where it lives (by default). Validate the link ID against
-the valid_links.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2022-07-06 15:31:55+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2022-07-15 11:43:19+02:00|-7200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bf5ea6fba78b62a4d4b70151143077131ccf32a8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: qla4xxx: drop redundant init_completion
-
-The redundant init_completion() here seems to be a cut&past error as
-struct scsi_qla_host only has 4 completion elements to initialize, thus
-the duplicate init_completion(disable_acb_comp) is simply removed.
-
-Signed-off-by: Nicholas Mc Guire <der.herr@hofr.at>
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|1|Nicholas Mc Guire|der.herr@hofr.at|2017-03-22 11:44:22+01:00|-3600|Martin K. Petersen|martin.petersen@oracle.com|2017-04-06 13:14:32-04:00|14400

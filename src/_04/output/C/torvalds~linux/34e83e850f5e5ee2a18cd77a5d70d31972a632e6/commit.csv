@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|34e83e850f5e5ee2a18cd77a5d70d31972a632e6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sched: build fix
-
-fix:
-
-kernel/sched.c: In function ‘sched_group_set_shares':
-kernel/sched.c:8635: error: implicit declaration of function ‘cfs_rq_set_shares'
-
-Signed-off-by: Ingo Molnar <mingo@elte.hu>"|1|Ingo Molnar|mingo@elte.hu|2008-06-27 15:42:36+02:00|-7200|Ingo Molnar|mingo@elte.hu|2008-06-30 08:37:13+02:00|-7200

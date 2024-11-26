@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|64728bbbf892ea7a4aba502c436afbe362217fb9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: put the right bio if we have an error
-
-In btrfs_submit_direct_hook if the first btrfs_map_block fails we need to put
-the orig_bio, not bio.
-
-Signed-off-by: Josef Bacik <josef@redhat.com>
-Signed-off-by: Chris Mason <chris.mason@oracle.com>"|1|Josef Bacik|josef@redhat.com|2011-04-25 19:43:52-04:00|14400|Chris Mason|chris.mason@oracle.com|2011-04-25 19:43:52-04:00|14400

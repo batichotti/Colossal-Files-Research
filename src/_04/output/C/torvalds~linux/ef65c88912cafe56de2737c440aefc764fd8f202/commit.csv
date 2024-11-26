@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ef65c88912cafe56de2737c440aefc764fd8f202|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86 emulator: allow storing emulator execution function in decode tables
-
-Instead of looking up the opcode twice (once for decode flags, once for
-the big execution switch) look up both flags and function in the decode tables.
-
-Signed-off-by: Avi Kivity <avi@redhat.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|2|Avi Kivity|avi@redhat.com|2010-07-29 15:11:51+03:00|-10800|Avi Kivity|avi@redhat.com|2010-10-24 10:50:22+02:00|-7200

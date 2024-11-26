@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1180e732c985ed3c8866d2fd9e02b619848404a0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mm/gup: Fix the lockless PMD access
-
-On architectures where the PTE/PMD is larger than the native word size
-(i386-PAE for example), READ_ONCE() can do the wrong thing. Use
-pmdp_get_lockless() just like we use ptep_get_lockless().
-
-Signed-off-by: Peter Zijlstra (Intel) <peterz@infradead.org>
-Link: https://lkml.kernel.org/r/20221022114424.906110403%40infradead.org"|2|Peter Zijlstra|peterz@infradead.org|2020-11-26 17:21:30+01:00|-3600|Dave Hansen|dave.hansen@linux.intel.com|2022-12-15 10:37:27-08:00|28800

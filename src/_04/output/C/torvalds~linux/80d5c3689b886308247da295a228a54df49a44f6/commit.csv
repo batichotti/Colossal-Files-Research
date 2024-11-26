@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|80d5c3689b886308247da295a228a54df49a44f6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: vlan: prepare for 802.1ad VLAN filtering offload
-
-Change the rx_{add,kill}_vid callbacks to take a protocol argument in
-preparation of 802.1ad support. The protocol argument used so far is
-always htons(ETH_P_8021Q).
-
-Signed-off-by: Patrick McHardy <kaber@trash.net>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|34|Patrick McHardy|kaber@trash.net|2013-04-19 02:04:28+00:00|0|David S. Miller|davem@davemloft.net|2013-04-19 14:45:27-04:00|14400

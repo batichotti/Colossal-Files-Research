@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|55ed0ce0898e15fec30d2ca2a563d7934b082375|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: dsa: Pass device pointer to dsa_register_switch
-
-In preparation for allowing dsa_register_switch() to be supplied with
-device/platform data, pass down a struct device pointer instead of a
-struct device_node.
-
-Signed-off-by: Florian Fainelli <f.fainelli@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|5|Florian Fainelli|f.fainelli@gmail.com|2017-01-26 10:45:51-08:00|28800|David S. Miller|davem@davemloft.net|2017-01-26 15:43:52-05:00|18000

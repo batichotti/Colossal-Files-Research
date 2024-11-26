@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|56f367bbfd5a7439961499ca6a2f0822d2074d83|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[TCP]: Add return value indication to tcp_prune_ofo_queue().
-
-Returns non-zero if tp->out_of_order_queue was seen non-empty.
-This allows tcp_try_rmem_schedule() to return early.
-
-Signed-off-by: Vitaliy Gusev <vgusev@openvz.org>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Vitaliy Gusev|vgusev@openvz.org|2008-04-15 20:26:34-07:00|25200|David S. Miller|davem@davemloft.net|2008-04-15 20:26:34-07:00|25200

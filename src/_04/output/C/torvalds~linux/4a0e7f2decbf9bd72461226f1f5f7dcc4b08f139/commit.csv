@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4a0e7f2decbf9bd72461226f1f5f7dcc4b08f139|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: do not compare internal table flags on updates
-
-Restore skipping transaction if table update does not modify flags.
-
-Fixes: 179d9ba5559a (""netfilter: nf_tables: fix table flag updates"")
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|1|Pablo Neira Ayuso|pablo@netfilter.org|2024-03-14 18:51:38+01:00|-3600|Pablo Neira Ayuso|pablo@netfilter.org|2024-03-21 00:21:55+01:00|-3600

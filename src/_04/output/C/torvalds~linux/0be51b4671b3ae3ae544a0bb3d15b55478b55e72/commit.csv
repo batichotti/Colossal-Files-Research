@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0be51b4671b3ae3ae544a0bb3d15b55478b55e72|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"V4L/DVB (7398): Adds an error if priv argument of tuner_callback is NULL
-
-Adds a consistency check to avoid OOPS, if tuner_callback priv argument is
-NULL. Also, simplifies callback codes on cx88.
-
-Signed-off-by: Mauro Carvalho Chehab <mchehab@infradead.org>"|2|Mauro Carvalho Chehab|mchehab@infradead.org|2008-04-22 14:46:10-03:00|10800|Mauro Carvalho Chehab|mchehab@infradead.org|2008-04-24 14:07:53-03:00|10800

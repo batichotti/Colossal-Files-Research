@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2fd66c517d5e98de2528d86e0e62f5069ff99f59|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"slub: Add missing irq restore for the OOM path
-
-OOM path is missing the irq restore in the CONFIG_CMPXCHG_LOCAL case.
-
-Signed-off-by: Christoph Lameter <cl@linux.com>
-Signed-off-by: Pekka Enberg <penberg@kernel.org>"|1|Christoph Lameter|cl@linux.com|2011-03-22 13:32:53-05:00|18000|Pekka Enberg|penberg@kernel.org|2011-03-22 20:48:04+02:00|-7200

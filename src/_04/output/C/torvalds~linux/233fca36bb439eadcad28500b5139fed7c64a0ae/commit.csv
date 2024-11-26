@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|233fca36bb439eadcad28500b5139fed7c64a0ae|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md: Relax checks on ->max_disks when external metadata handling is used.
-
-When metadata is being managed by user-space, md doesn't know
-what the maximum number of devices allowed in an array is
-so ->max_disks is 0.  In this case we should allow any (+ve)
-number of disks.
-
-Signed-off-by: NeilBrown <neilb@suse.de>"|1|NeilBrown|neilb@suse.de|2010-04-14 17:02:09+10:00|-36000|NeilBrown|neilb@suse.de|2010-05-18 15:27:49+10:00|-36000

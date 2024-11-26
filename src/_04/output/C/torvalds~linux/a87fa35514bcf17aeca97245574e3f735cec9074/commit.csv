@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a87fa35514bcf17aeca97245574e3f735cec9074|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: fix the errno of ioctl KVM_[UN]REGISTER_COALESCED_MMIO failure
-
-This patch change the errno of ioctl KVM_[UN]REGISTER_COALESCED_MMIO
-from -EINVAL to -ENXIO if no coalesced mmio dev exists.
-
-Signed-off-by: Wei Yongjun <yjwei@cn.fujitsu.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|2|Wei Yongjun|yjwei@cn.fujitsu.com|2010-03-12 12:59:06+08:00|-28800|Avi Kivity|avi@redhat.com|2010-05-17 12:15:34+03:00|-10800

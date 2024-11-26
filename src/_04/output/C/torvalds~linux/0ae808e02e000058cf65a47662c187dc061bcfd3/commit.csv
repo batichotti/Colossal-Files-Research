@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0ae808e02e000058cf65a47662c187dc061bcfd3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] ibmvfc: Reduce unnecessary log noise
-
-Reduces some unnecessary log noise by removing a printk during
-host port state query and increasing the log level required to
-log received async events.
-
-Signed-off-by: Brian King <brking@linux.vnet.ibm.com>
-Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"|1|Brian King|brking@linux.vnet.ibm.com|2008-07-22 08:31:39-05:00|18000|James Bottomley|James.Bottomley@HansenPartnership.com|2008-07-26 15:14:57-04:00|14400

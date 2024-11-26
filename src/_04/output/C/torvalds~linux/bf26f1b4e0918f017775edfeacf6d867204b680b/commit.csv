@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bf26f1b4e0918f017775edfeacf6d867204b680b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ksmbd: Fix one kernel-doc comment
-
-Fix one kernel-doc comment to silence the warning:
-fs/smb/server/smb2pdu.c:4160: warning: Excess function parameter 'infoclass_size' description in 'buffer_check_err'
-
-Signed-off-by: Yang Li <yang.lee@linux.alibaba.com>
-Acked-by: Namjae Jeon <linkinjeon@kernel.org>
-Signed-off-by: Steve French <stfrench@microsoft.com>"|1|Yang Li|yang.lee@linux.alibaba.com|2023-08-21 16:29:03+08:00|-28800|Steve French|stfrench@microsoft.com|2023-08-29 12:30:20-05:00|18000

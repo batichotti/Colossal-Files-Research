@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|241fc4367b3ca5d407b043599ed980304a70b91f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SERIAL] Expose 8250_pci setup/removal/suspend/resume functions
-
-Re-jig the setup/removal/suspend/resume of 8250 pci ports so that they
-know slightly less about how they're attached to a PCI device.  Expose
-this as the new interface for registering PCI serial ports, as well as
-the pciserial_board structure and associated flag definitions.
-
-Signed-off-by: Russell King <rmk+kernel@arm.linux.org.uk>"|2|Russell King|rmk@dyn-67.arm.linux.org.uk|2005-07-27 11:35:54+01:00|-3600|Russell King|rmk+kernel@arm.linux.org.uk|2005-07-27 11:35:54+01:00|-3600

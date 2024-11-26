@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a939406fda8ddc7de69ee9186356d09dc6daaa2c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Only print ""nothing to do"" debug message as required.
-
-If the FBC is already disabled, then we do not even attempt to disable
-FBC and so there is no point emitting a debug statement at that point,
-having already emitted one saying why we are disabling FBC.
-
-Signed-off-by: Chris Wilson <chris@chris-wilson.co.uk>
-Signed-off-by: Eric Anholt <eric@anholt.net>"|1|Chris Wilson|chris@chris-wilson.co.uk|2010-05-27 13:18:16+01:00|-3600|Eric Anholt|eric@anholt.net|2010-05-28 10:43:14-07:00|25200

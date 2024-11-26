@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|efcd487c69b9d968552a6bf80e7839c4f28b419d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md: add __acquires/__releases annotations to handle_active_stripes
-
-This tells sparse that we release and reacquire the device_lock and
-avoids a warning.
-
-Signed-off-by: Christoph Hellwig <hch@lst.de>
-Signed-off-by: Song Liu <songliubraving@fb.com>"|1|Christoph Hellwig|hch@lst.de|2019-04-04 18:56:16+02:00|-7200|Song Liu|songliubraving@fb.com|2019-04-10 15:26:09-07:00|25200

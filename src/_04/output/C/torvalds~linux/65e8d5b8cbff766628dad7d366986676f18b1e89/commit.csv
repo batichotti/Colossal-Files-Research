@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|65e8d5b8cbff766628dad7d366986676f18b1e89|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cfg80211: fix P2P-Device stop locking
-
-cfg80211_stop_p2p_device() requires the devlist_mtx to
-be held, but nl80211_stop_p2p_device() doesn't acquire
-it which is a locking error and causes a warning (when
-lockdep is enabled). Fix this.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2013-04-19 12:18:19+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2013-04-22 15:31:47+02:00|-7200

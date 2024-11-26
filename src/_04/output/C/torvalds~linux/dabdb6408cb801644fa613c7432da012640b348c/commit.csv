@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|dabdb6408cb801644fa613c7432da012640b348c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: kill unused parts of block_rsv
-
-The priority and refill_used flags are not used anymore, and neither is the
-usage counter, so just remove them from btrfs_block_rsv.
-
-Signed-off-by: Josef Bacik <josef@redhat.com>"|3|Josef Bacik|josef@redhat.com|2011-08-08 12:50:18-04:00|14400|Josef Bacik|josef@redhat.com|2011-10-19 15:12:34-04:00|14400

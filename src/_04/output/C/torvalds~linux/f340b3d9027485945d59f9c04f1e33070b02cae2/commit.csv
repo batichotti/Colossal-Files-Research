@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f340b3d9027485945d59f9c04f1e33070b02cae2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"fs/ext4: fix comments mentioning i_mutex
-
-inode->i_mutex has been replaced with inode->i_rwsem long ago. Fix
-comments still mentioning i_mutex.
-
-Signed-off-by: hongnanli <hongnan.li@linux.alibaba.com>
-Link: https://lore.kernel.org/r/20220121070611.21618-1-hongnan.li@linux.alibaba.com
-Signed-off-by: Theodore Ts'o <tytso@mit.edu>"|8|hongnanli|hongnan.li@linux.alibaba.com|2022-01-21 15:06:11+08:00|-28800|Theodore Ts'o|tytso@mit.edu|2022-02-03 10:57:53-05:00|18000

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f8dcb5e3365a23b620f5744f23f1918b9c38d883|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bnx2x: remove {TPA,GRO}_ENABLE_FLAG
-
-These flags are redundant with dev->features. Remove them.
-Just make sure to set dev->features ourselves in bnx2x_set_features()
-before performing the reload of the card.
-
-Signed-off-by: Michal Schmidt <mschmidt@redhat.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|Michal Schmidt|mschmidt@redhat.com|2015-04-28 11:34:23+02:00|-7200|David S. Miller|davem@davemloft.net|2015-04-29 14:48:36-04:00|14400

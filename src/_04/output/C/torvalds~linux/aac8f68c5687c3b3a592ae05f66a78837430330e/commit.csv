@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|aac8f68c5687c3b3a592ae05f66a78837430330e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"igc: Remove no need declaration of the igc_alloc_mapped_page
-
-We want to avoid forward-declarations of function if possible.
-Rearrange the igc_alloc_mapped_page function implementation.
-
-Signed-off-by: Sasha Neftin <sasha.neftin@intel.com>
-Tested-by: Aaron Brown <aaron.f.brown@intel.com>
-Signed-off-by: Jeff Kirsher <jeffrey.t.kirsher@intel.com>"|1|Sasha Neftin|sasha.neftin@intel.com|2019-11-19 13:44:11+02:00|-7200|Jeff Kirsher|jeffrey.t.kirsher@intel.com|2020-01-04 22:49:00-08:00|28800

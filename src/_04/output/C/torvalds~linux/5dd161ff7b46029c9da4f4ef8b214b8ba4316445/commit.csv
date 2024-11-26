@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5dd161ff7b46029c9da4f4ef8b214b8ba4316445|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"brcmfmac: set dongle mode accordingly when interface up
-
-The mode of WiFi dongle should be initialized in brcmf_cfg80211_up
-which get called when network interface is brought up. Otherwise
-brcmf_cfg80211_get_station would return error.
-
-Signed-off-by: Franky Lin <frankyl@broadcom.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|1|Franky Lin|frankyl@broadcom.com|2012-10-10 11:13:10-07:00|25200|John W. Linville|linville@tuxdriver.com|2012-10-15 14:42:54-04:00|14400

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|673ead2431e205ba9e9ccd6059532564ab83eb0a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ibmvnic: fix send_request_map incompatible argument
-
-The 3rd argument is u32 by function definition while it is __be32
-by function declaration.
-
-Signed-off-by: Lijun Pan <lijunp213@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Lijun Pan|lijunp213@gmail.com|2021-06-14 00:20:45-05:00|18000|David S. Miller|davem@davemloft.net|2021-06-14 12:56:50-07:00|25200

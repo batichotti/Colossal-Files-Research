@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|88acff64c621aaeee2a4fe0ed124c77358069bce|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: cleanup assigning next active device with a check
-
-Creates helper fucntion as needed by the device delete
-and replace operations. Also now it checks if the next
-device being assigned is an active device.
-
-Signed-off-by: Anand Jain <anand.jain@oracle.com>
-Signed-off-by: David Sterba <dsterba@suse.com>"|3|Anand Jain|anand.jain@oracle.com|2016-05-03 17:44:43+08:00|-28800|David Sterba|dsterba@suse.com|2016-05-04 10:41:08+02:00|-7200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9961c9bbf2b43acaaf030a0fbabc9954d937ad8c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: mpt3sas: check command status before attempting abort
-
-When attempting a command abort we should check the command status prior
-to sending the abort; the command might've been completed already.
-
-Signed-off-by: Hannes Reinecke <hare@suse.com>
-Signed-off-by: Suganath Prabu S <suganath-prabu.subramani@broadcom.com>
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|1|Hannes Reinecke|hare@suse.de|2018-01-04 04:57:06-08:00|28800|Martin K. Petersen|martin.petersen@oracle.com|2018-01-10 23:25:01-05:00|18000

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f2ea68cf42aafdd93393b6b8b20fc3c2b5f4390c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md: only count actual openers as access which prevent a 'stop'
-
-Open isn't the only thing that increments ->active.  e.g. reading
-/proc/mdstat will increment it briefly.  So to avoid false positives
-in testing for concurrent access, introduce a new counter that counts
-just the number of times the md device it open.
-
-Signed-off-by: NeilBrown <neilb@suse.de>"|2|NeilBrown|neilb@suse.de|2008-07-21 17:05:25+10:00|-36000|NeilBrown|neilb@suse.de|2008-07-21 17:05:25+10:00|-36000

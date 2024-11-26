@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8b1fdb53075bd794a209a611bc94aedaf7ecf9e2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"b43: avoid calling bcma_* if CONFIG_B43_BCMA is not set
-
-Avoids this:
-
-ERROR: ""bcma_chipco_pll_write"" [drivers/net/wireless/b43/b43.ko] undefined!
-
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|1|John W. Linville|linville@tuxdriver.com|2011-12-14 09:03:52-05:00|18000|John W. Linville|linville@tuxdriver.com|2011-12-14 09:03:52-05:00|18000

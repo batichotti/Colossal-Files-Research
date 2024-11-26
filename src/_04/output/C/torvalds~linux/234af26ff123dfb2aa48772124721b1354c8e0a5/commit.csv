@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|234af26ff123dfb2aa48772124721b1354c8e0a5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ceph: unlock on error in ceph_osdc_start_request()
-
-There was a missing unlock on the error path if __map_request() failed.
-
-Signed-off-by: Dan Carpenter <error27@gmail.com>
-Signed-off-by: Sage Weil <sage@newdream.net>"|1|Dan Carpenter|error27@gmail.com|2011-03-29 06:25:59+03:00|-10800|Sage Weil|sage@newdream.net|2011-03-29 08:59:54-07:00|25200

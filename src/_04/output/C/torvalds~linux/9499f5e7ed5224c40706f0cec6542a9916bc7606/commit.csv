@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9499f5e7ed5224c40706f0cec6542a9916bc7606|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"virtio: add names to virtqueue struct, mapping from devices to queues.
-
-Add a linked list of all virtqueues for a virtio device: this helps for
-debugging and is also needed for upcoming interface change.
-
-Also, add a ""name"" field for clearer debug messages.
-
-Signed-off-by: Rusty Russell <rusty@rustcorp.com.au>"|14|Rusty Russell|rusty@rustcorp.com.au|2009-06-12 22:16:35-06:00|21600|Rusty Russell|rusty@rustcorp.com.au|2009-06-12 22:16:36+09:30|-34200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7ab0f2736bfe137a82a7084bbfb5f809da95cabd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netdev: Remove redundant checks for CAP_NET_ADMIN in MDIO implementations
-
-dev_ioctl() already checks capable(CAP_NET_ADMIN) before calling the
-driver's implementation of MDIO ioctls.
-
-Signed-off-by: Ben Hutchings <bhutchings@solarflare.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|30|Ben Hutchings|bhutchings@solarflare.com|2009-09-03 10:39:43+00:00|0|David S. Miller|davem@davemloft.net|2009-09-03 20:02:11-07:00|25200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b80155fe61a76784273c2e7b8b15ae8249eb7440|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ASoC: codecs: wcd934x: remove redundant ret variable
-
-return value form snd_soc_dapm_put_enum_double() directly instead
-of taking this in another redundant variable.
-
-Signed-off-by: Srinivas Kandagatla <srinivas.kandagatla@linaro.org>
-Link: https://lore.kernel.org/r/20211130160507.22180-3-srinivas.kandagatla@linaro.org
-Signed-off-by: Mark Brown <broonie@kernel.org>"|1|Srinivas Kandagatla|srinivas.kandagatla@linaro.org|2021-11-30 16:05:05+00:00|0|Mark Brown|broonie@kernel.org|2021-12-01 14:15:40+00:00|0

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f3eb5384cf0325c02e306b1d81e70f81a03d7432|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[S390] dasd: add High Performance FICON support
-
-To support High Performance FICON, the DASD device driver has to
-translate I/O requests into the new transport mode control words (TCW)
-instead of the traditional (command mode) CCW requests.
-
-Signed-off-by: Stefan Weinhuber <wein@de.ibm.com>
-Signed-off-by: Martin Schwidefsky <schwidefsky@de.ibm.com>"|9|Stefan Weinhuber|wein@de.ibm.com|2009-03-26 15:23:48+01:00|-3600|Martin Schwidefsky|schwidefsky@de.ibm.com|2009-03-26 15:24:05+01:00|-3600

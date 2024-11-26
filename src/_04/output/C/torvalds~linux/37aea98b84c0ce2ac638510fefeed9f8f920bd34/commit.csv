@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|37aea98b84c0ce2ac638510fefeed9f8f920bd34|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tracing: Add trace options for tracer options to instances
-
-Add the tracer options to instances options directory as well. Only add the
-options for tracers that are allowed to be enabled by an instance. But note,
-that tracer options are global. That is, tracer options enabled in an
-instance, also take affect at the top level and in other instances.
-
-Signed-off-by: Steven Rostedt <rostedt@goodmis.org>"|2|Steven Rostedt (Red Hat)|rostedt@goodmis.org|2015-09-30 14:27:31-04:00|14400|Steven Rostedt|rostedt@goodmis.org|2015-09-30 15:22:58-04:00|14400

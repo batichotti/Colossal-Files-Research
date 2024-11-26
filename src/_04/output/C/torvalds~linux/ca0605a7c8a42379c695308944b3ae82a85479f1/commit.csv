@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ca0605a7c8a42379c695308944b3ae82a85479f1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SK_BUFF]: Adjust the zeroing up to tail in __alloc_skb too
-
-I did it just in alloc_skb_from_cache, forgot __alloc_skb, fixed now.
-
-Signed-off-by: Arnaldo Carvalho de Melo <acme@redhat.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Arnaldo Carvalho de Melo|acme@redhat.com|2007-03-19 10:48:59-03:00|10800|David S. Miller|davem@sunset.davemloft.net|2007-04-25 22:26:31-07:00|25200

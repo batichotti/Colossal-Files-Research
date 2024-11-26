@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|97b41dad385bce97d60b8cdd56342f07f93fc5d2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bnx2x: get_ext_phy_fw_version returns NULL if not applicable
-
-To avoid confusion, if the PHY does not have a FW (and so, no FW version) make
-sure that the string is NULL.
-
-Signed-off-by: Yaniv Rosner <yanivr@broadcom.com>
-Signed-off-by: Eilon Greenstein <eilong@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Eilon Greenstein|eilong@broadcom.com|2009-08-12 08:22:59+00:00|0|David S. Miller|davem@davemloft.net|2009-08-12 23:02:21-07:00|25200

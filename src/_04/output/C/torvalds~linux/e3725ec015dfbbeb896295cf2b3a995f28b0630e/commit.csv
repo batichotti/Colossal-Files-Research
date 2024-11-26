@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e3725ec015dfbbeb896295cf2b3a995f28b0630e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4.1: Shrink struct nfs4_sequence_res by moving the session pointer
-
-Move the session pointer into the slot table, then have struct nfs4_slot
-point to that slot table.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|6|Trond Myklebust|Trond.Myklebust@netapp.com|2012-11-16 12:25:01-05:00|18000|Trond Myklebust|Trond.Myklebust@netapp.com|2012-11-26 17:49:04-05:00|18000

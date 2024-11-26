@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|45e7ae7f716086994e4e747226881f901c67b031|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[NETLINK]: Ignore control messages directly in netlink_run_queue()
-
-Changes netlink_rcv_skb() to skip netlink controll messages and don't
-pass them on to the message handler.
-
-Signed-off-by: Thomas Graf <tgraf@suug.ch>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|4|Thomas Graf|tgraf@suug.ch|2007-03-22 23:29:10-07:00|25200|David S. Miller|davem@sunset.davemloft.net|2007-04-25 22:27:29-07:00|25200

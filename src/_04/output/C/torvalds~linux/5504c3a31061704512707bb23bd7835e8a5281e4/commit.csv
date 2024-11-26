@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5504c3a31061704512707bb23bd7835e8a5281e4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Use individual flags for certain management events
-
-Instead of hiding everything behind a general managment events flag,
-introduce indivdual flags that allow fine control over which events are
-send to a given management channel.
-
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>"|3|Marcel Holtmann|marcel@holtmann.org|2016-08-29 06:19:46+02:00|-7200|Marcel Holtmann|marcel@holtmann.org|2016-09-19 20:19:34+02:00|-7200

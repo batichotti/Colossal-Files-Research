@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c88c535b592d3baeee74009f3eceeeaf0fdd5e1b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: disallow element updates of bound anonymous sets
-
-Anonymous sets come with NFT_SET_CONSTANT from userspace. Although API
-allows to create anonymous sets without NFT_SET_CONSTANT, it makes no
-sense to allow to add and to delete elements for bound anonymous sets.
-
-Fixes: 96518518cc41 (""netfilter: add nftables"")
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|1|Pablo Neira Ayuso|pablo@netfilter.org|2023-06-16 15:20:16+02:00|-7200|Pablo Neira Ayuso|pablo@netfilter.org|2023-06-20 22:43:40+02:00|-7200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|45f769b2f85d71af7ff7b7aa2b80ebf3ebd125a9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: hpsa: do not print errors for unsupported report luns format
-
-Legacy boards might not support the 'extended' report luns format,
-but as this is to be expected we don't need to print out an error here.
-
-Signed-off-by: Hannes Reinecke <hare@suse.com>
-Acked-by: Don Brace <don.brace@microsemi.com>
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|1|Hannes Reinecke|hare@suse.de|2017-08-15 08:58:07+02:00|-7200|Martin K. Petersen|martin.petersen@oracle.com|2017-08-24 22:28:56-04:00|14400

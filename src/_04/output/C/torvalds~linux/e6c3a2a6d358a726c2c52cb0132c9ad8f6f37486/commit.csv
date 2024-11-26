@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e6c3a2a6d358a726c2c52cb0132c9ad8f6f37486|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Use an uninterruptible wait for page-flips during modeset
-
-We need to drain the pending flips prior to disabling the pipe during
-modeset, and these need to be done in an uninterruptible fashion.
-
-Signed-off-by: Chris Wilson <chris@chris-wilson.co.uk>"|3|Chris Wilson|chris@chris-wilson.co.uk|2010-09-23 23:04:43+01:00|-3600|Chris Wilson|chris@chris-wilson.co.uk|2010-09-24 14:19:57+01:00|-3600

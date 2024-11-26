@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c368ddaa9ad79fdffde4756804321feba6725c75|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: fix memory leak
-
-In case ieee80211_prep_connection() fails to dereference
-sdata->vif.chanctx_conf, the function returns and doesn't
-free new_sta. fixed.
-
-Signed-off-by: Eytan Lifshitz <eytan.lifshitz@intel.com>
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Eytan Lifshitz|eytan.lifshitz@intel.com|2014-02-06 21:01:32+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2014-02-11 12:59:36+01:00|-3600

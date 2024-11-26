@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fe82a183ca3c9188945c4ebeebc2ca45abfa24e5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS: Convert printk's to dprintk's in fs/nfs/nfs?xdr.c
-
-Due to recent edict to replace or remove printk's that can be triggered en
-masse by remote misbehavior.  Left a few that only occur just before a BUG.
-
-Signed-off-by: Chuck Lever <chuck.lever@oracle.com>
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|3|Chuck Lever|chuck.lever@oracle.com|2007-09-11 18:01:10-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2007-10-09 17:17:09-04:00|14400

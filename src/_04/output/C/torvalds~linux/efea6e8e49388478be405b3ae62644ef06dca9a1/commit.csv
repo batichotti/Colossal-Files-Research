@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|efea6e8e49388478be405b3ae62644ef06dca9a1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: rip out legacy encoder->mode_fixup logic
-
-Everyone is now using our own ->compute_config callback, which means
-we can now also make that callback mandatory.
-
-Reviewed-by: Rodrigo Vivi <rodrigo.vivi@gmail.com>
-Signed-off-by: Daniel Vetter <daniel.vetter@ffwll.ch>"|1|Daniel Vetter|daniel.vetter@ffwll.ch|2013-07-21 21:36:59+02:00|-7200|Daniel Vetter|daniel.vetter@ffwll.ch|2013-08-04 21:25:20+02:00|-7200

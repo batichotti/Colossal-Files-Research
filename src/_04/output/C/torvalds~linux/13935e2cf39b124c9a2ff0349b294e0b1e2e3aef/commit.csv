@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|13935e2cf39b124c9a2ff0349b294e0b1e2e3aef|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mwl8k: pass in HT capabilities and rates when associating
-
-Pass the AP's MCS rate mask to SET_RATE when associating, and make
-UPDATE_STADB pass in the peer's HT caps and rates when adding a new
-hardware station database entry.
-
-Signed-off-by: Lennert Buytenhek <buytenh@marvell.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|1|Lennert Buytenhek|buytenh@wantstofly.org|2010-01-04 21:57:59+01:00|-3600|John W. Linville|linville@tuxdriver.com|2010-01-05 17:13:32-05:00|18000

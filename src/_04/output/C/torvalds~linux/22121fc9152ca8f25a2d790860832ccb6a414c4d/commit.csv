@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|22121fc9152ca8f25a2d790860832ccb6a414c4d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Create separate l2cap_send_disconn_req() function
-
-The code for sending a disconnect request was repeated several times
-within L2CAP source code. So move this into its own function.
-
-Signed-off-by: Gustavo F. Padovan <gustavo@las.ic.unicamp.br>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|1|Gustavo F. Padovan|gustavo@las.ic.unicamp.br|2009-07-23 10:27:23-03:00|10800|Marcel Holtmann|marcel@holtmann.org|2009-08-22 14:50:07-07:00|25200

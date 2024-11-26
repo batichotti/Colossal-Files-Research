@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|41f0b0496466d6e0e8245f94a79889234cde5e3c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bonding: fill-up LAG changeupper info struct and pass it along
-
-Initialize netdev_lag_upper_info structure by TX type according to
-current bonding mode and pass it along via netdev_master_upper_dev_link.
-
-Signed-off-by: Jiri Pirko <jiri@mellanox.com>
-Reviewed-by: Nikolay Aleksandrov <nikolay@cumulusnetworks.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Jiri Pirko|jiri@mellanox.com|2015-12-03 12:12:14+01:00|-3600|David S. Miller|davem@davemloft.net|2015-12-03 11:49:26-05:00|18000

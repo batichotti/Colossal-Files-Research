@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|45a91e8f767afbbffff46bf7251f81d15d121136|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"regulator: core: Log when we bring constraints into range
-
-This aids in debugging problems triggered by the regulator core applying
-its constraints, we could potentially crash immediately after updating
-the voltage if the constraints are buggy.
-
-Signed-off-by: Mark Brown <broonie@kernel.org>"|1|Mark Brown|broonie@kernel.org|2016-03-29 16:33:42-07:00|25200|Mark Brown|broonie@kernel.org|2016-03-29 16:37:46-07:00|25200

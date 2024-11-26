@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d19a9cd275b0fdc793d1bb8b644b7aad0517e4bc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Portability: Add two hooks to handle kvm_create and destroy vm
-
-Add two arch hooks to handle kvm_create_vm and kvm destroy_vm. Now, just
-put io_bus init and destory in common.
-
-Signed-off-by: Zhang Xiantao <xiantao.zhang@intel.com>
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|3|Zhang Xiantao|xiantao@vtsmp-build32.los-vmm.org|2007-11-18 18:43:45+08:00|-28800|Avi Kivity|avi@qumranet.com|2008-01-30 17:53:04+02:00|-7200

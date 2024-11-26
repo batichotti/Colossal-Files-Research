@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d3c2fdcf7b79079f60ac64e61d886964d4647910|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: Use balance_dirty_pages_nr on btree blocks
-
-btrfs_btree_balance_dirty is changed to pass the number of pages dirtied
-for more accurate dirty throttling.  This lets the VM make better decisions
-about when to force some writeback.
-
-Signed-off-by: Chris Mason <chris.mason@oracle.com>"|6|Chris Mason|chris.mason@oracle.com|2007-09-17 10:58:06-04:00|14400|Chris Mason|chris.mason@oracle.com|2008-09-25 11:00:48-04:00|14400

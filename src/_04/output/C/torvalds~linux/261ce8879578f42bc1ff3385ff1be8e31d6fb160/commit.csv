@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|261ce8879578f42bc1ff3385ff1be8e31d6fb160|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wifi: mac80211: make smps_mode per-link
-
-The SMPS power save mode needs to be per-link rather than being shared
-for all links. As such, move it into struct ieee80211_link_sta.
-
-Signed-off-by: Benjamin Berg <benjamin.berg@intel.com>
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|21|Benjamin Berg|benjamin.berg@intel.com|2022-09-02 16:12:41+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2022-09-06 10:11:44+02:00|-7200

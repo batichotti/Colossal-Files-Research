@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|41214b3c77e0960620d3de8465c4240f092f90a6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: show more info about superblock recovery
-
-This patch changes to show more info in message log about the recovery
-of the corrupted superblock during ->mount, e.g. the index of corrupted
-superblock and the result of recovery.
-
-Signed-off-by: Chao Yu <chao2.yu@samsung.com>
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|1|Chao Yu|chao2.yu@samsung.com|2016-02-22 18:33:20+08:00|-28800|Jaegeuk Kim|jaegeuk@kernel.org|2016-02-22 21:40:01-08:00|28800

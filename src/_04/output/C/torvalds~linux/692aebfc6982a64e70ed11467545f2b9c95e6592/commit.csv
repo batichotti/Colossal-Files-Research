@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|692aebfc6982a64e70ed11467545f2b9c95e6592|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] ipr: slave_alloc optimization
-
-Optimize ipr's slave_alloc to return -ENXIO for devices that
-do not exist.
-
-Signed-off-by: Brian King <brking@us.ibm.com>
-Signed-off-by: James Bottomley <James.Bottomley@SteelEye.com>"|1|brking@us.ibm.com|brking@us.ibm.com|2005-11-01 17:01:07-06:00|21600|James Bottomley|jejb@mulgrave.(none)|2005-11-06 13:02:46-06:00|21600

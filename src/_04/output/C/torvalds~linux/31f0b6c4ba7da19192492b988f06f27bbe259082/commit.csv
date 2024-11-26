@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|31f0b6c4ba7da19192492b988f06f27bbe259082|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM/nVMX: Use kvm_vcpu_map when mapping the L1 MSR bitmap
-
-Use kvm_vcpu_map when mapping the L1 MSR bitmap since using
-kvm_vcpu_gpa_to_page() and kmap() will only work for guest memory that has
-a ""struct page"".
-
-Signed-off-by: KarimAllah Ahmed <karahmed@amazon.de>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|2|KarimAllah Ahmed|karahmed@amazon.de|2019-01-31 21:24:36+01:00|-3600|Paolo Bonzini|pbonzini@redhat.com|2019-04-30 21:34:34+02:00|-7200

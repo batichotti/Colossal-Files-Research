@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bbecb50b5f609e0291cce83e10b5500cc8d688c6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"OMAP: DSS2: DSI: Add error IRQ mask for DSI complexIO
-
-The code presumed that all ComplexIO interrupts are errors. This is not
-the case. This patch adds proper error mask for CIO interrupt handling.
-
-Signed-off-by: Tomi Valkeinen <tomi.valkeinen@nokia.com>"|1|Tomi Valkeinen|tomi.valkeinen@nokia.com|2010-05-10 14:35:33+03:00|-10800|Tomi Valkeinen|tomi.valkeinen@nokia.com|2010-08-05 16:52:05+03:00|-10800

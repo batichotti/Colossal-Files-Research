@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fce3f24ada5527a5266b7c878ae82a24e6f730e3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: move the call to bio_set_dev out of submit_stripe_bio
-
-Prepare for additional refactoring, btrfs_map_bio is direct caller of
-submit_stripe_bio.
-
-Signed-off-by: Christoph Hellwig <hch@lst.de>
-Reviewed-by: David Sterba <dsterba@suse.com>
-Signed-off-by: David Sterba <dsterba@suse.com>"|1|Christoph Hellwig|hch@lst.de|2022-04-04 06:45:23+02:00|-7200|David Sterba|dsterba@suse.com|2022-05-16 17:03:12+02:00|-7200

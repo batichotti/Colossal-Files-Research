@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ff16111cc10c82ee065ffbd9fa8d6210394ff8c6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: Drop pointless memset in nf_tables_dump_obj
-
-The code does not make use of cb->args fields past the first one, no
-need to zero them.
-
-Signed-off-by: Phil Sutter <phil@nwl.cc>
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|1|Phil Sutter|phil@nwl.cc|2023-10-20 19:34:28+02:00|-7200|Pablo Neira Ayuso|pablo@netfilter.org|2023-10-24 13:16:30+02:00|-7200

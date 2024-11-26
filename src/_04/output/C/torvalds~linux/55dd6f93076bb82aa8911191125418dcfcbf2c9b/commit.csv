@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|55dd6f93076bb82aa8911191125418dcfcbf2c9b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: use new transaction infrastructure to handle table
-
-This patch speeds up rule-set updates and it also provides a way
-to revert updates and leave things in consistent state in case that
-the batch needs to be aborted.
-
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|2|Pablo Neira Ayuso|pablo@netfilter.org|2014-04-03 11:53:37+02:00|-7200|Pablo Neira Ayuso|pablo@netfilter.org|2014-05-19 12:06:12+02:00|-7200

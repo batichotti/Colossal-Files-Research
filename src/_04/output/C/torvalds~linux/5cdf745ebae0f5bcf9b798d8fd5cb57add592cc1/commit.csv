@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5cdf745ebae0f5bcf9b798d8fd5cb57add592cc1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ALSA: hda - Fix pin-config for ASUS W90V
-
-The association numbers of surround/CLFE speaker pins aren't correctly
-mapped by the auto-parser.  This patch fixes the CLFE speaker pin to the
-right assoc value (from 3 to 1).
-
-Tested-by: Nika Topolchanskaya <nanodesuu@gmail.com>
-Signed-off-by: Takashi Iwai <tiwai@suse.de>"|1|Takashi Iwai|tiwai@suse.de|2011-10-26 23:04:08+02:00|-7200|Takashi Iwai|tiwai@suse.de|2011-10-26 23:05:46+02:00|-7200

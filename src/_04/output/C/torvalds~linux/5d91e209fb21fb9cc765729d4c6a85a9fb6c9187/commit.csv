@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5d91e209fb21fb9cc765729d4c6a85a9fb6c9187|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] iscsi: remove session/conn_data_size from iscsi_transport
-
-This removes the session and conn data_size fields from the iscsi_transport.
-Just pass in the value like with host allocation. This patch also makes
-it so the LLD iscsi_conn data is allocated with the iscsi_cls_conn.
-
-Signed-off-by: Mike Christie <michaelc@cs.wisc.edu>
-Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"|7|Mike Christie|michaelc@cs.wisc.edu|2008-05-21 15:54:01-05:00|18000|James Bottomley|James.Bottomley@HansenPartnership.com|2008-07-12 08:22:16-05:00|18000

@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bba67e0e3f4caba2b2b90b48ed798fb0461bcb86|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS: Remove BKL usage from open()
-
-All the NFSv4 stateful operations are already protected by other locks (in
-particular by the rpc_sequence locks.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|3|Trond Myklebust|Trond.Myklebust@netapp.com|2008-06-11 13:26:23-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2008-07-15 18:10:53-04:00|14400

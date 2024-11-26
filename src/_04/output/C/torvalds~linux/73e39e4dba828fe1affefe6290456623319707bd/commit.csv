@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|73e39e4dba828fe1affefe6290456623319707bd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rbd: fix error paths in rbd_dev_refresh()
-
-header_rwsem should be released on errors.  Also remove useless
-rbd_dev->mapping.size != rbd_dev->header.image_size test.
-
-Signed-off-by: Ilya Dryomov <idryomov@redhat.com>"|1|Ilya Dryomov|idryomov@redhat.com|2015-01-08 20:18:22+03:00|-10800|Ilya Dryomov|idryomov@gmail.com|2015-02-19 13:31:38+03:00|-10800

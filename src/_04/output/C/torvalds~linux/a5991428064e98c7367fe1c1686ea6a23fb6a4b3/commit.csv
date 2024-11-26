@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a5991428064e98c7367fe1c1686ea6a23fb6a4b3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: don't flush delalloc arbitrarily
-
-Kill the check to see if we have 512mb of reserved space in delalloc and
-shrink_delalloc if we do.  This causes unexpected latencies and we have other
-logic to see if we need to throttle.  Thanks,
-
-Signed-off-by: Josef Bacik <josef@redhat.com>
-Signed-off-by: Chris Mason <chris.mason@oracle.com>"|1|Josef Bacik|josef@redhat.com|2011-07-15 16:01:03+00:00|0|Chris Mason|chris.mason@oracle.com|2011-07-27 12:46:43-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fc7478103c84af437ca3bfae71a82631f770bf7e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bpf: Adds support for setting initial cwnd
-
-Adds a new bpf_setsockopt for TCP sockets, TCP_BPF_IW, which sets the
-initial congestion window. This can be used when the hosts are far
-apart (large RTTs) and it is safe to start with a large inital cwnd.
-
-Signed-off-by: Lawrence Brakmo <brakmo@fb.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Lawrence Brakmo|brakmo@fb.com|2017-06-30 20:02:51-07:00|25200|David S. Miller|davem@davemloft.net|2017-07-01 16:15:14-07:00|25200

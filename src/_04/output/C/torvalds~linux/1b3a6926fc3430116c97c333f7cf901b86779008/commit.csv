@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1b3a6926fc3430116c97c333f7cf901b86779008|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: remove wrong initialization for snd_wl1
-
-The field tp->snd_wl1 is twice initialized, the second time
-seems to be wrong as it may overwrite any update in tcp_ack.
-
-Signed-off-by: Razvan Ghitulete <rghitulete@ixiacom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Razvan Ghitulete|rghitulete@ixiacom.com|2012-08-14 16:30:20+03:00|-10800|David S. Miller|davem@davemloft.net|2012-08-15 15:23:46-07:00|25200

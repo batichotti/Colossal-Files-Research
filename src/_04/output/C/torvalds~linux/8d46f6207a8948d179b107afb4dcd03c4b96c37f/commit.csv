@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8d46f6207a8948d179b107afb4dcd03c4b96c37f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8169: move setting ERI register 0x1d0 for RTL8106
-
-Writing this ERI register is a MAC setting, so move it to
-rtl_hw_start_8106().
-
-Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Heiner Kallweit|hkallweit1@gmail.com|2020-01-09 20:29:21+01:00|-3600|David S. Miller|davem@davemloft.net|2020-01-10 16:41:34-08:00|28800

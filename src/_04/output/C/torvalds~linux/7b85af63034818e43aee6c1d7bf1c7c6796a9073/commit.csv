@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7b85af63034818e43aee6c1d7bf1c7c6796a9073|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tracing: Get trace_array ref counts when accessing trace files
-
-When a trace file is opened that may access a trace array, it must
-increment its ref count to prevent it from being deleted.
-
-Cc: stable@vger.kernel.org # 3.10
-Reported-by: Alexander Lam <azl@google.com>
-Signed-off-by: Steven Rostedt <rostedt@goodmis.org>"|1|Steven Rostedt (Red Hat)|rostedt@goodmis.org|2013-07-01 23:34:22-04:00|14400|Steven Rostedt|rostedt@goodmis.org|2013-07-02 10:17:04-04:00|14400

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|26eef70c3e8c76e73dff2579c792fc7355f8a291|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Clear exception queue before emulating an instruction
-
-If we're emulating an instruction, either it will succeed, in which case
-any previously queued exception will be spurious, or we will requeue the
-same exception.
-
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|2|Avi Kivity|avi@qumranet.com|2008-07-03 14:59:22+03:00|-10800|Avi Kivity|avi@qumranet.com|2008-10-15 10:15:13+02:00|-7200

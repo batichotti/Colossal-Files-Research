@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ce3b0f8d5c2203301fc87f3aaaed73e5819e2a48|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"New helper - current_umask()
-
-current->fs->umask is what most of fs_struct users are doing.
-Put that into a helper function.
-
-Signed-off-by: Al Viro <viro@zeniv.linux.org.uk>"|26|Al Viro|viro@zeniv.linux.org.uk|2009-03-29 19:08:22-04:00|14400|Al Viro|viro@zeniv.linux.org.uk|2009-03-31 23:00:26-04:00|14400

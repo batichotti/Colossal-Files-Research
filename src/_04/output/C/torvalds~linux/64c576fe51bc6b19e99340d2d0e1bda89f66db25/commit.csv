@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|64c576fe51bc6b19e99340d2d0e1bda89f66db25|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: remove unneeded variable from f2fs_sync_fs
-
-We can directly return '0' from the function, instead of introducing a
-'ret' variable.
-
-Signed-off-by: Namjae Jeon <namjae.jeon@samsung.com>
-Signed-off-by: Amit Sahrawat <a.sahrawat@samsung.com>
-Signed-off-by: Jaegeuk Kim <jaegeuk.kim@samsung.com>"|1|Namjae Jeon|namjae.jeon@samsung.com|2012-12-22 12:10:27+09:00|-32400|Jaegeuk Kim|jaegeuk.kim@samsung.com|2012-12-28 11:27:45+09:00|-32400

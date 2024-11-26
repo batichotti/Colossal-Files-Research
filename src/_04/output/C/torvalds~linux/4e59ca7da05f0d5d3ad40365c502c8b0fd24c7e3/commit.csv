@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4e59ca7da05f0d5d3ad40365c502c8b0fd24c7e3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md: rcu_read_lock() walk of mddev->disks in md_do_sync()
-
-Other walks of this list are either under rcu_read_lock() or the list
-mutation lock (mddev_lock()).  This protects against the improbable case of a
-disk being removed from the array at the start of md_do_sync().
-
-Signed-off-by: Dan Williams <dan.j.williams@intel.com>"|1|Dan Williams|dan.j.williams@intel.com|2009-12-12 21:17:06-07:00|25200|NeilBrown|neilb@suse.de|2009-12-14 12:57:43+11:00|-39600

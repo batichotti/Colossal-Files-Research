@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3c911608085bf2d5a0822c418129f96a2a89d1b5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: don't try to notify udev about missing devices
-
-If we remove a missing device, bdev is null, and if we
-send that off to btrfs_kobject_uevent we'll panic.
-
-Signed-off-by: Eric Sandeen <sandeen@redhat.com>
-Signed-off-by: Josef Bacik <jbacik@fusionio.com>
-Signed-off-by: Chris Mason <chris.mason@fusionio.com>"|1|Eric Sandeen|sandeen@redhat.com|2013-01-31 00:55:02+00:00|0|Chris Mason|chris.mason@fusionio.com|2013-02-01 11:47:37-05:00|18000

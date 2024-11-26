@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|83739b03de97049181d711c95200b94a14d3f693|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cfg80211: remove some locked wrappers from sme API
-
-By making all the API functions require wdev locking we
-can clean up the API a bit, getting rid of the locking
-version of each function. This also decreases the size
-of cfg80211 by a small amount.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|6|Johannes Berg|johannes.berg@intel.com|2013-05-15 17:44:01+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2013-05-25 00:02:22+02:00|-7200

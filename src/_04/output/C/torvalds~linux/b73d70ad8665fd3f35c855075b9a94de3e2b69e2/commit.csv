@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b73d70ad8665fd3f35c855075b9a94de3e2b69e2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: rx.c/tx.c remove more users of tx/rx_data->fc
-
-Those functions that still use ieee80211_get_hdrlen are moved over
-to use the little endian frame control.
-
-Signed-off-by: Harvey Harrison <harvey.harrison@gmail.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|2|Harvey Harrison|harvey.harrison@gmail.com|2008-07-15 18:44:12-07:00|25200|John W. Linville|linville@tuxdriver.com|2008-08-22 16:29:53-04:00|14400

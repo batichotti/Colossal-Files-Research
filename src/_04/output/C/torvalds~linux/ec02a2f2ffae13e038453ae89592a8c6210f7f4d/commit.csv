@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ec02a2f2ffae13e038453ae89592a8c6210f7f4d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libceph: kill ceph_msg->pagelist_count
-
-The pagelist_count field is never actually used, so get rid of it.
-
-Signed-off-by: Alex Elder <elder@inktank.com>
-Reviewed-by: Josh Durgin <josh.durgin@inktank.com>"|3|Alex Elder|elder@inktank.com|2013-03-01 18:00:15-06:00|21600|Sage Weil|sage@inktank.com|2013-05-01 21:16:16-07:00|25200

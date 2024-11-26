@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bc534d86be71aaf8dfac46131420ab1c47387d42|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rbd: move ctl_mutex lock inside rbd_client_create()
-
-Since rbd_client_create() is only called in one place, move the
-acquisition of the mutex around that call inside that function.
-
-Signed-off-by: Alex Elder <elder@dreamhost.com>
-Signed-off-by: Sage Weil <sage@newdream.net>"|1|Alex Elder|elder@dreamhost.com|2012-01-29 13:57:44-06:00|21600|Alex Elder|elder@dreamhost.com|2012-03-22 10:47:47-05:00|18000

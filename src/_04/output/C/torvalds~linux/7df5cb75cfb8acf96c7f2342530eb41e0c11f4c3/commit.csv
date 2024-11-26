@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7df5cb75cfb8acf96c7f2342530eb41e0c11f4c3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"dev: Defer free of skbs in flush_backlog
-
-IRQs are disabled when freeing skbs in input queue.
-Use the IRQ safe variant to free skbs here.
-
-Fixes: 145dd5f9c88f (""net: flush the softnet backlog in process context"")
-Signed-off-by: Subash Abhinov Kasiviswanathan <subashab@codeaurora.org>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Subash Abhinov Kasiviswanathan|subashab@codeaurora.org|2020-07-23 11:31:48-06:00|21600|David S. Miller|davem@davemloft.net|2020-07-24 19:59:22-07:00|25200

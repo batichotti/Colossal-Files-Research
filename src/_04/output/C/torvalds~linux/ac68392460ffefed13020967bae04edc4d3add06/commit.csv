@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ac68392460ffefed13020967bae04edc4d3add06|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[CIFS] Allow raw ntlmssp code to be enabled with sec=ntlmssp
-
-On mount, ""sec=ntlmssp"" can now be specified to allow
-""rawntlmssp"" security to be enabled during
-CIFS session establishment/authentication (ntlmssp used to
-require specifying krb5 which was counterintuitive).
-
-Signed-off-by: Steve French <sfrench@us.ibm.com>"|4|Steve French|sfrench@us.ibm.com|2009-05-06 04:16:04+00:00|0|Steve French|sfrench@us.ibm.com|2009-05-06 04:16:04+00:00|0

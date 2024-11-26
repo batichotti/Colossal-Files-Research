@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5dfa9e8337b1c8a7e291929e676c167b6ea953e6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: mvpp2: remove unused 'tx_skb' field of 'struct mvpp2_tx_queue'
-
-This commit remove a field of 'struct mvpp2_tx_queue' that is not used
-anywhere.
-
-Signed-off-by: Thomas Petazzoni <thomas.petazzoni@free-electrons.com>
-Acked-by: Russell King <rmk+kernel@armlinux.org.uk>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Thomas Petazzoni|thomas.petazzoni@free-electrons.com|2017-02-21 11:28:06+01:00|-3600|David S. Miller|davem@davemloft.net|2017-02-21 13:16:15-05:00|18000

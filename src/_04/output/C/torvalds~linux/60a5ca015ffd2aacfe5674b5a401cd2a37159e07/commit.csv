@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|60a5ca015ffd2aacfe5674b5a401cd2a37159e07|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Add locking around framebuffer_references--
-
-obj->framebuffer_references isn't an atomic_t so the decrement needs to
-be protected by some lock. struct_mutex seems like the appropriate lock
-here, and we may already take it for the obj unref anyway.
-
-Signed-off-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Signed-off-by: Daniel Vetter <daniel.vetter@ffwll.ch>"|1|Ville Syrjälä|ville.syrjala@linux.intel.com|2014-06-13 11:10:53+03:00|-10800|Daniel Vetter|daniel.vetter@ffwll.ch|2014-06-13 17:45:28+02:00|-7200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0b9b12c1b884eb34773312f15c194220025e0416|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tracing: Move ftrace_max_lock into trace_array
-
-In preparation for having tracers enabled in instances, the max_lock
-should be unique as updating the max for one tracer is a separate
-operation than updating it for another tracer using a different max.
-
-Signed-off-by: Steven Rostedt <rostedt@goodmis.org>"|3|Steven Rostedt (Red Hat)|rostedt@goodmis.org|2014-01-14 10:04:59-05:00|18000|Steven Rostedt|rostedt@goodmis.org|2014-04-21 13:59:27-04:00|14400

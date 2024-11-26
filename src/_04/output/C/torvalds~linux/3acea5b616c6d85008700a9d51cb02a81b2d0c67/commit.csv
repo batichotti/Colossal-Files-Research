@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3acea5b616c6d85008700a9d51cb02a81b2d0c67|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: correct skb allocation
-
-This patch corrects the allocation of skb in ADDBA req/resp and DELBA
-it removes redundant space u.addba_* are already counted in sizeof(*mgmt)
-
-Signed-off-by: Ester Kummer <ester.kummer@intel.com>
-Signed-off-by: Tomas Winkler <tomas.winkler@intel.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|1|Ester Kummer|ester.kummer@intel.com|2008-04-17 16:05:14-07:00|25200|John W. Linville|linville@tuxdriver.com|2008-05-07 15:02:12-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0a24bfcb2cc2cd161a0c8aae8fcbb58239d5da2b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/amd/display: Do not put drm_atomic_state on resume
-
-drm_atomic_helper_resume now puts it for us. See relevant patch here:
-https://lists.freedesktop.org/archives/dri-devel/2017-October/154268.html
-
-Signed-off-by: Leo (Sunpeng) Li <sunpeng.li@amd.com>
-Reviewed-by: Harry Wentland <Harry.Wentland@amd.com>
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|1|Leo (Sunpeng) Li|sunpeng.li@amd.com|2017-11-16 15:17:27-05:00|18000|Alex Deucher|alexander.deucher@amd.com|2017-11-28 17:56:46-05:00|18000

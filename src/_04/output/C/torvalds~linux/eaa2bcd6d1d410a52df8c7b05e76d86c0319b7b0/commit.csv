@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|eaa2bcd6d1d410a52df8c7b05e76d86c0319b7b0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: validate NFTA_SET_TABLE parameter
-
-If the NFTA_SET_TABLE parameter is missing and the NLM_F_DUMP flag is
-not set, then a NULL pointer dereference is triggered in
-nf_tables_set_lookup because ctx.table is NULL.
-
-Signed-off-by: Phil Turnbull <phil.turnbull@oracle.com>
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|1|Phil Turnbull|phil.turnbull@oracle.com|2016-05-27 13:34:04-04:00|14400|Pablo Neira Ayuso|pablo@netfilter.org|2016-05-30 12:21:23+02:00|-7200

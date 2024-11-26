@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7c78b4ad9bbdbe0bb4fbc98841ad9d904ee116e9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: mediatek: move the pending_work struct to the device generic struct
-
-The worker always touches both netdevs. It is ethernet core and not MAC
-specific. We only need one worker, which belongs into the ethernets core
-struct.
-
-Signed-off-by: John Crispin <blogic@openwrt.org>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|John Crispin|blogic@openwrt.org|2016-04-08 00:54:10+02:00|-7200|David S. Miller|davem@davemloft.net|2016-04-12 22:41:33-04:00|14400

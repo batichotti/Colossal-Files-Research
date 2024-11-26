@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|759d2a932b82009a7039ef5567e7dcba153ce123|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tools/power turbostat: bugfix: print MAX_NON_TURBO_RATIO
-
-MSR_TURBO_ACTIVATION_RATIO: 0x00000016 (MAX_NON_TURBO_RATIO=6 lock=0)
-should print all 7 bits of MAX_NON_TURBO_RATIO (in decimal):
-MSR_TURBO_ACTIVATION_RATIO: 0x00000016 (MAX_NON_TURBO_RATIO=22 lock=0)
-
-Signed-off-by: Len Brown <len.brown@intel.com>"|1|Len Brown|len.brown@intel.com|2015-10-22 02:42:12-04:00|14400|Len Brown|len.brown@intel.com|2015-10-22 02:42:12-04:00|14400

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|74380c479ad83addeff8a172ab95f59557b5b0c3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ocfs2: Free block to the right block group.
-
-In case the block we are going to free is allocated from
-a discontiguous block group, we have to use suballoc_loc
-to be the right group.
-
-Signed-off-by: Tao Ma <tao.ma@oracle.com>"|6|Tao Ma|tao.ma@oracle.com|2010-03-22 14:20:18+08:00|-28800|Tao Ma|tao.ma@oracle.com|2010-03-22 14:20:18+08:00|-28800

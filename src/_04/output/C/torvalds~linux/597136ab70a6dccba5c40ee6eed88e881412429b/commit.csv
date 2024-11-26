@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|597136ab70a6dccba5c40ee6eed88e881412429b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] scsi_debug: Runtime-configurable sector size
-
-Make scsi_debug sector size configurable at load time instead of being
-a #define.  Handy for testing 4KB sectors.
-
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>
-Acked-by: Douglas Gilbert <dougg@torque.net>
-Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"|1|Martin K. Petersen|martin.petersen@oracle.com|2008-06-05 00:12:59-04:00|14400|James Bottomley|James.Bottomley@HansenPartnership.com|2008-07-12 08:22:24-05:00|18000

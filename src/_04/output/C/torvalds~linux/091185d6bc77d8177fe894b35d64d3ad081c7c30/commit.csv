@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|091185d6bc77d8177fe894b35d64d3ad081c7c30|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wlcore: define number of supported bands internally
-
-Avoid using the IEEE80211_NUM_BANDS constant for arrays sizes etc, as
-this can contain bands unsupported by the driver (e.g. 60Ghz). Use an
-internal constant to determine the number of bands.
-
-Signed-off-by: Arik Nemtsov <arik@wizery.com>"|3|Arik Nemtsov|arik@wizery.com|2012-07-03 09:11:03+03:00|-10800|John W. Linville|linville@tuxdriver.com|2012-07-10 12:10:14-04:00|14400

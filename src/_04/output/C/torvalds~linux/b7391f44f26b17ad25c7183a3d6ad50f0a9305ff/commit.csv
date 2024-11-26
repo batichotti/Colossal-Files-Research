@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b7391f44f26b17ad25c7183a3d6ad50f0a9305ff|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: Return unreferenced delegations more promptly
-
-If the client is not using a delegation, the right thing to do is to return
-it as soon as possible. This helps reduce the amount of state the server
-has to track, as well as reducing the potential for conflicts with other
-clients.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|4|Trond Myklebust|Trond.Myklebust@netapp.com|2008-12-23 15:21:52-05:00|18000|Trond Myklebust|Trond.Myklebust@netapp.com|2008-12-23 15:21:52-05:00|18000

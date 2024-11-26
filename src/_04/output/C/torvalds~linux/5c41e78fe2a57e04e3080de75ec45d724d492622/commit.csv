@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5c41e78fe2a57e04e3080de75ec45d724d492622|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8169: initialize task workqueue only once
-
-It's sufficient to initialize the workqueue once, therefore remove the
-additional initialization whenever rtl_open() is called.
-
-Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Heiner Kallweit|hkallweit1@gmail.com|2019-01-19 22:03:49+01:00|-3600|David S. Miller|davem@davemloft.net|2019-01-19 16:09:14-08:00|28800

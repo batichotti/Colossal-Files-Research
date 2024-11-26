@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3fd83717e47687817f5d3e45696bf22456d8b422|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md: use set_bit/clear_bit instead of shift/mask for bi_flags changes.
-
-Using {set,clear}_bit is more consistent than shifting and masking.
-
-No functional change.
-
-Signed-off-by: NeilBrown <neilb@suse.de>"|3|NeilBrown|neilb@suse.de|2014-08-23 20:19:26+10:00|-36000|NeilBrown|neilb@suse.de|2014-10-09 10:07:04+11:00|-39600

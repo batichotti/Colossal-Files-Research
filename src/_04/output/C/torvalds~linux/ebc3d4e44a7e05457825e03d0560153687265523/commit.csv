@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ebc3d4e44a7e05457825e03d0560153687265523|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"smb3: correct places where ENOTSUPP is used instead of preferred EOPNOTSUPP
-
-checkpatch flagged a few places with:
-     WARNING: ENOTSUPP is not a SUSV4 error code, prefer EOPNOTSUPP
-Also fixed minor typo
-
-Signed-off-by: Steve French <stfrench@microsoft.com>"|2|Steve French|stfrench@microsoft.com|2023-09-15 01:10:40-05:00|18000|Steve French|stfrench@microsoft.com|2023-09-15 01:10:40-05:00|18000

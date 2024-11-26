@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f52dafc1a67c98baa9b6fa1866a4caa4be4831fb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"forcedeth: Convert remaining dprintk to netdev_dbg
-
-The remaining dprintk uses are emitted as KERN_INFO.
-Change these dprintk uses to netdev_dbg.
-Remove the now unused dprintk macros.
-
-Signed-off-by: Joe Perches <joe@perches.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Joe Perches|joe@perches.com|2010-11-29 07:41:55+00:00|0|David S. Miller|davem@davemloft.net|2010-11-29 11:44:53-08:00|28800

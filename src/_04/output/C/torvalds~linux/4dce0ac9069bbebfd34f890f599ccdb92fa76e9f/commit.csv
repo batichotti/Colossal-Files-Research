@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4dce0ac9069bbebfd34f890f599ccdb92fa76e9f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd: cleanup NFSd state shutdown a bit
-
-This patch renames __nfs4_state_shutdown_net() into nfs4_state_shutdown_net(),
-__nfs4_state_shutdown() into nfs4_state_shutdown_net() and moves all network
-related shutdown operations to nfs4_state_shutdown_net().
-
-Signed-off-by: Stanislav Kinsbursky <skinsbursky@parallels.com>
-Signed-off-by: J. Bruce Fields <bfields@redhat.com>"|1|Stanislav Kinsbursky|skinsbursky@parallels.com|2012-11-26 15:22:08+03:00|-10800|J. Bruce Fields|bfields@redhat.com|2012-11-28 10:13:51-05:00|18000

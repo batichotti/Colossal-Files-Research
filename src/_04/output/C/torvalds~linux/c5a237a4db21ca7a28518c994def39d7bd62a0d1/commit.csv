@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c5a237a4db21ca7a28518c994def39d7bd62a0d1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"selftests/bpf: Use bpf_{btf,link,map,prog}_get_info_by_fd()
-
-Use the new type-safe wrappers around bpf_obj_get_info_by_fd().
-Fix a prog/map mixup in prog_holds_map().
-
-Signed-off-by: Ilya Leoshkevich <iii@linux.ibm.com>
-Signed-off-by: Andrii Nakryiko <andrii@kernel.org>
-Link: https://lore.kernel.org/bpf/20230214231221.249277-6-iii@linux.ibm.com"|34|Ilya Leoshkevich|iii@linux.ibm.com|2023-02-15 00:12:18+01:00|-3600|Andrii Nakryiko|andrii@kernel.org|2023-02-16 15:32:46-08:00|28800

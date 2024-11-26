@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|89bb3e74b1acb7c26306a5aaa522eb7105c25f65|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ALSA: hda/sigmatel - Remove PCI id check in find_mute_led_cfg()
-
-The PCI vendor ID check in find_mute_led_cfg() is now superfluous
-because the function is called in the fixup table entries of HP
-machines.
-
-Signed-off-by: Takashi Iwai <tiwai@suse.de>"|1|Takashi Iwai|tiwai@suse.de|2013-01-15 11:12:18+01:00|-3600|Takashi Iwai|tiwai@suse.de|2013-01-15 11:12:18+01:00|-3600

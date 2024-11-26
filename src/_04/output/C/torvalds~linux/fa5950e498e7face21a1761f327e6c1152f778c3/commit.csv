@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fa5950e498e7face21a1761f327e6c1152f778c3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: avoid BUG_ON usage
-
-None of these spots really needs to crash the kernel.
-In one two cases we can jsut report error to userspace, in the other
-cases we can just use WARN_ON (and leak memory instead).
-
-Signed-off-by: Florian Westphal <fw@strlen.de>
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|3|Florian Westphal|fw@strlen.de|2018-09-04 16:01:47+02:00|-7200|Pablo Neira Ayuso|pablo@netfilter.org|2018-09-17 16:11:12+02:00|-7200

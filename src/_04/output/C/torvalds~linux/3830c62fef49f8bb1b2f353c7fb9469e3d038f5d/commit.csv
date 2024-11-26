@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3830c62fef49f8bb1b2f353c7fb9469e3d038f5d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Kobject: change drivers/md/md.c to use kobject_init_and_add
-
-Stop using kobject_register, as this way we can control the sending of
-the uevent properly, after everything is properly initialized.
-
-Cc: Neil Brown <neilb@suse.de>
-Cc: Kay Sievers <kay.sievers@vrfy.org>
-Signed-off-by: Greg Kroah-Hartman <gregkh@suse.de>"|1|Greg Kroah-Hartman|gregkh@suse.de|2007-12-17 15:54:39-04:00|14400|Greg Kroah-Hartman|gregkh@suse.de|2008-01-24 20:40:29-08:00|28800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0a240339a8deeb13a19043389bba4285a6c0592e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"quota: Make VFS quotas use new interface for getting quota info
-
-Create new internal interface for getting information about quota which
-contains everything needed for both VFS quotas and XFS quotas. Make VFS
-use this and hook it up to Q_GETINFO.
-
-Reviewed-by: Christoph Hellwig <hch@lst.de>
-Signed-off-by: Jan Kara <jack@suse.cz>"|7|Jan Kara|jack@suse.cz|2014-11-19 00:42:09+01:00|-3600|Jan Kara|jack@suse.cz|2015-03-04 16:06:34+01:00|-3600

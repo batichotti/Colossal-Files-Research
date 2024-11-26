@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9ba4b2dfafaa711b41cc2102b0e9a529f3981218|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"fs: kill 'nr_pages' argument from wakeup_flusher_threads()
-
-Everybody is passing in 0 now, let's get rid of the argument.
-
-Reviewed-by: Jan Kara <jack@suse.cz>
-Reviewed-by: Christoph Hellwig <hch@lst.de>
-Signed-off-by: Jens Axboe <axboe@kernel.dk>"|4|Jens Axboe|axboe@kernel.dk|2017-09-20 08:58:25-06:00|21600|Jens Axboe|axboe@kernel.dk|2017-10-03 08:38:17-06:00|21600

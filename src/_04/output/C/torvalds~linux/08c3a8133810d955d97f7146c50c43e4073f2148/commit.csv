@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|08c3a8133810d955d97f7146c50c43e4073f2148|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: Clarify the locking details in mballoc
-
-We don't need to take the alloc_sem lock when we are adding new
-groups, since mballoc won't see the new group added until we bump
-sbi->s_groups_count.
-
-Signed-off-by: ""Theodore Ts'o"" <tytso@mit.edu>
-Signed-off-by: Aneesh Kumar K.V <aneesh.kumar@linux.vnet.ibm.com>"|2|Aneesh Kumar K.V|aneesh.kumar@linux.vnet.ibm.com|2009-09-09 23:50:17-04:00|14400|Theodore Ts'o|tytso@mit.edu|2009-09-09 23:50:17-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|786fdf0bbf1c3a1b402bb2da946b93e0b36a8f32|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bnx2x: use strlcpy() to copy a string
-
-DRV_MODULE_VERSION is smaller than the ->version buffer so the memcpy()
-copies 1 byte past the end of the string.  It's not super harmful, but
-it makes the static checkers complain.
-
-Signed-off-by: Dan Carpenter <dan.carpenter@oracle.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Dan Carpenter|dan.carpenter@oracle.com|2012-10-02 01:47:46+00:00|0|David S. Miller|davem@davemloft.net|2012-10-02 22:41:17-04:00|14400

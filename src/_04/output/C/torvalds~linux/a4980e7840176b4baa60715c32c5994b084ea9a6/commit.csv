@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a4980e7840176b4baa60715c32c5994b084ea9a6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: ACCESS validation doesn't require a full attribute refresh
-
-We only really need to check the change attribute, so let's just use the
-server->cache_consistency_bitmask.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|1|Trond Myklebust|Trond.Myklebust@netapp.com|2012-01-30 15:43:56-05:00|18000|Trond Myklebust|Trond.Myklebust@netapp.com|2012-01-31 19:28:24-05:00|18000

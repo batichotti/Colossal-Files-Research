@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d447e794a37288ec7a080aa1b044a8d9deebbab7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cifs: Fix uninitialized memory read in smb3_qfs_tcon()
-
-oparms was not fully initialized
-
-Signed-off-by: Volker Lendecke <vl@samba.org>
-Reviewed-by: Paulo Alcantara (SUSE) <pc@cjr.nz>
-Cc: stable@vger.kernel.org
-Signed-off-by: Steve French <stfrench@microsoft.com>"|1|Volker Lendecke|vl@samba.org|2023-01-11 12:37:58+01:00|-3600|Steve French|stfrench@microsoft.com|2023-02-20 11:48:48-06:00|21600

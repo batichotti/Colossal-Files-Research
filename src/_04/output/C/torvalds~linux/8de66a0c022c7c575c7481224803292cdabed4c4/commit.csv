@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8de66a0c022c7c575c7481224803292cdabed4c4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"slub: Fix up missing kmalloc_cache -> kmem_cache_node case for memoryhotplug
-
-Memory hotplug allocates and frees per node structures. Use the correct name.
-
-Acked-by: David Rientjes <rientjes@google.com>
-Acked-by: Randy Dunlap <randy.dunlap@oracle.com>
-Signed-off-by: Christoph Lameter <cl@linux.com>
-Signed-off-by: Pekka Enberg <penberg@kernel.org>"|1|Christoph Lameter|cl@linux.com|2010-08-25 14:51:14-05:00|18000|Pekka Enberg|penberg@kernel.org|2010-10-02 10:24:28+03:00|-10800

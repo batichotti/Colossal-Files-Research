@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a56476962e92a6c389a1a561274d4a27607b7b5f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[TCP]: Kill bogus comment above tcp_tso_acked().
-
-Everything stated there is out of data.  tcp_trim_skb()
-does adjust the available socket send buffer space and
-skb->truesize now.
-
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|David S. Miller|davem@davemloft.net|2005-07-05 15:20:41-07:00|25200|David S. Miller|davem@davemloft.net|2005-07-05 15:20:41-07:00|25200

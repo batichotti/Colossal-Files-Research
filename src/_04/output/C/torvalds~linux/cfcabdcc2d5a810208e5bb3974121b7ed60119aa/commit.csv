@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cfcabdcc2d5a810208e5bb3974121b7ed60119aa|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[NET]: sparse warning fixes
-
-Fix a bunch of sparse warnings. Mostly about 0 used as
-NULL pointer, and shadowed variable declarations.
-One notable case was that hash size should have been unsigned.
-
-Signed-off-by: Stephen Hemminger <shemminger@linux-foundation.org>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|19|Stephen Hemminger|shemminger@linux-foundation.org|2007-10-09 01:59:42-07:00|25200|David S. Miller|davem@sunset.davemloft.net|2007-10-10 16:54:48-07:00|25200

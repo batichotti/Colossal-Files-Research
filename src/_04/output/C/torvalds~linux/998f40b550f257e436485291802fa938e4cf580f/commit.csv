@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|998f40b550f257e436485291802fa938e4cf580f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS4: nfs4_opendata_access should return errno
-
-Return errno - not an NFS4ERR_. This worked because NFS4ERR_ACCESS == EACCES.
-
-Signed-off-by: Weston Andros Adamson <dros@netapp.com>
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|1|Weston Andros Adamson|dros@netapp.com|2012-11-02 18:00:56-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2012-11-02 18:51:54-04:00|14400

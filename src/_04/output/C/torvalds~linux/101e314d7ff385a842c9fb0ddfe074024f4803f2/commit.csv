@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|101e314d7ff385a842c9fb0ddfe074024f4803f2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"s390/qeth: reject unsupported link type earlier
-
-Rather than delaying the decision until netdev setup, immediately reject
-a device when we discover that it has an unsupported link type
-(ie. Token Ring).
-
-Signed-off-by: Julian Wiedmann <jwi@linux.ibm.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Julian Wiedmann|jwi@linux.ibm.com|2020-07-14 16:22:56+02:00|-7200|David S. Miller|davem@davemloft.net|2020-07-14 14:53:44-07:00|25200

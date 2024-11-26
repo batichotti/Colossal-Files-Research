@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|76201b6354bb3aa31c7ba2bd42b9cbb8dda71c44|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ceph: allow connecting to mds whose rank >= mdsmap::m_max_mds
-
-mdsmap::m_max_mds is the expected count of active mds. It's not the
-max rank of active mds. User can decrease mdsmap::m_max_mds, but does
-not stop mds whose rank >= mdsmap::m_max_mds.
-
-Signed-off-by: ""Yan, Zheng"" <zyan@redhat.com>
-Signed-off-by: Ilya Dryomov <idryomov@gmail.com>"|4|Yan, Zheng|zyan@redhat.com|2017-03-28 17:04:13+08:00|-28800|Ilya Dryomov|idryomov@gmail.com|2017-05-04 09:19:20+02:00|-7200

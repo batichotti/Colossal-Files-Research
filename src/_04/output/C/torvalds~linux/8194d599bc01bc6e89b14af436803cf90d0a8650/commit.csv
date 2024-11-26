@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8194d599bc01bc6e89b14af436803cf90d0a8650|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: Carry s_idx in nft_rule_dump_ctx
-
-In order to move the context into struct netlink_callback's scratch
-area, the latter must be unused first.
-
-Signed-off-by: Phil Sutter <phil@nwl.cc>
-Signed-off-by: Florian Westphal <fw@strlen.de>"|1|Phil Sutter|phil@nwl.cc|2023-09-29 21:19:21+02:00|-7200|Florian Westphal|fw@strlen.de|2023-10-10 16:34:28+02:00|-7200

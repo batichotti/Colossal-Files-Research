@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cd9ae5fe47dfb9820976c3c38c70f4b07a5a1c36|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: Fix page-tables reserved bits
-
-KVM does not handle the reserved bits of x86 page tables correctly:
-In PAE, bits 5:8 are reserved in the PDPTE.
-In IA-32e, bit 8 is not reserved.
-
-Signed-off-by: Nadav Amit <namit@cs.technion.ac.il>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|1|Nadav Amit|namit@cs.technion.ac.il|2014-04-04 06:31:04+03:00|-10800|Marcelo Tosatti|mtosatti@redhat.com|2014-04-16 18:59:23-03:00|10800

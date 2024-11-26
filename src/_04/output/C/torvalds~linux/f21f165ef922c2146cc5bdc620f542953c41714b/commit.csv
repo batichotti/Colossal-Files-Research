@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f21f165ef922c2146cc5bdc620f542953c41714b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: introduce alloc_loaded_vmcs
-
-Group together the calls to alloc_vmcs and loaded_vmcs_init.  Soon we'll also
-allocate an MSR bitmap there.
-
-Cc: stable@vger.kernel.org       # prereq for Spectre mitigation
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Paolo Bonzini|pbonzini@redhat.com|2018-01-11 12:16:15+01:00|-3600|Paolo Bonzini|pbonzini@redhat.com|2018-01-27 09:43:12+01:00|-3600

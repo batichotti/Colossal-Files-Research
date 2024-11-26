@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|674b745e22b3caae48ad20422795eefd3f832a7b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cgroup: remove rcu_read_lock()/rcu_read_unlock() in critical section of spin_lock_irq()
-
-spin_lock_irq() already disable preempt, so remove rcu_read_lock().
-
-Signed-off-by: Ran Tian <tianran_trtr@163.com>
-Signed-off-by: Tejun Heo <tj@kernel.org>"|1|Ran Tian|tianran_trtr@163.com|2022-11-23 22:45:14+08:00|-28800|Tejun Heo|tj@kernel.org|2022-11-23 07:16:38-10:00|36000

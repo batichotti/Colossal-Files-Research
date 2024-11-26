@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|59bf6c65a09fff74215517aecffbbdcd67df76e3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tcp: Fix data-races around sk_pacing_rate.
-
-While reading sysctl_tcp_pacing_(ss|ca)_ratio, they can be changed
-concurrently.  Thus, we need to add READ_ONCE() to their readers.
-
-Fixes: 43e122b014c9 (""tcp: refine pacing rate determination"")
-Signed-off-by: Kuniyuki Iwashima <kuniyu@amazon.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Kuniyuki Iwashima|kuniyu@amazon.com|2022-07-22 11:21:59-07:00|25200|David S. Miller|davem@davemloft.net|2022-07-25 12:42:09+01:00|-3600

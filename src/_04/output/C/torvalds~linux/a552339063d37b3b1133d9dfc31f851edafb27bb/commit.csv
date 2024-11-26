@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a552339063d37b3b1133d9dfc31f851edafb27bb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: Carry reset boolean in nft_obj_dump_ctx
-
-Relieve the dump callback from having to inspect nlmsg_type upon each
-call, just do it once at start of the dump.
-
-Signed-off-by: Phil Sutter <phil@nwl.cc>
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|1|Phil Sutter|phil@nwl.cc|2023-10-20 19:34:33+02:00|-7200|Pablo Neira Ayuso|pablo@netfilter.org|2023-10-24 13:16:30+02:00|-7200

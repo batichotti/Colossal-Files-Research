@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a629df7eadffb03e6ce4a8616e62ea29fdf69b6b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"kvm: x86: drop severity of ""generation wraparound"" message
-
-Since most virtual machines raise this message once, it is a bit annoying.
-Make it KERN_DEBUG severity.
-
-Cc: stable@vger.kernel.org
-Fixes: 7a2e8aaf0f6873b47bc2347f216ea5b0e4c258ab
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Paolo Bonzini|pbonzini@redhat.com|2014-12-22 10:43:39+01:00|-3600|Paolo Bonzini|pbonzini@redhat.com|2014-12-27 21:52:28+01:00|-3600

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3563dbdd99603d4339467ddffafe3851aae2e398|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ceph: use msecs_to_jiffies for time conversion
-
-This is only an API consolidation and should make things more readable
-it replaces var * HZ / 1000 by msecs_to_jiffies(var).
-
-Signed-off-by: Nicholas Mc Guire <hofrat@osadl.org>
-Signed-off-by: Yan, Zheng <zyan@redhat.com>"|1|Nicholas Mc Guire|hofrat@osadl.org|2015-02-06 06:52:17-05:00|18000|Ilya Dryomov|idryomov@gmail.com|2015-04-20 17:30:22+03:00|-10800

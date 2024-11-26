@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4758d47e0d685c5e2ee999c355c52d25210c2fbc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: MMU: inline set_spte in FNAME(sync_page)
-
-Since the two callers of set_spte do different things with the results,
-inlining it actually makes the code simpler to reason about.  For example,
-FNAME(sync_page) already has a struct kvm_mmu_page *, but set_spte had to
-fish it back out of sptep's private page data.
-
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|2|Paolo Bonzini|pbonzini@redhat.com|2021-08-17 07:22:32-04:00|14400|Paolo Bonzini|pbonzini@redhat.com|2021-10-01 03:44:54-04:00|14400

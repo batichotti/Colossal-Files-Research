@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|92592285710aebe2de9afa38315b5c3914556905|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: check discard alignment only for SEQWRITE zones
-
-For converntional zones, we don't need to align discard commands to exact zone
-size.
-
-Reviewed-by: Chao Yu <yuchao0@huawei.com>
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|1|Jaegeuk Kim|jaegeuk@kernel.org|2017-02-22 20:18:35-08:00|28800|Jaegeuk Kim|jaegeuk@kernel.org|2017-02-27 09:59:46-08:00|28800

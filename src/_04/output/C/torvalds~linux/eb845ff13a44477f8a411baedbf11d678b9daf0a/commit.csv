@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|eb845ff13a44477f8a411baedbf11d678b9daf0a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libceph: fix safe completion
-
-handle_reply() calls complete_request() only if the first OSD reply
-has ONDISK flag.
-
-Signed-off-by: Yan, Zheng <zheng.z.yan@intel.com>
-Reviewed-by: Sage Weil <sage@inktank.com>"|2|Yan, Zheng|zheng.z.yan@intel.com|2013-05-31 15:54:44+08:00|-28800|Sage Weil|sage@inktank.com|2013-07-03 15:32:44-07:00|25200

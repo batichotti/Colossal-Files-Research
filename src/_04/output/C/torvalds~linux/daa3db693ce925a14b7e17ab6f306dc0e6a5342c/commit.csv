@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|daa3db693ce925a14b7e17ab6f306dc0e6a5342c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: MMU: fix broken page accessed tracking with ept enabled
-
-In current code, if ept is enabled(shadow_accessed_mask = 0), the page
-accessed tracking is lost.
-
-Signed-off-by: Xiao Guangrong <xiaoguangrong@cn.fujitsu.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Xiao Guangrong|xiaoguangrong@cn.fujitsu.com|2010-07-16 11:23:04+08:00|-28800|Avi Kivity|avi@redhat.com|2010-08-02 06:40:57+03:00|-10800

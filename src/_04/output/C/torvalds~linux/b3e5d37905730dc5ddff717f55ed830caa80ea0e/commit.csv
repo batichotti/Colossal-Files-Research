@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b3e5d37905730dc5ddff717f55ed830caa80ea0e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ocfs2: Pass ocfs2_xattr_value_buf into ocfs2_xattr_value_truncate().
-
-The callers of ocfs2_xattr_value_truncate() now pass in
-ocfs2_xattr_value_bufs.  These callers are the ones that calculated the
-xv location, so they are the right starting point.
-
-Signed-off-by: Joel Becker <joel.becker@oracle.com>
-Signed-off-by: Mark Fasheh <mfasheh@suse.com>"|1|Joel Becker|joel.becker@oracle.com|2008-12-09 15:01:04-08:00|28800|Mark Fasheh|mfasheh@suse.com|2009-01-05 08:40:32-08:00|28800

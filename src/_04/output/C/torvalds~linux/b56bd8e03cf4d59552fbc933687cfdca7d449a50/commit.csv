@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b56bd8e03cf4d59552fbc933687cfdca7d449a50|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Remove unused ""kvm"" of kvm_make_vcpu_request()
-
-The ""struct kvm *kvm"" parameter of kvm_make_vcpu_request() is not used,
-so remove it. No functional change intended.
-
-Signed-off-by: Jinrong Liang <cloudliang@tencent.com>
-Message-Id: <20220125095909.38122-19-cloudliang@tencent.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Jinrong Liang|cloudliang@tencent.com|2022-01-25 17:59:08+08:00|-28800|Paolo Bonzini|pbonzini@redhat.com|2022-02-10 13:47:15-05:00|18000

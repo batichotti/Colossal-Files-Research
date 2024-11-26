@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7df4ae9fe85567a1710048da8229bd85e0da9df7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bnxt_en: Implement DCBNL to support host-based DCBX.
-
-Support only IEEE DCBX initially.  Add IEEE DCBNL ops and functions to
-get and set the hardware DCBX parameters.  The DCB code is conditional on
-Kconfig CONFIG_BNXT_DCB.
-
-Signed-off-by: Michael Chan <michael.chan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|6|Michael Chan|michael.chan@broadcom.com|2016-12-02 21:17:17-05:00|18000|David S. Miller|davem@davemloft.net|2016-12-05 13:21:40-05:00|18000

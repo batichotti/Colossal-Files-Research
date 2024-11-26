@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9f08ea848117ab521efcfd3e004d8e1a0edc640c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: keep chain counters away from hot path
-
-These chain counters are only used by the iptables-compat tool, that
-allow users to use the x_tables extensions from the existing nf_tables
-framework. This patch makes nf_tables by ~5% for the general usecase,
-ie. native nft users, where no chain counters are used at all.
-
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|3|Pablo Neira Ayuso|pablo@netfilter.org|2017-07-18 20:18:09+02:00|-7200|Pablo Neira Ayuso|pablo@netfilter.org|2017-07-24 12:23:16+02:00|-7200

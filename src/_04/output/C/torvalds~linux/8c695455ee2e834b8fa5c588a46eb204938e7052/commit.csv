@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8c695455ee2e834b8fa5c588a46eb204938e7052|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"accel/habanalabs: increase reset poll timeout
-
-Due to a firmware bug we need to increase reset poll timeout
-or else we will timeout in secured environments.
-
-Signed-off-by: Ofir Bitton <obitton@habana.ai>
-Reviewed-by: Oded Gabbay <ogabbay@kernel.org>
-Signed-off-by: Oded Gabbay <ogabbay@kernel.org>"|1|Ofir Bitton|obitton@habana.ai|2023-03-08 15:04:45+02:00|-7200|Oded Gabbay|ogabbay@kernel.org|2023-03-20 17:35:29+02:00|-7200

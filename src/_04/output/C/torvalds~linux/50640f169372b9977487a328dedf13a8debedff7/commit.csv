@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|50640f169372b9977487a328dedf13a8debedff7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nl80211: advertise HT/VHT channel limitations
-
-When drivers or regulatory have limitations on
-40, 80 or 160 MHz channels, advertise these to
-userspace via nl80211. Also add a new feature
-flag to let userspace know this is supported.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|3|Johannes Berg|johannes.berg@intel.com|2012-12-12 17:59:39+01:00|-3600|Johannes Berg|johannes.berg@intel.com|2013-02-15 09:41:38+01:00|-3600

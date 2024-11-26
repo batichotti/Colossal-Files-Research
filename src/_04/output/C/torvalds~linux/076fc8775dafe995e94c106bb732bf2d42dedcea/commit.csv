@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|076fc8775dafe995e94c106bb732bf2d42dedcea|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wifi: cfg80211: remove wdev mutex
-
-Since we're now protecting everything with the wiphy mutex
-(and were really using it for almost everything before),
-there's no longer any real reason to have a separate wdev
-mutex. It may feel better, but really has no value.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|35|Johannes Berg|johannes.berg@intel.com|2023-08-29 12:18:56+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2023-09-11 11:27:23+02:00|-7200

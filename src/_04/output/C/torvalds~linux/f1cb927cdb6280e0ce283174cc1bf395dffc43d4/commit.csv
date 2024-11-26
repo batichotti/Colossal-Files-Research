@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f1cb927cdb6280e0ce283174cc1bf395dffc43d4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libbpf: Ensure print callback usage is thread-safe
-
-This patch prevents races on the print function pointer, allowing the
-libbpf_set_print() function to become thread-safe.
-
-Signed-off-by: JP Kobryn <inwardvessel@gmail.com>
-Signed-off-by: Andrii Nakryiko <andrii@kernel.org>
-Link: https://lore.kernel.org/bpf/20230325010845.46000-1-inwardvessel@gmail.com"|2|JP Kobryn|inwardvessel@gmail.com|2023-03-24 18:08:45-07:00|25200|Andrii Nakryiko|andrii@kernel.org|2023-03-27 11:33:43-07:00|25200

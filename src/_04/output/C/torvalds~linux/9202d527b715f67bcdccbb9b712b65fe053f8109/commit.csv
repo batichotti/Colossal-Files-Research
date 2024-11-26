@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9202d527b715f67bcdccbb9b712b65fe053f8109|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"memcg: convert mem_cgroup_swap_full() to take a folio
-
-All callers now have a folio, so convert the function to take a folio. 
-Saves a couple of calls to compound_head().
-
-Link: https://lkml.kernel.org/r/20220902194653.1739778-48-willy@infradead.org
-Signed-off-by: Matthew Wilcox (Oracle) <willy@infradead.org>
-Signed-off-by: Andrew Morton <akpm@linux-foundation.org>"|5|Matthew Wilcox (Oracle)|willy@infradead.org|2022-09-02 20:46:43+01:00|-3600|Andrew Morton|akpm@linux-foundation.org|2022-10-03 14:02:53-07:00|25200

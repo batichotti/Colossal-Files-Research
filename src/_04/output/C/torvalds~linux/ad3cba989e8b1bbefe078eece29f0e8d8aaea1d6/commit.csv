@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ad3cba989e8b1bbefe078eece29f0e8d8aaea1d6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: mediatek: only wake the queue if it is stopped
-
-The current code unconditionally wakes up the queue at the end of each
-tx_poll action. Change the code to only wake up the queues if any of
-them have actually been stopped before.
-
-Signed-off-by: John Crispin <john@phrozen.org>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|John Crispin|john@phrozen.org|2016-06-10 13:28:07+02:00|-7200|David S. Miller|davem@davemloft.net|2016-06-10 23:29:30-07:00|25200

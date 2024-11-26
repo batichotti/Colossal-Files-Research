@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|75880a01124c6aa5d428bdc14163039a87618be1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: Reinitialize the real-mode tss when entering real mode
-
-Protected mode code may have corrupted the real-mode tss, so re-initialize
-it when switching to real mode.
-
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|1|Avi Kivity|avi@qumranet.com|2007-06-20 11:20:04+03:00|-10800|Avi Kivity|avi@qumranet.com|2007-07-16 12:05:48+03:00|-10800

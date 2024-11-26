@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a87e3a67d57472f40da2218793ff6d25c4518498|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] scsi_debug: set resid to indicate no data-in when medium error
-
-set resid to the requested data-in length when a MEDIUM ERROR is
-simulated. This implies no valid data is returned in the data-in
-buffer
-
-Signed-off-by: Douglas Gilbert <dgilbert@interlog.com>
-Signed-off-by: James Bottomley <James.Bottomley@suse.de>"|1|Douglas Gilbert|dgilbert@interlog.com|2010-12-17 19:16:06-05:00|18000|James Bottomley|James.Bottomley@suse.de|2010-12-22 23:26:49-06:00|21600

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f51115b9ab5b9cfd0b7be1cce75afbf3ffbcdd87|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"selinux: remove secondary ops call to inode_follow_link
-
-Remove secondary ops call to inode_follow_link, which is
-a noop in capabilities.
-
-Acked-by: Serge Hallyn <serue@us.ibm.com>
-Signed-off-by: James Morris <jmorris@namei.org>"|1|James Morris|jmorris@namei.org|2009-01-29 12:10:56+11:00|-39600|James Morris|jmorris@namei.org|2009-01-30 08:55:08+11:00|-39600

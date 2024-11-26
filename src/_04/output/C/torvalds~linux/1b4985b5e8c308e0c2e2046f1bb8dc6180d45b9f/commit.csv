@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1b4985b5e8c308e0c2e2046f1bb8dc6180d45b9f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"qed: Fix error return code in qed_resc_alloc()
-
-Fix to return error code -EINVAL instead of 0 when EQ elements is
-too larger, as done elsewhere in this function.
-
-Signed-off-by: Wei Yongjun <weiyj.lk@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Wei Yongjun|weiyj.lk@gmail.com|2016-08-02 00:55:34+00:00|0|David S. Miller|davem@davemloft.net|2016-08-01 21:37:35-07:00|25200

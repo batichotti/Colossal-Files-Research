@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|99e22ce73c59ac2d6d08893af376483ca7d62850|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tracing: Make hash-ptr option default
-
-Since the original behavior of the trace events is to hash the %p pointers,
-make that the default, and have developers have to enable the option in
-order to have them unhashed.
-
-Cc: Masami Hiramatsu <mhiramat@kernel.org>
-Signed-off-by: Steven Rostedt (VMware) <rostedt@goodmis.org>"|1|Steven Rostedt (VMware)|rostedt@goodmis.org|2021-02-12 11:51:06-05:00|18000|Steven Rostedt (VMware)|rostedt@goodmis.org|2021-02-12 11:52:59-05:00|18000

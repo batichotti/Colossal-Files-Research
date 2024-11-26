@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2e1e6dad6a6d437e4c40611fdcc4e6cd9e2f969e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/radeon: remove special handling for the DMA ring
-
-Now that we have callbacks for [rw]ptr handling we can
-remove the special handling for the DMA rings and use
-the callbacks instead.
-
-Signed-off-by: Christian König <christian.koenig@amd.com>
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|11|Christian König|christian.koenig@amd.com|2013-08-13 11:56:52+02:00|-7200|Alex Deucher|alexander.deucher@amd.com|2013-08-30 16:30:41-04:00|14400

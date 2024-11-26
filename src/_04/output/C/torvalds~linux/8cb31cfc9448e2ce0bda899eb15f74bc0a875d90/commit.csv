@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8cb31cfc9448e2ce0bda899eb15f74bc0a875d90|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ibmvnic: Non-fatal error handling
-
-Handle non-fatal error conditions. The process to do this when
-resetting the driver is to just do __ibmvnic_close followed by
-__ibmvnic_open.
-
-Signed-off-by: John Allen <jallen@linux.vnet.ibm.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|John Allen|jallen@linux.vnet.ibm.com|2017-05-26 10:30:37-04:00|14400|David S. Miller|davem@davemloft.net|2017-05-26 15:32:45-04:00|14400

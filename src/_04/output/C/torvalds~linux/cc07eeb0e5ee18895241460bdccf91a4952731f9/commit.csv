@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cc07eeb0e5ee18895241460bdccf91a4952731f9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: nft_register_chain_type() returns void
-
-Use WARN_ON() instead since it should not happen that neither family
-goes over NFPROTO_NUMPROTO nor there is already a chain of this type
-already registered.
-
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|12|Pablo Neira Ayuso|pablo@netfilter.org|2018-03-27 11:53:06+02:00|-7200|Pablo Neira Ayuso|pablo@netfilter.org|2018-03-30 11:29:18+02:00|-7200

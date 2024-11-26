@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9d874c36552afbd08778687aeaff24a8a7260f20|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cifs: fix a buffer leak in smb2_query_symlink
-
-This leak was introduced in 91cb74f5142c14dd921ab2d064b7b128054f9fae and caused us
-to leak one small buffer for every symlink query.
-
-Signed-off-by: Ronnie Sahlberg <lsahlber@redhat.com>
-Signed-off-by: Steve French <stfrench@microsoft.com>"|6|Ronnie Sahlberg|lsahlber@redhat.com|2018-06-08 13:21:18+10:00|-36000|Steve French|stfrench@microsoft.com|2018-06-07 23:39:41-05:00|18000

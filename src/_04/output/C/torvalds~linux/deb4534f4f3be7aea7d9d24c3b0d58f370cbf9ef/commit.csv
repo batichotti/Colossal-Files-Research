@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|deb4534f4f3be7aea7d9d24c3b0d58f370cbf9ef|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd: enable NFSv4 state in containers
-
-Currently, NFSd is ready to operate in network namespace based containers.
-So let's drop check for ""init_net"" and make it able to fly.
-
-Signed-off-by: Stanislav Kinsbursky <skinsbursky@parallels.com>
-Signed-off-by: J. Bruce Fields <bfields@redhat.com>"|1|Stanislav Kinsbursky|skinsbursky@parallels.com|2013-02-01 15:56:27+03:00|-10800|J. Bruce Fields|bfields@redhat.com|2013-02-15 11:21:02-05:00|18000

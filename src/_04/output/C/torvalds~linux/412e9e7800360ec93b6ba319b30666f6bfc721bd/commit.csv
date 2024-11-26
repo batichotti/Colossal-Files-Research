@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|412e9e7800360ec93b6ba319b30666f6bfc721bd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ipw2200: prevent alloc of unspecified size on stack
-
-if log_len is larger than 4K then we are killing the stack.
-allocate on heap instead and limit size to what practically can
-be used (PAGE_SIZE)
-
-Signed-off-by: Reinette Chatre <reinette.chatre@intel.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|1|Reinette Chatre|reinette.chatre@intel.com|2007-12-18 22:01:02-08:00|28800|John W. Linville|linville@tuxdriver.com|2007-12-19 21:31:01-05:00|18000

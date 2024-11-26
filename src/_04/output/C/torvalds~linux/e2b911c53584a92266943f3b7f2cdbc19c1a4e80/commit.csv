@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e2b911c53584a92266943f3b7f2cdbc19c1a4e80|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: clean up feature test macros with predicate functions
-
-Create separate predicate functions to test/set/clear feature flags,
-thereby replacing the wordy old macros.  Furthermore, clean out the
-places where we open-coded feature tests.
-
-Signed-off-by: Darrick J. Wong <darrick.wong@oracle.com>"|15|Darrick J. Wong|darrick.wong@oracle.com|2015-10-17 16:18:43-04:00|14400|Theodore Ts'o|tytso@mit.edu|2015-10-17 16:18:43-04:00|14400

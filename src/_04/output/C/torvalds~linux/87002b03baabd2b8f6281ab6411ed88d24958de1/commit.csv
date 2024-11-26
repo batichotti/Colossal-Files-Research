@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|87002b03baabd2b8f6281ab6411ed88d24958de1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: introduce vlan_vid_[add/del] and use them instead of direct [add/kill]_vid ndo calls
-
-This patch adds wrapper for ndo_vlan_rx_add_vid/ndo_vlan_rx_kill_vid
-functions. Check for NETIF_F_HW_VLAN_FILTER feature is done in this
-wrapper.
-
-Signed-off-by: Jiri Pirko <jpirko@redhat.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|6|Jiri Pirko|jpirko@redhat.com|2011-12-08 04:11:17+00:00|0|David S. Miller|davem@davemloft.net|2011-12-08 19:52:42-05:00|18000

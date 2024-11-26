@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|696b98f244f77a79840bf420861c996d61c82637|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cgroup: remove unneeded checks
-
-""descendants"" and ""depth"" are declared as int, so they can't be larger
-than INT_MAX.  Static checkers complain and it's slightly confusing for
-humans as well so let's just remove these conditions.
-
-Signed-off-by: Dan Carpenter <dan.carpenter@oracle.com>
-Signed-off-by: Tejun Heo <tj@kernel.org>"|1|Dan Carpenter|dan.carpenter@oracle.com|2017-08-09 13:25:21+03:00|-10800|Tejun Heo|tj@kernel.org|2017-08-11 10:33:28-07:00|25200

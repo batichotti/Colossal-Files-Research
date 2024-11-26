@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f8fb3110635c91a375399450dc5a4a79a83b0414|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"RDMA/mlx5: Remove npages from mlx5_ib_cont_pages()
-
-Most callers don't need this, and the few that do can get it as
-ib_umem_num_pages(umem).
-
-Link: https://lore.kernel.org/r/20201026131936.1335664-8-leon@kernel.org
-Signed-off-by: Leon Romanovsky <leonro@nvidia.com>
-Signed-off-by: Jason Gunthorpe <jgg@nvidia.com>"|7|Jason Gunthorpe|jgg@nvidia.com|2020-10-26 15:19:36+02:00|-7200|Jason Gunthorpe|jgg@nvidia.com|2020-11-02 14:52:26-04:00|14400

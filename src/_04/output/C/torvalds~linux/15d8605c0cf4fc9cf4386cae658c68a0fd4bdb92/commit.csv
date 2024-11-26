@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|15d8605c0cf4fc9cf4386cae658c68a0fd4bdb92|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: remove annotation to access set timeout while holding lock
-
-Mutex is held when adding an element, no need for READ_ONCE, remove it.
-
-Fixes: 123b99619cca (""netfilter: nf_tables: honor set timeout and garbage collection updates"")
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|1|Pablo Neira Ayuso|pablo@netfilter.org|2024-09-03 01:07:06+02:00|-7200|Pablo Neira Ayuso|pablo@netfilter.org|2024-09-03 18:18:31+02:00|-7200

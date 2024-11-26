@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bee7eb2da2fb50ccf76cb7596d20e90d28de040c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Turn force VDD back off when panel running in intel_dp_dpms
-
-The VDD force bit is turned on before touching the panel, but if it
-was enabled, there was no call to turn it back off. Add a call.
-
-Signed-off-by: Keith Packard <keithp@keithp.com>
-Reviewed-by: Daniel Vetter <daniel.vetter@ffwll.ch>"|1|Keith Packard|keithp@keithp.com|2011-09-28 16:28:00-07:00|25200|Keith Packard|keithp@keithp.com|2011-09-30 16:23:46-07:00|25200

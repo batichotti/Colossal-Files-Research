@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7f859ecfa8d6e647d6c794c8af44d209c8372e77|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net/mlx5e: Set SQ max rate on mlx5e_open_txqsq rather on open_channel
-
-Instead of iterating over the channel SQs to set their max rate, do it
-on SQ creation per TXQ SQ.
-
-Signed-off-by: Saeed Mahameed <saeedm@mellanox.com>
-Reviewed-by: Tariq Toukan <tariqt@mellanox.com>"|1|Saeed Mahameed|saeedm@mellanox.com|2016-11-14 13:42:02+02:00|-7200|Saeed Mahameed|saeedm@mellanox.com|2017-03-27 15:08:12+03:00|-10800

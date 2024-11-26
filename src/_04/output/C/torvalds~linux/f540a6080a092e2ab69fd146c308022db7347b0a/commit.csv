@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f540a6080a092e2ab69fd146c308022db7347b0a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sched: wakeup-buddy tasks are cache-hot
-
-Wakeup-buddy tasks are cache-hot - this makes it a bit harder
-for the load-balancer to tear them apart. (but it's still possible,
-if the load is sufficiently assymetric)
-
-Signed-off-by: Ingo Molnar <mingo@elte.hu>"|1|Ingo Molnar|mingo@elte.hu|2008-03-15 17:10:34+01:00|-3600|Ingo Molnar|mingo@elte.hu|2008-03-19 04:27:53+01:00|-3600

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ca6d60f3f18b78d37b7a93262108ade0727d1441|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mm: Turn putback_lru_page() into folio_putback_lru()
-
-Add a putback_lru_page() wrapper.  Removes a couple of compound_head()
-calls.
-
-Signed-off-by: Matthew Wilcox (Oracle) <willy@infradead.org>
-Reviewed-by: Christoph Hellwig <hch@lst.de>"|3|Matthew Wilcox (Oracle)|willy@infradead.org|2022-01-21 08:41:46-05:00|18000|Matthew Wilcox (Oracle)|willy@infradead.org|2022-03-21 12:59:01-04:00|14400

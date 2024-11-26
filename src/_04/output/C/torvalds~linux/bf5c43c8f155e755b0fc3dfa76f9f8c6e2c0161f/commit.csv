@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bf5c43c8f155e755b0fc3dfa76f9f8c6e2c0161f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd4: check for uninitialized slot
-
-This fixes an oops when a buggy client tries to use an initial seqid of
-0 on a new slot, which we may misinterpret as a replay.
-
-Signed-off-by: J. Bruce Fields <bfields@redhat.com>"|2|J. Bruce Fields|bfields@redhat.com|2012-02-13 16:56:19-05:00|18000|J. Bruce Fields|bfields@redhat.com|2012-02-14 17:01:58-05:00|18000

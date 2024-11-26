@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e042d1ec4417981dfe9331e47b76f17929bc2ffe|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: remove BUG_ON()'s in btrfs_map_block
-
-btrfs_map_block can go horribly wrong in the face of fs corruption, lets agree
-to not be assholes and panic at any possible chance things are all fucked up.
-
-Signed-off-by: Josef Bacik <jbacik@fb.com>
-[ removed type casts ]
-Signed-off-by: David Sterba <dsterba@suse.com>"|1|Josef Bacik|jbacik@fb.com|2016-04-12 12:54:40-04:00|14400|David Sterba|dsterba@suse.com|2016-05-06 15:22:49+02:00|-7200

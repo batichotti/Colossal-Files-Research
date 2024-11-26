@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2cb5cc8b09c939c77826635956c35995b15c9331|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: support read-only images
-
-Add a rocompat feature, ""readonly"" to mark a FS image as read-only.
-The feature prevents the kernel and e2fsprogs from changing the image;
-the flag can be toggled by tune2fs.
-
-Signed-off-by: Darrick J. Wong <darrick.wong@oracle.com>
-Signed-off-by: Theodore Ts'o <tytso@mit.edu>"|2|Darrick J. Wong|darrick.wong@oracle.com|2015-02-12 22:31:21-05:00|18000|Theodore Ts'o|tytso@mit.edu|2015-02-12 22:31:21-05:00|18000

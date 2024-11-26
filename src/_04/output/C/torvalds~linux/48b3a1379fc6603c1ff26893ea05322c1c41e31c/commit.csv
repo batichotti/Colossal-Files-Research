@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|48b3a1379fc6603c1ff26893ea05322c1c41e31c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: call call_netdevice_unregister_net_notifiers from unregister
-
-The function does the same thing as the existing code, so rather call
-call_netdevice_unregister_net_notifiers() instead of code duplication.
-
-Signed-off-by: Jiri Pirko <jiri@mellanox.com>
-Reviewed-by: David Ahern <dsahern@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Jiri Pirko|jiri@mellanox.com|2020-01-25 12:17:06+01:00|-3600|David S. Miller|davem@davemloft.net|2020-01-27 11:03:44+01:00|-3600

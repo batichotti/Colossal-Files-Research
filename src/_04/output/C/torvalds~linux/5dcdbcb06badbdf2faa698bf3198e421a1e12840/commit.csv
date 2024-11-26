@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5dcdbcb06badbdf2faa698bf3198e421a1e12840|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915/overlay: Pass interruptible to switch_off()
-
-During DPMS we currently do not want the overlay code to be
-interruptible, so pass that information down and only take the
-uninterrruptible paths.
-
-Signed-off-by: Chris Wilson <chris@chris-wilson.co.uk>
-Reviewed-by: Daniel Vetter <daniel.vetter@ffwll.ch>"|3|Chris Wilson|chris@chris-wilson.co.uk|2010-08-12 13:50:28+01:00|-3600|Chris Wilson|chris@chris-wilson.co.uk|2010-09-08 10:23:52+01:00|-3600

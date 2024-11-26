@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5bb8fc0d1073e867f381316cb1c348fa45e2d602|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: phy: micrel: fix config_intr error handling
-
-Make sure never to update the control register with random data (an
-error code) by checking the return value after reading it.
-
-Signed-off-by: Johan Hovold <johan@kernel.org>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Johan Hovold|johan@kernel.org|2014-11-11 20:00:08+01:00|-3600|David S. Miller|davem@davemloft.net|2014-11-12 13:55:35-05:00|18000

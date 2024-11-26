@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|47ee3eb1359a5444efd9f529e3d28c02e8e405e7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rt2x00: Initialize AMPDU_BA_WINSIZE register
-
-Since we're not using the AMPDU_BA_WINSIZE register to force the BlockAck
-window size (we specify it in every TXWI) we should initialize it to 0.
-
-Signed-off-by: Helmut Schaa <helmut.schaa@googlemail.com>
-Signed-off-by: Ivo van Doorn <IvDoorn@gmail.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|2|Helmut Schaa|helmut.schaa@googlemail.com|2010-09-08 20:56:04+02:00|-7200|John W. Linville|linville@tuxdriver.com|2010-09-14 16:03:43-04:00|14400

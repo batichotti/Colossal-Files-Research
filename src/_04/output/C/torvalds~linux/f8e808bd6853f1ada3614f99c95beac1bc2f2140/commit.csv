@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f8e808bd6853f1ada3614f99c95beac1bc2f2140|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Store scan response data in HCI device
-
-The scan response data needs to be stored in HCI device and so
-add a buffer for it and also ensure to clear it when resetting
-the controller.
-
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>"|2|Marcel Holtmann|marcel@holtmann.org|2013-10-16 00:16:47-07:00|25200|Johan Hedberg|johan.hedberg@intel.com|2013-10-16 10:30:05+03:00|-10800

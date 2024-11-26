@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|53625b4204753b904addd40ca96d9ba802e6977d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"count_partial() is not used if !SLUB_DEBUG and !CONFIG_SLABINFO
-
-Avoid warnings about unused functions if neither SLUB_DEBUG nor CONFIG_SLABINFO
-is defined. This patch will be reversed when slab defrag is merged since slab
-defrag requires count_partial() to determine the fragmentation status of
-slab caches.
-
-Signed-off-by: Christoph Lameter <clameter@sgi.com>"|1|Christoph Lameter|clameter@sgi.com|2008-03-19 13:42:07-07:00|25200|Christoph Lameter|clameter@sgi.com|2008-03-26 10:42:28-07:00|25200

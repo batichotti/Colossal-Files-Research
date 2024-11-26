@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|820ae1b865caa05e0614004d0183ca70de2b8665|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[Bluetooth] Always include MTU in L2CAP config responses
-
-When sending a positive config response it shall include the actual
-MTU to be used on this channel. This differs from the Bluetooth 1.1
-specification where it was enough to acknowledge the config request.
-
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|1|Marcel Holtmann|marcel@holtmann.org|2006-11-18 22:15:00+01:00|-3600|David S. Miller|davem@sunset.davemloft.net|2006-11-21 16:16:31-08:00|28800

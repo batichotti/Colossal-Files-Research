@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bf89d16f6ef5389f1b9d8046e838ec87b9b3f8b9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: rename {ext,idx}_pblock and inline small extent functions
-
-Cleanup namespace leaks from fs/ext4 and the inline trivial functions
-ext4_{ext,idx}_pblock() and ext4_{ext,idx}_store_pblock() since the
-code size actually shrinks when we make these functions inline,
-they're so trivial.
-
-Signed-off-by: ""Theodore Ts'o"" <tytso@mit.edu>"|4|Theodore Ts'o|tytso@mit.edu|2010-10-27 21:30:14-04:00|14400|Theodore Ts'o|tytso@mit.edu|2010-10-27 21:30:14-04:00|14400

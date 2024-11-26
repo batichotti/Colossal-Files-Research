@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|527afb4493c2892ce89fb74648e72a30b68ba120|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: cleanup: remove unnecessary check before btrfs_free_path is called
-
-We need not check path before btrfs_free_path() is called because
-path is checked in btrfs_free_path().
-
-Signed-off-by: Tsutomu Itoh <t-itoh@jp.fujitsu.com>
-Reviewed-by: Qu Wenruo <quwenruo@cn.fujitsu.com>
-Signed-off-by: Chris Mason <clm@fb.com>"|3|Tsutomu Itoh|t-itoh@jp.fujitsu.com|2015-08-19 14:55:00+09:00|-32400|Chris Mason|clm@fb.com|2015-08-31 11:46:41-07:00|25200

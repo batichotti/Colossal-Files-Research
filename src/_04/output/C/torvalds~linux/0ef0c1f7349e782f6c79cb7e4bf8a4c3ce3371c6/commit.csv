@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0ef0c1f7349e782f6c79cb7e4bf8a4c3ce3371c6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/radeon/kms: move r7xx/evergreen to its own vram_gtt setup function
-
-MC_VM_FB_LOCATION is at a different offset between r6xx and r7xx/evergreen.
-The location is needed for vram setup on fusion chips.
-
-Signed-off-by: Alex Deucher <alexdeucher@gmail.com>
-Signed-off-by: Dave Airlie <airlied@redhat.com>"|4|Alex Deucher|alexdeucher@gmail.com|2010-11-22 17:56:26-05:00|18000|Dave Airlie|airlied@redhat.com|2010-11-23 09:23:23+10:00|-36000

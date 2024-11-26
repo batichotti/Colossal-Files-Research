@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9f8955cc468ddb7d08a0e614a45f9a82c4019b00|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ipv6: Merge __ip6_local_out and __ip6_local_out_sk
-
-Only __ip6_local_out_sk has callers so rename __ip6_local_out_sk
-__ip6_local_out and remove the previous __ip6_local_out.
-
-Signed-off-by: ""Eric W. Biederman"" <ebiederm@xmission.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|4|Eric W. Biederman|ebiederm@xmission.com|2015-10-07 16:48:39-05:00|18000|David S. Miller|davem@davemloft.net|2015-10-08 04:26:58-07:00|25200

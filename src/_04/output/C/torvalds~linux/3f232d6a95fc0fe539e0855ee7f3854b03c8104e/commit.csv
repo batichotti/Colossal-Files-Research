@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3f232d6a95fc0fe539e0855ee7f3854b03c8104e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md/raid5: add rcu protection to rdev accesses in want_replace
-
-Being in the middle of resync is no longer protection against failed
-rdevs disappearing.  So add rcu protection.
-
-Signed-off-by: NeilBrown <neilb@suse.com>
-Signed-off-by: Shaohua Li <shli@fb.com>"|1|NeilBrown|neilb@suse.com|2016-06-02 16:19:52+10:00|-36000|Shaohua Li|shli@fb.com|2016-06-13 11:54:19-07:00|25200

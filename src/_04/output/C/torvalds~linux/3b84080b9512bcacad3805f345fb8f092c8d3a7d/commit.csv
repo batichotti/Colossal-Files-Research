@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3b84080b9512bcacad3805f345fb8f092c8d3a7d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: move msr_ia32_feature_control to vcpu_vmx
-
-msr_ia32_feature_control will be used for LMCE and not depend only on
-nested anymore, so move it from struct nested_vmx to struct vcpu_vmx.
-
-Signed-off-by: Haozhong Zhang <haozhong.zhang@intel.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Haozhong Zhang|haozhong.zhang@intel.com|2016-06-22 14:59:54+08:00|-28800|Paolo Bonzini|pbonzini@redhat.com|2016-06-23 19:17:28+02:00|-7200

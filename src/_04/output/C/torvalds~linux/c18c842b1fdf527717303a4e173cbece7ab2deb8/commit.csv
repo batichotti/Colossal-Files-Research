@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c18c842b1fdf527717303a4e173cbece7ab2deb8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[CIFS] Allow disabling CIFS Unix Extensions as mount option
-
-Previously the only way to do this was to umount all mounts to that server,
-turn off a proc setting (/proc/fs/cifs/LinuxExtensionsEnabled).
-
-Fixes Samba bugzilla bug number: 4582 (and also 2008)
-
-Signed-off-by: Steve French <sfrench@us.ibm.com>"|9|Steve French|sfrench@us.ibm.com|2007-07-18 23:21:09+00:00|0|Steve French|sfrench@us.ibm.com|2007-07-18 23:21:09+00:00|0

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|41069b4631b98646b530bdbd545b7574faccecf9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"iwlwifi: mvm: better handle several several vifs in BT Coex
-
-When there one vif on 5GHz associating, it would clear all
-the BT Coex constraints. This can't work if there is
-another vif on 2.4GHz. Fix that.
-
-Signed-off-by: Emmanuel Grumbach <emmanuel.grumbach@intel.com>
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|2|Emmanuel Grumbach|emmanuel.grumbach@intel.com|2013-06-25 21:49:19+03:00|-10800|Johannes Berg|johannes.berg@intel.com|2013-07-16 16:13:27+03:00|-10800

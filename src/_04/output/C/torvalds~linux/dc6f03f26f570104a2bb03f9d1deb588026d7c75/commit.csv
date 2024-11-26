@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|dc6f03f26f570104a2bb03f9d1deb588026d7c75|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ftrace: Add warning if tramp hash does not match nr_trampolines
-
-After adding all the records to the tramp_hash, add a check that makes
-sure that the number of records added matches the number of records
-expected to match and do a WARN_ON and disable ftrace if they do
-not match.
-
-Signed-off-by: Steven Rostedt <rostedt@goodmis.org>"|1|Steven Rostedt (Red Hat)|rostedt@goodmis.org|2014-07-24 11:26:11-04:00|14400|Steven Rostedt|rostedt@goodmis.org|2014-07-24 11:26:11-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4a682922817fde4d82fed4303dc902c29d7b2e4e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"regulator: Complain if a voltage range is specified but can't be used
-
-It doesn't make much sense to specify a range of voltages consumers can
-use if they haven't been given permission to change the voltage. Log if
-this happens, probably the user forgot to specify CHANGE_VOLTAGE.
-
-Signed-off-by: Mark Brown <broonie@opensource.wolfsonmicro.com>
-Acked-by: Liam Girdwood <lrg@ti.com>"|1|Mark Brown|broonie@opensource.wolfsonmicro.com|2012-02-09 13:26:13+00:00|0|Mark Brown|broonie@opensource.wolfsonmicro.com|2012-02-09 16:22:18+00:00|0

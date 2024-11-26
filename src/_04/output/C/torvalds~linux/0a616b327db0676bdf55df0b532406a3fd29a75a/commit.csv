@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0a616b327db0676bdf55df0b532406a3fd29a75a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8169: add enum rtl_fw_opcode
-
-Replace the firmware opcode defines with a proper enum. The BUG()
-in rtl_fw_write_firmware() can be removed because the call to
-rtl_fw_data_ok() ensures all opcodes are valid.
-
-Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Heiner Kallweit|hkallweit1@gmail.com|2019-06-03 21:23:43+02:00|-7200|David S. Miller|davem@davemloft.net|2019-06-03 15:38:43-07:00|25200

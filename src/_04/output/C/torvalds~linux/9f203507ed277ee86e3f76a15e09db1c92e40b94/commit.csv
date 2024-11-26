@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9f203507ed277ee86e3f76a15e09db1c92e40b94|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: mark all metadata I/O with REQ_META
-
-As Dave Chinner pointed out at the 2013 LSF/MM workshop, it's
-important that metadata I/O requests are marked as such to avoid
-priority inversions caused by I/O bandwidth throttling.
-
-Signed-off-by: ""Theodore Ts'o"" <tytso@mit.edu>"|4|Theodore Ts'o|tytso@mit.edu|2013-04-20 15:46:17-04:00|14400|Theodore Ts'o|tytso@mit.edu|2013-04-20 15:46:17-04:00|14400

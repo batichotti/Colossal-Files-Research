@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1f18b82c3437a398562e748c22fcd2f71c2e230c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"pNFS: Ensure we commit the layout if it has been invalidated
-
-If the layout is being invalidated on the server, then we must
-invoke nfs_commit_inode() to ensure any commits to the DS get
-cleared out.
-
-Signed-off-by: Trond Myklebust <trond.myklebust@primarydata.com>"|3|Trond Myklebust|trond.myklebust@primarydata.com|2017-04-29 10:10:17-04:00|14400|Trond Myklebust|trond.myklebust@primarydata.com|2017-04-29 11:29:30-04:00|14400

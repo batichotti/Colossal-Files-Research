@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d7c33c4930f569caf6b2ece597432853c4151a45|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sched: Fix task affinity for select_task_rq_fair
-
-While merging select_task_rq_fair() and sched_balance_self() I made
-a mistake that leads to testing the wrong task affinty.
-
-Signed-off-by: Peter Zijlstra <a.p.zijlstra@chello.nl>
-LKML-Reference: <new-submission>
-Signed-off-by: Ingo Molnar <mingo@elte.hu>"|1|Peter Zijlstra|a.p.zijlstra@chello.nl|2009-09-11 12:45:38+02:00|-7200|Ingo Molnar|mingo@elte.hu|2009-09-15 16:01:07+02:00|-7200

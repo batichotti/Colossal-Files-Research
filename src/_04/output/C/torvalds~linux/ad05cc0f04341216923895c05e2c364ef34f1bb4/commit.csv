@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ad05cc0f04341216923895c05e2c364ef34f1bb4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS: Make trace_nfs4_setup_sequence() available to NFS v4.0
-
-This tracepoint displays information about the slot that was chosen for
-the RPC, in addition to session information.  This could be useful
-information for debugging, and we can set the session id hash to 0 to
-indicate that there is no session.
-
-Signed-off-by: Anna Schumaker <Anna.Schumaker@Netapp.com>"|3|Anna Schumaker|Anna.Schumaker@Netapp.com|2017-01-11 13:37:06-05:00|18000|Anna Schumaker|Anna.Schumaker@Netapp.com|2017-01-30 13:14:50-05:00|18000

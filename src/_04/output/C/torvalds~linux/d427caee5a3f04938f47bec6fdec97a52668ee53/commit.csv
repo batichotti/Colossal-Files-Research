@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d427caee5a3f04938f47bec6fdec97a52668ee53|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cxgb4: fix a NULL dereference
-
-Avoid NULL dereference in setup_sge_queues() when the adapter is
-in non offload mode.
-
-Fixes: 0fbc81b3ad51 ('chcr/cxgb4i/cxgbit/RDMA/cxgb4: Allocate resources dynamically for all cxgb4 ULD's')
-Signed-off-by: Ganesh Goudar <ganeshgr@chelsio.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Ganesh Goudar|ganeshgr@chelsio.com|2017-06-16 15:36:09+05:30|-19800|David S. Miller|davem@davemloft.net|2017-06-19 00:02:25-04:00|14400

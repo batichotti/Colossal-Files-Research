@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d7236ac368212bd6fc8b45f050136ee53e6a6f2d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"qla2xxx: Use ATIO type to send correct tmr response
-
-The function value inside se_cmd can change if the TMR is cancelled.
-Use original ATIO Type to correctly determine CTIO response.
-
-Signed-off-by: Swapnil Nagle <swapnil.nagle@purestroage.com>
-Signed-off-by: Himanshu Madhani <himanshu.madhani@qlogic.com>
-Signed-off-by: Nicholas Bellinger <nab@linux-iscsi.org>"|1|Swapnil Nagle|swapnil.nagle@purestorage.com|2016-02-04 11:45:17-05:00|18000|Nicholas Bellinger|nab@linux-iscsi.org|2016-02-06 19:44:35-08:00|28800

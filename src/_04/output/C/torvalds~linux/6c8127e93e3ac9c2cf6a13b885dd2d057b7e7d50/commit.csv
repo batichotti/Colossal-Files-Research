@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6c8127e93e3ac9c2cf6a13b885dd2d057b7e7d50|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"xfs: xfs_bmap_finish_one should map unwritten extents properly
-
-The deferred bmap work state and the log item can transmit unwritten
-state, so the XFS_BMAP_MAP handler must map in extents with that
-unwritten state.
-
-Signed-off-by: Darrick J. Wong <djwong@kernel.org>
-Reviewed-by: Christoph Hellwig <hch@lst.de>"|1|Darrick J. Wong|djwong@kernel.org|2024-02-22 12:45:00-08:00|28800|Darrick J. Wong|djwong@kernel.org|2024-02-22 12:45:00-08:00|28800

@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|20c4cb792de2b5839537a99a469f4529ef1047f5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tcp: remove unused tcp_fin() parameters
-
-tcp_fin() only needs socket pointer, we can remove skb and th params.
-
-Signed-off-by: Eric Dumazet <eric.dumazet@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Eric Dumazet|eric.dumazet@gmail.com|2011-10-20 17:44:03-04:00|14400|David S. Miller|davem@davemloft.net|2011-10-20 17:44:03-04:00|14400

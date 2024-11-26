@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|80d3ac77a84987d5132726f3d7cef342a280f7d9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] mptfusion: move fc event/reset handling to mptfc
-
-Move fibre channel event and reset handling to mptfc.  This will
-result in fewer changes over time that need to be applied to
-either mptbase.c or mptscsih.c.
-
-Signed-off-by: Michael Reed <mdr@sgi.com>
-Signed-off-by: James Bottomley <James.Bottomley@SteelEye.com>"|4|Michael Reed|mdr@sgi.com|2006-05-24 15:07:09-05:00|18000|James Bottomley|jejb@mulgrave.il.steeleye.com|2006-06-10 15:58:37-05:00|18000

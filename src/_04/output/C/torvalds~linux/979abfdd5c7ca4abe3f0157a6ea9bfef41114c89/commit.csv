@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|979abfdd5c7ca4abe3f0157a6ea9bfef41114c89|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ceph: fix trim caps
-
-- don't trim auth cap if there are flusing caps
-- don't trim auth cap if any 'write' cap is wanted
-- allow trimming non-auth cap even if the inode is dirty
-
-Signed-off-by: Yan, Zheng <zheng.z.yan@intel.com>"|1|Yan, Zheng|zheng.z.yan@intel.com|2013-11-22 13:56:24+08:00|-28800|Yan, Zheng|zheng.z.yan@intel.com|2014-01-21 13:29:32+08:00|-28800

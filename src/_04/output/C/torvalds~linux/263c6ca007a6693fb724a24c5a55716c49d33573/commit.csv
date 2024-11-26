@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|263c6ca007a6693fb724a24c5a55716c49d33573|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rbd: rename __rbd_update_snaps to __rbd_refresh_header
-
-This function rereads the entire header and handles any changes in
-it, not just changes in snapshots.
-
-Signed-off-by: Josh Durgin <josh.durgin@dreamhost.com>
-Reviewed-by: Alex Elder <elder@dreamhost.com>
-Reviewed-by: Yehuda Sadeh <yehuda@hq.newdream.net>"|1|Josh Durgin|josh.durgin@dreamhost.com|2011-12-05 10:43:42-08:00|28800|Alex Elder|elder@dreamhost.com|2012-05-14 12:13:09-05:00|18000

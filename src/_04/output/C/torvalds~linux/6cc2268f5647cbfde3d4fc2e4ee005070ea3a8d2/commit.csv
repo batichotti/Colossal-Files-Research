@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6cc2268f5647cbfde3d4fc2e4ee005070ea3a8d2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ksmbd: fix incorrect AllocationSize set in smb2_get_info
-
-If filesystem support sparse file, ksmbd should return allocated size
-using ->i_blocks instead of stat->size. This fix generic/694 xfstests.
-
-Cc: stable@vger.kernel.org
-Signed-off-by: Namjae Jeon <linkinjeon@kernel.org>
-Signed-off-by: Steve French <stfrench@microsoft.com>"|1|Namjae Jeon|linkinjeon@kernel.org|2023-05-19 23:11:33+09:00|-32400|Steve French|stfrench@microsoft.com|2023-05-26 20:27:46-05:00|18000

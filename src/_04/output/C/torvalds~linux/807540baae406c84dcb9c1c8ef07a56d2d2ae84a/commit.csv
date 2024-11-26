@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|807540baae406c84dcb9c1c8ef07a56d2d2ae84a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drivers/net: return operator cleanup
-
-Change ""return (EXPR);"" to ""return EXPR;""
-
-return is not a function, parentheses are not required.
-
-Signed-off-by: Eric Dumazet <eric.dumazet@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|106|Eric Dumazet|eric.dumazet@gmail.com|2010-09-23 05:40:09+00:00|0|David S. Miller|davem@davemloft.net|2010-09-26 18:34:29-07:00|25200

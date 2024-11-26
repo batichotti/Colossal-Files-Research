@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e858fae2b0b8f41f0bed2cdffde25e7c97da38a7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"virtio_net: use common code for virtio_net_hdr and skb GSO conversion
-
-Replace open coded conversion between virtio_net_hdr to skb GSO info with
-virtio_net_hdr_{from,to}_skb
-
-Signed-off-by: Mike Rapoport <rppt@linux.vnet.ibm.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Mike Rapoport|rppt@linux.vnet.ibm.com|2016-06-08 16:09:21+03:00|-10800|David S. Miller|davem@davemloft.net|2016-06-10 23:03:55-07:00|25200

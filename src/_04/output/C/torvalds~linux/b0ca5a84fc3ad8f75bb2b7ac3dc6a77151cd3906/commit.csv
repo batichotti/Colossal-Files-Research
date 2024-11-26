@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b0ca5a84fc3ad8f75bb2b7ac3dc6a77151cd3906|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cgroup: build list of all cgroups under a given cgroupfs_root
-
-Build a list of all cgroups anchored at cgroupfs_root->allcg_list and
-going through cgroup->allcg_node.  The list is protected by
-cgroup_mutex and will be used to improve cgroup file handling.
-
-Signed-off-by: Tejun Heo <tj@kernel.org>
-Acked-by: Li Zefan <lizf@cn.fujitsu.com>"|2|Tejun Heo|tj@kernel.org|2012-04-01 12:09:54-07:00|25200|Tejun Heo|tj@kernel.org|2012-04-01 12:09:54-07:00|25200

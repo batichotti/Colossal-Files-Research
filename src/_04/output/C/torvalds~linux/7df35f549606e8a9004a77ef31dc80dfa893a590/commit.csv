@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7df35f549606e8a9004a77ef31dc80dfa893a590|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Move irqfd resample cap handling to generic code
-
-Now that we have most irqfd code completely platform agnostic, let's move
-irqfd's resample capability return to generic code as well.
-
-Signed-off-by: Alexander Graf <agraf@suse.de>
-Acked-by: Michael S. Tsirkin <mst@redhat.com>"|2|Alexander Graf|agraf@suse.de|2013-04-16 12:12:49+02:00|-7200|Alexander Graf|agraf@suse.de|2013-04-26 20:27:19+02:00|-7200

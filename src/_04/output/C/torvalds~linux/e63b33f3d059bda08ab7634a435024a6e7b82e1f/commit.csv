@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e63b33f3d059bda08ab7634a435024a6e7b82e1f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ath10k: Initialize list-head on vif creation.
-
-If the creation fails, this keeps us from crashing later when
-trying to do a list_del(arvif->list).
-
-Signed-off-by: Ben Greear <greearb@candelatech.com>
-Signed-off-by: Kalle Valo <kvalo@qca.qualcomm.com>"|1|Ben Greear|greearb@candelatech.com|2013-10-22 14:54:14-07:00|25200|Kalle Valo|kvalo@qca.qualcomm.com|2013-10-24 08:33:29+03:00|-10800

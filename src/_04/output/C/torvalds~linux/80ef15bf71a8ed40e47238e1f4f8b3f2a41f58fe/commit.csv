@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|80ef15bf71a8ed40e47238e1f4f8b3f2a41f58fe|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rbd: give rbd_obj_read_sync() buffer void type
-
-Make the buf parameter into which the data is to be read have type
-void pointer.
-
-Signed-off-by: Alex Elder <elder@inktank.com>
-Reviewed-by: Josh Durgin <josh.durgin@inktank.com>"|1|Alex Elder|elder@inktank.com|2013-04-21 12:14:45-05:00|18000|Sage Weil|sage@inktank.com|2013-05-01 21:19:18-07:00|25200

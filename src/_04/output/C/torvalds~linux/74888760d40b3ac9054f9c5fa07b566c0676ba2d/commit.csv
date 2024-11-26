@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|74888760d40b3ac9054f9c5fa07b566c0676ba2d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"dt/net: Eliminate users of of_platform_{,un}register_driver
-
-Get rid of users of of_platform_driver in drivers/net.  The
-of_platform_{,un}register_driver functions are going away, so the
-users need to be converted to using the platform_bus_type directly.
-
-Signed-off-by: Grant Likely <grant.likely@secretlab.ca>"|26|Grant Likely|grant.likely@secretlab.ca|2011-02-22 21:05:51-07:00|25200|Grant Likely|grant.likely@secretlab.ca|2011-02-28 13:22:44-07:00|25200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|113661e07460a6604aacc8ae1b23695a89e7d4b3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: reject NFT_SET_CONCAT with not field length description
-
-It is still possible to set on the NFT_SET_CONCAT flag by specifying a
-set size and no field description, report EINVAL in such case.
-
-Fixes: 1b6345d4160e (""netfilter: nf_tables: check NFT_SET_CONCAT flag if field_count is specified"")
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|1|Pablo Neira Ayuso|pablo@netfilter.org|2024-01-15 12:50:29+01:00|-3600|Pablo Neira Ayuso|pablo@netfilter.org|2024-01-17 12:02:51+01:00|-3600

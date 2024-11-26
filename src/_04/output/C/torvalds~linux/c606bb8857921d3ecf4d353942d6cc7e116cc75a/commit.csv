@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c606bb8857921d3ecf4d353942d6cc7e116cc75a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: Ensure that we call FREE_STATEID when NFSv4.x stateids are revoked
-
-NFSv4.x (x>0) requires us to call TEST_STATEID+FREE_STATEID if a stateid is
-revoked. We will currently fail to do this if the stateid is a delegation.
-
-http://lkml.kernel.org/r/CAN-5tyHwG=Cn2Q9KsHWadewjpTTy_K26ee+UnSvHvG4192p-Xw@mail.gmail.com
-Cc: stable@vger.kernel.org
-Signed-off-by: Trond Myklebust <trond.myklebust@primarydata.com>"|2|Trond Myklebust|trond.myklebust@primarydata.com|2014-10-17 15:15:13+03:00|-10800|Trond Myklebust|trond.myklebust@primarydata.com|2014-11-12 17:19:04-05:00|18000

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c52fb35a8b5dada749d35fbe15ac1f9857b22896|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Bypass irq_pending get/set when using in kernel irqchip
-
-vcpu->irq_pending is saved in get/set_sreg IOCTL, but when in-kernel
-local APIC is used, doing this may occasionally overwrite vcpu->apic to
-an invalid value, as in the vm restore path.
-
-Signed-off-by: Qing He <qing.he@intel.com>"|1|He, Qing|qing.he@intel.com|2007-08-02 14:03:07+03:00|-10800|Avi Kivity|avi@qumranet.com|2007-10-13 10:18:25+02:00|-7200

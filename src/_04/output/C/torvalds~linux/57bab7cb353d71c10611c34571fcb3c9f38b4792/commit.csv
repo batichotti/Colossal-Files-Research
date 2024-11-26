@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|57bab7cb353d71c10611c34571fcb3c9f38b4792|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"staging: android: binder.c: Use more appropriate functions for euid retrieval
-
-Instead of getting the reference to whole credential structure, use
-task_euid() and current_euid() to get it.
-
-Signed-off-by: Tair Rzayev <tair.rzayev@gmail.com>
-Signed-off-by: Greg Kroah-Hartman <gregkh@linuxfoundation.org>"|1|Tair Rzayev|tair.rzayev@gmail.com|2014-05-31 22:43:34+03:00|-10800|Greg Kroah-Hartman|gregkh@linuxfoundation.org|2014-06-01 11:36:47-07:00|25200

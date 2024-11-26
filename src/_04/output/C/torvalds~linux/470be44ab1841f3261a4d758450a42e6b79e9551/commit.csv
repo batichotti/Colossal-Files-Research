@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|470be44ab1841f3261a4d758450a42e6b79e9551|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drbd: detect modification of in-flight buffers
-
-With data-integrity digest enabled, double-check on the sending side
-for modifications by upper layers of buffers under write back,
-so we can tell it appart from corruption on the ""wire"".
-
-Signed-off-by: Philipp Reisner <philipp.reisner@linbit.com>
-Signed-off-by: Lars Ellenberg <lars.ellenberg@linbit.com>"|2|Lars Ellenberg|lars.ellenberg@linbit.com|2010-11-10 10:36:52+01:00|-3600|Philipp Reisner|philipp.reisner@linbit.com|2011-03-10 11:19:08+01:00|-3600

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6fc000e5190234c7e5b244d1e2095d50b630d63f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"change CIFSSMBSetTimes to CIFSSMBSetPathInfo
-
-CIFSSMBSetTimes is a deceptive name. This function does more that just
-set file times. Change it to CIFSSMBSetPathInfo, which is closer to its
-real purpose.
-
-Signed-off-by: Jeff Layton <jlayton@redhat.com>
-Signed-off-by: Steve French <sfrench@us.ibm.com>"|3|Jeff Layton|jlayton@redhat.com|2008-08-02 07:26:12-04:00|14400|Steve French|sfrench@us.ibm.com|2008-08-06 04:24:01+00:00|0

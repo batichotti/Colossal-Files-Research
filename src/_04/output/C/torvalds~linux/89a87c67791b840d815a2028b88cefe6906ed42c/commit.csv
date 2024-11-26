@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|89a87c67791b840d815a2028b88cefe6906ed42c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86 emulator: use aligned variants of SSE register ops
-
-As the the compiler ensures that the memory operand is always aligned
-to a 16 byte memory location, use the aligned variant of MOVDQ for
-read_sse_reg() and write_sse_reg().
-
-Signed-off-by: Mathias Krause <minipli@googlemail.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Mathias Krause|minipli@googlemail.com|2012-08-30 01:30:14+02:00|-7200|Avi Kivity|avi@redhat.com|2012-09-05 12:41:11+03:00|-10800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|17fb0b2b90568182bc969cbe0d76fa07079267e4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: Remove redundant oif checks in rt6_device_match
-
-The oif has already been checked that it is non-zero; the 2 additional
-checks on oif within that if (oif) {...} block are redundant.
-
-CC: YOSHIFUJI Hideaki <yoshfuji@linux-ipv6.org>
-Signed-off-by: David Ahern <dsa@cumulusnetworks.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|David Ahern|dsa@cumulusnetworks.com|2015-09-25 15:22:54-06:00|21600|David S. Miller|davem@davemloft.net|2015-09-28 22:30:24-07:00|25200

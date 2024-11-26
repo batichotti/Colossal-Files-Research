@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|71f74ae48c7fd08ffa0c447dfcea6c7fd3dfefc6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: dsa: mv88e6xxx: Call the common IRQ free code
-
-When free'ing the polled IRQs, call the common irq free code.
-Otherwise the interrupts are left registered, and when we come to load
-the driver a second time, we get an Opps.
-
-Signed-off-by: Andrew Lunn <andrew@lunn.ch>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Andrew Lunn|andrew@lunn.ch|2018-03-25 23:43:15+02:00|-7200|David S. Miller|davem@davemloft.net|2018-03-25 20:43:41-04:00|14400

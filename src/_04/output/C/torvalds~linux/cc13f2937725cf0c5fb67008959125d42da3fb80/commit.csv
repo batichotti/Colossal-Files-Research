@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cc13f2937725cf0c5fb67008959125d42da3fb80|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: pass dev_priv explicitly to HSW_TVIDEO_DIP_CTL
-
-Avoid the implicit dev_priv local variable use, and pass dev_priv
-explicitly to the HSW_TVIDEO_DIP_CTL register macro.
-
-Reviewed-by: Chaitanya Kumar Borah <chaitanya.kumar.borah@intel.com>
-Link: https://patchwork.freedesktop.org/patch/msgid/7261777d02eeb94093ed3510989c6809c66d50da.1716808214.git.jani.nikula@intel.com
-Signed-off-by: Jani Nikula <jani.nikula@intel.com>"|5|Jani Nikula|jani.nikula@intel.com|2024-05-27 14:10:43+03:00|-10800|Jani Nikula|jani.nikula@intel.com|2024-05-28 10:58:18+03:00|-10800

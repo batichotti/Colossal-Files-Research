@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ec2e4523fdba88317e06d0c7a88af3a0860447fc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"CIFS: Add capability to send SMB2 negotiate message
-
-and add negotiate request type to let set_credits know that
-we are only on negotiate stage and no need to make a decision
-about disabling echos and oplocks.
-
-Signed-off-by: Pavel Shilovsky <piastry@etersoft.ru>
-Signed-off-by: Steve French <smfrench@gmail.com>"|8|Pavel Shilovsky|piastry@etersoft.ru|2011-12-27 16:12:43+04:00|-14400|Pavel Shilovsky|pshilovsky@samba.org|2012-07-24 21:54:55+04:00|-14400

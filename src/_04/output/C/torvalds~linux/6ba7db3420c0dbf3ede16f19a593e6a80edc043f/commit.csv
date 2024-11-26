@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6ba7db3420c0dbf3ede16f19a593e6a80edc043f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4.1: Use nfs41_setup_sequence where appropriate
-
-There is no point in using nfs4_setup_sequence or nfs4_sequence_done
-in pure NFSv4.1 functions. We already know that those have sessions...
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|1|Trond Myklebust|Trond.Myklebust@netapp.com|2012-10-22 20:07:20-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2012-12-06 00:30:48+01:00|-3600

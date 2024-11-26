@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|04a51d616929eb96b7a3e547bc11d3bb46af2c9f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: hci_sync: Fix not handling ISO_LINK in hci_abort_conn_sync
-
-ISO_LINK connections where not being handled properly on
-hci_abort_conn_sync which sometimes resulted in sending the wrong
-commands, or in case of having the reject command being sent by the
-socket code (iso.c) which is sort of a layer violation.
-
-Signed-off-by: Luiz Augusto von Dentz <luiz.von.dentz@intel.com>"|3|Luiz Augusto von Dentz|luiz.von.dentz@intel.com|2023-06-27 15:55:47-07:00|25200|Luiz Augusto von Dentz|luiz.von.dentz@intel.com|2023-08-11 11:42:43-07:00|25200

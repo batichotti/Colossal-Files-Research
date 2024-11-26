@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5033d70de16916fe8962c3fdc2ac70ba589dc395|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rtl8xxxu: constify usb_device_id
-
-usb_device_id are not supposed to change at runtime. All functions
-working with usb_device_id provided by <linux/usb.h> work with
-const usb_device_id. So mark the non-const structs as const.
-
-Signed-off-by: Arvind Yadav <arvind.yadav.cs@gmail.com>
-Signed-off-by: Kalle Valo <kvalo@codeaurora.org>"|1|Arvind Yadav|arvind.yadav.cs@gmail.com|2017-08-09 22:00:39+05:30|-19800|Kalle Valo|kvalo@codeaurora.org|2017-08-10 11:56:03+03:00|-10800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f6a290b419a2675c4b77a6b0731cd2a64332365e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] mpt2sas: _scsih_smart_predicted_fault uses GFP_KERNEL in interrupt context
-
-_scsih_smart_predicted_fault is called in an interrupt and therefore
-must allocate memory using GFP_ATOMIC.
-
-Signed-off-by: Anton Blanchard <anton@samba.org>
-Cc: <stable@kernel.org>
-Signed-off-by: James Bottomley <JBottomley@Parallels.com>"|1|Anton Blanchard|anton@samba.org|2011-11-07 22:05:21+11:00|-39600|James Bottomley|JBottomley@Parallels.com|2011-12-12 12:20:49+04:00|-14400

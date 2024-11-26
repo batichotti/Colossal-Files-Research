@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cff502a38394fd33693f6233e03fca363dfa956d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"niu: panic on reset
-
-The reset_task function in the niu driver does not reset the tx and rx
-buffers properly. This leads to panic on reset. This patch is a
-modified implementation of the previously posted fix.
-
-Signed-off-by: Santwona Behera <santwona.behera@sun.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Santwona Behera|santwona.behera@sun.com|2008-09-12 16:04:26-07:00|25200|David S. Miller|davem@davemloft.net|2008-09-12 16:04:26-07:00|25200

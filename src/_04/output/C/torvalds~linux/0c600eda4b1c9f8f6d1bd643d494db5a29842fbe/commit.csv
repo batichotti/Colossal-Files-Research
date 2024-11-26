@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0c600eda4b1c9f8f6d1bd643d494db5a29842fbe|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[IPV6]: Nearly complete kzalloc cleanup for net/ipv6
-
-Stupidly use kzalloc() instead of kmalloc()/memset()
-everywhere where this is possible in net/ipv6/*.c .
-
-Signed-off-by: Ingo Oeser <ioe-lkml@rameria.de>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|8|Ingo Oeser|ioe-lkml@rameria.de|2006-03-20 23:01:32-08:00|28800|David S. Miller|davem@davemloft.net|2006-03-20 23:01:32-08:00|28800

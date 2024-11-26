@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|40e4e713ebb279eb569584836d7cc6b799ed7f7f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: Reduce queue allocation to one in kdump kernel
-
-When in kdump kernel, reduce memory usage by only using a single Queue
-Set for multiqueue devices. So make netif_get_num_default_rss_queues()
-return one, when in kdump kernel.
-
-Signed-off-by: Hariprasad Shenai <hariprasad@chelsio.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Hariprasad Shenai|hariprasad@chelsio.com|2016-06-08 18:09:08+05:30|-19800|David S. Miller|davem@davemloft.net|2016-06-08 11:13:58-07:00|25200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9ef1d4c7c7aca1cd436612b6ca785b726ffb8ed8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[NETLINK]: Missing initializations in dumped data
-
-Mostly missing initialization of padding fields of 1 or 2 bytes length,
-two instances of uninitialized nlmsgerr->msg of 16 bytes length.
-
-Signed-off-by: Patrick McHardy <kaber@trash.net>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|9|Patrick McHardy|kaber@trash.net|2005-06-28 12:55:30-07:00|25200|David S. Miller|davem@davemloft.net|2005-06-28 12:55:30-07:00|25200

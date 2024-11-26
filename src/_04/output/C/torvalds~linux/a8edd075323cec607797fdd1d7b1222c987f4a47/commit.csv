@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a8edd075323cec607797fdd1d7b1222c987f4a47|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sched/fair: cleanup: Remove useless assignment in select_task_rq_fair()
-
-new_cpu is reassigned below, so we do not need this here.
-
-Signed-off-by: Kirill Tkhai <ktkhai@parallels.com>
-Signed-off-by: Peter Zijlstra (Intel) <peterz@infradead.org>
-Link: http://lkml.kernel.org/r/1410529276.3569.24.camel@tkhai
-Signed-off-by: Ingo Molnar <mingo@kernel.org>"|1|Kirill Tkhai|ktkhai@parallels.com|2014-09-12 17:41:16+04:00|-14400|Ingo Molnar|mingo@kernel.org|2014-09-19 12:35:18+02:00|-7200

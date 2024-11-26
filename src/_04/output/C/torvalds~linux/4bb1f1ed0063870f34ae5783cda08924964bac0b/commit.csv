@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4bb1f1ed0063870f34ae5783cda08924964bac0b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rbd: move locking out of rbd_header_set_snap()
-
-Move the calls to get the header semaphore out of
-rbd_header_set_snap() and into its caller.
-
-Signed-off-by: Alex Elder <elder@inktank.com>
-Reviewed-by: Josh Durgin <josh.durgin@inktank.com>"|1|Alex Elder|elder@inktank.com|2012-08-23 23:48:49-05:00|18000|Alex Elder|elder@inktank.com|2012-10-01 14:30:51-05:00|18000

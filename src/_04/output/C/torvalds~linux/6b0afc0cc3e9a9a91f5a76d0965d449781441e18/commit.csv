@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6b0afc0cc3e9a9a91f5a76d0965d449781441e18|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"fs: dlm: don't use deprecated timeout features by default
-
-This patch will disable use of deprecated timeout features if
-CONFIG_DLM_DEPRECATED_API is not set.  The deprecated features
-will be removed in upcoming kernel release v6.2.
-
-Signed-off-by: Alexander Aring <aahringo@redhat.com>
-Signed-off-by: David Teigland <teigland@redhat.com>"|8|Alexander Aring|aahringo@redhat.com|2022-06-22 14:45:23-04:00|14400|David Teigland|teigland@redhat.com|2022-08-01 09:31:38-05:00|18000

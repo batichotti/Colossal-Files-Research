@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|97a93cea887376e13ea7d473ab349181850f4e39|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: qla2xxx: Fix SRB allocation flag to avoid sleeping in IRQ context
-
-This patch fixes SRB allocation flag from GFP_KERNEL to GFP_ATOMIC, to
-prevent sleeping in IRQ context
-
-Signed-off-by: Giridhar Malavali <gmalavali@marvell.com>
-Signed-off-by: Himanshu Madhani <hmadhani@marvell.com>
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|1|Giridhar Malavali|gmalavali@marvell.com|2019-01-24 23:23:46-08:00|28800|Martin K. Petersen|martin.petersen@oracle.com|2019-02-05 21:41:16-05:00|18000

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|53623f1a09c7a7d23b74f0f7d93dba0ebde1006b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: replace netif_tx_{start,stop,wake}_all_queues
-
-Replace netif_tx_{start,stop,wake}_all_queues with the single-queue
-equivalents (i.e. netif_{start,stop,wake}_queue).  Since we are down to
-a single queue, these should peform slightly better.
-
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|3|John W. Linville|linville@tuxdriver.com|2009-10-15 15:10:16-04:00|14400|John W. Linville|linville@tuxdriver.com|2009-10-27 16:48:18-04:00|14400

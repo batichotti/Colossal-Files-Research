@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f26b151977447be3b86f92c91e1caedc9b5eb8bf|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tools/power turbostat: decode MSR_IA32_MISC_ENABLE only on Intel
-
-otherwise, turbostat bails on on AMD Opteron boxes:
-
-turbostat: cpu26: msr offset 0x1a0 read failed: Input/output error
-
-Reported-by: Kamil Kolakowski <kkolakow@redhat.com>
-Signed-off-by: Len Brown <len.brown@intel.com>"|1|Len Brown|len.brown@intel.com|2017-06-23 20:45:54-07:00|25200|Len Brown|len.brown@intel.com|2017-06-24 20:03:41-07:00|25200

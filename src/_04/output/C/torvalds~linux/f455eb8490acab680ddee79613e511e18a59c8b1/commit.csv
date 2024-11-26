@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f455eb8490acab680ddee79613e511e18a59c8b1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"dlm: move lkb idr to xarray datastructure
-
-According to kernel doc idr is deprecated and xarrays should be used
-nowadays. This patch is moving the lkb idr implementation to xarrays.
-
-Signed-off-by: Alexander Aring <aahringo@redhat.com>
-Signed-off-by: David Teigland <teigland@redhat.com>"|3|Alexander Aring|aahringo@redhat.com|2024-05-28 17:12:38-04:00|14400|David Teigland|teigland@redhat.com|2024-05-31 11:04:54-05:00|18000

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4c468fe559f7910b1c6b10d3d223943fdd1b653c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: set TID of internal mgmt packets to 7
-
-The queue mapping of internal mgmt packets is set to VO. Set the TID
-value to match the queue mapping. Otherwise drivers that only look at
-the TID might get confused.
-
-Signed-off-by: Arik Nemtsov <arik@wizery.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|1|Arik Nemtsov|arik@wizery.com|2011-05-03 11:53:07+03:00|-10800|John W. Linville|linville@tuxdriver.com|2011-05-05 14:59:06-04:00|14400

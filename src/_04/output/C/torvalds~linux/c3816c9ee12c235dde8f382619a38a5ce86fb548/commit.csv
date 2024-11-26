@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c3816c9ee12c235dde8f382619a38a5ce86fb548|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ath10k: avoid to set WEP key for TDLS peer
-
-TDLS peer do not need WEP key. Setting WEP key will lead
-to TDLS setup failure. Add fix to avoid setting WEP key
-for TDLS peer.
-
-Signed-off-by: Yingying Tang <yintang@qti.qualcomm.com>
-Signed-off-by: Kalle Valo <kvalo@codeaurora.org>"|1|Yingying Tang|yintang@qti.qualcomm.com|2018-03-28 12:15:23+03:00|-10800|Kalle Valo|kvalo@codeaurora.org|2018-03-29 12:00:12+03:00|-10800

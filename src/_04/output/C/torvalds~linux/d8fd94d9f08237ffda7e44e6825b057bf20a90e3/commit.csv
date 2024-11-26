@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d8fd94d9f08237ffda7e44e6825b057bf20a90e3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ACPI: thinkpad-acpi: use bitfields for module flags
-
-Use a bitfield to hold boolean module-wide flags, to conserve some memory.
-It is easy and it is clean, so we do it just for the heck of it even if it
-saves very little space.
-
-Signed-off-by: Henrique de Moraes Holschuh <hmh@hmh.eng.br>
-Signed-off-by: Len Brown <len.brown@intel.com>"|2|Henrique de Moraes Holschuh|hmh@hmh.eng.br|2007-04-21 11:08:36-03:00|10800|Len Brown|len.brown@intel.com|2007-04-21 23:30:34-04:00|14400

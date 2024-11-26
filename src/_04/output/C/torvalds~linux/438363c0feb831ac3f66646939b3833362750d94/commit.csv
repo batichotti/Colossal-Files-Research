@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|438363c0feb831ac3f66646939b3833362750d94|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tools/bpf: use proper type and uapi perf_event.h header for libbpf
-
-Use __u32 instead u32 in libbpf.c and also use
-uapi perf_event.h instead of tools/perf/perf-sys.h.
-
-Signed-off-by: Yonghong Song <yhs@fb.com>
-Acked-by: Song Liu <songliubraving@fb.com>
-Signed-off-by: Alexei Starovoitov <ast@kernel.org>"|2|Yonghong Song|yhs@fb.com|2018-10-09 16:14:47-07:00|25200|Alexei Starovoitov|ast@kernel.org|2018-10-09 22:03:28-07:00|25200

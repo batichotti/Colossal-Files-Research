@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|af8e50cc7d546c508e9091bbbdf3cf8b243bd8cd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"SELinux: use define for number of bits in the mnt flags mask
-
-We had this random hard coded value of '8' in the code (I put it there)
-for the number of bits to check for mount options.  This is stupid.  Instead
-use the #define we already have which tells us the number of mount
-options.
-
-Signed-off-by: Eric Paris <eparis@redhat.com>"|1|Eric Paris|eparis@redhat.com|2012-08-24 15:59:00-04:00|14400|Eric Paris|eparis@redhat.com|2013-07-25 13:02:58-04:00|14400

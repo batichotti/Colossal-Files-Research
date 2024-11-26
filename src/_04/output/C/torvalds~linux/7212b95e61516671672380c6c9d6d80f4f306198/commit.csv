@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7212b95e61516671672380c6c9d6d80f4f306198|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"fs: Use dquot_load_quota_inode() from filesystems
-
-Use dquot_load_quota_inode from filesystems instead of dquot_enable().
-In all three cases we want to load quota inode and never use the
-function to update quota flags.
-
-Signed-off-by: Jan Kara <jack@suse.cz>"|3|Jan Kara|jack@suse.cz|2019-11-01 18:55:38+01:00|-3600|Jan Kara|jack@suse.cz|2019-11-04 09:58:05+01:00|-3600

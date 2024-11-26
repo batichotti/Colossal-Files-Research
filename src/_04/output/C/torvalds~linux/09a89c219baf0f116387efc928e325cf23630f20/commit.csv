@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|09a89c219baf0f116387efc928e325cf23630f20|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bonding: disallow enslaving a bond to itself
-
-Enslaving a bond to itself leads to an endless loop and hangs the kernel.
-
-Signed-off-by: Jiri Bohac <jbohac@suse.cz>
-Tested-by: Ding Tianhong <dingtianhong@huawei.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Jiri Bohac|jbohac@suse.cz|2014-02-26 18:20:13+01:00|-3600|David S. Miller|davem@davemloft.net|2014-02-26 22:37:12-05:00|18000

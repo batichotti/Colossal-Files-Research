@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1f70385510991992f3aef339982ca790faa52b06|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: s/intel_encoder_disable/intel_encoder_noop
-
-Because that's what it is. Unfortunately we can't rip this out because
-the fb helper has an incetious relationship with the crtc helper - it
-likes to call disable_unused_functions, among other things.
-
-Reviewed-by: Jesse Barnes <jbarnes@virtuousgeek.org>
-Signed-Off-by: Daniel Vetter <daniel.vetter@ffwll.ch>"|9|Daniel Vetter|daniel.vetter@ffwll.ch|2012-07-11 16:51:39+02:00|-7200|Daniel Vetter|daniel.vetter@ffwll.ch|2012-09-06 08:21:27+02:00|-7200

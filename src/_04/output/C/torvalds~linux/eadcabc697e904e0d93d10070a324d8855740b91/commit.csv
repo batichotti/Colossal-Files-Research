@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|eadcabc697e904e0d93d10070a324d8855740b91|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"SELinux: do all flags twiddling in one place
-
-Currently we set the initialize and seclabel flag in one place.  Do some
-unrelated printk then we unset the seclabel flag.  Eww.  Instead do the flag
-twiddling in one place in the code not seperated by unrelated printk.  Also
-don't set and unset the seclabel flag.  Only set it if we need to.
-
-Signed-off-by: Eric Paris <eparis@redhat.com>"|1|Eric Paris|eparis@redhat.com|2012-08-24 15:59:14-04:00|14400|Eric Paris|eparis@redhat.com|2013-07-25 13:03:03-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9b17eb2ce102e3274dafb3776a699969f02f7611|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rbd: whole-object write and zeroout should copyup when snapshots exist
-
-Otherwise, once the parent snapshot is removed, the clone's snapshot
-wouldn't reflect the state of the clone prior to whole-object write or
-zeroout because a deep-copyup was never done (""rbd flatten"" wouldn't do
-it because the modified object would exist in HEAD).
-
-Signed-off-by: Ilya Dryomov <idryomov@gmail.com>"|1|Ilya Dryomov|idryomov@gmail.com|2019-02-28 15:51:39+01:00|-3600|Ilya Dryomov|idryomov@gmail.com|2019-03-05 18:55:17+01:00|-3600

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6a4f139aae77d601bd146a6b3c4e12e7e4e0226f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mlx5: Fix sparse warnings
-
-1. Add required __acquire/__release statements to balance spinlock usage.
-2. Change the index parameter of begin_wqe() to be unsigned to match supplied
-argument type.
-
-Signed-off-by: Eli Cohen <eli@mellanox.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Eli Cohen|eli@dev.mellanox.co.il|2014-12-02 12:26:18+02:00|-7200|David S. Miller|davem@davemloft.net|2014-12-08 20:45:56-05:00|18000

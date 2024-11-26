@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|947da53830690cbd77d7f2b625d0df1f161ffd54|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: MMU: Set the accessed bit on non-speculative shadow ptes
-
-If we populate a shadow pte due to a fault (and not speculatively due to a
-pte write) then we can set the accessed bit on it, as we know it will be
-set immediately on the next guest instruction.  This saves a read-modify-write
-operation.
-
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|2|Avi Kivity|avi@qumranet.com|2008-03-18 11:05:52+02:00|-7200|Avi Kivity|avi@qumranet.com|2008-04-27 12:00:33+03:00|-10800

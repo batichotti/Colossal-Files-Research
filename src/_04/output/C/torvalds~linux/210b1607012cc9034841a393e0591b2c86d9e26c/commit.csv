@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|210b1607012cc9034841a393e0591b2c86d9e26c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: s390: Removed SIE_INTERCEPT_UCONTROL
-
-The SIE_INTERCEPT_UCONTROL can be removed by moving the related code
-from kvm_arch_vcpu_ioctl_run() to vcpu_post_run().
-
-Signed-off-by: Thomas Huth <thuth@linux.vnet.ibm.com>
-Acked-by: Cornelia Huck <cornelia.huck@de.ibm.com>
-Signed-off-by: Cornelia Huck <cornelia.huck@de.ibm.com>"|2|Thomas Huth|thuth@linux.vnet.ibm.com|2013-09-19 16:26:18+02:00|-7200|Cornelia Huck|cornelia.huck@de.ibm.com|2013-11-28 11:08:10+01:00|-3600

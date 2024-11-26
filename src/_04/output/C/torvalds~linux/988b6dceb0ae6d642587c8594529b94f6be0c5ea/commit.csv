@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|988b6dceb0ae6d642587c8594529b94f6be0c5ea|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4.1: remove GETATTR from ds commits
-
-Any COMMIT compound directed to a data server needs to have the
-GETATTR calls suppressed.  We here, make sure the field we are testing
-(data->lseg) is set and refcounted correctly.
-
-Signed-off-by: Fred Isaman <iisaman@netapp.com>
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|3|Fred Isaman|iisaman@netapp.com|2011-03-23 13:27:52+00:00|0|Trond Myklebust|Trond.Myklebust@netapp.com|2011-03-23 15:29:03-04:00|14400

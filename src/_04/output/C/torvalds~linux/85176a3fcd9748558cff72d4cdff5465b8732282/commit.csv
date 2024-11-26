@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|85176a3fcd9748558cff72d4cdff5465b8732282|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wifi: mac80211: check link ID in auth/assoc continuation
-
-Ensure that the link ID matches in auth/assoc continuation,
-otherwise we need to reset all the data.
-
-Fixes: 81151ce462e5 (""wifi: mac80211: support MLO authentication/association with one link"")
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|2|Johannes Berg|johannes.berg@intel.com|2022-09-21 23:01:46+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2022-10-07 15:24:18+02:00|-7200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2c0d0a10ea89456781218f458f6bf72e99d87d2a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rbd: allow null image name
-
-We will know the image id for format 2 parent images, but won't
-initially know its image name.  Avoid making the query for an image
-id in rbd_dev_image_id() if it's already known.
-
-Signed-off-by: Alex Elder <elder@inktank.com>
-Reviewed-by: Josh Durgin <josh.durgin@inktank.com>"|1|Alex Elder|elder@inktank.com|2012-10-30 19:40:33-05:00|18000|Alex Elder|elder@inktank.com|2012-11-01 07:55:42-05:00|18000

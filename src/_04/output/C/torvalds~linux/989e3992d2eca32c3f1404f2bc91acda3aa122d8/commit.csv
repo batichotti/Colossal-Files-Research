@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|989e3992d2eca32c3f1404f2bc91acda3aa122d8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"x86/KVM/VMX: Extend add_atomic_switch_msr() to allow VMENTER only MSRs
-
-The IA32_FLUSH_CMD MSR needs only to be written on VMENTER. Extend
-add_atomic_switch_msr() with an entry_only parameter to allow storing the
-MSR only in the guest (ENTRY) MSR array.
-
-Signed-off-by: Konrad Rzeszutek Wilk <konrad.wilk@oracle.com>
-Signed-off-by: Thomas Gleixner <tglx@linutronix.de>"|1|Konrad Rzeszutek Wilk|konrad.wilk@oracle.com|2018-06-20 22:01:22-04:00|14400|Thomas Gleixner|tglx@linutronix.de|2018-07-04 20:49:41+02:00|-7200

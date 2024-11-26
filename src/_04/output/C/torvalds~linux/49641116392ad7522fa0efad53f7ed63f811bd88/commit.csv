@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|49641116392ad7522fa0efad53f7ed63f811bd88|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"OMAP: DSS2: FEATURES: DSI PLL parameter cleanup
-
-The DSI PLL parameters (regm, regn, regm_dispc, regm_dsi, fint) have different
-fields and also different Max values on OMAP3 and OMAP4. Use dss features to
-calculate the register fields and min/max values based on current OMAP revision.
-
-Signed-off-by: Archit Taneja <archit@ti.com>
-Signed-off-by: Tomi Valkeinen <tomi.valkeinen@ti.com>"|3|Taneja, Archit|archit@ti.com|2011-03-14 23:28:23-05:00|18000|Tomi Valkeinen|tomi.valkeinen@ti.com|2011-03-15 12:35:38+05:30|-19800

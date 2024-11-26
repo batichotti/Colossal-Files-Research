@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7643a7fa16edf180d593f705f4fa5930c40e8d2d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: eDP mode set sequence corrections
-
-We should disable the panel first when shutting down an eDP link.  And
-when turning one on, the panel needs to be enabled before link training
-or eDP I/O won't be enabled.
-
-Signed-off-by: Jesse Barnes <jbarnes@virtuousgeek.org>"|1|Jesse Barnes|jbarnes@virtuousgeek.org|2010-08-11 10:06:44-07:00|25200|Jesse Barnes|jbarnes@virtuousgeek.org|2010-08-18 13:00:21-07:00|25200

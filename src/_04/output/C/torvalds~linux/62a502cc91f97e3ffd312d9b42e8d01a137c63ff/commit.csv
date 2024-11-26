@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|62a502cc91f97e3ffd312d9b42e8d01a137c63ff|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: mvneta: do not redirect frames during reconfiguration
-
-Disable frames injection in mvneta_xdp_xmit routine during hw
-re-configuration in order to avoid hardware hangs
-
-Fixes: b0a43db9087a (""net: mvneta: add XDP_TX support"")
-Signed-off-by: Lorenzo Bianconi <lorenzo@kernel.org>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Lorenzo Bianconi|lorenzo@kernel.org|2020-06-09 00:02:39+02:00|-7200|David S. Miller|davem@davemloft.net|2020-06-09 14:29:15-07:00|25200

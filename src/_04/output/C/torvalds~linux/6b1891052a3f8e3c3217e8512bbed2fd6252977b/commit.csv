@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6b1891052a3f8e3c3217e8512bbed2fd6252977b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd: make nfs4_client_reclaim use an xdr_netobj instead of a fixed char array
-
-This will allow the reclaim_str_hashtbl to store either the recovery
-directory names used by the legacy client tracking code or the full
-client strings used by the nfsdcld client tracking code.
-
-Signed-off-by: Scott Mayhew <smayhew@redhat.com>
-Signed-off-by: J. Bruce Fields <bfields@redhat.com>"|3|Scott Mayhew|smayhew@redhat.com|2019-03-26 18:06:26-04:00|14400|J. Bruce Fields|bfields@redhat.com|2019-04-24 09:46:34-04:00|14400

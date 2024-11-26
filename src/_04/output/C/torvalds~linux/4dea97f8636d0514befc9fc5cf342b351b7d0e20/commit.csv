@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4dea97f8636d0514befc9fc5cf342b351b7d0e20|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"lib/bitmap: change type of bitmap_weight to unsigned long
-
-bitmap_weight() doesn't return negative values, so change it's type
-to unsigned long. It may help compiler to generate better code and
-catch bugs.
-
-Signed-off-by: Yury Norov <yury.norov@gmail.com>"|12|Yury Norov|yury.norov@gmail.com|2022-07-01 05:54:25-07:00|25200|Yury Norov|yury.norov@gmail.com|2022-07-15 06:35:54-07:00|25200

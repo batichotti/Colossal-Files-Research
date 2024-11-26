@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8cab6507f64eff0ccfea01fccbc7e3e05e2aaf7e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"x86/kvm/nVMX: nested state migration for Enlightened VMCS
-
-Add support for get/set of nested state when Enlightened VMCS is in use.
-A new KVM_STATE_NESTED_EVMCS flag to indicate eVMCS on the vCPU was enabled
-is added.
-
-Signed-off-by: Vitaly Kuznetsov <vkuznets@redhat.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|3|Vitaly Kuznetsov|vkuznets@redhat.com|2018-10-16 18:50:09+02:00|-7200|Paolo Bonzini|pbonzini@redhat.com|2018-10-17 00:30:19+02:00|-7200

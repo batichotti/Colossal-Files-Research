@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4acdaf27ebe2034c342f3be57ef49aed1ad885ef|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"switch ->create() to umode_t
-
-vfs_create() ignores everything outside of 16bit subset of its
-mode argument; switching it to umode_t is obviously equivalent
-and it's the only caller of the method
-
-Signed-off-by: Al Viro <viro@zeniv.linux.org.uk>"|54|Al Viro|viro@zeniv.linux.org.uk|2011-07-26 01:42:34-04:00|14400|Al Viro|viro@zeniv.linux.org.uk|2012-01-03 22:54:53-05:00|18000

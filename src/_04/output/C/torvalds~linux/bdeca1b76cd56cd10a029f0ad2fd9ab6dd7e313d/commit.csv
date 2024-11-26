@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bdeca1b76cd56cd10a029f0ad2fd9ab6dd7e313d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: Don't recheck permissions on open in case of recovery cached open
-
-If we already checked the user access permissions on the original open,
-then don't bother checking again on recovery. Doing so can cause a
-deadlock with NFSv4.1, since the may_open() operation is not privileged.
-Furthermore, we can't report an access permission failure here anyway.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|1|Trond Myklebust|Trond.Myklebust@netapp.com|2013-04-23 14:52:44-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2013-04-23 14:52:44-04:00|14400

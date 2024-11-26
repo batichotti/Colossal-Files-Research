@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|166cea4dc3a4f66f020cfb9286225ecd228ab61d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"SMB2: Separate RawNTLMSSP authentication from SMB2_sess_setup
-
-We split the rawntlmssp authentication into negotiate and
-authencate parts. We also clean up the code and add helpers.
-
-Signed-off-by: Sachin Prabhu <sprabhu@redhat.com>
-Signed-off-by: Steve French <smfrench@gmail.com>
-Reviewed-by: Pavel Shilovsky <pshilov@microsoft.com>"|1|Sachin Prabhu|sprabhu@redhat.com|2016-10-07 19:11:22+01:00|-3600|Steve French|smfrench@gmail.com|2016-10-13 19:48:34-05:00|18000

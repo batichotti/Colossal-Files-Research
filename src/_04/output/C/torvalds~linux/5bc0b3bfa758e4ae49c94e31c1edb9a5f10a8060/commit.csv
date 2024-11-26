@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5bc0b3bfa758e4ae49c94e31c1edb9a5f10a8060|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: Make sure BHs are disabled in sock_prot_inuse_add()
-
-prot->destroy is not called with BH disabled. So we must add
-explicit BH disable around call to sock_prot_inuse_add()
-in sctp_destroy_sock()
-
-Signed-off-by: Eric Dumazet <dada1@cosmosbay.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Eric Dumazet|dada1@cosmosbay.com|2008-11-25 13:53:27-08:00|28800|David S. Miller|davem@davemloft.net|2008-11-25 13:53:27-08:00|28800

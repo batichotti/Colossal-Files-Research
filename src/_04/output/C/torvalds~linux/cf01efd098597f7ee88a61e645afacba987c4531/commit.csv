@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cf01efd098597f7ee88a61e645afacba987c4531|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[PATCH] SELinux: cleanup stray variable in selinux_inode_init_security()
-
-Remove an unneded pointer variable in selinux_inode_init_security().
-
-Signed-off-by: James Morris <jmorris@namei.org>
-Acked-by: Stephen Smalley <sds@tycho.nsa.gov>
-Signed-off-by: Andrew Morton <akpm@osdl.org>
-Signed-off-by: Linus Torvalds <torvalds@osdl.org>"|1|James Morris|jmorris@namei.org|2006-03-22 00:09:21-08:00|28800|Linus Torvalds|torvalds@g5.osdl.org|2006-03-22 07:54:07-08:00|28800

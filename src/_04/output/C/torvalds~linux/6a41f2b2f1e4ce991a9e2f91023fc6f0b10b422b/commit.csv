@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6a41f2b2f1e4ce991a9e2f91023fc6f0b10b422b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8169: ensure tx_skb is fully reset after calling rtl8169_unmap_tx_skb
-
-So far tx_skb->skb is the only member of the two structs that is not
-reset. Make understanding the code easier by resetting both structs
-completely in rtl8169_unmap_tx_skb.
-
-Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Heiner Kallweit|hkallweit1@gmail.com|2020-03-06 23:55:42+01:00|-3600|David S. Miller|davem@davemloft.net|2020-03-09 19:07:42-07:00|25200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a1f6019090f2c075b41624c32a825775f6865577|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[BNX2]: Move rx indexes into bnx2_napi struct.
-
-Rx related fields used in NAPI polling are moved from the main
-bnx2 struct to the bnx2_napi struct.
-
-Signed-off-by: Michael Chan <mchan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Michael Chan|mchan@broadcom.com|2007-12-20 19:57:19-08:00|28800|David S. Miller|davem@davemloft.net|2008-01-28 14:57:37-08:00|28800

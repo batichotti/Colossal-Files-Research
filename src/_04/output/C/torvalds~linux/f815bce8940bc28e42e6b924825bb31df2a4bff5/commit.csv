@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f815bce8940bc28e42e6b924825bb31df2a4bff5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: MMU: check reserved bits only if CR4.PSE=1 or CR4.PAE=1
-
-- Check reserved bits only if CR4.PAE=1 or CR4.PSE=1 when guest #PF occurs
-- Fix a typo in reset_rsvds_bits_mask()
-
-Signed-off-by: Xiao Guangrong <xiaoguangrong@cn.fujitsu.com>
-Reviewed-by: Marcelo Tosatti <mtosatti@redhat.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Xiao Guangrong|xiaoguangrong@cn.fujitsu.com|2010-03-19 17:58:53+08:00|-28800|Avi Kivity|avi@redhat.com|2010-05-17 12:16:42+03:00|-10800

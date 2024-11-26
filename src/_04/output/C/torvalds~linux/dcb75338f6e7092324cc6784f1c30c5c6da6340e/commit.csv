@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|dcb75338f6e7092324cc6784f1c30c5c6da6340e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"i40e: use minimal Rx and Tx ring buffers for kdump
-
-Use the minimum of the number of descriptors thus we will allocate the
-minimal ring buffers for kdump.
-
-Signed-off-by: Coiby Xu <coxu@redhat.com>
-Tested-by: Dave Switzer <david.switzer@intel.com>
-Signed-off-by: Tony Nguyen <anthony.l.nguyen@intel.com>"|1|Coiby Xu|coxu@redhat.com|2021-03-04 10:55:42+08:00|-28800|Tony Nguyen|anthony.l.nguyen@intel.com|2021-04-23 09:03:56-07:00|25200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ca0565f5736e67af3172d188577b57e303dd082a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: make bad_pfn static to kvm_main.c
-
-bad_pfn is not used out of kvm_main.c, so mark it static, also move it near
-hwpoison_pfn and fault_pfn
-
-Signed-off-by: Xiao Guangrong <xiaoguangrong@linux.vnet.ibm.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|2|Xiao Guangrong|xiaoguangrong@linux.vnet.ibm.com|2012-07-17 21:54:52+08:00|-28800|Marcelo Tosatti|mtosatti@redhat.com|2012-07-19 21:17:10-03:00|10800

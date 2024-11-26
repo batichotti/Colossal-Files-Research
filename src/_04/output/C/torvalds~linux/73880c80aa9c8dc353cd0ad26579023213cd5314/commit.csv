@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|73880c80aa9c8dc353cd0ad26579023213cd5314|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Break dependency between vcpu index in vcpus array and vcpu_id.
-
-Archs are free to use vcpu_id as they see fit. For x86 it is used as
-vcpu's apic id. New ioctl is added to configure boot vcpu id that was
-assumed to be 0 till now.
-
-Signed-off-by: Gleb Natapov <gleb@redhat.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|9|Gleb Natapov|gleb@redhat.com|2009-06-09 15:56:28+03:00|-10800|Avi Kivity|avi@redhat.com|2009-09-10 08:32:52+03:00|-10800

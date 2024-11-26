@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a95fe067825526b10c8a165df2d77db1ddce42fa|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wifi: mac80211: consider EHT element size in assoc request
-
-We need to consider the (maximum) size of the EHT element
-we'll add for the association request, otherwise we may run
-out of space.
-
-Fixes: 820acc810fb6 (""mac80211: Add EHT capabilities to association/probe request"")
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2022-07-01 16:22:29+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2022-07-15 11:43:18+02:00|-7200

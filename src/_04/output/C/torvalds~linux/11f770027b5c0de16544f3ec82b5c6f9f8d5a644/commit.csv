@@ -1,6 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|11f770027b5c0de16544f3ec82b5c6f9f8d5a644|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rbd: fix leak of ops struct
-
-The ops vector must be freed by the rbd_do_request caller.
-
-Signed-off-by: Sage Weil <sage@newdream.net>"|1|Sage Weil|sage@newdream.net|2011-05-12 16:13:54-07:00|25200|Sage Weil|sage@newdream.net|2011-05-12 20:59:14-07:00|25200

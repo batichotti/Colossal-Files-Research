@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|62208f12451f723cd9e9f1d6d22866a61545e488|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: sctp: simplify sctp_get_port
-
-No need to have an extra ret variable when we directly can return
-the value of sctp_get_port_local().
-
-Signed-off-by: Daniel Borkmann <dborkman@redhat.com>
-Acked-by: Vlad Yasevich <vyasevich@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Daniel Borkmann|dborkman@redhat.com|2013-06-25 18:17:30+02:00|-7200|David S. Miller|davem@davemloft.net|2013-06-25 16:33:05-07:00|25200

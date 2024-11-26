@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8079e8f107bf02e1e5ece89239dd2fb475a4735f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bnxt_en: Refactor code that determines RFS capability.
-
-Add function bnxt_rfs_supported() that determines if the chip supports
-RFS.  Refactor the existing function bnxt_rfs_capable() that determines
-if run-time conditions support RFS.
-
-Signed-off-by: Michael Chan <michael.chan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Michael Chan|michael.chan@broadcom.com|2016-12-29 12:13:37-05:00|18000|David S. Miller|davem@davemloft.net|2016-12-29 14:37:23-05:00|18000

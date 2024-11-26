@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|10b3ad8c21bb4b135768c30dd4c51a1c744da699|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: Do txq_trans_update() in netdev_start_xmit()
-
-That way we don't have to audit every call site to make sure it is
-doing this properly.
-
-Signed-off-by: David S. Miller <davem@davemloft.net>"|7|David S. Miller|davem@davemloft.net|2014-08-29 21:07:24-07:00|25200|David S. Miller|davem@davemloft.net|2014-09-01 17:39:55-07:00|25200

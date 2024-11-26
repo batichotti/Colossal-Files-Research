@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d555c333aa544b222fe077adcd5dfea024b2c913|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: MMU: s/shadow_pte/spte/
-
-We use shadow_pte and spte inconsistently, switch to the shorter spelling.
-
-Rename set_shadow_pte() to __set_spte() to avoid a conflict with the
-existing set_spte(), and to indicate its lowlevelness.
-
-Signed-off-by: Avi Kivity <avi@redhat.com>"|2|Avi Kivity|avi@redhat.com|2009-06-10 14:24:23+03:00|-10800|Avi Kivity|avi@redhat.com|2009-09-10 08:32:51+03:00|-10800

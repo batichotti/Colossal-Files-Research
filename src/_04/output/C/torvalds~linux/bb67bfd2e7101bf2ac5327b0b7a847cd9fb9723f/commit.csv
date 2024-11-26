@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bb67bfd2e7101bf2ac5327b0b7a847cd9fb9723f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/amd/display: do not allocate display_mode_lib unnecessarily
-
-This allocation isn't required and can fail when resuming from suspend.
-
-Bug: https://gitlab.freedesktop.org/drm/amd/issues/1009
-Signed-off-by: Dor Askayo <dor.askayo@gmail.com>
-Reviewed-by: Leo Li <sunpeng.li@amd.com>
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|1|Dor Askayo|dor.askayo@gmail.com|2020-01-04 14:22:15+02:00|-7200|Alex Deucher|alexander.deucher@amd.com|2020-01-27 16:46:45-05:00|18000

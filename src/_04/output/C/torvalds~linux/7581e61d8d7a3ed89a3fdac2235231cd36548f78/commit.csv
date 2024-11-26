@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7581e61d8d7a3ed89a3fdac2235231cd36548f78|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[media] dvb: Remove ops->info.type from frontends
-
-Now that this field is deprecated, and core generates it for
-DVBv3 calls, remove it from the drivers.
-
-It also adds .delsys on the few drivers where this were missed.
-
-Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"|74|Mauro Carvalho Chehab|mchehab@redhat.com|2012-01-01 16:11:18-03:00|10800|Mauro Carvalho Chehab|mchehab@redhat.com|2012-01-04 17:30:34-02:00|7200

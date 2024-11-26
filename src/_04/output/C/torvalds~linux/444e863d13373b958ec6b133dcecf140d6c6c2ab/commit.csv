@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|444e863d13373b958ec6b133dcecf140d6c6c2ab|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: when entering real mode align segment base to 16 bytes
-
-VMX checks that base is equal segment shifted 4 bits left. Otherwise
-guest entry fails.
-
-Signed-off-by: Gleb Natapov <gleb@redhat.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Gleb Natapov|gleb@redhat.com|2010-12-27 17:25:04+02:00|-7200|Avi Kivity|avi@redhat.com|2011-01-12 11:31:20+02:00|-7200

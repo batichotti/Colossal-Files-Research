@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a5e31255e02a0797259f210c3bb92c6326a98a9c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8152: support ndo_features_check
-
-Support ndo_features_check to avoid:
- - the transport offset is more than the hw limitation when using hw checksum.
- - the skb->len of a GSO packet is more than the limitation.
-
-Signed-off-by: Hayes Wang <hayeswang@realtek.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|hayeswang|hayeswang@realtek.com|2015-01-06 17:41:58+08:00|-28800|David S. Miller|davem@davemloft.net|2015-01-06 13:29:13-05:00|18000

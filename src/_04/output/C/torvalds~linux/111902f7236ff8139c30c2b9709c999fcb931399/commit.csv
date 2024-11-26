@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|111902f7236ff8139c30c2b9709c999fcb931399|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Use separate dbg_flags to special debugfs options
-
-All the special settings configured via debugfs are either developer
-only options or temporary solutions. To not clutter the standard flags,
-move them to their own dbg_flags entry.
-
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>"|4|Marcel Holtmann|marcel@holtmann.org|2014-06-21 04:53:17+02:00|-7200|Marcel Holtmann|marcel@holtmann.org|2014-07-03 17:42:43+02:00|-7200

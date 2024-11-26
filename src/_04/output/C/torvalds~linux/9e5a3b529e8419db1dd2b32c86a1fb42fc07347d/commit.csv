@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9e5a3b529e8419db1dd2b32c86a1fb42fc07347d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm: Remove the 'mode' argument from drm_select_eld()
-
-drm_select_eld() doesn't look at the passed in mode, so don't pass it
-in.
-
-Signed-off-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Reviewed-by: Alex Deucher <alexander.deucher@amd.com>
-Signed-off-by: Daniel Vetter <daniel.vetter@ffwll.ch>"|3|Ville Syrjälä|ville.syrjala@linux.intel.com|2015-09-07 18:22:57+03:00|-10800|Daniel Vetter|daniel.vetter@ffwll.ch|2015-09-09 14:53:48+02:00|-7200

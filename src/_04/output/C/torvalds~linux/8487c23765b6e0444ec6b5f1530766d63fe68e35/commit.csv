@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8487c23765b6e0444ec6b5f1530766d63fe68e35|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ftrace: allow trace_pipe to block on all reads
-
-We expect things like ""cat"" to block on reads to trace_pipe. That's what
-trace_pipe is for.
-
-Signed-off-by: Steven Rostedt <srostedt@redhat.com>
-Signed-off-by: Ingo Molnar <mingo@elte.hu>
-Signed-off-by: Thomas Gleixner <tglx@linutronix.de>"|1|Steven Rostedt|rostedt@goodmis.org|2008-05-12 21:20:58+02:00|-7200|Thomas Gleixner|tglx@linutronix.de|2008-05-23 21:46:39+02:00|-7200

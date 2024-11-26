@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5ad81bf49a18dc22bd7e1c56f67be9b5eb50267c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ASoC: codecs: wcd934x: Constify static data
-
-Driver does not modify few static data (arrays with sample rates, MBHC
-reg fields, regmap config), so make them const for code safety.
-
-Signed-off-by: Krzysztof Kozlowski <krzysztof.kozlowski@linaro.org>
-Link: https://msgid.link/r/20240612-asoc-wcd9xxx-wide-cleanups-v1-8-0d15885b2a06@linaro.org
-Signed-off-by: Mark Brown <broonie@kernel.org>"|1|Krzysztof Kozlowski|krzysztof.kozlowski@linaro.org|2024-06-12 18:15:21+02:00|-7200|Mark Brown|broonie@kernel.org|2024-06-18 16:47:20+01:00|-3600

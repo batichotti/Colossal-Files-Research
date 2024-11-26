@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c02c1960c93eede587576625a1221205a68a904f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/amdgpu/pm: Fix the null pointer dereference for smu7
-
-optimize the code to avoid pass a null pointer (hwmgr->backend)
-to function smu7_update_edc_leakage_table.
-
-Signed-off-by: Ma Jun <Jun.Ma2@amd.com>
-Reviewed-by: Yang Wang <kevinyang.wang@amd.com>
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|1|Ma Jun|Jun.Ma2@amd.com|2024-05-10 15:01:59+08:00|-28800|Alex Deucher|alexander.deucher@amd.com|2024-05-17 17:10:01-04:00|14400

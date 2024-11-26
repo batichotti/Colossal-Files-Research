@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8680570b0cae8f66ad28c8de227aab1894428ee5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Return success instead of EALREADY for mgmt commands
-
-When the adapter state is already what is requested it's more friendly
-to user-space to simply report success than to send a EALREADY error
-message.
-
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>
-Signed-off-by: Gustavo F. Padovan <padovan@profusion.mobi>"|1|Johan Hedberg|johan.hedberg@intel.com|2011-11-11 16:18:52+02:00|-7200|Gustavo F. Padovan|padovan@profusion.mobi|2011-11-16 16:05:50-02:00|7200

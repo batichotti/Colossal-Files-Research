@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a5b40d4f038d9ed0e6f34cf2383cb629fe3a2c59|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915/dp: split out intel_dp_test.[ch] to a dedicated file
-
-intel_dp.c has become huge, over 7k lines. Split out the fairly well
-isolated chunk of DP test code to a dedicated file intel_dp_test.[ch].
-
-Reviewed-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Link: https://patchwork.freedesktop.org/patch/msgid/262d565fe59715ba297702b67d4bcca81c736dc0.1726833193.git.jani.nikula@intel.com
-Signed-off-by: Jani Nikula <jani.nikula@intel.com>"|9|Jani Nikula|jani.nikula@intel.com|2024-09-20 14:56:43+03:00|-10800|Jani Nikula|jani.nikula@intel.com|2024-09-23 09:54:15+03:00|-10800

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1b49de26566e7175e8f2d0934db6d9119f553b56|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: supress HT/VHT disable if not supported
-
-If HT/VHT isn't supported by us we shouldn't print
-a message that we disabled it, do that only if the
-AP didn't support WMM and we therefore disable it.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2012-07-27 10:29:14+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2012-07-31 16:18:47+02:00|-7200

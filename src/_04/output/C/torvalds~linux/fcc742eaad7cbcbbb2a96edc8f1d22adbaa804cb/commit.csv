@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fcc742eaad7cbcbbb2a96edc8f1d22adbaa804cb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ring-buffer: Add event descriptor to simplify passing data
-
-Add rb_event_info descriptor to pass event info to functions a bit
-easier than using a bunch of parameters. This will also allow for
-changing the code around a bit to find better fast paths.
-
-Signed-off-by: Steven Rostedt <rostedt@goodmis.org>"|1|Steven Rostedt (Red Hat)|rostedt@goodmis.org|2015-05-28 17:13:14-04:00|14400|Steven Rostedt|rostedt@goodmis.org|2015-07-20 22:30:46-04:00|14400

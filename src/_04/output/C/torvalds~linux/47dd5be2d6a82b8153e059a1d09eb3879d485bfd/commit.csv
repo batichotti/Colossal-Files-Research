@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|47dd5be2d6a82b8153e059a1d09eb3879d485bfd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"workqueue: flush_delayed_work: keep the original workqueue for re-queueing
-
-flush_delayed_work() always uses keventd_wq for re-queueing,
-but it should use the workqueue this dwork was queued on.
-
-Signed-off-by: Oleg Nesterov <oleg@redhat.com>
-Signed-off-by: Tejun Heo <tj@kernel.org>"|1|Oleg Nesterov|oleg@redhat.com|2010-04-30 07:23:51+02:00|-7200|Tejun Heo|tj@kernel.org|2010-04-30 07:24:51+02:00|-7200

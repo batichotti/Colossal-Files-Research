@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a0af469b58944f6e8c5c8ecbebb42997baf0cb9e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Fix btrfs_open_devices to deal with changes since the scan ioctls
-
-Devices can change after the scan ioctls are done, and btrfs_open_devices
-needs to be able to verify them as they are opened and used by the FS.
-
-Signed-off-by: Chris Mason <chris.mason@oracle.com>"|3|Chris Mason|chris.mason@oracle.com|2008-05-13 16:03:06-04:00|14400|Chris Mason|chris.mason@oracle.com|2008-09-25 11:04:03-04:00|14400

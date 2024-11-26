@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|070eca955c4af1248cb78a216463ff757a5dc511|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ibmvnic: Fix completion structure initialization
-
-Fix multiple calls to init_completion for device completion
-structures. Instead, initialize them during device probe and
-reinitialize them later as needed.
-
-Signed-off-by: Thomas Falcon <tlfalcon@linux.ibm.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Thomas Falcon|tlfalcon@linux.ibm.com|2019-11-25 17:12:53-06:00|21600|David S. Miller|davem@davemloft.net|2019-11-26 13:19:30-08:00|28800

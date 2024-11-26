@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7103f60de8bed21a0ad5d15d2ad5b7a333dda201|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: avoid unnecessary synchronize_rcu
-
-We dont have to wait for a grace period if there is no oldpid that
-we are going to free. putpid also checks for NULL, so this patch
-only fences synchronize_rcu.
-
-Signed-off-by: Christian Borntraeger <borntraeger@de.ibm.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Christian Borntraeger|borntraeger@de.ibm.com|2014-08-19 16:45:56+02:00|-7200|Paolo Bonzini|pbonzini@redhat.com|2014-08-21 13:50:22+02:00|-7200

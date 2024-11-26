@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|65a772172b06e6e9b43e5ad77dccbcc767ff9831|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sound: fix drivers needing module.h not moduleparam.h
-
-The implicit presence of module.h lured several users into
-incorrectly thinking that they only needed/used modparam.h
-but once we clean up the module.h presence, these will show
-up as build failures, so fix 'em now.
-
-Signed-off-by: Paul Gortmaker <paul.gortmaker@windriver.com>"|97|Paul Gortmaker|paul.gortmaker@windriver.com|2011-07-15 13:13:37-04:00|14400|Paul Gortmaker|paul.gortmaker@windriver.com|2011-10-31 19:31:19-04:00|14400

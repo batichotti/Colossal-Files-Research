@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2f90b852e3ae73889d7f6de6ecf429b9b6a6b103|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ceph: ignore lease mask
-
-The lease mask is no longer used (and it changed a while back).  Instead,
-use a non-zero duration to indicate that there is a lease being issued.
-
-Reviewed-by: Yehuda Sadeh <yehuda@hq.newdream.net>
-Signed-off-by: Sage Weil <sage@newdream.net>"|3|Sage Weil|sage@newdream.net|2011-07-26 11:28:25-07:00|25200|Sage Weil|sage@newdream.net|2011-07-26 11:28:25-07:00|25200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8357bc946a2abc2a10ca40e5a2105d2b4c57515e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: use correct lock to protect gc_list
-
-Use nf_tables_gc_list_lock spinlock, not nf_tables_destroy_list_lock to
-protect the gc list.
-
-Fixes: 5f68718b34a5 (""netfilter: nf_tables: GC transaction API to avoid race with control plane"")
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>
-Signed-off-by: Florian Westphal <fw@strlen.de>"|1|Pablo Neira Ayuso|pablo@netfilter.org|2023-08-21 14:33:32+02:00|-7200|Florian Westphal|fw@strlen.de|2023-08-23 16:10:01+02:00|-7200

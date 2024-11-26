@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|962a298f35110edd8f326814ae41a3dd306ecb64|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: kill the key type accessor helpers
-
-btrfs_set_key_type and btrfs_key_type are used inconsistently along with
-open coded variants. Other members of btrfs_key are accessed directly
-without any helpers anyway.
-
-Signed-off-by: David Sterba <dsterba@suse.cz>
-Signed-off-by: Chris Mason <clm@fb.com>"|17|David Sterba|dsterba@suse.cz|2014-06-04 18:41:45+02:00|-7200|Chris Mason|clm@fb.com|2014-09-17 13:37:12-07:00|25200

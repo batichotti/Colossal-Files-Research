@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2e9217d1e8b72dde2c7e3e2338cc1830f68cb58d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bnxt_en: Device serial number is supported only for PFs.
-
-Don't read DSN on VFs that do not have the PCI capability.
-
-Fixes: 03213a996531 (""bnxt: move bp->switch_id initialization to PF probe"")
-Signed-off-by: Vasundhara Volam <vasundhara-v.volam@broadcom.com>
-Signed-off-by: Michael Chan <michael.chan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Vasundhara Volam|vasundhara-v.volam@broadcom.com|2019-05-22 19:12:57-04:00|14400|David S. Miller|davem@davemloft.net|2019-05-22 18:02:14-07:00|25200

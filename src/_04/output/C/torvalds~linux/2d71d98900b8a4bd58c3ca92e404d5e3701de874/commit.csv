@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2d71d98900b8a4bd58c3ca92e404d5e3701de874|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ftrace: Return NULL at end of t_start() instead of calling t_hash_start()
-
-The loop in t_start() of calling t_next() will call t_hash_start() if the
-pos is beyond the functions and enters the hash items. There's no reason to
-check if p is NULL and call t_hash_start(), as that would be redundant.
-
-Signed-off-by: Steven Rostedt (VMware) <rostedt@goodmis.org>"|1|Steven Rostedt (VMware)|rostedt@goodmis.org|2017-03-29 21:40:49-04:00|14400|Steven Rostedt (VMware)|rostedt@goodmis.org|2017-03-31 18:00:37-04:00|14400

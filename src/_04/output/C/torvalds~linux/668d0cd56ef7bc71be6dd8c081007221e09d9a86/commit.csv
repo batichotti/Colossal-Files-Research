@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|668d0cd56ef7bc71be6dd8c081007221e09d9a86|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"replace d_add_unique() with saner primitive
-
-new primitive: d_exact_alias(dentry, inode).  If there is an unhashed
-dentry with the same name/parent and given inode, rehash, grab and
-return it.  Otherwise, return NULL.  The only caller of d_add_unique()
-switched to d_exact_alias() + d_splice_alias().
-
-Signed-off-by: Al Viro <viro@zeniv.linux.org.uk>"|3|Al Viro|viro@zeniv.linux.org.uk|2016-03-08 12:44:17-05:00|18000|Al Viro|viro@zeniv.linux.org.uk|2016-03-14 00:17:20-04:00|14400

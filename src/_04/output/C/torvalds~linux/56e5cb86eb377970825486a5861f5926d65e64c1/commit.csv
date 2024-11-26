@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|56e5cb86eb377970825486a5861f5926d65e64c1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Add missing hci_dev locking when calling mgmt functions
-
-Now that the pending commands are within struct hci_dev we can properly
-control access to them throught the hci_dev locking mechanism.
-
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>
-Acked-by: Marcel Holtmann <marcel@holtmann.org>
-Signed-off-by: Gustavo F. Padovan <padovan@profusion.mobi>"|3|Johan Hedberg|johan.hedberg@intel.com|2011-11-08 20:40:16+02:00|-7200|Gustavo F. Padovan|padovan@profusion.mobi|2011-11-09 12:33:46-02:00|7200

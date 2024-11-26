@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3b66486c4c7136f8d4bbe1306d581fadc6bce4c7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4.1: Select the ""most recent locking state"" for read/write/setattr stateids
-
-Follow the practice described in section 8.2.2 of RFC5661: When sending a
-read/write or setattr stateid, set the seqid field to zero in order to
-signal that the NFS server should apply the most recent locking state.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|3|Trond Myklebust|Trond.Myklebust@netapp.com|2013-03-17 15:31:15-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2013-03-25 12:04:11-04:00|14400

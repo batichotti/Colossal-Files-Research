@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3c762a49b12073c96f6a55b4dfc8b6a2a45fedff|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Staging: android: binder: Create dedicated workqueue for binder deferred work
-
-Some drivers flush the global workqueue when closed. This would deadlock if
-the last reference to the file was released from the binder.
-
-Signed-off-by: Arve Hjønnevåg <arve@android.com>
-Signed-off-by: Greg Kroah-Hartman <gregkh@suse.de>"|1|Arve Hjønnevåg|arve@android.com|2010-04-22 15:53:23-07:00|25200|Greg Kroah-Hartman|gregkh@suse.de|2011-11-30 20:51:36+09:00|-32400

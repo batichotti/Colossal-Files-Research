@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e1f99ce6cac3b6a95551642be5ddb5d9c46bea76|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Propagate errors from writing to ringbuffer
-
-Preparing the ringbuffer for adding new commands can fail (a timeout
-whilst waiting for the GPU to catch up and free some space). So check
-for any potential error before overwriting HEAD with new commands, and
-propagate that error back to the user where possible.
-
-Signed-off-by: Chris Wilson <chris@chris-wilson.co.uk>"|8|Chris Wilson|chris@chris-wilson.co.uk|2010-10-27 12:45:26+01:00|-3600|Chris Wilson|chris@chris-wilson.co.uk|2010-10-27 23:26:34+01:00|-3600

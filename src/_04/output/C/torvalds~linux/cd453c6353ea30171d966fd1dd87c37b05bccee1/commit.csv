@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cd453c6353ea30171d966fd1dd87c37b05bccee1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] Use spi_print_msg in ncr53c8xx driver
-
-The ncr53c8xx driver had its own loop to print scsi messages.  Use the
-SPI one instead.
-
-Signed-off-by: Matthew Wilcox <matthew@wil.cx>
-Signed-off-by: James Bottomley <James.Bottomley@SteelEye.com>"|1|Matthew Wilcox|matthew@wil.cx|2005-12-16 12:50:53-05:00|18000|James Bottomley|jejb@mulgrave.(none)|2005-12-16 10:52:38-08:00|28800

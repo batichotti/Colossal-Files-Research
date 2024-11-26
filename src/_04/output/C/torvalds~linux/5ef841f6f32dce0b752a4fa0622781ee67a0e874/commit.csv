@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5ef841f6f32dce0b752a4fa0622781ee67a0e874|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tracing: make print_(b)printk_msg_only global
-
-This patch makes print_printk_msg_only and print_bprintk_msg_only
-global for other functions to use. It also renames them by adding
-a ""trace_"" to the beginning to avoid namespace collisions.
-
-Signed-off-by: Steven Rostedt <srostedt@redhat.com>"|3|Steven Rostedt|srostedt@redhat.com|2009-03-19 12:20:38-04:00|14400|Steven Rostedt|srostedt@redhat.com|2009-03-19 15:57:55-04:00|14400

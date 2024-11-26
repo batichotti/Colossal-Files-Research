@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|522db70286fcce420e5fc1be107912fbd3806323|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Remove unneeded local_amp_id initialization
-
-local_amp_id is already set in l2cap_connect() which is called several
-lines above.
-
-Signed-off-by: Andrei Emeltchenko <andrei.emeltchenko@intel.com>
-Acked-by: Marcel Holtmann <marcel@holtmann.org>
-Signed-off-by: Gustavo Padovan <gustavo.padovan@collabora.co.uk>"|1|Andrei Emeltchenko|andrei.emeltchenko@intel.com|2012-11-15 18:14:55+02:00|-7200|Gustavo Padovan|gustavo.padovan@collabora.co.uk|2012-11-19 19:26:35-02:00|7200

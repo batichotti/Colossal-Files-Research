@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2af8898bed4d127a2b0d9f5109f6089f7f60e424|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Revert ""drm/i915: fix DP get_hw_state return value""
-
-This reverts commit deb18211a110c102d32b3e9ed866bd7d25e0f8d5.
-
-It completely breaks the logic, since when we fall through to the end
-of the function we actually _have_ figured out the correct pipe.
-
-Signed-off-by: Daniel Vetter <daniel.vetter@ffwll.ch>"|1|Daniel Vetter|daniel.vetter@ffwll.ch|2013-04-04 01:15:45+02:00|-7200|Daniel Vetter|daniel.vetter@ffwll.ch|2013-04-05 20:47:21+02:00|-7200

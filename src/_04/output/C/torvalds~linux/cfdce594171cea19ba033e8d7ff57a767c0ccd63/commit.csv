@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cfdce594171cea19ba033e8d7ff57a767c0ccd63|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/amdgpu: Program gds backup address as zero if no gds allocated
-
-It is firmware requirement to set gds_backup_addrlo and gds_backup_addrhi
-of DE meta both zero if no gds partition is allocated for the frame.
-
-Signed-off-by: Jiadong Zhu <Jiadong.Zhu@amd.com>
-Reviewed-by: Alex Deucher <alexander.deucher@amd.com>
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|1|Jiadong Zhu|Jiadong.Zhu@amd.com|2023-05-24 16:51:32+08:00|-28800|Alex Deucher|alexander.deucher@amd.com|2023-06-09 11:02:08-04:00|14400

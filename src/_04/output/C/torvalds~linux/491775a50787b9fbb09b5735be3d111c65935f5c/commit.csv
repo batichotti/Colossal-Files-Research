@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|491775a50787b9fbb09b5735be3d111c65935f5c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: use sdata pointer for scan interface
-
-Since we now use sdata pointers most of the time, using a netdev
-pointer here is somewhat artificial, use an sdata pointer instead.
-Replace a netdev-prefix in a few messages by a wiphy-prefix.
-
-Signed-off-by: Johannes Berg <johannes@sipsolutions.net>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|3|Johannes Berg|johannes@sipsolutions.net|2008-09-08 17:44:23+02:00|-7200|John W. Linville|linville@tuxdriver.com|2008-09-11 15:53:36-04:00|14400

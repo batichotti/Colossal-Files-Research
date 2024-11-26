@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bbefd4fc8f590e765b455ef0a4deb6c105fee305|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: move kvm_inject_gp up from kvm_set_xcr to callers
-
-Push the injection of #GP up to the callers, so that they can just use
-kvm_complete_insn_gp.
-
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|3|Paolo Bonzini|pbonzini@redhat.com|2020-12-14 07:49:54-05:00|18000|Paolo Bonzini|pbonzini@redhat.com|2021-02-04 05:27:37-05:00|18000

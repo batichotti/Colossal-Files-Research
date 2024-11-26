@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|252ac5221a71be72b7e7c7b7482af91e9c962e8c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md/plug: optionally use plugger to unplug an array during resync/recovery.
-
-If an array doesn't have a 'queue' then md_do_sync cannot
-unplug it.
-In that case it will have a 'plugger', so make that available
-to the mddev, and use it to unplug the array if needed.
-
-Signed-off-by: NeilBrown <neilb@suse.de>"|3|NeilBrown|neilb@suse.de|2010-06-01 19:37:29+10:00|-36000|NeilBrown|neilb@suse.de|2010-07-26 12:53:08+10:00|-36000

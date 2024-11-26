@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c16d4ee0e397163fe7ceac281eaa952e63fadec7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bnxt_en: Refactor logic to re-enable SRIOV after firmware reset detected.
-
-Put the current logic in bnxt_open() to re-enable SRIOV after detecting
-firmware reset into a new function bnxt_reenable_sriov().  This call
-needs to be invoked in the firmware reset path also in the next patch.
-
-Signed-off-by: Michael Chan <michael.chan@broadcom.com>
-Signed-off-by: Jakub Kicinski <kuba@kernel.org>"|1|Michael Chan|michael.chan@broadcom.com|2020-02-02 02:41:35-05:00|18000|Jakub Kicinski|kuba@kernel.org|2020-02-03 15:06:45-08:00|28800

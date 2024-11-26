@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|38ed5048fe84d6048835916f298eaa623f59ace4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211_hwsim: prepare for different channel support
-
-Prepare the code to support, in theory, different devices
-with a different number of channels supported. Right now
-this doesn't really change anything, but will allow for
-dynamic device registration in the future.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2014-01-06 22:11:06+01:00|-3600|Johannes Berg|johannes.berg@intel.com|2014-01-10 20:12:57+01:00|-3600

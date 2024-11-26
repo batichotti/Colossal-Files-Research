@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bc2dd71b283665f0a409d5b6fc603d5a6fdc219e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"locking/lockdep: Add a skip() function to __bfs()
-
-Some __bfs() walks will have additional iteration constraints (beyond
-the path being strong). Provide an additional function to allow
-terminating graph walks.
-
-Signed-off-by: Boqun Feng <boqun.feng@gmail.com>
-Signed-off-by: Peter Zijlstra (Intel) <peterz@infradead.org>"|1|Boqun Feng|boqun.feng@gmail.com|2020-12-10 11:02:40+01:00|-3600|Peter Zijlstra|peterz@infradead.org|2021-01-14 11:20:17+01:00|-3600

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|66fd3f7f901f29a557a473af595bf11b270b9ac2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Do not re-execute INTn instruction.
-
-Re-inject event instead. This is what Intel suggest. Also use correct
-instruction length when re-injecting soft fault/interrupt.
-
-Signed-off-by: Gleb Natapov <gleb@redhat.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|5|Gleb Natapov|gleb@redhat.com|2009-05-11 13:35:50+03:00|-10800|Avi Kivity|avi@redhat.com|2009-06-10 11:48:58+03:00|-10800

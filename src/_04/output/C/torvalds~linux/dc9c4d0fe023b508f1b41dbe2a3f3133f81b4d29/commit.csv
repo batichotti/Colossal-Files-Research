@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|dc9c4d0fe023b508f1b41dbe2a3f3133f81b4d29|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bonding: reduce scope of some global variables
-
-Many of the bond param variables are declared global while it's not
-really necessary for these variables to be global. So moving them to
-the location these are used.
-
-Signed-off-by: Mahesh Bandewar <maheshb@google.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Mahesh Bandewar|maheshb@google.com|2017-03-08 10:56:02-08:00|28800|David S. Miller|davem@davemloft.net|2017-03-09 17:33:29-08:00|28800

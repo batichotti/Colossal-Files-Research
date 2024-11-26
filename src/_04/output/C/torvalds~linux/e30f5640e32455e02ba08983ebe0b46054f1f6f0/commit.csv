@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e30f5640e32455e02ba08983ebe0b46054f1f6f0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bpf: Add BPF_LD_IMM64 to the line_info test
-
-This patch adds a BPF_LD_IMM64 case to the line_info test
-to ensure the kernel rejects linfo_info.insn_off pointing
-to the 2nd 8 bytes of the BPF_LD_IMM64.
-
-Signed-off-by: Martin KaFai Lau <kafai@fb.com>
-Signed-off-by: Alexei Starovoitov <ast@kernel.org>"|1|Martin KaFai Lau|kafai@fb.com|2018-12-19 13:01:02-08:00|28800|Alexei Starovoitov|ast@kernel.org|2018-12-19 15:42:55-08:00|28800

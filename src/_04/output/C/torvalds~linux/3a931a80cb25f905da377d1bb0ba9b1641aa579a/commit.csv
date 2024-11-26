@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3a931a80cb25f905da377d1bb0ba9b1641aa579a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[RTNL]: Relax for_each_netdev_safe in __rtnl_link_unregister.
-
-Each potential list_del (happening from inside a ->dellink call)
-is followed by goto restart, so there's no need in _safe iteration.
-
-Signed-off-by: Pavel Emelyanov <xemul@openvz.org>
-Acked-by: Patrick McHardy <kaber@trash.net>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Pavel Emelyanov|xemul@openvz.org|2008-04-16 00:45:56-07:00|25200|David S. Miller|davem@davemloft.net|2008-04-16 00:45:56-07:00|25200

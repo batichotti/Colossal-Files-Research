@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6569fa2d4e0147759f7580cb36fd6505feab12f7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bonding: combine netlink and console error messages
-
-There seems to be no reason to have different error messages between
-netlink and printk. It also cleans up the function slightly.
-
-Signed-off-by: Jonathan Toppins <jtoppins@redhat.com>
-Signed-off-by: Jakub Kicinski <kuba@kernel.org>"|1|Jonathan Toppins|jtoppins@redhat.com|2021-08-10 22:53:31-04:00|14400|Jakub Kicinski|kuba@kernel.org|2021-08-11 14:57:31-07:00|25200

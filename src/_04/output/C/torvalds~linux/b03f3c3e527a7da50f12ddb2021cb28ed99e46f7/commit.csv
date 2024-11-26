@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b03f3c3e527a7da50f12ddb2021cb28ed99e46f7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: qla4xxx: remvoe unnecessary condition check for mempool_destroy()
-
-mempool_destroy() can handle NULL pointer correctly, so there is no
-need to check NULL pointer before calling mempool_destroy().
-
-Signed-off-by: Chengguang Xu <cgxu519@gmx.com>
-Acked-by: Manish Rangankar <Manish.Rangankar@cavium.com>
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|1|Chengguang Xu|cgxu519@gmx.com|2018-11-04 21:57:50+08:00|-28800|Martin K. Petersen|martin.petersen@oracle.com|2018-11-06 21:20:18-05:00|18000

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d7cb71ec3a28e525c4f523ca52d5389407b7aea0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ufs: remove spurious scsi_set_tag_type call
-
-ufs never looks at the tag type, so there is no need to set it either.
-
-Signed-off-by: Christoph Hellwig <hch@lst.de>
-Reviewed-by: Mike Christie <michaelc@cs.wisc.edu>
-Reviewed-by: Hannes Reinecke <hare@suse.de>"|1|Christoph Hellwig|hch@lst.de|2014-11-03 20:43:28+01:00|-3600|Christoph Hellwig|hch@lst.de|2014-11-12 11:19:44+01:00|-3600

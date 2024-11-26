@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|80bc79dc0b18b17510ceb1e2d2d1999104af03c9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: s390: enable STFLE interpretation only if enabled for the guest
-
-Not setting the facility list designation disables STFLE interpretation,
-this is what we want if the guest was told to not have it.
-
-Signed-off-by: David Hildenbrand <dahi@linux.vnet.ibm.com>
-Signed-off-by: Christian Borntraeger <borntraeger@de.ibm.com>"|1|David Hildenbrand|dahi@linux.vnet.ibm.com|2015-12-02 09:43:29+01:00|-3600|Christian Borntraeger|borntraeger@de.ibm.com|2016-03-08 13:57:54+01:00|-3600

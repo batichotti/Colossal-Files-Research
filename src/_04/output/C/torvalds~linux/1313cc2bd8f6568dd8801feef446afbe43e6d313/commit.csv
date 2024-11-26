@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1313cc2bd8f6568dd8801feef446afbe43e6d313|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"kvm: mmu: Add guest_mode to kvm_mmu_page_role
-
-L1 and L2 need to have disjoint mappings, so that L1's APIC access
-page (under VMX) can be omitted from L2's mappings.
-
-Signed-off-by: Jim Mattson <jmattson@google.com>
-Signed-off-by: Krish Sadhukhan <krish.sadhukhan@oracle.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|2|Jim Mattson|jmattson@google.com|2018-05-09 17:02:04-04:00|14400|Paolo Bonzini|pbonzini@redhat.com|2018-05-14 18:24:25+02:00|-7200

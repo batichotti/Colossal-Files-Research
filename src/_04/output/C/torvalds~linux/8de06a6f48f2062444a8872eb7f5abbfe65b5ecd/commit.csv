@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8de06a6f48f2062444a8872eb7f5abbfe65b5ecd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mm, slub: discard slabs in unfreeze_partials() without irqs disabled
-
-No need for disabled irqs when discarding slabs, so restore them before
-discarding.
-
-Signed-off-by: Vlastimil Babka <vbabka@suse.cz>"|1|Vlastimil Babka|vbabka@suse.cz|2021-05-20 14:01:57+02:00|-7200|Vlastimil Babka|vbabka@suse.cz|2021-09-04 01:12:22+02:00|-7200

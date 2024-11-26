@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7b4da53229bb61469bdab321384b9a13406e3485|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[NETNS][IPV6] route6 - Pass the network namespace parameter to rt6_purge_dflt_routers
-
-Add a network namespace parameter to rt6_purge_dflt_routers.  This is
-needed to call fib6_get_table with the appropriate network namespace.
-
-Signed-off-by: Daniel Lezcano <dlezcano@fr.ibm.com>
-Signed-off-by: Benjamin Thery <benjamin.thery@bull.net>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|Daniel Lezcano|dlezcano@fr.ibm.com|2008-03-04 13:47:14-08:00|28800|David S. Miller|davem@davemloft.net|2008-03-04 13:47:14-08:00|28800

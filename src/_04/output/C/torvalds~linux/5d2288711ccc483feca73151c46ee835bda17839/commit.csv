@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5d2288711ccc483feca73151c46ee835bda17839|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: send: handle unexpected inode in header process_recorded_refs()
-
-Change BUG_ON to proper error handling when an unexpected inode number
-is encountered. As the comment says this should never happen.
-
-Signed-off-by: David Sterba <dsterba@suse.com>"|1|David Sterba|dsterba@suse.com|2024-02-06 22:47:13+01:00|-3600|David Sterba|dsterba@suse.com|2024-03-04 16:24:51+01:00|-3600

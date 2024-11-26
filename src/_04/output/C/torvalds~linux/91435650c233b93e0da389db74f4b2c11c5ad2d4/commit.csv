@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|91435650c233b93e0da389db74f4b2c11c5ad2d4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: put ENOSPC debugging under a mount option
-
-ENOSPC in btrfs is getting to the point where the extra debugging isn't
-required.  I've put it under mount -o enospc_debug just in case someone
-is having difficult problems.
-
-Signed-off-by: Chris Mason <chris.mason@oracle.com>"|3|Chris Mason|chris.mason@oracle.com|2011-02-16 13:10:41-05:00|18000|Chris Mason|chris.mason@oracle.com|2011-02-16 15:28:36-05:00|18000

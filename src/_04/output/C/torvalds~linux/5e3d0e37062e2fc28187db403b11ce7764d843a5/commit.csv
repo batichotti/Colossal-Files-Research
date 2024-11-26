@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5e3d0e37062e2fc28187db403b11ce7764d843a5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"dm integrity: remove redundant unlikely annotation
-
-unlikely has already included in IS_ERR(),
-so just remove redundant unlikely annotation.
-
-Signed-off-by: Chengguang Xu <cgxu519@gmx.com>
-Signed-off-by: Mike Snitzer <snitzer@redhat.com>"|1|Chengguang Xu|cgxu519@gmx.com|2019-02-13 13:46:56+08:00|-28800|Mike Snitzer|snitzer@redhat.com|2019-03-05 14:53:47-05:00|18000

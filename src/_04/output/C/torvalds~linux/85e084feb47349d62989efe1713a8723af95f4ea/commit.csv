@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|85e084feb47349d62989efe1713a8723af95f4ea|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libceph: drop msg argument from ceph_osdc_callback_t
-
-finish_read(), its only user, uses it to get to hdr.data_len, which is
-what ->r_result is set to on success.  This gains us the ability to
-safely call callbacks from contexts other than reply, e.g. map check.
-
-Signed-off-by: Ilya Dryomov <idryomov@gmail.com>"|5|Ilya Dryomov|idryomov@gmail.com|2016-04-28 16:07:24+02:00|-7200|Ilya Dryomov|idryomov@gmail.com|2016-05-26 00:36:27+02:00|-7200

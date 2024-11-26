@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a8302de934b5d1897ff146cd0c7ab87d1417c092|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: Handle power constraint level advertised in 11d+h beacon
-
-This patch uses power constraint level while determining the maximum
-transmit power, there by it makes sure that any power mitigation
-requirement for the channel in the current regulatory domain is met.
-
-Signed-off-by: Vasanthakumar Thiagarajan <vasanth@atheros.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|4|Vasanthakumar Thiagarajan|vasanth@atheros.com|2009-01-09 18:14:15+05:30|-19800|John W. Linville|linville@tuxdriver.com|2009-01-29 16:00:15-05:00|18000

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5ffa61c1bdc35895f60ef7b553b43266d3fda469|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/amdgpu: retry init if exclusive mode request is failed
-
-This is caused of that hypervisor fails to handle request, one known
-issue is MMIO unblocking timeout. In theory we can retry init here.
-
-Signed-off-by: pding <Pixel.Ding@amd.com>
-Reviewed-by: Xiangliang Yu <Xiangliang.Yu@amd.com>
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|1|pding|Pixel.Ding@amd.com|2017-10-30 14:07:24+08:00|-28800|Alex Deucher|alexander.deucher@amd.com|2017-12-04 16:41:42-05:00|18000

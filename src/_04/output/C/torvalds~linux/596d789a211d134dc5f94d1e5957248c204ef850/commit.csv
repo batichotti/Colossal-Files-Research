@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|596d789a211d134dc5f94d1e5957248c204ef850|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"USB: set hub's default autosuspend delay as 0
-
-This patch sets hub device's default autosuspend delay as 0 to
-speedup bus suspend, see comments in code for details.
-
-Acked-by: Alan Stern <stern@rowland.harvard.edu>
-Signed-off-by: Ming Lei <ming.lei@canonical.com>
-Signed-off-by: Greg Kroah-Hartman <gregkh@linuxfoundation.org>"|1|Ming Lei|ming.lei@canonical.com|2012-10-24 11:59:25+08:00|-28800|Greg Kroah-Hartman|gregkh@linuxfoundation.org|2012-10-25 11:45:32-07:00|25200

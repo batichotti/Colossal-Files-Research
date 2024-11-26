@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6867137ebcf4155fe25f2ecf7c29b9fb90a76d1d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSD: refactoring v4 specific code to a helper in nfs4state.c
-
-This patch moves the v4 specific code from nfsd_init_net() to
-nfsd4_init_leases_net() helper in nfs4state.c
-
-Signed-off-by: Dai Ngo <dai.ngo@oracle.com>
-Signed-off-by: Chuck Lever <chuck.lever@oracle.com>"|3|Dai Ngo|dai.ngo@oracle.com|2022-07-15 16:54:51-07:00|25200|Chuck Lever|chuck.lever@oracle.com|2022-07-29 20:16:56-04:00|14400

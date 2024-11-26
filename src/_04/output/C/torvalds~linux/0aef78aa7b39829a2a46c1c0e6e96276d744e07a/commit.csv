@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0aef78aa7b39829a2a46c1c0e6e96276d744e07a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ipv6: addrconf: don't evaluate keep_addr_on_down twice
-
-The addrconf_ifdown() evaluates keep_addr_on_down state twice. There
-is no need to do it.
-
-Cc: David Ahern <dsahern@gmail.com>
-Signed-off-by: Ivan Vecera <cera@cera.cz>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Ivan Vecera|cera@cera.cz|2018-04-24 19:51:29+02:00|-7200|David S. Miller|davem@davemloft.net|2018-04-25 13:03:37-04:00|14400

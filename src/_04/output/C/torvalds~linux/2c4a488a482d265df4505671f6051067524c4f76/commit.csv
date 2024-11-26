@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2c4a488a482d265df4505671f6051067524c4f76|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: add nf_tables_updchain()
-
-nf_tables_newchain() is too large, wrap the chain update path in a
-function to make it more maintainable.
-
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|1|Pablo Neira Ayuso|pablo@netfilter.org|2017-09-03 23:54:27+02:00|-7200|Pablo Neira Ayuso|pablo@netfilter.org|2017-09-04 17:34:54+02:00|-7200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d9b9384215e17c68d7b6bd05d6fa409e5d4140d7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: add moduleparam.h for users of module_param/MODULE_PARM_DESC
-
-These files were getting access to these two via the implicit
-presence of module.h everywhere.  They aren't modules, so they
-don't need the full module.h inclusion though.
-
-Signed-off-by: Paul Gortmaker <paul.gortmaker@windriver.com>"|6|Paul Gortmaker|paul.gortmaker@windriver.com|2011-09-18 13:21:27-04:00|14400|Paul Gortmaker|paul.gortmaker@windriver.com|2011-10-31 19:30:29-04:00|14400

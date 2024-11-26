@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e0cd5e7ffa549487cf1a85452f371274cbf0a8f1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mm/vmscan: Convert pageout() to take a folio
-
-We always write out an entire folio at once.  This conversion removes
-a few calls to compound_head() and gets the NR_VMSCAN_WRITE statistic
-right when writing out a large folio.
-
-Signed-off-by: Matthew Wilcox (Oracle) <willy@infradead.org>"|2|Matthew Wilcox (Oracle)|willy@infradead.org|2022-01-17 23:35:57-05:00|18000|Matthew Wilcox (Oracle)|willy@infradead.org|2022-03-21 13:01:35-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ab1747ccf052976465db7c5a7e1301a50f290db0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/edid: convert drm_for_each_detailed_block() to edid iter
-
-We have an iterator for this, use it. It does include the base block,
-but its tag is 0 and will be skipped.
-
-Signed-off-by: Jani Nikula <jani.nikula@intel.com>
-Reviewed-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Link: https://patchwork.freedesktop.org/patch/msgid/a68718819a3dbfbdaaaddca7f73afa5ac6b33d07.1652097712.git.jani.nikula@intel.com"|1|Jani Nikula|jani.nikula@intel.com|2022-05-09 15:03:01+03:00|-10800|Jani Nikula|jani.nikula@intel.com|2022-05-13 18:12:55+03:00|-10800

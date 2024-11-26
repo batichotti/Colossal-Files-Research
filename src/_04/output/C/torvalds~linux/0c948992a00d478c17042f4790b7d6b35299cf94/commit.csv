@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0c948992a00d478c17042f4790b7d6b35299cf94|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ceph: always send truncation info with read and write osd ops
-
-This fixes a bug where the read/write ops arrive the osd after
-a following truncation request.
-
-Signed-off-by: Yehuda Sadeh <yehuda@hq.newdream.net>
-Signed-off-by: Sage Weil <sage@newdream.net>"|3|Yehuda Sadeh|yehuda@hq.newdream.net|2010-02-01 16:10:45-08:00|28800|Sage Weil|sage@newdream.net|2010-02-02 16:29:50-08:00|28800

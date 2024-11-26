@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f5ff8422bbdd59f8c1f699df248e1b7a11073027|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Fix warnings with !CONFIG_BLOCK
-
-Hide everything in blkdev.h with CONFIG_BLOCK isn't set, and fixup
-the (few) files that fail to build because they were relying on blkdev.h
-pulling in extra includes for them.
-
-Signed-off-by: Jens Axboe <jens.axboe@oracle.com>"|5|Jens Axboe|jens.axboe@oracle.com|2007-09-21 09:19:54+02:00|-7200|Jens Axboe|axboe@carl.home.kernel.dk|2007-10-10 09:25:57+02:00|-7200

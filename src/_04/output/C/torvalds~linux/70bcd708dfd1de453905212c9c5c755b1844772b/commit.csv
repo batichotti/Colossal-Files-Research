@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|70bcd708dfd1de453905212c9c5c755b1844772b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: vmx: expose more information for KVM_INTERNAL_ERROR_DELIVERY_EV exits
-
-This exit ended up being reported, but the currently exposed data does not provide
-much of a starting point for debugging.  In the reported case, the vmexit was
-an EPT misconfiguration (MMIO access).  Let userspace report ethe exit qualification
-and, if relevant, the GPA.
-
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Paolo Bonzini|pbonzini@redhat.com|2017-07-05 12:38:06+02:00|-7200|Paolo Bonzini|pbonzini@redhat.com|2017-07-10 14:44:07+02:00|-7200

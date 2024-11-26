@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a24299e6c82f624cd2c717c91f04f1d79113ada8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Fix Inquiry with RSSI event mask
-
-The right bit for ""Inquiry with RSSI"" is 0x02 and not 0x04 (which means
-""Read Remote Extended Features Complete"").
-
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|1|Johan Hedberg|johan.hedberg@intel.com|2012-04-26 09:47:46+03:00|-10800|Gustavo Padovan|gustavo.padovan@collabora.co.uk|2012-05-16 16:13:14-03:00|10800

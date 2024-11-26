@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7c0868e03b7a7c50fa10957d8dddaebb09c72044|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ftrace: Use the ftrace_addr helper functions to find the ftrace_addr
-
-With the moving of the functions that determine what the mcount call site
-should be replaced with into the generic code, there is a few places
-in the generic code that can use them instead of hard coding it as it
-does.
-
-Signed-off-by: Steven Rostedt <rostedt@goodmis.org>"|1|Steven Rostedt (Red Hat)|rostedt@goodmis.org|2014-05-08 07:01:21-04:00|14400|Steven Rostedt|rostedt@goodmis.org|2014-05-14 11:37:29-04:00|14400

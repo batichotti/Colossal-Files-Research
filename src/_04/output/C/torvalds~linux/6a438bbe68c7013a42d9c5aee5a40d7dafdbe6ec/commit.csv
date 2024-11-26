@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6a438bbe68c7013a42d9c5aee5a40d7dafdbe6ec|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[TCP]: speed up SACK processing
-
-Use ""hints"" to speed up the SACK processing. Various forms 
-of this have been used by TCP developers (Web100, STCP, BIC)
-to avoid the 2x linear search of outstanding segments.
-
-Signed-off-by: Stephen Hemminger <shemminger@osdl.org>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|5|Stephen Hemminger|shemminger@osdl.org|2005-11-10 17:14:59-08:00|28800|David S. Miller|davem@davemloft.net|2005-11-10 17:14:59-08:00|28800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d782d6e1d9078d6b82f8468dd6421050165e7d75|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ksmbd: remove unsafe_memcpy use in session setup
-
-Kees pointed out to just use directly ->Buffer instead of pointing
-->Buffer using offset not to use unsafe_memcpy().
-
-Suggested-by: Kees Cook <kees@kernel.org>
-Signed-off-by: Namjae Jeon <linkinjeon@kernel.org>
-Signed-off-by: Steve French <stfrench@microsoft.com>"|1|Namjae Jeon|linkinjeon@kernel.org|2024-09-23 22:39:11+09:00|-32400|Steve French|stfrench@microsoft.com|2024-09-25 21:33:14-05:00|18000

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5d14bba91d8c350b21d28834fab95f67a46a264e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"serial: 8250_pci: Check mapping in pci_ni8430_init
-
-Check the return value of ioremap_nocache to make sure we got a
-valid mapping.
-
-Signed-off-by: Aaron Sierra <asierra@xes-inc.com>
-Signed-off-by: Greg Kroah-Hartman <gregkh@linuxfoundation.org>"|1|Aaron Sierra|asierra@xes-inc.com|2014-10-30 19:49:52-05:00|18000|Greg Kroah-Hartman|gregkh@linuxfoundation.org|2014-11-06 14:57:25-08:00|28800

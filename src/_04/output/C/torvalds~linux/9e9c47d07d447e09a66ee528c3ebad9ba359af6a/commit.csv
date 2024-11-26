@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9e9c47d07d447e09a66ee528c3ebad9ba359af6a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"IB/mlx5: Allow creation of QPs with zero-length work queues
-
-The current code attmepts to call ib_umem_get() even if the length is
-zero, which causes a failure. Since the spec allows zero length work
-queues, change the code so we don't call ib_umem_get() in those cases.
-
-Signed-off-by: Eli Cohen <eli@mellanox.com>
-Signed-off-by: Roland Dreier <roland@purestorage.com>"|1|Eli Cohen|eli@dev.mellanox.co.il|2014-01-14 17:45:21+02:00|-7200|Roland Dreier|roland@purestorage.com|2014-01-22 23:23:53-08:00|28800

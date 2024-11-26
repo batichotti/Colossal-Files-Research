@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|91200e9f3e76af2652952e73ce5d9913f1c987c6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Fix reporting invalid RSSI for LE devices
-
-Start Discovery was reporting 0 RSSI for invalid RSSI only for
-BR/EDR devices. LE devices were reported with RSSI 127.
-
-Signed-off-by: Szymon Janc <szymon.janc@tieto.com>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>
-Cc: stable@vger.kernel.org # 3.19+"|1|Szymon Janc|szymon.janc@tieto.com|2015-01-22 16:57:05+01:00|-3600|Marcel Holtmann|marcel@holtmann.org|2015-01-22 18:06:43+01:00|-3600

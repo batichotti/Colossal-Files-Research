@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|99a5592d6a897eed447df1fac6b591c06c891858|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ALSA: hda - force different capture controls if amp caps differ
-
-Otherwise setting the capture volume for amps will be weird and
-inconsistent (it will try to set values outside the range of the
-second amp based on capabilities of the first amp).
-
-Signed-off-by: David Henningsson <david.henningsson@canonical.com>
-Signed-off-by: Takashi Iwai <tiwai@suse.de>"|1|David Henningsson|david.henningsson@canonical.com|2013-01-16 15:58:44+01:00|-3600|Takashi Iwai|tiwai@suse.de|2013-01-16 16:24:00+01:00|-3600

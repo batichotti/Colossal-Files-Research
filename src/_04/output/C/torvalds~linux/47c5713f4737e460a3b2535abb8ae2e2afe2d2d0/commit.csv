@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|47c5713f4737e460a3b2535abb8ae2e2afe2d2d0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: replace remaining do_div calls with div_u64 variants
-
-Switch to div_u64_rem that does type checking and has more obvious
-semantics than do_div.
-
-Signed-off-by: David Sterba <dsterba@suse.cz>"|4|David Sterba|dsterba@suse.cz|2015-02-20 18:43:47+01:00|-3600|David Sterba|dsterba@suse.cz|2015-03-03 17:24:01+01:00|-3600

@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e743d31312d00932391b123dfac3324d2b9e8c81|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drivers: net: use skb_headlen()
-
-replaces (skb->len - skb->data_len) occurrences by skb_headlen(skb)
-
-Signed-off-by: Eric Dumazet <eric.dumazet@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|17|Eric Dumazet|eric.dumazet@gmail.com|2010-04-14 15:59:40-07:00|25200|David S. Miller|davem@davemloft.net|2010-04-14 16:11:33-07:00|25200

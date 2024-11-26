@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|792e86ef31b91c98c529f8c4fb6aa14886584193|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: rename btrfs_submit_bio() to btrfs_submit_bbio()
-
-The function name is a bit misleading as it submits the btrfs_bio
-(bbio), rename it so we can use btrfs_submit_bio() when an actual bio is
-submitted.
-
-Reviewed-by: Qu Wenruo <wqu@suse.com>
-Signed-off-by: David Sterba <dsterba@suse.com>"|7|David Sterba|dsterba@suse.com|2024-08-27 03:40:11+02:00|-7200|David Sterba|dsterba@suse.com|2024-09-10 16:51:19+02:00|-7200

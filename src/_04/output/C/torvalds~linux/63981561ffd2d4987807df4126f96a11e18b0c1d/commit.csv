@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|63981561ffd2d4987807df4126f96a11e18b0c1d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"smb: client: fix potential UAF in smb2_is_network_name_deleted()
-
-Skip sessions that are being teared down (status == SES_EXITING) to
-avoid UAF.
-
-Cc: stable@vger.kernel.org
-Signed-off-by: Paulo Alcantara (Red Hat) <pc@manguebit.com>
-Signed-off-by: Steve French <stfrench@microsoft.com>"|1|Paulo Alcantara|pc@manguebit.com|2024-04-02 16:34:02-03:00|10800|Steve French|stfrench@microsoft.com|2024-04-03 14:45:06-05:00|18000

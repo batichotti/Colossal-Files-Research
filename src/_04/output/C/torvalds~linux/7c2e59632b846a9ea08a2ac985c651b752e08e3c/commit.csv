@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7c2e59632b846a9ea08a2ac985c651b752e08e3c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: add resgid and resuid to reserve root blocks
-
-This patch adds mount options to reserve some blocks via resgid=%u,resuid=%u.
-It only activates with reserve_root=%u.
-
-Reviewed-by: Chao Yu <yuchao0@huawei.com>
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|2|Jaegeuk Kim|jaegeuk@kernel.org|2018-01-04 21:36:09-08:00|28800|Jaegeuk Kim|jaegeuk@kernel.org|2018-01-16 15:40:02-08:00|28800

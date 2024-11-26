@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|84c367533bd24108e5392b355280647a4a2893ac|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: use drm DP helper to read DPCD desc
-
-Switch to using the common DP helpers instead of using our own.
-
-v2: also remove leftover struct intel_dp_desc (Daniel)
-
-Reviewed-by: Daniel Vetter <daniel.vetter@ffwll.ch>
-Signed-off-by: Jani Nikula <jani.nikula@intel.com>"|3|Jani Nikula|jani.nikula@intel.com|2017-05-18 14:10:23+03:00|-10800|Jani Nikula|jani.nikula@intel.com|2017-05-29 13:37:46+03:00|-10800

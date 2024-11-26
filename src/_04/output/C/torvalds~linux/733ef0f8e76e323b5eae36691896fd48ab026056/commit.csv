@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|733ef0f8e76e323b5eae36691896fd48ab026056|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tools/power turbostat: do not hard-code 25MHz crystal on SKX
-
-Some SKX use a 24 MHz crystal, so do not hard code 25 MHz.
-
-Also, SKX crystal is not exact, because SKX uses an EMI reduction
-circuit that costs a fraction of a percent.
-
-Signed-off-by: Len Brown <len.brown@intel.com>"|1|Len Brown|len.brown@intel.com|2018-01-02 16:17:23-05:00|18000|Len Brown|len.brown@intel.com|2018-06-01 17:15:08-04:00|14400

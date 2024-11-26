@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|316541bf70281b6c3b501b442b6994c1839776ad|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"USB: Remove test for NULL that'll never happen in usb_disconnect()
-
-In drivers/usb/core/hub.c::usb_disconnect(), 'udev' will never be
-NULL, so remove the test and printing of debug message.
-
-Signed-off-by: Jesper Juhl <jj@chaosbits.net>
-Acked-by: Alan Stern <stern@rowland.harvard.edu>
-Signed-off-by: Greg Kroah-Hartman <gregkh@suse.de>"|1|Jesper Juhl|jj@chaosbits.net|2011-07-11 22:59:36+02:00|-7200|Greg Kroah-Hartman|gregkh@suse.de|2011-08-22 15:21:15-07:00|25200

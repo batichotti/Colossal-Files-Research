@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2f84a2e6a6978810b06b5f33892152183f1dace9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Remove extra l2cap_state_change(BT_CONNECTED)
-
-This is already performed inside l2cap_chan_ready(), so we don't need it
-here again.
-
-Signed-off-by: Gustavo Padovan <gustavo.padovan@collabora.co.uk>
-Acked-by: Andrei Emeltchenko <andrei.emeltchenko@intel.com>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|1|Gustavo Padovan|gustavo.padovan@collabora.co.uk|2012-05-25 09:30:53-03:00|10800|Johan Hedberg|johan.hedberg@intel.com|2012-06-05 06:34:10+03:00|-10800

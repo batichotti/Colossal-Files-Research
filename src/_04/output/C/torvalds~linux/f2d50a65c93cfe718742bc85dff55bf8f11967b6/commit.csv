@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f2d50a65c93cfe718742bc85dff55bf8f11967b6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: deprecate max_writeback_mb_bump sysfs attribute
-
-This attribute is now unused so deprecate it.  We still show the old
-default value to keep some compatibility but we don't allow writing to
-that attribute anymore.
-
-Signed-off-by: Jan Kara <jack@suse.cz>
-Signed-off-by: ""Theodore Ts'o"" <tytso@mit.edu>"|2|Jan Kara|jack@suse.cz|2013-06-04 12:51:16-04:00|14400|Theodore Ts'o|tytso@mit.edu|2013-06-04 12:51:16-04:00|14400

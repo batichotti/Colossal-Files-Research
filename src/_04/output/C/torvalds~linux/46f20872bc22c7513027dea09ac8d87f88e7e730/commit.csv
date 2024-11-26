@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|46f20872bc22c7513027dea09ac8d87f88e7e730|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ASoC: rt5677: Replace w->codec snd_soc_dapm_to_codec(w->dapm)
-
-The codec field of the snd_soc_widget struct is eventually going to be
-removed, use snd_soc_dapm_to_codec(w->dapm) instead.
-
-Signed-off-by: Lars-Peter Clausen <lars@metafoo.de>
-Signed-off-by: Mark Brown <broonie@kernel.org>"|1|Lars-Peter Clausen|lars@metafoo.de|2015-01-15 12:52:16+01:00|-3600|Mark Brown|broonie@kernel.org|2015-01-15 11:57:34+00:00|0

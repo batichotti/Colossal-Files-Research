@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|abe9a6d57b4544ac208401f9c0a4262814db2be4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: fix server_scope memory leak
-
-server_scope would never be freed if nfs4_check_cl_exchange_flags() returned
-non-zero
-
-Signed-off-by: Weston Andros Adamson <dros@netapp.com>
-Cc: stable@vger.kernel.org
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|1|Weston Andros Adamson|dros@netapp.com|2012-02-16 11:17:05-05:00|18000|Trond Myklebust|Trond.Myklebust@netapp.com|2012-02-17 17:34:03-05:00|18000

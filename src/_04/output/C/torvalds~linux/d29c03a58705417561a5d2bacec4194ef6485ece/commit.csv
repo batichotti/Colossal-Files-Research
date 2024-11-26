@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d29c03a58705417561a5d2bacec4194ef6485ece|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: get rid of var page in kvm_set_pfn_dirty()
-
-We can get rid of unnecessary var page in
-kvm_set_pfn_dirty() , thus make code style
-similar with kvm_set_pfn_accessed().
-Signed-off-by: Miaohe Lin <linmiaohe@huawei.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Miaohe Lin|linmiaohe@huawei.com|2019-12-05 11:05:05+08:00|-28800|Paolo Bonzini|pbonzini@redhat.com|2020-01-08 17:33:13+01:00|-3600

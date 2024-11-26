@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d982085050e67da24a57ec04eb3701eb4805118a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"OMAPDSS: DSI: count with number of lanes
-
-DSI driver currently counts used lanes and number of supported lanes by
-using the number of data lanes (i.e. excluding clock lane). This patch
-changes this to use the number of all lanes so that the following lane
-config patches are cleaner.
-
-Signed-off-by: Tomi Valkeinen <tomi.valkeinen@ti.com>"|1|Tomi Valkeinen|tomi.valkeinen@ti.com|2011-10-12 15:05:59+03:00|-10800|Tomi Valkeinen|tomi.valkeinen@ti.com|2011-12-02 08:54:15+02:00|-7200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3958afa1b272eb07109fd31549e69193b4d7c364|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: Change skb_get_rxhash to skb_get_hash
-
-Changing name of function as part of making the hash in skbuff to be
-generic property, not just for receive path.
-
-Signed-off-by: Tom Herbert <therbert@google.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|10|Tom Herbert|therbert@google.com|2013-12-15 22:12:06-08:00|28800|David S. Miller|davem@davemloft.net|2013-12-17 16:36:21-05:00|18000

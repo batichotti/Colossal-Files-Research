@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b9aa55bed1c1a3a329da31884b643c62d57ebb21|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: return errno if possible when we fail to allocate memory
-
-We need to set return value explicitly, otherwise we'll lose the error
-value.
-
-Signed-off-by: Liu Bo <bo.li.liu@oracle.com>
-Signed-off-by: Josef Bacik <jbacik@fusionio.com>"|1|Liu Bo|bo.li.liu@oracle.com|2013-05-14 02:12:15+00:00|0|Josef Bacik|jbacik@fusionio.com|2013-05-17 21:40:27-04:00|14400

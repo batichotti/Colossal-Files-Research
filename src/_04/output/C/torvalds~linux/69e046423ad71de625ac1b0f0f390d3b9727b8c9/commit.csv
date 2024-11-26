@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|69e046423ad71de625ac1b0f0f390d3b9727b8c9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"iwlwifi: mvm: change scan timeout to a delayed work
-
-Some transports may sleep when writing to registers, which is done
-when calling iwl_force_nmi().  So we can't call iwl_force_nmi() in a
-timer context.  To solve that, convert the scan timeout timer to a
-delayed work.
-
-Signed-off-by: Luca Coelho <luciano.coelho@intel.com>"|4|Luca Coelho|luciano.coelho@intel.com|2016-05-03 12:18:33+03:00|-10800|Luca Coelho|luciano.coelho@intel.com|2016-07-06 00:33:07+03:00|-10800

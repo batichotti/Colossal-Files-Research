@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|432fd13359e137b4b59a910da25f89787f19799d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ALSA: hda - Resurrect input-source mixer of ALC268 model=acer
-
-In the commit fdbc66266c21976027938642f60e0f047149a61a, I mistakenly
-replaced the capture mixer array for ALC268_ACER to nosrc version
-although this should be kept to alt_mixer.  Now fixed back.
-
-Signed-off-by: Takashi Iwai <tiwai@suse.de>"|1|Takashi Iwai|tiwai@suse.de|2009-09-30 08:13:44+02:00|-7200|Takashi Iwai|tiwai@suse.de|2009-09-30 08:13:44+02:00|-7200

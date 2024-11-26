@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|01913b49cf1dc6409a07dd2a4cc6af2e77f3c410|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS: return error from decode_getfh in decode open
-
-If decode_getfh failed, nfs4_xdr_dec_open would return 0 since the last
-decode_* call must have succeeded.
-
-Cc: stable@vger.kernel.org
-Signed-off-by: Weston Andros Adamson <dros@netapp.com>
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|1|Weston Andros Adamson|dros@netapp.com|2012-09-06 15:54:27-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2012-09-06 16:01:33-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cb164b8c6a2bdf995c938e5f157d41465b18e5c3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"RDMA/cma: Initialize rdma_bind_list in cma_alloc_any_port()
-
-The struct rdma_bind_list fields for hlist are not being initialized,
-resulting in a corrupted list.  Fix this by using kzalloc() to make
-sure all pointers are NULL.
-
-Signed-off-by: Sean Hefty <sean.hefty@intel.com>
-Signed-off-by: Roland Dreier <rolandd@cisco.com>"|1|Sean Hefty|sean.hefty@intel.com|2007-03-05 12:50:17-08:00|28800|Roland Dreier|rolandd@cisco.com|2007-03-06 12:41:44-08:00|28800

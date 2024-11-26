@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fcd97ad58f76efcd58808941e4dd2bc6c544b9de|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Add build-time error check on kvm_run size
-
-It's already going to reach 2400 Bytes (which is over half of page
-size on 4K page archs), so maybe it's good to have this build-time
-check in case it overflows when adding new fields.
-
-Signed-off-by: Peter Xu <peterx@redhat.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Peter Xu|peterx@redhat.com|2020-01-09 09:57:12-05:00|18000|Paolo Bonzini|pbonzini@redhat.com|2020-01-27 19:59:52+01:00|-3600

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e0c594878e3211b09208c779df5f996f0b831d9e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libceph: record byte count not page count
-
-Record the byte count for an osd request rather than the page count.
-The number of pages can always be derived from the byte count (and
-alignment/offset) but the reverse is not true.
-
-Signed-off-by: Alex Elder <elder@inktank.com>
-Reviewed-by: Josh Durgin <josh.durgin@inktank.com>"|5|Alex Elder|elder@inktank.com|2013-03-07 15:38:25-06:00|21600|Sage Weil|sage@inktank.com|2013-05-01 21:16:36-07:00|25200

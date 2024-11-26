@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|83f09228d068911ac8797ae8d6febef886698936|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: inline is_*_pfn functions
-
-These functions are exported and can not inline, move them
-to kvm_host.h to eliminate the overload of function call
-
-Signed-off-by: Xiao Guangrong <xiaoguangrong@linux.vnet.ibm.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|2|Xiao Guangrong|xiaoguangrong@linux.vnet.ibm.com|2012-08-03 15:39:59+08:00|-28800|Avi Kivity|avi@redhat.com|2012-08-06 16:04:53+03:00|-10800

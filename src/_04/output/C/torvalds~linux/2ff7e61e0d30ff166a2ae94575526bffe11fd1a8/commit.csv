@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2ff7e61e0d30ff166a2ae94575526bffe11fd1a8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: take an fs_info directly when the root is not used otherwise
-
-There are loads of functions in btrfs that accept a root parameter
-but only use it to obtain an fs_info pointer.  Let's convert those to
-just accept an fs_info pointer directly.
-
-Signed-off-by: Jeff Mahoney <jeffm@suse.com>
-Signed-off-by: David Sterba <dsterba@suse.com>"|44|Jeff Mahoney|jeffm@suse.com|2016-06-22 18:54:24-04:00|14400|David Sterba|dsterba@suse.com|2016-12-06 16:06:59+01:00|-3600

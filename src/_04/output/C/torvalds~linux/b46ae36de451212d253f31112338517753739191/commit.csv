@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b46ae36de451212d253f31112338517753739191|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCTP]: Set ports in every address returned by sctp_getladdrs()
-
-Thomas Dreibholz has reported that port numbers are not filled
-in the results of sctp_getladdrs() when the socket was bound
-to an ephemeral port.  This is only true, if the address was
-not specified either.  So, fill in the port number correctly.
-
-Signed-off-by: Vlad Yasevich <vladislav.yasevich@hp.com>"|1|Vlad Yasevich|vladislav.yasevich@hp.com|2008-01-28 14:25:36-05:00|18000|Vlad Yasevich|vladislav.yasevich@hp.com|2008-02-06 21:27:39-05:00|18000

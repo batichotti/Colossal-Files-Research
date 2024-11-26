@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a8e25a83245618e6b0ddf82a9bba79c1b466804d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: write superblock only once on unmount
-
-In some rather rare cases it is possible that ext4 may the superblock
-to the media twice. This patch makes sure this does not happen. This
-should speed up unmounting in those cases.
-
-Signed-off-by: Artem Bityutskiy <artem.bityutskiy@linux.intel.com>
-Signed-off-by: ""Theodore Ts'o"" <tytso@mit.edu>"|1|Artem Bityutskiy|artem.bityutskiy@linux.intel.com|2012-03-21 22:29:15-04:00|14400|Theodore Ts'o|tytso@mit.edu|2012-03-21 22:29:15-04:00|14400

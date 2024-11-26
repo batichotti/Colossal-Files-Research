@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9c2b3328f74800bb370d08bb3a4255d5fe833e94|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[NET]: skbuff: remove old NET_CALLER macro
-
-Here is a revised alternative that uses BUG_ON/WARN_ON
-(as suggested by Herbert Xu) to eliminate NET_CALLER.
-
-Signed-off-by: Stephen Hemminger <shemminger@osdl.org>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|Stephen Hemminger|shemminger@osdl.org|2005-04-19 22:39:42-07:00|25200|David S. Miller|davem@davemloft.net|2005-04-19 22:39:42-07:00|25200

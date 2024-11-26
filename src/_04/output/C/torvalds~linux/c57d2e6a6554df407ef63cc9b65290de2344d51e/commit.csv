@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c57d2e6a6554df407ef63cc9b65290de2344d51e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wifi: mac80211: remove redundant condition
-
-Here, ext_capa is checked and can only be non-NULL if
-assoc_data->ie_len was set before, so the check here
-is redundant.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2022-07-01 13:40:19+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2022-07-15 11:43:18+02:00|-7200

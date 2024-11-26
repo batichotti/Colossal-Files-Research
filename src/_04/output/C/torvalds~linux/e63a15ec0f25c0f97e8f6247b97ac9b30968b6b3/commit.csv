@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e63a15ec0f25c0f97e8f6247b97ac9b30968b6b3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Use GFP_KERNEL in user context
-
-The allocation in mgmt_control() code are in user context and not locked
-by any spinlock, so it's not recommended the use of GFP_ATOMIC there.
-
-Signed-off-by: Gustavo F. Padovan <padovan@profusion.mobi>"|1|Gustavo F. Padovan|padovan@profusion.mobi|2011-04-04 18:56:53-03:00|10800|Gustavo F. Padovan|padovan@profusion.mobi|2011-04-05 13:03:10-03:00|10800

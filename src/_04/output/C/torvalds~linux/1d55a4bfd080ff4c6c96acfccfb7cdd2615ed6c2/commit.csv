@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1d55a4bfd080ff4c6c96acfccfb7cdd2615ed6c2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"xfs: remove redundant assignment of ifp
-
-Remove redundant ifp = ifp statement, it does nothing. Found with
-static analysis by CoverityScan.
-
-Signed-off-by: Colin Ian King <colin.king@canonical.com>
-Reviewed-by: Darrick J. Wong <darrick.wong@oracle.com>
-Signed-off-by: Dave Chinner <david@fromorbit.com>"|1|Colin Ian King|colin.king@canonical.com|2016-10-20 15:40:55+11:00|-39600|Dave Chinner|david@fromorbit.com|2016-10-20 15:40:55+11:00|-39600

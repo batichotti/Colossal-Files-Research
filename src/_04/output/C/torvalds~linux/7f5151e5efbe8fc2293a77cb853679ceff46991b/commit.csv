@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7f5151e5efbe8fc2293a77cb853679ceff46991b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"crypto: hisilicon/qm - fix the value of 'QM_SQC_VFT_BASE_MASK_V2'
-
-Since the size of base number is 16 bits, update the value of
-'QM_SQC_VFT_BASE_MASK_V2' as 'GENMASK(15, 0)'.
-
-Signed-off-by: Weili Qian <qianweili@huawei.com>
-Reviewed-by: Zaibo Xu <xuzaibo@huawei.com>
-Signed-off-by: Herbert Xu <herbert@gondor.apana.org.au>"|1|Weili Qian|qianweili@huawei.com|2021-02-05 18:12:55+08:00|-28800|Herbert Xu|herbert@gondor.apana.org.au|2021-02-10 17:56:00+11:00|-39600

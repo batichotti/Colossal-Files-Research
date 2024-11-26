@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0d09c57d0846537332d3649eef7e01960ffdc574|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libceph: no need to call flush_workqueue() before destruction
-
-destroy_workqueue() drains the workqueue before proceeding with
-destruction.
-
-Signed-off-by: Ilya Dryomov <idryomov@gmail.com>"|1|Ilya Dryomov|idryomov@gmail.com|2018-05-18 19:34:45+02:00|-7200|Ilya Dryomov|idryomov@gmail.com|2018-06-04 20:45:57+02:00|-7200

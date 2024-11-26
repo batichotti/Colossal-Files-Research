@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|822b7e0b633bbf3edc316791ca57a4cbaff93e6a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ath10k: move ath10k_vdev_stop() up before ath10k_vdev_start_restart()
-
-This patches does not modify any functionality. Just a code move
-so that ath10k_vdev_stop() can be used in ath10k_vdev_start_restart()
-for any failure cases which involves vdev_stop().
-
-Signed-off-by: Vasanthakumar Thiagarajan <vthiagar@qti.qualcomm.com>
-Signed-off-by: Kalle Valo <kvalo@qca.qualcomm.com>"|1|Vasanthakumar Thiagarajan|vthiagar@qti.qualcomm.com|2015-03-02 17:45:27+05:30|-19800|Kalle Valo|kvalo@qca.qualcomm.com|2015-03-07 10:03:26+02:00|-7200

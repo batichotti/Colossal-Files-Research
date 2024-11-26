@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|24669f75a3231fa37444977c92d1f4838bec1233|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] SCSI core kmalloc2kzalloc
-
-Change the core SCSI code to use kzalloc rather than kmalloc+memset
-where possible.
-
-Signed-off-by: Jes Sorensen <jes@sgi.com>
-Signed-off-by: James Bottomley <James.Bottomley@SteelEye.com>"|15|Jes Sorensen|jes@sgi.com|2006-01-16 10:31:18-05:00|18000||jejb@mulgrave.il.steeleye.com|2006-02-27 22:55:02-06:00|21600

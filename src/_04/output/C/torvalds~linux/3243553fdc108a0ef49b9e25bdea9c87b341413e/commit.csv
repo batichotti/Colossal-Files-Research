@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3243553fdc108a0ef49b9e25bdea9c87b341413e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Convert power off mechanism to use delayed_work
-
-The power off code doesn't need to use its own custom timer since the
-delayed_work API provides the exact same functionality.
-
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>
-Signed-off-by: Gustavo F. Padovan <padovan@profusion.mobi>"|3|Johan Hedberg|johan.hedberg@intel.com|2011-11-07 22:16:04+02:00|-7200|Gustavo F. Padovan|padovan@profusion.mobi|2011-11-08 12:54:10-02:00|7200

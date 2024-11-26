@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|39447b386c846bbf1c56f6403c5282837486200f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"perf: Enhance perf to allow for guest statistic collection from host
-
-Below patch introduces perf_guest_info_callbacks and related
-register/unregister functions. Add more PERF_RECORD_MISC_XXX bits
-meaning guest kernel and guest user space.
-
-Signed-off-by: Zhang Yanmin <yanmin_zhang@linux.intel.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|4|Zhang, Yanmin|yanmin_zhang@linux.intel.com|2010-04-19 13:32:41+08:00|-28800|Avi Kivity|avi@redhat.com|2010-04-19 12:35:33+03:00|-10800

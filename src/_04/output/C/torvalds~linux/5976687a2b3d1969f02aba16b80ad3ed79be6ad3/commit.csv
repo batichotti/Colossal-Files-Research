@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5976687a2b3d1969f02aba16b80ad3ed79be6ad3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sunrpc: move address copy/cmp/convert routines and prototypes from clnt.h to addr.h
-
-These routines are used by server and client code, so having them in a
-separate header would be best.
-
-Signed-off-by: Jeff Layton <jlayton@redhat.com>
-Acked-by: Trond Myklebust <Trond.Myklebust@netapp.com>
-Signed-off-by: J. Bruce Fields <bfields@redhat.com>"|21|Jeff Layton|jlayton@redhat.com|2013-02-04 12:50:00-05:00|18000|J. Bruce Fields|bfields@redhat.com|2013-02-05 09:41:14-05:00|18000

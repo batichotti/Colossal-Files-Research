@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d91f190c412aff940a46cabaccf114361c133605|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211_hwsim: fix bogus warning
-
-A typo slipped into my patch to configure beacon intervals
-properly -- this warning is supposed to trigger when the
-beacon interval is zero, not non-zero.
-
-Signed-off-by: Johannes Berg <johannes@sipsolutions.net>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|1|Johannes Berg|johannes@sipsolutions.net|2009-04-24 15:13:54+02:00|-7200|John W. Linville|linville@tuxdriver.com|2009-05-06 15:14:37-04:00|14400

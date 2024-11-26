@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8ca86f1639ec5890d400fff9211aca22d0a392eb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"binder: replace ""%p"" with ""%pK""
-
-The format specifier ""%p"" can leak kernel addresses. Use
-""%pK"" instead. There were 4 remaining cases in binder.c.
-
-Signed-off-by: Todd Kjos <tkjos@google.com>
-Cc: stable <stable@vger.kernel.org>
-Signed-off-by: Greg Kroah-Hartman <gregkh@linuxfoundation.org>"|1|Todd Kjos|tkjos@android.com|2018-02-07 13:57:37-08:00|28800|Greg Kroah-Hartman|gregkh@linuxfoundation.org|2018-02-16 11:16:38+01:00|-3600

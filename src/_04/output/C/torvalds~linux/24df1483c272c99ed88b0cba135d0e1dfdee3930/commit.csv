@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|24df1483c272c99ed88b0cba135d0e1dfdee3930|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Cleanup missing frees on some ioctls
-
-Cleanup some missing mem frees on some cifs ioctls, and
-clarify others to make more obvious that no data is returned.
-
-CC: Stable <stable@vger.kernel.org>
-Signed-off-by: Steve French <smfrench@gmail.com>
-Acked-by: Sachin Prabhu <sprabhu@redhat.com>"|1|Steve French|smfrench@gmail.com|2016-09-29 04:20:23-05:00|18000|Steve French|smfrench@gmail.com|2016-10-13 19:48:20-05:00|18000

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0360c046ca186be1953d185d5a3631e415381820|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8169: move setting OCP base to generic init code
-
-Move setting the ocp_base to rtl_init_one(). Where supported the value
-is always the same, and if not supported it doesn't hurt.
-
-Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Heiner Kallweit|hkallweit1@gmail.com|2020-04-18 23:06:51+02:00|-7200|David S. Miller|davem@davemloft.net|2020-04-18 20:20:10-07:00|25200

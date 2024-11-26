@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d730616384211436cfc84e6c2c1aa45351706a96|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Fix kvm_arch_vcpu_ioctl_set_sregs so that set_cr0 works properly
-
-Whilst working on getting a VM to initialize in to IA32e mode I found
-this issue. set_cr0 relies on comparing the old cr0 to the new one to
-work correctly.  Move the assignment below so the compare can work.
-
-Signed-off-by: Paul Knowles <paul@transitive.com>
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|1|Paul Knowles|paul@transitive.com|2008-02-06 11:02:35+00:00|0|Avi Kivity|avi@qumranet.com|2008-03-03 11:22:14+02:00|-7200

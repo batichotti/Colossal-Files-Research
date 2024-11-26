@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8c1a49aedb73fb2f15aaa32ad9e2e1c4289f45cb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tracing: Pass trace_array to set_flag callback
-
-As options (flags) may affect instances instead of being global
-the set_flag() callbacks need to receive the trace_array descriptor
-of the instance they will be modifying.
-
-Signed-off-by: Steven Rostedt <rostedt@goodmis.org>"|8|Steven Rostedt (Red Hat)|rostedt@goodmis.org|2014-01-10 11:13:54-05:00|18000|Steven Rostedt|rostedt@goodmis.org|2014-02-20 12:13:07-05:00|18000

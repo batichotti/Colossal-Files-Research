@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c5723ac51f2a1eaa69d831b919129a3c2b7efeee|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: dsa: mv88e6xxx: rename ATU MAC accessors
-
-Rename the __mv88e6xxx_{read,write}_addr functions to more explicit
-_mv88e6xxx_atu_mac_{read,write} functions, which also respect the single
-underscore convention used in the file (meaning SMI lock must be held).
-
-Signed-off-by: Vivien Didelot <vivien.didelot@savoirfairelinux.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Vivien Didelot|vivien.didelot@savoirfairelinux.com|2015-08-10 09:09:48-04:00|14400|David S. Miller|davem@davemloft.net|2015-08-11 12:03:19-07:00|25200

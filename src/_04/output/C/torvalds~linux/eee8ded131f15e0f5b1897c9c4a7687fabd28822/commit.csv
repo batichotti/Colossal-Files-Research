@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|eee8ded131f15e0f5b1897c9c4a7687fabd28822|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ftrace: Have the function probes call their own function
-
-Now that the function probes have their own ftrace_ops, there's no reason to
-continue using the ftrace_func_hash to find which probe to call in the
-function callback. The ops that is passed in to the function callback is
-part of the probe_ops to call.
-
-Signed-off-by: Steven Rostedt (VMware) <rostedt@goodmis.org>"|3|Steven Rostedt (VMware)|rostedt@goodmis.org|2017-04-04 21:31:28-04:00|14400|Steven Rostedt (VMware)|rostedt@goodmis.org|2017-04-20 22:06:43-04:00|14400

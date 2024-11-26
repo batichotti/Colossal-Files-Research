@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2e69f8656139fc3f28079ed5019a2a475e175f0a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: join functions that disable x2apic msr intercepts
-
-vmx_disable_intercept_msr_read_x2apic() and
-vmx_disable_intercept_msr_write_x2apic() differed only in the type.
-Pass the type to a new function.
-
-[Ordered and commented TPR intercept according to Paolo's suggestion.]
-Signed-off-by: Radim Krčmář <rkrcmar@redhat.com>"|1|Radim Krčmář|rkrcmar@redhat.com|2016-09-29 22:41:32+02:00|-7200|Paolo Bonzini|pbonzini@redhat.com|2016-11-02 21:32:17+01:00|-3600

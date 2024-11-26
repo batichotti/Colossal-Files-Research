@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7ee1ec4ca30c6df8e989615cdaacb75f2af4fa6b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: add missing unlock in ext4_check_descriptors() on error path
-
-If there group descriptors are corrupted we need unlock the block
-group lock before returning from the function; else we will oops when
-freeing a spinlock which is still being held.
-
-Signed-off-by: Li Zefan <lizf@cn.fujitsu.com>
-Signed-off-by: ""Theodore Ts'o"" <tytso@mit.edu>"|1|Li Zefan|lizf@cn.fujitsu.com|2008-09-08 10:47:19-04:00|14400|Theodore Ts'o|tytso@mit.edu|2008-09-08 10:47:19-04:00|14400

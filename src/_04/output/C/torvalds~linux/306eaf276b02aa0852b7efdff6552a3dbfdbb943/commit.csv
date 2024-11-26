@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|306eaf276b02aa0852b7efdff6552a3dbfdbb943|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: mpt3sas: Replace readl with ioc->base_readl
-
-Use ioc->base_readl to restrict the readl retries to only Aero controllers.
-
-Signed-off-by: Suganath Prabu <suganath-prabu.subramani@broadcom.com>
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|1|Suganath Prabu|suganath-prabu.subramani@broadcom.com|2018-12-07 12:58:34+05:30|-19800|Martin K. Petersen|martin.petersen@oracle.com|2018-12-12 21:29:07-05:00|18000

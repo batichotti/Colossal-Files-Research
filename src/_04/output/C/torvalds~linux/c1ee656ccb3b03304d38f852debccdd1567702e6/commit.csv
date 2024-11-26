@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c1ee656ccb3b03304d38f852debccdd1567702e6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[IPV6] ADDRCONF: Rename ipv6_saddr_label() to ipv6_addr_label().
-
-This patch renames ipv6_saddr_label() to ipv6_addr_label() because
-address label is used for both of source address and destination
-address.
-
-Signed-off-by: YOSHIFUJI Hideaki <yoshfuji@linux-ipv6.org>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|YOSHIFUJI Hideaki|yoshfuji@linux-ipv6.org|2007-11-14 15:55:29+09:00|-32400|David S. Miller|davem@davemloft.net|2008-01-28 14:53:56-08:00|28800

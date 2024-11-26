@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1d8e5b0f3f2c6d05697f8192aac7255e6be1e715|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: stmmac: Support WOL with phy
-
-Currently, the stmmac driver WOL implementation relies on MAC's PMT
-feature. We have a case: the MAC HW doesn't enable PMT, instead, we
-rely on the phy to support WOL. Implement the support for this case.
-
-Signed-off-by: Jisheng Zhang <Jisheng.Zhang@synaptics.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Jisheng Zhang|Jisheng.Zhang@synaptics.com|2020-07-27 19:03:09+08:00|-28800|David S. Miller|davem@davemloft.net|2020-07-28 17:48:20-07:00|25200

@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5d5619b40c2474de01c64bdf6bb9f1211d3e967a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[IPV6] ADDRCONF: Sparse: Make inet6_dump_addr() code paths more straight-forward.
-
-Fix the following sparse warning:
-| net/ipv6/addrconf.c:3384:2: warning: context imbalance in 'inet6_dump_addr' - different lock contexts for basic block
-
-Signed-off-by: YOSHIFUJI Hideaki <yoshfuji@linux-ipv6.org>"|1|YOSHIFUJI Hideaki|yoshfuji@linux-ipv6.org|2008-01-22 17:29:40+09:00|-32400|David S. Miller|davem@davemloft.net|2008-01-28 15:10:28-08:00|28800

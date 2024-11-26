@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|46543ba45fc4b64ca32655efdc8d9c599b4164e2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: Robust TSC compensation
-
-Make the match of TSC find TSC writes that are close to each other
-instead of perfectly identical; this allows the compensator to also
-work in migration / suspend scenarios.
-
-Signed-off-by: Zachary Amsden <zamsden@redhat.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|1|Zachary Amsden|zamsden@redhat.com|2010-08-19 22:07:26-10:00|36000|Avi Kivity|avi@redhat.com|2010-10-24 10:51:23+02:00|-7200

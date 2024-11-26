@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ad65a2f05695aced349e308193c6e2a6b1d87112|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ipv6: call dst_hold_safe() properly
-
-Similar as ipv4, ipv6 path also needs to call dst_hold_safe() when
-necessary to avoid double free issue on the dst.
-
-Signed-off-by: Wei Wang <weiwan@google.com>
-Acked-by: Martin KaFai Lau <kafai@fb.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Wei Wang|weiwan@google.com|2017-06-17 10:42:35-07:00|25200|David S. Miller|davem@davemloft.net|2017-06-17 22:54:00-04:00|14400

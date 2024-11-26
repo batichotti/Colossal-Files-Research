@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|38ea3686f6d1110a3787dfd7c5cf7bad1926818b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[BNX2]: Disable parallel detect on an HP blade.
-
-Because of some board issues, we need to disable parallel detect on
-an HP blade.  Without this patch, the link state can become stuck
-when it goes into parallel detect mode.
-
-Signed-off-by: Michael Chan <mchan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Michael Chan|mchan@broadcom.com|2008-02-23 19:48:57-08:00|28800|David S. Miller|davem@davemloft.net|2008-02-23 19:48:57-08:00|28800

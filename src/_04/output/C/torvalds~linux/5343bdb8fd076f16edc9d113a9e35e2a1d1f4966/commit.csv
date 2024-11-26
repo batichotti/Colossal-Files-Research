@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5343bdb8fd076f16edc9d113a9e35e2a1d1f4966|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sched: Update rq->clock for nohz balanced cpus
-
-Suresh spotted that we don't update the rq->clock in the nohz
-load-balancer path.
-
-Signed-off-by: Peter Zijlstra <a.p.zijlstra@chello.nl>
-LKML-Reference: <1278626014.2834.74.camel@sbs-t61.sc.intel.com>
-Signed-off-by: Ingo Molnar <mingo@elte.hu>"|1|Suresh Siddha|suresh.b.siddha@intel.com|2010-07-09 15:19:54+02:00|-7200|Ingo Molnar|mingo@elte.hu|2010-07-17 12:02:08+02:00|-7200

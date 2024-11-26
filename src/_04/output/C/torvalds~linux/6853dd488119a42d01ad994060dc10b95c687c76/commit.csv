@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6853dd488119a42d01ad994060dc10b95c687c76|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rtnetlink: protect handler table with rcu
-
-Note that netlink dumps still acquire rtnl mutex via the netlink
-dump infrastructure.
-
-Signed-off-by: Florian Westphal <fw@strlen.de>
-Reviewed-by: Hannes Frederic Sowa <hannes@stressinduktion.org>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Florian Westphal|fw@strlen.de|2017-08-09 20:41:51+02:00|-7200|David S. Miller|davem@davemloft.net|2017-08-09 16:57:38-07:00|25200

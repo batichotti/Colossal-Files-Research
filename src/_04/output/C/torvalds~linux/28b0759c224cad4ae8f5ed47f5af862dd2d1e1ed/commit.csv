@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|28b0759c224cad4ae8f5ed47f5af862dd2d1e1ed|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"igb: remove unnecessary adapter->hw calls when just hw-> will do.
-
-There were several spots in the code making calls to adapter->hw when they
-could have just been accessing hw-> directly.  I cleaned up the spots where
-this was visibly apparent.
-
-Signed-off-by: Alexander Duyck <alexander.h.duyck@intel.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Alexander Duyck|alexander.h.duyck@intel.com|2009-02-06 23:20:31+00:00|0|David S. Miller|davem@davemloft.net|2009-02-07 02:43:13-08:00|28800

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7cf9f3ba2f02216b2303e648c0c5439f00191008|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mm, slub: only disable irq with spin_lock in __unfreeze_partials()
-
-__unfreeze_partials() no longer needs to have irqs disabled, except for making
-the spin_lock operations irq-safe, so convert the spin_locks operations and
-remove the separate irq handling.
-
-Signed-off-by: Vlastimil Babka <vbabka@suse.cz>"|1|Vlastimil Babka|vbabka@suse.cz|2021-05-21 01:16:54+02:00|-7200|Vlastimil Babka|vbabka@suse.cz|2021-09-04 01:12:22+02:00|-7200

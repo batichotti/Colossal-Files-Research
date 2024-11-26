@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|287a9c558b9b825b3af36731bb09b06621f3e744|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: Clean up pNFS return-on-close error handling
-
-Both close and delegreturn have identical code to handle pNFS
-return-on-close. This patch refactors that code and places it
-in pnfs.c
-
-Signed-off-by: Trond Myklebust <trond.myklebust@hammerspace.com>
-Signed-off-by: Anna Schumaker <Anna.Schumaker@Netapp.com>"|3|Trond Myklebust|trondmy@gmail.com|2019-09-20 07:23:41-04:00|14400|Anna Schumaker|Anna.Schumaker@Netapp.com|2019-09-20 15:27:51-04:00|14400

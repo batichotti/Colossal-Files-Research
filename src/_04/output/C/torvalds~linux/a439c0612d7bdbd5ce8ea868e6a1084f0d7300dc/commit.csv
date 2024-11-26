@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a439c0612d7bdbd5ce8ea868e6a1084f0d7300dc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: dsa: mv88e6xxx: read switch ID in probe
-
-Read the switch ID only once, at probe time, to avoid multiple read
-accesses and MII bus checking.
-
-Signed-off-by: Vivien Didelot <vivien.didelot@savoirfairelinux.com>
-Reviewed-by: Andrew Lunn <andrew@lunn.ch>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Vivien Didelot|vivien.didelot@savoirfairelinux.com|2016-04-17 13:23:58-04:00|14400|David S. Miller|davem@davemloft.net|2016-04-17 18:54:15-04:00|14400

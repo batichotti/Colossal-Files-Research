@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f991bb9da142ba79b54ed0757f22e756f45e2c5a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: Drop secpath on free after gro merge.
-
-With a followup patch, a gro merged skb can have a secpath.
-So drop it before freeing or reusing the skb.
-
-Signed-off-by: Steffen Klassert <steffen.klassert@secunet.com>"|1|Steffen Klassert|steffen.klassert@secunet.com|2017-01-30 06:45:38+01:00|-3600|Steffen Klassert|steffen.klassert@secunet.com|2017-01-30 06:45:38+01:00|-3600

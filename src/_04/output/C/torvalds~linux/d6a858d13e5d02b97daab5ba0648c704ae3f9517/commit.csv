@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d6a858d13e5d02b97daab5ba0648c704ae3f9517|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: vmx: disable posted interrupts if no local APIC
-
-Uniprocessor 32-bit randconfigs can disable the local APIC, and posted
-interrupts require reserving a vector on the LAPIC, so they are
-incompatible.
-
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Paolo Bonzini|pbonzini@redhat.com|2015-09-28 11:58:14+02:00|-7200|Paolo Bonzini|pbonzini@redhat.com|2015-10-01 15:06:34+02:00|-7200

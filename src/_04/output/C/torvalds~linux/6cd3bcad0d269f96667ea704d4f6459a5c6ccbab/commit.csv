@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6cd3bcad0d269f96667ea704d4f6459a5c6ccbab|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ceph: move ceph_find_inode() outside the s_mutex
-
-ceph_find_inode() may wait on freeing inode, using it inside the s_mutex
-may cause deadlock. (the freeing inode is waiting for OSD read reply, but
-dispatch thread is blocked by the s_mutex)
-
-Signed-off-by: Yan, Zheng <zyan@redhat.com>
-Reviewed-by: Sage Weil <sage@redhat.com>"|2|Yan, Zheng|zyan@redhat.com|2014-09-17 07:45:12+08:00|-28800|Ilya Dryomov|idryomov@redhat.com|2014-10-14 21:03:39+04:00|-14400

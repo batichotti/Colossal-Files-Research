@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|52ec7be2e27392201adf77892ba883f68df88c99|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"pNFS: Clear out all layout segments if the server unsets lrp->res.lrs_present
-
-If the server fails to set lrp->res.lrs_present in the LAYOUTRETURN reply,
-then that means it believes the client holds no more layout state for that
-file, and that the layout stateid is now invalid.
-
-Signed-off-by: Trond Myklebust <trond.myklebust@primarydata.com>"|1|Trond Myklebust|trond.myklebust@primarydata.com|2016-09-03 11:05:28-04:00|14400|Trond Myklebust|trond.myklebust@primarydata.com|2016-09-03 12:10:38-04:00|14400

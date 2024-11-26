@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|98cbc40e4f7d15bc21a314a151071566e14ca39c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nft_inner: fix IS_ERR() vs NULL check
-
-The __nft_expr_type_get() function returns NULL on error.  It never
-returns error pointers.
-
-Fixes: 3a07327d10a0 (""netfilter: nft_inner: support for inner tunnel header matching"")
-Signed-off-by: Dan Carpenter <error27@gmail.com>
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|1|Dan Carpenter|error27@gmail.com|2022-11-15 16:26:07+03:00|-10800|Pablo Neira Ayuso|pablo@netfilter.org|2022-11-22 22:29:54+01:00|-3600

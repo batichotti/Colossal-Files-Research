@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|87a3451e346be3f9a5d8943ae094888044314631|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/dp_mst: Get rid of old comment in drm_atomic_get_mst_topology_state docs
-
-We don't actually care about connection_mutex here anymore, so let's get
-rid of the comment mentioning it in this function's kdocs.
-
-Signed-off-by: Lyude Paul <lyude@redhat.com>
-Reviewed-by: Wayne Lin <Wayne.Lin@amd.com>
-Link: https://patchwork.freedesktop.org/patch/msgid/20220602201757.30431-4-lyude@redhat.com"|1|Lyude Paul|lyude@redhat.com|2022-06-02 16:17:57-04:00|14400|Lyude Paul|lyude@redhat.com|2022-06-21 15:38:51-04:00|14400

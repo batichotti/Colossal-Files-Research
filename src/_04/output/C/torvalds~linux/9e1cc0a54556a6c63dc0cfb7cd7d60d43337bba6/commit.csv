@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9e1cc0a54556a6c63dc0cfb7cd7d60d43337bba6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md: use mddev_suspend/resume instead of ->quiesce()
-
-mddev_suspend() is a more general interface than
-calling ->quiesce() and is so more extensible.  A
-future patch will make use of this.
-
-Signed-off-by: NeilBrown <neilb@suse.com>
-Signed-off-by: Shaohua Li <shli@fb.com>"|1|NeilBrown|neilb@suse.com|2017-10-17 13:46:43+11:00|-39600|Shaohua Li|shli@fb.com|2017-11-01 21:32:19-07:00|25200

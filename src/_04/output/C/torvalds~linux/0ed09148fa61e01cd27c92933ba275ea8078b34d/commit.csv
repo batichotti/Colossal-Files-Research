@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0ed09148fa61e01cd27c92933ba275ea8078b34d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Remove MGMT_ADDR_INVALID macro
-
-This patch removes the MGMT_ADDR_INVALID macro. If the address type
-isn't LE, we consider it is BR/EDR type.
-
-Signed-off-by: Andre Guedes <andre.guedes@openbossa.org>
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>"|2|Andre Guedes|andre.guedes@openbossa.org|2012-04-03 08:46:54-03:00|10800|Gustavo Padovan|gustavo@padovan.org|2012-05-09 00:41:37-03:00|10800

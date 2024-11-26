@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cb0953d734348e8862d6d7edc666cfb3bf6d8fae|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Initialize LVDS and eDP outputs before anything else
-
-This makes them sort to the front in X, which makes them likely to be
-the primary outputs if you haven't specified a preference in your DE,
-which is likely to be what you want.
-
-Signed-off-by: Adam Jackson <ajax@redhat.com>
-Signed-off-by: Eric Anholt <eric@anholt.net>"|3|Adam Jackson|ajax@redhat.com|2010-07-16 14:46:29-04:00|14400|Eric Anholt|eric@anholt.net|2010-08-01 19:38:00-07:00|25200

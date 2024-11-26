@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9f5e8f6efc7c2601136b27d9c7325c245f8fd19a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cfg80211: rework chandef checking and export it
-
-Some of the chandef checking that we do in cfg80211
-to check if a channel is supported or not is also
-needed in mac80211, so rework that a bit and export
-the functions that are needed.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|4|Johannes Berg|johannes.berg@intel.com|2012-11-22 16:59:45+01:00|-3600|Johannes Berg|johannes.berg@intel.com|2012-11-27 09:18:25+01:00|-3600

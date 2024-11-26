@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cf0ab2cd450357bd430c6799aed18a427a8420f6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/radeon: handle cg in CI dpm code
-
-Clockgating needs to be disabled around certain parts
-of dpm setup otherwise the smc gets into a bad state
-and dpm doesn't work properly.
-
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|1|Alex Deucher|alexander.deucher@amd.com|2013-08-14 13:55:53-04:00|14400|Alex Deucher|alexander.deucher@amd.com|2013-08-30 16:30:57-04:00|14400

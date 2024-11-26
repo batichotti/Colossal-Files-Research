@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bf46f52db96795e0c10292d55888640ab57f42c7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: remove dead code from btrfs_get_extent
-
-Due to new_inline logic, the create == 0 is always true at this
-point in the code, so the create != 0 branch can be removed.
-
-Signed-off-by: Edmund Nadolski <enadolski@suse.com>
-Reviewed-by: Nikolay Borisov <nborisov@suse.com>
-Signed-off-by: David Sterba <dsterba@suse.com>"|1|Edmund Nadolski|enadolski@suse.com|2017-11-20 13:24:49-07:00|25200|David Sterba|dsterba@suse.com|2018-01-22 16:08:14+01:00|-3600

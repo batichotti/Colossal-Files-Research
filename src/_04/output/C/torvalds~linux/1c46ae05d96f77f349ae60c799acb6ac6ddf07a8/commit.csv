@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1c46ae05d96f77f349ae60c799acb6ac6ddf07a8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[TG3]: Eliminate the unused TG3_FLAG_SPLIT_MODE flag.
-
-This flag to support multiple PCIX split completions was never used
-because of hardware bugs.  This will make room for a new flag.
-
-Signed-off-by: Michael Chan <mchan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Michael Chan|mchan@broadcom.com|2007-03-24 20:54:37-07:00|25200|David S. Miller|davem@sunset.davemloft.net|2007-03-25 18:48:06-07:00|25200

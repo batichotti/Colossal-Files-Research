@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c5d95df5f78312c879f3058059c98a08821897a5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ocfs2: Let ocfs2_xa_prepare_entry() do space checks.
-
-ocfs2_xattr_set_in_bucket() doesn't need to do its own hacky space
-checking.  Let's let ocfs2_xa_prepare_entry() (via ocfs2_xa_set()) do
-the more accurate work.  Whenever it doesn't have space,
-ocfs2_xattr_set_in_bucket() can try to get more space.
-
-Signed-off-by: Joel Becker <joel.becker@oracle.com>"|1|Joel Becker|joel.becker@oracle.com|2009-08-18 21:03:24-07:00|25200|Joel Becker|joel.becker@oracle.com|2010-02-26 15:41:12-08:00|28800

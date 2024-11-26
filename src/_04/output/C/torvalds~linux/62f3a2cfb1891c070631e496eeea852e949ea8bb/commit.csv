@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|62f3a2cfb1891c070631e496eeea852e949ea8bb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Fix another locking unbalance
-
-l2cap_get_sock_by_scid was changed to not lock the socket anymore, but I
-forgot to change all the users of this function.
-
-Signed-off-by: Gustavo F. Padovan <padovan@profusion.mobi>"|1|Gustavo F. Padovan|padovan@profusion.mobi|2011-04-14 18:34:34-03:00|10800|Gustavo F. Padovan|padovan@profusion.mobi|2011-04-14 18:34:34-03:00|10800

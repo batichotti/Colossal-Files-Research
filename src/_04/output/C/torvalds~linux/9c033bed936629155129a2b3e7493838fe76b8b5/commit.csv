@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9c033bed936629155129a2b3e7493838fe76b8b5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net/wireless: ipw2x00: remove unreachable code
-
-Remove unnecessary if statements because libipw_set_geo always
-returns success.  Also change function's return value from int
-to void.
-
-Signed-off-by: Stanislav Yakovlev <stas.yakovlev@gmail.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|4|Stanislav Yakovlev|stas.yakovlev@gmail.com|2012-11-15 03:07:47+00:00|0|John W. Linville|linville@tuxdriver.com|2012-11-16 14:29:06-05:00|18000

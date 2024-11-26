@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a25fca4d3c18766b6f7a3c95fa8faec23ef464c5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: mgmt: Fix wrong opcode in the response for add_adv cmd
-
-This patch fixes the MGMT add_advertising command repsones with the
-wrong opcode when it is trying to return the not supported error.
-
-Fixes: cbbdfa6f33198 (""Bluetooth: Enable controller RPA resolution using Experimental feature"")
-Signed-off-by: Tedd Ho-Jeong An <tedd.an@intel.com>
-Signed-off-by: Luiz Augusto von Dentz <luiz.von.dentz@intel.com>"|1|Tedd Ho-Jeong An|tedd.an@intel.com|2021-07-26 13:22:36-07:00|25200|Luiz Augusto von Dentz|luiz.von.dentz@intel.com|2021-07-28 15:42:24-07:00|25200

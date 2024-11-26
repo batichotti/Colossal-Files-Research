@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6f78fd4bb93e17543f2f6f25112687c633c12eb7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Fix check for connected state when pairing
-
-Both BT_CONNECTED and BT_CONFIG state mean that we have a baseband link
-available. We should therefore check for either of these when pairing
-and deciding whether to call hci_conn_security() directly.
-
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|1|Johan Hedberg|johan.hedberg@intel.com|2014-07-30 08:35:48+03:00|-10800|Marcel Holtmann|marcel@holtmann.org|2014-07-30 19:28:41+02:00|-7200

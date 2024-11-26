@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|98c56ad32c33f0fd6742502bafe7003e4b8c80ed|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mpt3sas: Eliminate dead sleep_flag code
-
-With the exception of a single call to wait_for_doorbell_int(), all this
-conditional sleeping code is dead. So delete it.
-
-Signed-off-by: Calvin Owens <calvinowens@fb.com>
-Acked-by: Chaitra P B <chaitra.basappa@broadcom.com>
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|6|Calvin Owens|calvinowens@fb.com|2016-07-28 21:38:21-07:00|25200|Martin K. Petersen|martin.petersen@oracle.com|2016-08-08 21:13:48-04:00|14400

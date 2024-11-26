@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|56fc709b7a9fe191173dc772a881e180458db517|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ipv6: addrconf: move ipv6_chk_same_addr() to avoid forward declaration
-
-ipv6_chk_same_addr() is only used by ipv6_add_addr_hash(),
-so moving it avoids a forward declaration.
-
-Signed-off-by: Eric Dumazet <edumazet@google.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Eric Dumazet|edumazet@google.com|2017-10-23 16:17:45-07:00|25200|David S. Miller|davem@davemloft.net|2017-10-24 17:54:19+09:00|-32400

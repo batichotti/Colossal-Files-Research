@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|62810e5a9df3f47b7261e5d78fc1c33e550f2171|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: enable intel_lvds->pre_pll_enable for ilk+, too
-
-Only two things needed adjustment:
-- pipe select for PCH_CPT
-- There's no dithering bit on ilk+ in the lvds ctl reg
-
-Reviewed-by: Paulo Zanoni <paulo.r.zanoni@intel.com>
-Signed-off-by: Daniel Vetter <daniel.vetter@ffwll.ch>"|2|Daniel Vetter|daniel.vetter@ffwll.ch|2012-11-26 17:22:13+01:00|-3600|Daniel Vetter|daniel.vetter@ffwll.ch|2012-11-29 12:51:37+01:00|-3600

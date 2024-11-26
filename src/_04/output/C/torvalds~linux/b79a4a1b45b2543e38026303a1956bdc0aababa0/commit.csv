@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b79a4a1b45b2543e38026303a1956bdc0aababa0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: Fix state recovery when the client runs over the grace period
-
-If the client for some reason is not able to recover all its state within
-the time allotted for the grace period, and the server reboots again, the
-client is not allowed to recover the state that was 'lost' using reboot
-recovery.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|3|Trond Myklebust|Trond.Myklebust@netapp.com|2008-12-23 15:21:41-05:00|18000|Trond Myklebust|Trond.Myklebust@netapp.com|2008-12-23 15:21:41-05:00|18000

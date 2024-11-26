@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|103a150f0cc57576b1c4b80bf07af60a14349eee|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rbd: expand rbd_dev_ondisk_valid() checks
-
-Add checks on the validity of the snap_count and snap_names_len
-field values in rbd_dev_ondisk_valid().  This eliminates the
-need to do them in rbd_header_from_disk().
-
-Signed-off-by: Alex Elder <elder@inktank.com>
-Reviewed-by: Josh Durgin <josh.durgin@inktank.com>"|1|Alex Elder|elder@inktank.com|2012-08-02 11:29:45-05:00|18000|Alex Elder|elder@inktank.com|2012-10-01 14:30:48-05:00|18000

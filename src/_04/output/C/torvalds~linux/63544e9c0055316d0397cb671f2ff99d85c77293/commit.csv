@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|63544e9c0055316d0397cb671f2ff99d85c77293|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ixgbe: Move all values that deal with count, next_to_use, next_to_clean to u16
-
-This change updates all values dealing with count, next_to_use, and
-next_to_clean so that they stay u16 values.  The advantage of this is that
-there is no re-casting of type during the propagation through the stack.
-
-Signed-off-by: Alexander Duyck <alexander.h.duyck@intel.com>
-Signed-off-by: Jeff Kirsher <jeffrey.t.kirsher@intel.com>"|1|Alexander Duyck|alexander.h.duyck@intel.com|2011-05-27 05:31:42+00:00|0|Jeff Kirsher|jeffrey.t.kirsher@intel.com|2011-06-25 00:04:59-07:00|25200

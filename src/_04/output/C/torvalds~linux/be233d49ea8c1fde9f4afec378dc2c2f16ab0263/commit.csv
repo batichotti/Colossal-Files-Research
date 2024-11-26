@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|be233d49ea8c1fde9f4afec378dc2c2f16ab0263|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: MMU: don't atomicly set spte if it's not present
-
-If the old mapping is not present, the spte.a is not lost, so no need
-atomic operation to set it
-
-Signed-off-by: Xiao Guangrong <xiaoguangrong@cn.fujitsu.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Xiao Guangrong|xiaoguangrong@cn.fujitsu.com|2010-07-16 11:27:10+08:00|-28800|Avi Kivity|avi@redhat.com|2010-08-02 06:40:59+03:00|-10800

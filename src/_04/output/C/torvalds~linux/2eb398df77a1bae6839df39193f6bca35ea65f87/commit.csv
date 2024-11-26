@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2eb398df77a1bae6839df39193f6bca35ea65f87|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: Replace IS_ERR() with IS_ERR_VALUE()
-
-Avoid type casts that are needed for IS_ERR() and use
-IS_ERR_VALUE() instead.
-
-Signed-off-by: ye xingchen <ye.xingchen@zte.com.cn>
-Link: https://lore.kernel.org/r/202211161718436948912@zte.com.cn
-Signed-off-by: Sean Christopherson <seanjc@google.com>"|1|ye xingchen|ye.xingchen@zte.com.cn|2022-11-16 17:18:43+08:00|-28800|Sean Christopherson|seanjc@google.com|2023-01-24 10:42:09-08:00|28800

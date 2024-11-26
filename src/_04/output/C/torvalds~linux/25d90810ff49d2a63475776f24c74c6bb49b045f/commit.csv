@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|25d90810ff49d2a63475776f24c74c6bb49b045f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[netdrvr] forcedeth: reorder suspend/resume code
-
-Match the suspend/resume code ordering in e100/e1000e more closely.
-For example the configuration space should be saved on suspend even for
-devices that are not up.
-
-Signed-off-by: Tobias Diedrich <ranma+kernel@tdiedrich.de>
-Signed-off-by: Jeff Garzik <jgarzik@redhat.com>"|1|Tobias Diedrich|ranma+kernel@tdiedrich.de|2008-05-18 15:04:29+02:00|-7200|Jeff Garzik|jgarzik@redhat.com|2008-05-30 22:19:11-04:00|14400

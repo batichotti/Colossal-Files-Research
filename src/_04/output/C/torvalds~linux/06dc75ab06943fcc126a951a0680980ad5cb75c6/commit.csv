@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|06dc75ab06943fcc126a951a0680980ad5cb75c6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: Revert ""net: add function to allocate sk_buff head without data area""
-
-It was added for netlink mmap tx, there are no callers in the tree.
-The commit also added a check for skb->head != NULL in kfree_skb path,
-remove that too -- all skbs ought to have skb->head set.
-
-Signed-off-by: Florian Westphal <fw@strlen.de>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Florian Westphal|fw@strlen.de|2017-07-17 18:56:54+02:00|-7200|David S. Miller|davem@davemloft.net|2017-07-17 10:34:21-07:00|25200

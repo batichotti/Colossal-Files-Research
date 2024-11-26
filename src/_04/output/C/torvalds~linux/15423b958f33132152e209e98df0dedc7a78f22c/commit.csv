@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|15423b958f33132152e209e98df0dedc7a78f22c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tools/power turbostat: fix leak of file descriptor on error return path
-
-Currently the error return path does not close the file fp and leaks
-a file descriptor. Fix this by closing the file.
-
-Fixes: 5ea7647b333f (""tools/power turbostat: Warn on bad ACPI LPIT data"")
-Signed-off-by: Colin Ian King <colin.king@canonical.com>
-Signed-off-by: Len Brown <len.brown@intel.com>"|1|Colin Ian King|colin.king@canonical.com|2019-04-08 10:00:44+01:00|-3600|Len Brown|len.brown@intel.com|2019-08-31 14:48:34-04:00|14400

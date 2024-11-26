@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ec182f0397e7065dabf13a99fc745fcab0bdc641|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Remove unnecessary indentation in unpair_device()
-
-Instead of doing all of the LE-specific handling in an else-branch in
-unpair_device() create a 'done' label for the BR/EDR branch to jump to
-and then remove the else-branch completely.
-
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|1|Johan Hedberg|johan.hedberg@intel.com|2015-10-21 18:03:03+03:00|-10800|Marcel Holtmann|marcel@holtmann.org|2015-10-21 18:40:21+02:00|-7200

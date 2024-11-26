@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|80b7ab33414beeb3c17600af9b69d903f5cf8a7d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: move power_off to system workqueue
-
-hdev->workqueue will be only for for rx/tx/cmd processing, all other small
-works should go to the system workqueue for now.
-
-Acked-by: Marcel Holtmann <marcel@holtmann.org>
-Signed-off-by: Gustavo F. Padovan <padovan@profusion.mobi>"|2|Gustavo F. Padovan|padovan@profusion.mobi|2011-12-17 14:52:27-02:00|7200|Gustavo F. Padovan|padovan@profusion.mobi|2011-12-18 17:07:58-02:00|7200

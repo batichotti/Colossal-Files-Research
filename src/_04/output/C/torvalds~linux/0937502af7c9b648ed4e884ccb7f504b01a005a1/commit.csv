@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0937502af7c9b648ed4e884ccb7f504b01a005a1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"slub: Add check for kfree() of non slab objects.
-
-We can detect kfree()s on non slab objects by checking for PageCompound().
-Works in the same way as for ksize. This helped me catch an invalid
-kfree().
-
-Signed-off-by: Christoph Lameter <clameter@sgi.com>
-Signed-off-by: Pekka Enberg <penberg@cs.helsinki.fi>"|1|Christoph Lameter|clameter@sgi.com|2008-05-28 10:32:22-07:00|25200|Pekka Enberg|penberg@cs.helsinki.fi|2008-07-15 20:36:01+03:00|-10800

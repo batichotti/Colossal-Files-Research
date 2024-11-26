@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e10006f807ffc4d5b1d861305d18d9e8145891ca|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libceph: provide osd number when creating osd
-
-Pass the osd number to the create_osd() routine, and move the
-initialization of fields that depend on it therein.
-
-Signed-off-by: Alex Elder <elder@inktank.com>
-Reviewed-by: Sage Weil <sage@inktank.com>"|1|Alex Elder|elder@inktank.com|2012-05-26 23:26:43-05:00|18000|Alex Elder|elder@dreamhost.com|2012-06-01 08:37:56-05:00|18000

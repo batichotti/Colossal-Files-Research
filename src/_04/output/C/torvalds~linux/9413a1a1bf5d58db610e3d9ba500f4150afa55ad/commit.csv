@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9413a1a1bf5d58db610e3d9ba500f4150afa55ad|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: Also ask for attributes when downgrading to a READ-only state
-
-If we're downgrading from a READ+WRITE mode to a READ-only mode, then
-ask for cache consistency attributes so that we avoid the revalidation
-in nfs_close_context()
-
-Fixes: 3947b74d0f9d (""NFSv4: Don't request a GETATTR on open_downgrade."")
-Signed-off-by: Trond Myklebust <trond.myklebust@primarydata.com>"|1|Trond Myklebust|trond.myklebust@primarydata.com|2016-12-19 11:36:41-05:00|18000|Trond Myklebust|trond.myklebust@primarydata.com|2016-12-19 17:29:58-05:00|18000

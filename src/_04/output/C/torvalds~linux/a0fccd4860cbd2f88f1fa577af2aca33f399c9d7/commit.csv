@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a0fccd4860cbd2f88f1fa577af2aca33f399c9d7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8152: adjust r8152_submit_rx
-
-The behavior of handling the returned status from r8152_submit_rx()
-is almost same, so let r8152_submit_rx() deal with the error
-directly. This could avoid the duplicate code.
-
-Signed-off-by: Hayes Wang <hayeswang@realtek.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|hayeswang|hayeswang@realtek.com|2014-11-20 10:29:05+08:00|-28800|David S. Miller|davem@davemloft.net|2014-11-21 14:52:57-05:00|18000

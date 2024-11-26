@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|510425ff3344df03a1f94bce49e659ae302e0d34|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86 emulator: fix LIDT/LGDT in long mode
-
-The operand size for these instructions is 8 bytes in long mode, even without
-a REX prefix.  Set it explicitly.
-
-Triggered while booting Linux with emulate_invalid_guest_state=1.
-
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Avi Kivity|avi@redhat.com|2012-06-07 17:04:36+03:00|-10800|Avi Kivity|avi@redhat.com|2012-07-09 14:19:01+03:00|-10800

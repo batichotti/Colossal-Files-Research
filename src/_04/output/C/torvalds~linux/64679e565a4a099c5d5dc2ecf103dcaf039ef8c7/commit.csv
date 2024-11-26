@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|64679e565a4a099c5d5dc2ecf103dcaf039ef8c7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: stmmac: remove unused variable in sysfs_display_ring
-
-The u64 x variable in sysfs_display_ring is unused.
-This patch remove it.
-
-Signed-off-by: Corentin Labbe <clabbe.montjoie@gmail.com>
-Acked-by: Giuseppe Cavallaro <peppe.cavallaro@st.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|LABBE Corentin|clabbe.montjoie@gmail.com|2017-02-08 09:31:20+01:00|-3600|David S. Miller|davem@davemloft.net|2017-02-08 15:11:27-05:00|18000

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9baddeb8c6c7faa7da8706ad629f09ca221850c1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bnx2x: change smp_mb() comment to conform the true
-
-Access to fp->tx_bp_prod is protected by __netif_tx_lock,
-smp_mb() is not needed for that.
-
-Signed-off-by: Stanislaw Gruszka <sgruszka@redhat.com>
-Signed-off-by: Eilon Greenstein <eilong@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Stanislaw Gruszka|sgruszka@redhat.com|2010-03-09 06:55:02+00:00|0|David S. Miller|davem@davemloft.net|2010-03-15 15:47:01-07:00|25200

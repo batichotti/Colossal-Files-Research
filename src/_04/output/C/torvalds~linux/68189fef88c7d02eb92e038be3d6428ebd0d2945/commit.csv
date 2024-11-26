@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|68189fef88c7d02eb92e038be3d6428ebd0d2945|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"fs: Change try_to_free_buffers() to take a folio
-
-All but two of the callers already have a folio; pass a folio into
-try_to_free_buffers().  This removes the last user of cancel_dirty_page()
-so remove that wrapper function too.
-
-Signed-off-by: Matthew Wilcox (Oracle) <willy@infradead.org>
-Reviewed-by: Jeff Layton <jlayton@kernel.org>"|16|Matthew Wilcox (Oracle)|willy@infradead.org|2022-05-01 01:08:08-04:00|14400|Matthew Wilcox (Oracle)|willy@infradead.org|2022-05-09 23:12:34-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|402c6eec1bd04581c04de758e4efddc020b78f91|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] ibmvfc: Improve ibmvfc_async_desc memory layout
-
-By changing field ordering we can avoid a couple of memory holes in
-the tables that use the ibmvfc_async_desc structure.
-
-Signed-off-by: Robert Jennings <rcj@linux.vnet.ibm.com>
-Acked-by: Brian King <brking@linux.vnet.ibm.com>
-Signed-off-by: James Bottomley <James.Bottomley@suse.de>"|2|Robert Jennings|rcj@linux.vnet.ibm.com|2010-12-09 14:03:59-06:00|21600|James Bottomley|James.Bottomley@suse.de|2010-12-21 12:24:49-06:00|21600

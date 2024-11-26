@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7d7d2b803159d4edeb051b0e5efbc1a8d9ef1c67|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ring-buffer: fix printk output
-
-The warning output in trace_recursive_lock uses %d for a long when
-it should be %ld.
-
-[ Impact: fix compile warning ]
-
-Signed-off-by: Steven Rostedt <rostedt@goodmis.org>"|1|Steven Rostedt|srostedt@redhat.com|2009-04-27 12:37:49-04:00|14400|Steven Rostedt|rostedt@goodmis.org|2009-04-29 00:42:01-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e7582bab5d28ea72e07cf2c74632eaf46a6c1a50|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: dev: reduce both ingress hook ifdefs
-
-Reduce ifdef pollution slightly, no functional change. We can simply
-remove the extra alternative definition of handle_ing() and nf_ingress().
-
-Signed-off-by: Daniel Borkmann <daniel@iogearbox.net>
-Acked-by: Pablo Neira Ayuso <pablo@netfilter.org>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Daniel Borkmann|daniel@iogearbox.net|2015-05-19 22:33:25+02:00|-7200|David S. Miller|davem@davemloft.net|2015-05-21 16:58:53-04:00|14400

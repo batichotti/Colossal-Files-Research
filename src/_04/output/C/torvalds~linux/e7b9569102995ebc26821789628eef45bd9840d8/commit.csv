@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e7b9569102995ebc26821789628eef45bd9840d8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bnxt_en: Use napi_complete_done()
-
-For better busy polling and GRO support.  Do not re-arm IRQ if
-napi_complete_done() returns false.
-
-Signed-off-by: Michael Chan <michael.chan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Michael Chan|michael.chan@broadcom.com|2016-12-29 12:13:32-05:00|18000|David S. Miller|davem@davemloft.net|2016-12-29 14:37:23-05:00|18000

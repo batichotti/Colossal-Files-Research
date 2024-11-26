@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|946fa5647b529402161814ca8ed1302254b6affb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"virtio_net: pass vi around
-
-Too many places poke at [rs]q->vq->vdev->priv just to get
-the vi structure.  Let's just pass the pointer around: seems
-cleaner, and might even be faster.
-
-Signed-off-by: Michael S. Tsirkin <mst@redhat.com>
-Reviewed-by: Cornelia Huck <cornelia.huck@de.ibm.com>"|1|Michael S. Tsirkin|mst@redhat.com|2014-10-24 00:12:10+03:00|-10800|Michael S. Tsirkin|mst@redhat.com|2014-12-09 12:05:27+02:00|-7200

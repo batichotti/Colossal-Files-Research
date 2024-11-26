@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3e2e833a547cbd0cb3fbe85a5f6ee71a93931fde|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] mpt2sas: Added -ENOMEM return type when allocation fails
-
-In the driver mpt2sas_base_attach subroutine, we need to add
-support to return the proper error code when there are memory allocation
-failures, e.g. returning -ENOMEM.
-
-Signed-off-by: Kashyap Desai <kashyap.desai@lsi.com>
-Signed-off-by: James Bottomley <James.Bottomley@suse.de>"|1|Kashyap, Desai|kashyap.desai@lsi.com|2010-06-17 13:47:29+05:30|-19800|James Bottomley|James.Bottomley@suse.de|2010-07-27 12:02:20-05:00|18000

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|baf4325197c13474b08a18f23706cb7096c89bc6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Remove unneeded parameter
-
-This patch removes the status parameter of the l2cap_conn_add function.
-The parameter 'status' is always 0.
-
-Signed-off-by: Claudio Takahasi <claudio.takahasi@openbossa.org>
-Signed-off-by: Gustavo Padovan <gustavo.padovan@collabora.co.uk>"|1|Claudio Takahasi|claudio.takahasi@openbossa.org|2013-04-11 13:55:50-03:00|10800|Gustavo Padovan|gustavo.padovan@collabora.co.uk|2013-04-11 16:34:18-03:00|10800

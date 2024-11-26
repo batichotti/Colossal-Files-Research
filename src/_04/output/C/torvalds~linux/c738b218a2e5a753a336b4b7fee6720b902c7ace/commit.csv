@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c738b218a2e5a753a336b4b7fee6720b902c7ace|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSD: Clean up SPLICE_OK in nfsd4_encode_read()
-
-Do the test_bit() once -- this reduces the number of locked-bus
-operations and makes the function a little easier to read.
-
-Reviewed-by: Jeff Layton <jlayton@kernel.org>
-Signed-off-by: Chuck Lever <chuck.lever@oracle.com>"|1|Chuck Lever|chuck.lever@oracle.com|2022-07-22 16:08:51-04:00|14400|Chuck Lever|chuck.lever@oracle.com|2022-07-29 20:16:57-04:00|14400

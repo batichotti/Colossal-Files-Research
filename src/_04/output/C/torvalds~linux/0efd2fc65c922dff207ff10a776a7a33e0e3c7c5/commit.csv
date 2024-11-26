@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0efd2fc65c922dff207ff10a776a7a33e0e3c7c5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bnxt_en: Add a callback to inform RDMA driver during PCI shutdown.
-
-When bnxt_en gets a PCI shutdown call, we need to have a new callback
-to inform the RDMA driver to do proper shutdown and removal.
-
-Signed-off-by: Michael Chan <michael.chan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|Michael Chan|michael.chan@broadcom.com|2017-05-29 19:06:06-04:00|14400|David S. Miller|davem@davemloft.net|2017-05-30 18:14:07-04:00|14400

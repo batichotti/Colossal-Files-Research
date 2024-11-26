@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4adb7a4a151c65ac7e9c3a1aa462c84190d48385|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bpf: Fix leak in LINK_UPDATE and enforce empty old_prog_fd
-
-Fix bug of not putting bpf_link in LINK_UPDATE command.
-Also enforce zeroed old_prog_fd if no BPF_F_REPLACE flag is specified.
-
-Signed-off-by: Andrii Nakryiko <andriin@fb.com>
-Signed-off-by: Alexei Starovoitov <ast@kernel.org>
-Link: https://lore.kernel.org/bpf/20200424052045.4002963-1-andriin@fb.com"|1|Andrii Nakryiko|andriin@fb.com|2020-04-23 22:20:44-07:00|25200|Alexei Starovoitov|ast@kernel.org|2020-04-24 17:27:02-07:00|25200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e7669b8e329255bbcb40af65b38e342825d97a46|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tracing: fix sparse warning: attribute function with __acquires/__releases
-
-Fix this sparse warning:
-
-  kernel/trace/trace.c:458:9: warning: context imbalance in 'register_tracer' - unexpected unlock
-
-Signed-off-by: Hannes Eder <hannes@hanneseder.net>
-Signed-off-by: Ingo Molnar <mingo@elte.hu>"|1|Hannes Eder|hannes@hanneseder.net|2009-02-10 19:44:45+01:00|-3600|Ingo Molnar|mingo@elte.hu|2009-02-11 10:15:42+01:00|-3600

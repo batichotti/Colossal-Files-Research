@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8b0c11679fd37522d8d34a76101319a085d80912|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: Remove unnecessary driver assignments of ethtool_ringparam fields to zero
-
-Per comments from Ben Hutchings on a previous patch, sweep the floors
-a little removing unnecessary assignments of zero to fields of struct
-ethtool_ringparam in driver code supporting ethtool -g.
-
-Signed-off-by: Rick Jones <rick.jones2@hp.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|26|Rick Jones|rick.jones2@hp.com|2011-10-07 19:13:28-04:00|14400|David S. Miller|davem@davemloft.net|2011-10-07 19:13:28-04:00|14400

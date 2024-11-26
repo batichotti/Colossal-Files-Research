@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d0c7d7082ee1ec4f95ee57bf86ed39d1a27c4037|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ocfs2: btree support for removal of arbirtrary extents
-
-Add code to the btree paths to support the removal of arbitrary regions
-within an existing extent. With proper higher level support this can be used
-to ""punch holes"" in a file. Truncate (a special case of hole punching) could
-also be converted to use these methods.
-
-Signed-off-by: Mark Fasheh <mark.fasheh@oracle.com>"|1|Mark Fasheh|mark.fasheh@oracle.com|2007-07-03 13:27:22-07:00|25200|Mark Fasheh|mark.fasheh@oracle.com|2007-07-10 17:32:05-07:00|25200

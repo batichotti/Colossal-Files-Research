@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|70ca88521fc7bee8ef0fc22033a439d4b9a2c70d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS: Fake up 'wcc' attributes to prevent cache invalidation after write
-
-NFSv2 and v4 don't offer weak cache consistency attributes on WRITE calls.
-In NFSv3, returning wcc data is optional. In all cases, we want to prevent
-the client from invalidating our cached data whenever ->write_done()
-attempts to update the inode attributes.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|6|Trond Myklebust|Trond.Myklebust@netapp.com|2007-09-30 15:21:24-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2007-10-09 17:19:15-04:00|14400

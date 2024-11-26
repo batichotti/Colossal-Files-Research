@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a012e65aee48379a7a87eadafa74f878b61522b9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86 emulator: implement 'movnti mem, reg'
-
-Implement emulation of instruction:
-    movnti m32/m64, r32/r64
-    opcode: 0x0f 0xc3
-
-Signed-off-by: Sheng Yang <sheng.yang@intel.com>
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|1|Sheng Yang|sheng.yang@intel.com|2007-10-15 14:24:20+08:00|-28800|Avi Kivity|avi@qumranet.com|2007-10-22 12:03:29+02:00|-7200

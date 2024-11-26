@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ed00aabd5eb9fb44d6aff1173234a2e911b9fead|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"block: rename generic_make_request to submit_bio_noacct
-
-generic_make_request has always been very confusingly misnamed, so rename
-it to submit_bio_noacct to make it clear that it is submit_bio minus
-accounting and a few checks.
-
-Signed-off-by: Christoph Hellwig <hch@lst.de>
-Signed-off-by: Jens Axboe <axboe@kernel.dk>"|44|Christoph Hellwig|hch@lst.de|2020-07-01 10:59:44+02:00|-7200|Jens Axboe|axboe@kernel.dk|2020-07-01 07:27:24-06:00|21600

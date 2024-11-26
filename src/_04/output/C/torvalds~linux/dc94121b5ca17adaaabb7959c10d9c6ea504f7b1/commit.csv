@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|dc94121b5ca17adaaabb7959c10d9c6ea504f7b1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"selftests/bpf: Replace all uses of bpf_load_btf() with bpf_btf_load()
-
-Switch all selftests uses of to-be-deprecated bpf_load_btf() with
-equivalent bpf_btf_load() calls.
-
-Signed-off-by: Andrii Nakryiko <andrii@kernel.org>
-Signed-off-by: Alexei Starovoitov <ast@kernel.org>
-Link: https://lore.kernel.org/bpf/20211209193840.1248570-10-andrii@kernel.org"|3|Andrii Nakryiko|andrii@kernel.org|2021-12-09 11:38:37-08:00|28800|Andrii Nakryiko|andrii@kernel.org|2021-12-10 15:29:18-08:00|28800

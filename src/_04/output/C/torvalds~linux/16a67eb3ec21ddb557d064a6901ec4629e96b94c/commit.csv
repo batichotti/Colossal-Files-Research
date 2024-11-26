@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|16a67eb3ec21ddb557d064a6901ec4629e96b94c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: ethernet: mediatek: fix fixed-link phydev leaks
-
-Make sure to deregister and free any fixed-link PHY registered using
-of_phy_register_fixed_link() on initialisation errors and on uninit.
-
-Fixes: 0c72c50f6f93 (""net-next: mediatek: add fixed-phy support"")
-Signed-off-by: Johan Hovold <johan@kernel.org>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Johan Hovold|johan@kernel.org|2016-11-28 19:25:05+01:00|-3600|David S. Miller|davem@davemloft.net|2016-11-29 23:17:02-05:00|18000

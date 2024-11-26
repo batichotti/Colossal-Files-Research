@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ed49e650371008b0e00c8004cc2ca93055740f78|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: add description for len argument of dev_get_phys_port_name
-
-When the function dev_get_phys_port_name was added it missed a description
-for it's len argument. Adding it.
-
-Fixes: db24a9044ee1 (""net: add support for phys_port_name"")
-Signed-off-by: Luis de Bethencourt <luisbg@osg.samsung.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Luis de Bethencourt|luisbg@osg.samsung.com|2016-03-21 16:31:14+00:00|0|David S. Miller|davem@davemloft.net|2016-03-21 13:28:31-04:00|14400

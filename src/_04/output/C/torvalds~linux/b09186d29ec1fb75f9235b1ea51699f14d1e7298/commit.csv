@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b09186d29ec1fb75f9235b1ea51699f14d1e7298|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"igb: Use pci_vfs_assigned instead of igb_vfs_are_assigned
-
-This change makes it so that the igb driver uses the generic helper
-pci_vfs_assigned instead of the igb specific function igb_vfs_are_assigned.
-
-Signed-off-by: Alexander Duyck <alexander.h.duyck@intel.com>
-Tested-by: Sibai Li <sibai.li@intel.com>
-Signed-off-by: Jeff Kirsher <jeffrey.t.kirsher@intel.com>"|1|Alexander Duyck|alexander.h.duyck@intel.com|2013-03-26 00:03:26+00:00|0|Jeff Kirsher|jeffrey.t.kirsher@intel.com|2013-04-24 20:18:32-07:00|25200

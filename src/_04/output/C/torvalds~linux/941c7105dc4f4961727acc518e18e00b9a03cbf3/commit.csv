@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|941c7105dc4f4961727acc518e18e00b9a03cbf3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[PATCH] mm: un-needed add-store operation wastes a few bytes
-
-Un-needed add-store operation wastes a few bytes.
-8 bytes wasted with -O2, on a ppc.
-
-Signed-off-by: nkalmala <nkalmala@gmail.com>
-Signed-off-by: Andrew Morton <akpm@osdl.org>
-Signed-off-by: Linus Torvalds <torvalds@osdl.org>"|1|nkalmala|nkalmala@gmail.com|2006-11-02 22:07:04-08:00|28800|Linus Torvalds|torvalds@g5.osdl.org|2006-11-03 12:27:56-08:00|28800

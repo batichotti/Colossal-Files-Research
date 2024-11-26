@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f39c2bfa9a1e2bae726cce65d2d328652e81f0c2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211_hwsim: refactor radio registration
-
-In order to support dynamic radio registration in the future,
-refactor the actual registration into a new function with only
-minor cleanups. Since it had to change anyway, also clean up
-the init error paths.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2014-01-06 22:39:27+01:00|-3600|Johannes Berg|johannes.berg@intel.com|2014-01-10 20:12:57+01:00|-3600

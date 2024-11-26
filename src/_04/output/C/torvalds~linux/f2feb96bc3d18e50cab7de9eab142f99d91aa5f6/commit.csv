@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f2feb96bc3d18e50cab7de9eab142f99d91aa5f6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd: nfs4 minorversion decoder vectors
-
-Have separate vectors of operation decoders for each minorversion.
-Obsolete ops in newer minorversions have default implementation returning
-nfserr_opnotsupp.
-
-Signed-off-by: Benny Halevy <bhalevy@panasas.com>
-Signed-off-by: J. Bruce Fields <bfields@citi.umich.edu>"|1|Benny Halevy|bhalevy@panasas.com|2008-07-02 11:14:22+03:00|-10800|J. Bruce Fields|bfields@citi.umich.edu|2008-07-02 15:58:21-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c76c04758b8fd24a1c38b19742e3437e954e945b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[BNX2]: Add support for a new tx ring.
-
-To separate TX IRQs into a different MSIX vector, we need to
-support a new tx ring.  The original tx ring will still be used
-when not using MSIX.
-
-Signed-off-by: Michael Chan <mchan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Michael Chan|mchan@broadcom.com|2007-12-20 20:01:19-08:00|28800|David S. Miller|davem@davemloft.net|2008-01-28 14:57:38-08:00|28800

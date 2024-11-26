@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e1187b3be72be59625e445b186007e6eae27fef1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"be2net: fix error in rx completion processing.
-
-There are certain skews of the NIC which have multiple bits set in
-adapter->cap.  Use & instead of == to process rx completions.
-
-Signed-off-by: Ajit Khaparde <ajitk@serverengines.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Ajit Khaparde|ajitk@serverengines.com|2009-12-11 22:59:09-08:00|28800|David S. Miller|davem@davemloft.net|2009-12-11 22:59:09-08:00|28800

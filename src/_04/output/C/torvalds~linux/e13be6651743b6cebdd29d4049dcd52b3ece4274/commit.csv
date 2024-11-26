@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e13be6651743b6cebdd29d4049dcd52b3ece4274|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Remove saved_mode from __intel_set_mode()
-
-There's no way that function can fail after it sets crtc->mode anymore,
-so there's no need to save the old mode for the failure case.
-
-Signed-off-by: Ander Conselvan de Oliveira <ander.conselvan.de.oliveira@intel.com>
-Reviewed-by: Maarten Lankhorst <maarten.lankhorst@linux.intel.com>
-Signed-off-by: Daniel Vetter <daniel.vetter@ffwll.ch>"|1|Ander Conselvan de Oliveira|ander.conselvan.de.oliveira@intel.com|2015-04-21 17:13:05+03:00|-10800|Daniel Vetter|daniel.vetter@ffwll.ch|2015-05-08 13:04:01+02:00|-7200

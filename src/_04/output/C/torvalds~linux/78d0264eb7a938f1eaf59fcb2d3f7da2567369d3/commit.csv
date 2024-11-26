@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|78d0264eb7a938f1eaf59fcb2d3f7da2567369d3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"irq_poll: don't disable new irq_poll instances
-
-There is no good reason to start out disabled - drivers can control if
-the poll instance can be scheduled by simply not scheduling it yet.
-
-Signed-off-by: Christoph Hellwig <hch@lst.de>
-Reviewed-by: Bart Van Assche <bart.vanassche@sandisk.com>"|3|Christoph Hellwig|hch@lst.de|2015-12-07 06:38:28-08:00|28800|Christoph Hellwig|hch@lst.de|2015-12-11 11:52:25-08:00|28800

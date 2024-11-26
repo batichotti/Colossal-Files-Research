@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bf253fb72221cdd9dc31009056f269a420f7bbd9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: ethernet: mediatek: add mtk_hw_deinit call as the opposite to mtk_hw_init call
-
-grouping things related to the deinitialization of what
-mtk_hw_init call does that help to be reused by the reset
-process and the error path handling.
-
-Signed-off-by: Sean Wang <sean.wang@mediatek.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Sean Wang|sean.wang@mediatek.com|2016-09-14 23:13:16+08:00|-28800|David S. Miller|davem@davemloft.net|2016-09-16 02:22:56-04:00|14400

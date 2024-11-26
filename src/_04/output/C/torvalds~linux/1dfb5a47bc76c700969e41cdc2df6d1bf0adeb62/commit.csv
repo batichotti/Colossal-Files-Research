@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1dfb5a47bc76c700969e41cdc2df6d1bf0adeb62|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] lpfc 8.3.9: PCI Changes to lpfc driver
-
-- Call pci_save_state() after pci_restore_state() call to cope
-  with kernel change.
-- Add support for PCI BAR region 0 if BAR0 is a 64 bit register.
-
-Signed-off-by: James Smart <james.smart@emulex.com>
-Signed-off-by: James Bottomley <James.Bottomley@suse.de>"|2|James Smart|james.smart@emulex.com|2010-02-12 14:40:50-05:00|18000|James Bottomley|James.Bottomley@suse.de|2010-02-17 17:40:08-06:00|21600

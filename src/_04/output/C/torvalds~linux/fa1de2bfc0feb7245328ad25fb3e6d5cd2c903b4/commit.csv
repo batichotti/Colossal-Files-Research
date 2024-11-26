@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fa1de2bfc0feb7245328ad25fb3e6d5cd2c903b4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: MMU: add missing reserved bits check in speculative path
-
-In the speculative path, we should check guest pte's reserved bits just as
-the real processor does
-
-Reported-by: Marcelo Tosatti <mtosatti@redhat.com>
-Signed-off-by: Xiao Guangrong <xiaoguangrong@cn.fujitsu.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|2|Xiao Guangrong|xiaoguangrong@cn.fujitsu.com|2010-07-16 11:19:51+08:00|-28800|Avi Kivity|avi@redhat.com|2010-08-02 06:40:56+03:00|-10800

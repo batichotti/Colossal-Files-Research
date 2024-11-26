@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e8719adf30c136319a77824d032b3a185148f8f9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"perf trace scripting: fix some small memory leaks and missing error checks
-
-Free the other two fields of script_desc which somehow got overlooked,
-free malloc'ed args in case exec fails, and add missing checks for
-failed mallocs.
-
-Signed-off-by: Tom Zanussi <tom.zanussi@linux.intel.com>
-Acked-by: Arnaldo Carvalho de Melo <acme@ghostprotocols.net>"|1|Tom Zanussi|tom.zanussi@linux.intel.com|2010-11-10 07:52:32-06:00|21600|Tom Zanussi|tom.zanussi@linux.intel.com|2010-11-10 07:52:32-06:00|21600

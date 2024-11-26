@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b3f24698a7faa6e9d8a14124cfdc25353fc8ca19|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"virtio_net: formalize skb_vnet_hdr
-
-We put the virtio_net_hdr into the skb's cb region; turn this into a
-union to clean up the code slightly and allow future expansion.
-
-Signed-off-by: Rusty Russell <rusty@rustcorp.com.au>
-Cc: Mark McLoughlin <markmc@redhat.com>
-Cc: Dinesh Subhraveti <dineshs@us.ibm.com>"|1|Rusty Russell|rusty@rustcorp.com.au|2009-09-24 09:59:19-06:00|21600|Rusty Russell|rusty@rustcorp.com.au|2009-09-24 09:59:20+09:30|-34200

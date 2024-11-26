@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9cd7d494bd2b1fb53884a797b460b4f1741b82cc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: aic7xxx: Use kzalloc() instead of kmalloc()+memset()
-
-There are a couple of places where kzalloc() could be used directly instead
-of calling kmalloc() then memset(). Replace them.
-
-Link: https://lore.kernel.org/r/20200403163611.46756-1-alex.dewar@gmx.co.uk
-Signed-off-by: Alex Dewar <alex.dewar@gmx.co.uk>
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|2|Alex Dewar|alex.dewar@gmx.co.uk|2020-04-03 17:36:10+01:00|-3600|Martin K. Petersen|martin.petersen@oracle.com|2020-04-24 12:48:06-04:00|14400

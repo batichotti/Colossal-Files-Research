@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b71d9c8a9d7284a5cc6c93e01bf258323f0d334a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"iwlwifi: mvm: support cloned tx skbs
-
-Since tx skbs are not modified by the driver, let mac80211 know the
-driver can handle cloned skbs.
-
-Signed-off-by: Ido Yariv <idox.yariv@intel.com>
-Reviewed-by: Johannes Berg <johannes.berg@intel.com>
-Signed-off-by: Emmanuel Grumbach <emmanuel.grumbach@intel.com>"|1|Ido Yariv|ido@wizery.com|2014-07-23 09:31:14-04:00|14400|Emmanuel Grumbach|emmanuel.grumbach@intel.com|2014-09-16 12:57:49+03:00|-10800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f9254edaabfc48f5a28bb5a88c6db48704cc058d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ixgbe: r_idx not used in ixgbe_msix_clean_rx()
-
-The values of r_idx and rx_ring are not used after the last time they
-are set in ixgbe_msix_clean_rx(), so they can be removed.
-
-Signed-off-by: Ali Gholami Rudi <ali@rudi.ir>
-Acked-by: Peter P Waskiewicz Jr <peter.p.waskiewicz.jr@intel.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Ali Gholami Rudi|ali@rudi.ir|2009-11-10 06:40:06+00:00|0|David S. Miller|davem@davemloft.net|2009-11-11 19:22:19-08:00|28800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|54dd96015e8d7a2a07359e2dfebf05b529d1780c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: mpt3sas: Fix a memory leak
-
-Add a forgotten kfree().
-
-Fixes: dbec4c9040ed (""scsi: mpt3sas: lockless command submission"")
-Link: https://lore.kernel.org/r/20230207152159.18627-1-thenzl@redhat.com
-Signed-off-by: Tomas Henzl <thenzl@redhat.com>
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|1|Tomas Henzl|thenzl@redhat.com|2023-02-07 16:21:59+01:00|-3600|Martin K. Petersen|martin.petersen@oracle.com|2023-02-08 19:02:04-05:00|18000

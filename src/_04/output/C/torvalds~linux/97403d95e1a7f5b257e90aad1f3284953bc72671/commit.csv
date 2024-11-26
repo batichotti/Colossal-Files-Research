@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|97403d95e1a7f5b257e90aad1f3284953bc72671|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd: move unhash_client_locked call into mark_client_expired_locked
-
-All the callers except for the fault injection code call it directly
-afterward, and in the fault injection case it won't hurt to do so
-anyway.
-
-Signed-off-by: Jeff Layton <jlayton@primarydata.com>
-Signed-off-by: J. Bruce Fields <bfields@redhat.com>"|1|Jeff Layton|jlayton@primarydata.com|2014-07-30 08:27:12-04:00|14400|J. Bruce Fields|bfields@redhat.com|2014-08-01 16:28:25-04:00|14400

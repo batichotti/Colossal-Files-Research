@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b05b7d9563f11bf3d7b7f3f53cd74cbfab107355|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: remove redundant code
-
-eth_type_trans(skb, netdev) does the ""skb->dev = netdev;""
-initialization, we can remove it from various network drivers.
-
-Signed-off-by: Eric Dumazet <eric.dumazet@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|14|Eric Dumazet|eric.dumazet@gmail.com|2010-03-30 05:02:15+00:00|0|David S. Miller|davem@davemloft.net|2010-03-30 23:51:10-07:00|25200

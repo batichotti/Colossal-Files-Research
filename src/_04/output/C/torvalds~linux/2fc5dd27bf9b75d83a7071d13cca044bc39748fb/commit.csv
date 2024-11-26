@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2fc5dd27bf9b75d83a7071d13cca044bc39748fb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rtl8xxxu: Use a struct rtl8xxxu_fileops * in rtl8xxxu_init_device()
-
-This saves some 217, or about, derefences of priv->fops.
-
-Signed-off-by: Jes Sorensen <Jes.Sorensen@redhat.com>
-Signed-off-by: Kalle Valo <kvalo@codeaurora.org>"|1|Jes Sorensen|Jes.Sorensen@redhat.com|2016-09-20 21:19:28-04:00|14400|Kalle Valo|kvalo@codeaurora.org|2016-09-26 20:41:36+03:00|-10800

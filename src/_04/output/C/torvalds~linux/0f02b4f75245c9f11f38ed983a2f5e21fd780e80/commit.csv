@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0f02b4f75245c9f11f38ed983a2f5e21fd780e80|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"dsa: mv88e6xxx: Use mv88e6xx_wait in mv88e6xxx_update()
-
-Now that mv88e6xx_wait() iterated on a counter than a fixed time
-interval, it implements the same mechanism as mv88e6xxx_update() uses.
-So use it in mv88e6xx_wait().
-
-Signed-off-by: Andrew Lunn <andrew@lunn.ch>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Andrew Lunn|andrew@lunn.ch|2016-08-19 00:01:56+02:00|-7200|David S. Miller|davem@davemloft.net|2016-08-19 17:14:07-07:00|25200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ab59381ea43f81c977cbd09add26950aaf6cb9fe|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: Add error handle for btrfs_search_slot() in btrfs_read_chunk_tree()
-
-We need to check return value of btrfs_search_slot() in
-btrfs_read_chunk_tree() and do corresponding error handing.
-
-Signed-off-by: Zhao Lei <zhaolei@cn.fujitsu.com>
-Signed-off-by: Miao Xie <miaox@cn.fujitsu.com>
-Signed-off-by: Chris Mason <chris.mason@oracle.com>"|1|Zhao Lei|zhaolei@cn.fujitsu.com|2010-03-25 12:34:49+00:00|0|Chris Mason|chris.mason@oracle.com|2010-03-30 21:19:09-04:00|14400

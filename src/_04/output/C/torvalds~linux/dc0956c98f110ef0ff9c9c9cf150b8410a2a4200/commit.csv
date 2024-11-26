@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|dc0956c98f110ef0ff9c9c9cf150b8410a2a4200|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tools: ynl-gen: move the response reading logic into YNL
-
-We generate send() and recv() calls and all msg handling for
-each operation. It's a lot of repeated code and will only grow
-with notification handling. Call back to a helper YNL lib instead.
-
-Signed-off-by: Jakub Kicinski <kuba@kernel.org>"|1|Jakub Kicinski|kuba@kernel.org|2023-06-01 19:35:45-07:00|25200|Jakub Kicinski|kuba@kernel.org|2023-06-02 22:10:47-07:00|25200

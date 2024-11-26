@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e127031f4f76dc367c5d2f9d883715730dd82f7d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[PATCH] sched: fix prio_to_wmult[] for nice 1
-
-There's a typo in the values in prio_to_wmult[] for nice level 1.  While
-it did not cause bad CPU distribution, but caused more rescheduling
-between nice-0 and nice-1 tasks than necessary.
-
-Signed-off-by: Ingo Molnar <mingo@elte.hu>
-Signed-off-by: Linus Torvalds <torvalds@linux-foundation.org>"|1|Mike Galbraith|efault@gmx.de|2007-07-11 21:21:47+02:00|-7200|Linus Torvalds|torvalds@woody.linux-foundation.org|2007-07-13 10:09:02-07:00|25200

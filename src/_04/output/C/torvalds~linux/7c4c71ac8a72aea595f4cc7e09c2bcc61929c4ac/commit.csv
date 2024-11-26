@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7c4c71ac8a72aea595f4cc7e09c2bcc61929c4ac|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Revert ""Btrfs: adjust len of writes if following a preallocated extent""
-
-This is exposing an existing deadlock between fsync and AIO.  Until we
-have the deadlock fixed, I'm pulling this one out.
-
-This reverts commit a23eaa875f0f1d89eb866b8c9860e78273ff5daf.
-
-Signed-off-by: Chris Mason <clm@fb.com>"|1|Chris Mason|clm@fb.com|2016-12-08 17:55:03-08:00|28800|Chris Mason|clm@fb.com|2016-12-11 15:27:15-08:00|28800

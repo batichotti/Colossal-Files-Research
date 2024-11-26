@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|199a8b84c455cfeb81bc060c6824dea473e54dc3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: introduce kvm_can_use_hv_timer
-
-Replace the ad hoc test in vmx_set_hv_timer with a test in the caller,
-start_hv_timer.  This test is not Intel-specific and would be duplicated
-when introducing the fast path for the TSC deadline MSR.
-
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|3|Paolo Bonzini|pbonzini@redhat.com|2020-05-05 06:45:35-04:00|14400|Paolo Bonzini|pbonzini@redhat.com|2020-05-15 12:26:21-04:00|14400

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|56083bdf67c78030f11cdaed5b2b54959a329b02|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: check_nested_events is never NULL
-
-Both Intel and AMD now implement it, so there is no need to check if the
-callback is implemented.
-
-Reviewed-by: Vitaly Kuznetsov <vkuznets@redhat.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Paolo Bonzini|pbonzini@redhat.com|2020-04-17 10:32:53-04:00|14400|Paolo Bonzini|pbonzini@redhat.com|2020-04-23 09:04:56-04:00|14400

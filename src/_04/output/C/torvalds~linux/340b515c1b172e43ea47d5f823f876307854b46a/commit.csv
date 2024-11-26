@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|340b515c1b172e43ea47d5f823f876307854b46a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Relocate intel_crtc_dotclock()
-
-intel_crtc_dotclock() is a bit misplaced. In lieu of a better
-place let's just move it next to its friends in intel_display.c.
-
-Reviewed-by: Jani Nikula <jani.nikula@intel.com>
-Signed-off-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Link: https://patchwork.freedesktop.org/patch/msgid/20220907091057.11572-2-ville.syrjala@linux.intel.com"|2|Ville Syrjälä|ville.syrjala@linux.intel.com|2022-09-07 12:10:41+03:00|-10800|Ville Syrjälä|ville.syrjala@linux.intel.com|2022-09-07 21:12:14+03:00|-10800

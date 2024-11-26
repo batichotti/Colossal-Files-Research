@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0d8da104840ab4244fe122e5b25570aa13fb00c0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"crypto: testmgr - mark ctr(des3_ede) as fips_allowed
-
-3DES is missing the fips_allowed flag for CTR mode.
-
-Signed-off-by: Marcelo Henrique Cerri <marcelo.cerri@canonical.com>
-Acked-by: Stephan Mueller <smueller@chronox.de>
-Signed-off-by: Herbert Xu <herbert@gondor.apana.org.au>"|1|Marcelo Cerri|marcelo.cerri@canonical.com|2017-03-20 17:28:05-03:00|10800|Herbert Xu|herbert@gondor.apana.org.au|2017-03-24 22:03:01+08:00|-28800

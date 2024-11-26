@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d65b1278e314dc4023a70f338156d7b07941d93a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ath9k: Fix temperature compensation
-
-The registers for temperature compensation need to
-be programmed only for active chains. Use the TX chainmask
-to make sure that this is done properly for QCA953x.
-
-Signed-off-by: Sujith Manoharan <c_manoha@qca.qualcomm.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|1|Sujith Manoharan|c_manoha@qca.qualcomm.com|2014-03-17 15:02:48+05:30|-19800|John W. Linville|linville@tuxdriver.com|2014-03-17 13:44:16-04:00|14400

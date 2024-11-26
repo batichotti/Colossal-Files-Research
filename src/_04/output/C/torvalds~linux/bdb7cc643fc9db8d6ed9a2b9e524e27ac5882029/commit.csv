@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bdb7cc643fc9db8d6ed9a2b9e524e27ac5882029|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ipv6: Count interface receive statistics on the ingress netdev
-
-The statistics such as InHdrErrors should be counted on the ingress
-netdev rather than on the dev from the dst, which is the egress.
-
-Signed-off-by: Stephen Suryaputra <ssuryaextr@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|7|Stephen Suryaputra|ssuryaextr@gmail.com|2018-04-16 13:42:16-04:00|14400|David S. Miller|davem@davemloft.net|2018-04-17 13:39:51-04:00|14400

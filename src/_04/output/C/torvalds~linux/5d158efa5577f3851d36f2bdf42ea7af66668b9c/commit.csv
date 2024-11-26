@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5d158efa5577f3851d36f2bdf42ea7af66668b9c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"iwlwifi: mvm: respect disable Tx AGG parameter
-
-We didn't check that we allowed to start Tx AGG. This can
-possibly be avoided by a module parameter. Fix that.
-
-Signed-off-by: Emmanuel Grumbach <emmanuel.grumbach@intel.com>
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Emmanuel Grumbach|emmanuel.grumbach@intel.com|2013-02-19 14:39:58+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2013-03-06 16:46:59+01:00|-3600

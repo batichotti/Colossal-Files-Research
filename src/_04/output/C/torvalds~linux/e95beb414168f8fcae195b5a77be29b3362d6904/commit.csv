@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e95beb414168f8fcae195b5a77be29b3362d6904|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: hci_le_adv_report_evt code refactoring
-
-There is no reason to treat the first advertising entry differently
-from the potential other ones. Besides, the current implementation
-can easily leads to typos.
-
-Signed-off-by: Andre Guedes <andre.guedes@openbossa.org>
-Signed-off-by: Gustavo F. Padovan <padovan@profusion.mobi>"|1|Andre Guedes|andre.guedes@openbossa.org|2011-09-26 20:48:35-03:00|10800|Gustavo F. Padovan|padovan@profusion.mobi|2011-09-29 15:25:08-03:00|10800

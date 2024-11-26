@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2e31be8697b16391d33c74c47f09fdef5015369e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: mpi3mr: Fix scheduling while atomic type bug
-
-Fix 'scheduling while atomic' type bug, which is observed when
-pci_irq_vector() is called from interrupt context.
-
-Link: https://lore.kernel.org/r/20220912135742.11764-9-sreekanth.reddy@broadcom.com
-Signed-off-by: Sreekanth Reddy <sreekanth.reddy@broadcom.com>
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|2|Sreekanth Reddy|sreekanth.reddy@broadcom.com|2022-09-12 19:27:41+05:30|-19800|Martin K. Petersen|martin.petersen@oracle.com|2022-09-25 13:49:52-04:00|14400

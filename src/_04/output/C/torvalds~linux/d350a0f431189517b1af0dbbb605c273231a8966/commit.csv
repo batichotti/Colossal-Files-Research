@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d350a0f431189517b1af0dbbb605c273231a8966|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nl80211: fix memory leak if validate_pae_over_nl80211() fails
-
-If validate_pae_over_nl80211() were to fail in nl80211_crypto_settings(),
-we might leak the 'connkeys' allocation. Fix this.
-
-Fixes: 64bf3d4bc2b0 (""nl80211: Add CONTROL_PORT_OVER_NL80211 attribute"")
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2018-12-15 11:03:22+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2018-12-19 09:40:17+01:00|-3600

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e8149933b1fab774e892f8ab605d241df673291c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: hns3: remove hnae3_get_bit in data path
-
-The hnae3_get_bit uses hnae3_get_field, and hnae3_get_field
-masks the data, which is unnecessary in data path.
-
-Signed-off-by: Yunsheng Lin <linyunsheng@huawei.com>
-Signed-off-by: Huazhong Tan <tanhuazhong@huawei.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Yunsheng Lin|linyunsheng@huawei.com|2019-02-23 17:22:14+08:00|-28800|David S. Miller|davem@davemloft.net|2019-02-24 20:27:50-08:00|28800

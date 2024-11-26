@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|01cd33674e95296e1647da3534b9aef1e98556b5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: put our inode if orphan cleanup fails
-
-When we cross into a different subvol when doing a lookup we will run the orhpan
-cleanup.  If this fails however we do not drop the ref to the inode we were
-looking up before we return an error, which leads to busy inodes on umount.
-Thanks,
-
-Signed-off-by: Josef Bacik <jbacik@fusionio.com>"|1|Josef Bacik|jbacik@fusionio.com|2013-06-03 21:39:49-04:00|14400|Josef Bacik|jbacik@fusionio.com|2013-06-14 11:30:16-04:00|14400

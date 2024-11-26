@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bed71748346ae0807c7f7a2913965508dbd61403|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Rename hci_acl_disconn
-
-As hci_acl_disconn function basically sends the HCI Disconnect Command
-and it is used to disconnect ACL, SCO and LE links, renaming it to
-hci_disconnect is more suitable.
-
-Signed-off-by: Andre Guedes <andre.guedes@openbossa.org>
-Signed-off-by: Gustavo Padovan <gustavo.padovan@collabora.co.uk>"|4|Andre Guedes|andre.guedes@openbossa.org|2013-01-30 11:50:56-03:00|10800|Gustavo Padovan|gustavo.padovan@collabora.co.uk|2013-03-08 10:38:43-03:00|10800

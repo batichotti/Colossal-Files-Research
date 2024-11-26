@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|aedec08050255db1989a38b59616dd973dfe660b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"RDMA/cma: Increment port number after close to avoid re-use
-
-Randomize the starting port number and avoid re-using port values
-immediately after they are closed.  Instead keep track of the last
-port value used and increment it every time a new port number is
-assigned, to better replicate other port spaces.
-
-Signed-off-by: Roland Dreier <rolandd@cisco.com>"|1|Sean Hefty|sean.hefty@intel.com|2007-01-29 16:41:23-08:00|28800|Roland Dreier|rolandd@cisco.com|2007-02-10 08:00:50-08:00|28800

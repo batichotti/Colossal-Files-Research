@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|42aa53b4e1c05212baf63842515b22920241e5e1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: always require WB memory type for EPT
-
-We already always set that type but don't check if it is supported. Also
-for nVMX, we only support WB for now. Let's just require it.
-
-Signed-off-by: David Hildenbrand <david@redhat.com>
-Signed-off-by: Radim Krčmář <rkrcmar@redhat.com>"|1|David Hildenbrand|david@redhat.com|2017-08-10 23:15:29+02:00|-7200|Radim Krčmář|rkrcmar@redhat.com|2017-08-18 17:38:01+02:00|-7200

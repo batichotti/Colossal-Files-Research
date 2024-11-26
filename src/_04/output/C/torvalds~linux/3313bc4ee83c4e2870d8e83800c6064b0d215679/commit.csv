@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3313bc4ee83c4e2870d8e83800c6064b0d215679|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: pop sreg accesses only 2 bytes
-
-Although pop sreg updates RSP according to the operand size, only 2 bytes are
-read.  The current behavior may result in incorrect #GP or #PF exceptions.
-
-Signed-off-by: Nadav Amit <namit@cs.technion.ac.il>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Nadav Amit|namit@cs.technion.ac.il|2014-12-25 02:52:17+02:00|-7200|Paolo Bonzini|pbonzini@redhat.com|2015-01-08 22:48:04+01:00|-3600

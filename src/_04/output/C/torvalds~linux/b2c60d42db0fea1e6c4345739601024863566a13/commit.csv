@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b2c60d42db0fea1e6c4345739601024863566a13|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Fix failure to release lock in read_index_list()
-
-If alloc_skb() fails in read_index_list() we'll return -ENOMEM without
-releasing 'hci_dev_list_lock'.
-
-Signed-off-by: Jesper Juhl <jj@chaosbits.net>
-Signed-off-by: Gustavo F. Padovan <padovan@profusion.mobi>"|1|Jesper Juhl|jj@chaosbits.net|2011-01-14 00:18:49+01:00|-3600|Gustavo F. Padovan|padovan@profusion.mobi|2011-02-08 01:40:04-02:00|7200

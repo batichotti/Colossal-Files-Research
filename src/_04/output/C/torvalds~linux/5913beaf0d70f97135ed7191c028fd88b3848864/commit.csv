@@ -1,6 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5913beaf0d70f97135ed7191c028fd88b3848864|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nfnetlink: pass down netns pointer to commit() and abort() callbacks
-
-Adapt callsites to avoid recurrent lookup of the netns pointer.
-
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|3|Pablo Neira Ayuso|pablo@netfilter.org|2015-12-15 19:41:57+01:00|-3600|Pablo Neira Ayuso|pablo@netfilter.org|2015-12-28 18:43:15+01:00|-3600

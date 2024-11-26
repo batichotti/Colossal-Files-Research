@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|48ec92fa4f16c0f71e95c31490c03b6c9e0e793b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Refactor arguments of mgmt_device_connected
-
-The values of a lot of the mgmt_device_connected() parameters come
-straight from a hci_conn object. We can simplify the function by passing
-the full hci_conn pointer to it.
-
-Signed-off-by: Alfonso Acosta <fons@spotify.com>
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>"|4|Alfonso Acosta|fons@spotify.com|2014-10-07 08:44:10+00:00|0|Marcel Holtmann|marcel@holtmann.org|2014-10-25 07:56:23+02:00|-7200

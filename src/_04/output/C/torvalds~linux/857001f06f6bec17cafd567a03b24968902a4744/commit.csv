@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|857001f06f6bec17cafd567a03b24968902a4744|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tg3: Improve PCI function number detection.
-
-Simplify the code to detect PCI function number on 5717, 5719, and 5720.
-If shared memory does not have proper signature, read the function number
-from register directly.
-
-Signed-off-by: Michael Chan <mchan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Michael Chan|mchan@broadcom.com|2013-01-06 12:51:09+00:00|0|David S. Miller|davem@davemloft.net|2013-01-06 21:02:08-08:00|28800

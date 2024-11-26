@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|30d7c5d60a886e3c89633ccf0ea4865276a759fe|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: SEV: expose KVM_CAP_VM_MOVE_ENC_CONTEXT_FROM capability
-
-The capability, albeit present, was never exposed via KVM_CHECK_EXTENSION.
-
-Fixes: b56639318bb2 (""KVM: SEV: Add support for SEV intra host migration"")
-Cc: Peter Gonda <pgonda@google.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Paolo Bonzini|pbonzini@redhat.com|2021-11-18 04:41:34-05:00|18000|Paolo Bonzini|pbonzini@redhat.com|2021-11-26 06:43:30-05:00|18000

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c7108a7111cd9e592d6ad498be37276dbea75d2b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: Send mesh non-HWMP path selection frames to userspace
-
-Let path selection frames for protocols other than HWMP be sent to
-userspace via NL80211_CMD_REGISTER_FRAME.  Also allow userspace to send
-and receive mesh path selection frames.
-
-Signed-off-by: Javier Cardona <javier@cozybit.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|6|Javier Cardona|javier@cozybit.com|2010-12-16 17:37:50-08:00|28800|John W. Linville|linville@tuxdriver.com|2010-12-20 14:46:58-05:00|18000

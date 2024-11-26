@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|914902af4f271884968f72c4fa144c723be2a699|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libceph: don't call encode_request_finish() on MOSDBackoff messages
-
-encode_request_finish() is for MOSDOp messages.  Calling it on
-MOSDBackoff ack-block messages corrupts them.
-
-Fixes: a02a946dfe96 (""libceph: respect RADOS_BACKOFF backoffs"")
-Signed-off-by: Ilya Dryomov <idryomov@gmail.com>"|1|Ilya Dryomov|idryomov@gmail.com|2017-07-14 16:08:54+02:00|-7200|Ilya Dryomov|idryomov@gmail.com|2017-07-17 14:54:59+02:00|-7200

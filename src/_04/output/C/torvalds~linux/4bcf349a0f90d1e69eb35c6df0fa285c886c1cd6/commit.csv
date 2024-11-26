@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4bcf349a0f90d1e69eb35c6df0fa285c886c1cd6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"perfcounters: fix refcounting bug, take 2
-
-Only free child_counter if it has a parent; if it doesn't, then it
-has a file pointing to it and we'll free it in perf_release.
-
-Signed-off-by: Mike Galbraith <efault@gmx.de>
-Signed-off-by: Ingo Molnar <mingo@elte.hu>"|1|Paul Mackerras|paulus@samba.org|2009-02-11 13:53:19+01:00|-3600|Ingo Molnar|mingo@elte.hu|2009-02-11 14:08:44+01:00|-3600

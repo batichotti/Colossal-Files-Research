@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|334f5b61a6f29834e881923b98d1e27e5ce9620d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ath10k: add cleanup in ath10k_sta_state()
-
-If 'sta->tdls' is false, no cleanup is executed, leading to memory/resource
-leaks, e.g., 'arsta->tx_stats'. To fix this issue, perform cleanup before
-go to the 'exit' label.
-
-Signed-off-by: Wenwen Wang <wenwen@cs.uga.edu>
-Signed-off-by: Kalle Valo <kvalo@codeaurora.org>"|1|Wenwen Wang|wenwen@cs.uga.edu|2019-08-15 16:04:31-05:00|18000|Kalle Valo|kvalo@codeaurora.org|2019-09-17 17:11:12+03:00|-10800

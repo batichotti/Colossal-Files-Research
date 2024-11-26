@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cc38bac3a0093b3b7928efc6ff8e9faf9e75f41d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS: Ensure NFSv4 SETCLIENTID send buffer is large enough
-
-Ensure that the RPC buffer size specified for NFSv4 SETCLIENTID procedures
-matches what we are encoding into the buffer.  See the definition of
-struct nfs4_setclientid {} and the encode_setclientid() function.
-
-Signed-off-by: Chuck Lever <chuck.lever@oracle.com>
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|2|Chuck Lever|chuck.lever@oracle.com|2007-12-10 14:56:54-05:00|18000|Trond Myklebust|Trond.Myklebust@netapp.com|2008-01-30 02:05:51-05:00|18000

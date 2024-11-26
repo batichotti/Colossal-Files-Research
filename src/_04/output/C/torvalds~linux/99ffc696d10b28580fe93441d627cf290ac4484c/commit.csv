@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|99ffc696d10b28580fe93441d627cf290ac4484c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"virtio: wean net driver off NETDEV_TX_BUSY
-
-Herbert tells me that returning NETDEV_TX_BUSY from hard_start_xmit is
-seen as a poor thing to do; we should cache the packet and stop the queue.
-
-Signed-off-by: Rusty Russell <rusty@rustcorp.com.au>
-Acked-by: Herbert Xu <herbert@gondor.apana.org.au>"|1|Rusty Russell|rusty@rustcorp.com.au|2008-05-02 21:50:46-05:00|18000|Rusty Russell|rusty@rustcorp.com.au|2008-05-02 21:50:46+10:00|-36000

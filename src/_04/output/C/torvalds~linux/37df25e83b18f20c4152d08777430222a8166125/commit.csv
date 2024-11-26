@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|37df25e83b18f20c4152d08777430222a8166125|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: mvpp2: Improve another size determination in mvpp2_prs_default_init()
-
-Replace the specification of a data structure by a pointer dereference
-as the parameter for the operator ""sizeof"" to make the corresponding size
-determination a bit safer according to the Linux coding style convention.
-
-Signed-off-by: Markus Elfring <elfring@users.sourceforge.net>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Markus Elfring|elfring@users.sourceforge.net|2017-04-17 09:12:34+02:00|-7200|David S. Miller|davem@davemloft.net|2017-04-18 13:55:07-04:00|14400

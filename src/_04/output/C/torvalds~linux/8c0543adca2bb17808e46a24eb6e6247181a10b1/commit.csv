@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8c0543adca2bb17808e46a24eb6e6247181a10b1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ibmvnic: Reset tx/rx pools on driver reset
-
-When resetting the ibmvnic driver there is not a need to release
-and re-allocate the resources for the tx and rx pools. These
-resources can just be reset to avoid the re-allocations.
-
-Signed-off-by: Nathan Fontenot <nfont@linux.vnet.ibm.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Nathan Fontenot|nfont@linux.vnet.ibm.com|2017-05-26 10:31:06-04:00|14400|David S. Miller|davem@davemloft.net|2017-05-26 15:32:46-04:00|14400

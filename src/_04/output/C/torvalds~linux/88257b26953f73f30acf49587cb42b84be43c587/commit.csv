@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|88257b26953f73f30acf49587cb42b84be43c587|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"OMAP: DSS2: DSI: ensure VDDS_DSI is disabled on exit
-
-The panel drivers can leave the VDDS_DSI regulator enabled, even when
-the panel is disabled, to ensure that the DSI pins are powered.
-
-This patch ensures that VDDS_DSI is disabled on DSI module unload.
-
-Signed-off-by: Tomi Valkeinen <tomi.valkeinen@ti.com>"|1|Tomi Valkeinen|tomi.valkeinen@ti.com|2010-12-20 16:26:22+02:00|-7200|Tomi Valkeinen|tomi.valkeinen@ti.com|2011-05-11 14:20:17+03:00|-10800

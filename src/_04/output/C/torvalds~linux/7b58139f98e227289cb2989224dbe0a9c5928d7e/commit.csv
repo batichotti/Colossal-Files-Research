@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7b58139f98e227289cb2989224dbe0a9c5928d7e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tcp: use static_branch_deferred_inc for clean_acked_data_enabled
-
-Deferred static key clean_acked_data_enabled uses the deferred
-variants of dec and flush. Do the same for inc.
-
-Signed-off-by: Willem de Bruijn <willemb@google.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Willem de Bruijn|willemb@google.com|2019-06-13 11:08:16-04:00|14400|David S. Miller|davem@davemloft.net|2019-06-14 19:31:48-07:00|25200

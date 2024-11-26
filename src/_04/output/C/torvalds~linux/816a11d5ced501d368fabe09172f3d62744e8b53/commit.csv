@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|816a11d5ced501d368fabe09172f3d62744e8b53|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Use kernel int types instead of ones from stdint.h
-
-u8/__u8/u32/etc should be used in the kernel instead of stdint.h types.
-
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>
-Acked-by: Marcel Holtmann <marcel@holtmann.org>"|5|Johan Hedberg|johan.hedberg@intel.com|2012-02-26 13:04:52+02:00|-7200|Johan Hedberg|johan.hedberg@intel.com|2012-02-27 12:34:39+02:00|-7200

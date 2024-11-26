@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f8de067cbe05a43a3de5d8873cd63c17abb1c7c8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"crypto: hisilicon/qm - use min() instead of min_t()
-
-'act_q_num = min_t(int, act_q_num, max_qp_num)', the type
-of 'act_q_num' and 'max_qp_num' are both 'u32', so
-use min() instead of min_t().
-
-Signed-off-by: Weili Qian <qianweili@huawei.com>
-Signed-off-by: Herbert Xu <herbert@gondor.apana.org.au>"|1|Weili Qian|qianweili@huawei.com|2023-02-09 20:36:14+08:00|-28800|Herbert Xu|herbert@gondor.apana.org.au|2023-02-14 13:39:33+08:00|-28800

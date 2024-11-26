@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|06120a1e0fc5b0cfed12612cf85b02ae7c03ce4b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/amdgpu/gfx7: switch to using the existing rlc callbacks
-
-gfx8 already uses them.  Remove the direct exports and
-use the callbacks fpr gfx7.
-
-Reviewed-by: Chunming Zhou <david1.zhou@amd.com>
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|4|Alex Deucher|alexander.deucher@amd.com|2016-06-21 12:16:30-04:00|14400|Alex Deucher|alexander.deucher@amd.com|2016-07-07 15:01:57-04:00|14400

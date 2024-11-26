@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|042b7816aaebb1eb137b9889c20b595d951d15b7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: remove unnecessary call to invalidate inmemory pages
-
-Now we use inmemory pages for atomic write only and provide abort procedure,
-we don't need to truncate them explicitly.
-
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|3|Jaegeuk Kim|jaegeuk@kernel.org|2014-12-12 19:40:02-08:00|28800|Jaegeuk Kim|jaegeuk@kernel.org|2015-01-09 17:02:22-08:00|28800

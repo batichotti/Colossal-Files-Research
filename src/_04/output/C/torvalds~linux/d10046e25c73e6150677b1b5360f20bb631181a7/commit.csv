@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d10046e25c73e6150677b1b5360f20bb631181a7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"pinctrl: sh-pfc: r8a7791: Split the DU sync and cde/disp groups
-
-The DU parallel interface ODDF signal is optional, move it out of the
-HSYNC/VSYNC group into a group of its down. The CDE and DISP signals are
-independent, split them to two different groups.
-
-Signed-off-by: Laurent Pinchart <laurent.pinchart+renesas@ideasonboard.com>
-Signed-off-by: Linus Walleij <linus.walleij@linaro.org>"|1|Laurent Pinchart|laurent.pinchart+renesas@ideasonboard.com|2014-04-01 12:59:09+02:00|-7200|Linus Walleij|linus.walleij@linaro.org|2014-04-22 08:41:35+02:00|-7200

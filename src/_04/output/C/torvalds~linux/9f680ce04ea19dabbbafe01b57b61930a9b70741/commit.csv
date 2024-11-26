@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9f680ce04ea19dabbbafe01b57b61930a9b70741|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: make sure the chunk allocator doesn't create zero length chunks
-
-A recent commit allowed for smaller chunks to be created, but didn't
-make sure they were always bigger than a stripe.  After some divides,
-this led to zero length stripes.
-
-Signed-off-by: Chris Mason <chris.mason@oracle.com>"|1|Chris Mason|chris.mason@oracle.com|2010-04-06 09:37:47-04:00|14400|Chris Mason|chris.mason@oracle.com|2010-04-06 09:37:47-04:00|14400

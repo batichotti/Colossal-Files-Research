@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fa2989f4473413a86890066aa3a5676a53b541e4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"CIFS: Use pid saved from cifsFileInfo in writepages and set_file_size
-
-We need it to make them work with mandatory locking style because
-we can fail in a situation like when kernel need to flush dirty pages
-and there is a lock held by a process who opened file.
-
-Signed-off-by: Pavel Shilovsky <piastry@etersoft.ru>
-Signed-off-by: Steve French <sfrench@us.ibm.com>"|7|Pavel Shilovsky|piastry@etersoft.ru|2011-05-26 10:01:59+04:00|-14400|Steve French|sfrench@us.ibm.com|2011-05-26 18:07:02+00:00|0

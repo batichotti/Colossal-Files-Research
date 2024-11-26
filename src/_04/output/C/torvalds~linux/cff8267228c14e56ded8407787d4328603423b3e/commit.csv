@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cff8267228c14e56ded8407787d4328603423b3e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: read number of data stripes from map only once
-
-There are several places that call nr_data_stripes, but this value does
-not change.
-
-Signed-off-by: David Sterba <dsterba@suse.com>"|2|David Sterba|dsterba@suse.com|2019-05-17 11:43:45+02:00|-7200|David Sterba|dsterba@suse.com|2019-07-01 13:34:58+02:00|-7200

@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1218854afa6f659be90b748cf1bc7badee954a35|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[NET] NETNS: Omit seq_net_private->net without CONFIG_NET_NS.
-
-Without CONFIG_NET_NS, no namespace other than &init_net exists,
-no need to store net in seq_net_private.
-
-Signed-off-by: YOSHIFUJI Hideaki <yoshfuji@linux-ipv6.org>"|12|YOSHIFUJI Hideaki|yoshfuji@linux-ipv6.org|2008-03-26 02:36:06+09:00|-32400|YOSHIFUJI Hideaki|yoshfuji@linux-ipv6.org|2008-03-26 04:39:56+09:00|-32400

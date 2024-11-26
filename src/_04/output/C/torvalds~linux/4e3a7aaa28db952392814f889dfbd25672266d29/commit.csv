@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4e3a7aaa28db952392814f889dfbd25672266d29|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[TG3]: Enable TSO by default
-
-Enable TSO by default on newer chips that support TSO in hardware.
-Leave TSO off by default on older chips that do firmware TSO because
-performance is slightly lower.
-
-Signed-off-by: Michael Chan <mchan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Michael Chan|mchan@broadcom.com|2006-03-20 17:47:44-08:00|28800|David S. Miller|davem@davemloft.net|2006-03-20 17:47:44-08:00|28800

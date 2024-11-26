@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|15934a37324f32e0fda633dc7984a671ea81cd75|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sched: fix rq->clock overflows detection with CONFIG_NO_HZ
-
-When using CONFIG_NO_HZ, rq->tick_timestamp is not updated every TICK_NSEC.
-We check that the number of skipped ticks matches the clock jump seen in
-__update_rq_clock().
-
-Signed-off-by: Guillaume Chazarain <guichaz@yahoo.fr>
-Signed-off-by: Ingo Molnar <mingo@elte.hu>"|1|Guillaume Chazarain|guichaz@yahoo.fr|2008-04-19 19:44:57+02:00|-7200|Ingo Molnar|mingo@elte.hu|2008-04-19 19:44:57+02:00|-7200

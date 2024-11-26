@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3e12939a2a67fbb4cbd962c3b9bc398c73319766|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"inet: Kill FLOWI_FLAG_PRECOW_METRICS.
-
-No longer needed.  TCP writes metrics, but now in it's own special
-cache that does not dirty the route metrics.  Therefore there is no
-longer any reason to pre-cow metrics in this way.
-
-Signed-off-by: David S. Miller <davem@davemloft.net>"|6|David S. Miller|davem@davemloft.net|2012-07-10 04:01:57-07:00|25200|David S. Miller|davem@davemloft.net|2012-07-10 22:40:12-07:00|25200

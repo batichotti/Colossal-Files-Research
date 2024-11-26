@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b89805082adf1f502b1f0b993063e938e1bcb098|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86/mmu: remove ""bool base_only"" arguments
-
-The argument is always false now that kvm_mmu_calc_root_page_role has
-been removed.
-
-Reviewed-by: Sean Christopherson <seanjc@google.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Paolo Bonzini|pbonzini@redhat.com|2022-02-10 07:30:58-05:00|18000|Paolo Bonzini|pbonzini@redhat.com|2022-04-29 12:49:53-04:00|14400

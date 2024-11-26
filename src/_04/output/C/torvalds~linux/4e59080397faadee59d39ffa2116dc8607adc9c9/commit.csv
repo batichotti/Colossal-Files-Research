@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4e59080397faadee59d39ffa2116dc8607adc9c9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4.1: Allow getdeviceinfo to return notification info back to caller
-
-We are only allowed to cache deviceinfo if the server supports notifications
-and actually promises to call us back when changes occur. Right now, we
-request those notifications, but then we don't check the server's reply.
-
-Signed-off-by: Trond Myklebust <trond.myklebust@primarydata.com>"|3|Trond Myklebust|trond.myklebust@primarydata.com|2015-03-09 14:01:25-04:00|14400|Trond Myklebust|trond.myklebust@primarydata.com|2015-03-27 12:32:24-04:00|14400

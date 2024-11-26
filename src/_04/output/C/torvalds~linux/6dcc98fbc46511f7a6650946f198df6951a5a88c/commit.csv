@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6dcc98fbc46511f7a6650946f198df6951a5a88c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: add indication of ro vs r/w mounts in the mount message
-
-Whether the file system is mounted read-only or read/write is more
-important than the quota mode, which we are already printing.  Add the
-ro vs r/w indication since this can be helpful in debugging problems
-from the console log.
-
-Signed-off-by: Theodore Ts'o <tytso@mit.edu>"|1|Theodore Ts'o|tytso@mit.edu|2023-05-12 14:49:57-04:00|14400|Theodore Ts'o|tytso@mit.edu|2023-05-13 18:05:05-04:00|14400

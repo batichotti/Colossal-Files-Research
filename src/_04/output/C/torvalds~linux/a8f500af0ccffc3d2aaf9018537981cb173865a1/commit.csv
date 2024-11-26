@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a8f500af0ccffc3d2aaf9018537981cb173865a1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bpf: split explored_states
-
-split explored_states into prune_point boolean mark
-and link list of explored states.
-This removes STATE_LIST_MARK hack and allows marks to be separate from states.
-
-Signed-off-by: Alexei Starovoitov <ast@kernel.org>
-Signed-off-by: Daniel Borkmann <daniel@iogearbox.net>"|2|Alexei Starovoitov|ast@kernel.org|2019-05-21 20:17:06-07:00|25200|Daniel Borkmann|daniel@iogearbox.net|2019-05-24 01:46:22+02:00|-7200

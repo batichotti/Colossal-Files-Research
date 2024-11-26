@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0493684ed2397e111574f343534d8e4ec440dfa5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[Bluetooth] Disable disconnect timer during Simple Pairing
-
-During the Simple Pairing process the HCI disconnect timer must be
-disabled. The way to do this is by holding a reference count of the
-HCI connection. The Simple Pairing process on both sides starts with
-an IO Capabilities Request and ends with Simple Pairing Complete.
-
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|2|Marcel Holtmann|marcel@holtmann.org|2008-07-14 20:13:48+02:00|-7200|Marcel Holtmann|marcel@holtmann.org|2008-07-14 20:13:48+02:00|-7200

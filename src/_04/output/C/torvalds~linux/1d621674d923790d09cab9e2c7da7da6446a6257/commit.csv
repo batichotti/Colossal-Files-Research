@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1d621674d923790d09cab9e2c7da7da6446a6257|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bpf: xor of a/x in cbpf can be done in 32 bit alu
-
-Very minor optimization; saves 1 byte per program in x86_64
-JIT in cBPF prologue.
-
-Signed-off-by: Daniel Borkmann <daniel@iogearbox.net>
-Acked-by: Alexei Starovoitov <ast@kernel.org>
-Signed-off-by: Alexei Starovoitov <ast@kernel.org>"|1|Daniel Borkmann|daniel@iogearbox.net|2018-01-26 23:33:36+01:00|-3600|Alexei Starovoitov|ast@kernel.org|2018-01-26 16:42:05-08:00|28800

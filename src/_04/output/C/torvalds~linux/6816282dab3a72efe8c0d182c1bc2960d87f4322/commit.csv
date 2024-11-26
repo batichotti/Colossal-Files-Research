@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6816282dab3a72efe8c0d182c1bc2960d87f4322|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ceph: propagate layout error on osd request creation
-
-If we are creating an osd request and get an invalid layout, return
-an EINVAL to the caller.  We switch up the return to have an error
-code instead of NULL implying -ENOMEM.
-
-Signed-off-by: Sage Weil <sage@inktank.com>
-Reviewed-by: Alex Elder <elder@inktank.com>"|3|Sage Weil|sage@inktank.com|2012-09-24 21:01:02-07:00|25200|Alex Elder|elder@inktank.com|2012-10-01 17:20:00-05:00|18000

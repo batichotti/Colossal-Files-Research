@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4a59cdfd66998259061b86437b9439d186f89d5a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rtnetlink: Move nesting cancellation rollback to proper function
-
-Make rtnl_fill_vf() cancel the vfinfo attribute on error instead of the
-inner rtnl_fill_vfinfo(), as it is the function that starts it.
-
-Signed-off-by: Gal Pressman <gal@nvidia.com>
-Link: https://lore.kernel.org/r/20230716072440.2372567-1-gal@nvidia.com
-Signed-off-by: Paolo Abeni <pabeni@redhat.com>"|1|Gal Pressman|gal@nvidia.com|2023-07-16 10:24:40+03:00|-10800|Paolo Abeni|pabeni@redhat.com|2023-07-18 15:14:05+02:00|-7200

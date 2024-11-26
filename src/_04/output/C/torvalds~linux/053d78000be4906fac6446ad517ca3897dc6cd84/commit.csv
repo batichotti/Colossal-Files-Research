@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|053d78000be4906fac6446ad517ca3897dc6cd84|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[TG3]: add support for bcm5752 rev a1
-
-Replace existing ASIC_REV_5752 definition with ASIC_REV_5752_A0,
-and add definition for ASIC_REV_5752_A1. Then, add ASIC_REV_5752_A1
-to check for setting TG3_FLG2_5750_PLUS in tg3_get_invariants.
-
-Signed-off-by: John W. Linville <linville@tuxdriver.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|John W. Linville|linville@tuxdriver.com|2005-04-21 17:03:52-07:00|25200|David S. Miller|davem@sunset.davemloft.net|2005-04-21 17:03:52-07:00|25200

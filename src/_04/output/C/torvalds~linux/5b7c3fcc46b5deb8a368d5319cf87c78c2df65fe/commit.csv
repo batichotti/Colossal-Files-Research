@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5b7c3fcc46b5deb8a368d5319cf87c78c2df65fe|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: Don't substract too much from the allocation target (avoid wrapping)
-
-When metadata allocation clustering has to fall back to unclustered
-allocs because large free areas could not be found, it was sometimes
-substracting too much from the total bytes to allocate.  This would
-make it wrap below zero.
-
-Signed-off-by: Chris Mason <chris.mason@oracle.com>"|1|Chris Mason|chris.mason@oracle.com|2008-11-10 07:26:33-05:00|18000|Chris Mason|chris.mason@oracle.com|2008-11-10 07:26:33-05:00|18000

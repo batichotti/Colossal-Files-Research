@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|adf8ed01e4fdd254efead978d633718ab01a7d5c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: add an optional TXQ for other PS-buffered frames
-
-Some drivers may want to also use the TXQ abstraction with
-non-data packets that need powersave buffering, so add a
-hardware flag to allow this.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|6|Johannes Berg|johannes.berg@intel.com|2018-08-31 11:31:08+03:00|-10800|Johannes Berg|johannes.berg@intel.com|2018-09-05 10:03:13+02:00|-7200

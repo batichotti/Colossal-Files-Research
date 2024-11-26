@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|17febfa6071bc673892edda6b1998ccfc7456c4e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ASoC: rt5665: fix wrong pre div reg of IF2 and IF3
-
-The pre divider control register of IF1 and IF2/3 are different.
-The driver used the same register for all interfaces which was a
-mistake.
-
-Signed-off-by: Bard Liao <bardliao@realtek.com>
-Signed-off-by: Mark Brown <broonie@kernel.org>"|1|Bard Liao|bardliao@realtek.com|2017-03-20 10:20:54+08:00|-28800|Mark Brown|broonie@kernel.org|2017-03-20 11:25:23+00:00|0

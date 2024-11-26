@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9042e17df8340247ebed9c67f4b64228f16b4c36|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ath10k: refactor suspend/resume functions
-
-Suspend/resume callbacks are not protected by configuration mutex
-so adding such protection. Also in order to simplify implemetation
-of suspend function wait queue is replaced by completion.
-
-Signed-off-by: Marek Puzyniak <marek.puzyniak@tieto.com>
-Signed-off-by: Kalle Valo <kvalo@qca.qualcomm.com>"|3|Marek Puzyniak|marek.puzyniak@tieto.com|2014-02-10 17:14:23+01:00|-3600|Kalle Valo|kvalo@qca.qualcomm.com|2014-02-13 17:24:01+02:00|-7200

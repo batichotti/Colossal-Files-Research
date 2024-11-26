@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0cbf768ef834c810d1eab205f21a434b9356d329|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"hpsa: use atomics for commands_outstanding
-
-Use atomics for commands_outstanding instead of protecting with spin locks.
-
-Signed-off-by: Don Brace <don.brace@pmcs.com>
-Signed-off-by: Stephen M. Cameron <stephenmcameron@gmail.com>
-Reviewed-by: Joe Handzik <joseph.t.handzik@hp.com>
-Signed-off-by: Christoph Hellwig <hch@lst.de>"|2|Stephen M. Cameron|stephenmcameron@gmail.com|2014-11-14 17:27:09-06:00|21600|Christoph Hellwig|hch@lst.de|2014-11-20 09:11:25+01:00|-3600

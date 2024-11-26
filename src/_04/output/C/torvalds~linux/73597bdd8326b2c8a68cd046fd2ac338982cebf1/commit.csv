@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|73597bdd8326b2c8a68cd046fd2ac338982cebf1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"qla4xxx: Fix smatch warning in func qla4xxx_get_ep_param
-
-Fix following smatch warning:-
- drivers/scsi/qla4xxx/ql4_os.c:1752 qla4xxx_get_ep_param() warn: variable dereferenced before check 'qla_ep' (see line 1745)
-
-Signed-off-by: Vikas Chaudhary <vikas.chaudhary@qlogic.com>
-Reviewed-by: Mike Christie <michaelc@cs.wisc.edu>
-Signed-off-by: Christoph Hellwig <hch@lst.de>"|1|Adheer Chandravanshi|adheer.chandravanshi@qlogic.com|2014-04-09 21:12:27-04:00|14400|Christoph Hellwig|hch@lst.de|2014-05-19 19:12:20+02:00|-7200

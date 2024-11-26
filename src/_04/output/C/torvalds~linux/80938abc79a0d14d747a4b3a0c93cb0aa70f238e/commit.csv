@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|80938abc79a0d14d747a4b3a0c93cb0aa70f238e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"iwlwifi: mvm: advertise RSS queue usage
-
-In order for mac80211 to use per-CPU statistics for RSS RX, the
-driver needs to advertise that it uses RSS. Do this when using
-more than a single queue.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>
-Signed-off-by: Luca Coelho <luciano.coelho@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2016-03-30 11:05:16+02:00|-7200|Luca Coelho|luciano.coelho@intel.com|2016-05-10 22:14:45+03:00|-10800

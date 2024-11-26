@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f85f94b87164e77e476218b83a5f67875d6b161c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ipv6: remove unnecessary check in addrconf_prefix_rcv_add_addr()
-
-Remove unnecessary check on update_lft variable in
-addrconf_prefix_rcv_add_addr routine since it is always set to 0.
-Moreover remove update_lft re-initialization to 0
-
-Signed-off-by: Lorenzo Bianconi <lorenzo.bianconi@redhat.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Lorenzo Bianconi|lorenzo.bianconi@redhat.com|2018-04-16 17:52:59+02:00|-7200|David S. Miller|davem@davemloft.net|2018-04-16 18:16:16-04:00|14400

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5489ee897685d4bfa8de13b4e13c6da7da2d8607|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: ethernet: mvneta: Implement ethtool::nway_reset
-
-Implement ethtool::nway_reset using phy_ethtool_nway_reset. We are
-already using dev->phydev all over the place so this comes for free.
-
-Signed-off-by: Florian Fainelli <f.fainelli@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Florian Fainelli|f.fainelli@gmail.com|2016-11-15 11:19:47-08:00|28800|David S. Miller|davem@davemloft.net|2016-11-16 13:44:01-05:00|18000

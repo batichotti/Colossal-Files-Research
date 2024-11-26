@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|047b9b94951dba2e93c65a582ae2bce25c960b86|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"virtio_net: verify if queue is broken after virtqueue_get_buf()
-
-If a virtqueue_get_buf() call returns a NULL pointer a possibly endless while
-loop should be avoided by checking for a broken virtqueue.
-
-Signed-off-by: Heinz Graalfs <graalfs@linux.vnet.ibm.com>
-Signed-off-by: Rusty Russell <rusty@rustcorp.com.au>"|1|Heinz Graalfs|graalfs@linux.vnet.ibm.com|2013-10-29 09:40:47+10:30|-37800|Rusty Russell|rusty@rustcorp.com.au|2013-10-29 11:28:19+10:30|-37800

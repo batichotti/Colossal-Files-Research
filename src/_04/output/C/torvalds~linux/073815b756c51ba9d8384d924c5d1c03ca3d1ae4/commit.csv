@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|073815b756c51ba9d8384d924c5d1c03ca3d1ae4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bpf: Refactor and streamline bounds check into helper
-
-Move the bounds check in adjust_ptr_min_max_vals() into a small helper named
-sanitize_check_bounds() in order to simplify the former a bit.
-
-Signed-off-by: Daniel Borkmann <daniel@iogearbox.net>
-Reviewed-by: John Fastabend <john.fastabend@gmail.com>
-Acked-by: Alexei Starovoitov <ast@kernel.org>"|1|Daniel Borkmann|daniel@iogearbox.net|2021-03-23 15:05:48+01:00|-3600|Daniel Borkmann|daniel@iogearbox.net|2021-04-16 23:51:54+02:00|-7200

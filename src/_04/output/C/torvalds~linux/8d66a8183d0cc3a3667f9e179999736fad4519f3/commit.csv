@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8d66a8183d0cc3a3667f9e179999736fad4519f3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: ethernet: mediatek: Enable GDM GDMA_DROP_ALL mode
-
-Enable GDM GDMA_DROP_ALL mode to drop all packet during the
-stop operation. This is recommended by the mt762x HW design
-to drop all packet from GMAC before stopping PDMA.
-
-Signed-off-by: MarkLee <Mark-MC.Lee@mediatek.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|MarkLee|Mark-MC.Lee@mediatek.com|2019-11-13 10:38:44+08:00|-28800|David S. Miller|davem@davemloft.net|2019-11-14 15:13:28-08:00|28800

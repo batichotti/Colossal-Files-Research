@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|41074d07c78b086b18fc2af590caef05dbcca568|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: MMU: Fix inherited permissions for emulated guest pte updates
-
-When we emulate a guest pte write, we fail to apply the correct inherited
-permissions from the parent ptes.  Now that we store inherited permissions
-in the shadow page, we can use that to update the pte permissions correctly.
-
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|3|Avi Kivity|avi@qumranet.com|2007-12-09 17:00:02+02:00|-7200|Avi Kivity|avi@qumranet.com|2008-01-30 17:53:20+02:00|-7200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1a61e5486aeb90d94dd6116c9749e36edd10bf9b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: lpfc: add support for posting FC events on FPIN reception
-
-This patch adds support to recognize FPIN ELS's that are received.  When
-one is received, the fc transport will be called to handle the the FPIN.
-
-Signed-off-by: James Smart <jsmart2021@gmail.com>
-Reviewed-by: Ewan D. Milne <emilne@redhat.com>
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|2|James Smart|jsmart2021@gmail.com|2019-04-05 16:04:23-07:00|25200|Martin K. Petersen|martin.petersen@oracle.com|2019-04-08 21:29:16-04:00|14400

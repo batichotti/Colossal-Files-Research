@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2b928749f9ba781085442d1f8832f057cbf458a1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cxgb4: zero the HMA memory
-
-firmware expects HMA memory to be zeroed, use __GFP_ZERO
-for HMA memory allocation.
-
-Fixes: 8b4e6b3ca2ed (""cxgb4: Add HMA support"")
-Signed-off-by: Ganesh Goudar <ganeshgr@chelsio.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Ganesh Goudar|ganeshgr@chelsio.com|2018-05-09 18:40:09+05:30|-19800|David S. Miller|davem@davemloft.net|2018-05-10 16:02:06-04:00|14400

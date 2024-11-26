@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|775ffabf77a648d78fe1d20cb3a620e771abb921|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tcp: make mtu probe failure to not break gso'ed skbs unnecessarily
-
-I noticed that since skb->len has nothing to do with actual segment
-length with gso, we need to figure it out separately, reuse
-a function from the recent shifting stuff (generalize it).
-
-Signed-off-by: Ilpo Järvinen <ilpo.jarvinen@helsinki.fi>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Ilpo Järvinen|ilpo.jarvinen@helsinki.fi|2008-12-05 22:41:26-08:00|28800|David S. Miller|davem@davemloft.net|2008-12-05 22:41:26-08:00|28800

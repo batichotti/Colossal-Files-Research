@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9aaa156cf9b7e9d9ed899f254283b91c4e3c36c8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"gro: Store shinfo in local variable in skb_gro_receive
-
-This patch stores the two shinfo pointers in local variables
-because they're used over and over again in skb_gro_receive.
-
-Signed-off-by: Herbert Xu <herbert@gondor.apana.org.au>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Herbert Xu|herbert@gondor.apana.org.au|2009-05-26 18:50:33+00:00|0|David S. Miller|davem@davemloft.net|2009-05-27 03:26:05-07:00|25200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ec06c096edec0755534c7126f4caded69de131c2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS: Cleanup of NFS read code
-
-Same callback hierarchy inversion as for the NFS write calls. This patch is
-not strictly speaking needed by the O_DIRECT code, but avoids confusing
-differences between the asynchronous read and write code.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|7|Trond Myklebust|Trond.Myklebust@netapp.com|2006-03-20 13:44:27-05:00|18000|Trond Myklebust|Trond.Myklebust@netapp.com|2006-03-20 13:44:27-05:00|18000

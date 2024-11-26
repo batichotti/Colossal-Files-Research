@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f098846044c9edb359bf2dae4bcf0d537dda22fe|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ipv6: stub out even more of addrconf_set_dstaddr if SIT is disabled
-
-There is no point in copying the structure from userspace or looking up
-a device if SIT support is not disabled and we'll eventually return
--ENODEV anyway.
-
-Signed-off-by: Christoph Hellwig <hch@lst.de>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Christoph Hellwig|hch@lst.de|2020-05-19 15:03:17+02:00|-7200|David S. Miller|davem@davemloft.net|2020-05-19 15:45:12-07:00|25200

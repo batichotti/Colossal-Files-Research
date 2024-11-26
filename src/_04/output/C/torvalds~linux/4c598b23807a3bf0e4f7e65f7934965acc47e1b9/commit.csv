@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4c598b23807a3bf0e4f7e65f7934965acc47e1b9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] megaraid_sas: Add CFG_CLEARED AEN
-
-The following patch for megaraid_sas adds a missing check for
-MR_EVT_CFG_CLEARED in megasas_aen_polling().
-
-Signed-off-by: Adam Radford <aradford@gmail.com>
-Signed-off-by: James Bottomley <James.Bottomley@suse.de>"|1|adam radford|aradford@gmail.com|2011-02-24 20:56:53-08:00|28800|James Bottomley|James.Bottomley@suse.de|2011-02-28 11:57:44-06:00|21600

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|68d81f40047cc4f99e86807e1160fb07a7b856c7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: remove MSG_*_TAG defines
-
-For SPI drivers use the message definitions from scsi.h, and for target
-drivers introduce a new TCM_*_TAG namespace.
-
-Signed-off-by: Christoph Hellwig <hch@lst.de>
-Reviewed-by: Bart Van Assche <bvanassche@acm.org>
-Reviewed-by: Martin K. Petersen <martin.petersen@oracle.com"|18|Christoph Hellwig|hch@infradead.org|2014-11-24 07:07:25-08:00|28800|Christoph Hellwig|hch@lst.de|2014-12-04 09:58:33+01:00|-3600

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4fd0328d2f6314a40063cb2abcaed78976e3c022|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: pass internal sta to ieee80211_tx_frags()
-
-This simplifies the code somewhat, and if necessary would let
-us access the sta itself in that code.
-
-Link: https://lore.kernel.org/r/1569965193-Id656db92703dded4bb2e3ec5dc329529f58e58f0@changeid
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2019-10-01 23:26:35+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2019-10-04 13:57:50+02:00|-7200

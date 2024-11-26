@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f57a60256d02daba1316c98da472f02cd98a58d3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bnx2x: Supporting PHY FW upgrade
-
-There are 3 operations that the driver needs to support to allow applications to
-access the PHY FW (on top of the MDC/MDIO access). Since those are essentially
-nvram access commands, adding them to the ethtool -E interface.
-
-Signed-off-by: Eilon Greenstein <eilong@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|Eilon Greenstein|eilong@broadcom.com|2009-08-12 08:23:11+00:00|0|David S. Miller|davem@davemloft.net|2009-08-12 23:02:32-07:00|25200

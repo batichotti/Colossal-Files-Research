@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a7603ff4b5f7e26e67af82a4c3d05eeeb8d7b160|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tracing: Replace the static global per_cpu arrays with allocated per_cpu
-
-The global and max-tr currently use static per_cpu arrays for the CPU data
-descriptors. But in order to get new allocated trace_arrays, they need to
-be allocated per_cpu arrays. Instead of using the static arrays, switch
-the global and max-tr to use allocated data.
-
-Signed-off-by: Steven Rostedt <rostedt@goodmis.org>"|10|Steven Rostedt|srostedt@redhat.com|2012-08-06 16:24:11-04:00|14400|Steven Rostedt|rostedt@goodmis.org|2013-03-15 00:34:43-04:00|14400

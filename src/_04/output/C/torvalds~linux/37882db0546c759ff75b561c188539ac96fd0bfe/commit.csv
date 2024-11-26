@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|37882db0546c759ff75b561c188539ac96fd0bfe|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"SECURITY: remove nameidata arg from inode_follow_link.
-
-No ->inode_follow_link() methods use the nameidata arg, and
-it is about to become private to namei.c.
-So remove from all inode_follow_link() functions.
-
-Signed-off-by: NeilBrown <neilb@suse.de>
-Signed-off-by: Al Viro <viro@zeniv.linux.org.uk>"|5|NeilBrown|neilb@suse.de|2015-03-23 13:37:39+11:00|-39600|Al Viro|viro@zeniv.linux.org.uk|2015-05-10 22:18:29-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d0290214de712150b118a532ded378a29255893b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: add busy_poll device feature
-
-Currently there is no way how to find out if a device supports busy
-polling. So add a feature and make it dependent on ndo_busy_poll
-existence.
-
-Signed-off-by: Jiri Pirko <jiri@resnulli.us>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|Jiri Pirko|jiri@resnulli.us|2014-04-02 23:09:31+02:00|-7200|David S. Miller|davem@davemloft.net|2014-04-03 14:31:34-04:00|14400

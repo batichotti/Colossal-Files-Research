@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fdbaa0beb78b7c8847e261fe2c32816e9d1c54cc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bpf: Ensure line_info.insn_off cannot point to insn with zero code
-
-This patch rejects a line_info if the bpf insn code referred by
-line_info.insn_off is 0. F.e. a broken userspace tool might generate
-a line_info.insn_off that points to the second 8 bytes of a BPF_LD_IMM64.
-
-Signed-off-by: Martin KaFai Lau <kafai@fb.com>
-Signed-off-by: Alexei Starovoitov <ast@kernel.org>"|1|Martin KaFai Lau|kafai@fb.com|2018-12-19 13:01:01-08:00|28800|Alexei Starovoitov|ast@kernel.org|2018-12-19 15:42:55-08:00|28800

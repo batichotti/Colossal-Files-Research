@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6b684db1db0df40275c7dfcc32a5d48eb72fe4e3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: send deauth if connection was lost during suspend
-
-If the driver determined the connection was lost or that
-it couldn't securely maintain the connection when coming
-out of WoWLAN, send a deauth frame to the AP to also let
-it know.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2013-01-29 11:35:29+01:00|-3600|Johannes Berg|johannes.berg@intel.com|2013-02-04 18:57:44+01:00|-3600

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8e2712e71bfc975c1cf6cd72c94914533cf704f2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/amdgpu: Add kfd init_complete flag to check from amdgpu side
-
-amdgpu driver may be in reset state during init which will not initialize the kfd,
-driver need to initialize the KFD after reset by check the flag
-
-Signed-off-by: shaoyunl <shaoyun.liu@amd.com>
-Acked-by: Alex Deucher <alexander.deucher@amd.com>
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|3|shaoyunl|shaoyun.liu@amd.com|2021-02-16 10:57:17-05:00|18000|Alex Deucher|alexander.deucher@amd.com|2021-03-23 23:10:28-04:00|14400

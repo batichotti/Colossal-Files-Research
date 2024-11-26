@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|980faece91a60c279e7c24cb1d1a378bbbb74bb9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"xfs: convert ""skip_discard"" to a proper flags bitset
-
-Convert the boolean to skip discard on free into a proper flags field so
-that we can add more flags in the next patch.
-
-Signed-off-by: Darrick J. Wong <djwong@kernel.org>
-Reviewed-by: Christoph Hellwig <hch@lst.de>"|12|Darrick J. Wong|djwong@kernel.org|2024-07-02 11:22:51-07:00|25200|Darrick J. Wong|djwong@kernel.org|2024-07-02 11:37:01-07:00|25200

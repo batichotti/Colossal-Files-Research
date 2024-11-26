@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7e8616d8e7731b026019d9af7cc9914b8bb42bc7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCTP]: Update AUTH structures to match declarations in draft-16.
-
-The new SCTP socket api (draft 16) updates the AUTH API structures.
-We never exported these since we knew they would change.
-Update the rest to match the draft.
-
-Signed-off-by: Vlad Yasevich <vladislav.yasevich@hp.com>"|3|Vlad Yasevich|vladislav.yasevich@hp.com|2008-02-27 16:04:52-05:00|18000|Vlad Yasevich|vladislav.yasevich@hp.com|2008-02-28 16:45:04-05:00|18000

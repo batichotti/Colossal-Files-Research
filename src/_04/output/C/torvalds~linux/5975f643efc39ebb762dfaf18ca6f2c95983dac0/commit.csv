@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5975f643efc39ebb762dfaf18ca6f2c95983dac0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] arcmsr: build fix
-
-drivers/scsi/arcmsr/arcmsr_hba.c:129: error: 'arcmsr_pci_error_detected' undeclared here (not in a function)
-drivers/scsi/arcmsr/arcmsr_hba.c:130: error: 'arcmsr_pci_slot_reset' undeclared here (not in a function)
-
-Signed-off-by: Andrew Morton <akpm@linux-foundation.org>
-Signed-off-by: James Bottomley <James.Bottomley@SteelEye.com>"|1|Andrew Morton|akpm@linux-foundation.org|2007-10-02 14:37:59-07:00|25200|James Bottomley|jejb@mulgrave.localdomain|2007-10-12 14:54:29-04:00|14400

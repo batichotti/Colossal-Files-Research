@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2917f57b6bc15cc6787496ee5f2fdf17f0e9b7d3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"calipso: Allow the lsm to label the skbuff directly.
-
-In some cases, the lsm needs to add the label to the skbuff directly.
-A NF_INET_LOCAL_OUT IPv6 hook is added to selinux to match the IPv4
-behaviour.  This allows selinux to label the skbuffs that it requires.
-
-Signed-off-by: Huw Davies <huw@codeweavers.com>
-Signed-off-by: Paul Moore <paul@paul-moore.com>"|6|Huw Davies|huw@codeweavers.com|2016-06-27 15:06:15-04:00|14400|Paul Moore|paul@paul-moore.com|2016-06-27 15:06:15-04:00|14400

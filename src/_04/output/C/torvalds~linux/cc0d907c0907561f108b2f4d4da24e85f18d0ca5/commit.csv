@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cc0d907c0907561f108b2f4d4da24e85f18d0ca5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"kvm: take srcu lock around kvm_steal_time_set_preempted()
-
-kvm_memslots() will be called by kvm_write_guest_offset_cached() so
-take the srcu lock.
-
-Signed-off-by: Andrea Arcangeli <aarcange@redhat.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Andrea Arcangeli|aarcange@redhat.com|2016-12-17 19:13:32+01:00|-3600|Paolo Bonzini|pbonzini@redhat.com|2016-12-19 15:45:15+01:00|-3600

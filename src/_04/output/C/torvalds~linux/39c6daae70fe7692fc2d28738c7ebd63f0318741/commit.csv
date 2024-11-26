@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|39c6daae70fe7692fc2d28738c7ebd63f0318741|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: Prepare for minorversion-specific nfs_server capabilities
-
-Clean up the setting of the nfs_server->caps, by shoving it all
-into nfs4_server_common_setup().
-Then add an 'initial capabilities' field into struct nfs4_minor_version_ops.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|3|Trond Myklebust|Trond.Myklebust@netapp.com|2013-03-15 16:11:57-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2013-03-25 12:04:11-04:00|14400

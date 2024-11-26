@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a0646470e8a965df59054a5c82e53e5572bf04a0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"iwlwifi: skip mac80211 conf during a hardware scan and replay it afterwards
-
-This patch skips mac80211 configuration setting during a hardware scan
-and replays it afterwards for the iwlwifi drivers.
-
-Cc: Johannes Berg <johannes@sipsolutions.net>
-Signed-off-by: Zhu Yi <yi.zhu@intel.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|4|Zhu Yi|yi.zhu@intel.com|2007-12-20 14:10:01+08:00|-28800|David S. Miller|davem@davemloft.net|2008-01-28 15:07:54-08:00|28800

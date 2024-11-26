@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1097f5e92107ca3950fabf5e1d724faa80c91e7f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[BNX2]: Fix minor bug in bnx2_has_work().
-
-It is more correct to get the status block from the bnx2_napi struct
-instead of the bnx2 struct.  It happens that they are the same in this
-case because we are using the first MSIX vector.
-
-Signed-off-by: Michael Chan <mchan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Michael Chan|mchan@broadcom.com|2008-01-21 17:06:41-08:00|28800|David S. Miller|davem@davemloft.net|2008-01-28 15:10:14-08:00|28800

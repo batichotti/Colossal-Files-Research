@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7f1611469b67739df260a6487b2a5e199e8eeba1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: don't send delBA before disassoc
-
-When we disassociate, it's not really useful to
-send delBA action frames since we're going to send
-disassoc/deauth anyway, so change that.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2012-07-18 12:53:34+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2012-09-21 16:14:13+02:00|-7200

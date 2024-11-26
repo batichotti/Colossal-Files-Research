@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6e2c64ad7cebf8740c5e1241de374c6b6ea80f81|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: fix SSA updates resulting in corruption
-
-The f2fs_collapse_range and f2fs_insert_range changes the block addresses
-directly. But that can cause uncovered SSA updates.
-In that case, we need to give up to change the block addresses and do buffered
-writes to keep filesystem consistency.
-
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|3|Jaegeuk Kim|jaegeuk@kernel.org|2015-10-07 12:28:41-07:00|25200|Jaegeuk Kim|jaegeuk@kernel.org|2015-10-12 13:38:02-07:00|25200

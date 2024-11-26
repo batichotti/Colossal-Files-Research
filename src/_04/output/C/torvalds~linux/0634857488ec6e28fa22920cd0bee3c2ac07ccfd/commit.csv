@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0634857488ec6e28fa22920cd0bee3c2ac07ccfd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: enable discard support
-
-The discard support code in btrfs currently is guarded by ifdefs for
-BIO_RW_DISCARD, which is never defines as it's the name of an enum
-memeber.  Just remove the useless ifdefs to actually enable the code.
-
-Signed-off-by: Christoph Hellwig <hch@lst.de>
-Signed-off-by: Chris Mason <chris.mason@oracle.com>"|1|Christoph Hellwig|hch@lst.de|2009-10-14 09:24:59-04:00|14400|Chris Mason|chris.mason@oracle.com|2009-10-14 10:32:49-04:00|14400

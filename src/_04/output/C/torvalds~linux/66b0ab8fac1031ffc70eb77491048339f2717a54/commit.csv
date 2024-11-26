@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|66b0ab8fac1031ffc70eb77491048339f2717a54|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86 emulator: VM86 segments must have DPL 3
-
-Setting the segment DPL to 0 for at least the VM86 code segment makes
-the VM entry fail on VMX.
-
-Signed-off-by: Kevin Wolf <kwolf@redhat.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Kevin Wolf|kwolf@redhat.com|2012-02-08 14:34:39+01:00|-3600|Avi Kivity|avi@redhat.com|2012-03-08 14:10:27+02:00|-7200

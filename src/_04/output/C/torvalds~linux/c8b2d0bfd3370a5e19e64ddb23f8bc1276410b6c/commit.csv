@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c8b2d0bfd3370a5e19e64ddb23f8bc1276410b6c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4.1: Ensure that we free the lock stateid on the server
-
-This ensures that the server doesn't need to keep huge numbers of
-lock stateids waiting around for the final CLOSE.
-See section 8.2.4 in RFC5661.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|3|Trond Myklebust|Trond.Myklebust@netapp.com|2013-05-03 16:22:55-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2013-05-06 17:24:27-04:00|14400

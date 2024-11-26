@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fca20018e7b86a8716511c7681115baa47aca8e4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Use kzalloc instead of kmalloc for pending mgmt commands
-
-By using kzalloc we ensure that there are no struct members, such as the
-user_data pointer, left uninitialized.
-
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|1|Johan Hedberg|johan.hedberg@intel.com|2014-06-28 17:54:05+03:00|-10800|Marcel Holtmann|marcel@holtmann.org|2014-07-03 17:42:48+02:00|-7200

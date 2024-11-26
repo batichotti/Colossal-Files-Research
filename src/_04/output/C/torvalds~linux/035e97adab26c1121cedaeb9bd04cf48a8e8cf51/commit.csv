@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|035e97adab26c1121cedaeb9bd04cf48a8e8cf51|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: do SSR for data when there is enough free space
-
-In allocate_segment_by_default(), need_SSR() already detected it's time to do
-SSR. So, let's try to find victims for data segments more aggressively in time.
-
-Signed-off-by: Yunlong Song <yunlong.song@huawei.com>
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|1|Yunlong Song|yunlong.song@huawei.com|2017-02-22 20:50:49+08:00|-28800|Jaegeuk Kim|jaegeuk@kernel.org|2017-02-24 09:39:52-08:00|28800

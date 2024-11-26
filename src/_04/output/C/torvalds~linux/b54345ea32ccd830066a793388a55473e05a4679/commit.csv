@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b54345ea32ccd830066a793388a55473e05a4679|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cnic: Simplify cnic_release().
-
-Since unregister_netdevice_notifier() will replay the NETDEV_DOWN and
-NETDEV_UNREGISTER_EVENTS, the cnic_dev_list will be cleaned up automatically.
-The loop to cleanup the cnic_dev_list can be removed in cnic_release().
-
-Signed-off-by: Michael Chan <mchan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Michael Chan|mchan@broadcom.com|2013-07-28 19:03:56-07:00|25200|David S. Miller|davem@davemloft.net|2013-07-29 22:03:07-07:00|25200

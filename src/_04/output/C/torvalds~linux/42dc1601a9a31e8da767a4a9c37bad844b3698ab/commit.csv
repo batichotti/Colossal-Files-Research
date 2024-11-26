@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|42dc1601a9a31e8da767a4a9c37bad844b3698ab|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"dlm: reject normal unlock when lock is waiting for lookup
-
-Non-forced unlocks should be rejected if the lock is waiting on the
-rsb_lookup list for another lock to establish the master node.
-
-Signed-off-by: David Teigland <teigland@redhat.com>"|1|David Teigland|teigland@redhat.com|2008-01-09 10:30:45-06:00|21600|David Teigland|teigland@redhat.com|2008-01-30 11:04:42-06:00|21600

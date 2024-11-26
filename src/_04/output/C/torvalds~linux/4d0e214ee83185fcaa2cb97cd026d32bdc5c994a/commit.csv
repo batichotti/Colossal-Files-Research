@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4d0e214ee83185fcaa2cb97cd026d32bdc5c994a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ocfs2: Add ecc and checksums to ocfs2 xattr buckets.
-
-The xattr bucket can span multiple blocks on disk.  We have wrappers
-for this structure in the code.  We use the new multi-block ecc calls to
-calculate and validate the bucket.
-
-Signed-off-by: Joel Becker <joel.becker@oracle.com>
-Signed-off-by: Mark Fasheh <mfasheh@suse.com>"|1|Joel Becker|joel.becker@oracle.com|2008-12-05 11:19:37-08:00|28800|Mark Fasheh|mfasheh@suse.com|2009-01-05 08:40:32-08:00|28800

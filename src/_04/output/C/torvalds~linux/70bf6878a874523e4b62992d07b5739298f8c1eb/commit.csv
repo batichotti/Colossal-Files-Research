@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|70bf6878a874523e4b62992d07b5739298f8c1eb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/panel: update EDID BLOB in panel_simple_get_modes()
-
-This stashes away the EDID data so that the sysfs per-connector file
-""edid"" can display it. Without this change, the ""edid"" file is always
-empty.
-
-Signed-off-by: Stephen Warren <swarren@nvidia.com>
-Signed-off-by: Thierry Reding <treding@nvidia.com>"|1|Stephen Warren|swarren@nvidia.com|2014-01-09 11:37:34-07:00|25200|Thierry Reding|treding@nvidia.com|2014-01-14 16:02:02+01:00|-3600

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|af8b38ed0b9d34db940a52418e7849904336ace5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"IB/mlx5: Simplify WQE count power of two check
-
-Use is_power_of_2() instead of hard coding it in the driver. While at it,
-fix the meaningless error print.
-
-Signed-off-by: Gal Pressman <galpress@amazon.com>
-Acked-by: Leon Romanovsky <leonro@mellanox.com>
-Signed-off-by: Jason Gunthorpe <jgg@mellanox.com>"|1|Gal Pressman|galpress@amazon.com|2019-02-06 15:45:35+02:00|-7200|Jason Gunthorpe|jgg@mellanox.com|2019-02-07 13:14:55-07:00|25200

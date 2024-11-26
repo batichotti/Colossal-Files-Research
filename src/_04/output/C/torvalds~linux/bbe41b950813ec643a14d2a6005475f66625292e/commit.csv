@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bbe41b950813ec643a14d2a6005475f66625292e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: ratelimit and decrease severity for guest-triggered printk
-
-These are mostly related to nested VMX.  They needn't have
-a loglevel as high as KERN_WARN, and mustn't be allowed to
-pollute the host logs.
-
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Paolo Bonzini|pbonzini@redhat.com|2016-08-19 17:51:20+02:00|-7200|Paolo Bonzini|pbonzini@redhat.com|2016-09-07 19:34:29+02:00|-7200

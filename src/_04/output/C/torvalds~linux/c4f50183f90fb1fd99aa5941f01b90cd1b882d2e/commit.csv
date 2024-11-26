@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c4f50183f90fb1fd99aa5941f01b90cd1b882d2e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ring_buffer: adding EXPORT_SYMBOLs
-
-I added EXPORT_SYMBOL_GPLs for all functions part of the API
-(ring_buffer.h). This is required since oprofile is using the ring
-buffer and the compilation as modules would fail otherwise.
-
-Signed-off-by: Robert Richter <robert.richter@amd.com>
-Signed-off-by: Ingo Molnar <mingo@elte.hu>"|1|Robert Richter|robert.richter@amd.com|2008-12-11 16:49:22+01:00|-3600|Ingo Molnar|mingo@elte.hu|2008-12-12 06:54:55+01:00|-3600

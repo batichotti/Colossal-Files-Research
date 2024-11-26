@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0adf85b445c7fbc5d2df1f8c1bc54d62c4340237|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS: Optimise away the previous cookie field
-
-Replace the 'previous cookie' field in struct nfs_entry with the
-array->last_cookie.
-
-Signed-off-by: Trond Myklebust <trond.myklebust@hammerspace.com>"|5|Trond Myklebust|trond.myklebust@hammerspace.com|2022-02-27 12:46:24-05:00|18000|Trond Myklebust|trond.myklebust@hammerspace.com|2022-03-02 08:43:39-05:00|18000

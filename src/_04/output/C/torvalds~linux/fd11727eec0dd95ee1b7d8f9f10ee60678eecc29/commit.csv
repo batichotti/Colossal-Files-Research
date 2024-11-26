@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fd11727eec0dd95ee1b7d8f9f10ee60678eecc29|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"crypto: hisilicon/qm - fix memset during queues clearing
-
-Due to that extra page addr is used as a qp error flag when the device
-resetting. So it not should to clear this qp flag in userspace.
-
-Signed-off-by: Kai Ye <yekai13@huawei.com>
-Signed-off-by: Herbert Xu <herbert@gondor.apana.org.au>"|1|Kai Ye|yekai13@huawei.com|2022-03-04 17:46:47+08:00|-28800|Herbert Xu|herbert@gondor.apana.org.au|2022-03-09 15:12:31+12:00|-43200

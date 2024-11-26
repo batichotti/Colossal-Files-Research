@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|66be084885979bf8718383846a156c9da56c5a5c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"serial: 8250_pci: remove unnecessary pci_set_drvdata()
-
-The driver core clears the driver data to NULL after device_release
-or on probe failure. Thus, it is not needed to manually clear the
-device driver data to NULL.
-
-Signed-off-by: Jingoo Han <jg1.han@samsung.com>
-Signed-off-by: Greg Kroah-Hartman <gregkh@linuxfoundation.org>"|1|Jingoo Han|jg1.han@samsung.com|2013-09-12 15:33:48+09:00|-32400|Greg Kroah-Hartman|gregkh@linuxfoundation.org|2013-09-26 15:41:39-07:00|25200

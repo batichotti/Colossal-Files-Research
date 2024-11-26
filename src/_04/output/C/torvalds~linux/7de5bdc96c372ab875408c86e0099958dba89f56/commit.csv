@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7de5bdc96c372ab875408c86e0099958dba89f56|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: MMU: remove unnecessary check
-
-Checking the return of kvm_mmu_get_page is unnecessary since it is
-guaranteed by memory cache
-
-Signed-off-by: Xiao Guangrong <xiaoguangrong@linux.vnet.ibm.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Xiao Guangrong|xiaoguangrong@linux.vnet.ibm.com|2012-09-07 14:15:03+08:00|-28800|Avi Kivity|avi@redhat.com|2012-09-10 11:26:16+03:00|-10800

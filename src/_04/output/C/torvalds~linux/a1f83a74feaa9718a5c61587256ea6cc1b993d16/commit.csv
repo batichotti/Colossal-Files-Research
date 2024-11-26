@@ -1,6 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a1f83a74feaa9718a5c61587256ea6cc1b993d16|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: trace clts and lmsw instructions as cr accesses
-
-clts writes cr0.ts; lmsw writes cr0[0:15] - record that in ftrace.
-
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Avi Kivity|avi@redhat.com|2009-12-29 17:33:58+02:00|-7200|Marcelo Tosatti|mtosatti@redhat.com|2010-03-01 12:35:50-03:00|10800

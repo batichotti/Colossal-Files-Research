@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f123e66df6ca0fce73309dda667d7d1d5b0aa715|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"crypto: hisilicon/qm - remove unnecessary device memory reset
-
-The internal memory of the device needs to be reset only when
-the device is globally initialized. Other scenarios, such as
-function reset, do not need to perform reset.
-
-Signed-off-by: Weili Qian <qianweili@huawei.com>
-Signed-off-by: Herbert Xu <herbert@gondor.apana.org.au>"|1|Weili Qian|qianweili@huawei.com|2021-12-11 19:25:14+08:00|-28800|Herbert Xu|herbert@gondor.apana.org.au|2021-12-17 16:59:48+11:00|-39600

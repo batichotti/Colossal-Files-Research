@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c6ffe10015f4e6fba8a915318b319c43aed1836f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ceph: use new D_COMPLETE dentry flag
-
-We used to use a flag on the directory inode to track whether the dcache
-contents for a directory were a complete cached copy.  Switch to a dentry
-flag CEPH_D_COMPLETE that is safely updated by ->d_prune().
-
-Signed-off-by: Sage Weil <sage@newdream.net>"|5|Sage Weil|sage@newdream.net|2011-11-03 09:23:36-07:00|25200|Sage Weil|sage@newdream.net|2011-11-05 21:10:10-07:00|25200

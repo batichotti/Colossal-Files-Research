@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ebc7b50a3849d73665013573cf3c09f27fb14fde|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libbpf: Migrate internal use of bpf_program__get_prog_info_linear
-
-In preparation for bpf_program__get_prog_info_linear deprecation, move
-the single use in libbpf to call bpf_obj_get_info_by_fd directly.
-
-Signed-off-by: Dave Marchevsky <davemarchevsky@fb.com>
-Signed-off-by: Andrii Nakryiko <andrii@kernel.org>
-Link: https://lore.kernel.org/bpf/20211011082031.4148337-2-davemarchevsky@fb.com"|1|Dave Marchevsky|davemarchevsky@fb.com|2021-10-11 01:20:28-07:00|25200|Andrii Nakryiko|andrii@kernel.org|2021-10-20 10:35:49-07:00|25200

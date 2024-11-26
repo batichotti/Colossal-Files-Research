@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|54c4cad97b8fd414909b78d4274a6797baa52b3b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ipmr: Make MFC fib notifiers common
-
-Like vif notifications, move the notifier struct for MFC as well as its
-helpers into a common file; Currently they're only used by ipmr.
-
-Signed-off-by: Yuval Mintz <yuvalm@mellanox.com>
-Signed-off-by: Ido Schimmel <idosch@mellanox.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|4|Yuval Mintz|yuvalm@mellanox.com|2018-03-26 15:01:32+03:00|-10800|David S. Miller|davem@davemloft.net|2018-03-26 13:14:42-04:00|14400

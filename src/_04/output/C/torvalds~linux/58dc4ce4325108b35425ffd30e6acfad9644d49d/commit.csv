@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|58dc4ce4325108b35425ffd30e6acfad9644d49d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: remove unused parameter from readahead_tree_block
-
-The parent_transid parameter has been unused since its introduction in
-ca7a79ad8dbe2466 (""Pass down the expected generation number when reading
-tree blocks"").  In reada_tree_block, it was even wrongly set to leafsize.
-Transid check is done in the proper read and readahead ignores errors.
-
-Signed-off-by: David Sterba <dsterba@suse.cz>"|5|David Sterba|dsterba@suse.cz|2014-06-15 00:29:04+02:00|-7200|David Sterba|dsterba@suse.cz|2014-10-02 16:30:18+02:00|-7200

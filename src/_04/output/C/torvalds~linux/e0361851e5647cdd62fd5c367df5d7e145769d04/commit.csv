@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e0361851e5647cdd62fd5c367df5d7e145769d04|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sched: remove binary sysctls from kernel.sched_domain
-
-kernel.sched_domain hierarchy is under CTL_UNNUMBERED and thus
-unreachable to sysctl(2). Generating .ctl_number's in such situation is
-not useful.
-
-Signed-off-by: Alexey Dobriyan <adobriyan@sw.ru>
-Signed-off-by: Ingo Molnar <mingo@elte.hu>"|1|Alexey Dobriyan|adobriyan@sw.ru|2007-08-09 11:16:46+02:00|-7200|Ingo Molnar|mingo@elte.hu|2007-08-09 11:16:46+02:00|-7200

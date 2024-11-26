@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2b1f55b0f0d0d1a66470ef4ea2696cd5dd741a12|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Remove Btrfs compat code for older kernels
-
-Btrfs had compatibility code for kernels back to 2.6.18.  These have
-been removed, and will be maintained in a separate backport
-git tree from now on.
-
-Signed-off-by: Chris Mason <chris.mason@oracle.com>"|12|Chris Mason|chris.mason@oracle.com|2008-09-24 11:48:04-04:00|14400|Chris Mason|chris.mason@oracle.com|2008-09-25 15:41:59-04:00|14400

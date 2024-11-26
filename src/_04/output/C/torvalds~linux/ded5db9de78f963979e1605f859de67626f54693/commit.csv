@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ded5db9de78f963979e1605f859de67626f54693|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: make sure to remove the orphan item from the in-memory list
-
-This fixes a problem where if truncate fails the inode will still be on the in
-memory orphan list.  This is will make us complain when the inode gets destroyed
-because it's still on the orphan list.  So if we fail just remove us from the in
-memory list and carry on.
-
-Signed-off-by: Josef Bacik <josef@redhat.com>"|1|Josef Bacik|josef@redhat.com|2011-03-04 14:09:46-05:00|18000|Josef Bacik|josef@redhat.com|2011-03-17 14:21:28-04:00|14400

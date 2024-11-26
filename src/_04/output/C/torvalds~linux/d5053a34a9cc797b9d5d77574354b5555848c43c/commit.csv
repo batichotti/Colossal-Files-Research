@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d5053a34a9cc797b9d5d77574354b5555848c43c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: introduce -o fastboot for reducing booting time only
-
-If a system wants to reduce the booting time as a top priority, now we can
-use a mount option, -o fastboot.
-With this option, f2fs conducts a little bit slow write_checkpoint, but
-it can avoid the node page reads during the next mount time.
-
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|5|Jaegeuk Kim|jaegeuk@kernel.org|2014-10-30 22:47:03-07:00|25200|Jaegeuk Kim|jaegeuk@kernel.org|2014-11-04 17:34:15-08:00|28800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4746ec5b01ed07205a91e4f7ed9de9d70f371407|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[AUDIT] add session id to audit messages
-
-In order to correlate audit records to an individual login add a session
-id.  This is incremented every time a user logs in and is included in
-almost all messages which currently output the auid.  The field is
-labeled ses=  or oses=
-
-Signed-off-by: Eric Paris <eparis@redhat.com>"|8|Eric Paris|eparis@redhat.com|2008-01-08 10:06:53-05:00|18000|Al Viro|viro@zeniv.linux.org.uk|2008-02-01 14:06:51-05:00|18000

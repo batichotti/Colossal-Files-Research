@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|12a441622b753684cc73d1c6f225e9ac53e0bf77|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] Remove ->pid field from scsi_cmnd
-
-The pid field is a duplicate of the serial_number field and has been
-scheduled for removal for a long time.  A few drivers were still using
-it, so just change them to use serial_number instead.
-
-Signed-off-by: Matthew Wilcox <willy@linux.intel.com>
-Signed-off-by: James Bottomley <James.Bottomley@SteelEye.com>"|13|Matthew Wilcox|matthew@wil.cx|2007-09-18 19:54:43-06:00|21600|James Bottomley|jejb@mulgrave.localdomain|2007-10-12 14:51:52-04:00|14400

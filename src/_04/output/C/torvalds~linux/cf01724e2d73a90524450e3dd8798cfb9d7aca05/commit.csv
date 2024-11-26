@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cf01724e2d73a90524450e3dd8798cfb9d7aca05|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mm: page_alloc: make compound_page_dtors static
-
-It's only used inside page_alloc.c now. So make it static and remove the
-declaration in mm.h.
-
-Link: https://lkml.kernel.org/r/20230617034622.1235913-1-linmiaohe@huawei.com
-Signed-off-by: Miaohe Lin <linmiaohe@huawei.com>
-Signed-off-by: Andrew Morton <akpm@linux-foundation.org>"|2|Miaohe Lin|linmiaohe@huawei.com|2023-06-17 11:46:22+08:00|-28800|Andrew Morton|akpm@linux-foundation.org|2023-06-19 16:19:37-07:00|25200

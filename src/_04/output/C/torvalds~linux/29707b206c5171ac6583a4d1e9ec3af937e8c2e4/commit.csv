@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|29707b206c5171ac6583a4d1e9ec3af937e8c2e4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"security: replace strict_strto*() with kstrto*()
-
-The usage of strict_strto*() is not preferred, because
-strict_strto*() is obsolete. Thus, kstrto*() should be
-used.
-
-Signed-off-by: Jingoo Han <jg1.han@samsung.com>
-Signed-off-by: James Morris <james.l.morris@oracle.com>"|7|Jingoo Han|jg1.han@samsung.com|2014-02-05 15:13:14+09:00|-32400|James Morris|james.l.morris@oracle.com|2014-02-06 19:11:04+11:00|-39600

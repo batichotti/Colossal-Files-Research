@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1bb60376cda108306818365b186450f154ede5f2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cxgb4 : Fix build failure in cxgb4 when ipv6 is disabled/not in-built
-
-cxgb4 ipv6 does not guard against ipv6 being disabled, or the standard
-ipv6 module vs inbuilt tri-state issue. This was fixed for cxgb4i & iw_cxgb4
-but missed for cxgb4.
-
-Signed-off-by: Anish Bhatt <anish@chelsio.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Anish Bhatt|anish@chelsio.com|2014-10-14 20:07:22-07:00|25200|David S. Miller|davem@davemloft.net|2014-10-15 00:28:58-04:00|14400

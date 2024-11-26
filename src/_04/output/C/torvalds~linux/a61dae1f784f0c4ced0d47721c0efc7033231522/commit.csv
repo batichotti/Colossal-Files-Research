@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a61dae1f784f0c4ced0d47721c0efc7033231522|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: update new sta's rx timestamp
-
-This patch fixes needless probe request caused by zero value in
-sta->last_rx inside ieee80211_associated flow
-
-Signed-off-by: Ron Rindjunsky <ron.rindjunsky@intel.com>
-Signed-off-by: Tomas Winkler <tomas.winkler@intel.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|1|Ron Rindjunsky|ron.rindjunsky@intel.com|2008-08-10 00:54:34+03:00|-10800|John W. Linville|linville@tuxdriver.com|2008-08-18 11:05:13-04:00|14400

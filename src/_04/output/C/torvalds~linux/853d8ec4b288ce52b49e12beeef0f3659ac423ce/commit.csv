@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|853d8ec4b288ce52b49e12beeef0f3659ac423ce|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: need_resched not needed with cond_resched
-
-Cleanup, no special reason to do
-
-if (need_resched())
-        cond_resched();
-
-Signed-off-by: David Sterba <dsterba@suse.cz>"|1|David Sterba|dsterba@suse.cz|2015-01-08 15:15:19+01:00|-3600|David Sterba|dsterba@suse.cz|2015-03-03 17:23:55+01:00|-3600

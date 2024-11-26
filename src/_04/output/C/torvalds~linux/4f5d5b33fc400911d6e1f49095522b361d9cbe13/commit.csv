@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4f5d5b33fc400911d6e1f49095522b361d9cbe13|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cifs: double lock in cifs_reconnect_tcon()
-
-This lock was supposed to be an unlock.
-
-Fixes: 6cc041e90c17 (""cifs: avoid races in parallel reconnects in smb1"")
-Signed-off-by: Dan Carpenter <error27@gmail.com>
-Reviewed-by: Paulo Alcantara (SUSE) <pc@manguebit.com>
-Signed-off-by: Steve French <stfrench@microsoft.com>"|1|Dan Carpenter|error27@gmail.com|2023-04-06 11:55:47+03:00|-10800|Steve French|stfrench@microsoft.com|2023-04-06 22:45:41-05:00|18000

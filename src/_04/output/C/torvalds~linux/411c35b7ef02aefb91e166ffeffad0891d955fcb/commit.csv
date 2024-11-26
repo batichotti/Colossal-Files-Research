@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|411c35b7ef02aefb91e166ffeffad0891d955fcb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: fill in run->mmio details in (read|write)_emulated function
-
-Fill in run->mmio details in (read|write)_emulated function just like
-pio does. There is no point in filling only vcpu fields there just to
-copy them into vcpu->run a little bit later.
-
-Signed-off-by: Gleb Natapov <gleb@redhat.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Gleb Natapov|gleb@redhat.com|2010-04-28 19:15:34+03:00|-10800|Avi Kivity|avi@redhat.com|2010-08-01 10:35:33+03:00|-10800

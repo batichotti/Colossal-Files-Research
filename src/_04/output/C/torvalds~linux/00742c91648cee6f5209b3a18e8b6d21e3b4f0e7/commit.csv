@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|00742c91648cee6f5209b3a18e8b6d21e3b4f0e7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"advansys: use spin_lock_irqsave() in interrupt handler
-
-We should be using spin_lock_irqsave() when within the
-interrupt handler.
-
-Signed-off-by: Hannes Reinecke <hare@suse.de>
-Signed-off-by: James Bottomley <JBottomley@Odin.com>"|1|Hannes Reinecke|hare@suse.de|2015-04-24 13:18:40+02:00|-7200|James Bottomley|JBottomley@Odin.com|2015-05-25 23:00:13-07:00|25200

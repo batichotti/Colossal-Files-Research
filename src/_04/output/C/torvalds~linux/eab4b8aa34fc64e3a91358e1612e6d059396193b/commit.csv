@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|eab4b8aa34fc64e3a91358e1612e6d059396193b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: Optimize vmx_get_cpl()
-
-Instead of calling vmx_get_segment() (which reads a whole bunch of
-vmcs fields), read only the cs selector which contains the cpl.
-
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Avi Kivity|avi@redhat.com|2009-08-04 15:02:54+03:00|-10800|Avi Kivity|avi@redhat.com|2009-09-10 08:33:21+03:00|-10800

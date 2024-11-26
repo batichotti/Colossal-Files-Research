@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7b40b695b4d06666c4665f6b5718085f2c6a5da2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: get rid of BTRFS_INODE_HAS_ORPHAN_ITEM
-
-Now that we don't add orphan items for truncate, there can't be races on
-adding or deleting an orphan item, so this bit is unnecessary.
-
-Reviewed-by: Nikolay Borisov <nborisov@suse.com>
-Signed-off-by: Omar Sandoval <osandov@fb.com>
-Signed-off-by: David Sterba <dsterba@suse.com>"|2|Omar Sandoval|osandov@fb.com|2018-05-11 13:13:33-07:00|25200|David Sterba|dsterba@suse.com|2018-05-28 18:23:48+02:00|-7200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6903074c367cfb13166c2974d6a886fdc7a00d21|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: MMU: audit: check whether have unsync sps after root sync
-
-After root synced, all unsync sps are synced, this patch add a check to make
-sure it's no unsync sps in VCPU's page table
-
-Signed-off-by: Xiao Guangrong <xiaoguangrong@cn.fujitsu.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|2|Xiao Guangrong|xiaoguangrong@cn.fujitsu.com|2010-09-27 18:09:29+08:00|-28800|Avi Kivity|avi@redhat.com|2010-10-24 10:53:14+02:00|-7200

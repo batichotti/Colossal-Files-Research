@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bd966839bdf9165ee0aefa57132e87e9caf55982|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"s390/qeth: handle error when updating TX queue count
-
-netif_set_real_num_tx_queues() can return an error, deal with it.
-
-Fixes: 73dc2daf110f (""s390/qeth: add TX multiqueue support for OSA devices"")
-Signed-off-by: Julian Wiedmann <jwi@linux.ibm.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Julian Wiedmann|jwi@linux.ibm.com|2019-06-05 13:48:51+02:00|-7200|David S. Miller|davem@davemloft.net|2019-06-05 11:48:57-07:00|25200

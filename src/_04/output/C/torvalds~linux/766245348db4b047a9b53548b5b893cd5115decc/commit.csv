@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|766245348db4b047a9b53548b5b893cd5115decc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ALSA: hda - Use more distinct name for a unique volume in STAC/IDT
-
-When the line_out has only one DAC and it's unique (i.e. not shared
-by other outputs), assign a more reasonable and distinct mixer name
-such as ""Headphone"" or ""Speaker"".
-
-Signed-off-by: Takashi Iwai <tiwai@suse.de>"|1|Takashi Iwai|tiwai@suse.de|2008-12-19 10:09:47+01:00|-3600|Takashi Iwai|tiwai@suse.de|2008-12-19 15:09:38+01:00|-3600

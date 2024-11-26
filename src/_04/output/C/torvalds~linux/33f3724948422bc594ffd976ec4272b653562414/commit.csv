@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|33f3724948422bc594ffd976ec4272b653562414|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rtl8xxxu: Rename TX descriptor bits to map them to 32/40 byte descriptors
-
-With the size based naming of TX descriptors. Change the bit
-definition namings to indicate which descriptor format they match,
-rather than having a device name in the bit name.
-
-Signed-off-by: Jes Sorensen <Jes.Sorensen@redhat.com>
-Signed-off-by: Kalle Valo <kvalo@codeaurora.org>"|2|Jes Sorensen|Jes.Sorensen@redhat.com|2016-03-31 17:08:34-04:00|14400|Kalle Valo|kvalo@codeaurora.org|2016-04-07 19:41:13+03:00|-10800

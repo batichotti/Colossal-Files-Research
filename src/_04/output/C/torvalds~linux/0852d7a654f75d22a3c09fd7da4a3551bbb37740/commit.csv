@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0852d7a654f75d22a3c09fd7da4a3551bbb37740|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ALSA: hda - Detect multiple digital-out pins
-
-Detect multiple digital-out pins in snd_hda_parse_pin_defconfig().
-The dig_out_pin and dig_out_type fields become arrays.
-
-The codec parser still doesn't use this multiple pins detection, though.
-
-Signed-off-by: Takashi Iwai <tiwai@suse.de>"|6|Takashi Iwai|tiwai@suse.de|2009-02-11 11:35:15+01:00|-3600|Takashi Iwai|tiwai@suse.de|2009-02-12 00:04:19+01:00|-3600

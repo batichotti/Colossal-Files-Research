@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e4fc5fbfc9e285356be7e5208bb1a2fa377b2656|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: avoid to return incorrect errno of read_normal_summaries
-
-We should return error number of read_normal_summaries instead of -EINVAL when
-read_normal_summaries failed.
-
-Signed-off-by: Chao Yu <chao2.yu@samsung.com>
-Signed-off-by: Jaegeuk Kim <jaegeuk.kim@samsung.com>"|1|Chao Yu|chao2.yu@samsung.com|2014-03-17 16:36:24+08:00|-28800|Jaegeuk Kim|jaegeuk.kim@samsung.com|2014-03-18 09:29:53+09:00|-32400

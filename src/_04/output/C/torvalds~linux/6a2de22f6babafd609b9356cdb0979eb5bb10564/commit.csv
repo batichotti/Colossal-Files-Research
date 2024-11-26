@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6a2de22f6babafd609b9356cdb0979eb5bb10564|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: don't access the bio directly in the direct I/O code
-
-Just use bio_for_each_segment_all to iterate over all segments.
-
-Signed-off-by: Christoph Hellwig <hch@lst.de>
-Reviewed-by: Omar Sandoval <osandov@fb.com>
-Signed-off-by: David Sterba <dsterba@suse.com>"|1|Christoph Hellwig|hch@lst.de|2016-11-25 09:07:48+01:00|-3600|David Sterba|dsterba@suse.com|2016-11-30 13:45:20+01:00|-3600

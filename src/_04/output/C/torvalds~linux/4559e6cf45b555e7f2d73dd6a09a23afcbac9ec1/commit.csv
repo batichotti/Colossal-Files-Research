@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4559e6cf45b555e7f2d73dd6a09a23afcbac9ec1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: Remove unnecessary initialization in kvm_vm_ioctl_set_msr_filter()
-
-Do not initialize the value of `r`, as it will be overwritten.
-
-Signed-off-by: Michal Luczaj <mhal@rbox.co>
-Link: https://lore.kernel.org/r/20230107001256.2365304-6-mhal@rbox.co
-Signed-off-by: Sean Christopherson <seanjc@google.com>"|1|Michal Luczaj|mhal@rbox.co|2023-01-07 01:12:55+01:00|-3600|Sean Christopherson|seanjc@google.com|2023-02-03 15:30:45-08:00|28800

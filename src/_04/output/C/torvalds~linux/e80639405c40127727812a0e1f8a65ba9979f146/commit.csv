@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e80639405c40127727812a0e1f8a65ba9979f146|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"powerpc/mm: Update tlbiel loop on POWER10
-
-With POWER10, single tlbiel instruction invalidates all the congruence
-class of the TLB and hence we need to issue only one tlbiel with SET=0.
-
-Signed-off-by: Aneesh Kumar K.V <aneesh.kumar@linux.ibm.com>
-Signed-off-by: Michael Ellerman <mpe@ellerman.id.au>
-Link: https://lore.kernel.org/r/20201007053305.232879-1-aneesh.kumar@linux.ibm.com"|3|Aneesh Kumar K.V|aneesh.kumar@linux.ibm.com|2020-10-07 11:03:05+05:30|-19800|Michael Ellerman|mpe@ellerman.id.au|2020-11-19 14:50:15+11:00|-39600

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f6337c771126420c348b702e012262cfb5f0d56e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Fix drop of packets with invalid req_seq/tx_seq
-
-We shall not use an unsigned var since we are expecting negatives value
-there. Using unsigned causes ERTM connection to close due to invalid
-ReqSeq numbers.
-
-Signed-off-by: Gustavo F. Padovan <padovan@profusion.mobi>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|1|Gustavo F. Padovan|padovan@profusion.mobi|2010-05-10 18:32:04-03:00|10800|Marcel Holtmann|marcel@holtmann.org|2010-07-21 10:39:04-07:00|25200

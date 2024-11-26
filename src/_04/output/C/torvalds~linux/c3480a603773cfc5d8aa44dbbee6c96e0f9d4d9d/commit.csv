@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c3480a603773cfc5d8aa44dbbee6c96e0f9d4d9d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bnxt_en: Add cache line size setting to optimize performance.
-
-The chip supports 64-byte and 128-byte cache line size for more optimal
-DMA performance when matched to the CPU cache line size.  The default is 64.
-If the system is using 128-byte cache line size, set it to 128.
-
-Signed-off-by: Michael Chan <michael.chan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Michael Chan|michael.chan@broadcom.com|2018-01-17 03:21:15-05:00|18000|David S. Miller|davem@davemloft.net|2018-01-17 14:48:27-05:00|18000

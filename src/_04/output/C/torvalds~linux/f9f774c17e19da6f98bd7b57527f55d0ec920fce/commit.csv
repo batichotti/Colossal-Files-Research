@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f9f774c17e19da6f98bd7b57527f55d0ec920fce|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wl12xx: Add mutex protection for interface list
-
-The interface list maintained in main.c is not mutex protected. This could
-cause issues, as the list is accessed from notifier chains.
-
-Signed-off-by: Juuso Oikarinen <juuso.oikarinen@nokia.com>
-Reviewed-by: Luciano Coelho <coelho@ti.com>
-Signed-off-by: Luciano Coelho <coelho@ti.com>"|1|Juuso Oikarinen|juuso.oikarinen@nokia.com|2011-03-21 10:43:36+02:00|-7200|Luciano Coelho|coelho@ti.com|2011-04-19 16:49:08+03:00|-10800

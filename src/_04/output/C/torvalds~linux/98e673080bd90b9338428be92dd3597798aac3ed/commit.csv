@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|98e673080bd90b9338428be92dd3597798aac3ed|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mv88e6xxx: Combine mv88e6131 and mv88e612_61_65 drivers
-
-These drivers share a lot of code, so if we make them modular they
-should be built into the same module.  Therefore, link them together
-and merge their respective module init and exit functions.
-
-Signed-off-by: Ben Hutchings <ben@decadent.org.uk>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|5|Ben Hutchings|ben@decadent.org.uk|2011-11-25 14:36:19+00:00|0|David S. Miller|davem@davemloft.net|2011-11-26 14:48:15-05:00|18000

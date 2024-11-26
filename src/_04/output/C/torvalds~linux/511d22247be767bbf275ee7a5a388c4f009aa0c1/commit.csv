@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|511d22247be767bbf275ee7a5a388c4f009aa0c1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tg3: 64 bit stats on all arches
-
-Now core network is able to handle 64 bit netdevice stats on 32 bit
-arches, we can provide them for tg3, since hardware maintains 64 bit
-counters.
-
-Signed-off-by: Eric Dumazet <eric.dumazet@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Eric Dumazet|eric.dumazet@gmail.com|2010-07-07 20:44:24+00:00|0|David S. Miller|davem@davemloft.net|2010-07-08 23:12:28-07:00|25200

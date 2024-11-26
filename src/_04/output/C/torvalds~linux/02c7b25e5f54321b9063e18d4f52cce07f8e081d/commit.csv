@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|02c7b25e5f54321b9063e18d4f52cce07f8e081d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: build-in filter chain type
-
-One module per supported filter chain family type takes too much memory
-for very little code - too much modularization - place all chain filter
-definitions in one single file.
-
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|17|Pablo Neira Ayuso|pablo@netfilter.org|2018-03-27 11:53:07+02:00|-7200|Pablo Neira Ayuso|pablo@netfilter.org|2018-03-30 11:29:19+02:00|-7200

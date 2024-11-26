@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3327989a51f7d46d854c89bb6047dd68f843a7fd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"staging: brcm80211: Move #includes out of header
-
-Start the process of moving #includes out of headers and into individual C files.
-For now, this patch addresses the softmac side of the driver, fullmac still to
-be done.
-
-Signed-off-by: Brett Rudley <brudley@broadcom.com>
-Signed-off-by: Greg Kroah-Hartman <gregkh@suse.de>"|24|Brett Rudley|brudley@broadcom.com|2010-10-01 18:03:27-07:00|25200|Greg Kroah-Hartman|gregkh@suse.de|2010-10-05 09:26:36-07:00|25200

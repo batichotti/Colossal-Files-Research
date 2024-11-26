@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|46712644d6e72d8a66f20f51e260e1c3d1eddfeb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: dsa: mv88e6xxx: Fix unconditional irq freeing
-
-Trying to remove an IRQ domain that was not created results in an
-Opps. Add the necessary checks that the irqs were created before
-freeing them.
-
-Signed-off-by: Andrew Lunn <andrew@lunn.ch>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Andrew Lunn|andrew@lunn.ch|2016-11-20 20:14:15+01:00|-3600|David S. Miller|davem@davemloft.net|2016-11-20 21:16:13-05:00|18000

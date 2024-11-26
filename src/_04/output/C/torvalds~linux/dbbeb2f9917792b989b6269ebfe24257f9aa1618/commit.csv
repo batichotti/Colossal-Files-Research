@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|dbbeb2f9917792b989b6269ebfe24257f9aa1618|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SKBUFF]: Fix incorrect config #ifdef around skb_copy_secmark
-
-secmark doesn't depend on CONFIG_NET_SCHED.
-
-Signed-off-by: Patrick McHardy <kaber@trash.net>
-Acked-by: James Morris <jmorris@namei.org>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Patrick McHardy|kaber@trash.net|2007-06-23 22:58:34-07:00|25200|David S. Miller|davem@davemloft.net|2007-06-23 22:58:34-07:00|25200

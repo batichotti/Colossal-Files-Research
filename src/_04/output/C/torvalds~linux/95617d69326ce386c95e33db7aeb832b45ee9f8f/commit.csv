@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|95617d69326ce386c95e33db7aeb832b45ee9f8f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: cleanup, stop casting for extent_map->lookup everywhere
-
-Overloading extent_map->bdev to struct map_lookup * might have started out
-as a means to an end, but it's a pattern that's used all over the place
-now. Let's get rid of the casting and just add a union instead.
-
-Signed-off-by: Jeff Mahoney <jeffm@suse.com>
-Signed-off-by: David Sterba <dsterba@suse.com>"|6|Jeff Mahoney|jeffm@suse.com|2015-06-03 10:55:48-04:00|14400|David Sterba|dsterba@suse.com|2016-01-15 19:22:28+01:00|-3600

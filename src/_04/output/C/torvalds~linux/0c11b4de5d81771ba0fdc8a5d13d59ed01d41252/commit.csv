@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0c11b4de5d81771ba0fdc8a5d13d59ed01d41252|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"iwlwifi: A-MPDU Tx activation by load measures
-
-This patch gives a heuristic for activation of the A-MPDU Tx.
-As the rate scaling is rate aware, it now also measures estimated load, and
-sends A-MPDU activation after a threshold has been met.
-
-Signed-off-by: Ron Rindjunsky <ron.rindjunsky@intel.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|5|Ron Rindjunsky|ron.rindjunsky@intel.com|2008-01-28 14:07:26+02:00|-7200|John W. Linville|linville@tuxdriver.com|2008-02-29 15:19:19-05:00|18000

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e36cd4a2873c398ba188f16e4087cce7f00a1506|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd: don't allow setting ctime over v4
-
-Presumably this is left over from earlier drafts of v4, which listed
-TIME_METADATA as writeable.  It's read-only in rfc 3530, and shouldn't
-be modifiable anyway.
-
-Signed-off-by: J. Bruce Fields <bfields@citi.umich.edu>"|2|J. Bruce Fields|bfields@citi.umich.edu|2008-04-24 16:59:30-04:00|14400|J. Bruce Fields|bfields@citi.umich.edu|2008-04-25 13:00:11-04:00|14400

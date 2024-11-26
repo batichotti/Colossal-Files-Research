@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|dbe82e06138f3630027e2bc27a47c79f74693850|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[media] drx-j: fix whitespacing on pointer parmameters
-
-Patch generated with this script:
-
-for i in drivers/media/dvb-frontends/drx39xyj/*.[ch]; do perl -ne 's,(enum|struct|void|int|u32|u64|u16|u8|s8|s16|s32|s64)\s+(\S+)\s+\*[ ]+,\1 \2 *,g; print $_' <$i >a && mv a $i; done
-
-Acked-by: Devin Heitmueller <dheitmueller@kernellabs.com>
-Signed-off-by: Mauro Carvalho Chehab <m.chehab@samsung.com>"|2|Mauro Carvalho Chehab|m.chehab@samsung.com|2014-01-16 10:43:00-03:00|10800|Mauro Carvalho Chehab|m.chehab@samsung.com|2014-03-04 14:23:17-03:00|10800

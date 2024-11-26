@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2a1afb5ac8d580d2013c2ccc548b4f2689c5ad7a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Rename cmd_complete() to mgmt_cmd_complete()
-
-This patch renames the cmd_complete() function to mgmt_cmd_complete() in
-preparation of making it a generic helper for other modules to use too.
-
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|1|Johan Hedberg|johan.hedberg@intel.com|2015-03-06 21:08:54+02:00|-7200|Marcel Holtmann|marcel@holtmann.org|2015-03-06 20:15:21+01:00|-3600

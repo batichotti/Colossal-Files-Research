@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2d2fe3f9b60fd3cc9a19dcc3ae892a23825da07f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/radeon: drop radeon_ring_force_activity
-
-The reason for the false positives was fixed quite some time ago and since
-most engines can still execute NOPs while being locked up it leads to false
-negatives.
-
-Signed-off-by: Christian König <christian.koenig@amd.com>
-Reviewed-by: Alex Deucher <alexander.deucher@amd.com>"|13|Christian König|christian.koenig@amd.com|2014-02-18 12:37:50+01:00|-3600|Christian König|christian.koenig@amd.com|2014-02-18 17:50:00+01:00|-3600

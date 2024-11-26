@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|389125844352c784abf8c186589343466d03cd6a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md/raid5: reallocate page array after setting new stripe_size
-
-When try to resize stripe_size, we also need to free old
-shared page array and allocate new.
-
-Signed-off-by: Yufen Yu <yuyufen@huawei.com>
-Signed-off-by: Song Liu <songliubraving@fb.com>"|1|Yufen Yu|yuyufen@huawei.com|2020-08-20 09:22:14-04:00|14400|Song Liu|songliubraving@fb.com|2020-09-24 16:44:45-07:00|25200

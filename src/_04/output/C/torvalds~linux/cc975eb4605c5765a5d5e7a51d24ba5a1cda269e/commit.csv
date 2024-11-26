@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cc975eb4605c5765a5d5e7a51d24ba5a1cda269e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: get the device in write mode when deleting it
-
-When we're deleting the device we should get it in write mode since
-we're going to re-write the super block magic on that device. And it
-should fail if the device is read-only.
-
-Signed-off-by: Lukas Czerner <lczerner@redhat.com>"|1|Lukas Czerner|lczerner@redhat.com|2012-12-07 10:09:19+00:00|0|Josef Bacik|josef@toxicpanda.com|2013-01-14 13:52:31-05:00|18000

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e2905b29122173b72b612c962b138e3fa07476b8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"workqueue: unexport work_cpu()
-
-This function no longer has any external users.  Unexport it.  It will
-be removed later on.
-
-Signed-off-by: Tejun Heo <tj@kernel.org>
-Reviewed-by: Lai Jiangshan <laijs@cn.fujitsu.com>"|2|Tejun Heo|tj@kernel.org|2013-01-24 11:01:32-08:00|28800|Tejun Heo|tj@kernel.org|2013-01-24 11:01:32-08:00|28800

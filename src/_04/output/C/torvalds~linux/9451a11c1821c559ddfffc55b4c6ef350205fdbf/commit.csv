@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9451a11c1821c559ddfffc55b4c6ef350205fdbf|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8152: clear the flag of SCHEDULE_TASKLET in tasklet
-
-Clear the flag of SCHEDULE_TASKLET in bottom_half() to avoid
-re-schedule the tasklet again by workqueue.
-
-Signed-off-by: Hayes Wang <hayeswang@realtek.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|hayeswang|hayeswang@realtek.com|2014-11-12 10:05:04+08:00|-28800|David S. Miller|davem@davemloft.net|2014-11-12 14:49:08-05:00|18000

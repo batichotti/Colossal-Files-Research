@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|96a2b48e5e1df6698f504969f0f51dc34e52ff3d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cgroup: Remove unnecessary list_empty()
-
-The root hasn't been removed from the root_list, so the list can't be NULL.
-However, if it had been removed, attempting to destroy it once more is not
-possible. Let's replace this with WARN_ON_ONCE() for clarity.
-
-Signed-off-by: Yafang Shao <laoar.shao@gmail.com>
-Signed-off-by: Tejun Heo <tj@kernel.org>"|1|Yafang Shao|laoar.shao@gmail.com|2023-10-29 06:14:28+00:00|0|Tejun Heo|tj@kernel.org|2023-11-09 13:25:46-10:00|36000

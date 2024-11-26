@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2b0cce0e190f8f0b37fe8102ae657f5d9eb0976d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tracing: Add ftrace_hash_key() helper function
-
-Replace the couple of use cases that has small logic to produce the ftrace
-function key id with a helper function. No need for duplicate code.
-
-Acked-by: Namhyung Kim <namhyung@kernel.org>
-Signed-off-by: Steven Rostedt (VMware) <rostedt@goodmis.org>"|1|Steven Rostedt (VMware)|rostedt@goodmis.org|2017-02-01 12:19:33-05:00|18000|Steven Rostedt (VMware)|rostedt@goodmis.org|2017-02-03 10:58:05-05:00|18000

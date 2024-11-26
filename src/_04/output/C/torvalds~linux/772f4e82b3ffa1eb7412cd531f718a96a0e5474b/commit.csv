@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|772f4e82b3ffa1eb7412cd531f718a96a0e5474b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: fix double-free on set expression from the error path
-
-After copying the expression to the set element extension, release the
-expression and reset the pointer to avoid a double-free from the error
-path.
-
-Fixes: 409444522976 (""netfilter: nf_tables: add elements with stateful expressions"")
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|1|Pablo Neira Ayuso|pablo@netfilter.org|2020-03-18 01:14:58+01:00|-3600|Pablo Neira Ayuso|pablo@netfilter.org|2020-03-19 11:37:31+01:00|-3600

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|14e7085d8460bf45e7145524a13802f1f4f9d81f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rbd: drop rbd_dev parameter in snap functions
-
-Both rbd_register_snap_dev() and __rbd_remove_snap_dev() have
-rbd_dev parameters that are unused.  Remove them.
-
-Signed-off-by: Alex Elder <elder@inktank.com>
-Reviewed-by: Josh Durgin <josh.durgin@inktank.com>"|1|Alex Elder|elder@inktank.com|2012-07-19 09:09:27-05:00|18000|Sage Weil|sage@inktank.com|2012-07-30 18:15:51-07:00|25200

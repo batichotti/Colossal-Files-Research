@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|24c0df82ef7919e4d10cf2e4e65d368eb2e8ea21|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: fix chain filter in nf_tables_dump_rules()
-
-ctx->chain may be null now that we have very large object names,
-so we cannot check for ctx->chain[0] here.
-
-Fixes: b7263e071aba7 (""netfilter: nf_tables: Allow table names of up to 255 chars"")
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>
-Acked-by: Phil Sutter <phil@nwl.cc>"|1|Pablo Neira Ayuso|pablo@netfilter.org|2017-12-19 12:01:21+01:00|-3600|Pablo Neira Ayuso|pablo@netfilter.org|2017-12-21 00:15:11+01:00|-3600

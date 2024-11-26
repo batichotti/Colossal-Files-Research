@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f26f995122f4c16c3a863aacbe85043135976632|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sctp: factor out sctp_connect_new_asoc
-
-In this function factored out from sctp_sendmsg_new_asoc() and
-__sctp_connect(), it creates the asoc and adds a peer with the
-1st addr.
-
-Signed-off-by: Xin Long <lucien.xin@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Xin Long|lucien.xin@gmail.com|2019-07-30 20:38:22+08:00|-28800|David S. Miller|davem@davemloft.net|2019-07-30 14:18:14-07:00|25200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1fdb936101637c91819efea47e921bb592e07e34|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tcp: sack lost marking fixes
-
-When only fast rexmit should be done, tcp_mark_head_lost marks
-L too far. Also, sacked_upto below 1 is perfectly valid number,
-the packets == 0 then needs to be trapped elsewhere.
-
-Signed-off-by: Ilpo Järvinen <ilpo.jarvinen@helsinki.fi>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Ilpo Järvinen|ilpo.jarvinen@helsinki.fi|2010-10-14 01:42:30+00:00|0|David S. Miller|davem@davemloft.net|2010-10-17 13:46:33-07:00|25200

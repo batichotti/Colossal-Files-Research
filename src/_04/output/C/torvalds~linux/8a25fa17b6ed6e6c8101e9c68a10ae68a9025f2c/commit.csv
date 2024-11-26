@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8a25fa17b6ed6e6c8101e9c68a10ae68a9025f2c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: megaraid_sas: Fix goto labels in error handling
-
-During init, if pci_alloc_irq_vectors() fails, the driver has not yet setup
-the IRQs. Fix the goto labels and error handling for this case.
-
-Signed-off-by: Shivasharan S <shivasharan.srikanteshwara@broadcom.com>
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|1|Shivasharan S|shivasharan.srikanteshwara@broadcom.com|2018-10-16 23:37:44-07:00|25200|Martin K. Petersen|martin.petersen@oracle.com|2018-11-06 20:33:56-05:00|18000

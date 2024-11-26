@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a2724e2559a3c41ac6182da6e2446d3abf0720a5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[BNX2]: More 5706S link down workaround.
-
-The previous patches to workaround the 5706S on an HP blade were not
-sufficient.  The link state still does not change properly in some
-cases.  This patch adds polling to make it completely reliable.
-
-Signed-off-by: Michael Chan <mchan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Michael Chan|mchan@broadcom.com|2008-02-23 19:47:44-08:00|28800|David S. Miller|davem@davemloft.net|2008-02-23 19:47:44-08:00|28800

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c677f7601fa672b4835d0ae3422a761e5e2ab27a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[media] drx-j: remove the unused tuner_i2c_write_read() function
-
-This function is not static. Also, it is not used anywhere.
-So, drop it.
-
-Acked-by: Devin Heitmueller <dheitmueller@kernellabs.com>
-Signed-off-by: Mauro Carvalho Chehab <m.chehab@samsung.com>"|1|Mauro Carvalho Chehab|m.chehab@samsung.com|2014-01-16 11:32:04-03:00|10800|Mauro Carvalho Chehab|m.chehab@samsung.com|2014-03-04 14:24:44-03:00|10800

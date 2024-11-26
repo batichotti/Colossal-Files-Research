@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4d9264615b98fe8015eca7d84a9862b1489c69d4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915/dp: remove redundant is_pch_edp checks
-
-If is_edp is true, is_pch_edp will always be true.  So limit the calls
-to the latter function to places where the distinction actually matters.
-
-Signed-off-by: Jesse Barnes <jbarnes@virtuousgeek.org>
-Signed-off-by: Chris Wilson <chris@chris-wilson.co.uk>"|1|Jesse Barnes|jbarnes@virtuousgeek.org|2010-10-07 16:01:07-07:00|25200|Chris Wilson|chris@chris-wilson.co.uk|2010-10-08 09:20:04+01:00|-3600

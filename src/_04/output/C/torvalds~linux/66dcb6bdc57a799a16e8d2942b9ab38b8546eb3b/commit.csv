@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|66dcb6bdc57a799a16e8d2942b9ab38b8546eb3b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: A-MPDU Rx remove stop_rx_ba_session warning print
-
-This patch removes a warning print from ieee80211_sta_stop_rx_ba_session
-in case the tid is inactive when interface goes down.
-
-Signed-off-by: Ron Rindjunsky <ron.rindjunsky@intel.com>
-Acked-by: Johannes Berg <johannes@sipsolutions.net>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|1|Ron Rindjunsky|ron.rindjunsky@intel.com|2008-01-13 18:25:43+02:00|-7200|David S. Miller|davem@davemloft.net|2008-01-28 15:10:10-08:00|28800

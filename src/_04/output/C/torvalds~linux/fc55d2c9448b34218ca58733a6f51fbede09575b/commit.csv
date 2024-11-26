@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fc55d2c9448b34218ca58733a6f51fbede09575b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ceph: wake up 'safe' waiters when unregistering request
-
-We also need to wake up 'safe' waiters if error occurs or request
-aborted. Otherwise sync(2)/fsync(2) may hang forever.
-
-Signed-off-by: Yan, Zheng <zheng.z.yan@intel.com>
-Signed-off-by: Sage Weil <sage@inktank.com>"|1|Yan, Zheng|zheng.z.yan@intel.com|2013-10-31 09:10:47+08:00|-28800|Sage Weil|sage@inktank.com|2013-11-23 11:01:05-08:00|28800

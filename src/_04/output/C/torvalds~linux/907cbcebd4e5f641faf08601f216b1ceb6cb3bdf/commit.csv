@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|907cbcebd4e5f641faf08601f216b1ceb6cb3bdf|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: optimize how we account for space in truncate
-
-Currently we're starting and stopping a transaction for no real reason, so kill
-that and just reserve enough space as if we can truncate all in one transaction.
-Also use btrfs_block_rsv_check() for our reserve to minimize the amount of space
-we may have to allocate for our slack space.  Thanks,
-
-Signed-off-by: Josef Bacik <josef@redhat.com>"|1|Josef Bacik|josef@redhat.com|2011-08-08 13:46:15-04:00|14400|Josef Bacik|josef@redhat.com|2011-10-19 15:12:35-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|929d1cfaa6926ccee28d8d4220e0b4e2defd9cd1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: MMU: pass arbitrary CR0/CR4/EFER to kvm_init_shadow_mmu
-
-This allows fetching the registers from the hsave area when setting
-up the NPT shadow MMU, and is needed for KVM_SET_NESTED_STATE (which
-runs long after the CR0, CR4 and EFER values in vcpu have been switched
-to hold L2 guest state).
-
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|3|Paolo Bonzini|pbonzini@redhat.com|2020-05-19 06:18:31-04:00|14400|Paolo Bonzini|pbonzini@redhat.com|2020-06-01 04:26:03-04:00|14400

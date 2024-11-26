@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|33ca237f80555cde41c17682991a2b58d2f14da5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"OMAPDSS: check the return value of dss_mgr_enable()
-
-Now that dss_mgr_enable returns an error value, check it in all the
-places dss_mgr_enable is used, and bail out properly.
-
-Signed-off-by: Tomi Valkeinen <tomi.valkeinen@ti.com>"|5|Tomi Valkeinen|tomi.valkeinen@ti.com|2011-11-21 13:42:58+02:00|-7200|Tomi Valkeinen|tomi.valkeinen@ti.com|2011-12-02 08:54:54+02:00|-7200

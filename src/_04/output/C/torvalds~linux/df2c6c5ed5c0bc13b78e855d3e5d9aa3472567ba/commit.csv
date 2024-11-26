@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|df2c6c5ed5c0bc13b78e855d3e5d9aa3472567ba|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: mgmt: Fix Removing discoverable timeout in set_connectable
-
-When switching connectable mode off any pending discoverable timeout
-must also be disabled to avoid duplicate write_scan_enable commands.
-
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>
-Acked-by: Marcel Holtmann <marcel@holtmann.org>"|1|Johan Hedberg|johan.hedberg@intel.com|2012-02-21 19:15:49+02:00|-7200|Johan Hedberg|johan.hedberg@intel.com|2012-02-21 20:04:39+02:00|-7200

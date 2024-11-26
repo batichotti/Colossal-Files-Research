@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a74bdf4661441d79a700f7ab3fc6d225ea2cf409|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] qla2xxx: do not reset dev_loss_tmo in slave callout
-
-This fixes a bug where the driver was resetting the
-rport dev_loss_tmo when devices were added by adding
-support for the get_host_def_dev_loss_tmo callout.
-
-Signed-off-by: Mike Christie <michaelc@cs.wisc.edu>
-Signed-off-by: James Bottomley <James.Bottomley@suse.de>"|2|Mike Christie|michaelc@cs.wisc.edu|2010-08-06 03:02:38-05:00|18000|James Bottomley|James.Bottomley@suse.de|2010-09-05 13:45:25-03:00|10800

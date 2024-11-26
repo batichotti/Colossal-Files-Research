@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|68876920f442912c94f749bc337c888696cb9ed0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] lpfc: Replace lpfc_sli_issue_iocb_wait_high_priority
-
-Replace lpfc_sli_issue_iocb_wait_high_priority with lpfc_sli_issue_iocb_wait.
-
-Simplify code paths, as there really wasn't a ""priority""
-
-Signed-off-by: James Smart <James.Smart@emulex.com>
-Signed-off-by: James Bottomley <James.Bottomley@SteelEye.com>"|4|James.Smart@Emulex.Com|James.Smart@Emulex.Com|2005-10-28 20:29:47-04:00|14400|James Bottomley|jejb@mulgrave.(none)|2005-10-29 10:29:09-05:00|18000

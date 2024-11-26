@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|574353496081bce251fdd82fbfb67ca9fd6e0fcf|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: nVMX: Fix up VM_ENTRY_IA32E_MODE control feature reporting
-
-Do not report that we can enter the guest in 64-bit mode if the host is
-32-bit only. This is not supported by KVM.
-
-Signed-off-by: Jan Kiszka <jan.kiszka@siemens.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Jan Kiszka|jan.kiszka@siemens.com|2013-08-06 10:39:56+02:00|-7200|Paolo Bonzini|pbonzini@redhat.com|2013-08-07 15:57:47+02:00|-7200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5944701df90d9577658e2354cc27c4ceaeca30fe|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: remove useless memset's in drivers get_stats64
-
-In dev_get_stats() the statistic structure storage has already been
-zeroed. Therefore network drivers do not need to call memset() again.
-
-Signed-off-by: Stephen Hemminger <sthemmin@microsoft.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|stephen hemminger|stephen@networkplumber.org|2017-01-06 19:12:53-08:00|28800|David S. Miller|davem@davemloft.net|2017-01-08 17:51:44-05:00|18000

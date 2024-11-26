@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bebc56d58dc780539777d2b1ca80df5566e2ad87|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"usb: move struct usb_device->children to struct usb_hub_port->child
-
-Move child's pointer to the struct usb_hub_port since the child device
-is directly associated with the port. Provide usb_get_hub_child_device()
-to get child's pointer.
-
-Signed-off-by: Lan Tianyu <tianyu.lan@intel.com>
-Signed-off-by: Greg Kroah-Hartman <gregkh@linuxfoundation.org>"|5|Lan Tianyu|tianyu.lan@intel.com|2012-05-11 16:08:30+08:00|-28800|Greg Kroah-Hartman|gregkh@linuxfoundation.org|2012-05-11 17:08:41-07:00|25200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|08603f2e1c31839510747899a5e0b9448b502ee0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ath10k: free wmi mgmt event skb when parsing fails
-
-When wmi mgmt event function fails to parse given skb,
-it should be freed on failure condition to avoid memory
-leaks. Found this during the code review.
-
-Signed-off-by: Raja Mani <rmani@qti.qualcomm.com>
-Signed-off-by: Kalle Valo <kvalo@qca.qualcomm.com>"|1|Raja Mani|rmani@qti.qualcomm.com|2015-06-01 14:53:33+05:30|-19800|Kalle Valo|kvalo@qca.qualcomm.com|2015-06-09 13:40:42+03:00|-10800

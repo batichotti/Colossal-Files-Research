@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|88041b79f864dcd7f95e1d594eba683244dd968a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[PATCH] netdev: don't allow register_netdev with blank name
-
-This bit of old backwards compatibility cruft can be removed in 2.6.20.
-If there is still an device that calls register_netdev()
-with a zero or blank name, it will get -EINVAL from register_netdevice().
-
-Signed-off-by: Stephen Hemminger <shemminger@osdl.org>
-Signed-off-by: Jeff Garzik <jeff@garzik.org>"|1|Stephen Hemminger|shemminger@osdl.org|2006-11-17 13:41:58-08:00|28800|Jeff Garzik|jeff@garzik.org|2006-12-02 00:16:37-05:00|18000

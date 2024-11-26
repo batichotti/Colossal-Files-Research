@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3a43ded081f862aa2f66a8f4f6630a45a9081e58|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tools: ynl: store ops in ordered dict to avoid random ordering
-
-When rendering code we should walk the ops in the order in which
-they are declared in the spec. This is both more intuitive and
-prevents code from jumping around when hashing in the dict changes.
-
-Signed-off-by: Jakub Kicinski <kuba@kernel.org>"|1|Jakub Kicinski|kuba@kernel.org|2023-01-25 16:02:35-08:00|28800|Jakub Kicinski|kuba@kernel.org|2023-01-26 16:32:41-08:00|28800

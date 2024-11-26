@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ac4b2901a112e4dcee1455c96d89ef83cc7aa545|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mm/page_alloc: update comments in __free_pages_ok()
-
-Add a comment to explain why we call get_pfnblock_migratetype() twice in
-__free_pages_ok().
-
-Link: https://lkml.kernel.org/r/20221201135045.31663-1-wonder_rock@126.com
-Signed-off-by: Deyan Wang <wonder_rock@126.com>
-Signed-off-by: Andrew Morton <akpm@linux-foundation.org>"|1|Deyan Wang|wonder_rock@126.com|2022-12-01 21:50:45+08:00|-28800|Andrew Morton|akpm@linux-foundation.org|2022-12-11 18:12:17-08:00|28800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|eafb1d64030abf5f885026c2074d120c13e0ca9d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mm, slub: don't call flush_all() from slab_debug_trace_open()
-
-slab_debug_trace_open() can only be called on caches with SLAB_STORE_USER flag
-and as with all slub debugging flags, such caches avoid cpu or percpu partial
-slabs altogether, so there's nothing to flush.
-
-Signed-off-by: Vlastimil Babka <vbabka@suse.cz>
-Acked-by: Christoph Lameter <cl@linux.com>"|1|Vlastimil Babka|vbabka@suse.cz|2021-05-28 14:32:10+02:00|-7200|Vlastimil Babka|vbabka@suse.cz|2021-09-03 23:56:49+02:00|-7200

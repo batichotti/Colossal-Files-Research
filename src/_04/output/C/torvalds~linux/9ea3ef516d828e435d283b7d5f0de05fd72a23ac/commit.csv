@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9ea3ef516d828e435d283b7d5f0de05fd72a23ac|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: remove unused code with #if 0
-
-fs_path_remove is not used at the moment due to a previous patch.
-Remove it for now (with #if 0) to avoid compile warnings.
-
-Signed-off-by: Alexander Block <ablock84@googlemail.com>"|1|Alexander Block|ablock84@googlemail.com|2012-07-28 11:08:09+02:00|-7200|Chris Mason|chris.mason@fusionio.com|2012-10-01 15:18:46-04:00|14400

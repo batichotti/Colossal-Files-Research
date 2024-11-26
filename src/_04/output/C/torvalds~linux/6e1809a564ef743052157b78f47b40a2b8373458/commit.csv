@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6e1809a564ef743052157b78f47b40a2b8373458|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ipv6: Remove rt6_check_dev
-
-rt6_check_dev is a simpler helper with only 1 caller. Fold the code
-into rt6_score_route.
-
-Signed-off-by: David Ahern <dsahern@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|David Ahern|dsahern@gmail.com|2019-04-09 14:41:11-07:00|25200|David S. Miller|davem@davemloft.net|2019-04-11 14:24:06-07:00|25200

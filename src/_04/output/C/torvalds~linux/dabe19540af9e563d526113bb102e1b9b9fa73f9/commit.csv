@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|dabe19540af9e563d526113bb102e1b9b9fa73f9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm: fix missing reference counting decrease
-
-In drm_dp_mst_allocate_vcpi, it returns true in two paths,
-but in one path, there is no reference couting decrease.
-
-Signed-off-by: Insu Yun <wuninsu@gmail.com>
-Cc: stable@vger.kernel.org
-Signed-off-by: Dave Airlie <airlied@redhat.com>"|1|Insu Yun|wuninsu@gmail.com|2016-02-01 11:08:29-05:00|18000|Dave Airlie|airlied@redhat.com|2016-02-05 15:23:48+10:00|-36000

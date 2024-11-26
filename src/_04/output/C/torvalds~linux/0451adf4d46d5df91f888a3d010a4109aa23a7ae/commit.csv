@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0451adf4d46d5df91f888a3d010a4109aa23a7ae|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tools/power turbostat: Read Package-cstates via perf
-
-Reading the counters via perf can be done in bulk with a single syscall,
-making the counter values more accurate with respect to one another by
-minimizing the time gap between individual counter reads.
-
-Signed-off-by: Patryk Wlazlyn <patryk.wlazlyn@linux.intel.com>
-Signed-off-by: Len Brown <len.brown@intel.com>"|1|Patryk Wlazlyn|patryk.wlazlyn@linux.intel.com|2024-05-08 15:00:14+02:00|-7200|Len Brown|len.brown@intel.com|2024-05-15 21:50:16-04:00|14400

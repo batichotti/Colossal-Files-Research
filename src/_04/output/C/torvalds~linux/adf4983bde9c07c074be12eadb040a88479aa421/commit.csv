@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|adf4983bde9c07c074be12eadb040a88479aa421|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: send discard commands in larger extent
-
-If there is a chance to make a huge sized discard command, we don't need
-to split it out, since each blkdev_issue_discard should wait one at a
-time.
-
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|1|Jaegeuk Kim|jaegeuk@kernel.org|2014-10-28 22:27:59-07:00|25200|Jaegeuk Kim|jaegeuk@kernel.org|2014-11-04 17:34:13-08:00|28800

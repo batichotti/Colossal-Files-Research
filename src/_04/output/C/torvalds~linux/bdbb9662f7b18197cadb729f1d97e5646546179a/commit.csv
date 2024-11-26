@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bdbb9662f7b18197cadb729f1d97e5646546179a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: qla4xxx: ql4_os.c: Cleaning up missing null-terminate in conjunction with strncpy
-
-Replacing strncpy with strlcpy to avoid strings that lacks null terminate.
-
-Signed-off-by: Rickard Strandqvist <rickard_strandqvist@spectrumdigital.se>
-Acked-By: Nilesh Javali <nilesh.javali@qlogic.com>
-Signed-off-by: Christoph Hellwig <hch@lst.de>"|1|Rickard Strandqvist|rickard_strandqvist@spectrumdigital.se|2014-07-26 16:49:32+02:00|-7200|Christoph Hellwig|hch@lst.de|2014-07-30 07:49:36-04:00|14400

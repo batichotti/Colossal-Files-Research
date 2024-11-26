@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2d86f1393c62f9c3bae5c1207408ed6559aa3cc4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ixgbe: Use the instance of net_device_stats from net_device.
-
-Since net_device has an instance of net_device_stats,
-we can remove the instance of this from the private adapter structure.
-
-Signed-off-by: Ajit Khaparde <ajitk@serverengines.com>
-Acked-by: Peter P Waskiewicz Jr <peter.p.waskiewicz.jr@intel.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|Ajit Khaparde|ajitkhaparde@gmail.com|2009-10-07 02:43:49+00:00|0|David S. Miller|davem@davemloft.net|2009-10-07 22:00:26-07:00|25200

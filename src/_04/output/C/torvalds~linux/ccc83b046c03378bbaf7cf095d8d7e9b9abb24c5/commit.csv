@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ccc83b046c03378bbaf7cf095d8d7e9b9abb24c5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wl1271: handle HW watchdog interrupt
-
-unmask the WL1271_ACX_INTR_WATCHDOG interrupt.
-when getting it - enqueue a recovery work and bail out.
-
-Signed-off-by: Eliad Peller <eliad@wizery.com>
-Reviewed-by: Luciano Coelho <luciano.coelho@nokia.com>
-Signed-off-by: Luciano Coelho <luciano.coelho@nokia.com>"|2|Eliad Peller|eliad@wizery.com|2010-10-27 14:09:57+02:00|-7200|John W. Linville|linville@tuxdriver.com|2010-11-15 13:25:24-05:00|18000

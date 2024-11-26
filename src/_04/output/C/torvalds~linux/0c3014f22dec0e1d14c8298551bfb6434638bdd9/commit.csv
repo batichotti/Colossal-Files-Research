@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0c3014f22dec0e1d14c8298551bfb6434638bdd9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"selinux: constify nf_hook_ops
-
-nf_hook_ops are not supposed to change at runtime. nf_register_net_hooks
-and nf_unregister_net_hooks are working with const nf_hook_ops.
-So mark the non-const nf_hook_ops structs as const.
-
-Signed-off-by: Arvind Yadav <arvind.yadav.cs@gmail.com>
-Signed-off-by: Paul Moore <paul@paul-moore.com>"|1|Arvind Yadav|arvind.yadav.cs@gmail.com|2017-08-26 16:17:35+05:30|-19800|Paul Moore|paul@paul-moore.com|2017-08-28 17:33:19-04:00|14400

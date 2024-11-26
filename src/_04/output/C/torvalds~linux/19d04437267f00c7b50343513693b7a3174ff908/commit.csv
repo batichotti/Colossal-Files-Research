@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|19d04437267f00c7b50343513693b7a3174ff908|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: fix emulator_task_switch() return value.
-
-emulator_task_switch() should return -1 for failure and 0 for success to
-the caller, just like x86_emulate_insn() does.
-
-Signed-off-by: Gleb Natapov <gleb@redhat.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|2|Gleb Natapov|gleb@redhat.com|2010-04-15 12:29:50+03:00|-10800|Avi Kivity|avi@redhat.com|2010-05-17 12:17:49+03:00|-10800

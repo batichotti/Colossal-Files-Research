@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6be8750b4cba8c37170f46b29841d112f1be749b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"LSM: lift parsing LSM options into the caller of ->sb_kern_mount()
-
-This paves the way for retaining the LSM options from a common filesystem
-mount context during a mount parameter parsing phase to be instituted prior
-to actual mount/reconfiguration actions.
-
-Reviewed-by: David Howells <dhowells@redhat.com>
-Signed-off-by: Al Viro <viro@zeniv.linux.org.uk>"|6|Al Viro|viro@zeniv.linux.org.uk|2018-12-01 22:42:44-05:00|18000|Al Viro|viro@zeniv.linux.org.uk|2018-12-21 11:45:30-05:00|18000

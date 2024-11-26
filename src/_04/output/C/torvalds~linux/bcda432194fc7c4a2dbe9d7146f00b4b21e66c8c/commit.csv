@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bcda432194fc7c4a2dbe9d7146f00b4b21e66c8c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"regulator: Fix the error handling if create_regulator fails
-
-In the case of create_regulator() fails, goto the error path immediately.
-It does not make sense to update rdev->open_count if create_regulator fails.
-
-Signed-off-by: Axel Lin <axel.lin@gmail.com>
-Signed-off-by: Mark Brown <broonie@opensource.wolfsonmicro.com>"|1|Axel Lin|axel.lin@gmail.com|2011-12-29 17:02:08+08:00|-28800|Mark Brown|broonie@opensource.wolfsonmicro.com|2011-12-29 10:40:19+00:00|0

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5b6c6be2d878bd7ec4dc2cb4e2a2da2779fe52ab|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: use SSR for warm node as well
-
-We have had node chains, but haven't used it so far due to stale node blocks.
-Now, we have crc|cp_ver in node footer and give random cp_ver at format time,
-we can start to use it again.
-
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|1|Jaegeuk Kim|jaegeuk@kernel.org|2017-02-14 19:32:51-08:00|28800|Jaegeuk Kim|jaegeuk@kernel.org|2017-02-23 11:23:22-08:00|28800

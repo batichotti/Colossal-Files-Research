@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|504634f60f463e73e7d58c6810a04437da942dba|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md: add blktrace event for writes to superblock
-
-superblock write is an expensive operation. With raid5-cache, it can be called
-regularly. Tracing to help performance debug.
-
-Signed-off-by: Shaohua Li <shli@fb.com>
-Cc: NeilBrown <neilb@suse.com>"|1|Shaohua Li|shli@fb.com|2016-11-18 09:44:08-08:00|28800|Shaohua Li|shli@fb.com|2016-11-18 09:47:57-08:00|28800

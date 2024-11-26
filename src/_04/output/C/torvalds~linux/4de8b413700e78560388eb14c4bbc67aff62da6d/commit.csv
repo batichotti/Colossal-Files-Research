@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4de8b413700e78560388eb14c4bbc67aff62da6d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bridge: remove oflags from setlink/dellink.
-
-Commit 02dba4388d16 (""bridge: fix setlink/dellink notifications"") removed usage of oflags in
-both rtnl_bridge_setlink() and rtnl_bridge_dellink() methods. This patch removes this variable as it is no
-longer needed.
-
-Signed-off-by: Rami Rosen <rami.rosen@intel.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Rosen, Rami|rami.rosen@intel.com|2015-01-19 11:45:04+02:00|-7200|David S. Miller|davem@davemloft.net|2015-01-19 01:22:48-05:00|18000

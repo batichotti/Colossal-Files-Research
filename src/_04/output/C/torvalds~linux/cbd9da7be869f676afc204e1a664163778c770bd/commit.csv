@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cbd9da7be869f676afc204e1a664163778c770bd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drivers/net/bnx2x: use ARRAY_SIZE macro in bnx2x_main.c
-
-Replace sizeof(bnx2x_parity_mask)/(sizeof(bnx2x_parity_mask[0]) with
-ARRAY_SIZE(bnx2x_parity_mask) in drivers/net/bnx2x/bnx2x_main.c
-
-Signed-off-by: Nikitas Angelinas <nikitasangelinas@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Nikitas Angelinas|nikitasangelinas@gmail.com|2010-09-08 11:20:37+00:00|0|David S. Miller|davem@davemloft.net|2010-09-09 21:56:01-07:00|25200

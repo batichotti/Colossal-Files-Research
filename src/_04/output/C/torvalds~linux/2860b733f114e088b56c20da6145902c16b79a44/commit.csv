@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2860b733f114e088b56c20da6145902c16b79a44|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[PATCH] remove CONFIG_EXT{2,3}_CHECK
-
-The CONFIG_EXT{2,3}_CHECK options where were never available, and all they
-did was to implement a subset of e2fsck in the kernel.
-
-Signed-off-by: Adrian Bunk <bunk@stusta.de>
-Signed-off-by: Andrew Morton <akpm@osdl.org>
-Signed-off-by: Linus Torvalds <torvalds@osdl.org>"|7|Adrian Bunk|bunk@stusta.de|2005-11-08 21:34:59-08:00|28800|Linus Torvalds|torvalds@g5.osdl.org|2005-11-09 07:55:58-08:00|28800

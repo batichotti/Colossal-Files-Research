@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e511d1ae16745baca1e6d807c5b963716e8bdd01|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"RDMA/cma: Fix accessing invalid private data for UD
-
-If a application is using AF_IB with a UD QP, but does not provide any
-private data, we will end up accessing invalid memory.  Check for this
-case and handle it appropriately.
-
-Signed-off-by: Sean Hefty <sean.hefty@intel.com>
-Signed-off-by: Roland Dreier <roland@purestorage.com>"|1|Sean Hefty|sean.hefty@intel.com|2013-07-24 15:06:08-07:00|25200|Roland Dreier|roland@purestorage.com|2013-07-31 00:50:40-07:00|25200

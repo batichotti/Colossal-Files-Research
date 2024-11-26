@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|49d5b8ef20d091d71a7fe019d71d0b2dd73a5b99|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ipv6: Handle all fib6_nh in a nexthop in rt6_do_redirect
-
-Use nexthop_for_each_fib6_nh and fib6_nh_find_match to find the
-fib6_nh in a nexthop that correlates to the device and gateway
-in the rt6_info.
-
-Signed-off-by: David Ahern <dsahern@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|David Ahern|dsahern@gmail.com|2019-06-08 14:53:30-07:00|25200|David S. Miller|davem@davemloft.net|2019-06-10 10:44:56-07:00|25200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|aca06a83071e4e4c9150751db7ea6a46240734fc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86 emulator: cleanup grp3 return value
-
-When x86_emulate_insn() does not know how to emulate instruction it
-exits via cannot_emulate label in all cases except when emulating
-grp3. Fix that.
-
-Signed-off-by: Gleb Natapov <gleb@redhat.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|1|Gleb Natapov|gleb@redhat.com|2010-03-18 15:20:15+02:00|-7200|Avi Kivity|avi@redhat.com|2010-05-17 12:16:12+03:00|-10800

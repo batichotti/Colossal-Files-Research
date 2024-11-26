@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c07d1004c55cd081aae9334227eabc1588179a65|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: drop exclusive_bits from set_extent_bit
-
-This is only ever set if we have EXTENT_LOCKED set, so simply push this
-into the function itself and remove the function argument.
-
-Signed-off-by: Josef Bacik <josef@toxicpanda.com>
-Reviewed-by: David Sterba <dsterba@suse.com>
-Signed-off-by: David Sterba <dsterba@suse.com>"|3|Josef Bacik|josef@toxicpanda.com|2022-09-09 17:53:39-04:00|14400|David Sterba|dsterba@suse.com|2022-09-26 12:28:04+02:00|-7200

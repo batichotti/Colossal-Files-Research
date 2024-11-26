@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|27d036e33237e49801780eb703ea38dad5449e12|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mm: Remove return value of zap_vma_ptes()
-
-All callers of zap_vma_ptes() are not interested in the return value of
-that function, so let's simplify its interface and drop the return
-value.
-
-Signed-off-by: Leon Romanovsky <leonro@mellanox.com>
-Signed-off-by: Doug Ledford <dledford@redhat.com>"|2|Leon Romanovsky|leonro@mellanox.com|2018-05-29 15:14:07+03:00|-10800|Doug Ledford|dledford@redhat.com|2018-06-01 11:20:43-04:00|14400

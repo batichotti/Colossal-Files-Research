@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8b59d19e749b8cb454b7912396c2a6a1b91b9d30|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"dsa: mv88e6xxx: Don't poll forced interfaces for state changes
-
-When polling for link status, don't consider ports which have a forced
-link. Such ports don't monitor their phy or may not even have a phy.
-
-Signed-off-by: Andrew Lunn <andrew@lunn.ch>
-Acked-by: Florian Fainelli <f.fainelli@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Andrew Lunn|andrew@lunn.ch|2015-08-31 15:56:52+02:00|-7200|David S. Miller|davem@davemloft.net|2015-08-31 14:48:02-07:00|25200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8adc9240f98a816f7e9b3d93b9446a790110e062|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cnic: Prevent ""scheduling while atomic"" when calling ->cnic_init()
-
-cnic_dev_list is protected by rtnl_lock and cnic_dev_lock spin_lock during
-modifications.  When looping on cnic_dev_list and calling ->cnic_init(),
-we should just hold rtnl_lock since ->cnic_init() may sleep.
-
-Signed-off-by: Michael Chan <mchan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Michael Chan|mchan@broadcom.com|2010-12-23 07:42:57+00:00|0|David S. Miller|davem@davemloft.net|2010-12-23 11:44:28-08:00|28800

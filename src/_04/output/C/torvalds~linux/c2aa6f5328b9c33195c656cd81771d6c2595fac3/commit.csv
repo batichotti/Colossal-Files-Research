@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c2aa6f5328b9c33195c656cd81771d6c2595fac3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"maple_tree: drop mas_{rev_}alloc() and mas_fill_gap()
-
-mas_{rev_}alloc() and mas_fill_gap() are no longer used, delete them.
-
-Link: https://lkml.kernel.org/r/20230524031247.65949-3-zhangpeng.00@bytedance.com
-Signed-off-by: Peng Zhang <zhangpeng.00@bytedance.com>
-Reviewed-by: Liam R. Howlett <Liam.Howlett@oracle.com>
-Signed-off-by: Andrew Morton <akpm@linux-foundation.org>"|1|Peng Zhang|zhangpeng.00@bytedance.com|2023-05-24 11:12:39+08:00|-28800|Andrew Morton|akpm@linux-foundation.org|2023-06-09 16:25:44-07:00|25200

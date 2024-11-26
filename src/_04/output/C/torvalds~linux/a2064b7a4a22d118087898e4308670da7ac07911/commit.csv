@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a2064b7a4a22d118087898e4308670da7ac07911|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"iwlwifi: move _agn statistics related structure
-
-agn and 3945 has different statistics_notif data structure; since 3945
-has it statistics_notif data structure inside the _3945 portion of
-iwl_priv, it make sense to move the agn statistics_notif into _agn portion.
-
-Signed-off-by: Wey-Yi Guy <wey-yi.w.guy@intel.com>
-Signed-off-by: Reinette Chatre <reinette.chatre@intel.com>"|8|Wey-Yi Guy|wey-yi.w.guy@intel.com|2010-04-30 14:21:48-07:00|25200|Reinette Chatre|reinette.chatre@intel.com|2010-05-13 10:42:45-07:00|25200

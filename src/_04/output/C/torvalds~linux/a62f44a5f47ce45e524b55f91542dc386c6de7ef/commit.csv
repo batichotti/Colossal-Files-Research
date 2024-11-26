@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a62f44a5f47ce45e524b55f91542dc386c6de7ef|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: fix missing mutex_unlock in btrfs_del_dir_entries_in_log()
-
-It is necessary to unlock mutex_lock before it return an error when
-btrfs_alloc_path() fails.
-
-Signed-off-by: Tsutomu Itoh <t-itoh@jp.fujitsu.com>
-Signed-off-by: Chris Mason <chris.mason@oracle.com>"|1|Tsutomu Itoh|t-itoh@jp.fujitsu.com|2011-04-25 19:43:51-04:00|14400|Chris Mason|chris.mason@oracle.com|2011-04-25 19:43:51-04:00|14400

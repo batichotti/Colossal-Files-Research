@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|aa51e598d04c6acf5477934cd6383f5a17ce9029|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"brcmsmac: use bcma PCIe up and down functions
-
-replace the calls to bcma_core_pci_extend_L1timer() by calls to the
-newly introduced bcma_core_pci_ip() and bcma_core_pci_down()
-
-Signed-off-by: Hauke Mehrtens <hauke@hauke-m.de>
-Cc: Arend van Spriel <arend@broadcom.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|3|Hauke Mehrtens|hauke@hauke-m.de|2013-08-24 00:32:31+02:00|-7200|John W. Linville|linville@tuxdriver.com|2013-08-26 14:09:03-04:00|14400

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d78a461427d752bc1cd5b87515167453a18de7e3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tracing: Remove ftrace_trace_stack_regs()
-
-ftrace_trace_stack_regs() is used in only one place, and because that is
-such a simple function, just move its code into the location that it was
-used in (trace_buffer_unlock_commit_regs()).
-
-Signed-off-by: Steven Rostedt <rostedt@goodmis.org>"|2|Steven Rostedt (Red Hat)|rostedt@goodmis.org|2015-09-25 13:30:47-04:00|14400|Steven Rostedt|rostedt@goodmis.org|2015-09-25 15:37:23-04:00|14400

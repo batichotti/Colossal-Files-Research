@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7a8fdb1f272b9a3337b10c2d4d8bcca3538aa62c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Change watermark hook calling convention
-
-Just pass the atomic_state+crtc to the watermarks hooks. Eeasier
-time for the caller when it doesn't have to think what to pass.
-
-Reviewed-by: Manasi Navare <manasi.d.navare@intel.com>
-Signed-off-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Link: https://patchwork.freedesktop.org/patch/msgid/20191118164430.27265-7-ville.syrjala@linux.intel.com"|3|Ville Syrjälä|ville.syrjala@linux.intel.com|2019-11-18 18:44:26+02:00|-7200|Ville Syrjälä|ville.syrjala@linux.intel.com|2019-11-20 17:43:47+02:00|-7200

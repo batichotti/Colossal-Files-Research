@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9d73777e500929b71dcfed16eec05f6760e345a6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"clarify get_user_pages() prototype
-
-Currently the 4th parameter of get_user_pages() is called len, but its
-in pages, not bytes. Rename the thing to nr_pages to avoid future
-confusion.
-
-Signed-off-by: Peter Zijlstra <a.p.zijlstra@chello.nl>
-Signed-off-by: Linus Torvalds <torvalds@linux-foundation.org>"|3|Peter Zijlstra|peterz@infradead.org|2009-06-25 11:58:55+02:00|-7200|Linus Torvalds|torvalds@linux-foundation.org|2009-06-25 11:22:13-07:00|25200

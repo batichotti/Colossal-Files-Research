@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|16ec025aa5077144747c97a1e40635f547457a95|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"virtio_net: remove ndo_xdp_flush call virtnet_xdp_flush
-
-Remove the ndo_xdp_flush call implementation virtnet_xdp_flush
-as no callers of ndo_xdp_flush are left.
-
-Signed-off-by: Jesper Dangaard Brouer <brouer@redhat.com>
-Signed-off-by: Daniel Borkmann <daniel@iogearbox.net>"|1|Jesper Dangaard Brouer|brouer@redhat.com|2018-06-05 13:55:40+02:00|-7200|Daniel Borkmann|daniel@iogearbox.net|2018-06-05 14:03:16+02:00|-7200

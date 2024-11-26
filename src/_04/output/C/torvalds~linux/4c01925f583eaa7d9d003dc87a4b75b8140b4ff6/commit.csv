@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4c01925f583eaa7d9d003dc87a4b75b8140b4ff6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libbpf: Enforce 64-bitness of BTF for BPF object files
-
-BPF object files are always targeting 64-bit BPF target architecture, so
-enforce that at BTF level as well.
-
-Signed-off-by: Andrii Nakryiko <andriin@fb.com>
-Signed-off-by: Alexei Starovoitov <ast@kernel.org>
-Link: https://lore.kernel.org/bpf/20200813204945.1020225-7-andriin@fb.com"|1|Andrii Nakryiko|andriin@fb.com|2020-08-13 13:49:42-07:00|25200|Alexei Starovoitov|ast@kernel.org|2020-08-13 16:45:41-07:00|25200

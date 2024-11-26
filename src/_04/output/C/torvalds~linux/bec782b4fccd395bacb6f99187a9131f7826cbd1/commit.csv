@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bec782b4fccd395bacb6f99187a9131f7826cbd1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd: fix dprintk in nfsd4_encode_getdeviceinfo
-
-nfserr is big-endian, so we should convert it to host-endian before
-printing it.
-
-Signed-off-by: Jeff Layton <jlayton@redhat.com>
-Signed-off-by: J. Bruce Fields <bfields@redhat.com>"|1|Jeff Layton|jlayton@redhat.com|2016-09-22 07:19:02-04:00|14400|J. Bruce Fields|bfields@redhat.com|2016-09-23 10:18:52-04:00|14400

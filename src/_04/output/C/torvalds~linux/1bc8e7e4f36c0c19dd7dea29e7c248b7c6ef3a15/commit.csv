@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1bc8e7e4f36c0c19dd7dea29e7c248b7c6ef3a15|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"be2net: fix access to SEMAPHORE reg
-
-The SEMAPHORE register was being accessed from the csr BAR space. This BAR
-may not be available in some Skyhawk-R configurations. Instead, access this
-register via the PCI config space (it's available there too).
-
-Signed-off-by: Sathya Perla <sathya.perla@emulex.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|4|Sathya Perla|sathya.perla@emulex.com|2012-11-06 17:48:59+00:00|0|David S. Miller|davem@davemloft.net|2012-11-07 16:59:52-05:00|18000

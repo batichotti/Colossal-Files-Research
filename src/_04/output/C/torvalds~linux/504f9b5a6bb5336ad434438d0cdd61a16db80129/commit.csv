@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|504f9b5a6bb5336ad434438d0cdd61a16db80129|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ethernet: unify return value of .ndo_set_mac_address if address is invalid
-
-Unify return value of .ndo_set_mac_address if the given address
-isn't valid. Return -EADDRNOTAVAIL as eth_mac_addr() already does
-if is_valid_ether_addr() fails.
-
-Signed-off-by: Danny Kukawka <danny.kukawka@bisect.de>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|18|Danny Kukawka|danny.kukawka@bisect.de|2012-02-21 02:07:49+00:00|0|David S. Miller|davem@davemloft.net|2012-02-23 17:03:20-05:00|18000

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b5aed0b3c292a259a6b32fe3ab828a9854b9facb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8169: remove not needed debug print in rtl8169_init_phy
-
-Remove a useless debug statement. This also allows to remove the
-net_device parameter from rtl8169_init_phy().
-
-Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Heiner Kallweit|hkallweit1@gmail.com|2020-01-09 20:26:19+01:00|-3600|David S. Miller|davem@davemloft.net|2020-01-10 16:41:34-08:00|28800

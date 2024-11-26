@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|861d6882b3dfe1710b35dbddf1b395b962061413|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[Bluetooth] Remove global conf_mtu variable from L2CAP
-
-After the change to the L2CAP configuration parameter handling the
-global conf_mtu variable is no longer needed and so remove it.
-
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|2|Marcel Holtmann|marcel@holtmann.org|2007-10-20 13:37:06+02:00|-7200|David S. Miller|davem@sunset.davemloft.net|2007-10-22 02:59:41-07:00|25200

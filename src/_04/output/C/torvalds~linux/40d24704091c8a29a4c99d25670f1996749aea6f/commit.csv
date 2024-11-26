@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|40d24704091c8a29a4c99d25670f1996749aea6f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS: Fix a connectathon regression in NFSv3 and NFSv4
-
-We're failing basic test6 against Linux servers because they lack a correct
-change attribute. The fix is to assume that we always want to invalidate
-the readdir caches when we call update_changeattr and/or
-nfs_post_op_update_inode on a directory.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|2|Trond Myklebust|Trond.Myklebust@netapp.com|2007-10-08 09:24:22-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2007-10-09 17:20:47-04:00|14400

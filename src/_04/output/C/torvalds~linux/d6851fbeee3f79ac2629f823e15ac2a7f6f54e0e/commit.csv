@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d6851fbeee3f79ac2629f823e15ac2a7f6f54e0e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: nVMX: Advertise PAUSE and WBINVD exiting support
-
-These exits have no preconditions, and we already process the
-corresponding reasons in nested_vmx_exit_handled correctly.
-
-Signed-off-by: Jan Kiszka <jan.kiszka@siemens.com>
-Signed-off-by: Gleb Natapov <gleb@redhat.com>"|1|Jan Kiszka|jan.kiszka@siemens.com|2013-02-23 22:34:39+01:00|-3600|Gleb Natapov|gleb@redhat.com|2013-02-27 15:33:51+02:00|-7200

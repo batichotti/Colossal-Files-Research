@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|61aad724ec0a685bc83b02b059a3ca0ad3bde6b0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bnxt_en: Add hardware NTUPLE filter for encapsulated packets.
-
-If skb_flow_dissect_flow_keys() returns with the encapsulation flag
-set, pass the information to the firmware to setup the NTUPLE filter
-accordingly.
-
-Signed-off-by: Michael Chan <michael.chan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Michael Chan|michael.chan@broadcom.com|2017-02-12 19:18:14-05:00|18000|David S. Miller|davem@davemloft.net|2017-02-12 22:18:49-05:00|18000

@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c462f859f895840e7cd4f20f822ad4c6df2db489|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: xen: flush deferred static key before checking it
-
-A missing flush would cause the static branch to trigger incorrectly.
-
-Cc: David Woodhouse <dwmw@amazon.co.uk>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Paolo Bonzini|pbonzini@redhat.com|2021-02-26 04:49:06-05:00|18000|Paolo Bonzini|pbonzini@redhat.com|2021-02-26 05:13:02-05:00|18000

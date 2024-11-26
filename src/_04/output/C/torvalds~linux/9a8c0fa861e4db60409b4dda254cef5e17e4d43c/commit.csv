@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9a8c0fa861e4db60409b4dda254cef5e17e4d43c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md: unlock mddev_lock on an error path.
-
-This error path retuns while still holding the lock - bad.
-
-Fixes: 6791875e2e53 (""md: make reconfig_mutex optional for writes to md sysfs files."")
-Cc: stable@vger.kernel.org (v4.0+)
-Signed-off-by: NeilBrown <neilb@suse.com>"|1|NeilBrown|neilb@suse.de|2015-06-25 17:06:40+10:00|-36000|NeilBrown|neilb@suse.de|2015-06-25 17:14:09+10:00|-36000

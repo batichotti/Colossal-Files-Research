@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|238352b4949bc5c724f6adc1c78d50f1d15e4759|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/amdgpu/gfx9: Enable bad opcode interrupt
-
-For the bad opcode case, it will cause CP/ME hang.
-The firmware will prevent the ME side from hanging by raising a bad opcode interrupt.
-And the driver needs to perform a vmid reset when receiving the interrupt.
-
-Acked-by: Felix Kuehling <felix.kuehling@amd.com>
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|1|Alex Deucher|alexander.deucher@amd.com|2024-07-12 18:50:26-04:00|14400|Alex Deucher|alexander.deucher@amd.com|2024-07-23 17:45:46-04:00|14400

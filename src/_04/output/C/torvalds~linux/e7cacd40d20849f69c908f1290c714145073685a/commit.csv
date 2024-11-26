@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e7cacd40d20849f69c908f1290c714145073685a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Fix kernel allocated memory slot
-
-Commit 7fd49de9773fdcb7b75e823b21c1c5dc1e218c14 ""KVM: ensure that memslot
-userspace addresses are page-aligned"" broke kernel space allocated memory
-slot, for the userspace_addr is invalid.
-
-Signed-off-by: Sheng Yang <sheng@linux.intel.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Sheng Yang|sheng@linux.intel.com|2008-11-11 15:30:40+08:00|-28800|Avi Kivity|avi@redhat.com|2008-12-31 16:52:25+02:00|-7200

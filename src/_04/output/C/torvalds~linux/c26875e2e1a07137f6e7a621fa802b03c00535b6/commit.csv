@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c26875e2e1a07137f6e7a621fa802b03c00535b6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"s2io: Remove unnecessary memset of netdev private data
-
-The memory for the private data is allocated using kzalloc in
-alloc_etherdev (or alloc_netdev_mq respectively) so there is no need to
-set it to 0 again.
-
-Signed-off-by: Tobias Klauser <tklauser@distanz.ch>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Tobias Klauser|tklauser@distanz.ch|2010-07-18 22:55:58+00:00|0|David S. Miller|davem@davemloft.net|2010-07-19 09:28:11-07:00|25200

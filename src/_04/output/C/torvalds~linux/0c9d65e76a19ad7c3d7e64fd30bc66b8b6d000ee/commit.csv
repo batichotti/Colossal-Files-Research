@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0c9d65e76a19ad7c3d7e64fd30bc66b8b6d000ee|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd: Checking for acl support does not require fetching any acls
-
-Whether or not a file system supports acls can be determined with
-IS_POSIXACL(inode) and does not require trying to fetch any acls; the code for
-computing the supported_attrs and aclsupport attributes can be simplified.
-
-Signed-off-by: Andreas Gruenbacher <agruenba@redhat.com>
-Signed-off-by: J. Bruce Fields <bfields@redhat.com>"|1|Andreas Gruenbacher|andreas.gruenbacher@gmail.com|2015-04-24 13:04:00+02:00|-7200|J. Bruce Fields|bfields@redhat.com|2015-05-29 11:04:02-04:00|14400

@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b8a8a0dd506faea934164d30bd1d6f86f8e87b1e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: Fix an incorrect pointer declaration in decode_first_pnfs_layout_type
-
-We always encode to __be32 format in XDR: silences a sparse warning.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>
-Cc: Andy Adamson <andros@netapp.com>"|1|Trond Myklebust|Trond.Myklebust@netapp.com|2013-08-20 21:08:56-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2013-08-22 08:58:15-04:00|14400

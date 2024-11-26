@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c7abe829c04dc8ce0ecd1c07bf3bc97d2bb9655e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: cleanup 64bit/32bit divs, provably bounded values
-
-The divisor is derived from nodesize or PAGE_SIZE, fits into 32bit type.
-Get rid of a few more do_div instances.
-
-Signed-off-by: David Sterba <dsterba@suse.cz>"|5|David Sterba|dsterba@suse.cz|2015-01-16 17:26:13+01:00|-3600|David Sterba|dsterba@suse.cz|2015-03-03 17:09:33+01:00|-3600

@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a74a4b97b61beede185b4b3ad359d7d378b0d312|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: Replace the transaction work queue with kthreads
-
-This creates one kthread for commits and one kthread for
-deleting old snapshots.  All the work queues are removed.
-
-Signed-off-by: Chris Mason <chris.mason@oracle.com>"|8|Chris Mason|chris.mason@oracle.com|2008-06-25 16:01:31-04:00|14400|Chris Mason|chris.mason@oracle.com|2008-09-25 11:04:03-04:00|14400

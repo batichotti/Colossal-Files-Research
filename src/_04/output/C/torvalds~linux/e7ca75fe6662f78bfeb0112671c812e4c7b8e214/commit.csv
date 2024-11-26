@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e7ca75fe6662f78bfeb0112671c812e4c7b8e214|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: mvneta: Don't force-set the offloading flag
-
-The qopt->hw flag is set by the TC code according to the offloading mode
-asked by user. Don't force-set it in the driver, but instead read it to
-make sure we do what's asked.
-
-Signed-off-by: Maxime Chevallier <maxime.chevallier@bootlin.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Maxime Chevallier|maxime.chevallier@bootlin.com|2021-11-26 12:20:54+01:00|-3600|David S. Miller|davem@davemloft.net|2021-11-29 12:05:52+00:00|0

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ad18b0ea089928367185e13d11424aea91d4b41f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[PATCH] ipw2200: Missing kmalloc check
-
-The ipw2200 driver code in current GIT contains a kmalloc() followed by
-a memset() without handling a possible memory allocation failure.
-
-Signed-off-by: Panagiotis Issaris <panagiotis.issaris@gmail.com>
-Signed-off-by: Jeff Garzik <jgarzik@pobox.com>"|1|Panagiotis Issaris|panagiotis.issaris@gmail.com|2005-09-05 04:14:10+02:00|-7200|Jeff Garzik|jgarzik@pobox.com|2005-10-28 16:57:20-04:00|14400

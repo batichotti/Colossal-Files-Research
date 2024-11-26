@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|dad3795d2baa4e02cbfd161d9089c73dea16b4ba|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: SMP: Add vcpu_id field in struct vcpu
-
-This patch adds a `vcpu_id' field in `struct vcpu', so we can
-differentiate BSP and APs without pointer comparison or arithmetic.
-
-Signed-off-by: Qing He <qing.he@intel.com>
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|4|Qing He|qing.he@intel.com|2007-07-12 12:33:56+03:00|-10800|Avi Kivity|avi@qumranet.com|2007-10-13 10:18:17+02:00|-7200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d81243c697ffc71f983736e7da2db31a8be0001f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"CIFS: 511c54a2f69195b28afb9dd119f03787b1625bb4 adds a check for session expiry, status STATUS_NETWORK_SESSION_EXPIRED, however the server can also respond with STATUS_USER_SESSION_DELETED in cases where the session has been idle for some time and the server reaps the session to recover resources.
-
-Handle this additional status in the same way as SESSION_EXPIRED.
-
-Signed-off-by: Mark Syms <mark.syms@citrix.com>
-Signed-off-by: Steve French <stfrench@microsoft.com>
-CC: Stable <stable@vger.kernel.org>"|1|Mark Syms|mark.syms@citrix.com|2018-05-24 09:47:31+01:00|-3600|Steve French|stfrench@microsoft.com|2018-06-01 09:14:13-05:00|18000

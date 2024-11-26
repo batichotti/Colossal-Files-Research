@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|28ad5f65c314ffdd5888d6afa61772d3032a332c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"RDMA: Move XRCD to be under ib_core responsibility
-
-Update the code to allocate and free ib_xrcd structure in the
-ib_core instead of inside drivers.
-
-Link: https://lore.kernel.org/r/20200630101855.368895-4-leon@kernel.org
-Signed-off-by: Leon Romanovsky <leonro@mellanox.com>
-Signed-off-by: Jason Gunthorpe <jgg@nvidia.com>"|7|Leon Romanovsky|leonro@mellanox.com|2020-06-30 13:18:54+03:00|-10800|Jason Gunthorpe|jgg@nvidia.com|2020-07-06 20:11:24-03:00|10800

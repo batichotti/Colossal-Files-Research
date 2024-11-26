@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a7a10bce8a04f48238a8306ec97d430b77917015|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"dm integrity: don't use drivers that have CRYPTO_ALG_ALLOCATES_MEMORY
-
-Don't use crypto drivers that have the flag CRYPTO_ALG_ALLOCATES_MEMORY
-set. These drivers allocate memory and thus they are not suitable for
-block I/O processing.
-
-Signed-off-by: Mikulas Patocka <mpatocka@redhat.com>
-Signed-off-by: Mike Snitzer <snitzer@redhat.com>"|1|Mikulas Patocka|mpatocka@redhat.com|2020-10-15 13:21:44-04:00|14400|Mike Snitzer|snitzer@redhat.com|2020-11-17 10:45:06-05:00|18000

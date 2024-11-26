@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1160dfa178eb848327e9dec39960a735f4dc1685|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: Remove redundant if statements
-
-The 'if (dev)' statement already move into dev_{put , hold}, so remove
-redundant if statements.
-
-Signed-off-by: Yajun Deng <yajun.deng@linux.dev>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|39|Yajun Deng|yajun.deng@linux.dev|2021-08-05 19:55:27+08:00|-28800|David S. Miller|davem@davemloft.net|2021-08-05 13:27:50+01:00|-3600

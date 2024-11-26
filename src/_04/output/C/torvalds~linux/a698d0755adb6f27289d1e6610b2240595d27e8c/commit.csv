@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a698d0755adb6f27289d1e6610b2240595d27e8c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: add a type field for the transaction handle
-
-This patch add a type field into the transaction handle structure,
-in this way, we needn't implement various end-transaction functions
-and can make the code more simple and readable.
-
-Signed-off-by: Miao Xie <miaox@cn.fujitsu.com>"|3|Miao Xie|miaox@cn.fujitsu.com|2012-09-20 01:51:59-06:00|21600|Chris Mason|chris.mason@fusionio.com|2012-10-09 09:15:38-04:00|14400

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d9d8b01978f6510a262ddc4da3b3694d5b149cfe|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nl80211: remove unnecessary checks
-
-The CQM TX-error rate/interval can't be less than
-zero since they're unsigned values, remove checks.
-Also fix indentation of the function.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2012-11-26 12:51:52+01:00|-3600|Johannes Berg|johannes.berg@intel.com|2012-11-28 13:26:23+01:00|-3600

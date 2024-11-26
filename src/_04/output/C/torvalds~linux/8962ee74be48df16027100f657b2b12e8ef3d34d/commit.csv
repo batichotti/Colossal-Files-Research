@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8962ee74be48df16027100f657b2b12e8ef3d34d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Add disconnect managment command
-
-This patch adds a disconnect command to the managment interface. Using
-this command user space is able to force the disconnection of connected
-devices. The command maps directly to the Disconnect HCI command.
-
-Signed-off-by: Johan Hedberg <johan.hedberg@nokia.com>
-Signed-off-by: Gustavo F. Padovan <padovan@profusion.mobi>"|4|Johan Hedberg|johan.hedberg@nokia.com|2011-01-20 12:40:27+02:00|-7200|Gustavo F. Padovan|padovan@profusion.mobi|2011-02-08 01:40:07-02:00|7200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|86e7a4e4afd5bb3b852f37fc8cb61bac2a1f19ce|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"s390/qeth: add phys_to_virt() translation for AOB
-
-Data addresses in the AOB are absolute, and need to be translated before
-being fed into kmem_cache_free(). Currently this phys_to_virt() is a no-op.
-Also see commit 2db01da8d25f (""s390/qdio: fill SBALEs with absolute addresses"").
-
-Signed-off-by: Julian Wiedmann <jwi@linux.ibm.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Julian Wiedmann|jwi@linux.ibm.com|2020-03-18 13:54:53+01:00|-3600|David S. Miller|davem@davemloft.net|2020-03-18 16:33:35-07:00|25200

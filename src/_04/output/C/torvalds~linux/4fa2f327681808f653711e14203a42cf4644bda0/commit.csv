@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4fa2f327681808f653711e14203a42cf4644bda0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md: move freeing of badblocks.page into md_rdev_clear
-
-This ensures that it is always freed - there were case where
-we failed to free the page.
-
-Reported-by: majianpeng <majianpeng@gmail.com>
-Signed-off-by: NeilBrown <neilb@suse.de>"|1|NeilBrown|neilb@suse.de|2012-05-22 13:55:01+10:00|-36000|NeilBrown|neilb@suse.de|2012-05-22 13:55:01+10:00|-36000

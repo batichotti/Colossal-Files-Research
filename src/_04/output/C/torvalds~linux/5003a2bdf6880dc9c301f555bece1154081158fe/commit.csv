@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5003a2bdf6880dc9c301f555bece1154081158fe|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mm: call update_mmu_cache_range() in more page fault handling paths
-
-Pass the vm_fault to the architecture to help it make smarter decisions
-about which PTEs to insert into the TLB.
-
-Link: https://lkml.kernel.org/r/20230802151406.3735276-39-willy@infradead.org
-Signed-off-by: Matthew Wilcox (Oracle) <willy@infradead.org>
-Signed-off-by: Andrew Morton <akpm@linux-foundation.org>"|1|Matthew Wilcox (Oracle)|willy@infradead.org|2023-08-02 16:14:06+01:00|-3600|Andrew Morton|akpm@linux-foundation.org|2023-08-24 16:20:27-07:00|25200

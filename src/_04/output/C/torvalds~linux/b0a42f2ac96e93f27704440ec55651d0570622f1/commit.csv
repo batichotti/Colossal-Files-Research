@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b0a42f2ac96e93f27704440ec55651d0570622f1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"smb3: add missing read completion trace point
-
-When ENODATA returned we weren't logging the read completion
-(not an error, but can be indicated by logging length 0) which
-makes looking at read traces confusing for smb3.
-
-Signed-off-by: Steve French <stfrench@microsoft.com>
-Reviewed-by: Ronnie Sahlberg <lsahlber@redhat.com>"|1|Steve French|stfrench@microsoft.com|2019-02-25 15:02:58-06:00|21600|Steve French|stfrench@microsoft.com|2019-03-05 18:10:04-06:00|21600

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|060e0c752b5047ee691120b75df4c16743981e50|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cxgb4: support running the driver on PCI functions besides 0
-
-Add support for running the driver on any PCI function.  Mostly this
-entails replacing a constant 0 in a number of calls with the variable
-function number.
-
-Signed-off-by: Dimitris Michailidis <dm@chelsio.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|Dimitris Michailidis|dm@chelsio.com|2010-08-02 13:19:21+00:00|0|David S. Miller|davem@davemloft.net|2010-08-02 16:26:43-07:00|25200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|67db10344816c74709271c30905bb83781e7050c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd: fi_delegees doesn't need to be an atomic_t
-
-fi_delegees is always handled under the fi_lock, so there's no need to
-use an atomic_t for this field.
-
-Signed-off-by: Jeff Layton <jlayton@primarydata.com>
-Signed-off-by: J. Bruce Fields <bfields@redhat.com>"|2|Jeff Layton|jlayton@primarydata.com|2014-12-13 09:11:40-05:00|18000|J. Bruce Fields|bfields@redhat.com|2015-01-07 14:05:35-05:00|18000

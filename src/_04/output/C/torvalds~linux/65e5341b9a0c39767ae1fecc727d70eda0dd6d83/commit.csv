@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|65e5341b9a0c39767ae1fecc727d70eda0dd6d83|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: fix off by one while setting block groups readonly
-
-When we read in block groups, we'll set non-redundant groups
-readonly if we find a raid1, DUP or raid10 group.  But the
-ro code has an off by one bug in the math around testing to
-make sure out accounting doesn't go wrong.
-
-Signed-off-by: Chris Mason <chris.mason@oracle.com>"|1|Chris Mason|chris.mason@oracle.com|2010-12-24 06:41:52-05:00|18000|Chris Mason|chris.mason@oracle.com|2011-01-04 16:41:39-05:00|18000

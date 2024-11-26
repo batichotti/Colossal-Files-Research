@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9915ea7e0a83c0a4b94d0c5e05a9bb690fce809f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS: Add RPC callouts to start NFSv4.0 synchronous requests
-
-Refactor nfs4_call_sync_sequence() so it is used for NFSv4.0 now.
-The RPC callouts will house transport blocking logic similar to
-NFSv4.1 sessions.
-
-Signed-off-by: Chuck Lever <chuck.lever@oracle.com>
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|2|Chuck Lever|chuck.lever@oracle.com|2013-08-09 12:48:27-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2013-09-03 15:26:32-04:00|14400

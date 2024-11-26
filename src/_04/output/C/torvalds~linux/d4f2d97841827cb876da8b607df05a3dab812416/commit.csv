@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d4f2d97841827cb876da8b607df05a3dab812416|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"selinux: Consolidate sockcreate_sid logic
-
-Consolidate the basic sockcreate_sid logic into a single helper function
-which allows us to do some cleanups in the related code.
-
-Signed-off-by: Paul Moore <paul.moore@hp.com>
-Acked-by: Eric Paris <eparis@redhat.com>
-Signed-off-by: James Morris <jmorris@namei.org>"|1|Paul Moore|paul.moore@hp.com|2010-04-22 14:46:18-04:00|14400|James Morris|jmorris@namei.org|2010-08-02 15:34:37+10:00|-36000

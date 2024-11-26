@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7775c8184ec018deae89ccbc3ed1e319c910ca59|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: remove unused parameter from btrfs_subvolume_release_metadata
-
-Unused since qgroup refactoring that split data and metadata accounting,
-the btrfs_qgroup_free helper.
-
-Reviewed-by: Liu Bo <bo.li.liu@oracle.com>
-Signed-off-by: David Sterba <dsterba@suse.com>"|3|David Sterba|dsterba@suse.com|2017-02-10 19:18:18+01:00|-3600|David Sterba|dsterba@suse.com|2017-02-17 12:03:52+01:00|-3600

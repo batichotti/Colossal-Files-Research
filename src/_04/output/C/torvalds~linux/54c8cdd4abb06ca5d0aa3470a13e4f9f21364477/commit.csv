@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|54c8cdd4abb06ca5d0aa3470a13e4f9f21364477|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[media] drxj: set_param_parameters array is too short
-
-Fixes this smatch warning:
-	drivers/media/dvb-frontends/drx39xyj/drxj.c:4151 drxj_dap_scu_atomic_read_write_block() error: buffer overflow 'set_param_parameters' 15 <= 17
-
-Signed-off-by: Mauro Carvalho Chehab <mchehab@osg.samsung.com>"|1|Mauro Carvalho Chehab|mchehab@osg.samsung.com|2016-02-22 13:40:14-03:00|10800|Mauro Carvalho Chehab|mchehab@osg.samsung.com|2016-02-23 07:24:46-03:00|10800

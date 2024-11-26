@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|33fddff24d05d71f97722cb7deec4964d39d10dc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tracing: Have trace_buffer_unlock_commit() call the _regs version with NULL
-
-There's no real difference between trace_buffer_unlock_commit() and
-trace_buffer_unlock_commit_regs() except that the former passes NULL to
-ftrace_stack_trace() instead of regs. Have the former be a static inline of
-the latter which passes NULL for regs.
-
-Signed-off-by: Steven Rostedt <rostedt@goodmis.org>"|2|Steven Rostedt (Red Hat)|rostedt@goodmis.org|2016-04-29 17:44:01-04:00|14400|Steven Rostedt|rostedt@goodmis.org|2016-04-29 17:44:01-04:00|14400

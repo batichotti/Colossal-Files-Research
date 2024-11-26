@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|75fb2e9e49c1bff94cf6652c40889690575ece7c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: move mapping of block for discard to its caller
-
-There's a simple forwarded call based on the operation that would better
-fit the caller btrfs_map_block that's until now a trivial wrapper.
-
-Reviewed-by: Johannes Thumshirn <johannes.thumshirn@wdc.com>
-Reviewed-by: Anand Jain <anand.jain@oracle.com>
-Signed-off-by: David Sterba <dsterba@suse.com>"|1|David Sterba|dsterba@suse.com|2018-08-03 00:36:29+02:00|-7200|David Sterba|dsterba@suse.com|2020-03-23 17:01:44+01:00|-3600

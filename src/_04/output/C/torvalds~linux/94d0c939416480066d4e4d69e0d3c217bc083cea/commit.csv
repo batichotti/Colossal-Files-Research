@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|94d0c939416480066d4e4d69e0d3c217bc083cea|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"RDMA/cma: Only listen on IB devices when using AF_IB
-
-If an rdma_cm_id is bound to AF_IB, with a wild card address, only
-listen on IB devices.
-
-Signed-off-by: Sean Hefty <sean.hefty@intel.com>
-Signed-off-by: Roland Dreier <roland@purestorage.com>"|1|Sean Hefty|sean.hefty@intel.com|2013-05-29 10:09:24-07:00|25200|Roland Dreier|roland@purestorage.com|2013-06-20 23:35:38-07:00|25200

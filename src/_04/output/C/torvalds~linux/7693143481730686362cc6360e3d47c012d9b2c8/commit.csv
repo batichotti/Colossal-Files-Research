@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7693143481730686362cc6360e3d47c012d9b2c8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"slub: look up object from the freelist once
-
-We only need to look up object from c->page->freelist once in
-__slab_alloc().
-
-Signed-off-by: Pekka Enberg <penberg@cs.helsinki.fi>
-Signed-off-by: Christoph Lameter <clameter@sgi.com>"|1|Pekka J Enberg|penberg@cs.helsinki.fi|2008-03-01 13:43:54-08:00|28800|Christoph Lameter|clameter@sgi.com|2008-03-03 12:22:32-08:00|28800

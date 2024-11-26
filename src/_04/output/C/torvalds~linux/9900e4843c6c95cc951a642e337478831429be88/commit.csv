@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9900e4843c6c95cc951a642e337478831429be88|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nl80211: use ie_len in scheduled scan
-
-We've already checked the IE length and assigned request->ie
-based on that, so continue using it to make the code a bit
-clearer.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2014-02-04 21:01:25+01:00|-3600|Johannes Berg|johannes.berg@intel.com|2014-02-12 15:07:18+01:00|-3600

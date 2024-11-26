@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|039c5d1b2c5f249f5a291215eb5f0eb0afd54f81|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Replaces symbolic permissions with numeric
-
-Replaces ""S_IRUGO | S_IWUSR"" with 0644. The reason is that symbolic
-permissions considered harmful:
-https://lwn.net/Articles/696229/
-
-Signed-off-by: Roman Storozhenko <romeusmeister@gmail.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Roman Storozhenko|romeusmeister@gmail.com|2017-06-27 12:51:18+03:00|-10800|Paolo Bonzini|pbonzini@redhat.com|2017-06-27 15:41:02+02:00|-7200

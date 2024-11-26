@@ -1,6 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d8e64406a037a64444175730294e449c9e21f5ec|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md: delay notification of 'active_idle' to the recovery thread
-
-sysfs_notify might sleep, so do not call it from md_safemode_timeout.
-
-Signed-off-by: Dan Williams <dan.j.williams@intel.com>"|2|Dan Williams|dan.j.williams@intel.com|2008-07-23 13:09:48-07:00|25200|Dan Williams|dan.j.williams@intel.com|2008-07-23 13:09:48-07:00|25200

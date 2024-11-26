@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f33198163a0fbb03766444253edf6ea50685d725|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tcp: pass previous skb to tcp_shifted_skb()
-
-No need to recompute previous skb, as it will be a bit more
-expensive when rtx queue is converted to RB tree.
-
-Signed-off-by: Eric Dumazet <edumazet@google.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Eric Dumazet|edumazet@google.com|2017-10-05 22:21:26-07:00|25200|David S. Miller|davem@davemloft.net|2017-10-07 00:28:54+01:00|-3600

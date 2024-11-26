@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1d15d121cc2ad4d016a7dc1493132a9696f91fc5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4.1: don't retry BIND_CONN_TO_SESSION on session error
-
-There is no reason to retry the operation if a session error had
-occurred in such case result structure isn't filled out.
-
-Fixes: dff58530c4ca (""NFSv4.1: fix handling of backchannel binding in BIND_CONN_TO_SESSION"")
-Signed-off-by: Olga Kornievskaia <kolga@netapp.com>
-Signed-off-by: Trond Myklebust <trond.myklebust@hammerspace.com>"|1|Olga Kornievskaia|kolga@netapp.com|2022-03-24 10:38:42-04:00|14400|Trond Myklebust|trond.myklebust@hammerspace.com|2022-03-24 12:06:07-04:00|14400

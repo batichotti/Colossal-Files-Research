@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d07db9884a5fba8c8020166c86183c79a18d066a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: introduce nft_validate_register_load()
-
-Change nft_validate_input_register() to not only validate the input
-register number, but also the length of the load, and rename it to
-nft_validate_register_load() to reflect that change.
-
-Signed-off-by: Patrick McHardy <kaber@trash.net>
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|11|Patrick McHardy|kaber@trash.net|2015-04-11 02:27:30+01:00|-3600|Pablo Neira Ayuso|pablo@netfilter.org|2015-04-13 16:25:50+02:00|-7200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|79ed5ac7ddd5f8d6463f5a17b3575772e9896481|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tg3: Use ext rx bds
-
-The 5717 only uses extended buffer descriptors for the jumbo producer
-ring.  Extended buffer descriptors are available on all devices that
-support a separate jumbo producer ring so make the change universal.
-
-Signed-off-by: Matt Carlson <mcarlson@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Matt Carlson|mcarlson@broadcom.com|2009-08-28 14:00:55+00:00|0|David S. Miller|davem@davemloft.net|2009-08-29 15:42:52-07:00|25200

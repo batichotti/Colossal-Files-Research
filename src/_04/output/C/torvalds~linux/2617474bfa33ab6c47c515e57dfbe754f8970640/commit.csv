@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2617474bfa33ab6c47c515e57dfbe754f8970640|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cifs: remove unused variable
-
-In smb3_punch_hole, variable cifsi set but not used, remove it.
-In cifs_lock, variable netfid set but not used, remove it.
-
-Reported-by: Hulk Robot <hulkci@huawei.com>
-Signed-off-by: zhengbin <zhengbin13@huawei.com>
-Signed-off-by: Steve French <stfrench@microsoft.com>"|2|zhengbin|zhengbin13@huawei.com|2019-08-20 22:00:47+08:00|-28800|Steve French|stfrench@microsoft.com|2019-09-16 11:43:37-05:00|18000

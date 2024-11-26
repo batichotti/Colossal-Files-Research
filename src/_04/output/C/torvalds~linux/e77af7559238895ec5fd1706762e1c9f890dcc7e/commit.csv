@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e77af7559238895ec5fd1706762e1c9f890dcc7e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Fix CID ranges for LE CoC CID allocations
-
-LE CoC used differend CIC ranges than BR/EDR L2CAP. The start of the
-range is the same (0x0040) but the range ends at 0x007f (unlike BR/EDR
-where it goes all the way to 0xffff).
-
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|2|Johan Hedberg|johan.hedberg@intel.com|2013-10-08 10:31:00+02:00|-7200|Marcel Holtmann|marcel@holtmann.org|2013-12-05 07:05:36-08:00|28800

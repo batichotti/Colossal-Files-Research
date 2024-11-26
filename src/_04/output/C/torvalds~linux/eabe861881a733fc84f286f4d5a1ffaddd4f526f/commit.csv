@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|eabe861881a733fc84f286f4d5a1ffaddd4f526f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: handle the return value of pskb_carve_frag_list() correctly
-
-pskb_carve_frag_list() may return -ENOMEM in pskb_carve_inside_nonlinear().
-we should handle this correctly or we would get wrong sk_buff.
-
-Fixes: 6fa01ccd8830 (""skbuff: Add pskb_extract() helper function"")
-Signed-off-by: Miaohe Lin <linmiaohe@huawei.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Miaohe Lin|linmiaohe@huawei.com|2020-08-15 04:46:41-04:00|14400|David S. Miller|davem@davemloft.net|2020-08-18 15:56:56-07:00|25200

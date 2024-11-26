@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3f2dd7a0cef4d7ff964bb5e35beb500cbf3b7bcf|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: extent-tree: Make btrfs_inode_rsv_refill function static
-
-This function is no longer used outside of extent-tree.c.
-Make it static.
-
-Signed-off-by: Qu Wenruo <wqu@suse.com>
-Reviewed-by: David Sterba <dsterba@suse.com>
-Signed-off-by: David Sterba <dsterba@suse.com>"|1|Qu Wenruo|wqu@suse.com|2017-11-17 15:14:19+08:00|-28800|David Sterba|dsterba@suse.com|2018-01-22 16:08:14+01:00|-3600

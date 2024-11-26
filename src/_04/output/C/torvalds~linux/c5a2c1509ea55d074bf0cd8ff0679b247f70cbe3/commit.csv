@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c5a2c1509ea55d074bf0cd8ff0679b247f70cbe3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drbd: register peer requests on read_ee early
-
-Initialize peer_request with timestamp and proper empty list head.
-Add peer_request to list early, so debugfs can find this request and
-report it as ""preparing"", even if we sleep before we actually submit it.
-
-Signed-off-by: Philipp Reisner <philipp.reisner@linbit.com>
-Signed-off-by: Lars Ellenberg <lars.ellenberg@linbit.com>"|1|Lars Ellenberg|lars.ellenberg@linbit.com|2014-05-08 10:08:05+02:00|-7200|Philipp Reisner|philipp.reisner@linbit.com|2014-07-10 18:35:14+02:00|-7200

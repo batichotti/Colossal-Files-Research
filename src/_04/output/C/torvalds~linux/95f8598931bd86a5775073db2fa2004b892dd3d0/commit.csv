@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|95f8598931bd86a5775073db2fa2004b892dd3d0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"SLUB: Don't print out OOM warning for __GFP_NOFAIL
-
-We must check for __GFP_NOFAIL like the page allocator does; otherwise we end
-up with false positives. While at it, add the printk_ratelimit() check in SLUB
-as well.
-
-Cc: Alexander Beregalov <a.beregalov@gmail.com>
-Signed-off-by: Pekka Enberg <penberg@cs.helsinki.fi>"|1|Pekka Enberg|penberg@cs.helsinki.fi|2009-06-11 16:18:09+03:00|-10800|Pekka Enberg|penberg@cs.helsinki.fi|2009-06-13 23:37:38+03:00|-10800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|991eebf9f8e523e7ff1e4d31ac80641582b2e57a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: do not try to reexecute failed instruction while emulating invalid guest state
-
-During invalid guest state emulation vcpu cannot enter guest mode to try
-to reexecute instruction that emulator failed to emulate, so emulation
-will happen again and again.  Prevent that by telling the emulator that
-instruction reexecution should not be attempted.
-
-Signed-off-by: Gleb Natapov <gleb@redhat.com>"|3|Gleb Natapov|gleb@redhat.com|2013-04-11 12:10:51+03:00|-10800|Gleb Natapov|gleb@redhat.com|2013-04-14 09:44:17+03:00|-10800

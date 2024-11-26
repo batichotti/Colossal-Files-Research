@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9dd732e0bdf538b1b76dc7c157e2b5e560ff30d3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: memleak flow rule from commit path
-
-Abort path release flow rule object, however, commit path does not.
-Update code to destroy these objects before releasing the transaction.
-
-Fixes: c9626a2cbdb2 (""netfilter: nf_tables: add hardware offload support"")
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|1|Pablo Neira Ayuso|pablo@netfilter.org|2022-06-06 17:15:57+02:00|-7200|Pablo Neira Ayuso|pablo@netfilter.org|2022-06-06 17:31:46+02:00|-7200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bdf00bf24bef9be1ca641a6390fd5487873e0d2e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nexthop: Fix data-races around nexthop_compat_mode.
-
-While reading nexthop_compat_mode, it can be changed concurrently.
-Thus, we need to add READ_ONCE() to its readers.
-
-Fixes: 4f80116d3df3 (""net: ipv4: add sysctl for nexthop api compatibility mode"")
-Signed-off-by: Kuniyuki Iwashima <kuniyu@amazon.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|Kuniyuki Iwashima|kuniyu@amazon.com|2022-07-11 17:15:33-07:00|25200|David S. Miller|davem@davemloft.net|2022-07-13 12:56:50+01:00|-3600

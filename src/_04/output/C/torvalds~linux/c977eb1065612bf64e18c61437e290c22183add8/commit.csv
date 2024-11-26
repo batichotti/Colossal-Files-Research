@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c977eb1065612bf64e18c61437e290c22183add8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"xfs: split xfs_bmap_btalloc_nullfb
-
-Split xfs_bmap_btalloc_nullfb into one function for filestream allocations
-and one for everything else that share a few helpers.  This dramatically
-simplifies the control flow.
-
-Signed-off-by: Christoph Hellwig <hch@lst.de>"|1|Christoph Hellwig|hch@lst.de|2014-04-23 07:11:41+10:00|-36000|Dave Chinner|david@fromorbit.com|2014-04-23 07:11:41+10:00|-36000

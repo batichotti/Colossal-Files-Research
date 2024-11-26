@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|58c2ee4007bea04cc37041fcbd380fadb7b7be82|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mm: Fix section mismatch for setup_zone_pageset()
-
-build_all_zonelists() which is not __meminit, calls setup_zone_pageset().
-
-Signed-off-by: Nikanth Karthikesan <knikanth@suse.de>
-Signed-off-by: Jiri Kosina <jkosina@suse.cz>"|1|Nikanth Karthikesan|knikanth@suse.de|2011-03-15 10:59:02+05:30|-19800|Jiri Kosina|jkosina@suse.cz|2011-04-10 17:01:03+02:00|-7200

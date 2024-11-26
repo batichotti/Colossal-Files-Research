@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a966a4edf8d557a37446393439cd0db6612d4db8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cgroup: replace explicit ss_mask checking with for_each_subsys_which
-
-Replace the explicit checking against ss_masks inside a for_each_subsys
-block with for_each_subsys_which(..., ss_mask), to take advantage of the
-more readable (and more efficient) macro.
-
-Signed-off-by: Aleksa Sarai <cyphar@cyphar.com>"|1|Aleksa Sarai|cyphar@cyphar.com|2015-06-06 10:02:15+10:00|-36000|Tejun Heo|tj@kernel.org|2015-06-08 18:17:32+09:00|-32400

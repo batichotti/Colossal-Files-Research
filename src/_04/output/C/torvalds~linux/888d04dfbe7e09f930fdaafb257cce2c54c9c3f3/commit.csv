@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|888d04dfbe7e09f930fdaafb257cce2c54c9c3f3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: use compare_ether_addr on MAC addresses instead of memcmp
-
-Because of the constant size and guaranteed 16 bit alignment, the inline
-compare_ether_addr function is much cheaper than calling memcmp.
-
-Signed-off-by: Felix Fietkau <nbd@openwrt.org>
-Acked-by: Johannes Berg <johannes@sipsolutions.net>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|10|Felix Fietkau|nbd@openwrt.org|2012-03-01 15:22:09+01:00|-3600|John W. Linville|linville@tuxdriver.com|2012-03-05 15:38:31-05:00|18000

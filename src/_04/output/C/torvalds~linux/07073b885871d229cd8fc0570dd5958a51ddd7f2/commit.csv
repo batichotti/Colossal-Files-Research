@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|07073b885871d229cd8fc0570dd5958a51ddd7f2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"pinctrl: sh-pfc: r8a7796: Rename SSI_{WS,SCK}34 to SSI_{WS,SCK}349
-
-R-Car Gen3 is using SSI_{WS,SCK}349 instead of SSI_{WS,SCK}34.
-But, current code is based on old datasheet which had typo.
-This patch fixes this typo.
-
-Signed-off-by: Kuninori Morimoto <kuninori.morimoto.gx@renesas.com>
-Signed-off-by: Geert Uytterhoeven <geert+renesas@glider.be>"|1|Kuninori Morimoto|kuninori.morimoto.gx@renesas.com|2017-05-16 08:42:36+00:00|0|Geert Uytterhoeven|geert+renesas@glider.be|2017-05-16 11:53:37+02:00|-7200

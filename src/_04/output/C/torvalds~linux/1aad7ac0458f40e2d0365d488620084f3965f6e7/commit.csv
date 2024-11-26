@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1aad7ac0458f40e2d0365d488620084f3965f6e7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Trigger modesetting if force-audio changes
-
-If the user changes the force-audio property and it no longer reflects
-the current configuration, then we need to trigger a mode set in order
-to update the registers.
-
-Signed-off-by: Chris Wilson <chris@chris-wilson.co.uk>"|3|Chris Wilson|chris@chris-wilson.co.uk|2011-02-09 18:46:58+00:00|0|Chris Wilson|chris@chris-wilson.co.uk|2011-02-11 09:20:50+00:00|0

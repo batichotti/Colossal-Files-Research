@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|915f570a971b4e5abd95e8b169dd41c120ab5a5b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cifsd: Remove smb2_put_name()
-
-smb2_put_name() is called twice, and both call sites do the IS_ERR() check
-before.
-
-Signed-off-by: Marios Makassikis <mmakassikis@freebox.fr>
-Signed-off-by: Namjae Jeon <namjae.jeon@samsung.com>
-Signed-off-by: Steve French <stfrench@microsoft.com>"|1|Marios Makassikis|mmakassikis@freebox.fr|2021-04-13 13:25:57+09:00|-32400|Steve French|stfrench@microsoft.com|2021-05-10 19:15:41-05:00|18000

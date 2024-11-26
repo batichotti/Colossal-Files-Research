@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|42c61ab6760f5f6929ebf5a73b7e32b9aa51fbd5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: switch to div64_u64 if with a u64 divisor
-
-This is fixing code pieces where we use div_u64 when passing a u64 divisor.
-
-Cc: David Sterba <dsterba@suse.cz>
-Signed-off-by: Liu Bo <bo.li.liu@oracle.com>
-Reviewed-by: David Sterba <dsterba@suse.com>
-Signed-off-by: David Sterba <dsterba@suse.com>"|3|Liu Bo|bo.li.liu@oracle.com|2017-04-03 13:45:24-07:00|25200|David Sterba|dsterba@suse.com|2017-04-18 14:07:26+02:00|-7200

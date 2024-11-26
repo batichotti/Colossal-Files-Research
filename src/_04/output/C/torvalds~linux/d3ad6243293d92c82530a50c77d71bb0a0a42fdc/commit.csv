@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d3ad6243293d92c82530a50c77d71bb0a0a42fdc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86 emulator: simplify two-byte opcode check
-
-Two-byte opcode always start with 0x0F and the decode flags
-of opcode 0xF0 is always 0, so remove dup check.
-
-Signed-off-by: Wei Yongjun <yjwei@cn.fujitsu.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Wei Yongjun|yjwei@cn.fujitsu.com|2010-08-05 16:34:39+08:00|-28800|Avi Kivity|avi@redhat.com|2010-10-24 10:50:59+02:00|-7200

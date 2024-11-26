@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b693fc1f83bc9aa5e86c87ac7da48870e45bf486|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Revert ""drm/amdgpu: fix rmmod KCQ disable failed error""
-
-This reverts commit 446947b44fb8cabc0213ff4efd706931e36b1963.
-
-this patch is incorrrect, amdgpu_ucode_bo_fini always
-called after gfx_hw_fini.
-
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|3|Alex Deucher|alexander.deucher@amd.com|2017-11-27 17:46:50-05:00|18000|Alex Deucher|alexander.deucher@amd.com|2017-11-28 17:44:13-05:00|18000

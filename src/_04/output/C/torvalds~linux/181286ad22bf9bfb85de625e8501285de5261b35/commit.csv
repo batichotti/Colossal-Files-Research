@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|181286ad22bf9bfb85de625e8501285de5261b35|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drbd: preparation commit, pass drbd_interval to drbd_al_begin/complete_io
-
-We want to avoid bio_split for bios crossing activity log boundaries.
-So we may need to activate two activity log extents ""atomically"".
-drbd_al_begin_io() needs to know more than just the start sector.
-
-Signed-off-by: Philipp Reisner <philipp.reisner@linbit.com>
-Signed-off-by: Lars Ellenberg <lars.ellenberg@linbit.com>"|5|Lars Ellenberg|lars.ellenberg@linbit.com|2011-03-31 15:18:56+02:00|-7200|Philipp Reisner|philipp.reisner@linbit.com|2012-11-08 16:45:01+01:00|-3600

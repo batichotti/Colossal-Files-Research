@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a6fb08dfe8654e399c9bbca34be914e213560b5e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Remove unneeded bt_cb(skb)->channel variable
-
-The bt_cb(skb)->channel was only needed to make hci_send_to_sock() be
-used for HCI raw and control sockets. Since they have now separate sending
-functions this is no longer needed.
-
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>"|2|Marcel Holtmann|marcel@holtmann.org|2012-02-20 14:50:31+01:00|-3600|Johan Hedberg|johan.hedberg@intel.com|2012-02-20 15:55:37+02:00|-7200

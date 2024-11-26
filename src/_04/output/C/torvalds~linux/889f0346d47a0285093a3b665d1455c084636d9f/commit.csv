@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|889f0346d47a0285093a3b665d1455c084636d9f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: hci_event: Fix build warning with C=1
-
-This fixes the following warning when build with make C=1:
-
-net/bluetooth/hci_event.c:337:15: warning: restricted __le16 degrades to integer
-
-Fixes: a93661203641e (""Bluetooth: Process result of HCI Delete Stored Link Key command"")
-Signed-off-by: Luiz Augusto von Dentz <luiz.von.dentz@intel.com>"|1|Luiz Augusto von Dentz|luiz.von.dentz@intel.com|2022-08-03 14:44:13-07:00|25200|Luiz Augusto von Dentz|luiz.von.dentz@intel.com|2022-08-08 17:05:12-07:00|25200

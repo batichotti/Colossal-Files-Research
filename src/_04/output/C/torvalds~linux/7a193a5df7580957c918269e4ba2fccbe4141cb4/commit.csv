@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7a193a5df7580957c918269e4ba2fccbe4141cb4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"b43: Remove irqs_disabled() sanity checks
-
-Remove all irqs_disabled() sanity checks, as they are not safe on
-a RT-enabled kernel and will trigger bogus warnings.
-
-Signed-off-by: Michael Buesch <mb@bu3sch.de>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|3|Michael Buesch|mb@bu3sch.de|2008-03-23 01:08:22+01:00|-3600|John W. Linville|linville@tuxdriver.com|2008-03-24 19:25:09-04:00|14400

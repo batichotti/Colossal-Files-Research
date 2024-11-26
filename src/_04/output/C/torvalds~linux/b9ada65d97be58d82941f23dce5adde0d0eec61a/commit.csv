@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b9ada65d97be58d82941f23dce5adde0d0eec61a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ath10k: fix ath10k_bss_assoc() to not sleep in atomic context
-
-ath10k_bss_assoc() was calling ath10k_peer_assoc(), which can sleep, under
-atomic rcu_read_lock() and causing scheduing while atomic errors. Workaround
-that by delaying the call to ath10k_wmi_peer_assoc().
-
-Signed-off-by: Kalle Valo <kvalo@qca.qualcomm.com>"|1|Kalle Valo|kvalo@qca.qualcomm.com|2013-10-16 15:44:46+03:00|-10800|Kalle Valo|kvalo@qca.qualcomm.com|2013-10-16 15:44:46+03:00|-10800

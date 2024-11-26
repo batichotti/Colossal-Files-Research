@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e0b49868d3629708eda593b6739cb78f33ab238a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rbd: fix type of snap_id in rbd_dev_v2_snap_info()
-
-The type of the snap_id local variable is defined with the
-wrong byte order.  Fix that.
-
-Signed-off-by: Alex Elder <elder@inktank.com>
-Reviewed-by: Josh Durgin <josh.durgin@inktank.com>"|1|Alex Elder|elder@inktank.com|2013-01-09 14:44:18-06:00|21600|Alex Elder|elder@inktank.com|2013-01-17 16:35:55-06:00|21600

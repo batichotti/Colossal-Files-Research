@@ -1,6 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|55e591ffde38e0088b022129e035e18a8d04c7e6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: unlock on error in btrfs_delalloc_reserve_metadata()
-
-We should release this mutex before returning the error code.
-
-Signed-off-by: Dan Carpenter <dan.carpenter@oracle.com>"|1|Dan Carpenter|dan.carpenter@oracle.com|2012-07-30 02:15:15-06:00|21600|Chris Mason|chris.mason@oracle.com|2012-08-28 16:53:25-04:00|14400

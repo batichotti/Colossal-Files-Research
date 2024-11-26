@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|68950619f8c82e468d8976130462617abea605a8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ftrace: Sort the mcount records on each page
-
-Sort records by ip locations of the ftrace mcount calls on each of the
-set of pages in the function list. This helps in localizing cache
-usuage when updating the function locations, as well as gives us
-the ability to quickly find an ip location in the list.
-
-Signed-off-by: Steven Rostedt <rostedt@goodmis.org>"|1|Steven Rostedt|srostedt@redhat.com|2011-12-16 17:06:45-05:00|18000|Steven Rostedt|rostedt@goodmis.org|2011-12-21 07:19:58-05:00|18000

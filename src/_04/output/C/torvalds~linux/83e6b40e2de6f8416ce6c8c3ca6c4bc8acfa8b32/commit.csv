@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|83e6b40e2de6f8416ce6c8c3ca6c4bc8acfa8b32|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"HID: wacom: EKR: have the wacom resources dynamically allocated
-
-If we want to have one input device per remote, it's better to have our
-own struct wacom_remote which is dynamically allocated.
-
-Signed-off-by: Benjamin Tissoires <benjamin.tissoires@redhat.com>
-Acked-by: Ping Cheng <pingc@wacom.com>
-Signed-off-by: Jiri Kosina <jkosina@suse.cz>"|4|Benjamin Tissoires|benjamin.tissoires@redhat.com|2016-07-13 18:06:02+02:00|-7200|Jiri Kosina|jkosina@suse.cz|2016-08-05 13:39:16+02:00|-7200

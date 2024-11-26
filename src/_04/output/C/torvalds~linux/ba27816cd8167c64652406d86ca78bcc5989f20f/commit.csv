@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ba27816cd8167c64652406d86ca78bcc5989f20f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cxgb4: correct formatting of MSI-X interrupt names
-
-The last byte of the buffer for MSI-X names could not be used due to a
-bogus -1.  Also do not explicitly clear the last byte, snprintf will do
-the right thing.
-
-Signed-off-by: Dimitris Michailidis <dm@chelsio.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Dimitris Michailidis|dm@chelsio.com|2010-12-14 21:36:50+00:00|0|David S. Miller|davem@davemloft.net|2010-12-16 13:16:02-08:00|28800

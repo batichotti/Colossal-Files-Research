@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|49e83bbe8cc32e197fccf4f617b3fa2fedc27a23|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"devlink: hold the instance lock in port_split / port_unsplit callbacks
-
-Let the core take the devlink instance lock around port splitting
-and remove the now redundant locking in the drivers.
-
-Reviewed-by: Ido Schimmel <idosch@nvidia.com>
-Tested-by: Ido Schimmel <idosch@nvidia.com>
-Signed-off-by: Jakub Kicinski <kuba@kernel.org>"|3|Jakub Kicinski|kuba@kernel.org|2022-03-14 23:00:08-07:00|25200|Jakub Kicinski|kuba@kernel.org|2022-03-16 12:56:42-07:00|25200

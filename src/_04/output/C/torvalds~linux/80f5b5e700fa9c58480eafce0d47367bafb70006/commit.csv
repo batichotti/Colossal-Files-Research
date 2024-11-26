@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|80f5b5e700fa9c58480eafce0d47367bafb70006|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: remove vm mmap method
-
-It was used in conjunction with KVM_SET_MEMORY_REGION ioctl which was
-removed by b74a07beed0 in 2010, QEMU stopped using it in 2008, so
-it is time to remove the code finally.
-
-Signed-off-by: Gleb Natapov <gleb@redhat.com>"|1|Gleb Natapov|gleb@redhat.com|2013-11-05 16:04:18+02:00|-7200|Gleb Natapov|gleb@redhat.com|2013-11-06 09:28:47+02:00|-7200

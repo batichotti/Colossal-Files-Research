@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bd69c30b1d08032d97ab0dabd7a1eb7fb73ca2b2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ftrace: Add ops parameter to ftrace_startup/shutdown functions
-
-In order to allow different ops to enable different functions,
-the ftrace_startup() and ftrace_shutdown() functions need the
-ops parameter passed to them.
-
-Signed-off-by: Steven Rostedt <rostedt@goodmis.org>"|1|Steven Rostedt|srostedt@redhat.com|2011-05-03 21:55:54-04:00|14400|Steven Rostedt|rostedt@goodmis.org|2011-05-18 15:29:48-04:00|14400

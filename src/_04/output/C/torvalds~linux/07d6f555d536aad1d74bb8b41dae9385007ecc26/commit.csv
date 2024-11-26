@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|07d6f555d536aad1d74bb8b41dae9385007ecc26|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: Add AX to list of registers clobbered by guest switch
-
-By chance this caused no harm so far. We overwrite AX during switch
-to/from guest context, so we must declare this.
-
-Signed-off-by: Jan Kiszka <jan.kiszka@siemens.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Jan Kiszka|jan.kiszka@siemens.com|2010-09-28 16:37:42+02:00|-7200|Avi Kivity|avi@redhat.com|2010-10-24 10:53:07+02:00|-7200

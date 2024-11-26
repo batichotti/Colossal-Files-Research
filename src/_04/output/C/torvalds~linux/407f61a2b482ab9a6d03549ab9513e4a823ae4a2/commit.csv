@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|407f61a2b482ab9a6d03549ab9513e4a823ae4a2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[CIFS] Fix memory leak in statfs to very old servers
-
-We were allocating request buffers twice in the statfs
-path when mounted to very old (Windows 9x) servers.
-
-Signed-off-by: Steve French <sfrench@us.ibm.com>"|2|Steve French|sfrench@us.ibm.com|2007-09-28 06:53:39+00:00|0|Steve French|sfrench@us.ibm.com|2007-09-28 06:53:39+00:00|0

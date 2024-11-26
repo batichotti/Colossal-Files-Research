@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|65602c32ee9b5500e3cb617ccec2154ee2191898|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"regulator: Add module.h to drivers/regulator users as required
-
-Another group of drivers that are taking advantage of the implicit
-presence of module.h -- and will break when we pull the carpet out
-from under them during a cleanup.  Fix 'em now.
-
-Signed-off-by: Paul Gortmaker <paul.gortmaker@windriver.com>"|19|Paul Gortmaker|paul.gortmaker@windriver.com|2011-07-17 16:28:23-04:00|14400|Paul Gortmaker|paul.gortmaker@windriver.com|2011-10-31 19:32:15-04:00|14400

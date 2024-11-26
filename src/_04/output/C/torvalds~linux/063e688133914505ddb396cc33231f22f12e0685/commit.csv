@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|063e688133914505ddb396cc33231f22f12e0685|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libbpf: Fix false uninitialized variable warning
-
-Some versions of GCC falsely detect that vi might not be initialized. That's
-not true, but let's silence it with NULL initialization.
-
-Signed-off-by: Andrii Nakryiko <andriin@fb.com>
-Signed-off-by: Daniel Borkmann <daniel@iogearbox.net>
-Link: https://lore.kernel.org/bpf/20200430021436.1522502-1-andriin@fb.com"|1|Andrii Nakryiko|andriin@fb.com|2020-04-29 19:14:36-07:00|25200|Daniel Borkmann|daniel@iogearbox.net|2020-04-30 16:16:01+02:00|-7200

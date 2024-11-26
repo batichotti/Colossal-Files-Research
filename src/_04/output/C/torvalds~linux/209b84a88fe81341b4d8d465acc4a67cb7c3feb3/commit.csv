@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|209b84a88fe81341b4d8d465acc4a67cb7c3feb3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"dmaengine: replace dma_async_client_register with dmaengine_get
-
-Now that clients no longer need to be notified of channel arrival
-dma_async_client_register can simply increment the dmaengine_ref_count.
-
-Reviewed-by: Andrew Morton <akpm@linux-foundation.org>
-Signed-off-by: Dan Williams <dan.j.williams@intel.com>"|4|Dan Williams|dan.j.williams@intel.com|2009-01-06 11:38:17-07:00|25200|Dan Williams|dan.j.williams@intel.com|2009-01-06 11:38:17-07:00|25200

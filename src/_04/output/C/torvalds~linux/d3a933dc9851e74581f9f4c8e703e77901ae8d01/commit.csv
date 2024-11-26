@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d3a933dc9851e74581f9f4c8e703e77901ae8d01|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[PATCH] scsi: remove unused scsi_cmnd->internal_timeout field
-
-scsi_cmnd->internal_timeout field doesn't have any meaning
-anymore.  Kill the field.
-
-Signed-off-by: Tejun Heo <htejun@gmail.com>
-Signed-off-by: James Bottomley <James.Bottomley@SteelEye.com>"|7||htejun@gmail.com|2005-04-03 14:55:06-05:00|18000|James Bottomley|jejb@titanic|2005-04-18 12:32:47-05:00|18000

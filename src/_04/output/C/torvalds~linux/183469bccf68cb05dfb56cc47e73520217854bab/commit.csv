@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|183469bccf68cb05dfb56cc47e73520217854bab|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: MGMT: Uninitialized variable in load_conn_param()
-
-The ""update"" variable needs to be initialized to false.
-
-Fixes: 0ece498c27d8 (""Bluetooth: MGMT: Make MGMT_OP_LOAD_CONN_PARAM update existing connection"")
-Signed-off-by: Dan Carpenter <dan.carpenter@linaro.org>
-Signed-off-by: Luiz Augusto von Dentz <luiz.von.dentz@intel.com>"|1|Dan Carpenter|dan.carpenter@linaro.org|2024-05-24 13:14:02+03:00|-10800|Luiz Augusto von Dentz|luiz.von.dentz@intel.com|2024-07-14 21:34:08-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f957bcf0164e45bd77867e02412035e1c2fd7058|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"s2io: Remove private boolean definitions
-
-Remove the private definition of TRUE/FALSE and use the ones from
-linux/stddef.h. Also remove the definition of BOOL which is not referenced
-inside the driver anyway.
-
-Signed-off-by: Tobias Klauser <tklauser@distanz.ch>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Tobias Klauser|tklauser@distanz.ch|2009-06-04 23:07:59+00:00|0|David S. Miller|davem@davemloft.net|2009-06-08 00:20:22-07:00|25200

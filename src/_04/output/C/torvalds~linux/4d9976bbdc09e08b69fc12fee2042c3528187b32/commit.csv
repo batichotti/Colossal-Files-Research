@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4d9976bbdc09e08b69fc12fee2042c3528187b32|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: MMU: make the __nonpaging_map function generic
-
-The mapping function for the nonpaging case in the softmmu does basically the
-same as required for Nested Paging. Make this function generic so it can be
-used for both.
-
-Signed-off-by: Joerg Roedel <joerg.roedel@amd.com>
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|1|Joerg Roedel|joerg.roedel@amd.com|2008-02-07 13:47:42+01:00|-3600|Avi Kivity|avi@qumranet.com|2008-04-27 11:53:20+03:00|-10800

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f6e78475894d6534d7d62714a95e2265f53d2a92|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Use kvm_get_rflags() and kvm_set_rflags() instead of the raw versions
-
-Some rflags bits are owned by the host, not guest, so we need to use
-kvm_get_rflags() to strip those bits away or kvm_set_rflags() to add them
-back.
-
-Signed-off-by: Avi Kivity <avi@redhat.com>"|3|Avi Kivity|avi@redhat.com|2010-08-02 15:30:20+03:00|-10800|Avi Kivity|avi@redhat.com|2011-05-11 07:56:54-04:00|14400

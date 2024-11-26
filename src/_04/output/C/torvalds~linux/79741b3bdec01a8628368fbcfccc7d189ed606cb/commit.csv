@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|79741b3bdec01a8628368fbcfccc7d189ed606cb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bpf: refactor fixup_bpf_calls()
-
-reduce indent and make it iterate over instructions similar to
-convert_ctx_accesses(). Also convert hard BUG_ON into soft verifier error.
-
-Signed-off-by: Alexei Starovoitov <ast@kernel.org>
-Acked-by: Daniel Borkmann <daniel@iogearbox.net>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Alexei Starovoitov|ast@fb.com|2017-03-15 18:26:40-07:00|25200|David S. Miller|davem@davemloft.net|2017-03-16 20:44:11-07:00|25200

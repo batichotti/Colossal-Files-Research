@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4f23409e0c787be1a501527c79578833567a1e58|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libceph: fix linger request check in __unregister_request()
-
-We should check if request is on the linger request list of any of the
-OSDs, not whether request is registered or not.
-
-Signed-off-by: Ilya Dryomov <ilya.dryomov@inktank.com>
-Reviewed-by: Alex Elder <elder@linaro.org>"|1|Ilya Dryomov|ilya.dryomov@inktank.com|2014-06-20 18:29:20+04:00|-14400|Ilya Dryomov|ilya.dryomov@inktank.com|2014-07-08 15:08:44+04:00|-14400

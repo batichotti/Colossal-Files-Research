@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fe92ee6425a2c79ee84f0b9b8a14117200d15f7d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: hci_core: Rework hci_conn_params flags
-
-This reworks hci_conn_params flags to use bitmap_* helpers and add
-support for setting the supported flags in hdev->conn_flags so it can
-easily be accessed.
-
-Signed-off-by: Luiz Augusto von Dentz <luiz.von.dentz@intel.com>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|5|Luiz Augusto von Dentz|luiz.von.dentz@intel.com|2021-12-01 11:49:50-08:00|28800|Marcel Holtmann|marcel@holtmann.org|2021-12-07 17:05:51+01:00|-3600

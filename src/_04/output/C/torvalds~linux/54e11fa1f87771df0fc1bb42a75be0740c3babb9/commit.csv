@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|54e11fa1f87771df0fc1bb42a75be0740c3babb9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Fix defined but not used warning in drivers/kvm/vmx.c
-
-move_msr_up() is used only on X86_64 and generates a warning on !X86_64
-
-Signed-off-by: Gabriel Craciunescu <nix.or.die@googlemail.com>
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|1|Gabriel C|nix.or.die@googlemail.com|2007-08-01 16:23:10+02:00|-7200|Avi Kivity|avi@qumranet.com|2007-10-13 10:18:22+02:00|-7200

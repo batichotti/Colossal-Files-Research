@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0cc0c027d4e028632933f1be2dc4cd730358183b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"perfcounters: release CPU context when exiting task counters
-
-If counters are exiting via do_exit() not via filp close, then
-the CPU context needs to be released - otherwise future percpu
-counter creations might fail.
-
-Signed-off-by: Ingo Molnar <mingo@elte.hu>"|1|Ingo Molnar|mingo@elte.hu|2008-12-14 23:20:36+01:00|-3600|Ingo Molnar|mingo@elte.hu|2008-12-14 23:25:02+01:00|-3600

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|065463915c3a2a2ce142f64ed3ed591d72ad88b1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cxgb4: avoid duplicating some resource freeing code
-
-Currently there are two copies of some resource freeing code, turn it into
-a function and call it.
-
-Signed-off-by: Dimitris Michailidis <dm@chelsio.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Dimitris Michailidis|dm@chelsio.com|2010-07-11 12:01:16+00:00|0|David S. Miller|davem@davemloft.net|2010-07-11 17:07:45-07:00|25200

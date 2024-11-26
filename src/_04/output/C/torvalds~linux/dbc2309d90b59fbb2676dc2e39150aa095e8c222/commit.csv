@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|dbc2309d90b59fbb2676dc2e39150aa095e8c222|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[PATCH] s2io: change strncpy length arg to use size of target
-
-Use the size of the target array for the length argument to strncpy
-instead of the size of the source or a magic number.
-
-Signed-off-by: John W. Linville <linville@tuxdriver.com>
-Signed-off-by: Jeff Garzik <jgarzik@pobox.com>"|1|John W. Linville|linville@tuxdriver.com|2005-09-28 17:50:51-04:00|14400|Jeff Garzik|jgarzik@pobox.com|2005-10-04 07:49:12-04:00|14400

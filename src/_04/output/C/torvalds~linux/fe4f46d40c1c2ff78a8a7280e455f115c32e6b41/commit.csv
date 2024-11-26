@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fe4f46d40c1c2ff78a8a7280e455f115c32e6b41|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: merge alloc_device helpers
-
-The device allocation is split to two functions, but one just calls the
-other and they're very far in the file. Merge them together.
-
-Reviewed-by: Qu Wenruo <wqu@suse.com>
-Signed-off-by: David Sterba <dsterba@suse.com>"|1|David Sterba|dsterba@suse.com|2021-07-26 14:15:21+02:00|-7200|David Sterba|dsterba@suse.com|2021-08-23 13:19:03+02:00|-7200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1c4f1fd6d5692614e8dc75ee53f7be590f1e878b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: MMU: Move set_pte() into guest paging mode independent code
-
-As set_pte() no longer references either a gpte or the guest walker, we can
-move it out of paging mode dependent code (which compiles twice and is
-generally nasty).
-
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|2|Avi Kivity|avi@qumranet.com|2007-12-09 17:40:31+02:00|-7200|Avi Kivity|avi@qumranet.com|2008-01-30 17:53:21+02:00|-7200

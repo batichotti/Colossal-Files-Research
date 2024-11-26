@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0f34802858e74e708c6d42209811f6d264892c8f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: support checkpoint error injection
-
-This patch adds to support checkpoint error injection in f2fs for testing
-fatal error tolerance, it will be useful that it can simulate abnormal
-power off by f2fs itself instead of calling godown ioctl by running apps.
-
-Signed-off-by: Chao Yu <yuchao0@huawei.com>
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|4|Chao Yu|yuchao0@huawei.com|2016-09-26 19:45:55+08:00|-28800|Jaegeuk Kim|jaegeuk@kernel.org|2016-09-30 17:34:35-07:00|25200

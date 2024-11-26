@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|be064d113906f04ea13088a8260e1e68ae0a4050|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: skip allocation attempt from empty cluster
-
-If we don't have a cluster, don't bother trying to allocate from it,
-jumping right away to the attempt to allocate a new cluster.
-
-Signed-off-by: Alexandre Oliva <oliva@lsd.ic.unicamp.br>
-Signed-off-by: Chris Mason <chris.mason@oracle.com>"|1|Alexandre Oliva|oliva@lsd.ic.unicamp.br|2011-11-30 13:43:00-05:00|18000|Chris Mason|chris.mason@oracle.com|2011-11-30 13:43:00-05:00|18000

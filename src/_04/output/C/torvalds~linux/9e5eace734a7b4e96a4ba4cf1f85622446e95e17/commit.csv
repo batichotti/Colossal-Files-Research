@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9e5eace734a7b4e96a4ba4cf1f85622446e95e17|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"USB: revert ""don't use reset-resume if drivers don't support it""
-
-This reverts Linus's previous patch that is in mainline to make it
-easier for the USB hub.c patches that follow this to apply cleanly.  The
-functionality will be added back in a followon patch in this series.
-
-Signed-off-by: Greg Kroah-Hartman <gregkh@suse.de>"|1|Greg Kroah-Hartman|gregkh@suse.de|2008-06-10 14:59:43-04:00|14400|Greg Kroah-Hartman|gregkh@suse.de|2008-07-21 15:15:48-07:00|25200

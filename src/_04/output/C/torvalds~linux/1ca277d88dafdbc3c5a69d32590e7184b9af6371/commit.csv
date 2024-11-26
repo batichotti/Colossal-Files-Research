@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1ca277d88dafdbc3c5a69d32590e7184b9af6371|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS: Shrink the struct nfs_fattr
-
-We don't need the bitmap[] field anymore, since the 'valid' field tells us
-all we need to know about which attributes were filled in...
-Also move the pre-op attributes in order to improve the structure packing.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|2|Trond Myklebust|Trond.Myklebust@netapp.com|2009-03-11 14:10:25-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2009-03-11 14:10:25-04:00|14400

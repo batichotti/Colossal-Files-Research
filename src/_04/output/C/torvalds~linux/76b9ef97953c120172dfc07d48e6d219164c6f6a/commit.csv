@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|76b9ef97953c120172dfc07d48e6d219164c6f6a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"V4L/DVB (13985): [STV090x] reset mclk and dev_ver of internal structure after allocating
-
-When mclk is not 0 then it will never be set to the correct value and
-the Demodulator will not work.
-
-Signed-off-by: Andreas Regel <andreas.regel@gmx.de>
-Signed-off-by: Manu Abraham <manu@linuxtv.org>
-Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"|1|Andreas Regel|andreas.regel@gmx.de|2010-01-05 19:24:56-03:00|10800|Mauro Carvalho Chehab|mchehab@redhat.com|2010-02-26 15:10:38-03:00|10800

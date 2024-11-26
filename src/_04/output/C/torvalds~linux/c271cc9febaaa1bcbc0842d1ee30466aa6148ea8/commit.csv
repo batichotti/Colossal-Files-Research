@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c271cc9febaaa1bcbc0842d1ee30466aa6148ea8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: release new hooks on unsupported flowtable flags
-
-Release the list of new hooks that are pending to be registered in case
-that unsupported flowtable flags are provided.
-
-Fixes: 78d9f48f7f44 (""netfilter: nf_tables: add devices to existing flowtable"")
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|1|Pablo Neira Ayuso|pablo@netfilter.org|2022-06-05 13:40:06+02:00|-7200|Pablo Neira Ayuso|pablo@netfilter.org|2022-06-06 17:31:46+02:00|-7200

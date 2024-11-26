@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|db0889aba2629e05e555b3e4b29d5eb0ae97efec|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ath11k: fix rcu lock protect in peer assoc confirmation
-
-ath11k_mac_get_ar_by_vdev_id() get protected under rcu lock
-and unlock. peer association confirmation event get used this API
-without rcu protection, so corrected it.
-
-Signed-off-by: Karthikeyan Periyasamy <periyasa@codeaurora.org>
-Signed-off-by: Kalle Valo <kvalo@codeaurora.org>"|1|Karthikeyan Periyasamy|periyasa@codeaurora.org|2020-02-05 06:52:28+05:30|-19800|Kalle Valo|kvalo@codeaurora.org|2020-02-11 20:31:19+02:00|-7200

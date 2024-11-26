@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fb4b8ce139c36fe93cf006bd68f0aa0340dd59e8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915/fbdev: Call intel_unpin_fb_obj() on release
-
-When releasing the intel_fbdev, we should unpin the framebuffer that we
-pinned during construction.
-
-Signed-off-by: Chris Wilson <chris@chris-wilson.co.uk>
-Link: http://patchwork.freedesktop.org/patch/msgid/1461833819-3991-1-git-send-email-chris@chris-wilson.co.uk"|3|Chris Wilson|chris@chris-wilson.co.uk|2016-04-28 09:56:35+01:00|-3600|Chris Wilson|chris@chris-wilson.co.uk|2016-04-28 12:17:32+01:00|-3600

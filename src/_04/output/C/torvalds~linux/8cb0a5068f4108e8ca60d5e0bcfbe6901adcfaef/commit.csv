@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8cb0a5068f4108e8ca60d5e0bcfbe6901adcfaef|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"slub: Move page->frozen handling near where the page->freelist handling occurs
-
-This is necessary because the frozen bit has to be handled in the same cmpxchg_double
-with the freelist and the counters.
-
-Signed-off-by: Christoph Lameter <cl@linux.com>
-Acked-by: David Rientjes <rientjes@google.com>
-Signed-off-by: Pekka Enberg <penberg@kernel.org>"|1|Christoph Lameter|cl@linux.com|2011-06-01 12:25:46-05:00|18000|Pekka Enberg|penberg@kernel.org|2011-07-02 13:26:53+03:00|-10800

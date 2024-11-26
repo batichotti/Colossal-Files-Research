@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a295673aba42895997a6c1be87f467a7cfc0f332|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: Return 0 from a failed VMREAD
-
-If we execute VMREAD during reboot we'll just skip over it.  Instead of
-returning garbage, return 0, which has a much smaller chance of confusing
-the code.  Otherwise we risk a flood of debug printk()s which block the
-reboot process if a serial console or netconsole is enabled.
-
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Avi Kivity|avi@redhat.com|2010-12-02 17:55:23+02:00|-7200|Avi Kivity|avi@redhat.com|2011-01-12 11:30:20+02:00|-7200

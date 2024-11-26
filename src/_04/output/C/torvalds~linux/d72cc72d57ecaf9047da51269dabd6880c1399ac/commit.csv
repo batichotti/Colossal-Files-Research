@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d72cc72d57ecaf9047da51269dabd6880c1399ac|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ocfs2: Pull ocfs2_xattr_value_buf up from __ocfs2_remove_xattr_range().
-
-Place an ocfs2_xattr_value_buf in __ocfs2_xattr_shrink_size() and pass
-it down to __ocfs2_remove_xattr_range().
-
-Signed-off-by: Joel Becker <joel.becker@oracle.com>
-Signed-off-by: Mark Fasheh <mfasheh@suse.com>"|1|Joel Becker|joel.becker@oracle.com|2008-12-09 14:30:41-08:00|28800|Mark Fasheh|mfasheh@suse.com|2009-01-05 08:40:32-08:00|28800

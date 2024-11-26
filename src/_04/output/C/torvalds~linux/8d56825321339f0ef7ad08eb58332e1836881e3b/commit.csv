@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8d56825321339f0ef7ad08eb58332e1836881e3b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] megaraid_sas: tape drive support fix
-
-Add the Tape drive fix to the megaraid_sas driver: If the command is
-for the tape device, set the FW pthru timeout to the os layer timeout
-value.
-
-Signed-off-by Bo Yang<bo.yang@lsi.com>
-Signed-off-by: James Bottomley <James.Bottomley@suse.de>"|1|Yang, Bo|Bo.Yang@lsi.com|2009-10-06 14:12:21-06:00|21600|James Bottomley|James.Bottomley@suse.de|2009-10-29 13:03:17-04:00|14400

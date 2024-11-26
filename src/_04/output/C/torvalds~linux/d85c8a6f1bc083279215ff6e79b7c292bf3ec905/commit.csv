@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d85c8a6f1bc083279215ff6e79b7c292bf3ec905|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: unplug every once and a while
-
-The btrfs io submission threads can build up massive plug lists.  This
-keeps things more reasonable so we don't hand over huge dumps of IO at
-once.
-
-Signed-off-by: Chris Mason <chris.mason@oracle.com>"|1|Chris Mason|chris.mason@oracle.com|2011-12-15 15:38:41-05:00|18000|Chris Mason|chris.mason@oracle.com|2011-12-15 15:38:41-05:00|18000

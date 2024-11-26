@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|34c16eecf78ed4cf01f39ac7211f5b57942ec899|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Portability: Split kvm_vcpu into arch dependent and independent parts (part 1)
-
-First step to split kvm_vcpu.  Currently, we just use an macro to define
-the common fields in kvm_vcpu for all archs, and all archs need to define
-its own kvm_vcpu struct.
-
-Signed-off-by: Zhang Xiantao <xiantao.zhang@intel.com>
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|10|Zhang Xiantao|xiantao.zhang@intel.com|2007-10-20 15:34:38+08:00|-28800|Avi Kivity|avi@qumranet.com|2008-01-30 17:52:54+02:00|-7200

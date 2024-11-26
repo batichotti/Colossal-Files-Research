@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e4404d6e8da678d852b7f767f665f8edf76c9e9f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: shared seed device
-
-This patch makes seed device possible to be shared by
-multiple mounted file systems. The sharing is achieved
-by cloning seed device's btrfs_fs_devices structure.
-Thanks you,
-
-Signed-off-by: Yan Zheng <zheng.yan@oracle.com>"|5|Yan Zheng|zheng.yan@oracle.com|2008-12-12 10:03:26-05:00|18000|Chris Mason|chris.mason@oracle.com|2008-12-12 10:03:26-05:00|18000

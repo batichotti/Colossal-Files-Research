@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|343b288834e84d0b175b20b4f48277bc33260986|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mm/vmscan: Optimise shrink_page_list for non-PMD-sized folios
-
-A large folio which is smaller than a PMD does not need to do the extra
-work in try_to_unmap() of trying to split a PMD entry.
-
-Signed-off-by: Matthew Wilcox (Oracle) <willy@infradead.org>"|1|Matthew Wilcox (Oracle)|willy@infradead.org|2020-08-15 19:28:51-04:00|14400|Matthew Wilcox (Oracle)|willy@infradead.org|2022-03-21 13:01:35-04:00|14400

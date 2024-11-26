@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|74da4a0f574d11ed60dbe50a1e5e942e20476590|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libceph, ceph: always advertise all supported features
-
-No reason to hide CephFS-specific features in the rbd case.  Recent
-feature bits mix RADOS and CephFS-specific stuff together anyway.
-
-Signed-off-by: Ilya Dryomov <idryomov@gmail.com>"|5|Ilya Dryomov|idryomov@gmail.com|2017-03-03 18:16:07+01:00|-3600|Ilya Dryomov|idryomov@gmail.com|2017-05-04 09:19:18+02:00|-7200

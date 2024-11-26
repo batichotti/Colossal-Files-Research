@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5626d3e86141390c8efc7bcb929b6a4b58b00480|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"selinux: remove hooks which simply defer to capabilities
-
-Remove SELinux hooks which do nothing except defer to the capabilites
-hooks (or in one case, replicates the function).
-
-Signed-off-by: James Morris <jmorris@namei.org>
-Acked-by:  Stephen Smalley <sds@tycho.nsa.gov>"|1|James Morris|jmorris@namei.org|2009-01-30 10:05:06+11:00|-39600|James Morris|jmorris@namei.org|2009-02-02 09:20:34+11:00|-39600

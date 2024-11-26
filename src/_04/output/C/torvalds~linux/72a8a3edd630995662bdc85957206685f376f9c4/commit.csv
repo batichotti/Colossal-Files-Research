@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|72a8a3edd630995662bdc85957206685f376f9c4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: reduce the number of retries for nullfunc probing
-
-Since nullfunc frames are transmitted as unicast frames, they're more
-reliable than the broadcast probe requests, so we need fewer retries
-to figure out whether the AP is really gone.
-
-Signed-off-by: Felix Fietkau <nbd@openwrt.org>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|1|Felix Fietkau|nbd@openwrt.org|2010-11-23 03:10:32+01:00|-3600|John W. Linville|linville@tuxdriver.com|2010-11-24 16:19:35-05:00|18000

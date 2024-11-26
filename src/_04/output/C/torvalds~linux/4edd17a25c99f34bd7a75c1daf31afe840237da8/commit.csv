@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4edd17a25c99f34bd7a75c1daf31afe840237da8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Revert ""drm/i915/dp: Zero the DPCD data before connection probe""
-
-This reverts commit 97cdd7101079adc3c626d159c62d43de949516c8.
-
-Clearing the dpcd data means that if the fetch fails, any previous
-data will be lost. On eDP, this is no fun as we only fetch dpcd at
-init time, so the memset will destroy that the next time through."|1|Keith Packard|keithp@keithp.com|2011-08-03 10:34:58-07:00|25200|Keith Packard|keithp@keithp.com|2011-08-03 10:37:21-07:00|25200

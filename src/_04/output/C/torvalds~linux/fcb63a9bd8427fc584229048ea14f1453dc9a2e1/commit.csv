@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fcb63a9bd8427fc584229048ea14f1453dc9a2e1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS: Fix a missing initialisation when reading the SELinux label
-
-Ensure that _nfs4_do_get_security_label() also initialises the
-SEQUENCE call correctly, by having it call into nfs4_call_sync().
-
-Reported-by: Jeff Layton <jlayton@redhat.com>
-Cc: stable@vger.kernel.org # 3.11+
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|1|Trond Myklebust|Trond.Myklebust@netapp.com|2013-11-01 12:42:25-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2013-11-01 12:42:25-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|97dfaf073f5881c624856ef293be307b6166115c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: hci_sync: cancel cmd_timer if hci_open failed
-
-If a command is already sent, we take care of freeing it, but we
-also need to cancel the timeout as well.
-
-Signed-off-by: Archie Pusaka <apusaka@chromium.org>
-Reviewed-by: Abhishek Pandit-Subedi <abhishekpandit@google.com>
-Signed-off-by: Luiz Augusto von Dentz <luiz.von.dentz@intel.com>"|1|Archie Pusaka|apusaka@chromium.org|2022-10-05 15:09:47+08:00|-28800|Luiz Augusto von Dentz|luiz.von.dentz@intel.com|2022-12-12 14:19:23-08:00|28800

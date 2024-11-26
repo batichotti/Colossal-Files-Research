@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|437374735c0055433f8300ba59f8cf7214c58ad3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: mvpp2: fix possible memory leak
-
-we are allocating memory using kzalloc for struct mvpp2_prs_entry,
-but later when we are getting error we were just returning the error
-value without releasing the memory.
-
-Signed-off-by: Sudip Mukherjee <sudip@vectorindia.org>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Sudip Mukherjee|sudipm.mukherjee@gmail.com|2014-11-01 16:59:34+05:30|-19800|David S. Miller|davem@davemloft.net|2014-11-01 15:11:50-04:00|14400

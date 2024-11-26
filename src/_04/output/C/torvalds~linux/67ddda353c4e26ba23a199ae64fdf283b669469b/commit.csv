@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|67ddda353c4e26ba23a199ae64fdf283b669469b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] qla2xxx: Correct out of bounds read of ISP2200 mailbox registers.
-
-ISP2200 adapters only have 24 mailbox registers so read only that many.
-
-Reported-by: Olatunji Ruwase <oor@cs.cmu.edu>
-Signed-off-by: Andrew Vasquez <andrew.vasquez@qlogic.com>
-Signed-off-by: Chad Dupuis <chad.dupuis@qlogic.com>
-Signed-off-by: James Bottomley <JBottomley@Parallels.com>"|2|Andrew Vasquez|andrew.vasquez@qlogic.com|2012-02-09 11:14:08-08:00|28800|James Bottomley|JBottomley@Parallels.com|2012-02-18 08:47:27-06:00|21600

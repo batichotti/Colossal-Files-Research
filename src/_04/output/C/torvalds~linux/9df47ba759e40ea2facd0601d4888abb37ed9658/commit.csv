@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9df47ba759e40ea2facd0601d4888abb37ed9658|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: change 0 to false for bool type
-
-in the f2fs_fill_super function, variable ""retry"" is bool type
-i think that it should be set as false.
-
-Signed-off-by: Taehee Yoo <ap420073@gmail.com>
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|1|Taehee Yoo|ap420073@gmail.com|2015-04-13 21:48:06+09:00|-32400|Jaegeuk Kim|jaegeuk@kernel.org|2015-04-15 16:13:28-07:00|25200

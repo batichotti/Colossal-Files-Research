@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|50d0a0f987b83a8dadb1134d834e35ec410392b5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Make kvm host use the paravirt clocksource structs
-
-This patch updates the kvm host code to use the pvclock structs.
-It also makes the paravirt clock compatible with Xen.
-
-Signed-off-by: Gerd Hoffmann <kraxel@redhat.com>
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|2|Gerd Hoffmann|kraxel@redhat.com|2008-06-03 16:17:31+02:00|-7200|Avi Kivity|avi@qumranet.com|2008-06-24 21:02:32+03:00|-10800

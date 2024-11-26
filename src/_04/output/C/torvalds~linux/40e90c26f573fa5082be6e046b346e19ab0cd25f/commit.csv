@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|40e90c26f573fa5082be6e046b346e19ab0cd25f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"igb: move gso_segs into buffer_info structure
-
-This change moves gso_segs into the buffer_info structure to avoid
-a possible cache line miss in clean_tx_irq.
-
-Signed-off-by: Nicholas Nunley <nicholasx.d.nunley@intel.com>
-Signed-off-by: Jeff Kirsher <jeffrey.t.kirsher@intel.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Nick Nunley|nicholasx.d.nunley@intel.com|2010-02-17 01:04:37+00:00|0|David S. Miller|davem@davemloft.net|2010-02-17 13:21:37-08:00|28800

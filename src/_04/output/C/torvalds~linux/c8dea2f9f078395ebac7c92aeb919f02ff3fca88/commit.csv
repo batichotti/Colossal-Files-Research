@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c8dea2f9f078395ebac7c92aeb919f02ff3fca88|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"RDMA/cma: Allow enabling reuseaddr in any state
-
-The rdma_cm only allows setting reuseaddr if the corresponding
-rdma_cm_id is in the idle state.  Allow setting this value in other
-states.  This brings the behavior more inline with sockets.
-
-Signed-off-by: Sean Hefty <sean.hefty@intel.com>
-Signed-off-by: Roland Dreier <roland@purestorage.com>"|1|Sean Hefty|sean.hefty@intel.com|2013-05-29 10:09:08-07:00|25200|Roland Dreier|roland@purestorage.com|2013-06-20 13:08:01-07:00|25200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|aad827034e419fa8c5ec39e6455266f0b942d856|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: Only reset MMU when necessary
-
-Only modifying some bits of CR0/CR4 needs paging mode switch.
-
-Modify EFER.NXE bit would result in reserved bit updates.
-
-Signed-off-by: Sheng Yang <sheng@linux.intel.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|1|Sheng Yang|sheng@linux.intel.com|2010-05-12 16:40:42+08:00|-28800|Avi Kivity|avi@redhat.com|2010-08-01 10:35:45+03:00|-10800

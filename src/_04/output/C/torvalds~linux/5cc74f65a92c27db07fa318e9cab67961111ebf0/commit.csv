@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5cc74f65a92c27db07fa318e9cab67961111ebf0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"iwlwifi: mvm: convert to FW AC when configuring MU EDCA
-
-The AC numbers used by mac80211 differ from those used
-by the firmware.  When setting MU EDCA params for each
-AC, use the correct FW AC numbers.
-
-Signed-off-by: Shaul Triebitz <shaul.triebitz@intel.com>
-Signed-off-by: Luca Coelho <luciano.coelho@intel.com>"|1|Shaul Triebitz|shaul.triebitz@intel.com|2018-05-01 13:28:23+03:00|-10800|Luca Coelho|luciano.coelho@intel.com|2019-06-29 10:09:39+03:00|-10800

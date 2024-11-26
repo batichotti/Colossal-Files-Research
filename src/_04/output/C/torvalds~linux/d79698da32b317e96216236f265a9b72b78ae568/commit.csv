@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d79698da32b317e96216236f265a9b72b78ae568|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ceph: document unlocked d_parent accesses
-
-For the most part we don't care about racing with rename when directing
-MDS requests; either the old or new parent is fine.  Document that, and
-do some minor cleanup.
-
-Reviewed-by: Yehuda Sadeh <yehuda@hq.newdream.net>
-Signed-off-by: Sage Weil <sage@newdream.net>"|2|Sage Weil|sage@newdream.net|2011-07-26 11:31:26-07:00|25200|Sage Weil|sage@newdream.net|2011-07-26 11:31:26-07:00|25200

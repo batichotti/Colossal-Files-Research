@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7a5c3c9be1059feed0e470c6dc0994dcaed4f12c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: fix put dio bio twice when we submit dio bio fail
-
-The caller of btrfs_submit_direct_hook() will put the original dio bio
-when btrfs_submit_direct_hook() return a error number, so we needn't
-put the original bio in btrfs_submit_direct_hook().
-
-Signed-off-by: Miao Xie <miaox@cn.fujitsu.com>
-Signed-off-by: Chris Mason <clm@fb.com>"|1|Miao Xie|miaox@cn.fujitsu.com|2014-06-17 18:58:59+08:00|-28800|Chris Mason|clm@fb.com|2014-08-19 08:36:24-07:00|25200

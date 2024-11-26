@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2827528da003ad207930f0d1af5faf3e482d6393|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ceph: close stopped mds' session
-
-If a mds has stopped, close its session and clean up its session
-requests/caps. The process is similar to handling SESSION_CLOSE
-initiated by mds.
-
-Signed-off-by: ""Yan, Zheng"" <zyan@redhat.com>
-Signed-off-by: Ilya Dryomov <idryomov@gmail.com>"|1|Yan, Zheng|zyan@redhat.com|2017-03-28 17:56:29+08:00|-28800|Ilya Dryomov|idryomov@gmail.com|2017-05-04 09:19:20+02:00|-7200

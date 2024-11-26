@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a096b09aeec6ff99edfdfd8cee24d6f25377d585|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ceph: queue cap release in __ceph_remove_cap()
-
-call __queue_cap_release() in __ceph_remove_cap(), this avoids
-acquiring s_cap_lock twice.
-
-Signed-off-by: Yan, Zheng <zheng.z.yan@intel.com>
-Reviewed-by: Sage Weil <sage@inktank.com>"|3|Yan, Zheng|zheng.z.yan@intel.com|2013-09-22 10:15:58+08:00|-28800|Sage Weil|sage@inktank.com|2013-11-23 11:00:59-08:00|28800

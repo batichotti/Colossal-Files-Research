@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|75b2758abc355c410dd335d45b2d40f920e27cde|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: NULL the old xps map entries when freeing them
-
-In __netif_set_xps_queue, old map entries from the old dev_maps are
-freed but their corresponding entry in the old dev_maps aren't NULLed.
-Fix this.
-
-Signed-off-by: Antoine Tenart <atenart@kernel.org>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Antoine Tenart|atenart@kernel.org|2021-03-18 19:37:52+01:00|-3600|David S. Miller|davem@davemloft.net|2021-03-18 14:56:22-07:00|25200

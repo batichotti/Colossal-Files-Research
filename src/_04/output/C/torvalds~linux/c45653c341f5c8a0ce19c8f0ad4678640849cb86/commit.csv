@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c45653c341f5c8a0ce19c8f0ad4678640849cb86|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: avoid deadlocks in the writeback path by using sb_getblk_gfp
-
-Switch ext4 to using sb_getblk_gfp with GFP_NOFS added to fix possible
-deadlocks in the page writeback path.
-
-Signed-off-by: Nikolay Borisov <kernel@kyup.com>
-Signed-off-by: Theodore Ts'o <tytso@mit.edu>
-Cc: stable@vger.kernel.org"|1|Nikolay Borisov|kernel@kyup.com|2015-07-02 01:34:07-04:00|14400|Theodore Ts'o|tytso@mit.edu|2015-07-02 01:34:07-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6961ece46c7d02de1bb83914900608e39633787d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[PATCH] md-export-rdev-data_offset-via-sysfs-fix
-
-drivers/md/md.c: In function `offset_show':
-drivers/md/md.c:1670: warning: long long unsigned int format, different type arg (arg 3)
-
-Cc: Neil Brown <neilb@suse.de>
-Signed-off-by: Andrew Morton <akpm@osdl.org>
-Signed-off-by: Linus Torvalds <torvalds@osdl.org>"|1|Andrew Morton|akpm@osdl.org|2006-01-06 00:20:59-08:00|28800|Linus Torvalds|torvalds@g5.osdl.org|2006-01-06 08:34:10-08:00|28800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|88693b3c9681a0c10b8fe73a0be9bfa0ea63de1f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: ips: properly handle 64-bit DMA
-
-CONFIG_HIGHMEM64 is only one (and these days unusual) way to indicate
-that > 32-bit dma address are possible.  Replace it with a check of the
-dma_addr_t size.
-
-Signed-off-by: Christoph Hellwig <hch@lst.de>
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|2|Christoph Hellwig|hch@lst.de|2018-10-18 15:03:34+02:00|-7200|Martin K. Petersen|martin.petersen@oracle.com|2018-11-06 21:31:28-05:00|18000

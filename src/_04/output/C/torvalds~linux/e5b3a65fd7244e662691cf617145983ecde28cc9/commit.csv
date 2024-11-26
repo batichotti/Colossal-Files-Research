@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e5b3a65fd7244e662691cf617145983ecde28cc9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] megaraid_sas: fix extended timeout handling
-
-Replace the eh_timed_out method usage with setting sdev->timeout in
-slave_configure.  Also only use the extended timeout for raid volumes,
-physical devices shouldn't need it.
-
-Signed-off-by: Christoph Hellwig <hch@lst.de>
-Signed-off-by: James Bottomley <James.Bottomley@SteelEye.com>"|1|Christoph Hellwig|hch@lst.de|2006-03-10 17:08:57+01:00|-3600|James Bottomley|jejb@mulgrave.il.steeleye.com|2006-03-14 14:18:51-06:00|21600

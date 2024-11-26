@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cfe89091644c441a1ade6dae6d2e47b715648615|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"smb3: fix various xid leaks
-
-Fix a few cases where we were not freeing the xid which led to
-active requests being non-zero at unmount time.
-
-Signed-off-by: Steve French <smfrench@gmail.com>
-CC: Stable <stable@vger.kernel.org>
-Reviewed-by: Ronnie Sahlberg <lsahlber@redhat.com>"|1|Steve French|stfrench@microsoft.com|2018-05-19 02:04:55-05:00|18000|Steve French|stfrench@microsoft.com|2018-05-30 16:06:18-05:00|18000

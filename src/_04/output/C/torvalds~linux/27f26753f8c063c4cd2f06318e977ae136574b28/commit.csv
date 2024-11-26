@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|27f26753f8c063c4cd2f06318e977ae136574b28|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cgroup: replace css_set walking populated test with testing cgrp->nr_populated_csets
-
-Implement trivial cgroup_has_tasks() which tests whether
-cgrp->nr_populated_csets is zero and replace the explicit local
-populated test in cgroup_subtree_control().  This simplifies the code
-and cgroup_has_tasks() will be used in more places later.
-
-Signed-off-by: Tejun Heo <tj@kernel.org>"|1|Tejun Heo|tj@kernel.org|2017-07-16 21:44:18-04:00|14400|Tejun Heo|tj@kernel.org|2017-07-16 21:44:45-04:00|14400

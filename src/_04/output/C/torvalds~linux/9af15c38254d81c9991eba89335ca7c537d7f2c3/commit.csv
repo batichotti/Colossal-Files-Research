@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9af15c38254d81c9991eba89335ca7c537d7f2c3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"device: Implement a bus agnostic dev_num_vf routine
-
-Now that pci_bus_type has num_vf callback set, dev_num_vf can be
-implemented in a bus type independent way and the check for whether a
-PCI device is being handled in rtnetlink can be dropped.
-
-Signed-off-by: Phil Sutter <phil@nwl.cc>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|Phil Sutter|phil@nwl.cc|2017-01-18 14:04:39+01:00|-3600|David S. Miller|davem@davemloft.net|2017-01-20 11:43:17-05:00|18000

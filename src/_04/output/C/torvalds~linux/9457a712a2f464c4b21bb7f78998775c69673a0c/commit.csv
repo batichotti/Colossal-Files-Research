@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9457a712a2f464c4b21bb7f78998775c69673a0c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: allow access to EFER in 32bit KVM
-
-This patch makes the EFER register accessible on a 32bit KVM host. This is
-necessary to boot 32 bit PAE guests under SVM.
-
-Signed-off-by: Joerg Roedel <joerg.roedel@amd.com>
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|1|Joerg Roedel|joerg.roedel@amd.com|2008-01-31 14:57:40+01:00|-3600|Avi Kivity|avi@qumranet.com|2008-04-27 11:53:19+03:00|-10800

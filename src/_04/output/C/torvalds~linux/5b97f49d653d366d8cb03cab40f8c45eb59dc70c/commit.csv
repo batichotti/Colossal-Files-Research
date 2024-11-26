@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5b97f49d653d366d8cb03cab40f8c45eb59dc70c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cfg80211: refactor the various CQM event sending code
-
-Much of the code can be shared by moving it into helper functions
-for the CQM event sending.
-
-Also move the code closer together, even in the header file.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|2|Johannes Berg|johannes.berg@intel.com|2014-11-26 12:37:43+01:00|-3600|Johannes Berg|johannes.berg@intel.com|2014-11-26 12:47:38+01:00|-3600

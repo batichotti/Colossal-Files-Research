@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c3988d630a4dfec5c09f2b6496734f320949ea9c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: let writepage_end_io_hook return void
-
-There's no error path in any of the instances, always return 0.
-
-Reviewed-by: Liu Bo <bo.li.liu@oracle.com>
-Signed-off-by: David Sterba <dsterba@suse.com>"|3|David Sterba|dsterba@suse.com|2017-02-17 15:18:32+01:00|-3600|David Sterba|dsterba@suse.com|2017-02-28 14:29:24+01:00|-3600

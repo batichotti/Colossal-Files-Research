@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|57738ae40f33c8903e84863acb17cb7c919d69a3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/amd/display: do not dereference on NULL
-
-WARN_ON() will not kill the process so the second WARN_ON()
-will try to dereference NULL pointer.
-
-Signed-off-by: Nirmoy Das <nirmoy.das@amd.com>
-Reviewed-by: Alex Deucher <alexander.deucher@amd.com>
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|1|Nirmoy Das|nirmoy.das@amd.com|2021-05-27 14:03:33+02:00|-7200|Alex Deucher|alexander.deucher@amd.com|2021-06-01 22:36:57-04:00|14400

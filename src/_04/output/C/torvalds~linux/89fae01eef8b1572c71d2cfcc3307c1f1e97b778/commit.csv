@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|89fae01eef8b1572c71d2cfcc3307c1f1e97b778|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sctp: switch sctp_setsockopt_auth_key to use memzero_explicit
-
-Switch from kzfree to sctp_setsockopt_auth_key + kfree to prepare for
-moving the kfree to common code.
-
-Signed-off-by: Christoph Hellwig <hch@lst.de>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Christoph Hellwig|hch@lst.de|2020-07-19 09:22:03+02:00|-7200|David S. Miller|davem@davemloft.net|2020-07-19 18:26:42-07:00|25200

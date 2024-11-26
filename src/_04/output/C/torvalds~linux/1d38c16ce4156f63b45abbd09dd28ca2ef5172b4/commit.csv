@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1d38c16ce4156f63b45abbd09dd28ca2ef5172b4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: stop queues before rate control updation
-
-Stop tx queues before updating rate control to ensure
-proper rate selection. Otherwise packets can be transmitted
-in 40 Mhz whereas hw is configured in HT20.
-
-Signed-off-by: Rajkumar Manoharan <rmanoharan@atheros.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|1|Rajkumar Manoharan|rmanoharan@atheros.com|2011-05-20 17:52:15+05:30|-19800|John W. Linville|linville@tuxdriver.com|2011-05-26 15:43:33-04:00|14400

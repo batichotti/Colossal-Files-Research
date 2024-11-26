@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|20bfe7ae089076b0af72a6d67f0298621ae90a9d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[media] drxk: Lock I2C bus during firmware load
-
-Don't allow other devices at the same I2C bus to use it during
-firmware load, in order to prevent using the device while it is
-not on a sane state.
-
-Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"|2|Mauro Carvalho Chehab|mchehab@redhat.com|2012-06-29 14:43:32-03:00|10800|Mauro Carvalho Chehab|mchehab@redhat.com|2012-06-29 19:04:21-03:00|10800

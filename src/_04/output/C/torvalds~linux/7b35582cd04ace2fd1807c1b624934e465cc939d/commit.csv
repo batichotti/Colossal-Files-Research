@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7b35582cd04ace2fd1807c1b624934e465cc939d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nftables: allow to update flowtable flags
-
-Honor flowtable flags from the control update path. Disallow disabling
-to toggle hardware offload support though.
-
-Fixes: 8bb69f3b2918 (""netfilter: nf_tables: add flowtable offload control plane"")
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|2|Pablo Neira Ayuso|pablo@netfilter.org|2021-03-17 12:54:57+01:00|-3600|Pablo Neira Ayuso|pablo@netfilter.org|2021-03-18 00:32:21+01:00|-3600

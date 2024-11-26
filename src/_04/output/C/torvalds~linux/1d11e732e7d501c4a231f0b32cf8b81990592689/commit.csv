@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1d11e732e7d501c4a231f0b32cf8b81990592689|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"virtio-net: use netif_tx_napi_add for tx napi
-
-Avoid hashing the tx napi struct into napi_hash[], which is used for
-busy polling receive queues.
-
-Signed-off-by: Willem de Bruijn <willemb@google.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Willem de Bruijn|willemb@google.com|2017-04-27 20:37:58-04:00|14400|David S. Miller|davem@davemloft.net|2017-04-30 22:33:04-04:00|14400

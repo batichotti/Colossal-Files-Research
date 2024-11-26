@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8184dd38e22fcaec664c2b98c382b85c26780e26|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: MMU: Allow spte.w=1 for gpte.w=0 and cr0.wp=0 only in shadow mode
-
-When tdp is enabled, the guest's cr0.wp shouldn't have any effect on spte
-permissions.
-
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Avi Kivity|avi@redhat.com|2010-05-27 14:22:51+03:00|-10800|Avi Kivity|avi@redhat.com|2010-08-01 10:39:23+03:00|-10800

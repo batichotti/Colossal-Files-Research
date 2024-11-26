@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b73c1d08a0ec33f2ddafdd21d3a48614da4e6853|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bnxt_en: Fix up bnxt_get_rxfh_indir_size().
-
-Fix up bnxt_get_rxfh_indir_size() to return the proper current RSS
-table size for P5 chips.  Change it to non-static so that bnxt.c
-can use it to get the table size.
-
-Signed-off-by: Michael Chan <michael.chan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Michael Chan|michael.chan@broadcom.com|2020-07-08 07:53:54-04:00|14400|David S. Miller|davem@davemloft.net|2020-07-08 15:21:13-07:00|25200

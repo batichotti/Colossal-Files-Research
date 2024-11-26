@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0912128149e86b48ed946371298d7fe61120d627|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd: make laundromat network namespace aware
-
-This patch moves laundromat_work to nfsd per-net context, thus allowing to run
-multiple laundries.
-
-Signed-off-by: Stanislav Kinsbursky <skinsbursky@parallels.com>
-Signed-off-by: J. Bruce Fields <bfields@redhat.com>"|2|Stanislav Kinsbursky|skinsbursky@parallels.com|2012-11-14 18:22:17+03:00|-10800|J. Bruce Fields|bfields@redhat.com|2012-11-15 07:40:51-05:00|18000

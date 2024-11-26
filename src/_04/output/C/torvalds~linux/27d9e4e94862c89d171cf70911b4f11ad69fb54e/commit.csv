@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|27d9e4e94862c89d171cf70911b4f11ad69fb54e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"slub: Use the objsize from the kmem_cache_cpu structure
-
-No need to access the kmem_cache structure. We have the same value
-in kmem_cache_cpu.
-
-Reviewed-by: Pekka Enberg <penberg@cs.helsinki.fi>
-Signed-off-by: Christoph Lameter <clameter@sgi.com>"|1|Christoph Lameter|clameter@sgi.com|2008-02-15 23:45:25-08:00|28800|Christoph Lameter|clameter@sgi.com|2008-03-03 12:22:31-08:00|28800

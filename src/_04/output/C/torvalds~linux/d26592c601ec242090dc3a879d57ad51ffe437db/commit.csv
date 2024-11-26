@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d26592c601ec242090dc3a879d57ad51ffe437db|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Remove pointless goto fail
-
-We just 'return ret' immediately after jumping to the label. Let's
-return directly instead.
-
-Signed-off-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Link: https://patchwork.freedesktop.org/patch/msgid/20181107213522.17590-2-ville.syrjala@linux.intel.com
-Reviewed-by: Imre Deak <imre.deak@intel.com>"|1|Ville Syrjälä|ville.syrjala@linux.intel.com|2018-11-07 23:35:21+02:00|-7200|Ville Syrjälä|ville.syrjala@linux.intel.com|2018-11-12 13:26:01+02:00|-7200

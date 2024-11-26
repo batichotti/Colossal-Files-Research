@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ba41d46fe03223279054e58d570069fdc62fb768|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bnxt_en: Failure to update PHY is not fatal condition.
-
-If we fail to update the PHY, we should print a warning and continue.
-The current code to exit is buggy as it has not freed up the NIC
-resources yet.
-
-Signed-off-by: Michael Chan <michael.chan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Michael Chan|mchan@broadcom.com|2016-02-19 19:43:21-05:00|18000|David S. Miller|davem@davemloft.net|2016-02-19 23:39:32-05:00|18000

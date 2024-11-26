@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a81aba14dc0ea499f4c218b5db0303b2ea8151d3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: Ignore segment G and D bits when considering whether we can virtualize
-
-We will enter the guest with G and D cleared; as real hardware ignores D in
-real mode, and G is taken care of by the limit test, we allow more code to
-run in vm86 mode.
-
-Signed-off-by: Avi Kivity <avi@redhat.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|1|Avi Kivity|avi@redhat.com|2012-08-21 17:07:10+03:00|-10800|Marcelo Tosatti|mtosatti@redhat.com|2012-08-27 20:02:21-03:00|10800

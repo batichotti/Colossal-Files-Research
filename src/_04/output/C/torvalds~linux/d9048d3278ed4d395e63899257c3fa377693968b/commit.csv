@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d9048d3278ed4d395e63899257c3fa377693968b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Use kvm_{read,write}_guest_virt() to read and write segment descriptors
-
-Segment descriptors tables can be placed on two non-contiguous pages.
-This patch makes reading segment descriptors by linear address.
-
-Signed-off-by: Mikhail Ershov <Mike.Ershov@gmail.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Mikhail Ershov|Mike.Ershov@gmail.com|2009-08-19 14:08:07+04:00|-14400|Avi Kivity|avi@redhat.com|2009-09-10 10:46:52+03:00|-10800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|522a0c2fe58fb6eb145cce07a303857b08322a2b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"OMAPDSS: DSI: fix lane handling when entering ULPS
-
-The current code always enters ULPS for 3 lanes. This is not right, as
-there could be only 2 lanes used, and on OMAP4 we have 5 lanes.
-
-Fix the code to put all used lanes into ULPS.
-
-Signed-off-by: Tomi Valkeinen <tomi.valkeinen@ti.com>"|1|Tomi Valkeinen|tomi.valkeinen@ti.com|2011-10-13 16:18:52+03:00|-10800|Tomi Valkeinen|tomi.valkeinen@ti.com|2011-12-02 08:54:18+02:00|-7200

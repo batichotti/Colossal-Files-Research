@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5e5f3f0f801321078c897a5de0b4b4304f234da0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[IPV6] ADDRCONF: Convert ipv6_get_saddr() to ipv6_dev_get_saddr().
-
-Since most users of ipv6_get_saddr() pass non-NULL as
-dst argument, use ipv6_dev_get_saddr() directly.
-
-Signed-off-by: YOSHIFUJI Hideaki <yoshfuji@linux-ipv6.org>"|7|YOSHIFUJI Hideaki|yoshfuji@linux-ipv6.org|2008-03-03 21:44:34+09:00|-32400|YOSHIFUJI Hideaki|yoshfuji@linux-ipv6.org|2008-03-04 15:18:23+09:00|-32400

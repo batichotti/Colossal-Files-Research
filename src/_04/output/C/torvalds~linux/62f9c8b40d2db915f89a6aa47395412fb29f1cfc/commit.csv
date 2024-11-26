@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|62f9c8b40d2db915f89a6aa47395412fb29f1cfc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: fix loop checking with end interval elements
-
-Fix access to uninitialized data for end interval elements. The
-element data part is uninitialized in interval end elements.
-
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|1|Pablo Neira Ayuso|pablo@netfilter.org|2014-02-07 14:45:01+01:00|-3600|Pablo Neira Ayuso|pablo@netfilter.org|2014-02-07 17:21:45+01:00|-3600

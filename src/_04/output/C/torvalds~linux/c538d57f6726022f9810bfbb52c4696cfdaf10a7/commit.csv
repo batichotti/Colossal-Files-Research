@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c538d57f6726022f9810bfbb52c4696cfdaf10a7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: nVMX: Write ENCLS-exiting bitmap once per vmcs02
-
-KVM doesn't yet support SGX virtualization, i.e. writes a constant value
-to ENCLS_EXITING_BITMAP so that it can intercept ENCLS and inject a #UD.
-
-Fixes: 0b665d3040281 (""KVM: vmx: Inject #UD for SGX ENCLS instruction in guest"")
-Signed-off-by: Sean Christopherson <sean.j.christopherson@intel.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Sean Christopherson|sean.j.christopherson@intel.com|2019-05-07 09:06:29-07:00|25200|Paolo Bonzini|pbonzini@redhat.com|2019-06-18 11:46:53+02:00|-7200

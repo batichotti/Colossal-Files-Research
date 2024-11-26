@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4eac915d02453e81a32595cd7423492c81337a26|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[PATCH] mm: gfp_atomic comments
-
-Clarify in comments that GFP_ATOMIC means both ""don't sleep"" and ""use
-emergency pools"", hence both ALLOC_HARDER and ALLOC_HIGH.
-
-Signed-off-by: Paul Jackson <pj@sgi.com>
-Signed-off-by: Andrew Morton <akpm@osdl.org>
-Signed-off-by: Linus Torvalds <torvalds@osdl.org>"|2|Paul Jackson|pj@sgi.com|2006-01-11 12:17:19-08:00|28800|Linus Torvalds|torvalds@g5.osdl.org|2006-01-11 18:42:09-08:00|28800

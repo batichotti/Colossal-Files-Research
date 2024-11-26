@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ff62433883b3ab753a78954ecf46e2c514f5c407|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: dsa: mv88e6xxx: Unlock on error in mv88e6xxx_port_bridge_join()
-
-Call mv88e6xxx_reg_unlock(chip) before returning on this error path.
-
-Fixes: 7af4a361a62f (""net: dsa: mv88e6xxx: Improve isolation of standalone ports"")
-Signed-off-by: Dan Carpenter <dan.carpenter@oracle.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Dan Carpenter|dan.carpenter@oracle.com|2022-02-07 11:24:39+03:00|-10800|David S. Miller|davem@davemloft.net|2022-02-07 12:35:10+00:00|0

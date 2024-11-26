@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|facdb77f54f09a33baf6b649496f5dd1d7922a7e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ocfs2: ocfs2_find_path() only needs the caching info
-
-ocfs2_find_path and ocfs2_find_leaf() walk our btrees, reading extent
-blocks.  They need struct ocfs2_caching_info for that, but not struct
-inode.
-
-Signed-off-by: Joel Becker <joel.becker@oracle.com>"|5|Joel Becker|joel.becker@oracle.com|2009-02-12 18:08:48-08:00|28800|Joel Becker|joel.becker@oracle.com|2009-09-04 16:07:53-07:00|25200

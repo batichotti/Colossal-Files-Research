@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|835c5873d6e38cb317091ace7c1f3c40cc0607ce|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: don't update the fb base if there is no fb
-
-Otherwise we'll set_fb complains pretty loudly if we the crtc is off
-and userspace moves the NULL fb around a bit. Yeah, this actually
-happens in the wild ...
-
-Reviewed-by: Jesse Barnes <jbarnes@virtuousgeek.org>
-Signed-off-by: Daniel Vetter <daniel.vetter@ffwll.ch>"|1|Daniel Vetter|daniel.vetter@ffwll.ch|2012-07-10 18:11:08+02:00|-7200|Daniel Vetter|daniel.vetter@ffwll.ch|2012-09-06 08:02:07+02:00|-7200

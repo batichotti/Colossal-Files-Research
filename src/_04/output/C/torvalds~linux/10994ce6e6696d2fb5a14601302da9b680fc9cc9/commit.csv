@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|10994ce6e6696d2fb5a14601302da9b680fc9cc9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Check for flag instead of features in update_adv_data()
-
-It's better to check for the device flag instead of device features so
-that we avoid unnecessary HCI commands when the feature is supported but
-disabled (i.e. the flag is unset).
-
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|1|Johan Hedberg|johan.hedberg@intel.com|2013-10-19 23:38:16+03:00|-10800|Marcel Holtmann|marcel@holtmann.org|2013-10-20 09:05:40-07:00|25200

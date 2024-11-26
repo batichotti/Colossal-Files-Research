@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|49dedf0dd0da073b3a0146a62c768887aea13508|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"kvm: clear kvmclock MSR on reset
-
-After resetting the vCPU, the kvmclock MSR keeps the previous value but it is
-not enabled.  This can be confusing, so fix it.
-
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Paolo Bonzini|pbonzini@redhat.com|2019-10-10 12:49:22+02:00|-7200|Paolo Bonzini|pbonzini@redhat.com|2019-10-22 13:31:22+02:00|-7200

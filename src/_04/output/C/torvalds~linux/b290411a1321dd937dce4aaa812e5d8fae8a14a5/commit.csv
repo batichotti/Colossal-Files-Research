@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b290411a1321dd937dce4aaa812e5d8fae8a14a5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: s390: fix return value of kvm_arch_init_vm
-
-This patch fixes the return value of kvm_arch_init_vm in case a memory
-allocation goes wrong.
-
-Signed-off-by: Carsten Otte <cotte@de.ibm.com>
-Signed-off-by: Christian Borntraeger <borntraeger@de.ibm.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|1|Carsten Otte|cotte@de.ibm.com|2011-10-18 12:27:13+02:00|-7200|Avi Kivity|avi@redhat.com|2011-10-30 12:23:55+02:00|-7200

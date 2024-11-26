@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b114b0804df7131cb6764b948c1c530c834fa3c0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Use alignment properties of vcpu to simplify FPU ops
-
-Now we use a kmem cache for allocating vcpus, we can get the 16-byte
-alignment required by fxsave & fxrstor instructions, and avoid
-manually aligning the buffer.
-
-Signed-off-by: Rusty Russell <rusty@rustcorp.com.au>
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|3|Rusty Russell|rusty@rustcorp.com.au|2007-07-30 21:13:43+10:00|-36000|Avi Kivity|avi@qumranet.com|2007-10-13 10:18:21+02:00|-7200

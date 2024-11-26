@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9e4425fff9e0a0fb6a8c705777ed861f991f8747|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Add l2cap_add_psm() and l2cap_add_scid()
-
-The intention is to get rid of the l2cap_sk_list usage inside
-l2cap_core.c. l2cap_sk_list will soon be replaced by a list that does not
-depend on socket usage.
-
-Signed-off-by: Gustavo F. Padovan <padovan@profusion.mobi>"|3|Gustavo F. Padovan|padovan@profusion.mobi|2011-04-18 18:38:43-03:00|10800|Gustavo F. Padovan|padovan@profusion.mobi|2011-05-05 13:47:38-03:00|10800

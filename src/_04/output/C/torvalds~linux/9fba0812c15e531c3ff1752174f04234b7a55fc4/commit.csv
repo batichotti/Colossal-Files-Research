@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9fba0812c15e531c3ff1752174f04234b7a55fc4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8169: remove unneeded dirty_rx index
-
-After commit 6f0333b (""r8169: use 50% less ram for RX ring"") the rx
-ring buffers are always copied making dirty_rx useless.
-
-Signed-off-by: Timo Teräs <timo.teras@iki.fi>
-Acked-by: Francois Romieu <romieu@fr.zoreil.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Timo Teräs|timo.teras@iki.fi|2013-01-15 21:01:24+00:00|0|David S. Miller|davem@davemloft.net|2013-01-16 18:02:09-05:00|18000

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a7e5d03ba8882aa772c691f16690fe7e73cee257|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"xfs: remove xfs_trans_get_block_res
-
-Just use the t_blk_res field directly instead of obsfucating the reference
-by a macro.
-
-Signed-off-by: Christoph Hellwig <hch@lst.de>
-Reviewed-by: Brian Foster <bfoster@redhat.com>
-Signed-off-by: Dave Chinner <david@fromorbit.com>"|3|Christoph Hellwig|hch@lst.de|2016-03-02 09:58:21+11:00|-39600|Dave Chinner|david@fromorbit.com|2016-03-02 09:58:21+11:00|-39600

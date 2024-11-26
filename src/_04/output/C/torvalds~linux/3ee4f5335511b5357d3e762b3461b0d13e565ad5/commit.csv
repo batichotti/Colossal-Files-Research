@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3ee4f5335511b5357d3e762b3461b0d13e565ad5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libbpf: Split bpf_core_apply_relo() into bpf_program independent helper.
-
-bpf_core_apply_relo() doesn't need to know bpf_program internals
-and hashmap details.
-
-Signed-off-by: Alexei Starovoitov <ast@kernel.org>
-Signed-off-by: Andrii Nakryiko <andrii@kernel.org>
-Link: https://lore.kernel.org/bpf/20210721000822.40958-3-alexei.starovoitov@gmail.com"|1|Alexei Starovoitov|ast@kernel.org|2021-07-20 17:08:20-07:00|25200|Andrii Nakryiko|andrii@kernel.org|2021-07-26 12:13:05-07:00|25200

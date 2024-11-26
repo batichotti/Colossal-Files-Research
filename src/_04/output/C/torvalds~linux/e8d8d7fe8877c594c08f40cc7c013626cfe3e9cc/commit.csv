@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e8d8d7fe8877c594c08f40cc7c013626cfe3e9cc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86 emulator: Rename 'cr2' to 'memop'
-
-Previous patches have removed the dependency on cr2; we can now stop passing
-it to the emulator and rename uses to 'memop'.
-
-Signed-off-by: Sheng Yang <sheng.yang@intel.com>
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|3|Sheng Yang|sheng.yang@intel.com|2007-11-16 16:29:15+08:00|-28800|Avi Kivity|avi@qumranet.com|2008-01-30 17:53:15+02:00|-7200

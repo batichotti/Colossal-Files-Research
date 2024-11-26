@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|efc7d36f0d100eb2f2db33bc287fa17646bdcd7d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rt2x00: Always set BBP_CSR_CFG_BBP_RW_MODE to 1
-
-Latest rt2870 legacy driver also sets BBP_CSR_CFG_BBP_RW_MODE to 1
-when reading or writing the EEPROM. This means we can make the
-BBP reading and writing completely equal on all platforms.
-
-Signed-off-by: Ivo van Doorn <IvDoorn@gmail.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|1|Ivo van Doorn|IvDoorn@gmail.com|2010-06-29 21:49:26+02:00|-7200|John W. Linville|linville@tuxdriver.com|2010-06-30 15:00:53-04:00|14400

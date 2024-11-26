@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3618f30f307841dba19f22d9c602a5c59cab30c7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wl12xx: AP mode - support FW TX inactivity triggers
-
-In AP mode we register for the MAX_TX_RETRY and INACTIVE_STA events.
-Both are reported to the upper layers as a TX failure in the offending
-stations.
-
-Signed-off-by: Arik Nemtsov <arik@wizery.com>
-Signed-off-by: Luciano Coelho <coelho@ti.com>"|10|Arik Nemtsov|arik@wizery.com|2011-06-26 10:36:03+03:00|-10800|Luciano Coelho|coelho@ti.com|2011-07-05 21:33:20+03:00|-10800

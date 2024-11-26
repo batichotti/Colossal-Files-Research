@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|12b56ea89e70d4b04f2f5199750310e82894ebbd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bnx2x: Calling netif_carrier_off at the end of the probe
-
-netif_carrier_off was called too early at the probe. In case of failure
-or simply bad timing, this can cause a fatal error since linkwatch_event
-might run too soon.
-
-Signed-off-by: Eilon Greenstein <eilong@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Eilon Greenstein|eilong@broadcom.com|2008-11-03 16:46:40-08:00|28800|David S. Miller|davem@davemloft.net|2008-11-03 16:46:40-08:00|28800

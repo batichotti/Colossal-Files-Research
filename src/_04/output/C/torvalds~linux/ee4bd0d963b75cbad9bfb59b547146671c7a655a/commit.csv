@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ee4bd0d963b75cbad9bfb59b547146671c7a655a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: reuse path object in ext4_ext_shift_extents()
-
-Now that the semantics of ext4_ext_find_extent() are much cleaner,
-it's safe and more efficient to reuse the path object across the
-multiple calls to ext4_ext_find_extent() in ext4_ext_shift_extents().
-
-Signed-off-by: Theodore Ts'o <tytso@mit.edu>"|1|Theodore Ts'o|tytso@mit.edu|2014-09-01 14:41:09-04:00|14400|Theodore Ts'o|tytso@mit.edu|2014-09-01 14:41:09-04:00|14400

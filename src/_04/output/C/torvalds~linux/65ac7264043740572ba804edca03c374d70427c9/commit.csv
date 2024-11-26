@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|65ac7264043740572ba804edca03c374d70427c9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: Report unexpected simultaneous exceptions as internal errors
-
-These happen when we trap an exception when another exception is being
-delivered; we only expect these with MCEs and page faults.  If something
-unexpected happens, things probably went south and we're better off reporting
-an internal error and freezing.
-
-Signed-off-by: Avi Kivity <avi@redhat.com>"|2|Avi Kivity|avi@redhat.com|2009-11-04 11:59:01+02:00|-7200|Avi Kivity|avi@redhat.com|2009-12-03 09:32:24+02:00|-7200

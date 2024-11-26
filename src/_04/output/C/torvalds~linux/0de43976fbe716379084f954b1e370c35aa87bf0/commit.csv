@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0de43976fbe716379084f954b1e370c35aa87bf0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS: Convert lookups of the open context to RCU
-
-Reduce contention on the inode->i_lock by ensuring that we use RCU
-when looking up the NFS open context.
-
-Signed-off-by: Trond Myklebust <trond.myklebust@hammerspace.com>"|6|Trond Myklebust|trond.myklebust@hammerspace.com|2018-09-02 15:57:01-04:00|14400|Trond Myklebust|trond.myklebust@hammerspace.com|2018-09-30 15:35:17-04:00|14400

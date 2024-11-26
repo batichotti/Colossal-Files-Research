@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1a12de1edf234b54ce94971d5604f85809c391b9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[ALSA] hda: fix vref cap and ctl values
-
-HDA Codec driver,HDA generic driver
-Fix some vref defines so they are valid for the different bits in
-the pin cap and pin control registers. Please apply.
-
-Signed-off-by: Matt <matt@embeddedalley.com>
-Signed-off-by: Takashi Iwai <tiwai@suse.de>"|2|Matt|matt@embeddedalley.com|2005-04-13 14:37:50+02:00|-7200|Jaroslav Kysela|perex@suse.cz|2005-05-29 10:00:51+02:00|-7200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f3c799c22c661e181c71a0d9914fc923023f65fb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"xfs: create slab caches for frequently-used deferred items
-
-Create slab caches for the high-level structures that coordinate
-deferred intent items, since they're used fairly heavily.
-
-Signed-off-by: Darrick J. Wong <djwong@kernel.org>
-Reviewed-by: Chandan Babu R <chandan.babu@oracle.com>"|12|Darrick J. Wong|djwong@kernel.org|2021-10-12 14:11:01-07:00|25200|Darrick J. Wong|djwong@kernel.org|2021-10-22 16:04:36-07:00|25200

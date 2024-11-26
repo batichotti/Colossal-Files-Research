@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b1a79360ee862f8ada4798ad2346fa45bb41b527|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cxgb4: Delete all hash and TCAM filters before resource cleanup
-
-During driver unload, hash/TCAM filter deletion doesn't wait for
-completion.This patch deletes all the filters with completion before
-clearing the resources.
-
-Signed-off-by: Vishal Kulkarni <vishal@chelsio.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Vishal Kulkarni|vishal@chelsio.com|2019-04-26 13:58:48+05:30|-19800|David S. Miller|davem@davemloft.net|2019-04-27 22:25:37-04:00|14400

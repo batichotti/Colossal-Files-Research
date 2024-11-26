@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c439a1ca3bdc58febf51a388a9930eeba361b410|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wlcore: check Rx-filter functions in the suspend path
-
-Propagate some missing return values for Rx-filter related functions.
-This and makes sure we always fail the suspend in case of SDIO errors.
-
-Signed-off-by: Arik Nemtsov <arik@wizery.com>
-Signed-off-by: Luciano Coelho <coelho@ti.com>"|3|Arik Nemtsov|arik@wizery.com|2012-06-21 18:10:50+03:00|-10800|Luciano Coelho|coelho@ti.com|2012-06-23 09:32:32+03:00|-10800

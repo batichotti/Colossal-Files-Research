@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|aeee5a49445d4acd355c514fbf5f988fb22312c2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Don't use crtc->plane in ILK+ get_config()
-
-crtc->plane can only be different from crtc->pipe pre-Gen4. Don't use it
-in new-ish code.
-
-Reviewed-By: Tvrtko Ursulin <tvrtko.ursulin@intel.com>
-Signed-off-by: Damien Lespiau <damien.lespiau@intel.com>
-Signed-off-by: Daniel Vetter <daniel.vetter@ffwll.ch>"|1|Damien Lespiau|damien.lespiau@intel.com|2015-01-20 12:51:47+00:00|0|Daniel Vetter|daniel.vetter@ffwll.ch|2015-01-27 09:51:02+01:00|-3600

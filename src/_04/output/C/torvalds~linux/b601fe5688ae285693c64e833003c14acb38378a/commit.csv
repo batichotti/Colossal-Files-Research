@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b601fe5688ae285693c64e833003c14acb38378a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[media] media: drx39xyj - use drxj_set_lna_state() and remove duplicate LNA code
-
-drx39xxj_set_lna() and drx39xxj_set_frontend() set LNA. Instead of
-duplicating LNA configure code, change to use drxj_set_lna_state()
-which sets LNA to the caller requested state (on or off).
-
-Signed-off-by: Shuah Khan <shuah.kh@samsung.com>
-Signed-off-by: Mauro Carvalho Chehab <m.chehab@samsung.com>"|1|Shuah Khan|shuah.kh@samsung.com|2014-07-24 17:29:28-03:00|10800|Mauro Carvalho Chehab|m.chehab@samsung.com|2014-07-26 11:22:51-03:00|10800

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|911d4ee8536d89ea8a6cd3e96b1c95a3ebc5ea66|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md/raid5: simplify raid5_compute_sector interface
-
-Rather than passing 'pd_idx' and 'qd_idx' to be filled in, pass
-a 'struct stripe_head *' and fill in the relevant fields.  This is
-more extensible.
-
-Signed-off-by: NeilBrown <neilb@suse.de>"|1|NeilBrown|neilb@suse.de|2009-03-31 14:39:38+11:00|-39600|NeilBrown|neilb@suse.de|2009-03-31 14:39:38+11:00|-39600

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7b53aa56508479507c6e5667bb252ca7c2cd19cf|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Fix vcpu freeing for guest smp
-
-A vcpu can pin up to four mmu shadow pages, which means the freeing
-loop will never terminate.  Fix by first unpinning shadow pages on
-all vcpus, then freeing shadow pages.
-
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|2|Avi Kivity|avi@qumranet.com|2007-06-05 12:17:03+03:00|-10800|Avi Kivity|avi@qumranet.com|2007-07-16 12:05:45+03:00|-10800

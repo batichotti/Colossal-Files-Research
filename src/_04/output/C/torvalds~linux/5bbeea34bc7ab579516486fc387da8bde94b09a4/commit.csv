@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5bbeea34bc7ab579516486fc387da8bde94b09a4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"dmaengine: ti: k3-udma: Add missing dma_sync call for rx flush descriptor
-
-The TR mode rx flush descriptor did not had a dma_sync_single_for_device()
-call to make sure that the DMA see the correct information.
-
-Signed-off-by: Peter Ujfalusi <peter.ujfalusi@ti.com>
-Link: https://lore.kernel.org/r/20200512134544.5839-1-peter.ujfalusi@ti.com
-Signed-off-by: Vinod Koul <vkoul@kernel.org>"|1|Peter Ujfalusi|peter.ujfalusi@ti.com|2020-05-12 16:45:44+03:00|-10800|Vinod Koul|vkoul@kernel.org|2020-05-15 11:22:41+05:30|-19800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|afab995e06ee1fb76de195a4fba9d03267f8dbe3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net/mlx5e: Replace call to MPWQE free with dealloc in interface down flow
-
-No need to expose the MPWQE free function to control path.
-The dealloc function already exposed, use it.
-
-Signed-off-by: Tariq Toukan <tariqt@mellanox.com>
-Reviewed-by: Eran Ben Elisha <eranbe@mellanox.com>
-Signed-off-by: Saeed Mahameed <saeedm@mellanox.com>"|3|Tariq Toukan|tariqt@mellanox.com|2018-06-12 10:08:43+03:00|-10800|Saeed Mahameed|saeedm@mellanox.com|2018-07-26 15:23:51-07:00|25200

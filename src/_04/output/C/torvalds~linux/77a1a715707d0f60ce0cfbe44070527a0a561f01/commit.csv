@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|77a1a715707d0f60ce0cfbe44070527a0a561f01|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: MMU: cleanup for function unaccount_shadowed()
-
-Since gfn is not changed in the for loop, we do not need to call
-gfn_to_memslot_unaliased() under the loop, and it is safe to move
-it out.
-
-Signed-off-by: Wei Yongjun <yjwei@cn.fujitsu.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Wei Yongjun|yjwei@cn.fujitsu.com|2010-04-16 16:21:42+08:00|-28800|Avi Kivity|avi@redhat.com|2010-05-17 12:18:12+03:00|-10800

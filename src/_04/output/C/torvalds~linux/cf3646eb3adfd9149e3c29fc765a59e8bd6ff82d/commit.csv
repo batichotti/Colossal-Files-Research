@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cf3646eb3adfd9149e3c29fc765a59e8bd6ff82d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: Expose misc variables needed for nested VMX
-
-Exposed vmx_msr_index, vmx_return and host_efer via vmx.h so that the
-nested code can be moved out of vmx.c.
-
-Signed-off-by: Sean Christopherson <sean.j.christopherson@intel.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|2|Sean Christopherson|sean.j.christopherson@intel.com|2018-12-03 13:53:15-08:00|28800|Paolo Bonzini|pbonzini@redhat.com|2018-12-14 17:18:01+01:00|-3600

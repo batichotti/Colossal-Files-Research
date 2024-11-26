@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4ef0ef1966dae9e9e29762e4e719af3cfd146ca0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ALSA: hda - Fix missing ADC list in ALC260 auto-probe mode
-
-The commit f9e336f65b666b8f1764d17e9b7c21c90748a37e
-    ALSA: hda - Unify capture mixer creation in realtek codes
-removed the ADC check for ALC260 auto-probe mode accidentally.
-Re-added to patch_alc260() again.
-
-Signed-off-by: Takashi Iwai <tiwai@suse.de>"|1|Takashi Iwai|tiwai@suse.de|2008-11-03 17:47:49+01:00|-3600|Takashi Iwai|tiwai@suse.de|2008-11-03 17:50:48+01:00|-3600

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c16467dc03db5e2532484026a25b0eef80012ea1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"pnfs: Fix handling of NFS4ERR_OLD_STATEID replies to layoutreturn
-
-If the server tells us that out layoutreturn raced with another layout
-update, then we must ensure that the new layout segments are not in use
-before we resend with an updated layout stateid.
-
-Signed-off-by: Trond Myklebust <trond.myklebust@hammerspace.com>
-Signed-off-by: Anna Schumaker <Anna.Schumaker@Netapp.com>"|3|Trond Myklebust|trondmy@gmail.com|2018-07-29 22:39:15-04:00|14400|Anna Schumaker|Anna.Schumaker@Netapp.com|2018-08-08 16:50:01-04:00|14400

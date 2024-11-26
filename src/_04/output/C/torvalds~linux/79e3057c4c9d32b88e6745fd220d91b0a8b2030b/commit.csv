@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|79e3057c4c9d32b88e6745fd220d91b0a8b2030b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rbd: cancel watch request when releasing the device
-
-We were missing this cleanup, so when a device was released
-the osd didn't clean up its watchers list, so following notifications
-could be slow as osd needed to timeout on the client.
-
-Signed-off-by: Yehuda Sadeh <yehuda@hq.newdream.net>"|1|Yehuda Sadeh|yehuda@hq.newdream.net|2011-07-12 16:56:57-07:00|25200|Sage Weil|sage@newdream.net|2011-07-26 11:29:04-07:00|25200

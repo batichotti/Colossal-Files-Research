@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7a73c0283dadf1cf360a79de396ff0962e781b60|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Use kmalloc() instead of vmalloc() for KVM_[GS]ET_MSR
-
-We don't need more than a page, and vmalloc() is slower (much
-slower recently due to a regression).
-
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Avi Kivity|avi@redhat.com|2010-07-22 23:24:52+03:00|-10800|Avi Kivity|avi@redhat.com|2010-07-23 09:07:14+03:00|-10800

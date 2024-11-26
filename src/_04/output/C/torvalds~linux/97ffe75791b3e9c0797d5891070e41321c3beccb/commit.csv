@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|97ffe75791b3e9c0797d5891070e41321c3beccb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: factor out station lookup from ieee80211_build_hdr()
-
-In order to look up the RA station earlier to implement a TX
-fastpath, factor out the lookup from ieee80211_build_hdr().
-To always have a valid station pointer, also move some of the
-checks into the new function.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2015-03-21 09:13:45+01:00|-3600|Johannes Berg|johannes.berg@intel.com|2015-03-30 10:47:19+02:00|-7200

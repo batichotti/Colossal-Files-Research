@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1e0b528696edf20ad38f494dda49c6195bee1b7f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ALSA: hda - Avoid duplicated path creations
-
-When the paths are created in map_singles(), we don't have to
-re-create new paths in try_assign_dacs().  Just evaluate the badness
-and skip to the next item.
-
-Signed-off-by: Takashi Iwai <tiwai@suse.de>"|1|Takashi Iwai|tiwai@suse.de|2013-01-04 12:56:52+01:00|-3600|Takashi Iwai|tiwai@suse.de|2013-01-12 08:43:30+01:00|-3600

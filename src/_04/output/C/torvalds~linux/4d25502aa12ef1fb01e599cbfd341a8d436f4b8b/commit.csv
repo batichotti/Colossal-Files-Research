@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4d25502aa12ef1fb01e599cbfd341a8d436f4b8b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86/mmu: replace root_level with cpu_role.base.level
-
-Remove another duplicate field of struct kvm_mmu.  This time it's
-the root level for page table walking; the separate field is
-always initialized as cpu_role.base.level, so its users can look
-up the CPU mode directly instead.
-
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|3|Paolo Bonzini|pbonzini@redhat.com|2022-02-10 07:42:22-05:00|18000|Paolo Bonzini|pbonzini@redhat.com|2022-04-29 12:49:58-04:00|14400

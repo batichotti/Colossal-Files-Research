@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|47e70ca46f9074efe6573263c0de5bef0af829de|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: do not assign a new segment for dio under space shortage
-
-If there is not enough free segment, we should not assign a new segment
-explicitly. Otherwise, we can run out of free segment.
-
-Reviewed-by: Chao Yu <chao2.yu@samsung.com>
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|1|Jaegeuk Kim|jaegeuk@kernel.org|2015-08-11 10:17:27-07:00|25200|Jaegeuk Kim|jaegeuk@kernel.org|2015-08-14 16:02:13-07:00|25200

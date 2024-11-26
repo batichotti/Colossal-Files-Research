@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0a3920d28b5490e6c90110156135dbc12c7fc413|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sctp: adjust some codes in a better order in sctp_sendmsg
-
-sctp_sendmsg_new_asoc and SCTP_ADDR_OVER check is only necessary
-when daddr is set, so move them up to if (daddr) statement.
-
-Signed-off-by: Xin Long <lucien.xin@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Xin Long|lucien.xin@gmail.com|2018-03-01 23:05:18+08:00|-28800|David S. Miller|davem@davemloft.net|2018-03-04 13:00:57-05:00|18000

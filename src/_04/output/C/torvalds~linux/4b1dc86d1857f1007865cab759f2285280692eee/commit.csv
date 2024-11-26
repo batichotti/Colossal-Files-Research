@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4b1dc86d1857f1007865cab759f2285280692eee|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drbd: bio_alloc can't fail if it is allow to sleep
-
-Remove handling of NULL returns from sleeping bio_alloc calls given that
-those can't fail.
-
-Signed-off-by: Christoph Hellwig <hch@lst.de>
-Link: https://lore.kernel.org/r/20220124091107.642561-10-hch@lst.de
-Signed-off-by: Jens Axboe <axboe@kernel.dk>"|1|Christoph Hellwig|hch@lst.de|2022-01-24 10:10:57+01:00|-3600|Jens Axboe|axboe@kernel.dk|2022-02-02 07:49:59-07:00|25200

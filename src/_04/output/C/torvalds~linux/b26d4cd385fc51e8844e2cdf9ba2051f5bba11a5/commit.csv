@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b26d4cd385fc51e8844e2cdf9ba2051f5bba11a5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"consolidate simple ->d_delete() instances
-
-Rename simple_delete_dentry() to always_delete_dentry() and export it.
-Export simple_dentry_operations, while we are at it, and get rid of
-their duplicates
-
-Signed-off-by: Al Viro <viro@zeniv.linux.org.uk>"|11|Al Viro|viro@zeniv.linux.org.uk|2013-10-25 18:47:37-04:00|14400|Al Viro|viro@zeniv.linux.org.uk|2013-11-15 22:04:17-05:00|18000

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|750b162598ec5b65cdb44d18f050b45cb7f8d31b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"s390/qeth: reduce hard-coded access to ccw channels
-
-Where possible use accessor macros and local pointers to access the ccw
-channels. This makes it less likely to miss a spot.
-
-Signed-off-by: Julian Wiedmann <jwi@linux.ibm.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Julian Wiedmann|jwi@linux.ibm.com|2018-08-09 14:47:59+02:00|-7200|David S. Miller|davem@davemloft.net|2018-08-09 14:02:50-07:00|25200

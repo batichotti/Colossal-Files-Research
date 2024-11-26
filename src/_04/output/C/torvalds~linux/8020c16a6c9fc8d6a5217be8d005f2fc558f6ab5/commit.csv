@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8020c16a6c9fc8d6a5217be8d005f2fc558f6ab5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Fix possible NULL pointer dereference in cmd_complete
-
-It is now possible to create command complete event without specific
-reply data by passing NULL as reply with len 0. Check pointer before
-calling memcpy to avoid undefined behaviour.
-
-Signed-off-by: Szymon Janc <szymon.janc@tieto.com>
-Signed-off-by: Gustavo F. Padovan <padovan@profusion.mobi>"|1|Szymon Janc|szymon.janc@tieto.com|2011-02-28 14:09:50+01:00|-3600|Gustavo F. Padovan|padovan@profusion.mobi|2011-03-01 22:18:17-03:00|10800

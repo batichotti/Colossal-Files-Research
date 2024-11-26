@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ceec03764a3921d03aefe4cc9b3b14cf8527ceff|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: omit init_itable=n in procfs when disabled
-
-Don't show init_itable=n in /proc/fs/ext4/<dev>/options when filesystem
-is mounted with noinit_itable.
-
-Signed-off-by: Tyson Nottingham <tgnottingham@gmail.com>
-Signed-off-by: Theodore Ts'o <tytso@mit.edu>"|1|Tyson Nottingham|tgnottingham@gmail.com|2018-03-30 00:53:33-04:00|14400|Theodore Ts'o|tytso@mit.edu|2018-03-30 00:53:33-04:00|14400

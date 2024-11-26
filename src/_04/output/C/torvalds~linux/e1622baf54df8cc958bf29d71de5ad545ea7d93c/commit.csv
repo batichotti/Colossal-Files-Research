@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e1622baf54df8cc958bf29d71de5ad545ea7d93c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"dev: set iflink to 0 for virtual interfaces
-
-Virtual interfaces are supposed to set an iflink value != of their ifindex.
-It was not the case for some of them, like vxlan, bond or bridge.
-Let's set iflink to 0 when dev->rtnl_link_ops is set.
-
-Signed-off-by: Nicolas Dichtel <nicolas.dichtel@6wind.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Nicolas Dichtel|nicolas.dichtel@6wind.com|2015-04-02 17:07:10+02:00|-7200|David S. Miller|davem@davemloft.net|2015-04-02 14:05:01-04:00|14400

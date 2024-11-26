@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b4cb9fb25e9eae749f456e9e94446650389e736b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Read number of supported IAC on controller setup
-
-When initializing a controller make sure to read out the number of
-supported IAC and store its result. This value is needed to determine
-if limited discoverable for BR/EDR can be configured or not.
-
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>
-Signed-off-by: Gustavo Padovan <gustavo.padovan@collabora.co.uk>"|4|Marcel Holtmann|marcel@holtmann.org|2013-10-14 13:56:16-07:00|25200|Gustavo Padovan|gustavo.padovan@collabora.co.uk|2013-10-14 19:31:12-03:00|10800

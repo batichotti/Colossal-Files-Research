@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b99dbdf00bc13ea6aff9c9bba8919a15c2a510df|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: dsa: mv88e6xxx: use dsa_switch_for_each_port in mv88e6xxx_lag_sync_masks
-
-Make the intent of the code more clear by using the dedicated helper for
-iterating over the ports of a switch.
-
-Signed-off-by: Vladimir Oltean <vladimir.oltean@nxp.com>
-Reviewed-by: Florian Fainelli <f.fainelli@gmail.com>
-Signed-off-by: Jakub Kicinski <kuba@kernel.org>"|1|Vladimir Oltean|vladimir.oltean@nxp.com|2022-02-23 16:00:48+02:00|-7200|Jakub Kicinski|kuba@kernel.org|2022-02-24 21:31:43-08:00|28800

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b12e0ee2080c093a08243726f0f3c57fddf954a5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Enable RC6 immediately
-
-Now that PCU communication is reasonably fast, we do not need to defer
-RC6 initialisation to a workqueue.
-
-References: https://bugs.freedesktop.org/show_bug.cgi?id=97017
-Signed-off-by: Chris Wilson <chris@chris-wilson.co.uk>"|8|Chris Wilson|chris@chris-wilson.co.uk|2016-07-21 18:28:30+01:00|-3600|Chris Wilson|chris@chris-wilson.co.uk|2016-07-21 18:30:22+01:00|-3600

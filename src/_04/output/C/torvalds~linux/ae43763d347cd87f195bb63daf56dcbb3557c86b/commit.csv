@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ae43763d347cd87f195bb63daf56dcbb3557c86b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"staging: comedi: ni_mio_common: remove forward declaration 22
-
-Move ni_rtsi_insn_config() and its helper functions to remove the need
-for the forward declaration.
-
-Signed-off-by: H Hartley Sweeten <hsweeten@visionengravers.com>
-Reviewed-by: Ian Abbott <abbotti@mev.co.uk>
-Signed-off-by: Greg Kroah-Hartman <gregkh@linuxfoundation.org>"|1|H Hartley Sweeten|hsweeten@visionengravers.com|2014-05-28 16:26:45-07:00|25200|Greg Kroah-Hartman|gregkh@linuxfoundation.org|2014-06-18 14:33:52-07:00|25200

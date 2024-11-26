@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2b499381bc50ede01b3d8eab164ca2fad00655f0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ftrace: Have global_ops store the functions that are to be traced
-
-This is a step towards each ops structure defining its own set
-of functions to trace. As the current code with pid's and such
-are specific to the global_ops, it is restructured to be used
-with the global ops.
-
-Signed-off-by: Steven Rostedt <rostedt@goodmis.org>"|1|Steven Rostedt|srostedt@redhat.com|2011-05-03 22:49:52-04:00|14400|Steven Rostedt|rostedt@goodmis.org|2011-05-18 15:29:49-04:00|14400

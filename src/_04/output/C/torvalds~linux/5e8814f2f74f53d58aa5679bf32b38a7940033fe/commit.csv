@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5e8814f2f74f53d58aa5679bf32b38a7940033fe|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: Combine proc file handling into a single set of functions
-
-Previously mballoc created a separate set of functions for each proc
-file.  This combines the tunables into a single set of functions which
-gets used for all of the per-superblock proc files, saving
-approximately 2k of compiled object code.
-
-Signed-off-by: ""Theodore Ts'o"" <tytso@mit.edu>"|4|Theodore Ts'o|tytso@mit.edu|2008-09-23 18:07:35-04:00|14400|Theodore Ts'o|tytso@mit.edu|2008-09-23 18:07:35-04:00|14400

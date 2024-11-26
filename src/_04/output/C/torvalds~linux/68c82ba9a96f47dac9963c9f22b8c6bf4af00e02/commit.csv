@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|68c82ba9a96f47dac9963c9f22b8c6bf4af00e02|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"habanalabs/gaudi: read div_sel value from firmware
-
-Even when running with unsecured f/w, we should read the PLL div_sel
-value from the f/w as this register is always privileged.
-
-Signed-off-by: Ohad Sharabi <osharabi@habana.ai>
-Reviewed-by: Oded Gabbay <ogabbay@kernel.org>
-Signed-off-by: Oded Gabbay <ogabbay@kernel.org>"|1|Ohad Sharabi|osharabi@habana.ai|2022-07-24 10:23:05+03:00|-10800|Oded Gabbay|ogabbay@kernel.org|2022-09-18 13:29:50+03:00|-10800

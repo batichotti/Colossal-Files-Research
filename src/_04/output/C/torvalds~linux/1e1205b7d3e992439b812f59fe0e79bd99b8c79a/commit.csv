@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1e1205b7d3e992439b812f59fe0e79bd99b8c79a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8169: add helper tp_to_dev
-
-In several places struct device is referenced by using &tp->pci_dev->dev.
-Add helper tp_to_dev() to improve code readability.
-
-Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Heiner Kallweit|hkallweit1@gmail.com|2018-03-20 07:45:42+01:00|-3600|David S. Miller|davem@davemloft.net|2018-03-22 11:47:52-04:00|14400

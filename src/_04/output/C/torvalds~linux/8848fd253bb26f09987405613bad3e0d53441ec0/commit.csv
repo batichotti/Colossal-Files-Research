@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8848fd253bb26f09987405613bad3e0d53441ec0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mwl8k: fix GET_STAT firmware command packet layout
-
-The GET_STAT command doesn't have an 'action' field like other
-commands do, so remove it.
-
-Signed-off-by: Lennert Buytenhek <buytenh@marvell.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|1|Lennert Buytenhek|buytenh@wantstofly.org|2009-10-22 20:19:23+02:00|-7200|John W. Linville|linville@tuxdriver.com|2009-11-04 18:44:42-05:00|18000

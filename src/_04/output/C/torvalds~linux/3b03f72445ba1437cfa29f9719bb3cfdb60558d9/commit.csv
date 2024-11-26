@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3b03f72445ba1437cfa29f9719bb3cfdb60558d9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: avoid to use a NULL point in destroy_segment_manager
-
-A NULL point should avoid to be used in destroy_segment_manager after allocating
-memory fail for f2fs_sm_info.
-
-Signed-off-by: Chao Yu <chao2.yu@samsung.com>
-Signed-off-by: Jaegeuk Kim <jaegeuk.kim@samsung.com>"|1|Chao Yu|chao2.yu@samsung.com|2013-11-06 09:12:04+08:00|-28800|Jaegeuk Kim|jaegeuk.kim@samsung.com|2013-11-06 16:37:44+09:00|-32400

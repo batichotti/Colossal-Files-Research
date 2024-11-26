@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a24cae7012b59bfe1aed01fe3fc13d81b7b97b08|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: stmmac: Fix sparse warning
-
-The VID is converted to le16 so the variable must be __le16 type.
-
-Reported-by: kbuild test robot <lkp@intel.com>
-Fixes: c7ab0b8088d7 (""net: stmmac: Fallback to VLAN Perfect filtering if HASH is not available"")
-Signed-off-by: Jose Abreu <Jose.Abreu@synopsys.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|4|Jose Abreu|Jose.Abreu@synopsys.com|2019-11-11 15:42:34+01:00|-3600|David S. Miller|davem@davemloft.net|2019-11-11 23:13:19-08:00|28800

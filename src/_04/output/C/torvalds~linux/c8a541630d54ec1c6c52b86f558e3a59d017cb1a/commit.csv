@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c8a541630d54ec1c6c52b86f558e3a59d017cb1a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"be2net: Fix unnecessary delay in PCI EEH
-
-During PCI EEH, driver waits for all functions in the card.
-Wait is needed only once per card. Fix is to wait only for the
-first PCI function.
-
-Signed-off-by: Padmanabh Ratnakar <padmanabh.ratnakar@emulex.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Padmanabh Ratnakar|padmanabh.ratnakar@emulex.com|2012-10-20 06:03:37+00:00|0|David S. Miller|davem@davemloft.net|2012-10-21 22:15:36-04:00|14400

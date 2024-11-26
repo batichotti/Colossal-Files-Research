@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8fb7e2ef4bab89a7a266ff9ea4d284d0552f4b0d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wifi: mac80211_hwsim: always activate all links
-
-By default, even in client mode, hwsim always had all links
-active, where it then uses them in a round-robin fashion.
-Re-enable that by activating all valid links work right after
-the connection is authorized.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2022-09-02 16:12:57+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2022-09-06 10:17:27+02:00|-7200

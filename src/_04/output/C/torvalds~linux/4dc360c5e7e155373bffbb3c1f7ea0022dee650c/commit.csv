@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4dc360c5e7e155373bffbb3c1f7ea0022dee650c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: validate HWTSTAMP ioctl parameters
-
-This patch adds a sanity check on the values provided by user space for
-the hardware time stamping configuration. If the values lie outside of
-the absolute limits, then the ioctl request will be denied.
-
-Signed-off-by: Richard Cochran <richard.cochran@omicron.at>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Richard Cochran|richard.cochran@omicron.at|2011-10-19 17:00:35-04:00|14400|David S. Miller|davem@davemloft.net|2011-10-19 17:00:35-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|86e65da9c1fc6fb421b9f796b597b3eced6b55ab|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[NET]: Remove explicit initializations of skb->input_dev
-
-Instead, set it in one place, namely the beginning of
-netif_receive_skb().
-
-Based upon suggestions from Jamal Hadi Salim.
-
-Signed-off-by: David S. Miller <davem@davemloft.net>"|7|David S. Miller|davem@davemloft.net|2005-08-09 19:36:29-07:00|25200|David S. Miller|davem@sunset.davemloft.net|2005-08-29 15:33:26-07:00|25200

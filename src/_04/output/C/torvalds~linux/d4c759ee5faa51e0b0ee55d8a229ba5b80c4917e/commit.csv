@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d4c759ee5faa51e0b0ee55d8a229ba5b80c4917e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: use generic terms used for encrypted block management
-
-This patch renames functions regarding to buffer management via META_MAPPING
-used for encrypted blocks especially. We can actually use them in generic way.
-
-Reviewed-by: Chao Yu <yuchao0@huawei.com>
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|5|Jaegeuk Kim|jaegeuk@kernel.org|2017-09-05 17:04:35-07:00|25200|Jaegeuk Kim|jaegeuk@kernel.org|2017-09-05 20:21:48-07:00|25200

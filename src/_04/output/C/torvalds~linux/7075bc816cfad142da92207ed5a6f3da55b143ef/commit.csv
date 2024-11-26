@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7075bc816cfad142da92207ed5a6f3da55b143ef|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: Use standard CR8 flags, and fix TPR definition
-
-Intel manual (and KVM definition) say the TPR is 4 bits wide.  Also fix
-CR8_RESEVED_BITS typo.
-
-Signed-off-by: Rusty Russell <rusty@rustcorp.com.au>
-Acked-by: H. Peter Anvin <hpa@zytor.com>
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|2|Rusty Russell|rusty@rustcorp.com.au|2007-07-17 23:37:17+10:00|-36000|Avi Kivity|avi@qumranet.com|2007-10-13 10:18:19+02:00|-7200

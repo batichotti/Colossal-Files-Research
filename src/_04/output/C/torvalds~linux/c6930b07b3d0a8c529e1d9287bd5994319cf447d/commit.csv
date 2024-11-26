@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c6930b07b3d0a8c529e1d9287bd5994319cf447d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wl12xx: send all pending packets on channel change
-
-There is a race condition between wl1271_tx_work() and the
-channel switch, so make sure all the pending packets are
-being sent before switching channel.
-
-Signed-off-by: Eliad Peller <eliad@wizery.com>
-Signed-off-by: Luciano Coelho <coelho@ti.com>"|1|Eliad Peller|eliad@wizery.com|2011-09-15 13:00:01+03:00|-10800|Luciano Coelho|coelho@ti.com|2011-09-23 14:38:49+03:00|-10800

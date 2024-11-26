@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c5b9b92e07e4973b299537c5c684037349dc7e5c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"be2net: Bug Fix while accounting of multicast frames during netdev stats update
-
-While updating the statistics to be passed via the get_stats,
-tx multicast frames were being accounted instead of rx multicast frames.
-This patch fixes the bug. This patch is against the net-2.6 tree.
-
-Signed-off-by: Ajit Khaparde <ajitk@serverengines.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Ajit Khaparde|ajitk@serverengines.com|2009-10-05 02:21:51+00:00|0|David S. Miller|davem@davemloft.net|2009-10-06 17:33:38-07:00|25200

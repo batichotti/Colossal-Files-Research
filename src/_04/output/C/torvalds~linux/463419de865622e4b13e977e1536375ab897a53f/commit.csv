@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|463419de865622e4b13e977e1536375ab897a53f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ALSA: hda/realtek - List up all available DACs
-
-In the probing phase, create a list of all available DACs in the codec
-and use it for checking the single DAC connections.
-This list will be used in more other places in the later commits, too.
-
-Signed-off-by: Takashi Iwai <tiwai@suse.de>"|1|Takashi Iwai|tiwai@suse.de|2012-12-05 14:17:37+01:00|-3600|Takashi Iwai|tiwai@suse.de|2013-01-10 10:34:26+01:00|-3600

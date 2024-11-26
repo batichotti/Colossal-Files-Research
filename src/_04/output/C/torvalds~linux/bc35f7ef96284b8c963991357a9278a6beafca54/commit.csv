@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bc35f7ef96284b8c963991357a9278a6beafca54|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"workqueue: Convert the type of pool->nr_running to int
-
-It is only modified in associated CPU, so it doesn't need to be atomic.
-
-tj: Comment updated.
-
-Signed-off-by: Lai Jiangshan <laijs@linux.alibaba.com>
-Signed-off-by: Tejun Heo <tj@kernel.org>"|1|Lai Jiangshan|laijs@linux.alibaba.com|2021-12-23 20:31:40+08:00|-28800|Tejun Heo|tj@kernel.org|2022-01-12 07:46:36-10:00|36000

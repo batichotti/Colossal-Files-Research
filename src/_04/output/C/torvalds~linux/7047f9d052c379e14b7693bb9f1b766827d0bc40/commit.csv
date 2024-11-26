@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7047f9d052c379e14b7693bb9f1b766827d0bc40|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: take AF module reference when creating a table
-
-The table refers to data of the AF module, so we need to make sure the
-module isn't unloaded while the table exists.
-
-Signed-off-by: Patrick McHardy <kaber@trash.net>
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|1|Patrick McHardy|kaber@trash.net|2014-01-09 18:42:40+00:00|0|Pablo Neira Ayuso|pablo@netfilter.org|2014-01-09 20:17:16+01:00|-3600

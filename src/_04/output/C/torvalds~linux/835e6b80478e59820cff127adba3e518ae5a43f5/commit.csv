@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|835e6b80478e59820cff127adba3e518ae5a43f5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86 emulator mark VMMCALL and LMSW as privileged
-
-LMSW is present in both group tables. It was marked privileged only in
-one of them. Intel analog of VMMCALL is already marked privileged.
-
-Signed-off-by: Gleb Natapov <gleb@redhat.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|1|Gleb Natapov|gleb@redhat.com|2010-03-03 17:53:05+02:00|-7200|Avi Kivity|avi@redhat.com|2010-05-17 12:15:18+03:00|-10800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ad6260da1e23cf937806e42c8490af3ff4530474|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: drop legacy device assignment
-
-Legacy device assignment has been deprecated since 4.2 (released
-1.5 years ago).  VFIO is better and everyone should have switched to it.
-If they haven't, this should convince them. :)
-
-Reviewed-by: Alex Williamson <alex.williamson@redhat.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|9|Paolo Bonzini|pbonzini@redhat.com|2017-03-27 14:30:40+02:00|-7200|Radim Krčmář|rkrcmar@redhat.com|2017-04-07 16:49:00+02:00|-7200

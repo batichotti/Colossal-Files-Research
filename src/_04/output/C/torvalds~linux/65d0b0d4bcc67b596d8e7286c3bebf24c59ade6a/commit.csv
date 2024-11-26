@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|65d0b0d4bcc67b596d8e7286c3bebf24c59ade6a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: s390: fast path for shadow gmaps in gmap notifier
-
-The default kvm gmap notifier doesn't have to handle shadow gmaps.
-So let's just directly exit in case we get notified about one.
-
-Acked-by: Christian Borntraeger <borntraeger@de.ibm.com>
-Signed-off-by: David Hildenbrand <dahi@linux.vnet.ibm.com>
-Signed-off-by: Christian Borntraeger <borntraeger@de.ibm.com>"|1|David Hildenbrand|dahi@linux.vnet.ibm.com|2015-04-27 16:29:34+02:00|-7200|Christian Borntraeger|borntraeger@de.ibm.com|2016-06-20 09:55:21+02:00|-7200

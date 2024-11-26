@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|48fec5d0a504dfbb302cb1dd24ebb0b82a46cce9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ceph: EIO all operations after forced umount
-
-This patch makes try_get_cap_refs() and __do_request() check
-if the file system was forced umount, and return -EIO if it was.
-This patch also adds a helper function to drops dirty caps and
-wakes up blocking operation.
-
-Signed-off-by: Yan, Zheng <zyan@redhat.com>"|5|Yan, Zheng|zyan@redhat.com|2015-07-01 16:27:46+08:00|-28800|Ilya Dryomov|idryomov@gmail.com|2015-09-08 23:14:28+03:00|-10800

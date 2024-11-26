@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5a70972e142b182fb9375b9060a4dd9fad47fadf|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[media] drxk: get rid of some unused vars
-
-drivers/media/dvb-frontends/drxk_hard.c:68:13: warning: 'IsA1WithPatchCode' defined but not used [-Wunused-function]
-drivers/media/dvb-frontends/drxk_hard.c:73:13: warning: 'IsA1WithRomCode' defined but not used [-Wunused-function]
-
-Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"|2|Mauro Carvalho Chehab|mchehab@redhat.com|2012-10-27 16:12:00-03:00|10800|Mauro Carvalho Chehab|mchehab@redhat.com|2012-10-28 07:38:43-02:00|7200

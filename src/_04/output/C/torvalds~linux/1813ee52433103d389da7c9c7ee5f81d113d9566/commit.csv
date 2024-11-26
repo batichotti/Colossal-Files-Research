@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1813ee52433103d389da7c9c7ee5f81d113d9566|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: hns3: refactor PF rss set APIs with new common rss set APIs
-
-This patch uses new common rss set APIs to replace the old APIs in PF rss
-module and deletes the old rss set APIs. The related macros are also
-modified.
-
-Signed-off-by: Jie Wang <wangjie125@huawei.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|Jie Wang|wangjie125@huawei.com|2022-01-05 22:20:07+08:00|-28800|David S. Miller|davem@davemloft.net|2022-01-05 14:36:36+00:00|0

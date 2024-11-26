@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|46293b940fede04f90aab18d4bfecc5bd942cf3a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ibmvnic: Wait for any pending scrqs entries at driver close
-
-When closing the ibmvnic driver we need to wait for any pending
-sub crq entries to ensure they are handled.
-
-Signed-off-by: Nathan Fontenot <nfont@linux.vnet.ibm.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Nathan Fontenot|nfont@linux.vnet.ibm.com|2017-05-03 14:05:02-04:00|14400|David S. Miller|davem@davemloft.net|2017-05-03 11:33:05-04:00|14400

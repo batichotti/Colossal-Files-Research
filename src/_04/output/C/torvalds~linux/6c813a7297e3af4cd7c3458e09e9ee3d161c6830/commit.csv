@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6c813a7297e3af4cd7c3458e09e9ee3d161c6830|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[IPV6]: Fix crash in ip6_del_rt
-
-ip6_null_entry doesn't have rt6i_table set, when trying to delete it the
-kernel crashes dereferencing table->tb6_lock.
-
-Signed-off-by: Patrick McHardy <kaber@trash.net>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Patrick McHardy|kaber@trash.net|2006-08-06 22:22:47-07:00|25200|David S. Miller|davem@sunset.davemloft.net|2006-09-22 14:53:57-07:00|25200

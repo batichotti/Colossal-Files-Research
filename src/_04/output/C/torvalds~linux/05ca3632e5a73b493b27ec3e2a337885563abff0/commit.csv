@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|05ca3632e5a73b493b27ec3e2a337885563abff0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: add sbi and page pointer in f2fs_io_info
-
-This patch adds f2fs_sb_info and page pointers in f2fs_io_info structure.
-With this change, we can reduce a lot of parameters for IO functions.
-
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|11|Jaegeuk Kim|jaegeuk@kernel.org|2015-04-23 14:38:15-07:00|25200|Jaegeuk Kim|jaegeuk@kernel.org|2015-05-28 15:41:32-07:00|25200

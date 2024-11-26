@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|984b61c35866fc0729801b74c3ce03812a121368|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: pass dev_priv explicitly to TRANSCONF
-
-Avoid the implicit dev_priv local variable use, and pass dev_priv
-explicitly to the TRANSCONF register macro.
-
-Reviewed-by: Rodrigo Vivi <rodrigo.vivi@intel.com>
-Link: https://patchwork.freedesktop.org/patch/msgid/9afc96be1cbe4514cdca701ab434b4c7aa3a55ba.1717514638.git.jani.nikula@intel.com
-Signed-off-by: Jani Nikula <jani.nikula@intel.com>"|12|Jani Nikula|jani.nikula@intel.com|2024-06-04 18:25:36+03:00|-10800|Jani Nikula|jani.nikula@intel.com|2024-06-07 11:13:17+03:00|-10800

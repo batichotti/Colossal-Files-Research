@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d47da6bd4cfa982fe903f33423b9e2ec541e9496|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: hci_core: Fix sending MGMT_EV_CONNECT_FAILED
-
-If HCI_CONN_MGMT_CONNECTED has been set then the event shall be
-HCI_CONN_MGMT_DISCONNECTED.
-
-Fixes: b644ba336997 (""Bluetooth: Update device_connected and device_found events to latest API"")
-Signed-off-by: Luiz Augusto von Dentz <luiz.von.dentz@intel.com>"|3|Luiz Augusto von Dentz|luiz.von.dentz@intel.com|2024-08-30 17:29:27-04:00|14400|Luiz Augusto von Dentz|luiz.von.dentz@intel.com|2024-09-10 13:06:37-04:00|14400

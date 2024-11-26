@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5bc1d1b4a261a865cbde65b1561748df5b9c724b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sctp: remove macros sctp_bh_[un]lock_sock
-
-Redefined bh_[un]lock_sock to sctp_bh[un]lock_sock for user
-space friendly code which we haven't use in years, so removing them.
-
-Signed-off-by: Wang Weidong <wangweidong1@huawei.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|5|wangweidong|wangweidong1@huawei.com|2014-01-21 15:44:12+08:00|-28800|David S. Miller|davem@davemloft.net|2014-01-21 18:41:36-08:00|28800

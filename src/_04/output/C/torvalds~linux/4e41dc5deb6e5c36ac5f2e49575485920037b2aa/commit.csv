@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4e41dc5deb6e5c36ac5f2e49575485920037b2aa|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bnxt_en: Refactor bnxt_need_reserve_rings().
-
-Refactor bnxt_need_reserve_rings() slightly so that __bnxt_reserve_rings()
-can call it and remove some duplicated code.
-
-Signed-off-by: Michael Chan <michael.chan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Michael Chan|michael.chan@broadcom.com|2018-03-31 13:54:19-04:00|14400|David S. Miller|davem@davemloft.net|2018-03-31 23:24:20-04:00|14400

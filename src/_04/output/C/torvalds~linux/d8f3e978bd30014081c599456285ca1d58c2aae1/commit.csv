@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d8f3e978bd30014081c599456285ca1d58c2aae1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bpf: Avoid unnecessary instruction in convert_bpf_ld_abs()
-
-'offset' is constant and if it is zero, no need to subtract it
-from BPF_REG_TMP.
-
-Signed-off-by: David S. Miller <davem@davemloft.net>
-Signed-off-by: Daniel Borkmann <daniel@iogearbox.net>"|1|David Miller|davem@redhat.com|2018-11-26 13:42:41-08:00|28800|Daniel Borkmann|daniel@iogearbox.net|2018-11-26 23:10:27+01:00|-3600

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|239dd4ee4838523419ad16e05b16a2003b71d317|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: mvpp2: do not sleep in set_rx_mode
-
-This patch replaces GFP_KERNEL by GFP_ATOMIC to avoid sleeping in the
-ndo_set_rx_mode() call which is called with BH disabled.
-
-Fixes: 3f518509dedc (""ethernet: Add new driver for Marvell Armada 375 network unit"")
-Signed-off-by: Antoine Tenart <antoine.tenart@free-electrons.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Antoine Tenart|antoine.tenart@free-electrons.com|2017-10-24 11:41:28+02:00|-7200|David S. Miller|davem@davemloft.net|2017-10-26 17:07:52+09:00|-32400

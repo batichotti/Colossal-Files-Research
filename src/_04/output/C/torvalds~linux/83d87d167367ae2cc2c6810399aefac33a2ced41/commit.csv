@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|83d87d167367ae2cc2c6810399aefac33a2ced41|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sched: don't clear PF_VCPU in scheduler
-
-KVM clears it by itself now, and for s390 this is plain wrong.
-
-Signed-off-by: Laurent Vivier <Laurent.Vivier@bull.net>
-Acked-by: Ingo Molnar <mingo@elte.hu>
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|1|Laurent Vivier|Laurent.Vivier@bull.net|2007-10-18 15:19:01+02:00|-7200|Avi Kivity|avi@qumranet.com|2007-10-22 12:03:29+02:00|-7200

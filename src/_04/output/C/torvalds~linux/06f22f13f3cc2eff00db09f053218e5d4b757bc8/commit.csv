@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|06f22f13f3cc2eff00db09f053218e5d4b757bc8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"kmemleak: Add the slub memory allocation/freeing hooks
-
-This patch adds the callbacks to kmemleak_(alloc|free) functions from the
-slub allocator.
-
-Signed-off-by: Catalin Marinas <catalin.marinas@arm.com>
-Cc: Christoph Lameter <cl@linux-foundation.org>
-Reviewed-by: Pekka Enberg <penberg@cs.helsinki.fi>"|1|Catalin Marinas|catalin.marinas@arm.com|2009-06-11 13:23:18+01:00|-3600|Catalin Marinas|catalin.marinas@arm.com|2009-06-11 17:03:30+01:00|-3600

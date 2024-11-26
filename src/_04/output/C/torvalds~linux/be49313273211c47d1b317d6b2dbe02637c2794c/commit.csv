@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|be49313273211c47d1b317d6b2dbe02637c2794c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ftrace: Simplify the hash calculation
-
-No need to add a check to subtract the number of bits if bits is zero after
-fls(). Just divide the size by two before calling it. This does give the
-same answer for size of 0 and 1, but that's fine.
-
-Signed-off-by: Steven Rostedt (VMware) <rostedt@goodmis.org>"|1|Steven Rostedt (VMware)|rostedt@goodmis.org|2020-10-05 20:21:14-04:00|14400|Steven Rostedt (VMware)|rostedt@goodmis.org|2020-10-08 15:29:06-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bf3e5ae1129ef18a702c14fbaac27aeb2fe25e62|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rbd: dynamically allocate image name
-
-There is no need to impose a small limit the length of the rbd image
-name recorded in a struct rbd_dev.  Remove the limitation by
-allocating space for the image name dynamically.
-
-Signed-off-by: Alex Elder <elder@inktank.com>
-Reviewed-by: Josh Durgin <josh.durgin@inktank.com>"|2|Alex Elder|elder@inktank.com|2012-07-09 21:04:23-05:00|18000|Sage Weil|sage@inktank.com|2012-07-30 09:30:04-07:00|25200

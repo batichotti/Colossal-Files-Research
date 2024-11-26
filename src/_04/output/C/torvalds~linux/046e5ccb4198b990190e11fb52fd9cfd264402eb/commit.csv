@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|046e5ccb4198b990190e11fb52fd9cfd264402eb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: Fix the alignment of page data in the getdeviceinfo reply
-
-We can fit the device_addr4 opaque data padding in the pages.
-
-Fixes: cf500bac8fd4 (""SUNRPC: Introduce rpc_prepare_reply_pages()"")
-Signed-off-by: Trond Myklebust <trond.myklebust@hammerspace.com>"|1|Trond Myklebust|trond.myklebust@hammerspace.com|2020-11-13 21:42:16-05:00|18000|Trond Myklebust|trond.myklebust@hammerspace.com|2020-12-02 14:05:53-05:00|18000

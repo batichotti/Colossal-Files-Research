@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|16b4289c7460ba9c04af40c574949dcca9029658|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: Add v4 exception handling for the ACL functions.
-
-This is needed in order to handle any NFS4ERR_DELAY errors that might be
-returned by the server. It also ensures that we map the NFSv4 errors before
-they are returned to userland.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>
-(cherry picked from 71c12b3f0abc7501f6ed231a6d17bc9c05a238dc commit)"|1|Trond Myklebust|Trond.Myklebust@netapp.com|2006-08-24 12:27:15-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2006-08-24 15:54:13-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|db08722fc7d46168fe31d9b8a7b29229dd959f9f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: hci_core: Fix missing instances using HCI_MAX_AD_LENGTH
-
-There a few instances still using HCI_MAX_AD_LENGTH instead of using
-max_adv_len which takes care of detecting what is the actual maximum
-length depending on if the controller supports EA or not.
-
-Fixes: 112b5090c219 (""Bluetooth: MGMT: Fix always using HCI_MAX_AD_LENGTH"")
-Signed-off-by: Luiz Augusto von Dentz <luiz.von.dentz@intel.com>"|3|Luiz Augusto von Dentz|luiz.von.dentz@intel.com|2023-08-18 14:19:27-07:00|25200|Luiz Augusto von Dentz|luiz.von.dentz@intel.com|2023-08-24 12:22:05-07:00|25200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|78383ac951816a64657ca3e17868ad8c7c1b9393|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rtl8xxxu: Reduce console noise when removing the kernel module
-
-USB urbs will return with a status != 0 when rmmod'ing the driver. No
-need to fill the log with messages from rtl8xxxu_int_complete()
-
-Signed-off-by: Jes Sorensen <Jes.Sorensen@redhat.com>
-Signed-off-by: Kalle Valo <kvalo@codeaurora.org>"|1|Jes Sorensen|Jes.Sorensen@redhat.com|2016-06-23 14:35:53-04:00|14400|Kalle Valo|kvalo@codeaurora.org|2016-07-08 12:54:24+03:00|-10800

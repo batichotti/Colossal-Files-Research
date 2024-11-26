@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f062eb6ced3b297277b94b4da3113b1d3782e539|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS: test and free stateids during recovery
-
-When recovering open files and locks, the stateid should be tested
-against the server and freed if it is invalid.  This patch adds new
-recovery functions for NFS v4.1.
-
-Signed-off-by: Bryan Schumaker <bjschuma@netapp.com>
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|1|Bryan Schumaker|bjschuma@netapp.com|2011-06-02 14:59:10-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2011-07-12 13:40:28-04:00|14400

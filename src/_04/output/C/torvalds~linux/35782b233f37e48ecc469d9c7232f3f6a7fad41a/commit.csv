@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|35782b233f37e48ecc469d9c7232f3f6a7fad41a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: remove percpu_count due to performance regression
-
-This patch removes percpu_count usage due to performance regression in iozone.
-
-Fixes: 523be8a6b3 (""f2fs: use percpu_counter for page counters"")
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|3|Jaegeuk Kim|jaegeuk@kernel.org|2016-10-20 19:09:57-07:00|25200|Jaegeuk Kim|jaegeuk@kernel.org|2016-11-23 12:11:10-08:00|28800

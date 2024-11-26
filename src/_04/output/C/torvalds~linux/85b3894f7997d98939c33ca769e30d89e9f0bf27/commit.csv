@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|85b3894f7997d98939c33ca769e30d89e9f0bf27|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: s/ironlake_/intel_ for the enable_share_dpll function
-
-Besides the fairly useless BUG_ON the logic is completely generic
-and cane be used on any platform what wants to reuse the shared
-dpll support code.
-
-Reviewed-by: Damien Lespiau <damien.lespiau@intel.com>
-Signed-off-by: Daniel Vetter <daniel.vetter@ffwll.ch>"|1|Daniel Vetter|daniel.vetter@ffwll.ch|2014-04-24 23:55:14+02:00|-7200|Daniel Vetter|daniel.vetter@ffwll.ch|2014-05-20 15:19:36+02:00|-7200

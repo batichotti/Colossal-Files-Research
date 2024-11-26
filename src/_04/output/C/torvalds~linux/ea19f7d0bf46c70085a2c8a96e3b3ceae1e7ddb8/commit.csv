@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ea19f7d0bf46c70085a2c8a96e3b3ceae1e7ddb8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: Remove IA32_PERF_GLOBAL_OVF_CTRL from KVM_GET_MSR_INDEX_LIST
-
-This MSR reads as 0, and any host-initiated writes are ignored, so
-there's no reason to enumerate it in KVM_GET_MSR_INDEX_LIST.
-
-Signed-off-by: Jim Mattson <jmattson@google.com>
-Link: https://lore.kernel.org/r/20231113184854.2344416-1-jmattson@google.com
-Signed-off-by: Sean Christopherson <seanjc@google.com>"|1|Jim Mattson|jmattson@google.com|2023-11-13 10:48:54-08:00|28800|Sean Christopherson|seanjc@google.com|2024-06-03 09:00:30-07:00|25200

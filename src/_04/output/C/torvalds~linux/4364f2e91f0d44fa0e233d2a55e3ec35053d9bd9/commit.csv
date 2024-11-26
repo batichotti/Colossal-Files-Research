@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4364f2e91f0d44fa0e233d2a55e3ec35053d9bd9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: allow scatternet connections if supported.
-
-This change allows scatternet connections to be created if the
-controller reports support and the HCI_QUIRK_VALID_LE_STATES indicates
-that the reported LE states can be trusted.
-
-Signed-off-by: Alain Michaud <alainm@chromium.org>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|1|Alain Michaud|alainm@chromium.org|2020-04-23 14:43:29+00:00|0|Marcel Holtmann|marcel@holtmann.org|2020-04-28 11:49:12+02:00|-7200

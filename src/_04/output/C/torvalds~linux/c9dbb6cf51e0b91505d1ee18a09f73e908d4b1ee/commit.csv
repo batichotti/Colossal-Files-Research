@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c9dbb6cf51e0b91505d1ee18a09f73e908d4b1ee|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: mvpp2: Don't use an int to store netdev_features_t
-
-int is not long enough to store all netdev_features, use the correct
-dedicated type to store them when building the list of dev->features.
-
-Signed-off-by: Maxime Chevallier <maxime.chevallier@bootlin.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Maxime Chevallier|maxime.chevallier@bootlin.com|2019-03-27 09:44:05+01:00|-3600|David S. Miller|davem@davemloft.net|2019-03-27 11:10:57-07:00|25200

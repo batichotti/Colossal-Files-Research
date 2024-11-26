@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a394425643e1e9c3a624d629fc8ba5633d8474c6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ocfs2: Delete all xattr buckets during inode removal
-
-In inode removal, we need to iterate all the buckets, remove any
-externally-stored EA values and delete the xattr buckets.
-
-Signed-off-by: Tao Ma <tao.ma@oracle.com>
-Signed-off-by: Mark Fasheh <mfasheh@suse.com>"|1|Tao Ma|tao.ma@oracle.com|2008-08-18 17:38:54+08:00|-28800|Mark Fasheh|mfasheh@suse.com|2008-10-13 16:57:03-07:00|25200

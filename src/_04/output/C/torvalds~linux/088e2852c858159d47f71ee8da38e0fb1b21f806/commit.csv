@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|088e2852c858159d47f71ee8da38e0fb1b21f806|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"perfcounters, x86: fix sw counters on non-PMC CPUs
-
-Make perf_max_counters default to at least 1 - this allows the sw
-counters to be used.
-
-Signed-off-by: Ingo Molnar <mingo@elte.hu>"|1|Ingo Molnar|mingo@elte.hu|2008-12-14 20:21:00+01:00|-3600|Ingo Molnar|mingo@elte.hu|2008-12-14 20:31:29+01:00|-3600

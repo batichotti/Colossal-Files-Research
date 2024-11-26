@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|aac00a8d0a53097063da532cbdf0b8775a4dcd53|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: Check for the existence of a delegation in nfs4_open_prepare()
-
-We should not be calling open() on an inode that has a delegation unless
-we're doing a reclaim.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|1|Trond Myklebust|Trond.Myklebust@netapp.com|2007-07-05 19:02:21-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2007-07-10 23:40:43-04:00|14400

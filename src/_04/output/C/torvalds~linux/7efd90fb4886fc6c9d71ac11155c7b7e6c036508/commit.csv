@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7efd90fb4886fc6c9d71ac11155c7b7e6c036508|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Use crtc_state in ironlake_enable_pch_transcoder
-
-Rename intel_crtc to crtc, and pass crtc_state so we don't have to
-dereference crtc->config.
-
-Signed-off-by: Maarten Lankhorst <maarten.lankhorst@linux.intel.com>
-Reviewed-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Link: https://patchwork.freedesktop.org/patch/msgid/20181004094604.2646-5-maarten.lankhorst@linux.intel.com"|1|Maarten Lankhorst|maarten.lankhorst@linux.intel.com|2018-10-04 11:45:55+02:00|-7200|Maarten Lankhorst|maarten.lankhorst@linux.intel.com|2018-10-05 15:17:03+02:00|-7200

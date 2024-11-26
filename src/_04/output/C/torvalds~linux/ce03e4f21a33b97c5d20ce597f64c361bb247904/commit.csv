@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ce03e4f21a33b97c5d20ce597f64c361bb247904|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: When using ept, allow the guest to own cr4.pge
-
-We make no use of cr4.pge if ept is enabled, but the guest does (to flush
-global mappings, as with vmap()), so give the guest ownership of this bit.
-
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Avi Kivity|avi@redhat.com|2009-12-07 12:29:14+02:00|-7200|Marcelo Tosatti|mtosatti@redhat.com|2010-03-01 12:35:39-03:00|10800

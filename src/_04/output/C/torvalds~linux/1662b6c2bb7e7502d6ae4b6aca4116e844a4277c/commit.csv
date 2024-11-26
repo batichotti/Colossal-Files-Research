@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1662b6c2bb7e7502d6ae4b6aca4116e844a4277c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mm/slub: remove freelist_dereference()
-
-freelist_dereference() is a one-liner only used from get_freepointer().
-Remove it and make get_freepointer() call freelist_ptr_decode()
-directly to make the code easier to follow.
-
-Signed-off-by: Vlastimil Babka <vbabka@suse.cz>
-Acked-by: Kees Cook <keescook@chromium.org>"|1|Vlastimil Babka|vbabka@suse.cz|2023-07-11 15:35:33+02:00|-7200|Vlastimil Babka|vbabka@suse.cz|2023-07-14 09:57:21+02:00|-7200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c684fb44c0ffc645adf471b26395e30582ad0ef5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Pass dev_priv to cpt_verify_modeset()
-
-Get rid of the last 'dev' usage in ironlake_crtc_enable() by
-passing dev_priv to cpt_verify_modeset().
-
-Reviewed-by: Manasi Navare <manasi.d.navare@intel.com>
-Signed-off-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Link: https://patchwork.freedesktop.org/patch/msgid/20191118164430.27265-8-ville.syrjala@linux.intel.com"|1|Ville Syrjälä|ville.syrjala@linux.intel.com|2019-11-18 18:44:27+02:00|-7200|Ville Syrjälä|ville.syrjala@linux.intel.com|2019-11-20 17:43:47+02:00|-7200

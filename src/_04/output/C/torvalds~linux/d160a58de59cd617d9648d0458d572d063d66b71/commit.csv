@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d160a58de59cd617d9648d0458d572d063d66b71|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"workqueue: Remove the arguments @hotplug_cpu and @online from wq_update_pod()
-
-The arguments @hotplug_cpu and @online are not used in wq_update_pod()
-since the functions called by wq_update_pod() don't need them.
-
-Signed-off-by: Lai Jiangshan <jiangshan.ljs@antgroup.com>
-Signed-off-by: Tejun Heo <tj@kernel.org>"|1|Lai Jiangshan|jiangshan.ljs@antgroup.com|2024-07-11 16:35:46+08:00|-28800|Tejun Heo|tj@kernel.org|2024-07-11 12:50:35-10:00|36000

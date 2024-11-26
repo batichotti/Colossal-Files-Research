@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4f6a993f96a256e83b9be7612f958c7bc4ca9f00|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"SELinux: move security_skb_extlbl_sid() out of the security server
-
-As suggested, move the security_skb_extlbl_sid() function out of the security
-server and into the SELinux hooks file.
-
-Signed-off-by: Paul Moore <paul.moore@hp.com>
-Acked-by:  Stephen Smalley <sds@tycho.nsa.gov>
-Signed-off-by: James Morris <jmorris@namei.org>"|3|Paul Moore|paul.moore@hp.com|2007-03-01 14:35:22-05:00|18000|James Morris|jmorris@namei.org|2007-04-26 01:35:56-04:00|14400

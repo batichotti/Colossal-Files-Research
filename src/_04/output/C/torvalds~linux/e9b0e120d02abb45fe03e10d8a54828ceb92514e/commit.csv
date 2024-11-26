@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e9b0e120d02abb45fe03e10d8a54828ceb92514e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"platform/x86: thinkpad_acpi: Add dual-fan quirk for T15g (2nd gen)
-
-The ThinkPad T15g Gen 2 has 2 fan, add a TPACPI_FAN_2CTL quirk entry for
-it to the fan_quirk_table[] so that both fans can be controllerd.
-
-Reported-and-tested-by: David Dreschner <david@dreschner.net>
-Signed-off-by: Hans de Goede <hdegoede@redhat.com>
-Link: https://lore.kernel.org/r/20220203103302.49401-1-hdegoede@redhat.com"|1|Hans de Goede|hdegoede@redhat.com|2022-02-03 11:33:02+01:00|-3600|Hans de Goede|hdegoede@redhat.com|2022-02-03 11:54:21+01:00|-3600

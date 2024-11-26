@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|72d7b374b14d67e973bce476e4a75552478cc42d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: introduce ISA specific smi_allowed callback
-
-Similar to NMI, there may be ISA specific reasons why an SMI cannot be
-injected into the guest. This commit adds a new smi_allowed callback to
-be implemented in following commits.
-
-Signed-off-by: Ladi Prosek <lprosek@redhat.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|4|Ladi Prosek|lprosek@redhat.com|2017-10-11 16:54:41+02:00|-7200|Paolo Bonzini|pbonzini@redhat.com|2017-10-12 14:01:55+02:00|-7200

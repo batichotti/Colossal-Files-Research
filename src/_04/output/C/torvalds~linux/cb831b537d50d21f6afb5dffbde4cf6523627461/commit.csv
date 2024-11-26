@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cb831b537d50d21f6afb5dffbde4cf6523627461|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: remove tx_frags driver callback
-
-The implementation of tx_frags is buggy due to
-not handling queue stop, and there's no driver
-implementing it so remove it.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|4|Johannes Berg|johannes.berg@intel.com|2012-07-02 15:40:18+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2012-07-02 15:40:18+02:00|-7200

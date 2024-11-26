@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5e0debe012f31d6409b840920d0c37396d32ce30|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"slub: remove use of page->flags
-
-Use slub->__page_flags instead.  We can also remove the assertion that
-it's not a tail page as struct slab never points to a tail page.
-
-Link: https://lkml.kernel.org/r/20240326171045.410737-9-willy@infradead.org
-Signed-off-by: Matthew Wilcox (Oracle) <willy@infradead.org>
-Signed-off-by: Andrew Morton <akpm@linux-foundation.org>"|1|Matthew Wilcox (Oracle)|willy@infradead.org|2024-03-26 17:10:30+00:00|0|Andrew Morton|akpm@linux-foundation.org|2024-04-25 20:56:15-07:00|25200

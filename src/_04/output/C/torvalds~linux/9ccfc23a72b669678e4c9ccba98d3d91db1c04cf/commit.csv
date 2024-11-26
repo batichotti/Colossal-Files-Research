@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9ccfc23a72b669678e4c9ccba98d3d91db1c04cf|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"smb3: don't set rc when used and unneeded in query_info_compound
-
-rc is not checked so should not be set coming back from open_cached_dir
-(the cfid pointer is checked instead to see if open_cached_dir failed)
-
-Addresses-Coverity: 1518021 (""Code maintainability issues  (UNUSED_VALUE)"")
-Reviewed-by: Ronnie Sahlberg <lsahlber@redhat.com>
-Signed-off-by: Steve French <stfrench@microsoft.com>"|1|Steve French|stfrench@microsoft.com|2022-05-23 20:54:04-05:00|18000|Steve French|stfrench@microsoft.com|2022-05-23 21:02:45-05:00|18000

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7c510e4b730a92cecf94ada45c989d8be0200d47|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: convert more to %pM
-
-A number of places still use %02x:...:%02x because it's
-in debug statements or for no real reason. Make a few
-of them use %pM.
-
-Signed-off-by: Johannes Berg <johannes@sipsolutions.net>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|26|Johannes Berg|johannes@sipsolutions.net|2008-10-27 17:47:26-07:00|25200|David S. Miller|davem@davemloft.net|2008-10-27 17:47:26-07:00|25200

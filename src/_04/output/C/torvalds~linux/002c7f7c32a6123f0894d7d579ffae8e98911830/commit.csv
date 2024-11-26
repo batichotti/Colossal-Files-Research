@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|002c7f7c32a6123f0894d7d579ffae8e98911830|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: Add cpu consistency check
-
-All the physical CPUs on the board should support the same VMX feature
-set.  Add check_processor_compatibility to kvm_arch_ops for the consistency
-check.
-
-Signed-off-by: Sheng Yang <sheng.yang@intel.com>
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|4|Yang, Sheng|sheng.yang@intel.com|2007-07-31 14:23:01+03:00|-10800|Avi Kivity|avi@qumranet.com|2007-10-13 10:18:22+02:00|-7200

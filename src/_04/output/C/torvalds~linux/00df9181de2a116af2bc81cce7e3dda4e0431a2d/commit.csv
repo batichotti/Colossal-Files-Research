@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|00df9181de2a116af2bc81cce7e3dda4e0431a2d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM/nVMX: Remove unneeded forward jump in nested_vmx_check_vmentry_hw asm
-
-There is no need to jump just after the jump insn itself. Also, make
-code similar to entering guest mode in vmx_vcpu_run.
-
-Signed-off-by: Uros Bizjak <ubizjak@gmail.com>
-Reviewed-by: Jim Mattson <jmattson@google.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Uros Bizjak|ubizjak@gmail.com|2018-10-23 00:09:11+02:00|-7200|Paolo Bonzini|pbonzini@redhat.com|2018-11-27 12:53:45+01:00|-3600

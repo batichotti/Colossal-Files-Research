@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|56f787c5024de7829f8cccce7569feb520829baf|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Fix wrong Get Clock Information return parameters
-
-The address information of the Get Clock Information return parameters
-is copying from a different memory location. It uses &cmd->param while
-it actually needs to be cmd->param.
-
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>"|1|Marcel Holtmann|marcel@holtmann.org|2016-08-29 06:19:47+02:00|-7200|Marcel Holtmann|marcel@holtmann.org|2016-09-19 20:19:34+02:00|-7200

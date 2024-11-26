@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c84ce4a7b22aa54017c61217f8a0e5e24d593da1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cifs: remove the kmap size limit from wsize
-
-Now that we're not kmapping so much at once, there's no need to cap
-the wsize at the amount that can be simultaneously kmapped.
-
-Reviewed-by: Pavel Shilovsky <pshilovsky@samba.org>
-Signed-off-by: Jeff Layton <jlayton@redhat.com>
-Signed-off-by: Steve French <smfrench@gmail.com>"|2|Jeff Layton|jlayton@redhat.com|2012-09-18 16:20:36-07:00|25200|Steve French|smfrench@gmail.com|2012-09-24 21:46:31-05:00|18000

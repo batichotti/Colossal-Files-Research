@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7e981a8afa6d8d1d93e2b3d162aa81cc7b537208|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd: use nfs->ns.inum as net ID
-
-Publishing of net pointer is not safe,
-let's use nfs->ns.inum instead
-
-Signed-off-by: Vasily Averin <vvs@virtuozzo.com>
-Signed-off-by: J. Bruce Fields <bfields@redhat.com>"|1|Vasily Averin|vvs@virtuozzo.com|2017-11-06 16:46:04+03:00|-10800|J. Bruce Fields|bfields@redhat.com|2017-11-07 16:44:01-05:00|18000

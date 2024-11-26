@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|122b84a1267aec28ab929edae1ac700a03fb65e0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"virtio-net: don't allocate control_buf if not supported
-
-Not all virtio_net devices support the ctrl queue feature. Thus, there
-is no need to allocate unused resources.
-
-Signed-off-by: Max Gurtovoy <mgurtovoy@nvidia.com>
-Link: https://lore.kernel.org/r/20210502093319.61313-1-mgurtovoy@nvidia.com
-Signed-off-by: Michael S. Tsirkin <mst@redhat.com>"|1|Max Gurtovoy|mgurtovoy@nvidia.com|2021-05-02 12:33:19+03:00|-10800|Michael S. Tsirkin|mst@redhat.com|2021-05-03 04:55:51-04:00|14400

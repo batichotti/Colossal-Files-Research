@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|78f18df4b323d2ac14d6c82e2fc3c8dc4556bccc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"b43: fix tx path skb leaks
-
-ieee80211_free_txskb() needs to be used instead of dev_kfree_skb_any for
-tx packets passed to the driver from mac80211
-
-Signed-off-by: Felix Fietkau <nbd@openwrt.org>
-Cc: stable@vger.kernel.org
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|3|Felix Fietkau|nbd@openwrt.org|2012-12-10 17:40:21+01:00|-3600|John W. Linville|linville@tuxdriver.com|2012-12-10 15:49:59-05:00|18000

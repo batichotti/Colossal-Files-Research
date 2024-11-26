@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e4d4216e91ea31049ba0cde0799ece244410a9f7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cfg80211: combine duplicate wdev init code
-
-There's a bit of duplicated code to initialize a wdev, pull it out
-into a separate function to call from both places.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|3|Johannes Berg|johannes.berg@intel.com|2018-09-13 14:12:03+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2018-10-02 09:56:29+02:00|-7200

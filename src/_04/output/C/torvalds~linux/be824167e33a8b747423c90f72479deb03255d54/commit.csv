@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|be824167e33a8b747423c90f72479deb03255d54|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: Leases are renewed in sequence_done when we have sessions
-
-Ensure that the calls to renew_lease() in open_done() etc. only apply
-to session-less versions of NFSv4.x (i.e. NFSv4.0).
-
-Signed-off-by: Trond Myklebust <trond.myklebust@primarydata.com>"|1|Trond Myklebust|trond.myklebust@primarydata.com|2015-07-05 14:50:46-04:00|14400|Trond Myklebust|trond.myklebust@primarydata.com|2015-07-05 15:50:19-04:00|14400

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c67f5db82027ba6d2ea4ac9176bc45996a03ae6a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"virtio_net: replace netdev_alloc_skb_ip_align() with napi_alloc_skb()
-
-This gives small but noticeable rx performance improvement (2-3%)
-and will allow exploiting future napi improvement.
-
-Signed-off-by: Paolo Abeni <pabeni@redhat.com>
-Signed-off-by: Michael S. Tsirkin <mst@redhat.com>"|1|Paolo Abeni|pabeni@redhat.com|2016-03-17 15:44:00+01:00|-3600|Michael S. Tsirkin|mst@redhat.com|2016-03-17 17:42:00+02:00|-7200

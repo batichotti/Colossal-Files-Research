@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b232e94d2842abb893ccb0a870a8d7a920f87df4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"video: fbdev: sis: sis_main.c: Cleaning up missing null-terminate in conjunction with strncpy
-
-Replacing strncpy with strlcpy to avoid strings that lacks null terminate.
-
-Signed-off-by: Rickard Strandqvist <rickard_strandqvist@spectrumdigital.se>
-Signed-off-by: Tomi Valkeinen <tomi.valkeinen@ti.com>"|1|Rickard Strandqvist|rickard_strandqvist@spectrumdigital.se|2014-09-14 19:35:48+02:00|-7200|Tomi Valkeinen|tomi.valkeinen@ti.com|2014-09-30 13:00:01+03:00|-10800

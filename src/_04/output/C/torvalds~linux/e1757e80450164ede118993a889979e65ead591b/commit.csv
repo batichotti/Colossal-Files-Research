@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e1757e80450164ede118993a889979e65ead591b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rtw89: pci: add variant RPWM/CPWM to enter low power mode
-
-RPWM/CPWM are registers that can set and check low power mode. Since chips
-use different address, add a field to access them in common flow.
-
-Signed-off-by: Ping-Ke Shih <pkshih@realtek.com>
-Signed-off-by: Kalle Valo <kvalo@kernel.org>
-Link: https://lore.kernel.org/r/20220421120903.73715-3-pkshih@realtek.com"|5|Ping-Ke Shih|pkshih@realtek.com|2022-04-21 20:08:51+08:00|-28800|Kalle Valo|kvalo@kernel.org|2022-04-24 14:30:33+03:00|-10800

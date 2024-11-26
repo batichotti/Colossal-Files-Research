@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e694928067b52f569a7df39b7f02efd7b34ab8f4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Fix check for the ERTM local busy state
-
-Local busy is encoded in a bitfield, but was not masked out correctly.
-
-Signed-off-by: Mat Martineau <mathewm@codeaurora.org>
-Signed-off-by: Gustavo F. Padovan <padovan@profusion.mobi>"|1|Mat Martineau|mathewm@codeaurora.org|2011-06-03 16:21:10-07:00|25200|Gustavo F. Padovan|padovan@profusion.mobi|2011-06-08 16:58:19-03:00|10800

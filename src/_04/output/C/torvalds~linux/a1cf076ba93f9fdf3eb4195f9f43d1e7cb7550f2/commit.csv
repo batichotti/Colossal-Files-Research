@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a1cf076ba93f9fdf3eb4195f9f43d1e7cb7550f2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ocfs2: __ocfs2_mark_extent_written() doesn't need struct inode.
-
-We only allow unwritten extents on data, so the toplevel
-ocfs2_mark_extent_written() can use an inode all it wants.  But the
-subfunction isn't even using the inode argument.
-
-Signed-off-by: Joel Becker <joel.becker@oracle.com>"|1|Joel Becker|joel.becker@oracle.com|2009-02-13 03:45:49-08:00|28800|Joel Becker|joel.becker@oracle.com|2009-09-04 16:08:12-07:00|25200

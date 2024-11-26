@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a8c9e5769718d47e87cce40c9b84cab421804797|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: fix orphan cleanup regression
-
-In fixing how we deal with bad inodes, we had a regression in the orphan cleanup
-code, since it expects to get a bad inode back.  So fix it to deal with getting
--ESTALE back by deleting the orphan item manually and moving on.  Thanks,
-
-Reported-by: Simon Kirby <sim@hostway.ca>
-Signed-off-by: Josef Bacik <josef@redhat.com>"|1|Josef Bacik|josef@redhat.com|2011-09-21 16:55:59-04:00|14400|Josef Bacik|josef@redhat.com|2011-10-19 15:12:46-04:00|14400

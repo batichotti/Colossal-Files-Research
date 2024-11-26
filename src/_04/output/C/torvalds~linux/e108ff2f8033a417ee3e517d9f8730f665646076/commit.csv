@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e108ff2f8033a417ee3e517d9f8730f665646076|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: switch to kvm_get_dirty_log_protect
-
-We now have a generic function that does most of the work of
-kvm_vm_ioctl_get_dirty_log, now use it.
-
-Acked-by: Christoffer Dall <christoffer.dall@linaro.org>
-Signed-off-by: Mario Smarduch <m.smarduch@samsung.com>"|4|Paolo Bonzini|pbonzini@redhat.com|2015-01-15 15:58:54-08:00|28800|Christoffer Dall|christoffer.dall@linaro.org|2015-01-16 14:40:14+01:00|-3600

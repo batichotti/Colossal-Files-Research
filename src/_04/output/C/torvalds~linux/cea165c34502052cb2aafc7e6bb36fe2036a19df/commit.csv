@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cea165c34502052cb2aafc7e6bb36fe2036a19df|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Wait for vblank in hsw_enable_ips()
-
-Now that the vblank wait is gone from intel_enable_primary_plane(),
-hsw_enable_ips() needs to do the vblank wait itself.
-
-Signed-off-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Reviewed-by: Rodrigo Vivi <rodrigo.vivi@gmail.com>
-Signed-off-by: Daniel Vetter <daniel.vetter@ffwll.ch>"|2|Ville Syrjälä|ville.syrjala@linux.intel.com|2014-04-15 21:41:35+03:00|-10800|Daniel Vetter|daniel.vetter@ffwll.ch|2014-05-21 09:55:52+02:00|-7200

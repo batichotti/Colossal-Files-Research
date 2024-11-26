@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8f6abd06f521112a0a3bc906df273fa3ce0a9387|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: get rid of mmu_only parameter in emulator_write_emulated()
-
-We can call kvm_mmu_pte_write() directly from
-emulator_cmpxchg_emulated() instead of passing mmu_only down to
-emulator_write_emulated_onepage() and call it there.
-
-Signed-off-by: Gleb Natapov <gleb@redhat.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|1|Gleb Natapov|gleb@redhat.com|2010-04-13 10:21:56+03:00|-10800|Avi Kivity|avi@redhat.com|2010-05-17 12:17:43+03:00|-10800

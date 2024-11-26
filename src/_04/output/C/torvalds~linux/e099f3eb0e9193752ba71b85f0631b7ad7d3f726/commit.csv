@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e099f3eb0e9193752ba71b85f0631b7ad7d3f726|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: RTIT_CTL_BRANCH_EN has no dependency on other CPUID bit
-
-Per Intel SDM, RTIT_CTL_BRANCH_EN bit has no dependency on any CPUID
-leaf 0x14.
-
-Signed-off-by: Xiaoyao Li <xiaoyao.li@intel.com>
-Message-Id: <20210827070249.924633-5-xiaoyao.li@intel.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Xiaoyao Li|xiaoyao.li@intel.com|2021-08-27 15:02:46+08:00|-28800|Paolo Bonzini|pbonzini@redhat.com|2021-10-22 05:19:27-04:00|14400

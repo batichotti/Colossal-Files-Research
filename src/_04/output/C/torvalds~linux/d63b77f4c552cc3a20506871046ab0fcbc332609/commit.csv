@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d63b77f4c552cc3a20506871046ab0fcbc332609|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libceph: check for invalid mapping
-
-If we encounter an invalid (e.g., zeroed) mapping, return an error
-and avoid a divide by zero.
-
-Signed-off-by: Sage Weil <sage@inktank.com>
-Reviewed-by: Alex Elder <elder@inktank.com>"|4|Sage Weil|sage@inktank.com|2012-09-24 20:59:48-07:00|25200|Alex Elder|elder@inktank.com|2012-10-01 17:20:00-05:00|18000

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bb7b40aecbf778c0c83a5bd62b0f03ca9f49a618|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: bogus EBUSY in chain deletions
-
-When removing a rule that jumps to chain and such chain in the same
-batch, this bogusly hits EBUSY. Add activate and deactivate operations
-to expression that can be called from the preparation and the
-commit/abort phases.
-
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|3|Pablo Neira Ayuso|pablo@netfilter.org|2018-05-08 02:43:57+02:00|-7200|Pablo Neira Ayuso|pablo@netfilter.org|2018-05-09 10:09:30+02:00|-7200

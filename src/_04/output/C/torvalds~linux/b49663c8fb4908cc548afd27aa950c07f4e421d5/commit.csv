@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b49663c8fb4908cc548afd27aa950c07f4e421d5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net/mlx5e: Add support for UDP tunnel segmentation with outer checksum offload
-
-This patch assumes that the mlx5 hardware will ignore existing IPv4/v6
-header fields for length and checksum as well as the length and checksum
-fields for outer UDP headers.
-
-Signed-off-by: Alexander Duyck <aduyck@mirantis.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Alexander Duyck|aduyck@mirantis.com|2016-05-02 09:38:43-07:00|25200|David S. Miller|davem@davemloft.net|2016-05-04 13:32:28-04:00|14400

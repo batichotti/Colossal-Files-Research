@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|15192a8cf8a8d16e0ff38a144c8a4630c94f9fd6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bnx2x: Split the FP structure
-
-This patch moves some fields out of the FP structure to different structures, in
-order to minimize size of contigiuous memory allocated.
-
-Signed-off-by: Barak Witkowski <barak@broadcom.com>
-Signed-off-by: Eilon Greenstein <eilong@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|6|Barak Witkowski|barak@broadcom.com|2012-06-19 07:48:28+00:00|0|David S. Miller|davem@davemloft.net|2012-06-19 14:34:35-07:00|25200

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|84d3e7b9573291a1ea845bdd51b74bb484597661|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[TCP]: Move __tcp_data_snd_check into tcp_output.c
-
-It reimplements portions of tcp_snd_check(), so it
-we move it to tcp_output.c we can consolidate it's
-logic much easier in a later change.
-
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|David S. Miller|davem@davemloft.net|2005-07-05 15:18:18-07:00|25200|David S. Miller|davem@davemloft.net|2005-07-05 15:18:18-07:00|25200

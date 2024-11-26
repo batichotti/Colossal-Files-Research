@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f907ad55967fec6bc6ec5ee84021070c49cf0bb1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rbd: allocate name separate from obj_request
-
-The next patch will define a slab allocator for a object requests.
-To use that we'll need to allocate the name of an object separate
-from the request structure itself.
-
-Signed-off-by: Alex Elder <elder@inktank.com>
-Reviewed-by: Josh Durgin <josh.durgin@inktank.com>"|1|Alex Elder|elder@inktank.com|2013-05-01 12:43:03-05:00|18000|Alex Elder|elder@inktank.com|2013-05-02 11:58:29-05:00|18000

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|aef7d97cc604309b66f6f45cce02cd734934cd4e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Convert debug files to actually use debugfs instead of sysfs
-
-Some of the debug files ended up wrongly in sysfs, because at that point
-of time, debugfs didn't exist. Convert these files to use debugfs and
-also seq_file. This patch converts all of these files at once and then
-removes the exported symbol for the Bluetooth sysfs class.
-
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|6|Marcel Holtmann|marcel@holtmann.org|2010-03-21 05:27:45+01:00|-3600|Marcel Holtmann|marcel@holtmann.org|2010-03-21 05:49:35+01:00|-3600

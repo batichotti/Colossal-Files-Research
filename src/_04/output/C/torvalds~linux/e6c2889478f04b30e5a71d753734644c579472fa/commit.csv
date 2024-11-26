@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e6c2889478f04b30e5a71d753734644c579472fa|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cnic: Unify kcq allocation for all devices.
-
-By creating a common data stucture kcq_info for all devices, the kcq
-(kernel completion queue) for all devices can be allocated by common
-code.
-
-Signed-off-by: Michael Chan <mchan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Michael Chan|mchan@broadcom.com|2010-06-24 14:58:39+00:00|0|David S. Miller|davem@davemloft.net|2010-06-25 20:37:19-07:00|25200

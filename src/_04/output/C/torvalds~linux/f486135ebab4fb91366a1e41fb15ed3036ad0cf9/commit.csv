@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f486135ebab4fb91366a1e41fb15ed3036ad0cf9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: remove unused qgroup members from btrfs_trans_handle
-
-The members have been effectively unused since ""Btrfs: rework qgroup
-accounting"" (fcebe4562dec83b3), there's no substitute for
-assert_qgroups_uptodate so it's removed as well.
-
-Reviewed-by: Qu Wenruo <quwenruo@cn.fujitsu.com>
-Signed-off-by: David Sterba <dsterba@suse.com>"|6|David Sterba|dsterba@suse.com|2017-03-15 16:17:03+01:00|-3600|David Sterba|dsterba@suse.com|2017-04-18 14:07:25+02:00|-7200

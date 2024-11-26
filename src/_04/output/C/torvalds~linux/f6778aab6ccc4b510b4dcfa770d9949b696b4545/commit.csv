@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f6778aab6ccc4b510b4dcfa770d9949b696b4545|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sctp: limit maximum autoclose setsockopt value
-
-To avoid overflowing the maximum timer interval when transforming
-the  autoclose interval from seconds to jiffies, limit the maximum
-autoclose value to MAX_SCHEDULE_TIMEOUT/HZ.
-
-Signed-off-by: Andrei Pelinescu-Onciul <andrei@iptel.org>
-Signed-off-by: Vlad Yasevich <vladislav.yasevich@hp.com>"|1|Andrei Pelinescu-Onciul|andrei@iptel.org|2009-11-23 15:54:01-05:00|18000|Vlad Yasevich|vladislav.yasevich@hp.com|2009-11-23 15:54:01-05:00|18000

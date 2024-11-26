@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|aa7a74040a989eeb7a9265550a2538863e842a93|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"regulator: Remove a redundant device_remove_file call in create_regulator
-
-We already have device_remove_file() in error path,
-no need to call it before goto link_name_err.
-
-Signed-off-by: Axel Lin <axel.lin@gmail.com>
-Acked-by: Mark Brown <broonie@opensource.wolfsonmicro.com>
-Signed-off-by: Liam Girdwood <lrg@slimlogic.co.uk>"|1|Axel Lin|axel.lin@gmail.com|2010-11-05 15:25:12+08:00|-28800|Liam Girdwood|lrg@slimlogic.co.uk|2010-11-30 15:13:25+00:00|0

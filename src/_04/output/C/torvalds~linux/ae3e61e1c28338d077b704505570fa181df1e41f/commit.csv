@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ae3e61e1c28338d077b704505570fa181df1e41f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: add support for UMIP
-
-Add the CPUID bits, make the CR4.UMIP bit not reserved anymore, and
-add UMIP support for instructions that are already emulated by KVM.
-
-Reviewed-by: Wanpeng Li <wanpeng.li@hotmail.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|4|Paolo Bonzini|pbonzini@redhat.com|2016-07-12 10:36:41+02:00|-7200|Paolo Bonzini|pbonzini@redhat.com|2017-12-14 09:26:38+01:00|-3600

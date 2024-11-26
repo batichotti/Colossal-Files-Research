@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c9bdf768dd9319d2d80a334646e2c8116af9e430|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mm: convert swap_readpage() to swap_read_folio()
-
-All callers have a folio, so pass it in, saving two calls to
-compound_head().
-
-Link: https://lkml.kernel.org/r/20231213215842.671461-11-willy@infradead.org
-Signed-off-by: Matthew Wilcox (Oracle) <willy@infradead.org>
-Signed-off-by: Andrew Morton <akpm@linux-foundation.org>"|5|Matthew Wilcox (Oracle)|willy@infradead.org|2023-12-13 21:58:39+00:00|0|Andrew Morton|akpm@linux-foundation.org|2023-12-29 11:58:31-08:00|28800

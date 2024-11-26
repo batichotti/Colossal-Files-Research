@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|eb72f74f03125a3a80fb98f41e5aba55cad70c8c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cxgb4: Handle clip return values
-
-Add a warn message when clip table overflows. If clip table isn't
-allocated, return from cxgb4_clip_release() to avoid panic.
-Disable offload if clip isn't enabled in the hardware.
-
-Signed-off-by: Hariprasad Shenai <hariprasad@chelsio.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|Hariprasad Shenai|hariprasad@chelsio.com|2015-12-09 17:16:35+05:30|-19800|David S. Miller|davem@davemloft.net|2015-12-11 20:15:23-05:00|18000

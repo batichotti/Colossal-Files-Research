@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2274543f15133165b855b9a4a1503b2c1268c6cf|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ixgbe: populate the ring->q_vector pointer during ring mapping
-
-The q_vector back pointer was not being set in the rings so it would not
-have been possible to determine the parent q_vector of the ring.
-
-Signed-off-by: Alexander Duyck <alexander.h.duyck@intel.com>
-Tested-by: Ross Brattain <ross.b.brattain@intel.com>
-Signed-off-by: Jeff Kirsher <jeffrey.t.kirsher@intel.com>"|1|Alexander Duyck|alexander.h.duyck@intel.com|2010-11-16 19:27:10-08:00|28800|Jeff Kirsher|jeffrey.t.kirsher@intel.com|2010-11-16 19:27:10-08:00|28800

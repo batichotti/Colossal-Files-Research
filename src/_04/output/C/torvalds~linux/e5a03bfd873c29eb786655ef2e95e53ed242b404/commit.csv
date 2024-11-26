@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e5a03bfd873c29eb786655ef2e95e53ed242b404|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"phy: Add an mdio_device structure
-
-Not all devices attached to an MDIO bus are phys. So add an
-mdio_device structure to represent the generic parts of an mdio
-device, and place this structure into the phy_device.
-
-Signed-off-by: Andrew Lunn <andrew@lunn.ch>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|35|Andrew Lunn|andrew@lunn.ch|2016-01-06 20:11:16+01:00|-3600|David S. Miller|davem@davemloft.net|2016-01-07 14:31:26-05:00|18000

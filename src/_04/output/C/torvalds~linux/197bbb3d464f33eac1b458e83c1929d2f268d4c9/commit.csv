@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|197bbb3d464f33eac1b458e83c1929d2f268d4c9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/radeon/kms: auto detect pcie link speed from root port
-
-This check the root ports supported link speeds and enables
-GEN2 mode if the 5.0 GT link speed is available.
-
-The first 3.0 cards are SI so they will probably need more investigation.
-
-Signed-off-by: Dave Airlie <airlied@redhat.com>"|4|Dave Airlie|airlied@redhat.com|2012-06-27 08:35:54+01:00|-3600|Dave Airlie|airlied@redhat.com|2012-07-19 22:30:32-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|265697eb2f1b6c472c4b09ff7e008bc8ab145b4f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rtl8xxxu: Pause TX before calling disable_rf()
-
-All the disable_rf() functions were setting REG_TXPAUSE to 0xff to
-stop transmission. Do it centrally before calling disable_rf()
-instead.
-
-Signed-off-by: Jes Sorensen <Jes.Sorensen@redhat.com>
-Signed-off-by: Kalle Valo <kvalo@codeaurora.org>"|1|Jes Sorensen|Jes.Sorensen@redhat.com|2016-04-14 16:37:20-04:00|14400|Kalle Valo|kvalo@codeaurora.org|2016-04-15 21:38:16+03:00|-10800

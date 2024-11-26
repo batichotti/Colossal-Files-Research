@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f14d104dbdb5044dac9acd0e983ffb60f706c746|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: switch more printks to our helpers
-
-Convert the simple cases, not all functions provide a way to reach the
-fs_info. Also skipped debugging messages (print-tree, integrity
-checker and pr_debug) and messages that are printed from possibly
-unfinished mount.
-
-Signed-off-by: David Sterba <dsterba@suse.com>"|6|David Sterba|dsterba@suse.com|2015-10-08 11:37:06+02:00|-7200|David Sterba|dsterba@suse.com|2015-10-08 13:08:03+02:00|-7200

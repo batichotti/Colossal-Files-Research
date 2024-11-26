@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c5e4df3382681c8ed214ee93bbe8f96044980485|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: more conversion from connector_list walk to encoder_list
-
-What we really want is encoder info instead of connector, so change
-some more list walk in pipeline setup functions from connector_list
-to encoder_list.
-
-Signed-off-by: Zhenyu Wang <zhenyuw@linux.intel.com>
-Signed-off-by: Eric Anholt <eric@anholt.net>"|1|Zhenyu Wang|zhenyuw@linux.intel.com|2010-03-30 14:39:27+08:00|-28800|Eric Anholt|eric@anholt.net|2010-04-09 14:16:36-07:00|25200

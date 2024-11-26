@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a2c5826095562983bf316e3a7eb137ef04a71a24|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"crypto: testmgr - add larger cast5 testvectors
-
-New ECB, CBC and CTR testvectors for cast5. We need larger testvectors to check
-parallel code paths in the optimized implementation. Tests have also been added
-to the tcrypt module.
-
-Signed-off-by: Johannes Goetzfried <Johannes.Goetzfried@informatik.stud.uni-erlangen.de>
-Signed-off-by: Herbert Xu <herbert@gondor.apana.org.au>"|4|Johannes Goetzfried|Johannes.Goetzfried@informatik.stud.uni-erlangen.de|2012-07-11 19:37:21+02:00|-7200|Herbert Xu|herbert@gondor.apana.org.au|2012-08-01 17:47:29+08:00|-28800

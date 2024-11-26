@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|41be4da4e85e58520b934040966a6ae919c66c2d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ring-buffer: reset write field for ring_buffer_read_page
-
-Impact: fix ring_buffer_read_page
-
-After a page is swapped into the ring buffer, the write field must
-also be reset.
-
-Signed-off-by: Steven Rostedt <srostedt@redhat.com>"|1|Steven Rostedt|srostedt@redhat.com|2009-03-02 20:56:48-05:00|18000|Steven Rostedt|srostedt@redhat.com|2009-03-03 20:50:54-05:00|18000

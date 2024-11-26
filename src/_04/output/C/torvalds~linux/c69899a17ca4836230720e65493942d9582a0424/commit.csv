@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c69899a17ca4836230720e65493942d9582a0424|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: Update of VFS byte range lock must be atomic with the stateid update
-
-Ensure that we test the lock stateid remained unchanged while we were
-updating the VFS tracking of the byte range lock. Have the process
-replay the lock to the server if we detect that was not the case.
-
-Signed-off-by: Trond Myklebust <trond.myklebust@primarydata.com>"|2|Trond Myklebust|trond.myklebust@primarydata.com|2015-01-24 16:03:52-05:00|18000|Trond Myklebust|trond.myklebust@primarydata.com|2015-01-24 18:46:47-05:00|18000

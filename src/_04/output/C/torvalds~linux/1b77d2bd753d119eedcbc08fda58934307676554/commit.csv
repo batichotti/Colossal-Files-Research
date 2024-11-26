@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1b77d2bd753d119eedcbc08fda58934307676554|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mlx5: Use enum to indicate adapter page size
-
-The Connect-IB adapter has an inherent page size which equals 4K.
-Define an new enum that equals the page shift and use it instead of
-using the value 12 throughout the code.
-
-Signed-off-by: Eli Cohen <eli@mellanox.com>
-Signed-off-by: Roland Dreier <roland@purestorage.com>"|5|Eli Cohen|eli@dev.mellanox.co.il|2013-10-24 12:01:03+03:00|-10800|Roland Dreier|roland@purestorage.com|2013-11-08 14:43:01-08:00|28800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5943691442ae248977a2e3cac814ed5ac606903c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cnic: Fix missing ISCSI_KEVENT_IF_DOWN message
-
-The iSCSI netlink message needs to be sent before the ulp_ops is cleared
-as it is sent through a function pointer in the ulp_ops.  This bug
-causes iscsid to not get the message when the bnx2i driver is unloaded.
-
-Signed-off-by: Michael Chan <mchan@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Michael Chan|mchan@broadcom.com|2014-06-02 23:08:48-07:00|25200|David S. Miller|davem@davemloft.net|2014-06-02 23:16:41-07:00|25200

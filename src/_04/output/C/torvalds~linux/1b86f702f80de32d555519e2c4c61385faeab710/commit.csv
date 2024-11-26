@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1b86f702f80de32d555519e2c4c61385faeab710|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: phy: Remove residual magic from PHY drivers
-
-commit fa8cddaf903c (""net phylib: Remove unnecessary condition check in phy"")
-removed the only place where the PHY flag PHY_HAS_MAGICANEG was
-checked. But it left the flag being set in the drivers. Remove the flag.
-
-Signed-off-by: Andrew Lunn <andrew@lunn.ch>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|5|Andrew Lunn|andrew@lunn.ch|2017-05-16 18:29:11+02:00|-7200|David S. Miller|davem@davemloft.net|2017-05-16 15:58:18-04:00|14400

@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|18bb1db3e7607e4a997d50991a6f9fa5b0f8722c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"switch vfs_mkdir() and ->mkdir() to umode_t
-
-vfs_mkdir() gets int, but immediately drops everything that might not
-fit into umode_t and that's the only caller of ->mkdir()...
-
-Signed-off-by: Al Viro <viro@zeniv.linux.org.uk>"|56|Al Viro|viro@zeniv.linux.org.uk|2011-07-26 01:41:39-04:00|14400|Al Viro|viro@zeniv.linux.org.uk|2012-01-03 22:54:53-05:00|18000

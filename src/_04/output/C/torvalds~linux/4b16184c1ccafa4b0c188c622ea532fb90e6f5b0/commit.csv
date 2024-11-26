@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4b16184c1ccafa4b0c188c622ea532fb90e6f5b0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: SVM: Initialize Nested Nested MMU context on VMRUN
-
-This patch adds code to initialize the Nested Nested Paging
-MMU context when the L1 guest executes a VMRUN instruction
-and has nested paging enabled in its VMCB.
-
-Signed-off-by: Joerg Roedel <joerg.roedel@amd.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|2|Joerg Roedel|joerg.roedel@amd.com|2010-09-10 17:31:03+02:00|-7200|Avi Kivity|avi@redhat.com|2010-10-24 10:52:46+02:00|-7200

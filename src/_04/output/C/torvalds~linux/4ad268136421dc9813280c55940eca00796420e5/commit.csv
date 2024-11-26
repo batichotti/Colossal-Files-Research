@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4ad268136421dc9813280c55940eca00796420e5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ipv6: prepare inet6_fill_ifla6_attrs() for RCU
-
-We want to no longer hold RTNL while calling inet6_fill_ifla6_attrs()
-in the future. Add needed READ_ONCE()/WRITE_ONCE() annotations.
-
-Signed-off-by: Eric Dumazet <edumazet@google.com>
-Reviewed-by: Donald Hunter <donald.hunter@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Eric Dumazet|edumazet@google.com|2024-02-22 10:50:09+00:00|0|David S. Miller|davem@davemloft.net|2024-02-26 11:46:12+00:00|0

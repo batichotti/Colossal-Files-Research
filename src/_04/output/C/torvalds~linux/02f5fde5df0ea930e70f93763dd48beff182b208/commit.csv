@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|02f5fde5df0ea930e70f93763dd48beff182b208|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd: fix endianness breakage in TEST_STATEID handling
-
-->ts_id_status gets nfs errno, i.e. it's already big-endian; no need
-to apply htonl() to it.  Broken by commit 174568 (NFSD: Added TEST_STATEID
-operation) last year...
-
-Signed-off-by: Al Viro <viro@zeniv.linux.org.uk>"|1|Al Viro|viro@zeniv.linux.org.uk|2012-04-13 00:10:34-04:00|14400|Al Viro|viro@zeniv.linux.org.uk|2012-04-13 10:12:01-04:00|14400

@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|df8964554a4e19c8ddcc4d9c642c4d267662d770|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv41: Further cleanup for nfs4_sequence_done
-
-Instead of testing if the nfs_client has a session, we should be testing if
-the struct nfs4_sequence_res was set up with one.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|1|Trond Myklebust|Trond.Myklebust@netapp.com|2010-06-16 09:52:26-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2010-06-22 13:24:02-04:00|14400

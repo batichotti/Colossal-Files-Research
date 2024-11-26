@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|677100ce151149e2e578d138fc83bde50bb9f686|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Pass atomic state to verify_connector_state
-
-This gets rid of a warning that the connectors are used without locking
-when doing a nonblocking modeset.
-
-Signed-off-by: Maarten Lankhorst <maarten.lankhorst@linux.intel.com>
-Reviewed-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Link: http://patchwork.freedesktop.org/patch/msgid/1478609742-13603-11-git-send-email-maarten.lankhorst@linux.intel.com"|1|Maarten Lankhorst|maarten.lankhorst@linux.intel.com|2016-11-08 13:55:41+01:00|-3600|Maarten Lankhorst|maarten.lankhorst@linux.intel.com|2016-11-09 13:55:21+01:00|-3600

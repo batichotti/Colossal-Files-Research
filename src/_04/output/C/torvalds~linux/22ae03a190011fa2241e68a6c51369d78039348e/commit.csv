@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|22ae03a190011fa2241e68a6c51369d78039348e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"forcedeth bug fix: realtek phy 8211c errata
-
-This patch adds support for the realtek 8211c phy. The driver must
-perform a hardware reset of the phy due to an errata where the phy could
-not detect the link.
-
-Signed-off-by: Ayaz Abdulla <aabdulla@nvidia.com>
-Signed-off-by: Jeff Garzik <jgarzik@redhat.com>"|1|Ayaz Abdulla|aabdulla@nvidia.com|2008-07-25 15:31:29-04:00|14400|Jeff Garzik|jgarzik@redhat.com|2008-07-29 17:48:22-04:00|14400

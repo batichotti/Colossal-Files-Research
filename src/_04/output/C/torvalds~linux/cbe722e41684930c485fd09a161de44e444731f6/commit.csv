@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cbe722e41684930c485fd09a161de44e444731f6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"habanalabs: remove redundant CB size adjustment
-
-Driver-initiated DMA jobs are synchronized jobs, i.e. the driver polls on
-fence object until the job is finished. There is no interrupt from the
-device. Therefore, no need to add space for 2 * msg_prot packets to the
-end of the CB. Only a single msg_prot is needed (to write the fence).
-
-Signed-off-by: Oded Gabbay <oded.gabbay@gmail.com>"|1|Oded Gabbay|oded.gabbay@gmail.com|2019-05-09 01:44:13+03:00|-10800|Oded Gabbay|oded.gabbay@gmail.com|2019-05-09 01:44:13+03:00|-10800

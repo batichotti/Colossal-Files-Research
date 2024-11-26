@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|406e988bef742aa74cdc1f5fafc812ecebf7c02b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"thinkpad-acpi: silence hotkey enable warning for module parameter
-
-Avoid the WARN() when the procfs handler for hotkey enable is used by
-a module parameter.  Instead, urge the user to stop doing that.
-
-Reported-by: Niel Lambrechts <niel.lambrechts@gmail.com>
-Signed-off-by: Henrique de Moraes Holschuh <hmh@hmh.eng.br>
-Signed-off-by: Len Brown <len.brown@intel.com>"|1|Henrique de Moraes Holschuh|hmh@hmh.eng.br|2009-04-14 02:44:10+00:00|0|Len Brown|len.brown@intel.com|2009-04-18 01:19:53-04:00|14400

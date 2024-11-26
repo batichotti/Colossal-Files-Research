@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bcecff77a9c743ff67fdddeabc30ef76a6877886|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS: Use unsigned intermediates for manipulating header lengths (NFSv4 XDR)
-
-Clean up: prevent length underflow and mixed sign comparison when
-unmarshalling NFS version 4 getacl, readdir, and readlink replies.
-
-Signed-off-by: Chuck Lever <chuck.lever@oracle.com>
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|1|Chuck Lever|chuck.lever@oracle.com|2007-10-26 13:32:03-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2008-01-30 02:05:44-05:00|18000

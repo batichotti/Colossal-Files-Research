@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d9ddbf5d9225a417076e89ef650dd276165dfd07|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4.1: nfs4_proc_bind_conn_to_session must iterate over all connections
-
-Use the new helper to ensure that nfs4_proc_bind_conn_to_session() is called
-for all connections.
-However ensure that we only set the backchannel flag for the connection
-pointed to by rpc_clnt->cl_xprt.
-
-Signed-off-by: Trond Myklebust <trond.myklebust@primarydata.com>"|1|Trond Myklebust|trond.myklebust@primarydata.com|2016-01-30 22:58:24-05:00|18000|Trond Myklebust|trond.myklebust@primarydata.com|2016-02-05 18:48:56-05:00|18000

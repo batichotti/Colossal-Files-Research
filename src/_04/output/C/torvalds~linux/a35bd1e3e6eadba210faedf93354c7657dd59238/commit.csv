@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a35bd1e3e6eadba210faedf93354c7657dd59238|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ALSA: hda - Fix missing call of capture_switch_hook
-
-When a standard capture switch without multiple binding is used, the
-call for capture_switch_hook isn't called properly.  Replace the put
-ops to add the hook call in that case.
-
-Signed-off-by: Takashi Iwai <tiwai@suse.de>"|1|Takashi Iwai|tiwai@suse.de|2013-01-18 14:01:14+01:00|-3600|Takashi Iwai|tiwai@suse.de|2013-01-18 14:02:51+01:00|-3600

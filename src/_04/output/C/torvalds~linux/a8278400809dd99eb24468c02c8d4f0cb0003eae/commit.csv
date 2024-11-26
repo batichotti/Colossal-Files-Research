@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a8278400809dd99eb24468c02c8d4f0cb0003eae|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: use NLM_F_NONREC for deletion requests
-
-Bail out if user requests non-recursive deletion for tables and sets.
-This new flags tells nf_tables netlink interface to reject deletions if
-tables and sets have content.
-
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|1|Pablo Neira Ayuso|pablo@netfilter.org|2017-09-03 23:56:00+02:00|-7200|Pablo Neira Ayuso|pablo@netfilter.org|2017-09-04 17:34:55+02:00|-7200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fd206508492caffaccc36cbfc40d3b1f8eeb1f0b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[media] dib0700: fix possible NULL pointer dereference
-
-Seems like 'adap->fe' test for NULL was meant to be before we dereference
-that pointer.
-
-Signed-off-by: Mariusz Kozlowski <mk@lab.zgora.pl>
-Acked-by: Patrick Boettcher <patrick.boettcher@dibcom.fr>
-Signed-off-by: Mauro Carvalho Chehab <mchehab@redhat.com>"|1|Mariusz Kozlowski|mk@lab.zgora.pl|2011-03-26 15:23:56-03:00|10800|Mauro Carvalho Chehab|mchehab@redhat.com|2011-05-20 09:28:26-03:00|10800

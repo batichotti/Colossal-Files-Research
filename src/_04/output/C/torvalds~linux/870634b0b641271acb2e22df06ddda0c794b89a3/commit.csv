@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|870634b0b641271acb2e22df06ddda0c794b89a3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: bnx2x: fix error value sign
-
-bnx2x_init_one() should return negative value on error.
-By mistake it returns ENODEV instead of -ENODEV.
-
-Signed-off-by: Vasiliy Kulikov <segoon@openwall.com>
-Acked-by: Eilon Greenstein <eilong@broadcom.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Vasiliy Kulikov|segoon@openwall.com|2010-11-14 10:08:34+00:00|0|David S. Miller|davem@davemloft.net|2010-11-17 12:22:38-08:00|28800

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b4e818768d50a5b7aa1635676839682bcf0691b6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ALSA: hda - Fix mute-LED sync on HP laptops with IDT92HD83xxx codecs
-
-The mute-LED isn't synchronized with the actual mute state on some
-HP laptops with IDT 92HD83xxx codecs.  A similar hack using
-check_power_status callback is added for this codec, too.
-
-Signed-off-by: Takashi Iwai <tiwai@suse.de>"|2|Takashi Iwai|tiwai@suse.de|2009-11-18 17:20:24+01:00|-3600|Takashi Iwai|tiwai@suse.de|2009-11-18 17:22:07+01:00|-3600

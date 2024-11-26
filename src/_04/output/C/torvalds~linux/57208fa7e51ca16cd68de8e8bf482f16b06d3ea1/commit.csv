@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|57208fa7e51ca16cd68de8e8bf482f16b06d3ea1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS: Create an write_pageio_init() function
-
-pNFS needs to select a write function based on the layout driver
-currently in use, so I let each NFS version decide how to best handle
-initializing writes.
-
-Signed-off-by: Bryan Schumaker <bjschuma@netapp.com>
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|8|Bryan Schumaker|bjschuma@netapp.com|2012-06-20 15:53:48-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2012-06-29 11:46:46-04:00|14400

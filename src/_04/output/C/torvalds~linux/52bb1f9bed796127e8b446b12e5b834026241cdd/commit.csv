@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|52bb1f9bed796127e8b446b12e5b834026241cdd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rbd: harden rbd_dev_refresh() and callers a bit
-
-Recently discovered watch/notify problems showed that we really can't
-ignore errors in anything refresh related.  Alas, currently there is
-not much we can do in response to those errors, except print warnings.
-
-Signed-off-by: Ilya Dryomov <ilya.dryomov@inktank.com>
-Reviewed-by: Alex Elder <elder@linaro.org>"|1|Ilya Dryomov|ilya.dryomov@inktank.com|2014-07-23 17:11:20+04:00|-14400|Ilya Dryomov|ilya.dryomov@inktank.com|2014-07-25 13:15:44+04:00|-14400

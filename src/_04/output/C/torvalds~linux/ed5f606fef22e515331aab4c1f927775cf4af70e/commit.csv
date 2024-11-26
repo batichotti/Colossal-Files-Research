@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ed5f606fef22e515331aab4c1f927775cf4af70e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] mpt fusion: convert inactive_list_mutex to a mutex
-
-the semaphore inactive_list_mutex is used as a mutex, convert it to
-the mutex API
-
-Signed-off-by: Matthias Kaehlcke <matthias@kaehlcke.net>
-Acked-by: ""Moore, Eric"" <Eric.Moore@lsi.com>
-Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"|3|Matthias Kaehlcke|matthias@kaehlcke.net|2008-03-09 12:16:27+01:00|-3600|James Bottomley|James.Bottomley@HansenPartnership.com|2008-04-07 12:15:44-05:00|18000

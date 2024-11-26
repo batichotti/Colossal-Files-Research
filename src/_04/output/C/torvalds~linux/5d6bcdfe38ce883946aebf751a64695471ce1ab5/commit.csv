@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5d6bcdfe38ce883946aebf751a64695471ce1ab5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: use DMA_x_DEVICE and dma_mapping_error with skb_frag_dma_map
-
-When I converted some drivers from pci_map_page to skb_frag_dma_map I
-neglected to convert PCI_DMA_xDEVICE into DMA_x_DEVICE and
-pci_dma_mapping_error into dma_mapping_error.
-
-Signed-off-by: Ian Campbell <ian.campbell@citrix.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|29|Ian Campbell|ian.campbell@citrix.com|2011-10-06 11:10:48+01:00|-3600|David S. Miller|davem@davemloft.net|2011-10-06 16:17:20-04:00|14400

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|44f6d42cbd6e4c1d4d25f19502dd5f27aedf89d4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: remove 5/10 MHz rate code from station MLME
-
-There's no need for the station MLME code to handle bitrates for 5
-or 10 MHz channels when it can't ever create such a configuration.
-Remove the unnecessary code.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|1|Johannes Berg|johannes.berg@intel.com|2017-06-10 13:52:44+03:00|-10800|Johannes Berg|johannes.berg@intel.com|2017-06-13 10:24:32+02:00|-7200

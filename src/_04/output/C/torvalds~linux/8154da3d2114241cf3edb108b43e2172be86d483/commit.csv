@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8154da3d2114241cf3edb108b43e2172be86d483|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ocfs2: Add incompatible flag for extended attribute
-
-This patch adds the s_incompat flag for extended attribute support. This
-helps us ensure that older versions of Ocfs2 or ocfs2-tools will not be able
-to mount a volume with xattr support.
-
-Signed-off-by: Tiger Yang <tiger.yang@oracle.com>
-Signed-off-by: Mark Fasheh <mfasheh@suse.com>"|4|Tiger Yang|tiger.yang@oracle.com|2008-08-18 17:11:46+08:00|-28800|Mark Fasheh|mfasheh@suse.com|2008-10-13 16:57:03-07:00|25200

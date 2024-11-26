@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9eed0735ca6a5cf386a4998ad4b6d52d1e29353f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: s390: provide control registers via kvm_run
-
-There are several cases were we need the control registers for
-userspace. Lets also provide those in kvm_run.
-
-Signed-off-by: Christian Borntraeger <borntraeger@de.ibm.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|2|Christian Borntraeger|borntraeger@de.ibm.com|2012-02-06 10:59:07+01:00|-3600|Avi Kivity|avi@redhat.com|2012-03-08 14:10:18+02:00|-7200

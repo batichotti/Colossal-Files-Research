@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a11e5b3e7a59fde1a90b0eaeaa82320495cf8cae|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tcp: Fix data-races around sysctl_tcp_max_reordering.
-
-While reading sysctl_tcp_max_reordering, it can be changed
-concurrently.  Thus, we need to add READ_ONCE() to its readers.
-
-Fixes: dca145ffaa8d (""tcp: allow for bigger reordering level"")
-Signed-off-by: Kuniyuki Iwashima <kuniyu@amazon.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Kuniyuki Iwashima|kuniyu@amazon.com|2022-07-18 10:26:53-07:00|25200|David S. Miller|davem@davemloft.net|2022-07-20 10:14:50+01:00|-3600

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|aef36b88229a6e5ea4f23d19e8b5c72cf1261f18|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mlxsw: Remove ndo_get_port_parent_id implementation
-
-Remove implementation of get_port_parent_id ndo and rely on core calling
-into devlink for the information directly.
-
-Signed-off-by: Jiri Pirko <jiri@mellanox.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|Jiri Pirko|jiri@mellanox.com|2019-04-03 14:24:19+02:00|-7200|David S. Miller|davem@davemloft.net|2019-04-04 17:42:36-07:00|25200

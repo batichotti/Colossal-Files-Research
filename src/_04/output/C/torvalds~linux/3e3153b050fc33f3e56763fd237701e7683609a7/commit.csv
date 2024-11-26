@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3e3153b050fc33f3e56763fd237701e7683609a7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: arcmsr: Use dma_alloc_coherent to replace dma_zalloc_coherent
-
-From Ching Huang <ching2048@areca.com.tw>
-
-dma_zalloc_coherent will be phased out. Use dma_alloc_coherent instead.
-
-Signed-off-by: Ching Huang <ching2048@areca.com.tw>
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|1|Ching Huang|ching2048@areca.com.tw|2019-01-18 10:53:41+08:00|-28800|Martin K. Petersen|martin.petersen@oracle.com|2019-01-22 21:38:21-05:00|18000

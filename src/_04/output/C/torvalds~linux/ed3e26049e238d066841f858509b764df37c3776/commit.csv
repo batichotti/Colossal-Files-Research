@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ed3e26049e238d066841f858509b764df37c3776|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sh-pfc: r8a7790: Don't use GPIO enum entries
-
-Refactor the GPIO macro magic to use GPIO numbers directly instead of
-the GPIO_GP_x_y enum entries. This will allow removing the GPIO enum
-entries from the mach/r8a7790.h header.
-
-Signed-off-by: Laurent Pinchart <laurent.pinchart+renesas@ideasonboard.com>
-Signed-off-by: Simon Horman <horms+renesas@verge.net.au>"|1|Laurent Pinchart|laurent.pinchart+renesas@ideasonboard.com|2013-04-08 11:36:20+02:00|-7200|Simon Horman|horms+renesas@verge.net.au|2013-06-04 21:04:01+09:00|-32400

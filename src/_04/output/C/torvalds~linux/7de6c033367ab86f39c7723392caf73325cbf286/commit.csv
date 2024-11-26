@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7de6c033367ab86f39c7723392caf73325cbf286|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SKB]: __skb_append = __skb_queue_after 
-
-This expresses __skb_append in terms of __skb_queue_after, exploiting that
-
-  __skb_append(old, new, list) = __skb_queue_after(list, old, new).
-
-Signed-off-by: Gerrit Renker <gerrit@erg.abdn.ac.uk>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|4|Gerrit Renker|gerrit@erg.abdn.ac.uk|2008-04-14 00:05:09-07:00|25200|David S. Miller|davem@davemloft.net|2008-04-14 00:05:09-07:00|25200

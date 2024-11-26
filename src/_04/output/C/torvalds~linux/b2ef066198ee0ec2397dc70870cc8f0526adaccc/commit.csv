@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b2ef066198ee0ec2397dc70870cc8f0526adaccc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Relocate intel_dp_program_link_training_pattern()
-
-intel_dp_program_link_training_pattern() clearly belongs in
-intel_dp_link_training.c. Make it so.
-
-Reviewed-by: Daniel Vetter <daniel.vetter@ffwll.ch>
-Signed-off-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Link: https://patchwork.freedesktop.org/patch/msgid/20210318161015.22070-4-ville.syrjala@linux.intel.com"|4|Ville Syrjälä|ville.syrjala@linux.intel.com|2021-03-18 18:10:11+02:00|-7200|Ville Syrjälä|ville.syrjala@linux.intel.com|2021-03-19 18:31:01+02:00|-7200

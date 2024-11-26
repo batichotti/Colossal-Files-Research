@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e74da5235cec6cb71eb338c987f876ecc793138b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tracing: fix seq read from trace files
-
-The buffer used by trace_seq was updated incorrectly. Instead
-of consuming what was actually read, it consumed the rest of the
-buffer on reads.
-
-Signed-off-by: Steven Rostedt <srostedt@redhat.com>"|1|Steven Rostedt|srostedt@redhat.com|2009-03-04 20:31:11-05:00|18000|Steven Rostedt|srostedt@redhat.com|2009-03-04 20:31:11-05:00|18000

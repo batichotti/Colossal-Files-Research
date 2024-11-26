@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5adcee1d8d32d7f305f6f5aaefdbf8f35adca177|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cgroup fs: avoid switching ->d_op on live dentry
-
-Switching d_op on a live dentry is racy in general, so avoid it. In this case
-it is a negative dentry, which is safer, but there are still concurrent ops
-which may be called on d_op in that case (eg. d_revalidate). So in general
-a filesystem may not do this. Fix cgroupfs so as not to do this.
-
-Signed-off-by: Nick Piggin <npiggin@kernel.dk>"|1|Nick Piggin|npiggin@kernel.dk|2011-01-07 17:49:20+11:00|-39600|Nick Piggin|npiggin@kernel.dk|2011-01-07 17:50:17+11:00|-39600

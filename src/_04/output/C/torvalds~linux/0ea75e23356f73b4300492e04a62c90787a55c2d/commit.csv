@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0ea75e23356f73b4300492e04a62c90787a55c2d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"DRM: ignore invalid EDID extensions
-
-Currently an invalid EDID extension will cause the whole EDID to be considered invalid. Instead just drop the invalid extensions, and return the valid ones. The base block is modified to claim to have the number valid extensions, and the check sum is updated.
-
-For my EIZO S2242W the base block is fine, but the extension block is all zeros. Without this patch I get no X and no VTs.
-
-Signed-off-by: Sam Tygier <samtygier@yahoo.co.uk>
-Signed-off-by: Dave Airlie <airlied@redhat.com>"|1|Sam Tygier|samtygier@yahoo.co.uk|2010-09-23 10:11:01+01:00|-3600|Dave Airlie|airlied@redhat.com|2010-11-09 13:34:14+10:00|-36000

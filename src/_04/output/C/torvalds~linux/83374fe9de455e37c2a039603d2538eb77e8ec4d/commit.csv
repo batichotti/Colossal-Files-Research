@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|83374fe9de455e37c2a039603d2538eb77e8ec4d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nl80211: fix the setting of RSSI threshold value for mesh
-
-RSSI threshold value used for mesh peering should be in
-negative value. After range checks to mesh parameters is
-introduced, this is not allowed. Fix this.
-
-Signed-off-by: Chun-Yeow Yeoh <yeohchunyeow@gmail.com>
-Signed-off-by: Johannes Berg <johannes@sipsolutions.net>"|1|Chun-Yeow Yeoh|yeohchunyeow@gmail.com|2013-07-11 18:24:03+08:00|-28800|Johannes Berg|johannes.berg@intel.com|2013-07-16 09:55:58+03:00|-10800

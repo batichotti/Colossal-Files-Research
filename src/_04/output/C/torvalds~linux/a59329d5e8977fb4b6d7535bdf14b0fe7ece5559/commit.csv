@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a59329d5e8977fb4b6d7535bdf14b0fe7ece5559|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"staging/rdma/hfi1: Skip lcb init for simulation
-
-The simulator does not correctly handle LCB cclk loopback.
-Skip that step for simulation - it is not needed.
-
-Reviewed-by: Dennis Dalessandro <dennis.dalessandro@intel.com>
-Signed-off-by: Dean Luick <dean.luick@intel.com>
-Signed-off-by: Doug Ledford <dledford@redhat.com>"|1|Dean Luick|dean.luick@intel.com|2016-02-03 14:32:31-08:00|28800|Doug Ledford|dledford@redhat.com|2016-03-10 20:37:49-05:00|18000

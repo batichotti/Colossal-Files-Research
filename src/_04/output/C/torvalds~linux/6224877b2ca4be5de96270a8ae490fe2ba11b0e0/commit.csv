@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6224877b2ca4be5de96270a8ae490fe2ba11b0e0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tcp/dccp: Consolidate common code for RFC 3390 conversion
-
-This patch consolidates the code common to TCP and CCID-2:
- * TCP uses RFC 3390 in a packet-oriented manner (tcp_input.c) and
- * CCID-2 uses RFC 3390 in packet-oriented manner (RFC 4341).
-
-Signed-off-by: Gerrit Renker <gerrit@erg.abdn.ac.uk>"|3|Gerrit Renker|gerrit@erg.abdn.ac.uk|2008-09-04 07:30:19+02:00|-7200|Gerrit Renker|gerrit@erg.abdn.ac.uk|2008-09-04 07:45:39+02:00|-7200

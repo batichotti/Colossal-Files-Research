@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5b2a19539c5f59c5a038d213ede723f0245d97cf|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"IPv6: addrconf timer race
-
-The Router Solicitation timer races with device state changes
-because it doesn't lock the device. Use local variable to avoid
-one repeated dereference.
-
-Signed-off-by: Stephen Hemminger <shemminger@vyatta.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|stephen hemminger|shemminger@vyatta.com|2010-03-02 13:32:45+00:00|0|David S. Miller|davem@davemloft.net|2010-03-04 00:39:33-08:00|28800

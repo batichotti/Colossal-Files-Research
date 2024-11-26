@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7abea1e8e81ad7ba100bd97c4881027c73e2db3e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd: don't destroy client if mark_client_expired_locked fails
-
-If it fails, it means that the client is in use and so destroying it
-would be bad. Currently, the client_mutex prevents this from happening
-but once we remove it, we won't be able to do this.
-
-Signed-off-by: Jeff Layton <jlayton@primarydata.com>
-Signed-off-by: J. Bruce Fields <bfields@redhat.com>"|1|Jeff Layton|jlayton@primarydata.com|2014-07-30 08:27:13-04:00|14400|J. Bruce Fields|bfields@redhat.com|2014-08-01 16:28:26-04:00|14400

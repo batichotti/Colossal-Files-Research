@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a2e15b0e6c91a13d2219fba1f9e83ecd473a60db|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/amdgpu: clean up non-DC suspend/resume handling
-
-Move the non-DC specific code into the DCE IP blocks similar
-to how we handle DC.  This cleans up the common suspend
-and resume pathes.
-
-Reviewed-by: Evan Quan <evan.quan@amd.com>
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|8|Alex Deucher|alexander.deucher@amd.com|2021-03-19 16:34:45-04:00|14400|Alex Deucher|alexander.deucher@amd.com|2021-04-09 16:36:40-04:00|14400

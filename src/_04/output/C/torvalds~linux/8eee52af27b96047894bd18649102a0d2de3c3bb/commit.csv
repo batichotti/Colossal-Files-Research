@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8eee52af27b96047894bd18649102a0d2de3c3bb|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: nfs4_handle_delegation_recall_error should ignore EAGAIN
-
-EAGAIN is a valid return code from nfs4_open_recover(), and should
-be handled by nfs4_handle_delegation_recall_error by simply passing
-it through.
-
-Signed-off-by: Trond Myklebust <trond.myklebust@primarydata.com>"|1|Trond Myklebust|trond.myklebust@primarydata.com|2015-06-04 13:51:13-04:00|14400|Trond Myklebust|trond.myklebust@primarydata.com|2015-06-04 13:51:13-04:00|14400

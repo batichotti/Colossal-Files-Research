@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cc4c13d55cba8a0b81bc18243eabc57be1aa44d2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: drop eb parameter from set/get token helpers
-
-Now that all set/get helpers use the eb from the token, we don't need to
-pass it to many btrfs_token_*/btrfs_set_token_* helpers, saving some
-stack space.
-
-Reviewed-by: Johannes Thumshirn <johannes.thumshirn@wdc.com>
-Signed-off-by: David Sterba <dsterba@suse.com>"|5|David Sterba|dsterba@suse.com|2020-04-29 02:15:56+02:00|-7200|David Sterba|dsterba@suse.com|2020-05-25 11:25:32+02:00|-7200

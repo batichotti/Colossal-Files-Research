@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|204e399003174ee8ceb7606c61daaa7f4e89e794|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Fix clearing HCI_PSCAN flag
-
-This patch fixes a typo in the hci_cc_write_scan_enable() function where
-we want to clear the HCI_PSCAN flag if the SCAN_PAGE bit of the HCI
-command parameter was not set.
-
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|1|Johan Hedberg|johan.hedberg@intel.com|2014-07-28 15:45:31+03:00|-10800|Marcel Holtmann|marcel@holtmann.org|2014-07-28 16:50:52+02:00|-7200

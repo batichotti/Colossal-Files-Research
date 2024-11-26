@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d9ee81da93e86ac45aef30b2493a1e68fc71b9d0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: avoid output message interleaving in ext4_error_<foo>()
-
-Using KERN_CONT means that messages from multiple threads may be
-interleaved.  Avoid this by using a single printk call in
-ext4_error_inode and ext4_error_file.
-
-Signed-off-by: Joe Perches <joe@perches.com>
-Signed-off-by: ""Theodore Ts'o"" <tytso@mit.edu>"|1|Joe Perches|joe@perches.com|2012-03-19 23:15:43-04:00|14400|Theodore Ts'o|tytso@mit.edu|2012-03-19 23:15:43-04:00|14400

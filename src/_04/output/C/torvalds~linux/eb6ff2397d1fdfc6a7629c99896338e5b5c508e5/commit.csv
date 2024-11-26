@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|eb6ff2397d1fdfc6a7629c99896338e5b5c508e5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ocfs2: Specify appropriate journal access for new xattr buckets.
-
-There are a couple places that get an xattr bucket that may be reading
-an existing one or may be allocating a new one.  They should specify the
-correct journal access mode depending.
-
-Signed-off-by: Joel Becker <joel.becker@oracle.com>
-Signed-off-by: Mark Fasheh <mfasheh@suse.com>"|1|Joel Becker|joel.becker@oracle.com|2008-10-20 18:32:48-07:00|25200|Mark Fasheh|mfasheh@suse.com|2008-11-10 09:51:46-08:00|28800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a3c54b0be1a218bdd8e42abf9ecfd9bddf1eadee|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: simplify how changed fsid and metadata_uuid is checked
-
-We often check if the metadata_uuid is not the same as fsid, and then we
-check if the given fsid matches the metadata_uuid. This patch refactors
-this logic into function match_fsid_changed and utilize it.
-
-Signed-off-by: Anand Jain <anand.jain@oracle.com>
-Signed-off-by: David Sterba <dsterba@suse.com>"|1|Anand Jain|anand.jain@oracle.com|2023-05-24 20:02:41+08:00|-28800|David Sterba|dsterba@suse.com|2023-06-19 13:59:29+02:00|-7200

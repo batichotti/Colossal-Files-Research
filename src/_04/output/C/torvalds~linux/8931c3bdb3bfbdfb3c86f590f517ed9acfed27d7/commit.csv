@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8931c3bdb3bfbdfb3c86f590f517ed9acfed27d7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"SELinux: Use GFP_KERNEL for selinux_parse_opts_str().
-
-Since selinux_parse_opts_str() is calling match_strdup() which uses
-GFP_KERNEL, it is safe to use GFP_KERNEL from kcalloc() which is
-called by selinux_parse_opts_str().
-
-Signed-off-by: Tetsuo Handa <penguin-kernel@I-love.SAKURA.ne.jp>
-Signed-off-by: Paul Moore <paul@paul-moore.com>"|1|Tetsuo Handa|penguin-kernel@I-love.SAKURA.ne.jp|2016-11-14 20:16:12+09:00|-32400|Paul Moore|paul@paul-moore.com|2016-11-14 15:03:38-05:00|18000

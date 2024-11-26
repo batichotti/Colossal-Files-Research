@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ce7b0f46bbf4bff8daab2dd3d878b9e72a623d09|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[PATCH] devfs: Remove the gendisk devfs_name field as it's no longer needed
-
-And remove the now unneeded number field.
-Also fixes all drivers that set these fields.
-
-Signed-off-by: Greg Kroah-Hartman <gregkh@suse.de>"|29|Greg Kroah-Hartman|gregkh@suse.de|2005-06-20 21:15:16-07:00|25200|Greg Kroah-Hartman|gregkh@suse.de|2006-06-26 12:25:08-07:00|25200

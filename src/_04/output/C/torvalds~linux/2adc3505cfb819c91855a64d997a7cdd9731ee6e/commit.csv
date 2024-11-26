@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2adc3505cfb819c91855a64d997a7cdd9731ee6e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: set SBI_NEED_FSCK when encountering exception in recovery
-
-This patch tries to set SBI_NEED_FSCK flag into sbi only when we fail to recover
-in fill_super, so we could skip fscking image when we fail to fill super for
-other reason.
-
-Signed-off-by: Chao Yu <chao2.yu@samsung.com>
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|1|Chao Yu|chao2.yu@samsung.com|2015-03-16 21:08:44+08:00|-28800|Jaegeuk Kim|jaegeuk@kernel.org|2015-04-10 15:08:43-07:00|25200

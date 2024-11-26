@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|90180da42c38a83b050452aa555d3d2df6ae2ad4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: cleanup unused num_can_discard in fs_devices
-
-The member variants - num_can_discard - of fs_devices structure
-are set, but no one use them to do anything. so remove them.
-
-Signed-off-by: Miao Xie <miaox@cn.fujitsu.com>
-Signed-off-by: Chris Mason <clm@fb.com>"|2|Miao Xie|miaox@cn.fujitsu.com|2014-09-03 21:35:30+08:00|-28800|Chris Mason|clm@fb.com|2014-09-17 13:38:29-07:00|25200

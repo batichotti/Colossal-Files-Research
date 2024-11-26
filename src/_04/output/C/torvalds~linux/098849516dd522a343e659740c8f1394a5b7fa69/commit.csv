@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|098849516dd522a343e659740c8f1394a5b7fa69|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"workqueue: explain for_each_*cwq_cpu() iterators
-
-for_each_*cwq_cpu() are similar to regular CPU iterators except that
-it also considers the pseudo CPU number used for unbound workqueues.
-Explain them.
-
-Signed-off-by: Tejun Heo <tj@kernel.org>
-Cc: Andrew Morton <akpm@linux-foundation.org>"|1|Tejun Heo|tj@kernel.org|2010-08-01 11:50:12+02:00|-7200|Tejun Heo|tj@kernel.org|2010-08-01 11:50:12+02:00|-7200

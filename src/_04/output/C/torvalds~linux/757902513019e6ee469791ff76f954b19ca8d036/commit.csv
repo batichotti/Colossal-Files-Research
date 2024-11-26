@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|757902513019e6ee469791ff76f954b19ca8d036|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"regulator: Factor out voltage set operation into a separate function
-
-Push all the callers of the chip set_voltage() operation out into a single
-function to facilitiate future refactoring.
-
-Signed-off-by: Mark Brown <broonie@opensource.wolfsonmicro.com>
-Signed-off-by: Liam Girdwood <lrg@slimlogic.co.uk>"|1|Mark Brown|broonie@opensource.wolfsonmicro.com|2010-12-12 14:25:50+00:00|0|Liam Girdwood|lrg@slimlogic.co.uk|2011-01-12 14:33:04+00:00|0

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2d6e4ecc87d20299bcb249dd62efbd73496744c3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md/raid6: eliminate BUG_ON with side effect
-
-As pointed out by Neil it should be possible to build a driver with all
-BUG_ON statements deleted.  It's bad form to have a BUG_ON with a side
-effect.
-
-Signed-off-by: Dan Williams <dan.j.williams@intel.com>"|1|Dan Williams|dan.j.williams@intel.com|2009-09-16 12:11:54-07:00|25200|Dan Williams|dan.j.williams@intel.com|2009-09-16 12:11:54-07:00|25200

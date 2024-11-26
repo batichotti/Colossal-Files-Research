@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c97a4ccc1fad35d3d183900af29c171b6d56b7f9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"b43: Fix beacon BH update
-
-This fixes beacon updating in the bottomhalf.
-In case the device is busy, we will defer to later in the IRQ handler.
-
-Signed-off-by: Michael Buesch <mb@bu3sch.de>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|2|Michael Buesch|mb@bu3sch.de|2008-04-05 15:02:09+02:00|-7200|John W. Linville|linville@tuxdriver.com|2008-04-08 16:44:43-04:00|14400

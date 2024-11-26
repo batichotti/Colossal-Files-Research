@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9ed8b1f93ca3a274079cb36826af1331f83cd118|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/radeon: clean up vram/gtt location handling
-
-Add a per-asic MC (memory controller) mask which holds the
-mak address mask the asic is capable of.  Use this when
-calculating the vram and gtt locations rather using asic
-specific functions or limiting everything to 32 bits.
-
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|5|Alex Deucher|alexander.deucher@amd.com|2013-04-08 11:13:01-04:00|14400|Alex Deucher|alexander.deucher@amd.com|2013-04-09 10:23:50-04:00|14400

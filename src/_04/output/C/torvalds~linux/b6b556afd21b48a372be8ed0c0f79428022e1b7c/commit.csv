@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b6b556afd21b48a372be8ed0c0f79428022e1b7c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ipv6: use jhash2() in rt6_exception_hash()
-
-Faster jhash2() can be used instead of jhash(), since
-IPv6 addresses have the needed alignment requirement.
-
-Signed-off-by: Eric Dumazet <edumazet@google.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Eric Dumazet|edumazet@google.com|2019-11-03 18:24:16-08:00|28800|David S. Miller|davem@davemloft.net|2019-11-04 11:28:49-08:00|28800

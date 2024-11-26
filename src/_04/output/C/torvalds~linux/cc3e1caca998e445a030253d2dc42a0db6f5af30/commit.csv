@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cc3e1caca998e445a030253d2dc42a0db6f5af30|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"sched_ext: Move scx_buildin_idle_enabled check to scx_bpf_select_cpu_dfl()
-
-Move the sanity check from the inner function scx_select_cpu_dfl() to the
-exported kfunc scx_bpf_select_cpu_dfl(). This doesn't cause behavior
-differences and will allow using scx_select_cpu_dfl() in bypass mode
-regardless of scx_builtin_idle_enabled.
-
-Signed-off-by: Tejun Heo <tj@kernel.org>"|1|Tejun Heo|tj@kernel.org|2024-10-10 11:41:44-10:00|36000|Tejun Heo|tj@kernel.org|2024-10-10 11:41:44-10:00|36000

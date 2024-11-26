@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ae1914174a63a558113e80d24ccac2773f9f7b2b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cred: get rid of CONFIG_DEBUG_CREDENTIALS
-
-This code is rarely (never?) enabled by distros, and it hasn't caught
-anything in decades. Let's kill off this legacy debug code.
-
-Suggested-by: Linus Torvalds <torvalds@linuxfoundation.org>
-Signed-off-by: Jens Axboe <axboe@kernel.dk>
-Signed-off-by: Linus Torvalds <torvalds@linux-foundation.org>"|15|Jens Axboe|axboe@kernel.dk|2023-12-15 13:40:57-07:00|25200|Linus Torvalds|torvalds@linux-foundation.org|2023-12-15 14:19:48-08:00|28800

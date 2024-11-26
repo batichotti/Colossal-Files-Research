@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|24d19826fcbd97144908ae32019ee67d358c5879|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: make all set structs const
-
-They do not need to be writeable anymore.
-
-v2: remove left-over __read_mostly annotation in set_pipapo.c (Stefano)
-
-Signed-off-by: Florian Westphal <fw@strlen.de>
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|7|Florian Westphal|fw@strlen.de|2020-02-18 11:59:27+01:00|-3600|Pablo Neira Ayuso|pablo@netfilter.org|2020-03-15 15:20:16+01:00|-3600

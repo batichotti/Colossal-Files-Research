@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6677f3dad8747a5a84a2e7f67a35444fc9be895a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: nVMX: introduce struct nested_vmx_msrs
-
-Move the MSRs to a separate struct, so that we can introduce a global
-instance and return it from the /dev/kvm KVM_GET_MSRS ioctl.
-
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>
-Signed-off-by: Radim Krčmář <rkrcmar@redhat.com>"|1|Paolo Bonzini|pbonzini@redhat.com|2018-02-26 13:40:08+01:00|-3600|Radim Krčmář|rkrcmar@redhat.com|2018-03-06 18:40:46+01:00|-3600

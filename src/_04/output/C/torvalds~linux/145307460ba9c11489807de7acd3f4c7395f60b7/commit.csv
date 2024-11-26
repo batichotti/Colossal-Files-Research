@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|145307460ba9c11489807de7acd3f4c7395f60b7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"devlink: Remove top_hierarchy arg to devlink_resource_register
-
-top_hierarchy arg can be determined by comparing parent_resource_id to
-DEVLINK_RESOURCE_ID_PARENT_TOP so it does not need to be a separate
-argument.
-
-Signed-off-by: David Ahern <dsahern@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|4|David Ahern|dsahern@gmail.com|2018-03-20 19:31:14-07:00|25200|David S. Miller|davem@davemloft.net|2018-03-22 13:08:41-04:00|14400

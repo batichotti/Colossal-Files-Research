@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|525cd1851b9faaadf5ea33e05192b8d22f42487e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Move conn_state to struct l2cap_chan
-
-This is part of ""moving things to l2cap_chan"". As one the first move it
-triggered a big number of changes in the funcions parameters, basically
-changing the struct sock param to struct l2cap_chan.
-
-Signed-off-by: Gustavo F. Padovan <padovan@profusion.mobi>"|3|Gustavo F. Padovan|padovan@profusion.mobi|2011-03-25 19:43:39-03:00|10800|Gustavo F. Padovan|padovan@profusion.mobi|2011-04-07 18:06:26-03:00|10800

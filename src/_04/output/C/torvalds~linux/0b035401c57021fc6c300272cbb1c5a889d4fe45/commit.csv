@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0b035401c57021fc6c300272cbb1c5a889d4fe45|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rbd: move rbd_dev_refresh() definition
-
-Move rbd_dev_refresh() definition further down to avoid having to
-move struct parent_image_info definition in the next commit.  This
-spares some forward declarations too.
-
-Signed-off-by: Ilya Dryomov <idryomov@gmail.com>
-Reviewed-by: Dongsheng Yang <dongsheng.yang@easystack.cn>"|1|Ilya Dryomov|idryomov@gmail.com|2023-09-17 15:07:40+02:00|-7200|Ilya Dryomov|idryomov@gmail.com|2023-09-26 10:31:15+02:00|-7200

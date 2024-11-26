@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|278d933e12f163369d1f18e8e3e5c49d5e77f233|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Normalize HCI_OP_READ_ENC_KEY_SIZE cmdcmplt
-
-The HCI_OP_READ_ENC_KEY_SIZE command is converted from using the
-deprecated hci_request mechanism to use hci_send_cmd, with an
-accompanying hci_cc_read_enc_key_size to handle it's return response.
-
-Signed-off-by: Brian Gix <brian.gix@intel.com>
-Signed-off-by: Luiz Augusto von Dentz <luiz.von.dentz@intel.com>"|1|Brian Gix|brian.gix@intel.com|2022-08-16 12:04:34-07:00|25200|Luiz Augusto von Dentz|luiz.von.dentz@intel.com|2022-08-31 15:45:26-07:00|25200

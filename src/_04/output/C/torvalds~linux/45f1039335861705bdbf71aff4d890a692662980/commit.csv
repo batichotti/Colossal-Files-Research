@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|45f1039335861705bdbf71aff4d890a692662980|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: pass dev_priv explicitly to TRANS_VBLANK
-
-Avoid the implicit dev_priv local variable use, and pass dev_priv
-explicitly to the TRANS_VBLANK register macro.
-
-Reviewed-by: Rodrigo Vivi <rodrigo.vivi@intel.com>
-Link: https://patchwork.freedesktop.org/patch/msgid/c33739ac6f26105fd1ad79b0027b6626e241c7bc.1717514638.git.jani.nikula@intel.com
-Signed-off-by: Jani Nikula <jani.nikula@intel.com>"|6|Jani Nikula|jani.nikula@intel.com|2024-06-04 18:25:25+03:00|-10800|Jani Nikula|jani.nikula@intel.com|2024-06-07 11:13:17+03:00|-10800

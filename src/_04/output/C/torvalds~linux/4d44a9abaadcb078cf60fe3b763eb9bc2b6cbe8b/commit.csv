@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4d44a9abaadcb078cf60fe3b763eb9bc2b6cbe8b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8169: Kill SafeMtu macro
-
-After d58d46b5 (r8169: jumbo fixes.) max frame len is stored in
-rtl_chip_infos[].jumbo_max for each chip and SafeMtu should be gone.
-
-Signed-off-by: Kirill Smelkov <kirr@mns.spb.ru>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Kirill Smelkov|kirr@mns.spb.ru|2012-10-29 07:55:12+00:00|0|David S. Miller|davem@davemloft.net|2012-11-03 14:59:05-04:00|14400

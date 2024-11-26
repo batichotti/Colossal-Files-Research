@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fc13cb0ce45296f331263a6034aa1814203e1ac3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ftrace: Allow other users of function tracing to use the output listing
-
-The function tracer is set up to allow any other subsystem (like perf)
-to use it. Ftrace already has a way to list what functions are enabled
-by the global_ops. It would be very helpful to let other users of
-the function tracer to be able to use the same code.
-
-Signed-off-by: Steven Rostedt <rostedt@goodmis.org>"|2|Steven Rostedt|srostedt@redhat.com|2011-12-19 14:41:25-05:00|18000|Steven Rostedt|rostedt@goodmis.org|2011-12-21 07:25:06-05:00|18000

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|48a256e8aed05df3a90a0e9cdfcc558d139ec7f5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"iwlwifi: mvm: add support for CHANCTX_SWMODE_REASSIGN_VIF
-
-Add support to reassign vif in switch_vif_chanctx.  This is similar to
-the existing CHANCTX_SWMODE_SWAP_CONTEXTS mode, but doesn't delete the
-old context nor creates a new one, doing to switch between two
-existing contexts.
-
-Signed-off-by: Luciano Coelho <luciano.coelho@intel.com>"|1|Luciano Coelho|luciano.coelho@intel.com|2014-11-10 11:10:09+02:00|-7200|Emmanuel Grumbach|emmanuel.grumbach@intel.com|2014-11-24 08:30:27+02:00|-7200

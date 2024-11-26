@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ce0fc43c5a09d50ff5ffe208cbb0d3a9c82f038a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd: wrap all accesses to st_deny_bmap
-
-Handle the st_deny_bmap in a similar fashion to the st_access_bmap. Add
-accessor functions and use those instead of bare bitops.
-
-Signed-off-by: Jeff Layton <jlayton@redhat.com>
-Signed-off-by: J. Bruce Fields <bfields@redhat.com>"|1|Jeff Layton|jlayton@redhat.com|2012-05-11 09:45:14-04:00|14400|J. Bruce Fields|bfields@redhat.com|2012-05-31 20:29:48-04:00|14400

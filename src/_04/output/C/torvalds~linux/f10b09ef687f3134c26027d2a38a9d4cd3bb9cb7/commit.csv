@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f10b09ef687f3134c26027d2a38a9d4cd3bb9cb7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ibmvnic: Handle TSO backing device errata
-
-TSO packets with one segment or with an MSS less than 224 can
-cause errors on some backing devices, so disable GSO in those cases.
-
-Signed-off-by: Thomas Falcon <tlfalcon@linux.vnet.ibm.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Thomas Falcon|tlfalcon@linux.vnet.ibm.com|2018-03-12 11:51:05-05:00|18000|David S. Miller|davem@davemloft.net|2018-03-13 10:09:28-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|de960aa9ab4decc3304959f69533eef64d05d8e8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: add and use skb_gso_transport_seglen()
-
-This moves part of Eric Dumazets skb_gso_seglen helper from tbf sched to
-skbuff core so it may be reused by upcoming ip forwarding path patch.
-
-Signed-off-by: Florian Westphal <fw@strlen.de>
-Acked-by: Eric Dumazet <edumazet@google.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|Florian Westphal|fw@strlen.de|2014-01-26 10:58:16+01:00|-3600|David S. Miller|davem@davemloft.net|2014-01-26 22:38:23-08:00|28800

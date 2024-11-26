@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a536e38125fe5da8ed49690f30c30a8f651cf1f5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"dlm: ignore cancel on granted lock
-
-Return immediately from dlm_unlock(CANCEL) if the lock is
-granted and not being converted; there's nothing to cancel.
-
-Signed-off-by: David Teigland <teigland@redhat.com>"|1|David Teigland|teigland@redhat.com|2009-02-27 15:23:28-06:00|21600|David Teigland|teigland@redhat.com|2009-03-11 12:23:58-05:00|18000

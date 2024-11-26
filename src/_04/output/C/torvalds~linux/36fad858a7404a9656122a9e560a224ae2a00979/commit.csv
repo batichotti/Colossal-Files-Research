@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|36fad858a7404a9656122a9e560a224ae2a00979|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md: introduce link/unlink_rdev() helpers
-
-There are places where sysfs links to rdev are handled
-in a same way. Add the helper functions to consolidate
-them.
-
-Signed-off-by: Namhyung Kim <namhyung@gmail.com>
-Signed-off-by: NeilBrown <neilb@suse.de>"|4|Namhyung Kim|namhyung@gmail.com|2011-07-27 11:00:36+10:00|-36000|NeilBrown|neilb@suse.de|2011-07-27 11:00:36+10:00|-36000

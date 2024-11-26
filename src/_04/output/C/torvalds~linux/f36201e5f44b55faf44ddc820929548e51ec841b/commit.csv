@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f36201e5f44b55faf44ddc820929548e51ec841b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: simplify rdtscp handling in vmx_cpuid_update()
-
-if vmx_rdtscp_supported() is true SECONDARY_EXEC_RDTSCP must
-have already been set in current vmcs by
-vmx_secondary_exec_control()
-
-Signed-off-by: Xiao Guangrong <guangrong.xiao@linux.intel.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Xiao Guangrong|guangrong.xiao@linux.intel.com|2015-09-09 14:05:53+08:00|-28800|Paolo Bonzini|pbonzini@redhat.com|2015-10-01 15:06:37+02:00|-7200

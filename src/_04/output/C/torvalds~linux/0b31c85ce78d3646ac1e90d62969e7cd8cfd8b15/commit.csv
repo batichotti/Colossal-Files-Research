@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0b31c85ce78d3646ac1e90d62969e7cd8cfd8b15|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Remove L2CAP Extended Features from Kconfig
-
-This reverts commit 84fb0a6334af0ccad3544f6972c055d90fbb9fbe which adds
-the L2CAP Extended Features to the Kconfig, that is actually not needed.
-One can use other mechanisms to enable L2CAP Extended Features.
-
-Signed-off-by: Gustavo F. Padovan <padovan@profusion.mobi>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|2|Gustavo F. Padovan|padovan@profusion.mobi|2010-05-10 14:26:11-03:00|10800|Marcel Holtmann|marcel@holtmann.org|2010-07-21 10:39:04-07:00|25200

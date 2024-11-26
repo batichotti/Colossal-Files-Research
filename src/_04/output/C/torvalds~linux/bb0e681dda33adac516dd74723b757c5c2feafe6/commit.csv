@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bb0e681dda33adac516dd74723b757c5c2feafe6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libceph: directly skip to the end of redirect reply
-
-Coverity complains about a double write to *p.  Don't bother with
-osd_instructions and directly skip to the end of redirect reply.
-
-Reported-by: Colin Ian King <colin.king@canonical.com>
-Signed-off-by: Ilya Dryomov <idryomov@gmail.com>"|1|Ilya Dryomov|idryomov@gmail.com|2019-08-30 17:38:31+02:00|-7200|Ilya Dryomov|idryomov@gmail.com|2020-03-30 12:42:41+02:00|-7200

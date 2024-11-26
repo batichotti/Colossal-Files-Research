@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|78901cfa44981d170fb5caae0d5421c97782b0d0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: avoid unneeded error handling for revoke_entry_slab allocation
-
-In __f2fs_commit_atomic_write(), we will guarantee success of
-revoke_entry_slab allocation, so let's avoid unneeded error handling.
-
-Signed-off-by: Chao Yu <chao.yu@oppo.com>
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|1|Chao Yu|chao@kernel.org|2022-05-25 09:56:34+08:00|-28800|Jaegeuk Kim|jaegeuk@kernel.org|2022-05-24 23:06:51-07:00|25200

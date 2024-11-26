@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9ae5d8d4b7b845869a04576a7bc5fa6cf9716cd5|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wlcore: consolidate Rx BA bitmap management to links struct
-
-Remove the STA specific ba_rx_bitmap field and use the common links
-structure. This simplifies code setting/checking the BA bitmap.
-
-Signed-off-by: Arik Nemtsov <arik@wizery.com>
-Signed-off-by: Luciano Coelho <coelho@ti.com>"|5|Arik Nemtsov|arik@wizery.com|2012-11-28 11:42:45+02:00|-7200|Luciano Coelho|coelho@ti.com|2012-12-11 12:37:23+02:00|-7200

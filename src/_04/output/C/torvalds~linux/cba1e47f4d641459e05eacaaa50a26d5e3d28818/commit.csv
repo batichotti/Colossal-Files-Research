@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cba1e47f4d641459e05eacaaa50a26d5e3d28818|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] qla2xxx: Move initialization of some variables before iospace_config.
-
-Some variables need to be initialized before we config PCI I/O config space
-or else strange firmware initialization errors may occur.
-
-Signed-off-by: Chad Dupuis <chad.dupuis@qlogic.com>
-Signed-off-by: James Bottomley <JBottomley@Parallels.com>"|1|Chad Dupuis|chad.dupuis@qlogic.com|2011-11-18 09:03:21-08:00|28800|James Bottomley|JBottomley@Parallels.com|2011-12-15 10:55:11+04:00|-14400

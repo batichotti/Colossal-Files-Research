@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ee647f85cb81b09bbfa2886954828ed03fa3ec38|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"xfs: remove the xfs_btree_get_buf[ls] functions
-
-Remove the xfs_btree_get_bufs and xfs_btree_get_bufl functions, since
-they're pretty trivial oneliners.
-
-Signed-off-by: Darrick J. Wong <darrick.wong@oracle.com>
-Reviewed-by: Christoph Hellwig <hch@lst.de>
-Reviewed-by: Dave Chinner <dchinner@redhat.com>"|4|Darrick J. Wong|darrick.wong@oracle.com|2020-01-23 17:01:19-08:00|28800|Darrick J. Wong|darrick.wong@oracle.com|2020-01-26 14:32:26-08:00|28800

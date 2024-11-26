@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b9bf6882c1f9451ce1e80aaed32107673a735613|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: report internal error for the unhandleable event
-
-VM exits during Event Delivery is really unexpected if it is not caused
-by Exceptions/EPT-VIOLATION/TASK_SWITCH, we'd better to report an internal
-and freeze the guest, the VMM has the chance to check the guest
-
-Signed-off-by: Xiao Guangrong <xiaoguangrong@linux.vnet.ibm.com>
-Signed-off-by: Avi Kivity <avi@redhat.com>"|2|Xiao Guangrong|xiaoguangrong@linux.vnet.ibm.com|2012-10-17 13:46:52+08:00|-28800|Avi Kivity|avi@redhat.com|2012-10-18 16:30:29+02:00|-7200

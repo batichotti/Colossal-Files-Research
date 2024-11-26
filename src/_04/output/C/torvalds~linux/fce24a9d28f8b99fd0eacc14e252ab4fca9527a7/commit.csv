@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fce24a9d28f8b99fd0eacc14e252ab4fca9527a7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"IB/qib: Don't mark VL15 bufs as WC to avoid a rare 7322 chip problem
-
-Don't set write combining via PAT on the VL15 buffers to avoid a rare
-problem with unaligned writes from interrupt-flushed store buffers.
-
-Signed-off-by: Dave Olson <dave.olson@qlogic.com>
-Signed-off-by: Roland Dreier <rolandd@cisco.com>"|6|Dave Olson|dave.olson@qlogic.com|2010-06-17 23:13:44+00:00|0|Roland Dreier|rolandd@cisco.com|2010-07-06 14:13:20-07:00|25200

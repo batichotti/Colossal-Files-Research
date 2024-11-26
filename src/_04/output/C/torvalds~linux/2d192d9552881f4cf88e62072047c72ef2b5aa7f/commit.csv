@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2d192d9552881f4cf88e62072047c72ef2b5aa7f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: Drop out of associated state if link is lost
-
-There is no point in staying in IEEE80211_ASSOCIATED if there is no
-sta_info entry to receive frames with.
-
-Signed-off-by: Michael Wu <flamingice@sourmilk.net>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|1|Michael Wu|flamingice@sourmilk.net|2007-11-10 00:15:25-05:00|18000|David S. Miller|davem@sunset.davemloft.net|2007-12-19 16:43:45-08:00|28800

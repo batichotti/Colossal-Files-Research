@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6cd29ec6ae5e3694b779e02da9f3e50ae4398b59|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: hci_sync: Wait for proper events when connecting LE
-
-When using HCI_OP_LE_CREATE_CONN wait for HCI_EV_LE_CONN_COMPLETE before
-completing it and for HCI_OP_LE_EXT_CREATE_CONN wait for
-HCI_EV_LE_ENHANCED_CONN_COMPLETE before resuming advertising.
-
-Signed-off-by: Luiz Augusto von Dentz <luiz.von.dentz@intel.com>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|1|Luiz Augusto von Dentz|luiz.von.dentz@intel.com|2021-12-22 12:21:58-08:00|28800|Marcel Holtmann|marcel@holtmann.org|2021-12-22 23:01:35+01:00|-3600

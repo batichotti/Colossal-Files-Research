@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b7f23c361b65a0bdcc81acd8d38471b7810df3ff|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rbd: encapsulate new rbd id selection
-
-Move the loop that finds a new unique rbd id to use into
-its own helper function.
-
-Signed-off-by: Alex Elder <elder@dreamhost.com>
-Signed-off-by: Sage Weil <sage@newdream.net>"|1|Alex Elder|elder@dreamhost.com|2012-01-29 13:57:43-06:00|21600|Alex Elder|elder@dreamhost.com|2012-03-22 10:47:47-05:00|18000

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9ca523183166343fde060e2198237bb345b8a77d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: Remove user space triggerable MCE error message
-
-This case is a pure user space error we do not need to record. Moreover,
-it can be misused to flood the kernel log. Remove it.
-
-Signed-off-by: Jan Kiszka <jan.kiszka@siemens.com>
-Signed-off-by: Marcelo Tosatti <mtosatti@redhat.com>"|1|Jan Kiszka|jan.kiszka@siemens.com|2011-01-15 10:00:53+01:00|-3600|Marcelo Tosatti|mtosatti@redhat.com|2011-03-17 13:08:26-03:00|10800

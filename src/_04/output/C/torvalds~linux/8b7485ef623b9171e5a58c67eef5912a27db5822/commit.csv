@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8b7485ef623b9171e5a58c67eef5912a27db5822|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"regulator: core: Call set_voltage_time_sel() only when the regulator is on
-
-If the regulator is not on, it won't take time setting new voltage.
-So only call set_voltage_time_sel() to get the necessary delay when
-the regulator is on.
-
-Signed-off-by: Axel Lin <axel.lin@gmail.com>
-Signed-off-by: Mark Brown <broonie@opensource.wolfsonmicro.com>"|1|Axel Lin|axel.lin@gmail.com|2012-05-21 09:37:52+08:00|-28800|Mark Brown|broonie@opensource.wolfsonmicro.com|2012-06-03 13:20:00+01:00|-3600

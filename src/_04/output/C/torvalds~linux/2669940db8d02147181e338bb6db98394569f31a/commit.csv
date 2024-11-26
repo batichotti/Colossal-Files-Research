@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2669940db8d02147181e338bb6db98394569f31a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4 do not send an empty SETATTR compound
-
-Commit 536e43d12b9517bbbf6114cd1a12be27857a4d7a ATTR_OPEN check can result in
-an ia_valid with only ATTR_FILE set, and no NFS_VALID_ATTRS attributes to
-request from the server.
-
-Signed-off-by: Andy Adamson <andros@netapp.com>
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|1|Andy Adamson|andros@netapp.com|2012-05-30 16:12:24-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2012-06-11 17:25:53-04:00|14400

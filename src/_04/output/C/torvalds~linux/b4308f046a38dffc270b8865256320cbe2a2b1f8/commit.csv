@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b4308f046a38dffc270b8865256320cbe2a2b1f8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: dsa: mv88e6xxx: Take switch out of reset before probe
-
-The switch needs to be taken out of reset before we can read its ID
-register on the MDIO bus.
-
-Signed-off-by: Andrew Lunn <andrew@lunn.ch>
-Reviewed-by: Vivien Didelot <vivien.didelot@savoirfairelinux.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Andrew Lunn|andrew@lunn.ch|2016-11-21 23:26:55+01:00|-3600|David S. Miller|davem@davemloft.net|2016-11-22 09:55:30-05:00|18000

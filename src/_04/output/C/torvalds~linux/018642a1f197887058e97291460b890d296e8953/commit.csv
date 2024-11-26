@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|018642a1f197887058e97291460b890d296e8953|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: return value of btrfs_read_buffer is checked correctly
-
-btrfs_read_buffer() has the possibility of returning the error.
-Therefore, I add the code in which the return value of btrfs_read_buffer()
-is checked.
-
-Signed-off-by: Tsutomu Itoh <t-itoh@jp.fujitsu.com>"|2|Tsutomu Itoh|t-itoh@jp.fujitsu.com|2012-05-29 18:10:13+09:00|-32400|Josef Bacik|josef@redhat.com|2012-05-30 10:23:41-04:00|14400

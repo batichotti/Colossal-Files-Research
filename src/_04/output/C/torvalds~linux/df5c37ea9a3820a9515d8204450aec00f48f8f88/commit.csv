@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|df5c37ea9a3820a9515d8204450aec00f48f8f88|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[Bluetooth] Handle return values from driver core functions
-
-Some return values of the driver core register and create functions
-are not handled and so might cause unexpected problems.
-
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|5|Marcel Holtmann|marcel@holtmann.org|2006-10-15 17:30:45+02:00|-7200|David S. Miller|davem@sunset.davemloft.net|2006-10-15 23:14:28-07:00|25200

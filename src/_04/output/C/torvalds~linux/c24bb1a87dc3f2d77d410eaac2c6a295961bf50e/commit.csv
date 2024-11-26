@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c24bb1a87dc3f2d77d410eaac2c6a295961bf50e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cifs: fix missing unload_nls() in smb2_reconnect()
-
-Make sure to unload_nls() @nls_codepage if we no longer need it.
-
-Fixes: bc962159e8e3 (""cifs: avoid race conditions with parallel reconnects"")
-Signed-off-by: Paulo Alcantara (SUSE) <pc@manguebit.com>
-Cc: Shyam Prasad N <sprasad@microsoft.com>
-Signed-off-by: Steve French <stfrench@microsoft.com>"|1|Paulo Alcantara|pc@manguebit.com|2023-03-24 16:05:19-03:00|10800|Steve French|stfrench@microsoft.com|2023-03-24 14:37:05-05:00|18000

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8bb4f2535cf7c3e3aeaed8b3c7c7a116844c41db|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: issue discard commands proactively in high fs utilization
-
-In the high utilization like over 80%, we don't expect huge # of large discard
-commands, but do many small pending discards which affects FTL GCs a lot.
-Let's issue them in that case.
-
-Reviewed-by: Chao Yu <yuchao0@huawei.com>
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|2|Jaegeuk Kim|jaegeuk@kernel.org|2018-05-29 09:58:42-07:00|25200|Jaegeuk Kim|jaegeuk@kernel.org|2018-05-30 08:58:59-07:00|25200

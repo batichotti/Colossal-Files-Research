@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|097a88884272d79f2c5ed60629ad873f25caedc2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"clk: qcom: gcc-sm8350: use parent_hws where possible
-
-Switch to using parent_hws instead of parent_data when parents are
-defined in this driver and so accessible using clk_hw.
-
-Signed-off-by: Dmitry Baryshkov <dmitry.baryshkov@linaro.org>
-Link: https://lore.kernel.org/r/20210405224743.590029-25-dmitry.baryshkov@linaro.org
-Signed-off-by: Stephen Boyd <sboyd@kernel.org>"|1|Dmitry Baryshkov|dmitry.baryshkov@linaro.org|2021-04-06 01:47:34+03:00|-10800|Stephen Boyd|sboyd@kernel.org|2021-04-07 17:22:54-07:00|25200

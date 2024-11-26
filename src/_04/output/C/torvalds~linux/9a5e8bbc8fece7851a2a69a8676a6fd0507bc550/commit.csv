@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9a5e8bbc8fece7851a2a69a8676a6fd0507bc550|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cfg80211: allow setting station parameters in mesh
-
-Mesh Point interfaces can also set parameters, for example plink_open is
-used to manually establish peer links from user-space (currently via
-iw).  Add Mesh Point to the check in nl80211_set_station.
-
-Signed-off-by: Andrey Yurovsky <andrey@cozybit.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|1|Andrey Yurovsky|andrey@cozybit.com|2009-06-16 16:09:37-07:00|25200|John W. Linville|linville@tuxdriver.com|2009-06-19 11:50:24-04:00|14400

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|0d306c31b2f77391dacdeaad4470c577f2aecc4f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bpf: use BPF_CAST_CALL for casting bpf call
-
-verifier.c uses BPF_CAST_CALL for casting bpf call except at one
-place in jit_subprogs(). Let's use the macro for consistency.
-
-Signed-off-by: Prashant Bhole <bhole_prashant_q7@lab.ntt.co.jp>
-Acked-by: Song Liu <songliubraving@fb.com>
-Signed-off-by: Alexei Starovoitov <ast@kernel.org>"|1|Prashant Bhole|bhole_prashant_q7@lab.ntt.co.jp|2019-04-16 18:13:01+09:00|-32400|Alexei Starovoitov|ast@kernel.org|2019-04-16 19:28:31-07:00|25200

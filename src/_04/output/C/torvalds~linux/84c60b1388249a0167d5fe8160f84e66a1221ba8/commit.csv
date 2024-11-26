@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|84c60b1388249a0167d5fe8160f84e66a1221ba8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drop redundant ->owner initializations
-
-it's not needed for file_operations of inodes located on fs defined
-in the hosting module and for file_operations that go into procfs.
-
-Signed-off-by: Al Viro <viro@zeniv.linux.org.uk>"|20|Al Viro|viro@zeniv.linux.org.uk|2016-05-27 22:40:31-04:00|14400|Al Viro|viro@zeniv.linux.org.uk|2016-05-29 19:08:00-04:00|14400

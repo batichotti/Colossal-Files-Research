@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|041fa0cdf1c1edc2b9efa08c28cc8193e68b1f8f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"iwlwifi: remove useless node_addr assignments
-
-iwl_connection_init_rx_config() will already
-have set up the entire RXON command, so these
-assignments are duplicate.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>
-Signed-off-by: Reinette Chatre <reinette.chatre@intel.com>"|2|Johannes Berg|johannes.berg@intel.com|2010-05-12 03:33:08-07:00|25200|Reinette Chatre|reinette.chatre@intel.com|2010-06-05 23:13:03-07:00|25200

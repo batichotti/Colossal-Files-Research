@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|abda14189251563a50f56da5ea2e37e904ac4cba|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: Make printk's consistently prefixed with ""EXT4-fs: ""
-
-Previously, some were ""ext4: "", and some were ""EXT4: ""; change them to
-be consistent with most ext4 printk's, which is to use ""EXT4-fs: "".
-
-Signed-off-by: ""Theodore Ts'o"" <tytso@mit.edu>"|2|Theodore Ts'o|tytso@mit.edu|2009-01-06 00:20:32-05:00|18000|Theodore Ts'o|tytso@mit.edu|2009-01-06 00:20:32-05:00|18000

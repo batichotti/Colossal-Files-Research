@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c405abe2e0623b7841a88d43add2c7c9bc3e74a9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"stmmac: if force_thresh_dma_mode is set, pass tc to both txmode and rxmode in tx_hard_error_bump_tc interrupt
-
-Dont' pass SF_DMA_MODE to rxmode in this case.
-
-Signed-off-by: Sonic Zhang <sonic.zhang@analog.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Sonic Zhang|sonic.zhang@analog.com|2015-01-22 14:55:56+08:00|-28800|David S. Miller|davem@davemloft.net|2015-01-26 15:48:01-08:00|28800

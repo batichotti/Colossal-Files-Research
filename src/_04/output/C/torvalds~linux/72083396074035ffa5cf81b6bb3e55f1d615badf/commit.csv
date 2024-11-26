@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|72083396074035ffa5cf81b6bb3e55f1d615badf|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSD: Call nfsd4_init_slabs() from init_nfsd()
-
-init_nfsd() was calling free_slabs() during cleanup code, but the call
-to init_slabs() was hidden in nfsd4_state_init().  This could be
-confusing to people unfamiliar with the code.
-
-Signed-off-by: Bryan Schumaker <bjschuma@netapp.com>
-Signed-off-by: J. Bruce Fields <bfields@redhat.com>"|3|Bryan Schumaker|bjschuma@netapp.com|2011-11-01 15:24:59-04:00|14400|J. Bruce Fields|bfields@redhat.com|2011-11-07 21:10:47-05:00|18000

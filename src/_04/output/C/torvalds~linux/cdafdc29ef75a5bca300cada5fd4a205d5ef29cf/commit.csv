@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cdafdc29ef75a5bca300cada5fd4a205d5ef29cf|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"r8169: sync support for RTL8401 with vendor driver
-
-So far RTL8401 was treated like a RTL8101e, means we relied on the BIOS
-to configure MAC and PHY properly. Make RTL8401 a separate chip version
-and copy MAC / PHY config from r8101 vendor driver.
-
-Signed-off-by: Heiner Kallweit <hkallweit1@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|Heiner Kallweit|hkallweit1@gmail.com|2020-06-28 23:17:07+02:00|-7200|David S. Miller|davem@davemloft.net|2020-06-28 20:56:38-07:00|25200

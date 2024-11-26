@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e7c7b1d85dc1646c874096dac3cf01537c1fd6f1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cgroup: Update comments about task exit path
-
-We no longer take cgroup_mutex in cgroup_exit and the exiting tasks are
-not moved to init_css_set, reflect that in several comments to prevent
-confusion.
-
-Signed-off-by: Michal Koutný <mkoutny@suse.com>
-Signed-off-by: Tejun Heo <tj@kernel.org>"|1|Michal Koutný|mkoutny@suse.com|2019-10-04 12:57:39+02:00|-7200|Tejun Heo|tj@kernel.org|2019-10-07 07:11:53-07:00|25200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|27a4ff8f49a9b912be76f36f7e198824cf0aecd9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"raid5: remove raid5_build_block
-
-Now raid5_build_block is just called to set the
-sector of r5dev, raid5_compute_blocknr can be
-used directly for the purpose.
-
-Signed-off-by: Guoqing Jiang <gqjiang@suse.com>
-Signed-off-by: Shaohua Li <shli@fb.com>"|1|Guoqing Jiang|gqjiang@suse.com|2017-08-10 16:12:17+08:00|-28800|Shaohua Li|shli@fb.com|2017-08-25 10:21:47-07:00|25200

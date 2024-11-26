@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e542713529e323ff09d7aeb5806cf29f6f160f53|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"md: do not count blocked devices as spares
-
-remove_and_add_spares() assumes that failed devices have been hot-removed
-from the array.  Removal is skipped in the 'blocked' case so do not count a
-device in this state as 'spare'.
-
-Signed-off-by: Dan Williams <dan.j.williams@intel.com>"|1|Dan Williams|dan.j.williams@intel.com|2008-07-28 23:28:06-07:00|25200|Dan Williams|dan.j.williams@intel.com|2008-07-28 17:52:44-07:00|25200

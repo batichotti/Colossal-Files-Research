@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e563637b5fef2d1fbcd1efe457d4168fde7b3e0d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"staging: comedi: Use ARRAY_SIZE for sizes of arrays
-
-Use ARRAY_SIZE to calculate the size of an array to make code concise.
-The semantic patch used can be found here:
-https://github.com/coccinelle/coccinellery/commit/9cbab452a3a2e18439e8386d6c4a68ee42c3ee2b
-
-Signed-off-by: Janani Ravichandran <janani.rvchndrn@gmail.com>
-Signed-off-by: Greg Kroah-Hartman <gregkh@linuxfoundation.org>"|2|Janani Ravichandran|janani.rvchndrn@gmail.com|2016-02-11 19:07:48-05:00|18000|Greg Kroah-Hartman|gregkh@linuxfoundation.org|2016-02-11 19:47:27-08:00|28800

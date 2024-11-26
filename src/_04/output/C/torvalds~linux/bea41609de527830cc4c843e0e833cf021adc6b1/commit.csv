@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bea41609de527830cc4c843e0e833cf021adc6b1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Move eir_append_data function to a different location
-
-The eir_append_data helper function is needed for generating the
-extended local OOB data fields. So move it up into the right location.
-
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>
-Signed-off-by: Johan Hedberg <johan.hedberg@intel.com>"|1|Marcel Holtmann|marcel@holtmann.org|2015-03-14 22:43:17-07:00|25200|Johan Hedberg|johan.hedberg@intel.com|2015-03-15 10:05:26+02:00|-7200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5d0d9be8ef456afc6c3fb5f8aad06ef19b704b05|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"gro: Move common completion code into helpers
-
-Currently VLAN still has a bit of common code handling the aftermath
-of GRO that's shared with the common path.  This patch moves them
-into shared helpers to reduce code duplication.
-
-Signed-off-by: Herbert Xu <herbert@gondor.apana.org.au>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|Herbert Xu|herbert@gondor.apana.org.au|2009-01-29 14:19:48+00:00|0|David S. Miller|davem@davemloft.net|2009-01-29 16:33:02-08:00|28800

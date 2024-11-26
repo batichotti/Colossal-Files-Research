@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5592a3f3978c57175ef817a4f773bc0d6d8949b9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"knfsd: remove bogus BUG_ON() call from nfsd4_locku
-
-The code checks for a NULL filp and handles it gracefully just before
-this BUG_ON.
-
-Signed-off-by: Jeff Layton <jlayton@redhat.com>
-Signed-off-by: J. Bruce Fields <bfields@redhat.com>"|1|Jeff Layton|jlayton@redhat.com|2012-08-21 08:02:31-04:00|14400|J. Bruce Fields|bfields@redhat.com|2012-08-21 14:08:38-04:00|14400

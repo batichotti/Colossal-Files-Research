@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b4019c0e219bb1301865f8b2efedb4773526ed91|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4.1: Allow parallel LOCK/LOCKU calls
-
-Note, however, that we still serialise on the open stateid if the lock
-stateid is unconfirmed. Hopefully that will not prove too much of a
-burden for first time locks; it should leave the ability to parallelise
-OPENs unchanged, since they no longer call the serialisation primitives.
-
-Signed-off-by: Trond Myklebust <trond.myklebust@primarydata.com>"|1|Trond Myklebust|trond.myklebust@primarydata.com|2015-01-24 14:19:19-05:00|18000|Trond Myklebust|trond.myklebust@primarydata.com|2015-01-24 18:46:48-05:00|18000

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|dbdd04d311afb9d64b0722e8a8a00b359625e8de|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"s390/qeth: fine-tune errno when cmds are cancelled
-
-If we cancel all pending cmds (eg. when tearing down the device), don't
-blame it on an IO error.
-
-Signed-off-by: Julian Wiedmann <jwi@linux.ibm.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Julian Wiedmann|jwi@linux.ibm.com|2020-07-14 16:22:57+02:00|-7200|David S. Miller|davem@davemloft.net|2020-07-14 14:53:45-07:00|25200

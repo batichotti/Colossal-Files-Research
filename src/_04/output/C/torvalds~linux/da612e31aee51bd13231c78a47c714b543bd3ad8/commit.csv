@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|da612e31aee51bd13231c78a47c714b543bd3ad8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"btrfs: fix ncopies raid_attr for RAID56
-
-RAID5 and RAID6 profile store one copy of the data, not 2 or 3. These
-values are not yet used anywhere so there's no change.
-
-Reviewed-by: Nikolay Borisov <nborisov@suse.com>
-Signed-off-by: Hans van Kranenburg <hans.van.kranenburg@mendix.com>
-Signed-off-by: David Sterba <dsterba@suse.com>"|1|Hans van Kranenburg|hans.van.kranenburg@mendix.com|2018-10-04 23:24:41+02:00|-7200|David Sterba|dsterba@suse.com|2018-12-17 14:51:33+01:00|-3600

@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4c38609ac569483152f9cb7e5a66f17355e563b2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: Make guest cr4 mask more conservative
-
-Instead of specifying the bits which we want to trap on, specify the bits
-which we allow the guest to change transparently.  This is safer wrt future
-changes to cr4.
-
-Signed-off-by: Avi Kivity <avi@redhat.com>"|1|Avi Kivity|avi@redhat.com|2009-12-07 12:26:18+02:00|-7200|Marcelo Tosatti|mtosatti@redhat.com|2010-03-01 12:35:39-03:00|10800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a06f2109917e19f41af4d19144ce993247b4eff2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"brcmsmac: read PCI vendor and device id only for PCI devices
-
-If brcmsmac is used on non PCI(s) devices it should not try to access
-bus->host_pci.
-
-Signed-off-by: Hauke Mehrtens <hauke@hauke-m.de>
-Tested-by: Arend van Spriel <arend@broadcom.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|1|Hauke Mehrtens|hauke@hauke-m.de|2012-04-29 02:50:42+02:00|-7200|John W. Linville|linville@tuxdriver.com|2012-05-16 12:45:26-04:00|14400

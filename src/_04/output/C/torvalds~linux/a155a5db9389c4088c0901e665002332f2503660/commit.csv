@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a155a5db9389c4088c0901e665002332f2503660|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"be2net: support ndo_get_phys_port_id()
-
-Add be_get_phys_port_id() function to report physical port id. The port id
-should be unique across different be2net devices in the system. We use the
-chip serial number along with the physical port number for this.
-
-Signed-off-by: Sriharsha Basavapatna <sriharsha.basavapatna@avagotech.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|4|Sriharsha Basavapatna|sriharsha.basavapatna@avagotech.com|2015-07-22 11:15:12+05:30|-19800|David S. Miller|davem@davemloft.net|2015-07-24 22:41:22-07:00|25200

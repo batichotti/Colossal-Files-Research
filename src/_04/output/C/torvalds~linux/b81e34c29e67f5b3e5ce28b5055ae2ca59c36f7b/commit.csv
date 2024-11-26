@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b81e34c29e67f5b3e5ce28b5055ae2ca59c36f7b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/i915: Avoid confusion between DP and TRANS_DP_CTL in DP .get_config()
-
-Use a separate variable for the TRANS_DP_CTL value instead of reusing
-'tmp' that otherwise contains the DP port register value.
-
-Signed-off-by: Ville Syrjälä <ville.syrjala@linux.intel.com>
-Reviewed-by: Sivakumar Thulasimani <sivakumar.thulasimani@intel.com>
-Signed-off-by: Daniel Vetter <daniel.vetter@ffwll.ch>"|1|Ville Syrjälä|ville.syrjala@linux.intel.com|2015-07-06 15:10:03+03:00|-10800|Daniel Vetter|daniel.vetter@ffwll.ch|2015-08-14 18:16:36+02:00|-7200

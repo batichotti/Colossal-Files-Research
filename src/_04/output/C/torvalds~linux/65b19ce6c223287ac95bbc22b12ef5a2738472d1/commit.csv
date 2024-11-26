@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|65b19ce6c223287ac95bbc22b12ef5a2738472d1|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"regulator: core: Allow drivers to pass in a regmap
-
-Since many regulators use regmap for register I/O and since there's quite
-a few very common patterns in the code allow drivers to pass in a regmap
-to the core for use in generic code.
-
-Signed-off-by: Mark Brown <broonie@opensource.wolfsonmicro.com>
-Acked-by: Liam Girdwood <lrg@ti.com>"|2|Mark Brown|broonie@opensource.wolfsonmicro.com|2012-04-15 11:16:05+01:00|-3600|Mark Brown|broonie@opensource.wolfsonmicro.com|2012-04-16 19:51:53+01:00|-3600

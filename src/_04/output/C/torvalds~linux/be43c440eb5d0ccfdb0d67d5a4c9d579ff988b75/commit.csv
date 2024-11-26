@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|be43c440eb5d0ccfdb0d67d5a4c9d579ff988b75|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: fix warning Using plain integer as NULL pointer
-
-Changed passing argument as ""0 to NULL"" which resolves below sparse warning
-
-arch/x86/kvm/x86.c:3096:61: warning: Using plain integer as NULL pointer
-
-Signed-off-by: Hariprasad Kelam <hariprasad.kelam@gmail.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Hariprasad Kelam|hariprasad.kelam@gmail.com|2019-04-06 15:06:58+05:30|-19800|Paolo Bonzini|pbonzini@redhat.com|2019-04-16 15:38:07+02:00|-7200

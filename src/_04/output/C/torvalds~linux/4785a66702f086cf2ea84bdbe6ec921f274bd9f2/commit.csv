@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4785a66702f086cf2ea84bdbe6ec921f274bd9f2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tcp: Fix data-races around sysctl_tcp_ecn.
-
-While reading sysctl_tcp_ecn, it can be changed concurrently.
-Thus, we need to add READ_ONCE() to its readers.
-
-Fixes: 1da177e4c3f4 (""Linux-2.6.12-rc2"")
-Signed-off-by: Kuniyuki Iwashima <kuniyu@amazon.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|5|Kuniyuki Iwashima|kuniyu@amazon.com|2022-07-11 17:15:30-07:00|25200|David S. Miller|davem@davemloft.net|2022-07-13 12:56:49+01:00|-3600

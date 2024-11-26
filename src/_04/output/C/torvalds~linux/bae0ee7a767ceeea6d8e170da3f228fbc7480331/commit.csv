@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|bae0ee7a767ceeea6d8e170da3f228fbc7480331|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: check PageWriteback flag for ordered case
-
-For all ordered cases in f2fs_wait_on_page_writeback(), we need to
-check PageWriteback status, so let's clean up to relocate the check
-into f2fs_wait_on_page_writeback().
-
-Signed-off-by: Chao Yu <yuchao0@huawei.com>
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|13|Chao Yu|yuchao0@huawei.com|2018-12-25 17:43:42+08:00|-28800|Jaegeuk Kim|jaegeuk@kernel.org|2018-12-26 15:16:56-08:00|28800

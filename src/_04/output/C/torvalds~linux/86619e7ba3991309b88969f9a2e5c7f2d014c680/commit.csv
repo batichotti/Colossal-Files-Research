@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|86619e7ba3991309b88969f9a2e5c7f2d014c680|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: x86: Remove FIXMEs in emulate.c
-
-Remove FIXME comments about needing fault addresses to be returned.  These
-are propaagated from walk_addr_generic to gva_to_gpa and from there to
-ops->read_std and ops->write_std.
-
-Signed-off-by: Nicholas Krause <xerofoify@gmail.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|1|Nicholas Krause|xerofoify@gmail.com|2014-11-19 07:48:18-05:00|18000|Paolo Bonzini|pbonzini@redhat.com|2014-11-19 18:54:43+01:00|-3600

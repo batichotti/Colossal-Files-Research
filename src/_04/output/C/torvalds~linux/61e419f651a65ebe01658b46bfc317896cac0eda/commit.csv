@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|61e419f651a65ebe01658b46bfc317896cac0eda|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/amd/display: clean up some inconsistent indenting
-
-Eliminate the follow smatch warning:
-drivers/gpu/drm/amd/amdgpu/../display/dc/core/dc.c:3151 commit_planes_for_stream() warn: inconsistent indenting
-
-Signed-off-by: Yang Li <yang.lee@linux.alibaba.com>
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|1|Yang Li|yang.lee@linux.alibaba.com|2022-07-01 17:19:14+08:00|-28800|Alex Deucher|alexander.deucher@amd.com|2022-07-05 16:18:23-04:00|14400

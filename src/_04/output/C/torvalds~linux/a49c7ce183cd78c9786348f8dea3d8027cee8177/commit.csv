@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a49c7ce183cd78c9786348f8dea3d8027cee8177|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"rtl8xxxu: Name RX descriptor types rxdesc16/rxdesc24
-
-This caught a bug where too little memory was allocated for RX urbs
-for parts using 24 byte RX descriptors
-
-Signed-off-by: Jes Sorensen <Jes.Sorensen@redhat.com>
-Signed-off-by: Kalle Valo <kvalo@codeaurora.org>"|2|Jes Sorensen|Jes.Sorensen@redhat.com|2016-04-14 14:58:52-04:00|14400|Kalle Valo|kvalo@codeaurora.org|2016-04-15 21:36:33+03:00|-10800

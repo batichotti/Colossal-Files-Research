@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|59ee56697b0f89a1778ffa24ee3bf9a826a97e1d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"scsi: ips: don't set .detect and .release in the host template
-
-Since moving away from using scsi_module.c these were never called.  The
-implementations are called directly, though so they remain.
-
-Signed-off-by: Christoph Hellwig <hch@lst.de>
-Signed-off-by: Martin K. Petersen <martin.petersen@oracle.com>"|1|Christoph Hellwig|hch@lst.de|2018-03-14 12:48:24+01:00|-3600|Martin K. Petersen|martin.petersen@oracle.com|2018-03-15 00:26:30-04:00|14400

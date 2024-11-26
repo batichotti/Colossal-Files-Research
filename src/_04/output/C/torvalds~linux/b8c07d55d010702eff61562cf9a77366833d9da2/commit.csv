@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b8c07d55d010702eff61562cf9a77366833d9da2|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: nVMX: Check exit control for VM_EXIT_SAVE_IA32_PAT, not entry controls
-
-Obviously a copy&paste mistake: prepare_vmcs12 has to check L1's exit
-controls for VM_EXIT_SAVE_IA32_PAT.
-
-Signed-off-by: Jan Kiszka <jan.kiszka@siemens.com>
-Signed-off-by: Gleb Natapov <gleb@redhat.com>"|1|Jan Kiszka|jan.kiszka@siemens.com|2013-04-06 13:51:21+02:00|-7200|Gleb Natapov|gleb@redhat.com|2013-04-07 14:06:42+03:00|-10800

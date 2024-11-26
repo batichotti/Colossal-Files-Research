@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|372837978d90d1c563315192196735c09623a5d6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"xfs: use ->t_firstblock for all xfs_bunmapi() callers
-
-Convert all xfs_bunmapi() callers to ->t_firstblock.
-
-Signed-off-by: Brian Foster <bfoster@redhat.com>
-Reviewed-by: Christoph Hellwig <hch@lst.de>
-Reviewed-by: Darrick J. Wong <darrick.wong@oracle.com>
-Signed-off-by: Darrick J. Wong <darrick.wong@oracle.com>"|5|Brian Foster|bfoster@redhat.com|2018-07-11 22:26:23-07:00|25200|Darrick J. Wong|darrick.wong@oracle.com|2018-07-11 22:26:23-07:00|25200

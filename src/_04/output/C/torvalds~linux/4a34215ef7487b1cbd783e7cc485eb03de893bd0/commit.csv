@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4a34215ef7487b1cbd783e7cc485eb03de893bd0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: pass station to ieee80211_vht_cap_ie_to_sta_vht_cap
-
-Like with HT, make things a bit simpler in future patches by
-passing the station to ieee80211_vht_cap_ie_to_sta_vht_cap()
-instead of the vht_cap pointer. Also disable VHT here if HT
-isn't supported.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|4|Johannes Berg|johannes.berg@intel.com|2013-02-07 11:58:58+01:00|-3600|Johannes Berg|johannes.berg@intel.com|2013-02-15 09:41:29+01:00|-3600

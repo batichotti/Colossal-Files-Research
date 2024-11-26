@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|44ea8dfce021db1db6a31970b1f13a80366a1f21|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFS/pnfs: Reference the layout cred in pnfs_prepare_layoutreturn()
-
-When we're sending a layoutreturn, ensure that we reference the
-layout cred atomically with the copy of the stateid.
-
-Signed-off-by: Trond Myklebust <trond.myklebust@hammerspace.com>"|2|Trond Myklebust|trond.myklebust@hammerspace.com|2020-04-02 15:37:02-04:00|14400|Trond Myklebust|trond.myklebust@hammerspace.com|2020-04-03 18:29:10-04:00|14400

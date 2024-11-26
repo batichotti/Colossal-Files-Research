@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1f0e890dba5b0f543fea47732116b1c65d55614e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: Clean up struct nfs4_state_owner
-
-The 'so_delegations' list appears to be unused.
-
-Also eliminate so_client. If we already have so_server, we can get to the
-nfs_client structure.
-
-Signed-off-by: Trond Myklebust <Trond.Myklebust@netapp.com>"|3|Trond Myklebust|Trond.Myklebust@netapp.com|2010-06-24 15:11:43-04:00|14400|Trond Myklebust|Trond.Myklebust@netapp.com|2010-06-24 15:11:43-04:00|14400

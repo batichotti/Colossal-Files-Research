@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f4bf8d770b58862c2af9d17adc2fee05bef8f2c0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ASoC: Move bias level update to the core
-
-All drivers have the same line at the end of the set_bias_level callback to
-update the bias_level state. Move this update into
-snd_soc_dapm_force_bias_level() and remove them from the drivers.
-
-Signed-off-by: Lars-Peter Clausen <lars@metafoo.de>
-Signed-off-by: Mark Brown <broonie@kernel.org>"|98|Lars-Peter Clausen|lars@metafoo.de|2015-04-27 22:13:25+02:00|-7200|Mark Brown|broonie@kernel.org|2015-04-27 21:34:45+01:00|-3600

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|14a5ae40f0def33a422a45b2ed09198adb7bf11c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tracing: Use IS_ERR() check for return value of tracing_init_dentry()
-
-tracing_init_dentry() will soon return NULL as a valid pointer for the
-top level tracing directroy. NULL can not be used as an error value.
-Instead, switch to ERR_PTR() and check the return status with
-IS_ERR().
-
-Signed-off-by: Steven Rostedt <rostedt@goodmis.org>"|9|Steven Rostedt (Red Hat)|rostedt@goodmis.org|2015-01-20 11:14:16-05:00|18000|Steven Rostedt|rostedt@goodmis.org|2015-01-22 11:19:49-05:00|18000

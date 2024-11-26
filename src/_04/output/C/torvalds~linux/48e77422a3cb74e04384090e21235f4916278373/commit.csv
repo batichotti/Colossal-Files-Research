@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|48e77422a3cb74e04384090e21235f4916278373|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mediatek: unlock on error in mtk_tx_map()
-
-There was a missing unlock on the error path.
-
-Fixes: 656e705243fd ('net-next: mediatek: add support for MT7623 ethernet')
-Signed-off-by: Dan Carpenter <dan.carpenter@oracle.com>
-Acked-by: John Crispin <blogic@openwrt.org>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Dan Carpenter|dan.carpenter@oracle.com|2016-03-15 10:19:04+03:00|-10800|David S. Miller|davem@davemloft.net|2016-03-18 18:28:11-04:00|14400

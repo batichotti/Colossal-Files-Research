@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9398554fb3979852512ff4f1405e759889b45c16|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"block: remove the error_sector argument to blkdev_issue_flush
-
-The argument isn't used by any caller, and drivers don't fill out
-bi_sector for flush requests either.
-
-Signed-off-by: Christoph Hellwig <hch@lst.de>
-Signed-off-by: Jens Axboe <axboe@kernel.dk>"|22|Christoph Hellwig|hch@lst.de|2020-05-13 14:36:00+02:00|-7200|Jens Axboe|axboe@kernel.dk|2020-05-22 08:45:46-06:00|21600

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6fad823f4998cdff49c443891a0acc9f1bc289f9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: do not add extra mirror when dev_replace target dev is not available
-
-With this, we can avoid allocating memory for dev replace copies if the
-target dev is not available.
-
-Reviewed-by: Qu Wenruo <quwenruo@cn.fujitsu.com>
-Signed-off-by: Liu Bo <bo.li.liu@oracle.com>
-Signed-off-by: David Sterba <dsterba@suse.com>"|1|Liu Bo|bo.li.liu@oracle.com|2017-03-14 13:33:59-07:00|25200|David Sterba|dsterba@suse.com|2017-04-18 14:07:25+02:00|-7200

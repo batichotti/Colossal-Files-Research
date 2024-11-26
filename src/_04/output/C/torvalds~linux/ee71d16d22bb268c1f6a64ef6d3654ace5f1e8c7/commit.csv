@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ee71d16d22bb268c1f6a64ef6d3654ace5f1e8c7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"s390/mm: make TASK_SIZE independent from the number of page table levels
-
-The TASK_SIZE for a process should be maximum possible size of the address
-space, 2GB for a 31-bit process and 8PB for a 64-bit process. The number
-of page table levels required for a given memory layout is a consequence
-of the mapped memory areas and their location.
-
-Signed-off-by: Martin Schwidefsky <schwidefsky@de.ibm.com>"|7|Martin Schwidefsky|schwidefsky@de.ibm.com|2017-04-20 14:43:51+02:00|-7200|Martin Schwidefsky|schwidefsky@de.ibm.com|2017-04-25 07:47:32+02:00|-7200

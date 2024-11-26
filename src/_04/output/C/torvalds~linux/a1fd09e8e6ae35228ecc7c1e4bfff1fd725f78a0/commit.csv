@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a1fd09e8e6ae35228ecc7c1e4bfff1fd725f78a0|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"dma-mapping: move dma-debug.h to kernel/dma/
-
-Most of dma-debug.h is not required by anything outside of kernel/dma.
-Move the four declarations needed by dma-mappin.h or dma-ops providers
-into dma-mapping.h and dma-map-ops.h, and move the remainder of the
-file to kernel/dma/debug.h.
-
-Signed-off-by: Christoph Hellwig <hch@lst.de>"|13|Christoph Hellwig|hch@lst.de|2020-09-11 10:12:44+02:00|-7200|Christoph Hellwig|hch@lst.de|2020-10-06 07:07:05+02:00|-7200

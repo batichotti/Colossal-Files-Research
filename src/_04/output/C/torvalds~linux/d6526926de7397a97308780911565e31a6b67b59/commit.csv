@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d6526926de7397a97308780911565e31a6b67b59|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: mvpp2: fix memory leak in mvpp2_rx
-
-Release skb memory in mvpp2_rx() if mvpp2_rx_refill routine fails
-
-Fixes: b5015854674b (""net: mvpp2: fix refilling BM pools in RX path"")
-Signed-off-by: Lorenzo Bianconi <lorenzo@kernel.org>
-Acked-by: Matteo Croce <mcroce@microsoft.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Lorenzo Bianconi|lorenzo@kernel.org|2020-07-31 10:38:32+02:00|-7200|David S. Miller|davem@davemloft.net|2020-08-03 15:14:46-07:00|25200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|978aded4b39de7f441bb9bfb18cf830de6a968d3|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"stmmac: fix rx checksum programming
-
-This patch is to fix the IPC bit into the GMAC control register
-that must be done after the core initialization otherwise it will
-not have any effect.
-
-Signed-off-by: Giuseppe Cavallaro <peppe.cavallaro@st.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Giuseppe CAVALLARO|peppe.cavallaro@st.com|2014-08-25 14:56:18+02:00|-7200|David S. Miller|davem@davemloft.net|2014-08-25 15:33:10-07:00|25200

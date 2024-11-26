@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|e5f134958d07230ff9a806b1ec200239573e746f|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/amdgpu/gfx9: disable gfxoff when reading rlc clock
-
-Otherwise we readback all ones.  Fixes rlc counter
-readback while gfxoff is active.
-
-Reviewed-by: Xiaojie Yuan <xiaojie.yuan@amd.com>
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|1|Alex Deucher|alexander.deucher@amd.com|2020-02-12 08:51:29-05:00|18000|Alex Deucher|alexander.deucher@amd.com|2020-02-12 16:04:40-05:00|18000

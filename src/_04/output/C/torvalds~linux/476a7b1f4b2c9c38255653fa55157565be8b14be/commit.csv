@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|476a7b1f4b2c9c38255653fa55157565be8b14be|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"nfsd4: don't treat readlink like a zero-copy operation
-
-There's no advantage to this zero-copy-style readlink encoding, and it
-unnecessarily limits the kinds of compounds we can handle.  (In practice
-I can't see why a client would want e.g. multiple readlink calls in a
-comound, but it's probably a spec violation for us not to handle it.)
-
-Signed-off-by: J. Bruce Fields <bfields@redhat.com>"|1|J. Bruce Fields|bfields@redhat.com|2014-01-20 17:08:27-05:00|18000|J. Bruce Fields|bfields@redhat.com|2014-05-30 17:32:05-04:00|14400

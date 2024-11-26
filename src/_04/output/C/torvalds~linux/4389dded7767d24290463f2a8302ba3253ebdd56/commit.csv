@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|4389dded7767d24290463f2a8302ba3253ebdd56|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tcp: Remove redundant checks when setting eff_sacks
-
-Remove redundant checks when setting eff_sacks and make the number of SACKs a
-compile time constant. Now that the options code knows how many SACK blocks can
-fit in the header, we don't need to have the SACK code guessing at it.
-
-Signed-off-by: Adam Langley <agl@imperialviolet.org>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|2|Adam Langley|agl@imperialviolet.org|2008-07-19 00:07:02-07:00|25200|David S. Miller|davem@davemloft.net|2008-07-19 00:07:02-07:00|25200

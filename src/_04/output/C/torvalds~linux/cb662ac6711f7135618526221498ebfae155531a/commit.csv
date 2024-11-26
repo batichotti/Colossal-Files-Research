@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|cb662ac6711f7135618526221498ebfae155531a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: increase maximum devices number per flowtable
-
-Rise the maximum limit of devices per flowtable up to 256. Rename
-NFT_FLOWTABLE_DEVICE_MAX to NFT_NETDEVICE_MAX in preparation to reuse
-the netdev hook parser for ingress basechain.
-
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|2|Pablo Neira Ayuso|pablo@netfilter.org|2019-10-16 14:29:47+02:00|-7200|Pablo Neira Ayuso|pablo@netfilter.org|2019-10-23 13:01:26+02:00|-7200

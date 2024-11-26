@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9ab98f57b3e1d73cd0720d29c21b687ba609cde9|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] scsi_debug: fix map_region and unmap_region oops
-
-map_region and unmap_region could access to invalid memory area since
-they don't check the size boundary.
-
-Signed-off-by: FUJITA Tomonori <fujita.tomonori@lab.ntt.co.jp>
-Acked-by: Douglas Gilbert <dgilbert@interlog.com>
-Signed-off-by: James Bottomley <James.Bottomley@suse.de>"|1|FUJITA Tomonori|fujita.tomonori@lab.ntt.co.jp|2010-06-28 01:04:45+09:00|-32400|James Bottomley|James.Bottomley@suse.de|2010-07-27 12:03:55-05:00|18000

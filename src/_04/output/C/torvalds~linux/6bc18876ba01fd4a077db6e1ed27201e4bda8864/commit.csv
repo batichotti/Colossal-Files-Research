@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6bc18876ba01fd4a077db6e1ed27201e4bda8864|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ceph: avoid null deref in osd request error path
-
-If we interrupt an osd request, we call __cancel_request, but it wasn't
-verifying that req->r_osd was non-NULL before dereferencing it.  This could
-cause a crash if osds were flapping and we aborted a request on said osd.
-
-Reported-by: Henry C Chang <henry_c_chang@tcloudcomputing.com>
-Signed-off-by: Sage Weil <sage@newdream.net>"|1|Sage Weil|sage@newdream.net|2010-09-27 10:18:52-07:00|25200|Sage Weil|sage@newdream.net|2010-10-07 08:00:23-07:00|25200

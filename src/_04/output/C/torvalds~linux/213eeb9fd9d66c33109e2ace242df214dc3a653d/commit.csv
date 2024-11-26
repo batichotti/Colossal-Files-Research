@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|213eeb9fd9d66c33109e2ace242df214dc3a653d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"slub: Extract get_freelist from __slab_alloc
-
-get_freelist retrieves free objects from the page freelist (put there by remote
-frees) or deactivates a slab page if no more objects are available.
-
-Acked-by: David Rientjes <rientjes@google.com>
-Signed-off-by: Christoph Lameter <cl@linux.com>
-Signed-off-by: Pekka Enberg <penberg@kernel.org>"|1|Christoph Lameter|cl@linux.com|2011-11-11 14:07:14-06:00|21600|Pekka Enberg|penberg@kernel.org|2011-12-13 22:17:10+02:00|-7200

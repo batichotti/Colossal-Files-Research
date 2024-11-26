@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|d626f62b11e00c16e81e4308ab93d3f13551812a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SK_BUFF]: Introduce skb_copy_from_linear_data{_offset}
-
-To clearly state the intent of copying from linear sk_buffs, _offset being a
-overly long variant but interesting for the sake of saving some bytes.
-
-Signed-off-by: Arnaldo Carvalho de Melo <acme@redhat.com>"|133|Arnaldo Carvalho de Melo|acme@redhat.com|2007-03-27 18:55:52-03:00|10800|David S. Miller|davem@sunset.davemloft.net|2007-04-25 22:28:23-07:00|25200

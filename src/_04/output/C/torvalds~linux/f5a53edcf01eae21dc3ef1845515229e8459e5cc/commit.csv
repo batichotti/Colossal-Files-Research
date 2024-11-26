@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f5a53edcf01eae21dc3ef1845515229e8459e5cc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"f2fs: support aligned pinned file
-
-This patch supports 2MB-aligned pinned file, which can guarantee no GC at all
-by allocating fully valid 2MB segment.
-
-Check free segments by has_not_enough_free_secs() with large budget.
-
-Signed-off-by: Jaegeuk Kim <jaegeuk@kernel.org>"|7|Jaegeuk Kim|jaegeuk@kernel.org|2019-10-18 10:06:40-07:00|25200|Jaegeuk Kim|jaegeuk@kernel.org|2019-11-07 10:40:59-08:00|28800

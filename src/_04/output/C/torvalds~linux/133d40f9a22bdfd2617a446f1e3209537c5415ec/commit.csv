@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|133d40f9a22bdfd2617a446f1e3209537c5415ec|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: do not scan and monitor connection in parallel
-
-Before we send probes in connection monitoring we check if scan is not
-pending. But we do that check without locking. Fix that and also do not
-start scan if connection monitoring is in progress.
-
-Signed-off-by: Stanislaw Gruszka <sgruszka@redhat.com>
-Signed-off-by: John W. Linville <linville@tuxdriver.com>"|4|Stanislaw Gruszka|sgruszka@redhat.com|2012-03-28 16:01:19+02:00|-7200|John W. Linville|linville@tuxdriver.com|2012-04-13 14:31:49-04:00|14400

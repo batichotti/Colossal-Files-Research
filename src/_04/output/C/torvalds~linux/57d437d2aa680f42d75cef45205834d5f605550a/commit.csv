@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|57d437d2aa680f42d75cef45205834d5f605550a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"slub: pass page to node_match() instead of kmem_cache_cpu structure
-
-Avoid passing the kmem_cache_cpu pointer to node_match. This makes the
-node_match function more generic and easier to understand.
-
-Acked-by: David Rientjes <rientjes@google.com>
-Signed-off-by: Christoph Lameter <cl@linux.com>
-Signed-off-by: Pekka Enberg <penberg@kernel.org>"|1|Christoph Lameter|cl@linux.com|2012-05-09 10:09:59-05:00|18000|Pekka Enberg|penberg@kernel.org|2012-06-01 09:25:41+03:00|-10800

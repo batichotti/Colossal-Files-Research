@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|fdefa4d87e2f07ffe5888a7c2ed87dd12f9cfe37|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"RAID: remove trailing space from printk line
-
-drivers/md/*.[ch] contains only one more printk line with a trailing space.
-Remove it.
-
-Signed-off-by: Nick Andrew <nick@nick-andrew.net>
-Signed-off-by: Jesper Juhl <jesper.juhl@gmail.com>"|1|Nick Andrew|nick@nick-andrew.net|2008-04-21 22:42:58+00:00|0|Jesper Juhl|juhl@hera.kernel.org|2008-04-21 22:42:58+00:00|0

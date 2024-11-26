@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|77a74c7e0861e6ebac7effe233fd7e83f1ad9ecc|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: Rename l2cap_do_connect() to l2cap_chan_connect()
-
-l2cap_chan_connect() is a much better name and reflects what this
-functions is doing (or will do once socket dependence is removed from the
-core).
-
-Signed-off-by: Gustavo F. Padovan <padovan@profusion.mobi>"|3|Gustavo F. Padovan|padovan@profusion.mobi|2011-04-12 18:17:14-03:00|10800|Gustavo F. Padovan|padovan@profusion.mobi|2011-04-27 18:51:34-03:00|10800

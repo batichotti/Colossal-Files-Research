@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|c78afc6261b09f74abff8c0719b80692a4959768|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"bcache/md: Use raid stripe size
-
-Now that we've got code for raid5/6 stripe awareness, bcache just needs
-to know about the stripes and when writing partial stripes is expensive
-- we probably don't want to enable this optimization for raid1 or 10,
-even though they have stripes. So add a flag to queue_limits.
-
-Signed-off-by: Kent Overstreet <kmo@daterainc.com>"|4|Kent Overstreet|kmo@daterainc.com|2013-07-11 22:39:53-07:00|25200|Kent Overstreet|kmo@daterainc.com|2014-01-08 13:05:09-08:00|28800

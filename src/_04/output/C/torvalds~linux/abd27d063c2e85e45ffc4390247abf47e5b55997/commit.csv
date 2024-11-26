@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|abd27d063c2e85e45ffc4390247abf47e5b55997|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wifi: mac80211: correct SMPS mode in HE 6 GHz capability
-
-If we add 6 GHz capability in MLO, we cannot use the SMPS
-mode from the deflink. Pass it separately instead since on
-a second link we don't even have a link data struct yet.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|4|Johannes Berg|johannes.berg@intel.com|2022-08-25 20:57:32+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2022-08-26 09:56:36+02:00|-7200

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|915d25a9d69be969c1cc6c1dd0c3861f6da7b55e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: phy: micrel: fix ts_info value in case of no phc
-
-In case of no phc we should not return SOFTWARE TIMESTAMPING flags as we do
-not know whether the netdev supports of timestamping.
-Remove it from the lan8841_ts_info and simply return 0.
-
-Signed-off-by: Kory Maincent <kory.maincent@bootlin.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Kory Maincent|kory.maincent@bootlin.com|2023-11-14 12:28:34+01:00|-3600|David S. Miller|davem@davemloft.net|2023-11-18 14:52:57+00:00|0

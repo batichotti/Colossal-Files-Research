@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5d8e4237d2dc73b51ac66dc612c5c42dd7424479|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: change locking around ieee80211_recalc_smps
-
-Make the function acquire the necessary mutex itself
-to simplify the callers.
-
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|4|Johannes Berg|johannes.berg@intel.com|2012-09-11 10:17:11+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2012-09-14 14:09:25+02:00|-7200

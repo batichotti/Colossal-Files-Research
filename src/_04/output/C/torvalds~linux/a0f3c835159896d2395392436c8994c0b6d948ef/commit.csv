@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a0f3c835159896d2395392436c8994c0b6d948ef|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSD: Rename nfsd4_encode_dirent()
-
-Rename nfsd4_encode_dirent() to match the naming convention already
-used in the NFSv2 and NFSv3 readdir paths. The new name reflects the
-name of the spec-defined XDR data type for an NFSv4 directory entry.
-
-Reviewed-by: Jeff Layton <jlayton@kernel.org>
-Signed-off-by: Chuck Lever <chuck.lever@oracle.com>"|1|Chuck Lever|chuck.lever@oracle.com|2023-10-04 09:41:44-04:00|14400|Chuck Lever|chuck.lever@oracle.com|2023-10-16 12:44:34-04:00|14400

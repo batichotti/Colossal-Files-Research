@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9e65dc371b5c8d7476c81353137efc13cc1bdabd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"IB/mlx5: Fix RC transport send queue overhead computation
-
-Fix the RC QPs send queue overhead computation to take into account
-two additional segments in the WQE which are needed for registration
-operations.
-
-Signed-off-by: Eli Cohen <eli@mellanox.com>
-Signed-off-by: Roland Dreier <roland@purestorage.com>"|1|Eli Cohen|eli@dev.mellanox.co.il|2014-01-28 14:52:47+02:00|-7200|Roland Dreier|roland@purestorage.com|2014-02-06 23:00:48-08:00|28800

@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b7bc2a5b5bd99b216c3e5fe68c7f45c684ab5745|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"net: remove netdev_bonding_change()
-
-I don't see any benifits to use netdev_bonding_change() than
-using call_netdevice_notifiers() directly.
-
-Cc: David S. Miller <davem@davemloft.net>
-Signed-off-by: Cong Wang <amwang@redhat.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|3|Amerigo Wang|amwang@redhat.com|2012-08-09 22:14:57+00:00|0|David S. Miller|davem@davemloft.net|2012-08-14 14:28:24-07:00|25200

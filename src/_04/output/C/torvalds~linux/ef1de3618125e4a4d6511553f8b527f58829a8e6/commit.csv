@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ef1de3618125e4a4d6511553f8b527f58829a8e6|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"drm/amd/display: Use dev_get_drvdata
-
-Instead of using to_pci_dev + pci_get_drvdata,
-use dev_get_drvdata to make code simpler.
-
-Signed-off-by: Chuhong Yuan <hslester96@gmail.com>
-Signed-off-by: Alex Deucher <alexander.deucher@amd.com>"|1|Chuhong Yuan|hslester96@gmail.com|2019-07-23 17:04:22+08:00|-28800|Alex Deucher|alexander.deucher@amd.com|2019-07-30 23:18:46-05:00|18000

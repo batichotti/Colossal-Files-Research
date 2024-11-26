@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|536f0e6ace95aa8d7b6d5522f0d56ae34e9fc39c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: MMU: change disallowed_hugepage_adjust() arguments to kvm_page_fault
-
-Pass struct kvm_page_fault to disallowed_hugepage_adjust() instead of
-extracting the arguments from the struct.  Tweak a bit the conditions
-to avoid long lines.
-
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|4|Paolo Bonzini|pbonzini@redhat.com|2021-08-06 04:35:50-04:00|14400|Paolo Bonzini|pbonzini@redhat.com|2021-10-01 03:44:51-04:00|14400

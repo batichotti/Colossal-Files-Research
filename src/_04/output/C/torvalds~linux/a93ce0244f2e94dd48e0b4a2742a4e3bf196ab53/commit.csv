@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a93ce0244f2e94dd48e0b4a2742a4e3bf196ab53|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] lpfc: use SCSI_MLQUEUE_TARGET_BUSY when catching the rport transition race
-
-We do want to call right back into the queuecommand during the race,
-so we can just use SCSI_MLQUEUE_TARGET_BUSY.
-
-Signed-off-by: Mike Christie <michaelc@cs.wisc.edu>
-Acked-by: James Smart <James.Smart@Emulex.Com>
-Signed-off-by: James Bottomley <James.Bottomley@HansenPartnership.com>"|1|Mike Christie|michaelc@cs.wisc.edu|2008-08-17 15:24:41-05:00|18000|James Bottomley|James.Bottomley@HansenPartnership.com|2008-10-13 09:28:47-04:00|14400

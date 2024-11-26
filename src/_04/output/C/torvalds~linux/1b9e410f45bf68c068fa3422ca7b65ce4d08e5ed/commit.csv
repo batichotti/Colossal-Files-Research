@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|1b9e410f45bf68c068fa3422ca7b65ce4d08e5ed|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"s390/qeth: fine-tune .ndo_select_queue()
-
-Avoid a conditional branch for L2 devices when selecting the TX queue,
-and have shared logic for OSA devices.
-
-Signed-off-by: Julian Wiedmann <jwi@linux.ibm.com>
-Signed-off-by: Alexandra Winter <wintera@linux.ibm.com>
-Signed-off-by: Jakub Kicinski <kuba@kernel.org>"|4|Julian Wiedmann|jwi@linux.ibm.com|2021-12-07 10:04:51+01:00|-3600|Jakub Kicinski|kuba@kernel.org|2021-12-07 22:01:02-08:00|28800

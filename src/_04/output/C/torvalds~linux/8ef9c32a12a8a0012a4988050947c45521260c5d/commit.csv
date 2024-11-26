@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|8ef9c32a12a8a0012a4988050947c45521260c5d|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mm: vmscan: use sysfs_emit() to instead of scnprintf()
-
-Replace open-coded snprintf() with sysfs_emit() to simplify the code.
-
-Link: https://lkml.kernel.org/r/202211241929015476424@zte.com.cn
-Signed-off-by: Xu Panda <xu.panda@zte.com.cn>
-Signed-off-by: Yang Yang <yang.yang29@zte.com>
-Signed-off-by: Andrew Morton <akpm@linux-foundation.org>"|1|Xu Panda|xu.panda@zte.com.cn|2022-11-24 19:29:01+08:00|-28800|Andrew Morton|akpm@linux-foundation.org|2022-11-30 15:59:08-08:00|28800

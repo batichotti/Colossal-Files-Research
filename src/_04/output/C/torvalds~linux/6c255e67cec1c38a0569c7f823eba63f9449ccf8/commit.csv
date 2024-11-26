@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|6c255e67cec1c38a0569c7f823eba63f9449ccf8|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: don't flush all delalloc inodes when we doesn't get s_umount lock
-
-We needn't flush all delalloc inodes when we doesn't get s_umount lock,
-or we would make the tasks wait for a long time.
-
-Signed-off-by: Miao Xie <miaox@cn.fujitsu.com>
-Signed-off-by: Josef Bacik <jbacik@fb.com>"|7|Miao Xie|miaox@cn.fujitsu.com|2014-03-06 13:55:01+08:00|-28800|Josef Bacik|jbacik@fb.com|2014-03-10 15:17:27-04:00|14400

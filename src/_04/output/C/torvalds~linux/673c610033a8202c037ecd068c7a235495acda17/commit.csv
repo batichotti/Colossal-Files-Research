@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|673c610033a8202c037ecd068c7a235495acda17|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ext4: Move struct ext4_mount_options from ext4.h to super.c
-
-Move the ext4_mount_options structure definition from ext4.h, since it
-is only used in super.c.
-
-Signed-off-by: ""Theodore Ts'o"" <tytso@mit.edu>"|2|Theodore Ts'o|tytso@mit.edu|2010-12-15 20:28:48-05:00|18000|Theodore Ts'o|tytso@mit.edu|2010-12-15 20:28:48-05:00|18000

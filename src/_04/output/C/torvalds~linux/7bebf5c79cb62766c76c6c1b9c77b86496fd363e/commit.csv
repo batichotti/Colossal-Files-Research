@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7bebf5c79cb62766c76c6c1b9c77b86496fd363e|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[SCSI] megaraid_sas: allocate the application cmds to sas2 controller
-
-MegaRAID SAS2 controller ioctl can't use 32 cmd for applications.
-Driver need to divide different number of cmds to IO and application.
-
-Signed-off-by Bo Yang<bo.yang@lsi.com>
-Signed-off-by: James Bottomley <James.Bottomley@suse.de>"|2|Yang, Bo|Bo.Yang@lsi.com|2009-10-06 14:40:58-06:00|21600|James Bottomley|James.Bottomley@suse.de|2009-10-29 13:03:20-04:00|14400

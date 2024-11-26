@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|573e80fe04db1aa44e8303037f65716ba5c3a343|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: emulate: rework seg_override
-
-x86_decode_insn already sets a default for seg_override,
-so remove it from the zeroed area. Also replace set/get functions
-with direct access to the field.
-
-Signed-off-by: Bandan Das <bsd@redhat.com>
-Signed-off-by: Paolo Bonzini <pbonzini@redhat.com>"|2|Bandan Das|bsd@redhat.com|2014-04-16 12:46:13-04:00|14400|Paolo Bonzini|pbonzini@redhat.com|2014-07-11 09:14:01+02:00|-7200

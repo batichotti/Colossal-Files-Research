@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9f101ee89465e0b2c11b477f5b55e03039b2c308|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mm, slub: check new pages with restored irqs
-
-Building on top of the previous patch, re-enable irqs before checking new
-pages. alloc_debug_processing() is now called with enabled irqs so we need to
-remove VM_BUG_ON(!irqs_disabled()); in check_slab() - there doesn't seem to be
-a need for it anyway.
-
-Signed-off-by: Vlastimil Babka <vbabka@suse.cz>"|1|Vlastimil Babka|vbabka@suse.cz|2021-05-11 16:56:09+02:00|-7200|Vlastimil Babka|vbabka@suse.cz|2021-09-04 01:12:21+02:00|-7200

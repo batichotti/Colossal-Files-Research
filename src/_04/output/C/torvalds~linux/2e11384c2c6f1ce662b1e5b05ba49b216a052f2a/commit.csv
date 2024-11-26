@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|2e11384c2c6f1ce662b1e5b05ba49b216a052f2a|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"KVM: VMX: fix typo in VMX header define
-
-Looking at Intel Volume 3b, page 148, table 20-11 and noticed
-that the field name is 'Deliver' not 'Deliever'.  Attached patch changes
-the define name and its user in vmx.c
-
-Signed-off-by: Ryan Harper <ryanh@us.ibm.com>
-Signed-off-by: Avi Kivity <avi@qumranet.com>"|2|Ryan Harper|ryanh@us.ibm.com|2008-02-11 10:26:38-06:00|21600|Avi Kivity|avi@qumranet.com|2008-04-27 11:53:21+03:00|-10800

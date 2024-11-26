@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|336004e29115e47253f7e7d007df9e1f9e73dcdd|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"mac80211: add more missing checks for VHT tx rates
-
-Fixes a crash on attempting to calculate the frame duration for a VHT
-packet (which needs to be handled by hw/driver instead).
-
-Reported-by: Jouni Malinen <j@w1.fi>
-Signed-off-by: Felix Fietkau <nbd@openwrt.org>
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|2|Felix Fietkau|nbd@openwrt.org|2014-11-21 23:29:14+01:00|-3600|Johannes Berg|johannes.berg@intel.com|2014-11-28 14:24:23+01:00|-3600

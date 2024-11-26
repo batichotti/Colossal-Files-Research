@@ -1,7 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|71953fc6e4ce5ac05b594d8e5866accf531aa969|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cifs: remove kmap lock and rsize limit
-
-Now that we aren't abusing the kmap address space, there's no need for
-this lock or to impose a limit on the rsize.
-
-Signed-off-by: Jeff Layton <jlayton@redhat.com>"|4|Jeff Layton|jlayton@redhat.com|2012-09-19 06:22:42-07:00|25200|Steve French|smfrench@gmail.com|2012-09-24 21:46:32-05:00|18000

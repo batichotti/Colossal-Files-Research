@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b335b0034e252e79ec2e9c6697f5d663c4627bec|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: Avoid using __GFP_HIGHMEM with slab allocator
-
-btrfs_releasepage may call kmem_cache_alloc indirectly,
-and provide same GFP flags it gets to kmem_cache_alloc.
-So it's possible to use __GFP_HIGHMEM with the slab
-allocator.
-
-Signed-off-by: Yan Zheng <zheng.yan@oracle.com>"|1|Yan Zheng|zheng.yan@oracle.com|2009-02-12 10:06:04-05:00|18000|Chris Mason|chris.mason@oracle.com|2009-02-12 10:06:04-05:00|18000

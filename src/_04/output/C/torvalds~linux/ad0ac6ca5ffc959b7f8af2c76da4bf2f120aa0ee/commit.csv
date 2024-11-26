@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|ad0ac6ca5ffc959b7f8af2c76da4bf2f120aa0ee|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: debug: Print CID and PSM in hex format
-
-Correct places where CID and PSM were printed as int. For CID: 0x%4.4x
-is used and for PSM: 0x%2.2x.
-
-Signed-off-by: Andrei Emeltchenko <andrei.emeltchenko@intel.com>
-Signed-off-by: Gustavo Padovan <gustavo.padovan@collabora.co.uk>"|1|Andrei Emeltchenko|andrei.emeltchenko@intel.com|2012-07-10 15:27:50+03:00|-10800|Gustavo Padovan|gustavo.padovan@collabora.co.uk|2012-07-10 15:41:50-03:00|10800

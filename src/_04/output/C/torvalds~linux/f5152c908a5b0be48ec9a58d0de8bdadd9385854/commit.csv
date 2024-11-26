@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f5152c908a5b0be48ec9a58d0de8bdadd9385854|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"cxgb4: fix for new ndo_get_stats64 signature
-
-The change to ndo_get_stats64 in ""net: fix 64 bit counters on 32 bit arches""
-missed cxgb4.  Fix it.
-
-Signed-off-by: Dimitris Michailidis <dm@chelsio.com>
-Acked-by: Eric Dumazet <eric.dumazet@gmail.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Dimitris Michailidis|dm@chelsio.com|2010-07-07 16:11:25+00:00|0|David S. Miller|davem@davemloft.net|2010-07-07 22:41:05-07:00|25200

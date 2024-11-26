@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|a71029b86752e8d40301af235a6bbf4896cc1402|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"NFSv4: Fix nfs4_bitmap_copy_adjust()
-
-Don't remove flags from the set retrieved from the cache_validity.
-We do want to retrieve all attributes that are listed as being
-invalid, whether or not there is a delegation set.
-
-Signed-off-by: Trond Myklebust <trond.myklebust@hammerspace.com>"|1|Trond Myklebust|trond.myklebust@hammerspace.com|2021-04-10 00:23:03-04:00|14400|Trond Myklebust|trond.myklebust@hammerspace.com|2021-04-13 08:46:29-04:00|14400

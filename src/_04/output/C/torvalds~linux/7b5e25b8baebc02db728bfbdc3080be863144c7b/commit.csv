@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|7b5e25b8baebc02db728bfbdc3080be863144c7b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"wifi: cfg80211: rename UHB to 6 GHz
-
-UHB stands for ""Ultra High Band"", but this term doesn't really
-exist in the spec. Rename all occurrences to ""6 GHz"", but keep
-a few defines for userspace API compatibility.
-
-Link: https://msgid.link/20240206164849.c9cfb9400839.I153db3b951934a1d84409c17fbe1f1d1782543fa@changeid
-Signed-off-by: Johannes Berg <johannes.berg@intel.com>"|5|Johannes Berg|johannes.berg@intel.com|2024-02-06 16:54:07+02:00|-7200|Johannes Berg|johannes.berg@intel.com|2024-02-12 21:22:46+01:00|-3600

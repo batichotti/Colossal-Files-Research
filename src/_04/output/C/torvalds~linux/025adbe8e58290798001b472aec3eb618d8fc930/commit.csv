@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|025adbe8e58290798001b472aec3eb618d8fc930|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tipc: Simplify log buffer resizing
-
-This patch simplifies & standardizes the way TIPC's print buffer
-log is resized.  Code to terminate use of the log buffer is
-eliminated by simply setting the log buffer size to 0 bytes.
-
-Signed-off-by: Allan Stephens <allan.stephens@windriver.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|4|Allan Stephens|allan.stephens@windriver.com|2008-05-05 01:20:04-07:00|25200|David S. Miller|davem@davemloft.net|2008-05-05 01:20:04-07:00|25200

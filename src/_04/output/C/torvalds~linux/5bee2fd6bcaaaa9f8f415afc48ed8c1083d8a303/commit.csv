@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|5bee2fd6bcaaaa9f8f415afc48ed8c1083d8a303|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Bluetooth: hci_sync: Rework background scan
-
-This replaces the use of hci_update_background_scan with
-hci_update_passive_scan which runs from cmd_work_sync and deal properly
-with resolving list when LL privacy is enabled.
-
-Signed-off-by: Luiz Augusto von Dentz <luiz.von.dentz@intel.com>
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|6|Luiz Augusto von Dentz|luiz.von.dentz@intel.com|2021-10-27 16:58:43-07:00|25200|Marcel Holtmann|marcel@holtmann.org|2021-10-29 16:51:58+02:00|-7200

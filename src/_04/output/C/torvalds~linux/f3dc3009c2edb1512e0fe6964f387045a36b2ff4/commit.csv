@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f3dc3009c2edb1512e0fe6964f387045a36b2ff4|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"platform/x86: thinkpad_acpi: Remove unused sensors_pdev_attrs_registered flag
-
-After the recent sysfs-attributes registration cleanups, the
-tp_features.sensors_pdev_attrs_registered flag only ever gets set and
-never gets read, remove it.
-
-Signed-off-by: Hans de Goede <hdegoede@redhat.com>
-Link: https://lore.kernel.org/r/20211123210424.266607-6-hdegoede@redhat.com"|1|Hans de Goede|hdegoede@redhat.com|2021-11-23 22:04:23+01:00|-3600|Hans de Goede|hdegoede@redhat.com|2021-11-25 16:22:50+01:00|-3600

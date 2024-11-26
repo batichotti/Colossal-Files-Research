@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|44a6f0df039ee7ddeebc88327dd61f0afb53baa7|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"netfilter: nf_tables: prohibit deletion of a table with existing sets
-
-We currently leak the set memory when deleting a table that still has
-sets in it. Return EBUSY when attempting to delete a table with sets.
-
-Signed-off-by: Patrick McHardy <kaber@trash.net>
-Signed-off-by: Pablo Neira Ayuso <pablo@netfilter.org>"|1|Patrick McHardy|kaber@trash.net|2014-01-09 18:42:41+00:00|0|Pablo Neira Ayuso|pablo@netfilter.org|2014-01-09 20:17:16+01:00|-3600

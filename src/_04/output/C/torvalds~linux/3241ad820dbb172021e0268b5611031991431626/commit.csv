@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|3241ad820dbb172021e0268b5611031991431626|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"[Bluetooth] Add timestamp support to L2CAP, RFCOMM and SCO
-
-Enable the common timestamp functionality that the network subsystem
-provides for L2CAP, RFCOMM and SCO sockets. It is possible to either
-use SO_TIMESTAMP or the IOCTLs to retrieve the timestamp of the
-current packet.
-
-Signed-off-by: Marcel Holtmann <marcel@holtmann.org>"|5|Marcel Holtmann|marcel@holtmann.org|2008-07-14 20:13:50+02:00|-7200|Marcel Holtmann|marcel@holtmann.org|2008-07-14 20:13:50+02:00|-7200

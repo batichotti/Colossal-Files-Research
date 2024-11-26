@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|b0270324c5a9a5157f565c2de34fb1071cfdce7c|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"libceph: use osd_req_op_extent_init()
-
-Use osd_req_op_extent_init() in ceph_osdc_new_request() to
-initialize the one or two ops built in that function.
-
-Signed-off-by: Alex Elder <elder@inktank.com>
-Reviewed-by: Josh Durgin <josh.durgin@inktank.com>"|1|Alex Elder|elder@inktank.com|2013-03-13 20:50:01-05:00|18000|Sage Weil|sage@inktank.com|2013-05-01 21:17:49-07:00|25200

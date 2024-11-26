@@ -1,8 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|f0cd846e9221811d87047f1428cf5226e7236efe|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"Btrfs: only add orphan items when truncating
-
-We don't need an orphan item when expanding files, we just need them for
-truncating them, so only add the orphan item in btrfs_truncate instead of in
-btrfs_setsize.  Thanks,
-
-Signed-off-by: Josef Bacik <josef@redhat.com>"|1|Josef Bacik|josef@redhat.com|2011-03-04 14:37:08-05:00|18000|Josef Bacik|josef@redhat.com|2011-03-17 14:21:30-04:00|14400

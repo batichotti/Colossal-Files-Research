@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|019b1c9fe32a2a32c1153e31375f87ec3e591273|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"tcp: fix a compile error in DBGUNDO()
-
-If DBGUNDO() is enabled (FASTRETRANS_DEBUG > 1), a compile
-error will happen, since inet6_sk(sk)->daddr became sk->sk_v6_daddr
-
-Fixes: efe4208f47f9 (""ipv6: make lookups simpler and faster"")
-Signed-off-by: Eric Dumazet <edumazet@google.com>
-Signed-off-by: David S. Miller <davem@davemloft.net>"|1|Eric Dumazet|edumazet@google.com|2016-09-22 17:54:00-07:00|25200|David S. Miller|davem@davemloft.net|2016-09-23 08:26:32-04:00|14400

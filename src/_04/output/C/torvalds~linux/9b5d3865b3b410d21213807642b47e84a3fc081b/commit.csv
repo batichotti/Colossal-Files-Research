@@ -1,9 +1,0 @@
-|Hash|Project Name|Local Commit PATH|Merge Commit|Message|Number of Files|Author Name|Author Email|Author Commit Date|Author Commit Timezone|Committer Name|Committer Email|Committer Commit Date|Committer Timezone
-0|9b5d3865b3b410d21213807642b47e84a3fc081b|torvalds~linux|/home/usuario01/Titan-Files-Research/src/_00/output/C/torvalds~linux|False|"ASoC: rt5665: set i2s pin share configuration
-
-I2S2 and I2S3 are share pins. We need to configure it when i2s is
-active and disable it when i2s is inactive. To disable i2s pins
-means to set them as gpio.
-
-Signed-off-by: Bard Liao <bardliao@realtek.com>
-Signed-off-by: Mark Brown <broonie@kernel.org>"|1|Bard Liao|bardliao@realtek.com|2017-03-16 13:58:41+08:00|-28800|Mark Brown|broonie@kernel.org|2017-03-16 14:08:04+00:00|0
