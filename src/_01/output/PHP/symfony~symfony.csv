@@ -281,6 +281,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Console/Tests/Fixtures/application_2.json|symfony|symfony|application_2.json|JSON|871|0|0
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/DependencyInjection/Tests/Loader/XmlFileLoaderTest.php|symfony|symfony|XmlFileLoaderTest.php|PHP|870|255|240
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/ConfigurationTest.php|symfony|symfony|ConfigurationTest.php|PHP|863|29|89
+./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Translation/Bridge/Lokalise/Tests/LokaliseProviderTest.php|symfony|symfony|LokaliseProviderTest.php|PHP|859|22|140
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Form/Tests/CompoundFormTest.php|symfony|symfony|CompoundFormTest.php|PHP|848|32|244
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Routing/Tests/Generator/UrlGeneratorTest.php|symfony|symfony|UrlGeneratorTest.php|PHP|848|36|218
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Bundle/SecurityBundle/DependencyInjection/SecurityExtension.php|symfony|symfony|SecurityExtension.php|PHP|846|68|201
@@ -292,7 +293,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Messenger/Tests/DependencyInjection/MessengerPassTest.php|symfony|symfony|MessengerPassTest.php|PHP|819|19|172
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Intl/Resources/data/currencies/lv.php|symfony|symfony|lv.php|PHP|801|0|1
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Serializer/Normalizer/AbstractObjectNormalizer.php|symfony|symfony|AbstractObjectNormalizer.php|PHP|799|195|174
-./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Translation/Bridge/Lokalise/Tests/LokaliseProviderTest.php|symfony|symfony|LokaliseProviderTest.php|PHP|799|16|124
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Bundle/SecurityBundle/Tests/DependencyInjection/SecurityExtensionTest.php|symfony|symfony|SecurityExtensionTest.php|PHP|795|29|167
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Bridge/Twig/Tests/Extension/AbstractDivLayoutTestCase.php|symfony|symfony|AbstractDivLayoutTestCase.php|PHP|790|45|109
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Routing/Tests/Matcher/UrlMatcherTest.php|symfony|symfony|UrlMatcherTest.php|PHP|788|25|211
@@ -312,12 +312,13 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/PropertyAccess/Tests/PropertyAccessorTest.php|symfony|symfony|PropertyAccessorTest.php|PHP|736|81|232
 ./src/_00/output/PHP/symfony~symfony/CHANGELOG-7.0.md|symfony|symfony|CHANGELOG-7.0.md|Markdown|735|0|34
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Intl/Resources/data/locales/meta.php|symfony|symfony|meta.php|PHP|733|0|1
+./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/PropertyInfo/Tests/Extractor/ReflectionExtractorTest.php|symfony|symfony|ReflectionExtractorTest.php|PHP|730|154|96
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Intl/Tests/CurrenciesTest.php|symfony|symfony|CurrenciesTest.php|PHP|728|48|52
+./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/PropertyInfo/Extractor/ReflectionExtractor.php|symfony|symfony|ReflectionExtractor.php|PHP|728|87|186
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Intl/Resources/data/currencies/my.php|symfony|symfony|my.php|PHP|725|0|1
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/AssetMapper/Tests/ImportMap/ImportMapGeneratorTest.php|symfony|symfony|ImportMapGeneratorTest.php|PHP|722|26|59
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Form/Tests/Extension/Core/Type/FormTypeTest.php|symfony|symfony|FormTypeTest.php|PHP|718|28|164
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/PropertyInfo/Tests/Extractor/PhpStanExtractorTest.php|symfony|symfony|PhpStanExtractorTest.php|PHP|713|185|85
-./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/PropertyInfo/Extractor/ReflectionExtractor.php|symfony|symfony|ReflectionExtractor.php|PHP|709|87|181
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/BrowserKit/Tests/AbstractBrowserTest.php|symfony|symfony|AbstractBrowserTest.php|PHP|704|17|182
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/DomCrawler/Crawler.php|symfony|symfony|Crawler.php|PHP|703|341|193
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HttpKernel/Tests/Controller/ArgumentResolver/RequestPayloadValueResolverTest.php|symfony|symfony|RequestPayloadValueResolverTest.php|PHP|701|36|189
@@ -334,7 +335,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Intl/Resources/data/currencies/ur.php|symfony|symfony|ur.php|PHP|681|0|1
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HttpFoundation/Response.php|symfony|symfony|Response.php|PHP|679|483|153
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Workflow/Tests/WorkflowTest.php|symfony|symfony|WorkflowTest.php|PHP|676|20|156
-./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/PropertyInfo/Tests/Extractor/ReflectionExtractorTest.php|symfony|symfony|ReflectionExtractorTest.php|PHP|674|140|88
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Intl/Resources/data/currencies/am.php|symfony|symfony|am.php|PHP|673|0|1
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/VarDumper/Tests/Caster/ReflectionCasterTest.php|symfony|symfony|ReflectionCasterTest.php|PHP|670|20|72
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Intl/Resources/data/languages/en.php|symfony|symfony|en.php|PHP|667|0|1
@@ -739,7 +739,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Intl/Resources/data/timezones/he.php|symfony|symfony|he.php|PHP|429|0|1
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Intl/Resources/data/timezones/si.php|symfony|symfony|si.php|PHP|429|0|1
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Intl/Resources/data/timezones/sl.php|symfony|symfony|sl.php|PHP|429|0|1
-./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HttpClient/CurlHttpClient.php|symfony|symfony|CurlHttpClient.php|PHP|428|54|88
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Intl/Resources/data/timezones/bs.php|symfony|symfony|bs.php|PHP|428|0|1
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Intl/Resources/data/timezones/cs.php|symfony|symfony|cs.php|PHP|428|0|1
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Intl/Resources/data/timezones/da.php|symfony|symfony|da.php|PHP|428|0|1
@@ -850,6 +849,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Intl/Resources/data/timezones/zu.php|symfony|symfony|zu.php|PHP|425|0|1
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Security/Csrf/Tests/CsrfTokenManagerTest.php|symfony|symfony|CsrfTokenManagerTest.php|PHP|425|13|113
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Console/Helper/ProgressBar.php|symfony|symfony|ProgressBar.php|PHP|424|118|103
+./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HttpClient/CurlHttpClient.php|symfony|symfony|CurlHttpClient.php|PHP|424|54|87
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Intl/Resources/data/timezones/ce.php|symfony|symfony|ce.php|PHP|424|0|1
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Intl/Resources/data/timezones/fy.php|symfony|symfony|fy.php|PHP|424|0|1
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Intl/Resources/data/timezones/lb.php|symfony|symfony|lb.php|PHP|424|0|1
@@ -916,36 +916,34 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Finder/Finder.php|symfony|symfony|Finder.php|PHP|366|377|109
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HttpKernel/Tests/DataCollector/RequestDataCollectorTest.php|symfony|symfony|RequestDataCollectorTest.php|PHP|365|23|82
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Config/Tests/Definition/Builder/ArrayNodeDefinitionTest.php|symfony|symfony|ArrayNodeDefinitionTest.php|PHP|364|17|67
+./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HttpClient/Response/AsyncResponse.php|symfony|symfony|AsyncResponse.php|PHP|363|40|87
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Intl/Resources/data/timezones/yi.php|symfony|symfony|yi.php|PHP|362|0|1
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Bundle/FrameworkBundle/Console/Descriptor/JsonDescriptor.php|symfony|symfony|JsonDescriptor.php|PHP|361|15|81
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Form/Tests/Util/OrderedHashMapTest.php|symfony|symfony|OrderedHashMapTest.php|PHP|361|61|105
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Form/Tests/Extension/Core/DataMapper/DataMapperTest.php|symfony|symfony|DataMapperTest.php|PHP|360|11|97
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/VarDumper/Tests/Caster/DateCasterTest.php|symfony|symfony|DateCasterTest.php|PHP|360|50|83
-./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HttpClient/NativeHttpClient.php|symfony|symfony|NativeHttpClient.php|PHP|359|45|84
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Routing/Matcher/Dumper/CompiledUrlMatcherDumper.php|symfony|symfony|CompiledUrlMatcherDumper.php|PHP|359|69|70
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/VarExporter/Tests/VarExporterTest.php|symfony|symfony|VarExporterTest.php|PHP|359|18|98
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Bundle/FrameworkBundle/Console/Descriptor/MarkdownDescriptor.php|symfony|symfony|MarkdownDescriptor.php|PHP|358|14|79
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HtmlSanitizer/Reference/W3CReference.php|symfony|symfony|W3CReference.php|PHP|358|35|7
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HttpKernel/CHANGELOG.md|symfony|symfony|CHANGELOG.md|Markdown|358|0|61
-./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HttpClient/Response/AmpResponseV4.php|symfony|symfony|AmpResponseV4.php|PHP|357|30|82
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Mailer/Bridge/Mailjet/Tests/Transport/MailjetApiTransportTest.php|symfony|symfony|MailjetApiTransportTest.php|PHP|357|14|62
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Form/Tests/Extension/DataCollector/FormDataExtractorTest.php|symfony|symfony|FormDataExtractorTest.php|PHP|356|13|53
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Messenger/Bridge/Redis/Tests/Transport/RedisExtIntegrationTest.php|symfony|symfony|RedisExtIntegrationTest.php|PHP|356|37|79
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/DependencyInjection/Dumper/XmlDumper.php|symfony|symfony|XmlDumper.php|PHP|355|26|51
+./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HttpClient/NativeHttpClient.php|symfony|symfony|NativeHttpClient.php|PHP|354|45|83
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Emoji/Resources/data/emoji-ff_adlm.php|symfony|symfony|emoji-ff_adlm.php|PHP|353|0|1
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HttpClient/Tests/RetryableHttpClientTest.php|symfony|symfony|RetryableHttpClientTest.php|PHP|353|8|68
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HttpKernel/Tests/Profiler/FileProfilerStorageTest.php|symfony|symfony|FileProfilerStorageTest.php|PHP|353|17|86
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Validator/Tests/Constraints/ImageValidatorTest.php|symfony|symfony|ImageValidatorTest.php|PHP|353|75|73
-./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HttpClient/Response/AsyncResponse.php|symfony|symfony|AsyncResponse.php|PHP|352|40|85
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Serializer/Encoder/XmlEncoder.php|symfony|symfony|XmlEncoder.php|PHP|352|76|93
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Translation/Resources/schemas/xliff-core-2.0.xsd|symfony|symfony|xliff-core-2.0.xsd|XSD|351|20|40
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Finder/Tests/Iterator/VcsIgnoredFilterIteratorTest.php|symfony|symfony|VcsIgnoredFilterIteratorTest.php|PHP|350|13|35
-./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HttpClient/Response/AmpResponseV5.php|symfony|symfony|AmpResponseV5.php|PHP|350|31|81
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Notifier/Exception/UnsupportedSchemeException.php|symfony|symfony|UnsupportedSchemeException.php|PHP|350|14|8
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Security/Http/Tests/EventListener/IsGrantedAttributeListenerTest.php|symfony|symfony|IsGrantedAttributeListenerTest.php|PHP|350|16|71
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/String/ByteString.php|symfony|symfony|ByteString.php|PHP|350|31|109
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HtmlSanitizer/Tests/HtmlSanitizerCustomTest.php|symfony|symfony|HtmlSanitizerCustomTest.php|PHP|349|8|71
-./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HttpClient/Response/CurlResponse.php|symfony|symfony|CurlResponse.php|PHP|349|39|81
+./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HttpClient/Response/AmpResponseV4.php|symfony|symfony|AmpResponseV4.php|PHP|349|30|81
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Ldap/Tests/Security/LdapUserProviderTest.php|symfony|symfony|LdapUserProviderTest.php|PHP|349|11|31
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/VarDumper/Caster/ReflectionCaster.php|symfony|symfony|ReflectionCaster.php|PHP|349|16|81
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/AssetMapper/Tests/ImportMap/ImportMapManagerTest.php|symfony|symfony|ImportMapManagerTest.php|PHP|348|22|57
@@ -954,6 +952,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Bundle/FrameworkBundle/Tests/CacheWarmer/ConfigBuilderCacheWarmerTest.php|symfony|symfony|ConfigBuilderCacheWarmerTest.php|PHP|344|11|79
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Bundle/SecurityBundle/Tests/SecurityTest.php|symfony|symfony|SecurityTest.php|PHP|344|14|83
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/DependencyInjection/CHANGELOG.md|symfony|symfony|CHANGELOG.md|Markdown|344|0|66
+./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HttpClient/Response/AmpResponseV5.php|symfony|symfony|AmpResponseV5.php|PHP|344|31|80
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Bridge/Twig/Command/DebugCommand.php|symfony|symfony|DebugCommand.php|PHP|342|156|95
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/console.php|symfony|symfony|console.php|PHP|341|8|52
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Filesystem/Path.php|symfony|symfony|Path.php|PHP|341|362|113
@@ -961,6 +960,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HttpFoundation/Tests/BinaryFileResponseTest.php|symfony|symfony|BinaryFileResponseTest.php|PHP|339|37|95
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Test/WebTestCaseTest.php|symfony|symfony|WebTestCaseTest.php|PHP|338|8|55
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HttpFoundation/Tests/Session/Storage/Handler/PdoSessionHandlerTest.php|symfony|symfony|PdoSessionHandlerTest.php|PHP|337|28|81
+./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HttpClient/Response/CurlResponse.php|symfony|symfony|CurlResponse.php|PHP|335|38|79
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Collector/serializer.html.twig|symfony|symfony|serializer.html.twig|Twig|334|0|36
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Intl/Resources/data/locales/ln.php|symfony|symfony|ln.php|PHP|334|0|1
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Form/Tests/Extension/Core/DataTransformer/DateTimeToLocalizedStringTransformerTest.php|symfony|symfony|DateTimeToLocalizedStringTransformerTest.php|PHP|333|29|95
@@ -1086,8 +1086,8 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Bridge/Twig/Resources/views/Form/bootstrap_4_layout.html.twig|symfony|symfony|bootstrap_4_layout.html.twig|Twig|286|7|26
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Security/Http/Tests/Firewall/SwitchUserListenerTest.php|symfony|symfony|SwitchUserListenerTest.php|PHP|286|9|81
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Validator/Tests/Constraints/LengthValidatorTest.php|symfony|symfony|LengthValidatorTest.php|PHP|286|44|58
+./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/VarDumper/Cloner/AbstractCloner.php|symfony|symfony|AbstractCloner.php|PHP|286|63|59
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Translation/Bridge/Loco/LocoProvider.php|symfony|symfony|LocoProvider.php|PHP|285|23|74
-./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/VarDumper/Cloner/AbstractCloner.php|symfony|symfony|AbstractCloner.php|PHP|285|63|58
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/CssSelector/Parser/Parser.php|symfony|symfony|Parser.php|PHP|284|33|68
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Console/Descriptor/ObjectsProvider.php|symfony|symfony|ObjectsProvider.php|PHP|282|24|39
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Validator/Tests/Constraints/AtLeastOneOfValidatorTest.php|symfony|symfony|AtLeastOneOfValidatorTest.php|PHP|282|20|44
@@ -1125,8 +1125,10 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Bundle/SecurityBundle/DataCollector/SecurityDataCollector.php|symfony|symfony|SecurityDataCollector.php|PHP|269|61|48
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Intl/Resources/data/currencies/sw_KE.php|symfony|symfony|sw_KE.php|PHP|269|0|1
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Bundle/TwigBundle/Tests/DependencyInjection/TwigExtensionTest.php|symfony|symfony|TwigExtensionTest.php|PHP|268|39|49
+./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HttpClient/Tests/HttpClientTestCase.php|symfony|symfony|HttpClientTestCase.php|PHP|268|205|119
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HttpClient/Tests/HttpClientTraitTest.php|symfony|symfony|HttpClientTraitTest.php|PHP|268|87|52
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Serializer/Serializer.php|symfony|symfony|Serializer.php|PHP|268|59|71
+./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Translation/Bridge/Lokalise/LokaliseProvider.php|symfony|symfony|LokaliseProvider.php|PHP|268|33|73
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/VarExporter/LazyProxyTrait.php|symfony|symfony|LazyProxyTrait.php|PHP|268|26|72
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Form/Tests/Extension/Core/EventListener/ResizeFormListenerTest.php|symfony|symfony|ResizeFormListenerTest.php|PHP|267|22|72
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HttpClient/Response/NativeResponse.php|symfony|symfony|NativeResponse.php|PHP|267|40|64
@@ -1140,7 +1142,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Ldap/Tests/Adapter/ExtLdap/LdapManagerTest.php|symfony|symfony|LdapManagerTest.php|PHP|263|45|98
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Messenger/CHANGELOG.md|symfony|symfony|CHANGELOG.md|Markdown|263|0|34
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Messenger/Bridge/Beanstalkd/Tests/Transport/ConnectionTest.php|symfony|symfony|ConnectionTest.php|PHP|262|8|96
-./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Translation/Bridge/Lokalise/LokaliseProvider.php|symfony|symfony|LokaliseProvider.php|PHP|262|33|71
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Validator/Tests/Constraints/EmailValidatorTest.php|symfony|symfony|EmailValidatorTest.php|PHP|262|38|52
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/VarDumper/Tests/Caster/IntlCasterTest.php|symfony|symfony|IntlCasterTest.php|PHP|262|11|29
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Validator/Tests/Constraints/BicValidatorTest.php|symfony|symfony|BicValidatorTest.php|PHP|261|35|79
@@ -1333,7 +1334,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/VarExporter/Internal/Hydrator.php|symfony|symfony|Hydrator.php|PHP|240|13|45
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/VarExporter/Tests/ProxyHelperTest.php|symfony|symfony|ProxyHelperTest.php|PHP|240|20|59
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/PhpFrameworkExtensionTest.php|symfony|symfony|PhpFrameworkExtensionTest.php|PHP|239|8|21
-./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HttpClient/Tests/HttpClientTestCase.php|symfony|symfony|HttpClientTestCase.php|PHP|239|205|115
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HttpFoundation/Tests/ResponseHeaderBagTest.php|symfony|symfony|ResponseHeaderBagTest.php|PHP|239|12|71
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HtmlSanitizer/Tests/HtmlSanitizerConfigTest.php|symfony|symfony|HtmlSanitizerConfigTest.php|PHP|238|9|48
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Intl/Resources/data/currencies/ff.php|symfony|symfony|ff.php|PHP|237|0|1
@@ -1613,6 +1613,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Routing/Loader/schema/routing/routing-1.0.xsd|symfony|symfony|routing-1.0.xsd|XSD|179|0|22
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Form/Button.php|symfony|symfony|Button.php|PHP|178|141|50
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Form/Extension/Validator/Constraints/FormValidator.php|symfony|symfony|FormValidator.php|PHP|178|51|47
+./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HttpClient/NoPrivateNetworkHttpClient.php|symfony|symfony|NoPrivateNetworkHttpClient.php|PHP|178|24|49
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Intl/Resources/data/scripts/no_NO.php|symfony|symfony|no_NO.php|PHP|178|0|1
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Workflow/Dumper/MermaidDumper.php|symfony|symfony|MermaidDumper.php|PHP|178|17|58
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/DependencyInjection/Tests/Compiler/ServiceLocatorTagPassTest.php|symfony|symfony|ServiceLocatorTagPassTest.php|PHP|177|13|59
@@ -1789,6 +1790,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Uid/Ulid.php|symfony|symfony|Ulid.php|PHP|156|22|30
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Yaml/Tests/Command/LintCommandTest.php|symfony|symfony|LintCommandTest.php|PHP|156|16|42
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Yaml/Tests/Fixtures/sfCompact.yml|symfony|symfony|sfCompact.yml|YAML|156|3|0
+./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Dotenv/Command/DebugCommand.php|symfony|symfony|DebugCommand.php|PHP|155|20|47
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HttpFoundation/Tests/JsonResponseTest.php|symfony|symfony|JsonResponseTest.php|PHP|155|8|46
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/PropertyInfo/Util/PhpStanTypeHelper.php|symfony|symfony|PhpStanTypeHelper.php|PHP|155|33|23
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Serializer/Tests/Debug/TraceableSerializerTest.php|symfony|symfony|TraceableSerializerTest.php|PHP|155|8|26
@@ -1861,7 +1863,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Bridge/Doctrine/Form/DoctrineOrmTypeGuesser.php|symfony|symfony|DoctrineOrmTypeGuesser.php|PHP|146|24|34
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Cache/Adapter/CouchbaseCollectionAdapter.php|symfony|symfony|CouchbaseCollectionAdapter.php|PHP|146|11|41
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/DependencyInjection/Compiler/AnalyzeServiceReferencesPass.php|symfony|symfony|AnalyzeServiceReferencesPass.php|PHP|146|25|30
-./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Dotenv/Command/DebugCommand.php|symfony|symfony|DebugCommand.php|PHP|146|20|44
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HttpKernel/Log/Logger.php|symfony|symfony|Logger.php|PHP|146|17|27
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Validator/Tests/Mapping/Factory/LazyLoadingMetadataFactoryTest.php|symfony|symfony|LazyLoadingMetadataFactoryTest.php|PHP|146|8|36
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Yaml/Tests/Fixtures/YtsFoldedScalars.yml|symfony|symfony|YtsFoldedScalars.yml|YAML|146|0|30
@@ -2056,6 +2057,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Translation/Tests/Catalogue/TargetOperationTest.php|symfony|symfony|TargetOperationTest.php|PHP|134|8|20
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Cache/Tests/Psr16CacheTest.php|symfony|symfony|Psr16CacheTest.php|PHP|133|12|36
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Console/Question/Question.php|symfony|symfony|Question.php|PHP|133|106|41
+./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HttpClient/Tests/NoPrivateNetworkHttpClientTest.php|symfony|symfony|NoPrivateNetworkHttpClientTest.php|PHP|133|20|27
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HttpKernel/EventListener/RouterListener.php|symfony|symfony|RouterListener.php|PHP|133|28|27
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HttpKernel/Tests/ControllerMetadata/ArgumentMetadataFactoryTest.php|symfony|symfony|ArgumentMetadataFactoryTest.php|PHP|133|8|32
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Mailer/Bridge/Resend/Transport/ResendApiTransport.php|symfony|symfony|ResendApiTransport.php|PHP|133|17|26
@@ -2066,7 +2068,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Serializer/Normalizer/PropertyNormalizer.php|symfony|symfony|PropertyNormalizer.php|PHP|133|35|35
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/AssetMapper/Tests/ImportMap/ImportMapAuditorTest.php|symfony|symfony|ImportMapAuditorTest.php|PHP|132|11|16
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/BrowserKit/CookieJar.php|symfony|symfony|CookieJar.php|PHP|132|56|30
-./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HttpClient/Tests/NoPrivateNetworkHttpClientTest.php|symfony|symfony|NoPrivateNetworkHttpClientTest.php|PHP|132|18|29
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Intl/Resources/data/scripts/es.php|symfony|symfony|es.php|PHP|132|0|1
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Intl/Resources/data/scripts/sl.php|symfony|symfony|sl.php|PHP|132|0|1
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Ldap/Adapter/ExtLdap/Query.php|symfony|symfony|Query.php|PHP|132|46|28
@@ -2183,6 +2184,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Validator/Tests/Constraints/CidrTest.php|symfony|symfony|CidrTest.php|PHP|122|17|26
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/VarDumper/Tests/Command/Descriptor/CliDescriptorTest.php|symfony|symfony|CliDescriptorTest.php|PHP|122|11|20
 ./src/_00/output/PHP/symfony~symfony/.github/workflows/package-tests.yml|symfony|symfony|package-tests.yml|YAML|121|0|22
+./src/_00/output/PHP/symfony~symfony/UPGRADE-7.2.md|symfony|symfony|UPGRADE-7.2.md|Markdown|121|0|53
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Bridge/Monolog/Handler/ElasticsearchLogstashHandler.php|symfony|symfony|ElasticsearchLogstashHandler.php|PHP|121|29|25
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/php/workflows.php|symfony|symfony|workflows.php|PHP|121|0|2
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Config/Builder/ClassBuilder.php|symfony|symfony|ClassBuilder.php|PHP|121|21|27
@@ -2244,6 +2246,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Bridge/Doctrine/Tests/Types/UuidTypeTest.php|symfony|symfony|UuidTypeTest.php|PHP|116|11|36
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/web.php|symfony|symfony|web.php|PHP|116|8|25
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Bundle/FrameworkBundle/Test/DomCrawlerAssertionsTrait.php|symfony|symfony|DomCrawlerAssertionsTrait.php|PHP|116|13|22
+./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Cache/CHANGELOG.md|symfony|symfony|CHANGELOG.md|Markdown|116|0|38
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Clock/DatePoint.php|symfony|symfony|DatePoint.php|PHP|116|22|31
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Config/Definition/Builder/ExprBuilder.php|symfony|symfony|ExprBuilder.php|PHP|116|97|37
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/DependencyInjection/Loader/Configurator/EnvConfigurator.php|symfony|symfony|EnvConfigurator.php|PHP|116|73|47
@@ -2251,7 +2254,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Form/Tests/ChoiceList/AbstractChoiceListTestCase.php|symfony|symfony|AbstractChoiceListTestCase.php|PHP|116|13|29
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HttpClient/Response/AsyncContext.php|symfony|symfony|AsyncContext.php|PHP|116|57|26
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HttpClient/Response/CommonResponseTrait.php|symfony|symfony|CommonResponseTrait.php|PHP|116|30|31
-./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HttpClient/Tests/CurlHttpClientTest.php|symfony|symfony|CurlHttpClientTest.php|PHP|116|14|27
+./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HttpClient/Tests/CurlHttpClientTest.php|symfony|symfony|CurlHttpClientTest.php|PHP|116|15|27
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Lock/Tests/Store/DoctrineDbalPostgreSqlStoreTest.php|symfony|symfony|DoctrineDbalPostgreSqlStoreTest.php|PHP|116|28|34
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Mailer/Bridge/Amazon/Tests/Transport/SesHttpAsyncAwsTransportTest.php|symfony|symfony|SesHttpAsyncAwsTransportTest.php|PHP|116|11|20
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Notifier/Bridge/Pushover/PushoverOptions.php|symfony|symfony|PushoverOptions.php|PHP|116|61|33
@@ -2264,7 +2267,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Bridge/Twig/Resources/views/Form/bootstrap_5_horizontal_layout.html.twig|symfony|symfony|bootstrap_5_horizontal_layout.html.twig|Twig|115|4|11
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Bundle/DebugBundle/Resources/config/services.php|symfony|symfony|services.php|PHP|115|8|17
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Bundle/FrameworkBundle/Command/EventDispatcherDebugCommand.php|symfony|symfony|EventDispatcherDebugCommand.php|PHP|115|21|29
-./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Cache/CHANGELOG.md|symfony|symfony|CHANGELOG.md|Markdown|115|0|38
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Console/Tests/TerminalTest.php|symfony|symfony|TerminalTest.php|PHP|115|11|25
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Form/Extension/Core/DataTransformer/DateTimeToArrayTransformer.php|symfony|symfony|DateTimeToArrayTransformer.php|PHP|115|39|28
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Intl/Resources/data/locales/rw.php|symfony|symfony|rw.php|PHP|115|0|1
@@ -2362,7 +2364,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Mailer/Tests/Exception/UnsupportedSchemeExceptionTest.php|symfony|symfony|UnsupportedSchemeExceptionTest.php|PHP|108|17|11
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Security/Http/Tests/Authenticator/X509AuthenticatorTest.php|symfony|symfony|X509AuthenticatorTest.php|PHP|108|17|31
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Validator/Tests/Constraints/RegexValidatorTest.php|symfony|symfony|RegexValidatorTest.php|PHP|108|23|24
-./src/_00/output/PHP/symfony~symfony/.github/workflows/windows.yml|symfony|symfony|windows.yml|YAML|107|0|22
+./src/_00/output/PHP/symfony~symfony/.github/workflows/windows.yml|symfony|symfony|windows.yml|YAML|107|2|22
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Bridge/Twig/Test/FormLayoutTestCase.php|symfony|symfony|FormLayoutTestCase.php|PHP|107|26|28
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Bundle/SecurityBundle/Tests/DependencyInjection/Security/Factory/AbstractFactoryTest.php|symfony|symfony|AbstractFactoryTest.php|PHP|107|14|22
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Bundle/SecurityBundle/Tests/Functional/SecurityRoutingIntegrationTest.php|symfony|symfony|SecurityRoutingIntegrationTest.php|PHP|107|26|37
@@ -2488,6 +2490,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Validator/Tests/Constraints/DateTimeValidatorTest.php|symfony|symfony|DateTimeValidatorTest.php|PHP|99|14|25
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Validator/Tests/Constraints/RangeTest.php|symfony|symfony|RangeTest.php|PHP|99|8|15
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Validator/Tests/Mapping/Loader/StaticMethodLoaderTest.php|symfony|symfony|StaticMethodLoaderTest.php|PHP|99|10|31
+./src/_00/output/PHP/symfony~symfony/src/Symfony/Bridge/Twig/NodeVisitor/TranslationDefaultDomainNodeVisitor.php|symfony|symfony|TranslationDefaultDomainNodeVisitor.php|PHP|98|11|26
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Asset/Tests/UrlPackageTest.php|symfony|symfony|UrlPackageTest.php|PHP|98|17|19
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Config/Definition/Builder/NodeBuilder.php|symfony|symfony|NodeBuilder.php|PHP|98|81|29
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Console/Tester/TesterTrait.php|symfony|symfony|TesterTrait.php|PHP|98|52|28
@@ -2574,7 +2577,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Serializer/Tests/Normalizer/BackedEnumNormalizerTest.php|symfony|symfony|BackedEnumNormalizerTest.php|PHP|94|11|24
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Uid/AbstractUid.php|symfony|symfony|AbstractUid.php|PHP|94|67|27
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Workflow/Tests/StateMachineTest.php|symfony|symfony|StateMachineTest.php|PHP|94|20|31
-./src/_00/output/PHP/symfony~symfony/src/Symfony/Bridge/Twig/NodeVisitor/TranslationDefaultDomainNodeVisitor.php|symfony|symfony|TranslationDefaultDomainNodeVisitor.php|PHP|93|11|24
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Command/CachePoolInvalidateTagsCommandTest.php|symfony|symfony|CachePoolInvalidateTagsCommandTest.php|PHP|93|8|37
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Functional/DebugAutowiringCommandTest.php|symfony|symfony|DebugAutowiringCommandTest.php|PHP|93|14|33
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Bundle/TwigBundle/CHANGELOG.md|symfony|symfony|CHANGELOG.md|Markdown|93|0|42
@@ -2616,7 +2618,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Security/Http/Logout/LogoutUrlGenerator.php|symfony|symfony|LogoutUrlGenerator.php|PHP|92|37|28
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Translation/DataCollectorTranslator.php|symfony|symfony|DataCollectorTranslator.php|PHP|92|16|22
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/VarDumper/Caster/PdoCaster.php|symfony|symfony|PdoCaster.php|PHP|92|15|15
-./src/_00/output/PHP/symfony~symfony/UPGRADE-7.2.md|symfony|symfony|UPGRADE-7.2.md|Markdown|91|0|44
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Bridge/Doctrine/Middleware/Debug/Connection.php|symfony|symfony|Connection.php|PHP|91|14|21
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Bridge/Twig/Extension/TranslationExtension.php|symfony|symfony|TranslationExtension.php|PHP|91|19|23
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Bridge/Twig/Tests/Extension/HttpFoundationExtensionTest.php|symfony|symfony|HttpFoundationExtensionTest.php|PHP|91|20|21
@@ -2755,7 +2756,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Form/Tests/Extension/Core/DataTransformer/DateIntervalToStringTransformerTest.php|symfony|symfony|DateIntervalToStringTransformerTest.php|PHP|85|20|13
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Form/Tests/Extension/Core/DataTransformer/MoneyToLocalizedStringTransformerTest.php|symfony|symfony|MoneyToLocalizedStringTransformerTest.php|PHP|85|11|34
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HtmlSanitizer/README.md|symfony|symfony|README.md|Markdown|85|0|30
-./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HttpClient/NoPrivateNetworkHttpClient.php|symfony|symfony|NoPrivateNetworkHttpClient.php|PHP|85|20|22
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Mailer/Bridge/Postmark/Tests/Transport/PostmarkTransportFactoryTest.php|symfony|symfony|PostmarkTransportFactoryTest.php|PHP|85|8|20
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Mailer/Tests/Transport/AbstractTransportTest.php|symfony|symfony|AbstractTransportTest.php|PHP|85|11|17
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Notifier/Bridge/LinkedIn/LinkedInTransport.php|symfony|symfony|LinkedInTransport.php|PHP|85|17|19
@@ -3654,6 +3654,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Validator/Constraints/PasswordStrengthValidator.php|symfony|symfony|PasswordStrengthValidator.php|PHP|61|18|12
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Validator/Tests/Constraints/GreaterThanValidatorTest.php|symfony|symfony|GreaterThanValidatorTest.php|PHP|61|11|10
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Validator/Tests/Test/CompoundConstraintTestCaseTest.php|symfony|symfony|CompoundConstraintTestCaseTest.php|PHP|61|11|16
+./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/VarDumper/Caster/AddressInfoCaster.php|symfony|symfony|AddressInfoCaster.php|PHP|61|11|8
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/VarDumper/Server/Connection.php|symfony|symfony|Connection.php|PHP|61|23|13
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/VarDumper/Tests/Caster/SymfonyCasterTest.php|symfony|symfony|SymfonyCasterTest.php|PHP|61|13|9
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/VarDumper/Tests/Dumper/functions/dump_data_collector_with_spl_array.phpt|symfony|symfony|dump_data_collector_with_spl_array.phpt|PHP|61|0|8
@@ -3954,6 +3955,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Mailer/Bridge/Mailgun/Webhook/MailgunRequestParser.php|symfony|symfony|MailgunRequestParser.php|PHP|54|9|10
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Mailer/Bridge/Postmark/RemoteEvent/PostmarkPayloadConverter.php|symfony|symfony|PostmarkPayloadConverter.php|PHP|54|10|8
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Mailer/Transport/Smtp/Stream/ProcessStream.php|symfony|symfony|ProcessStream.php|PHP|54|16|11
+./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Messenger/Bridge/Redis/Tests/Transport/RedisTransportFactoryTest.php|symfony|symfony|RedisTransportFactoryTest.php|PHP|54|19|12
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Messenger/Tests/Middleware/RouterContextMiddlewareTest.php|symfony|symfony|RouterContextMiddlewareTest.php|PHP|54|8|15
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Messenger/Tests/RoutableMessageBusTest.php|symfony|symfony|RoutableMessageBusTest.php|PHP|54|8|17
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Messenger/composer.json|symfony|symfony|composer.json|JSON|54|0|0
@@ -4052,7 +4054,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Messenger/Bridge/Amqp/Transport/AmqpSender.php|symfony|symfony|AmqpSender.php|PHP|52|15|12
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Messenger/Bridge/Beanstalkd/Transport/BeanstalkdTransport.php|symfony|symfony|BeanstalkdTransport.php|PHP|52|11|13
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Messenger/Bridge/Doctrine/Tests/Transport/DoctrinePostgreSqlIntegrationTest.php|symfony|symfony|DoctrinePostgreSqlIntegrationTest.php|PHP|52|13|15
-./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Messenger/Bridge/Redis/Tests/Transport/RedisTransportFactoryTest.php|symfony|symfony|RedisTransportFactoryTest.php|PHP|52|19|12
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Messenger/Bridge/Redis/Transport/RedisTransport.php|symfony|symfony|RedisTransport.php|PHP|52|12|13
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Messenger/Handler/HandlerDescriptor.php|symfony|symfony|HandlerDescriptor.php|PHP|52|13|16
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Messenger/Tests/EventListener/StopWorkerOnFailureLimitListenerTest.php|symfony|symfony|StopWorkerOnFailureLimitListenerTest.php|PHP|52|12|14
@@ -4153,7 +4154,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Notifier/Bridge/Slack/Tests/Block/SlackContextBlockTest.php|symfony|symfony|SlackContextBlockTest.php|PHP|50|8|8
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Notifier/Bridge/Sweego/README.md|symfony|symfony|README.md|Markdown|50|0|17
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Process/InputStream.php|symfony|symfony|InputStream.php|PHP|50|30|11
-./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/PropertyInfo/composer.json|symfony|symfony|composer.json|JSON|50|0|0
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Routing/Alias.php|symfony|symfony|Alias.php|PHP|50|27|15
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Security/Http/Tests/EventListener/CookieClearingLogoutListenerTest.php|symfony|symfony|CookieClearingLogoutListenerTest.php|PHP|50|11|12
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Serializer/Tests/Encoder/JsonDecodeTest.php|symfony|symfony|JsonDecodeTest.php|PHP|50|14|11
@@ -4166,7 +4166,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Validator/Constraints/Isbn.php|symfony|symfony|Isbn.php|PHP|50|24|11
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Validator/Tests/Constraints/IsNullValidatorTest.php|symfony|symfony|IsNullValidatorTest.php|PHP|50|14|13
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Validator/Tests/Test/ConstraintValidatorTestCaseTest.php|symfony|symfony|ConstraintValidatorTestCaseTest.php|PHP|50|10|10
-./src/_00/output/PHP/symfony~symfony/.php-cs-fixer.dist.php|symfony|symfony|.php-cs-fixer.dist.php|PHP|49|17|6
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Bridge/Doctrine/Tests/Form/EventListener/MergeDoctrineCollectionListenerTest.php|symfony|symfony|MergeDoctrineCollectionListenerTest.php|PHP|49|8|13
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Bridge/PhpUnit/Tests/DeprecationErrorHandler/log_file.phpt|symfony|symfony|log_file.phpt|PHP|49|0|11
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Bridge/PhpUnit/composer.json|symfony|symfony|composer.json|JSON|49|0|0
@@ -4218,6 +4217,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Notifier/Tests/Message/SmsMessageTest.php|symfony|symfony|SmsMessageTest.php|PHP|49|11|21
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/OptionsResolver/Debug/OptionsResolverIntrospector.php|symfony|symfony|OptionsResolverIntrospector.php|PHP|49|41|14
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/PropertyInfo/Tests/DependencyInjection/PropertyInfoPassTest.php|symfony|symfony|PropertyInfoPassTest.php|PHP|49|11|11
+./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/PropertyInfo/composer.json|symfony|symfony|composer.json|JSON|49|0|0
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Security/Core/README.md|symfony|symfony|README.md|Markdown|49|0|14
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Security/Core/Tests/Authentication/Token/Storage/UsageTrackingTokenStorageTest.php|symfony|symfony|UsageTrackingTokenStorageTest.php|PHP|49|8|10
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Security/Http/Event/LoginFailureEvent.php|symfony|symfony|LoginFailureEvent.php|PHP|49|16|11
@@ -4231,6 +4231,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Validator/Tests/Constraints/IpTest.php|symfony|symfony|IpTest.php|PHP|49|14|14
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Workflow/TransitionBlocker.php|symfony|symfony|TransitionBlocker.php|PHP|49|33|13
 ./src/_00/output/PHP/symfony~symfony/.github/workflows/psalm.yml|symfony|symfony|psalm.yml|YAML|48|2|12
+./src/_00/output/PHP/symfony~symfony/.php-cs-fixer.dist.php|symfony|symfony|.php-cs-fixer.dist.php|PHP|48|17|6
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Bridge/Doctrine/Middleware/Debug/DBAL3/Statement.php|symfony|symfony|Statement.php|PHP|48|14|14
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Bridge/PhpUnit/Legacy/PolyfillTestCaseTrait.php|symfony|symfony|PolyfillTestCaseTrait.php|PHP|48|55|13
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Bridge/Twig/NodeVisitor/Scope.php|symfony|symfony|Scope.php|PHP|48|30|16
@@ -4668,7 +4669,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/VarDumper/Caster/DsCaster.php|symfony|symfony|DsCaster.php|PHP|42|15|13
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/WebLink/GenericLinkProvider.php|symfony|symfony|GenericLinkProvider.php|PHP|42|14|15
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Workflow/TransitionBlockerList.php|symfony|symfony|TransitionBlockerList.php|PHP|42|18|12
-./src/_00/output/PHP/symfony~symfony/src/Symfony/Contracts/HttpClient/HttpClientInterface.php|symfony|symfony|HttpClientInterface.php|PHP|42|52|7
+./src/_00/output/PHP/symfony~symfony/src/Symfony/Contracts/HttpClient/HttpClientInterface.php|symfony|symfony|HttpClientInterface.php|PHP|42|50|7
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Contracts/Service/composer.json|symfony|symfony|composer.json|JSON|42|0|0
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Bridge/Doctrine/DependencyInjection/Security/UserProvider/EntityFactory.php|symfony|symfony|EntityFactory.php|PHP|41|16|7
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Bridge/Monolog/Handler/ChromePhpHandler.php|symfony|symfony|ChromePhpHandler.php|PHP|41|21|11
@@ -5257,7 +5258,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Contracts/EventDispatcher/composer.json|symfony|symfony|composer.json|JSON|35|0|0
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Bridge/Doctrine/Messenger/DoctrineClearEntityManagerWorkerSubscriber.php|symfony|symfony|DoctrineClearEntityManagerWorkerSubscriber.php|PHP|34|13|8
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Bridge/Doctrine/Middleware/IdleConnection/Listener.php|symfony|symfony|Listener.php|PHP|34|13|8
-./src/_00/output/PHP/symfony~symfony/src/Symfony/Bridge/Doctrine/SchemaListener/AbstractSchemaListener.php|symfony|symfony|AbstractSchemaListener.php|PHP|34|9|10
+./src/_00/output/PHP/symfony~symfony/src/Symfony/Bridge/Doctrine/SchemaListener/AbstractSchemaListener.php|symfony|symfony|AbstractSchemaListener.php|PHP|34|9|9
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Bridge/PhpUnit/Legacy/ExpectDeprecationTraitForV8_4.php|symfony|symfony|ExpectDeprecationTraitForV8_4.php|PHP|34|22|9
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Bridge/PhpUnit/Tests/DeprecationErrorHandler/lagging_vendor.phpt|symfony|symfony|lagging_vendor.phpt|PHP|34|0|5
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Bridge/PhpUnit/Tests/DeprecationErrorHandler/quiet_but_failing.phpt|symfony|symfony|quiet_but_failing.phpt|PHP|34|0|5
@@ -5591,7 +5592,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Form/Extension/Validator/Type/BaseValidatorExtension.php|symfony|symfony|BaseValidatorExtension.php|PHP|31|15|10
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Form/Tests/Extension/Validator/ValidatorExtensionTest.php|symfony|symfony|ValidatorExtensionTest.php|PHP|31|8|10
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HtmlSanitizer/composer.json|symfony|symfony|composer.json|JSON|31|0|0
-./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HttpClient/Tests/NativeHttpClientTest.php|symfony|symfony|NativeHttpClientTest.php|PHP|31|8|9
+./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HttpClient/Tests/NativeHttpClientTest.php|symfony|symfony|NativeHttpClientTest.php|PHP|31|11|9
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HttpClient/ThrottlingHttpClient.php|symfony|symfony|ThrottlingHttpClient.php|PHP|31|11|9
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HttpFoundation/Tests/RequestMatcher/IpsRequestMatcherTest.php|symfony|symfony|IpsRequestMatcherTest.php|PHP|31|11|5
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HttpKernel/Controller/ErrorController.php|symfony|symfony|ErrorController.php|PHP|31|19|8
@@ -6150,6 +6151,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Validator/Tests/Constraints/DisableAutoMappingTest.php|symfony|symfony|DisableAutoMappingTest.php|PHP|28|12|7
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Validator/Tests/Constraints/EnableAutoMappingTest.php|symfony|symfony|EnableAutoMappingTest.php|PHP|28|12|7
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Validator/phpunit.xml.dist|symfony|symfony|phpunit.xml.dist|XML|28|0|3
+./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/VarDumper/Caster/ConstStub.php|symfony|symfony|ConstStub.php|PHP|28|16|8
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/VarExporter/phpunit.xml.dist|symfony|symfony|phpunit.xml.dist|XML|28|0|3
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Webhook/Server/HeaderSignatureConfigurator.php|symfony|symfony|HeaderSignatureConfigurator.php|PHP|28|11|6
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Workflow/Event/EventNameTrait.php|symfony|symfony|EventNameTrait.php|PHP|28|23|10
@@ -7584,6 +7586,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Validator/Mapping/Loader/FilesLoader.php|symfony|symfony|FilesLoader.php|PHP|18|30|7
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Validator/Tests/Fixtures/DummyCompoundConstraint.php|symfony|symfony|DummyCompoundConstraint.php|PHP|18|8|4
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Validator/Util/PropertyPath.php|symfony|symfony|PropertyPath.php|PHP|18|27|6
+./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/VarDumper/Tests/Caster/AddressInfoCasterTest.php|symfony|symfony|AddressInfoCasterTest.php|PHP|18|11|6
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/VarDumper/Tests/Fixtures/MyAttribute.php|symfony|symfony|MyAttribute.php|PHP|18|9|5
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/VarExporter/Tests/Fixtures/LazyGhost/TestClass.php|symfony|symfony|TestClass.php|PHP|18|8|6
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Workflow/SupportStrategy/InstanceOfSupportStrategy.php|symfony|symfony|InstanceOfSupportStrategy.php|PHP|18|12|6
@@ -8068,7 +8071,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Form/Tests/Fixtures/FooTypeBazExtension.php|symfony|symfony|FooTypeBazExtension.php|PHP|15|8|5
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HtmlSanitizer/Tests/Parser/MastermindsParserTest.php|symfony|symfony|MastermindsParserTest.php|PHP|15|8|4
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HttpClient/Chunk/InformationalChunk.php|symfony|symfony|InformationalChunk.php|PHP|15|13|6
-./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HttpClient/Tests/AmpHttpClientTest.php|symfony|symfony|AmpHttpClientTest.php|PHP|15|8|5
+./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HttpClient/Tests/AmpHttpClientTest.php|symfony|symfony|AmpHttpClientTest.php|PHP|15|11|5
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HttpFoundation/Session/Flash/FlashBagInterface.php|symfony|symfony|FlashBagInterface.php|PHP|15|45|12
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HttpKernel/CacheClearer/ChainCacheClearer.php|symfony|symfony|ChainCacheClearer.php|PHP|15|18|4
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/HttpKernel/HttpCache/StoreInterface.php|symfony|symfony|StoreInterface.php|PHP|15|53|11
@@ -8159,7 +8162,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Validator/Tests/Mapping/Loader/Fixtures/ConstraintWithoutValueWithNamedArguments.php|symfony|symfony|ConstraintWithoutValueWithNamedArguments.php|PHP|15|9|5
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Validator/Validator/ValidatorInterface.php|symfony|symfony|ValidatorInterface.php|PHP|15|63|8
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Validator/Violation/ConstraintViolationBuilderInterface.php|symfony|symfony|ConstraintViolationBuilderInterface.php|PHP|15|90|12
-./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/VarDumper/Caster/ConstStub.php|symfony|symfony|ConstStub.php|PHP|15|13|5
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/VarDumper/Caster/MysqliCaster.php|symfony|symfony|MysqliCaster.php|PHP|15|13|5
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/VarDumper/Caster/ProxyManagerCaster.php|symfony|symfony|ProxyManagerCaster.php|PHP|15|13|5
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/VarDumper/Caster/TraceStub.php|symfony|symfony|TraceStub.php|PHP|15|13|4
@@ -10145,11 +10147,13 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/PasswordHasher/Hasher/PasswordHasherFactoryInterface.php|symfony|symfony|PasswordHasherFactoryInterface.php|PHP|8|19|4
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/PasswordHasher/LegacyPasswordHasherInterface.php|symfony|symfony|LegacyPasswordHasherInterface.php|PHP|8|23|5
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/PropertyInfo/PropertyTypeExtractorInterface.php|symfony|symfony|PropertyTypeExtractorInterface.php|PHP|8|20|4
+./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/PropertyInfo/Tests/Fixtures/AsymmetricVisibility.php|symfony|symfony|AsymmetricVisibility.php|PHP|8|8|3
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/PropertyInfo/Tests/Fixtures/ConstructorDummyWithoutDocBlock.php|symfony|symfony|ConstructorDummyWithoutDocBlock.php|PHP|8|8|3
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/PropertyInfo/Tests/Fixtures/IntRangeDummy.php|symfony|symfony|IntRangeDummy.php|PHP|8|17|5
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/PropertyInfo/Tests/Fixtures/NotInstantiable.php|symfony|symfony|NotInstantiable.php|PHP|8|11|3
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/PropertyInfo/Tests/Fixtures/Php7ParentDummy.php|symfony|symfony|Php7ParentDummy.php|PHP|8|8|3
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/PropertyInfo/Tests/Fixtures/TraitUsage/DummyUsingTrait.php|symfony|symfony|DummyUsingTrait.php|PHP|8|8|4
+./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/PropertyInfo/Tests/Fixtures/VirtualProperties.php|symfony|symfony|VirtualProperties.php|PHP|8|8|3
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/RemoteEvent/CHANGELOG.md|symfony|symfony|CHANGELOG.md|Markdown|8|0|4
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Routing/Annotation/Route.php|symfony|symfony|Route.php|PHP|8|10|5
 ./src/_00/output/PHP/symfony~symfony/src/Symfony/Component/Routing/Generator/Dumper/GeneratorDumperInterface.php|symfony|symfony|GeneratorDumperInterface.php|PHP|8|20|5
