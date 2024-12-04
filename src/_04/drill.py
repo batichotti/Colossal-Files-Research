@@ -14,7 +14,7 @@ num_cores = os.cpu_count()
 input(os.cpu_count())
 
 # list with repositories that will analyzed
-repositories_list_path: str = './src/_00/input/600_pt3.csv'
+repositories_list_path: str = './src/_00/input/600_pt1.csv'
 
 # base dirs
 repositories_base_dir: str = './src/_00/output/'
