@@ -12,6 +12,11 @@ from os import makedirs
 
 SEPARATOR = '|'
 
+# FUNCTION =============================================================================================================
+
+def missing(val:int|float)-> float:
+    return -1*val if val < 0 else 0.0
+
 # SETUP ================================================================================================================
 
 input_path:str = "./src/_05/input/"
@@ -28,6 +33,8 @@ repositories:pd.DataFrame = pd.read_csv(repositories_path)
 # getting small files per language
 sample_df:pd.DataFrame = pd.read_csv(sample_path)
 sample_df:pd.Series = sample_df.set_index('language')['1%']
+
+missing_df:pd.Series = pd.Series()
 
 # ======================================================================================================================
 
@@ -55,9 +62,21 @@ def main()->None:
         merged_df['small files'] = merged_df['small p/ language'] * merged_df['small proportion'] # (large file / total) * small total
         merged_df['small files'] = merged_df['small files'].apply(ceil) # round up
         merged_df['files available'] = merged_df['total'] - merged_df['large files'] # total - large files
+        merged_df['files missing'] = merged_df['files available'] - merged_df['small files'] # available - small
+        merged_df['files missing'] = merged_df['files missing'].apply(missing) # missing
 
         merged_df.to_csv(f"{output_path}{repo_path}.csv")
 
+        if i == 0:
+            missing_df = pd.concat([merged_df])
+
+        missing_df = pd.concat([missing_df, merged_df])
+
+    # missing_df = missing_df.drop(['total', 'large files', 'small p/ language', 'small proportion', 'small files', 'files available'], axis=1)
+    missing_df.to_csv(f"{output_path}missing_total.csv")
+
+    missing_df = missing_df.groupby(['language']).agg('sum')
+    missing_df.to_csv(f"{output_path}missing_language.csv")
 
 if (__name__ == "__main__"):
     main()
