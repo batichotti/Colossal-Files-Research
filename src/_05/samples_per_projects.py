@@ -32,7 +32,8 @@ repositories:pd.DataFrame = pd.read_csv(repositories_path)
 
 # getting small files per language
 sample_df:pd.DataFrame = pd.read_csv(sample_path)
-sample_df:pd.Series = sample_df.set_index('language')['1%']
+small_sample_df:pd.Series = sample_df.set_index('language')['1%']
+large_total_df:pd.Series = sample_df.set_index('language')['larges']
 
 missing_df:pd.Series = pd.Series()
 
@@ -56,13 +57,13 @@ def main()->None:
         large_files_df:pd.Series = large_files_df.groupby('language').size()
 
         # data manipulation
-        merged_df = pd.concat([repository_files_df, large_files_df, sample_df], axis=1).dropna() # grouping series by languages
-        merged_df = merged_df.rename(columns={0: 'total'}).rename(columns={1: 'large files'}).rename(columns={'1%': 'small p/ language'}) # renaming columns
-        merged_df['small proportion'] = merged_df['large files'] / merged_df['total'] # large file / total
-        merged_df['small files'] = merged_df['small p/ language'] * merged_df['small proportion'] # (large file / total) * small total
-        merged_df['small files'] = merged_df['small files'].apply(ceil) # round up
-        merged_df['files available'] = merged_df['total'] - merged_df['large files'] # total - large files
-        merged_df['files missing'] = merged_df['files available'] - merged_df['small files'] # available - small
+        merged_df = pd.concat([repository_files_df, large_files_df, large_total_df, small_sample_df], axis=1).dropna() # grouping series by languages
+        merged_df = merged_df.rename(columns={0: 'total'}).rename(columns={1: 'large files p/ project'}).rename(columns={'larges': 'large files total'}).rename(columns={'1%': 'small files total'}) # renaming columns
+        merged_df['small proportion'] = merged_df['large files p/ project'] / merged_df['large files total'] # large file / total
+        merged_df['small files p/ project'] = merged_df['small files total'] * merged_df['small proportion'] # (large file / total) * small total
+        merged_df['small files p/ project'] = merged_df['small files p/ project'].apply(ceil) # round up
+        merged_df['files available'] = merged_df['total'] - merged_df['large files p/ project'] # total - large files
+        merged_df['files missing'] = merged_df['files available'] - merged_df['small files p/ project'] # available - small
         merged_df['files missing'] = merged_df['files missing'].apply(missing) # missing
 
         merged_df.to_csv(f"{output_path}{repo_path}.csv")
@@ -72,7 +73,7 @@ def main()->None:
 
         missing_df = pd.concat([missing_df, merged_df])
 
-    # missing_df = missing_df.drop(['total', 'large files', 'small p/ language', 'small proportion', 'small files', 'files available'], axis=1)
+    # missing_df = missing_df.drop(['total', 'large files', 'small files total', 'small proportion', 'small files', 'files available'], axis=1)
     missing_df.to_csv(f"{output_path}missing_total.csv")
 
     missing_df = missing_df.groupby(['language']).agg('sum')
