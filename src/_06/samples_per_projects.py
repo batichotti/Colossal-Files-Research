@@ -19,8 +19,8 @@ def missing(val:int|float)-> float:
 
 # SETUP ================================================================================================================
 
-input_path:str = "./src/_05/input/"
-output_path = "./src/_05/output/"
+input_path:str = "./src/_06/input/"
+output_path = "./src/_06/output/"
 
 repositories_path:str = "./src/_00/input/600_Starred_Projects.csv"
 cloc_path:str = "./src/_01/output/"
