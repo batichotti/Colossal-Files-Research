@@ -73,11 +73,9 @@ def main()->None:
 
         missing_df = pd.concat([missing_df, merged_df])
 
-    # missing_df = missing_df.drop(['total', 'large files', 'small files total', 'small proportion', 'small files', 'files available'], axis=1)
-    missing_df.to_csv(f"{output_path}missing_total.csv")
-
-    missing_df = missing_df.groupby(['language']).agg('sum')
-    missing_df.to_csv(f"{output_path}missing_language.csv")
+    missing_df = missing_df.drop(['total', 'large files total', 'small files total', 'small proportion', 'files available'], axis=1)
+    missing_df = missing_df.groupby(['language']).agg('sum').rename(columns={'large files p/ project': 'large files'}).rename(columns={'small files p/ project': 'small files'})
+    missing_df.to_csv(f"{output_path}missing.csv")
 
 if (__name__ == "__main__"):
     main()
