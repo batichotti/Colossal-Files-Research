@@ -2,7 +2,7 @@
  
 # 📊 Analysis of Top GitHub Projects Across Popular Programming Languages
 
-This repository offers a comprehensive analysis of the **30 most-starred GitHub projects** across the **20 most popular programming languages**, as ranked by the TIOBE Index. The study delves into the lifecycle of colossal files within these projects, examining their origins, growth trajectories, and maintenance strategies, with a particular focus on their evolution and impact on overall project dynamics.
+This repository offers a comprehensive analysis of the **30 most-starred GitHub projects** across the **15 most popular programming languages**, as ranked by the [GitHut 2.0](https://madnight.github.io/githut/#/pull_requests/2024/1). The study delves into the lifecycle of colossal files within these projects, examining their origins, growth trajectories, and maintenance strategies, with a particular focus on their evolution and impact on overall project dynamics.
 
 ---
 
