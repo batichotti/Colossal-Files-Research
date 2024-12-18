@@ -2,18 +2,17 @@ import pandas as pd
 import os
 
 """
-O salvamento é feito a partir da linguagem principal do projeto/repositório.
-Aqui se procuram todos os large files em todos os projetos e os separam em um .csv para cada repositório e em pastas feitas a partir da linguagem principal do repositório.
+The saving is done based on the main language of the project/repository.
+Here, all large files in all projects are searched and separated into a .csv for each repository and in folders made from the main language of the repository.
 
-Exemplo de output
-Projeto MPV-PLAYER - Linguagem principal: C
-Local de salvamento
-output/C(pq é um repositório C)/colocaaq
-O que foi salvo:
+Example of output
+Project MPV-PLAYER - Main language: C
+Save location
+output/C (because it is a C repository)/put here
+What was saved:
 path|owner|project|language|code
-./src/_00/output/C/mpv-player~mpv/player/command.c|mpv-player|mpv|C|6351 -- Um arquivo C
-./src/_00/output/C/mpv-player~mpv/player/lua/osc.lua|mpv-player|mpv|Lua|2250 -- Um arquivo Lua
-
+./src/_00/output/C/mpv-player~mpv/player/command.c|mpv-player|mpv|C|6351 -- A C file
+./src/_00/output/C/mpv-player~mpv/player/lua/osc.lua|mpv-player|mpv|Lua|2250 -- A Lua file
 """
 
 # df['code'] é o nloc
