@@ -2,16 +2,11 @@ import pydriller as dr
 import pandas as pd
 import os
 from datetime import datetime
-from concurrent.futures import ThreadPoolExecutor
 
 # setting paths -------------------------------------------------------------------------------------------------------
 
 input_path: str = './src/_04/input/'
 output_path: str = './src/_04/output/'
-
-# Threads/CPU cores ---------------------------------------------------------------------------------------------------
-num_cores = os.cpu_count()
-input(os.cpu_count())
 
 # list with repositories that will analyzed
 repositories_list_path: str = './src/_00/input/600_pt1.csv'
@@ -137,6 +132,5 @@ def process_repository(i):
     print(end - start)
 
 if __name__ == '__main__':
-    # with ThreadPoolExecutor(max_workers=num_cores) as executor: #Auto-fit
-    with ThreadPoolExecutor(max_workers=1) as executor: #Auto-fit
-        executor.map(process_repository, range(len(repositories)))
+    for i in range(len(repositories)):
+        process_repository(i)
