@@ -7,15 +7,18 @@ output_path: str = './src/_02/output'
 
 all_dataframes = []
 
-for language_dir in os.listdir(input_path):
-    language_dir_path = os.path.join(input_path, language_dir)
-    for file in os.listdir(language_dir_path):
-        file_path = os.path.join(language_dir_path, file)
-        dataframe = pd.read_csv(file_path, sep='|')
-        dataframe['project language'] = language_dir
-        dataframe['project'] = file.split('~')[1]
-        dataframe['owner'] = file.split('~')[0]
-        all_dataframes.append(dataframe)
+repositories_path = "./src/_00/input/450_Starred_Projects.csv"
+repositories = pd.read_csv(repositories_path)
+
+for i in range(len(repositories)):
+    repository, language = repositories.loc[i, ['url', 'main language']]
+    repo_path = f"{language}/{repository.split('/')[-2]}~{repository.split('/')[-1]}"
+    file_path = os.path.join(input_path, f"{repo_path}.csv")
+    dataframe = pd.read_csv(file_path, sep='|')
+    dataframe['project language'] = language
+    dataframe['project'] = repository.split('/')[-1]
+    dataframe['owner'] = repository.split('/')[-2]
+    all_dataframes.append(dataframe)
 
 combined_dataframe = pd.concat(all_dataframes, ignore_index=True)
 grouped = combined_dataframe.groupby('language')
@@ -23,7 +26,7 @@ output_dataframes = []
 
 for lang, group in grouped:
     code_percentiles = group['code'].describe(percentiles=[0.25, 0.5, 0.75, 0.90, 0.95, 0.97, 0.98, 0.99]).transpose()
-    
+
     output_dataframe = pd.DataFrame({
         'language': lang,
         '#': len(group),
@@ -36,7 +39,7 @@ for lang, group in grouped:
         'percentil 98': [np.ceil(code_percentiles['98%'])],
         'percentil 99': [np.ceil(code_percentiles['99%'])]
     })
-    
+
     output_dataframes.append(output_dataframe)
 
 os.makedirs(output_path, exist_ok=True)
