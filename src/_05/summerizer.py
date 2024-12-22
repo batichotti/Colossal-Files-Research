@@ -52,6 +52,18 @@ def main()->None:
 
     large_files_summary_df.to_csv(f"{output_path}large_files.csv")
     large_files_summary_df.groupby('language').size().to_csv(f"{output_path}#large_files.csv")
+    
+    # Filter cloc_summary_df to include only languages present in large_files_summary_df
+    filtered_languages = large_files_summary_df['language'].unique()
+    filtered_cloc_summary_df = cloc_summary_df[cloc_summary_df['language'].isin(filtered_languages)]
+
+    # Save the filtered summary to a new CSV file
+    filtered_cloc_summary_df.to_csv(f"{output_path}all_filtered.csv")
+    filtered_cloc_summary_df.groupby('language').size().to_csv(f"{output_path}#all_filtered.csv")
+    
+    # Total + Large files
+    pd.concat([filtered_cloc_summary_df.groupby('language').size().rename('#total'), large_files_summary_df.groupby('language').size().rename('#large files')], axis=1).to_csv(f"{output_path}#total.csv")
 
 if (__name__ == "__main__"):
     main()
+    print("DONE!\n")
