@@ -62,8 +62,10 @@ def main()->None:
     filtered_cloc_summary_df.groupby('language').size().to_csv(f"{output_path}#all_filtered.csv")
     
     # Total + Large files
-    pd.concat([filtered_cloc_summary_df.groupby('language').size().rename('#total'), large_files_summary_df.groupby('language').size().rename('#large files')], axis=1).to_csv(f"{output_path}#total.csv")
-
+    summary_df = pd.concat([filtered_cloc_summary_df.groupby('language').size().rename('#total'), large_files_summary_df.groupby('language').size().rename('#large files')], axis=1)
+    summary_df["#small files"] = summary_df["#total"] - summary_df['#large files']
+    summary_df.to_csv(f"{output_path}#total.csv")
+    
 if (__name__ == "__main__"):
     main()
     print("DONE!\n")
