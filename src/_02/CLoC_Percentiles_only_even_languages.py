@@ -7,15 +7,18 @@ output_path: str = './src/_02/output'
 
 all_dataframes = []
 
-for language_dir in os.listdir(input_path):
-    language_dir_path = os.path.join(input_path, language_dir)
-    for file in os.listdir(language_dir_path):
-        file_path = os.path.join(language_dir_path, file)
-        dataframe = pd.read_csv(file_path, sep='|')
-        dataframe['project language'] = language_dir
-        dataframe['project'] = file.split('~')[1]
-        dataframe['owner'] = file.split('~')[0]
-        all_dataframes.append(dataframe)
+repositories_path = "./src/_00/input/450_Starred_Projects.csv"
+repositories = pd.read_csv(repositories_path)
+
+for i in range(len(repositories)):
+    repository, language = repositories.loc[i, ['url', 'main language']]
+    repo_path = f"{language}/{repository.split('/')[-2]}~{repository.split('/')[-1]}"
+    file_path = os.path.join(input_path, f"{repo_path}.csv")
+    dataframe = pd.read_csv(file_path, sep='|')
+    dataframe['project language'] = language
+    dataframe['project'] = repository.split('/')[-1]
+    dataframe['owner'] = repository.split('/')[-2]
+    all_dataframes.append(dataframe)
 
 combined_dataframe = pd.concat(all_dataframes, ignore_index=True)
 
@@ -46,7 +49,7 @@ os.makedirs(output_path, exist_ok=True)
 final_output_dataframe = pd.concat(output_dataframes, ignore_index=True)
 final_output_dataframe.to_csv(f'{output_path}/percentis_even_languages.csv', index=False)
 
-filtered_languages = ["C", "C#", "C++", "Dart", "Elixir", "Go", "Haskell", "Java", "JavaScript", "Kotlin", "Lua", "Objective-C", "Perl", "PHP", "Python", "Ruby", "Rust", "Scala", "Swift", "TypeScript"]
+filtered_languages = ["C", "C#", "C++", "Dart", "Go", "Java", "JavaScript", "Kotlin", "Lua", "Objective-C", "PHP", "Python", "Ruby", "Rust", "Swift", "TypeScript"]
 output_filtered = final_output_dataframe[final_output_dataframe['language'].isin(filtered_languages)]
 
 output_filtered.to_csv(f'{output_path}/percentis_even_languages_filtered.csv', index=False)
