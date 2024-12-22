@@ -13,6 +13,7 @@ def missing(val:int|float)-> float:
 input_path:str = "./src/_05/input/"
 output_path = "./src/_05/output/"
 makedirs(output_path, exist_ok=True)
+makedirs(f"{output_path}files/", exist_ok=True)
 
 repositories_path:str = "./src/_00/input/450_Starred_Projects.csv"
 cloc_path:str = "./src/_01/output/"
@@ -47,10 +48,10 @@ def main()->None:
         cloc_summary_df = pd.concat([cloc_summary_df, repository_files_df])
         large_files_summary_df = pd.concat([large_files_summary_df, large_files_df])
 
-    cloc_summary_df.to_csv(f"{output_path}all_files.csv")
+    cloc_summary_df.to_csv(f"{output_path}files/all_files.csv")
     cloc_summary_df.groupby('language').size().to_csv(f"{output_path}#all_files.csv")
 
-    large_files_summary_df.to_csv(f"{output_path}large_files.csv")
+    large_files_summary_df.to_csv(f"{output_path}files/large_files.csv")
     large_files_summary_df.groupby('language').size().to_csv(f"{output_path}#large_files.csv")
     
     # Filter cloc_summary_df to include only languages present in large_files_summary_df
@@ -58,7 +59,7 @@ def main()->None:
     filtered_cloc_summary_df = cloc_summary_df[cloc_summary_df['language'].isin(filtered_languages)]
 
     # Save the filtered summary to a new CSV file
-    filtered_cloc_summary_df.to_csv(f"{output_path}all_filtered.csv")
+    filtered_cloc_summary_df.to_csv(f"{output_path}files/all_filtered.csv")
     filtered_cloc_summary_df.groupby('language').size().to_csv(f"{output_path}#all_filtered.csv")
     
     # Total + Large files
