@@ -12,8 +12,9 @@ def missing(val:int|float)-> float:
 
 input_path:str = "./src/_05/input/"
 output_path = "./src/_05/output/"
+makedirs(output_path, exist_ok=True)
 
-repositories_path:str = "./src/_00/input/600_Starred_Projects.csv"
+repositories_path:str = "./src/_00/input/450_Starred_Projects.csv"
 cloc_path:str = "./src/_01/output/"
 large_files_path:str = "./src/_03/output/"
 

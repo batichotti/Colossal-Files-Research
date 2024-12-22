@@ -47,7 +47,7 @@ os.makedirs(output_path, exist_ok=True)
 final_output_dataframe = pd.concat(output_dataframes, ignore_index=True)
 final_output_dataframe.to_csv(f'{output_path}/percentis_by_language.csv', index=False)
 
-filtered_languages = ["C", "C#", "C++", "Dart", "Go", "Java", "JavaScript", "Kotlin", "Lua", "Objective-C", "PHP", "Python", "Ruby", "Rust", "Swift", "TypeScript"]
+filtered_languages = ["C", "C#", "C++", "Dart", "Go", "Java", "JavaScript", "Kotlin", "Objective-C", "PHP", "Python", "Ruby", "Rust", "Swift", "TypeScript"]
 output_filtered = final_output_dataframe[final_output_dataframe['language'].isin(filtered_languages)]
 
 output_filtered.to_csv(f'{output_path}/percentis_by_language_filtered.csv', index=False)
