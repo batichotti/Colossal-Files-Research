@@ -22,7 +22,7 @@ def missing(val:int|float)-> float:
 input_path:str = "./src/_06/input/"
 output_path = "./src/_06/output/"
 
-repositories_path:str = "./src/_00/input/600_Starred_Projects.csv"
+repositories_path:str = "./src/_00/input/450_Starred_Projects.csv"
 cloc_path:str = "./src/_01/output/"
 large_files_path:str = "./src/_03/output/"
 sample_path:str = f"{input_path}files_sample.csv"
@@ -33,7 +33,7 @@ repositories:pd.DataFrame = pd.read_csv(repositories_path)
 # getting small files per language
 sample_df:pd.DataFrame = pd.read_csv(sample_path)
 small_sample_df:pd.Series = sample_df.set_index('language')['1%']
-large_total_df:pd.Series = sample_df.set_index('language')['larges']
+large_total_df:pd.Series = sample_df.set_index('language')['#large files']
 
 missing_df:pd.Series = pd.Series()
 
@@ -58,7 +58,7 @@ def main()->None:
 
         # data manipulation
         merged_df = pd.concat([repository_files_df, large_files_df, large_total_df, small_sample_df], axis=1).dropna() # grouping series by languages
-        merged_df = merged_df.rename(columns={0: 'total'}).rename(columns={1: 'large files p/ project'}).rename(columns={'larges': 'large files total'}).rename(columns={'1%': 'small files total'}) # renaming columns
+        merged_df = merged_df.rename(columns={0: 'total'}).rename(columns={1: 'large files p/ project'}).rename(columns={'#large files': 'large files total'}).rename(columns={'1%': 'small files total'}) # renaming columns
         merged_df['small proportion'] = merged_df['large files p/ project'] / merged_df['large files total'] # large file / total
         merged_df['small files p/ project'] = merged_df['small files total'] * merged_df['small proportion'] # (large file / total) * small total
         merged_df['small files p/ project'] = merged_df['small files p/ project'].apply(ceil) # round up
