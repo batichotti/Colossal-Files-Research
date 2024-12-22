@@ -23,7 +23,7 @@ output_path: str = './src/_03/output/'
 csv_reference_large_files: str = './src/_02/output/percentis_by_language_filtered.csv'
 
 # list with repositories that will analyzed
-repositories_list_path: str = './src/_00/input/600_Starred_Projects.csv'
+repositories_list_path: str = './src/_00/input/450_Starred_Projects.csv'
 
 # loading list of repositories
 repositories: pd.DataFrame = pd.read_csv(repositories_list_path, engine='python')
