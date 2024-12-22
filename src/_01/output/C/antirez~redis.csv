@@ -2,7 +2,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C/antirez~redis/deps/jemalloc/configure|antirez|redis|configure|Bourne Shell|13076|939|2777
 ./src/_00/output/C/antirez~redis/src/commands.def|antirez|redis|commands.def|Windows Module Definition|9145|0|2094
 ./src/_00/output/C/antirez~redis/src/redis-cli.c|antirez|redis|redis-cli.c|C|8980|983|858
-./src/_00/output/C/antirez~redis/src/module.c|antirez|redis|module.c|C|7407|5639|1184
+./src/_00/output/C/antirez~redis/src/module.c|antirez|redis|module.c|C|7443|5677|1193
 ./src/_00/output/C/antirez~redis/deps/lua/doc/manual.html|antirez|redis|manual.html|HTML|5907|5|2892
 ./src/_00/output/C/antirez~redis/src/server.c|antirez|redis|server.c|C|5105|1432|811
 ./src/_00/output/C/antirez~redis/src/cluster_legacy.c|antirez|redis|cluster_legacy.c|C|4195|1590|692
@@ -10,20 +10,20 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C/antirez~redis/deps/jemalloc/src/ctl.c|antirez|redis|ctl.c|C|3559|355|500
 ./src/_00/output/C/antirez~redis/deps/jemalloc/src/jemalloc.c|antirez|redis|jemalloc.c|C|3329|652|504
 ./src/_00/output/C/antirez~redis/src/t_zset.c|antirez|redis|t_zset.c|C|3173|780|542
-./src/_00/output/C/antirez~redis/src/networking.c|antirez|redis|networking.c|C|3134|1138|490
+./src/_00/output/C/antirez~redis/src/networking.c|antirez|redis|networking.c|C|3143|1136|490
 ./src/_00/output/C/antirez~redis/deps/fast_float/fast_float.h|antirez|redis|fast_float.h|C/C++ Header|3019|508|311
 ./src/_00/output/C/antirez~redis/src/rdb.c|antirez|redis|rdb.c|C|3017|671|405
-./src/_00/output/C/antirez~redis/src/server.h|antirez|redis|server.h|C/C++ Header|2916|732|277
+./src/_00/output/C/antirez~redis/src/server.h|antirez|redis|server.h|C/C++ Header|2918|732|277
 ./src/_00/output/C/antirez~redis/src/config.c|antirez|redis|config.c|C|2641|419|422
 ./src/_00/output/C/antirez~redis/src/replication.c|antirez|redis|replication.c|C|2629|1160|451
 ./src/_00/output/C/antirez~redis/src/t_stream.c|antirez|redis|t_stream.c|C|2610|1051|394
 ./src/_00/output/C/antirez~redis/src/quicklist.c|antirez|redis|quicklist.c|C|2531|440|370
+./src/_00/output/C/antirez~redis/src/listpack.c|antirez|redis|listpack.c|C|2358|562|354
 ./src/_00/output/C/antirez~redis/deps/jemalloc/configure.ac|antirez|redis|configure.ac|m4|2328|158|183
-./src/_00/output/C/antirez~redis/src/t_hash.c|antirez|redis|t_hash.c|C|2280|661|509
-./src/_00/output/C/antirez~redis/src/listpack.c|antirez|redis|listpack.c|C|2264|544|348
+./src/_00/output/C/antirez~redis/src/t_hash.c|antirez|redis|t_hash.c|C|2292|671|508
 ./src/_00/output/C/antirez~redis/src/debug.c|antirez|redis|debug.c|C|2253|256|224
 ./src/_00/output/C/antirez~redis/tests/unit/type/zset.tcl|antirez|redis|zset.tcl|Tcl/Tk|2214|140|381
-./src/_00/output/C/antirez~redis/src/acl.c|antirez|redis|acl.c|C|2175|753|307
+./src/_00/output/C/antirez~redis/src/acl.c|antirez|redis|acl.c|C|2181|754|308
 ./src/_00/output/C/antirez~redis/tests/unit/scripting.tcl|antirez|redis|scripting.tcl|Tcl/Tk|1996|149|305
 ./src/_00/output/C/antirez~redis/tests/unit/type/list.tcl|antirez|redis|list.tcl|Tcl/Tk|1938|150|338
 ./src/_00/output/C/antirez~redis/src/aof.c|antirez|redis|aof.c|C|1891|563|323
@@ -36,16 +36,16 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C/antirez~redis/deps/jemalloc/src/stats.c|antirez|redis|stats.c|C|1626|77|270
 ./src/_00/output/C/antirez~redis/deps/jemalloc/test/unit/SFMT.c|antirez|redis|SFMT.c|C|1549|35|15
 ./src/_00/output/C/antirez~redis/deps/jemalloc/include/jemalloc/internal/rb.h|antirez|redis|rb.h|C/C++ Header|1504|330|22
+./src/_00/output/C/antirez~redis/src/dict.c|antirez|redis|dict.c|C|1416|530|262
 ./src/_00/output/C/antirez~redis/deps/jemalloc/src/arena.c|antirez|redis|arena.c|C|1414|233|244
-./src/_00/output/C/antirez~redis/src/redismodule.h|antirez|redis|redismodule.h|C/C++ Header|1362|213|130
+./src/_00/output/C/antirez~redis/src/redismodule.h|antirez|redis|redismodule.h|C/C++ Header|1367|213|130
 ./src/_00/output/C/antirez~redis/deps/jemalloc/build-aux/config.guess|antirez|redis|config.guess|Bourne Shell|1361|278|62
-./src/_00/output/C/antirez~redis/src/dict.c|antirez|redis|dict.c|C|1321|500|235
 ./src/_00/output/C/antirez~redis/src/eval.c|antirez|redis|eval.c|C|1268|319|165
 ./src/_00/output/C/antirez~redis/src/object.c|antirez|redis|object.c|C|1268|245|183
 ./src/_00/output/C/antirez~redis/src/t_set.c|antirez|redis|t_set.c|C|1211|358|164
+./src/_00/output/C/antirez~redis/src/util.c|antirez|redis|util.c|C|1211|322|174
 ./src/_00/output/C/antirez~redis/src/script_lua.c|antirez|redis|script_lua.c|C|1206|310|196
-./src/_00/output/C/antirez~redis/src/util.c|antirez|redis|util.c|C|1195|306|169
-./src/_00/output/C/antirez~redis/.github/workflows/daily.yml|antirez|redis|daily.yml|YAML|1179|1|34
+./src/_00/output/C/antirez~redis/.github/workflows/daily.yml|antirez|redis|daily.yml|YAML|1176|1|34
 ./src/_00/output/C/antirez~redis/tests/integration/replication.tcl|antirez|redis|replication.tcl|Tcl/Tk|1161|219|218
 ./src/_00/output/C/antirez~redis/tests/unit/type/stream-cgroups.tcl|antirez|redis|stream-cgroups.tcl|Tcl/Tk|1149|132|209
 ./src/_00/output/C/antirez~redis/src/cluster.c|antirez|redis|cluster.c|C|1117|388|184
@@ -56,8 +56,8 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C/antirez~redis/tests/unit/type/set.tcl|antirez|redis|set.tcl|Tcl/Tk|1052|86|176
 ./src/_00/output/C/antirez~redis/deps/jemalloc/src/prof_data.c|antirez|redis|prof_data.c|C|1037|231|179
 ./src/_00/output/C/antirez~redis/deps/jemalloc/test/unit/mallctl.c|antirez|redis|mallctl.c|C|1027|62|185
+./src/_00/output/C/antirez~redis/src/hyperloglog.c|antirez|redis|hyperloglog.c|C|1011|692|164
 ./src/_00/output/C/antirez~redis/deps/linenoise/linenoise.c|antirez|redis|linenoise.c|C|993|312|152
-./src/_00/output/C/antirez~redis/src/hyperloglog.c|antirez|redis|hyperloglog.c|C|987|684|159
 ./src/_00/output/C/antirez~redis/tests/integration/aof-multi-part.tcl|antirez|redis|aof-multi-part.tcl|Tcl/Tk|982|70|280
 ./src/_00/output/C/antirez~redis/src/sds.c|antirez|redis|sds.c|C|972|361|140
 ./src/_00/output/C/antirez~redis/src/defrag.c|antirez|redis|defrag.c|C|971|205|122
@@ -65,7 +65,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C/antirez~redis/tests/support/util.tcl|antirez|redis|util.tcl|Tcl/Tk|963|96|111
 ./src/_00/output/C/antirez~redis/deps/jemalloc/src/extent.c|antirez|redis|extent.c|C|957|218|151
 ./src/_00/output/C/antirez~redis/deps/jemalloc/test/unit/stats_print.c|antirez|redis|stats_print.c|C|957|4|38
-./src/_00/output/C/antirez~redis/src/t_list.c|antirez|redis|t_list.c|C|945|266|172
+./src/_00/output/C/antirez~redis/src/t_list.c|antirez|redis|t_list.c|C|942|266|172
 ./src/_00/output/C/antirez~redis/deps/lua/src/lua_cjson.c|antirez|redis|lua_cjson.c|C|941|254|234
 ./src/_00/output/C/antirez~redis/deps/hdr_histogram/hdr_histogram.c|antirez|redis|hdr_histogram.c|C|923|83|223
 ./src/_00/output/C/antirez~redis/src/bitops.c|antirez|redis|bitops.c|C|918|275|131
@@ -150,8 +150,8 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C/antirez~redis/deps/hiredis/ssl.c|antirez|redis|ssl.c|C|435|93|89
 ./src/_00/output/C/antirez~redis/src/redis-check-aof.c|antirez|redis|redis-check-aof.c|C|434|85|64
 ./src/_00/output/C/antirez~redis/src/script.c|antirez|redis|script.c|C|432|109|99
+./src/_00/output/C/antirez~redis/src/sort.c|antirez|redis|sort.c|C|432|130|52
 ./src/_00/output/C/antirez~redis/src/expire.c|antirez|redis|expire.c|C|431|298|99
-./src/_00/output/C/antirez~redis/src/sort.c|antirez|redis|sort.c|C|431|130|52
 ./src/_00/output/C/antirez~redis/tests/unit/pubsub.tcl|antirez|redis|pubsub.tcl|Tcl/Tk|430|47|72
 ./src/_00/output/C/antirez~redis/deps/lua/src/ldo.c|antirez|redis|ldo.c|C|425|27|67
 ./src/_00/output/C/antirez~redis/tests/unit/moduleapi/misc.tcl|antirez|redis|misc.tcl|Tcl/Tk|424|42|97
@@ -231,14 +231,17 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C/antirez~redis/deps/jemalloc/include/jemalloc/internal/bitmap.h|antirez|redis|bitmap.h|C/C++ Header|279|54|35
 ./src/_00/output/C/antirez~redis/tests/modules/crash.c|antirez|redis|crash.c|C|279|12|20
 ./src/_00/output/C/antirez~redis/deps/jemalloc/test/unit/ph.c|antirez|redis|ph.c|C|276|10|44
+./src/_00/output/C/antirez~redis/tests/modules/aclcheck.c|antirez|redis|aclcheck.c|C|276|22|67
 ./src/_00/output/C/antirez~redis/tests/unit/pause.tcl|antirez|redis|pause.tcl|Tcl/Tk|276|34|54
 ./src/_00/output/C/antirez~redis/src/memtest.c|antirez|redis|memtest.c|C|274|45|37
 ./src/_00/output/C/antirez~redis/deps/hiredis/Makefile|antirez|redis|Makefile|make|273|18|63
 ./src/_00/output/C/antirez~redis/src/siphash.c|antirez|redis|siphash.c|C|273|49|50
 ./src/_00/output/C/antirez~redis/src/commands/georadius.json|antirez|redis|georadius.json|JSON|270|0|0
+./src/_00/output/C/antirez~redis/src/config.h|antirez|redis|config.h|C/C++ Header|268|41|44
 ./src/_00/output/C/antirez~redis/src/commands/geosearch.json|antirez|redis|geosearch.json|JSON|267|0|0
 ./src/_00/output/C/antirez~redis/deps/jemalloc/test/unit/bit_util.c|antirez|redis|bit_util.c|C|266|5|36
 ./src/_00/output/C/antirez~redis/src/socket.c|antirez|redis|socket.c|C|266|110|76
+./src/_00/output/C/antirez~redis/tests/unit/hyperloglog.tcl|antirez|redis|hyperloglog.tcl|Tcl/Tk|266|10|35
 ./src/_00/output/C/antirez~redis/src/commands/georadiusbymember.json|antirez|redis|georadiusbymember.json|JSON|265|0|0
 ./src/_00/output/C/antirez~redis/deps/jemalloc/include/jemalloc/internal/jemalloc_internal_inlines_c.h|antirez|redis|jemalloc_internal_inlines_c.h|C/C++ Header|259|93|39
 ./src/_00/output/C/antirez~redis/deps/jemalloc/test/unit/ql.c|antirez|redis|ql.c|C|259|7|51
@@ -249,7 +252,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C/antirez~redis/src/cluster_legacy.h|antirez|redis|cluster_legacy.h|C/C++ Header|256|78|40
 ./src/_00/output/C/antirez~redis/deps/jemalloc/test/integration/smallocx.c|antirez|redis|smallocx.c|C|255|18|39
 ./src/_00/output/C/antirez~redis/src/adlist.c|antirez|redis|adlist.c|C|255|98|45
-./src/_00/output/C/antirez~redis/src/config.h|antirez|redis|config.h|C/C++ Header|254|38|42
 ./src/_00/output/C/antirez~redis/deps/lua/src/luaconf.h|antirez|redis|luaconf.h|C/C++ Header|252|355|156
 ./src/_00/output/C/antirez~redis/src/syscheck.c|antirez|redis|syscheck.c|C|252|59|42
 ./src/_00/output/C/antirez~redis/tests/unit/moduleapi/hooks.tcl|antirez|redis|hooks.tcl|Tcl/Tk|252|25|44
@@ -265,10 +267,8 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C/antirez~redis/deps/jemalloc/include/jemalloc/internal/hpdata.h|antirez|redis|hpdata.h|C/C++ Header|241|108|64
 ./src/_00/output/C/antirez~redis/deps/jemalloc/src/large.c|antirez|redis|large.c|C|239|36|47
 ./src/_00/output/C/antirez~redis/tests/integration/replication-4.tcl|antirez|redis|replication-4.tcl|Tcl/Tk|238|17|40
-./src/_00/output/C/antirez~redis/tests/modules/aclcheck.c|antirez|redis|aclcheck.c|C|236|20|60
 ./src/_00/output/C/antirez~redis/deps/jemalloc/include/jemalloc/internal/hash.h|antirez|redis|hash.h|C/C++ Header|234|20|66
 ./src/_00/output/C/antirez~redis/tests/support/test.tcl|antirez|redis|test.tcl|Tcl/Tk|232|12|32
-./src/_00/output/C/antirez~redis/tests/unit/hyperloglog.tcl|antirez|redis|hyperloglog.tcl|Tcl/Tk|232|10|29
 ./src/_00/output/C/antirez~redis/deps/jemalloc/test/unit/inspect.c|antirez|redis|inspect.c|C|231|21|26
 ./src/_00/output/C/antirez~redis/src/connection.h|antirez|redis|connection.h|C/C++ Header|231|124|77
 ./src/_00/output/C/antirez~redis/tests/unit/bitfield.tcl|antirez|redis|bitfield.tcl|Tcl/Tk|231|2|30
@@ -341,15 +341,16 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C/antirez~redis/tests/integration/psync2-pingoff.tcl|antirez|redis|psync2-pingoff.tcl|Tcl/Tk|191|32|27
 ./src/_00/output/C/antirez~redis/deps/jemalloc/src/eset.c|antirez|redis|eset.c|C|190|60|32
 ./src/_00/output/C/antirez~redis/src/lazyfree.c|antirez|redis|lazyfree.c|C|189|61|24
+./src/_00/output/C/antirez~redis/tests/modules/hash.c|antirez|redis|hash.c|C|189|18|37
 ./src/_00/output/C/antirez~redis/tests/unit/type/incr.tcl|antirez|redis|incr.tcl|Tcl/Tk|189|4|32
 ./src/_00/output/C/antirez~redis/tests/modules/commandfilter.c|antirez|redis|commandfilter.c|C|188|15|48
 ./src/_00/output/C/antirez~redis/deps/jemalloc/src/mutex.c|antirez|redis|mutex.c|C|186|17|25
 ./src/_00/output/C/antirez~redis/deps/jemalloc/test/unit/tsd.c|antirez|redis|tsd.c|C|185|50|39
 ./src/_00/output/C/antirez~redis/deps/hiredis/hiredis.h|antirez|redis|hiredis.h|C/C++ Header|184|124|54
+./src/_00/output/C/antirez~redis/src/dict.h|antirez|redis|dict.h|C/C++ Header|184|63|31
 ./src/_00/output/C/antirez~redis/src/geohash.c|antirez|redis|geohash.c|C|184|60|55
 ./src/_00/output/C/antirez~redis/tests/unit/moduleapi/postnotifications.tcl|antirez|redis|postnotifications.tcl|Tcl/Tk|183|6|30
 ./src/_00/output/C/antirez~redis/deps/lua/src/lua.h|antirez|redis|lua.h|C/C++ Header|182|102|107
-./src/_00/output/C/antirez~redis/src/dict.h|antirez|redis|dict.h|C/C++ Header|182|63|31
 ./src/_00/output/C/antirez~redis/src/commands/migrate.json|antirez|redis|migrate.json|JSON|181|0|0
 ./src/_00/output/C/antirez~redis/deps/jemalloc/test/src/test.c|antirez|redis|test.c|C|180|19|35
 ./src/_00/output/C/antirez~redis/deps/lua/src/luac.c|antirez|redis|luac.c|C|178|5|17
@@ -400,6 +401,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C/antirez~redis/deps/jemalloc/src/san.c|antirez|redis|san.c|C|156|23|29
 ./src/_00/output/C/antirez~redis/deps/jemalloc/test/unit/prng.c|antirez|redis|prng.c|C|155|0|34
 ./src/_00/output/C/antirez~redis/src/resp_parser.c|antirez|redis|resp_parser.c|C|155|35|18
+./src/_00/output/C/antirez~redis/tests/unit/moduleapi/aclcheck.tcl|antirez|redis|aclcheck.tcl|Tcl/Tk|155|19|33
 ./src/_00/output/C/antirez~redis/deps/hdr_histogram/hdr_histogram.h|antirez|redis|hdr_histogram.h|C/C++ Header|154|309|58
 ./src/_00/output/C/antirez~redis/deps/jemalloc/test/unit/log.c|antirez|redis|log.c|C|154|11|33
 ./src/_00/output/C/antirez~redis/deps/jemalloc/build-aux/install-sh|antirez|redis|install-sh|Bourne Shell|153|46|51
@@ -431,7 +433,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C/antirez~redis/tests/unit/moduleapi/stream.tcl|antirez|redis|stream.tcl|Tcl/Tk|139|22|15
 ./src/_00/output/C/antirez~redis/deps/hiredis/adapters/libsdevent.h|antirez|redis|libsdevent.h|C/C++ Header|138|4|35
 ./src/_00/output/C/antirez~redis/src/commands/xclaim.json|antirez|redis|xclaim.json|JSON|138|0|0
-./src/_00/output/C/antirez~redis/tests/modules/hash.c|antirez|redis|hash.c|C|138|14|25
 ./src/_00/output/C/antirez~redis/tests/unit/cluster/hostnames.tcl|antirez|redis|hostnames.tcl|Tcl/Tk|138|51|40
 ./src/_00/output/C/antirez~redis/deps/jemalloc/test/unit/prof_stats.c|antirez|redis|prof_stats.c|C|137|0|14
 ./src/_00/output/C/antirez~redis/deps/lua/src/ldump.c|antirez|redis|ldump.c|C|137|8|19
@@ -477,7 +478,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C/antirez~redis/tests/unit/moduleapi/commandfilter.tcl|antirez|redis|commandfilter.tcl|Tcl/Tk|122|20|33
 ./src/_00/output/C/antirez~redis/tests/unit/pubsubshard.tcl|antirez|redis|pubsubshard.tcl|Tcl/Tk|122|12|30
 ./src/_00/output/C/antirez~redis/src/commands/sentinel-config.json|antirez|redis|sentinel-config.json|JSON|121|0|0
-./src/_00/output/C/antirez~redis/tests/unit/moduleapi/aclcheck.tcl|antirez|redis|aclcheck.tcl|Tcl/Tk|121|12|25
 ./src/_00/output/C/antirez~redis/tests/cluster/tests/15-cluster-slots.tcl|antirez|redis|15-cluster-slots.tcl|Tcl/Tk|120|12|23
 ./src/_00/output/C/antirez~redis/deps/jemalloc/include/jemalloc/internal/atomic_gcc_atomic.h|antirez|redis|atomic_gcc_atomic.h|C/C++ Header|119|1|9
 ./src/_00/output/C/antirez~redis/deps/jemalloc/include/jemalloc/internal/tsd_win.h|antirez|redis|tsd_win.h|C/C++ Header|119|4|16
@@ -542,6 +542,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C/antirez~redis/tests/unit/moduleapi/blockonbackground.tcl|antirez|redis|blockonbackground.tcl|Tcl/Tk|105|3|16
 ./src/_00/output/C/antirez~redis/deps/lua/src/fpconv.c|antirez|redis|fpconv.c|C|104|68|33
 ./src/_00/output/C/antirez~redis/src/commands/lmove.json|antirez|redis|lmove.json|JSON|104|0|0
+./src/_00/output/C/antirez~redis/tests/unit/moduleapi/hash.tcl|antirez|redis|hash.tcl|Tcl/Tk|104|22|18
 ./src/_00/output/C/antirez~redis/tests/unit/moduleapi/keyspace_events.tcl|antirez|redis|keyspace_events.tcl|Tcl/Tk|104|0|14
 ./src/_00/output/C/antirez~redis/src/sparkline.c|antirez|redis|sparkline.c|C|103|39|19
 ./src/_00/output/C/antirez~redis/tests/unit/shutdown.tcl|antirez|redis|shutdown.tcl|Tcl/Tk|103|13|17
@@ -711,7 +712,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C/antirez~redis/modules/Makefile|antirez|redis|Makefile|make|74|1|15
 ./src/_00/output/C/antirez~redis/src/commands/slowlog-get.json|antirez|redis|slowlog-get.json|JSON|74|0|0
 ./src/_00/output/C/antirez~redis/src/syncio.c|antirez|redis|syncio.c|C|74|35|15
-./src/_00/output/C/antirez~redis/tests/unit/moduleapi/hash.tcl|antirez|redis|hash.tcl|Tcl/Tk|74|15|10
 ./src/_00/output/C/antirez~redis/deps/hiredis/read.h|antirez|redis|read.h|C/C++ Header|73|37|19
 ./src/_00/output/C/antirez~redis/src/commands/pfmerge.json|antirez|redis|pfmerge.json|JSON|73|0|0
 ./src/_00/output/C/antirez~redis/src/commands/sdiffstore.json|antirez|redis|sdiffstore.json|JSON|73|0|0
@@ -725,13 +725,14 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C/antirez~redis/deps/jemalloc/test/unit/smoothstep.c|antirez|redis|smoothstep.c|C|72|19|11
 ./src/_00/output/C/antirez~redis/src/commands/scan.json|antirez|redis|scan.json|JSON|72|0|0
 ./src/_00/output/C/antirez~redis/src/commands/xsetid.json|antirez|redis|xsetid.json|JSON|72|0|0
+./src/_00/output/C/antirez~redis/src/listpack.h|antirez|redis|listpack.h|C/C++ Header|72|16|8
 ./src/_00/output/C/antirez~redis/tests/sentinel/tests/02-slaves-reconf.tcl|antirez|redis|02-slaves-reconf.tcl|Tcl/Tk|72|8|11
 ./src/_00/output/C/antirez~redis/tests/sentinel/tests/05-manual.tcl|antirez|redis|05-manual.tcl|Tcl/Tk|72|8|14
 ./src/_00/output/C/antirez~redis/tests/unit/auth.tcl|antirez|redis|auth.tcl|Tcl/Tk|72|3|14
 ./src/_00/output/C/antirez~redis/deps/jemalloc/test/integration/thread_tcache_enabled.c|antirez|redis|thread_tcache_enabled.c|C|71|1|15
 ./src/_00/output/C/antirez~redis/deps/jemalloc/test/unit/mq.c|antirez|redis|mq.c|C|71|0|18
 ./src/_00/output/C/antirez~redis/src/commands/rename.json|antirez|redis|rename.json|JSON|71|0|1
-./src/_00/output/C/antirez~redis/src/listpack.h|antirez|redis|listpack.h|C/C++ Header|71|16|8
+./src/_00/output/C/antirez~redis/src/util.h|antirez|redis|util.h|C/C++ Header|71|18|12
 ./src/_00/output/C/antirez~redis/deps/hiredis/dict.h|antirez|redis|dict.h|C/C++ Header|70|38|17
 ./src/_00/output/C/antirez~redis/deps/lua/doc/lua.css|antirez|redis|lua.css|CSS|70|0|13
 ./src/_00/output/C/antirez~redis/src/commands/hset.json|antirez|redis|hset.json|JSON|70|0|0
@@ -744,7 +745,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C/antirez~redis/src/commands/eval.json|antirez|redis|eval.json|JSON|69|0|0
 ./src/_00/output/C/antirez~redis/src/commands/fcall.json|antirez|redis|fcall.json|JSON|69|0|0
 ./src/_00/output/C/antirez~redis/src/commands/shutdown.json|antirez|redis|shutdown.json|JSON|69|0|0
-./src/_00/output/C/antirez~redis/src/util.h|antirez|redis|util.h|C/C++ Header|69|18|12
 ./src/_00/output/C/antirez~redis/tests/cluster/tests/20-half-migrated-slot.tcl|antirez|redis|20-half-migrated-slot.tcl|Tcl/Tk|69|11|18
 ./src/_00/output/C/antirez~redis/tests/integration/dismiss-mem.tcl|antirez|redis|dismiss-mem.tcl|Tcl/Tk|69|18|14
 ./src/_00/output/C/antirez~redis/tests/support/response_transformers.tcl|antirez|redis|response_transformers.tcl|Tcl/Tk|69|28|12

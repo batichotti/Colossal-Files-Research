@@ -38,7 +38,7 @@ def formater(file_path:str, separator:str=','):
 
 
 # SETUP ================================================================================================================
-input_clone_path = './src/_00/input/600_Starred_Projects.csv'
+input_clone_path = './src/_00/input/450_Starred_Projects.csv'
 output_clone_path = './src/_00/output'
 
 input_file = pd.read_csv(input_clone_path)

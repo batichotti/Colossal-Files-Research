@@ -1,200 +1,218 @@
 path|owner|project|file|language|code|comment|blank
-./src/_00/output/C/Genymobile~scrcpy/app/src/cli.c|Genymobile|scrcpy|cli.c|C|2866|75|249
-./src/_00/output/C/Genymobile~scrcpy/app/src/server.c|Genymobile|scrcpy|server.c|C|941|76|151
-./src/_00/output/C/Genymobile~scrcpy/app/src/input_manager.c|Genymobile|scrcpy|input_manager.c|C|902|63|132
-./src/_00/output/C/Genymobile~scrcpy/app/src/scrcpy.c|Genymobile|scrcpy|scrcpy.c|C|845|52|133
-./src/_00/output/C/Genymobile~scrcpy/app/src/screen.c|Genymobile|scrcpy|screen.c|C|814|82|152
-./src/_00/output/C/Genymobile~scrcpy/app/src/recorder.c|Genymobile|scrcpy|recorder.c|C|640|50|154
-./src/_00/output/C/Genymobile~scrcpy/app/src/adb/adb.c|Genymobile|scrcpy|adb.c|C|589|46|106
-./src/_00/output/C/Genymobile~scrcpy/app/src/input_events.h|Genymobile|scrcpy|input_events.h|C/C++ Header|442|44|59
-./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/Options.java|Genymobile|scrcpy|Options.java|Java|438|3|63
-./src/_00/output/C/Genymobile~scrcpy/server/src/test/java/com/genymobile/scrcpy/control/ControlMessageReaderTest.java|Genymobile|scrcpy|ControlMessageReaderTest.java|Java|378|1|94
-./src/_00/output/C/Genymobile~scrcpy/app/tests/test_control_msg_serialize.c|Genymobile|scrcpy|test_control_msg_serialize.c|C|371|1|61
-./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/control/Controller.java|Genymobile|scrcpy|Controller.java|Java|369|41|58
+./src/_00/output/C/Genymobile~scrcpy/app/src/cli.c|Genymobile|scrcpy|cli.c|C|2943|74|244
+./src/_00/output/C/Genymobile~scrcpy/app/src/server.c|Genymobile|scrcpy|server.c|C|935|83|148
+./src/_00/output/C/Genymobile~scrcpy/app/src/input_manager.c|Genymobile|scrcpy|input_manager.c|C|878|73|130
+./src/_00/output/C/Genymobile~scrcpy/app/src/scrcpy.c|Genymobile|scrcpy|scrcpy.c|C|866|52|137
+./src/_00/output/C/Genymobile~scrcpy/app/src/screen.c|Genymobile|scrcpy|screen.c|C|728|72|147
+./src/_00/output/C/Genymobile~scrcpy/app/src/recorder.c|Genymobile|scrcpy|recorder.c|C|645|50|155
+./src/_00/output/C/Genymobile~scrcpy/app/src/adb/adb.c|Genymobile|scrcpy|adb.c|C|627|50|114
+./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/control/Controller.java|Genymobile|scrcpy|Controller.java|Java|563|72|96
+./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/Options.java|Genymobile|scrcpy|Options.java|Java|538|10|81
+./src/_00/output/C/Genymobile~scrcpy/app/src/input_events.h|Genymobile|scrcpy|input_events.h|C/C++ Header|428|44|57
+./src/_00/output/C/Genymobile~scrcpy/.github/workflows/release.yml|Genymobile|scrcpy|release.yml|YAML|405|12|85
+./src/_00/output/C/Genymobile~scrcpy/server/src/test/java/com/genymobile/scrcpy/control/ControlMessageReaderTest.java|Genymobile|scrcpy|ControlMessageReaderTest.java|Java|397|1|98
+./src/_00/output/C/Genymobile~scrcpy/app/tests/test_control_msg_serialize.c|Genymobile|scrcpy|test_control_msg_serialize.c|C|388|1|64
+./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/video/CameraCapture.java|Genymobile|scrcpy|CameraCapture.java|Java|349|12|65
 ./src/_00/output/C/Genymobile~scrcpy/app/src/usb/aoa_hid.c|Genymobile|scrcpy|aoa_hid.c|C|347|53|72
-./src/_00/output/C/Genymobile~scrcpy/doc/develop.md|Genymobile|scrcpy|develop.md|Markdown|344|0|144
-./src/_00/output/C/Genymobile~scrcpy/app/src/usb/screen_otg.c|Genymobile|scrcpy|screen_otg.c|C|329|15|53
+./src/_00/output/C/Genymobile~scrcpy/doc/develop.md|Genymobile|scrcpy|develop.md|Markdown|346|0|146
 ./src/_00/output/C/Genymobile~scrcpy/app/tests/test_vector.c|Genymobile|scrcpy|test_vector.c|C|325|5|91
-./src/_00/output/C/Genymobile~scrcpy/app/src/audio_player.c|Genymobile|scrcpy|audio_player.c|C|308|106|75
+./src/_00/output/C/Genymobile~scrcpy/app/src/control_msg.c|Genymobile|scrcpy|control_msg.c|C|312|16|21
 ./src/_00/output/C/Genymobile~scrcpy/app/src/usb/usb.c|Genymobile|scrcpy|usb.c|C|304|17|58
-./src/_00/output/C/Genymobile~scrcpy/app/src/control_msg.c|Genymobile|scrcpy|control_msg.c|C|301|16|23
-./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/device/Device.java|Genymobile|scrcpy|Device.java|Java|299|34|71
-./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/video/CameraCapture.java|Genymobile|scrcpy|CameraCapture.java|Java|294|9|55
+./src/_00/output/C/Genymobile~scrcpy/app/src/util/str.c|Genymobile|scrcpy|str.c|C|300|15|60
 ./src/_00/output/C/Genymobile~scrcpy/app/src/android/keycodes.h|Genymobile|scrcpy|keycodes.h|C/C++ Header|290|452|3
-./src/_00/output/C/Genymobile~scrcpy/app/src/keyboard_sdk.c|Genymobile|scrcpy|keyboard_sdk.c|C|289|21|35
-./src/_00/output/C/Genymobile~scrcpy/app/src/util/str.c|Genymobile|scrcpy|str.c|C|285|15|55
+./src/_00/output/C/Genymobile~scrcpy/app/src/keyboard_sdk.c|Genymobile|scrcpy|keyboard_sdk.c|C|290|21|34
+./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/audio/AudioEncoder.java|Genymobile|scrcpy|AudioEncoder.java|Java|289|13|47
+./src/_00/output/C/Genymobile~scrcpy/app/tests/test_str.c|Genymobile|scrcpy|test_str.c|C|286|30|96
 ./src/_00/output/C/Genymobile~scrcpy/app/src/v4l2_sink.c|Genymobile|scrcpy|v4l2_sink.c|C|284|13|67
-./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/audio/AudioEncoder.java|Genymobile|scrcpy|AudioEncoder.java|Java|281|13|47
-./src/_00/output/C/Genymobile~scrcpy/app/tests/test_str.c|Genymobile|scrcpy|test_str.c|C|279|29|93
+./src/_00/output/C/Genymobile~scrcpy/app/src/options.h|Genymobile|scrcpy|options.h|C/C++ Header|276|11|32
 ./src/_00/output/C/Genymobile~scrcpy/app/src/display.c|Genymobile|scrcpy|display.c|C|274|8|60
-./src/_00/output/C/Genymobile~scrcpy/app/src/hid/hid_gamepad.c|Genymobile|scrcpy|hid_gamepad.c|C|271|136|50
-./src/_00/output/C/Genymobile~scrcpy/app/src/options.h|Genymobile|scrcpy|options.h|C/C++ Header|271|12|32
+./src/_00/output/C/Genymobile~scrcpy/app/src/hid/hid_gamepad.c|Genymobile|scrcpy|hid_gamepad.c|C|266|136|50
+./src/_00/output/C/Genymobile~scrcpy/app/src/usb/screen_otg.c|Genymobile|scrcpy|screen_otg.c|C|262|7|46
+./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/video/SurfaceEncoder.java|Genymobile|scrcpy|SurfaceEncoder.java|Java|259|25|42
 ./src/_00/output/C/Genymobile~scrcpy/app/src/util/vector.h|Genymobile|scrcpy|vector.h|C/C++ Header|258|236|47
-./src/_00/output/C/Genymobile~scrcpy/app/src/util/net.c|Genymobile|scrcpy|net.c|C|257|2|44
+./src/_00/output/C/Genymobile~scrcpy/app/src/audio_regulator.c|Genymobile|scrcpy|audio_regulator.c|C|251|103|59
+./src/_00/output/C/Genymobile~scrcpy/app/src/util/net.c|Genymobile|scrcpy|net.c|C|251|2|44
 ./src/_00/output/C/Genymobile~scrcpy/app/src/demuxer.c|Genymobile|scrcpy|demuxer.c|C|242|27|50
-./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/Server.java|Genymobile|scrcpy|Server.java|Java|240|14|41
-./src/_00/output/C/Genymobile~scrcpy/app/src/icon.c|Genymobile|scrcpy|icon.c|C|239|13|43
-./src/_00/output/C/Genymobile~scrcpy/app/meson.build|Genymobile|scrcpy|meson.build|Meson|233|15|31
-./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/video/SurfaceEncoder.java|Genymobile|scrcpy|SurfaceEncoder.java|Java|232|22|43
+./src/_00/output/C/Genymobile~scrcpy/app/meson.build|Genymobile|scrcpy|meson.build|Meson|236|14|31
+./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/device/Device.java|Genymobile|scrcpy|Device.java|Java|236|19|60
 ./src/_00/output/C/Genymobile~scrcpy/server/src/test/java/com/genymobile/scrcpy/util/CommandParserTest.java|Genymobile|scrcpy|CommandParserTest.java|Java|228|8|7
-./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/wrappers/ClipboardManager.java|Genymobile|scrcpy|ClipboardManager.java|Java|226|14|29
+./src/_00/output/C/Genymobile~scrcpy/app/src/icon.c|Genymobile|scrcpy|icon.c|C|227|13|43
+./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/wrappers/ClipboardManager.java|Genymobile|scrcpy|ClipboardManager.java|Java|227|14|29
 ./src/_00/output/C/Genymobile~scrcpy/app/tests/test_adb_parser.c|Genymobile|scrcpy|test_adb_parser.c|C|225|0|55
 ./src/_00/output/C/Genymobile~scrcpy/app/src/sys/win/process.c|Genymobile|scrcpy|process.c|C|218|9|33
+./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/video/NewDisplayCapture.java|Genymobile|scrcpy|NewDisplayCapture.java|Java|216|10|35
+./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/wrappers/WindowManager.java|Genymobile|scrcpy|WindowManager.java|Java|210|16|23
+./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/Server.java|Genymobile|scrcpy|Server.java|Java|208|9|39
+./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/control/ControlMessage.java|Genymobile|scrcpy|ControlMessage.java|Java|208|3|41
+./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/opengl/OpenGLRunner.java|Genymobile|scrcpy|OpenGLRunner.java|Java|204|9|45
+./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/util/LogUtils.java|Genymobile|scrcpy|LogUtils.java|Java|204|9|31
 ./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/Workarounds.java|Genymobile|scrcpy|Workarounds.java|Java|203|57|46
 ./src/_00/output/C/Genymobile~scrcpy/app/src/sys/unix/process.c|Genymobile|scrcpy|process.c|C|201|9|24
-./src/_00/output/C/Genymobile~scrcpy/app/src/usb/scrcpy_otg.c|Genymobile|scrcpy|scrcpy_otg.c|C|188|6|42
+./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/wrappers/DisplayManager.java|Genymobile|scrcpy|DisplayManager.java|Java|195|12|26
+./src/_00/output/C/Genymobile~scrcpy/app/src/usb/scrcpy_otg.c|Genymobile|scrcpy|scrcpy_otg.c|C|194|6|42
+./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/CleanUp.java|Genymobile|scrcpy|CleanUp.java|Java|192|18|30
 ./src/_00/output/C/Genymobile~scrcpy/doc/build.md|Genymobile|scrcpy|build.md|Markdown|188|0|97
-./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/control/ControlMessage.java|Genymobile|scrcpy|ControlMessage.java|Java|186|6|37
+./src/_00/output/C/Genymobile~scrcpy/doc/video.md|Genymobile|scrcpy|video.md|Markdown|187|0|94
 ./src/_00/output/C/Genymobile~scrcpy/app/src/delay_buffer.c|Genymobile|scrcpy|delay_buffer.c|C|183|4|56
 ./src/_00/output/C/Genymobile~scrcpy/app/src/util/thread.c|Genymobile|scrcpy|thread.c|C|183|7|28
 ./src/_00/output/C/Genymobile~scrcpy/app/src/receiver.c|Genymobile|scrcpy|receiver.c|C|182|13|42
+./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/video/ScreenCapture.java|Genymobile|scrcpy|ScreenCapture.java|Java|180|7|32
 ./src/_00/output/C/Genymobile~scrcpy/app/src/android/input.h|Genymobile|scrcpy|input.h|C/C++ Header|177|582|67
-./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/wrappers/WindowManager.java|Genymobile|scrcpy|WindowManager.java|Java|177|16|19
 ./src/_00/output/C/Genymobile~scrcpy/app/src/controller.c|Genymobile|scrcpy|controller.c|C|173|6|39
-./src/_00/output/C/Genymobile~scrcpy/app/src/hid/hid_keyboard.c|Genymobile|scrcpy|hid_keyboard.c|C|164|144|37
-./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/control/UhidManager.java|Genymobile|scrcpy|UhidManager.java|Java|161|50|28
-./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/wrappers/SurfaceControl.java|Genymobile|scrcpy|SurfaceControl.java|Java|157|6|27
+./src/_00/output/C/Genymobile~scrcpy/app/src/hid/hid_keyboard.c|Genymobile|scrcpy|hid_keyboard.c|C|163|144|37
+./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/control/UhidManager.java|Genymobile|scrcpy|UhidManager.java|Java|162|50|28
+./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/wrappers/SurfaceControl.java|Genymobile|scrcpy|SurfaceControl.java|Java|158|6|27
+./src/_00/output/C/Genymobile~scrcpy/README.md|Genymobile|scrcpy|README.md|Markdown|157|0|68
 ./src/_00/output/C/Genymobile~scrcpy/app/src/adb/adb_parser.c|Genymobile|scrcpy|adb_parser.c|C|156|33|39
-./src/_00/output/C/Genymobile~scrcpy/doc/video.md|Genymobile|scrcpy|video.md|Markdown|156|0|82
 ./src/_00/output/C/Genymobile~scrcpy/app/src/file_pusher.c|Genymobile|scrcpy|file_pusher.c|C|153|3|33
 ./src/_00/output/C/Genymobile~scrcpy/app/src/util/vecdeque.h|Genymobile|scrcpy|vecdeque.h|C/C++ Header|152|189|38
+./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/control/ControlMessageReader.java|Genymobile|scrcpy|ControlMessageReader.java|Java|150|0|25
+./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/util/AffineMatrix.java|Genymobile|scrcpy|AffineMatrix.java|Java|148|187|33
 ./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/device/DesktopConnection.java|Genymobile|scrcpy|DesktopConnection.java|Java|147|5|26
 ./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/control/KeyComposition.java|Genymobile|scrcpy|KeyComposition.java|Java|146|11|17
 ./src/_00/output/C/Genymobile~scrcpy/app/src/fps_counter.c|Genymobile|scrcpy|fps_counter.c|C|144|10|31
-./src/_00/output/C/Genymobile~scrcpy/README.md|Genymobile|scrcpy|README.md|Markdown|143|0|63
 ./src/_00/output/C/Genymobile~scrcpy/FAQ.md|Genymobile|scrcpy|FAQ.md|Markdown|141|0|94
-./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/control/ControlMessageReader.java|Genymobile|scrcpy|ControlMessageReader.java|Java|141|0|24
+./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/wrappers/ActivityManager.java|Genymobile|scrcpy|ActivityManager.java|Java|141|7|17
 ./src/_00/output/C/Genymobile~scrcpy/app/src/mouse_sdk.c|Genymobile|scrcpy|mouse_sdk.c|C|139|2|23
-./src/_00/output/C/Genymobile~scrcpy/app/tests/test_cli.c|Genymobile|scrcpy|test_cli.c|C|137|2|25
-./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/wrappers/ContentProvider.java|Genymobile|scrcpy|ContentProvider.java|Java|137|3|21
+./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/wrappers/ContentProvider.java|Genymobile|scrcpy|ContentProvider.java|Java|138|3|21
 ./src/_00/output/C/Genymobile~scrcpy/app/tests/test_vecdeque.c|Genymobile|scrcpy|test_vecdeque.c|C|136|7|54
-./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/util/LogUtils.java|Genymobile|scrcpy|LogUtils.java|Java|136|3|18
-./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/wrappers/ActivityManager.java|Genymobile|scrcpy|ActivityManager.java|Java|136|7|16
+./src/_00/output/C/Genymobile~scrcpy/app/tests/test_cli.c|Genymobile|scrcpy|test_cli.c|C|135|2|25
 ./src/_00/output/C/Genymobile~scrcpy/app/src/util/log.c|Genymobile|scrcpy|log.c|C|134|3|17
+./src/_00/output/C/Genymobile~scrcpy/app/src/options.c|Genymobile|scrcpy|options.c|C|129|15|5
 ./src/_00/output/C/Genymobile~scrcpy/app/src/adb/adb_tunnel.c|Genymobile|scrcpy|adb_tunnel.c|C|127|18|27
 ./src/_00/output/C/Genymobile~scrcpy/gradlew|Genymobile|scrcpy|gradlew|Bourne Shell|126|36|21
+./src/_00/output/C/Genymobile~scrcpy/app/deps/ffmpeg.sh|Genymobile|scrcpy|ffmpeg.sh|Bourne Shell|125|3|16
+./src/_00/output/C/Genymobile~scrcpy/doc/device.md|Genymobile|scrcpy|device.md|Markdown|125|0|59
 ./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/device/Streamer.java|Genymobile|scrcpy|Streamer.java|Java|125|34|31
 ./src/_00/output/C/Genymobile~scrcpy/app/src/main.c|Genymobile|scrcpy|main.c|C|124|3|28
 ./src/_00/output/C/Genymobile~scrcpy/doc/audio.md|Genymobile|scrcpy|audio.md|Markdown|123|0|62
-./src/_00/output/C/Genymobile~scrcpy/app/src/options.c|Genymobile|scrcpy|options.c|C|122|15|5
-./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/audio/AudioDirectCapture.java|Genymobile|scrcpy|AudioDirectCapture.java|Java|121|13|19
+./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/audio/AudioDirectCapture.java|Genymobile|scrcpy|AudioDirectCapture.java|Java|122|13|19
 ./src/_00/output/C/Genymobile~scrcpy/app/tests/test_binary.c|Genymobile|scrcpy|test_binary.c|C|120|0|36
-./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/CleanUp.java|Genymobile|scrcpy|CleanUp.java|Java|119|9|24
 ./src/_00/output/C/Genymobile~scrcpy/doc/camera.md|Genymobile|scrcpy|camera.md|Markdown|113|0|58
-./src/_00/output/C/Genymobile~scrcpy/app/src/control_msg.h|Genymobile|scrcpy|control_msg.h|C/C++ Header|108|8|16
-./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/wrappers/DisplayManager.java|Genymobile|scrcpy|DisplayManager.java|Java|108|4|15
-./src/_00/output/C/Genymobile~scrcpy/app/src/uhid/keyboard_uhid.c|Genymobile|scrcpy|keyboard_uhid.c|C|107|17|29
-./src/_00/output/C/Genymobile~scrcpy/app/src/screen.h|Genymobile|scrcpy|screen.h|C/C++ Header|106|31|37
+./src/_00/output/C/Genymobile~scrcpy/app/src/control_msg.h|Genymobile|scrcpy|control_msg.h|C/C++ Header|111|7|15
+./src/_00/output/C/Genymobile~scrcpy/app/src/uhid/gamepad_uhid.c|Genymobile|scrcpy|gamepad_uhid.c|C|110|2|29
+./src/_00/output/C/Genymobile~scrcpy/app/src/uhid/keyboard_uhid.c|Genymobile|scrcpy|keyboard_uhid.c|C|109|17|29
+./src/_00/output/C/Genymobile~scrcpy/app/src/screen.h|Genymobile|scrcpy|screen.h|C/C++ Header|107|29|36
+./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/opengl/AffineOpenGLFilter.java|Genymobile|scrcpy|AffineOpenGLFilter.java|Java|105|3|27
+./src/_00/output/C/Genymobile~scrcpy/app/src/server.h|Genymobile|scrcpy|server.h|C/C++ Header|104|18|20
 ./src/_00/output/C/Genymobile~scrcpy/doc/mouse.md|Genymobile|scrcpy|mouse.md|Markdown|104|0|42
-./src/_00/output/C/Genymobile~scrcpy/release.mk|Genymobile|scrcpy|release.mk|make|104|9|18
-./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/video/ScreenInfo.java|Genymobile|scrcpy|ScreenInfo.java|Java|104|46|21
-./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/video/ScreenCapture.java|Genymobile|scrcpy|ScreenCapture.java|Java|101|3|17
-./src/_00/output/C/Genymobile~scrcpy/app/src/server.h|Genymobile|scrcpy|server.h|C/C++ Header|98|18|20
-./src/_00/output/C/Genymobile~scrcpy/app/src/uhid/gamepad_uhid.c|Genymobile|scrcpy|gamepad_uhid.c|C|97|1|25
-./src/_00/output/C/Genymobile~scrcpy/app/src/hid/hid_mouse.c|Genymobile|scrcpy|hid_mouse.c|C|95|83|22
+./src/_00/output/C/Genymobile~scrcpy/app/src/mouse_capture.c|Genymobile|scrcpy|mouse_capture.c|C|101|12|10
+./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/video/DisplaySizeMonitor.java|Genymobile|scrcpy|DisplaySizeMonitor.java|Java|101|16|22
+./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/opengl/GLUtils.java|Genymobile|scrcpy|GLUtils.java|Java|98|4|22
+./src/_00/output/C/Genymobile~scrcpy/doc/connection.md|Genymobile|scrcpy|connection.md|Markdown|96|0|35
+./src/_00/output/C/Genymobile~scrcpy/app/src/hid/hid_mouse.c|Genymobile|scrcpy|hid_mouse.c|C|94|83|22
 ./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/util/CodecOption.java|Genymobile|scrcpy|CodecOption.java|Java|94|2|16
 ./src/_00/output/C/Genymobile~scrcpy/config/checkstyle/checkstyle.xml|Genymobile|scrcpy|checkstyle.xml|XML|93|38|27
 ./src/_00/output/C/Genymobile~scrcpy/doc/tunnels.md|Genymobile|scrcpy|tunnels.md|Markdown|93|0|30
 ./src/_00/output/C/Genymobile~scrcpy/app/src/compat.c|Genymobile|scrcpy|compat.c|C|92|2|16
-./src/_00/output/C/Genymobile~scrcpy/doc/connection.md|Genymobile|scrcpy|connection.md|Markdown|92|0|33
+./src/_00/output/C/Genymobile~scrcpy/doc/control.md|Genymobile|scrcpy|control.md|Markdown|92|0|48
+./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/audio/AudioPlaybackCapture.java|Genymobile|scrcpy|AudioPlaybackCapture.java|Java|92|16|30
 ./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/wrappers/ServiceManager.java|Genymobile|scrcpy|ServiceManager.java|Java|92|2|17
-./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/audio/AudioPlaybackCapture.java|Genymobile|scrcpy|AudioPlaybackCapture.java|Java|91|16|30
 ./src/_00/output/C/Genymobile~scrcpy/app/tests/test_audiobuf.c|Genymobile|scrcpy|test_audiobuf.c|C|90|0|38
+./src/_00/output/C/Genymobile~scrcpy/app/src/audio_player.c|Genymobile|scrcpy|audio_player.c|C|89|3|26
 ./src/_00/output/C/Genymobile~scrcpy/doc/keyboard.md|Genymobile|scrcpy|keyboard.md|Markdown|89|0|47
 ./src/_00/output/C/Genymobile~scrcpy/app/src/util/audiobuf.c|Genymobile|scrcpy|audiobuf.c|C|87|8|23
+./src/_00/output/C/Genymobile~scrcpy/server/build_without_gradle.sh|Genymobile|scrcpy|build_without_gradle.sh|Bourne Shell|86|12|19
 ./src/_00/output/C/Genymobile~scrcpy/app/src/decoder.c|Genymobile|scrcpy|decoder.c|C|85|4|20
-./src/_00/output/C/Genymobile~scrcpy/doc/control.md|Genymobile|scrcpy|control.md|Markdown|85|0|45
 ./src/_00/output/C/Genymobile~scrcpy/server/src/test/java/com/genymobile/scrcpy/util/CodecOptionsTest.java|Genymobile|scrcpy|CodecOptionsTest.java|Java|85|0|29
 ./src/_00/output/C/Genymobile~scrcpy/app/src/util/process.c|Genymobile|scrcpy|process.c|C|84|1|17
+./src/_00/output/C/Genymobile~scrcpy/app/src/sys/unix/file.c|Genymobile|scrcpy|file.c|C|83|2|10
 ./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/wrappers/InputManager.java|Genymobile|scrcpy|InputManager.java|Java|83|1|16
 ./src/_00/output/C/Genymobile~scrcpy/app/src/device_msg.c|Genymobile|scrcpy|device_msg.c|C|82|3|8
+./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/device/Size.java|Genymobile|scrcpy|Size.java|Java|82|7|23
 ./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/util/Ln.java|Genymobile|scrcpy|Ln.java|Java|82|15|21
-./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/audio/AudioRawRecorder.java|Genymobile|scrcpy|AudioRawRecorder.java|Java|80|3|15
-./src/_00/output/C/Genymobile~scrcpy/app/deps/ffmpeg.sh|Genymobile|scrcpy|ffmpeg.sh|Bourne Shell|79|2|9
+./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/video/VideoFilter.java|Genymobile|scrcpy|VideoFilter.java|Java|82|16|21
+./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/audio/AudioRawRecorder.java|Genymobile|scrcpy|AudioRawRecorder.java|Java|81|3|15
 ./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/wrappers/StatusBarManager.java|Genymobile|scrcpy|StatusBarManager.java|Java|79|5|13
 ./src/_00/output/C/Genymobile~scrcpy/app/tests/test_orientation.c|Genymobile|scrcpy|test_orientation.c|C|78|0|13
-./src/_00/output/C/Genymobile~scrcpy/server/build_without_gradle.sh|Genymobile|scrcpy|build_without_gradle.sh|Bourne Shell|77|11|18
 ./src/_00/output/C/Genymobile~scrcpy/app/src/util/binary.h|Genymobile|scrcpy|binary.h|C/C++ Header|76|6|14
 ./src/_00/output/C/Genymobile~scrcpy/gradlew.bat|Genymobile|scrcpy|gradlew.bat|DOS Batch|76|2|25
 ./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/control/PointersState.java|Genymobile|scrcpy|PointersState.java|Java|75|15|15
 ./src/_00/output/C/Genymobile~scrcpy/app/src/util/strbuf.c|Genymobile|scrcpy|strbuf.c|C|74|1|15
 ./src/_00/output/C/Genymobile~scrcpy/app/tests/test_device_msg_deserialize.c|Genymobile|scrcpy|test_device_msg_deserialize.c|C|74|0|21
+./src/_00/output/C/Genymobile~scrcpy/app/src/uhid/mouse_uhid.c|Genymobile|scrcpy|mouse_uhid.c|C|72|2|21
+./src/_00/output/C/Genymobile~scrcpy/app/src/usb/gamepad_aoa.c|Genymobile|scrcpy|gamepad_aoa.c|C|72|3|19
+./src/_00/output/C/Genymobile~scrcpy/app/src/adb/adb.h|Genymobile|scrcpy|adb.h|C/C++ Header|71|31|27
 ./src/_00/output/C/Genymobile~scrcpy/app/src/util/process.h|Genymobile|scrcpy|process.h|C/C++ Header|71|80|26
-./src/_00/output/C/Genymobile~scrcpy/app/src/uhid/mouse_uhid.c|Genymobile|scrcpy|mouse_uhid.c|C|70|2|21
-./src/_00/output/C/Genymobile~scrcpy/app/src/usb/gamepad_aoa.c|Genymobile|scrcpy|gamepad_aoa.c|C|70|3|18
 ./src/_00/output/C/Genymobile~scrcpy/app/src/util/net_intr.c|Genymobile|scrcpy|net_intr.c|C|69|7|21
+./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/FakeContext.java|Genymobile|scrcpy|FakeContext.java|Java|69|7|18
+./src/_00/output/C/Genymobile~scrcpy/app/src/usb/aoa_hid.h|Genymobile|scrcpy|aoa_hid.h|C/C++ Header|68|8|20
 ./src/_00/output/C/Genymobile~scrcpy/app/src/util/thread.h|Genymobile|scrcpy|thread.h|C/C++ Header|68|2|26
-./src/_00/output/C/Genymobile~scrcpy/app/src/sys/unix/file.c|Genymobile|scrcpy|file.c|C|67|4|10
-./src/_00/output/C/Genymobile~scrcpy/app/src/usb/aoa_hid.h|Genymobile|scrcpy|aoa_hid.h|C/C++ Header|67|8|19
-./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/util/CodecUtils.java|Genymobile|scrcpy|CodecUtils.java|Java|67|1|13
-./src/_00/output/C/Genymobile~scrcpy/app/src/adb/adb.h|Genymobile|scrcpy|adb.h|C/C++ Header|65|28|24
+./src/_00/output/C/Genymobile~scrcpy/doc/windows.md|Genymobile|scrcpy|windows.md|Markdown|68|0|32
+./src/_00/output/C/Genymobile~scrcpy/app/deps/sdl.sh|Genymobile|scrcpy|sdl.sh|Bourne Shell|65|2|12
 ./src/_00/output/C/Genymobile~scrcpy/app/src/frame_buffer.c|Genymobile|scrcpy|frame_buffer.c|C|65|7|18
+./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/util/Settings.java|Genymobile|scrcpy|Settings.java|Java|65|4|14
+./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/wrappers/DisplayControl.java|Genymobile|scrcpy|DisplayControl.java|Java|65|2|15
 ./src/_00/output/C/Genymobile~scrcpy/app/src/usb/keyboard_aoa.c|Genymobile|scrcpy|keyboard_aoa.c|C|64|17|22
 ./src/_00/output/C/Genymobile~scrcpy/doc/recording.md|Genymobile|scrcpy|recording.md|Markdown|64|0|30
-./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/util/Settings.java|Genymobile|scrcpy|Settings.java|Java|64|4|14
+./src/_00/output/C/Genymobile~scrcpy/doc/shortcuts.md|Genymobile|scrcpy|shortcuts.md|Markdown|64|0|12
+./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/util/IO.java|Genymobile|scrcpy|IO.java|Java|64|5|10
 ./src/_00/output/C/Genymobile~scrcpy/app/src/util/intr.c|Genymobile|scrcpy|intr.c|C|63|1|19
-./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/wrappers/DisplayControl.java|Genymobile|scrcpy|DisplayControl.java|Java|63|2|14
-./src/_00/output/C/Genymobile~scrcpy/doc/shortcuts.md|Genymobile|scrcpy|shortcuts.md|Markdown|62|0|12
-./src/_00/output/C/Genymobile~scrcpy/doc/windows.md|Genymobile|scrcpy|windows.md|Markdown|62|0|28
+./src/_00/output/C/Genymobile~scrcpy/doc/linux.md|Genymobile|scrcpy|linux.md|Markdown|63|0|33
+./src/_00/output/C/Genymobile~scrcpy/app/deps/common|Genymobile|scrcpy|common|Bourne Again Shell|62|4|11
 ./src/_00/output/C/Genymobile~scrcpy/app/src/trait/packet_source.c|Genymobile|scrcpy|packet_source.c|C|61|0|9
+./src/_00/output/C/Genymobile~scrcpy/app/src/util/timeout.c|Genymobile|scrcpy|timeout.c|C|61|0|17
 ./src/_00/output/C/Genymobile~scrcpy/app/src/usb/mouse_aoa.c|Genymobile|scrcpy|mouse_aoa.c|C|60|3|20
-./src/_00/output/C/Genymobile~scrcpy/app/src/util/timeout.c|Genymobile|scrcpy|timeout.c|C|60|0|17
 ./src/_00/output/C/Genymobile~scrcpy/app/src/compat.h|Genymobile|scrcpy|compat.h|C/C++ Header|59|25|18
+./src/_00/output/C/Genymobile~scrcpy/app/src/util/net.h|Genymobile|scrcpy|net.h|C/C++ Header|58|16|21
 ./src/_00/output/C/Genymobile~scrcpy/app/src/version.c|Genymobile|scrcpy|version.c|C|58|1|8
 ./src/_00/output/C/Genymobile~scrcpy/app/src/util/acksync.c|Genymobile|scrcpy|acksync.c|C|57|4|15
 ./src/_00/output/C/Genymobile~scrcpy/server/src/test/java/com/genymobile/scrcpy/control/DeviceMessageWriterTest.java|Genymobile|scrcpy|DeviceMessageWriterTest.java|Java|57|0|18
+./src/_00/output/C/Genymobile~scrcpy/app/deps/dav1d.sh|Genymobile|scrcpy|dav1d.sh|Bourne Shell|56|1|11
 ./src/_00/output/C/Genymobile~scrcpy/app/src/recorder.h|Genymobile|scrcpy|recorder.h|C/C++ Header|56|10|21
+./src/_00/output/C/Genymobile~scrcpy/app/deps/libusb.sh|Genymobile|scrcpy|libusb.sh|Bourne Shell|55|0|11
 ./src/_00/output/C/Genymobile~scrcpy/app/src/usb/usb.h|Genymobile|scrcpy|usb.h|C/C++ Header|55|11|22
-./src/_00/output/C/Genymobile~scrcpy/doc/linux.md|Genymobile|scrcpy|linux.md|Markdown|55|0|24
-./src/_00/output/C/Genymobile~scrcpy/doc/device.md|Genymobile|scrcpy|device.md|Markdown|52|0|28
 ./src/_00/output/C/Genymobile~scrcpy/app/src/input_manager.h|Genymobile|scrcpy|input_manager.h|C/C++ Header|51|3|17
 ./src/_00/output/C/Genymobile~scrcpy/app/src/trait/frame_source.c|Genymobile|scrcpy|frame_source.c|C|51|0|8
 ./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/device/Position.java|Genymobile|scrcpy|Position.java|Java|50|0|11
 ./src/_00/output/C/Genymobile~scrcpy/app/src/events.c|Genymobile|scrcpy|events.c|C|48|8|10
-./src/_00/output/C/Genymobile~scrcpy/app/src/util/net.h|Genymobile|scrcpy|net.h|C/C++ Header|48|9|23
 ./src/_00/output/C/Genymobile~scrcpy/doc/v4l2.md|Genymobile|scrcpy|v4l2.md|Markdown|48|0|24
 ./src/_00/output/C/Genymobile~scrcpy/app/src/display.h|Genymobile|scrcpy|display.h|C/C++ Header|47|0|16
+./src/_00/output/C/Genymobile~scrcpy/app/src/shortcut_mod.h|Genymobile|scrcpy|shortcut_mod.h|C/C++ Header|47|4|9
 ./src/_00/output/C/Genymobile~scrcpy/doc/otg.md|Genymobile|scrcpy|otg.md|Markdown|47|0|20
 ./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/audio/AudioRecordReader.java|Genymobile|scrcpy|AudioRecordReader.java|Java|47|6|14
 ./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/control/DeviceMessage.java|Genymobile|scrcpy|DeviceMessage.java|Java|47|0|12
 ./src/_00/output/C/Genymobile~scrcpy/app/src/controller.h|Genymobile|scrcpy|controller.h|C/C++ Header|46|0|15
 ./src/_00/output/C/Genymobile~scrcpy/app/src/util/audiobuf.h|Genymobile|scrcpy|audiobuf.h|C/C++ Header|45|7|13
+./src/_00/output/C/Genymobile~scrcpy/release/build_windows.sh|Genymobile|scrcpy|build_windows.sh|Bourne Shell|45|1|7
 ./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/control/DeviceMessageSender.java|Genymobile|scrcpy|DeviceMessageSender.java|Java|45|1|11
-./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/util/IO.java|Genymobile|scrcpy|IO.java|Java|45|5|8
-./src/_00/output/C/Genymobile~scrcpy/app/deps/common|Genymobile|scrcpy|common|Bourne Again Shell|44|2|9
-./src/_00/output/C/Genymobile~scrcpy/app/src/audio_player.h|Genymobile|scrcpy|audio_player.h|C/C++ Header|43|21|20
+./src/_00/output/C/Genymobile~scrcpy/doc/macos.md|Genymobile|scrcpy|macos.md|Markdown|43|0|27
 ./src/_00/output/C/Genymobile~scrcpy/app/src/file_pusher.h|Genymobile|scrcpy|file_pusher.h|C/C++ Header|42|1|15
 ./src/_00/output/C/Genymobile~scrcpy/app/src/opengl.c|Genymobile|scrcpy|opengl.c|C|42|4|10
-./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/device/Size.java|Genymobile|scrcpy|Size.java|Java|42|0|11
 ./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/video/VideoCodec.java|Genymobile|scrcpy|VideoCodec.java|Java|42|0|10
 ./src/_00/output/C/Genymobile~scrcpy/app/src/hid/hid_gamepad.h|Genymobile|scrcpy|hid_gamepad.h|C/C++ Header|41|0|12
+./src/_00/output/C/Genymobile~scrcpy/app/src/util/str.h|Genymobile|scrcpy|str.h|C/C++ Header|41|96|19
 ./src/_00/output/C/Genymobile~scrcpy/app/src/util/term.c|Genymobile|scrcpy|term.c|C|41|0|10
+./src/_00/output/C/Genymobile~scrcpy/doc/virtual_display.md|Genymobile|scrcpy|virtual_display.md|Markdown|41|0|22
 ./src/_00/output/C/Genymobile~scrcpy/doc/window.md|Genymobile|scrcpy|window.md|Markdown|41|0|23
-./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/FakeContext.java|Genymobile|scrcpy|FakeContext.java|Java|41|1|11
 ./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/audio/AudioCodec.java|Genymobile|scrcpy|AudioCodec.java|Java|41|0|10
+./src/_00/output/C/Genymobile~scrcpy/release/package_client.sh|Genymobile|scrcpy|package_client.sh|Bourne Shell|40|2|10
 ./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/control/DeviceMessageWriter.java|Genymobile|scrcpy|DeviceMessageWriter.java|Java|40|0|7
 ./src/_00/output/C/Genymobile~scrcpy/app/src/delay_buffer.h|Genymobile|scrcpy|delay_buffer.h|C/C++ Header|39|9|14
-./src/_00/output/C/Genymobile~scrcpy/app/src/util/str.h|Genymobile|scrcpy|str.h|C/C++ Header|39|90|18
+./src/_00/output/C/Genymobile~scrcpy/app/src/usb/screen_otg.h|Genymobile|scrcpy|screen_otg.h|C/C++ Header|39|0|12
+./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/wrappers/PowerManager.java|Genymobile|scrcpy|PowerManager.java|Java|39|0|9
+./src/_00/output/C/Genymobile~scrcpy/app/src/audio_regulator.h|Genymobile|scrcpy|audio_regulator.h|C/C++ Header|38|14|19
 ./src/_00/output/C/Genymobile~scrcpy/app/src/util/tick.c|Genymobile|scrcpy|tick.c|C|38|8|9
-./src/_00/output/C/Genymobile~scrcpy/app/deps/libusb.sh|Genymobile|scrcpy|libusb.sh|Bourne Shell|37|0|8
-./src/_00/output/C/Genymobile~scrcpy/app/deps/sdl.sh|Genymobile|scrcpy|sdl.sh|Bourne Shell|37|2|8
 ./src/_00/output/C/Genymobile~scrcpy/app/src/fps_counter.h|Genymobile|scrcpy|fps_counter.h|C/C++ Header|37|5|17
-./src/_00/output/C/Genymobile~scrcpy/app/src/usb/screen_otg.h|Genymobile|scrcpy|screen_otg.h|C/C++ Header|37|1|12
 ./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/control/Pointer.java|Genymobile|scrcpy|Pointer.java|Java|37|6|14
+./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/control/PositionMapper.java|Genymobile|scrcpy|PositionMapper.java|Java|37|2|9
 ./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/util/Command.java|Genymobile|scrcpy|Command.java|Java|37|1|5
 ./src/_00/output/C/Genymobile~scrcpy/app/src/demuxer.h|Genymobile|scrcpy|demuxer.h|C/C++ Header|36|1|13
 ./src/_00/output/C/Genymobile~scrcpy/app/src/packet_merger.c|Genymobile|scrcpy|packet_merger.c|C|36|1|11
 ./src/_00/output/C/Genymobile~scrcpy/doc/gamepad.md|Genymobile|scrcpy|gamepad.md|Markdown|36|0|22
+./src/_00/output/C/Genymobile~scrcpy/release/build_linux.sh|Genymobile|scrcpy|build_linux.sh|Bourne Shell|36|1|6
+./src/_00/output/C/Genymobile~scrcpy/release/build_macos.sh|Genymobile|scrcpy|build_macos.sh|Bourne Shell|36|1|6
+./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/device/DisplayInfo.java|Genymobile|scrcpy|DisplayInfo.java|Java|36|0|10
+./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/device/Orientation.java|Genymobile|scrcpy|Orientation.java|Java|36|1|10
 ./src/_00/output/C/Genymobile~scrcpy/server/src/test/java/com/genymobile/scrcpy/util/BinaryTest.java|Genymobile|scrcpy|BinaryTest.java|Java|36|0|6
 ./src/_00/output/C/Genymobile~scrcpy/app/src/device_msg.h|Genymobile|scrcpy|device_msg.h|C/C++ Header|35|2|8
 ./src/_00/output/C/Genymobile~scrcpy/app/src/sys/win/file.c|Genymobile|scrcpy|file.c|C|35|0|8
 ./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/device/Point.java|Genymobile|scrcpy|Point.java|Java|35|0|8
 ./src/_00/output/C/Genymobile~scrcpy/app/src/util/file.c|Genymobile|scrcpy|file.c|C|34|4|10
 ./src/_00/output/C/Genymobile~scrcpy/app/tests/test_strbuf.c|Genymobile|scrcpy|test_strbuf.c|C|34|0|14
-./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/wrappers/PowerManager.java|Genymobile|scrcpy|PowerManager.java|Java|34|0|8
 ./src/_00/output/C/Genymobile~scrcpy/app/src/adb/adb_device.c|Genymobile|scrcpy|adb_device.c|C|33|3|7
-./src/_00/output/C/Genymobile~scrcpy/doc/macos.md|Genymobile|scrcpy|macos.md|Markdown|31|0|18
-./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/device/DisplayInfo.java|Genymobile|scrcpy|DisplayInfo.java|Java|31|0|9
+./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/util/CodecUtils.java|Genymobile|scrcpy|CodecUtils.java|Java|31|1|6
+./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/video/SurfaceCapture.java|Genymobile|scrcpy|SurfaceCapture.java|Java|31|48|17
 ./src/_00/output/C/Genymobile~scrcpy/app/src/receiver.h|Genymobile|scrcpy|receiver.h|C/C++ Header|30|3|13
 ./src/_00/output/C/Genymobile~scrcpy/app/src/util/timeout.h|Genymobile|scrcpy|timeout.h|C/C++ Header|30|0|13
 ./src/_00/output/C/Genymobile~scrcpy/app/src/events.h|Genymobile|scrcpy|events.h|C/C++ Header|29|0|9
@@ -202,7 +220,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C/Genymobile~scrcpy/app/src/v4l2_sink.h|Genymobile|scrcpy|v4l2_sink.h|C/C++ Header|29|0|11
 ./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/video/CameraAspectRatio.java|Genymobile|scrcpy|CameraAspectRatio.java|Java|29|0|8
 ./src/_00/output/C/Genymobile~scrcpy/server/src/test/java/com/genymobile/scrcpy/util/StringUtilsTest.java|Genymobile|scrcpy|StringUtilsTest.java|Java|29|0|13
-./src/_00/output/C/Genymobile~scrcpy/app/deps/adb.sh|Genymobile|scrcpy|adb.sh|Bourne Shell|28|0|4
+./src/_00/output/C/Genymobile~scrcpy/app/deps/adb_windows.sh|Genymobile|scrcpy|adb_windows.sh|Bourne Shell|28|0|4
 ./src/_00/output/C/Genymobile~scrcpy/app/src/clock.c|Genymobile|scrcpy|clock.c|C|28|1|9
 ./src/_00/output/C/Genymobile~scrcpy/app/src/util/log.h|Genymobile|scrcpy|log.h|C/C++ Header|28|1|12
 ./src/_00/output/C/Genymobile~scrcpy/app/src/util/strbuf.h|Genymobile|scrcpy|strbuf.h|C/C++ Header|28|34|11
@@ -211,32 +229,41 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C/Genymobile~scrcpy/server/build.gradle|Genymobile|scrcpy|build.gradle|Gradle|27|0|3
 ./src/_00/output/C/Genymobile~scrcpy/app/src/opengl.h|Genymobile|scrcpy|opengl.h|C/C++ Header|26|0|10
 ./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/video/CameraFacing.java|Genymobile|scrcpy|CameraFacing.java|Java|26|0|7
+./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/video/CaptureReset.java|Genymobile|scrcpy|CaptureReset.java|Java|26|2|9
 ./src/_00/output/C/Genymobile~scrcpy/.github/ISSUE_TEMPLATE/bug_report.md|Genymobile|scrcpy|bug_report.md|Markdown|25|0|12
+./src/_00/output/C/Genymobile~scrcpy/app/deps/adb_linux.sh|Genymobile|scrcpy|adb_linux.sh|Bourne Shell|25|0|4
+./src/_00/output/C/Genymobile~scrcpy/app/deps/adb_macos.sh|Genymobile|scrcpy|adb_macos.sh|Bourne Shell|25|0|4
 ./src/_00/output/C/Genymobile~scrcpy/app/src/cli.h|Genymobile|scrcpy|cli.h|C/C++ Header|25|0|9
 ./src/_00/output/C/Genymobile~scrcpy/app/src/hid/hid_keyboard.h|Genymobile|scrcpy|hid_keyboard.h|C/C++ Header|25|16|12
 ./src/_00/output/C/Genymobile~scrcpy/app/src/trait/mouse_processor.h|Genymobile|scrcpy|mouse_processor.h|C/C++ Header|25|31|10
 ./src/_00/output/C/Genymobile~scrcpy/app/src/trait/packet_source.h|Genymobile|scrcpy|packet_source.h|C/C++ Header|25|5|11
+./src/_00/output/C/Genymobile~scrcpy/app/src/util/env.c|Genymobile|scrcpy|env.c|C|25|0|4
 ./src/_00/output/C/Genymobile~scrcpy/app/src/util/net_intr.h|Genymobile|scrcpy|net_intr.h|C/C++ Header|25|0|10
 ./src/_00/output/C/Genymobile~scrcpy/app/src/util/process_intr.c|Genymobile|scrcpy|process_intr.c|C|25|2|8
 ./src/_00/output/C/Genymobile~scrcpy/config/android-checkstyle.gradle|Genymobile|scrcpy|android-checkstyle.gradle|Gradle|25|0|3
+./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/wrappers/DisplayWindowListener.java|Genymobile|scrcpy|DisplayWindowListener.java|Java|25|6|8
 ./src/_00/output/C/Genymobile~scrcpy/app/src/adb/adb_tunnel.h|Genymobile|scrcpy|adb_tunnel.h|C/C++ Header|24|15|8
+./src/_00/output/C/Genymobile~scrcpy/app/src/trait/gamepad_processor.h|Genymobile|scrcpy|gamepad_processor.h|C/C++ Header|24|25|10
+./src/_00/output/C/Genymobile~scrcpy/app/src/mouse_capture.h|Genymobile|scrcpy|mouse_capture.h|C/C++ Header|23|3|12
 ./src/_00/output/C/Genymobile~scrcpy/app/src/trait/frame_source.h|Genymobile|scrcpy|frame_source.h|C/C++ Header|23|5|10
 ./src/_00/output/C/Genymobile~scrcpy/app/src/uhid/uhid_output.c|Genymobile|scrcpy|uhid_output.c|C|23|0|4
+./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/device/NewDisplay.java|Genymobile|scrcpy|NewDisplay.java|Java|23|1|7
 ./src/_00/output/C/Genymobile~scrcpy/app/scrcpy-windows.rc|Genymobile|scrcpy|scrcpy-windows.rc|Windows Resource File|22|0|1
 ./src/_00/output/C/Genymobile~scrcpy/app/src/frame_buffer.h|Genymobile|scrcpy|frame_buffer.h|C/C++ Header|22|9|13
-./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/video/SurfaceCapture.java|Genymobile|scrcpy|SurfaceCapture.java|Java|22|38|13
 ./src/_00/output/C/Genymobile~scrcpy/app/src/hid/hid_mouse.h|Genymobile|scrcpy|hid_mouse.h|C/C++ Header|21|0|10
-./src/_00/output/C/Genymobile~scrcpy/app/src/trait/gamepad_processor.h|Genymobile|scrcpy|gamepad_processor.h|C/C++ Header|21|20|9
 ./src/_00/output/C/Genymobile~scrcpy/app/src/util/average.c|Genymobile|scrcpy|average.c|C|21|0|5
 ./src/_00/output/C/Genymobile~scrcpy/server/meson.build|Genymobile|scrcpy|meson.build|Meson|21|4|0
+./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/AndroidVersions.java|Genymobile|scrcpy|AndroidVersions.java|Java|21|6|5
 ./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/audio/AudioSource.java|Genymobile|scrcpy|AudioSource.java|Java|21|0|6
-./src/_00/output/C/Genymobile~scrcpy/app/src/hid/hid_event.h|Genymobile|scrcpy|hid_event.h|C/C++ Header|20|0|7
+./src/_00/output/C/Genymobile~scrcpy/app/src/audio_player.h|Genymobile|scrcpy|audio_player.h|C/C++ Header|20|6|9
 ./src/_00/output/C/Genymobile~scrcpy/app/src/keyboard_sdk.h|Genymobile|scrcpy|keyboard_sdk.h|C/C++ Header|20|2|9
 ./src/_00/output/C/Genymobile~scrcpy/app/src/trait/key_processor.h|Genymobile|scrcpy|key_processor.h|C/C++ Header|20|32|10
 ./src/_00/output/C/Genymobile~scrcpy/app/src/uhid/keyboard_uhid.h|Genymobile|scrcpy|keyboard_uhid.h|C/C++ Header|20|0|8
 ./src/_00/output/C/Genymobile~scrcpy/app/src/util/file.h|Genymobile|scrcpy|file.h|C/C++ Header|20|21|8
 ./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/audio/AudioConfig.java|Genymobile|scrcpy|AudioConfig.java|Java|20|4|5
+./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/device/DeviceApp.java|Genymobile|scrcpy|DeviceApp.java|Java|20|0|6
 ./src/_00/output/C/Genymobile~scrcpy/app/src/clock.h|Genymobile|scrcpy|clock.h|C/C++ Header|19|16|8
+./src/_00/output/C/Genymobile~scrcpy/app/src/hid/hid_event.h|Genymobile|scrcpy|hid_event.h|C/C++ Header|19|0|7
 ./src/_00/output/C/Genymobile~scrcpy/bump_version|Genymobile|scrcpy|bump_version|Bourne Again Shell|19|9|6
 ./src/_00/output/C/Genymobile~scrcpy/server/scripts/build-wrapper.sh|Genymobile|scrcpy|build-wrapper.sh|Bourne Shell|19|6|4
 ./src/_00/output/C/Genymobile~scrcpy/app/src/decoder.h|Genymobile|scrcpy|decoder.h|C/C++ Header|18|1|8
@@ -257,7 +284,9 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C/Genymobile~scrcpy/app/src/mouse_sdk.h|Genymobile|scrcpy|mouse_sdk.h|C/C++ Header|16|0|7
 ./src/_00/output/C/Genymobile~scrcpy/app/src/trait/packet_sink.h|Genymobile|scrcpy|packet_sink.h|C/C++ Header|16|14|6
 ./src/_00/output/C/Genymobile~scrcpy/app/src/uhid/gamepad_uhid.h|Genymobile|scrcpy|gamepad_uhid.h|C/C++ Header|16|0|7
+./src/_00/output/C/Genymobile~scrcpy/release/release.sh|Genymobile|scrcpy|release.sh|Bourne Shell|16|2|6
 ./src/_00/output/C/Genymobile~scrcpy/run|Genymobile|scrcpy|run|Bourne Again Shell|16|6|3
+./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/util/Codec.java|Genymobile|scrcpy|Codec.java|Java|16|0|8
 ./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/util/HandlerExecutor.java|Genymobile|scrcpy|HandlerExecutor.java|Java|16|1|6
 ./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/util/StringUtils.java|Genymobile|scrcpy|StringUtils.java|Java|16|4|2
 ./src/_00/output/C/Genymobile~scrcpy/app/src/trait/frame_sink.h|Genymobile|scrcpy|frame_sink.h|C/C++ Header|15|6|5
@@ -269,15 +298,19 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C/Genymobile~scrcpy/cross_win64.txt|Genymobile|scrcpy|cross_win64.txt|Text|14|0|2
 ./src/_00/output/C/Genymobile~scrcpy/app/src/scrcpy.h|Genymobile|scrcpy|scrcpy.h|C/C++ Header|13|3|7
 ./src/_00/output/C/Genymobile~scrcpy/app/src/uhid/mouse_uhid.h|Genymobile|scrcpy|mouse_uhid.h|C/C++ Header|13|0|6
+./src/_00/output/C/Genymobile~scrcpy/release/generate_checksums.sh|Genymobile|scrcpy|generate_checksums.sh|Bourne Shell|13|0|1
 ./src/_00/output/C/Genymobile~scrcpy/app/src/util/intmap.c|Genymobile|scrcpy|intmap.c|C|12|0|1
 ./src/_00/output/C/Genymobile~scrcpy/app/src/util/memory.c|Genymobile|scrcpy|memory.c|C|12|0|2
 ./src/_00/output/C/Genymobile~scrcpy/app/src/util/process_intr.h|Genymobile|scrcpy|process_intr.h|C/C++ Header|12|0|5
+./src/_00/output/C/Genymobile~scrcpy/release/build_server.sh|Genymobile|scrcpy|build_server.sh|Bourne Shell|12|0|2
 ./src/_00/output/C/Genymobile~scrcpy/app/src/common.h|Genymobile|scrcpy|common.h|C/C++ Header|11|0|4
 ./src/_00/output/C/Genymobile~scrcpy/app/src/icon.h|Genymobile|scrcpy|icon.h|C/C++ Header|11|0|5
 ./src/_00/output/C/Genymobile~scrcpy/app/src/util/rand.h|Genymobile|scrcpy|rand.h|C/C++ Header|11|0|5
-./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/util/Codec.java|Genymobile|scrcpy|Codec.java|Java|11|0|6
 ./src/_00/output/C/Genymobile~scrcpy/app/src/adb/adb_parser.h|Genymobile|scrcpy|adb_parser.h|C/C++ Header|10|14|6
+./src/_00/output/C/Genymobile~scrcpy/release/test_client.sh|Genymobile|scrcpy|test_client.sh|Bourne Shell|10|0|2
+./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/opengl/OpenGLException.java|Genymobile|scrcpy|OpenGLException.java|Java|10|0|3
 ./src/_00/output/C/Genymobile~scrcpy/app/scrcpy-windows.manifest|Genymobile|scrcpy|scrcpy-windows.manifest|XML|9|0|0
+./src/_00/output/C/Genymobile~scrcpy/release/package_server.sh|Genymobile|scrcpy|package_server.sh|Bourne Shell|9|0|1
 ./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/AsyncProcessor.java|Genymobile|scrcpy|AsyncProcessor.java|Java|9|5|4
 ./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/audio/AudioCapture.java|Genymobile|scrcpy|AudioCapture.java|Java|9|7|4
 ./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/util/SettingsException.java|Genymobile|scrcpy|SettingsException.java|Java|9|0|2
@@ -285,16 +318,20 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C/Genymobile~scrcpy/meson_options.txt|Genymobile|scrcpy|meson_options.txt|Text|8|0|0
 ./src/_00/output/C/Genymobile~scrcpy/.github/ISSUE_TEMPLATE/question.md|Genymobile|scrcpy|question.md|Markdown|7|0|1
 ./src/_00/output/C/Genymobile~scrcpy/app/src/util/term.h|Genymobile|scrcpy|term.h|C/C++ Header|7|10|4
+./src/_00/output/C/Genymobile~scrcpy/release/test_server.sh|Genymobile|scrcpy|test_server.sh|Bourne Shell|7|0|2
 ./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/control/ControlProtocolException.java|Genymobile|scrcpy|ControlProtocolException.java|Java|7|0|2
+./src/_00/output/C/Genymobile~scrcpy/app/src/util/env.h|Genymobile|scrcpy|env.h|C/C++ Header|6|3|3
 ./src/_00/output/C/Genymobile~scrcpy/app/src/util/memory.h|Genymobile|scrcpy|memory.h|C/C++ Header|6|6|3
 ./src/_00/output/C/Genymobile~scrcpy/app/src/version.h|Genymobile|scrcpy|version.h|C/C++ Header|6|0|3
+./src/_00/output/C/Genymobile~scrcpy/gradle/wrapper/gradle-wrapper.properties|Genymobile|scrcpy|gradle-wrapper.properties|Properties|6|1|0
 ./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/device/ConfigurationException.java|Genymobile|scrcpy|ConfigurationException.java|Java|6|0|1
+./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/opengl/OpenGLFilter.java|Genymobile|scrcpy|OpenGLFilter.java|Java|6|11|4
 ./src/_00/output/C/Genymobile~scrcpy/app/data/scrcpy-noconsole.vbs|Genymobile|scrcpy|scrcpy-noconsole.vbs|Visual Basic Script|5|0|2
-./src/_00/output/C/Genymobile~scrcpy/gradle/wrapper/gradle-wrapper.properties|Genymobile|scrcpy|gradle-wrapper.properties|Properties|5|0|0
+./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/video/VirtualDisplayListener.java|Genymobile|scrcpy|VirtualDisplayListener.java|Java|5|0|2
 ./src/_00/output/C/Genymobile~scrcpy/.github/FUNDING.yml|Genymobile|scrcpy|FUNDING.yml|YAML|3|0|0
+./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/android/content/IContentProvider.java|Genymobile|scrcpy|IContentProvider.java|Java|3|1|1
 ./src/_00/output/C/Genymobile~scrcpy/server/src/main/java/com/genymobile/scrcpy/audio/AudioCaptureException.java|Genymobile|scrcpy|AudioCaptureException.java|Java|3|8|1
 ./src/_00/output/C/Genymobile~scrcpy/app/data/scrcpy-console.bat|Genymobile|scrcpy|scrcpy-console.bat|DOS Batch|2|0|0
-./src/_00/output/C/Genymobile~scrcpy/release.sh|Genymobile|scrcpy|release.sh|Bourne Shell|2|0|0
 ./src/_00/output/C/Genymobile~scrcpy/app/data/open_a_terminal_here.bat|Genymobile|scrcpy|open_a_terminal_here.bat|DOS Batch|1|0|0
 ./src/_00/output/C/Genymobile~scrcpy/gradle.properties|Genymobile|scrcpy|gradle.properties|Properties|1|12|5
 ./src/_00/output/C/Genymobile~scrcpy/server/src/main/AndroidManifest.xml|Genymobile|scrcpy|AndroidManifest.xml|XML|1|1|0

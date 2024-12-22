@@ -2,9 +2,9 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/PHP/barryvdh~laravel-debugbar/src/LaravelDebugbar.php|barryvdh|laravel-debugbar|LaravelDebugbar.php|PHP|875|248|154
 ./src/_00/output/PHP/barryvdh~laravel-debugbar/src/Resources/laravel-debugbar.css|barryvdh|laravel-debugbar|laravel-debugbar.css|CSS|821|2|166
 ./src/_00/output/PHP/barryvdh~laravel-debugbar/src/DataCollector/QueryCollector.php|barryvdh|laravel-debugbar|QueryCollector.php|PHP|458|136|84
-./src/_00/output/PHP/barryvdh~laravel-debugbar/src/Resources/queries/widget.js|barryvdh|laravel-debugbar|widget.js|JavaScript|354|6|51
+./src/_00/output/PHP/barryvdh~laravel-debugbar/src/Resources/queries/widget.js|barryvdh|laravel-debugbar|widget.js|JavaScript|353|6|51
 ./src/_00/output/PHP/barryvdh~laravel-debugbar/src/Resources/laravel-debugbar-dark-mode.css|barryvdh|laravel-debugbar|laravel-debugbar-dark-mode.css|CSS|291|12|57
-./src/_00/output/PHP/barryvdh~laravel-debugbar/tests/DebugbarBrowserTest.php|barryvdh|laravel-debugbar|DebugbarBrowserTest.php|PHP|195|16|33
+./src/_00/output/PHP/barryvdh~laravel-debugbar/tests/DebugbarBrowserTest.php|barryvdh|laravel-debugbar|DebugbarBrowserTest.php|PHP|233|17|35
 ./src/_00/output/PHP/barryvdh~laravel-debugbar/readme.md|barryvdh|laravel-debugbar|readme.md|Markdown|167|0|59
 ./src/_00/output/PHP/barryvdh~laravel-debugbar/src/DataCollector/ViewCollector.php|barryvdh|laravel-debugbar|ViewCollector.php|PHP|154|16|29
 ./src/_00/output/PHP/barryvdh~laravel-debugbar/src/Support/Clockwork/Converter.php|barryvdh|laravel-debugbar|Converter.php|PHP|143|7|19
@@ -33,9 +33,9 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/PHP/barryvdh~laravel-debugbar/src/DataFormatter/SimpleFormatter.php|barryvdh|laravel-debugbar|SimpleFormatter.php|PHP|62|25|20
 ./src/_00/output/PHP/barryvdh~laravel-debugbar/tests/TestCase.php|barryvdh|laravel-debugbar|TestCase.php|PHP|60|28|16
 ./src/_00/output/PHP/barryvdh~laravel-debugbar/composer.json|barryvdh|laravel-debugbar|composer.json|JSON|59|0|0
+./src/_00/output/PHP/barryvdh~laravel-debugbar/.github/workflows/run-tests.yml|barryvdh|laravel-debugbar|run-tests.yml|YAML|56|0|10
 ./src/_00/output/PHP/barryvdh~laravel-debugbar/src/Middleware/InjectDebugbar.php|barryvdh|laravel-debugbar|InjectDebugbar.php|PHP|56|46|18
 ./src/_00/output/PHP/barryvdh~laravel-debugbar/tests/DataCollector/QueryCollectorRuntimeDatabaseTest.php|barryvdh|laravel-debugbar|QueryCollectorRuntimeDatabaseTest.php|PHP|55|6|23
-./src/_00/output/PHP/barryvdh~laravel-debugbar/.github/workflows/run-tests.yml|barryvdh|laravel-debugbar|run-tests.yml|YAML|54|0|10
 ./src/_00/output/PHP/barryvdh~laravel-debugbar/src/DataCollector/LaravelCollector.php|barryvdh|laravel-debugbar|LaravelCollector.php|PHP|49|14|8
 ./src/_00/output/PHP/barryvdh~laravel-debugbar/src/SymfonyHttpDriver.php|barryvdh|laravel-debugbar|SymfonyHttpDriver.php|PHP|48|28|13
 ./src/_00/output/PHP/barryvdh~laravel-debugbar/src/DataCollector/ModelsCollector.php|barryvdh|laravel-debugbar|ModelsCollector.php|PHP|45|13|8
@@ -59,6 +59,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/PHP/barryvdh~laravel-debugbar/tests/DataCollector/SessionCollectorTest.php|barryvdh|laravel-debugbar|SessionCollectorTest.php|PHP|30|1|9
 ./src/_00/output/PHP/barryvdh~laravel-debugbar/database/migrations/2014_12_01_120000_create_phpdebugbar_storage_table.php|barryvdh|laravel-debugbar|2014_12_01_120000_create_phpdebugbar_storage_table.php|PHP|29|6|4
 ./src/_00/output/PHP/barryvdh~laravel-debugbar/.github/workflows/update-changelog.yaml|barryvdh|laravel-debugbar|update-changelog.yaml|YAML|25|3|6
+./src/_00/output/PHP/barryvdh~laravel-debugbar/CHANGELOG.md|barryvdh|laravel-debugbar|CHANGELOG.md|Markdown|23|0|14
 ./src/_00/output/PHP/barryvdh~laravel-debugbar/src/LumenServiceProvider.php|barryvdh|laravel-debugbar|LumenServiceProvider.php|PHP|23|21|7
 ./src/_00/output/PHP/barryvdh~laravel-debugbar/tests/DataCollector/ViewCollectorTest.php|barryvdh|laravel-debugbar|ViewCollectorTest.php|PHP|23|1|7
 ./src/_00/output/PHP/barryvdh~laravel-debugbar/src/Twig/Extension/Debug.php|barryvdh|laravel-debugbar|Debug.php|PHP|21|8|6
@@ -70,8 +71,8 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/PHP/barryvdh~laravel-debugbar/tests/BrowserTestCase.php|barryvdh|laravel-debugbar|BrowserTestCase.php|PHP|17|14|5
 ./src/_00/output/PHP/barryvdh~laravel-debugbar/tests/Jobs/OrderShipped.php|barryvdh|laravel-debugbar|OrderShipped.php|PHP|16|1|6
 ./src/_00/output/PHP/barryvdh~laravel-debugbar/.github/stale.yml|barryvdh|laravel-debugbar|stale.yml|YAML|15|7|2
-./src/_00/output/PHP/barryvdh~laravel-debugbar/CHANGELOG.md|barryvdh|laravel-debugbar|CHANGELOG.md|Markdown|15|0|6
 ./src/_00/output/PHP/barryvdh~laravel-debugbar/phpcs.xml|barryvdh|laravel-debugbar|phpcs.xml|XML|13|0|3
+./src/_00/output/PHP/barryvdh~laravel-debugbar/tests/resources/views/custom-prototype.blade.php|barryvdh|laravel-debugbar|custom-prototype.blade.php|Blade|12|0|1
 ./src/_00/output/PHP/barryvdh~laravel-debugbar/tests/Jobs/SendNotification.php|barryvdh|laravel-debugbar|SendNotification.php|PHP|11|1|4
 ./src/_00/output/PHP/barryvdh~laravel-debugbar/.editorconfig|barryvdh|laravel-debugbar|.editorconfig|INI|10|0|2
 ./src/_00/output/PHP/barryvdh~laravel-debugbar/src/Facades/Debugbar.php|barryvdh|laravel-debugbar|Debugbar.php|PHP|10|20|3

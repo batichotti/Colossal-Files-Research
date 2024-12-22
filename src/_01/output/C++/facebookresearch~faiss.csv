@@ -1,11 +1,11 @@
 path|owner|project|file|language|code|comment|blank
-./src/_00/output/C++/facebookresearch~faiss/faiss/utils/distances_simd.cpp|facebookresearch|faiss|distances_simd.cpp|C++|2940|295|538
+./src/_00/output/C++/facebookresearch~faiss/faiss/utils/distances_simd.cpp|facebookresearch|faiss|distances_simd.cpp|C++|2940|301|538
 ./src/_00/output/C++/facebookresearch~faiss/faiss/impl/ScalarQuantizer.cpp|facebookresearch|faiss|ScalarQuantizer.cpp|C++|1977|125|379
 ./src/_00/output/C++/facebookresearch~faiss/faiss/cppcontrib/sa_decode/Level2-neon-inl.h|facebookresearch|faiss|Level2-neon-inl.h|C/C++ Header|1701|249|211
 ./src/_00/output/C++/facebookresearch~faiss/faiss/cppcontrib/sa_decode/Level2-avx2-inl.h|facebookresearch|faiss|Level2-avx2-inl.h|C/C++ Header|1382|366|324
 ./src/_00/output/C++/facebookresearch~faiss/benchs/bench_cppcontrib_sa_decode.cpp|facebookresearch|faiss|bench_cppcontrib_sa_decode.cpp|C++|1331|173|196
+./src/_00/output/C++/facebookresearch~faiss/faiss/IndexIVFFastScan.cpp|facebookresearch|faiss|IndexIVFFastScan.cpp|C++|1151|65|189
 ./src/_00/output/C++/facebookresearch~faiss/faiss/impl/index_read.cpp|facebookresearch|faiss|index_read.cpp|C++|1141|34|87
-./src/_00/output/C++/facebookresearch~faiss/faiss/IndexIVFFastScan.cpp|facebookresearch|faiss|IndexIVFFastScan.cpp|C++|1137|65|189
 ./src/_00/output/C++/facebookresearch~faiss/faiss/VectorTransform.cpp|facebookresearch|faiss|VectorTransform.cpp|C++|1127|78|160
 ./src/_00/output/C++/facebookresearch~faiss/faiss/IndexIVF.cpp|facebookresearch|faiss|IndexIVF.cpp|C++|1120|71|195
 ./src/_00/output/C++/facebookresearch~faiss/faiss/cppcontrib/sa_decode/PQ-neon-inl.h|facebookresearch|faiss|PQ-neon-inl.h|C/C++ Header|1081|193|186
@@ -14,9 +14,9 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/facebookresearch~faiss/benchs/bench_fw/benchmark.py|facebookresearch|faiss|benchmark.py|Python|1055|47|117
 ./src/_00/output/C++/facebookresearch~faiss/faiss/cppcontrib/sa_decode/PQ-avx2-inl.h|facebookresearch|faiss|PQ-avx2-inl.h|C/C++ Header|1036|297|292
 ./src/_00/output/C++/facebookresearch~faiss/faiss/IndexIVFPQ.cpp|facebookresearch|faiss|IndexIVFPQ.cpp|C++|1013|192|185
-./src/_00/output/C++/facebookresearch~faiss/faiss/impl/HNSW.cpp|facebookresearch|faiss|HNSW.cpp|C++|1010|89|216
+./src/_00/output/C++/facebookresearch~faiss/faiss/impl/HNSW.cpp|facebookresearch|faiss|HNSW.cpp|C++|1010|95|215
+./src/_00/output/C++/facebookresearch~faiss/benchs/bench_fw/index.py|facebookresearch|faiss|index.py|Python|977|65|102
 ./src/_00/output/C++/facebookresearch~faiss/tests/test_cppcontrib_sa_decode.cpp|facebookresearch|faiss|test_cppcontrib_sa_decode.cpp|C++|975|145|186
-./src/_00/output/C++/facebookresearch~faiss/benchs/bench_fw/index.py|facebookresearch|faiss|index.py|Python|970|65|102
 ./src/_00/output/C++/facebookresearch~faiss/faiss/utils/distances.cpp|facebookresearch|faiss|distances.cpp|C++|934|137|137
 ./src/_00/output/C++/facebookresearch~faiss/faiss/impl/index_write.cpp|facebookresearch|faiss|index_write.cpp|C++|920|47|65
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/utils/Tensor-inl.cuh|facebookresearch|faiss|Tensor-inl.cuh|CUDA|867|52|133
@@ -27,7 +27,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/facebookresearch~faiss/faiss/utils/simdlib_emulated.h|facebookresearch|faiss|simdlib_emulated.h|C/C++ Header|799|106|140
 ./src/_00/output/C++/facebookresearch~faiss/faiss/index_factory.cpp|facebookresearch|faiss|index_factory.cpp|C++|767|77|102
 ./src/_00/output/C++/facebookresearch~faiss/faiss/impl/PolysemousTraining.cpp|facebookresearch|faiss|PolysemousTraining.cpp|C++|761|76|134
-./src/_00/output/C++/facebookresearch~faiss/faiss/IndexHNSW.cpp|facebookresearch|faiss|IndexHNSW.cpp|C++|753|48|165
+./src/_00/output/C++/facebookresearch~faiss/faiss/IndexHNSW.cpp|facebookresearch|faiss|IndexHNSW.cpp|C++|753|59|165
 ./src/_00/output/C++/facebookresearch~faiss/faiss/python/class_wrappers.py|facebookresearch|faiss|class_wrappers.py|Python|743|410|244
 ./src/_00/output/C++/facebookresearch~faiss/faiss/impl/residual_quantizer_encode_steps.cpp|facebookresearch|faiss|residual_quantizer_encode_steps.cpp|C++|742|94|124
 ./src/_00/output/C++/facebookresearch~faiss/faiss/IndexBinaryIVF.cpp|facebookresearch|faiss|IndexBinaryIVF.cpp|C++|739|27|138
@@ -36,15 +36,15 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/facebookresearch~faiss/faiss/utils/sorting.cpp|facebookresearch|faiss|sorting.cpp|C++|679|60|88
 ./src/_00/output/C++/facebookresearch~faiss/tests/test_index_composite.py|facebookresearch|faiss|test_index_composite.py|Python|677|61|238
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/test/TestGpuIndexIVFFlat.cpp|facebookresearch|faiss|TestGpuIndexIVFFlat.cpp|C++|674|70|175
-./src/_00/output/C++/facebookresearch~faiss/faiss/utils/hamming.cpp|facebookresearch|faiss|hamming.cpp|C++|651|50|65
+./src/_00/output/C++/facebookresearch~faiss/faiss/utils/hamming.cpp|facebookresearch|faiss|hamming.cpp|C++|650|50|65
 ./src/_00/output/C++/facebookresearch~faiss/faiss/invlists/InvertedLists.cpp|facebookresearch|faiss|InvertedLists.cpp|C++|645|34|115
 ./src/_00/output/C++/facebookresearch~faiss/tests/test_fast_scan_ivf.py|facebookresearch|faiss|test_fast_scan_ivf.py|Python|640|58|218
 ./src/_00/output/C++/facebookresearch~faiss/faiss/invlists/OnDiskInvertedLists.cpp|facebookresearch|faiss|OnDiskInvertedLists.cpp|C++|632|56|118
 ./src/_00/output/C++/facebookresearch~faiss/faiss/AutoTune.cpp|facebookresearch|faiss|AutoTune.cpp|C++|631|38|78
-./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/utils/MathOperators.cuh|facebookresearch|faiss|MathOperators.cuh|CUDA|620|41|134
+./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/utils/MathOperators.cuh|facebookresearch|faiss|MathOperators.cuh|CUDA|618|41|132
 ./src/_00/output/C++/facebookresearch~faiss/faiss/impl/simd_result_handlers.h|facebookresearch|faiss|simd_result_handlers.h|C/C++ Header|616|60|111
 ./src/_00/output/C++/facebookresearch~faiss/faiss/impl/LocalSearchQuantizer.cpp|facebookresearch|faiss|LocalSearchQuantizer.cpp|C++|613|103|130
-./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/impl/Distance.cu|facebookresearch|faiss|Distance.cu|CUDA|603|73|69
+./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/impl/Distance.cu|facebookresearch|faiss|Distance.cu|CUDA|595|69|69
 ./src/_00/output/C++/facebookresearch~faiss/faiss/impl/pq4_fast_scan_search_qbs.cpp|facebookresearch|faiss|pq4_fast_scan_search_qbs.cpp|C++|585|92|126
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/impl/PQScanMultiPassNoPrecomputed-inl.cuh|facebookresearch|faiss|PQScanMultiPassNoPrecomputed-inl.cuh|CUDA|579|65|99
 ./src/_00/output/C++/facebookresearch~faiss/tests/test_index_accuracy.py|facebookresearch|faiss|test_index_accuracy.py|Python|578|66|154
@@ -52,7 +52,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/impl/IVFBase.cu|facebookresearch|faiss|IVFBase.cu|CUDA|571|114|152
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/test/TestGpuIndexFlat.cpp|facebookresearch|faiss|TestGpuIndexFlat.cpp|C++|566|58|146
 ./src/_00/output/C++/facebookresearch~faiss/faiss/impl/lattice_Zn.cpp|facebookresearch|faiss|lattice_Zn.cpp|C++|563|32|69
-./src/_00/output/C++/facebookresearch~faiss/tests/test_index.py|facebookresearch|faiss|test_index.py|Python|559|54|209
+./src/_00/output/C++/facebookresearch~faiss/tests/test_index.py|facebookresearch|faiss|test_index.py|Python|558|56|209
 ./src/_00/output/C++/facebookresearch~faiss/faiss/utils/simdlib_avx2.h|facebookresearch|faiss|simdlib_avx2.h|C/C++ Header|554|118|131
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/impl/PQScanMultiPassPrecomputed.cu|facebookresearch|faiss|PQScanMultiPassPrecomputed.cu|CUDA|553|72|98
 ./src/_00/output/C++/facebookresearch~faiss/faiss/Clustering.cpp|facebookresearch|faiss|Clustering.cpp|C++|551|57|107
@@ -65,10 +65,11 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/StandardGpuResources.cpp|facebookresearch|faiss|StandardGpuResources.cpp|C++|522|104|145
 ./src/_00/output/C++/facebookresearch~faiss/faiss/impl/NSG.cpp|facebookresearch|faiss|NSG.cpp|C++|514|25|112
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/GpuCloner.cpp|facebookresearch|faiss|GpuCloner.cpp|C++|513|31|48
-./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/GpuDistance.cu|facebookresearch|faiss|GpuDistance.cu|CUDA|513|56|45
 ./src/_00/output/C++/facebookresearch~faiss/contrib/torch_utils.py|facebookresearch|faiss|torch_utils.py|Python|510|107|147
 ./src/_00/output/C++/facebookresearch~faiss/faiss/IndexAdditiveQuantizer.cpp|facebookresearch|faiss|IndexAdditiveQuantizer.cpp|C++|504|49|81
+./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/GpuDistance.cu|facebookresearch|faiss|GpuDistance.cu|CUDA|499|55|45
 ./src/_00/output/C++/facebookresearch~faiss/tests/test_fast_scan.py|facebookresearch|faiss|test_fast_scan.py|Python|490|45|178
+./src/_00/output/C++/facebookresearch~faiss/tests/test_hnsw.cpp|facebookresearch|faiss|test_hnsw.cpp|C++|490|42|94
 ./src/_00/output/C++/facebookresearch~faiss/benchs/bench_hybrid_cpu_gpu.py|facebookresearch|faiss|bench_hybrid_cpu_gpu.py|Python|479|45|75
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/GpuIndexIVFPQ.cu|facebookresearch|faiss|GpuIndexIVFPQ.cu|CUDA|475|54|87
 ./src/_00/output/C++/facebookresearch~faiss/faiss/IndexFastScan.cpp|facebookresearch|faiss|IndexFastScan.cpp|C++|474|20|80
@@ -81,10 +82,10 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/facebookresearch~faiss/faiss/utils/Heap.h|facebookresearch|faiss|Heap.h|C/C++ Header|439|133|64
 ./src/_00/output/C++/facebookresearch~faiss/benchs/bench_all_ivf/bench_all_ivf.py|facebookresearch|faiss|bench_all_ivf.py|Python|434|29|104
 ./src/_00/output/C++/facebookresearch~faiss/benchs/bench_all_ivf/run_on_cluster_generic.bash|facebookresearch|faiss|run_on_cluster_generic.bash|Bourne Again Shell|432|41|130
+./src/_00/output/C++/facebookresearch~faiss/tests/test_graph_based.py|facebookresearch|faiss|test_graph_based.py|Python|430|47|137
 ./src/_00/output/C++/facebookresearch~faiss/faiss/IVFlib.cpp|facebookresearch|faiss|IVFlib.cpp|C++|426|19|78
 ./src/_00/output/C++/facebookresearch~faiss/faiss/IndexFlat.cpp|facebookresearch|faiss|IndexFlat.cpp|C++|424|27|69
-./src/_00/output/C++/facebookresearch~faiss/tests/test_hnsw.cpp|facebookresearch|faiss|test_hnsw.cpp|C++|424|37|82
-./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/test/test_gpu_index.py|facebookresearch|faiss|test_gpu_index.py|Python|422|46|138
+./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/test/test_gpu_index.py|facebookresearch|faiss|test_gpu_index.py|Python|422|47|138
 ./src/_00/output/C++/facebookresearch~faiss/tests/test_build_blocks.py|facebookresearch|faiss|test_build_blocks.py|Python|420|26|118
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/impl/InterleavedCodes.cpp|facebookresearch|faiss|InterleavedCodes.cpp|C++|414|74|76
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/utils/Tensor.cuh|facebookresearch|faiss|Tensor.cuh|CUDA|412|175|111
@@ -93,7 +94,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/facebookresearch~faiss/faiss/impl/ResidualQuantizer.cpp|facebookresearch|faiss|ResidualQuantizer.cpp|C++|407|40|67
 ./src/_00/output/C++/facebookresearch~faiss/contrib/big_batch_search.py|facebookresearch|faiss|big_batch_search.py|Python|400|51|64
 ./src/_00/output/C++/facebookresearch~faiss/faiss/utils/hamming_distance/neon-inl.h|facebookresearch|faiss|neon-inl.h|C/C++ Header|400|25|99
-./src/_00/output/C++/facebookresearch~faiss/tests/test_graph_based.py|facebookresearch|faiss|test_graph_based.py|Python|399|42|126
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/impl/CuvsIVFFlat.cu|facebookresearch|faiss|CuvsIVFFlat.cu|CUDA|391|70|92
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/impl/CuvsIVFPQ.cu|facebookresearch|faiss|CuvsIVFPQ.cu|CUDA|389|64|95
 ./src/_00/output/C++/facebookresearch~faiss/faiss/impl/NNDescent.cpp|facebookresearch|faiss|NNDescent.cpp|C++|388|45|64
@@ -101,11 +101,11 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/facebookresearch~faiss/faiss/CMakeLists.txt|facebookresearch|faiss|CMakeLists.txt|CMake|381|23|22
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/impl/IVFFlatScan.cu|facebookresearch|faiss|IVFFlatScan.cu|CUDA|381|49|64
 ./src/_00/output/C++/facebookresearch~faiss/faiss/IndexBinaryHash.cpp|facebookresearch|faiss|IndexBinaryHash.cpp|C++|380|22|79
+./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/utils/MatrixMult-inl.cuh|facebookresearch|faiss|MatrixMult-inl.cuh|CUDA|380|26|55
 ./src/_00/output/C++/facebookresearch~faiss/tests/test_search_params.py|facebookresearch|faiss|test_search_params.py|Python|377|42|88
-./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/utils/MatrixMult-inl.cuh|facebookresearch|faiss|MatrixMult-inl.cuh|CUDA|376|31|55
 ./src/_00/output/C++/facebookresearch~faiss/faiss/cppcontrib/sa_decode/Level2-inl.h|facebookresearch|faiss|Level2-inl.h|C/C++ Header|372|54|41
-./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/impl/Distance.cuh|facebookresearch|faiss|Distance.cuh|CUDA|371|61|25
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/test/TestGpuIndexCagra.cu|facebookresearch|faiss|TestGpuIndexCagra.cu|CUDA|364|38|73
+./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/impl/Distance.cuh|facebookresearch|faiss|Distance.cuh|CUDA|363|57|25
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/GpuIndex.cu|facebookresearch|faiss|GpuIndex.cu|CUDA|355|88|105
 ./src/_00/output/C++/facebookresearch~faiss/faiss/python/extra_wrappers.py|facebookresearch|faiss|extra_wrappers.py|Python|355|208|96
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/utils/MergeNetworkWarp.cuh|facebookresearch|faiss|MergeNetworkWarp.cuh|CUDA|354|123|81
@@ -113,6 +113,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/facebookresearch~faiss/faiss/utils/hamming_distance/generic-inl.h|facebookresearch|faiss|generic-inl.h|C/C++ Header|349|26|75
 ./src/_00/output/C++/facebookresearch~faiss/tests/test_lowlevel_ivf.cpp|facebookresearch|faiss|test_lowlevel_ivf.cpp|C++|349|84|116
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/test/TestUtils.cpp|facebookresearch|faiss|TestUtils.cpp|C++|346|26|61
+./src/_00/output/C++/facebookresearch~faiss/tests/test_io.py|facebookresearch|faiss|test_io.py|Python|339|34|110
 ./src/_00/output/C++/facebookresearch~faiss/faiss/cppcontrib/sa_decode/MinMaxFP16-inl.h|facebookresearch|faiss|MinMaxFP16-inl.h|C/C++ Header|338|82|52
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/GpuIndexIVF.cu|facebookresearch|faiss|GpuIndexIVF.cu|CUDA|336|64|81
 ./src/_00/output/C++/facebookresearch~faiss/faiss/cppcontrib/sa_decode/MinMax-inl.h|facebookresearch|faiss|MinMax-inl.h|C/C++ Header|334|82|51
@@ -126,7 +127,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/test/test_gpu_basics.py|facebookresearch|faiss|test_gpu_basics.py|Python|317|34|111
 ./src/_00/output/C++/facebookresearch~faiss/CHANGELOG.md|facebookresearch|faiss|CHANGELOG.md|Markdown|316|0|46
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/GpuIndexIVFFlat.cu|facebookresearch|faiss|GpuIndexIVFFlat.cu|CUDA|311|32|52
-./src/_00/output/C++/facebookresearch~faiss/.github/workflows/build.yml|facebookresearch|faiss|build.yml|YAML|307|1|0
 ./src/_00/output/C++/facebookresearch~faiss/contrib/evaluation.py|facebookresearch|faiss|evaluation.py|Python|305|90|97
 ./src/_00/output/C++/facebookresearch~faiss/faiss/IndexIVFAdditiveQuantizer.cpp|facebookresearch|faiss|IndexIVFAdditiveQuantizer.cpp|C++|301|37|61
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/impl/BroadcastSum.cu|facebookresearch|faiss|BroadcastSum.cu|CUDA|301|15|61
@@ -142,16 +142,16 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/facebookresearch~faiss/benchs/bench_fw_notebook.ipynb|facebookresearch|faiss|bench_fw_notebook.ipynb|Jupyter Notebook|280|252|0
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/CMakeLists.txt|facebookresearch|faiss|CMakeLists.txt|CMake|275|44|24
 ./src/_00/output/C++/facebookresearch~faiss/cmake/FindMKL.cmake|facebookresearch|faiss|FindMKL.cmake|CMake|273|43|48
+./src/_00/output/C++/facebookresearch~faiss/faiss/utils/NeuralNet.cpp|facebookresearch|faiss|NeuralNet.cpp|C++|272|26|48
 ./src/_00/output/C++/facebookresearch~faiss/contrib/exhaustive_search.py|facebookresearch|faiss|exhaustive_search.py|Python|271|43|48
 ./src/_00/output/C++/facebookresearch~faiss/faiss/IndexIVFSpectralHash.cpp|facebookresearch|faiss|IndexIVFSpectralHash.cpp|C++|270|22|48
-./src/_00/output/C++/facebookresearch~faiss/faiss/utils/NeuralNet.cpp|facebookresearch|faiss|NeuralNet.cpp|C++|269|26|47
 ./src/_00/output/C++/facebookresearch~faiss/faiss/IndexPreTransform.cpp|facebookresearch|faiss|IndexPreTransform.cpp|C++|268|16|53
 ./src/_00/output/C++/facebookresearch~faiss/faiss/Index2Layer.cpp|facebookresearch|faiss|Index2Layer.cpp|C++|266|16|61
 ./src/_00/output/C++/facebookresearch~faiss/faiss/impl/pq4_fast_scan.cpp|facebookresearch|faiss|pq4_fast_scan.cpp|C++|264|27|32
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/impl/CuvsCagra.cu|facebookresearch|faiss|CuvsCagra.cu|CUDA|262|25|38
 ./src/_00/output/C++/facebookresearch~faiss/tests/test_factory.py|facebookresearch|faiss|test_factory.py|Python|261|9|84
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/impl/DistanceUtils.cuh|facebookresearch|faiss|DistanceUtils.cuh|CUDA|260|29|88
-./src/_00/output/C++/facebookresearch~faiss/tests/test_io.py|facebookresearch|faiss|test_io.py|Python|260|23|87
+./src/_00/output/C++/facebookresearch~faiss/tests/test_distances_simd.cpp|facebookresearch|faiss|test_distances_simd.cpp|C++|257|30|47
 ./src/_00/output/C++/facebookresearch~faiss/tests/test_partition.py|facebookresearch|faiss|test_partition.py|Python|255|5|83
 ./src/_00/output/C++/facebookresearch~faiss/c_api/impl/AuxIndexStructures_c.cpp|facebookresearch|faiss|AuxIndexStructures_c.cpp|C++|251|17|40
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/impl/IcmEncoder.cu|facebookresearch|faiss|IcmEncoder.cu|CUDA|251|79|50
@@ -168,17 +168,18 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/facebookresearch~faiss/faiss/python/CMakeLists.txt|facebookresearch|faiss|CMakeLists.txt|CMake|240|14|31
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/impl/FlatIndex.cu|facebookresearch|faiss|FlatIndex.cu|CUDA|239|33|33
 ./src/_00/output/C++/facebookresearch~faiss/faiss/utils/distances_fused/avx512.cpp|facebookresearch|faiss|avx512.cpp|C++|239|54|53
+./src/_00/output/C++/facebookresearch~faiss/faiss/python/__init__.py|facebookresearch|faiss|__init__.py|Python|238|41|70
 ./src/_00/output/C++/facebookresearch~faiss/benchs/bench_fw/benchmark_io.py|facebookresearch|faiss|benchmark_io.py|Python|237|10|25
 ./src/_00/output/C++/facebookresearch~faiss/faiss/IndexRefine.cpp|facebookresearch|faiss|IndexRefine.cpp|C++|236|16|48
 ./src/_00/output/C++/facebookresearch~faiss/faiss/IndexIDMap.cpp|facebookresearch|faiss|IndexIDMap.cpp|C++|234|26|44
 ./src/_00/output/C++/facebookresearch~faiss/tests/torch_test_neural_net.py|facebookresearch|faiss|torch_test_neural_net.py|Python|234|51|89
 ./src/_00/output/C++/facebookresearch~faiss/tests/test_simdlib.cpp|facebookresearch|faiss|test_simdlib.cpp|C++|232|9|23
+./src/_00/output/C++/facebookresearch~faiss/faiss/IndexAdditiveQuantizerFastScan.cpp|facebookresearch|faiss|IndexAdditiveQuantizerFastScan.cpp|C++|230|23|44
 ./src/_00/output/C++/facebookresearch~faiss/faiss/IndexFlatCodes.cpp|facebookresearch|faiss|IndexFlatCodes.cpp|C++|230|14|36
 ./src/_00/output/C++/facebookresearch~faiss/faiss/utils/distances_fused/simdlib_based.cpp|facebookresearch|faiss|simdlib_based.cpp|C++|230|68|54
-./src/_00/output/C++/facebookresearch~faiss/faiss/IndexAdditiveQuantizerFastScan.cpp|facebookresearch|faiss|IndexAdditiveQuantizerFastScan.cpp|C++|229|23|44
-./src/_00/output/C++/facebookresearch~faiss/faiss/python/__init__.py|facebookresearch|faiss|__init__.py|Python|228|41|68
 ./src/_00/output/C++/facebookresearch~faiss/faiss/IndexNSG.cpp|facebookresearch|faiss|IndexNSG.cpp|C++|226|30|59
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/GpuIndexCagra.cu|facebookresearch|faiss|GpuIndexCagra.cu|CUDA|226|31|38
+./src/_00/output/C++/facebookresearch~faiss/tests/test_hamming.cpp|facebookresearch|faiss|test_hamming.cpp|C++|226|37|32
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/impl/L2Select.cu|facebookresearch|faiss|L2Select.cu|CUDA|224|25|43
 ./src/_00/output/C++/facebookresearch~faiss/benchs/bench_all_ivf/cmp_with_scann.py|facebookresearch|faiss|cmp_with_scann.py|Python|223|19|65
 ./src/_00/output/C++/facebookresearch~faiss/INSTALL.md|facebookresearch|faiss|INSTALL.md|Markdown|222|0|76
@@ -195,10 +196,11 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/test/TestCodePacking.cpp|facebookresearch|faiss|TestCodePacking.cpp|C++|208|40|44
 ./src/_00/output/C++/facebookresearch~faiss/faiss/IndexShards.cpp|facebookresearch|faiss|IndexShards.cpp|C++|207|14|49
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/GpuIndexIVFScalarQuantizer.cu|facebookresearch|faiss|GpuIndexIVFScalarQuantizer.cu|CUDA|204|34|45
-./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/impl/L2Norm.cu|facebookresearch|faiss|L2Norm.cu|CUDA|201|46|45
+./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/impl/L2Norm.cu|facebookresearch|faiss|L2Norm.cu|CUDA|199|45|45
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/utils/DeviceUtils.cu|facebookresearch|faiss|DeviceUtils.cu|CUDA|199|10|55
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/utils/HostTensor-inl.cuh|facebookresearch|faiss|HostTensor-inl.cuh|CUDA|199|13|25
 ./src/_00/output/C++/facebookresearch~faiss/faiss/MatrixStats.cpp|facebookresearch|faiss|MatrixStats.cpp|C++|198|14|40
+./src/_00/output/C++/facebookresearch~faiss/tests/test_ivf_index.cpp|facebookresearch|faiss|test_ivf_index.cpp|C++|198|27|29
 ./src/_00/output/C++/facebookresearch~faiss/faiss/MetaIndexes.cpp|facebookresearch|faiss|MetaIndexes.cpp|C++|196|16|30
 ./src/_00/output/C++/facebookresearch~faiss/faiss/impl/kmeans1d.cpp|facebookresearch|faiss|kmeans1d.cpp|C++|195|56|50
 ./src/_00/output/C++/facebookresearch~faiss/faiss/utils/simdlib_avx512.h|facebookresearch|faiss|simdlib_avx512.h|C/C++ Header|195|32|69
@@ -210,10 +212,10 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/facebookresearch~faiss/c_api/Index_c.cpp|facebookresearch|faiss|Index_c.cpp|C++|190|7|27
 ./src/_00/output/C++/facebookresearch~faiss/tests/test_threaded_index.cpp|facebookresearch|faiss|test_threaded_index.cpp|C++|190|18|52
 ./src/_00/output/C++/facebookresearch~faiss/demos/demo_residual_quantizer.cpp|facebookresearch|faiss|demo_residual_quantizer.cpp|C++|189|57|51
+./src/_00/output/C++/facebookresearch~faiss/.github/workflows/build-pull-request.yml|facebookresearch|faiss|build-pull-request.yml|YAML|187|1|0
 ./src/_00/output/C++/facebookresearch~faiss/faiss/utils/random.cpp|facebookresearch|faiss|random.cpp|C++|187|23|54
 ./src/_00/output/C++/facebookresearch~faiss/tests/test_code_distance.cpp|facebookresearch|faiss|test_code_distance.cpp|C++|186|22|32
 ./src/_00/output/C++/facebookresearch~faiss/faiss/IndexShardsIVF.cpp|facebookresearch|faiss|IndexShardsIVF.cpp|C++|185|19|41
-./src/_00/output/C++/facebookresearch~faiss/tests/test_ivf_index.cpp|facebookresearch|faiss|test_ivf_index.cpp|C++|184|27|29
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/impl/IVFUtilsSelect2.cu|facebookresearch|faiss|IVFUtilsSelect2.cu|CUDA|182|40|36
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/utils/DeviceVector.cuh|facebookresearch|faiss|DeviceVector.cuh|CUDA|180|47|50
 ./src/_00/output/C++/facebookresearch~faiss/faiss/cppcontrib/sa_decode/PQ-inl.h|facebookresearch|faiss|PQ-inl.h|C/C++ Header|179|40|38
@@ -223,6 +225,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/facebookresearch~faiss/faiss/IndexIVFPQR.cpp|facebookresearch|faiss|IndexIVFPQR.cpp|C++|177|17|44
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/impl/IVFInterleaved.cu|facebookresearch|faiss|IVFInterleaved.cu|CUDA|175|35|29
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/test/test_multi_gpu.py|facebookresearch|faiss|test_multi_gpu.py|Python|173|21|54
+./src/_00/output/C++/facebookresearch~faiss/faiss/impl/HNSW.h|facebookresearch|faiss|HNSW.h|C/C++ Header|173|58|63
 ./src/_00/output/C++/facebookresearch~faiss/benchs/distributed_ondisk/run_on_cluster.bash|facebookresearch|faiss|run_on_cluster.bash|Bourne Again Shell|172|31|60
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/impl/VectorResidual.cu|facebookresearch|faiss|VectorResidual.cu|CUDA|172|8|34
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/test/TestGpuIndexIVFScalarQuantizer.cpp|facebookresearch|faiss|TestGpuIndexIVFScalarQuantizer.cpp|C++|172|14|47
@@ -231,7 +234,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/facebookresearch~faiss/faiss/IndexIVFFastScan.h|facebookresearch|faiss|IndexIVFFastScan.h|C/C++ Header|169|44|42
 ./src/_00/output/C++/facebookresearch~faiss/demos/demo_sift1M.cpp|facebookresearch|faiss|demo_sift1M.cpp|C++|165|33|56
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/utils/DeviceTensor-inl.cuh|facebookresearch|faiss|DeviceTensor-inl.cuh|CUDA|164|7|21
-./src/_00/output/C++/facebookresearch~faiss/faiss/impl/HNSW.h|facebookresearch|faiss|HNSW.h|C/C++ Header|164|58|62
 ./src/_00/output/C++/facebookresearch~faiss/faiss/cppcontrib/factory_tools.cpp|facebookresearch|faiss|factory_tools.cpp|C++|162|16|14
 ./src/_00/output/C++/facebookresearch~faiss/tests/test_approx_topk.cpp|facebookresearch|faiss|test_approx_topk.cpp|C++|162|27|35
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/utils/WarpPackedBits.cuh|facebookresearch|faiss|WarpPackedBits.cuh|CUDA|159|78|44
@@ -251,7 +253,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/facebookresearch~faiss/demos/index_pq_flat_separate_codes_from_codebook.py|facebookresearch|faiss|index_pq_flat_separate_codes_from_codebook.py|Python|152|79|72
 ./src/_00/output/C++/facebookresearch~faiss/faiss/IndexReplicas.cpp|facebookresearch|faiss|IndexReplicas.cpp|C++|151|14|42
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/test/test_gpu_index_ivfsq.py|facebookresearch|faiss|test_gpu_index_ivfsq.py|Python|151|22|50
-./src/_00/output/C++/facebookresearch~faiss/.github/actions/build_cmake/action.yml|facebookresearch|faiss|action.yml|YAML|150|17|11
+./src/_00/output/C++/facebookresearch~faiss/.github/actions/build_cmake/action.yml|facebookresearch|faiss|action.yml|YAML|149|17|10
 ./src/_00/output/C++/facebookresearch~faiss/c_api/VectorTransform_c.cpp|facebookresearch|faiss|VectorTransform_c.cpp|C++|149|31|47
 ./src/_00/output/C++/facebookresearch~faiss/.github/workflows/nightly.yml|facebookresearch|faiss|nightly.yml|YAML|148|0|0
 ./src/_00/output/C++/facebookresearch~faiss/demos/offline_ivf/dataset.py|facebookresearch|faiss|dataset.py|Python|148|12|14
@@ -263,13 +265,13 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/facebookresearch~faiss/faiss/utils/AlignedTable.h|facebookresearch|faiss|AlignedTable.h|C/C++ Header|144|10|26
 ./src/_00/output/C++/facebookresearch~faiss/tests/test_binary_hashindex.py|facebookresearch|faiss|test_binary_hashindex.py|Python|143|28|48
 ./src/_00/output/C++/facebookresearch~faiss/demos/demo_weighted_kmeans.cpp|facebookresearch|faiss|demo_weighted_kmeans.cpp|C++|142|9|30
+./src/_00/output/C++/facebookresearch~faiss/.github/workflows/build-release.yml|facebookresearch|faiss|build-release.yml|YAML|141|0|0
 ./src/_00/output/C++/facebookresearch~faiss/faiss/IndexNNDescent.cpp|facebookresearch|faiss|IndexNNDescent.cpp|C++|141|19|39
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/utils/StackDeviceMemory.cpp|facebookresearch|faiss|StackDeviceMemory.cpp|C++|140|26|42
 ./src/_00/output/C++/facebookresearch~faiss/benchs/bench_ivfflat_cuvs.py|facebookresearch|faiss|bench_ivfflat_cuvs.py|Python|139|25|30
 ./src/_00/output/C++/facebookresearch~faiss/c_api/Clustering_c.cpp|facebookresearch|faiss|Clustering_c.cpp|C++|137|14|19
 ./src/_00/output/C++/facebookresearch~faiss/faiss/IndexAdditiveQuantizer.h|facebookresearch|faiss|IndexAdditiveQuantizer.h|C/C++ Header|137|76|49
 ./src/_00/output/C++/facebookresearch~faiss/c_api/IndexIVF_c.cpp|facebookresearch|faiss|IndexIVF_c.cpp|C++|136|20|28
-./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/utils/ConversionOperators.cuh|facebookresearch|faiss|ConversionOperators.cuh|CUDA|136|11|25
 ./src/_00/output/C++/facebookresearch~faiss/faiss/utils/hamming.h|facebookresearch|faiss|hamming.h|C/C++ Header|136|109|42
 ./src/_00/output/C++/facebookresearch~faiss/benchs/distributed_ondisk/combined_index.py|facebookresearch|faiss|combined_index.py|Python|135|18|40
 ./src/_00/output/C++/facebookresearch~faiss/c_api/IndexFlat_c.cpp|facebookresearch|faiss|IndexFlat_c.cpp|C++|135|7|23
@@ -279,6 +281,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/facebookresearch~faiss/faiss/impl/ThreadedIndex-inl.h|facebookresearch|faiss|ThreadedIndex-inl.h|C/C++ Header|134|23|33
 ./src/_00/output/C++/facebookresearch~faiss/tests/test_sliding_ivf.cpp|facebookresearch|faiss|test_sliding_ivf.cpp|C++|134|25|46
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/test/TestGpuIndexBinaryFlat.cpp|facebookresearch|faiss|TestGpuIndexBinaryFlat.cpp|C++|132|20|47
+./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/utils/ConversionOperators.cuh|facebookresearch|faiss|ConversionOperators.cuh|CUDA|132|10|22
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/utils/BlockSelectKernel.cuh|facebookresearch|faiss|BlockSelectKernel.cuh|CUDA|129|12|28
 ./src/_00/output/C++/facebookresearch~faiss/tests/test_index_binary_from_float.py|facebookresearch|faiss|test_index_binary_from_float.py|Python|129|8|58
 ./src/_00/output/C++/facebookresearch~faiss/faiss/impl/ProductQuantizer.h|facebookresearch|faiss|ProductQuantizer.h|C/C++ Header|128|70|51
@@ -286,6 +289,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/utils/BlockSelectFloat.cu|facebookresearch|faiss|BlockSelectFloat.cu|CUDA|127|15|10
 ./src/_00/output/C++/facebookresearch~faiss/tests/test_extra_distances.py|facebookresearch|faiss|test_extra_distances.py|Python|127|10|44
 ./src/_00/output/C++/facebookresearch~faiss/faiss/IndexIVFIndependentQuantizer.cpp|facebookresearch|faiss|IndexIVFIndependentQuantizer.cpp|C++|126|17|29
+./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/hipify.sh|facebookresearch|faiss|hipify.sh|Bourne Shell|126|29|16
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/perf/PerfIVFPQAdd.cpp|facebookresearch|faiss|PerfIVFPQAdd.cpp|C++|126|7|26
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/impl/IVFBase.cuh|facebookresearch|faiss|IVFBase.cuh|CUDA|125|103|52
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/GpuResources.h|facebookresearch|faiss|GpuResources.h|C/C++ Header|124|119|69
@@ -330,17 +334,17 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/facebookresearch~faiss/benchs/bench_heap_replace.cpp|facebookresearch|faiss|bench_heap_replace.cpp|C++|104|9|26
 ./src/_00/output/C++/facebookresearch~faiss/demos/offline_ivf/tests/test_iterate_input.py|facebookresearch|faiss|test_iterate_input.py|Python|104|19|10
 ./src/_00/output/C++/facebookresearch~faiss/conda/faiss-gpu/meta.yaml|facebookresearch|faiss|meta.yaml|YAML|103|4|7
-./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/hipify.sh|facebookresearch|faiss|hipify.sh|Bourne Shell|103|21|12
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/test/demo_ivfpq_indexing_gpu.cpp|facebookresearch|faiss|demo_ivfpq_indexing_gpu.cpp|C++|103|19|36
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/utils/PtxUtils.cuh|facebookresearch|faiss|PtxUtils.cuh|CUDA|103|7|25
 ./src/_00/output/C++/facebookresearch~faiss/faiss/impl/residual_quantizer_encode_steps.h|facebookresearch|faiss|residual_quantizer_encode_steps.h|C/C++ Header|103|51|22
 ./src/_00/output/C++/facebookresearch~faiss/c_api/Index_c.h|facebookresearch|faiss|Index_c.h|C/C++ Header|102|144|35
 ./src/_00/output/C++/facebookresearch~faiss/faiss/IndexIVFAdditiveQuantizer.h|facebookresearch|faiss|IndexIVFAdditiveQuantizer.h|C/C++ Header|101|51|35
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/impl/IVFPQ.cuh|facebookresearch|faiss|IVFPQ.cuh|CUDA|101|49|31
-./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/impl/CuvsFlatIndex.cu|facebookresearch|faiss|CuvsFlatIndex.cu|CUDA|100|28|18
+./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/impl/CuvsFlatIndex.cu|facebookresearch|faiss|CuvsFlatIndex.cu|CUDA|99|28|18
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/impl/IVFUtils.cu|facebookresearch|faiss|IVFUtils.cu|CUDA|99|60|30
 ./src/_00/output/C++/facebookresearch~faiss/demos/demo_ivfpq_indexing.cpp|facebookresearch|faiss|demo_ivfpq_indexing.cpp|C++|97|16|33
 ./src/_00/output/C++/facebookresearch~faiss/faiss/impl/AdditiveQuantizer.h|facebookresearch|faiss|AdditiveQuantizer.h|C/C++ Header|97|83|38
+./src/_00/output/C++/facebookresearch~faiss/.github/actions/build_conda/action.yml|facebookresearch|faiss|action.yml|YAML|95|1|0
 ./src/_00/output/C++/facebookresearch~faiss/c_api/gpu/example_gpu_c.c|facebookresearch|faiss|example_gpu_c.c|C|95|7|17
 ./src/_00/output/C++/facebookresearch~faiss/demos/demo_auto_tune.py|facebookresearch|faiss|demo_auto_tune.py|Python|95|24|50
 ./src/_00/output/C++/facebookresearch~faiss/faiss/IndexFastScan.h|facebookresearch|faiss|IndexFastScan.h|C/C++ Header|95|27|28
@@ -360,7 +364,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/StandardGpuResources.h|facebookresearch|faiss|StandardGpuResources.h|C/C++ Header|92|117|60
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/perf/PerfClustering.cpp|facebookresearch|faiss|PerfClustering.cpp|C++|92|9|26
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/utils/blockselect/BlockSelectImpl.cuh|facebookresearch|faiss|BlockSelectImpl.cuh|CUDA|92|6|6
-./src/_00/output/C++/facebookresearch~faiss/.github/actions/build_conda/action.yml|facebookresearch|faiss|action.yml|YAML|91|1|0
 ./src/_00/output/C++/facebookresearch~faiss/c_api/AutoTune_c.cpp|facebookresearch|faiss|AutoTune_c.cpp|C++|91|8|14
 ./src/_00/output/C++/facebookresearch~faiss/contrib/ivf_tools.py|facebookresearch|faiss|ivf_tools.py|Python|91|31|26
 ./src/_00/output/C++/facebookresearch~faiss/faiss/IndexBinaryFlat.cpp|facebookresearch|faiss|IndexBinaryFlat.cpp|C++|91|9|15
@@ -383,6 +386,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/facebookresearch~faiss/faiss/impl/IDSelector.cpp|facebookresearch|faiss|IDSelector.cpp|C++|87|21|17
 ./src/_00/output/C++/facebookresearch~faiss/faiss/utils/NeuralNet.h|facebookresearch|faiss|NeuralNet.h|C/C++ Header|87|19|41
 ./src/_00/output/C++/facebookresearch~faiss/tests/test_transfer_invlists.cpp|facebookresearch|faiss|test_transfer_invlists.cpp|C++|87|27|33
+./src/_00/output/C++/facebookresearch~faiss/CMakeLists.txt|facebookresearch|faiss|CMakeLists.txt|CMake|86|21|18
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/GpuIndexIVF.h|facebookresearch|faiss|GpuIndexIVF.h|C/C++ Header|86|42|26
 ./src/_00/output/C++/facebookresearch~faiss/benchs/bench_ivf_fastscan_single_query.py|facebookresearch|faiss|bench_ivf_fastscan_single_query.py|Python|85|10|27
 ./src/_00/output/C++/facebookresearch~faiss/benchs/distributed_ondisk/make_index_vslice.py|facebookresearch|faiss|make_index_vslice.py|Python|85|4|28
@@ -394,7 +398,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/facebookresearch~faiss/faiss/Clustering.h|facebookresearch|faiss|Clustering.h|C/C++ Header|84|93|36
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/GpuAutoTune.cpp|facebookresearch|faiss|GpuAutoTune.cpp|C++|84|12|15
 ./src/_00/output/C++/facebookresearch~faiss/faiss/impl/NNDescent.h|facebookresearch|faiss|NNDescent.h|C/C++ Header|84|30|40
-./src/_00/output/C++/facebookresearch~faiss/CMakeLists.txt|facebookresearch|faiss|CMakeLists.txt|CMake|83|21|19
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/GpuIndexIVFPQ.h|facebookresearch|faiss|GpuIndexIVFPQ.h|C/C++ Header|83|61|37
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/perf/WriteIndex.cpp|facebookresearch|faiss|WriteIndex.cpp|C++|83|10|20
 ./src/_00/output/C++/facebookresearch~faiss/faiss/python/setup.py|facebookresearch|faiss|setup.py|Python|83|12|15
@@ -413,7 +416,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/perf/PerfBinaryFlat.cu|facebookresearch|faiss|PerfBinaryFlat.cu|CUDA|79|12|30
 ./src/_00/output/C++/facebookresearch~faiss/faiss/utils/approx_topk/generic.h|facebookresearch|faiss|generic.h|C/C++ Header|79|39|20
 ./src/_00/output/C++/facebookresearch~faiss/tests/test_cppcontrib_uintreader.cpp|facebookresearch|faiss|test_cppcontrib_uintreader.cpp|C++|79|15|20
-./src/_00/output/C++/facebookresearch~faiss/tests/test_distances_simd.cpp|facebookresearch|faiss|test_distances_simd.cpp|C++|79|13|17
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/impl/CuvsIVFFlat.cuh|facebookresearch|faiss|CuvsIVFFlat.cuh|CUDA|78|49|24
 ./src/_00/output/C++/facebookresearch~faiss/tests/test_refine.py|facebookresearch|faiss|test_refine.py|Python|77|13|31
 ./src/_00/output/C++/facebookresearch~faiss/c_api/index_io_c.cpp|facebookresearch|faiss|index_io_c.cpp|C++|76|8|12
@@ -452,6 +454,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/facebookresearch~faiss/README.md|facebookresearch|faiss|README.md|Markdown|66|0|26
 ./src/_00/output/C++/facebookresearch~faiss/faiss/IVFlib.h|facebookresearch|faiss|IVFlib.h|C/C++ Header|66|80|27
 ./src/_00/output/C++/facebookresearch~faiss/faiss/IndexIVFFlat.h|facebookresearch|faiss|IndexIVFFlat.h|C/C++ Header|66|19|24
+./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/test/test_gpu_index_refs.py|facebookresearch|faiss|test_gpu_index_refs.py|Python|66|10|22
 ./src/_00/output/C++/facebookresearch~faiss/faiss/impl/io_macros.h|facebookresearch|faiss|io_macros.h|C/C++ Header|66|15|13
 ./src/_00/output/C++/facebookresearch~faiss/faiss/utils/ordered_key_value.h|facebookresearch|faiss|ordered_key_value.h|C/C++ Header|66|24|16
 ./src/_00/output/C++/facebookresearch~faiss/faiss/impl/ProductAdditiveQuantizer.h|facebookresearch|faiss|ProductAdditiveQuantizer.h|C/C++ Header|65|67|22
@@ -488,6 +491,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/facebookresearch~faiss/benchs/bench_pq_tables.py|facebookresearch|faiss|bench_pq_tables.py|Python|55|6|16
 ./src/_00/output/C++/facebookresearch~faiss/faiss/IndexNSG.h|facebookresearch|faiss|IndexNSG.h|C/C++ Header|55|28|26
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/impl/FlatIndex.cuh|facebookresearch|faiss|FlatIndex.cuh|CUDA|55|49|29
+./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/utils/Float16.cuh|facebookresearch|faiss|Float16.cuh|CUDA|55|11|18
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/utils/ThrustUtils.cuh|facebookresearch|faiss|ThrustUtils.cuh|CUDA|55|15|12
 ./src/_00/output/C++/facebookresearch~faiss/faiss/invlists/DirectMap.h|facebookresearch|faiss|DirectMap.h|C/C++ Header|55|29|30
 ./src/_00/output/C++/facebookresearch~faiss/benchs/bench_index_flat.py|facebookresearch|faiss|bench_index_flat.py|Python|54|7|25
@@ -499,7 +503,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/facebookresearch~faiss/c_api/gpu/StandardGpuResources_c.cpp|facebookresearch|faiss|StandardGpuResources_c.cpp|C++|52|7|10
 ./src/_00/output/C++/facebookresearch~faiss/c_api/utils/distances_c.h|facebookresearch|faiss|distances_c.h|C/C++ Header|52|34|23
 ./src/_00/output/C++/facebookresearch~faiss/demos/demo_client_server_ivf.py|facebookresearch|faiss|demo_client_server_ivf.py|Python|52|14|25
-./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/utils/Float16.cuh|facebookresearch|faiss|Float16.cuh|CUDA|52|17|18
 ./src/_00/output/C++/facebookresearch~faiss/faiss/impl/code_distance/code_distance-generic.h|facebookresearch|faiss|code_distance-generic.h|C/C++ Header|52|18|11
 ./src/_00/output/C++/facebookresearch~faiss/tutorial/cpp/7-PQFastScan.cpp|facebookresearch|faiss|7-PQFastScan.cpp|C++|52|6|17
 ./src/_00/output/C++/facebookresearch~faiss/benchs/bench_6bit_codec.cpp|facebookresearch|faiss|bench_6bit_codec.cpp|C++|51|12|19
@@ -519,6 +522,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/utils/StackDeviceMemory.h|facebookresearch|faiss|StackDeviceMemory.h|C/C++ Header|49|35|28
 ./src/_00/output/C++/facebookresearch~faiss/demos/demo_ondisk_ivf.py|facebookresearch|faiss|demo_ondisk_ivf.py|Python|48|15|23
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/utils/HostTensor.cuh|facebookresearch|faiss|HostTensor.cuh|CUDA|48|26|20
+./src/_00/output/C++/facebookresearch~faiss/tests/test_disable_pq_sdc_tables.cpp|facebookresearch|faiss|test_disable_pq_sdc_tables.cpp|C++|48|11|10
 ./src/_00/output/C++/facebookresearch~faiss/tests/test_mem_leak.cpp|facebookresearch|faiss|test_mem_leak.cpp|C++|48|6|12
 ./src/_00/output/C++/facebookresearch~faiss/benchs/bench_fw_optimize.py|facebookresearch|faiss|bench_fw_optimize.py|Python|47|4|7
 ./src/_00/output/C++/facebookresearch~faiss/c_api/IndexReplicas_c.cpp|facebookresearch|faiss|IndexReplicas_c.cpp|C++|47|6|9
@@ -545,7 +549,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/test/test_cuvs.py|facebookresearch|faiss|test_cuvs.py|Python|43|9|16
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/utils/CuvsUtils.h|facebookresearch|faiss|CuvsUtils.h|C/C++ Header|43|26|7
 ./src/_00/output/C++/facebookresearch~faiss/faiss/utils/partitioning.h|facebookresearch|faiss|partitioning.h|C/C++ Header|43|18|13
-./src/_00/output/C++/facebookresearch~faiss/tests/test_disable_pq_sdc_tables.cpp|facebookresearch|faiss|test_disable_pq_sdc_tables.cpp|C++|43|9|9
 ./src/_00/output/C++/facebookresearch~faiss/c_api/gpu/GpuAutoTune_c.h|facebookresearch|faiss|GpuAutoTune_c.h|C/C++ Header|42|13|11
 ./src/_00/output/C++/facebookresearch~faiss/faiss/IndexFlatCodes.h|facebookresearch|faiss|IndexFlatCodes.h|C/C++ Header|42|20|24
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/impl/VectorResidual.cuh|facebookresearch|faiss|VectorResidual.cuh|CUDA|42|8|11
@@ -616,7 +619,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/impl/IVFFlatScan.cuh|facebookresearch|faiss|IVFFlatScan.cuh|CUDA|28|8|6
 ./src/_00/output/C++/facebookresearch~faiss/faiss/IndexIVFIndependentQuantizer.h|facebookresearch|faiss|IndexIVFIndependentQuantizer.h|C/C++ Header|27|14|15
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/impl/InterleavedCodes.h|facebookresearch|faiss|InterleavedCodes.h|C/C++ Header|27|22|8
-./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/impl/L2Norm.cuh|facebookresearch|faiss|L2Norm.cuh|CUDA|27|7|7
 ./src/_00/output/C++/facebookresearch~faiss/tutorial/python/8-PQFastScanRefine.py|facebookresearch|faiss|8-PQFastScanRefine.py|Python|27|5|6
 ./src/_00/output/C++/facebookresearch~faiss/c_api/IndexLSH_c.h|facebookresearch|faiss|IndexLSH_c.h|C/C++ Header|26|8|10
 ./src/_00/output/C++/facebookresearch~faiss/c_api/IndexReplicas_c.h|facebookresearch|faiss|IndexReplicas_c.h|C/C++ Header|26|9|12
@@ -626,6 +628,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/facebookresearch~faiss/faiss/utils/hamming_distance/common.h|facebookresearch|faiss|common.h|C/C++ Header|26|13|10
 ./src/_00/output/C++/facebookresearch~faiss/tests/test_binary_factory.py|facebookresearch|faiss|test_binary_factory.py|Python|26|4|14
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/impl/IndexUtils.cu|facebookresearch|faiss|IndexUtils.cu|CUDA|25|10|7
+./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/impl/L2Norm.cuh|facebookresearch|faiss|L2Norm.cuh|CUDA|25|6|7
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/utils/Timer.h|facebookresearch|faiss|Timer.h|C/C++ Header|25|17|11
 ./src/_00/output/C++/facebookresearch~faiss/faiss/python/python_callbacks.h|facebookresearch|faiss|python_callbacks.h|C/C++ Header|25|18|17
 ./src/_00/output/C++/facebookresearch~faiss/faiss/utils/WorkerThread.h|facebookresearch|faiss|WorkerThread.h|C/C++ Header|25|21|15
@@ -643,7 +646,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/facebookresearch~faiss/faiss/IndexShardsIVF.h|facebookresearch|faiss|IndexShardsIVF.h|C/C++ Header|23|10|9
 ./src/_00/output/C++/facebookresearch~faiss/faiss/gpu/impl/PQCodeDistances.cuh|facebookresearch|faiss|PQCodeDistances.cuh|CUDA|23|10|7
 ./src/_00/output/C++/facebookresearch~faiss/tests/test_callback.cpp|facebookresearch|faiss|test_callback.cpp|C++|23|6|8
-./src/_00/output/C++/facebookresearch~faiss/tests/test_oom_exception.py|facebookresearch|faiss|test_oom_exception.py|Python|23|6|5
 ./src/_00/output/C++/facebookresearch~faiss/tutorial/python/2-IVFFlat.py|facebookresearch|faiss|2-IVFFlat.py|Python|23|5|6
 ./src/_00/output/C++/facebookresearch~faiss/tutorial/python/3-IVFPQ.py|facebookresearch|faiss|3-IVFPQ.py|Python|23|5|4
 ./src/_00/output/C++/facebookresearch~faiss/.github/workflows/autoclose.yml|facebookresearch|faiss|autoclose.yml|YAML|22|0|1
@@ -681,6 +683,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/facebookresearch~faiss/faiss/utils/distances_fused/avx512.h|facebookresearch|faiss|avx512.h|C/C++ Header|16|11|9
 ./src/_00/output/C++/facebookresearch~faiss/faiss/utils/distances_fused/simdlib_based.h|facebookresearch|faiss|simdlib_based.h|C/C++ Header|16|8|8
 ./src/_00/output/C++/facebookresearch~faiss/faiss/utils/fp16-fp16c.h|facebookresearch|faiss|fp16-fp16c.h|C/C++ Header|16|6|6
+./src/_00/output/C++/facebookresearch~faiss/.github/workflows/build.yml|facebookresearch|faiss|build.yml|YAML|15|0|0
 ./src/_00/output/C++/facebookresearch~faiss/benchs/bench_all_ivf/make_groundtruth.py|facebookresearch|faiss|make_groundtruth.py|Python|15|5|7
 ./src/_00/output/C++/facebookresearch~faiss/c_api/clone_index_c.h|facebookresearch|faiss|clone_index_c.h|C/C++ Header|15|11|8
 ./src/_00/output/C++/facebookresearch~faiss/c_api/error_impl.cpp|facebookresearch|faiss|error_impl.cpp|C++|15|7|4

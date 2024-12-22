@@ -11,7 +11,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/x64dbg~x64dbg/src/dbg/debugger.cpp|x64dbg|x64dbg|debugger.cpp|C++|2723|154|294
 ./src/_00/output/C++/x64dbg~x64dbg/bin/ntstatusdb.txt|x64dbg|x64dbg|ntstatusdb.txt|Text|2564|0|0
 ./src/_00/output/C++/x64dbg~x64dbg/src/gui/Src/Gui/RegistersView.cpp|x64dbg|x64dbg|RegistersView.cpp|C++|2419|163|303
-./src/_00/output/C++/x64dbg~x64dbg/src/gui/Src/Gui/MainWindow.cpp|x64dbg|x64dbg|MainWindow.cpp|C++|2332|127|304
+./src/_00/output/C++/x64dbg~x64dbg/src/gui/Src/Gui/MainWindow.cpp|x64dbg|x64dbg|MainWindow.cpp|C++|2335|127|304
 ./src/_00/output/C++/x64dbg~x64dbg/src/dbg/value.cpp|x64dbg|x64dbg|value.cpp|C++|2247|184|157
 ./src/_00/output/C++/x64dbg~x64dbg/src/gui/Src/Gui/DisassemblerGraphView.cpp|x64dbg|x64dbg|DisassemblerGraphView.cpp|C++|2225|217|276
 ./src/_00/output/C++/x64dbg~x64dbg/src/gui/Src/BasicView/Disassembly.cpp|x64dbg|x64dbg|Disassembly.cpp|C++|1908|207|266
@@ -41,12 +41,12 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/x64dbg~x64dbg/src/gui/Src/Gui/AppearanceDialog.cpp|x64dbg|x64dbg|AppearanceDialog.cpp|C++|965|28|95
 ./src/_00/output/C++/x64dbg~x64dbg/src/gui/Src/BasicView/AbstractStdTable.cpp|x64dbg|x64dbg|AbstractStdTable.cpp|C++|942|42|96
 ./src/_00/output/C++/x64dbg~x64dbg/src/gui/Src/Bridge/Bridge.cpp|x64dbg|x64dbg|Bridge.cpp|C++|938|27|151
+./src/_00/output/C++/x64dbg~x64dbg/src/dbg/memory.cpp|x64dbg|x64dbg|memory.cpp|C++|909|114|187
 ./src/_00/output/C++/x64dbg~x64dbg/src/dbg/pdbdiafile.cpp|x64dbg|x64dbg|pdbdiafile.cpp|C++|908|22|158
 ./src/_00/output/C++/x64dbg~x64dbg/src/dbg/x64dbg_dbg.vcxproj.filters|x64dbg|x64dbg|x64dbg_dbg.vcxproj.filters|XML|908|0|0
 ./src/_00/output/C++/x64dbg~x64dbg/bin/themes/Dark/style.css|x64dbg|x64dbg|style.css|CSS|891|32|195
 ./src/_00/output/C++/x64dbg~x64dbg/src/zydis_wrapper/zydis_wrapper.cpp|x64dbg|x64dbg|zydis_wrapper.cpp|C++|884|17|67
 ./src/_00/output/C++/x64dbg~x64dbg/src/gui/Src/Tracer/TraceFileReader.cpp|x64dbg|x64dbg|TraceFileReader.cpp|C++|877|131|51
-./src/_00/output/C++/x64dbg~x64dbg/src/dbg/memory.cpp|x64dbg|x64dbg|memory.cpp|C++|855|108|175
 ./src/_00/output/C++/x64dbg~x64dbg/src/gui/Src/Gui/EditFloatRegister.ui|x64dbg|x64dbg|EditFloatRegister.ui|Qt|846|0|0
 ./src/_00/output/C++/x64dbg~x64dbg/src/gui/Src/Gui/EditFloatRegister.cpp|x64dbg|x64dbg|EditFloatRegister.cpp|C++|832|37|23
 ./src/_00/output/C++/x64dbg~x64dbg/src/gui/Src/Gui/CPUStack.cpp|x64dbg|x64dbg|CPUStack.cpp|C++|830|43|113
@@ -81,7 +81,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/x64dbg~x64dbg/src/dbg/symbolinfo.cpp|x64dbg|x64dbg|symbolinfo.cpp|C++|516|42|80
 ./src/_00/output/C++/x64dbg~x64dbg/src/gui/Src/Gui/AboutDialog.ui|x64dbg|x64dbg|AboutDialog.ui|Qt|511|0|0
 ./src/_00/output/C++/x64dbg~x64dbg/src/gui/Src/Gui/FavouriteTools.cpp|x64dbg|x64dbg|FavouriteTools.cpp|C++|507|2|35
-./src/_00/output/C++/x64dbg~x64dbg/src/gui/Src/Gui/LogView.cpp|x64dbg|x64dbg|LogView.cpp|C++|488|55|52
+./src/_00/output/C++/x64dbg~x64dbg/src/gui/Src/Gui/LogView.cpp|x64dbg|x64dbg|LogView.cpp|C++|490|55|53
 ./src/_00/output/C++/x64dbg~x64dbg/src/dbg/analysis/recursiveanalysis.cpp|x64dbg|x64dbg|recursiveanalysis.cpp|C++|481|37|39
 ./src/_00/output/C++/x64dbg~x64dbg/src/dbg/symbolsourcedia.cpp|x64dbg|x64dbg|symbolsourcedia.cpp|C++|471|20|94
 ./src/_00/output/C++/x64dbg~x64dbg/src/dbg/x64dbg_dbg.vcxproj|x64dbg|x64dbg|x64dbg_dbg.vcxproj|XML|470|0|0
@@ -129,8 +129,8 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/x64dbg~x64dbg/src/dbg/_dbgfunctions.h|x64dbg|x64dbg|_dbgfunctions.h|C/C++ Header|289|7|33
 ./src/_00/output/C++/x64dbg~x64dbg/src/gui/Src/BasicView/SearchListView.cpp|x64dbg|x64dbg|SearchListView.cpp|C++|288|44|48
 ./src/_00/output/C++/x64dbg~x64dbg/src/gui/Src/Utils/StringUtil.cpp|x64dbg|x64dbg|StringUtil.cpp|C++|288|1|12
+./src/_00/output/C++/x64dbg~x64dbg/src/gui/Src/Gui/EditBreakpointDialog.ui|x64dbg|x64dbg|EditBreakpointDialog.ui|Qt|287|0|0
 ./src/_00/output/C++/x64dbg~x64dbg/src/gui/Src/Gui/WatchView.cpp|x64dbg|x64dbg|WatchView.cpp|C++|282|8|25
-./src/_00/output/C++/x64dbg~x64dbg/src/gui/Src/Gui/EditBreakpointDialog.ui|x64dbg|x64dbg|EditBreakpointDialog.ui|Qt|280|0|0
 ./src/_00/output/C++/x64dbg~x64dbg/src/dbg/_scriptapi_register.h|x64dbg|x64dbg|_scriptapi_register.h|C/C++ Header|278|0|11
 ./src/_00/output/C++/x64dbg~x64dbg/src/gui/Src/Tracer/TraceFileSearch.cpp|x64dbg|x64dbg|TraceFileSearch.cpp|C++|278|19|12
 ./src/_00/output/C++/x64dbg~x64dbg/src/gui/Src/Gui/CPUWidget.cpp|x64dbg|x64dbg|CPUWidget.cpp|C++|272|14|53
@@ -151,7 +151,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/x64dbg~x64dbg/src/gui/Src/BasicView/LabeledSplitter.cpp|x64dbg|x64dbg|LabeledSplitter.cpp|C++|243|14|32
 ./src/_00/output/C++/x64dbg~x64dbg/src/gui/Src/Gui/SettingsDialog.h|x64dbg|x64dbg|SettingsDialog.h|C/C++ Header|243|21|16
 ./src/_00/output/C++/x64dbg~x64dbg/src/gui/Src/Utils/ActionHelpers.h|x64dbg|x64dbg|ActionHelpers.h|C/C++ Header|238|2|36
-./src/_00/output/C++/x64dbg~x64dbg/src/gui/Src/Gui/CommandLineEdit.cpp|x64dbg|x64dbg|CommandLineEdit.cpp|C++|231|29|44
+./src/_00/output/C++/x64dbg~x64dbg/src/gui/Src/Gui/CommandLineEdit.cpp|x64dbg|x64dbg|CommandLineEdit.cpp|C++|232|30|44
 ./src/_00/output/C++/x64dbg~x64dbg/src/gui/Src/Tracer/TraceInfoBox.cpp|x64dbg|x64dbg|TraceInfoBox.cpp|C++|231|10|12
 ./src/_00/output/C++/x64dbg~x64dbg/src/dbg/commands/cmd-thread-control.cpp|x64dbg|x64dbg|cmd-thread-control.cpp|C++|229|5|11
 ./src/_00/output/C++/x64dbg~x64dbg/src/dbg/jansson/jansson.h|x64dbg|x64dbg|jansson.h|C/C++ Header|229|21|65
@@ -161,10 +161,10 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/x64dbg~x64dbg/src/gui/Src/QHexEdit/QHexEdit.cpp|x64dbg|x64dbg|QHexEdit.cpp|C++|224|2|37
 ./src/_00/output/C++/x64dbg~x64dbg/src/dbg/loop.cpp|x64dbg|x64dbg|loop.cpp|C++|221|38|69
 ./src/_00/output/C++/x64dbg~x64dbg/src/dbg/patches.cpp|x64dbg|x64dbg|patches.cpp|C++|221|48|63
+./src/_00/output/C++/x64dbg~x64dbg/src/gui/Src/Gui/SimpleTraceDialog.ui|x64dbg|x64dbg|SimpleTraceDialog.ui|Qt|221|0|0
 ./src/_00/output/C++/x64dbg~x64dbg/src/dbg/threading.h|x64dbg|x64dbg|threading.h|C/C++ Header|219|11|38
 ./src/_00/output/C++/x64dbg~x64dbg/src/gui/Src/Gui/RegistersView.h|x64dbg|x64dbg|RegistersView.h|C/C++ Header|219|32|21
 ./src/_00/output/C++/x64dbg~x64dbg/src/dbg/analysis/LinearPass.cpp|x64dbg|x64dbg|LinearPass.cpp|C++|218|74|62
-./src/_00/output/C++/x64dbg~x64dbg/src/gui/Src/Gui/SimpleTraceDialog.ui|x64dbg|x64dbg|SimpleTraceDialog.ui|Qt|218|0|0
 ./src/_00/output/C++/x64dbg~x64dbg/src/gui/Src/Gui/MultiItemsSelectWindow.cpp|x64dbg|x64dbg|MultiItemsSelectWindow.cpp|C++|214|1|30
 ./src/_00/output/C++/x64dbg~x64dbg/src/gui/Src/Gui/GotoDialog.cpp|x64dbg|x64dbg|GotoDialog.cpp|C++|212|3|19
 ./src/_00/output/C++/x64dbg~x64dbg/src/gui/Src/Gui/SourceView.cpp|x64dbg|x64dbg|SourceView.cpp|C++|212|1|24
@@ -237,7 +237,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/x64dbg~x64dbg/src/dbg/taskthread.h|x64dbg|x64dbg|taskthread.h|C/C++ Header|124|5|30
 ./src/_00/output/C++/x64dbg~x64dbg/src/gui/Src/Gui/CustomizeMenuDialog.cpp|x64dbg|x64dbg|CustomizeMenuDialog.cpp|C++|119|5|4
 ./src/_00/output/C++/x64dbg~x64dbg/src/dbg/commands/cmd-operating-system-control.cpp|x64dbg|x64dbg|cmd-operating-system-control.cpp|C++|117|0|10
-./src/_00/output/C++/x64dbg~x64dbg/src/gui/Src/Gui/SimpleTraceDialog.cpp|x64dbg|x64dbg|SimpleTraceDialog.cpp|C++|116|0|7
+./src/_00/output/C++/x64dbg~x64dbg/src/gui/Src/Gui/SimpleTraceDialog.cpp|x64dbg|x64dbg|SimpleTraceDialog.cpp|C++|117|0|7
 ./src/_00/output/C++/x64dbg~x64dbg/src/gui/Src/Utils/StringUtil.h|x64dbg|x64dbg|StringUtil.h|C/C++ Header|114|10|25
 ./src/_00/output/C++/x64dbg~x64dbg/src/dbg/commandline.cpp|x64dbg|x64dbg|commandline.cpp|C++|113|7|23
 ./src/_00/output/C++/x64dbg~x64dbg/src/gui/Src/Gui/PageMemoryRights.cpp|x64dbg|x64dbg|PageMemoryRights.cpp|C++|113|1|19
@@ -265,11 +265,11 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/x64dbg~x64dbg/src/dbg/symbolsourcebase.cpp|x64dbg|x64dbg|symbolsourcebase.cpp|C++|98|7|16
 ./src/_00/output/C++/x64dbg~x64dbg/src/gui/Src/QHexEdit/ArrayCommand.cpp|x64dbg|x64dbg|ArrayCommand.cpp|C++|98|0|10
 ./src/_00/output/C++/x64dbg~x64dbg/src/dbg/commands/cmd-script.cpp|x64dbg|x64dbg|cmd-script.cpp|C++|97|0|8
+./src/_00/output/C++/x64dbg~x64dbg/src/gui/Src/Gui/EditBreakpointDialog.cpp|x64dbg|x64dbg|EditBreakpointDialog.cpp|C++|97|0|10
 ./src/_00/output/C++/x64dbg~x64dbg/src/gui/Src/Tracer/TraceDump.h|x64dbg|x64dbg|TraceDump.h|C/C++ Header|97|13|20
 ./src/_00/output/C++/x64dbg~x64dbg/src/gui/Src/Utils/MenuBuilder.cpp|x64dbg|x64dbg|MenuBuilder.cpp|C++|97|14|6
 ./src/_00/output/C++/x64dbg~x64dbg/src/dbg/disasm_fast.cpp|x64dbg|x64dbg|disasm_fast.cpp|C++|96|10|8
 ./src/_00/output/C++/x64dbg~x64dbg/src/gui/Src/Gui/CPUSideBar.h|x64dbg|x64dbg|CPUSideBar.h|C/C++ Header|96|3|21
-./src/_00/output/C++/x64dbg~x64dbg/src/gui/Src/Gui/EditBreakpointDialog.cpp|x64dbg|x64dbg|EditBreakpointDialog.cpp|C++|96|0|9
 ./src/_00/output/C++/x64dbg~x64dbg/src/bridge/bridgelist.h|x64dbg|x64dbg|bridgelist.h|C/C++ Header|95|37|17
 ./src/_00/output/C++/x64dbg~x64dbg/src/dbg/_scriptapi_flag.cpp|x64dbg|x64dbg|_scriptapi_flag.cpp|C++|95|0|21
 ./src/_00/output/C++/x64dbg~x64dbg/src/gui/Src/Gui/LineEditDialog.ui|x64dbg|x64dbg|LineEditDialog.ui|Qt|95|0|0

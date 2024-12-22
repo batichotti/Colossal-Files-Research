@@ -1,13 +1,14 @@
 path|owner|project|file|language|code|comment|blank
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/pnpm-lock.yaml|hoppscotch|hoppscotch|pnpm-lock.yaml|YAML|22043|0|5062
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/collections/index.vue|hoppscotch|hoppscotch|index.vue|Vuejs Component|2468|130|361
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/pnpm-lock.yaml|hoppscotch|hoppscotch|pnpm-lock.yaml|YAML|22106|0|5068
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/collections/index.vue|hoppscotch|hoppscotch|index.vue|Vuejs Component|2454|130|359
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-agent/pnpm-lock.yaml|hoppscotch|hoppscotch|pnpm-lock.yaml|YAML|2253|0|699
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/user-collection/user-collection.service.spec.ts|hoppscotch|hoppscotch|user-collection.service.spec.ts|TypeScript|1584|103|150
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/team-collection/team-collection.service.spec.ts|hoppscotch|hoppscotch|team-collection.service.spec.ts|TypeScript|1465|154|187
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/newstore/collections.ts|hoppscotch|hoppscotch|collections.ts|TypeScript|1313|48|242
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/__tests__/unit/fixtures/workspace-access.mock.ts|hoppscotch|hoppscotch|workspace-access.mock.ts|TypeScript|1452|1|9
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/newstore/collections.ts|hoppscotch|hoppscotch|collections.ts|TypeScript|1411|52|260
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/persistence/__tests__/index.spec.ts|hoppscotch|hoppscotch|index.spec.ts|TypeScript|1297|60|410
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/terndoc/ecma.json|hoppscotch|hoppscotch|ecma.json|JSON|1266|0|0
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/locales/en.json|hoppscotch|hoppscotch|en.json|JSON|1204|0|0
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/locales/en.json|hoppscotch|hoppscotch|en.json|JSON|1250|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/locales/de.json|hoppscotch|hoppscotch|de.json|JSON|1178|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/locales/af.json|hoppscotch|hoppscotch|af.json|JSON|1104|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/locales/ar.json|hoppscotch|hoppscotch|ar.json|JSON|1104|0|0
@@ -41,53 +42,55 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/team-collection/team-collection.service.ts|hoppscotch|hoppscotch|team-collection.service.ts|TypeScript|1005|328|155
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/http/authorization/OAuth2.vue|hoppscotch|hoppscotch|OAuth2.vue|Vuejs Component|930|10|129
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/collections/TeamCollections.vue|hoppscotch|hoppscotch|TeamCollections.vue|Vuejs Component|927|6|35
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-selfhost-web/src/platform/collections/collections.platform.ts|hoppscotch|hoppscotch|collections.platform.ts|TypeScript|890|25|157
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-selfhost-desktop/src/platform/collections/collections.platform.ts|hoppscotch|hoppscotch|collections.platform.ts|TypeScript|878|24|157
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-selfhost-web/src/platform/collections/collections.platform.ts|hoppscotch|hoppscotch|collections.platform.ts|TypeScript|878|24|157
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/user-collection/user-collection.service.ts|hoppscotch|hoppscotch|user-collection.service.ts|TypeScript|867|264|133
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/curl/__tests__/curlparser.spec.js|hoppscotch|hoppscotch|curlparser.spec.js|JavaScript|855|111|3
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/collections/MyCollections.vue|hoppscotch|hoppscotch|MyCollections.vue|Vuejs Component|811|1|37
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/collections/MyCollections.vue|hoppscotch|hoppscotch|MyCollections.vue|Vuejs Component|830|1|37
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/import-export/import/openapi.ts|hoppscotch|hoppscotch|openapi.ts|TypeScript|807|44|117
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/team/team.service.spec.ts|hoppscotch|hoppscotch|team.service.spec.ts|TypeScript|792|36|167
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/teams/TeamCollectionAdapter.ts|hoppscotch|hoppscotch|TeamCollectionAdapter.ts|TypeScript|783|171|190
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/newstore/environments.ts|hoppscotch|hoppscotch|environments.ts|TypeScript|777|15|67
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/import-export/import/openapi.ts|hoppscotch|hoppscotch|openapi.ts|TypeScript|755|37|109
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/user-request/user-request.service.spec.ts|hoppscotch|hoppscotch|user-request.service.spec.ts|TypeScript|752|1|97
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/__tests__/unit/fixtures/workspace-access.mock.ts|hoppscotch|hoppscotch|workspace-access.mock.ts|TypeScript|750|1|8
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/platform/std/interceptors/agent/index.ts|hoppscotch|hoppscotch|index.ts|TypeScript|688|19|132
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/__tests__/e2e/commands/test.spec.ts|hoppscotch|hoppscotch|test.spec.ts|TypeScript|750|12|194
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/platform/std/interceptors/agent/index.ts|hoppscotch|hoppscotch|index.ts|TypeScript|689|19|131
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/__tests__/e2e/fixtures/collections/multiple-child-collections-auth-headers-coll.json|hoppscotch|hoppscotch|multiple-child-collections-auth-headers-coll.json|JSON|655|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/teams/Invite.vue|hoppscotch|hoppscotch|Invite.vue|Vuejs Component|643|2|36
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/user/user.service.spec.ts|hoppscotch|hoppscotch|user.service.spec.ts|TypeScript|636|8|83
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/collections/ImportExport.vue|hoppscotch|hoppscotch|ImportExport.vue|Vuejs Component|634|3|127
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/team-request/team-request.service.spec.ts|hoppscotch|hoppscotch|team-request.service.spec.ts|TypeScript|627|2|109
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/persistence/index.ts|hoppscotch|hoppscotch|index.ts|TypeScript|626|40|119
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/graphql/Headers.vue|hoppscotch|hoppscotch|Headers.vue|Vuejs Component|622|13|78
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/__tests__/e2e/commands/test.spec.ts|hoppscotch|hoppscotch|test.spec.ts|TypeScript|619|7|159
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/collections/graphql/index.vue|hoppscotch|hoppscotch|index.vue|Vuejs Component|615|10|82
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/collections/SaveRequest.vue|hoppscotch|hoppscotch|SaveRequest.vue|Vuejs Component|620|10|83
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/http/Headers.vue|hoppscotch|hoppscotch|Headers.vue|Vuejs Component|617|9|69
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/ternlint.js|hoppscotch|hoppscotch|ternlint.js|JavaScript|609|64|49
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/http/Headers.vue|hoppscotch|hoppscotch|Headers.vue|Vuejs Component|608|9|68
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/collections/SaveRequest.vue|hoppscotch|hoppscotch|SaveRequest.vue|Vuejs Component|589|10|80
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/collections/graphql/index.vue|hoppscotch|hoppscotch|index.vue|Vuejs Component|607|10|82
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/environments/Selector.vue|hoppscotch|hoppscotch|Selector.vue|Vuejs Component|587|5|25
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/smart/EnvInput.vue|hoppscotch|hoppscotch|EnvInput.vue|Vuejs Component|574|16|67
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/collections/ImportExport.vue|hoppscotch|hoppscotch|ImportExport.vue|Vuejs Component|568|3|109
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/smart/EnvInput.vue|hoppscotch|hoppscotch|EnvInput.vue|Vuejs Component|576|16|67
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/assets/scss/styles.scss|hoppscotch|hoppscotch|styles.scss|SCSS|555|4|102
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/assets/scss/styles.scss|hoppscotch|hoppscotch|styles.scss|SCSS|551|6|99
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/src/pages/users/index.vue|hoppscotch|hoppscotch|index.vue|Vuejs Component|551|31|73
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/utils/EffectiveURL.ts|hoppscotch|hoppscotch|EffectiveURL.ts|TypeScript|546|77|59
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/http/Request.vue|hoppscotch|hoppscotch|Request.vue|Vuejs Component|542|15|59
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/assets/scss/styles.scss|hoppscotch|hoppscotch|styles.scss|SCSS|533|6|99
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-relay/src/relay.rs|hoppscotch|hoppscotch|relay.rs|Rust|521|14|60
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/utils/EffectiveURL.ts|hoppscotch|hoppscotch|EffectiveURL.ts|TypeScript|514|77|54
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/persistence/validation-schemas/index.ts|hoppscotch|hoppscotch|index.ts|TypeScript|499|14|46
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/shortcode/shortcode.service.spec.ts|hoppscotch|hoppscotch|shortcode.service.spec.ts|TypeScript|496|6|73
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/persistence/validation-schemas/index.ts|hoppscotch|hoppscotch|index.ts|TypeScript|510|10|43
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/shortcode/shortcode.service.spec.ts|hoppscotch|hoppscotch|shortcode.service.spec.ts|TypeScript|498|6|73
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-selfhost-web/src/platform/collections/collections.sync.ts|hoppscotch|hoppscotch|collections.sync.ts|TypeScript|495|31|82
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/user-environment/user-environments.service.spec.ts|hoppscotch|hoppscotch|user-environments.service.spec.ts|TypeScript|491|2|72
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/spotlight/__tests__/index.spec.ts|hoppscotch|hoppscotch|index.spec.ts|TypeScript|491|18|129
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/teams/TeamsSearch.service.ts|hoppscotch|hoppscotch|TeamsSearch.service.ts|TypeScript|487|12|91
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-selfhost-web/src/platform/collections/collections.sync.ts|hoppscotch|hoppscotch|collections.sync.ts|TypeScript|485|31|82
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/share/index.vue|hoppscotch|hoppscotch|index.vue|Vuejs Component|470|3|45
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/user-history/user-history.service.spec.ts|hoppscotch|hoppscotch|user-history.service.spec.ts|TypeScript|468|2|43
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/lenses/renderers/JSONLensRenderer.vue|hoppscotch|hoppscotch|JSONLensRenderer.vue|Vuejs Component|468|2|29
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/RequestRunner.ts|hoppscotch|hoppscotch|RequestRunner.ts|TypeScript|467|24|59
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/user-collection/user-collection.resolver.ts|hoppscotch|hoppscotch|user-collection.resolver.ts|TypeScript|466|4|38
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/collections/Collection.vue|hoppscotch|hoppscotch|Collection.vue|Vuejs Component|464|7|25
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/collections/Collection.vue|hoppscotch|hoppscotch|Collection.vue|Vuejs Component|463|7|25
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/http/BodyParameters.vue|hoppscotch|hoppscotch|BodyParameters.vue|Vuejs Component|458|7|33
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/composables/codemirror.ts|hoppscotch|hoppscotch|codemirror.ts|TypeScript|457|27|67
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/team-collection/team-collection.resolver.ts|hoppscotch|hoppscotch|team-collection.resolver.ts|TypeScript|456|4|36
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/team/team.service.ts|hoppscotch|hoppscotch|team.service.ts|TypeScript|455|29|65
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/pages/realtime/mqtt.vue|hoppscotch|hoppscotch|mqtt.vue|Vuejs Component|454|4|11
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/infra-config/infra-config.service.ts|hoppscotch|hoppscotch|infra-config.service.ts|TypeScript|452|91|57
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/user/user.service.ts|hoppscotch|hoppscotch|user.service.ts|TypeScript|452|144|55
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/mailer/templates/team-invitation.hbs|hoppscotch|hoppscotch|team-invitation.hbs|Handlebars|450|17|59
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/mailer/templates/user-invitation.hbs|hoppscotch|hoppscotch|user-invitation.hbs|Handlebars|449|15|68
@@ -95,7 +98,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/environments/my/Details.vue|hoppscotch|hoppscotch|Details.vue|Vuejs Component|447|5|45
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/app/Header.vue|hoppscotch|hoppscotch|Header.vue|Vuejs Component|440|16|37
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/environments/teams/Details.vue|hoppscotch|hoppscotch|Details.vue|Vuejs Component|438|4|39
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/infra-config/infra-config.service.ts|hoppscotch|hoppscotch|infra-config.service.ts|TypeScript|434|90|55
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-selfhost-desktop/src/platform/collections/collections.sync.ts|hoppscotch|hoppscotch|collections.sync.ts|TypeScript|431|31|81
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/editor/themes/baseTheme.ts|hoppscotch|hoppscotch|baseTheme.ts|TypeScript|429|0|5
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/graphql/connection.ts|hoppscotch|hoppscotch|connection.ts|TypeScript|429|4|86
@@ -105,27 +107,26 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/share/CustomizeModal.vue|hoppscotch|hoppscotch|CustomizeModal.vue|Vuejs Component|413|2|23
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/collections/Request.vue|hoppscotch|hoppscotch|Request.vue|Vuejs Component|412|1|26
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/http/URLEncodedParams.vue|hoppscotch|hoppscotch|URLEncodedParams.vue|Vuejs Component|407|6|32
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-selfhost-desktop/src/platform/interceptors/native/index.ts|hoppscotch|hoppscotch|index.ts|TypeScript|403|11|87
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-selfhost-desktop/src/platform/interceptors/native/index.ts|hoppscotch|hoppscotch|index.ts|TypeScript|404|11|86
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-js-sandbox/src/shared-utils.ts|hoppscotch|hoppscotch|shared-utils.ts|TypeScript|402|22|85
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-js-sandbox/src/__tests__/expect/toBeLevelxxx.spec.ts|hoppscotch|hoppscotch|toBeLevelxxx.spec.ts|TypeScript|399|0|28
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/utils/pre-request.ts|hoppscotch|hoppscotch|pre-request.ts|TypeScript|389|56|38
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/teams/Edit.vue|hoppscotch|hoppscotch|Edit.vue|Vuejs Component|387|4|31
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/RequestRunner.ts|hoppscotch|hoppscotch|RequestRunner.ts|TypeScript|385|19|49
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/admin/admin.service.ts|hoppscotch|hoppscotch|admin.service.ts|TypeScript|384|191|78
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/infra-config/helper.ts|hoppscotch|hoppscotch|helper.ts|TypeScript|380|49|44
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/import-export/import/postman.ts|hoppscotch|hoppscotch|postman.ts|TypeScript|380|12|41
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/utils/pre-request.ts|hoppscotch|hoppscotch|pre-request.ts|TypeScript|377|56|34
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/collections/graphql/Collection.vue|hoppscotch|hoppscotch|Collection.vue|Vuejs Component|377|4|19
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/http/RequestVariables.vue|hoppscotch|hoppscotch|RequestVariables.vue|Vuejs Component|376|6|31
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/realtime/LogEntry.vue|hoppscotch|hoppscotch|LogEntry.vue|Vuejs Component|376|6|28
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/pages/realtime/websocket.vue|hoppscotch|hoppscotch|websocket.vue|Vuejs Component|372|6|21
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/graphql/Sidebar.vue|hoppscotch|hoppscotch|Sidebar.vue|Vuejs Component|369|2|39
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/http/BodyParameters.vue|hoppscotch|hoppscotch|BodyParameters.vue|Vuejs Component|367|7|32
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/pages/index.vue|hoppscotch|hoppscotch|index.vue|Vuejs Component|365|17|44
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/spotlight/searchers/__tests__/history.searcher.spec.ts|hoppscotch|hoppscotch|history.searcher.spec.ts|TypeScript|364|0|81
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/locales/en.json|hoppscotch|hoppscotch|en.json|JSON|357|0|0
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/locales/en.json|hoppscotch|hoppscotch|en.json|JSON|364|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/team-environments/team-environments.service.spec.ts|hoppscotch|hoppscotch|team-environments.service.spec.ts|TypeScript|356|2|73
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/http/Parameters.vue|hoppscotch|hoppscotch|Parameters.vue|Vuejs Component|353|8|36
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/admin/admin.resolver.ts|hoppscotch|hoppscotch|admin.resolver.ts|TypeScript|352|3|19
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/admin/infra.resolver.ts|hoppscotch|hoppscotch|infra.resolver.ts|TypeScript|352|1|28
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/pages/index.vue|hoppscotch|hoppscotch|index.vue|Vuejs Component|352|14|42
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/http/Parameters.vue|hoppscotch|hoppscotch|Parameters.vue|Vuejs Component|349|8|36
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/src/composables/useConfigHandler.ts|hoppscotch|hoppscotch|useConfigHandler.ts|TypeScript|347|22|32
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/collections/graphql/Folder.vue|hoppscotch|hoppscotch|Folder.vue|Vuejs Component|341|4|20
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-data/src/predefinedVariables.ts|hoppscotch|hoppscotch|predefinedVariables.ts|TypeScript|339|7|19
@@ -140,26 +141,30 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/backend/GQLClient.ts|hoppscotch|hoppscotch|GQLClient.ts|TypeScript|321|39|34
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-selfhost-web/src/platform/collections/collections.api.ts|hoppscotch|hoppscotch|collections.api.ts|TypeScript|319|0|29
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/jsonParse.ts|hoppscotch|hoppscotch|jsonParse.ts|TypeScript|318|37|42
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/inspection/inspectors/environment.inspector.ts|hoppscotch|hoppscotch|environment.inspector.ts|TypeScript|318|34|49
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/history/index.vue|hoppscotch|hoppscotch|index.vue|Vuejs Component|317|5|29
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/user-request/user-request.service.ts|hoppscotch|hoppscotch|user-request.service.ts|TypeScript|316|85|51
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/http/test/Runner.vue|hoppscotch|hoppscotch|Runner.vue|Vuejs Component|314|12|45
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/team-request/team-request.service.ts|hoppscotch|hoppscotch|team-request.service.ts|TypeScript|313|90|48
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/firebase/Login.vue|hoppscotch|hoppscotch|Login.vue|Vuejs Component|313|19|48
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/graphql/Authorization.vue|hoppscotch|hoppscotch|Authorization.vue|Vuejs Component|313|11|26
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-selfhost-desktop/src-tauri/src/mac/window.rs|hoppscotch|hoppscotch|window.rs|Rust|313|29|48
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/team/team.resolver.ts|hoppscotch|hoppscotch|team.resolver.ts|TypeScript|312|5|18
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/http/test/RunnerModal.vue|hoppscotch|hoppscotch|RunnerModal.vue|Vuejs Component|312|27|43
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/newstore/history.ts|hoppscotch|hoppscotch|history.ts|TypeScript|311|7|50
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/inspection/inspectors/environment.inspector.ts|hoppscotch|hoppscotch|environment.inspector.ts|TypeScript|311|34|48
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components.d.ts|hoppscotch|hoppscotch|components.d.ts|TypeScript|310|5|1
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/spotlight/searchers/collections.searcher.ts|hoppscotch|hoppscotch|collections.searcher.ts|TypeScript|309|6|57
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/http/TestResult.vue|hoppscotch|hoppscotch|TestResult.vue|Vuejs Component|304|5|20
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/importExport/ImportExportSteps/AllCollectionImport.vue|hoppscotch|hoppscotch|AllCollectionImport.vue|Vuejs Component|304|3|63
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/environments/index.vue|hoppscotch|hoppscotch|index.vue|Vuejs Component|302|7|48
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/importExport/ImportExportSteps/AllCollectionImport.vue|hoppscotch|hoppscotch|AllCollectionImport.vue|Vuejs Component|301|3|62
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/http/TestResult.vue|hoppscotch|hoppscotch|TestResult.vue|Vuejs Component|300|5|20
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/editor/extensions/HoppEnvironment.ts|hoppscotch|hoppscotch|HoppEnvironment.ts|TypeScript|298|23|55
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-selfhost-web/src/platform/auth/auth.platform.ts|hoppscotch|hoppscotch|auth.platform.ts|TypeScript|296|16|60
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/editor/extensions/HoppEnvironment.ts|hoppscotch|hoppscotch|HoppEnvironment.ts|TypeScript|294|23|53
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/infra-config/helper.ts|hoppscotch|hoppscotch|helper.ts|TypeScript|289|37|28
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/test-runner/test-runner.service.ts|hoppscotch|hoppscotch|test-runner.service.ts|TypeScript|293|18|44
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/oauth/flows/authCode.ts|hoppscotch|hoppscotch|authCode.ts|TypeScript|287|6|58
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-selfhost-desktop/src/platform/auth.ts|hoppscotch|hoppscotch|auth.ts|TypeScript|287|15|72
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-selfhost-desktop/src/platform/collections/collections.api.ts|hoppscotch|hoppscotch|collections.api.ts|TypeScript|285|0|27
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/pages/profile.vue|hoppscotch|hoppscotch|profile.vue|Vuejs Component|283|0|27
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/http/test/TestResult.vue|hoppscotch|hoppscotch|TestResult.vue|Vuejs Component|280|4|19
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/auth/auth.service.ts|hoppscotch|hoppscotch|auth.service.ts|TypeScript|279|71|42
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/utils/request.ts|hoppscotch|hoppscotch|request.ts|TypeScript|278|80|55
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-selfhost-web/src/platform/collections/gqlCollections.sync.ts|hoppscotch|hoppscotch|gqlCollections.sync.ts|TypeScript|275|10|46
@@ -177,7 +182,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/user-request/resolvers/user-request.resolver.ts|hoppscotch|hoppscotch|user-request.resolver.ts|TypeScript|252|3|18
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/collections/Properties.vue|hoppscotch|hoppscotch|Properties.vue|Vuejs Component|252|3|28
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/interceptors/agent/ModalNativeClientCertsAdd.vue|hoppscotch|hoppscotch|ModalNativeClientCertsAdd.vue|Vuejs Component|249|1|38
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components.d.ts|hoppscotch|hoppscotch|components.d.ts|TypeScript|246|5|1
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/app/Footer.vue|hoppscotch|hoppscotch|Footer.vue|Vuejs Component|246|8|9
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-js-sandbox/src/__tests__/env/unset.spec.ts|hoppscotch|hoppscotch|unset.spec.ts|TypeScript|246|0|13
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/src/components/app/Login.vue|hoppscotch|hoppscotch|Login.vue|Vuejs Component|245|1|23
@@ -189,26 +193,28 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/actions.ts|hoppscotch|hoppscotch|actions.ts|TypeScript|235|52|29
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/http/ResponseInterface.vue|hoppscotch|hoppscotch|ResponseInterface.vue|Vuejs Component|232|2|22
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/http/example/ResponseRequest.vue|hoppscotch|hoppscotch|ResponseRequest.vue|Vuejs Component|231|2|32
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/persistence/__tests__/__mocks__/index.ts|hoppscotch|hoppscotch|index.ts|TypeScript|228|0|18
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/__tests__/e2e/fixtures/collections/collection-level-auth-headers-coll.json|hoppscotch|hoppscotch|collection-level-auth-headers-coll.json|JSON|227|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/teams/Team.vue|hoppscotch|hoppscotch|Team.vue|Vuejs Component|227|6|17
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/import-export/import/insomnia.ts|hoppscotch|hoppscotch|insomnia.ts|TypeScript|227|6|32
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/collections/ExampleResponse.vue|hoppscotch|hoppscotch|ExampleResponse.vue|Vuejs Component|226|0|21
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/collections/graphql/Request.vue|hoppscotch|hoppscotch|Request.vue|Vuejs Component|225|6|19
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/http/RawBody.vue|hoppscotch|hoppscotch|RawBody.vue|Vuejs Component|224|2|29
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/collection/collection.ts|hoppscotch|hoppscotch|collection.ts|TypeScript|221|39|47
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/curl/sub_helpers/contentParser.ts|hoppscotch|hoppscotch|contentParser.ts|TypeScript|221|25|30
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/newstore/WebSocketSession.ts|hoppscotch|hoppscotch|WebSocketSession.ts|TypeScript|221|0|24
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-js-sandbox/src/__tests__/expect/toBeType.spec.ts|hoppscotch|hoppscotch|toBeType.spec.ts|TypeScript|221|0|10
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-selfhost-desktop/src/platform/collections/gqlCollections.sync.ts|hoppscotch|hoppscotch|gqlCollections.sync.ts|TypeScript|220|10|39
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/utils/collections.ts|hoppscotch|hoppscotch|collections.ts|TypeScript|219|55|42
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/layouts/default.vue|hoppscotch|hoppscotch|default.vue|Vuejs Component|219|2|36
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/inspection/inspectors/__tests__/environment.inspector.spec.ts|hoppscotch|hoppscotch|environment.inspector.spec.ts|TypeScript|219|0|56
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/persistence/__tests__/__mocks__/index.ts|hoppscotch|hoppscotch|index.ts|TypeScript|219|0|18
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/importExport/ImportExportSteps/ImportSummary.vue|hoppscotch|hoppscotch|ImportSummary.vue|Vuejs Component|217|0|25
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-selfhost-desktop/src/platform/history/history.platform.ts|hoppscotch|hoppscotch|history.platform.ts|TypeScript|217|3|41
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-selfhost-web/src/platform/history/history.platform.ts|hoppscotch|hoppscotch|history.platform.ts|TypeScript|217|3|41
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/.github/workflows/build-hoppscotch-agent.yml|hoppscotch|hoppscotch|build-hoppscotch-agent.yml|YAML|215|8|26
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/spotlight/searchers/history.searcher.ts|hoppscotch|hoppscotch|history.searcher.ts|TypeScript|215|11|27
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/src/pages/teams/index.vue|hoppscotch|hoppscotch|index.vue|Vuejs Component|215|7|27
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-js-sandbox/src/__tests__/env/getResolve.spec.ts|hoppscotch|hoppscotch|getResolve.spec.ts|TypeScript|214|0|11
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/http/RawBody.vue|hoppscotch|hoppscotch|RawBody.vue|Vuejs Component|213|2|27
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/teams/TeamEnvironmentAdapter.ts|hoppscotch|hoppscotch|TeamEnvironmentAdapter.ts|TypeScript|211|7|49
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/utils.ts|hoppscotch|hoppscotch|utils.ts|TypeScript|210|141|34
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/graphql/Query.vue|hoppscotch|hoppscotch|Query.vue|Vuejs Component|210|5|22
@@ -216,39 +222,40 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/environments/teams/index.vue|hoppscotch|hoppscotch|index.vue|Vuejs Component|209|2|13
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/spotlight/searchers/teamRequest.searcher.ts|hoppscotch|hoppscotch|teamRequest.searcher.ts|TypeScript|208|3|39
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-js-sandbox/src/__tests__/env/set.spec.ts|hoppscotch|hoppscotch|set.spec.ts|TypeScript|208|0|13
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/pages/graphql.vue|hoppscotch|hoppscotch|graphql.vue|Vuejs Component|207|7|29
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/backend/helpers.ts|hoppscotch|hoppscotch|helpers.ts|TypeScript|207|9|39
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/README.md|hoppscotch|hoppscotch|README.md|Markdown|206|0|92
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/user-environment/user-environments.service.ts|hoppscotch|hoppscotch|user-environments.service.ts|TypeScript|206|50|22
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/pages/graphql.vue|hoppscotch|hoppscotch|graphql.vue|Vuejs Component|205|7|29
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/new-codegen/index.ts|hoppscotch|hoppscotch|index.ts|TypeScript|204|16|7
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/environments/teams/Environment.vue|hoppscotch|hoppscotch|Environment.vue|Vuejs Component|203|0|16
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/inspection/inspectors/__tests__/response.inspector.spec.ts|hoppscotch|hoppscotch|response.inspector.spec.ts|TypeScript|203|0|46
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/environments/my/Environment.vue|hoppscotch|hoppscotch|Environment.vue|Vuejs Component|202|0|16
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/infra-config/infra-config.service.spec.ts|hoppscotch|hoppscotch|infra-config.service.spec.ts|TypeScript|201|6|39
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/backend/helpers.ts|hoppscotch|hoppscotch|helpers.ts|TypeScript|201|9|38
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-selfhost-desktop/vite.config.ts|hoppscotch|hoppscotch|vite.config.ts|TypeScript|201|3|2
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/assets/icons/brands/firefox.svg|hoppscotch|hoppscotch|firefox.svg|SVG|200|0|1
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/http/Body.vue|hoppscotch|hoppscotch|Body.vue|Vuejs Component|200|3|12
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/collections/graphql/ImportExport.vue|hoppscotch|hoppscotch|ImportExport.vue|Vuejs Component|199|2|41
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/src/components/users/Details.vue|hoppscotch|hoppscotch|Details.vue|Vuejs Component|198|8|20
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/errors.ts|hoppscotch|hoppscotch|errors.ts|TypeScript|197|529|141
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/src/helpers/auth.ts|hoppscotch|hoppscotch|auth.ts|TypeScript|197|13|45
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/errors.ts|hoppscotch|hoppscotch|errors.ts|TypeScript|195|526|140
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/src/components/settings/SmtpConfiguration.vue|hoppscotch|hoppscotch|SmtpConfiguration.vue|Vuejs Component|195|3|20
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-data/src/rest/v/1.ts|hoppscotch|hoppscotch|1.ts|TypeScript|194|0|39
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/oauth.ts|hoppscotch|hoppscotch|oauth.ts|TypeScript|193|64|59
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/utils/getters.ts|hoppscotch|hoppscotch|getters.ts|TypeScript|192|66|32
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/environments/Add.vue|hoppscotch|hoppscotch|Add.vue|Vuejs Component|192|2|13
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-data/src/rest/index.ts|hoppscotch|hoppscotch|index.ts|TypeScript|192|28|45
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-js-sandbox/src/__tests__/expect/toHaveLength.spec.ts|hoppscotch|hoppscotch|toHaveLength.spec.ts|TypeScript|191|0|12
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/src/pages/users/_id.vue|hoppscotch|hoppscotch|_id.vue|Vuejs Component|191|3|27
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/accessTokens/GenerateModal.vue|hoppscotch|hoppscotch|GenerateModal.vue|Vuejs Component|190|1|30
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/src/helpers/configs.ts|hoppscotch|hoppscotch|configs.ts|TypeScript|190|0|15
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/utils/collections.ts|hoppscotch|hoppscotch|collections.ts|TypeScript|189|52|34
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-data/src/rest/index.ts|hoppscotch|hoppscotch|index.ts|TypeScript|189|28|45
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/src/pages/users/invited.vue|hoppscotch|hoppscotch|invited.vue|Vuejs Component|190|7|26
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/languages.json|hoppscotch|hoppscotch|languages.json|JSON|189|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/__tests__/e2e/fixtures/collections/request-vars-coll.json|hoppscotch|hoppscotch|request-vars-coll.json|JSON|188|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/team-invitation/team-invitation.resolver.ts|hoppscotch|hoppscotch|team-invitation.resolver.ts|TypeScript|187|1|12
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/composables/graphql.ts|hoppscotch|hoppscotch|graphql.ts|TypeScript|186|7|28
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/team-environments/team-environments.resolver.ts|hoppscotch|hoppscotch|team-environments.resolver.ts|TypeScript|185|2|16
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/user-environment/user-environments.resolver.ts|hoppscotch|hoppscotch|user-environments.resolver.ts|TypeScript|185|2|13
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/http/Body.vue|hoppscotch|hoppscotch|Body.vue|Vuejs Component|185|3|10
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/src/components/settings/SmtpConfiguration.vue|hoppscotch|hoppscotch|SmtpConfiguration.vue|Vuejs Component|185|2|20
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/importExport/Base.vue|hoppscotch|hoppscotch|Base.vue|Vuejs Component|182|2|32
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/pages/realtime/sse.vue|hoppscotch|hoppscotch|sse.vue|Vuejs Component|181|3|17
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/src/components/tokens/GenerateModal.vue|hoppscotch|hoppscotch|GenerateModal.vue|Vuejs Component|181|1|28
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/workspace/Selector.vue|hoppscotch|hoppscotch|Selector.vue|Vuejs Component|179|0|19
@@ -256,11 +263,11 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/lenses/renderers/HTMLLensRenderer.vue|hoppscotch|hoppscotch|HTMLLensRenderer.vue|Vuejs Component|177|0|16
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/curl/curlparser.ts|hoppscotch|hoppscotch|curlparser.ts|TypeScript|177|9|21
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/__tests__/workspace.service.spec.ts|hoppscotch|hoppscotch|workspace.service.spec.ts|TypeScript|177|1|60
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/src/pages/users/invited.vue|hoppscotch|hoppscotch|invited.vue|Vuejs Component|177|6|26
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/platform/std/interceptors/extension.ts|hoppscotch|hoppscotch|extension.ts|TypeScript|176|29|35
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-data/src/rawKeyValue.ts|hoppscotch|hoppscotch|rawKeyValue.ts|TypeScript|175|41|30
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-js-sandbox/src/__tests__/env/get.spec.ts|hoppscotch|hoppscotch|get.spec.ts|TypeScript|175|0|10
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/package.json|hoppscotch|hoppscotch|package.json|JSON|174|0|0
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/collections/graphql/EditRequest.vue|hoppscotch|hoppscotch|EditRequest.vue|Vuejs Component|174|1|18
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/http/authorization/ASAP.vue|hoppscotch|hoppscotch|ASAP.vue|Vuejs Component|174|2|16
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/lenses/renderers/RawLensRenderer.vue|hoppscotch|hoppscotch|RawLensRenderer.vue|Vuejs Component|174|1|18
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/team-environments/team-environments.service.ts|hoppscotch|hoppscotch|team-environments.service.ts|TypeScript|173|68|33
@@ -272,8 +279,8 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/http/RequestOptions.vue|hoppscotch|hoppscotch|RequestOptions.vue|Vuejs Component|170|1|17
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-js-sandbox/src/node/test-runner.ts|hoppscotch|hoppscotch|test-runner.ts|TypeScript|170|21|26
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-selfhost-web/src/platform/environments/environments.platform.ts|hoppscotch|hoppscotch|environments.platform.ts|TypeScript|170|3|40
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/collections/AddRequest.vue|hoppscotch|hoppscotch|AddRequest.vue|Vuejs Component|169|0|15
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/access-token/access-token.service.spec.ts|hoppscotch|hoppscotch|access-token.service.spec.ts|TypeScript|168|2|26
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/collections/AddRequest.vue|hoppscotch|hoppscotch|AddRequest.vue|Vuejs Component|168|0|14
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/newstore/SocketIOSession.ts|hoppscotch|hoppscotch|SocketIOSession.ts|TypeScript|168|0|22
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/prisma/migrations/20230406064219_init/migration.sql|hoppscotch|hoppscotch|migration.sql|SQL|167|45|58
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/profile/UserDelete.vue|hoppscotch|hoppscotch|UserDelete.vue|Vuejs Component|167|0|13
@@ -290,7 +297,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/http/KeyValue.vue|hoppscotch|hoppscotch|KeyValue.vue|Vuejs Component|161|0|8
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/share/Modal.vue|hoppscotch|hoppscotch|Modal.vue|Vuejs Component|161|0|12
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/collections/EditRequest.vue|hoppscotch|hoppscotch|EditRequest.vue|Vuejs Component|160|0|13
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/collections/graphql/EditRequest.vue|hoppscotch|hoppscotch|EditRequest.vue|Vuejs Component|160|0|15
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/graphql/Variable.vue|hoppscotch|hoppscotch|Variable.vue|Vuejs Component|160|2|14
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-selfhost-desktop/src/platform/environments/environments.platform.ts|hoppscotch|hoppscotch|environments.platform.ts|TypeScript|160|3|37
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/app/Logo.vue|hoppscotch|hoppscotch|Logo.vue|Vuejs Component|158|1|0
@@ -302,13 +308,14 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/src/components/tokens/index.vue|hoppscotch|hoppscotch|index.vue|Vuejs Component|154|2|32
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/share/Request.vue|hoppscotch|hoppscotch|Request.vue|Vuejs Component|153|0|10
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/interceptors/agent/ModalNativeCACertificates.vue|hoppscotch|hoppscotch|ModalNativeCACertificates.vue|Vuejs Component|152|4|25
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/runner/adapter.ts|hoppscotch|hoppscotch|adapter.ts|TypeScript|152|4|23
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/newstore/__tests__/DispatchingStore.spec.js|hoppscotch|hoppscotch|DispatchingStore.spec.js|JavaScript|151|2|43
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/src/components/settings/AuthProvider.vue|hoppscotch|hoppscotch|AuthProvider.vue|Vuejs Component|151|3|16
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/__tests__/e2e/fixtures/collections/test-junit-report-export-coll.json|hoppscotch|hoppscotch|test-junit-report-export-coll.json|JSON|150|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/utils/test.ts|hoppscotch|hoppscotch|test.ts|TypeScript|150|64|9
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/shortcode/shortcode.resolver.ts|hoppscotch|hoppscotch|shortcode.resolver.ts|TypeScript|149|3|13
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/__tests__/e2e/fixtures/collections/secret-envs-persistence-coll.json|hoppscotch|hoppscotch|secret-envs-persistence-coll.json|JSON|149|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/auth/auth.controller.ts|hoppscotch|hoppscotch|auth.controller.ts|TypeScript|148|34|14
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/composables/ai-experiments.ts|hoppscotch|hoppscotch|ai-experiments.ts|TypeScript|148|2|46
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/__tests__/interceptor.service.spec.ts|hoppscotch|hoppscotch|interceptor.service.spec.ts|TypeScript|148|0|50
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/oauth/flows/clientCredentials.ts|hoppscotch|hoppscotch|clientCredentials.ts|TypeScript|148|3|34
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/user-history/user-history.service.ts|hoppscotch|hoppscotch|user-history.service.ts|TypeScript|147|47|23
@@ -318,21 +325,21 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/aiexperiments/ModifyBodyModal.vue|hoppscotch|hoppscotch|ModifyBodyModal.vue|Vuejs Component|145|0|16
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/spotlight/index.ts|hoppscotch|hoppscotch|index.ts|TypeScript|145|83|40
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/__tests__/e2e/fixtures/collections/secret-envs-coll.json|hoppscotch|hoppscotch|secret-envs-coll.json|JSON|143|0|0
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/src/components/settings/AuthProvider.vue|hoppscotch|hoppscotch|AuthProvider.vue|Vuejs Component|143|2|16
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/pages/r/_id.vue|hoppscotch|hoppscotch|_id.vue|Vuejs Component|142|0|17
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/composables/ai-experiments.ts|hoppscotch|hoppscotch|ai-experiments.ts|TypeScript|143|0|44
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/pages/r/_id.vue|hoppscotch|hoppscotch|_id.vue|Vuejs Component|143|0|17
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/importExport/ImportExportSteps/FileImport.vue|hoppscotch|hoppscotch|FileImport.vue|Vuejs Component|142|3|30
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-selfhost-desktop/src/components/modals/NativeCACertificates.vue|hoppscotch|hoppscotch|NativeCACertificates.vue|Vuejs Component|141|4|22
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-agent/src-tauri/src/lib.rs|hoppscotch|hoppscotch|lib.rs|Rust|140|7|31
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/http/authorization/Digest.vue|hoppscotch|hoppscotch|Digest.vue|Vuejs Component|140|11|18
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/realtime/SIOConnection.ts|hoppscotch|hoppscotch|SIOConnection.ts|TypeScript|140|1|23
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/http/authorization/HAWK.vue|hoppscotch|hoppscotch|HAWK.vue|Vuejs Component|139|2|11
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/importExport/Base.vue|hoppscotch|hoppscotch|Base.vue|Vuejs Component|139|2|22
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/newstore/SSESession.ts|hoppscotch|hoppscotch|SSESession.ts|TypeScript|139|0|18
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/__tests__/secret-environment.service.spec.ts|hoppscotch|hoppscotch|secret-environment.service.spec.ts|TypeScript|139|0|55
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/realtime/Subscription.vue|hoppscotch|hoppscotch|Subscription.vue|Vuejs Component|138|0|7
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/composables/lens-actions.ts|hoppscotch|hoppscotch|lens-actions.ts|TypeScript|138|9|26
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/inspection/index.ts|hoppscotch|hoppscotch|index.ts|TypeScript|138|40|20
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/environments/my/index.vue|hoppscotch|hoppscotch|index.vue|Vuejs Component|137|2|8
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/graphql/Request.vue|hoppscotch|hoppscotch|Request.vue|Vuejs Component|137|0|16
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/importExport/ImportExportSteps/FileImport.vue|hoppscotch|hoppscotch|FileImport.vue|Vuejs Component|137|3|29
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/curl/sub_helpers/body.ts|hoppscotch|hoppscotch|body.ts|TypeScript|137|21|11
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/__tests__/functions/pre-request/getEffectiveRESTRequest.spec.ts|hoppscotch|hoppscotch|getEffectiveRESTRequest.spec.ts|TypeScript|136|0|14
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/backend/mutations/TeamCollection.ts|hoppscotch|hoppscotch|TeamCollection.ts|TypeScript|136|3|15
@@ -349,15 +356,15 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-data/src/rest/v/8.ts|hoppscotch|hoppscotch|8.ts|TypeScript|131|11|23
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/infra-token/request-response.dto.ts|hoppscotch|hoppscotch|request-response.dto.ts|TypeScript|130|9|23
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/utils/display.ts|hoppscotch|hoppscotch|display.ts|TypeScript|130|66|33
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/inspection/index.ts|hoppscotch|hoppscotch|index.ts|TypeScript|130|39|20
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/interceptor.service.ts|hoppscotch|hoppscotch|interceptor.service.ts|TypeScript|130|99|32
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/src/components/teams/Details.vue|hoppscotch|hoppscotch|Details.vue|Vuejs Component|130|6|18
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/interceptor.service.ts|hoppscotch|hoppscotch|interceptor.service.ts|TypeScript|129|95|31
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/utils/auth/digest.ts|hoppscotch|hoppscotch|digest.ts|TypeScript|128|8|22
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/history/rest/Card.vue|hoppscotch|hoppscotch|Card.vue|Vuejs Component|128|0|8
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/http/Response.vue|hoppscotch|hoppscotch|Response.vue|Vuejs Component|126|0|23
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/auth/digest.ts|hoppscotch|hoppscotch|digest.ts|TypeScript|126|8|26
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/http/Response.vue|hoppscotch|hoppscotch|Response.vue|Vuejs Component|125|0|23
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/strategies/AxiosStrategy.ts|hoppscotch|hoppscotch|AxiosStrategy.ts|TypeScript|125|11|27
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/src/components/app/Sidebar.vue|hoppscotch|hoppscotch|Sidebar.vue|Vuejs Component|125|2|10
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/lenses/ResponseBodyRenderer.vue|hoppscotch|hoppscotch|ResponseBodyRenderer.vue|Vuejs Component|124|0|19
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/headers.ts|hoppscotch|hoppscotch|headers.ts|TypeScript|124|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/docker-compose.yml|hoppscotch|hoppscotch|docker-compose.yml|YAML|123|23|8
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/keybindings.ts|hoppscotch|hoppscotch|keybindings.ts|TypeScript|123|37|31
@@ -366,20 +373,22 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/utils/__tests__/valid.spec.js|hoppscotch|hoppscotch|valid.spec.js|JavaScript|122|0|23
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-selfhost-web/meta.ts|hoppscotch|hoppscotch|meta.ts|TypeScript|122|6|2
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/src/components/setup/DataSharingAndNewsletter.vue|hoppscotch|hoppscotch|DataSharingAndNewsletter.vue|Vuejs Component|122|5|13
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/collections/Runner.vue|hoppscotch|hoppscotch|Runner.vue|Vuejs Component|121|1|27
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/interceptors/agent/RegistrationModal.vue|hoppscotch|hoppscotch|RegistrationModal.vue|Vuejs Component|121|1|24
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/utils/reporters/junit.ts|hoppscotch|hoppscotch|junit.ts|TypeScript|120|29|29
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/lenses/ResponseBodyRenderer.vue|hoppscotch|hoppscotch|ResponseBodyRenderer.vue|Vuejs Component|120|0|18
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/backend/mutations/Team.ts|hoppscotch|hoppscotch|Team.ts|TypeScript|120|0|12
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/src/pages/teams/_id.vue|hoppscotch|hoppscotch|_id.vue|Vuejs Component|120|3|15
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/user-collection/input-type.args.ts|hoppscotch|hoppscotch|input-type.args.ts|TypeScript|119|0|15
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/assets/themes/base-themes.scss|hoppscotch|hoppscotch|base-themes.scss|SCSS|119|0|24
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/app/PaneLayout.vue|hoppscotch|hoppscotch|PaneLayout.vue|Vuejs Component|119|0|20
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/app/SpotlightSearch.vue|hoppscotch|hoppscotch|SpotlightSearch.vue|Vuejs Component|119|3|13
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/team-collection/input-type.args.ts|hoppscotch|hoppscotch|input-type.args.ts|TypeScript|118|0|19
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/assets/themes/base-themes.scss|hoppscotch|hoppscotch|base-themes.scss|SCSS|117|0|24
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/http/test/RunnerResult.vue|hoppscotch|hoppscotch|RunnerResult.vue|Vuejs Component|118|0|12
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/new-codegen/har.ts|hoppscotch|hoppscotch|har.ts|TypeScript|118|7|12
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/README.md|hoppscotch|hoppscotch|README.md|Markdown|117|0|51
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/app.module.ts|hoppscotch|hoppscotch|app.module.ts|TypeScript|116|0|1
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/__tests__/functions/collection/collectionsRunner.spec.ts|hoppscotch|hoppscotch|collectionsRunner.spec.ts|TypeScript|116|0|13
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/graphql/SubscriptionLog.vue|hoppscotch|hoppscotch|SubscriptionLog.vue|Vuejs Component|116|1|12
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-data/src/rest/v/9.ts|hoppscotch|hoppscotch|9.ts|TypeScript|116|11|14
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/user-settings/user-settings.service.spec.ts|hoppscotch|hoppscotch|user-settings.service.spec.ts|TypeScript|115|2|18
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/app/Sidenav.vue|hoppscotch|hoppscotch|Sidenav.vue|Vuejs Component|115|0|12
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/teams/index.vue|hoppscotch|hoppscotch|index.vue|Vuejs Component|115|2|13
@@ -401,15 +410,14 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/src/components/tokens/List.vue|hoppscotch|hoppscotch|List.vue|Vuejs Component|110|0|18
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/__tests__/e2e/fixtures/collections/coll-v2-req-v2.json|hoppscotch|hoppscotch|coll-v2-req-v2.json|JSON|109|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/__tests__/e2e/fixtures/collections/coll-v2-req-v3.json|hoppscotch|hoppscotch|coll-v2-req-v3.json|JSON|109|0|0
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/new-codegen/har.ts|hoppscotch|hoppscotch|har.ts|TypeScript|109|7|10
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/http/Tests.vue|hoppscotch|hoppscotch|Tests.vue|Vuejs Component|108|2|7
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/utils/statusCodes.ts|hoppscotch|hoppscotch|statusCodes.ts|TypeScript|108|21|7
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/README.md|hoppscotch|hoppscotch|README.md|Markdown|107|0|43
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/pages/import.vue|hoppscotch|hoppscotch|import.vue|Vuejs Component|107|1|17
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/oauth/flows/implicit.ts|hoppscotch|hoppscotch|implicit.ts|TypeScript|107|4|24
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-agent/src-tauri/src/state.rs|hoppscotch|hoppscotch|state.rs|Rust|106|25|30
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/utils/mutators.ts|hoppscotch|hoppscotch|mutators.ts|TypeScript|106|34|20
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/app/Inspection.vue|hoppscotch|hoppscotch|Inspection.vue|Vuejs Component|106|1|5
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/user/user.resolver.ts|hoppscotch|hoppscotch|user.resolver.ts|TypeScript|105|2|10
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/app/Inspection.vue|hoppscotch|hoppscotch|Inspection.vue|Vuejs Component|105|1|5
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/tern.js|hoppscotch|hoppscotch|tern.js|JavaScript|105|0|12
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/spotlight/searchers/tab.searcher.ts|hoppscotch|hoppscotch|tab.searcher.ts|TypeScript|105|7|14
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-data/src/rest/v/7.ts|hoppscotch|hoppscotch|7.ts|TypeScript|105|5|18
@@ -421,6 +429,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/src/components/teams/PendingInvites.vue|hoppscotch|hoppscotch|PendingInvites.vue|Vuejs Component|104|1|11
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/infra-token/infra-token.service.ts|hoppscotch|hoppscotch|infra-token.service.ts|TypeScript|103|40|17
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/__tests__/functions/request/processRequest.spec.ts|hoppscotch|hoppscotch|processRequest.spec.ts|TypeScript|103|0|16
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/http/test/ResultRequest.vue|hoppscotch|hoppscotch|ResultRequest.vue|Vuejs Component|103|0|10
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/RESTExtURLParams.ts|hoppscotch|hoppscotch|RESTExtURLParams.ts|TypeScript|103|3|17
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/syntax/gqlQueryLangMode.js|hoppscotch|hoppscotch|gqlQueryLangMode.js|JavaScript|103|2|13
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/smart/ChangeLanguage.vue|hoppscotch|hoppscotch|ChangeLanguage.vue|Vuejs Component|102|3|7
@@ -432,26 +441,28 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/teams/Add.vue|hoppscotch|hoppscotch|Add.vue|Vuejs Component|99|2|14
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-selfhost-desktop/src/platform/environments/environments.sync.ts|hoppscotch|hoppscotch|environments.sync.ts|TypeScript|99|0|18
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/access-token/access-token.controller.ts|hoppscotch|hoppscotch|access-token.controller.ts|TypeScript|98|0|9
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/platform/std/interceptors/proxy.ts|hoppscotch|hoppscotch|proxy.ts|TypeScript|98|1|16
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/CODE_OF_CONDUCT.md|hoppscotch|hoppscotch|CODE_OF_CONDUCT.md|Markdown|97|0|35
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/__tests__/e2e/fixtures/collections/coll-v1-req-v1.json|hoppscotch|hoppscotch|coll-v1-req-v1.json|JSON|97|0|0
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/platform/std/interceptors/proxy.ts|hoppscotch|hoppscotch|proxy.ts|TypeScript|97|1|16
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/handlers/error.ts|hoppscotch|hoppscotch|error.ts|TypeScript|95|11|6
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/src/helpers/userManagement.ts|hoppscotch|hoppscotch|userManagement.ts|TypeScript|95|3|17
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/utils/mutators.ts|hoppscotch|hoppscotch|mutators.ts|TypeScript|94|34|18
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/app/Options.vue|hoppscotch|hoppscotch|Options.vue|Vuejs Component|94|1|8
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/http/authorization/ApiKey.vue|hoppscotch|hoppscotch|ApiKey.vue|Vuejs Component|94|0|6
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/share/templates/Embeds.vue|hoppscotch|hoppscotch|Embeds.vue|Vuejs Component|94|0|13
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/context-menu/menu/parameter.menu.ts|hoppscotch|hoppscotch|parameter.menu.ts|TypeScript|94|24|24
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/workspace.service.ts|hoppscotch|hoppscotch|workspace.service.ts|TypeScript|94|29|22
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/__tests__/functions/request/requestRunner.spec.ts|hoppscotch|hoppscotch|requestRunner.spec.ts|TypeScript|93|0|15
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/graphql/Field.vue|hoppscotch|hoppscotch|Field.vue|Vuejs Component|93|0|9
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/tab/__tests__/tab.service.spec.ts|hoppscotch|hoppscotch|tab.service.spec.ts|TypeScript|93|0|42
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/vite.config.ts|hoppscotch|hoppscotch|vite.config.ts|TypeScript|93|1|1
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/auth/helper.ts|hoppscotch|hoppscotch|helper.ts|TypeScript|92|19|16
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/handlers/error.ts|hoppscotch|hoppscotch|error.ts|TypeScript|92|11|6
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/importExport/ImportExportSteps/UrlImport.vue|hoppscotch|hoppscotch|UrlImport.vue|Vuejs Component|92|0|17
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/platform/std/ui/supportOptionsItem.ts|hoppscotch|hoppscotch|supportOptionsItem.ts|TypeScript|92|0|8
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/context-menu/menu/parameter.menu.ts|hoppscotch|hoppscotch|parameter.menu.ts|TypeScript|92|24|23
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/src/components/app/Header.vue|hoppscotch|hoppscotch|Header.vue|Vuejs Component|92|2|7
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/src/components/teams/Add.vue|hoppscotch|hoppscotch|Add.vue|Vuejs Component|92|0|9
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/app/Shortcuts.vue|hoppscotch|hoppscotch|Shortcuts.vue|Vuejs Component|91|1|11
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/lenses/renderers/ImageLensRenderer.vue|hoppscotch|hoppscotch|ImageLensRenderer.vue|Vuejs Component|91|3|11
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/http/test/Env.vue|hoppscotch|hoppscotch|Env.vue|Vuejs Component|90|1|13
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/settings/Agent.vue|hoppscotch|hoppscotch|Agent.vue|Vuejs Component|90|0|16
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/backend/mutations/TeamRequest.ts|hoppscotch|hoppscotch|TeamRequest.ts|TypeScript|90|0|8
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/network.ts|hoppscotch|hoppscotch|network.ts|TypeScript|90|1|15
@@ -460,16 +471,18 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/gql-schema.ts|hoppscotch|hoppscotch|gql-schema.ts|TypeScript|88|15|13
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/main.ts|hoppscotch|hoppscotch|main.ts|TypeScript|88|2|16
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/team-request/input-type.args.ts|hoppscotch|hoppscotch|input-type.args.ts|TypeScript|88|1|15
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/index.ts|hoppscotch|hoppscotch|index.ts|TypeScript|88|7|12
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/http/authorization/AkamaiEG.vue|hoppscotch|hoppscotch|AkamaiEG.vue|Vuejs Component|88|2|6
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/platform/std/inspections/extension.inspector.ts|hoppscotch|hoppscotch|extension.inspector.ts|TypeScript|88|8|19
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-selfhost-web/src/platform/history/history.sync.ts|hoppscotch|hoppscotch|history.sync.ts|TypeScript|88|2|11
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/http/TestResultEnv.vue|hoppscotch|hoppscotch|TestResultEnv.vue|Vuejs Component|87|0|8
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/interceptors/ErrorPlaceholder.vue|hoppscotch|hoppscotch|ErrorPlaceholder.vue|Vuejs Component|87|3|5
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/platform/std/inspections/extension.inspector.ts|hoppscotch|hoppscotch|extension.inspector.ts|TypeScript|87|8|18
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/rest/document.ts|hoppscotch|hoppscotch|document.ts|TypeScript|87|140|31
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-js-sandbox/src/__tests__/pre-request.spec.ts|hoppscotch|hoppscotch|pre-request.spec.ts|TypeScript|87|0|6
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-relay/src/interop.rs|hoppscotch|hoppscotch|interop.rs|Rust|87|0|9
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-selfhost-web/package.json|hoppscotch|hoppscotch|package.json|JSON|87|0|0
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/importExport/ImportExportSteps/UrlImport.vue|hoppscotch|hoppscotch|UrlImport.vue|Vuejs Component|86|0|15
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/lenses/HeadersRendererEntry.vue|hoppscotch|hoppscotch|HeadersRendererEntry.vue|Vuejs Component|86|2|9
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/commands/test.ts|hoppscotch|hoppscotch|test.ts|TypeScript|85|5|14
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/http/TestResultEnv.vue|hoppscotch|hoppscotch|TestResultEnv.vue|Vuejs Component|85|0|8
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/realtime/WSConnection.ts|hoppscotch|hoppscotch|WSConnection.ts|TypeScript|85|2|16
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/context-menu/__tests__/index.spec.ts|hoppscotch|hoppscotch|index.spec.ts|TypeScript|85|1|28
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-data/src/utils/statusCodes.ts|hoppscotch|hoppscotch|statusCodes.ts|TypeScript|85|14|2
@@ -479,19 +492,22 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/interceptors/agent/RootExt.vue|hoppscotch|hoppscotch|RootExt.vue|Vuejs Component|84|2|14
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-agent/devenv.nix|hoppscotch|hoppscotch|devenv.nix|Nix|83|19|14
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/collections/EditResponse.vue|hoppscotch|hoppscotch|EditResponse.vue|Vuejs Component|83|1|11
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/http/TestResultEntry.vue|hoppscotch|hoppscotch|TestResultEntry.vue|Vuejs Component|83|3|8
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-selfhost-web/src/lib/sync/index.ts|hoppscotch|hoppscotch|index.ts|TypeScript|83|2|17
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/src/pages/settings.vue|hoppscotch|hoppscotch|settings.vue|Vuejs Component|83|4|14
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-agent/src-tauri/src/tray.rs|hoppscotch|hoppscotch|tray.rs|Rust|82|0|9
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/curl/sub_helpers/url.ts|hoppscotch|hoppscotch|url.ts|TypeScript|82|27|10
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/newOutline.ts|hoppscotch|hoppscotch|newOutline.ts|TypeScript|82|0|18
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/src/components/app/Header.vue|hoppscotch|hoppscotch|Header.vue|Vuejs Component|82|1|7
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/assets/themes/accent-themes.scss|hoppscotch|hoppscotch|accent-themes.scss|SCSS|81|0|8
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/http/test/Folder.vue|hoppscotch|hoppscotch|Folder.vue|Vuejs Component|81|4|5
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/http/test/ResultFolder.vue|hoppscotch|hoppscotch|ResultFolder.vue|Vuejs Component|81|4|6
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/import-export/import/hopp.ts|hoppscotch|hoppscotch|hopp.ts|TypeScript|81|12|14
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/inspection/inspectors/authorization.inspector.ts|hoppscotch|hoppscotch|authorization.inspector.ts|TypeScript|81|6|19
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/app/WhatsNewDialog.vue|hoppscotch|hoppscotch|WhatsNewDialog.vue|Vuejs Component|80|2|9
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/http/test/Request.vue|hoppscotch|hoppscotch|Request.vue|Vuejs Component|80|0|6
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/inspection/inspectors/__tests__/header.inspector.spec.ts|hoppscotch|hoppscotch|header.inspector.spec.ts|TypeScript|80|0|26
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/spotlight/searchers/response.searcher.ts|hoppscotch|hoppscotch|response.searcher.ts|TypeScript|80|7|14
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/spotlight/searchers/user.searcher.ts|hoppscotch|hoppscotch|user.searcher.ts|TypeScript|80|7|13
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/index.ts|hoppscotch|hoppscotch|index.ts|TypeScript|79|7|12
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/collections/graphql/Add.vue|hoppscotch|hoppscotch|Add.vue|Vuejs Component|79|0|10
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/realtime/SSEConnection.ts|hoppscotch|hoppscotch|SSEConnection.ts|TypeScript|79|2|8
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/package.json|hoppscotch|hoppscotch|package.json|JSON|79|0|0
@@ -501,9 +517,9 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/collections/EditFolder.vue|hoppscotch|hoppscotch|EditFolder.vue|Vuejs Component|78|0|10
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-data/src/graphql/v/2.ts|hoppscotch|hoppscotch|2.ts|TypeScript|78|0|22
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/src/components/app/Modal.vue|hoppscotch|hoppscotch|Modal.vue|Vuejs Component|78|6|9
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/utils/workspace-access.ts|hoppscotch|hoppscotch|workspace-access.ts|TypeScript|77|24|14
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/preRequest.ts|hoppscotch|hoppscotch|preRequest.ts|TypeScript|77|0|7
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/realtime/SIOClients.ts|hoppscotch|hoppscotch|SIOClients.ts|TypeScript|77|0|15
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/inspection/inspectors/authorization.inspector.ts|hoppscotch|hoppscotch|authorization.inspector.ts|TypeScript|77|6|19
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/spotlight/searchers/navigation.searcher.ts|hoppscotch|hoppscotch|navigation.searcher.ts|TypeScript|77|7|13
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-js-sandbox/src/__tests__/base64-helper-functions.spec.ts|hoppscotch|hoppscotch|base64-helper-functions.spec.ts|TypeScript|77|0|9
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-agent/src-tauri/src/error.rs|hoppscotch|hoppscotch|error.rs|Rust|76|0|5
@@ -515,6 +531,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/tab/Secondary.vue|hoppscotch|hoppscotch|Secondary.vue|Vuejs Component|75|0|2
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/curl/__tests__/detectContentType.spec.js|hoppscotch|hoppscotch|detectContentType.spec.js|JavaScript|75|70|18
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/editor/linting/jsonc.ts|hoppscotch|hoppscotch|jsonc.ts|TypeScript|75|18|13
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/tab/rest.ts|hoppscotch|hoppscotch|rest.ts|TypeScript|75|4|14
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-data/src/graphql/index.ts|hoppscotch|hoppscotch|index.ts|TypeScript|75|3|12
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/.github/workflows/release-push-docker.yml|hoppscotch|hoppscotch|release-push-docker.yml|YAML|74|0|10
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/pubsub/topicsDefs.ts|hoppscotch|hoppscotch|topicsDefs.ts|TypeScript|74|2|1
@@ -530,20 +547,19 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/http/SaveResponseName.vue|hoppscotch|hoppscotch|SaveResponseName.vue|Vuejs Component|73|0|8
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/import-export/import/insomniaEnv.ts|hoppscotch|hoppscotch|insomniaEnv.ts|TypeScript|73|0|18
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-selfhost-desktop/src-tauri/src/win/window.rs|hoppscotch|hoppscotch|window.rs|Rust|73|1|21
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/package.json|hoppscotch|hoppscotch|package.json|JSON|72|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/__tests__/e2e/fixtures/collections/oauth2-auth-code-coll.json|hoppscotch|hoppscotch|oauth2-auth-code-coll.json|JSON|72|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/.eslintrc.js|hoppscotch|hoppscotch|.eslintrc.js|JavaScript|72|5|1
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/http/Sidebar.vue|hoppscotch|hoppscotch|Sidebar.vue|Vuejs Component|72|0|4
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/platform/analytics.ts|hoppscotch|hoppscotch|analytics.ts|TypeScript|72|0|3
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-data/src/collection/index.ts|hoppscotch|hoppscotch|index.ts|TypeScript|72|18|20
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/src/composables/usePagedQuery.ts|hoppscotch|hoppscotch|usePagedQuery.ts|TypeScript|72|2|14
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/__tests__/unit/workspace-access.spec.ts|hoppscotch|hoppscotch|workspace-access.spec.ts|TypeScript|71|1|10
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/aiexperiments/MergeView.vue|hoppscotch|hoppscotch|MergeView.vue|Vuejs Component|71|1|10
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/collections/graphql/AddFolder.vue|hoppscotch|hoppscotch|AddFolder.vue|Vuejs Component|71|0|9
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/teams/TeamListAdapter.ts|hoppscotch|hoppscotch|TeamListAdapter.ts|TypeScript|71|2|23
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-agent/src-tauri/src/util.rs|hoppscotch|hoppscotch|util.rs|Rust|70|0|16
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/utils/workspace-access.ts|hoppscotch|hoppscotch|workspace-access.ts|TypeScript|70|19|12
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/collections/graphql/EditFolder.vue|hoppscotch|hoppscotch|EditFolder.vue|Vuejs Component|70|0|8
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-selfhost-desktop/src-tauri/tauri.conf.json|hoppscotch|hoppscotch|tauri.conf.json|JSON|70|0|0
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/package.json|hoppscotch|hoppscotch|package.json|JSON|69|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/tab/Primary.vue|hoppscotch|hoppscotch|Primary.vue|Vuejs Component|69|0|2
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-selfhost-desktop/src/platform/interceptors/native/persisted-data.ts|hoppscotch|hoppscotch|persisted-data.ts|TypeScript|69|0|16
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/curl/sub_helpers/headers.ts|hoppscotch|hoppscotch|headers.ts|TypeScript|68|2|7
@@ -556,20 +572,19 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/context-menu/menu/__tests__/url.menu.spec.ts|hoppscotch|hoppscotch|url.menu.spec.ts|TypeScript|67|1|15
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/type-check.mjs|hoppscotch|hoppscotch|type-check.mjs|JavaScript|67|9|16
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-data/src/graphql/v/3.ts|hoppscotch|hoppscotch|3.ts|TypeScript|67|0|10
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/src/components/settings/DataSharing.vue|hoppscotch|hoppscotch|DataSharing.vue|Vuejs Component|67|3|9
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/app/ContextMenu.vue|hoppscotch|hoppscotch|ContextMenu.vue|Vuejs Component|66|0|10
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/platform/std/inspections/__tests__/extension.inspector.spec.ts|hoppscotch|hoppscotch|extension.inspector.spec.ts|TypeScript|66|0|22
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/platform/std/interceptors/agent/persisted-data.ts|hoppscotch|hoppscotch|persisted-data.ts|TypeScript|66|0|14
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-data/src/collection/index.ts|hoppscotch|hoppscotch|index.ts|TypeScript|66|18|20
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/mailer/mailer.service.ts|hoppscotch|hoppscotch|mailer.service.ts|TypeScript|65|17|7
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/importExport/ImportExportList.vue|hoppscotch|hoppscotch|ImportExportList.vue|Vuejs Component|65|1|7
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/modules/theming.ts|hoppscotch|hoppscotch|theming.ts|TypeScript|65|2|14
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/inspection/inspectors/header.inspector.ts|hoppscotch|hoppscotch|header.inspector.ts|TypeScript|65|6|14
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/secret-environment.service.ts|hoppscotch|hoppscotch|secret-environment.service.ts|TypeScript|65|61|14
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-js-sandbox/src/__tests__/test-runner.spec.ts|hoppscotch|hoppscotch|test-runner.spec.ts|TypeScript|65|1|7
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/netlify.toml|hoppscotch|hoppscotch|netlify.toml|TOML|64|0|13
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/__tests__/functions/pre-request/preRequestScriptRunner.spec.ts|hoppscotch|hoppscotch|preRequestScriptRunner.spec.ts|TypeScript|64|0|7
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/context-menu/menu/url.menu.ts|hoppscotch|hoppscotch|url.menu.ts|TypeScript|64|13|12
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/inspection/inspectors/header.inspector.ts|hoppscotch|hoppscotch|header.inspector.ts|TypeScript|64|6|12
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/tab/rest.ts|hoppscotch|hoppscotch|rest.ts|TypeScript|64|4|12
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/auth/strategies/google.strategy.ts|hoppscotch|hoppscotch|google.strategy.ts|TypeScript|63|7|7
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/backend/mutations/TeamInvitation.ts|hoppscotch|hoppscotch|TeamInvitation.ts|TypeScript|63|0|6
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/editor/linting/preRequest.ts|hoppscotch|hoppscotch|preRequest.ts|TypeScript|63|2|10
@@ -582,6 +597,8 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/inspection/inspectors/response.inspector.ts|hoppscotch|hoppscotch|response.inspector.ts|TypeScript|62|6|11
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/setupTests.ts|hoppscotch|hoppscotch|setupTests.ts|TypeScript|62|0|9
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-selfhost-desktop/src-tauri/src/interceptor.rs|hoppscotch|hoppscotch|interceptor.rs|Rust|62|19|9
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/src/components.d.ts|hoppscotch|hoppscotch|components.d.ts|TypeScript|62|5|1
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/src/components/users/InviteModal.vue|hoppscotch|hoppscotch|InviteModal.vue|Vuejs Component|62|1|7
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/auth/auth.module.ts|hoppscotch|hoppscotch|auth.module.ts|TypeScript|61|0|4
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/__tests__/functions/test/testRunner.spec.ts|hoppscotch|hoppscotch|testRunner.spec.ts|TypeScript|61|2|10
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/composables/settings.ts|hoppscotch|hoppscotch|settings.ts|TypeScript|61|11|3
@@ -589,15 +606,15 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/platform/auth.ts|hoppscotch|hoppscotch|auth.ts|TypeScript|61|160|35
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-data/src/graphql/v/4.ts|hoppscotch|hoppscotch|4.ts|TypeScript|61|0|10
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-selfhost-web/.eslintrc.cjs|hoppscotch|hoppscotch|.eslintrc.cjs|JavaScript|61|5|1
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/src/helpers/errors.ts|hoppscotch|hoppscotch|errors.ts|TypeScript|61|14|15
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/src/main.ts|hoppscotch|hoppscotch|main.ts|TypeScript|61|6|7
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-agent/src-tauri/src/updater.rs|hoppscotch|hoppscotch|updater.rs|Rust|60|0|7
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/user-request/input-type.args.ts|hoppscotch|hoppscotch|input-type.args.ts|TypeScript|60|0|11
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/app/spotlight/entry/RESTRequest.vue|hoppscotch|hoppscotch|RESTRequest.vue|Vuejs Component|60|0|11
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/http/ReqChangeConfirmModal.vue|hoppscotch|hoppscotch|ReqChangeConfirmModal.vue|Vuejs Component|60|0|7
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/http/TestResultEntry.vue|hoppscotch|hoppscotch|TestResultEntry.vue|Vuejs Component|60|0|4
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/lenses/HeadersRenderer.vue|hoppscotch|hoppscotch|HeadersRenderer.vue|Vuejs Component|60|0|9
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/context-menu/menu/__tests__/parameter.menu.spec.ts|hoppscotch|hoppscotch|parameter.menu.spec.ts|TypeScript|60|1|24
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-selfhost-desktop/src-tauri/src/interop/startup/init.rs|hoppscotch|hoppscotch|init.rs|Rust|60|107|19
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/src/components.d.ts|hoppscotch|hoppscotch|components.d.ts|TypeScript|60|5|1
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/interceptors/user-last-active-on.interceptor.ts|hoppscotch|hoppscotch|user-last-active-on.interceptor.ts|TypeScript|59|0|6
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/app/Support.vue|hoppscotch|hoppscotch|Support.vue|Vuejs Component|59|1|5
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/firebase/Logout.vue|hoppscotch|hoppscotch|Logout.vue|Vuejs Component|59|0|8
@@ -611,6 +628,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/infra-token/infra-token.resolver.ts|hoppscotch|hoppscotch|infra-token.resolver.ts|TypeScript|58|2|8
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/shortcode/shortcode.model.ts|hoppscotch|hoppscotch|shortcode.model.ts|TypeScript|58|0|11
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/__tests__/functions/test/testDescriptorParser.spec.ts|hoppscotch|hoppscotch|testDescriptorParser.spec.ts|TypeScript|58|0|5
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/http/BodyBinary.vue|hoppscotch|hoppscotch|BodyBinary.vue|Vuejs Component|58|9|7
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/settings/Proxy.vue|hoppscotch|hoppscotch|Proxy.vue|Vuejs Component|58|2|7
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/curl/sub_helpers/method.ts|hoppscotch|hoppscotch|method.ts|TypeScript|58|6|4
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/import-export/export/environment.ts|hoppscotch|hoppscotch|environment.ts|TypeScript|58|3|12
@@ -621,10 +639,10 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/lenses/renderers/PDFLensRenderer.vue|hoppscotch|hoppscotch|PDFLensRenderer.vue|Vuejs Component|57|0|6
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/pages/_.vue|hoppscotch|hoppscotch|_.vue|Vuejs Component|57|2|7
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-data/src/rest/v/5.ts|hoppscotch|hoppscotch|5.ts|TypeScript|57|2|7
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/src/helpers/errors.ts|hoppscotch|hoppscotch|errors.ts|TypeScript|57|11|14
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/src/pages/dashboard.vue|hoppscotch|hoppscotch|dashboard.vue|Vuejs Component|57|1|6
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/auth/strategies/github.strategy.ts|hoppscotch|hoppscotch|github.strategy.ts|TypeScript|56|7|7
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/context-menu/menu/__tests__/environment.menu.spec.ts|hoppscotch|hoppscotch|environment.menu.spec.ts|TypeScript|56|0|14
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/inspection/inspectors/interceptors.inspector.ts|hoppscotch|hoppscotch|interceptors.inspector.ts|TypeScript|56|6|11
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/src/components/app/Logout.vue|hoppscotch|hoppscotch|Logout.vue|Vuejs Component|56|0|9
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/aio_run.mjs|hoppscotch|hoppscotch|aio_run.mjs|JavaScript|55|1|17
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/codemirror-lang-graphql/src/index.js|hoppscotch|hoppscotch|index.js|JavaScript|55|0|2
@@ -638,9 +656,9 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/spotlight/searchers/miscellaneous.searcher.ts|hoppscotch|hoppscotch|miscellaneous.searcher.ts|TypeScript|55|7|11
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/tab/graphql.ts|hoppscotch|hoppscotch|graphql.ts|TypeScript|55|4|10
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/prod_run.mjs|hoppscotch|hoppscotch|prod_run.mjs|JavaScript|55|0|15
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/options/test/env.ts|hoppscotch|hoppscotch|env.ts|TypeScript|54|21|15
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/smart/EncodingPicker.vue|hoppscotch|hoppscotch|EncodingPicker.vue|Vuejs Component|54|0|6
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/composables/step-components.ts|hoppscotch|hoppscotch|step-components.ts|TypeScript|54|2|13
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/src/components/settings/DataSharing.vue|hoppscotch|hoppscotch|DataSharing.vue|Vuejs Component|54|2|9
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/src/components/users/SuccessInviteModal.vue|hoppscotch|hoppscotch|SuccessInviteModal.vue|Vuejs Component|54|0|6
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/app/spotlight/entry/GQLRequest.vue|hoppscotch|hoppscotch|GQLRequest.vue|Vuejs Component|53|0|12
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/functional/object.ts|hoppscotch|hoppscotch|object.ts|TypeScript|53|6|6
@@ -649,7 +667,9 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/__tests__/functions/test/getTestMetrics.spec.ts|hoppscotch|hoppscotch|getTestMetrics.spec.ts|TypeScript|52|0|3
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/app/Interceptor.vue|hoppscotch|hoppscotch|Interceptor.vue|Vuejs Component|52|0|8
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/composables/whats-new.ts|hoppscotch|hoppscotch|whats-new.ts|TypeScript|52|5|12
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/src/main.ts|hoppscotch|hoppscotch|main.ts|TypeScript|52|5|8
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/utils/contenttypes.ts|hoppscotch|hoppscotch|contenttypes.ts|TypeScript|52|0|6
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-data/package.json|hoppscotch|hoppscotch|package.json|JSON|52|0|0
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/src/pages/_.vue|hoppscotch|hoppscotch|_.vue|Vuejs Component|52|2|5
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-agent/src-tauri/tauri.conf.json|hoppscotch|hoppscotch|tauri.conf.json|JSON|51|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/team-collection/team-collection.controller.ts|hoppscotch|hoppscotch|team-collection.controller.ts|TypeScript|51|0|3
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/__tests__/e2e/fixtures/environments/secret-supplied-values-envs.json|hoppscotch|hoppscotch|secret-supplied-values-envs.json|JSON|51|0|0
@@ -661,12 +681,12 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/embeds/index.vue|hoppscotch|hoppscotch|index.vue|Vuejs Component|50|1|7
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/settings/Extension.vue|hoppscotch|hoppscotch|Extension.vue|Vuejs Component|50|2|4
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/modules/router.ts|hoppscotch|hoppscotch|router.ts|TypeScript|50|24|14
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-data/package.json|hoppscotch|hoppscotch|package.json|JSON|50|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/public/logo.svg|hoppscotch|hoppscotch|logo.svg|SVG|50|0|0
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/plugins/GQLComplexityPlugin.ts|hoppscotch|hoppscotch|GQLComplexityPlugin.ts|TypeScript|49|1|4
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/__tests__/unit/workspace-access.spec.ts|hoppscotch|hoppscotch|workspace-access.spec.ts|TypeScript|49|0|5
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/editor/linting/gqlQuery.ts|hoppscotch|hoppscotch|gqlQuery.ts|TypeScript|49|4|5
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/testSnippets.ts|hoppscotch|hoppscotch|testSnippets.ts|TypeScript|49|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-selfhost-web/src/main.ts|hoppscotch|hoppscotch|main.ts|TypeScript|49|0|1
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/src/pages/_.vue|hoppscotch|hoppscotch|_.vue|Vuejs Component|49|2|7
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-agent/src-tauri/Cargo.toml|hoppscotch|hoppscotch|Cargo.toml|TOML|48|1|7
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-agent/src-tauri/tauri.portable.conf.json|hoppscotch|hoppscotch|tauri.portable.conf.json|JSON|48|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/user-history/user-history.model.ts|hoppscotch|hoppscotch|user-history.model.ts|TypeScript|48|0|9
@@ -678,13 +698,11 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/__tests__/e2e/fixtures/collections/fails-coll.json|hoppscotch|hoppscotch|fails-coll.json|JSON|47|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/__tests__/e2e/fixtures/collections/passes-coll.json|hoppscotch|hoppscotch|passes-coll.json|JSON|47|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-selfhost-web/src/platform/settings/settings.api.ts|hoppscotch|hoppscotch|settings.api.ts|TypeScript|47|0|4
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/src/components/users/InviteModal.vue|hoppscotch|hoppscotch|InviteModal.vue|Vuejs Component|47|0|6
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/auth/strategies/jwt.strategy.ts|hoppscotch|hoppscotch|jwt.strategy.ts|TypeScript|46|0|4
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/team-request/guards/gql-request-team-member.guard.ts|hoppscotch|hoppscotch|gql-request-team-member.guard.ts|TypeScript|46|0|9
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/__tests__/e2e/fixtures/collections/malformed-coll.json|hoppscotch|hoppscotch|malformed-coll.json|JSON|46|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/http/TestResultReport.vue|hoppscotch|hoppscotch|TestResultReport.vue|Vuejs Component|46|0|3
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/auth/index.ts|hoppscotch|hoppscotch|index.ts|TypeScript|46|1|9
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/utils/contenttypes.ts|hoppscotch|hoppscotch|contenttypes.ts|TypeScript|46|0|6
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/auth/strategies/rt-jwt.strategy.ts|hoppscotch|hoppscotch|rt-jwt.strategy.ts|TypeScript|45|0|4
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/__tests__/e2e/fixtures/environments/secret-envs.json|hoppscotch|hoppscotch|secret-envs.json|JSON|45|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/__tests__/banner.service.spec.ts|hoppscotch|hoppscotch|banner.service.spec.ts|TypeScript|45|0|8
@@ -702,8 +720,8 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/tsconfig.json|hoppscotch|hoppscotch|tsconfig.json|JSON|44|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/__tests__/e2e/fixtures/collections/digest-auth-failure-coll.json|hoppscotch|hoppscotch|digest-auth-failure-coll.json|JSON|43|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/__tests__/e2e/fixtures/collections/digest-auth-success-coll.json|hoppscotch|hoppscotch|digest-auth-success-coll.json|JSON|43|0|0
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/options/test/env.ts|hoppscotch|hoppscotch|env.ts|TypeScript|43|16|11
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/graphql/RequestTab.vue|hoppscotch|hoppscotch|RequestTab.vue|Vuejs Component|43|3|7
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/import-export/import/import-sources/GistSource.ts|hoppscotch|hoppscotch|GistSource.ts|TypeScript|43|0|9
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/context-menu/menu/environment.menu.ts|hoppscotch|hoppscotch|environment.menu.ts|TypeScript|43|5|6
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-data/src/collection/v/3.ts|hoppscotch|hoppscotch|3.ts|TypeScript|43|3|12
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-data/src/rest/v/6.ts|hoppscotch|hoppscotch|6.ts|TypeScript|43|1|5
@@ -719,10 +737,10 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-data/src/graphql/v/7.ts|hoppscotch|hoppscotch|7.ts|TypeScript|42|1|6
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-js-sandbox/.eslintrc.cjs|hoppscotch|hoppscotch|.eslintrc.cjs|JavaScript|42|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/docker-compose.deploy.yml|hoppscotch|hoppscotch|docker-compose.deploy.yml|YAML|41|2|3
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/plugins/GQLComplexityPlugin.ts|hoppscotch|hoppscotch|GQLComplexityPlugin.ts|TypeScript|41|0|4
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/import-export/import/import-sources/GistSource.ts|hoppscotch|hoppscotch|GistSource.ts|TypeScript|41|0|9
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/runner/collection-tree.ts|hoppscotch|hoppscotch|collection-tree.ts|TypeScript|41|0|1
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/auth/guards/microsoft-sso-.guard.ts|hoppscotch|hoppscotch|microsoft-sso-.guard.ts|TypeScript|40|0|5
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/CONTRIBUTING.md|hoppscotch|hoppscotch|CONTRIBUTING.md|Markdown|40|0|17
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/types/errors.ts|hoppscotch|hoppscotch|errors.ts|TypeScript|40|0|5
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/public/images/states/black/pack.svg|hoppscotch|hoppscotch|pack.svg|SVG|40|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/public/images/states/dark/add_group.svg|hoppscotch|hoppscotch|add_group.svg|SVG|40|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/App.vue|hoppscotch|hoppscotch|App.vue|Vuejs Component|40|5|7
@@ -734,12 +752,10 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-data/src/graphql/v/5.ts|hoppscotch|hoppscotch|5.ts|TypeScript|40|0|7
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/src/components/ui/AutoResetIcon.vue|hoppscotch|hoppscotch|AutoResetIcon.vue|Vuejs Component|40|2|5
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/team/guards/rest-team-member.guard.ts|hoppscotch|hoppscotch|rest-team-member.guard.ts|TypeScript|39|0|8
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/types/errors.ts|hoppscotch|hoppscotch|errors.ts|TypeScript|39|0|5
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/assets/themes/editor-themes.scss|hoppscotch|hoppscotch|editor-themes.scss|SCSS|39|0|2
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/public/images/states/light/pack.svg|hoppscotch|hoppscotch|pack.svg|SVG|39|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/app/spotlight/entry/RESTHistory.vue|hoppscotch|hoppscotch|RESTHistory.vue|Vuejs Component|39|0|4
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/composables/ref.ts|hoppscotch|hoppscotch|ref.ts|TypeScript|39|0|7
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/rest/document.ts|hoppscotch|hoppscotch|document.ts|TypeScript|39|82|16
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/types/HoppPicked.ts|hoppscotch|hoppscotch|HoppPicked.ts|TypeScript|39|8|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/modules/interceptors.ts|hoppscotch|hoppscotch|interceptors.ts|TypeScript|39|0|7
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/newstore/reordering.ts|hoppscotch|hoppscotch|reordering.ts|TypeScript|39|0|7
@@ -760,6 +776,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/guards/infra-token.guard.ts|hoppscotch|hoppscotch|infra-token.guard.ts|TypeScript|37|0|10
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/team-environments/input-type.args.ts|hoppscotch|hoppscotch|input-type.args.ts|TypeScript|37|0|4
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/team-request/team-request.model.ts|hoppscotch|hoppscotch|team-request.model.ts|TypeScript|37|0|7
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/bin/hopp.js|hoppscotch|hoppscotch|hopp.js|JavaScript|37|10|14
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/public/images/states/black/add_group.svg|hoppscotch|hoppscotch|add_group.svg|SVG|37|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/public/images/states/light/add_group.svg|hoppscotch|hoppscotch|add_group.svg|SVG|37|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/curl/sub_helpers/queries.ts|hoppscotch|hoppscotch|queries.ts|TypeScript|37|5|2
@@ -783,6 +800,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/auth/guards/github-sso.guard.ts|hoppscotch|hoppscotch|github-sso.guard.ts|TypeScript|34|0|5
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/auth/guards/google-sso.guard.ts|hoppscotch|hoppscotch|google-sso.guard.ts|TypeScript|34|0|5
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/__tests__/e2e/fixtures/environments/request-vars-envs.json|hoppscotch|hoppscotch|request-vars-envs.json|JSON|34|0|0
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/importExport/types.ts|hoppscotch|hoppscotch|types.ts|TypeScript|34|1|2
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/interceptors/ExtensionSubtitle.vue|hoppscotch|hoppscotch|ExtensionSubtitle.vue|Vuejs Component|34|2|3
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/teams/TeamRequest.ts|hoppscotch|hoppscotch|TeamRequest.ts|TypeScript|34|3|4
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/platform/std/io.ts|hoppscotch|hoppscotch|io.ts|TypeScript|34|5|6
@@ -795,10 +813,12 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/newstore/syncing.ts|hoppscotch|hoppscotch|syncing.ts|TypeScript|33|0|7
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/vitest.config.ts|hoppscotch|hoppscotch|vitest.config.ts|TypeScript|33|0|1
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-js-sandbox/src/web/test-runner/worker.ts|hoppscotch|hoppscotch|worker.ts|TypeScript|33|4|9
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/src/components/tokens/Overview.vue|hoppscotch|hoppscotch|Overview.vue|Vuejs Component|33|1|5
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/interceptors/access-token.interceptor.ts|hoppscotch|hoppscotch|access-token.interceptor.ts|TypeScript|32|0|4
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/team/team.model.ts|hoppscotch|hoppscotch|team.model.ts|TypeScript|32|0|7
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/__tests__/e2e/fixtures/environments/bulk-envs.json|hoppscotch|hoppscotch|bulk-envs.json|JSON|32|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/__tests__/functions/mutators/parseCollectionData.spec.ts|hoppscotch|hoppscotch|parseCollectionData.spec.ts|TypeScript|32|0|4
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/types/request.ts|hoppscotch|hoppscotch|request.ts|TypeScript|32|0|8
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/__tests__/platformutils.spec.js|hoppscotch|hoppscotch|platformutils.spec.js|JavaScript|32|0|11
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/import-export/import/index.ts|hoppscotch|hoppscotch|index.ts|TypeScript|32|27|10
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/terndoc/pw-test.json|hoppscotch|hoppscotch|pw-test.json|JSON|32|0|0
@@ -809,7 +829,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/admin/admin.module.ts|hoppscotch|hoppscotch|admin.module.ts|TypeScript|31|0|1
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/__tests__/e2e/fixtures/collections/req-body-env-vars-coll.json|hoppscotch|hoppscotch|req-body-env-vars-coll.json|JSON|31|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/__tests__/e2e/fixtures/collections/secret-envs-persistence-scripting-coll.json|hoppscotch|hoppscotch|secret-envs-persistence-scripting-coll.json|JSON|31|0|0
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/types/request.ts|hoppscotch|hoppscotch|request.ts|TypeScript|31|0|8
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/smart/AccentModePicker.vue|hoppscotch|hoppscotch|AccentModePicker.vue|Vuejs Component|31|9|3
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/editor/utils.ts|hoppscotch|hoppscotch|utils.ts|TypeScript|31|0|7
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/findStatusGroup.ts|hoppscotch|hoppscotch|findStatusGroup.ts|TypeScript|31|1|5
@@ -824,20 +843,23 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/__tests__/functions/collection/collectionsRunnerResult.spec.ts|hoppscotch|hoppscotch|collectionsRunnerResult.spec.ts|TypeScript|30|0|5
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/app/ActionHandler.vue|hoppscotch|hoppscotch|ActionHandler.vue|Vuejs Component|30|0|6
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/app/spotlight/entry/RESTTeamRequestEntry.vue|hoppscotch|hoppscotch|RESTTeamRequestEntry.vue|Vuejs Component|30|0|2
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/http/test/Response.vue|hoppscotch|hoppscotch|Response.vue|Vuejs Component|30|0|5
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/services/tab/index.ts|hoppscotch|hoppscotch|index.ts|TypeScript|30|70|16
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-data/src/collection/v/1.ts|hoppscotch|hoppscotch|1.ts|TypeScript|30|0|6
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-selfhost-web/src/platform/tabState/tabState.platform.ts|hoppscotch|hoppscotch|tabState.platform.ts|TypeScript|30|0|8
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-selfhost-web/tailwind.config.ts|hoppscotch|hoppscotch|tailwind.config.ts|TypeScript|30|0|1
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/src/helpers/backend/gql/queries/TeamInfo.graphql|hoppscotch|hoppscotch|TeamInfo.graphql|GraphQL|30|0|1
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/src/pages/enter.vue|hoppscotch|hoppscotch|enter.vue|Vuejs Component|30|0|5
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/.github/workflows/tests.yml|hoppscotch|hoppscotch|tests.yml|YAML|29|0|8
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/types/InfraConfig.ts|hoppscotch|hoppscotch|InfraConfig.ts|TypeScript|29|0|6
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/commands/test.ts|hoppscotch|hoppscotch|test.ts|TypeScript|29|0|5
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/interfaces/response.ts|hoppscotch|hoppscotch|response.ts|TypeScript|29|35|5
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/types/response.ts|hoppscotch|hoppscotch|response.ts|TypeScript|29|40|13
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/utils/checks.ts|hoppscotch|hoppscotch|checks.ts|TypeScript|29|27|4
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/embeds/Header.vue|hoppscotch|hoppscotch|Header.vue|Vuejs Component|29|1|3
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-data/src/collection/v/4.ts|hoppscotch|hoppscotch|4.ts|TypeScript|29|1|7
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-data/src/collection/v/5.ts|hoppscotch|hoppscotch|5.ts|TypeScript|29|1|6
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-js-sandbox/src/types/index.ts|hoppscotch|hoppscotch|index.ts|TypeScript|29|28|9
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-selfhost-web/tailwind.config.ts|hoppscotch|hoppscotch|tailwind.config.ts|TypeScript|29|0|1
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-selfhost-desktop/tailwind.config.ts|hoppscotch|hoppscotch|tailwind.config.ts|TypeScript|29|0|1
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/.github/ISSUE_TEMPLATE/--feature-request.yaml|hoppscotch|hoppscotch|--feature-request.yaml|YAML|28|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/.github/workflows/codeql-analysis.yml|hoppscotch|hoppscotch|codeql-analysis.yml|YAML|28|24|11
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/public/images/states/black/add_files.svg|hoppscotch|hoppscotch|add_files.svg|SVG|28|0|0
@@ -888,7 +910,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-selfhost-desktop/index.html|hoppscotch|hoppscotch|index.html|HTML|25|0|1
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-selfhost-web/src/platform/settings/settings.sync.ts|hoppscotch|hoppscotch|settings.sync.ts|TypeScript|25|0|5
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/src/components/app/Toast.vue|hoppscotch|hoppscotch|Toast.vue|Vuejs Component|25|0|3
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/src/components/tokens/Overview.vue|hoppscotch|hoppscotch|Overview.vue|Vuejs Component|25|0|5
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/src/modules/index.ts|hoppscotch|hoppscotch|index.ts|TypeScript|25|26|6
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-agent/src-tauri/capabilities/default.json|hoppscotch|hoppscotch|default.json|JSON|24|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/infra-config/infra-config.model.ts|hoppscotch|hoppscotch|infra-config.model.ts|TypeScript|24|0|5
@@ -909,9 +930,11 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/src/components/dashboard/MetricsCard.vue|hoppscotch|hoppscotch|MetricsCard.vue|Vuejs Component|24|0|3
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-agent/tsconfig.json|hoppscotch|hoppscotch|tsconfig.json|JSON|23|0|2
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/__tests__/e2e/fixtures/collections/env-flag-tests-coll.json|hoppscotch|hoppscotch|env-flag-tests-coll.json|JSON|23|0|0
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/__tests__/e2e/fixtures/collections/iteration-data-tests-coll.json|hoppscotch|hoppscotch|iteration-data-tests-coll.json|JSON|23|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/public/images/states/black/validation.svg|hoppscotch|hoppscotch|validation.svg|SVG|23|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/public/images/states/dark/validation.svg|hoppscotch|hoppscotch|validation.svg|SVG|23|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/editor/completion/gqlQuery.ts|hoppscotch|hoppscotch|gqlQuery.ts|TypeScript|23|0|4
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/import-export/import/import-sources/UrlSource.ts|hoppscotch|hoppscotch|UrlSource.ts|TypeScript|23|0|3
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-data/src/global-environment/v/0.ts|hoppscotch|hoppscotch|0.ts|TypeScript|23|0|2
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/health/health.controller.ts|hoppscotch|hoppscotch|health.controller.ts|TypeScript|22|0|2
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/interceptors/user-last-login.interceptor.ts|hoppscotch|hoppscotch|user-last-login.interceptor.ts|TypeScript|22|0|3
@@ -928,6 +951,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/public/images/states/light/login.svg|hoppscotch|hoppscotch|login.svg|SVG|22|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/public/images/states/light/upload_error.svg|hoppscotch|hoppscotch|upload_error.svg|SVG|22|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/curl/sub_helpers/cookies.ts|hoppscotch|hoppscotch|cookies.ts|TypeScript|22|0|5
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/functional/formData.ts|hoppscotch|hoppscotch|formData.ts|TypeScript|22|0|5
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/utils/json-to-language.ts|hoppscotch|hoppscotch|json-to-language.ts|TypeScript|22|0|5
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/platform/std/ui/footerItem.ts|hoppscotch|hoppscotch|footerItem.ts|TypeScript|22|0|3
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-data/src/utils/eq.ts|hoppscotch|hoppscotch|eq.ts|TypeScript|22|21|7
@@ -936,8 +960,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/team/team-member.resolver.ts|hoppscotch|hoppscotch|team-member.resolver.ts|TypeScript|21|0|3
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/__tests__/e2e/fixtures/environments/digest-auth-envs.json|hoppscotch|hoppscotch|digest-auth-envs.json|JSON|21|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/utils/functions/array.ts|hoppscotch|hoppscotch|array.ts|TypeScript|21|11|5
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/importExport/types.ts|hoppscotch|hoppscotch|types.ts|TypeScript|21|1|1
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/import-export/import/import-sources/UrlSource.ts|hoppscotch|hoppscotch|UrlSource.ts|TypeScript|21|0|3
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/components/http/test/RunnerMeta.vue|hoppscotch|hoppscotch|RunnerMeta.vue|Vuejs Component|21|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/preRequestScriptSnippets.ts|hoppscotch|hoppscotch|preRequestScriptSnippets.ts|TypeScript|21|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/rest/default.ts|hoppscotch|hoppscotch|default.ts|TypeScript|21|0|1
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-js-sandbox/src/web/pre-request/worker.ts|hoppscotch|hoppscotch|worker.ts|TypeScript|21|4|8
@@ -958,6 +981,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/editor/completion/testScript.ts|hoppscotch|hoppscotch|testScript.ts|TypeScript|20|0|4
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/editor/linting/rawKeyValue.ts|hoppscotch|hoppscotch|rawKeyValue.ts|TypeScript|20|0|3
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/functional/array.ts|hoppscotch|hoppscotch|array.ts|TypeScript|20|18|6
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/import-export/import/import-sources/FileSource.ts|hoppscotch|hoppscotch|FileSource.ts|TypeScript|20|0|3
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/modules/index.ts|hoppscotch|hoppscotch|index.ts|TypeScript|20|26|6
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/shims.d.ts|hoppscotch|hoppscotch|shims.d.ts|TypeScript|20|4|2
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-data/src/graphql/v/1.ts|hoppscotch|hoppscotch|1.ts|TypeScript|20|0|4
@@ -980,9 +1004,9 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/infra-config/infra-config.resolver.ts|hoppscotch|hoppscotch|infra-config.resolver.ts|TypeScript|18|0|2
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/pubsub/pubsub.service.ts|hoppscotch|hoppscotch|pubsub.service.ts|TypeScript|18|4|6
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/user-settings/user.resolver.ts|hoppscotch|hoppscotch|user.resolver.ts|TypeScript|18|0|3
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/__tests__/e2e/fixtures/environments/iteration-data-envs.json|hoppscotch|hoppscotch|iteration-data-envs.json|JSON|18|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/backend/gql/queries/GetMyTeams.graphql|hoppscotch|hoppscotch|GetMyTeams.graphql|GraphQL|18|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/backend/gql/subscriptions/TeamCollectionOrderUpdated.graphql|hoppscotch|hoppscotch|TeamCollectionOrderUpdated.graphql|GraphQL|18|0|0
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/import-export/import/import-sources/FileSource.ts|hoppscotch|hoppscotch|FileSource.ts|TypeScript|18|0|3
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/types/HoppInheritedProperties.ts|hoppscotch|hoppscotch|HoppInheritedProperties.ts|TypeScript|18|0|1
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-js-sandbox/src/__tests__/shared-utils.spec.ts|hoppscotch|hoppscotch|shared-utils.spec.ts|TypeScript|18|0|6
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-js-sandbox/src/node/utils.ts|hoppscotch|hoppscotch|utils.ts|TypeScript|18|1|4
@@ -991,7 +1015,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/prisma/prisma.service.ts|hoppscotch|hoppscotch|prisma.service.ts|TypeScript|17|0|2
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/team-invitation/input-type.args.ts|hoppscotch|hoppscotch|input-type.args.ts|TypeScript|17|0|3
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/user-environment/user-environments.module.ts|hoppscotch|hoppscotch|user-environments.module.ts|TypeScript|17|0|1
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/bin/hopp.js|hoppscotch|hoppscotch|hopp.js|JavaScript|17|7|7
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/tsconfig.json|hoppscotch|hoppscotch|tsconfig.json|JSON|17|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/gql-codegen.yml|hoppscotch|hoppscotch|gql-codegen.yml|YAML|17|0|1
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/public/images/states/black/upload_single_file.svg|hoppscotch|hoppscotch|upload_single_file.svg|SVG|17|0|0
@@ -1000,6 +1023,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/app/index.ts|hoppscotch|hoppscotch|index.ts|TypeScript|17|1|3
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/utils/__tests__/uri.spec.js|hoppscotch|hoppscotch|uri.spec.js|JavaScript|17|0|5
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/modules/head.ts|hoppscotch|hoppscotch|head.ts|TypeScript|17|0|3
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-data/src/rest/content-types.ts|hoppscotch|hoppscotch|content-types.ts|TypeScript|17|0|2
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-data/tsconfig.decl.json|hoppscotch|hoppscotch|tsconfig.decl.json|JSON|17|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-js-sandbox/src/web/pre-request/index.ts|hoppscotch|hoppscotch|index.ts|TypeScript|17|2|5
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-relay/LICENSE.md|hoppscotch|hoppscotch|LICENSE.md|Markdown|17|0|4
@@ -1018,7 +1042,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/typeutils.ts|hoppscotch|hoppscotch|typeutils.ts|TypeScript|16|2|2
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/modules/ui.ts|hoppscotch|hoppscotch|ui.ts|TypeScript|16|3|3
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-data/src/environment/v/0.ts|hoppscotch|hoppscotch|0.ts|TypeScript|16|0|2
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-data/src/rest/content-types.ts|hoppscotch|hoppscotch|content-types.ts|TypeScript|16|0|2
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-selfhost-web/src/api/subscriptions/UserCollectionOrderUpdated.graphql|hoppscotch|hoppscotch|UserCollectionOrderUpdated.graphql|GraphQL|16|0|1
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/assets/images/hoppscotch-title.svg|hoppscotch|hoppscotch|hoppscotch-title.svg|SVG|16|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/index.html|hoppscotch|hoppscotch|index.html|HTML|16|0|0
@@ -1040,6 +1063,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-selfhost-web/src/api/subscriptions/userCollectionDuplicated.graphql|hoppscotch|hoppscotch|userCollectionDuplicated.graphql|GraphQL|15|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-sh-admin/assets/icons/auth/email.svg|hoppscotch|hoppscotch|email.svg|SVG|15|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/team-environments/team.resolver.ts|hoppscotch|hoppscotch|team.resolver.ts|TypeScript|14|0|2
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/types/commands.ts|hoppscotch|hoppscotch|commands.ts|TypeScript|14|2|3
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/backend/gql/mutations/UpdateTeamMemberRole.graphql|hoppscotch|hoppscotch|UpdateTeamMemberRole.graphql|GraphQL|14|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/backend/gql/queries/GetTeam.graphql|hoppscotch|hoppscotch|GetTeam.graphql|GraphQL|14|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/collection/affectedIndex.ts|hoppscotch|hoppscotch|affectedIndex.ts|TypeScript|14|6|1
@@ -1087,7 +1111,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/shortcode/shortcode.module.ts|hoppscotch|hoppscotch|shortcode.module.ts|TypeScript|12|0|1
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/user-collection/user-collection.module.ts|hoppscotch|hoppscotch|user-collection.module.ts|TypeScript|12|0|1
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/options/test/delay.ts|hoppscotch|hoppscotch|delay.ts|TypeScript|12|0|2
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/types/commands.ts|hoppscotch|hoppscotch|commands.ts|TypeScript|12|2|3
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/public/images/states/black/add_category.svg|hoppscotch|hoppscotch|add_category.svg|SVG|12|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/public/images/states/dark/add_category.svg|hoppscotch|hoppscotch|add_category.svg|SVG|12|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/public/images/states/light/add_category.svg|hoppscotch|hoppscotch|add_category.svg|SVG|12|0|0
@@ -1120,6 +1143,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/guards/gql-throttler.guard.ts|hoppscotch|hoppscotch|gql-throttler.guard.ts|TypeScript|11|0|1
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/user/user.module.ts|hoppscotch|hoppscotch|user.module.ts|TypeScript|11|0|1
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/setupFiles.ts|hoppscotch|hoppscotch|setupFiles.ts|TypeScript|11|2|2
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/types/collections.ts|hoppscotch|hoppscotch|collections.ts|TypeScript|11|1|3
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/backend/gql/mutations/CreateChildCollection.graphql|hoppscotch|hoppscotch|CreateChildCollection.graphql|GraphQL|11|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/backend/gql/mutations/UpdateLookUpRequestOrder.graphql|hoppscotch|hoppscotch|UpdateLookUpRequestOrder.graphql|GraphQL|11|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/editorutils.ts|hoppscotch|hoppscotch|editorutils.ts|TypeScript|11|0|1
@@ -1149,6 +1173,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/backend/types/TeamName.ts|hoppscotch|hoppscotch|TeamName.ts|TypeScript|10|0|3
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/functional/debug.ts|hoppscotch|hoppscotch|debug.ts|TypeScript|10|11|1
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/import-export/import/hoppGql.ts|hoppscotch|hoppscotch|hoppGql.ts|TypeScript|10|1|1
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/platform/tab.ts|hoppscotch|hoppscotch|tab.ts|TypeScript|10|0|1
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-data/src/utils/record.ts|hoppscotch|hoppscotch|record.ts|TypeScript|10|6|1
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-selfhost-desktop/src/api/subscriptions/UserCollectionUpdated.graphql|hoppscotch|hoppscotch|UserCollectionUpdated.graphql|GraphQL|10|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-selfhost-web/src/api/subscriptions/UserHistoryCreated.graphql|hoppscotch|hoppscotch|UserHistoryCreated.graphql|GraphQL|10|0|0
@@ -1171,7 +1196,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/backend/gql/queries/GetCollectionChildren.graphql|hoppscotch|hoppscotch|GetCollectionChildren.graphql|GraphQL|9|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/backend/gql/subscriptions/TeamCollectionMoved.graphql|hoppscotch|hoppscotch|TeamCollectionMoved.graphql|GraphQL|9|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/editor/linting/jsoncPretty.ts|hoppscotch|hoppscotch|jsoncPretty.ts|TypeScript|9|0|1
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/functional/formData.ts|hoppscotch|hoppscotch|formData.ts|TypeScript|9|0|3
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/platformutils.ts|hoppscotch|hoppscotch|platformutils.ts|TypeScript|9|0|2
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/utils/__tests__/b64.spec.js|hoppscotch|hoppscotch|b64.spec.js|JavaScript|9|1|2
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/platform/inspectors.ts|hoppscotch|hoppscotch|inspectors.ts|TypeScript|9|6|2
@@ -1203,7 +1227,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/guards/throttler-behind-proxy.guard.ts|hoppscotch|hoppscotch|throttler-behind-proxy.guard.ts|TypeScript|8|0|1
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/posthog/posthog.module.ts|hoppscotch|hoppscotch|posthog.module.ts|TypeScript|8|0|1
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/tsconfig.build.json|hoppscotch|hoppscotch|tsconfig.build.json|JSON|8|0|0
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/types/collections.ts|hoppscotch|hoppscotch|collections.ts|TypeScript|8|0|2
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/.prettierrc.js|hoppscotch|hoppscotch|.prettierrc.js|JavaScript|8|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/backend/gql/mutations/CreateDuplicateEnvironment.graphql|hoppscotch|hoppscotch|CreateDuplicateEnvironment.graphql|GraphQL|8|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/backend/gql/mutations/CreateShortcode.graphql|hoppscotch|hoppscotch|CreateShortcode.graphql|GraphQL|8|0|0
@@ -1223,6 +1246,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/migrations.ts|hoppscotch|hoppscotch|migrations.ts|TypeScript|8|5|2
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/types/HoppRealtimeLog.ts|hoppscotch|hoppscotch|HoppRealtimeLog.ts|TypeScript|8|0|1
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/utils/debounce.js|hoppscotch|hoppscotch|debounce.js|JavaScript|8|4|1
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-data/src/index.ts|hoppscotch|hoppscotch|index.ts|TypeScript|8|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-selfhost-web/src/api/mutations/MoveUserCollection.graphql|hoppscotch|hoppscotch|MoveUserCollection.graphql|GraphQL|8|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-selfhost-web/src/api/mutations/RenameUserCollection.graphql|hoppscotch|hoppscotch|RenameUserCollection.graphql|GraphQL|8|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-selfhost-web/src/api/queries/GetUserSettings.graphql|hoppscotch|hoppscotch|GetUserSettings.graphql|GraphQL|8|0|0
@@ -1249,7 +1273,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/utils/file-extension.ts|hoppscotch|hoppscotch|file-extension.ts|TypeScript|7|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/layouts/empty.vue|hoppscotch|hoppscotch|empty.vue|Vuejs Component|7|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/modules/whats-new.ts|hoppscotch|hoppscotch|whats-new.ts|TypeScript|7|0|1
-./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-data/src/index.ts|hoppscotch|hoppscotch|index.ts|TypeScript|7|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-selfhost-desktop/.vscode/extensions.json|hoppscotch|hoppscotch|extensions.json|JSON|7|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-selfhost-web/postcss.config.cjs|hoppscotch|hoppscotch|postcss.config.cjs|JavaScript|7|0|1
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-selfhost-web/src/api/mutations/UpdateRESTUserRequest.graphql|hoppscotch|hoppscotch|UpdateRESTUserRequest.graphql|GraphQL|7|0|0
@@ -1267,6 +1290,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/import-export/import/importers.ts|hoppscotch|hoppscotch|importers.ts|TypeScript|6|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/shortcode/Shortcode.ts|hoppscotch|hoppscotch|Shortcode.ts|TypeScript|6|3|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/teams/TeamEnvironment.ts|hoppscotch|hoppscotch|TeamEnvironment.ts|TypeScript|6|3|1
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-data/src/utils/collection.ts|hoppscotch|hoppscotch|collection.ts|TypeScript|6|5|2
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-relay/src/util.rs|hoppscotch|hoppscotch|util.rs|Rust|6|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-selfhost-desktop/public/tauri.svg|hoppscotch|hoppscotch|tauri.svg|SVG|6|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-selfhost-web/src/api/mutations/CreateGQLRootUserCollection.graphql|hoppscotch|hoppscotch|CreateGQLRootUserCollection.graphql|GraphQL|6|0|0
@@ -1317,6 +1341,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/auth/guards/rt-jwt-auth.guard.ts|hoppscotch|hoppscotch|rt-jwt-auth.guard.ts|TypeScript|4|0|1
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/team/decorators/requires-team-role.decorator.ts|hoppscotch|hoppscotch|requires-team-role.decorator.ts|TypeScript|4|0|1
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/src/types/RequestTypes.ts|hoppscotch|hoppscotch|RequestTypes.ts|TypeScript|4|0|0
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-cli/src/__tests__/e2e/fixtures/environments/iteration-data-export.csv|hoppscotch|hoppscotch|iteration-data-export.csv|CSV|4|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/curl/index.ts|hoppscotch|hoppscotch|index.ts|TypeScript|4|0|1
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/import-export/export/environments.ts|hoppscotch|hoppscotch|environments.ts|TypeScript|4|0|1
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/import-export/export/gqlCollections.ts|hoppscotch|hoppscotch|gqlCollections.ts|TypeScript|4|0|1
@@ -1388,6 +1413,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-agent/src-tauri/.cargo/config.toml|hoppscotch|hoppscotch|config.toml|TOML|2|23|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-agent/src-tauri/src/global.rs|hoppscotch|hoppscotch|global.rs|Rust|2|0|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/prisma/migrations/20231130082054_collection_headers/migration.sql|hoppscotch|hoppscotch|migration.sql|SQL|2|2|1
+./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-backend/prisma/migrations/20241118054346_infra_config_sync_with_env_file/migration.sql|hoppscotch|hoppscotch|migration.sql|SQL|2|1|0
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/composables/toast.ts|hoppscotch|hoppscotch|toast.ts|TypeScript|2|0|1
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-common/src/helpers/backend/QueryErrors.ts|hoppscotch|hoppscotch|QueryErrors.ts|TypeScript|2|0|1
 ./src/_00/output/TypeScript/hoppscotch~hoppscotch/packages/hoppscotch-js-sandbox/index.d.ts|hoppscotch|hoppscotch|index.d.ts|TypeScript|2|0|0

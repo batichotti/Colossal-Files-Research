@@ -1,15 +1,19 @@
 path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C/pbatard~rufus/configure|pbatard|rufus|configure|Bourne Shell|4771|585|598
-./src/_00/output/C/pbatard~rufus/src/rufus.c|pbatard|rufus|rufus.c|C|3393|532|250
+./src/_00/output/C/pbatard~rufus/src/rufus.c|pbatard|rufus|rufus.c|C|3394|532|250
+./src/_00/output/C/pbatard~rufus/src/bled/xxhash.h|pbatard|rufus|xxhash.h|C/C++ Header|3216|3205|599
 ./src/_00/output/C/pbatard~rufus/src/drive.c|pbatard|rufus|drive.c|C|2000|423|268
-./src/_00/output/C/pbatard~rufus/src/hash.c|pbatard|rufus|hash.c|C|1885|346|277
+./src/_00/output/C/pbatard~rufus/src/hash.c|pbatard|rufus|hash.c|C|1935|357|285
+./src/_00/output/C/pbatard~rufus/src/bled/zstd_decompress.c|pbatard|rufus|zstd_decompress.c|C|1837|325|242
 ./src/_00/output/C/pbatard~rufus/src/stdlg.c|pbatard|rufus|stdlg.c|C|1722|266|172
+./src/_00/output/C/pbatard~rufus/src/bled/zstd_decompress_block.c|pbatard|rufus|zstd_decompress_block.c|C|1642|391|183
 ./src/_00/output/C/pbatard~rufus/src/format.c|pbatard|rufus|format.c|C|1631|257|169
-./src/_00/output/C/pbatard~rufus/src/iso.c|pbatard|rufus|iso.c|C|1604|384|125
+./src/_00/output/C/pbatard~rufus/src/iso.c|pbatard|rufus|iso.c|C|1597|386|125
 ./src/_00/output/C/pbatard~rufus/src/ext2fs/ext2fs.h|pbatard|rufus|ext2fs.h|C/C++ Header|1571|338|229
 ./src/_00/output/C/pbatard~rufus/src/libcdio/iso9660/iso9660_fs.c|pbatard|rufus|iso9660_fs.c|C|1480|373|320
 ./src/_00/output/C/pbatard~rufus/src/ext2fs/extent.c|pbatard|rufus|extent.c|C|1423|154|222
-./src/_00/output/C/pbatard~rufus/src/parser.c|pbatard|rufus|parser.c|C|1386|230|180
+./src/_00/output/C/pbatard~rufus/src/bled/huf_decompress.c|pbatard|rufus|huf_decompress.c|C|1412|303|229
+./src/_00/output/C/pbatard~rufus/src/parser.c|pbatard|rufus|parser.c|C|1387|230|180
 ./src/_00/output/C/pbatard~rufus/src/ext2fs/ext_attr.c|pbatard|rufus|ext_attr.c|C|1368|105|246
 ./src/_00/output/C/pbatard~rufus/res/loc/po/ru-RU.po|pbatard|rufus|ru-RU.po|PO File|1310|544|399
 ./src/_00/output/C/pbatard~rufus/src/msapi_utf8.h|pbatard|rufus|msapi_utf8.h|C/C++ Header|1199|98|112
@@ -53,15 +57,15 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C/pbatard~rufus/res/loc/po/lt-LT.po|pbatard|rufus|lt-LT.po|PO File|1026|531|386
 ./src/_00/output/C/pbatard~rufus/res/loc/po/id-ID.po|pbatard|rufus|id-ID.po|PO File|1023|531|386
 ./src/_00/output/C/pbatard~rufus/src/stdfn.c|pbatard|rufus|stdfn.c|C|1006|165|145
-./src/_00/output/C/pbatard~rufus/src/bled/decompress_gunzip.c|pbatard|rufus|decompress_gunzip.c|C|945|233|154
-./src/_00/output/C/pbatard~rufus/src/vhd.c|pbatard|rufus|vhd.c|C|944|136|115
+./src/_00/output/C/pbatard~rufus/src/bled/decompress_gunzip.c|pbatard|rufus|decompress_gunzip.c|C|945|232|154
+./src/_00/output/C/pbatard~rufus/src/vhd.c|pbatard|rufus|vhd.c|C|945|136|115
 ./src/_00/output/C/pbatard~rufus/src/libcdio/iso9660/iso9660.c|pbatard|rufus|iso9660.c|C|869|201|221
 ./src/_00/output/C/pbatard~rufus/src/dev.c|pbatard|rufus|dev.c|C|867|130|77
 ./src/_00/output/C/pbatard~rufus/src/ext2fs/crc32c.c|pbatard|rufus|crc32c.c|C|865|48|21
 ./src/_00/output/C/pbatard~rufus/src/ext2fs/inode.c|pbatard|rufus|inode.c|C|847|124|137
 ./src/_00/output/C/pbatard~rufus/src/dos_locale.c|pbatard|rufus|dos_locale.c|C|824|208|40
+./src/_00/output/C/pbatard~rufus/src/rufus.h|pbatard|rufus|rufus.h|C/C++ Header|821|81|57
 ./src/_00/output/C/pbatard~rufus/src/wue.c|pbatard|rufus|wue.c|C|820|189|70
-./src/_00/output/C/pbatard~rufus/src/rufus.h|pbatard|rufus|rufus.h|C/C++ Header|816|81|57
 ./src/_00/output/C/pbatard~rufus/src/ext2fs/ext2_fs.h|pbatard|rufus|ext2_fs.h|C/C++ Header|810|243|107
 ./src/_00/output/C/pbatard~rufus/src/ext2fs/blkmap64_rb.c|pbatard|rufus|blkmap64_rb.c|C|804|37|148
 ./src/_00/output/C/pbatard~rufus/src/ext2fs/csum.c|pbatard|rufus|csum.c|C|799|50|159
@@ -72,10 +76,11 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C/pbatard~rufus/src/libcdio/cdio/ecma_167.h|pbatard|rufus|ecma_167.h|C/C++ Header|738|180|124
 ./src/_00/output/C/pbatard~rufus/aclocal.m4|pbatard|rufus|aclocal.m4|m4|735|18|81
 ./src/_00/output/C/pbatard~rufus/src/process.c|pbatard|rufus|process.c|C|733|205|134
+./src/_00/output/C/pbatard~rufus/src/bled/zstd.h|pbatard|rufus|zstd.h|C/C++ Header|690|2158|323
 ./src/_00/output/C/pbatard~rufus/ChangeLog.txt|pbatard|rufus|ChangeLog.txt|Text|679|0|83
 ./src/_00/output/C/pbatard~rufus/src/ext2fs/inline_data.c|pbatard|rufus|inline_data.c|C|675|50|117
 ./src/_00/output/C/pbatard~rufus/src/ext2fs/fallocate.c|pbatard|rufus|fallocate.c|C|670|122|88
-./src/_00/output/C/pbatard~rufus/src/bled/xz_dec_lzma2.c|pbatard|rufus|xz_dec_lzma2.c|C|666|317|194
+./src/_00/output/C/pbatard~rufus/src/bled/xz_dec_lzma2.c|pbatard|rufus|xz_dec_lzma2.c|C|664|316|194
 ./src/_00/output/C/pbatard~rufus/src/getopt/getopt.c|pbatard|rufus|getopt.c|C|648|267|149
 ./src/_00/output/C/pbatard~rufus/src/db.h|pbatard|rufus|db.h|C/C++ Header|633|54|6
 ./src/_00/output/C/pbatard~rufus/src/resource.h|pbatard|rufus|resource.h|C/C++ Header|609|7|1
@@ -88,8 +93,8 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C/pbatard~rufus/src/ext2fs/gen_bitmap.c|pbatard|rufus|gen_bitmap.c|C|511|49|90
 ./src/_00/output/C/pbatard~rufus/src/bled/decompress_bunzip2.c|pbatard|rufus|decompress_bunzip2.c|C|510|264|118
 ./src/_00/output/C/pbatard~rufus/src/bled/platform.h|pbatard|rufus|platform.h|C/C++ Header|494|78|76
-./src/_00/output/C/pbatard~rufus/.vs/rufus.vcxproj|pbatard|rufus|rufus.vcxproj|XML|492|0|0
-./src/_00/output/C/pbatard~rufus/src/bled/decompress_unzip.c|pbatard|rufus|decompress_unzip.c|C|484|118|61
+./src/_00/output/C/pbatard~rufus/.vs/rufus.vcxproj|pbatard|rufus|rufus.vcxproj|XML|490|0|0
+./src/_00/output/C/pbatard~rufus/src/bled/decompress_unzip.c|pbatard|rufus|decompress_unzip.c|C|483|118|60
 ./src/_00/output/C/pbatard~rufus/src/localization.c|pbatard|rufus|localization.c|C|481|120|72
 ./src/_00/output/C/pbatard~rufus/src/bled/xz_dec_stream.c|pbatard|rufus|xz_dec_stream.c|C|476|198|146
 ./src/_00/output/C/pbatard~rufus/src/badblocks.c|pbatard|rufus|badblocks.c|C|475|67|64
@@ -107,8 +112,8 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C/pbatard~rufus/src/ext2fs/LICENSE.txt|pbatard|rufus|LICENSE.txt|Text|399|0|82
 ./src/_00/output/C/pbatard~rufus/res/loc/ChangeLog.txt|pbatard|rufus|ChangeLog.txt|Text|389|0|31
 ./src/_00/output/C/pbatard~rufus/src/ext2fs/punch.c|pbatard|rufus|punch.c|C|388|82|41
+./src/_00/output/C/pbatard~rufus/src/net.c|pbatard|rufus|net.c|C|385|487|80
 ./src/_00/output/C/pbatard~rufus/src/libcdio/cdio/iso9660.h|pbatard|rufus|iso9660.h|C/C++ Header|384|703|252
-./src/_00/output/C/pbatard~rufus/src/net.c|pbatard|rufus|net.c|C|384|483|80
 ./src/_00/output/C/pbatard~rufus/src/ext2fs/rw_bitmaps.c|pbatard|rufus|rw_bitmaps.c|C|383|23|48
 ./src/_00/output/C/pbatard~rufus/src/bled/xz_dec_bcj.c|pbatard|rufus|xz_dec_bcj.c|C|376|120|85
 ./src/_00/output/C/pbatard~rufus/src/ext2fs/closefs.c|pbatard|rufus|closefs.c|C|372|82|67
@@ -124,63 +129,75 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C/pbatard~rufus/src/libcdio/iso9660/rock.c|pbatard|rufus|rock.c|C|355|100|55
 ./src/_00/output/C/pbatard~rufus/install-sh|pbatard|rufus|install-sh|Bourne Shell|353|113|75
 ./src/_00/output/C/pbatard~rufus/src/ext2fs/rbtree.c|pbatard|rufus|rbtree.c|C|345|46|62
+./src/_00/output/C/pbatard~rufus/.vs/bled.vcxproj|pbatard|rufus|bled.vcxproj|XML|343|0|0
 ./src/_00/output/C/pbatard~rufus/src/ms-sys/inc/br_ntfs_0x54.h|pbatard|rufus|br_ntfs_0x54.h|C/C++ Header|340|0|0
 ./src/_00/output/C/pbatard~rufus/.vs/ms-sys.vcxproj|pbatard|rufus|ms-sys.vcxproj|XML|337|0|0
-./src/_00/output/C/pbatard~rufus/.vs/bled.vcxproj|pbatard|rufus|bled.vcxproj|XML|316|0|0
+./src/_00/output/C/pbatard~rufus/src/bled/zstd_mem.h|pbatard|rufus|zstd_mem.h|C/C++ Header|323|45|62
 ./src/_00/output/C/pbatard~rufus/src/format_fat32.c|pbatard|rufus|format_fat32.c|C|313|113|55
 ./src/_00/output/C/pbatard~rufus/src/dos.c|pbatard|rufus|dos.c|C|307|51|52
+./src/_00/output/C/pbatard~rufus/src/bled/open_transformer.c|pbatard|rufus|open_transformer.c|C|301|58|38
 ./src/_00/output/C/pbatard~rufus/.vs/libcdio-driver.vcxproj|pbatard|rufus|libcdio-driver.vcxproj|XML|300|0|0
 ./src/_00/output/C/pbatard~rufus/src/ext2fs/kernel-jbd.h|pbatard|rufus|kernel-jbd.h|C/C++ Header|300|90|66
 ./src/_00/output/C/pbatard~rufus/.vs/libcdio-iso9660.vcxproj|pbatard|rufus|libcdio-iso9660.vcxproj|XML|293|0|0
 ./src/_00/output/C/pbatard~rufus/.vs/syslinux-libfat.vcxproj|pbatard|rufus|syslinux-libfat.vcxproj|XML|291|0|0
 ./src/_00/output/C/pbatard~rufus/.vs/syslinux-libinstaller.vcxproj|pbatard|rufus|syslinux-libinstaller.vcxproj|XML|290|0|0
+./src/_00/output/C/pbatard~rufus/src/bled/libbb.h|pbatard|rufus|libbb.h|C/C++ Header|287|14|48
 ./src/_00/output/C/pbatard~rufus/.vs/libcdio-udf.vcxproj|pbatard|rufus|libcdio-udf.vcxproj|XML|286|0|0
 ./src/_00/output/C/pbatard~rufus/src/syslinux/libinstaller/syslxint.h|pbatard|rufus|syslxint.h|C/C++ Header|286|33|34
 ./src/_00/output/C/pbatard~rufus/.vs/syslinux-win.vcxproj|pbatard|rufus|syslinux-win.vcxproj|XML|284|0|0
 ./src/_00/output/C/pbatard~rufus/src/ms-sys/br.c|pbatard|rufus|br.c|C|274|21|76
 ./src/_00/output/C/pbatard~rufus/res/setup/setup.vcxproj|pbatard|rufus|setup.vcxproj|XML|272|0|0
 ./src/_00/output/C/pbatard~rufus/src/syslinux/win/ntfssect.c|pbatard|rufus|ntfssect.c|C|269|30|61
-./src/_00/output/C/pbatard~rufus/src/bled/open_transformer.c|pbatard|rufus|open_transformer.c|C|267|48|40
-./src/_00/output/C/pbatard~rufus/src/bled/libbb.h|pbatard|rufus|libbb.h|C/C++ Header|263|14|48
 ./src/_00/output/C/pbatard~rufus/compile|pbatard|rufus|compile|Bourne Shell|259|62|26
 ./src/_00/output/C/pbatard~rufus/src/process.h|pbatard|rufus|process.h|C/C++ Header|258|28|34
+./src/_00/output/C/pbatard~rufus/src/bled/fse_bitstream.h|pbatard|rufus|fse_bitstream.h|C/C++ Header|257|146|53
 ./src/_00/output/C/pbatard~rufus/src/libcdio/driver/utf8.c|pbatard|rufus|utf8.c|C|257|36|58
 ./src/_00/output/C/pbatard~rufus/src/libcdio/driver/track.c|pbatard|rufus|track.c|C|256|115|49
 ./src/_00/output/C/pbatard~rufus/.vs/getopt.vcxproj|pbatard|rufus|getopt.vcxproj|XML|252|0|0
+./src/_00/output/C/pbatard~rufus/src/bled/zstd_internal.h|pbatard|rufus|zstd_internal.h|C/C++ Header|252|85|54
 ./src/_00/output/C/pbatard~rufus/res/mbr/mbr.S|pbatard|rufus|mbr.S|Assembly|251|66|49
+./src/_00/output/C/pbatard~rufus/src/bled/bb_archive.h|pbatard|rufus|bb_archive.h|C/C++ Header|249|33|43
 ./src/_00/output/C/pbatard~rufus/src/ext2fs/dir_iterate.c|pbatard|rufus|dir_iterate.c|C|247|33|31
 ./src/_00/output/C/pbatard~rufus/src/ext2fs/sha512.c|pbatard|rufus|sha512.c|C|246|26|30
-./src/_00/output/C/pbatard~rufus/src/bled/bb_archive.h|pbatard|rufus|bb_archive.h|C/C++ Header|242|33|43
+./src/_00/output/C/pbatard~rufus/src/bled/zstd_entropy_common.c|pbatard|rufus|zstd_entropy_common.c|C|244|60|36
+./src/_00/output/C/pbatard~rufus/src/bled/zstd_compiler.h|pbatard|rufus|zstd_compiler.h|C/C++ Header|240|165|52
 ./src/_00/output/C/pbatard~rufus/src/ext2fs/bitmaps.c|pbatard|rufus|bitmaps.c|C|240|21|49
 ./src/_00/output/C/pbatard~rufus/.vs/ext2fs.vcxproj.filters|pbatard|rufus|ext2fs.vcxproj.filters|XML|237|0|0
-./src/_00/output/C/pbatard~rufus/src/bled/bled.c|pbatard|rufus|bled.c|C|235|27|52
+./src/_00/output/C/pbatard~rufus/src/bled/bled.c|pbatard|rufus|bled.c|C|236|29|52
 ./src/_00/output/C/pbatard~rufus/src/ext2fs/badblocks.c|pbatard|rufus|badblocks.c|C|230|44|54
-./src/_00/output/C/pbatard~rufus/.vs/rufus.vcxproj.filters|pbatard|rufus|rufus.vcxproj.filters|XML|222|0|0
+./src/_00/output/C/pbatard~rufus/src/bled/fse.h|pbatard|rufus|fse.h|C/C++ Header|229|284|127
 ./src/_00/output/C/pbatard~rufus/rufus.sln|pbatard|rufus|rufus.sln|Visual Studio Solution|221|1|2
 ./src/_00/output/C/pbatard~rufus/src/hdd_vs_ufd.h|pbatard|rufus|hdd_vs_ufd.h|C/C++ Header|219|81|9
 ./src/_00/output/C/pbatard~rufus/src/gpt_types.h|pbatard|rufus|gpt_types.h|C/C++ Header|218|26|5
 ./src/_00/output/C/pbatard~rufus/src/libcdio/cdio/rock.h|pbatard|rufus|rock.h|C/C++ Header|218|130|60
+./src/_00/output/C/pbatard~rufus/.vs/rufus.vcxproj.filters|pbatard|rufus|rufus.vcxproj.filters|XML|216|0|0
 ./src/_00/output/C/pbatard~rufus/src/libcdio/cdio/device.h|pbatard|rufus|device.h|C/C++ Header|215|557|199
+./src/_00/output/C/pbatard~rufus/src/bled/zstd_cpu.h|pbatard|rufus|zstd_cpu.h|C/C++ Header|214|24|11
 ./src/_00/output/C/pbatard~rufus/src/bled/decompress_uncompress.c|pbatard|rufus|decompress_uncompress.c|C|213|60|45
 ./src/_00/output/C/pbatard~rufus/src/ext2fs/dirhash.c|pbatard|rufus|dirhash.c|C|210|67|31
+./src/_00/output/C/pbatard~rufus/src/bled/fse_decompress.c|pbatard|rufus|fse_decompress.c|C|209|56|49
 ./src/_00/output/C/pbatard~rufus/src/ext2fs/alloc_tables.c|pbatard|rufus|alloc_tables.c|C|208|38|32
 ./src/_00/output/C/pbatard~rufus/src/ms-sys/fat32.c|pbatard|rufus|fat32.c|C|208|57|32
 ./src/_00/output/C/pbatard~rufus/res/appstore/listing_template.csv|pbatard|rufus|listing_template.csv|CSV|203|0|0
+./src/_00/output/C/pbatard~rufus/.vs/bled.vcxproj.filters|pbatard|rufus|bled.vcxproj.filters|XML|201|0|0
 ./src/_00/output/C/pbatard~rufus/src/ext2fs/ext2_err.h|pbatard|rufus|ext2_err.h|C/C++ Header|187|6|5
 ./src/_00/output/C/pbatard~rufus/.vs/ms-sys.vcxproj.filters|pbatard|rufus|ms-sys.vcxproj.filters|XML|185|0|0
 ./src/_00/output/C/pbatard~rufus/src/bled/data_extract_all.c|pbatard|rufus|data_extract_all.c|C|185|64|12
 ./src/_00/output/C/pbatard~rufus/src/libcdio/cdio/cdtext.h|pbatard|rufus|cdtext.h|C/C++ Header|184|176|75
 ./src/_00/output/C/pbatard~rufus/src/libcdio/driver/_cdio_stdio.c|pbatard|rufus|_cdio_stdio.c|C|184|59|50
 ./src/_00/output/C/pbatard~rufus/src/libcdio/driver/cdio_private.h|pbatard|rufus|cdio_private.h|C/C++ Header|183|297|126
+./src/_00/output/C/pbatard~rufus/src/bled/zstd_ddict.c|pbatard|rufus|zstd_ddict.c|C|181|35|28
 ./src/_00/output/C/pbatard~rufus/res/mbr/msg.S|pbatard|rufus|msg.S|Assembly|180|47|20
 ./src/_00/output/C/pbatard~rufus/src/ext2fs/config.h|pbatard|rufus|config.h|C/C++ Header|179|110|80
 ./src/_00/output/C/pbatard~rufus/src/libcdio/driver/read.c|pbatard|rufus|read.c|C|179|108|52
 ./src/_00/output/C/pbatard~rufus/src/ext2fs/namei.c|pbatard|rufus|namei.c|C|178|17|32
+./src/_00/output/C/pbatard~rufus/src/bled/zstd_bits.h|pbatard|rufus|zstd_bits.h|C/C++ Header|177|17|14
 ./src/_00/output/C/pbatard~rufus/src/ext2fs/bb_inode.c|pbatard|rufus|bb_inode.c|C|177|62|31
 ./src/_00/output/C/pbatard~rufus/src/libcdio/udf/udf_file.c|pbatard|rufus|udf_file.c|C|176|61|30
 ./src/_00/output/C/pbatard~rufus/src/ui_data.h|pbatard|rufus|ui_data.h|C/C++ Header|173|19|17
 ./src/_00/output/C/pbatard~rufus/src/libcdio/driver/ds.c|pbatard|rufus|ds.c|C|169|23|62
 ./src/_00/output/C/pbatard~rufus/src/libcdio/cdio/types.h|pbatard|rufus|types.h|C/C++ Header|166|112|58
+./src/_00/output/C/pbatard~rufus/src/bled/zstd_decompress_internal.h|pbatard|rufus|zstd_decompress_internal.h|C/C++ Header|165|37|38
 ./src/_00/output/C/pbatard~rufus/src/libcdio/driver/sector.c|pbatard|rufus|sector.c|C|165|59|44
 ./src/_00/output/C/pbatard~rufus/src/libcdio/udf/udf_time.c|pbatard|rufus|udf_time.c|C|165|54|35
 ./src/_00/output/C/pbatard~rufus/src/registry.h|pbatard|rufus|registry.h|C/C++ Header|159|36|25
@@ -196,17 +213,17 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C/pbatard~rufus/src/icon.c|pbatard|rufus|icon.c|C|140|36|20
 ./src/_00/output/C/pbatard~rufus/src/ext2fs/mkdir.c|pbatard|rufus|mkdir.c|C|135|45|20
 ./src/_00/output/C/pbatard~rufus/src/ext2fs/alloc_stats.c|pbatard|rufus|alloc_stats.c|C|133|12|19
-./src/_00/output/C/pbatard~rufus/src/missing.h|pbatard|rufus|missing.h|C/C++ Header|131|46|17
+./src/_00/output/C/pbatard~rufus/src/missing.h|pbatard|rufus|missing.h|C/C++ Header|132|46|17
 ./src/_00/output/C/pbatard~rufus/src/ext2fs/ext2_io.h|pbatard|rufus|ext2_io.h|C/C++ Header|128|22|19
 ./src/_00/output/C/pbatard~rufus/src/syslinux/libinstaller/syslxmod.c|pbatard|rufus|syslxmod.c|C|128|52|32
 ./src/_00/output/C/pbatard~rufus/res/loc/translation_check.py|pbatard|rufus|translation_check.py|Python|126|38|17
 ./src/_00/output/C/pbatard~rufus/src/dev.h|pbatard|rufus|dev.h|C/C++ Header|125|25|21
 ./src/_00/output/C/pbatard~rufus/src/getopt/getopt1.c|pbatard|rufus|getopt1.c|C|123|31|34
-./src/_00/output/C/pbatard~rufus/.vs/bled.vcxproj.filters|pbatard|rufus|bled.vcxproj.filters|XML|120|0|0
 ./src/_00/output/C/pbatard~rufus/src/syslinux/libinstaller/fs.c|pbatard|rufus|fs.c|C|119|25|30
 ./src/_00/output/C/pbatard~rufus/src/settings.h|pbatard|rufus|settings.h|C/C++ Header|117|25|10
 ./src/_00/output/C/pbatard~rufus/res/appstore/gen_listing.ps1|pbatard|rufus|gen_listing.ps1|PowerShell|116|27|10
 ./src/_00/output/C/pbatard~rufus/src/bled/decompress_vtsi.c|pbatard|rufus|decompress_vtsi.c|C|116|34|39
+./src/_00/output/C/pbatard~rufus/src/bled/huf.h|pbatard|rufus|huf.h|C/C++ Header|115|132|39
 ./src/_00/output/C/pbatard~rufus/src/ext2fs/io_manager.c|pbatard|rufus|io_manager.c|C|115|3|32
 ./src/_00/output/C/pbatard~rufus/src/libcdio/driver/_cdio_stream.c|pbatard|rufus|_cdio_stream.c|C|112|68|41
 ./src/_00/output/C/pbatard~rufus/src/libcdio/driver/filemode.h|pbatard|rufus|filemode.h|C/C++ Header|111|15|14
@@ -220,23 +237,25 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C/pbatard~rufus/src/syslinux/libinstaller/setadv.c|pbatard|rufus|setadv.c|C|104|33|30
 ./src/_00/output/C/pbatard~rufus/res/appstore/RufusAppxManifest.xml|pbatard|rufus|RufusAppxManifest.xml|XML|102|0|0
 ./src/_00/output/C/pbatard~rufus/src/libcdio/driver/logging.c|pbatard|rufus|logging.c|C|102|32|27
+./src/_00/output/C/pbatard~rufus/src/syslinux/libfat/dumpdir.c|pbatard|rufus|dumpdir.c|C|99|21|13
 ./src/_00/output/C/pbatard~rufus/.github/workflows/mingw.yml|pbatard|rufus|mingw.yml|YAML|98|2|13
 ./src/_00/output/C/pbatard~rufus/.vs/libcdio-driver.vcxproj.filters|pbatard|rufus|libcdio-driver.vcxproj.filters|XML|95|0|0
 ./src/_00/output/C/pbatard~rufus/src/ext2fs/hashmap.c|pbatard|rufus|hashmap.c|C|93|0|12
 ./src/_00/output/C/pbatard~rufus/src/libcdio/iso9660/xa.c|pbatard|rufus|xa.c|C|93|55|42
-./src/_00/output/C/pbatard~rufus/src/syslinux/libfat/dumpdir.c|pbatard|rufus|dumpdir.c|C|93|21|12
 ./src/_00/output/C/pbatard~rufus/.github/workflows/vs2022.yml|pbatard|rufus|vs2022.yml|YAML|91|2|13
 ./src/_00/output/C/pbatard~rufus/src/ext2fs/inline.c|pbatard|rufus|inline.c|C|91|17|10
 ./src/_00/output/C/pbatard~rufus/src/winio.h|pbatard|rufus|winio.h|C/C++ Header|90|77|10
 ./src/_00/output/C/pbatard~rufus/src/bled/xz_private.h|pbatard|rufus|xz_private.h|C/C++ Header|89|53|17
 ./src/_00/output/C/pbatard~rufus/src/dos.h|pbatard|rufus|dos.h|C/C++ Header|88|40|12
 ./src/_00/output/C/pbatard~rufus/src/ms-sys/fat16.c|pbatard|rufus|fat16.c|C|88|25|20
+./src/_00/output/C/pbatard~rufus/src/bled/decompress_unzstd.c|pbatard|rufus|decompress_unzstd.c|C|87|37|17
 ./src/_00/output/C/pbatard~rufus/src/ext2fs/jfs_compat.h|pbatard|rufus|jfs_compat.h|C/C++ Header|87|2|15
 ./src/_00/output/C/pbatard~rufus/src/format.h|pbatard|rufus|format.h|C/C++ Header|87|24|11
 ./src/_00/output/C/pbatard~rufus/src/ext2fs/newdir.c|pbatard|rufus|newdir.c|C|86|22|18
 ./src/_00/output/C/pbatard~rufus/src/ext2fs/rbtree.h|pbatard|rufus|rbtree.h|C/C++ Header|86|80|38
 ./src/_00/output/C/pbatard~rufus/src/ext2fs/dirblock.c|pbatard|rufus|dirblock.c|C|85|10|18
 ./src/_00/output/C/pbatard~rufus/src/syslinux/libfat/fatchain.c|pbatard|rufus|fatchain.c|C|84|28|22
+./src/_00/output/C/pbatard~rufus/src/bled/zstd_error_private.h|pbatard|rufus|zstd_error_private.h|C/C++ Header|83|58|26
 ./src/_00/output/C/pbatard~rufus/src/bled/crc32.c|pbatard|rufus|crc32.c|C|82|163|14
 ./src/_00/output/C/pbatard~rufus/src/libcdio/cdio/util.h|pbatard|rufus|util.h|C/C++ Header|81|35|38
 ./src/_00/output/C/pbatard~rufus/res/setup/setup.c|pbatard|rufus|setup.c|C|80|27|19
@@ -255,12 +274,13 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C/pbatard~rufus/src/syslinux/libfat/open.c|pbatard|rufus|open.c|C|76|19|22
 ./src/_00/output/C/pbatard~rufus/src/ext2fs/freefs.c|pbatard|rufus|freefs.c|C|75|17|17
 ./src/_00/output/C/pbatard~rufus/.vs/libcdio-iso9660.vcxproj.filters|pbatard|rufus|libcdio-iso9660.vcxproj.filters|XML|74|0|0
-./src/_00/output/C/pbatard~rufus/src/bled/xz_config.h|pbatard|rufus|xz_config.h|C/C++ Header|73|36|15
+./src/_00/output/C/pbatard~rufus/src/bled/xz_config.h|pbatard|rufus|xz_config.h|C/C++ Header|72|36|15
 ./src/_00/output/C/pbatard~rufus/src/ext2fs/read_bb.c|pbatard|rufus|read_bb.c|C|72|16|14
 ./src/_00/output/C/pbatard~rufus/src/syslinux/libfat/fat.h|pbatard|rufus|fat.h|C/C++ Header|72|22|14
 ./src/_00/output/C/pbatard~rufus/src/libcdio/driver/generic.h|pbatard|rufus|generic.h|C/C++ Header|71|133|50
+./src/_00/output/C/pbatard~rufus/src/bled/zstd_deps.h|pbatard|rufus|zstd_deps.h|C/C++ Header|70|46|28
+./src/_00/output/C/pbatard~rufus/src/bled/zstd_errors.h|pbatard|rufus|zstd_errors.h|C/C++ Header|70|26|10
 ./src/_00/output/C/pbatard~rufus/src/libcdio/cdio/track.h|pbatard|rufus|track.h|C/C++ Header|69|136|48
-./src/_00/output/C/pbatard~rufus/src/cpu.c|pbatard|rufus|cpu.c|C|68|43|12
 ./src/_00/output/C/pbatard~rufus/src/ext2fs/ext2_types.h|pbatard|rufus|ext2_types.h|C/C++ Header|67|7|16
 ./src/_00/output/C/pbatard~rufus/src/bled/xz.h|pbatard|rufus|xz.h|C/C++ Header|66|197|20
 ./src/_00/output/C/pbatard~rufus/src/syslinux/libfat/ulint.h|pbatard|rufus|ulint.h|C/C++ Header|66|20|26
@@ -278,14 +298,16 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C/pbatard~rufus/.github/workflows/coverity.yml|pbatard|rufus|coverity.yml|YAML|53|0|11
 ./src/_00/output/C/pbatard~rufus/.vs/libcdio-udf.vcxproj.filters|pbatard|rufus|libcdio-udf.vcxproj.filters|XML|53|0|0
 ./src/_00/output/C/pbatard~rufus/res/hogger/readme.txt|pbatard|rufus|readme.txt|Text|53|0|16
-./src/_00/output/C/pbatard~rufus/src/bled/header_verbose_list.c|pbatard|rufus|header_verbose_list.c|C|53|7|9
+./src/_00/output/C/pbatard~rufus/src/bled/header_verbose_list.c|pbatard|rufus|header_verbose_list.c|C|52|7|9
 ./src/_00/output/C/pbatard~rufus/src/libcdio/cdio/xa.h|pbatard|rufus|xa.h|C/C++ Header|51|96|39
 ./src/_00/output/C/pbatard~rufus/.github/workflows/codeql.yml|pbatard|rufus|codeql.yml|YAML|50|0|9
 ./src/_00/output/C/pbatard~rufus/README.md|pbatard|rufus|README.md|Markdown|50|0|14
 ./src/_00/output/C/pbatard~rufus/src/libcdio/cdio/udf.h|pbatard|rufus|udf.h|C/C++ Header|50|106|44
+./src/_00/output/C/pbatard~rufus/src/bled/zstd_error_private.c|pbatard|rufus|zstd_error_private.c|C|49|11|3
 ./src/_00/output/C/pbatard~rufus/src/libcdio/cdio/read.h|pbatard|rufus|read.h|C/C++ Header|49|138|37
 ./src/_00/output/C/pbatard~rufus/src/ext2fs/alloc_sb.c|pbatard|rufus|alloc_sb.c|C|48|24|9
 ./src/_00/output/C/pbatard~rufus/src/ext2fs/crc16.c|pbatard|rufus|crc16.c|C|48|21|5
+./src/_00/output/C/pbatard~rufus/src/bled/zstd_config.h|pbatard|rufus|zstd_config.h|C/C++ Header|47|4|9
 ./src/_00/output/C/pbatard~rufus/src/ext2fs/ind_block.c|pbatard|rufus|ind_block.c|C|47|11|9
 ./src/_00/output/C/pbatard~rufus/src/ext2fs/lookup.c|pbatard|rufus|lookup.c|C|47|10|13
 ./src/_00/output/C/pbatard~rufus/src/libcdio/cdio/audio.h|pbatard|rufus|audio.h|C/C++ Header|47|65|34
@@ -320,7 +342,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C/pbatard~rufus/src/ms-sys/inc/mbr_syslinux.h|pbatard|rufus|mbr_syslinux.h|C/C++ Header|39|1|0
 ./src/_00/output/C/pbatard~rufus/src/syslinux/libfat/libfat.h|pbatard|rufus|libfat.h|C/C++ Header|39|55|17
 ./src/_00/output/C/pbatard~rufus/res/mbr/Makefile|pbatard|rufus|Makefile|make|38|20|11
-./src/_00/output/C/pbatard~rufus/src/bled/find_list_entry.c|pbatard|rufus|find_list_entry.c|C|38|12|4
+./src/_00/output/C/pbatard~rufus/src/bled/find_list_entry.c|pbatard|rufus|find_list_entry.c|C|38|11|4
 ./src/_00/output/C/pbatard~rufus/src/ms-sys/inc/br_fat32kos_0x52.h|pbatard|rufus|br_fat32kos_0x52.h|C/C++ Header|38|0|0
 ./src/_00/output/C/pbatard~rufus/src/ms-sys/inc/mbr_grub.h|pbatard|rufus|mbr_grub.h|C/C++ Header|38|3|0
 ./src/_00/output/C/pbatard~rufus/src/ms-sys/inc/mbr_grub2.h|pbatard|rufus|mbr_grub2.h|C/C++ Header|38|7|1
@@ -333,13 +355,12 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C/pbatard~rufus/src/ext2fs/hashmap.h|pbatard|rufus|hashmap.h|C/C++ Header|35|0|7
 ./src/_00/output/C/pbatard~rufus/src/ms-sys/ntfs.c|pbatard|rufus|ntfs.c|C|35|19|13
 ./src/_00/output/C/pbatard~rufus/src/ms-sys/partition_info.c|pbatard|rufus|partition_info.c|C|35|20|12
-./src/_00/output/C/pbatard~rufus/src/cpu.h|pbatard|rufus|cpu.h|C/C++ Header|34|35|10
 ./src/_00/output/C/pbatard~rufus/src/ext2fs/valid_blk.c|pbatard|rufus|valid_blk.c|C|34|28|6
 ./src/_00/output/C/pbatard~rufus/res/setup/readme.txt|pbatard|rufus|readme.txt|Text|33|0|10
+./src/_00/output/C/pbatard~rufus/src/bled/bled.h|pbatard|rufus|bled.h|C/C++ Header|32|25|12
 ./src/_00/output/C/pbatard~rufus/src/libcdio/cdio/ds.h|pbatard|rufus|ds.h|C/C++ Header|32|29|28
 ./src/_00/output/C/pbatard~rufus/src/ms-sys/fat12.c|pbatard|rufus|fat12.c|C|32|17|10
 ./src/_00/output/C/pbatard~rufus/_chver.sh|pbatard|rufus|_chver.sh|Bourne Shell|31|3|3
-./src/_00/output/C/pbatard~rufus/src/bled/bled.h|pbatard|rufus|bled.h|C/C++ Header|31|25|12
 ./src/_00/output/C/pbatard~rufus/src/ext2fs/crc32c_defs.h|pbatard|rufus|crc32c_defs.h|C/C++ Header|31|20|8
 ./src/_00/output/C/pbatard~rufus/src/libcdio/iso9660/iso9660_private.h|pbatard|rufus|iso9660_private.h|C/C++ Header|31|34|22
 ./src/_00/output/C/pbatard~rufus/src/ms-sys/inc/br_fat16_0x3e.h|pbatard|rufus|br_fat16_0x3e.h|C/C++ Header|31|0|1
@@ -366,6 +387,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C/pbatard~rufus/res/loc/pollock/Pollock.sln|pbatard|rufus|Pollock.sln|Visual Studio Solution|23|1|1
 ./src/_00/output/C/pbatard~rufus/src/libcdio/cdio/udf_file.h|pbatard|rufus|udf_file.h|C/C++ Header|23|70|22
 ./src/_00/output/C/pbatard~rufus/.github/issue_template.md|pbatard|rufus|issue_template.md|Markdown|22|17|9
+./src/_00/output/C/pbatard~rufus/src/bled/zstd_decompress_block.h|pbatard|rufus|zstd_decompress_block.h|C/C++ Header|22|37|14
 ./src/_00/output/C/pbatard~rufus/src/ext2fs/e2image.h|pbatard|rufus|e2image.h|C/C++ Header|21|13|3
 ./src/_00/output/C/pbatard~rufus/src/libcdio/cdio/cdio.h|pbatard|rufus|cdio.h|C/C++ Header|21|35|19
 ./src/_00/output/C/pbatard~rufus/src/ms-sys/inc/file.h|pbatard|rufus|file.h|C/C++ Header|21|10|9
@@ -373,7 +395,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C/pbatard~rufus/res/loc/po/!update.cmd|pbatard|rufus|!update.cmd|DOS Batch|20|0|0
 ./src/_00/output/C/pbatard~rufus/src/bled/filter_accept_reject_list.c|pbatard|rufus|filter_accept_reject_list.c|C|20|12|6
 ./src/_00/output/C/pbatard~rufus/.mingw/Makefile.am|pbatard|rufus|Makefile.am|make|19|6|6
-./src/_00/output/C/pbatard~rufus/src/bled/init_handle.c|pbatard|rufus|init_handle.c|C|19|5|4
+./src/_00/output/C/pbatard~rufus/src/bled/init_handle.c|pbatard|rufus|init_handle.c|C|19|5|3
 ./src/_00/output/C/pbatard~rufus/res/mbr/msg.txt|pbatard|rufus|msg.txt|Text|18|0|4
 ./src/_00/output/C/pbatard~rufus/src/libcdio/cdio/utf8.h|pbatard|rufus|utf8.h|C/C++ Header|18|73|21
 ./src/_00/output/C/pbatard~rufus/src/ms-sys/inc/fat32.h|pbatard|rufus|fat32.h|C/C++ Header|18|34|16
@@ -385,7 +407,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C/pbatard~rufus/src/re.h|pbatard|rufus|re.h|C/C++ Header|16|33|16
 ./src/_00/output/C/pbatard~rufus/_detect-amend.sh|pbatard|rufus|_detect-amend.sh|Bourne Shell|15|5|1
 ./src/_00/output/C/pbatard~rufus/src/libcdio/driver/memory.c|pbatard|rufus|memory.c|C|15|17|9
-./src/_00/output/C/pbatard~rufus/src/bled/seek_by_jump.c|pbatard|rufus|seek_by_jump.c|C|13|4|2
+./src/_00/output/C/pbatard~rufus/src/bled/seek_by_jump.c|pbatard|rufus|seek_by_jump.c|C|13|4|1
 ./src/_00/output/C/pbatard~rufus/src/syslinux/libinstaller/syslxfs.h|pbatard|rufus|syslxfs.h|C/C++ Header|13|12|4
 ./src/_00/output/C/pbatard~rufus/.mingw/wininet.def|pbatard|rufus|wininet.def|Windows Module Definition|12|0|0
 ./src/_00/output/C/pbatard~rufus/res/loc/Makefile.am|pbatard|rufus|Makefile.am|make|12|0|4
@@ -397,15 +419,18 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C/pbatard~rufus/src/wue.h|pbatard|rufus|wue.h|C/C++ Header|11|18|4
 ./src/_00/output/C/pbatard~rufus/_set_git_hooks.sh|pbatard|rufus|_set_git_hooks.sh|Bourne Shell|10|1|1
 ./src/_00/output/C/pbatard~rufus/res/freedos/readme.txt|pbatard|rufus|readme.txt|Text|10|0|1
+./src/_00/output/C/pbatard~rufus/src/bled/zstd_common.c|pbatard|rufus|zstd_common.c|C|10|27|11
 ./src/_00/output/C/pbatard~rufus/src/libcdio/cdio/memory.h|pbatard|rufus|memory.h|C/C++ Header|10|22|9
 ./src/_00/output/C/pbatard~rufus/res/grub/readme.txt|pbatard|rufus|readme.txt|Text|9|0|3
 ./src/_00/output/C/pbatard~rufus/res/setup/resource.h|pbatard|rufus|resource.h|C/C++ Header|9|6|1
+./src/_00/output/C/pbatard~rufus/src/bled/Makefile.am|pbatard|rufus|Makefile.am|make|9|0|1
 ./src/_00/output/C/pbatard~rufus/.mingw/virtdisk.def|pbatard|rufus|virtdisk.def|Windows Module Definition|8|0|0
 ./src/_00/output/C/pbatard~rufus/.vs/Generate.PDB.props|pbatard|rufus|Generate.PDB.props|XML|8|0|0
 ./src/_00/output/C/pbatard~rufus/res/setup/.editorconfig|pbatard|rufus|.editorconfig|INI|8|0|1
-./src/_00/output/C/pbatard~rufus/src/bled/data_align.c|pbatard|rufus|data_align.c|C|8|4|3
-./src/_00/output/C/pbatard~rufus/src/bled/filter_accept_all.c|pbatard|rufus|filter_accept_all.c|C|8|7|2
-./src/_00/output/C/pbatard~rufus/src/bled/filter_accept_list.c|pbatard|rufus|filter_accept_list.c|C|8|9|2
+./src/_00/output/C/pbatard~rufus/src/bled/data_align.c|pbatard|rufus|data_align.c|C|8|4|2
+./src/_00/output/C/pbatard~rufus/src/bled/filter_accept_all.c|pbatard|rufus|filter_accept_all.c|C|8|7|1
+./src/_00/output/C/pbatard~rufus/src/bled/filter_accept_list.c|pbatard|rufus|filter_accept_list.c|C|8|9|1
+./src/_00/output/C/pbatard~rufus/src/bled/zstd_ddict.h|pbatard|rufus|zstd_ddict.h|C/C++ Header|8|25|11
 ./src/_00/output/C/pbatard~rufus/src/ext2fs/Makefile.am|pbatard|rufus|Makefile.am|make|8|0|2
 ./src/_00/output/C/pbatard~rufus/src/libcdio/cdio/posix.h|pbatard|rufus|posix.h|C/C++ Header|8|25|8
 ./src/_00/output/C/pbatard~rufus/src/ms-sys/inc/ntfs.h|pbatard|rufus|ntfs.h|C/C++ Header|8|9|6
@@ -415,11 +440,10 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C/pbatard~rufus/res/loc/embedded.sed|pbatard|rufus|embedded.sed|sed|7|8|6
 ./src/_00/output/C/pbatard~rufus/res/mbr/mbr.ld|pbatard|rufus|mbr.ld|Linker Script|7|0|0
 ./src/_00/output/C/pbatard~rufus/src/.editorconfig|pbatard|rufus|.editorconfig|INI|7|0|1
-./src/_00/output/C/pbatard~rufus/src/bled/Makefile.am|pbatard|rufus|Makefile.am|make|7|0|1
-./src/_00/output/C/pbatard~rufus/src/bled/seek_by_read.c|pbatard|rufus|seek_by_read.c|C|7|7|2
+./src/_00/output/C/pbatard~rufus/src/bled/seek_by_read.c|pbatard|rufus|seek_by_read.c|C|7|7|1
 ./src/_00/output/C/pbatard~rufus/src/ms-sys/inc/partition_info.h|pbatard|rufus|partition_info.h|C/C++ Header|7|5|4
 ./src/_00/output/C/pbatard~rufus/.github/dependabot.yml|pbatard|rufus|dependabot.yml|YAML|6|0|0
-./src/_00/output/C/pbatard~rufus/src/bled/data_skip.c|pbatard|rufus|data_skip.c|C|6|4|2
+./src/_00/output/C/pbatard~rufus/src/bled/data_skip.c|pbatard|rufus|data_skip.c|C|6|4|1
 ./src/_00/output/C/pbatard~rufus/src/bled/header_list.c|pbatard|rufus|header_list.c|C|6|5|1
 ./src/_00/output/C/pbatard~rufus/src/libcdio/driver/_cdio_stdio.h|pbatard|rufus|_cdio_stdio.h|C/C++ Header|6|30|13
 ./src/_00/output/C/pbatard~rufus/src/ms-sys/inc/fat12.h|pbatard|rufus|fat12.h|C/C++ Header|6|7|5
@@ -436,6 +460,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C/pbatard~rufus/src/ms-sys/inc/br_fat32ros_0x3f0.h|pbatard|rufus|br_fat32ros_0x3f0.h|C/C++ Header|4|0|0
 ./src/_00/output/C/pbatard~rufus/src/ms-sys/inc/libintl.h|pbatard|rufus|libintl.h|C/C++ Header|4|2|3
 ./src/_00/output/C/pbatard~rufus/res/loc/pollock/app.config|pbatard|rufus|app.config|XML|3|0|0
+./src/_00/output/C/pbatard~rufus/src/bled/xxhash.c|pbatard|rufus|xxhash.c|C|3|12|3
 ./src/_00/output/C/pbatard~rufus/src/ext2fs/.editorconfig|pbatard|rufus|.editorconfig|INI|3|0|0
 ./src/_00/output/C/pbatard~rufus/src/libcdio/driver/Makefile.am|pbatard|rufus|Makefile.am|make|3|1|0
 ./src/_00/output/C/pbatard~rufus/src/libcdio/iso9660/Makefile.am|pbatard|rufus|Makefile.am|make|3|1|0

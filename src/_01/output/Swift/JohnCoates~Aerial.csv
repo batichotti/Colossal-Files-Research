@@ -1,10 +1,10 @@
 path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Swift/JohnCoates~Aerial/Resources/MainUI/Settings panels/OverlaysViewController.xib|JohnCoates|Aerial|OverlaysViewController.xib|XML|1858|3|4
 ./src/_00/output/Swift/JohnCoates~Aerial/Resources/MainUI/VideosViewController.xib|JohnCoates|Aerial|VideosViewController.xib|XML|1010|0|0
-./src/_00/output/Swift/JohnCoates~Aerial/Aerial/Source/Views/AerialView.swift|JohnCoates|Aerial|AerialView.swift|Swift|717|115|174
+./src/_00/output/Swift/JohnCoates~Aerial/Aerial/Source/Views/AerialView.swift|JohnCoates|Aerial|AerialView.swift|Swift|723|115|175
 ./src/_00/output/Swift/JohnCoates~Aerial/Resources/MainUI/Settings panels/SourcesViewController.xib|JohnCoates|Aerial|SourcesViewController.xib|XML|638|0|1
+./src/_00/output/Swift/JohnCoates~Aerial/Resources/MainUI/Settings panels/AdvancedViewController.xib|JohnCoates|Aerial|AdvancedViewController.xib|XML|633|0|6
 ./src/_00/output/Swift/JohnCoates~Aerial/Resources/Old stuff/CustomVideos.xib|JohnCoates|Aerial|CustomVideos.xib|XML|627|0|1
-./src/_00/output/Swift/JohnCoates~Aerial/Resources/MainUI/Settings panels/AdvancedViewController.xib|JohnCoates|Aerial|AdvancedViewController.xib|XML|621|0|6
 ./src/_00/output/Swift/JohnCoates~Aerial/Aerial/Source/Models/Prefs/PrefsInfo.swift|JohnCoates|Aerial|PrefsInfo.swift|Swift|588|55|80
 ./src/_00/output/Swift/JohnCoates~Aerial/Resources/MainUI/Settings panels/TimeViewController.xib|JohnCoates|Aerial|TimeViewController.xib|XML|581|2|7
 ./src/_00/output/Swift/JohnCoates~Aerial/beta-appcast.xml|JohnCoates|Aerial|beta-appcast.xml|XML|559|0|50
@@ -50,7 +50,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Swift/JohnCoates~Aerial/Aerial/Source/Models/Time/TimeManagement.swift|JohnCoates|Aerial|TimeManagement.swift|Swift|252|66|47
 ./src/_00/output/Swift/JohnCoates~Aerial/Resources/MainUI/Settings panels/CacheViewController.swift|JohnCoates|Aerial|CacheViewController.swift|Swift|250|28|63
 ./src/_00/output/Swift/JohnCoates~Aerial/Aerial/Source/Models/Cache/VideoDownload.swift|JohnCoates|Aerial|VideoDownload.swift|Swift|231|23|67
-./src/_00/output/Swift/JohnCoates~Aerial/Resources/MainUI/Settings panels/AdvancedViewController.swift|JohnCoates|Aerial|AdvancedViewController.swift|Swift|219|22|65
+./src/_00/output/Swift/JohnCoates~Aerial/Resources/MainUI/Settings panels/AdvancedViewController.swift|JohnCoates|Aerial|AdvancedViewController.swift|Swift|224|22|67
 ./src/_00/output/Swift/JohnCoates~Aerial/Aerial/Source/Views/Layers/Weather/ConditionSymbolLayer.swift|JohnCoates|Aerial|ConditionSymbolLayer.swift|Swift|218|31|52
 ./src/_00/output/Swift/JohnCoates~Aerial/Resources/MainUI/First time setup/RecapViewController.xib|JohnCoates|Aerial|RecapViewController.xib|XML|218|0|0
 ./src/_00/output/Swift/JohnCoates~Aerial/Resources/MainUI/SidebarViewController.xib|JohnCoates|Aerial|SidebarViewController.xib|XML|215|0|0
@@ -139,6 +139,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Swift/JohnCoates~Aerial/Aerial/Source/Models/CustomVideoFolders+helpers.swift|JohnCoates|Aerial|CustomVideoFolders+helpers.swift|Swift|43|8|8
 ./src/_00/output/Swift/JohnCoates~Aerial/Resources/Old stuff/Info.plist|JohnCoates|Aerial|Info.plist|XML|43|0|0
 ./src/_00/output/Swift/JohnCoates~Aerial/Aerial/Source/Views/MainUI/VideoCellView.swift|JohnCoates|Aerial|VideoCellView.swift|Swift|41|10|12
+./src/_00/output/Swift/JohnCoates~Aerial/Aerial/Source/Models/Extensions/AVPlayerItem+vibrance.swift|JohnCoates|Aerial|AVPlayerItem+vibrance.swift|Swift|39|9|14
 ./src/_00/output/Swift/JohnCoates~Aerial/Aerial/App/Resources/Assets.xcassets/Accent Color.colorset/Contents.json|JohnCoates|Aerial|Contents.json|JSON|38|0|0
 ./src/_00/output/Swift/JohnCoates~Aerial/Aerial/App/Resources/Assets.xcassets/FirstPanelBackground.colorset/Contents.json|JohnCoates|Aerial|Contents.json|JSON|38|0|0
 ./src/_00/output/Swift/JohnCoates~Aerial/Aerial/Source/Models/Hardware/Battery.swift|JohnCoates|Aerial|Battery.swift|Swift|38|15|13
@@ -164,7 +165,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Swift/JohnCoates~Aerial/Aerial/Source/Models/Prefs/PrefsUpdates.swift|JohnCoates|Aerial|PrefsUpdates.swift|Swift|25|12|6
 ./src/_00/output/Swift/JohnCoates~Aerial/Aerial/Source/Views/PrefPanel/InfoDateView.swift|JohnCoates|Aerial|InfoDateView.swift|Swift|25|8|10
 ./src/_00/output/Swift/JohnCoates~Aerial/Aerial/Source/Models/Downloads/FileHelpers.swift|JohnCoates|Aerial|FileHelpers.swift|Swift|24|7|6
-./src/_00/output/Swift/JohnCoates~Aerial/Aerial/Source/Models/Extensions/AVPlayerItem+vibrance.swift|JohnCoates|Aerial|AVPlayerItem+vibrance.swift|Swift|23|7|7
 ./src/_00/output/Swift/JohnCoates~Aerial/Aerial/Source/Models/SeededGenerator.swift|JohnCoates|Aerial|SeededGenerator.swift|Swift|23|7|7
 ./src/_00/output/Swift/JohnCoates~Aerial/Aerial/Source/Views/Layers/LayerOffsets.swift|JohnCoates|Aerial|LayerOffsets.swift|Swift|23|7|3
 ./src/_00/output/Swift/JohnCoates~Aerial/Documentation/AutoUpdates.md|JohnCoates|Aerial|AutoUpdates.md|Markdown|23|0|22
@@ -174,8 +174,8 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Swift/JohnCoates~Aerial/Resources/MainUI/First time setup/RecapViewController.swift|JohnCoates|Aerial|RecapViewController.swift|Swift|22|8|5
 ./src/_00/output/Swift/JohnCoates~Aerial/Tests/Info.plist|JohnCoates|Aerial|Info.plist|XML|22|0|0
 ./src/_00/output/Swift/JohnCoates~Aerial/.swiftlint.yml|JohnCoates|Aerial|.swiftlint.yml|YAML|21|9|3
+./src/_00/output/Swift/JohnCoates~Aerial/Aerial/Source/Models/Prefs/PrefsAdvanced.swift|JohnCoates|Aerial|PrefsAdvanced.swift|Swift|21|11|12
 ./src/_00/output/Swift/JohnCoates~Aerial/Aerial/Source/Models/PlaybackSpeed.swift|JohnCoates|Aerial|PlaybackSpeed.swift|Swift|20|8|4
-./src/_00/output/Swift/JohnCoates~Aerial/Aerial/Source/Models/Prefs/PrefsAdvanced.swift|JohnCoates|Aerial|PrefsAdvanced.swift|Swift|19|10|11
 ./src/_00/output/Swift/JohnCoates~Aerial/Documentation/CustomVideos.md|JohnCoates|Aerial|CustomVideos.md|Markdown|19|0|19
 ./src/_00/output/Swift/JohnCoates~Aerial/Aerial/Source/Models/Hardware/DarkMode.swift|JohnCoates|Aerial|DarkMode.swift|Swift|18|8|3
 ./src/_00/output/Swift/JohnCoates~Aerial/Resources/MainUI/Infos panels/InfoViewController.swift|JohnCoates|Aerial|InfoViewController.swift|Swift|18|7|7

@@ -1,10 +1,10 @@
 path|owner|project|file|language|code|comment|blank
 ./src/_00/output/PHP/Seldaek~monolog/tests/Monolog/LoggerTest.php|Seldaek|monolog|LoggerTest.php|PHP|639|121|159
-./src/_00/output/PHP/Seldaek~monolog/CHANGELOG.md|Seldaek|monolog|CHANGELOG.md|Markdown|612|0|167
+./src/_00/output/PHP/Seldaek~monolog/CHANGELOG.md|Seldaek|monolog|CHANGELOG.md|Markdown|616|0|169
 ./src/_00/output/PHP/Seldaek~monolog/tests/Monolog/Formatter/NormalizerFormatterTest.php|Seldaek|monolog|NormalizerFormatterTest.php|PHP|400|23|72
-./src/_00/output/PHP/Seldaek~monolog/src/Monolog/Logger.php|Seldaek|monolog|Logger.php|PHP|334|325|91
+./src/_00/output/PHP/Seldaek~monolog/src/Monolog/Logger.php|Seldaek|monolog|Logger.php|PHP|334|326|91
 ./src/_00/output/PHP/Seldaek~monolog/tests/Monolog/Handler/Slack/SlackRecordTest.php|Seldaek|monolog|SlackRecordTest.php|PHP|313|11|56
-./src/_00/output/PHP/Seldaek~monolog/tests/Monolog/Formatter/LineFormatterTest.php|Seldaek|monolog|LineFormatterTest.php|PHP|282|13|58
+./src/_00/output/PHP/Seldaek~monolog/tests/Monolog/Formatter/LineFormatterTest.php|Seldaek|monolog|LineFormatterTest.php|PHP|283|13|56
 ./src/_00/output/PHP/Seldaek~monolog/tests/Monolog/Formatter/JsonFormatterTest.php|Seldaek|monolog|JsonFormatterTest.php|PHP|276|36|60
 ./src/_00/output/PHP/Seldaek~monolog/tests/Monolog/Handler/RotatingFileHandlerTest.php|Seldaek|monolog|RotatingFileHandlerTest.php|PHP|274|16|54
 ./src/_00/output/PHP/Seldaek~monolog/src/Monolog/Handler/SocketHandler.php|Seldaek|monolog|SocketHandler.php|PHP|254|127|55
@@ -42,10 +42,10 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/PHP/Seldaek~monolog/tests/Monolog/Handler/FallbackGroupHandlerTest.php|Seldaek|monolog|FallbackGroupHandlerTest.php|PHP|120|31|24
 ./src/_00/output/PHP/Seldaek~monolog/tests/Monolog/Handler/WhatFailureGroupHandlerTest.php|Seldaek|monolog|WhatFailureGroupHandlerTest.php|PHP|119|30|24
 ./src/_00/output/PHP/Seldaek~monolog/src/Monolog/Handler/ElasticsearchHandler.php|Seldaek|monolog|ElasticsearchHandler.php|PHP|118|93|27
+./src/_00/output/PHP/Seldaek~monolog/UPGRADE.md|Seldaek|monolog|UPGRADE.md|Markdown|115|0|56
 ./src/_00/output/PHP/Seldaek~monolog/tests/Monolog/Formatter/ChromePHPFormatterTest.php|Seldaek|monolog|ChromePHPFormatterTest.php|PHP|114|20|14
 ./src/_00/output/PHP/Seldaek~monolog/tests/Monolog/Handler/SlackHandlerTest.php|Seldaek|monolog|SlackHandlerTest.php|PHP|114|16|26
 ./src/_00/output/PHP/Seldaek~monolog/tests/Monolog/Handler/SlackWebhookHandlerTest.php|Seldaek|monolog|SlackWebhookHandlerTest.php|PHP|114|31|11
-./src/_00/output/PHP/Seldaek~monolog/UPGRADE.md|Seldaek|monolog|UPGRADE.md|Markdown|112|0|53
 ./src/_00/output/PHP/Seldaek~monolog/tests/Monolog/UtilsTest.php|Seldaek|monolog|UtilsTest.php|PHP|112|18|14
 ./src/_00/output/PHP/Seldaek~monolog/tests/Monolog/Handler/ProcessHandlerTest.php|Seldaek|monolog|ProcessHandlerTest.php|PHP|110|57|30
 ./src/_00/output/PHP/Seldaek~monolog/src/Monolog/Handler/AmqpHandler.php|Seldaek|monolog|AmqpHandler.php|PHP|107|37|26
@@ -72,8 +72,8 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/PHP/Seldaek~monolog/src/Monolog/Handler/ProcessHandler.php|Seldaek|monolog|ProcessHandler.php|PHP|91|73|27
 ./src/_00/output/PHP/Seldaek~monolog/src/Monolog/Formatter/MongoDBFormatter.php|Seldaek|monolog|MongoDBFormatter.php|PHP|89|46|24
 ./src/_00/output/PHP/Seldaek~monolog/src/Monolog/Handler/TestHandler.php|Seldaek|monolog|TestHandler.php|PHP|89|84|22
+./src/_00/output/PHP/Seldaek~monolog/src/Monolog/Formatter/GelfMessageFormatter.php|Seldaek|monolog|GelfMessageFormatter.php|PHP|88|38|24
 ./src/_00/output/PHP/Seldaek~monolog/tests/Monolog/Formatter/WildfireFormatterTest.php|Seldaek|monolog|WildfireFormatterTest.php|PHP|88|23|18
-./src/_00/output/PHP/Seldaek~monolog/src/Monolog/Formatter/GelfMessageFormatter.php|Seldaek|monolog|GelfMessageFormatter.php|PHP|86|38|24
 ./src/_00/output/PHP/Seldaek~monolog/src/Monolog/Handler/LogglyHandler.php|Seldaek|monolog|LogglyHandler.php|PHP|86|40|30
 ./src/_00/output/PHP/Seldaek~monolog/src/Monolog/Handler/SyslogUdpHandler.php|Seldaek|monolog|SyslogUdpHandler.php|PHP|86|41|27
 ./src/_00/output/PHP/Seldaek~monolog/tests/Monolog/Processor/IntrospectionProcessorTest.php|Seldaek|monolog|IntrospectionProcessorTest.php|PHP|86|8|22
@@ -186,8 +186,8 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/PHP/Seldaek~monolog/src/Monolog/Handler/GelfHandler.php|Seldaek|monolog|GelfHandler.php|PHP|24|26|8
 ./src/_00/output/PHP/Seldaek~monolog/src/Monolog/Handler/SyslogHandler.php|Seldaek|monolog|SyslogHandler.php|PHP|24|31|8
 ./src/_00/output/PHP/Seldaek~monolog/src/Monolog/Processor/MemoryProcessor.php|Seldaek|monolog|MemoryProcessor.php|PHP|24|28|8
-./src/_00/output/PHP/Seldaek~monolog/src/Monolog/DateTimeImmutable.php|Seldaek|monolog|DateTimeImmutable.php|PHP|23|16|9
 ./src/_00/output/PHP/Seldaek~monolog/src/Monolog/Handler/FingersCrossed/ChannelLevelActivationStrategy.php|Seldaek|monolog|ChannelLevelActivationStrategy.php|PHP|23|38|8
+./src/_00/output/PHP/Seldaek~monolog/src/Monolog/JsonSerializableDateTimeImmutable.php|Seldaek|monolog|JsonSerializableDateTimeImmutable.php|PHP|23|16|9
 ./src/_00/output/PHP/Seldaek~monolog/src/Monolog/Formatter/ScalarFormatter.php|Seldaek|monolog|ScalarFormatter.php|PHP|22|19|8
 ./src/_00/output/PHP/Seldaek~monolog/src/Monolog/Handler/NullHandler.php|Seldaek|monolog|NullHandler.php|PHP|22|27|7
 ./src/_00/output/PHP/Seldaek~monolog/tests/Monolog/Formatter/LogglyFormatterTest.php|Seldaek|monolog|LogglyFormatterTest.php|PHP|22|14|5
@@ -221,6 +221,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/PHP/Seldaek~monolog/src/Monolog/Attribute/WithMonologChannel.php|Seldaek|monolog|WithMonologChannel.php|PHP|9|17|3
 ./src/_00/output/PHP/Seldaek~monolog/src/Monolog/Handler/ProcessableHandlerInterface.php|Seldaek|monolog|ProcessableHandlerInterface.php|PHP|9|29|5
 ./src/_00/output/PHP/Seldaek~monolog/src/Monolog/Handler/WebRequestRecognizerTrait.php|Seldaek|monolog|WebRequestRecognizerTrait.php|PHP|9|11|3
+./src/_00/output/PHP/Seldaek~monolog/src/Monolog/DateTimeImmutable.php|Seldaek|monolog|DateTimeImmutable.php|PHP|8|12|4
 ./src/_00/output/PHP/Seldaek~monolog/src/Monolog/Formatter/FormatterInterface.php|Seldaek|monolog|FormatterInterface.php|PHP|8|25|5
 ./src/_00/output/PHP/Seldaek~monolog/src/Monolog/Handler/FormattableHandlerInterface.php|Seldaek|monolog|FormattableHandlerInterface.php|PHP|8|21|5
 ./src/_00/output/PHP/Seldaek~monolog/.github/ISSUE_TEMPLATE/Bug_Report.md|Seldaek|monolog|Bug_Report.md|Markdown|7|0|2

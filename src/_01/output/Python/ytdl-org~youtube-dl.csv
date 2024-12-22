@@ -1,6 +1,6 @@
 path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ytdl-org~youtube-dl/youtube_dl/utils.py|ytdl-org|youtube-dl|utils.py|Python|5284|626|807
-./src/_00/output/Python/ytdl-org~youtube-dl/youtube_dl/extractor/youtube.py|ytdl-org|youtube-dl|youtube.py|Python|3279|300|265
+./src/_00/output/Python/ytdl-org~youtube-dl/youtube_dl/extractor/youtube.py|ytdl-org|youtube-dl|youtube.py|Python|3341|308|269
 ./src/_00/output/Python/ytdl-org~youtube-dl/youtube_dl/compat.py|ytdl-org|youtube-dl|compat.py|Python|3247|138|189
 ./src/_00/output/Python/ytdl-org~youtube-dl/youtube_dl/extractor/generic.py|ytdl-org|youtube-dl|generic.py|Python|3168|405|208
 ./src/_00/output/Python/ytdl-org~youtube-dl/youtube_dl/extractor/common.py|ytdl-org|youtube-dl|common.py|Python|2398|660|351
@@ -13,8 +13,8 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ytdl-org~youtube-dl/test/test_utils.py|ytdl-org|youtube-dl|test_utils.py|Python|1123|391|214
 ./src/_00/output/Python/ytdl-org~youtube-dl/test/test_InfoExtractor.py|ytdl-org|youtube-dl|test_InfoExtractor.py|Python|1114|245|48
 ./src/_00/output/Python/ytdl-org~youtube-dl/youtube_dl/extractor/vimeo.py|ytdl-org|youtube-dl|vimeo.py|Python|1035|61|87
+./src/_00/output/Python/ytdl-org~youtube-dl/youtube_dl/jsinterp.py|ytdl-org|youtube-dl|jsinterp.py|Python|1035|114|174
 ./src/_00/output/Python/ytdl-org~youtube-dl/test/test_YoutubeDL.py|ytdl-org|youtube-dl|test_YoutubeDL.py|Python|960|41|190
-./src/_00/output/Python/ytdl-org~youtube-dl/youtube_dl/jsinterp.py|ytdl-org|youtube-dl|jsinterp.py|Python|895|89|148
 ./src/_00/output/Python/ytdl-org~youtube-dl/youtube_dl/options.py|ytdl-org|youtube-dl|options.py|Python|882|2|44
 ./src/_00/output/Python/ytdl-org~youtube-dl/youtube_dl/extractor/twitch.py|ytdl-org|youtube-dl|twitch.py|Python|806|78|104
 ./src/_00/output/Python/ytdl-org~youtube-dl/youtube_dl/extractor/nrk.py|ytdl-org|youtube-dl|nrk.py|Python|744|46|82
@@ -51,6 +51,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ytdl-org~youtube-dl/youtube_dl/extractor/instagram.py|ytdl-org|youtube-dl|instagram.py|Python|404|19|51
 ./src/_00/output/Python/ytdl-org~youtube-dl/youtube_dl/downloader/external.py|ytdl-org|youtube-dl|external.py|Python|401|56|79
 ./src/_00/output/Python/ytdl-org~youtube-dl/youtube_dl/extractor/mtv.py|ytdl-org|youtube-dl|mtv.py|Python|399|19|70
+./src/_00/output/Python/ytdl-org~youtube-dl/test/test_jsinterp.py|ytdl-org|youtube-dl|test_jsinterp.py|Python|387|125|79
 ./src/_00/output/Python/ytdl-org~youtube-dl/youtube_dl/extractor/ard.py|ytdl-org|youtube-dl|ard.py|Python|383|44|40
 ./src/_00/output/Python/ytdl-org~youtube-dl/youtube_dl/extractor/bilibili.py|ytdl-org|youtube-dl|bilibili.py|Python|381|18|57
 ./src/_00/output/Python/ytdl-org~youtube-dl/youtube_dl/extractor/zdf.py|ytdl-org|youtube-dl|zdf.py|Python|371|6|46
@@ -90,10 +91,10 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ytdl-org~youtube-dl/CONTRIBUTING.md|ytdl-org|youtube-dl|CONTRIBUTING.md|Markdown|286|0|148
 ./src/_00/output/Python/ytdl-org~youtube-dl/youtube_dl/extractor/vlive.py|ytdl-org|youtube-dl|vlive.py|Python|284|9|35
 ./src/_00/output/Python/ytdl-org~youtube-dl/youtube_dl/extractor/tvnow.py|ytdl-org|youtube-dl|tvnow.py|Python|283|144|59
-./src/_00/output/Python/ytdl-org~youtube-dl/test/test_jsinterp.py|ytdl-org|youtube-dl|test_jsinterp.py|Python|282|104|72
 ./src/_00/output/Python/ytdl-org~youtube-dl/youtube_dl/extractor/fourtube.py|ytdl-org|youtube-dl|fourtube.py|Python|281|0|28
 ./src/_00/output/Python/ytdl-org~youtube-dl/youtube_dl/extractor/go.py|ytdl-org|youtube-dl|go.py|Python|280|25|10
 ./src/_00/output/Python/ytdl-org~youtube-dl/youtube_dl/extractor/vice.py|ytdl-org|youtube-dl|vice.py|Python|280|23|34
+./src/_00/output/Python/ytdl-org~youtube-dl/test/test_youtube_signature.py|ytdl-org|youtube-dl|test_youtube_signature.py|Python|279|3|26
 ./src/_00/output/Python/ytdl-org~youtube-dl/youtube_dl/extractor/mailru.py|ytdl-org|youtube-dl|mailru.py|Python|276|11|42
 ./src/_00/output/Python/ytdl-org~youtube-dl/youtube_dl/extractor/limelight.py|ytdl-org|youtube-dl|limelight.py|Python|274|49|35
 ./src/_00/output/Python/ytdl-org~youtube-dl/youtube_dl/extractor/videomore.py|ytdl-org|youtube-dl|videomore.py|Python|274|23|25
@@ -115,7 +116,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ytdl-org~youtube-dl/youtube_dl/extractor/ceskatelevize.py|ytdl-org|youtube-dl|ceskatelevize.py|Python|253|12|36
 ./src/_00/output/Python/ytdl-org~youtube-dl/youtube_dl/extractor/metacafe.py|ytdl-org|youtube-dl|metacafe.py|Python|251|18|18
 ./src/_00/output/Python/ytdl-org~youtube-dl/youtube_dl/extractor/vrv.py|ytdl-org|youtube-dl|vrv.py|Python|245|4|28
-./src/_00/output/Python/ytdl-org~youtube-dl/test/test_youtube_signature.py|ytdl-org|youtube-dl|test_youtube_signature.py|Python|244|2|26
 ./src/_00/output/Python/ytdl-org~youtube-dl/youtube_dl/extractor/adobetv.py|ytdl-org|youtube-dl|adobetv.py|Python|244|3|41
 ./src/_00/output/Python/ytdl-org~youtube-dl/youtube_dl/extractor/br.py|ytdl-org|youtube-dl|br.py|Python|244|47|20
 ./src/_00/output/Python/ytdl-org~youtube-dl/youtube_dl/aes.py|ytdl-org|youtube-dl|aes.py|Python|243|62|89

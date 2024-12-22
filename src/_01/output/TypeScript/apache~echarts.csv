@@ -5,7 +5,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/apache~echarts/dist/echarts.common.js|apache|echarts|echarts.common.js|JavaScript|48096|8026|459
 ./src/_00/output/TypeScript/apache~echarts/dist/echarts.simple.js|apache|echarts|echarts.simple.js|JavaScript|35320|5760|320
 ./src/_00/output/TypeScript/apache~echarts/test/data/disk.tree.js|apache|echarts|disk.tree.js|JavaScript|21040|0|0
-./src/_00/output/TypeScript/apache~echarts/package-lock.json|apache|echarts|package-lock.json|JSON|20333|0|0
+./src/_00/output/TypeScript/apache~echarts/package-lock.json|apache|echarts|package-lock.json|JSON|20332|0|0
 ./src/_00/output/TypeScript/apache~echarts/test/data/option-view2.json|apache|echarts|option-view2.json|JSON|11714|0|0
 ./src/_00/output/TypeScript/apache~echarts/test/data/option-view.json|apache|echarts|option-view.json|JSON|10625|0|0
 ./src/_00/output/TypeScript/apache~echarts/test/data/nutrients.json|apache|echarts|nutrients.json|JSON|7639|0|0
@@ -89,9 +89,9 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/apache~echarts/src/component/helper/MapDraw.ts|apache|echarts|MapDraw.ts|TypeScript|663|141|131
 ./src/_00/output/TypeScript/apache~echarts/test/dataset-case.html|apache|echarts|dataset-case.html|HTML|657|17|72
 ./src/_00/output/TypeScript/apache~echarts/test/pictorial-single.html|apache|echarts|pictorial-single.html|HTML|656|16|125
+./src/_00/output/TypeScript/apache~echarts/src/component/axis/AxisBuilder.ts|apache|echarts|AxisBuilder.ts|TypeScript|655|88|135
 ./src/_00/output/TypeScript/apache~echarts/test/bar-stack.html|apache|echarts|bar-stack.html|HTML|652|16|62
 ./src/_00/output/TypeScript/apache~echarts/src/chart/tree/TreeView.ts|apache|echarts|TreeView.ts|TypeScript|645|46|104
-./src/_00/output/TypeScript/apache~echarts/src/component/axis/AxisBuilder.ts|apache|echarts|AxisBuilder.ts|TypeScript|645|88|135
 ./src/_00/output/TypeScript/apache~echarts/test/graph-circular.html|apache|echarts|graph-circular.html|HTML|635|17|115
 ./src/_00/output/TypeScript/apache~echarts/test/bmap.html|apache|echarts|bmap.html|HTML|633|16|11
 ./src/_00/output/TypeScript/apache~echarts/test/markArea.html|apache|echarts|markArea.html|HTML|618|16|25
@@ -198,6 +198,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/apache~echarts/test/runTest/cli.js|apache|echarts|cli.js|JavaScript|360|44|54
 ./src/_00/output/TypeScript/apache~echarts/test/timeline-layout.html|apache|echarts|timeline-layout.html|HTML|360|16|19
 ./src/_00/output/TypeScript/apache~echarts/test/lib/canteen.js|apache|echarts|canteen.js|JavaScript|359|159|48
+./src/_00/output/TypeScript/apache~echarts/test/axisLabel.html|apache|echarts|axisLabel.html|HTML|358|16|63
 ./src/_00/output/TypeScript/apache~echarts/test/geoLine.html|apache|echarts|geoLine.html|HTML|358|16|17
 ./src/_00/output/TypeScript/apache~echarts/src/data/helper/transform.ts|apache|echarts|transform.ts|TypeScript|357|127|59
 ./src/_00/output/TypeScript/apache~echarts/src/component/marker/MarkAreaView.ts|apache|echarts|MarkAreaView.ts|TypeScript|356|52|45
@@ -258,7 +259,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/apache~echarts/test/candlestick-large.html|apache|echarts|candlestick-large.html|HTML|304|16|28
 ./src/_00/output/TypeScript/apache~echarts/test/dataZoom-scroll.html|apache|echarts|dataZoom-scroll.html|HTML|302|16|31
 ./src/_00/output/TypeScript/apache~echarts/test/label-animation.html|apache|echarts|label-animation.html|HTML|302|17|59
-./src/_00/output/TypeScript/apache~echarts/test/axisLabel.html|apache|echarts|axisLabel.html|HTML|301|16|63
 ./src/_00/output/TypeScript/apache~echarts/test/custom-hexbin.html|apache|echarts|custom-hexbin.html|HTML|301|16|40
 ./src/_00/output/TypeScript/apache~echarts/test/runTest/client/index.html|apache|echarts|index.html|HTML|299|23|25
 ./src/_00/output/TypeScript/apache~echarts/src/chart/custom/CustomSeries.ts|apache|echarts|CustomSeries.ts|TypeScript|298|79|53
@@ -445,6 +445,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/apache~echarts/test/sunburst.html|apache|echarts|sunburst.html|HTML|182|16|11
 ./src/_00/output/TypeScript/apache~echarts/theme/tool/option/scatter.js|apache|echarts|scatter.js|JavaScript|182|18|1
 ./src/_00/output/TypeScript/apache~echarts/src/component/toolbox/feature/MagicType.ts|apache|echarts|MagicType.ts|TypeScript|181|40|27
+./src/_00/output/TypeScript/apache~echarts/src/component/visualMap/PiecewiseView.ts|apache|echarts|PiecewiseView.ts|TypeScript|181|29|39
 ./src/_00/output/TypeScript/apache~echarts/test/treemap-disk.html|apache|echarts|treemap-disk.html|HTML|181|16|23
 ./src/_00/output/TypeScript/apache~echarts/src/component/axis/CartesianAxisView.ts|apache|echarts|CartesianAxisView.ts|TypeScript|180|26|47
 ./src/_00/output/TypeScript/apache~echarts/test/min-max-function.html|apache|echarts|min-max-function.html|HTML|180|16|24
@@ -459,7 +460,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/apache~echarts/src/component/axis/RadiusAxisView.ts|apache|echarts|RadiusAxisView.ts|TypeScript|176|27|34
 ./src/_00/output/TypeScript/apache~echarts/test/pie-percent.html|apache|echarts|pie-percent.html|HTML|176|17|20
 ./src/_00/output/TypeScript/apache~echarts/src/chart/helper/EffectSymbol.ts|apache|echarts|EffectSymbol.ts|TypeScript|175|35|40
-./src/_00/output/TypeScript/apache~echarts/src/component/visualMap/PiecewiseView.ts|apache|echarts|PiecewiseView.ts|TypeScript|175|29|40
 ./src/_00/output/TypeScript/apache~echarts/test/pictorial-svg.html|apache|echarts|pictorial-svg.html|HTML|175|16|12
 ./src/_00/output/TypeScript/apache~echarts/test/sankey.html|apache|echarts|sankey.html|HTML|174|17|33
 ./src/_00/output/TypeScript/apache~echarts/test/shape-custom.html|apache|echarts|shape-custom.html|HTML|174|17|39
@@ -711,6 +711,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/apache~echarts/test/candlestick-empty.html|apache|echarts|candlestick-empty.html|HTML|122|16|17
 ./src/_00/output/TypeScript/apache~echarts/test/dataset-pivot.html|apache|echarts|dataset-pivot.html|HTML|122|16|28
 ./src/_00/output/TypeScript/apache~echarts/test/geojson-test.html|apache|echarts|geojson-test.html|HTML|122|17|15
+./src/_00/output/TypeScript/apache~echarts/test/visualMap-selectMode.html|apache|echarts|visualMap-selectMode.html|HTML|122|16|6
 ./src/_00/output/TypeScript/apache~echarts/src/chart/helper/multipleGraphEdgeHelper.ts|apache|echarts|multipleGraphEdgeHelper.ts|TypeScript|121|86|23
 ./src/_00/output/TypeScript/apache~echarts/src/chart/line/lineAnimationDiff.ts|apache|echarts|lineAnimationDiff.ts|TypeScript|121|31|33
 ./src/_00/output/TypeScript/apache~echarts/src/component/dataZoom/SliderZoomModel.ts|apache|echarts|SliderZoomModel.ts|TypeScript|121|60|43
@@ -954,11 +955,11 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/TypeScript/apache~echarts/test/homepage3.html|apache|echarts|homepage3.html|HTML|74|16|13
 ./src/_00/output/TypeScript/apache~echarts/test/lines-mergeOption.html|apache|echarts|lines-mergeOption.html|HTML|74|16|13
 ./src/_00/output/TypeScript/apache~echarts/test/mix.html|apache|echarts|mix.html|HTML|74|16|10
+./src/_00/output/TypeScript/apache~echarts/test/ut/spec/series/aria-columns-exclude.test.ts|apache|echarts|aria-columns-exclude.test.ts|TypeScript|74|19|7
 ./src/_00/output/TypeScript/apache~echarts/src/data/OrdinalMeta.ts|apache|echarts|OrdinalMeta.ts|TypeScript|73|39|22
 ./src/_00/output/TypeScript/apache~echarts/test/axis-containLabel2.html|apache|echarts|axis-containLabel2.html|HTML|73|16|13
 ./src/_00/output/TypeScript/apache~echarts/test/timeline-event.html|apache|echarts|timeline-event.html|HTML|73|17|21
 ./src/_00/output/TypeScript/apache~echarts/test/calendar-simple.html|apache|echarts|calendar-simple.html|HTML|72|16|12
-./src/_00/output/TypeScript/apache~echarts/test/ut/spec/series/aria-columns-exclude.test.ts|apache|echarts|aria-columns-exclude.test.ts|TypeScript|72|18|7
 ./src/_00/output/TypeScript/apache~echarts/test/force3.html|apache|echarts|force3.html|HTML|71|16|9
 ./src/_00/output/TypeScript/apache~echarts/build/build-i18n.js|apache|echarts|build-i18n.js|JavaScript|70|34|10
 ./src/_00/output/TypeScript/apache~echarts/src/chart/sunburst/sunburstAction.ts|apache|echarts|sunburstAction.ts|TypeScript|70|23|22

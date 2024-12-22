@@ -59,7 +59,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg-turbo/src/jpeg_nbits.c|opencv|opencv|jpeg_nbits.c|C|4111|10|13
 ./src/_00/output/C++/opencv~opencv/data/hogcascades/hogcascade_pedestrians.xml|opencv|opencv|hogcascade_pedestrians.xml|XML|3971|15|0
 ./src/_00/output/C++/opencv~opencv/modules/core/src/dxt.cpp|opencv|opencv|dxt.cpp|C++|3969|116|617
-./src/_00/output/C++/opencv~opencv/modules/imgproc/src/color_lab.cpp|opencv|opencv|color_lab.cpp|C++|3926|229|690
+./src/_00/output/C++/opencv~opencv/modules/imgproc/src/color_lab.cpp|opencv|opencv|color_lab.cpp|C++|3930|229|694
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg-turbo/src/simd/mips/jsimd_dspr2.S|opencv|opencv|jsimd_dspr2.S|Assembly|3914|386|243
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/src/resize.cpp|opencv|opencv|resize.cpp|C++|3717|99|442
 ./src/_00/output/C++/opencv~opencv/data/lbpcascades/lbpcascade_frontalcatface.xml|opencv|opencv|lbpcascade_frontalcatface.xml|XML|3674|85|9
@@ -85,9 +85,9 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg/jfdctint.c|opencv|opencv|jfdctint.c|C|2858|780|777
 ./src/_00/output/C++/opencv~opencv/modules/videoio/src/cap_msmf.cpp|opencv|opencv|cap_msmf.cpp|C++|2840|64|165
 ./src/_00/output/C++/opencv~opencv/modules/videoio/src/cap_ffmpeg_impl.hpp|opencv|opencv|cap_ffmpeg_impl.hpp|C/C++ Header|2811|200|371
+./src/_00/output/C++/opencv~opencv/modules/dnn/src/layers/elementwise_layers.cpp|opencv|opencv|elementwise_layers.cpp|C++|2800|69|625
 ./src/_00/output/C++/opencv~opencv/modules/core/include/opencv2/core/mat.inl.hpp|opencv|opencv|mat.inl.hpp|C/C++ Header|2798|68|556
 ./src/_00/output/C++/opencv~opencv/3rdparty/libtiff/tif_getimage.c|opencv|opencv|tif_getimage.c|C|2792|349|219
-./src/_00/output/C++/opencv~opencv/modules/dnn/src/layers/elementwise_layers.cpp|opencv|opencv|elementwise_layers.cpp|C++|2792|69|624
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/src/accum.simd.hpp|opencv|opencv|accum.simd.hpp|C/C++ Header|2761|10|338
 ./src/_00/output/C++/opencv~opencv/3rdparty/libpng/png.c|opencv|opencv|png.c|C|2750|1239|570
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg-turbo/src/libjpeg.txt|opencv|opencv|libjpeg.txt|Text|2741|0|541
@@ -116,7 +116,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/3rdparty/carotene/src/convert_scale.cpp|opencv|opencv|convert_scale.cpp|C++|2413|38|48
 ./src/_00/output/C++/opencv~opencv/3rdparty/ittnotify/include/ittnotify.h|opencv|opencv|ittnotify.h|C/C++ Header|2409|1362|352
 ./src/_00/output/C++/opencv~opencv/modules/core/src/persistence.cpp|opencv|opencv|persistence.cpp|C++|2408|53|380
-./src/_00/output/C++/opencv~opencv/modules/imgproc/src/drawing.cpp|opencv|opencv|drawing.cpp|C++|2398|101|401
+./src/_00/output/C++/opencv~opencv/modules/imgproc/src/drawing.cpp|opencv|opencv|drawing.cpp|C++|2391|101|401
 ./src/_00/output/C++/opencv~opencv/modules/videoio/src/cap_dshow.cpp|opencv|opencv|cap_dshow.cpp|C++|2387|580|719
 ./src/_00/output/C++/opencv~opencv/modules/highgui/src/window_QT.cpp|opencv|opencv|window_QT.cpp|C++|2380|216|817
 ./src/_00/output/C++/opencv~opencv/3rdparty/openjpeg/openjp2/jp2.c|opencv|opencv|jp2.c|C|2369|539|506
@@ -135,7 +135,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/core/include/opencv2/core/hal/intrin_lsx.hpp|opencv|opencv|intrin_lsx.hpp|C/C++ Header|2103|70|373
 ./src/_00/output/C++/opencv~opencv/3rdparty/libtiff/tif_jpeg.c|opencv|opencv|tif_jpeg.c|C|2093|515|292
 ./src/_00/output/C++/opencv~opencv/modules/gapi/src/backends/fluid/gfluidimgproc_func.simd.hpp|opencv|opencv|gfluidimgproc_func.simd.hpp|C/C++ Header|2091|268|554
-./src/_00/output/C++/opencv~opencv/modules/imgproc/src/smooth.simd.hpp|opencv|opencv|smooth.simd.hpp|C/C++ Header|2087|79|70
+./src/_00/output/C++/opencv~opencv/modules/imgproc/src/smooth.simd.hpp|opencv|opencv|smooth.simd.hpp|C/C++ Header|2089|79|70
 ./src/_00/output/C++/opencv~opencv/modules/gapi/test/streaming/gapi_streaming_tests.cpp|opencv|opencv|gapi_streaming_tests.cpp|C++|2074|163|449
 ./src/_00/output/C++/opencv~opencv/modules/gapi/src/backends/fluid/gfluidcore.cpp|opencv|opencv|gfluidcore.cpp|C++|2070|177|410
 ./src/_00/output/C++/opencv~opencv/modules/calib3d/src/stereosgbm.cpp|opencv|opencv|stereosgbm.cpp|C++|2054|233|298
@@ -144,21 +144,22 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/core/test/test_intrin_utils.hpp|opencv|opencv|test_intrin_utils.hpp|C/C++ Header|2029|98|276
 ./src/_00/output/C++/opencv~opencv/modules/highgui/src/window_wayland.cpp|opencv|opencv|window_wayland.cpp|C++|2009|92|543
 ./src/_00/output/C++/opencv~opencv/modules/dnn/misc/tensorflow/op_def.pb.h|opencv|opencv|op_def.pb.h|C/C++ Header|1985|215|253
-./src/_00/output/C++/opencv~opencv/modules/imgproc/test/test_filter.cpp|opencv|opencv|test_filter.cpp|C++|1978|92|484
 ./src/_00/output/C++/opencv~opencv/modules/java/generator/src/cpp/Mat.cpp|opencv|opencv|Mat.cpp|C++|1972|228|544
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/src/hough.cpp|opencv|opencv|hough.cpp|C++|1963|202|342
 ./src/_00/output/C++/opencv~opencv/modules/dnn/src/layers/convolution_layer.cpp|opencv|opencv|convolution_layer.cpp|C++|1958|112|265
 ./src/_00/output/C++/opencv~opencv/3rdparty/openexr/IlmImf/ImfDwaCompressor.cpp|opencv|opencv|ImfDwaCompressor.cpp|C++|1948|806|685
 ./src/_00/output/C++/opencv~opencv/modules/core/src/arithm.cpp|opencv|opencv|arithm.cpp|C++|1940|84|387
+./src/_00/output/C++/opencv~opencv/modules/imgproc/test/test_filter.cpp|opencv|opencv|test_filter.cpp|C++|1938|92|482
 ./src/_00/output/C++/opencv~opencv/modules/features2d/src/brisk.cpp|opencv|opencv|brisk.cpp|C++|1937|271|225
 ./src/_00/output/C++/opencv~opencv/modules/calib3d/test/test_cameracalibration.cpp|opencv|opencv|test_cameracalibration.cpp|C++|1930|162|319
 ./src/_00/output/C++/opencv~opencv/3rdparty/protobuf/src/google/protobuf/extension_set.cc|opencv|opencv|extension_set.cc|C++|1893|156|206
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjasper/jpc_dec.c|opencv|opencv|jpc_dec.c|C|1888|173|243
+./src/_00/output/C++/opencv~opencv/doc/stylesheet.css|opencv|opencv|stylesheet.css|CSS|1888|56|348
 ./src/_00/output/C++/opencv~opencv/3rdparty/libpng/pngwutil.c|opencv|opencv|pngwutil.c|C|1880|408|493
 ./src/_00/output/C++/opencv~opencv/3rdparty/libtiff/tif_dir.c|opencv|opencv|tif_dir.c|C|1868|336|104
 ./src/_00/output/C++/opencv~opencv/modules/highgui/src/window_gtk.cpp|opencv|opencv|window_gtk.cpp|C++|1867|142|429
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg-turbo/src/jidctint.c|opencv|opencv|jidctint.c|C|1848|343|436
-./src/_00/output/C++/opencv~opencv/modules/ml/src/svm.cpp|opencv|opencv|svm.cpp|C++|1843|156|358
+./src/_00/output/C++/opencv~opencv/modules/ml/src/svm.cpp|opencv|opencv|svm.cpp|C++|1846|155|359
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg-turbo/src/transupp.c|opencv|opencv|transupp.c|C|1831|402|144
 ./src/_00/output/C++/opencv~opencv/modules/ts/src/ts_perf.cpp|opencv|opencv|ts_perf.cpp|C++|1826|55|290
 ./src/_00/output/C++/opencv~opencv/modules/calib3d/test/test_solvepnp_ransac.cpp|opencv|opencv|test_solvepnp_ransac.cpp|C++|1824|118|381
@@ -191,15 +192,15 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/3rdparty/openjpeg/openjp2/pi.c|opencv|opencv|pi.c|C|1638|286|225
 ./src/_00/output/C++/opencv~opencv/modules/ml/src/tree.cpp|opencv|opencv|tree.cpp|C++|1628|101|261
 ./src/_00/output/C++/opencv~opencv/modules/core/misc/java/test/CoreTest.java|opencv|opencv|CoreTest.java|Java|1617|16|436
+./src/_00/output/C++/opencv~opencv/CMakeLists.txt|opencv|opencv|CMakeLists.txt|CMake|1616|152|224
 ./src/_00/output/C++/opencv~opencv/modules/core/include/opencv2/core/cuda/detail/color_detail.hpp|opencv|opencv|color_detail.hpp|C/C++ Header|1615|59|344
 ./src/_00/output/C++/opencv~opencv/modules/features2d/src/kaze/AKAZEFeatures.cpp|opencv|opencv|AKAZEFeatures.cpp|C++|1612|346|360
-./src/_00/output/C++/opencv~opencv/modules/objdetect/src/qrcode_encoder.cpp|opencv|opencv|qrcode_encoder.cpp|C++|1608|45|188
+./src/_00/output/C++/opencv~opencv/modules/objdetect/src/qrcode_encoder.cpp|opencv|opencv|qrcode_encoder.cpp|C++|1609|45|188
 ./src/_00/output/C++/opencv~opencv/modules/dnn/test/test_tf_importer.cpp|opencv|opencv|test_tf_importer.cpp|C++|1606|85|252
 ./src/_00/output/C++/opencv~opencv/3rdparty/carotene/include/carotene/functions.hpp|opencv|opencv|functions.hpp|C/C++ Header|1601|484|407
 ./src/_00/output/C++/opencv~opencv/modules/videoio/src/cap_v4l.cpp|opencv|opencv|cap_v4l.cpp|C++|1600|355|247
 ./src/_00/output/C++/opencv~opencv/modules/core/include/opencv2/core/hal/intrin_msa.hpp|opencv|opencv|intrin_msa.hpp|C/C++ Header|1599|39|248
 ./src/_00/output/C++/opencv~opencv/modules/core/src/opengl.cpp|opencv|opencv|opengl.cpp|C++|1598|65|333
-./src/_00/output/C++/opencv~opencv/CMakeLists.txt|opencv|opencv|CMakeLists.txt|CMake|1591|152|222
 ./src/_00/output/C++/opencv~opencv/3rdparty/libwebp/src/enc/vp8l_enc.c|opencv|opencv|vp8l_enc.c|C|1553|182|158
 ./src/_00/output/C++/opencv~opencv/modules/calib3d/test/test_undistort.cpp|opencv|opencv|test_undistort.cpp|C++|1547|145|291
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/src/thresh.cpp|opencv|opencv|thresh.cpp|C++|1546|48|175
@@ -232,9 +233,9 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/data/lbpcascades/lbpcascade_frontalface_improved.xml|opencv|opencv|lbpcascade_frontalface_improved.xml|XML|1385|78|6
 ./src/_00/output/C++/opencv~opencv/3rdparty/carotene/src/mul.cpp|opencv|opencv|mul.cpp|C++|1376|38|158
 ./src/_00/output/C++/opencv~opencv/modules/stitching/src/seam_finders.cpp|opencv|opencv|seam_finders.cpp|C++|1374|77|266
-./src/_00/output/C++/opencv~opencv/modules/calib3d/src/calibration.cpp|opencv|opencv|calibration.cpp|C++|1373|96|222
 ./src/_00/output/C++/opencv~opencv/3rdparty/zlib/deflate.c|opencv|opencv|deflate.c|C|1371|550|218
 ./src/_00/output/C++/opencv~opencv/modules/calib3d/src/circlesgrid.cpp|opencv|opencv|circlesgrid.cpp|C++|1370|87|200
+./src/_00/output/C++/opencv~opencv/modules/calib3d/src/calibration.cpp|opencv|opencv|calibration.cpp|C++|1361|96|222
 ./src/_00/output/C++/opencv~opencv/3rdparty/libtiff/tif_fax3.c|opencv|opencv|tif_fax3.c|C|1357|269|109
 ./src/_00/output/C++/opencv~opencv/3rdparty/libwebp/src/dsp/enc_mips_dsp_r2.c|opencv|opencv|enc_mips_dsp_r2.c|C|1353|66|98
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/test/test_imgwarp.cpp|opencv|opencv|test_imgwarp.cpp|C++|1348|87|334
@@ -273,6 +274,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/gapi/test/common/gapi_core_tests_inl.hpp|opencv|opencv|gapi_core_tests_inl.hpp|C/C++ Header|1261|218|274
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/src/filter.dispatch.cpp|opencv|opencv|filter.dispatch.cpp|C++|1261|108|241
 ./src/_00/output/C++/opencv~opencv/data/lbpcascades/lbpcascade_silverware.xml|opencv|opencv|lbpcascade_silverware.xml|XML|1255|24|0
+./src/_00/output/C++/opencv~opencv/modules/imgcodecs/src/loadsave.cpp|opencv|opencv|loadsave.cpp|C++|1254|149|236
 ./src/_00/output/C++/opencv~opencv/3rdparty/libpng/pngset.c|opencv|opencv|pngset.c|C|1253|203|347
 ./src/_00/output/C++/opencv~opencv/3rdparty/libtiff/tif_fax3sm.c|opencv|opencv|tif_fax3sm.c|C|1252|9|0
 ./src/_00/output/C++/opencv~opencv/data/lbpcascades/lbpcascade_profileface.xml|opencv|opencv|lbpcascade_profileface.xml|XML|1252|23|0
@@ -284,7 +286,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/flann/include/opencv2/flann/kmeans_index.h|opencv|opencv|kmeans_index.h|C/C++ Header|1237|329|253
 ./src/_00/output/C++/opencv~opencv/modules/gapi/src/backends/fluid/gfluidbackend.cpp|opencv|opencv|gfluidbackend.cpp|C++|1231|194|216
 ./src/_00/output/C++/opencv~opencv/3rdparty/openexr/IlmImf/ImfDwaCompressorSimd.h|opencv|opencv|ImfDwaCompressorSimd.h|C/C++ Header|1228|611|333
-./src/_00/output/C++/opencv~opencv/modules/core/include/opencv2/core/mat.hpp|opencv|opencv|mat.hpp|C/C++ Header|1228|2036|549
+./src/_00/output/C++/opencv~opencv/modules/core/include/opencv2/core/mat.hpp|opencv|opencv|mat.hpp|C/C++ Header|1228|2037|549
 ./src/_00/output/C++/opencv~opencv/modules/core/src/gl_core_3_1.hpp|opencv|opencv|gl_core_3_1.hpp|C/C++ Header|1228|87|58
 ./src/_00/output/C++/opencv~opencv/modules/imgcodecs/src/grfmt_tiff.cpp|opencv|opencv|grfmt_tiff.cpp|C++|1225|103|158
 ./src/_00/output/C++/opencv~opencv/3rdparty/libtiff/tif_read.c|opencv|opencv|tif_read.c|C|1220|276|128
@@ -317,10 +319,9 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/3rdparty/carotene/src/blur.cpp|opencv|opencv|blur.cpp|C++|1133|75|128
 ./src/_00/output/C++/opencv~opencv/apps/traincascade/old_ml.hpp|opencv|opencv|old_ml.hpp|C/C++ Header|1123|552|366
 ./src/_00/output/C++/opencv~opencv/3rdparty/protobuf/src/google/protobuf/descriptor.h|opencv|opencv|descriptor.h|C/C++ Header|1122|877|418
-./src/_00/output/C++/opencv~opencv/apps/createsamples/utility.cpp|opencv|opencv|utility.cpp|C++|1120|135|209
+./src/_00/output/C++/opencv~opencv/apps/createsamples/utility.cpp|opencv|opencv|utility.cpp|C++|1120|132|209
 ./src/_00/output/C++/opencv~opencv/3rdparty/openexr/IlmImf/ImfScanLineInputFile.cpp|opencv|opencv|ImfScanLineInputFile.cpp|C++|1117|303|318
 ./src/_00/output/C++/opencv~opencv/3rdparty/libtiff/tif_dirinfo.c|opencv|opencv|tif_dirinfo.c|C|1116|157|78
-./src/_00/output/C++/opencv~opencv/modules/imgcodecs/src/loadsave.cpp|opencv|opencv|loadsave.cpp|C++|1115|140|214
 ./src/_00/output/C++/opencv~opencv/modules/core/src/umatrix.cpp|opencv|opencv|umatrix.cpp|C++|1106|65|174
 ./src/_00/output/C++/opencv~opencv/3rdparty/zlib-ng/inflate.c|opencv|opencv|inflate.c|C|1105|199|149
 ./src/_00/output/C++/opencv~opencv/modules/dnn/misc/tensorflow/function.pb.cc|opencv|opencv|function.pb.cc|C++|1104|88|131
@@ -380,12 +381,13 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/video/src/optflowgf.cpp|opencv|opencv|optflowgf.cpp|C++|970|80|161
 ./src/_00/output/C++/opencv~opencv/3rdparty/carotene/src/separable_filter.hpp|opencv|opencv|separable_filter.hpp|C/C++ Header|969|63|129
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg-turbo/src/simd/arm/aarch32/jsimd_neon.S|opencv|opencv|jsimd_neon.S|Assembly|968|169|63
+./src/_00/output/C++/opencv~opencv/modules/highgui/src/window_cocoa.mm|opencv|opencv|window_cocoa.mm|Objective-C++|968|124|213
 ./src/_00/output/C++/opencv~opencv/modules/objdetect/src/aruco/aruco_detector.cpp|opencv|opencv|aruco_detector.cpp|C++|968|219|181
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/src/shapedescr.cpp|opencv|opencv|shapedescr.cpp|C++|967|78|160
-./src/_00/output/C++/opencv~opencv/modules/highgui/src/window_cocoa.mm|opencv|opencv|window_cocoa.mm|Objective-C++|966|124|213
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg/jdmarker.c|opencv|opencv|jdmarker.c|C|964|305|236
 ./src/_00/output/C++/opencv~opencv/modules/gapi/test/streaming/gapi_streaming_vpl_core_test.cpp|opencv|opencv|gapi_streaming_vpl_core_test.cpp|C++|958|105|216
 ./src/_00/output/C++/opencv~opencv/modules/dnn/src/layers/nary_eltwise_layers.cpp|opencv|opencv|nary_eltwise_layers.cpp|C++|957|33|80
+./src/_00/output/C++/opencv~opencv/modules/imgcodecs/src/grfmt_gif.cpp|opencv|opencv|grfmt_gif.cpp|C++|956|93|95
 ./src/_00/output/C++/opencv~opencv/modules/dnn/misc/tensorflow/tensor.pb.h|opencv|opencv|tensor.pb.h|C/C++ Header|955|107|70
 ./src/_00/output/C++/opencv~opencv/modules/dnn/perf/perf_convolution.cpp|opencv|opencv|perf_convolution.cpp|C++|954|8|38
 ./src/_00/output/C++/opencv~opencv/3rdparty/libwebp/src/enc/histogram_enc.c|opencv|opencv|histogram_enc.c|C|952|184|114
@@ -419,6 +421,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/3rdparty/libwebp/src/dsp/dec_msa.c|opencv|opencv|dec_msa.c|C|899|26|93
 ./src/_00/output/C++/opencv~opencv/modules/core/src/lda.cpp|opencv|opencv|lda.cpp|C++|899|171|122
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/src/templmatch.cpp|opencv|opencv|templmatch.cpp|C++|887|81|239
+./src/_00/output/C++/opencv~opencv/3rdparty/fastcv/src/fastcv_hal_imgproc.cpp|opencv|opencv|fastcv_hal_imgproc.cpp|C++|883|29|138
 ./src/_00/output/C++/opencv~opencv/3rdparty/openexr/IlmImf/ImfHeader.cpp|opencv|opencv|ImfHeader.cpp|C++|883|139|261
 ./src/_00/output/C++/opencv~opencv/3rdparty/libwebp/src/dsp/dec_sse2.c|opencv|opencv|dec_sse2.c|C|880|175|171
 ./src/_00/output/C++/opencv~opencv/modules/calib3d/test/test_fisheye.cpp|opencv|opencv|test_fisheye.cpp|C++|879|74|249
@@ -434,6 +437,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/calib3d/src/fundam.cpp|opencv|opencv|fundam.cpp|C++|866|194|171
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/test/test_drawing.cpp|opencv|opencv|test_drawing.cpp|C++|865|89|153
 ./src/_00/output/C++/opencv~opencv/3rdparty/openexr/IlmImf/ImfOutputFile.cpp|opencv|opencv|ImfOutputFile.cpp|C++|862|264|277
+./src/_00/output/C++/opencv~opencv/modules/videoio/test/test_video_io.cpp|opencv|opencv|test_video_io.cpp|C++|862|42|123
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/src/emd.cpp|opencv|opencv|emd.cpp|C++|861|136|185
 ./src/_00/output/C++/opencv~opencv/samples/winrt/ImageManipulations/common/StandardStyles.xaml|opencv|opencv|StandardStyles.xaml|XAML|861|64|53
 ./src/_00/output/C++/opencv~opencv/modules/calib3d/src/solvepnp.cpp|opencv|opencv|solvepnp.cpp|C++|855|116|171
@@ -443,7 +447,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/dnn/src/layers/eltwise_layer.cpp|opencv|opencv|eltwise_layer.cpp|C++|847|57|91
 ./src/_00/output/C++/opencv~opencv/modules/dnn/src/tflite/schema.fbs|opencv|opencv|schema.fbs|Flatbuffers|847|290|204
 ./src/_00/output/C++/opencv~opencv/modules/dnn/test/test_misc.cpp|opencv|opencv|test_misc.cpp|C++|847|35|190
-./src/_00/output/C++/opencv~opencv/modules/videoio/test/test_video_io.cpp|opencv|opencv|test_video_io.cpp|C++|847|42|123
 ./src/_00/output/C++/opencv~opencv/modules/dnn/src/layers/detection_output_layer.cpp|opencv|opencv|detection_output_layer.cpp|C++|846|99|123
 ./src/_00/output/C++/opencv~opencv/modules/objdetect/src/qrcode_encoder_table.inl.hpp|opencv|opencv|qrcode_encoder_table.inl.hpp|C/C++ Header|846|13|10
 ./src/_00/output/C++/opencv~opencv/3rdparty/libwebp/src/enc/backward_references_enc.c|opencv|opencv|backward_references_enc.c|C|843|135|87
@@ -488,10 +491,10 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/3rdparty/cpufeatures/cpu-features.c|opencv|opencv|cpu-features.c|C|780|418|134
 ./src/_00/output/C++/opencv~opencv/modules/videoio/test/test_ffmpeg.cpp|opencv|opencv|test_ffmpeg.cpp|C++|779|35|113
 ./src/_00/output/C++/opencv~opencv/modules/calib3d/src/usac/dls_solver.cpp|opencv|opencv|dls_solver.cpp|C++|778|80|28
+./src/_00/output/C++/opencv~opencv/modules/core/src/matrix_sparse.cpp|opencv|opencv|matrix_sparse.cpp|C++|778|10|110
 ./src/_00/output/C++/opencv~opencv/modules/core/include/opencv2/core/cuda/vec_math.hpp|opencv|opencv|vec_math.hpp|C/C++ Header|776|53|94
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/src/canny.cpp|opencv|opencv|canny.cpp|C++|776|90|151
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg-turbo/src/simd/arm/aarch32/jsimd.c|opencv|opencv|jsimd.c|C|773|48|155
-./src/_00/output/C++/opencv~opencv/modules/core/src/matrix_sparse.cpp|opencv|opencv|matrix_sparse.cpp|C++|771|10|110
 ./src/_00/output/C++/opencv~opencv/modules/core/include/opencv2/core/vsx_utils.hpp|opencv|opencv|vsx_utils.hpp|C/C++ Header|770|139|138
 ./src/_00/output/C++/opencv~opencv/3rdparty/libwebp/src/demux/demux.c|opencv|opencv|demux.c|C|767|73|135
 ./src/_00/output/C++/opencv~opencv/modules/dnn/misc/tensorflow/graph.pb.cc|opencv|opencv|graph.pb.cc|C++|767|58|79
@@ -514,10 +517,11 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/core/src/persistence_yml.cpp|opencv|opencv|persistence_yml.cpp|C++|736|20|119
 ./src/_00/output/C++/opencv~opencv/modules/flann/src/miniflann.cpp|opencv|opencv|miniflann.cpp|C++|736|36|114
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/src/geometry.cpp|opencv|opencv|geometry.cpp|C++|735|93|120
+./src/_00/output/C++/opencv~opencv/modules/videoio/src/cap_android_camera.cpp|opencv|opencv|cap_android_camera.cpp|C++|734|27|81
+./src/_00/output/C++/opencv~opencv/modules/js/generator/embindgen.py|opencv|opencv|embindgen.py|Python|733|133|136
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/src/distransform.cpp|opencv|opencv|distransform.cpp|C++|732|68|119
 ./src/_00/output/C++/opencv~opencv/modules/calib3d/src/calibration_handeye.cpp|opencv|opencv|calibration_handeye.cpp|C++|731|118|168
 ./src/_00/output/C++/opencv~opencv/3rdparty/libwebp/src/dec/idec_dec.c|opencv|opencv|idec_dec.c|C|730|89|101
-./src/_00/output/C++/opencv~opencv/modules/js/generator/embindgen.py|opencv|opencv|embindgen.py|Python|730|132|136
 ./src/_00/output/C++/opencv~opencv/3rdparty/openjpeg/openjp2/thread.c|opencv|opencv|thread.c|C|729|65|160
 ./src/_00/output/C++/opencv~opencv/modules/gapi/test/internal/gapi_int_pattern_matching_test.cpp|opencv|opencv|gapi_int_pattern_matching_test.cpp|C++|726|91|180
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg-turbo/src/jcphuff.c|opencv|opencv|jcphuff.c|C|724|189|179
@@ -545,9 +549,8 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/3rdparty/quirc/src/decode.c|opencv|opencv|decode.c|C|695|58|185
 ./src/_00/output/C++/opencv~opencv/modules/dnn/src/int8layers/pooling_layer.cpp|opencv|opencv|pooling_layer.cpp|C++|695|16|88
 ./src/_00/output/C++/opencv~opencv/3rdparty/libwebp/src/enc/picture_csp_enc.c|opencv|opencv|picture_csp_enc.c|C|694|72|80
-./src/_00/output/C++/opencv~opencv/modules/videoio/src/cap_android_camera.cpp|opencv|opencv|cap_android_camera.cpp|C++|693|27|76
+./src/_00/output/C++/opencv~opencv/modules/imgproc/src/generalized_hough.cpp|opencv|opencv|generalized_hough.cpp|C++|694|44|211
 ./src/_00/output/C++/opencv~opencv/3rdparty/protobuf/src/google/protobuf/map_field.h|opencv|opencv|map_field.h|C/C++ Header|692|129|102
-./src/_00/output/C++/opencv~opencv/modules/imgproc/src/generalized_hough.cpp|opencv|opencv|generalized_hough.cpp|C++|690|44|211
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg-turbo/src/jdcolor.c|opencv|opencv|jdcolor.c|C|689|129|107
 ./src/_00/output/C++/opencv~opencv/modules/dnn/include/opencv2/dnn/all_layers.hpp|opencv|opencv|all_layers.hpp|C/C++ Header|689|346|177
 ./src/_00/output/C++/opencv~opencv/modules/gapi/src/backends/cpu/gcpucore.cpp|opencv|opencv|gcpucore.cpp|C++|689|7|84
@@ -580,7 +583,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/dnn/test/test_caffe_importer.cpp|opencv|opencv|test_caffe_importer.cpp|C++|665|70|134
 ./src/_00/output/C++/opencv~opencv/3rdparty/openexr/Iex/IexThrowErrnoExc.cpp|opencv|opencv|IexThrowErrnoExc.cpp|C++|664|39|170
 ./src/_00/output/C++/opencv~opencv/modules/core/include/opencv2/core/persistence.hpp|opencv|opencv|persistence.hpp|C/C++ Header|662|426|186
-./src/_00/output/C++/opencv~opencv/modules/js/test/test_imgproc.js|opencv|opencv|test_imgproc.js|JavaScript|661|141|195
 ./src/_00/output/C++/opencv~opencv/modules/imgcodecs/src/grfmt_jpeg2000_openjpeg.cpp|opencv|opencv|grfmt_jpeg2000_openjpeg.cpp|C++|659|36|119
 ./src/_00/output/C++/opencv~opencv/modules/calib3d/src/usac/utils.cpp|opencv|opencv|utils.cpp|C++|658|111|63
 ./src/_00/output/C++/opencv~opencv/modules/core/src/parallel_impl.cpp|opencv|opencv|parallel_impl.cpp|C++|658|24|76
@@ -642,12 +644,12 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/3rdparty/protobuf/src/google/protobuf/io/tokenizer.cc|opencv|opencv|tokenizer.cc|C++|603|450|132
 ./src/_00/output/C++/opencv~opencv/modules/calib3d/src/usac/degeneracy.cpp|opencv|opencv|degeneracy.cpp|C++|601|69|25
 ./src/_00/output/C++/opencv~opencv/modules/dnn/src/layers/cpu_kernels/conv_block.simd.hpp|opencv|opencv|conv_block.simd.hpp|C/C++ Header|601|5|118
+./src/_00/output/C++/opencv~opencv/modules/js/src/core_bindings.cpp|opencv|opencv|core_bindings.cpp|C++|601|69|104
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg-turbo/src/simd/i386/jidctint-sse2.asm|opencv|opencv|jidctint-sse2.asm|Assembly|599|112|147
 ./src/_00/output/C++/opencv~opencv/3rdparty/openexr/IlmImf/ImfB44Compressor.cpp|opencv|opencv|ImfB44Compressor.cpp|C++|599|279|194
 ./src/_00/output/C++/opencv~opencv/3rdparty/libwebp/src/dsp/lossless_sse2.c|opencv|opencv|lossless_sse2.c|C|598|63|51
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/src/corner.cpp|opencv|opencv|corner.cpp|C++|598|52|130
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg-turbo/src/simd/i386/jidctint-mmx.asm|opencv|opencv|jidctint-mmx.asm|Assembly|597|111|143
-./src/_00/output/C++/opencv~opencv/modules/js/src/core_bindings.cpp|opencv|opencv|core_bindings.cpp|C++|597|69|118
 ./src/_00/output/C++/opencv~opencv/3rdparty/openexr/Imath/ImathBoxAlgo.h|opencv|opencv|ImathBoxAlgo.h|C/C++ Header|596|246|174
 ./src/_00/output/C++/opencv~opencv/3rdparty/openjpeg/openjp2/openjpeg.h|opencv|opencv|openjpeg.h|C/C++ Header|596|1007|176
 ./src/_00/output/C++/opencv~opencv/apps/traincascade/old_ml_data.cpp|opencv|opencv|old_ml_data.cpp|C++|596|45|151
@@ -695,6 +697,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/core/src/hal_internal.cpp|opencv|opencv|hal_internal.cpp|C++|568|51|82
 ./src/_00/output/C++/opencv~opencv/modules/calib3d/src/stereo_geom.cpp|opencv|opencv|stereo_geom.cpp|C++|567|33|113
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/src/opencl/color_lab.cl|opencv|opencv|color_lab.cl|OpenCL|567|55|113
+./src/_00/output/C++/opencv~opencv/modules/python/src2/typing_stubs_generation/nodes/type_node.py|opencv|opencv|type_node.py|Python|567|242|151
 ./src/_00/output/C++/opencv~opencv/modules/videoio/src/cap_dc1394_v2.cpp|opencv|opencv|cap_dc1394_v2.cpp|C++|565|68|73
 ./src/_00/output/C++/opencv~opencv/modules/gapi/include/opencv2/gapi/core.hpp|opencv|opencv|core.hpp|C/C++ Header|564|944|403
 ./src/_00/output/C++/opencv~opencv/3rdparty/zlib-ng/arch/power/crc32_constants.h|opencv|opencv|crc32_constants.h|C/C++ Header|563|554|6
@@ -719,6 +722,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/gapi/samples/onevpl_infer_with_advanced_device_selection.cpp|opencv|opencv|onevpl_infer_with_advanced_device_selection.cpp|C++|545|79|80
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg-turbo/src/jccolor.c|opencv|opencv|jccolor.c|C|544|116|72
 ./src/_00/output/C++/opencv~opencv/modules/dnn/src/layers/prior_box_layer.cpp|opencv|opencv|prior_box_layer.cpp|C++|541|54|85
+./src/_00/output/C++/opencv~opencv/modules/videoio/src/cap_ffmpeg.cpp|opencv|opencv|cap_ffmpeg.cpp|C++|541|47|63
 ./src/_00/output/C++/opencv~opencv/3rdparty/carotene/src/sub.cpp|opencv|opencv|sub.cpp|C++|540|38|43
 ./src/_00/output/C++/opencv~opencv/modules/core/src/opencl/reduce.cl|opencv|opencv|reduce.cl|OpenCL|540|45|36
 ./src/_00/output/C++/opencv~opencv/modules/core/test/test_logtagmanager.cpp|opencv|opencv|test_logtagmanager.cpp|C++|540|62|66
@@ -731,17 +735,16 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/3rdparty/protobuf/src/google/protobuf/map_field.cc|opencv|opencv|map_field.cc|C++|532|67|48
 ./src/_00/output/C++/opencv~opencv/3rdparty/libtiff/tif_open.c|opencv|opencv|tif_open.c|C|531|224|53
 ./src/_00/output/C++/opencv~opencv/modules/objdetect/src/cascadedetect.hpp|opencv|opencv|cascadedetect.hpp|C/C++ Header|530|3|123
-./src/_00/output/C++/opencv~opencv/modules/videoio/src/cap_ffmpeg.cpp|opencv|opencv|cap_ffmpeg.cpp|C++|530|47|63
+./src/_00/output/C++/opencv~opencv/modules/videoio/include/opencv2/videoio.hpp|opencv|opencv|videoio.hpp|C/C++ Header|530|465|203
 ./src/_00/output/C++/opencv~opencv/modules/core/src/utils/filesystem.cpp|opencv|opencv|filesystem.cpp|C++|529|10|55
-./src/_00/output/C++/opencv~opencv/modules/python/src2/typing_stubs_generation/nodes/type_node.py|opencv|opencv|type_node.py|Python|529|242|148
-./src/_00/output/C++/opencv~opencv/modules/videoio/include/opencv2/videoio.hpp|opencv|opencv|videoio.hpp|C/C++ Header|528|460|198
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg-turbo/src/simd/i386/jcphuff-sse2.asm|opencv|opencv|jcphuff-sse2.asm|Assembly|526|57|79
 ./src/_00/output/C++/opencv~opencv/3rdparty/openexr/Imath/ImathFrustum.h|opencv|opencv|ImathFrustum.h|C/C++ Header|526|100|115
 ./src/_00/output/C++/opencv~opencv/modules/core/include/opencv2/core/ocl.hpp|opencv|opencv|ocl.hpp|C/C++ Header|526|253|144
 ./src/_00/output/C++/opencv~opencv/samples/winrt/ImageManipulations/AdvancedCapture.xaml.cpp|opencv|opencv|AdvancedCapture.xaml.cpp|C++|526|23|64
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/src/accum.cpp|opencv|opencv|accum.cpp|C++|525|48|112
+./src/_00/output/C++/opencv~opencv/modules/js/test/test_imgproc.js|opencv|opencv|test_imgproc.js|JavaScript|525|119|137
 ./src/_00/output/C++/opencv~opencv/3rdparty/openexr/IlmThread/IlmThreadPool.cpp|opencv|opencv|IlmThreadPool.cpp|C++|524|183|144
-./src/_00/output/C++/opencv~opencv/modules/core/include/opencv2/core.hpp|opencv|opencv|core.hpp|C/C++ Header|524|2394|505
+./src/_00/output/C++/opencv~opencv/modules/core/include/opencv2/core.hpp|opencv|opencv|core.hpp|C/C++ Header|524|2391|504
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg-turbo/src/simd/i386/jdsample-avx2.asm|opencv|opencv|jdsample-avx2.asm|Assembly|523|87|150
 ./src/_00/output/C++/opencv~opencv/3rdparty/libtiff/tif_zip.c|opencv|opencv|tif_zip.c|C|523|119|89
 ./src/_00/output/C++/opencv~opencv/modules/dnn/src/layers/layers_common.simd.hpp|opencv|opencv|layers_common.simd.hpp|C/C++ Header|523|51|85
@@ -767,12 +770,12 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/dnn/src/cuda4dnn/primitives/activation.hpp|opencv|opencv|activation.hpp|C/C++ Header|510|3|136
 ./src/_00/output/C++/opencv~opencv/modules/core/include/opencv2/core/cuda/border_interpolate.hpp|opencv|opencv|border_interpolate.hpp|C/C++ Header|509|60|153
 ./src/_00/output/C++/opencv~opencv/modules/dnn/test/test_onnx_conformance_layer_parser_denylist.inl.hpp|opencv|opencv|test_onnx_conformance_layer_parser_denylist.inl.hpp|C/C++ Header|509|2|0
-./src/_00/output/C++/opencv~opencv/modules/features2d/test/test_matchers_algorithmic.cpp|opencv|opencv|test_matchers_algorithmic.cpp|C++|509|69|57
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg/jdarith.c|opencv|opencv|jdarith.c|C|508|184|104
 ./src/_00/output/C++/opencv~opencv/modules/imgcodecs/src/grfmt_jpeg2000.cpp|opencv|opencv|grfmt_jpeg2000.cpp|C++|508|50|85
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg-turbo/src/rdbmp.c|opencv|opencv|rdbmp.c|C|507|100|82
 ./src/_00/output/C++/opencv~opencv/doc/tutorials/introduction/building_tegra_cuda/building_tegra_cuda.markdown|opencv|opencv|building_tegra_cuda.markdown|Markdown|507|0|148
 ./src/_00/output/C++/opencv~opencv/modules/core/include/opencv2/core/hal/intrin_math.hpp|opencv|opencv|intrin_math.hpp|C/C++ Header|507|61|119
+./src/_00/output/C++/opencv~opencv/modules/features2d/test/test_matchers_algorithmic.cpp|opencv|opencv|test_matchers_algorithmic.cpp|C++|507|69|56
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg-turbo/src/simd/i386/jdsample-mmx.asm|opencv|opencv|jdsample-mmx.asm|Assembly|506|85|140
 ./src/_00/output/C++/opencv~opencv/3rdparty/openexr/IlmImf/ImfMultiPartInputFile.cpp|opencv|opencv|ImfMultiPartInputFile.cpp|C++|506|130|147
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/test/test_thresh.cpp|opencv|opencv|test_thresh.cpp|C++|506|41|51
@@ -805,6 +808,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/gapi/test/gapi_fluid_test_kernels.cpp|opencv|opencv|gapi_fluid_test_kernels.cpp|C++|492|51|84
 ./src/_00/output/C++/opencv~opencv/modules/ts/src/ts_tags.cpp|opencv|opencv|ts_tags.cpp|C++|492|13|36
 ./src/_00/output/C++/opencv~opencv/modules/videoio/src/wrl.h|opencv|opencv|wrl.h|C/C++ Header|492|13|60
+./src/_00/output/C++/opencv~opencv/3rdparty/fastcv/src/fastcv_hal_core.cpp|opencv|opencv|fastcv_hal_core.cpp|C++|490|7|77
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg-turbo/src/jquant1.c|opencv|opencv|jquant1.c|C|490|268|106
 ./src/_00/output/C++/opencv~opencv/3rdparty/libwebp/src/mux/muxedit.c|opencv|opencv|muxedit.c|C|490|81|88
 ./src/_00/output/C++/opencv~opencv/modules/video/src/tracking/detail/tracking_feature.cpp|opencv|opencv|tracking_feature.cpp|C++|490|39|53
@@ -910,8 +914,8 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/3rdparty/openexr/IlmImf/dwaLookups.cpp|opencv|opencv|dwaLookups.cpp|C++|435|107|108
 ./src/_00/output/C++/opencv~opencv/modules/features2d/src/sift.dispatch.cpp|opencv|opencv|sift.dispatch.cpp|C++|435|93|94
 ./src/_00/output/C++/opencv~opencv/modules/videoio/src/cap_obsensor/obsensor_stream_channel_msmf.cpp|opencv|opencv|obsensor_stream_channel_msmf.cpp|C++|435|21|55
+./src/_00/output/C++/opencv~opencv/modules/gapi/test/gapi_sample_pipelines.cpp|opencv|opencv|gapi_sample_pipelines.cpp|C++|434|33|109
 ./src/_00/output/C++/opencv~opencv/modules/gapi/test/cpu/gapi_core_tests_cpu.cpp|opencv|opencv|gapi_core_tests_cpu.cpp|C++|433|8|69
-./src/_00/output/C++/opencv~opencv/modules/gapi/test/gapi_sample_pipelines.cpp|opencv|opencv|gapi_sample_pipelines.cpp|C++|433|33|109
 ./src/_00/output/C++/opencv~opencv/3rdparty/protobuf/src/google/protobuf/stubs/strutil.h|opencv|opencv|strutil.h|C/C++ Header|432|410|108
 ./src/_00/output/C++/opencv~opencv/modules/dnn/src/layers/concat_layer.cpp|opencv|opencv|concat_layer.cpp|C++|432|52|68
 ./src/_00/output/C++/opencv~opencv/modules/dnn/src/ocl4dnn/include/default_kernel_config.hpp|opencv|opencv|default_kernel_config.hpp|C/C++ Header|432|735|15
@@ -932,6 +936,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/3rdparty/openexr/Imath/ImathShear.h|opencv|opencv|ImathShear.h|C/C++ Header|427|114|115
 ./src/_00/output/C++/opencv~opencv/modules/video/src/opencl/pyrlk.cl|opencv|opencv|pyrlk.cl|OpenCL|427|53|78
 ./src/_00/output/C++/opencv~opencv/3rdparty/include/vulkan/vulkan_beta.h|opencv|opencv|vulkan_beta.h|C/C++ Header|425|9|58
+./src/_00/output/C++/opencv~opencv/modules/imgproc/test/test_contours.cpp|opencv|opencv|test_contours.cpp|C++|424|51|122
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/test/test_floodfill.cpp|opencv|opencv|test_floodfill.cpp|C++|424|45|76
 ./src/_00/output/C++/opencv~opencv/modules/videoio/src/cap_aravis.cpp|opencv|opencv|cap_aravis.cpp|C++|423|101|90
 ./src/_00/output/C++/opencv~opencv/modules/photo/src/npr.hpp|opencv|opencv|npr.hpp|C/C++ Header|422|46|123
@@ -957,7 +962,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg-turbo/src/simd/i386/jfdctint-sse2.asm|opencv|opencv|jfdctint-sse2.asm|Assembly|411|118|104
 ./src/_00/output/C++/opencv~opencv/3rdparty/openexr/IlmImf/ImfAcesFile.cpp|opencv|opencv|ImfAcesFile.cpp|C++|410|72|151
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg-turbo/src/jpegint.h|opencv|opencv|jpegint.h|C/C++ Header|409|114|68
-./src/_00/output/C++/opencv~opencv/modules/core/include/opencv2/core/cuda.hpp|opencv|opencv|cuda.hpp|C/C++ Header|409|604|325
+./src/_00/output/C++/opencv~opencv/modules/core/include/opencv2/core/cuda.hpp|opencv|opencv|cuda.hpp|C/C++ Header|409|605|325
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg-turbo/src/simd/x86_64/jfdctint-sse2.asm|opencv|opencv|jfdctint-sse2.asm|Assembly|408|111|102
 ./src/_00/output/C++/opencv~opencv/3rdparty/protobuf/src/google/protobuf/stubs/callback.h|opencv|opencv|callback.h|C/C++ Header|408|83|92
 ./src/_00/output/C++/opencv~opencv/modules/gapi/src/compiler/gcompiler.cpp|opencv|opencv|gcompiler.cpp|C++|408|82|79
@@ -983,6 +988,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/3rdparty/libwebp/src/dsp/rescaler_msa.c|opencv|opencv|rescaler_msa.c|C|401|15|27
 ./src/_00/output/C++/opencv~opencv/modules/dnn/misc/python/test/test_dnn.py|opencv|opencv|test_dnn.py|Python|401|49|99
 ./src/_00/output/C++/opencv~opencv/modules/dnn/src/int8layers/fully_connected_layer.cpp|opencv|opencv|fully_connected_layer.cpp|C++|401|17|75
+./src/_00/output/C++/opencv~opencv/modules/imgcodecs/src/grfmt_webp.cpp|opencv|opencv|grfmt_webp.cpp|C++|401|46|74
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/test/test_fitellipse_ams.cpp|opencv|opencv|test_fitellipse_ams.cpp|C++|401|5|34
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/test/test_fitellipse_direct.cpp|opencv|opencv|test_fitellipse_direct.cpp|C++|401|5|34
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg-turbo/src/jdphuff.c|opencv|opencv|jdphuff.c|C|400|178|103
@@ -994,6 +1000,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/core/src/utils/datafile.cpp|opencv|opencv|datafile.cpp|C++|399|11|38
 ./src/_00/output/C++/opencv~opencv/modules/dnn/src/layers/depth_space_ops_layer.cpp|opencv|opencv|depth_space_ops_layer.cpp|C++|399|10|83
 ./src/_00/output/C++/opencv~opencv/modules/gapi/test/streaming/gapi_gstreamersource_tests.cpp|opencv|opencv|gapi_gstreamersource_tests.cpp|C++|399|39|125
+./src/_00/output/C++/opencv~opencv/modules/imgproc/src/color_yuv.dispatch.cpp|opencv|opencv|color_yuv.dispatch.cpp|C++|399|56|102
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/src/segmentation.cpp|opencv|opencv|segmentation.cpp|C++|399|88|80
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg-turbo/src/simd/i386/jccolext-avx2.asm|opencv|opencv|jccolext-avx2.asm|Assembly|398|94|86
 ./src/_00/output/C++/opencv~opencv/modules/ml/src/knearest.cpp|opencv|opencv|knearest.cpp|C++|398|47|76
@@ -1019,17 +1026,15 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/photo/src/fast_nlmeans_denoising_invoker_commons.hpp|opencv|opencv|fast_nlmeans_denoising_invoker_commons.hpp|C/C++ Header|391|41|57
 ./src/_00/output/C++/opencv~opencv/3rdparty/carotene/src/opticalflow.cpp|opencv|opencv|opticalflow.cpp|C++|390|42|78
 ./src/_00/output/C++/opencv~opencv/modules/calib3d/test/test_usac.cpp|opencv|opencv|test_usac.cpp|C++|390|69|56
-./src/_00/output/C++/opencv~opencv/modules/imgproc/test/test_contours.cpp|opencv|opencv|test_contours.cpp|C++|390|51|117
 ./src/_00/output/C++/opencv~opencv/3rdparty/openexr/IlmImf/ImfCompositeDeepScanLine.cpp|opencv|opencv|ImfCompositeDeepScanLine.cpp|C++|389|80|122
 ./src/_00/output/C++/opencv~opencv/modules/dnn/test/test_ie_models.cpp|opencv|opencv|test_ie_models.cpp|C++|389|25|59
 ./src/_00/output/C++/opencv~opencv/modules/gapi/test/gapi_async_test.cpp|opencv|opencv|gapi_async_test.cpp|C++|389|31|105
 ./src/_00/output/C++/opencv~opencv/modules/dnn/src/layers/cpu_kernels/conv_depthwise.cpp|opencv|opencv|conv_depthwise.cpp|C++|388|15|56
-./src/_00/output/C++/opencv~opencv/modules/imgproc/src/color_yuv.dispatch.cpp|opencv|opencv|color_yuv.dispatch.cpp|C++|388|53|99
+./src/_00/output/C++/opencv~opencv/modules/python/src2/typing_stubs_generation/generation.py|opencv|opencv|generation.py|Python|388|314|139
 ./src/_00/output/C++/opencv~opencv/modules/dnn/src/dnn_utils.cpp|opencv|opencv|dnn_utils.cpp|C++|387|8|52
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg-turbo/src/simd/x86_64/jdmrgext-avx2.asm|opencv|opencv|jdmrgext-avx2.asm|Assembly|386|130|82
 ./src/_00/output/C++/opencv~opencv/3rdparty/openexr/IlmImf/ImfHeader.h|opencv|opencv|ImfHeader.h|C/C++ Header|385|226|174
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg-turbo/src/simd/i386/jidctred-sse2.asm|opencv|opencv|jidctred-sse2.asm|Assembly|384|91|117
-./src/_00/output/C++/opencv~opencv/modules/python/src2/typing_stubs_generation/generation.py|opencv|opencv|generation.py|Python|384|312|137
 ./src/_00/output/C++/opencv~opencv/3rdparty/ndsrvp/include/core.hpp|opencv|opencv|core.hpp|C/C++ Header|383|46|103
 ./src/_00/output/C++/opencv~opencv/3rdparty/zlib-ng/arch/power/crc32_power8.c|opencv|opencv|crc32_power8.c|C|383|87|119
 ./src/_00/output/C++/opencv~opencv/modules/core/src/channels.cpp|opencv|opencv|channels.cpp|C++|383|6|84
@@ -1128,6 +1133,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/videoio/src/cap_interface.hpp|opencv|opencv|cap_interface.hpp|C/C++ Header|348|9|67
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg-turbo/src/jcparam.c|opencv|opencv|jcparam.c|C|347|160|78
 ./src/_00/output/C++/opencv~opencv/3rdparty/openexr/IlmImf/ImfPxr24Compressor.cpp|opencv|opencv|ImfPxr24Compressor.cpp|C++|347|91|115
+./src/_00/output/C++/opencv~opencv/cmake/OpenCVFindLibsGrfmt.cmake|opencv|opencv|OpenCVFindLibsGrfmt.cmake|CMake|347|18|48
 ./src/_00/output/C++/opencv~opencv/modules/core/include/opencv2/core/cv_cpu_dispatch.h|opencv|opencv|cv_cpu_dispatch.h|C/C++ Header|347|13|35
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/src/fixedpoint.inl.hpp|opencv|opencv|fixedpoint.inl.hpp|C/C++ Header|347|6|25
 ./src/_00/output/C++/opencv~opencv/samples/winrt/ImageManipulations/MediaExtensions/Common/LinkList.h|opencv|opencv|LinkList.h|C/C++ Header|347|73|96
@@ -1148,7 +1154,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg-turbo/src/simd/x86_64/jidctflt-sse2.asm|opencv|opencv|jidctflt-sse2.asm|Assembly|342|50|90
 ./src/_00/output/C++/opencv~opencv/3rdparty/protobuf/src/google/protobuf/arena_impl.h|opencv|opencv|arena_impl.h|C/C++ Header|342|131|89
 ./src/_00/output/C++/opencv~opencv/modules/gapi/CMakeLists.txt|opencv|opencv|CMakeLists.txt|CMake|342|41|57
-./src/_00/output/C++/opencv~opencv/modules/videoio/src/cap_images.cpp|opencv|opencv|cap_images.cpp|C++|342|57|53
 ./src/_00/output/C++/opencv~opencv/samples/gpu/stereo_match.cpp|opencv|opencv|stereo_match.cpp|C++|342|4|36
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg-turbo/src/jdcol565.c|opencv|opencv|jdcol565.c|C|341|16|35
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg-turbo/src/simd/i386/jidctfst-sse2.asm|opencv|opencv|jidctfst-sse2.asm|Assembly|341|69|91
@@ -1174,6 +1179,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/gapi/src/compiler/passes/pattern_matching.cpp|opencv|opencv|pattern_matching.cpp|C++|335|147|98
 ./src/_00/output/C++/opencv~opencv/modules/gapi/test/internal/gapi_int_island_fusion_tests.cpp|opencv|opencv|gapi_int_island_fusion_tests.cpp|C++|335|132|121
 ./src/_00/output/C++/opencv~opencv/modules/imgcodecs/src/rgbe.cpp|opencv|opencv|rgbe.cpp|C++|335|95|47
+./src/_00/output/C++/opencv~opencv/modules/videoio/src/cap_images.cpp|opencv|opencv|cap_images.cpp|C++|335|57|53
 ./src/_00/output/C++/opencv~opencv/3rdparty/carotene/src/fill_minmaxloc.cpp|opencv|opencv|fill_minmaxloc.cpp|C++|334|38|70
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg-turbo/src/jclhuff.c|opencv|opencv|jclhuff.c|C|334|138|115
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg-turbo/src/simd/i386/jdcolext-sse2.asm|opencv|opencv|jdcolext-sse2.asm|Assembly|334|62|62
@@ -1187,13 +1193,13 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/core/include/opencv2/core/utils/trace.private.hpp|opencv|opencv|trace.private.hpp|C/C++ Header|332|8|81
 ./src/_00/output/C++/opencv~opencv/modules/core/src/hal_replacement.hpp|opencv|opencv|hal_replacement.hpp|C/C++ Header|332|621|98
 ./src/_00/output/C++/opencv~opencv/modules/core/src/lut.cpp|opencv|opencv|lut.cpp|C++|332|6|80
+./src/_00/output/C++/opencv~opencv/modules/imgcodecs/src/grfmt_avif.cpp|opencv|opencv|grfmt_avif.cpp|C++|332|8|60
 ./src/_00/output/C++/opencv~opencv/3rdparty/carotene/src/count_nonzero.cpp|opencv|opencv|count_nonzero.cpp|C++|331|38|61
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg-turbo/src/simd/x86_64/jidctfst-sse2.asm|opencv|opencv|jidctfst-sse2.asm|Assembly|330|71|90
 ./src/_00/output/C++/opencv~opencv/3rdparty/protobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc|opencv|opencv|zero_copy_stream_impl_lite.cc|C++|330|60|77
-./src/_00/output/C++/opencv~opencv/cmake/OpenCVFindLibsGrfmt.cmake|opencv|opencv|OpenCVFindLibsGrfmt.cmake|CMake|330|18|45
 ./src/_00/output/C++/opencv~opencv/modules/gapi/include/opencv2/gapi/s11n.hpp|opencv|opencv|s11n.hpp|C/C++ Header|329|112|72
+./src/_00/output/C++/opencv~opencv/modules/imgcodecs/test/test_gif.cpp|opencv|opencv|test_gif.cpp|C++|329|3|25
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/src/clahe.cpp|opencv|opencv|clahe.cpp|C++|329|49|88
-./src/_00/output/C++/opencv~opencv/modules/js/src/helpers.js|opencv|opencv|helpers.js|JavaScript|329|45|33
 ./src/_00/output/C++/opencv~opencv/modules/calib3d/src/ap3p.cpp|opencv|opencv|ap3p.cpp|C++|328|17|55
 ./src/_00/output/C++/opencv~opencv/samples/cpp/points_classifier.cpp|opencv|opencv|points_classifier.cpp|C++|328|7|64
 ./src/_00/output/C++/opencv~opencv/modules/flann/include/opencv2/flann/autotuned_index.h|opencv|opencv|autotuned_index.h|C/C++ Header|327|172|95
@@ -1211,13 +1217,13 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/core/src/ocl_disabled.impl.hpp|opencv|opencv|ocl_disabled.impl.hpp|C/C++ Header|322|10|108
 ./src/_00/output/C++/opencv~opencv/modules/dnn/src/op_cuda.hpp|opencv|opencv|op_cuda.hpp|C/C++ Header|322|113|96
 ./src/_00/output/C++/opencv~opencv/modules/gapi/include/opencv2/gapi/infer/onnx.hpp|opencv|opencv|onnx.hpp|C/C++ Header|322|290|147
-./src/_00/output/C++/opencv~opencv/modules/imgcodecs/src/grfmt_avif.cpp|opencv|opencv|grfmt_avif.cpp|C++|322|8|55
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/test/test_moments.cpp|opencv|opencv|test_moments.cpp|C++|322|45|76
 ./src/_00/output/C++/opencv~opencv/modules/videoio/src/cap_obsensor/obsensor_stream_channel_v4l2.cpp|opencv|opencv|obsensor_stream_channel_v4l2.cpp|C++|322|22|36
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjasper/jas_seq.c|opencv|opencv|jas_seq.c|C|321|82|51
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg-turbo/src/rdtarga.c|opencv|opencv|rdtarga.c|C|321|97|89
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg-turbo/src/simd/x86_64/jdcolext-avx2.asm|opencv|opencv|jdcolext-avx2.asm|Assembly|321|116|61
 ./src/_00/output/C++/opencv~opencv/modules/dnn/src/op_inf_engine.cpp|opencv|opencv|op_inf_engine.cpp|C++|321|14|49
+./src/_00/output/C++/opencv~opencv/modules/js/src/helpers.js|opencv|opencv|helpers.js|JavaScript|321|45|33
 ./src/_00/output/C++/opencv~opencv/3rdparty/libwebp/src/enc/iterator_enc.c|opencv|opencv|iterator_enc.c|C|320|86|53
 ./src/_00/output/C++/opencv~opencv/3rdparty/libwebp/src/utils/huffman_encode_utils.c|opencv|opencv|huffman_encode_utils.c|C|320|70|26
 ./src/_00/output/C++/opencv~opencv/modules/imgcodecs/src/grfmt_gdal.cpp|opencv|opencv|grfmt_gdal.cpp|C++|320|142|110
@@ -1228,6 +1234,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/core/src/convert_scale.simd.hpp|opencv|opencv|convert_scale.simd.hpp|C/C++ Header|319|9|36
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg-turbo/src/simd/mips64/jfdctint-mmi.c|opencv|opencv|jfdctint-mmi.c|C|318|63|17
 ./src/_00/output/C++/opencv~opencv/modules/core/src/out.cpp|opencv|opencv|out.cpp|C++|318|42|34
+./src/_00/output/C++/opencv~opencv/modules/photo/src/seamless_cloning_impl.cpp|opencv|opencv|seamless_cloning_impl.cpp|C++|318|47|91
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg-turbo/src/simd/i386/jidctflt-3dn.asm|opencv|opencv|jidctflt-3dn.asm|Assembly|317|47|87
 ./src/_00/output/C++/opencv~opencv/3rdparty/libwebp/src/dsp/rescaler_sse2.c|opencv|opencv|rescaler_sse2.c|C|317|23|26
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg-turbo/src/simd/x86_64/jdcolext-sse2.asm|opencv|opencv|jdcolext-sse2.asm|Assembly|316|65|60
@@ -1238,7 +1245,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/3rdparty/libwebp/src/utils/palette.c|opencv|opencv|palette.c|C|315|55|32
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/src/blend.cpp|opencv|opencv|blend.cpp|C++|315|44|45
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/test/test_distancetransform.cpp|opencv|opencv|test_distancetransform.cpp|C++|315|43|61
-./src/_00/output/C++/opencv~opencv/modules/photo/src/seamless_cloning_impl.cpp|opencv|opencv|seamless_cloning_impl.cpp|C++|315|47|91
 ./src/_00/output/C++/opencv~opencv/3rdparty/carotene/src/channels_combine.cpp|opencv|opencv|channels_combine.cpp|C++|314|39|36
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg/jcsample.c|opencv|opencv|jcsample.c|C|314|161|70
 ./src/_00/output/C++/opencv~opencv/modules/imgcodecs/src/grfmt_png.cpp|opencv|opencv|grfmt_png.cpp|C++|314|64|78
@@ -1274,6 +1280,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/core/include/opencv2/core/cuda/detail/reduce.hpp|opencv|opencv|reduce.hpp|C/C++ Header|305|43|46
 ./src/_00/output/C++/opencv~opencv/modules/gapi/test/gapi_desc_tests.cpp|opencv|opencv|gapi_desc_tests.cpp|C++|305|13|86
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/include/opencv2/imgproc/detail/gcgraph.hpp|opencv|opencv|gcgraph.hpp|C/C++ Header|305|55|35
+./src/_00/output/C++/opencv~opencv/platforms/js/build_js.py|opencv|opencv|build_js.py|Python|305|4|50
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg-turbo/src/rdswitch.c|opencv|opencv|rdswitch.c|C|304|82|42
 ./src/_00/output/C++/opencv~opencv/modules/core/perf/perf_math.cpp|opencv|opencv|perf_math.cpp|C++|304|8|78
 ./src/_00/output/C++/opencv~opencv/modules/dnn/perf/perf_gemm.cpp|opencv|opencv|perf_gemm.cpp|C++|304|48|63
@@ -1282,7 +1289,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/samples/cpp/tutorial_code/calib3d/real_time_pose_estimation/src/Utils.cpp|opencv|opencv|Utils.cpp|C++|304|42|48
 ./src/_00/output/C++/opencv~opencv/modules/core/src/arithm_ipp.hpp|opencv|opencv|arithm_ipp.hpp|C/C++ Header|303|50|64
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/test/test_pc.cpp|opencv|opencv|test_pc.cpp|C++|303|65|60
-./src/_00/output/C++/opencv~opencv/platforms/js/build_js.py|opencv|opencv|build_js.py|Python|303|4|50
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg-turbo/src/rdjpgcom.c|opencv|opencv|rdjpgcom.c|C|302|113|78
 ./src/_00/output/C++/opencv~opencv/modules/dnn/src/layers/gemm_layer.cpp|opencv|opencv|gemm_layer.cpp|C++|302|30|49
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/src/bilateral_filter.dispatch.cpp|opencv|opencv|bilateral_filter.dispatch.cpp|C++|302|57|73
@@ -1379,6 +1385,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/3rdparty/libtiff/tif_unix.c|opencv|opencv|tif_unix.c|C|282|39|49
 ./src/_00/output/C++/opencv~opencv/cmake/OpenCVPCHSupport.cmake|opencv|opencv|OpenCVPCHSupport.cmake|CMake|282|47|89
 ./src/_00/output/C++/opencv~opencv/modules/gapi/misc/python/python_bridge.hpp|opencv|opencv|python_bridge.hpp|C/C++ Header|282|8|63
+./src/_00/output/C++/opencv~opencv/modules/js/test/test_core.js|opencv|opencv|test_core.js|JavaScript|282|34|92
 ./src/_00/output/C++/opencv~opencv/modules/video/src/tracking/detail/tracking_online_mil.cpp|opencv|opencv|tracking_online_mil.cpp|C++|282|31|43
 ./src/_00/output/C++/opencv~opencv/3rdparty/carotene/src/fast.cpp|opencv|opencv|fast.cpp|C++|281|77|70
 ./src/_00/output/C++/opencv~opencv/3rdparty/ittnotify/src/ittnotify/ittnotify_static.h|opencv|opencv|ittnotify_static.h|C/C++ Header|281|50|58
@@ -1474,12 +1481,12 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/3rdparty/include/vulkan/vulkan_win32.h|opencv|opencv|vulkan_win32.h|C/C++ Header|264|9|60
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg-turbo/src/simd/powerpc/jidctint-altivec.c|opencv|opencv|jidctint-altivec.c|C|264|59|34
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg-turbo/src/simd/x86_64/jfdctfst-sse2.asm|opencv|opencv|jfdctfst-sse2.asm|Assembly|264|51|76
+./src/_00/output/C++/opencv~opencv/modules/highgui/CMakeLists.txt|opencv|opencv|CMakeLists.txt|CMake|264|20|49
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/src/opencl/filter2DSmall.cl|opencv|opencv|filter2DSmall.cl|OpenCL|264|51|31
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg-turbo/src/simd/i386/jidctint-avx2.asm|opencv|opencv|jidctint-avx2.asm|Assembly|263|114|76
 ./src/_00/output/C++/opencv~opencv/3rdparty/protobuf/src/google/protobuf/field_mask.pb.h|opencv|opencv|field_mask.pb.h|C/C++ Header|263|29|32
 ./src/_00/output/C++/opencv~opencv/modules/core/src/convert.simd.hpp|opencv|opencv|convert.simd.hpp|C/C++ Header|263|101|58
 ./src/_00/output/C++/opencv~opencv/modules/flann/include/opencv2/flann/any.h|opencv|opencv|any.h|C/C++ Header|263|36|56
-./src/_00/output/C++/opencv~opencv/modules/highgui/CMakeLists.txt|opencv|opencv|CMakeLists.txt|CMake|263|20|49
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/test/test_smooth_bitexact.cpp|opencv|opencv|test_smooth_bitexact.cpp|C++|263|10|36
 ./src/_00/output/C++/opencv~opencv/modules/video/src/tracking/tracker_nano.cpp|opencv|opencv|tracker_nano.cpp|C++|263|21|75
 ./src/_00/output/C++/opencv~opencv/cmake/OpenCVDetectPython.cmake|opencv|opencv|OpenCVDetectPython.cmake|CMake|262|39|22
@@ -1530,6 +1537,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/core/src/bindings_utils.cpp|opencv|opencv|bindings_utils.cpp|C++|253|3|16
 ./src/_00/output/C++/opencv~opencv/modules/dnn/src/vkcom/shader/conv_depthwise_3x3_spv.cpp|opencv|opencv|conv_depthwise_3x3_spv.cpp|C++|253|3|4
 ./src/_00/output/C++/opencv~opencv/modules/gapi/test/opencl_kernels_test_gapi.hpp|opencv|opencv|opencl_kernels_test_gapi.hpp|C/C++ Header|253|5|2
+./src/_00/output/C++/opencv~opencv/modules/videoio/test/test_images.cpp|opencv|opencv|test_images.cpp|C++|253|31|25
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg-turbo/src/simd/arm/jfdctint-neon.c|opencv|opencv|jfdctint-neon.c|C|252|76|48
 ./src/_00/output/C++/opencv~opencv/3rdparty/libtiff/tif_strip.c|opencv|opencv|tif_strip.c|C|252|83|15
 ./src/_00/output/C++/opencv~opencv/modules/gapi/test/gapi_opaque_tests.cpp|opencv|opencv|gapi_opaque_tests.cpp|C++|252|9|67
@@ -1561,9 +1569,9 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/photo/src/fast_nlmeans_multi_denoising_invoker.hpp|opencv|opencv|fast_nlmeans_multi_denoising_invoker.hpp|C/C++ Header|247|48|65
 ./src/_00/output/C++/opencv~opencv/samples/cpp/videocapture_openni.cpp|opencv|opencv|videocapture_openni.cpp|C++|247|7|28
 ./src/_00/output/C++/opencv~opencv/modules/python/src2/typing_stubs_generation/ast_utils.py|opencv|opencv|ast_utils.py|Python|246|118|72
+./src/_00/output/C++/opencv~opencv/modules/python/src2/typing_stubs_generation/predefined_types.py|opencv|opencv|predefined_types.py|Python|246|16|5
 ./src/_00/output/C++/opencv~opencv/modules/stitching/perf/perf_matchers.cpp|opencv|opencv|perf_matchers.cpp|C++|246|4|43
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg-turbo/src/jidctred.c|opencv|opencv|jidctred.c|C|245|83|81
-./src/_00/output/C++/opencv~opencv/modules/imgcodecs/src/grfmt_webp.cpp|opencv|opencv|grfmt_webp.cpp|C++|245|43|48
 ./src/_00/output/C++/opencv~opencv/doc/CMakeLists.txt|opencv|opencv|CMakeLists.txt|CMake|244|38|33
 ./src/_00/output/C++/opencv~opencv/doc/tutorials/dnn/dnn_pytorch_tf_segmentation/pytorch_sem_segm_model_conversion_tutorial.md|opencv|opencv|pytorch_sem_segm_model_conversion_tutorial.md|Markdown|244|0|88
 ./src/_00/output/C++/opencv~opencv/modules/gapi/include/opencv2/gapi/garray.hpp|opencv|opencv|garray.hpp|C/C++ Header|244|135|61
@@ -1587,7 +1595,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/gapi/src/3rdparty/vasot/src/components/ot/mtt/hungarian_wrap.cpp|opencv|opencv|hungarian_wrap.cpp|C++|241|29|55
 ./src/_00/output/C++/opencv~opencv/modules/objdetect/src/barcode_decoder/upcean_decoder.cpp|opencv|opencv|upcean_decoder.cpp|C++|241|27|22
 ./src/_00/output/C++/opencv~opencv/modules/photo/src/opencl/nlmeans.cl|opencv|opencv|nlmeans.cl|OpenCL|241|7|54
-./src/_00/output/C++/opencv~opencv/modules/videoio/test/test_images.cpp|opencv|opencv|test_images.cpp|C++|241|31|22
 ./src/_00/output/C++/opencv~opencv/3rdparty/carotene/src/convolution.cpp|opencv|opencv|convolution.cpp|C++|240|50|50
 ./src/_00/output/C++/opencv~opencv/modules/gapi/samples/pipeline_modeling_tool/test_pipeline_modeling_tool.py|opencv|opencv|test_pipeline_modeling_tool.py|Python|240|606|157
 ./src/_00/output/C++/opencv~opencv/3rdparty/libwebp/src/utils/bit_reader_utils.c|opencv|opencv|bit_reader_utils.c|C|239|27|33
@@ -1610,6 +1617,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/core/perf/perf_norm.cpp|opencv|opencv|perf_norm.cpp|C++|236|0|69
 ./src/_00/output/C++/opencv~opencv/modules/gapi/src/streaming/gstreamer/gstreamer_pipeline_facade.cpp|opencv|opencv|gstreamer_pipeline_facade.cpp|C++|236|28|50
 ./src/_00/output/C++/opencv~opencv/modules/core/src/opencl/runtime/generator/common.py|opencv|opencv|common.py|Python|235|8|31
+./src/_00/output/C++/opencv~opencv/modules/imgproc/perf/perf_blur.cpp|opencv|opencv|perf_blur.cpp|C++|235|5|74
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg-turbo/src/simd/x86_64/jidctint-avx2.asm|opencv|opencv|jidctint-avx2.asm|Assembly|234|113|71
 ./src/_00/output/C++/opencv~opencv/3rdparty/zlib-ng/arch/s390/dfltcc_deflate.c|opencv|opencv|dfltcc_deflate.c|C|234|97|52
 ./src/_00/output/C++/opencv~opencv/modules/core/src/opencl/runtime/autogenerated/opencl_clfft_impl.hpp|opencv|opencv|opencl_clfft_impl.hpp|C/C++ Header|234|93|37
@@ -1666,7 +1674,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/doc/tutorials/imgproc/histograms/back_projection/back_projection.markdown|opencv|opencv|back_projection.markdown|Markdown|227|0|69
 ./src/_00/output/C++/opencv~opencv/modules/calib3d/test/test_chessboardgenerator.cpp|opencv|opencv|test_chessboardgenerator.cpp|C++|227|45|59
 ./src/_00/output/C++/opencv~opencv/modules/gapi/test/internal/gapi_int_executor_tests.cpp|opencv|opencv|gapi_int_executor_tests.cpp|C++|227|45|52
-./src/_00/output/C++/opencv~opencv/modules/imgproc/perf/perf_blur.cpp|opencv|opencv|perf_blur.cpp|C++|227|5|72
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/src/opencl/resize.cl|opencv|opencv|resize.cl|OpenCL|227|45|56
 ./src/_00/output/C++/opencv~opencv/modules/videoio/src/ffmpeg_codecs.hpp|opencv|opencv|ffmpeg_codecs.hpp|C/C++ Header|227|51|23
 ./src/_00/output/C++/opencv~opencv/doc/tutorials/imgproc/histograms/template_matching/template_matching.markdown|opencv|opencv|template_matching.markdown|Markdown|226|0|101
@@ -1682,13 +1689,14 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/calib3d/src/usac/termination.cpp|opencv|opencv|termination.cpp|C++|224|99|35
 ./src/_00/output/C++/opencv~opencv/modules/core/include/opencv2/core/cuda/vec_traits.hpp|opencv|opencv|vec_traits.hpp|C/C++ Header|224|46|18
 ./src/_00/output/C++/opencv~opencv/modules/gapi/test/gpu/gapi_imgproc_tests_gpu.cpp|opencv|opencv|gapi_imgproc_tests_gpu.cpp|C++|224|5|35
-./src/_00/output/C++/opencv~opencv/modules/python/src2/typing_stubs_generation/predefined_types.py|opencv|opencv|predefined_types.py|Python|224|13|2
+./src/_00/output/C++/opencv~opencv/modules/imgcodecs/test/test_webp.cpp|opencv|opencv|test_webp.cpp|C++|224|49|73
 ./src/_00/output/C++/opencv~opencv/modules/ts/src/cuda_perf.cpp|opencv|opencv|cuda_perf.cpp|C++|224|44|53
 ./src/_00/output/C++/opencv~opencv/modules/video/perf/perf_optflowpyrlk.cpp|opencv|opencv|perf_optflowpyrlk.cpp|C++|224|0|45
 ./src/_00/output/C++/opencv~opencv/modules/video/src/opencl/bgfg_mog2.cl|opencv|opencv|bgfg_mog2.cl|OpenCL|224|0|58
 ./src/_00/output/C++/opencv~opencv/samples/dnn/tf_text_graph_faster_rcnn.py|opencv|opencv|tf_text_graph_faster_rcnn.py|Python|224|14|61
 ./src/_00/output/C++/opencv~opencv/3rdparty/openexr/IlmImf/ImfChannelList.h|opencv|opencv|ImfChannelList.h|C/C++ Header|223|150|104
 ./src/_00/output/C++/opencv~opencv/doc/tutorials/imgproc/histograms/histogram_calculation/histogram_calculation.markdown|opencv|opencv|histogram_calculation.markdown|Markdown|223|0|74
+./src/_00/output/C++/opencv~opencv/platforms/js/opencv_js.config.py|opencv|opencv|opencv_js.config.py|Python|223|5|11
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg-turbo/src/simd/mips64/jdsample-mmi.c|opencv|opencv|jdsample-mmi.c|C|222|42|40
 ./src/_00/output/C++/opencv~opencv/3rdparty/protobuf/src/google/protobuf/wire_format.h|opencv|opencv|wire_format.h|C/C++ Header|222|139|53
 ./src/_00/output/C++/opencv~opencv/3rdparty/zlib-ng/arch/s390/README.md|opencv|opencv|README.md|Markdown|222|0|55
@@ -1731,8 +1739,10 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/src/opencl/pyr_down.cl|opencv|opencv|pyr_down.cl|OpenCL|215|48|24
 ./src/_00/output/C++/opencv~opencv/modules/photo/src/fast_nlmeans_denoising_invoker.hpp|opencv|opencv|fast_nlmeans_denoising_invoker.hpp|C/C++ Header|215|52|54
 ./src/_00/output/C++/opencv~opencv/samples/java/tutorial_code/ImgProc/threshold_inRange/ThresholdInRange.java|opencv|opencv|ThresholdInRange.java|Java|215|22|22
+./src/_00/output/C++/opencv~opencv/3rdparty/hal_rvv/hal_rvv_1p0/mean.hpp|opencv|opencv|mean.hpp|C/C++ Header|214|4|10
 ./src/_00/output/C++/opencv~opencv/3rdparty/zlib/zutil.c|opencv|opencv|zutil.c|C|214|36|49
 ./src/_00/output/C++/opencv~opencv/modules/gapi/src/api/render_ocv.cpp|opencv|opencv|render_ocv.cpp|C++|214|5|44
+./src/_00/output/C++/opencv~opencv/modules/imgcodecs/include/opencv2/imgcodecs.hpp|opencv|opencv|imgcodecs.hpp|C/C++ Header|214|292|89
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/misc/java/src/java/imgproc+Moments.java|opencv|opencv|imgproc+Moments.java|Java|214|8|20
 ./src/_00/output/C++/opencv~opencv/doc/js_tutorials/js_core/js_basic_ops/js_basic_ops.markdown|opencv|opencv|js_basic_ops.markdown|Markdown|213|0|53
 ./src/_00/output/C++/opencv~opencv/modules/photo/src/calibrate.cpp|opencv|opencv|calibrate.cpp|C++|213|57|41
@@ -1742,6 +1752,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/core/src/sum.dispatch.cpp|opencv|opencv|sum.dispatch.cpp|C++|212|3|35
 ./src/_00/output/C++/opencv~opencv/modules/dnn/test/imagenet_cls_test_alexnet.py|opencv|opencv|imagenet_cls_test_alexnet.py|Python|212|0|50
 ./src/_00/output/C++/opencv~opencv/modules/dnn/test/pascal_semsegm_test_fcn.py|opencv|opencv|pascal_semsegm_test_fcn.py|Python|212|1|42
+./src/_00/output/C++/opencv~opencv/modules/imgproc/include/opencv2/imgproc/hal/hal.hpp|opencv|opencv|hal.hpp|C/C++ Header|212|9|48
 ./src/_00/output/C++/opencv~opencv/modules/stitching/src/opencl/multibandblend.cl|opencv|opencv|multibandblend.cl|OpenCL|212|52|34
 ./src/_00/output/C++/opencv~opencv/modules/videoio/src/cap_mfx_common.cpp|opencv|opencv|cap_mfx_common.cpp|C++|212|11|39
 ./src/_00/output/C++/opencv~opencv/samples/cpp/intelligent_scissors.cpp|opencv|opencv|intelligent_scissors.cpp|C++|212|1|22
@@ -1815,7 +1826,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/doc/tutorials/dnn/dnn_yolo/dnn_yolo.markdown|opencv|opencv|dnn_yolo.markdown|Markdown|202|0|65
 ./src/_00/output/C++/opencv~opencv/modules/core/include/opencv2/core/cuda/emulation.hpp|opencv|opencv|emulation.hpp|C/C++ Header|202|47|20
 ./src/_00/output/C++/opencv~opencv/modules/features2d/misc/java/test/BruteForceSL2DescriptorMatcherTest.java|opencv|opencv|BruteForceSL2DescriptorMatcherTest.java|Java|202|8|70
-./src/_00/output/C++/opencv~opencv/modules/imgproc/include/opencv2/imgproc/hal/hal.hpp|opencv|opencv|hal.hpp|C/C++ Header|202|9|48
 ./src/_00/output/C++/opencv~opencv/3rdparty/zlib-ng/match_tpl.h|opencv|opencv|match_tpl.h|C/C++ Header|201|53|30
 ./src/_00/output/C++/opencv~opencv/samples/dnn/js_face_recognition.html|opencv|opencv|js_face_recognition.html|HTML|201|0|28
 ./src/_00/output/C++/opencv~opencv/samples/va_intel/va_intel_interop.cpp|opencv|opencv|va_intel_interop.cpp|C++|201|29|36
@@ -1837,7 +1847,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/gapi/src/compiler/passes/dump_dot.cpp|opencv|opencv|dump_dot.cpp|C++|198|18|30
 ./src/_00/output/C++/opencv~opencv/modules/js/test/run_puppeteer.js|opencv|opencv|run_puppeteer.js|JavaScript|198|0|16
 ./src/_00/output/C++/opencv~opencv/modules/objdetect/src/face_recognize.cpp|opencv|opencv|face_recognize.cpp|C++|198|5|15
-./src/_00/output/C++/opencv~opencv/platforms/js/opencv_js.config.py|opencv|opencv|opencv_js.config.py|Python|198|7|11
 ./src/_00/output/C++/opencv~opencv/3rdparty/carotene/src/phase.cpp|opencv|opencv|phase.cpp|C++|197|42|34
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg-turbo/src/jidctfst.c|opencv|opencv|jidctfst.c|C|197|112|62
 ./src/_00/output/C++/opencv~opencv/3rdparty/libwebp/src/webp/decode.h|opencv|opencv|decode.h|C/C++ Header|197|244|65
@@ -1858,6 +1867,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/3rdparty/ittnotify/src/ittnotify/jitprofiling.c|opencv|opencv|jitprofiling.c|C|195|71|48
 ./src/_00/output/C++/opencv~opencv/3rdparty/libpng/pnglibconf.h|opencv|opencv|pnglibconf.h|C/C++ Header|195|20|4
 ./src/_00/output/C++/opencv~opencv/modules/dnn/src/layers/scatterND_layer.cpp|opencv|opencv|scatterND_layer.cpp|C++|195|5|32
+./src/_00/output/C++/opencv~opencv/modules/photo/include/opencv2/photo.hpp|opencv|opencv|photo.hpp|C/C++ Header|195|537|166
 ./src/_00/output/C++/opencv~opencv/3rdparty/openexr/Imath/ImathFrustumTest.h|opencv|opencv|ImathFrustumTest.h|C/C++ Header|194|157|66
 ./src/_00/output/C++/opencv~opencv/3rdparty/openjpeg/openjp2/tcd.h|opencv|opencv|tcd.h|C/C++ Header|194|263|54
 ./src/_00/output/C++/opencv~opencv/modules/core/CMakeLists.txt|opencv|opencv|CMakeLists.txt|CMake|194|15|43
@@ -1884,7 +1894,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/3rdparty/libpng/CMakeLists.txt|opencv|opencv|CMakeLists.txt|CMake|191|23|29
 ./src/_00/output/C++/opencv~opencv/apps/createsamples/createsamples.cpp|opencv|opencv|createsamples.cpp|C++|191|47|20
 ./src/_00/output/C++/opencv~opencv/modules/dnn/test/test_common.hpp|opencv|opencv|test_common.hpp|C/C++ Header|191|12|44
-./src/_00/output/C++/opencv~opencv/modules/photo/include/opencv2/photo.hpp|opencv|opencv|photo.hpp|C/C++ Header|191|505|161
 ./src/_00/output/C++/opencv~opencv/modules/ts/misc/testlog_parser.py|opencv|opencv|testlog_parser.py|Python|191|5|42
 ./src/_00/output/C++/opencv~opencv/platforms/ios/cmake/Toolchains/common-ios-toolchain.cmake|opencv|opencv|common-ios-toolchain.cmake|CMake|191|14|18
 ./src/_00/output/C++/opencv~opencv/samples/tapi/camshift.cpp|opencv|opencv|camshift.cpp|C++|191|0|36
@@ -1910,7 +1919,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/dnn/src/int8layers/layers_rvp052.cpp|opencv|opencv|layers_rvp052.cpp|C++|188|4|29
 ./src/_00/output/C++/opencv~opencv/modules/dnn/src/op_vkcom.cpp|opencv|opencv|op_vkcom.cpp|C++|188|9|39
 ./src/_00/output/C++/opencv~opencv/modules/features2d/misc/java/test/BruteForceHammingLUTDescriptorMatcherTest.java|opencv|opencv|BruteForceHammingLUTDescriptorMatcherTest.java|Java|188|5|64
-./src/_00/output/C++/opencv~opencv/modules/imgcodecs/include/opencv2/imgcodecs.hpp|opencv|opencv|imgcodecs.hpp|C/C++ Header|188|249|75
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/src/hal_replacement.hpp|opencv|opencv|hal_replacement.hpp|C/C++ Header|188|1079|93
 ./src/_00/output/C++/opencv~opencv/platforms/android/build_static_aar.py|opencv|opencv|build_static_aar.py|Python|188|26|41
 ./src/_00/output/C++/opencv~opencv/samples/cpp/camshiftdemo.cpp|opencv|opencv|camshiftdemo.cpp|C++|188|3|28
@@ -2006,6 +2014,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/samples/dnn/tf_text_graph_efficientdet.py|opencv|opencv|tf_text_graph_efficientdet.py|Python|174|16|46
 ./src/_00/output/C++/opencv~opencv/samples/java/tutorial_code/ImgProc/changing_contrast_brightness_image/ChangingContrastBrightnessImageDemo.java|opencv|opencv|ChangingContrastBrightnessImageDemo.java|Java|174|10|18
 ./src/_00/output/C++/opencv~opencv/3rdparty/zlib-ng/README.md|opencv|opencv|README.md|Markdown|173|0|56
+./src/_00/output/C++/opencv~opencv/cmake/OpenCVFindLibsPerf.cmake|opencv|opencv|OpenCVFindLibsPerf.cmake|CMake|173|13|12
 ./src/_00/output/C++/opencv~opencv/modules/calib3d/test/test_undistort_badarg.cpp|opencv|opencv|test_undistort_badarg.cpp|C++|173|54|43
 ./src/_00/output/C++/opencv~opencv/modules/dnn/src/darknet/darknet_importer.cpp|opencv|opencv|darknet_importer.cpp|C++|173|44|41
 ./src/_00/output/C++/opencv~opencv/modules/dnn/src/layers/reorg_layer.cpp|opencv|opencv|reorg_layer.cpp|C++|173|41|38
@@ -2087,6 +2096,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/gapi/test/common/gapi_operators_tests.hpp|opencv|opencv|gapi_operators_tests.hpp|C/C++ Header|163|23|59
 ./src/_00/output/C++/opencv~opencv/modules/gapi/test/internal/gapi_int_vectorref_test.cpp|opencv|opencv|gapi_int_vectorref_test.cpp|C++|163|5|39
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/src/resize.sse4_1.cpp|opencv|opencv|resize.sse4_1.cpp|C++|163|48|19
+./src/_00/output/C++/opencv~opencv/3rdparty/fastcv/include/fastcv_hal_imgproc.hpp|opencv|opencv|fastcv_hal_imgproc.hpp|C/C++ Header|162|92|14
 ./src/_00/output/C++/opencv~opencv/3rdparty/flatbuffers/include/flatbuffers/array.h|opencv|opencv|array.h|C/C++ Header|162|49|45
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg-turbo/src/simd/i386/jfdctint-avx2.asm|opencv|opencv|jfdctint-avx2.asm|Assembly|162|113|56
 ./src/_00/output/C++/opencv~opencv/doc/py_tutorials/py_feature2d/py_matcher/py_matcher.markdown|opencv|opencv|py_matcher.markdown|Markdown|162|0|49
@@ -2142,6 +2152,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/core/include/opencv2/core/cuda/scan.hpp|opencv|opencv|scan.hpp|C/C++ Header|158|54|46
 ./src/_00/output/C++/opencv~opencv/modules/gapi/src/compiler/passes/intrin.cpp|opencv|opencv|intrin.cpp|C++|158|119|28
 ./src/_00/output/C++/opencv~opencv/modules/gapi/test/common/gapi_imgproc_tests_common.hpp|opencv|opencv|gapi_imgproc_tests_common.hpp|C/C++ Header|158|14|25
+./src/_00/output/C++/opencv~opencv/modules/imgcodecs/CMakeLists.txt|opencv|opencv|CMakeLists.txt|CMake|158|7|36
 ./src/_00/output/C++/opencv~opencv/modules/photo/test/test_cloning.cpp|opencv|opencv|test_cloning.cpp|C++|158|40|49
 ./src/_00/output/C++/opencv~opencv/modules/videoio/src/cap_mjpeg_decoder.cpp|opencv|opencv|cap_mjpeg_decoder.cpp|C++|158|43|33
 ./src/_00/output/C++/opencv~opencv/samples/cpp/tutorial_code/core/univ_intrin/univ_intrin.cpp|opencv|opencv|univ_intrin.cpp|C++|158|29|43
@@ -2166,14 +2177,12 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg/jcomapi.c|opencv|opencv|jcomapi.c|C|155|56|33
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg/jdapistd.c|opencv|opencv|jdapistd.c|C|155|89|32
 ./src/_00/output/C++/opencv~opencv/3rdparty/ndsrvp/src/remap.cpp|opencv|opencv|remap.cpp|C++|155|13|20
-./src/_00/output/C++/opencv~opencv/cmake/OpenCVFindLibsPerf.cmake|opencv|opencv|OpenCVFindLibsPerf.cmake|CMake|155|12|11
 ./src/_00/output/C++/opencv~opencv/doc/tutorials/core/mat-mask-operations/mat_mask_operations.markdown|opencv|opencv|mat_mask_operations.markdown|Markdown|155|0|46
 ./src/_00/output/C++/opencv~opencv/doc/tutorials/imgproc/threshold/threshold.markdown|opencv|opencv|threshold.markdown|Markdown|155|0|70
 ./src/_00/output/C++/opencv~opencv/modules/core/src/buffer_area.cpp|opencv|opencv|buffer_area.cpp|C++|155|7|15
 ./src/_00/output/C++/opencv~opencv/modules/dnn/src/cuda/region.cu|opencv|opencv|region.cu|CUDA|155|21|40
 ./src/_00/output/C++/opencv~opencv/modules/gapi/misc/python/test/test_gapi_infer_ov.py|opencv|opencv|test_gapi_infer_ov.py|Python|155|16|67
 ./src/_00/output/C++/opencv~opencv/modules/gapi/samples/infer_single_roi.cpp|opencv|opencv|infer_single_roi.cpp|C++|155|19|28
-./src/_00/output/C++/opencv~opencv/modules/imgcodecs/CMakeLists.txt|opencv|opencv|CMakeLists.txt|CMake|155|7|35
 ./src/_00/output/C++/opencv~opencv/modules/video/test/test_accum.cpp|opencv|opencv|test_accum.cpp|C++|155|44|50
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjasper/jasper/jas_stream.h|opencv|opencv|jas_stream.h|C/C++ Header|154|212|103
 ./src/_00/output/C++/opencv~opencv/doc/js_tutorials/js_assets/js_camshift.html|opencv|opencv|js_camshift.html|HTML|154|0|18
@@ -2257,6 +2266,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/samples/winrt_universal/VideoCaptureXAML/video_capture_xaml/video_capture_xaml.WindowsPhone/video_capture_xaml.WindowsPhone.vcxproj|opencv|opencv|video_capture_xaml.WindowsPhone.vcxproj|XML|147|0|0
 ./src/_00/output/C++/opencv~opencv/modules/calib3d/test/test_undistort_points.cpp|opencv|opencv|test_undistort_points.cpp|C++|146|10|43
 ./src/_00/output/C++/opencv~opencv/modules/core/test/test_hal_core.cpp|opencv|opencv|test_hal_core.cpp|C++|146|42|21
+./src/_00/output/C++/opencv~opencv/modules/js/test/test_utils.js|opencv|opencv|test_utils.js|JavaScript|146|67|39
 ./src/_00/output/C++/opencv~opencv/samples/java/tutorial_code/Histograms_Matching/back_projection/CalcBackProjectDemo2.java|opencv|opencv|CalcBackProjectDemo2.java|Java|146|15|28
 ./src/_00/output/C++/opencv~opencv/samples/python/calibrate.py|opencv|opencv|calibrate.py|Python|146|26|36
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjasper/jasper/jas_cm.h|opencv|opencv|jas_cm.h|C/C++ Header|145|76|45
@@ -2280,7 +2290,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/core/src/conjugate_gradient.cpp|opencv|opencv|conjugate_gradient.cpp|C++|144|42|18
 ./src/_00/output/C++/opencv~opencv/modules/dnn/src/cuda/prior_box.cu|opencv|opencv|prior_box.cu|CUDA|144|10|22
 ./src/_00/output/C++/opencv~opencv/modules/js/perf/perf_imgproc/perf_threshold.js|opencv|opencv|perf_threshold.js|JavaScript|144|2|15
-./src/_00/output/C++/opencv~opencv/modules/js/test/test_utils.js|opencv|opencv|test_utils.js|JavaScript|144|67|38
 ./src/_00/output/C++/opencv~opencv/samples/android/15-puzzle/src/org/opencv/samples/puzzle15/Puzzle15Processor.java|opencv|opencv|Puzzle15Processor.java|Java|144|18|33
 ./src/_00/output/C++/opencv~opencv/samples/cpp/tutorial_code/features2D/Homography/homography_from_camera_displacement.cpp|opencv|opencv|homography_from_camera_displacement.cpp|C++|144|20|37
 ./src/_00/output/C++/opencv~opencv/samples/gdb/mat_pretty_printer.py|opencv|opencv|mat_pretty_printer.py|Python|144|14|64
@@ -2301,6 +2310,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/3rdparty/zlib-ng/arch/x86/adler32_avx512_vnni.c|opencv|opencv|adler32_avx512_vnni.c|C|142|29|39
 ./src/_00/output/C++/opencv~opencv/3rdparty/zlib-ng/chunkset_tpl.h|opencv|opencv|chunkset_tpl.h|C/C++ Header|142|37|21
 ./src/_00/output/C++/opencv~opencv/modules/calib3d/test/test_affine3d_estimator.cpp|opencv|opencv|test_affine3d_estimator.cpp|C++|142|45|38
+./src/_00/output/C++/opencv~opencv/modules/core/src/cuda_gpu_mat_nd.cpp|opencv|opencv|cuda_gpu_mat_nd.cpp|C++|142|3|37
 ./src/_00/output/C++/opencv~opencv/modules/dnn/src/opencl/detection_output.cl|opencv|opencv|detection_output.cl|OpenCL|142|40|17
 ./src/_00/output/C++/opencv~opencv/modules/dnn/src/vkcom/shader/conv_1x1_fast.comp|opencv|opencv|conv_1x1_fast.comp|GLSL|142|3|30
 ./src/_00/output/C++/opencv~opencv/modules/highgui/misc/java/src/java/highgui+HighGui.java|opencv|opencv|highgui+HighGui.java|Java|142|12|34
@@ -2322,7 +2332,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/3rdparty/libtiff/tif_thunder.c|opencv|opencv|tif_thunder.c|C|140|43|15
 ./src/_00/output/C++/opencv~opencv/3rdparty/openexr/IlmImf/ImfPartHelper.h|opencv|opencv|ImfPartHelper.h|C/C++ Header|140|79|43
 ./src/_00/output/C++/opencv~opencv/doc/js_tutorials/js_video/js_lucas_kanade/js_lucas_kanade.markdown|opencv|opencv|js_lucas_kanade.markdown|Markdown|140|0|31
-./src/_00/output/C++/opencv~opencv/modules/core/src/cuda_gpu_mat_nd.cpp|opencv|opencv|cuda_gpu_mat_nd.cpp|C++|140|3|37
 ./src/_00/output/C++/opencv~opencv/modules/dnn/src/cuda4dnn/csl/cudnn/lrn.hpp|opencv|opencv|lrn.hpp|C/C++ Header|140|38|27
 ./src/_00/output/C++/opencv~opencv/modules/gapi/src/backends/common/serialization.hpp|opencv|opencv|serialization.hpp|C/C++ Header|140|44|56
 ./src/_00/output/C++/opencv~opencv/modules/gapi/test/gapi_fluid_roi_test.cpp|opencv|opencv|gapi_fluid_roi_test.cpp|C++|140|9|48
@@ -2340,7 +2349,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/dnn/src/layers/cpu_kernels/fast_gemm.hpp|opencv|opencv|fast_gemm.hpp|C/C++ Header|139|12|30
 ./src/_00/output/C++/opencv~opencv/modules/gapi/samples/privacy_masking_camera.cpp|opencv|opencv|privacy_masking_camera.cpp|C++|139|5|23
 ./src/_00/output/C++/opencv~opencv/modules/gapi/src/3rdparty/vasot/src/components/ot/mtt/objects_associator.cpp|opencv|opencv|objects_associator.cpp|C++|139|11|33
-./src/_00/output/C++/opencv~opencv/modules/highgui/include/opencv2/highgui.hpp|opencv|opencv|highgui.hpp|C/C++ Header|139|506|181
+./src/_00/output/C++/opencv~opencv/modules/highgui/include/opencv2/highgui.hpp|opencv|opencv|highgui.hpp|C/C++ Header|139|510|181
 ./src/_00/output/C++/opencv~opencv/modules/stitching/include/opencv2/stitching/detail/exposure_compensate.hpp|opencv|opencv|exposure_compensate.hpp|C/C++ Header|139|80|26
 ./src/_00/output/C++/opencv~opencv/modules/stitching/src/cuda/build_warp_maps.cu|opencv|opencv|build_warp_maps.cu|CUDA|139|42|40
 ./src/_00/output/C++/opencv~opencv/samples/cpp/tutorial_code/objectDetection/calibrate_camera.cpp|opencv|opencv|calibrate_camera.cpp|C++|139|14|35
@@ -2377,6 +2386,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/stitching/include/opencv2/stitching/warpers.hpp|opencv|opencv|warpers.hpp|C/C++ Header|136|100|41
 ./src/_00/output/C++/opencv~opencv/modules/ts/misc/run_android.py|opencv|opencv|run_android.py|Python|136|9|28
 ./src/_00/output/C++/opencv~opencv/samples/cpp/tutorial_code/objectDetection/detect_diamonds.cpp|opencv|opencv|detect_diamonds.cpp|C++|136|25|26
+./src/_00/output/C++/opencv~opencv/3rdparty/fastcv/include/fastcv_hal_core.hpp|opencv|opencv|fastcv_hal_core.hpp|C/C++ Header|135|70|17
 ./src/_00/output/C++/opencv~opencv/3rdparty/zlib-ng/cmake/detect-sanitizer.cmake|opencv|opencv|detect-sanitizer.cmake|CMake|135|10|21
 ./src/_00/output/C++/opencv~opencv/cmake/OpenCVFindOpenEXR.cmake|opencv|opencv|OpenCVFindOpenEXR.cmake|CMake|135|10|16
 ./src/_00/output/C++/opencv~opencv/doc/tutorials/imgproc/morph_lines_detection/morph_lines_detection.md|opencv|opencv|morph_lines_detection.md|Markdown|135|0|66
@@ -2391,7 +2401,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/src/opencl/filterSep_singlePass.cl|opencv|opencv|filterSep_singlePass.cl|OpenCL|135|68|24
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/test/ocl/test_houghlines.cpp|opencv|opencv|test_houghlines.cpp|C++|135|7|42
 ./src/_00/output/C++/opencv~opencv/modules/ml/misc/python/test/test_digits.py|opencv|opencv|test_digits.py|Python|135|19|47
-./src/_00/output/C++/opencv~opencv/modules/stitching/include/opencv2/stitching.hpp|opencv|opencv|stitching.hpp|C/C++ Header|135|162|68
+./src/_00/output/C++/opencv~opencv/modules/stitching/include/opencv2/stitching.hpp|opencv|opencv|stitching.hpp|C/C++ Header|135|166|69
 ./src/_00/output/C++/opencv~opencv/3rdparty/include/opencl/1.2/CL/cl_ext.h|opencv|opencv|cl_ext.h|C/C++ Header|134|112|60
 ./src/_00/output/C++/opencv~opencv/3rdparty/libwebp/src/dsp/mips_macro.h|opencv|opencv|mips_macro.h|C/C++ Header|134|57|19
 ./src/_00/output/C++/opencv~opencv/3rdparty/openexr/IlmImf/ImfKeyCode.cpp|opencv|opencv|ImfKeyCode.cpp|C++|134|38|45
@@ -2448,6 +2458,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/doc/tutorials/others/optical_flow.markdown|opencv|opencv|optical_flow.markdown|Markdown|131|0|48
 ./src/_00/output/C++/opencv~opencv/modules/core/perf/perf_mat.cpp|opencv|opencv|perf_mat.cpp|C++|131|1|37
 ./src/_00/output/C++/opencv~opencv/modules/gapi/src/backends/cpu/gcpuot.cpp|opencv|opencv|gcpuot.cpp|C++|131|7|25
+./src/_00/output/C++/opencv~opencv/modules/imgcodecs/src/grfmt_gif.hpp|opencv|opencv|grfmt_gif.hpp|C/C++ Header|131|11|41
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/misc/java/gen_dict.json|opencv|opencv|gen_dict.json|JSON|131|0|0
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/perf/perf_histogram.cpp|opencv|opencv|perf_histogram.cpp|C++|131|3|34
 ./src/_00/output/C++/opencv~opencv/modules/java/generator/src/cpp/utils.cpp|opencv|opencv|utils.cpp|C++|131|15|19
@@ -2553,6 +2564,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg/jidctflt.c|opencv|opencv|jidctflt.c|C|123|71|44
 ./src/_00/output/C++/opencv~opencv/3rdparty/libwebp/src/dsp/ssim.c|opencv|opencv|ssim.c|C|123|18|19
 ./src/_00/output/C++/opencv~opencv/3rdparty/zlib-ng/trees_tbl.h|opencv|opencv|trees_tbl.h|C/C++ Header|123|1|8
+./src/_00/output/C++/opencv~opencv/doc/tutorials/introduction/macos_install/macos_install.markdown|opencv|opencv|macos_install.markdown|Markdown|123|0|58
 ./src/_00/output/C++/opencv~opencv/doc/tutorials/others/background_subtraction.markdown|opencv|opencv|background_subtraction.markdown|Markdown|123|0|53
 ./src/_00/output/C++/opencv~opencv/modules/core/include/opencv2/core/utils/logger.hpp|opencv|opencv|logger.hpp|C/C++ Header|123|50|45
 ./src/_00/output/C++/opencv~opencv/modules/dnn/src/op_timvx.hpp|opencv|opencv|op_timvx.hpp|C/C++ Header|123|28|36
@@ -2628,6 +2640,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/dnn/src/vkcom/include/context.hpp|opencv|opencv|context.hpp|C/C++ Header|118|37|29
 ./src/_00/output/C++/opencv~opencv/modules/features2d/src/gftt.cpp|opencv|opencv|gftt.cpp|C++|118|41|26
 ./src/_00/output/C++/opencv~opencv/modules/gapi/samples/pipeline_modeling_tool/utils.hpp|opencv|opencv|utils.hpp|C/C++ Header|118|4|22
+./src/_00/output/C++/opencv~opencv/modules/imgproc/misc/js/gen_dict.json|opencv|opencv|gen_dict.json|JSON|118|0|0
 ./src/_00/output/C++/opencv~opencv/modules/js/perf/perf_imgproc/perf_blur.js|opencv|opencv|perf_blur.js|JavaScript|118|0|15
 ./src/_00/output/C++/opencv~opencv/modules/photo/src/arrays.hpp|opencv|opencv|arrays.hpp|C/C++ Header|118|40|26
 ./src/_00/output/C++/opencv~opencv/samples/cpp/tutorial_code/imgcodecs/GDAL_IO/gdal-image.cpp|opencv|opencv|gdal-image.cpp|C++|118|74|54
@@ -2737,6 +2750,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/cmake/OpenCVGenPkgconfig.cmake|opencv|opencv|OpenCVGenPkgconfig.cmake|CMake|110|19|23
 ./src/_00/output/C++/opencv~opencv/modules/core/src/opencl/lut.cl|opencv|opencv|lut.cl|OpenCL|110|35|11
 ./src/_00/output/C++/opencv~opencv/modules/core/src/opencl/meanstddev.cl|opencv|opencv|meanstddev.cl|OpenCL|110|5|14
+./src/_00/output/C++/opencv~opencv/modules/core/src/stat.simd.hpp|opencv|opencv|stat.simd.hpp|C/C++ Header|110|4|17
 ./src/_00/output/C++/opencv~opencv/modules/dnn/test/cityscapes_semsegm_test_enet.py|opencv|opencv|cityscapes_semsegm_test_enet.py|Python|110|0|30
 ./src/_00/output/C++/opencv~opencv/modules/flann/include/opencv2/flann/defines.h|opencv|opencv|defines.h|C/C++ Header|110|35|24
 ./src/_00/output/C++/opencv~opencv/modules/gapi/perf/cpu/gapi_video_perf_tests_cpu.cpp|opencv|opencv|gapi_video_perf_tests_cpu.cpp|C++|110|5|17
@@ -2824,6 +2838,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/doc/py_tutorials/py_imgproc/py_contours/py_contours_more_functions/py_contours_more_functions.markdown|opencv|opencv|py_contours_more_functions.markdown|Markdown|104|0|32
 ./src/_00/output/C++/opencv~opencv/modules/dnn/src/cuda/bias_eltwise_activation.cu|opencv|opencv|bias_eltwise_activation.cu|CUDA|104|3|25
 ./src/_00/output/C++/opencv~opencv/modules/imgcodecs/src/exif.hpp|opencv|opencv|exif.hpp|C/C++ Header|104|93|36
+./src/_00/output/C++/opencv~opencv/modules/imgcodecs/src/grfmt_base.cpp|opencv|opencv|grfmt_base.cpp|C++|104|41|23
 ./src/_00/output/C++/opencv~opencv/modules/js/perf/perf_imgproc/perf_pyrDown.js|opencv|opencv|perf_pyrDown.js|JavaScript|104|0|15
 ./src/_00/output/C++/opencv~opencv/modules/video/src/tracking/detail/tracker_model.cpp|opencv|opencv|tracker_model.cpp|C++|104|4|24
 ./src/_00/output/C++/opencv~opencv/modules/videoio/include/opencv2/videoio/container_avi.private.hpp|opencv|opencv|container_avi.private.hpp|C/C++ Header|104|62|28
@@ -2890,8 +2905,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/doc/tutorials/objdetect/charuco_diamond_detection/charuco_diamond_detection.markdown|opencv|opencv|charuco_diamond_detection.markdown|Markdown|100|0|43
 ./src/_00/output/C++/opencv~opencv/doc/tutorials/others/meanshift.markdown|opencv|opencv|meanshift.markdown|Markdown|100|0|39
 ./src/_00/output/C++/opencv~opencv/modules/core/include/opencv2/core/cvstd_wrapper.hpp|opencv|opencv|cvstd_wrapper.hpp|C/C++ Header|100|15|39
-./src/_00/output/C++/opencv~opencv/modules/core/src/stat.simd.hpp|opencv|opencv|stat.simd.hpp|C/C++ Header|100|4|17
-./src/_00/output/C++/opencv~opencv/modules/imgcodecs/src/grfmt_base.cpp|opencv|opencv|grfmt_base.cpp|C++|100|41|22
 ./src/_00/output/C++/opencv~opencv/modules/objdetect/perf/perf_barcode.cpp|opencv|opencv|perf_barcode.cpp|C++|100|3|17
 ./src/_00/output/C++/opencv~opencv/modules/stitching/src/opencl/warpers.cl|opencv|opencv|warpers.cl|OpenCL|100|44|25
 ./src/_00/output/C++/opencv~opencv/modules/ts/src/ocl_test.cpp|opencv|opencv|ocl_test.cpp|C++|100|40|22
@@ -2975,7 +2988,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/gapi/include/opencv2/gapi/streaming/onevpl/cfg_params.hpp|opencv|opencv|cfg_params.hpp|C/C++ Header|95|79|35
 ./src/_00/output/C++/opencv~opencv/modules/gapi/src/api/kernels_video.cpp|opencv|opencv|kernels_video.cpp|C++|95|5|19
 ./src/_00/output/C++/opencv~opencv/modules/highgui/src/window_framebuffer.hpp|opencv|opencv|window_framebuffer.hpp|C/C++ Header|95|4|36
-./src/_00/output/C++/opencv~opencv/modules/imgproc/misc/js/gen_dict.json|opencv|opencv|gen_dict.json|JSON|95|0|0
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/src/opencl/gftt.cl|opencv|opencv|gftt.cl|OpenCL|95|45|21
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/src/opencl/morph3x3.cl|opencv|opencv|morph3x3.cl|OpenCL|95|3|21
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/test/ocl/test_pyramids.cpp|opencv|opencv|test_pyramids.cpp|C++|95|46|30
@@ -3023,7 +3035,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/cmake/OpenCVDetectTBB.cmake|opencv|opencv|OpenCVDetectTBB.cmake|CMake|92|24|9
 ./src/_00/output/C++/opencv~opencv/cmake/copy_files.cmake|opencv|opencv|copy_files.cmake|CMake|92|9|8
 ./src/_00/output/C++/opencv~opencv/doc/py_tutorials/py_imgproc/py_contours/py_contour_properties/py_contour_properties.markdown|opencv|opencv|py_contour_properties.markdown|Markdown|92|0|28
-./src/_00/output/C++/opencv~opencv/doc/tutorials/introduction/macos_install/macos_install.markdown|opencv|opencv|macos_install.markdown|Markdown|92|0|34
 ./src/_00/output/C++/opencv~opencv/modules/core/include/opencv2/core/dualquaternion.hpp|opencv|opencv|dualquaternion.hpp|C/C++ Header|92|822|65
 ./src/_00/output/C++/opencv~opencv/modules/core/misc/objc/common/RotatedRect.mm|opencv|opencv|RotatedRect.mm|Objective-C++|92|5|18
 ./src/_00/output/C++/opencv~opencv/modules/core/misc/objc/common/TermCriteria.mm|opencv|opencv|TermCriteria.mm|Objective-C++|92|5|23
@@ -3063,7 +3074,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/dnn/src/cuda4dnn/kernels/activations.hpp|opencv|opencv|activations.hpp|C/C++ Header|90|3|46
 ./src/_00/output/C++/opencv~opencv/modules/dnn/src/layers/flow_warp_layer.cpp|opencv|opencv|flow_warp_layer.cpp|C++|90|5|22
 ./src/_00/output/C++/opencv~opencv/modules/gapi/src/executor/gthreadedexecutor.hpp|opencv|opencv|gthreadedexecutor.hpp|C/C++ Header|90|5|28
-./src/_00/output/C++/opencv~opencv/modules/imgcodecs/test/test_webp.cpp|opencv|opencv|test_webp.cpp|C++|90|3|27
+./src/_00/output/C++/opencv~opencv/modules/imgcodecs/src/utils.hpp|opencv|opencv|utils.hpp|C/C++ Header|90|40|19
 ./src/_00/output/C++/opencv~opencv/modules/ts/misc/report.py|opencv|opencv|report.py|Python|90|29|19
 ./src/_00/output/C++/opencv~opencv/samples/data/dnn/object_detection_classes_coco.txt|opencv|opencv|object_detection_classes_coco.txt|Text|90|0|0
 ./src/_00/output/C++/opencv~opencv/samples/java/tutorial_code/ImgTrans/canny_detector/CannyDetectorDemo.java|opencv|opencv|CannyDetectorDemo.java|Java|90|8|12
@@ -3152,8 +3163,8 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/gapi/include/opencv2/gapi/streaming/cap.hpp|opencv|opencv|cap.hpp|C/C++ Header|86|45|18
 ./src/_00/output/C++/opencv~opencv/modules/gapi/src/streaming/onevpl/engine/processing_engine_base.cpp|opencv|opencv|processing_engine_base.cpp|C++|86|5|19
 ./src/_00/output/C++/opencv~opencv/modules/gapi/test/gapi_mat_tests.cpp|opencv|opencv|gapi_mat_tests.cpp|C++|86|8|20
-./src/_00/output/C++/opencv~opencv/modules/imgcodecs/src/utils.hpp|opencv|opencv|utils.hpp|C/C++ Header|86|40|19
 ./src/_00/output/C++/opencv~opencv/modules/js/src/loader.js|opencv|opencv|loader.js|JavaScript|86|0|15
+./src/_00/output/C++/opencv~opencv/modules/photo/src/seamless_cloning.cpp|opencv|opencv|seamless_cloning.cpp|C++|86|40|28
 ./src/_00/output/C++/opencv~opencv/modules/python/src2/typing_stubs_generation/nodes/function_node.py|opencv|opencv|function_node.py|Python|86|30|24
 ./src/_00/output/C++/opencv~opencv/modules/python/test/test_umat.py|opencv|opencv|test_umat.py|Python|86|8|33
 ./src/_00/output/C++/opencv~opencv/platforms/ios/build_visionos_framework.py|opencv|opencv|build_visionos_framework.py|Python|86|9|21
@@ -3217,6 +3228,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/gapi/include/opencv2/gapi/media.hpp|opencv|opencv|media.hpp|C/C++ Header|83|147|28
 ./src/_00/output/C++/opencv~opencv/modules/gapi/src/streaming/gstreamer/gstreamerpipeline.cpp|opencv|opencv|gstreamerpipeline.cpp|C++|83|7|22
 ./src/_00/output/C++/opencv~opencv/modules/gapi/test/gapi_scalar_tests.cpp|opencv|opencv|gapi_scalar_tests.cpp|C++|83|5|29
+./src/_00/output/C++/opencv~opencv/modules/imgcodecs/test/test_exif.cpp|opencv|opencv|test_exif.cpp|C++|83|54|17
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/perf/perf_contours.cpp|opencv|opencv|perf_contours.cpp|C++|83|5|21
 ./src/_00/output/C++/opencv~opencv/modules/photo/src/npr.cpp|opencv|opencv|npr.cpp|C++|83|40|40
 ./src/_00/output/C++/opencv~opencv/samples/cpp/laplace.cpp|opencv|opencv|laplace.cpp|C++|83|0|15
@@ -3266,7 +3278,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/dnn/misc/java/src/cpp/dnn_converters.cpp|opencv|opencv|dnn_converters.cpp|C++|81|4|17
 ./src/_00/output/C++/opencv~opencv/modules/features2d/src/opencl/akaze.cl|opencv|opencv|akaze.cl|OpenCL|81|32|9
 ./src/_00/output/C++/opencv~opencv/modules/imgcodecs/src/grfmt_jpeg2000_openjpeg.hpp|opencv|opencv|grfmt_jpeg2000_openjpeg.hpp|C/C++ Header|81|5|26
-./src/_00/output/C++/opencv~opencv/modules/imgcodecs/test/test_exif.cpp|opencv|opencv|test_exif.cpp|C++|81|54|16
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/misc/java/test/Subdiv2DTest.java|opencv|opencv|Subdiv2DTest.java|Java|81|11|25
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/test/test_boundingrect.cpp|opencv|opencv|test_boundingrect.cpp|C++|81|4|14
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/test/test_fitellipse.cpp|opencv|opencv|test_fitellipse.cpp|C++|81|9|15
@@ -3307,7 +3318,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/dnn/src/cuda/fill_copy.cu|opencv|opencv|fill_copy.cu|CUDA|79|3|16
 ./src/_00/output/C++/opencv~opencv/modules/features2d/src/kaze/fed.cpp|opencv|opencv|fed.cpp|C++|79|84|29
 ./src/_00/output/C++/opencv~opencv/modules/objdetect/misc/java/test/CascadeClassifierTest.java|opencv|opencv|CascadeClassifierTest.java|Java|79|0|25
-./src/_00/output/C++/opencv~opencv/modules/photo/src/seamless_cloning.cpp|opencv|opencv|seamless_cloning.cpp|C++|79|40|26
 ./src/_00/output/C++/opencv~opencv/samples/android/color-blob-detection/src/org/opencv/samples/colorblobdetect/ColorBlobDetector.java|opencv|opencv|ColorBlobDetector.java|Java|79|6|23
 ./src/_00/output/C++/opencv~opencv/samples/cpp/tutorial_code/ml/introduction_to_pca/introduction_to_pca.cpp|opencv|opencv|introduction_to_pca.cpp|C++|79|41|26
 ./src/_00/output/C++/opencv~opencv/samples/cpp/tutorial_code/objectDetection/aruco_samples_utility.hpp|opencv|opencv|aruco_samples_utility.hpp|C/C++ Header|79|2|10
@@ -3529,6 +3539,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/core/misc/java/test/SizeTest.java|opencv|opencv|SizeTest.java|Java|71|0|22
 ./src/_00/output/C++/opencv~opencv/modules/core/misc/objc/common/MatOfKeyPoint.mm|opencv|opencv|MatOfKeyPoint.mm|Objective-C++|71|5|11
 ./src/_00/output/C++/opencv~opencv/modules/core/test/ocl/test_image2d.cpp|opencv|opencv|test_image2d.cpp|C++|71|8|17
+./src/_00/output/C++/opencv~opencv/modules/core/test/ref_reduce_arg.impl.hpp|opencv|opencv|ref_reduce_arg.impl.hpp|C/C++ Header|71|5|17
 ./src/_00/output/C++/opencv~opencv/modules/dnn/src/cuda4dnn/primitives/recurrent_cells.hpp|opencv|opencv|recurrent_cells.hpp|C/C++ Header|71|3|19
 ./src/_00/output/C++/opencv~opencv/modules/video/misc/python/test/test_lk_homography.py|opencv|opencv|test_lk_homography.py|Python|71|8|21
 ./src/_00/output/C++/opencv~opencv/modules/video/src/optical_flow_io.cpp|opencv|opencv|optical_flow_io.cpp|C++|71|42|16
@@ -3619,6 +3630,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/samples/gpu/video_writer.cpp|opencv|opencv|video_writer.cpp|C++|68|0|19
 ./src/_00/output/C++/opencv~opencv/samples/java/tutorial_code/ml/introduction_to_svm/IntroductionToSVMDemo.java|opencv|opencv|IntroductionToSVMDemo.java|Java|68|21|10
 ./src/_00/output/C++/opencv~opencv/samples/python/tutorial_code/core/mat_mask_operations/mat_mask_operations.py|opencv|opencv|mat_mask_operations.py|Python|68|9|23
+./src/_00/output/C++/opencv~opencv/3rdparty/fastcv/include/fastcv_hal_utils.hpp|opencv|opencv|fastcv_hal_utils.hpp|C/C++ Header|67|6|11
 ./src/_00/output/C++/opencv~opencv/3rdparty/libwebp/src/enc/vp8li_enc.h|opencv|opencv|vp8li_enc.h|C/C++ Header|67|35|22
 ./src/_00/output/C++/opencv~opencv/3rdparty/openexr/Half/halfFunction.h|opencv|opencv|halfFunction.h|C/C++ Header|67|87|25
 ./src/_00/output/C++/opencv~opencv/3rdparty/openexr/IlmImf/ImfInputFile.h|opencv|opencv|ImfInputFile.h|C/C++ Header|67|147|64
@@ -3634,6 +3646,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/gapi/src/3rdparty/vasot/src/components/ot/tracklet.hpp|opencv|opencv|tracklet.hpp|C/C++ Header|67|5|22
 ./src/_00/output/C++/opencv~opencv/modules/gapi/src/streaming/onevpl/engine/preproc/preproc_session.cpp|opencv|opencv|preproc_session.cpp|C++|67|7|11
 ./src/_00/output/C++/opencv~opencv/modules/gapi/test/common/gapi_streaming_tests_common.hpp|opencv|opencv|gapi_streaming_tests_common.hpp|C/C++ Header|67|5|14
+./src/_00/output/C++/opencv~opencv/modules/imgcodecs/src/grfmt_base.hpp|opencv|opencv|grfmt_base.hpp|C/C++ Header|67|145|39
 ./src/_00/output/C++/opencv~opencv/modules/objdetect/src/barcode_decoder/ean8_decoder.cpp|opencv|opencv|ean8_decoder.cpp|C++|67|4|8
 ./src/_00/output/C++/opencv~opencv/modules/photo/perf/opencl/perf_denoising.cpp|opencv|opencv|perf_denoising.cpp|C++|67|5|25
 ./src/_00/output/C++/opencv~opencv/modules/photo/test/test_npr.cpp|opencv|opencv|test_npr.cpp|C++|67|40|33
@@ -3720,6 +3733,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/gapi/src/streaming/gstreamer/gstreamerenv.cpp|opencv|opencv|gstreamerenv.cpp|C++|65|9|16
 ./src/_00/output/C++/opencv~opencv/modules/gapi/test/common/gapi_tests_helpers.hpp|opencv|opencv|gapi_tests_helpers.hpp|C/C++ Header|65|8|29
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/perf/perf_matchTemplate.cpp|opencv|opencv|perf_matchTemplate.cpp|C++|65|3|16
+./src/_00/output/C++/opencv~opencv/modules/imgproc/src/precomp.hpp|opencv|opencv|precomp.hpp|C/C++ Header|65|44|21
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/test/test_watershed.cpp|opencv|opencv|test_watershed.cpp|C++|65|44|21
 ./src/_00/output/C++/opencv~opencv/modules/java/test/pure_test/build.xml|opencv|opencv|build.xml|Ant|65|0|11
 ./src/_00/output/C++/opencv~opencv/platforms/winpack_dldt/2021.1/20201005-dldt-disable-unused-targets.patch|opencv|opencv|20201005-dldt-disable-unused-targets.patch|diff|65|80|33
@@ -3745,6 +3759,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/doc/js_tutorials/js_assets/js_filtering_medianBlur.html|opencv|opencv|js_filtering_medianBlur.html|HTML|64|0|3
 ./src/_00/output/C++/opencv~opencv/doc/js_tutorials/js_assets/js_pyramids_pyrDown.html|opencv|opencv|js_pyramids_pyrDown.html|HTML|64|0|3
 ./src/_00/output/C++/opencv~opencv/doc/js_tutorials/js_assets/js_pyramids_pyrUp.html|opencv|opencv|js_pyramids_pyrUp.html|HTML|64|0|3
+./src/_00/output/C++/opencv~opencv/doc/tutorials/app/animations.markdown|opencv|opencv|animations.markdown|Markdown|64|0|27
 ./src/_00/output/C++/opencv~opencv/modules/core/include/opencv2/core/opencl/ocl_defs.hpp|opencv|opencv|ocl_defs.hpp|C/C++ Header|64|7|11
 ./src/_00/output/C++/opencv~opencv/modules/core/misc/java/src/java/core+MatOfDouble.java|opencv|opencv|core+MatOfDouble.java|Java|64|3|12
 ./src/_00/output/C++/opencv~opencv/modules/core/misc/java/src/java/core+MatOfFloat.java|opencv|opencv|core+MatOfFloat.java|Java|64|3|12
@@ -3762,9 +3777,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/dnn/src/vkcom/src/buffer.cpp|opencv|opencv|buffer.cpp|C++|64|8|17
 ./src/_00/output/C++/opencv~opencv/modules/gapi/src/api/gnode.cpp|opencv|opencv|gnode.cpp|C++|64|7|18
 ./src/_00/output/C++/opencv~opencv/modules/gapi/src/executor/last_value.hpp|opencv|opencv|last_value.hpp|C/C++ Header|64|24|17
-./src/_00/output/C++/opencv~opencv/modules/imgcodecs/src/grfmt_base.hpp|opencv|opencv|grfmt_base.hpp|C/C++ Header|64|145|37
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/src/contours_common.cpp|opencv|opencv|contours_common.cpp|C++|64|5|6
-./src/_00/output/C++/opencv~opencv/modules/imgproc/src/precomp.hpp|opencv|opencv|precomp.hpp|C/C++ Header|64|44|21
 ./src/_00/output/C++/opencv~opencv/modules/js/test/test_calib3d.js|opencv|opencv|test_calib3d.js|JavaScript|64|11|11
 ./src/_00/output/C++/opencv~opencv/modules/video/perf/perf_bgfg_knn.cpp|opencv|opencv|perf_bgfg_knn.cpp|C++|64|4|20
 ./src/_00/output/C++/opencv~opencv/modules/video/perf/perf_bgfg_mog2.cpp|opencv|opencv|perf_bgfg_mog2.cpp|C++|64|4|20
@@ -3865,7 +3878,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/cmake/OpenCVCRTLinkage.cmake|opencv|opencv|OpenCVCRTLinkage.cmake|CMake|60|7|9
 ./src/_00/output/C++/opencv~opencv/doc/tutorials/features2d/feature_flann_matcher/feature_flann_matcher.markdown|opencv|opencv|feature_flann_matcher.markdown|Markdown|60|0|22
 ./src/_00/output/C++/opencv~opencv/modules/core/src/utils/samples.cpp|opencv|opencv|samples.cpp|C++|60|3|12
-./src/_00/output/C++/opencv~opencv/modules/core/test/ref_reduce_arg.impl.hpp|opencv|opencv|ref_reduce_arg.impl.hpp|C/C++ Header|60|3|15
 ./src/_00/output/C++/opencv~opencv/modules/dnn/src/opencl/region.cl|opencv|opencv|region.cl|OpenCL|60|40|9
 ./src/_00/output/C++/opencv~opencv/modules/features2d/perf/opencl/perf_feature2d.cpp|opencv|opencv|perf_feature2d.cpp|C++|60|0|21
 ./src/_00/output/C++/opencv~opencv/modules/gapi/src/streaming/onevpl/engine/decode/decode_session.cpp|opencv|opencv|decode_session.cpp|C++|60|5|10
@@ -4216,6 +4228,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/samples/python/tutorial_code/ImgTrans/remap/Remap_Demo.py|opencv|opencv|Remap_Demo.py|Python|49|10|6
 ./src/_00/output/C++/opencv~opencv/samples/swift/ios/ColorBlobDetection/ColorBlobDetection/ColorBlobDetector.swift|opencv|opencv|ColorBlobDetector.swift|Swift|49|11|15
 ./src/_00/output/C++/opencv~opencv/samples/swift/ios/FaceDetection/FaceDetection/Info.plist|opencv|opencv|Info.plist|XML|49|0|0
+./src/_00/output/C++/opencv~opencv/3rdparty/fastcv/src/fastcv_hal_utils.cpp|opencv|opencv|fastcv_hal_utils.cpp|C++|48|4|4
 ./src/_00/output/C++/opencv~opencv/3rdparty/libtiff/tif_extension.c|opencv|opencv|tif_extension.c|C|48|41|21
 ./src/_00/output/C++/opencv~opencv/3rdparty/openexr/IlmImf/ImfPreviewImage.cpp|opencv|opencv|ImfPreviewImage.cpp|C++|48|38|18
 ./src/_00/output/C++/opencv~opencv/3rdparty/protobuf/src/google/protobuf/stubs/casts.h|opencv|opencv|casts.h|C/C++ Header|48|74|16
@@ -4311,6 +4324,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/3rdparty/openexr/IlmThread/IlmThreadSemaphorePosix.cpp|opencv|opencv|IlmThreadSemaphorePosix.cpp|C++|45|39|22
 ./src/_00/output/C++/opencv~opencv/3rdparty/zlib-ng/arch/x86/compare256_avx2.c|opencv|opencv|compare256_avx2.c|C|45|4|15
 ./src/_00/output/C++/opencv~opencv/apps/python_app_test.py|opencv|opencv|python_app_test.py|Python|45|1|10
+./src/_00/output/C++/opencv~opencv/doc/header.html|opencv|opencv|header.html|HTML|45|35|2
 ./src/_00/output/C++/opencv~opencv/doc/js_tutorials/js_imgproc/js_histograms/js_histogram_equalization/js_histogram_equalization.markdown|opencv|opencv|js_histogram_equalization.markdown|Markdown|45|0|18
 ./src/_00/output/C++/opencv~opencv/doc/tutorials/features2d/feature_description/feature_description.markdown|opencv|opencv|feature_description.markdown|Markdown|45|0|16
 ./src/_00/output/C++/opencv~opencv/doc/tutorials/features2d/feature_detection/feature_detection.markdown|opencv|opencv|feature_detection.markdown|Markdown|45|0|18
@@ -4347,7 +4361,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/3rdparty/protobuf/src/google/protobuf/any.cc|opencv|opencv|any.cc|C++|44|29|10
 ./src/_00/output/C++/opencv~opencv/3rdparty/zlib-ng/arch/s390/dfltcc_deflate.h|opencv|opencv|dfltcc_deflate.h|C/C++ Header|44|0|14
 ./src/_00/output/C++/opencv~opencv/doc/py_tutorials/py_imgproc/py_table_of_contents_imgproc.markdown|opencv|opencv|py_table_of_contents_imgproc.markdown|Markdown|44|0|32
-./src/_00/output/C++/opencv~opencv/doc/stylesheet.css|opencv|opencv|stylesheet.css|CSS|44|1|9
 ./src/_00/output/C++/opencv~opencv/doc/tutorials/imgproc/periodic_noise_removing_filter/periodic_noise_removing_filter.markdown|opencv|opencv|periodic_noise_removing_filter.markdown|Markdown|44|0|26
 ./src/_00/output/C++/opencv~opencv/include/opencv2/opencv.hpp|opencv|opencv|opencv.hpp|C/C++ Header|44|46|5
 ./src/_00/output/C++/opencv~opencv/modules/calib3d/src/fisheye.hpp|opencv|opencv|fisheye.hpp|C/C++ Header|44|0|17
@@ -4399,6 +4412,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/gapi/include/opencv2/gapi/gmetaarg.hpp|opencv|opencv|gmetaarg.hpp|C/C++ Header|43|21|16
 ./src/_00/output/C++/opencv~opencv/modules/gapi/include/opencv2/gapi/streaming/desync.hpp|opencv|opencv|desync.hpp|C/C++ Header|43|32|11
 ./src/_00/output/C++/opencv~opencv/modules/gapi/src/backends/ov/govbackend.hpp|opencv|opencv|govbackend.hpp|C/C++ Header|43|13|20
+./src/_00/output/C++/opencv~opencv/modules/imgcodecs/src/grfmt_webp.hpp|opencv|opencv|grfmt_webp.hpp|C/C++ Header|43|41|19
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/test/test_subdivision2d.cpp|opencv|opencv|test_subdivision2d.cpp|C++|43|5|5
 ./src/_00/output/C++/opencv~opencv/modules/java/generator/src/cpp/converters.h|opencv|opencv|converters.h|C/C++ Header|43|3|17
 ./src/_00/output/C++/opencv~opencv/modules/python/test/test.py|opencv|opencv|test.py|Python|43|6|11
@@ -4462,7 +4476,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/gapi/include/opencv2/gapi/own/assert.hpp|opencv|opencv|assert.hpp|C/C++ Header|41|5|14
 ./src/_00/output/C++/opencv~opencv/modules/gapi/include/opencv2/gapi/python/python.hpp|opencv|opencv|python.hpp|C/C++ Header|41|13|17
 ./src/_00/output/C++/opencv~opencv/modules/imgcodecs/perf/perf_jpeg.cpp|opencv|opencv|perf_jpeg.cpp|C++|41|3|16
-./src/_00/output/C++/opencv~opencv/modules/imgcodecs/src/grfmt_avif.hpp|opencv|opencv|grfmt_avif.hpp|C/C++ Header|41|3|18
 ./src/_00/output/C++/opencv~opencv/modules/imgcodecs/src/grfmt_pfm.hpp|opencv|opencv|grfmt_pfm.hpp|C/C++ Header|41|3|13
 ./src/_00/output/C++/opencv~opencv/modules/imgcodecs/src/grfmt_png.hpp|opencv|opencv|grfmt_png.hpp|C/C++ Header|41|41|19
 ./src/_00/output/C++/opencv~opencv/modules/imgcodecs/test/test_common.cpp|opencv|opencv|test_common.cpp|C++|41|4|6
@@ -4486,7 +4499,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/cmake/OpenCVDetectHalide.cmake|opencv|opencv|OpenCVDetectHalide.cmake|CMake|40|3|4
 ./src/_00/output/C++/opencv~opencv/cmake/OpenCVExtraTargets.cmake|opencv|opencv|OpenCVExtraTargets.cmake|CMake|40|11|7
 ./src/_00/output/C++/opencv~opencv/cmake/templates/pylint.cmake.in|opencv|opencv|pylint.cmake.in|CMake|40|0|4
-./src/_00/output/C++/opencv~opencv/doc/header.html|opencv|opencv|header.html|HTML|40|17|1
 ./src/_00/output/C++/opencv~opencv/doc/tutorials/features2d/trackingmotion/corner_subpixels/corner_subpixels.markdown|opencv|opencv|corner_subpixels.markdown|Markdown|40|0|16
 ./src/_00/output/C++/opencv~opencv/doc/tutorials/imgproc/shapedescriptors/bounding_rotated_ellipses/bounding_rotated_ellipses.markdown|opencv|opencv|bounding_rotated_ellipses.markdown|Markdown|40|0|14
 ./src/_00/output/C++/opencv~opencv/doc/tutorials/imgproc/shapedescriptors/find_contours/find_contours.markdown|opencv|opencv|find_contours.markdown|Markdown|40|0|14
@@ -4496,6 +4508,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/gapi/include/opencv2/gapi/gframe.hpp|opencv|opencv|gframe.hpp|C/C++ Header|40|57|16
 ./src/_00/output/C++/opencv~opencv/modules/gapi/include/opencv2/gapi/gscalar.hpp|opencv|opencv|gscalar.hpp|C/C++ Header|40|79|21
 ./src/_00/output/C++/opencv~opencv/modules/gapi/src/streaming/onevpl/accelerators/surface/surface.hpp|opencv|opencv|surface.hpp|C/C++ Header|40|46|14
+./src/_00/output/C++/opencv~opencv/modules/imgcodecs/src/grfmt_avif.hpp|opencv|opencv|grfmt_avif.hpp|C/C++ Header|40|3|18
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/include/opencv2/imgproc/segmentation.hpp|opencv|opencv|segmentation.hpp|C/C++ Header|40|82|19
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/src/imgwarp.hpp|opencv|opencv|imgwarp.hpp|C/C++ Header|40|48|8
 ./src/_00/output/C++/opencv~opencv/modules/stitching/misc/python/pyopencv_stitching.hpp|opencv|opencv|pyopencv_stitching.hpp|C/C++ Header|40|0|9
@@ -4670,6 +4683,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/samples/python/tutorial_code/TrackingMotion/harris_detector/cornerHarris_Demo.py|opencv|opencv|cornerHarris_Demo.py|Python|36|7|12
 ./src/_00/output/C++/opencv~opencv/samples/winrt/FaceDetection/FaceDetection/Package.appxmanifest|opencv|opencv|Package.appxmanifest|XML|36|0|5
 ./src/_00/output/C++/opencv~opencv/samples/winrt_universal/VideoCaptureXAML/video_capture_xaml/video_capture_xaml.Windows/MainPage.xaml.cpp|opencv|opencv|MainPage.xaml.cpp|C++|36|13|12
+./src/_00/output/C++/opencv~opencv/3rdparty/fastcv/fastcv.cmake|opencv|opencv|fastcv.cmake|CMake|35|3|5
 ./src/_00/output/C++/opencv~opencv/3rdparty/include/vulkan/vulkan_ggp.h|opencv|opencv|vulkan_ggp.h|C/C++ Header|35|9|14
 ./src/_00/output/C++/opencv~opencv/3rdparty/libpng/loongarch/loongarch_lsx_init.c|opencv|opencv|loongarch_lsx_init.c|C|35|21|9
 ./src/_00/output/C++/opencv~opencv/3rdparty/openexr/IlmImf/ImfDeepScanLineOutputPart.h|opencv|opencv|ImfDeepScanLineOutputPart.h|C/C++ Header|35|108|35
@@ -4701,6 +4715,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/video/perf/perf_bgfg_utils.hpp|opencv|opencv|perf_bgfg_utils.hpp|C/C++ Header|35|4|9
 ./src/_00/output/C++/opencv~opencv/samples/cpp/phase_corr.cpp|opencv|opencv|phase_corr.cpp|C++|35|1|10
 ./src/_00/output/C++/opencv~opencv/samples/cpp/tutorial_code/ImgProc/HitMiss/HitMiss.cpp|opencv|opencv|HitMiss.cpp|C++|35|0|9
+./src/_00/output/C++/opencv~opencv/samples/cpp/tutorial_code/imgcodecs/animations.cpp|opencv|opencv|animations.cpp|C++|35|8|8
 ./src/_00/output/C++/opencv~opencv/samples/java/tutorial_code/ImgTrans/LaPlace/LaplaceDemo.java|opencv|opencv|LaplaceDemo.java|Java|35|25|13
 ./src/_00/output/C++/opencv~opencv/samples/python/edge.py|opencv|opencv|edge.py|Python|35|9|16
 ./src/_00/output/C++/opencv~opencv/samples/python/tutorial_code/dnn/dnn_conversion/common/test/voc_segm_test.py|opencv|opencv|voc_segm_test.py|Python|35|0|6
@@ -4733,12 +4748,11 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/gapi/src/api/kernels_ot.cpp|opencv|opencv|kernels_ot.cpp|C++|34|5|4
 ./src/_00/output/C++/opencv~opencv/modules/gapi/src/streaming/onevpl/accelerators/surface/base_frame_adapter.hpp|opencv|opencv|base_frame_adapter.hpp|C/C++ Header|34|5|8
 ./src/_00/output/C++/opencv~opencv/modules/imgcodecs/misc/objc/test/ImgcodecsTest.swift|opencv|opencv|ImgcodecsTest.swift|Swift|34|5|11
-./src/_00/output/C++/opencv~opencv/modules/imgcodecs/src/grfmt_webp.hpp|opencv|opencv|grfmt_webp.hpp|C/C++ Header|34|41|17
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/test/test_imgproc_umat.cpp|opencv|opencv|test_imgproc_umat.cpp|C++|34|41|9
 ./src/_00/output/C++/opencv~opencv/modules/java/test/pure_test/src/org/opencv/test/OpenCVTestRunner.java|opencv|opencv|OpenCVTestRunner.java|Java|34|0|9
 ./src/_00/output/C++/opencv~opencv/modules/python/test/test_persistence.py|opencv|opencv|test_persistence.py|Python|34|3|7
 ./src/_00/output/C++/opencv~opencv/platforms/android/build_aar.sh|opencv|opencv|build_aar.sh|Bourne Shell|34|1|11
-./src/_00/output/C++/opencv~opencv/samples/cpp/tutorial_code/HighGUI/AddingImagesTrackbar.cpp|opencv|opencv|AddingImagesTrackbar.cpp|C++|34|27|12
+./src/_00/output/C++/opencv~opencv/samples/cpp/tutorial_code/HighGUI/AddingImagesTrackbar.cpp|opencv|opencv|AddingImagesTrackbar.cpp|C++|34|28|12
 ./src/_00/output/C++/opencv~opencv/samples/cpp/tutorial_code/ImgTrans/houghcircles.cpp|opencv|opencv|houghcircles.cpp|C++|34|21|10
 ./src/_00/output/C++/opencv~opencv/samples/cpp/tutorial_code/calib3d/real_time_pose_estimation/src/Model.h|opencv|opencv|Model.h|C/C++ Header|34|13|8
 ./src/_00/output/C++/opencv~opencv/samples/cpp/tutorial_code/core/parallel_backend/CMakeLists.txt|opencv|opencv|CMakeLists.txt|CMake|34|0|3
@@ -4869,6 +4883,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/samples/android/tutorial-3-cameracontrol/gradle/AndroidManifest.xml|opencv|opencv|AndroidManifest.xml|XML|31|0|6
 ./src/_00/output/C++/opencv~opencv/samples/data/stereo_calib.xml|opencv|opencv|stereo_calib.xml|XML|31|0|0
 ./src/_00/output/C++/opencv~opencv/samples/directx/CMakeLists.txt|opencv|opencv|CMakeLists.txt|CMake|31|0|3
+./src/_00/output/C++/opencv~opencv/samples/python/tutorial_code/imgcodecs/animations.py|opencv|opencv|animations.py|Python|31|12|9
 ./src/_00/output/C++/opencv~opencv/samples/wp8/OpenCVXaml/OpenCVComponent/opencv.props|opencv|opencv|opencv.props|XML|31|3|0
 ./src/_00/output/C++/opencv~opencv/3rdparty/ffmpeg/readme.txt|opencv|opencv|readme.txt|Text|30|0|7
 ./src/_00/output/C++/opencv~opencv/3rdparty/flatbuffers/include/flatbuffers/allocator.h|opencv|opencv|allocator.h|C/C++ Header|30|28|10
@@ -5051,6 +5066,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/samples/semihosting/histogram/histogram.cpp|opencv|opencv|histogram.cpp|C++|27|7|9
 ./src/_00/output/C++/opencv~opencv/samples/winrt_universal/VideoCaptureXAML/video_capture_xaml/video_capture_xaml.Windows/Package.appxmanifest|opencv|opencv|Package.appxmanifest|XML|27|0|0
 ./src/_00/output/C++/opencv~opencv/3rdparty/cpufeatures/CMakeLists.txt|opencv|opencv|CMakeLists.txt|CMake|26|0|9
+./src/_00/output/C++/opencv~opencv/3rdparty/fastcv/CMakeLists.txt|opencv|opencv|CMakeLists.txt|CMake|26|0|8
 ./src/_00/output/C++/opencv~opencv/3rdparty/libwebp/src/dec/alphai_dec.h|opencv|opencv|alphai_dec.h|C/C++ Header|26|18|10
 ./src/_00/output/C++/opencv~opencv/3rdparty/openexr/IlmImf/ImfStringAttribute.cpp|opencv|opencv|ImfStringAttribute.cpp|C++|26|38|16
 ./src/_00/output/C++/opencv~opencv/3rdparty/zlib-ng/crc32.c|opencv|opencv|crc32.c|C|26|9|7
@@ -5075,7 +5091,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/perf/perf_morph.cpp|opencv|opencv|perf_morph.cpp|C++|26|3|13
 ./src/_00/output/C++/opencv~opencv/modules/java/generator/src/cpp/common.h|opencv|opencv|common.h|C/C++ Header|26|6|10
 ./src/_00/output/C++/opencv~opencv/modules/java/generator/src/cpp/opencv_java.hpp|opencv|opencv|opencv_java.hpp|C/C++ Header|26|4|8
-./src/_00/output/C++/opencv~opencv/modules/js/test/test_core.js|opencv|opencv|test_core.js|JavaScript|26|5|5
+./src/_00/output/C++/opencv~opencv/modules/photo/misc/js/gen_dict.json|opencv|opencv|gen_dict.json|JSON|26|0|0
 ./src/_00/output/C++/opencv~opencv/platforms/semihosting/aarch64-semihosting.toolchain.cmake|opencv|opencv|aarch64-semihosting.toolchain.cmake|CMake|26|4|10
 ./src/_00/output/C++/opencv~opencv/platforms/wince/arm-wince.toolchain.cmake|opencv|opencv|arm-wince.toolchain.cmake|CMake|26|1|8
 ./src/_00/output/C++/opencv~opencv/samples/android/15-puzzle/AndroidManifest.xml|opencv|opencv|AndroidManifest.xml|XML|26|0|8
@@ -5106,7 +5122,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/gapi/src/streaming/onevpl/data_provider_defines.hpp|opencv|opencv|data_provider_defines.hpp|C/C++ Header|25|0|6
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/include/opencv2/imgproc/detail/legacy.hpp|opencv|opencv|legacy.hpp|C/C++ Header|25|3|10
 ./src/_00/output/C++/opencv~opencv/modules/java/generator/src/cpp/jni_part.cpp|opencv|opencv|jni_part.cpp|C++|25|6|11
-./src/_00/output/C++/opencv~opencv/modules/photo/misc/js/gen_dict.json|opencv|opencv|gen_dict.json|JSON|25|0|0
 ./src/_00/output/C++/opencv~opencv/modules/python/test/test_texture_flow.py|opencv|opencv|test_texture_flow.py|Python|25|6|16
 ./src/_00/output/C++/opencv~opencv/modules/stitching/src/camera.cpp|opencv|opencv|camera.cpp|C++|25|41|7
 ./src/_00/output/C++/opencv~opencv/modules/video/src/tracking/detail/tracker_state_estimator.cpp|opencv|opencv|tracker_state_estimator.cpp|C++|25|3|9
@@ -5215,6 +5230,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/doc/js_tutorials/js_assets/.eslintrc.json|opencv|opencv|.eslintrc.json|JSON|22|0|0
 ./src/_00/output/C++/opencv~opencv/doc/tutorials/dnn/table_of_content_dnn.markdown|opencv|opencv|table_of_content_dnn.markdown|Markdown|22|0|3
 ./src/_00/output/C++/opencv~opencv/modules/calib3d/misc/java/test/StereoBMTest.java|opencv|opencv|StereoBMTest.java|Java|22|0|9
+./src/_00/output/C++/opencv~opencv/modules/calib3d/misc/js/gen_dict.json|opencv|opencv|gen_dict.json|JSON|22|0|0
 ./src/_00/output/C++/opencv~opencv/modules/dnn/src/backend.hpp|opencv|opencv|backend.hpp|C/C++ Header|22|10|11
 ./src/_00/output/C++/opencv~opencv/modules/dnn/src/cuda/memory.hpp|opencv|opencv|memory.hpp|C/C++ Header|22|3|7
 ./src/_00/output/C++/opencv~opencv/modules/dnn/src/cuda4dnn/kernels/activation_eltwise.hpp|opencv|opencv|activation_eltwise.hpp|C/C++ Header|22|4|14
@@ -5227,6 +5243,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/features2d/test/test_utils.cpp|opencv|opencv|test_utils.cpp|C++|22|6|10
 ./src/_00/output/C++/opencv~opencv/modules/gapi/src/3rdparty/vasot/src/components/ot/zero_term_imageless_tracker.hpp|opencv|opencv|zero_term_imageless_tracker.hpp|C/C++ Header|22|5|10
 ./src/_00/output/C++/opencv~opencv/modules/gapi/src/backends/cpu/gnnparsers.hpp|opencv|opencv|gnnparsers.hpp|C/C++ Header|22|5|4
+./src/_00/output/C++/opencv~opencv/modules/imgcodecs/src/grfmts.hpp|opencv|opencv|grfmts.hpp|C/C++ Header|22|40|3
 ./src/_00/output/C++/opencv~opencv/modules/imgcodecs/src/precomp.hpp|opencv|opencv|precomp.hpp|C/C++ Header|22|40|6
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/src/filter.hpp|opencv|opencv|filter.hpp|C/C++ Header|22|42|7
 ./src/_00/output/C++/opencv~opencv/modules/python/src2/typing_stubs_generation/nodes/constant_node.py|opencv|opencv|constant_node.py|Python|22|2|7
@@ -5248,7 +5265,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/cmake/checks/webnn.cpp|opencv|opencv|webnn.cpp|C++|21|0|2
 ./src/_00/output/C++/opencv~opencv/doc/mymath.js|opencv|opencv|mymath.js|JavaScript|21|2|0
 ./src/_00/output/C++/opencv~opencv/doc/tutorials/dnn/dnn_openvino/dnn_openvino.markdown|opencv|opencv|dnn_openvino.markdown|Markdown|21|0|7
-./src/_00/output/C++/opencv~opencv/modules/calib3d/misc/js/gen_dict.json|opencv|opencv|gen_dict.json|JSON|21|0|0
 ./src/_00/output/C++/opencv~opencv/modules/core/include/opencv2/core/cuda/transform.hpp|opencv|opencv|transform.hpp|C/C++ Header|21|46|8
 ./src/_00/output/C++/opencv~opencv/modules/core/include/opencv2/core/cuda/warp_reduce.hpp|opencv|opencv|warp_reduce.hpp|C/C++ Header|21|46|9
 ./src/_00/output/C++/opencv~opencv/modules/dnn/cmake/init.cmake|opencv|opencv|init.cmake|CMake|21|5|3
@@ -5260,7 +5276,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/modules/gapi/samples/slides_sobel_cv.cpp|opencv|opencv|slides_sobel_cv.cpp|C++|21|0|6
 ./src/_00/output/C++/opencv~opencv/modules/gapi/src/streaming/onevpl/engine/preproc/utils.hpp|opencv|opencv|utils.hpp|C/C++ Header|21|5|6
 ./src/_00/output/C++/opencv~opencv/modules/gapi/test/internal/gapi_int_proto_tests.cpp|opencv|opencv|gapi_int_proto_tests.cpp|C++|21|5|8
-./src/_00/output/C++/opencv~opencv/modules/imgcodecs/src/grfmts.hpp|opencv|opencv|grfmts.hpp|C/C++ Header|21|40|3
 ./src/_00/output/C++/opencv~opencv/modules/imgproc/perf/opencl/perf_moments.cpp|opencv|opencv|perf_moments.cpp|C++|21|46|11
 ./src/_00/output/C++/opencv~opencv/modules/ml/misc/python/pyopencv_ml.hpp|opencv|opencv|pyopencv_ml.hpp|C/C++ Header|21|0|1
 ./src/_00/output/C++/opencv~opencv/modules/python/test/test_watershed.py|opencv|opencv|test_watershed.py|Python|21|4|11
@@ -5295,7 +5310,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/cmake/checks/cpu_lasx.cpp|opencv|opencv|cpu_lasx.cpp|C++|20|0|3
 ./src/_00/output/C++/opencv~opencv/cmake/checks/cpu_msa.cpp|opencv|opencv|cpu_msa.cpp|C++|20|0|3
 ./src/_00/output/C++/opencv~opencv/cmake/templates/cmake_uninstall.cmake.in|opencv|opencv|cmake_uninstall.cmake.in|CMake|20|6|2
-./src/_00/output/C++/opencv~opencv/doc/footer.html|opencv|opencv|footer.html|HTML|20|6|0
 ./src/_00/output/C++/opencv~opencv/modules/core/misc/objc/common/MinMaxLocResult.h|opencv|opencv|MinMaxLocResult.h|C/C++ Header|20|8|12
 ./src/_00/output/C++/opencv~opencv/modules/features2d/src/kaze/utils.h|opencv|opencv|utils.h|C/C++ Header|20|15|7
 ./src/_00/output/C++/opencv~opencv/modules/gapi/include/opencv2/gapi/gcompiled_async.hpp|opencv|opencv|gcompiled_async.hpp|C/C++ Header|20|42|11
@@ -5361,6 +5375,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/samples/semihosting/norm/norm.cpp|opencv|opencv|norm.cpp|C++|19|6|8
 ./src/_00/output/C++/opencv~opencv/samples/winrt/FaceDetection/FaceDetection/MainPage.xaml.h|opencv|opencv|MainPage.xaml.h|C/C++ Header|19|7|6
 ./src/_00/output/C++/opencv~opencv/samples/winrt_universal/VideoCaptureXAML/video_capture_xaml/video_capture_xaml.Shared/App.xaml.h|opencv|opencv|App.xaml.h|C/C++ Header|19|30|8
+./src/_00/output/C++/opencv~opencv/3rdparty/hal_rvv/hal_rvv.hpp|opencv|opencv|hal_rvv.hpp|C/C++ Header|18|3|6
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg-turbo/src/jdsample.h|opencv|opencv|jdsample.h|C/C++ Header|18|24|11
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg-turbo/src/jpeg_nbits.h|opencv|opencv|jpeg_nbits.h|C/C++ Header|18|22|3
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg-turbo/src/simd/powerpc/jcsample.h|opencv|opencv|jcsample.h|C/C++ Header|18|8|2
@@ -5410,7 +5425,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/samples/semihosting/histogram/CMakeLists.txt|opencv|opencv|CMakeLists.txt|CMake|18|3|5
 ./src/_00/output/C++/opencv~opencv/samples/va_intel/CMakeLists.txt|opencv|opencv|CMakeLists.txt|CMake|18|0|3
 ./src/_00/output/C++/opencv~opencv/samples/winrt/ImageManipulations/App.xaml.h|opencv|opencv|App.xaml.h|C/C++ Header|18|13|4
-./src/_00/output/C++/opencv~opencv/3rdparty/hal_rvv/hal_rvv.hpp|opencv|opencv|hal_rvv.hpp|C/C++ Header|17|3|6
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjasper/jp2_dec.h|opencv|opencv|jp2_dec.h|C/C++ Header|17|61|7
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjasper/jpc_qmfb.h|opencv|opencv|jpc_qmfb.h|C/C++ Header|17|83|13
 ./src/_00/output/C++/opencv~opencv/3rdparty/openexr/IlmImf/ImfDeepImageStateAttribute.h|opencv|opencv|ImfDeepImageStateAttribute.h|C/C++ Header|17|38|13
@@ -5427,6 +5441,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/cmake/checks/cann.cpp|opencv|opencv|cann.cpp|C++|17|0|3
 ./src/_00/output/C++/opencv~opencv/cmake/checks/cpu_avx512knm.cpp|opencv|opencv|cpu_avx512knm.cpp|C++|17|0|0
 ./src/_00/output/C++/opencv~opencv/cmake/vars/EnableModeVars.cmake|opencv|opencv|EnableModeVars.cmake|CMake|17|1|3
+./src/_00/output/C++/opencv~opencv/doc/footer.html|opencv|opencv|footer.html|HTML|17|6|0
 ./src/_00/output/C++/opencv~opencv/doc/py_tutorials/py_gui/py_table_of_contents_gui.markdown|opencv|opencv|py_table_of_contents_gui.markdown|Markdown|17|0|10
 ./src/_00/output/C++/opencv~opencv/modules/core/include/opencv2/core/ocl_genbase.hpp|opencv|opencv|ocl_genbase.hpp|C/C++ Header|17|42|10
 ./src/_00/output/C++/opencv~opencv/modules/core/misc/java/src/cpp/core_manual.cpp|opencv|opencv|core_manual.cpp|C++|17|0|4
@@ -5613,7 +5628,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/3rdparty/zlib-ng/arch/power/fallback_builtins.h|opencv|opencv|fallback_builtins.h|C/C++ Header|13|13|5
 ./src/_00/output/C++/opencv~opencv/3rdparty/zlib-ng/insert_string_roll.c|opencv|opencv|insert_string_roll.c|C|13|6|5
 ./src/_00/output/C++/opencv~opencv/cmake/OpenCVDetectDirectML.cmake|opencv|opencv|OpenCVDetectDirectML.cmake|CMake|13|0|0
-./src/_00/output/C++/opencv~opencv/cmake/OpenCVFindWebP.cmake|opencv|opencv|OpenCVFindWebP.cmake|CMake|13|13|7
+./src/_00/output/C++/opencv~opencv/cmake/OpenCVFindWebP.cmake|opencv|opencv|OpenCVFindWebP.cmake|CMake|13|13|6
 ./src/_00/output/C++/opencv~opencv/cmake/checks/cpu_avx512.cpp|opencv|opencv|cpu_avx512.cpp|C++|13|0|0
 ./src/_00/output/C++/opencv~opencv/cmake/checks/cpu_lsx.cpp|opencv|opencv|cpu_lsx.cpp|C++|13|0|2
 ./src/_00/output/C++/opencv~opencv/cmake/checks/lapack_check.cpp|opencv|opencv|lapack_check.cpp|C++|13|0|2
@@ -5675,6 +5690,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/doc/js_tutorials/js_assets/js_semantic_segmentation_model_info.json|opencv|opencv|js_semantic_segmentation_model_info.json|JSON|12|0|0
 ./src/_00/output/C++/opencv~opencv/doc/js_tutorials/js_imgproc/js_intelligent_scissors/js_intelligent_scissors.markdown|opencv|opencv|js_intelligent_scissors.markdown|Markdown|12|0|4
 ./src/_00/output/C++/opencv~opencv/doc/py_tutorials/py_core/py_table_of_contents_core.markdown|opencv|opencv|py_table_of_contents_core.markdown|Markdown|12|0|6
+./src/_00/output/C++/opencv~opencv/doc/tutorials/app/table_of_content_app.markdown|opencv|opencv|table_of_content_app.markdown|Markdown|12|0|1
 ./src/_00/output/C++/opencv~opencv/doc/tutorials/core/table_of_content_core.markdown|opencv|opencv|table_of_content_core.markdown|Markdown|12|0|1
 ./src/_00/output/C++/opencv~opencv/modules/core/cmake/parallel/detect_openmp.cmake|opencv|opencv|detect_openmp.cmake|CMake|12|0|1
 ./src/_00/output/C++/opencv~opencv/modules/core/test/test_cuda.cpp|opencv|opencv|test_cuda.cpp|C++|12|3|6
@@ -5718,7 +5734,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/doc/js_tutorials/js_dnn/js_image_classification/js_image_classification_with_camera.markdown|opencv|opencv|js_image_classification_with_camera.markdown|Markdown|11|0|4
 ./src/_00/output/C++/opencv~opencv/doc/js_tutorials/js_objdetect/js_face_detection/js_face_detection_camera.markdown|opencv|opencv|js_face_detection_camera.markdown|Markdown|11|0|4
 ./src/_00/output/C++/opencv~opencv/doc/js_tutorials/js_video/js_table_of_contents_video.markdown|opencv|opencv|js_table_of_contents_video.markdown|Markdown|11|0|6
-./src/_00/output/C++/opencv~opencv/doc/tutorials/app/table_of_content_app.markdown|opencv|opencv|table_of_content_app.markdown|Markdown|11|0|1
 ./src/_00/output/C++/opencv~opencv/modules/core/include/opencv2/core/ovx.hpp|opencv|opencv|ovx.hpp|C/C++ Header|11|9|8
 ./src/_00/output/C++/opencv~opencv/modules/core/misc/java/src/java/core+CvException.java|opencv|opencv|core+CvException.java|Java|11|0|4
 ./src/_00/output/C++/opencv~opencv/modules/core/src/opencl/runtime/runtime_common.hpp|opencv|opencv|runtime_common.hpp|C/C++ Header|11|40|6
@@ -5799,6 +5814,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/samples/python/tutorial_code/imgProc/hough_line_transform/probabilistic_hough_line_transform.py|opencv|opencv|probabilistic_hough_line_transform.py|Python|10|0|2
 ./src/_00/output/C++/opencv~opencv/samples/winrt/ImageManipulations/MediaExtensions/OcvTransform/OcvImageManipulations.idl|opencv|opencv|OcvImageManipulations.idl|IDL|10|0|2
 ./src/_00/output/C++/opencv~opencv/.github/PULL_REQUEST_TEMPLATE.md|opencv|opencv|PULL_REQUEST_TEMPLATE.md|Markdown|9|0|2
+./src/_00/output/C++/opencv~opencv/3rdparty/kleidicv/CMakeLists.txt|opencv|opencv|CMakeLists.txt|CMake|9|1|1
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjasper/jpc_t1enc.h|opencv|opencv|jpc_t1enc.h|C/C++ Header|9|74|10
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjpeg-turbo/src/jchuff.h|opencv|opencv|jchuff.h|C/C++ Header|9|29|6
 ./src/_00/output/C++/opencv~opencv/3rdparty/openexr/IlmImf/ImfDoubleAttribute.cpp|opencv|opencv|ImfDoubleAttribute.cpp|C++|9|38|10
@@ -5962,7 +5978,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C++/opencv~opencv/samples/wp8/OcvRotatingCube/PhoneXamlDirect3DApp1/PhoneXamlDirect3DApp1Comp/pch.h|opencv|opencv|pch.h|C/C++ Header|6|0|1
 ./src/_00/output/C++/opencv~opencv/samples/wp8/OpenCVXaml/OpenCVXaml/Properties/AppManifest.xml|opencv|opencv|AppManifest.xml|XML|6|0|0
 ./src/_00/output/C++/opencv~opencv/.github/ISSUE_TEMPLATE/config.yml|opencv|opencv|config.yml|YAML|5|0|0
-./src/_00/output/C++/opencv~opencv/3rdparty/kleidicv/CMakeLists.txt|opencv|opencv|CMakeLists.txt|CMake|5|0|2
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjasper/jas_version.c|opencv|opencv|jas_version.c|C|5|59|3
 ./src/_00/output/C++/opencv~opencv/3rdparty/libjasper/jpc_flt.h|opencv|opencv|jpc_flt.h|C/C++ Header|5|69|6
 ./src/_00/output/C++/opencv~opencv/3rdparty/protobuf/src/google/protobuf/io/package_info.h|opencv|opencv|package_info.h|C/C++ Header|5|44|4

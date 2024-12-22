@@ -2,16 +2,16 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/cimSupport/cmdletization/xml/cmdlets-over-objects.xmlSerializer.autogen.cs|PowerShell|PowerShell|cmdlets-over-objects.xmlSerializer.autogen.cs|C#|9198|8|905
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/TypeTable_Types_Ps1Xml.cs|PowerShell|PowerShell|TypeTable_Types_Ps1Xml.cs|C#|7198|400|1547
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/CommandCompletion/CompletionCompleters.cs|PowerShell|PowerShell|CompletionCompleters.cs|C#|7177|633|1177
-./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/namespaces/FileSystemProvider.cs|PowerShell|PowerShell|FileSystemProvider.cs|C#|6731|1612|1197
+./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/namespaces/FileSystemProvider.cs|PowerShell|PowerShell|FileSystemProvider.cs|C#|6726|1616|1196
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/parser/ast.cs|PowerShell|PowerShell|ast.cs|C#|6285|3045|1463
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/cimSupport/cmdletization/xml/CoreCLR/cmdlets-over-objects.xmlSerializer.autogen.cs|PowerShell|PowerShell|cmdlets-over-objects.xmlSerializer.autogen.cs|C#|6128|50|510
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/parser/Parser.cs|PowerShell|PowerShell|Parser.cs|C#|6058|1147|1074
-./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/runtime/Binding/Binders.cs|PowerShell|PowerShell|Binders.cs|C#|6029|807|1012
+./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/runtime/Binding/Binders.cs|PowerShell|PowerShell|Binders.cs|C#|6046|808|1013
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/Modules/ModuleCmdletBase.cs|PowerShell|PowerShell|ModuleCmdletBase.cs|C#|5596|1074|824
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/serialization.cs|PowerShell|PowerShell|serialization.cs|C#|5298|1383|998
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/parser/Compiler.cs|PowerShell|PowerShell|Compiler.cs|C#|5261|834|973
 ./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.WSMan.Management/ConfigProvider.cs|PowerShell|PowerShell|ConfigProvider.cs|C#|4893|943|741
-./src/_00/output/C#/PowerShell~PowerShell/ThirdPartyNotices.txt|PowerShell|PowerShell|ThirdPartyNotices.txt|Text|4749|0|1001
+./src/_00/output/C#/PowerShell~PowerShell/ThirdPartyNotices.txt|PowerShell|PowerShell|ThirdPartyNotices.txt|Text|4787|0|977
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/LanguagePrimitives.cs|PowerShell|PowerShell|LanguagePrimitives.cs|C#|4401|871|614
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/CoreAdapter.cs|PowerShell|PowerShell|CoreAdapter.cs|C#|4364|1173|722
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/remoting/commands/CustomShellCommands.cs|PowerShell|PowerShell|CustomShellCommands.cs|C#|3959|636|764
@@ -33,7 +33,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/remoting/commands/PSRemotingCmdlet.cs|PowerShell|PowerShell|PSRemotingCmdlet.cs|C#|2707|1239|617
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/SessionStateContainer.cs|PowerShell|PowerShell|SessionStateContainer.cs|C#|2639|1798|490
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/remoting/client/Job.cs|PowerShell|PowerShell|Job.cs|C#|2618|1280|626
-./src/_00/output/C#/PowerShell~PowerShell/test/powershell/Host/TabCompletion/TabCompletion.Tests.ps1|PowerShell|PowerShell|TabCompletion.Tests.ps1|PowerShell|2551|70|333
+./src/_00/output/C#/PowerShell~PowerShell/test/powershell/Host/TabCompletion/TabCompletion.Tests.ps1|PowerShell|PowerShell|TabCompletion.Tests.ps1|PowerShell|2555|70|334
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/namespaces/LocationGlobber.cs|PowerShell|PowerShell|LocationGlobber.cs|C#|2471|1630|631
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/namespaces/RegistryProvider.cs|PowerShell|PowerShell|RegistryProvider.cs|C#|2459|1109|601
 ./src/_00/output/C#/PowerShell~PowerShell/tools/packaging/boms/linux.json|PowerShell|PowerShell|linux.json|JSON|2446|0|0
@@ -43,8 +43,8 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.PowerShell.Commands.Management/commands/management/GetComputerInfoCommand.cs|PowerShell|PowerShell|GetComputerInfoCommand.cs|C#|2228|2212|718
 ./src/_00/output/C#/PowerShell~PowerShell/tools/packaging/boms/mac.json|PowerShell|PowerShell|mac.json|JSON|2222|0|0
 ./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.PowerShell.Security/security/CertificateProvider.cs|PowerShell|PowerShell|CertificateProvider.cs|C#|2176|979|431
-./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.PowerShell.ConsoleHost/host/msh/ConsoleHost.cs|PowerShell|PowerShell|ConsoleHost.cs|C#|2170|523|433
-./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/parser/TypeInferenceVisitor.cs|PowerShell|PowerShell|TypeInferenceVisitor.cs|C#|2151|169|342
+./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.PowerShell.ConsoleHost/host/msh/ConsoleHost.cs|PowerShell|PowerShell|ConsoleHost.cs|C#|2172|523|434
+./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/parser/TypeInferenceVisitor.cs|PowerShell|PowerShell|TypeInferenceVisitor.cs|C#|2165|172|343
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/remoting/fanin/InitialSessionStateProvider.cs|PowerShell|PowerShell|InitialSessionStateProvider.cs|C#|2120|536|375
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/remoting/common/RunspaceConnectionInfo.cs|PowerShell|PowerShell|RunspaceConnectionInfo.cs|C#|2116|1094|500
 ./src/_00/output/C#/PowerShell~PowerShell/test/perf/benchmarks/assets/compiler.test.ps1|PowerShell|PowerShell|compiler.test.ps1|PowerShell|2099|259|327
@@ -65,7 +65,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/MshObject.cs|PowerShell|PowerShell|MshObject.cs|C#|1766|527|350
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/cimSupport/cmdletization/xml/cmdlets-over-objects.objectModel.autogen.cs|PowerShell|PowerShell|cmdlets-over-objects.objectModel.autogen.cs|C#|1721|176|343
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/Modules/ImportModuleCommand.cs|PowerShell|PowerShell|ImportModuleCommand.cs|C#|1681|252|251
-./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/resources/RemotingErrorIdStrings.resx|PowerShell|PowerShell|RemotingErrorIdStrings.resx|XML|1665|48|13
+./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/resources/RemotingErrorIdStrings.resx|PowerShell|PowerShell|RemotingErrorIdStrings.resx|XML|1668|48|13
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/FormatAndOutput/common/DisplayDatabase/typeDataXmlLoader.cs|PowerShell|PowerShell|typeDataXmlLoader.cs|C#|1657|287|291
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/cimSupport/cmdletization/xml/CoreCLR/cmdlets-over-objects.objectModel.autogen.cs|PowerShell|PowerShell|cmdlets-over-objects.objectModel.autogen.cs|C#|1647|170|341
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/NativeCommandProcessor.cs|PowerShell|PowerShell|NativeCommandProcessor.cs|C#|1618|548|273
@@ -73,9 +73,9 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C#/PowerShell~PowerShell/test/powershell/Modules/Microsoft.PowerShell.Utility/Implicit.Remoting.Tests.ps1|PowerShell|PowerShell|Implicit.Remoting.Tests.ps1|PowerShell|1596|87|402
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/FormatAndOutput/DefaultFormatters/DotNetTypes_format_ps1xml.cs|PowerShell|PowerShell|DotNetTypes_format_ps1xml.cs|C#|1590|5|168
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/remoting/fanin/WSManNativeAPI.cs|PowerShell|PowerShell|WSManNativeAPI.cs|C#|1584|1129|392
+./src/_00/output/C#/PowerShell~PowerShell/test/powershell/Modules/Microsoft.PowerShell.Management/FileSystem.Tests.ps1|PowerShell|PowerShell|FileSystem.Tests.ps1|PowerShell|1583|52|234
 ./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.PowerShell.Commands.Management/commands/management/WMIHelper.cs|PowerShell|PowerShell|WMIHelper.cs|C#|1580|333|170
 ./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.PowerShell.Commands.Management/commands/management/Computer.cs|PowerShell|PowerShell|Computer.cs|C#|1557|438|294
-./src/_00/output/C#/PowerShell~PowerShell/test/powershell/Modules/Microsoft.PowerShell.Management/FileSystem.Tests.ps1|PowerShell|PowerShell|FileSystem.Tests.ps1|PowerShell|1557|51|228
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/remoting/commands/NewPSSessionConfigurationFile.cs|PowerShell|PowerShell|NewPSSessionConfigurationFile.cs|C#|1531|303|307
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/remoting/commands/InvokeCommandCommand.cs|PowerShell|PowerShell|InvokeCommandCommand.cs|C#|1508|517|224
 ./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.PowerShell.Commands.Diagnostics/GetEventCommand.cs|PowerShell|PowerShell|GetEventCommand.cs|C#|1506|318|234
@@ -85,7 +85,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/CommandCompletion/PseudoParameterBinder.cs|PowerShell|PowerShell|PseudoParameterBinder.cs|C#|1422|374|254
 ./src/_00/output/C#/PowerShell~PowerShell/docs/community/process_diagram.svg|PowerShell|PowerShell|process_diagram.svg|SVG|1410|1|2
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/ParameterBinderBase.cs|PowerShell|PowerShell|ParameterBinderBase.cs|C#|1406|422|239
-./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.PowerShell.ConsoleHost/host/msh/ConsoleHostUserInterface.cs|PowerShell|PowerShell|ConsoleHostUserInterface.cs|C#|1399|556|302
+./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.PowerShell.ConsoleHost/host/msh/ConsoleHostUserInterface.cs|PowerShell|PowerShell|ConsoleHostUserInterface.cs|C#|1399|556|301
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/namespaces/TransactedRegistryKey.cs|PowerShell|PowerShell|TransactedRegistryKey.cs|C#|1397|461|234
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/parser/VariableAnalysis.cs|PowerShell|PowerShell|VariableAnalysis.cs|C#|1362|173|313
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/remoting/client/RemoteRunspacePoolInternal.cs|PowerShell|PowerShell|RemoteRunspacePoolInternal.cs|C#|1347|524|302
@@ -108,9 +108,9 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/remoting/common/WireDataFormat/EncodeAndDecode.cs|PowerShell|PowerShell|EncodeAndDecode.cs|C#|1227|705|232
 ./src/_00/output/C#/PowerShell~PowerShell/test/powershell/engine/Api/TypeInference.Tests.ps1|PowerShell|PowerShell|TypeInference.Tests.ps1|PowerShell|1226|2|236
 ./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.PowerShell.Commands.Utility/commands/utility/WebCmdlet/Common/WebRequestPSCmdlet.Common.cs|PowerShell|PowerShell|WebRequestPSCmdlet.Common.cs|C#|1225|410|296
+./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/parser/PSType.cs|PowerShell|PowerShell|PSType.cs|C#|1225|118|177
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/security/SecuritySupport.cs|PowerShell|PowerShell|SecuritySupport.cs|C#|1212|349|216
-./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/Utils.cs|PowerShell|PowerShell|Utils.cs|C#|1207|372|219
-./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/parser/PSType.cs|PowerShell|PowerShell|PSType.cs|C#|1206|118|175
+./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/Utils.cs|PowerShell|PowerShell|Utils.cs|C#|1208|373|220
 ./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.PowerShell.Commands.Utility/commands/utility/CsvCommands.cs|PowerShell|PowerShell|CsvCommands.cs|C#|1182|376|257
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/remoting/commands/ReceiveJob.cs|PowerShell|PowerShell|ReceiveJob.cs|C#|1163|247|203
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/Modules/ModuleIntrinsics.cs|PowerShell|PowerShell|ModuleIntrinsics.cs|C#|1157|421|202
@@ -138,6 +138,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C#/PowerShell~PowerShell/CHANGELOG/7.4.md|PowerShell|PowerShell|7.4.md|Markdown|1003|0|245
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/TypeMetadata.cs|PowerShell|PowerShell|TypeMetadata.cs|C#|999|368|200
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/hostifaces/LocalConnection.cs|PowerShell|PowerShell|LocalConnection.cs|C#|993|368|208
+./src/_00/output/C#/PowerShell~PowerShell/test/powershell/Host/ConsoleHost.Tests.ps1|PowerShell|PowerShell|ConsoleHost.Tests.ps1|PowerShell|993|40|173
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/namespaces/ProviderBase.cs|PowerShell|PowerShell|ProviderBase.cs|C#|992|764|231
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/Modules/PSModuleInfo.cs|PowerShell|PowerShell|PSModuleInfo.cs|C#|991|436|223
 ./src/_00/output/C#/PowerShell~PowerShell/CHANGELOG/7.3.md|PowerShell|PowerShell|7.3.md|Markdown|988|0|319
@@ -145,7 +146,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/interpreter/InstructionList.cs|PowerShell|PowerShell|InstructionList.cs|C#|981|29|211
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/help/HelpCommentsParser.cs|PowerShell|PowerShell|HelpCommentsParser.cs|C#|979|87|160
 ./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.PowerShell.ConsoleHost/host/msh/ConsoleHostRawUserInterface.cs|PowerShell|PowerShell|ConsoleHostRawUserInterface.cs|C#|978|517|198
-./src/_00/output/C#/PowerShell~PowerShell/test/powershell/Host/ConsoleHost.Tests.ps1|PowerShell|PowerShell|ConsoleHost.Tests.ps1|PowerShell|976|40|169
 ./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.PowerShell.Commands.Utility/commands/utility/Var.cs|PowerShell|PowerShell|Var.cs|C#|975|242|197
 ./src/_00/output/C#/PowerShell~PowerShell/CHANGELOG/6.0.md|PowerShell|PowerShell|6.0.md|Markdown|969|0|211
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/hostifaces/PSTask.cs|PowerShell|PowerShell|PSTask.cs|C#|968|350|275
@@ -219,7 +219,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/CoreCLR/CorePsPlatform.cs|PowerShell|PowerShell|CorePsPlatform.cs|C#|682|215|185
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/runtime/ScriptBlockToPowerShell.cs|PowerShell|PowerShell|ScriptBlockToPowerShell.cs|C#|682|156|115
 ./src/_00/output/C#/PowerShell~PowerShell/tools/ci.psm1|PowerShell|PowerShell|ci.psm1|PowerShell|676|91|142
-./src/_00/output/C#/PowerShell~PowerShell/tools/releaseTools.psm1|PowerShell|PowerShell|releaseTools.psm1|PowerShell|674|201|123
+./src/_00/output/C#/PowerShell~PowerShell/tools/releaseTools.psm1|PowerShell|PowerShell|releaseTools.psm1|PowerShell|675|201|123
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/remoting/server/serverremotesession.cs|PowerShell|PowerShell|serverremotesession.cs|C#|664|324|145
 ./src/_00/output/C#/PowerShell~PowerShell/assets/Avatar.svg|PowerShell|PowerShell|Avatar.svg|SVG|661|1|1
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/hostifaces/HostUtilities.cs|PowerShell|PowerShell|HostUtilities.cs|C#|657|174|149
@@ -256,6 +256,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.PowerShell.ConsoleHost/host/msh/PendingProgress.cs|PowerShell|PowerShell|PendingProgress.cs|C#|597|252|145
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/CoreCLR/EventResource.cs|PowerShell|PowerShell|EventResource.cs|C#|595|26|5
 ./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.PowerShell.Commands.Utility/commands/utility/WebCmdlet/JsonObject.cs|PowerShell|PowerShell|JsonObject.cs|C#|593|166|95
+./src/_00/output/C#/PowerShell~PowerShell/test/powershell/Language/Classes/scripting.Classes.inheritance.tests.ps1|PowerShell|PowerShell|scripting.Classes.inheritance.tests.ps1|PowerShell|591|26|100
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/logging/MshLog.cs|PowerShell|PowerShell|MshLog.cs|C#|589|396|138
 ./src/_00/output/C#/PowerShell~PowerShell/test/powershell/Language/Scripting/TryCatch.Tests.ps1|PowerShell|PowerShell|TryCatch.Tests.ps1|PowerShell|588|11|59
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/help/MamlNode.cs|PowerShell|PowerShell|MamlNode.cs|C#|587|483|182
@@ -274,7 +275,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/security/CatalogHelper.cs|PowerShell|PowerShell|CatalogHelper.cs|C#|563|191|87
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/security/wldpNativeMethods.cs|PowerShell|PowerShell|wldpNativeMethods.cs|C#|558|175|108
 ./src/_00/output/C#/PowerShell~PowerShell/test/powershell/engine/Help/HelpSystem.Tests.ps1|PowerShell|PowerShell|HelpSystem.Tests.ps1|PowerShell|557|33|125
-./src/_00/output/C#/PowerShell~PowerShell/test/powershell/Language/Classes/scripting.Classes.inheritance.tests.ps1|PowerShell|PowerShell|scripting.Classes.inheritance.tests.ps1|PowerShell|556|26|92
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/SessionStateProperty.cs|PowerShell|PowerShell|SessionStateProperty.cs|C#|551|469|99
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/CommandProcessorBase.cs|PowerShell|PowerShell|CommandProcessorBase.cs|C#|548|374|122
 ./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.PowerShell.Commands.Management/cimSupport/cmdletization/cim/cimConverter.cs|PowerShell|PowerShell|cimConverter.cs|C#|547|35|100
@@ -359,10 +359,10 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/EnumExpressionEvaluator.cs|PowerShell|PowerShell|EnumExpressionEvaluator.cs|C#|425|135|84
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/ItemCmdletProviderInterfaces.cs|PowerShell|PowerShell|ItemCmdletProviderInterfaces.cs|C#|424|1520|163
 ./src/_00/output/C#/PowerShell~PowerShell/test/powershell/engine/Security/UntrustedDataMode.Tests.ps1|PowerShell|PowerShell|UntrustedDataMode.Tests.ps1|PowerShell|424|57|79
+./src/_00/output/C#/PowerShell~PowerShell/.pipelines/PowerShell-Release-Official.yml|PowerShell|PowerShell|PowerShell-Release-Official.yml|YAML|423|9|45
 ./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.Management.Infrastructure.CimCmdlets/InvokeCimMethodCommand.cs|PowerShell|PowerShell|InvokeCimMethodCommand.cs|C#|422|108|52
 ./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.PowerShell.Commands.Utility/commands/utility/GetDateCommand.cs|PowerShell|PowerShell|GetDateCommand.cs|C#|421|80|99
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/utils/PlatformInvokes.cs|PowerShell|PowerShell|PlatformInvokes.cs|C#|421|193|71
-./src/_00/output/C#/PowerShell~PowerShell/.pipelines/PowerShell-Release-Official.yml|PowerShell|PowerShell|PowerShell-Release-Official.yml|YAML|420|9|45
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/FormatAndOutput/common/DisplayDatabase/typeDataXmlLoader_Table.cs|PowerShell|PowerShell|typeDataXmlLoader_Table.cs|C#|420|31|48
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/ComInterop/ComInvokeBinder.cs|PowerShell|PowerShell|ComInvokeBinder.cs|C#|420|71|74
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/ExternalScriptInfo.cs|PowerShell|PowerShell|ExternalScriptInfo.cs|C#|418|135|80
@@ -430,10 +430,10 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C#/PowerShell~PowerShell/test/powershell/engine/Help/UpdatableHelpSystem.Tests.ps1|PowerShell|PowerShell|UpdatableHelpSystem.Tests.ps1|PowerShell|367|23|70
 ./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.PowerShell.Commands.Utility/commands/utility/ImportAliasCommand.cs|PowerShell|PowerShell|ImportAliasCommand.cs|C#|366|40|78
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/CompiledCommandParameter.cs|PowerShell|PowerShell|CompiledCommandParameter.cs|C#|366|227|90
+./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/remoting/common/remotingexceptions.cs|PowerShell|PowerShell|remotingexceptions.cs|C#|366|230|52
 ./src/_00/output/C#/PowerShell~PowerShell/test/powershell/Language/Scripting/Debugging/DebuggerCommand.Tests.ps1|PowerShell|PowerShell|DebuggerCommand.Tests.ps1|PowerShell|366|13|77
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/FormatAndOutput/common/FormatViewGenerator_Table.cs|PowerShell|PowerShell|FormatViewGenerator_Table.cs|C#|365|48|80
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/debugger/Breakpoint.cs|PowerShell|PowerShell|Breakpoint.cs|C#|365|155|92
-./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/remoting/common/remotingexceptions.cs|PowerShell|PowerShell|remotingexceptions.cs|C#|365|230|52
 ./src/_00/output/C#/PowerShell~PowerShell/test/powershell/Modules/Microsoft.PowerShell.Security/FileCatalog.Tests.ps1|PowerShell|PowerShell|FileCatalog.Tests.ps1|PowerShell|365|20|84
 ./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.Management.Infrastructure.CimCmdlets/NewCimInstanceCommand.cs|PowerShell|PowerShell|NewCimInstanceCommand.cs|C#|364|109|48
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/FormatAndOutput/common/DisplayDatabase/displayDescriptionData_Table.cs|PowerShell|PowerShell|displayDescriptionData_Table.cs|C#|362|158|94
@@ -457,6 +457,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.PowerShell.Commands.Utility/commands/utility/FormatAndOutput/format-hex/Format-Hex.cs|PowerShell|PowerShell|Format-Hex.cs|C#|353|93|67
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/interpreter/LocalAccess.cs|PowerShell|PowerShell|LocalAccess.cs|C#|352|18|86
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/remoting/commands/DebugJob.cs|PowerShell|PowerShell|DebugJob.cs|C#|352|59|66
+./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/remoting/commands/getrunspacecommand.cs|PowerShell|PowerShell|getrunspacecommand.cs|C#|352|139|68
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/namespaces/RegistryWrapper.cs|PowerShell|PowerShell|RegistryWrapper.cs|C#|352|19|78
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/utils/PsUtils.cs|PowerShell|PowerShell|PsUtils.cs|C#|352|139|71
 ./src/_00/output/C#/PowerShell~PowerShell/assets/Chibi_Avatar.svg|PowerShell|PowerShell|Chibi_Avatar.svg|SVG|351|0|0
@@ -469,6 +470,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C#/PowerShell~PowerShell/test/powershell/engine/ExperimentalFeature/ExperimentalFeature.Basic.Tests.ps1|PowerShell|PowerShell|ExperimentalFeature.Basic.Tests.ps1|PowerShell|344|26|73
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/SessionStateSecurityDescriptorInterface.cs|PowerShell|PowerShell|SessionStateSecurityDescriptorInterface.cs|C#|343|166|69
 ./src/_00/output/C#/PowerShell~PowerShell/test/powershell/engine/Remoting/RemoteSession.Basic.Tests.ps1|PowerShell|PowerShell|RemoteSession.Basic.Tests.ps1|PowerShell|343|12|50
+./src/_00/output/C#/PowerShell~PowerShell/.pipelines/templates/uploadToAzure.yml|PowerShell|PowerShell|uploadToAzure.yml|YAML|342|15|54
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/utils/perfCounters/PSPerfCountersMgr.cs|PowerShell|PowerShell|PSPerfCountersMgr.cs|C#|342|80|40
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/remoting/common/psstreamobject.cs|PowerShell|PowerShell|psstreamobject.cs|C#|341|79|88
 ./src/_00/output/C#/PowerShell~PowerShell/src/TypeCatalogGen/TypeCatalogGen.cs|PowerShell|PowerShell|TypeCatalogGen.cs|C#|341|79|53
@@ -477,7 +479,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/hostifaces/InternalHost.cs|PowerShell|PowerShell|InternalHost.cs|C#|338|163|80
 ./src/_00/output/C#/PowerShell~PowerShell/test/SSHRemoting/SSHRemoting.Basic.Tests.ps1|PowerShell|PowerShell|SSHRemoting.Basic.Tests.ps1|PowerShell|338|18|49
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/FormatAndOutput/common/FormatViewGenerator.cs|PowerShell|PowerShell|FormatViewGenerator.cs|C#|337|43|79
-./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/remoting/commands/getrunspacecommand.cs|PowerShell|PowerShell|getrunspacecommand.cs|C#|337|139|68
 ./src/_00/output/C#/PowerShell~PowerShell/tools/releaseBuild/build.json|PowerShell|PowerShell|build.json|JSON|336|0|0
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/TypeTable_TypesV3_Ps1Xml.cs|PowerShell|PowerShell|TypeTable_TypesV3_Ps1Xml.cs|C#|335|19|83
 ./src/_00/output/C#/PowerShell~PowerShell/tools/releaseBuild/azureDevOps/releaseBuild.yml|PowerShell|PowerShell|releaseBuild.yml|YAML|335|2|42
@@ -486,7 +487,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/DataStoreAdapter.cs|PowerShell|PowerShell|DataStoreAdapter.cs|C#|334|417|81
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/FormatAndOutput/common/BaseFormattingCommandParameters.cs|PowerShell|PowerShell|BaseFormattingCommandParameters.cs|C#|331|76|82
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/Modules/TestModuleManifestCommand.cs|PowerShell|PowerShell|TestModuleManifestCommand.cs|C#|331|66|40
-./src/_00/output/C#/PowerShell~PowerShell/.pipelines/templates/uploadToAzure.yml|PowerShell|PowerShell|uploadToAzure.yml|YAML|329|32|52
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/remoting/client/clientremotesession.cs|PowerShell|PowerShell|clientremotesession.cs|C#|329|186|91
 ./src/_00/output/C#/PowerShell~PowerShell/test/powershell/engine/Job/Jobs.Tests.ps1|PowerShell|PowerShell|Jobs.Tests.ps1|PowerShell|329|17|60
 ./src/_00/output/C#/PowerShell~PowerShell/docs/testing-guidelines/PowerShellCoreTestStatus.md|PowerShell|PowerShell|PowerShellCoreTestStatus.md|Markdown|328|0|6
@@ -924,11 +924,11 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/remoting/client/ClientMethodExecutor.cs|PowerShell|PowerShell|ClientMethodExecutor.cs|C#|152|61|30
 ./src/_00/output/C#/PowerShell~PowerShell/tools/packages.microsoft.com/mapping.json|PowerShell|PowerShell|mapping.json|JSON|152|0|0
 ./src/_00/output/C#/PowerShell~PowerShell/.pipelines/templates/linux-package-build.yml|PowerShell|PowerShell|linux-package-build.yml|YAML|151|1|33
+./src/_00/output/C#/PowerShell~PowerShell/docs/community/working-group-definitions.md|PowerShell|PowerShell|working-group-definitions.md|Markdown|151|0|48
 ./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.PowerShell.Commands.Utility/commands/utility/WebCmdlet/Common/BasicHtmlWebResponseObject.Common.cs|PowerShell|PowerShell|BasicHtmlWebResponseObject.Common.cs|C#|151|57|43
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/resources/AutomationExceptions.resx|PowerShell|PowerShell|AutomationExceptions.resx|XML|151|48|11
 ./src/_00/output/C#/PowerShell~PowerShell/test/powershell/Modules/Microsoft.PowerShell.Utility/Group-Object.Tests.ps1|PowerShell|PowerShell|Group-Object.Tests.ps1|PowerShell|151|3|47
 ./src/_00/output/C#/PowerShell~PowerShell/tools/releaseBuild/azureDevOps/templates/signBuildFiles.yml|PowerShell|PowerShell|signBuildFiles.yml|YAML|151|3|35
-./src/_00/output/C#/PowerShell~PowerShell/docs/community/working-group-definitions.md|PowerShell|PowerShell|working-group-definitions.md|Markdown|150|0|48
 ./src/_00/output/C#/PowerShell~PowerShell/test/powershell/Modules/Microsoft.PowerShell.Utility/Export-FormatData.Tests.ps1|PowerShell|PowerShell|Export-FormatData.Tests.ps1|PowerShell|150|2|23
 ./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.Management.UI.Internal/ManagementList/Common/DismissiblePopup.Generated.cs|PowerShell|PowerShell|DismissiblePopup.Generated.cs|C#|149|89|35
 ./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.PowerShell.Commands.Utility/commands/utility/Sort-Object.cs|PowerShell|PowerShell|Sort-Object.cs|C#|149|83|42
@@ -1038,6 +1038,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.PowerShell.Commands.Utility/commands/utility/Update-List.cs|PowerShell|PowerShell|Update-List.cs|C#|129|41|19
 ./src/_00/output/C#/PowerShell~PowerShell/src/ResGen/Program.cs|PowerShell|PowerShell|Program.cs|C#|129|34|26
 ./src/_00/output/C#/PowerShell~PowerShell/test/powershell/Language/Classes/Scripting.Classes.Break.Tests.ps1|PowerShell|PowerShell|Scripting.Classes.Break.Tests.ps1|PowerShell|129|2|16
+./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.PowerShell.ConsoleHost/resources/ConsoleHostStrings.resx|PowerShell|PowerShell|ConsoleHostStrings.resx|XML|128|48|12
 ./src/_00/output/C#/PowerShell~PowerShell/src/Schemas/PSMaml/structure.xsd|PowerShell|PowerShell|structure.xsd|XSD|128|4|0
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/OrderedHashtable.cs|PowerShell|PowerShell|OrderedHashtable.cs|C#|128|83|25
 ./src/_00/output/C#/PowerShell~PowerShell/test/powershell/engine/ParameterBinding/StaticParameterBinder.Tests.ps1|PowerShell|PowerShell|StaticParameterBinder.Tests.ps1|PowerShell|128|2|4
@@ -1053,7 +1054,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C#/PowerShell~PowerShell/tools/releaseToWinget.ps1|PowerShell|PowerShell|releaseToWinget.ps1|PowerShell|126|6|34
 ./src/_00/output/C#/PowerShell~PowerShell/.pipelines/templates/compliance/generateNotice.yml|PowerShell|PowerShell|generateNotice.yml|YAML|125|6|23
 ./src/_00/output/C#/PowerShell~PowerShell/.vsts-ci/windows-daily.yml|PowerShell|PowerShell|windows-daily.yml|YAML|125|4|17
-./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.PowerShell.ConsoleHost/resources/ConsoleHostStrings.resx|PowerShell|PowerShell|ConsoleHostStrings.resx|XML|125|48|12
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/FormatAndOutput/DefaultFormatters/Certificate_format_ps1xml.cs|PowerShell|PowerShell|Certificate_format_ps1xml.cs|C#|125|2|14
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/FormatAndOutput/common/ColumnWidthManager.cs|PowerShell|PowerShell|ColumnWidthManager.cs|C#|125|57|26
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/remoting/commands/removerunspacecommand.cs|PowerShell|PowerShell|removerunspacecommand.cs|C#|125|50|23
@@ -1234,7 +1234,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.PowerShell.Security/security/Utils.cs|PowerShell|PowerShell|Utils.cs|C#|98|50|21
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/help/UpdatableHelpInfo.cs|PowerShell|PowerShell|UpdatableHelpInfo.cs|C#|98|70|27
 ./src/_00/output/C#/PowerShell~PowerShell/test/perf/dotnet-tools/BenchmarkDotNet.Extensions/PerfLabExporter.cs|PowerShell|PowerShell|PerfLabExporter.cs|C#|98|3|14
-./src/_00/output/C#/PowerShell~PowerShell/.pipelines/templates/release-githubtasks.yml|PowerShell|PowerShell|release-githubtasks.yml|YAML|97|1|18
 ./src/_00/output/C#/PowerShell~PowerShell/.pipelines/templates/release-validate-sdk.yml|PowerShell|PowerShell|release-validate-sdk.yml|YAML|97|5|32
 ./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.PowerShell.Commands.Utility/commands/utility/GetEventCommand.cs|PowerShell|PowerShell|GetEventCommand.cs|C#|97|20|21
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/parser/PreOrderVisitor.cs|PowerShell|PowerShell|PreOrderVisitor.cs|C#|97|96|71
@@ -1293,6 +1292,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/interpreter/BranchLabel.cs|PowerShell|PowerShell|BranchLabel.cs|C#|90|17|22
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/interpreter/InstructionFactory.cs|PowerShell|PowerShell|InstructionFactory.cs|C#|90|16|24
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/namespaces/PathInfo.cs|PowerShell|PowerShell|PathInfo.cs|C#|90|57|18
+./src/_00/output/C#/PowerShell~PowerShell/test/powershell/Modules/Microsoft.PowerShell.Management/Get-PSDrive.Tests.ps1|PowerShell|PowerShell|Get-PSDrive.Tests.ps1|PowerShell|90|4|22
 ./src/_00/output/C#/PowerShell~PowerShell/test/powershell/Modules/Microsoft.PowerShell.Utility/Import-Alias.Tests.ps1|PowerShell|PowerShell|Import-Alias.Tests.ps1|PowerShell|90|7|21
 ./src/_00/output/C#/PowerShell~PowerShell/test/powershell/Modules/Microsoft.PowerShell.Utility/Write-Stream.Tests.ps1|PowerShell|PowerShell|Write-Stream.Tests.ps1|PowerShell|90|10|25
 ./src/_00/output/C#/PowerShell~PowerShell/.pipelines/apiscan-gen-notice.yml|PowerShell|PowerShell|apiscan-gen-notice.yml|YAML|89|10|6
@@ -1323,6 +1323,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C#/PowerShell~PowerShell/.github/ISSUE_TEMPLATE/Microsoft_Update_Issue.yaml|PowerShell|PowerShell|Microsoft_Update_Issue.yaml|YAML|86|0|1
 ./src/_00/output/C#/PowerShell~PowerShell/.vsts-ci/windows/templates/windows-packaging.yml|PowerShell|PowerShell|windows-packaging.yml|YAML|86|1|20
 ./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.Management.Infrastructure.CimCmdlets/CimPromptUser.cs|PowerShell|PowerShell|CimPromptUser.cs|C#|86|35|12
+./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.PowerShell.Commands.Utility/commands/utility/WriteConsoleCmdlet.cs|PowerShell|PowerShell|WriteConsoleCmdlet.cs|C#|86|25|17
 ./src/_00/output/C#/PowerShell~PowerShell/src/Schemas/PSMaml/blockCommon.xsd|PowerShell|PowerShell|blockCommon.xsd|XSD|86|4|0
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/SourceGenerators/PSVersionInfoGenerator/PSVersionInfoGenerator.cs|PowerShell|PowerShell|PSVersionInfoGenerator.cs|C#|86|33|17
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/EnumMinimumDisambiguation.cs|PowerShell|PowerShell|EnumMinimumDisambiguation.cs|C#|86|28|13
@@ -1381,7 +1382,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.PowerShell.Commands.Utility/commands/utility/ConsoleColorCmdlet.cs|PowerShell|PowerShell|ConsoleColorCmdlet.cs|C#|81|15|12
 ./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.PowerShell.Commands.Utility/commands/utility/Get-Error.cs|PowerShell|PowerShell|Get-Error.cs|C#|81|16|15
 ./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.PowerShell.Commands.Utility/commands/utility/GetUnique.cs|PowerShell|PowerShell|GetUnique.cs|C#|81|24|15
-./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.PowerShell.Commands.Utility/commands/utility/WriteConsoleCmdlet.cs|PowerShell|PowerShell|WriteConsoleCmdlet.cs|C#|81|25|17
 ./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.PowerShell.ConsoleHost/host/msh/ConsoleHostUserInterfaceSecurity.cs|PowerShell|PowerShell|ConsoleHostUserInterfaceSecurity.cs|C#|81|31|14
 ./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.PowerShell.LocalAccounts/LocalAccounts/Commands/NewLocalGroupCommand.cs|PowerShell|PowerShell|NewLocalGroupCommand.cs|C#|81|23|17
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/FormatAndOutput/common/FormatMsgCtxManager.cs|PowerShell|PowerShell|FormatMsgCtxManager.cs|C#|81|47|16
@@ -1424,6 +1424,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/ApplicationInfo.cs|PowerShell|PowerShell|ApplicationInfo.cs|C#|77|47|18
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/help/HelpRequest.cs|PowerShell|PowerShell|HelpRequest.cs|C#|77|80|21
 ./src/_00/output/C#/PowerShell~PowerShell/test/powershell/Modules/Microsoft.PowerShell.Core/Get-PSHostProcessInfo.Tests.ps1|PowerShell|PowerShell|Get-PSHostProcessInfo.Tests.ps1|PowerShell|77|8|16
+./src/_00/output/C#/PowerShell~PowerShell/.pipelines/templates/release-githubtasks.yml|PowerShell|PowerShell|release-githubtasks.yml|YAML|76|1|12
 ./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.Management.UI.Internal/ManagementList/ManagementList/UIPropertyGroupDescription.cs|PowerShell|PowerShell|UIPropertyGroupDescription.cs|C#|76|39|13
 ./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.PowerShell.Commands.Utility/resources/MatchStringStrings.resx|PowerShell|PowerShell|MatchStringStrings.resx|XML|76|48|11
 ./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.PowerShell.Commands.Utility/resources/SelectObjectStrings.resx|PowerShell|PowerShell|SelectObjectStrings.resx|XML|76|48|11
@@ -1451,6 +1452,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/AutomationEngine.cs|PowerShell|PowerShell|AutomationEngine.cs|C#|74|36|19
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/runtime/Operations/StringOps.cs|PowerShell|PowerShell|StringOps.cs|C#|74|19|15
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/help/HelpNotFoundException.cs|PowerShell|PowerShell|HelpNotFoundException.cs|C#|74|41|17
+./src/_00/output/C#/PowerShell~PowerShell/test/powershell/Host/HostUtilities.Tests.ps1|PowerShell|PowerShell|HostUtilities.Tests.ps1|PowerShell|74|2|22
 ./src/_00/output/C#/PowerShell~PowerShell/test/powershell/Language/Classes/Scripting.Classes.StaticMethod.Tests.ps1|PowerShell|PowerShell|Scripting.Classes.StaticMethod.Tests.ps1|PowerShell|74|24|24
 ./src/_00/output/C#/PowerShell~PowerShell/test/powershell/Modules/Microsoft.PowerShell.Core/Exec.Tests.ps1|PowerShell|PowerShell|Exec.Tests.ps1|PowerShell|74|2|15
 ./src/_00/output/C#/PowerShell~PowerShell/test/powershell/Modules/Microsoft.PowerShell.Utility/Get-FileHash.Tests.ps1|PowerShell|PowerShell|Get-FileHash.Tests.ps1|PowerShell|74|7|14
@@ -1464,9 +1466,11 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/resources/HostInterfaceExceptionsStrings.resx|PowerShell|PowerShell|HostInterfaceExceptionsStrings.resx|XML|73|48|11
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/resources/MshSnapInCmdletResources.resx|PowerShell|PowerShell|MshSnapInCmdletResources.resx|XML|73|48|11
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/resources/ProgressRecordStrings.resx|PowerShell|PowerShell|ProgressRecordStrings.resx|XML|73|48|11
+./src/_00/output/C#/PowerShell~PowerShell/test/powershell/Modules/Microsoft.PowerShell.Utility/Write-Host.Tests.ps1|PowerShell|PowerShell|Write-Host.Tests.ps1|PowerShell|73|2|19
 ./src/_00/output/C#/PowerShell~PowerShell/test/powershell/engine/Formatting/OutputRendering.Tests.ps1|PowerShell|PowerShell|OutputRendering.Tests.ps1|PowerShell|73|4|15
 ./src/_00/output/C#/PowerShell~PowerShell/.pipelines/templates/SetVersionVariables.yml|PowerShell|PowerShell|SetVersionVariables.yml|YAML|72|0|7
 ./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.PowerShell.Commands.Diagnostics/CounterSample.cs|PowerShell|PowerShell|CounterSample.cs|C#|72|2|20
+./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/Interop/Windows/WNetGetConnection.cs|PowerShell|PowerShell|WNetGetConnection.cs|C#|72|5|9
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/PseudoParameterBinder.cs|PowerShell|PowerShell|PseudoParameterBinder.cs|C#|72|48|16
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/namespaces/DriveProviderBase.cs|PowerShell|PowerShell|DriveProviderBase.cs|C#|72|145|21
 ./src/_00/output/C#/PowerShell~PowerShell/test/powershell/Modules/Microsoft.PowerShell.Management/Get-Service.Tests.ps1|PowerShell|PowerShell|Get-Service.Tests.ps1|PowerShell|72|5|7
@@ -1479,7 +1483,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/remoting/server/ServerMethodExecutor.cs|PowerShell|PowerShell|ServerMethodExecutor.cs|C#|71|56|23
 ./src/_00/output/C#/PowerShell~PowerShell/test/docker/networktest/DockerRemoting.Tests.ps1|PowerShell|PowerShell|DockerRemoting.Tests.ps1|PowerShell|71|8|10
 ./src/_00/output/C#/PowerShell~PowerShell/test/powershell/Language/Scripting/Generics.Tests.ps1|PowerShell|PowerShell|Generics.Tests.ps1|PowerShell|71|8|15
-./src/_00/output/C#/PowerShell~PowerShell/test/powershell/Modules/Microsoft.PowerShell.Utility/Write-Host.Tests.ps1|PowerShell|PowerShell|Write-Host.Tests.ps1|PowerShell|71|2|19
 ./src/_00/output/C#/PowerShell~PowerShell/tools/releaseBuild/azureDevOps/templates/windows-hosted-build.yml|PowerShell|PowerShell|windows-hosted-build.yml|YAML|71|0|13
 ./src/_00/output/C#/PowerShell~PowerShell/.vsts-ci/templates/windows-test.yml|PowerShell|PowerShell|windows-test.yml|YAML|70|3|13
 ./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.PowerShell.Commands.Management/commands/management/StartTransactionCommand.cs|PowerShell|PowerShell|StartTransactionCommand.cs|C#|70|25|15
@@ -1512,7 +1515,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.Management.UI.Internal/ManagementList/CommonControls/ExpanderButtonAutomationPeer.cs|PowerShell|PowerShell|ExpanderButtonAutomationPeer.cs|C#|68|27|19
 ./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.PowerShell.Commands.Utility/commands/utility/trace/MshHostTraceListener.cs|PowerShell|PowerShell|MshHostTraceListener.cs|C#|68|39|13
 ./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.PowerShell.Security/security/CredentialCommands.cs|PowerShell|PowerShell|CredentialCommands.cs|C#|68|36|17
-./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/hostifaces/MshHost.cs|PowerShell|PowerShell|MshHost.cs|C#|68|232|23
+./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/hostifaces/MshHost.cs|PowerShell|PowerShell|MshHost.cs|C#|68|237|23
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/resources/CimInstanceTypeAdapterResources.resx|PowerShell|PowerShell|CimInstanceTypeAdapterResources.resx|XML|68|48|11
 ./src/_00/output/C#/PowerShell~PowerShell/test/perf/benchmarks/README.md|PowerShell|PowerShell|README.md|Markdown|68|0|24
 ./src/_00/output/C#/PowerShell~PowerShell/test/powershell/Modules/Microsoft.PowerShell.Management/Clipboard.Tests.ps1|PowerShell|PowerShell|Clipboard.Tests.ps1|PowerShell|68|2|16
@@ -1558,6 +1561,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C#/PowerShell~PowerShell/test/powershell/Modules/Microsoft.PowerShell.Utility/Environment-Variables.Tests.ps1|PowerShell|PowerShell|Environment-Variables.Tests.ps1|PowerShell|65|3|14
 ./src/_00/output/C#/PowerShell~PowerShell/tools/releaseBuild/azureDevOps/templates/upload.yml|PowerShell|PowerShell|upload.yml|YAML|65|10|8
 ./src/_00/output/C#/PowerShell~PowerShell/.github/ISSUE_TEMPLATE/Distribution_Request.yaml|PowerShell|PowerShell|Distribution_Request.yaml|YAML|64|0|0
+./src/_00/output/C#/PowerShell~PowerShell/.pipelines/templates/release-SetTagAndTools.yml|PowerShell|PowerShell|release-SetTagAndTools.yml|YAML|64|0|11
 ./src/_00/output/C#/PowerShell~PowerShell/assets/GroupPolicy/InstallPSCorePolicyDefinitions.ps1|PowerShell|PowerShell|InstallPSCorePolicyDefinitions.ps1|PowerShell|64|14|10
 ./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.Management.UI.Internal/resources/public.GraphicalHostResources.resx|PowerShell|PowerShell|public.GraphicalHostResources.resx|XML|64|48|11
 ./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.PowerShell.Commands.Management/resources/HotFixResources.resx|PowerShell|PowerShell|HotFixResources.resx|XML|64|48|11
@@ -1594,12 +1598,10 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/lang/codegen.cs|PowerShell|PowerShell|codegen.cs|C#|63|35|12
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/help/CabinetAPI.cs|PowerShell|PowerShell|CabinetAPI.cs|C#|63|60|16
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/utils/BackgroundDispatcher.cs|PowerShell|PowerShell|BackgroundDispatcher.cs|C#|63|46|24
-./src/_00/output/C#/PowerShell~PowerShell/test/powershell/Modules/Microsoft.PowerShell.Management/Get-PSDrive.Tests.ps1|PowerShell|PowerShell|Get-PSDrive.Tests.ps1|PowerShell|63|2|16
 ./src/_00/output/C#/PowerShell~PowerShell/test/powershell/Modules/Microsoft.PowerShell.Utility/command.tests.ps1|PowerShell|PowerShell|command.tests.ps1|PowerShell|63|3|16
 ./src/_00/output/C#/PowerShell~PowerShell/test/powershell/engine/Basic/StandardLibraryTypes.Tests.ps1|PowerShell|PowerShell|StandardLibraryTypes.Tests.ps1|PowerShell|63|7|3
 ./src/_00/output/C#/PowerShell~PowerShell/.vscode/tasks.json|PowerShell|PowerShell|tasks.json|JSON|62|0|2
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/ComInterop/TypeLibMetaObject.cs|PowerShell|PowerShell|TypeLibMetaObject.cs|C#|62|2|10
-./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/Interop/Windows/WNetGetConnection.cs|PowerShell|PowerShell|WNetGetConnection.cs|C#|62|7|12
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/ScriptInfo.cs|PowerShell|PowerShell|ScriptInfo.cs|C#|62|48|16
 ./src/_00/output/C#/PowerShell~PowerShell/test/powershell/Language/Scripting/NativeExecution/NativeStreams.Tests.ps1|PowerShell|PowerShell|NativeStreams.Tests.ps1|PowerShell|62|6|13
 ./src/_00/output/C#/PowerShell~PowerShell/test/powershell/Modules/Microsoft.PowerShell.Management/Rename-Computer.Tests.ps1|PowerShell|PowerShell|Rename-Computer.Tests.ps1|PowerShell|62|9|9
@@ -1625,7 +1627,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C#/PowerShell~PowerShell/src/Modules/Unix/Microsoft.PowerShell.Management/Microsoft.PowerShell.Management.psd1|PowerShell|PowerShell|Microsoft.PowerShell.Management.psd1|PowerShell|60|0|0
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/FormatAndOutput/out-textInterface/OutTextInterface.cs|PowerShell|PowerShell|OutTextInterface.cs|C#|60|16|16
 ./src/_00/output/C#/PowerShell~PowerShell/src/System.Management.Automation/engine/ComInterop/Errors.cs|PowerShell|PowerShell|Errors.cs|C#|60|44|14
-./src/_00/output/C#/PowerShell~PowerShell/test/powershell/Host/HostUtilities.Tests.ps1|PowerShell|PowerShell|HostUtilities.Tests.ps1|PowerShell|60|2|21
 ./src/_00/output/C#/PowerShell~PowerShell/test/powershell/Modules/Microsoft.PowerShell.Utility/ConvertFrom-Csv.Tests.ps1|PowerShell|PowerShell|ConvertFrom-Csv.Tests.ps1|PowerShell|60|5|17
 ./src/_00/output/C#/PowerShell~PowerShell/test/powershell/Modules/Microsoft.PowerShell.Utility/Read-Host.Tests.ps1|PowerShell|PowerShell|Read-Host.Tests.ps1|PowerShell|60|4|9
 ./src/_00/output/C#/PowerShell~PowerShell/test/powershell/Modules/Microsoft.PowerShell.Utility/string.tests.ps1|PowerShell|PowerShell|string.tests.ps1|PowerShell|60|3|16
@@ -1782,6 +1783,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C#/PowerShell~PowerShell/tools/install-powershell.sh-README.md|PowerShell|PowerShell|install-powershell.sh-README.md|Markdown|47|0|21
 ./src/_00/output/C#/PowerShell~PowerShell/tools/releaseBuild/azureDevOps/templates/checkAzureContainer.yml|PowerShell|PowerShell|checkAzureContainer.yml|YAML|47|0|4
 ./src/_00/output/C#/PowerShell~PowerShell/tools/releaseBuild/azureDevOps/templates/release-ReleaseToNuGet.yml|PowerShell|PowerShell|release-ReleaseToNuGet.yml|YAML|47|2|7
+./src/_00/output/C#/PowerShell~PowerShell/.pipelines/templates/release-publish-nuget.yml|PowerShell|PowerShell|release-publish-nuget.yml|YAML|46|2|8
 ./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.Management.UI.Internal/ManagementList/Common/IntegralConverter.cs|PowerShell|PowerShell|IntegralConverter.cs|C#|46|25|12
 ./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.Management.UI.Internal/ManagementList/Common/StateDescriptor.cs|PowerShell|PowerShell|StateDescriptor.cs|C#|46|27|10
 ./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.PowerShell.Commands.Management/Microsoft.PowerShell.Commands.Management.csproj|PowerShell|PowerShell|Microsoft.PowerShell.Commands.Management.csproj|MSBuild script|46|1|6
@@ -1807,7 +1809,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C#/PowerShell~PowerShell/test/xUnit/csharp/test_NamedPipe.cs|PowerShell|PowerShell|test_NamedPipe.cs|C#|45|4|9
 ./src/_00/output/C#/PowerShell~PowerShell/test/xUnit/csharp/test_Serialization.cs|PowerShell|PowerShell|test_Serialization.cs|C#|45|2|3
 ./src/_00/output/C#/PowerShell~PowerShell/tools/releaseBuild/azureDevOps/templates/release-PublishSymbols.yml|PowerShell|PowerShell|release-PublishSymbols.yml|YAML|45|0|6
-./src/_00/output/C#/PowerShell~PowerShell/.pipelines/templates/release-publish-nuget.yml|PowerShell|PowerShell|release-publish-nuget.yml|YAML|44|2|11
 ./src/_00/output/C#/PowerShell~PowerShell/assets/AppxManifest.xml|PowerShell|PowerShell|AppxManifest.xml|XML|44|0|7
 ./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.Management.UI.Internal/CommonHelper.cs|PowerShell|PowerShell|CommonHelper.cs|C#|44|18|9
 ./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.Management.UI.Internal/ManagementList/FilterCore/FilterRules/SingleValueComparableValueFilterRule.cs|PowerShell|PowerShell|SingleValueComparableValueFilterRule.cs|C#|44|17|10
@@ -1849,6 +1850,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C#/PowerShell~PowerShell/tools/clearlyDefined/ClearlyDefined.ps1|PowerShell|PowerShell|ClearlyDefined.ps1|PowerShell|42|2|7
 ./src/_00/output/C#/PowerShell~PowerShell/tools/releaseBuild/createComplianceFolder.ps1|PowerShell|PowerShell|createComplianceFolder.ps1|PowerShell|42|10|7
 ./src/_00/output/C#/PowerShell~PowerShell/.github/ISSUE_TEMPLATE/Release_Process.yaml|PowerShell|PowerShell|Release_Process.yaml|YAML|41|0|0
+./src/_00/output/C#/PowerShell~PowerShell/.pipelines/templates/variable/release-shared.yml|PowerShell|PowerShell|release-shared.yml|YAML|41|0|1
 ./src/_00/output/C#/PowerShell~PowerShell/.vscode/launch.json|PowerShell|PowerShell|launch.json|JSON|41|0|0
 ./src/_00/output/C#/PowerShell~PowerShell/assets/ps_black_128.svg|PowerShell|PowerShell|ps_black_128.svg|SVG|41|1|0
 ./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.Management.UI.Internal/ManagementList/FilterCore/FilterExpressionNodes/FilterExpressionNode.cs|PowerShell|PowerShell|FilterExpressionNode.cs|C#|41|23|8
@@ -1989,7 +1991,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C#/PowerShell~PowerShell/test/powershell/README.md|PowerShell|PowerShell|README.md|Markdown|32|0|15
 ./src/_00/output/C#/PowerShell~PowerShell/test/tools/TestAlc/TestAlc.sln|PowerShell|PowerShell|TestAlc.sln|Visual Studio Solution|32|1|1
 ./src/_00/output/C#/PowerShell~PowerShell/tools/packaging/packaging.psd1|PowerShell|PowerShell|packaging.psd1|PowerShell|32|0|0
-./src/_00/output/C#/PowerShell~PowerShell/.pipelines/templates/variable/release-shared.yml|PowerShell|PowerShell|release-shared.yml|YAML|31|0|1
 ./src/_00/output/C#/PowerShell~PowerShell/.vscode/settings.json|PowerShell|PowerShell|settings.json|JSON|31|0|9
 ./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.Management.UI.Internal/ManagementList/CommonControls/ResizerGripThicknessConverter.cs|PowerShell|PowerShell|ResizerGripThicknessConverter.cs|C#|31|30|8
 ./src/_00/output/C#/PowerShell~PowerShell/src/Microsoft.Management.UI.Internal/ManagementList/FilterCore/FilterExpressionNodes/FilterExpressionOperandNode.cs|PowerShell|PowerShell|FilterExpressionOperandNode.cs|C#|31|26|12
@@ -2074,6 +2075,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/C#/PowerShell~PowerShell/test/powershell/Modules/Microsoft.PowerShell.Utility/Import-LocalizedData.Tests.ps1|PowerShell|PowerShell|Import-LocalizedData.Tests.ps1|PowerShell|26|3|8
 ./src/_00/output/C#/PowerShell~PowerShell/test/powershell/engine/Module/UpdateModuleManifest.Tests.ps1|PowerShell|PowerShell|UpdateModuleManifest.Tests.ps1|PowerShell|26|2|5
 ./src/_00/output/C#/PowerShell~PowerShell/tools/ResxGen/ResxGen.ps1|PowerShell|PowerShell|ResxGen.ps1|PowerShell|26|21|14
+./src/_00/output/C#/PowerShell~PowerShell/.pipelines/templates/release-SetReleaseTagandContainerName.yml|PowerShell|PowerShell|release-SetReleaseTagandContainerName.yml|YAML|25|0|3
 ./src/_00/output/C#/PowerShell~PowerShell/.pipelines/templates/shouldSign.yml|PowerShell|PowerShell|shouldSign.yml|YAML|25|0|0
 ./src/_00/output/C#/PowerShell~PowerShell/docs/building/macos.md|PowerShell|PowerShell|macos.md|Markdown|25|0|14
 ./src/_00/output/C#/PowerShell~PowerShell/docs/host-powershell/sample/MyApp/Program.cs|PowerShell|PowerShell|Program.cs|C#|25|5|5

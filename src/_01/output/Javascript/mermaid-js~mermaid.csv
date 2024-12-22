@@ -1,5 +1,5 @@
 path|owner|project|file|language|code|comment|blank
-./src/_00/output/Javascript/mermaid-js~mermaid/pnpm-lock.yaml|mermaid-js|mermaid|pnpm-lock.yaml|YAML|15776|0|4401
+./src/_00/output/Javascript/mermaid-js~mermaid/pnpm-lock.yaml|mermaid-js|mermaid|pnpm-lock.yaml|YAML|15770|0|4399
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/schemas/config.schema.yaml|mermaid-js|mermaid|config.schema.yaml|YAML|2126|59|56
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/diagrams/sequence/sequenceDiagram.spec.js|mermaid-js|mermaid|sequenceDiagram.spec.js|JavaScript|1771|38|264
 ./src/_00/output/Javascript/mermaid-js~mermaid/docs/syntax/gitgraph.md|mermaid-js|mermaid|gitgraph.md|Markdown|1697|0|241
@@ -11,6 +11,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/diagrams/git/gitGraphRenderer.ts|mermaid-js|mermaid|gitGraphRenderer.ts|TypeScript|1220|19|111
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/diagrams/git/gitGraph.spec.ts|mermaid-js|mermaid|gitGraph.spec.ts|TypeScript|1172|9|141
 ./src/_00/output/Javascript/mermaid-js~mermaid/cypress/platform/state-refactor.html|mermaid-js|mermaid|state-refactor.html|HTML|1094|15|162
+./src/_00/output/Javascript/mermaid-js~mermaid/cypress/integration/rendering/flowchart-elk.spec.js|mermaid-js|mermaid|flowchart-elk.spec.js|JavaScript|1030|7|57
 ./src/_00/output/Javascript/mermaid-js~mermaid/cypress/integration/rendering/flowchart-v2.spec.js|mermaid-js|mermaid|flowchart-v2.spec.js|JavaScript|1022|7|50
 ./src/_00/output/Javascript/mermaid-js~mermaid/cypress/integration/rendering/sequencediagram.spec.js|mermaid-js|mermaid|sequencediagram.spec.js|JavaScript|1018|11|16
 ./src/_00/output/Javascript/mermaid-js~mermaid/cypress/integration/rendering/classDiagram-handDrawn-v3.spec.js|mermaid-js|mermaid|classDiagram-handDrawn-v3.spec.js|JavaScript|1001|0|40
@@ -23,8 +24,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/diagrams/sequence/svgDraw.js|mermaid-js|mermaid|svgDraw.js|JavaScript|876|142|106
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/diagrams/flowchart/flowDb.ts|mermaid-js|mermaid|flowDb.ts|TypeScript|875|94|94
 ./src/_00/output/Javascript/mermaid-js~mermaid/cypress/integration/rendering/flowchart.spec.js|mermaid-js|mermaid|flowchart.spec.js|JavaScript|867|7|46
-./src/_00/output/Javascript/mermaid-js~mermaid/cypress/integration/rendering/flowchart-elk.spec.js|mermaid-js|mermaid|flowchart-elk.spec.js|JavaScript|856|7|41
-./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid-layout-elk/src/render.ts|mermaid-js|mermaid|render.ts|TypeScript|813|115|104
+./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid-layout-elk/src/render.ts|mermaid-js|mermaid|render.ts|TypeScript|808|111|104
 ./src/_00/output/Javascript/mermaid-js~mermaid/CHANGELOG.md|mermaid-js|mermaid|CHANGELOG.md|Markdown|807|0|198
 ./src/_00/output/Javascript/mermaid-js~mermaid/cypress/platform/flowchart-refactor.html|mermaid-js|mermaid|flowchart-refactor.html|HTML|807|29|30
 ./src/_00/output/Javascript/mermaid-js~mermaid/docs/syntax/classDiagram.md|mermaid-js|mermaid|classDiagram.md|Markdown|799|0|193
@@ -58,6 +58,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/rendering-util/rendering-elements/shapes.ts|mermaid-js|mermaid|shapes.ts|TypeScript|480|12|12
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/diagrams/git/gitGraphAst.ts|mermaid-js|mermaid|gitGraphAst.ts|TypeScript|478|11|33
 ./src/_00/output/Javascript/mermaid-js~mermaid/docs/syntax/c4.md|mermaid-js|mermaid|c4.md|Markdown|476|1|148
+./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/diagrams/architecture/architectureRenderer.ts|mermaid-js|mermaid|architectureRenderer.ts|TypeScript|459|33|42
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/diagrams/er/erRenderer.js|mermaid-js|mermaid|erRenderer.js|JavaScript|456|162|92
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/diagrams/timeline/svgDraw.js|mermaid-js|mermaid|svgDraw.js|JavaScript|454|70|58
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/diagrams/flowchart/parser/flow-text.spec.js|mermaid-js|mermaid|flow-text.spec.js|JavaScript|442|24|143
@@ -66,8 +67,8 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/diagrams/gantt/ganttDb.spec.ts|mermaid-js|mermaid|ganttDb.spec.ts|TypeScript|422|18|68
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/diagrams/flowchart/parser/flow-edges.spec.js|mermaid-js|mermaid|flow-edges.spec.js|JavaScript|421|0|75
 ./src/_00/output/Javascript/mermaid-js~mermaid/cypress/integration/rendering/classDiagram.spec.js|mermaid-js|mermaid|classDiagram.spec.js|JavaScript|417|52|29
-./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/diagrams/architecture/architectureRenderer.ts|mermaid-js|mermaid|architectureRenderer.ts|TypeScript|413|17|36
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/diagrams/kanban/kanban.spec.ts|mermaid-js|mermaid|kanban.spec.ts|TypeScript|410|19|65
+./src/_00/output/Javascript/mermaid-js~mermaid/cypress/platform/knsv2.html|mermaid-js|mermaid|knsv2.html|HTML|402|0|28
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/diagrams/xychart/chartBuilder/components/axis/baseAxis.ts|mermaid-js|mermaid|baseAxis.ts|TypeScript|402|0|20
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/diagrams/quadrant-chart/parser/quadrant.jison.spec.ts|mermaid-js|mermaid|quadrant.jison.spec.ts|TypeScript|393|1|42
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/rendering-util/rendering-elements/clusters.js|mermaid-js|mermaid|clusters.js|JavaScript|389|53|75
@@ -84,7 +85,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Javascript/mermaid-js~mermaid/docs/intro/index.md|mermaid-js|mermaid|index.md|Markdown|357|2|115
 ./src/_00/output/Javascript/mermaid-js~mermaid/cypress/integration/rendering/stateDiagram.spec.js|mermaid-js|mermaid|stateDiagram.spec.js|JavaScript|352|11|15
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/diagrams/state/stateDiagram-v2.spec.js|mermaid-js|mermaid|stateDiagram-v2.spec.js|JavaScript|351|10|56
-./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/mermaidAPI.ts|mermaid-js|mermaid|mermaidAPI.ts|TypeScript|345|138|71
+./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/mermaidAPI.ts|mermaid-js|mermaid|mermaidAPI.ts|TypeScript|346|138|71
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/docs/community/contributing.md|mermaid-js|mermaid|contributing.md|Markdown|343|3|179
 ./src/_00/output/Javascript/mermaid-js~mermaid/docs/community/contributing.md|mermaid-js|mermaid|contributing.md|Markdown|342|3|178
 ./src/_00/output/Javascript/mermaid-js~mermaid/README.md|mermaid-js|mermaid|README.md|Markdown|341|3|98
@@ -110,6 +111,8 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/themes/theme-forest.js|mermaid-js|mermaid|theme-forest.js|JavaScript|312|30|37
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/diagrams/user-journey/svgDraw.js|mermaid-js|mermaid|svgDraw.js|JavaScript|309|64|41
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/themes/theme-dark.js|mermaid-js|mermaid|theme-dark.js|JavaScript|305|30|41
+./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/diagrams/architecture/architectureDb.ts|mermaid-js|mermaid|architectureDb.ts|TypeScript|304|21|31
+./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/diagrams/architecture/architectureTypes.ts|mermaid-js|mermaid|architectureTypes.ts|TypeScript|300|44|39
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/diagrams/class/svgDraw.js|mermaid-js|mermaid|svgDraw.js|JavaScript|300|40|61
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/diagrams/state/dataFetcher.js|mermaid-js|mermaid|dataFetcher.js|JavaScript|300|50|29
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/themes/theme-base.js|mermaid-js|mermaid|theme-base.js|JavaScript|300|36|38
@@ -118,14 +121,11 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/diagrams/requirement/requirementRenderer.js|mermaid-js|mermaid|requirementRenderer.js|JavaScript|292|30|55
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/diagrams/class/classRenderer-v2.ts|mermaid-js|mermaid|classRenderer-v2.ts|TypeScript|290|80|46
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/diagrams/flowchart/parser/flow-style.spec.js|mermaid-js|mermaid|flow-style.spec.js|JavaScript|287|5|78
-./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/diagrams/architecture/architectureDb.ts|mermaid-js|mermaid|architectureDb.ts|TypeScript|286|18|29
 ./src/_00/output/Javascript/mermaid-js~mermaid/docs/config/setup/interfaces/mermaid.MermaidConfig.md|mermaid-js|mermaid|mermaid.MermaidConfig.md|Markdown|284|0|257
 ./src/_00/output/Javascript/mermaid-js~mermaid/docs/config/usage.md|mermaid-js|mermaid|usage.md|Markdown|283|4|110
-./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/diagrams/architecture/architectureTypes.ts|mermaid-js|mermaid|architectureTypes.ts|TypeScript|283|33|35
 ./src/_00/output/Javascript/mermaid-js~mermaid/README.zh-CN.md|mermaid-js|mermaid|README.zh-CN.md|Markdown|282|3|80
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/docs/config/usage.md|mermaid-js|mermaid|usage.md|Markdown|282|4|109
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/mermaid.ts|mermaid-js|mermaid|mermaid.ts|TypeScript|282|149|28
-./src/_00/output/Javascript/mermaid-js~mermaid/cypress/platform/knsv2.html|mermaid-js|mermaid|knsv2.html|HTML|281|0|15
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/docs/syntax/c4.md|mermaid-js|mermaid|c4.md|Markdown|281|1|89
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/dagre-wrapper/markers.js|mermaid-js|mermaid|markers.js|JavaScript|277|5|12
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/diagrams/timeline/timelineRenderer.ts|mermaid-js|mermaid|timelineRenderer.ts|TypeScript|277|43|37
@@ -150,12 +150,12 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/docs/syntax/zenuml.md|mermaid-js|mermaid|zenuml.md|Markdown|241|0|73
 ./src/_00/output/Javascript/mermaid-js~mermaid/demos/classchart.html|mermaid-js|mermaid|classchart.html|HTML|240|0|17
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/diagrams/gantt/parser/gantt.spec.js|mermaid-js|mermaid|gantt.spec.js|JavaScript|236|0|33
-./src/_00/output/Javascript/mermaid-js~mermaid/docs/ecosystem/integrations-community.md|mermaid-js|mermaid|integrations-community.md|Markdown|235|1|38
+./src/_00/output/Javascript/mermaid-js~mermaid/docs/ecosystem/integrations-community.md|mermaid-js|mermaid|integrations-community.md|Markdown|233|1|38
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/docs/syntax/timeline.md|mermaid-js|mermaid|timeline.md|Markdown|233|0|75
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/diagrams/block/renderHelpers.ts|mermaid-js|mermaid|renderHelpers.ts|TypeScript|231|8|15
-./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/docs/ecosystem/integrations-community.md|mermaid-js|mermaid|integrations-community.md|Markdown|231|1|37
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/defaultConfig.ts|mermaid-js|mermaid|defaultConfig.ts|TypeScript|230|14|27
-./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/diagrams/common/common.ts|mermaid-js|mermaid|common.ts|TypeScript|228|106|48
+./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/docs/ecosystem/integrations-community.md|mermaid-js|mermaid|integrations-community.md|Markdown|229|1|37
+./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/diagrams/common/common.ts|mermaid-js|mermaid|common.ts|TypeScript|228|105|48
 ./src/_00/output/Javascript/mermaid-js~mermaid/cypress/integration/rendering/mindmap.spec.ts|mermaid-js|mermaid|mindmap.spec.ts|TypeScript|227|11|12
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/diagrams/git/gitGraphParser.ts|mermaid-js|mermaid|gitGraphParser.ts|TypeScript|226|2|15
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/diagrams/user-journey/journeyRenderer.ts|mermaid-js|mermaid|journeyRenderer.ts|TypeScript|226|15|38
@@ -180,6 +180,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Javascript/mermaid-js~mermaid/cypress/integration/rendering/conf-and-directives.spec.js|mermaid-js|mermaid|conf-and-directives.spec.js|JavaScript|204|2|6
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/diagrams/flowchart/parser/flow-vertice-chaining.spec.js|mermaid-js|mermaid|flow-vertice-chaining.spec.js|JavaScript|204|0|18
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/mermaid.spec.ts|mermaid-js|mermaid|mermaid.spec.ts|TypeScript|202|6|19
+./src/_00/output/Javascript/mermaid-js~mermaid/cypress/integration/rendering/architecture.spec.ts|mermaid-js|mermaid|architecture.spec.ts|TypeScript|201|1|31
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/docs/config/theming.md|mermaid-js|mermaid|theming.md|Markdown|196|0|42
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/scripts/docs.spec.ts|mermaid-js|mermaid|docs.spec.ts|TypeScript|195|3|25
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/dagre-wrapper/blockArrowHelper.ts|mermaid-js|mermaid|blockArrowHelper.ts|TypeScript|194|41|10
@@ -207,7 +208,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Javascript/mermaid-js~mermaid/cypress/platform/saurabh.html|mermaid-js|mermaid|saurabh.html|HTML|166|0|8
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/diagrams/packet/packet.spec.ts|mermaid-js|mermaid|packet.spec.ts|TypeScript|164|0|11
 ./src/_00/output/Javascript/mermaid-js~mermaid/docs/adding-new-shape.md|mermaid-js|mermaid|adding-new-shape.md|Markdown|162|0|71
-./src/_00/output/Javascript/mermaid-js~mermaid/cypress/integration/rendering/architecture.spec.ts|mermaid-js|mermaid|architecture.spec.ts|TypeScript|160|1|20
 ./src/_00/output/Javascript/mermaid-js~mermaid/docs/intro/syntax-reference.md|mermaid-js|mermaid|syntax-reference.md|Markdown|160|0|57
 ./src/_00/output/Javascript/mermaid-js~mermaid/cypress/integration/rendering/timeline.spec.ts|mermaid-js|mermaid|timeline.spec.ts|TypeScript|159|0|5
 ./src/_00/output/Javascript/mermaid-js~mermaid/docs/config/setup/modules/config.md|mermaid-js|mermaid|config.md|Markdown|159|0|117
@@ -240,9 +240,9 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/diagrams/flowchart/styles.ts|mermaid-js|mermaid|styles.ts|TypeScript|143|15|24
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/docs/intro/index.md|mermaid-js|mermaid|index.md|Markdown|143|3|83
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/rendering-util/rendering-elements/shapes/kanbanItem.ts|mermaid-js|mermaid|kanbanItem.ts|TypeScript|143|2|18
-./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/package.json|mermaid-js|mermaid|package.json|JSON|142|0|0
 ./src/_00/output/Javascript/mermaid-js~mermaid/cypress/platform/gitgraph2.html|mermaid-js|mermaid|gitgraph2.html|HTML|141|0|0
 ./src/_00/output/Javascript/mermaid-js~mermaid/package.json|mermaid-js|mermaid|package.json|JSON|141|0|0
+./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/package.json|mermaid-js|mermaid|package.json|JSON|141|0|0
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/diagrams/requirement/requirementDb.js|mermaid-js|mermaid|requirementDb.js|JavaScript|140|0|28
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/diagrams/mindmap/mindmapDb.ts|mermaid-js|mermaid|mindmapDb.ts|TypeScript|139|5|15
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/docs/config/8.6.0_docs.md|mermaid-js|mermaid|8.6.0_docs.md|Markdown|138|0|75
@@ -257,9 +257,9 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/rendering-util/rendering-elements/shapes/rectWithTitle.ts|mermaid-js|mermaid|rectWithTitle.ts|TypeScript|132|9|17
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/rendering-util/types.ts|mermaid-js|mermaid|types.ts|TypeScript|131|28|20
 ./src/_00/output/Javascript/mermaid-js~mermaid/cypress/integration/rendering/iconShape.spec.ts|mermaid-js|mermaid|iconShape.spec.ts|TypeScript|130|2|11
-./src/_00/output/Javascript/mermaid-js~mermaid/scripts/tsc-check.ts|mermaid-js|mermaid|tsc-check.ts|TypeScript|130|31|14
 ./src/_00/output/Javascript/mermaid-js~mermaid/cypress/integration/rendering/newShapes.spec.ts|mermaid-js|mermaid|newShapes.spec.ts|TypeScript|129|4|13
 ./src/_00/output/Javascript/mermaid-js~mermaid/docs/news/blog.md|mermaid-js|mermaid|blog.md|Markdown|129|0|124
+./src/_00/output/Javascript/mermaid-js~mermaid/scripts/tsc-check.ts|mermaid-js|mermaid|tsc-check.ts|TypeScript|129|31|14
 ./src/_00/output/Javascript/mermaid-js~mermaid/cypress/platform/theme-directives.html|mermaid-js|mermaid|theme-directives.html|HTML|128|0|6
 ./src/_00/output/Javascript/mermaid-js~mermaid/demos/block.html|mermaid-js|mermaid|block.html|HTML|128|0|11
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/diagrams/state/parser/state-parser.spec.js|mermaid-js|mermaid|state-parser.spec.js|JavaScript|128|0|17
@@ -380,6 +380,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/diagrams/packet/renderer.ts|mermaid-js|mermaid|renderer.ts|TypeScript|82|4|8
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/diagrams/state/stateCommon.ts|mermaid-js|mermaid|stateCommon.ts|TypeScript|82|12|9
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/rendering-util/rendering-elements/nodes.ts|mermaid-js|mermaid|nodes.ts|TypeScript|82|2|12
+./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/CHANGELOG.md|mermaid-js|mermaid|CHANGELOG.md|Markdown|80|0|58
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/docs/syntax/kanban.md|mermaid-js|mermaid|kanban.md|Markdown|80|0|33
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/rendering-util/rendering-elements/createLabel.js|mermaid-js|mermaid|createLabel.js|JavaScript|80|18|7
 ./src/_00/output/Javascript/mermaid-js~mermaid/.github/workflows/lint.yml|mermaid-js|mermaid|lint.yml|YAML|79|5|13
@@ -399,7 +400,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/diagrams/kanban/kanbanRenderer.ts|mermaid-js|mermaid|kanbanRenderer.ts|TypeScript|76|10|10
 ./src/_00/output/Javascript/mermaid-js~mermaid/run|mermaid-js|mermaid|run|Bourne Again Shell|76|3|29
 ./src/_00/output/Javascript/mermaid-js~mermaid/scripts/size.ts|mermaid-js|mermaid|size.ts|TypeScript|76|1|6
-./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/CHANGELOG.md|mermaid-js|mermaid|CHANGELOG.md|Markdown|75|0|53
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/diagrams/timeline/styles.js|mermaid-js|mermaid|styles.js|JavaScript|75|0|6
 ./src/_00/output/Javascript/mermaid-js~mermaid/cypress/platform/click_security_other.html|mermaid-js|mermaid|click_security_other.html|HTML|73|0|10
 ./src/_00/output/Javascript/mermaid-js~mermaid/docs/config/math.md|mermaid-js|mermaid|math.md|Markdown|73|2|21
@@ -601,6 +601,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/rendering-util/rendering-elements/shapes/stateStart.ts|mermaid-js|mermaid|stateStart.ts|TypeScript|32|3|6
 ./src/_00/output/Javascript/mermaid-js~mermaid/tests/webpack/src/index.js|mermaid-js|mermaid|index.js|JavaScript|32|2|4
 ./src/_00/output/Javascript/mermaid-js~mermaid/cypress/platform/regression/issue-1874.html|mermaid-js|mermaid|issue-1874.html|HTML|31|0|0
+./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid-layout-elk/CHANGELOG.md|mermaid-js|mermaid|CHANGELOG.md|Markdown|31|0|24
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/dagre-wrapper/shapes/note.js|mermaid-js|mermaid|note.js|JavaScript|31|1|7
 ./src/_00/output/Javascript/mermaid-js~mermaid/.github/ISSUE_TEMPLATE/syntax_proposal.yml|mermaid-js|mermaid|syntax_proposal.yml|YAML|30|1|3
 ./src/_00/output/Javascript/mermaid-js~mermaid/.github/workflows/build-docs.yml|mermaid-js|mermaid|build-docs.yml|YAML|30|0|9
@@ -642,7 +643,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/rendering-util/rendering-elements/intersect/intersect-rect.js|mermaid-js|mermaid|intersect-rect.js|JavaScript|24|4|4
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/parser/src/language/common/tokenBuilder.ts|mermaid-js|mermaid|tokenBuilder.ts|TypeScript|24|2|5
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid-example-diagram/src/exampleDiagram.spec.js|mermaid-js|mermaid|exampleDiagram.spec.js|JavaScript|23|1|4
-./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid-layout-elk/CHANGELOG.md|mermaid-js|mermaid|CHANGELOG.md|Markdown|23|0|17
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/diagrams/common/commonDb.ts|mermaid-js|mermaid|commonDb.ts|TypeScript|23|0|9
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/diagrams/flowchart/parser/flow-huge.spec.js|mermaid-js|mermaid|flow-huge.spec.js|JavaScript|23|1|5
 ./src/_00/output/Javascript/mermaid-js~mermaid/packages/mermaid/src/diagrams/info/info.spec.ts|mermaid-js|mermaid|info.spec.ts|TypeScript|23|0|4
@@ -828,8 +828,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Javascript/mermaid-js~mermaid/patches/roughjs.patch|mermaid-js|mermaid|roughjs.patch|diff|5|5|0
 ./src/_00/output/Javascript/mermaid-js~mermaid/pnpm-workspace.yaml|mermaid-js|mermaid|pnpm-workspace.yaml|YAML|5|0|0
 ./src/_00/output/Javascript/mermaid-js~mermaid/.build/generateLangium.ts|mermaid-js|mermaid|generateLangium.ts|TypeScript|4|0|1
-./src/_00/output/Javascript/mermaid-js~mermaid/.changeset/eleven-rocks-leave.md|mermaid-js|mermaid|eleven-rocks-leave.md|Markdown|4|0|1
-./src/_00/output/Javascript/mermaid-js~mermaid/.changeset/fresh-bears-doubt.md|mermaid-js|mermaid|fresh-bears-doubt.md|Markdown|4|0|1
+./src/_00/output/Javascript/mermaid-js~mermaid/.changeset/angry-bags-brake.md|mermaid-js|mermaid|angry-bags-brake.md|Markdown|4|0|1
 ./src/_00/output/Javascript/mermaid-js~mermaid/.github/codeql/codeql-config.yml|mermaid-js|mermaid|codeql-config.yml|YAML|4|0|0
 ./src/_00/output/Javascript/mermaid-js~mermaid/cypress/support/e2e.js|mermaid-js|mermaid|e2e.js|JavaScript|4|17|2
 ./src/_00/output/Javascript/mermaid-js~mermaid/netlify.toml|mermaid-js|mermaid|netlify.toml|TOML|4|11|3

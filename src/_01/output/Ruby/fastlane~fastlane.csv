@@ -1,7 +1,7 @@
 path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Ruby/fastlane~fastlane/spaceship/spec/tunes/fixtures/iap_pricing_tiers.json|fastlane|fastlane|iap_pricing_tiers.json|JSON|373475|0|0
 ./src/_00/output/Ruby/fastlane~fastlane/spaceship/spec/tunes/fixtures/pricing_tiers.json|fastlane|fastlane|pricing_tiers.json|JSON|46182|0|0
-./src/_00/output/Ruby/fastlane~fastlane/fastlane/swift/Fastlane.swift|fastlane|fastlane|Fastlane.swift|Swift|9232|3935|697
+./src/_00/output/Ruby/fastlane~fastlane/fastlane/swift/Fastlane.swift|fastlane|fastlane|Fastlane.swift|Swift|9244|3939|697
 ./src/_00/output/Ruby/fastlane~fastlane/snapshot/spec/fixtures/Xcode-7_2_1-TestSummaries.plist|fastlane|fastlane|Xcode-7_2_1-TestSummaries.plist|XML|6295|0|0
 ./src/_00/output/Ruby/fastlane~fastlane/snapshot/spec/fixtures/Xcode-7_3-TestSummaries.plist|fastlane|fastlane|Xcode-7_3-TestSummaries.plist|XML|3872|0|0
 ./src/_00/output/Ruby/fastlane~fastlane/fastlane/assets/action_ranking.json|fastlane|fastlane|action_ranking.json|JSON|1891|0|0
@@ -62,8 +62,8 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Ruby/fastlane~fastlane/deliver/spec/upload_screenshots_spec.rb|fastlane|fastlane|upload_screenshots_spec.rb|Ruby|432|8|54
 ./src/_00/output/Ruby/fastlane~fastlane/fastlane_core/spec/device_manager_spec.rb|fastlane|fastlane|device_manager_spec.rb|Ruby|421|0|71
 ./src/_00/output/Ruby/fastlane~fastlane/fastlane_core/spec/fixtures/DeviceManagerSystem_profilerOutputUsbHub|fastlane|fastlane|DeviceManagerSystem_profilerOutputUsbHub|XML|420|5|1
+./src/_00/output/Ruby/fastlane~fastlane/supply/lib/supply/uploader.rb|fastlane|fastlane|uploader.rb|Ruby|418|32|86
 ./src/_00/output/Ruby/fastlane~fastlane/fastlane/spec/actions_specs/swiftlint_spec.rb|fastlane|fastlane|swiftlint_spec.rb|Ruby|417|5|86
-./src/_00/output/Ruby/fastlane~fastlane/supply/lib/supply/uploader.rb|fastlane|fastlane|uploader.rb|Ruby|414|31|86
 ./src/_00/output/Ruby/fastlane~fastlane/fastlane/spec/actions_specs/spm_spec.rb|fastlane|fastlane|spm_spec.rb|Ruby|409|3|91
 ./src/_00/output/Ruby/fastlane~fastlane/frameit/lib/frameit/editor.rb|fastlane|fastlane|editor.rb|Ruby|407|69|102
 ./src/_00/output/Ruby/fastlane~fastlane/spaceship/spec/tunes/fixtures/member_read_roles_before_appmanager_single_app.json|fastlane|fastlane|member_read_roles_before_appmanager_single_app.json|JSON|406|0|0
@@ -118,6 +118,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Ruby/fastlane~fastlane/fastlane/lib/fastlane/actions/slather.rb|fastlane|fastlane|slather.rb|Ruby|296|9|27
 ./src/_00/output/Ruby/fastlane~fastlane/fastlane/lib/fastlane/actions/notarize.rb|fastlane|fastlane|notarize.rb|Ruby|292|15|48
 ./src/_00/output/Ruby/fastlane~fastlane/spaceship/spec/tunes/fixtures/candidate_builds.json|fastlane|fastlane|candidate_builds.json|JSON|290|0|0
+./src/_00/output/Ruby/fastlane~fastlane/fastlane/lib/fastlane/actions/testfairy.rb|fastlane|fastlane|testfairy.rb|Ruby|289|11|26
 ./src/_00/output/Ruby/fastlane~fastlane/fastlane/spec/actions_specs/sourcedocs_spec.rb|fastlane|fastlane|sourcedocs_spec.rb|Ruby|289|0|54
 ./src/_00/output/Ruby/fastlane~fastlane/spaceship/spec/provisioning_profile_spec.rb|fastlane|fastlane|provisioning_profile_spec.rb|Ruby|288|1|57
 ./src/_00/output/Ruby/fastlane~fastlane/.circleci/config.yml|fastlane|fastlane|config.yml|YAML|286|2|17
@@ -151,7 +152,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Ruby/fastlane~fastlane/spaceship/spec/connect_api/users/user_client_spec.rb|fastlane|fastlane|user_client_spec.rb|Ruby|261|0|40
 ./src/_00/output/Ruby/fastlane~fastlane/fastlane/lib/fastlane/actions/set_github_release.rb|fastlane|fastlane|set_github_release.rb|Ruby|256|7|24
 ./src/_00/output/Ruby/fastlane~fastlane/fastlane/lib/fastlane/actions/slack.rb|fastlane|fastlane|slack.rb|Ruby|256|27|31
-./src/_00/output/Ruby/fastlane~fastlane/fastlane/lib/fastlane/actions/testfairy.rb|fastlane|fastlane|testfairy.rb|Ruby|255|11|26
 ./src/_00/output/Ruby/fastlane~fastlane/fastlane/lib/fastlane/environment_printer.rb|fastlane|fastlane|environment_printer.rb|Ruby|255|9|40
 ./src/_00/output/Ruby/fastlane~fastlane/fastlane/lib/fastlane/plugins/plugin_manager.rb|fastlane|fastlane|plugin_manager.rb|Ruby|254|79|66
 ./src/_00/output/Ruby/fastlane~fastlane/spaceship/spec/portal/portal_stubbing.rb|fastlane|fastlane|portal_stubbing.rb|Ruby|254|19|74
@@ -1915,6 +1915,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Ruby/fastlane~fastlane/spaceship/spec/connect_api/fixtures/asc_key_in_house.json|fastlane|fastlane|asc_key_in_house.json|JSON|6|0|0
 ./src/_00/output/Ruby/fastlane~fastlane/trainer/lib/trainer.rb|fastlane|fastlane|trainer.rb|Ruby|6|0|1
 ./src/_00/output/Ruby/fastlane~fastlane/.ci/bundler_version.rb|fastlane|fastlane|bundler_version.rb|Ruby|5|0|0
+./src/_00/output/Ruby/fastlane~fastlane/CHANGELOG.latest.md|fastlane|fastlane|CHANGELOG.latest.md|Markdown|5|0|0
 ./src/_00/output/Ruby/fastlane~fastlane/bin/console|fastlane|fastlane|console|Ruby|5|3|3
 ./src/_00/output/Ruby/fastlane~fastlane/deliver/lib/deliver/languages.rb|fastlane|fastlane|languages.rb|Ruby|5|2|0
 ./src/_00/output/Ruby/fastlane~fastlane/fastlane/lib/fastlane/plugins/template/lib/fastlane/plugin/%plugin_name%/version.rb.erb|fastlane|fastlane|version.rb.erb|ERB|5|0|0
@@ -2026,7 +2027,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Ruby/fastlane~fastlane/supply/spec/spec_helper.rb|fastlane|fastlane|spec_helper.rb|Ruby|3|0|0
 ./src/_00/output/Ruby/fastlane~fastlane/trainer/spec/spec_helper.rb|fastlane|fastlane|spec_helper.rb|Ruby|3|1|1
 ./src/_00/output/Ruby/fastlane~fastlane/.hound.yml|fastlane|fastlane|.hound.yml|YAML|2|0|0
-./src/_00/output/Ruby/fastlane~fastlane/CHANGELOG.latest.md|fastlane|fastlane|CHANGELOG.latest.md|Markdown|2|0|1
 ./src/_00/output/Ruby/fastlane~fastlane/deliver/lib/assets/DeliverfileDefault.swift|fastlane|fastlane|DeliverfileDefault.swift|Swift|2|8|3
 ./src/_00/output/Ruby/fastlane~fastlane/dependencyci.yml|fastlane|fastlane|dependencyci.yml|YAML|2|2|0
 ./src/_00/output/Ruby/fastlane~fastlane/fastlane/docs/Codesigning/CommonIssues.md|fastlane|fastlane|CommonIssues.md|Markdown|2|0|1

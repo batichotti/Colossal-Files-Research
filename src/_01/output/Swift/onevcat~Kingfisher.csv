@@ -1,9 +1,9 @@
 path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Swift/onevcat~Kingfisher/Tests/KingfisherTests/KingfisherManagerTests.swift|onevcat|Kingfisher|KingfisherManagerTests.swift|Swift|1408|50|289
 ./src/_00/output/Swift/onevcat~Kingfisher/Demo/Demo/Kingfisher-Demo/Base.lproj/Main.storyboard|onevcat|Kingfisher|Main.storyboard|XML|1229|20|0
-./src/_00/output/Swift/onevcat~Kingfisher/Sources/Documentation.docc/CHANGELOG.md|onevcat|Kingfisher|CHANGELOG.md|Markdown|1209|0|658
+./src/_00/output/Swift/onevcat~Kingfisher/Sources/Documentation.docc/CHANGELOG.md|onevcat|Kingfisher|CHANGELOG.md|Markdown|1217|0|664
 ./src/_00/output/Swift/onevcat~Kingfisher/Demo/Demo/Kingfisher-macOS-Demo/Base.lproj/Main.storyboard|onevcat|Kingfisher|Main.storyboard|XML|812|5|0
-./src/_00/output/Swift/onevcat~Kingfisher/Tests/KingfisherTests/ImageCacheTests.swift|onevcat|Kingfisher|ImageCacheTests.swift|Swift|785|86|141
+./src/_00/output/Swift/onevcat~Kingfisher/Tests/KingfisherTests/ImageCacheTests.swift|onevcat|Kingfisher|ImageCacheTests.swift|Swift|787|86|141
 ./src/_00/output/Swift/onevcat~Kingfisher/Sources/Cache/ImageCache.swift|onevcat|Kingfisher|ImageCache.swift|Swift|735|464|109
 ./src/_00/output/Swift/onevcat~Kingfisher/Tests/KingfisherTests/ImageViewExtensionTests.swift|onevcat|Kingfisher|ImageViewExtensionTests.swift|Swift|716|33|181
 ./src/_00/output/Swift/onevcat~Kingfisher/Sources/General/KingfisherManager.swift|onevcat|Kingfisher|KingfisherManager.swift|Swift|656|217|99
@@ -14,12 +14,12 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Swift/onevcat~Kingfisher/Sources/Cache/DiskStorage.swift|onevcat|Kingfisher|DiskStorage.swift|Swift|430|165|81
 ./src/_00/output/Swift/onevcat~Kingfisher/Sources/Networking/ImageDownloader.swift|onevcat|Kingfisher|ImageDownloader.swift|Swift|390|205|76
 ./src/_00/output/Swift/onevcat~Kingfisher/Sources/Extensions/ImageView+Kingfisher.swift|onevcat|Kingfisher|ImageView+Kingfisher.swift|Swift|310|194|44
-./src/_00/output/Swift/onevcat~Kingfisher/Sources/Image/Image.swift|onevcat|Kingfisher|Image.swift|Swift|297|107|40
+./src/_00/output/Swift/onevcat~Kingfisher/Sources/Image/Image.swift|onevcat|Kingfisher|Image.swift|Swift|304|109|40
 ./src/_00/output/Swift/onevcat~Kingfisher/Sources/Extensions/HasImageComponent+Kingfisher.swift|onevcat|Kingfisher|HasImageComponent+Kingfisher.swift|Swift|291|176|32
 ./src/_00/output/Swift/onevcat~Kingfisher/Sources/General/KFOptionsSetter.swift|onevcat|Kingfisher|KFOptionsSetter.swift|Swift|287|455|61
+./src/_00/output/Swift/onevcat~Kingfisher/Tests/KingfisherTests/ImageExtensionTests.swift|onevcat|Kingfisher|ImageExtensionTests.swift|Swift|286|29|54
 ./src/_00/output/Swift/onevcat~Kingfisher/Tests/KingfisherTests/ImagePrefetcherTests.swift|onevcat|Kingfisher|ImagePrefetcherTests.swift|Swift|278|25|57
 ./src/_00/output/Swift/onevcat~Kingfisher/Sources/General/KingfisherError.swift|onevcat|Kingfisher|KingfisherError.swift|Swift|275|321|68
-./src/_00/output/Swift/onevcat~Kingfisher/Tests/KingfisherTests/ImageExtensionTests.swift|onevcat|Kingfisher|ImageExtensionTests.swift|Swift|267|29|51
 ./src/_00/output/Swift/onevcat~Kingfisher/Sources/General/KF.swift|onevcat|Kingfisher|KF.swift|Swift|250|157|52
 ./src/_00/output/Swift/onevcat~Kingfisher/Sources/Image/ImageProgressive.swift|onevcat|Kingfisher|ImageProgressive.swift|Swift|246|69|58
 ./src/_00/output/Swift/onevcat~Kingfisher/Sources/Networking/ImagePrefetcher.swift|onevcat|Kingfisher|ImagePrefetcher.swift|Swift|222|117|47
@@ -68,6 +68,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Swift/onevcat~Kingfisher/Sources/Documentation.docc/Topics/Topic_PerformanceTips.md|onevcat|Kingfisher|Topic_PerformanceTips.md|Markdown|82|0|23
 ./src/_00/output/Swift/onevcat~Kingfisher/Demo/Demo/Kingfisher-watchOS-Demo/Assets.xcassets/AppIcon.appiconset/Contents.json|onevcat|Kingfisher|Contents.json|JSON|81|0|0
 ./src/_00/output/Swift/onevcat~Kingfisher/Sources/Networking/RetryStrategy.swift|onevcat|Kingfisher|RetryStrategy.swift|Swift|80|79|27
+./src/_00/output/Swift/onevcat~Kingfisher/Sources/Networking/SessionDataTask.swift|onevcat|Kingfisher|SessionDataTask.swift|Swift|80|42|20
 ./src/_00/output/Swift/onevcat~Kingfisher/Sources/SwiftUI/KFAnimatedImage.swift|onevcat|Kingfisher|KFAnimatedImage.swift|Swift|80|32|16
 ./src/_00/output/Swift/onevcat~Kingfisher/Demo/Demo/Kingfisher-watchOS-Demo/Base.lproj/Interface.storyboard|onevcat|Kingfisher|Interface.storyboard|XML|78|5|0
 ./src/_00/output/Swift/onevcat~Kingfisher/Demo/Kingfisher-Demo.xcodeproj/xcshareddata/xcschemes/Kingfisher-Demo.xcscheme|onevcat|Kingfisher|Kingfisher-Demo.xcscheme|XML|78|0|0
@@ -76,7 +77,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Swift/onevcat~Kingfisher/Sources/Image/ImageFormat.swift|onevcat|Kingfisher|ImageFormat.swift|Swift|77|35|15
 ./src/_00/output/Swift/onevcat~Kingfisher/Demo/Demo/Kingfisher-tvOS-Demo/Base.lproj/Main.storyboard|onevcat|Kingfisher|Main.storyboard|XML|75|2|0
 ./src/_00/output/Swift/onevcat~Kingfisher/Sources/Utility/Delegate.swift|onevcat|Kingfisher|Delegate.swift|Swift|75|67|18
-./src/_00/output/Swift/onevcat~Kingfisher/Sources/Networking/SessionDataTask.swift|onevcat|Kingfisher|SessionDataTask.swift|Swift|73|42|20
 ./src/_00/output/Swift/onevcat~Kingfisher/Sources/General/Kingfisher.swift|onevcat|Kingfisher|Kingfisher.swift|Swift|72|46|13
 ./src/_00/output/Swift/onevcat~Kingfisher/Tests/KingfisherTests/DataReceivingSideEffectTests.swift|onevcat|Kingfisher|DataReceivingSideEffectTests.swift|Swift|72|26|19
 ./src/_00/output/Swift/onevcat~Kingfisher/Sources/Utility/ExtensionHelpers.swift|onevcat|Kingfisher|ExtensionHelpers.swift|Swift|70|29|18
@@ -143,10 +143,10 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Swift/onevcat~Kingfisher/Demo/Demo/Kingfisher-Demo/SwiftUIViews/GridDemo.swift|onevcat|Kingfisher|GridDemo.swift|Swift|35|25|5
 ./src/_00/output/Swift/onevcat~Kingfisher/Demo/Demo/Kingfisher-macOS-Demo/Cell.xib|onevcat|Kingfisher|Cell.xib|XML|35|0|0
 ./src/_00/output/Swift/onevcat~Kingfisher/Demo/Demo/Kingfisher-watchOS-Demo/Info.plist|onevcat|Kingfisher|Info.plist|XML|35|0|0
+./src/_00/output/Swift/onevcat~Kingfisher/.github/workflows/build.yaml|onevcat|Kingfisher|build.yaml|YAML|34|0|4
 ./src/_00/output/Swift/onevcat~Kingfisher/Demo/Demo/Kingfisher-macOS-Demo/Info.plist|onevcat|Kingfisher|Info.plist|XML|34|0|0
 ./src/_00/output/Swift/onevcat~Kingfisher/Sources/Documentation.docc/Resources/code-files/01-ViewController-5.swift|onevcat|Kingfisher|01-ViewController-5.swift|Swift|34|1|6
 ./src/_00/output/Swift/onevcat~Kingfisher/Tests/Dependency/Nocilla/Nocilla/DSL/LSHTTPRequestDSLRepresentation.m|onevcat|Kingfisher|LSHTTPRequestDSLRepresentation.m|Objective-C|34|0|5
-./src/_00/output/Swift/onevcat~Kingfisher/.github/workflows/build.yaml|onevcat|Kingfisher|build.yaml|YAML|33|0|4
 ./src/_00/output/Swift/onevcat~Kingfisher/Demo/Demo/Kingfisher-Demo/ViewControllers/LivePhotoViewController.swift|onevcat|Kingfisher|LivePhotoViewController.swift|Swift|33|25|7
 ./src/_00/output/Swift/onevcat~Kingfisher/Demo/Demo/Kingfisher-Demo/ViewControllers/TextAttachmentViewController.swift|onevcat|Kingfisher|TextAttachmentViewController.swift|Swift|33|25|10
 ./src/_00/output/Swift/onevcat~Kingfisher/Kingfisher.podspec|onevcat|Kingfisher|Kingfisher.podspec|Ruby|33|0|10

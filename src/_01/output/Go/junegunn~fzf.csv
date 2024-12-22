@@ -1,29 +1,29 @@
 path|owner|project|file|language|code|comment|blank
-./src/_00/output/Go/junegunn~fzf/src/terminal.go|junegunn|fzf|terminal.go|Go|4576|225|350
-./src/_00/output/Go/junegunn~fzf/test/test_go.rb|junegunn|fzf|test_go.rb|Ruby|3409|101|442
-./src/_00/output/Go/junegunn~fzf/src/options.go|junegunn|fzf|options.go|Go|2819|42|148
-./src/_00/output/Go/junegunn~fzf/CHANGELOG.md|junegunn|fzf|CHANGELOG.md|Markdown|2037|0|285
-./src/_00/output/Go/junegunn~fzf/src/tui/light.go|junegunn|fzf|light.go|Go|1022|36|110
+./src/_00/output/Go/junegunn~fzf/src/terminal.go|junegunn|fzf|terminal.go|Go|4674|238|364
+./src/_00/output/Go/junegunn~fzf/test/test_go.rb|junegunn|fzf|test_go.rb|Ruby|3444|101|447
+./src/_00/output/Go/junegunn~fzf/src/options.go|junegunn|fzf|options.go|Go|2868|47|156
+./src/_00/output/Go/junegunn~fzf/CHANGELOG.md|junegunn|fzf|CHANGELOG.md|Markdown|2046|0|286
+./src/_00/output/Go/junegunn~fzf/src/tui/light.go|junegunn|fzf|light.go|Go|1025|36|110
 ./src/_00/output/Go/junegunn~fzf/plugin/fzf.vim|junegunn|fzf|fzf.vim|vim script|934|63|106
-./src/_00/output/Go/junegunn~fzf/src/tui/tui.go|junegunn|fzf|tui.go|Go|778|13|88
+./src/_00/output/Go/junegunn~fzf/src/tui/tui.go|junegunn|fzf|tui.go|Go|784|13|88
 ./src/_00/output/Go/junegunn~fzf/src/algo/algo.go|junegunn|fzf|algo.go|Go|770|151|99
-./src/_00/output/Go/junegunn~fzf/README.md|junegunn|fzf|README.md|Markdown|701|2|205
-./src/_00/output/Go/junegunn~fzf/src/tui/tcell.go|junegunn|fzf|tcell.go|Go|697|44|91
+./src/_00/output/Go/junegunn~fzf/README.md|junegunn|fzf|README.md|Markdown|709|2|208
+./src/_00/output/Go/junegunn~fzf/src/tui/tcell.go|junegunn|fzf|tcell.go|Go|695|43|90
 ./src/_00/output/Go/junegunn~fzf/ADVANCED.md|junegunn|fzf|ADVANCED.md|Markdown|530|2|144
 ./src/_00/output/Go/junegunn~fzf/src/algo/normalize.go|junegunn|fzf|normalize.go|Go|478|3|11
 ./src/_00/output/Go/junegunn~fzf/shell/completion.bash|junegunn|fzf|completion.bash|Bourne Again Shell|461|86|52
 ./src/_00/output/Go/junegunn~fzf/src/options_test.go|junegunn|fzf|options_test.go|Go|452|7|43
+./src/_00/output/Go/junegunn~fzf/src/terminal_test.go|junegunn|fzf|terminal_test.go|Go|436|149|102
 ./src/_00/output/Go/junegunn~fzf/doc/fzf.txt|junegunn|fzf|fzf.txt|Text|432|0|77
-./src/_00/output/Go/junegunn~fzf/src/terminal_test.go|junegunn|fzf|terminal_test.go|Go|409|149|101
 ./src/_00/output/Go/junegunn~fzf/src/ansi.go|junegunn|fzf|ansi.go|Go|400|40|39
 ./src/_00/output/Go/junegunn~fzf/src/core.go|junegunn|fzf|core.go|Go|400|29|36
 ./src/_00/output/Go/junegunn~fzf/README-VIM.md|junegunn|fzf|README-VIM.md|Markdown|391|0|104
 ./src/_00/output/Go/junegunn~fzf/src/ansi_test.go|junegunn|fzf|ansi_test.go|Go|372|17|42
 ./src/_00/output/Go/junegunn~fzf/src/pattern.go|junegunn|fzf|pattern.go|Go|353|25|41
-./src/_00/output/Go/junegunn~fzf/install|junegunn|fzf|install|Bourne Again Shell|342|10|38
-./src/_00/output/Go/junegunn~fzf/src/reader.go|junegunn|fzf|reader.go|Go|275|28|32
+./src/_00/output/Go/junegunn~fzf/install|junegunn|fzf|install|Bourne Again Shell|348|10|41
+./src/_00/output/Go/junegunn~fzf/src/reader.go|junegunn|fzf|reader.go|Go|306|32|32
 ./src/_00/output/Go/junegunn~fzf/src/util/chars.go|junegunn|fzf|chars.go|Go|263|10|37
-./src/_00/output/Go/junegunn~fzf/shell/completion.zsh|junegunn|fzf|completion.zsh|zsh|257|96|37
+./src/_00/output/Go/junegunn~fzf/shell/completion.zsh|junegunn|fzf|completion.zsh|zsh|253|99|37
 ./src/_00/output/Go/junegunn~fzf/src/tokenizer.go|junegunn|fzf|tokenizer.go|Go|220|12|21
 ./src/_00/output/Go/junegunn~fzf/src/server.go|junegunn|fzf|server.go|Go|219|6|21
 ./src/_00/output/Go/junegunn~fzf/bin/fzf-tmux|junegunn|fzf|fzf-tmux|Bourne Again Shell|218|12|24
@@ -38,9 +38,9 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Go/junegunn~fzf/Makefile|junegunn|fzf|Makefile|make|142|12|36
 ./src/_00/output/Go/junegunn~fzf/src/proxy.go|junegunn|fzf|proxy.go|Go|141|4|13
 ./src/_00/output/Go/junegunn~fzf/src/result_test.go|junegunn|fzf|result_test.go|Go|139|16|19
-./src/_00/output/Go/junegunn~fzf/shell/key-bindings.fish|junegunn|fzf|key-bindings.fish|Fish Shell|137|39|29
+./src/_00/output/Go/junegunn~fzf/shell/key-bindings.fish|junegunn|fzf|key-bindings.fish|Fish Shell|138|40|30
 ./src/_00/output/Go/junegunn~fzf/src/tui/tcell_test.go|junegunn|fzf|tcell_test.go|Go|132|236|27
-./src/_00/output/Go/junegunn~fzf/src/actiontype_string.go|junegunn|fzf|actiontype_string.go|Go|126|3|6
+./src/_00/output/Go/junegunn~fzf/src/actiontype_string.go|junegunn|fzf|actiontype_string.go|Go|128|3|6
 ./src/_00/output/Go/junegunn~fzf/src/tui/light_windows.go|junegunn|fzf|light_windows.go|Go|120|14|23
 ./src/_00/output/Go/junegunn~fzf/src/tui/eventtype_string.go|junegunn|fzf|eventtype_string.go|Go|113|3|6
 ./src/_00/output/Go/junegunn~fzf/shell/key-bindings.zsh|junegunn|fzf|key-bindings.zsh|zsh|108|24|12

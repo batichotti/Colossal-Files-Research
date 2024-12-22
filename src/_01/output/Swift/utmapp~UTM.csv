@@ -3,23 +3,25 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Swift/utmapp~UTM/Platform/iOS/Settings.bundle/Root.plist|utmapp|UTM|Root.plist|XML|2889|0|0
 ./src/_00/output/Swift/utmapp~UTM/Platform/iOS/Settings.bundle/License.plist|utmapp|UTM|License.plist|XML|1321|0|269
 ./src/_00/output/Swift/utmapp~UTM/Platform/UTMData.swift|utmapp|UTM|UTMData.swift|Swift|1104|182|137
-./src/_00/output/Swift/utmapp~UTM/Configuration/UTMQemuConfiguration+Arguments.swift|utmapp|UTM|UTMQemuConfiguration+Arguments.swift|Swift|974|53|48
+./src/_00/output/Swift/utmapp~UTM/Configuration/UTMQemuConfiguration+Arguments.swift|utmapp|UTM|UTMQemuConfiguration+Arguments.swift|Swift|1006|54|49
 ./src/_00/output/Swift/utmapp~UTM/Services/UTMAppleVirtualMachine.swift|utmapp|UTM|UTMAppleVirtualMachine.swift|Swift|862|31|96
 ./src/_00/output/Swift/utmapp~UTM/Remote/UTMRemoteServer.swift|utmapp|UTM|UTMRemoteServer.swift|Swift|856|27|101
 ./src/_00/output/Swift/utmapp~UTM/Platform/iOS/Display/Base.lproj/VMDisplayMetalViewInputAccessory.xib|utmapp|UTM|VMDisplayMetalViewInputAccessory.xib|XML|849|0|0
-./src/_00/output/Swift/utmapp~UTM/Services/UTMQemuVirtualMachine.swift|utmapp|UTM|UTMQemuVirtualMachine.swift|Swift|759|64|94
+./src/_00/output/Swift/utmapp~UTM/Services/UTMQemuVirtualMachine.swift|utmapp|UTM|UTMQemuVirtualMachine.swift|Swift|828|74|102
 ./src/_00/output/Swift/utmapp~UTM/scripts/build_dependencies.sh|utmapp|UTM|build_dependencies.sh|Bourne Shell|728|32|51
 ./src/_00/output/Swift/utmapp~UTM/Platform/iOS/Display/VMDisplayMetalViewController+Touch.m|utmapp|UTM|VMDisplayMetalViewController+Touch.m|Objective-C|625|30|58
 ./src/_00/output/Swift/utmapp~UTM/Scripting/UTMScriptingConfigImpl.swift|utmapp|UTM|UTMScriptingConfigImpl.swift|Swift|588|16|61
-./src/_00/output/Swift/utmapp~UTM/Platform/macOS/Display/VMDisplayQemuMetalWindowController.swift|utmapp|UTM|VMDisplayQemuMetalWindowController.swift|Swift|577|39|65
+./src/_00/output/Swift/utmapp~UTM/Platform/macOS/Display/VMDisplayQemuMetalWindowController.swift|utmapp|UTM|VMDisplayQemuMetalWindowController.swift|Swift|575|39|65
 ./src/_00/output/Swift/utmapp~UTM/Scripting/UTM.sdef|utmapp|UTM|UTM.sdef|XML|571|0|140
 ./src/_00/output/Swift/utmapp~UTM/Platform/macOS/Display/VMDisplayQemuDisplayController.swift|utmapp|UTM|VMDisplayQemuDisplayController.swift|Swift|565|24|49
 ./src/_00/output/Swift/utmapp~UTM/Platform/Shared/VMWizardState.swift|utmapp|UTM|VMWizardState.swift|Swift|561|23|28
 ./src/_00/output/Swift/utmapp~UTM/utmctl/UTMCtl.swift|utmapp|UTM|UTMCtl.swift|Swift|529|34|104
+./src/_00/output/Swift/utmapp~UTM/Platform/Assets.xcassets/AppIcon.appiconset/Contents.json|utmapp|UTM|Contents.json|JSON|509|0|0
 ./src/_00/output/Swift/utmapp~UTM/.github/workflows/build.yml|utmapp|UTM|build.yml|YAML|497|1|2
 ./src/_00/output/Swift/utmapp~UTM/Platform/iOS/VMSessionState.swift|utmapp|UTM|VMSessionState.swift|Swift|494|30|78
 ./src/_00/output/Swift/utmapp~UTM/Remote/UTMRemoteClient.swift|utmapp|UTM|UTMRemoteClient.swift|Swift|482|16|90
 ./src/_00/output/Swift/utmapp~UTM/patches/libffi-3.3.patch|utmapp|UTM|libffi-3.3.patch|diff|469|354|77
+./src/_00/output/Swift/utmapp~UTM/patches/qemu-9.1.2-utm.patch|utmapp|UTM|qemu-9.1.2-utm.patch|diff|443|244|55
 ./src/_00/output/Swift/utmapp~UTM/patches/spice-gtk-0.42.patch|utmapp|UTM|spice-gtk-0.42.patch|diff|439|393|96
 ./src/_00/output/Swift/utmapp~UTM/Platform/macOS/Display/VMDisplayAppleWindowController.swift|utmapp|UTM|VMDisplayAppleWindowController.swift|Swift|437|32|40
 ./src/_00/output/Swift/utmapp~UTM/Services/UTMRegistryEntry.swift|utmapp|UTM|UTMRegistryEntry.swift|Swift|420|29|89
@@ -39,7 +41,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Swift/utmapp~UTM/Platform/Shared/VMDetailsView.swift|utmapp|UTM|VMDetailsView.swift|Swift|326|16|21
 ./src/_00/output/Swift/utmapp~UTM/Services/UTMProcess.m|utmapp|UTM|UTMProcess.m|Objective-C|325|19|38
 ./src/_00/output/Swift/utmapp~UTM/patches/spice-0.14.3.patch|utmapp|UTM|spice-0.14.3.patch|diff|318|236|80
-./src/_00/output/Swift/utmapp~UTM/Services/UTMJailbreak.m|utmapp|UTM|UTMJailbreak.m|Objective-C|306|51|52
+./src/_00/output/Swift/utmapp~UTM/Services/UTMJailbreak.m|utmapp|UTM|UTMJailbreak.m|Objective-C|312|51|53
 ./src/_00/output/Swift/utmapp~UTM/Services/UTMSpiceIO.m|utmapp|UTM|UTMSpiceIO.m|Objective-C|297|18|43
 ./src/_00/output/Swift/utmapp~UTM/Platform/iOS/VMWindowView.swift|utmapp|UTM|VMWindowView.swift|Swift|290|19|12
 ./src/_00/output/Swift/utmapp~UTM/Remote/UTMRemoteMessage.swift|utmapp|UTM|UTMRemoteMessage.swift|Swift|282|15|83
@@ -118,8 +120,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Swift/utmapp~UTM/Scripting/UTMScriptingUSBDeviceImpl.swift|utmapp|UTM|UTMScriptingUSBDeviceImpl.swift|Swift|118|24|17
 ./src/_00/output/Swift/utmapp~UTM/Platform/Shared/VMWizardHardwareView.swift|utmapp|UTM|VMWizardHardwareView.swift|Swift|117|15|17
 ./src/_00/output/Swift/utmapp~UTM/Platform/iOS/Legacy/VMConfigNewStorageViewController.m|utmapp|UTM|VMConfigNewStorageViewController.m|Objective-C|117|16|27
-./src/_00/output/Swift/utmapp~UTM/Platform/Assets.xcassets/AppIcon-Remote.appiconset/Contents.json|utmapp|UTM|Contents.json|JSON|116|0|0
-./src/_00/output/Swift/utmapp~UTM/Platform/Assets.xcassets/AppIcon.appiconset/Contents.json|utmapp|UTM|Contents.json|JSON|116|0|0
 ./src/_00/output/Swift/utmapp~UTM/patches/libsoup-3.6.0.patch|utmapp|UTM|libsoup-3.6.0.patch|diff|116|116|23
 ./src/_00/output/Swift/utmapp~UTM/Platform/iOS/Display/VMDisplayMetalViewController+Gamepad.m|utmapp|UTM|VMDisplayMetalViewController+Gamepad.m|Objective-C|115|18|25
 ./src/_00/output/Swift/utmapp~UTM/scripts/package_mac.sh|utmapp|UTM|package_mac.sh|Bourne Shell|115|2|12
@@ -158,7 +158,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Swift/utmapp~UTM/Configuration/UTMConfigurationTerminal.swift|utmapp|UTM|UTMConfigurationTerminal.swift|Swift|85|25|17
 ./src/_00/output/Swift/utmapp~UTM/Platform/macOS/SavePanel.swift|utmapp|UTM|SavePanel.swift|Swift|85|19|10
 ./src/_00/output/Swift/utmapp~UTM/Platform/macOS/UTMPatches.swift|utmapp|UTM|UTMPatches.swift|Swift|85|41|14
-./src/_00/output/Swift/utmapp~UTM/patches/qemu-9.1.0-utm.patch|utmapp|UTM|qemu-9.1.0-utm.patch|diff|85|58|13
 ./src/_00/output/Swift/utmapp~UTM/Platform/iOS/Display/VMDisplayViewController.swift|utmapp|UTM|VMDisplayViewController.swift|Swift|84|29|17
 ./src/_00/output/Swift/utmapp~UTM/Configuration/UTMConfigurationDrive.swift|utmapp|UTM|UTMConfigurationDrive.swift|Swift|83|26|16
 ./src/_00/output/Swift/utmapp~UTM/Platform/Shared/VMConfigSerialView.swift|utmapp|UTM|VMConfigSerialView.swift|Swift|83|15|8

@@ -5,8 +5,8 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Java/netty~netty/resolver-dns/src/test/java/io/netty/resolver/dns/DnsNameResolverTest.java|netty|netty|DnsNameResolverTest.java|Java|3827|118|464
 ./src/_00/output/Java/netty~netty/example/src/main/java/io/netty/example/worldclock/WorldClockProtocol.java|netty|netty|WorldClockProtocol.java|Java|2614|603|206
 ./src/_00/output/Java/netty~netty/handler/src/main/java/io/netty/handler/ssl/ReferenceCountedOpenSslEngine.java|netty|netty|ReferenceCountedOpenSslEngine.java|Java|2010|440|307
-./src/_00/output/Java/netty~netty/pom.xml|netty|netty|pom.xml|Maven|1995|237|63
 ./src/_00/output/Java/netty~netty/transport/src/test/java/io/netty/channel/DefaultChannelPipelineTest.java|netty|netty|DefaultChannelPipelineTest.java|Java|1898|44|351
+./src/_00/output/Java/netty~netty/pom.xml|netty|netty|pom.xml|Maven|1892|235|62
 ./src/_00/output/Java/netty~netty/codec/src/main/java/io/netty/handler/codec/compression/Bzip2DivSufSort.java|netty|netty|Bzip2DivSufSort.java|Java|1882|37|198
 ./src/_00/output/Java/netty~netty/buffer/src/main/java/io/netty/buffer/CompositeByteBuf.java|netty|netty|CompositeByteBuf.java|Java|1833|261|269
 ./src/_00/output/Java/netty~netty/handler/src/test/java/io/netty/handler/ssl/SslHandlerTest.java|netty|netty|SslHandlerTest.java|Java|1599|73|208
@@ -19,9 +19,9 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Java/netty~netty/buffer/src/main/java/io/netty/buffer/AbstractByteBuf.java|netty|netty|AbstractByteBuf.java|Java|1213|38|215
 ./src/_00/output/Java/netty~netty/common/src/main/java/io/netty/util/internal/PlatformDependent.java|netty|netty|PlatformDependent.java|Java|1175|323|204
 ./src/_00/output/Java/netty~netty/codec/src/main/java/io/netty/handler/codec/DefaultHeaders.java|netty|netty|DefaultHeaders.java|Java|1150|97|199
+./src/_00/output/Java/netty~netty/handler/src/test/java/io/netty/handler/pcap/PcapWriteHandlerTest.java|netty|netty|PcapWriteHandlerTest.java|Java|1139|123|256
 ./src/_00/output/Java/netty~netty/resolver-dns/src/main/java/io/netty/resolver/dns/DnsNameResolver.java|netty|netty|DnsNameResolver.java|Java|1129|306|137
 ./src/_00/output/Java/netty~netty/transport/src/main/java/io/netty/channel/DefaultChannelPipeline.java|netty|netty|DefaultChannelPipeline.java|Java|1118|125|215
-./src/_00/output/Java/netty~netty/codec-http/src/test/java/io/netty/handler/codec/spdy/SpdyFrameDecoderTest.java|netty|netty|SpdyFrameDecoderTest.java|Java|1109|15|206
 ./src/_00/output/Java/netty~netty/transport-native-unix-common/src/main/c/netty_unix_socket.c|netty|netty|netty_unix_socket.c|C|1108|99|196
 ./src/_00/output/Java/netty~netty/transport/src/test/java/io/netty/channel/local/LocalChannelTest.java|netty|netty|LocalChannelTest.java|Java|1097|70|140
 ./src/_00/output/Java/netty~netty/resolver-dns/src/main/java/io/netty/resolver/dns/DnsResolveContext.java|netty|netty|DnsResolveContext.java|Java|1091|215|194
@@ -29,8 +29,9 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Java/netty~netty/codec-haproxy/src/test/java/io/netty/handler/codec/haproxy/HAProxyMessageDecoderTest.java|netty|netty|HAProxyMessageDecoderTest.java|Java|1078|31|150
 ./src/_00/output/Java/netty~netty/transport/src/main/java/io/netty/channel/AbstractChannelHandlerContext.java|netty|netty|AbstractChannelHandlerContext.java|Java|1075|122|127
 ./src/_00/output/Java/netty~netty/codec-http2/src/test/java/io/netty/handler/codec/http2/Http2ConnectionRoundtripTest.java|netty|netty|Http2ConnectionRoundtripTest.java|Java|1069|91|165
+./src/_00/output/Java/netty~netty/codec-http/src/test/java/io/netty/handler/codec/spdy/SpdyFrameDecoderTest.java|netty|netty|SpdyFrameDecoderTest.java|Java|1036|15|190
 ./src/_00/output/Java/netty~netty/buffer/src/main/java/io/netty/buffer/WrappedCompositeByteBuf.java|netty|netty|WrappedCompositeByteBuf.java|Java|1031|15|238
-./src/_00/output/Java/netty~netty/buffer/src/main/java/io/netty/buffer/AdaptivePoolingAllocator.java|netty|netty|AdaptivePoolingAllocator.java|Java|977|144|128
+./src/_00/output/Java/netty~netty/buffer/src/main/java/io/netty/buffer/AdaptivePoolingAllocator.java|netty|netty|AdaptivePoolingAllocator.java|Java|1020|163|142
 ./src/_00/output/Java/netty~netty/codec-http2/src/test/java/io/netty/handler/codec/http2/DefaultHttp2RemoteFlowControllerTest.java|netty|netty|DefaultHttp2RemoteFlowControllerTest.java|Java|937|55|154
 ./src/_00/output/Java/netty~netty/codec/src/main/java/io/netty/handler/codec/ReplayingDecoderByteBuf.java|netty|netty|ReplayingDecoderByteBuf.java|Java|924|18|205
 ./src/_00/output/Java/netty~netty/codec-http/src/test/java/io/netty/handler/codec/http/multipart/HttpPostRequestDecoderTest.java|netty|netty|HttpPostRequestDecoderTest.java|Java|920|60|165
@@ -39,7 +40,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Java/netty~netty/buffer/src/test/java/io/netty/buffer/ByteBufUtilTest.java|netty|netty|ByteBufUtilTest.java|Java|914|28|144
 ./src/_00/output/Java/netty~netty/handler/src/main/java/io/netty/handler/ssl/ReferenceCountedOpenSslContext.java|netty|netty|ReferenceCountedOpenSslContext.java|Java|892|160|140
 ./src/_00/output/Java/netty~netty/common/src/main/java/io/netty/util/internal/PlatformDependent0.java|netty|netty|PlatformDependent0.java|Java|882|92|126
-./src/_00/output/Java/netty~netty/codec-mqtt/src/test/java/io/netty/handler/codec/mqtt/MqttCodecTest.java|netty|netty|MqttCodecTest.java|Java|878|33|223
+./src/_00/output/Java/netty~netty/codec-mqtt/src/test/java/io/netty/handler/codec/mqtt/MqttCodecTest.java|netty|netty|MqttCodecTest.java|Java|878|33|222
 ./src/_00/output/Java/netty~netty/codec-http/src/test/java/io/netty/handler/codec/http/HttpContentCompressorTest.java|netty|netty|HttpContentCompressorTest.java|Java|876|29|200
 ./src/_00/output/Java/netty~netty/codec-http2/src/main/java/io/netty/handler/codec/http2/AbstractHttp2StreamChannel.java|netty|netty|AbstractHttp2StreamChannel.java|Java|874|161|164
 ./src/_00/output/Java/netty~netty/buffer/src/main/java/io/netty/buffer/AdvancedLeakAwareCompositeByteBuf.java|netty|netty|AdvancedLeakAwareCompositeByteBuf.java|Java|865|15|175
@@ -114,6 +115,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Java/netty~netty/transport-classes-kqueue/src/main/java/io/netty/channel/kqueue/AbstractKQueueChannel.java|netty|netty|AbstractKQueueChannel.java|Java|543|123|88
 ./src/_00/output/Java/netty~netty/common/src/main/java/io/netty/util/HashedWheelTimer.java|netty|netty|HashedWheelTimer.java|Java|530|243|96
 ./src/_00/output/Java/netty~netty/common/src/test/java/io/netty/util/concurrent/DefaultPromiseTest.java|netty|netty|DefaultPromiseTest.java|Java|529|35|79
+./src/_00/output/Java/netty~netty/handler/src/main/java/io/netty/handler/pcap/PcapWriteHandler.java|netty|netty|PcapWriteHandler.java|Java|529|266|119
 ./src/_00/output/Java/netty~netty/buffer/src/main/java/io/netty/buffer/PooledByteBufAllocator.java|netty|netty|PooledByteBufAllocator.java|Java|528|168|105
 ./src/_00/output/Java/netty~netty/transport-classes-epoll/src/main/java/io/netty/channel/epoll/EpollSocketChannelConfig.java|netty|netty|EpollSocketChannelConfig.java|Java|526|106|65
 ./src/_00/output/Java/netty~netty/buffer/src/main/java/io/netty/buffer/UnpooledDirectByteBuf.java|netty|netty|UnpooledDirectByteBuf.java|Java|524|37|93
@@ -126,20 +128,18 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Java/netty~netty/codec-http2/src/test/java/io/netty/handler/codec/http2/WeightedFairQueueByteDistributorTest.java|netty|netty|WeightedFairQueueByteDistributorTest.java|Java|504|352|108
 ./src/_00/output/Java/netty~netty/common/src/test/java/io/netty/util/internal/ObjectUtilTest.java|netty|netty|ObjectUtilTest.java|Java|503|21|71
 ./src/_00/output/Java/netty~netty/codec-http/src/test/java/io/netty/handler/codec/http/cors/CorsHandlerTest.java|netty|netty|CorsHandlerTest.java|Java|502|16|73
-./src/_00/output/Java/netty~netty/handler/src/test/java/io/netty/handler/pcap/PcapWriteHandlerTest.java|netty|netty|PcapWriteHandlerTest.java|Java|499|76|121
-./src/_00/output/Java/netty~netty/transport-blockhound-tests/src/test/java/io/netty/util/internal/NettyBlockHoundIntegrationTest.java|netty|netty|NettyBlockHoundIntegrationTest.java|Java|499|14|62
+./src/_00/output/Java/netty~netty/codec-http/src/test/java/io/netty/handler/codec/http/HttpHeaderValidationUtilTest.java|netty|netty|HttpHeaderValidationUtilTest.java|Java|501|39|70
 ./src/_00/output/Java/netty~netty/codec-http2/src/main/java/io/netty/handler/codec/http2/DefaultHttp2FrameWriter.java|netty|netty|DefaultHttp2FrameWriter.java|Java|498|69|75
+./src/_00/output/Java/netty~netty/transport-blockhound-tests/src/test/java/io/netty/util/internal/NettyBlockHoundIntegrationTest.java|netty|netty|NettyBlockHoundIntegrationTest.java|Java|494|14|61
 ./src/_00/output/Java/netty~netty/transport/src/test/java/io/netty/channel/SingleThreadEventLoopTest.java|netty|netty|SingleThreadEventLoopTest.java|Java|493|42|85
 ./src/_00/output/Java/netty~netty/handler/src/main/java/io/netty/handler/traffic/GlobalChannelTrafficShapingHandler.java|netty|netty|GlobalChannelTrafficShapingHandler.java|Java|492|231|50
 ./src/_00/output/Java/netty~netty/handler/src/test/java/io/netty/handler/flow/FlowControlHandlerTest.java|netty|netty|FlowControlHandlerTest.java|Java|492|98|90
-./src/_00/output/Java/netty~netty/handler/src/main/java/io/netty/handler/pcap/PcapWriteHandler.java|netty|netty|PcapWriteHandler.java|Java|490|263|112
 ./src/_00/output/Java/netty~netty/codec-http2/src/main/java/io/netty/handler/codec/http2/Http2FrameCodec.java|netty|netty|Http2FrameCodec.java|Java|489|203|83
 ./src/_00/output/Java/netty~netty/transport/src/main/java/io/netty/channel/CombinedChannelDuplexHandler.java|netty|netty|CombinedChannelDuplexHandler.java|Java|487|44|85
 ./src/_00/output/Java/netty~netty/transport/src/test/java/io/netty/bootstrap/BootstrapTest.java|netty|netty|BootstrapTest.java|Java|484|29|73
 ./src/_00/output/Java/netty~netty/transport/src/test/java/io/netty/channel/local/LocalTransportThreadModelTest.java|netty|netty|LocalTransportThreadModelTest.java|Java|483|48|79
 ./src/_00/output/Java/netty~netty/testsuite/src/main/java/io/netty/testsuite/transport/socket/SocketSslEchoTest.java|netty|netty|SocketSslEchoTest.java|Java|482|27|87
 ./src/_00/output/Java/netty~netty/codec/src/test/java/io/netty/handler/codec/EmptyHeadersTest.java|netty|netty|EmptyHeadersTest.java|Java|481|14|90
-./src/_00/output/Java/netty~netty/codec-http/src/test/java/io/netty/handler/codec/http/HttpHeaderValidationUtilTest.java|netty|netty|HttpHeaderValidationUtilTest.java|Java|479|39|66
 ./src/_00/output/Java/netty~netty/transport/src/main/java/io/netty/channel/socket/nio/NioDatagramChannel.java|netty|netty|NioDatagramChannel.java|Java|476|72|77
 ./src/_00/output/Java/netty~netty/codec-http/src/main/resources/META-INF/native-image/io.netty/netty-codec-http/generated/handlers/reflect-config.json|netty|netty|reflect-config.json|JSON|471|0|0
 ./src/_00/output/Java/netty~netty/codec-http2/src/test/java/io/netty/handler/codec/http2/DataCompressionHttp2Test.java|netty|netty|DataCompressionHttp2Test.java|Java|468|19|46
@@ -162,6 +162,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Java/netty~netty/codec-haproxy/src/main/java/io/netty/handler/codec/haproxy/HAProxyMessage.java|netty|netty|HAProxyMessage.java|Java|433|126|76
 ./src/_00/output/Java/netty~netty/codec-http2/src/test/java/io/netty/handler/codec/http2/Http2TestUtil.java|netty|netty|Http2TestUtil.java|Java|432|40|66
 ./src/_00/output/Java/netty~netty/buffer/src/main/java/io/netty/buffer/PoolChunk.java|netty|netty|PoolChunk.java|Java|430|191|91
+./src/_00/output/Java/netty~netty/codec-http/src/main/java/io/netty/handler/codec/spdy/SpdyFrameCodec.java|netty|netty|SpdyFrameCodec.java|Java|427|55|84
 ./src/_00/output/Java/netty~netty/common/src/main/java/io/netty/util/internal/StringUtil.java|netty|netty|StringUtil.java|Java|426|231|62
 ./src/_00/output/Java/netty~netty/codec-http/src/test/java/io/netty/handler/codec/http/websocketx/WebSocketClientHandshakerTest.java|netty|netty|WebSocketClientHandshakerTest.java|Java|424|30|63
 ./src/_00/output/Java/netty~netty/codec-http/src/test/java/io/netty/handler/codec/http/multipart/HttpPostMultiPartRequestDecoderTest.java|netty|netty|HttpPostMultiPartRequestDecoderTest.java|Java|420|42|51
@@ -200,6 +201,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Java/netty~netty/handler/src/test/java/io/netty/handler/ssl/OpenSslCertificateCompressionTest.java|netty|netty|OpenSslCertificateCompressionTest.java|Java|370|20|51
 ./src/_00/output/Java/netty~netty/handler/src/test/java/io/netty/handler/ssl/OpenSslErrorStackAssertSSLEngine.java|netty|netty|OpenSslErrorStackAssertSSLEngine.java|Java|370|19|53
 ./src/_00/output/Java/netty~netty/resolver-dns/src/main/java/io/netty/resolver/dns/DnsNameResolverBuilder.java|netty|netty|DnsNameResolverBuilder.java|Java|369|308|79
+./src/_00/output/Java/netty~netty/codec-http/src/main/java/io/netty/handler/codec/spdy/SpdyFrameDecoder.java|netty|netty|SpdyFrameDecoder.java|Java|368|39|88
 ./src/_00/output/Java/netty~netty/handler/src/main/java/io/netty/handler/ssl/OpenSslSessionCache.java|netty|netty|OpenSslSessionCache.java|Java|368|79|74
 ./src/_00/output/Java/netty~netty/resolver-dns-native-macos/pom.xml|netty|netty|pom.xml|Maven|368|49|15
 ./src/_00/output/Java/netty~netty/transport-native-kqueue/src/main/c/netty_kqueue_native.c|netty|netty|netty_kqueue_native.c|C|367|37|60
@@ -227,7 +229,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Java/netty~netty/codec-http/src/test/java/io/netty/handler/codec/http/HttpRequestEncoderTest.java|netty|netty|HttpRequestEncoderTest.java|Java|342|29|61
 ./src/_00/output/Java/netty~netty/transport/src/main/java/io/netty/channel/group/DefaultChannelGroup.java|netty|netty|DefaultChannelGroup.java|Java|341|59|63
 ./src/_00/output/Java/netty~netty/transport/src/main/java/io/netty/channel/nio/AbstractNioChannel.java|netty|netty|AbstractNioChannel.java|Java|341|114|62
-./src/_00/output/Java/netty~netty/codec-http/src/main/java/io/netty/handler/codec/spdy/SpdyFrameDecoder.java|netty|netty|SpdyFrameDecoder.java|Java|340|32|85
 ./src/_00/output/Java/netty~netty/common/src/test/java/io/netty/util/concurrent/SingleThreadEventExecutorTest.java|netty|netty|SingleThreadEventExecutorTest.java|Java|340|37|53
 ./src/_00/output/Java/netty~netty/transport/src/main/java/io/netty/channel/DefaultChannelConfig.java|netty|netty|DefaultChannelConfig.java|Java|338|52|52
 ./src/_00/output/Java/netty~netty/codec/src/main/java/io/netty/handler/codec/ByteToMessageDecoder.java|netty|netty|ByteToMessageDecoder.java|Java|336|208|43
@@ -249,7 +250,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Java/netty~netty/testsuite/src/main/java/io/netty/testsuite/transport/socket/SocketSslSessionReuseTest.java|netty|netty|SocketSslSessionReuseTest.java|Java|316|15|44
 ./src/_00/output/Java/netty~netty/transport/src/test/java/io/netty/channel/DefaultChannelPipelineTailTest.java|netty|netty|DefaultChannelPipelineTailTest.java|Java|316|15|77
 ./src/_00/output/Java/netty~netty/buffer/src/main/java/io/netty/buffer/DuplicatedByteBuf.java|netty|netty|DuplicatedByteBuf.java|Java|314|22|74
-./src/_00/output/Java/netty~netty/codec-http/src/main/java/io/netty/handler/codec/http/HttpContentCompressor.java|netty|netty|HttpContentCompressor.java|Java|314|125|36
 ./src/_00/output/Java/netty~netty/codec-http/src/test/java/io/netty/handler/codec/http/HttpResponseEncoderTest.java|netty|netty|HttpResponseEncoderTest.java|Java|314|20|70
 ./src/_00/output/Java/netty~netty/codec-http/src/main/java/io/netty/handler/codec/http/websocketx/WebSocket08FrameDecoder.java|netty|netty|WebSocket08FrameDecoder.java|Java|313|121|54
 ./src/_00/output/Java/netty~netty/codec-http/src/main/java/io/netty/handler/codec/http/websocketx/WebSocketClientProtocolConfig.java|netty|netty|WebSocketClientProtocolConfig.java|Java|313|79|47
@@ -261,7 +261,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Java/netty~netty/codec-http2/src/main/java/io/netty/handler/codec/http2/HpackUtil.java|netty|netty|HpackUtil.java|Java|307|55|10
 ./src/_00/output/Java/netty~netty/handler/src/main/java/io/netty/handler/traffic/AbstractTrafficShapingHandler.java|netty|netty|AbstractTrafficShapingHandler.java|Java|306|292|60
 ./src/_00/output/Java/netty~netty/codec-http/src/main/java/io/netty/handler/codec/http/HttpResponseStatus.java|netty|netty|HttpResponseStatus.java|Java|305|260|84
-./src/_00/output/Java/netty~netty/codec-http/src/main/java/io/netty/handler/codec/spdy/SpdyFrameCodec.java|netty|netty|SpdyFrameCodec.java|Java|305|42|63
 ./src/_00/output/Java/netty~netty/codec-http/src/test/java/io/netty/handler/codec/http/QueryStringDecoderTest.java|netty|netty|QueryStringDecoderTest.java|Java|305|28|51
 ./src/_00/output/Java/netty~netty/transport/src/test/java/io/netty/channel/pool/SimpleChannelPoolTest.java|netty|netty|SimpleChannelPoolTest.java|Java|305|43|53
 ./src/_00/output/Java/netty~netty/transport-native-kqueue/src/main/c/netty_kqueue_bsdsocket.c|netty|netty|netty_kqueue_bsdsocket.c|C|304|30|46
@@ -270,6 +269,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Java/netty~netty/testsuite-shading/pom.xml|netty|netty|pom.xml|Maven|301|23|14
 ./src/_00/output/Java/netty~netty/codec-http/src/main/java/io/netty/handler/codec/http/DefaultHttpHeaders.java|netty|netty|DefaultHttpHeaders.java|Java|300|91|60
 ./src/_00/output/Java/netty~netty/codec-haproxy/src/test/java/io/netty/handler/codec/haproxy/HaProxyMessageEncoderTest.java|netty|netty|HaProxyMessageEncoderTest.java|Java|299|50|90
+./src/_00/output/Java/netty~netty/codec-http/src/main/java/io/netty/handler/codec/http/HttpContentCompressor.java|netty|netty|HttpContentCompressor.java|Java|299|126|37
 ./src/_00/output/Java/netty~netty/codec-mqtt/src/main/java/io/netty/handler/codec/mqtt/MqttProperties.java|netty|netty|MqttProperties.java|Java|299|62|53
 ./src/_00/output/Java/netty~netty/transport-classes-epoll/src/main/java/io/netty/channel/epoll/EpollDomainDatagramChannel.java|netty|netty|EpollDomainDatagramChannel.java|Java|299|28|53
 ./src/_00/output/Java/netty~netty/buffer/src/main/java/io/netty/buffer/PooledDuplicatedByteBuf.java|netty|netty|PooledDuplicatedByteBuf.java|Java|295|15|68
@@ -280,9 +280,9 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Java/netty~netty/buffer/src/test/java/io/netty/buffer/ReadOnlyByteBufTest.java|netty|netty|ReadOnlyByteBufTest.java|Java|289|18|48
 ./src/_00/output/Java/netty~netty/buffer/src/test/java/io/netty/buffer/SlicedByteBufTest.java|netty|netty|SlicedByteBufTest.java|Java|289|24|42
 ./src/_00/output/Java/netty~netty/codec-http2/src/main/java/io/netty/handler/codec/http2/CompressorHttp2ConnectionEncoder.java|netty|netty|CompressorHttp2ConnectionEncoder.java|Java|289|99|39
+./src/_00/output/Java/netty~netty/codec-http/src/main/java/io/netty/handler/codec/spdy/SpdyHttpDecoder.java|netty|netty|SpdyHttpDecoder.java|Java|288|112|64
 ./src/_00/output/Java/netty~netty/common/src/test/java/io/netty/util/concurrent/FastThreadLocalTest.java|netty|netty|FastThreadLocalTest.java|Java|288|24|51
 ./src/_00/output/Java/netty~netty/resolver-dns/src/test/java/io/netty/resolver/dns/TestDnsServer.java|netty|netty|TestDnsServer.java|Java|288|30|53
-./src/_00/output/Java/netty~netty/codec-http/src/main/java/io/netty/handler/codec/spdy/SpdyHttpDecoder.java|netty|netty|SpdyHttpDecoder.java|Java|287|112|64
 ./src/_00/output/Java/netty~netty/handler/src/main/java/io/netty/handler/traffic/TrafficCounter.java|netty|netty|TrafficCounter.java|Java|287|270|62
 ./src/_00/output/Java/netty~netty/handler/src/test/java/io/netty/handler/ssl/SniClientJava8TestUtil.java|netty|netty|SniClientJava8TestUtil.java|Java|286|20|42
 ./src/_00/output/Java/netty~netty/buffer/src/test/java/io/netty/buffer/AbstractReferenceCountedByteBufTest.java|netty|netty|AbstractReferenceCountedByteBufTest.java|Java|283|16|59
@@ -635,6 +635,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Java/netty~netty/common/src/test/java/io/netty/util/internal/logging/Slf4JLoggerTest.java|netty|netty|Slf4JLoggerTest.java|Java|148|15|63
 ./src/_00/output/Java/netty~netty/handler/src/main/java/io/netty/handler/ssl/JdkAlpnSslUtils.java|netty|netty|JdkAlpnSslUtils.java|Java|148|16|17
 ./src/_00/output/Java/netty~netty/handler/src/test/java/io/netty/handler/ssl/SslUtilsTest.java|netty|netty|SslUtilsTest.java|Java|148|20|24
+./src/_00/output/Java/netty~netty/transport-blockhound-tests/pom.xml|netty|netty|pom.xml|Maven|148|17|7
 ./src/_00/output/Java/netty~netty/transport/src/main/java/io/netty/channel/socket/oio/OioServerSocketChannel.java|netty|netty|OioServerSocketChannel.java|Java|148|31|28
 ./src/_00/output/Java/netty~netty/codec-http/src/main/java/io/netty/handler/codec/http/websocketx/WebSocketClientProtocolHandler.java|netty|netty|WebSocketClientProtocolHandler.java|Java|147|261|26
 ./src/_00/output/Java/netty~netty/codec-http/src/main/java/io/netty/handler/codec/http/websocketx/extensions/compression/PerMessageDeflateServerExtensionHandshaker.java|netty|netty|PerMessageDeflateServerExtensionHandshaker.java|Java|147|63|23
@@ -683,8 +684,8 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Java/netty~netty/microbench/src/main/java/io/netty/microbench/util/RecyclerBenchmark.java|netty|netty|RecyclerBenchmark.java|Java|140|17|20
 ./src/_00/output/Java/netty~netty/buffer/src/test/java/io/netty/buffer/AbstractByteBufAllocatorTest.java|netty|netty|AbstractByteBufAllocatorTest.java|Java|139|21|27
 ./src/_00/output/Java/netty~netty/codec-http/src/main/java/io/netty/handler/codec/http/websocketx/WebSocketClientHandshaker13.java|netty|netty|WebSocketClientHandshaker13.java|Java|139|189|32
+./src/_00/output/Java/netty~netty/common/src/main/java/io/netty/util/internal/Hidden.java|netty|netty|Hidden.java|Java|139|26|35
 ./src/_00/output/Java/netty~netty/handler/src/main/java/io/netty/handler/ssl/OpenSslClientSessionCache.java|netty|netty|OpenSslClientSessionCache.java|Java|139|31|18
-./src/_00/output/Java/netty~netty/transport-blockhound-tests/pom.xml|netty|netty|pom.xml|Maven|139|17|7
 ./src/_00/output/Java/netty~netty/transport/src/main/java/io/netty/channel/DefaultMaxBytesRecvByteBufAllocator.java|netty|netty|DefaultMaxBytesRecvByteBufAllocator.java|Java|139|28|28
 ./src/_00/output/Java/netty~netty/transport/src/main/java/io/netty/channel/SingleThreadEventLoop.java|netty|netty|SingleThreadEventLoop.java|Java|139|43|33
 ./src/_00/output/Java/netty~netty/transport/src/main/java/io/netty/channel/embedded/EmbeddedEventLoop.java|netty|netty|EmbeddedEventLoop.java|Java|139|32|30
@@ -716,6 +717,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Java/netty~netty/microbench/src/main/java/io/netty/buffer/ByteBufAccessBenchmark.java|netty|netty|ByteBufAccessBenchmark.java|Java|133|24|16
 ./src/_00/output/Java/netty~netty/testsuite/src/main/java/io/netty/testsuite/transport/socket/AbstractSocketShutdownOutputByPeerTest.java|netty|netty|AbstractSocketShutdownOutputByPeerTest.java|Java|133|15|32
 ./src/_00/output/Java/netty~netty/transport/src/main/java/io/netty/channel/local/LocalServerChannel.java|netty|netty|LocalServerChannel.java|Java|133|23|25
+./src/_00/output/Java/netty~netty/codec-http/src/main/java/io/netty/handler/codec/spdy/SpdyFrameEncoder.java|netty|netty|SpdyFrameEncoder.java|Java|132|21|18
 ./src/_00/output/Java/netty~netty/codec/src/main/java/io/netty/handler/codec/xml/XmlFrameDecoder.java|netty|netty|XmlFrameDecoder.java|Java|132|91|22
 ./src/_00/output/Java/netty~netty/handler-proxy/src/test/java/io/netty/handler/proxy/Socks5ProxyServer.java|netty|netty|Socks5ProxyServer.java|Java|132|15|32
 ./src/_00/output/Java/netty~netty/transport-classes-epoll/src/main/java/io/netty/channel/epoll/EpollDomainDatagramChannelConfig.java|netty|netty|EpollDomainDatagramChannelConfig.java|Java|132|15|26
@@ -726,7 +728,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Java/netty~netty/codec-http/src/main/java/io/netty/handler/codec/http/cookie/CookieUtil.java|netty|netty|CookieUtil.java|Java|131|29|23
 ./src/_00/output/Java/netty~netty/codec-http/src/main/java/io/netty/handler/codec/http/websocketx/WebSocket08FrameEncoder.java|netty|netty|WebSocket08FrameEncoder.java|Java|131|77|24
 ./src/_00/output/Java/netty~netty/codec-http/src/test/java/io/netty/handler/codec/http/websocketx/WebSocketRequestBuilder.java|netty|netty|WebSocketRequestBuilder.java|Java|131|15|19
-./src/_00/output/Java/netty~netty/common/src/main/java/io/netty/util/internal/Hidden.java|netty|netty|Hidden.java|Java|131|26|33
 ./src/_00/output/Java/netty~netty/handler/src/main/java/io/netty/handler/flow/FlowControlHandler.java|netty|netty|FlowControlHandler.java|Java|131|88|37
 ./src/_00/output/Java/netty~netty/codec-socks/src/test/java/io/netty/handler/codec/socks/SocksCmdRequestTest.java|netty|netty|SocksCmdRequestTest.java|Java|130|15|26
 ./src/_00/output/Java/netty~netty/common/src/main/java/io/netty/util/internal/logging/Slf4JLogger.java|netty|netty|Slf4JLogger.java|Java|130|18|35
@@ -769,7 +770,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Java/netty~netty/buffer/src/test/java/io/netty/buffer/PoolArenaTest.java|netty|netty|PoolArenaTest.java|Java|123|22|27
 ./src/_00/output/Java/netty~netty/buffer/src/test/java/io/netty/buffer/search/SearchProcessorTest.java|netty|netty|SearchProcessorTest.java|Java|123|15|29
 ./src/_00/output/Java/netty~netty/codec-http/src/main/java/io/netty/handler/codec/http/websocketx/WebSocketCloseStatus.java|netty|netty|WebSocketCloseStatus.java|Java|123|175|32
-./src/_00/output/Java/netty~netty/codec-http/src/main/java/io/netty/handler/codec/spdy/SpdyFrameEncoder.java|netty|netty|SpdyFrameEncoder.java|Java|123|21|17
 ./src/_00/output/Java/netty~netty/codec-http2/src/main/java/io/netty/handler/codec/http2/HpackHuffmanEncoder.java|netty|netty|HpackHuffmanEncoder.java|Java|123|48|23
 ./src/_00/output/Java/netty~netty/common/src/main/java/io/netty/util/internal/TypeParameterMatcher.java|netty|netty|TypeParameterMatcher.java|Java|123|16|26
 ./src/_00/output/Java/netty~netty/buffer/src/main/java/io/netty/buffer/PooledUnsafeHeapByteBuf.java|netty|netty|PooledUnsafeHeapByteBuf.java|Java|122|18|26
@@ -1073,6 +1073,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Java/netty~netty/buffer/src/main/java/io/netty/buffer/SimpleLeakAwareCompositeByteBuf.java|netty|netty|SimpleLeakAwareCompositeByteBuf.java|Java|84|21|21
 ./src/_00/output/Java/netty~netty/codec-http/src/main/java/io/netty/handler/codec/http/DefaultLastHttpContent.java|netty|netty|DefaultLastHttpContent.java|Java|84|46|21
 ./src/_00/output/Java/netty~netty/codec-http/src/main/java/io/netty/handler/codec/rtsp/RtspDecoder.java|netty|netty|RtspDecoder.java|Java|84|84|13
+./src/_00/output/Java/netty~netty/codec-http/src/test/java/io/netty/handler/codec/spdy/TestSpdyFrameDecoderDelegate.java|netty|netty|TestSpdyFrameDecoderDelegate.java|Java|84|15|22
 ./src/_00/output/Java/netty~netty/codec-socks/src/main/java/io/netty/handler/codec/socks/SocksCmdRequest.java|netty|netty|SocksCmdRequest.java|Java|84|41|12
 ./src/_00/output/Java/netty~netty/codec/src/main/java/io/netty/handler/codec/MessageToMessageEncoder.java|netty|netty|MessageToMessageEncoder.java|Java|84|60|12
 ./src/_00/output/Java/netty~netty/codec/src/test/java/io/netty/handler/codec/frame/LengthFieldPrependerTest.java|netty|netty|LengthFieldPrependerTest.java|Java|84|16|16
@@ -1114,6 +1115,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Java/netty~netty/microbench/src/main/java/io/netty/microbench/stomp/ExampleStompHeadersSubframe.java|netty|netty|ExampleStompHeadersSubframe.java|Java|81|16|11
 ./src/_00/output/Java/netty~netty/transport/src/main/java/io/netty/channel/DefaultAddressedEnvelope.java|netty|netty|DefaultAddressedEnvelope.java|Java|81|29|19
 ./src/_00/output/Java/netty~netty/buffer/src/main/java/io/netty/buffer/UnreleasableByteBuf.java|netty|netty|UnreleasableByteBuf.java|Java|80|31|22
+./src/_00/output/Java/netty~netty/codec-http/src/main/java/io/netty/handler/codec/spdy/DefaultSpdyUnknownFrame.java|netty|netty|DefaultSpdyUnknownFrame.java|Java|80|15|16
 ./src/_00/output/Java/netty~netty/codec-http/src/test/java/io/netty/handler/codec/http/websocketx/extensions/WebSocketExtensionTestUtil.java|netty|netty|WebSocketExtensionTestUtil.java|Java|80|20|21
 ./src/_00/output/Java/netty~netty/codec-stomp/src/main/java/io/netty/handler/codec/stomp/LastStompContentSubframe.java|netty|netty|LastStompContentSubframe.java|Java|80|22|24
 ./src/_00/output/Java/netty~netty/example/src/main/java/io/netty/example/http2/helloworld/multiplex/server/Http2ServerInitializer.java|netty|netty|Http2ServerInitializer.java|Java|80|29|14
@@ -1213,7 +1215,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Java/netty~netty/codec-http/src/test/java/io/netty/handler/codec/http/websocketx/WebSocket08FrameDecoderTest.java|netty|netty|WebSocket08FrameDecoderTest.java|Java|72|12|13
 ./src/_00/output/Java/netty~netty/codec-http2/src/main/resources/META-INF/native-image/io.netty/netty-codec-http2/generated/handlers/reflect-config.json|netty|netty|reflect-config.json|JSON|72|0|0
 ./src/_00/output/Java/netty~netty/codec-memcache/src/test/java/io/netty/handler/codec/memcache/binary/DefaultFullBinaryMemcacheResponseTest.java|netty|netty|DefaultFullBinaryMemcacheResponseTest.java|Java|72|15|11
-./src/_00/output/Java/netty~netty/codec-mqtt/src/main/java/io/netty/handler/codec/mqtt/MqttPublishMessage.java|netty|netty|MqttPublishMessage.java|Java|72|18|19
 ./src/_00/output/Java/netty~netty/codec-smtp/src/main/java/io/netty/handler/codec/smtp/SmtpRequests.java|netty|netty|SmtpRequests.java|Java|72|57|18
 ./src/_00/output/Java/netty~netty/codec-socks/src/main/java/io/netty/handler/codec/socksx/v5/Socks5CommandRequestDecoder.java|netty|netty|Socks5CommandRequestDecoder.java|Java|72|21|14
 ./src/_00/output/Java/netty~netty/codec-socks/src/main/java/io/netty/handler/codec/socksx/v5/Socks5CommandResponseDecoder.java|netty|netty|Socks5CommandResponseDecoder.java|Java|72|21|13
@@ -1228,6 +1229,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Java/netty~netty/codec-http/src/main/java/io/netty/handler/codec/http/HttpHeaderValidationUtil.java|netty|netty|HttpHeaderValidationUtil.java|Java|71|101|9
 ./src/_00/output/Java/netty~netty/codec-http/src/test/java/io/netty/handler/codec/http/websocketx/WebSocketUtf8FrameValidatorTest.java|netty|netty|WebSocketUtf8FrameValidatorTest.java|Java|71|15|15
 ./src/_00/output/Java/netty~netty/codec-http2/src/test/resources/io/netty/handler/codec/http2/testdata/testStaticTableEntries.json|netty|netty|testStaticTableEntries.json|JSON|71|0|1
+./src/_00/output/Java/netty~netty/codec-mqtt/src/main/java/io/netty/handler/codec/mqtt/MqttPublishMessage.java|netty|netty|MqttPublishMessage.java|Java|71|18|19
 ./src/_00/output/Java/netty~netty/example/src/main/java/io/netty/example/memcache/binary/MemcacheClient.java|netty|netty|MemcacheClient.java|Java|71|23|9
 ./src/_00/output/Java/netty~netty/handler/src/test/java/io/netty/handler/ssl/PemReaderTest.java|netty|netty|PemReaderTest.java|Java|71|15|5
 ./src/_00/output/Java/netty~netty/microbench/src/main/java/io/netty/microbench/concurrent/ScheduledFutureTaskBenchmark.java|netty|netty|ScheduledFutureTaskBenchmark.java|Java|71|15|12
@@ -1382,6 +1384,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Java/netty~netty/microbench/src/main/java/io/netty/microbench/http2/NoopHttp2RemoteFlowController.java|netty|netty|NoopHttp2RemoteFlowController.java|Java|59|15|17
 ./src/_00/output/Java/netty~netty/testsuite-osgi/src/test/java/io/netty/osgitests/OsgiBundleTest.java|netty|netty|OsgiBundleTest.java|Java|59|17|13
 ./src/_00/output/Java/netty~netty/codec-dns/src/main/resources/META-INF/native-image/io.netty/netty-codec-dns/generated/handlers/reflect-config.json|netty|netty|reflect-config.json|JSON|58|0|0
+./src/_00/output/Java/netty~netty/codec-http/src/test/java/io/netty/handler/codec/spdy/SpdyFrameCodecTest.java|netty|netty|SpdyFrameCodecTest.java|Java|58|15|5
 ./src/_00/output/Java/netty~netty/codec-http2/src/main/java/io/netty/handler/codec/http2/Http2DataChunkedInput.java|netty|netty|Http2DataChunkedInput.java|Java|58|44|14
 ./src/_00/output/Java/netty~netty/codec-http2/src/test/resources/io/netty/handler/codec/http2/testdata/testSpecExampleC4.json|netty|netty|testSpecExampleC4.json|JSON|58|0|0
 ./src/_00/output/Java/netty~netty/codec-mqtt/src/main/java/io/netty/handler/codec/mqtt/MqttConnectReturnCode.java|netty|netty|MqttConnectReturnCode.java|Java|58|22|8
@@ -1433,7 +1436,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Java/netty~netty/codec-mqtt/src/main/java/io/netty/handler/codec/mqtt/MqttUnsubAckPayload.java|netty|netty|MqttUnsubAckPayload.java|Java|55|18|14
 ./src/_00/output/Java/netty~netty/codec-redis/src/main/java/io/netty/handler/codec/redis/DefaultBulkStringRedisContent.java|netty|netty|DefaultBulkStringRedisContent.java|Java|55|22|13
 ./src/_00/output/Java/netty~netty/codec/src/test/java/io/netty/handler/codec/protobuf/ProtobufVarint32FrameDecoderTest.java|netty|netty|ProtobufVarint32FrameDecoderTest.java|Java|55|15|12
-./src/_00/output/Java/netty~netty/common/src/main/java/io/netty/util/internal/BoundedInputStream.java|netty|netty|BoundedInputStream.java|Java|55|19|9
 ./src/_00/output/Java/netty~netty/common/src/main/java/io/netty/util/internal/PendingWrite.java|netty|netty|PendingWrite.java|Java|55|33|11
 ./src/_00/output/Java/netty~netty/example/src/main/java/io/netty/example/file/FileServer.java|netty|netty|FileServer.java|Java|55|24|7
 ./src/_00/output/Java/netty~netty/example/src/main/java/io/netty/example/http/websocketx/server/WebSocketServerIndexPage.java|netty|netty|WebSocketServerIndexPage.java|Java|55|19|5
@@ -1583,6 +1585,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Java/netty~netty/codec-haproxy/pom.xml|netty|netty|pom.xml|Maven|47|16|7
 ./src/_00/output/Java/netty~netty/codec-http/src/test/java/io/netty/handler/codec/http/cookie/ClientCookieEncoderTest.java|netty|netty|ClientCookieEncoderTest.java|Java|47|17|9
 ./src/_00/output/Java/netty~netty/codec-http/src/test/java/io/netty/handler/codec/http/multipart/MixedTest.java|netty|netty|MixedTest.java|Java|47|15|14
+./src/_00/output/Java/netty~netty/codec-http/src/test/java/io/netty/handler/codec/spdy/SpdyUnknownFrameDecoderTest.java|netty|netty|SpdyUnknownFrameDecoderTest.java|Java|47|15|12
 ./src/_00/output/Java/netty~netty/codec-http2/src/main/java/io/netty/handler/codec/http2/DecoratingHttp2ConnectionDecoder.java|netty|netty|DecoratingHttp2ConnectionDecoder.java|Java|47|17|14
 ./src/_00/output/Java/netty~netty/codec-http2/src/test/java/io/netty/handler/codec/http2/HpackStaticTableTest.java|netty|netty|HpackStaticTableTest.java|Java|47|14|15
 ./src/_00/output/Java/netty~netty/codec/src/main/java/io/netty/handler/codec/marshalling/ChannelBufferByteInput.java|netty|netty|ChannelBufferByteInput.java|Java|47|19|13
@@ -1697,6 +1700,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Java/netty~netty/codec/src/main/java/io/netty/handler/codec/compression/Brotli.java|netty|netty|Brotli.java|Java|42|29|12
 ./src/_00/output/Java/netty~netty/codec/src/test/java/io/netty/handler/codec/bytes/ByteArrayEncoderTest.java|netty|netty|ByteArrayEncoderTest.java|Java|42|15|10
 ./src/_00/output/Java/netty~netty/common/src/main/java/io/netty/util/NettyRuntime.java|netty|netty|NettyRuntime.java|Java|42|52|12
+./src/_00/output/Java/netty~netty/common/src/main/java/io/netty/util/internal/BoundedInputStream.java|netty|netty|BoundedInputStream.java|Java|42|16|15
 ./src/_00/output/Java/netty~netty/common/src/main/java/io/netty/util/internal/ConstantTimeUtils.java|netty|netty|ConstantTimeUtils.java|Java|42|83|6
 ./src/_00/output/Java/netty~netty/common/src/main/java/io/netty/util/internal/PromiseNotificationUtil.java|netty|netty|PromiseNotificationUtil.java|Java|42|27|7
 ./src/_00/output/Java/netty~netty/example/src/main/java/io/netty/example/discard/DiscardServer.java|netty|netty|DiscardServer.java|Java|42|23|7
@@ -1826,6 +1830,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Java/netty~netty/codec/src/main/java/io/netty/handler/codec/UnsupportedMessageTypeException.java|netty|netty|UnsupportedMessageTypeException.java|Java|35|18|10
 ./src/_00/output/Java/netty~netty/codec/src/main/java/io/netty/handler/codec/protobuf/ProtobufDecoderNano.java|netty|netty|ProtobufDecoderNano.java|Java|35|48|5
 ./src/_00/output/Java/netty~netty/common/src/main/java/io/netty/util/concurrent/EventExecutorGroup.java|netty|netty|EventExecutorGroup.java|Java|35|57|17
+./src/_00/output/Java/netty~netty/common/src/test/java/io/netty/util/internal/BoundedInputStreamTest.java|netty|netty|BoundedInputStreamTest.java|Java|35|15|7
 ./src/_00/output/Java/netty~netty/dev-tools/pom.xml|netty|netty|pom.xml|Maven|35|15|3
 ./src/_00/output/Java/netty~netty/example/src/main/java/io/netty/example/haproxy/HAProxyClient.java|netty|netty|HAProxyClient.java|Java|35|16|9
 ./src/_00/output/Java/netty~netty/example/src/main/java/io/netty/example/http/helloworld/HttpHelloWorldServer.java|netty|netty|HttpHelloWorldServer.java|Java|35|21|8
@@ -2158,6 +2163,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Java/netty~netty/codec-http/src/main/java/io/netty/handler/codec/http/multipart/Attribute.java|netty|netty|Attribute.java|Java|23|24|12
 ./src/_00/output/Java/netty~netty/codec-http/src/main/java/io/netty/handler/codec/http/websocketx/CorruptedWebSocketFrameException.java|netty|netty|CorruptedWebSocketFrameException.java|Java|23|31|10
 ./src/_00/output/Java/netty~netty/codec-http/src/main/java/io/netty/handler/codec/http/websocketx/WebSocketVersion.java|netty|netty|WebSocketVersion.java|Java|23|45|9
+./src/_00/output/Java/netty~netty/codec-http/src/main/java/io/netty/handler/codec/spdy/SpdyUnknownFrame.java|netty|netty|SpdyUnknownFrame.java|Java|23|16|12
 ./src/_00/output/Java/netty~netty/codec-http/src/test/java/io/netty/handler/codec/http/DefaultHttpRequestTest.java|netty|netty|DefaultHttpRequestTest.java|Java|23|19|8
 ./src/_00/output/Java/netty~netty/codec-memcache/src/main/java/io/netty/handler/codec/memcache/binary/FullBinaryMemcacheRequest.java|netty|netty|FullBinaryMemcacheRequest.java|Java|23|18|10
 ./src/_00/output/Java/netty~netty/codec-memcache/src/main/java/io/netty/handler/codec/memcache/binary/FullBinaryMemcacheResponse.java|netty|netty|FullBinaryMemcacheResponse.java|Java|23|18|10
@@ -2166,7 +2172,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Java/netty~netty/codec-stomp/src/main/resources/META-INF/native-image/io.netty/netty-codec-stomp/generated/handlers/reflect-config.json|netty|netty|reflect-config.json|JSON|23|0|0
 ./src/_00/output/Java/netty~netty/codec/src/test/java/io/netty/handler/codec/string/StringDecoderTest.java|netty|netty|StringDecoderTest.java|Java|23|15|4
 ./src/_00/output/Java/netty~netty/codec/src/test/java/io/netty/handler/codec/string/StringEncoderTest.java|netty|netty|StringEncoderTest.java|Java|23|15|4
-./src/_00/output/Java/netty~netty/common/src/test/java/io/netty/util/internal/BoundedInputStreamTest.java|netty|netty|BoundedInputStreamTest.java|Java|23|15|6
 ./src/_00/output/Java/netty~netty/example/src/main/java/io/netty/example/factorial/FactorialServerHandler.java|netty|netty|FactorialServerHandler.java|Java|23|23|7
 ./src/_00/output/Java/netty~netty/example/src/main/java/io/netty/example/http/snoop/HttpSnoopClientInitializer.java|netty|netty|HttpSnoopClientInitializer.java|Java|23|19|10
 ./src/_00/output/Java/netty~netty/example/src/main/java/io/netty/example/http/snoop/HttpSnoopServerInitializer.java|netty|netty|HttpSnoopServerInitializer.java|Java|23|19|5
@@ -2504,6 +2509,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Java/netty~netty/common/src/main/java/io/netty/util/internal/ResourcesUtil.java|netty|netty|ResourcesUtil.java|Java|14|25|4
 ./src/_00/output/Java/netty~netty/common/src/main/java/io/netty/util/internal/svm/PlatformDependentSubstitution.java|netty|netty|PlatformDependentSubstitution.java|Java|14|22|3
 ./src/_00/output/Java/netty~netty/common/src/main/java/io/netty/util/internal/svm/UnsafeRefArrayAccessSubstitution.java|netty|netty|UnsafeRefArrayAccessSubstitution.java|Java|14|15|3
+./src/_00/output/Java/netty~netty/common/src/test/resources/logback-test.xml|netty|netty|logback-test.xml|XML|14|1|3
 ./src/_00/output/Java/netty~netty/example/src/main/java/io/netty/example/localecho/LocalEchoClientHandler.java|netty|netty|LocalEchoClientHandler.java|Java|14|16|4
 ./src/_00/output/Java/netty~netty/example/src/main/java/io/netty/example/securechat/SecureChatClientHandler.java|netty|netty|SecureChatClientHandler.java|Java|14|18|4
 ./src/_00/output/Java/netty~netty/example/src/main/java/io/netty/example/udt/echo/rendezvous/MsgEchoPeerOne.java|netty|netty|MsgEchoPeerOne.java|Java|14|21|5
@@ -2547,7 +2553,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Java/netty~netty/codec/src/main/java/io/netty/handler/codec/serialization/WeakReferenceMap.java|netty|netty|WeakReferenceMap.java|Java|13|15|5
 ./src/_00/output/Java/netty~netty/common/src/main/java/io/netty/util/Attribute.java|netty|netty|Attribute.java|Java|13|71|9
 ./src/_00/output/Java/netty~netty/common/src/main/java/io/netty/util/internal/logging/CommonsLoggerFactory.java|netty|netty|CommonsLoggerFactory.java|Java|13|26|6
-./src/_00/output/Java/netty~netty/common/src/test/resources/logback-test.xml|netty|netty|logback-test.xml|XML|13|0|3
 ./src/_00/output/Java/netty~netty/example/src/main/java/io/netty/example/discard/DiscardServerHandler.java|netty|netty|DiscardServerHandler.java|Java|13|20|4
 ./src/_00/output/Java/netty~netty/handler/src/main/java/io/netty/handler/ssl/ResumableX509ExtendedTrustManager.java|netty|netty|ResumableX509ExtendedTrustManager.java|Java|13|94|3
 ./src/_00/output/Java/netty~netty/resolver-dns/src/main/java/io/netty/resolver/dns/DnsCache.java|netty|netty|DnsCache.java|Java|13|55|8
@@ -2904,6 +2909,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Java/netty~netty/codec-http/src/main/java/io/netty/handler/codec/http/websocketx/extensions/WebSocketClientExtensionHandshaker.java|netty|netty|WebSocketClientExtensionHandshaker.java|Java|5|31|5
 ./src/_00/output/Java/netty~netty/codec-http/src/main/java/io/netty/handler/codec/http/websocketx/extensions/WebSocketExtensionDecoder.java|netty|netty|WebSocketExtensionDecoder.java|Java|5|18|3
 ./src/_00/output/Java/netty~netty/codec-http/src/main/java/io/netty/handler/codec/http/websocketx/extensions/WebSocketExtensionEncoder.java|netty|netty|WebSocketExtensionEncoder.java|Java|5|18|3
+./src/_00/output/Java/netty~netty/codec-http/src/main/java/io/netty/handler/codec/spdy/SpdyFrameDecoderExtendedDelegate.java|netty|netty|SpdyFrameDecoderExtendedDelegate.java|Java|5|25|3
 ./src/_00/output/Java/netty~netty/codec-http/src/main/java/io/netty/handler/codec/spdy/SpdyPingFrame.java|netty|netty|SpdyPingFrame.java|Java|5|24|3
 ./src/_00/output/Java/netty~netty/codec-http2/src/main/java/io/netty/handler/codec/http2/Http2FrameSizePolicy.java|netty|netty|Http2FrameSizePolicy.java|Java|5|29|2
 ./src/_00/output/Java/netty~netty/codec-http2/src/main/java/io/netty/handler/codec/http2/Http2PingFrame.java|netty|netty|Http2PingFrame.java|Java|5|24|4

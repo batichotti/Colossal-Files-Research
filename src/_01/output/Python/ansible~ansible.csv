@@ -22,15 +22,15 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/packaging/release.py|ansible|ansible|release.py|Python|919|212|431
 ./src/_00/output/Python/ansible~ansible/test/units/cli/test_galaxy.py|ansible|ansible|test_galaxy.py|Python|906|140|304
 ./src/_00/output/Python/ansible~ansible/lib/ansible/modules/apt.py|ansible|ansible|apt.py|Python|879|480|211
-./src/_00/output/Python/ansible~ansible/lib/ansible/plugins/strategy/__init__.py|ansible|ansible|__init__.py|Python|878|183|178
+./src/_00/output/Python/ansible~ansible/lib/ansible/plugins/strategy/__init__.py|ansible|ansible|__init__.py|Python|879|183|179
 ./src/_00/output/Python/ansible~ansible/test/lib/ansible_test/_internal/commands/sanity/__init__.py|ansible|ansible|__init__.py|Python|875|106|313
 ./src/_00/output/Python/ansible~ansible/test/units/galaxy/test_collection.py|ansible|ansible|test_collection.py|Python|859|40|303
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/module_utils_Ansible.Become/library/ansible_become_tests.ps1|ansible|ansible|ansible_become_tests.ps1|PowerShell|857|35|126
-./src/_00/output/Python/ansible~ansible/lib/ansible/executor/task_executor.py|ansible|ansible|task_executor.py|Python|846|237|199
 ./src/_00/output/Python/ansible~ansible/test/support/network-integration/collections/ansible_collections/ansible/netcommon/plugins/connection/network_cli.py|ansible|ansible|network_cli.py|Python|842|422|122
+./src/_00/output/Python/ansible~ansible/lib/ansible/executor/task_executor.py|ansible|ansible|task_executor.py|Python|839|235|197
 ./src/_00/output/Python/ansible~ansible/test/lib/ansible_test/_internal/host_profiles.py|ansible|ansible|host_profiles.py|Python|835|308|300
 ./src/_00/output/Python/ansible~ansible/lib/ansible/plugins/action/__init__.py|ansible|ansible|__init__.py|Python|817|378|237
-./src/_00/output/Python/ansible~ansible/lib/ansible/module_utils/urls.py|ansible|ansible|urls.py|Python|782|337|259
+./src/_00/output/Python/ansible~ansible/lib/ansible/module_utils/urls.py|ansible|ansible|urls.py|Python|798|344|263
 ./src/_00/output/Python/ansible~ansible/lib/ansible/modules/git.py|ansible|ansible|git.py|Python|779|461|189
 ./src/_00/output/Python/ansible~ansible/test/lib/ansible_test/_internal/util.py|ansible|ansible|util.py|Python|763|134|321
 ./src/_00/output/Python/ansible~ansible/lib/ansible/utils/collection_loader/_collection_finder.py|ansible|ansible|_collection_finder.py|Python|759|257|275
@@ -42,9 +42,9 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/dnf/tasks/dnf.yml|ansible|ansible|dnf.yml|YAML|729|23|147
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/ansible-test-container/runme.py|ansible|ansible|runme.py|Python|715|158|302
 ./src/_00/output/Python/ansible~ansible/lib/ansible/parsing/vault/__init__.py|ansible|ansible|__init__.py|Python|703|294|307
+./src/_00/output/Python/ansible~ansible/lib/ansible/modules/unarchive.py|ansible|ansible|unarchive.py|Python|693|342|144
 ./src/_00/output/Python/ansible~ansible/lib/ansible/module_utils/six/__init__.py|ansible|ansible|__init__.py|Python|688|128|193
 ./src/_00/output/Python/ansible~ansible/test/lib/ansible_test/_internal/commands/integration/__init__.py|ansible|ansible|__init__.py|Python|683|49|243
-./src/_00/output/Python/ansible~ansible/lib/ansible/modules/unarchive.py|ansible|ansible|unarchive.py|Python|676|340|141
 ./src/_00/output/Python/ansible~ansible/lib/ansible/module_utils/facts/hardware/linux.py|ansible|ansible|linux.py|Python|671|114|142
 ./src/_00/output/Python/ansible~ansible/test/lib/ansible_test/_internal/containers.py|ansible|ansible|containers.py|Python|656|70|217
 ./src/_00/output/Python/ansible~ansible/lib/ansible/modules/dnf.py|ansible|ansible|dnf.py|Python|649|495|145
@@ -56,8 +56,8 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/test/units/utils/collection_loader/test_collection_loader.py|ansible|ansible|test_collection_loader.py|Python|625|93|204
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/template/tasks/main.yml|ansible|ansible|main.yml|YAML|615|45|153
 ./src/_00/output/Python/ansible~ansible/test/lib/ansible_test/_internal/docker_util.py|ansible|ansible|docker_util.py|Python|612|188|245
+./src/_00/output/Python/ansible~ansible/test/integration/targets/uri/tasks/main.yml|ansible|ansible|main.yml|YAML|608|21|115
 ./src/_00/output/Python/ansible~ansible/lib/ansible/utils/display.py|ansible|ansible|display.py|Python|605|125|144
-./src/_00/output/Python/ansible~ansible/test/integration/targets/uri/tasks/main.yml|ansible|ansible|main.yml|YAML|604|21|115
 ./src/_00/output/Python/ansible~ansible/test/units/plugins/action/test_action.py|ansible|ansible|test_action.py|Python|602|126|145
 ./src/_00/output/Python/ansible~ansible/lib/ansible/template/__init__.py|ansible|ansible|__init__.py|Python|597|243|186
 ./src/_00/output/Python/ansible~ansible/lib/ansible/modules/file.py|ansible|ansible|file.py|Python|596|286|135
@@ -108,15 +108,14 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/test/units/module_utils/facts/test_collector.py|ansible|ansible|test_collector.py|Python|412|34|99
 ./src/_00/output/Python/ansible~ansible/test/support/windows-integration/plugins/modules/setup.ps1|ansible|ansible|setup.ps1|PowerShell|410|29|77
 ./src/_00/output/Python/ansible~ansible/lib/ansible/module_utils/csharp/Ansible.AccessToken.cs|ansible|ansible|Ansible.AccessToken.cs|C#|406|1|65
-./src/_00/output/Python/ansible~ansible/lib/ansible/modules/cron.py|ansible|ansible|cron.py|Python|406|252|109
+./src/_00/output/Python/ansible~ansible/lib/ansible/modules/cron.py|ansible|ansible|cron.py|Python|406|258|109
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/ansible-galaxy-collection/tasks/verify.yml|ansible|ansible|verify.yml|YAML|404|14|76
 ./src/_00/output/Python/ansible~ansible/lib/ansible/plugins/callback/__init__.py|ansible|ansible|__init__.py|Python|403|117|129
-./src/_00/output/Python/ansible~ansible/lib/ansible/vars/manager.py|ansible|ansible|manager.py|Python|399|160|109
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/known_hosts/tasks/main.yml|ansible|ansible|main.yml|YAML|395|31|83
+./src/_00/output/Python/ansible~ansible/lib/ansible/vars/manager.py|ansible|ansible|manager.py|Python|394|160|109
 ./src/_00/output/Python/ansible~ansible/test/support/windows-integration/collections/ansible_collections/ansible/windows/plugins/plugin_utils/_reboot.py|ansible|ansible|_reboot.py|Python|393|115|113
 ./src/_00/output/Python/ansible~ansible/test/support/windows-integration/plugins/modules/win_regedit.ps1|ansible|ansible|win_regedit.ps1|PowerShell|391|47|57
 ./src/_00/output/Python/ansible~ansible/lib/ansible/module_utils/powershell/Ansible.ModuleUtils.LinkUtil.psm1|ansible|ansible|Ansible.ModuleUtils.LinkUtil.psm1|PowerShell|390|6|68
-./src/_00/output/Python/ansible~ansible/lib/ansible/modules/copy.py|ansible|ansible|copy.py|Python|388|291|77
 ./src/_00/output/Python/ansible~ansible/test/units/executor/test_task_executor.py|ansible|ansible|test_task_executor.py|Python|388|23|94
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/module_utils_Ansible.ModuleUtils.WebRequest/library/web_request_test.ps1|ansible|ansible|web_request_test.ps1|PowerShell|383|5|85
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/apt/tasks/repo.yml|ansible|ansible|repo.yml|YAML|382|7|68
@@ -135,8 +134,8 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/test/lib/ansible_test/_internal/util_common.py|ansible|ansible|util_common.py|Python|344|65|135
 ./src/_00/output/Python/ansible~ansible/test/units/template/test_templar.py|ansible|ansible|test_templar.py|Python|343|38|73
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/collections/posix.yml|ansible|ansible|posix.yml|YAML|339|43|61
+./src/_00/output/Python/ansible~ansible/lib/ansible/plugins/action/copy.py|ansible|ansible|copy.py|Python|338|162|105
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/module_utils_Ansible.ModuleUtils.AddType/library/add_type_test.ps1|ansible|ansible|add_type_test.ps1|PowerShell|336|10|54
-./src/_00/output/Python/ansible~ansible/lib/ansible/plugins/action/copy.py|ansible|ansible|copy.py|Python|335|161|104
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/test_core/tasks/main.yml|ansible|ansible|main.yml|YAML|335|1|49
 ./src/_00/output/Python/ansible~ansible/test/support/network-integration/collections/ansible_collections/ansible/netcommon/plugins/module_utils/network/common/config.py|ansible|ansible|config.py|Python|335|49|91
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/ansible-galaxy/runme.sh|ansible|ansible|runme.sh|Bourne Shell|333|91|150
@@ -168,6 +167,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/test/lib/ansible_test/_util/target/setup/bootstrap.sh|ansible|ansible|bootstrap.sh|Bourne Shell|305|40|62
 ./src/_00/output/Python/ansible~ansible/test/units/utils/test_plugin_docs.py|ansible|ansible|test_plugin_docs.py|Python|305|19|8
 ./src/_00/output/Python/ansible~ansible/lib/ansible/module_utils/powershell/Ansible.ModuleUtils.WebRequest.psm1|ansible|ansible|Ansible.ModuleUtils.WebRequest.psm1|PowerShell|302|141|87
+./src/_00/output/Python/ansible~ansible/lib/ansible/modules/copy.py|ansible|ansible|copy.py|Python|300|293|78
 ./src/_00/output/Python/ansible~ansible/lib/ansible/cli/inventory.py|ansible|ansible|inventory.py|Python|295|31|91
 ./src/_00/output/Python/ansible~ansible/hacking/create-bulk-issues.py|ansible|ansible|create-bulk-issues.py|Python|294|40|138
 ./src/_00/output/Python/ansible~ansible/lib/ansible/cli/vault.py|ansible|ansible|vault.py|Python|294|78|117
@@ -184,6 +184,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/lib/ansible/modules/lineinfile.py|ansible|ansible|lineinfile.py|Python|278|261|91
 ./src/_00/output/Python/ansible~ansible/lib/ansible/module_utils/facts/network/linux.py|ansible|ansible|linux.py|Python|277|55|30
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/filter_mathstuff/tasks/main.yml|ansible|ansible|main.yml|YAML|277|11|32
+./src/_00/output/Python/ansible~ansible/lib/ansible/modules/uri.py|ansible|ansible|uri.py|Python|276|444|80
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/uri/tasks/redirect-urllib2.yml|ansible|ansible|redirect-urllib2.yml|YAML|276|20|31
 ./src/_00/output/Python/ansible~ansible/test/units/plugins/inventory/test_constructed.py|ansible|ansible|test_constructed.py|Python|276|26|34
 ./src/_00/output/Python/ansible~ansible/lib/ansible/plugins/inventory/__init__.py|ansible|ansible|__init__.py|Python|275|102|84
@@ -192,7 +193,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/lib/ansible/modules/deb822_repository.py|ansible|ansible|deb822_repository.py|Python|273|218|63
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/async/tasks/main.yml|ansible|ansible|main.yml|YAML|272|18|49
 ./src/_00/output/Python/ansible~ansible/test/lib/ansible_test/_internal/delegation.py|ansible|ansible|delegation.py|Python|271|23|82
-./src/_00/output/Python/ansible~ansible/lib/ansible/modules/uri.py|ansible|ansible|uri.py|Python|268|452|80
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/cron/tasks/main.yml|ansible|ansible|main.yml|YAML|268|4|56
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/win_exec_wrapper/tasks/main.yml|ansible|ansible|main.yml|YAML|267|4|49
 ./src/_00/output/Python/ansible~ansible/test/lib/ansible_test/_internal/commands/integration/coverage.py|ansible|ansible|coverage.py|Python|267|45|109
@@ -212,7 +212,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/test/lib/ansible_test/_internal/commands/integration/cloud/__init__.py|ansible|ansible|__init__.py|Python|253|36|107
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/win_script/tasks/main.yml|ansible|ansible|main.yml|YAML|251|18|47
 ./src/_00/output/Python/ansible~ansible/lib/ansible/cli/scripts/ansible_connection_cli_stub.py|ansible|ansible|ansible_connection_cli_stub.py|Python|250|29|63
-./src/_00/output/Python/ansible~ansible/test/units/parsing/yaml/test_loader.py|ansible|ansible|test_loader.py|Python|250|85|94
 ./src/_00/output/Python/ansible~ansible/lib/ansible/modules/apt_key.py|ansible|ansible|apt_key.py|Python|249|188|95
 ./src/_00/output/Python/ansible~ansible/lib/ansible/module_utils/powershell/Ansible.ModuleUtils.Legacy.psm1|ansible|ansible|Ansible.ModuleUtils.Legacy.psm1|PowerShell|247|106|40
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/file/tasks/directory_as_dest.yml|ansible|ansible|directory_as_dest.yml|YAML|247|44|54
@@ -220,10 +219,12 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/test/units/utils/test_vars.py|ansible|ansible|test_vars.py|Python|245|17|25
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/user/tasks/test_local_expires.yml|ansible|ansible|test_local_expires.yml|YAML|243|8|30
 ./src/_00/output/Python/ansible~ansible/test/lib/ansible_test/_internal/commands/coverage/__init__.py|ansible|ansible|__init__.py|Python|243|38|91
+./src/_00/output/Python/ansible~ansible/test/units/parsing/yaml/test_loader.py|ansible|ansible|test_loader.py|Python|242|83|91
 ./src/_00/output/Python/ansible~ansible/lib/ansible/utils/plugin_docs.py|ansible|ansible|plugin_docs.py|Python|241|37|74
 ./src/_00/output/Python/ansible~ansible/test/lib/ansible_test/_util/controller/sanity/code-smell/runtime-metadata.py|ansible|ansible|runtime-metadata.py|Python|241|41|56
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/uri/tasks/redirect-all.yml|ansible|ansible|redirect-all.yml|YAML|240|3|29
 ./src/_00/output/Python/ansible~ansible/test/lib/ansible_test/_internal/commands/coverage/combine.py|ansible|ansible|combine.py|Python|240|18|109
+./src/_00/output/Python/ansible~ansible/lib/ansible/plugins/connection/__init__.py|ansible|ansible|__init__.py|Python|239|131|68
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/pause/test-pause.py|ansible|ansible|test-pause.py|Python|239|19|56
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/inventory_cache/plugins/inventory/exercise_cache.py|ansible|ansible|exercise_cache.py|Python|236|37|70
 ./src/_00/output/Python/ansible~ansible/test/support/windows-integration/plugins/modules/win_user.ps1|ansible|ansible|win_user.ps1|PowerShell|236|14|23
@@ -235,9 +236,8 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/include_vars/tasks/main.yml|ansible|ansible|main.yml|YAML|229|0|40
 ./src/_00/output/Python/ansible~ansible/test/lib/ansible_test/_internal/commands/units/__init__.py|ansible|ansible|__init__.py|Python|229|28|88
 ./src/_00/output/Python/ansible~ansible/test/units/playbook/test_included_file.py|ansible|ansible|test_included_file.py|Python|228|32|67
-./src/_00/output/Python/ansible~ansible/lib/ansible/plugins/connection/__init__.py|ansible|ansible|__init__.py|Python|227|125|65
-./src/_00/output/Python/ansible~ansible/test/sanity/ignore.txt|ansible|ansible|ignore.txt|Text|227|0|0
 ./src/_00/output/Python/ansible~ansible/.azure-pipelines/azure-pipelines.yml|ansible|ansible|azure-pipelines.yml|YAML|226|0|5
+./src/_00/output/Python/ansible~ansible/test/sanity/ignore.txt|ansible|ansible|ignore.txt|Text|226|0|0
 ./src/_00/output/Python/ansible~ansible/test/support/network-integration/collections/ansible_collections/cisco/ios/plugins/modules/ios_config.py|ansible|ansible|ios_config.py|Python|226|309|64
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/ansible-galaxy-collection/tasks/upgrade.yml|ansible|ansible|upgrade.yml|YAML|225|7|50
 ./src/_00/output/Python/ansible~ansible/test/support/network-integration/collections/ansible_collections/ansible/netcommon/plugins/module_utils/network/common/parsing.py|ansible|ansible|parsing.py|Python|225|30|62
@@ -272,6 +272,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/test/lib/ansible_test/_internal/classification/python.py|ansible|ansible|python.py|Python|206|44|91
 ./src/_00/output/Python/ansible~ansible/lib/ansible/executor/playbook_executor.py|ansible|ansible|playbook_executor.py|Python|203|69|58
 ./src/_00/output/Python/ansible~ansible/test/support/windows-integration/plugins/modules/win_get_url.ps1|ansible|ansible|win_get_url.ps1|PowerShell|202|34|38
+./src/_00/output/Python/ansible~ansible/lib/ansible/module_utils/facts/hardware/aix.py|ansible|ansible|aix.py|Python|200|56|45
 ./src/_00/output/Python/ansible~ansible/test/units/playbook/test_play.py|ansible|ansible|test_play.py|Python|200|22|67
 ./src/_00/output/Python/ansible~ansible/lib/ansible/inventory/group.py|ansible|ansible|group.py|Python|198|39|57
 ./src/_00/output/Python/ansible~ansible/test/lib/ansible_test/_internal/ssh.py|ansible|ansible|ssh.py|Python|198|33|71
@@ -279,6 +280,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/lib/ansible/errors/__init__.py|ansible|ansible|__init__.py|Python|197|90|101
 ./src/_00/output/Python/ansible~ansible/test/lib/ansible_test/_internal/connections.py|ansible|ansible|connections.py|Python|197|16|55
 ./src/_00/output/Python/ansible~ansible/test/lib/ansible_test/_internal/data.py|ansible|ansible|data.py|Python|197|23|73
+./src/_00/output/Python/ansible~ansible/test/integration/targets/lookup_sequence/tasks/main.yml|ansible|ansible|main.yml|YAML|196|6|38
 ./src/_00/output/Python/ansible~ansible/test/lib/ansible_test/_internal/completion.py|ansible|ansible|completion.py|Python|195|37|91
 ./src/_00/output/Python/ansible~ansible/lib/ansible/modules/yum_repository.py|ansible|ansible|yum_repository.py|Python|194|429|46
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/lookup_subelements/tasks/main.yml|ansible|ansible|main.yml|YAML|194|1|29
@@ -292,7 +294,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/ansible-galaxy-collection/tasks/main.yml|ansible|ansible|main.yml|YAML|189|15|25
 ./src/_00/output/Python/ansible~ansible/test/units/cli/test_vault.py|ansible|ansible|test_vault.py|Python|189|25|35
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/ansible-doc/runme.sh|ansible|ansible|runme.sh|Bourne Shell|188|32|62
-./src/_00/output/Python/ansible~ansible/test/integration/targets/lookup_sequence/tasks/main.yml|ansible|ansible|main.yml|YAML|188|4|35
 ./src/_00/output/Python/ansible~ansible/test/lib/ansible_test/_internal/cli/parsers/__init__.py|ansible|ansible|__init__.py|Python|188|38|88
 ./src/_00/output/Python/ansible~ansible/test/lib/ansible_test/_util/controller/sanity/yamllint/yamllinter.py|ansible|ansible|yamllinter.py|Python|188|15|55
 ./src/_00/output/Python/ansible~ansible/lib/ansible/parsing/mod_args.py|ansible|ansible|mod_args.py|Python|187|118|61
@@ -315,7 +316,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/wait_for/tasks/main.yml|ansible|ansible|main.yml|YAML|178|0|28
 ./src/_00/output/Python/ansible~ansible/test/units/plugins/connection/test_psrp.py|ansible|ansible|test_psrp.py|Python|178|18|19
 ./src/_00/output/Python/ansible~ansible/lib/ansible/modules/sysvinit.py|ansible|ansible|sysvinit.py|Python|177|151|46
-./src/_00/output/Python/ansible~ansible/lib/ansible/module_utils/facts/hardware/aix.py|ansible|ansible|aix.py|Python|176|51|40
 ./src/_00/output/Python/ansible~ansible/lib/ansible/modules/known_hosts.py|ansible|ansible|known_hosts.py|Python|176|143|56
 ./src/_00/output/Python/ansible~ansible/lib/ansible/plugins/callback/junit.py|ansible|ansible|junit.py|Python|176|121|66
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/ansible-galaxy-collection/vars/main.yml|ansible|ansible|main.yml|YAML|176|14|17
@@ -338,6 +338,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/test/units/plugins/action/test_reboot.py|ansible|ansible|test_reboot.py|Python|168|10|40
 ./src/_00/output/Python/ansible~ansible/test/lib/ansible_test/_internal/ci/azp.py|ansible|ansible|azp.py|Python|167|40|62
 ./src/_00/output/Python/ansible~ansible/test/support/windows-integration/plugins/modules/win_acl.ps1|ansible|ansible|win_acl.ps1|PowerShell|166|26|33
+./src/_00/output/Python/ansible~ansible/test/units/module_utils/facts/virtual/test_sunos.py|ansible|ansible|test_sunos.py|Python|166|3|22
 ./src/_00/output/Python/ansible~ansible/lib/ansible/playbook/included_file.py|ansible|ansible|included_file.py|Python|165|28|32
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/win_fetch/tasks/main.yml|ansible|ansible|main.yml|YAML|165|24|42
 ./src/_00/output/Python/ansible~ansible/test/support/windows-integration/collections/ansible_collections/ansible/windows/plugins/modules/win_uri.ps1|ansible|ansible|win_uri.ps1|PowerShell|165|22|32
@@ -351,6 +352,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/lib/ansible/plugins/inventory/toml.py|ansible|ansible|toml.py|Python|160|86|51
 ./src/_00/output/Python/ansible~ansible/test/lib/ansible_test/_internal/cli/argparsing/__init__.py|ansible|ansible|__init__.py|Python|160|48|60
 ./src/_00/output/Python/ansible~ansible/test/units/config/manager/test_find_ini_config_file.py|ansible|ansible|test_find_ini_config_file.py|Python|160|36|42
+./src/_00/output/Python/ansible~ansible/test/units/module_utils/urls/fixtures/multipart.txt|ansible|ansible|multipart.txt|Text|159|0|16
 ./src/_00/output/Python/ansible~ansible/lib/ansible/executor/powershell/exec_wrapper.ps1|ansible|ansible|exec_wrapper.ps1|PowerShell|158|55|25
 ./src/_00/output/Python/ansible~ansible/lib/ansible/plugins/filter/mathstuff.py|ansible|ansible|mathstuff.py|Python|157|39|54
 ./src/_00/output/Python/ansible~ansible/test/units/module_utils/basic/test_atomic_move.py|ansible|ansible|test_atomic_move.py|Python|157|17|50
@@ -361,11 +363,11 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/test/units/module_utils/facts/network/test_generic_bsd.py|ansible|ansible|test_generic_bsd.py|Python|155|35|17
 ./src/_00/output/Python/ansible~ansible/lib/ansible/plugins/inventory/ini.py|ansible|ansible|ini.py|Python|154|172|69
 ./src/_00/output/Python/ansible~ansible/test/lib/ansible_test/_internal/diff.py|ansible|ansible|diff.py|Python|154|23|52
-./src/_00/output/Python/ansible~ansible/test/units/module_utils/urls/fixtures/multipart.txt|ansible|ansible|multipart.txt|Text|153|0|13
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/ansible-doc/test.yml|ansible|ansible|test.yml|YAML|152|1|30
 ./src/_00/output/Python/ansible~ansible/test/sanity/code-smell/package-data.py|ansible|ansible|package-data.py|Python|152|17|67
 ./src/_00/output/Python/ansible~ansible/hacking/azp/download.py|ansible|ansible|download.py|Python|150|28|51
 ./src/_00/output/Python/ansible~ansible/hacking/backport/backport_of_line_adder.py|ansible|ansible|backport_of_line_adder.py|Python|150|79|44
+./src/_00/output/Python/ansible~ansible/test/integration/targets/callback_default/runme.sh|ansible|ansible|runme.sh|Bourne Shell|150|47|54
 ./src/_00/output/Python/ansible~ansible/test/units/plugins/strategy/test_linear.py|ansible|ansible|test_linear.py|Python|150|49|37
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/group_by/test_group_by.yml|ansible|ansible|test_group_by.yml|YAML|149|16|22
 ./src/_00/output/Python/ansible~ansible/lib/ansible/cli/playbook.py|ansible|ansible|playbook.py|Python|148|35|50
@@ -378,7 +380,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/lib/ansible/plugins/action/template.py|ansible|ansible|template.py|Python|145|25|30
 ./src/_00/output/Python/ansible~ansible/test/lib/ansible_test/_util/controller/sanity/pylint/plugins/unwanted.py|ansible|ansible|unwanted.py|Python|145|22|51
 ./src/_00/output/Python/ansible~ansible/test/units/playbook/role/test_include_role.py|ansible|ansible|test_include_role.py|Python|145|69|31
-./src/_00/output/Python/ansible~ansible/test/integration/targets/callback_default/runme.sh|ansible|ansible|runme.sh|Bourne Shell|144|46|52
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/win_async_wrapper/tasks/main.yml|ansible|ansible|main.yml|YAML|144|85|28
 ./src/_00/output/Python/ansible~ansible/test/support/network-integration/collections/ansible_collections/ansible/netcommon/plugins/action/net_get.py|ansible|ansible|net_get.py|Python|144|23|31
 ./src/_00/output/Python/ansible~ansible/lib/ansible/modules/rpm_key.py|ansible|ansible|rpm_key.py|Python|143|86|42
@@ -412,6 +413,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/test/units/parsing/test_dataloader.py|ansible|ansible|test_dataloader.py|Python|135|52|60
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/lookup_first_found/tasks/main.yml|ansible|ansible|main.yml|YAML|134|2|22
 ./src/_00/output/Python/ansible~ansible/lib/ansible/executor/interpreter_discovery.py|ansible|ansible|interpreter_discovery.py|Python|133|23|52
+./src/_00/output/Python/ansible~ansible/lib/ansible/plugins/action/gather_facts.py|ansible|ansible|gather_facts.py|Python|133|23|44
 ./src/_00/output/Python/ansible~ansible/lib/ansible/parsing/plugin_docs.py|ansible|ansible|plugin_docs.py|Python|132|39|55
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/unarchive/tasks/test_owner_group.yml|ansible|ansible|test_owner_group.yml|YAML|132|4|28
 ./src/_00/output/Python/ansible~ansible/test/units/config/test_manager.py|ansible|ansible|test_manager.py|Python|132|6|31
@@ -428,8 +430,10 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/lib/ansible/module_utils/connection.py|ansible|ansible|connection.py|Python|129|36|40
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/ansible-config/tasks/main.yml|ansible|ansible|main.yml|YAML|129|3|14
 ./src/_00/output/Python/ansible~ansible/test/lib/ansible_test/_internal/ci/__init__.py|ansible|ansible|__init__.py|Python|129|30|59
+./src/_00/output/Python/ansible~ansible/test/units/module_utils/facts/virtual/test_sysctl.py|ansible|ansible|test_sysctl.py|Python|129|3|12
 ./src/_00/output/Python/ansible~ansible/test/lib/ansible_test/_internal/inventory.py|ansible|ansible|inventory.py|Python|128|10|37
 ./src/_00/output/Python/ansible~ansible/test/units/plugins/inventory/test_inventory.py|ansible|ansible|test_inventory.py|Python|128|42|35
+./src/_00/output/Python/ansible~ansible/lib/ansible/plugins/connection/local.py|ansible|ansible|local.py|Python|127|28|42
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/include_import/role/test_include_role.yml|ansible|ansible|test_include_role.yml|YAML|127|12|27
 ./src/_00/output/Python/ansible~ansible/lib/ansible/executor/powershell/become_wrapper.ps1|ansible|ansible|become_wrapper.ps1|PowerShell|126|17|19
 ./src/_00/output/Python/ansible~ansible/lib/ansible/plugins/shell/__init__.py|ansible|ansible|__init__.py|Python|126|54|49
@@ -437,7 +441,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/test/lib/ansible_test/_internal/commands/integration/cloud/galaxy.py|ansible|ansible|galaxy.py|Python|126|26|25
 ./src/_00/output/Python/ansible~ansible/test/units/module_utils/basic/test_set_mode_if_different.py|ansible|ansible|test_set_mode_if_different.py|Python|126|14|44
 ./src/_00/output/Python/ansible~ansible/lib/ansible/module_utils/common/text/converters.py|ansible|ansible|converters.py|Python|125|137|54
-./src/_00/output/Python/ansible~ansible/lib/ansible/plugins/connection/local.py|ansible|ansible|local.py|Python|125|28|41
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/module_utils_Ansible.ModuleUtils.LinkUtil/library/symbolic_link_test.ps1|ansible|ansible|symbolic_link_test.ps1|PowerShell|125|23|26
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/assemble/tasks/main.yml|ansible|ansible|main.yml|YAML|124|16|30
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/fork_safe_stdio/vendored_pty.py|ansible|ansible|vendored_pty.py|Python|124|36|30
@@ -447,13 +450,13 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/test/lib/ansible_test/_internal/payload.py|ansible|ansible|payload.py|Python|123|40|38
 ./src/_00/output/Python/ansible~ansible/test/support/network-integration/collections/ansible_collections/ansible/netcommon/plugins/plugin_utils/connection_base.py|ansible|ansible|connection_base.py|Python|123|27|34
 ./src/_00/output/Python/ansible~ansible/test/units/plugins/cache/test_cache.py|ansible|ansible|test_cache.py|Python|123|33|42
+./src/_00/output/Python/ansible~ansible/test/integration/targets/copy/tasks/main.yml|ansible|ansible|main.yml|YAML|122|5|28
 ./src/_00/output/Python/ansible~ansible/test/lib/ansible_test/_internal/commands/sanity/ansible_doc.py|ansible|ansible|ansible_doc.py|Python|122|5|41
 ./src/_00/output/Python/ansible~ansible/test/units/module_utils/basic/test_exit_json.py|ansible|ansible|test_exit_json.py|Python|122|13|29
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/unicode/unicode.yml|ansible|ansible|unicode.yml|YAML|121|2|26
 ./src/_00/output/Python/ansible~ansible/test/lib/ansible_test/_internal/venv.py|ansible|ansible|venv.py|Python|120|19|44
 ./src/_00/output/Python/ansible~ansible/lib/ansible/module_utils/facts/hardware/netbsd.py|ansible|ansible|netbsd.py|Python|119|35|32
 ./src/_00/output/Python/ansible~ansible/lib/ansible/modules/expect.py|ansible|ansible|expect.py|Python|119|123|34
-./src/_00/output/Python/ansible~ansible/lib/ansible/plugins/action/gather_facts.py|ansible|ansible|gather_facts.py|Python|119|19|37
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/dnf/tasks/dnf_group_remove.yml|ansible|ansible|dnf_group_remove.yml|YAML|119|0|22
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/package_facts/tasks/main.yml|ansible|ansible|main.yml|YAML|119|3|31
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/user/tasks/test_password_lock.yml|ansible|ansible|test_password_lock.yml|YAML|119|0|21
@@ -489,9 +492,9 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/lib/ansible/module_utils/facts/hardware/hpux.py|ansible|ansible|hpux.py|Python|111|34|22
 ./src/_00/output/Python/ansible~ansible/test/lib/ansible_test/_internal/commands/coverage/analyze/targets/generate.py|ansible|ansible|generate.py|Python|111|8|40
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/blocks/main.yml|ansible|ansible|main.yml|YAML|110|13|5
-./src/_00/output/Python/ansible~ansible/test/integration/targets/copy/tasks/main.yml|ansible|ansible|main.yml|YAML|110|5|26
 ./src/_00/output/Python/ansible~ansible/test/units/cli/test_doc.py|ansible|ansible|test_doc.py|Python|110|5|20
 ./src/_00/output/Python/ansible~ansible/test/units/module_utils/common/arg_spec/test_aliases.py|ansible|ansible|test_aliases.py|Python|110|6|14
+./src/_00/output/Python/ansible~ansible/test/units/modules/test_unarchive.py|ansible|ansible|test_unarchive.py|Python|110|3|19
 ./src/_00/output/Python/ansible~ansible/lib/ansible/inventory/host.py|ansible|ansible|host.py|Python|109|22|37
 ./src/_00/output/Python/ansible~ansible/test/lib/ansible_test/_internal/commands/integration/cloud/azure.py|ansible|ansible|azure.py|Python|109|11|48
 ./src/_00/output/Python/ansible~ansible/test/units/parsing/test_ajson.py|ansible|ansible|test_ajson.py|Python|109|39|41
@@ -510,7 +513,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/pyproject.toml|ansible|ansible|pyproject.toml|TOML|105|0|7
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/git/tasks/separate-git-dir.yml|ansible|ansible|separate-git-dir.yml|YAML|105|3|24
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/roles_arg_spec/roles/test1/meta/argument_specs.yml|ansible|ansible|argument_specs.yml|YAML|105|5|2
-./src/_00/output/Python/ansible~ansible/test/units/modules/test_unarchive.py|ansible|ansible|test_unarchive.py|Python|105|2|17
 ./src/_00/output/Python/ansible~ansible/lib/ansible/module_utils/api.py|ansible|ansible|api.py|Python|104|40|34
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/callback_default/test.yml|ansible|ansible|test.yml|YAML|104|4|20
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/dnf/tasks/filters_check_mode.yml|ansible|ansible|filters_check_mode.yml|YAML|104|2|12
@@ -537,6 +539,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/test/units/module_utils/common/test_sys_info.py|ansible|ansible|test_sys_info.py|Python|102|21|44
 ./src/_00/output/Python/ansible~ansible/lib/ansible/plugins/action/assemble.py|ansible|ansible|assemble.py|Python|101|29|35
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/ansible-vault/single_vault_as_string.yml|ansible|ansible|single_vault_as_string.yml|YAML|101|4|12
+./src/_00/output/Python/ansible~ansible/test/integration/targets/lookup_config/tasks/main.yml|ansible|ansible|main.yml|YAML|101|1|14
 ./src/_00/output/Python/ansible~ansible/test/units/playbook/test_task.py|ansible|ansible|test_task.py|Python|101|3|29
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/blocks/runme.sh|ansible|ansible|runme.sh|Bourne Shell|100|18|20
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/plugin_filtering/runme.sh|ansible|ansible|runme.sh|Bourne Shell|100|24|13
@@ -570,7 +573,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/test/units/module_utils/common/text/formatters/test_bytes_to_human.py|ansible|ansible|test_bytes_to_human.py|Python|94|8|13
 ./src/_00/output/Python/ansible~ansible/test/support/network-integration/collections/ansible_collections/ansible/netcommon/plugins/module_utils/network/common/netconf.py|ansible|ansible|netconf.py|Python|93|53|35
 ./src/_00/output/Python/ansible~ansible/lib/ansible/module_utils/facts/hardware/darwin.py|ansible|ansible|darwin.py|Python|92|36|33
-./src/_00/output/Python/ansible~ansible/lib/ansible/module_utils/facts/virtual/sunos.py|ansible|ansible|sunos.py|Python|92|31|15
+./src/_00/output/Python/ansible~ansible/lib/ansible/module_utils/facts/virtual/sunos.py|ansible|ansible|sunos.py|Python|92|19|15
 ./src/_00/output/Python/ansible~ansible/lib/ansible/plugins/__init__.py|ansible|ansible|__init__.py|Python|92|31|36
 ./src/_00/output/Python/ansible~ansible/lib/ansible/plugins/action/script.py|ansible|ansible|script.py|Python|92|54|28
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/binary/tasks/main.yml|ansible|ansible|main.yml|YAML|92|13|26
@@ -589,6 +592,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/lib/ansible/module_utils/common/dict_transformations.py|ansible|ansible|dict_transformations.py|Python|88|31|34
 ./src/_00/output/Python/ansible~ansible/lib/ansible/module_utils/facts/system/service_mgr.py|ansible|ansible|service_mgr.py|Python|88|41|26
 ./src/_00/output/Python/ansible~ansible/lib/ansible/playbook/playbook_include.py|ansible|ansible|playbook_include.py|Python|88|49|32
+./src/_00/output/Python/ansible~ansible/test/integration/targets/lookup_csvfile/tasks/main.yml|ansible|ansible|main.yml|YAML|88|3|14
 ./src/_00/output/Python/ansible~ansible/test/lib/ansible_test/_internal/http.py|ansible|ansible|http.py|Python|88|13|36
 ./src/_00/output/Python/ansible~ansible/test/sanity/code-smell/update-bundled.py|ansible|ansible|update-bundled.py|Python|88|47|40
 ./src/_00/output/Python/ansible~ansible/hacking/azp/README.md|ansible|ansible|README.md|Markdown|87|0|42
@@ -608,8 +612,9 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/user/tasks/test_create_user_password.yml|ansible|ansible|test_create_user_password.yml|YAML|85|2|15
 ./src/_00/output/Python/ansible~ansible/test/lib/ansible_test/_internal/commands/sanity/pslint.py|ansible|ansible|pslint.py|Python|85|5|30
 ./src/_00/output/Python/ansible~ansible/test/lib/ansible_test/_internal/timeout.py|ansible|ansible|timeout.py|Python|85|11|34
+./src/_00/output/Python/ansible~ansible/test/units/module_utils/urls/test_prepare_multipart.py|ansible|ansible|test_prepare_multipart.py|Python|85|4|22
 ./src/_00/output/Python/ansible~ansible/lib/ansible/module_utils/facts/system/pkg_mgr.py|ansible|ansible|pkg_mgr.py|Python|84|28|24
-./src/_00/output/Python/ansible~ansible/lib/ansible/module_utils/facts/virtual/sysctl.py|ansible|ansible|sysctl.py|Python|84|17|10
+./src/_00/output/Python/ansible~ansible/lib/ansible/module_utils/facts/virtual/sysctl.py|ansible|ansible|sysctl.py|Python|84|5|9
 ./src/_00/output/Python/ansible~ansible/lib/ansible/utils/jsonrpc.py|ansible|ansible|jsonrpc.py|Python|84|4|24
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/ansible-galaxy-collection-scm/tasks/scm_dependency_deduplication.yml|ansible|ansible|scm_dependency_deduplication.yml|YAML|84|0|8
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/user/tasks/test_expires.yml|ansible|ansible|test_expires.yml|YAML|84|1|14
@@ -632,7 +637,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/test/lib/ansible_test/_internal/commands/sanity/pep8.py|ansible|ansible|pep8.py|Python|81|4|25
 ./src/_00/output/Python/ansible~ansible/test/units/executor/module_common/test_recursive_finder.py|ansible|ansible|test_recursive_finder.py|Python|81|11|21
 ./src/_00/output/Python/ansible~ansible/lib/ansible/module_utils/facts/system/local.py|ansible|ansible|local.py|Python|80|10|16
-./src/_00/output/Python/ansible~ansible/lib/ansible/plugins/lookup/csvfile.py|ansible|ansible|csvfile.py|Python|80|98|47
+./src/_00/output/Python/ansible~ansible/lib/ansible/plugins/lookup/csvfile.py|ansible|ansible|csvfile.py|Python|80|99|47
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/collections/test_redirect_list.yml|ansible|ansible|test_redirect_list.yml|YAML|80|0|6
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/dnf/tasks/modularity.yml|ansible|ansible|modularity.yml|YAML|80|0|15
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/no_log/no_log_local.yml|ansible|ansible|no_log_local.yml|YAML|80|1|14
@@ -640,7 +645,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/dpkg_selections/tasks/dpkg_selections.yaml|ansible|ansible|dpkg_selections.yaml|YAML|79|0|22
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/raw/tasks/main.yml|ansible|ansible|main.yml|YAML|79|20|8
 ./src/_00/output/Python/ansible~ansible/lib/ansible/playbook/role/requirement.py|ansible|ansible|requirement.py|Python|78|23|25
-./src/_00/output/Python/ansible~ansible/test/integration/targets/lookup_csvfile/tasks/main.yml|ansible|ansible|main.yml|YAML|78|3|12
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/module_no_log/tasks/main.yml|ansible|ansible|main.yml|YAML|78|5|16
 ./src/_00/output/Python/ansible~ansible/test/lib/ansible_test/_internal/commands/sanity/shellcheck.py|ansible|ansible|shellcheck.py|Python|78|5|26
 ./src/_00/output/Python/ansible~ansible/test/units/executor/test_playbook_executor.py|ansible|ansible|test_playbook_executor.py|Python|78|49|19
@@ -664,7 +668,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/git/tasks/single-branch.yml|ansible|ansible|single-branch.yml|YAML|75|1|13
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/hardware_facts/tasks/Linux.yml|ansible|ansible|Linux.yml|YAML|75|0|17
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/module_utils_Ansible.ModuleUtils.ArgvParser/library/argv_parser_test.ps1|ansible|ansible|argv_parser_test.ps1|PowerShell|75|5|13
-./src/_00/output/Python/ansible~ansible/test/units/module_utils/urls/test_prepare_multipart.py|ansible|ansible|test_prepare_multipart.py|Python|75|4|21
 ./src/_00/output/Python/ansible~ansible/lib/ansible/module_utils/compat/selinux.py|ansible|ansible|selinux.py|Python|74|9|29
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/ansible-galaxy-collection/tasks/pinned_pre_releases_in_deptree.yml|ansible|ansible|pinned_pre_releases_in_deptree.yml|YAML|74|0|5
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/module_utils_facts.system.selinux/tasks/selinux.yml|ansible|ansible|selinux.yml|YAML|74|6|13
@@ -678,7 +681,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/unarchive/tasks/test_missing_binaries.yml|ansible|ansible|test_missing_binaries.yml|YAML|72|7|8
 ./src/_00/output/Python/ansible~ansible/test/lib/ansible_test/_internal/commands/integration/cloud/openshift.py|ansible|ansible|openshift.py|Python|72|9|30
 ./src/_00/output/Python/ansible~ansible/lib/ansible/playbook/task_include.py|ansible|ansible|task_include.py|Python|71|32|22
-./src/_00/output/Python/ansible~ansible/lib/ansible/plugins/lookup/config.py|ansible|ansible|config.py|Python|71|69|30
 ./src/_00/output/Python/ansible~ansible/lib/ansible/template/native_helpers.py|ansible|ansible|native_helpers.py|Python|71|34|32
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/dnf/tasks/gpg.yml|ansible|ansible|gpg.yml|YAML|71|4|13
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/setup_deb_repo/tasks/main.yml|ansible|ansible|main.yml|YAML|71|2|10
@@ -724,7 +726,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/lib/ansible/plugins/action/uri.py|ansible|ansible|uri.py|Python|66|8|18
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/ansible-galaxy-collection-cli/tasks/manifest.yml|ansible|ansible|manifest.yml|YAML|66|0|20
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/connection_winrm/tests.yml|ansible|ansible|tests.yml|YAML|66|2|15
-./src/_00/output/Python/ansible~ansible/test/integration/targets/lookup_config/tasks/main.yml|ansible|ansible|main.yml|YAML|66|1|9
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/roles/privacy.yml|ansible|ansible|privacy.yml|YAML|66|2|14
 ./src/_00/output/Python/ansible~ansible/test/lib/ansible_test/_internal/commands/integration/cloud/hcloud.py|ansible|ansible|hcloud.py|Python|66|8|34
 ./src/_00/output/Python/ansible~ansible/test/lib/ansible_test/_internal/commands/sanity/compile.py|ansible|ansible|compile.py|Python|66|3|26
@@ -732,9 +733,12 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/test/units/playbook/test_play_context.py|ansible|ansible|test_play_context.py|Python|66|4|20
 ./src/_00/output/Python/ansible~ansible/test/units/template/test_template_utilities.py|ansible|ansible|test_template_utilities.py|Python|66|26|23
 ./src/_00/output/Python/ansible~ansible/lib/ansible/modules/getent.py|ansible|ansible|getent.py|Python|65|102|31
+./src/_00/output/Python/ansible~ansible/lib/ansible/plugins/lookup/config.py|ansible|ansible|config.py|Python|65|69|27
+./src/_00/output/Python/ansible~ansible/lib/ansible/plugins/lookup/template.py|ansible|ansible|template.py|Python|65|93|28
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/copy/tasks/no_log.yml|ansible|ansible|no_log.yml|YAML|65|0|17
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/module_utils_Ansible.ModuleUtils.SID/library/sid_utils_test.ps1|ansible|ansible|sid_utils_test.ps1|PowerShell|65|16|20
 ./src/_00/output/Python/ansible~ansible/test/support/windows-integration/collections/ansible_collections/ansible/windows/plugins/action/win_reboot.py|ansible|ansible|win_reboot.py|Python|65|15|20
+./src/_00/output/Python/ansible~ansible/test/units/module_utils/facts/virtual/test_hpux.py|ansible|ansible|test_hpux.py|Python|65|3|14
 ./src/_00/output/Python/ansible~ansible/test/units/parsing/yaml/test_constructor.py|ansible|ansible|test_constructor.py|Python|65|3|15
 ./src/_00/output/Python/ansible~ansible/lib/ansible/module_utils/facts/network/fc_wwn.py|ansible|ansible|fc_wwn.py|Python|64|35|10
 ./src/_00/output/Python/ansible~ansible/lib/ansible/module_utils/facts/system/lsb.py|ansible|ansible|lsb.py|Python|64|18|25
@@ -748,7 +752,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/hacking/env-setup|ansible|ansible|env-setup|Bourne Shell|63|9|17
 ./src/_00/output/Python/ansible~ansible/lib/ansible/module_utils/common/sys_info.py|ansible|ansible|sys_info.py|Python|63|54|39
 ./src/_00/output/Python/ansible~ansible/lib/ansible/module_utils/facts/system/platform.py|ansible|ansible|platform.py|Python|63|18|17
-./src/_00/output/Python/ansible~ansible/lib/ansible/plugins/lookup/template.py|ansible|ansible|template.py|Python|63|83|26
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/apt/tasks/upgrade_autoremove.yml|ansible|ansible|upgrade_autoremove.yml|YAML|63|1|12
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/slurp/tasks/test_unreadable.yml|ansible|ansible|test_unreadable.yml|YAML|63|2|9
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/user/tasks/test_inactive_new_account.yml|ansible|ansible|test_inactive_new_account.yml|YAML|63|1|10
@@ -827,7 +830,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/test/units/module_utils/common/text/converters/test_container_to_text.py|ansible|ansible|test_container_to_text.py|Python|56|10|11
 ./src/_00/output/Python/ansible~ansible/test/units/module_utils/facts/system/test_cmdline.py|ansible|ansible|test_cmdline.py|Python|56|4|6
 ./src/_00/output/Python/ansible~ansible/lib/ansible/module_utils/facts/utils.py|ansible|ansible|utils.py|Python|55|27|19
-./src/_00/output/Python/ansible~ansible/lib/ansible/plugins/lookup/url.py|ansible|ansible|url.py|Python|55|204|16
+./src/_00/output/Python/ansible~ansible/lib/ansible/plugins/lookup/url.py|ansible|ansible|url.py|Python|55|198|16
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/module_utils/library/test_optional.py|ansible|ansible|test_optional.py|Python|55|12|16
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/uri/files/pass0.json|ansible|ansible|pass0.json|JSON|55|0|3
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/uri/tasks/use_gssapi.yml|ansible|ansible|use_gssapi.yml|YAML|55|0|7
@@ -1044,6 +1047,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/lib/ansible/plugins/action/set_stats.py|ansible|ansible|set_stats.py|Python|40|18|18
 ./src/_00/output/Python/ansible~ansible/lib/ansible/plugins/filter/combine.yml|ansible|ansible|combine.yml|YAML|40|4|5
 ./src/_00/output/Python/ansible~ansible/lib/ansible/plugins/filter/dict2items.yml|ansible|ansible|dict2items.yml|YAML|40|11|4
+./src/_00/output/Python/ansible~ansible/lib/ansible/plugins/filter/regex_search.yml|ansible|ansible|regex_search.yml|YAML|40|12|7
 ./src/_00/output/Python/ansible~ansible/licenses/PSF-license.txt|ansible|ansible|PSF-license.txt|Text|40|0|8
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/ansible-galaxy-collection-scm/tasks/download.yml|ansible|ansible|download.yml|YAML|40|0|8
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/ansible-galaxy-collection-scm/tasks/setup_collection_bad_version.yml|ansible|ansible|setup_collection_bad_version.yml|YAML|40|0|7
@@ -1109,7 +1113,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/.azure-pipelines/scripts/combine-coverage.py|ansible|ansible|combine-coverage.py|Python|37|8|14
 ./src/_00/output/Python/ansible~ansible/lib/ansible/module_utils/facts/virtual/netbsd.py|ansible|ansible|netbsd.py|Python|37|18|17
 ./src/_00/output/Python/ansible~ansible/lib/ansible/modules/tempfile.py|ansible|ansible|tempfile.py|Python|37|76|17
-./src/_00/output/Python/ansible~ansible/lib/ansible/plugins/filter/regex_search.yml|ansible|ansible|regex_search.yml|YAML|37|12|7
+./src/_00/output/Python/ansible~ansible/lib/ansible/plugins/filter/password_hash.yml|ansible|ansible|password_hash.yml|YAML|37|5|4
 ./src/_00/output/Python/ansible~ansible/lib/ansible/plugins/filter/to_datetime.yml|ansible|ansible|to_datetime.yml|YAML|37|7|6
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/become_unprivileged/common_remote_group/setup.yml|ansible|ansible|setup.yml|YAML|37|0|6
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/collection/update-ignore.py|ansible|ansible|update-ignore.py|Python|37|1|19
@@ -1156,7 +1160,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/test/units/module_utils/facts/system/distribution/fixtures/debian_stretch_sid.json|ansible|ansible|debian_stretch_sid.json|JSON|36|0|0
 ./src/_00/output/Python/ansible~ansible/test/units/module_utils/facts/system/distribution/fixtures/opensuse_leap_15.1.json|ansible|ansible|opensuse_leap_15.1.json|JSON|36|0|0
 ./src/_00/output/Python/ansible~ansible/test/units/plugins/lookup/test_ini.py|ansible|ansible|test_ini.py|Python|36|20|6
-./src/_00/output/Python/ansible~ansible/lib/ansible/plugins/filter/password_hash.yml|ansible|ansible|password_hash.yml|YAML|35|1|2
 ./src/_00/output/Python/ansible~ansible/lib/ansible/plugins/test/regex.yml|ansible|ansible|regex.yml|YAML|35|0|2
 ./src/_00/output/Python/ansible~ansible/lib/ansible/utils/cmd_functions.py|ansible|ansible|cmd_functions.py|Python|35|20|10
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/ansible-doc/collections/ansible_collections/testns/testcol/plugins/test/yolo.yml|ansible|ansible|yolo.yml|YAML|35|0|2
@@ -1169,6 +1172,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/handlers/test_listening_handlers.yml|ansible|ansible|test_listening_handlers.yml|YAML|35|1|3
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/hash/test_inventory_hash.yml|ansible|ansible|test_inventory_hash.yml|YAML|35|0|6
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/hosts_field/runme.sh|ansible|ansible|runme.sh|Bourne Shell|35|6|8
+./src/_00/output/Python/ansible~ansible/test/integration/targets/wait_for_connection/tasks/main.yml|ansible|ansible|main.yml|YAML|35|0|6
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/want_json_modules_posix/tasks/main.yml|ansible|ansible|main.yml|YAML|35|0|8
 ./src/_00/output/Python/ansible~ansible/test/lib/ansible_test/_internal/cli/commands/coverage/analyze/targets/__init__.py|ansible|ansible|__init__.py|Python|35|2|11
 ./src/_00/output/Python/ansible~ansible/test/lib/ansible_test/_internal/commands/coverage/analyze/targets/expand.py|ansible|ansible|expand.py|Python|35|3|14
@@ -1431,6 +1435,8 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/inventory_yaml/test.yml|ansible|ansible|test.yml|YAML|26|1|0
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/lookup_fileglob/issue72873/test.yml|ansible|ansible|test.yml|YAML|26|0|5
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/lookup_ini/test_case_sensitive.yml|ansible|ansible|test_case_sensitive.yml|YAML|26|0|5
+./src/_00/output/Python/ansible~ansible/test/integration/targets/lookup_template/tasks/main.yml|ansible|ansible|main.yml|YAML|26|2|8
+./src/_00/output/Python/ansible~ansible/test/integration/targets/lookup_template/tasks/trim_blocks.yml|ansible|ansible|trim_blocks.yml|YAML|26|1|5
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/lookup_url/tasks/use_netrc.yml|ansible|ansible|use_netrc.yml|YAML|26|1|5
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/module_utils_Ansible.AccessToken/tasks/main.yml|ansible|ansible|main.yml|YAML|26|0|3
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/module_utils_urls/tasks/main.yml|ansible|ansible|main.yml|YAML|26|1|5
@@ -1438,7 +1444,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/plugin_config_for_inventory/cache_plugins/none.py|ansible|ansible|none.py|Python|26|20|15
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/prepare_http_tests/tasks/windows.yml|ansible|ansible|windows.yml|YAML|26|4|3
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/roles/vars/play.yml|ansible|ansible|play.yml|YAML|26|0|0
-./src/_00/output/Python/ansible~ansible/test/integration/targets/wait_for_connection/tasks/main.yml|ansible|ansible|main.yml|YAML|26|0|4
 ./src/_00/output/Python/ansible~ansible/test/lib/ansible_test/_internal/commands/coverage/erase.py|ansible|ansible|erase.py|Python|26|3|14
 ./src/_00/output/Python/ansible~ansible/test/lib/ansible_test/_util/controller/tools/coverage_stub.ps1|ansible|ansible|coverage_stub.ps1|PowerShell|26|8|6
 ./src/_00/output/Python/ansible~ansible/test/units/cli/galaxy/test_display_header.py|ansible|ansible|test_display_header.py|Python|26|3|11
@@ -1464,7 +1469,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/config/types.yml|ansible|ansible|types.yml|YAML|25|1|1
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/filter_core/handle_undefined_type_errors.yml|ansible|ansible|handle_undefined_type_errors.yml|YAML|25|0|4
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/handlers/roles/test_handlers_include_role/tasks/main.yml|ansible|ansible|main.yml|YAML|25|15|7
-./src/_00/output/Python/ansible~ansible/test/integration/targets/lookup_template/tasks/main.yml|ansible|ansible|main.yml|YAML|25|2|7
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/module_utils/module_utils_vvvvv.yml|ansible|ansible|module_utils_vvvvv.yml|YAML|25|1|3
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/module_utils_common.respawn/library/respawnme.py|ansible|ansible|respawnme.py|Python|25|7|11
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/prepare_http_tests/tasks/main.yml|ansible|ansible|main.yml|YAML|25|5|5
@@ -1755,6 +1759,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/lib/ansible/plugins/test/vault_encrypted.yml|ansible|ansible|vault_encrypted.yml|YAML|19|0|0
 ./src/_00/output/Python/ansible~ansible/lib/ansible/plugins/test/vaulted_file.yml|ansible|ansible|vaulted_file.yml|YAML|19|0|0
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/ansible-pull/pull-integration-test/local.yml|ansible|ansible|local.yml|YAML|19|0|1
+./src/_00/output/Python/ansible~ansible/test/integration/targets/ansible-test-coverage-windows/test-coverage.py|ansible|ansible|test-coverage.py|Python|19|0|8
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/ansible-test-sanity-validate-modules/ansible_collections/ns/col/plugins/modules/valid_argument_spec_context.py|ansible|ansible|valid_argument_spec_context.py|Python|19|11|8
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/ansible-test-vendoring/runme.sh|ansible|ansible|runme.sh|Bourne Shell|19|3|11
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/become/tasks/main.yml|ansible|ansible|main.yml|YAML|19|0|1
@@ -1811,6 +1816,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/connection_delegation/connection_plugins/delegation_connection.py|ansible|ansible|delegation_connection.py|Python|18|15|11
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/debug/nosetfacts.yml|ansible|ansible|nosetfacts.yml|YAML|18|0|3
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/error_from_connection/play.yml|ansible|ansible|play.yml|YAML|18|0|2
+./src/_00/output/Python/ansible~ansible/test/integration/targets/gathering_facts/runme.sh|ansible|ansible|runme.sh|Bourne Shell|18|13|17
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/get_url/tasks/hashlib.yml|ansible|ansible|hashlib.yml|YAML|18|0|1
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/handlers/nested_flush_handlers_failure_force.yml|ansible|ansible|nested_flush_handlers_failure_force.yml|YAML|18|0|1
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/ignore_unreachable/runme.sh|ansible|ansible|runme.sh|Bourne Shell|18|1|5
@@ -1923,7 +1929,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/deb822_repository/tasks/main.yml|ansible|ansible|main.yml|YAML|16|0|3
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/expect/files/test_command.py|ansible|ansible|test_command.py|Python|16|2|6
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/fetch/runme.sh|ansible|ansible|runme.sh|Bourne Shell|16|9|9
-./src/_00/output/Python/ansible~ansible/test/integration/targets/gathering_facts/runme.sh|ansible|ansible|runme.sh|Bourne Shell|16|11|15
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/handlers/test_role_handlers_including_tasks.yml|ansible|ansible|test_role_handlers_including_tasks.yml|YAML|16|0|2
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/hash/roles/test_hash_behaviour/tasks/main.yml|ansible|ansible|main.yml|YAML|16|16|5
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/hostname/tasks/check_mode.yml|ansible|ansible|check_mode.yml|YAML|16|1|3
@@ -1971,6 +1976,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/collections/collection_root_user/ansible_collections/testns/testcoll/roles/test_fqcn_handlers/tasks/main.yml|ansible|ansible|main.yml|YAML|15|0|1
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/config/lookup_plugins/casting.py|ansible|ansible|casting.py|Python|15|32|12
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/config/lookup_plugins/casting_individual.py|ansible|ansible|casting_individual.py|Python|15|32|11
+./src/_00/output/Python/ansible~ansible/test/integration/targets/connection/test.sh|ansible|ansible|test.sh|Bourne Shell|15|2|6
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/delegate_to/resolve_vars.yml|ansible|ansible|resolve_vars.yml|YAML|15|0|1
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/delegate_to/test_loop_control.yml|ansible|ansible|test_loop_control.yml|YAML|15|0|1
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/deprecations/runme.sh|ansible|ansible|runme.sh|Bourne Shell|15|13|16
@@ -2025,7 +2031,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/collections/collection_root_user/ansible_collections/testns/testcoll/plugins/modules/win_csbasic_only.ps1|ansible|ansible|win_csbasic_only.ps1|PowerShell|14|3|5
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/collections/import_collection_pb.yml|ansible|ansible|import_collection_pb.yml|YAML|14|1|2
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/collections/test_task_resolved_plugin/fqcn.yml|ansible|ansible|fqcn.yml|YAML|14|0|0
-./src/_00/output/Python/ansible~ansible/test/integration/targets/connection/test.sh|ansible|ansible|test.sh|Bourne Shell|14|2|6
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/connection_remote_is_local/tasks/main.yml|ansible|ansible|main.yml|YAML|14|0|1
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/debug/runme.sh|ansible|ansible|runme.sh|Bourne Shell|14|1|5
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/dnf/tasks/cacheonly.yml|ansible|ansible|cacheonly.yml|YAML|14|0|2
@@ -2100,6 +2105,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/builtin_vars_prompt/vars_prompt-2.yml|ansible|ansible|vars_prompt-2.yml|YAML|13|0|3
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/builtin_vars_prompt/vars_prompt-4.yml|ansible|ansible|vars_prompt-4.yml|YAML|13|0|3
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/callback_default/test_async.yml|ansible|ansible|test_async.yml|YAML|13|0|1
+./src/_00/output/Python/ansible~ansible/test/integration/targets/collection/setup.sh|ansible|ansible|setup.sh|Bourne Shell|13|16|7
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/collections/ansiballz_dupe/test_ansiballz_cache_dupe_shortname.yml|ansible|ansible|test_ansiballz_cache_dupe_shortname.yml|YAML|13|0|2
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/collections/collection_root_user/ansible_collections/testns/testcoll/plugins/modules/uses_collection_redirected_mu.py|ansible|ansible|uses_collection_redirected_mu.py|Python|13|0|7
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/collections/collections/ansible_collections/testns/content_adj/plugins/cache/custom_jsonfile.py|ansible|ansible|custom_jsonfile.py|Python|13|40|8
@@ -2189,6 +2195,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/result_pickle_error/runme.sh|ansible|ansible|runme.sh|Bourne Shell|12|0|4
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/result_pickle_error/tasks/main.yml|ansible|ansible|main.yml|YAML|12|0|2
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/set_stats/test_aggregate.yml|ansible|ansible|test_aggregate.yml|YAML|12|0|1
+./src/_00/output/Python/ansible~ansible/test/integration/targets/setup_remote_tmp_dir/tasks/default-cleanup.yml|ansible|ansible|default-cleanup.yml|YAML|12|0|1
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/setup_test_user/tasks/default.yml|ansible|ansible|default.yml|YAML|12|0|2
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/setup_test_user/tasks/macosx.yml|ansible|ansible|macosx.yml|YAML|12|0|2
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/task_ordering/tasks/main.yml|ansible|ansible|main.yml|YAML|12|0|3
@@ -2308,7 +2315,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/builtin_vars_prompt/vars_prompt-7.yml|ansible|ansible|vars_prompt-7.yml|YAML|10|0|2
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/callback_default/no_implicit_meta_banners.yml|ansible|ansible|no_implicit_meta_banners.yml|YAML|10|1|0
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/check_mode/roles/test_always_run/tasks/main.yml|ansible|ansible|main.yml|YAML|10|16|3
-./src/_00/output/Python/ansible~ansible/test/integration/targets/collection/setup.sh|ansible|ansible|setup.sh|Bourne Shell|10|13|6
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/collections/collection_root_user/ansible_collections/testns/testcoll/plugins/modules/win_uses_optional.ps1|ansible|ansible|win_uses_optional.ps1|PowerShell|10|15|8
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/collections/test_plugins/override_formerly_core_masked_test.py|ansible|ansible|override_formerly_core_masked_test.py|Python|10|0|5
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/config/lookup_plugins/bogus.py|ansible|ansible|bogus.py|Python|10|28|11
@@ -2340,6 +2346,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/inventory_ini/test_ansible_become.yml|ansible|ansible|test_ansible_become.yml|YAML|10|0|1
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/inventory_yaml/empty.json|ansible|ansible|empty.json|JSON|10|0|0
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/jinja2_native_types/test_none.yml|ansible|ansible|test_none.yml|YAML|10|0|1
+./src/_00/output/Python/ansible~ansible/test/integration/targets/lookup_config/lookup_plugins/bogus.py|ansible|ansible|bogus.py|Python|10|22|11
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/lookup_file/tasks/main.yml|ansible|ansible|main.yml|YAML|10|0|3
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/meta_tasks/test_end_play.yml|ansible|ansible|test_end_play.yml|YAML|10|0|2
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/meta_tasks/test_end_play_fqcn.yml|ansible|ansible|test_end_play_fqcn.yml|YAML|10|0|2
@@ -2391,6 +2398,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/ansible-doc/broken-docs/collections/ansible_collections/testns/testcol/plugins/inventory/statichost.py|ansible|ansible|statichost.py|Python|9|16|9
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/ansible-doc/collections/ansible_collections/testns/testcol/plugins/inventory/statichost.py|ansible|ansible|statichost.py|Python|9|15|9
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/ansible-doc/library/test_win_module.yml|ansible|ansible|test_win_module.yml|YAML|9|0|0
+./src/_00/output/Python/ansible~ansible/test/integration/targets/ansible-test-coverage-windows/runme.sh|ansible|ansible|runme.sh|Bourne Shell|9|4|7
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/ansible-test-no-tty/ansible_collections/ns/col/tests/integration/targets/no-tty/assert-no-tty.py|ansible|ansible|assert-no-tty.py|Python|9|1|4
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/ansible-test-sanity-shebang/expected.txt|ansible|ansible|expected.txt|Text|9|0|0
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/ansible-test-sanity-validate-modules/ansible_collections/ns/col/plugins/modules/_not_deprecated.py|ansible|ansible|_not_deprecated.py|Python|9|7|6
@@ -2798,6 +2806,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/collections/collection_root_user/ansible_collections/testns/testcoll/playbooks/roles/non_coll_role_to_call/tasks/main.yml|ansible|ansible|main.yml|YAML|6|0|1
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/collections/collection_root_user/ansible_collections/testns/testcoll/plugins/modules/win_selfcontained.ps1|ansible|ansible|win_selfcontained.ps1|PowerShell|6|1|2
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/collections/collection_root_user/ansible_collections/testns/testcoll/roles/calls_intra_collection_dep_role_unqualified/tasks/main.yml|ansible|ansible|main.yml|YAML|6|0|1
+./src/_00/output/Python/ansible~ansible/test/integration/targets/connection/test_reset_connection_templated.yml|ansible|ansible|test_reset_connection_templated.yml|YAML|6|1|0
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/connection_delegation/runme.sh|ansible|ansible|runme.sh|Bourne Shell|6|0|3
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/debug/main.yml|ansible|ansible|main.yml|YAML|6|0|0
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/debug/main_fqcn.yml|ansible|ansible|main_fqcn.yml|YAML|6|0|0
@@ -2985,7 +2994,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/setup_nobody/handlers/main.yml|ansible|ansible|main.yml|YAML|5|0|0
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/setup_paramiko/setup.sh|ansible|ansible|setup.sh|Bourne Shell|5|1|2
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/setup_paramiko/uninstall-apt-python-3.yml|ansible|ansible|uninstall-apt-python-3.yml|YAML|5|0|0
-./src/_00/output/Python/ansible~ansible/test/integration/targets/setup_remote_tmp_dir/tasks/default-cleanup.yml|ansible|ansible|default-cleanup.yml|YAML|5|0|0
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/setup_rpm_repo/handlers/main.yml|ansible|ansible|main.yml|YAML|5|0|0
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/special_vars_hosts/runme.sh|ansible|ansible|runme.sh|Bourne Shell|5|0|2
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/strategy_host_pinned/runme.sh|ansible|ansible|runme.sh|Bourne Shell|5|1|4
@@ -3013,6 +3021,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/test/units/ansible_test/diff/context_no_trailing_newline.diff|ansible|ansible|context_no_trailing_newline.diff|diff|5|3|0
 ./src/_00/output/Python/ansible~ansible/test/units/ansible_test/diff/multiple_context_lines.diff|ansible|ansible|multiple_context_lines.diff|diff|5|5|0
 ./src/_00/output/Python/ansible~ansible/changelogs/fragments/84229-windows-server-2025.yml|ansible|ansible|84229-windows-server-2025.yml|YAML|4|0|0
+./src/_00/output/Python/ansible~ansible/changelogs/fragments/ansible-test-coverage-test-files.yml|ansible|ansible|ansible-test-coverage-test-files.yml|YAML|4|0|0
 ./src/_00/output/Python/ansible~ansible/changelogs/fragments/ansible-test-pylint-fix.yml|ansible|ansible|ansible-test-pylint-fix.yml|YAML|4|0|0
 ./src/_00/output/Python/ansible~ansible/changelogs/fragments/user_ssh_fix.yml|ansible|ansible|user_ssh_fix.yml|YAML|4|0|0
 ./src/_00/output/Python/ansible~ansible/hacking/ticket_stubs/README.md|ansible|ansible|README.md|Markdown|4|0|2
@@ -3032,6 +3041,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/lib/ansible/modules/validate_argument_spec.py|ansible|ansible|validate_argument_spec.py|Python|4|103|13
 ./src/_00/output/Python/ansible~ansible/lib/ansible/modules/wait_for_connection.py|ansible|ansible|wait_for_connection.py|Python|4|104|13
 ./src/_00/output/Python/ansible~ansible/lib/ansible/playbook/notifiable.py|ansible|ansible|notifiable.py|Python|4|3|3
+./src/_00/output/Python/ansible~ansible/lib/ansible/plugins/doc_fragments/url.py|ansible|ansible|url.py|Python|4|81|5
 ./src/_00/output/Python/ansible~ansible/lib/ansible/release.py|ansible|ansible|release.py|Python|4|16|2
 ./src/_00/output/Python/ansible~ansible/lib/ansible/utils/native_jinja.py|ansible|ansible|native_jinja.py|Python|4|2|5
 ./src/_00/output/Python/ansible~ansible/licenses/simplified_bsd.txt|ansible|ansible|simplified_bsd.txt|Text|4|0|4
@@ -3040,6 +3050,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/ansible-galaxy-collection-scm/templates/source_and_name_and_type.yml|ansible|ansible|source_and_name_and_type.yml|YAML|4|1|0
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/ansible-galaxy-collection/meta/main.yml|ansible|ansible|main.yml|YAML|4|0|0
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/ansible-test-config/ansible_collections/ns/col/tests/unit/plugins/module_utils/test_test.py|ansible|ansible|test_test.py|Python|4|0|3
+./src/_00/output/Python/ansible~ansible/test/integration/targets/ansible-test-coverage-windows/ansible_collections/ns/col/tests/integration/targets/win_collection/tasks/main.yml|ansible|ansible|main.yml|YAML|4|0|1
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/ansible-test-integration/runme.sh|ansible|ansible|runme.sh|Bourne Shell|4|0|3
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/ansible-test-sanity-no-get-exception/ansible_collections/ns/col/plugins/modules/check-me.py|ansible|ansible|check-me.py|Python|4|0|3
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/ansible-test-sanity-replace-urlopen/ansible_collections/ns/col/plugins/modules/check-me.py|ansible|ansible|check-me.py|Python|4|0|3
@@ -3136,6 +3147,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/keyword_inheritance/roles/role-meta-inheritance/meta/main.yml|ansible|ansible|main.yml|YAML|4|0|0
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/keyword_inheritance/runme.sh|ansible|ansible|runme.sh|Bourne Shell|4|0|3
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/lineinfile/files/testmultiple.txt|ansible|ansible|testmultiple.txt|Text|4|0|3
+./src/_00/output/Python/ansible~ansible/test/integration/targets/lookup_config/runme.yml|ansible|ansible|runme.yml|YAML|4|0|0
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/lookup_csvfile/files/tabs.csv|ansible|ansible|tabs.csv|CSV|4|0|0
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/lookup_password/runme.sh|ansible|ansible|runme.sh|Bourne Shell|4|0|3
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/lookup_password/runme.yml|ansible|ansible|runme.yml|YAML|4|0|0
@@ -3226,14 +3238,22 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/changelogs/fragments/compat_removal.yml|ansible|ansible|compat_removal.yml|YAML|3|0|0
 ./src/_00/output/Python/ansible~ansible/changelogs/fragments/config.yml|ansible|ansible|config.yml|YAML|3|0|0
 ./src/_00/output/Python/ansible~ansible/changelogs/fragments/cron_err.yml|ansible|ansible|cron_err.yml|YAML|3|0|0
+./src/_00/output/Python/ansible~ansible/changelogs/fragments/csvfile-col.yml|ansible|ansible|csvfile-col.yml|YAML|3|0|0
 ./src/_00/output/Python/ansible~ansible/changelogs/fragments/debconf_empty_password.yml|ansible|ansible|debconf_empty_password.yml|YAML|3|0|0
 ./src/_00/output/Python/ansible~ansible/changelogs/fragments/deprecated.yml|ansible|ansible|deprecated.yml|YAML|3|0|0
 ./src/_00/output/Python/ansible~ansible/changelogs/fragments/file_simplify.yml|ansible|ansible|file_simplify.yml|YAML|3|0|0
+./src/_00/output/Python/ansible~ansible/changelogs/fragments/follow_redirects_url.yml|ansible|ansible|follow_redirects_url.yml|YAML|3|0|0
+./src/_00/output/Python/ansible~ansible/changelogs/fragments/gather_facts_netos_fixes.yml|ansible|ansible|gather_facts_netos_fixes.yml|YAML|3|0|0
+./src/_00/output/Python/ansible~ansible/changelogs/fragments/include_delegate_to.yml|ansible|ansible|include_delegate_to.yml|YAML|3|0|0
 ./src/_00/output/Python/ansible~ansible/changelogs/fragments/libvirt_lxc.yml|ansible|ansible|libvirt_lxc.yml|YAML|3|0|0
+./src/_00/output/Python/ansible~ansible/changelogs/fragments/lookup_config.yml|ansible|ansible|lookup_config.yml|YAML|3|0|0
 ./src/_00/output/Python/ansible~ansible/changelogs/fragments/os_family.yml|ansible|ansible|os_family.yml|YAML|3|0|0
 ./src/_00/output/Python/ansible~ansible/changelogs/fragments/passlib.yml|ansible|ansible|passlib.yml|YAML|3|0|0
 ./src/_00/output/Python/ansible~ansible/changelogs/fragments/selector_removal.yml|ansible|ansible|selector_removal.yml|YAML|3|0|0
 ./src/_00/output/Python/ansible~ansible/changelogs/fragments/string_conversion.yml|ansible|ansible|string_conversion.yml|YAML|3|0|0
+./src/_00/output/Python/ansible~ansible/changelogs/fragments/sunos_virtinfo.yml|ansible|ansible|sunos_virtinfo.yml|YAML|3|0|0
+./src/_00/output/Python/ansible~ansible/changelogs/fragments/trim_blocks.yml|ansible|ansible|trim_blocks.yml|YAML|3|0|0
+./src/_00/output/Python/ansible~ansible/changelogs/fragments/unarchive_timestamp_t32.yaml|ansible|ansible|unarchive_timestamp_t32.yaml|YAML|3|0|0
 ./src/_00/output/Python/ansible~ansible/lib/ansible/__init__.py|ansible|ansible|__init__.py|Python|3|23|3
 ./src/_00/output/Python/ansible~ansible/lib/ansible/modules/add_host.py|ansible|ansible|add_host.py|Python|3|100|11
 ./src/_00/output/Python/ansible~ansible/lib/ansible/modules/assert.py|ansible|ansible|assert.py|Python|3|97|9
@@ -3260,7 +3280,6 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/lib/ansible/plugins/doc_fragments/shell_common.py|ansible|ansible|shell_common.py|Python|3|83|3
 ./src/_00/output/Python/ansible~ansible/lib/ansible/plugins/doc_fragments/shell_windows.py|ansible|ansible|shell_windows.py|Python|3|35|3
 ./src/_00/output/Python/ansible~ansible/lib/ansible/plugins/doc_fragments/template_common.py|ansible|ansible|template_common.py|Python|3|112|5
-./src/_00/output/Python/ansible~ansible/lib/ansible/plugins/doc_fragments/url.py|ansible|ansible|url.py|Python|3|67|4
 ./src/_00/output/Python/ansible~ansible/lib/ansible/plugins/doc_fragments/url_windows.py|ansible|ansible|url_windows.py|Python|3|140|5
 ./src/_00/output/Python/ansible~ansible/lib/ansible/plugins/doc_fragments/validate.py|ansible|ansible|validate.py|Python|3|14|3
 ./src/_00/output/Python/ansible~ansible/lib/ansible/plugins/doc_fragments/vars_plugin_staging.py|ansible|ansible|vars_plugin_staging.py|Python|3|15|5
@@ -3361,6 +3380,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/keyword_inheritance/roles/whoami/tasks/main.yml|ansible|ansible|main.yml|YAML|3|0|0
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/lineinfile/files/teststring_58923.txt|ansible|ansible|teststring_58923.txt|Text|3|0|1
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/lineinfile/meta/main.yml|ansible|ansible|main.yml|YAML|3|16|2
+./src/_00/output/Python/ansible~ansible/test/integration/targets/lookup_config/runme.sh|ansible|ansible|runme.sh|Bourne Shell|3|0|2
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/lookup_csvfile/files/cool list of things.csv|ansible|ansible|cool list of things.csv|CSV|3|0|0
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/lookup_csvfile/files/x1a.csv|ansible|ansible|x1a.csv|CSV|3|0|0
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/lookup_ini/duplicate.ini|ansible|ansible|duplicate.ini|INI|3|0|0
@@ -3456,24 +3476,32 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/changelogs/fragments/83965-action-groups-schema.yml|ansible|ansible|83965-action-groups-schema.yml|YAML|2|0|0
 ./src/_00/output/Python/ansible~ansible/changelogs/fragments/84019-ignore_unreachable-loop.yml|ansible|ansible|84019-ignore_unreachable-loop.yml|YAML|2|0|0
 ./src/_00/output/Python/ansible~ansible/changelogs/fragments/84206-dnf5-apt-auto-install-module-deps.yml|ansible|ansible|84206-dnf5-apt-auto-install-module-deps.yml|YAML|2|0|0
+./src/_00/output/Python/ansible~ansible/changelogs/fragments/84238-fix-reset_connection-ssh_executable-templated.yml|ansible|ansible|84238-fix-reset_connection-ssh_executable-templated.yml|YAML|2|0|0
 ./src/_00/output/Python/ansible~ansible/changelogs/fragments/84259-dnf5-latest-fix.yml|ansible|ansible|84259-dnf5-latest-fix.yml|YAML|2|0|0
+./src/_00/output/Python/ansible~ansible/changelogs/fragments/84321-added-ansible_uptime_seconds_aix.yml|ansible|ansible|84321-added-ansible_uptime_seconds_aix.yml|YAML|2|0|0
 ./src/_00/output/Python/ansible~ansible/changelogs/fragments/84334-dnf5-consolidate-settings.yml|ansible|ansible|84334-dnf5-consolidate-settings.yml|YAML|2|0|0
+./src/_00/output/Python/ansible~ansible/changelogs/fragments/84419-fix-wait_for_connection-warning.yml|ansible|ansible|84419-fix-wait_for_connection-warning.yml|YAML|2|0|0
 ./src/_00/output/Python/ansible~ansible/changelogs/fragments/ansible-test-fix-command-traceback.yml|ansible|ansible|ansible-test-fix-command-traceback.yml|YAML|2|0|0
 ./src/_00/output/Python/ansible~ansible/changelogs/fragments/ansible-test-nios-container.yml|ansible|ansible|ansible-test-nios-container.yml|YAML|2|0|0
 ./src/_00/output/Python/ansible~ansible/changelogs/fragments/ansible-test-remotes.yml|ansible|ansible|ansible-test-remotes.yml|YAML|2|0|0
+./src/_00/output/Python/ansible~ansible/changelogs/fragments/copy_validate_input.yml|ansible|ansible|copy_validate_input.yml|YAML|2|0|0
 ./src/_00/output/Python/ansible~ansible/changelogs/fragments/dnf5-plugins-compat.yml|ansible|ansible|dnf5-plugins-compat.yml|YAML|2|0|0
+./src/_00/output/Python/ansible~ansible/changelogs/fragments/feature-uri-add-option-multipart-encoding.yml|ansible|ansible|feature-uri-add-option-multipart-encoding.yml|YAML|2|0|0
 ./src/_00/output/Python/ansible~ansible/changelogs/fragments/find-checksum.yml|ansible|ansible|find-checksum.yml|YAML|2|0|0
 ./src/_00/output/Python/ansible~ansible/changelogs/fragments/fix-ansible-galaxy-ignore-certs.yml|ansible|ansible|fix-ansible-galaxy-ignore-certs.yml|YAML|2|0|0
+./src/_00/output/Python/ansible~ansible/changelogs/fragments/fix-display-bug-in-action-plugin.yml|ansible|ansible|fix-display-bug-in-action-plugin.yml|YAML|2|0|0
 ./src/_00/output/Python/ansible~ansible/changelogs/fragments/fix-include_vars-merge-hash.yml|ansible|ansible|fix-include_vars-merge-hash.yml|YAML|2|0|0
 ./src/_00/output/Python/ansible~ansible/changelogs/fragments/fix-ipv6-pattern.yml|ansible|ansible|fix-ipv6-pattern.yml|YAML|2|0|0
 ./src/_00/output/Python/ansible~ansible/changelogs/fragments/fix-lookup-sequence-keyword-args-only.yml|ansible|ansible|fix-lookup-sequence-keyword-args-only.yml|YAML|2|0|0
 ./src/_00/output/Python/ansible~ansible/changelogs/fragments/fix-module-utils-facts-timeout.yml|ansible|ansible|fix-module-utils-facts-timeout.yml|YAML|2|0|0
 ./src/_00/output/Python/ansible~ansible/changelogs/fragments/fix_errors.yml|ansible|ansible|fix_errors.yml|YAML|2|0|0
+./src/_00/output/Python/ansible~ansible/changelogs/fragments/macos-correct-lock.yml|ansible|ansible|macos-correct-lock.yml|YAML|2|0|0
 ./src/_00/output/Python/ansible~ansible/changelogs/fragments/no-return.yml|ansible|ansible|no-return.yml|YAML|2|0|0
 ./src/_00/output/Python/ansible~ansible/changelogs/fragments/package-dnf-action-plugins-facts-fail-msg.yml|ansible|ansible|package-dnf-action-plugins-facts-fail-msg.yml|YAML|2|0|0
 ./src/_00/output/Python/ansible~ansible/changelogs/fragments/package_facts_fix.yml|ansible|ansible|package_facts_fix.yml|YAML|2|0|0
 ./src/_00/output/Python/ansible~ansible/changelogs/fragments/remove_ini_ignored_dir.yml|ansible|ansible|remove_ini_ignored_dir.yml|YAML|2|0|0
 ./src/_00/output/Python/ansible~ansible/changelogs/fragments/service_facts_fbsd.yml|ansible|ansible|service_facts_fbsd.yml|YAML|2|0|0
+./src/_00/output/Python/ansible~ansible/changelogs/fragments/simplify-copy-module.yml|ansible|ansible|simplify-copy-module.yml|YAML|2|0|0
 ./src/_00/output/Python/ansible~ansible/changelogs/fragments/skip-handlers-tagged-play.yml|ansible|ansible|skip-handlers-tagged-play.yml|YAML|2|0|0
 ./src/_00/output/Python/ansible~ansible/changelogs/fragments/skip-implicit-flush_handlers-no-notify.yml|ansible|ansible|skip-implicit-flush_handlers-no-notify.yml|YAML|2|0|0
 ./src/_00/output/Python/ansible~ansible/changelogs/fragments/skip-role-task-iterator.yml|ansible|ansible|skip-role-task-iterator.yml|YAML|2|0|0
@@ -3489,6 +3517,7 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/ansible-inventory/files/valid_sample.toml|ansible|ansible|valid_sample.toml|TOML|2|0|0
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/ansible-pull/pull-integration-test/gather_facts.yml|ansible|ansible|gather_facts.yml|YAML|2|0|0
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/ansible-test-config/ansible_collections/ns/col/tests/config.yml|ansible|ansible|config.yml|YAML|2|0|0
+./src/_00/output/Python/ansible~ansible/test/integration/targets/ansible-test-coverage-windows/ansible_collections/ns/col/tests/integration/targets/win_collection/library/test_win_collection.ps1|ansible|ansible|test_win_collection.ps1|PowerShell|2|2|2
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/ansible-test-sanity-import/expected.txt|ansible|ansible|expected.txt|Text|2|0|0
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/ansible-test-sanity-no-get-exception/expected.txt|ansible|ansible|expected.txt|Text|2|0|0
 ./src/_00/output/Python/ansible~ansible/test/integration/targets/ansible-test-sanity-validate-modules/ansible_collections/ns/ps_only/plugins/modules/validate.ps1|ansible|ansible|validate.ps1|PowerShell|2|4|2

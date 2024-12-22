@@ -1,19 +1,19 @@
 path|owner|project|file|language|code|comment|blank
-./src/_00/output/Ruby/jordansissel~fpm/lib/fpm/package/deb.rb|jordansissel|fpm|deb.rb|Ruby|941|134|153
-./src/_00/output/Ruby/jordansissel~fpm/docs/cli-reference.rst|jordansissel|fpm|cli-reference.rst|reStructuredText|812|0|259
-./src/_00/output/Ruby/jordansissel~fpm/CHANGELOG.rst|jordansissel|fpm|CHANGELOG.rst|reStructuredText|604|3|102
-./src/_00/output/Ruby/jordansissel~fpm/spec/fpm/package/rpm_spec.rb|jordansissel|fpm|rpm_spec.rb|Ruby|596|74|143
+./src/_00/output/Ruby/jordansissel~fpm/lib/fpm/package/deb.rb|jordansissel|fpm|deb.rb|Ruby|995|143|161
+./src/_00/output/Ruby/jordansissel~fpm/docs/cli-reference.rst|jordansissel|fpm|cli-reference.rst|reStructuredText|824|0|261
+./src/_00/output/Ruby/jordansissel~fpm/spec/fpm/package/rpm_spec.rb|jordansissel|fpm|rpm_spec.rb|Ruby|625|76|151
+./src/_00/output/Ruby/jordansissel~fpm/CHANGELOG.rst|jordansissel|fpm|CHANGELOG.rst|reStructuredText|619|3|105
 ./src/_00/output/Ruby/jordansissel~fpm/lib/fpm/command.rb|jordansissel|fpm|command.rb|Ruby|567|92|98
-./src/_00/output/Ruby/jordansissel~fpm/lib/fpm/package/rpm.rb|jordansissel|fpm|rpm.rb|Ruby|486|71|93
-./src/_00/output/Ruby/jordansissel~fpm/spec/fpm/package/deb_spec.rb|jordansissel|fpm|deb_spec.rb|Ruby|448|40|100
+./src/_00/output/Ruby/jordansissel~fpm/lib/fpm/package/rpm.rb|jordansissel|fpm|rpm.rb|Ruby|515|74|97
+./src/_00/output/Ruby/jordansissel~fpm/spec/fpm/package/deb_spec.rb|jordansissel|fpm|deb_spec.rb|Ruby|449|40|100
 ./src/_00/output/Ruby/jordansissel~fpm/lib/fpm/package/apk.rb|jordansissel|fpm|apk.rb|Ruby|332|68|110
 ./src/_00/output/Ruby/jordansissel~fpm/templates/sh.erb|jordansissel|fpm|sh.erb|ERB|327|0|47
 ./src/_00/output/Ruby/jordansissel~fpm/lib/fpm/package.rb|jordansissel|fpm|package.rb|Ruby|324|155|81
 ./src/_00/output/Ruby/jordansissel~fpm/lib/fpm/package/cpan.rb|jordansissel|fpm|cpan.rb|Ruby|318|58|58
 ./src/_00/output/Ruby/jordansissel~fpm/lib/fpm/package/pacman.rb|jordansissel|fpm|pacman.rb|Ruby|292|66|57
 ./src/_00/output/Ruby/jordansissel~fpm/lib/fpm/package/gem.rb|jordansissel|fpm|gem.rb|Ruby|272|67|48
+./src/_00/output/Ruby/jordansissel~fpm/lib/fpm/package/python.rb|jordansissel|fpm|python.rb|Ruby|263|72|49
 ./src/_00/output/Ruby/jordansissel~fpm/lib/fpm/util.rb|jordansissel|fpm|util.rb|Ruby|260|124|61
-./src/_00/output/Ruby/jordansissel~fpm/lib/fpm/package/python.rb|jordansissel|fpm|python.rb|Ruby|257|72|49
 ./src/_00/output/Ruby/jordansissel~fpm/spec/fpm/package/pacman_spec.rb|jordansissel|fpm|pacman_spec.rb|Ruby|235|11|38
 ./src/_00/output/Ruby/jordansissel~fpm/spec/fpm/command_spec.rb|jordansissel|fpm|command_spec.rb|Ruby|223|4|45
 ./src/_00/output/Ruby/jordansissel~fpm/templates/rpm.erb|jordansissel|fpm|rpm.erb|ERB|215|32|16
@@ -36,12 +36,12 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Ruby/jordansissel~fpm/lib/fpm/package/p5p.rb|jordansissel|fpm|p5p.rb|Ruby|81|16|27
 ./src/_00/output/Ruby/jordansissel~fpm/docs/packages/deb.rst|jordansissel|fpm|deb.rst|reStructuredText|79|1|37
 ./src/_00/output/Ruby/jordansissel~fpm/templates/pleaserun/install.sh|jordansissel|fpm|install.sh|Bourne Shell|78|15|24
+./src/_00/output/Ruby/jordansissel~fpm/docs/packages/cli/deb.rst|jordansissel|fpm|deb.rst|reStructuredText|76|0|1
 ./src/_00/output/Ruby/jordansissel~fpm/lib/fpm/package/npm.rb|jordansissel|fpm|npm.rb|Ruby|75|27|18
-./src/_00/output/Ruby/jordansissel~fpm/docs/packages/cli/deb.rst|jordansissel|fpm|deb.rst|reStructuredText|72|0|1
 ./src/_00/output/Ruby/jordansissel~fpm/Dockerfile|jordansissel|fpm|Dockerfile|Dockerfile|70|26|11
+./src/_00/output/Ruby/jordansissel~fpm/docs/packages/cli/rpm.rst|jordansissel|fpm|rpm.rst|reStructuredText|70|0|1
 ./src/_00/output/Ruby/jordansissel~fpm/lib/fpm/package/solaris.rb|jordansissel|fpm|solaris.rb|Ruby|70|9|16
 ./src/_00/output/Ruby/jordansissel~fpm/templates/deb/postinst_upgrade.sh.erb|jordansissel|fpm|postinst_upgrade.sh.erb|ERB|70|8|6
-./src/_00/output/Ruby/jordansissel~fpm/docs/packages/cli/rpm.rst|jordansissel|fpm|rpm.rst|reStructuredText|68|0|1
 ./src/_00/output/Ruby/jordansissel~fpm/spec/fpm/package/sh_spec.rb|jordansissel|fpm|sh_spec.rb|Ruby|66|4|10
 ./src/_00/output/Ruby/jordansissel~fpm/docs/contributing.rst|jordansissel|fpm|contributing.rst|reStructuredText|63|4|39
 ./src/_00/output/Ruby/jordansissel~fpm/lib/fpm/util/tar_writer.rb|jordansissel|fpm|tar_writer.rb|Ruby|63|4|15
@@ -164,4 +164,4 @@ path|owner|project|file|language|code|comment|blank
 ./src/_00/output/Ruby/jordansissel~fpm/spec/fixtures/gem/example/bin/example|jordansissel|fpm|example|Ruby|1|0|0
 ./src/_00/output/Ruby/jordansissel~fpm/spec/fixtures/virtualenv/requirements.txt|jordansissel|fpm|requirements.txt|Text|1|0|0
 ./src/_00/output/Ruby/jordansissel~fpm/docs/changelog.rst|jordansissel|fpm|changelog.rst|reStructuredText|0|2|0
-./src/_00/output/Ruby/jordansissel~fpm/docs/changelog_links.rst|jordansissel|fpm|changelog_links.rst|reStructuredText|0|430|0
+./src/_00/output/Ruby/jordansissel~fpm/docs/changelog_links.rst|jordansissel|fpm|changelog_links.rst|reStructuredText|0|450|0
