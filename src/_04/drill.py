@@ -113,7 +113,7 @@ def process_repository(i):
                     df_file.to_csv(f'{files_dir}{file.filename}.csv', sep='|', index=False)
 
             except Exception as e:
-                input(f'\033[33mError: {e}\033[m')
+                print(f'\033[33mError: {e}\033[m')
 
                 # Error dir
                 error_dir: str = f'{output_path}errors/'
@@ -125,7 +125,7 @@ def process_repository(i):
                 # Saving errors
                 df_commit.to_csv(f'{error_dir}errors_{commit.project_name}.csv', mode='a', sep='|', index=False)
 
-        print(f'\033[32m    > Minered - {file_name}\033[m')
+        print(f'\033[32m    > Minered - {file_name} : {file_path}\033[m')
 
     # End timer and save it to csv
     end = datetime.now()
