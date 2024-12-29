@@ -48,10 +48,10 @@ def process_repository(i):
 
     # Generating the path to the repository's files list
     files_list_path: str = f'{files_base_path}{main_language}/{owner}~{project}.csv'
-    print(f'* {files_list_path} - {len(files_list_path)} files')
 
     # Loading files list
     files_list: pd.DataFrame = pd.read_csv(files_list_path, sep='|', engine='python')
+    print(f'* {files_list_path} - {len(files_list)} files')
     # print(f' --> {files_list}')
 
     for j in range(len(files_list)):
