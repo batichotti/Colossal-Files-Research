@@ -14,7 +14,7 @@ num_cores = os.cpu_count()
 input(os.cpu_count())
 
 # list with repositories that will analyzed
-repositories_list_path: str = './src/_00/input/linux.csv'
+repositories_list_path: str = './src/_00/input/450_Starred_Projects.csv'
 
 # base dirs
 repositories_base_dir: str = './src/_00/output/'
@@ -42,6 +42,9 @@ def process_repository(i):
     # Generating repository path
     repository_path: str = f'{repositories_base_dir}{main_language}/{owner}~{project}'
     print(f'{repository_path} -> {branch}')
+
+    if os.path.exists(f'{output_path}{main_language}/{owner}~{project}'):
+        return
 
     # Generating the path to the repository's files list
     files_list_path: str = f'{files_base_path}{main_language}/{owner}~{project}.csv'
