@@ -11,7 +11,7 @@ output_path: str = './src/_04/output/'
 
 # Threads/CPU cores ---------------------------------------------------------------------------------------------------
 num_cores = os.cpu_count()
-input(os.cpu_count())
+print(os.cpu_count())
 
 # list with repositories that will analyzed
 repositories_list_path: str = './src/_00/input/450-linux-pytorch.csv'
@@ -43,8 +43,8 @@ def process_repository(i):
     repository_path: str = f'{repositories_base_dir}{main_language}/{owner}~{project}'
     print(f'{repository_path} -> {branch}')
 
-    if os.path.exists(f'{output_path}{main_language}/{owner}~{project}'):
-        return
+    # if os.path.exists(f'{output_path}{main_language}/{owner}~{project}'):
+    #     return
 
     # Generating the path to the repository's files list
     files_list_path: str = f'{files_base_path}{main_language}/{owner}~{project}.csv'
@@ -142,5 +142,5 @@ def process_repository(i):
 
 if __name__ == '__main__':
     # with ThreadPoolExecutor(max_workers=num_cores) as executor: #Auto-fit
-    with ThreadPoolExecutor(max_workers=1) as executor: #Auto-fit
+    with ThreadPoolExecutor(max_workers=num_cores) as executor: #Auto-fit
         executor.map(process_repository, range(len(repositories)))
