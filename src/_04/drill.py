@@ -14,7 +14,7 @@ num_cores = os.cpu_count()
 input(os.cpu_count())
 
 # list with repositories that will analyzed
-repositories_list_path: str = './src/_00/input/450_Starred_Projects.csv'
+repositories_list_path: str = './src/_00/input/450-linux-pytorch.csv'
 
 # base dirs
 repositories_base_dir: str = './src/_00/output/'
@@ -138,7 +138,7 @@ def process_repository(i):
         'TOTAL': [end - start],
     })
     total_time.to_csv(f'{output_path}{main_language}/{owner}~{project}/total_time.csv', index=False)
-    print(end - start)
+    print(f'{main_language}/{owner}~{project}:{end - start}')
 
 if __name__ == '__main__':
     # with ThreadPoolExecutor(max_workers=num_cores) as executor: #Auto-fit
