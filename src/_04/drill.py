@@ -138,7 +138,7 @@ def process_repository(i):
         'TOTAL': [end - start],
     })
     total_time.to_csv(f'{output_path}{main_language}/{owner}~{project}/total_time.csv', index=False)
-    print(f'{main_language}/{owner}~{project}:{end - start}')
+    print(f'\033[42m{main_language}/{owner}~{project}:{end - start}\033[m')
 
 if __name__ == '__main__':
     # with ThreadPoolExecutor(max_workers=num_cores) as executor: #Auto-fit
