@@ -1,6 +1,7 @@
 import pydriller as dr
 import pandas as pd
 import os
+import sys
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor
 
@@ -13,6 +14,10 @@ output_path: str = './src/_04/output/'
 num_cores = os.cpu_count()
 print(os.cpu_count())
 
+# Recursion Limit -----------------------------------------------------------------------------------------------------
+
+sys.setrecursionlimit(5000)
+
 # list with repositories that will analyzed
 repositories_list_path: str = './src/_00/input/450-linux-pytorch.csv'
 
@@ -21,7 +26,7 @@ repositories_base_dir: str = './src/_00/output/'
 files_base_path: str = './src/_03/output/'
 
 # Date
-date = datetime(2024, 11, 24, 17, 0, 0)
+date = datetime(2024, 12, 24, 17, 0, 0)
 
 # preparing environment -----------------------------------------------------------------------------------------------
 
@@ -59,7 +64,7 @@ def process_repository(i):
         file_path: str = files_list['path'].loc[j]
         file_name: str = file_path.split('/')[-1]
         file_path = '/'.join(file_path.split('/')[6:])
-        print(f'{file_path} - Mininig...')
+        print(f' Mininig... {main_language}/{owner}~{project} - {file_path}')
 
         # PyDriller  -----------------------------------------------------------------------------------------------
 
@@ -73,6 +78,7 @@ def process_repository(i):
                 # Setting commit path
                 commit_dir = f'{dir_path}/{commit.hash}'
                 if os.path.exists(commit_dir):
+                    print(f'\033[1;33m    > Already Mined! {main_language}/{owner}~{project} - {file_path}[m')
                     continue
                 os.makedirs(commit_dir, exist_ok=True)
 
@@ -128,7 +134,7 @@ def process_repository(i):
                 # Saving errors
                 df_commit.to_csv(f'{error_dir}errors_{commit.project_name}.csv', mode='a', sep='|', index=False)
 
-        print(f'\033[32m    > Minered - {file_name} : {file_path}\033[m')
+        print(f'\033[32m    > Mined! {main_language}/{owner}~{project} - {file_path}[m')
 
     # End timer and save it to csv
     end = datetime.now()
