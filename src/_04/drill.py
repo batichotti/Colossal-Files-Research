@@ -78,7 +78,7 @@ def process_repository(i):
                 # Setting commit path
                 commit_dir = f'{dir_path}/{commit.hash}'
                 if os.path.exists(commit_dir):
-                    print(f'\033[1;33m    > Already Mined! {main_language}/{owner}~{project} - {file_path}[m')
+                    print(f'\033[1;33m    & Already Mined! {main_language}/{owner}~{project}/{file_name} - {commit.hash}\033[m')
                     continue
                 os.makedirs(commit_dir, exist_ok=True)
 
@@ -134,7 +134,7 @@ def process_repository(i):
                 # Saving errors
                 df_commit.to_csv(f'{error_dir}errors_{commit.project_name}.csv', mode='a', sep='|', index=False)
 
-        print(f'\033[32m    > Mined! {main_language}/{owner}~{project} - {file_path}[m')
+        print(f'\033[32m    > Mined! {main_language}/{owner}~{project} - {file_path}\033[m')
 
     # End timer and save it to csv
     end = datetime.now()
