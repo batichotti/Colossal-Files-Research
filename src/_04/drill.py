@@ -16,7 +16,7 @@ print(os.cpu_count())
 
 # Recursion Limit -----------------------------------------------------------------------------------------------------
 
-sys.setrecursionlimit(5000)
+sys.setrecursionlimit(10000)
 
 # list with repositories that will analyzed
 repositories_list_path: str = './src/_00/input/450-linux-pytorch.csv'
