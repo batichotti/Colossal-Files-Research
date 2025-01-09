@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 
-def read_csv_files(directory):
+def read_csv_files(directory, delimiter='|', add_columns=False):
     data_frames = []
     for language in os.listdir(directory):
         language_dir = os.path.join(directory, language)
@@ -9,9 +9,35 @@ def read_csv_files(directory):
             for filename in os.listdir(language_dir):
                 if filename.endswith(".csv"):
                     file_path = os.path.join(language_dir, filename)
-                    df = pd.read_csv(file_path, engine='python', delimiter='|')
+                    df = pd.read_csv(file_path, engine='python', delimiter=delimiter)
+                    if add_columns:
+                        owner, project = filename.split('~')[0], filename.split('~')[1].replace('.csv', '')
+                        df['owner'] = owner
+                        df['project'] = project
                     data_frames.append(df)
     return data_frames
+
+def sort_rows(filtered_data, combined_data_06):
+    sorted_rows = []
+    for _, row in combined_data_06.iterrows():
+        language = row['language']
+        owner = row['owner']
+        project = row['project']
+        small_files = row['small files p/ project']
+        files_missing = row['files missing']
+        
+        matching_rows = filtered_data[
+            (filtered_data['language'] == language) &
+            (filtered_data['owner'] == owner) &
+            (filtered_data['project'] == project)
+        ]
+        
+        if files_missing != 0:
+            sorted_rows.append(matching_rows)
+        else:
+            sorted_rows.append(matching_rows.sample(n=small_files))
+    
+    return pd.concat(sorted_rows, ignore_index=True)
 
 def main():
     output_01_dir = './src/_01/output/'
@@ -20,14 +46,16 @@ def main():
 
     data_01 = read_csv_files(output_01_dir)
     data_03 = read_csv_files(output_03_dir)
-    data_06 = read_csv_files(output_06_dir)
+    data_06 = read_csv_files(output_06_dir, delimiter=',', add_columns=True)
     
     combined_data_01 = pd.concat(data_01, ignore_index=True)
     combined_data_03 = pd.concat(data_03, ignore_index=True)
+    combined_data_06 = pd.concat(data_06, ignore_index=True)
 
     filtered_data_01 = combined_data_01[~combined_data_01.isin(combined_data_03.to_dict(orient='list')).all(axis=1)]
-
     
-
+    sorted_filtered_data_01 = sort_rows(filtered_data_01, combined_data_06)
+    print(sorted_filtered_data_01)
+    
 if __name__ == "__main__":
     main()
