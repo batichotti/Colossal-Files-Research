@@ -21,19 +21,12 @@ def main():
     data_01 = read_csv_files(output_01_dir)
     data_03 = read_csv_files(output_03_dir)
     data_06 = read_csv_files(output_06_dir)
-
-    print(f"Data from {output_01_dir}: {len(data_01)}")
-    print(f"Data from {output_03_dir}: {len(data_03)}")
-    print(f"Data from {output_06_dir}: {len(data_06)}")
     
     combined_data_01 = pd.concat(data_01, ignore_index=True)
     combined_data_03 = pd.concat(data_03, ignore_index=True)
 
     filtered_data_01 = combined_data_01[~combined_data_01.isin(combined_data_03.to_dict(orient='list')).all(axis=1)]
 
-    print(f"Filtered Data from {output_01_dir}: {filtered_data_01}")
-    print(f"Data from {output_03_dir}: {combined_data_03}")
-    
     
 
 if __name__ == "__main__":
