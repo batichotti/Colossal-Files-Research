@@ -17,14 +17,25 @@ def read_csv_files(directory, delimiter='|', add_columns=False):
                     data_frames.append(df)
     return data_frames
 
+def filter_data(combined_data_01, data_02):
+    filtered_data = combined_data_01.merge(data_02, on='language')
+    filtered_data = filtered_data[filtered_data['percentil 99'] > filtered_data['code']]
+    
+    return filtered_data.drop(columns=[
+        'percentil 99', '#', 'percentil 25', 'percentil 50', 
+        'percentil 75', 'percentil 90', 'percentil 95', 
+        'percentil 97', 'percentil 98', 'comment', 'blank'
+    ])
+
 def sort_rows(filtered_data, combined_data_06):
     sorted_rows = []
     for _, row in combined_data_06.iterrows():
         language = row['language']
         owner = row['owner']
         project = row['project']
-        small_files = row['small files p/ project']
-        files_missing = row['files missing']
+        small_files = int(row['small files p/ project'])
+        files_missing = int(row['files missing'])
+        avaliable_files = int(row['files available'])
         
         matching_rows = filtered_data[
             (filtered_data['language'] == language) &
@@ -33,29 +44,54 @@ def sort_rows(filtered_data, combined_data_06):
         ]
         
         if files_missing != 0:
-            sorted_rows.append(matching_rows)
+            sorted_rows.append(matching_rows.sample(n=avaliable_files))
         else:
             sorted_rows.append(matching_rows.sample(n=small_files))
     
     return pd.concat(sorted_rows, ignore_index=True)
 
+def save_dataframe(df, output_dir):
+    starred_projects_path = './src/_00/input/450_Starred_Projects.csv'
+    starred_projects = pd.read_csv(starred_projects_path)
+    
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+    
+    for (owner, project), group in df.groupby(['owner', 'project']):
+        language = starred_projects[
+            (starred_projects['owner'] == owner) & 
+            (starred_projects['project'] == project)
+        ]['main language'].values[0]
+        
+        language_dir = os.path.join(output_dir, language)
+        if not os.path.exists(language_dir):
+            os.makedirs(language_dir)
+        
+        filename = f"{owner}~{project}.csv"
+        file_path = os.path.join(language_dir, filename)
+        group.to_csv(file_path, index=False)
+
 def main():
     output_01_dir = './src/_01/output/'
-    output_03_dir = './src/_03/output/'
+    output_02 = './src/_02/output/percentis_by_language_filtered.csv'
     output_06_dir = './src/_06/output/'
 
     data_01 = read_csv_files(output_01_dir)
-    data_03 = read_csv_files(output_03_dir)
+    data_02 = pd.read_csv(output_02)
     data_06 = read_csv_files(output_06_dir, delimiter=',', add_columns=True)
     
     combined_data_01 = pd.concat(data_01, ignore_index=True)
-    combined_data_03 = pd.concat(data_03, ignore_index=True)
     combined_data_06 = pd.concat(data_06, ignore_index=True)
-
-    filtered_data_01 = combined_data_01[~combined_data_01.isin(combined_data_03.to_dict(orient='list')).all(axis=1)]
     
+    percentis_data = pd.read_csv(output_02, delimiter=',')
+    
+    filtered_data_01 = filter_data(combined_data_01, percentis_data)
     sorted_filtered_data_01 = sort_rows(filtered_data_01, combined_data_06)
+    
     print(sorted_filtered_data_01)
     
+    output_dir = './src/_07/output/'
+    save_dataframe(sorted_filtered_data_01, output_dir)
+
 if __name__ == "__main__":
     main()
