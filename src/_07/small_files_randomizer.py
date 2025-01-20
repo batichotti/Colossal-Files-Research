@@ -109,7 +109,7 @@ def save_dataframe(df:pd.DataFrame, output_dir:str)->None:
         
         filename = f"{owner}~{project}.csv"
         file_path = os.path.join(language_dir, filename)
-        group.to_csv(file_path, index=False)
+        group.to_csv(file_path, index=False, sep='|')
 
 # MAIN =================================================================================================================
 
