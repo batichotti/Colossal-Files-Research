@@ -19,7 +19,7 @@ print(os.cpu_count())
 sys.setrecursionlimit(10000)
 
 # list with repositories that will analyzed
-repositories_list_path: str = './src/_00/input/c.csv'
+repositories_list_path: str = './src/_00/input/typescript.csv'
 
 # base dirs
 repositories_base_dir: str = './src/_00/output/'
