@@ -1,221 +1,209 @@
-# Titan Files - Pillars
+# Colossal Files Research
 
-## Languages
-
-## Projects
-
-## CLoC
-
-### Setup
-
-### Script 00 (**Blade Runner**) - GIT Clone BOT
-
-This script is responsible for the local clone of the repositories (main/marster brach) that will be analyzed by CLoC, for this we use the previous projects list.
-
-*IMPORT*
+## Cloning GitHub Projects
 
 ```{python}
-#| echo: true
-
 import git
 import pandas as pd
 from datetime import datetime
+from os import path
+from platform import system as op_sys
 
-```
-
-*CODE*
-
-```{python}
-
-input_path = './src/_00/input/600_Starred_Projects_N.csv'
-input_file = pd.read_csv(input_path)
+# SETUP ================================================================================================================
+input_path = './src/_00/input/600_Starred_Projects.csv'
 output_path = './src/_00/output'
+
+input_file = pd.read_csv(input_path)
 
 start = datetime.now()
 
-for repository, language in zip(input_file['url'], input_file['main language']):
-    local_repo_directory = f"{output_path}/{language}/{repository.split('/')[-2]}~{repository.split('/')[-1]}"
-    print(f"{repository.split('/')[-2]}~{repository.split('/')[-1]}", end="")
+# Code =================================================================================================================
+index = 0
+while index < len(input_file):
+# Clone ================================================================================================================
+    repository, language, branch = input_file.loc[index, ['url', 'main language', 'branch']]
 
-    try:
+    repo_path = f"{language}/{repository.split('/')[-2]}~{repository.split('/')[-1]}"
+    local_repo_directory = f"{output_path}/{repo_path}"
+    print(f"{repository.split('/')[-2]}~{repository.split('/')[-1]}", end='')
+
+    if not path.exists(local_repo_directory):
         try:
-            repo = git.Repo.clone_from(repository, local_repo_directory, branch='main')
-            print(" -> Main branch")
-        except git.exc.GitCommandError:
             try:
-                repo = git.Repo.clone_from(repository, local_repo_directory, branch='master')
-                print(" -> Master branch")
+                print(f" - Cloning...")
+                repo = git.Repo.clone_from(repository, local_repo_directory, branch=branch)
+                print(f"Cloned -> {branch} branch")
             except git.exc.GitCommandError:
-                print(" -> \033[31mNo Main/Master branches found\033[m")
+                print(f" > \033[31mNo Default branches found\033[m - {branch}\n{repository}")
+        except git.exc.GitCommandError as e:
+            print()
+            if "already exists and is not an empty directory" in e.stderr:
+                print("\033[31mDestination path already exists and is not an empty directory\033[m")
+            else:
+                print(f"\033[31mAn error occurred in Clone:\n{e}\033[m")
+    print()
 
-    except git.exc.GitCommandError as e:
-        print()
-        if "already exists and is not an empty directory" in e.stderr:
-            print("\033[31mDestination path already exists and is not an empty directory\033[m")
-        else:
-            print(f"\033[31mAn error occurred: {e}\033[m")
+    index += 1
 
+#=======================================================================================================================
 end = datetime.now()
-time = pd.DataFrame({'start' : start, 'end':end, 'time_expended':[end-start]})
-time.to_csv(f'{output_path}/time~total.csv')
+time = pd.DataFrame({'start': start, 'end': end, 'time_expended': [end - start]})
+time.to_csv(f'{output_path}/time~total.csv', index=False)
 
 print('DONE!')
 
 ```
 
-### Script 01 (**The Imitation Game**) - CLoC BOT
-
-This script is responsible for automating the CLoC analysis for all clones made before.
-
-*IMPORT*
+## Counting number of lines of code (nloc) - CLoC
 
 ```{python}
-#| echo: true
-
-from os import path, listdir, system
+import git
+import pandas as pd
+from datetime import datetime
+from os import path, system, remove, makedirs
 from platform import system as op_sys
 
-```
+SEPARATOR = '|'
+DIV = '/'
 
-*CODE*
+#=======================================================================================================================
+def formater(file_path:str, separator:str=','):
+    try:
+        file = pd.read_csv(file_path, sep=separator, low_memory=False)
+        try:
+            columns_to_remove = [col for col in file.columns if col.startswith("github.com/AlDanial/cloc")]
+            file = file.drop(columns=columns_to_remove) # removing watermark
 
-```{python}
-def formater(file_path:str):
-    file = pd.read_csv(file_path, low_memory='False', delimiter=DELIMITER)
+            sum_index = file.index[file.iloc[:, 0].str.startswith("SUM")]
+            file = file.loc[:sum_index[0] - 1] if sum_index.any() else file # removing lines that we are not interested in
 
-    columns_to_remove = [col for col in file.columns if col.startswith("github.com/AlDanial/cloc")]
-    file = file.drop(columns=columns_to_remove) # removing watermark
+            file = file.rename(columns={'filename':'path'})
 
-    sum_index = file.index[file.iloc[:, 0].str.startswith("SUM")]
-    file = file.loc[:sum_index[0] - 1] if sum_index.any() else file # removing lines that we are not interested in
+            file['owner'] = file['path'].apply(lambda x: x.split(DIV)[5].split('~')[0])
+            file['project'] = file['path'].apply(lambda x: x.split(DIV)[5].split('~')[1])
+            file['file'] = file['path'].apply(lambda x: x.split(DIV)[-1]) # adding columns to the owner, project, and file name
 
-    file = file.rename(columns={'filename':'path'})
+            file = file[['path', 'owner', 'project', 'file', 'language', 'code', 'comment', 'blank']] # rearranging csv
 
-    file['owner'] = file['path'].apply(lambda x: x.split('\\')[5].split('~')[0])
-    file['project'] = file['path'].apply(lambda x: x.split('\\')[5].split('~')[1])
-    file['file'] = file['path'].apply(lambda x: x.split('\\')[-1]) # adding columns to the owner, project, and file name
+            file.to_csv(file_path, sep=separator, index=False)
+        except:
+            print('ERROR#???')
+            input('primeiro')
+            remove(file_path)
+    except:
+        print(f'\033[31mSeparator error, reprocess with Windows(\033[35m{file_path}.csv\033[31m)\033[m')
+        input('segundo')
+        remove(file_path)
 
-    file = file[['path', 'owner', 'project', 'file', 'language', 'code', 'comment', 'blank']] # rearranging csv
 
-    file.to_csv(file_path)
+# SETUP ================================================================================================================
+input_clone_path = './src/_00/input/450_Starred_Projects.csv'
+output_clone_path = './src/_00/output'
 
-```
+input_file = pd.read_csv(input_clone_path)
 
-```{python}
-input_path = './src/_00/output'
-output_path = './src/_01/output'
-
-start = datetime.now()
+input_cloc_path = output_clone_path
+output_cloc_path = './src/_01/output'
 
 if op_sys() == "Windows":
     cloc = path.abspath("./src/_01/input/cloc.exe")  # CLoC.exe path
 else:
-    cloc = 'cloc' # REMEMBER TO INSTALL CLOC
+    cloc = 'cloc'  # REMEMBER TO INSTALL CLOC
 
-# running CLoC for each cloned repositorysitories
-for language in listdir(input_path):
-    if language != f'time~total.csv':
-        language_path = path.join(input_path, language)
-        for repository in listdir(language_path):
-            if path.exists(f'{output_path}/{language}/{repository}.csv'):
-                print(f"\033[31mDestination path (\033[35m{repository}.csv\033[31m) already exists and is not an empty directoryn\033[m")
+start = datetime.now()
+
+# Code =================================================================================================================
+index = 0
+while index < len(input_file):
+# Clone ================================================================================================================
+    repository, language, branch = input_file.loc[index, ['url', 'main language', 'branch']]
+
+    repo_path = f"{language}/{repository.split('/')[-2]}~{repository.split('/')[-1]}"
+    local_repo_directory = f"{output_clone_path}/{repo_path}"
+    print(f"{repository.split('/')[-2]}~{repository.split('/')[-1]}", end='')
+
+    if not path.exists(local_repo_directory):
+        try:
+            try:
+                print(f" - Cloning...")
+                repo = git.Repo.clone_from(repository, local_repo_directory, branch=branch)
+                print(f"Cloned -> {branch} branch")
+            except git.exc.GitCommandError:
+                print(f" > \033[31mNo Default branches found\033[m - {branch}\n{repository}")
+        except git.exc.GitCommandError as e:
+            print()
+            if "already exists and is not an empty directory" in e.stderr:
+                print("\033[31mDestination path already exists and is not an empty directory\033[m")
             else:
-                system(f'{cloc} --by-file-by-lang --csv --out {output_path}/{language}/{repository}.csv {input_path}/{language}/{repository}') # runing CLoC
-                
-                formater(f'{output_path}/{language}/{repository}.csv')
+                print(f"\033[31mAn error occurred in Clone:\n{e}\033[m")
+    print()
 
-                print(f'\n File \033[35m{repository}.csv\033[m was created successfully \n')
-            
+# CLoC =================================================================================================================
+    try:
+        cloc_repo_path = f"{output_cloc_path}/{repo_path}"
+        if path.exists(f'{cloc_repo_path}.csv'):
+            print(f"\033[31mDestination path (\033[35m{local_repo_directory}.csv\033[31m) already exists and is not an empty directory\n\033[m")
+        else:
+            system(f'{cloc} --timeout=0 --by-file-by-lang --csv-delimiter="{SEPARATOR}" --out {cloc_repo_path}.csv {local_repo_directory}')  # running CLoC
+            formater(f'{cloc_repo_path}.csv', SEPARATOR)
+            if path.exists(f'{cloc_repo_path}.csv'):
+                print(f'\n File \033[35m{repository.split('/')[-2]}~{repository.split('/')[-1]}.csv\033[m was created successfully \n')
+    except Exception as e:
+        print(f"\033[31mAn error occurred in CLoC:\n{e}\033[m")
+
+# Verifying ============================================================================================================
+    cloc_flag = True
+
+    try:
+        cloc_df = pd.read_csv(f'{cloc_repo_path}.csv', sep=SEPARATOR, low_memory=False)
+
+        for file in cloc_df['path']:
+            if not path.exists(file):
+                cloc_flag = False
+                if path.exists(local_repo_directory):
+                    remove(local_repo_directory)
+                if path.exists(cloc_repo_path):
+                    remove(cloc_repo_path)
+                break
+    except Exception as e:
+        print(f"\033[31mAn error occurred in Verifying:\n{e}\033[m")
+
+    if cloc_flag:
+        index += 1
+
+#=======================================================================================================================
 end = datetime.now()
-time = pd.DataFrame({'start' : start, 'end':end, 'time_expended':[end-start]})
-time.to_csv(f'{output_path}/time~total.csv')
+time = pd.DataFrame({'start': start, 'end': end, 'time_expended': [end - start]})
+time.to_csv(f'{output_clone_path}/time~total.csv', index=False)
+
+print('DONE!')
 
 ```
 
-### Script 02 (**The Wolf of Wall Street**) - CLoC Percentiles
+## Defining a Colossal File
 
-*IMPORT*
-
-``` {python}
+```{python}
+import pandas as pd
 import numpy as np
 import os
 
-```
+input_path: str = './src/_01/output'
+output_path: str = './src/_02/output'
 
-*CODE*
-
-``` {python}
-input_path = 'src/_01/output'
-output_path = 'src/_02/output'
-
-```
-
-## Script 02.a - Only Even Languages
-
-*CODE*
-
-``` {python}
 all_dataframes = []
 
-for language_dir in os.listdir(input_path):
-    language_dir_path = os.path.join(input_path, language_dir)
-    for file in os.listdir(language_dir_path):
-        file_path = os.path.join(language_dir_path, file)
-        dataframe = pd.read_csv(file_path, sep='|')
-        dataframe['project language'] = language_dir
-        dataframe['project'] = file.split('~')[1]
-        dataframe['owner'] = file.split('~')[0]
-        all_dataframes.append(dataframe)
+repositories_path = "./src/_00/input/450_Starred_Projects.csv"
+repositories = pd.read_csv(repositories_path)
 
-combined_dataframe = pd.concat(all_dataframes, ignore_index=True)
-
-filtered_dataframe = combined_dataframe[combined_dataframe['language'] == combined_dataframe['project language']]
-grouped = filtered_dataframe.groupby('project language')
-output_dataframes = []
-
-for lang, group in grouped:
-    code_percentiles = group['code'].describe(percentiles=[0.25, 0.5, 0.75, 0.90, 0.95, 0.97, 0.98, 0.99]).transpose()
-    
-    output_dataframe = pd.DataFrame({
-        'language': lang,
-        '#': [len(group)],
-        'percentil 25': [np.ceil(code_percentiles['25%'])],
-        'percentil 50': [np.ceil(code_percentiles['50%'])],
-        'percentil 75': [np.ceil(code_percentiles['75%'])],
-        'percentil 90': [np.ceil(code_percentiles['90%'])],
-        'percentil 95': [np.ceil(code_percentiles['95%'])],
-        'percentil 97': [np.ceil(code_percentiles['97%'])],
-        'percentil 98': [np.ceil(code_percentiles['98%'])],
-        'percentil 99': [np.ceil(code_percentiles['99%'])]
-    })
-    
-    output_dataframes.append(output_dataframe)
-
-final_output_dataframe = pd.concat(output_dataframes, ignore_index=True)
-final_output_dataframe.to_csv(f'{output_path}/percentis_even_languages.csv', index=False)
-
-filtered_languages = ["C", "C#", "C++", "Dart", "Elixir", "Go", "Haskell", "Java", "JavaScript", "Kotlin", "Lua", "Objective-C", "Perl", "PHP", "Python", "Ruby", "Rust", "Scala", "Swift", "TypeScript"]
-output_filtered = final_output_dataframe[final_output_dataframe['language'].isin(filtered_languages)]
-output_filtered.to_csv(f'{output_path}/percentis_even_languages_filtered.csv', index=False)
-
-```
-
-## Script 02.b - Per language
-
-*CODE*
-
-``` {python}
-all_dataframes = []
-
-for language_dir in os.listdir(input_path):
-    language_dir_path = os.path.join(input_path, language_dir)
-    for file in os.listdir(language_dir_path):
-        file_path = os.path.join(language_dir_path, file)
-        dataframe = pd.read_csv(file_path, sep='|')
-        dataframe['project language'] = language_dir
-        dataframe['project'] = file.split('~')[1]
-        dataframe['owner'] = file.split('~')[0]
-        all_dataframes.append(dataframe)
+for i in range(len(repositories)):
+    repository, language = repositories.loc[i, ['url', 'main language']]
+    repo_path = f"{language}/{repository.split('/')[-2]}~{repository.split('/')[-1]}"
+    file_path = os.path.join(input_path, f"{repo_path}.csv")
+    dataframe = pd.read_csv(file_path, sep='|')
+    dataframe['project language'] = language
+    dataframe['project'] = repository.split('/')[-1]
+    dataframe['owner'] = repository.split('/')[-2]
+    all_dataframes.append(dataframe)
 
 combined_dataframe = pd.concat(all_dataframes, ignore_index=True)
 grouped = combined_dataframe.groupby('language')
@@ -223,7 +211,7 @@ output_dataframes = []
 
 for lang, group in grouped:
     code_percentiles = group['code'].describe(percentiles=[0.25, 0.5, 0.75, 0.90, 0.95, 0.97, 0.98, 0.99]).transpose()
-    
+
     output_dataframe = pd.DataFrame({
         'language': lang,
         '#': len(group),
@@ -236,56 +224,702 @@ for lang, group in grouped:
         'percentil 98': [np.ceil(code_percentiles['98%'])],
         'percentil 99': [np.ceil(code_percentiles['99%'])]
     })
-    
+
     output_dataframes.append(output_dataframe)
+
+os.makedirs(output_path, exist_ok=True)
 
 final_output_dataframe = pd.concat(output_dataframes, ignore_index=True)
 final_output_dataframe.to_csv(f'{output_path}/percentis_by_language.csv', index=False)
 
-filtered_languages = ["C", "C#", "C++", "Dart", "Elixir", "Go", "Haskell", "Java", "JavaScript", "Kotlin", "Lua", "Objective-C", "Perl", "PHP", "Python", "Ruby", "Rust", "Scala", "Swift", "TypeScript"]
+filtered_languages = ["C", "C#", "C++", "Dart", "Go", "Java", "JavaScript", "Kotlin", "Objective-C", "PHP", "Python", "Ruby", "Rust", "Swift", "TypeScript"]
 output_filtered = final_output_dataframe[final_output_dataframe['language'].isin(filtered_languages)]
+
 output_filtered.to_csv(f'{output_path}/percentis_by_language_filtered.csv', index=False)
 
 ```
 
-## Script 02.c - Per Project
+## Selecting a Colossal File per Project
 
-*CODE*
+```{python}
+import pandas as pd
+import os
 
-``` {python}
-all_output_dataframes = []
+"""
+The saving is done based on the main language of the project/repository.
+Here, all large files in all projects are searched and separated into a .csv for each repository and in folders made from the main language of the repository.
 
-# Loop through each language directory and read the files
-for language_dir in os.listdir(input_path):
-    language_dir_path = os.path.join(input_path, language_dir)
-    for file in os.listdir(language_dir_path):
-        file_path = os.path.join(language_dir_path, file)
-        dataframe = pd.read_csv(file_path, sep='|')
-        
-        # Group the data by 'language' before calculating percentiles
-        grouped = dataframe.groupby('language')
-        
-        for lang, group in grouped:
-            code_percentiles = group['code'].describe(percentiles=[0.25, 0.5, 0.75, 0.90, 0.95, 0.97, 0.98, 0.99]).transpose()
-            
-            output_dataframe = pd.DataFrame({
-                'project language': language_dir,
-                'project': file.split('~')[1],
-                'owner': file.split('~')[0],
-                'code language': lang,
-                '#': len(group),
-                'percentil 25': [np.ceil(code_percentiles['25%'])],
-                'percentil 50': [np.ceil(code_percentiles['50%'])],
-                'percentil 75': [np.ceil(code_percentiles['75%'])],
-                'percentil 90': [np.ceil(code_percentiles['90%'])],
-                'percentil 95': [np.ceil(code_percentiles['95%'])],
-                'percentil 97': [np.ceil(code_percentiles['97%'])],
-                'percentil 98': [np.ceil(code_percentiles['98%'])],
-                'percentil 99': [np.ceil(code_percentiles['99%'])]
-            })
-            all_output_dataframes.append(output_dataframe)
+Example of output
+Project MPV-PLAYER - Main language: C
+Save location
+output/C (because it is a C repository)/put here
+What was saved:
+path|owner|project|language|code
+./src/_00/output/C/mpv-player~mpv/player/command.c|mpv-player|mpv|C|6351 -- A C file
+./src/_00/output/C/mpv-player~mpv/player/lua/osc.lua|mpv-player|mpv|Lua|2250 -- A Lua file
+"""
 
-final_output_dataframe = pd.concat(all_output_dataframes, ignore_index=True)
-final_output_dataframe.to_csv(f'{output_path}/percentis_by_project.csv', index=False)
+# df['code'] é o nloc
+
+input_path: str = './src/_01/output/'
+output_path: str = './src/_03/output/'
+
+csv_reference_large_files: str = './src/_02/output/percentis_by_language_filtered.csv'
+
+# list with repositories that will analyzed
+repositories_list_path: str = './src/_00/input/450_Starred_Projects.csv'
+
+# loading list of repositories
+repositories: pd.DataFrame = pd.read_csv(repositories_list_path, engine='python')
+
+
+for i in range(len(repositories)):
+    # getting repository information
+    main_language:str = repositories['main language'].loc[i]
+    owner:str = repositories['owner'].loc[i]
+    project:str = repositories['project'].loc[i]
+
+    # generating the path to the repository's files list
+    repository_path: str = f'{output_path}{main_language}/{owner}~{project}.csv'
+    cloc_path: str = f'{input_path}{main_language}/{owner}~{project}.csv'
+
+    df_repository = pd.read_csv(cloc_path, sep='|')
+    df_meta = pd.read_csv(csv_reference_large_files)
+
+    merged_df = pd.merge(df_repository, df_meta[['language', 'percentil 99']], on='language')
+
+    filtered_df = merged_df[merged_df['code'] >= merged_df['percentil 99']]
+
+    final_df = filtered_df[['path', 'owner', 'project', 'language', 'code']]
+
+    # output
+    os.makedirs(f'{output_path}{main_language}/', exist_ok=True)
+    final_df.to_csv(repository_path, sep='|', index=False)
+
+```
+
+## Mining commits from Colossal Files
+
+```{python}
+import pydriller as dr
+import pandas as pd
+import os
+import sys
+from datetime import datetime
+from concurrent.futures import ThreadPoolExecutor
+
+# setting paths -------------------------------------------------------------------------------------------------------
+
+input_path: str = './src/_04/input/'
+output_path: str = './src/_04/output/'
+
+# Threads/CPU cores ---------------------------------------------------------------------------------------------------
+num_cores = os.cpu_count()
+print(os.cpu_count())
+
+# Recursion Limit -----------------------------------------------------------------------------------------------------
+
+sys.setrecursionlimit(10000)
+
+# list with repositories that will analyzed
+repositories_list_path: str = './src/_00/input/linux.csv'
+
+# base dirs
+repositories_base_dir: str = './src/_00/output/'
+files_base_path: str = './src/_03/output/'
+
+# Date
+date = datetime(2024, 12, 24, 17, 0, 0)
+
+# preparing environment -----------------------------------------------------------------------------------------------
+
+# loading list of repositories
+repositories: pd.DataFrame = pd.read_csv(repositories_list_path, engine='python')
+
+# function to process each repository
+def process_repository(i):
+    # Start timer
+    start = datetime.now()
+
+    # Getting repository information
+    main_language: str = repositories['main language'].loc[i]
+    owner: str = repositories['owner'].loc[i]
+    project: str = repositories['project'].loc[i]
+    branch: str = repositories['branch'].loc[i]
+
+    # Generating repository path
+    repository_path: str = f'{repositories_base_dir}{main_language}/{owner}~{project}'
+    print(f'{repository_path} -> {branch}')
+
+    # if os.path.exists(f'{output_path}{main_language}/{owner}~{project}'):
+    #     return
+
+    # Generating the path to the repository's files list
+    files_list_path: str = f'{files_base_path}{main_language}/{owner}~{project}.csv'
+
+    # Loading files list
+    files_list: pd.DataFrame = pd.read_csv(files_list_path, sep='|', engine='python')
+    print(f'* {files_list_path} - {len(files_list)} files')
+    # print(f' --> {files_list}')
+
+    for j in range(len(files_list)):
+        # For each file, generate a path
+        file_path: str = files_list['path'].loc[j]
+        file_name: str = file_path.split('/')[-1]
+        file_path = '/'.join(file_path.split('/')[6:])
+        print(f' Mininig... {main_language}/{owner}~{project} - {file_path}')
+
+        # PyDriller  -----------------------------------------------------------------------------------------------
+
+        dir_path = f'{output_path}{main_language}/{owner}~{project}'
+        os.makedirs(dir_path, exist_ok=True)
+
+        repository = dr.Repository(repository_path, only_in_branch=branch, filepath=file_path)
+
+        for commit in repository.traverse_commits():
+            try:
+                # Setting commit path
+                commit_dir = f'{dir_path}/{commit.hash}'
+                if os.path.exists(commit_dir):
+                    print(f'\033[1;33m    & Already Mined! {main_language}/{owner}~{project}/{file_name} - {commit.hash}\033[m')
+                    continue
+                os.makedirs(commit_dir, exist_ok=True)
+
+                # Analyzing and saving commit information
+                df_commit: pd.DataFrame = pd.DataFrame({
+                    'Hash': [commit.hash],
+                    'Project Name': [commit.project_name],
+                    'Local Commit PATH': [commit.project_path],
+                    'Merge Commit': [commit.merge],
+                    'Message': [commit.msg],
+                    'Number of Files': [len(commit.modified_files)],
+                    'Author Name': [commit.author.name],
+                    'Author Email': [commit.author.email],
+                    'Author Commit Date': [commit.author_date],
+                    'Author Commit Timezone': [commit.author_timezone],
+                    'Committer Name': [commit.committer.name],
+                    'Committer Email': [commit.committer.email],
+                    'Committer Commit Date': [commit.committer_date],
+                    'Committer Timezone': [commit.committer_timezone],
+                })
+                df_commit.to_csv(f'{commit_dir}/commit.csv', sep='|', index=False)
+
+                # Setting file path
+                files_dir = f'{commit_dir}/files/'
+                os.makedirs(files_dir, exist_ok=True)
+
+                for file in commit.modified_files:
+                    # Analyzing and saving each commit's file information
+                    df_file: pd.DataFrame = pd.DataFrame({
+                        'File Name': [file.filename],
+                        'Change Type': [str(file.change_type).split('.')[-1]],
+                        'Local File PATH Old': [file.old_path if file.old_path else 'new file'],
+                        'Local File PATH New': [file.new_path],
+                        'Complexity': [file.complexity if file.complexity else 'not calculated'],
+                        'Methods': [len(file.methods)],
+                        'Tokens': [file.token_count if file.token_count else 'not calculated'],
+                        'Lines Of Code (nloc)': [file.nloc if file.nloc else 'not calculated'],
+                        'Lines Added': [file.added_lines],
+                        'Lines Deleted': [file.deleted_lines],
+                    })
+                    df_file.to_csv(f'{files_dir}{file.filename}.csv', sep='|', index=False)
+
+            except Exception as e:
+                print(f'\033[33mError: {e}\033[m')
+
+                # Error dir
+                error_dir: str = f'{output_path}errors/'
+                os.makedirs(error_dir, exist_ok=True)
+
+                # Adding error to the DataFrame
+                df_commit['Error'] = str(e)
+
+                # Saving errors
+                df_commit.to_csv(f'{error_dir}errors_{commit.project_name}.csv', mode='a', sep='|', index=False)
+
+        print(f'\033[32m    > Mined! {main_language}/{owner}~{project} - {file_path}\033[m')
+
+    # End timer and save it to csv
+    end = datetime.now()
+    total_time = pd.DataFrame({
+        'Start': [start],
+        'End': [end],
+        'TOTAL': [end - start],
+    })
+    total_time.to_csv(f'{output_path}{main_language}/{owner}~{project}/total_time.csv', index=False)
+    print(f'\033[42m{main_language}/{owner}~{project} - {end - start}\033[m')
+
+if __name__ == '__main__':
+    # with ThreadPoolExecutor(max_workers=num_cores) as executor: #Auto-fit
+    with ThreadPoolExecutor(max_workers=num_cores) as executor: #Auto-fit
+        executor.map(process_repository, range(len(repositories)))
+
+```
+
+## Summarize CLoC output
+
+```{python}
+import pandas as pd
+from os import makedirs
+
+SEPARATOR = '|'
+
+# FUNCTION =============================================================================================================
+
+def missing(val:int|float)-> float:
+    return -1*val if val < 0 else 0.0
+
+# SETUP ================================================================================================================
+
+input_path:str = "./src/_05/input/"
+output_path = "./src/_05/output/"
+makedirs(output_path, exist_ok=True)
+makedirs(f"{output_path}files/", exist_ok=True)
+
+repositories_path:str = "./src/_00/input/450_Starred_Projects.csv"
+cloc_path:str = "./src/_01/output/"
+large_files_path:str = "./src/_03/output/"
+
+repositories:pd.DataFrame = pd.read_csv(repositories_path)
+# print(repositories)
+
+cloc_summary_df:pd.DataFrame = pd.DataFrame
+large_files_summary_df:pd.DataFrame = pd.DataFrame
+
+# ======================================================================================================================
+
+def main()->None:
+    for i in range(len(repositories)):
+        # getting repository information
+        repository, language = repositories.loc[i, ['url', 'main language']]
+
+        repo_path = f"{language}/{repository.split('/')[-2]}~{repository.split('/')[-1]}"
+        print(repo_path)
+
+        # getting a file total per language
+        repository_files_df:pd.DataFrame = pd.read_csv(f"{cloc_path}/{repo_path}.csv", sep=SEPARATOR)
+
+        # getting a large file total per language
+        large_files_df:pd.DataFrame = pd.read_csv(f"{large_files_path}/{repo_path}.csv", sep=SEPARATOR)
+
+        if i == 0:
+            cloc_summary_df = pd.concat([repository_files_df])
+            large_files_summary_df = pd.concat([large_files_df])
+
+        cloc_summary_df = pd.concat([cloc_summary_df, repository_files_df])
+        large_files_summary_df = pd.concat([large_files_summary_df, large_files_df])
+
+    cloc_summary_df.to_csv(f"{output_path}files/all_files.csv")
+    cloc_summary_df.groupby('language').size().to_csv(f"{output_path}#all_files.csv")
+
+    large_files_summary_df.to_csv(f"{output_path}files/large_files.csv")
+    large_files_summary_df.groupby('language').size().to_csv(f"{output_path}#large_files.csv")
+
+    # Filter cloc_summary_df to include only languages present in large_files_summary_df
+    filtered_languages = large_files_summary_df['language'].unique()
+    filtered_cloc_summary_df = cloc_summary_df[cloc_summary_df['language'].isin(filtered_languages)]
+
+    # Save the filtered summary to a new CSV file
+    filtered_cloc_summary_df.to_csv(f"{output_path}files/all_filtered.csv")
+    filtered_cloc_summary_df.groupby('language').size().to_csv(f"{output_path}#all_filtered.csv")
+
+    # Total + Large files
+    summary_df = pd.concat([filtered_cloc_summary_df.groupby('language').size().rename('#total'), large_files_summary_df.groupby('language').size().rename('#large files')], axis=1)
+    summary_df["#small files"] = summary_df["#total"] - summary_df['#large files']
+    summary_df.to_csv(f"{output_path}#total.csv")
+
+if (__name__ == "__main__"):
+    main()
+    print("DONE!\n")
+
+```
+
+## Anal. each Project to get a number of Small FIles per Project
+
+```{python}
+'''
+1º - Calcular quantos arquivos de cada linguagem existem no projeto
+2º - Contar quantos large files de cada linguagem existe no projeto
+3º - Calcular a proporção
+4º - Aplicar a proporção para os small files
+5º - Mostrar quantos arquivos pequenos tem disponível no projeto
+'''
+
+import pandas as pd
+from math import ceil
+from os import makedirs
+
+SEPARATOR = '|'
+
+# FUNCTION =============================================================================================================
+
+def missing(val:int|float)-> float:
+    return -1*val if val < 0 else 0.0
+
+# SETUP ================================================================================================================
+
+input_path:str = "./src/_06/input/"
+output_path = "./src/_06/output/"
+
+repositories_path:str = "./src/_00/input/450_Starred_Projects.csv"
+cloc_path:str = "./src/_01/output/"
+large_files_path:str = "./src/_03/output/"
+sample_path:str = f"{input_path}files_sample.csv"
+
+repositories:pd.DataFrame = pd.read_csv(repositories_path)
+# print(repositories)
+
+# getting small files per language
+sample_df:pd.DataFrame = pd.read_csv(sample_path)
+small_sample_df:pd.Series = sample_df.set_index('language')['1%']
+large_total_df:pd.Series = sample_df.set_index('language')['#large files']
+
+missing_df:pd.Series = pd.Series()
+
+# ======================================================================================================================
+
+def main()->None:
+    for i in range(len(repositories)):
+        # getting repository information
+        repository, language = repositories.loc[i, ['url', 'main language']]
+
+        makedirs(f"{output_path}{language}", exist_ok=True)
+        repo_path = f"{language}/{repository.split('/')[-2]}~{repository.split('/')[-1]}"
+        print(repo_path)
+
+        # getting a file total per language
+        repository_files_df:pd.DataFrame = pd.read_csv(f"{cloc_path}/{repo_path}.csv", sep=SEPARATOR)
+        repository_files_df:pd.Series = repository_files_df.groupby('language').size()
+
+        # getting a large file total per language
+        large_files_df:pd.DataFrame = pd.read_csv(f"{large_files_path}/{repo_path}.csv", sep=SEPARATOR)
+        large_files_df:pd.Series = large_files_df.groupby('language').size()
+
+        # data manipulation
+        merged_df = pd.concat([repository_files_df, large_files_df, large_total_df, small_sample_df], axis=1).dropna() # grouping series by languages
+        merged_df = merged_df.rename(columns={0: 'total'}).rename(columns={1: 'large files p/ project'}).rename(columns={'#large files': 'large files total'}).rename(columns={'1%': 'small files total'}) # renaming columns
+        merged_df['small proportion'] = merged_df['large files p/ project'] / merged_df['large files total'] # large file / total
+        merged_df['small files p/ project'] = merged_df['small files total'] * merged_df['small proportion'] # (large file / total) * small total
+        merged_df['small files p/ project'] = merged_df['small files p/ project'].apply(ceil) # round up
+        merged_df['files available'] = merged_df['total'] - merged_df['large files p/ project'] # total - large files
+        merged_df['files missing'] = merged_df['files available'] - merged_df['small files p/ project'] # available - small
+        merged_df['files missing'] = merged_df['files missing'].apply(missing) # missing
+
+        merged_df.to_csv(f"{output_path}{repo_path}.csv")
+
+        if i == 0:
+            missing_df = pd.concat([merged_df])
+
+        missing_df = pd.concat([missing_df, merged_df])
+
+    missing_df = missing_df.drop(['total', 'large files total', 'small files total', 'small proportion', 'files available'], axis=1)
+    missing_df = missing_df.groupby(['language']).agg('sum').rename(columns={'large files p/ project': 'large files'}).rename(columns={'small files p/ project': 'small files'})
+    missing_df.to_csv(f"{output_path}missing.csv")
+
+if (__name__ == "__main__"):
+    main()
+
+```
+
+## Selecting Small Files per Project randomly
+
+```{python}
+import os
+import pandas as pd
+
+# FUNCTION =============================================================================================================
+
+def read_csv_files(directory:str, delimiter:str='|', add_columns:bool=False)->list:
+    """
+    Reads CSV files from a given directory and its subdirectories.
+
+    Args:
+        directory (str): The directory to read CSV files from.
+        delimiter (str): The delimiter used in the CSV files. Default is '|'.
+        add_columns (bool): Whether to add 'owner' and 'project' columns based on the filename. Default is False.
+
+    Returns:
+        list: A list of pandas DataFrames containing the data from the CSV files.
+    """
+    data_frames = []
+    for language in os.listdir(directory):
+        language_dir = os.path.join(directory, language)
+        if os.path.isdir(language_dir):
+            for filename in os.listdir(language_dir):
+                if filename.endswith(".csv"):
+                    file_path = os.path.join(language_dir, filename)
+                    df = pd.read_csv(file_path, engine='python', delimiter=delimiter)
+                    if add_columns:
+                        owner, project = filename.split('~')[0], filename.split('~')[1].replace('.csv', '')
+                        df['owner'] = owner
+                        df['project'] = project
+                    data_frames.append(df)
+    return data_frames
+
+def filter_data(combined_data_01:pd.DataFrame, data_02:pd.DataFrame)->pd.DataFrame:
+    """
+    Filters the combined data based on the 'percentil 99' and 'code' columns.
+
+    Args:
+        combined_data_01 (DataFrame): The first combined data DataFrame.
+        data_02 (DataFrame): The second data DataFrame containing percentiles.
+
+    Returns:
+        DataFrame: The filtered DataFrame.
+    """
+    filtered_data = combined_data_01.merge(data_02, on='language')
+    filtered_data = filtered_data[filtered_data['percentil 99'] > filtered_data['code']]
+
+    return filtered_data.drop(columns=[
+        'percentil 99', '#', 'percentil 25', 'percentil 50',
+        'percentil 75', 'percentil 90', 'percentil 95',
+        'percentil 97', 'percentil 98', 'comment', 'blank'
+    ])
+
+def sort_rows(filtered_data:pd.DataFrame, combined_data_06:pd.DataFrame)->pd.DataFrame:
+    """
+    Sorts rows based on the 'language', 'owner', and 'project' columns.
+
+    Args:
+        filtered_data (DataFrame): The filtered data DataFrame.
+        combined_data_06 (DataFrame): The combined data DataFrame from the sixth output.
+
+    Returns:
+        DataFrame: The sorted DataFrame.
+    """
+    sorted_rows = []
+    for _, row in combined_data_06.iterrows():
+        language = row['language']
+        owner = row['owner']
+        project = row['project']
+        small_files = int(row['small files p/ project'])
+        files_missing = int(row['files missing'])
+        avaliable_files = int(row['files available'])
+
+        matching_rows = filtered_data[
+            (filtered_data['language'] == language) &
+            (filtered_data['owner'] == owner) &
+            (filtered_data['project'] == project)
+        ]
+
+        if files_missing != 0:
+            sorted_rows.append(matching_rows.sample(n=avaliable_files))
+        else:
+            sorted_rows.append(matching_rows.sample(n=small_files))
+
+    return pd.concat(sorted_rows, ignore_index=True)
+
+def save_dataframe(df:pd.DataFrame, output_dir:str)->None:
+    """
+    Saves the DataFrame to CSV files in the specified output directory.
+
+    Args:
+        df (DataFrame): The DataFrame to save.
+        output_dir (str): The directory to save the CSV files in.
+    """
+    starred_projects_path = './src/_00/input/450_Starred_Projects.csv'
+    starred_projects = pd.read_csv(starred_projects_path)
+
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+
+    for (owner, project), group in df.groupby(['owner', 'project']):
+        language = starred_projects[
+            (starred_projects['owner'] == owner) &
+            (starred_projects['project'] == project)
+        ]['main language'].values[0]
+
+        language_dir = os.path.join(output_dir, language)
+        if not os.path.exists(language_dir):
+            os.makedirs(language_dir)
+
+        filename = f"{owner}~{project}.csv"
+        file_path = os.path.join(language_dir, filename)
+        group.to_csv(file_path, index=False, sep='|')
+
+# MAIN =================================================================================================================
+
+def main()->None:
+    output_01_dir = './src/_01/output/'
+    output_02 = './src/_02/output/percentis_by_language_filtered.csv'
+    output_06_dir = './src/_06/output/'
+
+    data_01 = read_csv_files(output_01_dir)
+    data_02 = pd.read_csv(output_02)
+    data_06 = read_csv_files(output_06_dir, delimiter=',', add_columns=True)
+
+    combined_data_01 = pd.concat(data_01, ignore_index=True)
+    combined_data_06 = pd.concat(data_06, ignore_index=True)
+
+    percentis_data = pd.read_csv(output_02, delimiter=',')
+
+    filtered_data_01 = filter_data(combined_data_01, percentis_data)
+    sorted_filtered_data_01 = sort_rows(filtered_data_01, combined_data_06)
+
+    print(sorted_filtered_data_01)
+
+    output_dir = './src/_07/output/'
+    save_dataframe(sorted_filtered_data_01, output_dir)
+
+if __name__ == "__main__":
+    main()
+
+```
+
+## Mining commits from Small Files
+
+```{python}
+import pydriller as dr
+import pandas as pd
+import os
+import sys
+from datetime import datetime
+from concurrent.futures import ThreadPoolExecutor
+
+# setting paths -------------------------------------------------------------------------------------------------------
+
+input_path: str = './src/_08/input/'
+output_path: str = './src/_08/output/'
+
+# Threads/CPU cores ---------------------------------------------------------------------------------------------------
+num_cores = os.cpu_count()
+print(os.cpu_count())
+
+# Recursion Limit -----------------------------------------------------------------------------------------------------
+
+sys.setrecursionlimit(10000)
+
+# list with repositories that will analyzed
+repositories_list_path: str = './src/_00/input/typescript.csv'
+
+# base dirs
+repositories_base_dir: str = './src/_00/output/'
+files_base_path: str = './src/_07/output/'
+
+# Date
+date = datetime(2024, 12, 24, 17, 0, 0)
+
+# preparing environment -----------------------------------------------------------------------------------------------
+
+# loading list of repositories
+repositories: pd.DataFrame = pd.read_csv(repositories_list_path, engine='python')
+
+# function to process each repository
+def process_repository(i):
+    # Start timer
+    start = datetime.now()
+
+    # Getting repository information
+    main_language: str = repositories['main language'].loc[i]
+    owner: str = repositories['owner'].loc[i]
+    project: str = repositories['project'].loc[i]
+    branch: str = repositories['branch'].loc[i]
+
+    # Generating repository path
+    repository_path: str = f'{repositories_base_dir}{main_language}/{owner}~{project}'
+    print(f'{repository_path} -> {branch}')
+
+    # if os.path.exists(f'{output_path}{main_language}/{owner}~{project}'):
+    #     return
+
+    # Generating the path to the repository's files list
+    files_list_path: str = f'{files_base_path}{main_language}/{owner}~{project}.csv'
+
+    # Loading files list
+    files_list: pd.DataFrame = pd.read_csv(files_list_path, sep='|', engine='python')
+    print(f'* {files_list_path} - {len(files_list)} files')
+    # print(f' --> {files_list}')
+
+    for j in range(len(files_list)):
+        # For each file, generate a path
+        file_path: str = files_list['path'].loc[j]
+        file_name: str = file_path.split('/')[-1]
+        file_path = '/'.join(file_path.split('/')[6:])
+        print(f' Mininig... {main_language}/{owner}~{project} - {file_path}')
+
+        # PyDriller  -----------------------------------------------------------------------------------------------
+
+        dir_path = f'{output_path}{main_language}/{owner}~{project}'
+        os.makedirs(dir_path, exist_ok=True)
+
+        repository = dr.Repository(repository_path, only_in_branch=branch, filepath=file_path)
+
+        for commit in repository.traverse_commits():
+            try:
+                # Setting commit path
+                commit_dir = f'{dir_path}/{commit.hash}'
+                if os.path.exists(commit_dir):
+                    print(f'\033[1;33m    & Already Mined! {main_language}/{owner}~{project}/{file_name} - {commit.hash}\033[m')
+                    continue
+                os.makedirs(commit_dir, exist_ok=True)
+
+                # Analyzing and saving commit information
+                df_commit: pd.DataFrame = pd.DataFrame({
+                    'Hash': [commit.hash],
+                    'Project Name': [commit.project_name],
+                    'Local Commit PATH': [commit.project_path],
+                    'Merge Commit': [commit.merge],
+                    'Message': [commit.msg],
+                    'Number of Files': [len(commit.modified_files)],
+                    'Author Name': [commit.author.name],
+                    'Author Email': [commit.author.email],
+                    'Author Commit Date': [commit.author_date],
+                    'Author Commit Timezone': [commit.author_timezone],
+                    'Committer Name': [commit.committer.name],
+                    'Committer Email': [commit.committer.email],
+                    'Committer Commit Date': [commit.committer_date],
+                    'Committer Timezone': [commit.committer_timezone],
+                })
+                df_commit.to_csv(f'{commit_dir}/commit.csv', sep='|', index=False)
+
+                # Setting file path
+                files_dir = f'{commit_dir}/files/'
+                os.makedirs(files_dir, exist_ok=True)
+
+                for file in commit.modified_files:
+                    # Analyzing and saving each commit's file information
+                    df_file: pd.DataFrame = pd.DataFrame({
+                        'File Name': [file.filename],
+                        'Change Type': [str(file.change_type).split('.')[-1]],
+                        'Local File PATH Old': [file.old_path if file.old_path else 'new file'],
+                        'Local File PATH New': [file.new_path],
+                        'Complexity': [file.complexity if file.complexity else 'not calculated'],
+                        'Methods': [len(file.methods)],
+                        'Tokens': [file.token_count if file.token_count else 'not calculated'],
+                        'Lines Of Code (nloc)': [file.nloc if file.nloc else 'not calculated'],
+                        'Lines Added': [file.added_lines],
+                        'Lines Deleted': [file.deleted_lines],
+                    })
+                    df_file.to_csv(f'{files_dir}{file.filename}.csv', sep='|', index=False)
+
+            except Exception as e:
+                print(f'\033[33mError: {e}\033[m')
+
+                # Error dir
+                error_dir: str = f'{output_path}errors/'
+                os.makedirs(error_dir, exist_ok=True)
+
+                # Adding error to the DataFrame
+                df_commit['Error'] = str(e)
+
+                # Saving errors
+                df_commit.to_csv(f'{error_dir}errors_{commit.project_name}.csv', mode='a', sep='|', index=False)
+
+        print(f'\033[32m    > Mined! {main_language}/{owner}~{project} - {file_path}\033[m')
+
+    # End timer and save it to csv
+    end = datetime.now()
+    total_time = pd.DataFrame({
+        'Start': [start],
+        'End': [end],
+        'TOTAL': [end - start],
+    })
+    total_time.to_csv(f'{output_path}{main_language}/{owner}~{project}/total_time.csv', index=False)
+    print(f'\033[42m{main_language}/{owner}~{project} - {end - start}\033[m')
+
+if __name__ == '__main__':
+    # with ThreadPoolExecutor(max_workers=num_cores) as executor: #Auto-fit
+    with ThreadPoolExecutor(max_workers=num_cores) as executor: #Auto-fit
+        executor.map(process_repository, range(len(repositories)))
 
 ```
