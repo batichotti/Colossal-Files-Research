@@ -1,8 +1,8 @@
 # Colossal Files Research
 
-## Cloning GitHub Projects
+## Clonando Projetos do GitHub
 
-After selecting the 30 projects with the most stars from the 15 most popular languages ​​on GitHub, according to GitHut 2.0, all the projects were cloned.
+Após selecionar os 30 projetos com mais estrelas das 15 linguagens mais populares no GitHub, de acordo com o GitHut 2.0, todos os projetos foram clonados.
 
 ```{python}
 import git
@@ -56,9 +56,9 @@ print('DONE!')
 
 ```
 
-## Counting number of lines of code (nloc) - CLoC
+## Contando o número de linhas de código (nloc) - CLoC
 
-Having cloned the Projects, the next step was to count the number of lines of code (nloc) for all files present in each Project.
+Tendo clonado os Projetos, o próximo passo foi contar o número de linhas de código (nloc) para todos os arquivos presentes em cada Projeto.
 
 ```{python}
 import git
@@ -184,9 +184,9 @@ print('DONE!')
 
 ```
 
-## Defining a Colossal File
+## Definindo um Arquivo Colossal
 
-The next step was to define what the size of a Colossal File was. For this we looked at the 1% of the largest files for each language.
+O próximo passo foi definir qual o tamanho de um Arquivo Colossal. Para isso, analisamos o 1% dos maiores arquivos para cada linguagem.
 
 ```{python}
 import pandas as pd
@@ -245,9 +245,9 @@ output_filtered.to_csv(f'{output_path}/percentis_by_language_filtered.csv', inde
 
 ```
 
-## Selecting a Colossal File per Project
+## Selecionando um Arquivo Colossal por Projeto
 
-Having the minimum size of a Colossal File defined, we separate them all into a csv of their respective Project
+Tendo o tamanho mínimo de um Arquivo Colossal definido, separamos todos eles em um csv de seus respectivos Projetos.
 
 ```{python}
 import pandas as pd
@@ -306,9 +306,9 @@ for i in range(len(repositories)):
 
 ```
 
-## Mining commits from Colossal Files
+## Minerando commits de Arquivos Colossais
 
-With that, having all the Colossal Files separated, the next step was to mine all the commits of each file.
+Com isso, tendo todos os Arquivos Colossais separados, o próximo passo foi minerar todos os commits de cada arquivo.
 
 ```{python}
 import pydriller as dr
@@ -466,9 +466,9 @@ if __name__ == '__main__':
 
 ```
 
-## Summarize CLoC output
+## Resumir a saída do CLoC
 
-For the next analyses we need commits of files that are not Colossal Files, we will call them Small Files, for this this code joins all the data extracted by CLoC into a single csv, in addition to joining all the large files.
+Para as próximas análises, precisamos dos commits de arquivos que não são Arquivos Colossais, que chamaremos de Arquivos Nanicos. Para isso, este código junta todos os dados extraídos pelo CLoC em um único csv, além de juntar todos os arquivos grandes.
 
 ```{python}
 import pandas as pd
@@ -546,9 +546,9 @@ if (__name__ == "__main__"):
 
 ```
 
-## Anal. each Project to get a number of Small FIles per Project
+## Analisar cada Projeto para obter o número de Arquivos Nanicos por Projeto
 
-With these results, we defined a sample to define the amount of Small Files to be used for comparison. This sample was calculated using the sample calculator with 99% confidence, 1% error, and 80/20 distribution. With these values, we calculated the amount of small files for each project using the following calculation. First, we analyzed the proportion that the Colossal Files of a language in a Project X represent in the total Colossal Files that language has with this proportion (X Colossal Files Java/Total Colossal Files Java). With this, we applied this proportion to the sample from the sample calculator. If a Project cannot contain the total Small Files of a language, we will only use those available so as not to compromise the sampling of other Projects.
+Com esses resultados, definimos uma amostra para definir a quantidade de Arquivos Nanicos a serem usados para comparação. Esta amostra foi calculada usando a calculadora de amostras com 99% de confiança, 1% de erro e distribuição 80/20. Com esses valores, calculamos a quantidade de Arquivos Nanicos para cada projeto usando o seguinte cálculo. Primeiro, analisamos a proporção que os Arquivos Colossais de uma linguagem em um Projeto X representam no total de Arquivos Colossais que essa linguagem possui com essa proporção (X Arquivos Colossais Java/Total Arquivos Colossais Java). Com isso, aplicamos essa proporção à amostra da calculadora de amostras. Se um Projeto não puder conter o total de Arquivos Nanicos de uma linguagem, usaremos apenas os disponíveis para não comprometer a amostragem de outros Projetos.
 
 ```{python}
 '''
@@ -556,7 +556,7 @@ With these results, we defined a sample to define the amount of Small Files to b
 2º - Contar quantos large files de cada linguagem existe no projeto
 3º - Calcular a proporção
 4º - Aplicar a proporção para os small files
-5º - Mostrar quantos arquivos pequenos tem disponível no projeto
+5º - Mostrar quantos Arquivos Nanicos tem disponível no projeto
 '''
 
 import pandas as pd
@@ -635,9 +635,9 @@ if (__name__ == "__main__"):
 
 ```
 
-## Selecting Small Files per Project randomly
+## Selecionando Arquivos Nanicos por Projeto aleatoriamente
 
-Having the number of Small Files of each language per Project, we now randomly draw this number of files
+Tendo o número de Arquivos Nanicos de cada linguagem por Projeto, agora sorteamos aleatoriamente esse número de arquivos.
 
 ```{python}
 import os
@@ -782,9 +782,9 @@ if __name__ == "__main__":
 
 ```
 
-## Mining commits from Small Files
+## Minerando commits de Arquivos Nanicos
 
-Finally, having selected the Small Files, we now extract their commits.
+Finalmente, tendo selecionado os Arquivos Nanicos, agora extraímos seus commits.
 
 ```{python}
 import pydriller as dr
