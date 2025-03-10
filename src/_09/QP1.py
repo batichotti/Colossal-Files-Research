@@ -172,9 +172,11 @@ texts = []
 top_projects = project_large_files_df.nlargest(15, '# Total de Arquivos Grandes')
 
 # Novo sistema de offsets dinâmicos baseado na posição
+
 def calculate_offset(x_val, y_val, max_x, max_y):
-    offset_x = 0.3 if x_val < max_x/2 else -0.3
-    offset_y = 0.3 if y_val < max_y/2 else -0.3
+    offset_x = 0.4 if x_val < max_x/2 else -0.4
+    # Offset vertical drasticamente aumentado
+    offset_y = 0.8 if y_val < max_y/2 else 0.3  # Todos os textos para cima
     return offset_x, offset_y
 
 max_x = project_count_df['# Total de Arquivos Grandes'].max()
@@ -187,31 +189,30 @@ for idx, row in top_projects.iterrows():
         'Quantidade de Projetos'
     ].values[0]
     
-    # Offset dinâmico baseado na posição no gráfico
     offset_x, offset_y = calculate_offset(x_val, y_val, max_x, max_y)
     
-    # Adiciona variação baseada no índice para evitar padrão fixo
-    offset_x += 0.1 * (idx % 3 - 1)  # Varia entre -0.1, 0, +0.1
-    offset_y += 0.1 * (idx % 2 - 0.5)  # Varia entre -0.05, +0.05
+    # Variação vertical apenas positiva
+    offset_x += 0.1 * (idx % 3 - 1)
+    offset_y += 0.15 * (idx % 2)  # Sempre adiciona ao offset_y
     
     texts.append(plt.text(
         x_val + offset_x,
         y_val + offset_y,
         row['Projeto'],
-        fontsize=8,  # Reduzindo ligeiramente o tamanho da fonte
+        fontsize=8,
         ha='center',
-        va='center',
-        rotation=45,  # Rotação para melhor encaixe
+        va='bottom',  # Alinhamento na base do texto
+        rotation=30,  # Rotação reduzida para ganhar espaço vertical
         bbox=dict(
             facecolor='white', 
             alpha=0.95,
             edgecolor='silver',
-            boxstyle='round,pad=0.2'
+            boxstyle='round,pad=0.15'
         ),
-        zorder=4  # Garante que textos fiquem acima dos pontos
+        zorder=4
     ))
 
-# Ajuste otimizado com parâmetros revisados
+# Configuração final com força vertical extrema
 adjust_text(
     texts,
     arrowprops=dict(
@@ -219,20 +220,22 @@ adjust_text(
         color='gray',
         lw=0.6,
         alpha=0.7,
-        connectionstyle="arc3,rad=0.2"
+        connectionstyle="arc3,rad=0.1"
     ),
-    expand_text=(2.0, 2.5),  # Aumenta expansão
+    expand_text=(2.5, 3.5),  # Máximo de expansão vertical
     expand_points=(1.5, 2.0),
-    force_text=(1.2, 1.5),    # Força aumentada
+    force_text=(1.5, 2.0),    # Força vertical extrema
     force_points=(0.8, 1.2),
-    autoalign='xy',  # Alinhamento automático
-    only_move={'points':'xy', 'text':'xy'},  # Movimento mais restrito
+    autoalign='y',
+    only_move={'points':'y', 'text':'y'},  # Foco total no eixo Y
     ax=ax,
     precision=0.001,
-    lim=3000,  # Aumento de iterações
-    va='center',
-    ha='center'
+    lim=4000,  # Máximo de iterações
+    force_static=(0.1, 0.5)  # Força estática mínima na vertical
 )
+
+# Ajustar limites do eixo Y para dar espaço
+# plt.ylim(0, max_y * 1.3)
 
 # Configurações finais
 plt.title('Distribuição de Projetos por Arquivos Grandes', pad=25, fontsize=14)
