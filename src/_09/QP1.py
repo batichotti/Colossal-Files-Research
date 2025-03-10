@@ -1,5 +1,6 @@
 import pandas as pd
 from os import makedirs
+import matplotlib.pyplot as plt
 
 SEPARATOR = '|'
 
@@ -98,6 +99,9 @@ for i in range(len(repositories)):
             'percentage': percentage
         }
 
+
+# Tabela ===========================================================================================================
+
 # Save the project with the most large files for each language
 summary_df = pd.DataFrame(columns=[
     'Linguagem',
@@ -119,3 +123,47 @@ for language, stats in language_stats.items():
     ]
 
 summary_df.to_csv(f"{output_path}summary.csv", sep=SEPARATOR, index=False)
+
+# Grafico ===========================================================================================================
+
+# Create a DataFrame to store the total large files count for each project
+project_large_files_df = pd.DataFrame(columns=['Projeto', '# Total de Arquivos Grandes'])
+
+for i in range(len(repositories)):
+    repository = repositories.loc[i, 'url']
+    language = repositories.loc[i, 'main language']
+    repo_path = f"{language}/{repository.split('/')[-2]}~{repository.split('/')[-1]}"
+    
+    large_files_df = pd.read_csv(f"{large_files_path}/{repo_path}.csv", sep=SEPARATOR)
+    total_large_files = large_files_df.shape[0]
+    
+    project_large_files_df.loc[len(project_large_files_df)] = [repository.split('/')[-1], total_large_files]
+
+# Count the number of projects for each total large files count
+project_count_df = project_large_files_df['# Total de Arquivos Grandes'].value_counts().reset_index()
+project_count_df.columns = ['# Total de Arquivos Grandes', 'Quantidade de Projetos']
+
+# Create a scatter plot
+plt.figure(figsize=(10, 6))
+plt.scatter(project_count_df['# Total de Arquivos Grandes'], project_count_df['Quantidade de Projetos'], label='Projetos')
+
+# Add a line to follow the points
+plt.plot(project_count_df['# Total de Arquivos Grandes'], project_count_df['Quantidade de Projetos'], linestyle='-', color='orange', label='Linha de Tendência')
+
+# Add labels for the largest points on the x-axis
+top_projects = project_large_files_df.nlargest(15, '# Total de Arquivos Grandes')
+for i, row in top_projects.iterrows():
+    plt.annotate(row['Projeto'], (row['# Total de Arquivos Grandes'], project_count_df.loc[project_count_df['# Total de Arquivos Grandes'] == row['# Total de Arquivos Grandes'], 'Quantidade de Projetos'].values[0]),
+                textcoords="offset points", xytext=(0,10), ha='center')
+
+# Set the title and labels
+plt.title('Quantidade de Projetos vs. Total de Arquivos Grandes')
+plt.xlabel('Total de Arquivos Grandes')
+plt.ylabel('Quantidade de Projetos')
+
+# Show the legend
+plt.legend()
+
+# Show the plot
+plt.grid(True)
+plt.show()
