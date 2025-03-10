@@ -144,61 +144,92 @@ for i in range(len(repositories)):
 project_count_df = project_large_files_df['# Total de Arquivos Grandes'].value_counts().reset_index()
 project_count_df.columns = ['# Total de Arquivos Grandes', 'Quantidade de Projetos']
 
-# Cria figura maior para melhor espaçamento
+# Cria figura maior
 plt.figure(figsize=(10, 6))
 ax = plt.gca()
 
+# Scatter plot
 plt.scatter(
     project_count_df['# Total de Arquivos Grandes'], 
     project_count_df['Quantidade de Projetos'], 
     label='Projetos',
-    zorder=3
+    zorder=3,
+    s=25  # Tamanho dos pontos
 )
 
+# Linha de tendência
 plt.plot(
     project_count_df['# Total de Arquivos Grandes'], 
     project_count_df['Quantidade de Projetos'], 
     linestyle='--', 
     color='orange', 
-    alpha=0.5,
+    alpha=0.7,
+    linewidth=1.05,
     label='Linha de Tendência'
 )
 
 texts = []
 top_projects = project_large_files_df.nlargest(15, '# Total de Arquivos Grandes')
 
-for _, row in top_projects.iterrows():
+# Parâmetros de espalhamento
+DIRECTIONAL_OFFSET = {
+    'right': 0.2,
+    'left': -0.2,
+    'up': 0.3,
+    'down': -0.1
+}
+
+for idx, row in top_projects.iterrows():
     x_val = row['# Total de Arquivos Grandes']
     y_val = project_count_df.loc[
         project_count_df['# Total de Arquivos Grandes'] == x_val, 
         'Quantidade de Projetos'
     ].values[0]
     
+    # Offset direcional alternado
+    offset_x = DIRECTIONAL_OFFSET['right'] if idx % 2 else DIRECTIONAL_OFFSET['left']
+    offset_y = DIRECTIONAL_OFFSET['up'] if idx % 3 else DIRECTIONAL_OFFSET['down']
+    
     texts.append(plt.text(
-        x_val, 
-        y_val,
+        x_val + offset_x,
+        y_val + offset_y,
         row['Projeto'],
-        fontsize=9,
+        fontsize=10,
         ha='center',
-        va='bottom',
-        bbox=dict(facecolor='white', alpha=0.85, edgecolor='none', pad=2.5)  # Fundo branco (Alteração 5)
+        va='center',
+        rotation=25 if idx % 2 else -25,  # Rotação alternada
+        bbox=dict(
+            facecolor='white', 
+            alpha=0.95, 
+            edgecolor='silver',
+            boxstyle='round,pad=0.3'
+        )
     ))
 
+# Ajuste otimizado para espalhamento
 adjust_text(
     texts,
-    arrowprops=dict(arrowstyle="-|>", color='gray', lw=0.5),
-    expand_text=(1.2, 1.5),
-    expand_points=(1.2, 1.5),
-    force_text=(0.5, 0.8),
-    force_points=(0.8, 0.8),
+    arrowprops=dict(
+        arrowstyle="fancy,head_length=0.4,head_width=0.4",
+        color='dimgray', 
+        lw=0.8,
+        alpha=0.7,
+        connectionstyle="arc3,rad=0.3"
+    ),
+    expand_text=(1.5, 2.0),  # Mais expansão
+    expand_points=(1.3, 1.8),
+    force_text=(0.8, 1.2),    # Força aumentada
+    force_points=(0.6, 0.9),
     ax=ax,
-    precision=0.001
+    precision=0.001,
+    lim=2000  # Mais iterações
 )
 
-plt.title('Quantidade de Projetos vs. Total de Arquivos Grandes', pad=20)
-plt.xlabel('Total de Arquivos Grandes')
-plt.ylabel('Quantidade de Projetos')
-plt.legend()
-plt.grid(True, alpha=0.4, zorder=0)
+# Configurações finais
+plt.title('Distribuição de Projetos por Arquivos Grandes', pad=25, fontsize=14)
+plt.xlabel('Total de Arquivos Grandes', fontsize=12)
+plt.ylabel('Quantidade de Projetos', fontsize=12)
+plt.legend(loc='upper right', framealpha=0.9)
+plt.grid(True, linestyle=':', alpha=0.5)
 plt.tight_layout()
 plt.show()
