@@ -197,7 +197,7 @@ for idx, row in top_projects.iterrows():
         fontsize=10,
         ha='center',
         va='center',
-        rotation=25 if idx % 2 else -25,  # Rotação alternada
+        #rotation=25 if idx % 2 else -25,  # Rotação alternada
         bbox=dict(
             facecolor='white', 
             alpha=0.95, 
