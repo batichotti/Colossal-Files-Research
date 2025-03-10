@@ -1,6 +1,7 @@
 import pandas as pd
 from os import makedirs
 import matplotlib.pyplot as plt
+from adjustText import adjust_text
 
 SEPARATOR = '|'
 
@@ -150,11 +151,17 @@ plt.scatter(project_count_df['# Total de Arquivos Grandes'], project_count_df['Q
 # Add a line to follow the points
 plt.plot(project_count_df['# Total de Arquivos Grandes'], project_count_df['Quantidade de Projetos'], linestyle='-', color='orange', label='Linha de Tendência')
 
-# Add labels for the largest points on the x-axis
+# Adiciona labels para os 15 projetos com mais arquivos grandes utilizando adjustText
+texts = []
 top_projects = project_large_files_df.nlargest(15, '# Total de Arquivos Grandes')
 for i, row in top_projects.iterrows():
-    plt.annotate(row['Projeto'], (row['# Total de Arquivos Grandes'], project_count_df.loc[project_count_df['# Total de Arquivos Grandes'] == row['# Total de Arquivos Grandes'], 'Quantidade de Projetos'].values[0]),
-                textcoords="offset points", xytext=(0,10), ha='center')
+    x_val = row['# Total de Arquivos Grandes']
+    y_val = project_count_df.loc[
+        project_count_df['# Total de Arquivos Grandes'] == x_val, 'Quantidade de Projetos'
+    ].values[0]
+    texts.append(plt.text(x_val, y_val+(i%10)*5, row['Projeto'], ha='center', va='bottom'))
+
+adjust_text(texts, arrowprops=dict(arrowstyle="->", color='black', lw=0.5))
 
 # Set the title and labels
 plt.title('Quantidade de Projetos vs. Total de Arquivos Grandes')
