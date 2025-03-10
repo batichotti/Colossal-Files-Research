@@ -42,15 +42,14 @@ deny_languages = [
 ]
 
 for i in range(len(repositories)):
-    columns:list[str] = [
+    save_df:pd.DataFrame = pd.DataFrame(columns=[
         'Linguagem',
         'Projeto',
         'Linguagem Majoritaria',
         '# Arquivos Grandes da Linguagem Majoritaria',
         '# Total de Arquivos Grandes',
         '%'
-    ]
-    save_df:pd.DataFrame = pd.DataFrame(columns=columns)
+    ])
 
     # getting repository information
     repository, language = repositories.loc[i, ['url', 'main language']]
@@ -100,15 +99,14 @@ for i in range(len(repositories)):
         }
 
 # Save the project with the most large files for each language
-summary_columns = [
+summary_df = pd.DataFrame(columns=[
     'Linguagem',
     'Projeto',
     'Linguagem Majoritaria',
     '# Arquivos Grandes da Linguagem Majoritaria',
     '# Total de Arquivos Grandes',
     '%'
-]
-summary_df = pd.DataFrame(columns=summary_columns)
+])
 
 for language, stats in language_stats.items():
     summary_df.loc[len(summary_df)] = [
