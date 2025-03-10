@@ -144,33 +144,61 @@ for i in range(len(repositories)):
 project_count_df = project_large_files_df['# Total de Arquivos Grandes'].value_counts().reset_index()
 project_count_df.columns = ['# Total de Arquivos Grandes', 'Quantidade de Projetos']
 
-# Create a scatter plot
+# Cria figura maior para melhor espaçamento
 plt.figure(figsize=(10, 6))
-plt.scatter(project_count_df['# Total de Arquivos Grandes'], project_count_df['Quantidade de Projetos'], label='Projetos')
+ax = plt.gca()
 
-# Add a line to follow the points
-plt.plot(project_count_df['# Total de Arquivos Grandes'], project_count_df['Quantidade de Projetos'], linestyle='-', color='orange', label='Linha de Tendência')
+plt.scatter(
+    project_count_df['# Total de Arquivos Grandes'], 
+    project_count_df['Quantidade de Projetos'], 
+    label='Projetos',
+    zorder=3
+)
 
-# Adiciona labels para os 15 projetos com mais arquivos grandes utilizando adjustText
+plt.plot(
+    project_count_df['# Total de Arquivos Grandes'], 
+    project_count_df['Quantidade de Projetos'], 
+    linestyle='--', 
+    color='orange', 
+    alpha=0.5,
+    label='Linha de Tendência'
+)
+
 texts = []
 top_projects = project_large_files_df.nlargest(15, '# Total de Arquivos Grandes')
-for i, row in top_projects.iterrows():
+
+for _, row in top_projects.iterrows():
     x_val = row['# Total de Arquivos Grandes']
     y_val = project_count_df.loc[
-        project_count_df['# Total de Arquivos Grandes'] == x_val, 'Quantidade de Projetos'
+        project_count_df['# Total de Arquivos Grandes'] == x_val, 
+        'Quantidade de Projetos'
     ].values[0]
-    texts.append(plt.text(x_val, y_val+(i%10)*5, row['Projeto'], ha='center', va='bottom'))
+    
+    texts.append(plt.text(
+        x_val, 
+        y_val,
+        row['Projeto'],
+        fontsize=9,
+        ha='center',
+        va='bottom',
+        bbox=dict(facecolor='white', alpha=0.85, edgecolor='none', pad=2.5)  # Fundo branco (Alteração 5)
+    ))
 
-adjust_text(texts, arrowprops=dict(arrowstyle="->", color='black', lw=0.5))
+adjust_text(
+    texts,
+    arrowprops=dict(arrowstyle="-|>", color='gray', lw=0.5),
+    expand_text=(1.2, 1.5),
+    expand_points=(1.2, 1.5),
+    force_text=(0.5, 0.8),
+    force_points=(0.8, 0.8),
+    ax=ax,
+    precision=0.001
+)
 
-# Set the title and labels
-plt.title('Quantidade de Projetos vs. Total de Arquivos Grandes')
+plt.title('Quantidade de Projetos vs. Total de Arquivos Grandes', pad=20)
 plt.xlabel('Total de Arquivos Grandes')
 plt.ylabel('Quantidade de Projetos')
-
-# Show the legend
 plt.legend()
-
-# Show the plot
-plt.grid(True)
+plt.grid(True, alpha=0.4, zorder=0)
+plt.tight_layout()
 plt.show()
