@@ -16,6 +16,31 @@ repositories:pd.DataFrame = pd.read_csv(repositories_path)
 # script
 language_stats = {}
 
+# buisness logic
+deny_languages = [
+    'Markdown',
+    'INI',
+    'diff',
+    'CUDA',
+    'XML',
+    'SVG',
+    'SQL',
+    'HTML',
+    'CSS',
+    'Text',
+    'YAML',
+    'JSON',
+    'Svelte',
+    'Gradle',
+    'TOML',
+    'Scheme',
+    'Bourne Shell', # Objective-C/MustangYM~WeChatExtension-ForMac
+    'Fish Shell',
+    'GLSL',
+    'QML',
+    'Handlebars'
+]
+
 for i in range(len(repositories)):
     columns:list[str] = [
         'Linguagem',
@@ -36,8 +61,10 @@ for i in range(len(repositories)):
     # getting a file total per language
     repository_files_df:pd.DataFrame = pd.read_csv(f"{cloc_path}/{repo_path}.csv", sep=SEPARATOR)
     repository_files_df:pd.Series = repository_files_df.groupby('language').size()
+    # filtering out languages in the deny list
+    repository_files_df = repository_files_df[~repository_files_df.index.isin(deny_languages)]
     # pegando o elemento com maior número de um pd.Series
-    major_language = repository_files_df.idxmax()
+    major_language = repository_files_df.idxmax() if not repository_files_df.empty else 'Unknown'
 
     # getting a large file total per language
     large_files_df:pd.DataFrame = pd.read_csv(f"{large_files_path}/{repo_path}.csv", sep=SEPARATOR)
