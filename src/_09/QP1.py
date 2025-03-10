@@ -171,13 +171,14 @@ plt.plot(
 texts = []
 top_projects = project_large_files_df.nlargest(15, '# Total de Arquivos Grandes')
 
-# Parâmetros de espalhamento
-DIRECTIONAL_OFFSET = {
-    'right': 0.2,
-    'left': -0.2,
-    'up': 0.3,
-    'down': -0.1
-}
+# Novo sistema de offsets dinâmicos baseado na posição
+def calculate_offset(x_val, y_val, max_x, max_y):
+    offset_x = 0.3 if x_val < max_x/2 else -0.3
+    offset_y = 0.3 if y_val < max_y/2 else -0.3
+    return offset_x, offset_y
+
+max_x = project_count_df['# Total de Arquivos Grandes'].max()
+max_y = project_count_df['Quantidade de Projetos'].max()
 
 for idx, row in top_projects.iterrows():
     x_val = row['# Total de Arquivos Grandes']
@@ -186,43 +187,51 @@ for idx, row in top_projects.iterrows():
         'Quantidade de Projetos'
     ].values[0]
     
-    # Offset direcional alternado
-    offset_x = DIRECTIONAL_OFFSET['right'] if idx % 2 else DIRECTIONAL_OFFSET['left']
-    offset_y = DIRECTIONAL_OFFSET['up'] if idx % 3 else DIRECTIONAL_OFFSET['down']
+    # Offset dinâmico baseado na posição no gráfico
+    offset_x, offset_y = calculate_offset(x_val, y_val, max_x, max_y)
+    
+    # Adiciona variação baseada no índice para evitar padrão fixo
+    offset_x += 0.1 * (idx % 3 - 1)  # Varia entre -0.1, 0, +0.1
+    offset_y += 0.1 * (idx % 2 - 0.5)  # Varia entre -0.05, +0.05
     
     texts.append(plt.text(
         x_val + offset_x,
         y_val + offset_y,
         row['Projeto'],
-        fontsize=10,
+        fontsize=8,  # Reduzindo ligeiramente o tamanho da fonte
         ha='center',
         va='center',
-        #rotation=25 if idx % 2 else -25,  # Rotação alternada
+        rotation=45,  # Rotação para melhor encaixe
         bbox=dict(
             facecolor='white', 
-            alpha=0.95, 
+            alpha=0.95,
             edgecolor='silver',
-            boxstyle='round,pad=0.3'
-        )
+            boxstyle='round,pad=0.2'
+        ),
+        zorder=4  # Garante que textos fiquem acima dos pontos
     ))
 
-# Ajuste otimizado para espalhamento
+# Ajuste otimizado com parâmetros revisados
 adjust_text(
     texts,
     arrowprops=dict(
-        arrowstyle="fancy,head_length=0.4,head_width=0.4",
-        color='dimgray', 
-        lw=0.8,
+        arrowstyle="-|>",
+        color='gray',
+        lw=0.6,
         alpha=0.7,
-        connectionstyle="arc3,rad=0.3"
+        connectionstyle="arc3,rad=0.2"
     ),
-    expand_text=(1.5, 2.0),  # Mais expansão
-    expand_points=(1.3, 1.8),
-    force_text=(0.8, 1.2),    # Força aumentada
-    force_points=(0.6, 0.9),
+    expand_text=(2.0, 2.5),  # Aumenta expansão
+    expand_points=(1.5, 2.0),
+    force_text=(1.2, 1.5),    # Força aumentada
+    force_points=(0.8, 1.2),
+    autoalign='xy',  # Alinhamento automático
+    only_move={'points':'xy', 'text':'xy'},  # Movimento mais restrito
     ax=ax,
     precision=0.001,
-    lim=2000  # Mais iterações
+    lim=3000,  # Aumento de iterações
+    va='center',
+    ha='center'
 )
 
 # Configurações finais
