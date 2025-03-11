@@ -35,7 +35,7 @@ for i in range(len(repositories)):
         # large_files_commits_df: pd.DataFrame = pd.DataFrame(hashs, columns=["hash"])
         
         files: list[list[str]] = [
-            [file.name[:-4] for file in scandir(f"{large_files_commits_path}{repo_path}/{hash}/files")]
+            [file[:-4] for file in listdir(f"{large_files_commits_path}{repo_path}/{hash}/files")]
             for hash in hashs
         ]
 
@@ -57,7 +57,7 @@ for i in range(len(repositories)):
         # small_files_commits_df: pd.DataFrame = pd.DataFrame(hashs, columns=["hash"])
         
         files: list[list[str]] = [
-            [file.name[:-4] for file in scandir(f"{small_files_commits_path}{repo_path}/{hash}/files")]
+            [file.name[:-4] for file in listdir(f"{small_files_commits_path}{repo_path}/{hash}/files")]
             for hash in hashs
         ]
 
