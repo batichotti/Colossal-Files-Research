@@ -31,25 +31,21 @@ def process_repository(i):
     large_files_commits_df:pd.DataFrame = pd.DataFrame()
     if path.exists(f"{large_files_commits_path}{repo_path}"):
         hashs_large = [folder.name for folder in scandir(f"{large_files_commits_path}{repo_path}") if folder.is_dir()]
-        commits_df = pd.DataFrame()
         for hash in hashs_large:
             commit_df: pd.DataFrame = pd.read_csv(f"{large_files_commits_path}{repo_path}/{hash}/commit.csv")
             for file in listdir(f"{large_files_commits_path}{repo_path}/{hash}/files"):
                 file_df: pd.DataFrame = pd.read_csv(f"{large_files_commits_path}{repo_path}/{hash}/files/{file}")
-                commits_df = pd.concat([commits_df, pd.concat([commit_df, file_df], axis=1)])
-        large_files_commits_df = commits_df
+                large_files_commits_df = pd.concat([large_files_commits_df, pd.concat([commit_df, file_df], axis=1)])
         large_files_commits_df.to_csv(f"{output_path}large_files/{repo_path}.csv", index=False)
 
     small_files_commits_df = pd.DataFrame()
     if path.exists(f"{small_files_commits_path}{repo_path}"):
         hashs_small = [folder.name for folder in scandir(f"{small_files_commits_path}{repo_path}") if folder.is_dir()]
-        commits_df = pd.DataFrame()
         for hash in hashs_small:
             commit_df: pd.DataFrame = pd.read_csv(f"{small_files_commits_path}{repo_path}/{hash}/commit.csv")
             for file in listdir(f"{small_files_commits_path}{repo_path}/{hash}/files"):
                 file_df: pd.DataFrame = pd.read_csv(f"{small_files_commits_path}{repo_path}/{hash}/files/{file}")
-                commits_df = pd.concat([commits_df, pd.concat([commit_df, file_df], axis=1)])
-        small_files_commits_df = commits_df
+                small_files_commits_df = pd.concat([small_files_commits_df, pd.concat([commit_df, file_df], axis=1)])
         small_files_commits_df.to_csv(f"{output_path}small_files/{repo_path}.csv", index=False)
 
 with ThreadPoolExecutor() as executor:
