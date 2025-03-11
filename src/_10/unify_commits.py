@@ -34,16 +34,11 @@ for i in range(len(repositories)):
         hashs: list[str] = [folder.name for folder in scandir(f"{large_files_commits_path}{repo_path}") if folder.is_dir()]
         # large_files_commits_df: pd.DataFrame = pd.DataFrame(hashs, columns=["hash"])
         
-        files: list[list[str]] = []
-        for hash in hashs:
-            temp: list[str] = []
-            for file in scandir(f"{large_files_commits_path}{repo_path}/{hash}/files"):
-                temp.append(file.name[:-4])
-            files.append(temp)
-            
-            # print(files)
+        files: list[list[str]] = [
+            [file.name[:-4] for file in scandir(f"{large_files_commits_path}{repo_path}/{hash}/files")]
+            for hash in hashs
+        ]
 
-        
         large_files_commits_dict = {
             "hash" : hashs,
             "files" : files
@@ -61,16 +56,11 @@ for i in range(len(repositories)):
     
         # small_files_commits_df: pd.DataFrame = pd.DataFrame(hashs, columns=["hash"])
         
-        files: list[list[str]] = []
-        for hash in hashs:
-            temp: list[str] = []
-            for file in scandir(f"{small_files_commits_path}{repo_path}/{hash}/files"):
-                temp.append(file.name[:-4])
-            files.append(temp)
-            
-            # print(files)
+        files: list[list[str]] = [
+            [file.name[:-4] for file in scandir(f"{small_files_commits_path}{repo_path}/{hash}/files")]
+            for hash in hashs
+        ]
 
-        
         small_files_commits_dict = {
             "hash" : hashs,
             "files" : files
