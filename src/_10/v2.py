@@ -36,6 +36,8 @@ def process_repository(i):
             for file in listdir(f"{large_files_commits_path}{repo_path}/{hash}/files"):
                 file_df: pd.DataFrame = pd.read_csv(f"{large_files_commits_path}{repo_path}/{hash}/files/{file}")
                 large_files_commits_df = pd.concat([large_files_commits_df, pd.concat([commit_df, file_df], axis=1)])
+        if large_files_commits_df.empty:
+            print(f'\033[33mVazio: {repo_path}\033[m')
         large_files_commits_df.to_csv(f"{output_path}large_files/{repo_path}.csv", index=False)
 
     small_files_commits_df = pd.DataFrame()
@@ -46,6 +48,8 @@ def process_repository(i):
             for file in listdir(f"{small_files_commits_path}{repo_path}/{hash}/files"):
                 file_df: pd.DataFrame = pd.read_csv(f"{small_files_commits_path}{repo_path}/{hash}/files/{file}")
                 small_files_commits_df = pd.concat([small_files_commits_df, pd.concat([commit_df, file_df], axis=1)])
+        if small_files_commits_df.empty:
+            print(f'\033[33mVazio: {repo_path}\033[m')
         small_files_commits_df.to_csv(f"{output_path}small_files/{repo_path}.csv", index=False)
 
 with ThreadPoolExecutor() as executor:
