@@ -7,7 +7,7 @@ SEPARATOR = '|'
 input_path:str = "./src/_10/input/"
 output_path:str = "./src/_10/output/"
 
-repositories_path:str = "./src/_00/input/450_Starred_Projects.csv"
+repositories_path:str = "./src/_00/input/swift+objectivec.csv"
 cloc_path:str = "./src/_01/output/"
 large_files_commits_path:str = "./src/_04/output/"
 small_files_commits_path:str = "./src/_08/output/"
@@ -32,8 +32,24 @@ for i in range(len(repositories)):
     
     if (path.exists(f"{large_files_commits_path}{repo_path}")):
         hashs: list[str] = [folder.name for folder in scandir(f"{large_files_commits_path}{repo_path}") if folder.is_dir()]
- 
-        large_files_commits_df: pd.DataFrame = pd.DataFrame(hashs, columns=["hash"])
+        # large_files_commits_df: pd.DataFrame = pd.DataFrame(hashs, columns=["hash"])
+        
+        files: list[list[str]] = []
+        for hash in hashs:
+            temp: list[str] = []
+            for file in scandir(f"{large_files_commits_path}{repo_path}/{hash}/files"):
+                temp.append(file.name[:-4])
+            files.append(temp)
+            
+            # print(files)
+
+        
+        large_files_commits_dict = {
+            "hash" : hashs,
+            "files" : files
+        }        
+        
+        large_files_commits_df: pd.DataFrame = pd.DataFrame(large_files_commits_dict)
         large_files_commits_df.to_csv(f"{output_path}large_files/{repo_path}.csv", index=False)
         
         large_files_commits_total.extend(hashs)
@@ -43,7 +59,24 @@ for i in range(len(repositories)):
     if (path.exists(f"{small_files_commits_path}{repo_path}")):
         hashs: list[str] = [folder.name for folder in scandir(f"{small_files_commits_path}{repo_path}") if folder.is_dir()]
     
-        small_files_commits_df: pd.DataFrame = pd.DataFrame(hashs, columns=["hash"])
+        # small_files_commits_df: pd.DataFrame = pd.DataFrame(hashs, columns=["hash"])
+        
+        files: list[list[str]] = []
+        for hash in hashs:
+            temp: list[str] = []
+            for file in scandir(f"{small_files_commits_path}{repo_path}/{hash}/files"):
+                temp.append(file.name[:-4])
+            files.append(temp)
+            
+            # print(files)
+
+        
+        small_files_commits_dict = {
+            "hash" : hashs,
+            "files" : files
+        }        
+        
+        small_files_commits_df: pd.DataFrame = pd.DataFrame(small_files_commits_dict)
         small_files_commits_df.to_csv(f"{output_path}small_files/{repo_path}.csv", index=False)
     
         small_files_commits_total.extend(hashs)
