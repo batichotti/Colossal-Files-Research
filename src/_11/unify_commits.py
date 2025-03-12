@@ -4,8 +4,8 @@ from os import makedirs, listdir, scandir, path
 SEPARATOR = '|'
 
 # Setup
-input_path:str = "./src/_10/input/"
-output_path:str = "./src/_10/output/"
+input_path:str = "./src/_11/input/"
+output_path:str = "./src/_11/output/"
 
 repositories_path:str = "./src/_00/input/450_Starred_Projects.csv"
 cloc_path:str = "./src/_01/output/"
