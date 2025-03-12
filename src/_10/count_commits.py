@@ -8,7 +8,6 @@ input_path:str = "./src/_10/input/"
 output_path:str = "./src/_10/output/"
 
 repositories_path:str = "./src/_00/input/450_Starred_Projects.csv"
-cloc_path:str = "./src/_01/output/"
 large_files_commits_path:str = "./src/_04/output/"
 small_files_commits_path:str = "./src/_08/output/"
 
