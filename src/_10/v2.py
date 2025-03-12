@@ -31,26 +31,36 @@ def process_repository(i):
     large_files_commits_df:pd.DataFrame = pd.DataFrame()
     if path.exists(f"{large_files_commits_path}{repo_path}"):
         hashs_large = [folder.name for folder in scandir(f"{large_files_commits_path}{repo_path}") if folder.is_dir()]
+        print(f'{repo_path} - Large: {len(hashs_large)}')
         for hash in hashs_large:
+            # print(f'{repo_path} - {hash}')
             commit_df: pd.DataFrame = pd.read_csv(f"{large_files_commits_path}{repo_path}/{hash}/commit.csv")
             for file in listdir(f"{large_files_commits_path}{repo_path}/{hash}/files"):
+                # print(f'{repo_path} - {hash} - {file}')
                 file_df: pd.DataFrame = pd.read_csv(f"{large_files_commits_path}{repo_path}/{hash}/files/{file}")
                 large_files_commits_df = pd.concat([large_files_commits_df, pd.concat([commit_df, file_df], axis=1)])
         if large_files_commits_df.empty:
             print(f'\033[33mVazio: {repo_path}\033[m')
         large_files_commits_df.to_csv(f"{output_path}large_files/{repo_path}.csv", index=False)
+    else:
+        print(f'\033[33mPulou Large: {repo_path}\033[m')
 
     small_files_commits_df = pd.DataFrame()
     if path.exists(f"{small_files_commits_path}{repo_path}"):
         hashs_small = [folder.name for folder in scandir(f"{small_files_commits_path}{repo_path}") if folder.is_dir()]
+        print(f'{repo_path} - Small: {len(hashs_large)}')
         for hash in hashs_small:
+            # print(f'{repo_path} - {hash}')
             commit_df: pd.DataFrame = pd.read_csv(f"{small_files_commits_path}{repo_path}/{hash}/commit.csv")
             for file in listdir(f"{small_files_commits_path}{repo_path}/{hash}/files"):
+                # print(f'{repo_path} - {hash} - {file}')
                 file_df: pd.DataFrame = pd.read_csv(f"{small_files_commits_path}{repo_path}/{hash}/files/{file}")
                 small_files_commits_df = pd.concat([small_files_commits_df, pd.concat([commit_df, file_df], axis=1)])
         if small_files_commits_df.empty:
             print(f'\033[33mVazio: {repo_path}\033[m')
         small_files_commits_df.to_csv(f"{output_path}small_files/{repo_path}.csv", index=False)
+    else:
+        print(f'\033[33mPulou Small: {repo_path}\033[m')
 
 with ThreadPoolExecutor() as executor:
     executor.map(process_repository, range(len(repositories)))
