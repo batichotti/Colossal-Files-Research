@@ -38,11 +38,11 @@ def process_repository(i):
             for file in listdir(f"{large_files_commits_path}{repo_path}/{hash}/files"):
                 # print(f'{repo_path} - {hash} - {file}')
                 file_df: pd.DataFrame = pd.read_csv(f"{large_files_commits_path}{repo_path}/{hash}/files/{file}")
-                print(pd.concat([commit_df, file_df], axis=1))
-                input()
+                # print(pd.concat([commit_df, file_df], axis=1))
+                # input()
                 large_files_commits_df = pd.concat([large_files_commits_df, pd.concat([commit_df, file_df], axis=1)])
-                print(large_files_commits_df)
-                input()
+                # print(large_files_commits_df)
+                # input()
         if large_files_commits_df.empty:
             print(f'\033[33mVazio: {repo_path}\033[m')
         large_files_commits_df.to_csv(f"{output_path}large_files/{repo_path}.csv", index=False)
