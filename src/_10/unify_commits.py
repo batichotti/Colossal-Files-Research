@@ -32,19 +32,8 @@ for i in range(len(repositories)):
     
     if (path.exists(f"{large_files_commits_path}{repo_path}")):
         hashs: list[str] = [folder.name for folder in scandir(f"{large_files_commits_path}{repo_path}") if folder.is_dir()]
-        # large_files_commits_df: pd.DataFrame = pd.DataFrame(hashs, columns=["hash"])
         
-        files: list[list[str]] = [
-            [file[:-4] for file in listdir(f"{large_files_commits_path}{repo_path}/{hash}/files")]
-            for hash in hashs
-        ]
-
-        large_files_commits_dict = {
-            "hash" : hashs,
-            "files" : files
-        }        
-        
-        large_files_commits_df: pd.DataFrame = pd.DataFrame(large_files_commits_dict)
+        large_files_commits_df: pd.DataFrame = pd.DataFrame(hashs, columns=["hash"])
         large_files_commits_df.to_csv(f"{output_path}large_files/{repo_path}.csv", index=False)
         
         large_files_commits_total.extend(hashs)
@@ -53,20 +42,8 @@ for i in range(len(repositories)):
 
     if (path.exists(f"{small_files_commits_path}{repo_path}")):
         hashs: list[str] = [folder.name for folder in scandir(f"{small_files_commits_path}{repo_path}") if folder.is_dir()]
-    
-        # small_files_commits_df: pd.DataFrame = pd.DataFrame(hashs, columns=["hash"])
-        
-        files: list[list[str]] = [
-            [file.name[:-4] for file in listdir(f"{small_files_commits_path}{repo_path}/{hash}/files")]
-            for hash in hashs
-        ]
 
-        small_files_commits_dict = {
-            "hash" : hashs,
-            "files" : files
-        }        
-        
-        small_files_commits_df: pd.DataFrame = pd.DataFrame(small_files_commits_dict)
+        small_files_commits_df: pd.DataFrame = pd.DataFrame(hashs, columns=["hash"])
         small_files_commits_df.to_csv(f"{output_path}small_files/{repo_path}.csv", index=False)
     
         small_files_commits_total.extend(hashs)
