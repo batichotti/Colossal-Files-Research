@@ -17,7 +17,7 @@ small_files_commits_path:str = "./src/_11/output/small_files/"
 repositories:pd.DataFrame = pd.read_csv(repositories_path)
 
 large_files_commits: pd.DataFrame = pd.DataFrame()
-samll_files_commits: pd.DataFrame = pd.DataFrame()
+small_files_commits: pd.DataFrame = pd.DataFrame()
 
 for i in range(len(repositories)):
     # getting repository information
