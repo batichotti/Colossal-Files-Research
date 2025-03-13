@@ -1,6 +1,9 @@
 import pandas as pd
 from os import makedirs, scandir, path, listdir
 from concurrent.futures import ThreadPoolExecutor
+from sys import setrecursionlimit
+
+setrecursionlimit(300000)
 
 SEPARATOR = '|'
 
