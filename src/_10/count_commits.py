@@ -71,4 +71,4 @@ summary = {
 summary_df: pd.DataFrame = pd.DataFrame(summary)
 summary_df.to_csv(f"{output_path}summary.csv", index=False)
 
-print("\n", summary)
+print("\n", summary)git 
