@@ -11,7 +11,7 @@ SEPARATOR = '|'
 input_path:str = "./src/_11/input/"
 output_path:str = "./src/_11/output/"
 
-repositories_path:str = "./src/_00/input/450_Starred_Projects.csv"
+repositories_path:str = "./src/_00/input/swift+objectivec.csv"
 cloc_path:str = "./src/_01/output/"
 large_files_commits_path:str = "./src/_04/output/"
 small_files_commits_path:str = "./src/_08/output/"
@@ -37,12 +37,12 @@ def process_repository(i):
         print(f'{repo_path} - Large: {len(hashs_large)}')
         for hash in hashs_large:
             # Lê o commit.csv
-            commit_df = pd.read_csv(f"{large_files_commits_path}{repo_path}/{hash}/commit.csv")
+            commit_df = pd.read_csv(f"{large_files_commits_path}{repo_path}/{hash}/commit.csv", sep=SEPARATOR)
             # Lista todos os arquivos dentro da pasta files
             file_dfs = []
             for file in listdir(f"{large_files_commits_path}{repo_path}/{hash}/files"):
                 file_path = f"{large_files_commits_path}{repo_path}/{hash}/files/{file}"
-                file_df = pd.read_csv(file_path)
+                file_df = pd.read_csv(file_path, sep=SEPARATOR)
                 file_dfs.append(file_df)
             # Se houver arquivos, junta eles verticalmente
             if file_dfs:
@@ -58,7 +58,7 @@ def process_repository(i):
             print(f'\033[33mVazio Large: {repo_path}\033[m')
         else:
             print(f'\033[32mJuntou Large: {repo_path}\033[m')
-            large_files_commits_df.to_csv(f"{output_path}large_files/{repo_path}.csv", index=False)
+            large_files_commits_df.to_csv(f"{output_path}large_files/{repo_path}.csv", index=False, sep=SEPARATOR)
     else:
         print(f'\033[33mPulou Large: {repo_path}\033[m')
 
@@ -68,12 +68,12 @@ def process_repository(i):
         print(f'{repo_path} - Small: {len(hashs_small)}')
         for hash in hashs_small:
             # Lê o commit.csv
-            commit_df = pd.read_csv(f"{small_files_commits_path}{repo_path}/{hash}/commit.csv")
+            commit_df = pd.read_csv(f"{small_files_commits_path}{repo_path}/{hash}/commit.csv", sep=SEPARATOR)
             # Lista todos os arquivos dentro da pasta files
             file_dfs = []
             for file in listdir(f"{small_files_commits_path}{repo_path}/{hash}/files"):
                 file_path = f"{small_files_commits_path}{repo_path}/{hash}/files/{file}"
-                file_df = pd.read_csv(file_path)
+                file_df = pd.read_csv(file_path, sep=SEPARATOR)
                 file_dfs.append(file_df)
             # Se houver arquivos, junta eles verticalmente
             if file_dfs:
@@ -88,7 +88,7 @@ def process_repository(i):
         if small_files_commits_df.empty:
             print(f'\033[33mVazio Small: {repo_path}\033[m')
         else:
-            small_files_commits_df.to_csv(f"{output_path}small_files/{repo_path}.csv", index=False)
+            small_files_commits_df.to_csv(f"{output_path}small_files/{repo_path}.csv", index=False, sep=SEPARATOR)
             print(f'\033[32mJuntou Small: {repo_path}\033[m')
     else:
         print(f'\033[33mPulou Small: {repo_path}\033[m')

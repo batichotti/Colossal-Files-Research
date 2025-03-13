@@ -10,7 +10,7 @@ SEPARATOR = '|'
 input_path:str = "./src/_11/input/"
 output_path:str = "./src/_11/output/"
 
-repositories_path:str = "./src/_00/input/450-linux-pytorch.csv"
+repositories_path:str = "./src/_00/input/swift+objectivec.csv"
 cloc_path:str = "./src/_01/output/"
 large_files_commits_path:str = "./src/_04/output/"
 small_files_commits_path:str = "./src/_08/output/"
@@ -39,12 +39,12 @@ for i in range(len(repositories)):
         print(f'{repo_path} - Large: {len(hashs_large)}')
         for hash in hashs_large:
             # Lê o commit.csv
-            commit_df = pd.read_csv(f"{large_files_commits_path}{repo_path}/{hash}/commit.csv")
+            commit_df = pd.read_csv(f"{large_files_commits_path}{repo_path}/{hash}/commit.csv", delimiter=SEPARATOR)
             # Lista todos os arquivos dentro da pasta files
             file_dfs = []
             for file in listdir(f"{large_files_commits_path}{repo_path}/{hash}/files"):
                 file_path = f"{large_files_commits_path}{repo_path}/{hash}/files/{file}"
-                file_df = pd.read_csv(file_path)
+                file_df = pd.read_csv(file_path, delimiter=SEPARATOR)
                 file_dfs.append(file_df)
             # Se houver arquivos, junta eles verticalmente
             if file_dfs:
@@ -70,12 +70,12 @@ for i in range(len(repositories)):
         print(f'{repo_path} - Small: {len(hashs_small)}')
         for hash in hashs_small:
             # Lê o commit.csv
-            commit_df = pd.read_csv(f"{small_files_commits_path}{repo_path}/{hash}/commit.csv")
+            commit_df = pd.read_csv(f"{small_files_commits_path}{repo_path}/{hash}/commit.csv", delimiter=SEPARATOR)
             # Lista todos os arquivos dentro da pasta files
             file_dfs = []
             for file in listdir(f"{small_files_commits_path}{repo_path}/{hash}/files"):
                 file_path = f"{small_files_commits_path}{repo_path}/{hash}/files/{file}"
-                file_df = pd.read_csv(file_path)
+                file_df = pd.read_csv(file_path, delimiter=SEPARATOR)
                 file_dfs.append(file_df)
             # Se houver arquivos, junta eles verticalmente
             if file_dfs:
