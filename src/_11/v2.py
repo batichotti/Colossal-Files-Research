@@ -52,8 +52,9 @@ def process_repository(i):
                 large_files_commits_df = pd.concat([large_files_commits_df, df_final], ignore_index=True)
         # Se o DataFrame final não estiver vazio, salva
         if large_files_commits_df.empty:
-            print(f'\033[33mVazio: {repo_path}\033[m')
+            print(f'\033[33mVazio Large: {repo_path}\033[m')
         else:
+            print(f'\033[32mJuntou Large: {repo_path}\033[m')
             large_files_commits_df.to_csv(f"{output_path}large_files/{repo_path}.csv", index=False)
     else:
         print(f'\033[33mPulou Large: {repo_path}\033[m')
@@ -82,9 +83,10 @@ def process_repository(i):
                 small_files_commits_df = pd.concat([small_files_commits_df, df_final], ignore_index=True)
         # Se o DataFrame final não estiver vazio, salva
         if small_files_commits_df.empty:
-            print(f'\033[33mVazio: {repo_path}\033[m')
+            print(f'\033[33mVazio Small: {repo_path}\033[m')
         else:
             small_files_commits_df.to_csv(f"{output_path}small_files/{repo_path}.csv", index=False)
+            print(f'\033[32mJuntou Small: {repo_path}\033[m')
     else:
         print(f'\033[33mPulou Small: {repo_path}\033[m')
 
