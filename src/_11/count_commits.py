@@ -1,76 +1,93 @@
 import pandas as pd
-from os import makedirs, listdir, scandir, path
+from os import makedirs, path
+from sys import setrecursionlimit
+
+setrecursionlimit(2_000_000)
 
 SEPARATOR = '|'
 
-# Setup
-input_path:str = "./src/_11/input/"
-output_path:str = "./src/_11/output/"
+# Setup =======================================================================================================
+input_path: str = "./src/_XX/input/"
+output_path: str = "./src/_XX/output/"
 
-repositories_path:str = "./src/_00/input/450_Starred_Projects.csv"
-large_files_commits_path:str = "./src/_10/output/large_files/"
-small_files_commits_path:str = "./src/_10/output/small_files/"
+repositories_path: str = "./src/_00/input/450_Starred_Projects.csv"
+large_files_commits_path: str = "./src/_10/output/large_files/"
+small_files_commits_path: str = "./src/_10/output/small_files/"
 
-repositories:pd.DataFrame = pd.read_csv(repositories_path)
+# Carrega e ordena repositórios por linguagem
+repositories: pd.DataFrame = pd.read_csv(repositories_path).sort_values(by='main language').reset_index(drop=True)
 
-large_files_commits_total: list[str] = []
-small_files_commits_total: list[str] = []
+# DataFrames globais
+large_files_commits: pd.DataFrame = pd.DataFrame()
+small_files_commits: pd.DataFrame = pd.DataFrame()
 
-#TODO: Arrumar para o output do 10
+# Funções auxiliares =========================================================================================
+def count_commits(large_repository_commits: pd.DataFrame, small_repository_commits: pd.DataFrame) -> pd.DataFrame:
+    """Função que contabiliza quandidade de commits Large e Small para um projeto"""
+    merged_df: pd.DataFrame = pd.concat(large_repository_commits, small_repository_commits)
+    merged_df = merged_df.drop_duplicates(subset=['Hash'], keep="first")
 
-for i in range(len(repositories)):
-    # getting repository information
-    repository, language = repositories.loc[i, ['url', 'main language']]
+    result: dict = {
+        "Large Quatity": [len(large_repository_commits)],
+        "Small Quatity": [len(small_repository_commits)],
+        "Commits TOTAL": [len(merged_df)]
+    }
+    return pd.DataFrame(result)
 
-    makedirs(f"{output_path}large_files/{language}", exist_ok=True)
-    makedirs(f"{output_path}small_files/{language}", exist_ok=True)
+def process_language(lang: str, large: pd.DataFrame, small: pd.DataFrame, output_path: str):
+    """Processa e salva resultados por linguagem"""
     
-    repo_path: str = f"{language}/{repository.split('/')[-2]}~{repository.split('/')[-1]}"
+    result = count_commits(large, small)
     
-    hashs: list = []
+    result.to_csv(f"{output_path}/per_languages/{lang}.csv", index=False)
+
+# Processamento principal =====================================================================================
+current_language: str = None
+current_large: pd.DataFrame = pd.DataFrame()
+current_small: pd.DataFrame = pd.DataFrame()
+
+for i, row in repositories.iterrows():
+    repo_url: str = row['url']
+    language: str = row['main language']
+    repo_name: str = repo_url.split('/')[-1]
+    repo_owner: str = repo_url.split('/')[-2]
+    repo_path: str = f"{language}/{repo_owner}~{repo_name}"
     
-    print(repo_path)
+    # Cria diretórios necessários
+    makedirs(f"{output_path}/per_project/{language}", exist_ok=True)
+    makedirs(f"{output_path}/per_languages", exist_ok=True)
     
-    if (path.exists(f"{large_files_commits_path}{repo_path}")):
-        hashs: list[str] = [folder.name for folder in scandir(f"{large_files_commits_path}{repo_path}") if folder.is_dir()]
-
-        large_files_commits_df: pd.DataFrame = pd.DataFrame(hashs, columns=["hash"])
-        large_files_commits_df.to_csv(f"{output_path}large_files/{repo_path}.csv", index=False)
-        
-        large_files_commits_total.extend(hashs)
+    # Atualiza acumuladores de linguagem quando muda
+    if current_language and (language != current_language):
+        process_language(current_language, current_large, current_small, output_path)
+        current_large = pd.DataFrame()
+        current_small = pd.DataFrame()
     
-        # print(hashs)
-
-    if (path.exists(f"{small_files_commits_path}{repo_path}")):
-        hashs: list[str] = [folder.name for folder in scandir(f"{small_files_commits_path}{repo_path}") if folder.is_dir()]
+    current_language = language
     
-        small_files_commits_df: pd.DataFrame = pd.DataFrame(hashs, columns=["hash"])
-        small_files_commits_df.to_csv(f"{output_path}small_files/{repo_path}.csv", index=False)
+    # Processa arquivos grandes
+    large_df: pd.DataFrame = pd.DataFrame()
+    large_path = f"{large_files_commits_path}{repo_path}.csv"
+    if path.exists(large_path):
+        large_df: pd.DataFrame = pd.read_csv(large_path, sep=SEPARATOR)
+        current_large = pd.concat([current_large, large_df])
+        large_files_commits = pd.concat([large_files_commits, large_df])
     
-        small_files_commits_total.extend(hashs)
-        
-        # print(hashs)
+    # Processa arquivos pequenos
+    small_path = f"{small_files_commits_path}{repo_path}.csv"
+    small_df: pd.DataFrame = pd.DataFrame()
+    if path.exists(small_path):
+        small_df: pd.DataFrame = pd.read_csv(small_path, sep=SEPARATOR)
+        current_small = pd.concat([current_small, small_df])
+        small_files_commits = pd.concat([small_files_commits, small_df])
+    
+    project_results: pd.DataFrame = count_commits(large_df, small_df)
+    project_results.to_csv(f"{output_path}/per_project/{repo_path}.csv", index=False)
 
-    # input()
+# Processa última linguagem
+if not current_large.empty or not current_small.empty:
+    process_language(current_language, current_large, current_small, output_path)
 
-large_files_commits_total_df: pd.DataFrame = pd.DataFrame(large_files_commits_total, columns=["hash"])
-large_files_commits_total_df.to_csv(f"{output_path}large_files.csv", index=False)
-
-small_files_commits_total_df: pd.DataFrame = pd.DataFrame(small_files_commits_total, columns=["hash"])
-small_files_commits_total_df.to_csv(f"{output_path}small_files.csv", index=False)
-
-commits_total = large_files_commits_total + small_files_commits_total
-commits_total = list(set(commits_total))
-commits_total_df: pd.DataFrame = pd.DataFrame(commits_total, columns=["hash"])
-commits_total_df.to_csv(f"{output_path}small_files.csv", index=False)
-
-summary = {
-    "Total de Commits Large Files" : [len(large_files_commits_total)],
-    "Total de Commits Small Files" : [len(small_files_commits_total)],
-    "Total de Commits" : [len(commits_total)],
-}
-
-summary_df: pd.DataFrame = pd.DataFrame(summary)
-summary_df.to_csv(f"{output_path}summary.csv", index=False)
-
-print("\n", summary)
+# Resultado global ============================================================================================
+final_results: pd.DataFrame = count_commits(large_files_commits, small_files_commits)
+final_results.to_csv(f"{output_path}/global_results.csv", index=False)
