@@ -54,7 +54,7 @@ for i, row in repositories.iterrows():
     repo_path: str = f"{language}/{repo_owner}~{repo_name}"
 
     print(repo_path)
-        
+
     # Cria diretórios necessários
     makedirs(f"{output_path}/per_project/{language}", exist_ok=True)
     makedirs(f"{output_path}/per_languages", exist_ok=True)
