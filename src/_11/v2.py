@@ -11,7 +11,7 @@ SEPARATOR = '|'
 input_path:str = "./src/_11/input/"
 output_path:str = "./src/_11/output/"
 
-repositories_path:str = "./src/_00/input/450_Starred_Projects-sorr.csv"
+repositories_path:str = "./src/_00/input/450-linux-pytorch.csv"
 cloc_path:str = "./src/_01/output/"
 large_files_commits_path:str = "./src/_04/output/"
 small_files_commits_path:str = "./src/_08/output/"
