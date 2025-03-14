@@ -112,26 +112,29 @@ for i, row in repositories.iterrows():
     current_language = language
     
     # Processa arquivos grandes
+    large_df: pd.DataFrame = pd.DataFrame()
     large_path = f"{large_files_commits_path}{repo_path}.csv"
     if path.exists(large_path):
         large_df: pd.DataFrame = pd.read_csv(large_path, sep=SEPARATOR)
         current_large = pd.concat([current_large, large_df])
         large_files_commits = pd.concat([large_files_commits, large_df])
-        
-        # Resultado por projeto (large)
-        project_result: pd.DataFrame = calc_lines_changes(large_df)
-        project_result.to_csv(f"{output_path}/per_project/{repo_path}_large.csv", index=False)
     
     # Processa arquivos pequenos
     small_path = f"{small_files_commits_path}{repo_path}.csv"
+    small_df: pd.DataFrame = pd.DataFrame()
     if path.exists(small_path):
         small_df: pd.DataFrame = pd.read_csv(small_path, sep=SEPARATOR)
         current_small = pd.concat([current_small, small_df])
         small_files_commits = pd.concat([small_files_commits, small_df])
-        
-        # Resultado por projeto (small)
-        project_result: pd.DataFrame = calc_lines_changes(small_df, 'small')
-        project_result.to_csv(f"{output_path}/per_project/{repo_path}_small.csv", index=False)
+    
+    project_results: list[pd.DataFrame] = []
+    if not large_df.empty:
+        project_results.append(calc_lines_changes(large_df))
+    if not small_df.empty:
+        project_results.append(calc_lines_changes(small_df, 'small'))
+
+    if project_results:
+        pd.concat(project_results).to_csv(f"{output_path}/per_project/{repo_path}.csv", index=False)
 
 # Processa última linguagem
 if not current_large.empty or not current_small.empty:
