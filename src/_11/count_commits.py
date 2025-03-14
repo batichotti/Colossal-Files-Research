@@ -4,17 +4,19 @@ from os import makedirs, listdir, scandir, path
 SEPARATOR = '|'
 
 # Setup
-input_path:str = "./src/_10/input/"
-output_path:str = "./src/_10/output/"
+input_path:str = "./src/_11/input/"
+output_path:str = "./src/_11/output/"
 
 repositories_path:str = "./src/_00/input/450_Starred_Projects.csv"
-large_files_commits_path:str = "./src/_04/output/"
-small_files_commits_path:str = "./src/_08/output/"
+large_files_commits_path:str = "./src/_11/output/large_files/"
+small_files_commits_path:str = "./src/_11/output/small_files"
 
 repositories:pd.DataFrame = pd.read_csv(repositories_path)
 
 large_files_commits_total: list[str] = []
 small_files_commits_total: list[str] = []
+
+#TODO: Arrumar para o output do 10
 
 for i in range(len(repositories)):
     # getting repository information
