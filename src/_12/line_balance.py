@@ -80,14 +80,14 @@ for i in range(len(repositories)):
     #     language_result.to_csv(f"{output_path}per_languages/{language}.csv")
     #     language_result = pd.DataFrame()
 
-    if path.exists(f"{large_files_commits_path}{repo_path}"):
-        repository_large_files_commit = pd.read_csv(f"{large_files_commits_path}{repo_path}", sep=SEPARATOR)
+    if path.exists(f"{large_files_commits_path}{repo_path}.csv"):
+        repository_large_files_commit = pd.read_csv(f"{large_files_commits_path}{repo_path}.csv", sep=SEPARATOR)
         large_files_commits = pd.concat(large_files_commits, repository_large_files_commit)
         if (last_language == language):
             large_last_language_commits = pd.concat(large_last_language_commits, repository_large_files_commit)
 
-    if path.exists(f"{small_files_commits_path}{repo_path}"):
-        repository_small_files_commit = pd.read_csv(f"{large_files_commits_path}{repo_path}", sep=SEPARATOR)
+    if path.exists(f"{small_files_commits_path}{repo_path}.csv"):
+        repository_small_files_commit = pd.read_csv(f"{large_files_commits_path}{repo_path}.csv", sep=SEPARATOR)
         small_files_commits = pd.concat(small_files_commits, repository_small_files_commit)
         if (last_language == language):
             small_last_language_commits = pd.concat(small_last_language_commits, repository_small_files_commit)
@@ -98,7 +98,7 @@ for i in range(len(repositories)):
     small_project_result: pd.DataFrame = pd.DataFrame()
     if (not repository_small_files_commit.empty):
         small_project_result: pd.DataFrame = calc_lines_changes(repository_large_files_commit, "small")
-    if (not (large_project_result.empty and small_project_result.empty)):
+    if ((not large_project_result.empty) or (not small_project_result.empty)):
         pd.concat(large_project_result, small_project_result).to_csv(f"{output_path}/per_project{repo_path}.csv")
 
 # for all =========================================================================================================================
