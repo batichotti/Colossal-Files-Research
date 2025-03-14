@@ -92,8 +92,10 @@ for i in range(len(repositories)):
         if (last_language == language):
             small_last_language_commits = pd.concat(small_last_language_commits, repository_small_files_commit)
 
+    large_project_result: pd.DataFrame = pd.DataFrame()
     if (not repository_large_files_commit.empty):
         large_project_result: pd.DataFrame = calc_lines_changes(repository_large_files_commit)
+    small_project_result: pd.DataFrame = pd.DataFrame()
     if (not repository_small_files_commit.empty):
         small_project_result: pd.DataFrame = calc_lines_changes(repository_large_files_commit, "small")
     if (not (large_project_result.empty and small_project_result)):
