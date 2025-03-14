@@ -2,7 +2,7 @@ import pandas as pd
 from os import makedirs, listdir, scandir, path
 from sys import setrecursionlimit
 
-setrecursionlimit(300000)
+setrecursionlimit(2_000_000)
 
 SEPARATOR = '|'
 
