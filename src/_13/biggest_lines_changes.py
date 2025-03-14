@@ -40,6 +40,8 @@ def calc_lines_changes(repository_commits: pd.DataFrame, type: str = "large") ->
         file_max = "There is no added lines"
     else:
         max_idx = repository_commits_modify[repository_commits_modify['Lines Balance'] > 0]['Lines Balance'].idxmax()
+        if isinstance(max_idx, pd.Series):
+            max_idx = max_idx.iloc[0]  # Pega apenas o primeiro índice
         project_max: str = repository_commits_modify.loc[max_idx, "Local Commit PATH"]
         project_max = "/".join(project_max.split("/")[-2:-1])
         file_max: str = repository_commits_modify.loc[max_idx, "Local File PATH New"]
@@ -51,6 +53,8 @@ def calc_lines_changes(repository_commits: pd.DataFrame, type: str = "large") ->
         file_min: str = "There is no deleted lines"
     else:
         min_idx = repository_commits_modify[repository_commits_modify['Lines Balance'] < 0]['Lines Balance'].idxmin()
+        if isinstance(min_idx, pd.Series):
+            min_idx = min_idx.iloc[0]  # Pega apenas o primeiro índice
         project_min: str = repository_commits_modify.loc[min_idx, "Local Commit PATH"]
         project_min = "/".join(project_min.split("/")[-2:-1])
         file_min: str = repository_commits_modify.loc[min_idx, "Local File PATH New"]
