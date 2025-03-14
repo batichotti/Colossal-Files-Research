@@ -7,8 +7,8 @@ setrecursionlimit(2_000_000)
 SEPARATOR = '|'
 
 # Setup =======================================================================================================
-input_path: str = "./src/_12/input/"
-output_path: str = "./src/_12/output/"
+input_path: str = "./src/_XX/input/"
+output_path: str = "./src/_XX/output/"
 
 repositories_path: str = "./src/_00/input/450_Starred_Projects.csv"
 large_files_commits_path: str = "./src/_10/output/large_files/"
