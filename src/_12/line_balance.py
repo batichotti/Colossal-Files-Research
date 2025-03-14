@@ -83,7 +83,7 @@ for i in range(len(repositories)):
     #     elif path.exists(f"{small_files_commits_path}{language}"): # if temporio do mateus
     #         language_result: pd.DataFrame = calc_lines_changes(small_last_language_commits, "small")
     #     if not language_result.empty: # if temporio do mateus
-    #         language_result.to_csv(f"{output_path}per_languages/{language}.csv")
+    #         language_result.to_csv(f"{output_path}per_languages/{language}.csv", index=False)
     #     language_result = pd.DataFrame()
     #     large_last_language_commits = pd.DataFrame()
     #     small_last_language_commits = pd.DataFrame()
@@ -108,13 +108,13 @@ for i in range(len(repositories)):
     if (not repository_small_files_commit.empty):
         small_project_result: pd.DataFrame = calc_lines_changes(repository_small_files_commit, "small")
     if ((not large_project_result.empty) or (not small_project_result.empty)):
-        pd.concat([large_project_result, small_project_result]).to_csv(f"{output_path}/per_project/{repo_path}.csv")
+        pd.concat([large_project_result, small_project_result]).to_csv(f"{output_path}/per_project/{repo_path}.csv", index=False)
 
 # for all =========================================================================================================================
 
-# result: pd.DataFrame = pd.DataFrame # if temporio do mateus
-# if (not large_files_commits.empty): # if temporio do mateus
-#     result : pd.DataFrame = pd.concat([calc_lines_changes(large_files_commits), calc_lines_changes(small_files_commits, "small")])
-# else:
-#     result : pd.DataFrame = calc_lines_changes(small_files_commits, "small")
-# result.to_csv(f"{output_path}/result.csv", index=False)
+result: pd.DataFrame = pd.DataFrame # if temporio do mateus
+if (not large_files_commits.empty): # if temporio do mateus
+    result : pd.DataFrame = pd.concat([calc_lines_changes(large_files_commits), calc_lines_changes(small_files_commits, "small")])
+else:
+    result : pd.DataFrame = calc_lines_changes(small_files_commits, "small")
+result.to_csv(f"{output_path}/result.csv", index=False)
