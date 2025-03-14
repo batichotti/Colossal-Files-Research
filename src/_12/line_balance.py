@@ -87,7 +87,7 @@ for i in range(len(repositories)):
             large_last_language_commits = pd.concat(large_last_language_commits, repository_large_files_commit)
 
     if path.exists(f"{small_files_commits_path}{repo_path}.csv"):
-        repository_small_files_commit = pd.read_csv(f"{large_files_commits_path}{repo_path}.csv", sep=SEPARATOR)
+        repository_small_files_commit = pd.read_csv(f"{small_files_commits_path}{repo_path}.csv", sep=SEPARATOR)
         small_files_commits = pd.concat(small_files_commits, repository_small_files_commit)
         if (last_language == language):
             small_last_language_commits = pd.concat(small_last_language_commits, repository_small_files_commit)
