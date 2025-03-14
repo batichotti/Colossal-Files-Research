@@ -8,8 +8,8 @@ input_path:str = "./src/_11/input/"
 output_path:str = "./src/_11/output/"
 
 repositories_path:str = "./src/_00/input/450_Starred_Projects.csv"
-large_files_commits_path:str = "./src/_11/output/large_files/"
-small_files_commits_path:str = "./src/_11/output/small_files"
+large_files_commits_path:str = "./src/_10/output/large_files/"
+small_files_commits_path:str = "./src/_10/output/small_files"
 
 repositories:pd.DataFrame = pd.read_csv(repositories_path)
 
