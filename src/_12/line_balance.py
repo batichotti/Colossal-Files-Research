@@ -50,10 +50,10 @@ def calc_lines_changes(repository_commits: pd.DataFrame, type: str = "large") ->
     result: dict = {
         "Type": [type],
         "Added Average": [lines_added_avg],
-        "Added Mean": [lines_added_mean],
+        "Added Median": [lines_added_mean],
         "Added Max": [lines_added_max],
         "Deleted Average": [lines_deleted_avg],
-        "Deleted Mean": [lines_deleted_mean],
+        "Deleted Median": [lines_deleted_mean],
         "Deleted Min": [lines_deleted_min],
         "Zero Count": [zero_count]
     }
