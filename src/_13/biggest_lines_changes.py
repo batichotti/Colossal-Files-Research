@@ -30,54 +30,50 @@ def calc_lines_changes(repository_commits: pd.DataFrame, type: str = "large") ->
     repository_commits['Lines Balance'] = repository_commits['Lines Added'] - repository_commits['Lines Deleted']
     repository_commits_modify = repository_commits[repository_commits['Change Type'] == 'MODIFY']
 
-    # Filtrando apenas commits com "Lines Balance" positivo
+    # Parte 1: Valores Máximos (Lines Balance > 0)
     filtered_df = repository_commits_modify[repository_commits_modify['Lines Balance'] > 0]
 
     if filtered_df.empty:
         lines_added_max = 0
         project_max = "There are no added lines"
         file_max = "There are no added lines"
+        hash_max = "There are no added lines"  # Novo
     else:
-        # Encontra o valor máximo e a primeira linha correspondente
         lines_added_max = filtered_df['Lines Balance'].max()
-        max_row = filtered_df[filtered_df['Lines Balance'] == lines_added_max].iloc[0]  # Pega a primeira ocorrência
-
-        # Processa o caminho do projeto
+        max_row = filtered_df[filtered_df['Lines Balance'] == lines_added_max].iloc[0]
+        
         project_path = max_row['Local Commit PATH']
-        project_max = "/".join(project_path.split("/")[-2:])  # Formatação simplificada
+        project_max = "/".join(project_path.split("/")[-2:])
+        file_max = str(max_row['Local File PATH New'])
+        hash_max = max_row['Hash']  # Novo
 
-        # Processa o caminho do arquivo
-        file_path = max_row['Local File PATH New']
-        file_max = str(file_path)  # Garante conversão para string
-
-    # Filtrando commits com "Lines Balance" negativo
+    # Parte 2: Valores Mínimos (Lines Balance < 0)
     filtered_df = repository_commits_modify[repository_commits_modify['Lines Balance'] < 0]
 
     if filtered_df.empty:
         lines_deleted_min = 0
         project_min = "There is no deleted lines"
         file_min = "There is no deleted lines"
+        hash_min = "There is no deleted lines"  # Novo
     else:
-        # Encontra o valor mínimo e a primeira linha correspondente
         lines_deleted_min = filtered_df['Lines Balance'].min()
-        min_row = filtered_df[filtered_df['Lines Balance'] == lines_deleted_min].iloc[0]  # Pega a primeira ocorrência
-
-        # Processa o caminho do projeto
+        min_row = filtered_df[filtered_df['Lines Balance'] == lines_deleted_min].iloc[0]
+        
         project_path = min_row['Local Commit PATH']
-        project_min = "/".join(project_path.split("/")[-2:])  # Formatação simplificada
+        project_min = "/".join(project_path.split("/")[-2:])
+        file_min = str(min_row['Local File PATH New'])
+        hash_min = min_row['Hash']  # Novo
 
-        # Processa o caminho do arquivo
-        file_path = min_row['Local File PATH New']
-        file_min = str(file_path)  # Garante conversão para string
-
-    # Retornando os resultados como DataFrame
+    # DataFrame de resultado
     result = pd.DataFrame({
         "Type": [type],
         "Project Max": [project_max],
         "File Max": [file_max],
+        "Hash Max": [hash_max],  # Novo
         "Added Max": [lines_added_max],
         "Project Min": [project_min],
         "File Min": [file_min],
+        "Hash Min": [hash_min],  # Novo
         "Deleted Min": [lines_deleted_min],
     })
     return result
