@@ -66,8 +66,8 @@ for i in range(len(repositories)):
     # getting repository information
     repository, language = repositories.loc[i, ['url', 'main language']]
 
-    makedirs(f"{output_path}/per_languages", exist_ok=True)
-    makedirs(f"{output_path}/per_project", exist_ok=True)
+    makedirs(f"{output_path}/per_languages/{language}", exist_ok=True)
+    makedirs(f"{output_path}/per_project/{language}", exist_ok=True)
 
     repo_path: str = f"{language}/{repository.split('/')[-2]}~{repository.split('/')[-1]}"
 
