@@ -50,7 +50,7 @@ def calc_lines_changes(repository_commits: pd.DataFrame, type: str = "large") ->
         if isinstance(project_max, pd.Series):
             project_max = project_max.iloc[0]
 
-        project_max = "/".join(str(project_max).split("/")[-2:-1]) if "/" in str(project_max) else str(project_max)
+        project_max = "/".join(str(project_max).split("/")[-2, -1]) if "/" in str(project_max) else str(project_max)
 
         # Garantir que file_max seja uma string
         file_max = repository_commits_modify.loc[max_idx, "Local File PATH New"]
@@ -78,7 +78,7 @@ def calc_lines_changes(repository_commits: pd.DataFrame, type: str = "large") ->
         if isinstance(project_min, pd.Series):
             project_min = project_min.iloc[0]
 
-        project_min = "/".join(str(project_min).split("/")[-2:-1]) if "/" in str(project_min) else str(project_min)
+        project_min = "/".join(str(project_min).split("/")[-2, -1]) if "/" in str(project_min) else str(project_min)
 
         # Garantir que file_min seja uma string
         file_min = repository_commits_modify.loc[min_idx, "Local File PATH New"]
