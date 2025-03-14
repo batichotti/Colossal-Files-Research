@@ -55,7 +55,7 @@ def calc_lines_changes(repository_commits: pd.DataFrame, type: str = "large") ->
     return result
 
 # lendo csvs =======================================================================================================
-last_language = repositories.loc[0, ['main language']]
+last_language: str = repositories.loc[0, ['main language']]
 large_last_language_commits: pd.DataFrame = pd.DataFrame()
 small_last_language_commits: pd.DataFrame = pd.DataFrame()
 
