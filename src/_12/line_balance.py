@@ -98,7 +98,7 @@ for i in range(len(repositories)):
     small_project_result: pd.DataFrame = pd.DataFrame()
     if (not repository_small_files_commit.empty):
         small_project_result: pd.DataFrame = calc_lines_changes(repository_large_files_commit, "small")
-    if (not (large_project_result.empty and small_project_result)):
+    if (not (large_project_result.empty and small_project_result.empty)):
         pd.concat(large_project_result, small_project_result).to_csv(f"{output_path}/per_project{repo_path}.csv")
 
 # for all =========================================================================================================================
