@@ -67,7 +67,7 @@ def process_repository(i):
 
     small_files_commits_df = pd.DataFrame()
     if path.exists(f"{small_files_commits_path}{repo_path}"):
-        if(not path.exists(f"{output_path}large_files/{repo_path}.csv")):
+        if(not path.exists(f"{output_path}small_files/{repo_path}.csv")):
             hashs_small = [folder.name for folder in scandir(f"{small_files_commits_path}{repo_path}") if folder.is_dir()]
             print(f'{repo_path} - Small: {len(hashs_small)}')
             for hash in hashs_small:
