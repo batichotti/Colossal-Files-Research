@@ -1,87 +1,104 @@
 import pandas as pd
-from os import makedirs, listdir, scandir, path
+from os import makedirs, path
 from sys import setrecursionlimit
 
 setrecursionlimit(2_000_000)
 
 SEPARATOR = '|'
 
-
 # Setup =======================================================================================================
-input_path:str = "./src/_12/input/"
-output_path:str = "./src/_12/output/"
+input_path = "./src/_12/input/"
+output_path = "./src/_12/output/"
 
-repositories_path:str = "./src/_00/input/450_Starred_Projects.csv"
-large_files_commits_path:str = "./src/_11/output/large_files/"
-small_files_commits_path:str = "./src/_11/output/small_files/"
+repositories_path = "./src/_00/input/450_Starred_Projects.csv"
+large_files_commits_path = "./src/_10/output/large_files/"
+small_files_commits_path = "./src/_10/output/small_files/"
 
-repositories:pd.DataFrame = pd.read_csv(repositories_path)
+# Carrega e ordena repositórios por linguagem
+repositories = pd.read_csv(repositories_path).sort_values(by='main language').reset_index(drop=True)
 
-large_files_commits: pd.DataFrame = pd.DataFrame()
-small_files_commits: pd.DataFrame = pd.DataFrame()
+# DataFrames globais
+large_files_commits = pd.DataFrame()
+small_files_commits = pd.DataFrame()
 
-last_language: str = repositories.loc[0, 'main language']
-large_last_language_commits: pd.DataFrame = pd.DataFrame()
-small_last_language_commits: pd.DataFrame = pd.DataFrame()
-
-
-# função ==============================================================================================================
-def base_function(repository_commits: pd.DataFrame, type: str = "large") -> pd.DataFrame:
-    # processando dados =================================================================================================
-    result_1: int = 0
-    result_2: int = 0
-
-    # salvando resultado ===============================================================================================================
-    result: dict = {
-        "Type": [type],
-        "Result 1": [result_1],
-        "Result 2": [result_2]
+# Funções auxiliares =========================================================================================
+def funcao_base(repository_commits: pd.DataFrame, change_type: str = "large") -> pd.DataFrame:
+    """Função Base para o processamento de dados"""
+    
+    result = {
+        "Type": [change_type],
+        "Result 1": ["Result 1"],
+        "Result 2": ["Result 2"]
     }
-    result: pd.DataFrame = pd.DataFrame(result)
-    return result
+    return pd.DataFrame(result)
 
+def process_language(lang: str, large: pd.DataFrame, small: pd.DataFrame, output_path: str):
+    """Processa e salva resultados por linguagem"""
+    results = []
+    if not large.empty:
+        results.append(funcao_base(large, 'large'))
+    if not small.empty:
+        results.append(funcao_base(small, 'small'))
+    
+    if results:
+        pd.concat(results).to_csv(f"{output_path}/per_languages/{lang}.csv", index=False)
 
-# lendo csvs =======================================================================================================
-for i in range(len(repositories)):
-    # getting repository information
-    repository, language = repositories.loc[i, ['url', 'main language']]
+# Processamento principal =====================================================================================
+current_language = None
+current_large = pd.DataFrame()
+current_small = pd.DataFrame()
 
+for i, row in repositories.iterrows():
+    repo_url = row['url']
+    language = row['main language']
+    repo_name = repo_url.split('/')[-1]
+    repo_owner = repo_url.split('/')[-2]
+    repo_path = f"{language}/{repo_owner}~{repo_name}"
+    
+    # Cria diretórios necessários
+    makedirs(f"{output_path}/per_project/{language}", exist_ok=True)
     makedirs(f"{output_path}/per_languages", exist_ok=True)
-    makedirs(f"{output_path}/per_project", exist_ok=True)
+    
+    # Atualiza acumuladores de linguagem quando muda
+    if current_language and (language != current_language):
+        process_language(current_language, current_large, current_small, output_path)
+        current_large = pd.DataFrame()
+        current_small = pd.DataFrame()
+    
+    current_language = language
+    
+    # Processa arquivos grandes
+    large_path = f"{large_files_commits_path}{repo_path}.csv"
+    if path.exists(large_path):
+        large_df = pd.read_csv(large_path, sep=SEPARATOR)
+        current_large = pd.concat([current_large, large_df])
+        large_files_commits = pd.concat([large_files_commits, large_df])
+        
+        # Resultado por projeto (large)
+        project_result = funcao_base(large_df)
+        project_result.to_csv(f"{output_path}/per_project/{repo_path}_large.csv", index=False)
+    
+    # Processa arquivos pequenos
+    small_path = f"{small_files_commits_path}{repo_path}.csv"
+    if path.exists(small_path):
+        small_df = pd.read_csv(small_path, sep=SEPARATOR)
+        current_small = pd.concat([current_small, small_df])
+        small_files_commits = pd.concat([small_files_commits, small_df])
+        
+        # Resultado por projeto (small)
+        project_result = funcao_base(small_df, 'small')
+        project_result.to_csv(f"{output_path}/per_project/{repo_path}_small.csv", index=False)
 
-    repo_path: str = f"{language}/{repository.split('/')[-2]}~{repository.split('/')[-1]}"
+# Processa última linguagem
+if not current_large.empty or not current_small.empty:
+    process_language(current_language, current_large, current_small, output_path)
 
-    repository_large_files_commit: pd.DataFrame = pd.DataFrame()
-    repository_small_files_commit: pd.DataFrame = pd.DataFrame()
+# Resultado global ============================================================================================
+final_results = []
+if not large_files_commits.empty:
+    final_results.append(funcao_base(large_files_commits))
+if not small_files_commits.empty:
+    final_results.append(funcao_base(small_files_commits, 'small'))
 
-    print(repo_path)
-    if (last_language != language):
-        language_result: pd.DataFrame = pd.concat([base_function(large_last_language_commits), base_function(small_last_language_commits, "small")])
-        language_result.to_csv(f"{output_path}per_languages/{language}.csv")
-        language_result = pd.DataFrame()
-
-    if path.exists(f"{large_files_commits_path}{repo_path}.csv"):
-        repository_large_files_commit = pd.read_csv(f"{large_files_commits_path}{repo_path}.csv", sep=SEPARATOR)
-        large_files_commits = pd.concat([large_files_commits, repository_large_files_commit])
-        if (last_language == language):
-            large_last_language_commits = pd.concat([large_last_language_commits, repository_large_files_commit])
-
-    if path.exists(f"{small_files_commits_path}{repo_path}.csv"):
-        repository_small_files_commit = pd.read_csv(f"{small_files_commits_path}{repo_path}.csv", sep=SEPARATOR)
-        small_files_commits = pd.concat([small_files_commits, repository_small_files_commit])
-        if (last_language == language):
-            small_last_language_commits = pd.concat([small_last_language_commits, repository_small_files_commit])
-
-    large_project_result: pd.DataFrame = pd.DataFrame()
-    if (not repository_large_files_commit.empty):
-        large_project_result: pd.DataFrame = base_function(repository_large_files_commit)
-    small_project_result: pd.DataFrame = pd.DataFrame()
-    if (not repository_small_files_commit.empty):
-        small_project_result: pd.DataFrame = base_function(repository_small_files_commit, "small")
-    if ((not large_project_result.empty) or (not small_project_result.empty)):
-        pd.concat([large_project_result, small_project_result]).to_csv(f"{output_path}/per_project{repo_path}.csv")
-
-# for all =========================================================================================================================
-
-result : pd.DataFrame = pd.concat([base_function(large_files_commits), base_function(small_files_commits, "small")])
-result.to_csv(f"{output_path}/result.csv", index=False)
+if final_results:
+    pd.concat(final_results).to_csv(f"{output_path}/global_results.csv", index=False)
