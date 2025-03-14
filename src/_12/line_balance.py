@@ -86,6 +86,7 @@ for i in range(len(repositories)):
         language_result = pd.DataFrame()
         large_last_language_commits = pd.DataFrame()
         small_last_language_commits = pd.DataFrame()
+        last_language = language
 
     if path.exists(f"{large_files_commits_path}{repo_path}.csv"):
         repository_large_files_commit = pd.read_csv(f"{large_files_commits_path}{repo_path}.csv", sep=SEPARATOR)
