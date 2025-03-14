@@ -78,12 +78,13 @@ for i in range(len(repositories)):
     
     if (last_language != language):
         language_result: pd.DataFrame = pd.DataFrame() # if temporio do mateus
-        if path.exists(f"{large_files_commits_path}{language}"): # if temporio do mateus
-            language_result: pd.DataFrame = pd.concat([calc_lines_changes(large_last_language_commits), calc_lines_changes(small_last_language_commits, "small")])
-        elif path.exists(f"{small_files_commits_path}{language}"): # if temporio do mateus
-            language_result: pd.DataFrame = calc_lines_changes(small_last_language_commits, "small")
-        if not language_result.empty: # if temporio do mateus
-            language_result.to_csv(f"{output_path}per_languages/{language}.csv", index=False)
+        if (large_last_language_commits.empty or small_last_language_commits.empty):
+            if path.exists(f"{large_files_commits_path}{language}"): # if temporio do mateus
+                language_result: pd.DataFrame = pd.concat([calc_lines_changes(large_last_language_commits), calc_lines_changes(small_last_language_commits, "small")])
+            elif path.exists(f"{small_files_commits_path}{language}"): # if temporio do mateus
+                language_result: pd.DataFrame = calc_lines_changes(small_last_language_commits, "small")
+            if not language_result.empty: # if temporio do mateus
+                language_result.to_csv(f"{output_path}per_languages/{language}.csv", index=False)
         language_result = pd.DataFrame()
         large_last_language_commits = pd.DataFrame()
         small_last_language_commits = pd.DataFrame()
