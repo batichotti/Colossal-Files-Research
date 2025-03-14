@@ -27,49 +27,75 @@ small_last_language_commits: pd.DataFrame = pd.DataFrame()
 
 # função ==============================================================================================================
 def calc_lines_changes(repository_commits: pd.DataFrame, type: str = "large") -> pd.DataFrame:
-    # processando dados =================================================================================================
     repository_commits['Lines Balance'] = repository_commits['Lines Added'] - repository_commits['Lines Deleted']
-
-    # Filtrando apenas os commits onde o tipo de mudança é "MODIFY"
     repository_commits_modify = repository_commits[repository_commits['Change Type'] == 'MODIFY']
 
-    lines_added_max: int = repository_commits_modify[repository_commits_modify['Lines Balance'] > 0]['Lines Balance'].max()
-    if repository_commits_modify[repository_commits_modify['Lines Balance'] > 0].empty:
-        max_idx = "There is no added lines"
+    # Filtrando apenas commits com "Lines Balance" positivo
+    filtered_df = repository_commits_modify[repository_commits_modify['Lines Balance'] > 0]
+
+    if filtered_df.empty:
+        lines_added_max = 0
         project_max = "There is no added lines"
         file_max = "There is no added lines"
     else:
-        max_idx = repository_commits_modify[repository_commits_modify['Lines Balance'] > 0]['Lines Balance'].idxmax()
+        lines_added_max = filtered_df['Lines Balance'].max()
+        max_idx = filtered_df['Lines Balance'].idxmax()
+
+        # Se houver múltiplos índices, pegar o primeiro
         if isinstance(max_idx, pd.Series):
-            max_idx = max_idx.iloc[0]  # Pega apenas o primeiro índice
-        project_max: str = repository_commits_modify.loc[max_idx, "Local Commit PATH"]
-        project_max = "/".join(project_max.split("/")[-2:-1])
-        file_max: str = repository_commits_modify.loc[max_idx, "Local File PATH New"]
+            max_idx = max_idx.iloc[0]
 
-    lines_deleted_min: int = repository_commits_modify[repository_commits_modify['Lines Balance'] < 0]['Lines Balance'].min()
-    if repository_commits_modify[repository_commits_modify['Lines Balance'] < 0].empty:
-        min_idx = "There is no deleted lines"
+        # Garantir que project_max seja uma string
+        project_max = repository_commits_modify.loc[max_idx, "Local Commit PATH"]
+        if isinstance(project_max, pd.Series):
+            project_max = project_max.iloc[0]
+
+        project_max = "/".join(str(project_max).split("/")[-2:-1]) if "/" in str(project_max) else str(project_max)
+
+        # Garantir que file_max seja uma string
+        file_max = repository_commits_modify.loc[max_idx, "Local File PATH New"]
+        if isinstance(file_max, pd.Series):
+            file_max = file_max.iloc[0]
+        file_max = str(file_max)
+
+    # Filtrando commits com "Lines Balance" negativo
+    filtered_df = repository_commits_modify[repository_commits_modify['Lines Balance'] < 0]
+
+    if filtered_df.empty:
+        lines_deleted_min = 0
         project_min = "There is no deleted lines"
-        file_min: str = "There is no deleted lines"
+        file_min = "There is no deleted lines"
     else:
-        min_idx = repository_commits_modify[repository_commits_modify['Lines Balance'] < 0]['Lines Balance'].idxmin()
-        if isinstance(min_idx, pd.Series):
-            min_idx = min_idx.iloc[0]  # Pega apenas o primeiro índice
-        project_min: str = repository_commits_modify.loc[min_idx, "Local Commit PATH"]
-        project_min = "/".join(project_min.split("/")[-2:-1])
-        file_min: str = repository_commits_modify.loc[min_idx, "Local File PATH New"]
+        lines_deleted_min = filtered_df['Lines Balance'].min()
+        min_idx = filtered_df['Lines Balance'].idxmin()
 
-    # salvando resultado ===============================================================================================================
-    result: dict = {
-        "Type" : [type],
-        "Project Max" : [project_max],
-        "File Max" : [file_max],
-        "Added Max" : [lines_added_max],
-        "Project Min" : [project_min],
-        "File Min" : [file_min],
-        "Deleted Min" : [lines_deleted_min],
-    }
-    result: pd.DataFrame = pd.DataFrame(result)
+        # Se houver múltiplos índices, pegar o primeiro
+        if isinstance(min_idx, pd.Series):
+            min_idx = min_idx.iloc[0]
+
+        # Garantir que project_min seja uma string
+        project_min = repository_commits_modify.loc[min_idx, "Local Commit PATH"]
+        if isinstance(project_min, pd.Series):
+            project_min = project_min.iloc[0]
+
+        project_min = "/".join(str(project_min).split("/")[-2:-1]) if "/" in str(project_min) else str(project_min)
+
+        # Garantir que file_min seja uma string
+        file_min = repository_commits_modify.loc[min_idx, "Local File PATH New"]
+        if isinstance(file_min, pd.Series):
+            file_min = file_min.iloc[0]
+        file_min = str(file_min)
+
+    # Retornando os resultados como DataFrame
+    result = pd.DataFrame({
+        "Type": [type],
+        "Project Max": [project_max],
+        "File Max": [file_max],
+        "Added Max": [lines_added_max],
+        "Project Min": [project_min],
+        "File Min": [file_min],
+        "Deleted Min": [lines_deleted_min],
+    })
     return result
 
 
