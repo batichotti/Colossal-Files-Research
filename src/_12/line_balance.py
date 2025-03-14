@@ -28,7 +28,7 @@ small_last_language_commits: pd.DataFrame = pd.DataFrame()
 # função ==============================================================================================================
 def calc_lines_changes(repository_commits: pd.DataFrame, type: str = "large") -> pd.DataFrame:
     # processando dados =================================================================================================
-    repository_commits['Lines Balance'] = repository_commits['Lines Added'] + repository_commits['Lines Deleted']
+    repository_commits['Lines Balance'] = repository_commits['Lines Added'] - repository_commits['Lines Deleted']
 
     # Filtrando apenas os commits onde o tipo de mudança é "MODIFY"
     repository_commits_modify = repository_commits[repository_commits['Change Type'] == 'MODIFY']
