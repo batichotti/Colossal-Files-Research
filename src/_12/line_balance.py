@@ -75,33 +75,33 @@ for i in range(len(repositories)):
     repository_small_files_commit: pd.DataFrame = pd.DataFrame()
 
     print(repo_path)
-    # if (last_language != language):
-    #     language_result: pd.DataFrame = pd.concat(calc_lines_changes(large_last_language_commits), calc_lines_changes(small_last_language_commits, "small"))
-    #     language_result.to_csv(f"{output_path}per_languages/{language}.csv")
-    #     language_result = pd.DataFrame()
+    if (last_language != language):
+        language_result: pd.DataFrame = pd.concat([calc_lines_changes(large_last_language_commits), calc_lines_changes(small_last_language_commits, "small")])
+        language_result.to_csv(f"{output_path}per_languages/{language}.csv")
+        language_result = pd.DataFrame()
 
     if path.exists(f"{large_files_commits_path}{repo_path}.csv"):
         repository_large_files_commit = pd.read_csv(f"{large_files_commits_path}{repo_path}.csv", sep=SEPARATOR)
-        large_files_commits = pd.concat(large_files_commits, repository_large_files_commit)
+        large_files_commits = pd.concat([large_files_commits, repository_large_files_commit])
         if (last_language == language):
-            large_last_language_commits = pd.concat(large_last_language_commits, repository_large_files_commit)
+            large_last_language_commits = pd.concat([large_last_language_commits, repository_large_files_commit])
 
     if path.exists(f"{small_files_commits_path}{repo_path}.csv"):
         repository_small_files_commit = pd.read_csv(f"{small_files_commits_path}{repo_path}.csv", sep=SEPARATOR)
-        small_files_commits = pd.concat(small_files_commits, repository_small_files_commit)
+        small_files_commits = pd.concat([small_files_commits, repository_small_files_commit])
         if (last_language == language):
-            small_last_language_commits = pd.concat(small_last_language_commits, repository_small_files_commit)
+            small_last_language_commits = pd.concat([small_last_language_commits, repository_small_files_commit])
 
     large_project_result: pd.DataFrame = pd.DataFrame()
     if (not repository_large_files_commit.empty):
         large_project_result: pd.DataFrame = calc_lines_changes(repository_large_files_commit)
     small_project_result: pd.DataFrame = pd.DataFrame()
     if (not repository_small_files_commit.empty):
-        small_project_result: pd.DataFrame = calc_lines_changes(repository_large_files_commit, "small")
+        small_project_result: pd.DataFrame = calc_lines_changes(repository_small_files_commit, "small")
     if ((not large_project_result.empty) or (not small_project_result.empty)):
-        pd.concat(large_project_result, small_project_result).to_csv(f"{output_path}/per_project{repo_path}.csv")
+        pd.concat([large_project_result, small_project_result]).to_csv(f"{output_path}/per_project{repo_path}.csv")
 
 # for all =========================================================================================================================
 
-# result : pd.DataFrame = pd.concat(calc_lines_changes(large_files_commits), calc_lines_changes(small_files_commits, "small"))
-# result.to_csv(f"{output_path}/result.csv", index=False)
+result : pd.DataFrame = pd.concat([calc_lines_changes(large_files_commits), calc_lines_changes(small_files_commits, "small")])
+result.to_csv(f"{output_path}/result.csv", index=False)
