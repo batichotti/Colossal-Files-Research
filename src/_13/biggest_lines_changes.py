@@ -27,11 +27,8 @@ small_last_language_commits: pd.DataFrame = pd.DataFrame()
 
 # função ==============================================================================================================
 def calc_lines_changes(repository_commits: pd.DataFrame, type: str = "large") -> pd.DataFrame:# Preenche NaN com 0 e calcula o Lines Balance
-    # Preenche NaN com 0 e calcula o Lines Balance
-    repository_commits['Lines Balance'] = (
-        repository_commits['Lines Added'].fillna(0) - 
-        repository_commits['Lines Deleted'].fillna(0)
-    )
+    # processando dados =================================================================================================
+    repository_commits['Lines Balance'] = repository_commits['Lines Added'] - repository_commits['Lines Deleted']
     repository_commits_modify = repository_commits[repository_commits['Change Type'] == 'MODIFY']
 
     # Parte 1: Valores Máximos (Lines Balance > 0)
