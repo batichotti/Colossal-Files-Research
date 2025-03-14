@@ -34,7 +34,7 @@ def calc_lines_changes(repository_commits: pd.DataFrame, type: str = "large") ->
     repository_commits_modify = repository_commits[repository_commits['Change Type'] == 'MODIFY']
 
     lines_added_max: int = repository_commits_modify[repository_commits_modify['Lines Balance'] > 0]['Lines Balance'].max()
-    if repository_commits_modify[repository_commits_modify['Lines Balance'] > 0]['Lines Balance'].empty:
+    if repository_commits_modify[repository_commits_modify['Lines Balance'] > 0].empty:
         max_idx = "There is no added lines"
     else:
         max_idx = repository_commits_modify[repository_commits_modify['Lines Balance'] > 0]['Lines Balance'].idxmax()
@@ -43,7 +43,7 @@ def calc_lines_changes(repository_commits: pd.DataFrame, type: str = "large") ->
         file_max: str = repository_commits_modify.loc[max_idx, "Local File PATH New"]
 
     lines_deleted_min: int = repository_commits_modify[repository_commits_modify['Lines Balance'] < 0]['Lines Balance'].min()
-    if repository_commits_modify[repository_commits_modify['Lines Balance'] < 0]['Lines Balance'].empty:
+    if repository_commits_modify[repository_commits_modify['Lines Balance'] < 0].empty:
         min_idx = "There is no deleted lines"
     else:
         min_idx = repository_commits_modify[repository_commits_modify['Lines Balance'] < 0]['Lines Balance'].idxmin()
