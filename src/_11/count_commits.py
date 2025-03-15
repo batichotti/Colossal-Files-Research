@@ -24,6 +24,10 @@ small_files_commits: pd.DataFrame = pd.DataFrame()
 # Funções auxiliares =========================================================================================
 def count_commits(large_repository_commits: pd.DataFrame, small_repository_commits: pd.DataFrame) -> pd.DataFrame:
     """Função que contabiliza quandidade de commits Large e Small para um projeto"""
+
+    large_repository_commits = large_repository_commits.drop_duplicates(subset=['Hash'], keep="first")
+    small_repository_commits = small_repository_commits.drop_duplicates(subset=['Hash'], keep="first")
+
     merged_df: pd.DataFrame = pd.concat([large_repository_commits, small_repository_commits])
     merged_df = merged_df.drop_duplicates(subset=['Hash'], keep="first")
 
