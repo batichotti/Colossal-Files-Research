@@ -183,7 +183,7 @@ for i, row in repositories.iterrows():
     
     current_language = language
 
-    large_list_df: pd.DataFrame = pd.read_csv(f"{large_files_list_path}{repo_path}")
+    large_list_df: pd.DataFrame = pd.read_csv(f"{large_files_list_path}{repo_path}.csv")
     current_large_list = pd.concat([current_large_list, large_list_df])
     large_files_list_geral = pd.concat([large_files_list_geral, large_list_df])
     
