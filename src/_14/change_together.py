@@ -176,7 +176,7 @@ for i, row in repositories.iterrows():
 
     # Atualiza acumuladores de linguagem quando muda
     if current_language and (language != current_language):
-        process_language(current_language, current_large, current_small, output_path)
+        process_language(current_language, current_large, current_small, current_large_list, output_path)
         current_large_list = pd.DataFrame()
         current_large = pd.DataFrame()
         current_small = pd.DataFrame()
