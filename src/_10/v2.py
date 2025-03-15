@@ -38,22 +38,23 @@ def process_repository(i):
             print(f'{repo_path} - Large: {len(hashs_large)}')
             for hash in hashs_large:
                 # Lê o commit.csv
-                commit_df = pd.read_csv(f"{large_files_commits_path}{repo_path}/{hash}/commit.csv", sep=SEPARATOR)
-                # Lista todos os arquivos dentro da pasta files
-                file_dfs = []
-                for file in listdir(f"{large_files_commits_path}{repo_path}/{hash}/files"):
-                    file_path = f"{large_files_commits_path}{repo_path}/{hash}/files/{file}"
-                    file_df = pd.read_csv(file_path, sep=SEPARATOR)
-                    file_dfs.append(file_df)
-                # Se houver arquivos, junta eles verticalmente
-                if file_dfs:
-                    df_vertical = pd.concat(file_dfs, ignore_index=True)
-                    # Adiciona commit.csv horizontalmente para todas as linhas
-                    if len(commit_df) == 1:
-                        commit_df = commit_df.loc[commit_df.index.repeat(len(df_vertical))].reset_index(drop=True)
-                    df_final = pd.concat([df_vertical, commit_df], axis=1)
-                    # Adiciona ao DataFrame principal
-                    large_files_commits_df = pd.concat([large_files_commits_df, df_final], ignore_index=True)
+                if path.exists(f"{large_files_commits_path}{repo_path}/{hash}/commit.csv"):
+                    commit_df = pd.read_csv(f"{large_files_commits_path}{repo_path}/{hash}/commit.csv", sep=SEPARATOR)
+                    # Lista todos os arquivos dentro da pasta files
+                    file_dfs = []
+                    for file in listdir(f"{large_files_commits_path}{repo_path}/{hash}/files"):
+                        file_path = f"{large_files_commits_path}{repo_path}/{hash}/files/{file}"
+                        file_df = pd.read_csv(file_path, sep=SEPARATOR)
+                        file_dfs.append(file_df)
+                    # Se houver arquivos, junta eles verticalmente
+                    if file_dfs:
+                        df_vertical = pd.concat(file_dfs, ignore_index=True)
+                        # Adiciona commit.csv horizontalmente para todas as linhas
+                        if len(commit_df) == 1:
+                            commit_df = commit_df.loc[commit_df.index.repeat(len(df_vertical))].reset_index(drop=True)
+                        df_final = pd.concat([df_vertical, commit_df], axis=1)
+                        # Adiciona ao DataFrame principal
+                        large_files_commits_df = pd.concat([large_files_commits_df, df_final], ignore_index=True)
             # Se o DataFrame final não estiver vazio, salva
             if large_files_commits_df.empty:
                 print(f'\033[33mVazio Large: {repo_path}\033[m')
@@ -72,22 +73,23 @@ def process_repository(i):
             print(f'{repo_path} - Small: {len(hashs_small)}')
             for hash in hashs_small:
                 # Lê o commit.csv
-                commit_df = pd.read_csv(f"{small_files_commits_path}{repo_path}/{hash}/commit.csv", sep=SEPARATOR)
-                # Lista todos os arquivos dentro da pasta files
-                file_dfs = []
-                for file in listdir(f"{small_files_commits_path}{repo_path}/{hash}/files"):
-                    file_path = f"{small_files_commits_path}{repo_path}/{hash}/files/{file}"
-                    file_df = pd.read_csv(file_path, sep=SEPARATOR)
-                    file_dfs.append(file_df)
-                # Se houver arquivos, junta eles verticalmente
-                if file_dfs:
-                    df_vertical = pd.concat(file_dfs, ignore_index=True)
-                    # Adiciona commit.csv horizontalmente para todas as linhas
-                    if len(commit_df) == 1:
-                        commit_df = commit_df.loc[commit_df.index.repeat(len(df_vertical))].reset_index(drop=True)
-                    df_final = pd.concat([df_vertical, commit_df], axis=1)
-                    # Adiciona ao DataFrame principal
-                    small_files_commits_df = pd.concat([small_files_commits_df, df_final], ignore_index=True)
+                if path.exists(f"{small_files_commits_path}{repo_path}/{hash}/commit.csv"):
+                    commit_df = pd.read_csv(f"{small_files_commits_path}{repo_path}/{hash}/commit.csv", sep=SEPARATOR)
+                    # Lista todos os arquivos dentro da pasta files
+                    file_dfs = []
+                    for file in listdir(f"{small_files_commits_path}{repo_path}/{hash}/files"):
+                        file_path = f"{small_files_commits_path}{repo_path}/{hash}/files/{file}"
+                        file_df = pd.read_csv(file_path, sep=SEPARATOR)
+                        file_dfs.append(file_df)
+                    # Se houver arquivos, junta eles verticalmente
+                    if file_dfs:
+                        df_vertical = pd.concat(file_dfs, ignore_index=True)
+                        # Adiciona commit.csv horizontalmente para todas as linhas
+                        if len(commit_df) == 1:
+                            commit_df = commit_df.loc[commit_df.index.repeat(len(df_vertical))].reset_index(drop=True)
+                        df_final = pd.concat([df_vertical, commit_df], axis=1)
+                        # Adiciona ao DataFrame principal
+                        small_files_commits_df = pd.concat([small_files_commits_df, df_final], ignore_index=True)
             # Se o DataFrame final não estiver vazio, salva
             if small_files_commits_df.empty:
                 print(f'\033[33mVazio Small: {repo_path}\033[m')
