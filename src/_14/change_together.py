@@ -35,7 +35,7 @@ def together_change(repository_commits: pd.DataFrame, large_files_list_df: pd.Da
 
     large_files_list_df['File Path'] = large_files_list_df["path"].apply(lambda x: together_metric(x))
     # agrupar o df "repository_commits" pela coluna ["Hash"] para faze as análises pelas hashs
-    # ve se ou na coluna "Local File PATH Old" ou na "Local File PATH New" existe algum arquivo grande
+    # ve se ou na coluna "Local File PATH Old" ou na "Local File PATH New" existe algum arquivo grande em large_files_list_df['File Path']
     # caso exista verificar quantos elementos da mesma hash diferentes do arquivo analisados tem
     # se existir algum outro elemento anota quantos elementos existem
     # bem como verificar quais desses elementos estão na lista de arquivos grandes / verificar o nloc?
