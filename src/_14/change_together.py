@@ -107,38 +107,39 @@ def together_change(repository_commits: pd.DataFrame, large_files_list_df: pd.Da
         }
         return pd.DataFrame(result)
     
-    # Calculate metrics
-    together_mean = np.mean(totals)
-    together_median = np.median(totals)
-    together_total = sum(totals)
-    together_percentage = (sum(1 for t in totals if t > 1) / total_commits) * 100
-    
-    together_large_mean = np.mean(large_counts)
-    together_large_median = np.median(large_counts)
-    together_large_total = sum(large_counts)
-    together_large_percentage = (sum(1 for l in large_counts if l > 1) / total_commits) * 100
-    
-    together_small_mean = np.mean(small_counts)
-    together_small_median = np.median(small_counts)
-    together_small_total = sum(small_counts)
-    together_small_percentage = (sum(1 for s in small_counts if s > 0) / total_commits) * 100
-    
-    # Build result dictionary
-    result = {
-        "Type": [change_type],
-        "Together Mean": [together_mean],
-        "Together Median": [together_median],
-        "Together TOTAL": [together_total],
-        "Together Percentage": [together_percentage],
-        "Together with Large Mean": [together_large_mean],
-        "Together with Large Median": [together_large_median],
-        "Together with Large TOTAL": [together_large_total],
-        "Together with Large Percentage": [together_large_percentage],
-        "Together with Small Mean": [together_small_mean],
-        "Together with Small Median": [together_small_median],
-        "Together with Small TOTAL": [together_small_total],
-        "Together with Small Percentage": [together_small_percentage]
-    }
+    else:
+        # Calculate metrics
+        together_mean = np.mean(totals)
+        together_median = np.median(totals)
+        together_total = sum(totals)
+        together_percentage = (sum(1 for t in totals if t > 1) / total_commits) * 100
+        
+        together_large_mean = np.mean(large_counts)
+        together_large_median = np.median(large_counts)
+        together_large_total = sum(large_counts)
+        together_large_percentage = (sum(1 for l in large_counts if l > 1) / total_commits) * 100
+        
+        together_small_mean = np.mean(small_counts)
+        together_small_median = np.median(small_counts)
+        together_small_total = sum(small_counts)
+        together_small_percentage = (sum(1 for s in small_counts if s > 0) / total_commits) * 100
+        
+        # Build result dictionary
+        result = {
+            "Type": [change_type],
+            "Together Mean": [together_mean],
+            "Together Median": [together_median],
+            "Together TOTAL": [together_total],
+            "Together Percentage": [together_percentage],
+            "Together with Large Mean": [together_large_mean],
+            "Together with Large Median": [together_large_median],
+            "Together with Large TOTAL": [together_large_total],
+            "Together with Large Percentage": [together_large_percentage],
+            "Together with Small Mean": [together_small_mean],
+            "Together with Small Median": [together_small_median],
+            "Together with Small TOTAL": [together_small_total],
+            "Together with Small Percentage": [together_small_percentage]
+        }
     
     return pd.DataFrame(result)
 
