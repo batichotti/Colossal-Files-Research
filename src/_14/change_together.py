@@ -50,16 +50,7 @@ def together_change(repository_commits: pd.DataFrame, large_files_list_df: pd.Da
     
     large_files_list_df['File Path'] = large_files_list_df["path"].apply(lambda x: together_metric(x))
     large_files_set = set(large_files_list_df['File Path'].unique())
-    
-    # Helper function to apply together_metric handling None values
-    def normalize_path(path):
-        return together_metric(path) if path is not None else None
-    
-    # Normalize old and new paths in repository_commits
-    repository_commits = repository_commits.copy()
-    repository_commits['old_norm'] = repository_commits['Local File PATH Old'].apply(normalize_path)
-    repository_commits['new_norm'] = repository_commits['Local File PATH New'].apply(normalize_path)
-    
+
     # Group commits by hash
     grouped = repository_commits.groupby('Hash')
     
@@ -71,8 +62,8 @@ def together_change(repository_commits: pd.DataFrame, large_files_list_df: pd.Da
     for hash_val, group in grouped:
         unique_files = set()
         for _, row in group.iterrows():
-            old = row['old_norm']
-            new = row['new_norm']
+            old = row['Local File PATH Old']
+            new = row['Local File PATH New']
             if old is not None:
                 unique_files.add(old)
             if new is not None:
