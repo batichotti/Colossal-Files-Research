@@ -43,6 +43,7 @@ def together_change(repository_commits: pd.DataFrame, large_files_list_df: pd.Da
     # quantas foram com arquivos não grandes
     # por fim quantas foram com arquivos grandes e tambem com arquivos não grandes
 
+
     def together_metric(file_path: str) -> float:
         """Corrige o path para analise em together_change()"""
         # Implementação fictícia para cálculo da métrica
@@ -99,11 +100,12 @@ def together_change(repository_commits: pd.DataFrame, large_files_list_df: pd.Da
         return pd.DataFrame(result)
     
     else:
+        commits_total = len(repository_commits["Hash"].unique())
         # Calculate metrics
         together_mean = np.mean(totals)
         together_median = np.median(totals)
         together_total = sum(totals)
-        together_percentage = (sum(1 for t in totals if t > 1) / total_commits) * 100
+        together_percentage = (total_commits / commits_total) * 100
         
         together_large_mean = np.mean(large_counts)
         together_large_median = np.median(large_counts)
