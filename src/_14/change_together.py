@@ -38,7 +38,7 @@ def together_change(repository_commits: pd.DataFrame, large_files_list_df: pd.Da
     # ve se ou na coluna "Local File PATH Old" ou na "Local File PATH New" existe algum arquivo grande em large_files_list_df['File Path']
     # caso exista verificar quantos elementos da mesma hash diferentes do arquivo analisados tem
     # se existir algum outro elemento anota quantos elementos existem
-    # bem como verificar quais desses elementos estão na lista de arquivos grandes / verificar o nloc?
+    # bem como verificar quais desses elementos estão na lista de arquivos grandes
     # salvar esses dois valores separados
     # fazer isso para todas as hashs
     # calcular media/avg, mediana, e porcentagem pelo total e total para quantos commits tiveram mudança de um arquivo grande com outro arquivo
