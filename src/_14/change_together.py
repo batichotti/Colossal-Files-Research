@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 from os import makedirs, path
 from sys import setrecursionlimit
 
@@ -24,16 +25,12 @@ small_files_commits: pd.DataFrame = pd.DataFrame()
 large_files_list_geral: pd.DataFrame = pd.DataFrame()
 
 # Funções auxiliares =========================================================================================
-def together_metric(file_path: str) -> float:
-    """Corrige o path para analise em together_change()"""
-    # Implementação fictícia para cálculo da métrica
-    return "/".join(path.split("/")[6:])
 
 def together_change(repository_commits: pd.DataFrame, large_files_list_df: pd.DataFrame, change_type: str = "large") -> pd.DataFrame:
     """Detecta quais commits de arquivos grandes tiveram mudanças com outros arquivos"""
-    #ver com quantos arquivos? quanto eram grandes? quantos eram pequenos
+    
 
-    large_files_list_df['File Path'] = large_files_list_df["path"].apply(lambda x: together_metric(x))
+    #ver com quantos arquivos? quanto eram grandes? quantos eram pequenos
     # agrupar o df "repository_commits" pela coluna ["Hash"] para faze as análises pelas hashs
     # ve se ou na coluna "Local File PATH Old" ou na "Local File PATH New" existe algum arquivo grande em large_files_list_df['File Path']
     # caso exista verificar quantos elementos da mesma hash diferentes do arquivo analisados tem
@@ -46,21 +43,103 @@ def together_change(repository_commits: pd.DataFrame, large_files_list_df: pd.Da
     # quantas foram com arquivos não grandes
     # por fim quantas foram com arquivos grandes e tambem com arquivos não grandes
 
-    result: dict = {
+    def together_metric(file_path: str) -> float:
+        """Corrige o path para analise em together_change()"""
+        # Implementação fictícia para cálculo da métrica
+        return "/".join(file_path.split("/")[6:])
+    
+    large_files_list_df['File Path'] = large_files_list_df["path"].apply(lambda x: together_metric(x))
+    large_files_set = set(large_files_list_df['File Path'].unique())
+    
+    # Helper function to apply together_metric handling None values
+    def normalize_path(path):
+        return together_metric(path) if path is not None else None
+    
+    # Normalize old and new paths in repository_commits
+    repository_commits = repository_commits.copy()
+    repository_commits['old_norm'] = repository_commits['Local File PATH Old'].apply(normalize_path)
+    repository_commits['new_norm'] = repository_commits['Local File PATH New'].apply(normalize_path)
+    
+    # Group commits by hash
+    grouped = repository_commits.groupby('Hash')
+    
+    # Collect metrics for commits with large files
+    totals = []
+    large_counts = []
+    small_counts = []
+    
+    for hash_val, group in grouped:
+        unique_files = set()
+        for _, row in group.iterrows():
+            old = row['old_norm']
+            new = row['new_norm']
+            if old is not None:
+                unique_files.add(old)
+            if new is not None:
+                unique_files.add(new)
+        # Check if any of the files are large
+        if unique_files & large_files_set:
+            total = len(unique_files)
+            large = len(unique_files & large_files_set)
+            small = total - large
+            totals.append(total)
+            large_counts.append(large)
+            small_counts.append(small)
+    
+    # Compute statistics
+    total_commits = len(totals)
+    if total_commits == 0:
+        # Return default values if no commits with large files
+        result = {
+            "Type": [change_type],
+            "Together Mean": [0],
+            "Together Median": [0],
+            "Together TOTAL": [0],
+            "Together Percentage": [0],
+            "Together with Large Mean": [0],
+            "Together with Large Median": [0],
+            "Together with Large TOTAL": [0],
+            "Together with Large Percentage": [0],
+            "Together with Small Mean": [0],
+            "Together with Small Median": [0],
+            "Together with Small TOTAL": [0],
+            "Together with Small Percentage": [0]
+        }
+        return pd.DataFrame(result)
+    
+    # Calculate metrics
+    together_mean = np.mean(totals)
+    together_median = np.median(totals)
+    together_total = sum(totals)
+    together_percentage = (sum(1 for t in totals if t > 1) / total_commits) * 100
+    
+    together_large_mean = np.mean(large_counts)
+    together_large_median = np.median(large_counts)
+    together_large_total = sum(large_counts)
+    together_large_percentage = (sum(1 for l in large_counts if l > 1) / total_commits) * 100
+    
+    together_small_mean = np.mean(small_counts)
+    together_small_median = np.median(small_counts)
+    together_small_total = sum(small_counts)
+    together_small_percentage = (sum(1 for s in small_counts if s > 0) / total_commits) * 100
+    
+    # Build result dictionary
+    result = {
         "Type": [change_type],
-        "Together Mean": ["Result 1"],
-        "Together Median": ["Result 2"],
-        "Together TOTAL": ["Result 3"],
-        "Together Percentage": ["Result 4"],
-        "Together with Large Mean": ["Result 5"],
-        "Together with Large Median": ["Result 6"],
-        "Together with Large TOTAL": ["Result 7"],
-        "Together with Large Percentage": ["Result 8"],
-        "Together with Small Mean": ["Result 9"],
-        "Together with Small Median": ["Result 10"],
-        "Together with Small TOTAL": ["Result 11"],
-        "Together with Small Percentage": ["Result 12"]
+        "Together Mean": [together_mean],
+        "Together Median": [together_median],
+        "Together TOTAL": [together_total],
+        "Together Percentage": [together_percentage],
+        "Together with Large Mean": [together_large_mean],
+        "Together with Large Median": [together_large_median],
+        "Together with Large TOTAL": [together_large_total],
+        "Together with Large Percentage": [together_large_percentage],
+        "Together with Small Mean": [together_small_mean],
+        "Together with Small Median": [together_small_median],
+        "Together with Small TOTAL": [together_small_total],
+        "Together with Small Percentage": [together_small_percentage]
     }
+    
     return pd.DataFrame(result)
 
 def process_language(lang: str, large: pd.DataFrame, small: pd.DataFrame, large_files_list_df:pd.DataFrame, output_path: str):
