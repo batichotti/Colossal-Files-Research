@@ -44,7 +44,7 @@ def together_change(repository_commits: pd.DataFrame, large_files_list_df: pd.Da
     # por fim quantas foram com arquivos grandes e tambem com arquivos não grandes
 
 
-    def path_correction(file_path: str) -> float:
+    def path_correction(file_path: str) -> str:
         """Corrige o path para analise em together_change()"""
         # Implementação fictícia para cálculo da métrica
         return "/".join(file_path.split("/")[6:])
