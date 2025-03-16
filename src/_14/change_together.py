@@ -73,8 +73,11 @@ def together_change(repository_commits: pd.DataFrame, large_files_list_df: pd.Da
         # Check if any of the files are large
         if unique_files & large_files_set:
             first_large = next(iter(unique_files & large_files_set)) # pega o primeiro elemento
-            total: int = len(unique_files.remove(first_large))
-            large: int = len((unique_files & large_files_set).remove(first_large))
+            remaining_files = unique_files.copy()
+            remaining_files.remove(first_large) # retira o primeiro large file das contas
+
+            total: int = len(remaining_files)
+            large: int = len(remaining_files & large_files_set)
             small: int = total - large
             # files count
             totals.append(total)
@@ -107,7 +110,7 @@ def together_change(repository_commits: pd.DataFrame, large_files_list_df: pd.Da
             "Together with Small Percentage": [0]
         }
         return pd.DataFrame(result)
-    
+
     else:
         repo_commits_total = len(repository_commits["Hash"].unique())
         # Calculate metrics
