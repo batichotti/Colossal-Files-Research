@@ -105,7 +105,8 @@ def together_change(repository_commits: pd.DataFrame, large_files_list_df: pd.Da
         together_mean = np.mean(totals)
         together_median = np.median(totals)
         together_total = sum(totals)
-        together_percentage = (total_commits / commits_total) * 100
+        commits_with_together_changes = sum(1 for t in totals if t > 1)
+        together_percentage = (commits_with_together_changes / commits_total)
         
         together_large_mean = np.mean(large_counts)
         together_large_median = np.median(large_counts)
