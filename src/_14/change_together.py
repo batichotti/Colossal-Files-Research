@@ -52,6 +52,7 @@ def together_change(repository_commits: pd.DataFrame, large_files_list_df: pd.Da
 
     # Group commits by hash
     grouped = repository_commits.groupby('Hash')
+    repo_commits_total = len(repository_commits["Hash"].unique())
     
     # Collect metrics for commits with large files
     total_commits: int = 0
@@ -99,6 +100,7 @@ def together_change(repository_commits: pd.DataFrame, large_files_list_df: pd.Da
         # Return default values if no commits with large files
         result = {
             "Type": [change_type],
+            "#Commits Anal": [repo_commits_total],
             "Together Mean": [0],
             "Together Median": [0],
             "Together TOTAL": [0],
@@ -115,7 +117,6 @@ def together_change(repository_commits: pd.DataFrame, large_files_list_df: pd.Da
         return pd.DataFrame(result)
 
     else:
-        repo_commits_total = len(repository_commits["Hash"].unique())
         # Calculate metrics
         together_mean = np.mean(totals)
         together_median = np.median(totals)
@@ -132,6 +133,7 @@ def together_change(repository_commits: pd.DataFrame, large_files_list_df: pd.Da
         # Build result dictionary
         result = {
             "Type": [change_type],
+            "#Commits Anal": [repo_commits_total],
             "Together Mean": [together_mean],
             "Together Median": [together_median],
             "Together TOTAL": [total_commits],
