@@ -28,9 +28,8 @@ large_files_list_geral: pd.DataFrame = pd.DataFrame()
 
 def together_change(repository_commits: pd.DataFrame, large_files_list_df: pd.DataFrame, change_type: str = "large") -> pd.DataFrame:
     """Detecta quais commits de arquivos grandes tiveram mudanças com outros arquivos"""
-    
 
-    #ver com quantos arquivos? quanto eram grandes? quantos eram pequenos
+    # ver com quantos arquivos? quanto eram grandes? quantos eram pequenos
     # agrupar o df "repository_commits" pela coluna ["Hash"] para faze as análises pelas hashs
     # ve se ou na coluna "Local File PATH Old" ou na "Local File PATH New" existe algum arquivo grande em large_files_list_df['File Path']
     # caso exista verificar quantos elementos da mesma hash diferentes do arquivo analisados tem
@@ -42,7 +41,6 @@ def together_change(repository_commits: pd.DataFrame, large_files_list_df: pd.Da
     # calcular mesmas medias para quantas dessas mudanças foram com arquivos grandes
     # quantas foram com arquivos não grandes
     # por fim quantas foram com arquivos grandes e tambem com arquivos não grandes
-
 
     def path_correction(file_path: str) -> str:
         """Corrige o path para analise em together_change()"""
@@ -74,7 +72,7 @@ def together_change(repository_commits: pd.DataFrame, large_files_list_df: pd.Da
                 unique_files.add(new)
         # Check if any of the files are large
         if unique_files & large_files_set:
-            first_large = (unique_files & large_files_set)[0]
+            first_large = next(iter(unique_files & large_files_set)) # pega o primeiro elemento
             total: int = len(unique_files.remove(first_large))
             large: int = len((unique_files & large_files_set).remove(first_large))
             small: int = total - large
@@ -88,7 +86,6 @@ def together_change(repository_commits: pd.DataFrame, large_files_list_df: pd.Da
                 total_with_large += 1
             if small:
                 total_with_small += 1
-    
 
     # Compute statistics
     # total_commits = len(totals)
