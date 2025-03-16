@@ -56,6 +56,9 @@ def together_change(repository_commits: pd.DataFrame, large_files_list_df: pd.Da
     grouped = repository_commits.groupby('Hash')
     
     # Collect metrics for commits with large files
+    total_commits = 0
+    total_with_large = 0
+    total_with_small = 0
     totals = []
     large_counts = []
     small_counts = []
@@ -74,12 +77,20 @@ def together_change(repository_commits: pd.DataFrame, large_files_list_df: pd.Da
             total = len(unique_files)
             large = len(unique_files & large_files_set)
             small = total - large
+            # files count
             totals.append(total)
             large_counts.append(large)
             small_counts.append(small)
+            # commits count
+            total_commits += 1
+            if large:
+                total_with_large += 1
+            if small:
+                total_with_small += 1
     
+
     # Compute statistics
-    total_commits = len(totals)
+    # total_commits = len(totals)
     if total_commits == 0:
         # Return default values if no commits with large files
         result = {
@@ -100,38 +111,34 @@ def together_change(repository_commits: pd.DataFrame, large_files_list_df: pd.Da
         return pd.DataFrame(result)
     
     else:
-        commits_total = len(repository_commits["Hash"].unique())
+        repo_commits_total = len(repository_commits["Hash"].unique())
         # Calculate metrics
         together_mean = np.mean(totals)
         together_median = np.median(totals)
-        together_total = sum(totals)
-        commits_with_together_changes = sum(1 for t in totals if t > 1)
-        together_percentage = (commits_with_together_changes / commits_total)
+        together_percentage = (total_commits / repo_commits_total)
         
         together_large_mean = np.mean(large_counts)
         together_large_median = np.median(large_counts)
-        together_large_total = sum(large_counts)
-        together_large_percentage = (sum(1 for l in large_counts if l > 1) / total_commits) * 100
+        together_large_percentage = (total_with_large / total_commits) * 100
         
         together_small_mean = np.mean(small_counts)
         together_small_median = np.median(small_counts)
-        together_small_total = sum(small_counts)
-        together_small_percentage = (sum(1 for s in small_counts if s > 0) / total_commits) * 100
+        together_small_percentage = (total_with_small / total_commits) * 100
         
         # Build result dictionary
         result = {
             "Type": [change_type],
             "Together Mean": [together_mean],
             "Together Median": [together_median],
-            "Together TOTAL": [together_total],
+            "Together TOTAL": [total_commits],
             "Together Percentage": [together_percentage],
             "Together with Large Mean": [together_large_mean],
             "Together with Large Median": [together_large_median],
-            "Together with Large TOTAL": [together_large_total],
+            "Together with Large TOTAL": [total_with_large],
             "Together with Large Percentage": [together_large_percentage],
             "Together with Small Mean": [together_small_mean],
             "Together with Small Median": [together_small_median],
-            "Together with Small TOTAL": [together_small_total],
+            "Together with Small TOTAL": [total_with_small],
             "Together with Small Percentage": [together_small_percentage]
         }
     
