@@ -119,7 +119,7 @@ def together_change(repository_commits: pd.DataFrame, large_files_list_df: pd.Da
         # Calculate metrics
         together_mean = np.mean(totals)
         together_median = np.median(totals)
-        together_percentage = (total_commits / repo_commits_total)
+        together_percentage = (total_commits / repo_commits_total) * 100
         
         together_large_mean = np.mean(large_counts)
         together_large_median = np.median(large_counts)
@@ -128,7 +128,7 @@ def together_change(repository_commits: pd.DataFrame, large_files_list_df: pd.Da
         together_small_mean = np.mean(small_counts)
         together_small_median = np.median(small_counts)
         together_small_percentage = (total_with_small / total_commits) * 100
-        
+
         # Build result dictionary
         result = {
             "Type": [change_type],
