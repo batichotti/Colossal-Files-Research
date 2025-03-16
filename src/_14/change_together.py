@@ -93,6 +93,8 @@ def together_change(repository_commits: pd.DataFrame, large_files_list_df: pd.Da
                 total_with_large += 1
             if small:
                 total_with_small += 1
+            else:
+                print(hash_val)
 
     # Compute statistics
     # total_commits = len(totals)
