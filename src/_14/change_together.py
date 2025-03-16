@@ -44,12 +44,12 @@ def together_change(repository_commits: pd.DataFrame, large_files_list_df: pd.Da
     # por fim quantas foram com arquivos grandes e tambem com arquivos não grandes
 
 
-    def together_metric(file_path: str) -> float:
+    def path_correction(file_path: str) -> float:
         """Corrige o path para analise em together_change()"""
         # Implementação fictícia para cálculo da métrica
         return "/".join(file_path.split("/")[6:])
     
-    large_files_list_df['File Path'] = large_files_list_df["path"].apply(lambda x: together_metric(x))
+    large_files_list_df['File Path'] = large_files_list_df["path"].apply(lambda x: path_correction(x))
     large_files_set = set(large_files_list_df['File Path'].unique())
 
     # Group commits by hash
