@@ -70,6 +70,9 @@ def together_change(repository_commits: pd.DataFrame, large_files_list_df: pd.Da
                 unique_files.add(old)
             if new:
                 unique_files.add(new)
+        if 'new file' in unique_files:
+            unique_files.remove('new file')
+
         # Check if any of the files are large
         if unique_files & large_files_set:
             first_large = next(iter(unique_files & large_files_set)) # pega o primeiro elemento
