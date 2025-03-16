@@ -71,7 +71,7 @@ def together_change(repository_commits: pd.DataFrame, large_files_list_df: pd.Da
             if new:
                 unique_files.add(new)
         if 'new file' in unique_files:
-            unique_files.remove('new file')
+            unique_files.remove('new file') # remove string de new file
 
         # Check if any of the files are large
         if unique_files & large_files_set:
