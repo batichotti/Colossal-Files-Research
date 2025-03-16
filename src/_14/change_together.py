@@ -50,33 +50,34 @@ def together_change(repository_commits: pd.DataFrame, large_files_list_df: pd.Da
         return "/".join(file_path.split("/")[6:])
     
     large_files_list_df['File Path'] = large_files_list_df["path"].apply(lambda x: path_correction(x))
-    large_files_set = set(large_files_list_df['File Path'].unique())
+    large_files_set: set[str] = set(large_files_list_df['File Path'])
 
     # Group commits by hash
     grouped = repository_commits.groupby('Hash')
     
     # Collect metrics for commits with large files
-    total_commits = 0
-    total_with_large = 0
-    total_with_small = 0
-    totals = []
-    large_counts = []
-    small_counts = []
+    total_commits: int = 0
+    total_with_large: int = 0
+    total_with_small: int = 0
+    totals: list[int] = []
+    large_counts: list[int] = []
+    small_counts: list[int] = []
     
     for hash_val, group in grouped:
-        unique_files = set()
+        unique_files: set[str] = set()
         for _, row in group.iterrows():
             old = row['Local File PATH Old']
             new = row['Local File PATH New']
-            if old is not None:
+            if old:
                 unique_files.add(old)
-            if new is not None:
+            if new:
                 unique_files.add(new)
         # Check if any of the files are large
         if unique_files & large_files_set:
-            total = len(unique_files)
-            large = len(unique_files & large_files_set)
-            small = total - large
+            first_large = (unique_files & large_files_set)[0]
+            total: int = len(unique_files.remove(first_large))
+            large: int = len((unique_files & large_files_set).remove(first_large))
+            small: int = total - large
             # files count
             totals.append(total)
             large_counts.append(large)
