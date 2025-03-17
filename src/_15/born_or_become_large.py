@@ -49,7 +49,7 @@ def born_or_become(repository_commits: pd.DataFrame, change_type: str = "large")
 
     # BECOME
     become_large = repository_commits[repository_commits['Change Type'] == 'MODIFY'].copy()
-    modifieds_total = len(become_large.groupby('Local File Path New'))
+    modifieds_total = len(become_large.groupby('Local File PATH New'))
 
     become_large['Extension'] = become_large['File Name'].apply(lambda x: x.split(".")[-1])
     become_large = become_large[become_large['Extension'].isin(language_white_list_df['Extension'].values)]
@@ -62,7 +62,7 @@ def born_or_become(repository_commits: pd.DataFrame, change_type: str = "large")
 
     percentil_99 = percentil_df.set_index('language')['percentil 99']
     become_large = become_large[become_large['Lines Of Code (nloc)'] >= become_large['Language'].map(percentil_99)]
-    become_large_per_file = become_large.groupby('Local File Path New')
+    become_large_per_file = become_large.groupby('Local File PATH New')
 
     result: dict = {
         "Type": [change_type],
