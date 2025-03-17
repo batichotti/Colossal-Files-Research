@@ -42,7 +42,7 @@ def process_repository(i):
                     commit_df = pd.read_csv(f"{large_files_commits_path}{repo_path}/{hash}/commit.csv", sep=SEPARATOR)
                     # Lista todos os arquivos dentro da pasta files
                     file_dfs = []
-                    if path.exists(f"{large_files_commits_path}{repo_path}/{hash}/files")
+                    if path.exists(f"{large_files_commits_path}{repo_path}/{hash}/files/")
                         for file in listdir(f"{large_files_commits_path}{repo_path}/{hash}/files"):
                             file_path = f"{large_files_commits_path}{repo_path}/{hash}/files/{file}"
                             file_df = pd.read_csv(file_path, sep=SEPARATOR)
@@ -78,7 +78,7 @@ def process_repository(i):
                     commit_df = pd.read_csv(f"{small_files_commits_path}{repo_path}/{hash}/commit.csv", sep=SEPARATOR)
                     # Lista todos os arquivos dentro da pasta files
                     file_dfs = []
-                    if path.exists(f"{small_files_commits_path}{repo_path}/{hash}/files")
+                    if path.exists(f"{small_files_commits_path}{repo_path}/{hash}/files/")
                         for file in listdir(f"{small_files_commits_path}{repo_path}/{hash}/files"):
                             file_path = f"{small_files_commits_path}{repo_path}/{hash}/files/{file}"
                             file_df = pd.read_csv(file_path, sep=SEPARATOR)
