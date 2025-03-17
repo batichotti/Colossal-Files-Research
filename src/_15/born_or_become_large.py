@@ -74,7 +74,7 @@ def born_or_become(repository_commits: pd.DataFrame, change_type: str = "large")
         lambda x: x['Lines Of Code (nloc)'] >= percentil_99.get(x['Language'], 0), 
         axis=1
     )]
-    
+
     become_large_per_file = become_large.groupby('Local File PATH New')
 
     result: dict = {
@@ -84,7 +84,7 @@ def born_or_become(repository_commits: pd.DataFrame, change_type: str = "large")
         "Added Large Files Percentage": [(len(born_large)/babies_total)*100],
         "Modified Files TOTAL": [modifieds_total],
         "Modified Large Files TOTAL": [len(become_large_per_file)],
-        "Modified Large Files TOTAL": [(len(become_large_per_file)/modifieds_total)*100]
+        "Modified Large Files Percentage": [(len(become_large_per_file)/modifieds_total)*100]
     }
     return pd.DataFrame(result)
 
