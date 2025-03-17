@@ -45,18 +45,15 @@ def born_or_become(repository_commits: pd.DataFrame, change_type: str = "large")
     ).drop(columns=['Extension'])
     born_large = born_large.dropna(subset=['Language'])  # Remove linhas sem linguagem mapeada
 
-    # Converte NLOC para numérico e filtra
-    born_large['Lines Of Code (nloc)'] = pd.to_numeric(born_large['Lines Of Code (nloc)'], errors='coerce')
-    born_large = born_large.dropna(subset=['Lines Of Code (nloc)'])
+    # Filtra as linhas onde a linguagem é igual e o número de linhas de código é menor que o percentil 99
     percentil_99 = percentil_df.set_index('language')['percentil 99']
     born_large = born_large[born_large.apply(
         lambda x: x['Lines Of Code (nloc)'] >= percentil_99.get(x['Language'], 0), axis=1
     )]
-
-    # Processa arquivos modificados (become_large)
+    
+    # BECOME
     become_large = repository_commits[repository_commits['Change Type'] == 'MODIFY'].copy()
-    modified_files = become_large['Local File PATH New'].unique()
-    modifieds_total = len(modified_files)
+    modifieds_total = len(become_large.groupby('Local File PATH New'))
 
     # Extrai extensão e filtra pela whitelist
     become_large['Extension'] = become_large['File Name'].apply(lambda x: x.split(".")[-1] if '.' in x else '')
@@ -70,19 +67,15 @@ def born_or_become(repository_commits: pd.DataFrame, change_type: str = "large")
     ).drop(columns=['Extension'])
     become_large = become_large.dropna(subset=['Language'])  # Remove linhas sem linguagem mapeada
 
-    # Converte NLOC para numérico e filtra
-    become_large['Lines Of Code (nloc)'] = pd.to_numeric(become_large['Lines Of Code (nloc)'], errors='coerce')
-    become_large = become_large.dropna(subset=['Lines Of Code (nloc)'])
-    become_large = become_large[become_large.apply(
-        lambda x: x['Lines Of Code (nloc)'] >= percentil_99.get(x['Language'], 0), axis=1
-    )]
-    become_large_files = become_large['Local File PATH New'].unique()
+    percentil_99 = percentil_df.set_index('language')['percentil 99']
+    become_large = become_large[become_large['Lines Of Code (nloc)'] >= become_large['Language'].map(percentil_99)]
+    become_large_per_file = become_large.groupby('Local File PATH New')
 
     # Calcula resultados
     added_large = len(born_large)
     added_percent = (added_large / babies_total * 100) if babies_total > 0 else 0.0
 
-    modified_large = len(become_large_files)
+    modified_large = len(become_large_per_file)
     modified_percent = (modified_large / modifieds_total * 100) if modifieds_total > 0 else 0.0
 
     result = {
@@ -94,7 +87,6 @@ def born_or_become(repository_commits: pd.DataFrame, change_type: str = "large")
         "Modified Large Files TOTAL": [modified_large],
         "Modified Large Files Percentage": [modified_percent]
     }
-    
     return pd.DataFrame(result)
 
 def process_language(lang: str, large: pd.DataFrame, small: pd.DataFrame, output_path: str):
