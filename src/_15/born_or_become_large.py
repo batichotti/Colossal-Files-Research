@@ -56,7 +56,7 @@ def born_or_become(repository_commits: pd.DataFrame, change_type: str = "large")
 
     born_large = born_large.sort_values(by='Committer Commit Date')
 
-    born_large.to_csv(f"{output_path}/per_project/{repo_path}_{type}s_commits_born.csv", index=False)
+    born_large.to_csv(f"{output_path}/per_project/{repo_path}/{change_type}s_born.csv", index=False)
 
     # BECOME
     become_large = repository_commits[repository_commits['Change Type'] == 'MODIFY'].copy()
@@ -83,7 +83,7 @@ def born_or_become(repository_commits: pd.DataFrame, change_type: str = "large")
 
     become_large = become_large.sort_values(by='Committer Commit Date')
 
-    become_large.to_csv(f"{output_path}/per_project/{repo_path}_{type}s_commits_become.csv", index=False)
+    become_large.to_csv(f"{output_path}/per_project/{repo_path}/{change_type}s_become.csv", index=False)
 
     become_large_per_file = become_large.groupby('Local File PATH New')
 
@@ -100,7 +100,7 @@ def born_or_become(repository_commits: pd.DataFrame, change_type: str = "large")
 
     flex_large_grouped = flex_large.groupby('Local File PATH New')
 
-    flex_large.to_csv(f"{output_path}/per_project/{repo_path}_{change_type}s_flex_large.csv", index=False)
+    flex_large.to_csv(f"{output_path}/per_project/{repo_path}/{change_type}s_flex.csv", index=False)
 
     # NO LONGER LARGE
     no_longer_large = repository_commits[repository_commits['Local File PATH New'].isin(
@@ -135,7 +135,7 @@ def born_or_become(repository_commits: pd.DataFrame, change_type: str = "large")
     no_longer:pd.DataFrame
     if remaining_no_longer:
         no_longer = pd.concat(remaining_no_longer)
-        no_longer.to_csv(f"{output_path}/per_project/{repo_path}_{change_type}s_no_longer.csv", index=False)
+        no_longer.to_csv(f"{output_path}/per_project/{repo_path}/{change_type}s_no_longer.csv", index=False)
 
     result: dict = {
         "Type": [change_type],
@@ -212,7 +212,7 @@ for i, row in repositories.iterrows():
         project_results.append(born_or_become(small_df, 'small'))
 
     if project_results:
-        pd.concat(project_results).to_csv(f"{output_path}/per_project/{repo_path}.csv", index=False)
+        pd.concat(project_results).to_csv(f"{output_path}/per_project/{repo_path}/summary.csv", index=False)
 
 # Processa última linguagem
 if not current_large.empty or not current_small.empty:
