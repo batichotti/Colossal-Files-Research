@@ -52,6 +52,8 @@ def born_or_become(repository_commits: pd.DataFrame, change_type: str = "large")
         axis=1
     )]
 
+    born_large.to_csv(f"{output_path}/per_project/{repo_path}_{type}s_commits_born.csv", index=False)
+
     # BECOME
     become_large = repository_commits[repository_commits['Change Type'] == 'MODIFY'].copy()
     modifieds_total = len(become_large.groupby('Local File PATH New'))
@@ -74,6 +76,8 @@ def born_or_become(repository_commits: pd.DataFrame, change_type: str = "large")
         lambda x: x['Lines Of Code (nloc)'] >= percentil_99.get(x['Language'], 0), 
         axis=1
     )]
+
+    become_large.to_csv(f"{output_path}/per_project/{repo_path}_{type}s_commits_become.csv", index=False)
 
     become_large_per_file = become_large.groupby('Local File PATH New')
 
