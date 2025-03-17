@@ -47,7 +47,10 @@ def born_or_become(repository_commits: pd.DataFrame, change_type: str = "large")
 
     # Filtra as linhas onde a linguagem é igual e o número de linhas de código é menor que o percentil 99
     percentil_99 = percentil_df.set_index('language')['percentil 99']
-    born_large = born_large[born_large['Lines Of Code (nloc)'] >= born_large['Language'].map(percentil_99)]
+    born_large = born_large[born_large.apply(
+        lambda x: x['Lines Of Code (nloc)'] >= percentil_99.get(x['Language'], 0), 
+        axis=1
+    )]
 
     # BECOME
     become_large = repository_commits[repository_commits['Change Type'] == 'MODIFY'].copy()
@@ -66,8 +69,12 @@ def born_or_become(repository_commits: pd.DataFrame, change_type: str = "large")
     become_large['Lines Of Code (nloc)'] = pd.to_numeric(become_large['Lines Of Code (nloc)'], errors='coerce')
     become_large = become_large.dropna(subset=['Language', 'Lines Of Code (nloc)'])
 
-    percentil_99 = percentil_df.set_index('language')['percentil 99']
-    become_large = become_large[become_large['Lines Of Code (nloc)'] >= become_large['Language'].map(percentil_99)]
+    # Filtra pelo percentil
+    become_large = become_large[become_large.apply(
+        lambda x: x['Lines Of Code (nloc)'] >= percentil_99.get(x['Language'], 0), 
+        axis=1
+    )]
+    
     become_large_per_file = become_large.groupby('Local File PATH New')
 
     result: dict = {
