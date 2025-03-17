@@ -100,7 +100,7 @@ def born_or_become(repository_commits: pd.DataFrame, change_type: str = "large")
 
     flex_large_grouped = flex_large.groupby('Local File PATH New')
 
-    flex_large_grouped.to_csv(f"{output_path}/per_project/{repo_path}_{change_type}s_flex_large.csv", index=False)
+    flex_large.to_csv(f"{output_path}/per_project/{repo_path}_{change_type}s_flex_large.csv", index=False)
 
     # NO LONGER LARGE
     no_longer_large = repository_commits[repository_commits['Local File PATH New'].isin(
