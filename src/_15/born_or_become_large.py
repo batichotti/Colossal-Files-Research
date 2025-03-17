@@ -41,7 +41,9 @@ def born_or_become(repository_commits: pd.DataFrame, change_type: str = "large")
         how='left'
     ).drop(columns=['Extension'])
 
-    born_large = born_large[born_large['Lines Of Code (nloc)'] != "not calculated"]
+    # Converte NLOC para numérico e remove inválidos
+    born_large['Lines Of Code (nloc)'] = pd.to_numeric(born_large['Lines Of Code (nloc)'], errors='coerce')
+    born_large = born_large.dropna(subset=['Language', 'Lines Of Code (nloc)'])
 
     # Filtra as linhas onde a linguagem é igual e o número de linhas de código é menor que o percentil 99
     percentil_99 = percentil_df.set_index('language')['percentil 99']
@@ -59,8 +61,10 @@ def born_or_become(repository_commits: pd.DataFrame, change_type: str = "large")
         on='Extension',
         how='left'
     ).drop(columns=['Extension'])
-    
-    become_large = become_large[become_large['Lines Of Code (nloc)'] != "not calculated"]
+
+    # Converte NLOC e remove inválidos
+    become_large['Lines Of Code (nloc)'] = pd.to_numeric(become_large['Lines Of Code (nloc)'], errors='coerce')
+    become_large = become_large.dropna(subset=['Language', 'Lines Of Code (nloc)'])
 
     percentil_99 = percentil_df.set_index('language')['percentil 99']
     become_large = become_large[become_large['Lines Of Code (nloc)'] >= become_large['Language'].map(percentil_99)]
