@@ -32,7 +32,8 @@ def born_or_become(repository_commits: pd.DataFrame, change_type: str = "large")
     born_large = repository_commits[repository_commits['Change Type'] == 'ADD']
     babies_total: int = len(born_large)
 
-    born_large = born_large[born_large['Local File PATH New'].apply(lambda x: x.split("/")[-1].split(".")[-1] in language_white_list_df['Extension'].values)]
+    born_large['Extension'] = born_large['Local File PATH New'].apply(lambda x: x.split("/")[-1].split(".")[-1])
+    born_large = born_large[born_large['Extension'].isin(language_white_list_df['Extension'].values)]
 
     born_large = born_large.merge(
         language_white_list_df[['Extension', 'Language']],
