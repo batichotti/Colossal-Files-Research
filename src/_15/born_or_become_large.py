@@ -41,8 +41,6 @@ def born_or_become(repository_commits: pd.DataFrame, change_type: str = "large")
         how='left'
     ).drop(columns=['Extension'])
 
-    # born_large = born_large[born_large['Lines Of Code (nloc)'] != "not calculated"]
-
     # Filtra as linhas onde a linguagem é igual e o número de linhas de código é menor que o percentil 99
     percentil_99 = percentil_df.set_index('language')['percentil 99']
     born_large = born_large[born_large['Lines Of Code (nloc)'] >= born_large['Language'].map(percentil_99)]
