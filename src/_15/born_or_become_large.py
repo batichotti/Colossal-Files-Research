@@ -29,6 +29,8 @@ small_files_commits: pd.DataFrame = pd.DataFrame()
 def born_or_become(repository_commits: pd.DataFrame, change_type: str = "large") -> pd.DataFrame:
     """Detecta se um arquivo nasceu grande ou se ele se tornou"""
 
+    files_total = len(repository_commits.groupby('Local File PATH New'))
+
     born_large = repository_commits[repository_commits['Change Type'] == 'ADD'].copy()
     babies_total: int = len(born_large)
 
@@ -130,8 +132,10 @@ def born_or_become(repository_commits: pd.DataFrame, change_type: str = "large")
         if last_commit_date > born_last_commit_date and last_commit_date > become_last_commit_date:
             remaining_no_longer.append(group)
 
+    no_longer:pd.DataFrame
     if remaining_no_longer:
-        pd.concat(remaining_no_longer).to_csv(f"{output_path}/per_project/{repo_path}_{change_type}s_no_longer.csv", index=False)
+        no_longer = pd.concat(remaining_no_longer)
+        no_longer.to_csv(f"{output_path}/per_project/{repo_path}_{change_type}s_no_longer.csv", index=False)
 
     result: dict = {
         "Type": [change_type],
@@ -140,7 +144,11 @@ def born_or_become(repository_commits: pd.DataFrame, change_type: str = "large")
         "Added Large Files Percentage": [(len(born_large)/babies_total)*100],
         "Modified Files TOTAL": [modifieds_total],
         "Modified Large Files TOTAL": [len(become_large_per_file)],
-        "Modified Large Files Percentage": [(len(become_large_per_file)/modifieds_total)*100]
+        "Modified Large Files Percentage": [(len(become_large_per_file)/modifieds_total)*100],
+        "Flex Large Files TOTAL": [len(flex_large_grouped)],
+        "Flex Large Files Percentage": [(len(flex_large_grouped)/files_total)*100],
+        "No Longer Large Files TOTAL": [len(remaining_no_longer)],
+        "No Longer Large Files Percentage": [(len(remaining_no_longer)/files_total)*100]
     }
     return pd.DataFrame(result)
 
