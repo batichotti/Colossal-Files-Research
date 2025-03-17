@@ -69,7 +69,7 @@ def born_or_become(repository_commits: pd.DataFrame, change_type: str = "large")
         "Added Files TOTAL": [babies_total],
         "Added Large Files TOTAL": [len(born_large)],
         "Added Large Files Percentage": [(len(born_large)/babies_total)*100],
-        "Modified Files TOTAL": [len(modifieds_total)],
+        "Modified Files TOTAL": [modifieds_total],
         "Modified Large Files TOTAL": [len(become_large_per_file)],
         "Modified Large Files TOTAL": [(len(become_large_per_file)/modifieds_total)*100]
     }
