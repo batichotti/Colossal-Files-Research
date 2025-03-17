@@ -81,17 +81,21 @@ def born_or_become(repository_commits: pd.DataFrame, change_type: str = "large")
 
     become_large_per_file = become_large.groupby('Local File PATH New')
 
-    # NO LONGER LARGE
-    large_files = repository_commits[repository_commits['Local File PATH New'].isin(
-        pd.concat([born_large['Local File PATH New'], become_large['Local File PATH New']])
-    ) | repository_commits['Local File PATH Old'].isin(
+    # FLEX LARGE
+    flex_large = repository_commits[repository_commits['Local File PATH New'].isin(
         pd.concat([born_large['Local File PATH New'], become_large['Local File PATH New']])
     )].copy()
 
-    large_files = large_files.sort_values(by='Committer Commit Date')
-    large_files_grouped = large_files.groupby('Local File PATH New')
+    flex_large = flex_large[~flex_large['Local File PATH New'].isin(
+        pd.concat([born_large['Local File PATH New'], become_large['Local File PATH New']])
+    )]
 
-    large_files_grouped.to_csv(f"{output_path}/per_project/{repo_path}_{type}s_no_longer_large.csv", index=False)
+    flex_large = flex_large.sort_values(by='Committer Commit Date')
+
+    flex_large_grouped = flex_large.groupby('Local File PATH New')
+
+    flex_large_grouped.to_csv(f"{output_path}/per_project/{repo_path}_{change_type}s_flex_large.csv", index=False)
+
 
     result: dict = {
         "Type": [change_type],
