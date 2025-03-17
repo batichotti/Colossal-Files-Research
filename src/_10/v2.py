@@ -42,11 +42,10 @@ def process_repository(i):
                     commit_df = pd.read_csv(f"{large_files_commits_path}{repo_path}/{hash}/commit.csv", sep=SEPARATOR)
                     # Lista todos os arquivos dentro da pasta files
                     file_dfs = []
-                    if path.exists(f"{large_files_commits_path}{repo_path}/{hash}/")
-                        for file in listdir(f"{large_files_commits_path}{repo_path}/{hash}/files"):
-                            file_path = f"{large_files_commits_path}{repo_path}/{hash}/files/{file}"
-                            file_df = pd.read_csv(file_path, sep=SEPARATOR)
-                            file_dfs.append(file_df)
+                    for file in listdir(f"{large_files_commits_path}{repo_path}/{hash}/files"):
+                        file_path = f"{large_files_commits_path}{repo_path}/{hash}/files/{file}"
+                        file_df = pd.read_csv(file_path, sep=SEPARATOR)
+                        file_dfs.append(file_df)
                     # Se houver arquivos, junta eles verticalmente
                     if file_dfs:
                         df_vertical = pd.concat(file_dfs, ignore_index=True)
@@ -78,11 +77,10 @@ def process_repository(i):
                     commit_df = pd.read_csv(f"{small_files_commits_path}{repo_path}/{hash}/commit.csv", sep=SEPARATOR)
                     # Lista todos os arquivos dentro da pasta files
                     file_dfs = []
-                    if path.exists(f"{small_files_commits_path}{repo_path}/{hash}/")
-                        for file in listdir(f"{small_files_commits_path}{repo_path}/{hash}/files"):
-                            file_path = f"{small_files_commits_path}{repo_path}/{hash}/files/{file}"
-                            file_df = pd.read_csv(file_path, sep=SEPARATOR)
-                            file_dfs.append(file_df)
+                    for file in listdir(f"{small_files_commits_path}{repo_path}/{hash}/files"):
+                        file_path = f"{small_files_commits_path}{repo_path}/{hash}/files/{file}"
+                        file_df = pd.read_csv(file_path, sep=SEPARATOR)
+                        file_dfs.append(file_df)
                     # Se houver arquivos, junta eles verticalmente
                     if file_dfs:
                         df_vertical = pd.concat(file_dfs, ignore_index=True)
