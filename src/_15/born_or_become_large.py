@@ -29,48 +29,72 @@ small_files_commits: pd.DataFrame = pd.DataFrame()
 def born_or_become(repository_commits: pd.DataFrame, change_type: str = "large") -> pd.DataFrame:
     """Detecta se um arquivo nasceu grande ou se ele se tornou"""
 
+    # Processa arquivos adicionados (born_large)
     born_large = repository_commits[repository_commits['Change Type'] == 'ADD'].copy()
     babies_total: int = len(born_large)
 
-    born_large['Extension'] = born_large['File Name'].apply(lambda x: x.split(".")[-1])
-    born_large = born_large[born_large['Extension'].isin(language_white_list_df['Extension'].values)]
-
+    # Extrai extensão e filtra pela whitelist
+    born_large['Extension'] = born_large['File Name'].apply(lambda x: x.split(".")[-1] if '.' in x else '')
+    born_large = born_large[born_large['Extension'].isin(language_white_list_df['Extension'])]
+    
+    # Mapeia linguagem a partir da extensão
     born_large = born_large.merge(
-        language_white_list_df[['Extension', 'Language']],
+        language_white_list_df[['Extension', 'Language']].drop_duplicates(),
         on='Extension',
         how='left'
     ).drop(columns=['Extension'])
+    born_large = born_large.dropna(subset=['Language'])  # Remove linhas sem linguagem mapeada
 
-    # Filtra as linhas onde a linguagem é igual e o número de linhas de código é menor que o percentil 99
+    # Converte NLOC para numérico e filtra
+    born_large['Lines Of Code (nloc)'] = pd.to_numeric(born_large['Lines Of Code (nloc)'], errors='coerce')
+    born_large = born_large.dropna(subset=['Lines Of Code (nloc)'])
     percentil_99 = percentil_df.set_index('language')['percentil 99']
-    born_large = born_large[born_large['Lines Of Code (nloc)'] >= born_large['Language'].map(percentil_99)]
+    born_large = born_large[born_large.apply(
+        lambda x: x['Lines Of Code (nloc)'] >= percentil_99.get(x['Language'], 0), axis=1
+    )]
 
-    # BECOME
+    # Processa arquivos modificados (become_large)
     become_large = repository_commits[repository_commits['Change Type'] == 'MODIFY'].copy()
-    modifieds_total = len(become_large.groupby('Local File PATH New'))
+    modified_files = become_large['Local File PATH New'].unique()
+    modifieds_total = len(modified_files)
 
-    become_large['Extension'] = become_large['File Name'].apply(lambda x: x.split(".")[-1])
-    become_large = become_large[become_large['Extension'].isin(language_white_list_df['Extension'].values)]
-
+    # Extrai extensão e filtra pela whitelist
+    become_large['Extension'] = become_large['File Name'].apply(lambda x: x.split(".")[-1] if '.' in x else '')
+    become_large = become_large[become_large['Extension'].isin(language_white_list_df['Extension'])]
+    
+    # Mapeia linguagem a partir da extensão
     become_large = become_large.merge(
-        language_white_list_df[['Extension', 'Language']],
+        language_white_list_df[['Extension', 'Language']].drop_duplicates(),
         on='Extension',
         how='left'
     ).drop(columns=['Extension'])
+    become_large = become_large.dropna(subset=['Language'])  # Remove linhas sem linguagem mapeada
 
-    percentil_99 = percentil_df.set_index('language')['percentil 99']
-    become_large = become_large[become_large['Lines Of Code (nloc)'] >= become_large['Language'].map(percentil_99)]
-    become_large_per_file = become_large.groupby('Local File PATH New')
+    # Converte NLOC para numérico e filtra
+    become_large['Lines Of Code (nloc)'] = pd.to_numeric(become_large['Lines Of Code (nloc)'], errors='coerce')
+    become_large = become_large.dropna(subset=['Lines Of Code (nloc)'])
+    become_large = become_large[become_large.apply(
+        lambda x: x['Lines Of Code (nloc)'] >= percentil_99.get(x['Language'], 0), axis=1
+    )]
+    become_large_files = become_large['Local File PATH New'].unique()
 
-    result: dict = {
+    # Calcula resultados
+    added_large = len(born_large)
+    added_percent = (added_large / babies_total * 100) if babies_total > 0 else 0.0
+
+    modified_large = len(become_large_files)
+    modified_percent = (modified_large / modifieds_total * 100) if modifieds_total > 0 else 0.0
+
+    result = {
         "Type": [change_type],
         "Added Files TOTAL": [babies_total],
-        "Added Large Files TOTAL": [len(born_large)],
-        "Added Large Files Percentage": [(len(born_large)/babies_total)*100],
+        "Added Large Files TOTAL": [added_large],
+        "Added Large Files Percentage": [added_percent],
         "Modified Files TOTAL": [modifieds_total],
-        "Modified Large Files TOTAL": [len(become_large_per_file)],
-        "Modified Large Files TOTAL": [(len(become_large_per_file)/modifieds_total)*100]
+        "Modified Large Files TOTAL": [modified_large],
+        "Modified Large Files Percentage": [modified_percent]
     }
+    
     return pd.DataFrame(result)
 
 def process_language(lang: str, large: pd.DataFrame, small: pd.DataFrame, output_path: str):
