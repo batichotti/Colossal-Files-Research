@@ -52,6 +52,8 @@ def born_or_become(repository_commits: pd.DataFrame, change_type: str = "large")
         axis=1
     )]
 
+    born_large = born_large.sort_values(by='Committer Commit Date')
+
     born_large.to_csv(f"{output_path}/per_project/{repo_path}_{type}s_commits_born.csv", index=False)
 
     # BECOME
@@ -77,6 +79,8 @@ def born_or_become(repository_commits: pd.DataFrame, change_type: str = "large")
         axis=1
     )]
 
+    become_large = become_large.sort_values(by='Committer Commit Date')
+
     become_large.to_csv(f"{output_path}/per_project/{repo_path}_{type}s_commits_become.csv", index=False)
 
     become_large_per_file = become_large.groupby('Local File PATH New')
@@ -96,6 +100,38 @@ def born_or_become(repository_commits: pd.DataFrame, change_type: str = "large")
 
     flex_large_grouped.to_csv(f"{output_path}/per_project/{repo_path}_{change_type}s_flex_large.csv", index=False)
 
+    # NO LONGER LARGE
+    no_longer_large = repository_commits[repository_commits['Local File PATH New'].isin(
+        pd.concat([born_large['Local File PATH New'], become_large['Local File PATH New']])
+    )].copy()
+
+    no_longer_large = no_longer_large.sort_values(by='Committer Commit Date')
+
+    no_longer_large = no_longer_large[~no_longer_large['Local File PATH New'].isin(
+        pd.concat([born_large['Local File PATH New'], become_large['Local File PATH New']])
+    )]
+
+    no_longer_large_grouped = no_longer_large.groupby('Local File PATH New')
+
+    remaining_no_longer = []
+    for file_path, group in no_longer_large_grouped:
+        last_commit_date = group['Committer Commit Date'].max()
+        # born
+        if file_path in born_large['Local File PATH New'].values:
+            born_last_commit_date = born_large[born_large['Local File PATH New'] == file_path]['Committer Commit Date'].max()
+        else:
+            born_last_commit_date = pd.Timestamp.min
+        # become
+        if file_path in become_large_per_file.groups:
+            become_last_commit_date = become_large_per_file.get_group(file_path)['Committer Commit Date'].max()
+        else:
+            become_last_commit_date = pd.Timestamp.min
+        #comparação de data
+        if last_commit_date > born_last_commit_date and last_commit_date > become_last_commit_date:
+            remaining_no_longer.append(group)
+
+    if remaining_no_longer:
+        pd.concat(remaining_no_longer).to_csv(f"{output_path}/per_project/{repo_path}_{change_type}s_no_longer.csv", index=False)
 
     result: dict = {
         "Type": [change_type],
