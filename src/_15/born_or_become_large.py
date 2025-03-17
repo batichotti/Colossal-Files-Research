@@ -32,24 +32,12 @@ def born_or_become(repository_commits: pd.DataFrame, change_type: str = "large")
     born_large = repository_commits[repository_commits['Change Type'] == 'ADD']
     babies_total: int = len(born_large)
 
-    born_large = born_large[
-        born_large['Local File PATH New'].apply(lambda x: x.split("/")[-1].split(".")[-1] in language_white_list_df['Extension'].values) |
-        born_large['Local File PATH Old'].apply(lambda x: x.split("/")[-1].split(".")[-1] in language_white_list_df['Extension'].values)
-    ]
+    born_large = born_large[born_large['Local File PATH New'].apply(lambda x: x.split("/")[-1].split(".")[-1] in language_white_list_df['Extension'].values)]
 
     born_large = born_large.merge(
         language_white_list_df[['Extension', 'Language']],
-        left_on=born_large['Local File PATH New'].apply(lambda x: x.split("/")[-1].split(".")[-1]),
-        right_on='Extension',
+        on='Extension',
         how='left'
-    ).drop(columns=['Extension'])
-
-    born_large = born_large.merge(
-        language_white_list_df[['Extension', 'Language']],
-        left_on=born_large['Local File PATH Old'].apply(lambda x: x.split("/")[-1].split(".")[-1]),
-        right_on='Extension',
-        how='left',
-        suffixes=('', '_old')
     ).drop(columns=['Extension'])
 
     born_large = born_large.dropna(subset=['Language'])
@@ -57,7 +45,7 @@ def born_or_become(repository_commits: pd.DataFrame, change_type: str = "large")
 
     # Filtra as linhas onde a linguagem é igual e o número de linhas de código é menor que o percentil 99
     percentil_99 = percentil_df.set_index('language')['percentil 99']
-    born_large = born_large[born_large['Lines Of Code (nloc)'] < born_large['Language'].map(percentil_99)]
+    born_large = born_large[born_large['Lines Of Code (nloc)'] >= born_large['Language'].map(percentil_99)]
     
     result: dict = {
         "Type": [change_type],
