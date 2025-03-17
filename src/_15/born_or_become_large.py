@@ -29,7 +29,7 @@ small_files_commits: pd.DataFrame = pd.DataFrame()
 def born_or_become(repository_commits: pd.DataFrame, change_type: str = "large") -> pd.DataFrame:
     """Detecta se um arquivo nasceu grande ou se ele se tornou"""
 
-    born_large = repository_commits[repository_commits['Change Type'] == 'ADD']
+    born_large = repository_commits[repository_commits['Change Type'] == 'ADD'].copy()
     babies_total: int = len(born_large)
 
     born_large['Extension'] = born_large['Local File PATH New'].apply(lambda x: x.split("/")[-1].split(".")[-1])
