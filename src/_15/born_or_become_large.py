@@ -178,7 +178,7 @@ for i, row in repositories.iterrows():
     print(repo_path)
 
     # Cria diretórios necessários
-    makedirs(f"{output_path}/per_project/{language}", exist_ok=True)
+    makedirs(f"{output_path}/per_project/{repo_path}", exist_ok=True)
     makedirs(f"{output_path}/per_languages", exist_ok=True)
     
     # Atualiza acumuladores de linguagem quando muda
