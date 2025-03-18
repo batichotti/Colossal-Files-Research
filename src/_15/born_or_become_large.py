@@ -124,7 +124,7 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
             born_last_commit_date = str(pd.Timestamp.min)
         # become
         if file_path in modified_large_grouped.groups:
-            modified_last_commit_date = modified_large_grouped.groups(file_path)['Committer Commit Date'].max()
+            modified_last_commit_date = modified_large_grouped.get_group(file_path)['Committer Commit Date'].max()
         else:
             modified_last_commit_date = str(pd.Timestamp.min)
         #comparação de data
