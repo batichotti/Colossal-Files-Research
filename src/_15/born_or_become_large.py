@@ -31,6 +31,7 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
 
     files_total = len(repository_commits.groupby('Local File PATH New'))
 
+    # BORN
     born_large = repository_commits[repository_commits['Change Type'] == 'ADD'].copy()
     babies_total: int = len(born_large)
 
