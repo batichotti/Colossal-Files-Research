@@ -63,6 +63,9 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
     become_large = repository_commits[repository_commits['Change Type'] == 'MODIFY'].copy()
     modifieds_total = len(become_large.groupby('Local File PATH New'))
 
+    # Filtrar become_large para remover linhas que existem em born_large
+    become_large = become_large[~become_large['Local File PATH New'].isin(born_large['Local File PATH New'].values)]
+
     become_large['Extension'] = become_large['File Name'].apply(lambda x: x.split(".")[-1])
     become_large = become_large[become_large['Extension'].isin(language_white_list_df['Extension'].values)]
 
@@ -81,17 +84,6 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
         lambda x: x['Lines Of Code (nloc)'] >= percentil_99.get(x['Language'], 0), 
         axis=1
     )]
-
-    # Filtrar become_large para remover linhas que existem em combined_keys
-    become_large = become_large.merge(
-        born_large[['Local File PATH New', 'Hash']],
-        on=['Local File PATH New', 'Hash'],
-        how='left',
-        indicator=True
-    )
-
-    # Manter apenas as linhas que NÃO estão em combined_keys
-    become_large = become_large[become_large['_merge'] == 'left_only'].drop(columns='_merge')
 
     become_large = become_large.sort_values(by='Committer Commit Date')
 
