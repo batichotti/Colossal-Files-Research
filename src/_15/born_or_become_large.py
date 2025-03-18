@@ -180,7 +180,7 @@ for i, row in repositories.iterrows():
 
     # Cria diretórios necessários
     makedirs(f"{output_path}/per_project/", exist_ok=True)
-    makedirs(f"{output_path}/commits/per_project/{repo_path}", exist_ok=True)
+    makedirs(f"{output_path}/commits/per_project/{repo_path}/", exist_ok=True)
     makedirs(f"{output_path}/per_languages/", exist_ok=True)
     # makedirs(f"{output_path}/commits/per_languages/{current_language}/", exist_ok=True)
     
