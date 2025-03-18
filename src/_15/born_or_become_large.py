@@ -166,7 +166,7 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
 
     # Filtrar become_large para remover linhas que temos os commits de adição
     become_large = become_large[become_large['Local File PATH New'].isin(added_files['Local File PATH New'].values)]
-    if become_large:
+    if not become_large.empty:
         added_modifieds_total = len(become_large.groupby('Local File PATH New'))
 
         # Filtrar become_large para remover linhas que n existem em born_large
