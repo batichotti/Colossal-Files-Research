@@ -214,7 +214,7 @@ for i, row in repositories.iterrows():
         project_results.append(born_or_become(small_df, f"commits/per_project/{repo_path}", 'small'))
 
     if project_results:
-        pd.concat(project_results).to_csv(f"{output_path}/per_project/{repo_path}/summary.csv", index=False)
+        pd.concat(project_results).to_csv(f"{output_path}/per_project/{repo_path}.csv", index=False)
 
 # Processa última linguagem
 if not current_large.empty or not current_small.empty:
