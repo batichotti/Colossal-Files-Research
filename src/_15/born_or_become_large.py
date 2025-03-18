@@ -56,10 +56,11 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
     )]
 
     born_large = born_large.sort_values(by='Committer Commit Date')
+    born_large_grouped = born_large.groupby('Local File PATH New')
 
     born_large.to_csv(f"{output_path}/{path}/{change_type}s_born.csv", index=False)
 
-    # BECOME
+    # BECOME pt1
     become_large = repository_commits[repository_commits['Change Type'] == 'MODIFY'].copy()
     modifieds_total = len(become_large.groupby('Local File PATH New'))
 
@@ -86,8 +87,6 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
     )]
 
     become_large = become_large.sort_values(by='Committer Commit Date')
-
-    become_large.to_csv(f"{output_path}/{path}/{change_type}s_become.csv", index=False)
 
     become_large_per_file = become_large.groupby('Local File PATH New')
 
@@ -164,14 +163,34 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
 
     flex_large.to_csv(f"{output_path}/{path}/{change_type}s_flex.csv", index=False)
 
+    # BECOME pt1 final
+
+    # Excluir registros onde a combinação Local File PATH New + Hash está em born_large ou become_large ou no_longer
+    combined_keys = pd.concat([flex_large, no_longer])[['Local File PATH New', 'Hash']].drop_duplicates()
+
+    # Usar merge para identificar registros que NÃO estão em combined_keys
+    become_large = become_large.merge(
+        combined_keys,
+        on=['Local File PATH New', 'Hash'],
+        how='left',
+        indicator=True
+    )
+
+    # Manter apenas os registros que não estão em combined_keys
+    become_large = become_large[become_large['_merge'] == 'left_only'].drop(columns='_merge')
+
+    become_large.to_csv(f"{output_path}/{path}/{change_type}s_become.csv", index=False)
+    become_large_grouped = become_large.groupby('Local File PATH New')
+
+    # resumo
     result: dict = {
         "Type": [change_type],
         "Added Files TOTAL": [babies_total],
         "Added Large Files TOTAL": [len(born_large)],
         "Added Large Files Percentage": [(len(born_large)/babies_total)*100],
         "Modified Files TOTAL": [modifieds_total],
-        "Become Large Files TOTAL": [len(become_large_per_file)],
-        "Become Large Files Percentage": [(len(become_large_per_file)/modifieds_total)*100],
+        "Become Large Files TOTAL": [len(become_large_grouped)],
+        "Become Large Files Percentage": [(len(become_large_grouped)/modifieds_total)*100],
         "Flex Large Files TOTAL": [len(flex_large_grouped)],
         "Flex Large Files Percentage": [(len(flex_large_grouped)/files_total)*100],
         "No Longer Large Files TOTAL": [len(remaining_no_longer)],
