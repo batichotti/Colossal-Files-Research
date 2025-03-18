@@ -145,12 +145,12 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
         if file_path in born_large['Local File PATH New'].values:
             born_last_commit_date = born_large[born_large['Local File PATH New'] == file_path]['Committer Commit Date'].max()
         else:
-            born_last_commit_date = pd.Timestamp.min
+            born_last_commit_date = str(pd.Timestamp.min)
         # become
         if file_path in become_large_per_file.groups:
             become_last_commit_date = become_large_per_file.get_group(file_path)['Committer Commit Date'].max()
         else:
-            become_last_commit_date = pd.Timestamp.min
+            become_last_commit_date = str(pd.Timestamp.min)
         #comparação de data
         if last_commit_date > born_last_commit_date and last_commit_date > become_last_commit_date:
             remaining_no_longer.append(group)
