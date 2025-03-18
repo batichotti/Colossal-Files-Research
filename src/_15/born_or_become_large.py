@@ -92,9 +92,19 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
         pd.concat([born_large['Local File PATH New'], become_large['Local File PATH New']])
     )].copy()
 
-    flex_large = flex_large[~flex_large['Hash'].isin(
-        pd.concat([born_large['Hash'], become_large['Hash']])
-    )]
+    # Excluir registros onde a combinação Local File PATH New + Hash está em born_large ou become_large
+    combined_keys = pd.concat([born_large, become_large])[['Local File PATH New', 'Hash']].drop_duplicates()
+
+    # Usar merge para identificar registros que NÃO estão em combined_keys
+    flex_large = flex_large.merge(
+        combined_keys,
+        on=['Local File PATH New', 'Hash'],
+        how='left',
+        indicator=True
+    )
+
+    # Manter apenas os registros que não estão em combined_keys
+    flex_large = flex_large[flex_large['_merge'] == 'left_only'].drop(columns='_merge')
 
     flex_large = flex_large.sort_values(by='Committer Commit Date')
 
@@ -107,9 +117,22 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
         pd.concat([born_large['Local File PATH New'], become_large['Local File PATH New']])
     )].copy()
 
-    no_longer_large = no_longer_large[~no_longer_large['Hash'].isin(
-        pd.concat([born_large['Hash'], become_large['Hash']])
-    )]
+    # Criar chaves compostas de born_large e become_large
+    combined_keys = pd.concat([
+        born_large[['Local File PATH New', 'Hash']],
+        become_large[['Local File PATH New', 'Hash']]
+    ]).drop_duplicates()
+
+    # Filtrar no_longer_large para remover linhas que existem em combined_keys
+    no_longer_large = no_longer_large.merge(
+        combined_keys,
+        on=['Local File PATH New', 'Hash'],
+        how='left',
+        indicator=True
+    )
+
+    # Manter apenas as linhas que NÃO estão em combined_keys
+    no_longer_large = no_longer_large[no_longer_large['_merge'] == 'left_only'].drop(columns='_merge')
 
     no_longer_large = no_longer_large.sort_values(by='Committer Commit Date')
 
