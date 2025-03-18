@@ -30,10 +30,11 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
     """Classifica os periodos de um arquivo onde ele foi grande"""
 
     files_total = len(repository_commits.groupby('Local File PATH New'))
+    added_files = repository_commits[repository_commits['Change Type'] == 'ADD'].copy()
+    babies_total: int = len(born_large)
 
     # BORN
-    born_large = repository_commits[repository_commits['Change Type'] == 'ADD'].copy()
-    babies_total: int = len(born_large)
+    born_large = added_files.copy()
 
     born_large['Extension'] = born_large['File Name'].apply(lambda x: x.split(".")[-1])
     born_large = born_large[born_large['Extension'].isin(language_white_list_df['Extension'].values)]
@@ -62,9 +63,13 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
 
     # BECOME pt1
     become_large = repository_commits[repository_commits['Change Type'] == 'MODIFY'].copy()
-    modifieds_total = len(become_large.groupby('Local File PATH New'))
 
-    # Filtrar become_large para remover linhas que existem em born_large
+    # Filtrar become_large para remover linhas que temos os commits de adição
+    become_large = become_large[become_large['Local File PATH New'].isin(added_files['Local File PATH New'].values)]
+
+    added_modifieds_total = len(become_large.groupby('Local File PATH New'))
+
+    # Filtrar become_large para remover linhas que n existem em born_large
     become_large = become_large[~become_large['Local File PATH New'].isin(born_large['Local File PATH New'].values)]
 
     become_large['Extension'] = become_large['File Name'].apply(lambda x: x.split(".")[-1])
@@ -182,19 +187,65 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
     become_large.to_csv(f"{output_path}/{path}/{change_type}s_become.csv", index=False)
     become_large_grouped = become_large.groupby('Local File PATH New')
 
+    # OTHERS
+    other_large = repository_commits[repository_commits['Change Type'] == 'MODIFY'].copy()
+    modifieds_total = len(other_large.groupby('Local File PATH New'))
+
+    other_large['Extension'] = other_large['File Name'].apply(lambda x: x.split(".")[-1])
+    other_large = other_large[other_large['Extension'].isin(language_white_list_df['Extension'].values)]
+
+    other_large = other_large.merge(
+        language_white_list_df[['Extension', 'Language']],
+        on='Extension',
+        how='left'
+    ).drop(columns=['Extension'])
+
+    # Converte NLOC e remove inválidos
+    other_large['Lines Of Code (nloc)'] = pd.to_numeric(other_large['Lines Of Code (nloc)'], errors='coerce')
+    other_large = other_large.dropna(subset=['Language', 'Lines Of Code (nloc)'])
+
+    # Filtra pelo percentil
+    other_large = other_large[other_large.apply(
+        lambda x: x['Lines Of Code (nloc)'] >= percentil_99.get(x['Language'], 0), 
+        axis=1
+    )]
+
+    # Excluir registros onde a combinação Local File PATH New + Hash está em born_large ou become_large ou no_longer
+    combined_keys = pd.concat([born_large, become_large, flex_large, no_longer])[['Local File PATH New', 'Hash']].drop_duplicates()
+
+    # Usar merge para identificar registros que NÃO estão em combined_keys
+    other_large = other_large.merge(
+        combined_keys,
+        on=['Local File PATH New', 'Hash'],
+        how='left',
+        indicator=True
+    )
+
+    # Manter apenas os registros que não estão em combined_keys
+    other_large = other_large[other_large['_merge'] == 'left_only'].drop(columns='_merge')
+
+    other_large = other_large.sort_values(by='Committer Commit Date')
+
+    other_large.to_csv(f"{output_path}/{path}/{change_type}s_other.csv", index=False)
+
+    other_large_grouped = other_large.groupby('Local File PATH New')
+
     # resumo
     result: dict = {
         "Type": [change_type],
         "Added Files TOTAL": [babies_total],
         "Added Large Files TOTAL": [len(born_large)],
         "Added Large Files Percentage": [(len(born_large)/babies_total)*100],
-        "Modified Files TOTAL": [modifieds_total],
+        "Added and Modified Files TOTAL": [added_modifieds_total],
         "Become Large Files TOTAL": [len(become_large_grouped)],
-        "Become Large Files Percentage": [(len(become_large_grouped)/modifieds_total)*100],
+        "Become Large Files Percentage": [(len(become_large_grouped)/added_modifieds_total)*100],
         "Flex Large Files TOTAL": [len(flex_large_grouped)],
         "Flex Large Files Percentage": [(len(flex_large_grouped)/files_total)*100],
         "No Longer Large Files TOTAL": [len(remaining_no_longer)],
-        "No Longer Large Files Percentage": [(len(remaining_no_longer)/files_total)*100]
+        "No Longer Large Files Percentage": [(len(remaining_no_longer)/files_total)*100],
+        "Modified Files TOTAL": [modifieds_total],
+        "Other Large Files TOTAL": [len(other_large_grouped)],
+        "Other Large Files Percentage": [(len(other_large_grouped)/modifieds_total)*100],
     }
     return pd.DataFrame(result)
 
