@@ -130,7 +130,7 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
         if last_commit_date > born_last_commit_date and last_commit_date > become_last_commit_date:
             remaining_no_longer.append(group)
 
-    no_longer:pd.DataFrame
+    no_longer:pd.DataFrame = pd.DataFrame()
     if remaining_no_longer:
         no_longer = pd.concat(remaining_no_longer)
         no_longer.to_csv(f"{output_path}/{path}/{change_type}s_no_longer.csv", index=False)
