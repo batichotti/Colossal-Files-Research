@@ -26,7 +26,7 @@ large_files_commits: pd.DataFrame = pd.DataFrame()
 small_files_commits: pd.DataFrame = pd.DataFrame()
 
 # Funções auxiliares =========================================================================================
-def born_or_become(repository_commits: pd.DataFrame, change_type: str = "large") -> pd.DataFrame:
+def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str = "large") -> pd.DataFrame:
     """Detecta se um arquivo nasceu grande ou se ele se tornou"""
 
     files_total = len(repository_commits.groupby('Local File PATH New'))
@@ -56,7 +56,7 @@ def born_or_become(repository_commits: pd.DataFrame, change_type: str = "large")
 
     born_large = born_large.sort_values(by='Committer Commit Date')
 
-    born_large.to_csv(f"{output_path}/per_project/{repo_path}/{change_type}s_born.csv", index=False)
+    born_large.to_csv(f"{output_path}/{path}/{change_type}s_born.csv", index=False)
 
     # BECOME
     become_large = repository_commits[repository_commits['Change Type'] == 'MODIFY'].copy()
@@ -83,7 +83,7 @@ def born_or_become(repository_commits: pd.DataFrame, change_type: str = "large")
 
     become_large = become_large.sort_values(by='Committer Commit Date')
 
-    become_large.to_csv(f"{output_path}/per_project/{repo_path}/{change_type}s_become.csv", index=False)
+    become_large.to_csv(f"{output_path}/{path}/{change_type}s_become.csv", index=False)
 
     become_large_per_file = become_large.groupby('Local File PATH New')
 
@@ -100,7 +100,7 @@ def born_or_become(repository_commits: pd.DataFrame, change_type: str = "large")
 
     flex_large_grouped = flex_large.groupby('Local File PATH New')
 
-    flex_large.to_csv(f"{output_path}/per_project/{repo_path}/{change_type}s_flex.csv", index=False)
+    flex_large.to_csv(f"{output_path}/{path}/{change_type}s_flex.csv", index=False)
 
     # NO LONGER LARGE
     no_longer_large = repository_commits[repository_commits['Local File PATH New'].isin(
@@ -135,7 +135,7 @@ def born_or_become(repository_commits: pd.DataFrame, change_type: str = "large")
     no_longer:pd.DataFrame
     if remaining_no_longer:
         no_longer = pd.concat(remaining_no_longer)
-        no_longer.to_csv(f"{output_path}/per_project/{repo_path}/{change_type}s_no_longer.csv", index=False)
+        no_longer.to_csv(f"{output_path}/{path}/{change_type}s_no_longer.csv", index=False)
 
     result: dict = {
         "Type": [change_type],
@@ -156,9 +156,9 @@ def process_language(lang: str, large: pd.DataFrame, small: pd.DataFrame, output
     """Processa e salva resultados por linguagem"""
     results:list[pd.DataFrame] = []
     if not large.empty:
-        results.append(born_or_become(large, 'large'))
+        results.append(born_or_become(large, f"commits/per_language/{lang}", 'large'))
     if not small.empty:
-        results.append(born_or_become(small, 'small'))
+        results.append(born_or_become(small, f"commits/per_language/{lang}", 'small'))
     
     if results:
         pd.concat(results).to_csv(f"{output_path}/per_languages/{lang}.csv", index=False)
@@ -179,7 +179,9 @@ for i, row in repositories.iterrows():
 
     # Cria diretórios necessários
     makedirs(f"{output_path}/per_project/{repo_path}", exist_ok=True)
+    makedirs(f"{output_path}/commits/per_project/{repo_path}", exist_ok=True)
     makedirs(f"{output_path}/per_languages", exist_ok=True)
+    makedirs(f"{output_path}/commits/per_languages/", exist_ok=True)
     
     # Atualiza acumuladores de linguagem quando muda
     if current_language and (language != current_language):
@@ -207,9 +209,9 @@ for i, row in repositories.iterrows():
     
     project_results: list[pd.DataFrame] = []
     if not large_df.empty:
-        project_results.append(born_or_become(large_df))
+        project_results.append(born_or_become(large_df, f"commits/per_project/{repo_path}"))
     if not small_df.empty:
-        project_results.append(born_or_become(small_df, 'small'))
+        project_results.append(born_or_become(small_df, f"commits/per_project/{repo_path}", 'small'))
 
     if project_results:
         pd.concat(project_results).to_csv(f"{output_path}/per_project/{repo_path}/summary.csv", index=False)
@@ -221,9 +223,9 @@ if not current_large.empty or not current_small.empty:
 # Resultado global ============================================================================================
 final_results: list[pd.DataFrame] = []
 if not large_files_commits.empty:
-    final_results.append(born_or_become(large_files_commits))
+    final_results.append(born_or_become(large_files_commits), "commits")
 if not small_files_commits.empty:
-    final_results.append(born_or_become(small_files_commits, 'small'))
+    final_results.append(born_or_become(small_files_commits, "commits", 'small'))
 
 if final_results:
     pd.concat(final_results).to_csv(f"{output_path}/global_results.csv", index=False)
