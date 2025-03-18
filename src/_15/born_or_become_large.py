@@ -161,7 +161,7 @@ def process_language(lang: str, large: pd.DataFrame, small: pd.DataFrame, output
         results.append(born_or_become(small, f"commits/per_language/{lang}", 'small'))
     
     if results:
-        pd.concat(results).to_csv(f"{output_path}/per_languages/{lang}.csv", index=False)
+        pd.concat(results).to_csv(f"{output_path}/per_language/{lang}.csv", index=False)
 
 # Processamento principal =====================================================================================
 current_language: str = None
@@ -180,8 +180,8 @@ for i, row in repositories.iterrows():
     # Cria diretórios necessários
     makedirs(f"{output_path}/per_project/{language}/", exist_ok=True)
     makedirs(f"{output_path}/commits/per_project/{repo_path}/", exist_ok=True)
-    makedirs(f"{output_path}/per_languages/", exist_ok=True)
-    makedirs(f"{output_path}/commits/per_languages/{language}/", exist_ok=True)
+    makedirs(f"{output_path}/per_language/", exist_ok=True)
+    makedirs(f"{output_path}/commits/per_language/{language}/", exist_ok=True)
     
     # Atualiza acumuladores de linguagem quando muda
     if current_language and (language != current_language):
