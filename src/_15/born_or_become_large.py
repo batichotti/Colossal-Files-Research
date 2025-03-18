@@ -27,7 +27,7 @@ small_files_commits: pd.DataFrame = pd.DataFrame()
 
 # Funções auxiliares =========================================================================================
 def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str = "large") -> pd.DataFrame:
-    """Detecta se um arquivo nasceu grande ou se ele se tornou"""
+    """Classifica os periodos de um arquivo onde ele foi grande"""
 
     files_total = len(repository_commits.groupby('Local File PATH New'))
 
