@@ -82,6 +82,17 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
         axis=1
     )]
 
+    # Filtrar become_large para remover linhas que existem em combined_keys
+    become_large = become_large.merge(
+        born_large[['Local File PATH New', 'Hash']],
+        on=['Local File PATH New', 'Hash'],
+        how='left',
+        indicator=True
+    )
+
+    # Manter apenas as linhas que NÃO estão em combined_keys
+    become_large = become_large[become_large['_merge'] == 'left_only'].drop(columns='_merge')
+
     become_large = become_large.sort_values(by='Committer Commit Date')
 
     become_large.to_csv(f"{output_path}/{path}/{change_type}s_become.csv", index=False)
