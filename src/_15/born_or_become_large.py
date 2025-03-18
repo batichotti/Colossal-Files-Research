@@ -155,7 +155,6 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
 def process_language(lang: str, large: pd.DataFrame, small: pd.DataFrame, output_path: str):
     """Processa e salva resultados por linguagem"""
     results:list[pd.DataFrame] = []
-    makedirs(f"{output_path}/commits/per_languages/{lang}/", exist_ok=True)
     if not large.empty:
         results.append(born_or_become(large, f"commits/per_language/{lang}", 'large'))
     if not small.empty:
@@ -179,10 +178,10 @@ for i, row in repositories.iterrows():
     print(repo_path)
 
     # Cria diretórios necessários
-    makedirs(f"{output_path}/per_project/", exist_ok=True)
+    makedirs(f"{output_path}/per_project/{language}", exist_ok=True)
     makedirs(f"{output_path}/commits/per_project/{repo_path}/", exist_ok=True)
     makedirs(f"{output_path}/per_languages/", exist_ok=True)
-    # makedirs(f"{output_path}/commits/per_languages/{current_language}/", exist_ok=True)
+    makedirs(f"{output_path}/commits/per_languages/{language}/", exist_ok=True)
     
     # Atualiza acumuladores de linguagem quando muda
     if current_language and (language != current_language):
