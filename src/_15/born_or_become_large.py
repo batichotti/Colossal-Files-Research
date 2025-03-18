@@ -181,7 +181,7 @@ for i, row in repositories.iterrows():
     makedirs(f"{output_path}/per_project/{repo_path}", exist_ok=True)
     makedirs(f"{output_path}/commits/per_project/{repo_path}", exist_ok=True)
     makedirs(f"{output_path}/per_languages", exist_ok=True)
-    makedirs(f"{output_path}/commits/per_languages/", exist_ok=True)
+    makedirs(f"{output_path}/commits/per_languages/{current_language}", exist_ok=True)
     
     # Atualiza acumuladores de linguagem quando muda
     if current_language and (language != current_language):
