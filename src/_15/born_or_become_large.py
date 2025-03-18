@@ -84,23 +84,7 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
         axis=1
     )]
 
-    # Excluir registros onde a combinação Local File PATH New + Hash está em born_large ou become_large ou no_longer
-    combined_keys = pd.concat([born_large, become_large, flex_large, no_longer])[['Local File PATH New', 'Hash']].drop_duplicates()
-
-    # Usar merge para identificar registros que NÃO estão em combined_keys
-    modified_large = modified_large.merge(
-        combined_keys,
-        on=['Local File PATH New', 'Hash'],
-        how='left',
-        indicator=True
-    )
-
-    # Manter apenas os registros que não estão em combined_keys
-    modified_large = modified_large[modified_large['_merge'] == 'left_only'].drop(columns='_merge')
-
     modified_large = modified_large.sort_values(by='Committer Commit Date')
-
-    modified_large.to_csv(f"{output_path}/{path}/{change_type}s_other.csv", index=False)
 
     modified_large_grouped = modified_large.groupby('Local File PATH New')
 
@@ -227,6 +211,27 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
 
         become_large.to_csv(f"{output_path}/{path}/{change_type}s_become.csv", index=False)
         become_large_grouped = become_large.groupby('Local File PATH New')
+    
+    # Other pt1
+    # Excluir registros onde a combinação Local File PATH New + Hash está em born_large ou become_large ou no_longer
+    combined_keys = pd.concat([born_large, become_large, flex_large, no_longer])[['Local File PATH New', 'Hash']].drop_duplicates()
+
+    # Usar merge para identificar registros que NÃO estão em combined_keys
+    modified_large = modified_large.merge(
+        combined_keys,
+        on=['Local File PATH New', 'Hash'],
+        how='left',
+        indicator=True
+    )
+
+    # Manter apenas os registros que não estão em combined_keys
+    modified_large = modified_large[modified_large['_merge'] == 'left_only'].drop(columns='_merge')
+
+    modified_large = modified_large.sort_values(by='Committer Commit Date')
+
+    modified_large.to_csv(f"{output_path}/{path}/{change_type}s_other.csv", index=False)
+
+    modified_large_grouped = modified_large.groupby('Local File PATH New')
 
     # resumo
     result: dict = {
