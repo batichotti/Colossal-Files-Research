@@ -92,8 +92,8 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
         pd.concat([born_large['Local File PATH New'], become_large['Local File PATH New']])
     )].copy()
 
-    flex_large = flex_large[~flex_large['Local File PATH New'].isin(
-        pd.concat([born_large['Local File PATH New'], become_large['Local File PATH New']])
+    flex_large = flex_large[~flex_large['Hash'].isin(
+        pd.concat([born_large['Hash'], become_large['Hash']])
     )]
 
     flex_large = flex_large.sort_values(by='Committer Commit Date')
@@ -107,11 +107,11 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
         pd.concat([born_large['Local File PATH New'], become_large['Local File PATH New']])
     )].copy()
 
-    no_longer_large = no_longer_large.sort_values(by='Committer Commit Date')
-
-    no_longer_large = no_longer_large[~no_longer_large['Local File PATH New'].isin(
-        pd.concat([born_large['Local File PATH New'], become_large['Local File PATH New']])
+    no_longer_large = no_longer_large[~no_longer_large['Hash'].isin(
+        pd.concat([born_large['Hash'], become_large['Hash']])
     )]
+
+    no_longer_large = no_longer_large.sort_values(by='Committer Commit Date')
 
     no_longer_large_grouped = no_longer_large.groupby('Local File PATH New')
 
