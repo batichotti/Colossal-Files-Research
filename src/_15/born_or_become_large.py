@@ -140,8 +140,8 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
         pd.concat([born_large['Local File PATH New'], become_large['Local File PATH New']])
     )].copy()
 
-    # Excluir registros onde a combinação Local File PATH New + Hash está em born_large ou become_large ou no_longer_large
-    combined_keys = pd.concat([born_large, become_large])[['Local File PATH New', 'Hash']].drop_duplicates()
+    # Excluir registros onde a combinação Local File PATH New + Hash está em born_large ou become_large ou no_longer
+    combined_keys = pd.concat([born_large, become_large, no_longer])[['Local File PATH New', 'Hash']].drop_duplicates()
 
     # Usar merge para identificar registros que NÃO estão em combined_keys
     flex_large = flex_large.merge(
