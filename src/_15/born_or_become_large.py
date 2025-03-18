@@ -115,7 +115,7 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
 
     remaining_no_longer = []
     for file_path, group in no_longer_large_grouped:
-        last_commit_date = group['Committer Commit Date'].max()
+        last_commit_date = group['Committer Commit Date'].min()
         # born
         if file_path in born_large['Local File PATH New'].values:
             born_last_commit_date = born_large[born_large['Local File PATH New'] == file_path]['Committer Commit Date'].max()
