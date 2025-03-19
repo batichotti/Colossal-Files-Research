@@ -56,9 +56,10 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
         axis=1
     )]
 
-    born_large = born_large.sort_values(by='Committer Commit Date')
+    if not born_large.empty:
+        born_large = born_large.sort_values(by='Committer Commit Date')
 
-    # born_large.to_csv(f"{output_path}/{path}/{change_type}s_born.csv", index=False)
+        # born_large.to_csv(f"{output_path}/{path}/{change_type}s_born.csv", index=False)
 
 
     # MODIFIED ===============================================================================================================
@@ -66,7 +67,7 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
     modifieds_total = len(modified_large.groupby('Local File PATH New'))
 
     # Filtrar modified_large para remover linhas que existem em born_large
-    modified_large = modified_large[~modified_large['Local File PATH New'].isin(born_large['Local File PATH New'].values)]
+    # modified_large = modified_large[~modified_large['Local File PATH New'].isin(born_large['Local File PATH New'].values)]
 
     modified_large['Extension'] = modified_large['File Name'].apply(lambda x: x.split(".")[-1])
     modified_large = modified_large[modified_large['Extension'].isin(language_white_list_df['Extension'].values)]
@@ -87,7 +88,8 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
         axis=1
     )]
 
-    modified_large = modified_large.sort_values(by='Committer Commit Date')
+    if not modified_large.empty:
+        modified_large = modified_large.sort_values(by='Committer Commit Date')
 
     modified_large_per_file = modified_large.groupby('Local File PATH New')
 
@@ -114,7 +116,8 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
     # Manter apenas as linhas que NÃO estão em combined_keys
     no_longer_large = no_longer_large[no_longer_large['_merge'] == 'left_only'].drop(columns='_merge')
 
-    no_longer_large = no_longer_large.sort_values(by='Committer Commit Date')
+    if not no_longer_large.empty:
+        no_longer_large = no_longer_large.sort_values(by='Committer Commit Date')
 
     no_longer_large_grouped = no_longer_large.groupby('Local File PATH New')
 
@@ -160,11 +163,12 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
     # Manter apenas os registros que não estão em combined_keys
     flex_large = flex_large[flex_large['_merge'] == 'left_only'].drop(columns='_merge')
 
-    flex_large = flex_large.sort_values(by='Committer Commit Date')
+    if not flex_large.empty:
+        flex_large = flex_large.sort_values(by='Committer Commit Date')
+
+        # flex_large.to_csv(f"{output_path}/{path}/{change_type}s_flex.csv", index=False)
 
     flex_large_grouped = flex_large.groupby('Local File PATH New')
-
-    # flex_large.to_csv(f"{output_path}/{path}/{change_type}s_flex.csv", index=False)
 
     # BECOME
     become_large = repository_commits[repository_commits['Change Type'] == 'MODIFY'].copy()
@@ -178,7 +182,8 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
         added_modified_total = len(become_large.groupby('Local File PATH New'))
 
         # Filtrar become_large para remover linhas que n existem em born_large
-        become_large = become_large[~become_large['Local File PATH New'].isin(born_large['Local File PATH New'].values)]
+        if not born_large.empty:
+            become_large = become_large[~become_large['Local File PATH New'].isin(born_large['Local File PATH New'].values)]
 
         become_large['Extension'] = become_large['File Name'].apply(lambda x: x.split(".")[-1])
         become_large = become_large[become_large['Extension'].isin(language_white_list_df['Extension'].values)]
@@ -236,9 +241,10 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
     # Manter apenas os registros que não estão em combined_keys
     modified_large = modified_large[modified_large['_merge'] == 'left_only'].drop(columns='_merge')
 
-    modified_large = modified_large.sort_values(by='Committer Commit Date')
+    if not modified_large.empty:
+        modified_large = modified_large.sort_values(by='Committer Commit Date')
 
-    # modified_large.to_csv(f"{output_path}/{path}/{change_type}s_modified.csv", index=False)
+        # modified_large.to_csv(f"{output_path}/{path}/{change_type}s_modified.csv", index=False)
 
     modified_large_grouped = modified_large.groupby('Local File PATH New')
 
