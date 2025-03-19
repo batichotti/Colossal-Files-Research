@@ -124,27 +124,29 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
         # Manter apenas as linhas que NÃO estão em combined_keys
         no_longer_large = no_longer_large[no_longer_large['_merge'] == 'left_only'].drop(columns='_merge')
 
+    no_longer_large_grouped_size = 0
     if not no_longer_large.empty:
         no_longer_large = no_longer_large.sort_values(by='Committer Commit Date')
-
-    no_longer_large_grouped = no_longer_large.groupby('Local File PATH New')
+        no_longer_large_grouped = no_longer_large.groupby('Local File PATH New')
+        no_longer_large_grouped_size = len(no_longer_large_grouped)
 
     remaining_no_longer = []
-    for file_path, group in no_longer_large_grouped:
-        last_commit_date = group['Committer Commit Date'].min()
-        # born
-        if born_large.empty and file_path in born_large['Local File PATH New'].values:
-            born_last_commit_date = born_large[born_large['Local File PATH New'] == file_path]['Committer Commit Date'].max()
-        else:
-            born_last_commit_date = str(pd.Timestamp.min)
-        # become
-        if modified_large_total and file_path in modified_large_per_file.groups:
-            become_last_commit_date = modified_large_per_file.get_group(file_path)['Committer Commit Date'].max()
-        else:
-            become_last_commit_date = str(pd.Timestamp.min)
-        #comparação de data
-        if last_commit_date > born_last_commit_date and last_commit_date > become_last_commit_date:
-            remaining_no_longer.append(group)
+    if no_longer_large_grouped_size:
+        for file_path, group in no_longer_large_grouped:
+            last_commit_date = group['Committer Commit Date'].min()
+            # born
+            if born_large.empty and file_path in born_large['Local File PATH New'].values:
+                born_last_commit_date = born_large[born_large['Local File PATH New'] == file_path]['Committer Commit Date'].max()
+            else:
+                born_last_commit_date = str(pd.Timestamp.min)
+            # become
+            if modified_large_total and file_path in modified_large_per_file.groups:
+                become_last_commit_date = modified_large_per_file.get_group(file_path)['Committer Commit Date'].max()
+            else:
+                become_last_commit_date = str(pd.Timestamp.min)
+            #comparação de data
+            if last_commit_date > born_last_commit_date and last_commit_date > become_last_commit_date:
+                remaining_no_longer.append(group)
 
     no_longer:pd.DataFrame = pd.DataFrame()
     if remaining_no_longer:
