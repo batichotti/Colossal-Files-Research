@@ -67,7 +67,8 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
     modifieds_total = len(modified_large.groupby('Local File PATH New'))
 
     # Filtrar modified_large para remover linhas que existem em born_large
-    # modified_large = modified_large[~modified_large['Local File PATH New'].isin(born_large['Local File PATH New'].values)]
+    if not born_large.empty:
+        modified_large = modified_large[~modified_large['Local File PATH New'].isin(born_large['Local File PATH New'].values)]
 
     modified_large['Extension'] = modified_large['File Name'].apply(lambda x: x.split(".")[-1])
     modified_large = modified_large[modified_large['Extension'].isin(language_white_list_df['Extension'].values)]
@@ -95,26 +96,31 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
 
 
     # NO LONGER LARGE =============================================================================================
-    no_longer_large = repository_commits[repository_commits['Local File PATH New'].isin(
-        pd.concat([born_large['Local File PATH New'], modified_large['Local File PATH New']])
-    )].copy()
+    no_longer_large: pd.DataFrame = pd.DataFrame()
+
+    concat_list = []
+    if not born_large.empty:
+        concat_list.append(born_large)
+    if not modified_large.empty:
+        concat_list.append(modified_large)
+    if concat_list:
+        no_longer_large = repository_commits[repository_commits['Local File PATH New'].isin(pd.concat(concat_list)['Local File PATH New'])].copy()
 
     # Criar chaves compostas de born_large e modified_large
-    combined_keys = pd.concat([
-        born_large[['Local File PATH New', 'Hash']],
-        modified_large[['Local File PATH New', 'Hash']]
-    ]).drop_duplicates()
+    combined_keys: pd.DataFrame = pd.DataFrame()
+    if concat_list:
+        combined_keys = pd.concat(concat_list['Local File PATH New', 'Hash']).drop_duplicates()
 
-    # Filtrar no_longer_large para remover linhas que existem em combined_keys
-    no_longer_large = no_longer_large.merge(
-        combined_keys,
-        on=['Local File PATH New', 'Hash'],
-        how='left',
-        indicator=True
-    )
+        # Filtrar no_longer_large para remover linhas que existem em combined_keys
+        no_longer_large = no_longer_large.merge(
+            combined_keys,
+            on=['Local File PATH New', 'Hash'],
+            how='left',
+            indicator=True
+        )
 
-    # Manter apenas as linhas que NÃO estão em combined_keys
-    no_longer_large = no_longer_large[no_longer_large['_merge'] == 'left_only'].drop(columns='_merge')
+        # Manter apenas as linhas que NÃO estão em combined_keys
+        no_longer_large = no_longer_large[no_longer_large['_merge'] == 'left_only'].drop(columns='_merge')
 
     if not no_longer_large.empty:
         no_longer_large = no_longer_large.sort_values(by='Committer Commit Date')
@@ -145,23 +151,34 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
 
 
     # FLEX LARGE ========================================================================================================
-    flex_large = repository_commits[repository_commits['Local File PATH New'].isin(
-        pd.concat([born_large['Local File PATH New'], modified_large['Local File PATH New']])
-    )].copy()
+    flex_large: pd.DataFrame = pd.DataFrame()
 
-    # Excluir registros onde a combinação Local File PATH New + Hash está em born_large ou modified_large ou no_longer
-    combined_keys = pd.concat([born_large, modified_large, no_longer])[['Local File PATH New', 'Hash']].drop_duplicates()
+    concat_list = []
+    if not born_large.empty:
+        concat_list.append(born_large)
+    if not modified_large.empty:
+        concat_list.append(modified_large)
+    if concat_list:
+        flex_large = repository_commits[repository_commits['Local File PATH New'].isin(pd.concat(concat_list)['Local File PATH New'])].copy()
 
-    # Usar merge para identificar registros que NÃO estão em combined_keys
-    flex_large = flex_large.merge(
-        combined_keys,
-        on=['Local File PATH New', 'Hash'],
-        how='left',
-        indicator=True
-    )
+    if not no_longer.empty:
+        concat_list.append(no_longer)
 
-    # Manter apenas os registros que não estão em combined_keys
-    flex_large = flex_large[flex_large['_merge'] == 'left_only'].drop(columns='_merge')
+    combined_keys: pd.DataFrame = pd.DataFrame()
+    if concat_list:
+        # Excluir registros onde a combinação Local File PATH New + Hash está em born_large ou modified_large ou no_longer
+        combined_keys = pd.concat(concat_list)[['Local File PATH New', 'Hash']].drop_duplicates()
+
+        # Usar merge para identificar registros que NÃO estão em combined_keys
+        flex_large = flex_large.merge(
+            combined_keys,
+            on=['Local File PATH New', 'Hash'],
+            how='left',
+            indicator=True
+        )
+
+        # Manter apenas os registros que não estão em combined_keys
+        flex_large = flex_large[flex_large['_merge'] == 'left_only'].drop(columns='_merge')
 
     if not flex_large.empty:
         flex_large = flex_large.sort_values(by='Committer Commit Date')
@@ -170,7 +187,8 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
 
     flex_large_grouped = flex_large.groupby('Local File PATH New')
 
-    # BECOME
+
+    # BECOME ==================================================================================================================
     become_large = repository_commits[repository_commits['Change Type'] == 'MODIFY'].copy()
     added_files = repository_commits[repository_commits['Change Type'] == 'ADD']
 
@@ -181,8 +199,11 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
     if not become_large.empty:
         added_modified_total = len(become_large.groupby('Local File PATH New'))
 
-        # Filtrar become_large para remover linhas que n existem em born_large
+        concat_list = []
         if not born_large.empty:
+            concat_list.append(born_large)
+        if concat_list:
+        # Filtrar become_large para remover linhas que n existem em born_large
             become_large = become_large[~become_large['Local File PATH New'].isin(born_large['Local File PATH New'].values)]
 
         become_large['Extension'] = become_large['File Name'].apply(lambda x: x.split(".")[-1])
@@ -206,47 +227,61 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
 
         if not become_large.empty:
             become_large = become_large.sort_values(by='Committer Commit Date')
+            if not born_large.empty:
+                concat_list.append(flex_large)
+            if not modified_large.empty:
+                concat_list.append(no_longer)
+            if concat_list:
+                # Excluir registros onde a combinação Local File PATH New + Hash está em born_large ou become_large ou no_longer
+                combined_keys = pd.concat([flex_large, no_longer])['Local File PATH New'].drop_duplicates()
 
-            # Excluir registros onde a combinação Local File PATH New + Hash está em born_large ou become_large ou no_longer
-            combined_keys = pd.concat([flex_large, no_longer])[['Local File PATH New', 'Hash']].drop_duplicates()
+                # Usar merge para identificar registros que NÃO estão em combined_keys
+                become_large = become_large.merge(
+                    combined_keys,
+                    on='Local File PATH New',
+                    how='left',
+                    indicator=True
+                )
 
-            # Usar merge para identificar registros que NÃO estão em combined_keys
-            become_large = become_large.merge(
-                combined_keys,
-                on=['Local File PATH New', 'Hash'],
-                how='left',
-                indicator=True
-            )
+                # Manter apenas os registros que não estão em combined_keys
+                become_large = become_large[become_large['_merge'] == 'left_only'].drop(columns='_merge')
 
-            # Manter apenas os registros que não estão em combined_keys
-            become_large = become_large[become_large['_merge'] == 'left_only'].drop(columns='_merge')
-
-            # become_large.to_csv(f"{output_path}/{path}/{change_type}s_become.csv", index=False)
-            become_large_grouped = become_large.groupby('Local File PATH New')
-            become_large_total = len(become_large_grouped)
+                # become_large.to_csv(f"{output_path}/{path}/{change_type}s_become.csv", index=False)
+                become_large_grouped = become_large.groupby('Local File PATH New')
+                become_large_total = len(become_large_grouped)
 
 
     # Other pt1 =================================================================================================
     # Excluir registros onde a combinação Local File PATH New + Hash está em born_large ou become_large ou no_longer
-    combined_keys = pd.concat([born_large, become_large, flex_large, no_longer])[['Local File PATH New', 'Hash']].drop_duplicates()
+    concat_list = []
+    if not born_large.empty:
+        concat_list.append(born_large)
+    if not become_large.empty:
+        concat_list.append(become_large)
+    if not flex_large.empty:
+        concat_list.append(flex_large)
+    if not no_longer.empty:
+        concat_list.append(no_longer)
+    if concat_list:
+        combined_keys = pd.concat([born_large, become_large, flex_large, no_longer])['Local File PATH New'].drop_duplicates()
 
-    # Usar merge para identificar registros que NÃO estão em combined_keys
-    modified_large = modified_large.merge(
-        combined_keys,
-        on=['Local File PATH New', 'Hash'],
-        how='left',
-        indicator=True
-    )
+        # Usar merge para identificar registros que NÃO estão em combined_keys
+        modified_large = modified_large.merge(
+            combined_keys,
+            on='Local File PATH New',
+            how='left',
+            indicator=True
+        )
 
-    # Manter apenas os registros que não estão em combined_keys
-    modified_large = modified_large[modified_large['_merge'] == 'left_only'].drop(columns='_merge')
+        # Manter apenas os registros que não estão em combined_keys
+        modified_large = modified_large[modified_large['_merge'] == 'left_only'].drop(columns='_merge')
 
-    if not modified_large.empty:
-        modified_large = modified_large.sort_values(by='Committer Commit Date')
+        if not modified_large.empty:
+            modified_large = modified_large.sort_values(by='Committer Commit Date')
 
-        # modified_large.to_csv(f"{output_path}/{path}/{change_type}s_modified.csv", index=False)
+            # modified_large.to_csv(f"{output_path}/{path}/{change_type}s_modified.csv", index=False)
 
-    modified_large_grouped = modified_large.groupby('Local File PATH New')
+        modified_large_grouped = modified_large.groupby('Local File PATH New')
 
 
     # RESULT ================================================================================================
