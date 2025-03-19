@@ -109,7 +109,7 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
     # Criar chaves compostas de born_large e modified_large
     combined_keys: pd.DataFrame = pd.DataFrame()
     if concat_list:
-        combined_keys = pd.concat(concat_list['Local File PATH New', 'Hash']).drop_duplicates()
+        combined_keys = pd.concat(concat_list)[['Local File PATH New', 'Hash']].drop_duplicates()
 
         # Filtrar no_longer_large para remover linhas que existem em combined_keys
         no_longer_large = no_longer_large.merge(
@@ -263,7 +263,7 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
     if not no_longer.empty:
         concat_list.append(no_longer)
     if concat_list:
-        combined_keys = pd.concat([born_large, become_large, flex_large, no_longer])['Local File PATH New'].drop_duplicates()
+        combined_keys = pd.concat(concat_list)['Local File PATH New'].drop_duplicates()
 
         # Usar merge para identificar registros que NÃO estão em combined_keys
         modified_large = modified_large.merge(
