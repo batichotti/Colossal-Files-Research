@@ -93,8 +93,8 @@ def together_change(repository_commits: pd.DataFrame, large_files_list_df: pd.Da
                 total_with_large += 1
             if small:
                 total_with_small += 1
-            else:
-                print(hash_val)
+            # else:
+            #     print(hash_val)
 
     # Compute statistics
     # total_commits = len(totals)
@@ -223,7 +223,7 @@ for i, row in repositories.iterrows():
 
 # Processa última linguagem
 if not current_large.empty or not current_small.empty:
-    process_language(current_language, current_large, current_small, output_path)
+    process_language(current_language, current_large, current_small, current_large_list, output_path)
 
 # Resultado global ============================================================================================
 final_results: list[pd.DataFrame] = []
