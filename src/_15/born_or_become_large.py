@@ -230,9 +230,6 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
         )]
 
         if not become_large.empty:
-            # Manter apenas os registros que não estão em combined_keys
-            become_large = become_large[become_large['_merge'] == 'left_only'].drop(columns='_merge')
-
             # become_large.to_csv(f"{output_path}/{path}/{change_type}s_become.csv", index=False)
             become_large_grouped = become_large.groupby('Local File PATH New')
             become_large_total = len(become_large_grouped)
