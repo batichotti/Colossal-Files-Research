@@ -62,7 +62,7 @@ def changes_counter(repository_commits: pd.DataFrame, change_type: str = "large"
     max_changes_small_idx = None
     changes_small = pd.DataFrame()
     if not changes_large.empty:
-        changes_small = changes[~changes['Local File PATH New'].isin(changes_large['Local File PATH New'].values)]
+        changes_small = changes[~changes['Local File PATH New'].isin(changes_large['Local File PATH New'].values)].copy()
         max_changes_large = changes_large.groupby('Local File PATH New').size()
         max_changes_large_idx = max_changes_large.idxmax()
         
