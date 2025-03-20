@@ -77,7 +77,7 @@ def changes_counter(repository_commits: pd.DataFrame, change_type: str = "large"
                 how='left'
             ).drop(columns=['Extension'])
         
-            max_changes_small = changes_large.groupby('Local File PATH New').size()
+            max_changes_small = changes_small.groupby('Local File PATH New').size()
             max_changes_small_idx = max_changes_small.idxmax()
 
     result: dict = {
