@@ -30,31 +30,35 @@ small_files_commits: pd.DataFrame = pd.DataFrame()
 def changes_counter(repository_commits: pd.DataFrame, change_type: str = "large") -> pd.DataFrame:
     """Função Base para o processamento de dados"""
     changes = repository_commits[repository_commits['Change Type'] == 'MODIFY'].copy()
-    max_changes = changes.groupby('Local File PATH New').size()
-    max_changes_idx = max_changes.idxmax()
+    max_changes = None
+    max_changes_idx = None
+    if not changes.empty:
+        max_changes = changes.groupby('Local File PATH New').size()
+        max_changes_idx = max_changes.idxmax()
     
     changes_large = changes.copy()
-    changes_large = changes_large[changes_large['File Name'].apply(lambda x: isinstance(x, str) and '.' in x)]
     if not changes_large.empty:
-        changes_large['Extension'] = changes_large['File Name'].apply(lambda x: x.split(".")[-1]).copy()
-        changes_large = changes_large[changes_large['Extension'].isin(language_white_list_df['Extension'].values)]
+        changes_large = changes_large[changes_large['File Name'].apply(lambda x: isinstance(x, str) and '.' in x)]
+        if not changes_large.empty:
+            changes_large['Extension'] = changes_large['File Name'].apply(lambda x: x.split(".")[-1]).copy()
+            changes_large = changes_large[changes_large['Extension'].isin(language_white_list_df['Extension'].values)]
 
-        changes_large = changes_large.merge(
-            language_white_list_df[['Extension', 'Language']],
-            on='Extension',
-            how='left'
-        ).drop(columns=['Extension'])
+            changes_large = changes_large.merge(
+                language_white_list_df[['Extension', 'Language']],
+                on='Extension',
+                how='left'
+            ).drop(columns=['Extension'])
 
-        # Converte NLOC para numérico e remove inválidos
-        changes_large['Lines Of Code (nloc)'] = pd.to_numeric(changes_large['Lines Of Code (nloc)'], errors='coerce')
-        changes_large = changes_large.dropna(subset=['Language', 'Lines Of Code (nloc)'])
+            # Converte NLOC para numérico e remove inválidos
+            changes_large['Lines Of Code (nloc)'] = pd.to_numeric(changes_large['Lines Of Code (nloc)'], errors='coerce')
+            changes_large = changes_large.dropna(subset=['Language', 'Lines Of Code (nloc)'])
 
-        # Filtra as linhas onde a linguagem é igual e o número de linhas de código é menor que o percentil 99
-        percentil_99 = percentil_df.set_index('language')['percentil 99']
-        changes_large = changes_large[changes_large.apply(
-            lambda x: x['Lines Of Code (nloc)'] >= percentil_99.get(x['Language'], 0), 
-            axis=1
-        )]
+            # Filtra as linhas onde a linguagem é igual e o número de linhas de código é menor que o percentil 99
+            percentil_99 = percentil_df.set_index('language')['percentil 99']
+            changes_large = changes_large[changes_large.apply(
+                lambda x: x['Lines Of Code (nloc)'] >= percentil_99.get(x['Language'], 0), 
+                axis=1
+            )]
 
     max_changes_large = None
     max_changes_large_idx = None
@@ -67,12 +71,14 @@ def changes_counter(repository_commits: pd.DataFrame, change_type: str = "large"
         changes_small = changes[~changes['Local File PATH New'].isin(changes_large['Local File PATH New'].values)].copy()
         max_changes_large = changes_large.groupby('Local File PATH New').size()
         max_changes_large_idx = max_changes_large.idxmax()
+        
         changes_flex_large = changes[changes['Local File PATH New'].isin(changes_large['Local File PATH New'].values)].copy()
-        max_changes_flex_large = changes_flex_large.groupby('Local File PATH New').size()
-        max_changes_flex_large = max_changes_flex_large.idxmax()
+        if not changes_flex_large.empty:
+            max_changes_flex_large = changes_flex_large.groupby('Local File PATH New').size()
+            max_changes_flex_large_idx= max_changes_flex_large.idxmax()
         
     if not changes_small.empty:
-        changes_large = changes_large[changes_large['File Name'].apply(lambda x: isinstance(x, str) and '.' in x)]
+        changes_small = changes_small[changes_small['File Name'].apply(lambda x: isinstance(x, str) and '.' in x)]
         if not changes_small.empty:
             changes_small['Extension'] = changes_small['File Name'].apply(lambda x: x.split(".")[-1]).copy()
             changes_small = changes_small[changes_small['Extension'].isin(language_white_list_df['Extension'].values)]
@@ -81,23 +87,24 @@ def changes_counter(repository_commits: pd.DataFrame, change_type: str = "large"
                 on='Extension',
                 how='left'
             ).drop(columns=['Extension'])
-        
-            max_changes_small = changes_small.groupby('Local File PATH New').size()
-            max_changes_small_idx = max_changes_small.idxmax()
+
+            if not changes_small.empty:
+                max_changes_small = changes_small.groupby('Local File PATH New').size()
+                max_changes_small_idx = max_changes_small.idxmax()
 
     result: dict = {
         "Type": [change_type],
-        "#Changes": [max_changes.max()],
-        "Project Name": [changes.loc[changes['Local File PATH New'] == max_changes_idx, 'Project Name'].values[0]],
+        "#Changes": [max_changes.max() if max_changes is not None else 'There are no changes for this category'],
+        "Project Name": [changes.loc[changes['Local File PATH New'] == max_changes_idx, 'Project Name'].values[0] if max_changes_idx is not None else 'There are no changes for this category'],
         "File Path": [max_changes_idx],
         
         "#Changes Large": [max_changes_large.max() if max_changes_large is not None else 'There are no changes for this category'],
         "Project Name Large": [changes_large.loc[changes_large['Local File PATH New'] == max_changes_large_idx, 'Project Name'].values[0]] if max_changes_large_idx is not None else 'There are no changes for this category',
         "File Path Large": [max_changes_large_idx if max_changes_large_idx is not None else 'There are no changes for this category'],
         
-        "#Changes Flex Large": [max_changes_flex_large.max() if max_changes_large is not None else 'There are no changes for this category'],
-        "Project Name Flex Large": [changes_flex_large.loc[changes_large['Local File PATH New'] == max_changes_large_idx, 'Project Name'].values[0]] if max_changes_large_idx is not None else 'There are no changes for this category',
-        "File Path Flex Large": [max_changes_flex_large_idx if max_changes_large_idx is not None else 'There are no changes for this category'],
+        "#Changes Flex Large": [max_changes_flex_large.max() if max_changes_flex_large is not None else 'There are no changes for this category'],
+        "Project Name Flex Large": [changes_flex_large.loc[changes_flex_large['Local File PATH New'] == max_changes_flex_large_idx, 'Project Name'].values[0]] if max_changes_flex_large_idx is not None else 'There are no changes for this category',
+        "File Path Flex Large": [max_changes_flex_large_idx if max_changes_flex_large_idx is not None else 'There are no changes for this category'],
         
         "#Changes Small": [max_changes_small.max() if max_changes_small is not None else 'There are no changes for this category'],
         "Project Name Small": [changes.loc[changes['Local File PATH New'] == max_changes_small_idx, 'Project Name'].values[0]] if max_changes_small_idx is not None else 'There are no changes for this category',
