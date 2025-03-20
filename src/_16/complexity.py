@@ -28,7 +28,8 @@ import pandas as pd
 
 def major_complexities(repository_commits: pd.DataFrame, change_type: str = "large") -> pd.DataFrame:
     """Identifica commits com maiores adições/remoções e sua complexidade."""
-    df = repository_commits[repository_commits['Complexity'] != 'not calculated'].copy()
+    df = repository_commits[repository_commits['Change Type'] == 'MODIFY'].copy()
+    df = df[df['Complexity'] != 'not calculated']
     not_calculated = repository_commits[repository_commits['Complexity'] == 'not calculated']
     
     if df.empty:
