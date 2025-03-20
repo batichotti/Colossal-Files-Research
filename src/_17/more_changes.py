@@ -13,9 +13,14 @@ output_path: str = "./src/_17/output/"
 repositories_path: str = "./src/_00/input/450_Starred_Projects.csv"
 large_files_commits_path: str = "./src/_10/output/large_files/"
 small_files_commits_path: str = "./src/_10/output/small_files/"
+language_white_list_path: str = f"{input_path}/white_list.csv"
+percentil_path: str = "./src/_02/output/percentis_by_language_filtered.csv"
 
 # Carrega e ordena repositórios por linguagem
 repositories: pd.DataFrame = pd.read_csv(repositories_path).sort_values(by='main language').reset_index(drop=True)
+repositories: pd.DataFrame = pd.read_csv(repositories_path).sort_values(by='main language').reset_index(drop=True)
+percentil_df: pd.DataFrame = pd.read_csv(percentil_path)
+language_white_list_df: pd.DataFrame = pd.read_csv(language_white_list_path)
 
 # DataFrames globais
 large_files_commits: pd.DataFrame = pd.DataFrame()
@@ -27,13 +32,58 @@ def changes_counter(repository_commits: pd.DataFrame, change_type: str = "large"
     changes = repository_commits[repository_commits['Change Type'] == 'MODIFY'].copy()
     max_changes = changes.groupby('Local File PATH New').size()
     max_changes_idx = max_changes.idxmax()
-    
+
+    changes_large = changes[changes['File Name'].apply(lambda x: isinstance(x, str) and '.' in x)]
+    if not changes_large.empty:
+        changes_large['Extension'] = changes_large['File Name'].apply(lambda x: x.split(".")[-1])
+        changes_large = changes_large[changes_large['Extension'].isin(language_white_list_df['Extension'].values)]
+
+        changes_large = changes_large.merge(
+            language_white_list_df[['Extension', 'Language']],
+            on='Extension',
+            how='left'
+        ).drop(columns=['Extension'])
+
+        # Converte NLOC para numérico e remove inválidos
+        changes_large['Lines Of Code (nloc)'] = pd.to_numeric(changes_large['Lines Of Code (nloc)'], errors='coerce')
+        changes_large = changes_large.dropna(subset=['Language', 'Lines Of Code (nloc)'])
+
+        # Filtra as linhas onde a linguagem é igual e o número de linhas de código é menor que o percentil 99
+        percentil_99 = percentil_df.set_index('language')['percentil 99']
+        changes_large = changes_large[changes_large.apply(
+            lambda x: x['Lines Of Code (nloc)'] >= percentil_99.get(x['Language'], 0), 
+            axis=1
+        )]
+
+    max_changes_large = None
+    max_changes_small = None
+    max_changes_large_idx = None
+    max_changes_small_idx = None
+    changes_small = pd.DataFrame()
+    if not changes_large.empty:
+        changes_small = changes[~changes['Local File PATH New'].isin(changes_large['Local File PATH New'].values)]
+        max_changes_large = changes_large.groupby('Local File PATH New').size()
+        max_changes_large_idx = max_changes_large.idxmax()
+        
+    if not changes_small.empty:
+        max_changes_small = changes_large.groupby('Local File PATH New').size()
+        max_changes_small_idx = max_changes_small.idxmax()
+
     result: dict = {
         "Type": [change_type],
         "#Changes": [max_changes.max()],
         "Project Name": [changes.loc[changes['Local File PATH New'] == max_changes_idx, 'Project Name'].values[0]],
-        "File Path": [max_changes_idx]
+        "File Path": [max_changes_idx],
+        
+        "#Changes Large": [max_changes_large.max() if max_changes_large is not None else None],
+        "Project Name Large": [changes_large.loc[changes_large['Local File PATH New'] == max_changes_large_idx, 'Project Name'].values[0]] if max_changes_large_idx is not None else None,
+        "File Path Large": [max_changes_large_idx],
+        
+        "#Changes Small": [max_changes_small.max() if max_changes_small is not None else None],
+        "Project Name Small": [changes.loc[changes['Local File PATH New'] == max_changes_small_idx, 'Project Name'].values[0]] if max_changes_small_idx is not None else None,
+        "File Path Small": [max_changes_small_idx]
     }
+    
     return pd.DataFrame(result)
 
 def process_language(lang: str, large: pd.DataFrame, small: pd.DataFrame, output_path: str):
