@@ -85,15 +85,18 @@ def grew_or_decreased(repository_commits: pd.DataFrame, change_type: str = "larg
         changes_per_file = changes.groupby('Local File PATH New')
         for _, file_changes in changes_per_file:
             file_changes = file_changes.sort_values(by='Committer Commit Date')
-            first_nloc = file_changes['Lines Of Code (nloc)'].iloc[0]
-            last_nloc = file_changes['Lines Of Code (nloc)'].iloc[-1]
-            balance = last_nloc - first_nloc
-            if balance > 0:
-                balances_grow.append(balance)
-            elif balance < 0:
-                balances_decreased.append(balance)
-            else:
-                balances_zero.append(balance)
+            file_changes['Lines Of Code (nloc)'] = pd.to_numeric(file_changes['Lines Of Code (nloc)'], errors='coerce')
+            file_changes = file_changes.dropna(subset=['Lines Of Code (nloc)'])
+            if not file_changes.empty:
+                first_nloc = file_changes['Lines Of Code (nloc)'].iloc[0]
+                last_nloc = file_changes['Lines Of Code (nloc)'].iloc[-1]
+                balance = last_nloc - first_nloc
+                if balance > 0:
+                    balances_grow.append(balance)
+                elif balance < 0:
+                    balances_decreased.append(balance)
+                else:
+                    balances_zero.append(balance)
 
     balances_large_grow: list[int] = []
     balances_large_decreased: list[int] = []
@@ -103,15 +106,18 @@ def grew_or_decreased(repository_commits: pd.DataFrame, change_type: str = "larg
         changes_large_per_file = changes_large.groupby('Local File PATH New')
         for _, file_changes in changes_large_per_file:
             file_changes = file_changes.sort_values(by='Committer Commit Date')
-            first_nloc = file_changes['Lines Of Code (nloc)'].iloc[0]
-            last_nloc = file_changes['Lines Of Code (nloc)'].iloc[-1]
-            balance = last_nloc - first_nloc
-            if balance > 0:
-                balances_large_grow.append(balance)
-            elif balance < 0:
-                balances_large_decreased.append(balance)
-            else:
-                balances_large_zero.append(balance)
+            file_changes['Lines Of Code (nloc)'] = pd.to_numeric(file_changes['Lines Of Code (nloc)'], errors='coerce')
+            file_changes = file_changes.dropna(subset=['Lines Of Code (nloc)'])
+            if not file_changes.empty:
+                first_nloc = file_changes['Lines Of Code (nloc)'].iloc[0]
+                last_nloc = file_changes['Lines Of Code (nloc)'].iloc[-1]
+                balance = last_nloc - first_nloc
+                if balance > 0:
+                    balances_large_grow.append(balance)
+                elif balance < 0:
+                    balances_large_decreased.append(balance)
+                else:
+                    balances_large_zero.append(balance)
 
     balances_small_grow: list[int] = []
     balances_small_decreased: list[int] = []
@@ -121,15 +127,18 @@ def grew_or_decreased(repository_commits: pd.DataFrame, change_type: str = "larg
         changes_small_per_file = changes_small.groupby('Local File PATH New')
         for _, file_changes in changes_small_per_file:
             file_changes = file_changes.sort_values(by='Committer Commit Date')
-            first_nloc = file_changes['Lines Of Code (nloc)'].iloc[0]
-            last_nloc = file_changes['Lines Of Code (nloc)'].iloc[-1]
-            balance = last_nloc - first_nloc
-            if balance > 0:
-                balances_small_grow.append(balance)
-            elif balance < 0:
-                balances_small_decreased.append(balance)
-            else:
-                balances_small_zero.append(balance)
+            file_changes['Lines Of Code (nloc)'] = pd.to_numeric(file_changes['Lines Of Code (nloc)'], errors='coerce')
+            file_changes = file_changes.dropna(subset=['Lines Of Code (nloc)'])
+            if not file_changes.empty:
+                first_nloc = file_changes['Lines Of Code (nloc)'].iloc[0]
+                last_nloc = file_changes['Lines Of Code (nloc)'].iloc[-1]
+                balance = last_nloc - first_nloc
+                if balance > 0:
+                    balances_small_grow.append(balance)
+                elif balance < 0:
+                    balances_small_decreased.append(balance)
+                else:
+                    balances_small_zero.append(balance)
     
     # Result =================================================================================================================
     result: dict = {
