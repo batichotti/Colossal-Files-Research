@@ -88,11 +88,11 @@ def changes_counter(repository_commits: pd.DataFrame, change_type: str = "large"
         
         "#Changes Large": [max_changes_large.max() if max_changes_large is not None else 'Nothing'],
         "Project Name Large": [changes_large.loc[changes_large['Local File PATH New'] == max_changes_large_idx, 'Project Name'].values[0]] if max_changes_large_idx is not None else 'Nothing',
-        "File Path Large": [max_changes_large_idx],
+        "File Path Large": [max_changes_large_idx if max_changes_large_idx is not None else 'Nothing'],
         
         "#Changes Small": [max_changes_small.max() if max_changes_small is not None else 'Nothing'],
         "Project Name Small": [changes.loc[changes['Local File PATH New'] == max_changes_small_idx, 'Project Name'].values[0]] if max_changes_small_idx is not None else 'Nothing',
-        "File Path Small": [max_changes_small_idx]
+        "File Path Small": [max_changes_small_idx if max_changes_small_idx is not None else 'Nothing']
     }
     
     return pd.DataFrame(result)
