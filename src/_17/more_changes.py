@@ -77,8 +77,8 @@ def changes_counter(repository_commits: pd.DataFrame, change_type: str = "large"
                 how='left'
             ).drop(columns=['Extension'])
         
-        max_changes_small = changes_large.groupby('Local File PATH New').size()
-        max_changes_small_idx = max_changes_small.idxmax()
+            max_changes_small = changes_large.groupby('Local File PATH New').size()
+            max_changes_small_idx = max_changes_small.idxmax()
 
     result: dict = {
         "Type": [change_type],
@@ -86,12 +86,12 @@ def changes_counter(repository_commits: pd.DataFrame, change_type: str = "large"
         "Project Name": [changes.loc[changes['Local File PATH New'] == max_changes_idx, 'Project Name'].values[0]],
         "File Path": [max_changes_idx],
         
-        "#Changes Large": [max_changes_large.max() if max_changes_large is not None else None],
-        "Project Name Large": [changes_large.loc[changes_large['Local File PATH New'] == max_changes_large_idx, 'Project Name'].values[0]] if max_changes_large_idx is not None else None,
+        "#Changes Large": [max_changes_large.max() if max_changes_large is not None else 'Nothing'],
+        "Project Name Large": [changes_large.loc[changes_large['Local File PATH New'] == max_changes_large_idx, 'Project Name'].values[0]] if max_changes_large_idx is not None else 'Nothing',
         "File Path Large": [max_changes_large_idx],
         
-        "#Changes Small": [max_changes_small.max() if max_changes_small is not None else None],
-        "Project Name Small": [changes.loc[changes['Local File PATH New'] == max_changes_small_idx, 'Project Name'].values[0]] if max_changes_small_idx is not None else None,
+        "#Changes Small": [max_changes_small.max() if max_changes_small is not None else 'Nothing'],
+        "Project Name Small": [changes.loc[changes['Local File PATH New'] == max_changes_small_idx, 'Project Name'].values[0]] if max_changes_small_idx is not None else 'Nothing',
         "File Path Small": [max_changes_small_idx]
     }
     
