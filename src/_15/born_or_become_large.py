@@ -36,6 +36,8 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
     born_large = repository_commits[repository_commits['Change Type'] == 'ADD'].copy()
     babies_total: int = len(born_large)
 
+    # Remove linhas onde 'File Name' não é uma string ou não contém um ponto
+    born_large = born_large[born_large['File Name'].apply(lambda x: isinstance(x, str) and '.' in x)]
     born_large['Extension'] = born_large['File Name'].apply(lambda x: x.split(".")[-1])
     born_large = born_large[born_large['Extension'].isin(language_white_list_df['Extension'].values)]
 
@@ -65,11 +67,14 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
     # MODIFIED ===============================================================================================================
     modified_large = repository_commits[repository_commits['Change Type'] == 'MODIFY'].copy()
     modifieds_total = len(modified_large.groupby('Local File PATH New'))
+    modified_large_total = 0
 
     # Filtrar modified_large para remover linhas que existem em born_large
     if not born_large.empty:
         modified_large = modified_large[~modified_large['Local File PATH New'].isin(born_large['Local File PATH New'].values)]
 
+    # Remove linhas onde 'File Name' não é uma string ou não contém um ponto
+    modified_large = modified_large[modified_large['File Name'].apply(lambda x: isinstance(x, str) and '.' in x)]
     modified_large['Extension'] = modified_large['File Name'].apply(lambda x: x.split(".")[-1])
     modified_large = modified_large[modified_large['Extension'].isin(language_white_list_df['Extension'].values)]
 
@@ -89,10 +94,11 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
         axis=1
     )]
 
+    modified_large_per_file = None
     if not modified_large.empty:
         modified_large = modified_large.sort_values(by='Committer Commit Date')
-
-    modified_large_per_file = modified_large.groupby('Local File PATH New')
+        modified_large_per_file = modified_large.groupby('Local File PATH New')
+        modified_large_total = len(modified_large_per_file)
 
 
     # NO LONGER LARGE =============================================================================================
@@ -122,27 +128,29 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
         # Manter apenas as linhas que NÃO estão em combined_keys
         no_longer_large = no_longer_large[no_longer_large['_merge'] == 'left_only'].drop(columns='_merge')
 
+    no_longer_large_grouped_size = 0
     if not no_longer_large.empty:
         no_longer_large = no_longer_large.sort_values(by='Committer Commit Date')
-
-    no_longer_large_grouped = no_longer_large.groupby('Local File PATH New')
+        no_longer_large_grouped = no_longer_large.groupby('Local File PATH New')
+        no_longer_large_grouped_size = len(no_longer_large_grouped)
 
     remaining_no_longer = []
-    for file_path, group in no_longer_large_grouped:
-        last_commit_date = group['Committer Commit Date'].min()
-        # born
-        if file_path in born_large['Local File PATH New'].values:
-            born_last_commit_date = born_large[born_large['Local File PATH New'] == file_path]['Committer Commit Date'].max()
-        else:
-            born_last_commit_date = str(pd.Timestamp.min)
-        # become
-        if file_path in modified_large_per_file.groups:
-            become_last_commit_date = modified_large_per_file.get_group(file_path)['Committer Commit Date'].max()
-        else:
-            become_last_commit_date = str(pd.Timestamp.min)
-        #comparação de data
-        if last_commit_date > born_last_commit_date and last_commit_date > become_last_commit_date:
-            remaining_no_longer.append(group)
+    if no_longer_large_grouped_size:
+        for file_path, group in no_longer_large_grouped:
+            last_commit_date = group['Committer Commit Date'].min()
+            # born
+            if born_large.empty and file_path in born_large['Local File PATH New'].values:
+                born_last_commit_date = born_large[born_large['Local File PATH New'] == file_path]['Committer Commit Date'].max()
+            else:
+                born_last_commit_date = str(pd.Timestamp.min)
+            # become
+            if modified_large_total and file_path in modified_large_per_file.groups:
+                become_last_commit_date = modified_large_per_file.get_group(file_path)['Committer Commit Date'].max()
+            else:
+                become_last_commit_date = str(pd.Timestamp.min)
+            #comparação de data
+            if last_commit_date > born_last_commit_date and last_commit_date > become_last_commit_date:
+                remaining_no_longer.append(group)
 
     no_longer:pd.DataFrame = pd.DataFrame()
     if remaining_no_longer:
@@ -152,6 +160,7 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
 
     # FLEX LARGE ========================================================================================================
     flex_large: pd.DataFrame = pd.DataFrame()
+    flex_large_total = 0
 
     concat_list = []
     if not born_large.empty:
@@ -185,7 +194,8 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
 
         # flex_large.to_csv(f"{output_path}/{path}/{change_type}s_flex.csv", index=False)
 
-    flex_large_grouped = flex_large.groupby('Local File PATH New')
+        flex_large_grouped = flex_large.groupby('Local File PATH New')
+        flex_large_total = len(flex_large_grouped)
 
 
     # BECOME ==================================================================================================================
@@ -206,6 +216,8 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
         # Filtrar become_large para remover linhas que n existem em born_large
             become_large = become_large[~become_large['Local File PATH New'].isin(born_large['Local File PATH New'].values)]
 
+        # Remove linhas onde 'File Name' não é uma string ou não contém um ponto
+        become_large = become_large[become_large['File Name'].apply(lambda x: isinstance(x, str) and '.' in x)]
         become_large['Extension'] = become_large['File Name'].apply(lambda x: x.split(".")[-1])
         become_large = become_large[become_large['Extension'].isin(language_white_list_df['Extension'].values)]
 
@@ -226,29 +238,9 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
         )]
 
         if not become_large.empty:
-            become_large = become_large.sort_values(by='Committer Commit Date')
-            if not born_large.empty:
-                concat_list.append(flex_large)
-            if not modified_large.empty:
-                concat_list.append(no_longer)
-            if concat_list:
-                # Excluir registros onde a combinação Local File PATH New + Hash está em born_large ou become_large ou no_longer
-                combined_keys = pd.concat([flex_large, no_longer])['Local File PATH New'].drop_duplicates()
-
-                # Usar merge para identificar registros que NÃO estão em combined_keys
-                become_large = become_large.merge(
-                    combined_keys,
-                    on='Local File PATH New',
-                    how='left',
-                    indicator=True
-                )
-
-                # Manter apenas os registros que não estão em combined_keys
-                become_large = become_large[become_large['_merge'] == 'left_only'].drop(columns='_merge')
-
-                # become_large.to_csv(f"{output_path}/{path}/{change_type}s_become.csv", index=False)
-                become_large_grouped = become_large.groupby('Local File PATH New')
-                become_large_total = len(become_large_grouped)
+            # become_large.to_csv(f"{output_path}/{path}/{change_type}s_become.csv", index=False)
+            become_large_grouped = become_large.groupby('Local File PATH New')
+            become_large_total = len(become_large_grouped)
 
 
     # Other pt1 =================================================================================================
@@ -280,9 +272,8 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
             modified_large = modified_large.sort_values(by='Committer Commit Date')
 
             # modified_large.to_csv(f"{output_path}/{path}/{change_type}s_modified.csv", index=False)
-
-        modified_large_grouped = modified_large.groupby('Local File PATH New')
-
+            modified_large_grouped = modified_large.groupby('Local File PATH New')
+            modified_large_total = len(modified_large_grouped)
 
     # RESULT ================================================================================================
     result: dict = {
@@ -290,16 +281,16 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
         "Added Files TOTAL": [babies_total],
         "Added Large Files TOTAL": [len(born_large)],
         "Added Large Files Percentage": [(len(born_large)/babies_total)*100],
-        "Modified Files TOTAL": [modifieds_total],
-        "Modified Large Files TOTAL": [len(modified_large_grouped)],
-        "Modified Large Files Percentage": [(len(modified_large_grouped)/modifieds_total)*100],
-        "Flex Large Files TOTAL": [len(flex_large_grouped)],
-        "Flex Large Files Percentage": [(len(flex_large_grouped)/files_total)*100],
-        "No Longer Large Files TOTAL": [len(remaining_no_longer)],
-        "No Longer Large Files Percentage": [(len(remaining_no_longer)/files_total)*100],
         "Added and Modified Files TOTAL": [added_modified_total],
         "Become Large Files TOTAL": [become_large_total],
-        "Become Large Files Percentage": [((become_large_total/added_modified_total)*100) if added_modified_total > 0 else 0]
+        "Become Large Files Percentage": [((become_large_total/added_modified_total)*100) if added_modified_total > 0 else 0],
+        "Modified Files TOTAL": [modifieds_total],
+        "Modified Large Files TOTAL": [modified_large_total],
+        "Modified Large Files Percentage": [(modified_large_total/modifieds_total)*100],
+        "Flex Large Files TOTAL": [flex_large_total],
+        "Flex Large Files Percentage": [(flex_large_total/files_total)*100],
+        "No Longer Large Files TOTAL": [len(remaining_no_longer)],
+        "No Longer Large Files Percentage": [(len(remaining_no_longer)/files_total)*100]
         
     }
     return pd.DataFrame(result)
