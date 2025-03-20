@@ -36,6 +36,8 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
     born_large = repository_commits[repository_commits['Change Type'] == 'ADD'].copy()
     babies_total: int = len(born_large)
 
+    # Remove linhas onde 'File Name' não é uma string ou não contém um ponto
+    born_large = born_large[born_large['File Name'].apply(lambda x: isinstance(x, str) and '.' in x)]
     born_large['Extension'] = born_large['File Name'].apply(lambda x: x.split(".")[-1])
     born_large = born_large[born_large['Extension'].isin(language_white_list_df['Extension'].values)]
 
@@ -71,6 +73,8 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
     if not born_large.empty:
         modified_large = modified_large[~modified_large['Local File PATH New'].isin(born_large['Local File PATH New'].values)]
 
+    # Remove linhas onde 'File Name' não é uma string ou não contém um ponto
+    modified_large = modified_large[modified_large['File Name'].apply(lambda x: isinstance(x, str) and '.' in x)]
     modified_large['Extension'] = modified_large['File Name'].apply(lambda x: x.split(".")[-1])
     modified_large = modified_large[modified_large['Extension'].isin(language_white_list_df['Extension'].values)]
 
@@ -212,6 +216,8 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
         # Filtrar become_large para remover linhas que n existem em born_large
             become_large = become_large[~become_large['Local File PATH New'].isin(born_large['Local File PATH New'].values)]
 
+        # Remove linhas onde 'File Name' não é uma string ou não contém um ponto
+        become_large = become_large[become_large['File Name'].apply(lambda x: isinstance(x, str) and '.' in x)]
         become_large['Extension'] = become_large['File Name'].apply(lambda x: x.split(".")[-1])
         become_large = become_large[become_large['Extension'].isin(language_white_list_df['Extension'].values)]
 
