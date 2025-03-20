@@ -371,7 +371,7 @@ if not current_large.empty or not current_small.empty:
 # Resultado global ============================================================================================
 final_results: list[pd.DataFrame] = []
 if not large_files_commits.empty:
-    final_results.append(born_or_become(large_files_commits), "commits")
+    final_results.append(born_or_become(large_files_commits, "commits"))
 if not small_files_commits.empty:
     final_results.append(born_or_become(small_files_commits, "commits", 'small'))
 
