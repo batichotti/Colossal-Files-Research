@@ -57,14 +57,19 @@ def changes_counter(repository_commits: pd.DataFrame, change_type: str = "large"
         )]
 
     max_changes_large = None
-    max_changes_small = None
     max_changes_large_idx = None
+    max_changes_flex_large = None
+    max_changes_flex_large_idx = None
+    max_changes_small = None
     max_changes_small_idx = None
     changes_small = pd.DataFrame()
     if not changes_large.empty:
         changes_small = changes[~changes['Local File PATH New'].isin(changes_large['Local File PATH New'].values)].copy()
         max_changes_large = changes_large.groupby('Local File PATH New').size()
         max_changes_large_idx = max_changes_large.idxmax()
+        changes_flex_large = changes[changes['Local File PATH New'].isin(changes_large['Local File PATH New'].values)].copy()
+        max_changes_flex_large = changes_flex_large.groupby('Local File PATH New').size()
+        max_changes_flex_large = max_changes_flex_large.idxmax()
         
     if not changes_small.empty:
         changes_large = changes_large[changes_large['File Name'].apply(lambda x: isinstance(x, str) and '.' in x)]
@@ -86,13 +91,17 @@ def changes_counter(repository_commits: pd.DataFrame, change_type: str = "large"
         "Project Name": [changes.loc[changes['Local File PATH New'] == max_changes_idx, 'Project Name'].values[0]],
         "File Path": [max_changes_idx],
         
-        "#Changes Large": [max_changes_large.max() if max_changes_large is not None else 'Nothing'],
-        "Project Name Large": [changes_large.loc[changes_large['Local File PATH New'] == max_changes_large_idx, 'Project Name'].values[0]] if max_changes_large_idx is not None else 'Nothing',
-        "File Path Large": [max_changes_large_idx if max_changes_large_idx is not None else 'Nothing'],
+        "#Changes Large": [max_changes_large.max() if max_changes_large is not None else 'There are no changes for this category'],
+        "Project Name Large": [changes_large.loc[changes_large['Local File PATH New'] == max_changes_large_idx, 'Project Name'].values[0]] if max_changes_large_idx is not None else 'There are no changes for this category',
+        "File Path Large": [max_changes_large_idx if max_changes_large_idx is not None else 'There are no changes for this category'],
         
-        "#Changes Small": [max_changes_small.max() if max_changes_small is not None else 'Nothing'],
-        "Project Name Small": [changes.loc[changes['Local File PATH New'] == max_changes_small_idx, 'Project Name'].values[0]] if max_changes_small_idx is not None else 'Nothing',
-        "File Path Small": [max_changes_small_idx if max_changes_small_idx is not None else 'Nothing']
+        "#Changes Flex Large": [max_changes_flex_large.max() if max_changes_large is not None else 'There are no changes for this category'],
+        "Project Name Flex Large": [changes_flex_large.loc[changes_large['Local File PATH New'] == max_changes_large_idx, 'Project Name'].values[0]] if max_changes_large_idx is not None else 'There are no changes for this category',
+        "File Path Flex Large": [max_changes_flex_large_idx if max_changes_large_idx is not None else 'There are no changes for this category'],
+        
+        "#Changes Small": [max_changes_small.max() if max_changes_small is not None else 'There are no changes for this category'],
+        "Project Name Small": [changes.loc[changes['Local File PATH New'] == max_changes_small_idx, 'Project Name'].values[0]] if max_changes_small_idx is not None else 'There are no changes for this category',
+        "File Path Small": [max_changes_small_idx if max_changes_small_idx is not None else 'There are no changes for this category']
     }
     
     return pd.DataFrame(result)
