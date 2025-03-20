@@ -35,8 +35,8 @@ def major_complexities(repository_commits: pd.DataFrame, change_type: str = "lar
     deleted_max_row = df.loc[df['Lines Balance'].idxmin()]
     
     value_major_complexity = df['Complexity'].max()
-    major_complexity_added = df[(df['Complexity'] == value_major_complexity) & (df['Lines Balance'] == df['Lines Balance'].max())]
-    major_complexity_deleted = df[(df['Complexity'] == value_major_complexity) & (df['Lines Balance'] == df['Lines Balance'].min())]
+    major_complexity_added = df[(df['Complexity'] == value_major_complexity) & (df['Lines Balance'] == df['Lines Balance'].max())].iloc[0]
+    major_complexity_deleted = df[(df['Complexity'] == value_major_complexity) & (df['Lines Balance'] == df['Lines Balance'].min())].iloc[0]
 
     result = {
         "Change Type": [change_type],
