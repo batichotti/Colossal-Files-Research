@@ -11,13 +11,12 @@ input_path: str = "./src/_17/input/"
 output_path: str = "./src/_17/output/"
 
 repositories_path: str = "./src/_00/input/450_Starred_Projects.csv"
-large_files_commits_path: str = "./src/_10/output/large_files/"
-small_files_commits_path: str = "./src/_10/output/small_files/"
 language_white_list_path: str = "./src/_15/input/white_list.csv"
 percentil_path: str = "./src/_02/output/percentis_by_language_filtered.csv"
+small_files_commits_path: str = "./src/_10/output/small_files/"
+large_files_commits_path: str = "./src/_10/output/large_files/"
 
 # Carrega e ordena repositórios por linguagem
-repositories: pd.DataFrame = pd.read_csv(repositories_path).sort_values(by='main language').reset_index(drop=True)
 repositories: pd.DataFrame = pd.read_csv(repositories_path).sort_values(by='main language').reset_index(drop=True)
 percentil_df: pd.DataFrame = pd.read_csv(percentil_path)
 language_white_list_df: pd.DataFrame = pd.read_csv(language_white_list_path)
