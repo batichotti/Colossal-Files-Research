@@ -67,6 +67,16 @@ def changes_counter(repository_commits: pd.DataFrame, change_type: str = "large"
         max_changes_large_idx = max_changes_large.idxmax()
         
     if not changes_small.empty:
+        changes_large = changes_large[changes_large['File Name'].apply(lambda x: isinstance(x, str) and '.' in x)]
+        if not changes_small.empty:
+            changes_small['Extension'] = changes_small['File Name'].apply(lambda x: x.split(".")[-1]).copy()
+            changes_small = changes_small[changes_small['Extension'].isin(language_white_list_df['Extension'].values)]
+            changes_small = changes_small.merge(
+            language_white_list_df[['Extension', 'Language']],
+            on='Extension',
+            how='left'
+            ).drop(columns=['Extension'])
+        
         max_changes_small = changes_large.groupby('Local File PATH New').size()
         max_changes_small_idx = max_changes_small.idxmax()
 
