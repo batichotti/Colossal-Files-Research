@@ -38,36 +38,38 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
 
     # Remove linhas onde 'File Name' não é uma string ou não contém um ponto
     born_large = born_large[born_large['File Name'].apply(lambda x: isinstance(x, str) and '.' in x)]
-    born_large['Extension'] = born_large['File Name'].apply(lambda x: x.split(".")[-1])
-    born_large = born_large[born_large['Extension'].isin(language_white_list_df['Extension'].values)]
-
-    born_large = born_large.merge(
-        language_white_list_df[['Extension', 'Language']],
-        on='Extension',
-        how='left'
-    ).drop(columns=['Extension'])
-
-    # Converte NLOC para numérico e remove inválidos
-    born_large['Lines Of Code (nloc)'] = pd.to_numeric(born_large['Lines Of Code (nloc)'], errors='coerce')
-    born_large = born_large.dropna(subset=['Language', 'Lines Of Code (nloc)'])
-
-    # Filtra as linhas onde a linguagem é igual e o número de linhas de código é menor que o percentil 99
-    percentil_99 = percentil_df.set_index('language')['percentil 99']
-    born_large = born_large[born_large.apply(
-        lambda x: x['Lines Of Code (nloc)'] >= percentil_99.get(x['Language'], 0), 
-        axis=1
-    )]
-
     if not born_large.empty:
-        born_large = born_large.sort_values(by='Committer Commit Date')
+        born_large['Extension'] = born_large['File Name'].apply(lambda x: x.split(".")[-1])
+        born_large = born_large[born_large['Extension'].isin(language_white_list_df['Extension'].values)]
 
-        # born_large.to_csv(f"{output_path}/{path}/{change_type}s_born.csv", index=False)
+        born_large = born_large.merge(
+            language_white_list_df[['Extension', 'Language']],
+            on='Extension',
+            how='left'
+        ).drop(columns=['Extension'])
+
+        # Converte NLOC para numérico e remove inválidos
+        born_large['Lines Of Code (nloc)'] = pd.to_numeric(born_large['Lines Of Code (nloc)'], errors='coerce')
+        born_large = born_large.dropna(subset=['Language', 'Lines Of Code (nloc)'])
+
+        # Filtra as linhas onde a linguagem é igual e o número de linhas de código é menor que o percentil 99
+        percentil_99 = percentil_df.set_index('language')['percentil 99']
+        born_large = born_large[born_large.apply(
+            lambda x: x['Lines Of Code (nloc)'] >= percentil_99.get(x['Language'], 0), 
+            axis=1
+        )]
+
+        if not born_large.empty:
+            born_large = born_large.sort_values(by='Committer Commit Date')
+
+            # born_large.to_csv(f"{output_path}/{path}/{change_type}s_born.csv", index=False)
 
 
     # MODIFIED ===============================================================================================================
     modified_large = repository_commits[repository_commits['Change Type'] == 'MODIFY'].copy()
     modifieds_total = len(modified_large.groupby('Local File PATH New'))
     modified_large_total = 0
+    modified_large_per_file = None
 
     # Filtrar modified_large para remover linhas que existem em born_large
     if not born_large.empty:
@@ -75,30 +77,30 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
 
     # Remove linhas onde 'File Name' não é uma string ou não contém um ponto
     modified_large = modified_large[modified_large['File Name'].apply(lambda x: isinstance(x, str) and '.' in x)]
-    modified_large['Extension'] = modified_large['File Name'].apply(lambda x: x.split(".")[-1])
-    modified_large = modified_large[modified_large['Extension'].isin(language_white_list_df['Extension'].values)]
-
-    modified_large = modified_large.merge(
-        language_white_list_df[['Extension', 'Language']],
-        on='Extension',
-        how='left'
-    ).drop(columns=['Extension'])
-
-    # Converte NLOC e remove inválidos
-    modified_large['Lines Of Code (nloc)'] = pd.to_numeric(modified_large['Lines Of Code (nloc)'], errors='coerce')
-    modified_large = modified_large.dropna(subset=['Language', 'Lines Of Code (nloc)'])
-
-    # Filtra pelo percentil
-    modified_large = modified_large[modified_large.apply(
-        lambda x: x['Lines Of Code (nloc)'] >= percentil_99.get(x['Language'], 0), 
-        axis=1
-    )]
-
-    modified_large_per_file = None
     if not modified_large.empty:
-        modified_large = modified_large.sort_values(by='Committer Commit Date')
-        modified_large_per_file = modified_large.groupby('Local File PATH New')
-        modified_large_total = len(modified_large_per_file)
+        modified_large['Extension'] = modified_large['File Name'].apply(lambda x: x.split(".")[-1])
+        modified_large = modified_large[modified_large['Extension'].isin(language_white_list_df['Extension'].values)]
+
+        modified_large = modified_large.merge(
+            language_white_list_df[['Extension', 'Language']],
+            on='Extension',
+            how='left'
+        ).drop(columns=['Extension'])
+
+        # Converte NLOC e remove inválidos
+        modified_large['Lines Of Code (nloc)'] = pd.to_numeric(modified_large['Lines Of Code (nloc)'], errors='coerce')
+        modified_large = modified_large.dropna(subset=['Language', 'Lines Of Code (nloc)'])
+
+        # Filtra pelo percentil
+        modified_large = modified_large[modified_large.apply(
+            lambda x: x['Lines Of Code (nloc)'] >= percentil_99.get(x['Language'], 0), 
+            axis=1
+        )]
+
+        if not modified_large.empty:
+            modified_large = modified_large.sort_values(by='Committer Commit Date')
+            modified_large_per_file = modified_large.groupby('Local File PATH New')
+            modified_large_total = len(modified_large_per_file)
 
 
     # NO LONGER LARGE =============================================================================================
@@ -218,29 +220,30 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
 
         # Remove linhas onde 'File Name' não é uma string ou não contém um ponto
         become_large = become_large[become_large['File Name'].apply(lambda x: isinstance(x, str) and '.' in x)]
-        become_large['Extension'] = become_large['File Name'].apply(lambda x: x.split(".")[-1])
-        become_large = become_large[become_large['Extension'].isin(language_white_list_df['Extension'].values)]
-
-        become_large = become_large.merge(
-            language_white_list_df[['Extension', 'Language']],
-            on='Extension',
-            how='left'
-        ).drop(columns=['Extension'])
-
-        # Converte NLOC e remove inválidos
-        become_large['Lines Of Code (nloc)'] = pd.to_numeric(become_large['Lines Of Code (nloc)'], errors='coerce')
-        become_large = become_large.dropna(subset=['Language', 'Lines Of Code (nloc)'])
-
-        # Filtra pelo percentil
-        become_large = become_large[become_large.apply(
-            lambda x: x['Lines Of Code (nloc)'] >= percentil_99.get(x['Language'], 0), 
-            axis=1
-        )]
-
         if not become_large.empty:
-            # become_large.to_csv(f"{output_path}/{path}/{change_type}s_become.csv", index=False)
-            become_large_grouped = become_large.groupby('Local File PATH New')
-            become_large_total = len(become_large_grouped)
+            become_large['Extension'] = become_large['File Name'].apply(lambda x: x.split(".")[-1])
+            become_large = become_large[become_large['Extension'].isin(language_white_list_df['Extension'].values)]
+
+            become_large = become_large.merge(
+                language_white_list_df[['Extension', 'Language']],
+                on='Extension',
+                how='left'
+            ).drop(columns=['Extension'])
+
+            # Converte NLOC e remove inválidos
+            become_large['Lines Of Code (nloc)'] = pd.to_numeric(become_large['Lines Of Code (nloc)'], errors='coerce')
+            become_large = become_large.dropna(subset=['Language', 'Lines Of Code (nloc)'])
+
+            # Filtra pelo percentil
+            become_large = become_large[become_large.apply(
+                lambda x: x['Lines Of Code (nloc)'] >= percentil_99.get(x['Language'], 0), 
+                axis=1
+            )]
+
+            if not become_large.empty:
+                # become_large.to_csv(f"{output_path}/{path}/{change_type}s_become.csv", index=False)
+                become_large_grouped = become_large.groupby('Local File PATH New')
+                become_large_total = len(become_large_grouped)
 
 
     # Other pt1 =================================================================================================
@@ -256,24 +259,25 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
         concat_list.append(no_longer)
     if concat_list:
         combined_keys = pd.concat(concat_list)['Local File PATH New'].drop_duplicates()
-
-        # Usar merge para identificar registros que NÃO estão em combined_keys
-        modified_large = modified_large.merge(
-            combined_keys,
-            on='Local File PATH New',
-            how='left',
-            indicator=True
-        )
-
-        # Manter apenas os registros que não estão em combined_keys
-        modified_large = modified_large[modified_large['_merge'] == 'left_only'].drop(columns='_merge')
-
+        
         if not modified_large.empty:
-            modified_large = modified_large.sort_values(by='Committer Commit Date')
+            # Usar merge para identificar registros que NÃO estão em combined_keys
+            modified_large = modified_large.merge(
+                combined_keys,
+                on='Local File PATH New',
+                how='left',
+                indicator=True
+            )
 
-            # modified_large.to_csv(f"{output_path}/{path}/{change_type}s_modified.csv", index=False)
-            modified_large_grouped = modified_large.groupby('Local File PATH New')
-            modified_large_total = len(modified_large_grouped)
+            # Manter apenas os registros que não estão em combined_keys
+            modified_large = modified_large[modified_large['_merge'] == 'left_only'].drop(columns='_merge')
+
+            if not modified_large.empty:
+                modified_large = modified_large.sort_values(by='Committer Commit Date')
+
+                # modified_large.to_csv(f"{output_path}/{path}/{change_type}s_modified.csv", index=False)
+                modified_large_grouped = modified_large.groupby('Local File PATH New')
+                modified_large_total = len(modified_large_grouped)
 
     # RESULT ================================================================================================
     result: dict = {
@@ -294,6 +298,7 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
         
     }
     return pd.DataFrame(result)
+
 
 def process_language(lang: str, large: pd.DataFrame, small: pd.DataFrame, output_path: str):
     """Processa e salva resultados por linguagem"""
