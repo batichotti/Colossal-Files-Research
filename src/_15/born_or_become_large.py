@@ -299,6 +299,7 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
     }
     return pd.DataFrame(result)
 
+
 def process_language(lang: str, large: pd.DataFrame, small: pd.DataFrame, output_path: str):
     """Processa e salva resultados por linguagem"""
     results:list[pd.DataFrame] = []
