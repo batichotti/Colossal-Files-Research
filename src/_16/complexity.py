@@ -24,109 +24,59 @@ small_files_commits: pd.DataFrame = pd.DataFrame()
 # Funções auxiliares =========================================================================================
 import pandas as pd
 
+import pandas as pd
+
 def major_complexities(repository_commits: pd.DataFrame, change_type: str = "large") -> pd.DataFrame:
     """Identifica commits com maiores adições/remoções e sua complexidade."""
-    # Filtrar entradas onde a complexidade não é 'not calculated'
-    df_filtered = repository_commits[repository_commits['Complexity'] != 'not calculated'].copy()
+    df = repository_commits[repository_commits['Complexity'] != 'not calculated'].copy()
     not_calculated = repository_commits[repository_commits['Complexity'] == 'not calculated']
     
-    if df_filtered.empty:
-        return pd.DataFrame({
-            "Change Type": [change_type],
-            "Not Calculated Count": [len(not_calculated)]
-        }) if len(not_calculated) > 0 else None
+    if df.empty:
+        return pd.DataFrame({"Change Type": [change_type], "Not Calculated Count": [len(not_calculated)]}) if not_calculated.any().any() else None
     
-    # Converter Complexidade para numérico e remover valores inválidos
-    df_filtered['Complexity'] = pd.to_numeric(df_filtered['Complexity'], errors='coerce')
-    df_filtered = df_filtered.dropna(subset=['Complexity'])
-    df_filtered['Complexity'] = df_filtered['Complexity'].astype(int)
+    df['Complexity'] = pd.to_numeric(df['Complexity'], errors='coerce').astype('Int64')
+    df['Lines Balance'] = df['Lines Added'] - df['Lines Deleted']
+    df = df.dropna(subset=['Complexity', 'Lines Balance'])
     
-    # Calcular Lines Balance e remover NaNs
-    df_filtered['Lines Balance'] = df_filtered['Lines Added'] - df_filtered['Lines Deleted']
-    df_filtered = df_filtered.dropna(subset=['Lines Balance'])
+    if df.empty:
+        return pd.DataFrame({"Change Type": [change_type], "Not Calculated Count": [len(not_calculated)]}) if not_calculated.any().any() else None
     
-    if df_filtered.empty:
-        return pd.DataFrame({
-            "Change Type": [change_type],
-            "Not Calculated Count": [len(not_calculated)]
-        }) if len(not_calculated) > 0 else None
+    # Maior complexidade com maior Lines Balance
+    max_complexity = df['Complexity'].max()
+    major_add = df[df['Complexity'] == max_complexity].nlargest(1, 'Lines Balance')
+    major_del = df[df['Complexity'] == max_complexity].nsmallest(1, 'Lines Balance')
     
-    # Encontrar as linhas com maior e menor Lines Balance
-    try:
-        added_max_row = df_filtered.loc[df_filtered['Lines Balance'].idxmax()]
-    except ValueError:
-        added_max_row = None
-    try:
-        deleted_max_row = df_filtered.loc[df_filtered['Lines Balance'].idxmin()]
-    except ValueError:
-        deleted_max_row = None
+    # Maiores modificações globais
+    max_add_row = df.nlargest(1, 'Lines Balance')
+    max_del_row = df.nsmallest(1, 'Lines Balance')
     
-    # Encontrar a maior complexidade e suas ocorrências
-    max_complexity = df_filtered['Complexity'].max()
-    max_complex_group = df_filtered[df_filtered['Complexity'] == max_complexity]
-    
-    if max_complex_group.empty:
-        return pd.DataFrame({
-            "Change Type": [change_type],
-            "Not Calculated Count": [len(not_calculated)]
-        }) if len(not_calculated) > 0 else None
-    
-    max_add = max_complex_group['Lines Balance'].max()
-    min_delete = max_complex_group['Lines Balance'].min()
-    
-    major_add = max_complex_group[max_complex_group['Lines Balance'] == max_add]
-    major_complexity_added = major_add.iloc[0] if not major_add.empty else None
-    
-    major_delete = max_complex_group[max_complex_group['Lines Balance'] == min_delete]
-    major_complexity_deleted = major_delete.iloc[0] if not major_delete.empty else None
-    
-    # Construir o resultado com verificações de segurança
+    # Construir resultado
     result = {
         "Change Type": [change_type],
-        "Average Complexity": [df_filtered['Complexity'].mean()],
-        "Median Complexity": [df_filtered['Complexity'].median()],
-        "Not Calculated Count": [len(not_calculated)]
+        "Average Complexity": [df['Complexity'].mean()],
+        "Median Complexity": [df['Complexity'].median()],
+        "Not Calculated Count": [len(not_calculated)],
+        
+        # Dados da maior complexidade com adição
+        "Highest Complexity Added": [major_add['Complexity'].iloc[0] if not major_add.empty else None],
+        "Largest Balance Added": [major_add['Lines Balance'].iloc[0] if not major_add.empty else None],
+        "Project Added": [major_add['Project Name'].iloc[0] if not major_add.empty else None],
+        "File Added": [major_add['Local File PATH New'].iloc[0] if not major_add.empty else None],
+        "Hash Added": [major_add['Hash'].iloc[0] if not major_add.empty else None],
+        
+        # Dados da maior complexidade com remoção
+        "Highest Complexity Deleted": [major_del['Complexity'].iloc[0] if not major_del.empty else None],
+        "Largest Balance Deleted": [major_del['Lines Balance'].iloc[0] if not major_del.empty else None],
+        "Project Deleted": [major_del['Project Name'].iloc[0] if not major_del.empty else None],
+        "File Deleted": [major_del['Local File PATH New'].iloc[0] if not major_del.empty else None],
+        "Hash Deleted": [major_del['Hash'].iloc[0] if not major_del.empty else None],
+        
+        # Maiores modificações absolutas
+        "Max Lines Added": [max_add_row['Lines Balance'].iloc[0] if not max_add_row.empty else None],
+        "Max Lines Added Hash": [max_add_row['Hash'].iloc[0] if not max_add_row.empty else None],
+        "Max Lines Deleted": [max_del_row['Lines Balance'].iloc[0] if not max_del_row.empty else None],
+        "Max Lines Deleted Hash": [max_del_row['Hash'].iloc[0] if not max_del_row.empty else None],
     }
-    
-    # Função auxiliar para preencher dados ou None
-    def get_value(row, column, default=None):
-        return row[column] if row is not None and column in row else default
-    
-    # Preencher dados para major_complexity_added
-    result.update({
-        "Highest Complexity Added": [get_value(major_complexity_added, 'Complexity')],
-        "Largest Modification Balance Added": [get_value(major_complexity_added, 'Lines Balance')],
-        "Project with Highest Complexity Added": [get_value(major_complexity_added, 'Project Name')],
-        "File with Highest Complexity Added": [get_value(major_complexity_added, 'Local File PATH New')],
-        "Largest Modification Hash Added": [get_value(major_complexity_added, 'Hash')],
-    })
-    
-    # Preencher dados para major_complexity_deleted
-    result.update({
-        "Highest Complexity Deleted": [get_value(major_complexity_deleted, 'Complexity')],
-        "Largest Modification Balance Deleted": [get_value(major_complexity_deleted, 'Lines Balance')],
-        "Project with Highest Complexity Deleted": [get_value(major_complexity_deleted, 'Project Name')],
-        "File with Highest Complexity Deleted": [get_value(major_complexity_deleted, 'Local File PATH New')],
-        "Largest Modification Hash Deleted": [get_value(major_complexity_deleted, 'Hash')],
-    })
-    
-    # Preencher dados para added_max_row
-    result.update({
-        "Max Lines Added": [get_value(added_max_row, 'Lines Balance')],
-        "Max Lines Added Hash": [get_value(added_max_row, 'Hash')],
-        "Complexity of Max Lines Added": [get_value(added_max_row, 'Complexity')],
-        "Project with Max Lines Added": [get_value(added_max_row, 'Project Name')],
-        "File with Max Lines Added": [get_value(added_max_row, 'Local File PATH New')],
-    })
-    
-    # Preencher dados para deleted_max_row
-    result.update({
-        "Max Lines Deleted": [get_value(deleted_max_row, 'Lines Balance')],
-        "Max Lines Deleted Hash": [get_value(deleted_max_row, 'Hash')],
-        "Complexity of Max Lines Deleted": [get_value(deleted_max_row, 'Complexity')],
-        "Project with Max Lines Deleted": [get_value(deleted_max_row, 'Project Name')],
-        "File with Max Lines Deleted": [get_value(deleted_max_row, 'Local File PATH New')],
-    })
     
     return pd.DataFrame(result)
 
