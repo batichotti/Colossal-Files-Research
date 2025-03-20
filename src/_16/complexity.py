@@ -22,10 +22,6 @@ large_files_commits: pd.DataFrame = pd.DataFrame()
 small_files_commits: pd.DataFrame = pd.DataFrame()
 
 # Funções auxiliares =========================================================================================
-import pandas as pd
-
-import pandas as pd
-
 def major_complexities(repository_commits: pd.DataFrame, change_type: str = "large") -> pd.DataFrame:
     """Identifica commits com maiores adições/remoções e sua complexidade."""
     df = repository_commits[repository_commits['Change Type'] == 'MODIFY'].copy()
