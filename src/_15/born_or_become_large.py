@@ -290,7 +290,7 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
         "Become Large Files Percentage": [((become_large_total/added_modified_total)*100) if added_modified_total > 0 else 0],
         "Modified Files TOTAL": [modifieds_total],
         "Modified Large Files TOTAL": [modified_large_total],
-        "Modified Large Files Percentage": [(modified_large_total/modifieds_total)*100],
+        "Modified Large Files Percentage": [((modified_large_total/modifieds_total)*100) if modifieds_total > 0 else 0],
         "Flex Large Files TOTAL": [flex_large_total],
         "Flex Large Files Percentage": [(flex_large_total/files_total)*100],
         "No Longer Large Files TOTAL": [len(remaining_no_longer)],
