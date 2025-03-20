@@ -46,26 +46,26 @@ def major_complexities(repository_commits: pd.DataFrame, change_type: str = "lar
         "Highest Complexity Added": [major_complexity_added['Complexity']],
         "Largest Modification Balance Added": [major_complexity_added['Lines Balance']],
         "Project with Highest Complexity Added": [major_complexity_added['Project Name']],
-        "File with Highest Complexity Added": [major_complexity_added['File Path']],
+        "File with Highest Complexity Added": [major_complexity_added['Local File PATH New']],
         "Largest Modification Hash Added": [major_complexity_added['Hash']],
         
         "Highest Complexity Deleted": [major_complexity_deleted['Complexity']],
         "Largest Modification Balance Deleted": [major_complexity_deleted['Lines Balance']],
         "Project with Highest Complexity Deleted": [major_complexity_deleted['Project Name']],
-        "File with Highest Complexity Deleted": [major_complexity_deleted['File Path']],
+        "File with Highest Complexity Deleted": [major_complexity_deleted['Local File PATH New']],
         "Largest Modification Hash Deleted": [major_complexity_deleted['Hash']],
         
         "Max Lines Added": [added_max_row['Lines Balance']],
         "Max Lines Added Hash": [added_max_row['Hash']],
         "Complexity of Max Lines Added": [added_max_row['Complexity']],
         "Project with Max Lines Added": [added_max_row['Project Name']],
-        "File with Max Lines Added": [added_max_row['File Path']],
+        "File with Max Lines Added": [added_max_row['Local File PATH New']],
         
         "Max Lines Deleted": [deleted_max_row['Lines Balance']],
         "Max Lines Deleted Hash": [deleted_max_row['Hash']],
         "Complexity of Max Lines Deleted": [deleted_max_row['Complexity']],
         "Project with Max Lines Deleted": [deleted_max_row['Project Name']],
-        "File with Max Lines Deleted": [deleted_max_row['File Path']],
+        "File with Max Lines Deleted": [deleted_max_row['Local File PATH New']],
         
         "Not Calculated Count": [len(not_calculated)]
     }
