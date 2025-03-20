@@ -24,7 +24,7 @@ small_files_commits: pd.DataFrame = pd.DataFrame()
 # Funções auxiliares =========================================================================================
 def major_complexities(repository_commits: pd.DataFrame, change_type: str = "large") -> pd.DataFrame:
     """Commits com maiores adições/remoções por foram identificados e sua complexidade"""
-    df = repository_commits[repository_commits['Complexity'] != 'not calculated']
+    df = repository_commits[repository_commits['Complexity'] != 'not calculated'].copy()
     not_calculated = repository_commits[repository_commits['Complexity'] == 'not calculated']
     if df.empty:
         return None
