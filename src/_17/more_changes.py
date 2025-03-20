@@ -25,11 +25,14 @@ small_files_commits: pd.DataFrame = pd.DataFrame()
 def changes_counter(repository_commits: pd.DataFrame, change_type: str = "large") -> pd.DataFrame:
     """Função Base para o processamento de dados"""
     changes = repository_commits[repository_commits['Change Type'] == 'MODIFY'].copy()
-    max_changes = changes.groupby('Local File PATH New').size().max()
+    max_changes = changes.groupby('Local File PATH New').size()
+    max_changes_idx = max_changes.idxmax()
     
     result: dict = {
         "Type": [change_type],
-        "Mais Mudanças": max_changes
+        "#Changes": [max_changes.max()],
+        "Project Name": [changes.loc[changes['Local File PATH New'] == max_changes_idx, 'Project Name'].values[0]],
+        "File Path": [max_changes_idx]
     }
     return pd.DataFrame(result)
 
