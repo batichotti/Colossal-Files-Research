@@ -73,9 +73,14 @@ def major_complexities(repository_commits: pd.DataFrame, change_type: str = "lar
         
         # Maiores modificações absolutas
         "Max Lines Added": [max_add_row['Lines Balance'].iloc[0] if not max_add_row.empty else None],
+        "Max Lines Added Path": [max_add_row['Local File PATH New'].iloc[0] if not max_add_row.empty else None],
+        "Max Lines Added Project": [max_add_row['Project Name'].iloc[0] if not max_add_row.empty else None],
         "Max Lines Added Hash": [max_add_row['Hash'].iloc[0] if not max_add_row.empty else None],
+        
         "Max Lines Deleted": [max_del_row['Lines Balance'].iloc[0] if not max_del_row.empty else None],
-        "Max Lines Deleted Hash": [max_del_row['Hash'].iloc[0] if not max_del_row.empty else None],
+        "Max Lines Deleted Path": [max_del_row['Local File PATH New'].iloc[0] if not max_del_row.empty else None],
+        "Max Lines Deleted Project": [max_del_row['Project Name'].iloc[0] if not max_del_row.empty else None],
+        "Max Lines Deleted Hash": [max_del_row['Hash'].iloc[0] if not max_del_row.empty else None]
     }
     
     return pd.DataFrame(result)
