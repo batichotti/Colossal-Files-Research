@@ -26,6 +26,7 @@ def major_complexities(repository_commits: pd.DataFrame, change_type: str = "lar
     """Identifica commits com maiores adições/remoções e sua complexidade."""
     df = repository_commits[repository_commits['Change Type'] == 'MODIFY'].copy()
     df = df[df['Complexity'] != 'not calculated']
+    total_calculated = len(df)
     not_calculated = repository_commits[repository_commits['Complexity'] == 'not calculated']
     
     if df.empty:
@@ -50,33 +51,38 @@ def major_complexities(repository_commits: pd.DataFrame, change_type: str = "lar
     # Construir resultado
     result = {
         "Change Type": [change_type],
+
+        "Calculated Count": [total_calculated],
+        "Not Calculated Count": [len(not_calculated)],
         "Average Complexity": [df['Complexity'].mean()],
         "Median Complexity": [df['Complexity'].median()],
-        "Not Calculated Count": [len(not_calculated)],
+        "Highest Complexity": [df['Complexity'].max()],
         
         # Dados da maior complexidade com adição
-        "Highest Complexity Added": [major_add['Complexity'].iloc[0] if not major_add.empty else None],
-        "Largest Balance Added": [major_add['Lines Balance'].iloc[0] if not major_add.empty else None],
+        "Highest Complexity for Added Lines": [major_add['Complexity'].iloc[0] if not major_add.empty else None],
+        "Lines Added": [major_add['Lines Balance'].iloc[0] if not major_add.empty else None],
         "Project Added": [major_add['Project Name'].iloc[0] if not major_add.empty else None],
         "File Added": [major_add['Local File PATH New'].iloc[0] if not major_add.empty else None],
         "Hash Added": [major_add['Hash'].iloc[0] if not major_add.empty else None],
         
         # Dados da maior complexidade com remoção
-        "Highest Complexity Deleted": [major_del['Complexity'].iloc[0] if not major_del.empty else None],
-        "Largest Balance Deleted": [major_del['Lines Balance'].iloc[0] if not major_del.empty else None],
+        "Highest Complexity for Deleted Lines": [major_del['Complexity'].iloc[0] if not major_del.empty else None],
+        "Lines Deleted": [major_del['Lines Balance'].iloc[0] if not major_del.empty else None],
         "Project Deleted": [major_del['Project Name'].iloc[0] if not major_del.empty else None],
         "File Deleted": [major_del['Local File PATH New'].iloc[0] if not major_del.empty else None],
         "Hash Deleted": [major_del['Hash'].iloc[0] if not major_del.empty else None],
         
         # Maiores modificações absolutas
-        "Max Lines Added": [max_add_row['Lines Balance'].iloc[0] if not max_add_row.empty else None],
-        "Max Lines Added Path": [max_add_row['Local File PATH New'].iloc[0] if not max_add_row.empty else None],
+        "Max Lines Added": [max_add_row['Complexity'].iloc[0] if not max_add_row.empty else None],
+        "Max Lines Added Complexity": [max_add_row['Lines Balance'].iloc[0] if not max_add_row.empty else None],
         "Max Lines Added Project": [max_add_row['Project Name'].iloc[0] if not max_add_row.empty else None],
+        "Max Lines Added File": [max_add_row['Local File PATH New'].iloc[0] if not max_add_row.empty else None],
         "Max Lines Added Hash": [max_add_row['Hash'].iloc[0] if not max_add_row.empty else None],
         
-        "Max Lines Deleted": [max_del_row['Lines Balance'].iloc[0] if not max_del_row.empty else None],
-        "Max Lines Deleted Path": [max_del_row['Local File PATH New'].iloc[0] if not max_del_row.empty else None],
+        "Max Lines Deleted": [max_del_row['Complexity'].iloc[0] if not max_del_row.empty else None],
+        "Max Lines Deleted Complexity": [max_del_row['Lines Balance'].iloc[0] if not max_del_row.empty else None],
         "Max Lines Deleted Project": [max_del_row['Project Name'].iloc[0] if not max_del_row.empty else None],
+        "Max Lines Deleted File": [max_del_row['Local File PATH New'].iloc[0] if not max_del_row.empty else None],
         "Max Lines Deleted Hash": [max_del_row['Hash'].iloc[0] if not max_del_row.empty else None]
     }
     
