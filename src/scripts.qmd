@@ -306,9 +306,9 @@ for i in range(len(repositories)):
 
 ```
 
-## Minerando commits de Arquivos Colossais
+## Minerando commits de Arquivos Grandes
 
-Com isso, tendo todos os Arquivos Colossais separados, o próximo passo foi minerar todos os commits de cada arquivo.
+Com isso, tendo todos os Arquivos Grandes separados, o próximo passo foi minerar todos os commits de cada arquivo.
 
 ```{python}
 import pydriller as dr
@@ -468,7 +468,7 @@ if __name__ == '__main__':
 
 ## Resumir a saída do CLoC
 
-Para as próximas análises, precisamos dos commits de arquivos que não são Arquivos Colossais, que chamaremos de Arquivos Nanicos. Para isso, este código junta todos os dados extraídos pelo CLoC em um único csv, além de juntar todos os arquivos grandes.
+Para as próximas análises, precisamos dos commits de arquivos que não são Arquivos Grandes, que chamaremos de Arquivos Não Grandes. Para isso, este código junta todos os dados extraídos pelo CLoC em um único csv, além de juntar todos os arquivos grandes.
 
 ```{python}
 import pandas as pd
@@ -546,9 +546,9 @@ if (__name__ == "__main__"):
 
 ```
 
-## Analisar cada Projeto para obter o número de Arquivos Nanicos por Projeto
+## Analisar cada Projeto para obter o número de Arquivos Não Grandes por Projeto
 
-Com esses resultados, definimos uma amostra para definir a quantidade de Arquivos Nanicos a serem usados para comparação. Esta amostra foi calculada usando a calculadora de amostras com 99% de confiança, 1% de erro e distribuição 80/20. Com esses valores, calculamos a quantidade de Arquivos Nanicos para cada projeto usando o seguinte cálculo. Primeiro, analisamos a proporção que os Arquivos Colossais de uma linguagem em um Projeto X representam no total de Arquivos Colossais que essa linguagem possui com essa proporção (X Arquivos Colossais Java/Total Arquivos Colossais Java). Com isso, aplicamos essa proporção à amostra da calculadora de amostras. Se um Projeto não puder conter o total de Arquivos Nanicos de uma linguagem, usaremos apenas os disponíveis para não comprometer a amostragem de outros Projetos.
+Com esses resultados, definimos uma amostra para definir a quantidade de Arquivos Não Grandes a serem usados para comparação. Esta amostra foi calculada usando a calculadora de amostras com 99% de confiança, 1% de erro e distribuição 80/20. Com esses valores, calculamos a quantidade de Arquivos Não Grandes para cada projeto usando o seguinte cálculo. Primeiro, analisamos a proporção que os Arquivos Grandes de uma linguagem em um Projeto X representam no total de Arquivos Grandes que essa linguagem possui com essa proporção (X Arquivos Grandes Java/Total Arquivos Grandes Java). Com isso, aplicamos essa proporção à amostra da calculadora de amostras. Se um Projeto não puder conter o total de Arquivos Não Grandes de uma linguagem, usaremos apenas os disponíveis para não comprometer a amostragem de outros Projetos.
 
 ```{python}
 '''
@@ -556,7 +556,7 @@ Com esses resultados, definimos uma amostra para definir a quantidade de Arquivo
 2º - Contar quantos large files de cada linguagem existe no projeto
 3º - Calcular a proporção
 4º - Aplicar a proporção para os small files
-5º - Mostrar quantos Arquivos Nanicos tem disponível no projeto
+5º - Mostrar quantos Arquivos Não Grandes tem disponível no projeto
 '''
 
 import pandas as pd
@@ -635,9 +635,9 @@ if (__name__ == "__main__"):
 
 ```
 
-## Selecionando Arquivos Nanicos por Projeto aleatoriamente
+## Selecionando Arquivos Não Grandes por Projeto aleatoriamente
 
-Tendo o número de Arquivos Nanicos de cada linguagem por Projeto, agora sorteamos aleatoriamente esse número de arquivos.
+Tendo o número de Arquivos Não Grandes de cada linguagem por Projeto, agora sorteamos aleatoriamente esse número de arquivos.
 
 ```{python}
 import os
@@ -782,9 +782,9 @@ if __name__ == "__main__":
 
 ```
 
-## Minerando commits de Arquivos Nanicos
+## Minerando commits de Arquivos Não Grandes
 
-Finalmente, tendo selecionado os Arquivos Nanicos, agora extraímos seus commits.
+Finalmente, tendo selecionado os Arquivos Não Grandes, agora extraímos seus commits.
 
 ```{python}
 import pydriller as dr
