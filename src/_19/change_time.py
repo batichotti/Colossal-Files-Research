@@ -73,7 +73,7 @@ def grew_or_decreased(repository_commits: pd.DataFrame, change_type: str = "larg
     change_time_total = []
     only_added_total: int = 0
     if not changes.empty:
-        changes_files_total = len(changes)
+        changes_files_total = len(changes.groupby('Local File PATH New'))
         changes['Committer Commit Date'] = changes['Committer Commit Date'].apply(
             lambda x: x[:-3] + x[-2:]  # Remove o ':' do offset (+02:00 → +0200)
         )
@@ -95,7 +95,7 @@ def grew_or_decreased(repository_commits: pd.DataFrame, change_type: str = "larg
     change_time_large_total = []
     only_added_large_total: int = 0
     if not changes_large.empty:
-        changes_large_files_total = len(changes_large)
+        changes_large_files_total = len(changes_large.groupby('Local File PATH New'))
         changes_large['Committer Commit Date'] = changes_large['Committer Commit Date'].apply(
             lambda x: x[:-3] + x[-2:]
         )
@@ -116,7 +116,7 @@ def grew_or_decreased(repository_commits: pd.DataFrame, change_type: str = "larg
     change_time_small_total = []
     only_added_small_total: int = 0
     if not changes_small.empty:
-        changes_small_files_total = len(changes_small)
+        changes_small_files_total = len(changes_small.groupby('Local File PATH New'))
         changes_small['Committer Commit Date'] = changes_small['Committer Commit Date'].apply(
             lambda x: x[:-3] + x[-2:]  # Aplicar o mesmo ajuste
         )
@@ -153,6 +153,13 @@ def grew_or_decreased(repository_commits: pd.DataFrame, change_type: str = "larg
         "Only Added Small": [only_added_small_total],
         "Time Small Average": [np.mean(change_time_small_total) if change_time_small_total else 0],
         "Time Small Median": [np.median(change_time_small_total) if change_time_small_total else 0],
+
+        "Large p/ Small (Average)": [np.mean(change_time_small_total)/np.mean(change_time_large_total)
+                                    if change_time_small_total and change_time_large_total else 0
+                                ],
+        "Large p/ Small (Median)": [np.median(change_time_small_total)/np.median(change_time_large_total)
+                                    if change_time_small_total and change_time_large_total else 0
+                                ]
     }
     return pd.DataFrame(result)
 
