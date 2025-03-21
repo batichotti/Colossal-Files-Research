@@ -2,7 +2,7 @@ import pandas as pd
 from os import makedirs, path
 from sys import setrecursionlimit
 import numpy as np
-import datetime as dt
+import datetime
 
 setrecursionlimit(2_000_000)
 
@@ -74,13 +74,17 @@ def grew_or_decreased(repository_commits: pd.DataFrame, change_type: str = "larg
     only_added_total: int = 0
     if not changes.empty:
         changes_files_total = len(changes)
+        changes['Committer Commit Date'] = changes['Committer Commit Date'].apply(
+            lambda x: datetime.datetime.strptime(x, '%Y-%m-%d %H:%M:%S')
+        )
         changes = changes.sort_values(by='Committer Commit Date')
         changes_per_file = changes.groupby('Local File PATH New')
         for _, file_changes in changes_per_file:
-            if len(file_changes) >= 2:
-                commit_dates = file_changes['Committer Commit Date']
-                date_diffs = commit_dates.diff().dt.total_seconds().dropna()
-                change_time_total.extend(date_diffs.tolist())
+            commits = file_changes['Committer Commit Date'].tolist()
+            if len(commits) >= 2:
+                for i in range(1, len(commits)):
+                    diferenca = (commits[i] - commits[i-1]).total_seconds()
+                    change_time_total.append(diferenca)
             else:
                 only_added_total += 1
 
@@ -88,14 +92,16 @@ def grew_or_decreased(repository_commits: pd.DataFrame, change_type: str = "larg
     change_time_large_total = []
     only_added_large_total: int = 0
     if not changes_large.empty:
-        changes_large_files_total: int = 0
+        changes_large_files_total = len(changes_large)
+        changes_large['Committer Commit Date'] = changes_large['Committer Commit Date'].apply(
+            lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S')
+        )
         changes_large = changes_large.sort_values(by='Committer Commit Date')
-        changes_large_per_file = changes_large.groupby('Local File PATH New')
-        for _, file_changes in changes_large_per_file:
-            if len(file_changes) >= 2:
-                commit_dates = file_changes['Committer Commit Date']
-                date_diffs = commit_dates.diff().dt.total_seconds().dropna()
-                change_time_large_total.extend(date_diffs.tolist())
+        for _, file_changes in changes_large.groupby('Local File PATH New'):
+            commits = file_changes['Committer Commit Date'].tolist()
+            if len(commits) >= 2:
+                for i in range(1, len(commits)):
+                    change_time_large_total.append((commits[i] - commits[i-1]).total_seconds())
             else:
                 only_added_large_total += 1
 
@@ -103,14 +109,16 @@ def grew_or_decreased(repository_commits: pd.DataFrame, change_type: str = "larg
     change_time_small_total = []
     only_added_small_total: int = 0
     if not changes_small.empty:
-        changes_small_files_total: int = 0
+        changes_small_files_total = len(changes_small)
+        changes_small['Committer Commit Date'] = changes_small['Committer Commit Date'].apply(
+            lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S')
+        )
         changes_small = changes_small.sort_values(by='Committer Commit Date')
-        changes_small_per_file = changes_small.groupby('Local File PATH New')
-        for _, file_changes in changes_small_per_file:
-            if len(file_changes) >= 2:
-                commit_dates = file_changes['Committer Commit Date']
-                date_diffs = commit_dates.diff().dt.total_seconds().dropna()
-                change_time_small_total.extend(date_diffs.tolist())
+        for _, file_changes in changes_small.groupby('Local File PATH New'):
+            commits = file_changes['Committer Commit Date'].tolist()
+            if len(commits) >= 2:
+                for i in range(1, len(commits)):
+                    change_time_small_total.append((commits[i] - commits[i-1]).total_seconds())
             else:
                 only_added_small_total += 1
     
