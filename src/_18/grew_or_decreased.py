@@ -46,6 +46,7 @@ def grew_or_decreased(repository_commits: pd.DataFrame, change_type: str = "larg
     added_files_filtered_total:int = len(added_files)
 
     changes = repository_commits[repository_commits['Local File PATH New'].isin(added_files['Local File PATH New'].values)].copy()
+    changes = changes.merge(added_files[['Local File PATH New', 'Language']], on='Local File PATH New', how='left')
 
     changes_large: pd.DataFrame = changes.copy()
     if not changes_large.empty:
