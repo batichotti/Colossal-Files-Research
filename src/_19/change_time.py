@@ -133,7 +133,21 @@ def grew_or_decreased(repository_commits: pd.DataFrame, change_type: str = "larg
             else:
                 only_added_small_total += 1
     
-    # Result =================================================================================================================
+    # Compute averages and medians for small and large changes
+    avg_geral = np.mean(change_time_total) if change_time_total else 0
+    med_geral = np.median(change_time_total) if change_time_total else 0
+
+    avg_large = np.mean(change_time_large_total) if change_time_large_total else 0
+    med_large = np.median(change_time_large_total) if change_time_large_total else 0
+
+    avg_small = np.mean(change_time_small_total) if change_time_small_total else 0
+    med_small = np.median(change_time_small_total) if change_time_small_total else 0
+
+    # Calculate ratios with checks for division by zero
+    ratio_avg = (avg_small / avg_large) if avg_large != 0 else 0
+    ratio_med = (med_small / med_large) if med_large != 0 else 0
+
+    # Result ===========================================================================================================
     result: dict = {
         "Type": [change_type],
         "#Files": [added_files_total],
@@ -141,36 +155,23 @@ def grew_or_decreased(repository_commits: pd.DataFrame, change_type: str = "larg
 
         "Total Files": [changes_files_total],
         "Only Added": [only_added_total],
-        "Time Average": [np.mean(change_time_total) if change_time_total else 0],
-        "Time Median": [np.median(change_time_total) if change_time_total else 0],
+        "Time Average": [avg_geral],
+        "Time Median": [med_geral],
         
         "Total Large Files": [changes_large_files_total],
         "Only Added Large": [only_added_large_total],
-        "Time Large Average": [np.mean(change_time_large_total) if change_time_large_total else 0],
-        "Time Large Median": [np.median(change_time_large_total) if change_time_large_total else 0],
+        "Time Large Average": [avg_large],
+        "Time Large Median": [med_large],
 
         "Total Small Files": [changes_small_files_total],
         "Only Added Small": [only_added_small_total],
-        "Time Small Average": [np.mean(change_time_small_total) if change_time_small_total else 0],
-        "Time Small Median": [np.median(change_time_small_total) if change_time_small_total else 0],
+        "Time Small Average": [avg_small],
+        "Time Small Median": [med_small],
         
-        "Large p/ Small (Average)": [
-            (np.mean(change_time_small_total) / np.mean(change_time_large_total)
-            if change_time_small_total and change_time_large_total
-            else 0)
-        ],
-
-        "Large p/ Small (Median)": [
-            (np.median(change_time_small_total) / np.median(change_time_large_total)
-            if change_time_small_total and change_time_large_total
-            else 0)
-        ]
+        "Large p/ Small (Average)": [ratio_avg],
+        "Large p/ Small (Median)": [ratio_med]
     }
     return pd.DataFrame(result)
-'''
-/home/usuario01/Colossal-Files-Research/src/_19/change_time.py:166: RuntimeWarning: invalid value encountered in scalar divide
-(np.median(change_time_small_total) / np.median(change_time_large_total)
-'''
 
 def process_language(lang: str, large: pd.DataFrame, small: pd.DataFrame, output_path: str):
     """Processa e salva resultados por linguagem"""
