@@ -153,15 +153,24 @@ def grew_or_decreased(repository_commits: pd.DataFrame, change_type: str = "larg
         "Only Added Small": [only_added_small_total],
         "Time Small Average": [np.mean(change_time_small_total) if change_time_small_total else 0],
         "Time Small Median": [np.median(change_time_small_total) if change_time_small_total else 0],
+        
+        "Large p/ Small (Average)": [
+            (np.mean(change_time_small_total) / np.mean(change_time_large_total)
+            if change_time_small_total and change_time_large_total
+            else 0)
+        ],
 
-        "Large p/ Small (Average)": [np.mean(change_time_small_total)/np.mean(change_time_large_total)
-                                    if change_time_small_total and change_time_large_total else 0
-                                ],
-        "Large p/ Small (Median)": [np.median(change_time_small_total)/np.median(change_time_large_total)
-                                    if change_time_small_total and change_time_large_total else 0
-                                ]
+        "Large p/ Small (Median)": [
+            (np.median(change_time_small_total) / np.median(change_time_large_total)
+            if change_time_small_total and change_time_large_total
+            else 0)
+        ]
     }
     return pd.DataFrame(result)
+'''
+/home/usuario01/Colossal-Files-Research/src/_19/change_time.py:166: RuntimeWarning: invalid value encountered in scalar divide
+(np.median(change_time_small_total) / np.median(change_time_large_total)
+'''
 
 def process_language(lang: str, large: pd.DataFrame, small: pd.DataFrame, output_path: str):
     """Processa e salva resultados por linguagem"""
