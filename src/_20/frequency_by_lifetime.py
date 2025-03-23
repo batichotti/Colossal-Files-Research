@@ -222,6 +222,7 @@ def frequency_by_lifetime(repository_commits: pd.DataFrame, change_type: str = "
 
         "Total Files": [changes_files_total],
         "Only Added": [only_added_total],
+        "Total Deleted": [deleted_total],
         "#Commits Average": [avg_geral],
         "#Commits Median": [med_geral],
         "Deleted #Commits Average": [del_avg_geral],
@@ -229,6 +230,7 @@ def frequency_by_lifetime(repository_commits: pd.DataFrame, change_type: str = "
         
         "Total Large Files": [changes_large_files_total],
         "Only Added Large": [only_added_large_total],
+        "Total Large Deleted": [deleted_large_total],
         "#Commits Large Average": [avg_large],
         "#Commits Large Median": [med_large],
         "Deleted #Commits Large Average": [del_avg_large],
@@ -236,6 +238,7 @@ def frequency_by_lifetime(repository_commits: pd.DataFrame, change_type: str = "
 
         "Total Small Files": [changes_small_files_total],
         "Only Added Small": [only_added_small_total],
+        "Total Small Deleted": [deleted_small_total],
         "#Commits Small Average": [avg_small],
         "#Commits Small Median": [med_small],
         "Deleted #Commits Small Average": [del_avg_small],
