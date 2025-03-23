@@ -132,7 +132,13 @@ def change_time(repository_commits: pd.DataFrame, change_type: str = "large") ->
     deleted_time_large_total = []
     only_added_large_total: int = 0
     if not changes_large.empty:
-        changes_large_files_total = len(changes_large.groupby('Local File PATH New'))
+        changes_large['File Path'] = changes_large.apply(
+            lambda x: x['Local File PATH New'] if pd.notna(x['Local File PATH New']) 
+                    else x['Local File PATH Old'], 
+            axis=1
+        )
+        changes_large_files_total = len(changes_large.groupby('File Path'))
+
         changes_large['Committer Commit Date'] = changes_large['Committer Commit Date'].apply(
             lambda x: x[:-3] + x[-2:]
         )
@@ -140,7 +146,7 @@ def change_time(repository_commits: pd.DataFrame, change_type: str = "large") ->
             lambda x: datetime.datetime.strptime(x, '%Y-%m-%d %H:%M:%S%z').astimezone(datetime.timezone.utc)
         )
         changes_large = changes_large.sort_values(by='Committer Commit Date')
-        for _, file_changes in changes_large.groupby('Local File PATH New'):
+        for _, file_changes in changes_large.groupby('File Path'):
             commits = file_changes['Committer Commit Date'].tolist()
             delta_temp = []
             if len(commits) >= 2:
@@ -158,7 +164,13 @@ def change_time(repository_commits: pd.DataFrame, change_type: str = "large") ->
     deleted_time_small_total = []
     only_added_small_total: int = 0
     if not changes_small.empty:
-        changes_small_files_total = len(changes_small.groupby('Local File PATH New'))
+        changes_small['File Path'] = changes_small.apply(
+            lambda x: x['Local File PATH New'] if pd.notna(x['Local File PATH New']) 
+                    else x['Local File PATH Old'], 
+            axis=1
+        )
+        changes_small_files_total = len(changes_small.groupby('File Path'))
+
         changes_small['Committer Commit Date'] = changes_small['Committer Commit Date'].apply(
             lambda x: x[:-3] + x[-2:]  # Aplicar o mesmo ajuste
         )
@@ -166,7 +178,7 @@ def change_time(repository_commits: pd.DataFrame, change_type: str = "large") ->
             lambda x: datetime.datetime.strptime(x, '%Y-%m-%d %H:%M:%S%z').astimezone(datetime.timezone.utc)
         )
         changes_small = changes_small.sort_values(by='Committer Commit Date')
-        for _, file_changes in changes_small.groupby('Local File PATH New'):
+        for _, file_changes in changes_small.groupby('File Path'):
             commits = file_changes['Committer Commit Date'].tolist()
             delta_temp = []
             if len(commits) >= 2:
