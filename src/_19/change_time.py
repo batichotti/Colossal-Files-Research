@@ -28,7 +28,7 @@ large_files_commits: pd.DataFrame = pd.DataFrame()
 small_files_commits: pd.DataFrame = pd.DataFrame()
 
 # Funções auxiliares =========================================================================================
-def grew_or_decreased(repository_commits: pd.DataFrame, change_type: str = "large") -> pd.DataFrame:
+def change_time(repository_commits: pd.DataFrame, change_type: str = "large") -> pd.DataFrame:
     """Verifica como foi o crescimento e a diminuição dos arquivos"""
 
     added_files: pd.DataFrame = repository_commits[repository_commits['Change Type'] == 'ADD'].copy()
@@ -71,6 +71,7 @@ def grew_or_decreased(repository_commits: pd.DataFrame, change_type: str = "larg
     # ANAL. ============================================================================================================
     changes_files_total: int = 0
     change_time_total = []
+    deleted_time_total = []
     only_added_total: int = 0
     if not changes.empty:
         changes_files_total = len(changes.groupby('Local File PATH New'))
@@ -84,15 +85,20 @@ def grew_or_decreased(repository_commits: pd.DataFrame, change_type: str = "larg
         
         for _, file_changes in changes.groupby('Local File PATH New'):
             commits = file_changes['Committer Commit Date'].tolist()
+            delta_temp = []
             if len(commits) >= 2:
                 for i in range(1, len(commits)):
                     delta = (commits[i] - commits[i-1]).total_seconds()
+                    delta_temp.append(delta)
                     change_time_total.append(delta)
             else:
                 only_added_total += 1
+            if "DELETE" in file_changes['Change Type'].values:
+                deleted_time_total.extend(delta_temp)
 
     changes_large_files_total: int = 0
     change_time_large_total = []
+    deleted_time_large_total = []
     only_added_large_total: int = 0
     if not changes_large.empty:
         changes_large_files_total = len(changes_large.groupby('Local File PATH New'))
@@ -105,15 +111,20 @@ def grew_or_decreased(repository_commits: pd.DataFrame, change_type: str = "larg
         changes_large = changes_large.sort_values(by='Committer Commit Date')
         for _, file_changes in changes_large.groupby('Local File PATH New'):
             commits = file_changes['Committer Commit Date'].tolist()
+            delta_temp = []
             if len(commits) >= 2:
                 for i in range(1, len(commits)):
                     delta = (commits[i] - commits[i-1]).total_seconds()
+                    delta_temp.append(delta)
                     change_time_large_total.append(delta)
             else:
                 only_added_large_total += 1
+            if "DELETE" in file_changes['Change Type'].values:
+                deleted_time_large_total.extend(delta_temp)
 
     changes_small_files_total: int = 0
     change_time_small_total = []
+    deleted_time_small_total = []
     only_added_small_total: int = 0
     if not changes_small.empty:
         changes_small_files_total = len(changes_small.groupby('Local File PATH New'))
@@ -126,26 +137,38 @@ def grew_or_decreased(repository_commits: pd.DataFrame, change_type: str = "larg
         changes_small = changes_small.sort_values(by='Committer Commit Date')
         for _, file_changes in changes_small.groupby('Local File PATH New'):
             commits = file_changes['Committer Commit Date'].tolist()
+            delta_temp = []
             if len(commits) >= 2:
                 for i in range(1, len(commits)):
                     delta = (commits[i] - commits[i-1]).total_seconds()
+                    delta_temp.append(delta)
                     change_time_small_total.append(delta)
             else:
                 only_added_small_total += 1
+            if "DELETE" in file_changes['Change Type'].values:
+                deleted_time_small_total.extend(delta_temp)
     
     # Compute averages and medians for small and large changes
     avg_geral = np.mean(change_time_total) if change_time_total else 0
     med_geral = np.median(change_time_total) if change_time_total else 0
+    del_avg_geral = np.mean(deleted_time_total) if deleted_time_total else 0
+    del_med_geral = np.median(deleted_time_total) if deleted_time_total else 0
 
     avg_large = np.mean(change_time_large_total) if change_time_large_total else 0
     med_large = np.median(change_time_large_total) if change_time_large_total else 0
+    del_avg_large = np.mean(deleted_time_large_total) if deleted_time_large_total else 0
+    del_med_large = np.median(deleted_time_large_total) if deleted_time_large_total else 0
 
     avg_small = np.mean(change_time_small_total) if change_time_small_total else 0
     med_small = np.median(change_time_small_total) if change_time_small_total else 0
+    del_avg_small = np.mean(deleted_time_small_total) if deleted_time_small_total else 0
+    del_med_small = np.median(deleted_time_small_total) if deleted_time_small_total else 0
 
     # Calculate ratios with checks for division by zero
     ratio_avg = (avg_small / avg_large) if avg_large != 0 else 0
     ratio_med = (med_small / med_large) if med_large != 0 else 0
+    ratio_del_avg = (del_avg_small / del_avg_large) if del_avg_large != 0 else 0
+    ratio_del_med = (del_med_small / del_med_large) if del_med_large != 0 else 0
 
     # Result ===========================================================================================================
     result: dict = {
@@ -157,19 +180,27 @@ def grew_or_decreased(repository_commits: pd.DataFrame, change_type: str = "larg
         "Only Added": [only_added_total],
         "Time Average": [avg_geral],
         "Time Median": [med_geral],
+        "Deleted Time Average": [del_avg_geral],
+        "Deleted Time Median": [del_med_geral],
         
         "Total Large Files": [changes_large_files_total],
         "Only Added Large": [only_added_large_total],
         "Time Large Average": [avg_large],
         "Time Large Median": [med_large],
+        "Deleted Time Large Average": [del_avg_large],
+        "Deleted Time Large Median": [del_med_large],
 
         "Total Small Files": [changes_small_files_total],
         "Only Added Small": [only_added_small_total],
         "Time Small Average": [avg_small],
         "Time Small Median": [med_small],
+        "Deleted Time Small Average": [del_avg_small],
+        "Deleted Time Small Median": [del_med_small],
         
         "Large p/ Small (Average)": [ratio_avg],
-        "Large p/ Small (Median)": [ratio_med]
+        "Large p/ Small (Median)": [ratio_med],
+        "Deleted Large p/ Small (Average)": [ratio_del_avg],
+        "Deleted Large p/ Small (Median)": [ratio_del_med]
     }
     return pd.DataFrame(result)
 
@@ -177,9 +208,9 @@ def process_language(lang: str, large: pd.DataFrame, small: pd.DataFrame, output
     """Processa e salva resultados por linguagem"""
     results:list[pd.DataFrame] = []
     if not large.empty:
-        results.append(grew_or_decreased(large, 'large'))
+        results.append(change_time(large, 'large'))
     if not small.empty:
-        results.append(grew_or_decreased(small, 'small'))
+        results.append(change_time(small, 'small'))
     
     if results:
         pd.concat(results).to_csv(f"{output_path}/per_languages/{lang}.csv", index=False)
@@ -228,9 +259,9 @@ for i, row in repositories.iterrows():
     
     project_results: list[pd.DataFrame] = []
     if not large_df.empty:
-        project_results.append(grew_or_decreased(large_df))
+        project_results.append(change_time(large_df))
     if not small_df.empty:
-        project_results.append(grew_or_decreased(small_df, 'small'))
+        project_results.append(change_time(small_df, 'small'))
 
     if project_results:
         pd.concat(project_results).to_csv(f"{output_path}/per_project/{repo_path}.csv", index=False)
@@ -242,9 +273,9 @@ if not current_large.empty or not current_small.empty:
 # Resultado global ============================================================================================
 final_results: list[pd.DataFrame] = []
 if not large_files_commits.empty:
-    final_results.append(grew_or_decreased(large_files_commits))
+    final_results.append(change_time(large_files_commits))
 if not small_files_commits.empty:
-    final_results.append(grew_or_decreased(small_files_commits, 'small'))
+    final_results.append(change_time(small_files_commits, 'small'))
 
 if final_results:
     pd.concat(final_results).to_csv(f"{output_path}/global_results.csv", index=False)
