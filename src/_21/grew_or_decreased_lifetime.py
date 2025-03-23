@@ -227,8 +227,6 @@ def change_time(repository_commits: pd.DataFrame, change_type: str = "large") ->
     med_grew_geral = np.median(balances_grow) if balances_grow else 0
     avg_decreased_geral = np.mean(balances_decreased) if balances_decreased else 0
     med_decreased_geral = np.median(balances_decreased) if balances_decreased else 0
-    avg_zero_geral = np.mean(balances_zero) if balances_zero else 0
-    med_zero_geral = np.median(balances_zero) if balances_zero else 0
     grew_percentage = ((len(balances_grow)/changes_files_total)*100) if changes_files_total != 0 else 0
     decreased_percentage = ((len(balances_decreased)/changes_files_total)*100) if changes_files_total != 0 else 0
     zero_percentage = ((len(balances_zero)/changes_files_total)*100) if changes_files_total != 0 else 0
@@ -237,8 +235,6 @@ def change_time(repository_commits: pd.DataFrame, change_type: str = "large") ->
     med_large_grew_geral = np.median(balances_large_grow) if balances_large_grow else 0
     avg_large_decreased_geral = np.mean(balances_large_decreased) if balances_large_decreased else 0
     med_large_decreased_geral = np.median(balances_large_decreased) if balances_large_decreased else 0
-    avg_large_zero_geral = np.mean(balances_large_zero) if balances_large_zero else 0
-    med_large_zero_geral = np.median(balances_large_zero) if balances_large_zero else 0
     grew_large_percentage = ((len(balances_large_grow)/changes_large_files_total)*100) if changes_large_files_total != 0 else 0
     decreased_large_percentage = ((len(balances_large_decreased)/changes_large_files_total)*100) if changes_large_files_total != 0 else 0
     zero_large_percentage = ((len(balances_large_zero)/changes_large_files_total)*100) if changes_large_files_total != 0 else 0
@@ -247,8 +243,6 @@ def change_time(repository_commits: pd.DataFrame, change_type: str = "large") ->
     med_small_grew_geral = np.median(balances_small_grow) if balances_small_grow else 0
     avg_small_decreased_geral = np.mean(balances_small_decreased) if balances_small_decreased else 0
     med_small_decreased_geral = np.median(balances_small_decreased) if balances_small_decreased else 0
-    avg_small_zero_geral = np.mean(balances_small_zero) if balances_small_zero else 0
-    med_small_zero_geral = np.median(balances_small_zero) if balances_small_zero else 0
     grew_small_percentage = ((len(balances_small_grow)/changes_small_files_total)*100) if changes_small_files_total != 0 else 0
     decreased_small_percentage = ((len(balances_small_decreased)/changes_small_files_total)*100) if changes_small_files_total != 0 else 0
     zero_small_percentage = ((len(balances_small_zero)/changes_small_files_total)*100) if changes_small_files_total != 0 else 0
@@ -266,8 +260,7 @@ def change_time(repository_commits: pd.DataFrame, change_type: str = "large") ->
         "Grew Median": [med_grew_geral],
         "Decreased Average": [avg_decreased_geral],
         "Decreased Median": [med_decreased_geral],
-        "Zero Average": [avg_zero_geral],
-        "Zero Median": [med_zero_geral],
+        "Zero Total": [len(balances_zero)],
 
         "Total Large Files": [changes_large_files_total],
         "%% Large Grew": [grew_large_percentage],
@@ -277,8 +270,7 @@ def change_time(repository_commits: pd.DataFrame, change_type: str = "large") ->
         "Large Grew Median": [med_large_grew_geral],
         "Large Decreased Average": [avg_large_decreased_geral],
         "Large Decreased Median": [med_large_decreased_geral],
-        "Large Zero Average": [avg_large_zero_geral],
-        "Large Zero Median": [med_large_zero_geral],
+        "Large Zero Total": [len(balances_large_zero)],
 
         "Total Small Files": [changes_small_files_total],
         "%% Small Grew": [grew_small_percentage],
@@ -288,8 +280,7 @@ def change_time(repository_commits: pd.DataFrame, change_type: str = "large") ->
         "Small Grew Median": [med_small_grew_geral],
         "Small Decreased Average": [avg_small_decreased_geral],
         "Small Decreased Median": [med_small_decreased_geral],
-        "Small Zero Average": [avg_small_zero_geral],
-        "Small Zero Median": [med_small_zero_geral]
+        "Small Zero Total": [len(balances_small_zero)]
     }
     return pd.DataFrame(result)
 
