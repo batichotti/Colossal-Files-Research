@@ -217,23 +217,22 @@ def change_time(repository_commits: pd.DataFrame, change_type: str = "large") ->
     result: dict = {
         "Type": [change_type],
         "#Files": [added_files_total],
-        "#Files Filtered by Language": [added_files_filtered_total],
 
-        "Total Files": [changes_files_total],
+        "Total Filtered Files": [changes_files_total],
         "Only Added": [only_added_total],
         "Time Average": [avg_geral],
         "Time Median": [med_geral],
         "Deleted Time Average": [del_avg_geral],
         "Deleted Time Median": [del_med_geral],
         
-        "Total Large Files": [changes_large_files_total],
+        "Total Large Filtered Files": [changes_large_files_total],
         "Only Added Large": [only_added_large_total],
         "Time Large Average": [avg_large],
         "Time Large Median": [med_large],
         "Deleted Time Large Average": [del_avg_large],
         "Deleted Time Large Median": [del_med_large],
 
-        "Total Small Files": [changes_small_files_total],
+        "Total Small Filtered Files": [changes_small_files_total],
         "Only Added Small": [only_added_small_total],
         "Time Small Average": [avg_small],
         "Time Small Median": [med_small],
