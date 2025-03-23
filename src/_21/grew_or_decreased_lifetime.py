@@ -94,12 +94,14 @@ def change_time(repository_commits: pd.DataFrame, change_type: str = "large") ->
 
     # ANAL. ============================================================================================================
     changes_files_total: int = 0
+    changes_total: int = 0
     balances_grow = []
     balances_decreased = []
     balances_zero = []
     only_added_total = 0
 
     if not changes.empty:
+        changes_total = len(changes)
         # Cria uma chave de agrupamento combinando New e Old paths
         changes['File Path'] = changes.apply(
             lambda x: x['Local File PATH New'] if pd.notna(x['Local File PATH New']) 
@@ -138,12 +140,14 @@ def change_time(repository_commits: pd.DataFrame, change_type: str = "large") ->
                     only_added_total += 1
 
     changes_large_files_total: int = 0
+    changes_large_total: int = 0
     balances_large_grow = []
     balances_large_decreased = []
     balances_large_zero = []
     only_added_large_total: int = 0
 
     if not changes_large.empty:
+        changes_large_total = len(changes_large)
         changes_large['File Path'] = changes_large.apply(
             lambda x: x['Local File PATH New'] if pd.notna(x['Local File PATH New']) 
                     else x['Local File PATH Old'], 
@@ -181,11 +185,13 @@ def change_time(repository_commits: pd.DataFrame, change_type: str = "large") ->
                     only_added_large_total += 1
 
     changes_small_files_total: int = 0
+    changes_large_total: int = 0
     balances_small_grow = []
     balances_small_decreased = []
     balances_small_zero = []
     only_added_small_total: int = 0
     if not changes_small.empty:
+        changes_small_total: int = 0
         changes_small['File Path'] = changes_small.apply(
             lambda x: x['Local File PATH New'] if pd.notna(x['Local File PATH New']) 
                     else x['Local File PATH Old'], 
@@ -227,25 +233,25 @@ def change_time(repository_commits: pd.DataFrame, change_type: str = "large") ->
     med_grew_geral = np.median(balances_grow) if balances_grow else 0
     avg_decreased_geral = np.mean(balances_decreased) if balances_decreased else 0
     med_decreased_geral = np.median(balances_decreased) if balances_decreased else 0
-    grew_percentage = ((len(balances_grow)/changes_files_total)*100) if changes_files_total != 0 else 0
-    decreased_percentage = ((len(balances_decreased)/changes_files_total)*100) if changes_files_total != 0 else 0
-    zero_percentage = ((len(balances_zero)/changes_files_total)*100) if changes_files_total != 0 else 0
+    grew_percentage = ((len(balances_grow)/changes_total)*100) if changes_files_total != 0 else 0
+    decreased_percentage = ((len(balances_decreased)/changes_total)*100) if changes_files_total != 0 else 0
+    zero_percentage = ((len(balances_zero)/changes_total)*100) if changes_files_total != 0 else 0
 
     avg_large_grew_geral = np.mean(balances_large_grow) if balances_large_grow else 0
     med_large_grew_geral = np.median(balances_large_grow) if balances_large_grow else 0
     avg_large_decreased_geral = np.mean(balances_large_decreased) if balances_large_decreased else 0
     med_large_decreased_geral = np.median(balances_large_decreased) if balances_large_decreased else 0
-    grew_large_percentage = ((len(balances_large_grow)/changes_large_files_total)*100) if changes_large_files_total != 0 else 0
-    decreased_large_percentage = ((len(balances_large_decreased)/changes_large_files_total)*100) if changes_large_files_total != 0 else 0
-    zero_large_percentage = ((len(balances_large_zero)/changes_large_files_total)*100) if changes_large_files_total != 0 else 0
+    grew_large_percentage = ((len(balances_large_grow)/changes_large_total)*100) if changes_large_files_total != 0 else 0
+    decreased_large_percentage = ((len(balances_large_decreased)/changes_large_total)*100) if changes_large_files_total != 0 else 0
+    zero_large_percentage = ((len(balances_large_zero)/changes_large_total)*100) if changes_large_files_total != 0 else 0
 
     avg_small_grew_geral = np.mean(balances_small_grow) if balances_small_grow else 0
     med_small_grew_geral = np.median(balances_small_grow) if balances_small_grow else 0
     avg_small_decreased_geral = np.mean(balances_small_decreased) if balances_small_decreased else 0
     med_small_decreased_geral = np.median(balances_small_decreased) if balances_small_decreased else 0
-    grew_small_percentage = ((len(balances_small_grow)/changes_small_files_total)*100) if changes_small_files_total != 0 else 0
-    decreased_small_percentage = ((len(balances_small_decreased)/changes_small_files_total)*100) if changes_small_files_total != 0 else 0
-    zero_small_percentage = ((len(balances_small_zero)/changes_small_files_total)*100) if changes_small_files_total != 0 else 0
+    grew_small_percentage = ((len(balances_small_grow)/changes_small_total)*100) if changes_small_files_total != 0 else 0
+    decreased_small_percentage = ((len(balances_small_decreased)/changes_small_total)*100) if changes_small_files_total != 0 else 0
+    zero_small_percentage = ((len(balances_small_zero)/changes_small_total)*100) if changes_small_files_total != 0 else 0
 
     # Result ===========================================================================================================
     result: dict = {
