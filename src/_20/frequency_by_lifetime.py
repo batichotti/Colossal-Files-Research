@@ -124,15 +124,15 @@ def frequency_by_lifetime(repository_commits: pd.DataFrame, change_type: str = "
             amount = len(commits)
             if amount >= 2:
                 delta = (commits[-1] - commits[0]).total_seconds()
-                change_amount_total.append(delta)
-                lifetime_total.append(amount)
+                change_amount_total.append(amount)
+                lifetime_total.append(delta)
                 freq_total.append(delta/amount)
             else:
                 only_added_total += 1
             if "DELETE" in file_changes['Change Type'].values:
                 deleted_total += 1
-                deleted_amount_total.append(delta)
-                deleted_lifetime_total.append(amount)
+                deleted_amount_total.append(amount)
+                deleted_lifetime_total.append(delta)
                 deleted_freq_total.append(delta/amount)
 
     changes_large_files_total: int = 0
@@ -166,15 +166,15 @@ def frequency_by_lifetime(repository_commits: pd.DataFrame, change_type: str = "
             amount = len(commits)
             if amount >= 2:
                 delta = (commits[-1] - commits[0]).total_seconds()
-                change_amount_large_total.append(delta)
-                lifetime_large_total.append(amount)
+                change_amount_large_total.append(amount)
+                lifetime_large_total.append(delta)
                 freq_large_total.append(delta/amount)
             else:
                 only_added_large_total += 1
             if "DELETE" in file_changes['Change Type'].values:
                 deleted_large_total += 1
-                deleted_amount_large_total.append(delta)
-                deleted_lifetime_large_total.append(amount)
+                deleted_amount_large_total.append(amount)
+                deleted_lifetime_large_total.append(delta)
                 deleted_freq_large_total.append(delta/amount)
 
     changes_small_files_total: int = 0
@@ -208,15 +208,15 @@ def frequency_by_lifetime(repository_commits: pd.DataFrame, change_type: str = "
             amount = len(commits)
             if amount >= 2:
                 delta = (commits[-1] - commits[0]).total_seconds()
-                change_amount_small_total.append(delta)
-                lifetime_small_total.append(amount)
+                change_amount_small_total.append(amount)
+                lifetime_small_total.append(delta)
                 freq_small_total.append(delta/amount)
             else:
                 only_added_small_total += 1
             if "DELETE" in file_changes['Change Type'].values:
                 deleted_small_total += 1
-                deleted_amount_small_total.append(delta)
-                deleted_lifetime_small_total.append(amount)
+                deleted_amount_small_total.append(amount)
+                deleted_lifetime_small_total.append(delta)
                 deleted_freq_small_total.append(delta/amount)
     
     # Compute averages and medians for small and large changes
