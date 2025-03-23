@@ -118,7 +118,7 @@ def change_time(repository_commits: pd.DataFrame, change_type: str = "large") ->
             commits = file_changes['Committer Commit Date'].tolist()
             delta_temp = []
             if len(commits) >= 2:
-                for i in range(1, len(commits)):
+                for i in range(len(commits)-1):
                     delta = (commits[i] - commits[i-1]).total_seconds()
                     delta_temp.append(delta)
                     change_time_total.append(delta)
@@ -150,7 +150,7 @@ def change_time(repository_commits: pd.DataFrame, change_type: str = "large") ->
             commits = file_changes['Committer Commit Date'].tolist()
             delta_temp = []
             if len(commits) >= 2:
-                for i in range(1, len(commits)):
+                for i in range(len(commits)-1):
                     delta = (commits[i] - commits[i-1]).total_seconds()
                     delta_temp.append(delta)
                     change_time_large_total.append(delta)
@@ -182,7 +182,7 @@ def change_time(repository_commits: pd.DataFrame, change_type: str = "large") ->
             commits = file_changes['Committer Commit Date'].tolist()
             delta_temp = []
             if len(commits) >= 2:
-                for i in range(1, len(commits)):
+                for i in range(len(commits)-1):
                     delta = (commits[i] - commits[i-1]).total_seconds()
                     delta_temp.append(delta)
                     change_time_small_total.append(delta)
