@@ -93,7 +93,7 @@ def change_time(repository_commits: pd.DataFrame, change_type: str = "large") ->
                     change_time_total.append(delta)
             else:
                 only_added_total += 1
-            if "DELETE" in file_changes['Change Type'].values:
+            if "DELETED" in file_changes['Change Type'].values:
                 deleted_time_total.extend(delta_temp)
 
     changes_large_files_total: int = 0
@@ -119,7 +119,7 @@ def change_time(repository_commits: pd.DataFrame, change_type: str = "large") ->
                     change_time_large_total.append(delta)
             else:
                 only_added_large_total += 1
-            if "DELETE" in file_changes['Change Type'].values:
+            if "DELETED" in file_changes['Change Type'].values:
                 deleted_time_large_total.extend(delta_temp)
 
     changes_small_files_total: int = 0
@@ -145,7 +145,7 @@ def change_time(repository_commits: pd.DataFrame, change_type: str = "large") ->
                     change_time_small_total.append(delta)
             else:
                 only_added_small_total += 1
-            if "DELETE" in file_changes['Change Type'].values:
+            if "DELETED" in file_changes['Change Type'].values:
                 deleted_time_small_total.extend(delta_temp)
     
     # Compute averages and medians for small and large changes
