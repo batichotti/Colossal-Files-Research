@@ -185,7 +185,7 @@ def change_time(repository_commits: pd.DataFrame, change_type: str = "large") ->
                     only_added_large_total += 1
 
     changes_small_files_total: int = 0
-    changes_large_total: int = 0
+    changes_small_total: int = 0
     balances_small_grow = []
     balances_small_decreased = []
     balances_small_zero = []
