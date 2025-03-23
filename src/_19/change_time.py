@@ -45,8 +45,24 @@ def change_time(repository_commits: pd.DataFrame, change_type: str = "large") ->
                 how='left'
             ).drop(columns=['Extension'])
 
-    changes = repository_commits[repository_commits['Local File PATH New'].isin(added_files['Local File PATH New'].values)].copy()
-    changes = changes.merge(added_files[['Local File PATH New', 'Language']], on='Local File PATH New', how='left')
+    changes = repository_commits[
+        repository_commits['Local File PATH New'].isin(added_files['Local File PATH New'].values) |
+        repository_commits['Local File PATH New'].isin(added_files['Local File PATH Old'].values)
+        ].copy()
+
+    # Cria um mapeamento completo de TODOS os caminhos (New e Old) para linguagem
+    path_to_language = pd.concat([
+        added_files[['Local File PATH New', 'Language']].rename(columns={'Local File PATH New': 'Path'}),
+        added_files[['Local File PATH Old', 'Language']].rename(columns={'Local File PATH Old': 'Path'})
+    ]).dropna(subset=['Path']).set_index('Path')['Language'].to_dict()
+    # Atribui a linguagem baseada em ambos os caminhos
+    changes['Language'] = changes.apply(
+        lambda x: (
+            path_to_language.get(x['Local File PATH New']) or 
+            path_to_language.get(x['Local File PATH Old'])
+        ),
+        axis=1
+    )
     added_files_filtered_total:int = len(added_files)
 
     changes_large: pd.DataFrame = changes.copy()
@@ -64,8 +80,16 @@ def change_time(repository_commits: pd.DataFrame, change_type: str = "large") ->
 
     changes_small = pd.DataFrame()
     if not changes_large.empty:
-        changes_small = changes[~changes['Local File PATH New'].isin(changes_large['Local File PATH New'].values)].copy()
-        changes_large = changes[changes['Local File PATH New'].isin(changes_large['Local File PATH New'].values)].copy()
+        large_paths = pd.concat([
+            changes_large['Local File PATH New'],
+            changes_large['Local File PATH Old']
+        ])
+        changes_small = changes[~changes['Local File PATH New'].isin(large_paths) &
+                                ~changes['Local File PATH Old'].isin(large_paths)
+                                ].copy()
+        changes_large = changes[changes['Local File PATH New'].isin(large_paths) |
+                                changes['Local File PATH Old'].isin(large_paths)
+                                ].copy()
 
 
     # ANAL. ============================================================================================================
@@ -74,7 +98,14 @@ def change_time(repository_commits: pd.DataFrame, change_type: str = "large") ->
     deleted_time_total = []
     only_added_total: int = 0
     if not changes.empty:
-        changes_files_total = len(changes.groupby('Local File PATH New'))
+        # Cria uma chave de agrupamento combinando New e Old paths
+        changes['File Path'] = changes.apply(
+            lambda x: x['Local File PATH New'] if pd.notna(x['Local File PATH New']) 
+                    else x['Local File PATH Old'], 
+            axis=1
+        )
+        changes_files_total = len(changes.groupby('File Path'))
+
         changes['Committer Commit Date'] = changes['Committer Commit Date'].apply(
             lambda x: x[:-3] + x[-2:]  # Remove o ':' do offset (+02:00 → +0200)
         )
@@ -83,7 +114,7 @@ def change_time(repository_commits: pd.DataFrame, change_type: str = "large") ->
         )
         changes = changes.sort_values(by='Committer Commit Date')
         
-        for _, file_changes in changes.groupby('Local File PATH New'):
+        for _, file_changes in changes.groupby('File Path'):
             commits = file_changes['Committer Commit Date'].tolist()
             delta_temp = []
             if len(commits) >= 2:
