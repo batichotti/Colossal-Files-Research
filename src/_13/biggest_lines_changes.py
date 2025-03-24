@@ -34,7 +34,7 @@ def calc_lines_changes(repository_commits: pd.DataFrame, type: str = "large") ->
         if not changes.empty:
             changes['Extension'] = changes['File Name'].apply(lambda x: x.split(".")[-1]).copy()
             changes = changes[changes['Extension'].isin(language_white_list_df['Extension'].values)]
-            added_files = added_files.merge(
+            changes = changes.merge(
                 language_white_list_df[['Extension', 'Language']],
                 on='Extension',
                 how='left'
