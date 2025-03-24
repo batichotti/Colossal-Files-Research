@@ -36,7 +36,7 @@ def calc_lines_changes(repository_commits: pd.DataFrame, change_type: str = "lar
         if not changes.empty:
             changes['Extension'] = changes['File Name'].apply(lambda x: x.split(".")[-1]).copy()
             changes = changes[changes['Extension'].isin(language_white_list_df['Extension'].values)]
-            added_files = added_files.merge(
+            changes = changes.merge(
                 language_white_list_df[['Extension', 'Language']],
                 on='Extension',
                 how='left'
@@ -49,8 +49,8 @@ def calc_lines_changes(repository_commits: pd.DataFrame, change_type: str = "lar
         changes['Lines Balance'] = changes['Lines Added'] - changes['Lines Deleted']
 
         path_to_language = pd.concat([
-            added_files[['Local File PATH New', 'Language']].rename(columns={'Local File PATH New': 'Path'}),
-            added_files[['Local File PATH Old', 'Language']].rename(columns={'Local File PATH Old': 'Path'})
+            changes[['Local File PATH New', 'Language']].rename(columns={'Local File PATH New': 'Path'}),
+            changes[['Local File PATH Old', 'Language']].rename(columns={'Local File PATH Old': 'Path'})
         ]).dropna(subset=['Path']).set_index('Path')['Language'].to_dict()
         # Atribui a linguagem baseada em ambos os caminhos
         changes['Language'] = changes.apply(
