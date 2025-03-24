@@ -11,11 +11,13 @@ input_path: str = "./src/_13/input/"
 output_path: str = "./src/_13/output/"
 
 repositories_path: str = "./src/_00/input/450_Starred_Projects.csv"
+language_white_list_path: str = "./src/_12/input/white_list.csv"
 large_files_commits_path: str = "./src/_10/output/large_files/"
 small_files_commits_path: str = "./src/_10/output/small_files/"
 
 # Carrega e ordena repositórios por linguagem
 repositories: pd.DataFrame = pd.read_csv(repositories_path).sort_values(by='main language').reset_index(drop=True)
+language_white_list_df: pd.DataFrame = pd.read_csv(language_white_list_path)
 
 # DataFrames globais
 large_files_commits: pd.DataFrame = pd.DataFrame()
@@ -25,10 +27,21 @@ small_files_commits: pd.DataFrame = pd.DataFrame()
 def calc_lines_changes(repository_commits: pd.DataFrame, type: str = "large") -> pd.DataFrame:# Preenche NaN com 0 e calcula o Lines Balance
     # processando dados =================================================================================================
     repository_commits['Lines Balance'] = repository_commits['Lines Added'] - repository_commits['Lines Deleted']
-    repository_commits_modify = repository_commits[repository_commits['Change Type'] == 'MODIFY']
+    changes = repository_commits[repository_commits['Change Type'] == 'MODIFY'].copy()
+
+    if not changes.empty:
+        changes = changes[changes['File Name'].apply(lambda x: isinstance(x, str) and '.' in x)]
+        if not changes.empty:
+            changes['Extension'] = changes['File Name'].apply(lambda x: x.split(".")[-1]).copy()
+            changes = changes[changes['Extension'].isin(language_white_list_df['Extension'].values)]
+            added_files = added_files.merge(
+                language_white_list_df[['Extension', 'Language']],
+                on='Extension',
+                how='left'
+            ).drop(columns=['Extension'])
 
     # Parte 1: Valores Máximos (Lines Balance > 0)
-    filtered_df = repository_commits_modify[repository_commits_modify['Lines Balance'] > 0]
+    filtered_df = changes[changes['Lines Balance'] > 0]
 
     if filtered_df.empty:
         lines_added_max = 0
@@ -45,7 +58,7 @@ def calc_lines_changes(repository_commits: pd.DataFrame, type: str = "large") ->
         hash_max = max_row['Hash']  # Novo
 
     # Parte 2: Valores Mínimos (Lines Balance < 0)
-    filtered_df = repository_commits_modify[repository_commits_modify['Lines Balance'] < 0]
+    filtered_df = changes[changes['Lines Balance'] < 0]
 
     if filtered_df.empty:
         lines_deleted_min = 0
