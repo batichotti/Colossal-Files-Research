@@ -43,10 +43,26 @@ def grew_or_decreased(repository_commits: pd.DataFrame, change_type: str = "larg
                 on='Extension',
                 how='left'
             ).drop(columns=['Extension'])
-    added_files_filtered_total:int = len(added_files)
 
-    changes = repository_commits[repository_commits['Local File PATH New'].isin(added_files['Local File PATH New'].values)].copy()
-    changes = changes.merge(added_files[['Local File PATH New', 'Language']], on='Local File PATH New', how='left')
+    changes = repository_commits[
+        repository_commits['Local File PATH New'].isin(added_files['Local File PATH New'].values) |
+        repository_commits['Local File PATH New'].isin(added_files['Local File PATH Old'].values)
+        ].copy()
+
+    # Cria um mapeamento completo de TODOS os caminhos (New e Old) para linguagem
+    path_to_language = pd.concat([
+        added_files[['Local File PATH New', 'Language']].rename(columns={'Local File PATH New': 'Path'}),
+        added_files[['Local File PATH Old', 'Language']].rename(columns={'Local File PATH Old': 'Path'})
+    ]).dropna(subset=['Path']).set_index('Path')['Language'].to_dict()
+    # Atribui a linguagem baseada em ambos os caminhos
+    changes['Language'] = changes.apply(
+        lambda x: (
+            path_to_language.get(x['Local File PATH New']) or 
+            path_to_language.get(x['Local File PATH Old'])
+        ),
+        axis=1
+    )
+    added_files_filtered_total:int = len(added_files)
 
     changes_large: pd.DataFrame = changes.copy()
     if not changes_large.empty:
@@ -63,22 +79,38 @@ def grew_or_decreased(repository_commits: pd.DataFrame, change_type: str = "larg
 
     changes_small = pd.DataFrame()
     if not changes_large.empty:
-        changes_small = changes[~changes['Local File PATH New'].isin(changes_large['Local File PATH New'].values)].copy()
-        changes_large = changes[changes['Local File PATH New'].isin(changes_large['Local File PATH New'].values)].copy()
+        large_paths = pd.concat([
+            changes_large['Local File PATH New'],
+            changes_large['Local File PATH Old']
+        ])
+        changes_small = changes[~changes['Local File PATH New'].isin(large_paths) &
+                                ~changes['Local File PATH Old'].isin(large_paths)
+                                ].copy()
+        changes_large = changes[changes['Local File PATH New'].isin(large_paths) |
+                                changes['Local File PATH Old'].isin(large_paths)
+                                ].copy()
 
 
     # ANAL. ============================================================================================================
+    changes_files_total: int = 0
     balances_grow: list[int] = []
     balances_decreased: list[int] = []
     balances_zero: list[int] = []
     deleted_total: int = 0
     if not changes.empty:
+        # Cria uma chave de agrupamento combinando New e Old paths
+        changes['File Path'] = changes.apply(
+            lambda x: x['Local File PATH New'] if pd.notna(x['Local File PATH New']) 
+                    else x['Local File PATH Old'], 
+            axis=1
+        )
+        changes_files_total = len(changes.groupby('File Path'))
+
         files_deleted = changes[changes['Change Type'] == 'DELETE']
         deleted_total = len(files_deleted)
-        changes = changes[~changes['Local File PATH New'].isin(files_deleted['Local File PATH New'].values)]
+        changes = changes[~changes['File Path'].isin(files_deleted['File Path'].values)]
         if not changes.empty:
-            changes = changes.sort_values(by='Committer Commit Date')
-            changes_per_file = changes.groupby('Local File PATH New')
+            changes_per_file = changes.groupby('File Path')
             for _, file_changes in changes_per_file:
                 file_changes = file_changes.sort_values(by='Committer Commit Date')
                 file_changes['Lines Of Code (nloc)'] = pd.to_numeric(file_changes['Lines Of Code (nloc)'], errors='coerce')
@@ -94,17 +126,26 @@ def grew_or_decreased(repository_commits: pd.DataFrame, change_type: str = "larg
                     else:
                         balances_zero.append(balance)
 
+    changes_large_files_total: int = 0
     balances_large_grow: list[int] = []
     balances_large_decreased: list[int] = []
     balances_large_zero: list[int] = []
     deleted_large_total: int = 0
     if not changes_large.empty:
+        # Cria uma chave de agrupamento combinando New e Old paths
+        changes['File Path'] = changes.apply(
+            lambda x: x['Local File PATH New'] if pd.notna(x['Local File PATH New']) 
+                    else x['Local File PATH Old'], 
+            axis=1
+        )
+        changes_large_files_total = len(changes.groupby('File Path'))
+
         files_deleted_large = changes_large[changes_large['Change Type'] == 'DELETE']
         deleted_large_total = len(files_deleted_large)
-        changes_large = changes_large[~changes_large['Local File PATH New'].isin(files_deleted_large['Local File PATH New'].values)]
+        changes_large = changes_large[~changes_large['File Path'].isin(files_deleted_large['File Path'].values)]
         if not changes_large.empty:
             changes_large = changes_large.sort_values(by='Committer Commit Date')
-            changes_large_per_file = changes_large.groupby('Local File PATH New')
+            changes_large_per_file = changes_large.groupby('File Path')
             for _, file_changes in changes_large_per_file:
                 file_changes = file_changes.sort_values(by='Committer Commit Date')
                 file_changes['Lines Of Code (nloc)'] = pd.to_numeric(file_changes['Lines Of Code (nloc)'], errors='coerce')
@@ -120,17 +161,26 @@ def grew_or_decreased(repository_commits: pd.DataFrame, change_type: str = "larg
                     else:
                         balances_large_zero.append(balance)
 
+    changes_small_files_total: int = 0
     balances_small_grow: list[int] = []
     balances_small_decreased: list[int] = []
     balances_small_zero: list[int] = []
     deleted_small_total: int = 0
     if not changes_small.empty:
+        # Cria uma chave de agrupamento combinando New e Old paths
+        changes['File Path'] = changes.apply(
+            lambda x: x['Local File PATH New'] if pd.notna(x['Local File PATH New']) 
+                    else x['Local File PATH Old'], 
+            axis=1
+        )
+        changes_small_files_total = len(changes.groupby('File Path'))
+
         files_deleted_small = changes_small[changes_small['Change Type'] == 'DELETE']
         deleted_small_total = len(files_deleted_small)
-        changes_small = changes_small[~changes_small['Local File PATH New'].isin(files_deleted_small['Local File PATH New'].values)]
+        changes_small = changes_small[~changes_small['File Path'].isin(files_deleted_small['File Path'].values)]
         if not changes_small.empty:
             changes_small = changes_small.sort_values(by='Committer Commit Date')
-            changes_small_per_file = changes_small.groupby('Local File PATH New')
+            changes_small_per_file = changes_small.groupby('File Path')
             for _, file_changes in changes_small_per_file:
                 file_changes = file_changes.sort_values(by='Committer Commit Date')
                 file_changes['Lines Of Code (nloc)'] = pd.to_numeric(file_changes['Lines Of Code (nloc)'], errors='coerce')
@@ -150,11 +200,11 @@ def grew_or_decreased(repository_commits: pd.DataFrame, change_type: str = "larg
     result: dict = {
         "Type": [change_type],
         "#Files": [added_files_total],
-        "#Files Filtered by Language": [added_files_filtered_total],
-        "%% Grow": [(len(balances_grow)/added_files_filtered_total)*100 if added_files_filtered_total > 0 else 0],
-        "%% Decrease": [(len(balances_decreased)/added_files_filtered_total)*100 if added_files_filtered_total > 0 else 0],
-        "%% Zero": [(len(balances_zero)/added_files_filtered_total)*100 if added_files_filtered_total > 0 else 0],
-        "%% Deleted": [(deleted_total/added_files_filtered_total)*100 if added_files_filtered_total > 0 else 0],
+        "#Files Filtered by Language": [changes_files_total],
+        "%% Grow": [(len(balances_grow)/changes_files_total)*100 if changes_files_total > 0 else 0],
+        "%% Decrease": [(len(balances_decreased)/changes_files_total)*100 if changes_files_total > 0 else 0],
+        "%% Zero": [(len(balances_zero)/changes_files_total)*100 if changes_files_total > 0 else 0],
+        "%% Deleted": [(deleted_total/changes_files_total)*100 if changes_files_total > 0 else 0],
 
         "Total File Grow": [len(balances_grow)],
         "Grow Average": [np.mean(balances_grow) if balances_grow else 0],
