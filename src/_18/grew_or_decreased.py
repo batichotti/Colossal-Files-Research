@@ -133,12 +133,12 @@ def grew_or_decreased(repository_commits: pd.DataFrame, change_type: str = "larg
     deleted_large_total: int = 0
     if not changes_large.empty:
         # Cria uma chave de agrupamento combinando New e Old paths
-        changes['File Path'] = changes.apply(
+        changes_large['File Path'] = changes_large.apply(
             lambda x: x['Local File PATH New'] if pd.notna(x['Local File PATH New']) 
                     else x['Local File PATH Old'], 
             axis=1
         )
-        changes_large_files_total = len(changes.groupby('File Path'))
+        changes_large_files_total = len(changes_large.groupby('File Path'))
 
         files_deleted_large = changes_large[changes_large['Change Type'] == 'DELETE']
         deleted_large_total = len(files_deleted_large)
@@ -168,12 +168,12 @@ def grew_or_decreased(repository_commits: pd.DataFrame, change_type: str = "larg
     deleted_small_total: int = 0
     if not changes_small.empty:
         # Cria uma chave de agrupamento combinando New e Old paths
-        changes['File Path'] = changes.apply(
+        changes_small['File Path'] = changes_small.apply(
             lambda x: x['Local File PATH New'] if pd.notna(x['Local File PATH New']) 
                     else x['Local File PATH Old'], 
             axis=1
         )
-        changes_small_files_total = len(changes.groupby('File Path'))
+        changes_small_files_total = len(changes_small.groupby('File Path'))
 
         files_deleted_small = changes_small[changes_small['Change Type'] == 'DELETE']
         deleted_small_total = len(files_deleted_small)
