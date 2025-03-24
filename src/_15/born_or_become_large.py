@@ -12,7 +12,7 @@ output_path: str = "./src/_15/output/"
 
 repositories_path: str = "./src/_00/input/450_Starred_Projects.csv"
 percentil_path: str = "./src/_02/output/percentis_by_language_filtered.csv"
-language_white_list_path: str = f"{input_path}/white_list.csv"
+language_white_list_path: str = f"./src/_12/input/white_list.csv"
 large_files_commits_path: str = "./src/_10/output/large_files/"
 small_files_commits_path: str = "./src/_10/output/small_files/"
 
