@@ -39,7 +39,7 @@ def funcao_base(repository_commits: pd.DataFrame, change_type: str = "large") ->
         r"integrate" : "Commit Operation",
         r"revert" : "Commit Operation",
     }
-    
+
     # BUILT OPERATIONS
     built_configurantions = {
         r"build" : "Build Configuration",
@@ -91,29 +91,73 @@ def funcao_base(repository_commits: pd.DataFrame, change_type: str = "large") ->
         r"delete" : "Deprecate",
         r"clean ?-?up" : "Deprecate",
     }
-    
-    commits_df = repository_commits.copy()   
+
+    auto_name = r"\[bot\]"
+
+    auto_emails = {
+        r"\[bot\]": "Auto",
+        r"@users.noreply.github.com" : "Auto",
+        r"actions@github.com" : "Auto",
+        r"noreply@github.com" : "Auto",
+    }
+
+    keywords = [git_operations, built_configurantions, bug_fix, bug_deny, resource, new_feature, test, refactor, deprecate]
+
+    commits_df = repository_commits.copy()
+
+    commits_df['File Path'] = commits_df.apply(
+            lambda x: x['Local File PATH New'] if pd.notna(x['Local File PATH New'])
+                    else x['Local File PATH Old'],
+            axis=1
+        )
+
     commits_df.groupby('Hash')
-    
+
     # LOGIC
 
     # Analisar mensagens de commit
     # Analisar o Path dos arquivos
     # Analisar emails dos autores
-    
+
+    commit_classification = {
+        "Hash": [],
+        "Classification": [],
+        "Message": [],
+        "Message Classification": [],
+        "Path": [],
+        "Path Classification"
+        "Committer E-mail": [],
+        "Committer Name": [],
+        "Committer Classification": []
+    }
+
     for commit in commits_df:
-        
         message = commit['Message'].iloc[0].lower()
         committer_email = commit['Committer Email'].iloc[0].lower()
-        author_email = commit['Author Email'].iloc[0].lower()
+        committer_name = commit['Committer Email'].iloc[0].lower()
+        paths = commit['File Path'].lower().tolist()
 
-        # Verificar os emails dos autores
-        
-        
-        # Verificar se a mensagem de commit contém palavras-chave
-        
-        
+        message_classification = []
+        # Categorizar a mensagem do commit
+        for keyword in keywords:
+            for pattern, classification in keyword.items():
+                if re.search(pattern, message):
+                    message_classification.append(classification)
+
         # Verificar os paths dos arquivos
+        path_classification = "Not Test"
+        for path in paths:
+            if re.search("test"):
+                path_classification = "Test"
+
+        # Verificar o commiter
+        committer_classification = "Human"
+        if re.search(auto_name, committer_name):
+            committer_classification = "Auto"
+        for pattern, classification in auto_emails.items():
+            if re.search(pattern, committer_email):
+                committer_classification = "Auto"
+
 
     # Result ===========================================================================================================
     result: dict = {
@@ -128,7 +172,7 @@ def process_language(lang: str, large: pd.DataFrame, small: pd.DataFrame, output
         results.append(funcao_base(large, 'large'))
     if not small.empty:
         results.append(funcao_base(small, 'small'))
-    
+
     if results:
         pd.concat(results).to_csv(f"{output_path}/per_languages/{lang}.csv", index=False)
 
@@ -149,15 +193,15 @@ for i, row in repositories.iterrows():
     # Cria diretórios necessários
     makedirs(f"{output_path}/per_project/{language}", exist_ok=True)
     makedirs(f"{output_path}/per_languages", exist_ok=True)
-    
+
     # Atualiza acumuladores de linguagem quando muda
     if current_language and (language != current_language):
         process_language(current_language, current_large, current_small, output_path)
         current_large = pd.DataFrame()
         current_small = pd.DataFrame()
-    
+
     current_language = language
-    
+
     # Processa arquivos grandes
     large_df: pd.DataFrame = pd.DataFrame()
     large_path = f"{large_files_commits_path}{repo_path}.csv"
@@ -165,7 +209,7 @@ for i, row in repositories.iterrows():
         large_df: pd.DataFrame = pd.read_csv(large_path, sep=SEPARATOR)
         current_large = pd.concat([current_large, large_df])
         large_files_commits = pd.concat([large_files_commits, large_df])
-    
+
     # Processa arquivos pequenos
     small_path = f"{small_files_commits_path}{repo_path}.csv"
     small_df: pd.DataFrame = pd.DataFrame()
@@ -173,7 +217,7 @@ for i, row in repositories.iterrows():
         small_df: pd.DataFrame = pd.read_csv(small_path, sep=SEPARATOR)
         current_small = pd.concat([current_small, small_df])
         small_files_commits = pd.concat([small_files_commits, small_df])
-    
+
     project_results: list[pd.DataFrame] = []
     if not large_df.empty:
         project_results.append(funcao_base(large_df))
