@@ -132,6 +132,7 @@ def funcao_base(repository_commits: pd.DataFrame, change_type: str = "large") ->
     }
 
     for commit in commits_df:
+        commit_hash = commit['Hash'].iloc[0]
         message = commit['Message'].iloc[0].lower()
         committer_email = commit['Committer Email'].iloc[0].lower()
         committer_name = commit['Committer Email'].iloc[0].lower()
@@ -157,6 +158,22 @@ def funcao_base(repository_commits: pd.DataFrame, change_type: str = "large") ->
         for pattern, classification in auto_emails.items():
             if re.search(pattern, committer_email):
                 committer_classification = "Auto"
+
+        # Junta o resultado no dicionario
+        commit_data = {
+            "Hash": commit_hash,
+            "Classification": change_type,
+            "Message": message,
+            "Message Classification": ", ".join(message_classification) if message_classification else "Other",
+            "Path": ", ".join(paths),
+            "Path Classification": path_classification,
+            "Committer E-mail": committer_email,
+            "Committer Name": committer_name,
+            "Committer Classification": committer_classification
+        }
+        for key, value in commit_data.items():
+            commit_classification[key].append(value)
+
 
 
     # Result ===========================================================================================================
