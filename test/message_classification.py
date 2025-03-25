@@ -29,8 +29,9 @@ small_files_commits: pd.DataFrame = pd.DataFrame()
 
 # Funções auxiliares =========================================================================================
 def funcao_base(repository_commits: pd.DataFrame, change_type: str = "large") -> pd.DataFrame:
-    """Função Base para o processamento de dados"""
+    """Função para classificar mensagens de commit"""
 
+    # SETUP
     # GIT OPERATIONS
     git_operations = {
         r"branch" : "Commmit Operation",
@@ -90,6 +91,29 @@ def funcao_base(repository_commits: pd.DataFrame, change_type: str = "large") ->
         r"delete" : "Deprecate",
         r"clean ?-?up" : "Deprecate",
     }
+    
+    commits_df = repository_commits.copy()   
+    commits_df.groupby('Hash')
+    
+    # LOGIC
+
+    # Analisar mensagens de commit
+    # Analisar o Path dos arquivos
+    # Analisar emails dos autores
+    
+    for commit in commits_df:
+        
+        message = commit['Message'].iloc[0].lower()
+        committer_email = commit['Committer Email'].iloc[0].lower()
+        author_email = commit['Author Email'].iloc[0].lower()
+
+        # Verificar os emails dos autores
+        
+        
+        # Verificar se a mensagem de commit contém palavras-chave
+        
+        
+        # Verificar os paths dos arquivos
 
     # Result ===========================================================================================================
     result: dict = {
