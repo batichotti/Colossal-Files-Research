@@ -240,11 +240,15 @@ def correlations(repository_commits: pd.DataFrame, change_type: str = "large") -
     # Cálculo de Correlações ==============================================================================================
     def compute_correlations(amounts, lifetimes):
         if len(amounts) > 1 and len(lifetimes) > 1:
-            pearson_corr, _ = pearsonr(amounts, lifetimes)
-            spearman_corr, _ = spearmanr(amounts, lifetimes)
+            # Check if either array has zero variance
+            if np.std(amounts) == 0 or np.std(lifetimes) == 0:
+                return (np.nan, np.nan)
+            else:
+                pearson_corr, _ = pearsonr(amounts, lifetimes)
+                spearman_corr, _ = spearmanr(amounts, lifetimes)
+                return (pearson_corr, spearman_corr)
         else:
-            pearson_corr, spearman_corr = 0, 0
-        return pearson_corr, spearman_corr
+            return (0, 0)
 
     pearson_corr_geral, spearman_corr_geral = compute_correlations(change_amount_total, lifetime_total)
     pearson_corr_large, spearman_corr_large = compute_correlations(change_amount_large_total, lifetime_large_total)
