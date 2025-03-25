@@ -119,7 +119,7 @@ def funcao_base(repository_commits: pd.DataFrame, change_type: str = "large") ->
     # Analisar o Path dos arquivos
     # Analisar emails dos autores
 
-    commit_classification = {
+    commits_classification = {
         "Hash": [],
         "Classification": [],
         "Message": [],
@@ -159,10 +159,21 @@ def funcao_base(repository_commits: pd.DataFrame, change_type: str = "large") ->
             if re.search(pattern, committer_email):
                 committer_classification = "Auto"
 
+        # Classificar o commit
+        commit_classification = ""
+        if committer_classification == "Auto":
+            commit_classification = "Auto"
+        elif path_classification == "Test":
+            commit_classification = "Test"
+        else:
+            commit_classification = message_classification[0]
+
+
+
         # Junta o resultado no dicionario
         commit_data = {
             "Hash": commit_hash,
-            "Classification": change_type,
+            "Classification": commit_classification,
             "Message": message,
             "Message Classification": ", ".join(message_classification) if message_classification else "Other",
             "Path": ", ".join(paths),
@@ -173,8 +184,6 @@ def funcao_base(repository_commits: pd.DataFrame, change_type: str = "large") ->
         }
         for key, value in commit_data.items():
             commit_classification[key].append(value)
-
-
 
     # Result ===========================================================================================================
     result: dict = {
