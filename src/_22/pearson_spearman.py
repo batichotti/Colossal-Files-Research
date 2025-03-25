@@ -137,7 +137,6 @@ def correlations(repository_commits: pd.DataFrame, change_type: str = "large") -
                 deleted_lifetime_total.append(delta)
                 deleted_freq_total.append(delta/amount)
 
-    changes_large_files_total: int = 0
     change_amount_large_total = []
     lifetime_large_total = []
     freq_large_total = []
@@ -152,7 +151,6 @@ def correlations(repository_commits: pd.DataFrame, change_type: str = "large") -
                     else x['Local File PATH Old'], 
             axis=1
         )
-        changes_large_files_total = len(changes_large.groupby('File Path'))
 
         changes_large['Committer Commit Date'] = changes_large['Committer Commit Date'].apply(
             lambda x: x[:-3] + x[-2:]
@@ -179,7 +177,6 @@ def correlations(repository_commits: pd.DataFrame, change_type: str = "large") -
                 deleted_lifetime_large_total.append(delta)
                 deleted_freq_large_total.append(delta/amount)
 
-    changes_small_files_total: int = 0
     change_amount_small_total = []
     lifetime_small_total = []
     freq_small_total = []
@@ -194,7 +191,6 @@ def correlations(repository_commits: pd.DataFrame, change_type: str = "large") -
                     else x['Local File PATH Old'], 
             axis=1
         )
-        changes_small_files_total = len(changes_small.groupby('File Path'))
 
         changes_small['Committer Commit Date'] = changes_small['Committer Commit Date'].apply(
             lambda x: x[:-3] + x[-2:]
@@ -220,22 +216,6 @@ def correlations(repository_commits: pd.DataFrame, change_type: str = "large") -
                 deleted_amount_small_total.append(amount)
                 deleted_lifetime_small_total.append(delta)
                 deleted_freq_small_total.append(delta/amount)
-    
-    # Compute averages and medians for small and large changes
-    # Cálculos Gerais ======================================================================================================
-    avg_geral = np.mean(change_amount_total) if change_amount_total else 0
-    med_geral = np.median(change_amount_total) if change_amount_total else 0
-    avg_lifetime_geral = np.mean(lifetime_total) if lifetime_total else 0
-    med_lifetime_geral = np.median(lifetime_total) if lifetime_total else 0
-    avg_freq_geral = np.mean(freq_total) if freq_total else 0
-    med_freq_geral = np.median(freq_total) if freq_total else 0
-
-    del_avg_geral = np.mean(deleted_amount_total) if deleted_amount_total else 0
-    del_med_geral = np.median(deleted_amount_total) if deleted_amount_total else 0
-    del_avg_lifetime_geral = np.mean(deleted_lifetime_total) if deleted_lifetime_total else 0
-    del_med_lifetime_geral = np.median(deleted_lifetime_total) if deleted_lifetime_total else 0
-    del_avg_freq_geral = np.mean(deleted_freq_total) if deleted_freq_total else 0
-    del_med_freq_geral = np.median(deleted_freq_total) if deleted_freq_total else 0
 
     # Cálculo de Correlações ==============================================================================================
     def compute_correlations(amounts, lifetimes):
@@ -260,20 +240,6 @@ def correlations(repository_commits: pd.DataFrame, change_type: str = "large") -
 
         # Geral
         "Total Filtered Files": [changes_files_total],
-        "Only Added": [only_added_total],
-        "Total Deleted": [deleted_total],
-        "Amount Average": [avg_geral],
-        "Amount Median": [med_geral],
-        "Lifetime Average": [avg_lifetime_geral],
-        "Lifetime Median": [med_lifetime_geral],
-        "Freq Average": [avg_freq_geral],
-        "Freq Median": [med_freq_geral],
-        "Deleted Amount Avg": [del_avg_geral],
-        "Deleted Amount Med": [del_med_geral],
-        "Deleted Lifetime Avg": [del_avg_lifetime_geral],
-        "Deleted Lifetime Med": [del_med_lifetime_geral],
-        "Deleted Freq Avg": [del_avg_freq_geral],
-        "Deleted Freq Med": [del_med_freq_geral],
 
         # Correlações
         "Pearson Correlation (Geral)": [pearson_corr_geral],
