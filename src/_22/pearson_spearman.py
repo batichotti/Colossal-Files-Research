@@ -237,54 +237,6 @@ def correlations(repository_commits: pd.DataFrame, change_type: str = "large") -
     del_avg_freq_geral = np.mean(deleted_freq_total) if deleted_freq_total else 0
     del_med_freq_geral = np.median(deleted_freq_total) if deleted_freq_total else 0
 
-    # Cálculos Large =======================================================================================================
-    avg_large = np.mean(change_amount_large_total) if change_amount_large_total else 0
-    med_large = np.median(change_amount_large_total) if change_amount_large_total else 0
-    avg_lifetime_large = np.mean(lifetime_large_total) if lifetime_large_total else 0
-    med_lifetime_large = np.median(lifetime_large_total) if lifetime_large_total else 0
-    avg_freq_large = np.mean(freq_large_total) if freq_large_total else 0
-    med_freq_large = np.median(freq_large_total) if freq_large_total else 0
-
-    del_avg_large = np.mean(deleted_amount_large_total) if deleted_amount_large_total else 0
-    del_med_large = np.median(deleted_amount_large_total) if deleted_amount_large_total else 0
-    del_avg_lifetime_large = np.mean(deleted_lifetime_large_total) if deleted_lifetime_large_total else 0
-    del_med_lifetime_large = np.median(deleted_lifetime_large_total) if deleted_lifetime_large_total else 0
-    del_avg_freq_large = np.mean(deleted_freq_large_total) if deleted_freq_large_total else 0
-    del_med_freq_large = np.median(deleted_freq_large_total) if deleted_freq_large_total else 0
-
-    # Cálculos Small =======================================================================================================
-    avg_small = np.mean(change_amount_small_total) if change_amount_small_total else 0
-    med_small = np.median(change_amount_small_total) if change_amount_small_total else 0
-    avg_lifetime_small = np.mean(lifetime_small_total) if lifetime_small_total else 0
-    med_lifetime_small = np.median(lifetime_small_total) if lifetime_small_total else 0
-    avg_freq_small = np.mean(freq_small_total) if freq_small_total else 0
-    med_freq_small = np.median(freq_small_total) if freq_small_total else 0
-
-    del_avg_small = np.mean(deleted_amount_small_total) if deleted_amount_small_total else 0
-    del_med_small = np.median(deleted_amount_small_total) if deleted_amount_small_total else 0
-    del_avg_lifetime_small = np.mean(deleted_lifetime_small_total) if deleted_lifetime_small_total else 0
-    del_med_lifetime_small = np.median(deleted_lifetime_small_total) if deleted_lifetime_small_total else 0
-    del_avg_freq_small = np.mean(deleted_freq_small_total) if deleted_freq_small_total else 0
-    del_med_freq_small = np.median(deleted_freq_small_total) if deleted_freq_small_total else 0
-
-    # Cálculo de Ratios ====================================================================================================
-    def safe_divide(a, b):
-        return a / b if b != 0 else 0
-
-    ratio_avg = safe_divide(avg_small, avg_large)
-    ratio_med = safe_divide(med_small, med_large)
-    ratio_lifetime_avg = safe_divide(avg_lifetime_small, avg_lifetime_large)
-    ratio_lifetime_med = safe_divide(med_lifetime_small, med_lifetime_large)
-    ratio_freq_avg = safe_divide(avg_freq_small, avg_freq_large)
-    ratio_freq_med = safe_divide(med_freq_small, med_freq_large)
-
-    ratio_del_avg = safe_divide(del_avg_small, del_avg_large)
-    ratio_del_med = safe_divide(del_med_small, del_med_large)
-    ratio_del_lifetime_avg = safe_divide(del_avg_lifetime_small, del_avg_lifetime_large)
-    ratio_del_lifetime_med = safe_divide(del_med_lifetime_small, del_med_lifetime_large)
-    ratio_del_freq_avg = safe_divide(del_avg_freq_small, del_avg_freq_large)
-    ratio_del_freq_med = safe_divide(del_med_freq_small, del_med_freq_large)
-
     # Cálculo de Correlações ==============================================================================================
     def compute_correlations(amounts, lifetimes):
         if len(amounts) > 1 and len(lifetimes) > 1:
