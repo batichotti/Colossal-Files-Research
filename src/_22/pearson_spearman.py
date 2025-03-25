@@ -1,8 +1,10 @@
 import pandas as pd
-import numpy as np
-import datetime
 from os import makedirs, path
 from sys import setrecursionlimit
+import numpy as np
+import datetime
+from scipy.stats import pearsonr, spearmanr
+
 
 setrecursionlimit(2_000_000)
 
@@ -29,7 +31,7 @@ small_files_commits: pd.DataFrame = pd.DataFrame()
 
 # Funções auxiliares =========================================================================================
 def correlations(repository_commits: pd.DataFrame, change_type: str = "large") -> pd.DataFrame:
-    """Verifica as correlações entre tempo de vida dos arquivos e a quantidade de commits"""
+    """Verifica como foi o crescimento e a diminuição dos arquivos"""
     added_files: pd.DataFrame = repository_commits[repository_commits['Change Type'] == 'ADD'].copy()
     added_files_total: int = len(added_files)
 
@@ -283,6 +285,19 @@ def correlations(repository_commits: pd.DataFrame, change_type: str = "large") -
     ratio_del_freq_avg = safe_divide(del_avg_freq_small, del_avg_freq_large)
     ratio_del_freq_med = safe_divide(del_med_freq_small, del_med_freq_large)
 
+    # Cálculo de Correlações ==============================================================================================
+    def compute_correlations(amounts, lifetimes):
+        if len(amounts) > 1 and len(lifetimes) > 1:
+            pearson_corr, _ = pearsonr(amounts, lifetimes)
+            spearman_corr, _ = spearmanr(amounts, lifetimes)
+        else:
+            pearson_corr, spearman_corr = 0, 0
+        return pearson_corr, spearman_corr
+
+    pearson_corr_geral, spearman_corr_geral = compute_correlations(change_amount_total, lifetime_total)
+    pearson_corr_large, spearman_corr_large = compute_correlations(change_amount_large_total, lifetime_large_total)
+    pearson_corr_small, spearman_corr_small = compute_correlations(change_amount_small_total, lifetime_small_total)
+
     result: dict = {
         "Type": [change_type],
         "#Files": [added_files_total],
@@ -350,7 +365,15 @@ def correlations(repository_commits: pd.DataFrame, change_type: str = "large") -
         "Ratio Del Lifetime Avg (Small/Large)": [ratio_del_lifetime_avg],
         "Ratio Del Lifetime Med (Small/Large)": [ratio_del_lifetime_med],
         "Ratio Del Freq Avg (Small/Large)": [ratio_del_freq_avg],
-        "Ratio Del Freq Med (Small/Large)": [ratio_del_freq_med]
+        "Ratio Del Freq Med (Small/Large)": [ratio_del_freq_med],
+
+        # Correlações
+        "Pearson Correlation (Geral)": [pearson_corr_geral],
+        "Spearman Correlation (Geral)": [spearman_corr_geral],
+        "Pearson Correlation (Large)": [pearson_corr_large],
+        "Spearman Correlation (Large)": [spearman_corr_large],
+        "Pearson Correlation (Small)": [pearson_corr_small],
+        "Spearman Correlation (Small)": [spearman_corr_small]
     }
     return pd.DataFrame(result)
 
