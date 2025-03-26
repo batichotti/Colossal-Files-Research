@@ -261,7 +261,6 @@ def funcao_base(repository_commits: pd.DataFrame, change_type: str = "large") ->
         changes_small_classified = classify_commits(changes_small)
 
     # ANAL ====================================================================================================================
-    
     bug_fix_percentage = 0
     resource_percentage = 0
     new_feature_percentage = 0
@@ -272,9 +271,22 @@ def funcao_base(repository_commits: pd.DataFrame, change_type: str = "large") ->
     commit_operation_percentage = 0
     build_configuration_percentage = 0
     other_percentage = 0
-    # Calcula a porcentagem de cada classificação para changes_classified
+
+    bug_fix_count = 0
+    resource_count = 0
+    new_feature_count = 0
+    test_count = 0
+    refactor_count = 0
+    deprecate_count = 0
+    auto_count = 0
+    commit_operation_count = 0
+    build_configuration_count = 0
+    other_count = 0
+
+    # Calcula a porcentagem e quantidade de cada classificação para changes_classified
     if not changes_classified.empty:
         classification_counts = changes_classified['Classification'].value_counts(normalize=True) * 100
+        classification_totals = changes_classified['Classification'].value_counts()
         bug_fix_percentage = classification_counts.get('Bug-Fix', 0)
         resource_percentage = classification_counts.get('Resource', 0)
         new_feature_percentage = classification_counts.get('New Feature', 0)
@@ -286,6 +298,17 @@ def funcao_base(repository_commits: pd.DataFrame, change_type: str = "large") ->
         build_configuration_percentage = classification_counts.get('Build Configuration', 0)
         other_percentage = classification_counts.get('Other', 0)
 
+        bug_fix_count = classification_totals.get('Bug-Fix', 0)
+        resource_count = classification_totals.get('Resource', 0)
+        new_feature_count = classification_totals.get('New Feature', 0)
+        test_count = classification_totals.get('Test', 0)
+        refactor_count = classification_totals.get('Refactor', 0)
+        deprecate_count = classification_totals.get('Deprecate', 0)
+        auto_count = classification_totals.get('Auto', 0)
+        commit_operation_count = classification_totals.get('Commit Operation', 0)
+        build_configuration_count = classification_totals.get('Build Configuration', 0)
+        other_count = classification_totals.get('Other', 0)
+
     bug_fix_percentage_large = 0
     resource_percentage_large = 0
     new_feature_percentage_large = 0
@@ -296,9 +319,22 @@ def funcao_base(repository_commits: pd.DataFrame, change_type: str = "large") ->
     commit_operation_percentage_large = 0
     build_configuration_percentage_large = 0
     other_percentage_large = 0
-    # Calcula a porcentagem de cada classificação para changes_large_classified
+
+    bug_fix_count_large = 0
+    resource_count_large = 0
+    new_feature_count_large = 0
+    test_count_large = 0
+    refactor_count_large = 0
+    deprecate_count_large = 0
+    auto_count_large = 0
+    commit_operation_count_large = 0
+    build_configuration_count_large = 0
+    other_count_large = 0
+
+    # Calcula a porcentagem e quantidade de cada classificação para changes_large_classified
     if not changes_large_classified.empty:
         classification_counts_large = changes_large_classified['Classification'].value_counts(normalize=True) * 100
+        classification_totals_large = changes_large_classified['Classification'].value_counts()
         bug_fix_percentage_large = classification_counts_large.get('Bug-Fix', 0)
         resource_percentage_large = classification_counts_large.get('Resource', 0)
         new_feature_percentage_large = classification_counts_large.get('New Feature', 0)
@@ -310,6 +346,17 @@ def funcao_base(repository_commits: pd.DataFrame, change_type: str = "large") ->
         build_configuration_percentage_large = classification_counts_large.get('Build Configuration', 0)
         other_percentage_large = classification_counts_large.get('Other', 0)
 
+        bug_fix_count_large = classification_totals_large.get('Bug-Fix', 0)
+        resource_count_large = classification_totals_large.get('Resource', 0)
+        new_feature_count_large = classification_totals_large.get('New Feature', 0)
+        test_count_large = classification_totals_large.get('Test', 0)
+        refactor_count_large = classification_totals_large.get('Refactor', 0)
+        deprecate_count_large = classification_totals_large.get('Deprecate', 0)
+        auto_count_large = classification_totals_large.get('Auto', 0)
+        commit_operation_count_large = classification_totals_large.get('Commit Operation', 0)
+        build_configuration_count_large = classification_totals_large.get('Build Configuration', 0)
+        other_count_large = classification_totals_large.get('Other', 0)
+
     bug_fix_percentage_small = 0
     resource_percentage_small = 0
     new_feature_percentage_small = 0
@@ -320,9 +367,22 @@ def funcao_base(repository_commits: pd.DataFrame, change_type: str = "large") ->
     commit_operation_percentage_small = 0
     build_configuration_percentage_small = 0
     other_percentage_small = 0
-    # Calcula a porcentagem de cada classificação para changes_small_classified
+
+    bug_fix_count_small = 0
+    resource_count_small = 0
+    new_feature_count_small = 0
+    test_count_small = 0
+    refactor_count_small = 0
+    deprecate_count_small = 0
+    auto_count_small = 0
+    commit_operation_count_small = 0
+    build_configuration_count_small = 0
+    other_count_small = 0
+
+    # Calcula a porcentagem e quantidade de cada classificação para changes_small_classified
     if not changes_small_classified.empty:
         classification_counts_small = changes_small_classified['Classification'].value_counts(normalize=True) * 100
+        classification_totals_small = changes_small_classified['Classification'].value_counts()
         bug_fix_percentage_small = classification_counts_small.get('Bug-Fix', 0)
         resource_percentage_small = classification_counts_small.get('Resource', 0)
         new_feature_percentage_small = classification_counts_small.get('New Feature', 0)
@@ -333,6 +393,17 @@ def funcao_base(repository_commits: pd.DataFrame, change_type: str = "large") ->
         commit_operation_percentage_small = classification_counts_small.get('Commit Operation', 0)
         build_configuration_percentage_small = classification_counts_small.get('Build Configuration', 0)
         other_percentage_small = classification_counts_small.get('Other', 0)
+
+        bug_fix_count_small = classification_totals_small.get('Bug-Fix', 0)
+        resource_count_small = classification_totals_small.get('Resource', 0)
+        new_feature_count_small = classification_totals_small.get('New Feature', 0)
+        test_count_small = classification_totals_small.get('Test', 0)
+        refactor_count_small = classification_totals_small.get('Refactor', 0)
+        deprecate_count_small = classification_totals_small.get('Deprecate', 0)
+        auto_count_small = classification_totals_small.get('Auto', 0)
+        commit_operation_count_small = classification_totals_small.get('Commit Operation', 0)
+        build_configuration_count_small = classification_totals_small.get('Build Configuration', 0)
+        other_count_small = classification_totals_small.get('Other', 0)
 
     # Result ===========================================================================================================
     result: dict = {
@@ -349,6 +420,17 @@ def funcao_base(repository_commits: pd.DataFrame, change_type: str = "large") ->
         "Build Configuration": [build_configuration_percentage],
         "Other": [other_percentage],
 
+        "Bug-Fix Count": [bug_fix_count],
+        "Resource Count": [resource_count],
+        "New Feature Count": [new_feature_count],
+        "Test Count": [test_count],
+        "Refactor Count": [refactor_count],
+        "Deprecate Count": [deprecate_count],
+        "Auto Count": [auto_count],
+        "Commit Operation Count": [commit_operation_count],
+        "Build Configuration Count": [build_configuration_count],
+        "Other Count": [other_count],
+
         # large
         "Bug-Fix Large": [bug_fix_percentage_large],
         "Resource Large": [resource_percentage_large],
@@ -361,6 +443,17 @@ def funcao_base(repository_commits: pd.DataFrame, change_type: str = "large") ->
         "Build Configuration Large": [build_configuration_percentage_large],
         "Other Large": [other_percentage_large],
 
+        "Bug-Fix Large Count": [bug_fix_count_large],
+        "Resource Large Count": [resource_count_large],
+        "New Feature Large Count": [new_feature_count_large],
+        "Test Large Count": [test_count_large],
+        "Refactor Large Count": [refactor_count_large],
+        "Deprecate Large Count": [deprecate_count_large],
+        "Auto Large Count": [auto_count_large],
+        "Commit Operation Large Count": [commit_operation_count_large],
+        "Build Configuration Large Count": [build_configuration_count_large],
+        "Other Large Count": [other_count_large],
+
         # small
         "Bug-Fix Small": [bug_fix_percentage_small],
         "Resource Small": [resource_percentage_small],
@@ -371,7 +464,18 @@ def funcao_base(repository_commits: pd.DataFrame, change_type: str = "large") ->
         "Auto Small": [auto_percentage_small],
         "Commit Operation Small": [commit_operation_percentage_small],
         "Build Configuration Small": [build_configuration_percentage_small],
-        "Other Small": [other_percentage_small]
+        "Other Small": [other_percentage_small],
+
+        "Bug-Fix Small Count": [bug_fix_count_small],
+        "Resource Small Count": [resource_count_small],
+        "New Feature Small Count": [new_feature_count_small],
+        "Test Small Count": [test_count_small],
+        "Refactor Small Count": [refactor_count_small],
+        "Deprecate Small Count": [deprecate_count_small],
+        "Auto Small Count": [auto_count_small],
+        "Commit Operation Small Count": [commit_operation_count_small],
+        "Build Configuration Small Count": [build_configuration_count_small],
+        "Other Small Count": [other_count_small]
     }
     return pd.DataFrame(result)
 
