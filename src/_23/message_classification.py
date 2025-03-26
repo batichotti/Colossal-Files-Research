@@ -62,17 +62,25 @@ def anal_classification(repository_commits: pd.DataFrame, change_type: str = "la
             r"license": "Resource",
             r"legal": "Resource",
         }
+        source_files = {
+            r"src" : "Source",
+            r"source" : "Source"
+        }
 
-        # NEW FEATURE
-        new_feature = {
-            r"update": "New Feature",
-            r"add": "New Feature",
-            r"new": "New Feature",
-            r"create": "New Feature",
-            r"implement feature": "New Feature",
-            r"enable": "New Feature",
-            r"implement": "New Feature",
-            r"improve": "New Feature",
+        # FEATURE
+        feature = {
+            r"update": "Feature",
+            r"add": "Feature",
+            r"new": "Feature",
+            r"create": "Feature",
+            r"implement feature": "Feature",
+        }
+        feature_others = {
+            r"enable": "Feature",
+            r"add": "Feature",
+            r"update": "Feature",
+            r"implement": "Feature",
+            r"improve": "Feature"
         }
 
         # TEST
@@ -101,8 +109,6 @@ def anal_classification(repository_commits: pd.DataFrame, change_type: str = "la
             r"noreply@github.com": "Auto",
         }
 
-        keywords = [git_operations, built_configurations, bug_fix, bug_deny, resource, new_feature, test, refactor, deprecate]
-
         commits_df = repository_commits.copy()
 
         commits_classification = {
@@ -111,7 +117,6 @@ def anal_classification(repository_commits: pd.DataFrame, change_type: str = "la
             "Message": [],
             "Message Classification": [],
             "Path": [],
-            "Path Classification": [],
             "Committer E-mail": [],
             "Committer Name": [],
             "Committer Classification": []
@@ -122,7 +127,6 @@ def anal_classification(repository_commits: pd.DataFrame, change_type: str = "la
                 lambda x: x['Local File PATH New'] if pd.notna(x['Local File PATH New'])
                 else x['Local File PATH Old'],
                 axis=1
-
             )
             
             commits_by_hash = commits_df.groupby('Hash')
@@ -141,43 +145,104 @@ def anal_classification(repository_commits: pd.DataFrame, change_type: str = "la
                 paths = commit['File Path'].tolist()
 
                 message_classification = []
-                # Categorizar a mensagem do commit
-                for keyword in keywords:
-                    for pattern, classification in keyword.items():
-                        if re.search(pattern, message):
+                # Categorizar a mensagem do commit =================================================================
+                # git operations
+                for pattern, classification in git_operations.items():
+                    if re.search(pattern, message):
+                        message_classification.append(classification)
+                        break
+                # build congiguration
+                for pattern, classification in built_configurations.items():
+                    if re.search(pattern, message):
+                        message_classification.append(classification)
+                        break
+                # bug fix
+                for pattern, classification in bug_fix.items():
+                    if re.search(pattern, message):
+                        flag = True
+                        for pattern, classification in bug_deny.items():
+                            if re.search(pattern, message):
+                                flag = False
+                        if flag:
                             message_classification.append(classification)
+                            break
+                # resource
+                for pattern, classification in resource.items():
+                    is_in_message = False
+                    if re.search(pattern, message):
+                        is_in_message = True
+                        message_classification.append(classification)
+                        break
+                    if not is_in_message:
+                        flag = True
+                        for pattern, classification in source_files.items():
+                            for path in paths:
+                                if re.search(pattern, str(path).lower()):
+                                    flag = False
+                        if flag:
+                            for pattern, classification in test.items():
+                                for path in paths:
+                                    if re.search(pattern, str(path).lower()):
+                                        flag = False
+                        if flag:
+                            message_classification.append(classification)
+                # feature
+                for pattern, classification in feature.items():
+                    if re.search(pattern, message):
+                        message_classification.append(classification)
+                # test
+                for pattern, classification in feature.items():
+                    is_in_message = False
+                    if re.search(pattern, message):
+                        is_in_message = True
+                        message_classification.append(classification)
+                        break
+                    if not is_in_message:
+                        flag = True
+                        for pattern, classification in test.items():
+                            for path in paths:
+                                if not re.search(pattern, str(path).lower()):
+                                    for pattern, classification in source_files.items():
+                                        if re.search(pattern, str(path).lower()):
+                                            flag = False
+                        if flag:
+                            message_classification.append(classification)
+                            break
 
-                # Verificar os paths dos arquivos
-                path_classification = "Not Test"
-                for path in paths:
-                    if re.search("test", str(path).lower()):
-                        path_classification = "Test"
-
-                # Verificar o committer
+                # refactor
+                for pattern, classification in refactor.items():
+                    if re.search(pattern, message):
+                        message_classification.append(classification)
+                # deprecate
+                for pattern, classification in deprecate.items():
+                    if re.search(pattern, message):
+                        message_classification.append(classification)
+                # auto
                 committer_classification = "Human"
                 if re.search(auto_name, committer_name):
                     committer_classification = "Auto"
                 for pattern, classification in auto_emails.items():
                     if re.search(pattern, committer_email):
                         committer_classification = "Auto"
+                # feature others
+                for pattern, classification in feature_others.items():
+                    if re.search(pattern, message):
+                        message_classification.append(classification)                
 
-                # Classificar o commit
+                # Classificar o commit ===================================================================================
                 commit_classification = ""
                 if committer_classification == "Auto":
                     commit_classification = "Auto"
-                elif path_classification == "Test":
-                    commit_classification = "Test"
                 else:
                     commit_classification = message_classification[0] if message_classification else "Other"
 
-                # Junta o resultado no dicionário
+                # Junta o resultado no dicionário =======================================================================
                 commit_data = {
                     "Hash": commit_hash,
                     "Classification": commit_classification,
                     "Message": message,
                     "Message Classification": ", ".join(message_classification) if message_classification else "Other",
                     "Path": ", ".join(paths),
-                    "Path Classification": path_classification,
                     "Committer E-mail": committer_email,
                     "Committer Name": committer_name,
                     "Committer Classification": committer_classification
@@ -185,7 +250,7 @@ def anal_classification(repository_commits: pd.DataFrame, change_type: str = "la
                 for key, value in commit_data.items():
                     commits_classification[key].append(value)
 
-        # Concatena tudo em um DataFrame
+        # Concatena tudo em um DataFrame =====================================================================================
         return pd.DataFrame(commits_classification)
     
     
@@ -208,7 +273,7 @@ def anal_classification(repository_commits: pd.DataFrame, change_type: str = "la
         repository_commits['Local File PATH New'].isin(added_files['Local File PATH Old'].values)
         ].copy()
 
-    # Cria um mapeamento completo de TODOS os caminhos (New e Old) para linguagem
+    # Cria um mapeamento completo de TODOS os caminhos (e Old) para linguagem
     path_to_language = pd.concat([
         added_files[['Local File PATH New', 'Language']].rename(columns={'Local File PATH New': 'Path'}),
         added_files[['Local File PATH Old', 'Language']].rename(columns={'Local File PATH Old': 'Path'})
@@ -292,7 +357,7 @@ def anal_classification(repository_commits: pd.DataFrame, change_type: str = "la
         classification_totals = changes_classified['Classification'].value_counts()
         bug_fix_percentage = classification_counts.get('Bug-Fix', 0)
         resource_percentage = classification_counts.get('Resource', 0)
-        new_feature_percentage = classification_counts.get('New Feature', 0)
+        new_feature_percentage = classification_counts.get('Feature', 0)
         test_percentage = classification_counts.get('Test', 0)
         refactor_percentage = classification_counts.get('Refactor', 0)
         deprecate_percentage = classification_counts.get('Deprecate', 0)
@@ -303,7 +368,7 @@ def anal_classification(repository_commits: pd.DataFrame, change_type: str = "la
 
         bug_fix_count = classification_totals.get('Bug-Fix', 0)
         resource_count = classification_totals.get('Resource', 0)
-        new_feature_count = classification_totals.get('New Feature', 0)
+        new_feature_count = classification_totals.get('Feature', 0)
         test_count = classification_totals.get('Test', 0)
         refactor_count = classification_totals.get('Refactor', 0)
         deprecate_count = classification_totals.get('Deprecate', 0)
@@ -340,7 +405,7 @@ def anal_classification(repository_commits: pd.DataFrame, change_type: str = "la
         classification_totals_large = changes_large_classified['Classification'].value_counts()
         bug_fix_percentage_large = classification_counts_large.get('Bug-Fix', 0)
         resource_percentage_large = classification_counts_large.get('Resource', 0)
-        new_feature_percentage_large = classification_counts_large.get('New Feature', 0)
+        new_feature_percentage_large = classification_counts_large.get('Feature', 0)
         test_percentage_large = classification_counts_large.get('Test', 0)
         refactor_percentage_large = classification_counts_large.get('Refactor', 0)
         deprecate_percentage_large = classification_counts_large.get('Deprecate', 0)
@@ -351,7 +416,7 @@ def anal_classification(repository_commits: pd.DataFrame, change_type: str = "la
 
         bug_fix_count_large = classification_totals_large.get('Bug-Fix', 0)
         resource_count_large = classification_totals_large.get('Resource', 0)
-        new_feature_count_large = classification_totals_large.get('New Feature', 0)
+        new_feature_count_large = classification_totals_large.get('Feature', 0)
         test_count_large = classification_totals_large.get('Test', 0)
         refactor_count_large = classification_totals_large.get('Refactor', 0)
         deprecate_count_large = classification_totals_large.get('Deprecate', 0)
@@ -388,7 +453,7 @@ def anal_classification(repository_commits: pd.DataFrame, change_type: str = "la
         classification_totals_small = changes_small_classified['Classification'].value_counts()
         bug_fix_percentage_small = classification_counts_small.get('Bug-Fix', 0)
         resource_percentage_small = classification_counts_small.get('Resource', 0)
-        new_feature_percentage_small = classification_counts_small.get('New Feature', 0)
+        new_feature_percentage_small = classification_counts_small.get('Feature', 0)
         test_percentage_small = classification_counts_small.get('Test', 0)
         refactor_percentage_small = classification_counts_small.get('Refactor', 0)
         deprecate_percentage_small = classification_counts_small.get('Deprecate', 0)
@@ -399,7 +464,7 @@ def anal_classification(repository_commits: pd.DataFrame, change_type: str = "la
 
         bug_fix_count_small = classification_totals_small.get('Bug-Fix', 0)
         resource_count_small = classification_totals_small.get('Resource', 0)
-        new_feature_count_small = classification_totals_small.get('New Feature', 0)
+        new_feature_count_small = classification_totals_small.get('Feature', 0)
         test_count_small = classification_totals_small.get('Test', 0)
         refactor_count_small = classification_totals_small.get('Refactor', 0)
         deprecate_count_small = classification_totals_small.get('Deprecate', 0)
@@ -427,7 +492,7 @@ def anal_classification(repository_commits: pd.DataFrame, change_type: str = "la
         # geral
         "Bug-Fix": [bug_fix_percentage],
         "Resource": [resource_percentage],
-        "New Feature": [new_feature_percentage],
+        "Feature": [new_feature_percentage],
         "Test": [test_percentage],
         "Refactor": [refactor_percentage],
         "Deprecate": [deprecate_percentage],
@@ -438,7 +503,7 @@ def anal_classification(repository_commits: pd.DataFrame, change_type: str = "la
 
         "Bug-Fix Count": [bug_fix_count],
         "Resource Count": [resource_count],
-        "New Feature Count": [new_feature_count],
+        "Feature Count": [new_feature_count],
         "Test Count": [test_count],
         "Refactor Count": [refactor_count],
         "Deprecate Count": [deprecate_count],
@@ -450,7 +515,7 @@ def anal_classification(repository_commits: pd.DataFrame, change_type: str = "la
         # large
         "Bug-Fix Large": [bug_fix_percentage_large],
         "Resource Large": [resource_percentage_large],
-        "New Feature Large": [new_feature_percentage_large],
+        "Feature Large": [new_feature_percentage_large],
         "Test Large": [test_percentage_large],
         "Refactor Large": [refactor_percentage_large],
         "Deprecate Large": [deprecate_percentage_large],
@@ -461,7 +526,7 @@ def anal_classification(repository_commits: pd.DataFrame, change_type: str = "la
 
         "Bug-Fix Large Count": [bug_fix_count_large],
         "Resource Large Count": [resource_count_large],
-        "New Feature Large Count": [new_feature_count_large],
+        "Feature Large Count": [new_feature_count_large],
         "Test Large Count": [test_count_large],
         "Refactor Large Count": [refactor_count_large],
         "Deprecate Large Count": [deprecate_count_large],
@@ -473,7 +538,7 @@ def anal_classification(repository_commits: pd.DataFrame, change_type: str = "la
         # small
         "Bug-Fix Small": [bug_fix_percentage_small],
         "Resource Small": [resource_percentage_small],
-        "New Feature Small": [new_feature_percentage_small],
+        "Feature Small": [new_feature_percentage_small],
         "Test Small": [test_percentage_small],
         "Refactor Small": [refactor_percentage_small],
         "Deprecate Small": [deprecate_percentage_small],
@@ -484,7 +549,7 @@ def anal_classification(repository_commits: pd.DataFrame, change_type: str = "la
 
         "Bug-Fix Small Count": [bug_fix_count_small],
         "Resource Small Count": [resource_count_small],
-        "New Feature Small Count": [new_feature_count_small],
+        "Feature Small Count": [new_feature_count_small],
         "Test Small Count": [test_count_small],
         "Refactor Small Count": [refactor_count_small],
         "Deprecate Small Count": [deprecate_count_small],
@@ -496,7 +561,7 @@ def anal_classification(repository_commits: pd.DataFrame, change_type: str = "la
         # Pearson Resids
         "Pearson Resid - Bug-Fix": resid_pearson[0, 0],
         "Pearson Resid - Resource": resid_pearson[0, 1],
-        "Pearson Resid - New Feature": resid_pearson[0, 2],
+        "Pearson Resid - Feature": resid_pearson[0, 2],
         "Pearson Resid - Test": resid_pearson[0, 3],
         "Pearson Resid - Refactor": resid_pearson[0, 4],
         "Pearson Resid - Deprecate": resid_pearson[0, 5],
@@ -508,7 +573,7 @@ def anal_classification(repository_commits: pd.DataFrame, change_type: str = "la
         #Standardized Resids
         "Standardized Resid - Bug-Fix": standardized_resids[0, 0],
         "Standardized Resid - Resource": standardized_resids[0, 1],
-        "Standardized Resid - New Feature": standardized_resids[0, 2],
+        "Standardized Resid - Feature": standardized_resids[0, 2],
         "Standardized Resid - Test": standardized_resids[0, 3],
         "Standardized Resid - Refactor": standardized_resids[0, 4],
         "Standardized Resid - Deprecate": standardized_resids[0, 5],
