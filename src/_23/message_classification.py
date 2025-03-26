@@ -133,10 +133,10 @@ def funcao_base(repository_commits: pd.DataFrame, change_type: str = "large") ->
 
         for _, commit in commits_df.iterrows():
             commit_hash = commit['Hash']
-            message = commit['Message'].lower()
-            committer_email = commit['Committer Email'].lower()
-            committer_name = commit['Committer Name'].lower()
-            paths = commit['File Path'].lower().split(',')
+            message = str(commit['Message'].lower())
+            committer_email = str(commit['Committer Email']).lower()
+            committer_name = str(commit['Committer Name']).lower()
+            paths = commit['File Path'].tolist()
 
             message_classification = []
             # Categorizar a mensagem do commit
@@ -148,7 +148,7 @@ def funcao_base(repository_commits: pd.DataFrame, change_type: str = "large") ->
             # Verificar os paths dos arquivos
             path_classification = "Not Test"
             for path in paths:
-                if re.search("test", path):
+                if re.search("test", str(path).lower()):
                     path_classification = "Test"
 
             # Verificar o committer
