@@ -117,7 +117,7 @@ def funcao_base(repository_commits: pd.DataFrame, change_type: str = "large") ->
             "Committer Classification": []
         }
 
-        if commits_df.empty:
+        if not commits_df.empty:
             commits_df.groupby('Hash')
 
             commits_df['File Path'] = commits_df.apply(
