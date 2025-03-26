@@ -118,13 +118,14 @@ def funcao_base(repository_commits: pd.DataFrame, change_type: str = "large") ->
         }
 
         if not commits_df.empty:
-            commits_df.groupby('Hash')
-
             commits_df['File Path'] = commits_df.apply(
                 lambda x: x['Local File PATH New'] if pd.notna(x['Local File PATH New'])
                 else x['Local File PATH Old'],
                 axis=1
+
             )
+            
+            commits_by_hash = commits_df.groupby('Hash')
             # LOGIC
 
             # Analisar mensagens de commit
@@ -132,11 +133,11 @@ def funcao_base(repository_commits: pd.DataFrame, change_type: str = "large") ->
             # Analisar emails dos autores
 
 
-            for _, commit in commits_df.iterrows():
-                commit_hash = commit['Hash']
-                message = str(commit['Message'].lower())
-                committer_email = str(commit['Committer Email']).lower()
-                committer_name = str(commit['Committer Name']).lower()
+            for _, commit in commits_by_hash:
+                commit_hash = commit['Hash'].iloc[0]
+                message = str(commit['Message'].iloc[0]).lower()
+                committer_email = str(commit['Committer Email'].iloc[0]).lower()
+                committer_name = str(commit['Committer Name'].iloc[0]).lower()
                 paths = commit['File Path'].tolist()
 
                 message_classification = []
