@@ -105,20 +105,6 @@ def funcao_base(repository_commits: pd.DataFrame, change_type: str = "large") ->
 
         commits_df = repository_commits.copy()
 
-        commits_df['File Path'] = commits_df.apply(
-            lambda x: x['Local File PATH New'] if pd.notna(x['Local File PATH New'])
-            else x['Local File PATH Old'],
-            axis=1
-        )
-
-        commits_df.groupby('Hash')
-
-        # LOGIC
-
-        # Analisar mensagens de commit
-        # Analisar o Path dos arquivos
-        # Analisar emails dos autores
-
         commits_classification = {
             "Hash": [],
             "Classification": [],
@@ -131,57 +117,72 @@ def funcao_base(repository_commits: pd.DataFrame, change_type: str = "large") ->
             "Committer Classification": []
         }
 
-        for _, commit in commits_df.iterrows():
-            commit_hash = commit['Hash']
-            message = str(commit['Message'].lower())
-            committer_email = str(commit['Committer Email']).lower()
-            committer_name = str(commit['Committer Name']).lower()
-            paths = commit['File Path'].tolist()
+        if commits_df.empty:
+            commits_df.groupby('Hash')
 
-            message_classification = []
-            # Categorizar a mensagem do commit
-            for keyword in keywords:
-                for pattern, classification in keyword.items():
-                    if re.search(pattern, message):
-                        message_classification.append(classification)
+            commits_df['File Path'] = commits_df.apply(
+                lambda x: x['Local File PATH New'] if pd.notna(x['Local File PATH New'])
+                else x['Local File PATH Old'],
+                axis=1
+            )
+            # LOGIC
 
-            # Verificar os paths dos arquivos
-            path_classification = "Not Test"
-            for path in paths:
-                if re.search("test", str(path).lower()):
-                    path_classification = "Test"
+            # Analisar mensagens de commit
+            # Analisar o Path dos arquivos
+            # Analisar emails dos autores
 
-            # Verificar o committer
-            committer_classification = "Human"
-            if re.search(auto_name, committer_name):
-                committer_classification = "Auto"
-            for pattern, classification in auto_emails.items():
-                if re.search(pattern, committer_email):
+
+            for _, commit in commits_df.iterrows():
+                commit_hash = commit['Hash']
+                message = str(commit['Message'].lower())
+                committer_email = str(commit['Committer Email']).lower()
+                committer_name = str(commit['Committer Name']).lower()
+                paths = commit['File Path'].tolist()
+
+                message_classification = []
+                # Categorizar a mensagem do commit
+                for keyword in keywords:
+                    for pattern, classification in keyword.items():
+                        if re.search(pattern, message):
+                            message_classification.append(classification)
+
+                # Verificar os paths dos arquivos
+                path_classification = "Not Test"
+                for path in paths:
+                    if re.search("test", str(path).lower()):
+                        path_classification = "Test"
+
+                # Verificar o committer
+                committer_classification = "Human"
+                if re.search(auto_name, committer_name):
                     committer_classification = "Auto"
+                for pattern, classification in auto_emails.items():
+                    if re.search(pattern, committer_email):
+                        committer_classification = "Auto"
 
-            # Classificar o commit
-            commit_classification = ""
-            if committer_classification == "Auto":
-                commit_classification = "Auto"
-            elif path_classification == "Test":
-                commit_classification = "Test"
-            else:
-                commit_classification = message_classification[0] if message_classification else "Other"
+                # Classificar o commit
+                commit_classification = ""
+                if committer_classification == "Auto":
+                    commit_classification = "Auto"
+                elif path_classification == "Test":
+                    commit_classification = "Test"
+                else:
+                    commit_classification = message_classification[0] if message_classification else "Other"
 
-            # Junta o resultado no dicionário
-            commit_data = {
-                "Hash": commit_hash,
-                "Classification": commit_classification,
-                "Message": message,
-                "Message Classification": ", ".join(message_classification) if message_classification else "Other",
-                "Path": ", ".join(paths),
-                "Path Classification": path_classification,
-                "Committer E-mail": committer_email,
-                "Committer Name": committer_name,
-                "Committer Classification": committer_classification
-            }
-            for key, value in commit_data.items():
-                commits_classification[key].append(value)
+                # Junta o resultado no dicionário
+                commit_data = {
+                    "Hash": commit_hash,
+                    "Classification": commit_classification,
+                    "Message": message,
+                    "Message Classification": ", ".join(message_classification) if message_classification else "Other",
+                    "Path": ", ".join(paths),
+                    "Path Classification": path_classification,
+                    "Committer E-mail": committer_email,
+                    "Committer Name": committer_name,
+                    "Committer Classification": committer_classification
+                }
+                for key, value in commit_data.items():
+                    commits_classification[key].append(value)
 
         # Concatena tudo em um DataFrame
         return pd.DataFrame(commits_classification)
