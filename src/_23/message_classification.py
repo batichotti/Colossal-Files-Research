@@ -186,10 +186,12 @@ def anal_classification(repository_commits: pd.DataFrame, change_type: str = "la
                                         flag = False
                         if flag:
                             message_classification.append(classification)
+                            break
                 # feature
                 for pattern, classification in feature.items():
                     if re.search(pattern, message):
                         message_classification.append(classification)
+                        break
                 # test
                 for pattern, classification in feature.items():
                     is_in_message = False
@@ -213,10 +215,12 @@ def anal_classification(repository_commits: pd.DataFrame, change_type: str = "la
                 for pattern, classification in refactor.items():
                     if re.search(pattern, message):
                         message_classification.append(classification)
+                        break
                 # deprecate
                 for pattern, classification in deprecate.items():
                     if re.search(pattern, message):
                         message_classification.append(classification)
+                        break
                 # auto
                 committer_classification = "Human"
                 if re.search(auto_name, committer_name):
@@ -227,7 +231,8 @@ def anal_classification(repository_commits: pd.DataFrame, change_type: str = "la
                 # feature others
                 for pattern, classification in feature_others.items():
                     if re.search(pattern, message):
-                        message_classification.append(classification)                
+                        message_classification.append(classification)
+                        break             
 
                 # Classificar o commit ===================================================================================
                 commit_classification = ""
