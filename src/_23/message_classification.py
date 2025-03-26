@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-import datetime
+import re
 from os import makedirs, path
 from sys import setrecursionlimit
 
@@ -29,7 +29,162 @@ small_files_commits: pd.DataFrame = pd.DataFrame()
 
 # Funções auxiliares =========================================================================================
 def funcao_base(repository_commits: pd.DataFrame, change_type: str = "large") -> pd.DataFrame:
-    """Função Base para o processamento de dados"""
+    """Função para classificar mensagens de commit"""
+
+    def classify_commits(repository_commits: pd.DataFrame) -> pd.DataFrame:
+        # GIT OPERATIONS
+        git_operations = {
+            r"branch": "Commit Operation",
+            r"merge": "Commit Operation",
+            r"integrate": "Commit Operation",
+            r"revert": "Commit Operation",
+        }
+
+        # BUILT OPERATIONS
+        built_configurations = {
+            r"build": "Build Configuration",
+        }
+
+        # BUG FIX
+        bug_fix = {
+            r"bug": "Bug-Fix",
+            r"fix": "Bug-Fix",
+        }
+        bug_deny = {
+            r"test case": "Test",
+            r"unit test": "Test",
+        }
+
+        # RESOURCE
+        resource = {
+            r"conf": "Resource",
+            r"license": "Resource",
+            r"legal": "Resource",
+        }
+
+        # NEW FEATURE
+        new_feature = {
+            r"update": "New Feature",
+            r"add": "New Feature",
+            r"new": "New Feature",
+            r"create": "New Feature",
+            r"implement feature": "New Feature",
+            r"enable": "New Feature",
+            r"implement": "New Feature",
+            r"improve": "New Feature",
+        }
+
+        # TEST
+        test = {
+            r"test": "Test",
+        }
+
+        # REFACTOR
+        refactor = {
+            r"refactor": "Refactor",
+        }
+
+        # DEPRECATE
+        deprecate = {
+            r"deprecat": "Deprecate",
+            r"delete": "Deprecate",
+            r"clean ?-?up": "Deprecate",
+        }
+
+        auto_name = r"\[bot\]"
+
+        auto_emails = {
+            r"\[bot\]": "Auto",
+            r"@users.noreply.github.com": "Auto",
+            r"actions@github.com": "Auto",
+            r"noreply@github.com": "Auto",
+        }
+
+        keywords = [git_operations, built_configurations, bug_fix, bug_deny, resource, new_feature, test, refactor, deprecate]
+
+        commits_df = repository_commits.copy()
+
+        commits_df['File Path'] = commits_df.apply(
+            lambda x: x['Local File PATH New'] if pd.notna(x['Local File PATH New'])
+            else x['Local File PATH Old'],
+            axis=1
+        )
+
+        commits_df.groupby('Hash')
+
+        # LOGIC
+
+        # Analisar mensagens de commit
+        # Analisar o Path dos arquivos
+        # Analisar emails dos autores
+
+        commits_classification = {
+            "Hash": [],
+            "Classification": [],
+            "Message": [],
+            "Message Classification": [],
+            "Path": [],
+            "Path Classification": [],
+            "Committer E-mail": [],
+            "Committer Name": [],
+            "Committer Classification": []
+        }
+
+        for _, commit in commits_df.iterrows():
+            commit_hash = commit['Hash']
+            message = commit['Message'].lower()
+            committer_email = commit['Committer Email'].lower()
+            committer_name = commit['Committer Name'].lower()
+            paths = commit['File Path'].lower().split(',')
+
+            message_classification = []
+            # Categorizar a mensagem do commit
+            for keyword in keywords:
+                for pattern, classification in keyword.items():
+                    if re.search(pattern, message):
+                        message_classification.append(classification)
+
+            # Verificar os paths dos arquivos
+            path_classification = "Not Test"
+            for path in paths:
+                if re.search("test", path):
+                    path_classification = "Test"
+
+            # Verificar o committer
+            committer_classification = "Human"
+            if re.search(auto_name, committer_name):
+                committer_classification = "Auto"
+            for pattern, classification in auto_emails.items():
+                if re.search(pattern, committer_email):
+                    committer_classification = "Auto"
+
+            # Classificar o commit
+            commit_classification = ""
+            if committer_classification == "Auto":
+                commit_classification = "Auto"
+            elif path_classification == "Test":
+                commit_classification = "Test"
+            else:
+                commit_classification = message_classification[0] if message_classification else "Other"
+
+            # Junta o resultado no dicionário
+            commit_data = {
+                "Hash": commit_hash,
+                "Classification": commit_classification,
+                "Message": message,
+                "Message Classification": ", ".join(message_classification) if message_classification else "Other",
+                "Path": ", ".join(paths),
+                "Path Classification": path_classification,
+                "Committer E-mail": committer_email,
+                "Committer Name": committer_name,
+                "Committer Classification": committer_classification
+            }
+            for key, value in commit_data.items():
+                commits_classification[key].append(value)
+
+        # Concatena tudo em um DataFrame
+        return pd.DataFrame(commits_classification)
+    
     
     added_files: pd.DataFrame = repository_commits[repository_commits['Change Type'] == 'ADD'].copy()
     added_files_total: int = len(added_files)
@@ -93,156 +248,130 @@ def funcao_base(repository_commits: pd.DataFrame, change_type: str = "large") ->
 
 
     # ANAL. ============================================================================================================
-    changes_files_total: int = 0
-    change_time_total = []
-    deleted_time_total = []
-    only_added_total: int = 0
+    changes_classified: pd.DataFrame = pd.DataFrame()
     if not changes.empty:
-        # Cria uma chave de agrupamento combinando New e Old paths
-        changes['File Path'] = changes.apply(
-            lambda x: x['Local File PATH New'] if pd.notna(x['Local File PATH New']) 
-                    else x['Local File PATH Old'], 
-            axis=1
-        )
-        changes_files_total = len(changes.groupby('File Path'))
+        changes_classified = classify_commits(changes)
 
-        changes['Committer Commit Date'] = changes['Committer Commit Date'].apply(
-            lambda x: x[:-3] + x[-2:]  # Remove o ':' do offset (+02:00 → +0200)
-        )
-        changes['Committer Commit Date'] = changes['Committer Commit Date'].apply(
-            lambda x: datetime.datetime.strptime(x, '%Y-%m-%d %H:%M:%S%z').astimezone(datetime.timezone.utc)
-        )
-        changes = changes.sort_values(by='Committer Commit Date')
-        
-        for _, file_changes in changes.groupby('File Path'):
-            commits = file_changes['Committer Commit Date'].tolist()
-            delta_temp = []
-            if len(commits) >= 2:
-                for i in range(len(commits)-1):
-                    delta = (commits[i] - commits[i-1]).total_seconds()
-                    delta_temp.append(delta)
-                    change_time_total.append(delta)
-            else:
-                only_added_total += 1
-            if "DELETE" in file_changes['Change Type'].values:
-                deleted_time_total.extend(delta_temp)
-
-    changes_large_files_total: int = 0
-    change_time_large_total = []
-    deleted_time_large_total = []
-    only_added_large_total: int = 0
+    changes_large_classified: pd.DataFrame = pd.DataFrame()
     if not changes_large.empty:
-        changes_large['File Path'] = changes_large.apply(
-            lambda x: x['Local File PATH New'] if pd.notna(x['Local File PATH New']) 
-                    else x['Local File PATH Old'], 
-            axis=1
-        )
-        changes_large_files_total = len(changes_large.groupby('File Path'))
+        changes_large_classified = classify_commits(changes_large)
 
-        changes_large['Committer Commit Date'] = changes_large['Committer Commit Date'].apply(
-            lambda x: x[:-3] + x[-2:]
-        )
-        changes_large['Committer Commit Date'] = changes_large['Committer Commit Date'].apply(
-            lambda x: datetime.datetime.strptime(x, '%Y-%m-%d %H:%M:%S%z').astimezone(datetime.timezone.utc)
-        )
-        changes_large = changes_large.sort_values(by='Committer Commit Date')
-        for _, file_changes in changes_large.groupby('File Path'):
-            commits = file_changes['Committer Commit Date'].tolist()
-            delta_temp = []
-            if len(commits) >= 2:
-                for i in range(len(commits)-1):
-                    delta = (commits[i] - commits[i-1]).total_seconds()
-                    delta_temp.append(delta)
-                    change_time_large_total.append(delta)
-            else:
-                only_added_large_total += 1
-            if "DELETE" in file_changes['Change Type'].values:
-                deleted_time_large_total.extend(delta_temp)
-
-    changes_small_files_total: int = 0
-    change_time_small_total = []
-    deleted_time_small_total = []
-    only_added_small_total: int = 0
+    changes_small_classified: pd.DataFrame = pd.DataFrame()
     if not changes_small.empty:
-        changes_small['File Path'] = changes_small.apply(
-            lambda x: x['Local File PATH New'] if pd.notna(x['Local File PATH New']) 
-                    else x['Local File PATH Old'], 
-            axis=1
-        )
-        changes_small_files_total = len(changes_small.groupby('File Path'))
+        changes_small_classified = classify_commits(changes_small)
 
-        changes_small['Committer Commit Date'] = changes_small['Committer Commit Date'].apply(
-            lambda x: x[:-3] + x[-2:]  # Aplicar o mesmo ajuste
-        )
-        changes_small['Committer Commit Date'] = changes_small['Committer Commit Date'].apply(
-            lambda x: datetime.datetime.strptime(x, '%Y-%m-%d %H:%M:%S%z').astimezone(datetime.timezone.utc)
-        )
-        changes_small = changes_small.sort_values(by='Committer Commit Date')
-        for _, file_changes in changes_small.groupby('File Path'):
-            commits = file_changes['Committer Commit Date'].tolist()
-            delta_temp = []
-            if len(commits) >= 2:
-                for i in range(len(commits)-1):
-                    delta = (commits[i] - commits[i-1]).total_seconds()
-                    delta_temp.append(delta)
-                    change_time_small_total.append(delta)
-            else:
-                only_added_small_total += 1
-            if "DELETE" in file_changes['Change Type'].values:
-                deleted_time_small_total.extend(delta_temp)
+    # ANAL ====================================================================================================================
     
-    # Compute averages and medians for small and large changes
-    avg_geral = np.mean(change_time_total) if change_time_total else 0
-    med_geral = np.median(change_time_total) if change_time_total else 0
-    del_avg_geral = np.mean(deleted_time_total) if deleted_time_total else 0
-    del_med_geral = np.median(deleted_time_total) if deleted_time_total else 0
+    bug_fix_percentage = 0
+    resource_percentage = 0
+    new_feature_percentage = 0
+    test_percentage = 0
+    refactor_percentage = 0
+    deprecate_percentage = 0
+    auto_percentage = 0
+    commit_operation_percentage = 0
+    build_configuration_percentage = 0
+    other_percentage = 0
+    # Calcula a porcentagem de cada classificação para changes_classified
+    if not changes_classified.empty:
+        classification_counts = changes_classified['Classification'].value_counts(normalize=True) * 100
+        bug_fix_percentage = classification_counts.get('Bug-Fix', 0)
+        resource_percentage = classification_counts.get('Resource', 0)
+        new_feature_percentage = classification_counts.get('New Feature', 0)
+        test_percentage = classification_counts.get('Test', 0)
+        refactor_percentage = classification_counts.get('Refactor', 0)
+        deprecate_percentage = classification_counts.get('Deprecate', 0)
+        auto_percentage = classification_counts.get('Auto', 0)
+        commit_operation_percentage = classification_counts.get('Commit Operation', 0)
+        build_configuration_percentage = classification_counts.get('Build Configuration', 0)
+        other_percentage = classification_counts.get('Other', 0)
 
-    avg_large = np.mean(change_time_large_total) if change_time_large_total else 0
-    med_large = np.median(change_time_large_total) if change_time_large_total else 0
-    del_avg_large = np.mean(deleted_time_large_total) if deleted_time_large_total else 0
-    del_med_large = np.median(deleted_time_large_total) if deleted_time_large_total else 0
+    bug_fix_percentage_large = 0
+    resource_percentage_large = 0
+    new_feature_percentage_large = 0
+    test_percentage_large = 0
+    refactor_percentage_large = 0
+    deprecate_percentage_large = 0
+    auto_percentage_large = 0
+    commit_operation_percentage_large = 0
+    build_configuration_percentage_large = 0
+    other_percentage_large = 0
+    # Calcula a porcentagem de cada classificação para changes_large_classified
+    if not changes_large_classified.empty:
+        classification_counts_large = changes_large_classified['Classification'].value_counts(normalize=True) * 100
+        bug_fix_percentage_large = classification_counts_large.get('Bug-Fix', 0)
+        resource_percentage_large = classification_counts_large.get('Resource', 0)
+        new_feature_percentage_large = classification_counts_large.get('New Feature', 0)
+        test_percentage_large = classification_counts_large.get('Test', 0)
+        refactor_percentage_large = classification_counts_large.get('Refactor', 0)
+        deprecate_percentage_large = classification_counts_large.get('Deprecate', 0)
+        auto_percentage_large = classification_counts_large.get('Auto', 0)
+        commit_operation_percentage_large = classification_counts_large.get('Commit Operation', 0)
+        build_configuration_percentage_large = classification_counts_large.get('Build Configuration', 0)
+        other_percentage_large = classification_counts_large.get('Other', 0)
 
-    avg_small = np.mean(change_time_small_total) if change_time_small_total else 0
-    med_small = np.median(change_time_small_total) if change_time_small_total else 0
-    del_avg_small = np.mean(deleted_time_small_total) if deleted_time_small_total else 0
-    del_med_small = np.median(deleted_time_small_total) if deleted_time_small_total else 0
-
-    # Calculate ratios with checks for division by zero
-    ratio_avg = (avg_small / avg_large) if avg_large != 0 else 0
-    ratio_med = (med_small / med_large) if med_large != 0 else 0
-    ratio_del_avg = (del_avg_small / del_avg_large) if del_avg_large != 0 else 0
-    ratio_del_med = (del_med_small / del_med_large) if del_med_large != 0 else 0
+    bug_fix_percentage_small = 0
+    resource_percentage_small = 0
+    new_feature_percentage_small = 0
+    test_percentage_small = 0
+    refactor_percentage_small = 0
+    deprecate_percentage_small = 0
+    auto_percentage_small = 0
+    commit_operation_percentage_small = 0
+    build_configuration_percentage_small = 0
+    other_percentage_small = 0
+    # Calcula a porcentagem de cada classificação para changes_small_classified
+    if not changes_small_classified.empty:
+        classification_counts_small = changes_small_classified['Classification'].value_counts(normalize=True) * 100
+        bug_fix_percentage_small = classification_counts_small.get('Bug-Fix', 0)
+        resource_percentage_small = classification_counts_small.get('Resource', 0)
+        new_feature_percentage_small = classification_counts_small.get('New Feature', 0)
+        test_percentage_small = classification_counts_small.get('Test', 0)
+        refactor_percentage_small = classification_counts_small.get('Refactor', 0)
+        deprecate_percentage_small = classification_counts_small.get('Deprecate', 0)
+        auto_percentage_small = classification_counts_small.get('Auto', 0)
+        commit_operation_percentage_small = classification_counts_small.get('Commit Operation', 0)
+        build_configuration_percentage_small = classification_counts_small.get('Build Configuration', 0)
+        other_percentage_small = classification_counts_small.get('Other', 0)
 
     # Result ===========================================================================================================
     result: dict = {
         "Type": [change_type],
-        "#Files": [added_files_total],
+        # geral
+        "Bug-Fix": [bug_fix_percentage],
+        "Resource": [resource_percentage],
+        "New Feature": [new_feature_percentage],
+        "Test": [test_percentage],
+        "Refactor": [refactor_percentage],
+        "Deprecate": [deprecate_percentage],
+        "Auto": [auto_percentage],
+        "Commit Operation": [commit_operation_percentage],
+        "Build Configuration": [build_configuration_percentage],
+        "Other": [other_percentage],
 
-        "Total Filtered Files": [changes_files_total],
-        "Only Added": [only_added_total],
-        "Time Average": [avg_geral],
-        "Time Median": [med_geral],
-        "Deleted Time Average": [del_avg_geral],
-        "Deleted Time Median": [del_med_geral],
-        
-        "Total Large Filtered Files": [changes_large_files_total],
-        "Only Added Large": [only_added_large_total],
-        "Time Large Average": [avg_large],
-        "Time Large Median": [med_large],
-        "Deleted Time Large Average": [del_avg_large],
-        "Deleted Time Large Median": [del_med_large],
+        # large
+        "Bug-Fix Large": [bug_fix_percentage_large],
+        "Resource Large": [resource_percentage_large],
+        "New Feature Large": [new_feature_percentage_large],
+        "Test Large": [test_percentage_large],
+        "Refactor Large": [refactor_percentage_large],
+        "Deprecate Large": [deprecate_percentage_large],
+        "Auto Large": [auto_percentage_large],
+        "Commit Operation Large": [commit_operation_percentage_large],
+        "Build Configuration Large": [build_configuration_percentage_large],
+        "Other Large": [other_percentage_large],
 
-        "Total Small Filtered Files": [changes_small_files_total],
-        "Only Added Small": [only_added_small_total],
-        "Time Small Average": [avg_small],
-        "Time Small Median": [med_small],
-        "Deleted Time Small Average": [del_avg_small],
-        "Deleted Time Small Median": [del_med_small],
-        
-        "Large p/ Small (Average)": [ratio_avg],
-        "Large p/ Small (Median)": [ratio_med],
-        "Deleted Large p/ Small (Average)": [ratio_del_avg],
-        "Deleted Large p/ Small (Median)": [ratio_del_med]
+        # small
+        "Bug-Fix Small": [bug_fix_percentage_small],
+        "Resource Small": [resource_percentage_small],
+        "New Feature Small": [new_feature_percentage_small],
+        "Test Small": [test_percentage_small],
+        "Refactor Small": [refactor_percentage_small],
+        "Deprecate Small": [deprecate_percentage_small],
+        "Auto Small": [auto_percentage_small],
+        "Commit Operation Small": [commit_operation_percentage_small],
+        "Build Configuration Small": [build_configuration_percentage_small],
+        "Other Small": [other_percentage_small]
     }
     return pd.DataFrame(result)
 
@@ -253,7 +382,7 @@ def process_language(lang: str, large: pd.DataFrame, small: pd.DataFrame, output
         results.append(funcao_base(large, 'large'))
     if not small.empty:
         results.append(funcao_base(small, 'small'))
-    
+
     if results:
         pd.concat(results).to_csv(f"{output_path}/per_languages/{lang}.csv", index=False)
 
@@ -274,15 +403,15 @@ for i, row in repositories.iterrows():
     # Cria diretórios necessários
     makedirs(f"{output_path}/per_project/{language}", exist_ok=True)
     makedirs(f"{output_path}/per_languages", exist_ok=True)
-    
+
     # Atualiza acumuladores de linguagem quando muda
     if current_language and (language != current_language):
         process_language(current_language, current_large, current_small, output_path)
         current_large = pd.DataFrame()
         current_small = pd.DataFrame()
-    
+
     current_language = language
-    
+
     # Processa arquivos grandes
     large_df: pd.DataFrame = pd.DataFrame()
     large_path = f"{large_files_commits_path}{repo_path}.csv"
@@ -290,7 +419,7 @@ for i, row in repositories.iterrows():
         large_df: pd.DataFrame = pd.read_csv(large_path, sep=SEPARATOR)
         current_large = pd.concat([current_large, large_df])
         large_files_commits = pd.concat([large_files_commits, large_df])
-    
+
     # Processa arquivos pequenos
     small_path = f"{small_files_commits_path}{repo_path}.csv"
     small_df: pd.DataFrame = pd.DataFrame()
@@ -298,7 +427,7 @@ for i, row in repositories.iterrows():
         small_df: pd.DataFrame = pd.read_csv(small_path, sep=SEPARATOR)
         current_small = pd.concat([current_small, small_df])
         small_files_commits = pd.concat([small_files_commits, small_df])
-    
+
     project_results: list[pd.DataFrame] = []
     if not large_df.empty:
         project_results.append(funcao_base(large_df))
