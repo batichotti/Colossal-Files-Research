@@ -29,7 +29,7 @@ large_files_commits: pd.DataFrame = pd.DataFrame()
 small_files_commits: pd.DataFrame = pd.DataFrame()
 
 # Funções auxiliares =========================================================================================
-def funcao_base(repository_commits: pd.DataFrame, change_type: str = "large") -> pd.DataFrame:
+def anal_classification(repository_commits: pd.DataFrame, change_type: str = "large") -> pd.DataFrame:
     """Função para classificar mensagens de commit"""
 
     def classify_commits(repository_commits: pd.DataFrame) -> pd.DataFrame:
@@ -521,9 +521,9 @@ def process_language(lang: str, large: pd.DataFrame, small: pd.DataFrame, output
     """Processa e salva resultados por linguagem"""
     results:list[pd.DataFrame] = []
     if not large.empty:
-        results.append(funcao_base(large, 'large'))
+        results.append(anal_classification(large, 'large'))
     if not small.empty:
-        results.append(funcao_base(small, 'small'))
+        results.append(anal_classification(small, 'small'))
 
     if results:
         pd.concat(results).to_csv(f"{output_path}/per_languages/{lang}.csv", index=False)
@@ -572,9 +572,9 @@ for i, row in repositories.iterrows():
 
     project_results: list[pd.DataFrame] = []
     if not large_df.empty:
-        project_results.append(funcao_base(large_df))
+        project_results.append(anal_classification(large_df))
     if not small_df.empty:
-        project_results.append(funcao_base(small_df, 'small'))
+        project_results.append(anal_classification(small_df, 'small'))
 
     if project_results:
         pd.concat(project_results).to_csv(f"{output_path}/per_project/{repo_path}.csv", index=False)
@@ -586,9 +586,9 @@ if not current_large.empty or not current_small.empty:
 # Resultado global ============================================================================================
 final_results: list[pd.DataFrame] = []
 if not large_files_commits.empty:
-    final_results.append(funcao_base(large_files_commits))
+    final_results.append(anal_classification(large_files_commits))
 if not small_files_commits.empty:
-    final_results.append(funcao_base(small_files_commits, 'small'))
+    final_results.append(anal_classification(small_files_commits, 'small'))
 
 if final_results:
     pd.concat(final_results).to_csv(f"{output_path}/global_results.csv", index=False)
