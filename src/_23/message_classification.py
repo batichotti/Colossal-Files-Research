@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import statsmodels.api as sm
 import re
 from os import makedirs, path
 from sys import setrecursionlimit
@@ -405,9 +406,22 @@ def funcao_base(repository_commits: pd.DataFrame, change_type: str = "large") ->
         build_configuration_count_small = classification_totals_small.get('Build Configuration', 0)
         other_count_small = classification_totals_small.get('Other', 0)
 
+    # Calcula o resíduo de Pearson qui-quadrado entre a quantidade de cada classificação entre large e small
+
+    # Tabela de contagem de classificações
+    classification_counts = np.array([
+        [bug_fix_count_large, resource_count_large, new_feature_count_large, test_count_large, refactor_count_large, deprecate_count_large, auto_count_large, commit_operation_count_large, build_configuration_count_large, other_count_large],
+        [bug_fix_count_small, resource_count_small, new_feature_count_small, test_count_small, refactor_count_small, deprecate_count_small, auto_count_small, commit_operation_count_small, build_configuration_count_small, other_count_small]
+    ])
+
+    table = sm.stats.Table(classification_counts)
+    resid_pearson = table.resid_pearson
+    standardized_resids = table.standardized_resids
+
     # Result ===========================================================================================================
     result: dict = {
         "Type": [change_type],
+
         # geral
         "Bug-Fix": [bug_fix_percentage],
         "Resource": [resource_percentage],
@@ -475,7 +489,31 @@ def funcao_base(repository_commits: pd.DataFrame, change_type: str = "large") ->
         "Auto Small Count": [auto_count_small],
         "Commit Operation Small Count": [commit_operation_count_small],
         "Build Configuration Small Count": [build_configuration_count_small],
-        "Other Small Count": [other_count_small]
+        "Other Small Count": [other_count_small],
+
+        # Pearson Resids
+        "Pearson Resid - Bug-Fix": resid_pearson[0, 0],
+        "Pearson Resid - Resource": resid_pearson[0, 1],
+        "Pearson Resid - New Feature": resid_pearson[0, 2],
+        "Pearson Resid - Test": resid_pearson[0, 3],
+        "Pearson Resid - Refactor": resid_pearson[0, 4],
+        "Pearson Resid - Deprecate": resid_pearson[0, 5],
+        "Pearson Resid - Auto": resid_pearson[0, 6],
+        "Pearson Resid - Commit Operation": resid_pearson[0, 7],
+        "Pearson Resid - Build Configuration": resid_pearson[0, 8],
+        "Pearson Resid - Other": resid_pearson[0, 9],
+
+        #Standardized Resids
+        "Standardized Resid - Bug-Fix": standardized_resids[0, 0],
+        "Standardized Resid - Resource": standardized_resids[0, 1],
+        "Standardized Resid - New Feature": standardized_resids[0, 2],
+        "Standardized Resid - Test": standardized_resids[0, 3],
+        "Standardized Resid - Refactor": standardized_resids[0, 4],
+        "Standardized Resid - Deprecate": standardized_resids[0, 5],
+        "Standardized Resid - Auto": standardized_resids[0, 6],
+        "Standardized Resid - Commit Operation": standardized_resids[0, 7],
+        "Standardized Resid - Build Configuration": standardized_resids[0, 8],
+        "Standardized Resid - Other": standardized_resids[0, 9]
     }
     return pd.DataFrame(result)
 
