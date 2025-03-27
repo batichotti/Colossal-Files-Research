@@ -100,10 +100,10 @@ def anal_classification(repository_commits: pd.DataFrame, change_type: str = "la
             r"clean ?-?up": "Deprecate",
         }
 
-        auto_name = r"\[bot\]"
+        auto_name = r"bot"
 
         auto_emails = {
-            r"\[bot\]": "Auto",
+            r"bot": "Auto",
             r"@users.noreply.github.com": "Auto",
             r"actions@github.com": "Auto",
             r"noreply@github.com": "Auto",
