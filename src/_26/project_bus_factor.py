@@ -49,3 +49,9 @@ def gavelino_truck_factor(base_path: str = "", git_repository_path: str = "", gi
 
     system(f"java -jar {path.join(base_path, "gittruckfactor", "src", "aserg", "gtf", "GitTruckFactor.java")} {git_repository_path} {git_repository_fullname}")
     # java -jar gittruckfactor.jar <git_repository_path> <git_repository_fullname>
+
+def main():
+    ...
+
+if __name__ == "__main__":
+    main()
