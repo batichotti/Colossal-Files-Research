@@ -25,10 +25,10 @@ small_files_commits: pd.DataFrame = pd.DataFrame()
 def anal_contributors(repository_commits: pd.DataFrame, change_type: str = "large") -> pd.DataFrame:
     """Função Base para o processamento de dados"""
     
-    commits = repository_commits.drop_duplicates(subset='Hash', keep='first').copy()
+    commits_per_hash = repository_commits.drop_duplicates(subset='Hash', keep='first').copy()
     
-    authors = commits.groupby('Author Email')
-    committer = commits.groupby('Committer Email')
+    authors = commits_per_hash.groupby('Author Email')
+    committer = commits_per_hash.groupby('Committer Email')
     top_authors = authors.size().nlargest(10)
     top_committers = committer.size().nlargest(10)
     
