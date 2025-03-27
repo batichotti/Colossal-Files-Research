@@ -225,6 +225,7 @@ def anal_classification(repository_commits: pd.DataFrame, change_type: str = "la
                 for pattern, classification in auto_emails.items():
                     if re.search(pattern, committer_email):
                         committer_classification = "Auto"
+                        break
                 # feature others
                 if not message_classification:
                     for pattern, classification in feature_others.items():
