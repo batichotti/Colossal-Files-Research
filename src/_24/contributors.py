@@ -28,7 +28,7 @@ import numpy as np
 def anal_contributors(repository_commits: pd.DataFrame, change_type: str = "large") -> pd.DataFrame:
     """Função Base para o processamento de dados"""
     
-    commits = repository_commits.unique('Hash').copy()
+    commits = repository_commits.drop_duplicates(subset='Hash').copy()
     
     authors = commits.groupby('Author Email').copy()
     committer = commits.groupby('Committer Email').copy()
