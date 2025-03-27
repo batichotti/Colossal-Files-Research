@@ -167,50 +167,47 @@ def anal_classification(repository_commits: pd.DataFrame, change_type: str = "la
                             message_classification.append(classification)
                             break
                 # resource
+                is_resource_in_message = False
                 for pattern, classification in resource.items():
-                    is_in_message = False
                     if re.search(pattern, message):
-                        is_in_message = True
+                        is_resource_in_message = True
                         message_classification.append(classification)
                         break
-                    if not is_in_message:
-                        flag = True
-                        for pattern, classification in source_files.items():
+                if not is_resource_in_message:
+                    flag = True
+                    for pattern, classification in source_files.items():
+                        for path in paths:
+                            if re.search(pattern, str(path).lower()):
+                                flag = False
+                    if flag:
+                        for pattern, classification in test.items():
                             for path in paths:
                                 if re.search(pattern, str(path).lower()):
                                     flag = False
-                        if flag:
-                            for pattern, classification in test.items():
-                                for path in paths:
-                                    if re.search(pattern, str(path).lower()):
-                                        flag = False
-                        if flag:
-                            message_classification.append(classification)
-                            break
+                    if flag:
+                        message_classification.append(classification)
                 # feature
                 for pattern, classification in feature.items():
                     if re.search(pattern, message):
                         message_classification.append(classification)
                         break
                 # test
+                is_test_in_message = False
                 for pattern, classification in feature.items():
-                    is_in_message = False
                     if re.search(pattern, message):
-                        is_in_message = True
+                        is_test_in_message = True
                         message_classification.append(classification)
                         break
-                    if not is_in_message:
-                        flag = True
-                        for pattern, classification in test.items():
-                            for path in paths:
-                                if not re.search(pattern, str(path).lower()):
-                                    for pattern, classification in source_files.items():
-                                        if re.search(pattern, str(path).lower()):
-                                            flag = False
-                        if flag:
-                            message_classification.append(classification)
-                            break
-
+                if not is_test_in_message:
+                    flag = True
+                    for pattern, classification in test.items():
+                        for path in paths:
+                            if not re.search(pattern, str(path).lower()):
+                                for pattern, classification in source_files.items():
+                                    if re.search(pattern, str(path).lower()):
+                                        flag = False
+                    if flag:
+                        message_classification.append(classification)
                 # refactor
                 for pattern, classification in refactor.items():
                     if re.search(pattern, message):
@@ -229,10 +226,11 @@ def anal_classification(repository_commits: pd.DataFrame, change_type: str = "la
                     if re.search(pattern, committer_email):
                         committer_classification = "Auto"
                 # feature others
-                for pattern, classification in feature_others.items():
-                    if re.search(pattern, message):
-                        message_classification.append(classification)
-                        break             
+                if not message_classification:
+                    for pattern, classification in feature_others.items():
+                        if re.search(pattern, message):
+                            message_classification.append(classification)
+                            break             
 
                 # Classificar o commit ===================================================================================
                 commit_classification = ""
