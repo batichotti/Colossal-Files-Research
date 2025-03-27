@@ -22,9 +22,6 @@ large_files_commits: pd.DataFrame = pd.DataFrame()
 small_files_commits: pd.DataFrame = pd.DataFrame()
 
 # Funções auxiliares =========================================================================================
-import pandas as pd
-import numpy as np
-
 def anal_contributors(repository_commits: pd.DataFrame, change_type: str = "large") -> pd.DataFrame:
     """Função Base para o processamento de dados"""
     
