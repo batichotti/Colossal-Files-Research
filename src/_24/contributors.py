@@ -37,6 +37,7 @@ def anal_contributors(repository_commits: pd.DataFrame, change_type: str = "larg
     
     print(top_authors)
     print(top_committers)
+    input()
     
     result: dict = {
         "Type": [change_type],
