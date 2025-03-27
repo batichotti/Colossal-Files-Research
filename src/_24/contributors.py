@@ -30,16 +30,14 @@ def anal_contributors(repository_commits: pd.DataFrame, change_type: str = "larg
     authors = commits_per_hash.groupby('Author Email')
     committer = commits_per_hash.groupby('Committer Email')
     top_authors = authors.size().nlargest(10)
+    top_authors_str = "\n".join([f"author top {i + 1} - {count} commits" for i, count in enumerate(top_authors)])
     top_committers = committer.size().nlargest(10)
-    
-    print(top_authors)
-    print(top_committers)
-    input()
+    top_committers_str = "\n".join([f"committer top {i + 1} - {count} commits" for i, count in enumerate(top_committers)])
     
     result: dict = {
         "Type": [change_type],
-        "Result 1": ["Result 1"],
-        "Result 2": ["Result 2"]
+        "Top Authors": [top_authors_str],
+        "Top Committers": [top_committers_str]
     }
     return pd.DataFrame(result)
 
