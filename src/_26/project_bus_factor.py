@@ -51,7 +51,21 @@ def gavelino_truck_factor(base_path: str = "", git_repository_path: str = "", gi
     # java -jar gittruckfactor.jar <git_repository_path> <git_repository_fullname>
 
 def main():
-    ...
+    base_path = input("Enter the base path to the Gavelino Truck Factor directory: ").strip()
+    git_repository_path = input("Enter the path to the Git repository to analyze: ").strip()
+    git_repository_fullname = input("Enter the full name of the Git repository (e.g., username/repository): ").strip()
+    linguist = input("Apply linguistic filter? (yes/no): ").strip().lower() == "yes"
+
+    try:
+        gavelino_truck_factor(
+            base_path=base_path,
+            git_repository_path=git_repository_path,
+            git_repository_fullname=git_repository_fullname,
+            linguist=linguist
+        )
+        print("Truck Factor analysis completed successfully.")
+    except OSError as e:
+        print(f"An error occurred during the analysis: {e}")
 
 if __name__ == "__main__":
     main()
