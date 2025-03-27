@@ -30,8 +30,8 @@ def anal_contributors(repository_commits: pd.DataFrame, change_type: str = "larg
     
     commits = repository_commits.drop_duplicates(subset='Hash', keep='first').copy()
     
-    authors = commits.groupby('Author Email').copy()
-    committer = commits.groupby('Committer Email').copy()
+    authors = commits.groupby('Author Email')
+    committer = commits.groupby('Committer Email')
     top_authors = authors.size().nlargest(10)
     top_committers = committer.size().nlargest(10)
     
