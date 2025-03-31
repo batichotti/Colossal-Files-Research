@@ -5,7 +5,7 @@ from os import path
 from platform import system as op_sys
 
 # SETUP ================================================================================================================
-input_path = './src/_00/input/linux+pytorch.csv'
+input_path = './src/_00/input/go.csv'
 output_path = './src/_00/output'
 
 input_file = pd.read_csv(input_path)
