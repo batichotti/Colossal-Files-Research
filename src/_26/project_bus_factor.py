@@ -46,6 +46,8 @@ def gavelino_truck_factor(base_path: str = "", git_repository_path: str = "", gi
         system(f"{path.join(base_path, "gittruckfactor", "scripts", "linguist_script.sh")} {git_repository_path}")
         # optional -> ./linguist_script.sh <git_repository_path>
 
+    print(f"java -jar {path.join(base_path, "gittruckfactor", "src", "aserg", "gtf", "GitTruckFactor.java")} {git_repository_path} {git_repository_fullname}")
+    
     system(f"java -jar {path.join(base_path, "gittruckfactor", "src", "aserg", "gtf", "GitTruckFactor.java")} {git_repository_path} {git_repository_fullname}")
     # java -jar gittruckfactor.jar <git_repository_path> <git_repository_fullname>
 
@@ -53,20 +55,23 @@ def main():
     base_path = "/home/aluno/Downloads/Truck-Factor"
     linguist = False
 
-    for language in os.listdir("./src/_00/output"):
-        for folder in os.listdir(language):
-            try:
-                git_repository_path = "Enter the path to the Git repository to analyze: "
-                git_repository_fullname = folder.split("/")[-1]
-                gavelino_truck_factor(
-                    base_path=base_path,
-                    git_repository_path=git_repository_path,
-                    git_repository_fullname=git_repository_fullname,
-                    linguist=linguist
-                )
-                print("Truck Factor analysis completed successfully.")
-            except OSError as e:
-                print(f"An error occurred during the analysis: {e}")
+    for language in listdir("./src/_00/output"):
+        if (path.join("./src/_00/output", language) != path.join("./src/_00/output", "time~total.csv")):
+            if listdir(path.join("./src/_00/output", language)):
+                for folder in listdir(path.join("./src/_00/output", language)):
+                    try:
+                        git_repository_path = path.join("./src/_00/output", language, folder)
+                        git_repository_fullname = folder
+                        
+                        gavelino_truck_factor(
+                            base_path=base_path,
+                            git_repository_path=git_repository_path,
+                            git_repository_fullname=git_repository_fullname,
+                            linguist=linguist
+                        )
+                        print("Truck Factor analysis completed successfully.")
+                    except OSError as e:
+                        print(f"An error occurred during the analysis: {e}")
 
 if __name__ == "__main__":
     main()
