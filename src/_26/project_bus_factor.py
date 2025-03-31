@@ -46,9 +46,9 @@ def gavelino_truck_factor(base_path: str = "", git_repository_path: str = "", gi
         system(f"{path.join(base_path, "gittruckfactor", "scripts", "linguist_script.sh")} {git_repository_path}")
         # optional -> ./linguist_script.sh <git_repository_path>
 
-    print(f"java -jar {path.join(base_path, "gittruckfactor", "src", "aserg", "gtf", "GitTruckFactor.java")} {git_repository_path} {git_repository_fullname}")
+    print(f"java -jar {path.join(base_path, "gittruckfactor", "src", "aserg", "gtf", "gittruckfactor.jar")} {git_repository_path} {git_repository_fullname}")
     
-    system(f"java -jar {path.join(base_path, "gittruckfactor", "src", "aserg", "gtf", "GitTruckFactor.java")} {git_repository_path} {git_repository_fullname}")
+    system(f"java -jar {path.join(base_path, "gittruckfactor", "src", "aserg", "gtf", "gittruckfactor.jar")} {git_repository_path} {git_repository_fullname}")
     # java -jar gittruckfactor.jar <git_repository_path> <git_repository_fullname>
 
 def main():
