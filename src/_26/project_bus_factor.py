@@ -1,5 +1,4 @@
-from os import system, path
-
+from os import system, path, listdir
 
 def gavelino_truck_factor(base_path: str = "", git_repository_path: str = "", git_repository_fullname: str = "", linguist: bool = False):
     """
@@ -54,19 +53,20 @@ def main():
     base_path = "/home/aluno/Downloads/Truck-Factor"
     linguist = False
 
-    for
-    try:
-        git_repository_path = "Enter the path to the Git repository to analyze: "
-        git_repository_fullname = "Enter the full name of the Git repository (e.g., username/repository): "
-        gavelino_truck_factor(
-            base_path=base_path,
-            git_repository_path=git_repository_path,
-            git_repository_fullname=git_repository_fullname,
-            linguist=linguist
-        )
-        print("Truck Factor analysis completed successfully.")
-    except OSError as e:
-        print(f"An error occurred during the analysis: {e}")
+    for language in os.listdir("./src/_00/output"):
+        for folder in os.listdir(language):
+            try:
+                git_repository_path = "Enter the path to the Git repository to analyze: "
+                git_repository_fullname = folder.split("/")[-1]
+                gavelino_truck_factor(
+                    base_path=base_path,
+                    git_repository_path=git_repository_path,
+                    git_repository_fullname=git_repository_fullname,
+                    linguist=linguist
+                )
+                print("Truck Factor analysis completed successfully.")
+            except OSError as e:
+                print(f"An error occurred during the analysis: {e}")
 
 if __name__ == "__main__":
     main()
