@@ -51,12 +51,13 @@ def gavelino_truck_factor(base_path: str = "", git_repository_path: str = "", gi
     # java -jar gittruckfactor.jar <git_repository_path> <git_repository_fullname>
 
 def main():
-    base_path = input("Enter the base path to the Gavelino Truck Factor directory: ").strip()
-    git_repository_path = input("Enter the path to the Git repository to analyze: ").strip()
-    git_repository_fullname = input("Enter the full name of the Git repository (e.g., username/repository): ").strip()
-    linguist = input("Apply linguistic filter? (yes/no): ").strip().lower() == "yes"
+    base_path = "/home/aluno/Downloads/Truck-Factor"
+    linguist = False
 
+    for
     try:
+        git_repository_path = "Enter the path to the Git repository to analyze: "
+        git_repository_fullname = "Enter the full name of the Git repository (e.g., username/repository): "
         gavelino_truck_factor(
             base_path=base_path,
             git_repository_path=git_repository_path,
