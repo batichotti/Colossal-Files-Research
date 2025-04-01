@@ -76,7 +76,7 @@ for i in range(len(repositories)):
         large_files_major_language:int = 0
     total_large_files:int = large_files_df.sum()
     percentage:float = (large_files_major_language / total_large_files) * 100 if total_large_files > 0 else 0
-    
+
     print(repo_path)
     #print(repository_files_df)
     #print(f"Linguagem Majoritaria: {major_language}")
@@ -86,7 +86,7 @@ for i in range(len(repositories)):
     #input()
 
     makedirs(f"{output_path}{language}", exist_ok=True)
-    
+
     save_df.loc[len(save_df)] = [language, repository.split('/')[-1], major_language, large_files_major_language, total_large_files, percentage]
     save_df.to_csv(f"{output_path}{language}/{repository.split('/')[-2]}~{repository.split('/')[-1]}.csv", sep=SEPARATOR, index=False)
 
@@ -134,10 +134,10 @@ for i in range(len(repositories)):
     repository = repositories.loc[i, 'url']
     language = repositories.loc[i, 'main language']
     repo_path = f"{language}/{repository.split('/')[-2]}~{repository.split('/')[-1]}"
-    
+
     large_files_df = pd.read_csv(f"{large_files_path}/{repo_path}.csv", sep=SEPARATOR)
     total_large_files = large_files_df.shape[0]
-    
+
     project_large_files_df.loc[len(project_large_files_df)] = [repository.split('/')[-1], total_large_files]
 
 # Count the number of projects for each total large files count
@@ -150,8 +150,8 @@ ax = plt.gca()
 
 # Scatter plot
 plt.scatter(
-    project_count_df['# Total de Arquivos Grandes'], 
-    project_count_df['Quantidade de Projetos'], 
+    project_count_df['# Total de Arquivos Grandes'],
+    project_count_df['Quantidade de Projetos'],
     label='Projetos',
     zorder=3,
     s=25  # Tamanho dos pontos
@@ -159,10 +159,10 @@ plt.scatter(
 
 # Linha de tendência
 plt.plot(
-    project_count_df['# Total de Arquivos Grandes'], 
-    project_count_df['Quantidade de Projetos'], 
-    linestyle='--', 
-    color='orange', 
+    project_count_df['# Total de Arquivos Grandes'],
+    project_count_df['Quantidade de Projetos'],
+    linestyle='--',
+    color='orange',
     alpha=0.7,
     linewidth=1.05,
     label='Linha de Tendência'
@@ -185,16 +185,16 @@ max_y = project_count_df['Quantidade de Projetos'].max()
 for idx, row in top_projects.iterrows():
     x_val = row['# Total de Arquivos Grandes']
     y_val = project_count_df.loc[
-        project_count_df['# Total de Arquivos Grandes'] == x_val, 
+        project_count_df['# Total de Arquivos Grandes'] == x_val,
         'Quantidade de Projetos'
     ].values[0]
-    
+
     offset_x, offset_y = calculate_offset(x_val, y_val, max_x, max_y)
-    
+
     # Variação vertical apenas positiva
     offset_x += 0.1 * (idx % 3 - 1)
     offset_y += 0.15 * (idx % 2)  # Sempre adiciona ao offset_y
-    
+
     texts.append(plt.text(
         x_val + offset_x,
         y_val + offset_y,
@@ -204,7 +204,7 @@ for idx, row in top_projects.iterrows():
         va='bottom',  # Alinhamento na base do texto
         rotation=30,  # Rotação reduzida para ganhar espaço vertical
         bbox=dict(
-            facecolor='white', 
+            facecolor='white',
             alpha=0.95,
             edgecolor='silver',
             boxstyle='round,pad=0.15'
