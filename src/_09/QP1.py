@@ -76,7 +76,13 @@ for i in range(len(repositories)):
         large_files_major_language:int = large_files_df[major_language]
     else:
         large_files_major_language:int = 0
-    total_large_files:int = large_files_df.sum()
+    # total_large_files:int = large_files_df.sum()
+    if major_language in large_files_total_per_language['language'].values:
+        total_large_files = large_files_total_per_language.loc[
+            large_files_total_per_language['language'] == major_language, '0'
+        ].values[0]
+    else:
+        total_large_files = 0
     percentage:float = (large_files_major_language / total_large_files) * 100 if total_large_files > 0 else 0
 
     print(repo_path)
@@ -93,7 +99,7 @@ for i in range(len(repositories)):
     save_df.to_csv(f"{output_path}{language}/{repository.split('/')[-2]}~{repository.split('/')[-1]}.csv", sep=SEPARATOR, index=False)
 
     # Update language stats
-    if language not in language_stats or total_large_files > language_stats[language]['total_large_files']:
+    if language not in language_stats or large_files_major_language > language_stats[language]['large_files_major_language']:
         language_stats[language] = {
             'repository': repository.split('/')[-1],
             'major_language': major_language,
