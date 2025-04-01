@@ -76,15 +76,8 @@ for i in range(len(repositories)):
         large_files_major_language:int = large_files_df[major_language]
     else:
         large_files_major_language:int = 0
-
-    # total_large_files:int = large_files_df.sum()
-    language_row = large_files_total_per_language.loc[large_files_total_per_language['language'] == major_language]
-    if not language_row.empty:
-        total_large_files = pd.to_numeric(language_row.iloc[0, 1], errors='coerce')
-    else:
-        total_large_files = 0
-
-    percentage:float = (large_files_major_language / total_large_files) * 100 if total_large_files else 0
+    total_large_files:int = large_files_df.sum()
+    percentage:float = (large_files_major_language / total_large_files) * 100 if total_large_files > 0 else 0
 
     print(repo_path)
     #print(repository_files_df)
