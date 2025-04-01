@@ -49,12 +49,11 @@ def gavelino_truck_factor(base_path: str = "", git_repository_path: str = "", gi
     # print(f"java -jar {path.join(base_path, "gittruckfactor", "src", "aserg", "gtf", "gittruckfactor.jar")} {git_repository_path} {git_repository_fullname}")
     print(f"java -jar {"D:\\user\\Downloads\\Truck-Factor\\gittruckfactor\\src\\aserg\\gtf\\GitTruckFactor.java"} {git_repository_path} {git_repository_fullname}")
     
-    system(f"java -jar {"D:\\user\\Downloads\\Truck-Factor\\gittruckfactor\\src\\aserg\\gtf\\gittruckfactor.jar"} {git_repository_path} {git_repository_fullname}")
-    # system(f"java -jar GitTruckFactor.java {git_repository_path} {git_repository_fullname}")
-    # system(f"java -jar gittruckfactor.jar {git_repository_path} {git_repository_fullname}")
+    system(f"java -jar {"D:\\user\\Downloads\\Truck-Factor\\gittruckfactor\\src\\aserg\\gtf\\GitTruckfactor.java"} {git_repository_path} {git_repository_fullname}")
     # system(f"java -jar {path.join(base_path, "gittruckfactor", "src", "aserg", "gtf", "gittruckfactor.jar")} {git_repository_path} {git_repository_fullname}")
     # java -jar gittruckfactor.jar <git_repository_path> <git_repository_fullname>
 
+    
 def main():
     base_path = "D:\\user\\Downloads\\Truck-Factor"
     linguist = False
@@ -73,6 +72,7 @@ def main():
                             git_repository_fullname=git_repository_fullname,
                             linguist=linguist
                         )
+
                         input()
                         print("Truck Factor analysis completed successfully.")
                     except OSError as e:
