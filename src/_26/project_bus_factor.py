@@ -46,15 +46,13 @@ def gavelino_truck_factor(base_path: str = "", git_repository_path: str = "", gi
         system(f"{path.join(base_path, "gittruckfactor", "scripts", "linguist_script.sh")} {git_repository_path}")
         # optional -> ./linguist_script.sh <git_repository_path>
     
-    system(f"java -jar {path.join(base_path, "gittruckfactor", "target", "gittruckfactor-1.0.jar")} {git_repository_path} {git_repository_fullname}")
+    system(f"java  -Dlog4j.configuration=file:{path.join(base_path, 'gittruckfactor', 'src', 'main', 'resources', 'log4j.properties')} -jar {path.join(base_path, "gittruckfactor", "target", "gittruckfactor-1.0.jar")} {git_repository_path} {git_repository_fullname}")
     # java -jar gittruckfactor.jar <git_repository_path> <git_repository_fullname>
 
 def main():
     base_path = "/home/aluno/Truck-Factor"
     linguist = False
     
-    system(f"cd {base_path}")
-
     for language in listdir("./src/_00/output"):
         if (path.join("./src/_00/output", language) != path.join("./src/_00/output", "time~total.csv")):
             if listdir(path.join("./src/_00/output", language)):
@@ -70,6 +68,7 @@ def main():
                             git_repository_fullname=git_repository_fullname,
                             linguist=linguist
                         )
+                        input()
 
                         print("Truck Factor analysis completed successfully.")
                     except OSError as e:
