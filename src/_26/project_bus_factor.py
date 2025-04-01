@@ -45,18 +45,15 @@ def gavelino_truck_factor(base_path: str = "", git_repository_path: str = "", gi
     if(linguist):
         system(f"{path.join(base_path, "gittruckfactor", "scripts", "linguist_script.sh")} {git_repository_path}")
         # optional -> ./linguist_script.sh <git_repository_path>
-
-    # print(f"java -jar {path.join(base_path, "gittruckfactor", "src", "aserg", "gtf", "gittruckfactor.jar")} {git_repository_path} {git_repository_fullname}")
-    print(f"java -jar {"D:\\user\\Downloads\\Truck-Factor\\gittruckfactor\\src\\aserg\\gtf\\GitTruckFactor.java"} {git_repository_path} {git_repository_fullname}")
     
-    system(f"java -jar {"D:\\user\\Downloads\\Truck-Factor\\gittruckfactor\\src\\aserg\\gtf\\GitTruckfactor.java"} {git_repository_path} {git_repository_fullname}")
-    # system(f"java -jar {path.join(base_path, "gittruckfactor", "src", "aserg", "gtf", "gittruckfactor.jar")} {git_repository_path} {git_repository_fullname}")
+    system(f"java -jar {path.join(base_path, "gittruckfactor", "target", "gittruckfactor-1.0.jar")} {git_repository_path} {git_repository_fullname}")
     # java -jar gittruckfactor.jar <git_repository_path> <git_repository_fullname>
 
-    
 def main():
-    base_path = "D:\\user\\Downloads\\Truck-Factor"
+    base_path = "/home/aluno/Truck-Factor"
     linguist = False
+    
+    system(f"cd {base_path}")
 
     for language in listdir("./src/_00/output"):
         if (path.join("./src/_00/output", language) != path.join("./src/_00/output", "time~total.csv")):
@@ -65,7 +62,8 @@ def main():
                     try:
                         git_repository_path = path.join("./src/_00/output", language, folder)
                         git_repository_fullname = folder
-                        
+                        print(path.abspath(git_repository_path))
+
                         gavelino_truck_factor(
                             base_path=base_path,
                             git_repository_path=git_repository_path,
@@ -73,7 +71,6 @@ def main():
                             linguist=linguist
                         )
 
-                        input()
                         print("Truck Factor analysis completed successfully.")
                     except OSError as e:
                         print(f"An error occurred during the analysis: {e}")
