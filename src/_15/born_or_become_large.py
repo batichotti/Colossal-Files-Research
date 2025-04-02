@@ -34,7 +34,7 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
 
     # BORN ==================================================================================================
     born_large = repository_commits[repository_commits['Change Type'] == 'ADD'].copy()
-    babies_total: int = len(born_large.groupby('Local File PATH New'))
+    babies_total: int = len(born_large)
 
     # Remove linhas onde 'File Name' não é uma string ou não contém um ponto
     born_large = born_large[born_large['File Name'].apply(lambda x: isinstance(x, str) and '.' in x)]
