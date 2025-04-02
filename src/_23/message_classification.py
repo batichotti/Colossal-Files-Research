@@ -310,6 +310,7 @@ def anal_classification(repository_commits: pd.DataFrame, change_type: str = "la
             axis=1
         )]
 
+    changes_togheter = pd.DataFrame()
     changes_small = pd.DataFrame()
     if not changes_large.empty:
         large_paths = pd.concat([
