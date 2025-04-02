@@ -34,7 +34,7 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
 
     # BORN ==================================================================================================
     born_large = repository_commits[repository_commits['Change Type'] == 'ADD'].copy()
-    babies_total: int = len(born_large)
+    babies_total: int = len(born_large.groupby('Local File PATH New'))
 
     # Remove linhas onde 'File Name' não é uma string ou não contém um ponto
     born_large = born_large[born_large['File Name'].apply(lambda x: isinstance(x, str) and '.' in x)]
@@ -55,7 +55,7 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
         # Filtra as linhas onde a linguagem é igual e o número de linhas de código é menor que o percentil 99
         percentil_99 = percentil_df.set_index('language')['percentil 99']
         born_large = born_large[born_large.apply(
-            lambda x: x['Lines Of Code (nloc)'] >= percentil_99.get(x['Language'], 0), 
+            lambda x: x['Lines Of Code (nloc)'] >= percentil_99.get(x['Language'], 0),
             axis=1
         )]
 
@@ -93,7 +93,7 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
 
         # Filtra pelo percentil
         modified_large = modified_large[modified_large.apply(
-            lambda x: x['Lines Of Code (nloc)'] >= percentil_99.get(x['Language'], 0), 
+            lambda x: x['Lines Of Code (nloc)'] >= percentil_99.get(x['Language'], 0),
             axis=1
         )]
 
@@ -236,7 +236,7 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
 
             # Filtra pelo percentil
             become_large = become_large[become_large.apply(
-                lambda x: x['Lines Of Code (nloc)'] >= percentil_99.get(x['Language'], 0), 
+                lambda x: x['Lines Of Code (nloc)'] >= percentil_99.get(x['Language'], 0),
                 axis=1
             )]
 
@@ -259,7 +259,7 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
         concat_list.append(no_longer)
     if concat_list:
         combined_keys = pd.concat(concat_list)['Local File PATH New'].drop_duplicates()
-        
+
         if not modified_large.empty:
             # Usar merge para identificar registros que NÃO estão em combined_keys
             modified_large = modified_large.merge(
@@ -295,7 +295,7 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
         "Flex Large Files Percentage": [(flex_large_total/files_total)*100],
         "No Longer Large Files TOTAL": [len(remaining_no_longer)],
         "No Longer Large Files Percentage": [(len(remaining_no_longer)/files_total)*100]
-        
+
     }
     return pd.DataFrame(result)
 
@@ -307,7 +307,7 @@ def process_language(lang: str, large: pd.DataFrame, small: pd.DataFrame, output
         results.append(born_or_become(large, f"commits/per_language/{lang}", 'large'))
     if not small.empty:
         results.append(born_or_become(small, f"commits/per_language/{lang}", 'small'))
-    
+
     if results:
         pd.concat(results).to_csv(f"{output_path}/per_language/{lang}.csv", index=False)
 
@@ -330,15 +330,15 @@ for i, row in repositories.iterrows():
     makedirs(f"{output_path}/commits/per_project/{repo_path}/", exist_ok=True)
     makedirs(f"{output_path}/per_language/", exist_ok=True)
     makedirs(f"{output_path}/commits/per_language/{language}/", exist_ok=True)
-    
+
     # Atualiza acumuladores de linguagem quando muda
     if current_language and (language != current_language):
         process_language(current_language, current_large, current_small, output_path)
         current_large = pd.DataFrame()
         current_small = pd.DataFrame()
-    
+
     current_language = language
-    
+
     # Processa arquivos grandes
     large_df: pd.DataFrame = pd.DataFrame()
     large_path = f"{large_files_commits_path}{repo_path}.csv"
@@ -346,7 +346,7 @@ for i, row in repositories.iterrows():
         large_df: pd.DataFrame = pd.read_csv(large_path, sep=SEPARATOR)
         current_large = pd.concat([current_large, large_df])
         large_files_commits = pd.concat([large_files_commits, large_df])
-    
+
     # Processa arquivos pequenos
     small_path = f"{small_files_commits_path}{repo_path}.csv"
     small_df: pd.DataFrame = pd.DataFrame()
@@ -354,7 +354,7 @@ for i, row in repositories.iterrows():
         small_df: pd.DataFrame = pd.read_csv(small_path, sep=SEPARATOR)
         current_small = pd.concat([current_small, small_df])
         small_files_commits = pd.concat([small_files_commits, small_df])
-    
+
     project_results: list[pd.DataFrame] = []
     if not large_df.empty:
         project_results.append(born_or_become(large_df, f"commits/per_project/{repo_path}"))
