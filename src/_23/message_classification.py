@@ -128,7 +128,7 @@ def anal_classification(repository_commits: pd.DataFrame, change_type: str = "la
                 else x['Local File PATH Old'],
                 axis=1
             )
-            
+
             commits_by_hash = commits_df.groupby('Hash')
             # LOGIC
 
@@ -160,8 +160,8 @@ def anal_classification(repository_commits: pd.DataFrame, change_type: str = "la
                 for pattern, classification in bug_fix.items():
                     if re.search(pattern, message):
                         flag = True
-                        for pattern, classification in bug_deny.items():
-                            if re.search(pattern, message):
+                        for pattern2, classification2 in bug_deny.items():
+                            if re.search(pattern2, message):
                                 flag = False
                         if flag:
                             message_classification.append(classification)
@@ -185,7 +185,7 @@ def anal_classification(repository_commits: pd.DataFrame, change_type: str = "la
                                 if re.search(pattern, str(path).lower()):
                                     flag = False
                     if flag:
-                        message_classification.append(classification)
+                        message_classification.append('Resource')
                 # feature
                 for pattern, classification in feature.items():
                     if re.search(pattern, message):
@@ -203,11 +203,14 @@ def anal_classification(repository_commits: pd.DataFrame, change_type: str = "la
                     for pattern, classification in test.items():
                         for path in paths:
                             if not re.search(pattern, str(path).lower()):
-                                for pattern, classification in source_files.items():
-                                    if re.search(pattern, str(path).lower()):
+                                for pattern2, classification2 in source_files.items():
+                                    if re.search(pattern2, str(path).lower()):
                                         flag = False
+                                        break
+                            if not flag:
+                                break
                     if flag:
-                        message_classification.append(classification)
+                        message_classification.append('Test')
                 # refactor
                 for pattern, classification in refactor.items():
                     if re.search(pattern, message):
@@ -231,14 +234,16 @@ def anal_classification(repository_commits: pd.DataFrame, change_type: str = "la
                     for pattern, classification in feature_others.items():
                         if re.search(pattern, message):
                             message_classification.append(classification)
-                            break             
+                            break
 
                 # Classificar o commit ===================================================================================
                 commit_classification = ""
-                if committer_classification == "Auto":
+                if message_classification:
+                    commit_classification = message_classification[0]
+                elif committer_classification == "Auto":
                     commit_classification = "Auto"
                 else:
-                    commit_classification = message_classification[0] if message_classification else "Other"
+                    commit_classification = "Other"
 
                 # Junta o resultado no dicionário =======================================================================
                 commit_data = {
@@ -256,8 +261,8 @@ def anal_classification(repository_commits: pd.DataFrame, change_type: str = "la
 
         # Concatena tudo em um DataFrame =====================================================================================
         return pd.DataFrame(commits_classification)
-    
-    
+
+
     added_files: pd.DataFrame = repository_commits[repository_commits['Change Type'] == 'ADD'].copy()
     added_files_total: int = len(added_files)
 
@@ -285,7 +290,7 @@ def anal_classification(repository_commits: pd.DataFrame, change_type: str = "la
     # Atribui a linguagem baseada em ambos os caminhos
     changes['Language'] = changes.apply(
         lambda x: (
-            path_to_language.get(x['Local File PATH New']) or 
+            path_to_language.get(x['Local File PATH New']) or
             path_to_language.get(x['Local File PATH Old'])
         ),
         axis=1
@@ -301,7 +306,7 @@ def anal_classification(repository_commits: pd.DataFrame, change_type: str = "la
         # Filtra as linhas onde a linguagem é igual e o número de linhas de código é menor que o percentil 99
         percentil_99 = percentil_df.set_index('language')['percentil 99']
         changes_large = changes_large[changes_large.apply(
-            lambda x: x['Lines Of Code (nloc)'] >= percentil_99.get(x['Language'], 0), 
+            lambda x: x['Lines Of Code (nloc)'] >= percentil_99.get(x['Language'], 0),
             axis=1
         )]
 
