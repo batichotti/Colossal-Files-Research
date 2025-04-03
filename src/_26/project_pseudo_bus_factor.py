@@ -108,7 +108,7 @@ def pseudo_bus_factor(repository_commits: pd.DataFrame, change_type: str = "larg
         "Type": [change_type],
         "Commits Amount": [commits_df_filtered_total],
         
-        "70% Treshould": [num_top_authors],
+        "70% Threshould": [num_top_authors],
         "25% Union": [intersection_percentage]
     }
 
