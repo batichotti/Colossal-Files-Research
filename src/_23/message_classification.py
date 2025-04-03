@@ -297,6 +297,7 @@ def anal_classification(repository_commits: pd.DataFrame, change_type: str = "la
     )
     added_files_filtered_total:int = len(added_files)
 
+    small:pd.DataFrame = pd.DataFrame()
     changes_large: pd.DataFrame = changes.copy()
     if not changes_large.empty:
         # Converte NLOC para numérico e remove inválidos
@@ -305,6 +306,10 @@ def anal_classification(repository_commits: pd.DataFrame, change_type: str = "la
 
         # Filtra as linhas onde a linguagem é igual e o número de linhas de código é menor que o percentil 99
         percentil_99 = percentil_df.set_index('language')['percentil 99']
+        small = changes_large[changes_large.apply(
+            lambda x: x['Lines Of Code (nloc)'] < percentil_99.get(x['Language'], 0),
+            axis=1
+        )].copy()
         changes_large = changes_large[changes_large.apply(
             lambda x: x['Lines Of Code (nloc)'] >= percentil_99.get(x['Language'], 0),
             axis=1
@@ -313,30 +318,19 @@ def anal_classification(repository_commits: pd.DataFrame, change_type: str = "la
     changes_togheter = pd.DataFrame()
     changes_small = pd.DataFrame()
     if not changes_large.empty:
-        large_paths = pd.concat([
-            changes_large['Local File PATH New'],
-            changes_large['Local File PATH Old']
-        ])
         # Identifica os hashes de commits que possuem arquivos grandes
         large_hashes = set(changes_large['Hash'])
-
-        # Filtra changes_small para excluir arquivos e hashes de commits de large files
-        changes_small = changes[
-            ~changes['Local File PATH New'].isin(large_paths) &
-            ~changes['Local File PATH Old'].isin(large_paths) &
-            ~changes['Hash'].isin(large_hashes)
-        ].copy()
-
         # Filtra changes_large para incluir apenas arquivos grandes e excluir hashes com arquivos pequenos
-        small_hashes = set(changes_small['Hash'])
-        changes_large = changes[
-            (changes['Local File PATH New'].isin(large_paths) |
-            changes['Local File PATH Old'].isin(large_paths)) &
-            ~changes['Hash'].isin(small_hashes)
-        ].copy()
-
+        small_hashes = set(small['Hash'])
         # Cria a categoria "togheter" para casos com arquivos grandes e pequenos juntos
         togheter_hashes = large_hashes.intersection(small_hashes)
+        # Remove a interseção
+        large_hashes = large_hashes - togheter_hashes
+        small_hashes = small_hashes - togheter_hashes
+
+        # Filtra changes_small para excluir arquivos e hashes de commits de large files
+        changes_large = changes[changes['Hash'].isin(large_hashes)].copy()
+        changes_small = changes[changes['Hash'].isin(small_hashes)].copy()
         changes_togheter = changes[changes['Hash'].isin(togheter_hashes)].copy()
 
 
