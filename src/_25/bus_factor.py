@@ -1,186 +1,40 @@
 import pandas as pd
 from os import makedirs, path
 from sys import setrecursionlimit
-import numpy as np
-import datetime
-from math import log
+from datetime import timezone
+from dateutil import parser
 
 setrecursionlimit(2_000_000)
 
 SEPARATOR = '|'
 
 # Setup =======================================================================================================
-input_path: str = "./src/_25/input/"
-output_path: str = "./src/_25/output/"
+input_path: str = "./src/_26/input/"
+output_path: str = "./src/_26/output/"
 
+percentil_path: str = "./src/_02/output/percentis_by_language_filtered.csv"
 repositories_path: str = "./src/_00/input/450_Starred_Projects.csv"
 language_white_list_path: str = "./src/_12/input/white_list.csv"
-percentil_path: str = "./src/_02/output/percentis_by_language_filtered.csv"
 large_files_commits_path: str = "./src/_10/output/large_files/"
 small_files_commits_path: str = "./src/_10/output/small_files/"
 
 # Carrega e ordena repositórios por linguagem
 repositories: pd.DataFrame = pd.read_csv(repositories_path).sort_values(by='main language').reset_index(drop=True)
-percentil_df: pd.DataFrame = pd.read_csv(percentil_path)
-language_white_list_df: pd.DataFrame = pd.read_csv(language_white_list_path)
 
 # DataFrames globais
 large_files_commits: pd.DataFrame = pd.DataFrame()
 small_files_commits: pd.DataFrame = pd.DataFrame()
+percentil_df: pd.DataFrame = pd.read_csv(percentil_path)
+language_white_list_df: pd.DataFrame = pd.read_csv(language_white_list_path)
+
 
 # Funções auxiliares =========================================================================================
-
-### Função para o Método de Avelino et al. ###
-def calculate_bus_factor_avelino(changes: pd.DataFrame) -> int:
-    if changes.empty:
-        return 0
+def pseudo_bus_factor(repository_commits: pd.DataFrame, change_type: str = "large") -> pd.DataFrame:
+    """
+    Top autores que correspondem a 70% dos commits totais;
+    """
     
-    # Preprocessamento dos arquivos (como no seu código original)
-    changes['File Path'] = changes.apply(
-        lambda x: x['Local File PATH New'] if pd.notna(x['Local File PATH New']) 
-                else x['Local File PATH Old'], 
-        axis=1
-    )
-    changes_files_total = changes['File Path'].nunique()
-    
-    # Encontrar criadores de arquivos (FA = 1)
-    first_commit_per_file = changes.groupby('File Path')['Committer Commit Date'].idxmin()
-    file_creators = changes.loc[first_commit_per_file, ['File Path', 'Committer Email']]
-    file_creators_dict = file_creators.set_index('File Path')['Committer Email'].to_dict()
-    
-    # Calcular DOA para cada desenvolvedor e arquivo
-    doa_data = []
-    for file_path, file_group in changes.groupby('File Path'):
-        creator = file_creators_dict.get(file_path, None)
-        total_commits = len(file_group)
-        
-        for dev, dev_group in file_group.groupby('Committer Email'):
-            dl = len(dev_group)  # Commits do desenvolvedor
-            ac = total_commits - dl  # Commits de outros
-            fa = 1 if dev == creator else 0
-            
-            doa = 3.293 + 1.098 * fa + 0.164 * dl - 0.321 * log(1 + ac)
-            doa_data.append({
-                'File Path': file_path,
-                'Committer Email': dev,
-                'DOA': doa
-            })
-    
-    doa_df = pd.DataFrame(doa_data)
-    
-    # Identificar autores por arquivo (critério de Avelino)
-    authors = []
-    for file_path, file_group in doa_df.groupby('File Path'):
-        max_doa = file_group['DOA'].max()
-        threshold = max(3.293, 0.75 * max_doa)
-        file_authors = file_group[file_group['DOA'] > threshold]['Committer Email'].tolist()
-        authors.extend([(file_path, author) for author in file_authors])
-    
-    authors_df = pd.DataFrame(authors, columns=['File Path', 'Committer Email'])
-    
-    # Simular remoção iterativa de autores
-    developer_files = authors_df.groupby('Committer Email')['File Path'].nunique()
-    sorted_devs = developer_files.sort_values(ascending=False).index.tolist()
-    
-    abandoned_files = set()
-    bus_factor = 0
-    
-    for dev in sorted_devs:
-        bus_factor += 1
-        dev_files = authors_df[authors_df['Committer Email'] == dev]['File Path'].tolist()
-        abandoned_files.update(dev_files)
-        
-        if len(abandoned_files) / changes_files_total > 0.5:
-            return bus_factor
-    
-    return bus_factor
-
-### Função para o Método de Cosentino et al. (M2) ###
-def calculate_bus_factor_cosentino(changes: pd.DataFrame) -> int:
-    if changes.empty:
-        return 0
-    
-    # Preprocessamento (igual ao método Avelino)
-    changes['File Path'] = changes.apply(
-        lambda x: x['Local File PATH New'] if pd.notna(x['Local File PATH New']) 
-                else x['Local File PATH Old'], 
-        axis=1
-    )
-    changes_files_total = changes['File Path'].nunique()
-    
-    # Calcular contribuição proporcional (M2)
-    contribution_data = []
-    for file_path, file_group in changes.groupby('File Path'):
-        total_commits = len(file_group)
-        if total_commits == 0:
-            continue
-        
-        for dev, dev_group in file_group.groupby('Committer Email'):
-            share = (len(dev_group) / total_commits) * 100
-            contribution_data.append({
-                'File Path': file_path,
-                'Committer Email': dev,
-                'Share': share
-            })
-    
-    contribution_df = pd.DataFrame(contribution_data)
-    
-    # Identificar primários e secundários
-    file_contributors = contribution_df.groupby('File Path')['Committer Email'].nunique()
-    primary_secondary = []
-    
-    for file_path, file_group in contribution_df.groupby('File Path'):
-        n_contributors = file_contributors[file_path]
-        threshold_primary = 100 / n_contributors
-        threshold_secondary = 50 / n_contributors
-        
-        for _, row in file_group.iterrows():
-            if row['Share'] >= threshold_primary:
-                role = 'primary'
-            elif row['Share'] > threshold_secondary:
-                role = 'secondary'
-            else:
-                continue
-            
-            primary_secondary.append({
-                'File Path': file_path,
-                'Committer Email': row['Committer Email'],
-                'Role': role
-            })
-    
-    role_df = pd.DataFrame(primary_secondary)
-    
-    # Simular remoção iterativa
-    developer_impact = role_df.groupby('Committer Email')['File Path'].nunique()
-    sorted_devs = developer_impact.sort_values(ascending=False).index.tolist()
-    
-    abandoned_files = set()
-    bus_factor = 0
-    
-    for dev in sorted_devs:
-        bus_factor += 1
-        dev_files = role_df[
-            (role_df['Committer Email'] == dev) & 
-            (role_df['Role'].isin(['primary', 'secondary']))
-        ]['File Path'].tolist()
-        
-        # Verificar se os arquivos ficam abandonados
-        for file_path in dev_files:
-            remaining = role_df[
-                (role_df['File Path'] == file_path) & 
-                (role_df['Committer Email'] != dev)
-            ]
-            if remaining.empty:
-                abandoned_files.add(file_path)
-        
-        if len(abandoned_files) / changes_files_total > 0.5:
-            return bus_factor
-    
-    return bus_factor
-
-def calc_bus_factor(repository_commits: pd.DataFrame, change_type: str = "large") -> pd.DataFrame:
-    """Verifica como foi o crescimento e a diminuição dos arquivos"""
-
+    # SETUP ===============================================================================================================
     added_files: pd.DataFrame = repository_commits[repository_commits['Change Type'] == 'ADD'].copy()
     added_files_total: int = len(added_files)
 
@@ -200,7 +54,7 @@ def calc_bus_factor(repository_commits: pd.DataFrame, change_type: str = "large"
         repository_commits['Local File PATH New'].isin(added_files['Local File PATH Old'].values)
         ].copy()
 
-    # Cria um mapeamento completo de TODOS os caminhos (New e Old) para linguagem
+    # Cria um mapeamento completo de TODOS os caminhos (e Old) para linguagem
     path_to_language = pd.concat([
         added_files[['Local File PATH New', 'Language']].rename(columns={'Local File PATH New': 'Path'}),
         added_files[['Local File PATH Old', 'Language']].rename(columns={'Local File PATH Old': 'Path'})
@@ -208,13 +62,14 @@ def calc_bus_factor(repository_commits: pd.DataFrame, change_type: str = "large"
     # Atribui a linguagem baseada em ambos os caminhos
     changes['Language'] = changes.apply(
         lambda x: (
-            path_to_language.get(x['Local File PATH New']) or 
+            path_to_language.get(x['Local File PATH New']) or
             path_to_language.get(x['Local File PATH Old'])
         ),
         axis=1
     )
     added_files_filtered_total:int = len(added_files)
 
+    small:pd.DataFrame = pd.DataFrame()
     changes_large: pd.DataFrame = changes.copy()
     if not changes_large.empty:
         # Converte NLOC para numérico e remove inválidos
@@ -223,123 +78,92 @@ def calc_bus_factor(repository_commits: pd.DataFrame, change_type: str = "large"
 
         # Filtra as linhas onde a linguagem é igual e o número de linhas de código é menor que o percentil 99
         percentil_99 = percentil_df.set_index('language')['percentil 99']
+        small = changes_large[changes_large.apply(
+            lambda x: x['Lines Of Code (nloc)'] < percentil_99.get(x['Language'], 0),
+            axis=1
+        )].copy()
         changes_large = changes_large[changes_large.apply(
-            lambda x: x['Lines Of Code (nloc)'] >= percentil_99.get(x['Language'], 0), 
+            lambda x: x['Lines Of Code (nloc)'] >= percentil_99.get(x['Language'], 0),
             axis=1
         )]
 
+    changes_together = pd.DataFrame()
     changes_small = pd.DataFrame()
     if not changes_large.empty:
-        large_paths = pd.concat([
-            changes_large['Local File PATH New'],
-            changes_large['Local File PATH Old']
-        ])
-        changes_small = changes[~changes['Local File PATH New'].isin(large_paths) &
-                                ~changes['Local File PATH Old'].isin(large_paths)
-                                ].copy()
-        changes_large = changes[changes['Local File PATH New'].isin(large_paths) |
-                                changes['Local File PATH Old'].isin(large_paths)
-                                ].copy()
+        # Identifica os hashes de commits que possuem arquivos grandes
+        large_hashes = set(changes_large['Hash'])
+        # Filtra changes_large para incluir apenas arquivos grandes e excluir hashes com arquivos pequenos
+        small_hashes = set(small['Hash'])
+        # Cria a categoria "together" para casos com arquivos grandes e pequenos juntos
+        together_hashes = large_hashes.intersection(small_hashes)
+        # Remove a interseção
+        large_hashes = large_hashes - together_hashes
+        small_hashes = small_hashes - together_hashes
 
+        # Filtra changes_small para excluir arquivos e hashes de commits de large files
+        changes_large = changes[changes['Hash'].isin(large_hashes)].copy()
+        changes_small = changes[changes['Hash'].isin(small_hashes)].copy()
+        changes_together = changes[changes['Hash'].isin(together_hashes)].copy()
+    
+    # ANAL ================================================================================================================
+    def bus_factor(df: pd.DataFrame):
+        # Ordena os commits por data (do mais velho para o mais novo)
+        df['Committer Commit Date'] = df.apply(
+            lambda x: parser.parse(x['Committer Commit Date']).astimezone(timezone.utc),
+            axis=1
+        )
+        df = df.sort_values(by='Committer Commit Date')
 
-    # ANAL. ============================================================================================================
-    changes_files_total: int = 0
-    bus_factor_avelino: int = 0
-    bus_factor_cosentino: int = 0
+        # Quantos commits cada autor tem, guarde em um dicionário organizado do autor que mais tem commits para o que menos tem
+        author_commit_counts = df['Committer Email'].value_counts()
+
+        # Quantos commits equivalem a 70% de commits
+        total_commits: int = df['Hash'].nunique()
+        threshold_70: int = round(0.7 * total_commits)
+
+        # Menor número de autores que correspondem a 70% dos commits
+        cumulative_commits = author_commit_counts.cumsum()
+        top_authors = cumulative_commits[cumulative_commits <= threshold_70].index.tolist()
+        num_top_authors = len(top_authors)
+        
+        return num_top_authors
+
+    
+    commits_amount = 0
     if not changes.empty:
-        # Cria uma chave de agrupamento combinando New e Old paths
-        changes['File Path'] = changes.apply(
-            lambda x: x['Local File PATH New'] if pd.notna(x['Local File PATH New']) 
-                    else x['Local File PATH Old'], 
-            axis=1
-        )
-        changes_files_total = len(changes.groupby('File Path'))
-
-        changes['Committer Commit Date'] = changes['Committer Commit Date'].apply(
-            lambda x: x[:-3] + x[-2:]  # Remove o ':' do offset (+02:00 → +0200)
-        )
-        changes['Committer Commit Date'] = changes['Committer Commit Date'].apply(
-            lambda x: datetime.datetime.strptime(x, '%Y-%m-%d %H:%M:%S%z').astimezone(datetime.timezone.utc)
-        )
-        changes = changes.sort_values(by='Committer Commit Date')
+        commits_amount = changes['Hash'].nunique()
     
-        # Calcular Bus Factor
-        bus_factor_avelino = calculate_bus_factor_avelino(changes.copy())
-        bus_factor_cosentino = calculate_bus_factor_cosentino(changes.copy())
-
-    changes_large_files_total: int = 0
-    bus_factor_avelino_large: int = 0
-    bus_factor_cosentino_large: int = 0
+    num_top_authors_large = 0
     if not changes_large.empty:
-        changes_large['File Path'] = changes_large.apply(
-            lambda x: x['Local File PATH New'] if pd.notna(x['Local File PATH New']) 
-                    else x['Local File PATH Old'], 
-            axis=1
-        )
-        changes_large_files_total = len(changes_large.groupby('File Path'))
-
-        changes_large['Committer Commit Date'] = changes_large['Committer Commit Date'].apply(
-            lambda x: x[:-3] + x[-2:]
-        )
-        changes_large['Committer Commit Date'] = changes_large['Committer Commit Date'].apply(
-            lambda x: datetime.datetime.strptime(x, '%Y-%m-%d %H:%M:%S%z').astimezone(datetime.timezone.utc)
-        )
-        changes_large = changes_large.sort_values(by='Committer Commit Date')
+        num_top_authors_large = bus_factor(changes_large)
     
-        # Calcular Bus Factor
-        bus_factor_avelino_large = calculate_bus_factor_avelino(changes_large.copy())
-        bus_factor_cosentino_large = calculate_bus_factor_cosentino(changes_large.copy())
-
-    changes_small_files_total: int = 0
-    bus_factor_avelino_small: int = 0
-    bus_factor_cosentino_small: int = 0
+    num_top_authors_small = 0
     if not changes_small.empty:
-        changes_small['File Path'] = changes_small.apply(
-            lambda x: x['Local File PATH New'] if pd.notna(x['Local File PATH New']) 
-                    else x['Local File PATH Old'], 
-            axis=1
-        )
-        changes_small_files_total = len(changes_small.groupby('File Path'))
+        num_top_authors_small = bus_factor(changes_small)
+    
+    num_top_authors_together = 0
+    if not changes_together.empty:
+        num_top_authors_together = bus_factor(changes_together)
 
-        changes_small['Committer Commit Date'] = changes_small['Committer Commit Date'].apply(
-            lambda x: x[:-3] + x[-2:]  # Aplicar o mesmo ajuste
-        )
-        changes_small['Committer Commit Date'] = changes_small['Committer Commit Date'].apply(
-            lambda x: datetime.datetime.strptime(x, '%Y-%m-%d %H:%M:%S%z').astimezone(datetime.timezone.utc)
-        )
-        changes_small = changes_small.sort_values(by='Committer Commit Date')
-    
-        # Calcular Bus Factor
-        bus_factor_avelino_small = calculate_bus_factor_avelino(changes_small.copy())
-        bus_factor_cosentino_small = calculate_bus_factor_cosentino(changes_small.copy())
-    
-    # Result ===========================================================================================================
+    # Adicione os resultados à variável result
     result: dict = {
         "Type": [change_type],
-        "#Files": [added_files_total],
-        "Filtered Files Total": [added_files_filtered_total],
+        "Commits Amount": [commits_amount],
         
-        "Total Changes Files": [changes_files_total],
-        "Bus Factor (Avelino)": [bus_factor_avelino],
-        "Bus Factor (Cosentino)": [bus_factor_cosentino],
-        
-        "Large Files Total": [changes_large_files_total],
-        "Bus Factor Large (Avelino)": [bus_factor_avelino_large],
-        "Bus Factor Large (Cosentino)": [bus_factor_cosentino_large],
-        
-        "Small Files Total": [changes_small_files_total],
-        "Bus Factor Small (Avelino)": [bus_factor_avelino_small],
-        "Bus Factor Small (Cosentino)": [bus_factor_cosentino_small],
+        "70% Threshould Large": [num_top_authors_large],
+        "70% Threshould Small": [num_top_authors_small],
+        "70% Threshould Flex": [num_top_authors_together]
     }
+
     return pd.DataFrame(result)
 
 def process_language(lang: str, large: pd.DataFrame, small: pd.DataFrame, output_path: str):
     """Processa e salva resultados por linguagem"""
     results:list[pd.DataFrame] = []
     if not large.empty:
-        results.append(calc_bus_factor(large, 'large'))
+        results.append(pseudo_bus_factor(large, 'large'))
     if not small.empty:
-        results.append(calc_bus_factor(small, 'small'))
+        results.append(pseudo_bus_factor(small, 'small'))
     
     if results:
         pd.concat(results).to_csv(f"{output_path}/per_languages/{lang}.csv", index=False)
@@ -388,9 +212,9 @@ for i, row in repositories.iterrows():
     
     project_results: list[pd.DataFrame] = []
     if not large_df.empty:
-        project_results.append(calc_bus_factor(large_df))
+        project_results.append(pseudo_bus_factor(large_df))
     if not small_df.empty:
-        project_results.append(calc_bus_factor(small_df, 'small'))
+        project_results.append(pseudo_bus_factor(small_df, 'small'))
 
     if project_results:
         pd.concat(project_results).to_csv(f"{output_path}/per_project/{repo_path}.csv", index=False)
@@ -402,9 +226,9 @@ if not current_large.empty or not current_small.empty:
 # Resultado global ============================================================================================
 final_results: list[pd.DataFrame] = []
 if not large_files_commits.empty:
-    final_results.append(calc_bus_factor(large_files_commits))
+    final_results.append(pseudo_bus_factor(large_files_commits))
 if not small_files_commits.empty:
-    final_results.append(calc_bus_factor(small_files_commits, 'small'))
+    final_results.append(pseudo_bus_factor(small_files_commits, 'small'))
 
 if final_results:
     pd.concat(final_results).to_csv(f"{output_path}/global_results.csv", index=False)

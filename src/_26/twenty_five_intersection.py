@@ -29,10 +29,9 @@ language_white_list_df: pd.DataFrame = pd.read_csv(language_white_list_path)
 
 
 # Funções auxiliares =========================================================================================
-def pseudo_bus_factor(repository_commits: pd.DataFrame, change_type: str = "large") -> pd.DataFrame:
+def twenty_five_intersection(repository_commits: pd.DataFrame, change_type: str = "large") -> pd.DataFrame:
     """
-    Top autores que correspondem a 70% dos commits totais;
-    % da intersecção entre o quartil 25% mais novo e mais antigo
+    % da intersecção entre o quartil 25% mais novo e mais antigo;
     """
     
     # SETUP ===============================================================================================================
@@ -68,6 +67,7 @@ def pseudo_bus_factor(repository_commits: pd.DataFrame, change_type: str = "larg
         ),
         axis=1
     )
+    
     commits_df_filtered_total:int = commits_df['Hash'].nunique()
     
     # ANAL ================================================================================================================
@@ -80,14 +80,6 @@ def pseudo_bus_factor(repository_commits: pd.DataFrame, change_type: str = "larg
 
     # Quantos commits cada autor tem, guarde em um dicionário organizado do autor que mais tem commits para o que menos tem
     author_commit_counts = commits_df['Committer Email'].value_counts()
-
-    # Quantos commits equivalem a 70% de commits
-    threshold_70 = 0.7 * commits_df_total
-
-    # Menor número de autores que correspondem a 70% dos commits
-    cumulative_commits = author_commit_counts.cumsum()
-    top_authors = cumulative_commits[cumulative_commits <= threshold_70].index.tolist()
-    num_top_authors = len(top_authors)
 
     # Autores responsáveis pelos 25% primeiros commits
     first_25_percent = commits_df.iloc[:int(0.25 * len(commits_df))]
@@ -107,8 +99,8 @@ def pseudo_bus_factor(repository_commits: pd.DataFrame, change_type: str = "larg
         "Type": [change_type],
         "Commits Amount": [commits_df_filtered_total],
         
-        "70% Threshould": [num_top_authors],
-        "25% Union": [intersection_percentage]
+        "25% Intersection Abs": [intersection_count],
+        "25% Intersection": [intersection_percentage]
     }
 
     return pd.DataFrame(result)
@@ -117,9 +109,9 @@ def process_language(lang: str, large: pd.DataFrame, small: pd.DataFrame, output
     """Processa e salva resultados por linguagem"""
     results:list[pd.DataFrame] = []
     if not large.empty:
-        results.append(pseudo_bus_factor(large, 'large'))
+        results.append(twenty_five_intersection(large, 'large'))
     if not small.empty:
-        results.append(pseudo_bus_factor(small, 'small'))
+        results.append(twenty_five_intersection(small, 'small'))
     
     if results:
         pd.concat(results).to_csv(f"{output_path}/per_languages/{lang}.csv", index=False)
@@ -168,9 +160,9 @@ for i, row in repositories.iterrows():
     
     project_results: list[pd.DataFrame] = []
     if not large_df.empty:
-        project_results.append(pseudo_bus_factor(large_df))
+        project_results.append(twenty_five_intersection(large_df))
     if not small_df.empty:
-        project_results.append(pseudo_bus_factor(small_df, 'small'))
+        project_results.append(twenty_five_intersection(small_df, 'small'))
 
     if project_results:
         pd.concat(project_results).to_csv(f"{output_path}/per_project/{repo_path}.csv", index=False)
@@ -182,9 +174,9 @@ if not current_large.empty or not current_small.empty:
 # Resultado global ============================================================================================
 final_results: list[pd.DataFrame] = []
 if not large_files_commits.empty:
-    final_results.append(pseudo_bus_factor(large_files_commits))
+    final_results.append(twenty_five_intersection(large_files_commits))
 if not small_files_commits.empty:
-    final_results.append(pseudo_bus_factor(small_files_commits, 'small'))
+    final_results.append(twenty_five_intersection(small_files_commits, 'small'))
 
 if final_results:
     pd.concat(final_results).to_csv(f"{output_path}/global_results.csv", index=False)

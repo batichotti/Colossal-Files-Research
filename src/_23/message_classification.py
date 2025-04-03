@@ -315,23 +315,23 @@ def anal_classification(repository_commits: pd.DataFrame, change_type: str = "la
             axis=1
         )]
 
-    changes_togheter = pd.DataFrame()
+    changes_together = pd.DataFrame()
     changes_small = pd.DataFrame()
     if not changes_large.empty:
         # Identifica os hashes de commits que possuem arquivos grandes
         large_hashes = set(changes_large['Hash'])
         # Filtra changes_large para incluir apenas arquivos grandes e excluir hashes com arquivos pequenos
         small_hashes = set(small['Hash'])
-        # Cria a categoria "togheter" para casos com arquivos grandes e pequenos juntos
-        togheter_hashes = large_hashes.intersection(small_hashes)
+        # Cria a categoria "together" para casos com arquivos grandes e pequenos juntos
+        together_hashes = large_hashes.intersection(small_hashes)
         # Remove a interseção
-        large_hashes = large_hashes - togheter_hashes
-        small_hashes = small_hashes - togheter_hashes
+        large_hashes = large_hashes - together_hashes
+        small_hashes = small_hashes - together_hashes
 
         # Filtra changes_small para excluir arquivos e hashes de commits de large files
         changes_large = changes[changes['Hash'].isin(large_hashes)].copy()
         changes_small = changes[changes['Hash'].isin(small_hashes)].copy()
-        changes_togheter = changes[changes['Hash'].isin(togheter_hashes)].copy()
+        changes_together = changes[changes['Hash'].isin(together_hashes)].copy()
 
 
     # ANAL. ============================================================================================================
@@ -347,9 +347,9 @@ def anal_classification(repository_commits: pd.DataFrame, change_type: str = "la
     if not changes_small.empty:
         changes_small_classified = classify_commits(changes_small)
 
-    changes_togheter_classified: pd.DataFrame = pd.DataFrame()
-    if not changes_togheter.empty:
-        changes_togheter_classified = classify_commits(changes_togheter)
+    changes_together_classified: pd.DataFrame = pd.DataFrame()
+    if not changes_together.empty:
+        changes_together_classified = classify_commits(changes_together)
 
     # ANAL ====================================================================================================================
     bug_fix_percentage = 0
@@ -496,53 +496,53 @@ def anal_classification(repository_commits: pd.DataFrame, change_type: str = "la
         build_configuration_count_small = classification_totals_small.get('Build Configuration', 0)
         other_count_small = classification_totals_small.get('Other', 0)
 
-    bug_fix_percentage_togheter = 0
-    resource_percentage_togheter = 0
-    new_feature_percentage_togheter = 0
-    test_percentage_togheter = 0
-    refactor_percentage_togheter = 0
-    deprecate_percentage_togheter = 0
-    auto_percentage_togheter = 0
-    commit_operation_percentage_togheter = 0
-    build_configuration_percentage_togheter = 0
-    other_percentage_togheter = 0
+    bug_fix_percentage_together = 0
+    resource_percentage_together = 0
+    new_feature_percentage_together = 0
+    test_percentage_together = 0
+    refactor_percentage_together = 0
+    deprecate_percentage_together = 0
+    auto_percentage_together = 0
+    commit_operation_percentage_together = 0
+    build_configuration_percentage_together = 0
+    other_percentage_together = 0
 
-    bug_fix_count_togheter = 0
-    resource_count_togheter = 0
-    new_feature_count_togheter = 0
-    test_count_togheter = 0
-    refactor_count_togheter = 0
-    deprecate_count_togheter = 0
-    auto_count_togheter = 0
-    commit_operation_count_togheter = 0
-    build_configuration_count_togheter = 0
-    other_count_togheter = 0
+    bug_fix_count_together = 0
+    resource_count_together = 0
+    new_feature_count_together = 0
+    test_count_together = 0
+    refactor_count_together = 0
+    deprecate_count_together = 0
+    auto_count_together = 0
+    commit_operation_count_together = 0
+    build_configuration_count_together = 0
+    other_count_together = 0
 
-    # Calcula a porcentagem e quantidade de cada classificação para changes_togheter_classified
-    if not changes_togheter_classified.empty:
-        classification_counts_togheter = changes_togheter_classified['Classification'].value_counts(normalize=True) * 100
-        classification_totals_togheter = changes_togheter_classified['Classification'].value_counts()
-        bug_fix_percentage_togheter = classification_counts_togheter.get('Bug-Fix', 0)
-        resource_percentage_togheter = classification_counts_togheter.get('Resource', 0)
-        new_feature_percentage_togheter = classification_counts_togheter.get('Feature', 0)
-        test_percentage_togheter = classification_counts_togheter.get('Test', 0)
-        refactor_percentage_togheter = classification_counts_togheter.get('Refactor', 0)
-        deprecate_percentage_togheter = classification_counts_togheter.get('Deprecate', 0)
-        auto_percentage_togheter = classification_counts_togheter.get('Auto', 0)
-        commit_operation_percentage_togheter = classification_counts_togheter.get('Commit Operation', 0)
-        build_configuration_percentage_togheter = classification_counts_togheter.get('Build Configuration', 0)
-        other_percentage_togheter = classification_counts_togheter.get('Other', 0)
+    # Calcula a porcentagem e quantidade de cada classificação para changes_together_classified
+    if not changes_together_classified.empty:
+        classification_counts_together = changes_together_classified['Classification'].value_counts(normalize=True) * 100
+        classification_totals_together = changes_together_classified['Classification'].value_counts()
+        bug_fix_percentage_together = classification_counts_together.get('Bug-Fix', 0)
+        resource_percentage_together = classification_counts_together.get('Resource', 0)
+        new_feature_percentage_together = classification_counts_together.get('Feature', 0)
+        test_percentage_together = classification_counts_together.get('Test', 0)
+        refactor_percentage_together = classification_counts_together.get('Refactor', 0)
+        deprecate_percentage_together = classification_counts_together.get('Deprecate', 0)
+        auto_percentage_together = classification_counts_together.get('Auto', 0)
+        commit_operation_percentage_together = classification_counts_together.get('Commit Operation', 0)
+        build_configuration_percentage_together = classification_counts_together.get('Build Configuration', 0)
+        other_percentage_together = classification_counts_together.get('Other', 0)
 
-        bug_fix_count_togheter = classification_totals_togheter.get('Bug-Fix', 0)
-        resource_count_togheter = classification_totals_togheter.get('Resource', 0)
-        new_feature_count_togheter = classification_totals_togheter.get('Feature', 0)
-        test_count_togheter = classification_totals_togheter.get('Test', 0)
-        refactor_count_togheter = classification_totals_togheter.get('Refactor', 0)
-        deprecate_count_togheter = classification_totals_togheter.get('Deprecate', 0)
-        auto_count_togheter = classification_totals_togheter.get('Auto', 0)
-        commit_operation_count_togheter = classification_totals_togheter.get('Commit Operation', 0)
-        build_configuration_count_togheter = classification_totals_togheter.get('Build Configuration', 0)
-        other_count_togheter = classification_totals_togheter.get('Other', 0)
+        bug_fix_count_together = classification_totals_together.get('Bug-Fix', 0)
+        resource_count_together = classification_totals_together.get('Resource', 0)
+        new_feature_count_together = classification_totals_together.get('Feature', 0)
+        test_count_together = classification_totals_together.get('Test', 0)
+        refactor_count_together = classification_totals_together.get('Refactor', 0)
+        deprecate_count_together = classification_totals_together.get('Deprecate', 0)
+        auto_count_together = classification_totals_together.get('Auto', 0)
+        commit_operation_count_together = classification_totals_together.get('Commit Operation', 0)
+        build_configuration_count_together = classification_totals_together.get('Build Configuration', 0)
+        other_count_together = classification_totals_together.get('Other', 0)
 
     # Calcula o resíduo de Pearson qui-quadrado entre a quantidade de cada classificação entre large e small
 
@@ -629,28 +629,28 @@ def anal_classification(repository_commits: pd.DataFrame, change_type: str = "la
         "Build Configuration Small Count": [build_configuration_count_small],
         "Other Small Count": [other_count_small],
 
-        #togheter
-        "Bug-Fix Togheter": [bug_fix_percentage_togheter],
-        "Resource Togheter": [resource_percentage_togheter],
-        "Feature Togheter": [new_feature_percentage_togheter],
-        "Test Togheter": [test_percentage_togheter],
-        "Refactor Togheter": [refactor_percentage_togheter],
-        "Deprecate Togheter": [deprecate_percentage_togheter],
-        "Auto Togheter": [auto_percentage_togheter],
-        "Commit Operation Togheter": [commit_operation_percentage_togheter],
-        "Build Configuration Togheter": [build_configuration_percentage_togheter],
-        "Other Togheter": [other_percentage_togheter],
+        #together
+        "Bug-Fix together": [bug_fix_percentage_together],
+        "Resource together": [resource_percentage_together],
+        "Feature together": [new_feature_percentage_together],
+        "Test together": [test_percentage_together],
+        "Refactor together": [refactor_percentage_together],
+        "Deprecate together": [deprecate_percentage_together],
+        "Auto together": [auto_percentage_together],
+        "Commit Operation together": [commit_operation_percentage_together],
+        "Build Configuration together": [build_configuration_percentage_together],
+        "Other together": [other_percentage_together],
 
-        "Bug-Fix Togheter Count": [bug_fix_count_togheter],
-        "Resource Togheter Count": [resource_count_togheter],
-        "Feature Togheter Count": [new_feature_count_togheter],
-        "Test Togheter Count": [test_count_togheter],
-        "Refactor Togheter Count": [refactor_count_togheter],
-        "Deprecate Togheter Count": [deprecate_count_togheter],
-        "Auto Togheter Count": [auto_count_togheter],
-        "Commit Operation Togheter Count": [commit_operation_count_togheter],
-        "Build Configuration Togheter Count": [build_configuration_count_togheter],
-        "Other Togheter Count": [other_count_togheter],
+        "Bug-Fix together Count": [bug_fix_count_together],
+        "Resource together Count": [resource_count_together],
+        "Feature together Count": [new_feature_count_together],
+        "Test together Count": [test_count_together],
+        "Refactor together Count": [refactor_count_together],
+        "Deprecate together Count": [deprecate_count_together],
+        "Auto together Count": [auto_count_together],
+        "Commit Operation together Count": [commit_operation_count_together],
+        "Build Configuration together Count": [build_configuration_count_together],
+        "Other together Count": [other_count_together],
 
         # Pearson Resids
         "Pearson Resid - Bug-Fix": resid_pearson[0, 0],
