@@ -73,7 +73,7 @@ def pseudo_bus_factor(repository_commits: pd.DataFrame, change_type: str = "larg
     # Ordena os commits por data (do mais velho para o mais novo)
     commits_df['Committer Commit Date'] = commits_df.apply(
         lambda x: datetime.datetime.strptime(
-            x['Committer Commit Date'] + x['Committer Timezone'], '%Y-%m-%d %H:%M:%S%z'
+            str(x['Committer Commit Date']) + str(x['Committer Timezone']), '%Y-%m-%d %H:%M:%S%z'
         ).astimezone(datetime.timezone.utc),
         axis=1
     )
