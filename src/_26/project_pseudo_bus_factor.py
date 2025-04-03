@@ -1,78 +1,109 @@
-from os import system, path, listdir
+import pandas as pd
+from os import makedirs, path
+from sys import setrecursionlimit
 
-def gavelino_truck_factor(base_path: str = "", git_repository_path: str = "", git_repository_fullname: str = "", linguist: bool = False):
-    """
-    Executes the Gavelino Truck Factor analysis on a specified Git repository.
+setrecursionlimit(2_000_000)
 
-    This function automates the process of calculating the Truck Factor, which 
-    measures the number of key contributors that can leave a project before it 
-    becomes unsustainable. It achieves this by running a series of scripts and 
-    a Java program provided by the Gavelino Truck Factor tool.
+SEPARATOR = '|'
 
-    Args:
-        base_path (str, optional): The base directory containing the `gittruckfactor` 
-            folder with the required scripts and Java program. Defaults to an empty string.
-        git_repository_path (str, optional): The file path to the Git repository 
-            to be analyzed. Defaults to an empty string.
-        git_repository_fullname (str, optional): The full name of the Git repository 
-            (e.g., "username/repository"). Defaults to an empty string.
-        linguist (bool, optional): If True, applies a linguistic filter using the 
-            `linguist_script.sh` script before running the analysis. Defaults to False.
+# Setup =======================================================================================================
+input_path: str = "./src/_XX/input/"
+output_path: str = "./src/_XX/output/"
 
-    Raises:
-        OSError: If any of the system commands fail to execute properly.
+repositories_path: str = "./src/_00/input/450_Starred_Projects.csv"
+large_files_commits_path: str = "./src/_10/output/large_files/"
+small_files_commits_path: str = "./src/_10/output/small_files/"
 
-    Notes:
-        - The `commit_log_script.sh` script is always executed to process the commit history.
-        - The `linguist_script.sh` script is executed only if the `linguist` parameter is True.
-        - The Java program `GitTruckFactor.java` performs the final Truck Factor analysis.
+# Carrega e ordena repositórios por linguagem
+repositories: pd.DataFrame = pd.read_csv(repositories_path).sort_values(by='main language').reset_index(drop=True)
 
-    Example:
-        gavelino_truck_factor(
-            base_path="/path/to/gavelino",
-            git_repository_path="/path/to/repository",
-            git_repository_fullname="username/repository",
-            linguist=True
-        )
-    """
+# DataFrames globais
+large_files_commits: pd.DataFrame = pd.DataFrame()
+small_files_commits: pd.DataFrame = pd.DataFrame()
 
-    #base_path -> git clone of gavelino's Truck-Factor
-    #git_repository_path -> git clone target
-    #linguist: bool -> Liguistic's filter
-    system(f"{path.join(base_path, "gittruckfactor", "scripts", "commit_log_script.sh")} {git_repository_path}")
-    # scripts -> ./commit_log_script.sh <git_repository_path>
-
-    if(linguist):
-        system(f"{path.join(base_path, "gittruckfactor", "scripts", "linguist_script.sh")} {git_repository_path}")
-        # optional -> ./linguist_script.sh <git_repository_path>
+# Funções auxiliares =========================================================================================
+def pseudo_bus_factor(repository_commits: pd.DataFrame, change_type: str = "large") -> pd.DataFrame:
+    """Função Base para o processamento de dados"""
     
-    system(f"java  -Dlog4j.configuration=file:{path.join(base_path, 'gittruckfactor', 'src', 'main', 'resources', 'log4j.properties')} -jar {path.join(base_path, "gittruckfactor", "target", "gittruckfactor-1.0.jar")} {git_repository_path} {git_repository_fullname}")
-    # java -jar gittruckfactor.jar <git_repository_path> <git_repository_fullname>
+    result: dict = {
+        "Type": [change_type],
+        "Result 1": ["Result 1"],
+        "Result 2": ["Result 2"]
+    }
+    return pd.DataFrame(result)
 
-def main():
-    base_path = "/home/aluno/Truck-Factor"
-    linguist = False
+def process_language(lang: str, large: pd.DataFrame, small: pd.DataFrame, output_path: str):
+    """Processa e salva resultados por linguagem"""
+    results:list[pd.DataFrame] = []
+    if not large.empty:
+        results.append(pseudo_bus_factor(large, 'large'))
+    if not small.empty:
+        results.append(pseudo_bus_factor(small, 'small'))
     
-    for language in listdir("./src/_00/output"):
-        if (path.join("./src/_00/output", language) != path.join("./src/_00/output", "time~total.csv")):
-            if listdir(path.join("./src/_00/output", language)):
-                for folder in listdir(path.join("./src/_00/output", language)):
-                    try:
-                        git_repository_path = path.join("./src/_00/output", language, folder)
-                        git_repository_fullname = folder
-                        print(path.abspath(git_repository_path))
+    if results:
+        pd.concat(results).to_csv(f"{output_path}/per_languages/{lang}.csv", index=False)
 
-                        gavelino_truck_factor(
-                            base_path=base_path,
-                            git_repository_path=git_repository_path,
-                            git_repository_fullname=git_repository_fullname,
-                            linguist=linguist
-                        )
-                        input()
+# Processamento principal =====================================================================================
+current_language: str = None
+current_large: pd.DataFrame = pd.DataFrame()
+current_small: pd.DataFrame = pd.DataFrame()
 
-                        print("Truck Factor analysis completed successfully.")
-                    except OSError as e:
-                        print(f"An error occurred during the analysis: {e}")
+for i, row in repositories.iterrows():
+    repo_url: str = row['url']
+    language: str = row['main language']
+    repo_name: str = repo_url.split('/')[-1]
+    repo_owner: str = repo_url.split('/')[-2]
+    repo_path: str = f"{language}/{repo_owner}~{repo_name}"
 
-if __name__ == "__main__":
-    main()
+    print(repo_path)
+
+    # Cria diretórios necessários
+    makedirs(f"{output_path}/per_project/{language}", exist_ok=True)
+    makedirs(f"{output_path}/per_languages", exist_ok=True)
+    
+    # Atualiza acumuladores de linguagem quando muda
+    if current_language and (language != current_language):
+        process_language(current_language, current_large, current_small, output_path)
+        current_large = pd.DataFrame()
+        current_small = pd.DataFrame()
+    
+    current_language = language
+    
+    # Processa arquivos grandes
+    large_df: pd.DataFrame = pd.DataFrame()
+    large_path = f"{large_files_commits_path}{repo_path}.csv"
+    if path.exists(large_path):
+        large_df: pd.DataFrame = pd.read_csv(large_path, sep=SEPARATOR)
+        current_large = pd.concat([current_large, large_df])
+        large_files_commits = pd.concat([large_files_commits, large_df])
+    
+    # Processa arquivos pequenos
+    small_path = f"{small_files_commits_path}{repo_path}.csv"
+    small_df: pd.DataFrame = pd.DataFrame()
+    if path.exists(small_path):
+        small_df: pd.DataFrame = pd.read_csv(small_path, sep=SEPARATOR)
+        current_small = pd.concat([current_small, small_df])
+        small_files_commits = pd.concat([small_files_commits, small_df])
+    
+    project_results: list[pd.DataFrame] = []
+    if not large_df.empty:
+        project_results.append(pseudo_bus_factor(large_df))
+    if not small_df.empty:
+        project_results.append(pseudo_bus_factor(small_df, 'small'))
+
+    if project_results:
+        pd.concat(project_results).to_csv(f"{output_path}/per_project/{repo_path}.csv", index=False)
+
+# Processa última linguagem
+if not current_large.empty or not current_small.empty:
+    process_language(current_language, current_large, current_small, output_path)
+
+# Resultado global ============================================================================================
+final_results: list[pd.DataFrame] = []
+if not large_files_commits.empty:
+    final_results.append(pseudo_bus_factor(large_files_commits))
+if not small_files_commits.empty:
+    final_results.append(pseudo_bus_factor(small_files_commits, 'small'))
+
+if final_results:
+    pd.concat(final_results).to_csv(f"{output_path}/global_results.csv", index=False)
