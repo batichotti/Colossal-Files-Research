@@ -73,13 +73,13 @@ def pseudo_bus_factor(repository_commits: pd.DataFrame, change_type: str = "larg
     # ANAL ================================================================================================================
     # Ordena os commits por data (do mais velho para o mais novo)
     commits_df['Committer Commit Date'] = commits_df.apply(
-        lambda x: parser.parse(f"{x['Committer Commit Date']} {x['Committer Timezone']}").astimezone(datetime.timezone.utc),
+        lambda x: parser.parse(x['Committer Commit Date']).astimezone(datetime.timezone.utc),
         axis=1
     )
     commits_df = commits_df.sort_values(by='Committer Commit Date')
 
     # Quantos commits cada autor tem, guarde em um dicionário organizado do autor que mais tem commits para o que menos tem
-    author_commit_counts = commits_df['Author'].value_counts()
+    author_commit_counts = commits_df['Committer Email'].value_counts()
 
     # Quantos commits equivalem a 70% de commits
     threshold_70 = 0.7 * commits_df_total
@@ -91,11 +91,11 @@ def pseudo_bus_factor(repository_commits: pd.DataFrame, change_type: str = "larg
 
     # Autores responsáveis pelos 25% primeiros commits
     first_25_percent = commits_df.iloc[:int(0.25 * len(commits_df))]
-    first_25_authors = set(first_25_percent['Author'])
+    first_25_authors = set(first_25_percent['Committer Email'])
 
     # Autores responsáveis pelos 25% últimos commits
     last_25_percent = commits_df.iloc[-int(0.25 * len(commits_df)):]
-    last_25_authors = set(last_25_percent['Author'])
+    last_25_authors = set(last_25_percent['Committer Email'])
 
     # Intersecção os números absolutos e percentuais da intersecção de autores entre os primeiros e os últimos 25%
     intersection_authors = first_25_authors.intersection(last_25_authors)
