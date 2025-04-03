@@ -116,7 +116,7 @@ def pseudo_bus_factor(repository_commits: pd.DataFrame, change_type: str = "larg
 
         # Quantos commits cada autor tem, guarde em um dicionário organizado do autor que mais tem commits para o que menos tem
         author_commit_counts = df['Author Email'].value_counts()
-        author_commit_counts = author_commit_counts.sort_values(by=1)
+        author_commit_counts = author_commit_counts.sort_values(ascending=False)
 
         # Quantos commits equivalem a 70% de commits
         total_commits: int = df['Hash'].nunique()
