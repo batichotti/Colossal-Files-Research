@@ -9,8 +9,8 @@ setrecursionlimit(2_000_000)
 SEPARATOR = '|'
 
 # Setup =======================================================================================================
-input_path: str = "./src/_26/input/"
-output_path: str = "./src/_26/output/"
+input_path: str = "./src/_25/input/"
+output_path: str = "./src/_25/output/"
 
 percentil_path: str = "./src/_02/output/percentis_by_language_filtered.csv"
 repositories_path: str = "./src/_00/input/450_Starred_Projects.csv"
@@ -115,17 +115,22 @@ def pseudo_bus_factor(repository_commits: pd.DataFrame, change_type: str = "larg
         df = df.sort_values(by='Committer Commit Date')
 
         # Quantos commits cada autor tem, guarde em um dicionário organizado do autor que mais tem commits para o que menos tem
-        author_commit_counts = df['Committer Email'].value_counts()
+        author_commit_counts = df['Author Email'].value_counts()
 
         # Quantos commits equivalem a 70% de commits
         total_commits: int = df['Hash'].nunique()
         threshold_70: int = round(0.7 * total_commits)
 
         # Menor número de autores que correspondem a 70% dos commits
-        cumulative_commits = author_commit_counts.cumsum()
-        top_authors = cumulative_commits[cumulative_commits <= threshold_70].index.tolist()
-        num_top_authors = len(top_authors)
-        
+        cumulative_commits = 0
+        num_top_authors = 0
+
+        for author, commit_count in author_commit_counts.items():
+            # Atropelando os autores em ordem descendente
+            cumulative_commits += commit_count
+            num_top_authors += 1
+            if cumulative_commits >= threshold_70:
+                break
         return num_top_authors
 
     
