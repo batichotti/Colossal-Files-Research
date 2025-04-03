@@ -3,6 +3,7 @@ from os import makedirs, path
 from sys import setrecursionlimit
 from datetime import timezone
 from dateutil import parser
+import numpy as np
 
 setrecursionlimit(2_000_000)
 
@@ -78,22 +79,22 @@ def pseudo_bus_factor(repository_commits: pd.DataFrame, change_type: str = "larg
 
         # Filtra as linhas onde a linguagem é igual e o número de linhas de código é menor que o percentil 99
         percentil_99 = percentil_df.set_index('language')['percentil 99']
-        small = changes_large[changes_large.apply(
+        small_list = changes_large[changes_large.apply(
             lambda x: x['Lines Of Code (nloc)'] < percentil_99.get(x['Language'], 0),
             axis=1
         )].copy()
-        changes_large = changes_large[changes_large.apply(
+        large_list = changes_large[changes_large.apply(
             lambda x: x['Lines Of Code (nloc)'] >= percentil_99.get(x['Language'], 0),
             axis=1
         )]
 
     changes_together = pd.DataFrame()
     changes_small = pd.DataFrame()
-    if not changes_large.empty:
+    if not large_list.empty:
         # Identifica os hashes de commits que possuem arquivos grandes
-        large_hashes = set(changes_large['Hash'])
+        large_hashes = set(large_list['Hash'])
         # Filtra changes_large para incluir apenas arquivos grandes e excluir hashes com arquivos pequenos
-        small_hashes = set(small['Hash'])
+        small_hashes = set(small_list['Hash'])
         # Cria a categoria "together" para casos com arquivos grandes e pequenos juntos
         together_hashes = large_hashes.intersection(small_hashes)
         # Remove a interseção
@@ -151,6 +152,45 @@ def pseudo_bus_factor(repository_commits: pd.DataFrame, change_type: str = "larg
     if not changes_together.empty:
         num_top_authors_together = bus_factor(changes_together)
 
+    large_files_commit: pd.DataFrame = pd.DataFrame()
+    small_files_commit: pd.DataFrame = pd.DataFrame()
+    if not changes.empty:
+        changes['File Path'] = changes.apply(
+            lambda x: x['Local File PATH New'] if pd.notna(x['Local File PATH New'])
+                    else x['Local File PATH Old'],
+            axis=1
+        )
+
+        if not large_list.empty:
+            large_paths = pd.concat([
+                large_list['Local File PATH New'],
+                large_list['Local File PATH Old']
+            ])
+            small_files_commit = changes[~changes['File Path'].isin(large_paths)].copy()
+            large_files_commit = changes[changes['File Path'].isin(large_paths)].copy()
+
+    large_file_bus_factor: list[int] = []
+    if not large_files_commit.empty:
+        for file_group in large_files_commit.groupby('File Path'):
+            large_file_bus_factor.append(bus_factor(file_group))
+
+    small_file_bus_factor: list[int] = []
+    if not small_files_commit.empty:
+        for file_group in small_files_commit.groupby('File Path'):
+            small_file_bus_factor.append(bus_factor(file_group))
+
+    # Calcula estatísticas para arquivos grandes
+    large_mean = np.mean(large_file_bus_factor) if large_file_bus_factor else 0
+    large_median = np.median(large_file_bus_factor) if large_file_bus_factor else 0
+    large_min = np.min(large_file_bus_factor) if large_file_bus_factor else 0
+    large_max = np.max(large_file_bus_factor) if large_file_bus_factor else 0
+
+    # Calcula estatísticas para arquivos pequenos
+    small_mean = np.mean(small_file_bus_factor) if small_file_bus_factor else 0
+    small_median = np.median(small_file_bus_factor) if small_file_bus_factor else 0
+    small_min = np.min(small_file_bus_factor) if small_file_bus_factor else 0
+    small_max = np.max(small_file_bus_factor) if small_file_bus_factor else 0
+
     # Adicione os resultados à variável result
     result: dict = {
         "Type": [change_type],
@@ -158,7 +198,17 @@ def pseudo_bus_factor(repository_commits: pd.DataFrame, change_type: str = "larg
 
         "70% Threshould Large": [num_top_authors_large],
         "70% Threshould Small": [num_top_authors_small],
-        "70% Threshould Flex": [num_top_authors_together]
+        "70% Threshould Flex": [num_top_authors_together],
+
+        "Large Mean": [large_mean],
+        "Large Median": [large_median],
+        "Large Min": [large_min],
+        "Large Max": [large_max],
+
+        "Small Mean": [small_mean],
+        "Small Median": [small_median],
+        "Small Min": [small_min],
+        "Small Max": [small_max]
     }
 
     return pd.DataFrame(result)
