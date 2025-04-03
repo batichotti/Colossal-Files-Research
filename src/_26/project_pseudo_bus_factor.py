@@ -2,6 +2,7 @@ import pandas as pd
 from os import makedirs, path
 from sys import setrecursionlimit
 import datetime
+from dateutil import parser  # Add this import for robust datetime parsing
 
 setrecursionlimit(2_000_000)
 
@@ -72,9 +73,7 @@ def pseudo_bus_factor(repository_commits: pd.DataFrame, change_type: str = "larg
     # ANAL ================================================================================================================
     # Ordena os commits por data (do mais velho para o mais novo)
     commits_df['Committer Commit Date'] = commits_df.apply(
-        lambda x: datetime.datetime.strptime(
-            str(x['Committer Commit Date']) + str(x['Committer Timezone']), '%Y-%m-%d %H:%M:%S%z'
-        ).astimezone(datetime.timezone.utc),
+        lambda x: parser.parse(f"{x['Committer Commit Date']} {x['Committer Timezone']}").astimezone(datetime.timezone.utc),
         axis=1
     )
     commits_df = commits_df.sort_values(by='Committer Commit Date')
