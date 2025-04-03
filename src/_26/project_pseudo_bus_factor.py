@@ -23,7 +23,10 @@ small_files_commits: pd.DataFrame = pd.DataFrame()
 
 # Funções auxiliares =========================================================================================
 def pseudo_bus_factor(repository_commits: pd.DataFrame, change_type: str = "large") -> pd.DataFrame:
-    """Função Base para o processamento de dados"""
+    """
+    Top autores que correspondem a 70% dos commits totais;
+    % da intersecção entre o quartil 25% mais novo e mais antigo
+    """
     
     result: dict = {
         "Type": [change_type],
