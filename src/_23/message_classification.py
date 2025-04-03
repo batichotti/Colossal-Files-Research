@@ -309,7 +309,7 @@ def anal_classification(repository_commits: pd.DataFrame, change_type: str = "la
         small = changes_large[changes_large.apply(
             lambda x: x['Lines Of Code (nloc)'] < percentil_99.get(x['Language'], 0),
             axis=1
-        )].copy
+        )].copy()
         changes_large = changes_large[changes_large.apply(
             lambda x: x['Lines Of Code (nloc)'] >= percentil_99.get(x['Language'], 0),
             axis=1
