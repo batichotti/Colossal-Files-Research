@@ -33,7 +33,7 @@ def pseudo_bus_factor(repository_commits: pd.DataFrame, change_type: str = "larg
     """
     Top autores que correspondem a 70% dos commits totais;
     """
-    
+
     # SETUP ===============================================================================================================
     added_files: pd.DataFrame = repository_commits[repository_commits['Change Type'] == 'ADD'].copy()
     added_files_total: int = len(added_files)
@@ -104,7 +104,7 @@ def pseudo_bus_factor(repository_commits: pd.DataFrame, change_type: str = "larg
         changes_large = changes[changes['Hash'].isin(large_hashes)].copy()
         changes_small = changes[changes['Hash'].isin(small_hashes)].copy()
         changes_together = changes[changes['Hash'].isin(together_hashes)].copy()
-    
+
     # ANAL ================================================================================================================
     def bus_factor(df: pd.DataFrame):
         # Ordena os commits por data (do mais velho para o mais novo)
@@ -116,6 +116,7 @@ def pseudo_bus_factor(repository_commits: pd.DataFrame, change_type: str = "larg
 
         # Quantos commits cada autor tem, guarde em um dicionário organizado do autor que mais tem commits para o que menos tem
         author_commit_counts = df['Author Email'].value_counts()
+        author_commit_counts = author_commit_counts.sort_values(by=1)
 
         # Quantos commits equivalem a 70% de commits
         total_commits: int = df['Hash'].nunique()
@@ -133,19 +134,19 @@ def pseudo_bus_factor(repository_commits: pd.DataFrame, change_type: str = "larg
                 break
         return num_top_authors
 
-    
+
     commits_amount = 0
     if not changes.empty:
         commits_amount = changes['Hash'].nunique()
-    
+
     num_top_authors_large = 0
     if not changes_large.empty:
         num_top_authors_large = bus_factor(changes_large)
-    
+
     num_top_authors_small = 0
     if not changes_small.empty:
         num_top_authors_small = bus_factor(changes_small)
-    
+
     num_top_authors_together = 0
     if not changes_together.empty:
         num_top_authors_together = bus_factor(changes_together)
@@ -154,7 +155,7 @@ def pseudo_bus_factor(repository_commits: pd.DataFrame, change_type: str = "larg
     result: dict = {
         "Type": [change_type],
         "Commits Amount": [commits_amount],
-        
+
         "70% Threshould Large": [num_top_authors_large],
         "70% Threshould Small": [num_top_authors_small],
         "70% Threshould Flex": [num_top_authors_together]
@@ -169,7 +170,7 @@ def process_language(lang: str, large: pd.DataFrame, small: pd.DataFrame, output
         results.append(pseudo_bus_factor(large, 'large'))
     if not small.empty:
         results.append(pseudo_bus_factor(small, 'small'))
-    
+
     if results:
         pd.concat(results).to_csv(f"{output_path}/per_languages/{lang}.csv", index=False)
 
@@ -190,15 +191,15 @@ for i, row in repositories.iterrows():
     # Cria diretórios necessários
     makedirs(f"{output_path}/per_project/{language}", exist_ok=True)
     makedirs(f"{output_path}/per_languages", exist_ok=True)
-    
+
     # Atualiza acumuladores de linguagem quando muda
     if current_language and (language != current_language):
         process_language(current_language, current_large, current_small, output_path)
         current_large = pd.DataFrame()
         current_small = pd.DataFrame()
-    
+
     current_language = language
-    
+
     # Processa arquivos grandes
     large_df: pd.DataFrame = pd.DataFrame()
     large_path = f"{large_files_commits_path}{repo_path}.csv"
@@ -206,7 +207,7 @@ for i, row in repositories.iterrows():
         large_df: pd.DataFrame = pd.read_csv(large_path, sep=SEPARATOR)
         current_large = pd.concat([current_large, large_df])
         large_files_commits = pd.concat([large_files_commits, large_df])
-    
+
     # Processa arquivos pequenos
     small_path = f"{small_files_commits_path}{repo_path}.csv"
     small_df: pd.DataFrame = pd.DataFrame()
@@ -214,7 +215,7 @@ for i, row in repositories.iterrows():
         small_df: pd.DataFrame = pd.read_csv(small_path, sep=SEPARATOR)
         current_small = pd.concat([current_small, small_df])
         small_files_commits = pd.concat([small_files_commits, small_df])
-    
+
     project_results: list[pd.DataFrame] = []
     if not large_df.empty:
         project_results.append(pseudo_bus_factor(large_df))
