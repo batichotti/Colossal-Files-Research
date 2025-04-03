@@ -37,22 +37,34 @@ def pseudo_bus_factor(repository_commits: pd.DataFrame, change_type: str = "larg
     # SETUP ===============================================================================================================
     commits_df: pd.DataFrame = repository_commits.copy()
     commits_df_total: int = commits_df['Hash'].nunique()
+    print(f"Total unique commits: {commits_df_total}")
 
     if not commits_df.empty:
         commits_df = commits_df[commits_df['File Name'].apply(lambda x: isinstance(x, str) and '.' in x)]
+        print(f"Commits after filtering by file name: {len(commits_df)}")
+        
         if not commits_df.empty:
             commits_df['Extension'] = commits_df['File Name'].apply(lambda x: x.split(".")[-1]).copy()
             commits_df = commits_df[commits_df['Extension'].isin(language_white_list_df['Extension'].values)]
-            commits_df = commits_df.merge(
-                language_white_list_df[['Extension', 'Language']],
-                on='Extension',
-                how='left'
-            ).drop(columns=['Extension'])
+            print(f"Commits after filtering by extension: {len(commits_df)}")
+            
+            if not commits_df.empty:
+                commits_df = commits_df.merge(
+                    language_white_list_df[['Extension', 'Language']],
+                    on='Extension',
+                    how='left'
+                ).drop(columns=['Extension'])
+                print(f"Commits after merging with language whitelist: {len(commits_df)}")
+
+    if commits_df.empty:
+        print("No commits left after filtering. Returning empty DataFrame.")
+        return pd.DataFrame()  # Retorna vazio se não houver dados
 
     changes = repository_commits[
         repository_commits['Local File PATH New'].isin(commits_df['Local File PATH New'].values) |
         repository_commits['Local File PATH New'].isin(commits_df['Local File PATH Old'].values)
         ].copy()
+    print(f"Changes after filtering by paths: {len(changes)}")
 
     # Cria um mapeamento completo de TODOS os caminhos (New e Old) para linguagem
     path_to_language = pd.concat([
@@ -67,7 +79,8 @@ def pseudo_bus_factor(repository_commits: pd.DataFrame, change_type: str = "larg
         ),
         axis=1
     )
-    commits_df_filtered_total:int = commits_df['Hash'].nunique()
+    commits_df_filtered_total: int = commits_df['Hash'].nunique()
+    print(f"Filtered total unique commits: {commits_df_filtered_total}")
     
     # ANAL ================================================================================================================
     # Ordena os commits por data (do mais velho para o mais novo)
@@ -81,6 +94,7 @@ def pseudo_bus_factor(repository_commits: pd.DataFrame, change_type: str = "larg
 
     # Quantos commits cada autor tem, guarde em um dicionário organizado do autor que mais tem commits para o que menos tem
     author_commit_counts = commits_df['Author'].value_counts()
+    print(f"Author commit counts: {author_commit_counts}")
 
     # Quantos commits equivalem a 70% de commits
     threshold_70 = 0.7 * commits_df_total
@@ -89,6 +103,7 @@ def pseudo_bus_factor(repository_commits: pd.DataFrame, change_type: str = "larg
     cumulative_commits = author_commit_counts.cumsum()
     top_authors = cumulative_commits[cumulative_commits <= threshold_70].index.tolist()
     num_top_authors = len(top_authors)
+    print(f"Top authors covering 70% of commits: {num_top_authors}")
 
     # Autores responsáveis pelos 25% primeiros commits
     first_25_percent = commits_df.iloc[:int(0.25 * len(commits_df))]
@@ -102,13 +117,14 @@ def pseudo_bus_factor(repository_commits: pd.DataFrame, change_type: str = "larg
     intersection_authors = first_25_authors.intersection(last_25_authors)
     intersection_count = len(intersection_authors)
     intersection_percentage = (intersection_count / len(first_25_authors.union(last_25_authors))) * 100 if first_25_authors.union(last_25_authors) else 0
+    print(f"Intersection percentage: {intersection_percentage}")
 
     # Adicione os resultados à variável result
     result: dict = {
         "Type": [change_type],
         "Commits Amount": [commits_df_filtered_total],
         
-        "70% Threshold": [num_top_authors],
+        "70% Treshould": [num_top_authors],
         "25% Union": [intersection_percentage]
     }
 
