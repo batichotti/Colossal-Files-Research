@@ -36,7 +36,8 @@ def pseudo_bus_factor(repository_commits: pd.DataFrame, change_type: str = "larg
     """
 
     # SETUP ===============================================================================================================
-    added_files: pd.DataFrame = repository_commits[repository_commits['Change Type'] == 'ADD'].copy()
+    # added_files: pd.DataFrame = repository_commits[repository_commits['Change Type'] == 'ADD'].copy()
+    added_files: pd.DataFrame = repository_commits.copy()
     added_files_total: int = len(added_files)
 
     if not added_files.empty:
@@ -49,11 +50,12 @@ def pseudo_bus_factor(repository_commits: pd.DataFrame, change_type: str = "larg
                 on='Extension',
                 how='left'
             ).drop(columns=['Extension'])
-
-    changes = repository_commits[
-        repository_commits['Local File PATH New'].isin(added_files['Local File PATH New'].values) |
-        repository_commits['Local File PATH New'].isin(added_files['Local File PATH Old'].values)
-        ].copy()
+    
+    changes = added_files
+    # changes = repository_commits[
+    #     repository_commits['Local File PATH New'].isin(added_files['Local File PATH New'].values) |
+    #     repository_commits['Local File PATH New'].isin(added_files['Local File PATH Old'].values)
+    #     ].copy()
 
     # Cria um mapeamento completo de TODOS os caminhos (e Old) para linguagem
     path_to_language = pd.concat([
@@ -171,12 +173,12 @@ def pseudo_bus_factor(repository_commits: pd.DataFrame, change_type: str = "larg
 
     large_file_bus_factor: list[int] = []
     if not large_files_commit.empty:
-        for file_group in large_files_commit.groupby('File Path'):
+        for _, file_group in large_files_commit.groupby('File Path'):
             large_file_bus_factor.append(bus_factor(file_group))
 
     small_file_bus_factor: list[int] = []
     if not small_files_commit.empty:
-        for file_group in small_files_commit.groupby('File Path'):
+        for _, file_group in small_files_commit.groupby('File Path'):
             small_file_bus_factor.append(bus_factor(file_group))
 
     # Calcula estatísticas para arquivos grandes
