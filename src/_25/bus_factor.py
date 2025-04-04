@@ -172,14 +172,22 @@ def pseudo_bus_factor(repository_commits: pd.DataFrame, change_type: str = "larg
             large_files_commit = changes[changes['File Path'].isin(large_paths)].copy()
 
     large_file_bus_factor: list[int] = []
+    commits_large_list: list = []
+    authors_large_list: list = []
     if not large_files_commit.empty:
         for _, file_group in large_files_commit.groupby('File Path'):
             large_file_bus_factor.append(bus_factor(file_group))
+            commits_large_list.append(len(file_group))
+            authors_large_list.append(len(file_group.groupby('Author Email')))
 
     small_file_bus_factor: list[int] = []
+    commits_small_list: list = []
+    authors_small_list: list = []
     if not small_files_commit.empty:
         for _, file_group in small_files_commit.groupby('File Path'):
             small_file_bus_factor.append(bus_factor(file_group))
+            commits_small_list.append(len(file_group))
+            authors_small_list.append(len(file_group.groupby('Author Email')))
 
     # Calcula estatísticas para arquivos grandes
     large_mean = np.mean(large_file_bus_factor) if large_file_bus_factor else 0
@@ -187,16 +195,33 @@ def pseudo_bus_factor(repository_commits: pd.DataFrame, change_type: str = "larg
     large_min = np.min(large_file_bus_factor) if large_file_bus_factor else 0
     large_max = np.max(large_file_bus_factor) if large_file_bus_factor else 0
 
+    # Calcula estatísticas para commits de arquivos grandes
+    commits_large_mean = np.mean(commits_large_list) if commits_large_list else 0
+    commits_large_median = np.median(commits_large_list) if commits_large_list else 0
+
+    # Calcula estatísticas para autores de arquivos grandes
+    authors_large_mean = np.mean(authors_large_list) if authors_large_list else 0
+    authors_large_median = np.median(authors_large_list) if authors_large_list else 0
+
     # Calcula estatísticas para arquivos pequenos
     small_mean = np.mean(small_file_bus_factor) if small_file_bus_factor else 0
     small_median = np.median(small_file_bus_factor) if small_file_bus_factor else 0
     small_min = np.min(small_file_bus_factor) if small_file_bus_factor else 0
     small_max = np.max(small_file_bus_factor) if small_file_bus_factor else 0
 
+    # Calcula estatísticas para commits de arquivos pequenos
+    commits_small_mean = np.mean(commits_small_list) if commits_small_list else 0
+    commits_small_median = np.median(commits_small_list) if commits_small_list else 0
+
+    # Calcula estatísticas para autores de arquivos pequenos
+    authors_small_mean = np.mean(authors_small_list) if authors_small_list else 0
+    authors_small_median = np.median(authors_small_list) if authors_small_list else 0
+
     # Adicione os resultados à variável result
     result: dict = {
         "Type": [change_type],
         "Commits Amount": [commits_amount],
+        
 
         "70% Threshould Large": [num_top_authors_large],
         "70% Threshould Small": [num_top_authors_small],
@@ -207,10 +232,22 @@ def pseudo_bus_factor(repository_commits: pd.DataFrame, change_type: str = "larg
         "Large Min": [large_min],
         "Large Max": [large_max],
 
+        "Commits Large Mean": [commits_large_mean],
+        "Commits Large Median": [commits_large_median],
+
+        "Authors Large Mean": [authors_large_mean],
+        "Authors Large Median": [authors_large_median],
+
         "Small Mean": [small_mean],
         "Small Median": [small_median],
         "Small Min": [small_min],
-        "Small Max": [small_max]
+        "Small Max": [small_max],
+
+        "Commits Small Mean": [commits_small_mean],
+        "Commits Small Median": [commits_small_median],
+
+        "Authors Small Mean": [authors_small_mean],
+        "Authors Small Median": [authors_small_median]
     }
 
     return pd.DataFrame(result)
