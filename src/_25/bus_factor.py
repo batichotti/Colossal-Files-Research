@@ -176,20 +176,20 @@ def pseudo_bus_factor(repository_commits: pd.DataFrame, change_type: str = "larg
     authors_large_list: list = []
     if not large_files_commit.empty:
         for _, file_group in large_files_commit.groupby('File Path'):
-            if (len(file_group) >= 10):
-                large_file_bus_factor.append(bus_factor(file_group))
-                commits_large_list.append(len(file_group))
-                authors_large_list.append(len(file_group.groupby('Author Email')))
+            # if (len(file_group) >= 10):
+            large_file_bus_factor.append(bus_factor(file_group))
+            commits_large_list.append(len(file_group))
+            authors_large_list.append(len(file_group.groupby('Author Email')))
 
     small_file_bus_factor: list[int] = []
     commits_small_list: list = []
     authors_small_list: list = []
     if not small_files_commit.empty:
         for _, file_group in small_files_commit.groupby('File Path'):
-            if (len(file_group) >= 10):
-                small_file_bus_factor.append(bus_factor(file_group))
-                commits_small_list.append(len(file_group))
-                authors_small_list.append(len(file_group.groupby('Author Email')))
+            # if (len(file_group) >= 10):
+            small_file_bus_factor.append(bus_factor(file_group))
+            commits_small_list.append(len(file_group))
+            authors_small_list.append(len(file_group.groupby('Author Email')))
 
     # Calcula estatísticas para arquivos grandes
     large_total_files = len(commits_large_list)
