@@ -36,36 +36,43 @@ for i in range(len(repositories)):
     large_total.append(
         {
             "project": [repo_path],
-            "total": [repository_large_total]
+            "large": [repository_large_total],
+            "total": [repository_total]
         }
         )
     large_percentage_total.append(
         {
             "project": [repo_path],
-            "total": [(repository_large_total/repository_total)*100]
+            "percentage": [(repository_large_total/repository_total)*100],
+            "large": [repository_large_total],
+            "total": [repository_total]
         }
     )
 
-large_total = sorted(large_total, key=lambda x: x["total"][0], reverse=True)
-large_percentage_total = sorted(large_percentage_total, key=lambda x: x["total"][0], reverse=True)
+large_total = sorted(large_total, key=lambda x: x["large"][0], reverse=True)
+large_percentage_total = sorted(large_percentage_total, key=lambda x: x["percentage"][0], reverse=True)
 
 result: dict = {
     "Position": [],
     "Project Max #large": [],
     "Max #large": [],
+    "Max #total": [],
     "Project Max %%#large": [],
-    "Max %%#large": []
+    "Max %%large": [],
+    "Max %%#large": [],
+    "Max %%#total": [],
 }
 
 output_quantity = 5  # Adjust this value to show the top X results
 for i in range(output_quantity):
-    if i < len(large_total):
-        result["Position"].append(i + 1)
-        result["Project Max #large"].append(large_total[i]["project"][0])
-        result["Max #large"].append(large_total[i]["total"][0])
-    if i < len(large_percentage_total):
-        result["Project Max %%#large"].append(large_percentage_total[i]["project"][0])
-        result["Max %%#large"].append(large_percentage_total[i]["total"][0])
+    result["Position"].append(i + 1)
+    result["Project Max #large"].append(large_total[i]["project"][0])
+    result["Max #large"].append(large_total[i]["large"][0])
+    result["Max #total"].append(large_total[i]["total"][0])
+    result["Project Max %%#large"].append(large_percentage_total[i]["project"][0])
+    result["Max %%large"].append(large_percentage_total[i]["percentage"][0])
+    result["Max %%#large"].append(large_percentage_total[i]["large"][0])
+    result["Max %%#total"].append(large_percentage_total[i]["total"][0])
 
 
 makedirs(f"{output_path}", exist_ok=True)
