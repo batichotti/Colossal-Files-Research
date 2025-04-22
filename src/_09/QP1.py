@@ -100,7 +100,7 @@ for i in range(len(repositories)):
 
     # Update language stats
     if language not in language_stats or large_files_major_language > language_stats[language]['large_files_major_language']:
-        language_stats[language] = {
+        language_stats[major_language] = {
             'repository': repository.split('/')[-1],
             'major_language': major_language,
             'large_files_major_language': large_files_major_language,
@@ -113,7 +113,6 @@ for i in range(len(repositories)):
 
 # Save the project with the most large files for each language
 summary_df = pd.DataFrame(columns=[
-    'Linguagem',
     'Projeto',
     'Linguagem Majoritaria',
     '# Arquivos Grandes da Linguagem Majoritaria',
@@ -123,7 +122,6 @@ summary_df = pd.DataFrame(columns=[
 
 for language, stats in language_stats.items():
     summary_df.loc[len(summary_df)] = [
-        language,
         stats['repository'],
         stats['major_language'],
         stats['large_files_major_language'],
