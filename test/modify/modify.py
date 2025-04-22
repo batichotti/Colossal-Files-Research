@@ -127,19 +127,19 @@ def frequency_by_lifetime(repository_commits: pd.DataFrame, change_type: str = "
 
             big_dataframe.append(
                 {
-                    "Dataset": [change_type],
-                    "Project": [file_changes["Project Name"].iloc[0]],
-                    "File Path": [file_changes["File Path"].iloc[0]],
-                    "File Category": [file_changes["File Category"].iloc[0]],
-                    "Only Added?": [only_added],
-                    "First Commit": [commits[0]],
-                    "Last Commit": [commits[-1]],
-                    "Deleted?": [deleted],
-                    "Modifications' Amount": [amount],
-                    "Life Time (second)": [delta],
-                    "Life Time (day)": [delta_days],
-                    "Modifications' Interval (second)": [interval],
-                    "Modifications' Interval (day)": [interval_days],
+                    "Dataset": change_type,
+                    "Project": file_changes["Project Name"].iloc[0],
+                    "File Path": file_changes["File Path"].iloc[0],
+                    "File Category": file_changes["File Category"].iloc[0],
+                    "Only Added?": only_added,
+                    "First Commit": commits[0],
+                    "Last Commit": commits[-1],
+                    "Deleted?": deleted,
+                    "Modifications' Amount": amount,
+                    "Life Time (second)": delta,
+                    "Life Time (day)": delta_days,
+                    "Modifications' Interval (second)": interval,
+                    "Modifications' Interval (day)": interval_days,
                 }
             )
 
