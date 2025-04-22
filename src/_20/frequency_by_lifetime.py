@@ -205,7 +205,7 @@ def frequency_by_lifetime(repository_commits: pd.DataFrame, change_type: str = "
         for _, file_changes in changes_small.groupby('File Path'):
             commits = file_changes['Committer Commit Date'].tolist()
             delta = 0
-            amount = len(commits)
+            amount = len(commits)-1
             if amount >= 2:
                 delta = (commits[-1] - commits[0]).total_seconds()
                 change_amount_small_total.append(amount)
