@@ -217,7 +217,7 @@ def frequency_by_lifetime(repository_commits: pd.DataFrame, change_type: str = "
                 deleted_small_total += 1
                 deleted_amount_small_total.append(amount)
                 deleted_lifetime_small_total.append(delta)
-                deleted_freq_small_total.append(delta/amount)
+                deleted_freq_small_total.append(delta/amount) if amount > 0 else 0
     
     # Compute averages and medians for small and large changes
     # Cálculos Gerais ======================================================================================================
