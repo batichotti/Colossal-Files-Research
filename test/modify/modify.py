@@ -13,6 +13,7 @@ input_path: str = "./test/modify/input/"
 output_path: str = "./test/modify/output/"
 
 repositories_path: str = "./src/_00/input/450_Starred_Projects.csv"
+modify_path: str = "./test/modify/output/per_projct"
 language_white_list_path: str = "./src/_12/input/white_list.csv"
 percentil_path: str = "./src/_02/output/percentis_by_language_filtered.csv"
 large_files_commits_path: str = "./src/_10/output/large_files/"
@@ -147,10 +148,23 @@ def frequency_by_lifetime(repository_commits: pd.DataFrame, change_type: str = "
 
     return pd.DataFrame(result)
 
+def calc_metrics(df:pd.DataFrame) -> pd.DataFrame:
+    groups = df.groupby("Dataset")
+    dataset_large = groups.get_group("large") if "large" in groups.groups else pd.DataFrame()
+    dataset_small = groups.get_group("small") if "small" in groups.groups else pd.DataFrame()
+    
+    large_commits 
+    large_only_added
+    large_life_time
+    large_modifications_interal
+    large_deleted_total
+    if not dataset_large.empty:
+        ...
+
+    result = {
+    }
+
 # Processamento principal =====================================================================================
-current_language: str = None
-current_large: pd.DataFrame = pd.DataFrame()
-current_small: pd.DataFrame = pd.DataFrame()
 
 for i, row in repositories.iterrows():
     repo_url: str = row['url']
@@ -163,7 +177,7 @@ for i, row in repositories.iterrows():
 
     # Cria diretórios necessários
     makedirs(f"{output_path}/per_project/{language}", exist_ok=True)
-    makedirs(f"{output_path}/per_languages", exist_ok=True)
+    # makedirs(f"{output_path}/per_languages", exist_ok=True)
 
     # Processa arquivos grandes
     large_df: pd.DataFrame = pd.DataFrame()
@@ -185,3 +199,66 @@ for i, row in repositories.iterrows():
 
     if project_results:
         pd.concat(project_results).to_csv(f"{output_path}/per_project/{repo_path}.csv", index=False)
+        
+        
+# ================================================================================================================
+current_language: str = None
+current_df: pd.DataFrame = pd.DataFrame()
+
+for i, row in repositories.iterrows():
+    repo_url: str = row['url']
+    language: str = row['main language']
+    repo_name: str = repo_url.split('/')[-1]
+    repo_owner: str = repo_url.split('/')[-2]
+    repo_path: str = f"{language}/{repo_owner}~{repo_name}"
+
+    print(repo_path)
+
+    # Cria diretórios necessários
+    makedirs(f"{output_path}/general/{language}", exist_ok=True)
+    
+    # Atualiza acumuladores de linguagem quando muda
+    if current_language and (language != current_language):
+        #roda para lingagem
+        current_df = pd.DataFrame()
+    
+    current_language = language
+    
+    # Processa arquivos grandes
+    large_df: pd.DataFrame = pd.DataFrame()
+    large_path = f"{large_files_commits_path}{repo_path}.csv"
+    if path.exists(large_path):
+        large_df: pd.DataFrame = pd.read_csv(large_path, sep=SEPARATOR)
+        current_large = pd.concat([current_large, large_df])
+        large_files_commits = pd.concat([large_files_commits, large_df])
+    
+    # Processa arquivos pequenos
+    small_path = f"{small_files_commits_path}{repo_path}.csv"
+    small_df: pd.DataFrame = pd.DataFrame()
+    if path.exists(small_path):
+        small_df: pd.DataFrame = pd.read_csv(small_path, sep=SEPARATOR)
+        current_small = pd.concat([current_small, small_df])
+        small_files_commits = pd.concat([small_files_commits, small_df])
+    
+    project_results: list[pd.DataFrame] = []
+    if not large_df.empty:
+        project_results.append(frequency_by_lifetime(large_df))
+    if not small_df.empty:
+        project_results.append(frequency_by_lifetime(small_df, 'small'))
+
+    if project_results:
+        pd.concat(project_results).to_csv(f"{output_path}/per_project/{repo_path}.csv", index=False)
+
+# Processa última linguagem
+if not current_large.empty or not current_small.empty:
+    ...
+
+# Resultado global ============================================================================================
+final_results: list[pd.DataFrame] = []
+if not large_files_commits.empty:
+    final_results.append(frequency_by_lifetime(large_files_commits))
+if not small_files_commits.empty:
+    final_results.append(frequency_by_lifetime(small_files_commits, 'small'))
+
+if final_results:
+    pd.concat(final_results).to_csv(f"{output_path}/global_results.csv", index=False)
