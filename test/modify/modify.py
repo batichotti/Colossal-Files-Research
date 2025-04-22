@@ -127,6 +127,7 @@ def frequency_by_lifetime(repository_commits: pd.DataFrame, change_type: str = "
 
             big_dataframe.append(
                 {
+                    "Dataset": [change_type],
                     "Project": [file_changes["Project Name"].iloc[0]],
                     "File Path": [file_changes["File Path"].iloc[0]],
                     "File Category": [file_changes["File Category"].iloc[0]],
