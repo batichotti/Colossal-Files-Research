@@ -117,10 +117,10 @@ def frequency_by_lifetime(repository_commits: pd.DataFrame, change_type: str = "
             amount = len(commits)-1
             if amount >= 1:
                 delta = (commits[-1] - commits[0]).total_seconds()
+                if "DELETE" in file_changes['Change Type'].values:
+                    deleted = True
             else:
                 only_added = True
-            if "DELETE" in file_changes['Change Type'].values:
-                deleted = True
 
             delta_days = delta / (60 * 60 * 24) if not only_added else 0
             interval = delta / amount if not only_added else 0
