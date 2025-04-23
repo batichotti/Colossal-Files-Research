@@ -32,7 +32,6 @@ small_files_commits: pd.DataFrame = pd.DataFrame()
 def frequency_by_lifetime(repository_commits: pd.DataFrame, change_type: str = "large") -> pd.DataFrame:
     """Verifica como foi o crescimento e a diminuição dos arquivos"""
     added_files: pd.DataFrame = repository_commits[repository_commits['Change Type'] == 'ADD'].copy()
-    added_files_total: int = len(added_files)
 
     if not added_files.empty:
         added_files = added_files[added_files['File Name'].apply(lambda x: isinstance(x, str) and '.' in x)]
@@ -63,7 +62,6 @@ def frequency_by_lifetime(repository_commits: pd.DataFrame, change_type: str = "
         ),
         axis=1
     )
-    added_files_filtered_total:int = len(added_files)
 
     changes_large: pd.DataFrame = changes.copy()
     if not changes_large.empty:
@@ -110,6 +108,8 @@ def frequency_by_lifetime(repository_commits: pd.DataFrame, change_type: str = "
         changes = changes.sort_values(by='Committer Commit Date')
 
         for _, file_changes in changes.groupby('File Path'):
+            if file_changes["File Category"].iloc[0] != change_type:
+                continue
             commits = file_changes['Committer Commit Date'].tolist()
             only_added = False
             deleted = False
