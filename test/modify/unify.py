@@ -52,17 +52,17 @@ def calc_metrics(df:pd.DataFrame) -> pd.DataFrame:
         large_only_added = len(dataset_large[dataset_large["Only Added?"] == True])
         large_amount_mean = dataset_large[dataset_large["Only Added?"] == False]["Modifications' Amount"].mean()
         large_amount_median = dataset_large[dataset_large["Only Added?"] == False]["Modifications' Amount"].median()
-        large_life_time_mean = dataset_large[dataset_large["Only Added?"] == False]["Life Time (day)"].mean()
-        large_life_time_median = dataset_large[dataset_large["Only Added?"] == False]["Life Time (day)"].median()
-        large_interval_mean = dataset_large[dataset_large["Only Added?"] == False]["Modifications' Interval (day)"].mean()
-        large_interval_median = dataset_large[dataset_large["Only Added?"] == False]["Modifications' Interval (day)"].median()
+        large_life_time_mean = dataset_large[dataset_large["Only Added?"] == False]["Life Time (second)"].mean() / 86400
+        large_life_time_median = dataset_large[dataset_large["Only Added?"] == False]["Life Time (second)"].median() / 86400
+        large_interval_mean = dataset_large[dataset_large["Only Added?"] == False]["Modifications' Interval (second)"].mean() / 86400
+        large_interval_median = dataset_large[dataset_large["Only Added?"] == False]["Modifications' Interval (second)"].median() / 86400
         large_deleted_total = len(dataset_large[dataset_large["Deleted?"] == True])
         large_deleted_amount_mean = dataset_large[dataset_large["Deleted?"] == True]["Modifications' Amount"].mean()
         large_deleted_amount_median = dataset_large[dataset_large["Deleted?"] == True]["Modifications' Amount"].median()
-        large_deleted_life_time_mean = dataset_large[dataset_large["Deleted?"] == True]["Life Time (day)"].mean()
-        large_deleted_life_time_median = dataset_large[dataset_large["Deleted?"] == True]["Life Time (day)"].median()
-        large_deleted_interval_mean = dataset_large[dataset_large["Deleted?"] == True]["Modifications' Interval (day)"].mean()
-        large_deleted_interval_median = dataset_large[dataset_large["Deleted?"] == True]["Modifications' Interval (day)"].median()
+        large_deleted_life_time_mean = dataset_large[dataset_large["Deleted?"] == True]["Life Time (second)"].mean() / 86400
+        large_deleted_life_time_median = dataset_large[dataset_large["Deleted?"] == True]["Life Time (second)"].median() / 86400
+        large_deleted_interval_mean = dataset_large[dataset_large["Deleted?"] == True]["Modifications' Interval (second)"].mean() / 86400
+        large_deleted_interval_median = dataset_large[dataset_large["Deleted?"] == True]["Modifications' Interval (second)"].median() / 86400
 
     small_commits = 0
     small_only_added = 0
@@ -84,17 +84,17 @@ def calc_metrics(df:pd.DataFrame) -> pd.DataFrame:
         small_only_added = len(dataset_small[dataset_small["Only Added?"] == True])
         small_amount_mean = dataset_small[dataset_small["Only Added?"] == False]["Modifications' Amount"].mean()
         small_amount_median = dataset_small[dataset_small["Only Added?"] == False]["Modifications' Amount"].median()
-        small_life_time_mean = dataset_small[dataset_small["Only Added?"] == False]["Life Time (day)"].mean()
-        small_life_time_median = dataset_small[dataset_small["Only Added?"] == False]["Life Time (day)"].median()
-        small_interval_mean = dataset_small[dataset_small["Only Added?"] == False]["Modifications' Interval (day)"].mean()
-        small_interval_median = dataset_small[dataset_small["Only Added?"] == False]["Modifications' Interval (day)"].median()
+        small_life_time_mean = dataset_small[dataset_small["Only Added?"] == False]["Life Time (second)"].mean() / 86400
+        small_life_time_median = dataset_small[dataset_small["Only Added?"] == False]["Life Time (second)"].median() / 86400
+        small_interval_mean = dataset_small[dataset_small["Only Added?"] == False]["Modifications' Interval (second)"].mean() / 86400
+        small_interval_median = dataset_small[dataset_small["Only Added?"] == False]["Modifications' Interval (second)"].median() / 86400
         small_deleted_total = len(dataset_small[dataset_small["Deleted?"] == True])
         small_deleted_amount_mean = dataset_small[dataset_small["Deleted?"] == True]["Modifications' Amount"].mean()
         small_deleted_amount_median = dataset_small[dataset_small["Deleted?"] == True]["Modifications' Amount"].median()
-        small_deleted_life_time_mean = dataset_small[dataset_small["Deleted?"] == True]["Life Time (day)"].mean()
-        small_deleted_life_time_median = dataset_small[dataset_small["Deleted?"] == True]["Life Time (day)"].median()
-        small_deleted_interval_mean = dataset_small[dataset_small["Deleted?"] == True]["Modifications' Interval (day)"].mean()
-        small_deleted_interval_median = dataset_small[dataset_small["Deleted?"] == True]["Modifications' Interval (day)"].median()
+        small_deleted_life_time_mean = dataset_small[dataset_small["Deleted?"] == True]["Life Time (second)"].mean() / 86400
+        small_deleted_life_time_median = dataset_small[dataset_small["Deleted?"] == True]["Life Time (second)"].median() / 86400
+        small_deleted_interval_mean = dataset_small[dataset_small["Deleted?"] == True]["Modifications' Interval (second)"].mean() / 86400
+        small_deleted_interval_median = dataset_small[dataset_small["Deleted?"] == True]["Modifications' Interval (second)"].median() / 86400
 
     result = {
         "Large Commits": [large_commits],
