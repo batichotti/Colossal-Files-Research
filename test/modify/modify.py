@@ -77,7 +77,7 @@ def frequency_by_lifetime(repository_commits: pd.DataFrame, large_list: pd.DataF
             axis=1
         )]
 
-    large_list = large_list["path"].apply(lambda x: "/".join(x.split("/")[5:]))
+    large_list['path'] = large_list["path"].apply(lambda x: "/".join(x.split("/")[6:]))
     input(large_list['path'])
 
     large_paths:pd.DataFrame = pd.DataFrame()
@@ -173,7 +173,7 @@ for i, row in repositories.iterrows():
     large_path = f"{large_files_commits_path}{repo_path}.csv"
     if path.exists(large_path):
         large_df: pd.DataFrame = pd.read_csv(large_path, sep=SEPARATOR)
-        large_list_df: pd.DataFrame = pd.read_csv({f"{large_list_path}{repo_path}.csv"}, sep=SEPARATOR)
+        large_list_df: pd.DataFrame = pd.read_csv(f"{large_list_path}{repo_path}.csv", sep=SEPARATOR)
 
     # Processa arquivos pequenos
     small_path = f"{small_files_commits_path}{repo_path}.csv"
