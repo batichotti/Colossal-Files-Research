@@ -64,31 +64,24 @@ def frequency_by_lifetime(repository_commits: pd.DataFrame, large_list: pd.DataF
         axis=1
     )
 
-    changes_large: pd.DataFrame = changes.copy()
-    if not changes_large.empty:
-        # Converte NLOC para numérico e remove inválidos
-        changes_large['Lines Of Code (nloc)'] = pd.to_numeric(changes_large['Lines Of Code (nloc)'], errors='coerce')
-        changes_large = changes_large.dropna(subset=['Language', 'Lines Of Code (nloc)'])
+    # changes_large: pd.DataFrame = changes.copy()
+    # if not changes_large.empty:
+    #     # Converte NLOC para numérico e remove inválidos
+    #     changes_large['Lines Of Code (nloc)'] = pd.to_numeric(changes_large['Lines Of Code (nloc)'], errors='coerce')
+    #     changes_large = changes_large.dropna(subset=['Language', 'Lines Of Code (nloc)'])
 
-        # Filtra as linhas onde a linguagem é igual e o número de linhas de código é menor que o percentil 99
-        percentil_99 = percentil_df.set_index('language')['percentil 99']
-        changes_large = changes_large[changes_large.apply(
-            lambda x: x['Lines Of Code (nloc)'] >= percentil_99.get(x['Language'], 0),
-            axis=1
-        )]
+    #     # Filtra as linhas onde a linguagem é igual e o número de linhas de código é menor que o percentil 99
+    #     percentil_99 = percentil_df.set_index('language')['percentil 99']
+    #     changes_large = changes_large[changes_large.apply(
+    #         lambda x: x['Lines Of Code (nloc)'] >= percentil_99.get(x['Language'], 0),
+    #         axis=1
+    #     )]
 
     large_list['path'] = large_list["path"].apply(lambda x: "/".join(x.split("/")[6:]))
-    input(large_list['path'])
-
-    large_paths:pd.DataFrame = pd.DataFrame()
-    if not changes_large.empty:
-        large_paths = pd.concat([
-            changes_large['Local File PATH New'],
-            changes_large['Local File PATH Old']
-        ])
+    # changes_large = changes[changes["Local File PATH New"] in large_list['path'].values | changes["Local File PATH Old"] in large_list['path'].values]
 
     changes['File Category'] = changes.apply(
-        lambda x: 'large' if x['Local File PATH New'] in large_paths.values or x['Local File PATH Old'] in large_paths.values else 'small',
+        lambda x: 'large' if x['Local File PATH New'] in large_list['path'].values or x['Local File PATH Old'] in large_list['path'].values else 'small',
         axis=1
     )
 
