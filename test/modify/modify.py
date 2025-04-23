@@ -16,7 +16,6 @@ repositories_path: str = "./src/_00/input/450_Starred_Projects.csv"
 modify_path: str = "./test/modify/output/per_projct/"
 language_white_list_path: str = "./src/_12/input/white_list.csv"
 percentil_path: str = "./src/_02/output/percentis_by_language_filtered.csv"
-large_list_path: str = "./src/_03/output/"
 large_files_commits_path: str = "./src/_10/output/large_files/"
 small_files_commits_path: str = "./src/_10/output/small_files/"
 
@@ -30,7 +29,7 @@ large_files_commits: pd.DataFrame = pd.DataFrame()
 small_files_commits: pd.DataFrame = pd.DataFrame()
 
 # Funções auxiliares =========================================================================================
-def frequency_by_lifetime(repository_commits: pd.DataFrame, large_list: pd.DataFrame, change_type: str = "large") -> pd.DataFrame:
+def frequency_by_lifetime(repository_commits: pd.DataFrame, change_type: str = "large") -> pd.DataFrame:
     """Verifica como foi o crescimento e a diminuição dos arquivos"""
     added_files: pd.DataFrame = repository_commits[repository_commits['Change Type'] == 'ADD'].copy()
 
@@ -64,24 +63,28 @@ def frequency_by_lifetime(repository_commits: pd.DataFrame, large_list: pd.DataF
         axis=1
     )
 
-    # changes_large: pd.DataFrame = changes.copy()
-    # if not changes_large.empty:
-    #     # Converte NLOC para numérico e remove inválidos
-    #     changes_large['Lines Of Code (nloc)'] = pd.to_numeric(changes_large['Lines Of Code (nloc)'], errors='coerce')
-    #     changes_large = changes_large.dropna(subset=['Language', 'Lines Of Code (nloc)'])
+    changes_large: pd.DataFrame = changes.copy()
+    if not changes_large.empty:
+        # Converte NLOC para numérico e remove inválidos
+        changes_large['Lines Of Code (nloc)'] = pd.to_numeric(changes_large['Lines Of Code (nloc)'], errors='coerce')
+        changes_large = changes_large.dropna(subset=['Language', 'Lines Of Code (nloc)'])
 
-    #     # Filtra as linhas onde a linguagem é igual e o número de linhas de código é menor que o percentil 99
-    #     percentil_99 = percentil_df.set_index('language')['percentil 99']
-    #     changes_large = changes_large[changes_large.apply(
-    #         lambda x: x['Lines Of Code (nloc)'] >= percentil_99.get(x['Language'], 0),
-    #         axis=1
-    #     )]
+        # Filtra as linhas onde a linguagem é igual e o número de linhas de código é menor que o percentil 99
+        percentil_99 = percentil_df.set_index('language')['percentil 99']
+        changes_large = changes_large[changes_large.apply(
+            lambda x: x['Lines Of Code (nloc)'] >= percentil_99.get(x['Language'], 0),
+            axis=1
+        )]
 
-    large_list['path'] = large_list["path"].apply(lambda x: "/".join(x.split("/")[6:]))
-    # changes_large = changes[changes["Local File PATH New"] in large_list['path'].values | changes["Local File PATH Old"] in large_list['path'].values]
+    large_paths:pd.DataFrame = pd.DataFrame()
+    if not changes_large.empty:
+        large_paths = pd.concat([
+            changes_large['Local File PATH New'],
+            changes_large['Local File PATH Old']
+        ])
 
     changes['File Category'] = changes.apply(
-        lambda x: 'large' if x['Local File PATH New'] in large_list['path'].values or x['Local File PATH Old'] in large_list['path'].values else 'small',
+        lambda x: 'large' if x['Local File PATH New'] in large_paths.values or x['Local File PATH Old'] in large_paths.values else 'small',
         axis=1
     )
 
@@ -162,11 +165,9 @@ for i, row in repositories.iterrows():
 
     # Processa arquivos grandes
     large_df: pd.DataFrame = pd.DataFrame()
-    large_list_df: pd.DataFrame = pd.DataFrame()
     large_path = f"{large_files_commits_path}{repo_path}.csv"
     if path.exists(large_path):
         large_df: pd.DataFrame = pd.read_csv(large_path, sep=SEPARATOR)
-        large_list_df: pd.DataFrame = pd.read_csv(f"{large_list_path}{repo_path}.csv", sep=SEPARATOR)
 
     # Processa arquivos pequenos
     small_path = f"{small_files_commits_path}{repo_path}.csv"
@@ -176,9 +177,9 @@ for i, row in repositories.iterrows():
 
     project_results: list[pd.DataFrame] = []
     if not large_df.empty:
-        project_results.append(frequency_by_lifetime(large_df, large_list_df))
+        project_results.append(frequency_by_lifetime(large_df))
     if not small_df.empty:
-        project_results.append(frequency_by_lifetime(small_df, large_list_df, 'small'))
+        project_results.append(frequency_by_lifetime(small_df, 'small'))
 
     if project_results:
         pd.concat(project_results).to_csv(f"{output_path}/per_project/{repo_path}.csv", index=False)
