@@ -114,8 +114,8 @@ def frequency_by_lifetime(repository_commits: pd.DataFrame, change_type: str = "
             only_added = False
             deleted = False
             delta = 0
-            amount = len(commits)
-            if amount >= 2:
+            amount = len(commits)-1
+            if amount >= 1:
                 delta = (commits[-1] - commits[0]).total_seconds()
             else:
                 only_added = True
