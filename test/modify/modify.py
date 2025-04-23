@@ -31,28 +31,31 @@ small_files_commits: pd.DataFrame = pd.DataFrame()
 # Funções auxiliares =========================================================================================
 def frequency_by_lifetime(repository_commits: pd.DataFrame, change_type: str = "large") -> pd.DataFrame:
     """Verifica como foi o crescimento e a diminuição dos arquivos"""
-    added_files: pd.DataFrame = repository_commits[repository_commits['Change Type'] == 'ADD'].copy()
+    changes: pd.DataFrame = repository_commits.drop([
+        'Complexity',
+        'Methods',
+        'Tokens',
+        'Lines Added',
+        'Lines Deleted',
+        'Merge Commit',
+        'Message'
+    ], axis=1).copy()
 
-    if not added_files.empty:
-        added_files = added_files[added_files['File Name'].apply(lambda x: isinstance(x, str) and '.' in x)]
-        if not added_files.empty:
-            added_files['Extension'] = added_files['File Name'].apply(lambda x: x.split(".")[-1]).copy()
-            added_files = added_files[added_files['Extension'].isin(language_white_list_df['Extension'].values)]
-            added_files = added_files.merge(
+    if not changes.empty:
+        changes = changes[changes['File Name'].apply(lambda x: isinstance(x, str) and '.' in x)]
+        if not changes.empty:
+            changes['Extension'] = changes['File Name'].apply(lambda x: x.split(".")[-1]).copy()
+            changes = changes[changes['Extension'].isin(language_white_list_df['Extension'].values)]
+            changes = changes.merge(
                 language_white_list_df[['Extension', 'Language']],
                 on='Extension',
                 how='left'
             ).drop(columns=['Extension'])
 
-    changes = repository_commits[
-        repository_commits['Local File PATH New'].isin(added_files['Local File PATH New'].values) |
-        repository_commits['Local File PATH New'].isin(added_files['Local File PATH Old'].values)
-        ].copy()
-
     # Cria um mapeamento completo de TODOS os caminhos (New e Old) para linguagem
     path_to_language = pd.concat([
-        added_files[['Local File PATH New', 'Language']].rename(columns={'Local File PATH New': 'Path'}),
-        added_files[['Local File PATH Old', 'Language']].rename(columns={'Local File PATH Old': 'Path'})
+        changes[['Local File PATH New', 'Language']].rename(columns={'Local File PATH New': 'Path'}),
+        changes[['Local File PATH Old', 'Language']].rename(columns={'Local File PATH Old': 'Path'})
     ]).dropna(subset=['Path']).set_index('Path')['Language'].to_dict()
     # Atribui a linguagem baseada em ambos os caminhos
     changes['Language'] = changes.apply(

@@ -32,6 +32,7 @@ def calc_metrics(df:pd.DataFrame) -> pd.DataFrame:
     groups = df.groupby("Dataset")
     dataset_large = groups.get_group("large") if "large" in groups.groups else pd.DataFrame()
     dataset_small = groups.get_group("small") if "small" in groups.groups else pd.DataFrame()
+
     large_commits = 0
     large_only_added = 0
     large_amount_mean = 0
@@ -158,4 +159,3 @@ if not current_df.empty:
 # Resultado global ============================================================================================
 if not all_df.empty:
     calc_metrics(all_df).to_csv(f"{output_path}general/global_results.csv", index=False)
-
