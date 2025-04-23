@@ -48,21 +48,21 @@ def calc_metrics(df:pd.DataFrame) -> pd.DataFrame:
     large_deleted_interval_mean = 0
     large_deleted_interval_median = 0
     if not dataset_large.empty:
-        large_commits = dataset_large["Modifications' Amount"].sum()
-        large_only_added = len(dataset_large[dataset_large["Only Added?"] == True])
-        large_amount_mean = dataset_large[dataset_large["Only Added?"] == False]["Modifications' Amount"].mean()
-        large_amount_median = dataset_large[dataset_large["Only Added?"] == False]["Modifications' Amount"].median()
-        large_life_time_mean = dataset_large[dataset_large["Only Added?"] == False]["Life Time (second)"].mean() / 86400
-        large_life_time_median = dataset_large[dataset_large["Only Added?"] == False]["Life Time (second)"].median() / 86400
-        large_interval_mean = dataset_large[dataset_large["Only Added?"] == False]["Modifications' Interval (second)"].mean() / 86400
-        large_interval_median = dataset_large[dataset_large["Only Added?"] == False]["Modifications' Interval (second)"].median() / 86400
-        large_deleted_total = len(dataset_large[dataset_large["Deleted?"] == True])
-        large_deleted_amount_mean = dataset_large[dataset_large["Deleted?"] == True]["Modifications' Amount"].mean()
-        large_deleted_amount_median = dataset_large[dataset_large["Deleted?"] == True]["Modifications' Amount"].median()
-        large_deleted_life_time_mean = dataset_large[dataset_large["Deleted?"] == True]["Life Time (second)"].mean() / 86400
-        large_deleted_life_time_median = dataset_large[dataset_large["Deleted?"] == True]["Life Time (second)"].median() / 86400
-        large_deleted_interval_mean = dataset_large[dataset_large["Deleted?"] == True]["Modifications' Interval (second)"].mean() / 86400
-        large_deleted_interval_median = dataset_large[dataset_large["Deleted?"] == True]["Modifications' Interval (second)"].median() / 86400
+        large_commits = dataset_large[dataset_large["File Category"] == "large"]["Modifications' Amount"].sum()
+        large_only_added = len(dataset_large[(dataset_large["Only Added?"] == True) & (dataset_large["File Category"] == "large")])
+        large_amount_mean = dataset_large[(dataset_large["Only Added?"] == False) & (dataset_large["File Category"] == "large")]["Modifications' Amount"].mean()
+        large_amount_median = dataset_large[(dataset_large["Only Added?"] == False) & (dataset_large["File Category"] == "large")]["Modifications' Amount"].median()
+        large_life_time_mean = dataset_large[(dataset_large["Only Added?"] == False) & (dataset_large["File Category"] == "large")]["Life Time (second)"].mean() / 86400
+        large_life_time_median = dataset_large[(dataset_large["Only Added?"] == False) & (dataset_large["File Category"] == "large")]["Life Time (second)"].median() / 86400
+        large_interval_mean = dataset_large[(dataset_large["Only Added?"] == False) & (dataset_large["File Category"] == "large")]["Modifications' Interval (second)"].mean() / 86400
+        large_interval_median = dataset_large[(dataset_large["Only Added?"] == False) & (dataset_large["File Category"] == "large")]["Modifications' Interval (second)"].median() / 86400
+        large_deleted_total = len(dataset_large[(dataset_large["Deleted?"] == True) & (dataset_large["File Category"] == "large")])
+        large_deleted_amount_mean = dataset_large[(dataset_large["Deleted?"] == True) & (dataset_large["File Category"] == "large")]["Modifications' Amount"].mean()
+        large_deleted_amount_median = dataset_large[(dataset_large["Deleted?"] == True) & (dataset_large["File Category"] == "large")]["Modifications' Amount"].median()
+        large_deleted_life_time_mean = dataset_large[(dataset_large["Deleted?"] == True) & (dataset_large["File Category"] == "large")]["Life Time (second)"].mean() / 86400
+        large_deleted_life_time_median = dataset_large[(dataset_large["Deleted?"] == True) & (dataset_large["File Category"] == "large")]["Life Time (second)"].median() / 86400
+        large_deleted_interval_mean = dataset_large[(dataset_large["Deleted?"] == True) & (dataset_large["File Category"] == "large")]["Modifications' Interval (second)"].mean() / 86400
+        large_deleted_interval_median = dataset_large[(dataset_large["Deleted?"] == True) & (dataset_large["File Category"] == "large")]["Modifications' Interval (second)"].median() / 86400
 
     small_commits = 0
     small_only_added = 0
@@ -80,54 +80,39 @@ def calc_metrics(df:pd.DataFrame) -> pd.DataFrame:
     small_deleted_interval_mean = 0
     small_deleted_interval_median = 0
     if not dataset_small.empty:
-        small_commits = dataset_small["Modifications' Amount"].sum()
-        small_only_added = len(dataset_small[dataset_small["Only Added?"] == True])
-        small_amount_mean = dataset_small[dataset_small["Only Added?"] == False]["Modifications' Amount"].mean()
-        small_amount_median = dataset_small[dataset_small["Only Added?"] == False]["Modifications' Amount"].median()
-        small_life_time_mean = dataset_small[dataset_small["Only Added?"] == False]["Life Time (second)"].mean() / 86400
-        small_life_time_median = dataset_small[dataset_small["Only Added?"] == False]["Life Time (second)"].median() / 86400
-        small_interval_mean = dataset_small[dataset_small["Only Added?"] == False]["Modifications' Interval (second)"].mean() / 86400
-        small_interval_median = dataset_small[dataset_small["Only Added?"] == False]["Modifications' Interval (second)"].median() / 86400
-        small_deleted_total = len(dataset_small[dataset_small["Deleted?"] == True])
-        small_deleted_amount_mean = dataset_small[dataset_small["Deleted?"] == True]["Modifications' Amount"].mean()
-        small_deleted_amount_median = dataset_small[dataset_small["Deleted?"] == True]["Modifications' Amount"].median()
-        small_deleted_life_time_mean = dataset_small[dataset_small["Deleted?"] == True]["Life Time (second)"].mean() / 86400
-        small_deleted_life_time_median = dataset_small[dataset_small["Deleted?"] == True]["Life Time (second)"].median() / 86400
-        small_deleted_interval_mean = dataset_small[dataset_small["Deleted?"] == True]["Modifications' Interval (second)"].mean() / 86400
-        small_deleted_interval_median = dataset_small[dataset_small["Deleted?"] == True]["Modifications' Interval (second)"].median() / 86400
+        small_commits = dataset_small[dataset_small["File Category"] == "small"]["Modifications' Amount"].sum()
+        small_only_added = len(dataset_small[(dataset_small["Only Added?"] == True) & (dataset_small["File Category"] == "small")])
+        small_amount_mean = dataset_small[(dataset_small["Only Added?"] == False) & (dataset_small["File Category"] == "small")]["Modifications' Amount"].mean()
+        small_amount_median = dataset_small[(dataset_small["Only Added?"] == False) & (dataset_small["File Category"] == "small")]["Modifications' Amount"].median()
+        small_life_time_mean = dataset_small[(dataset_small["Only Added?"] == False) & (dataset_small["File Category"] == "small")]["Life Time (second)"].mean() / 86400
+        small_life_time_median = dataset_small[(dataset_small["Only Added?"] == False) & (dataset_small["File Category"] == "small")]["Life Time (second)"].median() / 86400
+        small_interval_mean = dataset_small[(dataset_small["Only Added?"] == False) & (dataset_small["File Category"] == "small")]["Modifications' Interval (second)"].mean() / 86400
+        small_interval_median = dataset_small[(dataset_small["Only Added?"] == False) & (dataset_small["File Category"] == "small")]["Modifications' Interval (second)"].median() / 86400
+        small_deleted_total = len(dataset_small[(dataset_small["Deleted?"] == True) & (dataset_small["File Category"] == "small")])
+        small_deleted_amount_mean = dataset_small[(dataset_small["Deleted?"] == True) & (dataset_small["File Category"] == "small")]["Modifications' Amount"].mean()
+        small_deleted_amount_median = dataset_small[(dataset_small["Deleted?"] == True) & (dataset_small["File Category"] == "small")]["Modifications' Amount"].median()
+        small_deleted_life_time_mean = dataset_small[(dataset_small["Deleted?"] == True) & (dataset_small["File Category"] == "small")]["Life Time (second)"].mean() / 86400
+        small_deleted_life_time_median = dataset_small[(dataset_small["Deleted?"] == True) & (dataset_small["File Category"] == "small")]["Life Time (second)"].median() / 86400
+        small_deleted_interval_mean = dataset_small[(dataset_small["Deleted?"] == True) & (dataset_small["File Category"] == "small")]["Modifications' Interval (second)"].mean() / 86400
+        small_deleted_interval_median = dataset_small[(dataset_small["Deleted?"] == True) & (dataset_small["File Category"] == "small")]["Modifications' Interval (second)"].median() / 86400
 
     result = {
-        "Large Commits": [large_commits],
-        "Large Only Added": [large_only_added],
-        "Large Amount Mean": [large_amount_mean],
-        "Large Amount Median": [large_amount_median],
-        "Large Life Time Mean": [large_life_time_mean],
-        "Large Life Time Median": [large_life_time_median],
-        "Large Interval Mean": [large_interval_mean],
-        "Large Interval Median": [large_interval_median],
-        "Large Deleted Total": [large_deleted_total],
-        "Large Deleted Amount Mean": [large_deleted_amount_mean],
-        "Large Deleted Amount Median": [large_deleted_amount_median],
-        "Large Deleted Life Time Mean": [large_deleted_life_time_mean],
-        "Large Deleted Life Time Median": [large_deleted_life_time_median],
-        "Large Deleted Interval Mean": [large_deleted_interval_mean],
-        "Large Deleted Interval Median": [large_deleted_interval_median],
-
-        "Small Commits": [small_commits],
-        "Small Only Added": [small_only_added],
-        "Small Amount Mean": [small_amount_mean],
-        "Small Amount Median": [small_amount_median],
-        "Small Life Time Mean": [small_life_time_mean],
-        "Small Life Time Median": [small_life_time_median],
-        "Small Interval Mean": [small_interval_mean],
-        "Small Interval Median": [small_interval_median],
-        "Small Deleted Total": [small_deleted_total],
-        "Small Deleted Amount Mean": [small_deleted_amount_mean],
-        "Small Deleted Amount Median": [small_deleted_amount_median],
-        "Small Deleted Life Time Mean": [small_deleted_life_time_mean],
-        "Small Deleted Life Time Median": [small_deleted_life_time_median],
-        "Small Deleted Interval Mean": [small_deleted_interval_mean],
-        "Small Deleted Interval Median": [small_deleted_interval_median],
+        "Type": ["Large", "Small"],
+        "Commits": [large_commits, small_commits],
+        "Only Added": [large_only_added, small_only_added],
+        "Amount Mean": [large_amount_mean, small_amount_mean],
+        "Amount Median": [large_amount_median, small_amount_median],
+        "Life Time Mean": [large_life_time_mean, small_life_time_mean],
+        "Life Time Median": [large_life_time_median, small_life_time_median],
+        "Interval Mean": [large_interval_mean, small_interval_mean],
+        "Interval Median": [large_interval_median, small_interval_median],
+        "Deleted Total": [large_deleted_total, small_deleted_total],
+        "Deleted Amount Mean": [large_deleted_amount_mean, small_deleted_amount_mean],
+        "Deleted Amount Median": [large_deleted_amount_median, small_deleted_amount_median],
+        "Deleted Life Time Mean": [large_deleted_life_time_mean, small_deleted_life_time_mean],
+        "Deleted Life Time Median": [large_deleted_life_time_median, small_deleted_life_time_median],
+        "Deleted Interval Mean": [large_deleted_interval_mean, small_deleted_interval_mean],
+        "Deleted Interval Median": [large_deleted_interval_median, small_deleted_interval_median],
     }
     return pd.DataFrame(result)
 
