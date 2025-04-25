@@ -137,8 +137,6 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, white_list: pd.D
         if not flex_large.empty:
             flex_large = flex_large.sort_values(by='Committer Commit Date')
 
-            # flex_large.to_csv(f"{output_path}/{path}/{change_type}s_flex.csv", index=False)
-
             flex_large_grouped = flex_large.groupby('Local File PATH New')
             flex_large_total = len(flex_large_grouped)
 
