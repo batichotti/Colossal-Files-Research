@@ -106,6 +106,42 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, white_list: pd.D
             modified_large_per_file = modified_large.groupby('Local File PATH New')
             modified_large_total = len(modified_large_per_file)
 
+    # FLEX LARGE ========================================================================================================
+        flex_large: pd.DataFrame = pd.DataFrame()
+        flex_large_total = 0
+
+        concat_list = []
+        if not born_large.empty:
+            concat_list.append(born_large)
+        if not modified_large.empty:
+            concat_list.append(modified_large)
+        if concat_list:
+            flex_large = repository_commits[repository_commits['Local File PATH New'].isin(pd.concat(concat_list)['Local File PATH New'])].copy()
+
+        combined_keys: pd.DataFrame = pd.DataFrame()
+        if concat_list:
+            # Excluir registros onde a combinação Local File PATH New + Hash está em born_large ou modified_large ou no_longer
+            combined_keys = pd.concat(concat_list)[['Local File PATH New', 'Hash']].drop_duplicates()
+
+            # Usar merge para identificar registros que NÃO estão em combined_keys
+            flex_large = flex_large.merge(
+                combined_keys,
+                on=['Local File PATH New', 'Hash'],
+                how='left',
+                indicator=True
+            )
+
+            # Manter apenas os registros que não estão em combined_keys
+            flex_large = flex_large[flex_large['_merge'] == 'left_only'].drop(columns='_merge')
+
+        if not flex_large.empty:
+            flex_large = flex_large.sort_values(by='Committer Commit Date')
+
+            # flex_large.to_csv(f"{output_path}/{path}/{change_type}s_flex.csv", index=False)
+
+            flex_large_grouped = flex_large.groupby('Local File PATH New')
+            flex_large_total = len(flex_large_grouped)
+
     # BECOME ==================================================================================================================
     become_large = repository_commits[repository_commits['Change Type'] == 'MODIFY'].copy()
     added_files = repository_commits[repository_commits['Change Type'] == 'ADD']
