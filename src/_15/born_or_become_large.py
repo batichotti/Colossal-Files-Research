@@ -26,8 +26,14 @@ large_files_commits: pd.DataFrame = pd.DataFrame()
 small_files_commits: pd.DataFrame = pd.DataFrame()
 
 # Funções auxiliares =========================================================================================
-def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str = "large") -> pd.DataFrame:
+def born_or_become(repository_commits: pd.DataFrame, path: str, white_list: pd.DataFrame, change_type: str = "large") -> pd.DataFrame:
     """Classifica os periodos de um arquivo onde ele foi grande"""
+    
+    white_list_fl = white_list['path'].apply(lambda x: "/".join(x.split("/")[6:])).values
+    repository_commits = repository_commits[
+        repository_commits['Local File PATH New'].isin(white_list_fl) |
+        repository_commits['Local File PATH Old'].isin(white_list_fl) 
+    ]
 
     files_total = len(repository_commits.groupby('Local File PATH New'))
 
@@ -282,19 +288,19 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, change_type: str
     # RESULT ================================================================================================
     result: dict = {
         "Type": [change_type],
-        "Added Files TOTAL": [babies_total],
+        # "Added Files TOTAL": [babies_total],
         "Added Large Files TOTAL": [len(born_large)],
-        "Added Large Files Percentage": [(len(born_large)/babies_total)*100],
-        "Added and Modified Files TOTAL": [added_modified_total],
+        # "Added Large Files Percentage": [(len(born_large)/babies_total)*100],
+        # "Added and Modified Files TOTAL": [added_modified_total],
         "Become Large Files TOTAL": [become_large_total],
-        "Become Large Files Percentage": [((become_large_total/added_modified_total)*100) if added_modified_total > 0 else 0],
-        "Modified Files TOTAL": [modifieds_total],
-        "Modified Large Files TOTAL": [modified_large_total],
-        "Modified Large Files Percentage": [((modified_large_total/modifieds_total)*100) if modifieds_total > 0 else 0],
+        # "Become Large Files Percentage": [((become_large_total/added_modified_total)*100) if added_modified_total > 0 else 0],
+        # "Modified Files TOTAL": [modifieds_total],
+        # "Modified Large Files TOTAL": [modified_large_total],
+        # "Modified Large Files Percentage": [((modified_large_total/modifieds_total)*100) if modifieds_total > 0 else 0],
         "Flex Large Files TOTAL": [flex_large_total],
-        "Flex Large Files Percentage": [(flex_large_total/files_total)*100],
-        "No Longer Large Files TOTAL": [len(remaining_no_longer)],
-        "No Longer Large Files Percentage": [(len(remaining_no_longer)/files_total)*100]
+        # "Flex Large Files Percentage": [(flex_large_total/files_total)*100],
+        # "No Longer Large Files TOTAL": [len(remaining_no_longer)],
+        # "No Longer Large Files Percentage": [(len(remaining_no_longer)/files_total)*100]
 
     }
     return pd.DataFrame(result)
@@ -348,32 +354,32 @@ for i, row in repositories.iterrows():
         large_files_commits = pd.concat([large_files_commits, large_df])
 
     # Processa arquivos pequenos
-    small_path = f"{small_files_commits_path}{repo_path}.csv"
-    small_df: pd.DataFrame = pd.DataFrame()
-    if path.exists(small_path):
-        small_df: pd.DataFrame = pd.read_csv(small_path, sep=SEPARATOR)
-        current_small = pd.concat([current_small, small_df])
-        small_files_commits = pd.concat([small_files_commits, small_df])
+    # small_path = f"{small_files_commits_path}{repo_path}.csv"
+    # small_df: pd.DataFrame = pd.DataFrame()
+    # if path.exists(small_path):
+    #     small_df: pd.DataFrame = pd.read_csv(small_path, sep=SEPARATOR)
+    #     current_small = pd.concat([current_small, small_df])
+    #     small_files_commits = pd.concat([small_files_commits, small_df])
 
-    project_results: list[pd.DataFrame] = []
-    if not large_df.empty:
-        project_results.append(born_or_become(large_df, f"commits/per_project/{repo_path}"))
-    if not small_df.empty:
-        project_results.append(born_or_become(small_df, f"commits/per_project/{repo_path}", 'small'))
+    # project_results: list[pd.DataFrame] = []
+    # if not large_df.empty:
+    #     project_results.append(born_or_become(large_df, f"commits/per_project/{repo_path}"))
+    # if not small_df.empty:
+    #     project_results.append(born_or_become(small_df, f"commits/per_project/{repo_path}", 'small'))
 
-    if project_results:
-        pd.concat(project_results).to_csv(f"{output_path}/per_project/{repo_path}.csv", index=False)
+    # if project_results:
+    #     pd.concat(project_results).to_csv(f"{output_path}/per_project/{repo_path}.csv", index=False)
 
 # Processa última linguagem
 if not current_large.empty or not current_small.empty:
     process_language(current_language, current_large, current_small, output_path)
 
 # Resultado global ============================================================================================
-final_results: list[pd.DataFrame] = []
-if not large_files_commits.empty:
-    final_results.append(born_or_become(large_files_commits, "commits"))
-if not small_files_commits.empty:
-    final_results.append(born_or_become(small_files_commits, "commits", 'small'))
+# final_results: list[pd.DataFrame] = []
+# if not large_files_commits.empty:
+#     final_results.append(born_or_become(large_files_commits, "commits"))
+# if not small_files_commits.empty:
+#     final_results.append(born_or_become(small_files_commits, "commits", 'small'))
 
-if final_results:
-    pd.concat(final_results).to_csv(f"{output_path}/global_results.csv", index=False)
+# if final_results:
+#     pd.concat(final_results).to_csv(f"{output_path}/global_results.csv", index=False)
