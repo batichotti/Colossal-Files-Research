@@ -90,45 +90,56 @@ result: dict = {
 
 makedirs(f"{output_path}", exist_ok=True)
 pd.DataFrame(result).to_csv(f"{output_path}result.csv")
-
-# Save a CSV with the top 50% highest means
+# Save a CSV with the top 50% highest means and medians
 large_top_50 = large_df.nlargest(len(large_df) // 2, "mean")
 small_top_50 = small_df.nlargest(len(small_df) // 2, "mean")
 
 large_top_50_mean = large_top_50["mean"].mean()
 small_top_50_mean = small_top_50["mean"].mean()
+large_top_50_median = large_top_50["median"].median()
+small_top_50_median = small_top_50["median"].median()
 
-# Save the means to a separate CSV
-means = pd.DataFrame({
+# Save the means and medians to a separate CSV
+means_medians = pd.DataFrame({
     "Large Top 50% Mean": [large_top_50_mean],
-    "Small Top 50% Mean": [small_top_50_mean]
+    "Small Top 50% Mean": [small_top_50_mean],
+    "Large Top 50% Median": [large_top_50_median],
+    "Small Top 50% Median": [small_top_50_median]
 })
-means.to_csv(f"{output_path}top_50_means.csv", index=False)
+means_medians.to_csv(f"{output_path}top_50_means_medians.csv", index=False)
 
-# Save a CSV with the top 25% highest means
+# Save a CSV with the top 25% highest means and medians
 large_top_25 = large_df.nlargest(len(large_df) * 25 // 100, "mean")
 small_top_25 = small_df.nlargest(len(small_df) * 25 // 100, "mean")
 
 large_top_25_mean = large_top_25["mean"].mean()
 small_top_25_mean = small_top_25["mean"].mean()
+large_top_25_median = large_top_25["median"].median()
+small_top_25_median = small_top_25["median"].median()
 
-# Save the means to a separate CSV
-means_25 = pd.DataFrame({
+# Save the means and medians to a separate CSV
+means_medians_25 = pd.DataFrame({
     "Large Top 25% Mean": [large_top_25_mean],
-    "Small Top 25% Mean": [small_top_25_mean]
+    "Small Top 25% Mean": [small_top_25_mean],
+    "Large Top 25% Median": [large_top_25_median],
+    "Small Top 25% Median": [small_top_25_median]
 })
-means_25.to_csv(f"{output_path}top_25_means.csv", index=False)
+means_medians_25.to_csv(f"{output_path}top_25_means_medians.csv", index=False)
 
-# Save a CSV with the top 10% highest means
+# Save a CSV with the top 10% highest means and medians
 large_top_10 = large_df.nlargest(len(large_df) * 10 // 100, "mean")
 small_top_10 = small_df.nlargest(len(small_df) * 10 // 100, "mean")
 
 large_top_10_mean = large_top_10["mean"].mean()
 small_top_10_mean = small_top_10["mean"].mean()
+large_top_10_median = large_top_10["median"].median()
+small_top_10_median = small_top_10["median"].median()
 
-# Save the means to a separate CSV
-means_10 = pd.DataFrame({
+# Save the means and medians to a separate CSV
+means_medians_10 = pd.DataFrame({
     "Large Top 10% Mean": [large_top_10_mean],
-    "Small Top 10% Mean": [small_top_10_mean]
+    "Small Top 10% Mean": [small_top_10_mean],
+    "Large Top 10% Median": [large_top_10_median],
+    "Small Top 10% Median": [small_top_10_median]
 })
-means_10.to_csv(f"{output_path}top_10_means.csv", index=False)
+means_medians_10.to_csv(f"{output_path}top_10_means_medians.csv", index=False)
