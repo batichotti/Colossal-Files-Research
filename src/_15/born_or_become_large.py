@@ -109,61 +109,56 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, white_list: pd.D
             modified_large_total = len(modified_large_per_file)
 
 
-    # NO LONGER LARGE =============================================================================================
-    no_longer_large: pd.DataFrame = pd.DataFrame()
+    # # NO LONGER LARGE =============================================================================================
+    # no_longer_large: pd.DataFrame = pd.DataFrame()
 
-    concat_list = []
-    if not born_large.empty:
-        concat_list.append(born_large)
-    if not modified_large.empty:
-        concat_list.append(modified_large)
-    if concat_list:
-        no_longer_large = repository_commits[repository_commits['Local File PATH New'].isin(pd.concat(concat_list)['Local File PATH New'])].copy()
+    # concat_list = []
+    # if not born_large.empty:
+    #     concat_list.append(born_large)
+    # if not modified_large.empty:
+    #     concat_list.append(modified_large)
+    # if concat_list:
+    #     no_longer_large = repository_commits[repository_commits['Local File PATH New'].isin(pd.concat(concat_list)['Local File PATH New'])].copy()
 
-    # Criar chaves compostas de born_large e modified_large
-    combined_keys: pd.DataFrame = pd.DataFrame()
-    if concat_list:
-        combined_keys = pd.concat(concat_list)[['Local File PATH New', 'Hash']].drop_duplicates()
+    # # Criar chaves compostas de born_large e modified_large
+    # combined_keys: pd.DataFrame = pd.DataFrame()
+    # if concat_list:
+    #     combined_keys = pd.concat(concat_list)[['Local File PATH New', 'Hash']].drop_duplicates()
 
-        # Filtrar no_longer_large para remover linhas que existem em combined_keys
-        no_longer_large = no_longer_large.merge(
-            combined_keys,
-            on=['Local File PATH New', 'Hash'],
-            how='left',
-            indicator=True
-        )
+    #     # Filtrar no_longer_large para remover linhas que existem em combined_keys
+    #     no_longer_large = no_longer_large.merge(
+    #         combined_keys,
+    #         on=['Local File PATH New', 'Hash'],
+    #         how='left',
+    #         indicator=True
+    #     )
 
-        # Manter apenas as linhas que NÃO estão em combined_keys
-        no_longer_large = no_longer_large[no_longer_large['_merge'] == 'left_only'].drop(columns='_merge')
+    #     # Manter apenas as linhas que NÃO estão em combined_keys
+    #     no_longer_large = no_longer_large[no_longer_large['_merge'] == 'left_only'].drop(columns='_merge')
 
-    no_longer_large_grouped_size = 0
-    if not no_longer_large.empty:
-        no_longer_large = no_longer_large.sort_values(by='Committer Commit Date')
-        no_longer_large_grouped = no_longer_large.groupby('Local File PATH New')
-        no_longer_large_grouped_size = len(no_longer_large_grouped)
+    # no_longer_large_grouped_size = 0
+    # if not no_longer_large.empty:
+    #     no_longer_large = no_longer_large.sort_values(by='Committer Commit Date')
+    #     no_longer_large_grouped = no_longer_large.groupby('Local File PATH New')
+    #     no_longer_large_grouped_size = len(no_longer_large_grouped)
 
-    remaining_no_longer = []
-    if no_longer_large_grouped_size:
-        for file_path, group in no_longer_large_grouped:
-            last_commit_date = group['Committer Commit Date'].min()
-            # born
-            if born_large.empty and file_path in born_large['Local File PATH New'].values:
-                born_last_commit_date = born_large[born_large['Local File PATH New'] == file_path]['Committer Commit Date'].max()
-            else:
-                born_last_commit_date = str(pd.Timestamp.min)
-            # become
-            if modified_large_total and file_path in modified_large_per_file.groups:
-                become_last_commit_date = modified_large_per_file.get_group(file_path)['Committer Commit Date'].max()
-            else:
-                become_last_commit_date = str(pd.Timestamp.min)
-            #comparação de data
-            if last_commit_date > born_last_commit_date and last_commit_date > become_last_commit_date:
-                remaining_no_longer.append(group)
-
-    no_longer:pd.DataFrame = pd.DataFrame()
-    if remaining_no_longer:
-        no_longer = pd.concat(remaining_no_longer)
-        # no_longer.to_csv(f"{output_path}/{path}/{change_type}s_no_longer.csv", index=False)
+    # remaining_no_longer = []
+    # if no_longer_large_grouped_size:
+    #     for file_path, group in no_longer_large_grouped:
+    #         last_commit_date = group['Committer Commit Date'].min()
+    #         # born
+    #         if born_large.empty and file_path in born_large['Local File PATH New'].values:
+    #             born_last_commit_date = born_large[born_large['Local File PATH New'] == file_path]['Committer Commit Date'].max()
+    #         else:
+    #             born_last_commit_date = str(pd.Timestamp.min)
+    #         # become
+    #         if modified_large_total and file_path in modified_large_per_file.groups:
+    #             become_last_commit_date = modified_large_per_file.get_group(file_path)['Committer Commit Date'].max()
+    #         else:
+    #             become_last_commit_date = str(pd.Timestamp.min)
+    #         #comparação de data
+    #         if last_commit_date > born_last_commit_date and last_commit_date > become_last_commit_date:
+    #             remaining_no_longer.append(group)
 
 
     # FLEX LARGE ========================================================================================================
@@ -178,8 +173,8 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, white_list: pd.D
     if concat_list:
         flex_large = repository_commits[repository_commits['Local File PATH New'].isin(pd.concat(concat_list)['Local File PATH New'])].copy()
 
-    if not no_longer.empty:
-        concat_list.append(no_longer)
+    # if not no_longer.empty:
+    #     concat_list.append(no_longer)
 
     combined_keys: pd.DataFrame = pd.DataFrame()
     if concat_list:
@@ -199,11 +194,7 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, white_list: pd.D
 
     if not flex_large.empty:
         flex_large = flex_large.sort_values(by='Committer Commit Date')
-
-        # flex_large.to_csv(f"{output_path}/{path}/{change_type}s_flex.csv", index=False)
-
-        flex_large_grouped = flex_large.groupby('Local File PATH New')
-        flex_large_total = len(flex_large_grouped)
+        flex_large_total = len(flex_large)
 
 
     # BECOME ==================================================================================================================
@@ -261,8 +252,8 @@ def born_or_become(repository_commits: pd.DataFrame, path: str, white_list: pd.D
         concat_list.append(become_large)
     if not flex_large.empty:
         concat_list.append(flex_large)
-    if not no_longer.empty:
-        concat_list.append(no_longer)
+    # if not no_longer.empty:
+    #     concat_list.append(no_longer)
     if concat_list:
         combined_keys = pd.concat(concat_list)['Local File PATH New'].drop_duplicates()
 
@@ -311,8 +302,8 @@ def process_language(lang: str, large: pd.DataFrame, small: pd.DataFrame, output
     results:list[pd.DataFrame] = []
     if not large.empty:
         results.append(born_or_become(large, f"commits/per_language/{lang}", 'large'))
-    if not small.empty:
-        results.append(born_or_become(small, f"commits/per_language/{lang}", 'small'))
+    # if not small.empty:
+    #     results.append(born_or_become(small, f"commits/per_language/{lang}", 'small'))
 
     if results:
         pd.concat(results).to_csv(f"{output_path}/per_language/{lang}.csv", index=False)
@@ -320,7 +311,7 @@ def process_language(lang: str, large: pd.DataFrame, small: pd.DataFrame, output
 # Processamento principal =====================================================================================
 current_language: str = None
 current_large: pd.DataFrame = pd.DataFrame()
-current_small: pd.DataFrame = pd.DataFrame()
+# current_small: pd.DataFrame = pd.DataFrame()
 
 for i, row in repositories.iterrows():
     repo_url: str = row['url']
