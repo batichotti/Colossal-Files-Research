@@ -48,37 +48,14 @@ for i in range(len(repositories)):
                 large_drill['Local File PATH New'].isin(large_file_list['path'])
             ]
 
-            # Add columns to large_drill relating "Local File PATH Old" and "Local File PATH New" with "path"
-            large_drill = large_drill.merge(
-                large_file_list[['path', 'File Extension', 'Large Percentile']],
-                how='left',
-                left_on='Local File PATH Old',
-                right_on='path'
-            ).rename(columns={
-                'File Extension': 'File Extension Old',
-                'Large Percentile': 'Large Percentile Old'
-            }).drop(columns=['path'])
+            large_drill["Lines Balance"] = large_drill["Lines Added"] - large_drill["Lines Deleted"]
 
-            large_drill = large_drill.merge(
-                large_file_list[['path', 'File Extension', 'Large Percentile']],
-                how='left',
-                left_on='Local File PATH New',
-                right_on='path'
-            ).rename(columns={
-                'File Extension': 'File Extension New',
-                'Large Percentile': 'Large Percentile New'
-            }).drop(columns=['path'])
+            large_drill = large_drill.drop(columns=['Project Name', 'Local Commit PATH', 'Merge Commit', 'Message'])
 
-            # Reorder columns to place specific columns after "Local File PATH New"
-            columns_order = list(large_drill.columns)
-            insert_after = "Local File PATH New"
-            new_columns = ["File Extension Old", "Large Percentile Old", "File Extension New", "Large Percentile New"]
-
-            for col in reversed(new_columns):
-                columns_order.insert(columns_order.index(insert_after) + 1, columns_order.pop(columns_order.index(col)))
-
-            large_drill = large_drill[columns_order]
-
+            # Reorder columns to place "Lines Balance" after "Lines Deleted"
+            columns = list(large_drill.columns)
+            columns.insert(columns.index('Lines Deleted') + 1, columns.pop(columns.index('Lines Balance')))
+            large_drill = large_drill[columns]
             # Adjust and sort by "Committer Commit Date"
             large_drill['Committer Commit Date'] = large_drill['Committer Commit Date'].apply(
                 lambda x: x[:-3] + x[-2:]  # Remove the ':' from the offset (+02:00 → +0200)
@@ -86,10 +63,9 @@ for i in range(len(repositories)):
             large_drill['Committer Commit Date'] = large_drill['Committer Commit Date'].apply(
                 lambda x: datetime.datetime.strptime(x, '%Y-%m-%d %H:%M:%S%z').astimezone(datetime.timezone.utc)
             )
-            large_drill = large_drill.sort_values(by='Committer Commit Date')
 
-            # Sort large_drill by "File Name"
-            large_drill = large_drill.sort_values(by="File Name")
+            # Sort large_drill by "File Name" and then by "Committer Commit Date"
+            large_drill = large_drill.sort_values(by=["File Name", "Committer Commit Date"])
 
             large_drill.to_csv(f"{output_path}large/{repo_path}.csv", sep=";", index=False)
 
