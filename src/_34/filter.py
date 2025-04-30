@@ -50,7 +50,7 @@ for i in range(len(repositories)):
 
             large_drill["Lines Balance"] = large_drill["Lines Added"] - large_drill["Lines Deleted"]
 
-            large_drill = large_drill.drop(columns=['Project Name', 'Local Commit PATH', 'Merge Commit', 'Message'])
+            large_drill = large_drill.drop(columns=['Project Name', 'Local Commit PATH', 'Merge Commit', 'Message', 'Author Commit Date', 'Author Commit Timezone'])
 
             # Reorder columns to place "Lines Balance" after "Lines Deleted"
             columns = list(large_drill.columns)
