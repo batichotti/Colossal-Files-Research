@@ -81,13 +81,32 @@ for i, row in repositories.iterrows():
                     large_file_history['Is Large?'].shift(fill_value=False)
                 )
 
+
+                # renaming columns
+                large_file_history.rename(columns={
+                    'File Name': 'file_name',
+                    'Change Type': 'change_type',
+                    'nLoc': 'n_loc',
+                    'Lines Balance': 'lines_balance',
+                    'Size Change': 'size_change',
+                    'Is Large?': 'is_large',
+                    'Date': 'date',
+                    'Swapped Classification?': 'swapped_classification',
+                    'Complexity': 'complexity',
+                    'Methods': 'methods',
+                    'Tokens': 'tokens',
+                    'Hash': 'hash',
+                    '#Files on commit': 'files_on_commit',
+                    'Committer Email': 'committer_email',
+                    'Author Email': 'author_email'
+                }, inplace=True)
                 # sorting cols
                 large_file_history = large_file_history[[
-                    'File Name', 'Change Type',
-                    'nLoc', 'Lines Balance', 'Size Change', 'Is Large?', 'Date',
-                    'Swapped Classification?',
-                    'Complexity', 'Methods', 'Tokens',
-                    'Hash', '#Files on commit', 'Committer Email', 'Author Email'
+                    'file_name', 'change_type',
+                    'n_loc', 'lines_balance', 'size_change', 'is_large', 'date',
+                    'swapped_classification',
+                    'complexity', 'methods', 'tokens',
+                    'hash', 'files_on_commit', 'committer_email', 'author_email'
                 ]]
 
                 # saving file
