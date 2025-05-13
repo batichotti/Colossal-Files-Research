@@ -54,7 +54,7 @@ for i, row in repositories.iterrows():
 
                 # large_file_history['Lines Balance (nLoc)']
                 large_file_history['nLoc'] = pd.to_numeric(large_file_history['nLoc'], errors='coerce')
-                large_file_history['Lines Balance (nLoc)'] = large_file_history['nLoc'].diff().fillna(0)
+                large_file_history['Lines Balance'] = large_file_history['nLoc'].diff().fillna(0)
                 large_file_history['nLoc'] = large_file_history['nLoc'].fillna('not calculated')
 
 
@@ -83,8 +83,9 @@ for i, row in repositories.iterrows():
 
                 # sorting cols
                 large_file_history = large_file_history[[
-                    'File Name', 'Change Type', 'Date',
-                    'nLoc', 'Lines Balance (nLoc)', 'Size Change', 'Is Large?', 'Swapped Classification?',
+                    'Change Type', 'File Name',
+                    'nLoc', 'Lines Balance', 'Size Change', 'Is Large?', 'Date',
+                    'Swapped Classification?',
                     'Complexity', 'Methods', 'Tokens',
                     'Hash', '#Files on commit', 'Committer Email', 'Author Email'
                 ]]
