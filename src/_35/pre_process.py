@@ -83,7 +83,7 @@ for i, row in repositories.iterrows():
 
                 # sorting cols
                 large_file_history = large_file_history[[
-                    'Change Type', 'File Name',
+                    'File Name', 'Change Type',
                     'nLoc', 'Lines Balance', 'Size Change', 'Is Large?', 'Date',
                     'Swapped Classification?',
                     'Complexity', 'Methods', 'Tokens',
