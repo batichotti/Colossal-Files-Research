@@ -20,11 +20,12 @@ repositories:pd.DataFrame = pd.read_csv(repositories_path)
 
 # ======================================================================================================================
 
-for i in range(len(repositories)):
-    # getting repository information
-    repository, language = repositories.loc[i, ['url', 'main language']]
-
-    repo_path = f"{language}/{repository.split('/')[-2]}~{repository.split('/')[-1]}"
+for i, row in repositories.iterrows():
+    repo_url: str = row['url']
+    language: str = row['main language']
+    repo_name: str = repo_url.split('/')[-1]
+    repo_owner: str = repo_url.split('/')[-2]
+    repo_path: str = f"{language}/{repo_owner}~{repo_name}"
     print(repo_path)
 
     makedirs(f"{output_path}large/{language}", exist_ok=True)
@@ -69,7 +70,7 @@ for i in range(len(repositories)):
             large_drill = large_drill.sort_values(by=["File Name", "Committer Commit Date"])
 
             large_drill.to_csv(f"{output_path}large/{repo_path}.csv", sep=";", index=False)
-    
+
     makedirs(f"{output_path}small/{language}", exist_ok=True)
     if path.exists(f"{small_files_path}{repo_path}.csv"):
         small_file_list = pd.read_csv(f"{small_files_path}{repo_path}.csv", sep=SEPARATOR)
