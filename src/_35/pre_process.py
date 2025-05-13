@@ -9,7 +9,8 @@ SEPARATOR = ';'
 input_path:str = "./src/_35/input/"
 output_path = "./src/_35/output/"
 
-repositories_path:str = "./src/_00/input/450-linux-pytorch.csv"
+repositories_path:str = "./src/_00/input/avalonia.csv"
+# repositories_path:str = "./src/_00/input/450-linux-pytorch.csv"
 language_white_list_path: str = "./src/_12/input/white_list.csv"
 percentil_path: str = "./src/_02/output/percentis_by_language_filtered.csv"
 large_filtered_path:str = "./src/_34/output/large/"
@@ -31,7 +32,7 @@ for i, row in repositories.iterrows():
     repo_path: str = f"{language}/{repo_owner}~{repo_name}"
     print(repo_path)
 
-    # makedirs(f"{output_path}large/{language}", exist_ok=True)
+    makedirs(f"{output_path}large/{repo_path}", exist_ok=True)
     if path.exists(f"{large_filtered_path}{repo_path}.csv"):
         large_files_data = pd.read_csv(f"{large_filtered_path}{repo_path}.csv", sep=SEPARATOR)
         if not large_files_data.empty:
@@ -83,7 +84,7 @@ for i, row in repositories.iterrows():
                 ]]
 
                 # saving file
-                # large_file_history.to_csv(f"{output_path}large/{repo_path}/{file_name}.csv", sep=SEPARATOR, index=False)
+                large_file_history.to_csv(f"{output_path}large/{repo_path}/{file_name}.csv", sep=SEPARATOR, index=False)
 
                 # with pd.option_context('display.max_rows', None, 'display.max_columns', None):
                 #     input(large_file_history.to_string(index=False))
