@@ -9,8 +9,8 @@ SEPARATOR = ';'
 input_path:str = "./src/_35/input/"
 output_path = "./src/_35/output/"
 
-repositories_path:str = "./src/_00/input/avalonia.csv"
-# repositories_path:str = "./src/_00/input/450-linux-pytorch.csv"
+# repositories_path:str = "./src/_00/input/avalonia.csv"
+repositories_path:str = "./src/_00/input/450-linux-pytorch.csv"
 language_white_list_path: str = "./src/_12/input/white_list.csv"
 percentil_path: str = "./src/_02/output/percentis_by_language_filtered.csv"
 large_filtered_path:str = "./src/_34/output/large/"
