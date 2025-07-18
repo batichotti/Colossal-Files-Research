@@ -41,11 +41,11 @@ for i in range(len(repositories)):
 
     # Generating the path to the repository's files list
     files_list_path: str = f'{renamed_large_path}{main_language}/{owner}~{project}.csv'
-    print(f'* {files_list_path} - {len(files_list_path)} files')
 
     # Loading files list
     if os.path.exists(files_list_path):
         files_list: pd.DataFrame = pd.read_csv(files_list_path, sep=';')
+        print(f'* {files_list_path} - {len(files_list)} files')
         # print(f' --> {files_list}')
 
         for j in range(len(files_list)):
@@ -146,11 +146,11 @@ for i in range(len(repositories)):
 
     # Generating the path to the repository's files list
     files_list_path: str = f'{renamed_small_path}{main_language}/{owner}~{project}.csv'
-    print(f'* {files_list_path} - {len(files_list_path)} files')
 
     # Loading files list
     if os.path.exists(files_list_path):
         files_list: pd.DataFrame = pd.read_csv(files_list_path, sep=';')
+        print(f'* {files_list_path} - {len(files_list)} files')
         # print(f' --> {files_list}')
 
         for j in range(len(files_list)):
