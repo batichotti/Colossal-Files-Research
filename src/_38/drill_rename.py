@@ -44,86 +44,87 @@ for i in range(len(repositories)):
     print(f'* {files_list_path} - {len(files_list_path)} files')
 
     # Loading files list
-    files_list: pd.DataFrame = pd.read_csv(files_list_path, sep=';')
-    # print(f' --> {files_list}')
+    if os.path.exists(files_list_path):
+        files_list: pd.DataFrame = pd.read_csv(files_list_path, sep=';')
+        # print(f' --> {files_list}')
 
-    for j in range(len(files_list)):
-        # For each file, generate a path
-        file_path: str = files_list['path'].loc[j]
-        file_name: str = file_path.split('/')[-1]
-        file_path = '/'.join(file_path.split('/')[6:])
-        print(f'{file_path} - Mininig...')
+        for j in range(len(files_list)):
+            # For each file, generate a path
+            file_path: str = files_list['path'].loc[j]
+            file_name: str = file_path.split('/')[-1]
+            file_path = '/'.join(file_path.split('/')[6:])
+            print(f'{file_path} - Mininig...')
 
-        # PyDriller  -----------------------------------------------------------------------------------------------
+            # PyDriller  -----------------------------------------------------------------------------------------------
 
-        dir_path = f'{output_path}{main_language}/{owner}~{project}'
-        # os.makedirs(dir_path, exist_ok=True)
+            dir_path = f'{output_path}{main_language}/{owner}~{project}'
+            # os.makedirs(dir_path, exist_ok=True)
 
-        repository = dr.Repository(repository_path, only_in_branch=branch, filepath=file_path)
+            repository = dr.Repository(repository_path, only_in_branch=branch, filepath=file_path)
 
-        for commit in repository.traverse_commits():
-            try:
-                # Setting commit path
-                commit_dir = f'{dir_path}/{commit.hash}'
-                if os.path.exists(commit_dir):
-                    continue
-                os.makedirs(commit_dir, exist_ok=True)
+            for commit in repository.traverse_commits():
+                try:
+                    # Setting commit path
+                    commit_dir = f'{dir_path}/{commit.hash}'
+                    if os.path.exists(commit_dir):
+                        continue
+                    os.makedirs(commit_dir, exist_ok=True)
 
-                # Analyzing and saving commit information
-                df_commit: pd.DataFrame = pd.DataFrame({
-                    'Hash': [commit.hash],
-                    'Project Name': [commit.project_name],
-                    'Local Commit PATH': [commit.project_path],
-                    'Merge Commit': [commit.merge],
-                    'Message': [commit.msg],
-                    'Number of Files': [len(commit.modified_files)],
-                    'Author Name': [commit.author.name],
-                    'Author Email': [commit.author.email],
-                    'Author Commit Date': [commit.author_date],
-                    'Author Commit Timezone': [commit.author_timezone],
-                    'Committer Name': [commit.committer.name],
-                    'Committer Email': [commit.committer.email],
-                    'Committer Commit Date': [commit.committer_date],
-                    'Committer Timezone': [commit.committer_timezone],
-                })
-                # df_commit.to_csv(f'{commit_dir}/commit.csv', sep='|', index=False)
-
-                for file in commit.modified_files:
-                    # Analyzing and saving each commit's file information
-                    df_file: pd.DataFrame = pd.DataFrame({
-                        'File Name': [file.filename],
-                        'Change Type': [str(file.change_type).split('.')[-1]],
-                        'Local File PATH Old': [file.old_path if file.old_path else 'new file'],
-                        'Local File PATH New': [file.new_path],
-                        'Complexity': [file.complexity if file.complexity else 'not calculated'],
-                        'Methods': [len(file.methods)],
-                        'Tokens': [file.token_count if file.token_count else 'not calculated'],
-                        'Lines Of Code (nloc)': [file.nloc if file.nloc else 'not calculated'],
-                        'Lines Added': [file.added_lines],
-                        'Lines Deleted': [file.deleted_lines],
+                    # Analyzing and saving commit information
+                    df_commit: pd.DataFrame = pd.DataFrame({
+                        'Hash': [commit.hash],
+                        'Project Name': [commit.project_name],
+                        'Local Commit PATH': [commit.project_path],
+                        'Merge Commit': [commit.merge],
+                        'Message': [commit.msg],
+                        'Number of Files': [len(commit.modified_files)],
+                        'Author Name': [commit.author.name],
+                        'Author Email': [commit.author.email],
+                        'Author Commit Date': [commit.author_date],
+                        'Author Commit Timezone': [commit.author_timezone],
+                        'Committer Name': [commit.committer.name],
+                        'Committer Email': [commit.committer.email],
+                        'Committer Commit Date': [commit.committer_date],
+                        'Committer Timezone': [commit.committer_timezone],
                     })
-                    pd.concat([df_commit, df_file], axis=1).to_csv(
-                        f'{output_path}large/{repo_path}.csv',
-                        sep='|',
-                        mode='a',
-                        index=False,
-                        header=not os.path.exists(f'{output_path}large/{repo_path}.csv')
-                    )
+                    # df_commit.to_csv(f'{commit_dir}/commit.csv', sep='|', index=False)
 
-            except Exception as e:
-                input(f'\033[33mError: {e}\033[m')
+                    for file in commit.modified_files:
+                        # Analyzing and saving each commit's file information
+                        df_file: pd.DataFrame = pd.DataFrame({
+                            'File Name': [file.filename],
+                            'Change Type': [str(file.change_type).split('.')[-1]],
+                            'Local File PATH Old': [file.old_path if file.old_path else 'new file'],
+                            'Local File PATH New': [file.new_path],
+                            'Complexity': [file.complexity if file.complexity else 'not calculated'],
+                            'Methods': [len(file.methods)],
+                            'Tokens': [file.token_count if file.token_count else 'not calculated'],
+                            'Lines Of Code (nloc)': [file.nloc if file.nloc else 'not calculated'],
+                            'Lines Added': [file.added_lines],
+                            'Lines Deleted': [file.deleted_lines],
+                        })
+                        pd.concat([df_commit, df_file], axis=1).to_csv(
+                            f'{output_path}large/{repo_path}.csv',
+                            sep='|',
+                            mode='a',
+                            index=False,
+                            header=not os.path.exists(f'{output_path}large/{repo_path}.csv')
+                        )
 
-                # Error dir
-                error_dir: str = f'{output_path}largee/errors/'
-                os.makedirs(error_dir, exist_ok=True)
+                except Exception as e:
+                    input(f'\033[33mError: {e}\033[m')
 
-                # Adding error to the DataFrame
-                df_commit['Error'] = str(e)
+                    # Error dir
+                    error_dir: str = f'{output_path}largee/errors/'
+                    os.makedirs(error_dir, exist_ok=True)
 
-                # Saving errors
-                df_commit.to_csv(f'{error_dir}errors_{commit.project_name}.csv', mode='a', sep='|', index=False)
+                    # Adding error to the DataFrame
+                    df_commit['Error'] = str(e)
 
-        print(f'\033[32m    > Minered - {file_name} : {file_path}\033[m')
+                    # Saving errors
+                    df_commit.to_csv(f'{error_dir}errors_{commit.project_name}.csv', mode='a', sep='|', index=False)
+
+            print(f'\033[32m    > Minered - {file_name} : {file_path}\033[m')
 
 
 # FAZENDO AGORA PARA SMALL FILES
@@ -148,83 +149,84 @@ for i in range(len(repositories)):
     print(f'* {files_list_path} - {len(files_list_path)} files')
 
     # Loading files list
-    files_list: pd.DataFrame = pd.read_csv(files_list_path, sep=';')
-    # print(f' --> {files_list}')
+    if os.path.exists(files_list_path):
+        files_list: pd.DataFrame = pd.read_csv(files_list_path, sep=';')
+        # print(f' --> {files_list}')
 
-    for j in range(len(files_list)):
-        # For each file, generate a path
-        file_path: str = files_list['path'].loc[j]
-        file_name: str = file_path.split('/')[-1]
-        file_path = '/'.join(file_path.split('/')[6:])
-        print(f'{file_path} - Mininig...')
+        for j in range(len(files_list)):
+            # For each file, generate a path
+            file_path: str = files_list['path'].loc[j]
+            file_name: str = file_path.split('/')[-1]
+            file_path = '/'.join(file_path.split('/')[6:])
+            print(f'{file_path} - Mininig...')
 
-        # PyDriller  -----------------------------------------------------------------------------------------------
+            # PyDriller  -----------------------------------------------------------------------------------------------
 
-        dir_path = f'{output_path}{main_language}/{owner}~{project}'
-        # os.makedirs(dir_path, exist_ok=True)
+            dir_path = f'{output_path}{main_language}/{owner}~{project}'
+            # os.makedirs(dir_path, exist_ok=True)
 
-        repository = dr.Repository(repository_path, only_in_branch=branch, filepath=file_path)
+            repository = dr.Repository(repository_path, only_in_branch=branch, filepath=file_path)
 
-        for commit in repository.traverse_commits():
-            try:
-                # Setting commit path
-                commit_dir = f'{dir_path}/{commit.hash}'
-                if os.path.exists(commit_dir):
-                    continue
-                os.makedirs(commit_dir, exist_ok=True)
+            for commit in repository.traverse_commits():
+                try:
+                    # Setting commit path
+                    commit_dir = f'{dir_path}/{commit.hash}'
+                    if os.path.exists(commit_dir):
+                        continue
+                    os.makedirs(commit_dir, exist_ok=True)
 
-                # Analyzing and saving commit information
-                df_commit: pd.DataFrame = pd.DataFrame({
-                    'Hash': [commit.hash],
-                    'Project Name': [commit.project_name],
-                    'Local Commit PATH': [commit.project_path],
-                    'Merge Commit': [commit.merge],
-                    'Message': [commit.msg],
-                    'Number of Files': [len(commit.modified_files)],
-                    'Author Name': [commit.author.name],
-                    'Author Email': [commit.author.email],
-                    'Author Commit Date': [commit.author_date],
-                    'Author Commit Timezone': [commit.author_timezone],
-                    'Committer Name': [commit.committer.name],
-                    'Committer Email': [commit.committer.email],
-                    'Committer Commit Date': [commit.committer_date],
-                    'Committer Timezone': [commit.committer_timezone],
-                })
-                # df_commit.to_csv(f'{commit_dir}/commit.csv', sep='|', index=False)
-
-                for file in commit.modified_files:
-                    # Analyzing and saving each commit's file information
-                    df_file: pd.DataFrame = pd.DataFrame({
-                        'File Name': [file.filename],
-                        'Change Type': [str(file.change_type).split('.')[-1]],
-                        'Local File PATH Old': [file.old_path if file.old_path else 'new file'],
-                        'Local File PATH New': [file.new_path],
-                        'Complexity': [file.complexity if file.complexity else 'not calculated'],
-                        'Methods': [len(file.methods)],
-                        'Tokens': [file.token_count if file.token_count else 'not calculated'],
-                        'Lines Of Code (nloc)': [file.nloc if file.nloc else 'not calculated'],
-                        'Lines Added': [file.added_lines],
-                        'Lines Deleted': [file.deleted_lines],
+                    # Analyzing and saving commit information
+                    df_commit: pd.DataFrame = pd.DataFrame({
+                        'Hash': [commit.hash],
+                        'Project Name': [commit.project_name],
+                        'Local Commit PATH': [commit.project_path],
+                        'Merge Commit': [commit.merge],
+                        'Message': [commit.msg],
+                        'Number of Files': [len(commit.modified_files)],
+                        'Author Name': [commit.author.name],
+                        'Author Email': [commit.author.email],
+                        'Author Commit Date': [commit.author_date],
+                        'Author Commit Timezone': [commit.author_timezone],
+                        'Committer Name': [commit.committer.name],
+                        'Committer Email': [commit.committer.email],
+                        'Committer Commit Date': [commit.committer_date],
+                        'Committer Timezone': [commit.committer_timezone],
                     })
-                    pd.concat([df_commit, df_file], axis=1).to_csv(
-                        f'{output_path}small/{repo_path}.csv',
-                        sep='|',
-                        mode='a',
-                        index=False,
-                        header=not os.path.exists(f'{output_path}small/{repo_path}.csv')
-                    )
+                    # df_commit.to_csv(f'{commit_dir}/commit.csv', sep='|', index=False)
 
-            except Exception as e:
-                input(f'\033[33mError: {e}\033[m')
+                    for file in commit.modified_files:
+                        # Analyzing and saving each commit's file information
+                        df_file: pd.DataFrame = pd.DataFrame({
+                            'File Name': [file.filename],
+                            'Change Type': [str(file.change_type).split('.')[-1]],
+                            'Local File PATH Old': [file.old_path if file.old_path else 'new file'],
+                            'Local File PATH New': [file.new_path],
+                            'Complexity': [file.complexity if file.complexity else 'not calculated'],
+                            'Methods': [len(file.methods)],
+                            'Tokens': [file.token_count if file.token_count else 'not calculated'],
+                            'Lines Of Code (nloc)': [file.nloc if file.nloc else 'not calculated'],
+                            'Lines Added': [file.added_lines],
+                            'Lines Deleted': [file.deleted_lines],
+                        })
+                        pd.concat([df_commit, df_file], axis=1).to_csv(
+                            f'{output_path}small/{repo_path}.csv',
+                            sep='|',
+                            mode='a',
+                            index=False,
+                            header=not os.path.exists(f'{output_path}small/{repo_path}.csv')
+                        )
 
-                # Error dir
-                error_dir: str = f'{output_path}small/errors/'
-                os.makedirs(error_dir, exist_ok=True)
+                except Exception as e:
+                    input(f'\033[33mError: {e}\033[m')
 
-                # Adding error to the DataFrame
-                df_commit['Error'] = str(e)
+                    # Error dir
+                    error_dir: str = f'{output_path}small/errors/'
+                    os.makedirs(error_dir, exist_ok=True)
 
-                # Saving errors
-                df_commit.to_csv(f'{error_dir}errors_{commit.project_name}.csv', mode='a', sep='|', index=False)
+                    # Adding error to the DataFrame
+                    df_commit['Error'] = str(e)
 
-        print(f'\033[32m    > Minered - {file_name} : {file_path}\033[m')
+                    # Saving errors
+                    df_commit.to_csv(f'{error_dir}errors_{commit.project_name}.csv', mode='a', sep='|', index=False)
+
+            print(f'\033[32m    > Minered - {file_name} : {file_path}\033[m')
