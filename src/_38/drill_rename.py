@@ -24,7 +24,7 @@ date = datetime(2024, 12, 23, 23, 0, 0)
 # preparing environment -----------------------------------------------------------------------------------------------
 
 # loading list of repositories
-repositories: pd.DataFrame = pd.read_csv(repositories_list_path, engine='python')
+repositories: pd.DataFrame = pd.read_csv(repositories_list_path)
 
 for i in range(len(repositories)):
     # Getting repository information
