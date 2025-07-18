@@ -57,7 +57,7 @@ for i in range(len(repositories)):
 
             # PyDriller  -----------------------------------------------------------------------------------------------
 
-            dir_path = f'{output_path}{main_language}/{owner}~{project}'
+            dir_path = f'{output_path}large/{repo_path}'
             # os.makedirs(dir_path, exist_ok=True)
 
             repository = dr.Repository(repository_path, only_in_branch=branch, filepath=file_path)
@@ -68,7 +68,7 @@ for i in range(len(repositories)):
                     commit_dir = f'{dir_path}/{commit.hash}'
                     if os.path.exists(commit_dir):
                         continue
-                    # os.makedirs(commit_dir, exist_ok=True)
+                    os.makedirs(commit_dir, exist_ok=True)
 
                     # Analyzing and saving commit information
                     df_commit: pd.DataFrame = pd.DataFrame({
@@ -87,7 +87,11 @@ for i in range(len(repositories)):
                         'Committer Commit Date': [commit.committer_date],
                         'Committer Timezone': [commit.committer_timezone],
                     })
-                    # df_commit.to_csv(f'{commit_dir}/commit.csv', sep='|', index=False)
+                    df_commit.to_csv(f'{commit_dir}/commit.csv', sep=';', index=False)
+
+                    # Setting file path
+                    files_dir = f'{commit_dir}/files/'
+                    os.makedirs(files_dir, exist_ok=True)
 
                     for file in commit.modified_files:
                         # Analyzing and saving each commit's file information
@@ -103,19 +107,17 @@ for i in range(len(repositories)):
                             'Lines Added': [file.added_lines],
                             'Lines Deleted': [file.deleted_lines],
                         })
-                        pd.concat([df_commit, df_file], axis=1).to_csv(
-                            f'{output_path}large/{repo_path}.csv',
+                        df_file.to_csv(
+                            f'{files_dir}{file.filename}.csv',
                             sep=';',
-                            mode='a',
                             index=False,
-                            header=not os.path.exists(f'{output_path}large/{repo_path}.csv')
                         )
 
                 except Exception as e:
                     input(f'\033[33mError: {e}\033[m')
 
                     # Error dir
-                    error_dir: str = f'{output_path}largee/errors/'
+                    error_dir: str = f'{output_path}large/errors/'
                     os.makedirs(error_dir, exist_ok=True)
 
                     # Adding error to the DataFrame
@@ -130,7 +132,6 @@ for i in range(len(repositories)):
 # FAZENDO AGORA PARA SMALL FILES
 
 for i in range(len(repositories)):
-
     # Getting repository information
     main_language: str = repositories['main language'].loc[i]
     owner: str = repositories['owner'].loc[i]
@@ -139,7 +140,6 @@ for i in range(len(repositories)):
     
     repo_path: str = f"{main_language}/{owner}~{project}"
     os.makedirs(f"{output_path}small/{main_language}", exist_ok=True)
-    
     # Generating repository path
     repository_path: str = f'{repositories_base_dir}{main_language}/{owner}~{project}'
     print(f'{repository_path} -> {branch}')
@@ -162,7 +162,7 @@ for i in range(len(repositories)):
 
             # PyDriller  -----------------------------------------------------------------------------------------------
 
-            dir_path = f'{output_path}{main_language}/{owner}~{project}'
+            dir_path = f'{output_path}small/{repo_path}'
             # os.makedirs(dir_path, exist_ok=True)
 
             repository = dr.Repository(repository_path, only_in_branch=branch, filepath=file_path)
@@ -173,7 +173,7 @@ for i in range(len(repositories)):
                     commit_dir = f'{dir_path}/{commit.hash}'
                     if os.path.exists(commit_dir):
                         continue
-                    # os.makedirs(commit_dir, exist_ok=True)
+                    os.makedirs(commit_dir, exist_ok=True)
 
                     # Analyzing and saving commit information
                     df_commit: pd.DataFrame = pd.DataFrame({
@@ -192,7 +192,11 @@ for i in range(len(repositories)):
                         'Committer Commit Date': [commit.committer_date],
                         'Committer Timezone': [commit.committer_timezone],
                     })
-                    # df_commit.to_csv(f'{commit_dir}/commit.csv', sep='|', index=False)
+                    df_commit.to_csv(f'{commit_dir}/commit.csv', sep=';', index=False)
+
+                    # Setting file path
+                    files_dir = f'{commit_dir}/files/'
+                    os.makedirs(files_dir, exist_ok=True)
 
                     for file in commit.modified_files:
                         # Analyzing and saving each commit's file information
@@ -208,12 +212,10 @@ for i in range(len(repositories)):
                             'Lines Added': [file.added_lines],
                             'Lines Deleted': [file.deleted_lines],
                         })
-                        pd.concat([df_commit, df_file], axis=1).to_csv(
-                            f'{output_path}small/{repo_path}.csv',
+                        df_file.to_csv(
+                            f'{files_dir}{file.filename}.csv',
                             sep=';',
-                            mode='a',
                             index=False,
-                            header=not os.path.exists(f'{output_path}small/{repo_path}.csv')
                         )
 
                 except Exception as e:
