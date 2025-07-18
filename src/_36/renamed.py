@@ -52,7 +52,7 @@ for i, row in repositories.iterrows():
                     renamed = pd.concat([renamed, pd.DataFrame([{
                         "repo_path": repo_path,
                         "path": old_path,
-                        "original_path": new_path
+                        "original_path": new_path # <- Before Renaming
                     }])], ignore_index=True)
 
     if not renamed.empty:
@@ -74,7 +74,7 @@ for i, row in repositories.iterrows():
                     renamed = pd.concat([renamed, pd.DataFrame([{
                         "repo_path": repo_path,
                         "path": old_path,
-                        "original_path": new_path
+                        "original_path": new_path # <- Before Renaming
                     }])], ignore_index=True)
 
     if not renamed.empty:
