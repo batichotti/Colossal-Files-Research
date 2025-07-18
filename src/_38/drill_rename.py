@@ -44,7 +44,7 @@ for i in range(len(repositories)):
 
     # Loading files list
     if os.path.exists(files_list_path):
-        files_list: pd.DataFrame = pd.read_csv(files_list_path, sep=';')
+        files_list: pd.DataFrame = pd.read_csv(files_list_path, sep=',')
         print(f'* {files_list_path} - {len(files_list)} files')
         # print(f' --> {files_list}')
 
@@ -68,7 +68,7 @@ for i in range(len(repositories)):
                     commit_dir = f'{dir_path}/{commit.hash}'
                     if os.path.exists(commit_dir):
                         continue
-                    os.makedirs(commit_dir, exist_ok=True)
+                    # os.makedirs(commit_dir, exist_ok=True)
 
                     # Analyzing and saving commit information
                     df_commit: pd.DataFrame = pd.DataFrame({
@@ -105,7 +105,7 @@ for i in range(len(repositories)):
                         })
                         pd.concat([df_commit, df_file], axis=1).to_csv(
                             f'{output_path}large/{repo_path}.csv',
-                            sep='|',
+                            sep=';',
                             mode='a',
                             index=False,
                             header=not os.path.exists(f'{output_path}large/{repo_path}.csv')
@@ -122,7 +122,7 @@ for i in range(len(repositories)):
                     df_commit['Error'] = str(e)
 
                     # Saving errors
-                    df_commit.to_csv(f'{error_dir}errors_{commit.project_name}.csv', mode='a', sep='|', index=False)
+                    df_commit.to_csv(f'{error_dir}errors_{commit.project_name}.csv', mode='a', sep=';', index=False)
 
             print(f'\033[32m    > Minered - {file_name} : {file_path}\033[m')
 
@@ -149,7 +149,7 @@ for i in range(len(repositories)):
 
     # Loading files list
     if os.path.exists(files_list_path):
-        files_list: pd.DataFrame = pd.read_csv(files_list_path, sep=';')
+        files_list: pd.DataFrame = pd.read_csv(files_list_path, sep=',')
         print(f'* {files_list_path} - {len(files_list)} files')
         # print(f' --> {files_list}')
 
@@ -173,7 +173,7 @@ for i in range(len(repositories)):
                     commit_dir = f'{dir_path}/{commit.hash}'
                     if os.path.exists(commit_dir):
                         continue
-                    os.makedirs(commit_dir, exist_ok=True)
+                    # os.makedirs(commit_dir, exist_ok=True)
 
                     # Analyzing and saving commit information
                     df_commit: pd.DataFrame = pd.DataFrame({
@@ -210,7 +210,7 @@ for i in range(len(repositories)):
                         })
                         pd.concat([df_commit, df_file], axis=1).to_csv(
                             f'{output_path}small/{repo_path}.csv',
-                            sep='|',
+                            sep=';',
                             mode='a',
                             index=False,
                             header=not os.path.exists(f'{output_path}small/{repo_path}.csv')
@@ -227,6 +227,6 @@ for i in range(len(repositories)):
                     df_commit['Error'] = str(e)
 
                     # Saving errors
-                    df_commit.to_csv(f'{error_dir}errors_{commit.project_name}.csv', mode='a', sep='|', index=False)
+                    df_commit.to_csv(f'{error_dir}errors_{commit.project_name}.csv', mode='a', sep=';', index=False)
 
             print(f'\033[32m    > Minered - {file_name} : {file_path}\033[m')
