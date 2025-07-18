@@ -34,8 +34,7 @@ for i in range(len(repositories)):
     branch: str = repositories['branch'].loc[i]
     
     repo_path: str = f"{main_language}/{owner}~{project}"
-    os.mkdir(f"{output_path}large/{main_language}")
-    
+    os.makedirs(f"{output_path}large/{main_language}", exists_ok=True)
     # Generating repository path
     repository_path: str = f'{repositories_base_dir}{main_language}/{owner}~{project}'
     print(f'{repository_path} -> {branch}')
@@ -138,7 +137,7 @@ for i in range(len(repositories)):
     branch: str = repositories['branch'].loc[i]
     
     repo_path: str = f"{main_language}/{owner}~{project}"
-    os.mkdir(f"{output_path}small/{main_language}")
+    os.makedirs(f"{output_path}small/{main_language}", exists_ok=True)
     
     # Generating repository path
     repository_path: str = f'{repositories_base_dir}{main_language}/{owner}~{project}'
