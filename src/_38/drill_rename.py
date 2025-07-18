@@ -34,7 +34,7 @@ for i in range(len(repositories)):
     branch: str = repositories['branch'].loc[i]
     
     repo_path: str = f"{main_language}/{owner}~{project}"
-    os.makedirs(f"{output_path}large/{main_language}", exists_ok=True)
+    os.makedirs(f"{output_path}large/{main_language}", exist_ok=True)
     # Generating repository path
     repository_path: str = f'{repositories_base_dir}{main_language}/{owner}~{project}'
     print(f'{repository_path} -> {branch}')
@@ -57,7 +57,7 @@ for i in range(len(repositories)):
         # PyDriller  -----------------------------------------------------------------------------------------------
 
         dir_path = f'{output_path}{main_language}/{owner}~{project}'
-        os.makedirs(dir_path, exist_ok=True)
+        # os.makedirs(dir_path, exist_ok=True)
 
         repository = dr.Repository(repository_path, only_in_branch=branch, filepath=file_path)
 
@@ -114,7 +114,7 @@ for i in range(len(repositories)):
                 input(f'\033[33mError: {e}\033[m')
 
                 # Error dir
-                error_dir: str = f'{output_path}errors/'
+                error_dir: str = f'{output_path}largee/errors/'
                 os.makedirs(error_dir, exist_ok=True)
 
                 # Adding error to the DataFrame
@@ -137,7 +137,7 @@ for i in range(len(repositories)):
     branch: str = repositories['branch'].loc[i]
     
     repo_path: str = f"{main_language}/{owner}~{project}"
-    os.makedirs(f"{output_path}small/{main_language}", exists_ok=True)
+    os.makedirs(f"{output_path}small/{main_language}", exist_ok=True)
     
     # Generating repository path
     repository_path: str = f'{repositories_base_dir}{main_language}/{owner}~{project}'
@@ -161,7 +161,7 @@ for i in range(len(repositories)):
         # PyDriller  -----------------------------------------------------------------------------------------------
 
         dir_path = f'{output_path}{main_language}/{owner}~{project}'
-        os.makedirs(dir_path, exist_ok=True)
+        # os.makedirs(dir_path, exist_ok=True)
 
         repository = dr.Repository(repository_path, only_in_branch=branch, filepath=file_path)
 
@@ -218,7 +218,7 @@ for i in range(len(repositories)):
                 input(f'\033[33mError: {e}\033[m')
 
                 # Error dir
-                error_dir: str = f'{output_path}errors/'
+                error_dir: str = f'{output_path}small/errors/'
                 os.makedirs(error_dir, exist_ok=True)
 
                 # Adding error to the DataFrame
