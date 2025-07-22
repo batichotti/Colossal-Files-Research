@@ -6,7 +6,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 # paths e configs
 output_path = './src/_38/output/'
-repositories_list_path = 'src/_00/input/450-linux-pytorch.csv'
+repositories_list_path = 'src/_00/input/swift+objectivec.csv'
 renamed_large_path = 'src/_36/output/large/'
 renamed_small_path = 'src/_36/output/small/'
 repositories_base_dir = './src/_00/output/'
