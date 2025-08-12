@@ -47,6 +47,14 @@ for i, row in repositories.iterrows():
 
 
                 # large_file_history['Lines Balance (nLoc)']
+                # Se 'change_type' for 'rename' na primeira linha e 'nLoc' for string, pega o 'nLoc' da próxima linha
+                if (
+                    large_file_history.iloc[0]['Change Type'] == 'RENAME'
+                    and isinstance(large_file_history.iloc[0]['nLoc'], str)
+                ):
+                    if len(large_file_history) > 1:
+                        large_file_history.at[large_file_history.index[0], 'nLoc'] = large_file_history.iloc[1]['nLoc']
+
                 large_file_history['nLoc'] = pd.to_numeric(large_file_history['nLoc'], errors='coerce')
                 large_file_history['Lines Balance'] = large_file_history['nLoc'].diff().fillna(0)
                 large_file_history['nLoc'] = large_file_history['nLoc'].fillna('not calculated')
