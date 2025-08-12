@@ -92,18 +92,24 @@ for i, row in repositories.iterrows():
                         # salva em um csv
                         summary_data = {
                             "file_name": large_file_name,
+
                             "changes_count": changes_count,
+
                             "p99": p99,
+
                             "born_class": born_class,
-                            "final_class": final_class,
                             "initial_size": initial_size,
+                            "final_class": final_class,
                             "final_size": final_size,
+
                             "mean_size": mean_size,
                             "median_size": median_size,
                             "min_size": min_size,
                             "max_size": max_size,
+
                             "first_commit": first_commit,
                             "last_commit": last_commit,
+                            
                             "mean_delta_time": mean_delta_time,
                             "median_delta_time": median_delta_time,
                             "min_delta_time": min_delta_time,
