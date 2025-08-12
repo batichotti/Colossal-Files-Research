@@ -87,7 +87,7 @@ for i, row in repositories.iterrows():
 
                         # Calcula dias desde última alteração
                         large_file_data["date"] = pd.to_datetime(large_file_data["date"])
-                        large_file_data["days_since_last_swap"] = large_file_data["date"].diff().dt.days.fillna(0).astype(int)
+                        large_file_data["delta_time"] = large_file_data["date"].diff().dt.days.fillna(0).astype(int)
 
                         # Preenche NaNs e ajusta tipos
                         large_file_data["border_diff"] = large_file_data["border_diff"].fillna(0).astype(float)
@@ -97,14 +97,14 @@ for i, row in repositories.iterrows():
                         large_file_data["last_balance_percentage"] = large_file_data["last_balance_percentage"].fillna(0).astype(float)
                         large_file_data["n_loc_diff"] = large_file_data["n_loc_diff"].fillna(0).astype(int)
                         large_file_data["n_loc_pct_change"] = large_file_data["n_loc_pct_change"].fillna(0).astype(float)
-                        large_file_data["days_since_last_swap"] = large_file_data["days_since_last_swap"].fillna(0).astype(int)
+                        large_file_data["delta_time"] = large_file_data["delta_time"].fillna(0).astype(int)
 
                         # Reordena colunas
                         desired_columns = [
                             "file_name",
                             "change_type", "n_loc", "lines_balance", "last_balance_percentage", "size_change",
                             "is_large", "border_line", "border_diff", "nloc_borderline_pct",
-                            "n_loc_diff", "n_loc_pct_change", "date", "days_since_last_swap", "swapped_classification",
+                            "n_loc_diff", "n_loc_pct_change", "date", "delta_time", "swapped_classification",
                             "complexity", "methods", "tokens",
                             "hash", "files_on_commit", "committer_email", "author_email"
                         ]
