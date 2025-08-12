@@ -111,4 +111,4 @@ for i, row in repositories.iterrows():
                         }
 
                         summary_df = pd.DataFrame([summary_data])
-                        summary_df.to_csv(f"{output_path}large/{repo_path}/{large_file_name}_summary.csv", index=False, sep=SEPARATOR)
+                        summary_df.to_csv(f"{output_path}large/{repo_path}/{large_file_name}.csv", index=False, sep=SEPARATOR)
