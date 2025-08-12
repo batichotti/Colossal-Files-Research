@@ -1,10 +1,10 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
-blob_show_spec.rb;ADD;19;0.0;Grew;False;2017-04-06 16:36:38+00:00;False;1;1;113;b42dc1a52b5687972262e634cad589345fe49373;14;alfredo@gitlab.com;contact@ericeastwood.com
+blob_show_spec.rb;ADD;19;0.0;Equal;False;2017-04-06 16:36:38+00:00;False;1;1;113;b42dc1a52b5687972262e634cad589345fe49373;14;alfredo@gitlab.com;contact@ericeastwood.com
 blob_show_spec.rb;MODIFY;18;-1.0;Decreased;False;2017-04-21 20:32:02+00:00;False;1;1;111;ff76adb5476f663fe92cec0ec4a78e93c7615191;170;beschi.jacopo@gmail.com;beschi.jacopo@gmail.com
 blob_show_spec.rb;MODIFY;37;19.0;Grew;False;2017-04-27 17:23:26+00:00;False;6;6;217;7cc4546bc97316e40da367c3894b5e4cf7a155ea;3;douwe@selenight.nl;douwe@selenight.nl
 blob_show_spec.rb;MODIFY;205;168.0;Grew;False;2017-04-27 17:23:26+00:00;False;13;13;914;964e7d206b2c9ce0c884ee5c13fafa3763a142a2;12;douwe@selenight.nl;douwe@selenight.nl
-blob_show_spec.rb;MODIFY;37;-168.0;Equal;False;2017-04-27 17:23:26+00:00;False;6;6;217;a7fd95cd22062f18474ee038d72fa9e1139a1a84;12;douwe@selenight.nl;douwe@selenight.nl
-blob_show_spec.rb;MODIFY;205;168.0;Equal;False;2017-04-27 17:23:27+00:00;False;13;13;914;87a3bd26fa1c6379801062fd65fea59e587baeee;7;douwe@selenight.nl;douwe@selenight.nl
+blob_show_spec.rb;MODIFY;37;-168.0;Decreased;False;2017-04-27 17:23:26+00:00;False;6;6;217;a7fd95cd22062f18474ee038d72fa9e1139a1a84;12;douwe@selenight.nl;douwe@selenight.nl
+blob_show_spec.rb;MODIFY;205;168.0;Grew;False;2017-04-27 17:23:27+00:00;False;13;13;914;87a3bd26fa1c6379801062fd65fea59e587baeee;7;douwe@selenight.nl;douwe@selenight.nl
 blob_show_spec.rb;MODIFY;203;-2.0;Decreased;False;2017-04-30 16:21:20+00:00;False;13;13;912;60ebd101d0fa3ddbfab86a676b81efba589f8393;30;douwe@selenight.nl;douwe@selenight.nl
 blob_show_spec.rb;MODIFY;211;8.0;Grew;False;2017-04-30 19:06:21+00:00;False;13;13;992;54040ce0662c71cfaee3cc12305b5ab021beafbb;5;douwe@selenight.nl;douwe@selenight.nl
 blob_show_spec.rb;MODIFY;211;0.0;Equal;False;2017-05-02 09:37:57+00:00;False;13;13;991;0c83f747ec68c08e84c59e5f1c2d4241e733a199;1;me@iamphill.com;me@iamphill.com
@@ -31,7 +31,7 @@ blob_show_spec.rb;MODIFY;425;0.0;Equal;False;2018-09-14 20:36:40+00:00;False;26;
 blob_show_spec.rb;MODIFY;413;-12.0;Decreased;False;2019-02-04 11:48:35+00:00;False;25;25;1871;b2c70230b35e72826f55acfd6b44bfabd19302bb;58;jprovaznik@gitlab.com;jprovaznik@gitlab.com
 blob_show_spec.rb;MODIFY;412;-1.0;Decreased;False;2019-02-21 19:17:38+00:00;False;25;25;1858;445709345f8a451b7882c81166063b8948688e0f;19;oswaldo@gitlab.com;oswaldo@gitlab.com
 blob_show_spec.rb;MODIFY;412;0.0;Equal;False;2019-04-05 08:43:27+00:00;False;25;25;1858;4ec16912b8f4eba9cc70dd21afb65c441f857da0;132;james@gitlab.com;tkuah@gitlab.com
-blob_show_spec.rb;MODIFY;412;0.0;Grew;False;2019-07-26 01:23:30+00:00;False;25;25;1858;73e848850c2fbb890ae7d5e0886cd2d85aafa3d2;521;tkuah@gitlab.com;tkuah@gitlab.com
+blob_show_spec.rb;MODIFY;412;0.0;Equal;False;2019-07-26 01:23:30+00:00;False;25;25;1858;73e848850c2fbb890ae7d5e0886cd2d85aafa3d2;521;tkuah@gitlab.com;tkuah@gitlab.com
 blob_show_spec.rb;MODIFY;449;37.0;Grew;False;2019-12-06 18:07:44+00:00;False;27;27;2040;e1867c38fc5a4b931b4b2256d4909182e94f1051;77;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 blob_show_spec.rb;MODIFY;452;3.0;Grew;False;2020-02-06 12:10:29+00:00;False;27;27;2048;5564275a0b378298dc6281599cbfe71a937109ff;96;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 blob_show_spec.rb;MODIFY;452;0.0;Equal;False;2020-02-06 21:08:48+00:00;False;27;27;2048;a89cb5cbdd832d4d9e80517973aceda6bc0a3856;132;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
@@ -53,7 +53,7 @@ blob_show_spec.rb;MODIFY;1195;0.0;Equal;True;2021-08-03 18:10:02+00:00;False;76;
 blob_show_spec.rb;MODIFY;1238;43.0;Grew;True;2021-12-07 03:12:22+00:00;False;77;77;4594;6a5b78ac6945c0b0cd42293f11c94c2b3750fddc;111;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 blob_show_spec.rb;MODIFY;1241;3.0;Grew;True;2022-01-19 00:12:04+00:00;False;77;77;4602;6e70c2b428a91084139a521abb4a3987a5be35ab;68;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 blob_show_spec.rb;MODIFY;1241;0.0;Equal;True;2022-01-25 00:11:49+00:00;False;77;77;4602;706338ea16ff0be915765ccc79429a50d0ff2edc;86;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
-blob_show_spec.rb;MODIFY;1241;0.0;Grew;True;2022-02-01 12:17:55+00:00;False;77;77;4556;1ae73e5bfcb2dc4a49f40886f729fc4797ba2a65;49;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
+blob_show_spec.rb;MODIFY;1241;0.0;Equal;True;2022-02-01 12:17:55+00:00;False;77;77;4556;1ae73e5bfcb2dc4a49f40886f729fc4797ba2a65;49;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 blob_show_spec.rb;MODIFY;1241;0.0;Equal;True;2022-02-10 12:18:48+00:00;False;77;77;4556;190128fc72e015c383e7a96c128276d1833f3beb;64;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 blob_show_spec.rb;MODIFY;796;-445.0;Decreased;True;2022-03-07 18:19:30+00:00;False;50;50;3146;7fcb54624b31ff4b118d64ca4df36cba6d26c3eb;54;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 blob_show_spec.rb;MODIFY;830;34.0;Grew;True;2022-07-19 15:09:10+00:00;False;51;51;3202;9c8e8b5ffc6e11d827fa42f2dce5f90c4dc19493;90;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
@@ -69,7 +69,7 @@ blob_show_spec.rb;MODIFY;798;-30.0;Decreased;True;2022-12-15 12:08:09+00:00;Fals
 blob_show_spec.rb;MODIFY;798;0.0;Equal;True;2023-01-31 15:10:47+00:00;False;49;49;3049;6f18a8d0b00eae84d262dff137fddd9639f3c52a;96;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 blob_show_spec.rb;MODIFY;798;0.0;Equal;True;2023-02-17 12:11:17+00:00;False;49;49;3049;4f8983ade80c0d71d4c8e6cc0d686c9cecf5e7d4;172;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 blob_show_spec.rb;MODIFY;800;2.0;Grew;True;2023-02-23 12:11:53+00:00;False;49;49;3067;4a7ca716f68682c41889dc480c029d71dd121f4e;67;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
-blob_show_spec.rb;MODIFY;800;0.0;Grew;True;2023-04-21 18:09:26+00:00;False;49;49;3067;07d811cd3cf4d3a1802363532756bf69cfc6346f;58;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
+blob_show_spec.rb;MODIFY;800;0.0;Equal;True;2023-04-21 18:09:26+00:00;False;49;49;3067;07d811cd3cf4d3a1802363532756bf69cfc6346f;58;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 blob_show_spec.rb;MODIFY;809;9.0;Grew;True;2023-05-15 09:08:57+00:00;False;50;50;3117;45a8c43afe8a17de19a92708b380b29b6ae04ce6;239;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 blob_show_spec.rb;MODIFY;809;0.0;Equal;True;2023-05-25 12:07:22+00:00;False;50;50;3117;fc4faf47ac4e5f1ddc40640c42c32405c38c9455;562;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 blob_show_spec.rb;MODIFY;766;-43.0;Decreased;True;2023-06-06 12:07:34+00:00;False;47;47;2922;4958d96e262f6b31b2850123e4949536555b2d29;67;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com

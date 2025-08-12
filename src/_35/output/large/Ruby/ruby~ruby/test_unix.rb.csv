@@ -1,5 +1,5 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
-test_unix.rb;ADD;27;0.0;Grew;False;2005-06-04 02:40:40+00:00;False;8;1;114;f27ff52d1e5bbd16447544761e446fe007d3efcf;1;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+test_unix.rb;ADD;27;0.0;Equal;False;2005-06-04 02:40:40+00:00;False;8;1;114;f27ff52d1e5bbd16447544761e446fe007d3efcf;1;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_unix.rb;MODIFY;29;2.0;Grew;False;2005-07-02 13:45:08+00:00;False;6;1;132;ddbe529c628b0c02a4e576edb7fae8bde921eb46;3;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_unix.rb;MODIFY;141;112.0;Grew;False;2006-06-04 11:45:09+00:00;False;29;13;851;d3fde50de7eb4b0df8dc98e0d21df233be2d29c2;3;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_unix.rb;MODIFY;142;1.0;Grew;False;2006-06-04 12:15:01+00:00;False;32;13;858;9fcf44697a8516c6dd9077bd39e0b6cfd940954e;2;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
@@ -42,7 +42,7 @@ test_unix.rb;MODIFY;478;36.0;Grew;False;2011-06-13 14:11:23+00:00;False;82;29;28
 test_unix.rb;MODIFY;476;-2.0;Decreased;False;2011-06-13 14:12:23+00:00;False;82;29;2823;e504a81ff11c8611f06d54a23b355fed90b356ab;2;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_unix.rb;MODIFY;497;21.0;Grew;False;2011-11-03 11:15:15+00:00;False;84;31;2932;88f1b8cf0c286d5a499d0832cde5ff6be4105d89;5;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_unix.rb;MODIFY;497;0.0;Equal;False;2012-04-23 13:09:48+00:00;False;84;31;2932;146aff91c43bf19f753a928410f9e55b2a17868f;2;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
-test_unix.rb;MODIFY;494;-3.0;Grew;False;2012-04-26 03:34:12+00:00;False;83;30;2917;1413510ed2d8175dcce7c2c14c02e720c8406429;6;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+test_unix.rb;MODIFY;494;-3.0;Decreased;False;2012-04-26 03:34:12+00:00;False;83;30;2917;1413510ed2d8175dcce7c2c14c02e720c8406429;6;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_unix.rb;MODIFY;522;28.0;Grew;False;2013-01-25 08:15:26+00:00;False;87;32;3064;ad55d141ebd0922be310b66c8e4c0e81e94521d1;6;shugo@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;shugo@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_unix.rb;MODIFY;528;6.0;Grew;False;2013-01-29 00:32:05+00:00;False;89;33;3100;a1ed445b812d8aa335700c0bda5e3bd70cc33d20;3;shugo@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;shugo@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_unix.rb;MODIFY;535;7.0;Grew;False;2013-01-30 06:30:12+00:00;False;91;34;3129;e16b8482c724f89bbf599185d2592f134bac8b45;3;shugo@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;shugo@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
@@ -58,7 +58,7 @@ test_unix.rb;MODIFY;632;7.0;Grew;False;2015-03-12 03:03:04+00:00;False;99;36;347
 test_unix.rb;MODIFY;632;0.0;Equal;False;2015-06-02 02:18:44+00:00;False;99;36;3478;ae042f21fb695fc80eb19273fa542e8dad85f19f;30;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_unix.rb;MODIFY;638;6.0;Grew;False;2015-06-15 20:02:43+00:00;False;99;36;3517;a02a3f46496210ca401fd74585993c8754cbe91c;7;normal@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;normal@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_unix.rb;MODIFY;638;0.0;Equal;False;2015-06-18 09:25:37+00:00;False;99;36;3521;072b3c862406a894e611175ecb48d1899c404228;2;normal@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;normal@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
-test_unix.rb;MODIFY;638;0.0;Grew;False;2015-11-14 13:15:33+00:00;False;99;36;3523;373e87a74db2fd71e870376b743eaad4ed74d42a;11;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+test_unix.rb;MODIFY;638;0.0;Equal;False;2015-11-14 13:15:33+00:00;False;99;36;3523;373e87a74db2fd71e870376b743eaad4ed74d42a;11;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_unix.rb;MODIFY;655;17.0;Grew;False;2015-12-07 18:39:47+00:00;False;100;37;3623;889f50227cd01425fd22692d552c5f9a3410373f;3;normal@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;normal@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_unix.rb;MODIFY;655;0.0;Equal;False;2016-08-30 06:22:30+00:00;False;100;37;3624;4b298ad77a8388f0aae62daeca66659a8effeade;50;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_unix.rb;MODIFY;654;-1.0;Decreased;False;2017-10-08 07:00:01+00:00;False;100;37;3622;6064132c42ffe99e9a0d3a6ba80a7932c6f7903d;47;kazu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;kazu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e

@@ -1,5 +1,5 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
-options.rb;ADD;359;0.0;Grew;False;2003-12-01 07:12:49+00:00;False;68;12;1568;87762adcb0d38d6c575448f67c2906964215f3a1;36;dave@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;dave@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+options.rb;ADD;359;0.0;Equal;False;2003-12-01 07:12:49+00:00;False;68;12;1568;87762adcb0d38d6c575448f67c2906964215f3a1;36;dave@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;dave@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 options.rb;MODIFY;376;17.0;Grew;False;2003-12-16 05:44:25+00:00;False;71;13;1636;c5bbcadbe64477433a243be191c41010c7ae10dc;12;dave@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;dave@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 options.rb;MODIFY;382;6.0;Grew;False;2003-12-18 21:08:25+00:00;False;72;13;1659;84f0b051de55b80211eab0ad2438f500af45e4a5;12;dave@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;dave@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 options.rb;MODIFY;392;10.0;Grew;False;2004-01-05 04:52:50+00:00;False;70;13;1691;7336cf5424cd9adb91fb56005cf55b39410d9305;2;dave@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;dave@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
@@ -10,7 +10,7 @@ options.rb;MODIFY;404;0.0;Equal;False;2007-09-22 20:58:40+00:00;False;71;13;1735
 options.rb;MODIFY;397;-7.0;Decreased;False;2007-12-14 17:05:15+00:00;False;74;13;1717;0f0f79d34bed4ef5f2b1055aca6eedfacde60470;5;matz@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;matz@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 options.rb;MODIFY;397;0.0;Equal;False;2007-12-25 00:13:12+00:00;False;74;13;1717;29962f8fb6687010e005cbf311a791e4eafb2eae;5;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 options.rb;MODIFY;397;0.0;Equal;False;2008-01-07 02:52:15+00:00;False;74;13;1717;d9d3e87a522ce180768aef2fcb32c236c68b07f2;3;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
-options.rb;MODIFY;381;-16.0;Grew;False;2008-01-07 06:56:46+00:00;False;26;7;1585;4b93d732e406957e094e848093517359b9ffecf4;13;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+options.rb;MODIFY;381;-16.0;Decreased;False;2008-01-07 06:56:46+00:00;False;26;7;1585;4b93d732e406957e094e848093517359b9ffecf4;13;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 options.rb;MODIFY;381;0.0;Equal;False;2008-01-08 10:18:41+00:00;False;26;7;1588;3e39ade457b432a57d63e00d5a9898ca202d26f1;20;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 options.rb;MODIFY;381;0.0;Equal;False;2008-01-11 01:24:05+00:00;False;26;7;1588;8b39fb10455c4fa137d32730279e41d3e8377d01;2;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 options.rb;MODIFY;384;3.0;Grew;False;2008-01-13 03:02:49+00:00;False;26;7;1596;937b7ab8b59346f02da81ef324b8955b01d7cc25;15;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
@@ -39,7 +39,7 @@ options.rb;MODIFY;681;19.0;Grew;True;2012-12-11 07:44:56+00:00;False;79;22;2872;
 options.rb;MODIFY;683;2.0;Grew;True;2013-07-31 19:06:21+00:00;False;79;22;2888;835c555f7f137746eb6f7cd32bd05a386852fdbe;4;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 options.rb;MODIFY;705;22.0;Grew;True;2013-09-18 23:33:36+00:00;False;80;22;2973;df7dac9174a31e71b58be6184e23bfe6b742a494;118;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 options.rb;MODIFY;736;31.0;Grew;True;2014-09-05 01:41:25+00:00;False;85;23;3087;d42d6e690e3f553b971322eae783ac6b0d4d9692;56;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
-options.rb;MODIFY;736;0.0;Grew;True;2015-12-16 05:07:31+00:00;False;85;23;3087;3e92b635fb5422207b7bbdc924e292e51e21f040;1432;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+options.rb;MODIFY;736;0.0;Equal;True;2015-12-16 05:07:31+00:00;False;85;23;3087;3e92b635fb5422207b7bbdc924e292e51e21f040;1432;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 options.rb;MODIFY;727;-9.0;Decreased;True;2016-09-07 22:23:38+00:00;False;81;23;3054;ba6ae341bab83dfc7a624c5bf20d8d162dacaff9;37;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 options.rb;MODIFY;719;-8.0;Decreased;True;2016-11-05 09:18:10+00:00;False;78;22;3008;cdc527db342eda4c58b62c5dc2a14441a395df5d;27;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 options.rb;MODIFY;719;0.0;Equal;True;2017-11-27 10:45:24+00:00;False;78;22;3001;55518710865bd7258422807524403c91347519a2;195;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e

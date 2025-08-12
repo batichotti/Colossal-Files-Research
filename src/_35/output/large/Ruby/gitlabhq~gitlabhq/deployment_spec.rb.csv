@@ -1,8 +1,8 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
-deployment_spec.rb;ADD;13.0;0.0;Grew;False;2016-06-14 11:51:12+00:00;False;9;9;128;3ade826065f38e3734090cf34fbfc28b68ba79d0;12;ayufan@ayufan.eu;ayufan@ayufan.eu
-deployment_spec.rb;ADD;13.0;0.0;Grew;False;2016-06-16 10:12:28+00:00;False;9;9;128;13e37a3ee5c943525a99481b855d654e97e8597c;403;james@jameslopez.es;james@jameslopez.es
-deployment_spec.rb;DELETE;not calculated;0.0;Decreased;False;2016-06-16 10:59:07+00:00;False;not calculated;0;not calculated;452c076a34cc11cc97f4b1c3113e86ce4367e055;403;james@jameslopez.es;james@jameslopez.es
-deployment_spec.rb;MODIFY;14.0;0.0;Grew;False;2016-07-18 12:46:20+00:00;False;10;10;148;e00da96c88314df79600e7848ae6fe7e4a29af2e;19;ayufan@ayufan.eu;ayufan@ayufan.eu
+deployment_spec.rb;ADD;13.0;0.0;Equal;False;2016-06-14 11:51:12+00:00;False;9;9;128;3ade826065f38e3734090cf34fbfc28b68ba79d0;12;ayufan@ayufan.eu;ayufan@ayufan.eu
+deployment_spec.rb;ADD;13.0;0.0;Equal;False;2016-06-16 10:12:28+00:00;False;9;9;128;13e37a3ee5c943525a99481b855d654e97e8597c;403;james@jameslopez.es;james@jameslopez.es
+deployment_spec.rb;DELETE;not calculated;0.0;Equal;False;2016-06-16 10:59:07+00:00;False;not calculated;0;not calculated;452c076a34cc11cc97f4b1c3113e86ce4367e055;403;james@jameslopez.es;james@jameslopez.es
+deployment_spec.rb;MODIFY;14.0;0.0;Equal;False;2016-07-18 12:46:20+00:00;False;10;10;148;e00da96c88314df79600e7848ae6fe7e4a29af2e;19;ayufan@ayufan.eu;ayufan@ayufan.eu
 deployment_spec.rb;MODIFY;31.0;17.0;Grew;False;2016-08-11 19:29:57+00:00;False;12;12;233;b497b0ce3fc3c1882639f9c7d55f7991ce41f15d;8;zegerjan@gitlab.com;zegerjan@gitlab.com
 deployment_spec.rb;MODIFY;32.0;1.0;Grew;False;2016-08-11 19:29:58+00:00;False;12;12;233;03ea01946524a74773b24430c81804c2724b84b6;4;zegerjan@gitlab.com;zegerjan@gitlab.com
 deployment_spec.rb;MODIFY;33.0;1.0;Grew;False;2016-08-12 08:43:04+00:00;False;12;12;250;07fc2f852a0b4136b6d97c1d9773819c47e7e8e7;10;zegerjan@gitlab.com;zegerjan@gitlab.com
@@ -15,7 +15,7 @@ deployment_spec.rb;MODIFY;94.0;1.0;Grew;False;2017-05-11 21:07:12+00:00;False;20
 deployment_spec.rb;MODIFY;100.0;6.0;Grew;False;2017-05-24 08:02:32+00:00;False;21;21;628;3be9820da63d77ab8b4469dbbb5385292f928057;5;git@zjvandeweg.nl;git@zjvandeweg.nl
 deployment_spec.rb;MODIFY;103.0;3.0;Grew;False;2017-06-01 14:59:18+00:00;False;21;21;671;696b0395116f9f973c919b281a1a5df023f22084;1;git@zjvandeweg.nl;git@zjvandeweg.nl
 deployment_spec.rb;MODIFY;116.0;13.0;Grew;False;2017-06-07 00:38:52+00:00;False;22;22;728;a7e1205219387a6d24c8579994f73a33b3028010;9;pawel@chojnacki.ws;pawel@chojnacki.ws
-deployment_spec.rb;MODIFY;103.0;-13.0;Equal;False;2017-06-13 13:45:45+00:00;False;21;21;669;26820d1f5d950a3430737b350b664bfdf7622ba6;5;ayufan@ayufan.eu;ayufan@ayufan.eu
+deployment_spec.rb;MODIFY;103.0;-13.0;Decreased;False;2017-06-13 13:45:45+00:00;False;21;21;669;26820d1f5d950a3430737b350b664bfdf7622ba6;5;ayufan@ayufan.eu;ayufan@ayufan.eu
 deployment_spec.rb;MODIFY;126.0;23.0;Grew;False;2017-06-16 18:48:34+00:00;False;23;23;803;6e4d5334211d73dd731cb8757b2ef10e8ea428b7;8;pawel@chojnacki.ws;pawel@chojnacki.ws
 deployment_spec.rb;MODIFY;126.0;0.0;Equal;False;2017-07-27 12:31:53+00:00;False;23;23;800;ddccd24c1388dadc057ac3c4c0a49f3fea847292;495;remy@rymai.me;remy@rymai.me
 deployment_spec.rb;MODIFY;126.0;0.0;Equal;False;2017-08-01 18:51:52+00:00;False;23;23;802;9513bd18c43b749c8856d6ad89635d97c8fb73b5;115;rspeicher@gmail.com;rspeicher@gmail.com
@@ -27,7 +27,7 @@ deployment_spec.rb;MODIFY;122.0;-13.0;Decreased;False;2018-07-12 10:31:33+00:00;
 deployment_spec.rb;MODIFY;123.0;1.0;Grew;False;2018-10-10 01:47:31+00:00;False;22;22;830;1f3f06668b273265a96f526039e139629959a890;3;shinya@gitlab.com;shinya@gitlab.com
 deployment_spec.rb;MODIFY;141.0;18.0;Grew;False;2018-10-12 14:10:34+00:00;False;22;22;924;4d9ede0be7ea4dae92d224454616f9e65da0a3e1;9;sean@mcgivern.me.uk;pleitzen@gitlab.com
 deployment_spec.rb;MODIFY;141.0;0.0;Equal;False;2018-10-17 17:02:39+00:00;False;22;22;924;290e458113c2c5fff6bd265c0b3c16d6ac31fdda;2;jaspermaes.jm@gmail.com;jaspermaes.jm@gmail.com
-deployment_spec.rb;MODIFY;134.0;-7.0;Grew;False;2018-10-18 06:47:30+00:00;False;22;22;889;3fb7a1f97a812b7b2b5e80a8a0575cb7bfd2d3c4;1;shinya@gitlab.com;shinya@gitlab.com
+deployment_spec.rb;MODIFY;134.0;-7.0;Decreased;False;2018-10-18 06:47:30+00:00;False;22;22;889;3fb7a1f97a812b7b2b5e80a8a0575cb7bfd2d3c4;1;shinya@gitlab.com;shinya@gitlab.com
 deployment_spec.rb;MODIFY;267.0;133.0;Grew;False;2018-11-06 01:54:27+00:00;False;41;41;1581;b3020aaffd1d04319c1d9a06b73a3dd7d93514de;54;shinya@gitlab.com;shinya@gitlab.com
 deployment_spec.rb;MODIFY;267.0;0.0;Equal;False;2018-11-06 20:14:47+00:00;False;41;41;1581;0206c6aa4189d9c1bc9967c22b120c26b6441c72;2;jaspermaes.jm@gmail.com;jaspermaes.jm@gmail.com
 deployment_spec.rb;MODIFY;375.0;108.0;Grew;False;2018-11-07 04:38:01+00:00;False;57;57;2071;060c56870a16d5a17e4c21926110228970665aaa;33;shinya@gitlab.com;shinya@gitlab.com
@@ -35,7 +35,7 @@ deployment_spec.rb;MODIFY;267.0;-108.0;Decreased;False;2018-11-07 05:29:16+00:00
 deployment_spec.rb;MODIFY;268.0;1.0;Grew;False;2018-12-03 11:10:13+00:00;False;41;41;1583;dd4a8df4cb5da30bf918725143f3e038a6fa7a79;23;shinya@gitlab.com;shinya@gitlab.com
 deployment_spec.rb;MODIFY;268.0;0.0;Equal;False;2018-12-03 13:01:30+00:00;False;41;41;1583;45a5ed6d024a8066937885da1ce18446f5e02316;23;shinya@gitlab.com;shinya@gitlab.com
 deployment_spec.rb;MODIFY;289.0;21.0;Grew;False;2019-03-20 01:04:46+00:00;False;43;43;1707;89b0bc04b9927abc85ce5fc3735438f956a8d5a2;5;twatson@gitlab.com;twatson@gitlab.com
-deployment_spec.rb;MODIFY;289.0;0.0;Grew;False;2019-04-01 01:37:54+00:00;False;43;43;1707;a2cfc150cec677b27728a4758e5e40fff5b4c284;276;tkuah@gitlab.com;tkuah@gitlab.com
+deployment_spec.rb;MODIFY;289.0;0.0;Equal;False;2019-04-01 01:37:54+00:00;False;43;43;1707;a2cfc150cec677b27728a4758e5e40fff5b4c284;276;tkuah@gitlab.com;tkuah@gitlab.com
 deployment_spec.rb;MODIFY;304.0;15.0;Grew;False;2019-04-26 21:08:41+00:00;False;46;46;1782;fe86890b9d7a720648e7570d227c438d6ca7f25a;27;dbalexandre@gmail.com;jgoodman@gitlab.com
 deployment_spec.rb;MODIFY;308.0;4.0;Grew;False;2019-04-28 21:57:08+00:00;False;47;47;1806;825d759634773c82b6417ba8e7a9fdcb0f76561c;3;twatson@gitlab.com;twatson@gitlab.com
 deployment_spec.rb;MODIFY;308.0;0.0;Equal;False;2019-05-22 06:19:07+00:00;False;47;47;1810;37a335e60edd4f4c8b61fd2f9ffe0f1d27e3bfb8;3;stanhu@gmail.com;stanhu@gmail.com
@@ -44,7 +44,7 @@ deployment_spec.rb;MODIFY;309.0;1.0;Grew;False;2019-06-27 05:28:48+00:00;False;4
 deployment_spec.rb;MODIFY;353.0;44.0;Grew;False;2019-06-27 05:28:52+00:00;False;54;54;2132;04af6132b14e594aeddef2a6d0c171af667c9539;3;tkuah@gitlab.com;tkuah@gitlab.com
 deployment_spec.rb;MODIFY;349.0;-4.0;Decreased;False;2019-07-04 18:41:07+00:00;False;53;53;2108;398c0e48f70af0a0b1984ea5c4c58ea4d5cb9512;5;proglottis@gmail.com;proglottis@gmail.com
 deployment_spec.rb;MODIFY;260.0;-89.0;Decreased;False;2019-07-07 21:13:21+00:00;False;43;43;1518;d2ba2951f737082edd568505f985ebf9a0808be7;8;tkuah@gitlab.com;tkuah@gitlab.com
-deployment_spec.rb;MODIFY;340.0;80.0;Decreased;False;2019-07-07 21:13:21+00:00;False;52;52;2021;1668f40f430c656ed9c20898605db21a66cb5937;3;tkuah@gitlab.com;tkuah@gitlab.com
+deployment_spec.rb;MODIFY;340.0;80.0;Grew;False;2019-07-07 21:13:21+00:00;False;52;52;2021;1668f40f430c656ed9c20898605db21a66cb5937;3;tkuah@gitlab.com;tkuah@gitlab.com
 deployment_spec.rb;MODIFY;239.0;-101.0;Decreased;False;2019-07-07 21:14:37+00:00;False;41;41;1394;25ba11a2aad9571e4759cdc711199634e3392c5b;2;tkuah@gitlab.com;tkuah@gitlab.com
 deployment_spec.rb;MODIFY;259.0;20.0;Grew;False;2019-08-22 12:36:55+00:00;False;44;44;1524;d86b77bf20474702631d5fd89177c54a9f928760;5;kangelov@gitlab.com;kangelov@gitlab.com
 deployment_spec.rb;MODIFY;269.0;10.0;Grew;False;2019-10-16 18:08:01+00:00;False;46;46;1578;8e45d25f7dde6508839ffee719c0ddc2cf6b12d3;135;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
@@ -81,7 +81,7 @@ deployment_spec.rb;MODIFY;631.0;0.0;Equal;False;2021-04-05 15:09:05+00:00;False;
 deployment_spec.rb;MODIFY;610.0;-21.0;Decreased;False;2021-04-09 09:09:10+00:00;False;89;88;3636;7484851b5f762fad81ddecb4735d22828e205af1;64;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 deployment_spec.rb;MODIFY;620.0;10.0;Grew;False;2021-04-29 18:10:23+00:00;False;89;88;3681;71dc16a12c2b0aaeee3a8fa55aa1ca880f5699b4;44;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 deployment_spec.rb;MODIFY;641.0;21.0;Grew;False;2021-05-06 06:10:11+00:00;False;92;91;3860;0a0e8803b0e3e2fb83d74c9bafc32f4e9d825bcc;18;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
-deployment_spec.rb;MODIFY;641.0;0.0;Grew;False;2021-06-29 03:07:32+00:00;False;92;91;3860;be8b477154c88aaf1ed2c4adea980945482350d2;265;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
+deployment_spec.rb;MODIFY;641.0;0.0;Equal;False;2021-06-29 03:07:32+00:00;False;92;91;3860;be8b477154c88aaf1ed2c4adea980945482350d2;265;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 deployment_spec.rb;MODIFY;647.0;6.0;Grew;False;2021-10-12 15:12:08+00:00;False;93;92;3908;13f15365a344255ded8b3bf6586716b0963be440;67;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 deployment_spec.rb;MODIFY;743.0;96.0;Grew;True;2021-10-12 18:12:42+00:00;True;98;97;4410;04a7fe4f4b1a693f14a676c5aa556bcdfac9d899;40;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 deployment_spec.rb;MODIFY;752.0;9.0;Grew;True;2021-10-19 09:09:54+00:00;False;99;98;4509;811f549164618e3607721eecbfd76e292555b339;28;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com

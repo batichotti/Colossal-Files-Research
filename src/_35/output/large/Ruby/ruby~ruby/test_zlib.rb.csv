@@ -1,5 +1,5 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
-test_zlib.rb;ADD;14;0.0;Grew;False;2004-04-05 13:27:45+00:00;False;2;1;44;2f8c9ce629bff3ada0b367d1e4cd4c12f5bd7198;2;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+test_zlib.rb;ADD;14;0.0;Equal;False;2004-04-05 13:27:45+00:00;False;2;1;44;2f8c9ce629bff3ada0b367d1e4cd4c12f5bd7198;2;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_zlib.rb;MODIFY;8;-6.0;Decreased;False;2004-04-05 14:59:33+00:00;False;1;1;32;22757fbaba39cfe9eecdd1604c6d95702dd04708;1;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_zlib.rb;MODIFY;13;5.0;Grew;False;2004-04-06 02:59:13+00:00;False;1;1;40;dc252a75a251772f5d2bd9df442d9e6df74638cf;1;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_zlib.rb;MODIFY;16;3.0;Grew;False;2004-04-07 05:06:34+00:00;False;1;1;85;b2a4f270e8dde1cb0e2ea7e7afcf7367207ed7dd;1;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
@@ -7,7 +7,7 @@ test_zlib.rb;MODIFY;23;7.0;Grew;False;2004-08-06 16:01:02+00:00;False;2;2;123;a3
 test_zlib.rb;MODIFY;51;28.0;Grew;False;2004-09-07 05:32:26+00:00;False;6;4;266;08907d87e01ba0181b90603e27ec83cd9c285ad8;5;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_zlib.rb;MODIFY;56;5.0;Grew;False;2004-09-07 07:03:51+00:00;False;7;4;277;1ae2ac92d2afc114de6f595d3dfdfc4f228c7acc;1;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_zlib.rb;MODIFY;50;-6.0;Decreased;False;2004-09-07 07:11:06+00:00;False;6;4;265;23a48713683a2f03bc8bb619f1fa62765658f6b7;1;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
-test_zlib.rb;MODIFY;50;0.0;Decreased;False;2007-11-18 07:18:56+00:00;False;6;4;279;68543f30921c52cb1bf5c041879a232b41ba6580;22;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+test_zlib.rb;MODIFY;50;0.0;Equal;False;2007-11-18 07:18:56+00:00;False;6;4;279;68543f30921c52cb1bf5c041879a232b41ba6580;22;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_zlib.rb;MODIFY;526;476.0;Grew;False;2008-06-08 12:51:25+00:00;False;59;56;3777;65ec3ed9ca7c74b0ac66abdf576720ddc6549717;2;mame@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;mame@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_zlib.rb;MODIFY;533;7.0;Grew;False;2008-07-11 14:06:19+00:00;False;59;56;3850;dfd0d6a5ca865d589f943f57c29f2a6a6e2260d6;2;mame@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;mame@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_zlib.rb;MODIFY;534;1.0;Grew;False;2008-07-23 01:09:50+00:00;False;59;56;3853;4c3799ec1df43f72e2b50b5eb4e3eb5ad0df24a2;2;kazu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;kazu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
@@ -43,13 +43,13 @@ test_zlib.rb;MODIFY;885;-3.0;Decreased;True;2013-04-20 23:03:52+00:00;False;83;7
 test_zlib.rb;MODIFY;891;6.0;Grew;True;2013-05-31 23:00:48+00:00;False;83;75;5801;aa8cc01aa398d231c9839bc24b7b138f2c75952f;3;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_zlib.rb;MODIFY;896;5.0;Grew;True;2013-08-28 20:36:21+00:00;False;84;76;5835;9f2f1fcbc8fc896e234a1b2939ba660ec56b55f2;3;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_zlib.rb;MODIFY;894;-2.0;Decreased;True;2014-02-18 12:05:09+00:00;False;84;76;5816;93156392dd4a80e1ee61a52c6a227845043a8026;9;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
-test_zlib.rb;MODIFY;894;0.0;Decreased;True;2014-02-28 06:57:28+00:00;False;84;76;5816;f6ae77d97ad281610e80407f9f2b0a6c28fe0fe1;1;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+test_zlib.rb;MODIFY;894;0.0;Equal;True;2014-02-28 06:57:28+00:00;False;84;76;5816;f6ae77d97ad281610e80407f9f2b0a6c28fe0fe1;1;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_zlib.rb;MODIFY;898;4.0;Grew;True;2014-08-30 23:53:28+00:00;False;84;76;5845;3cee6a22c07abe0c60331b860c9fac3388bb72a1;3;normal@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;normal@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_zlib.rb;MODIFY;898;0.0;Equal;True;2015-01-15 15:26:03+00:00;False;84;76;5842;255955585c922ec5e303df184057b7781fcee345;5;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_zlib.rb;MODIFY;917;19.0;Grew;True;2015-03-08 13:52:51+00:00;False;86;78;5949;b6d5ce7975667cc32d7d86a992d5206627e5ff73;3;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_zlib.rb;MODIFY;920;3.0;Grew;True;2015-05-10 03:43:22+00:00;False;86;78;5959;d88957abad479e3580dc646ab32707a9aaa80c11;3;glass@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;glass@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_zlib.rb;MODIFY;920;0.0;Equal;True;2015-06-02 02:18:44+00:00;False;86;78;5959;ae042f21fb695fc80eb19273fa542e8dad85f19f;30;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
-test_zlib.rb;MODIFY;920;0.0;Grew;True;2015-12-16 05:07:31+00:00;False;86;78;5959;3e92b635fb5422207b7bbdc924e292e51e21f040;1432;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+test_zlib.rb;MODIFY;920;0.0;Equal;True;2015-12-16 05:07:31+00:00;False;86;78;5959;3e92b635fb5422207b7bbdc924e292e51e21f040;1432;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_zlib.rb;MODIFY;930;10.0;Grew;True;2016-03-04 22:20:56+00:00;False;90;78;5991;1ec6bb95bce9d598ee595b72c8e062c834f44065;2;odaira@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;odaira@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_zlib.rb;MODIFY;966;36.0;Grew;True;2016-12-09 22:45:39+00:00;False;92;80;6274;583b6dc33c1d33237a368d6fe0ef3f779c3d72e4;3;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_zlib.rb;MODIFY;966;0.0;Equal;True;2016-12-10 08:26:40+00:00;False;92;80;6284;f46a1377464d080ccbfb2b943d0fe7df18500e6a;2;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e

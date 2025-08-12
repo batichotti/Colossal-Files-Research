@@ -1,5 +1,5 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
-test_time.rb;ADD;21;0.0;Grew;False;2004-01-18 04:00:00+00:00;False;3;3;250;4e880080a725af2f5c052a23635c773f70de315d;1;siena@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;siena@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+test_time.rb;ADD;21;0.0;Equal;False;2004-01-18 04:00:00+00:00;False;3;3;250;4e880080a725af2f5c052a23635c773f70de315d;1;siena@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;siena@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_time.rb;MODIFY;23;2.0;Grew;False;2004-01-19 07:32:47+00:00;False;3;3;292;8ccba1d12f55174437f39fb2bae2e0009e2cb11e;2;akira@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akira@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_time.rb;MODIFY;32;9.0;Grew;False;2004-03-30 11:31:44+00:00;False;5;4;355;7bb7e17675846bd0caa7b3ad0ff1815cd313ed4f;3;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_time.rb;MODIFY;33;1.0;Grew;False;2004-03-30 11:53:00+00:00;False;5;4;379;a66ee49d2cb9a6503ff900fcfe8409396b2ca1e1;1;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
@@ -87,11 +87,11 @@ test_time.rb;MODIFY;900;6.0;Grew;True;2014-07-23 07:20:38+00:00;False;94;82;8934
 test_time.rb;MODIFY;901;1.0;Grew;True;2014-07-23 07:20:39+00:00;False;95;82;8939;2e8ce8899a3ff262f2c3eb44f98af69500c4cf11;2;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_time.rb;MODIFY;905;4.0;Grew;True;2014-08-26 11:48:21+00:00;False;96;83;8962;092c647cb70af77b431f00c83126f93b0364857b;3;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_time.rb;MODIFY;906;1.0;Grew;True;2014-09-21 16:58:47+00:00;False;96;83;8986;5697b2f013a6b0d13bcefef055c7349a526f2615;3;glass@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;glass@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
-test_time.rb;MODIFY;906;0.0;Grew;True;2014-11-15 15:33:34+00:00;False;96;83;8999;c2e082742115ca6860d3f55509d86a15db0b9a96;1;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+test_time.rb;MODIFY;906;0.0;Equal;True;2014-11-15 15:33:34+00:00;False;96;83;8999;c2e082742115ca6860d3f55509d86a15db0b9a96;1;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_time.rb;MODIFY;917;11.0;Grew;True;2014-12-15 19:59:12+00:00;False;97;84;9041;0e590199f9592fe6a513ecae18d0724f0e69260c;1;headius@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;headius@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_time.rb;MODIFY;920;3.0;Grew;True;2015-02-22 22:26:55+00:00;False;97;84;9051;9759173cfc954f89a24dd96a42067161a34bd243;4;eregon@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;eregon@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_time.rb;MODIFY;925;5.0;Grew;True;2015-09-28 02:40:46+00:00;False;97;84;9107;4191a6b90d3eeb63a31609dba29a1904efee3738;17;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
-test_time.rb;MODIFY;925;0.0;Grew;True;2015-12-16 05:07:31+00:00;False;97;84;9107;3e92b635fb5422207b7bbdc924e292e51e21f040;1432;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+test_time.rb;MODIFY;925;0.0;Equal;True;2015-12-16 05:07:31+00:00;False;97;84;9107;3e92b635fb5422207b7bbdc924e292e51e21f040;1432;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_time.rb;MODIFY;924;-1.0;Decreased;True;2016-03-23 11:57:01+00:00;False;97;84;9102;5396d8a1ab52b4da4f5199109472fe7f8ea43085;6;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_time.rb;MODIFY;926;2.0;Grew;True;2016-03-24 02:43:34+00:00;False;97;84;9124;f3de12aa6bf81acd47282f60aef2bb1da583134a;3;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_time.rb;MODIFY;932;6.0;Grew;True;2016-03-24 05:20:22+00:00;False;97;84;9182;44a247c745368ad9950d2ed02f2b3424e5759ef5;3;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
@@ -130,7 +130,7 @@ test_time.rb;MODIFY;1139;3.0;Grew;True;2021-01-12 08:00:14+00:00;False;121;97;11
 test_time.rb;MODIFY;1140;1.0;Grew;True;2021-01-12 08:24:43+00:00;False;121;97;11709;1eb8eb55c27b19e36d5bd23ce27f7ec2b9a7f521;2;nobu@ruby-lang.org;nobu@ruby-lang.org
 test_time.rb;MODIFY;1146;6.0;Grew;True;2021-01-13 07:37:59+00:00;False;121;97;11845;9441f3f97087a4325ee80911859d37da41fa5050;2;nobu@ruby-lang.org;nobu@ruby-lang.org
 test_time.rb;MODIFY;1155;9.0;Grew;True;2021-02-16 11:34:23+00:00;False;121;97;11941;5b7439bb7b1088ef5233175893229970cee339fd;2;nobu@ruby-lang.org;nobu@ruby-lang.org
-test_time.rb;MODIFY;1150;-5.0;Grew;True;2021-02-16 11:34:23+00:00;False;121;97;11889;9ef66ce3fcfee06d628b611dbc22026d7cc72d0e;2;nobu@ruby-lang.org;nobu@ruby-lang.org
+test_time.rb;MODIFY;1150;-5.0;Decreased;True;2021-02-16 11:34:23+00:00;False;121;97;11889;9ef66ce3fcfee06d628b611dbc22026d7cc72d0e;2;nobu@ruby-lang.org;nobu@ruby-lang.org
 test_time.rb;MODIFY;1164;14.0;Grew;True;2021-06-15 12:42:55+00:00;False;122;98;12060;d09f097eec4fb85cbb43481bdc6d7fcc82f94697;1;nobu@ruby-lang.org;nobu@ruby-lang.org
 test_time.rb;MODIFY;1164;0.0;Equal;True;2021-09-10 23:48:03+00:00;False;122;98;12064;1e18f4e60f948e5887ae696390c99def102d8345;2;hsbt@ruby-lang.org;hsbt@ruby-lang.org
 test_time.rb;MODIFY;1164;0.0;Equal;True;2021-09-10 23:48:03+00:00;False;122;98;12060;871e7b5f55f079e04fdc3f6f42eaa139e3a3345a;3;hsbt@ruby-lang.org;hsbt@ruby-lang.org
@@ -145,9 +145,9 @@ test_time.rb;MODIFY;1165;2.0;Grew;True;2022-02-02 14:52:04+00:00;False;122;99;12
 test_time.rb;MODIFY;1166;1.0;Grew;True;2022-07-17 15:59:27+00:00;False;122;99;12210;68903df6f6fc548f3bf68fb09ee8b2495dcd28f0;2;noreply@github.com;nobu@ruby-lang.org
 test_time.rb;MODIFY;1178;12.0;Grew;True;2022-11-22 21:10:46+00:00;False;123;100;12312;eaf2b6c4396ff19921cbc75a394d7a752aaab4ef;5;zverok.offline@gmail.com;zverok.offline@gmail.com
 test_time.rb;MODIFY;1234;56.0;Grew;True;2022-12-16 13:52:59+00:00;False;125;101;12853;9515179d74f2d9934c1b2c69879d72254d940f85;3;nobu@ruby-lang.org;nobu@ruby-lang.org
-test_time.rb;MODIFY;1231;-3.0;Grew;True;2022-12-16 13:52:59+00:00;False;125;101;12802;67c589afa05b1a894ed07969bec16647eff4e593;2;nobu@ruby-lang.org;nobu@ruby-lang.org
+test_time.rb;MODIFY;1231;-3.0;Decreased;True;2022-12-16 13:52:59+00:00;False;125;101;12802;67c589afa05b1a894ed07969bec16647eff4e593;2;nobu@ruby-lang.org;nobu@ruby-lang.org
 test_time.rb;MODIFY;1238;7.0;Grew;True;2022-12-16 13:52:59+00:00;False;125;101;12835;3e49d62bc1696a7943e4407328714e32b539b007;2;nobu@ruby-lang.org;nobu@ruby-lang.org
-test_time.rb;MODIFY;1195;-43.0;Grew;True;2022-12-16 13:52:59+00:00;False;124;101;12521;8c272f44816f098c1e057c72a47451efc8cd1739;4;nobu@ruby-lang.org;nobu@ruby-lang.org
+test_time.rb;MODIFY;1195;-43.0;Decreased;True;2022-12-16 13:52:59+00:00;False;124;101;12521;8c272f44816f098c1e057c72a47451efc8cd1739;4;nobu@ruby-lang.org;nobu@ruby-lang.org
 test_time.rb;MODIFY;1239;44.0;Grew;True;2023-01-01 07:39:00+00:00;False;125;101;12883;542e984d82fa25098eb15398d716d907acc52b93;2;nobu@ruby-lang.org;nobu@ruby-lang.org
 test_time.rb;MODIFY;1242;3.0;Grew;True;2023-01-02 14:17:27+00:00;False;125;101;12907;291a4098cf649c027cb50c16b872455f26ad1dfb;1;nobu@ruby-lang.org;nobu@ruby-lang.org
 test_time.rb;MODIFY;1257;15.0;Grew;True;2023-01-02 14:29:19+00:00;False;125;101;13002;5be0d42d2c4dc765230c76738289560f9ee37f09;2;nobu@ruby-lang.org;nobu@ruby-lang.org
@@ -161,4 +161,4 @@ test_time.rb;MODIFY;1320;47.0;Grew;True;2024-09-05 17:23:12+00:00;False;130;103;
 test_time.rb;MODIFY;1322;2.0;Grew;True;2024-09-06 06:53:46+00:00;False;130;103;13742;214668fccbca2db14ce57797017b34acd86d4690;2;nobu@ruby-lang.org;nobu@ruby-lang.org
 test_time.rb;MODIFY;1334;12.0;Grew;True;2024-10-14 04:55:55+00:00;False;130;103;13798;9611c619ac60e9aeb0341b0c8cf322a42707ce38;3;nobu@ruby-lang.org;nobu@ruby-lang.org
 test_time.rb;MODIFY;1335;1.0;Grew;True;2024-12-06 09:59:38+00:00;False;130;103;13813;1c15f641cc2bb88fa88123a11036ed58fbf9aa6d;3;nobu.nakada@gmail.com;nobu@ruby-lang.org
-test_time.rb;MODIFY;1334;-1.0;Equal;True;2024-12-06 09:59:38+00:00;False;129;103;13794;78762b52185aa80ee55c0d49b495aceed863dce2;1;nobu.nakada@gmail.com;nobu@ruby-lang.org
+test_time.rb;MODIFY;1334;-1.0;Decreased;True;2024-12-06 09:59:38+00:00;False;129;103;13794;78762b52185aa80ee55c0d49b495aceed863dce2;1;nobu.nakada@gmail.com;nobu@ruby-lang.org

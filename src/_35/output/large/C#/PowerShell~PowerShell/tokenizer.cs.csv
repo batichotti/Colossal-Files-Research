@@ -1,5 +1,5 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
-tokenizer.cs;ADD;3014;0.0;Grew;True;2016-03-31 00:16:23+00:00;True;958;112;16171;60b3b304f2e1042bcf773d7e2ae3530a1f5d52f0;1182;sevoroby@microsoft.com;PowerShellTeam@hotmail.com
+tokenizer.cs;ADD;3014;0.0;Equal;True;2016-03-31 00:16:23+00:00;True;958;112;16171;60b3b304f2e1042bcf773d7e2ae3530a1f5d52f0;1182;sevoroby@microsoft.com;PowerShellTeam@hotmail.com
 tokenizer.cs;MODIFY;3047;33.0;Grew;True;2016-04-01 00:27:44+00:00;False;965;113;16359;5386c71bb23aff124810695e8c28bfd2173654fd;32;sevoroby@microsoft.com;PowerShellTeam@hotmail.com
 tokenizer.cs;MODIFY;3234;187.0;Grew;True;2016-08-01 22:57:03+00:00;False;965;113;16363;403ae3f53f26aec83d867998400cdf1a91aa5d68;953;jasonsh@microsoft.com;PowerShellTeam@hotmail.com
 tokenizer.cs;MODIFY;3234;0.0;Equal;True;2016-08-03 19:14:28+00:00;False;965;113;16363;85d6e9f022993149b9d74259c5028a5509695a51;156;jasonsh@microsoft.com;PowerShellTeam@hotmail.com
@@ -16,11 +16,11 @@ tokenizer.cs;MODIFY;3349;-1.0;Decreased;True;2018-02-13 17:23:53+00:00;False;987
 tokenizer.cs;MODIFY;3472;123.0;Grew;True;2018-03-28 23:21:25+00:00;False;987;116;17209;faa21c907b73e43bfed3a1c29914c2bf78004e02;13;dongbow@microsoft.com;rjmholt@gmail.com
 tokenizer.cs;MODIFY;3475;3.0;Grew;True;2018-04-26 01:04:04+00:00;False;987;116;17223;63c0d8d783b8127b611ac32cabd730ecd46eca4e;4;dongbow@microsoft.com;rjmholt@gmail.com
 tokenizer.cs;MODIFY;3475;0.0;Equal;True;2018-06-12 19:30:10+00:00;False;987;116;17229;e177fcaef610f874aa31cd3d85f97162d2859e72;160;dongbow@microsoft.com;darpa@yandex.ru
-tokenizer.cs;MODIFY;3475;0.0;Decreased;True;2018-08-01 05:39:13+00:00;False;987;116;17229;5d03e1653a7d518715fa3f00587cad6b5c78cc89;395;noreply@github.com;darpa@yandex.ru
+tokenizer.cs;MODIFY;3475;0.0;Equal;True;2018-08-01 05:39:13+00:00;False;987;116;17229;5d03e1653a7d518715fa3f00587cad6b5c78cc89;395;noreply@github.com;darpa@yandex.ru
 tokenizer.cs;MODIFY;3596;121.0;Grew;True;2018-09-28 20:27:32+00:00;False;1014;116;17809;8f4b66af295e96c86eb843f432ade9fbda60e6e8;5;dongbow@microsoft.com;32407840+vexx32@users.noreply.github.com
 tokenizer.cs;MODIFY;3630;34.0;Grew;True;2018-10-11 12:40:58+00:00;False;1026;116;18007;e660e9623a5dc4f4ac6dad8a8ec6bc31c5329b7a;3;darpa@yandex.ru;32407840+vexx32@users.noreply.github.com
 tokenizer.cs;MODIFY;3630;0.0;Equal;True;2018-12-22 09:26:06+00:00;False;1026;116;18007;289981a017e9fe4c26dcbd0ec0500c75cb39e49e;120;darpa@yandex.ru;dongbow@microsoft.com
-tokenizer.cs;MODIFY;3630;0.0;Grew;True;2018-12-24 06:20:06+00:00;False;1026;116;18007;4af3068566b2218bc37ea19785ded589c2a5c42f;766;darpa@yandex.ru;slee@microsoft.com
+tokenizer.cs;MODIFY;3630;0.0;Equal;True;2018-12-24 06:20:06+00:00;False;1026;116;18007;4af3068566b2218bc37ea19785ded589c2a5c42f;766;darpa@yandex.ru;slee@microsoft.com
 tokenizer.cs;MODIFY;3630;0.0;Equal;True;2018-12-25 16:43:03+00:00;False;1026;116;18007;871ce5696d01186f620f67366dc33691e0382a32;257;noreply@github.com;darpa@yandex.ru
 tokenizer.cs;MODIFY;3630;0.0;Equal;True;2018-12-28 11:39:06+00:00;False;1026;116;18007;479fc64aff24c23ff4d445d2422fd2fd59602ec0;360;noreply@github.com;darpa@yandex.ru
 tokenizer.cs;MODIFY;3630;0.0;Equal;True;2018-12-29 03:25:49+00:00;False;1026;116;18007;7207db6360d1527238975526e299d7bacde0d9d8;258;noreply@github.com;darpa@yandex.ru
@@ -31,9 +31,9 @@ tokenizer.cs;MODIFY;3630;0.0;Equal;True;2019-01-07 19:40:07+00:00;False;1026;116
 tokenizer.cs;MODIFY;3630;0.0;Equal;True;2019-01-09 21:07:40+00:00;False;1026;116;18007;d80154430d600a52a1d1e3a9f3ecf032b36185d4;222;adityap@microsoft.com;darpa@yandex.ru
 tokenizer.cs;MODIFY;3630;0.0;Equal;True;2019-01-24 20:50:11+00:00;False;1026;116;18007;863528881f0b863de9be1e75b5052f9381f02533;42;travis.plunk@microsoft.com;45661989+xtqqczze@users.noreply.github.com
 tokenizer.cs;MODIFY;3734;104.0;Grew;True;2019-04-03 22:10:02+00:00;False;1049;117;18143;3f52adb0aeaf58189d85d386ab502e08f92ed41b;4;travis.plunk@microsoft.com;32407840+vexx32@users.noreply.github.com
-tokenizer.cs;MODIFY;3734;0.0;Grew;True;2019-04-30 05:25:11+00:00;False;1049;117;18143;bd6fdae73520931f0d27a29d6290e18761772141;454;noreply@github.com;darpa@yandex.ru
+tokenizer.cs;MODIFY;3734;0.0;Equal;True;2019-04-30 05:25:11+00:00;False;1049;117;18143;bd6fdae73520931f0d27a29d6290e18761772141;454;noreply@github.com;darpa@yandex.ru
 tokenizer.cs;MODIFY;3802;68.0;Grew;True;2019-05-14 05:57:57+00:00;False;1066;122;18392;112401ed37257426e1f8266c14ce97d3a2109657;4;dongbow@microsoft.com;KirkMunro@users.noreply.github.com
-tokenizer.cs;MODIFY;3802;0.0;Grew;True;2019-06-07 03:35:33+00:00;False;1066;122;18392;7e423e7451a4530060422aff1c821c0dc0712372;11;noreply@github.com;darpa@yandex.ru
+tokenizer.cs;MODIFY;3802;0.0;Equal;True;2019-06-07 03:35:33+00:00;False;1066;122;18392;7e423e7451a4530060422aff1c821c0dc0712372;11;noreply@github.com;darpa@yandex.ru
 tokenizer.cs;MODIFY;3813;11.0;Grew;True;2019-06-28 03:14:41+00:00;False;1069;122;18458;026a8f1f41c46f2e79f5cfcb27d49d4cec5cb034;2;darpa@yandex.ru;dongbow@microsoft.com
 tokenizer.cs;MODIFY;3821;8.0;Grew;True;2019-09-04 20:22:33+00:00;False;1070;122;18495;5069c7d6a6cb9aae18191dfdd28b9cc1e09611c4;18;adityap@microsoft.com;dongbow@microsoft.com
 tokenizer.cs;MODIFY;3836;15.0;Grew;True;2019-10-17 17:21:24+00:00;False;1073;122;18562;425bc36a6fe66b571fc88f25500b0b3a3cf3e2a7;7;dongbow@microsoft.com;adityap@microsoft.com
@@ -44,9 +44,9 @@ tokenizer.cs;MODIFY;3851;0.0;Equal;True;2020-03-24 18:08:37+00:00;False;1077;122
 tokenizer.cs;MODIFY;3851;0.0;Equal;True;2020-03-26 08:18:33+00:00;False;1077;122;18623;238cb5c8dcc01565d0b93ade2faabfd8e6563329;1;noreply@github.com;shaydenofziger@gmail.com
 tokenizer.cs;MODIFY;3876;25.0;Grew;True;2020-04-20 23:51:40+00:00;False;1078;122;18658;ba53621894a030c2f5dfce0db81fa1e09408fd2f;2;noreply@github.com;32407840+vexx32@users.noreply.github.com
 tokenizer.cs;MODIFY;3876;0.0;Equal;True;2020-05-19 18:57:52+00:00;False;1078;122;18670;9212aac0fa020b657454ef4f9ff2fdd6fc6d759c;278;noreply@github.com;45661989+xtqqczze@users.noreply.github.com
-tokenizer.cs;MODIFY;3876;0.0;Grew;True;2020-05-29 04:56:33+00:00;False;1078;122;18670;05cab7fa5a3e229f2665ef9cb70fbb15b9fcc7c1;159;noreply@github.com;45661989+xtqqczze@users.noreply.github.com
+tokenizer.cs;MODIFY;3876;0.0;Equal;True;2020-05-29 04:56:33+00:00;False;1078;122;18670;05cab7fa5a3e229f2665ef9cb70fbb15b9fcc7c1;159;noreply@github.com;45661989+xtqqczze@users.noreply.github.com
 tokenizer.cs;MODIFY;3876;0.0;Equal;True;2020-06-09 17:22:37+00:00;False;1078;122;18676;2ea18ee6c99a9d9b7cb00988bd9e1e3e5a32fff7;4;noreply@github.com;msftrncs@midlands.net
-tokenizer.cs;MODIFY;3876;0.0;Decreased;True;2020-06-11 06:25:35+00:00;False;1078;122;18676;0d5d017f0f1d89a7de58d217fa9f4a37ad62cc94;95;noreply@github.com;45661989+xtqqczze@users.noreply.github.com
+tokenizer.cs;MODIFY;3876;0.0;Equal;True;2020-06-11 06:25:35+00:00;False;1078;122;18676;0d5d017f0f1d89a7de58d217fa9f4a37ad62cc94;95;noreply@github.com;45661989+xtqqczze@users.noreply.github.com
 tokenizer.cs;MODIFY;3876;0.0;Equal;True;2020-06-25 06:30:40+00:00;False;1078;122;18674;bd90f1921f42059d9b467b501d49576861dfe3e2;71;noreply@github.com;45661989+xtqqczze@users.noreply.github.com
 tokenizer.cs;MODIFY;3876;0.0;Equal;True;2020-07-20 04:23:14+00:00;False;1078;122;18672;2c18386d79dcada8fbe56b2857de5bd8f7bc7657;20;noreply@github.com;45661989+xtqqczze@users.noreply.github.com
 tokenizer.cs;MODIFY;3876;0.0;Equal;True;2020-07-30 13:04:03+00:00;False;1078;122;18672;6c03776d743edfdffc3e347a7d7249864b5e2447;581;noreply@github.com;45661989+xtqqczze@users.noreply.github.com
@@ -56,7 +56,7 @@ tokenizer.cs;MODIFY;3876;0.0;Equal;True;2020-08-27 17:11:01+00:00;False;1077;122
 tokenizer.cs;MODIFY;3876;0.0;Equal;True;2020-10-30 07:07:18+00:00;False;1077;122;18657;af8558b065ac9e9c42d61efb6174bb485170618d;50;noreply@github.com;45661989+xtqqczze@users.noreply.github.com
 tokenizer.cs;MODIFY;3876;0.0;Equal;True;2020-11-05 03:36:23+00:00;False;1077;122;18658;4ed88dedbc2abfbd15b3bdc9795ee06f869e0372;105;noreply@github.com;45661989+xtqqczze@users.noreply.github.com
 tokenizer.cs;MODIFY;3876;0.0;Equal;True;2020-11-05 05:23:50+00:00;False;1077;122;18654;03a58c4186a0fc8ed2d052054da84d97eb46d8fb;42;noreply@github.com;45661989+xtqqczze@users.noreply.github.com
-tokenizer.cs;MODIFY;3876;0.0;Grew;True;2020-11-20 11:11:36+00:00;False;1077;122;18654;f14c76aab984515eb81e8d95109f21fcbf37ce12;56;noreply@github.com;45661989+xtqqczze@users.noreply.github.com
+tokenizer.cs;MODIFY;3876;0.0;Equal;True;2020-11-20 11:11:36+00:00;False;1077;122;18654;f14c76aab984515eb81e8d95109f21fcbf37ce12;56;noreply@github.com;45661989+xtqqczze@users.noreply.github.com
 tokenizer.cs;MODIFY;3876;0.0;Equal;True;2020-11-20 12:26:46+00:00;False;1077;122;18654;99a49e0eab9b137449b690ab4607d7932c6f9956;46;noreply@github.com;45661989+xtqqczze@users.noreply.github.com
 tokenizer.cs;MODIFY;3876;0.0;Equal;True;2020-11-21 14:26:44+00:00;False;1077;122;18653;cba73e724f5dbf234949358f407e12dfefa35dfe;38;noreply@github.com;45661989+xtqqczze@users.noreply.github.com
 tokenizer.cs;MODIFY;3872;-4.0;Decreased;True;2020-11-25 12:37:01+00:00;False;1077;122;18632;0d1ea73e599021c9ead87542646f7975bc04e5b9;56;noreply@github.com;45661989+xtqqczze@users.noreply.github.com

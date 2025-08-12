@@ -1,10 +1,10 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
-multi_buffer.rs;RENAME;5005;0.0;Decreased;True;2023-10-25 17:31:47+00:00;True;185;55;23913;7f6bb3d1eb5dc0ddbd7de0687796610f116e47ce;15;noreply@github.com;24362066+osiewicz@users.noreply.github.com
+multi_buffer.rs;RENAME;5005;0.0;Equal;True;2023-10-25 17:31:47+00:00;True;185;55;23913;7f6bb3d1eb5dc0ddbd7de0687796610f116e47ce;15;noreply@github.com;24362066+osiewicz@users.noreply.github.com
 multi_buffer.rs;MODIFY;5008;3.0;Grew;True;2024-01-03 19:01:58+00:00;False;185;55;23957;492805af9c54a65200c0238c8e61526f9ad25c0a;25;maxbrunsfeld@gmail.com;maxbrunsfeld@gmail.com
 multi_buffer.rs;MODIFY;5015;7.0;Grew;True;2024-01-04 02:31:43+00:00;False;185;55;24007;84171787a5806c66801be4bda60c76ebefdd583b;19;conrad.irwin@gmail.com;conrad.irwin@gmail.com
 multi_buffer.rs;MODIFY;5020;5.0;Grew;True;2024-01-09 05:02:56+00:00;False;185;55;24035;844d161c400e5f4e41f56743d010791314d16c0f;16;conrad.irwin@gmail.com;conrad.irwin@gmail.com
-multi_buffer.rs;MODIFY;5015;-5.0;Equal;True;2024-01-17 18:08:42+00:00;False;185;55;24004;6457ccf9ece3b36a37e675783abee9748a443115;6;maxbrunsfeld@gmail.com;maxbrunsfeld@gmail.com
-multi_buffer.rs;MODIFY;5020;5.0;Equal;True;2024-01-17 22:31:21+00:00;False;185;55;24035;57400e9687da088d8a55515926c11a5328fd8571;71;mikayla@zed.dev;mikayla@zed.dev
+multi_buffer.rs;MODIFY;5015;-5.0;Decreased;True;2024-01-17 18:08:42+00:00;False;185;55;24004;6457ccf9ece3b36a37e675783abee9748a443115;6;maxbrunsfeld@gmail.com;maxbrunsfeld@gmail.com
+multi_buffer.rs;MODIFY;5020;5.0;Grew;True;2024-01-17 22:31:21+00:00;False;185;55;24035;57400e9687da088d8a55515926c11a5328fd8571;71;mikayla@zed.dev;mikayla@zed.dev
 multi_buffer.rs;MODIFY;5020;0.0;Equal;True;2024-01-21 14:03:24+00:00;False;185;55;24030;6c8238023220ceec054ecd5baac7c4eb65065657;29;24362066+osiewicz@users.noreply.github.com;24362066+osiewicz@users.noreply.github.com
 multi_buffer.rs;MODIFY;5082;62.0;Grew;True;2024-01-29 19:00:47+00:00;False;185;55;24214;5ab715aac949c8d14dc6142bed6d5698ebbb0985;34;24362066+osiewicz@users.noreply.github.com;24362066+osiewicz@users.noreply.github.com
 multi_buffer.rs;MODIFY;5130;48.0;Grew;True;2024-01-31 19:42:09+00:00;False;183;54;24388;f98d63620327b9086371a341c743f79ca45566e4;23;noreply@github.com;mikayla@zed.dev
@@ -23,7 +23,7 @@ multi_buffer.rs;MODIFY;5165;-1.0;Decreased;True;2024-03-14 18:07:50+00:00;False;
 multi_buffer.rs;MODIFY;5175;10.0;Grew;True;2024-04-01 22:30:14+00:00;False;203;60;25086;499887d9310d6e88d5bc6c89f5d8ff8299d574d6;3;noreply@github.com;conrad.irwin@gmail.com
 multi_buffer.rs;MODIFY;5175;0.0;Equal;True;2024-04-03 04:16:52+00:00;False;203;60;25088;5a2a85a7db29d79c406be015ff2b287e20b02548;9;noreply@github.com;conrad.irwin@gmail.com
 multi_buffer.rs;MODIFY;5174;-1.0;Decreased;True;2024-04-03 16:22:56+00:00;False;203;60;25082;256b446bdf806d214add5b51beb2ddefd638c4e2;9;noreply@github.com;maxbrunsfeld@gmail.com
-multi_buffer.rs;MODIFY;5174;0.0;Grew;True;2024-04-08 17:57:36+00:00;False;203;60;25080;d2bf80ca3dcff96121aa8ebf879c4543a26c2cf8;2;noreply@github.com;mikayla@zed.dev
+multi_buffer.rs;MODIFY;5174;0.0;Equal;True;2024-04-08 17:57:36+00:00;False;203;60;25080;d2bf80ca3dcff96121aa8ebf879c4543a26c2cf8;2;noreply@github.com;mikayla@zed.dev
 multi_buffer.rs;MODIFY;5102;-72.0;Decreased;True;2024-04-10 14:32:51+00:00;False;203;60;24737;7abb63cfda824cb79c721da993db559dcd54c00b;31;noreply@github.com;nathan@zed.dev
 multi_buffer.rs;MODIFY;5102;0.0;Equal;True;2024-04-11 07:48:06+00:00;False;203;60;24737;eb6f7c1240727c0009a5e23d8a0017a9b408087d;24;noreply@github.com;JosephTLyons@gmail.com
 multi_buffer.rs;MODIFY;5105;3.0;Grew;True;2024-04-12 00:19:49+00:00;False;204;60;24747;32806b832015ae8d4279852634830c0c997c0f50;1;noreply@github.com;weartistt@gmail.com
@@ -68,7 +68,7 @@ multi_buffer.rs;MODIFY;6368;33.0;Grew;True;2024-09-18 01:43:59+00:00;False;180;1
 multi_buffer.rs;MODIFY;6366;-2.0;Decreased;True;2024-09-19 17:14:15+00:00;False;180;14;31573;1fc391f696a828780b6a651df0b797be91aee91e;13;noreply@github.com;elliott.codes@gmail.com
 multi_buffer.rs;MODIFY;6386;20.0;Grew;True;2024-09-19 23:50:00+00:00;False;180;14;31573;15b4130fa551e38841b69f135218ef75cfb010db;8;noreply@github.com;me@as-cii.com
 multi_buffer.rs;MODIFY;6379;-7.0;Decreased;True;2024-09-20 14:48:27+00:00;False;180;14;31488;ab1d466c5f46fbaf84615dc39f142cfe0c0880e3;16;noreply@github.com;elliott.codes@gmail.com
-multi_buffer.rs;MODIFY;6379;0.0;Grew;True;2024-09-20 22:28:50+00:00;False;180;14;31516;743feb98bcae8e00c8399be03fb27dc2b925bcdb;20;noreply@github.com;maxbrunsfeld@gmail.com
+multi_buffer.rs;MODIFY;6379;0.0;Equal;True;2024-09-20 22:28:50+00:00;False;180;14;31516;743feb98bcae8e00c8399be03fb27dc2b925bcdb;20;noreply@github.com;maxbrunsfeld@gmail.com
 multi_buffer.rs;MODIFY;6445;66.0;Grew;True;2024-09-23 17:40:34+00:00;False;182;15;31557;7051bc00c2fe8d7407480a805e950cb73343bb45;13;noreply@github.com;me@as-cii.com
 multi_buffer.rs;MODIFY;6493;48.0;Grew;True;2024-09-24 13:03:22+00:00;False;185;15;31861;93a4295f66c5a4c393e861deac7dcfb8c8dd45d2;2;noreply@github.com;mrnugget@gmail.com
 multi_buffer.rs;MODIFY;6493;0.0;Equal;True;2024-09-29 16:30:48+00:00;False;185;15;31861;84ce81caf155fefb60b1a26e44b14b1a28cfb2cd;21;noreply@github.com;me@as-cii.com

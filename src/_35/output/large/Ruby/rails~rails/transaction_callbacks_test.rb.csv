@@ -1,11 +1,11 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
-transaction_callbacks_test.rb;ADD;200.0;0.0;Grew;False;2010-04-29 19:24:15+00:00;False;50;27;1672;da840d13da865331297d5287391231b1ed39721b;5;jeremy@bitsweat.net;brian@embellishedvisions.com
+transaction_callbacks_test.rb;ADD;200.0;0.0;Equal;False;2010-04-29 19:24:15+00:00;False;50;27;1672;da840d13da865331297d5287391231b1ed39721b;5;jeremy@bitsweat.net;brian@embellishedvisions.com
 transaction_callbacks_test.rb;MODIFY;200.0;0.0;Equal;False;2010-04-30 01:26:19+00:00;False;50;27;1702;d2a49e4b1f30c5997e169110eed94a55aee53f56;2;jeremy@bitsweat.net;brian@embellishedvisions.com
 transaction_callbacks_test.rb;MODIFY;200.0;0.0;Equal;False;2010-05-17 14:16:53+00:00;False;50;27;1702;c2fb8afaa0e6a8f3d1782c97790a4bea8d4f0b0b;1;jeremy@bitsweat.net;fjguzman@aspgems.com
 transaction_callbacks_test.rb;MODIFY;196.0;-4.0;Decreased;False;2010-05-18 15:32:37+00:00;False;50;27;1686;03c3d1eb8489fc530e6fac49547a229d386808c1;1;wycats@gmail.com;santiago@wyeworks.com
 transaction_callbacks_test.rb;MODIFY;196.0;0.0;Equal;False;2010-05-19 10:59:47+00:00;False;50;27;1686;715f7c0b7c27a0fc4a6ec1619a0e4ccdce4fe85f;1;jose.valim@gmail.com;santiago@wyeworks.com
-transaction_callbacks_test.rb;DELETE;not calculated;0.0;Decreased;False;2010-06-08 18:56:08+00:00;False;not calculated;0;not calculated;1b2941cba1165b0721f57524645fe378bee2a950;5;jeremy@bitsweat.net;jeremy@bitsweat.net
-transaction_callbacks_test.rb;ADD;196.0;0.0;Grew;False;2010-06-08 21:05:29+00:00;False;50;27;1686;b07073924002fd56ac5b63b24cb9318b3dee45c4;5;jeremy@bitsweat.net;jeremy@bitsweat.net
+transaction_callbacks_test.rb;DELETE;not calculated;0.0;Equal;False;2010-06-08 18:56:08+00:00;False;not calculated;0;not calculated;1b2941cba1165b0721f57524645fe378bee2a950;5;jeremy@bitsweat.net;jeremy@bitsweat.net
+transaction_callbacks_test.rb;ADD;196.0;0.0;Equal;False;2010-06-08 21:05:29+00:00;False;50;27;1686;b07073924002fd56ac5b63b24cb9318b3dee45c4;5;jeremy@bitsweat.net;jeremy@bitsweat.net
 transaction_callbacks_test.rb;MODIFY;205.0;9.0;Grew;False;2010-06-18 22:11:17+00:00;False;50;27;1746;237165feb3e5f7b117b05353bd64d756b9f18f74;4;jeremy@bitsweat.net;brian@embellishedvisions.com
 transaction_callbacks_test.rb;MODIFY;204.0;-1.0;Decreased;False;2010-07-21 20:08:07+00:00;False;50;27;1744;b0c7dee4f2744286069c5ff4e65c3d081a4cb24a;14;jose.valim@gmail.com;subbarao.pasupuleti@gmail.com
 transaction_callbacks_test.rb;MODIFY;235.0;31.0;Grew;False;2010-08-10 01:36:06+00:00;False;56;32;1853;cb9295c8a1c97f07a7a41af420831794fe9c1b35;1;tobi@jadedpixel.com;tobi@jadedpixel.com
@@ -15,11 +15,11 @@ transaction_callbacks_test.rb;MODIFY;237.0;0.0;Equal;False;2011-06-04 22:47:03+0
 transaction_callbacks_test.rb;MODIFY;237.0;0.0;Equal;False;2011-06-06 22:47:13+00:00;False;56;32;1857;61774e0d494fa9076e08d55dde5efd1599ef7040;123;aaron.patterson@gmail.com;aaron.patterson@gmail.com
 transaction_callbacks_test.rb;MODIFY;237.0;0.0;Equal;False;2011-11-29 20:13:36+00:00;False;56;32;1863;0b72a04d0c93b666c23500aefbe4a6a76593cd36;21;j@jonathanleighton.com;j@jonathanleighton.com
 transaction_callbacks_test.rb;MODIFY;267.0;30.0;Grew;False;2012-03-21 08:35:28+00:00;False;61;36;1984;c8792c7b2ea4f5fe7a5610225433ea8dd8d0f83e;2;markmcspadden@gmail.com;markmcspadden@gmail.com
-transaction_callbacks_test.rb;MODIFY;258.0;-9.0;Grew;False;2012-05-09 12:02:15+00:00;False;58;34;1932;44d1804b0a86de02865c48c552bbc57da3dc7836;2;gethemant@gmail.com;gethemant@gmail.com
+transaction_callbacks_test.rb;MODIFY;258.0;-9.0;Decreased;False;2012-05-09 12:02:15+00:00;False;58;34;1932;44d1804b0a86de02865c48c552bbc57da3dc7836;2;gethemant@gmail.com;gethemant@gmail.com
 transaction_callbacks_test.rb;MODIFY;264.0;6.0;Grew;False;2012-05-09 13:09:59+00:00;False;59;35;1954;1024c688a9190461549d4943661e9862cb1a17d4;1;gethemant@gmail.com;gethemant@gmail.com
 transaction_callbacks_test.rb;MODIFY;263.0;-1.0;Decreased;False;2012-05-09 13:13:18+00:00;False;59;35;1954;041b6c6ccb2130ee8c87db2dd53736c22a79f3e8;1;gethemant@gmail.com;gethemant@gmail.com
-transaction_callbacks_test.rb;MODIFY;291.0;28.0;Equal;False;2012-09-14 23:00:50+00:00;False;64;39;2063;02f25a226f6418f95d7ea1c62f68b2f8688ae37a;6;j@jonathanleighton.com;j@jonathanleighton.com
-transaction_callbacks_test.rb;MODIFY;293.0;2.0;Equal;False;2012-09-14 23:41:56+00:00;False;64;39;2075;60c88e64e26682a954f7c8cd6669d409ffffcc8b;2;j@jonathanleighton.com;j@jonathanleighton.com
+transaction_callbacks_test.rb;MODIFY;291.0;28.0;Grew;False;2012-09-14 23:00:50+00:00;False;64;39;2063;02f25a226f6418f95d7ea1c62f68b2f8688ae37a;6;j@jonathanleighton.com;j@jonathanleighton.com
+transaction_callbacks_test.rb;MODIFY;293.0;2.0;Grew;False;2012-09-14 23:41:56+00:00;False;64;39;2075;60c88e64e26682a954f7c8cd6669d409ffffcc8b;2;j@jonathanleighton.com;j@jonathanleighton.com
 transaction_callbacks_test.rb;MODIFY;230.0;-63.0;Decreased;False;2012-11-29 00:46:49+00:00;False;53;30;1838;ccecab3ba950a288b61a516bf9b6962e384aae0b;39;rafaelmfranca@gmail.com;rafaelmfranca@gmail.com
 transaction_callbacks_test.rb;MODIFY;236.0;6.0;Grew;False;2012-12-26 10:37:37+00:00;False;55;32;1876;5a3dc8092d19c816b0b1203945639cb91d065847;3;paukul@gmail.com;paukul@gmail.com
 transaction_callbacks_test.rb;MODIFY;254.0;18.0;Grew;False;2013-02-13 20:27:06+00:00;False;59;35;1955;caabed6c76eea0db99949f34c234ef1b2657392a;3;bensie@gmail.com;bensie@gmail.com
@@ -29,8 +29,8 @@ transaction_callbacks_test.rb;MODIFY;255.0;-26.0;Decreased;False;2013-04-10 18:2
 transaction_callbacks_test.rb;MODIFY;255.0;0.0;Equal;False;2013-07-28 18:03:24+00:00;False;60;35;2027;f0942a7c236ba87a034f65827ddd2706c5c48ca3;1;ronnie@dio.jp;ronnie@dio.jp
 transaction_callbacks_test.rb;MODIFY;291.0;36.0;Grew;False;2014-01-16 11:05:59+00:00;False;63;38;2309;177989c6c0bfaffbb9dbf034b3b01d6e3edf1429;5;carlosantoniodasilva@gmail.com;harry.brundage@gmail.com
 transaction_callbacks_test.rb;MODIFY;291.0;0.0;Equal;False;2014-01-16 20:40:17+00:00;False;63;38;2281;7b11b06e6d880edae2da092ed82b722f1a9b5c3d;1;carlosantoniodasilva@gmail.com;carlosantoniodasilva@gmail.com
-transaction_callbacks_test.rb;MODIFY;260.0;-31.0;Equal;False;2014-01-16 20:40:18+00:00;False;64;39;1590;07ff3525d5275de47960c3a012a1fa261bbfdfc8;1;carlosantoniodasilva@gmail.com;carlosantoniodasilva@gmail.com
-transaction_callbacks_test.rb;MODIFY;260.0;0.0;Decreased;False;2014-01-16 20:40:18+00:00;False;64;39;1590;da4b5e8ecbfc684850e23afe2b3522d32e48bcac;1;carlosantoniodasilva@gmail.com;carlosantoniodasilva@gmail.com
+transaction_callbacks_test.rb;MODIFY;260.0;-31.0;Decreased;False;2014-01-16 20:40:18+00:00;False;64;39;1590;07ff3525d5275de47960c3a012a1fa261bbfdfc8;1;carlosantoniodasilva@gmail.com;carlosantoniodasilva@gmail.com
+transaction_callbacks_test.rb;MODIFY;260.0;0.0;Equal;False;2014-01-16 20:40:18+00:00;False;64;39;1590;da4b5e8ecbfc684850e23afe2b3522d32e48bcac;1;carlosantoniodasilva@gmail.com;carlosantoniodasilva@gmail.com
 transaction_callbacks_test.rb;MODIFY;262.0;2.0;Grew;False;2014-01-16 20:40:18+00:00;False;64;39;1592;c9c4a427e13dab240ab1cc35e0a3b3555c01b37f;1;carlosantoniodasilva@gmail.com;carlosantoniodasilva@gmail.com
 transaction_callbacks_test.rb;MODIFY;275.0;13.0;Grew;False;2014-02-03 20:49:48+00:00;False;65;40;1641;9b66d6d47f87d31fb360f48542520d9216e77dc9;2;arthurnn@gmail.com;arthurnn@gmail.com
 transaction_callbacks_test.rb;MODIFY;286.0;11.0;Grew;False;2014-08-15 20:04:39+00:00;False;66;41;1695;2e90fe736de73cfd89eed68b38e03eb6175314bc;3;arthurnn@gmail.com;arthurnn@gmail.com
@@ -48,16 +48,16 @@ transaction_callbacks_test.rb;MODIFY;386.0;0.0;Equal;False;2015-12-06 18:33:36+0
 transaction_callbacks_test.rb;MODIFY;406.0;20.0;Grew;False;2016-02-01 21:12:49+00:00;False;88;53;2165;8fd123f7ebf938d21c1a097561950c6d7e1213bb;2;jeremydaer@gmail.com;jeremydaer@gmail.com
 transaction_callbacks_test.rb;MODIFY;406.0;0.0;Equal;False;2016-08-06 16:26:53+00:00;False;88;53;2165;9617db2078e8a85c8944392c21dd748f932bbd80;280;fxn@hashref.com;fxn@hashref.com
 transaction_callbacks_test.rb;MODIFY;406.0;0.0;Equal;False;2016-08-06 17:37:57+00:00;False;88;53;2156;d22e522179c1c90e658c3ed0e9b972ec62306209;202;fxn@hashref.com;fxn@hashref.com
-transaction_callbacks_test.rb;MODIFY;406.0;0.0;Decreased;False;2016-08-06 18:20:22+00:00;False;88;53;2156;b326e82dc012d81e9698cb1f402502af1788c1e9;261;fxn@hashref.com;fxn@hashref.com
-transaction_callbacks_test.rb;MODIFY;406.0;0.0;Decreased;False;2016-08-07 08:50:59+00:00;False;88;53;2156;762e3f05f3d372cb32570db0deeef27232c4dd00;76;kamipo@gmail.com;kamipo@gmail.com
+transaction_callbacks_test.rb;MODIFY;406.0;0.0;Equal;False;2016-08-06 18:20:22+00:00;False;88;53;2156;b326e82dc012d81e9698cb1f402502af1788c1e9;261;fxn@hashref.com;fxn@hashref.com
+transaction_callbacks_test.rb;MODIFY;406.0;0.0;Equal;False;2016-08-07 08:50:59+00:00;False;88;53;2156;762e3f05f3d372cb32570db0deeef27232c4dd00;76;kamipo@gmail.com;kamipo@gmail.com
 transaction_callbacks_test.rb;MODIFY;406.0;0.0;Equal;False;2016-08-07 23:12:38+00:00;False;88;53;2154;a9dc45459abcd9437085f4dd0aa3c9d0e64e062f;74;fxn@hashref.com;fxn@hashref.com
 transaction_callbacks_test.rb;MODIFY;406.0;0.0;Equal;False;2016-08-16 07:30:11+00:00;False;88;53;2154;55f9b8129a50206513264824abb44088230793c2;362;rafaelmfranca@gmail.com;rafaelmfranca@gmail.com
 transaction_callbacks_test.rb;MODIFY;406.0;0.0;Equal;False;2016-10-29 03:17:49+00:00;False;88;53;2154;fe1f4b2ad56f010a4e9b93d547d63a15953d9dc2;380;rafaelmfranca@gmail.com;rafaelmfranca@gmail.com
 transaction_callbacks_test.rb;MODIFY;442.0;36.0;Grew;False;2016-12-09 16:14:37+00:00;False;93;57;2316;371c083fb0620efebf7bd0188a66486403e12ecc;4;stefan.budeanu@shopify.com;stefan.budeanu@shopify.com
 transaction_callbacks_test.rb;MODIFY;472.0;30.0;Grew;False;2017-02-21 06:03:55+00:00;False;98;61;2445;c478c74c183c480398eab822f4265e06a9501d36;2;erol.fornoles@gmail.com;erol.fornoles@gmail.com
-transaction_callbacks_test.rb;MODIFY;472.0;0.0;Grew;False;2017-06-30 23:11:03+00:00;False;98;61;2445;cfade1ec7ee7b5b51f3c1578e3474f9c156f2971;2230;shatrov@me.com;shatrov@me.com
-transaction_callbacks_test.rb;MODIFY;472.0;0.0;Decreased;False;2017-07-01 16:45:17+00:00;False;98;61;2445;87b3e226d65ac1ed371620bfdcd2f950c87cfece;2231;matthew@trebex.net;matthew@trebex.net
-transaction_callbacks_test.rb;MODIFY;472.0;0.0;Grew;False;2017-07-19 19:27:07+00:00;False;98;61;2445;831be98f9a6685da3410b0c9bf4143bd8dd647af;677;shatrov@me.com;shatrov@me.com
+transaction_callbacks_test.rb;MODIFY;472.0;0.0;Equal;False;2017-06-30 23:11:03+00:00;False;98;61;2445;cfade1ec7ee7b5b51f3c1578e3474f9c156f2971;2230;shatrov@me.com;shatrov@me.com
+transaction_callbacks_test.rb;MODIFY;472.0;0.0;Equal;False;2017-07-01 16:45:17+00:00;False;98;61;2445;87b3e226d65ac1ed371620bfdcd2f950c87cfece;2231;matthew@trebex.net;matthew@trebex.net
+transaction_callbacks_test.rb;MODIFY;472.0;0.0;Equal;False;2017-07-19 19:27:07+00:00;False;98;61;2445;831be98f9a6685da3410b0c9bf4143bd8dd647af;677;shatrov@me.com;shatrov@me.com
 transaction_callbacks_test.rb;MODIFY;472.0;0.0;Equal;False;2018-01-26 04:32:59+00:00;False;98;61;2445;94333a4c31bd10c1f358c538a167e6a4589bae2d;209;danieljamescolson@gmail.com;danieljamescolson@gmail.com
 transaction_callbacks_test.rb;MODIFY;472.0;0.0;Equal;False;2018-01-26 04:32:59+00:00;False;98;61;2437;82c39e1a0b5114e2d89a80883a41090567a83196;51;danieljamescolson@gmail.com;danieljamescolson@gmail.com
 transaction_callbacks_test.rb;MODIFY;489.0;17.0;Grew;False;2018-03-05 17:03:31+00:00;False;101;63;2532;263f01d93da118dc150c6ac816e70dcf10de2608;3;kamipo@gmail.com;kamipo@gmail.com
@@ -70,7 +70,7 @@ transaction_callbacks_test.rb;MODIFY;559.0;20.0;Grew;False;2019-04-12 00:19:03+0
 transaction_callbacks_test.rb;MODIFY;559.0;0.0;Equal;False;2019-04-14 11:55:46+00:00;False;111;72;2894;533dd8a681a3ea7d12acdfc6a2d6a95891282b49;4;kamipo@gmail.com;kamipo@gmail.com
 transaction_callbacks_test.rb;MODIFY;560.0;1.0;Grew;False;2019-04-30 12:44:37+00:00;False;111;72;2909;e0a315b38aae8cb748597a89786c2249627c4495;2;kamipo@gmail.com;kamipo@gmail.com
 transaction_callbacks_test.rb;MODIFY;592.0;32.0;Grew;False;2019-05-06 17:19:57+00:00;False;114;75;3058;718a32ca745672a977a0d4ae401f61f439767405;4;kamipo@gmail.com;kamipo@gmail.com
-transaction_callbacks_test.rb;MODIFY;592.0;0.0;Decreased;False;2019-06-13 03:00:45+00:00;False;114;75;3058;c81af6ae723ccfcd601032167d7b7f57c5449c33;434;kamipo@gmail.com;kamipo@gmail.com
+transaction_callbacks_test.rb;MODIFY;592.0;0.0;Equal;False;2019-06-13 03:00:45+00:00;False;114;75;3058;c81af6ae723ccfcd601032167d7b7f57c5449c33;434;kamipo@gmail.com;kamipo@gmail.com
 transaction_callbacks_test.rb;MODIFY;606.0;14.0;Grew;False;2019-09-20 03:44:35+00:00;False;117;76;3126;39730bdf1b805b894954aefd53b1215cdc8b5da5;2;kamipo@gmail.com;kamipo@gmail.com
 transaction_callbacks_test.rb;MODIFY;623.0;17.0;Grew;False;2019-12-27 01:33:22+00:00;False;119;78;3198;d3060af7f512a7036f7a979d7e1508d16bc8ec40;2;elkenny@gmail.com;elkenny@gmail.com
 transaction_callbacks_test.rb;MODIFY;652.0;29.0;Grew;False;2020-04-19 21:48:55+00:00;False;121;80;3363;8d3ca97032d2786031c384e40c48c8f5814d2a74;2;elkenny@gmail.com;elkenny@gmail.com

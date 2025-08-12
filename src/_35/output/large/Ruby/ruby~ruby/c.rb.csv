@@ -1,5 +1,5 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
-c.rb;ADD;412;0.0;Grew;False;2008-07-18 00:46:16+00:00;False;96;24;2230;fd25f74d64c69d636764ea11aa5a809b85e58f69;45;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+c.rb;ADD;412;0.0;Equal;False;2008-07-18 00:46:16+00:00;False;96;24;2230;fd25f74d64c69d636764ea11aa5a809b85e58f69;45;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 c.rb;MODIFY;403;-9.0;Decreased;False;2008-07-21 18:35:14+00:00;False;95;23;2198;cd9e9c6debcf893ea5fa70e42dc1875afaf0066f;19;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 c.rb;MODIFY;406;3.0;Grew;False;2008-09-25 02:43:03+00:00;False;100;23;2284;858362e761a41e7d96efbcb9b38ae815b1e388d7;54;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 c.rb;MODIFY;407;1.0;Grew;False;2008-10-24 23:05:28+00:00;False;100;23;2286;7222e82a8b98afdc61b9cf6ad7419068429a42e9;22;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
@@ -23,21 +23,21 @@ c.rb;MODIFY;615;20.0;Grew;False;2011-06-16 04:59:24+00:00;False;145;26;3472;b752
 c.rb;MODIFY;613;-2.0;Decreased;False;2011-06-29 21:17:31+00:00;False;145;26;3468;e75e7fcc9f90d41ae14019c0f3b5d5048badbb5a;13;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 c.rb;MODIFY;610;-3.0;Decreased;False;2011-07-31 00:19:00+00:00;False;144;26;3437;89b601d176a64f1293a3d3b5195b6735cbf880af;33;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 c.rb;MODIFY;689;79.0;Grew;True;2012-11-27 04:28:14+00:00;True;148;30;3448;1c279a7d2753949c725754e1302f791b76358114;233;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
-c.rb;MODIFY;689;0.0;Grew;True;2012-12-07 05:22:50+00:00;False;148;30;3448;85e3560a3bfb1652128d3336400f852b863f6c07;9;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+c.rb;MODIFY;689;0.0;Equal;True;2012-12-07 05:22:50+00:00;False;148;30;3448;85e3560a3bfb1652128d3336400f852b863f6c07;9;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 c.rb;MODIFY;706;17.0;Grew;True;2012-12-13 07:58:47+00:00;False;150;31;3519;d8c7695fbb2944aba9a69dce75f41b6881d1fc12;8;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 c.rb;MODIFY;706;0.0;Equal;True;2013-07-19 02:26:08+00:00;False;150;31;3519;b19a968f9ad54bc6a71bcb657271166931e59805;12;zzak@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;zzak@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 c.rb;MODIFY;733;27.0;Grew;True;2013-09-18 23:33:36+00:00;False;155;33;3708;df7dac9174a31e71b58be6184e23bfe6b742a494;118;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 c.rb;MODIFY;733;0.0;Equal;True;2014-09-05 01:41:25+00:00;False;156;33;3721;d42d6e690e3f553b971322eae783ac6b0d4d9692;56;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 c.rb;MODIFY;733;0.0;Equal;True;2014-12-07 01:22:37+00:00;False;156;33;3725;4260aa1dc399e1bb4a2147409ed1139112cfefb8;28;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
-c.rb;MODIFY;733;0.0;Grew;True;2015-12-16 05:07:31+00:00;False;156;33;3725;3e92b635fb5422207b7bbdc924e292e51e21f040;1432;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+c.rb;MODIFY;733;0.0;Equal;True;2015-12-16 05:07:31+00:00;False;156;33;3725;3e92b635fb5422207b7bbdc924e292e51e21f040;1432;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 c.rb;MODIFY;766;33.0;Grew;True;2016-09-05 10:35:30+00:00;False;155;35;3733;23863ff75d3ec9205d5f365b98b6608e38a93749;27;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 c.rb;MODIFY;764;-2.0;Decreased;True;2017-08-29 11:52:50+00:00;False;155;35;3723;4790c08906f296eea070c06933a5c2484b30584e;27;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 c.rb;MODIFY;762;-2.0;Decreased;True;2017-09-12 03:42:54+00:00;False;155;35;3719;214a7f8d49c7b59d06f5e2e3e1a8a3567ab7c570;23;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 c.rb;MODIFY;762;0.0;Equal;True;2017-11-27 10:45:24+00:00;False;155;35;3723;55518710865bd7258422807524403c91347519a2;195;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 c.rb;MODIFY;763;1.0;Grew;True;2018-10-28 01:56:28+00:00;False;155;35;3726;8586f021f8db193b746079aff7ee50461957f39d;2;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
-c.rb;MODIFY;763;0.0;Decreased;True;2019-01-04 09:10:10+00:00;False;155;35;3726;44aaff6d310f8cf88d89af4437d678a64bd89aa4;4;kazu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;kazu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+c.rb;MODIFY;763;0.0;Equal;True;2019-01-04 09:10:10+00:00;False;155;35;3726;44aaff6d310f8cf88d89af4437d678a64bd89aa4;4;kazu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;kazu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 c.rb;MODIFY;763;0.0;Equal;True;2019-01-04 09:25:32+00:00;False;155;35;3726;8513c20370d2416632f36858edd076e099836a99;1;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
-c.rb;MODIFY;763;0.0;Decreased;True;2019-01-04 09:41:13+00:00;False;155;35;3726;9035e73a14087c1d3d6e015758ec467e47fc2d19;1;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+c.rb;MODIFY;763;0.0;Equal;True;2019-01-04 09:41:13+00:00;False;155;35;3726;9035e73a14087c1d3d6e015758ec467e47fc2d19;1;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 c.rb;MODIFY;763;0.0;Equal;True;2019-01-04 09:49:32+00:00;False;155;35;3726;79aef1272e877b67b15b00a9cded806845556a0f;2;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 c.rb;MODIFY;763;0.0;Equal;True;2019-03-28 08:39:24+00:00;False;155;35;3726;fa04b87af4300f747e3ce5cfe21b8edf85fe73b2;1;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 c.rb;MODIFY;763;0.0;Equal;True;2019-07-26 09:20:58+00:00;False;155;35;3742;a86d4eef4b4551a48a5329bb993c3c6c39a1b1f3;11;hsbt@ruby-lang.org;aycabta@gmail.com
@@ -51,7 +51,7 @@ c.rb;MODIFY;748;3.0;Grew;True;2021-10-15 16:39:36+00:00;False;173;32;3940;7aec65
 c.rb;MODIFY;745;-3.0;Decreased;True;2022-02-09 09:43:07+00:00;False;175;32;4016;dec96dd89744695d310b70a672b9ea044eeed89f;2;svn-admin@ruby-lang.org;nobu@ruby-lang.org
 c.rb;MODIFY;746;1.0;Grew;True;2022-02-09 13:22:45+00:00;False;175;32;4019;ec6d1cf28fc333fa360ab786c3852b95475932b2;2;svn-admin@ruby-lang.org;nobu@ruby-lang.org
 c.rb;MODIFY;747;1.0;Grew;True;2022-03-16 06:05:41+00:00;False;176;32;4035;ebcbca96fb93c100da48f411515d9d8802d60b2b;2;svn-admin@ruby-lang.org;nobu@ruby-lang.org
-c.rb;MODIFY;747;0.0;Grew;True;2022-06-07 01:42:10+00:00;False;176;32;4042;dbfb3b1917dbe89816ffeea6046d2743c32bf6b6;2;svn-admin@ruby-lang.org;nobu@ruby-lang.org
+c.rb;MODIFY;747;0.0;Equal;True;2022-06-07 01:42:10+00:00;False;176;32;4042;dbfb3b1917dbe89816ffeea6046d2743c32bf6b6;2;svn-admin@ruby-lang.org;nobu@ruby-lang.org
 c.rb;MODIFY;747;0.0;Equal;True;2022-06-07 02:44:58+00:00;False;176;32;4042;082c2d1b053280890d5b670a2a3f87540dfe4dcf;1;svn-admin@ruby-lang.org;nobu@ruby-lang.org
 c.rb;MODIFY;747;0.0;Equal;True;2022-06-28 05:51:49+00:00;False;176;32;4051;51be2cf6d23466e173ad66eac9a4b3ae32097cc4;2;svn-admin@ruby-lang.org;nobu@ruby-lang.org
 c.rb;MODIFY;755;8.0;Grew;True;2022-06-28 11:17:30+00:00;False;178;32;4089;131422ceea4e1970e68907c337976b898a797d8a;2;svn-admin@ruby-lang.org;nobu@ruby-lang.org
@@ -59,8 +59,8 @@ c.rb;MODIFY;742;-13.0;Decreased;True;2022-11-27 16:35:07+00:00;False;174;31;4020
 c.rb;MODIFY;742;0.0;Equal;True;2023-12-05 08:48:18+00:00;False;174;31;4028;c0baa3783f1f43072128cb90339a2d00e03dde1c;1;svn-admin@ruby-lang.org;nobu@ruby-lang.org
 c.rb;MODIFY;741;-1.0;Decreased;True;2023-12-05 08:48:19+00:00;False;177;31;4091;113f5d7fd79f2b7dd72a2f748dee475ad793a743;2;svn-admin@ruby-lang.org;nobu@ruby-lang.org
 c.rb;MODIFY;740;-1.0;Decreased;True;2023-12-06 09:35:43+00:00;False;177;31;4081;379f06797d563084ed28f397419f97b7d2e01d87;1;svn-admin@ruby-lang.org;nobu@ruby-lang.org
-c.rb;MODIFY;800;60.0;Equal;True;2023-12-06 09:35:44+00:00;False;150;25;3586;e03e872eea75ee63672c755dccc340a1f6042fce;2;svn-admin@ruby-lang.org;nobu@ruby-lang.org
-c.rb;MODIFY;800;0.0;Grew;True;2023-12-15 15:26:37+00:00;False;150;25;3586;e15d690db147fb059a48f87bf639fdf0c006a22b;12;nobu@ruby-lang.org;nobu@ruby-lang.org
+c.rb;MODIFY;800;60.0;Grew;True;2023-12-06 09:35:44+00:00;False;150;25;3586;e03e872eea75ee63672c755dccc340a1f6042fce;2;svn-admin@ruby-lang.org;nobu@ruby-lang.org
+c.rb;MODIFY;800;0.0;Equal;True;2023-12-15 15:26:37+00:00;False;150;25;3586;e15d690db147fb059a48f87bf639fdf0c006a22b;12;nobu@ruby-lang.org;nobu@ruby-lang.org
 c.rb;MODIFY;810;10.0;Grew;True;2023-12-25 12:12:49+00:00;False;149;25;3599;e32495309052e8e8197bcb36d123923548814d30;2;hsbt@ruby-lang.org;nobu@ruby-lang.org
 c.rb;MODIFY;810;0.0;Equal;True;2024-07-17 20:43:08+00:00;False;149;25;3599;239d54dfbce0f38cf4d31fa252b4d9bd65477bac;9;svn-admin@ruby-lang.org;stan001212@gmail.com
 c.rb;MODIFY;829;19.0;Grew;True;2024-12-05 11:36:34+00:00;False;149;25;3599;2ecd2fe0ed251f9946d5322d96cbfaf61ccbdd65;6;svn-admin@ruby-lang.org;stan001212@gmail.com

@@ -1,5 +1,5 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
-test_rdoc_ri_driver.rb;ADD;71;0.0;Grew;False;2008-07-18 00:46:16+00:00;False;15;15;345;fd25f74d64c69d636764ea11aa5a809b85e58f69;45;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+test_rdoc_ri_driver.rb;ADD;71;0.0;Equal;False;2008-07-18 00:46:16+00:00;False;15;15;345;fd25f74d64c69d636764ea11aa5a809b85e58f69;45;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_rdoc_ri_driver.rb;MODIFY;65;-6.0;Decreased;False;2008-07-21 18:35:14+00:00;False;15;15;319;cd9e9c6debcf893ea5fa70e42dc1875afaf0066f;19;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_rdoc_ri_driver.rb;MODIFY;65;0.0;Equal;False;2008-09-25 02:43:03+00:00;False;15;15;331;858362e761a41e7d96efbcb9b38ae815b1e388d7;54;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_rdoc_ri_driver.rb;MODIFY;67;2.0;Grew;False;2008-10-24 23:05:28+00:00;False;15;15;337;7222e82a8b98afdc61b9cf6ad7419068429a42e9;22;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
@@ -16,11 +16,11 @@ test_rdoc_ri_driver.rb;MODIFY;675;27.0;Grew;True;2011-05-14 00:39:16+00:00;True;
 test_rdoc_ri_driver.rb;MODIFY;702;27.0;Grew;True;2011-06-16 04:59:24+00:00;False;69;63;3610;b7528b5edb1f9148ea00ebb6151720e5943b3f0b;58;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_rdoc_ri_driver.rb;MODIFY;772;70.0;Grew;True;2011-07-31 00:19:00+00:00;False;72;66;3926;89b601d176a64f1293a3d3b5195b6735cbf880af;33;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_rdoc_ri_driver.rb;MODIFY;994;222.0;Grew;True;2012-11-27 04:28:14+00:00;False;89;82;5088;1c279a7d2753949c725754e1302f791b76358114;233;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
-test_rdoc_ri_driver.rb;MODIFY;994;0.0;Grew;True;2012-11-27 07:09:21+00:00;False;89;82;5088;ef8e0908af4a1784d8e06b0110168e2df0f95f1e;7;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+test_rdoc_ri_driver.rb;MODIFY;994;0.0;Equal;True;2012-11-27 07:09:21+00:00;False;89;82;5088;ef8e0908af4a1784d8e06b0110168e2df0f95f1e;7;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_rdoc_ri_driver.rb;MODIFY;1019;25.0;Grew;True;2012-11-30 01:39:03+00:00;False;91;84;5200;696ebcd8cafece7c0ed6407af9679699a16a5c5a;3;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_rdoc_ri_driver.rb;MODIFY;1039;20.0;Grew;True;2012-12-03 23:32:39+00:00;False;93;86;5285;ec05ade5312881296891949e05afa3ace8754207;3;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_rdoc_ri_driver.rb;MODIFY;1048;9.0;Grew;True;2013-09-18 23:33:36+00:00;False;93;87;5317;df7dac9174a31e71b58be6184e23bfe6b742a494;118;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
-test_rdoc_ri_driver.rb;MODIFY;1048;0.0;Grew;True;2015-12-16 05:07:31+00:00;False;93;87;5317;3e92b635fb5422207b7bbdc924e292e51e21f040;1432;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+test_rdoc_ri_driver.rb;MODIFY;1048;0.0;Equal;True;2015-12-16 05:07:31+00:00;False;93;87;5317;3e92b635fb5422207b7bbdc924e292e51e21f040;1432;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_rdoc_ri_driver.rb;MODIFY;1062;14.0;Grew;True;2016-09-05 10:35:30+00:00;False;94;88;5404;23863ff75d3ec9205d5f365b98b6608e38a93749;27;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_rdoc_ri_driver.rb;MODIFY;1071;9.0;Grew;True;2016-09-07 22:23:38+00:00;False;95;89;5461;ba6ae341bab83dfc7a624c5bf20d8d162dacaff9;37;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_rdoc_ri_driver.rb;MODIFY;1071;0.0;Equal;True;2017-02-24 07:39:37+00:00;False;95;89;5461;df3e22ce84c2b19de9833f3b642098ee5abd826a;17;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
@@ -42,7 +42,7 @@ test_rdoc_ri_driver.rb;MODIFY;1139;0.0;Equal;True;2020-04-24 17:49:35+00:00;Fals
 test_rdoc_ri_driver.rb;MODIFY;1137;-2.0;Decreased;True;2020-04-24 17:49:37+00:00;False;98;93;5739;cc8f55e9e31e8057c6b5bfd417ca4f70d41b9a33;2;nobu@ruby-lang.org;nobu@ruby-lang.org
 test_rdoc_ri_driver.rb;MODIFY;1144;7.0;Grew;True;2021-07-05 02:34:25+00:00;False;99;94;5803;ec9a9af3754671cd066eb9827c4207b36a5f9dba;2;nobu@ruby-lang.org;buonomo.ulysse@gmail.com
 test_rdoc_ri_driver.rb;MODIFY;1144;0.0;Equal;True;2022-02-12 06:06:06+00:00;False;101;94;5813;5348a34504a67597e3a3ed98a3020dfd762241ad;41;nobu@ruby-lang.org;buonomo.ulysse@gmail.com
-test_rdoc_ri_driver.rb;MODIFY;1144;0.0;Decreased;True;2022-06-04 07:42:09+00:00;False;101;94;5813;d4c7e4d5bb96a3b04b6e64a0e358be4381531827;1;svn-admin@ruby-lang.org;nobu@ruby-lang.org
+test_rdoc_ri_driver.rb;MODIFY;1144;0.0;Equal;True;2022-06-04 07:42:09+00:00;False;101;94;5813;d4c7e4d5bb96a3b04b6e64a0e358be4381531827;1;svn-admin@ruby-lang.org;nobu@ruby-lang.org
 test_rdoc_ri_driver.rb;MODIFY;1132;-12.0;Decreased;True;2022-06-04 07:42:10+00:00;False;99;93;5750;9a7be959b1bf9a43e3436246a29db3a4d0f3f352;2;svn-admin@ruby-lang.org;nobu@ruby-lang.org
 test_rdoc_ri_driver.rb;MODIFY;1137;5.0;Grew;True;2022-06-06 12:19:45+00:00;False;99;93;5763;66a9e452bbbb69e5a653d078839b222b92034cb6;1;svn-admin@ruby-lang.org;nobu@ruby-lang.org
 test_rdoc_ri_driver.rb;MODIFY;1132;-5.0;Decreased;True;2022-12-23 02:05:09+00:00;False;98;93;5724;792c50e917c6f7a7ed0f3ca8c64b47c005593b41;3;nobu@ruby-lang.org;nobu@ruby-lang.org

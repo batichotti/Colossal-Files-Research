@@ -1,5 +1,5 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
-omniauth_callbacks_controller_spec.rb;ADD;55;0.0;Grew;False;2018-01-17 01:05:01+00:00;False;6;6;252;4493ec08806813fec9ccc3a27a5a6f59af9780fd;8;stanhu@gmail.com;robert@gitlab.com
+omniauth_callbacks_controller_spec.rb;ADD;55;0.0;Equal;False;2018-01-17 01:05:01+00:00;False;6;6;252;4493ec08806813fec9ccc3a27a5a6f59af9780fd;8;stanhu@gmail.com;robert@gitlab.com
 omniauth_callbacks_controller_spec.rb;MODIFY;68;13.0;Grew;False;2018-03-21 14:43:47+00:00;False;7;7;326;140cb0c092151636463a2222ce3fc2267f621d3a;9;mark@gitlab.com;james@gitlab.com
 omniauth_callbacks_controller_spec.rb;MODIFY;94;26.0;Grew;False;2018-03-22 16:05:15+00:00;False;9;9;479;161a05b963b83fe50961ef41eebc5d1c28c3110e;3;tiagonbotelho@hotmail.com;tiagonbotelho@hotmail.com
 omniauth_callbacks_controller_spec.rb;MODIFY;124;30.0;Grew;False;2018-06-25 15:32:03+00:00;False;11;11;667;2efe27ba181daa18db9e227b13be428ebdfc23f1;14;douwe@gitlab.com;roger.ruettimann@gmail.com
@@ -10,11 +10,11 @@ omniauth_callbacks_controller_spec.rb;MODIFY;150;0.0;Equal;False;2019-01-23 19:4
 omniauth_callbacks_controller_spec.rb;MODIFY;167;17.0;Grew;False;2019-02-04 10:10:51+00:00;False;16;16;891;6548e01f18c24ec8703bb85557d7509dbeace013;3;jedwardsjones@gitlab.com;jedwardsjones@gitlab.com
 omniauth_callbacks_controller_spec.rb;MODIFY;188;21.0;Grew;False;2019-03-19 12:38:16+00:00;False;18;18;980;8ee1927db90d43205b4e6f8bd13f209c74b41bd1;9;pshutsin@gitlab.com;pshutsin@gitlab.com
 omniauth_callbacks_controller_spec.rb;MODIFY;188;0.0;Equal;False;2019-04-05 08:43:27+00:00;False;18;18;980;4ec16912b8f4eba9cc70dd21afb65c441f857da0;132;james@gitlab.com;tkuah@gitlab.com
-omniauth_callbacks_controller_spec.rb;MODIFY;188;0.0;Grew;False;2019-04-15 10:17:05+00:00;False;18;18;983;93a44e135b0d09ed0fd31dce5d81841a96ef8d67;154;remy@rymai.me;gfyoung17+gitlab@gmail.com
+omniauth_callbacks_controller_spec.rb;MODIFY;188;0.0;Equal;False;2019-04-15 10:17:05+00:00;False;18;18;983;93a44e135b0d09ed0fd31dce5d81841a96ef8d67;154;remy@rymai.me;gfyoung17+gitlab@gmail.com
 omniauth_callbacks_controller_spec.rb;MODIFY;191;3.0;Grew;False;2019-04-23 19:11:08+00:00;False;18;18;998;a16d7e414d04ccf3268be9cab2fdff15b2ecb45e;3;remy@rymai.me;remy@rymai.me
 omniauth_callbacks_controller_spec.rb;MODIFY;218;27.0;Grew;False;2019-09-21 08:31:31+00:00;False;22;22;1124;3bdde494888b6a19f19b9eab6303475b1bf44ee2;12;sarcila@gitlab.com;sarcila@gitlab.com
-omniauth_callbacks_controller_spec.rb;MODIFY;213;-5.0;Grew;False;2019-09-26 08:07:26+00:00;False;20;20;1124;fe4ffa44e42ad2538ffbd275c3764d00404e8576;6;mksionek@gitlab.com;mksionek@gitlab.com
-omniauth_callbacks_controller_spec.rb;MODIFY;213;0.0;Grew;False;2019-09-30 12:22:05+00:00;False;20;20;1124;48bb855ece50ca7b53b821cfcf3d335a8106e286;6;yorick@yorickpeterse.com;mksionek@gitlab.com
+omniauth_callbacks_controller_spec.rb;MODIFY;213;-5.0;Decreased;False;2019-09-26 08:07:26+00:00;False;20;20;1124;fe4ffa44e42ad2538ffbd275c3764d00404e8576;6;mksionek@gitlab.com;mksionek@gitlab.com
+omniauth_callbacks_controller_spec.rb;MODIFY;213;0.0;Equal;False;2019-09-30 12:22:05+00:00;False;20;20;1124;48bb855ece50ca7b53b821cfcf3d335a8106e286;6;yorick@yorickpeterse.com;mksionek@gitlab.com
 omniauth_callbacks_controller_spec.rb;MODIFY;240;27.0;Grew;False;2019-09-30 12:22:06+00:00;False;24;24;1250;3692e9f8a23386c627942ca2a9edd8c00af7e904;12;yorick@yorickpeterse.com;sarcila@gitlab.com
 omniauth_callbacks_controller_spec.rb;MODIFY;257;17.0;Grew;False;2019-10-10 00:06:44+00:00;False;27;27;1324;308146dc398fd4c13453048105498018459e0985;84;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 omniauth_callbacks_controller_spec.rb;MODIFY;334;77.0;Grew;False;2019-12-11 12:08:10+00:00;False;34;34;1717;b86f474bf51e20d2db4cf0895d0a8e0894e31c08;97;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
@@ -55,7 +55,7 @@ omniauth_callbacks_controller_spec.rb;MODIFY;679;13.0;Grew;True;2024-03-08 15:09
 omniauth_callbacks_controller_spec.rb;MODIFY;670;-9.0;Decreased;True;2024-04-19 12:16:37+00:00;False;59;59;3367;9af33e898af9bea2b38ab6c0a9be48d757b049bd;45;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 omniauth_callbacks_controller_spec.rb;MODIFY;684;14.0;Grew;True;2024-04-24 18:10:01+00:00;False;60;60;3445;39b47b75cf634a613cb5fe1c5f1f02e8c8f57399;198;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 omniauth_callbacks_controller_spec.rb;MODIFY;684;0.0;Equal;True;2024-08-12 21:07:47+00:00;False;60;60;3446;0655a851372d7ee559ce7c53353326b6a2fe7415;389;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
-omniauth_callbacks_controller_spec.rb;MODIFY;664;-20.0;Equal;True;2024-08-30 15:07:26+00:00;False;58;58;3336;3a78348922679495062002bb8d448abadfac84c1;73;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
+omniauth_callbacks_controller_spec.rb;MODIFY;664;-20.0;Decreased;True;2024-08-30 15:07:26+00:00;False;58;58;3336;3a78348922679495062002bb8d448abadfac84c1;73;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 omniauth_callbacks_controller_spec.rb;MODIFY;686;22.0;Grew;True;2024-10-04 18:23:16+00:00;False;59;59;3463;9834c4f706a48c3adf882f9563e553dd1ca0808f;309;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 omniauth_callbacks_controller_spec.rb;MODIFY;686;0.0;Equal;True;2024-10-06 12:11:49+00:00;False;59;59;3463;d424be85870014084a306b35e4ca8c2a0fdc224d;2;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 omniauth_callbacks_controller_spec.rb;MODIFY;715;29.0;Grew;True;2024-11-15 18:17:36+00:00;False;60;60;3687;ed459181b4984dddc36663fa2b59717c080cb21c;89;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com

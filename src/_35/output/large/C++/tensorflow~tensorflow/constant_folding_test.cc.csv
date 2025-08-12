@@ -1,5 +1,5 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
-constant_folding_test.cc;ADD;105;0.0;Grew;False;2017-03-30 06:49:06+00:00;False;5;3;1000;3db6b68b2f73caeaa71317926a0ea4d5f13688f8;5;gardener@tensorflow.org;yaozhang@google.com
+constant_folding_test.cc;ADD;105;0.0;Equal;False;2017-03-30 06:49:06+00:00;False;5;3;1000;3db6b68b2f73caeaa71317926a0ea4d5f13688f8;5;gardener@tensorflow.org;yaozhang@google.com
 constant_folding_test.cc;MODIFY;105;0.0;Equal;False;2017-04-23 06:48:30+00:00;False;5;3;1000;4fa785e5d016bad7f2cca9bb5fc69ee2ed9f38c5;5;gardener@tensorflow.org;yuefengz@google.com
 constant_folding_test.cc;MODIFY;151;46.0;Grew;False;2017-05-31 18:25:23+00:00;False;9;4;1534;84661fa7366aff79b007765311fbc0a8e07f84e4;3;gardener@tensorflow.org;bsteiner@google.com
 constant_folding_test.cc;MODIFY;199;48.0;Grew;False;2017-05-31 19:44:43+00:00;False;14;5;2086;e8d17ea8c187e5a7a4d525fe0db5899875d9559d;4;gardener@tensorflow.org;bsteiner@google.com
@@ -12,7 +12,7 @@ constant_folding_test.cc;MODIFY;511;76.0;Grew;False;2017-06-28 19:21:41+00:00;Fa
 constant_folding_test.cc;MODIFY;513;2.0;Grew;False;2017-06-29 05:11:55+00:00;False;49;10;5532;f714831735d75d8e3ceefc23c5da8c975bf6699c;2;gardener@tensorflow.org;bsteiner@google.com
 constant_folding_test.cc;MODIFY;500;-13.0;Decreased;False;2017-08-04 23:04:10+00:00;False;49;10;5333;1559e5741e37bb6db4d6e70bb429bc9207440a03;3;gardener@tensorflow.org;bsteiner@google.com
 constant_folding_test.cc;MODIFY;493;-7.0;Decreased;False;2017-08-07 18:43:20+00:00;False;49;10;5209;ef55f23ed873dc2d2ed29abdaa1890f56fddb590;2;gardener@tensorflow.org;bsteiner@google.com
-constant_folding_test.cc;MODIFY;493;0.0;Decreased;False;2017-08-15 02:15:33+00:00;False;49;10;5208;39b5ffce27ef36e231d1cad923c41ecd5b8a59fd;4;gardener@tensorflow.org;yaozhang@google.com
+constant_folding_test.cc;MODIFY;493;0.0;Equal;False;2017-08-15 02:15:33+00:00;False;49;10;5208;39b5ffce27ef36e231d1cad923c41ecd5b8a59fd;4;gardener@tensorflow.org;yaozhang@google.com
 constant_folding_test.cc;MODIFY;506;13.0;Grew;False;2017-08-17 16:48:05+00:00;False;50;11;5339;055375c0c2dba975145d5f9dba99db1400483eaa;2;gardener@tensorflow.org;bsteiner@google.com
 constant_folding_test.cc;MODIFY;650;144.0;Grew;False;2017-08-28 18:09:41+00:00;False;59;14;6895;ffe641b13a926edc3e0625f7947134d24aef484a;7;gardener@tensorflow.org;yaozhang@google.com
 constant_folding_test.cc;MODIFY;683;33.0;Grew;False;2017-08-30 21:03:08+00:00;False;62;15;7241;ac2c94fb30c8e8b44ca40b01082016813eea18d8;6;gardener@tensorflow.org;yaozhang@google.com
@@ -38,14 +38,14 @@ constant_folding_test.cc;MODIFY;1239;61.0;Grew;False;2017-12-12 19:08:36+00:00;F
 constant_folding_test.cc;MODIFY;1238;-1.0;Decreased;False;2017-12-15 00:02:36+00:00;False;146;24;13669;481b5f4410b34b65570f9dce62b34e9199769a38;3;gardener@tensorflow.org;gardener@tensorflow.org
 constant_folding_test.cc;MODIFY;1231;-7.0;Decreased;False;2018-01-09 01:25:13+00:00;False;145;24;13588;e513d1f516046abc4a5831e1347720922118e81b;2;gardener@tensorflow.org;bsteiner@google.com
 constant_folding_test.cc;MODIFY;1234;3.0;Grew;False;2018-01-12 23:11:30+00:00;False;145;24;13588;c7a4059849bf2cc89a457b11d7bf0145b301e123;3;gardener@tensorflow.org;gardener@tensorflow.org
-constant_folding_test.cc;MODIFY;1234;0.0;Grew;False;2018-01-13 04:08:34+00:00;False;145;24;13588;81b91ab1906d166387eaa0ca75223f23194f3825;3;gunan@google.com;gardener@tensorflow.org
+constant_folding_test.cc;MODIFY;1234;0.0;Equal;False;2018-01-13 04:08:34+00:00;False;145;24;13588;81b91ab1906d166387eaa0ca75223f23194f3825;3;gunan@google.com;gardener@tensorflow.org
 constant_folding_test.cc;MODIFY;1240;6.0;Grew;False;2018-01-21 17:26:38+00:00;False;145;24;13697;f31c1acda127e361b797b6f61b6ed3d30d7ea2af;2;gardener@tensorflow.org;gardener@tensorflow.org
 constant_folding_test.cc;MODIFY;1225;-15.0;Decreased;False;2018-02-05 20:12:25+00:00;False;144;23;13591;2eacd726ed2317cb1c0887ed58d4bde935608274;7;gardener@tensorflow.org;bsteiner@google.com
 constant_folding_test.cc;MODIFY;1221;-4.0;Decreased;False;2018-02-15 22:33:30+00:00;False;144;23;13567;66f4f4cf31b86b7dd20f10ce6d968348b502f2ee;5;gardener@tensorflow.org;gardener@tensorflow.org
 constant_folding_test.cc;MODIFY;1248;27.0;Grew;False;2018-02-21 21:04:56+00:00;False;145;24;13857;7e8b4a09416e453555073a88b0fd47625e0c5036;6;gardener@tensorflow.org;gardener@tensorflow.org
 constant_folding_test.cc;MODIFY;1278;30.0;Grew;False;2018-02-22 18:48:14+00:00;False;149;25;14133;b3998ecba3bf600b7e2d4cb5454df5bc6c0ffe04;1;gardener@tensorflow.org;bsteiner@google.com
 constant_folding_test.cc;MODIFY;1327;49.0;Grew;False;2018-02-23 03:51:04+00:00;False;157;26;14565;befd8234e1c209b26457eb5df37d2952004bdeaf;5;gardener@tensorflow.org;gardener@tensorflow.org
-constant_folding_test.cc;MODIFY;1327;0.0;Decreased;False;2018-02-26 18:28:36+00:00;False;157;26;14565;c6807e0c7c998f0e38e6930fca4a8cf667f791c6;3;gardener@tensorflow.org;gardener@tensorflow.org
+constant_folding_test.cc;MODIFY;1327;0.0;Equal;False;2018-02-26 18:28:36+00:00;False;157;26;14565;c6807e0c7c998f0e38e6930fca4a8cf667f791c6;3;gardener@tensorflow.org;gardener@tensorflow.org
 constant_folding_test.cc;MODIFY;1421;94.0;Grew;False;2018-02-27 18:13:17+00:00;False;170;27;15640;0e5458fb95b0b146838a3c61de31bb9497c613ce;2;gardener@tensorflow.org;gardener@tensorflow.org
 constant_folding_test.cc;MODIFY;1327;-94.0;Decreased;False;2018-02-27 22:33:33+00:00;False;157;26;14565;1fc324c6701bc179ca73908731857e8a582437b5;3;gunan@google.com;gardener@tensorflow.org
 constant_folding_test.cc;MODIFY;1464;137.0;Grew;False;2018-03-02 01:32:31+00:00;False;171;28;16276;0770b3f963405974692bf0908fcb7db8df81d3f6;2;gardener@tensorflow.org;gardener@tensorflow.org
@@ -69,7 +69,7 @@ constant_folding_test.cc;MODIFY;2061;62.0;Grew;False;2018-04-03 18:18:00+00:00;F
 constant_folding_test.cc;MODIFY;2054;-7.0;Decreased;False;2018-04-04 21:31:49+00:00;False;228;41;23111;86d06ff37f9f1cb2bb5cd0c2d594286bbf023491;4;gardener@tensorflow.org;gardener@tensorflow.org
 constant_folding_test.cc;MODIFY;2087;33.0;Grew;False;2018-04-04 23:07:48+00:00;False;231;41;23396;7cee71e28e98bac613623feea19c4a51439e9a0a;4;gardener@tensorflow.org;gardener@tensorflow.org
 constant_folding_test.cc;MODIFY;2122;35.0;Grew;False;2018-04-06 16:47:11+00:00;False;232;42;23779;53868bfd9705da3fc15b59ab02db39b652686b13;2;gardener@tensorflow.org;bsteiner@google.com
-constant_folding_test.cc;MODIFY;2122;0.0;Grew;False;2018-04-06 21:24:42+00:00;False;232;42;23779;8b5212011c7b67b7f8c2ea1b641aa0a7151c82d0;206;noreply@github.com;rmlarsen@google.com
+constant_folding_test.cc;MODIFY;2122;0.0;Equal;False;2018-04-06 21:24:42+00:00;False;232;42;23779;8b5212011c7b67b7f8c2ea1b641aa0a7151c82d0;206;noreply@github.com;rmlarsen@google.com
 constant_folding_test.cc;MODIFY;2154;32.0;Grew;False;2018-04-10 04:39:08+00:00;False;233;42;24259;1c8f3c81698b67b8fffce86c97df27d392b84cb8;1;gardener@tensorflow.org;gardener@tensorflow.org
 constant_folding_test.cc;MODIFY;2214;60.0;Grew;False;2018-04-11 22:11:50+00:00;False;235;44;25005;d2690cf5893cb117ab52f0169fe730736dc22ab7;4;gardener@tensorflow.org;gardener@tensorflow.org
 constant_folding_test.cc;MODIFY;2154;-60.0;Decreased;False;2018-04-12 00:31:36+00:00;False;233;42;24259;d62a5a11e99b391f2e61e80c4f0a80def6ff6508;4;gardener@tensorflow.org;gardener@tensorflow.org
@@ -96,9 +96,9 @@ constant_folding_test.cc;MODIFY;2804;32.0;Grew;False;2018-10-04 22:22:01+00:00;F
 constant_folding_test.cc;MODIFY;2829;25.0;Grew;False;2018-10-29 23:59:13+00:00;False;273;53;32915;ce96b12258a2a649ce021c1073c6d77e5fd08171;4;gardener@tensorflow.org;gardener@tensorflow.org
 constant_folding_test.cc;MODIFY;2904;75.0;Grew;False;2018-11-12 23:47:25+00:00;False;281;54;33681;115d3d6e01c22691642bcb4f63753f22a0b5ce09;3;gardener@tensorflow.org;srjoglekar@google.com
 constant_folding_test.cc;MODIFY;2986;82.0;Grew;False;2018-11-29 20:34:38+00:00;False;302;60;34253;6b61ad6ab2d0ce8c9e0c218f8d3571ce498e3fc8;1;gardener@tensorflow.org;lyandy@google.com
-constant_folding_test.cc;MODIFY;2986;0.0;Grew;False;2018-12-05 15:59:50+00:00;False;302;60;34253;9caf68cf7b47fb94ac4f574772bf5efdb5785555;3376;snease@ambiqmicro.com;snease@ambiqmicro.com
+constant_folding_test.cc;MODIFY;2986;0.0;Equal;False;2018-12-05 15:59:50+00:00;False;302;60;34253;9caf68cf7b47fb94ac4f574772bf5efdb5785555;3376;snease@ambiqmicro.com;snease@ambiqmicro.com
 constant_folding_test.cc;MODIFY;3014;28.0;Grew;False;2018-12-14 19:31:40+00:00;False;303;61;34604;ca4e75a6f84ca51b9cef0a4aec7816d38512a8e2;2;daniel.rasmussen@appliedbrainresearch.com;daniel.rasmussen@appliedbrainresearch.com
-constant_folding_test.cc;MODIFY;2986;-28.0;Equal;False;2019-01-09 22:04:57+00:00;False;302;60;34253;2b2c042367675fdac67a12bc9bae9689babae07d;11;gardener@tensorflow.org;ezhulenev@google.com
+constant_folding_test.cc;MODIFY;2986;-28.0;Decreased;False;2019-01-09 22:04:57+00:00;False;302;60;34253;2b2c042367675fdac67a12bc9bae9689babae07d;11;gardener@tensorflow.org;ezhulenev@google.com
 constant_folding_test.cc;MODIFY;3030;44.0;Grew;False;2019-02-06 18:49:10+00:00;False;311;61;34752;1362eaa98e3e7778446eb767473450ef484996ca;4;gardener@tensorflow.org;gardener@tensorflow.org
 constant_folding_test.cc;MODIFY;3175;145.0;Grew;False;2019-02-13 06:53:59+00:00;False;344;70;35622;4a0bbf362ac5f47a74c8d64fb1367a3beb18d735;3;gardener@tensorflow.org;laigd@google.com
 constant_folding_test.cc;MODIFY;3202;27.0;Grew;False;2019-02-13 19:18:41+00:00;False;345;71;35939;8db35dbd8916efc6bc0766f0ccf0573cb49d2131;2;gardener@tensorflow.org;lyandy@google.com
@@ -118,15 +118,15 @@ constant_folding_test.cc;MODIFY;3382;68.0;Grew;False;2019-07-09 07:02:12+00:00;F
 constant_folding_test.cc;MODIFY;3314;-68.0;Decreased;False;2019-07-09 20:39:28+00:00;False;356;73;37232;a1661765dd4cfdc45ed692b0de18ef3b6693ce20;3;gardener@tensorflow.org;gardener@tensorflow.org
 constant_folding_test.cc;MODIFY;3339;25.0;Grew;False;2019-08-07 23:25:43+00:00;False;359;74;37486;da5e60e9ced565ecb0fe8f17853ca7ab89e929f2;1;tmorris@nvidia.com;tmorris@nvidia.com
 constant_folding_test.cc;MODIFY;3384;45.0;Grew;False;2019-08-08 23:04:27+00:00;False;377;74;37856;5dd31c04da25086af94132143c4c5b3a8e756e8e;3;gardener@tensorflow.org;gardener@tensorflow.org
-constant_folding_test.cc;MODIFY;3407;23.0;Decreased;False;2019-08-13 23:21:57+00:00;False;377;75;38096;985cea6e43da1fc545167ead32dee1e90794e74a;2;gardener@tensorflow.org;gardener@tensorflow.org
+constant_folding_test.cc;MODIFY;3407;23.0;Grew;False;2019-08-13 23:21:57+00:00;False;377;75;38096;985cea6e43da1fc545167ead32dee1e90794e74a;2;gardener@tensorflow.org;gardener@tensorflow.org
 constant_folding_test.cc;MODIFY;3446;39.0;Grew;False;2019-08-19 06:30:01+00:00;False;382;76;38549;1f61f13f8715dc26dabe46a2686216674026d812;2;gardener@tensorflow.org;gardener@tensorflow.org
 constant_folding_test.cc;MODIFY;3508;62.0;Grew;True;2019-10-15 03:44:08+00:00;True;394;77;39406;025e871a4aac109e6e168ff7f2690a9093364199;3;gardener@tensorflow.org;gardener@tensorflow.org
 constant_folding_test.cc;MODIFY;3446;-62.0;Decreased;False;2019-10-15 05:23:57+00:00;True;382;76;38549;4a7c0a987e611e13efdd8bae825b8d5cc0be580a;3;gardener@tensorflow.org;yujingzhang@google.com
 constant_folding_test.cc;MODIFY;3508;62.0;Grew;True;2019-10-16 01:18:50+00:00;True;394;77;39406;12a6de460589efee2ff88a34a9ffa06d0e7b4cb4;4;gardener@tensorflow.org;gardener@tensorflow.org
 constant_folding_test.cc;MODIFY;3510;2.0;Grew;True;2019-11-06 23:42:52+00:00;False;394;77;39446;224173d2af1864d05bbe4688a5a20171eb0897c1;2;gardener@tensorflow.org;gardener@tensorflow.org
 constant_folding_test.cc;MODIFY;3510;0.0;Equal;True;2020-02-27 06:42:16+00:00;False;394;77;39446;775a828aade1b87811875ea0ddfa0554c442654b;204;ishizaki@jp.ibm.com;ishizaki@jp.ibm.com
-constant_folding_test.cc;MODIFY;3510;0.0;Grew;True;2020-03-16 15:54:51+00:00;False;394;77;39446;32b7183acd12766103fcacdd55d826a823c85d58;19;deven.desai.amd@gmail.com;deven.desai.amd@gmail.com
-constant_folding_test.cc;MODIFY;3510;0.0;Grew;True;2020-04-21 16:22:00+00:00;False;394;77;39446;c2a3b0b731d4d53a488819e6269b99736c30284e;1;deven.desai.amd@gmail.com;deven.desai.amd@gmail.com
+constant_folding_test.cc;MODIFY;3510;0.0;Equal;True;2020-03-16 15:54:51+00:00;False;394;77;39446;32b7183acd12766103fcacdd55d826a823c85d58;19;deven.desai.amd@gmail.com;deven.desai.amd@gmail.com
+constant_folding_test.cc;MODIFY;3510;0.0;Equal;True;2020-04-21 16:22:00+00:00;False;394;77;39446;c2a3b0b731d4d53a488819e6269b99736c30284e;1;deven.desai.amd@gmail.com;deven.desai.amd@gmail.com
 constant_folding_test.cc;MODIFY;3555;45.0;Grew;True;2020-05-31 18:34:57+00:00;False;397;78;39902;4e83a953c1e0eaf12e0005e18cf066f3b66da85f;3;gardener@tensorflow.org;gardener@tensorflow.org
 constant_folding_test.cc;MODIFY;3613;58.0;Grew;True;2020-06-03 00:55:18+00:00;False;408;79;40505;a8b9c83afe4cd0894c7d274ee3b667b2b93facbc;3;gardener@tensorflow.org;gardener@tensorflow.org
 constant_folding_test.cc;MODIFY;3636;23.0;Grew;True;2020-06-11 23:05:40+00:00;False;411;79;40721;603e328a1c8aab77dcf70b58ddf0099a1e127750;2;gardener@tensorflow.org;gardener@tensorflow.org

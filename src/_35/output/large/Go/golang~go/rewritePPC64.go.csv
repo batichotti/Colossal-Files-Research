@@ -1,5 +1,5 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
-rewritePPC64.go;ADD;2384;0.0;Grew;True;2016-06-28 15:41:20+00:00;True;448;119;13392;03d152f36fd3b64e0c0c86e93c50f5bafeb8e9b3;10;drchase@google.com;laboger@linux.vnet.ibm.com
+rewritePPC64.go;ADD;2384;0.0;Equal;True;2016-06-28 15:41:20+00:00;True;448;119;13392;03d152f36fd3b64e0c0c86e93c50f5bafeb8e9b3;10;drchase@google.com;laboger@linux.vnet.ibm.com
 rewritePPC64.go;MODIFY;2466;82.0;Grew;True;2016-07-02 22:22:12+00:00;False;463;119;14138;f55317828b65dc35bec511e9225d9a5761a12cac;14;cherryyz@google.com;cherryyz@google.com
 rewritePPC64.go;MODIFY;2582;116.0;Grew;True;2016-07-22 15:52:06+00:00;False;483;123;14713;7bca2c599d593544d449bafc2fe1978c93b94a2f;6;drchase@google.com;drchase@google.com
 rewritePPC64.go;MODIFY;2767;185.0;Grew;True;2016-07-24 20:00:30+00:00;False;515;127;15497;806cacc7c664ad46f3bec10a3a4e0274678eaeef;5;drchase@google.com;drchase@google.com
@@ -105,7 +105,7 @@ rewritePPC64.go;MODIFY;25123;-4293.0;Decreased;True;2019-09-23 16:36:10+00:00;Fa
 rewritePPC64.go;MODIFY;25243;120.0;Grew;True;2019-10-02 09:56:36+00:00;False;8811;390;153774;9c2e7e8bed3368fd2b3903b47d686b5a900ebe04;63;mike.munday@ibm.com;mike.munday@ibm.com
 rewritePPC64.go;MODIFY;25085;-158.0;Decreased;True;2019-10-07 09:19:12+00:00;False;8811;390;153063;c7d81bc08646ca56d6fe560c77d99be933d7f6dd;11;mike.munday@ibm.com;mike.munday@ibm.com
 rewritePPC64.go;MODIFY;25099;14.0;Grew;True;2019-10-21 16:24:15+00:00;False;8814;391;153134;33425ab8dbb03c355b2263b8250a1829e260d66f;10;khr@golang.org;aindurti@gmail.com
-rewritePPC64.go;MODIFY;25099;0.0;Decreased;True;2019-10-21 21:14:04+00:00;False;8814;391;153134;7c3060e92377a6833fa1c1e4d8e1dc996244af38;5;mike.munday@ibm.com;mike.munday@ibm.com
+rewritePPC64.go;MODIFY;25099;0.0;Equal;True;2019-10-21 21:14:04+00:00;False;8814;391;153134;7c3060e92377a6833fa1c1e4d8e1dc996244af38;5;mike.munday@ibm.com;mike.munday@ibm.com
 rewritePPC64.go;MODIFY;25114;15.0;Grew;True;2019-10-29 03:18:55+00:00;False;8817;392;153210;97592b3c14e96eece91ddc91a188e08fd2ed2dfa;23;austin@google.com;austin@google.com
 rewritePPC64.go;MODIFY;25114;0.0;Equal;True;2019-11-07 14:51:06+00:00;False;8817;392;153210;543c6d2e0dcd24886fce6c00e84b7238c30c1c0b;16;rsc@golang.org;rsc@golang.org
 rewritePPC64.go;MODIFY;25114;0.0;Equal;True;2019-11-07 16:30:46+00:00;False;8817;392;153210;6b1d5471b9ab649322def7075d488c65d5f78cbf;7;moehrmann@google.com;brian.m.kessler@gmail.com
@@ -181,7 +181,7 @@ rewritePPC64.go;MODIFY;15706;252.0;Grew;True;2022-10-07 13:39:30+00:00;False;374
 rewritePPC64.go;MODIFY;15706;0.0;Equal;True;2022-10-23 17:42:11+00:00;False;3744;267;87893;85196fc982ead65ea56c377c2e381eabff329773;28;johan.brandhorst@gmail.com;johan.brandhorst@gmail.com
 rewritePPC64.go;MODIFY;15740;34.0;Grew;True;2022-11-03 17:01:54+00:00;False;3752;267;88115;667c53e1599fbc61b48e3ddc95e2361b8c8fb8a5;12;drchase@google.com;drchase@google.com
 rewritePPC64.go;MODIFY;15747;7.0;Grew;True;2022-12-11 16:34:38+00:00;False;3753;267;88173;888047c31007c0ad96764254fa8afb1417ddfd40;3;khr@google.com;khr@golang.org
-rewritePPC64.go;MODIFY;15747;0.0;Decreased;True;2023-01-19 22:42:34+00:00;False;3753;267;88173;47a0d467161c10f80bc3fcf7b0385b80d1194c7a;28;gobot@golang.org;dmitshur@golang.org
+rewritePPC64.go;MODIFY;15747;0.0;Equal;True;2023-01-19 22:42:34+00:00;False;3753;267;88173;47a0d467161c10f80bc3fcf7b0385b80d1194c7a;28;gobot@golang.org;dmitshur@golang.org
 rewritePPC64.go;MODIFY;15770;23.0;Grew;True;2023-01-19 22:43:12+00:00;False;3756;267;88304;f959fb3872a32d29c93f10deae31e4e6d79f2da9;29;khr@google.com;khr@golang.org
 rewritePPC64.go;MODIFY;15815;45.0;Grew;True;2023-02-03 19:01:06+00:00;False;3768;270;88484;cd1fc871568e9947e84377f82c8d7a4882a07067;9;laboger@linux.vnet.ibm.com;aravind5@in.ibm.com
 rewritePPC64.go;MODIFY;15858;43.0;Grew;True;2023-02-06 12:49:53+00:00;False;3789;271;88481;a432d89137ae09c76717695064d8b1b13344b32b;8;laboger@linux.vnet.ibm.com;aravind5@in.ibm.com

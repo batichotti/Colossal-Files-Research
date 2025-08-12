@@ -1,5 +1,5 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
-opGen.go;ADD;900;0.0;Grew;False;2015-06-08 21:02:03+00:00;False;2;2;2990;0dca7351e9d51bdaf980e1256ec41af8cb1b9747;23;khr@golang.org;khr@golang.org
+opGen.go;ADD;900;0.0;Equal;False;2015-06-08 21:02:03+00:00;False;2;2;2990;0dca7351e9d51bdaf980e1256ec41af8cb1b9747;23;khr@golang.org;khr@golang.org
 opGen.go;MODIFY;922;22.0;Grew;False;2015-06-11 03:10:01+00:00;False;2;2;3064;290d8fc14a755a970e8f2bb441676e183dcd0c26;8;khr@golang.org;khr@golang.org
 opGen.go;MODIFY;1031;109.0;Grew;False;2015-06-11 03:54:06+00:00;False;2;2;3378;6f1884757f26f4906d71e2465a2238c80245c323;12;khr@golang.org;khr@golang.org
 opGen.go;MODIFY;1031;0.0;Equal;False;2015-06-12 03:40:13+00:00;False;2;2;3378;ba8a146af443205876b087a8adb499aa7d4dd455;4;josharian@gmail.com;josharian@gmail.com
@@ -86,7 +86,7 @@ opGen.go;MODIFY;4705;59.0;Grew;True;2016-02-06 16:52:57+00:00;False;3;3;14937;a3
 opGen.go;MODIFY;4735;30.0;Grew;True;2016-02-22 16:52:05+00:00;False;3;3;15057;88c1ef5b450a9cb50ee412b0240e135a74e64517;5;alexandru@mosoi.ro;mosoi@google.com
 opGen.go;MODIFY;5246;511.0;Grew;True;2016-02-28 14:50:19+00:00;False;3;3;17102;4e95dfed0197ee6fdf96dc1aa632297a28a1cd95;10;todd@tneal.org;todd@tneal.org
 opGen.go;MODIFY;5246;0.0;Equal;True;2016-03-01 15:54:52+00:00;False;3;3;17102;e96b232993fa8edb478f32041e08e5cf5c74395d;3;khr@golang.org;ilya.tocar@intel.com
-opGen.go;MODIFY;5246;0.0;Grew;True;2016-03-01 19:20:24+00:00;False;3;3;17102;9ace455e78d7c00925f35877e432dfa3768f13f3;5;khr@golang.org;mdempsky@google.com
+opGen.go;MODIFY;5246;0.0;Equal;True;2016-03-01 19:20:24+00:00;False;3;3;17102;9ace455e78d7c00925f35877e432dfa3768f13f3;5;khr@golang.org;mdempsky@google.com
 opGen.go;MODIFY;5247;1.0;Grew;True;2016-03-02 03:17:46+00:00;False;3;3;17106;62ac107a34823a692957c53662650a208cbe3151;7;khr@golang.org;khr@golang.org
 opGen.go;MODIFY;5247;0.0;Equal;True;2016-03-06 22:52:22+00:00;False;3;3;17106;12e60452e9f7c21933aad1a864e1433736de807e;6;khr@golang.org;khr@golang.org
 opGen.go;MODIFY;5250;3.0;Grew;True;2016-03-08 04:20:09+00:00;False;3;3;17111;0d9258a830c585c65e7ef614588d9c9a014b6123;51;mdempsky@google.com;mdempsky@google.com
@@ -105,7 +105,7 @@ opGen.go;MODIFY;5411;24.0;Grew;True;2016-04-25 20:43:04+00:00;False;3;3;17765;8b
 opGen.go;MODIFY;5414;3.0;Grew;True;2016-04-26 18:01:55+00:00;False;3;3;17777;e4355aeedfdd6a68185c4551c889eb13823cd86d;9;khr@golang.org;khr@golang.org
 opGen.go;MODIFY;5412;-2.0;Decreased;True;2016-04-28 23:32:24+00:00;False;3;3;17772;6ed79fbd1abf018b018088c6a1699cd34ee6d56c;4;khr@golang.org;khr@golang.org
 opGen.go;MODIFY;6026;614.0;Grew;True;2016-05-10 19:38:11+00:00;False;3;3;19912;e2848de9efc599e1af54079ab1f8e79e0e26764c;6;cherryyz@google.com;cherryyz@google.com
-opGen.go;MODIFY;5419;-607.0;Grew;True;2016-05-18 19:25:27+00:00;False;3;3;17792;3572c6418b5032fbd7e888e14fd9ad5afac85dfc;10;khr@golang.org;khr@golang.org
+opGen.go;MODIFY;5419;-607.0;Decreased;True;2016-05-18 19:25:27+00:00;False;3;3;17792;3572c6418b5032fbd7e888e14fd9ad5afac85dfc;10;khr@golang.org;khr@golang.org
 opGen.go;MODIFY;6042;623.0;Grew;True;2016-05-19 02:48:36+00:00;False;3;3;19974;ccaed50c7bf6381275d49adcf54974441752fd11;11;cherryyz@google.com;cherryyz@google.com
 opGen.go;MODIFY;6183;141.0;Grew;True;2016-05-19 02:49:09+00:00;False;3;3;20478;8f726907113e6be6dd886d6a790619b2535330fa;5;cherryyz@google.com;cherryyz@google.com
 opGen.go;MODIFY;6235;52.0;Grew;True;2016-05-19 02:55:35+00:00;False;3;3;20666;8357ec37ae6a7580e928dbabbb99dd6cf1958017;5;cherryyz@google.com;cherryyz@google.com
@@ -221,7 +221,7 @@ opGen.go;MODIFY;22741;62.0;Grew;True;2017-03-29 16:22:09+00:00;False;6;6;85502;0
 opGen.go;MODIFY;22679;-62.0;Decreased;True;2017-03-29 18:06:44+00:00;False;6;6;85254;68da265c8e6b32753fb5788716953bac16b374c0;26;khr@golang.org;khr@golang.org
 opGen.go;MODIFY;22707;28.0;Grew;True;2017-03-31 15:10:24+00:00;False;6;6;85358;8577f81a10f4e5b5736119cdd960c44a5ad600f5;16;cherryyz@google.com;powerman1st@163.com
 opGen.go;MODIFY;22706;-1.0;Decreased;True;2017-03-31 21:24:09+00:00;False;6;6;85352;a8b2e4a630a5991e91095d85c604dc1fa23c1e56;5;laboger@linux.vnet.ibm.com;laboger@linux.vnet.ibm.com
-opGen.go;MODIFY;22706;0.0;Decreased;True;2017-04-03 18:04:41+00:00;False;6;6;85352;69fe9ea43e66552c11f2b87cdf63a39448b46287;14;bradfitz@golang.org;bradfitz@golang.org
+opGen.go;MODIFY;22706;0.0;Equal;True;2017-04-03 18:04:41+00:00;False;6;6;85352;69fe9ea43e66552c11f2b87cdf63a39448b46287;14;bradfitz@golang.org;bradfitz@golang.org
 opGen.go;MODIFY;22764;58.0;Grew;True;2017-04-03 22:03:43+00:00;False;6;6;85584;53f8a6aeb089f981c9d4fc7871ef712d1669d0a4;26;khr@golang.org;khr@golang.org
 opGen.go;MODIFY;22818;54.0;Grew;True;2017-04-04 02:40:11+00:00;False;6;6;85760;5cadc91b3ced9614b1055c448f7784a15907fff5;10;khr@golang.org;keithr@alum.mit.edu
 opGen.go;MODIFY;22954;136.0;Grew;True;2017-04-17 23:19:45+00:00;False;6;6;86288;7e07e635f37d2a2bf886e120f47e322c3a1c3b46;6;khr@golang.org;khr@golang.org
@@ -232,7 +232,7 @@ opGen.go;MODIFY;22986;-4.0;Decreased;True;2017-05-02 17:43:31+00:00;False;6;6;86
 opGen.go;MODIFY;22990;4.0;Grew;True;2017-05-09 21:31:38+00:00;False;6;6;86416;9aeced650fec9114433e4c8f990046f7811c9d30;3;josharian@gmail.com;marvin.stenger94@gmail.com
 opGen.go;MODIFY;23062;72.0;Grew;True;2017-05-10 12:10:56+00:00;False;6;6;86684;8304d10763650eb3f50553fa689500f09d8fdd06;7;laboger@linux.vnet.ibm.com;laboger@linux.vnet.ibm.com
 opGen.go;MODIFY;23068;6.0;Grew;True;2017-07-27 20:19:44+00:00;False;6;6;86700;4c54a047c6ea88dd77416a3b878f6935165f6129;27;heschi@google.com;heschi@google.com
-opGen.go;MODIFY;23062;-6.0;Equal;True;2017-08-08 09:21:25+00:00;False;6;6;86684;d3c0af7a0a57480391dcd3a63e2c9450399d2628;2;alb.donizetti@gmail.com;alb.donizetti@gmail.com
+opGen.go;MODIFY;23062;-6.0;Decreased;True;2017-08-08 09:21:25+00:00;False;6;6;86684;d3c0af7a0a57480391dcd3a63e2c9450399d2628;2;alb.donizetti@gmail.com;alb.donizetti@gmail.com
 opGen.go;MODIFY;23122;60.0;Grew;True;2017-08-11 16:35:49+00:00;False;6;6;86888;0f19e24da7fa564af3fa4e831463951d5715211a;7;laboger@linux.vnet.ibm.com;laboger@linux.vnet.ibm.com
 opGen.go;MODIFY;23132;10.0;Grew;True;2017-08-15 13:39:11+00:00;False;6;6;86914;c59b495963851d971036eb88a77b5c81db3a0982;15;cherryyz@google.com;phofer@umich.edu
 opGen.go;MODIFY;23131;-1.0;Decreased;True;2017-08-16 15:52:27+00:00;False;6;6;86910;df709828255ba5a0e66c668b22bf555b35475d13;8;ilya.tocar@intel.com;ilya.tocar@intel.com
@@ -261,7 +261,7 @@ opGen.go;MODIFY;23834;-1.0;Decreased;True;2017-10-10 15:54:13+00:00;False;6;6;89
 opGen.go;MODIFY;24050;216.0;Grew;True;2017-10-10 19:43:38+00:00;False;6;6;90270;d63de2871163dea94f3d5df83374f8b5e7e8677d;7;cherryyz@google.com;cherryyz@google.com
 opGen.go;MODIFY;24285;235.0;Grew;True;2017-10-11 14:03:00+00:00;False;6;6;91156;1ec78d1dd1bbf2605b0723952a8d30b53ae9f279;5;cherryyz@google.com;powerman1st@163.com
 opGen.go;MODIFY;24287;2.0;Grew;True;2017-10-14 00:53:20+00:00;False;6;6;91164;e01eac371a3a5d62b5e75dbb4b7b6c89bae81569;3;cherryyz@google.com;cherryyz@google.com
-opGen.go;MODIFY;23062;-1225.0;Equal;True;2017-10-25 20:23:57+00:00;False;6;6;86684;79996e4a1d33b7404ee076d7455ff8dcc7270250;6;rsc@golang.org;khr@golang.org
+opGen.go;MODIFY;23062;-1225.0;Decreased;True;2017-10-25 20:23:57+00:00;False;6;6;86684;79996e4a1d33b7404ee076d7455ff8dcc7270250;6;rsc@golang.org;khr@golang.org
 opGen.go;MODIFY;24342;1280.0;Grew;True;2017-10-30 13:56:39+00:00;False;6;6;91358;4d0151ede5473e9eddcadde604924fb9284501fb;12;laboger@linux.vnet.ibm.com;laboger@linux.vnet.ibm.com
 opGen.go;MODIFY;24365;23.0;Grew;True;2017-10-30 18:12:46+00:00;False;6;6;91436;7e343134d334f7317b342db19c3e90d1f3f200cc;15;austin@google.com;austin@google.com
 opGen.go;MODIFY;24436;71.0;Grew;True;2017-10-30 23:42:51+00:00;False;6;6;91702;96cdacb9717271126eb60de3d8410c9cecd67b28;10;mike.munday@ibm.com;mike.munday@ibm.com

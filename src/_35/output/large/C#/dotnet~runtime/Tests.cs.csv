@@ -1,5 +1,5 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
-Tests.cs;ADD;2431;0.0;Grew;True;2015-08-09 23:18:27+00:00;True;142;96;14849;7c3aef95cd462152e0ae485146425c5a15bcce6e;38;stoub@microsoft.com;v-ericwh@microsoft.com
+Tests.cs;ADD;2431;0.0;Equal;True;2015-08-09 23:18:27+00:00;True;142;96;14849;7c3aef95cd462152e0ae485146425c5a15bcce6e;38;stoub@microsoft.com;v-ericwh@microsoft.com
 Tests.cs;MODIFY;2406;-25.0;Decreased;True;2015-08-09 23:46:58+00:00;False;142;96;14847;f0db5f62db012d4aa4cd6adbed2306651343ebf7;24;stoub@microsoft.com;eric@ericwhite.com
 Tests.cs;MODIFY;3005;599.0;Grew;True;2015-08-09 23:47:44+00:00;False;184;126;19058;82142aadb8f8008f272957afb869e9211ce9e950;4;stoub@microsoft.com;eric@ericwhite.com
 Tests.cs;MODIFY;2876;-129.0;Decreased;True;2015-09-24 11:17:38+00:00;False;153;126;18795;7c088fcd28b6fbd15a71ed44075d6d920eaa3cef;132;clockwork-muse@outlook.com;clockwork-muse@outlook.com
@@ -13,7 +13,7 @@ Tests.cs;MODIFY;2989;0.0;Equal;True;2017-06-23 19:33:47+00:00;False;165;138;1949
 Tests.cs;MODIFY;3029;40.0;Grew;True;2017-10-18 01:06:01+00:00;False;166;139;19838;2a4f98c3ceee92d46ec9f6376abb4191f28b0d79;2;stoub@microsoft.com;tasou@microsoft.com
 Tests.cs;MODIFY;3049;20.0;Grew;True;2017-12-05 21:11:25+00:00;False;167;140;20001;42a263eab2a16be7a0b918b6e6a699924c6dacc4;2;stoub@microsoft.com;tasou@microsoft.com
 Tests.cs;MODIFY;3076;27.0;Grew;True;2018-03-26 16:26:03+00:00;False;168;141;20175;8bdb51754e83ebbe1485b9f0f6899e50e37816ff;2;jbarton@microsoft.com;jbarton@microsoft.com
-Tests.cs;MODIFY;3075;-1.0;Equal;True;2018-06-26 05:42:04+00:00;False;168;141;20174;4c9eb2ec25a0ede01a9994f70ede1cbad0e32f3d;592;jkotas@microsoft.com;stoub@microsoft.com
+Tests.cs;MODIFY;3075;-1.0;Decreased;True;2018-06-26 05:42:04+00:00;False;168;141;20174;4c9eb2ec25a0ede01a9994f70ede1cbad0e32f3d;592;jkotas@microsoft.com;stoub@microsoft.com
 Tests.cs;MODIFY;3098;23.0;Grew;True;2018-11-02 15:07:20+00:00;False;169;142;20369;02947949bae4ec4e8f9ea67f9fb58cfef121bac8;2;stoub@microsoft.com;tobias.wilker@gmail.com
 Tests.cs;MODIFY;3179;81.0;Grew;True;2019-03-01 00:41:22+00:00;False;175;144;20960;a9fdaa6462bd1592d7d603ccc660efedd4294575;3;noreply@github.com;ericstj@microsoft.com
 Tests.cs;MODIFY;3190;11.0;Grew;True;2019-03-05 16:48:42+00:00;False;175;144;21090;948faa1baf19119f5987bcf7be8deb5ecddd4c94;3;noreply@github.com;ericstj@microsoft.com
@@ -32,7 +32,7 @@ Tests.cs;MODIFY;3370;0.0;Equal;True;2020-01-16 04:21:36+00:00;False;192;159;2240
 Tests.cs;MODIFY;3370;0.0;Equal;True;2020-01-18 08:52:17+00:00;False;192;159;22405;ccf6aedb63c37ea8e10e4f5b5d9d23a69bdd9489;349;jkotas@microsoft.com;stoub@microsoft.com
 Tests.cs;MODIFY;3370;0.0;Equal;True;2020-01-18 19:04:59+00:00;False;192;159;22405;0b25063ec056b0d6668bf0848d108d8c873f3fce;126;noreply@github.com;jkotas@microsoft.com
 Tests.cs;MODIFY;3369;-1.0;Decreased;True;2020-01-24 14:59:47+00:00;False;192;159;22399;7fc49df1d6ce5cb3597fa3ee7887e2dfc4f8ee7e;1;stoub@microsoft.com;ericstj@microsoft.com
-Tests.cs;MODIFY;3369;0.0;Decreased;True;2020-07-08 13:23:11+00:00;False;192;159;22399;6072e4d3a7a2a1493f514cdf4be75a3d56580e84;33043;noreply@github.com;stoub@microsoft.com
+Tests.cs;MODIFY;3369;0.0;Equal;True;2020-07-08 13:23:11+00:00;False;192;159;22399;6072e4d3a7a2a1493f514cdf4be75a3d56580e84;33043;noreply@github.com;stoub@microsoft.com
 Tests.cs;MODIFY;3383;14.0;Grew;True;2021-01-14 22:17:17+00:00;False;193;160;22514;2c1cb0820128ed7d07d98abd004679e433ccb1de;2;noreply@github.com;danmose@microsoft.com
 Tests.cs;MODIFY;3389;6.0;Grew;True;2021-06-16 16:56:03+00:00;False;194;160;22550;09249f3892b2dca5ed6be8783fac9eb54c7a4261;1;noreply@github.com;stoub@microsoft.com
 Tests.cs;MODIFY;3391;2.0;Grew;True;2021-11-02 11:43:15+00:00;False;194;160;22578;8c6aeea1d8e17fd692df0f509d415d9ad79d83bc;101;noreply@github.com;steveisok@users.noreply.github.com

@@ -1,5 +1,5 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
-merge_requests_finder_spec.rb;ADD;32;0.0;Grew;False;2014-02-25 17:21:53+00:00;False;2;2;212;345b3d4b72d3e450a65ec92806be019be512da54;4;dmitriy.zaporozhets@gmail.com;dmitriy.zaporozhets@gmail.com
+merge_requests_finder_spec.rb;ADD;32;0.0;Equal;False;2014-02-25 17:21:53+00:00;False;2;2;212;345b3d4b72d3e450a65ec92806be019be512da54;4;dmitriy.zaporozhets@gmail.com;dmitriy.zaporozhets@gmail.com
 merge_requests_finder_spec.rb;MODIFY;27;-5.0;Decreased;False;2014-03-19 07:57:38+00:00;False;2;2;211;a90574fab290233225375b1c9e9c232b0e540b52;1;rspeicher@gmail.com;rspeicher@gmail.com
 merge_requests_finder_spec.rb;MODIFY;27;0.0;Equal;False;2014-04-03 08:47:56+00:00;False;2;2;217;c31b703110620c438d724561ab6d5a5a44b08e19;2;dmitriy.zaporozhets@gmail.com;dmitriy.zaporozhets@gmail.com
 merge_requests_finder_spec.rb;MODIFY;27;0.0;Equal;False;2015-02-12 18:17:35+00:00;False;2;2;227;0c4a70a306b871899bf87ce4673918abfee4d95f;183;jeroenvanbaarsen@gmail.com;jeroenvanbaarsen@gmail.com
@@ -25,7 +25,7 @@ merge_requests_finder_spec.rb;MODIFY;190;27.0;Grew;False;2018-10-03 08:15:00+00:
 merge_requests_finder_spec.rb;MODIFY;201;11.0;Grew;False;2018-10-04 09:40:16+00:00;False;23;23;1413;36a7344901b0caa47083d3685e6044d68cd39c34;1;sean@gitlab.com;sean@gitlab.com
 merge_requests_finder_spec.rb;MODIFY;212;11.0;Grew;False;2019-01-21 07:46:11+00:00;False;24;24;1495;9ec860ea05d5c74387cbff4593ca76072a38ad5f;7;bob@vanlanduyt.co;tiagonbotelho@hotmail.com
 merge_requests_finder_spec.rb;MODIFY;231;19.0;Grew;False;2019-01-28 07:11:38+00:00;False;26;26;1597;65723a2cb60f46681a766f34102df700ef5b7573;4;ebajao@gitlab.com;ebajao@gitlab.com
-merge_requests_finder_spec.rb;MODIFY;212;-19.0;Grew;False;2019-01-31 15:51:54+00:00;False;24;24;1495;577812948dd25129e363862cfcb6d9d21d168cc2;7;yorickpeterse@gmail.com;tiagonbotelho@hotmail.com
+merge_requests_finder_spec.rb;MODIFY;212;-19.0;Decreased;False;2019-01-31 15:51:54+00:00;False;24;24;1495;577812948dd25129e363862cfcb6d9d21d168cc2;7;yorickpeterse@gmail.com;tiagonbotelho@hotmail.com
 merge_requests_finder_spec.rb;MODIFY;320;108.0;Grew;False;2019-03-05 15:15:22+00:00;False;35;35;2063;79c421105013c3694679fefe3c1c1d4cb30446fc;7;yorickpeterse@gmail.com;idrozdov@gitlab.com
 merge_requests_finder_spec.rb;MODIFY;320;0.0;Equal;False;2019-03-09 12:22:58+00:00;False;35;35;2064;de784ac10516ec1e1c93d164f3d99b2ff09e5889;17;nick@gitlab.com;sathiroyuki@gmail.com
 merge_requests_finder_spec.rb;MODIFY;275;-45.0;Decreased;False;2019-03-21 16:31:42+00:00;False;33;33;1682;e9aefa112bcdc9b81135977356a64b94119eb383;2;remy@rymai.me;remy@rymai.me
@@ -38,11 +38,11 @@ merge_requests_finder_spec.rb;MODIFY;309;6.0;Grew;False;2019-04-09 15:38:58+00:0
 merge_requests_finder_spec.rb;MODIFY;309;0.0;Equal;False;2019-05-07 11:08:25+00:00;False;34;34;1899;68e533dc219be27f3485d2335e70aa61a193dabb;14;james@gitlab.com;fjlopez@gitlab.com
 merge_requests_finder_spec.rb;MODIFY;309;0.0;Equal;False;2019-07-25 07:35:06+00:00;False;34;34;1897;1ce5bcacdbf56682e05fa63875203bf4d10584bc;125;heinrich@gitlab.com;heinrich@gitlab.com
 merge_requests_finder_spec.rb;MODIFY;320;11.0;Grew;False;2019-09-06 08:43:33+00:00;False;36;36;1990;3cbfd0be8ca1bb65f9bc2f017517bb2806fb3c4c;3;godfat@godfat.org;godfat@godfat.org
-merge_requests_finder_spec.rb;MODIFY;320;0.0;Grew;False;2019-10-16 09:07:51+00:00;False;36;36;1990;914ea32e0efca21436220df2c10e1bfbe4ed3da9;100;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
+merge_requests_finder_spec.rb;MODIFY;320;0.0;Equal;False;2019-10-16 09:07:51+00:00;False;36;36;1990;914ea32e0efca21436220df2c10e1bfbe4ed3da9;100;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 merge_requests_finder_spec.rb;MODIFY;329;9.0;Grew;False;2019-10-23 09:06:03+00:00;False;37;37;2025;b3e4ec8e8adf4fe96c982124e91b6a05021a9cda;173;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 merge_requests_finder_spec.rb;MODIFY;356;27.0;Grew;False;2020-01-13 21:07:39+00:00;False;39;39;2167;74a89b1221eaf780374bd1d4c5b2ee4a0f488908;43;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 merge_requests_finder_spec.rb;MODIFY;356;0.0;Equal;False;2020-02-17 03:09:00+00:00;False;39;39;2167;56201db1dc66f3a2d598f6f8da0bec170dc26ba1;23;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
-merge_requests_finder_spec.rb;MODIFY;356;0.0;Grew;False;2020-04-28 18:09:35+00:00;False;39;39;2191;95e18e32833de71b46d73ead66c8f13e261af3f4;77;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
+merge_requests_finder_spec.rb;MODIFY;356;0.0;Equal;False;2020-04-28 18:09:35+00:00;False;39;39;2191;95e18e32833de71b46d73ead66c8f13e261af3f4;77;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 merge_requests_finder_spec.rb;MODIFY;400;44.0;Grew;False;2020-05-22 00:08:07+00:00;False;41;41;2462;21539fe9ab9a7a9604bb667b78b08854b4976f7b;50;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 merge_requests_finder_spec.rb;MODIFY;400;0.0;Equal;False;2020-06-16 18:09:01+00:00;False;41;41;2464;4f5c8572e988e8c0c6871fb59ccfbfd39b9c2a06;660;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 merge_requests_finder_spec.rb;MODIFY;429;29.0;Grew;False;2020-07-03 09:08:53+00:00;False;43;43;2657;1c75400c24137f603678d0ee3d497b0c9280e7f7;126;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com

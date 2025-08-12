@@ -1,5 +1,5 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
-rewriteARM64.go;ADD;3879;0.0;Grew;True;2016-07-23 21:25:58+00:00;True;739;192;20454;ae9570a5b95b0b321f91f504661e9c36dc1caa0e;7;cherryyz@google.com;cherryyz@google.com
+rewriteARM64.go;ADD;3879;0.0;Equal;True;2016-07-23 21:25:58+00:00;True;739;192;20454;ae9570a5b95b0b321f91f504661e9c36dc1caa0e;7;cherryyz@google.com;cherryyz@google.com
 rewriteARM64.go;MODIFY;6658;2779.0;Grew;True;2016-07-27 16:37:23+00:00;False;1094;256;39764;83208504fe2bbe91dae99111593de54cca1cdca0;10;cherryyz@google.com;cherryyz@google.com
 rewriteARM64.go;MODIFY;6658;0.0;Equal;True;2016-08-03 22:51:51+00:00;False;1094;256;39764;6a1153acb4aff2d481be1611862be0f9f5203e62;8;josharian@gmail.com;josharian@gmail.com
 rewriteARM64.go;MODIFY;10485;3827.0;Grew;True;2016-08-11 18:08:47+00:00;False;1873;307;56218;ed1ad8f56cc51cc55a8c12514e1c2b3098c1218b;6;cherryyz@google.com;cherryyz@google.com
@@ -122,7 +122,7 @@ rewriteARM64.go;MODIFY;32583;24.0;Grew;True;2019-09-24 20:30:59+00:00;False;9350
 rewriteARM64.go;MODIFY;32875;292.0;Grew;True;2019-10-02 09:56:36+00:00;False;9350;517;191059;9c2e7e8bed3368fd2b3903b47d686b5a900ebe04;63;mike.munday@ibm.com;mike.munday@ibm.com
 rewriteARM64.go;MODIFY;32485;-390.0;Decreased;True;2019-10-07 09:19:12+00:00;False;9350;517;189310;c7d81bc08646ca56d6fe560c77d99be933d7f6dd;11;mike.munday@ibm.com;mike.munday@ibm.com
 rewriteARM64.go;MODIFY;32499;14.0;Grew;True;2019-10-21 16:24:15+00:00;False;9353;518;189381;33425ab8dbb03c355b2263b8250a1829e260d66f;10;khr@golang.org;aindurti@gmail.com
-rewriteARM64.go;MODIFY;32499;0.0;Decreased;True;2019-10-21 21:14:04+00:00;False;9353;518;189381;7c3060e92377a6833fa1c1e4d8e1dc996244af38;5;mike.munday@ibm.com;mike.munday@ibm.com
+rewriteARM64.go;MODIFY;32499;0.0;Equal;True;2019-10-21 21:14:04+00:00;False;9353;518;189381;7c3060e92377a6833fa1c1e4d8e1dc996244af38;5;mike.munday@ibm.com;mike.munday@ibm.com
 rewriteARM64.go;MODIFY;32513;14.0;Grew;True;2019-10-29 03:18:55+00:00;False;9356;519;189452;97592b3c14e96eece91ddc91a188e08fd2ed2dfa;23;austin@google.com;austin@google.com
 rewriteARM64.go;MODIFY;32513;0.0;Equal;True;2019-11-07 14:51:06+00:00;False;9356;519;189452;543c6d2e0dcd24886fce6c00e84b7238c30c1c0b;16;rsc@golang.org;rsc@golang.org
 rewriteARM64.go;MODIFY;32513;0.0;Equal;True;2019-11-07 16:30:46+00:00;False;9356;519;189452;6b1d5471b9ab649322def7075d488c65d5f78cbf;7;moehrmann@google.com;brian.m.kessler@gmail.com
@@ -211,7 +211,7 @@ rewriteARM64.go;MODIFY;28174;0.0;Equal;True;2022-10-23 17:42:11+00:00;False;7556
 rewriteARM64.go;MODIFY;28141;-33.0;Decreased;True;2022-10-29 04:48:07+00:00;False;7468;355;161586;e09bbaec69a8ff960110e13eabb3bef5331ecb0c;2;eric.fang@arm.com;eric.fang@arm.com
 rewriteARM64.go;MODIFY;28177;36.0;Grew;True;2022-11-03 17:01:54+00:00;False;7480;355;161790;667c53e1599fbc61b48e3ddc95e2361b8c8fb8a5;12;drchase@google.com;drchase@google.com
 rewriteARM64.go;MODIFY;28177;0.0;Equal;True;2022-12-09 21:38:33+00:00;False;7480;355;161790;e8f78cb60caab4f7ca8d0f4c424f14cc74ab49a4;3;gobot@golang.org;khr@golang.org
-rewriteARM64.go;MODIFY;28177;0.0;Decreased;True;2023-01-19 22:42:34+00:00;False;7480;355;161790;47a0d467161c10f80bc3fcf7b0385b80d1194c7a;28;gobot@golang.org;dmitshur@golang.org
+rewriteARM64.go;MODIFY;28177;0.0;Equal;True;2023-01-19 22:42:34+00:00;False;7480;355;161790;47a0d467161c10f80bc3fcf7b0385b80d1194c7a;28;gobot@golang.org;dmitshur@golang.org
 rewriteARM64.go;MODIFY;28200;23.0;Grew;True;2023-01-19 22:43:12+00:00;False;7483;355;161921;f959fb3872a32d29c93f10deae31e4e6d79f2da9;29;khr@google.com;khr@golang.org
 rewriteARM64.go;MODIFY;28204;4.0;Grew;True;2023-02-17 03:56:57+00:00;False;7484;355;161939;21f434058cc989acfd32a05fab71d7e7fe5fb641;22;khr@golang.org;khr@golang.org
 rewriteARM64.go;MODIFY;28260;56.0;Grew;True;2023-02-28 03:16:44+00:00;False;7495;355;162200;4d180f71dca041a39b50b9dec8a0ebec5cc02b90;5;gobot@golang.org;ruinan.sun@arm.com

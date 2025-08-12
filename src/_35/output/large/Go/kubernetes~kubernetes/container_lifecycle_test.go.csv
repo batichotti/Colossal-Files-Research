@@ -1,5 +1,5 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
-container_lifecycle_test.go;RENAME;414;0.0;Decreased;False;2023-04-28 18:13:55+00:00;False;13;13;2467;28c573358b01f012c4c66c076f9aff0ad10de3f1;3;tnealt@amazon.com;tnealt@amazon.com
+container_lifecycle_test.go;RENAME;414;0.0;Equal;False;2023-04-28 18:13:55+00:00;False;13;13;2467;28c573358b01f012c4c66c076f9aff0ad10de3f1;3;tnealt@amazon.com;tnealt@amazon.com
 container_lifecycle_test.go;MODIFY;479;65.0;Grew;False;2023-06-03 17:12:02+00:00;False;17;17;2954;f520f6fd06c9c00c84ae0e454d5f2c103e3714f8;1;695097494plus@gmail.com;gjkim042@gmail.com
 container_lifecycle_test.go;MODIFY;479;0.0;Equal;False;2023-06-21 13:05:13+00:00;False;17;17;2954;7f532891c9c42500f75939fd931596cd42b1765b;315;slaznick@redhat.com;slaznick@redhat.com
 container_lifecycle_test.go;MODIFY;1791;1312.0;Grew;False;2023-07-07 22:26:12+00:00;False;124;115;10720;03c2217687747b2f9e3f5e11789b5bac44efe62b;1;gjkim042@gmail.com;gjkim042@gmail.com
@@ -7,13 +7,13 @@ container_lifecycle_test.go;MODIFY;1910;119.0;Grew;False;2023-07-09 23:55:48+00:
 container_lifecycle_test.go;MODIFY;2000;90.0;Grew;False;2023-07-17 23:12:24+00:00;False;127;118;11960;3bf282652f0ed1d31a4f129ed312104264331d79;4;gjkim042@gmail.com;gjkim042@gmail.com
 container_lifecycle_test.go;MODIFY;2000;0.0;Equal;False;2023-08-11 19:08:11+00:00;False;127;118;11960;e258228e4ac30582ee45a4ae6b083ee05b12bebc;1;tnealt@amazon.com;tnealt@amazon.com
 container_lifecycle_test.go;MODIFY;2127;127.0;Grew;True;2023-08-31 15:13:47+00:00;True;134;123;12831;63177db32c28ecd2dc9de933c844cc1cf4cf1057;2;gjkim042@gmail.com;gjkim042@gmail.com
-container_lifecycle_test.go;MODIFY;2127;0.0;Grew;True;2023-09-06 15:42:54+00:00;False;134;123;12831;b468e4eb1cdfaf0a0e787b88d3b1ce5a8dfc1788;1;gjkim042@gmail.com;gjkim042@gmail.com
+container_lifecycle_test.go;MODIFY;2127;0.0;Equal;True;2023-09-06 15:42:54+00:00;False;134;123;12831;b468e4eb1cdfaf0a0e787b88d3b1ce5a8dfc1788;1;gjkim042@gmail.com;gjkim042@gmail.com
 container_lifecycle_test.go;MODIFY;2133;6.0;Grew;True;2023-09-11 13:55:09+00:00;False;134;123;13111;1fb4eee94e0f80fc76820cb6983000553cfcbb8f;2;gjkim042@gmail.com;gjkim042@gmail.com
 container_lifecycle_test.go;MODIFY;2140;7.0;Grew;True;2023-09-12 18:40:20+00:00;False;134;123;13265;af151eeba2ca666252c8182dfbecd9cacd613939;1;tnealt@amazon.com;tnealt@amazon.com
 container_lifecycle_test.go;MODIFY;2140;0.0;Equal;True;2023-09-29 06:30:57+00:00;False;134;123;13265;0e8a1f18163e94499c984ad9328469028eccd24b;23;patrick.ohly@intel.com;patrick.ohly@intel.com
 container_lifecycle_test.go;MODIFY;2266;126.0;Grew;True;2023-10-17 13:11:31+00:00;False;141;128;14146;ca6fda05ce5483770c449dddae8559534ee1227e;2;gjkim042@gmail.com;gjkim042@gmail.com
 container_lifecycle_test.go;MODIFY;2541;275.0;Grew;True;2023-10-18 00:07:21+00:00;False;145;131;15934;7bcc98c46b9cfcbcb0685858ddf656433a241346;8;tnealt@amazon.com;tnealt@amazon.com
-container_lifecycle_test.go;MODIFY;2667;126.0;Equal;True;2023-11-01 14:17:34+00:00;False;152;136;16847;f2cfbf44b1fb482671aedbfff820ae2af256a389;230;patrick.ohly@intel.com;patrick.ohly@intel.com
+container_lifecycle_test.go;MODIFY;2667;126.0;Grew;True;2023-11-01 14:17:34+00:00;False;152;136;16847;f2cfbf44b1fb482671aedbfff820ae2af256a389;230;patrick.ohly@intel.com;patrick.ohly@intel.com
 container_lifecycle_test.go;MODIFY;2668;1.0;Grew;True;2023-11-06 10:50:05+00:00;False;152;136;16854;1cd1092dd989bc5f0d7fe155e856bd6a11f38caa;6;gjkim042@gmail.com;gjkim042@gmail.com
 container_lifecycle_test.go;MODIFY;2805;137.0;Grew;True;2024-03-27 21:31:47+00:00;False;156;140;17780;9be9832184cb4069501c50dd8fdd001417e553af;2;matthias.bertschy@gmail.com;matthias.bertschy@gmail.com
 container_lifecycle_test.go;MODIFY;2668;-137.0;Decreased;True;2024-04-24 17:56:46+00:00;False;152;136;16854;e4c6adacf0f1d4e0693608a4d35b35b513fd13b9;2;eduard.bartosh@intel.com;eduard.bartosh@intel.com
@@ -25,9 +25,9 @@ container_lifecycle_test.go;MODIFY;2805;0.0;Equal;True;2024-05-15 14:50:30+00:00
 container_lifecycle_test.go;MODIFY;2805;0.0;Equal;True;2024-05-23 12:31:02+00:00;False;156;140;17776;65b9e560ce5be7d5c746da90aea0121256b6a41d;1;gjkim042@gmail.com;gjkim042@gmail.com
 container_lifecycle_test.go;MODIFY;2802;-3.0;Decreased;True;2024-06-02 20:00:40+00:00;False;155;139;17751;367e8c557802b148081cf9c746a1e28f538240a3;2;matthias.bertschy@gmail.com;matthias.bertschy@gmail.com
 container_lifecycle_test.go;MODIFY;2891;89.0;Grew;True;2024-07-09 20:50:51+00:00;False;161;141;18263;a03affab78dcb3b2abfad139e5d2fdf1f3da11b3;2;gunju.kim@navercorp.com;gjkim042@gmail.com
-container_lifecycle_test.go;MODIFY;2806;-85.0;Grew;True;2024-07-09 20:53:28+00:00;False;155;139;17767;f6836df5207b1702c37e9dd6e6be295914ecd4fc;6;davanum@gmail.com;davanum@gmail.com
+container_lifecycle_test.go;MODIFY;2806;-85.0;Decreased;True;2024-07-09 20:53:28+00:00;False;155;139;17767;f6836df5207b1702c37e9dd6e6be295914ecd4fc;6;davanum@gmail.com;davanum@gmail.com
 container_lifecycle_test.go;MODIFY;3102;296.0;Grew;True;2024-07-19 12:18:34+00:00;False;203;160;20073;45a243e10211d1a54eda654ffa9bbf257ca30c76;2;gjkim042@gmail.com;gjkim042@gmail.com
-container_lifecycle_test.go;MODIFY;2802;-300.0;Equal;True;2024-07-31 15:58:15+00:00;False;155;139;17755;223aedcf6b5dc693d29b839669b7f897305fb3d2;35;89520981+SD-13@users.noreply.github.com;89520981+SD-13@users.noreply.github.com
+container_lifecycle_test.go;MODIFY;2802;-300.0;Decreased;True;2024-07-31 15:58:15+00:00;False;155;139;17755;223aedcf6b5dc693d29b839669b7f897305fb3d2;35;89520981+SD-13@users.noreply.github.com;89520981+SD-13@users.noreply.github.com
 container_lifecycle_test.go;MODIFY;3235;433.0;Grew;True;2024-10-05 23:46:26+00:00;False;231;184;20853;252fb59bf9a4230b498f24b3983fadb7ac8d01e7;1;danielshebib@gmail.com;danielshebib@gmail.com
 container_lifecycle_test.go;MODIFY;3235;0.0;Equal;True;2024-10-05 23:46:26+00:00;False;231;184;20853;7155404eb5a0566b3d55199324337ab21db1282b;1;danielshebib@gmail.com;danielshebib@gmail.com
 container_lifecycle_test.go;MODIFY;3235;0.0;Equal;True;2024-10-06 12:40:56+00:00;False;231;184;20853;2d28e6803c89ec65dccef92a1ecb6cc259df86c3;1;danielshebib@gmail.com;danielshebib@gmail.com

@@ -46,16 +46,16 @@ for i, row in repositories.iterrows():
                 }, inplace=True)
 
 
-                # large_file_history['Size Change']
-                large_file_history['Size Change'] = large_file_history['Lines Balance'].apply(
-                    lambda x: 'Grew' if x > 0 else 'Decreased' if x < 0 else 'Equal'
-                )
-
-
                 # large_file_history['Lines Balance (nLoc)']
                 large_file_history['nLoc'] = pd.to_numeric(large_file_history['nLoc'], errors='coerce')
                 large_file_history['Lines Balance'] = large_file_history['nLoc'].diff().fillna(0)
                 large_file_history['nLoc'] = large_file_history['nLoc'].fillna('not calculated')
+
+
+                # large_file_history['Size Change']
+                large_file_history['Size Change'] = large_file_history['Lines Balance'].apply(
+                    lambda x: 'Grew' if x > 0 else 'Decreased' if x < 0 else 'Equal'
+                )
 
 
                 # large_file_history['Is Large?']

@@ -1,5 +1,5 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
-test_regexp.rb;ADD;6;0.0;Grew;False;2004-10-29 22:45:13+00:00;False;1;1;23;1bc4363c5e75dbe5b544a03b9cb2b115b26c9536;2;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+test_regexp.rb;ADD;6;0.0;Equal;False;2004-10-29 22:45:13+00:00;False;1;1;23;1bc4363c5e75dbe5b544a03b9cb2b115b26c9536;2;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_regexp.rb;MODIFY;9;3.0;Grew;False;2004-10-29 23:22:57+00:00;False;3;2;66;7dc3169658a6c89aebabd02a3244ce3e3d29ad45;1;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_regexp.rb;MODIFY;12;3.0;Grew;False;2004-11-28 03:07:48+00:00;False;4;3;82;5fb312bd18a09ac50e8c7d707cb87893609ce9fc;3;ksaito@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;ksaito@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_regexp.rb;MODIFY;22;10.0;Grew;False;2004-11-28 03:09:13+00:00;False;6;5;125;09542e3269f5b915b45eb5c03fcb8c61452d751e;3;ksaito@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;ksaito@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
@@ -8,7 +8,7 @@ test_regexp.rb;MODIFY;31;6.0;Grew;False;2007-11-23 08:33:32+00:00;False;9;8;167;
 test_regexp.rb;MODIFY;42;11.0;Grew;False;2007-11-27 01:47:34+00:00;False;11;9;209;9c7aab17a54996b7320e7bc34230a1aab7f7a115;5;ko1@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;ko1@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_regexp.rb;MODIFY;42;0.0;Equal;False;2007-12-08 02:50:43+00:00;False;11;9;214;f1b7e60cb90a7e1a392d4ffccd07dd06eeff5345;10;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_regexp.rb;MODIFY;59;17.0;Grew;False;2007-12-09 07:12:44+00:00;False;12;10;409;18d8fbac5484411bc7194c408edf0a3e17ea640d;3;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
-test_regexp.rb;MODIFY;59;0.0;Decreased;False;2007-12-09 07:35:54+00:00;False;12;10;409;7a7c26be7328099b4b2ba57ba9547e20080e071f;2;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+test_regexp.rb;MODIFY;59;0.0;Equal;False;2007-12-09 07:35:54+00:00;False;12;10;409;7a7c26be7328099b4b2ba57ba9547e20080e071f;2;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_regexp.rb;MODIFY;65;6.0;Grew;False;2007-12-09 13:35:38+00:00;False;12;10;458;e56e8c758d8effb54144df0b61ca9d5f6b98a0cd;3;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_regexp.rb;MODIFY;84;19.0;Grew;False;2007-12-09 21:44:19+00:00;False;13;11;602;08eb58d3dd6543a44c798aacc4385bf9f8bc005d;4;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_regexp.rb;MODIFY;84;0.0;Equal;False;2007-12-09 21:48:05+00:00;False;13;11;602;f4592d7bb0c88ab22e15e632afb70279f119af4e;9;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
@@ -42,7 +42,7 @@ test_regexp.rb;MODIFY;706;4.0;Grew;True;2009-10-19 01:59:38+00:00;False;63;55;50
 test_regexp.rb;MODIFY;709;3.0;Grew;True;2009-12-21 09:17:55+00:00;False;64;56;5084;35230b1a783b1d8655055e118fcaefaea3f53b52;1;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_regexp.rb;MODIFY;713;4.0;Grew;True;2010-01-22 14:53:12+00:00;False;65;57;5109;d8d5e67184e0647f56576a500993c064e60fc26a;4;mame@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;mame@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_regexp.rb;MODIFY;719;6.0;Grew;True;2010-02-17 12:36:41+00:00;False;66;58;5151;457c2c4a55b5896b30510ff8b39256b61b46cdf4;3;mame@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;mame@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
-test_regexp.rb;MODIFY;718;-1.0;Equal;True;2010-04-20 01:46:52+00:00;False;67;59;5247;8a3201dae6addec4f5c7d8717f9a34851a4d3e75;2;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+test_regexp.rb;MODIFY;718;-1.0;Decreased;True;2010-04-20 01:46:52+00:00;False;67;59;5247;8a3201dae6addec4f5c7d8717f9a34851a4d3e75;2;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_regexp.rb;MODIFY;725;7.0;Grew;True;2010-04-21 04:44:58+00:00;False;66;58;5190;2976ec58a48e3ff83ff3d0979041bb5694592153;3;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_regexp.rb;MODIFY;725;0.0;Equal;True;2010-04-29 05:46:04+00:00;False;66;58;5184;921b2d1cfb67bae2941642015fbe35f7e7b81698;10;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_regexp.rb;MODIFY;728;3.0;Grew;True;2010-05-12 01:06:24+00:00;False;66;58;5221;0e586b35b80985097489c68e8085457d91165696;3;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
@@ -73,7 +73,7 @@ test_regexp.rb;MODIFY;827;10.0;Grew;True;2012-10-12 16:38:52+00:00;False;74;63;5
 test_regexp.rb;MODIFY;827;0.0;Equal;True;2012-10-13 14:23:40+00:00;False;74;63;5719;be3a6b8c403f94715205bcb7ee60515f65c6d482;3;usa@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;usa@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_regexp.rb;MODIFY;822;-5.0;Decreased;True;2012-10-16 00:31:20+00:00;False;72;62;5715;4ae5081b7b005fcef00166045fe4dd7890c74902;2;usa@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;usa@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_regexp.rb;MODIFY;823;1.0;Grew;True;2012-10-16 00:40:26+00:00;False;72;62;5725;5ed8ca14526539b31d6089a91585b9301097f380;2;usa@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;usa@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
-test_regexp.rb;MODIFY;823;0.0;Grew;True;2012-11-06 00:49:57+00:00;False;72;62;5725;58ef0f06c6f6fcc4f6a0d31ade430d87ef9d968d;24;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+test_regexp.rb;MODIFY;823;0.0;Equal;True;2012-11-06 00:49:57+00:00;False;72;62;5725;58ef0f06c6f6fcc4f6a0d31ade430d87ef9d968d;24;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_regexp.rb;MODIFY;823;0.0;Equal;True;2012-11-24 17:14:06+00:00;False;72;62;5725;6c1bfbe478c5b7698ba9c96e61a2a597b44d4d16;6;knu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;knu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_regexp.rb;MODIFY;828;5.0;Grew;True;2012-12-30 14:33:38+00:00;False;73;63;5749;77df5bb1b5ab3e4d6ed32d0b43acb69b3167f5dd;3;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_regexp.rb;MODIFY;833;5.0;Grew;True;2013-01-13 21:51:37+00:00;False;73;63;5761;b44ac42335a9c135cd67a9881341fbf74b4b13fe;3;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
@@ -104,7 +104,7 @@ test_regexp.rb;MODIFY;967;-1.0;Decreased;True;2014-11-13 16:05:37+00:00;False;87
 test_regexp.rb;MODIFY;979;12.0;Grew;True;2015-02-21 10:51:52+00:00;False;88;75;6704;2d12151a686ccc71f62ae53f025605191342417c;3;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_regexp.rb;MODIFY;966;-13.0;Decreased;True;2015-06-17 05:29:51+00:00;False;88;75;6697;bbf440c90b036c733729b1a5c996978ac2adaa9d;17;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_regexp.rb;MODIFY;974;8.0;Grew;True;2015-12-12 09:29:35+00:00;False;90;77;6777;c0c733791c33579a1bdf12a16a809b5c07b6a7b4;2;yui-knk@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;yui-knk@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
-test_regexp.rb;MODIFY;974;0.0;Grew;True;2015-12-16 05:07:31+00:00;False;90;77;6777;3e92b635fb5422207b7bbdc924e292e51e21f040;1432;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+test_regexp.rb;MODIFY;974;0.0;Equal;True;2015-12-16 05:07:31+00:00;False;90;77;6777;3e92b635fb5422207b7bbdc924e292e51e21f040;1432;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_regexp.rb;MODIFY;979;5.0;Grew;True;2015-12-17 00:46:07+00:00;False;90;77;6811;e64d814101fc0ee5c856ef55282c1efd6db3681c;3;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_regexp.rb;MODIFY;986;7.0;Grew;True;2016-01-21 16:09:09+00:00;False;90;77;6842;782fd488d7abc7ccb0c8072349182ea8beb902f0;3;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_regexp.rb;MODIFY;996;10.0;Grew;True;2016-02-18 05:29:18+00:00;False;91;78;7006;e8074a382eb3e07feb4c425498e1605e2e729f7c;4;sorah@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;sorah@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
@@ -165,22 +165,22 @@ test_regexp.rb;MODIFY;1193;0.0;Equal;True;2021-03-16 12:40:19+00:00;False;91;76;
 test_regexp.rb;MODIFY;1209;16.0;Grew;True;2021-05-13 01:55:43+00:00;False;92;77;8847;11ae581a4a7f5d5f5ec6378872eab8f25381b1b9;3;code@jeremyevans.net;code@jeremyevans.net
 test_regexp.rb;MODIFY;1214;5.0;Grew;True;2021-09-12 02:16:51+00:00;False;92;77;8925;99d8c4832a7133ca52578d015e3ddcfd94820f4a;2;nobu@ruby-lang.org;nobu@ruby-lang.org
 test_regexp.rb;MODIFY;1242;28.0;Grew;True;2021-09-16 10:55:06+00:00;False;94;79;9165;f2cb6288bc6f1d5e693841734ce5eb04ff41c2a9;2;nobu@ruby-lang.org;nobu@ruby-lang.org
-test_regexp.rb;MODIFY;1228;-14.0;Grew;True;2021-09-16 10:55:06+00:00;False;93;78;9045;09d724e6f846b4e53e8571d41ca7d3055d732d9f;2;nobu@ruby-lang.org;nobu@ruby-lang.org
-test_regexp.rb;MODIFY;1242;14.0;Equal;True;2021-09-16 23:38:29+00:00;False;94;79;9165;475a4651b639c943887c57d20704bab27e397eae;1;nobu@ruby-lang.org;nobu@ruby-lang.org
+test_regexp.rb;MODIFY;1228;-14.0;Decreased;True;2021-09-16 10:55:06+00:00;False;93;78;9045;09d724e6f846b4e53e8571d41ca7d3055d732d9f;2;nobu@ruby-lang.org;nobu@ruby-lang.org
+test_regexp.rb;MODIFY;1242;14.0;Grew;True;2021-09-16 23:38:29+00:00;False;94;79;9165;475a4651b639c943887c57d20704bab27e397eae;1;nobu@ruby-lang.org;nobu@ruby-lang.org
 test_regexp.rb;MODIFY;1256;14.0;Grew;True;2021-10-02 04:50:19+00:00;False;96;81;9248;abc0304cb28cb9dcc3476993bc487884c139fd11;2;code@jeremyevans.net;code@jeremyevans.net
 test_regexp.rb;MODIFY;1274;18.0;Grew;True;2022-02-19 10:10:00+00:00;False;97;82;9442;c8817d6a3ebc9bbc151625bca198b8f327d1d68f;5;noreply@github.com;shugo@ruby-lang.org
 test_regexp.rb;MODIFY;1279;5.0;Grew;True;2022-03-13 00:19:52+00:00;False;97;82;9442;8f59482f5d1f77542fe3c8e8434cb1dbbc764ecf;2;duerst@it.aoyama.ac.jp;duerst@it.aoyama.ac.jp
 test_regexp.rb;MODIFY;1284;5.0;Grew;True;2022-03-29 22:29:15+00:00;False;97;82;9472;6d3f447aecfb56f7d3edbdf9cc68e748e150d7d8;2;code@jeremyevans.net;code@jeremyevans.net
 test_regexp.rb;MODIFY;1310;26.0;Grew;True;2022-03-30 07:50:46+00:00;False;97;82;9643;ce87bb8bd64869c0d04026d6bca41dc6bd312a73;2;mame@ruby-lang.org;mame@ruby-lang.org
-test_regexp.rb;MODIFY;1297;-13.0;Grew;True;2022-03-30 07:50:46+00:00;False;97;82;9557;ffc3b37f969a779f93b8f8a5b3591b4ef7de1538;6;mame@ruby-lang.org;mame@ruby-lang.org
-test_regexp.rb;MODIFY;1310;13.0;Equal;True;2022-03-30 07:50:46+00:00;False;97;82;9645;2ade40276be9f60ed06e7011b41a4c90f03e59b4;2;mame@ruby-lang.org;mame@ruby-lang.org
+test_regexp.rb;MODIFY;1297;-13.0;Decreased;True;2022-03-30 07:50:46+00:00;False;97;82;9557;ffc3b37f969a779f93b8f8a5b3591b4ef7de1538;6;mame@ruby-lang.org;mame@ruby-lang.org
+test_regexp.rb;MODIFY;1310;13.0;Grew;True;2022-03-30 07:50:46+00:00;False;97;82;9645;2ade40276be9f60ed06e7011b41a4c90f03e59b4;2;mame@ruby-lang.org;mame@ruby-lang.org
 test_regexp.rb;MODIFY;1312;2.0;Grew;True;2022-03-31 01:07:09+00:00;False;97;82;9682;c499a4c28a62813752aeb894d68d92fcec850ac0;2;mame@ruby-lang.org;mame@ruby-lang.org
 test_regexp.rb;MODIFY;1313;1.0;Grew;True;2022-03-31 09:01:15+00:00;False;97;82;9698;d8189ed23f02dd197453279aeee9be1785337d4f;2;noreply@github.com;nobu@ruby-lang.org
 test_regexp.rb;MODIFY;1316;3.0;Grew;True;2022-04-05 05:08:07+00:00;False;97;82;9716;1ac839dc3a70fa5dd18e67a37026234514b04b83;1;mame@ruby-lang.org;mame@ruby-lang.org
 test_regexp.rb;MODIFY;1324;8.0;Grew;True;2022-04-12 11:24:14+00:00;False;97;82;9762;cf2bbcfff2985c116552967c7c4522f4630f2d18;2;nobu@ruby-lang.org;nobu@ruby-lang.org
 test_regexp.rb;MODIFY;1368;44.0;Grew;True;2022-06-06 20:50:03+00:00;False;102;83;9975;ec3542229b29ec93062e9d90e877ea29d3c19472;3;noreply@github.com;code@jeremyevans.net
 test_regexp.rb;MODIFY;1388;20.0;Grew;True;2022-06-20 10:35:12+00:00;False;105;85;10118;1e9939dae24db232d6f3693630fa37a382e1a6d7;3;nobu@ruby-lang.org;nobu@ruby-lang.org
-test_regexp.rb;MODIFY;1373;-15.0;Grew;True;2022-06-20 10:35:12+00:00;False;104;84;9999;ab2a43265cfdda288d1baaa29936fd408c2a42bc;4;nobu@ruby-lang.org;nobu@ruby-lang.org
+test_regexp.rb;MODIFY;1373;-15.0;Decreased;True;2022-06-20 10:35:12+00:00;False;104;84;9999;ab2a43265cfdda288d1baaa29936fd408c2a42bc;4;nobu@ruby-lang.org;nobu@ruby-lang.org
 test_regexp.rb;MODIFY;1413;40.0;Grew;True;2022-10-10 03:41:13+00:00;False;107;87;10349;4954c9fc0f9d06aa4e3e8deb33b41f3fae294adc;3;kazuki@callcc.net;dementiev.vm@gmail.com
 test_regexp.rb;MODIFY;1450;37.0;Grew;True;2022-10-24 09:03:26+00:00;False;107;87;10657;b51b22513f6a2a514a9e614e7a9f6e0df6c0c985;3;noreply@github.com;mame@ruby-lang.org
 test_regexp.rb;MODIFY;1466;16.0;Grew;True;2022-11-09 14:21:26+00:00;False;107;87;10765;80d145fa52e9077dc7812a94f3fc41208fc58bd7;1;mame@ruby-lang.org;make.just.on@gmail.com

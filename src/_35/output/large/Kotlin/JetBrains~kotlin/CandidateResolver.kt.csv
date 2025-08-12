@@ -1,6 +1,6 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
 CandidateResolver.kt;RENAME;not calculated;0.0;Equal;False;2015-07-16 14:26:14+00:00;False;not calculated;0;not calculated;3c56787514e6322f6eaee2aeb8562b9ab95a344c;1;Stanislav.Erokhin@jetbrains.com;Stanislav.Erokhin@jetbrains.com
-CandidateResolver.kt;MODIFY;405.0;0.0;Grew;False;2015-07-16 14:26:16+00:00;False;52;15;3129;97d41be42e655a27e9aeef7decfe39f0827e6b61;1;Stanislav.Erokhin@jetbrains.com;Stanislav.Erokhin@jetbrains.com
+CandidateResolver.kt;MODIFY;405.0;0.0;Equal;False;2015-07-16 14:26:16+00:00;False;52;15;3129;97d41be42e655a27e9aeef7decfe39f0827e6b61;1;Stanislav.Erokhin@jetbrains.com;Stanislav.Erokhin@jetbrains.com
 CandidateResolver.kt;MODIFY;392.0;-13.0;Decreased;False;2015-07-16 14:26:16+00:00;False;37;13;3047;d5f7fc52e07ddd45dde8b606b6d8bfc2f80e9947;2;Stanislav.Erokhin@jetbrains.com;Stanislav.Erokhin@jetbrains.com
 CandidateResolver.kt;MODIFY;413.0;21.0;Grew;False;2015-07-21 15:33:15+00:00;False;37;13;3156;6437a4bdc6ae1b6042e336aefed4ca7d45599dbb;51;Dmitry.Petrov@jetbrains.com;Dmitry.Petrov@jetbrains.com
 CandidateResolver.kt;MODIFY;413.0;0.0;Equal;False;2015-07-21 18:50:27+00:00;False;37;13;3156;f802d793054dc7cdf23085a3f12b077024d0bcce;1;Stanislav.Erokhin@jetbrains.com;Stanislav.Erokhin@jetbrains.com
@@ -10,8 +10,8 @@ CandidateResolver.kt;MODIFY;416.0;0.0;Equal;False;2015-07-31 14:33:21+00:00;Fals
 CandidateResolver.kt;MODIFY;416.0;0.0;Equal;False;2015-08-03 16:41:50+00:00;False;37;13;3188;4bd48c47967d897f129a3495c3b20c0dac070b5a;67;Mikhail.Glukhikh@jetbrains.com;Mikhail.Glukhikh@jetbrains.com
 CandidateResolver.kt;MODIFY;414.0;-2.0;Decreased;False;2015-08-19 18:18:30+00:00;False;37;13;3154;84ebc7a0f876231edf9350c993fd994a8e4075c8;8;talanov.pavel@gmail.com;talanov.pavel@gmail.com
 CandidateResolver.kt;MODIFY;426.0;12.0;Grew;False;2015-08-28 15:50:25+00:00;False;37;13;3211;00a78fce0cf7cd84f66a7bddac2e59e645f6ef56;4;denis.zharkov@jetbrains.com;denis.zharkov@jetbrains.com
-CandidateResolver.kt;MODIFY;416.0;-10.0;Grew;False;2015-08-28 15:50:25+00:00;False;37;13;3175;aad977d20454ee0c9bc46df79750e351628077ec;13;denis.zharkov@jetbrains.com;denis.zharkov@jetbrains.com
-CandidateResolver.kt;MODIFY;425.0;9.0;Decreased;False;2015-08-28 22:45:56+00:00;False;37;13;3195;4c7bafce4509f4beaed045b534cb388821b862df;80;Stanislav.Erokhin@jetbrains.com;Stanislav.Erokhin@jetbrains.com
+CandidateResolver.kt;MODIFY;416.0;-10.0;Decreased;False;2015-08-28 15:50:25+00:00;False;37;13;3175;aad977d20454ee0c9bc46df79750e351628077ec;13;denis.zharkov@jetbrains.com;denis.zharkov@jetbrains.com
+CandidateResolver.kt;MODIFY;425.0;9.0;Grew;False;2015-08-28 22:45:56+00:00;False;37;13;3195;4c7bafce4509f4beaed045b534cb388821b862df;80;Stanislav.Erokhin@jetbrains.com;Stanislav.Erokhin@jetbrains.com
 CandidateResolver.kt;MODIFY;425.0;0.0;Equal;False;2015-09-01 20:37:42+00:00;False;37;13;3195;5ded315cbbd0db1bd4f211640dcfa873b447008a;23;Stanislav.Erokhin@jetbrains.com;Stanislav.Erokhin@jetbrains.com
 CandidateResolver.kt;MODIFY;421.0;-4.0;Decreased;False;2015-10-01 14:53:16+00:00;False;37;13;3156;1f36b7fbea8297904eefbe551f6faea67db673e0;6;talanov.pavel@gmail.com;talanov.pavel@gmail.com
 CandidateResolver.kt;MODIFY;421.0;0.0;Equal;False;2015-10-03 07:40:50+00:00;False;37;13;3154;ebf649a681f7facc3f834059514b067f09cb27b9;24;valentin@jetbrains.com;valentin@jetbrains.com
@@ -39,7 +39,7 @@ CandidateResolver.kt;MODIFY;436.0;0.0;Equal;False;2015-12-28 04:44:54+00:00;Fals
 CandidateResolver.kt;MODIFY;436.0;0.0;Equal;False;2015-12-29 15:04:15+00:00;False;43;14;3196;80916d5ed7b7512dc558e0086dc310f1bf13d236;132;ilya.gorbunov@jetbrains.com;ilya.gorbunov@jetbrains.com
 CandidateResolver.kt;MODIFY;436.0;0.0;Equal;False;2016-01-07 16:57:38+00:00;False;43;14;3130;117a0d8b7b6eec304b60a2fcc54d464bd1f9ca46;488;yole@jetbrains.com;yole@jetbrains.com
 CandidateResolver.kt;MODIFY;449.0;13.0;Grew;False;2016-01-15 14:22:46+00:00;False;43;14;3236;1049d4c53a73c37c6cb1ddfb237e8940f19deee1;7;Mikhail.Glukhikh@jetbrains.com;Mikhail.Glukhikh@jetbrains.com
-CandidateResolver.kt;MODIFY;450.0;1.0;Equal;False;2016-01-15 14:22:54+00:00;False;43;14;3244;6157ebe3b809ef090ac88f93d77b3cd8d0d4c6f4;11;Mikhail.Glukhikh@jetbrains.com;Mikhail.Glukhikh@jetbrains.com
+CandidateResolver.kt;MODIFY;450.0;1.0;Grew;False;2016-01-15 14:22:54+00:00;False;43;14;3244;6157ebe3b809ef090ac88f93d77b3cd8d0d4c6f4;11;Mikhail.Glukhikh@jetbrains.com;Mikhail.Glukhikh@jetbrains.com
 CandidateResolver.kt;MODIFY;452.0;2.0;Grew;False;2016-01-19 08:05:41+00:00;False;43;14;3256;e9693e987f9224d58df1c6196a8f85138d26938f;60;denis.zharkov@jetbrains.com;denis.zharkov@jetbrains.com
 CandidateResolver.kt;MODIFY;452.0;0.0;Equal;False;2016-01-26 10:53:45+00:00;False;43;14;3250;8b828f1d9a4314d7015ab99cfd8892f340953ed9;5;denis.zharkov@jetbrains.com;denis.zharkov@jetbrains.com
 CandidateResolver.kt;MODIFY;455.0;3.0;Grew;False;2016-02-02 05:17:48+00:00;False;43;14;3260;9b3f557337972f09f0233c87de171fd3c1f41c45;9;denis.zharkov@jetbrains.com;denis.zharkov@jetbrains.com
@@ -51,15 +51,15 @@ CandidateResolver.kt;MODIFY;454.0;0.0;Equal;False;2016-03-14 16:24:07+00:00;Fals
 CandidateResolver.kt;MODIFY;493.0;39.0;Grew;True;2016-03-31 11:51:57+00:00;True;51;15;3461;5bf336474d61cca77da1d0731cef93e758d0e7ce;16;denis.zharkov@jetbrains.com;denis.zharkov@jetbrains.com
 CandidateResolver.kt;MODIFY;493.0;0.0;Equal;True;2016-03-31 13:06:48+00:00;False;51;15;3463;7de171efdac1c7b54da7248ebddcc71f8e3be32e;23;talanov.pavel@gmail.com;talanov.pavel@gmail.com
 CandidateResolver.kt;MODIFY;493.0;0.0;Equal;True;2016-04-06 10:55:35+00:00;False;51;15;3461;bf08341ee4e946a054de9b96b9d3c823f8087b12;19;Stanislav.Erokhin@jetbrains.com;Stanislav.Erokhin@jetbrains.com
-CandidateResolver.kt;MODIFY;497.0;4.0;Decreased;True;2016-04-12 17:03:51+00:00;False;51;13;3364;114713995f982f148ec50347483f292bd6693cf8;1;Alexander.Udalov@jetbrains.com;Alexander.Udalov@jetbrains.com
-CandidateResolver.kt;MODIFY;496.0;-1.0;Grew;True;2016-04-12 17:03:51+00:00;False;51;15;3478;76d3246514bd9b4d2fed2eff2a4b822eb40ac5a5;5;Alexander.Udalov@jetbrains.com;Alexander.Udalov@jetbrains.com
-CandidateResolver.kt;MODIFY;497.0;1.0;Equal;True;2016-04-19 15:37:21+00:00;False;51;13;3362;0494e1d258a5c48534cbd4d85160c3e36070920a;4;Alexander.Udalov@jetbrains.com;Alexander.Udalov@jetbrains.com
+CandidateResolver.kt;MODIFY;497.0;4.0;Grew;True;2016-04-12 17:03:51+00:00;False;51;13;3364;114713995f982f148ec50347483f292bd6693cf8;1;Alexander.Udalov@jetbrains.com;Alexander.Udalov@jetbrains.com
+CandidateResolver.kt;MODIFY;496.0;-1.0;Decreased;True;2016-04-12 17:03:51+00:00;False;51;15;3478;76d3246514bd9b4d2fed2eff2a4b822eb40ac5a5;5;Alexander.Udalov@jetbrains.com;Alexander.Udalov@jetbrains.com
+CandidateResolver.kt;MODIFY;497.0;1.0;Grew;True;2016-04-19 15:37:21+00:00;False;51;13;3362;0494e1d258a5c48534cbd4d85160c3e36070920a;4;Alexander.Udalov@jetbrains.com;Alexander.Udalov@jetbrains.com
 CandidateResolver.kt;MODIFY;497.0;0.0;Equal;True;2016-04-29 08:26:25+00:00;False;51;13;3360;b551886889e82a4558aa5c366e693151ae3715ae;141;valentin@jetbrains.com;valentin@jetbrains.com
 CandidateResolver.kt;MODIFY;497.0;0.0;Equal;True;2016-05-14 09:19:41+00:00;False;51;13;3366;b6c54ac31438f9a97f5071823464e3f217513259;2;valentin@jetbrains.com;valentin@jetbrains.com
 CandidateResolver.kt;MODIFY;558.0;61.0;Grew;True;2016-06-01 11:32:46+00:00;False;56;17;3811;e9793005797b5e883c713aecf0b10b639de8b97c;12;Dmitry.Petrov@jetbrains.com;Dmitry.Petrov@jetbrains.com
 CandidateResolver.kt;MODIFY;562.0;4.0;Grew;True;2016-06-09 07:27:50+00:00;False;56;17;3826;b2e5cfebee71b5aa9cc38f63424544cfb211fff0;12;Dmitry.Petrov@jetbrains.com;Dmitry.Petrov@jetbrains.com
 CandidateResolver.kt;MODIFY;563.0;1.0;Grew;True;2016-06-19 09:45:22+00:00;False;56;17;3830;6562a2db19e7511ec2f477b5ae090a0702b36ca5;13;Alexander.Udalov@jetbrains.com;Alexander.Udalov@jetbrains.com
-CandidateResolver.kt;MODIFY;559.0;-4.0;Grew;True;2016-06-22 18:35:57+00:00;False;59;18;3825;3eeccb407e29f1085a2e15dc691e607a292d1f08;14;Alexander.Udalov@jetbrains.com;Alexander.Udalov@jetbrains.com
+CandidateResolver.kt;MODIFY;559.0;-4.0;Decreased;True;2016-06-22 18:35:57+00:00;False;59;18;3825;3eeccb407e29f1085a2e15dc691e607a292d1f08;14;Alexander.Udalov@jetbrains.com;Alexander.Udalov@jetbrains.com
 CandidateResolver.kt;MODIFY;557.0;-2.0;Decreased;True;2016-06-22 18:35:57+00:00;False;56;17;3814;80bf6e1beeb17f5df5096710b583d4d90d7b9c09;8;Alexander.Udalov@jetbrains.com;Alexander.Udalov@jetbrains.com
 CandidateResolver.kt;MODIFY;544.0;-13.0;Decreased;True;2016-06-29 16:21:04+00:00;False;59;18;3738;291f1f6c3a102c987ef97661b383a62c26d14dac;8;Alexander.Udalov@jetbrains.com;Alexander.Udalov@jetbrains.com
 CandidateResolver.kt;MODIFY;550.0;6.0;Grew;True;2016-07-04 12:42:35+00:00;False;61;19;3801;f290f1be68383c9a87c41781d514aff2c5b9f5c5;9;Alexander.Udalov@jetbrains.com;Alexander.Udalov@jetbrains.com
@@ -89,11 +89,11 @@ CandidateResolver.kt;MODIFY;577.0;0.0;Equal;True;2017-10-25 13:33:04+00:00;False
 CandidateResolver.kt;MODIFY;576.0;-1.0;Decreased;True;2017-12-07 09:53:33+00:00;False;64;20;4002;ce41b5745a7c67dfcaa4a0d341e18f37c0364572;6;denis.zharkov@jetbrains.com;denis.zharkov@jetbrains.com
 CandidateResolver.kt;MODIFY;594.0;18.0;Grew;True;2018-01-16 15:26:21+00:00;False;64;20;4002;c2b532b167c0ac4f0a9244dbd1726dbd42cfdbc9;132;dsavvinov@gmail.com;dsavvinov@gmail.com
 CandidateResolver.kt;MODIFY;595.0;1.0;Grew;True;2018-02-20 10:11:33+00:00;False;64;20;4008;09296735762b2312093d258e247a22aa9ee0ca9a;62;dsavvinov@gmail.com;dsavvinov@gmail.com
-CandidateResolver.kt;MODIFY;596.0;1.0;Decreased;True;2018-08-30 11:50:33+00:00;False;64;20;4022;9df411481cc4526bc69fcbefa37e8890b7077a1e;11;ilya.gorbunov@jetbrains.com;ilmir.usmanov@jetbrains.com
+CandidateResolver.kt;MODIFY;596.0;1.0;Grew;True;2018-08-30 11:50:33+00:00;False;64;20;4022;9df411481cc4526bc69fcbefa37e8890b7077a1e;11;ilya.gorbunov@jetbrains.com;ilmir.usmanov@jetbrains.com
 CandidateResolver.kt;MODIFY;597.0;1.0;Grew;True;2019-04-18 08:28:52+00:00;False;64;20;4024;3bed360c98fe8f466044829fc047a8ef1d297e97;77;dmitry.gridin@jetbrains.com;dmitry.gridin@jetbrains.com
 CandidateResolver.kt;MODIFY;597.0;0.0;Equal;True;2019-04-23 17:09:22+00:00;False;64;20;4024;65244b4bea81f737466618927d4f3afe339cad0d;3628;nikita.movshin@jetbrains.com;nikita.movshin@jetbrains.com
-CandidateResolver.kt;MODIFY;596.0;-1.0;Equal;True;2019-07-30 09:41:35+00:00;False;64;20;4023;c1144f35f1d11bd37a7e7f8971fdd0d31766a305;5;dmitry.savvinov@jetbrains.com;denis.zharkov@jetbrains.com
-CandidateResolver.kt;MODIFY;596.0;0.0;Decreased;True;2019-07-30 09:41:35+00:00;False;64;20;4023;529763b9bdbf795c1620c0e84b4c56e827739da4;6;dmitry.savvinov@jetbrains.com;denis.zharkov@jetbrains.com
+CandidateResolver.kt;MODIFY;596.0;-1.0;Decreased;True;2019-07-30 09:41:35+00:00;False;64;20;4023;c1144f35f1d11bd37a7e7f8971fdd0d31766a305;5;dmitry.savvinov@jetbrains.com;denis.zharkov@jetbrains.com
+CandidateResolver.kt;MODIFY;596.0;0.0;Equal;True;2019-07-30 09:41:35+00:00;False;64;20;4023;529763b9bdbf795c1620c0e84b4c56e827739da4;6;dmitry.savvinov@jetbrains.com;denis.zharkov@jetbrains.com
 CandidateResolver.kt;MODIFY;596.0;0.0;Equal;True;2019-07-30 09:41:35+00:00;False;64;20;4023;7ba3f7e599d9b6b1004feada28efa4d6b04365f3;3;dmitry.savvinov@jetbrains.com;denis.zharkov@jetbrains.com
 CandidateResolver.kt;MODIFY;596.0;0.0;Equal;True;2020-09-04 08:07:42+00:00;False;64;20;4023;d1fd1da56f222741c1626d4520128b2e30efc83f;379;dmitriy.novozhilov@jetbrains.com;dmitriy.novozhilov@jetbrains.com
 CandidateResolver.kt;MODIFY;597.0;1.0;Grew;True;2021-02-15 09:13:50+00:00;False;64;20;4029;befe8599c42486b3a5e9b40f829ce041471e5eb3;14;victor.petukhov@jetbrains.com;victor.petukhov@jetbrains.com
@@ -104,8 +104,8 @@ CandidateResolver.kt;MODIFY;594.0;0.0;Equal;True;2021-09-27 13:12:01+00:00;False
 CandidateResolver.kt;MODIFY;593.0;-1.0;Decreased;True;2021-11-18 10:54:05+00:00;False;63;20;3948;93378b1a04ee918c245366d4cd224902f5a8eebd;31;dmitriy.novozhilov@jetbrains.com;dmitriy.novozhilov@jetbrains.com
 CandidateResolver.kt;MODIFY;593.0;0.0;Equal;True;2021-12-23 14:45:50+00:00;False;63;20;3950;61e0375900da8cccbdf11de2e65f27e4f39cbb1e;22;teamcity@buildserver-linux-node-2.spc.labs.intellij.net;mikhail.glukhikh@jetbrains.com
 CandidateResolver.kt;MODIFY;596.0;3.0;Grew;True;2022-03-23 21:13:33+00:00;False;63;20;3979;b5933c70e20a0dfd788d8d4a6c04ca0d16f7c731;139;teamcity@ip-10-128-210-39.eu-west-1.compute.internal;victor.petukhov@jetbrains.com
-CandidateResolver.kt;DELETE;not calculated;0.0;Decreased;False;2022-08-02 10:29:35+00:00;True;not calculated;0;not calculated;4ea08a59db0a45ee988e158a76c6c3c1c872894b;2;teamcity@ip-10-128-210-39.eu-west-1.compute.internal;victor.petukhov@jetbrains.com
-CandidateResolver.kt;ADD;596.0;0.0;Grew;True;2022-09-13 09:08:58+00:00;True;63;20;3979;2ac25cfa8ed7f0af291a82c73298879d03c3afb9;2;;Mikhail.Glukhikh@jetbrains.com
+CandidateResolver.kt;DELETE;not calculated;0.0;Equal;False;2022-08-02 10:29:35+00:00;True;not calculated;0;not calculated;4ea08a59db0a45ee988e158a76c6c3c1c872894b;2;teamcity@ip-10-128-210-39.eu-west-1.compute.internal;victor.petukhov@jetbrains.com
+CandidateResolver.kt;ADD;596.0;0.0;Equal;True;2022-09-13 09:08:58+00:00;True;63;20;3979;2ac25cfa8ed7f0af291a82c73298879d03c3afb9;2;;Mikhail.Glukhikh@jetbrains.com
 CandidateResolver.kt;MODIFY;596.0;0.0;Equal;True;2023-01-03 15:36:53+00:00;False;63;20;3979;4542b3947b9ef40877cf72906f81986a60368e98;65;vladimir.dolzhenko@jetbrains.com;vladimir.dolzhenko@jetbrains.com
 CandidateResolver.kt;MODIFY;596.0;0.0;Equal;True;2024-01-15 12:23:26+00:00;False;64;20;3985;dc0f4e69953250af29b19801c3b8b9c052be6c08;3;noreply@jetbrains.team;kirill.rakhman@jetbrains.com
 CandidateResolver.kt;MODIFY;596.0;0.0;Equal;True;2024-01-16 08:14:19+00:00;False;63;20;3979;fa6ad4139501a59b7277f310eb82fe40b46de066;3;kirill.rakhman@jetbrains.com;kirill.rakhman@jetbrains.com

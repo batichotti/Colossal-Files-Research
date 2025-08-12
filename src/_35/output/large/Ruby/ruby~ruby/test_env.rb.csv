@@ -1,5 +1,5 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
-test_env.rb;ADD;74;0.0;Grew;False;2003-11-28 09:00:48+00:00;False;13;5;436;275d6a57758b3b33628e3584c959b66c34110188;3;usa@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;usa@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+test_env.rb;ADD;74;0.0;Equal;False;2003-11-28 09:00:48+00:00;False;13;5;436;275d6a57758b3b33628e3584c959b66c34110188;3;usa@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;usa@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_env.rb;MODIFY;76;2.0;Grew;False;2003-11-28 10:38:00+00:00;False;13;5;460;f2fdd59898305e22f3bff51ac07d94ad90af2783;2;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_env.rb;MODIFY;76;0.0;Equal;False;2003-12-03 17:30:09+00:00;False;13;5;460;4f5976cbb826df462c62a0a8e72ebe91c15a7ba4;4;matz@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;matz@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_env.rb;MODIFY;75;-1.0;Decreased;False;2004-02-18 13:08:08+00:00;False;13;5;457;994dfc0ae6a3c42bb9311f736ca30275779e348a;36;nahi@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nahi@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
@@ -20,7 +20,7 @@ test_env.rb;MODIFY;334;0.0;Equal;False;2010-09-09 01:46:07+00:00;False;62;36;215
 test_env.rb;MODIFY;345;11.0;Grew;False;2010-09-11 07:47:44+00:00;False;64;37;2221;da47bbd1db646794fba94449d4d226d35ec2b2ff;4;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_env.rb;MODIFY;346;1.0;Grew;False;2010-09-30 07:12:49+00:00;False;64;37;2228;1fcb7a5ee0f346f755735d349a405eeccf81fc40;3;usa@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;usa@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_env.rb;MODIFY;357;11.0;Grew;False;2011-03-19 09:28:49+00:00;False;66;38;2331;5281610f919f96fd0ec1a14a53ad42b54bc8d373;3;arton@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;arton@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
-test_env.rb;MODIFY;356;-1.0;Grew;False;2011-05-29 16:49:14+00:00;False;66;38;2312;e524bb986a849ce4271285cccfd7fff286952353;1;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+test_env.rb;MODIFY;356;-1.0;Decreased;False;2011-05-29 16:49:14+00:00;False;66;38;2312;e524bb986a849ce4271285cccfd7fff286952353;1;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_env.rb;MODIFY;359;3.0;Grew;False;2012-04-24 03:46:55+00:00;False;67;39;2325;770ddcdfe069f8654a07e0fcc758aea591cdd17d;10;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_env.rb;MODIFY;357;-2.0;Decreased;False;2012-05-07 01:23:07+00:00;False;67;39;2313;298258891d2f8a80f8d1eac193c6609a256a3cf0;8;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_env.rb;MODIFY;357;0.0;Equal;False;2013-04-09 07:21:50+00:00;False;67;39;2314;56486e00ecd02007787620e814c991f94d68ff49;2;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
@@ -41,7 +41,7 @@ test_env.rb;MODIFY;431;-72.0;Decreased;False;2015-06-18 14:21:03+00:00;False;78;
 test_env.rb;MODIFY;429;-2.0;Decreased;False;2015-09-27 06:35:10+00:00;False;78;45;2733;71730b42434e3c2dce7e7f6488bd54fae52cae51;4;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_env.rb;MODIFY;439;10.0;Grew;False;2015-12-05 08:26:26+00:00;False;80;46;2776;5e3467c4414df815b3b00d2b0372026b069e7f7d;3;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_env.rb;MODIFY;439;0.0;Equal;False;2015-12-06 03:12:28+00:00;False;80;46;2776;33a05904bbce2eabe4d863e15f36840f568f113f;1;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
-test_env.rb;MODIFY;439;0.0;Grew;False;2015-12-16 05:07:31+00:00;False;80;46;2776;3e92b635fb5422207b7bbdc924e292e51e21f040;1432;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+test_env.rb;MODIFY;439;0.0;Equal;False;2015-12-16 05:07:31+00:00;False;80;46;2776;3e92b635fb5422207b7bbdc924e292e51e21f040;1432;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_env.rb;MODIFY;443;4.0;Grew;False;2016-01-17 05:43:04+00:00;False;83;47;2829;ddd40c73b622fb1854a6b4fee39c41d154328fbf;2;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_env.rb;MODIFY;447;4.0;Grew;False;2016-01-17 05:43:40+00:00;False;86;48;2882;f918d2b8e2f2736f57bd2ff01167702757e0a75b;2;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_env.rb;MODIFY;447;0.0;Equal;False;2016-02-19 07:48:02+00:00;False;86;48;2880;41f4317f45021460871bd11c666f438f5517904b;31;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
@@ -72,10 +72,10 @@ test_env.rb;MODIFY;523;-1.0;Decreased;False;2020-12-02 11:17:11+00:00;False;98;5
 test_env.rb;MODIFY;522;-1.0;Decreased;False;2020-12-07 17:00:39+00:00;False;99;55;3535;ca76337a00244635faa331afd04f4b75161ce6fb;9;noreply@github.com;kanis@comcard.de
 test_env.rb;MODIFY;521;-1.0;Decreased;False;2020-12-17 11:06:18+00:00;False;99;55;3532;9908177857a28633d6279c43a1ad4dfedcb98596;17;noreply@github.com;nobu@ruby-lang.org
 test_env.rb;MODIFY;556;35.0;Grew;False;2021-06-08 17:19:08+00:00;False;101;57;3689;117310bdc00236c0a7676616ce25b5106775dabc;2;noreply@github.com;code@jeremyevans.net
-test_env.rb;MODIFY;555;-1.0;Equal;False;2021-09-19 15:15:30+00:00;False;102;57;3681;70cefcfa0f769f7269cf0c950a4516036dd1a1ea;1;nobu@ruby-lang.org;kanis@comcard.de
+test_env.rb;MODIFY;555;-1.0;Decreased;False;2021-09-19 15:15:30+00:00;False;102;57;3681;70cefcfa0f769f7269cf0c950a4516036dd1a1ea;1;nobu@ruby-lang.org;kanis@comcard.de
 test_env.rb;MODIFY;555;0.0;Equal;False;2021-11-29 14:07:16+00:00;False;101;57;3674;95a6212a431929d91435056fa8df13ae697f8071;1;nobu@ruby-lang.org;kanis@comcard.de
 test_env.rb;MODIFY;1308;753.0;Grew;True;2021-12-15 06:04:34+00:00;True;180;108;7984;e071ac8b3db80901566882ae82a9ba75106995da;1;ko1@atdot.net;rohitmenon@verizon.net
-test_env.rb;MODIFY;1308;0.0;Grew;True;2021-12-15 06:04:34+00:00;False;180;108;7981;04aab3c2592a2234921fb715c1ff9f36a58828ca;1;ko1@atdot.net;ko1@atdot.net
+test_env.rb;MODIFY;1308;0.0;Equal;True;2021-12-15 06:04:34+00:00;False;180;108;7981;04aab3c2592a2234921fb715c1ff9f36a58828ca;1;ko1@atdot.net;ko1@atdot.net
 test_env.rb;MODIFY;1308;0.0;Equal;True;2021-12-15 06:04:34+00:00;False;180;108;7984;9bb83a82aba3cf844fd96782f747eefb1876439b;1;ko1@atdot.net;nobu@ruby-lang.org
 test_env.rb;MODIFY;1308;0.0;Equal;True;2021-12-15 06:04:34+00:00;False;180;108;7983;13c37835d5dbda3493f54baf13f75ed5b59fc507;1;ko1@atdot.net;ko1@atdot.net
 test_env.rb;MODIFY;1332;24.0;Grew;True;2021-12-17 06:46:50+00:00;False;184;109;8095;37bd795cf8bc9681fccaf9b2d42292b14610a310;2;ko1@atdot.net;ko1@atdot.net

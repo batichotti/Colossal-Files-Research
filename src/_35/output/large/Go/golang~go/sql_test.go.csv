@@ -1,6 +1,6 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
 sql_test.go;RENAME;not calculated;0.0;Equal;False;2014-09-08 04:08:51+00:00;False;not calculated;0;not calculated;c007ce824d9a4fccb148f9204e04c23ed2984b71;2097;rsc@golang.org;rsc@golang.org
-sql_test.go;MODIFY;1660.0;0.0;Grew;False;2014-09-22 13:19:27+00:00;False;380;112;10825;5f739d9dcd01730e10d829968755c7b1a7b5f2b7;2;bradfitz@golang.org;marko@joh.to
+sql_test.go;MODIFY;1660.0;0.0;Equal;False;2014-09-22 13:19:27+00:00;False;380;112;10825;5f739d9dcd01730e10d829968755c7b1a7b5f2b7;2;bradfitz@golang.org;marko@joh.to
 sql_test.go;MODIFY;1643.0;-17.0;Decreased;False;2015-01-24 09:56:25+00:00;False;376;112;10743;1b61a97811626d4c7a8332c107f1e091253d1b2e;2;mikioh.mikioh@gmail.com;songofacandy@gmail.com
 sql_test.go;MODIFY;1660.0;17.0;Grew;False;2015-04-01 15:24:53+00:00;False;380;113;10848;297c1d297f4cee55a6aee5eb68583d0139aef076;2;bradfitz@golang.org;a.korzhevskiy@gmail.com
 sql_test.go;MODIFY;1699.0;39.0;Grew;False;2015-04-07 09:27:26+00:00;False;390;115;11110;cce127a75f72110c045319407a652829b5a5b716;2;bradfitz@golang.org;londevil@gmail.com
@@ -21,7 +21,7 @@ sql_test.go;MODIFY;2076.0;52.0;Grew;True;2016-09-29 22:26:42+00:00;False;482;156
 sql_test.go;MODIFY;2146.0;70.0;Grew;True;2016-10-15 07:13:17+00:00;False;496;157;13876;86b2f29676c52774d91dda96e0ba5d4d7bcd3b47;5;bradfitz@golang.org;kardianos@gmail.com
 sql_test.go;MODIFY;2188.0;42.0;Grew;True;2016-10-17 07:56:35+00:00;False;504;158;14121;707a83341b8c7973f4e0fce731fa279c618f233b;6;bradfitz@golang.org;kardianos@gmail.com
 sql_test.go;MODIFY;2235.0;47.0;Grew;True;2016-10-18 10:52:57+00:00;False;517;159;14416;2a85578b0ecd424e95b29d810b7a414a299fd6a7;4;bradfitz@golang.org;kardianos@gmail.com
-sql_test.go;MODIFY;2244.0;9.0;Equal;True;2016-10-21 08:31:15+00:00;False;500;156;14035;325c2aa5b6f12ccc82e8472beec0e1511e975bd4;2;bradfitz@golang.org;kardianos@gmail.com
+sql_test.go;MODIFY;2244.0;9.0;Grew;True;2016-10-21 08:31:15+00:00;False;500;156;14035;325c2aa5b6f12ccc82e8472beec0e1511e975bd4;2;bradfitz@golang.org;kardianos@gmail.com
 sql_test.go;MODIFY;2245.0;1.0;Grew;True;2016-10-24 17:56:11+00:00;False;500;156;14039;0fff67d191514d4eab9e5fd1f078a8c66c8550fd;1;bradfitz@golang.org;email@alexd.ch
 sql_test.go;MODIFY;2279.0;34.0;Grew;True;2016-10-31 17:17:42+00:00;False;507;159;14224;4b90b7a28a0c1a849eed765cc511eacbae4d2651;3;bradfitz@golang.org;songofacandy@gmail.com
 sql_test.go;MODIFY;2280.0;1.0;Grew;True;2016-11-15 15:13:48+00:00;False;507;159;14225;a145890059e9c7aae870e1b9e74b204b6c8bc8d5;14;iant@golang.org;iant@golang.org
@@ -35,7 +35,7 @@ sql_test.go;MODIFY;2385.0;28.0;Grew;True;2016-12-01 22:20:31+00:00;False;535;168
 sql_test.go;MODIFY;2385.0;0.0;Equal;True;2016-12-14 18:13:13+00:00;False;535;168;14892;d0501f1da9c54a8053940feeb86e1644ffaae522;6;bradfitz@golang.org;kardianos@gmail.com
 sql_test.go;MODIFY;2417.0;32.0;Grew;True;2017-01-02 20:21:02+00:00;False;541;171;15111;9def857072bb708a79c291bb88c4b2830f0a8376;2;bradfitz@golang.org;kardianos@gmail.com
 sql_test.go;MODIFY;2417.0;0.0;Equal;True;2017-01-02 22:17:24+00:00;False;541;171;15111;af7bc070490fb2024102ac9a2c8f598bcb481bc7;1;bradfitz@golang.org;kev@inburke.com
-sql_test.go;MODIFY;2414.0;-3.0;Equal;True;2017-01-25 21:57:28+00:00;False;539;172;15122;165cfbc409d54154263c26fb0cc2b2acd75d8b53;1;bradfitz@golang.org;kardianos@gmail.com
+sql_test.go;MODIFY;2414.0;-3.0;Decreased;True;2017-01-25 21:57:28+00:00;False;539;172;15122;165cfbc409d54154263c26fb0cc2b2acd75d8b53;1;bradfitz@golang.org;kardianos@gmail.com
 sql_test.go;MODIFY;2459.0;45.0;Grew;True;2017-01-26 06:25:37+00:00;False;549;177;15412;2b283cedef2a62e37b7422ef3badc7b758bd26c8;2;bradfitz@golang.org;kardianos@gmail.com
 sql_test.go;MODIFY;2459.0;0.0;Equal;True;2017-02-01 21:06:35+00:00;False;549;177;15412;ec4062f8eab9ce771d0ecece5b5388f960498606;2;bradfitz@golang.org;kev@inburke.com
 sql_test.go;MODIFY;2463.0;4.0;Grew;True;2017-02-08 18:30:39+00:00;False;550;177;15433;c026845bd2984002168e7496cb9d0150f79164d0;3;rsc@golang.org;kardianos@gmail.com
@@ -55,7 +55,7 @@ sql_test.go;MODIFY;2985.0;22.0;Grew;True;2017-06-05 19:48:49+00:00;False;622;196
 sql_test.go;MODIFY;3003.0;18.0;Grew;True;2017-06-07 21:15:36+00:00;False;626;197;17599;ef0f7fb92b9458d7d35ee3c10ae853e3dc3077eb;2;kardianos@gmail.com;gaifullinbf@gmail.com
 sql_test.go;MODIFY;2985.0;-18.0;Decreased;True;2017-06-12 15:50:16+00:00;False;622;196;17471;3820191839a5b87acab5106b5fb43113d4f18b08;2;bradfitz@golang.org;kardianos@gmail.com
 sql_test.go;MODIFY;3023.0;38.0;Grew;True;2017-06-12 15:53:00+00:00;False;630;198;17676;b0d592c3c9a356b661c2d6bb958528f2761d821e;3;kardianos@gmail.com;kardianos@gmail.com
-sql_test.go;MODIFY;3025.0;2.0;Decreased;True;2017-06-12 21:58:53+00:00;False;630;198;17692;5c37397a471c061fd92a7b9cc799a9c9e66dcd9d;2;kardianos@gmail.com;kardianos@gmail.com
+sql_test.go;MODIFY;3025.0;2.0;Grew;True;2017-06-12 21:58:53+00:00;False;630;198;17692;5c37397a471c061fd92a7b9cc799a9c9e66dcd9d;2;kardianos@gmail.com;kardianos@gmail.com
 sql_test.go;MODIFY;3054.0;29.0;Grew;True;2017-06-13 19:16:54+00:00;False;636;199;17870;cd24a8a5509376e4d5c492256a0e1e120cab63e7;2;bradfitz@golang.org;kardianos@gmail.com
 sql_test.go;MODIFY;3064.0;10.0;Grew;True;2017-08-09 20:06:20+00:00;False;638;200;17935;bd08803680792b553dc78d5b5006ebedadaaccf0;2;kardianos@gmail.com;mdee@hioscar.com
 sql_test.go;MODIFY;3064.0;0.0;Equal;True;2017-08-23 03:07:12+00:00;False;638;200;17935;ea5e3bd2a18fc26fa9028865c8f391b18ed24786;12;thebrokentoaster@gmail.com;agnivade@yahoo.co.in
@@ -68,7 +68,7 @@ sql_test.go;MODIFY;3189.0;22.0;Grew;True;2017-10-24 17:02:13+00:00;False;668;211
 sql_test.go;MODIFY;3167.0;-22.0;Decreased;True;2017-10-24 18:43:18+00:00;False;662;209;18662;3b9d947b2f4eb3bf7ff01eb33cd1e91bbce73c77;4;rsc@golang.org;rsc@golang.org
 sql_test.go;MODIFY;3190.0;23.0;Grew;True;2017-10-24 21:37:46+00:00;False;668;211;18820;6a223b82a466540ea5de1e9f8a7bfea31d77e07d;4;kardianos@gmail.com;kardianos@gmail.com
 sql_test.go;MODIFY;3192.0;2.0;Grew;True;2017-10-25 17:21:58+00:00;False;669;211;18828;1126d1483f0397648905fcd4590ae45352cabd69;5;kardianos@gmail.com;kardianos@gmail.com
-sql_test.go;MODIFY;3056.0;-136.0;Grew;True;2017-10-25 20:23:34+00:00;False;637;199;17878;fd17253587862248ee9a30a89e59db2fa9b77d1d;3;rsc@golang.org;kardianos@gmail.com
+sql_test.go;MODIFY;3056.0;-136.0;Decreased;True;2017-10-25 20:23:34+00:00;False;637;199;17878;fd17253587862248ee9a30a89e59db2fa9b77d1d;3;rsc@golang.org;kardianos@gmail.com
 sql_test.go;MODIFY;3203.0;147.0;Grew;True;2017-11-16 22:36:07+00:00;False;672;212;18900;b44b2feb914d866250f2efb744b24de0ce8c161a;4;kardianos@gmail.com;kardianos@gmail.com
 sql_test.go;MODIFY;3170.0;-33.0;Decreased;True;2018-01-25 19:14:14+00:00;False;666;211;18680;651ddbdb5056ded455f47f9c494c67b389622a47;4;kardianos@gmail.com;kardianos@gmail.com
 sql_test.go;MODIFY;3215.0;45.0;Grew;True;2018-02-13 21:24:53+00:00;False;673;213;19007;8da7706bb4dc609689fd69e196ddaa800908c31f;2;kardianos@gmail.com;haraldnordgren@gmail.com
@@ -96,7 +96,7 @@ sql_test.go;MODIFY;3621.0;26.0;Grew;True;2020-08-14 17:45:39+00:00;False;758;244
 sql_test.go;MODIFY;3645.0;24.0;Grew;True;2020-10-28 16:55:17+00:00;False;764;245;21842;d4c1ad882973e407ff85b977f4ce5b9435451190;2;emmanuel@orijtech.com;su3g4284zo6y7@gmail.com
 sql_test.go;MODIFY;3642.0;-3.0;Decreased;True;2020-10-29 00:19:20+00:00;False;763;245;21828;d8044a6744f9570e964c6e35e12827473ff12cde;1;emmanuel@orijtech.com;su3g4284zo6y7@gmail.com
 sql_test.go;MODIFY;3649.0;7.0;Grew;True;2020-10-31 20:30:19+00:00;False;765;245;21853;715d4e2e014fa54f527ee109f26a31f941196381;2;emmanuel@orijtech.com;emmanuel@orijtech.com
-sql_test.go;MODIFY;3649.0;0.0;Decreased;True;2021-02-24 14:10:04+00:00;False;765;246;21850;e49612089196be102b4b7f86c417b8cfba2521aa;1;josharian@gmail.com;josharian@gmail.com
+sql_test.go;MODIFY;3649.0;0.0;Equal;True;2021-02-24 14:10:04+00:00;False;765;246;21850;e49612089196be102b4b7f86c417b8cfba2521aa;1;josharian@gmail.com;josharian@gmail.com
 sql_test.go;MODIFY;3656.0;7.0;Grew;True;2021-02-25 19:34:27+00:00;False;767;246;21882;194b636f8f1ff7d6b709b5b9010d1d14b3919e66;4;emmanuel@orijtech.com;mr.trubach@icloud.com
 sql_test.go;MODIFY;3656.0;0.0;Equal;True;2021-04-10 01:46:41+00:00;False;767;246;21882;52bf14e0e8bdcd73f1ddfb0c4a1d0200097d3ba2;10;emmanuel@orijtech.com;namangera15@gmail.com
 sql_test.go;MODIFY;3678.0;22.0;Grew;True;2021-05-04 17:31:29+00:00;False;769;248;22143;10d625d5b41f17c118da18a592c683e60fcdcb3b;3;emmanuel@orijtech.com;ariel@mashraki.co.il

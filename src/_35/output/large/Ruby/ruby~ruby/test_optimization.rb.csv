@@ -1,5 +1,5 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
-test_optimization.rb;ADD;173;0.0;Grew;False;2007-02-23 09:13:49+00:00;False;25;21;645;bcd3345136047deb36943468bc4382074b96405f;3;aamine@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;aamine@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+test_optimization.rb;ADD;173;0.0;Equal;False;2007-02-23 09:13:49+00:00;False;25;21;645;bcd3345136047deb36943468bc4382074b96405f;3;aamine@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;aamine@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_optimization.rb;MODIFY;117;-56.0;Decreased;False;2007-02-26 15:45:52+00:00;False;20;18;520;c2d5527bff7ed498b22942ef85b7d391aab0554d;2;aamine@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;aamine@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_optimization.rb;MODIFY;139;22.0;Grew;False;2010-11-23 09:54:07+00:00;False;24;21;617;3c575a15c24f2eda10c57e3f30037ee3c372f994;3;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_optimization.rb;MODIFY;157;18.0;Grew;False;2012-08-22 02:25:16+00:00;False;27;24;686;bf797ed9b094289d79b485fd3794cb40acb368b0;3;shugo@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;shugo@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
@@ -16,7 +16,7 @@ test_optimization.rb;MODIFY;264;16.0;Grew;False;2015-07-06 19:45:02+00:00;False;
 test_optimization.rb;MODIFY;304;40.0;Grew;False;2015-12-07 23:56:57+00:00;False;53;44;1490;4d2ce0cbff3cee1119fb664bca5f67332a94dadd;3;normal@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;normal@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_optimization.rb;MODIFY;316;12.0;Grew;False;2015-12-08 01:46:45+00:00;False;57;45;1562;4ebab10bf5ac061bd71df8db2fd7fea61be658c0;9;normal@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;normal@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_optimization.rb;MODIFY;326;10.0;Grew;False;2015-12-11 09:15:14+00:00;False;61;46;1597;d65bc80d3f71bf5423a6a6d9b3f8d4ff2faf6bd5;3;normal@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;normal@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
-test_optimization.rb;MODIFY;326;0.0;Grew;False;2015-12-16 05:07:31+00:00;False;61;46;1597;3e92b635fb5422207b7bbdc924e292e51e21f040;1432;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+test_optimization.rb;MODIFY;326;0.0;Equal;False;2015-12-16 05:07:31+00:00;False;61;46;1597;3e92b635fb5422207b7bbdc924e292e51e21f040;1432;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_optimization.rb;MODIFY;340;14.0;Grew;False;2016-01-26 06:14:59+00:00;False;64;49;1649;f4ca0739ecf00e9c50aaca55e0ecc5e33dd49284;3;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_optimization.rb;MODIFY;342;2.0;Grew;False;2016-03-17 04:31:10+00:00;False;68;51;1668;7b2b8319592f556bc5a9fc31e0b60d33a41309c7;1;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_optimization.rb;MODIFY;362;20.0;Grew;False;2016-04-11 08:43:06+00:00;False;73;55;1724;f0226f0a3c836e9262c5cd2671860140878d6b75;3;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
@@ -89,7 +89,7 @@ test_optimization.rb;MODIFY;745;1.0;Grew;True;2019-11-13 07:10:04+00:00;False;15
 test_optimization.rb;MODIFY;736;-9.0;Decreased;True;2019-11-17 23:00:25+00:00;False;154;110;3650;c5c05460ac20abcbc0ed686eb4acf06da7a39a79;59;code@jeremyevans.net;code@jeremyevans.net
 test_optimization.rb;MODIFY;736;0.0;Equal;True;2020-05-07 16:22:38+00:00;False;154;110;3650;7ded8fd29a9dc5c481cadff7e94079009bce9e6c;1;zn@mbf.nifty.com;zn@mbf.nifty.com
 test_optimization.rb;MODIFY;736;0.0;Equal;True;2020-05-21 04:27:26+00:00;False;154;110;3650;3eb3f7bb8c3da4d3e71246ad011c580b6ad68d78;1;mame@ruby-lang.org;mame@ruby-lang.org
-test_optimization.rb;MODIFY;737;1.0;Equal;True;2020-06-09 06:52:25+00:00;False;154;110;3657;195075e8f5f2220a0a1f00f5cfd2ad98681e71d5;1;ko1@atdot.net;ko1@atdot.net
+test_optimization.rb;MODIFY;737;1.0;Grew;True;2020-06-09 06:52:25+00:00;False;154;110;3657;195075e8f5f2220a0a1f00f5cfd2ad98681e71d5;1;ko1@atdot.net;ko1@atdot.net
 test_optimization.rb;MODIFY;737;0.0;Equal;True;2020-12-04 15:45:54+00:00;False;155;110;3663;b4ec4a41c24105efbb43f9b70ca7f36d22f98294;18;eregontp@gmail.com;eregontp@gmail.com
 test_optimization.rb;MODIFY;737;0.0;Equal;True;2021-01-14 06:46:51+00:00;False;155;110;3663;e1fee7f949cb6719122672fa1081c60984a5339f;34;takashikkbn@gmail.com;takashikkbn@gmail.com
 test_optimization.rb;MODIFY;780;43.0;Grew;True;2021-08-21 17:15:01+00:00;False;156;111;3960;48c8df9e0eb295af06d593ce37ce1933c0ee1d90;5;noreply@github.com;code@jeremyevans.net

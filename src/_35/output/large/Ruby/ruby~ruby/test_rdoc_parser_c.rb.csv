@@ -1,5 +1,5 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
-test_rdoc_parser_c.rb;RENAME;201;0.0;Grew;False;2008-07-18 00:46:16+00:00;False;13;13;838;fd25f74d64c69d636764ea11aa5a809b85e58f69;45;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+test_rdoc_parser_c.rb;RENAME;201;0.0;Equal;False;2008-07-18 00:46:16+00:00;False;13;13;838;fd25f74d64c69d636764ea11aa5a809b85e58f69;45;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_rdoc_parser_c.rb;MODIFY;198;-3.0;Decreased;False;2008-07-21 18:35:14+00:00;False;13;13;823;cd9e9c6debcf893ea5fa70e42dc1875afaf0066f;19;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_rdoc_parser_c.rb;MODIFY;222;24.0;Grew;False;2008-09-25 02:43:03+00:00;False;14;14;911;858362e761a41e7d96efbcb9b38ae815b1e388d7;54;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_rdoc_parser_c.rb;MODIFY;224;2.0;Grew;False;2008-10-24 23:05:28+00:00;False;14;14;917;7222e82a8b98afdc61b9cf6ad7419068429a42e9;22;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
@@ -23,7 +23,7 @@ test_rdoc_parser_c.rb;MODIFY;1388;93.0;Grew;True;2013-09-18 23:33:36+00:00;False
 test_rdoc_parser_c.rb;MODIFY;1388;0.0;Equal;True;2013-09-19 07:22:13+00:00;False;81;75;6138;3145683203c5673da67676fecb4b7efdfec72653;12;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_rdoc_parser_c.rb;MODIFY;1388;0.0;Equal;True;2014-05-26 13:33:01+00:00;False;81;75;6138;164fb03302fb7b794dfcfe0efd8706230f034398;8;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_rdoc_parser_c.rb;MODIFY;1442;54.0;Grew;True;2014-09-05 01:41:25+00:00;False;85;79;6309;d42d6e690e3f553b971322eae783ac6b0d4d9692;56;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
-test_rdoc_parser_c.rb;MODIFY;1442;0.0;Grew;True;2015-12-16 05:07:31+00:00;False;85;79;6309;3e92b635fb5422207b7bbdc924e292e51e21f040;1432;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+test_rdoc_parser_c.rb;MODIFY;1442;0.0;Equal;True;2015-12-16 05:07:31+00:00;False;85;79;6309;3e92b635fb5422207b7bbdc924e292e51e21f040;1432;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_rdoc_parser_c.rb;MODIFY;1477;35.0;Grew;True;2016-09-05 10:35:30+00:00;False;86;80;6488;23863ff75d3ec9205d5f365b98b6608e38a93749;27;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_rdoc_parser_c.rb;MODIFY;1474;-3.0;Decreased;True;2017-08-29 11:52:50+00:00;False;86;80;6470;4790c08906f296eea070c06933a5c2484b30584e;27;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_rdoc_parser_c.rb;MODIFY;1474;0.0;Equal;True;2017-09-12 03:42:54+00:00;False;86;80;6475;214a7f8d49c7b59d06f5e2e3e1a8a3567ab7c570;23;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
@@ -45,7 +45,7 @@ test_rdoc_parser_c.rb;MODIFY;1569;12.0;Grew;True;2022-06-28 11:17:30+00:00;False
 test_rdoc_parser_c.rb;MODIFY;1570;1.0;Grew;True;2022-07-11 04:14:06+00:00;False;91;85;6912;86df6f4bb3b380ad536b102675d7fa452b01549f;2;svn-admin@ruby-lang.org;nobu@ruby-lang.org
 test_rdoc_parser_c.rb;MODIFY;1591;21.0;Grew;True;2022-07-11 04:43:14+00:00;False;97;86;6997;b564ef3698a76cabeb41b3085fab1258ac07c8cb;2;svn-admin@ruby-lang.org;nobu@ruby-lang.org
 test_rdoc_parser_c.rb;MODIFY;1593;2.0;Grew;True;2022-07-11 04:43:15+00:00;False;98;86;7005;da21a2c388852205e325b71b6400b7dd351146bb;1;svn-admin@ruby-lang.org;nobu@ruby-lang.org
-test_rdoc_parser_c.rb;MODIFY;1593;0.0;Decreased;True;2023-06-03 01:42:29+00:00;False;98;86;7005;a4d92475f69f0ca3dba0f497253e600c7f90a0ad;98;svn-admin@ruby-lang.org;stock@hey.com
+test_rdoc_parser_c.rb;MODIFY;1593;0.0;Equal;True;2023-06-03 01:42:29+00:00;False;98;86;7005;a4d92475f69f0ca3dba0f497253e600c7f90a0ad;98;svn-admin@ruby-lang.org;stock@hey.com
 test_rdoc_parser_c.rb;MODIFY;1616;23.0;Grew;True;2023-12-05 08:48:19+00:00;False;99;87;7099;113f5d7fd79f2b7dd72a2f748dee475ad793a743;2;svn-admin@ruby-lang.org;nobu@ruby-lang.org
 test_rdoc_parser_c.rb;MODIFY;1616;0.0;Equal;True;2023-12-06 09:35:43+00:00;False;99;87;7099;8105ff9ac4b63b7ceae5bb9bafc5c935b24a3f57;1;svn-admin@ruby-lang.org;nobu@ruby-lang.org
 test_rdoc_parser_c.rb;MODIFY;1621;5.0;Grew;True;2023-12-06 09:35:44+00:00;False;99;87;7124;e03e872eea75ee63672c755dccc340a1f6042fce;2;svn-admin@ruby-lang.org;nobu@ruby-lang.org

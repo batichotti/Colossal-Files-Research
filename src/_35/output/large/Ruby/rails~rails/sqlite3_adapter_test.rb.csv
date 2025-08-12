@@ -1,7 +1,7 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
 sqlite3_adapter_test.rb;RENAME;not calculated;0.0;Equal;False;2010-06-27 23:26:25+00:00;False;not calculated;0;not calculated;6c28959e86222a6932f9cc62bf21aad7a2f9c067;2;jose.valim@gmail.com;santiago@wyeworks.com
-sqlite3_adapter_test.rb;MODIFY;81.0;0.0;Grew;False;2010-10-26 20:44:07+00:00;False;10;10;369;cc468d3ec81d6f1298fca91c0549584b36dafcc6;8;aaron.patterson@gmail.com;aaron.patterson@gmail.com
-sqlite3_adapter_test.rb;MODIFY;54.0;-27.0;Grew;False;2010-10-26 20:44:07+00:00;False;8;8;195;497218d5db8f7c3887c3861bdbe318331b77fed7;2;aaron.patterson@gmail.com;aaron.patterson@gmail.com
+sqlite3_adapter_test.rb;MODIFY;81.0;0.0;Equal;False;2010-10-26 20:44:07+00:00;False;10;10;369;cc468d3ec81d6f1298fca91c0549584b36dafcc6;8;aaron.patterson@gmail.com;aaron.patterson@gmail.com
+sqlite3_adapter_test.rb;MODIFY;54.0;-27.0;Decreased;False;2010-10-26 20:44:07+00:00;False;8;8;195;497218d5db8f7c3887c3861bdbe318331b77fed7;2;aaron.patterson@gmail.com;aaron.patterson@gmail.com
 sqlite3_adapter_test.rb;MODIFY;94.0;40.0;Grew;False;2010-10-26 20:44:08+00:00;False;11;11;466;d7207cf504b67243c0b7debaff70d948bb8be7a8;2;aaron.patterson@gmail.com;aaron.patterson@gmail.com
 sqlite3_adapter_test.rb;MODIFY;81.0;-13.0;Decreased;False;2010-10-26 20:44:08+00:00;False;12;12;389;54ff59f3ba4c299ebb0b517ae1a3efb5859ab1c7;1;aaron.patterson@gmail.com;aaron.patterson@gmail.com
 sqlite3_adapter_test.rb;MODIFY;81.0;0.0;Equal;False;2010-11-05 17:08:38+00:00;False;12;12;389;9a08517c8dad9824bc24c1c9874343d3d70b5360;4;aaron.patterson@gmail.com;aaron.patterson@gmail.com
@@ -28,9 +28,9 @@ sqlite3_adapter_test.rb;MODIFY;286.0;0.0;Equal;False;2012-10-30 01:51:25+00:00;F
 sqlite3_adapter_test.rb;MODIFY;293.0;7.0;Grew;False;2013-02-12 07:10:48+00:00;False;42;41;1519;c321b309a9a90bbfa0912832c11b3fef52e71840;8;rak248@cornell.edu;rak248@cornell.edu
 sqlite3_adapter_test.rb;MODIFY;286.0;-7.0;Decreased;False;2013-02-15 16:23:25+00:00;False;40;39;1477;c65b076328b292f1b727bb6a7dc144c05458163f;4;j@jonathanleighton.com;j@jonathanleighton.com
 sqlite3_adapter_test.rb;MODIFY;293.0;7.0;Grew;False;2013-03-25 16:35:22+00:00;False;42;41;1519;c2e203173221991e104a9eb872025788b9fc4763;7;aaron.patterson@gmail.com;rak248@cornell.edu
-sqlite3_adapter_test.rb;MODIFY;293.0;0.0;Grew;False;2013-03-28 18:51:57+00:00;False;42;41;1519;7c5e0035fa0b25ee5481ea81bc353ff18dd2d109;3;rak248@cornell.edu;rak248@cornell.edu
+sqlite3_adapter_test.rb;MODIFY;293.0;0.0;Equal;False;2013-03-28 18:51:57+00:00;False;42;41;1519;7c5e0035fa0b25ee5481ea81bc353ff18dd2d109;3;rak248@cornell.edu;rak248@cornell.edu
 sqlite3_adapter_test.rb;MODIFY;292.0;-1.0;Decreased;False;2013-05-17 22:14:22+00:00;False;42;41;1514;9933ab1b28b1c001348e8cb8045084ede72fcf89;2;aaron.patterson@gmail.com;aaron.patterson@gmail.com
-sqlite3_adapter_test.rb;MODIFY;293.0;1.0;Equal;False;2013-05-20 05:05:43+00:00;False;42;41;1519;4237d74213f01a882a1122dd0d3f53d80561ca5f;2;vipulnsward@gmail.com;vipulnsward@gmail.com
+sqlite3_adapter_test.rb;MODIFY;293.0;1.0;Grew;False;2013-05-20 05:05:43+00:00;False;42;41;1519;4237d74213f01a882a1122dd0d3f53d80561ca5f;2;vipulnsward@gmail.com;vipulnsward@gmail.com
 sqlite3_adapter_test.rb;MODIFY;302.0;9.0;Grew;False;2013-08-02 13:43:54+00:00;False;45;44;1548;fb9806e5d251efa48245a6e553004904d27f99b3;3;antonio@santosvelasco.com;antonio@santosvelasco.com
 sqlite3_adapter_test.rb;MODIFY;302.0;0.0;Equal;False;2013-10-04 22:18:53+00:00;False;45;44;1548;46c57ec4d90cc0d65d8756f8e5c2ba310cc26890;1;aaron.patterson@gmail.com;aaron.patterson@gmail.com
 sqlite3_adapter_test.rb;MODIFY;322.0;20.0;Grew;False;2013-12-21 00:13:34+00:00;False;49;46;1632;fbb79b517f3127ba620fedd01849f9628b78d6ce;2;aaron.patterson@gmail.com;aaron.patterson@gmail.com
@@ -39,20 +39,20 @@ sqlite3_adapter_test.rb;MODIFY;334.0;6.0;Grew;False;2014-01-14 17:03:31+00:00;Fa
 sqlite3_adapter_test.rb;MODIFY;334.0;0.0;Equal;False;2014-01-14 21:59:07+00:00;False;52;47;1677;40be2eaca92056eba5ff2931278e0e74b1ef5dea;1;aaron.patterson@gmail.com;aaron.patterson@gmail.com
 sqlite3_adapter_test.rb;MODIFY;334.0;0.0;Equal;False;2014-01-14 22:01:10+00:00;False;52;47;1674;ce95fb29919683bac9de4eb87dabeba1221262aa;1;aaron.patterson@gmail.com;aaron.patterson@gmail.com
 sqlite3_adapter_test.rb;MODIFY;347.0;13.0;Grew;False;2014-01-15 18:35:21+00:00;False;53;48;1763;6f16513b587a0805a23eab99d5f283476b1d6687;3;timur@maginatics.com;timur@maginatics.com
-sqlite3_adapter_test.rb;MODIFY;342.0;-5.0;Grew;False;2014-02-14 10:02:10+00:00;False;53;48;1707;bbf6df78a42345eb5343337372fb8602b736222e;3;girish.sonawane@gmail.com;girish.sonawane@gmail.com
+sqlite3_adapter_test.rb;MODIFY;342.0;-5.0;Decreased;False;2014-02-14 10:02:10+00:00;False;53;48;1707;bbf6df78a42345eb5343337372fb8602b736222e;3;girish.sonawane@gmail.com;girish.sonawane@gmail.com
 sqlite3_adapter_test.rb;MODIFY;330.0;-12.0;Decreased;False;2014-02-17 00:49:50+00:00;False;50;47;1665;141313c6510bb87985969f4dc31dedc46b7e4c76;2;rafaelmfranca@gmail.com;rafaelmfranca@gmail.com
 sqlite3_adapter_test.rb;MODIFY;330.0;0.0;Equal;False;2014-03-29 01:56:40+00:00;False;50;47;1667;0212a41700a4e9cd0a6eb2a0811608ea13f8c5b3;4;tgx_world@hotmail.com;tgx_world@hotmail.com
 sqlite3_adapter_test.rb;MODIFY;370.0;40.0;Grew;False;2014-03-29 16:43:19+00:00;False;50;43;1520;0264762fea55f51c92b477ae7d65fa87179f095d;2;tgx_world@hotmail.com;tgx_world@hotmail.com
 sqlite3_adapter_test.rb;MODIFY;370.0;0.0;Equal;False;2014-04-02 15:00:27+00:00;False;50;43;1520;f846828dae77696daea3bafd91a25a62977be481;9;matthew@trebex.net;matthew@trebex.net
-sqlite3_adapter_test.rb;MODIFY;383.0;13.0;Equal;False;2014-06-17 22:02:53+00:00;False;51;44;1612;4d3e88fc757a1b6f6c468418af01dca677e41edf;17;sean@thoughtbot.com;sean@thoughtbot.com
+sqlite3_adapter_test.rb;MODIFY;383.0;13.0;Grew;False;2014-06-17 22:02:53+00:00;False;51;44;1612;4d3e88fc757a1b6f6c468418af01dca677e41edf;17;sean@thoughtbot.com;sean@thoughtbot.com
 sqlite3_adapter_test.rb;MODIFY;383.0;0.0;Equal;False;2014-07-06 09:53:12+00:00;False;51;44;1612;ddad32978d480235c7b01ae42edc667b45a396cb;6;akshay.vishnoi@vinsol.com;akshay.vishnoi@vinsol.com
-sqlite3_adapter_test.rb;MODIFY;383.0;0.0;Grew;False;2014-07-06 18:47:16+00:00;False;51;44;1612;2f716694f20cd19464029513fb59440fd9000840;5;e@zzak.io;e@zzak.io
+sqlite3_adapter_test.rb;MODIFY;383.0;0.0;Equal;False;2014-07-06 18:47:16+00:00;False;51;44;1612;2f716694f20cd19464029513fb59440fd9000840;5;e@zzak.io;e@zzak.io
 sqlite3_adapter_test.rb;MODIFY;383.0;0.0;Equal;False;2014-11-17 22:57:01+00:00;False;51;44;1626;c01b20b658c9fe4b7d54f4a227a09cb090b5763d;9;sean@thoughtbot.com;sean@thoughtbot.com
 sqlite3_adapter_test.rb;MODIFY;383.0;0.0;Equal;False;2014-11-17 23:04:40+00:00;False;51;44;1624;eb26f24bde62cbbcd8ef0e7ee9c64060b098baff;11;sean@thoughtbot.com;sean@thoughtbot.com
 sqlite3_adapter_test.rb;MODIFY;383.0;0.0;Equal;False;2014-11-29 10:53:24+00:00;False;51;44;1624;d1374f99bf3090f3e659687c112ed0c5c0865cfb;120;sferik@gmail.com;sferik@gmail.com
 sqlite3_adapter_test.rb;MODIFY;388.0;5.0;Grew;False;2014-12-30 17:36:37+00:00;False;52;45;1638;5acd24bbeae0e9e5e81e87b5929e17f35527b2ea;6;arthurnn@gmail.com;arthurnn@gmail.com
 sqlite3_adapter_test.rb;MODIFY;386.0;-2.0;Decreased;False;2015-01-27 23:10:03+00:00;False;52;45;1625;b06f64c3480cd389d14618540d62da4978918af0;30;sean@thoughtbot.com;sean@thoughtbot.com
-sqlite3_adapter_test.rb;MODIFY;386.0;0.0;Decreased;False;2015-02-03 15:21:40+00:00;False;52;45;1625;6eced6a1fe041db64a06298fb8203fbb5287a8db;77;vipulnsward@gmail.com;vipulnsward@gmail.com
+sqlite3_adapter_test.rb;MODIFY;386.0;0.0;Equal;False;2015-02-03 15:21:40+00:00;False;52;45;1625;6eced6a1fe041db64a06298fb8203fbb5287a8db;77;vipulnsward@gmail.com;vipulnsward@gmail.com
 sqlite3_adapter_test.rb;MODIFY;386.0;0.0;Equal;False;2015-02-18 07:54:40+00:00;False;52;45;1626;07b659ca3f6945b5032690f38fdd0e080b842d37;12;yves.senn@gmail.com;yves.senn@gmail.com
 sqlite3_adapter_test.rb;MODIFY;386.0;0.0;Equal;False;2015-02-18 11:58:45+00:00;False;52;45;1627;af64c82411067776d6e649462d9b74b14f1083f3;21;kamipo@gmail.com;kamipo@gmail.com
 sqlite3_adapter_test.rb;MODIFY;386.0;0.0;Equal;False;2015-03-16 18:35:44+00:00;False;52;45;1627;096586356426d72c300c8fa854d66703d5481378;53;brandon@anti-pattern.com;brandon@anti-pattern.com
@@ -76,11 +76,11 @@ sqlite3_adapter_test.rb;MODIFY;366.0;-2.0;Decreased;False;2016-12-29 22:53:04+00
 sqlite3_adapter_test.rb;MODIFY;366.0;0.0;Equal;False;2017-01-03 23:48:59+00:00;False;53;46;1701;457e6c77d421a36b763441a2c262f580114a20d5;7;kamipo@gmail.com;kamipo@gmail.com
 sqlite3_adapter_test.rb;MODIFY;364.0;-2.0;Decreased;False;2017-02-19 22:17:43+00:00;False;53;46;1705;2f8d22f292a322a54812c5be5bd2fa5ee119d411;8;kamipo@gmail.com;kamipo@gmail.com
 sqlite3_adapter_test.rb;MODIFY;357.0;-7.0;Decreased;False;2017-02-28 10:42:02+00:00;False;51;44;1656;a3b16b955f053663feed41d938ba0d42363b2097;5;kamipo@gmail.com;kamipo@gmail.com
-sqlite3_adapter_test.rb;MODIFY;355.0;-2.0;Equal;False;2017-05-03 18:25:10+00:00;False;51;44;1641;b6ad4052d18e4b29b8a092526c2beef013e2bf4f;11;kamipo@gmail.com;kamipo@gmail.com
+sqlite3_adapter_test.rb;MODIFY;355.0;-2.0;Decreased;False;2017-05-03 18:25:10+00:00;False;51;44;1641;b6ad4052d18e4b29b8a092526c2beef013e2bf4f;11;kamipo@gmail.com;kamipo@gmail.com
 sqlite3_adapter_test.rb;MODIFY;355.0;0.0;Equal;False;2017-06-20 09:43:21+00:00;False;51;44;1645;b86e313df53ada181850a057e254052f38014738;21;pat@freelancing-gods.com;pat@freelancing-gods.com
-sqlite3_adapter_test.rb;MODIFY;355.0;0.0;Grew;False;2017-06-30 23:11:03+00:00;False;51;44;1641;cfade1ec7ee7b5b51f3c1578e3474f9c156f2971;2230;shatrov@me.com;shatrov@me.com
-sqlite3_adapter_test.rb;MODIFY;355.0;0.0;Decreased;False;2017-07-01 16:45:17+00:00;False;51;44;1645;87b3e226d65ac1ed371620bfdcd2f950c87cfece;2231;matthew@trebex.net;matthew@trebex.net
-sqlite3_adapter_test.rb;MODIFY;355.0;0.0;Grew;False;2017-07-19 19:27:07+00:00;False;51;44;1645;831be98f9a6685da3410b0c9bf4143bd8dd647af;677;shatrov@me.com;shatrov@me.com
+sqlite3_adapter_test.rb;MODIFY;355.0;0.0;Equal;False;2017-06-30 23:11:03+00:00;False;51;44;1641;cfade1ec7ee7b5b51f3c1578e3474f9c156f2971;2230;shatrov@me.com;shatrov@me.com
+sqlite3_adapter_test.rb;MODIFY;355.0;0.0;Equal;False;2017-07-01 16:45:17+00:00;False;51;44;1645;87b3e226d65ac1ed371620bfdcd2f950c87cfece;2231;matthew@trebex.net;matthew@trebex.net
+sqlite3_adapter_test.rb;MODIFY;355.0;0.0;Equal;False;2017-07-19 19:27:07+00:00;False;51;44;1645;831be98f9a6685da3410b0c9bf4143bd8dd647af;677;shatrov@me.com;shatrov@me.com
 sqlite3_adapter_test.rb;MODIFY;355.0;0.0;Equal;False;2017-07-21 18:01:08+00:00;False;51;44;1664;93c9a95e013ba7c77cf381bab9ead4a0de37e128;13;sean@seantheprogrammer.com;sean@seantheprogrammer.com
 sqlite3_adapter_test.rb;MODIFY;348.0;-7.0;Decreased;False;2017-10-23 16:50:47+00:00;False;50;43;1634;d6b779ecebe57f6629352c34bfd6c442ac8fba0e;7;rafaelmfranca@gmail.com;rafaelmfranca@gmail.com
 sqlite3_adapter_test.rb;MODIFY;362.0;14.0;Grew;False;2017-12-06 20:16:12+00:00;False;51;44;1711;5ac4f4d2563e7f9c5ffaecce4be4b9e2c5b0c081;2;anellis12@gmail.com;anellis12@gmail.com
@@ -101,7 +101,7 @@ sqlite3_adapter_test.rb;MODIFY;542.0;47.0;Grew;False;2018-11-30 14:28:04+00:00;F
 sqlite3_adapter_test.rb;MODIFY;542.0;0.0;Equal;False;2018-12-07 13:53:47+00:00;False;76;63;2528;db54afba2e86ec9e45a8feb6e3ed325c99e7c5ed;8;eileencodes@gmail.com;eileencodes@gmail.com
 sqlite3_adapter_test.rb;MODIFY;539.0;-3.0;Decreased;False;2019-01-17 21:08:33+00:00;False;75;62;2516;45b4d5f81f0c0ca72c18d0dea4a3a7b2ecc589bf;3;rafaelmfranca@gmail.com;rafaelmfranca@gmail.com
 sqlite3_adapter_test.rb;MODIFY;547.0;8.0;Grew;False;2019-02-25 15:19:43+00:00;False;76;63;2545;b7eeb142afc332e04f902e9b630d9e44dbe4c55b;4;aibrahim2k2@gmail.com;aibrahim2k2@gmail.com
-sqlite3_adapter_test.rb;MODIFY;547.0;0.0;Decreased;False;2019-06-13 03:00:45+00:00;False;76;63;2545;c81af6ae723ccfcd601032167d7b7f57c5449c33;434;kamipo@gmail.com;kamipo@gmail.com
+sqlite3_adapter_test.rb;MODIFY;547.0;0.0;Equal;False;2019-06-13 03:00:45+00:00;False;76;63;2545;c81af6ae723ccfcd601032167d7b7f57c5449c33;434;kamipo@gmail.com;kamipo@gmail.com
 sqlite3_adapter_test.rb;MODIFY;548.0;1.0;Grew;False;2019-06-14 20:11:36+00:00;False;76;63;2551;cd881ab169b60b125e274548778c86252094ac7a;8;eileencodes@gmail.com;eileencodes@gmail.com
 sqlite3_adapter_test.rb;MODIFY;561.0;13.0;Grew;False;2019-06-17 18:00:53+00:00;False;79;66;2608;fe30211574648fa21bff958a3cf952fd0c20c3b1;8;guilherme.mansur@shopify.com;guilherme.mansur@shopify.com
 sqlite3_adapter_test.rb;MODIFY;560.0;-1.0;Decreased;False;2019-09-13 12:53:22+00:00;False;79;66;2608;ce9b197cc902ce8b72b7b3b5a3ec7e507fdba858;36;seejohnrun@github.com;eileencodes@gmail.com
@@ -128,13 +128,13 @@ sqlite3_adapter_test.rb;MODIFY;679.0;28.0;Grew;True;2023-09-20 17:28:17+00:00;Tr
 sqlite3_adapter_test.rb;MODIFY;707.0;28.0;Grew;True;2023-09-24 19:34:00+00:00;False;96;78;3695;c6d7ffc7b870f8c17b9f055f5a239253789a2b5b;3;stephen.margheim@gmail.com;stephen.margheim@gmail.com
 sqlite3_adapter_test.rb;MODIFY;706.0;-1.0;Decreased;True;2023-09-29 06:53:16+00:00;False;96;78;3683;2da1852ac9b1886407464b246da3b99cfa186cfc;17;jean.boussier@gmail.com;jean.boussier@gmail.com
 sqlite3_adapter_test.rb;MODIFY;716.0;10.0;Grew;True;2023-10-10 00:27:40+00:00;False;97;79;3747;6da327c591bb269feb0eaeabdabec2b8435753e1;2;hieuk09@gmail.com;hieuk09@gmail.com
-sqlite3_adapter_test.rb;MODIFY;716.0;0.0;Grew;True;2023-10-11 03:48:36+00:00;False;97;79;3747;ab06e13db47ef93b4935e64a0cdc39602a1fdb52;2;akhilgkrishnan4u@gmail.com;hieuk09@gmail.com
+sqlite3_adapter_test.rb;MODIFY;716.0;0.0;Equal;True;2023-10-11 03:48:36+00:00;False;97;79;3747;ab06e13db47ef93b4935e64a0cdc39602a1fdb52;2;akhilgkrishnan4u@gmail.com;hieuk09@gmail.com
 sqlite3_adapter_test.rb;MODIFY;716.0;0.0;Equal;True;2023-10-13 19:26:47+00:00;False;97;79;3747;19f8ab2e7d60dcdfd7664d6bea3a9fae55a3618c;115;nikita.vasilevsky@shopify.com;nikita.vasilevsky@shopify.com
 sqlite3_adapter_test.rb;MODIFY;734.0;18.0;Grew;True;2023-11-16 08:07:44+00:00;False;97;79;3770;009c7e74117690f0dbe200188a929b345c9306c1;31;jean.boussier@gmail.com;jean.boussier@gmail.com
 sqlite3_adapter_test.rb;MODIFY;734.0;0.0;Equal;True;2023-12-14 17:19:02+00:00;False;97;79;3770;4e7bdcf93a43cfc380439e56251b48ddb152c93b;10;jean.boussier@gmail.com;stephen.margheim@gmail.com
 sqlite3_adapter_test.rb;MODIFY;946.0;212.0;Grew;True;2024-01-02 11:52:54+00:00;False;116;88;5125;8ac2af29ad7dc8c86bfb569e3375d8c1cd58a323;3;noreply@github.com;stephen.margheim@gmail.com
 sqlite3_adapter_test.rb;MODIFY;949.0;3.0;Grew;True;2024-02-06 15:59:04+00:00;False;116;88;5143;b324c221e2fd715f8abd563c1c8c7f9ae8a19451;1;jean.boussier@gmail.com;jean.boussier@gmail.com
-sqlite3_adapter_test.rb;MODIFY;945.0;-4.0;Equal;True;2024-02-16 10:55:44+00:00;False;116;88;5315;50daadaa71f4db88cef3080afde51e203c700e67;15;jean.boussier@gmail.com;jean.boussier@gmail.com
+sqlite3_adapter_test.rb;MODIFY;945.0;-4.0;Decreased;True;2024-02-16 10:55:44+00:00;False;116;88;5315;50daadaa71f4db88cef3080afde51e203c700e67;15;jean.boussier@gmail.com;jean.boussier@gmail.com
 sqlite3_adapter_test.rb;MODIFY;942.0;-3.0;Decreased;True;2024-02-27 10:19:00+00:00;False;115;87;5303;0016280f4fde55d96738887093dc333aae0d107b;18;jean.boussier@gmail.com;jean.boussier@gmail.com
 sqlite3_adapter_test.rb;MODIFY;942.0;0.0;Equal;True;2024-03-01 13:32:55+00:00;False;115;87;5303;7263da542b66084dae93af8bc3bd502c8710154b;277;jean.boussier@gmail.com;jean.boussier@gmail.com
 sqlite3_adapter_test.rb;MODIFY;944.0;2.0;Grew;True;2024-05-06 14:04:20+00:00;False;115;87;5316;fd94a129d1c3ffdee244e989ab60123a02f4652c;2;jean.boussier@gmail.com;hacker.sharma7575@gmail.com

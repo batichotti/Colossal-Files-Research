@@ -1,6 +1,6 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
-CodeGenFunctionPointersTests.cs;ADD;397;0.0;Grew;False;2020-02-06 00:32:46+00:00;False;14;12;2114;152ec2d7a321f5b3721d1c757e1bfdd2895befd4;28;frsilb@microsoft.com;frsilb@microsoft.com
-CodeGenFunctionPointersTests.cs;MODIFY;397;0.0;Grew;False;2020-02-06 05:34:16+00:00;False;14;12;2114;b080d85c41b2c8c7731ed4ab69fb303f692e97ec;10;frsilb@microsoft.com;frsilb@microsoft.com
+CodeGenFunctionPointersTests.cs;ADD;397;0.0;Equal;False;2020-02-06 00:32:46+00:00;False;14;12;2114;152ec2d7a321f5b3721d1c757e1bfdd2895befd4;28;frsilb@microsoft.com;frsilb@microsoft.com
+CodeGenFunctionPointersTests.cs;MODIFY;397;0.0;Equal;False;2020-02-06 05:34:16+00:00;False;14;12;2114;b080d85c41b2c8c7731ed4ab69fb303f692e97ec;10;frsilb@microsoft.com;frsilb@microsoft.com
 CodeGenFunctionPointersTests.cs;MODIFY;401;4.0;Grew;False;2020-02-11 20:32:56+00:00;False;15;13;2100;c045d792ced1913260963fa2e3e36f00bbcdebbc;4;frsilb@microsoft.com;frsilb@microsoft.com
 CodeGenFunctionPointersTests.cs;MODIFY;401;0.0;Equal;False;2020-02-11 20:33:02+00:00;False;15;13;2117;570da95a365946d8f34abb97f4a95f6dcb313641;9;frsilb@microsoft.com;frsilb@microsoft.com
 CodeGenFunctionPointersTests.cs;MODIFY;411;10.0;Grew;False;2020-02-11 20:33:03+00:00;False;16;14;2133;d251938014d6c4c5591c29a006c8b697908359fc;8;frsilb@microsoft.com;frsilb@microsoft.com
@@ -71,9 +71,9 @@ CodeGenFunctionPointersTests.cs;MODIFY;6570;0.0;Equal;True;2020-06-26 03:50:58+0
 CodeGenFunctionPointersTests.cs;MODIFY;6649;79.0;Grew;True;2020-06-26 21:30:49+00:00;False;155;143;17475;e1133adaad9e44d90ae5a5d81729fbf969c0bbd8;3;frsilb@microsoft.com;frsilb@microsoft.com
 CodeGenFunctionPointersTests.cs;MODIFY;6691;42.0;Grew;True;2020-06-26 21:30:50+00:00;False;157;144;17561;a670e7afd3749539e147b57f8a88284471852950;2;frsilb@microsoft.com;frsilb@microsoft.com
 CodeGenFunctionPointersTests.cs;MODIFY;6695;4.0;Grew;True;2020-07-04 22:15:43+00:00;False;157;144;17645;bc8067875481edf745aaa77edc545ac2475f85da;45;alekseyt@microsoft.com;alekseyt@microsoft.com
-CodeGenFunctionPointersTests.cs;MODIFY;6692;-3.0;Grew;True;2020-07-06 16:58:51+00:00;False;157;144;17571;739e2e82032977e47845f52587ef6dbb1a439abe;37;frsilb@microsoft.com;frsilb@microsoft.com
+CodeGenFunctionPointersTests.cs;MODIFY;6692;-3.0;Decreased;True;2020-07-06 16:58:51+00:00;False;157;144;17571;739e2e82032977e47845f52587ef6dbb1a439abe;37;frsilb@microsoft.com;frsilb@microsoft.com
 CodeGenFunctionPointersTests.cs;MODIFY;6713;21.0;Grew;True;2020-07-08 23:23:36+00:00;False;159;146;17647;cdb5087dfc06d5c7b76185a16b2557901c81f39a;26;frsilb@microsoft.com;frsilb@microsoft.com
-CodeGenFunctionPointersTests.cs;MODIFY;6713;0.0;Decreased;True;2020-07-09 19:02:50+00:00;False;158;145;17677;35e1f77314639bd62998e378d5b59f1923d49ca4;2;frsilb@microsoft.com;frsilb@microsoft.com
+CodeGenFunctionPointersTests.cs;MODIFY;6713;0.0;Equal;True;2020-07-09 19:02:50+00:00;False;158;145;17677;35e1f77314639bd62998e378d5b59f1923d49ca4;2;frsilb@microsoft.com;frsilb@microsoft.com
 CodeGenFunctionPointersTests.cs;MODIFY;6811;98.0;Grew;True;2020-07-17 22:27:30+00:00;False;163;147;18285;9b7098334f18f5a42d73e25f00025cb18d4180ce;30;frsilb@microsoft.com;frsilb@microsoft.com
 CodeGenFunctionPointersTests.cs;MODIFY;7000;189.0;Grew;True;2020-07-22 19:03:36+00:00;False;166;150;19488;845850dfc3a73cd9350ec1e49b9f385c69386904;20;frsilb@microsoft.com;frsilb@microsoft.com
 CodeGenFunctionPointersTests.cs;MODIFY;7022;22.0;Grew;True;2020-07-22 19:10:39+00:00;False;166;150;19810;e3a0df04c89b5ef0ccf1e5bb116df77d7195a98e;1;frsilb@microsoft.com;frsilb@microsoft.com
@@ -91,13 +91,13 @@ CodeGenFunctionPointersTests.cs;MODIFY;7525;89.0;Grew;True;2020-08-26 17:21:44+0
 CodeGenFunctionPointersTests.cs;MODIFY;7554;29.0;Grew;True;2020-08-26 21:27:21+00:00;False;188;172;21278;39ab15ecf30f75a723e2af1821ad4b4d4045dc3c;17;frsilb@microsoft.com;frsilb@microsoft.com
 CodeGenFunctionPointersTests.cs;MODIFY;7577;23.0;Grew;True;2020-08-27 17:39:44+00:00;False;188;172;21342;db2e18ef8854eb0ce7cfcdbdd34962ed1e18a4d8;2;frsilb@microsoft.com;frsilb@microsoft.com
 CodeGenFunctionPointersTests.cs;MODIFY;7577;0.0;Equal;True;2020-08-27 19:27:10+00:00;False;188;172;21342;4070dbb7ecefbc4a00e69a8be001af004fb394bb;1;frsilb@microsoft.com;frsilb@microsoft.com
-CodeGenFunctionPointersTests.cs;MODIFY;7577;0.0;Grew;True;2020-08-31 02:30:26+00:00;False;188;172;21342;b2b3dc2998adcbd8cecf9201eec4729ab46f4acd;455;noreply@github.com;dotnet-bot@microsoft.com
+CodeGenFunctionPointersTests.cs;MODIFY;7577;0.0;Equal;True;2020-08-31 02:30:26+00:00;False;188;172;21342;b2b3dc2998adcbd8cecf9201eec4729ab46f4acd;455;noreply@github.com;dotnet-bot@microsoft.com
 CodeGenFunctionPointersTests.cs;MODIFY;8261;684.0;Grew;True;2020-08-31 22:43:03+00:00;False;209;193;22697;80eeef73b9af72198d57526c3115b6d06c58f328;42;frsilb@microsoft.com;frsilb@microsoft.com
 CodeGenFunctionPointersTests.cs;MODIFY;8541;280.0;Grew;True;2020-09-02 19:12:43+00:00;False;221;205;23564;7ae0897142bd049a727066c7fcb53edf560fe1cb;28;frsilb@microsoft.com;frsilb@microsoft.com
 CodeGenFunctionPointersTests.cs;MODIFY;8582;41.0;Grew;True;2020-09-03 01:40:30+00:00;False;222;206;23616;9aac43e0cff80f9dd572537071e8146d0be0335c;11;frsilb@microsoft.com;frsilb@microsoft.com
 CodeGenFunctionPointersTests.cs;MODIFY;8648;66.0;Grew;True;2020-09-03 22:19:18+00:00;False;225;209;23814;1ee073e837e6a65a755c7597e11c6e18e7475933;4;frsilb@microsoft.com;frsilb@microsoft.com
 CodeGenFunctionPointersTests.cs;MODIFY;8648;0.0;Equal;True;2020-09-04 01:22:53+00:00;False;225;209;23814;4fb43f506cd28667f9e6fa320a419810156a2108;6;frsilb@microsoft.com;frsilb@microsoft.com
-CodeGenFunctionPointersTests.cs;MODIFY;8648;0.0;Decreased;True;2020-09-04 04:42:04+00:00;False;225;209;23804;0c2f60da5d3554653ce6d4b9e7e97cd9cb984034;10;frsilb@microsoft.com;frsilb@microsoft.com
+CodeGenFunctionPointersTests.cs;MODIFY;8648;0.0;Equal;True;2020-09-04 04:42:04+00:00;False;225;209;23804;0c2f60da5d3554653ce6d4b9e7e97cd9cb984034;10;frsilb@microsoft.com;frsilb@microsoft.com
 CodeGenFunctionPointersTests.cs;MODIFY;8653;5.0;Grew;True;2020-09-04 20:34:37+00:00;False;225;209;23804;d00485f836f205d1233d106621e51df07ddf32cc;1;frsilb@microsoft.com;frsilb@microsoft.com
 CodeGenFunctionPointersTests.cs;MODIFY;8654;1.0;Grew;True;2020-09-04 23:01:08+00:00;False;225;209;23825;c909ff70eaf189e3ebd1789266f73288380135dc;4;frsilb@microsoft.com;frsilb@microsoft.com
 CodeGenFunctionPointersTests.cs;MODIFY;8921;267.0;Grew;True;2020-09-11 20:42:42+00:00;False;239;216;25239;7f6f9d6c6a3f43ff978e3c27f76db1ff9efd1e7f;8;frsilb@microsoft.com;frsilb@microsoft.com
@@ -107,7 +107,7 @@ CodeGenFunctionPointersTests.cs;MODIFY;8949;40.0;Grew;True;2020-09-18 18:56:30+0
 CodeGenFunctionPointersTests.cs;MODIFY;8949;0.0;Equal;True;2020-09-18 20:26:17+00:00;False;238;216;25203;ed7b6873699bbe18f08481971d7ffe5570e476d9;2;frsilb@microsoft.com;frsilb@microsoft.com
 CodeGenFunctionPointersTests.cs;MODIFY;8968;19.0;Grew;True;2020-09-18 23:33:18+00:00;False;239;217;25296;07c5320667f22be5723e69257ba0e0187b0bc1e3;1;frsilb@microsoft.com;frsilb@microsoft.com
 CodeGenFunctionPointersTests.cs;MODIFY;9078;110.0;Grew;True;2020-09-21 17:41:31+00:00;False;244;222;25704;87c2c9c400e610aa82dca10772c441ebb424a5f6;2;frsilb@microsoft.com;frsilb@microsoft.com
-CodeGenFunctionPointersTests.cs;MODIFY;9078;0.0;Decreased;True;2020-09-21 18:21:19+00:00;False;244;222;25654;f34c86cdf0d3c64f5645ee3e1282203aec98c21d;1;frsilb@microsoft.com;frsilb@microsoft.com
+CodeGenFunctionPointersTests.cs;MODIFY;9078;0.0;Equal;True;2020-09-21 18:21:19+00:00;False;244;222;25654;f34c86cdf0d3c64f5645ee3e1282203aec98c21d;1;frsilb@microsoft.com;frsilb@microsoft.com
 CodeGenFunctionPointersTests.cs;MODIFY;8859;-219.0;Decreased;True;2020-09-21 23:12:09+00:00;False;246;224;25799;95155b26110d5d64ef602bd9ca39f9a9124702c9;1;frsilb@microsoft.com;frsilb@microsoft.com
 CodeGenFunctionPointersTests.cs;MODIFY;9160;301.0;Grew;True;2020-09-24 19:54:59+00:00;False;247;224;25842;ad46a43acde05568c6dcf0655225ef87a890e2f0;6;frsilb@microsoft.com;frsilb@microsoft.com
 CodeGenFunctionPointersTests.cs;MODIFY;9381;221.0;Grew;True;2020-09-24 19:55:01+00:00;False;250;227;26468;c95fcc6183d6e85b9a1007abe208fb4447a03fb3;7;frsilb@microsoft.com;frsilb@microsoft.com
@@ -127,7 +127,7 @@ CodeGenFunctionPointersTests.cs;MODIFY;9861;0.0;Equal;True;2021-01-14 21:16:35+0
 CodeGenFunctionPointersTests.cs;MODIFY;9886;25.0;Grew;True;2021-01-28 19:38:06+00:00;False;275;250;27905;259c6e1f0cc6a1885eb6ce44266364b3b9b30177;4;noreply@github.com;frsilb@microsoft.com
 CodeGenFunctionPointersTests.cs;MODIFY;9908;22.0;Grew;True;2021-02-01 18:02:35+00:00;False;276;251;27984;6c8cc9dc466fa3ad0ba45d1514cf3b66ec8c005b;18;noreply@github.com;frsilb@microsoft.com
 CodeGenFunctionPointersTests.cs;MODIFY;9908;0.0;Equal;True;2021-02-09 06:17:33+00:00;False;276;251;27984;51718d0c6a6c3adba33efebf815e68f194b82a39;20;noreply@github.com;jcouv@users.noreply.github.com
-CodeGenFunctionPointersTests.cs;MODIFY;9912;4.0;Equal;True;2021-03-17 17:06:29+00:00;False;276;251;28070;a6cfe5f1b6c58c07634ec6b7bd4ed5a2c4e30bb2;7;noreply@github.com;yairhalberstadt@gmail.com
+CodeGenFunctionPointersTests.cs;MODIFY;9912;4.0;Grew;True;2021-03-17 17:06:29+00:00;False;276;251;28070;a6cfe5f1b6c58c07634ec6b7bd4ed5a2c4e30bb2;7;noreply@github.com;yairhalberstadt@gmail.com
 CodeGenFunctionPointersTests.cs;MODIFY;9912;0.0;Equal;True;2021-06-09 01:38:40+00:00;False;276;251;28069;33b91b3c184e2fff1c47bbe741781e1871a38aea;44;cyrusn@microsoft.com;cyrusn@microsoft.com
 CodeGenFunctionPointersTests.cs;MODIFY;9912;0.0;Equal;True;2021-06-09 03:05:05+00:00;False;276;251;28070;765c81aa5537ae58030d915f81836a58de26b2ea;210;cyrusn@microsoft.com;cyrusn@microsoft.com
 CodeGenFunctionPointersTests.cs;MODIFY;9955;43.0;Grew;True;2021-06-15 19:54:41+00:00;False;277;252;28113;2f3253e215c7b7c761b0ecef06493a719b490c56;20;AlekseyTs@users.noreply.github.com;AlekseyTs@users.noreply.github.com
@@ -150,14 +150,14 @@ CodeGenFunctionPointersTests.cs;MODIFY;10203;-1.0;Decreased;True;2022-09-21 22:0
 CodeGenFunctionPointersTests.cs;MODIFY;10201;-2.0;Decreased;True;2022-09-26 15:44:07+00:00;False;282;257;28625;a92f9f728fe975d0a13c1450474e7175e5ab7e9e;26;noreply@github.com;jcouv@users.noreply.github.com
 CodeGenFunctionPointersTests.cs;MODIFY;10201;0.0;Equal;True;2022-10-18 21:41:59+00:00;False;282;257;28625;bceca35d43be84f120f67e0455f7a2552d894335;13;noreply@github.com;jcouv@users.noreply.github.com
 CodeGenFunctionPointersTests.cs;MODIFY;10211;10.0;Grew;True;2022-10-28 17:47:25+00:00;False;286;258;28656;fa34e104360f8f974d3a59f62ed748e55924cc42;15;noreply@github.com;jaredpparsons@gmail.com
-CodeGenFunctionPointersTests.cs;MODIFY;10211;0.0;Decreased;True;2022-11-17 19:55:57+00:00;False;286;258;28656;a8824e82d523f5a698dcab6e2754618d347f94b2;648;noreply@github.com;jcouv@users.noreply.github.com
+CodeGenFunctionPointersTests.cs;MODIFY;10211;0.0;Equal;True;2022-11-17 19:55:57+00:00;False;286;258;28656;a8824e82d523f5a698dcab6e2754618d347f94b2;648;noreply@github.com;jcouv@users.noreply.github.com
 CodeGenFunctionPointersTests.cs;MODIFY;10210;-1.0;Decreased;True;2022-12-21 02:32:33+00:00;False;286;258;28635;76cd2f1f0d55172a428e4fdae95fd7b0a2b2682f;4;noreply@github.com;rigibson@microsoft.com
 CodeGenFunctionPointersTests.cs;MODIFY;10816;606.0;Grew;True;2023-01-13 09:55:41+00:00;False;322;285;30764;3b3124564a963dae015846ecb481859da8416138;22;noreply@github.com;janjones@microsoft.com
 CodeGenFunctionPointersTests.cs;MODIFY;10816;0.0;Equal;True;2023-03-07 01:24:27+00:00;False;322;285;30636;8503a37d33cbed29571fdd94b29d205aec1b6780;97;cyrusn@microsoft.com;cyrusn@microsoft.com
 CodeGenFunctionPointersTests.cs;MODIFY;10816;0.0;Equal;True;2023-03-07 08:00:50+00:00;False;322;285;30764;b3771f7dfb3e14e3a7ba7ae929182f83a38348eb;738;cyrus.najmabadi@gmail.com;cyrus.najmabadi@gmail.com
 CodeGenFunctionPointersTests.cs;MODIFY;10878;62.0;Grew;True;2023-03-16 23:50:27+00:00;False;325;288;31100;1b882148b5042682559f829a6eb7a2dec72cb445;14;noreply@github.com;cyrus.najmabadi@gmail.com
 CodeGenFunctionPointersTests.cs;MODIFY;10903;25.0;Grew;True;2023-05-10 18:10:10+00:00;False;326;289;31232;e12374554f9407172d2d44695d95f91af25f57d9;40;noreply@github.com;jcouv@users.noreply.github.com
-CodeGenFunctionPointersTests.cs;MODIFY;10903;0.0;Grew;True;2023-05-10 22:52:24+00:00;False;326;289;31232;801368f0fe99fa34d44656eef864e1aaa9df9f03;218;arkalyan@microsoft.com;arkalyan@microsoft.com
+CodeGenFunctionPointersTests.cs;MODIFY;10903;0.0;Equal;True;2023-05-10 22:52:24+00:00;False;326;289;31232;801368f0fe99fa34d44656eef864e1aaa9df9f03;218;arkalyan@microsoft.com;arkalyan@microsoft.com
 CodeGenFunctionPointersTests.cs;MODIFY;10904;1.0;Grew;True;2023-05-16 18:21:21+00:00;False;326;289;31244;ecc33011552fb1fc508a04600b4fd3488b918d01;13;noreply@github.com;42748379+dotnet-maestro[bot]@users.noreply.github.com
 CodeGenFunctionPointersTests.cs;MODIFY;10904;0.0;Equal;True;2023-05-16 20:38:38+00:00;False;327;289;31244;57aebed688730a6ac2118dcb9323565c7dd86d5a;2;noreply@github.com;frsilb@microsoft.com
 CodeGenFunctionPointersTests.cs;MODIFY;10904;0.0;Equal;True;2023-07-07 20:27:11+00:00;False;327;289;31244;a8a9811c508fbcbaf50fbc40018712c428183b0c;2;noreply@github.com;frsilb@microsoft.com
@@ -170,6 +170,6 @@ CodeGenFunctionPointersTests.cs;MODIFY;10909;-1.0;Decreased;True;2023-08-05 03:4
 CodeGenFunctionPointersTests.cs;MODIFY;10947;38.0;Grew;True;2023-10-23 18:23:24+00:00;False;328;289;31606;fc6e0c25277ff440ca7ded842ac60278ee6c9695;35;noreply@github.com;janjones@microsoft.com
 CodeGenFunctionPointersTests.cs;MODIFY;10954;7.0;Grew;True;2024-01-04 19:25:59+00:00;False;328;289;31700;c5cfbec7a3235cd731effcb233e841f1f1c690dc;22;noreply@github.com;jared@paranoidcoding.org
 CodeGenFunctionPointersTests.cs;MODIFY;10954;0.0;Equal;True;2024-01-16 09:23:22+00:00;False;328;289;31702;c02fb4f32a4a2f75454f996b8fc8489712083030;5;noreply@github.com;janjones@microsoft.com
-CodeGenFunctionPointersTests.cs;MODIFY;10878;-76.0;Equal;True;2024-06-07 23:50:24+00:00;False;326;288;31106;1c9c74745e41b2849a50fe54b73058564beb7a27;2;noreply@github.com;joseph.robichaud@microsoft.com
+CodeGenFunctionPointersTests.cs;MODIFY;10878;-76.0;Decreased;True;2024-06-07 23:50:24+00:00;False;326;288;31106;1c9c74745e41b2849a50fe54b73058564beb7a27;2;noreply@github.com;joseph.robichaud@microsoft.com
 CodeGenFunctionPointersTests.cs;MODIFY;11007;129.0;Grew;True;2024-09-06 06:56:42+00:00;False;336;289;31787;1ce264cab372119376a734a247e9f60fe898877a;2;noreply@github.com;janjones@microsoft.com
 CodeGenFunctionPointersTests.cs;MODIFY;11033;26.0;Grew;True;2024-10-16 16:55:01+00:00;False;337;290;31886;f89ffba615524de5b8692056b45bbe2977b079f3;6;noreply@github.com;jcouv@users.noreply.github.com

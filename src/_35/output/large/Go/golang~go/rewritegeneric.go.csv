@@ -1,5 +1,5 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
-rewritegeneric.go;ADD;373;0.0;Grew;False;2015-06-08 21:02:03+00:00;False;40;2;1998;0dca7351e9d51bdaf980e1256ec41af8cb1b9747;23;khr@golang.org;khr@golang.org
+rewritegeneric.go;ADD;373;0.0;Equal;False;2015-06-08 21:02:03+00:00;False;40;2;1998;0dca7351e9d51bdaf980e1256ec41af8cb1b9747;23;khr@golang.org;khr@golang.org
 rewritegeneric.go;MODIFY;373;0.0;Equal;False;2015-06-10 15:01:13+00:00;False;40;2;2066;81ccf508aa4080d997bbb86a7cf3da710abbd969;11;khr@golang.org;matloob@google.com
 rewritegeneric.go;MODIFY;387;14.0;Grew;False;2015-06-14 06:00:30+00:00;False;40;2;2076;8f22b5292ffc01ea66bd92fa833d0ec25390173b;20;khr@golang.org;khr@golang.org
 rewritegeneric.go;MODIFY;387;0.0;Equal;False;2015-06-21 02:56:36+00:00;False;40;2;2068;8c6abfeacb27f1bcce8fb01f7da95950590943e3;26;josharian@gmail.com;josharian@gmail.com
@@ -64,7 +64,7 @@ rewritegeneric.go;MODIFY;6700;17.0;Grew;True;2016-02-23 01:18:31+00:00;False;141
 rewritegeneric.go;MODIFY;6718;18.0;Grew;True;2016-02-24 07:39:01+00:00;False;1417;160;38012;d337e55672c0ea6c29af2615e5fa345941f822c4;2;alexandru@mosoi.ro;mosoi@google.com
 rewritegeneric.go;MODIFY;6721;3.0;Grew;True;2016-02-24 22:20:24+00:00;False;1417;160;38020;ed737fd8cdc1a668027bb5f5dac8879afabcca3b;4;khr@golang.org;khr@golang.org
 rewritegeneric.go;MODIFY;6785;64.0;Grew;True;2016-03-01 17:05:13+00:00;False;1429;160;38482;1f6e9e36b0aba3d2459c80b2c8e905d9cc57f7ce;2;alexandru@mosoi.ro;mosoi@google.com
-rewritegeneric.go;MODIFY;6785;0.0;Grew;True;2016-03-01 19:20:24+00:00;False;1429;160;38482;9ace455e78d7c00925f35877e432dfa3768f13f3;5;khr@golang.org;mdempsky@google.com
+rewritegeneric.go;MODIFY;6785;0.0;Equal;True;2016-03-01 19:20:24+00:00;False;1429;160;38482;9ace455e78d7c00925f35877e432dfa3768f13f3;5;khr@golang.org;mdempsky@google.com
 rewritegeneric.go;MODIFY;6785;0.0;Equal;True;2016-03-02 03:17:46+00:00;False;1429;160;38469;62ac107a34823a692957c53662650a208cbe3151;7;khr@golang.org;khr@golang.org
 rewritegeneric.go;MODIFY;6881;96.0;Grew;True;2016-03-02 21:50:55+00:00;False;1453;160;39009;97b2295f06174f7cd3e8ad121f13110a4e866f77;2;drchase@google.com;drchase@google.com
 rewritegeneric.go;MODIFY;6881;0.0;Equal;True;2016-03-06 22:52:22+00:00;False;1453;160;38918;12e60452e9f7c21933aad1a864e1433736de807e;6;khr@golang.org;khr@golang.org
@@ -158,7 +158,7 @@ rewritegeneric.go;MODIFY;23231;267.0;Grew;True;2017-08-09 00:21:25+00:00;False;4
 rewritegeneric.go;MODIFY;23234;3.0;Grew;True;2017-08-15 13:39:11+00:00;False;4590;249;118442;c59b495963851d971036eb88a77b5c81db3a0982;15;cherryyz@google.com;phofer@umich.edu
 rewritegeneric.go;MODIFY;24118;884.0;Grew;True;2017-08-16 16:51:59+00:00;False;4726;253;123278;a0453a180fc3555843185385e9d4ad9d57f1d36a;4;alb.donizetti@gmail.com;alb.donizetti@gmail.com
 rewritegeneric.go;MODIFY;24153;35.0;Grew;True;2017-08-18 17:12:14+00:00;False;4732;253;123466;99fe3f8c63c20d675b0237665a535a8ad9783de4;4;cherryyz@google.com;cherryyz@google.com
-rewritegeneric.go;MODIFY;22999;-1154.0;Grew;True;2017-08-18 18:43:00+00:00;False;4518;248;117286;5927854f7d2bf10704d80cf28fed2385fc0a7b42;4;cherryyz@google.com;cherryyz@google.com
+rewritegeneric.go;MODIFY;22999;-1154.0;Decreased;True;2017-08-18 18:43:00+00:00;False;4518;248;117286;5927854f7d2bf10704d80cf28fed2385fc0a7b42;4;cherryyz@google.com;cherryyz@google.com
 rewritegeneric.go;MODIFY;24155;1156.0;Grew;True;2017-08-25 03:26:58+00:00;False;4730;253;123454;f1517ec6e5d1ccf04c1266e710545436b972750f;3;khr@golang.org;khr@golang.org
 rewritegeneric.go;MODIFY;24587;432.0;Grew;True;2017-09-03 14:29:38+00:00;False;4794;253;125822;fb165eaffd1949aa7e0af75af5e3cc27c6e50508;4;khr@golang.org;choleraehyq@gmail.com
 rewritegeneric.go;MODIFY;24686;99.0;Grew;True;2017-09-08 17:24:03+00:00;False;4820;254;126408;9da29b687f9372cc9e4506475b13edfe7a79a790;5;mike.munday@ibm.com;mike.munday@ibm.com
@@ -299,7 +299,7 @@ rewritegeneric.go;MODIFY;29170;34.0;Grew;True;2022-10-27 17:09:50+00:00;False;80
 rewritegeneric.go;MODIFY;29196;26.0;Grew;True;2022-10-31 21:40:49+00:00;False;8044;225;169972;9ce27feaeb91b2f30ff8cbe3be1ece3071f3f6b2;3;khr@google.com;khr@golang.org
 rewritegeneric.go;MODIFY;29222;26.0;Grew;True;2022-11-16 22:50:26+00:00;False;8050;225;170123;fd59c6cf8cb600f2911864948303016581abf016;2;khr@golang.org;jakub@ciolek.dev
 rewritegeneric.go;MODIFY;29222;0.0;Equal;True;2022-11-18 13:26:33+00:00;False;8050;225;170109;8893da7c724cf5df859a3c4ef6f32d94f0b39a00;3;drchase@google.com;wdvxdr@golangcn.org
-rewritegeneric.go;MODIFY;29222;0.0;Decreased;True;2023-01-19 22:42:34+00:00;False;8050;225;170109;47a0d467161c10f80bc3fcf7b0385b80d1194c7a;28;gobot@golang.org;dmitshur@golang.org
+rewritegeneric.go;MODIFY;29222;0.0;Equal;True;2023-01-19 22:42:34+00:00;False;8050;225;170109;47a0d467161c10f80bc3fcf7b0385b80d1194c7a;28;gobot@golang.org;dmitshur@golang.org
 rewritegeneric.go;MODIFY;29310;88.0;Grew;True;2023-01-20 04:57:35+00:00;False;8090;225;170673;fc814056aae191f61f46bef5be6e29ee3dc09b89;4;khr@golang.org;jorropo.pgm@gmail.com
 rewritegeneric.go;MODIFY;29360;50.0;Grew;True;2023-01-31 18:11:24+00:00;False;8108;225;170985;1fc585dc2f2e5dd456031708602841e138240551;6;khr@golang.org;jakub@ciolek.dev
 rewritegeneric.go;MODIFY;29317;-43.0;Decreased;True;2023-02-08 22:31:12+00:00;False;8082;225;170751;0d8d181bd575dca359266a1008b436b50db8ba18;3;khr@golang.org;jorropo.pgm@gmail.com

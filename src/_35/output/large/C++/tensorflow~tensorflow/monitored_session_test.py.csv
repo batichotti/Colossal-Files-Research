@@ -1,6 +1,6 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
-monitored_session_test.py;RENAME;710;0.0;Grew;False;2016-10-03 19:20:41+00:00;False;86;65;6358;82b907e6ebf69bceb7594236d55a90b075984e9a;20;gardener@tensorflow.org;ispir@google.com
-monitored_session_test.py;RENAME;710;0.0;Grew;False;2016-10-05 16:55:48+00:00;False;86;65;6358;2098b9abcf20d2c9694055bbfd6997bc00b73578;225;noreply@github.com;fengyifei2026@gmail.com
+monitored_session_test.py;RENAME;710;0.0;Equal;False;2016-10-03 19:20:41+00:00;False;86;65;6358;82b907e6ebf69bceb7594236d55a90b075984e9a;20;gardener@tensorflow.org;ispir@google.com
+monitored_session_test.py;RENAME;710;0.0;Equal;False;2016-10-05 16:55:48+00:00;False;86;65;6358;2098b9abcf20d2c9694055bbfd6997bc00b73578;225;noreply@github.com;fengyifei2026@gmail.com
 monitored_session_test.py;MODIFY;741;31.0;Grew;False;2016-10-06 17:31:43+00:00;False;90;67;6659;5025e7607e8a0e4a9379b70c562cb8eced650c57;3;gardener@tensorflow.org;ispir@google.com
 monitored_session_test.py;MODIFY;741;0.0;Equal;False;2016-10-19 22:07:04+00:00;False;90;67;6659;7e17e4719bd30d8351663ee6868a47bd5235babf;2;gardener@tensorflow.org;ispir@google.com
 monitored_session_test.py;MODIFY;741;0.0;Equal;False;2016-10-21 00:47:55+00:00;False;90;67;6661;dd845147f16679033f5efe3cbde7c417b3c71a8e;8;gardener@tensorflow.org;danmane@google.com
@@ -22,9 +22,9 @@ monitored_session_test.py;MODIFY;1012;2.0;Grew;False;2017-03-29 01:46:53+00:00;F
 monitored_session_test.py;MODIFY;1068;56.0;Grew;False;2017-05-15 21:00:10+00:00;False;121;94;9058;d319541a809b6f19e04c65a7a186d684b4000ed9;3;gardener@tensorflow.org;gardener@tensorflow.org
 monitored_session_test.py;MODIFY;1180;112.0;Grew;False;2017-08-10 19:39:31+00:00;False;142;107;9898;8f9b1af8ae3b3e0f0b2e252e004ed9179be66529;2;gardener@tensorflow.org;isaprykin@google.com
 monitored_session_test.py;MODIFY;1184;4.0;Grew;False;2017-08-15 18:18:41+00:00;False;143;108;9928;9e6183e4acbb1b795069947faf778a47709d2029;2;rmlarsen@google.com;yong.tang.github@outlook.com
-monitored_session_test.py;MODIFY;1184;0.0;Grew;False;2017-08-21 19:14:49+00:00;False;143;108;9928;6e3e7d18f42cb4237ce6dbe2ffd0f9f158c36daf;68;gardener@tensorflow.org;andrewharp@google.com
+monitored_session_test.py;MODIFY;1184;0.0;Equal;False;2017-08-21 19:14:49+00:00;False;143;108;9928;6e3e7d18f42cb4237ce6dbe2ffd0f9f158c36daf;68;gardener@tensorflow.org;andrewharp@google.com
 monitored_session_test.py;MODIFY;1208;24.0;Grew;False;2017-09-06 22:22:15+00:00;False;145;109;10078;713e36cedc4cefc9e6d33ed0a9aa76bfd8c78783;3;gardener@tensorflow.org;gardener@tensorflow.org
-monitored_session_test.py;MODIFY;1208;0.0;Grew;False;2017-09-07 06:52:56+00:00;False;145;109;10078;18f36927160d05b941c056f10dc7f9aecaa05e23;515;gunan@google.com;fengyifei2026@gmail.com
+monitored_session_test.py;MODIFY;1208;0.0;Equal;False;2017-09-07 06:52:56+00:00;False;145;109;10078;18f36927160d05b941c056f10dc7f9aecaa05e23;515;gunan@google.com;fengyifei2026@gmail.com
 monitored_session_test.py;MODIFY;1208;0.0;Equal;False;2017-09-29 20:40:03+00:00;False;145;109;10060;fd927db76477f0efec32e7eb6ed0d469c75484f4;7;gardener@tensorflow.org;ispir@google.com
 monitored_session_test.py;MODIFY;1208;0.0;Equal;False;2017-10-02 18:22:14+00:00;False;145;109;10078;45bcc10973f3bbff1f189f8927e568c2f91b3b52;7;gardener@tensorflow.org;ispir@google.com
 monitored_session_test.py;MODIFY;1208;0.0;Equal;False;2017-10-04 18:22:46+00:00;False;145;109;10060;41a0264ab60fa18badf0014fe6d39186736ada3a;8;gardener@tensorflow.org;ispir@google.com
@@ -33,7 +33,7 @@ monitored_session_test.py;MODIFY;1554;234.0;Grew;False;2017-10-31 17:27:35+00:00
 monitored_session_test.py;MODIFY;1565;11.0;Grew;False;2017-12-05 01:40:05+00:00;False;213;170;13301;4ff0f280053187e6360f0812198813ed576d6b62;2;gardener@tensorflow.org;isaprykin@google.com
 monitored_session_test.py;MODIFY;1554;-11.0;Decreased;False;2017-12-07 20:13:51+00:00;False;211;169;13226;9620b2df63854538357bf41f4d9761499e8e573d;4;gardener@tensorflow.org;isaprykin@google.com
 monitored_session_test.py;MODIFY;1586;32.0;Grew;False;2018-03-26 23:21:54+00:00;False;215;171;13468;e5dcaf921cf9feefd42b2ab176590c696b3b0285;3;rmlarsen@google.com;twairball@yahoo.com
-monitored_session_test.py;MODIFY;1586;0.0;Grew;False;2018-03-28 21:38:46+00:00;False;215;171;13468;e97c9e91e016efd951dc52e82744f607d948bb2a;116;gardener@tensorflow.org;xiejw@google.com
+monitored_session_test.py;MODIFY;1586;0.0;Equal;False;2018-03-28 21:38:46+00:00;False;215;171;13468;e97c9e91e016efd951dc52e82744f607d948bb2a;116;gardener@tensorflow.org;xiejw@google.com
 monitored_session_test.py;MODIFY;1554;-32.0;Decreased;False;2018-03-28 23:55:15+00:00;False;211;169;13226;108178da2a20ea2d3899417ee932d46ba1a5c652;116;gardener@tensorflow.org;annarev@google.com
 monitored_session_test.py;MODIFY;1586;32.0;Grew;False;2018-03-29 17:52:55+00:00;False;215;171;13468;63dffd5a3bc4e94e74cb140cbf7a68e0e5644ad6;116;gardener@tensorflow.org;xiejw@google.com
 monitored_session_test.py;MODIFY;1587;1.0;Grew;False;2018-08-02 22:51:17+00:00;False;215;171;13476;1bf206bc82f600886f1e19c9860f09f18984346b;35;gardener@tensorflow.org;allenl@google.com
@@ -45,7 +45,7 @@ monitored_session_test.py;MODIFY;1670;-7.0;Decreased;True;2018-11-20 20:32:11+00
 monitored_session_test.py;MODIFY;1670;0.0;Equal;True;2018-11-21 19:14:22+00:00;False;226;177;14103;f6ce9fd485e740f4ecded2d556a191a782b26808;216;gardener@tensorflow.org;apassos@google.com
 monitored_session_test.py;MODIFY;1670;0.0;Equal;True;2018-11-27 18:09:00+00:00;False;226;177;14103;b17d53c0cd07bbae46a55dc9c12d3f48a1c19604;264;gardener@tensorflow.org;gjn@google.com
 monitored_session_test.py;MODIFY;1697;27.0;Grew;True;2018-11-29 23:43:25+00:00;False;226;177;14215;24f578cd66bfc3ec35017fc77e136e43c4b74742;431;gardener@tensorflow.org;gjn@google.com
-monitored_session_test.py;MODIFY;1697;0.0;Grew;True;2018-12-05 15:59:50+00:00;False;226;177;14215;9caf68cf7b47fb94ac4f574772bf5efdb5785555;3376;snease@ambiqmicro.com;snease@ambiqmicro.com
+monitored_session_test.py;MODIFY;1697;0.0;Equal;True;2018-12-05 15:59:50+00:00;False;226;177;14215;9caf68cf7b47fb94ac4f574772bf5efdb5785555;3376;snease@ambiqmicro.com;snease@ambiqmicro.com
 monitored_session_test.py;MODIFY;1698;1.0;Grew;True;2018-12-08 01:41:47+00:00;False;226;177;14219;4890b781b6b77fcc6c751d351c2f320ef9043e8d;160;gardener@tensorflow.org;gjn@google.com
 monitored_session_test.py;MODIFY;1703;5.0;Grew;True;2018-12-17 20:12:46+00:00;False;226;177;14254;dc0aa75a0514ca51c1c70c27a37c77f893439561;2;gardener@tensorflow.org;gardener@tensorflow.org
 monitored_session_test.py;MODIFY;1723;20.0;Grew;True;2019-02-28 18:37:49+00:00;False;228;178;14409;f9a5fdc6d8d8a2a5bafe08c8a9775753bada4d95;26;gardener@tensorflow.org;gardener@tensorflow.org

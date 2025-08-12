@@ -1,6 +1,6 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
 verify_test.go;RENAME;not calculated;0.0;Equal;False;2014-09-08 04:08:51+00:00;False;not calculated;0;not calculated;c007ce824d9a4fccb148f9204e04c23ed2984b71;2097;rsc@golang.org;rsc@golang.org
-verify_test.go;MODIFY;1031.0;0.0;Grew;False;2015-03-30 15:58:08+00:00;False;52;12;4147;cf7461caedfdef8d771166f4fb6ce0fc381b7100;4;bradfitz@golang.org;kardianos@gmail.com
+verify_test.go;MODIFY;1031.0;0.0;Equal;False;2015-03-30 15:58:08+00:00;False;52;12;4147;cf7461caedfdef8d771166f4fb6ce0fc381b7100;4;bradfitz@golang.org;kardianos@gmail.com
 verify_test.go;MODIFY;1032.0;1.0;Grew;False;2015-07-22 17:33:27+00:00;False;52;12;4151;a502fb21820aed165a24a00e969e8cc7735ff09d;1;rsc@golang.org;rsc@golang.org
 verify_test.go;MODIFY;989.0;-43.0;Decreased;False;2016-03-21 07:10:08+00:00;False;52;12;3979;b2cf57104090b0cc148c0608f10f33cdfb48ec11;23;bradfitz@golang.org;dominik@honnef.co
 verify_test.go;MODIFY;989.0;0.0;Equal;False;2016-04-01 02:05:01+00:00;False;52;12;3977;1cb3044c9fcd88e1557eca1bf35845a4108bc1db;10;dave@cheney.net;dominik@honnef.co
@@ -15,7 +15,7 @@ verify_test.go;MODIFY;1374.0;51.0;Grew;False;2017-02-10 16:20:40+00:00;False;67;
 verify_test.go;MODIFY;1374.0;0.0;Equal;False;2017-04-21 02:49:21+00:00;False;67;16;6778;db8437eb58a5c2282a27c71b5cb14c639655edf1;1;bradfitz@golang.org;badgangkiller@gmail.com
 verify_test.go;MODIFY;1464.0;90.0;Grew;False;2017-06-13 18:33:29+00:00;False;70;17;7136;d1211b9a9f65ea3f184ceb34f1833d4d1a623f7c;4;bradfitz@golang.org;agl@golang.org
 verify_test.go;MODIFY;1548.0;84.0;Grew;False;2017-10-10 15:49:01+00:00;False;72;18;7522;755742399490d3e25239f504688f6b2e280366e9;3;agl@golang.org;agl@golang.org
-verify_test.go;MODIFY;1548.0;0.0;Grew;False;2017-10-25 20:23:24+00:00;False;72;18;7522;bfc22319aa349f014a34d73cff074bf3cce0df9c;3;rsc@golang.org;agl@golang.org
+verify_test.go;MODIFY;1548.0;0.0;Equal;False;2017-10-25 20:23:24+00:00;False;72;18;7522;bfc22319aa349f014a34d73cff074bf3cce0df9c;3;rsc@golang.org;agl@golang.org
 verify_test.go;MODIFY;1560.0;12.0;Grew;False;2017-11-07 21:58:30+00:00;False;76;18;7631;9e76ce70701ceef8fbccfb953b33a2ae7fe0367c;7;agl@golang.org;agl@golang.org
 verify_test.go;MODIFY;1556.0;-4.0;Decreased;False;2018-07-11 22:05:38+00:00;False;73;18;7615;4b74506da1ccf8c2f57f11991b432a6d5ac86e4f;6;bradfitz@golang.org;bradfitz@golang.org
 verify_test.go;MODIFY;1697.0;141.0;Grew;False;2018-07-16 19:30:08+00:00;False;78;20;8852;4f9ec2c7568fce3db51cee0bf151ccf8534868aa;4;filippo@golang.org;filippo@golang.org
@@ -40,7 +40,7 @@ verify_test.go;MODIFY;1727.0;28.0;Grew;False;2022-03-17 17:42:32+00:00;False;126
 verify_test.go;MODIFY;2055.0;328.0;Grew;True;2022-04-05 17:00:25+00:00;True;157;38;9533;65153e478e302eaf3556372ff257ebfc893943c1;2;gobot@golang.org;roland@golang.org
 verify_test.go;MODIFY;2075.0;20.0;Grew;True;2022-04-21 16:18:44+00:00;False;158;39;9613;b941a10e384e6772792bc9e05e7ebe58e98bc20e;2;roland@golang.org;roland@golang.org
 verify_test.go;MODIFY;2303.0;228.0;Grew;True;2022-05-06 17:05:06+00:00;False;183;49;11133;0aee59736f53ca1ef29d53163f26c2fc21a4c415;3;gobot@golang.org;roland@golang.org
-verify_test.go;MODIFY;2302.0;-1.0;Equal;True;2022-10-26 16:35:20+00:00;False;182;48;11124;2a2b163bb9125389c5f70e65aec21816e2ea09c5;3;gobot@golang.org;rsc@golang.org
+verify_test.go;MODIFY;2302.0;-1.0;Decreased;True;2022-10-26 16:35:20+00:00;False;182;48;11124;2a2b163bb9125389c5f70e65aec21816e2ea09c5;3;gobot@golang.org;rsc@golang.org
 verify_test.go;MODIFY;2281.0;-21.0;Decreased;True;2023-03-01 00:36:38+00:00;False;183;48;11117;bb8f9a6ae66d742cb67b4ad444179905a537de00;3;roland@golang.org;roland@golang.org
 verify_test.go;MODIFY;2287.0;6.0;Grew;True;2023-03-01 17:58:52+00:00;False;188;49;11158;cf3d0655f8ca2de555549f6e8a91bf8654da7e6c;1;roland@golang.org;roland@golang.org
 verify_test.go;MODIFY;2291.0;4.0;Grew;True;2023-03-01 20:16:39+00:00;False;189;49;11169;70efe9f721d70f57eba8896ffd3939723e0f0b4a;1;roland@golang.org;roland@golang.org

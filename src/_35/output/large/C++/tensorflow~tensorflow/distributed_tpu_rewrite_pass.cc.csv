@@ -1,7 +1,7 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
-distributed_tpu_rewrite_pass.cc;ADD;3054.0;0.0;Grew;False;2020-07-18 20:37:04+00:00;False;540;75;23487;332ad33c638866047f50f500eb20ed9ffe5bf47d;14;gardener@tensorflow.org;frankchn@google.com
-distributed_tpu_rewrite_pass.cc;DELETE;not calculated;0.0;Decreased;False;2020-07-20 20:39:23+00:00;False;not calculated;0;not calculated;24c4a6dd9096f836a63db0d70ee7acc01bd18fd8;14;gardener@tensorflow.org;frankchn@google.com
-distributed_tpu_rewrite_pass.cc;ADD;3189.0;0.0;Grew;False;2020-07-21 23:12:43+00:00;False;579;102;24451;145d21a90dc65b49a190e85e5478a8b2124f2ecd;18;gardener@tensorflow.org;frankchn@google.com
+distributed_tpu_rewrite_pass.cc;ADD;3054.0;0.0;Equal;False;2020-07-18 20:37:04+00:00;False;540;75;23487;332ad33c638866047f50f500eb20ed9ffe5bf47d;14;gardener@tensorflow.org;frankchn@google.com
+distributed_tpu_rewrite_pass.cc;DELETE;not calculated;0.0;Equal;False;2020-07-20 20:39:23+00:00;False;not calculated;0;not calculated;24c4a6dd9096f836a63db0d70ee7acc01bd18fd8;14;gardener@tensorflow.org;frankchn@google.com
+distributed_tpu_rewrite_pass.cc;ADD;3189.0;0.0;Equal;False;2020-07-21 23:12:43+00:00;False;579;102;24451;145d21a90dc65b49a190e85e5478a8b2124f2ecd;18;gardener@tensorflow.org;frankchn@google.com
 distributed_tpu_rewrite_pass.cc;MODIFY;3195.0;6.0;Grew;False;2020-07-22 22:27:09+00:00;False;579;102;24524;8f75c38677db6b872cf914ed4f11e698f7b42c9d;7;gardener@tensorflow.org;yunxing@google.com
 distributed_tpu_rewrite_pass.cc;MODIFY;3226.0;31.0;Grew;False;2020-08-01 01:37:53+00:00;False;586;102;24735;c4014988b53bc9a027e1e4bee5644921d48f5043;2;gardener@tensorflow.org;yuanzx@google.com
 distributed_tpu_rewrite_pass.cc;MODIFY;3232.0;6.0;Grew;False;2020-08-03 22:44:43+00:00;False;586;102;24792;fc9c057b1ac7883551e72c833a5429f4bb6dc47a;6;gardener@tensorflow.org;gardener@tensorflow.org
@@ -26,10 +26,10 @@ distributed_tpu_rewrite_pass.cc;MODIFY;3581.0;4.0;Grew;True;2021-02-03 19:47:16+
 distributed_tpu_rewrite_pass.cc;MODIFY;3586.0;5.0;Grew;True;2021-02-11 05:57:05+00:00;False;622;107;27399;24720e5940fab248a6bbd1b9db9a59782bee8299;1;gardener@tensorflow.org;lyandy@google.com
 distributed_tpu_rewrite_pass.cc;MODIFY;3587.0;1.0;Grew;True;2021-02-17 23:46:32+00:00;False;622;107;27408;24f8591d6ed36a61470d4132e949b282243b0d23;1;gardener@tensorflow.org;tayo@google.com
 distributed_tpu_rewrite_pass.cc;MODIFY;3612.0;25.0;Grew;True;2021-02-27 09:55:04+00:00;False;633;110;27547;32b8a33edbc6b4e0be0c9a1d435a14382671c2dc;6;gardener@tensorflow.org;tayo@google.com
-distributed_tpu_rewrite_pass.cc;MODIFY;3612.0;0.0;Grew;True;2021-03-04 23:41:50+00:00;False;633;110;27547;3ccbfd87d68c7c23c4e05fd20999d09b2b9e1884;1;gardener@tensorflow.org;micban@google.com
+distributed_tpu_rewrite_pass.cc;MODIFY;3612.0;0.0;Equal;True;2021-03-04 23:41:50+00:00;False;633;110;27547;3ccbfd87d68c7c23c4e05fd20999d09b2b9e1884;1;gardener@tensorflow.org;micban@google.com
 distributed_tpu_rewrite_pass.cc;MODIFY;3614.0;2.0;Grew;True;2021-03-10 22:12:08+00:00;False;633;110;27554;42c39fd0ede5955cb1e9156ada56db7c63819ef1;1;gardener@tensorflow.org;allencwang@google.com
 distributed_tpu_rewrite_pass.cc;MODIFY;3612.0;-2.0;Decreased;True;2021-03-11 22:01:41+00:00;False;633;110;27547;875c980b98c20acbaceddd8b2422269365db6cbc;1;gardener@tensorflow.org;allencwang@google.com
-distributed_tpu_rewrite_pass.cc;MODIFY;3612.0;0.0;Decreased;True;2021-03-16 20:28:36+00:00;False;633;110;27547;3e1c41d9eb658a84768c44d3d21d888cb9eb98dc;6;gardener@tensorflow.org;allencwang@google.com
+distributed_tpu_rewrite_pass.cc;MODIFY;3612.0;0.0;Equal;True;2021-03-16 20:28:36+00:00;False;633;110;27547;3e1c41d9eb658a84768c44d3d21d888cb9eb98dc;6;gardener@tensorflow.org;allencwang@google.com
 distributed_tpu_rewrite_pass.cc;MODIFY;3624.0;12.0;Grew;True;2021-03-30 00:51:28+00:00;False;634;111;27639;29a093cc38ec1257c1eee35206de0a9ae250be79;1;gardener@tensorflow.org;rxsang@google.com
 distributed_tpu_rewrite_pass.cc;MODIFY;3606.0;-18.0;Decreased;True;2021-04-03 01:35:37+00:00;False;631;110;27515;7d423080d9b4e109986f069c815287d870251d5f;6;gardener@tensorflow.org;rxsang@google.com
 distributed_tpu_rewrite_pass.cc;MODIFY;3610.0;4.0;Grew;True;2021-05-14 02:33:38+00:00;False;631;110;27542;27bb8f64f0387acced0aeca6675e09a283191718;1;gardener@tensorflow.org;chipguy@google.com
@@ -79,7 +79,7 @@ distributed_tpu_rewrite_pass.cc;MODIFY;4029.0;12.0;Grew;True;2022-09-07 02:30:25
 distributed_tpu_rewrite_pass.cc;MODIFY;4030.0;1.0;Grew;True;2022-09-30 18:52:31+00:00;False;690;120;30667;0cd46defdac90cf7ca5eb531bb642245ba1cd541;19;gardener@tensorflow.org;gardener@tensorflow.org
 distributed_tpu_rewrite_pass.cc;MODIFY;4033.0;3.0;Grew;True;2022-10-19 07:19:39+00:00;False;690;120;30673;de9203f49ff9d14a07615f5ae2c1234a7701f49d;29;gardener@tensorflow.org;gardener@tensorflow.org
 distributed_tpu_rewrite_pass.cc;MODIFY;4048.0;15.0;Grew;True;2023-01-20 17:43:51+00:00;False;696;122;30781;6a3a612963a6bca95bca512e911a827bcba04eea;16;gardener@tensorflow.org;twelve@google.com
-distributed_tpu_rewrite_pass.cc;MODIFY;4047.0;-1.0;Equal;True;2023-02-28 21:57:48+00:00;False;696;122;30771;b4849ca5a3b1ea4531f699f73df61eb98526e724;4;gardener@tensorflow.org;chuanhao@google.com
+distributed_tpu_rewrite_pass.cc;MODIFY;4047.0;-1.0;Decreased;True;2023-02-28 21:57:48+00:00;False;696;122;30771;b4849ca5a3b1ea4531f699f73df61eb98526e724;4;gardener@tensorflow.org;chuanhao@google.com
 distributed_tpu_rewrite_pass.cc;MODIFY;4047.0;0.0;Equal;True;2023-03-29 22:05:31+00:00;False;696;122;30773;043623e8d215df38d40a8aff7be2d5d395abbba6;20;gardener@tensorflow.org;jblespiau@google.com
 distributed_tpu_rewrite_pass.cc;MODIFY;4047.0;0.0;Equal;True;2023-06-09 15:38:57+00:00;False;696;122;30726;faa297d6c2b464da970cabfdf7832e63f22cf27b;4;gardener@tensorflow.org;rxsang@google.com
 distributed_tpu_rewrite_pass.cc;MODIFY;4038.0;-9.0;Decreased;True;2023-07-27 23:41:53+00:00;False;696;122;30708;222a63c5684971c9038ee0140750fde7c5da7d1e;30;gardener@tensorflow.org;silverstone@google.com

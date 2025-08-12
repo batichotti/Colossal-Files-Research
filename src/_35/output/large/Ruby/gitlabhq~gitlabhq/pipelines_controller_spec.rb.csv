@@ -1,5 +1,5 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
-pipelines_controller_spec.rb;ADD;36;0.0;Grew;False;2016-12-20 14:57:39+00:00;False;3;3;165;9c6480db8993ee6f1d8d1fac29e044dd00d66465;3;grzesiek.bizon@gmail.com;grzesiek.bizon@gmail.com
+pipelines_controller_spec.rb;ADD;36;0.0;Equal;False;2016-12-20 14:57:39+00:00;False;3;3;165;9c6480db8993ee6f1d8d1fac29e044dd00d66465;3;grzesiek.bizon@gmail.com;grzesiek.bizon@gmail.com
 pipelines_controller_spec.rb;MODIFY;38;2.0;Grew;False;2016-12-20 19:07:34+00:00;False;3;3;166;2b486c2bb27087e4eb306821b9fca95ff8ac74d3;4;grzesiek.bizon@gmail.com;grzesiek.bizon@gmail.com
 pipelines_controller_spec.rb;MODIFY;53;15.0;Grew;False;2016-12-21 14:13:43+00:00;False;4;4;264;63bb849145a5f38eb27a633d532171f7c17a63aa;1;grzesiek.bizon@gmail.com;grzesiek.bizon@gmail.com
 pipelines_controller_spec.rb;MODIFY;55;2.0;Grew;False;2017-02-16 22:25:01+00:00;False;4;4;292;0f36cfd7f58977becea9d3ecf410d3669440fbe9;8;filipa@gitlab.com;filipa@gitlab.com
@@ -7,11 +7,11 @@ pipelines_controller_spec.rb;MODIFY;58;3.0;Grew;False;2017-02-23 13:44:58+00:00;
 pipelines_controller_spec.rb;MODIFY;58;0.0;Equal;False;2017-02-23 23:55:01+00:00;False;4;4;315;ad640bc5f92ef0456a53dd82004f449cd9d7475d;68;douwe@selenight.nl;douwe@selenight.nl
 pipelines_controller_spec.rb;MODIFY;73;15.0;Grew;False;2017-03-23 08:11:48+00:00;False;5;5;387;4fa4a2ce999c75aee1261815656e47f66d73c725;3;gitlab.shinyamaeda@gmail.com;gitlab.shinyamaeda@gmail.com
 pipelines_controller_spec.rb;MODIFY;79;6.0;Grew;False;2017-03-23 08:11:49+00:00;False;5;5;446;08a0bc5397b6f41deef5d2e492c6cf101db741ae;5;gitlab.shinyamaeda@gmail.com;gitlab.shinyamaeda@gmail.com
-pipelines_controller_spec.rb;MODIFY;73;-6.0;Equal;False;2017-03-23 08:11:49+00:00;False;5;5;387;f8d6e81b92e85663bead6036e80407d7ab55a643;5;gitlab.shinyamaeda@gmail.com;gitlab.shinyamaeda@gmail.com
+pipelines_controller_spec.rb;MODIFY;73;-6.0;Decreased;False;2017-03-23 08:11:49+00:00;False;5;5;387;f8d6e81b92e85663bead6036e80407d7ab55a643;5;gitlab.shinyamaeda@gmail.com;gitlab.shinyamaeda@gmail.com
 pipelines_controller_spec.rb;MODIFY;73;0.0;Equal;False;2017-03-23 08:11:49+00:00;False;5;5;387;3b635002976e1dd45e58271efdb71f7349719d02;5;gitlab.shinyamaeda@gmail.com;gitlab.shinyamaeda@gmail.com
-pipelines_controller_spec.rb;MODIFY;75;2.0;Decreased;False;2017-03-23 08:11:49+00:00;False;5;5;434;a375d80eb072d62962af9b6f2decf9782cd7ee1f;6;gitlab.shinyamaeda@gmail.com;gitlab.shinyamaeda@gmail.com
+pipelines_controller_spec.rb;MODIFY;75;2.0;Grew;False;2017-03-23 08:11:49+00:00;False;5;5;434;a375d80eb072d62962af9b6f2decf9782cd7ee1f;6;gitlab.shinyamaeda@gmail.com;gitlab.shinyamaeda@gmail.com
 pipelines_controller_spec.rb;MODIFY;76;1.0;Grew;False;2017-03-23 08:11:49+00:00;False;5;5;407;38b1ec2cc04e850ff4898615cf9596de0f6235e1;6;gitlab.shinyamaeda@gmail.com;gitlab.shinyamaeda@gmail.com
-pipelines_controller_spec.rb;MODIFY;75;-1.0;Equal;False;2017-04-13 11:50:03+00:00;False;5;5;434;b24cb9985682bc52f299ba2fe2bc5cfbf41fafaf;7;lbennett@gitlab.com;lbennett@gitlab.com
+pipelines_controller_spec.rb;MODIFY;75;-1.0;Decreased;False;2017-04-13 11:50:03+00:00;False;5;5;434;b24cb9985682bc52f299ba2fe2bc5cfbf41fafaf;7;lbennett@gitlab.com;lbennett@gitlab.com
 pipelines_controller_spec.rb;MODIFY;75;0.0;Equal;False;2017-04-17 12:18:40+00:00;False;5;5;438;b544d8fade02ca826a55b8300e0a4c18fccbec01;5;lbennett@gitlab.com;lbennett@gitlab.com
 pipelines_controller_spec.rb;MODIFY;74;-1.0;Decreased;False;2017-04-21 20:32:02+00:00;False;5;5;436;ff76adb5476f663fe92cec0ec4a78e93c7615191;170;beschi.jacopo@gmail.com;beschi.jacopo@gmail.com
 pipelines_controller_spec.rb;MODIFY;103;29.0;Grew;False;2017-05-05 07:32:13+00:00;False;7;7;596;4f3dc19aafdd71aedb6b086da5707315a9a51ace;1;grzesiek.bizon@gmail.com;grzesiek.bizon@gmail.com
@@ -40,7 +40,7 @@ pipelines_controller_spec.rb;MODIFY;220;0.0;Equal;False;2018-05-22 12:38:25+00:0
 pipelines_controller_spec.rb;MODIFY;220;0.0;Equal;False;2018-05-23 11:29:21+00:00;False;21;21;1236;dab3ae39a2093fa924daf9c1902a2784002cca63;4;grzesiek.bizon@gmail.com;grzesiek.bizon@gmail.com
 pipelines_controller_spec.rb;MODIFY;220;0.0;Equal;False;2018-05-23 12:22:22+00:00;False;21;21;1230;bc9a0e10b50430e0b253a15d1628b6776d0bd9fe;2;grzesiek.bizon@gmail.com;grzesiek.bizon@gmail.com
 pipelines_controller_spec.rb;MODIFY;250;30.0;Grew;False;2018-05-29 15:19:39+00:00;False;22;22;1445;3662f147692749b20c5c8ad8ea391fd94e43ed38;1;grzesiek.bizon@gmail.com;grzesiek.bizon@gmail.com
-pipelines_controller_spec.rb;MODIFY;201;-49.0;Equal;False;2018-06-05 14:20:22+00:00;False;18;18;1130;949c30d42b91a0dd3959a3ca303b8f76158a2556;55;mail@koffeinfrei.org;alexis.reigel.ext@siemens.com
+pipelines_controller_spec.rb;MODIFY;201;-49.0;Decreased;False;2018-06-05 14:20:22+00:00;False;18;18;1130;949c30d42b91a0dd3959a3ca303b8f76158a2556;55;mail@koffeinfrei.org;alexis.reigel.ext@siemens.com
 pipelines_controller_spec.rb;MODIFY;262;61.0;Grew;False;2018-07-04 08:53:39+00:00;False;24;24;1505;04b046587fe609cd889f3fa518f08299abc61267;32;bob@vanlanduyt.co;bob@vanlanduyt.co
 pipelines_controller_spec.rb;MODIFY;262;0.0;Equal;False;2018-07-05 11:28:46+00:00;False;24;24;1505;b7b3a059f9799e11f2f8c2ebe77cc32ca6c5ea39;1;remy@rymai.me;remy@rymai.me
 pipelines_controller_spec.rb;MODIFY;265;3.0;Grew;False;2018-07-25 14:41:29+00:00;False;25;25;1502;7a233b37cd1281698107f1f3236b425bf4cc5ae7;17;yorickpeterse@gmail.com;yorickpeterse@gmail.com
@@ -49,10 +49,10 @@ pipelines_controller_spec.rb;MODIFY;287;3.0;Grew;False;2018-09-28 01:22:37+00:00
 pipelines_controller_spec.rb;MODIFY;299;12.0;Grew;False;2018-12-18 23:04:31+00:00;False;26;26;1651;b44a2c801a64fb282cea794871fcfcf81e4ec539;214;blackst0ne.ru@gmail.com;blackst0ne.ru@gmail.com
 pipelines_controller_spec.rb;MODIFY;299;0.0;Equal;False;2019-01-24 12:05:45+00:00;False;26;26;1651;3a2abc1d50b419a353edb7f7cf68f3894dfdeeef;236;remy@rymai.me;remy@rymai.me
 pipelines_controller_spec.rb;MODIFY;310;11.0;Grew;False;2019-01-28 12:12:30+00:00;False;28;28;1720;a0383ab43ec2c885aae6602ffa47ffde79c76786;35;yorickpeterse@gmail.com;kamil@gitlab.com
-pipelines_controller_spec.rb;MODIFY;310;0.0;Grew;False;2019-01-31 15:52:50+00:00;False;28;28;1720;d4c7214799586a9b5063b0ea5b4327bbffe1170f;35;yorickpeterse@gmail.com;kamil@gitlab.com
+pipelines_controller_spec.rb;MODIFY;310;0.0;Equal;False;2019-01-31 15:52:50+00:00;False;28;28;1720;d4c7214799586a9b5063b0ea5b4327bbffe1170f;35;yorickpeterse@gmail.com;kamil@gitlab.com
 pipelines_controller_spec.rb;MODIFY;311;1.0;Grew;False;2019-04-02 11:15:32+00:00;False;28;28;1734;e37383d45395c0c7cefc1dda3be12bd4c2d6cc4f;3;stanhu@gmail.com;stanhu@gmail.com
 pipelines_controller_spec.rb;MODIFY;312;1.0;Grew;False;2019-04-04 20:42:58+00:00;False;28;28;1748;f2fa7c32992db5a2b1b6acadc6c203c93c139f3b;6;stanhu@gmail.com;stanhu@gmail.com
-pipelines_controller_spec.rb;MODIFY;312;0.0;Grew;False;2019-04-15 10:17:05+00:00;False;28;28;1748;93a44e135b0d09ed0fd31dce5d81841a96ef8d67;154;remy@rymai.me;gfyoung17+gitlab@gmail.com
+pipelines_controller_spec.rb;MODIFY;312;0.0;Equal;False;2019-04-15 10:17:05+00:00;False;28;28;1748;93a44e135b0d09ed0fd31dce5d81841a96ef8d67;154;remy@rymai.me;gfyoung17+gitlab@gmail.com
 pipelines_controller_spec.rb;MODIFY;313;1.0;Grew;False;2019-08-19 19:02:28+00:00;False;28;28;1749;ae7f5faf675848cd561687548757cee6e647ab14;1;matteeyah@gmail.com;matteeyah@gmail.com
 pipelines_controller_spec.rb;MODIFY;364;51.0;Grew;False;2019-08-22 13:49:40+00:00;False;32;32;2074;3e2b45870ad7d6f356b58e0bdd8852b0ca39ff5a;6;alex@ives.mn;alex@ives.mn
 pipelines_controller_spec.rb;MODIFY;364;0.0;Equal;False;2019-10-02 00:06:26+00:00;False;32;32;2074;587794b4b8a6e919e77ee4abe8215fa291e6a91d;142;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
@@ -60,7 +60,7 @@ pipelines_controller_spec.rb;MODIFY;418;54.0;Grew;False;2019-10-08 09:06:09+00:0
 pipelines_controller_spec.rb;MODIFY;563;145.0;Grew;False;2019-10-16 09:07:51+00:00;False;47;47;3086;914ea32e0efca21436220df2c10e1bfbe4ed3da9;100;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 pipelines_controller_spec.rb;MODIFY;563;0.0;Equal;False;2019-10-23 09:06:03+00:00;False;47;47;3090;b3e4ec8e8adf4fe96c982124e91b6a05021a9cda;173;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 pipelines_controller_spec.rb;MODIFY;563;0.0;Equal;False;2019-11-13 12:06:22+00:00;False;47;47;3090;4e516dbff9767a35677fdc4a6e39005b4b564376;35;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
-pipelines_controller_spec.rb;MODIFY;563;0.0;Grew;False;2019-12-05 12:07:43+00:00;False;47;47;3088;872319738757edc0483346c75a2407f7019b963f;66;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
+pipelines_controller_spec.rb;MODIFY;563;0.0;Equal;False;2019-12-05 12:07:43+00:00;False;47;47;3088;872319738757edc0483346c75a2407f7019b963f;66;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 pipelines_controller_spec.rb;MODIFY;576;13.0;Grew;False;2019-12-24 15:07:44+00:00;False;49;49;3150;ac9d41902b722212197aa134f1b309004ebe6c42;8;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 pipelines_controller_spec.rb;MODIFY;612;36.0;Grew;False;2020-01-08 12:07:59+00:00;False;53;53;3323;e3e300557f5def9bf2271735c8a620e6820dfada;59;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 pipelines_controller_spec.rb;MODIFY;612;0.0;Equal;False;2020-01-28 12:08:44+00:00;False;53;53;3323;db24ab2b72dbff24c201410a0561e929ae7e8061;60;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
@@ -101,7 +101,7 @@ pipelines_controller_spec.rb;MODIFY;1050;53.0;Grew;True;2020-12-21 18:10:26+00:0
 pipelines_controller_spec.rb;MODIFY;997;-53.0;Decreased;True;2021-02-05 12:09:31+00:00;False;84;83;5134;64f7eb2b37aebbb713463b2f6971b13191c1b0db;189;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 pipelines_controller_spec.rb;MODIFY;997;0.0;Equal;True;2021-03-30 12:10:51+00:00;False;84;83;5134;a10d237d37e78cbe84f72fffaeff74dc73f1e68f;75;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 pipelines_controller_spec.rb;MODIFY;966;-31.0;Decreased;True;2021-03-31 15:10:27+00:00;False;81;80;5007;5facc34f44ce8736078127a5df174a7b52d922b4;107;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
-pipelines_controller_spec.rb;MODIFY;966;0.0;Grew;True;2021-04-06 09:09:03+00:00;False;81;80;5007;61ee5c363522f2639d1c515a74b9b02b7672c7c2;89;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
+pipelines_controller_spec.rb;MODIFY;966;0.0;Equal;True;2021-04-06 09:09:03+00:00;False;81;80;5007;61ee5c363522f2639d1c515a74b9b02b7672c7c2;89;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 pipelines_controller_spec.rb;MODIFY;980;14.0;Grew;True;2021-04-07 12:08:53+00:00;False;82;81;5068;6d5f18a3c1007e810b141b9ba671fd85a3e83e7f;36;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 pipelines_controller_spec.rb;MODIFY;1023;43.0;Grew;True;2021-04-23 12:09:52+00:00;False;86;85;5263;ecf1ffc19875a94c9de675b0559adc408b202515;176;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 pipelines_controller_spec.rb;MODIFY;1046;23.0;Grew;True;2021-05-05 15:10:05+00:00;False;89;88;5412;cf05fd7f3956f0b1a17caf313e89bb7b3315d947;45;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
@@ -150,7 +150,7 @@ pipelines_controller_spec.rb;MODIFY;1051;0.0;Equal;True;2023-10-06 06:09:15+00:0
 pipelines_controller_spec.rb;MODIFY;1071;20.0;Grew;True;2024-02-24 00:09:07+00:00;False;92;91;5996;d0cf0ec183bfeaa5180ce6e3bb1a95706d9a0f7b;49;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 pipelines_controller_spec.rb;MODIFY;1071;0.0;Equal;True;2024-05-03 18:10:04+00:00;False;92;91;5996;a5f5c99d4a316214fe0f9ff2cc124f7d6e41fd7e;122;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 pipelines_controller_spec.rb;MODIFY;1071;0.0;Equal;True;2024-05-27 09:14:17+00:00;False;92;91;5996;4e2b9c93aed06cae35acd52a5d3f09e3239f7fde;60;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
-pipelines_controller_spec.rb;MODIFY;1071;0.0;Grew;True;2024-06-10 15:21:23+00:00;False;95;92;6017;9992316681ae62663aa628254c48943d5d934eb7;312;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
+pipelines_controller_spec.rb;MODIFY;1071;0.0;Equal;True;2024-06-10 15:21:23+00:00;False;95;92;6017;9992316681ae62663aa628254c48943d5d934eb7;312;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 pipelines_controller_spec.rb;MODIFY;1062;-9.0;Decreased;True;2024-07-12 09:37:35+00:00;False;96;93;5937;f2288ffc9068f2016f654a72170df46eaf6d6f90;57;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 pipelines_controller_spec.rb;MODIFY;1078;16.0;Grew;True;2024-08-15 00:11:27+00:00;False;97;94;6017;1006aacd2e41365b6d7b3c2aacb22cbbc9d6ce1b;172;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 pipelines_controller_spec.rb;MODIFY;1078;0.0;Equal;True;2024-08-23 18:10:08+00:00;False;97;94;6017;77341d7453a94a149b621e8f6f52ae8b970a44e5;150;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com

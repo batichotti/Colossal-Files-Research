@@ -1,13 +1,13 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
-test_filters.rb;ADD;24;0.0;Grew;False;2008-12-30 18:33:22+00:00;False;5;5;135;87a5e747fd6573dd1ebef0b48f523067d6270438;2;mchung@gmail.com;mchung@gmail.com
+test_filters.rb;ADD;24;0.0;Equal;False;2008-12-30 18:33:22+00:00;False;5;5;135;87a5e747fd6573dd1ebef0b48f523067d6270438;2;mchung@gmail.com;mchung@gmail.com
 test_filters.rb;MODIFY;24;0.0;Equal;False;2009-01-02 20:30:56+00:00;False;5;5;135;a6530544fbfb06a03d89dbd10292fea20cc26dbd;2;tom@mojombo.com;tom@mojombo.com
 test_filters.rb;MODIFY;28;4.0;Grew;False;2009-01-20 09:21:22+00:00;False;6;6;156;ea70d8ac7ae26f16191c24c0350f81a72c4e1919;1;pagaltzis@gmx.de;pagaltzis@gmx.de
 test_filters.rb;MODIFY;31;3.0;Grew;False;2009-02-12 23:21:40+00:00;False;7;7;168;ee65dadc9a5ae5fc8f19848754f7175ebd630375;3;kevin.marsh@gmail.com;kevin.marsh@gmail.com
-test_filters.rb;MODIFY;33;2.0;Equal;False;2009-03-06 02:54:52+00:00;False;not calculated;0;178;0e132bf2cbbb8dd00da297a6e992d4f501c1fd10;5;nick@quaran.to;nick@quaran.to
+test_filters.rb;MODIFY;33;2.0;Grew;False;2009-03-06 02:54:52+00:00;False;not calculated;0;178;0e132bf2cbbb8dd00da297a6e992d4f501c1fd10;5;nick@quaran.to;nick@quaran.to
 test_filters.rb;MODIFY;39;6.0;Grew;False;2009-05-01 22:44:33+00:00;False;not calculated;0;204;69683467031b3a34c64fc160ff6ea8fd18aa0466;2;martin@librador.com;martin@librador.com
 test_filters.rb;MODIFY;42;3.0;Grew;False;2010-11-12 16:15:30+00:00;False;not calculated;0;217;4c08643c50a59a404faaa639b33ac6c635b678ff;2;claco@chrislaco.com;claco@chrislaco.com
 test_filters.rb;MODIFY;45;3.0;Grew;False;2011-03-03 14:14:52+00:00;False;not calculated;0;230;9e3ad69922ccf088f42b4cc5df5bb73d09f98722;2;mjschultz@gmail.com;mjschultz@gmail.com
-test_filters.rb;MODIFY;42;-3.0;Equal;False;2011-04-24 10:39:27+00:00;False;not calculated;0;210;6a31e650f32054c9723b2b14cda1d7d7a1e8dfa1;14;tom@mojombo.com;tom@mojombo.com
+test_filters.rb;MODIFY;42;-3.0;Decreased;False;2011-04-24 10:39:27+00:00;False;not calculated;0;210;6a31e650f32054c9723b2b14cda1d7d7a1e8dfa1;14;tom@mojombo.com;tom@mojombo.com
 test_filters.rb;MODIFY;49;7.0;Grew;False;2011-05-31 21:40:21+00:00;False;1;1;260;851172b5ef1a7c649296dd00390c067168eebc0f;5;tom@mojombo.com;tom@mojombo.com
 test_filters.rb;MODIFY;62;13.0;Grew;False;2013-03-27 06:21:48+00:00;False;1;1;318;186b68adb006c9a702abaa1f2a9af6fa0b7ead84;2;rafaelrosafu@gmail.com;rafaelrosafu@gmail.com
 test_filters.rb;MODIFY;62;0.0;Equal;False;2013-03-29 05:07:47+00:00;False;1;1;330;7879d2e02c3fd851f7a4de37b4279246617eb173;1;rafaelrosafu@gmail.com;rafaelrosafu@gmail.com
@@ -15,8 +15,8 @@ test_filters.rb;MODIFY;81;19.0;Grew;False;2013-05-04 12:41:21+00:00;False;1;1;39
 test_filters.rb;MODIFY;90;9.0;Grew;False;2013-10-22 15:52:22+00:00;False;1;1;456;f971aebfb160691c4fbac083ac423ecef0a013ac;3;liufengyunchina@gmail.com;liufengyunchina@gmail.com
 test_filters.rb;MODIFY;111;21.0;Grew;False;2013-12-08 06:16:48+00:00;False;1;1;611;381ab4e71b81b2e3c68a818bd8c606dd54f35773;2;parkrmoore@gmail.com;parkrmoore@gmail.com
 test_filters.rb;MODIFY;111;0.0;Equal;False;2013-12-22 08:38:32+00:00;False;1;1;611;2bfafb3b33b801212f390d8fec1c386106e78b5b;10;aidan.feldman@gmail.com;aidan.feldman@gmail.com
-test_filters.rb;MODIFY;125;14.0;Equal;False;2014-01-04 05:23:02+00:00;False;1;1;701;a5f1bc034194dd39241d2308a558620a55631cf3;1;parkrmoore@gmail.com;parkrmoore@gmail.com
-test_filters.rb;MODIFY;120;-5.0;Grew;False;2014-01-04 05:23:02+00:00;False;1;1;676;39e4d6b3ba9b93f130c99eb665423b4f41ae2cdd;2;parkrmoore@gmail.com;ben.balter@github.com
+test_filters.rb;MODIFY;125;14.0;Grew;False;2014-01-04 05:23:02+00:00;False;1;1;701;a5f1bc034194dd39241d2308a558620a55631cf3;1;parkrmoore@gmail.com;parkrmoore@gmail.com
+test_filters.rb;MODIFY;120;-5.0;Decreased;False;2014-01-04 05:23:02+00:00;False;1;1;676;39e4d6b3ba9b93f130c99eb665423b4f41ae2cdd;2;parkrmoore@gmail.com;ben.balter@github.com
 test_filters.rb;MODIFY;125;5.0;Grew;False;2014-01-04 05:23:02+00:00;False;1;1;699;b4383a5c42dd9090812f4b8633973a747b78ec8e;1;parkrmoore@gmail.com;parkrmoore@gmail.com
 test_filters.rb;MODIFY;125;0.0;Equal;False;2014-01-14 06:21:30+00:00;False;1;1;701;e3be74e3767405b1f9b19030cb849ecb590bfd27;5;parkrmoore@gmail.com;ben.balter@github.com
 test_filters.rb;MODIFY;125;0.0;Equal;False;2014-01-26 01:38:51+00:00;False;1;1;701;fdbfd719cabb7cae126801742237209d2343faaa;8;parkrmoore@gmail.com;parkrmoore@gmail.com
@@ -34,18 +34,18 @@ test_filters.rb;MODIFY;152;6.0;Grew;False;2014-05-06 05:48:33+00:00;False;1;1;10
 test_filters.rb;MODIFY;152;0.0;Equal;False;2014-05-06 19:07:09+00:00;False;1;1;1039;558d0e8ac9ae48719a71eac48ffc5cb06fbd33c4;1;anatol@penibelst.de;anatol@penibelst.de
 test_filters.rb;MODIFY;152;0.0;Equal;False;2014-05-06 19:36:13+00:00;False;1;1;1039;7c1709fab4b0ef1ce9957cbcc6635f538850ae3c;4;anatol@penibelst.de;anatol@penibelst.de
 test_filters.rb;MODIFY;167;15.0;Grew;False;2014-05-10 03:11:05+00:00;False;1;1;1102;af9f1e6f480c0cce876bf1b94ac0297dfed97011;2;parkrmoore@gmail.com;parkrmoore@gmail.com
-test_filters.rb;MODIFY;154;-13.0;Grew;False;2014-05-10 23:06:35+00:00;False;1;1;1077;b2f30f5bee9ba69fe54879f36d905693ae5f422b;1;anatol@penibelst.de;anatol@penibelst.de
+test_filters.rb;MODIFY;154;-13.0;Decreased;False;2014-05-10 23:06:35+00:00;False;1;1;1077;b2f30f5bee9ba69fe54879f36d905693ae5f422b;1;anatol@penibelst.de;anatol@penibelst.de
 test_filters.rb;MODIFY;155;1.0;Grew;False;2014-05-10 23:34:09+00:00;False;1;1;1098;06cebb08166855fdfd5b10097ebefadf883a68a3;1;anatol@penibelst.de;anatol@penibelst.de
-test_filters.rb;MODIFY;155;0.0;Grew;False;2014-05-11 00:22:58+00:00;False;1;1;1098;7cd95734df7c119e906eb62aac43afbeef2d966e;1;anatol@penibelst.de;anatol@penibelst.de
-test_filters.rb;MODIFY;167;12.0;Equal;False;2014-05-16 07:42:35+00:00;False;1;1;1110;4d1c84aa2b359e247ff9837e1bdbab8055d2e2ab;1;parkrmoore@gmail.com;parkrmoore@gmail.com
-test_filters.rb;MODIFY;155;-12.0;Equal;False;2014-05-17 04:47:03+00:00;False;1;1;1098;3413c9684565ee27fa91e77e37e0b89c9a7b36bc;3;parkrmoore@gmail.com;parkrmoore@gmail.com
+test_filters.rb;MODIFY;155;0.0;Equal;False;2014-05-11 00:22:58+00:00;False;1;1;1098;7cd95734df7c119e906eb62aac43afbeef2d966e;1;anatol@penibelst.de;anatol@penibelst.de
+test_filters.rb;MODIFY;167;12.0;Grew;False;2014-05-16 07:42:35+00:00;False;1;1;1110;4d1c84aa2b359e247ff9837e1bdbab8055d2e2ab;1;parkrmoore@gmail.com;parkrmoore@gmail.com
+test_filters.rb;MODIFY;155;-12.0;Decreased;False;2014-05-17 04:47:03+00:00;False;1;1;1098;3413c9684565ee27fa91e77e37e0b89c9a7b36bc;3;parkrmoore@gmail.com;parkrmoore@gmail.com
 test_filters.rb;MODIFY;176;21.0;Grew;False;2014-08-13 03:24:04+00:00;False;1;1;1195;566d3718b00c95fd23d94465e61d21c344fe2070;2;kevin.sweet@sendgrid.com;kevin.sweet@sendgrid.com
 test_filters.rb;MODIFY;181;5.0;Grew;False;2014-09-01 21:51:09+00:00;False;1;1;1216;cfd17b2e7d74333c188ac56f088a0eef34079de5;2;shu@chibicode.com;shu@chibicode.com
 test_filters.rb;MODIFY;186;5.0;Grew;False;2014-09-07 07:49:14+00:00;False;1;1;1233;77297744ceccd5a03e157c0aac82935d821307d3;1;chris.frederick@github.com;chris.frederick@github.com
 test_filters.rb;MODIFY;218;32.0;Grew;False;2014-09-10 04:29:23+00:00;False;1;1;1372;196a56e3ec65e0a4864bf1203cb4a6f77486a1f8;2;parkrmoore@gmail.com;parkrmoore@gmail.com
 test_filters.rb;MODIFY;220;2.0;Grew;False;2014-10-08 20:19:55+00:00;False;1;1;1390;f6ea8b4d50217cc91e43a12f3bfb41e223dc8c49;2;tamagokun@gmail.com;tamagokun@gmail.com
 test_filters.rb;MODIFY;222;2.0;Grew;False;2014-10-08 21:02:36+00:00;False;1;1;1412;56ac50c5682cd668fc5c7680c6bf2eff8b2d4b0e;1;tamagokun@gmail.com;tamagokun@gmail.com
-test_filters.rb;MODIFY;221;-1.0;Grew;False;2014-10-11 17:50:08+00:00;False;1;1;1387;3c5e9f53346d8fbe2ed1e079f9377c603aecf93e;2;nitoyon@gmail.com;nitoyon@gmail.com
+test_filters.rb;MODIFY;221;-1.0;Decreased;False;2014-10-11 17:50:08+00:00;False;1;1;1387;3c5e9f53346d8fbe2ed1e079f9377c603aecf93e;2;nitoyon@gmail.com;nitoyon@gmail.com
 test_filters.rb;MODIFY;230;9.0;Grew;False;2014-10-27 22:58:42+00:00;False;2;2;1461;3fb1356593c9ef1d98beacf8f9ef4cf5edb2e38c;2;parkrmoore@gmail.com;parkrmoore@gmail.com
 test_filters.rb;MODIFY;239;9.0;Grew;False;2014-11-05 19:37:51+00:00;False;3;3;1526;b29fd6d380d13fc5c7bcb3eedf968a6c13b571b0;1;parkrmoore@gmail.com;parkrmoore@gmail.com
 test_filters.rb;MODIFY;241;2.0;Grew;False;2014-11-05 19:39:15+00:00;False;3;3;1532;18930b01f679e52969335ce7f3f693b935722836;1;parkrmoore@gmail.com;parkrmoore@gmail.com
@@ -53,13 +53,13 @@ test_filters.rb;MODIFY;241;0.0;Equal;False;2014-11-26 08:40:41+00:00;False;3;3;1
 test_filters.rb;MODIFY;297;56.0;Grew;False;2014-11-27 10:01:31+00:00;False;3;3;1676;229303bbc8cea179737403fc8465db3c21100879;1;aidan.feldman@gsa.gov;aidan.feldman@gsa.gov
 test_filters.rb;MODIFY;297;0.0;Equal;False;2014-12-30 01:44:10+00:00;False;3;3;1676;9109da32f9c329219bf84cfc0f2192a2c5075e21;1;parkrmoore@gmail.com;parkrmoore@gmail.com
 test_filters.rb;MODIFY;312;15.0;Grew;False;2015-01-13 18:51:36+00:00;False;3;3;1740;588bba39adaa2ed001c693d4c5c74b7aaa296af0;1;ryan.burnette@gmail.com;ryan.burnette@gmail.com
-test_filters.rb;MODIFY;312;0.0;Decreased;False;2015-01-18 00:51:28+00:00;False;3;3;1742;c1da91cf5c804de2a65704ee4ea168827acc39bc;15;parkrmoore@gmail.com;parkrmoore@gmail.com
+test_filters.rb;MODIFY;312;0.0;Equal;False;2015-01-18 00:51:28+00:00;False;3;3;1742;c1da91cf5c804de2a65704ee4ea168827acc39bc;15;parkrmoore@gmail.com;parkrmoore@gmail.com
 test_filters.rb;MODIFY;312;0.0;Equal;False;2015-02-20 21:35:02+00:00;False;3;3;1740;4b59eb417584ae3622fce7686f5c1f49d517fefe;31;parkrmoore@gmail.com;parkrmoore@gmail.com
 test_filters.rb;MODIFY;312;0.0;Equal;False;2015-02-21 08:33:47+00:00;False;3;3;1739;7ad0597bff367fe78154fac09091d3041ee7b63f;32;parkrmoore@gmail.com;parkrmoore@gmail.com
 test_filters.rb;MODIFY;318;6.0;Grew;False;2015-03-01 08:40:32+00:00;False;3;3;1761;0565308ce67be10530227997cabb58a55fb4f730;2;martin@martinrogalla.com;martin@martinrogalla.com
 test_filters.rb;MODIFY;318;0.0;Equal;False;2015-03-01 08:51:59+00:00;False;3;3;1761;78af3c5018337368ee113b4b690b2b1c9ae55f2b;2;martin@martinrogalla.com;martin@martinrogalla.com
 test_filters.rb;MODIFY;318;0.0;Equal;False;2015-03-01 10:16:08+00:00;False;3;3;1761;92a9582733dfee0f359e491a8fae236e91087a54;2;martin@martinrogalla.com;martin@martinrogalla.com
-test_filters.rb;MODIFY;318;0.0;Grew;False;2015-03-06 16:20:25+00:00;False;3;3;1761;00cdcbc184b245c76b59adcb771b0fc501f895fe;30;martin@martinrogalla.com;martin@martinrogalla.com
+test_filters.rb;MODIFY;318;0.0;Equal;False;2015-03-06 16:20:25+00:00;False;3;3;1761;00cdcbc184b245c76b59adcb771b0fc501f895fe;30;martin@martinrogalla.com;martin@martinrogalla.com
 test_filters.rb;MODIFY;332;14.0;Grew;False;2015-08-26 06:00:58+00:00;False;3;3;1885;4169075dd116b4131b620af6fb6a786f485b2e09;2;parkrmoore@gmail.com;parkrmoore@gmail.com
 test_filters.rb;MODIFY;338;6.0;Grew;False;2015-12-04 17:33:33+00:00;False;3;3;1905;96bc62c666b598c3dc7df7e2ec8a9b22625ed0af;3;parkrmoore@gmail.com;parkrmoore@gmail.com
 test_filters.rb;MODIFY;344;6.0;Grew;False;2015-12-04 17:40:57+00:00;False;3;3;1931;86195655d798e4afcb888fa37787453e0d56ae23;3;parkrmoore@gmail.com;parkrmoore@gmail.com
@@ -69,31 +69,31 @@ test_filters.rb;MODIFY;348;4.0;Grew;False;2016-01-07 10:36:24+00:00;False;3;3;19
 test_filters.rb;MODIFY;367;19.0;Grew;False;2016-01-09 01:10:36+00:00;False;3;3;2061;ddf640e6bdeb0ae457faf50eacabab74f5c92183;2;pat@pathawks.com;pat@pathawks.com
 test_filters.rb;MODIFY;367;0.0;Equal;False;2016-02-19 23:02:13+00:00;False;3;3;2061;d929242e2b3db510ff4d23d7c0ef7daa83ab1cb6;6;parkrmoore@gmail.com;parkrmoore@gmail.com
 test_filters.rb;MODIFY;375;8.0;Grew;False;2016-02-25 15:24:47+00:00;False;3;3;2171;f5f8548eb8f36b279838c77cc890b1ccf2eb3692;1;tim@timwis.com;tim@timwis.com
-test_filters.rb;MODIFY;374;-1.0;Grew;False;2016-02-25 15:41:23+00:00;False;3;3;2113;3fbca47b1a1746bb671d6b5fe1b67941c4481b87;1;tim@timwis.com;tim@timwis.com
-test_filters.rb;MODIFY;373;-1.0;Grew;False;2016-02-26 16:06:03+00:00;False;3;3;2103;fa1eb68941ade097b755a0298c91929b674f66c5;2;tonygarnockjones@gmail.com;tonygarnockjones@gmail.com
-test_filters.rb;MODIFY;380;7.0;Equal;False;2016-03-02 03:43:22+00:00;False;3;3;2152;de8f67c4a22931cdf41c0993d97a6d37268b926e;5;parkrmoore@gmail.com;parkrmoore@gmail.com
-test_filters.rb;MODIFY;379;-1.0;Grew;False;2016-03-03 20:56:54+00:00;False;3;3;2221;e130a0841f2c0d074a0e43359a3a114f454e8b5c;1;tim@timwis.com;tim@timwis.com
+test_filters.rb;MODIFY;374;-1.0;Decreased;False;2016-02-25 15:41:23+00:00;False;3;3;2113;3fbca47b1a1746bb671d6b5fe1b67941c4481b87;1;tim@timwis.com;tim@timwis.com
+test_filters.rb;MODIFY;373;-1.0;Decreased;False;2016-02-26 16:06:03+00:00;False;3;3;2103;fa1eb68941ade097b755a0298c91929b674f66c5;2;tonygarnockjones@gmail.com;tonygarnockjones@gmail.com
+test_filters.rb;MODIFY;380;7.0;Grew;False;2016-03-02 03:43:22+00:00;False;3;3;2152;de8f67c4a22931cdf41c0993d97a6d37268b926e;5;parkrmoore@gmail.com;parkrmoore@gmail.com
+test_filters.rb;MODIFY;379;-1.0;Decreased;False;2016-03-03 20:56:54+00:00;False;3;3;2221;e130a0841f2c0d074a0e43359a3a114f454e8b5c;1;tim@timwis.com;tim@timwis.com
 test_filters.rb;MODIFY;395;16.0;Grew;False;2016-03-21 22:45:29+00:00;False;3;3;2325;aeecbd741f5a6ed6e36f37ef7b4a1b30012ea9bf;1;pat@pathawks.com;pat@pathawks.com
-test_filters.rb;MODIFY;367;-28.0;Equal;False;2016-03-25 21:03:17+00:00;False;3;3;2055;d213981a24c72f1b441f91906bce5c0da0336180;13;flo@florianthomas.net;flo@florianthomas.net
+test_filters.rb;MODIFY;367;-28.0;Decreased;False;2016-03-25 21:03:17+00:00;False;3;3;2055;d213981a24c72f1b441f91906bce5c0da0336180;13;flo@florianthomas.net;flo@florianthomas.net
 test_filters.rb;MODIFY;444;77.0;Grew;False;2016-04-12 17:52:58+00:00;False;3;3;2716;66c4ff8800f11858a1d4073ae83c4ea30519efbc;3;thomas.wood09@imperial.ac.uk;thomas.wood09@imperial.ac.uk
 test_filters.rb;MODIFY;464;20.0;Grew;False;2016-05-20 02:59:22+00:00;False;3;3;2826;f7714add1506b06a1352b17b2dedc415ea87911a;2;pat@pathawks.com;pat@pathawks.com
 test_filters.rb;MODIFY;480;16.0;Grew;False;2016-05-25 00:08:46+00:00;False;3;3;2874;17d8c96a630bf4c9ea932622269443a56e82a375;6;pat@pathawks.com;parkrmoore@gmail.com
 test_filters.rb;MODIFY;482;2.0;Grew;False;2016-05-25 00:08:50+00:00;False;3;3;2889;f8c708ffec903c9778c3568582a75a9780aa81ba;1;pat@pathawks.com;parkrmoore@gmail.com
 test_filters.rb;MODIFY;587;105.0;Grew;False;2016-05-26 02:59:11+00:00;False;3;3;2843;6ef2bcb29a930de0eeced78ef8e88f504080ef98;1;pat@pathawks.com;pat@pathawks.com
 test_filters.rb;MODIFY;599;12.0;Grew;False;2016-05-28 20:18:37+00:00;False;3;3;2873;5dfaa66d48b05fc4542804aece57b770389130e5;1;pat@pathawks.com;pat@pathawks.com
-test_filters.rb;MODIFY;619;20.0;Equal;False;2016-06-29 05:08:06+00:00;False;3;3;2983;a7d25ed9631f319fbbb27a3b6ec7a23e25e32046;5;parkrmoore@gmail.com;parkrmoore@gmail.com
+test_filters.rb;MODIFY;619;20.0;Grew;False;2016-06-29 05:08:06+00:00;False;3;3;2983;a7d25ed9631f319fbbb27a3b6ec7a23e25e32046;5;parkrmoore@gmail.com;parkrmoore@gmail.com
 test_filters.rb;MODIFY;649;30.0;Grew;False;2016-07-13 06:47:14+00:00;False;3;3;3126;9336ad0fcf911e4fcde0d32abfeee464674f0f01;2;crispgm@gmail.com;crispgm@gmail.com
 test_filters.rb;MODIFY;649;0.0;Equal;False;2016-07-13 07:13:20+00:00;False;3;3;3130;218c7039a9b09504d81bdcf1617981eb9c788616;1;crispgm@gmail.com;crispgm@gmail.com
 test_filters.rb;MODIFY;649;0.0;Equal;False;2016-07-13 07:32:34+00:00;False;3;3;3130;5c6c01793c940569f29880eff338da566f406a0b;1;crispgm@gmail.com;crispgm@gmail.com
 test_filters.rb;MODIFY;649;0.0;Equal;False;2016-07-14 03:27:47+00:00;False;3;3;3130;b1f9a0809c19929305470ed6e0437635cb121cc9;2;crispgm@gmail.com;crispgm@gmail.com
 test_filters.rb;MODIFY;654;5.0;Grew;False;2016-07-14 06:06:25+00:00;False;3;3;3154;3435b5ddac271b462602e688e6526760a87da86f;2;crispgm@gmail.com;crispgm@gmail.com
 test_filters.rb;MODIFY;647;-7.0;Decreased;False;2016-07-14 06:15:23+00:00;False;3;3;3119;9ef9c2fb644e1ec3b2f91aa5a598ddfa0e6a4519;1;crispgm@gmail.com;crispgm@gmail.com
-test_filters.rb;MODIFY;626;-21.0;Grew;False;2016-07-14 18:08:25+00:00;False;3;3;3045;2b57795c7f24fb8be7a5d165d08e0a29de64f938;1;pat@pathawks.com;pat@pathawks.com
+test_filters.rb;MODIFY;626;-21.0;Decreased;False;2016-07-14 18:08:25+00:00;False;3;3;3045;2b57795c7f24fb8be7a5d165d08e0a29de64f938;1;pat@pathawks.com;pat@pathawks.com
 test_filters.rb;MODIFY;637;11.0;Grew;False;2016-07-14 18:11:09+00:00;False;4;4;3098;99663a919966e9f2f204b048f180e441f7a4bd32;2;pat@pathawks.com;flo@florianthomas.net
 test_filters.rb;MODIFY;647;10.0;Grew;False;2016-07-15 00:38:36+00:00;False;3;3;3119;20b3758edb05130135cfb620a8aa5ca0db059679;2;crispgm@gmail.com;crispgm@gmail.com
 test_filters.rb;MODIFY;647;0.0;Equal;False;2016-07-18 18:20:47+00:00;False;3;3;3119;dbc034990935daf1148cafbadbad03d8445b174c;14;xhmikosr@gmail.com;xhmikosr@gmail.com
 test_filters.rb;MODIFY;655;8.0;Grew;False;2016-07-23 22:37:35+00:00;False;3;3;3148;9176924eab22e87afbd134aaac31fc1475e77e26;2;anatoliy.yastreb@gmail.com;anatoliy.yastreb@gmail.com
-test_filters.rb;MODIFY;673;18.0;Equal;True;2016-08-05 02:40:14+00:00;True;4;4;3263;05445b81c74659dbc42a3275ca5963b913f03deb;2;jeff@kolesky.com;jeff@kolesky.com
+test_filters.rb;MODIFY;673;18.0;Grew;True;2016-08-05 02:40:14+00:00;True;4;4;3263;05445b81c74659dbc42a3275ca5963b913f03deb;2;jeff@kolesky.com;jeff@kolesky.com
 test_filters.rb;MODIFY;673;0.0;Equal;True;2016-09-20 20:12:34+00:00;False;4;4;3263;29d8fee4ce9162019ef35facb4a5a44eb42c6920;5;parkrmoore@gmail.com;parkrmoore@gmail.com
 test_filters.rb;MODIFY;758;85.0;Grew;True;2016-09-22 21:16:00+00:00;False;6;5;3645;aa866516504b97743b1b13d799313566303f01a3;4;parkrmoore@gmail.com;parkrmoore@gmail.com
 test_filters.rb;MODIFY;770;12.0;Grew;True;2016-09-24 20:11:04+00:00;False;6;5;3691;aebf711c61c18fde414eb96916f5858fa92c63c1;1;pat@pathawks.com;pat@pathawks.com
@@ -102,11 +102,11 @@ test_filters.rb;MODIFY;772;2.0;Grew;True;2016-11-02 17:25:12+00:00;False;6;5;371
 test_filters.rb;MODIFY;786;14.0;Grew;True;2016-11-03 19:20:54+00:00;False;6;5;3751;894d2a0415a64b3a40840b5adbe11523b5eff097;1;ashmaroli@gmail.com;ashmaroli@gmail.com
 test_filters.rb;MODIFY;786;0.0;Equal;True;2016-11-03 19:47:54+00:00;False;6;5;3751;9192e66b7b9cdbeff43598c55d4a34f67a83f888;1;ashmaroli@gmail.com;ashmaroli@gmail.com
 test_filters.rb;MODIFY;841;55.0;Grew;True;2016-11-04 21:16:46+00:00;False;6;5;4076;7f18ac8f9943a88f29a9f8e61bc6dc7cd3fa2e20;4;thiago.arrais@gmail.com;thiago.arrais@gmail.com
-test_filters.rb;MODIFY;776;-65.0;Grew;True;2016-11-22 23:38:33+00:00;False;6;5;3749;5c965d6a203d66a4543c11032f3912209782a748;3;thetimbanks@gmail.com;thetimbanks@gmail.com
-test_filters.rb;MODIFY;840;64.0;Decreased;True;2016-11-30 20:54:59+00:00;False;6;5;4074;4ed41558d13fa282853b8eea5250c69936dda4da;1;thiago.arrais@gmail.com;thiago.arrais@gmail.com
+test_filters.rb;MODIFY;776;-65.0;Decreased;True;2016-11-22 23:38:33+00:00;False;6;5;3749;5c965d6a203d66a4543c11032f3912209782a748;3;thetimbanks@gmail.com;thetimbanks@gmail.com
+test_filters.rb;MODIFY;840;64.0;Grew;True;2016-11-30 20:54:59+00:00;False;6;5;4074;4ed41558d13fa282853b8eea5250c69936dda4da;1;thiago.arrais@gmail.com;thiago.arrais@gmail.com
 test_filters.rb;MODIFY;842;2.0;Grew;True;2016-12-09 16:15:16+00:00;False;6;5;4094;d4c8d7fd2be52a75a805ed920f38c38cb3611e3d;1;thiago.arrais@gmail.com;thiago.arrais@gmail.com
-test_filters.rb;MODIFY;848;6.0;Equal;True;2017-01-12 23:52:29+00:00;False;6;5;4191;1d885911bce091a8d8f89df410896809ec6e8bd4;48;pat@pathawks.com;pat@pathawks.com
-test_filters.rb;MODIFY;864;16.0;Equal;True;2017-01-18 19:16:08+00:00;False;6;5;4253;b6bc85ec7cf70dfdde262eb15b0723b191ad21d0;1;parkrmoore@gmail.com;parkrmoore@gmail.com
+test_filters.rb;MODIFY;848;6.0;Grew;True;2017-01-12 23:52:29+00:00;False;6;5;4191;1d885911bce091a8d8f89df410896809ec6e8bd4;48;pat@pathawks.com;pat@pathawks.com
+test_filters.rb;MODIFY;864;16.0;Grew;True;2017-01-18 19:16:08+00:00;False;6;5;4253;b6bc85ec7cf70dfdde262eb15b0723b191ad21d0;1;parkrmoore@gmail.com;parkrmoore@gmail.com
 test_filters.rb;MODIFY;868;4.0;Grew;True;2017-03-16 12:54:13+00:00;False;6;5;4275;ec5b45cd7c1a2df1520ada1df9b235101ea11ba2;2;pat@pathawks.com;pat@pathawks.com
 test_filters.rb;MODIFY;868;0.0;Equal;True;2017-03-16 12:59:13+00:00;False;6;5;4275;6bc9f71050be590478d1d47b1050f4dddb5471f7;1;pat@pathawks.com;pat@pathawks.com
 test_filters.rb;MODIFY;866;-2.0;Decreased;True;2017-04-04 23:47:11+00:00;False;6;5;4274;52ac75b484408bc47bf31d7c10dbcb8c3a9024e8;2;noreply@github.com;jekyllbot@users.noreply.github.com
@@ -119,14 +119,14 @@ test_filters.rb;MODIFY;922;0.0;Equal;True;2017-06-15 12:29:35+00:00;False;6;5;45
 test_filters.rb;MODIFY;939;17.0;Grew;True;2017-06-15 18:28:41+00:00;False;6;5;4625;69e97fa06fde3b73cee2e79b4f622e132821cc56;2;jekyllbot@users.noreply.github.com;ben.balter@github.com
 test_filters.rb;MODIFY;947;8.0;Grew;True;2017-07-01 01:58:25+00:00;False;6;5;4684;9f7815786b68f853dfabb33293f494e4222c5c1b;2;jekyllbot@users.noreply.github.com;282759+benbalter@users.noreply.github.com
 test_filters.rb;MODIFY;965;18.0;Grew;True;2017-07-30 19:12:42+00:00;False;9;7;4789;b35c0d860725a7e8e1f3a75101610d0085a92c5e;2;jekyllbot@users.noreply.github.com;282759+benbalter@users.noreply.github.com
-test_filters.rb;MODIFY;965;0.0;Grew;True;2017-08-04 01:27:32+00:00;False;9;7;4789;7cf5f51ca287aa5903eaec807f24c88ddfbd115a;133;jekyllbot@users.noreply.github.com;parkrmoore@gmail.com
+test_filters.rb;MODIFY;965;0.0;Equal;True;2017-08-04 01:27:32+00:00;False;9;7;4789;7cf5f51ca287aa5903eaec807f24c88ddfbd115a;133;jekyllbot@users.noreply.github.com;parkrmoore@gmail.com
 test_filters.rb;MODIFY;968;3.0;Grew;True;2017-08-10 15:14:52+00:00;False;9;7;4804;045226f160d7cfe8bc2c7bc6d4bbce660f3ddd2d;2;jekyllbot@users.noreply.github.com;ben.balter@github.com
-test_filters.rb;MODIFY;968;0.0;Decreased;True;2017-10-19 18:22:36+00:00;False;9;7;4804;e7f1ce2e2b664f8b0ed3d1f9e39f47f9e879026f;10;noreply@github.com;jekyllbot@users.noreply.github.com
+test_filters.rb;MODIFY;968;0.0;Equal;True;2017-10-19 18:22:36+00:00;False;9;7;4804;e7f1ce2e2b664f8b0ed3d1f9e39f47f9e879026f;10;noreply@github.com;jekyllbot@users.noreply.github.com
 test_filters.rb;MODIFY;980;12.0;Grew;True;2017-11-05 15:17:51+00:00;False;9;7;4852;a66c4780ccbf6dc4236548210ed1667038fe8ffe;2;jekyllbot@users.noreply.github.com;johannes.mueller@smj-fulda.org
 test_filters.rb;MODIFY;995;15.0;Grew;True;2017-11-10 16:35:44+00:00;False;9;7;4913;582165897de5ed40b09a1593d7437b933aebe63b;2;jekyllbot@users.noreply.github.com;pat@pathawks.com
 test_filters.rb;MODIFY;1001;6.0;Grew;True;2017-11-12 17:52:18+00:00;False;9;7;4928;41312370a30850b4b3a6b108e383423cb84ff3e0;1;pat@pathawks.com;pat@pathawks.com
 test_filters.rb;MODIFY;1009;8.0;Grew;True;2017-11-17 21:36:11+00:00;False;9;7;4957;2c646a304cb2901acb6f53396523bf9ac24f6d36;2;noreply@github.com;jekyllbot@users.noreply.github.com
-test_filters.rb;MODIFY;1009;0.0;Grew;True;2017-12-07 18:55:05+00:00;False;9;7;4957;0fdb39bbd6925d63966c155ed4665c0e2f67886a;2;frank.taillandier@gmail.com;jekyllbot@users.noreply.github.com
+test_filters.rb;MODIFY;1009;0.0;Equal;True;2017-12-07 18:55:05+00:00;False;9;7;4957;0fdb39bbd6925d63966c155ed4665c0e2f67886a;2;frank.taillandier@gmail.com;jekyllbot@users.noreply.github.com
 test_filters.rb;MODIFY;1008;-1.0;Decreased;True;2018-01-20 22:04:52+00:00;False;9;7;4955;3f4bb55e07718526fa3bff59d1b48f88d61bdcb5;8;jekyllbot@users.noreply.github.com;parkrmoore@gmail.com
 test_filters.rb;MODIFY;1039;31.0;Grew;True;2018-03-05 22:15:59+00:00;False;9;7;5085;ebcd8306938d46b8053d295299462e080be839f6;4;jekyllbot@users.noreply.github.com;ammartinez@suse.de
 test_filters.rb;MODIFY;1039;0.0;Equal;True;2018-04-09 08:26:49+00:00;False;9;7;5085;2a032a38ecd62d8fdec5bf0dcc993c2e04006587;16;jekyllbot@users.noreply.github.com;crispgm@gmail.com
@@ -147,7 +147,7 @@ test_filters.rb;MODIFY;1323;17.0;Grew;True;2020-05-22 15:01:17+00:00;False;9;7;6
 test_filters.rb;MODIFY;1323;0.0;Equal;True;2020-06-08 12:39:50+00:00;False;9;7;6966;ee20e844aa5d6ff471f397a4ce6b33cf0a63166c;5;noreply@github.com;ashmaroli@users.noreply.github.com
 test_filters.rb;MODIFY;1323;0.0;Equal;True;2020-06-17 13:26:53+00:00;False;9;7;6966;ba29de02d46ea27c8acdbbee062782dc98697ece;7;noreply@github.com;ashmaroli@users.noreply.github.com
 test_filters.rb;MODIFY;1319;-4.0;Decreased;True;2020-09-04 10:08:14+00:00;False;9;7;6968;822bb57d411ab6dc2d57448bd175a70799835eed;3;noreply@github.com;ashmaroli@users.noreply.github.com
-test_filters.rb;MODIFY;1319;0.0;Grew;True;2020-11-23 15:46:50+00:00;False;9;7;6968;d560d53266abd70a4eb306320e80710f9b876ed0;1;frank@forestry.io;frank@forestry.io
+test_filters.rb;MODIFY;1319;0.0;Equal;True;2020-11-23 15:46:50+00:00;False;9;7;6968;d560d53266abd70a4eb306320e80710f9b876ed0;1;frank@forestry.io;frank@forestry.io
 test_filters.rb;MODIFY;1319;0.0;Equal;True;2021-01-12 23:39:41+00:00;False;9;7;6982;8c8326e9ab6752eee28ba0f135090f19e52cb72e;25;noreply@github.com;frank.taillandier@gmail.com
 test_filters.rb;MODIFY;1323;4.0;Grew;True;2021-11-17 09:48:03+00:00;False;9;7;6997;3a688fe55ab0a8d16c3e193efaff8c967c6c0269;1;noreply@github.com;philr@users.noreply.github.com
 test_filters.rb;MODIFY;1324;1.0;Grew;True;2022-04-01 13:24:55+00:00;False;9;7;7001;776748e13f5a5f1e65d9a8e865e9126bf134f25b;4;noreply@github.com;jjnilton@users.noreply.github.com

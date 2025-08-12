@@ -1,5 +1,5 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
-textModel.test.ts;ADD;221;0.0;Grew;False;2015-11-13 13:39:38+00:00;False;14;13;1964;8f35cc4768393b25468416829e980d7550619fb1;1897;egamma@microsoft.com;egamma@microsoft.com
+textModel.test.ts;ADD;221;0.0;Equal;False;2015-11-13 13:39:38+00:00;False;14;13;1964;8f35cc4768393b25468416829e980d7550619fb1;1897;egamma@microsoft.com;egamma@microsoft.com
 textModel.test.ts;MODIFY;221;0.0;Equal;False;2015-12-09 09:59:52+00:00;False;14;13;1976;d60cc73d82e803184c996da11bbd54d8f4eddb57;3;alexdima@microsoft.com;alexdima@microsoft.com
 textModel.test.ts;MODIFY;396;175.0;Grew;False;2015-12-17 10:17:32+00:00;False;13;13;2363;e573984ee25a22764209ab574c230811ab2d4f4d;2;alexdima@microsoft.com;alexdima@microsoft.com
 textModel.test.ts;MODIFY;396;0.0;Equal;False;2016-02-21 22:37:12+00:00;False;13;13;2227;eac7644efc4afa455b5440861b291494de72aad6;71;alexdima@microsoft.com;alexdima@microsoft.com
@@ -10,8 +10,8 @@ textModel.test.ts;MODIFY;425;23.0;Grew;False;2016-03-08 20:28:58+00:00;False;15;
 textModel.test.ts;MODIFY;483;58.0;Grew;False;2016-03-08 20:28:59+00:00;False;17;14;3021;8bc4d854a1779f0b7529c1ef8d5bfae438b098f5;12;alexdima@microsoft.com;alexdima@microsoft.com
 textModel.test.ts;MODIFY;492;9.0;Grew;False;2016-03-11 16:37:01+00:00;False;17;14;3053;d96fa2a9188451ed95b595d1129d21c4e6231649;2;aweinand@microsoft.com;aweinand@microsoft.com
 textModel.test.ts;MODIFY;508;16.0;Grew;False;2016-04-25 03:41:57+00:00;False;18;15;3423;c84977cec61c979a8398156e8abdd0a961a72abe;1;aioutecism@gmail.com;aioutecism@gmail.com
-textModel.test.ts;MODIFY;495;-13.0;Grew;False;2016-05-03 15:39:13+00:00;False;17;14;3065;fb5b68d199918fbe58e57d4faa3909580430fa4e;18;alexdima@microsoft.com;alexdima@microsoft.com
-textModel.test.ts;MODIFY;511;16.0;Equal;False;2016-06-01 11:00:02+00:00;False;12;9;3465;c3b50044ba5dccb334230914fa52a0cbbe7636f7;7;alexdima@microsoft.com;alexdima@microsoft.com
+textModel.test.ts;MODIFY;495;-13.0;Decreased;False;2016-05-03 15:39:13+00:00;False;17;14;3065;fb5b68d199918fbe58e57d4faa3909580430fa4e;18;alexdima@microsoft.com;alexdima@microsoft.com
+textModel.test.ts;MODIFY;511;16.0;Grew;False;2016-06-01 11:00:02+00:00;False;12;9;3465;c3b50044ba5dccb334230914fa52a0cbbe7636f7;7;alexdima@microsoft.com;alexdima@microsoft.com
 textModel.test.ts;MODIFY;629;118.0;Grew;False;2016-06-27 23:39:52+00:00;False;23;19;4179;40479e9d5c5e519570d75de9370f986127ff99bd;3;alexdima@microsoft.com;alexdima@microsoft.com
 textModel.test.ts;MODIFY;637;8.0;Grew;False;2016-06-29 11:18:45+00:00;False;24;20;4220;1bfab84d0d71051cc70486ed396d01a79a936696;2;alexdima@microsoft.com;alexdima@microsoft.com
 textModel.test.ts;MODIFY;647;10.0;Grew;False;2016-07-11 08:59:48+00:00;False;25;21;4273;90c0f84dbd5ef7da6ae1291b257a879db73cd4c3;2;alexdima@microsoft.com;alexdima@microsoft.com
@@ -36,14 +36,14 @@ textModel.test.ts;MODIFY;732;0.0;Equal;False;2018-01-04 14:27:58+00:00;False;27;
 textModel.test.ts;MODIFY;732;0.0;Equal;False;2018-01-04 14:44:40+00:00;False;27;24;6472;54e7055c12f4e9a80f44c67758a12cf248d5f374;185;alexdima@microsoft.com;alexdima@microsoft.com
 textModel.test.ts;MODIFY;736;4.0;Grew;False;2018-01-05 14:53:55+00:00;False;27;24;6489;0b0d4ac8094f7c2a36627775ebee290ba78ce744;5;alexdima@microsoft.com;alexdima@microsoft.com
 textModel.test.ts;MODIFY;702;-34.0;Decreased;False;2018-01-05 15:27:20+00:00;False;27;24;6320;ed5ae61e1273114584593f22e4c21088cd1f7a56;12;alexdima@microsoft.com;alexdima@microsoft.com
-textModel.test.ts;MODIFY;676;-26.0;Equal;False;2018-01-08 16:24:26+00:00;False;26;23;5718;96e79f729e1e63e5a09102793aabbc1963ddbe71;4;penn.lv@gmail.com;penn.lv@gmail.com
-textModel.test.ts;MODIFY;702;26.0;Equal;False;2018-01-09 01:00:47+00:00;False;27;24;6320;2d12f2e1422ce3ce1d45e06b0da6bd9453172c5e;4;penn.lv@gmail.com;penn.lv@gmail.com
+textModel.test.ts;MODIFY;676;-26.0;Decreased;False;2018-01-08 16:24:26+00:00;False;26;23;5718;96e79f729e1e63e5a09102793aabbc1963ddbe71;4;penn.lv@gmail.com;penn.lv@gmail.com
+textModel.test.ts;MODIFY;702;26.0;Grew;False;2018-01-09 01:00:47+00:00;False;27;24;6320;2d12f2e1422ce3ce1d45e06b0da6bd9453172c5e;4;penn.lv@gmail.com;penn.lv@gmail.com
 textModel.test.ts;MODIFY;758;56.0;Grew;False;2018-01-17 08:28:16+00:00;False;29;26;6804;728f825f04647ab9b886d8842cf62cde238d739e;1;alexdima@microsoft.com;alexdima@microsoft.com
-textModel.test.ts;MODIFY;758;0.0;Grew;False;2018-01-17 14:45:15+00:00;False;29;26;6804;e2179ca10b5455b35f6411d7aa9f0feef13703bf;1;alexdima@microsoft.com;alexdima@microsoft.com
+textModel.test.ts;MODIFY;758;0.0;Equal;False;2018-01-17 14:45:15+00:00;False;29;26;6804;e2179ca10b5455b35f6411d7aa9f0feef13703bf;1;alexdima@microsoft.com;alexdima@microsoft.com
 textModel.test.ts;MODIFY;801;43.0;Grew;False;2018-01-18 12:03:19+00:00;False;35;31;7160;a010ff7484a7ab7c8bfb5b327518cd06837f6ce2;5;alexdima@microsoft.com;alexdima@microsoft.com
 textModel.test.ts;MODIFY;803;2.0;Grew;False;2018-01-18 16:55:18+00:00;False;36;31;7164;2ffaacf56bedd72b6a4d7626a58586a48e8771c1;3;alexdima@microsoft.com;alexdima@microsoft.com
 textModel.test.ts;MODIFY;810;7.0;Grew;False;2018-03-03 21:18:37+00:00;False;36;31;7207;39313c13571417fec88b5c325aa14667da2b9af9;8;mechatroner@yandex.ru;mechatroner@yandex.ru
-textModel.test.ts;MODIFY;806;-4.0;Grew;False;2018-03-20 15:25:10+00:00;False;36;31;7176;f470ce19e7afb450a7bad0aea47281b5817d094b;19;inikolic@microsoft.com;inikolic@microsoft.com
+textModel.test.ts;MODIFY;806;-4.0;Decreased;False;2018-03-20 15:25:10+00:00;False;36;31;7176;f470ce19e7afb450a7bad0aea47281b5817d094b;19;inikolic@microsoft.com;inikolic@microsoft.com
 textModel.test.ts;MODIFY;789;-17.0;Decreased;False;2018-04-06 21:52:46+00:00;False;36;31;7106;a7a72a54397eb60599a8ff89d41cb4c0d3c7b6f5;4;alexdima@microsoft.com;alexdima@microsoft.com
 textModel.test.ts;MODIFY;807;18.0;Grew;False;2018-04-30 10:11:32+00:00;False;37;32;7155;977396b7d0e88897ee9fe432378baf14689dedf5;2;alexdima@microsoft.com;alexdima@microsoft.com
 textModel.test.ts;MODIFY;807;0.0;Equal;False;2018-05-02 09:42:16+00:00;False;37;32;7155;8745c1f89ac3b225725c0846074e9aa400d4833c;59;alexdima@microsoft.com;alexdima@microsoft.com
@@ -51,7 +51,7 @@ textModel.test.ts;MODIFY;820;13.0;Grew;False;2018-06-06 00:13:00+00:00;False;39;
 textModel.test.ts;MODIFY;845;25.0;Grew;False;2018-09-12 16:12:31+00:00;False;40;35;7438;bfbb4835708b6a98bf6016682ec6347820671c54;2;alexdima@microsoft.com;alexdima@microsoft.com
 textModel.test.ts;MODIFY;845;0.0;Equal;False;2018-09-27 17:16:53+00:00;False;40;35;7438;723042560f7ba7853b5cff772009f5b798f88c51;2;kalle@maxflow.org;kalle@maxflow.org
 textModel.test.ts;MODIFY;844;-1.0;Decreased;False;2018-10-02 22:59:35+00:00;False;40;35;7436;7ebea5fba062cd241b596a275be40d72ca48f5f1;274;matb@microsoft.com;matb@microsoft.com
-textModel.test.ts;MODIFY;844;0.0;Grew;False;2018-10-23 07:54:11+00:00;False;40;35;7436;17454d4e88886404af130639b979498b227a9167;373;alexdima@microsoft.com;alexdima@microsoft.com
+textModel.test.ts;MODIFY;844;0.0;Equal;False;2018-10-23 07:54:11+00:00;False;40;35;7436;17454d4e88886404af130639b979498b227a9167;373;alexdima@microsoft.com;alexdima@microsoft.com
 textModel.test.ts;MODIFY;844;0.0;Equal;False;2018-12-12 15:32:19+00:00;False;40;35;7440;2fe87d6b79bd2f15ec8e3bed0bb772d1248eef7e;44;alexdima@microsoft.com;alexdima@microsoft.com
 textModel.test.ts;MODIFY;860;16.0;Grew;False;2019-04-03 15:51:12+00:00;False;42;37;7806;827eab945708d50b8c298fea8d51b65b6e9a222b;2;alexdima@microsoft.com;alexdima@microsoft.com
 textModel.test.ts;MODIFY;890;30.0;Grew;False;2019-04-29 15:36:04+00:00;False;46;38;7993;63113bea12f8195b52ff76bee9c40bc75412a333;2;alexdima@microsoft.com;alexdima@microsoft.com

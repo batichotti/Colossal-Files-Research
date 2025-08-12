@@ -1,5 +1,5 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
-sync_test.go;RENAME;789;0.0;Grew;False;2018-01-15 17:51:14+00:00;False;78;63;6551;11da2a6c9bd1a903a7737e9314617810f1903c5c;183;nick@craig-wood.com;nick@craig-wood.com
+sync_test.go;RENAME;789;0.0;Equal;False;2018-01-15 17:51:14+00:00;False;78;63;6551;11da2a6c9bd1a903a7737e9314617810f1903c5c;183;nick@craig-wood.com;nick@craig-wood.com
 sync_test.go;MODIFY;766;-23.0;Decreased;False;2018-01-18 11:00:25+00:00;False;74;59;6338;5cce74d6308b41f3e8d2680108d4cfea3bc70709;7;nick@craig-wood.com;er.borowski@gmail.com
 sync_test.go;MODIFY;766;0.0;Equal;False;2018-01-18 20:27:52+00:00;False;74;59;6338;97c414f025839e33afdfb5269881158533606013;30;nick@craig-wood.com;nick@craig-wood.com
 sync_test.go;MODIFY;834;68.0;Grew;False;2018-03-23 22:01:10+00:00;False;76;61;6625;91b068ad3a600f8b1e486ac6d846547ec3ceb52f;4;nick@craig-wood.com;pabian.mateusz@gmail.com
@@ -9,7 +9,7 @@ sync_test.go;MODIFY;860;26.0;Grew;False;2018-05-05 11:58:28+00:00;False;79;63;68
 sync_test.go;MODIFY;860;0.0;Equal;False;2018-06-03 18:45:34+00:00;False;79;63;6918;4009fb67c80086ae220cbccc6a6ca1d7aa2af621;9;noreply@github.com;stefan-github@yrden.de
 sync_test.go;MODIFY;882;22.0;Grew;False;2018-06-04 10:01:14+00:00;False;80;64;7040;d758e1908ee679948f0503cb6b961a4d67bc8491;2;nick@craig-wood.com;kariuki@ishuah.com
 sync_test.go;MODIFY;882;0.0;Equal;False;2018-06-04 20:41:25+00:00;False;80;64;7043;ba43acb6aa703ed64b4c9671b36d31354bbd9f5b;1;nick@craig-wood.com;nick@craig-wood.com
-sync_test.go;MODIFY;882;0.0;Grew;False;2018-06-10 16:34:00+00:00;False;80;64;7065;1c7558195929f3df9f23ece38d6229d0307dc510;1;nick@craig-wood.com;nick@craig-wood.com
+sync_test.go;MODIFY;882;0.0;Equal;False;2018-06-10 16:34:00+00:00;False;80;64;7065;1c7558195929f3df9f23ece38d6229d0307dc510;1;nick@craig-wood.com;nick@craig-wood.com
 sync_test.go;MODIFY;920;38.0;Grew;False;2018-07-17 09:34:34+00:00;False;82;66;7313;dcc74fa404b1882236d991c3e4e03efeb8e352b7;2;nick@craig-wood.com;kariuki@ishuah.com
 sync_test.go;MODIFY;941;21.0;Grew;False;2018-10-20 17:13:31+00:00;False;84;68;7481;c5ac96e9e7afd2e11b69233ed3671e8ad05d24a9;7;nick@craig-wood.com;nick@craig-wood.com
 sync_test.go;MODIFY;964;23.0;Grew;False;2018-12-02 20:28:13+00:00;False;88;72;7694;107293c80e2e55e8abb024a9610c2a456f027046;8;nick@craig-wood.com;nick@craig-wood.com
@@ -54,9 +54,9 @@ sync_test.go;MODIFY;1418;12.0;Grew;False;2020-09-09 11:53:21+00:00;False;142;106
 sync_test.go;MODIFY;1439;21.0;Grew;False;2020-10-04 15:40:20+00:00;False;145;108;13045;db4bbf9521790ed8d1ab2ec3c0bf7cbce783aeb1;3;nick@craig-wood.com;nick@craig-wood.com
 sync_test.go;MODIFY;1439;0.0;Equal;False;2020-10-28 18:16:23+00:00;False;145;108;13045;bbe7eb35f1d6bfb19f456bd143d1e5109ecd5246;53;nick@craig-wood.com;jsoref@users.noreply.github.com
 sync_test.go;MODIFY;1490;51.0;Grew;False;2020-11-09 18:05:54+00:00;False;145;108;12828;e3fe31f7cb5f85c557e42b7e7985d6767ab43607;11;nick@craig-wood.com;nick@craig-wood.com
-sync_test.go;MODIFY;1439;-51.0;Equal;False;2020-11-09 18:05:54+00:00;False;145;108;13087;d8462109788ecfe29854c4c00a02313333d31d54;82;nick@craig-wood.com;nick@craig-wood.com
+sync_test.go;MODIFY;1439;-51.0;Decreased;False;2020-11-09 18:05:54+00:00;False;145;108;13087;d8462109788ecfe29854c4c00a02313333d31d54;82;nick@craig-wood.com;nick@craig-wood.com
 sync_test.go;MODIFY;1524;85.0;Grew;False;2020-11-26 16:40:12+00:00;False;145;108;12905;2e21c58e6a6c69be8c2c46cda157d977388687c5;93;nick@craig-wood.com;nick@craig-wood.com
-sync_test.go;MODIFY;1523;-1.0;Grew;False;2020-11-27 17:28:42+00:00;False;144;107;12906;c22d04aa309c606cec7a7ac248df2fb4ee5aae15;15;nick@craig-wood.com;nick@craig-wood.com
+sync_test.go;MODIFY;1523;-1.0;Decreased;False;2020-11-27 17:28:42+00:00;False;144;107;12906;c22d04aa309c606cec7a7ac248df2fb4ee5aae15;15;nick@craig-wood.com;nick@craig-wood.com
 sync_test.go;MODIFY;1523;0.0;Equal;False;2021-01-30 17:39:30+00:00;False;144;107;12910;3b6df718380c4e4c0d31c2503ee8c9009dda2f24;7;nick@craig-wood.com;nick@craig-wood.com
 sync_test.go;MODIFY;1523;0.0;Equal;False;2021-01-30 17:39:30+00:00;False;144;107;12934;0a932dc1f28fcc4d7a3fc2a8cfe4cfe5fde44eb2;7;nick@craig-wood.com;nick@craig-wood.com
 sync_test.go;MODIFY;1548;25.0;Grew;False;2021-02-16 18:17:04+00:00;False;146;109;13209;930bca2478dc39f146fbc03e371f8620e5f34855;7;nick@craig-wood.com;k.265@qq.com
@@ -78,11 +78,11 @@ sync_test.go;MODIFY;1607;17.0;Grew;False;2022-06-16 21:13:50+00:00;False;133;88;
 sync_test.go;MODIFY;1550;-57.0;Decreased;False;2022-12-09 14:38:05+00:00;False;133;88;12935;8e507075d10c0eddc4d6718ae008ff69023947ff;34;nick@craig-wood.com;engzerjun@gmail.com
 sync_test.go;MODIFY;1558;8.0;Grew;False;2023-07-17 13:00:04+00:00;False;133;88;13047;432d5d1e20abe6443096eddf3214768c2a6f9b4f;3;nick@craig-wood.com;nick@craig-wood.com
 sync_test.go;MODIFY;1558;0.0;Equal;False;2023-07-18 08:51:31+00:00;False;133;88;13047;378a2d21eed6cd81f2e701e67cc6805af8eef7bc;6;nick@craig-wood.com;dariuszb@me.com
-sync_test.go;MODIFY;1557;-1.0;Grew;False;2023-08-13 10:42:31+00:00;False;133;88;13032;34195fd3e87c51bbd1ed6ced9e5cf19f57ce7030;1;nick@craig-wood.com;nick@craig-wood.com
+sync_test.go;MODIFY;1557;-1.0;Decreased;False;2023-08-13 10:42:31+00:00;False;133;88;13032;34195fd3e87c51bbd1ed6ced9e5cf19f57ce7030;1;nick@craig-wood.com;nick@craig-wood.com
 sync_test.go;MODIFY;1816;259.0;Grew;False;2024-01-20 19:50:08+00:00;False;158;97;15846;3a50f35df9ff8e4fa9a3e0745c9997f28991d086;10;nielronash@gmail.com;nielronash@gmail.com
 sync_test.go;MODIFY;1853;37.0;Grew;False;2024-01-20 19:50:08+00:00;False;161;99;16237;7f854acb0569644f6bab69e550ab6d8e3d281763;2;nielronash@gmail.com;nielronash@gmail.com
-sync_test.go;MODIFY;1840;-13.0;Grew;False;2024-01-20 19:50:08+00:00;False;160;98;16099;11afc3dde0720ff5f8312bb26e3dde2f8956c410;5;nielronash@gmail.com;nielronash@gmail.com
-sync_test.go;MODIFY;1830;-10.0;Grew;False;2024-01-20 19:50:08+00:00;False;158;97;16037;c0968a0987e15027513ff6fe1728c9e61245a154;7;nielronash@gmail.com;nielronash@gmail.com
+sync_test.go;MODIFY;1840;-13.0;Decreased;False;2024-01-20 19:50:08+00:00;False;160;98;16099;11afc3dde0720ff5f8312bb26e3dde2f8956c410;5;nielronash@gmail.com;nielronash@gmail.com
+sync_test.go;MODIFY;1830;-10.0;Decreased;False;2024-01-20 19:50:08+00:00;False;158;97;16037;c0968a0987e15027513ff6fe1728c9e61245a154;7;nielronash@gmail.com;nielronash@gmail.com
 sync_test.go;MODIFY;1959;129.0;Grew;False;2024-02-28 16:26:14+00:00;False;177;101;17198;f5f86786b27290964d3b6b29790f1d245f66aa1d;23;nick@craig-wood.com;nick@craig-wood.com
 sync_test.go;MODIFY;1958;-1.0;Decreased;False;2024-03-01 10:56:48+00:00;False;177;101;17175;be39e9991892bd27a41c59817373c4c260236b27;3;nick@craig-wood.com;nick@craig-wood.com
 sync_test.go;MODIFY;2011;53.0;Grew;False;2024-03-07 09:57:11+00:00;False;187;105;17906;8c69455c37966e6686f9f8486b2ecf95ef809229;20;nick@craig-wood.com;nielronash@gmail.com
@@ -90,7 +90,7 @@ sync_test.go;MODIFY;2037;26.0;Grew;True;2024-03-07 17:20:24+00:00;True;189;106;1
 sync_test.go;MODIFY;2037;0.0;Equal;True;2024-03-08 15:04:35+00:00;False;189;106;18142;f491efc85d0bc6c674520331f315b51f060a6b92;1;nick@craig-wood.com;nick@craig-wood.com
 sync_test.go;MODIFY;2141;104.0;Grew;True;2024-05-03 11:29:18+00:00;False;201;114;19063;617534112be3db5b2063ad473d9e9247fe77def8;2;nick@craig-wood.com;nick@craig-wood.com
 sync_test.go;MODIFY;2157;16.0;Grew;True;2024-05-03 11:29:18+00:00;False;202;114;19310;47735d8fe1a0ad601d1720e7ee9693bfae2294e8;2;nick@craig-wood.com;nick@craig-wood.com
-sync_test.go;MODIFY;2122;-35.0;Grew;True;2024-05-03 11:29:18+00:00;False;198;113;18822;10eb4742dd9da47342ef768576fefd7c5f149443;4;nick@craig-wood.com;nick@craig-wood.com
+sync_test.go;MODIFY;2122;-35.0;Decreased;True;2024-05-03 11:29:18+00:00;False;198;113;18822;10eb4742dd9da47342ef768576fefd7c5f149443;4;nick@craig-wood.com;nick@craig-wood.com
 sync_test.go;MODIFY;2160;38.0;Grew;True;2024-06-08 16:44:11+00:00;False;204;114;19325;76798d5bb1382ffd191a0b685178eee0751bf3b4;1;nick@craig-wood.com;nick@craig-wood.com
 sync_test.go;MODIFY;2160;0.0;Equal;True;2024-06-11 10:31:35+00:00;False;206;114;19333;003f4531fe2448725981944c1c506df16f66680b;1;nick@craig-wood.com;nick@craig-wood.com
 sync_test.go;MODIFY;2172;12.0;Grew;True;2024-08-15 14:36:38+00:00;False;210;114;19421;87ec26001f399cd1fe728a98d78c1b6ec4f0d322;6;nick@craig-wood.com;nielronash@gmail.com

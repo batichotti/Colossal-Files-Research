@@ -1,5 +1,5 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
-test_pattern_matching.rb;ADD;936;0.0;Grew;True;2019-04-17 06:48:03+00:00;True;26;25;3134;9738f96fcfe50b2a605e350bdd40bd7a85665f54;21;ktsj@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;ktsj@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+test_pattern_matching.rb;ADD;936;0.0;Equal;True;2019-04-17 06:48:03+00:00;True;26;25;3134;9738f96fcfe50b2a605e350bdd40bd7a85665f54;21;ktsj@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;ktsj@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_pattern_matching.rb;MODIFY;945;9.0;Grew;True;2019-04-17 06:48:05+00:00;False;27;26;3163;9c9db64d7e9058dc6fc7ead3791b259685798806;2;ktsj@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;ktsj@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_pattern_matching.rb;MODIFY;952;7.0;Grew;True;2019-04-17 08:39:52+00:00;False;27;26;3202;a2366a15bad75fb2ddec63d36aff4af4be14ff14;1;kazu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;kazu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_pattern_matching.rb;MODIFY;955;3.0;Grew;True;2019-04-17 08:53:32+00:00;False;27;26;3213;0f31971ad3e846cc8d9fa3258e8b9abfe85f0f1f;1;kazu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;kazu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
@@ -26,8 +26,8 @@ test_pattern_matching.rb;MODIFY;1172;2.0;Grew;True;2020-03-03 07:19:49+00:00;Fal
 test_pattern_matching.rb;MODIFY;1173;1.0;Grew;True;2020-03-03 11:54:31+00:00;False;30;28;3782;501f2c44e6ae79c02a5c4d0f872fc7fa77258fcf;1;mame@ruby-lang.org;mame@ruby-lang.org
 test_pattern_matching.rb;MODIFY;1222;49.0;Grew;True;2020-06-14 00:24:36+00:00;False;31;29;4035;ddded1157a90d21cb54b9f07de35ab9b4cc472e1;10;kazuki@callcc.net;kazuki@callcc.net
 test_pattern_matching.rb;MODIFY;1297;75.0;Grew;True;2020-06-27 04:51:03+00:00;False;34;32;4324;c9ee34a18bb833b11ce64f6d35fa0e7f1a865a14;2;kazuki@callcc.net;dementiev.vm@gmail.com
-test_pattern_matching.rb;MODIFY;1289;-8.0;Grew;True;2020-06-27 04:51:03+00:00;False;34;32;4283;5320375732a400ef915c8acbf810aed4ac5261b7;2;kazuki@callcc.net;dementiev.vm@gmail.com
-test_pattern_matching.rb;MODIFY;1297;8.0;Equal;True;2020-06-27 04:52:23+00:00;False;34;32;4330;7a5a0dfa5e0deec3d7eec4015577fdd08a753489;1;kazuki@callcc.net;kazuki@callcc.net
+test_pattern_matching.rb;MODIFY;1289;-8.0;Decreased;True;2020-06-27 04:51:03+00:00;False;34;32;4283;5320375732a400ef915c8acbf810aed4ac5261b7;2;kazuki@callcc.net;dementiev.vm@gmail.com
+test_pattern_matching.rb;MODIFY;1297;8.0;Grew;True;2020-06-27 04:52:23+00:00;False;34;32;4330;7a5a0dfa5e0deec3d7eec4015577fdd08a753489;1;kazuki@callcc.net;kazuki@callcc.net
 test_pattern_matching.rb;MODIFY;1297;0.0;Equal;True;2020-10-26 09:00:24+00:00;False;34;32;4330;52c630da004d9273e8e5fc91c6304e9eed902566;8;noreply@github.com;nobu@ruby-lang.org
 test_pattern_matching.rb;MODIFY;1297;0.0;Equal;True;2020-11-01 04:33:58+00:00;False;34;32;4328;b60153241121297c94de976419d421683da4d51b;4;kazuki@callcc.net;kazuki@callcc.net
 test_pattern_matching.rb;MODIFY;1300;3.0;Grew;True;2020-12-13 02:51:49+00:00;False;34;32;4348;88f3ce12d32ffbef983b0950743c20253ea2d0c6;4;kazuki@callcc.net;kazuki@callcc.net
@@ -38,7 +38,7 @@ test_pattern_matching.rb;MODIFY;1332;20.0;Grew;True;2021-03-21 06:14:31+00:00;Fa
 test_pattern_matching.rb;MODIFY;1353;21.0;Grew;True;2021-07-15 16:56:02+00:00;False;36;34;4496;fa87f72e1e84e2b55516be188f00434a683b924c;5;code@jeremyevans.net;code@jeremyevans.net
 test_pattern_matching.rb;MODIFY;1351;-2.0;Decreased;True;2021-07-17 02:13:52+00:00;False;36;34;4488;eed5e8f796ab18e2e0a436dab83e35504ae3ded0;4;kazuki@callcc.net;kazuki@callcc.net
 test_pattern_matching.rb;MODIFY;1453;102.0;Grew;True;2021-08-15 00:38:24+00:00;False;46;41;4951;4568ba071107a139b9f02fc17aa12f998181abf1;7;kazuki@callcc.net;kazuki@callcc.net
-test_pattern_matching.rb;MODIFY;1451;-2.0;Equal;True;2021-08-19 08:07:58+00:00;False;46;41;4952;ecb6d6a4ef058b5598a7633c3921eeab08ce11c6;4;kazuki@callcc.net;kazuki@callcc.net
+test_pattern_matching.rb;MODIFY;1451;-2.0;Decreased;True;2021-08-19 08:07:58+00:00;False;46;41;4952;ecb6d6a4ef058b5598a7633c3921eeab08ce11c6;4;kazuki@callcc.net;kazuki@callcc.net
 test_pattern_matching.rb;MODIFY;1467;16.0;Grew;True;2021-10-23 01:22:14+00:00;False;51;44;4997;93badf47704eece8b7a2b084f18a03a9083fb1a8;1;yk.nishijima@gmail.com;yk.nishijima@gmail.com
 test_pattern_matching.rb;MODIFY;1451;-16.0;Decreased;True;2022-02-19 09:45:49+00:00;False;48;42;4901;db6b23c76cbc7888cd9a9912790c2068703afdd0;3;kazuki@callcc.net;kazuki@callcc.net
 test_pattern_matching.rb;MODIFY;1465;14.0;Grew;True;2022-07-05 23:32:36+00:00;False;48;42;4939;eaeb130b11fefe91aaf61f294ea32af76dada74f;3;nobu@ruby-lang.org;nobu@ruby-lang.org

@@ -1,5 +1,5 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
-test_rational.rb;ADD;782;0.0;Grew;True;2008-03-16 00:23:43+00:00;True;47;35;8066;6125552c27b40a8da9e162af2655feca82ac16d3;16;tadf@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;tadf@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+test_rational.rb;ADD;782;0.0;Equal;True;2008-03-16 00:23:43+00:00;True;47;35;8066;6125552c27b40a8da9e162af2655feca82ac16d3;16;tadf@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;tadf@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_rational.rb;MODIFY;780;-2.0;Decreased;True;2008-03-22 17:31:08+00:00;False;48;36;8064;6e383d9fa285df5c787fe85ba691bd5ae003bdca;5;tadf@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;tadf@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_rational.rb;MODIFY;867;87.0;Grew;True;2008-03-25 15:30:56+00:00;False;64;50;9119;43a2aaea2f307ed50fa059affa797a01ba62320d;4;mame@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;mame@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_rational.rb;MODIFY;867;0.0;Equal;True;2008-03-26 12:50:21+00:00;False;64;50;9119;69ad92d9cabbe83f3f6fe7ebb936b1d2c317f44b;2;tadf@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;tadf@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
@@ -18,7 +18,7 @@ test_rational.rb;MODIFY;886;2.0;Grew;True;2008-09-16 22:04:19+00:00;False;57;42;
 test_rational.rb;MODIFY;879;-7.0;Decreased;True;2008-09-19 13:10:54+00:00;False;56;41;9093;396650e0bd353e30b873683f008f92e2aa498971;15;yugui@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;yugui@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_rational.rb;MODIFY;894;15.0;Grew;True;2008-09-21 01:30:25+00:00;False;60;42;9110;72565402d9d0662a2fbef2e30f76b7a6621eefef;5;tadf@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;tadf@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_rational.rb;MODIFY;796;-98.0;Decreased;True;2008-09-23 10:33:27+00:00;False;56;40;7778;8b54d5812ca4d42f2fe2c53f2b29640ce22d09c3;5;tadf@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;tadf@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
-test_rational.rb;MODIFY;979;183.0;Equal;True;2008-11-10 22:59:47+00:00;False;17;10;1134;524c766d19a7a893cd644866439fde5448a24a4e;2;tadf@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;tadf@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+test_rational.rb;MODIFY;979;183.0;Grew;True;2008-11-10 22:59:47+00:00;False;17;10;1134;524c766d19a7a893cd644866439fde5448a24a4e;2;tadf@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;tadf@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_rational.rb;MODIFY;982;3.0;Grew;True;2008-12-02 17:58:17+00:00;False;17;10;1134;7fd3ac4895af97a69e96ce303e56896e6243df41;2;mame@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;mame@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_rational.rb;MODIFY;979;-3.0;Decreased;True;2008-12-03 12:19:05+00:00;False;17;10;1134;e98e384be0f0f0b82302b0dc4e0e1f65d1d63470;2;tadf@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;tadf@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_rational.rb;MODIFY;992;13.0;Grew;True;2008-12-04 13:14:25+00:00;False;19;10;1186;a821725ab0df0cbec2a8644498644c9f826d49c8;3;tadf@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;tadf@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
@@ -54,7 +54,7 @@ test_rational.rb;MODIFY;726;-229.0;Decreased;True;2014-08-27 00:58:16+00:00;Fals
 test_rational.rb;MODIFY;734;8.0;Grew;True;2015-05-17 06:01:47+00:00;False;55;48;7591;932e916b9e340d3ae52bac2eb57567208dc21d4f;8;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_rational.rb;MODIFY;735;1.0;Grew;True;2015-09-12 01:29:32+00:00;False;55;48;7610;7a0981facc7ea33aacba0c5129e8d8eefdcade4a;1;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_rational.rb;MODIFY;739;4.0;Grew;True;2015-09-12 04:48:36+00:00;False;55;48;7619;78f7e342d156ee139aec307225e7c37e17cef1ff;1;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
-test_rational.rb;MODIFY;739;0.0;Grew;True;2015-12-16 05:07:31+00:00;False;55;48;7619;3e92b635fb5422207b7bbdc924e292e51e21f040;1432;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+test_rational.rb;MODIFY;739;0.0;Equal;True;2015-12-16 05:07:31+00:00;False;55;48;7619;3e92b635fb5422207b7bbdc924e292e51e21f040;1432;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_rational.rb;MODIFY;739;0.0;Equal;True;2016-02-19 07:48:02+00:00;False;55;48;7621;41f4317f45021460871bd11c666f438f5517904b;31;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_rational.rb;MODIFY;740;1.0;Grew;True;2016-02-19 07:58:09+00:00;False;55;48;7629;c7f815eed897a8d78b19e041a569d2667a403f4a;10;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_rational.rb;MODIFY;738;-2.0;Decreased;True;2016-04-09 01:25:11+00:00;False;55;48;7620;404bf57aaffd64cb251574e2916e393d272f77a3;13;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
@@ -96,6 +96,6 @@ test_rational.rb;MODIFY;876;6.0;Grew;True;2021-01-23 01:30:59+00:00;False;74;67;
 test_rational.rb;MODIFY;886;10.0;Grew;True;2021-05-12 01:30:46+00:00;False;76;68;8450;d0e6c6e682b9ba2b0309a5177933a0628e8ef316;2;shyouhei@ruby-lang.org;shyouhei@ruby-lang.org
 test_rational.rb;MODIFY;876;-10.0;Decreased;True;2021-05-12 01:30:46+00:00;False;74;67;8383;6911b4bc82889860ff7da4ecf975504cdc3e5314;2;shyouhei@ruby-lang.org;shyouhei@ruby-lang.org
 test_rational.rb;MODIFY;890;14.0;Grew;True;2021-05-12 01:30:46+00:00;False;76;68;8480;cc0dc67bbbe1951ff90004bc987f78545625d772;4;shyouhei@ruby-lang.org;shyouhei@ruby-lang.org
-test_rational.rb;MODIFY;882;-8.0;Grew;True;2021-05-12 01:30:46+00:00;False;76;68;8416;2bc293e899c9d32dcd794a73de8925c49ecf8f15;5;shyouhei@ruby-lang.org;shyouhei@ruby-lang.org
-test_rational.rb;MODIFY;877;-5.0;Grew;True;2022-12-10 09:57:20+00:00;False;74;67;8391;fd440b09fc64b1d2275942c7f6d1e1f4069e85ae;1;nobu@ruby-lang.org;nobu@ruby-lang.org
+test_rational.rb;MODIFY;882;-8.0;Decreased;True;2021-05-12 01:30:46+00:00;False;76;68;8416;2bc293e899c9d32dcd794a73de8925c49ecf8f15;5;shyouhei@ruby-lang.org;shyouhei@ruby-lang.org
+test_rational.rb;MODIFY;877;-5.0;Decreased;True;2022-12-10 09:57:20+00:00;False;74;67;8391;fd440b09fc64b1d2275942c7f6d1e1f4069e85ae;1;nobu@ruby-lang.org;nobu@ruby-lang.org
 test_rational.rb;MODIFY;876;-1.0;Decreased;True;2024-11-08 10:48:56+00:00;False;74;67;8384;45cd4a8296814f3b082dfb906cdef29974726731;7;mame@ruby-lang.org;mame@ruby-lang.org

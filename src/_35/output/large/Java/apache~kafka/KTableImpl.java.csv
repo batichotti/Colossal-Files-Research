@@ -1,6 +1,6 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
-KTableImpl.java;ADD;132;0.0;Grew;False;2015-12-04 22:59:24+00:00;False;14;12;1121;39c3512eceedebcb6e50f8c6c4ef66601ff7dbc4;40;wangguoz@gmail.com;yasuhiro@confluent.io
-KTableImpl.java;MODIFY;132;0.0;Grew;False;2015-12-07 23:12:09+00:00;False;14;12;1123;d05fa0a03bc9bcfcff8d73cbf1b22832ebdb75a2;38;cshapi@gmail.com;wangguoz@gmail.com
+KTableImpl.java;ADD;132;0.0;Equal;False;2015-12-04 22:59:24+00:00;False;14;12;1121;39c3512eceedebcb6e50f8c6c4ef66601ff7dbc4;40;wangguoz@gmail.com;yasuhiro@confluent.io
+KTableImpl.java;MODIFY;132;0.0;Equal;False;2015-12-07 23:12:09+00:00;False;14;12;1123;d05fa0a03bc9bcfcff8d73cbf1b22832ebdb75a2;38;cshapi@gmail.com;wangguoz@gmail.com
 KTableImpl.java;MODIFY;160;28.0;Grew;False;2015-12-09 07:33:46+00:00;False;25;14;1710;991aad23baa2f55d405d374b0a01785acdc63974;17;wangguoz@gmail.com;yasuhiro@confluent.io
 KTableImpl.java;MODIFY;170;10.0;Grew;False;2015-12-10 07:02:44+00:00;False;28;14;1874;3b350cdff795ec08dc77e60f127f2790149d8d52;10;wangguoz@gmail.com;yasuhiro@confluent.io
 KTableImpl.java;MODIFY;195;25.0;Grew;False;2015-12-16 23:37:53+00:00;False;34;17;2034;587a2f4efd7994d4d3af82ed91304f939514294a;21;wangguoz@gmail.com;yasuhiro@confluent.io
@@ -21,7 +21,7 @@ KTableImpl.java;MODIFY;331;18.0;Grew;False;2016-04-05 22:56:09+00:00;False;48;27
 KTableImpl.java;MODIFY;344;13.0;Grew;False;2016-04-08 16:17:05+00:00;False;49;28;3516;9beafae23a83774fc1d9ea811d449eac34240363;8;wangguoz@gmail.com;eno.thereska@gmail.com
 KTableImpl.java;MODIFY;373;29.0;Grew;False;2016-04-11 00:43:47+00:00;False;54;32;3746;7c27989860e7e063bfec3c679cb6bc8fd52abc84;7;wangguoz@gmail.com;bbejeck@gmail.com
 KTableImpl.java;MODIFY;373;0.0;Equal;False;2016-04-11 19:33:48+00:00;False;54;32;3748;40fd456649b5df29d030da46865b5e7e0ca6db15;11;wangguoz@gmail.com;wangguoz@gmail.com
-KTableImpl.java;MODIFY;373;0.0;Grew;False;2016-04-12 20:00:54+00:00;False;54;32;3748;ba9456de2ebf1a34bdf5f6f62a701875822e1923;39;cshapi@gmail.com;eno.thereska@gmail.com
+KTableImpl.java;MODIFY;373;0.0;Equal;False;2016-04-12 20:00:54+00:00;False;54;32;3748;ba9456de2ebf1a34bdf5f6f62a701875822e1923;39;cshapi@gmail.com;eno.thereska@gmail.com
 KTableImpl.java;MODIFY;377;4.0;Grew;False;2016-04-17 03:18:27+00:00;False;55;33;3784;b1691cf49e9de850ac8a2675c487af9fb60bfdaa;6;wangguoz@gmail.com;bbejeck@gmail.com
 KTableImpl.java;MODIFY;272;-105.0;Decreased;False;2016-04-21 20:42:17+00:00;False;51;29;2790;5c547475d86aa336f8b3c4bb69faff39759d5df5;6;wangguoz@gmail.com;matthias@confluent.io
 KTableImpl.java;MODIFY;272;0.0;Equal;False;2016-06-16 18:56:32+00:00;False;51;29;2792;7d9d1cb2355e33270703280ed6bb712033b03d26;35;wangguoz@gmail.com;damian.guy@gmail.com
@@ -38,8 +38,8 @@ KTableImpl.java;MODIFY;316;-17.0;Decreased;False;2016-10-20 20:06:25+00:00;False
 KTableImpl.java;MODIFY;292;-24.0;Decreased;False;2016-10-30 18:34:17+00:00;False;58;34;2818;18223415b091b0c05af4767191bb97b366aa8fa5;3;wangguoz@gmail.com;matthias@confluent.io
 KTableImpl.java;MODIFY;275;-17.0;Decreased;False;2016-11-09 19:17:37+00:00;False;57;33;2700;f1e1b6e744cde036d75678575bd5e32c608ecdb1;2;wangguoz@gmail.com;damian.guy@gmail.com
 KTableImpl.java;MODIFY;275;0.0;Equal;False;2017-01-11 17:11:18+00:00;False;57;33;2777;a95170f822227c50414c57860e8547dc2e9d84cb;69;wangguoz@gmail.com;xavier@confluent.io
-KTableImpl.java;MODIFY;275;0.0;Grew;False;2017-01-12 19:46:02+00:00;False;57;33;2777;8079c980ac5c9c00d7577fa05857b4de6864dbb5;93;wangguoz@gmail.com;damian.guy@gmail.com
-KTableImpl.java;MODIFY;275;0.0;Decreased;False;2017-02-28 20:35:04+00:00;False;57;33;2777;d0e436c471ba4122ddcc0f7a1624546f97c4a517;1100;me@ewencp.org;matthias@confluent.io
+KTableImpl.java;MODIFY;275;0.0;Equal;False;2017-01-12 19:46:02+00:00;False;57;33;2777;8079c980ac5c9c00d7577fa05857b4de6864dbb5;93;wangguoz@gmail.com;damian.guy@gmail.com
+KTableImpl.java;MODIFY;275;0.0;Equal;False;2017-02-28 20:35:04+00:00;False;57;33;2777;d0e436c471ba4122ddcc0f7a1624546f97c4a517;1100;me@ewencp.org;matthias@confluent.io
 KTableImpl.java;MODIFY;276;1.0;Grew;False;2017-03-20 20:52:35+00:00;False;57;33;2792;5a2fcdd6d480e9f003cc49a59d5952ba4c515a71;24;junrao@gmail.com;cmccabe@confluent.io
 KTableImpl.java;MODIFY;497;221.0;Grew;False;2017-05-03 23:15:54+00:00;False;96;58;4618;ec9e4eafa406fec897713310bafdedf6bbb3c0c5;26;wangguoz@gmail.com;eno.thereska@gmail.com
 KTableImpl.java;MODIFY;498;1.0;Grew;False;2017-05-17 18:15:31+00:00;False;96;58;4643;6910baf548ebad4c1530432e51be40793b4a4f10;10;wangguoz@gmail.com;jameschien@staff.ruten.com.tw
@@ -47,7 +47,7 @@ KTableImpl.java;MODIFY;499;1.0;Grew;False;2017-06-22 11:23:58+00:00;False;96;58;
 KTableImpl.java;MODIFY;512;13.0;Grew;False;2017-07-20 13:47:38+00:00;False;94;58;4773;fe4a469fce5a47b89083781ed8a03d0d71428aeb;6;damian.guy@gmail.com;jameschien@staff.ruten.com.tw
 KTableImpl.java;MODIFY;521;9.0;Grew;False;2017-07-28 23:46:34+00:00;False;94;58;4818;1844bf2b2f4cdf5a8209d7ceccb6701fc7dcf768;24;wangguoz@gmail.com;matthias@confluent.io
 KTableImpl.java;MODIFY;538;17.0;Grew;False;2017-07-31 22:28:59+00:00;False;94;58;4869;da2205578be3228ce40eb5e59f6bbcb0c8da0aba;89;wangguoz@gmail.com;matthias@confluent.io
-KTableImpl.java;MODIFY;538;0.0;Grew;False;2017-08-02 22:13:02+00:00;False;94;58;4869;125d69caee993710bc07523fdd3deb0e06b10636;42;wangguoz@gmail.com;wangguoz@gmail.com
+KTableImpl.java;MODIFY;538;0.0;Equal;False;2017-08-02 22:13:02+00:00;False;94;58;4869;125d69caee993710bc07523fdd3deb0e06b10636;42;wangguoz@gmail.com;wangguoz@gmail.com
 KTableImpl.java;MODIFY;545;7.0;Grew;False;2017-09-07 11:35:31+00:00;False;95;59;4964;329d5fa64a2a3ac1d39ac37fdacbf6e43d500d11;6;damian.guy@gmail.com;damian.guy@gmail.com
 KTableImpl.java;MODIFY;547;2.0;Grew;False;2017-09-08 07:21:48+00:00;False;95;59;4970;d0ee6ed36baf702fa24dac8ae31f45fc27324d89;47;damian.guy@gmail.com;damian.guy@gmail.com
 KTableImpl.java;MODIFY;546;-1.0;Decreased;False;2017-09-08 17:22:04+00:00;False;95;59;4949;4769e3d92acdc6036f1f834c70004f0c867ae582;12;damian.guy@gmail.com;damian.guy@gmail.com
@@ -64,7 +64,7 @@ KTableImpl.java;MODIFY;710;0.0;Equal;False;2018-01-30 01:48:53+00:00;False;105;6
 KTableImpl.java;MODIFY;713;3.0;Grew;False;2018-02-25 20:26:18+00:00;False;105;69;6561;5df535e8a349771942050f1e3fd58851f413fa3a;11;noreply@github.com;mjsax@apache.org
 KTableImpl.java;MODIFY;488;-225.0;Decreased;False;2018-05-07 16:44:45+00:00;False;78;44;4807;42771eb37d6abd0a34220d30773e559680bdf9b0;9;noreply@github.com;wangguoz@gmail.com
 KTableImpl.java;MODIFY;323;-165.0;Decreased;False;2018-05-08 00:34:34+00:00;False;61;28;3214;2b5a59406622affa1e333e073546f075f59b4ac9;33;noreply@github.com;wangguoz@gmail.com
-KTableImpl.java;MODIFY;323;0.0;Decreased;False;2018-05-17 18:28:45+00:00;False;61;28;3212;1a324d784cfc53288730b7c1b5c1bde0685e4686;17;noreply@github.com;wangguoz@gmail.com
+KTableImpl.java;MODIFY;323;0.0;Equal;False;2018-05-17 18:28:45+00:00;False;61;28;3212;1a324d784cfc53288730b7c1b5c1bde0685e4686;17;noreply@github.com;wangguoz@gmail.com
 KTableImpl.java;MODIFY;365;42.0;Grew;False;2018-05-18 23:06:50+00:00;False;69;31;3577;4e1c8ffd0d44ab7d1c0ca9ac9d70a98b46f35181;32;wangguoz@gmail.com;8012398+big-andy-coates@users.noreply.github.com
 KTableImpl.java;MODIFY;376;11.0;Grew;False;2018-06-04 22:33:53+00:00;False;69;31;3777;6f9f3655731ea1d46bd1f0ed0957579d831e2692;13;wangguoz@gmail.com;vvcephei@users.noreply.github.com
 KTableImpl.java;MODIFY;451;75.0;Grew;False;2018-06-18 17:58:26+00:00;False;70;31;4274;1354371d4f4dd208458c776e1f27715ec5f77f47;34;wangguoz@gmail.com;bbejeck@gmail.com
@@ -74,7 +74,7 @@ KTableImpl.java;MODIFY;506;46.0;Grew;False;2018-09-24 20:27:39+00:00;False;70;34
 KTableImpl.java;MODIFY;510;4.0;Grew;False;2018-09-25 20:41:22+00:00;False;70;34;4375;f712ce69fc2cb6a164b1ea8e491c9d68e6661933;11;wangguoz@gmail.com;vvcephei@users.noreply.github.com
 KTableImpl.java;MODIFY;471;-39.0;Decreased;False;2018-10-01 23:24:12+00:00;False;78;33;4396;d568f73fc6ece3d29989413174eee0195d3d0a4a;20;mjsax@apache.org;wangguoz@gmail.com
 KTableImpl.java;MODIFY;480;9.0;Grew;False;2018-10-02 06:09:12+00:00;False;79;34;4508;dff1a3799c1c25b1b0009be6835f2c9c78cb5900;18;mjsax@apache.org;bbejeck@gmail.com
-KTableImpl.java;MODIFY;480;0.0;Decreased;False;2018-10-02 06:10:34+00:00;False;80;34;4520;5ba9cade7b066cc26842aeaac5662a57c502ffcb;27;mjsax@apache.org;vvcephei@users.noreply.github.com
+KTableImpl.java;MODIFY;480;0.0;Equal;False;2018-10-02 06:10:34+00:00;False;80;34;4520;5ba9cade7b066cc26842aeaac5662a57c502ffcb;27;mjsax@apache.org;vvcephei@users.noreply.github.com
 KTableImpl.java;MODIFY;480;0.0;Equal;False;2018-10-02 22:44:33+00:00;False;80;34;4518;2a0abe55f0b13ef0e9d136551e29a8fae137c3b7;4;mjsax@apache.org;bbejeck@gmail.com
 KTableImpl.java;MODIFY;486;6.0;Grew;False;2018-10-03 16:52:13+00:00;False;80;34;4559;b793eaade4fcb0705ab80c2a806331fab8c29f9f;10;wangguoz@gmail.com;vvcephei@users.noreply.github.com
 KTableImpl.java;MODIFY;489;3.0;Grew;False;2018-10-04 01:05:41+00:00;False;82;34;4602;87879d51521d5574cbbf37dd97c83b7e4fc00dae;10;wangguoz@gmail.com;vvcephei@users.noreply.github.com
@@ -128,7 +128,7 @@ KTableImpl.java;MODIFY;1079;0.0;Equal;True;2023-04-19 23:34:36+00:00;False;164;6
 KTableImpl.java;MODIFY;1079;0.0;Equal;True;2023-06-10 22:22:32+00:00;False;164;67;9664;daba741826ec9b7ceed7ce9ef3396f83157b7f34;9;noreply@github.com;18128741+wcarlson5@users.noreply.github.com
 KTableImpl.java;MODIFY;1081;2.0;Grew;True;2023-11-07 01:30:58+00:00;False;164;67;9677;febf0fb5739ea86a6082e4c93da0101d216e5279;40;noreply@github.com;almog.gavra@gmail.com
 KTableImpl.java;MODIFY;1075;-6.0;Decreased;True;2024-06-19 07:32:59+00:00;False;164;67;9616;a0bfc64470bf90aac88d5bca793f14f8342b6edc;7;noreply@github.com;desai.p.rohan@gmail.com
-KTableImpl.java;MODIFY;1075;0.0;Grew;True;2024-06-27 12:50:06+00:00;False;164;67;9616;1040d783720f5d202127ec7a62946f4ec2e6ad80;554;noreply@github.com;gongxuanzhang@foxmail.com
+KTableImpl.java;MODIFY;1075;0.0;Equal;True;2024-06-27 12:50:06+00:00;False;164;67;9616;1040d783720f5d202127ec7a62946f4ec2e6ad80;554;noreply@github.com;gongxuanzhang@foxmail.com
 KTableImpl.java;MODIFY;1014;-61.0;Decreased;False;2024-08-22 20:20:56+00:00;True;160;63;9218;a2f89f5412fa3f561f12eb0f86c8b642e63ada01;3;noreply@github.com;muralidhar.basani@aiven.io
 KTableImpl.java;MODIFY;1019;5.0;Grew;False;2024-08-26 20:16:43+00:00;False;161;63;9260;e8b27b6a33ffe9e0790dd5f47465e071b4e8a089;15;noreply@github.com;caio.cesar.g.souza@gmail.com
 KTableImpl.java;MODIFY;1019;0.0;Equal;False;2024-09-01 09:14:51+00:00;False;161;63;9260;1f5aea2a864e873dd4c0207d8039fe3fd24c66a5;25;noreply@github.com;matthias@confluent.io

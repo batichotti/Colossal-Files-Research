@@ -1,5 +1,5 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
-test_float.rb;ADD;40;0.0;Grew;False;2003-09-04 16:18:59+00:00;False;2;2;330;aaf5d9c03cd41818edb34a154ac570b7fe61687c;30;nahi@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nahi@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+test_float.rb;ADD;40;0.0;Equal;False;2003-09-04 16:18:59+00:00;False;2;2;330;aaf5d9c03cd41818edb34a154ac570b7fe61687c;30;nahi@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nahi@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_float.rb;MODIFY;40;0.0;Equal;False;2003-09-05 11:28:27+00:00;False;2;2;330;65264eadbd3a8e1a3a96024e559a4a72d97c71e4;25;nahi@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nahi@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_float.rb;MODIFY;40;0.0;Equal;False;2003-09-05 15:15:43+00:00;False;2;2;330;44785befeabd09d5d34f33b33783c0ec54f06a1f;32;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_float.rb;MODIFY;44;4.0;Grew;False;2003-10-07 06:27:11+00:00;False;4;4;336;cd8d08b5329fd86660cced8a5b91c4a042f2e2a0;5;nahi@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nahi@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
@@ -10,7 +10,7 @@ test_float.rb;MODIFY;58;10.0;Grew;False;2004-05-09 14:38:11+00:00;False;6;6;417;
 test_float.rb;MODIFY;60;2.0;Grew;False;2004-05-14 04:34:07+00:00;False;6;6;438;dca0de41913ee3de07da76aca9d096b07e685870;2;ocean@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;ocean@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_float.rb;MODIFY;64;4.0;Grew;False;2004-05-15 08:54:23+00:00;False;6;6;480;a694dea2d8d4778bdfdfb6018647c6b022e0d9e5;2;ocean@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;ocean@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_float.rb;MODIFY;81;17.0;Grew;False;2004-07-14 03:32:20+00:00;False;6;6;599;b9bfdbb13eebe43e9610092ab0de6117e745d85e;3;ocean@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;ocean@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
-test_float.rb;MODIFY;83;2.0;Equal;False;2005-10-30 17:37:31+00:00;False;6;6;622;58c20fbf61037c19cb38f70bd801a2893c6b5626;2;ocean@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;ocean@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+test_float.rb;MODIFY;83;2.0;Grew;False;2005-10-30 17:37:31+00:00;False;6;6;622;58c20fbf61037c19cb38f70bd801a2893c6b5626;2;ocean@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;ocean@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_float.rb;MODIFY;84;1.0;Grew;False;2006-02-17 02:21:39+00:00;False;6;6;632;d0a3c64fb4af21a911f2b7553bbddb45dd9e4484;5;ocean@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;ocean@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_float.rb;MODIFY;108;24.0;Grew;False;2006-06-09 21:20:17+00:00;False;10;10;934;9b383bd6cf96e1fe21c41528dec1f3ed508f335b;91;matz@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;matz@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_float.rb;MODIFY;102;-6.0;Decreased;False;2006-07-20 17:26:32+00:00;False;10;10;889;8eb21778d88a40f9b7b3fa74b6a2104e41227e38;2;matz@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;matz@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
@@ -71,7 +71,7 @@ test_float.rb;MODIFY;597;-1.0;Decreased;False;2014-11-13 16:05:37+00:00;False;57
 test_float.rb;MODIFY;604;7.0;Grew;False;2015-03-18 03:01:58+00:00;False;58;53;5465;3bcf9fb53e4b9efabb15a3091fddfb68e5b6fbbe;5;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_float.rb;MODIFY;604;0.0;Equal;False;2015-03-18 03:02:33+00:00;False;58;53;5465;f5a55037022a11fdc707b782295505b44c745322;1;svn@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;svn@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_float.rb;MODIFY;626;22.0;Grew;False;2015-05-17 06:01:47+00:00;False;60;55;5639;932e916b9e340d3ae52bac2eb57567208dc21d4f;8;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
-test_float.rb;MODIFY;626;0.0;Grew;False;2015-12-16 05:07:31+00:00;False;60;55;5639;3e92b635fb5422207b7bbdc924e292e51e21f040;1432;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+test_float.rb;MODIFY;626;0.0;Equal;False;2015-12-16 05:07:31+00:00;False;60;55;5639;3e92b635fb5422207b7bbdc924e292e51e21f040;1432;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_float.rb;MODIFY;626;0.0;Equal;False;2016-02-26 05:41:37+00:00;False;60;55;5639;60dad06d53757ece68be7bcd1968462cf1dee18a;4;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_float.rb;MODIFY;644;18.0;Grew;False;2016-04-13 06:54:38+00:00;False;62;57;5891;d56b2776847f91fea70a3008ce29be544343f770;3;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_float.rb;MODIFY;661;17.0;Grew;False;2016-04-13 06:56:36+00:00;False;64;59;6129;c25853518665c71a79704ca50d40bf2fc4bc6aaa;3;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
@@ -104,7 +104,7 @@ test_float.rb;MODIFY;888;3.0;Grew;True;2022-08-21 11:01:27+00:00;False;79;71;879
 test_float.rb;MODIFY;898;10.0;Grew;True;2022-12-26 12:02:47+00:00;False;80;72;8950;9f2378959e5c5b5c39c9993f1a84e5304ff113d6;3;noreply@github.com;3959+mrkn@users.noreply.github.com
 test_float.rb;MODIFY;903;5.0;Grew;True;2023-01-15 04:03:27+00:00;False;81;73;8981;71ce7e1825c5b8fe08dd96cd77c6a379afd34256;4;noreply@github.com;nobu@ruby-lang.org
 test_float.rb;MODIFY;909;6.0;Grew;True;2024-07-30 12:21:28+00:00;False;81;73;9083;a7167d0ceecc8eea7bdf87e66be16d16b0f417e7;3;peter@peterzhu.ca;peter@peterzhu.ca
-test_float.rb;MODIFY;906;-3.0;Grew;True;2024-07-30 12:21:28+00:00;False;81;73;9035;3af2a7fbe12e11bac7b26bd991d3d02349f47295;3;peter@peterzhu.ca;peter@peterzhu.ca
+test_float.rb;MODIFY;906;-3.0;Decreased;True;2024-07-30 12:21:28+00:00;False;81;73;9035;3af2a7fbe12e11bac7b26bd991d3d02349f47295;3;peter@peterzhu.ca;peter@peterzhu.ca
 test_float.rb;MODIFY;914;8.0;Grew;True;2024-09-07 07:06:14+00:00;False;81;73;9163;c1862cbb89a6bf42dcd07d92fe4f4bfeebca5775;2;nobu@ruby-lang.org;nobu@ruby-lang.org
 test_float.rb;MODIFY;915;1.0;Grew;True;2024-09-07 07:34:28+00:00;False;81;73;9175;f97332a3a3647b79a19a7ad81ab8e58bc8608399;2;nobu@ruby-lang.org;nobu@ruby-lang.org
 test_float.rb;MODIFY;915;0.0;Equal;True;2024-10-05 14:29:42+00:00;False;81;73;9187;d17edf3a170b733356836353508319443d12c53c;3;nobu@ruby-lang.org;nobu@ruby-lang.org

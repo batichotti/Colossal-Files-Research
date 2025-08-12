@@ -1,6 +1,6 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
 x509_test.go;RENAME;not calculated;0.0;Equal;False;2014-09-08 04:08:51+00:00;False;not calculated;0;not calculated;c007ce824d9a4fccb148f9204e04c23ed2984b71;2097;rsc@golang.org;rsc@golang.org
-x509_test.go;MODIFY;816.0;0.0;Grew;False;2014-09-29 19:26:51+00:00;False;144;24;4996;dfddd802ace3aece85985dcd4b16e2488f287477;2;agl@golang.org;agl@golang.org
+x509_test.go;MODIFY;816.0;0.0;Equal;False;2014-09-29 19:26:51+00:00;False;144;24;4996;dfddd802ace3aece85985dcd4b16e2488f287477;2;agl@golang.org;agl@golang.org
 x509_test.go;MODIFY;870.0;54.0;Grew;False;2014-10-14 01:35:53+00:00;False;155;26;5309;64bed3f55fdf3628e0bfe75079a8f5f845aa7bb2;2;agl@golang.org;agl@golang.org
 x509_test.go;MODIFY;890.0;20.0;Grew;False;2015-01-15 01:58:54+00:00;False;158;27;5468;2fe8eadc9aed6e6637312ef93c4939f6344a48a0;2;agl@golang.org;agl@golang.org
 x509_test.go;MODIFY;892.0;2.0;Grew;False;2015-01-20 23:45:06+00:00;False;158;27;5471;cef15faafe5d15ba6242bad3504a52d287f78b88;2;agl@golang.org;paul@vanbrouwershaven.com
@@ -20,7 +20,7 @@ x509_test.go;MODIFY;991.0;4.0;Grew;False;2015-06-29 19:32:48+00:00;False;173;28;
 x509_test.go;MODIFY;991.0;0.0;Equal;False;2015-09-11 14:04:11+00:00;False;173;28;6136;400bb82678c34988e02d8bd0a6449b00c1965d50;1;iant@golang.org;didier.06@gmail.com
 x509_test.go;MODIFY;996.0;5.0;Grew;False;2015-09-30 00:51:51+00:00;False;175;29;6179;8ee0261865bea69f1a39e04a539e1152b7ba578d;2;agl@golang.org;agl@golang.org
 x509_test.go;MODIFY;1022.0;26.0;Grew;False;2015-09-30 00:59:15+00:00;False;181;30;6373;e78e654c1de0a7bfe0314d6954d42b046f14f1bb;2;agl@golang.org;agl@golang.org
-x509_test.go;MODIFY;1022.0;0.0;Grew;False;2015-11-28 00:07:16+00:00;False;181;30;6374;a0ea93dea5f5741addc8c96b7ed037d0e359e33f;2;agl@golang.org;agl@golang.org
+x509_test.go;MODIFY;1022.0;0.0;Equal;False;2015-11-28 00:07:16+00:00;False;181;30;6374;a0ea93dea5f5741addc8c96b7ed037d0e359e33f;2;agl@golang.org;agl@golang.org
 x509_test.go;MODIFY;1053.0;31.0;Grew;False;2015-12-03 20:02:09+00:00;False;186;31;6547;606d9a7e18c951bb64ea460597894558ff3808c1;2;rsc@golang.org;rsc@golang.org
 x509_test.go;MODIFY;1070.0;17.0;Grew;False;2015-12-07 14:24:49+00:00;False;189;32;6651;c34bc90ffca18af9e396bde2f16abbc1757d858e;2;bradfitz@golang.org;bradfitz@golang.org
 x509_test.go;MODIFY;1070.0;0.0;Equal;False;2016-04-01 02:05:01+00:00;False;189;32;6649;1cb3044c9fcd88e1557eca1bf35845a4108bc1db;10;dave@cheney.net;dominik@honnef.co
@@ -56,7 +56,7 @@ x509_test.go;MODIFY;1777.0;36.0;Grew;False;2019-02-27 19:34:12+00:00;False;291;5
 x509_test.go;MODIFY;1778.0;1.0;Grew;False;2019-03-05 18:21:29+00:00;False;292;54;10708;9670e81c2e776b4781bc4cecddf45052ebf0afe6;18;bcmills@google.com;bcmills@google.com
 x509_test.go;MODIFY;1777.0;-1.0;Decreased;False;2019-03-08 23:40:24+00:00;False;291;53;10697;0271d41ed63cacd1d79716161d0797790e930dfa;17;bcmills@google.com;bcmills@google.com
 x509_test.go;MODIFY;1868.0;91.0;Grew;False;2019-05-15 18:51:12+00:00;False;304;57;11474;599ec7720fefdb60344bb4a9dab481ed302aa473;5;filippo@golang.org;filippo@golang.org
-x509_test.go;MODIFY;1868.0;0.0;Grew;False;2019-05-21 20:03:55+00:00;False;304;57;11481;02fe6ba95867b3858d62958ce487a47798bef1b5;9;rsc@golang.org;rsc@golang.org
+x509_test.go;MODIFY;1868.0;0.0;Equal;False;2019-05-21 20:03:55+00:00;False;304;57;11481;02fe6ba95867b3858d62958ce487a47798bef1b5;9;rsc@golang.org;rsc@golang.org
 x509_test.go;MODIFY;1871.0;3.0;Grew;False;2019-05-22 12:54:00+00:00;False;305;57;11495;06b0babf3138d189f6e741561f77ac6146696377;41;rsc@golang.org;rsc@golang.org
 x509_test.go;MODIFY;1887.0;16.0;Grew;False;2019-08-28 17:13:49+00:00;False;310;58;11580;89865f8ba64ccb27f439cce6daaa37c9aa38f351;2;bradfitz@golang.org;RobClap8@gmail.com
 x509_test.go;MODIFY;1922.0;35.0;Grew;False;2019-10-04 16:27:55+00:00;False;314;59;11771;72dc3a0919bebbf166302a6fdac41ab8046d4a0f;2;filippo@golang.org;vbocek@gmail.com
@@ -64,7 +64,7 @@ x509_test.go;MODIFY;1985.0;63.0;Grew;False;2019-11-11 18:00:18+00:00;False;315;5
 x509_test.go;MODIFY;2265.0;280.0;Grew;True;2020-03-23 17:23:03+00:00;True;339;61;14099;5d47f870a64982173f3da8a82a6a793b83075d6a;2;filippo@golang.org;roland@letsencrypt.org
 x509_test.go;MODIFY;2265.0;0.0;Equal;True;2020-03-29 17:12:56+00:00;False;339;61;14099;82047a080f0aa320e316773fe8bcbb7c7bcd5a1f;5;iant@golang.org;alexsemenyuk88@gmail.com
 x509_test.go;MODIFY;2288.0;23.0;Grew;True;2020-04-13 20:22:26+00:00;False;343;62;14266;6f3a9515b6bb879472f3b3443a052b07ed11ee2f;2;katie@golang.org;katie@golang.org
-x509_test.go;MODIFY;2288.0;0.0;Grew;True;2020-04-13 20:38:15+00:00;False;343;62;14269;300ed43795f48bbc5b37b33f392caa8b8b1d9a7a;1;katie@golang.org;katie@golang.org
+x509_test.go;MODIFY;2288.0;0.0;Equal;True;2020-04-13 20:38:15+00:00;False;343;62;14269;300ed43795f48bbc5b37b33f392caa8b8b1d9a7a;1;katie@golang.org;katie@golang.org
 x509_test.go;MODIFY;2318.0;30.0;Grew;True;2020-04-22 16:45:05+00:00;False;348;63;14482;141b11d5a12f8bdf4825227db70e2a4309906ae9;2;katie@golang.org;katie@golang.org
 x509_test.go;MODIFY;2325.0;7.0;Grew;True;2020-05-08 00:05:04+00:00;False;348;63;14546;9d1e120c421440b450e87cc6ac8900658f9bf01a;2;filippo@golang.org;filippo@golang.org
 x509_test.go;MODIFY;2327.0;2.0;Grew;True;2020-05-08 00:05:27+00:00;False;348;63;14554;d65e1b2e41deb810565c94555d791e7384618da0;3;filippo@golang.org;filippo@golang.org
@@ -92,7 +92,7 @@ x509_test.go;MODIFY;2970.0;91.0;Grew;True;2021-12-21 19:17:52+00:00;False;440;87
 x509_test.go;MODIFY;3016.0;46.0;Grew;True;2022-03-31 21:39:51+00:00;False;444;88;19260;9a53b472b5ed41f9fe79a73f1236ed3f45f8871a;2;gobot@golang.org;roland@golang.org
 x509_test.go;MODIFY;3054.0;38.0;Grew;True;2022-04-04 16:49:52+00:00;False;451;90;19560;35998c010947d3a5a26409fffcb4ed16c3595850;3;gobot@golang.org;roland@golang.org
 x509_test.go;MODIFY;3173.0;119.0;Grew;True;2022-04-05 23:32:55+00:00;False;465;93;20125;2de2f6df64a8fff36fe9752f893a7cfff4590762;5;gobot@golang.org;roland@golang.org
-x509_test.go;MODIFY;3173.0;0.0;Grew;True;2022-04-11 16:34:30+00:00;False;465;93;20125;19309779ac5e2f5a2fd3cbb34421dafb2855ac21;373;rsc@golang.org;rsc@golang.org
+x509_test.go;MODIFY;3173.0;0.0;Equal;True;2022-04-11 16:34:30+00:00;False;465;93;20125;19309779ac5e2f5a2fd3cbb34421dafb2855ac21;373;rsc@golang.org;rsc@golang.org
 x509_test.go;MODIFY;3195.0;22.0;Grew;True;2022-04-13 18:05:20+00:00;False;469;94;20289;a78db879b31b072c37c6d46cc404d8e131d54349;2;gobot@golang.org;roland@golang.org
 x509_test.go;MODIFY;3224.0;29.0;Grew;True;2022-04-14 22:52:29+00:00;False;475;95;20535;cc43e191ce562cd879a9baaf7a2e4fb1a7216d31;2;gobot@golang.org;roland@golang.org
 x509_test.go;MODIFY;3258.0;34.0;Grew;True;2022-04-15 16:25:52+00:00;False;481;97;20773;082cfabf126d63e952e1ac29d47c2a47f1c64bee;2;gobot@golang.org;roland@golang.org
@@ -107,7 +107,7 @@ x509_test.go;MODIFY;3358.0;13.0;Grew;True;2022-08-25 19:17:14+00:00;False;489;99
 x509_test.go;MODIFY;3358.0;0.0;Equal;True;2022-10-26 03:38:38+00:00;False;489;99;21360;f7f37b9399c418ff54b57eb70e7eb5120a2248e2;1;gobot@golang.org;rsc@golang.org
 x509_test.go;MODIFY;3356.0;-2.0;Decreased;True;2022-10-26 16:35:20+00:00;False;487;97;21342;2a2b163bb9125389c5f70e65aec21816e2ea09c5;3;gobot@golang.org;rsc@golang.org
 x509_test.go;MODIFY;3389.0;33.0;Grew;True;2022-11-03 15:18:40+00:00;False;491;97;21587;a367981b4c8e3ae955eca9cc597d9622201155f3;2;gobot@golang.org;alex.scheel@hashicorp.com
-x509_test.go;MODIFY;3389.0;0.0;Decreased;True;2022-11-03 17:40:21+00:00;False;491;97;21587;7abc8a2e3370bd013d9aa12b5d443e21537dfb26;1;gobot@golang.org;alex.scheel@hashicorp.com
+x509_test.go;MODIFY;3389.0;0.0;Equal;True;2022-11-03 17:40:21+00:00;False;491;97;21587;7abc8a2e3370bd013d9aa12b5d443e21537dfb26;1;gobot@golang.org;alex.scheel@hashicorp.com
 x509_test.go;MODIFY;3409.0;20.0;Grew;True;2022-11-15 17:38:58+00:00;False;494;98;21707;56d18207823d6e1c18ca46409180c40ae800230c;2;gobot@golang.org;rob@sectigo.com
 x509_test.go;MODIFY;3422.0;13.0;Grew;True;2022-11-16 14:37:32+00:00;False;497;99;21801;80c5bbc627a37929ea571e99f0f15cb059fdaf70;5;gobot@golang.org;filippo@golang.org
 x509_test.go;MODIFY;3497.0;75.0;Grew;True;2023-03-13 20:25:37+00:00;False;504;99;22270;82c713feb05da594567631972082af2fcba0ee4f;4;roland@golang.org;aaron@letsencrypt.org
@@ -123,7 +123,7 @@ x509_test.go;MODIFY;3620.0;24.0;Grew;True;2024-05-09 22:43:14+00:00;False;526;10
 x509_test.go;MODIFY;3644.0;24.0;Grew;True;2024-05-09 23:09:41+00:00;False;530;105;23470;671696a22dd98c0fafcaea2d159c284367b24aa0;2;gobot@golang.org;roland@golang.org
 x509_test.go;MODIFY;3645.0;1.0;Grew;True;2024-05-16 17:32:30+00:00;False;530;105;23478;18104621ce742af7be8d5049bb9aee588b562950;2;gobot@golang.org;yoann.congal@smile.fr
 x509_test.go;MODIFY;3646.0;1.0;Grew;True;2024-05-22 09:20:15+00:00;False;530;105;23474;c96159c25217c84a252be5d74d48861af715ecf8;3;gobot@golang.org;filippo@golang.org
-x509_test.go;MODIFY;3645.0;-1.0;Equal;True;2024-05-22 17:23:27+00:00;False;530;105;23472;db13584baedce4909915cb4631555f6dbd7b8c38;5;gobot@golang.org;roland@golang.org
+x509_test.go;MODIFY;3645.0;-1.0;Decreased;True;2024-05-22 17:23:27+00:00;False;530;105;23472;db13584baedce4909915cb4631555f6dbd7b8c38;5;gobot@golang.org;roland@golang.org
 x509_test.go;MODIFY;3667.0;22.0;Grew;True;2024-05-22 17:23:31+00:00;False;535;106;23663;8524931a2cdc6a57afdf6f4b3375cb261c2557da;5;gobot@golang.org;roland@golang.org
 x509_test.go;MODIFY;3667.0;0.0;Equal;True;2024-05-22 21:00:16+00:00;False;535;106;23671;6db272d2dd65202e97058cb0c4909151eed05ae6;2;roland@golang.org;mpoliwczak34@gmail.com
 x509_test.go;MODIFY;3645.0;-22.0;Decreased;True;2024-06-18 15:27:01+00:00;False;530;105;23480;b691da9f788f27eb3d5035f3dbdc15c107d71ef9;5;roland@golang.org;roland@golang.org

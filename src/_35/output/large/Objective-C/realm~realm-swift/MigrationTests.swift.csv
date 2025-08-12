@@ -1,8 +1,8 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
-MigrationTests.swift;MODIFY;179.0;0.0;Grew;False;2015-03-12 19:59:28+00:00;False;16;14;1424;831bb2909397c4b4d3c69d660b4aa7eefddc149b;3;alazier@gmail.com;alazier@gmail.com
+MigrationTests.swift;MODIFY;179.0;0.0;Equal;False;2015-03-12 19:59:28+00:00;False;16;14;1424;831bb2909397c4b4d3c69d660b4aa7eefddc149b;3;alazier@gmail.com;alazier@gmail.com
 MigrationTests.swift;MODIFY;204.0;25.0;Grew;False;2015-03-12 19:59:28+00:00;False;16;14;1700;ef78b8c9093ff5998443bb3b5c4d8b362c5bfa3d;7;alazier@gmail.com;alazier@gmail.com
-MigrationTests.swift;ADD;141.0;-63.0;Grew;False;2015-03-12 19:59:28+00:00;False;15;13;1030;165323f8705a0f6fbbba75d6ade9e75472875ba1;7;alazier@gmail.com;alazier@gmail.com
-MigrationTests.swift;MODIFY;204.0;63.0;Equal;False;2015-03-12 19:59:29+00:00;False;16;14;1700;42b5f4e40b192a36656a837a9a142443868e77d8;4;alazier@gmail.com;alazier@gmail.com
+MigrationTests.swift;ADD;141.0;-63.0;Decreased;False;2015-03-12 19:59:28+00:00;False;15;13;1030;165323f8705a0f6fbbba75d6ade9e75472875ba1;7;alazier@gmail.com;alazier@gmail.com
+MigrationTests.swift;MODIFY;204.0;63.0;Grew;False;2015-03-12 19:59:29+00:00;False;16;14;1700;42b5f4e40b192a36656a837a9a142443868e77d8;4;alazier@gmail.com;alazier@gmail.com
 MigrationTests.swift;MODIFY;204.0;0.0;Equal;False;2015-03-12 19:59:30+00:00;False;16;14;1676;d5207c706bb347ccb2327dba44837c6d654487ed;4;alazier@gmail.com;segiddins@segiddins.me
 MigrationTests.swift;MODIFY;204.0;0.0;Equal;False;2015-03-12 19:59:31+00:00;False;16;14;1700;ba02576192f5859adc6d256abceed1dc69c7b304;12;alazier@gmail.com;alazier@gmail.com
 MigrationTests.swift;MODIFY;204.0;0.0;Equal;False;2015-03-12 19:59:31+00:00;False;16;14;1716;2d4fccb24d70bd49c43eb6abdb7b1625f84cb8b2;11;alazier@gmail.com;alazier@gmail.com
@@ -30,7 +30,7 @@ MigrationTests.swift;MODIFY;271.0;0.0;Equal;False;2015-06-24 18:19:39+00:00;Fals
 MigrationTests.swift;MODIFY;271.0;0.0;Equal;False;2015-06-24 18:19:39+00:00;False;18;16;2196;6115bed8ebc7c087c2f912b92d1566f57b6106ac;6;segiddins@segiddins.me;segiddins@segiddins.me
 MigrationTests.swift;RENAME;not calculated;0.0;Equal;False;2015-07-16 21:10:19+00:00;False;not calculated;0;not calculated;1779c591a9deb958e72ee5fe7dc85d04e62eea5f;43;tg@realm.io;segiddins@segiddins.me
 MigrationTests.swift;RENAME;not calculated;0.0;Equal;False;2016-06-23 00:52:47+00:00;False;not calculated;0;not calculated;473e9c056b24d533c7dba3cdbb7dcbad20cca797;41;jp@jpsim.com;jp@jpsim.com
-MigrationTests.swift;MODIFY;832.0;0.0;Grew;True;2016-06-23 00:52:47+00:00;True;47;39;6564;a347867d0c886648ec8f240cf2ef26b7d686aff3;74;jp@jpsim.com;jp@jpsim.com
+MigrationTests.swift;MODIFY;832.0;0.0;Equal;True;2016-06-23 00:52:47+00:00;True;47;39;6564;a347867d0c886648ec8f240cf2ef26b7d686aff3;74;jp@jpsim.com;jp@jpsim.com
 MigrationTests.swift;MODIFY;832.0;0.0;Equal;True;2016-07-05 21:07:06+00:00;False;47;39;6578;e8c90f6eb72304a7bc99fc7505efdd8475e42018;8;noreply@github.com;JadenGeller@users.noreply.github.com
 MigrationTests.swift;MODIFY;836.0;4.0;Grew;True;2016-07-13 20:21:15+00:00;False;47;39;6641;d064420389c21340af0fcabbe7dc8ee24ffa4af0;9;mar@realm.io;mar@realm.io
 MigrationTests.swift;MODIFY;836.0;0.0;Equal;True;2016-07-20 19:38:09+00:00;False;47;39;6641;95fc3e20a69410ca75dc066b2d2320de9cfba21d;6;mar@realm.io;mar@realm.io
@@ -65,7 +65,7 @@ MigrationTests.swift;MODIFY;544.0;0.0;Equal;False;2020-01-27 19:29:45+00:00;Fals
 MigrationTests.swift;MODIFY;557.0;13.0;Grew;False;2020-04-01 18:14:38+00:00;False;33;22;4574;6ca1657539f48669933a663e598d1ca8f76cbeaa;71;tg@realm.io;tg@realm.io
 MigrationTests.swift;MODIFY;557.0;0.0;Equal;False;2020-05-29 10:46:12+00:00;False;33;22;4574;4212f17371a6e3b81471ed1a15ca57fcfa58ce41;81;noreply@github.com;jsflax@gmail.com
 MigrationTests.swift;MODIFY;697.0;140.0;Grew;True;2021-01-21 11:08:46+00:00;True;41;22;5998;567e10bf490efca556f070970dc262a2dc7f4b24;8;noreply@github.com;dominic.frei@mongodb.com
-MigrationTests.swift;MODIFY;561.0;-136.0;Grew;False;2021-05-21 20:57:34+00:00;True;33;22;4638;4120546cf7a6cf67ebb9070a3f814b73410bfbce;49;tg@realm.io;pavel.yakimenko@mongodb.com
+MigrationTests.swift;MODIFY;561.0;-136.0;Decreased;False;2021-05-21 20:57:34+00:00;True;33;22;4638;4120546cf7a6cf67ebb9070a3f814b73410bfbce;49;tg@realm.io;pavel.yakimenko@mongodb.com
 MigrationTests.swift;MODIFY;735.0;174.0;Grew;True;2021-05-21 21:03:39+00:00;True;40;21;6523;381eda15a9e2e1610baf4a764901cbfba005f078;111;tg@realm.io;lee.maguire@mongodb.com
 MigrationTests.swift;MODIFY;741.0;6.0;Grew;True;2021-05-21 21:19:46+00:00;False;40;21;6589;0e27c7f83d5c6a0d953990a769d259d911f31c04;97;tg@realm.io;eric.mossman@mongodb.com
 MigrationTests.swift;MODIFY;900.0;159.0;Grew;True;2021-05-21 21:27:04+00:00;False;44;25;7549;84f22c255b5d31a213fd0965460b2fc971448800;12;tg@realm.io;tg@realm.io
@@ -80,7 +80,7 @@ MigrationTests.swift;MODIFY;1227.0;3.0;Grew;True;2023-01-13 20:41:03+00:00;False
 MigrationTests.swift;MODIFY;1227.0;0.0;Equal;True;2023-02-27 22:43:20+00:00;False;62;30;10950;33f6ace2e42a5cca93c9ea50b75454cbd8717d4d;153;tg@realm.io;tg@realm.io
 MigrationTests.swift;MODIFY;1228.0;1.0;Grew;True;2023-02-28 17:24:21+00:00;False;62;30;10956;383d1089ec70ba543f83a66e96c405b23a511e7a;88;tg@realm.io;tg@realm.io
 MigrationTests.swift;MODIFY;1228.0;0.0;Equal;True;2023-03-18 00:01:48+00:00;False;62;30;10960;ba45055071b9df2a349a6fa7c35e5ed01ffdc900;5;tg@realm.io;tg@realm.io
-MigrationTests.swift;MODIFY;1231.0;3.0;Decreased;True;2023-03-29 18:12:29+00:00;False;61;31;10813;2059837edf1ce3fd27d35d2758c9e83ec9abb06e;4;noreply@github.com;thomas.goyne@mongodb.com
+MigrationTests.swift;MODIFY;1231.0;3.0;Grew;True;2023-03-29 18:12:29+00:00;False;61;31;10813;2059837edf1ce3fd27d35d2758c9e83ec9abb06e;4;noreply@github.com;thomas.goyne@mongodb.com
 MigrationTests.swift;MODIFY;1271.0;40.0;Grew;True;2023-05-22 19:46:18+00:00;False;67;32;11046;94cc3e9678f22d357250d997abc178bc3d07b59c;1;noreply@github.com;thomas.goyne@mongodb.com
 MigrationTests.swift;MODIFY;1264.0;-7.0;Decreased;True;2023-05-26 17:29:57+00:00;False;66;31;11000;515c3f75bf53d899cf99dba3a09624239a8fa40a;37;noreply@github.com;thomas.goyne@mongodb.com
 MigrationTests.swift;MODIFY;1264.0;0.0;Equal;True;2024-05-20 18:44:30+00:00;False;66;31;10993;af67f0a8156523d53e00657c54a8b62f79dcce4d;27;tg@realm.io;tg@realm.io

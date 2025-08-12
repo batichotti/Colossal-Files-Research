@@ -1,5 +1,5 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
-test_stringio.rb;ADD;14;0.0;Grew;False;2003-11-18 09:23:07+00:00;False;1;1;91;0c15b3a2221ff156452a9979b70b3e36d7bad6c0;3;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+test_stringio.rb;ADD;14;0.0;Equal;False;2003-11-18 09:23:07+00:00;False;1;1;91;0c15b3a2221ff156452a9979b70b3e36d7bad6c0;3;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_stringio.rb;MODIFY;13;-1.0;Decreased;False;2003-12-05 02:54:48+00:00;False;1;1;72;7fbf13f7f21876b4206701cb3913fab5e7d82843;8;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_stringio.rb;MODIFY;14;1.0;Grew;False;2003-12-09 05:35:16+00:00;False;1;1;75;1c09059ed85227d8feeab11f38e64e4cd506a1d8;1;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_stringio.rb;MODIFY;15;1.0;Grew;False;2003-12-10 08:16:14+00:00;False;1;1;78;6395c3b38de70621232102597ee24c1fd136ca1b;5;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
@@ -39,7 +39,7 @@ test_stringio.rb;MODIFY;509;11.0;Grew;False;2014-09-26 03:52:37+00:00;False;75;5
 test_stringio.rb;MODIFY;509;0.0;Equal;False;2015-03-09 07:34:39+00:00;False;75;56;3425;2e02f2dfd2dab936e7cd9a68d46bd910c5d184e5;3;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_stringio.rb;MODIFY;509;0.0;Equal;False;2015-03-13 06:04:39+00:00;False;75;56;3425;f75fe0bcc7d1143f33c91ab2096aafcf618394d2;3;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_stringio.rb;MODIFY;518;9.0;Grew;False;2015-07-11 21:42:27+00:00;False;76;57;3484;a3d6de4adc8581e8c845b5e9cee6c17171832b37;2;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
-test_stringio.rb;MODIFY;518;0.0;Grew;False;2015-12-16 05:07:31+00:00;False;76;57;3484;3e92b635fb5422207b7bbdc924e292e51e21f040;1432;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+test_stringio.rb;MODIFY;518;0.0;Equal;False;2015-12-16 05:07:31+00:00;False;76;57;3484;3e92b635fb5422207b7bbdc924e292e51e21f040;1432;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_stringio.rb;MODIFY;527;9.0;Grew;False;2015-12-18 03:05:53+00:00;False;77;58;3535;07f53e483042f8d154912b9414808ad40973cd44;1;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_stringio.rb;MODIFY;553;26.0;Grew;False;2015-12-18 03:09:16+00:00;False;80;60;3680;b7d153699153629f037a059b930d8e928c42a4a1;3;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_stringio.rb;MODIFY;559;6.0;Grew;False;2015-12-18 07:54:33+00:00;False;80;60;3718;3e1c01ae463a8c9d8bbe9050251a2538ddb0292f;4;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
@@ -74,7 +74,7 @@ test_stringio.rb;MODIFY;694;-10.0;Decreased;True;2019-10-31 07:24:02+00:00;False
 test_stringio.rb;MODIFY;705;11.0;Grew;True;2020-03-15 09:43:01+00:00;False;99;73;5014;e257c08f2ec27e2d66cdfa7e2415deb492522e22;3;nobu@ruby-lang.org;jean.boussier@gmail.com
 test_stringio.rb;MODIFY;728;23.0;Grew;True;2020-07-20 05:59:19+00:00;False;101;74;5120;6ff9604f85bf5ffcb6dbfd9ff99ab420c9a5f415;2;nobu@ruby-lang.org;nobu@ruby-lang.org
 test_stringio.rb;MODIFY;734;6.0;Grew;True;2020-07-20 05:59:19+00:00;False;101;74;5190;ddb2acbba60302201f01175f019d8ecd99934add;2;nobu@ruby-lang.org;nobu@ruby-lang.org
-test_stringio.rb;MODIFY;731;-3.0;Grew;True;2020-07-20 05:59:19+00:00;False;101;74;5155;c62aff16325c6b170f437f7ebe97c09387464ada;1;nobu@ruby-lang.org;nobu@ruby-lang.org
+test_stringio.rb;MODIFY;731;-3.0;Decreased;True;2020-07-20 05:59:19+00:00;False;101;74;5155;c62aff16325c6b170f437f7ebe97c09387464ada;1;nobu@ruby-lang.org;nobu@ruby-lang.org
 test_stringio.rb;MODIFY;741;10.0;Grew;True;2020-08-27 14:41:22+00:00;False;102;75;5241;b3c1c767ea64ce435c115cece5074274b7aefadc;3;nobu@ruby-lang.org;yoann.lecuyer@gmail.com
 test_stringio.rb;MODIFY;741;0.0;Equal;True;2021-03-08 00:34:16+00:00;False;102;75;5241;c3c18007086df2b126f25483d82d72adafb2da7e;1;hsbt@ruby-lang.org;hsbt@ruby-lang.org
 test_stringio.rb;MODIFY;765;24.0;Grew;True;2021-03-08 01:13:29+00:00;False;105;78;5401;32a13591e0bb6e96b05452e214f14eda21ee3aa9;2;nobu@ruby-lang.org;nobu@ruby-lang.org
@@ -91,8 +91,8 @@ test_stringio.rb;MODIFY;817;5.0;Grew;True;2023-10-05 07:44:08+00:00;False;109;83
 test_stringio.rb;MODIFY;824;7.0;Grew;True;2023-11-08 00:46:17+00:00;False;110;84;5935;7ed37388fb9c0e85325b4e3db2ffbfca3f4179ad;2;svn-admin@ruby-lang.org;kou@clear-code.com
 test_stringio.rb;MODIFY;832;8.0;Grew;True;2024-01-16 15:06:22+00:00;False;111;85;5977;6283ae8d369bd2f8a022bb69bc5b742c58529dec;2;svn-admin@ruby-lang.org;nobu@ruby-lang.org
 test_stringio.rb;MODIFY;837;5.0;Grew;True;2024-01-18 03:42:21+00:00;False;111;85;6010;fd1bafc11f74cb2bb74bf97bcba4ef694a533aec;2;svn-admin@ruby-lang.org;tomoyapenguin@gmail.com
-test_stringio.rb;MODIFY;837;0.0;Grew;True;2024-03-13 04:46:54+00:00;False;111;85;6010;0b7487b44ecc0f95dcc8bfa0fdf7d5915dcc0f8f;1;svn-admin@ruby-lang.org;headius@headius.com
-test_stringio.rb;MODIFY;838;1.0;Equal;True;2024-03-13 13:20:23+00:00;False;111;85;6003;3f8ef7ff7c09e67a48eff33804060803b9f11119;2;svn-admin@ruby-lang.org;nobu@ruby-lang.org
+test_stringio.rb;MODIFY;837;0.0;Equal;True;2024-03-13 04:46:54+00:00;False;111;85;6010;0b7487b44ecc0f95dcc8bfa0fdf7d5915dcc0f8f;1;svn-admin@ruby-lang.org;headius@headius.com
+test_stringio.rb;MODIFY;838;1.0;Grew;True;2024-03-13 13:20:23+00:00;False;111;85;6003;3f8ef7ff7c09e67a48eff33804060803b9f11119;2;svn-admin@ruby-lang.org;nobu@ruby-lang.org
 test_stringio.rb;MODIFY;845;7.0;Grew;True;2024-03-15 04:34:14+00:00;False;112;86;6035;a1ced60692022184d40bdbb980131705e6be4fda;2;svn-admin@ruby-lang.org;nobu@ruby-lang.org
 test_stringio.rb;MODIFY;863;18.0;Grew;True;2024-03-27 17:27:19+00:00;False;114;88;6142;0f5ab4ad5289d6385b74e800a73de005a48737b6;2;nobu@ruby-lang.org;etienne.barrie@gmail.com
 test_stringio.rb;MODIFY;873;10.0;Grew;True;2024-04-17 01:29:18+00:00;False;114;88;6209;75154dec73e1329693866e3a88cb9febb7635417;2;svn-admin@ruby-lang.org;jean.boussier+github@shopify.com

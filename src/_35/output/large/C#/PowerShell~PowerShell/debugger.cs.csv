@@ -1,6 +1,6 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
-debugger.cs;ADD;3496;0.0;Grew;True;2016-03-31 00:16:23+00:00;True;639;216;17220;60b3b304f2e1042bcf773d7e2ae3530a1f5d52f0;1182;sevoroby@microsoft.com;PowerShellTeam@hotmail.com
-debugger.cs;MODIFY;3496;0.0;Decreased;True;2016-08-01 22:57:03+00:00;False;639;216;17087;403ae3f53f26aec83d867998400cdf1a91aa5d68;953;jasonsh@microsoft.com;PowerShellTeam@hotmail.com
+debugger.cs;ADD;3496;0.0;Equal;True;2016-03-31 00:16:23+00:00;True;639;216;17220;60b3b304f2e1042bcf773d7e2ae3530a1f5d52f0;1182;sevoroby@microsoft.com;PowerShellTeam@hotmail.com
+debugger.cs;MODIFY;3496;0.0;Equal;True;2016-08-01 22:57:03+00:00;False;639;216;17087;403ae3f53f26aec83d867998400cdf1a91aa5d68;953;jasonsh@microsoft.com;PowerShellTeam@hotmail.com
 debugger.cs;MODIFY;3496;0.0;Equal;True;2016-08-01 22:58:17+00:00;False;639;216;17087;c34ef6141b569ad6415527bb1b4d1a78eb186457;7;jasonsh@microsoft.com;jasonsh@microsoft.com
 debugger.cs;MODIFY;3495;-1.0;Decreased;True;2016-08-03 19:06:06+00:00;False;639;216;17084;bc4901bd59fa96d6554b394ca9371ce79a80a7ce;477;jasonsh@microsoft.com;PowerShellTeam@hotmail.com
 debugger.cs;MODIFY;3473;-22.0;Decreased;True;2016-08-03 19:14:28+00:00;False;639;216;17030;ae8d2ed794da9158a9d4ccdc4ecd1e16c4c43ceb;263;jasonsh@microsoft.com;PowerShellTeam@hotmail.com
@@ -16,12 +16,12 @@ debugger.cs;MODIFY;3722;0.0;Equal;True;2018-02-13 17:23:53+00:00;False;698;236;1
 debugger.cs;MODIFY;3650;-72.0;Decreased;True;2018-04-28 06:02:15+00:00;False;682;231;17779;8aec1585195e6d4871538aaa2ad2b112cf5fbfee;23;noreply@github.com;dongbow@microsoft.com
 debugger.cs;MODIFY;3650;0.0;Equal;True;2018-06-12 19:30:10+00:00;False;682;231;17793;e177fcaef610f874aa31cd3d85f97162d2859e72;160;dongbow@microsoft.com;darpa@yandex.ru
 debugger.cs;MODIFY;3650;0.0;Equal;True;2018-06-25 21:37:09+00:00;False;682;231;17793;4fc784e840b8df00d2552045c6ed52d027659d2b;186;dongbow@microsoft.com;darpa@yandex.ru
-debugger.cs;MODIFY;3649;-1.0;Grew;True;2018-11-14 00:16:29+00:00;False;682;231;17790;79f21b41de0de9b2f68a19ba1fdef0b98f3fb1cb;61;noreply@github.com;travis.plunk@microsoft.com
+debugger.cs;MODIFY;3649;-1.0;Decreased;True;2018-11-14 00:16:29+00:00;False;682;231;17790;79f21b41de0de9b2f68a19ba1fdef0b98f3fb1cb;61;noreply@github.com;travis.plunk@microsoft.com
 debugger.cs;MODIFY;3556;-93.0;Decreased;True;2018-11-30 03:11:20+00:00;False;664;227;17327;4e58ee6426a6e27d79079b1f9ffdbbd558ba2b19;11;noreply@github.com;darpa@yandex.ru
 debugger.cs;MODIFY;3557;1.0;Grew;True;2018-12-11 21:56:46+00:00;False;664;227;17340;f17601298b87827a94ba029e2159399e1245c077;15;travis.plunk@microsoft.com;slee@microsoft.com
 debugger.cs;MODIFY;3557;0.0;Equal;True;2018-12-22 07:33:10+00:00;False;664;227;17340;140a66ca734c184312f0f879c79f6226a6b9b4df;25;darpa@yandex.ru;dongbow@microsoft.com
 debugger.cs;MODIFY;3557;0.0;Equal;True;2018-12-22 09:26:06+00:00;False;664;227;17340;289981a017e9fe4c26dcbd0ec0500c75cb39e49e;120;darpa@yandex.ru;dongbow@microsoft.com
-debugger.cs;MODIFY;3557;0.0;Grew;True;2018-12-24 06:20:06+00:00;False;664;227;17340;4af3068566b2218bc37ea19785ded589c2a5c42f;766;darpa@yandex.ru;slee@microsoft.com
+debugger.cs;MODIFY;3557;0.0;Equal;True;2018-12-24 06:20:06+00:00;False;664;227;17340;4af3068566b2218bc37ea19785ded589c2a5c42f;766;darpa@yandex.ru;slee@microsoft.com
 debugger.cs;MODIFY;3557;0.0;Equal;True;2018-12-24 07:01:44+00:00;False;664;227;17340;42ba9d22ce64e3c7c271dfaf16398a57e1e7d1f1;59;noreply@github.com;darpa@yandex.ru
 debugger.cs;MODIFY;3557;0.0;Equal;True;2018-12-25 16:43:03+00:00;False;664;227;17340;871ce5696d01186f620f67366dc33691e0382a32;257;noreply@github.com;darpa@yandex.ru
 debugger.cs;MODIFY;3557;0.0;Equal;True;2018-12-28 11:39:06+00:00;False;664;227;17340;479fc64aff24c23ff4d445d2422fd2fd59602ec0;360;noreply@github.com;darpa@yandex.ru
@@ -33,7 +33,7 @@ debugger.cs;MODIFY;3557;0.0;Equal;True;2019-01-09 21:07:40+00:00;False;664;227;1
 debugger.cs;MODIFY;3557;0.0;Equal;True;2019-02-13 11:51:05+00:00;False;664;227;17340;ff3edaa2e38d715b287bbb7046fd75a5ba5d1061;14;noreply@github.com;darpa@yandex.ru
 debugger.cs;MODIFY;3575;18.0;Grew;True;2019-04-14 02:14:53+00:00;False;670;232;17524;13fd3af8106dbfd5d65e697036af5999255badc7;18;travis.plunk@microsoft.com;tylerl0706@gmail.com
 debugger.cs;MODIFY;3575;0.0;Equal;True;2019-04-24 14:27:22+00:00;False;670;232;17524;ceed73d7375cb98a199ceb19796bb2311b0b0002;99;noreply@github.com;darpa@yandex.ru
-debugger.cs;MODIFY;3575;0.0;Grew;True;2019-04-30 05:25:11+00:00;False;670;232;17524;bd6fdae73520931f0d27a29d6290e18761772141;454;noreply@github.com;darpa@yandex.ru
+debugger.cs;MODIFY;3575;0.0;Equal;True;2019-04-30 05:25:11+00:00;False;670;232;17524;bd6fdae73520931f0d27a29d6290e18761772141;454;noreply@github.com;darpa@yandex.ru
 debugger.cs;MODIFY;3603;28.0;Grew;True;2019-05-22 22:19:23+00:00;False;676;233;17626;bb726da6fd75cadf2d7e5ac092baab634d1c4b9b;3;noreply@github.com;github@ez13.net
 debugger.cs;MODIFY;3613;10.0;Grew;True;2019-06-13 14:19:13+00:00;False;676;233;17650;aac4c6ff2184d3fb096290372fd51d70ce98ea2b;5;dongbow@microsoft.com;KirkMunro@users.noreply.github.com
 debugger.cs;MODIFY;3599;-14.0;Decreased;True;2019-07-06 20:03:03+00:00;False;672;232;17590;5d98b901be24094f96cad6b00bfcade96735e468;19;noreply@github.com;darpa@yandex.ru
@@ -41,7 +41,7 @@ debugger.cs;MODIFY;3610;11.0;Grew;True;2019-08-05 20:27:49+00:00;False;674;233;1
 debugger.cs;MODIFY;3615;5.0;Grew;True;2019-08-12 17:37:31+00:00;False;675;233;17639;3444925019845aee50262eea2c1e507acf95aabe;1;travis.plunk@microsoft.com;paulhi@microsoft.com
 debugger.cs;MODIFY;3523;-92.0;Decreased;True;2019-08-15 03:29:18+00:00;False;666;232;17417;ca86d7575486ff275d21c8d4e56a0cb2f24369d1;2;darpa@yandex.ru;KirkMunro@users.noreply.github.com
 debugger.cs;MODIFY;3560;37.0;Grew;True;2019-08-23 17:34:10+00:00;False;674;236;17647;8b9f4124cea30cfcd52693cb21bcd8100d39a796;16;dongbow@microsoft.com;KirkMunro@users.noreply.github.com
-debugger.cs;MODIFY;3528;-32.0;Grew;True;2019-09-05 18:30:25+00:00;False;658;222;17755;cc0fed479a3e455b746a3d12597f078462f2d644;23;adityap@microsoft.com;KirkMunro@users.noreply.github.com
+debugger.cs;MODIFY;3528;-32.0;Decreased;True;2019-09-05 18:30:25+00:00;False;658;222;17755;cc0fed479a3e455b746a3d12597f078462f2d644;23;adityap@microsoft.com;KirkMunro@users.noreply.github.com
 debugger.cs;MODIFY;3506;-22.0;Decreased;True;2019-09-10 22:47:50+00:00;False;653;221;17651;096a78fbe3fa9997b1a4ab4e8f0014317ac1e3fe;2;48340428+msftbot[bot]@users.noreply.github.com;KirkMunro@users.noreply.github.com
 debugger.cs;MODIFY;3528;22.0;Grew;True;2019-10-30 21:46:55+00:00;False;657;222;17749;96eb361af8d04d7821343ea2d59f61f0efcdd54c;5;adityap@microsoft.com;rjmholt_msft@outlook.com
 debugger.cs;MODIFY;3528;0.0;Equal;True;2019-11-06 03:47:32+00:00;False;657;222;17749;d58a82ad19fbfad81e85778c8b08cb1b28f58fce;91;noreply@github.com;darpa@yandex.ru
@@ -50,7 +50,7 @@ debugger.cs;MODIFY;3595;18.0;Grew;True;2020-01-30 19:27:57+00:00;False;669;223;1
 debugger.cs;MODIFY;3595;0.0;Equal;True;2020-01-31 22:56:22+00:00;False;669;223;18297;a34d0f3e808659b0c07b8fdac83aaae1dae43c21;50;noreply@github.com;45661989+xtqqczze@users.noreply.github.com
 debugger.cs;MODIFY;3595;0.0;Equal;True;2020-03-24 18:08:37+00:00;False;669;223;18297;b7cb335f03fe2992d0cbd61699de9d9aafa1d7c1;1760;noreply@github.com;slee@microsoft.com
 debugger.cs;MODIFY;3595;0.0;Equal;True;2020-05-19 18:57:52+00:00;False;669;223;18357;9212aac0fa020b657454ef4f9ff2fdd6fc6d759c;278;noreply@github.com;45661989+xtqqczze@users.noreply.github.com
-debugger.cs;MODIFY;3595;0.0;Grew;True;2020-05-29 04:56:33+00:00;False;669;223;18357;05cab7fa5a3e229f2665ef9cb70fbb15b9fcc7c1;159;noreply@github.com;45661989+xtqqczze@users.noreply.github.com
+debugger.cs;MODIFY;3595;0.0;Equal;True;2020-05-29 04:56:33+00:00;False;669;223;18357;05cab7fa5a3e229f2665ef9cb70fbb15b9fcc7c1;159;noreply@github.com;45661989+xtqqczze@users.noreply.github.com
 debugger.cs;MODIFY;3595;0.0;Equal;True;2020-06-25 06:30:40+00:00;False;669;223;18348;bd90f1921f42059d9b467b501d49576861dfe3e2;71;noreply@github.com;45661989+xtqqczze@users.noreply.github.com
 debugger.cs;MODIFY;3595;0.0;Equal;True;2020-07-30 13:04:03+00:00;False;669;223;18348;6c03776d743edfdffc3e347a7d7249864b5e2447;581;noreply@github.com;45661989+xtqqczze@users.noreply.github.com
 debugger.cs;MODIFY;3595;0.0;Equal;True;2020-07-30 23:06:38+00:00;False;669;223;18348;4b9b0788ed28ea6d463ce857d1ed81bd4a977a59;581;noreply@github.com;dongbow@microsoft.com
@@ -59,15 +59,15 @@ debugger.cs;MODIFY;3567;-28.0;Decreased;True;2020-09-02 03:11:16+00:00;False;669
 debugger.cs;MODIFY;3567;0.0;Equal;True;2020-10-30 07:15:29+00:00;False;669;223;18281;2c1546cd470513c02b8a6eaa64c873b064fa3c85;8;noreply@github.com;45661989+xtqqczze@users.noreply.github.com
 debugger.cs;MODIFY;3567;0.0;Equal;True;2020-11-05 03:36:23+00:00;False;669;223;18292;4ed88dedbc2abfbd15b3bdc9795ee06f869e0372;105;noreply@github.com;45661989+xtqqczze@users.noreply.github.com
 debugger.cs;MODIFY;3564;-3.0;Decreased;True;2020-11-05 16:58:48+00:00;False;669;223;18283;76cef3b299911ba264fef7a2f510dd633f36497d;74;noreply@github.com;45661989+xtqqczze@users.noreply.github.com
-debugger.cs;MODIFY;3564;0.0;Decreased;True;2020-11-05 17:25:26+00:00;False;669;223;18259;d6727dcf1bdc3f446fef3ff3fb14f25b90914d23;37;noreply@github.com;45661989+xtqqczze@users.noreply.github.com
+debugger.cs;MODIFY;3564;0.0;Equal;True;2020-11-05 17:25:26+00:00;False;669;223;18259;d6727dcf1bdc3f446fef3ff3fb14f25b90914d23;37;noreply@github.com;45661989+xtqqczze@users.noreply.github.com
 debugger.cs;MODIFY;3564;0.0;Equal;True;2020-11-16 14:56:07+00:00;False;669;223;18257;006fe4d2dd1b6575ab2e412f29a92fbc8ff34173;11;noreply@github.com;45661989+xtqqczze@users.noreply.github.com
 debugger.cs;MODIFY;3564;0.0;Equal;True;2020-11-20 06:42:51+00:00;False;669;223;18229;9e285298c0d4dde9d78b558efd14e584463f2c6e;43;noreply@github.com;45661989+xtqqczze@users.noreply.github.com
-debugger.cs;MODIFY;3564;0.0;Grew;True;2020-11-20 11:11:36+00:00;False;669;223;18229;f14c76aab984515eb81e8d95109f21fcbf37ce12;56;noreply@github.com;45661989+xtqqczze@users.noreply.github.com
+debugger.cs;MODIFY;3564;0.0;Equal;True;2020-11-20 11:11:36+00:00;False;669;223;18229;f14c76aab984515eb81e8d95109f21fcbf37ce12;56;noreply@github.com;45661989+xtqqczze@users.noreply.github.com
 debugger.cs;MODIFY;3564;0.0;Equal;True;2020-11-21 14:26:44+00:00;False;669;223;18223;cba73e724f5dbf234949358f407e12dfefa35dfe;38;noreply@github.com;45661989+xtqqczze@users.noreply.github.com
 debugger.cs;MODIFY;3564;0.0;Equal;True;2020-11-21 15:07:28+00:00;False;669;223;18223;60643e27df0380e8ab1124604f654c0095c6091f;7;noreply@github.com;45661989+xtqqczze@users.noreply.github.com
 debugger.cs;MODIFY;3564;0.0;Equal;True;2020-11-24 15:06:16+00:00;False;669;223;18225;c7bdb24ff3160b69285202f30a079e4c589f26f4;68;noreply@github.com;45661989+xtqqczze@users.noreply.github.com
 debugger.cs;MODIFY;3564;0.0;Equal;True;2020-11-27 08:10:43+00:00;False;669;223;18233;c909541b7797b60462188a4abe9592a8763c1fbb;44;noreply@github.com;45661989+xtqqczze@users.noreply.github.com
-debugger.cs;MODIFY;3564;0.0;Grew;True;2021-07-09 17:55:23+00:00;False;669;223;18238;6d09c6e40a1963537b158bf6fd1d94e58a1371c6;7;noreply@github.com;adityap@microsoft.com
+debugger.cs;MODIFY;3564;0.0;Equal;True;2021-07-09 17:55:23+00:00;False;669;223;18238;6d09c6e40a1963537b158bf6fd1d94e58a1371c6;7;noreply@github.com;adityap@microsoft.com
 debugger.cs;MODIFY;3564;0.0;Equal;True;2021-07-19 09:09:12+00:00;False;669;223;18239;883ca98dd74ea13b3d8c0dd62d301963a40483d6;59;noreply@github.com;45661989+xtqqczze@users.noreply.github.com
 debugger.cs;MODIFY;3555;-9.0;Decreased;True;2022-07-25 16:54:36+00:00;False;667;222;18216;223c6b890525308bd3c3bddca41bc6b9822614c9;6;noreply@github.com;mr.molkree@gmail.com
 debugger.cs;MODIFY;3525;-30.0;Decreased;True;2022-07-29 04:06:07+00:00;False;667;222;18146;4b4f1d144ff3ff863098a7c61d09d22b3dac313e;36;noreply@github.com;3436158+fflaten@users.noreply.github.com

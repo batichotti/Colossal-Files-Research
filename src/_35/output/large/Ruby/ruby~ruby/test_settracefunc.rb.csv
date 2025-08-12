@@ -1,8 +1,8 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
-test_settracefunc.rb;ADD;23;0.0;Grew;False;2004-11-17 14:48:35+00:00;False;2;2;142;e766a04a573d5d878678db553d9b539322f734a6;2;nahi@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nahi@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+test_settracefunc.rb;ADD;23;0.0;Equal;False;2004-11-17 14:48:35+00:00;False;2;2;142;e766a04a573d5d878678db553d9b539322f734a6;2;nahi@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nahi@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_settracefunc.rb;MODIFY;25;2.0;Grew;False;2005-03-16 14:47:30+00:00;False;2;2;176;6697b0a7282b7439ade532e4a340c62c68d716cc;2;shugo@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;shugo@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_settracefunc.rb;MODIFY;119;94.0;Grew;False;2005-03-22 15:43:27+00:00;False;5;2;830;93c746f8282ec59b8ac59b2ac2f884aadf3e384b;2;shugo@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;shugo@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
-test_settracefunc.rb;MODIFY;119;0.0;Decreased;False;2005-03-23 07:15:49+00:00;False;5;2;830;142922368680cbd6038fc2837daf2df7e7109720;3;shugo@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;shugo@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+test_settracefunc.rb;MODIFY;119;0.0;Equal;False;2005-03-23 07:15:49+00:00;False;5;2;830;142922368680cbd6038fc2837daf2df7e7109720;3;shugo@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;shugo@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_settracefunc.rb;MODIFY;132;13.0;Grew;False;2005-04-07 08:38:05+00:00;False;6;3;935;9961c29c25b54088569a7025ff80c8f7cd58a32d;3;shugo@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;shugo@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_settracefunc.rb;MODIFY;134;2.0;Grew;False;2007-04-19 10:37:08+00:00;False;6;3;951;a73894337a830cdd32a913964f3150bc35269975;15;ko1@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;ko1@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_settracefunc.rb;MODIFY;134;0.0;Equal;False;2007-11-11 08:42:13+00:00;False;6;3;951;577eaa60a705efd018a94ec5e752fb77626dba72;5;shugo@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;shugo@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
@@ -89,7 +89,7 @@ test_settracefunc.rb;MODIFY;1228;-3.0;Decreased;True;2015-07-30 07:56:20+00:00;F
 test_settracefunc.rb;MODIFY;1275;47.0;Grew;True;2015-08-21 09:51:01+00:00;False;166;78;7693;3af5298e8cc9d88fb0c763fb623b722a97912877;5;ko1@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;ko1@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_settracefunc.rb;MODIFY;1331;56.0;Grew;True;2015-08-28 01:20:32+00:00;False;169;79;7985;868c98dccfb433772546e9abba935e0625ef310b;3;ko1@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;ko1@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_settracefunc.rb;MODIFY;1331;0.0;Equal;True;2015-12-14 08:04:28+00:00;False;169;79;7984;6cf568f4b56dcafc5c0fe84df2c0d2491fb0c62b;6;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
-test_settracefunc.rb;MODIFY;1331;0.0;Grew;True;2015-12-16 05:07:31+00:00;False;169;79;7984;3e92b635fb5422207b7bbdc924e292e51e21f040;1432;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+test_settracefunc.rb;MODIFY;1331;0.0;Equal;True;2015-12-16 05:07:31+00:00;False;169;79;7984;3e92b635fb5422207b7bbdc924e292e51e21f040;1432;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_settracefunc.rb;MODIFY;1331;0.0;Equal;True;2016-02-19 07:48:02+00:00;False;169;79;7978;41f4317f45021460871bd11c666f438f5517904b;31;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_settracefunc.rb;MODIFY;1348;17.0;Grew;True;2016-05-03 05:19:20+00:00;False;173;80;8046;e0611820df64b7cc70cbe15535b82e245913ee97;3;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_settracefunc.rb;MODIFY;1348;0.0;Equal;True;2016-05-17 06:53:48+00:00;False;173;80;8046;f9727c12cc8fbc5f752f5983be1f14bb976e5a13;25;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
@@ -128,7 +128,7 @@ test_settracefunc.rb;MODIFY;1932;0.0;Equal;True;2019-04-24 15:52:16+00:00;False;
 test_settracefunc.rb;MODIFY;1932;0.0;Equal;True;2019-06-28 06:09:14+00:00;False;230;114;11103;a0c141b6d04482ebfc4b3abf3f00a476d073226a;1;nobu@ruby-lang.org;nobu@ruby-lang.org
 test_settracefunc.rb;MODIFY;1934;2.0;Grew;True;2019-06-28 06:25:29+00:00;False;229;114;11100;11571b0e95346691e634781f281b92c75608955c;1;nobu@ruby-lang.org;nobu@ruby-lang.org
 test_settracefunc.rb;MODIFY;1933;-1.0;Decreased;True;2019-06-28 06:26:25+00:00;False;229;114;11093;f8b528ba92b5cc4b84e8966dd5d5a072d076c1d1;1;nobu@ruby-lang.org;nobu@ruby-lang.org
-test_settracefunc.rb;MODIFY;1933;0.0;Decreased;True;2019-06-28 06:26:54+00:00;False;229;114;11094;35b7e8eed8ad8ac111d099eafd5a6ac1561fbf44;1;nobu@ruby-lang.org;nobu@ruby-lang.org
+test_settracefunc.rb;MODIFY;1933;0.0;Equal;True;2019-06-28 06:26:54+00:00;False;229;114;11094;35b7e8eed8ad8ac111d099eafd5a6ac1561fbf44;1;nobu@ruby-lang.org;nobu@ruby-lang.org
 test_settracefunc.rb;MODIFY;1949;16.0;Grew;True;2019-07-23 20:39:09+00:00;False;232;117;11147;df317151a5b4e0c5a30fcc321a9dc6abad63f7ed;2;ko1@atdot.net;ko1@atdot.net
 test_settracefunc.rb;MODIFY;1961;12.0;Grew;True;2019-08-08 08:56:04+00:00;False;236;118;11232;b004d3e8300ba803d4a499148fa4fc6a690149e6;4;ko1@atdot.net;ko1@atdot.net
 test_settracefunc.rb;MODIFY;1967;6.0;Grew;True;2019-08-08 12:27:39+00:00;False;239;118;11252;76bd0714cf1140ffd64bf564446c76c54f2c4870;2;nobu@ruby-lang.org;nobu@ruby-lang.org
@@ -182,7 +182,7 @@ test_settracefunc.rb;MODIFY;2538;47.0;Grew;True;2023-12-07 18:29:33+00:00;False;
 test_settracefunc.rb;MODIFY;2549;11.0;Grew;True;2023-12-12 17:36:37+00:00;False;300;144;14971;06e2fbb8260022de8532d2e940fc69e8ea413679;2;aaron.patterson@gmail.com;yanagi@shakenbu.org
 test_settracefunc.rb;MODIFY;2561;12.0;Grew;True;2024-01-23 15:47:04+00:00;False;301;145;15051;b14674b236445fb70f484603e678722760f678f4;2;peter@peterzhu.ca;peter@peterzhu.ca
 test_settracefunc.rb;MODIFY;2561;0.0;Equal;True;2024-01-23 20:09:57+00:00;False;301;145;15051;c84237f9531aed3b204d3fdacc2dd9d2bd4c7d81;8;noreply@github.com;takashikkbn@gmail.com
-test_settracefunc.rb;MODIFY;2567;6.0;Equal;True;2024-02-15 09:42:31+00:00;False;291;139;14883;25d74b9527cd525042ad0b612b794fa331d3a318;64;mame@ruby-lang.org;mame@ruby-lang.org
+test_settracefunc.rb;MODIFY;2567;6.0;Grew;True;2024-02-15 09:42:31+00:00;False;291;139;14883;25d74b9527cd525042ad0b612b794fa331d3a318;64;mame@ruby-lang.org;mame@ruby-lang.org
 test_settracefunc.rb;MODIFY;2601;34.0;Grew;True;2024-02-21 11:32:59+00:00;False;295;142;15034;78d9fe69479d32214a52ad7291c3973f1b6b7f6f;2;noreply@github.com;samuel.williams@oriontransfer.co.nz
 test_settracefunc.rb;MODIFY;2604;3.0;Grew;True;2024-03-04 02:07:26+00:00;False;297;142;15047;5621d794a2fa9293d1da489d6b0ee0e7c73c9128;9;kj@kjtsanaktsidis.id.au;kj@kjtsanaktsidis.id.au
 test_settracefunc.rb;MODIFY;2606;2.0;Grew;True;2024-06-25 02:07:58+00:00;False;297;142;15065;250fc1223c4dc293f8759ddedce9cba7841f1474;4;nobu@ruby-lang.org;nobu@ruby-lang.org

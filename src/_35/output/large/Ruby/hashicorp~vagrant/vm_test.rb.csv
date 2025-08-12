@@ -1,5 +1,5 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
-vm_test.rb;ADD;16;0.0;Grew;False;2014-02-03 15:40:02+00:00;False;1;1;111;0e5840a14d7faa20e5f32e6d943e41b796d3a26b;1;mitchell.hashimoto@gmail.com;mitchell.hashimoto@gmail.com
+vm_test.rb;ADD;16;0.0;Equal;False;2014-02-03 15:40:02+00:00;False;1;1;111;0e5840a14d7faa20e5f32e6d943e41b796d3a26b;1;mitchell.hashimoto@gmail.com;mitchell.hashimoto@gmail.com
 vm_test.rb;MODIFY;23;7.0;Grew;False;2014-02-03 15:42:47+00:00;False;2;2;154;debc14f88310eda8439278c41878b064bc78aac3;1;mitchell.hashimoto@gmail.com;mitchell.hashimoto@gmail.com
 vm_test.rb;MODIFY;32;9.0;Grew;False;2014-02-03 15:56:39+00:00;False;3;3;239;10d5416a9037233a8610f9b16cb28c948fa1c533;3;mitchell.hashimoto@gmail.com;mitchell.hashimoto@gmail.com
 vm_test.rb;MODIFY;63;31.0;Grew;False;2014-02-03 20:30:01+00:00;False;5;5;478;3aaa57cac930f348f0eb721280f998b7364dc086;3;mitchell.hashimoto@gmail.com;mitchell.hashimoto@gmail.com
@@ -32,11 +32,11 @@ vm_test.rb;MODIFY;400;25.0;Grew;False;2014-10-23 22:32:54+00:00;False;48;45;2494
 vm_test.rb;MODIFY;400;0.0;Equal;False;2014-10-24 01:40:14+00:00;False;48;45;2494;97f9948fcee53530d8e527a1e0937f95bdc95ae7;5;mitchell.hashimoto@gmail.com;mitchell.hashimoto@gmail.com
 vm_test.rb;MODIFY;389;-11.0;Decreased;False;2014-12-11 18:21:58+00:00;False;47;44;2506;2b9626f19c54a27fee0608f3504f767529fcc726;4;max@devopsy.com;max@devopsy.com
 vm_test.rb;MODIFY;392;3.0;Grew;False;2014-12-11 18:22:39+00:00;False;48;45;2435;62ddd92768c3e7cb01eee745b44574d47ce53aac;2;max@devopsy.com;max@devopsy.com
-vm_test.rb;MODIFY;392;0.0;Grew;False;2014-12-11 18:23:40+00:00;False;48;45;2401;e7e50d39d915f2fd09ea94b0c2a9ec61be2b7509;4;max@devopsy.com;max@devopsy.com
+vm_test.rb;MODIFY;392;0.0;Equal;False;2014-12-11 18:23:40+00:00;False;48;45;2401;e7e50d39d915f2fd09ea94b0c2a9ec61be2b7509;4;max@devopsy.com;max@devopsy.com
 vm_test.rb;MODIFY;397;5.0;Grew;False;2014-12-11 18:39:24+00:00;False;48;45;2527;b5a94774053bb2314ab64cb0d292cda63aa14aaa;2;max@devopsy.com;max@devopsy.com
 vm_test.rb;MODIFY;415;18.0;Grew;False;2014-12-11 19:09:17+00:00;False;50;47;2570;234adaae637e8565fff5490fb554742ed5deb431;8;max@devopsy.com;max@devopsy.com
-vm_test.rb;MODIFY;415;0.0;Grew;False;2014-12-11 20:07:34+00:00;False;50;47;2570;3e8fdc0ca42f4848ab50c78bbf08a4eb845646da;8;max@devopsy.com;max@devopsy.com
-vm_test.rb;MODIFY;402;-13.0;Grew;False;2015-07-06 20:58:48+00:00;False;49;46;2543;f5e38a4a14daa7e2c792592913ea650237cb2dd8;2;mitchell.hashimoto@gmail.com;mitchell.hashimoto@gmail.com
+vm_test.rb;MODIFY;415;0.0;Equal;False;2014-12-11 20:07:34+00:00;False;50;47;2570;3e8fdc0ca42f4848ab50c78bbf08a4eb845646da;8;max@devopsy.com;max@devopsy.com
+vm_test.rb;MODIFY;402;-13.0;Decreased;False;2015-07-06 20:58:48+00:00;False;49;46;2543;f5e38a4a14daa7e2c792592913ea650237cb2dd8;2;mitchell.hashimoto@gmail.com;mitchell.hashimoto@gmail.com
 vm_test.rb;MODIFY;407;5.0;Grew;False;2015-10-08 15:59:09+00:00;False;50;47;2556;06f8595bc05646fec4534d010f05815037fa14ce;3;mitchell.hashimoto@gmail.com;mitchell.hashimoto@gmail.com
 vm_test.rb;MODIFY;407;0.0;Equal;False;2015-11-23 17:51:12+00:00;False;50;47;2556;68d9708ca7fa627bf795d8b980e892c58cea46cb;2;git@gilles.cornu.name;git@gilles.cornu.name
 vm_test.rb;MODIFY;428;21.0;Grew;False;2016-05-04 05:26:46+00:00;False;51;48;2861;4afe0478b8ca6821f23591453cbbe34ad9a72665;1;kierran.mcpherson@xero.com;kierranm@gmail.com
@@ -52,7 +52,7 @@ vm_test.rb;MODIFY;547;61.0;Grew;False;2018-07-06 23:58:12+00:00;False;66;63;3703
 vm_test.rb;MODIFY;558;11.0;Grew;False;2018-10-30 20:37:22+00:00;False;67;64;3763;6051f3598e6bd58a931a6b33bda48438078259ec;8;bcain@hashicorp.com;bcain@hashicorp.com
 vm_test.rb;MODIFY;564;6.0;Grew;False;2019-02-01 22:47:11+00:00;False;68;65;3783;61cf179b42299b4d5e8b19c192a7705159d1bf50;2;croberts@hashicorp.com;croberts@hashicorp.com
 vm_test.rb;MODIFY;600;36.0;Grew;False;2019-11-22 22:40:23+00:00;False;72;69;4060;734aad1ede74cfcfb0588b2f94552ddd69309d01;2;bcain@hashicorp.com;bcain@hashicorp.com
-vm_test.rb;MODIFY;593;-7.0;Grew;False;2019-11-22 22:40:23+00:00;False;71;68;4024;93828508ec11e6330ff044aea87dfa49cc904c8e;2;bcain@hashicorp.com;bcain@hashicorp.com
+vm_test.rb;MODIFY;593;-7.0;Decreased;False;2019-11-22 22:40:23+00:00;False;71;68;4024;93828508ec11e6330ff044aea87dfa49cc904c8e;2;bcain@hashicorp.com;bcain@hashicorp.com
 vm_test.rb;MODIFY;604;11.0;Grew;False;2019-11-22 22:40:23+00:00;False;72;69;4089;f55aca091c3d4061932caef29553affe21c6d7a5;2;bcain@hashicorp.com;bcain@hashicorp.com
 vm_test.rb;MODIFY;604;0.0;Equal;False;2020-02-10 20:58:11+00:00;False;72;69;4089;718332b35e75ff8ecd111abcb7b94cce1d9f8191;2;bcain@hashicorp.com;bcain@hashicorp.com
 vm_test.rb;MODIFY;604;0.0;Equal;False;2020-02-10 21:03:58+00:00;False;72;69;4089;b11aa532946abe4616ae60bc71d9e4ec126d861a;2;bcain@hashicorp.com;bcain@hashicorp.com
@@ -61,8 +61,8 @@ vm_test.rb;MODIFY;607;0.0;Equal;False;2020-02-12 23:38:34+00:00;False;72;69;4144
 vm_test.rb;MODIFY;610;3.0;Grew;False;2020-05-29 19:34:46+00:00;False;72;69;4186;672859e2967615b680334c8faf94f9b191ada62b;5;scastellarin95@gmail.com;scastellarin95@gmail.com
 vm_test.rb;MODIFY;618;8.0;Grew;False;2020-06-12 19:25:19+00:00;False;73;70;4175;ff0aea4493a8c6391d781ef29e1314aa3e2055e2;5;scastellarin95@gmail.com;scastellarin95@gmail.com
 vm_test.rb;MODIFY;629;11.0;Grew;False;2020-06-12 19:44:35+00:00;False;76;73;4233;7265dd2a846ae825d47b53f04612ae50bd9140cf;4;scastellarin95@gmail.com;scastellarin95@gmail.com
-vm_test.rb;MODIFY;618;-11.0;Equal;False;2020-06-12 19:50:07+00:00;False;73;70;4175;b02a78c661fea8d10d8583bb58e854ca31e2c443;6;scastellarin95@gmail.com;scastellarin95@gmail.com
-vm_test.rb;MODIFY;640;22.0;Equal;False;2020-06-30 21:22:41+00:00;False;77;74;4267;5258c68cf2ae35baa47f523c553c2b13671e96ab;3;bcain@hashicorp.com;bcain@hashicorp.com
+vm_test.rb;MODIFY;618;-11.0;Decreased;False;2020-06-12 19:50:07+00:00;False;73;70;4175;b02a78c661fea8d10d8583bb58e854ca31e2c443;6;scastellarin95@gmail.com;scastellarin95@gmail.com
+vm_test.rb;MODIFY;640;22.0;Grew;False;2020-06-30 21:22:41+00:00;False;77;74;4267;5258c68cf2ae35baa47f523c553c2b13671e96ab;3;bcain@hashicorp.com;bcain@hashicorp.com
 vm_test.rb;MODIFY;642;2.0;Grew;False;2020-06-30 21:23:34+00:00;False;77;74;4307;497cb67b505ebe462882c770d1b872149eb98256;1;bcain@hashicorp.com;bcain@hashicorp.com
 vm_test.rb;MODIFY;656;14.0;Grew;False;2020-07-09 19:07:46+00:00;False;79;76;4417;8985369eabfd5132d8d253ef5627182731004371;3;jbonhag@hashicorp.com;jbonhag@hashicorp.com
 vm_test.rb;MODIFY;649;-7.0;Decreased;False;2020-07-09 19:09:10+00:00;False;78;75;4365;84d2c38cc275de57852c0315f1b6320c7702cd2a;6;jbonhag@hashicorp.com;jbonhag@hashicorp.com
@@ -74,5 +74,5 @@ vm_test.rb;MODIFY;672;8.0;Grew;True;2020-10-06 21:27:20+00:00;False;82;79;4564;f
 vm_test.rb;MODIFY;682;10.0;Grew;True;2020-10-22 19:59:34+00:00;False;83;80;4652;e02bf717b9ce644605aa96abb4e63a1fe2876a84;2;scastellarin95@gmail.com;scastellarin95@gmail.com
 vm_test.rb;MODIFY;683;1.0;Grew;True;2022-05-26 16:16:45+00:00;False;83;80;4654;6f9ea74e0e954a979bf16ef74a8d8a417cdce798;1;phinze@phinze.com;phinze@phinze.com
 vm_test.rb;MODIFY;682;-1.0;Decreased;True;2022-07-15 17:14:47+00:00;False;83;80;4652;a916cddf68ca1aa87b21e6b120a413ba415bcd8e;1;phinze@phinze.com;phinze@phinze.com
-vm_test.rb;MODIFY;682;0.0;Grew;True;2023-08-10 20:53:25+00:00;False;83;80;4652;36a312ee26b1e00b196fd6b82f64dc9efcef690f;1962;noreply@github.com;110428419+hashicorp-copywrite[bot]@users.noreply.github.com
+vm_test.rb;MODIFY;682;0.0;Equal;True;2023-08-10 20:53:25+00:00;False;83;80;4652;36a312ee26b1e00b196fd6b82f64dc9efcef690f;1962;noreply@github.com;110428419+hashicorp-copywrite[bot]@users.noreply.github.com
 vm_test.rb;MODIFY;706;24.0;Grew;True;2023-09-14 23:15:03+00:00;False;87;84;4739;6e13612111e026b87f141f91d67508b2c4a77063;19;croberts@hashicorp.com;croberts@hashicorp.com

@@ -1,5 +1,5 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
-test_parser.rs;ADD;104;0.0;Grew;False;2021-08-30 18:36:07+00:00;False;10;9;998;b3fb106cce2dec8976d24801ed8dff2d9957b5ec;8;fernando.j.herrera@gmail.com;fernando.j.herrera@gmail.com
+test_parser.rs;ADD;104;0.0;Equal;False;2021-08-30 18:36:07+00:00;False;10;9;998;b3fb106cce2dec8976d24801ed8dff2d9957b5ec;8;fernando.j.herrera@gmail.com;fernando.j.herrera@gmail.com
 test_parser.rs;MODIFY;105;1.0;Grew;False;2021-09-02 01:29:43+00:00;False;10;9;1005;3d252a9797d6e4abf7e6537f13cb74b14c5414e5;35;jonathan.d.turner@gmail.com;jonathan.d.turner@gmail.com
 test_parser.rs;MODIFY;105;0.0;Equal;False;2021-09-02 08:25:22+00:00;False;10;9;1003;e1be8f61fcca459cc66269d988dd3be788de3bd4;29;jonathan.d.turner@gmail.com;jonathan.d.turner@gmail.com
 test_parser.rs;MODIFY;109;4.0;Grew;False;2021-09-02 18:21:37+00:00;False;10;9;1038;94687a76030e4fe749c9d98198af6d4876b6c6e9;28;jonathan.d.turner@gmail.com;jonathan.d.turner@gmail.com
@@ -12,7 +12,7 @@ test_parser.rs;MODIFY;326;-21.0;Decreased;False;2021-09-05 18:44:18+00:00;False;
 test_parser.rs;MODIFY;326;0.0;Equal;False;2021-09-06 20:41:30+00:00;False;27;17;2300;f7a19d37c6f14704b5c6b376bad8c0a9eb2df158;5;fernando.j.herrera@gmail.com;fernando.j.herrera@gmail.com
 test_parser.rs;MODIFY;362;36.0;Grew;False;2021-09-11 11:28:46+00:00;False;29;18;2474;47497769845e31906d8ba4e11e8b12dfc2f0b202;8;kubouch@gmail.com;kubouch@gmail.com
 test_parser.rs;MODIFY;391;29.0;Grew;False;2021-09-12 12:36:54+00:00;False;31;19;2637;ce0b5bf4ab43cb60f360873d1a0fece0b06d2750;1;kubouch@gmail.com;kubouch@gmail.com
-test_parser.rs;MODIFY;390;-1.0;Grew;False;2021-09-12 12:56:58+00:00;False;31;19;2629;78054a53525901c2a36b1bb0f9ae4ba6716572bc;2;kubouch@gmail.com;kubouch@gmail.com
+test_parser.rs;MODIFY;390;-1.0;Decreased;False;2021-09-12 12:56:58+00:00;False;31;19;2629;78054a53525901c2a36b1bb0f9ae4ba6716572bc;2;kubouch@gmail.com;kubouch@gmail.com
 test_parser.rs;MODIFY;391;1.0;Grew;False;2021-09-12 12:57:49+00:00;False;31;19;2631;e6a2e27e3360be80cd4e86f6bccc1fdade1db922;1;kubouch@gmail.com;kubouch@gmail.com
 test_parser.rs;MODIFY;450;59.0;Grew;False;2021-09-13 08:19:05+00:00;False;37;24;2962;d7a3c7522bb4e94b4f61e4f9bb45c2211c72d15e;1;jonathan.d.turner@gmail.com;jonathan.d.turner@gmail.com
 test_parser.rs;MODIFY;450;0.0;Equal;False;2021-10-13 17:53:27+00:00;False;37;24;2962;fdd2c35fd92d3b267e6968b2c753c66a59f5b02e;8;jonathan.d.turner@gmail.com;jonathan.d.turner@gmail.com
@@ -42,9 +42,9 @@ test_parser.rs;MODIFY;1210;15.0;Grew;False;2022-12-09 13:48:12+00:00;False;110;8
 test_parser.rs;MODIFY;1377;167.0;Grew;False;2022-12-14 13:54:13+00:00;False;124;88;9204;98b9839e3d1e2762d7a76df84939251b20218c83;2;noreply@github.com;6389719+gavinfoley@users.noreply.github.com
 test_parser.rs;MODIFY;1377;0.0;Equal;False;2022-12-22 20:30:10+00:00;False;124;88;9204;8e1112c1dd96db3e7c01fe481f831fc902a578e9;9;noreply@github.com;L_1_L_0@yahoo.com
 test_parser.rs;MODIFY;1377;0.0;Equal;False;2023-01-15 02:03:32+00:00;False;124;88;9204;7221eb7f3971ee2a6fa339c16bb0931571eead14;32;noreply@github.com;12111996+afetisov@users.noreply.github.com
-test_parser.rs;MODIFY;1397;20.0;Equal;False;2023-01-16 11:43:46+00:00;False;125;89;9335;f823c7cb5d0770dfcb75be48be8143c24c01534a;11;noreply@github.com;hustcer@outlook.com
+test_parser.rs;MODIFY;1397;20.0;Grew;False;2023-01-16 11:43:46+00:00;False;125;89;9335;f823c7cb5d0770dfcb75be48be8143c24c01534a;11;noreply@github.com;hustcer@outlook.com
 test_parser.rs;MODIFY;1385;-12.0;Decreased;False;2023-01-27 17:45:57+00:00;False;125;89;9323;36ddbfdc85a4bdd796427e80bb77cdfc221887b0;6;noreply@github.com;547158+jntrnr@users.noreply.github.com
-test_parser.rs;MODIFY;1364;-21.0;Equal;False;2023-01-30 01:37:54+00:00;False;123;88;9177;ab480856a5ef3252ef5a57e8a3b553c0fce4ab4a;134;noreply@github.com;sholderbach@users.noreply.github.com
+test_parser.rs;MODIFY;1364;-21.0;Decreased;False;2023-01-30 01:37:54+00:00;False;123;88;9177;ab480856a5ef3252ef5a57e8a3b553c0fce4ab4a;134;noreply@github.com;sholderbach@users.noreply.github.com
 test_parser.rs;MODIFY;1366;2.0;Grew;False;2023-02-05 21:17:46+00:00;False;123;88;9099;99076af18bec1ac1fb39b7eab9da58f10008929b;236;noreply@github.com;31616285+jaudiger@users.noreply.github.com
 test_parser.rs;MODIFY;1572;206.0;Grew;True;2023-02-13 16:09:50+00:00;True;135;93;10081;007916c2c12a32bbb3e1c07915e40c7de84da176;4;noreply@github.com;bob.hyman@gmail.com
 test_parser.rs;MODIFY;1572;0.0;Equal;True;2023-03-01 05:33:02+00:00;False;135;93;10081;a5c604c283cf61c3657643ddb567e863d988a6b4;268;noreply@github.com;31616285+jaudiger@users.noreply.github.com

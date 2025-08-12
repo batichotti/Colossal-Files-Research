@@ -1,5 +1,5 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
-garbagecollector_test.go;ADD;238;0.0;Grew;False;2016-05-15 23:04:19+00:00;False;27;9;1426;c73406bcfec3bc4a6c270161012e471db22ca333;22;xuchao@google.com;xuchao@google.com
+garbagecollector_test.go;ADD;238;0.0;Equal;False;2016-05-15 23:04:19+00:00;False;27;9;1426;c73406bcfec3bc4a6c270161012e471db22ca333;22;xuchao@google.com;xuchao@google.com
 garbagecollector_test.go;MODIFY;266;28.0;Grew;False;2016-05-24 20:07:28+00:00;False;33;12;1665;1665546d2d7ae2c15f35c038f26401322404884f;20;xuchao@google.com;xuchao@google.com
 garbagecollector_test.go;MODIFY;290;24.0;Grew;False;2016-06-03 18:22:51+00:00;False;38;13;1885;06f49f7ca79989084058a31b6a6ac751ddf30064;4;xuchao@google.com;xuchao@google.com
 garbagecollector_test.go;MODIFY;290;0.0;Equal;False;2016-06-30 00:47:36+00:00;False;38;13;1885;ef0c9f0c5b8efbba948a0be2c98d9d2e32e0b68c;3553;djmm@google.com;djmm@google.com
@@ -53,12 +53,12 @@ garbagecollector_test.go;MODIFY;800;109.0;Grew;False;2018-03-16 18:28:58+00:00;F
 garbagecollector_test.go;MODIFY;804;4.0;Grew;False;2018-04-25 12:55:26+00:00;False;90;32;5163;3632037e600d82a954c05ecd4f9cb6f1ca93d41c;26;deads@redhat.com;deads@redhat.com
 garbagecollector_test.go;MODIFY;804;0.0;Equal;False;2018-04-27 11:56:42+00:00;False;90;32;5161;e2fc5cf259463f896213afdef15d58ef9a91eb35;42;deads@redhat.com;deads@redhat.com
 garbagecollector_test.go;MODIFY;805;1.0;Grew;False;2018-05-01 11:51:17+00:00;False;90;32;5192;ef0d1ab81927214db80c30d5af491f67546d790b;39;deads@redhat.com;deads@redhat.com
-garbagecollector_test.go;MODIFY;804;-1.0;Grew;False;2018-05-07 13:01:39+00:00;False;93;32;5069;cf4f7aab65ff3e0f639384743d9514ef1d050c5f;7;deads@redhat.com;deads@redhat.com
+garbagecollector_test.go;MODIFY;804;-1.0;Decreased;False;2018-05-07 13:01:39+00:00;False;93;32;5069;cf4f7aab65ff3e0f639384743d9514ef1d050c5f;7;deads@redhat.com;deads@redhat.com
 garbagecollector_test.go;MODIFY;804;0.0;Equal;False;2018-05-08 22:33:50+00:00;False;93;32;5057;c5445d3c56e06ab366b9cca34bd69c5cc386ec47;172;deads@redhat.com;deads@redhat.com
 garbagecollector_test.go;MODIFY;804;0.0;Equal;False;2018-06-01 23:50:07+00:00;False;93;32;5057;29d72a71345d535e270cee59e31e8b5788910bb9;6;haoweic@google.com;xuchao@google.com
 garbagecollector_test.go;MODIFY;837;33.0;Grew;False;2018-06-02 01:16:51+00:00;False;97;33;5287;7da3d65571d7e86b83710bf1285d5d9ff38f2cd3;3;jliggitt@redhat.com;jliggitt@redhat.com
-garbagecollector_test.go;MODIFY;837;0.0;Grew;False;2019-01-10 09:51:53+00:00;False;97;33;5287;44b2e8464bd3ece4effdb888ceabf65ae2f39ff7;1;me@imkira.com;me@imkira.com
-garbagecollector_test.go;MODIFY;837;0.0;Grew;False;2019-01-24 18:42:30+00:00;False;97;33;5287;e2812ce31291cc1728686df5cd1ce20e688aa9b2;1;xuchao@google.com;xuchao@google.com
+garbagecollector_test.go;MODIFY;837;0.0;Equal;False;2019-01-10 09:51:53+00:00;False;97;33;5287;44b2e8464bd3ece4effdb888ceabf65ae2f39ff7;1;me@imkira.com;me@imkira.com
+garbagecollector_test.go;MODIFY;837;0.0;Equal;False;2019-01-24 18:42:30+00:00;False;97;33;5287;e2812ce31291cc1728686df5cd1ce20e688aa9b2;1;xuchao@google.com;xuchao@google.com
 garbagecollector_test.go;MODIFY;840;3.0;Grew;False;2019-02-12 13:28:19+00:00;False;98;34;5321;618050e35dd617032e81dfe61084a676d3e10757;10;stefan.schimanski@gmail.com;stefan.schimanski@gmail.com
 garbagecollector_test.go;MODIFY;839;-1.0;Decreased;False;2019-03-27 03:15:39+00:00;False;98;34;5315;8146fe47d81ce14e8d4730ecc1f527a525030299;1;liggitt@google.com;liggitt@google.com
 garbagecollector_test.go;MODIFY;816;-23.0;Decreased;False;2019-05-17 22:41:36+00:00;False;91;33;5101;05ebe9127704622ce98e7ef22426ebc92ce27a50;8;yliao@google.com;yliao@google.com
@@ -83,9 +83,9 @@ garbagecollector_test.go;MODIFY;2382;4.0;Grew;True;2021-11-05 13:33:52+00:00;Fal
 garbagecollector_test.go;MODIFY;2384;2.0;Grew;True;2021-11-05 23:44:02+00:00;False;211;75;16877;de4598d0db5e2babe89dd334407b2ba8024ec9a1;11;mmazurskiy@gitlab.com;mmazurskiy@gitlab.com
 garbagecollector_test.go;MODIFY;2389;5.0;Grew;True;2021-12-10 12:07:37+00:00;False;211;75;16905;f0e74bfb7ff797da7496419f828e528c5789e96a;1;zhchsun1992@gmail.com;zhchsun1992@gmail.com
 garbagecollector_test.go;MODIFY;2386;-3.0;Decreased;True;2021-12-22 08:14:09+00:00;False;210;74;16881;ef39a8914291ba200bd5486c88a7575ffd4b7d1d;12;aguclu@redhat.com;aguclu@redhat.com
-garbagecollector_test.go;MODIFY;2389;3.0;Equal;True;2022-01-09 07:19:10+00:00;False;211;75;16905;a5a54754d506a8aa1921dfeaca1d9575426153c5;2;wangchengiscool@gmail.com;wangchengiscool@gmail.com
+garbagecollector_test.go;MODIFY;2389;3.0;Grew;True;2022-01-09 07:19:10+00:00;False;211;75;16905;a5a54754d506a8aa1921dfeaca1d9575426153c5;2;wangchengiscool@gmail.com;wangchengiscool@gmail.com
 garbagecollector_test.go;MODIFY;2389;0.0;Equal;True;2022-02-02 07:22:59+00:00;False;211;75;16907;d66b3edd65efba0760eb0a5668aac733f294903b;5;maxwell3721@163.com;maxwell3721@163.com
-garbagecollector_test.go;MODIFY;2386;-3.0;Equal;True;2022-11-23 15:40:23+00:00;False;210;74;16883;aede3fbf406394b232e376c8bce28f79d2b77437;22;i.alidjikov@gmail.com;i.alidjikov@gmail.com
+garbagecollector_test.go;MODIFY;2386;-3.0;Decreased;True;2022-11-23 15:40:23+00:00;False;210;74;16883;aede3fbf406394b232e376c8bce28f79d2b77437;22;i.alidjikov@gmail.com;i.alidjikov@gmail.com
 garbagecollector_test.go;MODIFY;2396;10.0;Grew;True;2023-03-08 13:37:56+00:00;False;210;74;16968;26e3dab78b4ba5c2040dc2cf0e5fdb041a458ab5;7;andy.goldstein@redhat.com;andy.goldstein@redhat.com
 garbagecollector_test.go;MODIFY;2397;1.0;Grew;True;2023-07-05 23:36:51+00:00;False;210;74;16980;3cf2822bc587f3f63e87e9b38098970d8f2b7ca5;2;zhaoziqi9146@gmail.com;xin.li@daocloud.io
 garbagecollector_test.go;MODIFY;2397;0.0;Equal;True;2023-07-05 23:39:52+00:00;False;210;74;16980;dfc1838379f503692d2868895a66828ce2f54442;26;zhaoziqi9146@gmail.com;zhaoziqi9146@gmail.com

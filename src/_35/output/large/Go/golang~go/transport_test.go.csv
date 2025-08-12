@@ -1,6 +1,6 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
 transport_test.go;RENAME;not calculated;0.0;Equal;False;2014-09-08 04:08:51+00:00;False;not calculated;0;not calculated;c007ce824d9a4fccb148f9204e04c23ed2984b71;2097;rsc@golang.org;rsc@golang.org
-transport_test.go;MODIFY;1914.0;0.0;Grew;False;2014-09-19 15:28:38+00:00;False;401;124;12774;0c47bd1e61ab09e04572170f839297cb8ce97a5c;2;bradfitz@golang.org;john@tuley.org
+transport_test.go;MODIFY;1914.0;0.0;Equal;False;2014-09-19 15:28:38+00:00;False;401;124;12774;0c47bd1e61ab09e04572170f839297cb8ce97a5c;2;bradfitz@golang.org;john@tuley.org
 transport_test.go;MODIFY;1930.0;16.0;Grew;False;2014-09-24 23:55:39+00:00;False;404;125;12893;e6f21be3f48802f18013a7e95bb3850882ab96e3;3;bradfitz@golang.org;bradfitz@golang.org
 transport_test.go;MODIFY;1966.0;36.0;Grew;False;2014-09-30 01:16:15+00:00;False;413;127;13081;f13cec9f5732dd09c51f90957c3d888aad782c27;3;bradfitz@golang.org;bradfitz@golang.org
 transport_test.go;MODIFY;1992.0;26.0;Grew;False;2014-10-15 15:51:30+00:00;False;420;129;13264;42c3130780327299cb8a89f30b8e5c3d6b96d2c2;3;bradfitz@golang.org;bradfitz@golang.org
@@ -21,7 +21,7 @@ transport_test.go;MODIFY;2332.0;46.0;Grew;True;2015-07-27 16:24:01+00:00;False;4
 transport_test.go;MODIFY;2367.0;35.0;Grew;True;2015-07-27 16:26:56+00:00;False;500;159;15638;9d56c1813e66538cf709d6939440cafa13c275db;2;rsc@golang.org;bradfitz@golang.org
 transport_test.go;MODIFY;2368.0;1.0;Grew;True;2015-07-28 05:36:52+00:00;False;500;159;15644;d1cf5b899d2c60c480955101ec37e0f70f128711;1;bradfitz@golang.org;bradfitz@golang.org
 transport_test.go;MODIFY;2368.0;0.0;Equal;True;2015-08-21 05:37:36+00:00;False;500;159;15644;f62b749ae2b323653085f78f896f660ee461bb41;9;r@golang.org;r@golang.org
-transport_test.go;MODIFY;2366.0;-2.0;Grew;True;2015-10-16 19:16:56+00:00;False;499;160;15653;368f73bcd9651129c1753c3486cf5b0757d4707d;5;bradfitz@golang.org;bradfitz@golang.org
+transport_test.go;MODIFY;2366.0;-2.0;Decreased;True;2015-10-16 19:16:56+00:00;False;499;160;15653;368f73bcd9651129c1753c3486cf5b0757d4707d;5;bradfitz@golang.org;bradfitz@golang.org
 transport_test.go;MODIFY;2438.0;72.0;Grew;True;2015-10-17 00:44:46+00:00;False;515;162;16221;dab143c8820151538fea908efe54e9625d1bc795;3;bradfitz@golang.org;matope.ono@gmail.com
 transport_test.go;MODIFY;2439.0;1.0;Grew;True;2015-11-13 10:13:48+00:00;False;515;162;16225;a734a8550a17e54548a6c7ebb3220c33d417e767;4;bradfitz@golang.org;bradfitz@golang.org
 transport_test.go;MODIFY;2450.0;11.0;Grew;True;2015-11-19 01:35:36+00:00;False;518;163;16297;e4a1acced742a53421e22fe498d66c81d623110b;2;bradfitz@golang.org;bradfitz@golang.org
@@ -30,7 +30,7 @@ transport_test.go;MODIFY;2450.0;-58.0;Decreased;True;2015-11-25 05:18:46+00:00;F
 transport_test.go;MODIFY;2505.0;55.0;Grew;True;2015-12-01 20:40:31+00:00;False;534;168;16618;5dd372bd1e70949a432d9b7b8b021d13abf584d1;5;bradfitz@golang.org;blakesgentry@gmail.com
 transport_test.go;MODIFY;2523.0;18.0;Grew;True;2015-12-02 02:03:19+00:00;False;536;169;16744;9bad99574ad90f877ee4d8aa36ca503f4167fab6;2;bradfitz@golang.org;bradfitz@golang.org
 transport_test.go;MODIFY;2528.0;5.0;Grew;True;2015-12-03 21:58:29+00:00;False;537;170;16777;71d2fa8bae19ea2bbfb4a7968286b046214069e1;3;bradfitz@golang.org;bradfitz@golang.org
-transport_test.go;MODIFY;2528.0;0.0;Grew;True;2015-12-04 21:52:31+00:00;False;537;170;16777;c498a45b333695257099f4000ba9ca93803ee99e;1;bradfitz@golang.org;emm.odeke@gmail.com
+transport_test.go;MODIFY;2528.0;0.0;Equal;True;2015-12-04 21:52:31+00:00;False;537;170;16777;c498a45b333695257099f4000ba9ca93803ee99e;1;bradfitz@golang.org;emm.odeke@gmail.com
 transport_test.go;MODIFY;2514.0;-14.0;Decreased;True;2015-12-16 17:50:32+00:00;False;534;168;16741;1fe3933920eda140a75f87268a6d75260ba41823;3;bradfitz@golang.org;bradfitz@golang.org
 transport_test.go;MODIFY;2522.0;8.0;Grew;True;2015-12-29 15:46:44+00:00;False;534;168;16781;04d732b4c2ec346dd0977ec2933d4863271fd4c3;11;rsc@golang.org;rsc@golang.org
 transport_test.go;MODIFY;2522.0;0.0;Equal;True;2016-01-04 19:23:17+00:00;False;534;168;16773;28b95edff2108c5e567debbf5e65db1a94c2ef39;3;bradfitz@golang.org;bradfitz@golang.org
@@ -62,7 +62,7 @@ transport_test.go;MODIFY;3001.0;3.0;Grew;True;2016-05-20 02:57:18+00:00;False;65
 transport_test.go;MODIFY;3012.0;11.0;Grew;True;2016-05-20 21:40:02+00:00;False;661;232;20249;cc0d8c86e3437c1eec697809bdc9b2bcc8e0ed92;1;bradfitz@golang.org;bradfitz@golang.org
 transport_test.go;MODIFY;3015.0;3.0;Grew;True;2016-06-01 23:15:34+00:00;False;662;233;20265;f6c0241999bffe0fe52e8b7f5bbcc8f9e02edbdf;2;adg@golang.org;tombergan@google.com
 transport_test.go;MODIFY;3024.0;9.0;Grew;True;2016-07-18 14:58:26+00:00;False;663;233;20324;b97df54c31d6c4cc2a28a3c83725366d52329223;4;cbro@golang.org;bradfitz@golang.org
-transport_test.go;MODIFY;3024.0;0.0;Grew;True;2016-07-18 15:13:06+00:00;False;663;233;20324;cad4e97af8f2e0b9f09b97f67fb3a89ced2e9021;4;cbro@golang.org;bradfitz@golang.org
+transport_test.go;MODIFY;3024.0;0.0;Equal;True;2016-07-18 15:13:06+00:00;False;663;233;20324;cad4e97af8f2e0b9f09b97f67fb3a89ced2e9021;4;cbro@golang.org;bradfitz@golang.org
 transport_test.go;MODIFY;3056.0;32.0;Grew;True;2016-07-26 05:28:06+00:00;False;672;241;20584;ea2376fcea0be75c856ebd199c0ad0f98192d406;3;bradfitz@golang.org;bradfitz@golang.org
 transport_test.go;MODIFY;3092.0;36.0;Grew;True;2016-08-22 02:03:29+00:00;False;678;244;20855;236901384dc9fc3d7810ae96b43c8404f0fea6c1;2;bradfitz@golang.org;bradfitz@golang.org
 transport_test.go;MODIFY;3101.0;9.0;Grew;True;2016-08-23 05:31:45+00:00;False;681;244;20904;0b5f2f0d1149bcff3c6b08458d7ffdd96970235c;3;iant@golang.org;iant@golang.org
@@ -133,8 +133,8 @@ transport_test.go;MODIFY;4425.0;0.0;Equal;True;2019-04-16 20:27:15+00:00;False;9
 transport_test.go;MODIFY;4514.0;89.0;Grew;True;2019-04-30 23:25:55+00:00;False;983;359;30472;43b9fcf6fe9feb0ec67a7ddb01e5b542542b47c8;2;bradfitz@golang.org;michael.fraenkel@gmail.com
 transport_test.go;MODIFY;4513.0;-1.0;Decreased;True;2019-05-02 21:46:14+00:00;False;982;359;30467;bf35b7c8b15f000e5d816bdb3fa105b0d1df0be5;1;bradfitz@golang.org;bradfitz@golang.org
 transport_test.go;MODIFY;4560.0;47.0;Grew;True;2019-05-03 15:17:54+00:00;False;994;366;30834;5e404b362098318b5237673ef24834ef88912caa;2;bradfitz@golang.org;bradfitz@golang.org
-transport_test.go;MODIFY;4559.0;-1.0;Equal;True;2019-05-03 15:58:50+00:00;False;994;366;30830;0a4d352992606d3becebfa0cdac392827039b49d;2;bradfitz@golang.org;michael.fraenkel@gmail.com
-transport_test.go;MODIFY;4558.0;-1.0;Grew;True;2019-05-28 00:54:10+00:00;False;994;366;30826;3970667d958eadbe591400ac9a53051a39f40ea2;2;bradfitz@golang.org;bradfitz@golang.org
+transport_test.go;MODIFY;4559.0;-1.0;Decreased;True;2019-05-03 15:58:50+00:00;False;994;366;30830;0a4d352992606d3becebfa0cdac392827039b49d;2;bradfitz@golang.org;michael.fraenkel@gmail.com
+transport_test.go;MODIFY;4558.0;-1.0;Decreased;True;2019-05-28 00:54:10+00:00;False;994;366;30826;3970667d958eadbe591400ac9a53051a39f40ea2;2;bradfitz@golang.org;bradfitz@golang.org
 transport_test.go;MODIFY;4625.0;67.0;Grew;True;2019-05-30 22:29:29+00:00;False;1008;369;31263;ba66d89d7882892f762e7980562287d2c79ad87e;3;bradfitz@golang.org;bradfitz@golang.org
 transport_test.go;MODIFY;4628.0;3.0;Grew;True;2019-07-08 14:31:42+00:00;False;1009;369;31288;fbaf881cc62bd0e1f4c5e608217fd52106438dbb;4;rsc@golang.org;rsc@golang.org
 transport_test.go;MODIFY;4628.0;0.0;Equal;True;2019-08-12 23:12:29+00:00;False;1009;369;31289;61bb56ad63992a3199acc55b2537c8355ef887b6;4;filippo@golang.org;filippo@golang.org
@@ -183,7 +183,7 @@ transport_test.go;MODIFY;5534.0;26.0;Grew;True;2021-09-02 16:59:57+00:00;False;1
 transport_test.go;MODIFY;5534.0;0.0;Equal;True;2021-12-13 18:45:54+00:00;False;1200;454;37222;2580d0e08d5e9f979b943758d3c49877fb2324cb;445;rsc@golang.org;rsc@golang.org
 transport_test.go;MODIFY;5534.0;0.0;Equal;True;2022-04-01 18:18:05+00:00;False;1200;454;37222;89dff118ada91061350aa149b54a2ab4fdbd6810;24;rsc@golang.org;rsc@golang.org
 transport_test.go;MODIFY;5536.0;2.0;Grew;True;2022-04-06 20:46:47+00:00;False;1202;454;37257;81ae993e54547415ba674082801b05961e3f2aa3;1;bcmills@google.com;bcmills@google.com
-transport_test.go;MODIFY;5536.0;0.0;Grew;True;2022-04-11 16:34:30+00:00;False;1202;454;37257;19309779ac5e2f5a2fd3cbb34421dafb2855ac21;373;rsc@golang.org;rsc@golang.org
+transport_test.go;MODIFY;5536.0;0.0;Equal;True;2022-04-11 16:34:30+00:00;False;1202;454;37257;19309779ac5e2f5a2fd3cbb34421dafb2855ac21;373;rsc@golang.org;rsc@golang.org
 transport_test.go;MODIFY;5546.0;10.0;Grew;True;2022-04-20 17:51:39+00:00;False;1205;454;37300;a2f7d9d95a84dedb6909bf1907d6857c2c4a2ef5;2;bradfitz@golang.org;bradfitz@golang.org
 transport_test.go;MODIFY;5546.0;0.0;Equal;True;2022-05-17 21:46:33+00:00;False;1205;454;37300;b2116f748a7acd32facdbbdaf40117ed40564083;28;gobot@golang.org;jbampton@gmail.com
 transport_test.go;MODIFY;5546.0;0.0;Equal;True;2022-07-01 15:57:45+00:00;False;1206;454;37333;e822b1e26e20ef1c76672c0b77b0fd8a97a1fe84;2;dneil@google.com;yastrebov.alex@gmail.com
@@ -192,7 +192,7 @@ transport_test.go;MODIFY;5556.0;10.0;Grew;True;2022-09-21 15:39:17+00:00;False;1
 transport_test.go;MODIFY;5554.0;-2.0;Decreased;True;2022-10-07 16:53:14+00:00;False;1300;547;38769;747e1961e95c2eb3df62e045b90b111c2ceea337;8;dneil@google.com;dneil@google.com
 transport_test.go;MODIFY;5559.0;5.0;Grew;True;2022-10-12 18:11:14+00:00;False;1301;547;38787;5bef938125d8604593ccacc59474db0b1403f6aa;1;dneil@google.com;dneil@google.com
 transport_test.go;MODIFY;5562.0;3.0;Grew;True;2022-10-14 16:41:21+00:00;False;1302;547;38799;e9cdca9a24b63cba0560978fb48773b83805be25;1;dneil@google.com;dneil@google.com
-transport_test.go;MODIFY;5562.0;0.0;Grew;True;2022-10-31 20:44:00+00:00;False;1302;547;38792;e943dc5a8ccab90286d3882e5d13e9fa9516f243;1;dneil@google.com;lvzecai@gmail.com
+transport_test.go;MODIFY;5562.0;0.0;Equal;True;2022-10-31 20:44:00+00:00;False;1302;547;38792;e943dc5a8ccab90286d3882e5d13e9fa9516f243;1;dneil@google.com;lvzecai@gmail.com
 transport_test.go;MODIFY;5645.0;83.0;Grew;True;2022-11-09 17:41:34+00:00;False;1321;553;39318;2f4d5c3b791b9b78c32ad587a70adfc1b46f29e0;3;bradfitz@golang.org;cuiweixie@gmail.com
 transport_test.go;MODIFY;5645.0;0.0;Equal;True;2022-11-18 18:50:57+00:00;False;1321;553;39318;f64c2a2ce5dc859315047184e310879dcf747d53;5;gobot@golang.org;gabor.tanz@swisscom.com
 transport_test.go;MODIFY;5625.0;-20.0;Decreased;True;2022-11-19 01:19:55+00:00;False;1316;553;39257;f4f8397fed02b612c36c425fc9c5dce32408e21b;1;dneil@google.com;dneil@google.com

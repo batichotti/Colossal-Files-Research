@@ -1,34 +1,34 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
 tables.go;RENAME;not calculated;0.0;Equal;False;2014-09-08 04:08:51+00:00;False;not calculated;0;not calculated;c007ce824d9a4fccb148f9204e04c23ed2984b71;2097;rsc@golang.org;rsc@golang.org
-tables.go;MODIFY;6946.0;0.0;Grew;True;2015-06-26 18:01:29+00:00;True;not calculated;0;50976;fe15da62f778d0db62104ed8c8a7b31a150f7753;7;rsc@golang.org;mpvl@golang.org
+tables.go;MODIFY;6946.0;0.0;Equal;True;2015-06-26 18:01:29+00:00;True;not calculated;0;50976;fe15da62f778d0db62104ed8c8a7b31a150f7753;7;rsc@golang.org;mpvl@golang.org
 tables.go;MODIFY;6946.0;0.0;Equal;True;2015-08-24 15:05:48+00:00;False;not calculated;0;50976;c714bbbfd37f6eb542c99899693bf5088ee07cb9;2;mpvl@golang.org;mpvl@golang.org
 tables.go;ADD;9752.0;2806.0;Grew;True;2015-08-28 16:34:30+00:00;False;not calculated;0;54411;10efac8782a053f29a1c63ca19986cc638710f07;32;rsc@golang.org;rsc@golang.org
 tables.go;RENAME;not calculated;0.0;Equal;False;2016-02-09 20:36:08+00:00;True;not calculated;0;not calculated;558a213d55beb23846e45a4500f3388f91dadb75;34;rsc@golang.org;rsc@golang.org
-tables.go;MODIFY;7076.0;0.0;Grew;True;2016-04-26 21:59:50+00:00;True;not calculated;0;51243;e607abbfd6e0550c13f4fa7b666d033eb9b14759;4;bradfitz@golang.org;egonelbre@gmail.com
+tables.go;MODIFY;7076.0;0.0;Equal;True;2016-04-26 21:59:50+00:00;True;not calculated;0;51243;e607abbfd6e0550c13f4fa7b666d033eb9b14759;4;bradfitz@golang.org;egonelbre@gmail.com
 tables.go;RENAME;not calculated;0.0;Equal;False;2016-05-14 17:21:52+00:00;True;not calculated;0;not calculated;094afe0cf1aa4182d62a3aea6970933b7ae4a27d;34;bradfitz@golang.org;k.shaposhnikov@gmail.com
-tables.go;MODIFY;7348.0;0.0;Grew;True;2016-06-28 15:08:11+00:00;True;not calculated;0;53271;a2a4db7375204c22898559d3b96a748c6df96294;8;mpvl@golang.org;mpvl@golang.org
-tables.go;ADD;5414.0;-1934.0;Grew;True;2016-10-13 00:11:05+00:00;False;not calculated;0;38506;ed0a9567469e63f7d47e399f7b300b731d5c3489;15;rsc@golang.org;rsc@golang.org
-tables.go;MODIFY;5414.0;0.0;Grew;True;2016-10-25 21:16:33+00:00;False;not calculated;0;38506;45b43f6198436b18a0b5f64a3176d632e4f1c855;9;bradfitz@golang.org;laboger@linux.vnet.ibm.com
+tables.go;MODIFY;7348.0;0.0;Equal;True;2016-06-28 15:08:11+00:00;True;not calculated;0;53271;a2a4db7375204c22898559d3b96a748c6df96294;8;mpvl@golang.org;mpvl@golang.org
+tables.go;ADD;5414.0;-1934.0;Decreased;True;2016-10-13 00:11:05+00:00;False;not calculated;0;38506;ed0a9567469e63f7d47e399f7b300b731d5c3489;15;rsc@golang.org;rsc@golang.org
+tables.go;MODIFY;5414.0;0.0;Equal;True;2016-10-25 21:16:33+00:00;False;not calculated;0;38506;45b43f6198436b18a0b5f64a3176d632e4f1c855;9;bradfitz@golang.org;laboger@linux.vnet.ibm.com
 tables.go;MODIFY;9894.0;4480.0;Grew;True;2017-04-20 22:39:48+00:00;False;not calculated;0;55179;7bd1c210858f308ee9a73b6a3b953c477ebb294e;8;khr@golang.org;khr@golang.org
-tables.go;MODIFY;7348.0;-2546.0;Equal;True;2017-06-13 05:33:40+00:00;False;not calculated;0;53271;6914b0e3e3c4e3f2512bf4860c2ec2896f3d1f1f;13;bradfitz@golang.org;bradfitz@golang.org
+tables.go;MODIFY;7348.0;-2546.0;Decreased;True;2017-06-13 05:33:40+00:00;False;not calculated;0;53271;6914b0e3e3c4e3f2512bf4860c2ec2896f3d1f1f;13;bradfitz@golang.org;bradfitz@golang.org
 tables.go;MODIFY;7349.0;1.0;Grew;True;2017-06-15 01:05:31+00:00;False;not calculated;0;53271;82abd4152da01cf2fc62ac7ce0988e7925043061;2;bradfitz@golang.org;rsc@golang.org
-tables.go;ADD;2148.0;-5201.0;Grew;True;2017-08-16 17:57:48+00:00;False;not calculated;0;24097;56b62c7cf0268eefc0d909e8e8351c4ff6a62148;19;cherryyz@google.com;Wei.Xiao@arm.com
-tables.go;MODIFY;7492.0;5344.0;Equal;True;2018-11-28 03:12:48+00:00;False;not calculated;0;54285;d704b5c956f431e618904d15643e9fee97840253;2;bradfitz@golang.org;wselwood@gmail.com
-tables.go;MODIFY;5487.0;-2005.0;Grew;True;2018-12-05 21:15:39+00:00;False;not calculated;0;39074;162de6b5f0c332ca0a1ac5879682cd48c2f93ead;8;laboger@linux.vnet.ibm.com;laboger@linux.vnet.ibm.com
-tables.go;MODIFY;7306.0;1819.0;Decreased;True;2019-04-24 15:22:37+00:00;False;not calculated;0;52813;e308d41fe51b691c4bb52edc0865ca49f938a0f9;3;mpvl@golang.org;mpvl@golang.org
+tables.go;ADD;2148.0;-5201.0;Decreased;True;2017-08-16 17:57:48+00:00;False;not calculated;0;24097;56b62c7cf0268eefc0d909e8e8351c4ff6a62148;19;cherryyz@google.com;Wei.Xiao@arm.com
+tables.go;MODIFY;7492.0;5344.0;Grew;True;2018-11-28 03:12:48+00:00;False;not calculated;0;54285;d704b5c956f431e618904d15643e9fee97840253;2;bradfitz@golang.org;wselwood@gmail.com
+tables.go;MODIFY;5487.0;-2005.0;Decreased;True;2018-12-05 21:15:39+00:00;False;not calculated;0;39074;162de6b5f0c332ca0a1ac5879682cd48c2f93ead;8;laboger@linux.vnet.ibm.com;laboger@linux.vnet.ibm.com
+tables.go;MODIFY;7306.0;1819.0;Grew;True;2019-04-24 15:22:37+00:00;False;not calculated;0;52813;e308d41fe51b691c4bb52edc0865ca49f938a0f9;3;mpvl@golang.org;mpvl@golang.org
 tables.go;MODIFY;7503.0;197.0;Grew;True;2019-04-25 20:33:22+00:00;False;not calculated;0;54245;34fc6ced76b252203bf58d0a53a853b4f60a130b;4;mpvl@golang.org;mpvl@golang.org
 tables.go;MODIFY;7641.0;138.0;Grew;True;2019-11-05 14:34:56+00:00;False;not calculated;0;55289;79a00a3fe8b286d335af86a2eed6b87cd3fc878e;11;rsc@golang.org;mpvl@golang.org
 tables.go;MODIFY;9904.0;2263.0;Grew;True;2020-02-19 21:26:10+00:00;False;not calculated;0;55227;729930869064b1c6989b70ef8517a101d42c7f9b;262;bcmills@google.com;bcmills@google.com
-tables.go;MODIFY;5592.0;-4312.0;Grew;True;2020-05-13 11:59:26+00:00;False;not calculated;0;39836;810c27e9be647ce4da8930ff3625a856041ae5b2;6;laboger@linux.vnet.ibm.com;laboger@linux.vnet.ibm.com
+tables.go;MODIFY;5592.0;-4312.0;Decreased;True;2020-05-13 11:59:26+00:00;False;not calculated;0;39836;810c27e9be647ce4da8930ff3625a856041ae5b2;6;laboger@linux.vnet.ibm.com;laboger@linux.vnet.ibm.com
 tables.go;MODIFY;7783.0;2191.0;Grew;True;2020-08-20 13:41:13+00:00;False;not calculated;0;56311;8ec5a052ec8d4e628353fb5099b29341fae9b3a4;5;mpvl@golang.org;mpvl@golang.org
-tables.go;MODIFY;5600.0;-2183.0;Grew;True;2020-09-21 22:10:00+00:00;False;not calculated;0;39892;8860251db862a091ec70e3571f0885d232187119;147;dmitshur@golang.org;dmitshur@golang.org
+tables.go;MODIFY;5600.0;-2183.0;Decreased;True;2020-09-21 22:10:00+00:00;False;not calculated;0;39892;8860251db862a091ec70e3571f0885d232187119;147;dmitshur@golang.org;dmitshur@golang.org
 tables.go;MODIFY;5628.0;28.0;Grew;True;2020-10-22 13:49:19+00:00;False;not calculated;0;40082;b4c8b67adcd39da54f210bef5c201b1df8124d73;5;laboger@linux.vnet.ibm.com;laboger@linux.vnet.ibm.com
 tables.go;MODIFY;9917.0;4289.0;Grew;True;2021-03-15 19:02:39+00:00;False;not calculated;0;55303;2d4042d4ab3a2021819dce91eb228daf8fa5e557;397;emmanuel@orijtech.com;emmanuel@orijtech.com
-tables.go;MODIFY;5765.0;-4152.0;Grew;True;2021-05-03 01:35:44+00:00;False;not calculated;0;42056;2c9f5a1da823773c436f8b2c119635797d6db2d3;10;bcmills@google.com;bcmills@google.com
+tables.go;MODIFY;5765.0;-4152.0;Decreased;True;2021-05-03 01:35:44+00:00;False;not calculated;0;42056;2c9f5a1da823773c436f8b2c119635797d6db2d3;10;bcmills@google.com;bcmills@google.com
 tables.go;MODIFY;5765.0;0.0;Equal;True;2022-04-08 13:44:41+00:00;False;not calculated;0;42056;3e7ffb862f550c38ce0611b970a4dce10a01226e;11;mvdan@mvdan.cc;mvdan@mvdan.cc
 tables.go;MODIFY;5765.0;0.0;Equal;True;2022-04-08 18:30:53+00:00;False;not calculated;0;42056;3a19102de3435a3823126e74cf42c67037ff1890;1;gobot@golang.org;bcmills@google.com
-tables.go;MODIFY;9917.0;4152.0;Decreased;True;2022-05-16 22:24:28+00:00;False;not calculated;0;55303;420a1fb223da8830ca8b30e503fd9bfa7d99be3b;29;gobot@golang.org;dmitshur@golang.org
-tables.go;MODIFY;5782.0;-4135.0;Grew;True;2022-11-22 17:16:14+00:00;False;not calculated;0;42202;28911b289103d6128c3364a3e3de4ed8eabe630f;16;cherryyz@google.com;cherryyz@google.com
+tables.go;MODIFY;9917.0;4152.0;Grew;True;2022-05-16 22:24:28+00:00;False;not calculated;0;55303;420a1fb223da8830ca8b30e503fd9bfa7d99be3b;29;gobot@golang.org;dmitshur@golang.org
+tables.go;MODIFY;5782.0;-4135.0;Decreased;True;2022-11-22 17:16:14+00:00;False;not calculated;0;42202;28911b289103d6128c3364a3e3de4ed8eabe630f;16;cherryyz@google.com;cherryyz@google.com
 tables.go;MODIFY;8100.0;2318.0;Grew;True;2023-02-06 04:29:53+00:00;False;not calculated;0;58688;def0be5e34d6657c84407c8afe4ace05d10d1848;6;r@golang.org;weebney@gmail.com
-tables.go;ADD;5040.0;-3060.0;Grew;True;2024-08-21 20:01:18+00:00;False;not calculated;0;37170;0d5605832c02d57211b1b3ab53b6fab3b9dd3a2d;11;gobot@golang.org;Pokala.Srinivas@ibm.com
+tables.go;ADD;5040.0;-3060.0;Decreased;True;2024-08-21 20:01:18+00:00;False;not calculated;0;37170;0d5605832c02d57211b1b3ab53b6fab3b9dd3a2d;11;gobot@golang.org;Pokala.Srinivas@ibm.com
 tables.go;MODIFY;5041.0;1.0;Grew;True;2024-11-06 21:43:43+00:00;False;not calculated;0;37192;eb29beb0ad83353097786cda793af8dea0b05b27;10;cherryyz@google.com;Pokala.Srinivas@ibm.com

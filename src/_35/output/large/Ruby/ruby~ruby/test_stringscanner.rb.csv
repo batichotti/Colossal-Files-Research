@@ -1,5 +1,5 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
-test_stringscanner.rb;ADD;344;0.0;Grew;False;2003-09-17 09:36:04+00:00;False;18;18;1916;dbfd0ae0bbe86deb547d577be848fabf0ce160f1;3;aamine@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;aamine@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+test_stringscanner.rb;ADD;344;0.0;Equal;False;2003-09-17 09:36:04+00:00;False;18;18;1916;dbfd0ae0bbe86deb547d577be848fabf0ce160f1;3;aamine@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;aamine@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_stringscanner.rb;MODIFY;339;-5.0;Decreased;False;2003-09-17 09:51:32+00:00;False;18;18;1893;ed970e251343cca6d02eab806ff129b111e69a32;2;aamine@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;aamine@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_stringscanner.rb;MODIFY;407;68.0;Grew;False;2003-12-16 15:18:11+00:00;False;21;21;2298;6ef31af2d178fb4916150d317ceafe156fccdf65;3;aamine@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;aamine@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_stringscanner.rb;MODIFY;419;12.0;Grew;False;2004-02-18 13:08:08+00:00;False;24;21;2316;994dfc0ae6a3c42bb9311f736ca30275779e348a;36;nahi@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nahi@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
@@ -11,7 +11,7 @@ test_stringscanner.rb;MODIFY;470;5.0;Grew;False;2007-12-28 16:13:43+00:00;False;
 test_stringscanner.rb;MODIFY;470;0.0;Equal;False;2008-05-12 06:09:53+00:00;False;25;25;2764;ab24f2b07729dc022cd954355d6797b48f1b1552;4;matz@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;matz@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_stringscanner.rb;MODIFY;581;111.0;Grew;False;2008-06-05 14:33:01+00:00;False;38;38;3635;437af4f46fdc54cd348779f65bc12d2c962f1b18;3;mame@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;mame@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_stringscanner.rb;MODIFY;581;0.0;Equal;False;2008-09-24 17:44:39+00:00;False;38;38;3635;00b4a3f9c4aaf5aa038a9530ec515e1718ae1c42;59;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
-test_stringscanner.rb;MODIFY;581;0.0;Decreased;False;2009-06-17 04:57:11+00:00;False;38;38;3635;d121a3fb790192ca816d417c32829a36b7a04ae1;3;matz@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;matz@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+test_stringscanner.rb;MODIFY;581;0.0;Equal;False;2009-06-17 04:57:11+00:00;False;38;38;3635;d121a3fb790192ca816d417c32829a36b7a04ae1;3;matz@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;matz@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_stringscanner.rb;MODIFY;596;15.0;Grew;False;2009-08-26 23:16:40+00:00;False;40;40;3710;2ef382231fffd049fce83d742c26084ac8bb959c;3;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_stringscanner.rb;MODIFY;596;0.0;Equal;False;2010-02-14 03:09:53+00:00;False;40;40;3710;47b8a0e7e4a04a28e57c3f9bb712a1f88d9e27bb;6;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_stringscanner.rb;MODIFY;606;10.0;Grew;False;2012-11-28 00:17:33+00:00;False;41;41;3766;0700a9113f94a82d786271bc44140691d47f6bac;3;ryan@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;ryan@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
@@ -19,7 +19,7 @@ test_stringscanner.rb;MODIFY;616;10.0;Grew;False;2013-05-21 13:48:57+00:00;False
 test_stringscanner.rb;MODIFY;619;3.0;Grew;False;2013-05-24 07:32:45+00:00;False;43;41;3889;c43dd625b672589778ab6f2fe9c3e665c4199245;3;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_stringscanner.rb;MODIFY;619;0.0;Equal;False;2014-03-11 04:22:34+00:00;False;43;41;3891;5543a55b5261bf1c72b9bc356c2f84b14e4e6231;5;usa@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;usa@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_stringscanner.rb;MODIFY;620;1.0;Grew;False;2014-08-03 01:56:31+00:00;False;43;41;3911;4713ace44c1da8591abd104c5b5ad200b8e18ce9;2;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
-test_stringscanner.rb;MODIFY;620;0.0;Grew;False;2015-12-16 05:07:31+00:00;False;43;41;3911;3e92b635fb5422207b7bbdc924e292e51e21f040;1432;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+test_stringscanner.rb;MODIFY;620;0.0;Equal;False;2015-12-16 05:07:31+00:00;False;43;41;3911;3e92b635fb5422207b7bbdc924e292e51e21f040;1432;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_stringscanner.rb;MODIFY;620;0.0;Equal;False;2017-02-06 13:23:39+00:00;False;43;41;3967;a4fde3b60cc16672c69bdfd986e8655a08b39fa4;2;kazu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;kazu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_stringscanner.rb;MODIFY;629;9.0;Grew;False;2017-07-21 13:30:46+00:00;False;44;42;4012;90311f37e47dd62ffad20c90db68a0705c050061;2;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_stringscanner.rb;MODIFY;648;19.0;Grew;False;2017-11-29 07:57:48+00:00;False;47;45;4225;256c88861beb452d790d74c7677a7e4217bc170b;3;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
@@ -41,4 +41,4 @@ test_stringscanner.rb;MODIFY;814;4.0;Grew;True;2024-10-26 09:44:15+00:00;False;8
 test_stringscanner.rb;MODIFY;857;43.0;Grew;True;2024-11-27 00:24:07+00:00;False;94;76;5396;d5de1a57893b16aff7bc3336b34fa2e9acefb3d2;2;hsbt@ruby-lang.org;jean.boussier@gmail.com
 test_stringscanner.rb;MODIFY;917;60.0;Grew;True;2024-12-02 01:50:34+00:00;False;96;77;5779;79cc3d26ed3a038750988070d81912ece31c735b;4;hsbt@ruby-lang.org;jean.boussier@gmail.com
 test_stringscanner.rb;MODIFY;917;0.0;Equal;True;2024-12-02 01:50:34+00:00;False;96;77;6459;9a7f050eda62b8492d3d0fd8ecc32df854f05874;2;hsbt@ruby-lang.org;kou@clear-code.com
-test_stringscanner.rb;MODIFY;857;-60.0;Equal;True;2024-12-02 01:50:34+00:00;False;94;76;5398;5514485e1336382b02f61c5e2f127ec9d437b201;1;hsbt@ruby-lang.org;mame@ruby-lang.org
+test_stringscanner.rb;MODIFY;857;-60.0;Decreased;True;2024-12-02 01:50:34+00:00;False;94;76;5398;5514485e1336382b02f61c5e2f127ec9d437b201;1;hsbt@ruby-lang.org;mame@ruby-lang.org

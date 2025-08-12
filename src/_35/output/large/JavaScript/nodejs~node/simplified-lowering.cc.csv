@@ -1,6 +1,6 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
-simplified-lowering.cc;ADD;762;0.0;Grew;False;2014-10-08 11:35:57+00:00;False;222;52;6072;939278ac059b44439d41aab12bf552c8ae3c52d0;1662;fedor@indutny.com;refack@gmail.com
-simplified-lowering.cc;ADD;762;0.0;Grew;False;2014-10-08 11:44:38+00:00;False;222;52;6072;9116b240c924d37627313416b7ee038d0580afbc;1662;fedor@indutny.com;refack@gmail.com
+simplified-lowering.cc;ADD;762;0.0;Equal;False;2014-10-08 11:35:57+00:00;False;222;52;6072;939278ac059b44439d41aab12bf552c8ae3c52d0;1662;fedor@indutny.com;refack@gmail.com
+simplified-lowering.cc;ADD;762;0.0;Equal;False;2014-10-08 11:44:38+00:00;False;222;52;6072;9116b240c924d37627313416b7ee038d0580afbc;1662;fedor@indutny.com;refack@gmail.com
 simplified-lowering.cc;MODIFY;730;-32.0;Decreased;False;2014-10-10 10:49:02+00:00;False;218;49;5595;6bcea4ff932144a5fd02affefd45164fbf471e67;1288;fedor@indutny.com;fedor@indutny.com
 simplified-lowering.cc;MODIFY;1109;379.0;Grew;False;2014-11-14 15:34:58+00:00;False;318;67;9240;5d1b6d3e0fa4b97a490ef964be48aed9872e3ec1;888;info@bnoordhuis.nl;info@bnoordhuis.nl
 simplified-lowering.cc;MODIFY;1138;29.0;Grew;False;2015-01-07 21:11:18+00:00;False;314;67;10009;dad73f645cde6920e79db956e7ef82ed640d7615;827;info@bnoordhuis.nl;info@bnoordhuis.nl
@@ -29,7 +29,7 @@ simplified-lowering.cc;MODIFY;3033;40.0;Grew;False;2017-09-13 14:15:18+00:00;Fal
 simplified-lowering.cc;MODIFY;2969;-64.0;Decreased;False;2017-10-19 00:01:41+00:00;False;860;131;24714;3d1b3df9486c0e7708065257f7311902f6b7b366;1521;targos@protonmail.com;targos@protonmail.com
 simplified-lowering.cc;MODIFY;3022;53.0;Grew;False;2017-12-06 11:52:07+00:00;False;875;131;25150;1854ba04e9a68f062beb299dd6e1479279b26363;1209;targos@protonmail.com;targos@protonmail.com
 simplified-lowering.cc;MODIFY;3114;92.0;Grew;False;2018-01-24 23:02:20+00:00;False;908;133;25774;4c4af643e5042d615a60c6bbc05aee9d81b903e5;2123;mylesborins@google.com;targos@protonmail.com
-simplified-lowering.cc;MODIFY;3135;21.0;Decreased;False;2018-03-07 15:48:52+00:00;False;898;133;25799;88786fecff336342a56e6f2e7ff3b286be716e47;1284;targos@protonmail.com;targos@protonmail.com
+simplified-lowering.cc;MODIFY;3135;21.0;Grew;False;2018-03-07 15:48:52+00:00;False;898;133;25799;88786fecff336342a56e6f2e7ff3b286be716e47;1284;targos@protonmail.com;targos@protonmail.com
 simplified-lowering.cc;MODIFY;3171;36.0;Grew;False;2018-04-11 17:22:42+00:00;False;903;133;26088;12a1b9b8049462e47181a298120243dc83e81c55;1331;mylesborins@google.com;mylesborins@google.com
 simplified-lowering.cc;MODIFY;3227;56.0;Grew;False;2018-06-01 07:58:27+00:00;False;923;133;26555;352a525eb984b8fa2d6f0f6fd68395e6a080bba4;1596;mylesborins@google.com;targos@protonmail.com
 simplified-lowering.cc;MODIFY;3238;11.0;Grew;False;2018-07-26 06:31:50+00:00;False;927;133;26541;6a31d05340b22fc413ee83eaacd0a5565bbbe799;1113;targos@protonmail.com;targos@protonmail.com
@@ -47,14 +47,14 @@ simplified-lowering.cc;MODIFY;3634;28.0;Grew;True;2019-11-08 14:46:25+00:00;Fals
 simplified-lowering.cc;MODIFY;3651;17.0;Grew;True;2020-03-18 23:23:22+00:00;False;1038;141;29713;2883c855e0105b51e5c8020d21458af109ffe3d4;2056;mmarchini@netflix.com;mmarchini@netflix.com
 simplified-lowering.cc;MODIFY;3742;91.0;Grew;True;2020-05-12 14:12:13+00:00;False;1065;144;30388;1d6adf7432defeb39b751a19c68335e8afb0d8ee;1524;targos@protonmail.com;targos@protonmail.com
 simplified-lowering.cc;MODIFY;3869;127.0;Grew;True;2020-07-13 12:41:41+00:00;False;1080;155;32966;12478684aab233942e0d5dc24f195930c8a5e59d;1406;targos@protonmail.com;targos@protonmail.com
-simplified-lowering.cc;MODIFY;3859;-10.0;Grew;True;2020-10-18 18:16:47+00:00;False;1084;155;32848;a1d639ba5de4ff34e34fb575fbb6cc1d41ec3cce;2311;targos@protonmail.com;targos@protonmail.com
+simplified-lowering.cc;MODIFY;3859;-10.0;Decreased;True;2020-10-18 18:16:47+00:00;False;1084;155;32848;a1d639ba5de4ff34e34fb575fbb6cc1d41ec3cce;2311;targos@protonmail.com;targos@protonmail.com
 simplified-lowering.cc;MODIFY;3860;1.0;Grew;True;2020-11-15 15:46:54+00:00;False;1085;155;32853;48db20f6f53060e38b2272566b014741eb4f519f;1094;targos@protonmail.com;targos@protonmail.com
 simplified-lowering.cc;MODIFY;3878;18.0;Grew;True;2021-02-11 18:09:18+00:00;False;1087;156;33024;c7b329225126ad3b9eeb2408e0f0801f1aea5eb1;1623;targos@protonmail.com;targos@protonmail.com
 simplified-lowering.cc;MODIFY;3863;-15.0;Decreased;True;2021-02-24 23:14:47+00:00;False;1073;156;32932;c5ff019a4e93891106859cb272ded1197a92c7e5;1619;targos@protonmail.com;targos@protonmail.com
 simplified-lowering.cc;MODIFY;3929;66.0;Grew;True;2021-03-15 14:54:50+00:00;False;1086;162;33451;732ad99e47bae5deffa3a22d2ebe5500284106f0;1487;targos@protonmail.com;targos@protonmail.com
 simplified-lowering.cc;MODIFY;3933;4.0;Grew;True;2021-04-26 18:55:03+00:00;False;1087;162;33467;3b86138f0062cc96c1f53f5d7cf820d4e345f351;3;jasnell@gmail.com;targos@protonmail.com
 simplified-lowering.cc;MODIFY;3948;15.0;Grew;True;2021-04-28 20:14:47+00:00;False;1091;162;33581;8b603697bca96b60f38f9d7e95246fcf287e3441;5;jasnell@gmail.com;targos@protonmail.com
-simplified-lowering.cc;MODIFY;3948;0.0;Grew;True;2021-06-10 09:10:13+00:00;False;1092;162;33581;a7cbf19a82c75e9a65e90fb8ba4947e2fc52ef39;1300;targos@protonmail.com;targos@protonmail.com
+simplified-lowering.cc;MODIFY;3948;0.0;Equal;True;2021-06-10 09:10:13+00:00;False;1092;162;33581;a7cbf19a82c75e9a65e90fb8ba4947e2fc52ef39;1300;targos@protonmail.com;targos@protonmail.com
 simplified-lowering.cc;MODIFY;4005;57.0;Grew;True;2021-07-20 13:24:51+00:00;False;1108;162;33955;6cdd310275bb0f8056aa0ae6d95614e9ca5b70c7;1435;targos@protonmail.com;targos@protonmail.com
 simplified-lowering.cc;MODIFY;4025;20.0;Grew;True;2021-08-30 19:02:51+00:00;False;1116;162;34097;50930a0fa08297d0ce7e67fa6594fe47937b99ff;2236;targos@protonmail.com;targos@protonmail.com
 simplified-lowering.cc;MODIFY;4019;-6.0;Decreased;True;2021-10-12 06:07:50+00:00;False;1114;162;34052;62719c5fd2ab7dee1ac4019c1715061d556ac457;1269;targos@protonmail.com;targos@protonmail.com

@@ -1,12 +1,12 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
-test_m17n.rb;ADD;157;0.0;Grew;False;2007-11-23 06:30:26+00:00;False;13;13;1586;2109a52503eb61ef38b25aa2266f0313e7ad56ac;4;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+test_m17n.rb;ADD;157;0.0;Equal;False;2007-11-23 06:30:26+00:00;False;13;13;1586;2109a52503eb61ef38b25aa2266f0313e7ad56ac;4;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_m17n.rb;MODIFY;303;146.0;Grew;False;2007-11-25 13:25:34+00:00;False;32;27;2679;b2e60b2ce7a7cbcb8a67ac78606a18d3c2591d81;5;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_m17n.rb;MODIFY;248;-55.0;Decreased;False;2007-11-26 13:05:08+00:00;False;32;27;2077;bfc502fe517dee050085df406c72f61593a9d2fa;3;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_m17n.rb;MODIFY;299;51.0;Grew;False;2007-12-01 16:56:19+00:00;False;12;8;852;7ff702406a324ed12c69bc23a7cfaf066e401547;7;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_m17n.rb;MODIFY;305;6.0;Grew;False;2007-12-02 00:16:24+00:00;False;8;8;739;21729a1c7796cb152f9dc13b56ca2d761e511a96;3;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_m17n.rb;MODIFY;359;54.0;Grew;False;2007-12-02 02:53:46+00:00;False;17;13;1491;9bd11f24b3d37c689519696db2851402a77270d0;2;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_m17n.rb;MODIFY;374;15.0;Grew;False;2007-12-06 09:28:26+00:00;False;24;23;2329;69406aad505414de34dc8b560ac1eadf147b0dbc;10;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
-test_m17n.rb;MODIFY;377;3.0;Equal;False;2007-12-08 02:50:43+00:00;False;24;23;2359;f1b7e60cb90a7e1a392d4ffccd07dd06eeff5345;10;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+test_m17n.rb;MODIFY;377;3.0;Grew;False;2007-12-08 02:50:43+00:00;False;24;23;2359;f1b7e60cb90a7e1a392d4ffccd07dd06eeff5345;10;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_m17n.rb;MODIFY;433;56.0;Grew;False;2007-12-08 04:31:26+00:00;False;28;25;2700;9667f7953e1ca78e5acfa40e9573d1fcdbd3d1ea;1;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_m17n.rb;MODIFY;440;7.0;Grew;False;2007-12-08 07:21:05+00:00;False;29;26;2760;b12bb501496a3ad2822db14d13629629fad8fefb;4;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_m17n.rb;MODIFY;445;5.0;Grew;False;2007-12-09 02:29:24+00:00;False;30;27;2797;54c146d2c3d8a9a5e3d4bbd8b5fd61e17ad45819;4;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
@@ -84,7 +84,7 @@ test_m17n.rb;MODIFY;957;1.0;Grew;True;2008-01-28 02:26:23+00:00;False;68;54;3707
 test_m17n.rb;MODIFY;957;0.0;Equal;True;2008-01-28 09:29:05+00:00;False;68;54;3707;de3538b05165a24c96d56e361409637afc754d05;1;usa@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;usa@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_m17n.rb;MODIFY;966;9.0;Grew;True;2008-01-28 15:20:21+00:00;False;69;55;3744;02b9407e93f9c23ff64febad8176e183c93cf8ba;1;usa@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;usa@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_m17n.rb;MODIFY;1018;52.0;Grew;True;2008-01-28 18:04:39+00:00;False;52;37;3312;34387d1a0273329ec0c9cf02c098b12552f4302b;3;usa@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;usa@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
-test_m17n.rb;MODIFY;1022;4.0;Equal;True;2008-01-29 08:03:51+00:00;False;52;37;3362;d5c8ad535961968b40823512ccdb12e38f1ed529;5;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+test_m17n.rb;MODIFY;1022;4.0;Grew;True;2008-01-29 08:03:51+00:00;False;52;37;3362;d5c8ad535961968b40823512ccdb12e38f1ed529;5;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_m17n.rb;MODIFY;1028;6.0;Grew;True;2008-01-29 13:07:25+00:00;False;54;39;3394;e1b85cbf17f3da7078452890edfc9c6e8cd7c001;1;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_m17n.rb;MODIFY;1036;8.0;Grew;True;2008-02-08 04:27:37+00:00;False;54;39;3394;52a757686ddb4f0d848f5b707a39f131fc73801d;1;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_m17n.rb;MODIFY;1042;6.0;Grew;True;2008-02-08 10:18:56+00:00;False;54;39;3394;d55c77f565d4537c8edc5ea07020fd18e51ef59f;1;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;akr@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
@@ -127,7 +127,7 @@ test_m17n.rb;MODIFY;1233;0.0;Equal;True;2009-08-14 09:05:44+00:00;False;64;49;43
 test_m17n.rb;MODIFY;1240;7.0;Grew;True;2009-09-29 00:34:06+00:00;False;67;51;4296;3058eec581ecfc3aba561b63913fa30ac4c94c6c;3;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_m17n.rb;MODIFY;1219;-21.0;Decreased;True;2009-09-29 02:19:58+00:00;False;64;49;4246;b3854e7162a67aa9493d3ba7f6f552fda91f5b77;1;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_m17n.rb;MODIFY;1219;0.0;Equal;True;2009-09-29 15:02:59+00:00;False;64;49;4246;5b2d54be66528c659d8a29256d51f17e9955bc56;3;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
-test_m17n.rb;MODIFY;1122;-97.0;Equal;True;2009-11-17 23:41:09+00:00;False;132;116;7997;932591003708aac785a1e71ed6beb83e91554320;1;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+test_m17n.rb;MODIFY;1122;-97.0;Decreased;True;2009-11-17 23:41:09+00:00;False;132;116;7997;932591003708aac785a1e71ed6beb83e91554320;1;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_m17n.rb;MODIFY;1126;4.0;Grew;True;2009-11-17 23:41:44+00:00;False;132;116;8044;e43c0bde5323c9dcd27ba284c1bdc7f11fa313ac;3;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_m17n.rb;MODIFY;1126;0.0;Equal;True;2009-12-10 00:26:41+00:00;False;132;116;8059;e5dc8988af97526c5831bd347358ad2795a0834e;3;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_m17n.rb;MODIFY;1127;1.0;Grew;True;2010-01-16 16:53:17+00:00;False;134;116;8073;8a73c0ec5fc84478e0e3845ac5e1ea9430c1f9f5;1;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
@@ -160,7 +160,7 @@ test_m17n.rb;MODIFY;1258;0.0;Equal;True;2012-03-22 09:37:47+00:00;False;146;124;
 test_m17n.rb;MODIFY;1265;7.0;Grew;True;2012-03-22 14:14:39+00:00;False;146;124;9011;2b84626193c43ba49f2f4663aad76810684bd45c;3;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_m17n.rb;MODIFY;1265;0.0;Equal;True;2012-09-19 14:49:19+00:00;False;146;124;9011;181815422b02bccc24a98dd2637a6e1da8d5a43e;2;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_m17n.rb;MODIFY;1266;1.0;Grew;True;2012-10-15 13:14:48+00:00;False;146;124;9025;32569104e121e6dc7363acf37b5aef766bd04d4d;9;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
-test_m17n.rb;MODIFY;1266;0.0;Grew;True;2012-11-06 00:49:57+00:00;False;146;124;9025;58ef0f06c6f6fcc4f6a0d31ade430d87ef9d968d;24;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+test_m17n.rb;MODIFY;1266;0.0;Equal;True;2012-11-06 00:49:57+00:00;False;146;124;9025;58ef0f06c6f6fcc4f6a0d31ade430d87ef9d968d;24;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_m17n.rb;MODIFY;1275;9.0;Grew;True;2012-11-06 00:50:02+00:00;False;147;125;9079;a6ec2584527fb4d6f3a65a2dd16dc02eabdfcec6;4;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_m17n.rb;MODIFY;1283;8.0;Grew;True;2013-02-12 03:22:33+00:00;False;147;125;9088;caa0e40f4dcd7d113eda3f2a24d62685510f0a16;1;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_m17n.rb;MODIFY;1311;28.0;Grew;True;2013-04-19 17:50:38+00:00;False;148;126;9382;394d5dfa9ba625c99a1e6a411f81b628bfebd60a;5;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
@@ -191,7 +191,7 @@ test_m17n.rb;MODIFY;1414;22.0;Grew;True;2015-09-16 05:50:00+00:00;False;155;133;
 test_m17n.rb;MODIFY;1418;4.0;Grew;True;2015-12-10 18:57:08+00:00;False;156;134;10103;e3ab670a715769d0d56530675127438bd137089b;5;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_m17n.rb;MODIFY;1429;11.0;Grew;True;2015-12-13 02:48:34+00:00;False;158;135;10150;2854a7f121861b7508809815532d6827b8bb9929;3;shugo@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;shugo@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_m17n.rb;MODIFY;1429;0.0;Equal;True;2015-12-14 06:40:55+00:00;False;158;135;10135;c81b224edca453ed8ea3030cc74b2ede5ac9e63a;8;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
-test_m17n.rb;MODIFY;1429;0.0;Grew;True;2015-12-16 05:07:31+00:00;False;158;135;10135;3e92b635fb5422207b7bbdc924e292e51e21f040;1432;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+test_m17n.rb;MODIFY;1429;0.0;Equal;True;2015-12-16 05:07:31+00:00;False;158;135;10135;3e92b635fb5422207b7bbdc924e292e51e21f040;1432;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_m17n.rb;MODIFY;1443;14.0;Grew;True;2015-12-17 05:16:27+00:00;False;158;135;10367;61c19c9d433f5855bc9e536bfa8d8c4e140157bd;3;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_m17n.rb;MODIFY;1448;5.0;Grew;True;2015-12-22 06:21:14+00:00;False;159;136;10402;9da8a2976094dcc69ee6646727de14721d9845ef;3;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_m17n.rb;MODIFY;1444;-4.0;Decreased;True;2016-02-19 07:58:09+00:00;False;158;136;10392;c7f815eed897a8d78b19e041a569d2667a403f4a;10;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
@@ -219,8 +219,8 @@ test_m17n.rb;MODIFY;1473;-2.0;Decreased;True;2021-11-15 05:13:20+00:00;False;162
 test_m17n.rb;MODIFY;1475;2.0;Grew;True;2021-11-15 06:21:24+00:00;False;163;140;10556;f9638c3b1716df4a94ea6ae0854cf55d66072ee4;1;mame@ruby-lang.org;mame@ruby-lang.org
 test_m17n.rb;MODIFY;1476;1.0;Grew;True;2021-11-15 07:53:49+00:00;False;163;140;10558;ca0a5edb5f42aa7c891c834a827863458180aa0f;1;mame@ruby-lang.org;mame@ruby-lang.org
 test_m17n.rb;MODIFY;1476;0.0;Equal;True;2022-01-04 08:25:30+00:00;False;163;140;10558;47bf64a26d3d95a312ea5cf5d94ee1d2104f5e26;32;hsbt@ruby-lang.org;hsbt@ruby-lang.org
-test_m17n.rb;MODIFY;1477;1.0;Equal;True;2022-08-19 18:57:13+00:00;False;163;140;10576;1ef49de83483e6f78bfe9c795a473ccfb29db150;5;nobu@ruby-lang.org;nobu@ruby-lang.org
-test_m17n.rb;MODIFY;1477;0.0;Grew;True;2022-08-19 18:57:13+00:00;False;163;140;10566;ce384ef5a95b809f248e089c1608e60753dabe45;2;nobu@ruby-lang.org;nobu@ruby-lang.org
+test_m17n.rb;MODIFY;1477;1.0;Grew;True;2022-08-19 18:57:13+00:00;False;163;140;10576;1ef49de83483e6f78bfe9c795a473ccfb29db150;5;nobu@ruby-lang.org;nobu@ruby-lang.org
+test_m17n.rb;MODIFY;1477;0.0;Equal;True;2022-08-19 18:57:13+00:00;False;163;140;10566;ce384ef5a95b809f248e089c1608e60753dabe45;2;nobu@ruby-lang.org;nobu@ruby-lang.org
 test_m17n.rb;MODIFY;1487;10.0;Grew;True;2022-08-20 01:06:40+00:00;False;164;140;10624;1a2f99275be28fb0e8ff4cfc0165966e99898d70;2;nobu@ruby-lang.org;nobu@ruby-lang.org
 test_m17n.rb;MODIFY;1472;-15.0;Decreased;True;2022-09-12 12:02:34+00:00;False;165;141;10517;6525b6f760ccd9612c9546b0313ab1c7e4af5e66;7;eregontp@gmail.com;eregontp@gmail.com
 test_m17n.rb;MODIFY;1485;13.0;Grew;True;2023-07-09 07:21:02+00:00;False;166;141;10607;e2257831ab20915b839eeaff79c6ec45b498de77;2;nobu@ruby-lang.org;nobu@ruby-lang.org

@@ -1,10 +1,10 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
-text_format_test.py;ADD;68.0;0.0;Grew;False;2008-07-10 02:12:20+00:00;False;8;8;414;40ee551715c3a784ea6132dbf604b0e665ca2def;269;temporal@630680e5-0e50-0410-840e-4b1c322b438d;temporal@630680e5-0e50-0410-840e-4b1c322b438d
+text_format_test.py;ADD;68.0;0.0;Equal;False;2008-07-10 02:12:20+00:00;False;8;8;414;40ee551715c3a784ea6132dbf604b0e665ca2def;269;temporal@630680e5-0e50-0410-840e-4b1c322b438d;temporal@630680e5-0e50-0410-840e-4b1c322b438d
 text_format_test.py;MODIFY;74.0;6.0;Grew;False;2008-07-23 01:19:07+00:00;False;9;9;468;f206351d1469970230caa5f61eaa54797194bee1;14;temporal@630680e5-0e50-0410-840e-4b1c322b438d;temporal@630680e5-0e50-0410-840e-4b1c322b438d
-text_format_test.py;ADD;74.0;0.0;Grew;False;2008-08-14 19:33:26+00:00;False;9;9;468;f92c545f493dce6e5a2e378e8268c1e7b0e55a4d;292;Jon@.(none);skeet@pobox.com
-text_format_test.py;MODIFY;74.0;0.0;Grew;False;2008-09-24 20:31:01+00:00;False;9;9;468;24bf56fb3a2fab42d355b15de11782c3144b9e80;209;kenton@google.com@630680e5-0e50-0410-840e-4b1c322b438d;kenton@google.com@630680e5-0e50-0410-840e-4b1c322b438d
-text_format_test.py;DELETE;not calculated;0.0;Decreased;False;2008-10-22 12:18:49+00:00;False;not calculated;0;not calculated;f0589506c96600dcd01319b9d1929d87505f3daa;440;skeet@pobox.com;skeet@pobox.com
-text_format_test.py;MODIFY;74.0;0.0;Grew;False;2008-11-21 00:06:27+00:00;False;9;9;468;26bd9eee6ee6d116e1cc0dedeb660cd69d7aac45;76;kenton@google.com@630680e5-0e50-0410-840e-4b1c322b438d;kenton@google.com@630680e5-0e50-0410-840e-4b1c322b438d
+text_format_test.py;ADD;74.0;0.0;Equal;False;2008-08-14 19:33:26+00:00;False;9;9;468;f92c545f493dce6e5a2e378e8268c1e7b0e55a4d;292;Jon@.(none);skeet@pobox.com
+text_format_test.py;MODIFY;74.0;0.0;Equal;False;2008-09-24 20:31:01+00:00;False;9;9;468;24bf56fb3a2fab42d355b15de11782c3144b9e80;209;kenton@google.com@630680e5-0e50-0410-840e-4b1c322b438d;kenton@google.com@630680e5-0e50-0410-840e-4b1c322b438d
+text_format_test.py;DELETE;not calculated;0.0;Equal;False;2008-10-22 12:18:49+00:00;False;not calculated;0;not calculated;f0589506c96600dcd01319b9d1929d87505f3daa;440;skeet@pobox.com;skeet@pobox.com
+text_format_test.py;MODIFY;74.0;0.0;Equal;False;2008-11-21 00:06:27+00:00;False;9;9;468;26bd9eee6ee6d116e1cc0dedeb660cd69d7aac45;76;kenton@google.com@630680e5-0e50-0410-840e-4b1c322b438d;kenton@google.com@630680e5-0e50-0410-840e-4b1c322b438d
 text_format_test.py;MODIFY;310.0;236.0;Grew;False;2009-07-29 01:13:20+00:00;False;30;25;2024;80b1d62bfcea65c59e2160da71dad84b1bd19cef;130;kenton@google.com@630680e5-0e50-0410-840e-4b1c322b438d;kenton@google.com@630680e5-0e50-0410-840e-4b1c322b438d
 text_format_test.py;MODIFY;326.0;16.0;Grew;False;2009-12-18 02:11:36+00:00;False;31;26;2123;fccb146e3fe437b0df1e9c50d4b8e1080ddb4bd9;153;kenton@google.com@630680e5-0e50-0410-840e-4b1c322b438d;kenton@google.com@630680e5-0e50-0410-840e-4b1c322b438d
 text_format_test.py;MODIFY;328.0;2.0;Grew;False;2009-12-23 01:32:45+00:00;False;31;26;2137;eef5f8396dd527c17ab7e419ca8781052031d05d;2;kenton@google.com@630680e5-0e50-0410-840e-4b1c322b438d;kenton@google.com@630680e5-0e50-0410-840e-4b1c322b438d
@@ -18,7 +18,7 @@ text_format_test.py;MODIFY;602.0;0.0;Equal;False;2014-08-14 21:51:48+00:00;False
 text_format_test.py;MODIFY;602.0;0.0;Equal;False;2014-10-01 23:26:23+00:00;False;54;50;3906;e428862450679aaccd3675d1092f9f5253b7bd43;398;xfxyjwf@gmail.com;xfxyjwf@gmail.com
 text_format_test.py;MODIFY;608.0;6.0;Grew;False;2014-10-08 00:44:48+00:00;False;55;51;3957;0971bb0d57aa6f2db1abee4008b365d52b402891;4;xfxyjwf@gmail.com;xfxyjwf@gmail.com
 text_format_test.py;MODIFY;613.0;5.0;Grew;False;2014-11-11 01:34:54+00:00;False;55;51;3973;6ef984af4b0c63c1c33127a12dcfc8e6359f0c9e;255;xfxyjwf@gmail.com;xfxyjwf@gmail.com
-text_format_test.py;MODIFY;613.0;0.0;Grew;False;2015-01-13 19:22:05+00:00;False;55;51;3969;f336d4b7a5c1d369ed508e513d482c885705e939;15;tseaver@palladion.com;tseaver@palladion.com
+text_format_test.py;MODIFY;613.0;0.0;Equal;False;2015-01-13 19:22:05+00:00;False;55;51;3969;f336d4b7a5c1d369ed508e513d482c885705e939;15;tseaver@palladion.com;tseaver@palladion.com
 text_format_test.py;MODIFY;613.0;0.0;Equal;False;2015-01-13 19:47:32+00:00;False;55;51;3969;7ee25830c6707540242f441df5cd1c2a2000ca58;22;tseaver@palladion.com;tseaver@palladion.com
 text_format_test.py;MODIFY;613.0;0.0;Equal;False;2015-01-13 20:47:55+00:00;False;55;51;3965;a2abc947c0d509354e61e321215989829a68794e;10;tseaver@palladion.com;tseaver@palladion.com
 text_format_test.py;MODIFY;622.0;9.0;Grew;False;2015-02-26 00:39:11+00:00;False;56;51;4081;ada65567852b96fdb4d070c0c3f86ca7b77824f9;39;jisi.liu@gmail.com;jisi.liu@gmail.com
@@ -30,14 +30,14 @@ text_format_test.py;MODIFY;702.0;80.0;Grew;False;2015-05-22 02:32:02+00:00;False
 text_format_test.py;MODIFY;702.0;0.0;Equal;False;2015-08-14 20:12:34+00:00;False;59;54;4382;3d5aa6aef97f7ba9394f226778fdba91a9f89d59;3;oreilldf@gmail.com;oreilldf@gmail.com
 text_format_test.py;MODIFY;705.0;3.0;Grew;False;2015-08-15 02:54:53+00:00;False;59;54;4415;2621c8aefbfefd517a3facc6dc0e0dc45ae5eb87;17;oreilldf@gmail.com;oreilldf@gmail.com
 text_format_test.py;MODIFY;725.0;20.0;Grew;False;2015-08-23 01:25:48+00:00;False;66;56;4559;eee38b0c018b3279f77d03dff796f440f40d3516;226;xfxyjwf@gmail.com;xfxyjwf@gmail.com
-text_format_test.py;MODIFY;725.0;0.0;Decreased;False;2015-10-05 18:59:43+00:00;False;66;56;4583;46e8ff63cb67a6520711da5317aaaef04d0414d0;112;jisi.liu@gmail.com;jisi.liu@gmail.com
+text_format_test.py;MODIFY;725.0;0.0;Equal;False;2015-10-05 18:59:43+00:00;False;66;56;4583;46e8ff63cb67a6520711da5317aaaef04d0414d0;112;jisi.liu@gmail.com;jisi.liu@gmail.com
 text_format_test.py;MODIFY;728.0;3.0;Grew;False;2015-10-05 23:08:22+00:00;False;66;56;4592;dbea00ae882b0a1df1f76cb5b23657234bf073c4;16;jisi.liu@gmail.com;jisi.liu@gmail.com
 text_format_test.py;MODIFY;851.0;123.0;Grew;False;2015-12-12 01:10:28+00:00;False;70;59;5117;e841bac4fcf47f809e089a70d5f84ac37b3883df;225;xfxyjwf@gmail.com;xfxyjwf@gmail.com
 text_format_test.py;MODIFY;874.0;23.0;Grew;False;2016-03-30 18:39:59+00:00;False;73;61;5282;3b3c8abb9635eb3ea078a821a99c9ef29d66dff7;269;jisi.liu@gmail.com;jisi.liu@gmail.com
 text_format_test.py;MODIFY;956.0;82.0;Grew;False;2016-04-28 21:34:59+00:00;False;77;65;5793;cf14183bcd5485b4a71541599ddce0b35eb71352;228;jisi.liu@gmail.com;jisi.liu@gmail.com
 text_format_test.py;MODIFY;1127.0;171.0;Grew;False;2016-06-29 22:38:03+00:00;False;94;82;7064;d64a2d9941c36a7bc2a7959ea10ab8363192ac14;216;acozzette@google.com;acozzette@google.com
 text_format_test.py;MODIFY;1147.0;20.0;Grew;False;2016-09-20 00:42:40+00:00;False;95;83;7172;98835fb8f8a8f144f2a1eac0b833ff83f4a05f54;280;teboring@google.com;teboring@google.com
-text_format_test.py;MODIFY;1147.0;0.0;Grew;False;2016-10-10 18:23:36+00:00;False;95;83;7172;cc8ca5b6a5478b40546d4206392eb1471454460d;280;teboring@google.com;teboring@google.com
+text_format_test.py;MODIFY;1147.0;0.0;Equal;False;2016-10-10 18:23:36+00:00;False;95;83;7172;cc8ca5b6a5478b40546d4206392eb1471454460d;280;teboring@google.com;teboring@google.com
 text_format_test.py;MODIFY;1137.0;-10.0;Decreased;False;2016-11-18 00:59:59+00:00;False;92;82;7085;5a76e633ea9b5adb215e93fdc11e1c0c08b3fc74;286;acozzette@google.com;acozzette@google.com
 text_format_test.py;MODIFY;1183.0;46.0;Grew;False;2017-03-29 21:33:05+00:00;False;96;86;7480;d36c0c538a545fac5d9db6ba65c525246d4efa95;251;xfxyjwf@gmail.com;xfxyjwf@gmail.com
 text_format_test.py;MODIFY;1248.0;65.0;Grew;False;2017-07-18 22:38:30+00:00;False;110;96;7875;09354db1434859a31a3c81abebcc4018d42f2715;272;jisi.liu@gmail.com;jisi.liu@gmail.com
@@ -67,7 +67,7 @@ text_format_test.py;MODIFY;1997.0;28.0;Grew;True;2020-04-28 15:40:38+00:00;False
 text_format_test.py;MODIFY;2001.0;4.0;Grew;True;2020-07-06 20:54:50+00:00;False;158;135;12074;25755efc4f4a4e9d6efb34a100df0a4860dca695;152;jhaberman@gmail.com;jhaberman@gmail.com
 text_format_test.py;MODIFY;2054.0;53.0;Grew;True;2021-03-22 20:05:55+00:00;False;160;137;12198;96307d28f69662eb04edcaeb9d1d1ed25e692d88;144;jhaberman@gmail.com;jhaberman@gmail.com
 text_format_test.py;MODIFY;2049.0;-5.0;Decreased;True;2021-09-09 15:21:42+00:00;False;157;137;12107;e5c570bb572bebe706d0389f2ea734a3e1a7d821;119;jhaberman@gmail.com;jhaberman@gmail.com
-text_format_test.py;MODIFY;2049.0;0.0;Decreased;True;2021-09-10 00:45:49+00:00;False;157;137;12107;359594f4bb7ff8740d8c9bc1c392e28031bbda27;31;jhaberman@gmail.com;jhaberman@gmail.com
+text_format_test.py;MODIFY;2049.0;0.0;Equal;True;2021-09-10 00:45:49+00:00;False;157;137;12107;359594f4bb7ff8740d8c9bc1c392e28031bbda27;31;jhaberman@gmail.com;jhaberman@gmail.com
 text_format_test.py;MODIFY;2086.0;37.0;Grew;True;2022-03-10 18:36:42+00:00;False;157;137;12163;b20209f321bbbbde8eaf193427103218da9df2be;184;acozzette@google.com;acozzette@google.com
 text_format_test.py;MODIFY;2133.0;47.0;Grew;True;2022-08-20 21:22:08+00:00;False;158;138;12323;701dd83594c5d979481bc36ac58efea670a929ba;64;noreply@github.com;62662355+mkruskal-google@users.noreply.github.com
 text_format_test.py;MODIFY;2133.0;0.0;Equal;True;2022-10-31 23:47:12+00:00;False;158;138;12323;0eb9504485ef27ba502764d97a591f0d86a6fae7;4;copybara-worker@google.com;mkruskal@google.com
@@ -78,17 +78,17 @@ text_format_test.py;MODIFY;2133.0;0.0;Equal;True;2022-11-10 07:45:35+00:00;False
 text_format_test.py;MODIFY;2133.0;0.0;Equal;True;2022-12-09 21:24:56+00:00;False;158;138;12327;a49bfa982505371bbb7386b63addaefa56849a52;1;copybara-worker@google.com;haberman@google.com
 text_format_test.py;MODIFY;2133.0;0.0;Equal;True;2022-12-10 02:10:32+00:00;False;158;138;12323;912850b6f41e74dc3be93b41113bd1c53331241d;1;copybara-worker@google.com;mkruskal@google.com
 text_format_test.py;MODIFY;2138.0;5.0;Grew;True;2023-01-05 12:52:27+00:00;False;159;139;12360;258d67c0d3e598ed84614698631e70eced2349cc;2;copybara-worker@google.com;protobuf-github-bot@google.com
-text_format_test.py;MODIFY;2138.0;0.0;Decreased;True;2023-09-09 01:50:27+00:00;False;159;139;12360;9ef8f5cffc4b2ca6a687ae6b66d9de23095bc3ae;54;copybara-worker@google.com;haberman@google.com
+text_format_test.py;MODIFY;2138.0;0.0;Equal;True;2023-09-09 01:50:27+00:00;False;159;139;12360;9ef8f5cffc4b2ca6a687ae6b66d9de23095bc3ae;54;copybara-worker@google.com;haberman@google.com
 text_format_test.py;MODIFY;2138.0;0.0;Equal;True;2023-09-18 22:17:56+00:00;False;159;139;12360;81068e8e8cf00f25559112a562661064d59bfa87;292;copybara-worker@google.com;sandyzhang@google.com
 text_format_test.py;MODIFY;2137.0;-1.0;Decreased;True;2023-09-21 18:33:23+00:00;False;158;139;12348;9b46ed520e25b30fad1e2ded12d67c4c71e018c7;10;copybara-worker@google.com;acozzette@google.com
 text_format_test.py;MODIFY;2140.0;3.0;Grew;True;2023-10-16 21:14:32+00:00;False;158;139;12377;62a435c1ab81ea65850f1b1fb58f7b3c6f498cef;4;copybara-worker@google.com;protobuf-github-bot@google.com
 text_format_test.py;MODIFY;2166.0;26.0;Grew;True;2024-01-24 04:34:54+00:00;False;161;141;12553;bf00034493381f6ae2b49f04e101b3251bb099c9;4;copybara-worker@google.com;haberman@google.com
 text_format_test.py;MODIFY;2176.0;10.0;Grew;True;2024-03-22 17:59:29+00:00;False;163;142;12645;d452a16b8c4ee35d79380e143db88f8bbdfe2fe4;2;copybara-worker@google.com;salo@google.com
 text_format_test.py;MODIFY;2257.0;81.0;Grew;True;2024-04-05 20:08:43+00:00;False;180;158;13257;29c69ff00b58b60e67fcf40fd810009bd39b86c6;11;copybara-worker@google.com;mkruskal@google.com
-text_format_test.py;MODIFY;2257.0;0.0;Decreased;True;2024-06-05 15:14:25+00:00;False;180;158;13257;e207f27a35eafe3fb4ad2cb64db316f583d79a38;2;copybara-worker@google.com;protobuf-github-bot@google.com
-text_format_test.py;MODIFY;2257.0;0.0;Grew;True;2024-06-07 04:30:31+00:00;False;180;158;13257;b3bcbd92da2dbdcc8a17b3e0827c997f476c5105;2;copybara-worker@google.com;protobuf-github-bot@google.com
+text_format_test.py;MODIFY;2257.0;0.0;Equal;True;2024-06-05 15:14:25+00:00;False;180;158;13257;e207f27a35eafe3fb4ad2cb64db316f583d79a38;2;copybara-worker@google.com;protobuf-github-bot@google.com
+text_format_test.py;MODIFY;2257.0;0.0;Equal;True;2024-06-07 04:30:31+00:00;False;180;158;13257;b3bcbd92da2dbdcc8a17b3e0827c997f476c5105;2;copybara-worker@google.com;protobuf-github-bot@google.com
 text_format_test.py;MODIFY;2257.0;0.0;Equal;True;2024-07-26 17:40:43+00:00;False;180;158;13257;1aedb97602b084b51c903c6c82b89e39b6d5078a;5;copybara-worker@google.com;jieluo@google.com
-text_format_test.py;MODIFY;2257.0;0.0;Decreased;True;2024-08-08 20:52:36+00:00;False;180;158;13257;1f93cf8aaffdeddff17ff1b32e0467aef5637bc6;4;copybara-worker@google.com;protobuf-github-bot@google.com
+text_format_test.py;MODIFY;2257.0;0.0;Equal;True;2024-08-08 20:52:36+00:00;False;180;158;13257;1f93cf8aaffdeddff17ff1b32e0467aef5637bc6;4;copybara-worker@google.com;protobuf-github-bot@google.com
 text_format_test.py;MODIFY;2320.0;63.0;Grew;True;2024-10-03 17:55:13+00:00;False;182;160;13462;d4a32bbc878669e73fba7bf27c467319fbdd7d5a;1;copybara-worker@google.com;tonyliaoss@google.com
 text_format_test.py;MODIFY;2345.0;25.0;Grew;True;2024-11-20 01:57:02+00:00;False;183;161;13544;d3e9897b037a81d3a024d0af0c3626724286534d;2;copybara-worker@google.com;jieluo@google.com
 text_format_test.py;MODIFY;2361.0;16.0;Grew;True;2024-11-20 18:13:40+00:00;False;184;162;13659;3781f45f390935001a7f1be6c20171f6fba0f56c;4;copybara-worker@google.com;jieluo@google.com

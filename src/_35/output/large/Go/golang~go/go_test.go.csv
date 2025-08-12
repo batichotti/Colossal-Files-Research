@@ -1,5 +1,5 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
-go_test.go;ADD;119;0.0;Grew;False;2015-06-03 19:18:22+00:00;False;27;8;665;6298bbec7068ff6ad013782d2a5b8a2f7e50ad81;2;iant@golang.org;iant@golang.org
+go_test.go;ADD;119;0.0;Equal;False;2015-06-03 19:18:22+00:00;False;27;8;665;6298bbec7068ff6ad013782d2a5b8a2f7e50ad81;2;iant@golang.org;iant@golang.org
 go_test.go;MODIFY;1414;1295.0;Grew;False;2015-06-10 20:34:56+00:00;False;293;155;11080;dc32b7f0fda20e6f3a4f893ca886681cb765739e;2;iant@golang.org;iant@golang.org
 go_test.go;MODIFY;1411;-3.0;Decreased;False;2015-06-11 14:03:14+00:00;False;291;155;11058;15c8ab00e88419b584eefd38ec6ddcdbea3e488c;1;0intro@gmail.com;0intro@gmail.com
 go_test.go;MODIFY;1420;9.0;Grew;False;2015-06-11 16:13:37+00:00;False;292;156;11121;239ec73e66b4c4706b2261082857d5afa5c53da9;2;cbro@golang.org;cbro@golang.org
@@ -10,7 +10,7 @@ go_test.go;MODIFY;1494;5.0;Grew;False;2015-06-15 04:27:27+00:00;False;318;160;11
 go_test.go;MODIFY;1494;0.0;Equal;False;2015-06-15 19:38:11+00:00;False;318;160;11589;4dab6d01f12591f256d36b32cd6480ef679458f1;2;rsc@golang.org;rsc@golang.org
 go_test.go;MODIFY;1467;-27.0;Decreased;False;2015-06-16 18:07:36+00:00;False;306;160;11470;7bc3e5880675ce4aae245f46d193924cff5efdfb;21;rsc@golang.org;rsc@golang.org
 go_test.go;MODIFY;1470;3.0;Grew;False;2015-06-17 01:26:40+00:00;False;306;160;11481;8e723109de27ad6ad64655f336456786e8f5d899;1;alex.brainman@gmail.com;alex.brainman@gmail.com
-go_test.go;MODIFY;1474;4.0;Decreased;False;2015-06-19 00:53:56+00:00;False;308;160;11515;18d9a8d05f5c9f13b8c2a06ce3a11a2c04d19536;1;iant@golang.org;iant@golang.org
+go_test.go;MODIFY;1474;4.0;Grew;False;2015-06-19 00:53:56+00:00;False;308;160;11515;18d9a8d05f5c9f13b8c2a06ce3a11a2c04d19536;1;iant@golang.org;iant@golang.org
 go_test.go;MODIFY;1490;16.0;Grew;False;2015-06-19 01:06:36+00:00;False;311;163;11627;679fd5b4479e0b9936344a33e07a0d1f904c362b;2;iant@golang.org;iant@golang.org
 go_test.go;MODIFY;1490;0.0;Equal;False;2015-06-22 16:44:46+00:00;False;311;163;11629;794c01b8b42e436e9e73dae9c078e9ca2827d115;1;rsc@golang.org;rsc@golang.org
 go_test.go;MODIFY;1535;45.0;Grew;False;2015-06-24 06:36:07+00:00;False;317;167;12004;5bf1853e595eb35c635046f4316930b3baa1e70e;8;adg@golang.org;adg@golang.org
@@ -77,7 +77,7 @@ go_test.go;MODIFY;2156;53.0;Grew;True;2016-02-03 04:33:08+00:00;False;414;213;16
 go_test.go;MODIFY;2191;35.0;Grew;True;2016-02-09 20:36:10+00:00;False;416;215;16982;ee451770a76e138e05d2cf499b0eb25e69122432;2;rsc@golang.org;rsc@golang.org
 go_test.go;MODIFY;2213;22.0;Grew;True;2016-02-16 22:02:56+00:00;False;419;217;17161;aa22c42d704f9c6d9d8e65f972ac819678629ff2;3;iant@golang.org;iant@golang.org
 go_test.go;MODIFY;2237;24.0;Grew;True;2016-02-18 20:56:29+00:00;False;423;218;17352;5bbb98df0960f57dca73cb7640456608d4cc0917;3;dneil@google.com;dneil@google.com
-go_test.go;MODIFY;2282;45.0;Equal;True;2016-02-19 01:35:25+00:00;False;392;202;15569;51b624e6a29b135ce0fadb22b678acf4998ff16f;4;rsc@golang.org;rsc@golang.org
+go_test.go;MODIFY;2282;45.0;Grew;True;2016-02-19 01:35:25+00:00;False;392;202;15569;51b624e6a29b135ce0fadb22b678acf4998ff16f;4;rsc@golang.org;rsc@golang.org
 go_test.go;MODIFY;2281;-1.0;Decreased;True;2016-02-19 15:54:12+00:00;False;392;202;15569;277024bd6f3ecc9f34729cbeb95e226f70004733;1;iant@golang.org;mohit@sdf.org
 go_test.go;MODIFY;2281;0.0;Equal;True;2016-02-21 15:35:50+00:00;False;392;202;15569;e43c74a0d8848d58814e1a8302d8f115d7f0b874;29;josharian@gmail.com;josharian@gmail.com
 go_test.go;MODIFY;2281;0.0;Equal;True;2016-02-24 18:42:29+00:00;False;392;202;15569;fdd0179bb1fdd70d405929b78c7d2fb6b61369b0;92;bradfitz@golang.org;martisch@uos.de
@@ -99,7 +99,7 @@ go_test.go;MODIFY;2294;1.0;Grew;True;2016-04-25 16:18:10+00:00;False;395;201;155
 go_test.go;MODIFY;2305;11.0;Grew;True;2016-04-27 01:58:24+00:00;False;402;201;15719;0b5fbf7098b10da284f48de604e7d2860d2cd9d0;6;rsc@golang.org;rsc@golang.org
 go_test.go;MODIFY;2361;56.0;Grew;True;2016-04-29 00:23:02+00:00;False;407;205;16062;af6aa0fd745d48c2db70712ebfe6833d30a9a85d;8;rsc@golang.org;rsc@golang.org
 go_test.go;MODIFY;2338;-23.0;Decreased;True;2016-05-11 17:37:55+00:00;False;401;204;15901;2ffb3e5d905b5622204d199128dec06cefd57790;3;bradfitz@golang.org;maruel@chromium.org
-go_test.go;MODIFY;2338;0.0;Grew;True;2016-05-24 13:54:24+00:00;False;401;204;15901;8e724e7bbad07d530f547b6214c71ddfe26ba92a;2;rsc@golang.org;rsc@golang.org
+go_test.go;MODIFY;2338;0.0;Equal;True;2016-05-24 13:54:24+00:00;False;401;204;15901;8e724e7bbad07d530f547b6214c71ddfe26ba92a;2;rsc@golang.org;rsc@golang.org
 go_test.go;MODIFY;2358;20.0;Grew;True;2016-05-27 06:28:40+00:00;False;404;205;16059;e9228dd9490c3d4827170abeb8c82e68c175ecf0;2;adg@golang.org;shurcooL@gmail.com
 go_test.go;MODIFY;2364;6.0;Grew;True;2016-06-03 02:46:58+00:00;False;405;205;16096;5799973c3e25545ac0e7d20f32a1453531c69399;1;adg@golang.org;adg@golang.org
 go_test.go;MODIFY;2361;-3.0;Decreased;True;2016-06-03 22:18:16+00:00;False;404;205;16082;b89bcc1daeed9980c5ba8a255b37877493952874;1;mikioh.mikioh@gmail.com;mikioh.mikioh@gmail.com
@@ -141,7 +141,7 @@ go_test.go;MODIFY;3005;-2.0;Decreased;True;2016-11-16 19:01:01+00:00;False;485;2
 go_test.go;MODIFY;3010;5.0;Grew;True;2016-11-21 22:16:13+00:00;False;487;254;20377;6e7e8b0f0d8644b3e1981229d597cf8ac2d898c7;1;bradfitz@golang.org;bradfitz@golang.org
 go_test.go;MODIFY;3015;5.0;Grew;True;2016-11-22 04:27:49+00:00;False;487;254;20417;e9ffda45c8b7d409a5b951d6a74b8241c026fad5;4;iant@golang.org;iant@golang.org
 go_test.go;MODIFY;3015;0.0;Equal;True;2016-11-29 18:16:06+00:00;False;487;254;20514;3825656e285155d40f286ff9e1e5deb60cf99094;2;iant@golang.org;dhananjaynakrani@gmail.com
-go_test.go;MODIFY;3014;-1.0;Grew;True;2016-12-01 23:42:04+00:00;False;487;254;20532;fd483b6f62d3d7af915d71df6e654e5edcbc188c;1;iant@golang.org;iant@golang.org
+go_test.go;MODIFY;3014;-1.0;Decreased;True;2016-12-01 23:42:04+00:00;False;487;254;20532;fd483b6f62d3d7af915d71df6e654e5edcbc188c;1;iant@golang.org;iant@golang.org
 go_test.go;MODIFY;3021;7.0;Grew;True;2016-12-02 07:13:18+00:00;False;488;255;20574;130ad87ab7b02a87401246d4a5f0c3f00fc7d709;2;iant@golang.org;iant@golang.org
 go_test.go;MODIFY;3034;13.0;Grew;True;2016-12-13 00:57:24+00:00;False;489;256;20682;b9ffcf961e54419dc46f8338d86398665e719623;2;iant@golang.org;iant@golang.org
 go_test.go;MODIFY;3037;3.0;Grew;True;2016-12-22 09:05:25+00:00;False;490;256;20696;17190343e3db72a3f299e5a4359ae6bc3e5ed194;1;mikioh.mikioh@gmail.com;mikioh.mikioh@gmail.com
@@ -152,7 +152,7 @@ go_test.go;MODIFY;3099;5.0;Grew;True;2017-01-31 17:36:49+00:00;False;499;262;210
 go_test.go;MODIFY;3117;18.0;Grew;True;2017-02-07 00:08:39+00:00;False;508;264;21248;6b742b2f84fc4ddea27076aa1e581197d17bd863;6;quentin@golang.org;quentin@golang.org
 go_test.go;MODIFY;3070;-47.0;Decreased;True;2017-02-07 18:45:43+00:00;False;490;261;21108;57d06fff3e7e020510fe9460ccfa247370c472ba;4;rsc@golang.org;rsc@golang.org
 go_test.go;MODIFY;3086;16.0;Grew;True;2017-02-10 21:38:07+00:00;False;493;263;21212;e7ec06e000627ad699a274a5a672bc3f63d6a709;2;iant@golang.org;iant@golang.org
-go_test.go;MODIFY;3086;0.0;Grew;True;2017-03-02 04:04:34+00:00;False;493;263;21217;a2cc8b20fd6576b1db729159c096aadfb91fbb9e;1;iant@golang.org;iant@golang.org
+go_test.go;MODIFY;3086;0.0;Equal;True;2017-03-02 04:04:34+00:00;False;493;263;21217;a2cc8b20fd6576b1db729159c096aadfb91fbb9e;1;iant@golang.org;iant@golang.org
 go_test.go;MODIFY;3123;37.0;Grew;True;2017-03-07 03:26:47+00:00;False;498;265;21474;d3f5e3691712a2098fc8171574748389cec931a1;2;alex.brainman@gmail.com;alex.brainman@gmail.com
 go_test.go;MODIFY;3123;0.0;Equal;True;2017-03-29 18:05:01+00:00;False;498;265;21474;f0a3018b00bb535259e7d46f0f1503048130f51c;1;rsc@golang.org;rsc@golang.org
 go_test.go;MODIFY;3138;15.0;Grew;True;2017-04-05 18:46:16+00:00;False;501;266;21589;10991fd5af24fd01483ab23c9b3d7de52de580b2;1;rsc@golang.org;rsc@golang.org
@@ -193,7 +193,7 @@ go_test.go;MODIFY;3521;15.0;Grew;True;2017-08-02 14:30:08+00:00;False;579;302;24
 go_test.go;MODIFY;3572;51.0;Grew;True;2017-08-14 18:45:21+00:00;False;593;304;24543;b7c600d6ba8828dbdc6a047aac240d40b4fc44a7;5;iant@golang.org;hirochachacha@gmail.com
 go_test.go;MODIFY;3613;41.0;Grew;True;2017-08-15 00:13:56+00:00;False;605;306;24841;4b38200bfd2d4718730e63cc991e7163ed0d7fd9;2;iant@golang.org;hirochachacha@gmail.com
 go_test.go;MODIFY;3576;-37.0;Decreased;True;2017-08-18 14:25:36+00:00;False;596;305;24681;c6f3e98eb568a364eb77445a50e4dfbe95ba5058;1;rsc@golang.org;rsc@golang.org
-go_test.go;MODIFY;3576;0.0;Grew;True;2017-08-18 14:25:57+00:00;False;597;306;24668;2bc2b1031483330cbe9620ca819fa45b014686d3;1;rsc@golang.org;rsc@golang.org
+go_test.go;MODIFY;3576;0.0;Equal;True;2017-08-18 14:25:57+00:00;False;597;306;24668;2bc2b1031483330cbe9620ca819fa45b014686d3;1;rsc@golang.org;rsc@golang.org
 go_test.go;MODIFY;3621;45.0;Grew;True;2017-08-18 14:26:09+00:00;False;597;306;24981;dca29095beb91b77f8dd41bf51e3771fdd814db0;1;rsc@golang.org;rsc@golang.org
 go_test.go;MODIFY;3622;1.0;Grew;True;2017-08-18 14:29:16+00:00;False;597;306;24984;d52413d62dbfc6c6ee33a8a12b9b0cf27e6828a1;3;rsc@golang.org;rsc@golang.org
 go_test.go;MODIFY;3635;13.0;Grew;True;2017-08-19 03:33:15+00:00;False;598;307;25083;6f0b1aa0e29b2526592b47ba04c8a4d507e4f05d;3;rsc@golang.org;rsc@golang.org
@@ -201,7 +201,7 @@ go_test.go;MODIFY;3661;26.0;Grew;True;2017-08-25 22:45:35+00:00;False;603;310;25
 go_test.go;MODIFY;3671;10.0;Grew;True;2017-08-25 22:47:57+00:00;False;606;312;25347;86dde2debbab6dec105e0bf74ef74d7220974dde;2;iant@golang.org;mvdan@mvdan.cc
 go_test.go;MODIFY;3700;29.0;Grew;True;2017-09-09 16:59:35+00:00;False;613;313;25590;06f4d93699ebbf05a500313c6b6ae6f80105d838;4;crawshaw@golang.org;crawshaw@golang.org
 go_test.go;MODIFY;3721;21.0;Grew;True;2017-09-15 00:11:18+00:00;False;621;315;25731;33cb1481f26c6f1acca445fafa18e7ad1d49efed;2;emm.odeke@gmail.com;emm.odeke@gmail.com
-go_test.go;MODIFY;3524;-197.0;Grew;True;2017-09-18 00:33:34+00:00;False;579;302;24263;32dc9b247fc8393d5effb31a6673c797d75db78e;2;rsc@golang.org;rsc@golang.org
+go_test.go;MODIFY;3524;-197.0;Decreased;True;2017-09-18 00:33:34+00:00;False;579;302;24263;32dc9b247fc8393d5effb31a6673c797d75db78e;2;rsc@golang.org;rsc@golang.org
 go_test.go;MODIFY;3723;199.0;Grew;True;2017-09-19 08:58:10+00:00;False;621;315;25743;0bbb6665d85c1e80c3b479a4c00dc8a0a1b83ec8;1;dave@cheney.net;hirochachacha@gmail.com
 go_test.go;MODIFY;3728;5.0;Grew;True;2017-09-20 03:54:16+00:00;False;622;315;25774;fb54abe9ce3cbec6d464c238406b05502cb34eeb;10;iant@golang.org;hirochachacha@gmail.com
 go_test.go;MODIFY;3745;17.0;Grew;True;2017-09-24 01:41:21+00:00;False;624;317;25924;18b49db18e02c1590119eeda58673bf93c2e41c9;2;alex.brainman@gmail.com;alex.brainman@gmail.com
@@ -209,9 +209,9 @@ go_test.go;MODIFY;3754;9.0;Grew;True;2017-09-24 14:32:38+00:00;False;625;318;259
 go_test.go;MODIFY;3754;0.0;Equal;True;2017-09-25 17:35:41+00:00;False;625;318;25998;f22ba1f24786be600bfa3686a7ce5a318a96b9c9;55;iant@golang.org;marvin.stenger94@gmail.com
 go_test.go;MODIFY;3764;10.0;Grew;True;2017-09-29 00:23:01+00:00;False;627;319;26092;d8efa0e0ed8bbd5ed0780527652d86be2fba99dc;11;rsc@golang.org;rsc@golang.org
 go_test.go;MODIFY;3779;15.0;Grew;True;2017-10-04 17:52:52+00:00;False;629;320;26204;ec71ee078fd3243b78c0d404c8634bd97e38d7eb;3;rsc@golang.org;rsc@golang.org
-go_test.go;MODIFY;3536;-243.0;Grew;True;2017-10-04 18:15:57+00:00;False;581;303;24345;a39bcecea6660d3c6d9770516df441c3f8fc47f5;3;rsc@golang.org;rsc@golang.org
-go_test.go;MODIFY;3779;243.0;Equal;True;2017-10-05 23:19:10+00:00;False;629;320;26204;90d71fe99e21b68e292327c966946f1706d66514;55;iant@golang.org;marvin.stenger94@gmail.com
-go_test.go;MODIFY;3782;3.0;Decreased;True;2017-10-11 14:45:43+00:00;False;630;321;26227;862b78e1553a56adbc9117c2584ce5582f055b30;2;iant@golang.org;iant@golang.org
+go_test.go;MODIFY;3536;-243.0;Decreased;True;2017-10-04 18:15:57+00:00;False;581;303;24345;a39bcecea6660d3c6d9770516df441c3f8fc47f5;3;rsc@golang.org;rsc@golang.org
+go_test.go;MODIFY;3779;243.0;Grew;True;2017-10-05 23:19:10+00:00;False;629;320;26204;90d71fe99e21b68e292327c966946f1706d66514;55;iant@golang.org;marvin.stenger94@gmail.com
+go_test.go;MODIFY;3782;3.0;Grew;True;2017-10-11 14:45:43+00:00;False;630;321;26227;862b78e1553a56adbc9117c2584ce5582f055b30;2;iant@golang.org;iant@golang.org
 go_test.go;MODIFY;3782;0.0;Equal;True;2017-10-11 17:47:06+00:00;False;630;321;26231;9a9780a20d6987d462d97fa191de3c4a66980022;3;rsc@golang.org;rsc@golang.org
 go_test.go;MODIFY;3782;0.0;Equal;True;2017-10-18 00:21:04+00:00;False;630;321;26233;b614ed4ca4531011b3913d904cb37a855f38bf8a;1;rsc@golang.org;rsc@golang.org
 go_test.go;MODIFY;3539;-243.0;Decreased;True;2017-10-25 20:23:27+00:00;False;582;304;24368;39d4bb9c0f3ac3f87de64b069ea176595e39d46c;2;rsc@golang.org;iant@golang.org
@@ -235,7 +235,7 @@ go_test.go;MODIFY;4013;2.0;Grew;True;2017-11-06 20:17:05+00:00;False;655;331;287
 go_test.go;MODIFY;4024;11.0;Grew;True;2017-11-06 20:17:17+00:00;False;657;332;28815;5e48d2b62a4bf6f9ee11905f1c5f93da648df42f;2;rsc@golang.org;rsc@golang.org
 go_test.go;MODIFY;4049;25.0;Grew;True;2017-11-07 00:42:54+00:00;False;659;333;29058;8ac93e669dd18a65dd8c1dce37a6492ca078ba7d;2;rsc@golang.org;rsc@golang.org
 go_test.go;MODIFY;4057;8.0;Grew;True;2017-11-07 01:50:16+00:00;False;660;334;29114;36323e4313f281ef209055b279f449feb5fcfa39;8;rsc@golang.org;rsc@golang.org
-go_test.go;MODIFY;4056;-1.0;Grew;True;2017-11-07 23:27:28+00:00;False;660;334;29109;7d33667218ab010022a73b41ea9780474128a35f;1;iant@golang.org;iant@golang.org
+go_test.go;MODIFY;4056;-1.0;Decreased;True;2017-11-07 23:27:28+00:00;False;660;334;29109;7d33667218ab010022a73b41ea9780474128a35f;1;iant@golang.org;iant@golang.org
 go_test.go;MODIFY;4074;18.0;Grew;True;2017-11-09 15:04:04+00:00;False;661;335;29260;5993251c015dfa1e905bdf44bdb41572387edf90;26;rsc@golang.org;rsc@golang.org
 go_test.go;MODIFY;4076;2.0;Grew;True;2017-11-09 15:04:22+00:00;False;661;335;29287;48f2a55aa1e8e13b220419142cadf1347daac5e8;2;rsc@golang.org;rsc@golang.org
 go_test.go;MODIFY;4109;33.0;Grew;True;2017-11-09 15:23:19+00:00;False;670;336;29571;183616048a7fe6af4853515ed8ea5bd87d8908b7;3;rsc@golang.org;rsc@golang.org
@@ -264,7 +264,7 @@ go_test.go;MODIFY;4287;13.0;Grew;True;2017-12-01 21:06:14+00:00;False;695;348;31
 go_test.go;MODIFY;4291;4.0;Grew;True;2017-12-01 21:06:23+00:00;False;693;348;31111;7ef9f7250e2abece8b688cc4fcadc3e32d93f0fc;5;rsc@golang.org;rsc@golang.org
 go_test.go;MODIFY;4296;5.0;Grew;True;2017-12-01 21:06:36+00:00;False;693;348;31205;7684fe0bf1b60495621f888483199867ed52d54a;2;rsc@golang.org;rsc@golang.org
 go_test.go;MODIFY;4303;7.0;Grew;True;2017-12-04 05:14:54+00:00;False;694;349;31268;f047422a181d245c25127eb8e6d44502df36d376;5;bradfitz@golang.org;rsc@golang.org
-go_test.go;MODIFY;4263;-40.0;Grew;True;2017-12-04 05:15:50+00:00;False;723;364;33233;1b9f66330b123b042e738eff5e47e869dd301a98;1;bradfitz@golang.org;rsc@golang.org
+go_test.go;MODIFY;4263;-40.0;Decreased;True;2017-12-04 05:15:50+00:00;False;723;364;33233;1b9f66330b123b042e738eff5e47e869dd301a98;1;bradfitz@golang.org;rsc@golang.org
 go_test.go;MODIFY;4341;78.0;Grew;True;2017-12-11 19:08:32+00:00;False;727;365;34164;29be20a111d87b41b91e79a59fd3df95062ce91a;18;dominik@honnef.co;rsc@golang.org
 go_test.go;MODIFY;4342;1.0;Grew;True;2017-12-11 22:39:08+00:00;False;727;365;34182;1055dfce40da4852add029c8a0e7312dff079507;1;iant@golang.org;iant@golang.org
 go_test.go;MODIFY;4377;35.0;Grew;True;2017-12-12 04:55:56+00:00;False;733;369;34346;d1be0fd910758852584ab53d2c92c4caac3f5b7e;2;iant@golang.org;iant@golang.org
@@ -310,7 +310,7 @@ go_test.go;MODIFY;4925;0.0;Equal;True;2018-04-30 19:39:18+00:00;False;771;387;37
 go_test.go;MODIFY;4926;1.0;Grew;True;2018-05-02 14:41:32+00:00;False;772;387;37750;7e960d06d202d6bfc63fbd6b2528feb4f2b77b4e;1;bradfitz@golang.org;alb.donizetti@gmail.com
 go_test.go;MODIFY;4928;2.0;Grew;True;2018-05-08 17:33:20+00:00;False;772;387;37774;941b3b77648bb307c71d29b81b03349584f876e6;2;iant@golang.org;paul@myitcv.io
 go_test.go;MODIFY;4969;41.0;Grew;True;2018-05-09 12:54:58+00:00;False;780;388;38011;8088a7fc12a335248395d636e09e1e4c67d13730;1;iant@golang.org;iant@golang.org
-go_test.go;MODIFY;4969;0.0;Grew;True;2018-05-09 21:14:24+00:00;False;781;389;38022;3e297120fdf306507496e1dd650fd86ebb9aeb36;1;iant@golang.org;yury@smolsky.by
+go_test.go;MODIFY;4969;0.0;Equal;True;2018-05-09 21:14:24+00:00;False;781;389;38022;3e297120fdf306507496e1dd650fd86ebb9aeb36;1;iant@golang.org;yury@smolsky.by
 go_test.go;MODIFY;4980;11.0;Grew;True;2018-05-10 19:15:27+00:00;False;782;390;38112;9ccfde6ee7df654be64a79c79ec4178c10d8fd18;4;rsc@golang.org;rsc@golang.org
 go_test.go;MODIFY;4997;17.0;Grew;True;2018-05-10 19:15:33+00:00;False;785;391;38243;4826d20a0953b3682cf6eedd1e9becb68bbb25e9;2;rsc@golang.org;rsc@golang.org
 go_test.go;MODIFY;4997;0.0;Equal;True;2018-05-14 13:45:18+00:00;False;785;391;38243;c06f02752022c1421d4310f8c13deaa28cca17fb;1;iant@golang.org;yury@smolsky.by
@@ -339,7 +339,7 @@ go_test.go;MODIFY;5224;10.0;Grew;True;2018-07-10 03:00:05+00:00;False;813;399;39
 go_test.go;MODIFY;5238;14.0;Grew;True;2018-07-10 14:59:43+00:00;False;818;400;39963;25c3bb377ac455184cc9870e690df45fe3f6e1ab;4;rsc@golang.org;rsc@golang.org
 go_test.go;MODIFY;5210;-28.0;Decreased;True;2018-07-12 17:30:14+00:00;False;814;398;39765;bb364d49a9db585534aac965d1068bee0bda3054;1;rsc@golang.org;rsc@golang.org
 go_test.go;MODIFY;5245;35.0;Grew;True;2018-07-12 20:46:50+00:00;False;820;400;39994;f7248f05946c1804b5519d0b3eb0db054dc9c5d6;156;rsc@golang.org;rsc@golang.org
-go_test.go;MODIFY;5245;0.0;Grew;True;2018-07-16 16:49:02+00:00;False;821;400;40021;b323709a5cbac882bf945b0f9c08aee351e1ce4b;1;iant@golang.org;iant@golang.org
+go_test.go;MODIFY;5245;0.0;Equal;True;2018-07-16 16:49:02+00:00;False;821;400;40021;b323709a5cbac882bf945b0f9c08aee351e1ce4b;1;iant@golang.org;iant@golang.org
 go_test.go;MODIFY;5244;-1.0;Decreased;True;2018-07-16 23:42:54+00:00;False;819;400;40019;c2ba0ca80454d0d9fdf801619279bbbbe8f50748;2;rsc@golang.org;rsc@golang.org
 go_test.go;MODIFY;5007;-237.0;Decreased;True;2018-07-17 14:17:23+00:00;False;781;378;37883;5890e25b7ccb2d2249b2f8a02ef5dbc36047868b;36;rsc@golang.org;rsc@golang.org
 go_test.go;MODIFY;5027;20.0;Grew;True;2018-07-17 22:22:37+00:00;False;781;378;37935;f3cdc94154f75880ddd5d47d3cb78121aa622d22;3;iant@golang.org;iant@golang.org
@@ -352,11 +352,11 @@ go_test.go;MODIFY;5049;-2.0;Decreased;True;2018-08-03 15:14:33+00:00;False;785;3
 go_test.go;MODIFY;5001;-48.0;Decreased;True;2018-08-07 20:33:33+00:00;False;786;380;37916;15c106d99305411b587ec0d9e80c882e538c9d47;4;bcmills@google.com;shivakumar.gn@gmail.com
 go_test.go;MODIFY;5002;1.0;Grew;True;2018-08-16 18:27:09+00:00;False;786;380;37924;dea36a6f751783c3c511e2eb0e1de3696daec1f7;1;bradfitz@golang.org;bradfitz@golang.org
 go_test.go;MODIFY;4977;-25.0;Decreased;True;2018-08-17 19:22:00+00:00;False;785;379;37697;2ce6da0be30c1888120a7f7e2a596c6de1892c0a;6;rsc@golang.org;rsc@golang.org
-go_test.go;MODIFY;4977;0.0;Grew;True;2018-08-18 03:02:40+00:00;False;785;379;37697;714c141c4f2db626ea470a27cfd35f86b0c77c07;1;rsc@golang.org;rsc@golang.org
+go_test.go;MODIFY;4977;0.0;Equal;True;2018-08-18 03:02:40+00:00;False;785;379;37697;714c141c4f2db626ea470a27cfd35f86b0c77c07;1;rsc@golang.org;rsc@golang.org
 go_test.go;MODIFY;4978;1.0;Grew;True;2018-08-18 18:22:46+00:00;False;786;379;37711;239b8f2edc70046484d5bcc5bf0cac06f8e1ace4;1;rsc@golang.org;rsc@golang.org
 go_test.go;MODIFY;4994;16.0;Grew;True;2018-08-18 18:23:06+00:00;False;791;382;37849;bf80e3b5640447d213f68e0423ad37f34bf7a222;2;rsc@golang.org;rsc@golang.org
 go_test.go;MODIFY;4992;-2.0;Decreased;True;2018-08-20 13:10:24+00:00;False;790;382;37838;9e4d87d1158a5847dbb94c0fd3f6ab451460d148;4;mvdan@mvdan.cc;mvdan@mvdan.cc
-go_test.go;MODIFY;4993;1.0;Decreased;True;2018-08-21 03:38:27+00:00;False;788;382;37836;7e64377903b3abd922150e35601e0df597a8af9f;10;iant@golang.org;iant@golang.org
+go_test.go;MODIFY;4993;1.0;Grew;True;2018-08-21 03:38:27+00:00;False;788;382;37836;7e64377903b3abd922150e35601e0df597a8af9f;10;iant@golang.org;iant@golang.org
 go_test.go;MODIFY;4995;2.0;Grew;True;2018-09-19 16:57:32+00:00;False;788;382;37881;620bd5a3bc640f60a00d8b49c27c51e8ce67e67b;1;bcmills@google.com;bcmills@google.com
 go_test.go;MODIFY;5018;23.0;Grew;True;2018-09-25 18:39:34+00:00;False;789;382;38011;e0bde68c80a3f87c6411f4ebf4b6881abf2387b4;1;iant@golang.org;iant@golang.org
 go_test.go;MODIFY;5018;0.0;Equal;True;2018-09-26 22:14:25+00:00;False;789;382;37999;da0d1a44bac379f5acedb1933f85400de08f4ac6;56;bradfitz@golang.org;bradfitz@golang.org
@@ -392,7 +392,7 @@ go_test.go;MODIFY;5064;1.0;Grew;True;2019-06-25 16:43:17+00:00;False;792;378;380
 go_test.go;MODIFY;5069;5.0;Grew;True;2019-07-22 21:42:51+00:00;False;793;379;38060;5e21032b3d179a8bc0d9e70e4725629defad9d8b;10;bcmills@google.com;bcmills@google.com
 go_test.go;MODIFY;5069;0.0;Equal;True;2019-09-08 17:28:20+00:00;False;793;379;38060;0efbd1015774a2d894138519f1efcf7704bb2d95;63;gri@golang.org;gugl.zadolbal@gmail.com
 go_test.go;MODIFY;5069;0.0;Equal;True;2019-10-09 06:14:44+00:00;False;793;379;38056;a38a917aee626a9b9d5ce2b93964f586bf759ea0;211;bradfitz@golang.org;bradfitz@golang.org
-go_test.go;MODIFY;5065;-4.0;Equal;True;2019-10-22 19:21:02+00:00;False;793;379;38100;a813d3c788b4ec58032616e8d269ee65d1b10085;4;iant@golang.org;deklerk@google.com
+go_test.go;MODIFY;5065;-4.0;Decreased;True;2019-10-22 19:21:02+00:00;False;793;379;38100;a813d3c788b4ec58032616e8d269ee65d1b10085;4;iant@golang.org;deklerk@google.com
 go_test.go;MODIFY;5058;-7.0;Decreased;True;2019-11-05 16:31:48+00:00;False;790;379;38061;414c1d454e6d388443239209220fe0783d4dac71;2;bcmills@google.com;bcmills@google.com
 go_test.go;MODIFY;5059;1.0;Grew;True;2019-11-07 18:06:59+00:00;False;790;379;38063;ee2268c6bce9fabf3330c832e90edf1601828ace;1;bcmills@google.com;bcmills@google.com
 go_test.go;MODIFY;5022;-37.0;Decreased;True;2019-11-08 16:31:00+00:00;False;781;376;37777;a782472dcd3937d8e49ab843dffc7568c6eb8edb;1;bcmills@google.com;bcmills@google.com
@@ -522,7 +522,7 @@ go_test.go;MODIFY;2294;2.0;Grew;True;2021-05-05 16:02:32+00:00;False;45;8;16468;
 go_test.go;MODIFY;2287;-7.0;Decreased;True;2021-06-13 08:17:17+00:00;False;44;8;16410;24cff0f0444793be81062684c478a3f7ca955499;2;Jason@zx2c4.com;Jason@zx2c4.com
 go_test.go;MODIFY;2289;2.0;Grew;True;2021-06-18 04:55:13+00:00;False;44;8;16414;78aa251ace316dc8175879f1ec50797f505cec99;1;mdempsky@google.com;mknyszek@google.com
 go_test.go;MODIFY;2319;30.0;Grew;True;2021-07-20 20:23:41+00:00;False;44;8;16446;9e26569293c13974d210fd588ebfd29b857d8525;2;iant@golang.org;iant@golang.org
-go_test.go;MODIFY;2320;1.0;Decreased;True;2021-10-02 13:15:42+00:00;False;44;8;16449;7bf7bbc2419795f11b2a4fd482ae67d6f66e2df8;5;mvdan@mvdan.cc;mvdan@mvdan.cc
+go_test.go;MODIFY;2320;1.0;Grew;True;2021-10-02 13:15:42+00:00;False;44;8;16449;7bf7bbc2419795f11b2a4fd482ae67d6f66e2df8;5;mvdan@mvdan.cc;mvdan@mvdan.cc
 go_test.go;MODIFY;2320;0.0;Equal;True;2021-10-14 18:44:48+00:00;False;44;8;16449;0fd0639e4c429e147d33bfc42654fcd651f4449f;7;jayconrod@google.com;jayconrod@google.com
 go_test.go;MODIFY;2322;2.0;Grew;True;2021-10-26 01:18:46+00:00;False;45;8;16468;49fda9e4f5cd3a05fd5fa0b3a2047a9d24873bd6;11;Fannie.Zhang@arm.com;fannie.zhang@arm.com
 go_test.go;MODIFY;2326;4.0;Grew;True;2021-10-28 20:43:02+00:00;False;45;8;16502;e741e2fe0e51840b16bfc84d8daaba7670e7aac9;28;bcmills@google.com;bcmills@google.com
@@ -541,7 +541,7 @@ go_test.go;MODIFY;2387;8.0;Grew;True;2022-07-08 18:51:33+00:00;False;59;9;16838;
 go_test.go;MODIFY;2374;-13.0;Decreased;True;2022-07-12 21:37:38+00:00;False;59;9;16726;c2edb2c841149f2e56963071065d52247e24092a;2;gobot@golang.org;bcmills@google.com
 go_test.go;MODIFY;2377;3.0;Grew;True;2022-08-09 15:13:01+00:00;False;59;9;16747;0d9ed0638be1aa5c68c1bef0713c338e206a6656;3;thanm@google.com;thanm@google.com
 go_test.go;MODIFY;2361;-16.0;Decreased;True;2022-08-16 16:14:48+00:00;False;59;9;16620;a135f8e251120e89520bb2c226266b8256f81de0;2;gobot@golang.org;bcmills@google.com
-go_test.go;MODIFY;2358;-3.0;Grew;True;2022-08-18 14:52:30+00:00;False;56;9;16550;e64c87157d1e8fbc512a670b8c0af8abc3afa7c1;17;gobot@golang.org;bcmills@google.com
+go_test.go;MODIFY;2358;-3.0;Decreased;True;2022-08-18 14:52:30+00:00;False;56;9;16550;e64c87157d1e8fbc512a670b8c0af8abc3afa7c1;17;gobot@golang.org;bcmills@google.com
 go_test.go;MODIFY;2358;0.0;Equal;True;2022-09-15 21:04:34+00:00;False;56;9;16550;501df45199e82cfbd2eb7422c8bfe35688712402;7;gobot@golang.org;cuiweixie@gmail.com
 go_test.go;MODIFY;2362;4.0;Grew;True;2022-09-26 14:16:42+00:00;False;56;9;16573;1e91ffc897efb1ed298753c08f086fbc8f725025;1;thanm@google.com;thanm@google.com
 go_test.go;MODIFY;2363;1.0;Grew;True;2022-09-26 21:48:50+00:00;False;56;9;16575;cf83a490e495e5bfa7065cd97811e689101a687e;5;thanm@google.com;thanm@google.com
@@ -561,14 +561,14 @@ go_test.go;MODIFY;2381;0.0;Equal;True;2022-11-21 16:49:48+00:00;False;59;9;15911
 go_test.go;MODIFY;2349;-32.0;Decreased;True;2022-11-21 22:43:41+00:00;False;59;9;15875;7656cba9ccec334bb4219489d4488234f42f5302;7;gobot@golang.org;bcmills@google.com
 go_test.go;MODIFY;2348;-1.0;Decreased;True;2022-12-01 21:30:53+00:00;False;59;9;15858;0e8b6056c99daebcc3c571316a9551c9fab03a00;3;matloob@golang.org;matloob@golang.org
 go_test.go;MODIFY;2359;11.0;Grew;True;2023-02-10 21:45:51+00:00;False;59;9;15930;8491fd311c5d4f38fda026129709306ab4787e87;2;gobot@golang.org;zlasd@hotmail.com
-go_test.go;MODIFY;2357;-2.0;Grew;True;2023-03-07 22:30:49+00:00;False;54;9;15952;9f532dd0de78af91694a2d7e5e3c45b2978d1062;1;gobot@golang.org;bcmills@google.com
+go_test.go;MODIFY;2357;-2.0;Decreased;True;2023-03-07 22:30:49+00:00;False;54;9;15952;9f532dd0de78af91694a2d7e5e3c45b2978d1062;1;gobot@golang.org;bcmills@google.com
 go_test.go;MODIFY;2322;-35.0;Decreased;True;2023-03-07 22:30:51+00:00;False;53;9;15827;73ca5c0dace9e43330d92b751547759075d3b828;2;gobot@golang.org;bcmills@google.com
 go_test.go;MODIFY;2322;0.0;Equal;True;2023-04-18 16:26:40+00:00;False;53;9;15827;c9d5df0848515f4503d77e6a087a4b3920254e09;1;matloob@golang.org;matloob@golang.org
 go_test.go;MODIFY;2323;1.0;Grew;True;2023-04-18 18:04:21+00:00;False;53;9;15829;903a25ae118b5f9bb0aacf7969dd637480185bd6;1;gobot@golang.org;bcmills@google.com
 go_test.go;MODIFY;2338;15.0;Grew;True;2023-05-18 19:40:29+00:00;False;58;10;15914;bc04d4afa28c867d43869c92179b62f84b36da54;1;gobot@golang.org;bcmills@google.com
 go_test.go;MODIFY;2364;26.0;Grew;True;2023-05-19 02:47:12+00:00;False;61;11;16057;d0c72c23dcb5afc80918686f18c14c870eacbd1c;9;gobot@golang.org;bcmills@google.com
 go_test.go;MODIFY;2368;4.0;Grew;True;2023-05-23 16:31:25+00:00;False;62;11;16078;6c024a4cf13f66b9a65616491340b33e0f7b099d;23;gobot@golang.org;rsc@golang.org
-go_test.go;MODIFY;2368;0.0;Decreased;True;2023-05-31 15:20:23+00:00;False;61;11;16079;97a2ed74adbb389ce2e8da790dc3567e89e2af71;11;gobot@golang.org;rsc@golang.org
+go_test.go;MODIFY;2368;0.0;Equal;True;2023-05-31 15:20:23+00:00;False;61;11;16079;97a2ed74adbb389ce2e8da790dc3567e89e2af71;11;gobot@golang.org;rsc@golang.org
 go_test.go;MODIFY;2299;-69.0;Decreased;True;2023-08-16 14:41:02+00:00;False;61;11;15470;de4d50316fb5c6d1529aa5377dc93b26021ee843;44;rsc@golang.org;rsc@golang.org
 go_test.go;MODIFY;2290;-9.0;Decreased;True;2023-09-07 00:53:03+00:00;False;61;11;15393;0eed32bd0d3fa713a4f5077462e402119dc761cb;2;gobot@golang.org;tklauser@distanz.ch
 go_test.go;MODIFY;2267;-23.0;Decreased;True;2023-10-25 19:46:46+00:00;False;61;11;15212;37788b8b9eef420903006489360e64684e2c54a7;1;tklauser@distanz.ch;tklauser@distanz.ch

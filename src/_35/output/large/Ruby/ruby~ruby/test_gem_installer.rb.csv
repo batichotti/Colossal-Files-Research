@@ -1,5 +1,5 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
-test_gem_installer.rb;ADD;621;0.0;Grew;False;2007-11-10 07:48:56+00:00;False;60;47;2810;fbf59bdbea63efd34ccc144e648467d2f52e7345;144;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+test_gem_installer.rb;ADD;621;0.0;Equal;False;2007-11-10 07:48:56+00:00;False;60;47;2810;fbf59bdbea63efd34ccc144e648467d2f52e7345;144;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_gem_installer.rb;MODIFY;619;-2.0;Decreased;False;2007-11-25 03:26:36+00:00;False;59;47;2786;369697bcebcfd05a2b7d541d59a85fa529cfe6c9;9;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_gem_installer.rb;MODIFY;689;70.0;Grew;True;2007-12-20 08:39:12+00:00;True;66;52;3224;8289771e326006cc4e15a667e3eff3a72cfb3327;47;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_gem_installer.rb;MODIFY;625;-64.0;Decreased;False;2008-03-31 22:40:06+00:00;True;60;46;2863;8cc45aae947d453acca029e13eb64f3f5f0bf942;82;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
@@ -17,7 +17,7 @@ test_gem_installer.rb;MODIFY;716;8.0;Grew;True;2009-06-09 21:38:59+00:00;False;6
 test_gem_installer.rb;MODIFY;715;-1.0;Decreased;True;2009-10-03 15:59:29+00:00;False;66;49;3265;19bad26c5a6af53ba792cc4ef153488a917254d6;67;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_gem_installer.rb;MODIFY;715;0.0;Equal;True;2009-10-04 04:59:11+00:00;False;66;49;3265;47dfb32c43ad463bf62912613dde191594772816;1;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_gem_installer.rb;MODIFY;666;-49.0;Decreased;True;2010-02-22 02:52:35+00:00;False;62;47;3072;b551e8c8b36766651be4e782e09e3b02e7d14a10;119;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
-test_gem_installer.rb;MODIFY;661;-5.0;Grew;False;2011-01-19 00:08:49+00:00;True;62;47;3050;e798ccbacf489a3af2201ae30058ff0ae7f79045;173;ryan@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;ryan@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+test_gem_installer.rb;MODIFY;661;-5.0;Decreased;False;2011-01-19 00:08:49+00:00;True;62;47;3050;e798ccbacf489a3af2201ae30058ff0ae7f79045;173;ryan@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;ryan@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_gem_installer.rb;MODIFY;729;68.0;Grew;True;2011-01-19 21:23:04+00:00;True;66;51;3334;64847a9cfe467b808ca5e8148dfa85a059198963;10;ryan@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;ryan@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_gem_installer.rb;MODIFY;730;1.0;Grew;True;2011-01-28 23:46:47+00:00;False;66;51;3335;934f537b458778f4786716c95b73fc72bc1ce256;87;ryan@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;ryan@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_gem_installer.rb;MODIFY;783;53.0;Grew;True;2011-03-01 09:41:32+00:00;False;69;54;3579;25a9b62d45ddd60a231272567c7dda9337da9b62;73;ryan@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;ryan@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
@@ -35,7 +35,7 @@ test_gem_installer.rb;MODIFY;937;0.0;Equal;True;2012-05-05 13:15:29+00:00;False;
 test_gem_installer.rb;MODIFY;937;0.0;Equal;True;2012-05-07 01:16:32+00:00;False;83;61;4002;b5ba059a0b21ba6a198d8dca864045c37ce3babb;2;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_gem_installer.rb;MODIFY;938;1.0;Grew;True;2012-09-25 02:14:18+00:00;False;83;61;4005;2301f983d2bd7edc5c36352e97b8028dc4c4bc24;1;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_gem_installer.rb;MODIFY;956;18.0;Grew;True;2012-11-29 06:52:18+00:00;False;93;68;4109;9694bb8cac12969300692dac5a1cf7aa4e3a46cd;214;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
-test_gem_installer.rb;MODIFY;996;40.0;Equal;True;2012-11-30 14:43:10+00:00;False;79;57;3540;ec7d935ce7292e88949d23fabdbc04a4b578a5d3;2;usa@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;usa@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+test_gem_installer.rb;MODIFY;996;40.0;Grew;True;2012-11-30 14:43:10+00:00;False;79;57;3540;ec7d935ce7292e88949d23fabdbc04a4b578a5d3;2;usa@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;usa@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_gem_installer.rb;MODIFY;996;0.0;Equal;True;2012-11-30 15:11:30+00:00;False;79;57;3540;a847bedb1df3e0af9e1f0cc53ff831f4316dd46f;2;usa@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;usa@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_gem_installer.rb;MODIFY;996;0.0;Equal;True;2012-12-16 23:00:04+00:00;False;79;57;3540;92443fccbfeb910447c1db2a1fad750415525040;4;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_gem_installer.rb;MODIFY;1013;17.0;Grew;True;2012-12-23 00:35:09+00:00;False;94;68;3990;6fe32d72667945605ef710395706e04491bfd86a;14;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;drbrain@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
@@ -70,7 +70,7 @@ test_gem_installer.rb;MODIFY;1105;4.0;Grew;True;2014-02-04 00:48:31+00:00;False;
 test_gem_installer.rb;MODIFY;1179;74.0;Grew;True;2014-09-14 03:30:02+00:00;False;106;78;4727;4de117a61517e839f2c45eaf45d56fc243d6d5b2;153;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_gem_installer.rb;MODIFY;1179;0.0;Equal;True;2015-01-09 14:20:10+00:00;False;106;78;4727;07b87cd239db5b556a6a9bb38ea78cd2540e4682;18;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_gem_installer.rb;MODIFY;1184;5.0;Grew;True;2015-07-01 21:50:14+00:00;False;107;79;4753;effdbf5936cc090a618e13c8f9a1b5412ebab2fa;90;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
-test_gem_installer.rb;MODIFY;1184;0.0;Grew;True;2015-12-16 05:07:31+00:00;False;107;79;4753;3e92b635fb5422207b7bbdc924e292e51e21f040;1432;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+test_gem_installer.rb;MODIFY;1184;0.0;Equal;True;2015-12-16 05:07:31+00:00;False;107;79;4753;3e92b635fb5422207b7bbdc924e292e51e21f040;1432;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_gem_installer.rb;MODIFY;1192;8.0;Grew;True;2016-02-01 12:43:26+00:00;False;108;80;4792;a21d403f21473b21b5766c2483b4325240e9edda;304;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_gem_installer.rb;MODIFY;1229;37.0;Grew;True;2016-03-28 02:26:39+00:00;False;109;81;4977;7fbb9078fe61104606a40e4e450a2cd1a33f8ca1;13;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_gem_installer.rb;MODIFY;1246;17.0;Grew;True;2016-04-28 00:33:08+00:00;False;114;82;5030;4e53f3ad72d16ec251ba92233ce4757a3bc13618;12;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;hsbt@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
@@ -97,7 +97,7 @@ test_gem_installer.rb;MODIFY;1518;23.0;Grew;True;2019-04-28 02:07:45+00:00;False
 test_gem_installer.rb;MODIFY;1582;64.0;Grew;True;2019-06-01 10:50:41+00:00;False;144;107;6479;56660de3c6df7a4ff8667ef4047d30d0de169935;55;hsbt@ruby-lang.org;hsbt@ruby-lang.org
 test_gem_installer.rb;MODIFY;1590;8.0;Grew;True;2019-07-30 23:47:01+00:00;False;145;108;6520;8103d46a4d9591ae95f9a3c31619d1b12031cf3c;2;hsbt@ruby-lang.org;djberg96@gmail.com
 test_gem_installer.rb;MODIFY;1590;0.0;Equal;True;2019-07-30 23:47:02+00:00;False;145;108;6520;3cc814bdf629c457cc3899675c4cb1418594d47e;1;hsbt@ruby-lang.org;lsagastume1990@gmail.com
-test_gem_installer.rb;MODIFY;1590;0.0;Grew;True;2019-11-11 07:59:49+00:00;False;140;108;6522;7d463e360b9c4718b17378eb52783116a01b884b;29;hsbt@ruby-lang.org;hsbt@ruby-lang.org
+test_gem_installer.rb;MODIFY;1590;0.0;Equal;True;2019-11-11 07:59:49+00:00;False;140;108;6522;7d463e360b9c4718b17378eb52783116a01b884b;29;hsbt@ruby-lang.org;hsbt@ruby-lang.org
 test_gem_installer.rb;MODIFY;1577;-13.0;Decreased;True;2019-12-20 02:50:32+00:00;False;140;108;6522;e672494cd737b8fea3a186aeb5c2c17d1a18cb96;6;hsbt@ruby-lang.org;hsbt@ruby-lang.org
 test_gem_installer.rb;MODIFY;1626;49.0;Grew;True;2020-02-01 02:14:57+00:00;False;142;110;6787;600a715c9bde99fe2e9a669465d78833445273e8;54;hsbt@ruby-lang.org;hsbt@ruby-lang.org
 test_gem_installer.rb;MODIFY;1633;7.0;Grew;True;2020-02-12 08:33:41+00:00;False;142;111;6797;65201c054a90c8e7beb8fe1e6d0006541ac33449;2;mame@ruby-lang.org;mame@ruby-lang.org
@@ -113,7 +113,7 @@ test_gem_installer.rb;MODIFY;1679;16.0;Grew;True;2020-07-31 12:07:19+00:00;False
 test_gem_installer.rb;MODIFY;1653;-26.0;Decreased;True;2020-07-31 12:07:19+00:00;False;140;113;6841;a89665b7b1abb5bb6005fd638dc920848cc50f72;274;hsbt@ruby-lang.org;deivid.rodriguez@riseup.net
 test_gem_installer.rb;MODIFY;1653;0.0;Equal;True;2020-07-31 12:07:19+00:00;False;140;113;6841;c090c64b4faa429c9f0f7c361e932e6b1a960a3d;2;hsbt@ruby-lang.org;deivid.rodriguez@riseup.net
 test_gem_installer.rb;MODIFY;1679;26.0;Grew;True;2020-09-23 12:02:56+00:00;False;141;114;6954;31a6eaabc165d8a222e176f2c809d90622d88ec2;274;hsbt@ruby-lang.org;hsbt@ruby-lang.org
-test_gem_installer.rb;MODIFY;1679;0.0;Decreased;True;2020-09-23 13:01:44+00:00;False;141;114;6954;b717f73402dc6f2d6ba6a1d72d9c8543a4f2cd27;274;hsbt@ruby-lang.org;hsbt@ruby-lang.org
+test_gem_installer.rb;MODIFY;1679;0.0;Equal;True;2020-09-23 13:01:44+00:00;False;141;114;6954;b717f73402dc6f2d6ba6a1d72d9c8543a4f2cd27;274;hsbt@ruby-lang.org;hsbt@ruby-lang.org
 test_gem_installer.rb;MODIFY;1725;46.0;Grew;True;2020-12-08 08:30:02+00:00;False;144;117;7327;4aca77edde91f826aa243e268bf1ef5214530583;134;hsbt@ruby-lang.org;hsbt@ruby-lang.org
 test_gem_installer.rb;MODIFY;1681;-44.0;Decreased;True;2020-12-23 01:17:41+00:00;False;139;113;7147;339227363ce0cf967fa17efa4489d823932ddabd;38;hsbt@ruby-lang.org;hsbt@ruby-lang.org
 test_gem_installer.rb;MODIFY;1682;1.0;Grew;True;2021-03-08 04:47:35+00:00;False;139;113;7156;53468cc11147b0d285fc376fc546b677dad600ca;161;hsbt@ruby-lang.org;deivid.rodriguez@riseup.net
@@ -121,9 +121,9 @@ test_gem_installer.rb;MODIFY;1698;16.0;Grew;True;2021-04-15 06:36:15+00:00;False
 test_gem_installer.rb;MODIFY;1699;1.0;Grew;True;2021-05-11 22:18:44+00:00;False;142;114;7227;cc1ea6e0238a36c08a6255a6ac7a68c54ccafa4a;9;noreply@github.com;takashikkbn@gmail.com
 test_gem_installer.rb;MODIFY;1699;0.0;Equal;True;2021-05-12 08:24:43+00:00;False;142;114;7227;d33888bf9656818e74401a28dc4725fc8b43ea03;4;hsbt@ruby-lang.org;hsbt@ruby-lang.org
 test_gem_installer.rb;MODIFY;1701;2.0;Grew;True;2021-05-12 08:24:43+00:00;False;144;114;7229;bef49e6e8d03a34b95f3e69ef7d23395027a44d2;1;hsbt@ruby-lang.org;hsbt@ruby-lang.org
-test_gem_installer.rb;MODIFY;1699;-2.0;Equal;True;2021-05-12 08:24:43+00:00;False;142;114;7227;c30594bb0c23b5b23c3d3ca490e3cac34d09c1f9;69;hsbt@ruby-lang.org;hsbt@ruby-lang.org
+test_gem_installer.rb;MODIFY;1699;-2.0;Decreased;True;2021-05-12 08:24:43+00:00;False;142;114;7227;c30594bb0c23b5b23c3d3ca490e3cac34d09c1f9;69;hsbt@ruby-lang.org;hsbt@ruby-lang.org
 test_gem_installer.rb;MODIFY;1699;0.0;Equal;True;2021-05-12 08:24:43+00:00;False;142;114;7227;3948be350312b908ea3ecf32ecf1adf420fe74ca;36;hsbt@ruby-lang.org;hsbt@ruby-lang.org
-test_gem_installer.rb;MODIFY;1701;2.0;Equal;True;2021-05-28 02:53:09+00:00;False;144;114;7229;f7732ae2eb5ae245aa3089475af8f81c08478349;135;hsbt@ruby-lang.org;deivid.rodriguez@riseup.net
+test_gem_installer.rb;MODIFY;1701;2.0;Grew;True;2021-05-28 02:53:09+00:00;False;144;114;7229;f7732ae2eb5ae245aa3089475af8f81c08478349;135;hsbt@ruby-lang.org;deivid.rodriguez@riseup.net
 test_gem_installer.rb;MODIFY;1700;-1.0;Decreased;True;2021-05-28 02:53:57+00:00;False;144;114;7225;a634ef53764e9160cb984d01e92e3e596bf41dae;1;hsbt@ruby-lang.org;deivid.rodriguez@riseup.net
 test_gem_installer.rb;MODIFY;1700;0.0;Equal;True;2021-05-28 03:33:16+00:00;False;144;114;7225;e487ba7ddab9dd46e95a4cff222cf08471dbd817;25;hsbt@ruby-lang.org;hsbt@ruby-lang.org
 test_gem_installer.rb;MODIFY;1716;16.0;Grew;True;2021-07-07 04:30:20+00:00;False;145;115;7283;6e2240a2f954c84ed12357382c9c065ae4b91e11;111;hsbt@ruby-lang.org;deivid.rodriguez@riseup.net
@@ -131,7 +131,7 @@ test_gem_installer.rb;MODIFY;1717;1.0;Grew;True;2021-08-31 10:06:14+00:00;False;
 test_gem_installer.rb;MODIFY;1721;4.0;Grew;True;2021-11-30 11:54:04+00:00;False;145;115;7304;2b1f0487142419b2f45c815b3c4c4ba0bda5d13f;1;svn-admin@ruby-lang.org;deivid.rodriguez@riseup.net
 test_gem_installer.rb;MODIFY;1739;18.0;Grew;True;2021-11-30 11:54:05+00:00;False;146;116;7380;7fd88da935c7c6fcafe19cf30642676033ec82bd;3;svn-admin@ruby-lang.org;deivid.rodriguez@riseup.net
 test_gem_installer.rb;MODIFY;1718;-21.0;Decreased;True;2021-11-30 11:54:05+00:00;False;145;115;7292;d7f6cb0f780a5a48b5d4a937f93d876a90697fc0;2;svn-admin@ruby-lang.org;deivid.rodriguez@riseup.net
-test_gem_installer.rb;MODIFY;1718;0.0;Decreased;True;2021-12-24 01:35:31+00:00;False;145;115;7292;b0ad6cb371747a04eb12580e74c73179173cc89d;12;hsbt@ruby-lang.org;hsbt@ruby-lang.org
+test_gem_installer.rb;MODIFY;1718;0.0;Equal;True;2021-12-24 01:35:31+00:00;False;145;115;7292;b0ad6cb371747a04eb12580e74c73179173cc89d;12;hsbt@ruby-lang.org;hsbt@ruby-lang.org
 test_gem_installer.rb;MODIFY;1719;1.0;Grew;True;2022-01-14 15:00:09+00:00;False;145;115;7293;3006451f6511b6594a24a9046f390c3bec6a7465;2;svn-admin@ruby-lang.org;deivid.rodriguez@riseup.net
 test_gem_installer.rb;MODIFY;1802;83.0;Grew;True;2022-01-14 15:00:11+00:00;False;152;121;7583;7d42b442bb42d8958daf978a0fe14b948f49609f;2;svn-admin@ruby-lang.org;deivid.rodriguez@riseup.net
 test_gem_installer.rb;MODIFY;1800;-2.0;Decreased;True;2022-04-16 13:58:34+00:00;False;152;121;7559;e70e7f4ad38abb305342dd4d5a392782597d1f98;1;svn-admin@ruby-lang.org;deivid.rodriguez@riseup.net
@@ -141,10 +141,10 @@ test_gem_installer.rb;MODIFY;1802;2.0;Grew;True;2022-08-04 04:36:45+00:00;False;
 test_gem_installer.rb;MODIFY;1802;0.0;Equal;True;2022-08-09 03:05:19+00:00;False;152;121;7667;44264b4fee1e208e759710c39271186ff9856b40;80;hsbt@ruby-lang.org;hsbt@ruby-lang.org
 test_gem_installer.rb;MODIFY;1826;24.0;Grew;True;2022-12-02 19:21:08+00:00;False;155;123;7744;82b86b4c97963d25c4e8ba12aab327d47c1f5861;2;svn-admin@ruby-lang.org;me@duckie.co
 test_gem_installer.rb;MODIFY;1853;27.0;Grew;True;2022-12-20 04:15:02+00:00;False;157;124;7899;0a9544ce4ab86963dde0f3ad0b489b6a354cc8b3;3;hsbt@ruby-lang.org;eloyesp@gmail.com
-test_gem_installer.rb;MODIFY;1826;-27.0;Equal;True;2022-12-20 04:15:02+00:00;False;155;123;7744;012ef7d1d035f2c5cdb06bea777c22d72acc78c9;2;hsbt@ruby-lang.org;eloyesp@gmail.com
-test_gem_installer.rb;MODIFY;1853;27.0;Equal;True;2022-12-30 13:10:41+00:00;False;157;124;7899;36c4dda738bc865af681049209fb6a1eb1ae3f49;1;svn-admin@ruby-lang.org;nobu@ruby-lang.org
-test_gem_installer.rb;MODIFY;1853;0.0;Decreased;True;2023-03-17 09:50:55+00:00;False;157;124;7899;9ffd73523db3c80237bd26099c9e11f9f6e3a444;11;hsbt@ruby-lang.org;hsbt@ruby-lang.org
-test_gem_installer.rb;MODIFY;1853;0.0;Grew;True;2023-03-17 09:50:55+00:00;False;157;124;7899;dab1d0ed20c1c6cd0cd04d9bd5ea9902d2e9cade;4;hsbt@ruby-lang.org;hsbt@ruby-lang.org
+test_gem_installer.rb;MODIFY;1826;-27.0;Decreased;True;2022-12-20 04:15:02+00:00;False;155;123;7744;012ef7d1d035f2c5cdb06bea777c22d72acc78c9;2;hsbt@ruby-lang.org;eloyesp@gmail.com
+test_gem_installer.rb;MODIFY;1853;27.0;Grew;True;2022-12-30 13:10:41+00:00;False;157;124;7899;36c4dda738bc865af681049209fb6a1eb1ae3f49;1;svn-admin@ruby-lang.org;nobu@ruby-lang.org
+test_gem_installer.rb;MODIFY;1853;0.0;Equal;True;2023-03-17 09:50:55+00:00;False;157;124;7899;9ffd73523db3c80237bd26099c9e11f9f6e3a444;11;hsbt@ruby-lang.org;hsbt@ruby-lang.org
+test_gem_installer.rb;MODIFY;1853;0.0;Equal;True;2023-03-17 09:50:55+00:00;False;157;124;7899;dab1d0ed20c1c6cd0cd04d9bd5ea9902d2e9cade;4;hsbt@ruby-lang.org;hsbt@ruby-lang.org
 test_gem_installer.rb;MODIFY;1853;0.0;Equal;True;2023-03-17 09:50:55+00:00;False;157;124;7895;4cd8a46f459c7813237501409b1a1c379128d1d3;3;hsbt@ruby-lang.org;hsbt@ruby-lang.org
 test_gem_installer.rb;MODIFY;1853;0.0;Equal;True;2023-03-17 09:50:55+00:00;False;157;124;7899;05208c3875a12a188e14328ffbd5b2eb21824f24;33;hsbt@ruby-lang.org;hsbt@ruby-lang.org
 test_gem_installer.rb;MODIFY;1853;0.0;Equal;True;2023-03-17 09:50:55+00:00;False;157;124;7896;6ad269dc39ab6bdf7ef195a048fa10b642374826;23;hsbt@ruby-lang.org;hsbt@ruby-lang.org
@@ -153,11 +153,11 @@ test_gem_installer.rb;MODIFY;1853;0.0;Equal;True;2023-03-17 09:50:55+00:00;False
 test_gem_installer.rb;MODIFY;1853;0.0;Equal;True;2023-03-17 09:50:55+00:00;False;157;124;7899;4bb5ce8188c7623106d124d3398c6b73bfa8ecd4;36;hsbt@ruby-lang.org;hsbt@ruby-lang.org
 test_gem_installer.rb;MODIFY;1853;0.0;Equal;True;2023-03-17 09:50:55+00:00;False;157;124;7899;c480a0c46a5fc9479bf6e3aa5bd1d2177878fad1;7;hsbt@ruby-lang.org;hsbt@ruby-lang.org
 test_gem_installer.rb;MODIFY;1856;3.0;Grew;True;2023-03-23 08:18:49+00:00;False;157;124;7897;8a364b8512b84530cadfe9f27557fa0306ad9856;3;hsbt@ruby-lang.org;hsbt@ruby-lang.org
-test_gem_installer.rb;MODIFY;1856;0.0;Grew;True;2023-03-23 08:18:49+00:00;False;157;124;7897;f24a86d83f07f214e97aa98da190cda55092805f;290;hsbt@ruby-lang.org;hsbt@ruby-lang.org
+test_gem_installer.rb;MODIFY;1856;0.0;Equal;True;2023-03-23 08:18:49+00:00;False;157;124;7897;f24a86d83f07f214e97aa98da190cda55092805f;290;hsbt@ruby-lang.org;hsbt@ruby-lang.org
 test_gem_installer.rb;MODIFY;1856;0.0;Equal;True;2023-03-24 13:00:53+00:00;False;157;124;7888;7149f5763ea121b71ad0763cd8554bc663d8eedd;4;svn-admin@ruby-lang.org;Greg.mpls@gmail.com
 test_gem_installer.rb;MODIFY;1856;0.0;Equal;True;2023-04-05 05:49:25+00:00;False;157;124;7910;a464951fc79271a87d09a13f8fd9965dda6e2e61;24;svn-admin@ruby-lang.org;hsbt@ruby-lang.org
 test_gem_installer.rb;MODIFY;1856;0.0;Equal;True;2023-04-05 09:50:29+00:00;False;157;124;7990;e003784fc8bfa527cf21c317741101a713c041c0;46;svn-admin@ruby-lang.org;hsbt@ruby-lang.org
-test_gem_installer.rb;MODIFY;1855;-1.0;Equal;True;2023-04-06 23:33:20+00:00;False;157;124;7985;fb822076d79339427648cb9eacf76528f827427e;23;svn-admin@ruby-lang.org;hsbt@ruby-lang.org
+test_gem_installer.rb;MODIFY;1855;-1.0;Decreased;True;2023-04-06 23:33:20+00:00;False;157;124;7985;fb822076d79339427648cb9eacf76528f827427e;23;svn-admin@ruby-lang.org;hsbt@ruby-lang.org
 test_gem_installer.rb;MODIFY;1855;0.0;Equal;True;2023-04-07 05:13:05+00:00;False;157;124;7988;250e97c0fba48d1f87ccecb1b1e1b4bd2a30c388;20;svn-admin@ruby-lang.org;hsbt@ruby-lang.org
 test_gem_installer.rb;MODIFY;1855;0.0;Equal;True;2023-04-11 10:12:28+00:00;False;157;124;7988;d89cc317c642848008f5b17a82196d25ddcdf124;36;hsbt@ruby-lang.org;hsbt@ruby-lang.org
 test_gem_installer.rb;MODIFY;1855;0.0;Equal;True;2023-04-13 08:38:45+00:00;False;157;124;7988;1f0974e654bf3c8a7dd321ae898174d942975686;11;svn-admin@ruby-lang.org;hsbt@ruby-lang.org
@@ -165,16 +165,16 @@ test_gem_installer.rb;MODIFY;1898;43.0;Grew;True;2023-05-25 21:51:15+00:00;False
 test_gem_installer.rb;MODIFY;1898;0.0;Equal;True;2023-06-14 22:01:28+00:00;False;158;125;8197;503b9bf1d4f6c9ef168a2dcd16e01b2e376a305f;2;hsbt@ruby-lang.org;hsbt@ruby-lang.org
 test_gem_installer.rb;MODIFY;1898;0.0;Equal;True;2023-06-19 02:24:13+00:00;False;158;125;8190;10e4a9a5c271366a426056566edbdef3f4311c9d;6;svn-admin@ruby-lang.org;nobu@ruby-lang.org
 test_gem_installer.rb;MODIFY;1907;9.0;Grew;True;2023-11-08 00:04:28+00:00;False;159;126;8256;d0ad90df6863490a5f780c45e060ab859db228ba;1;hsbt@ruby-lang.org;vondruch@redhat.com
-test_gem_installer.rb;MODIFY;1898;-9.0;Equal;True;2023-11-08 00:04:28+00:00;False;158;125;8197;42cf1307c3e110f5d01b74f16cbdd0f83e183abe;2;hsbt@ruby-lang.org;vondruch@redhat.com
+test_gem_installer.rb;MODIFY;1898;-9.0;Decreased;True;2023-11-08 00:04:28+00:00;False;158;125;8197;42cf1307c3e110f5d01b74f16cbdd0f83e183abe;2;hsbt@ruby-lang.org;vondruch@redhat.com
 test_gem_installer.rb;MODIFY;1921;23.0;Grew;True;2023-12-07 04:56:22+00:00;False;162;127;8324;33bd95625756562f4865fbc6ad5c39e0cfbc26d6;6;hsbt@ruby-lang.org;deivid.rodriguez@riseup.net
 test_gem_installer.rb;MODIFY;1934;13.0;Grew;True;2023-12-07 04:56:23+00:00;False;164;128;8410;7d32830b8ce14cc130d052a4aa67495a34ed55dc;2;hsbt@ruby-lang.org;me@duckie.co
 test_gem_installer.rb;MODIFY;1934;0.0;Equal;True;2023-12-07 22:29:33+00:00;False;164;128;8381;2755cb1b2fbc4a5f08ca56345b5945bd452da74e;262;svn-admin@ruby-lang.org;deivid.rodriguez@riseup.net
 test_gem_installer.rb;MODIFY;1949;15.0;Grew;True;2023-12-13 03:16:55+00:00;False;167;129;8454;402fd96ddc401cf35bced8d394c44df98d6fc466;2;hsbt@ruby-lang.org;vondruch@redhat.com
 test_gem_installer.rb;MODIFY;1950;1.0;Grew;True;2023-12-13 03:16:55+00:00;False;167;129;8464;1fa5dd883e286a768a9dfa82ef3de562fcdabd01;1;hsbt@ruby-lang.org;vondruch@redhat.com
 test_gem_installer.rb;MODIFY;1940;-10.0;Decreased;True;2024-01-29 03:20:44+00:00;False;165;129;8404;5ea4df6a8fe67762b4f204e04c0134d17ce471a2;1;hsbt@ruby-lang.org;deivid.rodriguez@riseup.net
-test_gem_installer.rb;MODIFY;1940;0.0;Grew;True;2024-06-19 11:42:35+00:00;False;166;129;8406;321ed86e93a34833bd869c6bc3f52d84b8ecce35;1;svn-admin@ruby-lang.org;nobu@ruby-lang.org
+test_gem_installer.rb;MODIFY;1940;0.0;Equal;True;2024-06-19 11:42:35+00:00;False;166;129;8406;321ed86e93a34833bd869c6bc3f52d84b8ecce35;1;svn-admin@ruby-lang.org;nobu@ruby-lang.org
 test_gem_installer.rb;MODIFY;1940;0.0;Equal;True;2024-09-02 17:28:50+00:00;False;166;129;8412;c1fecc5eabba5bb22a3ebd5616fa50ad612ef4d9;2;svn-admin@ruby-lang.org;nobu@ruby-lang.org
 test_gem_installer.rb;MODIFY;1945;5.0;Grew;True;2024-09-06 14:46:42+00:00;False;166;129;8477;5afee4d79599e5aad366a788b0c84e68594e6d34;3;svn-admin@ruby-lang.org;nobu@ruby-lang.org
 test_gem_installer.rb;MODIFY;1966;21.0;Grew;True;2024-09-06 14:46:43+00:00;False;169;130;8561;30176e3f238f198ae835bf1c593d2ad2dce2df49;2;svn-admin@ruby-lang.org;nobu@ruby-lang.org
-test_gem_installer.rb;MODIFY;1966;0.0;Decreased;True;2024-09-27 16:49:32+00:00;False;169;130;8572;d1324170b6c25e893b0dec4d7829e6d561b15cf3;3;svn-admin@ruby-lang.org;deivid.rodriguez@riseup.net
+test_gem_installer.rb;MODIFY;1966;0.0;Equal;True;2024-09-27 16:49:32+00:00;False;169;130;8572;d1324170b6c25e893b0dec4d7829e6d561b15cf3;3;svn-admin@ruby-lang.org;deivid.rodriguez@riseup.net
 test_gem_installer.rb;MODIFY;1966;0.0;Equal;True;2024-10-10 14:51:30+00:00;False;169;130;8572;a1492ffdc24ae96ea06f4549467211f8d0bbe675;5;svn-admin@ruby-lang.org;deivid.rodriguez@riseup.net

@@ -1,5 +1,5 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
-test_gc.rb;ADD;37;0.0;Grew;False;2003-09-05 00:36:47+00:00;False;4;2;128;af49aecff16d6969551eec0072e0713702aac18f;2;nahi@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nahi@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+test_gc.rb;ADD;37;0.0;Equal;False;2003-09-05 00:36:47+00:00;False;4;2;128;af49aecff16d6969551eec0072e0713702aac18f;2;nahi@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nahi@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_gc.rb;MODIFY;32;-5.0;Decreased;False;2003-09-05 01:47:41+00:00;False;3;2;112;e45738a2976eed3ff291ec075606f64baa3198cb;3;nahi@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nahi@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_gc.rb;MODIFY;29;-3.0;Decreased;False;2003-09-05 15:15:43+00:00;False;2;2;108;44785befeabd09d5d34f33b33783c0ec54f06a1f;32;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nobu@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_gc.rb;MODIFY;28;-1.0;Decreased;False;2004-02-18 13:08:08+00:00;False;2;2;105;994dfc0ae6a3c42bb9311f736ca30275779e348a;36;nahi@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;nahi@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
@@ -86,7 +86,7 @@ test_gc.rb;MODIFY;333;-4.0;Decreased;False;2015-10-30 05:55:09+00:00;False;42;31
 test_gc.rb;MODIFY;334;1.0;Grew;False;2015-10-30 10:18:29+00:00;False;42;31;2063;8ced6af83ffa9c9bce220adf2ccca899e41b9bc3;2;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_gc.rb;MODIFY;344;10.0;Grew;False;2015-11-19 12:57:20+00:00;False;44;32;2095;121b6e064a1b167dddbdc271d503ff96e7deb83b;3;ko1@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;ko1@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_gc.rb;MODIFY;344;0.0;Equal;False;2015-12-10 06:00:57+00:00;False;44;32;2095;10f7ad626422aeaef6b15a50437cbd9e2b98f485;2;ko1@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;ko1@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
-test_gc.rb;MODIFY;344;0.0;Grew;False;2015-12-16 05:07:31+00:00;False;44;32;2095;3e92b635fb5422207b7bbdc924e292e51e21f040;1432;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
+test_gc.rb;MODIFY;344;0.0;Equal;False;2015-12-16 05:07:31+00:00;False;44;32;2095;3e92b635fb5422207b7bbdc924e292e51e21f040;1432;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_gc.rb;MODIFY;344;0.0;Equal;False;2016-01-08 20:45:02+00:00;False;44;32;2095;f8827cef6af2e242cd99a89a3da64600709c0a16;3;ko1@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;ko1@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_gc.rb;MODIFY;344;0.0;Equal;False;2016-01-08 22:15:40+00:00;False;44;32;2095;fca0cf6e6b8ab8882f3403e5909c8eb91c5c351e;3;ko1@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;ko1@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
 test_gc.rb;MODIFY;337;-7.0;Decreased;False;2016-02-03 10:08:49+00:00;False;42;32;2040;b7503d03ca530043837baff8fb4e9296a34ca4f8;1;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e;naruse@b2dd03c8-39d4-4d8f-98ff-823fe69b080e
@@ -154,14 +154,14 @@ test_gc.rb;MODIFY;559;17.0;Grew;False;2023-05-25 12:56:22+00:00;False;74;48;3425
 test_gc.rb;MODIFY;559;0.0;Equal;False;2023-06-02 14:11:45+00:00;False;73;48;3416;22bea37cfc739139ed53a6da06d52249e7b12961;1;jean.boussier@gmail.com;byroot@ruby-lang.org
 test_gc.rb;MODIFY;558;-1.0;Decreased;False;2023-06-17 03:32:53+00:00;False;73;48;3408;725739d65bf2a3369467f3b8ef9f2a0a125a4084;1;nobu@ruby-lang.org;nobu@ruby-lang.org
 test_gc.rb;MODIFY;560;2.0;Grew;False;2023-07-11 19:05:10+00:00;False;73;48;3418;7299c8c0f165247853fac2fe337e7c2678e653c9;1;peter@peterzhu.ca;peter@peterzhu.ca
-test_gc.rb;MODIFY;560;0.0;Grew;False;2023-07-12 13:29:54+00:00;False;73;48;3418;b90c48b1e20b955da99dfa954a33bb504a5f90f8;1;peter@peterzhu.ca;peter@peterzhu.ca
+test_gc.rb;MODIFY;560;0.0;Equal;False;2023-07-12 13:29:54+00:00;False;73;48;3418;b90c48b1e20b955da99dfa954a33bb504a5f90f8;1;peter@peterzhu.ca;peter@peterzhu.ca
 test_gc.rb;MODIFY;597;37.0;Grew;False;2023-07-31 15:46:53+00:00;False;75;49;3734;b98838b65cbf8fa2d228f9e0249414cba4e3197d;2;peter@peterzhu.ca;peter@peterzhu.ca
 test_gc.rb;MODIFY;598;1.0;Grew;False;2023-07-31 18:52:25+00:00;False;75;49;3737;36d669b73db26368cb9492231be4b3d4ed97f111;1;peter@peterzhu.ca;peter@peterzhu.ca
 test_gc.rb;MODIFY;599;1.0;Grew;False;2023-07-31 19:12:20+00:00;False;75;49;3764;c01b17f7fc74f005f23da0405eb8bad08a269a18;2;peter@peterzhu.ca;peter@peterzhu.ca
 test_gc.rb;MODIFY;599;0.0;Equal;False;2023-08-03 00:11:08+00:00;False;75;49;3759;4b6c584023f41827c891f33a16cb5db221b7cd19;12;hsbt@ruby-lang.org;peter@peterzhu.ca
 test_gc.rb;MODIFY;600;1.0;Grew;False;2023-08-15 19:18:05+00:00;False;75;49;3769;0f94e653597dc2ae21ae39ac4c85266f3bb36ab6;3;peter@peterzhu.ca;peter@peterzhu.ca
 test_gc.rb;MODIFY;610;10.0;Grew;False;2023-08-17 19:53:00+00:00;False;75;49;3853;5db8b9b366271fb2ec25ca76722a3d25a4bb7de7;2;peter@peterzhu.ca;peter@peterzhu.ca
-test_gc.rb;MODIFY;607;-3.0;Grew;False;2023-08-17 19:53:00+00:00;False;75;49;3820;52506cbf516da1a606fad6a6779ab6136c4f353b;2;peter@peterzhu.ca;peter@peterzhu.ca
+test_gc.rb;MODIFY;607;-3.0;Decreased;False;2023-08-17 19:53:00+00:00;False;75;49;3820;52506cbf516da1a606fad6a6779ab6136c4f353b;2;peter@peterzhu.ca;peter@peterzhu.ca
 test_gc.rb;MODIFY;640;33.0;Grew;False;2023-08-25 13:01:21+00:00;False;76;50;4084;2091bf94931bddcf23b196fc8fe108ebd7ec1648;2;peter@peterzhu.ca;peter@peterzhu.ca
 test_gc.rb;MODIFY;622;-18.0;Decreased;False;2023-08-26 01:50:56+00:00;False;76;50;3917;9ea9f992487711fa1a66637edcaf1327d0cd5099;4;peter@peterzhu.ca;peter@peterzhu.ca
 test_gc.rb;MODIFY;622;0.0;Equal;False;2023-08-28 19:05:19+00:00;False;76;50;3932;91de37c23ec6b048e45df79cef1cb93a86316929;7;peter@peterzhu.ca;peter@peterzhu.ca
@@ -169,7 +169,7 @@ test_gc.rb;MODIFY;643;21.0;Grew;False;2023-08-28 22:01:29+00:00;False;77;50;4104
 test_gc.rb;MODIFY;643;0.0;Equal;False;2023-08-30 23:37:11+00:00;False;77;50;4095;0aa404b9573d028d87072f40ecb9b86dc161b7ef;5;peter@peterzhu.ca;peter@peterzhu.ca
 test_gc.rb;MODIFY;647;4.0;Grew;False;2023-08-31 13:28:31+00:00;False;77;50;4172;4f0d58260a7f506ead198064d12a967edd11fe5e;2;peter@peterzhu.ca;peter@peterzhu.ca
 test_gc.rb;MODIFY;648;1.0;Grew;False;2023-09-08 16:45:00+00:00;False;77;50;4179;7f53da94fb23687ef3bea0507199196a00ca26f8;1;matt@eightbitraptor.com;matt@eightbitraptor.com
-test_gc.rb;MODIFY;648;0.0;Grew;False;2023-10-18 09:01:43+00:00;False;77;50;4182;f546fe15d547472f60c4a2d2857321b3c5084f0f;1;peter@peterzhu.ca;peter@peterzhu.ca
+test_gc.rb;MODIFY;648;0.0;Equal;False;2023-10-18 09:01:43+00:00;False;77;50;4182;f546fe15d547472f60c4a2d2857321b3c5084f0f;1;peter@peterzhu.ca;peter@peterzhu.ca
 test_gc.rb;MODIFY;655;7.0;Grew;False;2023-12-07 01:37:00+00:00;False;79;51;4202;4f213ea1baa590c463c3554a6ff418d10dc291e0;2;noreply@github.com;matsumoto@soutaro.com
 test_gc.rb;MODIFY;656;1.0;Grew;False;2023-12-13 07:24:19+00:00;False;81;51;4215;20a09387d163b6d4ec77d1859f1cac480991ce9e;1;takashikkbn@gmail.com;takashikkbn@gmail.com
 test_gc.rb;MODIFY;661;5.0;Grew;False;2023-12-19 00:25:37+00:00;False;83;51;4229;ce436ff3e3cbd6810d7cf83fedbd2b55995ca0b1;1;peter@peterzhu.ca;peter@peterzhu.ca

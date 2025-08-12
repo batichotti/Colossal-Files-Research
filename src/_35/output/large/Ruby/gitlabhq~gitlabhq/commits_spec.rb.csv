@@ -1,7 +1,7 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
-commits_spec.rb;ADD;23.0;0.0;Grew;False;2012-09-21 10:22:30+00:00;False;2;2;116;10d3a30b255cd85b2cf7af39814fd7418eecd838;10;dzaporozhets@sphereconsultinginc.com;dzaporozhets@sphereconsultinginc.com
-commits_spec.rb;DELETE;not calculated;0.0;Decreased;False;2012-09-21 11:34:07+00:00;False;not calculated;0;not calculated;4a072be2d775d5ce59573cfb447ddab940854d54;8;narkoz.2008@gmail.com;narkoz.2008@gmail.com
-commits_spec.rb;ADD;72.0;0.0;Grew;False;2014-02-18 10:41:21+00:00;False;8;8;471;6cf39fe10ddf6f90a17d52ba6b50425f58215eeb;9;dmitriy.zaporozhets@gmail.com;dmitriy.zaporozhets@gmail.com
+commits_spec.rb;ADD;23.0;0.0;Equal;False;2012-09-21 10:22:30+00:00;False;2;2;116;10d3a30b255cd85b2cf7af39814fd7418eecd838;10;dzaporozhets@sphereconsultinginc.com;dzaporozhets@sphereconsultinginc.com
+commits_spec.rb;DELETE;not calculated;0.0;Equal;False;2012-09-21 11:34:07+00:00;False;not calculated;0;not calculated;4a072be2d775d5ce59573cfb447ddab940854d54;8;narkoz.2008@gmail.com;narkoz.2008@gmail.com
+commits_spec.rb;ADD;72.0;0.0;Equal;False;2014-02-18 10:41:21+00:00;False;8;8;471;6cf39fe10ddf6f90a17d52ba6b50425f58215eeb;9;dmitriy.zaporozhets@gmail.com;dmitriy.zaporozhets@gmail.com
 commits_spec.rb;MODIFY;72.0;0.0;Equal;False;2014-04-11 19:45:56+00:00;False;8;8;474;5dd2f36ae153ac5a933a4e6ae0ae773508aa1f74;20;jeroenvanbaarsen@gmail.com;jeroenvanbaarsen@gmail.com
 commits_spec.rb;MODIFY;70.0;-2.0;Decreased;False;2014-06-17 19:51:43+00:00;False;8;8;460;2d87556847931bd146eddaafdee48c2f8954326c;36;dmitriy.zaporozhets@gmail.com;dmitriy.zaporozhets@gmail.com
 commits_spec.rb;MODIFY;70.0;0.0;Equal;False;2014-09-14 16:32:51+00:00;False;8;8;460;c69b8e04591907d030b2cd544a606fd0e576116a;62;dmitriy.zaporozhets@gmail.com;dmitriy.zaporozhets@gmail.com
@@ -43,7 +43,7 @@ commits_spec.rb;MODIFY;505.0;11.0;Grew;False;2017-02-16 14:38:40+00:00;False;46;
 commits_spec.rb;MODIFY;505.0;0.0;Equal;False;2017-02-20 13:24:09+00:00;False;46;45;3209;612e61f4c4c374f4a47ea6d8a3b71fd40c41ac19;3;rschilling@student.tugraz.at;rschilling@student.tugraz.at
 commits_spec.rb;MODIFY;533.0;28.0;Grew;False;2017-03-08 01:56:30+00:00;False;49;48;3402;473cab818aff034d072f0f6c8537a584bc5aa41c;5;oswaldo@gitlab.com;jordan.reuter@scimedsolutions.com
 commits_spec.rb;MODIFY;574.0;41.0;Grew;False;2017-03-08 01:56:31+00:00;False;53;52;3859;d13451cd49e3380c3b69c3143cea929a9b3ec06a;10;oswaldo@gitlab.com;oswaldo@gitlab.com
-commits_spec.rb;MODIFY;574.0;0.0;Decreased;False;2017-03-16 17:00:24+00:00;False;53;52;3857;63360adeae3ba5b302b711c73b6439956d274cde;61;remy@rymai.me;remy@rymai.me
+commits_spec.rb;MODIFY;574.0;0.0;Equal;False;2017-03-16 17:00:24+00:00;False;53;52;3857;63360adeae3ba5b302b711c73b6439956d274cde;61;remy@rymai.me;remy@rymai.me
 commits_spec.rb;MODIFY;577.0;3.0;Grew;False;2017-06-14 18:18:56+00:00;False;53;52;3848;a6ec5121f0c844786c84c568a3200562ec58a9c2;205;rspeicher@gmail.com;rspeicher@gmail.com
 commits_spec.rb;MODIFY;813.0;236.0;Grew;True;2017-08-08 10:54:07+00:00;True;38;37;4719;023a3f7a3b842df9dd2ad2953c3cbcd465b6de57;10;remy@rymai.me;remy@rymai.me
 commits_spec.rb;MODIFY;822.0;9.0;Grew;True;2017-08-10 10:11:27+00:00;False;37;36;4760;b982f6f94b6576a4e0a9a507c391ebdb07ed360d;2;beschi.jacopo@gmail.com;beschi.jacopo@gmail.com
@@ -56,8 +56,8 @@ commits_spec.rb;MODIFY;899.0;1.0;Grew;True;2018-02-20 01:09:03+00:00;False;44;43
 commits_spec.rb;MODIFY;908.0;9.0;Grew;True;2018-03-01 14:38:35+00:00;False;45;44;5566;cd9daf644e2b3844b9382768a3add335f942b76c;7;tiagonbotelho@hotmail.com;tiagonbotelho@hotmail.com
 commits_spec.rb;MODIFY;929.0;21.0;Grew;True;2018-03-26 18:34:36+00:00;False;48;47;5752;847671e06c13155c02d8f0be3565705cd89969ee;4;mark@gitlab.com;mark@gitlab.com
 commits_spec.rb;MODIFY;949.0;20.0;Grew;True;2018-06-06 20:25:20+00:00;False;49;48;5845;854c9636ec6aabd8941b31f0f2aa4e89c9c072ce;4;ifarkas@gitlab.com;ifarkas@gitlab.com
-commits_spec.rb;MODIFY;942.0;-7.0;Grew;True;2018-06-12 15:15:53+00:00;False;49;48;5876;404ef05002e067d057dabafb4945d79a49d028bc;7;l.batizhevsky@fun-box.ru;Batizhevskii@fidor.com
-commits_spec.rb;MODIFY;962.0;20.0;Equal;True;2018-07-11 14:36:08+00:00;False;50;49;5969;a63bce1a4b55bc6cbafb9dec12d33028521489e9;495;dmitriy.zaporozhets@gmail.com;mchao@gitlab.com
+commits_spec.rb;MODIFY;942.0;-7.0;Decreased;True;2018-06-12 15:15:53+00:00;False;49;48;5876;404ef05002e067d057dabafb4945d79a49d028bc;7;l.batizhevsky@fun-box.ru;Batizhevskii@fidor.com
+commits_spec.rb;MODIFY;962.0;20.0;Grew;True;2018-07-11 14:36:08+00:00;False;50;49;5969;a63bce1a4b55bc6cbafb9dec12d33028521489e9;495;dmitriy.zaporozhets@gmail.com;mchao@gitlab.com
 commits_spec.rb;MODIFY;999.0;37.0;Grew;True;2018-07-12 10:14:54+00:00;False;55;54;6136;b7ffc097fbb61972e150a6d48cbe9e5194aed11b;3;bob@vanlanduyt.co;bob@vanlanduyt.co
 commits_spec.rb;MODIFY;1006.0;7.0;Grew;True;2018-09-11 22:02:09+00:00;False;55;54;6172;f2747f1ce0e07c2b6f1d96ff104660575f835e67;7;robert@gitlab.com;intrip@gmail.com
 commits_spec.rb;MODIFY;1055.0;49.0;Grew;True;2018-09-27 09:51:15+00:00;False;58;57;6376;271776d4aa25a23b6f58c6befa94a240e61d4120;8;beschi.jacopo@gmail.com;beschi.jacopo@gmail.com
@@ -69,7 +69,7 @@ commits_spec.rb;MODIFY;1158.0;89.0;Grew;True;2018-11-09 15:26:38+00:00;False;63;
 commits_spec.rb;MODIFY;1158.0;0.0;Equal;True;2018-12-05 14:39:15+00:00;False;63;62;6983;a6778fc647d83c8fbdca69e1bb2d38b490853ba8;39;grzegorz@gitlab.com;fjlopez@gitlab.com
 commits_spec.rb;MODIFY;1158.0;0.0;Equal;True;2018-12-18 23:04:31+00:00;False;63;62;7102;b44a2c801a64fb282cea794871fcfcf81e4ec539;214;blackst0ne.ru@gmail.com;blackst0ne.ru@gmail.com
 commits_spec.rb;MODIFY;1166.0;8.0;Grew;True;2019-01-28 07:10:07+00:00;False;64;63;7165;276147c1f6c54ae87941953ec62d0d674c12f462;2;ebajao@gitlab.com;ebajao@gitlab.com
-commits_spec.rb;MODIFY;1158.0;-8.0;Equal;True;2019-02-13 14:34:20+00:00;False;63;62;7102;314c99e36c37379eea1dc4556d0a7fcb48efc275;3;remy@rymai.me;2900-razer6@users.noreply.gitlab.com
+commits_spec.rb;MODIFY;1158.0;-8.0;Decreased;True;2019-02-13 14:34:20+00:00;False;63;62;7102;314c99e36c37379eea1dc4556d0a7fcb48efc275;3;remy@rymai.me;2900-razer6@users.noreply.gitlab.com
 commits_spec.rb;MODIFY;1189.0;31.0;Grew;True;2019-02-14 05:59:42+00:00;False;64;63;7337;e9c3c3bf31a3d16d111026abb2c5a9e8eb68afd1;1;balasankar@gitlab.com;balasankar@gitlab.com
 commits_spec.rb;MODIFY;1268.0;79.0;Grew;True;2019-05-31 14:21:15+00:00;False;73;70;7863;35c37fb29343974bf2edc3959d6a21db9c384307;4;godfat@godfat.org;kerrizor@kerrizor.com
 commits_spec.rb;MODIFY;1268.0;0.0;Equal;True;2019-06-24 22:12:42+00:00;False;73;70;7863;3457695b1e3d2c6e5a10cff6e24a08f7cbb38503;6;nick@gitlab.com;sambattalio99@gmail.com
@@ -77,10 +77,10 @@ commits_spec.rb;MODIFY;1268.0;0.0;Equal;True;2019-07-16 13:12:37+00:00;False;73;
 commits_spec.rb;MODIFY;1268.0;0.0;Equal;True;2019-07-17 23:45:35+00:00;False;73;70;7865;bcd2458076512ad80c6e470d9434618f27dfec3c;8;nick@gitlab.com;fjlopez@gitlab.com
 commits_spec.rb;MODIFY;1357.0;89.0;Grew;True;2019-07-18 07:19:18+00:00;False;85;79;8500;f8cecafb07792bcaf9d7ffa85766c3b33c1dd252;13;mkoller@gitlab.com;mkoller@gitlab.com
 commits_spec.rb;MODIFY;1361.0;4.0;Grew;True;2019-08-13 21:00:14+00:00;False;85;79;8517;e70cfdebc70e4bf12f6d8393e1d36e92b3de2219;1;armin695@gmail.com;armin695@gmail.com
-commits_spec.rb;MODIFY;1361.0;0.0;Decreased;True;2019-08-13 21:36:22+00:00;False;85;79;8517;eb35728201b7f7c36979c314b86fdaafc564e190;1;armin695@gmail.com;armin695@gmail.com
+commits_spec.rb;MODIFY;1361.0;0.0;Equal;True;2019-08-13 21:36:22+00:00;False;85;79;8517;eb35728201b7f7c36979c314b86fdaafc564e190;1;armin695@gmail.com;armin695@gmail.com
 commits_spec.rb;MODIFY;1370.0;9.0;Grew;True;2019-09-19 21:06:29+00:00;False;86;80;8599;b35b9ac7e2fd4a707ea9291eb57769c690403b4c;38;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 commits_spec.rb;MODIFY;1370.0;0.0;Equal;True;2019-10-23 09:06:03+00:00;False;86;80;8609;b3e4ec8e8adf4fe96c982124e91b6a05021a9cda;173;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
-commits_spec.rb;MODIFY;1370.0;0.0;Grew;True;2019-10-29 00:06:10+00:00;False;86;80;8609;abfafe3c57f56cd76a0a9afb7275cddb12304544;100;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
+commits_spec.rb;MODIFY;1370.0;0.0;Equal;True;2019-10-29 00:06:10+00:00;False;86;80;8609;abfafe3c57f56cd76a0a9afb7275cddb12304544;100;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 commits_spec.rb;MODIFY;1381.0;11.0;Grew;True;2019-11-05 15:06:17+00:00;False;87;81;8671;4c464055fbcdab02bb8334b148c0e35b981b239e;59;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 commits_spec.rb;MODIFY;1393.0;12.0;Grew;True;2019-11-14 03:06:25+00:00;False;89;83;8754;29c01c6c91558358c37ba45b03f240632bfb918d;72;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 commits_spec.rb;MODIFY;1463.0;70.0;Grew;True;2020-01-30 21:08:47+00:00;False;90;84;9054;c8f773a8593926f4f2dec6f446a3b3e59e9c9909;96;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
@@ -91,7 +91,7 @@ commits_spec.rb;MODIFY;1511.0;21.0;Grew;True;2020-04-03 18:10:03+00:00;False;93;
 commits_spec.rb;MODIFY;1517.0;6.0;Grew;True;2020-06-08 21:09:17+00:00;False;92;86;9552;d48cbe178636a01db031327b93b6e3b279c12aa5;33;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 commits_spec.rb;MODIFY;1517.0;0.0;Equal;True;2020-06-24 06:09:01+00:00;False;92;86;9554;fa7ac2663b53f61551b9db51f16d55fa4e5b74c3;749;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 commits_spec.rb;MODIFY;1544.0;27.0;Grew;True;2020-07-30 18:09:39+00:00;False;96;90;9801;1b26aaa633642ea33f1fb9d7e8680892c8ca795d;102;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
-commits_spec.rb;MODIFY;1544.0;0.0;Grew;True;2020-08-11 03:11:00+00:00;False;96;90;9801;bdca0979165cb662173d959c358fce0c539c7544;309;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
+commits_spec.rb;MODIFY;1544.0;0.0;Equal;True;2020-08-11 03:11:00+00:00;False;96;90;9801;bdca0979165cb662173d959c358fce0c539c7544;309;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 commits_spec.rb;MODIFY;1560.0;16.0;Grew;True;2020-09-01 03:10:22+00:00;False;97;91;9944;4be784ea00ee98983c29568bfc7914e625a98b6e;26;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 commits_spec.rb;MODIFY;1556.0;-4.0;Decreased;True;2020-09-30 15:09:46+00:00;False;98;92;9835;dd240e5cc4e0abc4eef8b97962c247dab43e3777;101;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com
 commits_spec.rb;MODIFY;1548.0;-8.0;Decreased;True;2020-10-13 06:09:09+00:00;False;97;91;9769;8f71e69fdbb65d2cf95cf16ef5a0add0919edb45;93;gitlab-bot@gitlab.com;gitlab-bot@gitlab.com

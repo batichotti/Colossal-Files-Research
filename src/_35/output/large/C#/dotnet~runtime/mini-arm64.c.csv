@@ -1,9 +1,9 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
-mini-arm64.c;ADD;1.0;0.0;Grew;False;2014-04-22 17:34:26+00:00;False;not calculated;0;2;879b44e8b04e2165df0c3df2debbf6f74c32ce42;15;vargaz@gmail.com;vargaz@gmail.com
-mini-arm64.c;DELETE;not calculated;0.0;Decreased;False;2014-04-23 18:56:39+00:00;False;not calculated;0;not calculated;ed19159721f989027f733b717c349c70bc4cf2ba;44;alexis@thenull.net;alexis@thenull.net
-mini-arm64.c;ADD;1.0;0.0;Grew;False;2014-04-25 14:57:01+00:00;False;not calculated;0;2;8853140e591b2f6f97f3b6ebba96b41b3d9c2a3f;44;rolf@xamarin.com;rolf@xamarin.com
+mini-arm64.c;ADD;1.0;0.0;Equal;False;2014-04-22 17:34:26+00:00;False;not calculated;0;2;879b44e8b04e2165df0c3df2debbf6f74c32ce42;15;vargaz@gmail.com;vargaz@gmail.com
+mini-arm64.c;DELETE;not calculated;0.0;Equal;False;2014-04-23 18:56:39+00:00;False;not calculated;0;not calculated;ed19159721f989027f733b717c349c70bc4cf2ba;44;alexis@thenull.net;alexis@thenull.net
+mini-arm64.c;ADD;1.0;0.0;Equal;False;2014-04-25 14:57:01+00:00;False;not calculated;0;2;8853140e591b2f6f97f3b6ebba96b41b3d9c2a3f;44;rolf@xamarin.com;rolf@xamarin.com
 mini-arm64.c;MODIFY;4240.0;4239.0;Grew;True;2016-03-28 22:31:39+00:00;True;1186;142;27052;5012320bb2e406f195ebf5aab13caf6f1c614279;11;kumpera@gmail.com;kumpera@gmail.com
-mini-arm64.c;MODIFY;4240.0;0.0;Grew;True;2016-03-28 23:16:27+00:00;False;1186;142;27052;b03d60ee5ca27794d32b24108b350969d259eba3;274;kumpera@gmail.com;miguel@gnome.org
+mini-arm64.c;MODIFY;4240.0;0.0;Equal;True;2016-03-28 23:16:27+00:00;False;1186;142;27052;b03d60ee5ca27794d32b24108b350969d259eba3;274;kumpera@gmail.com;miguel@gnome.org
 mini-arm64.c;MODIFY;4241.0;1.0;Grew;True;2016-04-01 20:03:28+00:00;False;1186;142;27062;e0c50515ab996ecc44c23793c15d7259f0f5da35;3;vargaz@gmail.com;vargaz@gmail.com
 mini-arm64.c;MODIFY;4255.0;14.0;Grew;True;2016-04-02 05:27:27+00:00;False;1189;143;27167;cfc9e0357ef3727c08012b4bc8c76473c48cd4d5;3;vargaz@gmail.com;vargaz@gmail.com
 mini-arm64.c;MODIFY;4267.0;12.0;Grew;True;2016-08-18 19:33:00+00:00;False;1195;143;27269;dc1aea5cf83231c643df78c4439f9bc79fd17963;1;brezaevlad@gmail.com;brezaevlad@gmail.com
@@ -24,7 +24,7 @@ mini-arm64.c;MODIFY;4291.0;0.0;Equal;True;2017-02-27 20:45:28+00:00;False;1205;1
 mini-arm64.c;MODIFY;4292.0;1.0;Grew;True;2017-03-05 05:25:43+00:00;False;1205;142;27516;da3cdbb2d7a8b5323acb9c357fa17b6a3da90803;3;vargaz@gmail.com;vargaz@gmail.com
 mini-arm64.c;MODIFY;4293.0;1.0;Grew;True;2017-03-07 23:20:12+00:00;False;1205;142;27523;d614bc65a3fa9a00880138ee3427d1366a33948f;3;vargaz@gmail.com;vargaz@gmail.com
 mini-arm64.c;MODIFY;4292.0;-1.0;Decreased;True;2017-03-17 07:32:52+00:00;False;1204;142;27517;d747d566471288317ccb1932c0b11582697996ec;12;noreply@github.com;vargaz@gmail.com
-mini-arm64.c;MODIFY;4292.0;0.0;Grew;True;2017-03-24 20:43:07+00:00;False;1204;142;27517;9c1052949ddcf99da599a32f16f9b901bafbf512;126;evincarofautumn@gmail.com;evincarofautumn@gmail.com
+mini-arm64.c;MODIFY;4292.0;0.0;Equal;True;2017-03-24 20:43:07+00:00;False;1204;142;27517;9c1052949ddcf99da599a32f16f9b901bafbf512;126;evincarofautumn@gmail.com;evincarofautumn@gmail.com
 mini-arm64.c;MODIFY;4272.0;-20.0;Decreased;True;2017-03-29 00:17:31+00:00;False;1184;142;27457;355c11639facce50deab2bd178175275f54e3337;13;noreply@github.com;vargaz@gmail.com
 mini-arm64.c;MODIFY;4273.0;1.0;Grew;True;2017-06-15 01:54:01+00:00;False;1184;142;27467;3e1cfd52ad0a643352299ce861f06f9d6b501a6b;1;noreply@github.com;vargaz@gmail.com
 mini-arm64.c;MODIFY;4258.0;-15.0;Decreased;True;2017-07-25 09:25:53+00:00;False;1181;141;27355;e058f17f3a63f329b38a2673bed1ed549cbe9db9;22;brezaevlad@gmail.com;brezaevlad@gmail.com
@@ -40,7 +40,7 @@ mini-arm64.c;MODIFY;4272.0;0.0;Equal;True;2017-12-13 21:35:33+00:00;False;1183;1
 mini-arm64.c;MODIFY;4381.0;109.0;Grew;True;2017-12-23 16:14:15+00:00;False;1212;142;28246;a00247a8d6cf879711e281f143a19f08c06f0100;5;brezaevlad@gmail.com;brezaevlad@gmail.com
 mini-arm64.c;MODIFY;4379.0;-2.0;Decreased;True;2018-01-08 22:14:00+00:00;False;1212;142;28233;0682d9381b7a21f1ea09826e96d93ec241a11208;1;luhenry@microsoft.com;jay.krell@cornell.edu
 mini-arm64.c;MODIFY;4379.0;0.0;Equal;True;2018-01-09 09:05:29+00:00;False;1212;142;28233;fe22b514239018db333a1036fb1966ed6f968cbe;14;luhenry@microsoft.com;bernhard.urban@xamarin.com
-mini-arm64.c;MODIFY;4379.0;0.0;Decreased;True;2018-02-06 15:15:51+00:00;False;1212;142;28233;3d840d6d7bc48779209532285c9ea14d5f74a8a8;32;bernhard.urban@xamarin.com;brezaevlad@gmail.com
+mini-arm64.c;MODIFY;4379.0;0.0;Equal;True;2018-02-06 15:15:51+00:00;False;1212;142;28233;3d840d6d7bc48779209532285c9ea14d5f74a8a8;32;bernhard.urban@xamarin.com;brezaevlad@gmail.com
 mini-arm64.c;MODIFY;4384.0;5.0;Grew;True;2018-02-07 15:29:49+00:00;False;1216;142;28283;21fb35adda176c77839d9ec2bd4721342172ac3c;2;noreply@github.com;vargaz@gmail.com
 mini-arm64.c;MODIFY;4384.0;0.0;Equal;True;2018-02-08 01:35:19+00:00;False;1216;142;28279;c05f770805e5c37ba5a1b23fe184f3a296feb523;20;noreply@github.com;jay.krell@cornell.edu
 mini-arm64.c;MODIFY;4400.0;16.0;Grew;True;2018-02-22 23:32:42+00:00;False;1224;142;28415;987df03061782225edbbb31293426763589ed577;34;luhenry@microsoft.com;alex@alexrp.com
@@ -51,7 +51,7 @@ mini-arm64.c;MODIFY;4452.0;0.0;Equal;True;2018-04-08 04:05:42+00:00;False;1246;1
 mini-arm64.c;MODIFY;4455.0;3.0;Grew;True;2018-04-10 00:34:56+00:00;False;1246;144;28701;556812e2aebd16ce6b5f1471dd1eb56a0d98aa9f;17;alex@alexrp.com;alpeters@microsoft.com
 mini-arm64.c;MODIFY;4464.0;9.0;Grew;True;2018-04-15 17:25:04+00:00;False;1249;144;28738;e69decc5859e0ffae3f4e13bcaf0cb454a61f086;1;luhenry@microsoft.com;vargaz@gmail.com
 mini-arm64.c;MODIFY;4464.0;0.0;Equal;True;2018-04-16 18:46:21+00:00;False;1249;144;28717;b6d39095f7c193107da65dc7194dfae8712c8d60;38;luhenry@microsoft.com;akliger@gmail.com
-mini-arm64.c;MODIFY;4465.0;1.0;Equal;True;2018-04-16 21:54:57+00:00;False;1248;144;28724;35335bc19c4b3c42f1c535572a6b1cb8127d52e8;7;noreply@github.com;luhenry@microsoft.com
+mini-arm64.c;MODIFY;4465.0;1.0;Grew;True;2018-04-16 21:54:57+00:00;False;1248;144;28724;35335bc19c4b3c42f1c535572a6b1cb8127d52e8;7;noreply@github.com;luhenry@microsoft.com
 mini-arm64.c;MODIFY;4465.0;0.0;Equal;True;2018-04-17 15:21:32+00:00;False;1248;144;28724;f016e919bbdf8faabf295f9d4da1985c3a7f05f5;26;noreply@github.com;jay.krell@cornell.edu
 mini-arm64.c;MODIFY;4481.0;16.0;Grew;True;2018-04-23 18:59:12+00:00;False;1252;144;28813;483dc60abaac5480b6c2d9229fc1a6b59366fe24;4;alex.koeplinger@outlook.com;jay.krell@cornell.edu
 mini-arm64.c;MODIFY;4481.0;0.0;Equal;True;2018-04-25 10:56:16+00:00;False;1252;144;28813;411cc46c869f15146218e804d56cdd9cabea19b0;16;noreply@github.com;brezaevlad@gmail.com
@@ -74,7 +74,7 @@ mini-arm64.c;MODIFY;4509.0;2.0;Grew;True;2018-09-01 01:48:01+00:00;False;1247;14
 mini-arm64.c;MODIFY;4509.0;0.0;Equal;True;2018-09-05 05:48:12+00:00;False;1247;147;29248;3f8ed3fcdf0187875829b12bbcd23d96c8b2c383;51;noreply@github.com;jay.krell@cornell.edu
 mini-arm64.c;MODIFY;4511.0;2.0;Grew;True;2018-09-11 06:58:06+00:00;False;1250;147;29260;6c789f4b97e16ff05667158db8e0e65adb7662e3;2;marek.safar@gmail.com;vargaz@gmail.com
 mini-arm64.c;MODIFY;4513.0;2.0;Grew;True;2018-09-12 18:01:03+00:00;False;1250;147;29286;5be86656ab4ede3dfea5e9125b521b59a4afa6cb;2;luhenry@microsoft.com;vargaz@gmail.com
-mini-arm64.c;MODIFY;4513.0;0.0;Decreased;True;2018-10-08 14:38:35+00:00;False;1250;147;29286;809d00d0ce8e411ecd146346ee3fa59199f8cd70;50;alex.koeplinger@outlook.com;jay.krell@cornell.edu
+mini-arm64.c;MODIFY;4513.0;0.0;Equal;True;2018-10-08 14:38:35+00:00;False;1250;147;29286;809d00d0ce8e411ecd146346ee3fa59199f8cd70;50;alex.koeplinger@outlook.com;jay.krell@cornell.edu
 mini-arm64.c;MODIFY;4511.0;-2.0;Decreased;True;2018-10-09 15:37:54+00:00;False;1250;147;29268;cbda5d6695f73447c4c5243575bbee32bf6f776f;1;luhenry@microsoft.com;vargaz@gmail.com
 mini-arm64.c;MODIFY;4515.0;4.0;Grew;True;2018-10-11 21:18:30+00:00;False;1250;147;29276;0be1a7f35c07607c52ac1c751ad429d8209f0815;6;luhenry@microsoft.com;brezaevlad@gmail.com
 mini-arm64.c;MODIFY;4515.0;0.0;Equal;True;2018-10-12 08:18:06+00:00;False;1250;147;29276;d2a442fb10e4312e846622918cd5a9c5654374f0;57;noreply@github.com;jay.krell@cornell.edu
@@ -90,7 +90,7 @@ mini-arm64.c;MODIFY;4521.0;-1.0;Decreased;True;2018-12-27 17:19:09+00:00;False;1
 mini-arm64.c;MODIFY;4521.0;0.0;Equal;True;2019-04-17 07:41:54+00:00;False;1253;145;29356;ca39a6cdf95fda8e51cd89489c7e195036f544f8;8;alex.koeplinger@outlook.com;jay.krell@cornell.edu
 mini-arm64.c;MODIFY;4521.0;0.0;Equal;True;2019-05-21 04:16:36+00:00;False;1253;145;29359;823992855379fc940107c7852f0308a76696ec59;20;vargaz@gmail.com;jay.krell@cornell.edu
 mini-arm64.c;MODIFY;4530.0;9.0;Grew;True;2019-05-30 10:39:55+00:00;False;1254;146;29379;46aa688852f29a6ecff86224771782db490f8ea6;44;alex.koeplinger@outlook.com;jay.krell@cornell.edu
-mini-arm64.c;MODIFY;4529.0;-1.0;Equal;True;2019-06-11 04:40:39+00:00;False;1253;146;29368;9e070ac05ca7e7af18e61ee8bf14ce5d29bb305e;16;alexis@thenull.net;jaykrell@microsoft.com
+mini-arm64.c;MODIFY;4529.0;-1.0;Decreased;True;2019-06-11 04:40:39+00:00;False;1253;146;29368;9e070ac05ca7e7af18e61ee8bf14ce5d29bb305e;16;alexis@thenull.net;jaykrell@microsoft.com
 mini-arm64.c;MODIFY;4529.0;0.0;Equal;True;2019-06-14 23:51:56+00:00;False;1253;146;29372;6132a2173252193b9aa6cda1106b4b7368669aad;8;lewing@microsoft.com;jaykrell@microsoft.com
 mini-arm64.c;MODIFY;4529.0;0.0;Equal;True;2019-06-18 21:06:54+00:00;False;1253;146;29371;b818bf52802694ea32c04ecf00acb756230db162;2;alexis@thenull.net;lewurm@gmail.com
 mini-arm64.c;MODIFY;4540.0;11.0;Grew;True;2019-06-21 20:47:44+00:00;False;1257;146;29550;8d8d42124d1b5e9f187533c88777e63df9659a04;1;lewing@microsoft.com;brezaevlad@gmail.com
@@ -108,12 +108,12 @@ mini-arm64.c;MODIFY;4564.0;2.0;Grew;True;2020-09-25 21:41:50+00:00;False;1270;14
 mini-arm64.c;MODIFY;4568.0;4.0;Grew;True;2020-10-26 19:55:59+00:00;False;1270;146;29701;dd23c81e3c23866164a62b16311bbc08c00e2643;13;noreply@github.com;jo.shields+jenkins@xamarin.com
 mini-arm64.c;MODIFY;4614.0;46.0;Grew;True;2021-02-04 20:14:43+00:00;False;1282;150;29948;2d69589b289b49ef644352d1e7e7b8865ec93082;27;noreply@github.com;vargaz@gmail.com
 mini-arm64.c;MODIFY;4615.0;1.0;Grew;True;2021-02-19 04:13:58+00:00;False;1282;150;29931;417aa900491456e5b4e89db54f228dffd7586db7;112;noreply@github.com;vargaz@gmail.com
-mini-arm64.c;MODIFY;4615.0;0.0;Grew;True;2021-02-22 19:02:32+00:00;False;1282;150;29933;fe33bed50573fa548e9daf00b90e016c401b6440;28;noreply@github.com;vargaz@gmail.com
+mini-arm64.c;MODIFY;4615.0;0.0;Equal;True;2021-02-22 19:02:32+00:00;False;1282;150;29933;fe33bed50573fa548e9daf00b90e016c401b6440;28;noreply@github.com;vargaz@gmail.com
 mini-arm64.c;MODIFY;4615.0;0.0;Equal;True;2021-02-27 04:37:53+00:00;False;1282;150;29921;34c68c7edf6d61c8ff3d2631003ed86353415479;57;noreply@github.com;vargaz@gmail.com
 mini-arm64.c;MODIFY;4616.0;1.0;Grew;True;2021-03-10 18:25:39+00:00;False;1283;150;29924;267cb42ba046bf727dff41299322fbf5e4ac27fa;5;noreply@github.com;brezaevlad@gmail.com
 mini-arm64.c;MODIFY;4621.0;5.0;Grew;True;2021-03-12 17:00:59+00:00;False;1284;151;29946;fe8bc173dfc3a50dc18415b62ddd974ec2386804;62;noreply@github.com;thaystg@gmail.com
-mini-arm64.c;MODIFY;4621.0;0.0;Grew;True;2021-03-26 19:56:11+00:00;False;1284;151;29746;c3e31c413172332251cd985c4bb0c04452e84a90;10;noreply@github.com;directhex@apebox.org
-mini-arm64.c;MODIFY;4620.0;-1.0;Equal;True;2021-03-27 18:06:39+00:00;False;1283;151;29719;7795971839be34099b07595fdcf47b95f048a730;5;noreply@github.com;vargaz@gmail.com
+mini-arm64.c;MODIFY;4621.0;0.0;Equal;True;2021-03-26 19:56:11+00:00;False;1284;151;29746;c3e31c413172332251cd985c4bb0c04452e84a90;10;noreply@github.com;directhex@apebox.org
+mini-arm64.c;MODIFY;4620.0;-1.0;Decreased;True;2021-03-27 18:06:39+00:00;False;1283;151;29719;7795971839be34099b07595fdcf47b95f048a730;5;noreply@github.com;vargaz@gmail.com
 mini-arm64.c;MODIFY;4623.0;3.0;Grew;True;2021-06-02 14:43:49+00:00;False;1283;151;29737;f4e01f5416342985768ddb3b1f5fb98fa322ef6b;3;noreply@github.com;imhameed@microsoft.com
 mini-arm64.c;MODIFY;4624.0;1.0;Grew;True;2021-08-20 16:52:11+00:00;False;1283;151;29739;2a1d100f79febd87a986b0c66e57ea43d1fadab6;32;noreply@github.com;alex.koeplinger@outlook.com
 mini-arm64.c;MODIFY;4624.0;0.0;Equal;True;2021-10-14 12:46:35+00:00;False;1283;151;29742;f77e5862c0a3ee14f040cb9a4b29cbe725932135;44;noreply@github.com;alklig@microsoft.com
@@ -128,19 +128,19 @@ mini-arm64.c;MODIFY;4636.0;13.0;Grew;True;2022-05-31 16:35:49+00:00;False;1286;1
 mini-arm64.c;MODIFY;4636.0;0.0;Equal;True;2022-06-14 15:23:27+00:00;False;1286;151;29844;89962a54d60e4d9c9837012d1729c5a72ec748cd;39;noreply@github.com;arobins@microsoft.com
 mini-arm64.c;MODIFY;4635.0;-1.0;Decreased;True;2022-07-07 18:27:18+00:00;False;1286;151;29845;5529dc79e9f35d70e9d01318d31844984b860dd4;58;noreply@github.com;52458914+fanyang-mono@users.noreply.github.com
 mini-arm64.c;MODIFY;4635.0;0.0;Equal;True;2022-07-28 16:17:13+00:00;False;1286;151;29847;8e1c9c1e9e18df1b9724f940f471b1e6f246b028;3;noreply@github.com;vargaz@gmail.com
-mini-arm64.c;MODIFY;4635.0;0.0;Grew;True;2022-08-25 22:48:00+00:00;False;1287;151;29847;b9e22141682ccef96459c4c18591aed40518340a;2;noreply@github.com;alklig@microsoft.com
+mini-arm64.c;MODIFY;4635.0;0.0;Equal;True;2022-08-25 22:48:00+00:00;False;1287;151;29847;b9e22141682ccef96459c4c18591aed40518340a;2;noreply@github.com;alklig@microsoft.com
 mini-arm64.c;MODIFY;4602.0;-33.0;Decreased;True;2022-11-18 07:00:20+00:00;False;1280;151;29613;aa012f41adcdb6743e6a0dde47f08c187eb08469;36;noreply@github.com;brezaevlad@gmail.com
 mini-arm64.c;MODIFY;4736.0;134.0;Grew;True;2023-03-06 20:55:38+00:00;False;1318;155;30371;d74dde78bfa3093c7a5ecc6b44acc01e07303aec;7;noreply@github.com;52458914+fanyang-mono@users.noreply.github.com
 mini-arm64.c;MODIFY;4772.0;36.0;Grew;True;2023-03-08 14:12:23+00:00;False;1324;156;30644;51d797e59b6406b06e8e471907ef4941d0f3bb0c;1;noreply@github.com;vargaz@gmail.com
 mini-arm64.c;MODIFY;4790.0;18.0;Grew;True;2023-03-10 10:00:23+00:00;False;1327;156;30697;70870692d0c8affdce0cac8646598f0e5bc21d4e;1;noreply@github.com;109523496+jandupej@users.noreply.github.com
 mini-arm64.c;MODIFY;4811.0;21.0;Grew;True;2023-03-13 12:41:39+00:00;False;1330;157;30829;02a7695eaf2b28d3d561b1dc4118ff62232e50e7;6;noreply@github.com;109523496+jandupej@users.noreply.github.com
-mini-arm64.c;MODIFY;4811.0;0.0;Grew;True;2023-03-15 12:15:41+00:00;False;1330;157;30829;c0eb86a601181429d7659c39d2b2450d3a231bfd;6;noreply@github.com;52458914+fanyang-mono@users.noreply.github.com
+mini-arm64.c;MODIFY;4811.0;0.0;Equal;True;2023-03-15 12:15:41+00:00;False;1330;157;30829;c0eb86a601181429d7659c39d2b2450d3a231bfd;6;noreply@github.com;52458914+fanyang-mono@users.noreply.github.com
 mini-arm64.c;MODIFY;4870.0;59.0;Grew;True;2023-03-17 17:15:23+00:00;False;1343;161;31262;2f8a43af7eec94a3a26ece0e5411d64577410f1a;6;noreply@github.com;52458914+fanyang-mono@users.noreply.github.com
 mini-arm64.c;MODIFY;4872.0;2.0;Grew;True;2023-03-18 19:37:20+00:00;False;1344;161;31267;1f86cb726cf2292c0bb68f455e223b41a7970740;3;noreply@github.com;52458914+fanyang-mono@users.noreply.github.com
 mini-arm64.c;MODIFY;4894.0;22.0;Grew;True;2023-03-21 09:37:45+00:00;False;1348;162;31407;8c5cf110b4d2fa0b98cad4b60e4abba5a6562c58;6;noreply@github.com;109523496+jandupej@users.noreply.github.com
 mini-arm64.c;MODIFY;4943.0;49.0;Grew;True;2023-03-21 14:49:00+00:00;False;1369;163;31740;bb3dc9c34a60721130fc7e6c6545b3e7d2fd34c7;6;noreply@github.com;109523496+jandupej@users.noreply.github.com
 mini-arm64.c;MODIFY;4945.0;2.0;Grew;True;2023-03-21 19:06:30+00:00;False;1369;163;31752;7b82cdf019aff3227d882a15c12eeb3c189bb22d;2;noreply@github.com;vargaz@gmail.com
-mini-arm64.c;MODIFY;4945.0;0.0;Grew;True;2023-03-23 20:02:51+00:00;False;1369;163;31752;f747a30f3d45673696606635c335ec10662f756d;5;noreply@github.com;114913836+LeVladIonescu@users.noreply.github.com
+mini-arm64.c;MODIFY;4945.0;0.0;Equal;True;2023-03-23 20:02:51+00:00;False;1369;163;31752;f747a30f3d45673696606635c335ec10662f756d;5;noreply@github.com;114913836+LeVladIonescu@users.noreply.github.com
 mini-arm64.c;MODIFY;4959.0;14.0;Grew;True;2023-03-30 14:02:36+00:00;False;1375;163;31836;b606ffc36c1cc87bfb757cd0e988a198b91d87c2;5;noreply@github.com;52458914+fanyang-mono@users.noreply.github.com
 mini-arm64.c;MODIFY;4974.0;15.0;Grew;True;2023-04-03 15:22:06+00:00;False;1377;163;31930;6146bad3ea66266949dc706f9f6dc56956bf5262;8;noreply@github.com;vargaz@gmail.com
 mini-arm64.c;MODIFY;4915.0;-59.0;Decreased;True;2023-04-03 17:42:09+00:00;False;1364;163;31522;4fdb1f64188dea5807d8eb655fab9dbb0a7c9410;17;noreply@github.com;vargaz@gmail.com
@@ -158,7 +158,7 @@ mini-arm64.c;MODIFY;5144.0;12.0;Grew;True;2023-05-02 21:04:55+00:00;False;1424;1
 mini-arm64.c;MODIFY;5220.0;76.0;Grew;True;2023-05-17 18:28:21+00:00;False;1445;167;33181;4de58bf05e71e02ed3d1c790657d78b10b5f2d8d;9;noreply@github.com;vargaz@gmail.com
 mini-arm64.c;MODIFY;5226.0;6.0;Grew;True;2023-05-19 15:30:42+00:00;False;1449;167;33247;dc7bbc59dbc823699bea36d9334c3dc88a452d20;11;noreply@github.com;vargaz@gmail.com
 mini-arm64.c;MODIFY;5246.0;20.0;Grew;True;2023-05-25 15:35:43+00:00;False;1454;167;33396;8d2c3658303e086fc3dccad4956002913d6ab64e;2;noreply@github.com;52458914+fanyang-mono@users.noreply.github.com
-mini-arm64.c;MODIFY;5246.0;0.0;Grew;True;2023-06-14 11:40:49+00:00;False;1455;167;33396;793e49bbf409dbed09594b8925762627a5866e9c;1;noreply@github.com;vargaz@gmail.com
+mini-arm64.c;MODIFY;5246.0;0.0;Equal;True;2023-06-14 11:40:49+00:00;False;1455;167;33396;793e49bbf409dbed09594b8925762627a5866e9c;1;noreply@github.com;vargaz@gmail.com
 mini-arm64.c;MODIFY;5245.0;-1.0;Decreased;True;2023-06-14 23:11:01+00:00;False;1455;167;33394;6800fd6ffe160236ef58e6eccc4fb2117b2ff179;1;noreply@github.com;vargaz@gmail.com
 mini-arm64.c;MODIFY;5273.0;28.0;Grew;True;2023-06-21 11:56:58+00:00;False;1464;167;33585;57cfd0624054e7260fae0a4f3d2d6ee4d02995ca;4;noreply@github.com;109523496+jandupej@users.noreply.github.com
 mini-arm64.c;MODIFY;5271.0;-2.0;Decreased;True;2023-06-22 08:59:32+00:00;False;1464;167;33567;cd11f883e0f0d94bc743b0730a679d5adf03c859;2;noreply@github.com;109523496+jandupej@users.noreply.github.com
@@ -183,12 +183,12 @@ mini-arm64.c;MODIFY;5546.0;78.0;Grew;True;2024-02-06 16:48:53+00:00;False;1567;1
 mini-arm64.c;MODIFY;5546.0;0.0;Equal;True;2024-04-09 09:30:29+00:00;False;1567;172;36126;7891447cc58b928b0742da64911efb2b2a608c14;13;noreply@github.com;sayeedkhannabil@gmail.com
 mini-arm64.c;MODIFY;5556.0;10.0;Grew;True;2024-05-06 14:18:50+00:00;False;1572;172;36260;5e949e1f0531052b8685f22c9ff03c5243c9c43f;4;noreply@github.com;59935235+jkurdek@users.noreply.github.com
 mini-arm64.c;MODIFY;5557.0;1.0;Grew;True;2024-05-10 20:36:37+00:00;False;1572;172;36264;dc982632aa2b15123ba5d7ff76589cd6c8e660ba;1;noreply@github.com;alklig@microsoft.com
-mini-arm64.c;MODIFY;5556.0;-1.0;Equal;True;2024-05-17 22:44:29+00:00;False;1572;172;36252;4185f94ec85e619b7dfa82357ac853846dfda3af;8;noreply@github.com;59935235+jkurdek@users.noreply.github.com
+mini-arm64.c;MODIFY;5556.0;-1.0;Decreased;True;2024-05-17 22:44:29+00:00;False;1572;172;36252;4185f94ec85e619b7dfa82357ac853846dfda3af;8;noreply@github.com;59935235+jkurdek@users.noreply.github.com
 mini-arm64.c;MODIFY;5554.0;-2.0;Decreased;True;2024-06-17 10:33:12+00:00;False;1573;172;36212;193b82684971378be9fa0754a97bfabf82e5fd28;3;noreply@github.com;kotlarmilos@gmail.com
 mini-arm64.c;MODIFY;5555.0;1.0;Grew;True;2024-07-03 12:01:19+00:00;False;1575;172;36234;ffcdf42c201e0b2d137ffeb0f40ddcfef65f1c6c;9;noreply@github.com;kotlarmilos@gmail.com
 mini-arm64.c;MODIFY;5655.0;100.0;Grew;True;2024-07-15 06:04:11+00:00;False;1604;173;36912;b885a58062434707e7584d29910af429a1ee0107;7;noreply@github.com;55735845+matouskozak@users.noreply.github.com
 mini-arm64.c;MODIFY;5705.0;50.0;Grew;True;2024-07-18 18:27:37+00:00;False;1618;173;37279;833fbb8dbad6b0cc1482d27d6be1527bfe67b69e;3;noreply@github.com;55735845+matouskozak@users.noreply.github.com
-mini-arm64.c;MODIFY;5705.0;0.0;Decreased;True;2024-07-19 09:07:01+00:00;False;1618;173;37279;3648b5639ac30bf0eff4e68b13e2d53200e06610;7;noreply@github.com;kotlarmilos@gmail.com
+mini-arm64.c;MODIFY;5705.0;0.0;Equal;True;2024-07-19 09:07:01+00:00;False;1618;173;37279;3648b5639ac30bf0eff4e68b13e2d53200e06610;7;noreply@github.com;kotlarmilos@gmail.com
 mini-arm64.c;MODIFY;5705.0;0.0;Equal;True;2024-07-25 15:30:24+00:00;False;1620;173;37287;b656871eec277c1c8a4569afc92d4793b4e1f105;4;noreply@github.com;kotlarmilos@gmail.com
 mini-arm64.c;MODIFY;5757.0;52.0;Grew;True;2024-08-23 20:09:03+00:00;False;1628;173;37653;86b58eeb20e966ea798f61482ac46b80bdd7cbb6;24;noreply@github.com;alklig@microsoft.com
 mini-arm64.c;MODIFY;5760.0;3.0;Grew;True;2024-10-17 12:37:21+00:00;False;1629;173;37671;830ce3a9e49d30edbb7886c7d079d82a261bc4f6;23;noreply@github.com;hamarb123@gmail.com

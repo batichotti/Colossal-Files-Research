@@ -1,17 +1,17 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
 test_in_http.rb;RENAME;not calculated;0.0;Equal;False;2014-04-21 06:53:21+00:00;False;not calculated;0;not calculated;01889e6107836a66747e877f33c5b8735db878ee;24;repeatedly@gmail.com;repeatedly@gmail.com
-test_in_http.rb;MODIFY;140.0;0.0;Grew;False;2014-05-28 03:07:08+00:00;False;13;12;912;f6be8af61db74fa3e92fc9d83aad274a07e9b43c;2;repeatedly@gmail.com;repeatedly@gmail.com
+test_in_http.rb;MODIFY;140.0;0.0;Equal;False;2014-05-28 03:07:08+00:00;False;13;12;912;f6be8af61db74fa3e92fc9d83aad274a07e9b43c;2;repeatedly@gmail.com;repeatedly@gmail.com
 test_in_http.rb;MODIFY;172.0;32.0;Grew;False;2014-06-01 00:04:37+00:00;False;15;14;1128;08056b4ffffb1846eb60b5c36515a1d9dfd98e97;2;me@ktamura.com;me@ktamura.com
 test_in_http.rb;MODIFY;166.0;-6.0;Decreased;False;2014-06-02 15:46:59+00:00;False;15;14;1082;345f3fb650b2c133ad6883fb459637d854d175ef;2;me@ktamura.com;me@ktamura.com
 test_in_http.rb;MODIFY;166.0;0.0;Equal;False;2014-06-27 12:35:12+00:00;False;15;14;1084;09156a364893a10e1ef08bdcd0e3b426832f8a5c;3;repeatedly@gmail.com;repeatedly@gmail.com
 test_in_http.rb;MODIFY;200.0;34.0;Grew;False;2014-08-17 06:22:12+00:00;False;21;17;1257;d5327fa39743751f2b1bb63c1a5c40fbe609f401;1;komamitsu@gmail.com;komamitsu@gmail.com
 test_in_http.rb;MODIFY;200.0;0.0;Equal;False;2014-09-22 14:03:53+00:00;False;21;17;1257;923e8e4bf29f758b811d6fa194c06ed6709e4a54;1;komamitsu@gmail.com;komamitsu@gmail.com
-test_in_http.rb;MODIFY;166.0;-34.0;Equal;False;2014-09-30 06:36:56+00:00;False;15;14;1084;066225d23b5a347145ef1e5504ddf494aa236ce7;25;nahi@ruby-lang.org;nahi@ruby-lang.org
-test_in_http.rb;MODIFY;200.0;34.0;Equal;False;2014-10-04 00:44:45+00:00;False;21;17;1257;4f17c1b513624eb926822255e169e3eb9b1e51b0;8;sonots@gmail.com;sonots@gmail.com
+test_in_http.rb;MODIFY;166.0;-34.0;Decreased;False;2014-09-30 06:36:56+00:00;False;15;14;1084;066225d23b5a347145ef1e5504ddf494aa236ce7;25;nahi@ruby-lang.org;nahi@ruby-lang.org
+test_in_http.rb;MODIFY;200.0;34.0;Grew;False;2014-10-04 00:44:45+00:00;False;21;17;1257;4f17c1b513624eb926822255e169e3eb9b1e51b0;8;sonots@gmail.com;sonots@gmail.com
 test_in_http.rb;MODIFY;201.0;1.0;Grew;False;2014-11-20 00:44:57+00:00;False;21;17;1257;e7346c9540ea4b9ab71388f444de726a021808ff;2;telmox@gmail.com;telmox@gmail.com
-test_in_http.rb;MODIFY;200.0;-1.0;Equal;False;2014-11-26 17:37:07+00:00;False;21;17;1257;b5abaa02aeea78264065bc4509b003c5df6e6f17;35;sonots@gmail.com;sonots@gmail.com
+test_in_http.rb;MODIFY;200.0;-1.0;Decreased;False;2014-11-26 17:37:07+00:00;False;21;17;1257;b5abaa02aeea78264065bc4509b003c5df6e6f17;35;sonots@gmail.com;sonots@gmail.com
 test_in_http.rb;MODIFY;215.0;15.0;Grew;False;2014-12-05 14:04:34+00:00;False;22;18;1368;0732e30d92c3cd98666f14bd277077b91cd4fcb5;2;telmox@gmail.com;telmox@gmail.com
-test_in_http.rb;MODIFY;215.0;0.0;Grew;False;2014-12-09 13:36:41+00:00;False;22;18;1373;7200c1f3e350b2495c4a993cf044ce50ee735a79;2;telmox@gmail.com;telmox@gmail.com
+test_in_http.rb;MODIFY;215.0;0.0;Equal;False;2014-12-09 13:36:41+00:00;False;22;18;1373;7200c1f3e350b2495c4a993cf044ce50ee735a79;2;telmox@gmail.com;telmox@gmail.com
 test_in_http.rb;MODIFY;229.0;14.0;Grew;False;2015-09-24 15:10:01+00:00;False;23;19;1471;4d10e534b91952c8675cd1d45fafccd05a475672;2;guba.sandor@ustream.tv;guba.sandor@ustream.tv
 test_in_http.rb;MODIFY;228.0;-1.0;Decreased;False;2015-09-24 15:22:18+00:00;False;23;19;1469;1ef1de3f20113011df9ff9f8a5e1b8e7866df569;1;guba.sandor@ustream.tv;guba.sandor@ustream.tv
 test_in_http.rb;MODIFY;253.0;25.0;Grew;False;2015-09-25 11:28:25+00:00;False;25;21;1679;6b072f5be79600e8222bb33715564dc52e6b72c9;1;guba.sandor@ustream.tv;guba.sandor@ustream.tv
@@ -23,8 +23,8 @@ test_in_http.rb;MODIFY;264.0;12.0;Grew;False;2015-10-08 06:31:55+00:00;False;26;
 test_in_http.rb;MODIFY;264.0;0.0;Equal;False;2015-10-08 06:31:56+00:00;False;26;22;1828;9a1a4b1a1eb10978fd6e31d9f8d458a2b6dc6fb3;34;yuki@gnnk.net;yuki@gnnk.net
 test_in_http.rb;MODIFY;264.0;0.0;Equal;False;2016-03-09 03:39:41+00:00;False;26;22;1828;7524562915ac4ec8b9565751443d2a19b8db9147;2;hatake@clear-code.com;hatake@clear-code.com
 test_in_http.rb;MODIFY;264.0;0.0;Equal;False;2016-03-09 04:14:40+00:00;False;26;22;1828;7b3ad478bcfe712384bd11750f4087a22c484cf8;1;hatake@clear-code.com;hatake@clear-code.com
-test_in_http.rb;MODIFY;269.0;5.0;Decreased;False;2016-03-09 07:16:52+00:00;False;26;22;1816;e4dc767436ce7d05f1ec51b4d92f97f35120ffde;2;hatake@clear-code.com;hatake@clear-code.com
-test_in_http.rb;MODIFY;265.0;-4.0;Grew;False;2016-03-09 19:55:40+00:00;False;26;22;1830;c69576e288b4ee876e13c69f8a46d27cf7f7e583;24;tagomoris@gmail.com;tagomoris@gmail.com
+test_in_http.rb;MODIFY;269.0;5.0;Grew;False;2016-03-09 07:16:52+00:00;False;26;22;1816;e4dc767436ce7d05f1ec51b4d92f97f35120ffde;2;hatake@clear-code.com;hatake@clear-code.com
+test_in_http.rb;MODIFY;265.0;-4.0;Decreased;False;2016-03-09 19:55:40+00:00;False;26;22;1830;c69576e288b4ee876e13c69f8a46d27cf7f7e583;24;tagomoris@gmail.com;tagomoris@gmail.com
 test_in_http.rb;MODIFY;265.0;0.0;Equal;False;2016-03-24 08:45:49+00:00;False;26;22;1830;76c3ac29921bc9e2f76edc32fd04583b9363645f;31;okimoto@clear-code.com;okimoto@clear-code.com
 test_in_http.rb;MODIFY;309.0;44.0;Grew;False;2016-04-05 03:12:55+00:00;False;30;24;2003;be99c0ac44772e2d777b5f7cd0d11509553f3343;2;filepang@lycos.co.kr;filepang@lycos.co.kr
 test_in_http.rb;MODIFY;319.0;10.0;Grew;False;2016-05-10 16:47:13+00:00;False;32;26;2044;83c711e403d60de37f765a792c30450b1ef981b2;10;narittan@gmail.com;narittan@gmail.com

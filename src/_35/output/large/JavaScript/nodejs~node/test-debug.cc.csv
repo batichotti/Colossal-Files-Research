@@ -1,10 +1,10 @@
 file_name;change_type;n_loc;lines_balance;size_change;is_large;date;swapped_classification;complexity;methods;tokens;hash;files_on_commit;committer_email;author_email
-test-debug.cc;ADD;2836;0.0;Grew;False;2009-04-22 17:35:47+00:00;False;204;141;21607;40c0f755c998d2615fe8466aab20c6d81bd463e7;763;ry@tinyclouds.org;ry@tinyclouds.org
+test-debug.cc;ADD;2836;0.0;Equal;False;2009-04-22 17:35:47+00:00;False;204;141;21607;40c0f755c998d2615fe8466aab20c6d81bd463e7;763;ry@tinyclouds.org;ry@tinyclouds.org
 test-debug.cc;MODIFY;3145;309.0;Grew;False;2009-05-11 22:12:56+00:00;False;228;155;23891;3a41367c40863efc08d1f0922a91b5b0bdca6c80;251;ry@tinyclouds.org;ry@tinyclouds.org
 test-debug.cc;MODIFY;3465;320.0;Grew;False;2009-06-08 16:34:06+00:00;False;271;177;26380;696f02455792b368249bf9b013dde637b5ec31fd;310;ry@tinyclouds.org;ry@tinyclouds.org
 test-debug.cc;MODIFY;3511;46.0;Grew;True;2009-06-17 16:15:28+00:00;True;276;179;26710;84f9178e664e7a779cff10656848f89eb6795a73;109;ry@tinyclouds.org;ry@tinyclouds.org
 test-debug.cc;MODIFY;3532;21.0;Grew;True;2009-06-29 08:55:05+00:00;False;277;180;26864;e763efdadf4bbd9c0155a4c7f782d271a2fd5814;162;ry@tinyclouds.org;ry@tinyclouds.org
-test-debug.cc;MODIFY;3531;-1.0;Grew;True;2009-07-20 11:18:42+00:00;False;277;180;26858;88e9a5f122822b96e0ccfbba2083fe6ef43f3fdc;153;ry@tinyclouds.org;ry@tinyclouds.org
+test-debug.cc;MODIFY;3531;-1.0;Decreased;True;2009-07-20 11:18:42+00:00;False;277;180;26858;88e9a5f122822b96e0ccfbba2083fe6ef43f3fdc;153;ry@tinyclouds.org;ry@tinyclouds.org
 test-debug.cc;MODIFY;3563;32.0;Grew;True;2009-07-31 12:36:48+00:00;False;284;182;27118;2ebd6921510f9efbf1ef7eb6988ccecac25ee988;124;ry@tinyclouds.org;ry@tinyclouds.org
 test-debug.cc;MODIFY;3578;15.0;Grew;True;2009-08-19 14:37:15+00:00;False;285;183;27240;0cec74d03dc6a1735e731fe06056a1731e14c0df;110;ry@tinyclouds.org;ry@tinyclouds.org
 test-debug.cc;MODIFY;3578;0.0;Equal;True;2009-08-25 11:47:18+00:00;False;285;183;27248;b5b65ddcd776e59d35200105ed3420c04d07cae9;45;ry@tinyclouds.org;ry@tinyclouds.org
@@ -30,7 +30,7 @@ test-debug.cc;MODIFY;4161;30.0;Grew;True;2010-05-10 16:58:20+00:00;False;341;217
 test-debug.cc;MODIFY;4178;17.0;Grew;True;2010-05-21 16:41:50+00:00;False;343;219;31216;2b34363d03e0718c9e9f39982c723b806558c759;176;ry@tinyclouds.org;ry@tinyclouds.org
 test-debug.cc;MODIFY;4179;1.0;Grew;True;2010-06-09 07:52:06+00:00;False;343;219;31220;0bb47b6c975ea1c7eaedc5e80e75c9fd5063e6bc;83;ry@tinyclouds.org;ry@tinyclouds.org
 test-debug.cc;MODIFY;4423;244.0;Grew;True;2010-06-09 17:09:37+00:00;False;352;228;32781;cd232a9ccecb5102170d4d40c91f06bb538104e0;61;ry@tinyclouds.org;ry@tinyclouds.org
-test-debug.cc;MODIFY;4423;0.0;Decreased;True;2010-06-16 18:46:01+00:00;False;352;228;32781;1c6671aa67c3d7f731fec415a58f7676e1468a15;48;ry@tinyclouds.org;ry@tinyclouds.org
+test-debug.cc;MODIFY;4423;0.0;Equal;True;2010-06-16 18:46:01+00:00;False;352;228;32781;1c6671aa67c3d7f731fec415a58f7676e1468a15;48;ry@tinyclouds.org;ry@tinyclouds.org
 test-debug.cc;MODIFY;4455;32.0;Grew;True;2010-06-24 03:32:06+00:00;False;353;229;33042;2c0d91be6c8972f325b64a15c798f45e68bf183a;72;ry@tinyclouds.org;ry@tinyclouds.org
 test-debug.cc;MODIFY;4479;24.0;Grew;True;2010-07-07 17:47:38+00:00;False;354;230;33188;facb904c5db23345a693bf3aa02b1497af12fddd;85;ry@tinyclouds.org;ry@tinyclouds.org
 test-debug.cc;MODIFY;4533;54.0;Grew;True;2010-07-16 01:52:48+00:00;False;358;232;33563;dcd41ca864749b130b943c1e41eb993388f7e9d8;36;ry@tinyclouds.org;ry@tinyclouds.org
@@ -51,7 +51,7 @@ test-debug.cc;MODIFY;4851;-56.0;Decreased;True;2011-07-05 21:51:29+00:00;False;3
 test-debug.cc;MODIFY;4928;77.0;Grew;True;2011-07-08 23:40:11+00:00;False;400;253;36588;e5564a3f29e0a818832a97c7c3b28d7c8b3b0460;760;ry@tinyclouds.org;ry@tinyclouds.org
 test-debug.cc;MODIFY;4929;1.0;Grew;True;2011-08-12 06:59:21+00:00;False;400;253;36596;89bed195134317a10e6ffffe23a90473790f0a7f;103;ry@tinyclouds.org;ry@tinyclouds.org
 test-debug.cc;MODIFY;4929;0.0;Equal;True;2011-08-29 22:47:16+00:00;False;400;253;36596;da00ff4999bd26e2c17df1f84d090d3b3296e043;74;ry@tinyclouds.org;ry@tinyclouds.org
-test-debug.cc;MODIFY;4929;0.0;Grew;True;2011-09-15 16:42:06+00:00;False;400;253;36596;1b15af9dd2bf4adb7a2e73ae17a12e2e98a88f72;201;ry@tinyclouds.org;ry@tinyclouds.org
+test-debug.cc;MODIFY;4929;0.0;Equal;True;2011-09-15 16:42:06+00:00;False;400;253;36596;1b15af9dd2bf4adb7a2e73ae17a12e2e98a88f72;201;ry@tinyclouds.org;ry@tinyclouds.org
 test-debug.cc;MODIFY;4924;-5.0;Decreased;True;2011-10-10 18:52:42+00:00;False;399;252;36586;56e6952e639ba1557a5b22333788583e9e39fa29;282;ry@tinyclouds.org;ry@tinyclouds.org
 test-debug.cc;MODIFY;4929;5.0;Grew;True;2011-10-11 00:58:30+00:00;False;400;253;36596;3b1d656da56bdd403d1625a0c6a44d75cde36cc1;282;ry@tinyclouds.org;ry@tinyclouds.org
 test-debug.cc;MODIFY;4924;-5.0;Decreased;True;2011-10-14 00:45:02+00:00;False;399;252;36586;33b5f2f7799081eafe04df3278aad40fd4ae3b55;306;ry@tinyclouds.org;ry@tinyclouds.org
@@ -65,9 +65,9 @@ test-debug.cc;MODIFY;4914;-7.0;Decreased;True;2012-02-01 02:35:04+00:00;False;39
 test-debug.cc;MODIFY;4963;49.0;Grew;True;2012-02-06 23:21:49+00:00;False;403;254;36821;8be699494ec67c3ba895bd8e1c9e3e73b02311d3;130;i@izs.me;i@izs.me
 test-debug.cc;MODIFY;4963;0.0;Equal;True;2012-02-27 20:11:09+00:00;False;403;254;36821;f4641bd4de566145e99b05c47c8f3d629b0223cd;179;i@izs.me;i@izs.me
 test-debug.cc;MODIFY;4963;0.0;Equal;True;2012-03-13 04:46:36+00:00;False;402;254;36817;e4fc2cbfd354d8ad74c465e508531d92de2b4d52;194;i@izs.me;i@izs.me
-test-debug.cc;MODIFY;4963;0.0;Grew;True;2012-05-16 21:22:33+00:00;False;402;254;36817;3f3f958c14cf4e963a73d6f037ac381c77fe78bb;297;i@izs.me;i@izs.me
-test-debug.cc;MODIFY;4963;0.0;Decreased;True;2012-06-09 15:09:42+00:00;False;402;254;36817;940a6863ead6622e5439e07be631359c31e63b68;253;i@izs.me;i@izs.me
-test-debug.cc;MODIFY;4963;0.0;Grew;True;2012-06-13 23:37:13+00:00;False;402;254;36817;50464cd4f49e40f4fe792ff46a81052319a222e9;373;bertbelder@gmail.com;bertbelder@gmail.com
+test-debug.cc;MODIFY;4963;0.0;Equal;True;2012-05-16 21:22:33+00:00;False;402;254;36817;3f3f958c14cf4e963a73d6f037ac381c77fe78bb;297;i@izs.me;i@izs.me
+test-debug.cc;MODIFY;4963;0.0;Equal;True;2012-06-09 15:09:42+00:00;False;402;254;36817;940a6863ead6622e5439e07be631359c31e63b68;253;i@izs.me;i@izs.me
+test-debug.cc;MODIFY;4963;0.0;Equal;True;2012-06-13 23:37:13+00:00;False;402;254;36817;50464cd4f49e40f4fe792ff46a81052319a222e9;373;bertbelder@gmail.com;bertbelder@gmail.com
 test-debug.cc;MODIFY;4986;23.0;Grew;True;2012-07-17 18:43:02+00:00;False;406;257;36959;a0a0062d612cf76f8161af3be7896bd15a2682a1;7;i@izs.me;i@izs.me
 test-debug.cc;MODIFY;5018;32.0;Grew;True;2012-09-20 23:52:24+00:00;False;410;261;37144;3411a03dd114d635800cc50749d2351cd734eb2a;380;bertbelder@gmail.com;i@izs.me
 test-debug.cc;MODIFY;5088;70.0;Grew;True;2013-01-01 12:07:02+00:00;False;416;265;37581;7b4d95a976f1b76e6dcefb6ca91dff738c80ab7a;494;fedor.indutny@gmail.com;fedor.indutny@gmail.com
@@ -77,14 +77,14 @@ test-debug.cc;MODIFY;5119;23.0;Grew;True;2013-05-13 01:28:40+00:00;False;416;265
 test-debug.cc;MODIFY;5119;0.0;Equal;True;2013-05-22 20:13:11+00:00;False;416;265;38614;506fc4de1e820d97b637f6e01dda2ab97667efa7;194;trev.norris@gmail.com;trev.norris@gmail.com
 test-debug.cc;MODIFY;5130;11.0;Grew;True;2013-06-11 21:46:00+00:00;False;416;265;38708;6dd78074a3c0a7579ca5e919021587c22ff763ae;310;info@bnoordhuis.nl;info@bnoordhuis.nl
 test-debug.cc;MODIFY;5135;5.0;Grew;True;2013-07-06 14:53:06+00:00;False;417;266;38738;704fd8f3745527fc080f96e54e5ec1857c505399;1184;info@bnoordhuis.nl;info@bnoordhuis.nl
-test-debug.cc;MODIFY;5134;-1.0;Grew;True;2013-07-22 22:53:10+00:00;False;417;266;38728;5777d7ab3038983d368046ab40eb34075f635348;463;trev.norris@gmail.com;trev.norris@gmail.com
+test-debug.cc;MODIFY;5134;-1.0;Decreased;True;2013-07-22 22:53:10+00:00;False;417;266;38728;5777d7ab3038983d368046ab40eb34075f635348;463;trev.norris@gmail.com;trev.norris@gmail.com
 test-debug.cc;MODIFY;5082;-52.0;Decreased;True;2013-10-23 16:17:31+00:00;False;417;265;38433;a53c763c16eeabb0901a05dbcf38a72fa96d2f26;433;tjfontaine@gmail.com;tjfontaine@gmail.com
 test-debug.cc;MODIFY;5109;27.0;Grew;True;2013-11-11 01:40:36+00:00;False;415;263;38731;f230a1cf749e984439b5bb9729d9db9f48472827;474;info@bnoordhuis.nl;info@bnoordhuis.nl
 test-debug.cc;MODIFY;5251;142.0;Grew;True;2014-03-13 16:56:54+00:00;False;407;259;40188;1c7bf245dc2d520c005e01bcb56ecb3275971395;1130;fedor.indutny@gmail.com;fedor.indutny@gmail.com
 test-debug.cc;MODIFY;5220;-31.0;Decreased;True;2014-04-01 20:05:24+00:00;False;403;260;39849;67e078094b53861a5aa7e9354e33487d0bd4f73b;689;fedor@indutny.com;info@bnoordhuis.nl
 test-debug.cc;MODIFY;5241;21.0;Grew;True;2014-06-13 00:46:17+00:00;False;406;263;39996;3a280b2034e3ea438cd3a2e7acd1a4cd40112ac5;835;fedor@indutny.com;info@bnoordhuis.nl
 test-debug.cc;MODIFY;5068;-173.0;Decreased;True;2014-10-08 11:35:57+00:00;False;394;251;38866;939278ac059b44439d41aab12bf552c8ae3c52d0;1662;fedor@indutny.com;refack@gmail.com
-test-debug.cc;MODIFY;5068;0.0;Decreased;True;2014-10-08 11:44:38+00:00;False;394;251;38866;9116b240c924d37627313416b7ee038d0580afbc;1662;fedor@indutny.com;refack@gmail.com
+test-debug.cc;MODIFY;5068;0.0;Equal;True;2014-10-08 11:44:38+00:00;False;394;251;38866;9116b240c924d37627313416b7ee038d0580afbc;1662;fedor@indutny.com;refack@gmail.com
 test-debug.cc;MODIFY;5156;88.0;Grew;True;2014-10-10 10:49:02+00:00;False;400;255;39471;6bcea4ff932144a5fd02affefd45164fbf471e67;1288;fedor@indutny.com;fedor@indutny.com
 test-debug.cc;MODIFY;5235;79.0;Grew;True;2014-11-14 15:34:58+00:00;False;408;262;40003;5d1b6d3e0fa4b97a490ef964be48aed9872e3ec1;888;info@bnoordhuis.nl;info@bnoordhuis.nl
 test-debug.cc;MODIFY;5280;45.0;Grew;True;2015-01-07 21:11:18+00:00;False;412;264;40313;dad73f645cde6920e79db956e7ef82ed640d7615;827;info@bnoordhuis.nl;info@bnoordhuis.nl
@@ -92,12 +92,12 @@ test-debug.cc;MODIFY;5279;-1.0;Decreased;True;2015-04-28 21:38:16+00:00;False;41
 test-debug.cc;MODIFY;5274;-5.0;Decreased;True;2015-08-04 18:56:09+00:00;False;409;261;40268;d58e780504bdba6c5897c48428fd984c5b5f96fe;822;rod@vagg.org;christopher.s.dickinson@gmail.com
 test-debug.cc;MODIFY;5214;-60.0;Decreased;True;2015-08-04 18:56:14+00:00;False;405;259;39877;70d1f32f5605465a1a630a64f6f0d35f96c7709d;986;rod@vagg.org;info@bnoordhuis.nl
 test-debug.cc;MODIFY;5258;44.0;Grew;True;2015-09-06 11:38:01+00:00;False;407;262;40465;9fddd83cf9adf505bce2e2373881df0c4d41b261;1284;rod@vagg.org;ofrobots@google.com
-test-debug.cc;MODIFY;5254;-4.0;Grew;True;2015-10-14 18:20:34+00:00;False;415;276;40250;d8011d1683fe0d977de2bea1147f5213d4490c5a;1058;ofrobots@google.com;mic.besace@gmail.com
+test-debug.cc;MODIFY;5254;-4.0;Decreased;True;2015-10-14 18:20:34+00:00;False;415;276;40250;d8011d1683fe0d977de2bea1147f5213d4490c5a;1058;ofrobots@google.com;mic.besace@gmail.com
 test-debug.cc;MODIFY;5256;2.0;Grew;True;2015-12-04 08:06:01+00:00;False;415;276;40273;8a43a3d7619fde59f0d1f2fad05d8ae7d1732b02;978;ofrobots@google.com;ofrobots@google.com
 test-debug.cc;MODIFY;5262;6.0;Grew;True;2016-01-22 00:53:58+00:00;False;415;276;40320;ef4170ea03a80b21b2d8a65ce432efaa370fe2fa;1316;ofrobots@google.com;ofrobots@google.com
 test-debug.cc;MODIFY;5673;411.0;Grew;True;2016-03-04 04:35:20+00:00;False;416;277;45463;069e02ab47656b3efd1b6829c65856b2e1c2d1db;1562;ofrobots@lemonhope.roam.corp.google.com;ofrobots@google.com
 test-debug.cc;MODIFY;5684;11.0;Grew;True;2016-03-04 04:35:20+00:00;False;417;278;45555;f8e8075a62f910b33e6a2a93afdfe7b4df482264;26;ofrobots@lemonhope.roam.corp.google.com;ofrobots@google.com
-test-debug.cc;MODIFY;5690;6.0;Decreased;True;2016-04-14 17:03:39+00:00;False;418;277;45615;52af5c4eebf4de8638aef0338bd826656312a02a;1008;ofrobots@google.com;ofrobots@google.com
+test-debug.cc;MODIFY;5690;6.0;Grew;True;2016-04-14 17:03:39+00:00;False;418;277;45615;52af5c4eebf4de8638aef0338bd826656312a02a;1008;ofrobots@google.com;ofrobots@google.com
 test-debug.cc;MODIFY;5792;102.0;Grew;True;2016-06-29 07:04:28+00:00;False;420;279;45944;2cc29517966de7257a2f1b34c58c77225a21e05d;1487;targos@protonmail.com;targos@protonmail.com
 test-debug.cc;MODIFY;5820;28.0;Grew;True;2016-08-17 07:38:07+00:00;False;424;281;46097;a1d3a8db50fcbb3fb0639cb1bd8077d2c290a21b;3;targos@protonmail.com;targos@protonmail.com
 test-debug.cc;MODIFY;5803;-17.0;Decreased;True;2016-09-22 07:51:19+00:00;False;424;282;46169;ec02b811a8a5c999bab4de312be2d732b7d9d50b;2386;targos@protonmail.com;targos@protonmail.com
