@@ -9,8 +9,8 @@ SEPARATOR = ';'
 input_path: str = "./src/_40/input/"
 output_path = "./src/_40/output/"
 
-repositories_path: str = "./src/_00/input/avalonia.csv"
-# repositories_path:str = "./src/_00/input/450-linux-pytorch.csv"
+# repositories_path: str = "./src/_00/input/avalonia.csv"
+repositories_path:str = "./src/_00/input/450-linux-pytorch.csv"
 language_white_list_path: str = "./src/_12/input/white_list.csv"
 percentil_path: str = "./src/_02/output/percentis_by_language_filtered.csv"
 large_filtered_path: str = "./src/_39/output/large/"
@@ -23,7 +23,7 @@ percentil_df = pd.read_csv(percentil_path)
 
 repositories: pd.DataFrame = pd.read_csv(repositories_path)
 
-# ======================================================================================================================
+# FILE =================================================================================================================
 
 for i, row in repositories.iterrows():
     repo_url: str = row['url']
@@ -118,8 +118,8 @@ for i, row in repositories.iterrows():
 
                         summary_df = pd.DataFrame([summary_data])
                         summary_df.to_csv(f"{output_path}large/{repo_path}/{large_file_name}.csv", index=False, sep=SEPARATOR)
-
-# PROJECT ============================================================================================================
+'''
+# PROJECT ==============================================================================================================
 
 project_append: list[pd.DataFrame] = []
 
@@ -193,7 +193,7 @@ for i, row in repositories.iterrows():
             # Salva o resultado
             summary_df.to_csv(f"{output_path}large/{repo_path}.csv", index=False, sep=SEPARATOR)
 
-# LANGUAGE ===========================================================================================================
+# LANGUAGE =============================================================================================================
 language_append: list[pd.DataFrame] = []
 current_language = ""
 
@@ -261,3 +261,4 @@ for i, row in repositories.iterrows():
 
                 summary_df = pd.DataFrame([summary_columns])
                 summary_df.to_csv(f"{output_path}large/{language}.csv", index=False, sep=SEPARATOR)
+'''
