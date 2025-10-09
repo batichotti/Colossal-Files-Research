@@ -118,7 +118,7 @@ for i, row in repositories.iterrows():
 
                         summary_df = pd.DataFrame([summary_data])
                         summary_df.to_csv(f"{output_path}large/{repo_path}/{large_file_name}.csv", index=False, sep=SEPARATOR)
-'''
+
 # PROJECT ==============================================================================================================
 
 project_append: list[pd.DataFrame] = []
@@ -196,6 +196,7 @@ for i, row in repositories.iterrows():
 # LANGUAGE =============================================================================================================
 language_append: list[pd.DataFrame] = []
 current_language = ""
+language_files = []
 
 for i, row in repositories.iterrows():
     repo_url: str = row['url']
@@ -208,57 +209,106 @@ for i, row in repositories.iterrows():
     if path.exists(f"{large_filtered_path}{repo_path}"):
         large_file_list = pd.read_csv(f"{large_files_path}{repo_path}.csv", sep="|")
         if not large_file_list.empty:
-            language_files = []
             for large_file_name in large_file_list["path"].apply(lambda x: x.split("/")[-1]).values:
                 print(large_file_name)
                 file_path = f"{output_path}large/{repo_path}/{large_file_name}.csv"
                 if path.exists(file_path):
                     large_file_data = pd.read_csv(file_path, sep=SEPARATOR)
                     if not large_file_data.empty:
+                        # Se mudou de linguagem, salva o append e troca o current_language
+                        if current_language and language != current_language:
+                            if language_files:
+                                language_df = pd.concat(language_files)
+                                print(f"Linguagem: {current_language}")
+
+                                born_class_major = language_df["born_class"].mode().iloc[0] if not language_df["born_class"].mode().empty else None
+                                final_class_major = language_df["final_class"].mode().iloc[0] if not language_df["final_class"].mode().empty else None
+
+                                summary_columns = {
+                                    "language": current_language,
+
+                                    "changes_count_mean": language_df["changes_count"].mean(),
+                                    "changes_count_median": language_df["changes_count"].median(),
+                                    "changes_count_min": language_df["changes_count"].min(),
+                                    "changes_count_max": language_df["changes_count"].max(),
+
+                                    "born_class_major": born_class_major,
+
+                                    "initial_size_mean": language_df["initial_size"].mean(),
+                                    "initial_size_median": language_df["initial_size"].median(),
+                                    "initial_size_min": language_df["initial_size"].min(),
+                                    "initial_size_max": language_df["initial_size"].max(),
+
+                                    "final_class_major": final_class_major,
+
+                                    "final_size_mean": language_df["final_size"].mean(),
+                                    "final_size_median": language_df["final_size"].median(),
+                                    "final_size_min": language_df["final_size"].min(),
+                                    "final_size_max": language_df["final_size"].max(),
+
+                                    "mean_size": language_df["mean_size"].mean(),
+                                    "median_size": language_df["median_size"].median(),
+                                    "min_size": language_df["min_size"].min(),
+                                    "max_size": language_df["max_size"].max(),
+
+                                    "first_commit": language_df["first_commit"].min(),
+                                    "last_commit": language_df["last_commit"].max(),
+
+                                    "mean_delta_time": language_df["mean_delta_time"].mean(),
+                                    "median_delta_time": language_df["median_delta_time"].median(),
+                                    "min_delta_time": language_df["min_delta_time"].min(),
+                                    "max_delta_time": language_df["max_delta_time"].max()
+                                }
+
+                                summary_df = pd.DataFrame([summary_columns])
+                                summary_df.to_csv(f"{output_path}large/{current_language}.csv", index=False, sep=SEPARATOR)
+                            language_files = []
+                        current_language = language
                         language_files.append(large_file_data)
-            if language_files:
-                language_df = pd.concat(language_files)
-                print(f"Linguagem: {language}")
 
-                born_class_major = language_df["born_class"].mode().iloc[0] if not language_df["born_class"].mode().empty else None
-                final_class_major = language_df["final_class"].mode().iloc[0] if not language_df["final_class"].mode().empty else None
+# Salva o último append
+if current_language and language_files:
+    language_df = pd.concat(language_files)
+    print(f"Linguagem: {current_language}")
 
-                summary_columns = {
-                    "language": language,
+    born_class_major = language_df["born_class"].mode().iloc[0] if not language_df["born_class"].mode().empty else None
+    final_class_major = language_df["final_class"].mode().iloc[0] if not language_df["final_class"].mode().empty else None
 
-                    "changes_count_mean": language_df["changes_count"].mean(),
-                    "changes_count_median": language_df["changes_count"].median(),
-                    "changes_count_min": language_df["changes_count"].min(),
-                    "changes_count_max": language_df["changes_count"].max(),
+    summary_columns = {
+        "language": current_language,
 
-                    "born_class_major": born_class_major,
+        "changes_count_mean": language_df["changes_count"].mean(),
+        "changes_count_median": language_df["changes_count"].median(),
+        "changes_count_min": language_df["changes_count"].min(),
+        "changes_count_max": language_df["changes_count"].max(),
 
-                    "initial_size_mean": language_df["initial_size"].mean(),
-                    "initial_size_median": language_df["initial_size"].median(),
-                    "initial_size_min": language_df["initial_size"].min(),
-                    "initial_size_max": language_df["initial_size"].max(),
+        "born_class_major": born_class_major,
 
-                    "final_class_major": final_class_major,
+        "initial_size_mean": language_df["initial_size"].mean(),
+        "initial_size_median": language_df["initial_size"].median(),
+        "initial_size_min": language_df["initial_size"].min(),
+        "initial_size_max": language_df["initial_size"].max(),
 
-                    "final_size_mean": language_df["final_size"].mean(),
-                    "final_size_median": language_df["final_size"].median(),
-                    "final_size_min": language_df["final_size"].min(),
-                    "final_size_max": language_df["final_size"].max(),
+        "final_class_major": final_class_major,
 
-                    "mean_size": language_df["mean_size"].mean(),
-                    "median_size": language_df["median_size"].median(),
-                    "min_size": language_df["min_size"].min(),
-                    "max_size": language_df["max_size"].max(),
+        "final_size_mean": language_df["final_size"].mean(),
+        "final_size_median": language_df["final_size"].median(),
+        "final_size_min": language_df["final_size"].min(),
+        "final_size_max": language_df["final_size"].max(),
 
-                    "first_commit": language_df["first_commit"].min(),
-                    "last_commit": language_df["last_commit"].max(),
+        "mean_size": language_df["mean_size"].mean(),
+        "median_size": language_df["median_size"].median(),
+        "min_size": language_df["min_size"].min(),
+        "max_size": language_df["max_size"].max(),
 
-                    "mean_delta_time": language_df["mean_delta_time"].mean(),
-                    "median_delta_time": language_df["median_delta_time"].median(),
-                    "min_delta_time": language_df["min_delta_time"].min(),
-                    "max_delta_time": language_df["max_delta_time"].max()
-                }
+        "first_commit": language_df["first_commit"].min(),
+        "last_commit": language_df["last_commit"].max(),
 
-                summary_df = pd.DataFrame([summary_columns])
-                summary_df.to_csv(f"{output_path}large/{language}.csv", index=False, sep=SEPARATOR)
-'''
+        "mean_delta_time": language_df["mean_delta_time"].mean(),
+        "median_delta_time": language_df["median_delta_time"].median(),
+        "min_delta_time": language_df["min_delta_time"].min(),
+        "max_delta_time": language_df["max_delta_time"].max()
+    }
+
+    summary_df = pd.DataFrame([summary_columns])
+    summary_df.to_csv(f"{output_path}large/{current_language}.csv", index=False, sep=SEPARATOR)
