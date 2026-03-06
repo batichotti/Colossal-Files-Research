@@ -38,7 +38,7 @@ def process_repository(i):
     # Start timer
     start = datetime.now()
 
-    # Getting repository information
+    # Getting repository information 
     main_language: str = repositories['main language'].loc[i]
     owner: str = repositories['owner'].loc[i]
     project: str = repositories['project'].loc[i]
