@@ -1,16 +1,2 @@
-repo_path,path,original_path
-Python/huggingface~transformers,src/transformers/models/deta/modeling_deta.py,src/transformers/models/deprecated/deta/modeling_deta.py
-Python/huggingface~transformers,src/transformers/models/jukebox/modeling_jukebox.py,src/transformers/models/deprecated/jukebox/modeling_jukebox.py
-Python/huggingface~transformers,src/transformers/modeling_reformer.py,src/transformers/models/reformer/modeling_reformer.py
-Python/huggingface~transformers,src/transformers/modeling_t5.py,src/transformers/models/t5/modeling_t5.py
-Python/huggingface~transformers,src/transformers/modeling_tf_longformer.py,src/transformers/models/longformer/modeling_tf_longformer.py
-Python/huggingface~transformers,transformers/modeling_tf_utils.py,src/transformers/modeling_tf_utils.py
-Python/huggingface~transformers,transformers/modeling_utils.py,src/transformers/modeling_utils.py
-Python/huggingface~transformers,tests/test_data_collator.py,tests/trainer/test_data_collator.py
-Python/huggingface~transformers,tests/modeling_common_test.py,tests/test_modeling_common.py
-Python/huggingface~transformers,tests/test_modeling_utils.py,tests/utils/test_modeling_utils.py
-Python/huggingface~transformers,tests/test_pipelines_automatic_speech_recognition.py,tests/pipelines/test_pipelines_automatic_speech_recognition.py
-Python/huggingface~transformers,tests/tokenization_tests_commons.py,tests/test_tokenization_common.py
-Python/huggingface~transformers,tests/layoutlmv2/test_tokenization_layoutlmv2.py,tests/models/layoutlmv2/test_tokenization_layoutlmv2.py
-Python/huggingface~transformers,tests/test_trainer.py,tests/trainer/test_trainer.py
-Python/huggingface~transformers,tests/generation/test_generation_utils.py,tests/generation/test_utils.py
+project_name;changes_count_mean;changes_count_median;changes_count_min;changes_count_max;p99;born_class_major;initial_size_mean;initial_size_median;initial_size_min;initial_size_max;final_class_major;final_size_mean;final_size_median;final_size_min;final_size_max;mean_size;median_size;min_size;max_size;first_commit;last_commit;mean_delta_time;median_delta_time;min_delta_time;max_delta_time
+huggingface~transformers;100.0427390422711;31.0;1;4444;913.0;large;2627.0920293245986;1125.0;0;147868;large;4084.4110123225705;2003.0;0;149562;3392.9049052574155;1655.5;0;532136;1998-12-21 10:52:47+00:00;2024-12-21 23:35:15+00:00;69.07539438282994;8.0;0;3840

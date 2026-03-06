@@ -1,13 +1,2 @@
-repo_path,path,original_path
-C++/facebook~rocksdb,java/org/rocksdb/DBOptions.java,java/src/main/java/org/rocksdb/DBOptions.java
-C++/facebook~rocksdb,java/org/rocksdb/benchmark/DbBenchmark.java,java/benchmark/src/main/java/org/rocksdb/benchmark/DbBenchmark.java
-C++/facebook~rocksdb,java/org/rocksdb/Options.java,java/src/main/java/org/rocksdb/Options.java
-C++/facebook~rocksdb,java/org/rocksdb/test/OptionsTest.java,java/src/test/java/org/rocksdb/OptionsTest.java
-C++/facebook~rocksdb,java/org/rocksdb/RocksDB.java,java/src/main/java/org/rocksdb/RocksDB.java
-C++/facebook~rocksdb,java/org/rocksdb/test/RocksDBTest.java,java/src/test/java/org/rocksdb/RocksDBTest.java
-C++/facebook~rocksdb,db/compaction_picker_test.cc,db/compaction/compaction_picker_test.cc
-C++/facebook~rocksdb,db/db_bench.cc,tools/db_bench_tool.cc
-C++/facebook~rocksdb,db/db_impl.cc,db/db_impl/db_impl.cc
-C++/facebook~rocksdb,third-party/gtest-1.7.0/fused-src/gtest/gtest-all.cc,third-party/gtest-1.8.1/fused-src/gtest/gtest-all.cc
-C++/facebook~rocksdb,util/ldb_cmd.cc,tools/ldb_cmd.cc
-C++/facebook~rocksdb,util/options_test.cc,options/options_test.cc
+project_name;changes_count_mean;changes_count_median;changes_count_min;changes_count_max;p99;born_class_major;initial_size_mean;initial_size_median;initial_size_min;initial_size_max;final_class_major;final_size_mean;final_size_median;final_size_min;final_size_max;mean_size;median_size;min_size;max_size;first_commit;last_commit;mean_delta_time;median_delta_time;min_delta_time;max_delta_time
+facebook~rocksdb;130.97006948156067;31.0;1;4444;913.0;large;3603.028327097809;1865.0;0;101726;large;4981.230358097274;3219.0;0;132916;4534.166329418453;2639.0;0;532136;1998-12-21 10:52:47+00:00;2024-12-21 15:15:44+00:00;77.77241263865048;8.0;0;3840

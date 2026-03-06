@@ -1,14 +1,2 @@
-repo_path,path,original_path
-Java/netty~netty,buffer/src/main/java/io/netty/buffer/AbstractChannelBuffer.java,buffer/src/main/java/io/netty/buffer/AbstractByteBuf.java
-Java/netty~netty,buffer/src/test/java/io/netty/buffer/AbstractChannelBufferTest.java,buffer/src/test/java/io/netty/buffer/AbstractByteBufTest.java
-Java/netty~netty,buffer/src/test/java/io/netty/buffer/AbstractCompositeChannelBufferTest.java,buffer/src/test/java/io/netty/buffer/AbstractCompositeByteBufTest.java
-Java/netty~netty,codec/src/main/java/io/netty/handler/codec/AsciiString.java,common/src/main/java/io/netty/util/AsciiString.java
-Java/netty~netty,buffer/src/main/java/io/netty/buffer/ByteBufUtil.java,buffer/src/main/java/io/netty/buffer/BufUtil.java
-Java/netty~netty,buffer/src/main/java/io/netty/buffer/CompositeChannelBuffer.java,buffer/src/main/java/io/netty/buffer/CompositeByteBuf.java
-Java/netty~netty,src/main/java/io/netty/channel/DefaultChannelPipeline.java,transport/src/main/java/io/netty/channel/DefaultChannelPipeline.java
-Java/netty~netty,src/test/java/io/netty/channel/DefaultChannelPipelineTest.java,transport/src/test/java/io/netty/channel/DefaultChannelPipelineTest.java
-Java/netty~netty,resolver-dns/src/main/java/io/netty/resolver/dns/DnsNameResolverContext.java,resolver-dns/src/main/java/io/netty/resolver/dns/DnsResolveContext.java
-Java/netty~netty,codec-http2/src/main/java/io/netty/handler/codec/http2/internal/hpack/HuffmanDecoder.java,codec-http2/src/main/java/io/netty/handler/codec/http2/HpackHuffmanDecoder.java
-Java/netty~netty,transport/src/test/java/io/netty/channel/local/LocalChannelRegistryTest.java,transport/src/test/java/io/netty/channel/local/LocalChannelTest.java
-Java/netty~netty,common/src/main/java/io/netty/util/internal/DetectionUtil.java,common/src/main/java/io/netty/util/internal/PlatformDependent.java
-Java/netty~netty,src/main/java/io/netty/handler/ssl/SslHandler.java,handler/src/main/java/io/netty/handler/ssl/SslHandler.java
+project_name;changes_count_mean;changes_count_median;changes_count_min;changes_count_max;p99;born_class_major;initial_size_mean;initial_size_median;initial_size_min;initial_size_max;final_class_major;final_size_mean;final_size_median;final_size_min;final_size_max;mean_size;median_size;min_size;max_size;first_commit;last_commit;mean_delta_time;median_delta_time;min_delta_time;max_delta_time
+netty~netty;114.49347403499029;34.0;1;4444;913.0;small;2772.9100249930575;1376.0;0;101726;large;4686.147181338517;2335.0;0;132916;3772.0874461993913;2025.0;0;532136;1998-12-21 10:52:47+00:00;2024-12-21 17:16:20+00:00;74.52356862215765;9.0;0;3840

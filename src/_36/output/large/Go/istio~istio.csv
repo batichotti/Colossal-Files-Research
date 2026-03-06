@@ -1,13 +1,2 @@
-repo_path,path,original_path
-Go/istio~istio,pilot/pkg/networking/core/v1alpha3/cluster_builder_test.go,pilot/pkg/networking/core/cluster_builder_test.go
-Go/istio~istio,pilot/pkg/networking/core/v1alpha3/cluster_test.go,pilot/pkg/networking/core/cluster_test.go
-Go/istio~istio,pilot/pkg/networking/core/v1alpha3/gateway_simulation_test.go,pilot/pkg/networking/core/gateway_simulation_test.go
-Go/istio~istio,pilot/pkg/networking/core/v1alpha3/gateway_test.go,pilot/pkg/networking/core/gateway_test.go
-Go/istio~istio,pilot/pkg/networking/core/v1alpha3/envoyfilter/listener_patch_test.go,pilot/pkg/networking/core/envoyfilter/listener_patch_test.go
-Go/istio~istio,pilot/pkg/networking/core/v1alpha3/listener_test.go,pilot/pkg/networking/core/listener_test.go
-Go/istio~istio,pilot/pkg/security/authn/v1beta1/policy_applier_test.go,pilot/pkg/security/authn/policy_applier_test.go
-Go/istio~istio,pilot/pkg/networking/core/v1alpha3/route/route_test.go,pilot/pkg/networking/core/route/route_test.go
-Go/istio~istio,pilot/pkg/networking/core/v1alpha3/sidecar_simulation_test.go,pilot/pkg/networking/core/sidecar_simulation_test.go
-Go/istio~istio,pkg/config/validation.go,pkg/config/validation/validation.go
-Go/istio~istio,pkg/config/validation_test.go,pkg/config/validation/validation_test.go
-Go/istio~istio,operator/pkg/apis/istio/v1alpha1/values_types.pb.go,operator/pkg/apis/values_types.pb.go
+project_name;changes_count_mean;changes_count_median;changes_count_min;changes_count_max;p99;born_class_major;initial_size_mean;initial_size_median;initial_size_min;initial_size_max;final_class_major;final_size_mean;final_size_median;final_size_min;final_size_max;mean_size;median_size;min_size;max_size;first_commit;last_commit;mean_delta_time;median_delta_time;min_delta_time;max_delta_time
+istio~istio;126.55248990578735;34.0;1;4444;913.0;small;3129.372139973082;1697.0;0;101726;large;5327.197846567968;2752.0;0;132916;4274.026221822601;2363.5;0;532136;1998-12-21 10:52:47+00:00;2024-12-21 15:25:01+00:00;73.3655376093907;7.0;0;3840

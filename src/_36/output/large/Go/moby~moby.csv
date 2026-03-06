@@ -1,14 +1,2 @@
-repo_path,path,original_path
-Go/moby~moby,vendor/github.com/docker/swarmkit/api/ca.pb.go,vendor/github.com/moby/swarmkit/v2/api/ca.pb.go
-Go/moby~moby,vendor/src/github.com/gogo/protobuf/protoc-gen-gogo/descriptor/descriptor.pb.go,vendor/github.com/gogo/protobuf/protoc-gen-gogo/descriptor/descriptor.pb.go
-Go/moby~moby,vendor/github.com/docker/swarmkit/api/dispatcher.pb.go,vendor/github.com/moby/swarmkit/v2/api/dispatcher.pb.go
-Go/moby~moby,vendor/github.com/docker/swarmkit/api/logbroker.pb.go,vendor/github.com/moby/swarmkit/v2/api/logbroker.pb.go
-Go/moby~moby,vendor/google.golang.org/genproto/googleapis/logging/v2/logging_config.pb.go,vendor/cloud.google.com/go/logging/apiv2/loggingpb/logging_config.pb.go
-Go/moby~moby,vendor/github.com/docker/swarmkit/api/objects.pb.go,vendor/github.com/moby/swarmkit/v2/api/objects.pb.go
-Go/moby~moby,vendor/github.com/coreos/etcd/raft/raftpb/raft.pb.go,vendor/go.etcd.io/etcd/raft/v3/raftpb/raft.pb.go
-Go/moby~moby,vendor/github.com/docker/swarmkit/api/specs.pb.go,vendor/github.com/moby/swarmkit/v2/api/specs.pb.go
-Go/moby~moby,vendor/golang.org/x/text/unicode/norm/tables.go,vendor/golang.org/x/text/unicode/norm/tables9.0.0.go
-Go/moby~moby,vendor/github.com/docker/swarmkit/api/types.pb.go,vendor/github.com/moby/swarmkit/v2/api/types.pb.go
-Go/moby~moby,vendor/golang.org/x/sys/windows/ztypes_windows.go,vendor/golang.org/x/sys/windows/types_windows.go
-Go/moby~moby,vendor/github.com/docker/swarmkit/api/watch.pb.go,vendor/github.com/moby/swarmkit/v2/api/watch.pb.go
-Go/moby~moby,vendor/src/golang.org/x/sys/windows/zsyscall_windows.go,vendor/golang.org/x/sys/windows/zsyscall_windows.go
+project_name;changes_count_mean;changes_count_median;changes_count_min;changes_count_max;p99;born_class_major;initial_size_mean;initial_size_median;initial_size_min;initial_size_max;final_class_major;final_size_mean;final_size_median;final_size_min;final_size_max;mean_size;median_size;min_size;max_size;first_commit;last_commit;mean_delta_time;median_delta_time;min_delta_time;max_delta_time
+moby~moby;132.2891521658645;35.0;1;4444;913.0;small;3144.7256571640132;1620.0;0;101726;large;5450.968530174009;2705.0;0;132916;4346.521992227956;2320.0;0;532136;1998-12-21 10:52:47+00:00;2024-12-21 15:25:01+00:00;74.76381763540131;7.5;0;3840
