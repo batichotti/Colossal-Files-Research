@@ -177,8 +177,6 @@ plt.plot(
 texts = []
 top_projects = project_large_files_df.nlargest(15, '# Total de Arquivos Grandes')
 
-# Novo sistema de offsets dinâmicos baseado na posição
-
 def calculate_offset(x_val, y_val, max_x, max_y):
     offset_x = 0.4 if x_val < max_x/2 else -0.4
     # Offset vertical drasticamente aumentado
@@ -218,7 +216,6 @@ for idx, row in top_projects.iterrows():
         zorder=4
     ))
 
-# Configuração final com força vertical extrema
 adjust_text(
     texts,
     arrowprops=dict(
@@ -239,9 +236,6 @@ adjust_text(
     lim=4000,  # Máximo de iterações
     force_static=(0.1, 0.5)  # Força estática mínima na vertical
 )
-
-# Ajustar limites do eixo Y para dar espaço
-# plt.ylim(0, max_y * 1.3)
 
 # Configurações finais
 plt.title('Distribuição de Projetos por Arquivos Grandes', pad=25, fontsize=14)
