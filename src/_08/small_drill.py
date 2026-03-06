@@ -8,7 +8,7 @@ from concurrent.futures import ThreadPoolExecutor
 # setting paths -------------------------------------------------------------------------------------------------------
 
 input_path: str = './src/_08/input/'
-output_path: str = './src/_08/output/'
+output_path: str = './src/_08/output/' 
 
 # Threads/CPU cores ---------------------------------------------------------------------------------------------------
 num_cores = os.cpu_count()
